@@ -1,0 +1,18 @@
+# Compiled Source files
+*.o
+*.exe
+
+
+# OS specific files
+.DS_STORE*
+ehthumbs.db
+Icon?
+Thumbs.db 
+
+# Vim buffers
+*~
+*.swp
+
+# All the downloaded package info files
+# These can be obtained from the ruby script instead, The bandwidth would be too huge for me
+repo/packages/
