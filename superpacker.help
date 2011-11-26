@@ -1,0 +1,15 @@
+SuperPacker is a package management system for linux. This is a command line utility.
+You need to supply command line arguments to this, the following arguments are accepted.
+
+1. current-status : to list the details of the packages in the system.
+2. find string : to search for packages matching the current string.
+3. install package : to install the package.
+4. remove package : to remove an installed package with its dependencies.
+5. version : to display the version information and credits.
+
+Run the program like :
+To search for a package:-
+superpacker find ruby
+
+and to install:-
+superpacker install ruby
