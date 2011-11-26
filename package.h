@@ -2,18 +2,19 @@
 #define PACKAGE_H
 
 #include<string>
-#include<list>
+#include<set>
 
 const std::string PACKAGES_DIR = "repo/packages/";
 
 class Package
 {
-  int package_id;
-  std::string name,description,url;
-  std::list<std::string> dependencies;
-  // The default constructor is made private, this disables any package to be created without the proper arguments. Further this won't be implemented so any accidental call will cause a linker error.
-  Package();
   public:
-  Package(std::string);
-  virtual bool install() = 0;
+    int package_id;
+    std::string name,description,url,pack_version;
+    std::set<std::string> dependencies;
+    //Methods
+    virtual ~Package(){};
+    virtual std::set<std::string> getDependencies()=0;
+    virtual std::string getName()=0;
+};
 #endif

@@ -5,9 +5,12 @@
 
 class MetaPackage : public Package
 {
+  //disabled default constructor
+  MetaPackage();
   public:
-  bool install();
-  bool remove();
+  MetaPackage(std::string);
+  virtual std::set<std::string> getDependencies();
+  virtual std::string getName();
 };
 
 #endif //METAPACKAGE_H

@@ -5,9 +5,12 @@
 
 class ConcretePackage : public Package
 {
+  //disabled default constructor
+  ConcretePackage();
   public:
-  bool install();
-  bool remove();
+    ConcretePackage(std::string);
+    virtual std::set<std::string> getDependencies();
+    virtual std::string getName();
 };
 
 #endif //CONCRETEPACKAGE_H

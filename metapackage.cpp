@@ -1,11 +1,13 @@
-#include "package.h"
+#include "metapackage.h"
 #include<iostream>
+#include<cstdlib>
 #include<fstream>
+#include<sstream>
 
 using namespace std;
 
 //constructs a package from the dump
-Package::Package(string pname)
+MetaPackage::MetaPackage(string pname)
 {
   const string FILENAME = PACKAGES_DIR + pname;
   //the arguments to ifstream is a cstring and hence the conversion must be made
@@ -18,30 +20,32 @@ Package::Package(string pname)
 
       if(line.find("PackageId:") != std::string::npos)
       {
-        cout<<line.substr(10)<<endl;
-
+        package_id = atoi(line.substr(10).c_str());
       }
       else if(line.find("Name:") != std::string::npos)
       {
-        cout<<line.substr(5)<<endl;
+        name = line.substr(5);
       }
-      else if(line.find("Version:") != std::string::npos)
-      {
-        cout<<line.substr(8)<<endl;
-      }
-      else if(line.length() != 0)
-      {
-        cout<<line.substr(5)<<endl;
-      }
-
     }
-  }
+    pack_version = "0.0";
+    dependencies.clear();
+    }
   else
   {
-    cout<<"File not found Aborting...\n";
+    cout<<"Package not found in the Repository Aborting...\n";
     exit(0);
   }
 
   freader.close();
 }
+//to get the name of the package
+string MetaPackage::getName()
+{
+  return name;
+}
 
+//to get the list of dependencies
+set<string> MetaPackage::getDependencies()
+{
+  return dependencies;
+}
