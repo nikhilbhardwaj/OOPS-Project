@@ -1,0 +1,10 @@
+Qpopper with drac support
+	
+qpopper is the qualcomm enhanced version of the post office protocol
+daemon (pop3 daemon), based on the latest bsd version. the qualcomm
+popper has some extensions to the normal pop3 daemon, such as uidl
+and bulletin support.
+
+drac means dynamic relay authorization control. please read documents
+of the drac package for detail. this package included a version of
+qpopper with drac support.

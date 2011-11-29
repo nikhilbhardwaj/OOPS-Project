@@ -1,0 +1,13 @@
+Board-game frontend for playing chess variants and other games
+	
+tagua is a frontend for a variety of board games.  currently
+supported games include chess, shogi and a couple of variants of
+those games.
+
+tagua is based on a powerful plugin system that allows many games to
+share the same graphical framework, game history handling,
+interoperability with ai engines and connectivity to network servers.
+
+it currently has support for xboard-compatible chess engines, and
+xshogi-compatible shogi engines, as well as network play on chess ics
+servers.

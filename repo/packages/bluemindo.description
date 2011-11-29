@@ -1,0 +1,17 @@
+Simple yet powerful audio player
+	
+bluemindo is a really simple yet powerful audio player in python/pygtk,
+using gstreamer.
+
+with bluemindo you can:
+
+ * automatically download lyrics, album-covers, or a picture of the
+   artist, for the current playing song;
+ * choose between five different view modes (lightweight, basic,
+   normal, full or albums);
+ * use plugins;
+ * get desktop notifications (requires python-notify);
+ * update gajim's status message (requires python-dbus);
+ * send music to your jabber account (requires python-xmpp) or to
+   your last.fm profile.
+ * listen to webradios and shoutcast

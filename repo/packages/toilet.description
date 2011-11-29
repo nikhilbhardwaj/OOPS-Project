@@ -1,0 +1,7 @@
+Display large colourful characters in text mode
+	
+toilet prints text using large characters made of smaller characters.
+it is similar in many ways to figlet with additional features such as
+unicode handling, colour fonts, filters and various export formats.
+
+toilet can open figlet fonts and is mostly commandline-compatible with it.

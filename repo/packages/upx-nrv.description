@@ -1,0 +1,8 @@
+An efficient live-compressor for executables
+	
+upx is an advanced executable file compressor. upx will typically
+reduce the file size of programs and dlls by around 50%-70%, thus
+reducing disk space, network load times, download times etc.
+
+note: this package is linked with the binary version of the nrv
+library.

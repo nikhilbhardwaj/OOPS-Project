@@ -1,0 +1,5 @@
+Small numeric base converter
+	
+this simple program converts numbers between bases 2 (binary),
+8 (octal), 10 (decimal) and 16 (hexadecimal).
+it can be used both from console or via a small gtk+-based x interface.

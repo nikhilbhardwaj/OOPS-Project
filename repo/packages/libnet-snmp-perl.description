@@ -1,0 +1,12 @@
+Script snmp connections
+	
+the module net::snmp implements an object oriented interface to
+the simple network management protocol.  perl applications can
+use the module to retrieve or update information on a remote
+host using the snmp protocol.  net::snmp is implemented completely
+in perl, requires no compiling, and uses only standard perl
+modules.  snmpv1 and snmpv2c (community-based snmpv2), as well as
+snmpv3 with usm are supported by the module.  snmp over udp as well
+as tcp with both ipv4 and ipv6 can be used.  the net::snmp module
+assumes that the user has a basic understanding of the simple
+network management protocol and related network management concepts.

@@ -1,0 +1,8 @@
+Junit regression test framework for java
+	
+junit is a simple framework to write repeatable tests. it is an
+instance of the xunit architecture for unit testing frameworks.
+
+junit 4 uses java 5 features such as generics and annotations.  if
+you need compatibility with previous java versions, you should use
+the junit package (version 3) instead.

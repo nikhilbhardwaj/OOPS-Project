@@ -1,0 +1,12 @@
+Sip and iax2 compatible voip phone - gnome client
+	
+sflphone is a sip/iax2 compatible softphone for linux. the sflphone project's
+goal is to create a robust enterprise-class desktop phone. while it can serve
+home users very well, it is designed with a hundred-calls-a-day receptionist
+in mind.
+
+it features a flexible client/server architecture where the gtk+ client talks
+to the daemon through dbus and is capable of handling multiple voip connections
+at once.
+
+this is the graphical client for gnome.

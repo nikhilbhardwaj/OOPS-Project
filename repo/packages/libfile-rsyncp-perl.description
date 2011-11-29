@@ -1,0 +1,6 @@
+A perl based implementation of an rsync client
+	
+this module provides an api that makes it easy to write short scripts
+that communicate with a native rsync process or a native rsyncd daemon.
+
+it was initially written to provide an rsync interface to backuppc.

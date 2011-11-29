@@ -1,0 +1,13 @@
+International ispell (an interactive spelling corrector)
+	
+ispell corrects spelling in plain text, latex, sgml/html/xml, and nroff files.
+[x]emacs and jed have nice interfaces to ispell, and ispell works from many
+other tools and from the command line as well.
+
+no ispell dictionaries are included in this package; you must install at least
+one of them ("iamerican" is the default dependency for no good reason); install
+the "ispell-dictionary" package(s) for the language(s) you and your users will
+want to spell-check.
+
+it's a good idea to install "wordlist" package(s) for the same language(s),
+because they'll be used by ispell's (l)ookup command.

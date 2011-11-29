@@ -1,0 +1,6 @@
+Generate html index from directories of rpms
+	
+rpm2html automatically generates web pages describing a set of rpm
+packages. the goal of rpm2html is also to identify the dependencies between
+various packages, and being able to find the packages providing the
+resources needed to install another package.

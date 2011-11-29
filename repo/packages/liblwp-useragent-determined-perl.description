@@ -1,0 +1,5 @@
+Lwp useragent that retries errors
+	
+lwp::useragent::determined is a user agent for the perl www library (lwp).
+it adds failure tolerance to lwp by retrying if there is a possibly
+temporary error, such as a dns timeout.

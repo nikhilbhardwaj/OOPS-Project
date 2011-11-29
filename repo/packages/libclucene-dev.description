@@ -1,0 +1,14 @@
+Library for full-featured text search engine (development)
+	
+clucene is a c++ port of the popular apache lucene search engine
+(http://lucene.apache.org/java). it is released under lgpl or the apache
+license.
+
+clucene aims to be a high-speed alternative to java lucene, its api is very
+similar to that of the java version. clucene has recently been brought up to
+date with lucene 1.4.3. it contains most of the same functionality as the
+java version, except for socket, threading and the special caching
+modifications.
+
+this package contains the static libraries and headers for developing
+applications that use the clucene search api.

@@ -1,0 +1,6 @@
+Perl module for authentication using tacacs+ server
+	
+authen::tacacsplus is a perl module that provides authentication services
+using the tacacs+ authentication protocol, optionally supporting various
+authentication methods including plain text (ascii), password authentication
+protocol (pap) and challenge-handshake authentication protocol (chap).

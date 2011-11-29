@@ -1,0 +1,9 @@
+A self-imposed discipline and productivity enforcer
+	
+lockout is a tool that imposes discipline on you so that you get some work
+done.  for example, lockout can be used to install a firewall that does not
+let you browse the web.  lockout changes the root password for a specified
+duration; this prevents you from secretly ripping down the firewall and then
+browsing the web anyway.  in case of an emergency, you can reboot your
+computer to undo the effects of lockout and to restore the original root
+password.  see also http://thomer.com/lockout/

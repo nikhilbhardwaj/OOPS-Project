@@ -1,0 +1,22 @@
+Library for autoconvert codepages gtk2 interface
+	
+originally, the project was aimed to provide means to work with
+multiple encodings
+
+ * language autodetection
+ * on the fly translation between languages, using online-services!
+ * encoding autodetection for most of european languages1
+ * support for encoding detection plugins (besides enca and librcd)
+ * recoding/translation of multi-language playlists!
+ * cache to speed-up re-recoding.
+ * possibility to configure new languages and encodings.
+ * shared configuration file. for example mentioned taglib and
+   libid3 patches do not have their own user interface, but will
+   utilize the same recoding configuration as xmms.
+ * as well the separate program for configuration adjustment is
+   available.
+ * gtk/gtk2 ui library: you can add properties page to your gtk+
+   application with 3 lines of code.
+ * menu localization opportunity
+
+this package contains gtk/gtk2 ui library.

@@ -1,0 +1,4 @@
+An encode::encoding subclass that detects the encoding of data
+	
+this module provides an interface to mozilla's universal charset
+detector, which detects the charset used to encode data.

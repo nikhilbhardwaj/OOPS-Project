@@ -1,0 +1,7 @@
+Plan 9 userland tools
+	
+9base is a port of following original plan 9 userland tools to unix:
+awk, basename, bc, cat, cleanname, date, dc, echo, grep, mk, rc, sed, seq,
+sleep, sort, tee, test, touch, tr, uniq, and yacc.
+
+9base is currently only used by wmii2 (window manager improved, version 2).

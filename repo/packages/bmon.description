@@ -1,0 +1,11 @@
+Portable bandwidth monitor and rate estimator
+	
+bmon is a commandline bandwidth monitor which supports various output
+methods including an interactive curses interface, lightweight html output but
+also simple ascii output.
+
+statistics may be distributed over a network using multicast or unicast and
+collected at some point to generate a summary of statistics for a set of
+nodes.
+
+homepage: http://suug.ch/~tgr/bmon/

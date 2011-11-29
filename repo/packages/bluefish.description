@@ -1,0 +1,11 @@
+Advanced gtk+ html editor
+	
+bluefish is a gtk+ html editor for the experienced web designer.
+its features include nice wizards for startup, tables and frames; a
+fully featured image insert dialog; thumbnail creation and automatically
+linking of the thumbnail with the original image; and configurable html
+syntax highlighting.
+
+for validation to work you need weblint and xmllint. for preview to work,
+you need a web browser that can view local files given to it
+on the command line.

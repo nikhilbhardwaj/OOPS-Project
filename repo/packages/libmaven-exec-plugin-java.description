@@ -1,0 +1,5 @@
+Maven exec plugin
+	
+the plugin provides 2 goals to help execute system and java programs:
+exec:exec, execute programs and java programs in a separate process and
+exec:java, execute java programs in the same vm.

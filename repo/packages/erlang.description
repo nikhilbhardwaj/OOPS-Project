@@ -1,0 +1,18 @@
+Concurrent, real-time, distributed functional language
+	
+open source erlang is a functional programming language designed at
+the ericsson computer science laboratory.
+
+some of erlang main features are:
+
+ * clear declarative syntax and is largely free from side-effects;
+ * built-in support for real-time, concurrent and distributed programming;
+ * designed for development of robust and continuously operated programs;
+ * dynamic code replacement at runtime.
+
+
+the erlang distribution also includes otp (open telecom platform) which
+provides a rich set of libraries and applications.
+
+this package is a dummy package which will install erlang/otp runtime,
+applications, sources, code examples and the erlang editing mode for emacs.

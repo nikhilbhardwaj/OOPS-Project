@@ -1,0 +1,9 @@
+Basic ltsp client environment
+	
+this package provides the scripts needed to configure and boot a basic ltsp
+client.
+
+do not install this package on a regular machine, it is intended only
+for installation inside a ltsp client file system.
+
+ltsp stands for 'linux terminal server project'.

@@ -1,0 +1,9 @@
+X-ray absorption data for the elements
+	
+this module supports access to x-ray absorption data.  it is designed
+to be a transparent interface to absorption data from a variety of
+sources.  currently, the only sources of data are the 1969 mcmaster
+tables, the 1999 elam tables, the 1993 henke tables, and the 1995
+chantler tables.  the brennan-cowen implementation of the
+cromer-liberman tables is available as a drop-on-top addition to this
+package.  more resources can be added easily.

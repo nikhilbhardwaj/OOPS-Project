@@ -1,0 +1,12 @@
+Haskell sha suite of message digest functions - ghc 6 profiling libraries
+	
+this library implements the sha suite of message digest functions,
+according to nist fips 180-2 (with the sha-224 addendum), as well
+as the sha-based hmac routines.
+
+the functions have been tested  against most of the nist and rfc test
+vectors for the various functions. while some attention has been paid
+to performance, these do not presently reach the speed of well-tune
+libraries, like openssl.
+
+this package contains the profiling libraries compiled for ghc 6.

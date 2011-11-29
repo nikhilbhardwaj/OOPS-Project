@@ -1,0 +1,26 @@
+Perl extension for the automatic generation of latex tables
+	
+latex::table is a perl extension for the automatic generation of latex tables
+
+latex makes professional typesetting easy. unfortunately, this is not
+entirely true for tables and the standard latex table macros have a rather
+limited functionality. latex::table supports many ctan packages and hides the
+complexity of using them behind an easy and intuitive api.
+
+this module supports multipage tables via the xtab and the longtable package.
+for publication quality tables it utilizes the booktabs package. it also
+supports the tabularx and tabulary packages for nicer fixed-width tables.
+furthermore, it supports the colortbl package for colored tables optimized for
+presentations.  the powerful new ctable package is supported and especially
+recommended when footnotes are needed. latex::table ships with some
+predefined, good looking themes.
+
+this module ships with two small utilities. the first, csv2pdf is a csv to pdf
+converter. it is only about 100 lines of code short and only meant as an
+example application, but it is already very powerful. it requires getopt::long,
+text::csv, latex::encode and latex::driver.
+
+the second utility is ltpretty. it takes a lazy formatted latex table from
+stdin (typically piped from vim or emacs) and outputs a completely formatted
+table. this makes this module not only useful for automatically generated
+reports, but also saves a lot of typing work in creating custom tables.

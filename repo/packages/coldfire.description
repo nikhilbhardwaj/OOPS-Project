@@ -1,0 +1,9 @@
+Freescale coldfire 5206 emulator
+	
+coldfire is a freescale coldfire 5206 emulator. it currently features
+all but 5 assembly instructions, a full dbug with extra functionality,
+both serial ports, the parallel port, interrupts (through telnet
+sessions), full exception handling, timers and timer interrupts, and
+full tracing capability.
+
+homepage: url: http://www.slicer.ca/coldfire/

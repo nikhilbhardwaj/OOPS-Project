@@ -1,0 +1,9 @@
+X11 server resource usage monitor
+	
+xrestop uses the x-resource extension to provide top(1)-like statistics
+for each connected x11 client's server-side resource usage. it is intended
+as a developer tool to aid more efficient server resource usage and debug
+server-side resource leakage.
+
+xrestop requires the x-resource extension, supported by xfree86 4.3 and
+above, and by the freedesktop.org x server.

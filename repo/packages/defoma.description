@@ -1,0 +1,11 @@
+Debian font manager -- automatic font configuration framework
+	
+defoma, which stands for debian font manager, provides a framework
+for automatic font configuration. an application whose configuration
+of fonts usually requires manual intervention can automate the
+process through defoma, by installing a defoma-configuration
+script. the script gets called whenever a font is installed and
+removed, so that the script may update the application configuration.
+
+font packages should register their fonts to defoma in order to have them
+configured automatically for applications.

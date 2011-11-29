@@ -1,0 +1,8 @@
+Nntp client news injector, from internetnews (inn)
+	
+'inews' is the program that newsreaders call when the user wishes to
+post an article; it does a few elementary checks and passes the article
+on to the news server for posting.
+
+this version is the one from rich salz's internetnews news transport
+system (which is also available as a debian package).

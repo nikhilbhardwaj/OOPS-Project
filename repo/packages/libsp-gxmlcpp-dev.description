@@ -1,0 +1,11 @@
+S+p c++ wrapper for gnome libxml2/libxslt
+	
+this is a wrapper to ease use of gnome libxml2/libxslt with c++,
+developed at schlund+partner, germany.
+
+it offers simple abstractions for trees (xmltree), xsl
+transformations (xsltrans) and serialisation (xmldump).
+
+this package provides all files needed for development.
+
+homepage: http://sourceforge.net/projects/sp-gxmlcpp/ .

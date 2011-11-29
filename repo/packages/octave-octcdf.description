@@ -1,0 +1,8 @@
+Netcdf data files interface for octave
+	
+this package provides functions to work with netcdf data files in
+octave, a numerical computation software. this package provides a
+function (netcdf) that creates and reads netcdf files and writes to a
+netcdf file (ncdump) among others.
+
+this octave add-on package is part of the octave-forge project.

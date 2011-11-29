@@ -1,0 +1,5 @@
+Elf gnu_stack program header editing utility
+	
+the execstack package contains a utility which modifies (or adds) the
+gnu_stack program header to elf binaries, and allows changing the executable
+flag.

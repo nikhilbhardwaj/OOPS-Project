@@ -1,0 +1,10 @@
+A cross-platform makefile tool
+	
+tmake is an easy-to-use tool from trolltech to create and maintain makefiles
+for software projects.  it can be a painful task to manage makefiles
+manually, especially if you develop for more than one platform or use more
+than one compiler.  tmake automates and streamlines this process and lets you
+spend your valuable time on writing code, not makefiles.
+
+tmake is mainly used to generate makefiles for applications that use the qt
+toolkit.

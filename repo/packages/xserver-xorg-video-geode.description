@@ -1,0 +1,14 @@
+X.org x server -- geode gx2/lx display driver
+	
+this package provides the 'geode' driver for the geode family of chipsets,
+including nsc gx2 (red cloud), amd gx and amd lx series chips.
+
+this package also provides the 'ztv' driver for the video input feature.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg-driver-geode>
+
+this package is built from the x.org xf86-video-geode driver module.

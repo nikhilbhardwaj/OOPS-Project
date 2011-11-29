@@ -1,0 +1,8 @@
+Gtk+ library to embed openstreetmap maps - python bindings
+	
+libosmgpsmap is a library to embed maps in applications that when given gps
+co-ordinates, draws a gps track, and points of interest on a moving map
+display. downloads map data from a number of websites, including
+openstreetmap.org, openaerialmap.org and others.
+
+this package provides the python bindings for the library.

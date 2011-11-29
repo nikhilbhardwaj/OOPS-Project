@@ -1,0 +1,10 @@
+Debug symbols for icedove
+	
+icedove is an unbranded thunderbird mail client suitable for free
+distribution. it supports different mail accounts (pop, imap, gmail), has an
+integrated learning spam filter, and offers easy organization of mails with
+tagging and virtual folders. also, more features can be added by installing
+extensions.
+
+this package contains the debug symbols for icedove. install this package if
+you need to debug such a program or if you need a useful backtrace of a crash.

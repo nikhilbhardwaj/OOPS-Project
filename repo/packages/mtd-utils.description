@@ -1,0 +1,5 @@
+Memory technology device utilities
+	
+utilities for manipulating memory technology devices, such as flash
+memory, disk-on-chip, or rom.  includes mkfs.jffs2, a tool to create
+jffs2 (journaling flash file system) filesystems.

@@ -1,0 +1,12 @@
+Wietse venema's tcp wrappers library, development files
+	
+wietse venema's network logger, also known as tcpd or log_tcp.
+
+these programs log the client host name of incoming telnet,
+ftp, rsh, rlogin, finger etc. requests.
+
+security options are:
+
+ - access control per host, domain and/or service;
+ - detection of host name spoofing or host address spoofing;
+ - booby traps to implement an early-warning system.

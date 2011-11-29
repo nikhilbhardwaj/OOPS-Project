@@ -1,0 +1,5 @@
+Compression library - runtime for debian installer
+	
+zlib is a library implementing the deflate compression method found
+in gzip and pkzip.  this minimal package includes the shared library
+for use with the debian installer.

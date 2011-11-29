@@ -1,0 +1,20 @@
+Host and network monitoring system - documentation
+	
+icinga is a modular monitoring framework for hosts, services, and
+networks, based on the nagios project. it is designed to be easy to
+understand and modify to fit any need.
+
+features include:
+
+ * monitoring of network services via ping, smtp, pop3, http, nntp, or
+   tcp port;
+ * plugin interface to allow for user-developed service checks;
+ * contact notifications when problems occur and get resolved (via
+   email, pager, or user-defined method)
+ * support for proactive problem resolution (handlers can be defined to
+   be run during service or host events);
+ * web output: current status, notifications, problem history, log
+   file, etc.
+
+
+this package provides the documentation for icinga.

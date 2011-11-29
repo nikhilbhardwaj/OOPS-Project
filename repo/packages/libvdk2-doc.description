@@ -1,0 +1,16 @@
+Documentation for vdk library version 2
+	
+the visual development kit (vdk) is a c++ library
+that wraps the gtk+ toolkit.
+
+the package also includes the vdk component library which
+contains some  useful new  components not available in pure
+gtk+.
+
+programming in vdk is much like programming in vcl
+and borland c++ builder.
+
+this package contains the header files and static libraries for
+the vdk c++ and for the vdk component libraries.
+
+install this package if you want the html documentation of vdk.

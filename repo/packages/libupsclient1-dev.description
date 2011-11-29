@@ -1,0 +1,9 @@
+Network ups tools - development files
+	
+network ups tools (nut) is a client/server monitoring system that
+allows computers to share uninterruptible power supply (ups) and
+power distribution unit (pdu) hardware. clients access the hardware
+through the server, and are notified whenever the power status
+changes.
+
+this package provides the development files.

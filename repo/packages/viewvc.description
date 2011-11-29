@@ -1,0 +1,16 @@
+Web interface for cvs and/or subversion repositories
+	
+viewvc is a browser (web) interface for cvs and subversion version
+control repositories.  it generates templatized html to present
+navigable directory, revision, and change log listings.  it can display
+specific versions of files as well as diffs between those versions.
+
+basically, viewvc provides the bulk of the report-like functionality you
+expect out of your version control tool, but much more prettily than the
+average textual command-line program output.
+
+viewvc can be used in two modes, both of which are supported by this
+package: (1) by running the simple stand-alone server
+"viewvc-standalone", with or without a gui, and/or (2) by integrating
+viewvc with apache (or another cgi-enabled http server), using either
+cgi or mod-python.  this second mode is the normal way viewvc is used.

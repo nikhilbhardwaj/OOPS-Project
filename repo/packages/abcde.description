@@ -1,0 +1,10 @@
+A better cd encoder
+	
+a frontend program to cdparanoia, wget, cd-discid, id3, and your favorite
+ogg/vorbis, mp3, flac, ogg/speex and/or mpp/mp+(musepack) encoder (defaults
+to oggenc). grabs an entire cd and converts each track to the specified
+formats and then comments or id3-tags each file, with one command.
+
+with abcde you can encode several formats with one single command, using a
+single cd read operation. it also allows you to read and encode while not
+on the internet, and later query a cddb server to tag your files.

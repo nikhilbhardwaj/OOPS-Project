@@ -1,0 +1,5 @@
+Check validity of ipv6 addresses
+	
+net::ipv6addr checks strings for valid ipv6 addresses, as specified in
+rfc1884.  you throw possible addresses at it, it either accepts them or throws
+an exception.

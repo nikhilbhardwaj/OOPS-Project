@@ -1,0 +1,10 @@
+Graphical newsreader written in python and gtk+ toolkit
+	
+with xpn you can read/write articles on the usenet with a good mime support.
+xpn can operate with all the most widespread charsets, starting from us-ascii
+to utf-8. when you edit an article xpn automatically chooses the best
+charset, however is always possible to override this choice.
+
+there also other useful features like scoring, filtered views, random
+tag-lines, external editor support, one-key navigation, rot13, spoiler
+char, ...

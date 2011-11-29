@@ -1,0 +1,6 @@
+Simple file system monitor
+	
+filesys::notify::simple is a perl module that provides a simple and unified
+interface to get notifications of changes for a given filesystem path. it can
+use inotify2 on linux or fsevents on mac os x, and otherwise falls back to a
+full directory scan.

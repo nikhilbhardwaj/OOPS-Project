@@ -1,0 +1,7 @@
+Ruby plugin adding pagination to activerecord
+	
+pagination is just limiting the number of records displayed, showing a
+subset of them at any given view, and allowing you to move the
+displayed window. this plugin makes the whole process a breeze.
+
+willpaginate is aimed at being used from the ruby on rails framework.

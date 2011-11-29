@@ -1,0 +1,5 @@
+Object interface for af_inet6 domain sockets
+	
+io::socket::inet6 provides an object interface to create and use sockets
+in the af_inet6 domain. it is built upon the io::socket interface and
+inherits all the methods defined by io::socket.

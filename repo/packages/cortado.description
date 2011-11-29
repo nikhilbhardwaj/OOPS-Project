@@ -1,0 +1,12 @@
+Streaming applet for ogg formats
+	
+by embedding the cortado applet in your website, you can give viewers access
+to streams from either the flumotion streaming server or any http server
+providing multimedia files without the need for a locally installed media
+player supporting the correct formats on the visitor's computer.  cortado
+currently include java decoders for ogg theora, ogg vorbis (the jorbis
+library), mulaw audio, mjpeg and flumotion's smoke codec.
+
+the package will automatically be configured for apache2 but can be used with
+any other http server. some html files are included as examples of how to use
+the applet.

@@ -1,0 +1,4 @@
+Time::piece::mysql - adds mysql-specific methods to time::piece
+	
+using this module instead of, or in addition to, time::piece adds a
+few mysql-specific date-time methods to time::piece objects.

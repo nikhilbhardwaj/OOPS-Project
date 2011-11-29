@@ -1,0 +1,15 @@
+The berkeley database routines [glibc 2.0/2.1 compatibility]
+	
+libdb is a library for manipulating database files, developed at berkeley.
+
+it supports three kinds of file formats:
+
+ * btree. a representation of a sorted, balanced tree structure.
+ * hashed. an extensible, dynamic hashing scheme.
+ * unix file oriented. a byte stream file with fixed or variable length
+   records.
+
+
+this library exists for compatibility with applications built against
+glibc 2.0 or 2.1. there is intentionally no corresponding development
+package. do not link new applications against this library!

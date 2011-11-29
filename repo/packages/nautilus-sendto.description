@@ -1,0 +1,9 @@
+Integrates evolution and pidgin into the nautilus file manager
+	
+the nautilus send to plugin provides the nautilus file manager with a context
+menu component for quickly sending files to accounts in an evolution email
+address book, contacts on a pidgin or gajim instant messaging list, through
+icedove, or through claws mail.
+
+nautilus send to also provides the option of compressing the files (tar.bz2,
+tar.gz, or zip) before sending.

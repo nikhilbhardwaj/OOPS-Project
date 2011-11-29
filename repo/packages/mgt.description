@@ -1,0 +1,8 @@
+A game record display/editor for the oriental game of go
+	
+mgt allows the user to examine go game tree files in the smartgo format.
+mgt also has basic go game tree editing capabilities and may be used
+to create or edit game tree files.
+
+mailgo is a utility which manages e-mail go games using mgt as the go
+board editor.  it is included in the mgt package.

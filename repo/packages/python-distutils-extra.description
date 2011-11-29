@@ -1,0 +1,10 @@
+Enhancements to the python build system
+	
+this package provides additional functions to python's distutils and
+setuptools. it allows you to easily integrate gettext, icons and gnome
+documentation into your build and installation process.
+
+it also provides an "auto" module which provides a "do what i mean" automatic
+build system; if you stick to the conventions, you do not need to write
+setup.cfg, potfiles.in, or manifest.in, and setup.py just needs to have the
+package metadata (such as project name and version).

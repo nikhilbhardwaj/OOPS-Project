@@ -1,0 +1,10 @@
+Adds xpath support to xml::dom, using xml::xpathengine
+	
+xml::dom::xpath allows you to use xml::xpath methods to query a dom.
+this is often much easier than relying only on getelementsbytagname.
+it lets you use all of the xml::dom methods.
+
+in truth this should only be used if you have existing code using xml::dom.
+if you start a new project and you can install xml::libxml (and libxml2 on
+which it is based) then you will get a dom, xpath support and a lot more
+power and speed.

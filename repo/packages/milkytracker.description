@@ -1,0 +1,12 @@
+Music creation tool inspired by fast tracker 2
+	
+this is an editor for "tracked" music, i.e. audio samples of instruments
+pitch shifted according to the note data.
+
+it can load the following module formats: 669, ams, amf, dbm, cba, digi,
+dsm, far, gmc, gdm, imf, it, mod, mdl, mtm, mxm, okt, plm, psm, ptm, s3m,
+stm, ult, uni, and x.
+
+export is possible into the formats: xm, mod, and wav.
+
+supported sample and instrument formats: wav, iff/xi, pat

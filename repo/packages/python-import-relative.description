@@ -1,0 +1,6 @@
+Relative import of a module for older versions of python (i.e. pre 2.6)
+	
+this package provides import_relative module to implement relative
+import of a module for older versions of python (i.e. pre 2.6) or
+where you want this feature and need it to be compatible with older
+versions of python.

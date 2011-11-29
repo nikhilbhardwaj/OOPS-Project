@@ -1,0 +1,18 @@
+Create a cd9660 or ffs file system image from a directory tree
+	
+netbsd® makefs(8) creates a file system image from a directory tree
+without the need for superuser privileges. the mirbsd version fixes
+ecma 119, susp and rrip (rock ridge) compliance and adds features.
+
+supported target filesystem types are:
+
+
+   cd9660   iso 9660 (ecma 119) compatible filesystem images, with
+            rock ridge, el torito, and other features
+   ffs      4.2ffs, the bsd fast filesystem, also known as ufs1;
+            ufs2 (with "-o version=2")
+
+
+the images created can be of a fixed (predefined) size, given on the
+command line, or sized automatically. permission bits are taken from
+the source directory tree but may be overridden using an mtree file.

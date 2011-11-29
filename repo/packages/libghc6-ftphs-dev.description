@@ -1,0 +1,13 @@
+Ftp client and server library for haskell, ghc package
+	
+ftphs provides a haskell library to implement a ftp client
+and a ftp server.
+
+ftphs has a number of features:
+
+
+ * easy to use operation
+ * full support of text and binary transfers
+ * optional lazy interaction
+ * server can serve up a real or a virtual filesystem tree
+ * standards compliant

@@ -1,0 +1,8 @@
+Perl module for cnnecting to iphoto shares (dpap)
+	
+the net::dpap::client module provides a dpap client. dpap is the digital photo
+access protocol and is the protocol that apple iphoto uses to share photos.
+this allows you to browse shared albums, and download thumbnail and hires
+versions of shared photos.
+
+it currently doesn't support password-protected shares.

@@ -1,0 +1,14 @@
+Module to use a local path for perl modules
+	
+local::lib is a perl module that provides a quick, convenient way of setting
+up a user-local library located within the user's home directory. it also
+constructs and prints out for the user the list of environment variables
+using the syntax appropriate for the user's current shell (as specified by
+the shell environment variable), suitable for directly adding to one's shell
+configuration file.
+
+more generally, this module enables bootstrapping and usage of a directory
+containing perl modules outside of perl's @inc. this makes it easier to ship
+an application with an app-specific copy of a perl module, or collection of
+modules. it is also useful for the case where an upstream maintainer hasn't
+applied a patch to a module of theirs that you need for your application.

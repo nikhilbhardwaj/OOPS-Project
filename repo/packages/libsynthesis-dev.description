@@ -1,0 +1,8 @@
+Library for syncml-ds (syncml data sync) clients (development files)
+	
+the synthesis syncml engine supports syncml versions 1.0, 1.1 and 1.2
+including complex features like data filtering, suspend & resume,
+vcard/vcalendar format conversion in a way completely transparent to
+the user of the library.
+
+these are the development files, only needed if you are compiling applications.

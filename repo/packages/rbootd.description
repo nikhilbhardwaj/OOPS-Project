@@ -1,0 +1,7 @@
+Remote boot daemon
+	
+the rbootd daemon is used for booting some hp workstations
+over the network (such as the 9000/300 and 9000/400 series).
+it can also boot pa risc workstations.  it handles the first
+stage of the boot sequence and can be used to start booting
+linux, netbsd or hpux.

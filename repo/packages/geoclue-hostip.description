@@ -1,0 +1,7 @@
+Position server for geoclue (hostip)
+	
+geoclue provides applications access to various geographical information
+sources using a d-bus api or a c library.
+
+this package provides a positioning backend for geoclue.
+it uses the ip geolocation database (http://hostip.info).

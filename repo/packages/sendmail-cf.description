@@ -1,0 +1,9 @@
+Powerful, efficient, and scalable mail transport agent
+	
+sendmail is an alternative mail transport agent (mta) for
+debian. it is suitable for handling sophisticated mail
+configurations, although this means that its configuration
+can also be complex.
+
+this package contains the .m4 (configuration files) for the
+sendmail packages.

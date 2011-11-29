@@ -1,0 +1,9 @@
+Simple and fast cross-platform multimedia library - graphics part
+	
+sfml is an modern multimedia library offering a wide range of subsystems
+useful to produce an multimedia app. it offers opengl integration for
+hardware accelerated graphics, windowing and input support, audio and
+network facilities and supports gnu/linux ms windows and mac os x.
+
+the graphics library contains all the opengl and drawing code. it needs the
+window library for window creation.

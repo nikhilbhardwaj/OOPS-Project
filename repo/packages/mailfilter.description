@@ -1,0 +1,15 @@
+A program that filters your incoming e-mail to help remove spam
+	
+mailfilter is very flexible utility for unix (-like) operating systems
+to get rid of unwanted e-mail messages, before having to go through the
+trouble of downloading them to the local computer. it offers support for
+one or many pop3 accounts and is especially useful for dialup connections
+via modem, isdn, etc. install mailfilter if you'd like to remove spam from
+your pop3 mail accounts.
+
+with mailfilter you can define your own filters (rules) to determine
+which e-mails should be delivered and which are considered waste. rules
+are regular expressions, so you can make use of familiar options from
+other mail delivery programs such as e.g. procmail.
+
+if you do not get your mail from a pop3-server you don't need mailfilter.

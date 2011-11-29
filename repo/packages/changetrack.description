@@ -1,0 +1,10 @@
+Monitor changes to (configuration) files
+	
+a program to automatically monitor changes to a set of files.  if
+files are modified one day, and the machine stops working correctly
+some days later, changetrack provides information on which files were
+modified, and thus helps locate the problem.  if you tell changetrack
+to use either the line editor ed (the default) or the revision
+control system (rcs), you can recover files to any previous stage.
+if you do not want to install perl, try out the filetraq or diffmon
+package.  another similar program is etckeeper.

@@ -1,0 +1,15 @@
+Bgp/ospf/rip routing daemon
+	
+gnu quagga is free software which manages tcp/ip based routing protocols.
+it supports bgp4, bgp4+, ospfv2, ospfv3, is-is, ripv1, ripv2, and ripng as
+well as the ipv6 versions of these.
+
+as the precessor zebra has been considered orphaned, the quagga project
+has been formed by members of the zebra mailing list and the former
+zebra-pj project to continue developing.
+
+quagga uses threading if the kernel supports it, but can also run on
+kernels that do not support threading. each protocol has its own daemon.
+
+it is more than a routed replacement, it can be used as a route server and
+a route reflector.

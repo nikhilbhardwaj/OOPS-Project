@@ -1,0 +1,11 @@
+Efficient rsh-like utility, for using hosts in parallel
+	
+pdsh is a high-performance, parallel remote shell utility, similar to dsh.
+it has built-in, thread-safe clients for rsh. pdsh uses a "sliding window"
+parallel algorithm to conserve socket resources on the initiating node and
+to allow progress to continue while timeouts occur on some connections.
+
+it makes all parallel connections from one client machine, and attempts to
+keep 32 (default, can be changed on command line) connections to remote
+machines at any given time.  it can run single commands or as an interactive
+shell.

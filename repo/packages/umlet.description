@@ -1,0 +1,13 @@
+Simple, text driven uml drawing tool
+	
+umlet is a uml tool aimed at providing a fast way of drawing
+uml diagrams. uml elements are modified using text input instead
+of pop-up dialogs. elements can be modified and used as
+templates; this way, users can easily tailor umlet to their
+modeling needs. umlet supports a variety of uml diagram types:
+class diagrams, use case diagrams, sequence diagrams, state
+diagrams, deployment diagrams, activity diagrams, etc.
+
+umlet can only be used for drawing uml diagrams, it does not
+support code export or the xmi format. umlet allows to export
+diagrams as images or pdf.

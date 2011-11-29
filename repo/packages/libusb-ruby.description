@@ -1,0 +1,8 @@
+Libusb binding for the ruby language
+	
+ruby-usb is a libusb binding library for ruby.  it provides both
+direct (non-rubyish) binding and rubyish interface, while the latter
+is work in progress.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8.x).

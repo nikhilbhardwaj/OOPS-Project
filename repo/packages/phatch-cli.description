@@ -1,0 +1,9 @@
+Simple to use photo batch processor - command line interface
+	
+phatch handles all popular image formats and can duplicate (sub)folder
+hierarchies. it can batch resize, rotate, apply perspective, shadows, rounded
+corners, ... and more in minutes instead of hours or days if you do it
+manually. phatch allows you to use exif and iptc tags for renaming and data
+stamping.
+
+this package contains command line interface to phatch.

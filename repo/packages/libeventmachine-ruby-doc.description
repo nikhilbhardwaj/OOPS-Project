@@ -1,0 +1,14 @@
+Event-driven i/o library for high-performance threaded network programming
+	
+eventmachine implements a fast, single-threaded engine for arbitrary network
+communications. it's extremely easy to use in ruby. eventmachine wraps all
+interactions with ip sockets, allowing programs to concentrate on the
+implementation of network protocols. it can be used to create both network
+servers and clients. to create a server or client, a ruby program only needs
+to specify the ip address and port, and provide a module that implements the
+communications protocol. implementations of several standard network protocols
+are provided with the package, primarily to serve as examples. the real goal
+of eventmachine is to enable programs to easily interface with other programs
+using tcp/ip, especially if custom protocols are required.
+
+this package contains documentations.

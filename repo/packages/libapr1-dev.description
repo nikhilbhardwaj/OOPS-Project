@@ -1,0 +1,7 @@
+The apache portable runtime library - development headers
+	
+apr is apache's portable runtime library, designed to be a support library
+that provides a predictable and consistent interface to underlying
+platform-specific implementations.
+
+this package contains development headers for apr.

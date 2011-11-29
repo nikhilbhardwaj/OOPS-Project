@@ -1,0 +1,8 @@
+Infra-red remote control support - kernel modules
+	
+lirc stands for 'linux infra-red remote control'.
+
+this package provides the source for the kernel modules to support
+infra-red remote controls under linux.
+
+the kernel sources must be installed to compile these modules.

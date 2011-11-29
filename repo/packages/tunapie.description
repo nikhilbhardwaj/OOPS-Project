@@ -1,0 +1,7 @@
+Lists audio and video streams from shoutcast and icecast
+	
+a gui based program for displaying shoutcast or icecast video and radio
+streams. it gives information about streams including bitrate, ip and current
+number of listeners. streams can then be played using an appropriate media
+player, defined in preferences. tunapie also allows streams to be recorded
+using streamripper. recordings can be set to start and stop at specified times.

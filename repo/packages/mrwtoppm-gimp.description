@@ -1,0 +1,11 @@
+Gimp-plugin to support minolta dimage 5/7/7i raw images
+	
+this plugin processes raw images of the minolta dimage 5 and 7 series
+digital slr camera's. supported postprocessing steps are:
+
+
+ - colourspace conversion from the camera's own large colourspace to srgb
+ - interpolation of the ccd's bayer pattern using bilinear, vector median or
+   various other interpolation algorithms
+ - tone curve adjustment
+ - separate sharpening and blurring of luminance and chrominance channels

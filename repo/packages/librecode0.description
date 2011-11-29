@@ -1,0 +1,7 @@
+Shared library on which recode is based
+	
+this recoding library converts files between various coded character
+sets and surface encodings.  the library recognizes or produces more
+than 300 different character sets and is able to convert files between
+almost any pair.  most rfc 1345 character sets, and all `libiconv'
+character sets, are supported.

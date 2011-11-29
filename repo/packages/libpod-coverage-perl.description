@@ -1,0 +1,5 @@
+Checker for comprehensiveness of perl module documentation
+	
+pod::coverage provides a mechanism for determining if the pod for a given
+module is comprehensive. it checks on a function by function basis and is
+useful for finding holes in module documentation.

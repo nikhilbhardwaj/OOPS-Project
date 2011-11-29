@@ -1,0 +1,14 @@
+Lightweight, extensible meta-backup system
+	
+backupninja lets you drop simple config files in /etc/backup.d to
+coordinate system backups. backupninja is a master of many arts,
+including incremental remote filesystem backup, mysql backup, and ldap
+backup. by creating simple drop-in handler scripts, backupninja can
+learn new skills. backupninja is a silent flower blossom death strike to
+lost data.
+
+in addition to backing up regular files, backupninja has handlers to ease
+backing up: ldap, maildir, mysql, svn, trac, and the output from shell scripts
+
+backupninja currently supports common backup utilities, easing their
+configuration, currently supported are: rdiff-backup, duplicity, cd/dvd

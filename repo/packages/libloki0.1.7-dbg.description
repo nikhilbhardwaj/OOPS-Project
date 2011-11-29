@@ -1,0 +1,9 @@
+A c++ library of generic design patterns (debug information)
+	
+loki is a ("the"?) c++ library of generic programming techniques, containing
+flexible implementations of common design patterns and idioms. it is an
+essential library for modern c++ programming and exposes many cool features
+of the language.
+
+this package contains debugging symbols useful for tracing bugs in the
+libloki package.

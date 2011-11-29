@@ -1,0 +1,10 @@
+Bidirectional support for icedove
+	
+an extension for icedove (originally written for thunderbird) that allows
+users to create emails with explicit paragraph directionality, as needed for
+proper recipient rendering of emails with bidi languages, such as hebrew,
+arabic, farsi, urdu or yiddish.
+
+the extension adds "bidi" controls, setting the paragraph direction, as well
+as automatic direction sensing for unformatted text messages, and direction
+overrides.

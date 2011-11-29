@@ -1,0 +1,8 @@
+Functions to do data smoothing on noisy data
+	
+this package provides functions to do noisy data smoothing in octave,
+a numerical computation software. it contains functions to calculate
+the divided difference of order d of a vector x (ddmat) and several
+functions to do tikhonov data manipulation.
+
+this octave add-on package is part of the octave-forge project.

@@ -1,0 +1,9 @@
+Akima spline interpolation
+	
+aspline(1) interpolates an akima-spline through a series of given points.
+the akima-spline interpolation approximates a manually drawn curve better
+than the ordinary splines, but the second derivative is not continuous.
+
+the akima-spline algorithm is described in "a new method of interpolation and
+smooth curve fitting based on local procedures", h. akima, j. assoc. comput.
+mach., 17(4), 1970, pp. 589-602. doi:10.1145/321607.321609

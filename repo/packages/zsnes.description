@@ -1,0 +1,9 @@
+Emulator of the super nintendo entertainment system (tm)
+	
+zsnes allows you to play classic games written for the "snes" game
+console on a gnu/linux system. it supports advanced features such as
+multiplayer gameplay over a tcp/ip network.
+
+please note that many separately-available games playable under this
+emulator are non-free. see /usr/share/doc/zsnes/readme.debian for more
+information.

@@ -1,0 +1,11 @@
+Java implementation of continuations concept
+	
+commons javaflow is a pure java implementation of the continuations concept.
+
+for more information about continuation, you can have a look on
+<http://en.wikipedia.org/wiki/continuation> or
+<http://www.artima.com/lejava/articles/continuations.html>
+
+to use javaflow in your program, javaflow needs to enhance its java byte code:
+- statically, using the javaflow ant task as a part of your build process
+- dynamically, at runtime, by using javaflow's continuationclassloader.

@@ -1,0 +1,6 @@
+Terminal server daemon
+	
+this daemon allows telnet sessions to be established
+with a unit's serial ports. this is particularly useful
+if you want to give access to a local serial port to
+another host which runs ttyd.

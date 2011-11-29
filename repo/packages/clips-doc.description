@@ -1,0 +1,9 @@
+"c" language integrated production system documentation
+	
+this package contains the documentation (users guide, interfaces guide...)
+of clips, as well as some programming examples that might be useful
+to new programmers.
+
+clips is an ops-like forward chaining production system written in ansi c by
+nasa. the clips inference engine includes truth maintenance, dynamic rule
+addition, and customizable conflict resolution strategies.

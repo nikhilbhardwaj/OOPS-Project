@@ -1,0 +1,6 @@
+Text to postscript converter with some c syntax highlighting
+	
+atp is a text to postscript converter. it supports a special
+"gaudy" output mode, uses user-selectable number of columns and margins
+in the output, supports nroff's bold and italic conventions, and
+has some syntax highlighting for c and c++ sources.

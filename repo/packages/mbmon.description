@@ -1,0 +1,6 @@
+Hardware monitoring without kernel dependencies (text client)
+	
+(x)mbmon allows you to monitor hardware status using your motherboard's
+sensors. this information can be: temperatures, voltages and/or fan speeds.
+
+this package contains the console client.

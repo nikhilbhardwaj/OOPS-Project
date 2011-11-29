@@ -1,0 +1,12 @@
+Satellite tracking program with optional voice output
+	
+this is a satellite tracking program.  it is probably mostly of interest to
+users of amateur satellites, but includes support for optionally announcing
+azimuth and elevation to help in manual antenna pointing, or optical
+observation of satellites.
+
+the upstream predict sources include a front-end called 'map', which is
+called predict-map in the debian package.
+
+the 'ntp' package is suggested because accurate satellite tracking depends
+on precise knowledge of ground station time and location.

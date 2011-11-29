@@ -1,0 +1,12 @@
+Java mvc framework focused in view and controller layers
+	
+the web flow module is a mvc extension that allows you to define controllers
+using a domain-specific-language. this language is designed to model user
+interactions that require several requests into the server to complete, or may
+be invoked from different contexts. provides:
+
+ - a domain-specific-language for defining reusable controller modules called
+   flows.
+ - an advanced controller engine for managing conversational state.
+ - first-class support for using ajax to construct rich user interfaces.
+ - first-class support for using javaserverfaces with spring.

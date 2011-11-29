@@ -1,0 +1,8 @@
+Free adlib sound library (development)
+	
+adplug is a free, multi-platform, hardware independent adlib sound library,
+mainly written in c++. adplug plays sound data, originally created for the
+adlib (opl2) audio board, on top of an opl2 emulator or by using the real
+hardware. no opl2 chip is required for playback.
+
+this package contains the development files.

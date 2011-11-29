@@ -1,0 +1,10 @@
+Rename attachments on the fly
+	
+renattach is a small, efficient and surprisingly effective filter
+designed primarily to offer an additional level of safety to windows
+users whose e-mails pass through a unix-like mail server. many modern
+viruses are spread through e-mail, and renattach combats such viruses by
+filtering e-mail attachments based on file extension. the idea is to
+rename potentially dangerous attachments (executable ones) so that
+the user, or the user's poorly written e-mail software, does not
+accidentally execute the attachment.

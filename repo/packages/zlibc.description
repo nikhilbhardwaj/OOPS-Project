@@ -1,0 +1,6 @@
+An on-fly auto-uncompressing c library
+	
+zlibc is a preloadable shared library that allows executables to
+uncompress the data files that they need on the fly. no kernel patch,
+no recompilation of these executables and no recompilation of the
+libraries is needed.

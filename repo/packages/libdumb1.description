@@ -1,0 +1,10 @@
+Dynamic universal music bibliotheque
+	
+dumb is a tracker library with support for it, xm, s3m and mod files. it
+targets maximum accuracy to the original formats, with low-pass resonant
+filters for the it files, accurate timing and pitching, and three resampling
+quality settings (aliasing, linear interpolation and cubic interpolation).
+
+this package contains the libdumb1 runtime library, a standalone library
+for module playback. if you plan to use the allegro library with your
+project, please consider the libaldmb1 library.

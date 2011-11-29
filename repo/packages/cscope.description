@@ -1,0 +1,18 @@
+Interactively examine a c program source
+	
+cscope is an interactive text screen based source browsing tool.
+although it is primarily designed to search c code (including lex
+and yacc files), it can also be used for c++ code.
+
+using cscope, you can easily search for where symbols are used and
+defined. cscope is designed to answer questions like:
+
+
+ - where is this variable used?
+ - what is the value of this preprocessor symbol?
+ - where is this function in the source files?
+ - what functions call this function?
+ - what functions are called by this function?
+ - where does the message "out of space" come from?
+ - where is this source file in the directory structure?
+ - what files include this header file?

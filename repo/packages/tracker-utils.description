@@ -1,0 +1,18 @@
+Metadata database, indexer and search tool - commandline tools
+	
+included utilities for tracker:
+
+ * tracker-import: import data using turtle files
+ * tracker-info: get information about files
+ * tracker-search: this perfoms a google like search using searchterm to
+   retrieve all matching files where searchterm appears in any searchable
+   metadata
+ * tracker-sparql: query or update tracker database using sparql
+ * tracker-stats: retrieve some statistics
+ * tracker-status: report status of tracker-store and running miners
+ * tracker-tag: tool to manage tags on files
+
+
+tracker is an advanced framework for first class objects with associated
+metadata and tags. it provides a one stop solution for all metadata, tags,
+shared object databases, search tools and indexing.

@@ -1,0 +1,5 @@
+Simplified and unrestricted javax.crypto bootstrap library
+	
+provides a simple unrestricted version of the javax.crypto package
+which can be provided when bootstrapping the java virtual machine. this
+is needed to load, e.g., unsigned crypo spi implementations.

@@ -1,0 +1,13 @@
+System log viewer
+	
+ksystemlog show all logs of your system, grouped by general (default system
+log, authentication, kernel, x.org...), and optional services (apache, cups,
+etc, ...). it includes many features to read nicely your log files:
+
+ * colorize log lines depending on their severities
+ * tabbed view to allow displaying several logs at the same time
+ * auto display new lines logged
+ * detailed informations for each log lines
+
+
+this package is part of the kde administration module.

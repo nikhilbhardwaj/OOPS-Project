@@ -1,0 +1,15 @@
+Grand unified bootloader, version 2 (open firmware version)
+	
+grub is a portable, powerful bootloader.  this version of grub is based on a
+cleaner design than its predecessors, and provides the following new features:
+
+
+ - scripting in grub.cfg using bash-like syntax.
+ - support for modern partition maps such as gpt.
+ - modular generation of grub.cfg via update-grub.  packages providing grub
+   add-ons can plug in their own script rules and trigger updates by invoking
+   update-grub2.
+
+
+this package contains a version of grub that has been built for use with
+open firmware implementations.

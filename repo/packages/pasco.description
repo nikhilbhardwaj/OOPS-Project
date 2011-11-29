@@ -1,0 +1,7 @@
+An internet explorer cache forensic analysis tool
+	
+pasco is a forensic tool that examines the content of cache files (index.dat)
+produced by microsofts internet explorer.
+
+it parses the file and outputs a field separated that can be loaded in a
+spreadsheet.

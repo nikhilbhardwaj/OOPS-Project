@@ -1,0 +1,7 @@
+Debian live - system boot scripts
+	
+live-boot contains the scripts that configure a debian live system during the
+boot process (early userspace).
+
+in addition to live-boot, a backend for the initrd generation is required, such
+as live-boot-initramfs-tools.

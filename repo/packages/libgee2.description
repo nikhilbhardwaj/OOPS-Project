@@ -1,0 +1,24 @@
+Gobject based collection library
+	
+libgee is a collection library providing gobject-based interfaces and
+classes for commonly used data structures.
+
+libgee provides the following interfaces:
+
+ * iterable
+  * collection
+   * list
+   * set
+ * iterator
+ * map
+
+
+the arraylist, hashset, and hashmap classes provide a reasonable sample
+implementation of the list, set, and map interfaces. readonlycollection,
+readonlylist, readonlyset, and readonlymap are read-only wrapper classes
+that prevent modification of the underlying collection.
+
+libgee is written in vala and can be used like any gobject-based c library.
+it's planned to provide bindings for further languages.
+
+this package contains the shared libraries.

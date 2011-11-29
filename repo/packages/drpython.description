@@ -1,0 +1,15 @@
+Simple and customizable editor for the python language
+	
+drpython is a clean and simple yet powerful and highly customizable
+editor/environment for developing programs written in python.
+
+drpython features:
+
+ * a high degree of customization through themes, which can change look and
+   feel, behavior, shortcuts and more
+ * drscript: write custom python scripts with access to drpython internals,
+   and access them from the menu
+ * bookmarks to quickly jump to files and directories
+ * python debugger support
+ * a class browser
+ * printing support

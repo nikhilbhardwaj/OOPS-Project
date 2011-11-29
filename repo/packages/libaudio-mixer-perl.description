@@ -1,0 +1,8 @@
+Perl extension for sound mixer control
+	
+library to query / set various sound mixer parameters.
+
+this is just a very simple perl interface which allows to
+set various sound mixer parameters. the most important
+probably 'vol' (volume). the list of all mixer parameters
+can be obtained using get_mixer_params() function.

@@ -1,0 +1,10 @@
+Java program for creating and viewing mindmaps
+	
+taking the concept-mapping approach to human-computer interface design.
+a mind mapper, and at the same time an easy-to-operate hierarchical editor
+with strong emphasis on folding. these two are not really two different
+things, just two different descriptions of a single application. often used
+for knowledge and content management.
+
+freemind doesn't work with classpath based java implementations. use openjdk
+(or sun's java), and check freemind(1) for more information.

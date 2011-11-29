@@ -1,0 +1,7 @@
+Bridge hand generator
+	
+this program generates bridge hands. it can be told to generate only hands
+satisfying conditions like being balanced, having a range of hcps, controls,
+or other user-definable properties. hands can be output in various formats,
+like pbn for feeding to other bridge programs, deal itself, or split up into a
+file per player for practise. extensible via tcl.

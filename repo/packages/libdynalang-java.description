@@ -1,0 +1,12 @@
+The jvm dynamic languages metaobject protocol library
+	
+this library aims to make it possible for objects created by a runtime for one
+dynamic language to be passed to and manipulated by a different dynamic
+language, running within the same jvm. more generally, it aims to provide a
+facility where an arbitrary system (usually a language runtime) can intuitively
+manipulate any arbitrary object model built atop of java objects (usually the
+native object model of some other language).
+
+basically, it provides a unified mechanism that all dynamic languages on the
+jvm can use to inter-operably manipulate their own objects as well as objects
+from any other language that also uses this mechanism.

@@ -1,0 +1,4 @@
+PackageId:110
+Name:adduser
+Version:3.112+nmu2
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,passwd,perl-base

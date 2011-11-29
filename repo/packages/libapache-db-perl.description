@@ -1,0 +1,5 @@
+Run the interactive perl debugger under mod_perl
+	
+perl ships with a very useful interactive debugger, however, it does not run
+"out-of-the-box" in the apache/mod_perl environment.  apache::db makes a few
+adjustments so the two will cooperate.

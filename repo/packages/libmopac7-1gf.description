@@ -1,0 +1,7 @@
+Semi-empirical quantum chemistry library (library)
+	
+mopac provides routines to solve the electronic structure of molecules
+on a semi-empirical level. available methods include mndo, mindo/3, am1
+and pm3.
+
+this package contains the mopac7 code folded into a dynamic library.

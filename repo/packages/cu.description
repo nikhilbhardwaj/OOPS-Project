@@ -1,0 +1,9 @@
+Call up another system
+	
+the  cu  command is used to call up another system and act
+as a dial in terminal.  it can also do simple file
+transfers with no error checking.
+
+cu is part of the uucp source but has been split into its
+own package because it can be useful even if you do not do
+uucp.

@@ -1,0 +1,15 @@
+Console newsreader and emailer
+	
+cone is a text-based mail client. cone seamlessly handles multiple
+pop3, imap accounts, and local mail folders. cone is also a simple
+newsreader. cone's interface is foolproof enough to be used by
+inexperienced users, but it also offers advanced features for power
+users.
+
+beyond others cone has support for pgp, gpg, utf-8, imap, pop3,
+incoming html mails, external viewers, nntp, socks 5, ssl/tls, sasl,
+ldap and imap based address books, remote storable configuration,
+multiple accounts, tagging mails with several different flags, and
+smap (simple mail access protocol, a new imap and pop3 replacement
+developed by the courier guys and supported by the courier
+development versions).

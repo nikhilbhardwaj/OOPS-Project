@@ -1,0 +1,16 @@
+Othello board game for gpe
+	
+othello is also known as reversi. gpe-othello is a
+strategic boardgame for the gpe palmtop environment
+which involves play against a handheld computer on
+an eight-by-eight square grid with pieces that have
+light and dark faces.
+
+the player places light-faced pieces so that there is
+at least one straight (horizontal, vertical, or diagonal)
+line between the new piece and another light piece, with
+one or more contiguous dark pieces between them. pieces
+captured in this manner are turned over and can be used
+in later moves. the winner has the most number of pieces
+showing the appropriate face when the grid is full or when
+the other player has no pieces of their own colour left.

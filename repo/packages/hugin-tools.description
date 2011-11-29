@@ -1,0 +1,19 @@
+Cli tools for hugin
+	
+hugin is a panorama photo stitching program.
+
+this package includes command-line tools used by hugin and other
+packages for image stitching and high dynamic range (hdr) images:
+
+ * align_image_stack - align overlapping images for hdr creation.
+ * autooptimiser     - optimize image positions.
+ * calibrate_lens    - lens calibration tool
+ * cpclean           - remove wrong control points
+ * fulla             - correct lens distortion, vignetting, and
+                       chromatic aberration.
+ * hugin_hdrmerge    - merge overlapping images.
+ * nona              - stitch a panorama image.
+ * vig_optimize      - determine the radial vignetting.
+ * pto2mk            - create a makefile for stitching.
+ * matchpoint        - run feature detection and extraction
+ * celeste_standalone- remove cloud-like control points.

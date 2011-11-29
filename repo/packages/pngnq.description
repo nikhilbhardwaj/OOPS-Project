@@ -1,0 +1,12 @@
+Tool for optimizing png (portable network graphics) images
+	
+pngnq is a tool for quantizing 32-bit rgba png images to 8-bit rgba pallete
+png. it's is an adaptation by stuart coyle of greg roelf's pnqquant. while
+pngquant uses a median cut algorithm, pngnq uses anthony dekker's neuquant
+algorithm (http://members.ozemail.com.au/~dekker/neuquant.html), generally
+resulting in better looking results than pngquant.
+
+optimizers (like pngcrush and optipng) optimize the compression, usually
+losslessly. pngnq quantizes colors down to 256 (or fewer) distinct rgba
+combinations, which is quite lossy. optimized pngs are usually two to four
+times smaller than the 32-bit versions.

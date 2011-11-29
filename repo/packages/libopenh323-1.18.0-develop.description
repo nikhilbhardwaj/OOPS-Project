@@ -1,0 +1,12 @@
+H.323 aka voip library
+	
+this package contains the shared version of the openh323 library.
+
+the openh323 project aims to create a full featured, interoperable,
+open source implementation of the itu h.323 teleconferencing protocol
+that can be used freely by everybody. this protocol is most used for
+voice over ip (voip) conferencing.
+
+this package was compiled with full debugging and ptrace output enabled. it's
+not recommended to run this in a production environment. it also contains the
+static library and debug symbols.

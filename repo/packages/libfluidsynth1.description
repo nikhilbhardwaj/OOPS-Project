@@ -1,0 +1,8 @@
+Real-time midi software synthesizer (runtime library)
+	
+fluidsynth is a real-time midi synthesizer based on the soundfont2
+specifications. it can be used to render midi input or midi files to audio.
+the midi events are read from a midi device. the sound is rendered in
+real-time to the sound output device.
+
+this package contains the runtime library.

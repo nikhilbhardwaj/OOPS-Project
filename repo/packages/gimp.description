@@ -1,0 +1,14 @@
+The gnu image manipulation program
+	
+gimp lets you draw, paint, edit images, and much more! gimp
+includes the functionality and plug-ins of other famous image
+editing and processing programs.
+
+if you'd like to be able to open files remotely (like over http or ftp),
+install the gvfs-backends package.
+
+if you'd like to use a midi device as an input controller in gimp,
+install libasound2 and read the how-to at /usr/share/doc/gimp/readme.midi
+
+if you'd like to be able to read and write postscript files from gimp,
+install the ghostscript package.

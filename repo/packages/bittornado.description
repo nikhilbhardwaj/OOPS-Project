@@ -1,0 +1,22 @@
+Bittorrent client (and tracker) with console and curses interfaces
+	
+bittornado is a bittorrent client built on the original bittorrent
+client from bittorrent inc. this client features a console and curses
+mode, lots of features, and is one of the original bittorrent clients
+created.
+
+features include:
+
+  * upload/download speed limitation
+  * prioritised downloading when downloading batches (several files)
+  * detailed information about connections to other peers
+  * encryption (pe/mse) support (with the recommended python-crypto)
+  * console mode for running from scripts
+  * curses mode for running interactively
+  * tracker for the distribution of files
+
+
+this package contains the console and curses interfaces, and a
+bittorrent tracker, install the package bittornado-gui to get the gui
+components. see the bittorrent package for a description of what
+bittorrent is.

@@ -1,0 +1,5 @@
+Module for remove leading and/or trailing whitespace from strings
+	
+text::trim provides functions for removing leading and/or trailing whitespace
+from strings. it is basically a wrapper around some simple regexes with a
+flexible context-based interface.

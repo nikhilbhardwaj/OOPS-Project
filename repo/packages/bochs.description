@@ -1,0 +1,8 @@
+Ia-32 pc emulator
+	
+bochs is a highly portable free ia-32 (x86) pc emulator written in c++, that
+runs on most popular platforms. it includes emulation of the intel x86 cpu,
+common i/o devices, and a custom bios.
+
+bochs is capable of running most operating systems inside the emulation
+including gnu, gnu/linux, *bsd, freedos, msdos and windows 95/nt.

@@ -1,0 +1,9 @@
+Polish man pages for developers
+	
+this package contains the gnu/linux manual pages translated into polish.
+following sections are provided:
+
+
+ * 2 = linux system calls.
+ * 3 = libc calls (note that a more comprehensive source of
+       information may be found in the glibc-doc package).

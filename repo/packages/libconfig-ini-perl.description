@@ -1,0 +1,10 @@
+Perl module for reading and writing .ini files
+	
+config::ini::reader and config::ini::writer are "yet another config module"
+implementing yet another slightly different take on the undeniably easy to
+read ".ini" file format. their default behavior is quite similar to that of
+config::tiny, on which it is based.
+
+the chief difference is that config::ini is designed to be subclassed to
+allow for side-effects and self-reconfiguration to occur during the course of
+reading its input.

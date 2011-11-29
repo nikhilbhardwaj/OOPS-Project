@@ -1,0 +1,13 @@
+Simple graphical program for certification authority management
+	
+tinyca is a program with a simple graphical user interface that makes
+managing a small ca (certification authority) easy.  tinyca works as
+a frontend for openssl and can deal with several independent cas.
+
+with tinyca you can create and manage x509 and s/mime server and
+client certificates.  you can choose between rsa and dsa keys, as
+well as between different digest algorithms.
+
+the certificates can be exported as pem, der, txt and pkcs#12 or as a
+convenient archive containing both key and certificate.  certificates
+can be revoked by adding them to a certificate revocation list.

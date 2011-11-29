@@ -1,0 +1,18 @@
+Utility to replace problematic characters in filenames
+	
+detox is a utility designed to clean up filenames. it replaces difficult to
+work with characters, such as spaces, with standard equivalents. it will also
+clean up filenames with utf-8 or latin-1 (or cp-1252) characters in them.
+
+features:
+
+
+ * removal or replacement of upper ascii latin-1 (iso 8859-1) characters
+ * removal or replacement of utf-8 encoded unicode characters.
+ * removal or replacement of spaces and other potentially tricky characters
+ * trimming of excessive "_" and "-"s
+ * directory recursion, dry runs, verbose listings
+
+
+it is designed with safety in mind. it won't overwrite a file that already
+exists, and it doesn't touch special files if not requested.

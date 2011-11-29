@@ -1,0 +1,5 @@
+Hardware identification / configuration data
+	
+this package contains various hardware identification and configuration data,
+such as the pci.ids database, or the xfree86/xorg cards database.
+it's needed for the kudzu hardware detection.

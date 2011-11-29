@@ -1,0 +1,8 @@
+Utilities to deal with the cpufreq linux kernel feature
+	
+this package contains two utilities for inspecting and setting the
+cpu frequency through both the sysfs and procfs cpufreq kernel
+interfaces.
+
+by default, it also enables cpufreq at boot time if the correct cpu
+driver is found.

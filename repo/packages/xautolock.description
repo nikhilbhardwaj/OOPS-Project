@@ -1,0 +1,7 @@
+Program launcher for idle x sessions
+	
+xautolock monitors input devices under the x window system, and launches a
+program of your choice if there is no activity after a user-configurable
+period of time.  you can use this to automatically start up a screen locker
+if you have left your computer unattended for some period of time.  the
+program launched need not be a screen locker such as xlock.

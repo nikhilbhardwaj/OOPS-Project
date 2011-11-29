@@ -1,0 +1,9 @@
+Perl module to determine file types
+	
+this module can be used to determine the mime type of a file. it tries to
+implement the freedesktop specification for a shared mime database.
+
+this package also contains two related utilities:
+
+ * mimetype: determine a files mimetype
+ * mimeopen: open files according to their mimetype

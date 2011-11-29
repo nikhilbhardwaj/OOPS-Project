@@ -1,0 +1,8 @@
+File type determination library for ruby
+	
+this package provides a ruby interface to the c libmagic library.
+with it, you can determine the type of a file by examining its contents
+rather than its name.
+
+this is a dummy package to install the mahoro library bindings for
+the default version of ruby.

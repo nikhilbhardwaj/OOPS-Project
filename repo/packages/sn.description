@@ -1,0 +1,8 @@
+Small nntp server for leaf sites
+	
+sn is a small news system for small sites serving perhaps a few
+dozen newsgroups, and with a slow connection to the internet.
+it is similar to leafnode (ftp.troll.no, by arnt gulbrandsen).
+the target user is a home or soho with a single modem connection
+to the internet, maybe running ip masq or similar, and serving a
+few workstations.

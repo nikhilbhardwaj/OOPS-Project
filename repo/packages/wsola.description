@@ -1,0 +1,9 @@
+Tool to speed up/slow down audio without altering its pitch
+	
+wsola stretches and compresses audio without altering the frequency
+character of the audio. for reasonable factors, this application will
+scale audio without altering signal levels or introducing artifacts
+(in the ideal implementation).
+
+wsola can be used on ambisonic recordings because it keeps the channels
+in sync.

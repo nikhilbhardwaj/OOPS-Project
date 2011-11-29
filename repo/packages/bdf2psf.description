@@ -1,0 +1,18 @@
+Font converter to generate console fonts from bdf source fonts
+	
+this package provides a command-line converter that can be used in
+scripts to build console fonts from bdf sources automatically. the
+converter comes with a collection of font encodings that cover many
+of the world's languages. the output font can use a different
+character encoding from the input. when the source font does not
+define a glyph for a particular symbol in the encoding table, that
+glyph position in the console font is not wasted but used for another
+symbol.
+
+when deciding about the position in the font for a particular glyph,
+the converter takes into account that in text video modes the video
+adapter copies the eighth column of the glyph matrix of symbols
+positioned in the pseudographic area to the ninth column. in order to
+create fonts for text video modes, the width of the glyph matrix of
+the source bdf font should be seven, eight, or nine pixels; otherwise the
+converter creates fonts suitable for framebuffer only.

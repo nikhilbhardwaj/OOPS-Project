@@ -1,0 +1,5 @@
+High-level 3d graphics kit - external data files
+	
+external data files used by the coin library at run-time.  the
+dragger geometry files represent the defaults that are used if the
+files are not found.  this package is completely optional.

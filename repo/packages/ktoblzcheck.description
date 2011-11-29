@@ -1,0 +1,6 @@
+Tool for verification of account numbers and bank codes
+	
+ktoblzcheck is a command line tool for verification of bank account numbers
+and bank codes (blz) of german banks. it is based on the specifications of the
+"deutsche bundesbank". it also supports the verification of international bank
+account numbers (iban) and bank identifier codes (bic).

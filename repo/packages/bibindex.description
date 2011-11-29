@@ -1,0 +1,15 @@
+Fast lookup in bibtex bibliography data bases
+	
+bibindex converts a .bib file to a .bix file, which is a compact
+binary representation of the .bib file containing hash tables for
+fast lookup, as well as byte offset positions into the corresponding .bib
+file.
+
+biblook provides an interactive lookup facility using the .bix and .bib
+files.  it verifies that the file version number and bibindex version
+number match its own values, and also compares the file time stamps
+so that it can detect whether the .bix file is out-of-date with
+respect to the .bib file.  in either case, execution terminates.
+
+this debian package features a command line history mechanism through
+the gnu readline library.

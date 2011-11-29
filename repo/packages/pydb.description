@@ -1,0 +1,5 @@
+An enhanced python command-line debugger
+	
+pydb is a command-line debugger for python. it is based on the standard
+python debugger pdb, but has a number of added features. particularly, it is
+suitable for use with ddd, a graphical debugger front end.

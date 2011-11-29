@@ -1,0 +1,21 @@
+Cross-platform configuration utilities for gnome
+	
+the gnome system tools are a fully integrated set of tools aimed to make easy
+the job that means the computer administration on an unix or linux system.
+they're thought to help from the new linux or unix user to the system
+administrators.
+
+its main advantages are:
+
+ * full integration with the new gnome control center.
+ * an user-friendly interface to carry out the main administration tasks.
+ * the use of a common user interface in every system.
+ * a common structure that makes easy the development of new system tools.
+
+nowadays there are tools for managing:
+
+ - users and groups
+ - date and time
+ - network options
+ - services
+ - shares (nfs and samba)

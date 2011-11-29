@@ -1,0 +1,8 @@
+A logging library for ruby
+	
+log4r is a comprehensive and flexible logging library written in ruby for
+use in ruby programs.
+
+it features a hierarchical logging system of any number of levels, custom
+level names, logger inheritance, multiple output destinations, execution
+tracing, custom formatting, thread safety and more.

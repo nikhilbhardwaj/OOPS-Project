@@ -1,0 +1,6 @@
+Gnu r package interfacing the ncsa hdf5 library
+	
+this package provides the functions hdf5save and hdf5load which allow
+saving and loading of r variables in the hierarchical data format
+(hdf) format.  lists, strings, vectors, matrices and
+higher-dimensional arrays are supported.

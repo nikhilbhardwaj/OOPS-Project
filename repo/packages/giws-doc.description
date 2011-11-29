@@ -1,0 +1,12 @@
+Documentation and examples for the giws package
+	
+giws is basically doing the same stuff as swig but the opposite.
+calling java from c/c++ can be tricky: jni calls are complicated
+especially when dealing with non primivite types or arrays,
+performance issues must be kept in mind all the time,
+the code can be redundant (checking exceptions, checking returns
+of operations...).
+giws hides this complexity through a c++ class which wraps the
+java class.
+
+this package contains the examples and the documentation.

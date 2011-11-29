@@ -1,0 +1,17 @@
+X.org x server -- vmmouse input driver to use with vmware
+	
+this package provides the driver for the x11 vmmouse input device.
+
+the vmmouse driver enables support for the special vmmouse protocol
+that is provided by vmware virtual machines to give absolute pointer
+positioning.
+
+the vmmouse driver is capable of falling back to the standard "mouse"
+driver if a vmware virtual machine is not detected. this allows for
+dual-booting of an operating system from a virtual machine to real hardware
+without having to edit xorg.conf every time.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-input-vmmouse driver module.

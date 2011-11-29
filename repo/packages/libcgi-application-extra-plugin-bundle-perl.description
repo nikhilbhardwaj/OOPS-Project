@@ -1,0 +1,52 @@
+Extra plugins for cgi::application
+	
+this package includes some extra plugin modules to enhance cgi::application.
+currently the following modules are included:
+
+cgi::application::plugin::actiondispatch
+attribute based support for parsing the path_info of the incoming request
+
+cgi::application::plugin::captcha
+easily create, use, and verify captchas.
+
+cgi::application::plugin::config::simple
+add config::simple support
+
+cgi::application::plugin::dbiprofile
+display dbi profiling information
+
+cgi::application::plugin::json
+easy manipulation of json headers
+
+cgi::application::plugin::linkintegrity
+make tamper-resisistent links
+
+cgi::application::plugin::ratelimit
+limits runmode call rate per user
+
+cgi::application::plugin::requiressl
+force ssl in specified pages or modules
+
+cgi::application::plugin::anytemplate
+use any templating system via a unified interface.
+
+cgi::application::plugin::authentication
+authentication framework
+
+cgi::application::plugin::authorization
+authorization framework
+
+cgi::application::plugin::formstate
+store form state without hidden fields
+
+cgi::application::plugin::protectcsrf
+protects against cross site request forgery
+
+cgi::application::plugin::tt
+add template toolkit support
+
+cgi::application::plugin::authentication::driver::dbic
+authentication driver for dbix::class
+
+cgi::application::plugin::messagestack
+a message stack

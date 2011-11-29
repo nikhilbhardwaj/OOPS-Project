@@ -1,0 +1,39 @@
+Ada web server development files
+	
+aws is a complete framework to develop web based applications. the
+main part of the framework is the embedded web server. this small yet
+powerful web server can be embedded into your application so your
+application will be able to talk with a web browser. around this web
+server a lot of services have been developed.
+
+
+ - a web parameters module. this module takes care of retrieving the
+   forms or url parameters and to build an associative table for easy
+   access.
+ - a session server, this is a very important module to be able to
+   keep client's data from page to page.
+ - support soap to develop web services.
+ - a tool to generate web services stubs/skeletons from a wsdl
+   document.
+ - a template parser, this module makes it possible to completely
+   separate the web design from the code. no more scripting into your web
+   page.
+ - support for secure sockets (https/ssl), this is based on the gnu tls
+   library.
+ - support for large servers using dispatchers based on uri, request
+   methods.
+ - support for virtual hosting (dispatchers based on the host name).
+ - support for server push.
+ - a directory browser ready to be used in any application.
+ - a status page to get many information about the current aws server.
+ - a log module. log files keep information about all resources
+   requested to the server.
+ - hotplug modules which can be loaded/unloaded dynamically to add
+   specific features to a server.
+ - a communication api to exchange data between applications using the
+   http protocol.
+ - a configuration api to tune/change the server parameters without
+   recompilation.
+ - a client api to retrieve any web page from a web site.
+ - a web page service to build a simple static page server.
+ - support for smtp, ldap and jabber protocols.

@@ -1,0 +1,5 @@
+Create dvd master filesystems on dlt media
+	
+this tool will create the control files needed when mastering dvds for
+manufacturing (ddp information, ddpms information, "lead in") and
+output them to dlt tape(s) or disk files as desired.

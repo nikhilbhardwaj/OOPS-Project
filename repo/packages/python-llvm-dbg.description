@@ -1,0 +1,11 @@
+Python bindings for llvm (debug mode)
+	
+llvm-py provides python bindings for llvm, the low level virtual machine.
+it's goal is to expose enough of llvm apis to implement a compiler backend
+or a vm in pure python.
+
+llvm-py consists of python and c modules that wrap over the native c++/c
+bindings of llvm, and does not use / have dependencies on "glue utilities"
+like boost.python, swig etc.
+
+this package provides the debug mode.

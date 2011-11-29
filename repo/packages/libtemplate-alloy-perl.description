@@ -1,0 +1,13 @@
+Tt2/3, ht, hte, tmpl, and velocity engine
+	
+template::alloy represents the mixing of features and capabilities
+from all of the major mini-language based template systems (support
+for non-mini-language based systems will happen eventually).  with
+template::alloy you can use your favorite template interface and syntax
+and get features from each of the other major template systems.  and
+template::alloy is fast - whether your using mod_perl, cgi, or running
+from the commandline.  there is even template::alloy::xs for getting
+a little more speed when that is necessary.
+
+according to wikipedia, "an alloy is a homogeneous mixture of two or
+more elements".

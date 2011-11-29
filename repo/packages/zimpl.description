@@ -1,0 +1,6 @@
+Mathematical modeling language for optimization problems
+	
+zimpl allows the specification of certain optimization problems - linear
+programs (lps) and mixed integer programs (mips) - in a high-level
+description language. these descriptions can be converted into the
+lp or mps file formats which are understood by lp and mip solvers.

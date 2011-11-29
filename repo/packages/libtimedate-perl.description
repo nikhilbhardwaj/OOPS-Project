@@ -1,0 +1,8 @@
+Collection of modules to manipulate date/time information
+	
+timedate is a collection of perl modules useful for manipulating date and
+time information. date::parse can parse absolute date specifications in a
+wide variety of input formats and many languages (via date::language).
+
+this package also includes date::format, which can format dates into strings,
+as well as time::zone, which contains miscellaneous time zone functions.

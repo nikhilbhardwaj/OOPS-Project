@@ -1,0 +1,14 @@
+Dump chipset-specific msr contents
+	
+the msrtool utility can dump msr (model-specific register) contents,
+which is useful for debugging and development.
+
+the tool currently supports the following chipsets:
+
+ - amd geode lx
+ - amd geode cs5536
+ - amd k8
+
+
+it has been developed for the coreboot project (see http://coreboot.org for
+details on coreboot), but may also be useful for other purposes.

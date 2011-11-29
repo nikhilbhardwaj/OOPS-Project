@@ -1,0 +1,5 @@
+Tool to help recover deleted files on ext3 filesystems
+	
+ext3grep is a simple tool intended to aid anyone who accidentally deletes a
+file on an ext3 filesystem, only to find that they wanted it shortly
+thereafter.

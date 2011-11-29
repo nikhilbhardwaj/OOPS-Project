@@ -1,0 +1,9 @@
+Build http caches using archived websites copied by httrack
+	
+proxytrack is a simple proxy server aimed to deliver content archived by
+httrack sessions. it can aggregate multiple download caches, for direct
+use (through any browser) or as an upstream cache slave server.
+this proxy can handle http/1.1 proxy connections, and is able to reply to
+icpv2 requests for an efficient integration within other cache servers,
+such as squid. it can also handle transparent http requests to allow
+cached live connections inside an offline network.

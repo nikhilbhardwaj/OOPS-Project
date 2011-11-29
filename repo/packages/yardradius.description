@@ -1,0 +1,16 @@
+Yard radius authorization and accounting server
+	
+yard radius is a radius authentication/accounting server which is derived
+from the original livingston enterprise inc. radius daemon release 2.1.
+it adds a number of useful features to the le daemon, i.e.
+
+control of simultaneous logins.
+support of ascend, cisco and usr boxes.
+extended daily/monthly/yearly accounting information on a per-user basis
+md5 encrypted passwords support (both in passwd file and/or users file)
+expirations in shadow file.
+checking based on time-of-day, traffic and connection time.
+support of pam authentication and accounting.
+binary form of accounting file.
+gdbm formats for users and user stats databases.
+autoconfiguring capabilities of sources.

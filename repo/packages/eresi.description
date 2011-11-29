@@ -1,0 +1,17 @@
+The eresi reverse engineering software interface
+	
+eresi is a general purpose hybrid framework : it includes both static
+analysis and runtime analysis capabilities. these features are accessed
+by primitives of the eresi reverse engineering language which makes the
+framework more adaptable to the precise needs of her users. it brings
+an environment of choice for program analysis through instrumentation,
+debugging, and tracing as it also provides more than ten exclusive major
+built-in features . eresi can also be used for security auditing, hooking,
+integrity checking or logging binary programs. the project prones modularity
+and reusability of code and allows users to create their own project on top
+of the eresi language interpreter in just a few lines.
+
+among other features, the base code can display program graphs on demand
+using its automated flow analysis primitives. the tools are enhanced for
+hardened or raw systems which have no executable data segments and no
+native debug api or even explicit program information.

@@ -1,0 +1,18 @@
+Library for making a unix daemon process
+	
+‘daemon’ is a library that assists a python program to turn itself
+into a well-behaved unix daemon process, as specified in pep 3143.
+
+this library provides a ‘daemoncontext’ class that manages the
+following important tasks for becoming a daemon process:
+
+
+ * detach the process into its own process group.
+ * set process environment appropriate for running inside a chroot.
+ * renounce suid and sgid privileges.
+ * close all open file descriptors.
+ * change the working directory, uid, gid, and umask.
+ * set appropriate signal handlers.
+ * open new file descriptors for stdin, stdout, and stderr.
+ * manage a specified pid lock file.
+ * register cleanup functions for at-exit processing.

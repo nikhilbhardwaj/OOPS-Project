@@ -1,0 +1,14 @@
+Video disk recorder for dvb cards
+	
+video disk recorder (vdr) is a digital sat-receiver program using
+linux and dvb technologies. it allows one to record mpeg2 streams,
+as well as output the stream to tv. it is also possible to watch dvds
+(hardware accelerated) with some comfort and use an ir remote control.
+
+this package contains the vdr main program which is controlled via the
+pc keyboard or a ir remote control.
+
+note: you should install compatible dvb drivers before using these
+programs. also the standard vdr (without special plugins) requires
+a dvb-card with an integrated mpeg-decoder, a so called
+full-featured card.

@@ -1,0 +1,12 @@
+Xml/ada, a full xml suite for ada programmers (debugging symbols)
+	
+xml/ada is a set of modules that provide a simple manipulation of xml
+streams. it supports the whole xml 1.0 specifications, and can parse
+any file that follows this standard (including the contents of the
+dtd).  it also provides support for a number of other standard
+associated with xml, like sax, dom, and xml schemas.  in addition, it
+includes a module to manipulate unicode streams, since this is required
+by the xml standard.
+
+this package contains the detached debugging symbols for the runtime
+shared library.

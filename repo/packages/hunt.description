@@ -1,0 +1,8 @@
+Advanced packet sniffer and connection intrusion
+	
+hunt is a program for intruding into a connection, watching it and
+resetting it.
+
+note that as hunt is operating on ethernet, it is best used for connections
+which can be watched through it. however, it is possible to do something
+even for hosts on another segments or hosts that are on switched ports.

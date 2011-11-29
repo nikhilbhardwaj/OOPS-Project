@@ -1,0 +1,11 @@
+Python library for serializing arbitrary object graphs into json
+	
+jsonpickle is a python library for serialization and deserialization of
+complex python objects to and from json. the standard python libraries for
+encoding python into json, such as the stdlib’s json, simplejson, and
+demjson,  can only handle python primitives that have a direct json
+equivalent (e.g. dicts, lists, strings, ints, etc.). jsonpickle builds on
+top of these libraries and allows more complex data structures to be
+serialized to json. jsonpickle is highly configurable and
+extendable–allowing the user to choose the json backend  and add additional
+backends.

@@ -1,0 +1,11 @@
+The opengl extension wrangler - development environment
+	
+the opengl extension wrangler, glew for short, is a library that
+handles initiliazation of opengl extensions in a portable and simple
+way.  once the program initializes the library and checks the
+availability of extensions, it can safely call the entry points defined
+by the extension.  currently glew supports almost all the extensions
+found in the opengl extension registry[1].
+
+this package contains the development documentation as well as the
+required header files.

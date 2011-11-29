@@ -1,0 +1,11 @@
+Creates a common interface to use of the xml objects provided by ie and mozilla
+	
+the usage of xml inside the browser has been around for a while
+but not until lately has it been possible to get this to work
+in a satisfactory way in more than one browser. a while back
+mozilla added support for creating ms compatible xml classes
+scriptable from javascript.
+
+this script creates a common interface for mozilla and ie
+and also extends the mozilla classes a little to make
+them behave even more like the microsoft interfaces.

@@ -1,0 +1,6 @@
+Allows debian source packages with multiple patches
+	
+dbs stands for debian build system and is an alternative approach for
+source packages which want to ship a pristine source and then apply
+patches to it. this allows the distribution of multiple patches inside
+one package that are applied during the build process.

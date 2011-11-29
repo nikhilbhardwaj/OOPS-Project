@@ -1,0 +1,12 @@
+C++ library of image understanding-related algorithms
+	
+iulib provides basic image processing, mathematical morphology, and machine
+learning algorithms.
+
+iulib implements easy-to-use image and video i/o functions, as well as a
+large number of common image processing functions.
+
+design goals are high portability, easy-to-understand algorithms, no
+reliance on stl, and using a minimal set of data structures. almost all
+interfaces are written in terms of just numbers and the simple narray array
+class.

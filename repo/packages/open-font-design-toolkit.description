@@ -1,0 +1,29 @@
+Metapackage for open font design
+	
+all the tools you need to design, adapt, improve and hack on open fonts,
+including recommendations for the ones needed to do font design in a
+collaborative manner using vcs (version control systems).
+
+a growing number of high-quality fonts are released under the open font
+license (or similar recognized font-specific licenses) to allow distributing,
+modifying, improving and branching by others including adding new glyphs and
+smart behaviours, extending the unicode coverage, improving hinting and
+allowing new languages to be supported on the free desktop and, of course,
+fixing bugs.
+
+the various ofl'ed fonts are listed at http://scripts.sil.org/ofl_fonts and at
+http://unifont.org/fontguide
+
+further resources, tools and documentation about font design, writing
+systems implementations and packaging can be found on these community websites:
+
+ - the open font library: http://www.openfontlibrary.org
+ - the unifont.org fontguide: http://unifont.org
+ - the debian fonts task force website: http://pkg-fonts.alioth.debian.org
+ - the ubuntu fonts team website: http://launchpad.net/people/fonts
+ - the fedora font sig : http://fedoraproject.org/wiki/category:fonts_sig
+ - sil's non-roman script initiative website: http://scripts.sil.org
+ - the scripsource community website: http://scriptsource.org
+
+
+happy open font hacking!

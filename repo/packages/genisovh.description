@@ -1,0 +1,5 @@
+Make cd-roms bootable for sgi mips machines
+	
+genisovh creates a disk volume header (dvh) on a cd image and records
+bootable images therein. this allows the sgi firmware to boot those
+images without needing knowledge about the filesystem on the cd image.

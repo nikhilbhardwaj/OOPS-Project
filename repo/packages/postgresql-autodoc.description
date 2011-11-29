@@ -1,0 +1,12 @@
+Utility to create a postgresql database schema overview in html, dot and xml
+	
+this is a utility which will run through postgresql tables and returns html,
+dot, and 2 styles of xml which describes the database.
+
+the html is human readable (via webbrowser). the first style of xml is
+actually the fileformat of dia, a uml diagram tool. the second type of xml is
+similar to the html but in the docbook 4 format. it enables you to mix in
+other docbook documentation via the xrefs, generating pdfs, html, rtf, or
+other formatted documents. between these tools and javadoc with the
+appropriate xrefs, documentation about a project can be generated quickly and
+be easily updatable yet have a very professional look with some dsssl work.

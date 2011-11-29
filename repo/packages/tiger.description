@@ -1,0 +1,11 @@
+Report system security vulnerabilities
+	
+tiger, or the 'tiger' scripts, is a set of bourne shell
+scripts, c programs and data files which are used to perform
+a security audit of unix systems.  tiger has one primary goal:
+report ways 'root' can be compromised.
+
+debian's tiger incorporates new checks primarily oriented towards
+debian distribution including: md5sums checks of installed files,
+location of files not belonging to packages, check of security
+advisories and analysis of local listening processes.

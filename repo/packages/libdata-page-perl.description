@@ -1,0 +1,13 @@
+Help when paging through sets of results
+	
+when searching through large amounts of data, it is often the case
+that a result set is returned that is larger than we want to display
+on one page. this results in wanting to page through various pages of
+data. the maths behind this is unfortunately fiddly, hence this
+module.
+
+the main concept is that you pass in the number of total entries, the
+number of entries per page, and the current page number. you can then
+call methods to find out how many pages of information there are, and
+what number the first and last entries on the current page really
+are.

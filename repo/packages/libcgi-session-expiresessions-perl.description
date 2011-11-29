@@ -1,0 +1,7 @@
+Delete expired cgi::session db-based and file-based sessions
+	
+a perl5 library which is designed to expire old sessions produced
+by the cgi::session module.
+
+the module can correctly remove sessions stored upon the filesystem,
+and inside mysql databases.

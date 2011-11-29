@@ -1,0 +1,16 @@
+Free, networked version of t*tris
+	
+netris is a free, networked variant of tetris.
+
+one-player mode is a tad boring at the moment because it never
+gets any faster and there's no scoring.  this will be rectified
+at some point.
+
+two players can play against each other. if you fill two or three
+lines with one piece your opponent gets respectively one or two
+unfilled lines at the bottom of his screen. if you fill even four lines
+with one piece your opponent will get four unfilled lines.
+
+this version at least partially supports robots. you can find the
+protocol description in the documentation and a sample robot in
+the examples.

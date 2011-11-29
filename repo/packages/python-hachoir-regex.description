@@ -1,0 +1,7 @@
+Regular expressions manipulation python library
+	
+hachoir-regex is a python library for regular expression (regex or regexp)
+manipulation. you can use a|b (or) and a+b (and) operators. expressions are
+optimized during the construction: merge ranges, simplify repetitions, etc.
+it also contains a class for pattern matching allowing to search multiple
+strings and regex at the same time.

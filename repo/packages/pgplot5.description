@@ -1,0 +1,8 @@
+Large subroutine library for plotting scientific data
+	
+this package contains both runtime and development libraries.  many
+routines are included in pgplot for viewing scientific data. many
+(about 70) output devices are supported.  2-d , 3-d , contour, image
+manipulation, etc. are well supported. interactive routines are
+included. both a c and a fortran library are present. see
+http://astro.caltech.edu/~tjp/pgplot/ for more information.

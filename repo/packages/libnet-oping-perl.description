@@ -1,0 +1,6 @@
+Module for icmp latency measurement
+	
+net::oping is a perl module for sending icmp echo_requests (better known as
+"ping packets") and measuring the time that elapses until the reception of an
+icmp echo_reply packet (also known as "pong"). it supports pinging multiple
+hosts in parallel using ipv4 or ipv6 transparently.

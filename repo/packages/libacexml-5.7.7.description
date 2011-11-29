@@ -1,0 +1,8 @@
+Ace sax based xml parsing library
+	
+this package provides interfaces for xml parsing based on simple api
+for xml (sax) 2.0, defined by david megginson. this is an
+event-driven parsing approach.
+
+acexml is a small footprint and portable library. it does not
+validate xml documents and supports only unicode encoding.

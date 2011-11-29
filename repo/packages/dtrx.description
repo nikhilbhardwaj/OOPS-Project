@@ -1,0 +1,9 @@
+Intelligently extract multiple archive types
+	
+dtrx is basically the same as tar -zxf or tar -xjf except you don't have
+to remember the flags for each file. but there's more to it than that.
+you know those really annoying files that don't put everything in a
+dedicated directory, and have the permissions all wrong? dtrx takes care
+of all those problems for you, too. dtrx is simple and powerful. just
+use the same command for all your archive files, and they'll never
+frustrate you again.

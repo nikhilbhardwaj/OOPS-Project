@@ -1,0 +1,12 @@
+Identification and authentication framework for python wsgi applications
+	
+repoze.who is an identification and authentication framework for
+arbitrary python wsgi applications; it acts as wsgi middleware.
+
+repoze.who is inspired by zope 2's pluggable authentication service
+(pas), but is not dependent on zope in any way; it is useful for any
+wsgi application.
+
+it provides no facility for authorization (ensuring whether a user
+can or cannot perform the operation implied by the request). this is
+considered to be the domain of the wsgi application.

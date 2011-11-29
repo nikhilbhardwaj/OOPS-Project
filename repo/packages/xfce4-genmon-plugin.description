@@ -1,0 +1,5 @@
+Generic monitor for the xfce4 panel
+	
+this plugin repeatedly spawns the indicated script/program, displaying
+its output as a string in the panel. it is useful for periodic status
+monitoring.

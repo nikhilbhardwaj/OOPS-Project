@@ -1,0 +1,8 @@
+Dns srv record command line wrapper
+	
+wrapsrv adds support for connecting to a network service based on dns srv
+record lookups to commands that do not support the dns srv record. wrapsrv
+implements the weighted priority client connection algorithm in rfc 2782.
+the specified command line will be invoked one or more times with %h and %p
+sequences in the command line substituted for the hostname and port elements
+of the selected srv record.

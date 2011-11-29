@@ -1,0 +1,7 @@
+Emacs mode specialized for scheme48
+	
+scheme48 associates loaded code with specific files. this extension
+to the normal scheme-mode of emacs uses this facility to associated
+data sent to a inferior scheme process with the correct file. scheme
+48 will automatically evaluate the code in the correct package for
+the file.

@@ -1,0 +1,10 @@
+Perl module for apachectl style control of another executable
+	
+app::control is a simple module to replicate the kind of functionality you get
+with apachectl to control apache, but for any script or executable. there is a
+very simple oo interface, where the constructor is used to specify the
+executable, command line arguments, and pidfile, and various methods (start,
+stop, etc.) are used to control the executable in the obvious way.  the module
+is intended to be used in a simple wrapper control script. currently the
+module does a fork and exec to start the executable, and sets the signal
+handler for sigchld to 'ignore' to avoid zombie processes.

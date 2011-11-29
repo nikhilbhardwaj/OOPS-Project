@@ -1,0 +1,19 @@
+Unobtrusive, automatic, and learning audacious playlist manager
+	
+imms is an intelligent playlist plug-in that tracks your
+listening patterns and dynamically adapts to your taste.
+
+major features include:
+
+
+ - rating and playlist adjustment are done completely transparently to
+   the user. imms is super easy to use!
+ - though imms will mostly play "good" songs, occasionally less popular
+   ones are given a chance to earn your favor.
+ - imms does a better job of shuffling than player
+   it is able to recognize different versions of the same song (eg. remixes)
+   and not play them too often.
+ - imms uses smart file identification that allows files to keep their
+   ratings even if they are moved and/or their tags change.
+ .
+ this package contains audacious plugin

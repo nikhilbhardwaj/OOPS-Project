@@ -1,0 +1,5 @@
+Broadcast a dvb transport stream over a lan
+	
+dvbstream is based on the ts-rtp package available at
+http://www.linuxtv.org.  it broadcasts a (subset of a) dvb transport
+stream over a lan using the rtp protocol.

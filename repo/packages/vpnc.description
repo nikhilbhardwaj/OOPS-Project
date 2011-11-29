@@ -1,0 +1,10 @@
+Cisco-compatible vpn client
+	
+vpnc is a vpn client compatible with cisco3000 vpn concentrator (also
+known as cisco's easyvpn equipment). vpnc runs entirely in userspace
+and does not require kernel modules except of the tun driver to
+communicate with the network layer.
+
+it supports most of the features needed to establish connection to the
+vpn concentrator: md5 and sha1 hashes, 3des and aes ciphers, pfs and
+various ike dh group settings.

@@ -1,0 +1,10 @@
+Tcl bindings and interpreters for csound
+	
+this package contains the tcl interfaces to csound. it includes:
+
+ - tclcsound: the csound tcl interface.
+ - cswish: csound wish interpreter
+ - cstclsh: csound tcl interpreter
+
+
+for more information on csound or tcl, see the respective packages.

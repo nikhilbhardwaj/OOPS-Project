@@ -1,0 +1,11 @@
+Nested x server
+	
+xephyr is an x server that can be run inside another x server,
+much like xnest. it is based on the kdrive x server, and as a
+result it supports newer extensions than xnest, including render and
+composite.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xserver module.

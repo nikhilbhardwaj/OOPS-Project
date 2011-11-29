@@ -1,0 +1,10 @@
+Api documentation for commons validator
+	
+the commons validator is a basic validation framework
+that lets you define validation rules for a javabean
+in an xml file.
+
+validation rules can be defined in an xml file which
+keeps them abstracted from javabean you are validating.
+
+this package contains the api documentation for libcommons-validator-java.

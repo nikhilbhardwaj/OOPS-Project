@@ -1,0 +1,5 @@
+Add partman support for ppc prep boot partitions
+	
+this package provides the 'prep' partition method. the yaboot
+boot loader used on ibm pseries systems requires a special
+bootstrap partition, created by this method.

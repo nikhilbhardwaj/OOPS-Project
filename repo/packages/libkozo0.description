@@ -1,0 +1,4 @@
+Kozo is a database abstraction around the tdb library
+	
+kozo uses tdb library to store database. the client should not need to know
+how libkozo has stored the data in the database.

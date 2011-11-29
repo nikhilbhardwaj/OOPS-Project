@@ -1,0 +1,10 @@
+Html widget and validation framework
+	
+html::widget makes creating and maintaining html widgets easy.
+
+everything is optional, use validation only or just generate forms, you can
+embed and merge them later.
+
+the api was designed similar to other popular modules like
+data::formvalidator and formvalidator::simple, html::fillinform is also
+built in (and much faster).

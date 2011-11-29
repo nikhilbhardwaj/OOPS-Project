@@ -1,0 +1,13 @@
+Yawp's data engines (ions) for different weather services
+	
+yawp is a nice and simple plasmoid for kde 4.x to show the weather forecast,
+works with different weather sources, you can configure it to show several
+days in advance, to display the current satellite image and it is also
+possible to keep track of multiple cities.
+
+this package contains the data engines, which are part of yawp. at the moment
+these are ions for the following services:
+
+   * accuweather
+   * google weather service
+   * weather underground (wunderground)

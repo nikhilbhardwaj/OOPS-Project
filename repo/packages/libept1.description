@@ -1,0 +1,15 @@
+High-level library for managing debian package information
+	
+the library defines a very minimal framework in which many sources of data
+about debian packages can be implemented and queried together.
+
+the library includes four data sources:
+
+
+ * apt: access the apt database
+ * debtags: access the debtags tag information
+ * popcon: access popcon package scores
+ * the xapian index built by apt-xapian-index
+
+
+this is the shared library.

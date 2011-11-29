@@ -1,0 +1,19 @@
+Ocaml bindings for cairo
+	
+cairo is a multi-platform library providing anti-aliased
+vector-based rendering for multiple target backends. paths consist
+of line segments and cubic splines and can be rendered at any width
+with various join and cap styles. all colors may be specified with
+optional translucence (opacity/alpha) and combined using the
+extended porter/duff compositing algebra as found in the x render
+extension.
+
+cairo exports a stateful rendering api similar in spirit to the path
+construction, text, and painting operators of postscript, (with the
+significant addition of translucence in the imaging model). when
+complete, the api is intended to support the complete imaging model of
+pdf 1.4.
+
+this package contains all the development stuff you need to use cairo in
+your ocaml programs. the folowing backends are supported: postscript,
+pdf, png, in-memory images and x11.

@@ -1,0 +1,5 @@
+Bootcd extension to create images that can boot on ia64
+	
+with bootcd you can copy your system to cd, run it from cd without need for
+disks and restore your system on disk from bootcd. this package is needed to
+create images that can boot on ia64.

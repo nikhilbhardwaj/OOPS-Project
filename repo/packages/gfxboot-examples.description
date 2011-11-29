@@ -1,0 +1,7 @@
+Tool to test and create graphical boot logos (example themes)
+	
+gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+boot loaders. currently, this includes grub, lilo, and syslinux (all payloads).
+
+this package contains small example themes to document how to build your own
+theme.

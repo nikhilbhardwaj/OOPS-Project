@@ -1,0 +1,26 @@
+Perl interface to the gtk 2.x series (documentation files)
+	
+libgtk2-perl allows a perl developer to use the gtk+ graphical user
+interface library.
+
+the gtk+ is a multi-platform toolkit for creating graphical user
+interfaces. offering a complete set of widgets, the gtk+ is suitable
+for projects ranging from small one-off tools to complete application
+suites.
+
+find out more about gtk+ at http://www.gtk.org.
+
+the perl bindings follow the c api very closely, and the c reference
+documentation should be considered the canonical source:
+http://developer.gnome.org/doc/api/2.0/gtk/index.html
+
+this module is part of gtk2-perl.
+
+to discuss gtk2-perl, ask questions and flame/praise the authors,
+join gtk-perl-list@gnome.org at lists.gnome.org.
+
+also have a look at the gtk2-perl website and sourceforge project page,
+http://gtk2-perl.sourceforge.net
+
+this package contains the documentation for the gtk2 perl modules
+and some examples.

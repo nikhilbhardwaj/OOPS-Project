@@ -1,0 +1,8 @@
+Tool for configuring linux wireless devices
+	
+this package contains the `iw' tool which allows you to configure and show
+information about wireless networking.
+
+in the future iw will become the canonical command line tool for wireless
+configuration and iwconfig/wireless-tools will no longer be required. see
+/usr/share/doc/iw/readme.debian for a more detailed overview of iw.

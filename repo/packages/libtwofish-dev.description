@@ -1,0 +1,31 @@
+Niels ferguson's twofish cryptographic algorithm library
+	
+this package contains a header file and static library implementing the
+twofish cryptographic algorithm, one of the five finalists in the aes
+(advanced encryption standard) competition sponsored by the united states's
+national institute of standards and technology (nist).
+
+the main properties of this library are:
+
+ * free: the library can be freely used for any application.  (for details see
+   the licensing terms and disclaimer in the source code file itself.)
+ * fast: the code has been optimised for speed, at the expense of memory use
+   and code size.
+ * easy to use: care has been taken to make the code easy to integrate into a
+   larger project.  extensive comments explain how to perform the integration
+   and how to use the library.
+ * portable: the default code is written in fully portable c.  by adjusting
+   certain macro definitions the user can provide platform-specific code for
+   certain functions, which can improve the speed.
+ * documented: extensive documentation is available in the comments of the
+   source files.  this includes information about integration, optimisation
+   for specific platforms, the library api, and detailed explanation of all
+   the code.
+ * self-testing: extensive self-tests are run every time the library is
+   initialised.
+ * large: the code has been optimised for speed, which leads to the use of
+   large tables.  no attempt has been made to minimise the code or data size.
+
+
+this library has not yet been declared stable by its author, niels ferguson,
+yet it has not been changed in eight years.

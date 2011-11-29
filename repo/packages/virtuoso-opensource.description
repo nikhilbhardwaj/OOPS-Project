@@ -1,0 +1,15 @@
+High-performance database
+	
+openlink virtuoso is a high-performance object-relational sql database.
+it provides transactions, a smart sql compiler, hot backup, sql:1999
+support, a powerful stored-procedure language supporting server-side
+java or .net, and more. it supports all major data-access interfaces,
+including odbc, jdbc, ado.net, and ole/db.
+
+virtuoso supports sparql embedded into sql for querying rdf data stored
+in its database. sparql benefits from low-level support in the engine
+itself, such as sparql-aware type-casting rules and a dedicated iri data
+type.
+
+install this metapackage for the full suite of packages that make up
+virtuoso ose ("open-source edition").

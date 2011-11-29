@@ -1,0 +1,12 @@
+C# like language for the gobject system
+	
+vala is a new programming language that aims to bring modern programming
+language features to gnome developers without imposing any additional
+runtime requirements and without using a different abi compared to
+applications and libraries written in c.
+
+valac, the vala compiler, is a self-hosting compiler that translates
+vala source code into c source and header files.  it uses the gobject
+type system to create classes and interfaces declared in the vala
+source code. this package also contains the vala-gen-introspect and
+vapigen binaries that will automatically generate vala bindings.

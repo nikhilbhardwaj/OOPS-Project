@@ -1,0 +1,16 @@
+Featureful tool to read values from config files
+	
+cfget is a simple yet featureful tool to read values from configuration files.
+it is useful, for example, to create configurable shellscripts or makefiles.
+
+besides retrieving values, it can dump the information in several convenient
+ways, like a set of sh exports commands that can be conveniently passed to
+eval. it can also use the configuration values to expand template files.
+
+it can also be configured to support virtual configuration values that, if not
+present in the config file, are automatically computed from the existing
+values. this makes it convenient, for example, to get a "duration" value from
+a configuration file that only contains a "start date" and an "end date".
+
+it is also easy to create plugins to provide custom templating systems, export
+styles, dynamic values and even custom configuration file parsers.

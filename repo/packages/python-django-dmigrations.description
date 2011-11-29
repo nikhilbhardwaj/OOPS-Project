@@ -1,0 +1,13 @@
+Database migration tool for django projects
+	
+dmigrations offers a simple but flexible way of managing changes to the
+database in your django projects. it is a replacement for django's
+built-in syncdb command.
+
+with dmigrations, every change to your database (including the creation
+of your initial tables) is bundled up in a migration. migrations are
+python files that live in a migrations directory and can be applied and
+un-applied (reverted) in sequence.
+
+dmigrations aims to be compatible with workflows involving distributed
+revision control systems.

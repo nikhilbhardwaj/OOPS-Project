@@ -1,0 +1,9 @@
+Library for ofx online banking
+	
+aqbanking provides a middle layer between the applications
+and online banking libraries implementing various file formats and protocols.
+plugins supporting ofx, dtaus, and hbci are available.
+
+this package provides support for open financial exchange (ofx) in aqbanking.
+ofx is a specification for the electronic exchange of financial data between
+financial institutions, business and consumers via the internet.

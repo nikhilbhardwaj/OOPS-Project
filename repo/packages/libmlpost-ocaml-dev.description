@@ -1,0 +1,10 @@
+Objective caml interface to metapost (library)
+	
+mlpost is an ocaml library for scientific drawing. it relies on
+metapost, giving the possibility to include (la)tex fragments.
+mlpost users can use the full power of ocaml to generate their
+diagrams, including static typing and the possibility to use any
+ocaml library. moreover, mlpost promotes a declarative style quite
+different from existing tools.
+
+this package contains the library itself.

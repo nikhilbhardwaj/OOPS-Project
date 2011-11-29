@@ -1,0 +1,4 @@
+Perl module for accessing snpp servers
+	
+net::snpp is a perl module that provides access to the snpp simple network
+paging protocol. it also provides net:snpp::server for creating snpp servers.

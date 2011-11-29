@@ -1,0 +1,32 @@
+A feature-rich dictionary lookup program
+	
+features:
+
+ * use of webkit for an accurate articles' representation,
+   complete with all formatting, colors, images and links.
+ * support of multiple dictionary file formats, namely:
+   - babylon .bgl files, complete with images and resources
+   - stardict .ifo/.dict./.idx/.syn dictionaries
+   - dictd .index/.dict(.dz) dictionary files
+   - abbyy lingvo .dsl source files, together with abbreviations.
+     the files can be optionally compressed with dictzip. dictionary
+     resources can be packed together into a .zip file.
+   - abbyy lingvo .lsa/.dat audio archives. those can be indexed
+      separately, or be referred to from .dsl files.
+ * support for wikipedia, wiktionary, or any other mediawiki-based
+   sites to perform lookups in.
+ * ability to use arbitrary websites as dictionaries via templated
+    url patterns.
+ * hunspell-based morphology system, used for word stemming and
+   spelling suggestions.
+ * ability to index arbitrary directories with audio files for
+    pronunciation lookups.
+ * full unicode case, diacritics, punctuation and whitespace folding.
+   this means the ability to type in words without any accents,
+   correct case, punctuation or spaces (e.g. typing 'grussen' would
+   yield 'grüßen' in german dictionaries).
+ * scan popup functionality. a small window pops up with the
+   translation of a word chosen from another application.
+ * support for global hotkeys. you can spawn the program window at
+   any point, or directly translate a word from the clipboard.
+ * tabbed browsing in a modern qt 4 interface.

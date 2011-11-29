@@ -1,0 +1,21 @@
+Program package for molecular phylogenetics
+	
+protml is a main program in molphy for inferring evolutionary trees from
+protein (amino acid) sequences by using the maximum likelihood method.
+other programs (c language)
+
+ nucml:  maximum likelihood inference of nucleic acid phylogeny
+ protst: basic statistics of protein sequences
+ nucst:  basic statistics of nucleic acid sequences
+ njdist: neighbor joining phylogeny from distance matrix
+
+utilities (perl)
+
+ mollist:  get identifiers list        molrev:   reverse dna sequences
+ molcat:   concatenate sequences       molcut:   get partial sequences
+ molmerge: merge sequences             nuc2ptn:  dna -> amino acid
+ rminsdel: remove ins/del sites        molcodon: get specified codon sites
+ molinfo:  get varied sites            mol2mol:  molphy format beautifer
+ inl2mol:  interleaved -> molphy       mol2inl:  molphy -> interleaved
+ mol2phy:  molphy -> sequential        phy2mol:  sequential -> molphy
+ must2mol: must -> molphy              etc.

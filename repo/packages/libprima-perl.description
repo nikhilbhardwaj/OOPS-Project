@@ -1,0 +1,11 @@
+Multi-platform gui development toolkit for perl
+	
+prima is an extensible perl toolkit for multi-platform gui development.
+platforms supported include linux, windows nt/9x/2k, os/2 and unix/x11
+workstations (freebsd, irix, sunos, solaris and others).
+
+the toolkit contains a rich set of standard widgets and has emphasis on 2d
+image processing tasks. a perl program using prima looks and behaves
+identically on x, win32 and os/2 pm.
+
+the toolkit includes a visual builder.

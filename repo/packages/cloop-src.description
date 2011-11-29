@@ -1,0 +1,5 @@
+Source of the compressed loopback device module
+	
+this package contains a source package for building the cloop module.
+you can use module-assistant or make-kpkg to build a modules package for
+specific kernel.

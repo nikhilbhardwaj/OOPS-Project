@@ -1,0 +1,10 @@
+Arc saml2sp service
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced resource
+connector (arc).
+
+service provider is a utility service which is supposed to work together
+with external identity provider and user agent (client) to accomplish
+the "saml2.0 web sso profile" which requires client to provider
+"username/password" instead of x.509 certificate for authentication.

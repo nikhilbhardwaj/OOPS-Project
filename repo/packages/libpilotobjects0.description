@@ -1,0 +1,8 @@
+Objects for pilot-qof
+	
+pilot-qof provides a query interface to data on a palm device,
+using pilot-link and qof - the query object framework.
+
+this package contains the shared library of qof objects that
+define the addressbook, datebook, expenses and invoice objects.
+it does not contain the interface to the palm device itself.

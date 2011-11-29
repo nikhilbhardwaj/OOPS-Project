@@ -1,0 +1,9 @@
+Simple scanning utility
+	
+simple scan is an easy-to-use application, designed to let users
+connect their scanner and quickly have the image/document in an
+appropriate format.
+
+simple scan is basically a frontend for sane - which is the same
+backend as xsane uses. this means that all existing scanners will
+work and the interface is well tested.

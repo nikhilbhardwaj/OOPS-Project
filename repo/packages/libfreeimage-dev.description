@@ -1,0 +1,10 @@
+Support library for graphics image formats (development files)
+	
+freeimage is an open source c/c++ library project for developers who would
+like to support popular graphics image formats like png, bmp, jpeg, tiff
+and others as needed by today's multimedia applications. freeimage is
+easy to use, fast, multithreading safe, and cross-platform (works both
+with linux, 32 bit windows and mac os x).
+
+this package contains the headers and static libraries needed to develop
+programs using freeimage.

@@ -1,0 +1,13 @@
+Command line interface for libtrain
+	
+libtrain is a library for calculating the shortest route
+from a train station to another in consideration of time and distance.
+it tells you which line you should take and where you should transfer at.
+
+note that this is a *library*, so you have to get interface programs using
+libtrain(gtktrain is recommended) to actually use it.
+
+to use this software, you'll need to get the train schedule data separately
+and install it by yourself.  see readme.debian for more detail.
+
+this package contains a command line interface for libtrain.

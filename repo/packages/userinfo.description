@@ -1,0 +1,7 @@
+Display information about local users
+	
+userinfo is a small console utility to display as much information
+about a local user as possible. it supports the output of password
+file info, home directory mode, mail info, lastlog info and more.
+
+after installation you can invoke userinfo by calling ui.

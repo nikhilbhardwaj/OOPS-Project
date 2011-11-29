@@ -1,0 +1,5 @@
+Ruby 1.8 binding for the evolution mail client
+	
+revolution is a little ruby 1.8 binding to the excellent evolution email
+client. at the moment it supports simple querying of the calendar,
+task, and contact information, and minimal editing.

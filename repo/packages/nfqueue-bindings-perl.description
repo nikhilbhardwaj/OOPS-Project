@@ -1,0 +1,8 @@
+Perl bindings for nfqueue
+	
+nfqueue-bindings is a set of high-level modules for several languages
+(python and perl, for the moment), for libnetfilter_queue.
+it provides a userspace api to access packets that have been queued by
+the kernel packet filter using the nfqueue target.
+
+this package contains the perl bindings for nfqueue.

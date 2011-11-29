@@ -1,0 +1,6 @@
+Client support for wpa and wpa2 (ieee 802.11i)
+	
+wpa and wpa2 are methods for securing wireless networks, the former
+using ieee 802.1x, and the latter using ieee 802.11i. this software
+provides key negotiation with the wpa authenticator, and controls
+association with ieee 802.11i networks.

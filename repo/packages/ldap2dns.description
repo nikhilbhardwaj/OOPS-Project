@@ -1,0 +1,12 @@
+Ldap based dns management system.
+	
+ldap2dns is a program to create dns (domain name service) records directly
+from an ldap directory. it can and should be used to replace the secondary
+name-server by a second primary one. ldap2dns reduces all kind of
+administration overhead: no more flat file editing, no more zone file
+editing. after having installed ldap2dns, the administrator only has to
+access the ldap directory.
+
+ldap2dns is designed to write ascii data files used by tinydns from the
+djbdns package, but also may be used to write .db-files used by named as
+found in the bind package.

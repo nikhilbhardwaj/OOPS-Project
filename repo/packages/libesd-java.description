@@ -1,0 +1,5 @@
+Implementation of esound in pure java
+	
+jesd includes an audio server, which corresponds to 'esd' and classes for
+communicating with 'esd', which corresponds to 'libesd'.  this client side
+code will enable us to hack audio apps in pure java.

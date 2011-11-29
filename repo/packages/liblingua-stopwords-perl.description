@@ -1,0 +1,7 @@
+Stop words for several languages
+	
+in keyword search, it is common practice to suppress a collection of
+"stopwords": words such as "the", "and", "maybe", etc. which exist in a
+large number of documents and do not tell you anything important about any
+document which contains them.  this module provides such "stoplists" in
+several languages.

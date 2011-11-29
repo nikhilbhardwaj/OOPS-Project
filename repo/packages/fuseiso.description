@@ -1,0 +1,8 @@
+Fuse module to mount iso filesystem images
+	
+this package provides a module to mount iso filesystem images
+using fuse.
+with fuse it is possible to implement a fully functional
+filesystem in a userspace program.
+
+it can also mount single-tracks .bin, .mdf, .img and .nrg.

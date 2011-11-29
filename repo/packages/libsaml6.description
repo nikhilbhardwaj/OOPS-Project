@@ -1,0 +1,8 @@
+Security assertion markup language library (runtime)
+	
+opensaml is an open source implementation of the oasis security assertion
+markup language specification. it contains a set of open source c++ classes
+that support the saml 1.0, 1.1, and 2.0 specifications.
+
+this package contains the files necessary for running applications that
+use the opensaml library.

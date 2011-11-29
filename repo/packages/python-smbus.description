@@ -1,0 +1,5 @@
+Python bindings for linux smbus access through i2c-dev
+	
+this python module allows smbus access through the i2c /dev interface on
+linux hosts.  the host kernel must have i2c support, i2c device interface
+support, and a bus adapter driver.

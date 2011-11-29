@@ -1,0 +1,11 @@
+Ace-gui reactor integration for xt
+	
+recognizing the need to write reactor-based gui applications, the ace
+community has created several reactor extensions for use with x
+window system.  each of these extends the ace_select_reactor to work
+with a specific toolkit.  by using these reactors, your gui
+application can remain single threaded yet still respond to both gui
+events, such as button presses, any your own application events.
+
+the ace_xtreactor extends both the ace_select_reactor and the x
+toolkit library function xtwaitformultipleevents().

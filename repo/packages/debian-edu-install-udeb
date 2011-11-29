@@ -1,0 +1,4 @@
+PackageId:2791
+Name:debian-edu-install-udeb
+Version:1.519
+Deps:cdebconf-udeb,clock-setup,configured-network,netcfg,netcfg-static,ppp-udeb,debian-edu-archive-keyring-udeb,debian-edu-profile-udeb,driver-injection-disk-detect,localization-config-udeb,ltsp-client-builder,pkgsel,user-setup-udeb

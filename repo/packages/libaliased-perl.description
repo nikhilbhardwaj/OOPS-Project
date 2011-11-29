@@ -1,0 +1,9 @@
+Perl module to provide aliases of class names
+	
+aliased is a module to alias class names to arbitrary aliases in the current
+module or script, which is especially useful with classes that are in deep
+class hierarchies. it is also handy if a class has been renamed.
+
+please note that this module only applies to loading object oriented modules,
+not for procedural modules in general. fortunately this is rarely necessary
+in practise, since these modules support exporting of needed functions.

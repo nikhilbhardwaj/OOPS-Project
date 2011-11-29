@@ -1,0 +1,13 @@
+Wrapper for (un)mounting and ejecting storage devices
+	
+the gnome-mount package contains programs for mounting, unmounting and
+ejecting storage devices. the goal for gnome-mount is to get the appropriate
+gnome software (such as gnome-volume-manager and gnomevfs) to use his method
+instead of invoking mount/umount/eject or direct hal invoking methods.
+
+all the gnome-mount programs utilize the methods on hal and as such run
+unprivileged. the rationale for gnome-mount is to have a centralized place (in
+gconf) where settings (e.g. mount options and mount locations) are maintained.
+
+a nautilus extension allows to easily change the mount options which can be
+user, drive or volume specific.

@@ -1,0 +1,5 @@
+Perl extension to work with ranges of numbers
+	
+number::range will take a description of a range, and then allow you to test
+on if a number falls within the range. you can also add and delete from the
+range.

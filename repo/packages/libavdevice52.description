@@ -1,0 +1,6 @@
+Ffmpeg device handling library
+	
+this is the device handling library from the ffmpeg project.
+
+this package contains a debian-specific version of the libavdevice shared
+object that should only be used by debian packages.

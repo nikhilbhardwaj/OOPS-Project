@@ -1,0 +1,8 @@
+Utility to configure sram based altera devices
+	
+flexloader is a small utility to configure sram based altera devices.
+it downloads a code to the device sram using an altera byteblaster or
+a compatible jtag programmer. it dialogs with it through the parallel
+interface, using parport.
+
+it supports apex20k, flex10k, flex6000 and acex1k families.

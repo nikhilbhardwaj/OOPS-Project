@@ -1,0 +1,14 @@
+A lode-runner-like platform game for x
+	
+xscavenger is a platform game for the x window system. from the readme:
+
+scavenger is like lode runner. you've got to run around gathering objects
+while avoiding enemies. you can dig down through some of the blocks to get
+at buried objects. after you've collected everything, ladders may appear.
+to finish the level you've got to exit through the top of the screen. if
+an enemy falls into a dug brick, he is stunned for a while. if the brick
+fills in with him in it, he is killed, and he will reappear at the top of
+the screen.
+
+this version has a level editor for designing your own levels, and a
+graphics editor for drawing your own artwork.

@@ -1,0 +1,6 @@
+Common lisp package for using the fftw3 library
+	
+this package provides an interface for common lisp programs to use
+the fftw3 fourier transform library. a number of higher-level interfaces
+has been added in addition to the native interface to the fftw3
+c-based library.

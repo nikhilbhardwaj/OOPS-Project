@@ -1,0 +1,9 @@
+Linuxsampler control protocol wrapper library
+	
+this package is for use with the linuxsampler audio sampling
+engine /  library and packages.
+wraps the linuxsampler network protocol and offers a
+convenient api in form of a c library.
+
+for further informations visit
+http://www.linuxsampler.org

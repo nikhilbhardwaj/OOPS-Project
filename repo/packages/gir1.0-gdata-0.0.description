@@ -1,0 +1,11 @@
+Description: gobject introspection data for the gdata webservices library
+	
+this package contains introspection data for the gdata webservices
+library.
+
+libgdata is a glib-based library for accessing online service apis using
+the gdata protocol — most notably, google's services. it provides apis
+to access the common google services, and has full asynchronous support.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

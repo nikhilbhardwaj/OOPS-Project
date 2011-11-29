@@ -1,0 +1,6 @@
+Java invocation framework library
+	
+the onemind commons-invoke framework is a complimentary framework to the
+reflection. while reflection allow discovery/invocation of the java object
+through jvm kernel, the invocation framework allows programmatic help for
+method lookup and invocation.

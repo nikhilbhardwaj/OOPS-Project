@@ -1,0 +1,9 @@
+Memory mapped files for posix and windows
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides a wrapper to mmap(2) or mapviewoffile, allowing files or
+devices to be lazily loaded into memory as strict or lazy bytestrings,
+foreignptrs or plain ptrs, using the virtual memory subsystem to do on-demand
+loading. modifications are also supported.

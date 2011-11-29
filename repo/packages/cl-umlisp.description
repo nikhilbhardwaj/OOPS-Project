@@ -1,0 +1,6 @@
+Common lisp interface for the unified medical language system
+	
+the unified medical language system is a multi-gigabyte database of
+medical terminology. this a interface for common lisp programs that utilizes
+the a sql database engine and common lisp meta-classes for efficient access
+and formatting.

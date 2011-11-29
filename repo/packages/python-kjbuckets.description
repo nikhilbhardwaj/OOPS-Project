@@ -1,0 +1,7 @@
+Set and graph data types for python
+	
+kjbuckets is a c extension to the python interpreter which
+defines set and graph data types, as well as an alternative
+dictionary data type.  these types are tightly coupled at
+the level of c, allowing fast and powerful algebraic
+combinations of container objects.

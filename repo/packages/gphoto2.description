@@ -1,0 +1,7 @@
+The gphoto2 digital camera command-line client
+	
+the gphoto2 library can be used by applications to access various
+digital camera models, via standard protocols such as usb mass storage
+and ptp, or vendor-specific protocols.
+
+this package provide the gphoto2 command-line frontend.

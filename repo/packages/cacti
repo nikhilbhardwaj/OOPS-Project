@@ -1,0 +1,4 @@
+PackageId:1495
+Name:cacti
+Version:0.8.7g-1
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libapache2-mod-php5,php5,libphp-adodb,php5-cli,php5-mysql,php5-snmp,rrdtool,snmp,ucf,virtual-mysql-client,mysql-client-5.1

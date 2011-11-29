@@ -1,0 +1,13 @@
+Prefix range module for postgresql
+	
+this postgresql module provides the prefix_range datatype, which
+allows to index searches such as finding the longest prefix matching
+a telephone number, having prefixes in a table and telephone number
+as a parameter:
+
+
+ select * from prefixes where prefix @> '0100091234';
+
+
+the prefix column has to be of type prefix_range, and any text field
+can get indexed by the provided gist opclass.

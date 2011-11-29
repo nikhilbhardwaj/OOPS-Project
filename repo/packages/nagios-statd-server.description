@@ -1,0 +1,6 @@
+Nagios server for monitoring remote system information
+	
+contains the daemon to be installed on the remote system to be monitored
+by nagios server using nagios-statd-client.
+
+montiors: disk, load, proc, swap, user and version.

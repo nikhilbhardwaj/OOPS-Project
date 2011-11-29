@@ -1,0 +1,11 @@
+Internet tcp redirection server
+	
+rinetd redirects tcp connections from one ip address and port to another,
+with basic ip-based access control.
+
+rinetd is a single-process server which handles any number of connections
+to the address/port pairs specified in the file /etc/rinetd.conf. since
+rinetd runs as a single process using nonblocking i/o, it is able to
+redirect a large number of connections without a severe impact on the
+machine. this makes it practical to run services on machines inside an ip
+masquerading firewall.

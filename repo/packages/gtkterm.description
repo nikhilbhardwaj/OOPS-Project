@@ -1,0 +1,20 @@
+A simple gtk+ serial port terminal
+	
+gtkterm is a simple gtk+ terminal used to communicate with the serial port.
+
+its features :
+
+
+ * serial port terminal window
+ * serial port setup (speed, parity, bits, stopbits, flow control)
+ * using the termios api
+ * possible to send a file (only raw data, no protocol)
+ * end of line delay while sending a file
+ * special character wait before next line while sending a file
+ * possible to toggle control lines manually (dtr, cts)
+ * also reads the state of control lines (rts, cd, dsr, ri)
+
+
+
+ author:   julien schmitt <julien@jls-info.com>
+ homepage: http://www.jls-info.com/julien/linux/

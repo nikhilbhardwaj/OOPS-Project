@@ -1,0 +1,28 @@
+Smart unicode font for arabic
+	
+scheherazade, named after the heroine of the classic arabian nights
+tale, is designed in a similar style to traditional typefaces such as
+monotype naskh, extended to cover the full unicode arabic repertoire.
+
+the goal for this product was to provide a single unicode-based font
+family that would contain a comprehensive inventory of glyphs needed
+for almost any arabic-based writing system. this font makes use of
+state-of-the-art font technologies to support complex typographic
+issues.
+
+this font provides a simplified rendering of arabic script, using
+basic connecting glyphs but not including a wide variety of additional
+ligatures or contextual alternates (only the required lam-alef
+ligatures). this simplified style is often preferred for clarity,
+especially in non-arabic languages, but may be considered unattractive
+in more traditional and literate communities.
+
+one font from this typeface family is included in this release:
+
+    - scheherazade regular
+
+
+this release supports virtually all of the unicode 5.0 arabic
+character repertoire (excluding the arabic presentation forms blocks,
+which are not recommended for normal use). font smarts are implemented
+using opentype technology.

@@ -1,0 +1,17 @@
+Perl module for creating html tables
+	
+html::table is used to generate html tables for
+cgi scripts.  by using the methods provided fairly
+complex tables can be created, manipulated, then printed
+from perl scripts.  the module also greatly simplifies
+creating tables within tables from perl.  it is possible
+to create an entire table using the methods provided and
+never use an html tag.
+
+html::table also allows for creating dynamically sized
+tables via its addrow and addcol methods.  these methods
+automatically resize the table if passed more cell values
+than will fit in the current table grid.
+
+methods are provided for nearly all valid table, row, and
+cell tags specified for html 3.0.

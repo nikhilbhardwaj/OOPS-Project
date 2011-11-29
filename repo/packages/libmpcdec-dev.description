@@ -1,0 +1,13 @@
+Musepack decoder - development files
+	
+musepack is an audio compression format with a strong emphasis on
+high quality. it's not lossless, but it is designed for transparency,
+so that you won't be able to hear differences between the original
+wave file and the much smaller mpc file.
+
+it is based on the mpeg-1 layer-2 / mp2 algorithms, but since 1997
+it has rapidly developed and vastly improved and is now at an advanced
+stage in which it contains heavily optimized and patentless code.
+
+this package contains the header files, static libraries
+and symbolic links that developers using libreplaygain will need.

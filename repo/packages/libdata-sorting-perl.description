@@ -1,0 +1,14 @@
+Perl module for multi-key sort using function results
+	
+data::sorting provides functions to sort the contents of arrays based
+on a collection of extraction and comparison rules. extraction rules
+are  used to identify the attributes of array elements on which the
+ordering  is based; comparison rules specify how those values should be
+ordered.
+
+index strings may be used to retrieve values from array elements, or
+function references may be passed in to call on each element.
+comparison rules are provided for numeric, bytewise, and
+case-insensitive orders, as well as a 'natural' comparison that places
+numbers first, in numeric order, followed by the remaining items in
+case-insensitive textual order.

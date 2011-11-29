@@ -1,0 +1,16 @@
+Graphical interface for browsing the python package index
+	
+pypi browser is a graphical user interface (gui) tool for browsing the
+contents of the python package index (pypi). it queries the online
+package index server to retrieve information about the available
+packages.
+
+it aims to make it easier for users to find and download useful python
+software from a central repository. it provides facilities for searching
+the package index, can display information about individual packages,
+allows packages to be marked so that they can be downloaded together, and
+records information about existing packages so that new ones can be
+highlighted.
+
+be warned that the preferred way of installing python modules in the
+debian distribution is from the official python-* packages.

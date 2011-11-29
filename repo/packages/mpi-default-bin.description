@@ -1,0 +1,6 @@
+Standard mpi runtime programs
+	
+this package depends on the runtime programs of the recommended mpi
+implementation for each platform, currently openmpi on all of the platforms
+where it exists, and lam on the others.  the package which this depends on has
+alternatives links for mpirun and mpiexec.

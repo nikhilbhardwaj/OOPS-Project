@@ -1,0 +1,6 @@
+Create opml using xml::simple
+	
+xml::opml::simplegen lets you simply generate opml documents without having
+too much to worry about. it is a drop-in replacement for xml::opml in regards
+of generation. as this module uses xml::simple it is rather generous in
+regards of attribute or element names.

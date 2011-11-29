@@ -1,0 +1,15 @@
+Xapian search engine interface for tcl
+	
+this package provides xapian tcl bindings which should work with any version
+of tcl >= 8.1 (by using tcl's stubs mechanism.)
+
+the xapian search engine library is a highly adaptable toolkit which allows
+developers to easily add advanced indexing and search facilities to their own
+applications.  it implements the probabilistic model of information retrieval,
+and provides facilities for performing ranked free-text searches, relevance
+feedback, phrase searching, boolean searching, stemming, and simultaneous
+update and searching.  it is highly scalable, and is capable of working with
+collections containing hundreds of millions of documents.
+
+the xapian tcl bindings provide an interface to the xapian library from the
+tcl programming language, allowing both indexing and retrieval operations.

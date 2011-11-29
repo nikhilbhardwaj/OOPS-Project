@@ -1,0 +1,10 @@
+American english male speaker for festival, 8khz sample rate
+	
+this is a diphone database for festival that uses 8k samples so it takes up
+a minimum of disk space. using this diphone database, festival also converts
+text to speech faster than with the 16k version. however, the sound quality
+is not as good.
+
+the voice contained in this database is an american english male speaker.
+a different american english voice can be found in the festvox-kdlpc16k
+package if you dislike this one.

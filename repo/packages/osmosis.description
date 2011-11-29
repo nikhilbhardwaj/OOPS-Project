@@ -1,0 +1,11 @@
+Command line openstreetmap data processor
+	
+osmosis consists of a series of components that can be chained together
+in order to perform operations on an openstreetmap database or
+openstreetmap xml files. such operations include:
+
+ * generate and load dumps from and to a database.
+ * produce changesets comparing databases and files and applying
+   them to other databases and files.
+ * sort data contained in a file.
+ * extract data contained in a bounding box or in a polygon.

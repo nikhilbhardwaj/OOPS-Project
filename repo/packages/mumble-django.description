@@ -1,0 +1,30 @@
+A mumble-server web interface
+	
+mumble-django is a django web interface application that configures a
+murmur server. it is able to create and remove vservers, start/stop them,
+and configure them.
+
+furthermore, registered django users can sign up for user accounts on the
+configured vservers and change their registration names and passwords.
+
+this package contains a fully functional django project that runs as a
+standalone web application. use this if you do not have a django-driven
+website that you could integrate mumble-django in.
+
+main features:
+
+ * channel viewer
+ * detailed server configuration via django's admin interface (for the hoster)
+ * user registration: users can register and manage their accounts themselves
+ * granting/revoking membership in the admin group
+ * existing server instances and users are recognized during installation
+ * admin group members can configure basic settings like motd and server
+   password via the web interface, without getting access to settings like
+   maximum user count and allowed bandwith
+ * does not require access to murmur's database
+ * setting users' textures
+ * munin plugin that graphs the user count on each server instance
+ * reusable: via the python-django-mumble package, the mumble app can easily
+   be integrated into other django projects
+ * extendable: writing python scripts that access mumble-django's database and
+   use its api to interact with murmur is easy

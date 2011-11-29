@@ -1,0 +1,4 @@
+PackageId:370
+Name:apache2
+Version:2.2.16-6+squeeze4
+Deps:apache2-mpm-worker,apache2-mpm-prefork,apache2-mpm-event,apache2-mpm-itk,apache2.2-common

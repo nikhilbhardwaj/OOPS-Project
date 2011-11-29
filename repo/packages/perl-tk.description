@@ -1,0 +1,11 @@
+Perl module providing the tk graphics library
+	
+perl/tk (also known as ptk or ptk) is a collection of modules and
+code that attempts to wed the easily configured tk widget toolkit
+to the powerful lexigraphic, dynamic memory, i/o, and object-oriented
+capabilities of perl 5. in other words, it is an interpreted
+scripting language for making widgets and programs with graphical
+user interfaces (gui).
+
+a good place to get started is by running the "widget" demo that's
+installed with this package.

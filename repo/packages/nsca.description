@@ -1,0 +1,24 @@
+Nagios service monitor agent
+	
+this addon allows you to send service check results to a central
+monitoring server running nagios in a reasonably secure manner.
+
+nagios is a monitoring and management system for hosts, services and
+networks.
+
+nagios' features include:
+
+
+ -  monitoring of network services (via tcp port, smtp, pop3, http, nntp,
+    ping, etc.)
+ -  plugin interface to allow for user-developed service checks
+ -  contact notifications when problems occur and get resolved (via email,
+    pager, or user-defined method)
+ -  ability to define event handlers to be run during service or host events
+    (for proactive problem resolution)
+ -  web output (current status, notifications, problem history, log file,
+    etc.)
+
+
+nagios was written in c and is designed to be easy to understand and modify
+to fit your own needs.

@@ -1,0 +1,17 @@
+Dyndns.org client to register your dynamic ip address
+	
+the dynamic dns service allows you to alias a dynamic ip address to a
+static hostname, allowing your computer to be more easily accessed from
+various locations on the internet.
+
+this is a simple python script to register your dynamic ip address using
+the nic v2.0 protocol.
+
+the script is very easy to use and supports multiple methods for determining
+the external ip (parsing interfaces on the local machine, web based ip
+detection, direct support for devices from linksys, netgear, draytek,
+netopia, hawkingtech, watchgard, cayman, nexland, zyxel, smc, compex,
+ugateplus, dlink and cisco).  it also supports the dyndns offline mode.
+
+starting with version 0.141 ipcheck uses https by default and will fall
+back to http if a timeout occurs.

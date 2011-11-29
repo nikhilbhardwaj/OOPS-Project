@@ -1,0 +1,7 @@
+Gtk+ standard dialog library for libgdu
+	
+the gdu-gtk library provides gtk+ standard dialogs for handling media
+operations, like entering secrets for encrypted drives or confirmation dialogs
+for erasing a partition.
+
+this package contains shared libraries to be used by applications.

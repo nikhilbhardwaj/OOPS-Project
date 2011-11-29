@@ -1,0 +1,9 @@
+Ssl/tls man-in-the-middle attack tool
+	
+sslsniff is designed to create man-in-the-middle (mitm) attacks for
+ssl/tls connections, and dynamically generates certs for the domains
+that are being accessed on the fly. the new certificates are constructed
+in a certificate chain that is signed by any certificate that is
+provided.
+sslsniff also supports other attacks like null-prefix or ocsp attacks to
+achieve silent interceptions of connections when possible.

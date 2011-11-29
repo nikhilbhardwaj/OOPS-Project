@@ -1,0 +1,13 @@
+C++ mime library (development)
+	
+mimetic is a gpl mime library written in c++ designed to be easy to use and
+integrate but yet fast and efficient.
+
+mimetic has been built around the standard lib. this means that you'll not
+find yet another string class or list implementation and that you'll feel
+comfortable in using this library from the very first time.
+
+mimetic doesn't use exceptions but it heavily uses templates so a mostly
+standard compliant c++ compiler is required.
+
+this package contains the header files.

@@ -1,0 +1,4 @@
+PackageId:26794
+Name:partman-base
+Version:147
+Deps:archdetect,cdebconf-udeb,di-utils,di-utils-mapdevfs,harddrive-detection,disk-detect,s390-dasd,libc0.1-udeb,libc6-udeb,libc6.1-udeb,libgcc1,libparted0-udeb,partman-partitioning,partman-target,partman-utils

@@ -1,0 +1,7 @@
+Simtec electronics udekey01 entropy key daemon
+	
+this does stuff with entropy keys. you want it if you have some.
+
+mostly you only need this if you have a simtec electronics
+udekey01 device. the daemon and supplied tools drive the ekey
+and allow it to supply entropy to the system random pool.

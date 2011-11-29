@@ -1,0 +1,8 @@
+Reusable components used by batik and fop
+	
+apache xml graphics commons is a library that consists of several
+reusable components used by apache batik and apache fop. many of these
+components can easily be used separately outside the domains of svg and
+xsl-fo. you will find components such as a pdf library, an rtf library,
+graphics2d implementations that let you generate pdf & postscript
+files, and much more.

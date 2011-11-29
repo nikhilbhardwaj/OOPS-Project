@@ -1,0 +1,13 @@
+Network block device protocol - client
+	
+network block device (nbd) is a client/server protocol that
+emulates a block device (such as a hard disk, a floppy, or a cd-rom)
+over the network, thus giving the system the ability to swap over the
+network, or to use raw network disk space for other purposes.
+
+however, writing to one network block device from different clients
+simultaneously is not recommended, and would probably result in data
+loss. if you want multiple clients to share a remote resource, use a
+network file system such as nfs or coda.
+
+this package provides the client binary for nbd.

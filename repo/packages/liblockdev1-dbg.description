@@ -1,0 +1,7 @@
+Debugging library for locking devices
+	
+it provides a reliable way to put an exclusive lock to
+devices using _both_ fsstnd and svr4 methods.
+
+includes static and shared debugging and profiling libs,
+as well as the sources ready for use by gdb.

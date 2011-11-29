@@ -1,0 +1,6 @@
+Module to communicate with mpd servers
+	
+audio::mpd is a perl module that provides an object-oriented interface for
+communicating with and controlling mpd (music player daemon) servers. it also
+includes an example control daemon, mpd-dynamic, which implements a dynamic
+playlist for mpd.

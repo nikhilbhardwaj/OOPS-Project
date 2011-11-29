@@ -1,0 +1,7 @@
+Python wrappers around bluez for rapid bluetooth development
+	
+pybluez is an effort to create python wrappers around bluez to allow python
+developers to use system bluetooth resources. pybluez works on machines
+running the gnu/linux operating system and the bluez bluetooth stack.
+
+this package provides the "bluetooth" python module.

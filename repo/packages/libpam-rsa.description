@@ -1,0 +1,10 @@
+Pam module for local authentication with rsa keypairs
+	
+the pam_rsa pam-module (also known as "poor man's smartcard") is for
+local pam-authentication with rsa keypairs. it cannot be used for
+authenticating to pam-services on  remote hosts. the basic idea is
+that rsa private keys are stored on removable and easily portable
+medias like usb memory sticks. this package provides the pam-rsa.so
+module for pam.
+
+homepage: http://www.helsinki.fi/~vmkari/pamrsa/

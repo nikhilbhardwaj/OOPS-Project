@@ -1,0 +1,18 @@
+Complete and feature-rich groupware server; metapackage for full installation
+	
+citadel is a complete and feature-rich open source groupware platform.
+
+ * email, calendaring/scheduling, address books
+ * bulletin boards, mailing list server, instant messaging
+ * multiple domain support
+ * an intuitive, attractive ajax-style web interface
+
+
+the citadel system is extremely versatile. it provides numerous front ends to
+present to users, such as a text-based interface, an ajax-style web interface,
+and many popular pim clients using smtp/pop/imap. all of these can be used
+simultaneously.
+
+it's also extremely scalable. not only can a well-equipped citadel server
+support a large number of concurrent users, but you can also build
+a distributed network of citadel nodes that share rooms and their content.

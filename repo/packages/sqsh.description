@@ -1,0 +1,8 @@
+Commandline sql client for ms sql and sybase servers
+	
+sqsh is a flexible commandline utility that uses the freetds libraries
+to connect to sybase or microsoft sql servers.  it is a useful debugging
+tool for identifying problems with other sql applications, and it can be
+used as a productivity tool in its own right:  unlike most sql clis, sqsh's
+interactive shell lets you pipe the output of sql queries directly to other
+unix commands for further processing.

@@ -1,0 +1,11 @@
+Nvidia binary driver 32-bit libs
+	
+these binary drivers provide optimized hardware acceleration of
+opengl applications via a direct-rendering x server.
+agp, pcie, sli, tv-out and flat panel displays are also supported.
+this version only supports geforce 6xxx and higher of the geforce gpus
+plus complimentary quadros and nforce.  look at the legacy packages
+for older cards.
+
+see /usr/share/doc/nvidia-glx/readme.txt.gz
+for a complete list of supported gpus and pci ids.

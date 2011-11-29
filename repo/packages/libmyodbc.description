@@ -1,0 +1,6 @@
+The mysql odbc driver
+	
+this package allows you to connect to mysql database servers using
+odbc, the open database connectivity abstraction layer which is
+understood by a variety of database tools that cannot talk to mysql
+databases directly.

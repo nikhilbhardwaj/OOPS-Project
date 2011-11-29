@@ -1,0 +1,5 @@
+A tar(1) post-processor
+	
+tardy alters the characteristics of files in a tar(1) archive.  it
+can change the files' owner, change the files' group, add a prefix to
+the files' paths, and change the files' protections.

@@ -1,0 +1,9 @@
+Fake arp user space daemon
+	
+this arp daemon replies to any arp request for a set of ip addresses
+with the hardware mac address of one of the interfaces of the
+server after determining that no other host in the network is claiming
+that ip.
+
+this enables a single host to claim all unassigned addresses on a
+lan for network monitoring or simulation purposes.

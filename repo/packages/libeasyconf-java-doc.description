@@ -1,0 +1,17 @@
+Library to access configuration of software components - javadoc
+	
+easyconf is a library to access configuration of software components
+and applications.
+
+easyconf main features:
+
+  * xml files, typed property files (including lists, numbers, classes, etc),
+    or a combination of both
+  * multiple environments (development, integration, preproduction, production)
+  * aggregate several components: for example for portlets and portals
+  * support for asp applications: each company/organization serviced may have
+    its own configuration
+  * provides access to the configuration using jmx
+
+
+this package contains easyconf api javadoc documentation.

@@ -1,0 +1,7 @@
+Alternative encoder for the free lossless audio codec
+	
+the purpose of flake is to be an alternative to the
+flac reference encoder with the goal of increasing
+encoding speed and implementing experimental features.
+
+flake encodes wav audio files into lossless flac files.

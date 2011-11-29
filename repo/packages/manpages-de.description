@@ -1,0 +1,17 @@
+German manpages
+	
+this package contains the linux manual pages translated into german.
+the following sections are included:
+
+ * 1 = user programs (e.g. ls, ln)
+ * 4 = devices (e.g. hd, sd).
+ * 5 = file formats and protocols, syntaxes of several system
+       files (e.g. wtmp, /etc/passwd, nfs).
+ * 6 = games etc.
+ * 7 = conventions and standards, macro packages, etc.
+       (e.g. nroff, ascii).
+ * 8 = system administration commands.
+
+
+the english package manpages is likely to contain additional and more
+up-to-date versions than the german translation.

@@ -1,0 +1,5 @@
+Receive rss feeds by email
+	
+rss2email is a simple program which you can run in your crontab.
+it watches rss (or atom) feeds and sends you a nicely formatted
+email message for each new item.

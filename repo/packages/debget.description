@@ -1,0 +1,10 @@
+Download/compile source and binary debian packages
+	
+debget downloads source and binary debian packages by name.  it doesn't
+require a local copy of the packages files, instead it queries
+packages.debian.org to find out what versions are available.
+
+debget can also optionally unpack and compile source packages, and even
+install the generated binary packages.  if you intend to use these
+features you should install the devscripts package for the dscverify
+script it contains.

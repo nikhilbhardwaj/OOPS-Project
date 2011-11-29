@@ -1,0 +1,7 @@
+Parser class for bind configuration files
+	
+bind::conf_parser implements a virtual base class for parsing bind
+(berkeley internet name domain) server version 8 (and sometimes version 9)
+configuration files ("named.conf").  the parsing methods shown in the
+synopsis perform syntactic analysis only.  as each meaningful semantic
+'chunk' is parsed, a callback method is invoked with the parsed information.

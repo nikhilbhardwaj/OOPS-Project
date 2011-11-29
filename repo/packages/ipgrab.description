@@ -1,0 +1,5 @@
+Tcpdump-like utility that prints detailed header information
+	
+ipgrab is a network debugging utility not unlike tcpdump except
+that it prints out detailed header field information for
+data link, network and transport layers.

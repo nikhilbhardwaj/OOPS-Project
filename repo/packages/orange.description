@@ -1,0 +1,19 @@
+Extracts cab files from self-extracting installers
+	
+orange is a tool and library for squeezing out juicy installable microsoft
+cabinet files from self-extracting installers for microsoft windows.
+it currently supports the following kinds of installers:
+
+   * early support for installers created by installer vise.
+   * support for some installers created by inno setup.
+   * early support for the installer used by tomtom products.
+   * installshield versions 5 and 6.
+   * setup factory versions 5 and 6.
+   * some other installer (using a dll called inflate.dll). this is used by
+     for example macromedia flash player 6 for pocket pc 2002.
+   * microsoft cabinets (also self-extracting) when you have cabextract
+     installed.
+   * zip archives (also self-extracting) when you have unzip installed.
+
+
+this package contains the binary which can be used to extract cab files.

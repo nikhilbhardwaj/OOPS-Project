@@ -1,0 +1,14 @@
+Edinburgh speech tools - user binaries
+	
+this package contains the various highly useful utility programs that use and
+accompany the edinburgh speech tools library. audio softwares and some basic
+signal processing software is included in this package.
+
+the following programs are available:
+na_play: generic playback program for use with net_audio and cstr ao.
+ch_wave: waveform file conversion program.
+ch_lab: label file conversion program.
+ch_track: track file conversion program.
+wagon: a cart tree build and test program
+
+see /usr/share/doc/speech-tools/readme for detail list of programs available.

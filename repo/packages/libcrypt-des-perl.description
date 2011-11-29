@@ -1,0 +1,7 @@
+Perl des encryption module
+	
+this is crypt::des, an xs-based implementation of the des
+cryptography algorithm.
+
+the module implements the crypt::cbc interface, which has
+blocksize, keysize, encrypt and decrypt functions.

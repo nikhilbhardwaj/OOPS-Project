@@ -1,0 +1,15 @@
+Code generator to convert header files into ctypes interfaces
+	
+ctypeslib is a code generator capable of converting c header files
+into xml files (using gccxml), and then converting the xmlfiles into
+python modules which define a ctypes interface to the corresponding c
+library.
+
+ctypeslib is not ctypes.  ctypes is included in python2.5+, while
+ctypeslib is a lesser known add-on by the ctypes author.  if you use
+ctypes a lot and are tired of setting argtypes and restype of the
+called functions, you should look into ctypeslib.  ctypeslib can also
+set up data types and structures from c header files automatically.
+ctypeslib could be used to integrate python with an existing c project,
+or from the start with a new project to ease development of a python/c
+interface.

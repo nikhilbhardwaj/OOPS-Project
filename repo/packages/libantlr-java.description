@@ -1,0 +1,9 @@
+Language tool for constructing recognizers, compilers etc (java library)
+	
+antlr, another tool for language recognition, (formerly pccts) is
+a language tool that provides a framework for constructing recognizers,
+compilers, and translators from grammatical descriptions containing c++
+or java actions [you can use pccts 1.xx to generate c-based parsers].
+
+this package contains the java libraries without a dependency on any runtime
+to be able to bootstrap gcj without a dependency on a java runtime.

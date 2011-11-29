@@ -1,0 +1,7 @@
+Data::visitor for creating moose objects
+	
+the purpose of moosex::blessed::reconstruct module is to "fix up" blessed data
+into a real moose object.
+
+this is used internally by moosex::yaml but has no implementation details
+having to do with yaml itself.

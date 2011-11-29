@@ -1,0 +1,11 @@
+Pooling implementation for java objects - documentation
+	
+pool provides an object-pooling api, with three major aspects:
+
+ 1. a generic object pool interface that clients and implementors can use to
+    provide easily interchangeable pooling implementations.
+ 2. a toolkit for creating modular object pools.
+ 3. several general purpose pool implementations.
+
+
+this package contains javadoc api documentation of commons pool.

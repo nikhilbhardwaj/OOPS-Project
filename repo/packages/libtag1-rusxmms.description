@@ -1,0 +1,9 @@
+Taglib audio meta-data library (rusxmms flavour)
+	
+taglib is a library for reading and editing the meta-data of several popular
+audio formats. currently it supports both id3v1 and id3v2 for mp3 files, ogg
+vorbis comments and id3 tags and vorbis comments in flac files.
+
+this is the rusxmms flavour of the taglib audio meta-data library. it is
+patched with rusxmms patch and adds support for autodetection of cyrillic
+encodings under russian/ukrainian/belarusian locales.

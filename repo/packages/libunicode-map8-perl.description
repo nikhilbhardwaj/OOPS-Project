@@ -1,0 +1,6 @@
+Module to map 8bit character sets to unicode
+	
+unicode::map8 is a perl module that implements efficient mapping tables for
+conversion between 8-bit character sets and 16 bit unicode. there are about
+170 mapping tables between various character sets, based on vendor mapping
+tables provided by unicode, inc. and code tables in rfc1345.

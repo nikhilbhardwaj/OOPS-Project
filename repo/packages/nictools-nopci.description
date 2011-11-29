@@ -1,0 +1,23 @@
+Diagnostic tools for many non-pci ethernet cards
+	
+these are tools to diagnose problems with your non-pci ethernet cards.
+some card can be set up or the eeprom can be updated.
+
+
+ 3c515-diag    : diagnostic program for 3com 3c515 ethernet cards
+ 3c5x9setup    : setup program for 3com etherlink iii ethernet cards
+ at1700-diag   : diagnostic program for the allied telesis at1700
+ atlantic-setup: setup program for at/lantic dp83905 ethernet cards
+ atp-diag      : diagnostic for realtek rtl8002/rtl8012 pocket ethernet
+                 adapter
+ eexpress      : diagnostic program for intel etherexpress 16 cards
+ el3diag       : diagnostic program for 3c509 and 3c579 ethernet cards
+ e21-diag      : diagnostic program for cabletron e2100 ethernet cards
+ hp+-diag      : diagnostic program for hp pc lan+ (27247b & 27252a) cards
+ hp100vg-diag  : diagnostic program for lucent att2md01 ethernet cards
+ ne2k-diag     : diagnostics and eeprom setup for ne2000 clones
+ wdsetup       : configuration utility for western digital and smc ethernet
+                 cards
+
+
+this package replaces the old 3c5x9utils and wdsetup packages.

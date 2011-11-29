@@ -1,0 +1,8 @@
+Architecture-independent files for source highlighting library
+	
+this package contains the data files used by the libsource-highlight
+library, which is the library that underlies the source-highlight
+program suite.  the library converts source code to a document with
+syntax highlighting and supports many file formats.  the library can
+be used by other c++ programs to get source code highlighting
+capabilities.

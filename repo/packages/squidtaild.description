@@ -1,0 +1,7 @@
+Squid log monitoring program
+	
+squidtaild is a very fast, highly configurable perl
+program that will dynamically create html pages that
+display the violations that people have made against
+one or more of the filters you have applied to the
+squid proxy logging system.

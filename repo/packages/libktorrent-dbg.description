@@ -1,0 +1,7 @@
+Debugging symbols for the ktorrent library
+	
+the ktorrent library is a c++ / qt 4 / kde platform based implementation of
+the bittorrent protocol (mostly client side).
+
+this package contains debugging symbols for the ktorrent library. it is needed
+to get a useful backtrace when applications using the ktorrent library crash.

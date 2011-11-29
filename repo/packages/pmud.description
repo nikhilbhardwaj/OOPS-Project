@@ -1,0 +1,10 @@
+Apple powerbook power management daemon
+	
+pmud is a daemon which periodically polls the pmu
+(power manager) and performs functions such as enabling
+or disabling devices appropriately when the power source
+changes, or putting the computer into sleep mode when the
+remaining battery power drops below a critical threshold.
+additional tools include a sleep command and a tool for
+waking up media bay devices to work around a cd-rom wakeup
+bug in old kernels.

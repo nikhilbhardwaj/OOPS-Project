@@ -1,0 +1,9 @@
+Graphical music score editor
+	
+canorus is a graphical music score editor written for the qt4 toolkit.
+it is a sequel of the well-known music score editor for linux, noteedit.
+canorus uses lilypond for music engraving to achieve a very high quality
+in the resulting documents.
+
+canorus offers a number of import and export filters for lilypond,
+musicxml, midi, noteedit and others.

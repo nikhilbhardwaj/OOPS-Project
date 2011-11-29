@@ -1,0 +1,8 @@
+Wysiwyg cd cover printer
+	
+kover is a wysiwyg cd cover printer. you have the ability to enter
+the title, contents, set background colors, enter text, embed images
+or stream the title and tracks from cddb (including cddb code 211).
+kover can authenticate through a proxy (basic, but not digest) for
+accessing cddb, and make a cddb request just by entering the cddb id
+(i.e., no need to have the cd inserted).

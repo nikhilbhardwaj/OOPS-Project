@@ -1,0 +1,5 @@
+Moose extension for class precedence search of traits
+	
+moosex::traits::pluggable extends the functionality of moosex::traits (see
+libmoosex-traits-perl) by providing support for class precedence searching
+and some extra attributes.

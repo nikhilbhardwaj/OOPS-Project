@@ -1,0 +1,10 @@
+Module to query cddb and freedb servers
+	
+cddb protocol servers provide compact disc information for programs that need
+it. this allows such programs to display disc and track titles automatically
+and it provides extended information like liner notes and lyrics. with this
+module, a perl program can identify and possibly gather details about a disc
+based on its "table of contents" (the disc's track times and offsets).
+
+disc details have been useful for generating cd catalogs, naming mp3 files,
+printing cd liners, or even just playing discs in an automated jukebox.

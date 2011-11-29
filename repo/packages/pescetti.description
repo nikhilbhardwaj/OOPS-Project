@@ -1,0 +1,10 @@
+Bridge pseudo-duplimate generator
+	
+generates random bridge hands or hands matching a certain specification with a
+given probability. produces hand records and dealing sheets to allow
+duplication of the hands without a duplimate machine.
+
+pescetti can interface with the dds double dummy solver to produce analysis
+for the hand records.
+
+provides conversion or import from dds-format and pbn files.

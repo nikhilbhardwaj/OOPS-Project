@@ -1,0 +1,18 @@
+A templating system for python
+	
+empy is a system for embedding python expressions and statements
+in template text; it takes an empy source file, processes it, and
+produces output.
+this is accomplished via expansions, which are special signals
+to the empy system and are set off by a special prefix (by default
+the at sign, '@').  empy can expand arbitrary python expressions
+and statements in this way, as well as a variety of special forms.
+textual data not explicitly delimited in this way is sent unaffected
+to the output, allowing python to be used in effect as a markup
+language.
+also supported are "hook" callbacks, recording and playback via
+diversions, and dynamic, chainable filters.
+the system is highly configurable via command line options and
+embedded commands.
+
+homepage: http://www.alcyone.com/software/empy/

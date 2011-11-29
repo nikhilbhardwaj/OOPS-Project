@@ -1,0 +1,19 @@
+Utility to test color capabilities of terminal
+	
+most terminals are capable of displaying 16 colors; 8 colors and 2
+different brightness values, some (like xterm) can display more, even
+256 colors.
+
+the program automatically detects 8, 16, 88, 256 color capabilities
+(via ncurses) and displays the appropriate color charts. program can
+display the colors as blocks or 2d cubes optionally with color values
+overlaid in int or hex values, it can show the full rgb text string
+and show the display with a vertical (default) or horizontal
+orientation.
+
+in addition to the color charts it can also convert between 256 and
+88 color values. this can be useful when converting various terminals
+like between urxvt and xterm-256.
+
+the goal of this program was to provide the functionality of all the
+various perl and sh scripts in one place with some bells and whistles.

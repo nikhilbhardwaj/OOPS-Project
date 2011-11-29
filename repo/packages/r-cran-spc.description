@@ -1,0 +1,10 @@
+Gnu r statistical process control
+	
+evaluation of control charts by means of the zero-state, steady-state arl
+(average run length). setting up control charts for given in-control arl
+and plotting of the related figures. the control charts under consideration
+are one- and two-sided ewma and cusum charts for monitoring the mean of
+normally distributed independent data. now, the arl calculation of
+ewma-s^2 control charts is added. other charts and parameters are in
+preparation. further spc areas will be covered as well (sampling plans,
+capability indices ...).

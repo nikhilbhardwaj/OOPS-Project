@@ -1,0 +1,20 @@
+Download debian cd images from any debian mirror
+	
+using the jigdo-lite script contained in this package, you can use
+your nearest "regular" debian mirror to download debian cd images,
+instead of having to use one of the few, slow, overloaded mirrors
+that offer the images as direct http or ftp downloads. see
+<http://www.debian.org/cd/jigdo-cd/> for details.
+
+jigsaw download, or short jigdo, is a scheme developed primarily to
+make it easy to distribute huge filesystem images (e.g. cd (iso9660)
+or dvd (udf) images) over the internet, but it could also be used for
+other data which is awkward to handle due to its size, like
+audio/video files or large software packages.
+
+jigdo tries to ensure that the large file is downloaded in small
+parts which can be stored on different servers. people who want to
+download the image do so by telling the jigdo download tool to
+process one ".jigdo" file; using it, jigdo downloads the parts and
+reassembles the image. jigdo-file is used to prepare the files for
+download.

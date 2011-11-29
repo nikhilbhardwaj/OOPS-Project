@@ -1,0 +1,7 @@
+An html tree builder for elementtree based on tidy
+	
+the elementtidy parser can read (almost) arbitrary
+html files, and turn them into well-formed element trees.
+this parser uses a library version of dave raggett's
+html tidy utility to fix any problems with the html before
+converting it to xhtml (the xml version of html).

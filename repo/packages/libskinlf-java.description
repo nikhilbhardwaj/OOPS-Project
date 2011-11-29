@@ -1,0 +1,11 @@
+Skin look and feel - skinning engine for the swing toolkit
+	
+skin look and feel allows java developers to write skinnable application
+using the swing toolkit. skin look and feel is able to load themepacks
+(a bundle of gtk+ - the gimp toolkit - and kde - the k desktop
+environment  - skins) to enhance your application gui controls such as
+buttons, checks, radios, scrollbars, progress bar, lists, tables,
+internal frames, colors, background textures, regular windows.
+
+skin look and feel (aka skinlf) also includes nativeskin to create irregular
+windows.

@@ -1,0 +1,8 @@
+Utf-8 to 7-bit ascii and vice versa converter
+	
+this package provides conversion in both directions between utf-8 unicode and
+a variety of 7-bit ascii equivalents, including html numeric character
+references, various escapes and hexadecimal. such ascii equivalents are useful
+when including unicode text in program source, when debugging, and when
+entering text into web programs that can handle the unicode character set but
+are not 8-bit safe.

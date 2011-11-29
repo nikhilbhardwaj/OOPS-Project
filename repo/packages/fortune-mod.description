@@ -1,0 +1,8 @@
+Provides fortune cookies on demand
+	
+these are the machine-dependent parts of the fortune package, i.e.
+the fortune program and the programs used for generating the data files.
+the fortune package displays epigrams selected randomly from a selection
+of fortune files. this is an enhanced version of the bsd program.
+the data files (which can be shared) are contained in the 'fortunes-min',
+'fortunes', and 'fortunes-off' packages.

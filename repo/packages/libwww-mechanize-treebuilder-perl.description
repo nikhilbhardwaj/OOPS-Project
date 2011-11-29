@@ -1,0 +1,6 @@
+Perl module integrating www::mechanize and html::treebuilder
+	
+www::mechanize::treebuilder is a perl module that combines the functionality
+of www::mechanize and html::treebuilder in a much more convenient format. it
+improves code quality and provides some better integration of these two
+modules, making it significantly more convenient to work with.

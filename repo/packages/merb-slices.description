@@ -1,0 +1,10 @@
+Merb plugin to modularize an application by creating 'slices'
+	
+usually these slices are reusable extractions from the main application.
+a module is set up to serve as a namespace for controller, models, helpers,
+etc.
+
+installing this package will provide the capability to run a merb application
+slice.
+
+this package contains the merb-slice binary and associated files.

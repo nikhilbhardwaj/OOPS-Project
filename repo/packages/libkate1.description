@@ -1,0 +1,7 @@
+Kate is a codec for karaoke and text encapsulation
+	
+kate is meant to be used for karaoke alongside audio/video streams (typically
+vorbis and theora), movie subtitles, song lyrics, and anything that needs text
+data at arbitrary time intervals.
+
+libkate provides an api for the encoding and decoding of kate files.

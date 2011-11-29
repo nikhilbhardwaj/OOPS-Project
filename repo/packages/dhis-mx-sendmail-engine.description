@@ -1,0 +1,8 @@
+Dynamic host information system - sendmail mx engine
+	
+this package contains a mail relaying service module to be used
+with dhisd release 5 or above and the dynamic dns module.
+
+while the dhis server dhisd retrieves dynamic ip addresses
+from clients, this module allows the server to deliver messages
+that were previously queued for the newly online host.

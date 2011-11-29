@@ -1,0 +1,7 @@
+Fastcgi library for ruby
+	
+fastcgi is a language independent, scalable, open extension to cgi that
+provides high performance without the limitations of server specific apis.
+for more information, see http://www.fastcgi.com/.
+
+this merges matz's c version(fcgi.so) & eli's pure ruby version(fastcgi.rb)

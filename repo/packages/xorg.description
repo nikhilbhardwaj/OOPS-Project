@@ -1,0 +1,11 @@
+X.org x window system
+	
+this metapackage provides the components for a standalone
+workstation running the x window system.  it provides the x libraries, an x
+server, a set of fonts, and a group of basic x clients and utilities.
+
+higher level metapackages, such as those for desktop environments, can
+depend on this package and simplify their dependencies.
+
+it should be noted that a package providing x-window-manager should also
+be installed to ensure a comfortable x experience.

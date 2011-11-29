@@ -1,0 +1,10 @@
+Perl module for creating xml from a dbi datasource
+	
+this module is a simple creator of xml data from dbi datasources.  it
+allows you to easily extract data from a database, and manipulate
+later using xml::parser.
+
+binary data is encoded using utf-8.  this is automatically decoded
+when parsing with xml::parser.
+
+the examples need libxml-parser-perl.

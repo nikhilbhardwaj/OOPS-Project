@@ -1,0 +1,6 @@
+Perl module to localize the newlines for one or more files
+	
+file::localizenewlines is a module that allows users to easily fix conflicting
+newline formats (particularly unix- and win32-style line endings). it changes
+every end-of-line character to those of the local platform, and even corrects
+instances where multiple different newline formats are used in the same file.

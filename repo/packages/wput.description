@@ -1,0 +1,7 @@
+A tiny wget-like ftp-client for uploading files
+	
+wput is a tiny ftp-client, that uploads files or directories to a
+remote ftp-server.
+
+main features are: resuming, time-stamping, wget-like interface,
+proxy-support and speed-limit.

@@ -1,0 +1,12 @@
+Gnome virtual file system (debugging libraries)
+	
+gnome vfs is the gnome virtual file system.  it is the foundation of the
+nautilus file manager.  it provides a modular architecture and ships with
+several modules that implement support for local files, http, ftp and others.
+it provides an uri-based api, a backend supporting asynchronous file
+operations, a mime type manipulation library and other features.
+
+this package contains unstripped shared libraries.  it is provided primarily
+to provide a backtrace with names in a debugger, to make it easier to
+interpret core dumps.  the libraries are installed in /usr/lib/debug and are
+automatically used by gdb.

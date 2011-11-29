@@ -1,0 +1,16 @@
+Interactively extracts numbers from bitmap graphs or maps
+	
+this digitizing software converts an image file showing a graph or map into
+xy data (coordinates). some people use it for obtaining the original data
+from graphs in scientific publications.
+
+features:
+
+   * automatic grid line removal
+   * automatic point matching
+   * automatic curve tracing
+   * automatic axes matching
+   * handles cartesian, polar, linear and logarithmic graphs
+   * support for drag-and-drop and copy-and-paste
+   * context sensitive help, user manual and tutorials explain every feature
+   * preview windows give immediate feedback while modifying settings

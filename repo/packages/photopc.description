@@ -1,0 +1,13 @@
+Interface to digital still cameras
+	
+this is a library and a command-line frontend to manipulate digital
+still cameras based on fujitsu chipset and sierra imaging firmware.  the
+program is known to work with agfa, epson and olympus cameras.  should
+also work with sanyo, but this is untested.
+
+the cameras typically come with software for windows and for mac, and no
+description of the protocol.  with this tool, they are manageable from a
+unix box.  bruce d. lightner <lightner@metaflow.com> has added support
+for win32 and dos platforms.  note that the program does not have any
+gui, it is plain command-line even on windows.  for a gui, check out
+the phototk program.

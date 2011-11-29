@@ -1,0 +1,4 @@
+PackageId:24093
+Name:makepasswd
+Version:1.10-5
+Deps:libcrypt-openssl-random-perl,libcrypt-passwdmd5-perl,perl

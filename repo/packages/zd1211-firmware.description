@@ -1,0 +1,13 @@
+Firmware images for the zd1211rw wireless driver
+	
+this package contains the firmware to be used with the zd1211rw linux kernel
+driver for usb wireless dongles based on the following chipsets:
+
+
+ * zydas zd1211
+ * zydas zd1211b
+ * atheros ar5007ug (alternatively known as ar2524/ar5524)
+
+
+for more information, see also:
+http://wiki.debian.org/zd1211rw

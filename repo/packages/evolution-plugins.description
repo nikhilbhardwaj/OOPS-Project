@@ -1,0 +1,30 @@
+Standard plugins for evolution
+	
+evolution is a groupware suite which integrates mail, calendar,
+address book, to-do list and memo tools.
+
+this package includes plugins for evolution. the plugins belong
+to the set of "standard" plugins, which are useful, but not
+necessary for a functioning application.
+
+the following standard plugins are included.
+
+ - bbdb
+ - subject-thread
+ - save-calendar
+ - select-one-source
+ - copy-tool
+ - mail-to-task
+ - mark-calendar-offline
+ - audio-inline
+ - mailing-list-actions
+ - default-mailer
+ - import-ics-attachments
+ - prefer-plain
+ - mail-notification
+ - attachment-reminder
+ - face
+ - backup-restore
+ - templates
+ - vcard-inline
+ - image-inline

@@ -1,0 +1,8 @@
+Otpw library development files and documentation
+	
+otpw is a one-time password system which is robust against
+the password list being stolen and race for the last digit
+attacks.
+
+this package contains the development files needed to write
+programs using otpw and the documentation of the otpw system.

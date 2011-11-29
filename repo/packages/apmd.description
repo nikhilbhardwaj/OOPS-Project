@@ -1,0 +1,22 @@
+Utilities for advanced power management (apm)
+	
+on laptop computers, the advanced power management (apm) support
+provides access to battery status information and may help you to
+conserve battery power, depending on your laptop and the apm
+implementation.  the apmd program also lets you run arbitrary programs
+when apm events happen (for example, you can eject pcmcia devices when
+you suspend, or change hard drive timeouts when you connect the battery).
+
+this package contains apmd(8), a daemon for logging and acting on apm
+events; and apm(1), a client that prints the information in /proc/apm
+in a readable format.
+
+apmd is notified of apm events by the apm driver in the kernel.
+
+since lenny debian kernels are not built with apm support anymore. you
+need to compile a kernel with apm support enabled to use this package.
+you need to boot the kernel with the "apm=on" option if you
+want to enable the driver.
+
+in most cases, users may want to know that there are newer power
+management schemes, like acpi.

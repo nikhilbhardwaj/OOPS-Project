@@ -1,0 +1,7 @@
+Python database access for ms sql server and sybase
+	
+this package contains a python module allowing direct access to
+microsoft sql server and sybase databases. it is designed for
+simplicity and performance, and conforms to python db-api 2.0.
+
+it also includes a nagios plugin to check ms sql servers remotely.

@@ -1,0 +1,8 @@
+The saxon-b xslt processor
+	
+the saxon package is a collection of tools for processing xml documents and
+implements xslt 2.0, xpath 2.0, and xquery 1.0.
+
+saxon is known to work well for processing docbook xml documents
+with the docbook xsl stylesheets. related packages make the process
+straightforward.

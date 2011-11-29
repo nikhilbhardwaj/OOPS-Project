@@ -1,0 +1,9 @@
+Haskell glut binding for ghc; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+
+this library provides a binding for the opengl utility toolkit, a window
+system independent toolkit for writing opengl programs. for more
+information about the c library on which this binding is based,
+please see: <http://www.opengl.org/resources/libraries/glut/>.

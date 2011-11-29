@@ -1,0 +1,7 @@
+Simple web server to run asp.net 2.0 applications
+	
+xsp is a simple web server written in c# that can be used to run your
+asp.net 1.1 and 2.0 applications.
+
+this is the standalone asp.net web server. if you want to run asp.net
+applications with apache, look at mono-apache-server2.

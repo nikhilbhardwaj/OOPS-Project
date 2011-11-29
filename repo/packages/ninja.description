@@ -1,0 +1,16 @@
+Privilege escalation detection system for gnu/linux
+	
+ninja is a privilege escalation detection and prevention
+system for gnu/linux hosts. while running, it will monitor
+process activity on the local host, and keep track of all
+processes running as root. if a process is spawned with
+uid or gid zero (root), ninja will log necessary information
+about this process, and optionally kill the process
+if it was spawned by an unauthorized user.
+a "magic" group can be specified, allowing members of this
+group to run any setuid/setgid root executable.
+individual executables can be whitelisted. ninja uses a
+fine grained whitelist that lets you whitelist executables
+on a group and/or user basis. this can be used to allow
+specific groups or individual users access to  setuid/setgid
+root programs, such as su(1) and passwd(1).

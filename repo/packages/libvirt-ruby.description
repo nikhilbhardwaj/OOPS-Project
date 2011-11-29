@@ -1,0 +1,11 @@
+Ruby bindings for libvirt
+	
+this library provides ruby bindings for using libvirt.
+
+libvirt is a toolkit to interact with the virtualization capabilities
+of recent versions of linux (and other oses). the library aims at providing
+a long term stable c api for different virtualization mechanisms. it currently
+supports qemu, kvm, and xen.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8).

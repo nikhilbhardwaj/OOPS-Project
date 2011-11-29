@@ -1,0 +1,5 @@
+Discovers present ip-address of dynamically connected hosts
+	
+asp discovers the present ip address of a host that has a dynamically
+assigned ip-address. this is useful when you want to connect to dynamic
+hosts, or to help others find you (in which case you run asp as a server).

@@ -1,0 +1,8 @@
+Global positioning system - debugging symbols
+	
+the gpsd service daemon can monitor one or more gps devices connected to
+a host computer, making all data on the location and movements of the
+sensors available to be queried on tcp port 2947.
+
+this package contains the detached debug symbols for gpsd, gpsd-clients,
+python-gps, and libgps19.

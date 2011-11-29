@@ -1,0 +1,6 @@
+Library for validating mail senders with spf (debugging symbols)
+	
+libspf2 implements the sender policy framework, a part of the spf/srs
+protocol pair.
+
+this package contains the debugging symbols.

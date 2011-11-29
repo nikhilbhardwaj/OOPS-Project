@@ -1,0 +1,9 @@
+Retrieve courier user account information
+	
+courieruserinfo works with the courier mail server user authentication
+mechanism to allow user account information to be retrieved. the specific
+types of information which can be retrieved are: uid, home directory, name,
+address, mail directory, quota, and options.
+
+
+ homepage: http://www.arda.homeunix.net/store/

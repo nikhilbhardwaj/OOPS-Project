@@ -1,0 +1,8 @@
+Version-agnostic decorators support for python
+	
+decoratortools provides decorator facilities for python 2.3 and above. it
+provides class and function decorators as well as support for decorating
+arbitrary assignments, synchronized methods, and more.
+
+decoratortools is part of the peak (python enterprise architecture kit)
+framework and provides the peak.util.decorators module.

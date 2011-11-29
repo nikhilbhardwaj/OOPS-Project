@@ -1,0 +1,16 @@
+Automatically adapt laptop ethernet - documentation
+	
+the laptop-net package supports the built-in ethernet of laptops by
+providing several integrated features that automatically adapt the
+laptop to the network environment.  the package is easily configured
+to support a wide variety of network environments, and supports
+manual as well as automatic management of the network interface.
+
+laptop-net can automatically: start and stop the network interface at
+appropriate times; disable the network interface when the network
+cable is removed, and enable it when the cable is inserted; select
+the network interface's ip address, either by probing the network for
+known hosts or by use of the dhcp protocol; customize the laptop's
+software configuration to match the network interface's ip address.
+
+this package contains the documentation for laptop-net.

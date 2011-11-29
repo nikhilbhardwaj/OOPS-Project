@@ -1,0 +1,9 @@
+Minimal version control system
+	
+this module provides the functions normally associated with a version
+control system, but without needing or implementing a version control
+system. applications include wikis, document management systems and
+configuration management.
+
+it makes use of the module algorithm::diff. it provides the facility
+for basic diffing, patching and merging.

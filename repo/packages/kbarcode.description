@@ -1,0 +1,19 @@
+Barcode and label printing application for kde
+	
+kbarcode is a barcode and label printing application for kde. it can be used
+to print everything from simple business cards up to complex labels with
+several barcodes (e.g. article descriptions).
+
+kbarcode comes with an easy to use wysiwyg label designer, a setup wizard,
+batch import of data for batch printing labels (directly from the delivery
+note), thousands of predefined labels, database management tools and
+translations in many languages. even printing more than 10.000 labels in one
+go is no problem for kbarcode. data for printing can be imported from several
+different data sources, including sql databases, csv files and the kde address
+book.
+
+additionally it is a simple barcode generator (similar to the old xbarcode you
+might know). all major types of barcodes like ean, upc, code39 and isbn are
+supported. even complex 2d barcodes are supported using third party tools. the
+generated barcodes can be directly printed or you can export them into images
+to use them in another application.

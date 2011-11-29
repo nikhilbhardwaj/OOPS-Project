@@ -1,0 +1,15 @@
+Vfs modules for tuxcmd file manager
+	
+this package contains additional vfs modules for tuxcmd. it
+provides the modules for gvfs and zip plugins.
+
+
+ * gvfs plugin: read/write access to network resources (ftp,
+   ssh/sftp, smb, webdav)
+ * zip plugin:
+   - full read/write support for zip archives
+   - full support for unix file and directory permissions
+   - password protection support (read/write)
+ * libarchive plugin:
+   - read-only support for tar, tar.gz, tar.bz2, iso (cd
+     images/iso9660), cpio, ar and deb archives

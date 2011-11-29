@@ -1,0 +1,7 @@
+Convert personal data to and from qsf xml files
+	
+provides a single home for perl processing of all qof (query object
+framework) objects expressed as qsf xml (the xml schema used by
+qof). pilot-qof objects (pilot_address, pilot_expenses,
+pilot_datebook and pilot_todo) are supported. gpe-expenses is
+also supported.

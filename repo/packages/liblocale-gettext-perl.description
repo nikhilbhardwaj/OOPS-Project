@@ -1,0 +1,9 @@
+Using libc functions for internationalization in perl
+	
+the gettext module permits access from perl to the gettext() family of
+functions for retrieving message strings from databases constructed
+to internationalize software.
+
+it provides gettext(), dgettext(), dcgettext(), textdomain(),
+bindtextdomain(), bind_textdomain_codeset(), ngettext(), dcngettext()
+and dngettext().

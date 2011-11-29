@@ -1,0 +1,14 @@
+Single transferable vote and instant runoff voting software
+	
+openstv is an open-source software for implementing the single transferable
+vote and other voting methods such as instant runoff voting, condorcet voting,
+and approval voting. openstv is the only open-source software that implements
+the single transferable vote exactly as used by governments, including scotland
+and the city of cambridge, massachusetts. these methods have been extensively
+verified against other software and/or actual election results.
+
+organizations can use openstv to implement their own elections.
+first, the organization must adopt a voting method. second, the organization
+must conduct the vote, and this will most likely be done with paper ballots.
+third, the ballots must be entered into the openstv program. finally, you can
+use openstv to count the votes and determine the winners of the election.

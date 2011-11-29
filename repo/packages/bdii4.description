@@ -1,0 +1,7 @@
+Information index based on openldap
+	
+the berkeley database information index (bdii) consists of a standard
+ldap database which is updated by an external process. the update process
+obtains ldif from a number of sources and merges them. it then compares
+this to the contents of the database and creates an ldif file of the
+differences. this is then used to update the database.

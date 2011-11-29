@@ -1,0 +1,4 @@
+Perl module to emulate the mysql password() function.
+	
+crypt::mysql emulates mysql password() sql function, without libmysqlclient.
+you can compare encrypted passwords, without real mysql environment.

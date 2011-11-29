@@ -1,0 +1,5 @@
+Yahoo messenger protocol c library
+	
+libyahoo2 is a c library that handles the new yahoo! messenger protocol. it
+communicates with clients via a callback mechanism and has the capability to
+handle multiple accounts simultaneously.

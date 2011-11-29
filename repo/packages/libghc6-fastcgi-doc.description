@@ -1,0 +1,7 @@
+A haskell library for writing fastcgi programs; documentation
+	
+this library lets you write fastcgi programs. this package reuses the
+cgi package api, making it very easy to port cgi programs to fastcgi.
+the fastcgi c development kit is required to build this library.
+
+this package contains the libraries documentation.

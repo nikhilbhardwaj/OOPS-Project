@@ -1,0 +1,9 @@
+Utilities for the documentation of python modules
+	
+the purpose of the docutils project is to create a set of tools for
+processing plaintext documentation into useful formats, such as html,
+xml, and tex.
+
+the package includes the restructuredtext parser, the python
+docstring processing system project, and documentation in html and
+(gzipped) rest formats.

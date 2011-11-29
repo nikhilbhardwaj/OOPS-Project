@@ -1,0 +1,7 @@
+Magnify part of x display, with real-time updates
+	
+like xmag, xzoom magnifies a section of the x display. xzoom is different
+because it will continuously update the magnified area as the display
+changes. it is fast enough to enlarge small animations, for example.
+
+it can also mirror or rotate a part of the screen.

@@ -1,0 +1,19 @@
+Library of linear algebra routines 3 - documentation
+	
+this package is an upgrade to the lapack-doc package to accompany
+the binary incompatible upgrade from lapack to liblapack3gf. the
+(minor) incompatibilities in this upgrade are entirely due to changes
+in the blas library, against which this library is linked. please see
+the documentation for the refblas3 package for details.
+
+lapack version 3.x is a comprehensive fortran library that does
+linear algebra operations including matrix inversions, least
+squared solutions to linear sets of equations, eigenvector
+analysis, singular value decomposition, etc. it is a very
+comprehensive and reputable package that has found extensive
+use in the scientific community.
+
+this package contains manual pages for the routines, a
+"quick-reference" guide, release notes, a frequently asked
+questions document, and a copy of the lapack user's guide
+manual in html format.

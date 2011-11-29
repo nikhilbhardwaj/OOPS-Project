@@ -1,0 +1,13 @@
+X.org x server -- omapfb display driver
+	
+this driver for the x.org x server (see xserver-xorg for a further
+description) provides support for omap framebuffer as in nokia n8x0 and
+other devices with omap display subsystem. if you have a omap3 or newer,
+try xserver-xorg-video-omap3 for better performance.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xf86-video-omapfb driver module.

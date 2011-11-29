@@ -1,0 +1,21 @@
+Perl module implementing a lightweight field hash
+	
+hash::fieldhash provides the field hash mechanism which supports the
+inside-out technique.
+
+you may know hash::util::fieldhash. it's a very useful module, but too
+complex to understand all the functions.
+
+this is an alternative to hash::util::fieldhash with following features:
+
+simpler interface
+
+
+  hash::fieldhash provides a few functions: fieldhash() and fieldhashes().
+  that's enough.
+
+
+higher performance
+
+  hash::fieldhash is faster than hash::util::fieldhash, because its internals
+  use simpler structures.

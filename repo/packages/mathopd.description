@@ -1,0 +1,11 @@
+Very small, yet very fast http server
+	
+mathopd is a very small, yet very fast http server for un*x systems.
+
+mathopd supports useful features of http/1.1, such as persistent
+connections, partial responses and pipelining. it does not support
+things like content negotiation. it also supports cgi/1.1.
+
+mathopd was designed specifically to run as a single process, and to
+never grow in size. when this software was first written (early 1996)
+this was something that other http servers were not very good at.

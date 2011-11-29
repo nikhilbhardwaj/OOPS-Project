@@ -1,0 +1,7 @@
+Use otps for pam authentication
+	
+use opie one time passwords for pam authentication. a one time password
+is useful to avoid having your password sniffed and reused if you log
+in via an unencrypted channel or from a compromised system. the pam
+module enables opie for programs such as ssh which use pam for
+authentication.

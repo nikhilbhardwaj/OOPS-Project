@@ -1,0 +1,32 @@
+Mobile robot programming toolkit - console and gui applications
+	
+the mobile robot programming toolkit (mrpt) is an extensive, cross-platform,
+and open source c++ library aimed to help robotics researchers to design and
+implement algorithms in the fields of simultaneous localization and mapping
+(slam), computer vision, and motion planning (obstacle avoidance).
+
+this package provides a set of console and gui applications:
+
+
+ - rawlog-grabber: record datasets from robotic sensors.
+ - rawlogviewer: robotic dataset viewer and manipulator.
+ - reactivenavigationdemo: obstacle avoidance gui demo.
+ - sceneviewer3d: gui viewer of mrpt 3d scenes.
+ - camera-calib: interactive camera calibration tool.
+ - icp-slam.
+ - kf-slam.
+ - 2d-slam-demo: gui didactic robotic slam demo.
+ - map-partition.
+ - observations2map: converts simplemaps into metric maps.
+ - pf-localization: particle filter localization (monte carlo localization).
+ - ro-localization.
+ - rbpf-slam: rao-blackwellized particle filter for slam.
+ - simul-landmarks
+ - simul-beacons
+ - simul-gridmap
+ - gridmapnavsimul
+ - grid-matching.
+ - navlog-viewer: gui viewer of navigation logs.
+ - features-matching: computer vision demo.
+ - mono-slam   (experimental!)
+ - prrt-navigator-demo   (experimental!)

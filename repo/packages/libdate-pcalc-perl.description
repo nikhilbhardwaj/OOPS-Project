@@ -1,0 +1,9 @@
+Perl module for gregorian calendar date calculations
+	
+this package consists of a perl module for all kinds of date calculations
+based on the gregorian calendar (the one used in all western countries today),
+thereby complying with all relevant norms and standards: iso/r 2015-1971, din
+1355 and, to some extent, iso 8601 (where applicable).
+
+this module is a direct translation of steffen beyer's excellent date::calc
+module to perl.

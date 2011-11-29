@@ -1,0 +1,35 @@
+A glut-based c++ user interface library
+	
+glui provides controls such as buttons, checkboxes, radio buttons, and
+spinners to opengl applications.  it is window-system independent, relying
+on glut to handle all system-dependent issues, such as window and mouse
+management. features of the glui user interface library include:
+
+
+ - complete integration with glut toolkit
+ - simple creation of a new user interface window with a single line of
+   code
+ - support for multiple user interface windows
+ - standard user interface controls such as:
+      - buttons
+      - checkboxes for boolean variables
+      - radio buttons for mutually-exclusive options
+      - editable text boxes for inputting text, integers, and
+        floating-point values
+      - spinners for interactively manipulating integer and floating-point
+        values
+      - static text fields
+      - panels for grouping sets of controls
+      - separator lines to help visually organize groups of controls
+ - controls can generate callbacks when their values change
+ - variables can be linked to controls and automatically updated when the
+   value of the control changes ("live variables")
+ - controls can be automatically synchronized to reflect changes in live
+   variables
+ - controls can trigger glut redisplay events when their values change
+ - layout and sizing of controls is automatic
+ - controls can be grouped into columns
+ - user can cycle through controls using tab key
+
+
+this package contains the development files.

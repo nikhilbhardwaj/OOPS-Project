@@ -1,0 +1,6 @@
+Module which implements the dsa signature verification system
+	
+crypt::openssl::dsa is a wrapper to the dsa (digital signature algorithm)
+functions contained in the openssl crypto library. it allows you to create
+public/private key pair, sign messages and verify signatures, as well as
+manipulate the keys at the low level.

@@ -1,0 +1,8 @@
+A library for reading and writing arcview shapefiles
+	
+the shapefile format is a working and interchange format promoted by
+esri for simple vector data with attributes. it is apparently the only
+file format that can be edited in arcview 2/3, and can also be exported
+and imported in arc/info.
+
+this package includes the shared library.

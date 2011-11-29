@@ -1,0 +1,12 @@
+Ocaml internationalization library
+	
+this library provides utilities and libraries to enable localization
+in ocaml programs. it is based on the same principle of gnu gettext.
+
+the package provides two libraries to do effectively translation :
+
+ - gettext-camomile : pure ocaml implementation of gettext
+ - gettext-stub : implementation using the gettext library.
+
+
+this package contains header, ocaml library and devel tools.

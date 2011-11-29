@@ -1,0 +1,6 @@
+Specialized xml reader reads the output from gccxml
+	
+the purpose of pygccxml is to read a generated file and provide a
+simple framework to navigate c++ declarations using python classes.
+
+this package provides the python module that can be import for uses.

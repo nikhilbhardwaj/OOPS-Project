@@ -1,0 +1,13 @@
+Python web development framework
+	
+cherrypy is a pythonic, object-oriented web development framework. it
+provides the foundation over which complex web-based applications can
+be written, with little or no knowledge of the underlying
+protocols. cherrypy allows developers to build web applications in
+much the same way they would build any other object-oriented python
+program. this usually results in smaller source code developed in
+less time.
+
+this version is backwards incompatible with the 2.0 version, and is
+the version used by the turbo gears framework. visit the turbo gears
+webpage for more: http://www.turbogears.org/

@@ -1,0 +1,8 @@
+Dahdi telephony interface - linux userspace parts
+	
+dahdi (formly zaptel) is an interface for telephony devices used by e.g.
+the asterisk pbx software. the dahdi-* packages provide the kernel
+dahdi kernel modules and their required setup environment.
+
+this package includes the minimal linux-specific userspace parts: udev
+configuration, xpp initialization scripts.

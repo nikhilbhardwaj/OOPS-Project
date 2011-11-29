@@ -1,0 +1,4 @@
+PackageId:26118
+Name:opendnssec-enforcer
+Version:1.1.3-3
+Deps:opendnssec-enforcer-backend,opendnssec-enforcer-mysql,opendnssec-enforcer-sqlite3

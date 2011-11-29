@@ -1,0 +1,5 @@
+Parse icalendar and vcards in python
+	
+parses icalendar and vcard files into python data structures, decoding the
+relevant encodings. also serializes vobject data structures to valid icalendar
+or vcard unicode strings.

@@ -1,0 +1,11 @@
+Simple backup/snapshot system
+	
+back in time is a framework for rsync, diff and cron for the purpose of
+taking snapshots and backups of specified folders. it minimizes disk space use
+by taking a snapshot only if the directory has been changed, and hard links
+for unmodified files if it has. the user can schedule regular backups using
+cron.
+
+this is the common framework for back in time. you need to choose a suitable
+front-end for your desktop environment, like backintime-gnome or
+backintime-kde.

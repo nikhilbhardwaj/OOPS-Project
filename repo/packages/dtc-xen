@@ -1,0 +1,4 @@
+PackageId:3431
+Name:dtc-xen
+Version:0.5.13-3
+Deps:adduser,apache2-utils,debconf,debconf-2.0,cdebconf,cdebconf-udeb,debootstrap,ipcalc,lsb-base,lvm2,m2crypto,python-m2crypto,net-tools,freebsd-net-tools,openssl,python,python-crypto,python-soappy,python-sqlite,rrdtool,sudo,sudo-ldap,sysstat,yum

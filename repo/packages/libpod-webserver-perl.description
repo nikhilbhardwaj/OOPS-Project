@@ -1,0 +1,5 @@
+A miniature web server for reading pod in web browsers
+	
+pod::webserver can be run as an application that works as a minimal web
+server to serve local perl documentation. it's like perldoc except it works
+through your browser.

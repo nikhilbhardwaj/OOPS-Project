@@ -1,0 +1,10 @@
+A powerful object-oriented display - common files
+	
+the canvas widget is a powerful and extensible object-oriented display
+engine. a gnomecanvasitem is a gtkobject representing some element of the
+display, such as an image, a rectangle, an ellipse, or some text. you can
+refer to this architecture as structured graphics; the canvas lets you deal
+with graphics in terms of items, rather than an undifferentiated grid of
+pixels.
+
+this package contains internationalization files.

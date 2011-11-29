@@ -1,0 +1,9 @@
+Drawing and interaction packages
+	
+the enable project provides two related multi-platform packages for
+drawing gui objects.
+
+
+  * enable: an object drawing library that supports containment and
+    event notification.
+  * kiva: a multi-platform displaypdf vector drawing engine.

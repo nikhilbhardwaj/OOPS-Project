@@ -1,0 +1,7 @@
+Perl module for adding plugin support to your moose classes
+	
+moosex::object::pluggable is meant to be loaded as a role from moose-based
+classes it will add five methods and four attributes to assist you with the
+loading and handling of plugins and extensions for plugins. i understand that
+this may pollute your namespace, however i took great care in using the least
+ambiguous names possible.

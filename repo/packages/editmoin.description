@@ -1,0 +1,14 @@
+Edit moinmoin wiki pages with your favourite editor
+	
+editmoin allows you to edit pages in moinmoin wikis with your
+preferred editor instead of the (usually quite limited) web
+browser text areas.
+
+it also supports configuration files to define shortcuts for urls
+that you edit often.
+
+this package also includes a vim syntax file. install
+vim-addon-manager and use "vim-addon install editmoin" to activate.
+
+however, you can use any other editor by setting the standard $editor
+environment variable.

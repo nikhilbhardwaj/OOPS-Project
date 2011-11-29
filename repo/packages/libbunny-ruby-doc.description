@@ -1,0 +1,7 @@
+Documentation for libbunny-ruby
+	
+bunny is an amqp (advanced message queuing protocol) client, written in ruby,
+that is intended to allow you to interact with amqp-compliant message
+brokers/servers such as rabbitmq in a synchronous fashion.
+
+this package provides generated html documentation for libbunny-ruby.

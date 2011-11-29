@@ -1,0 +1,10 @@
+Profiling support for tagsoup haskell library
+	
+tagsoup extracts information out of unstructured html code, sometimes
+known as tag soup. tagsoup does not require well-formed or
+standards-compliant html, or html that renders correctly in any
+particular rendering engine.  tagsoup transforms html into a list of
+open tags with attributes, close tags, and text, but makes no attempt
+to group these together into any kind of structure.
+
+this package contains the profiling support for the tagsoup library.

@@ -1,0 +1,10 @@
+Simple, transparent data interface, with caching
+	
+data::objectdriver is an object relational mapper, meaning that it maps
+object-oriented design concepts onto a relational database.
+
+it's inspired by, and descended from, the mt::objectdriver classes in
+six apart's movable type and typepad weblogging products. but it adds in
+caching and partitioning layers, allowing you to spread data across
+multiple physical databases, without your application code needing to
+know where the data is stored.

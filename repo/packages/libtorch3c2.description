@@ -1,0 +1,21 @@
+State of the art machine learning library - runtime library
+	
+torch is a machine-learning library, written in c++.  its aim is to
+provide the state-of-the-art of the best algorithms for
+machine-learning.
+
+
+ * many gradient-based methods, including multi-layered perceptrons,
+   radial basis functions, and mixtures of experts.  many small "modules"
+   (linear module, tanh module, softmax module, ...) can be plugged
+   together.
+ * support vector machine, for classification and regression.
+ * distribution package, includes kmeans, gaussian mixture models,
+   hidden markov models, and bayes classifier, and classes for speech
+   recognition with embedded training.
+ * ensemble models such as bagging and adaboost.
+ * non-parametric models such as k-nearest-neighbors, parzen regression
+   and parzen density estimator.
+
+
+this package is the torch runtime library.

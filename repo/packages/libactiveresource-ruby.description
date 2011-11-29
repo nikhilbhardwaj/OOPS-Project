@@ -1,0 +1,10 @@
+Connects objects and rest web services
+	
+active resource (ares) connects business objects and representational
+state transfer (rest) web services. it implements object-relational
+mapping for rest webservices to provide transparent proxying
+capabilities between a client (activeresource) and a restful service
+(which is provided by simply restffull routing in
+actioncontroller::resources)
+
+this is an empty dependency package.

@@ -1,0 +1,9 @@
+Strong's hebrew bible dictionary for sword
+	
+dictionary of hebrew words taken from strong's exhaustive concordance by
+james strong, s.t.d., ll.d. 1890.
+
+this package requires a libsword version of at least 1.5.1a to access
+through a sword front end.  however, this is not declared as a dependency
+because you may have occasion to install just the text without any sort
+of front end or other interface.

@@ -1,0 +1,9 @@
+Perl interface to kerberos 5 api
+	
+authen::krb5 is a perl module providing an object-oriented interface to the
+kerberos 5 api. it rearranges the api slightly to provide an object-oriented
+view, but otherwise closely matches the c interface. use may require previous
+experience with kerberos 5 programming or reference to the kerberos 5 api
+documentation.
+
+this package is built against the mit kerberos 5 libraries.

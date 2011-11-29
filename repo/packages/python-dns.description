@@ -1,0 +1,6 @@
+Dns client module for python
+	
+this python module provides an dns api for looking up dns entries from
+within python modules and applications. this module is a simple, lightweight
+implementation. it is not as complete as python-dnspython, but is useful for
+many common applications.

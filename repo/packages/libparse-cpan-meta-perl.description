@@ -1,0 +1,8 @@
+Module to parse meta.yml and other similar cpan metadata files
+	
+parse::cpan::meta is a parser for meta.yml files, based on the parser from
+yaml::tiny. since the tiny implementation supports a basic subset of the
+full yaml specification, it has enough parts to implement parsing of typical
+meta.yml files. parse::cpan::meta provides a very simply api of only two
+functions, based on the yaml functions of the same name. wherever possible,
+identical calling semantics are used.

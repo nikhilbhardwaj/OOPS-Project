@@ -1,0 +1,9 @@
+Command line iso9660+rr manipulation tool
+	
+xorriso is a command line and dialog application, which creates, loads,
+manipulates and writes iso 9660 filesystem images with rock ridge extensions.
+
+it maps file objects from posix compliant filesystems into rock ridge enhanced
+iso 9660 filesystems and allows session-wise manipulation  of such
+filesystems. it can load the management information of existing iso images
+and it writes the session results to optical media or to filesystem objects.

@@ -1,0 +1,24 @@
+Library of various useful c++ code
+	
+libwibble collects the foundation code that has been used over time
+in various c++ projects by peter rockai and enrico zini, so that it can
+be maintained properly and in a single place.
+
+the code has minimal dependencies, a test suite, and can be used either as an
+external library or embedded in projects based on either cmake or autotools.
+
+the library contains:
+
+ * an exception hierarchy;
+ * various useful mixin classes;
+ * shortcuts for set operations;
+ * a featureful self-documenting commandline parser that also supports
+   cvs/svn-style subcommands;
+ * two different unit-testing system, a tut-based and a custom one;
+ * a non-intrusive polymorphic envelope;
+ * a logging system;
+ * string functions, like splitting, path manipulation, regular
+   expressions and word wrapping;
+ * system functions, like directory iteration, file manipulation, process
+   control, thread functions;
+ * gregorian calendar operations.

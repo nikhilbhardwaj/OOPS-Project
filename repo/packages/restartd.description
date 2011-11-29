@@ -1,0 +1,6 @@
+Process checker and/or restarter
+	
+restartd is a daemon for checking running and not running
+processes. it reads the /proc directory every n seconds and does
+a posix regexp on the process names. you can execute a script or a
+program if the process is or is not running.

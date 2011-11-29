@@ -1,0 +1,9 @@
+Program to display system news
+	
+the news command keeps you informed of news concerning the system.
+each news item is contained in a separate file in the /var/lib/sysnews
+directory. anyone having write permission to this directory can create
+a news file.
+
+note: this command has nothing to do with usenet news. it's more like an
+enhanced motd.

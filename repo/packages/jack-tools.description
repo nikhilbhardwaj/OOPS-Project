@@ -1,0 +1,39 @@
+Various jack tools: plumbing, play, udp, ctl, scope, clock
+	
+this collection contains a bunch of small tools for jack written by rohan
+drape for the jack low latency audio api.
+
+jack allows the connection of multiple applications to an audio device,
+as well as allowing them to share audio between themselves.
+
+jack.plumbing maintains a set of port connection rules and
+manages these as clients register ports with jack. port names are
+implicitly bounded regular expressions and support sub-expression
+patterns.
+
+jack.play is a light-weight jack sound file player. it
+creates as many output ports as there are channels in the input file.
+
+jack.udp is a udp audio transport mechanism for jack.  the
+send mode reads signals from a set of jack input ports and sends
+udp packets to the indicated port at the indicated host at a rate
+determined by the local jack daemon.  the "recv" mode reads
+incoming packets at the indicated port and writes the incoming data to
+a set of jack output ports at a rate that is determined by the local
+jack daemon.
+
+jack.ctl is a jack session manager.  it reads configuration information
+from a system wide and a user specific configuration file and
+manages sessions involving the jack daemon proper and optionally a
+set of secondary jack daemons.
+
+jack.scope draws either a time domain signal trace or a self
+correlation trace.  multiple input channels are superimposed, each
+channel is drawn in a different color. jack.scope accepts
+osc packets for interactive control of drawing parameters.
+
+jack.clock publishes the transport state of the local jack server as osc
+packets over a udp connection. jack.clock allows any osc enabled
+application to act as a jack transport client, receiving
+sample accurate pulse stream timing data, and monitoring and
+initiating transport state change.

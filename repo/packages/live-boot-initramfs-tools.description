@@ -1,0 +1,6 @@
+Debian live - system boot scripts (initramfs-tools backend)
+	
+live-boot contains the scripts that configure a debian live system during the
+boot process (early userspace).
+
+this package contains the initramfs-tools backend.

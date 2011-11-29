@@ -1,0 +1,6 @@
+User-space bandwidth shaper
+	
+trickle is a voluntary, cooperative bandwidth shaper. it works
+entirely in userland and is very easy to use.
+
+the most simple application is to limit the bandwidth usage of programs.

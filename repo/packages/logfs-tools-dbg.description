@@ -1,0 +1,8 @@
+Tools to manage logfs filesystems (debug)
+	
+logfs is a scalable flash filesystem. it is aimed to replace jffs2 for most
+uses, but focuses more on large devices. jffs2 works well enough on small
+devices, it just gets slow and uses up too much memory on larger ones.
+
+this package contains the debugging symbols for the utilities needed to
+create logfs filesystems.

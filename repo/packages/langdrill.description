@@ -1,0 +1,9 @@
+Language drills to test vocabulary
+	
+langdrill is a helper for testing your foreign language vocabulary.
+it uses gtk+ toolkit and vdk (a c++ wrapper arround gtk+). langdrill
+looks similar to javadrill.
+
+support for displaying japanese characters is included. for this, japanese
+fonts must be installed on your system, for instance the xfonts-intl-japanese
+package.

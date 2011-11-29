@@ -1,0 +1,7 @@
+Ping-like program for http-requests
+	
+httping is like ping for http. it sends requests to a hostname or a remote
+url and it shows you how long it takes to connect, send a http request and
+retrieve the reply (only the header).
+
+it supports ssl as well as various different ways to use it.

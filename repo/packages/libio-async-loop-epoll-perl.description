@@ -1,0 +1,9 @@
+Perl extension for an event loop using epoll
+	
+io::async::loop::epoll is a perl module that provides an implementation of
+an event loop that uses the epoll() system call. the epoll system call, which
+is currently only available on linux, scales in constant o(1) time. for many
+open filehandles, you will get significantly better performance using this
+algorithm.
+
+it uses the io::epoll (libio-epoll-perl) module for this functionality.

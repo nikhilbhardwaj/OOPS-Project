@@ -1,0 +1,6 @@
+Multimedia player, server and encoder
+	
+this package contains the ffplay multimedia player, the ffserver streaming
+server and the ffmpeg audio and video encoder. they support most existing
+file formats (avi, mpeg, ogg, matroska, asf...) and encoding formats (mpeg,
+divx, mpeg4, ac3, dv...).

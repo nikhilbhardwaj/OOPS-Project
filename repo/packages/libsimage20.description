@@ -1,0 +1,5 @@
+Generic interface to various image file format libraries
+	
+the simage library provides a simplified and uniform interface to many
+image file format libraries, and it includes internal support for some
+image file formats too.

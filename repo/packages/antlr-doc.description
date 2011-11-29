@@ -1,0 +1,10 @@
+Language tool for constructing recognizers, compilers etc
+	
+this package contains the documentation and examples for antlr.
+antlr stands for another tool for language recognition,
+(formerly pccts). it is  a language tool that provides a framework
+for constructing recognizers, compilers, and translators from
+grammatical descriptions containing c++ or java actions
+[you can use pccts 1.xx to generate c-based parsers].
+
+see antlr package for a complete description

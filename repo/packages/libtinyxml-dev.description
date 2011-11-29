@@ -1,0 +1,9 @@
+Tinyxml library - header and static library
+	
+this package contains the header file and a static version of the
+tinyxml library.
+
+tinyxml is a simple and small c++ xml parser that can be easily integrating
+into other programs. it reads xml and creates c++ objects representing
+the xml document. the objects can be manipulated, changed, and
+saved again as xml.

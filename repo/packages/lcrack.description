@@ -1,0 +1,19 @@
+A generic password cracker
+	
+lepton's crack is a generic password cracker, easily customizable with
+a simple plug-in system. it can perform a dictionary-based (wordlist)
+attack, as well as a brute-force (incremental) password scan.
+
+for the incremental scan, the user can provide a regex-like expression
+that will be enumerated, thus checking every possible combination. this
+powerful feature effectively combines `shoulder-surfing' with standard
+brute-forcing.
+
+by default it comes with the following modules:
+
+       * md4  : standard md4 hash
+       * md5  : standard md5 hash
+       * nt4  : nt md4/unicode
+       * dom  : lotus domino http password
+       * sha1 : standard sha-1 hash
+       * null : trivial 1-byte hash

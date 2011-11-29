@@ -1,0 +1,4 @@
+PackageId:27360
+Name:piwigo
+Version:2.1.2-3
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,lighttpd,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,dbconfig-common,libjs-jquery,libphp-pclzip,php5,php5-cgi,libapache2-mod-php5,php5-gd,php5-mysql,php5-pgsql,php5-sqlite,smarty

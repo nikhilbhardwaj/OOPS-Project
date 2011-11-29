@@ -1,0 +1,15 @@
+Red hat cluster suite - global file system 2 tools
+	
+this package is part of the red hat cluster suite, a complete
+high-availability solution.
+
+the global file system allows a cluster of machines to concurrently access
+shared storage hardware like sans or iscsi and network block devices. gfs
+can be deployed to build high-availability services without the single point
+of failure of a file server.
+
+this package contains tools for creating and managing global file systems.
+gfs itself is a set of kernel modules.
+
+the gfs2 kernel modules themselves are highly experimental and *must not*
+be used in a production environment yet.

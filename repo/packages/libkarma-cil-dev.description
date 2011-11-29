@@ -1,0 +1,8 @@
+Rio karma access library [cli library development files]
+	
+also known as karma-sharp, this is a cli library (.dll) that
+provides (read/write) access to the rio karma music player using
+either the usb (with omfs) or network (pearl) interface.
+
+this package contains development files for the karma-sharp library used for
+compilation.

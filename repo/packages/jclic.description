@@ -1,0 +1,17 @@
+Tool for the development & use of multimedia educational activities
+	
+jclic is formed by a set of computer applications that are used for
+carrying out different types of educational activities: puzzles,
+associations, text exercises, crosswords...
+
+the activities are not usually used alone, but packed in projects. a
+project is formed by a set of activities and one or more sequences,
+which indicate the order in which they have to be shown.
+
+its community (http://clic.xtec.net/db/listact_en.jsp) has developed a web
+site with more than 1.000 activities available in several languages.
+
+this package contains jclic-author to create and modify activity
+projects, jclic standalone player to play the activities and
+jclic-reports that allows the management of a database to track
+students work and results.

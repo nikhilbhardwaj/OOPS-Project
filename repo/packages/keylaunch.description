@@ -1,0 +1,5 @@
+A small utility for binding commands to a hot key
+	
+keylaunch is a small utility for binding commands to a hot key. it reads a
+configuration file in .keylaunchrc. keylaunch uses ctrl, alt and shift
+as modifier keys, the hotkey is up to the user.

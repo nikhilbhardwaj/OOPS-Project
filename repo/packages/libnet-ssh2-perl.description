@@ -1,0 +1,5 @@
+Perl module for the ssh 2 protocol
+	
+net::ssh2 is a perl interface to the libssh2 (http://www.libssh2.org)
+library. it supports the ssh2 protocol (there is no support for ssh1) with
+all of the key exchanges, ciphers, and compression of libssh2.

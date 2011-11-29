@@ -1,0 +1,6 @@
+Open-source concurrency library for groovy
+	
+library that provides multiple high-level abstractions for
+writing concurrent code in groovy, including: map/reduce,
+fork/join, asynchronous closures, actors, agents, dataflow
+concurrency and other concepts.

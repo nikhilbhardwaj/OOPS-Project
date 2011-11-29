@@ -1,0 +1,8 @@
+Clipboard history utility
+	
+clipman enables you to store and recall x selections, as well as gtk+
+clipboard content. you can also define actions to be triggered by selecting
+some text pattern.
+
+this package uses xfce libraries but can be used without the xfce panel
+and only requires a system tray (notification area).

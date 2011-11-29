@@ -1,0 +1,4 @@
+PackageId:5306
+Name:gforge-plugin-scmsvn
+Version:5.0.2-5
+Deps:gforge-common,gforge-db-postgresql,gforge-db,gforge-shell-postgresql,gforge-shell,gforge-web-apache2,gforge-web,openbsd-inetd,inet-superserver,inetutils-inetd,rlinetd,xinetd,php5-cli,python,python-subversion,subversion,subversion-tools,update-inetd

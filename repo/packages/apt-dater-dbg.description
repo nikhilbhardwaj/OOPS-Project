@@ -1,0 +1,8 @@
+Terminal-based remote package update manager (dbg symbols)
+	
+apt-dater provides an easy to use ncurses frontend for managing package
+updates on a large number of remote hosts using ssh.
+it supports debian-based managed hosts as well as opensuse and centos based
+systems.
+
+this package contains the debugging symbols for the apt-dater package.

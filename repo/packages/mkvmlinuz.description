@@ -1,0 +1,10 @@
+Create a kernel to boot a powerpc machine from open firmware
+	
+this little program takes a powerpc linux kernel as an uncompressed
+elf image file (usually called vmlinux or such) and adds boot code
+and possibly a ramdisk to create a compressed kernel image that
+can be booted directly from open firmware, thus eliminating the
+need for a second-stage bootloader such as yaboot or quik. this is
+especially useful on powerpc sub-architectures which do not have a
+bootloader at all, but may also come in handy for install kernels,
+netboot systems, and the like.

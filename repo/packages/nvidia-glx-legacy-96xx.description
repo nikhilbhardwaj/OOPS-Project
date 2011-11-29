@@ -1,0 +1,38 @@
+Nvidia binary xorg driver (96xx legacy version)
+	
+these binary drivers provide optimized hardware acceleration of
+opengl applications via a direct-rendering x server.
+agp, pcie, sli, tv-out and flat panel displays are also supported.
+please see the nvidia-kernel-legacy-96xx-dkms or
+nvidia-kernel-legacy-96xx-source packages
+for building the kernel module required by this package.
+this will provide nvidia-kernel-96.43.18.
+
+this legacy version is the last release that supports the following gpus:
+geforce2 go [nv11], geforce2 mx integrated graphics [nvcrush11],
+geforce2 mx/mx 400 [nv11], geforce2 mx200 [nv11ddr], geforce3 [nv20],
+geforce3 ti 200 [nv20], geforce3 ti 500 [nv20], geforce4 410 go 16m [nv17],
+geforce4 420 go [nv17], geforce4 420 go 32m [nv17], geforce4 440 go [nv17],
+geforce4 440 go 64m [nv17], geforce4 448 go [nv18m], geforce4 460 go [nv17],
+geforce4 488 go [nv18m], geforce4 mx 420 [nv17],
+geforce4 mx 420 agp 8x [nv18], geforce4 mx 440 [nv17],
+geforce4 mx 440 agp 8x [nv18], geforce4 mx 440se [nv17],
+geforce4 mx 440se agp 8x [nv18], geforce4 mx 460 [nv17],
+geforce4 mx 4000 [nv18], geforce4 mx - nforce gpu [nv18], geforce4 ti [nv25],
+geforce4 ti 4200 [nv25], geforce4 ti 4200 agp 8x [nv28],
+geforce4 ti 4200 go agp 8x [nv28], geforce4 ti 4400 [nv25],
+geforce4 ti 4600 [nv25], geforce4 ti 4800 [nv28], geforce4 ti 4800 se [nv28],
+quadro dcc [nv20dcc], quadro nvs [nv17gl], quadro nvs 50 pci [nv18gl],
+quadro nvs 280 sd agp 8x [nv18gl], quadro2 mxr/ex/go [nv11gl],
+quadro4 380 xgl [nv18gl], quadro4 500 gogl [nv17gl],
+quadro4 550 xgl [nv17gl], quadro4 580 xgl [nv18gl], quadro4 700 xgl [nv25gl],
+quadro4 750 xgl [nv25gl], quadro4 780 xgl [nv28gl], quadro4 900 xgl [nv25gl],
+quadro4 980 xgl [nv28gl], quadro4 go700 [nv28glm], nv40gl.
+
+there are several "more modern" gpus supported by this package, too, but the
+updated drivers in the newer legacy packages or the current nvidia-glx
+package usually provide more features and better support.
+look at the other legacy packages for older cards.
+
+see /usr/share/doc/nvidia-glx-legacy-96xx/readme.txt.gz
+for a complete list of supported gpus and pci ids.

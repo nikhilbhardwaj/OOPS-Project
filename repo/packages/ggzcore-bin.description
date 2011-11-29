@@ -1,0 +1,13 @@
+Ggz gaming zone: various command-line helper programs
+	
+there are two helper tools provided with ggz:
+
+the developer utility ggz-config manages the database of game clients
+and allows developers to query ggz parameters.
+
+with ggz-wrapper it is possible to let any program connect to a ggz
+server, communicating with standard input/output channels.  this is used
+by the ggz plugins for instant messengers.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

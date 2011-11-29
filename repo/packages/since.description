@@ -1,0 +1,6 @@
+Tail(1) work-alike that saves and uses state information
+	
+since is a tail(1) work-alike that remembers how much of a file
+you have viewed and displays only what's new when you next view
+that file. ideal for viewing log files (it'll only show what's
+new in the file since the last time it was run).

@@ -1,0 +1,11 @@
+Openvas shared libraries
+	
+the openvas security scanner is a security auditing tool. it makes
+possible to test security modules in an attempt to find vulnerable
+spots that should be fixed.
+
+it is made up of two parts: a server, and a client. the server/daemon,
+openvasd, is in charge of the attacks, whereas the client,
+openvas-client, provides the user a nice x11/gtk+ interface.
+
+this package contains the required shared libraries.

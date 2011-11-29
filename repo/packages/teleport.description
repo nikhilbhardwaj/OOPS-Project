@@ -1,0 +1,8 @@
+Moves running applications between displays
+	
+teleport allows some applications to be moved between x displays without
+being closed and restarted. it uses x properties to request that applications
+which support the display migration protocol move to another display.
+
+note that few applications or toolkits currently support the display
+migration protocol.

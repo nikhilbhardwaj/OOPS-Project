@@ -1,0 +1,23 @@
+Logging library for java (native code)
+	
+log4j is a tool to help the programmer output log statements to a variety of
+output targets.
+
+it is possible to enable logging at runtime without modifying the application
+binary. the log4j package is designed so that log statements can remain in
+shipped code without incurring a high performance cost.
+
+one of the distinctive features of log4j is the notion of hierarchical
+loggers. using loggers it is possible to selectively control which log
+statements are output at arbitrary granularity.
+
+log4j can output to: a file, a rolling file, a database with a jdbc driver,
+many ouput  asynchronously, a jms topic, a swing based logging console,
+the nt event log, /dev/null, a smtp server (using javamail), a socket server,
+syslog, telnet daemon and stdout.
+
+the format of the output can be defined using one of the various layout
+(or user defined layout) like: simple text, html, date, pattern defined and
+xml.
+
+this package contains the natively compiled code for use by gij.

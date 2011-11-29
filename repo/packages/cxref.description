@@ -1,0 +1,13 @@
+Generates latex and html documentation for c programs
+	
+a program that takes as input a series of c source files
+and produces a latex or html document containing a cross
+reference of the files/functions/variables in the program,
+including documentation taken from suitably formatted
+source code comments.
+the documentation is stored in the c source file in
+specially formatted comments, making it simple to maintain.
+the cross referencing includes lists of functions called,
+callers of each function, usage of global variables, header
+file inclusion, macro definitions and type definitions.
+works for ansi c, including many gcc extensions.

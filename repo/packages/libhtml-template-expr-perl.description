@@ -1,0 +1,5 @@
+Html::template extension adding expression support
+	
+this module provides an extension to html::template which allows expressions
+in the template syntax. this is purely an addition - all the normal
+html::template options, syntax and behaviors will still work.

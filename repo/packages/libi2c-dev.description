@@ -1,0 +1,5 @@
+Userspace i2c programming library development files
+	
+i2c devices are usually controlled by a kernel driver. using this
+library it is also possible to access all devices on an adapter
+from userspace and without the knowledge of linux kernel internals.

@@ -1,0 +1,4 @@
+PackageId:9070
+Name:ldirectord
+Version:1:1.0.3-3.1
+Deps:ipvsadm,libauthen-radius-perl,libcrypt-ssleay-perl,libdbi-perl,libdigest-hmac-perl,libdigest-md5-perl,perl,libmail-pop3client-perl,libmailtools-perl,libnet-dns-perl,libnet-imap-simple-perl,libnet-imap-simple-ssl-perl,libnet-ldap-perl,libnet-perl,perl-modules,libsocket6-perl,libwww-perl

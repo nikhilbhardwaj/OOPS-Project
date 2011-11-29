@@ -1,0 +1,8 @@
+Manual pages about using gnu/linux for development
+	
+these man pages describe the linux programming interface, including
+these two sections:
+
+ 2 = linux system calls.
+ 3 = library calls (note that a more comprehensive source of information
+     may be found in the glibc-doc package).

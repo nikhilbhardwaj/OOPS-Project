@@ -1,0 +1,7 @@
+Module to validate user input, mainly for html forms
+	
+data::formvalidator is a perl module that presents users template-generated
+forms that can be automatically validated later. it lets you define profiles
+which declare required an optional fields, as well as any field constraints.
+results are provided as an object, which makes it easy to handle missing and
+invalid results, return error messages, or process valid data.

@@ -1,0 +1,8 @@
+Hardware sensor information logging daemon
+	
+lm-sensors is a hardware health monitoring package for linux. it allows you
+to access information from temperature, voltage, and fan speed sensors. it
+works with most newer systems.
+
+this package contains a daemon that logs hardware health status to the
+system log with optional warnings on potential system problems.

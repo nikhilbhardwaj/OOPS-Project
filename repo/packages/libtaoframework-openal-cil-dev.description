@@ -1,0 +1,14 @@
+Tao cli binding for openal - development files
+	
+the tao framework is a collection of bindings and libraries to
+facilitate cross-platform games-related development utilizing the mono
+and .net platforms.
+
+openal, the open audio library, is a joint effort to create an open,
+vendor-neutral, cross-platform api for interactive, primarily spatialized
+audio. openal's primary audience are application developers and desktop
+users that rely on portable standards like opengl, for games and other
+multimedia applications.
+
+this package contains development files for tao.openal and should be used
+for compilation.

@@ -1,0 +1,5 @@
+Obsolete commandline tool to search the package archive
+	
+ept-cache has been superseded by axi-cache, provided by apt-xapian-index.
+
+this package provides a dummy ept-cache script that just call axi-cache.

@@ -1,0 +1,4 @@
+PackageId:24638
+Name:monkeysphere
+Version:0.31-4
+Deps:adduser,gnupg,libcrypt-openssl-rsa-perl,libdigest-sha-perl,perl,lockfile-progs,procmail

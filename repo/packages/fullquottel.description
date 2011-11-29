@@ -1,0 +1,12 @@
+Recognizes top-posted e-mail and usenet replies
+	
+fullquottel performs several tests to determine if a message is written in
+the top-post style (a.k.a. "tofu" or jeopardy-style quoting) - the full
+response above and a full quote of the original message below.
+
+each test is customizable and has an associated score. fullquottel returns
+the total score for the message in several forms which are useful e.g. for
+sorting e-mail.
+
+
+ homepage: http://www.toastfreeware.priv.at/

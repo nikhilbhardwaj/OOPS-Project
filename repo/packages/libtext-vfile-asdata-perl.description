@@ -1,0 +1,6 @@
+Generic perl module to read and write vfile files
+	
+works with such as vcard (rfc 2426) and vcalendar (rfc 2445).
+the result of loading this data is a collection of objects which
+will grant you easy access to the properties. then the module
+can write your objects back to a data file.

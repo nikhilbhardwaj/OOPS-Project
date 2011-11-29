@@ -1,0 +1,9 @@
+A fast xml/dom/xpath/xslt extension for tcl written in c - development files
+	
+this package contains the header files and development libraries for
+tdom, a fast xml/dom/xpath/xslt extension for tcl. tdom takes
+advantage of expat, the xml parser from james clark. it comes with a
+(partial) dom-i and dom-ii implementation in c for maximum performance
+and minimum memory need. a very complete, compliant and fast xpath
+implementation is provided.  a fast xslt implementation in c
+completes the feature set.

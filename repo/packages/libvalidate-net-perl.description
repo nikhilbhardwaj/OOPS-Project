@@ -1,0 +1,6 @@
+Perl module for validating net:: related strings
+	
+validate::net is a class designed to assist with the validation of internet
+related strings. it can be used to validate cgi forms, internally by modules,
+and in any place where you want to check that an internet related string is
+valid before handing it off to a net::* modules.

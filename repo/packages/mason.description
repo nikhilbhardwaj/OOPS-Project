@@ -1,0 +1,6 @@
+Interactively creates a linux packet filtering firewall
+	
+mason creates a firewall that exactly matches the types of
+tcp/ip traffic flowing in, out and through a linux computer.
+it can be used to create a full firewall or add rules to an
+existing firewall.

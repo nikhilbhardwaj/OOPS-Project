@@ -1,0 +1,12 @@
+Various perl modules for time/date manipulation
+	
+this package contains the following perl5 modules:
+
+ time::ctime.pm
+        ctime, strftime, and asctime
+ time::julianday.pm
+        julian day conversions
+ time::parsedate.pm
+        reverses strftime and also understands relative times
+ time::timezone.pm
+ time::daysinmonth.pm

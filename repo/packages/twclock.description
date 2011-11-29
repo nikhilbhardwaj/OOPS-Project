@@ -1,0 +1,10 @@
+Clock program for hamradio operators
+	
+this is a clock program which will displays the current time in
+major cities around the world.
+
+the current time at some point on the globe is determined using
+the time zone information contained in the files located under the
+directory /usr/share/zoneinfo.  a file selection box allows you to
+pick the area or city of interest. the clock will then display the
+current time for the selected location.

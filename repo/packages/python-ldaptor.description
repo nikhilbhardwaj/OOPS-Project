@@ -1,0 +1,10 @@
+Pure-python library for ldap operations
+	
+ldaptor is a pure-python library that implements:
+
+
+ * ldap client logic.
+ * separately-accessible ldap and ber protocol message generation/parsing.
+ * ascii-format ldap filter generation and parsing.
+ * ldif format data generation.
+ * samba password changing logic.

@@ -1,0 +1,8 @@
+Octave binding to the approximate nearest neighbors library
+	
+this package wraps the ann library into octave, a numerical
+computation software. the ann library provides data structures and
+functions for computing exact and approximate nearest neighbors on an
+arbitrarily high dimensional point set.
+
+this octave add-on package is part of the octave-forge project.

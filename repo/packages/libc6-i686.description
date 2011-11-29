@@ -1,0 +1,11 @@
+Embedded gnu c library: shared libraries [i686 optimized]
+	
+contains the standard libraries that are used by nearly all programs on
+the system. this package includes shared versions of the standard c
+library and the standard math library, as well as many others.
+
+this set of libraries is optimized for i686 machines, and will only be
+used if you are running a 2.6 kernel on an i686 class cpu (check the
+output of `uname -m').  this includes pentium pro, pentium ii/iii/iv,
+celeron cpu's and similar class cpu's (including clones such as amd
+athlon/opteron, via c3 nehemiah, but not via c3 ezra).

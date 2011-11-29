@@ -1,0 +1,9 @@
+A libunwind-based non local goto - runtime
+	
+the unwind-setjmp library offers a libunwind-based implementation of
+non-local gotos. this implementation is intended to be a drop-in
+replacement for the normal, system-provided routines of the same name.
+the main advantage of using the unwind-setjmp library is  that  setting
+up a non-local goto via one of the setjmp() routines is very fast.
+
+this package includes the shared library

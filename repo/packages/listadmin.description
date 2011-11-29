@@ -1,0 +1,8 @@
+Command line mailman moderator queue manipulation
+	
+listadmin is a command line tool to manipulate the queues of messages
+held for moderator approval by mailman.  it is designed to keep user
+interaction to a minimum, in theory you could run it from cron to
+prune the queue. it can use the score from a header added by
+spamassassin to filter, or it can match specific senders, subjects, or
+reasons.

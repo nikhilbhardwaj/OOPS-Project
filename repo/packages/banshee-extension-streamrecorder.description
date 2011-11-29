@@ -1,0 +1,13 @@
+Streamrecorder extension for banshee
+	
+this package provides the streamrecorder extension for banshee which will allow
+it to rip/record radio streams. it has the following features:
+
+ * recording "what you hear is what you get"
+ * multiple encoders configurable
+ * recorded stream injected with metadata tags
+ * automatic file splitting and naming for streams sending metadata tags for
+   title and artist
+
+
+banshee is a media management and playback application for the gnome desktop.

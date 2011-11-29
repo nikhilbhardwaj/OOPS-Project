@@ -1,0 +1,18 @@
+Perl interface to the isaac prng algorithm
+	
+math::random::isaac implements the isaac (indirection, shift, accumulate, add
+and count) pseudorandom number generator (prng) algorithm described on the
+project page at: <url:http://burtleburtle.net/bob/rand/isaac.html>
+
+as with other algorithms like the mersenne twister (see math::random::mt),
+this algorithm is designed to take some seed information and produce seemingly
+random results as output.
+
+the results are uniformly distributed, unbiased, and unpredictable unless you
+know the seed. the algorithm was published by bob jenkins in the late 1990s
+and despite the best efforts of many security researchers, no feasible attacks
+have been found to date.
+
+for comparison with other algorithms intended to generate random data, the
+mersenne twister has a period of 2^19937-1, the related tt800 has a period
+of 2^800-1 values. isaac has a period of 2^8295 values on average.

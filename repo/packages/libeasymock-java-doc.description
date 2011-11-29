@@ -1,0 +1,9 @@
+Java library to generate mock objects for given interfaces (documentation)
+	
+easymock 2 is a library that provides an easy way to use mock objects for given
+interfaces. mock objects simulate parts of the behavior of domain code,
+and are able to check whether they are used as defined.
+domain classes can be tested in isolation
+by simulating their collaborators with mock objects.
+
+this package contains the documentation for the mock objects library.

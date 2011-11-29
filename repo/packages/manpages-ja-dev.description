@@ -1,0 +1,14 @@
+Japanese version of the manual pages (for developers)
+	
+this package contains the linux manual pages translated into
+japanese. following sections are provided:
+
+  * 2 = linux system calls.
+  * 3 = libc calls (note that a more comprehensive source of
+
+information may be found in the libc6-doc package).
+
+for more information, see jm project's web page:
+
+
+    http://www.linux.or.jp/jm/

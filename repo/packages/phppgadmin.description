@@ -1,0 +1,27 @@
+Web-based administration tool for postgresql
+	
+features:
+
+ * administer multiple servers
+ * support for postgresql 7.0.x, 7.1.x, 7.2.x, 7.3.x, 7.4.x, 8.0.x, 8.1.x,
+   8.2.x, 8.3.x
+ * manage all aspects of:
+   * users & groups
+   * databases
+   * schemas
+   * tables, indexes, constraints, triggers, rules & privileges
+   * views, sequences & functions
+   * advanced objects
+   * reports
+ * easy data manipulation:
+   * browse tables, views & reports
+   * execute arbitrary sql
+   * select, insert, update and delete
+ * dump table data in a variety of formats: sql, copy, xml, xhtml, csv, tabbed,
+   pg_dump
+ * import sql scripts, copy data, xml, csv and tabbed
+ * supports the slony master-slave replication engine
+ * excellent language support:
+   * available in 27 languages
+   * no encoding conflicts. edit russian data using a japanese interface!
+ * easy to install and configure

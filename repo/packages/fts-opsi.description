@@ -1,0 +1,8 @@
+Opsi module for fts the tftp/fuse supplicant
+	
+opsi module for fts which is using the opsi configed communication
+to generate client configurations.
+
+the fts daemon has been designed with modularity in mind. it
+allows dynamic configurations generated from other sources like
+i.e. ldap or opsi configuration.

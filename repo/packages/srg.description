@@ -1,0 +1,7 @@
+Fast, flexible and detailed log analysis for the squid proxy
+	
+srg provides fast and flexible analysis of squid proxy log files while
+retaining a high level of detail, including down to the exact urls visited
+by users and the times at which they were visited. srg also contains support
+for generating php reports that can be integrated with your existing
+authentication system to provide granular access to report output.

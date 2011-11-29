@@ -1,0 +1,5 @@
+Haskell database connectivity, ghc6 profiling data
+	
+hdbc provides an abstraction layer between haskell programs and sql
+relational databases. this package provides profiling information for using
+hdbc with ghc6.

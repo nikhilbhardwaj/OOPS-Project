@@ -1,0 +1,8 @@
+A qt front-end to octave
+	
+besides offering an attractive front-end to gnu octave, an
+environment for numerical computation highly compatible with matlab,
+qtoctave currently also features matrix data entry and display and
+some gui shortcuts to frequently used octave functions. it also
+offers access in place to octave's html documentation with
+octave3.0-htmldoc.

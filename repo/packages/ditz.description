@@ -1,0 +1,14 @@
+Distributed issue tracker
+	
+ditz is a simple, light-weight distributed issue tracker designed to
+work with distributed version control systems like git, darcs,
+mercurial, and bazaar. it can also be used with centralized systems like
+svn.
+
+ditz maintains an issue database directory on disk, with files written
+in a line-based and human-editable format. this directory can be kept
+under version control, alongside project code.
+
+ditz provides a simple, console-based interface for creating and
+updating the issue database file, and some rudimentary static html
+generation capabilities for producing world-readable status pages.

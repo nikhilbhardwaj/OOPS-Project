@@ -1,0 +1,6 @@
+Module for calculating smooth numerical transitions
+	
+math::gradient is a perl module that is useful for calculating numbers needed
+to make smooth transitions between two or more numerical values (graphically
+represented as gradients). the primary intent of this module is to make it
+easy to mix colours, both in terms of basic and multiple-point gradients.

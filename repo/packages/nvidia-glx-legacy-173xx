@@ -1,0 +1,4 @@
+PackageId:25753
+Name:nvidia-glx-legacy-173xx
+Version:173.14.27-2
+Deps:dpkg,libc6,libc6-udeb,libgl1-nvidia-legacy-173xx-glx,libglx-nvidia-alternatives,nvidia-kernel-173.14.27,nvidia-kernel-legacy-173xx-dkms,xorg-video-abi-6.0,xserver-xorg-core

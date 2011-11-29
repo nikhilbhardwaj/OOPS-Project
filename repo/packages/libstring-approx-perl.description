@@ -1,0 +1,6 @@
+Perl extension for approximate matching (fuzzy matching)
+	
+string::approx lets you match and substitute strings approximately.
+with this you can emulate errors: typing errorrs, speling errors,
+closely related vocabularies (colour color), genetic mutations (gag
+act), abbreviations (mcscot, macscot).

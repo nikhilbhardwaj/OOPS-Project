@@ -1,0 +1,10 @@
+Binding to the pango text rendering engine; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this package provides a wrapper around the pango c library that allows
+high-quality rendering of unicode text. it can be used either with cairo to
+output text in pdf, ps or other documents or with gtk+ to display text
+on-screen.

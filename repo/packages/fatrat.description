@@ -1,0 +1,23 @@
+Multi-protocol download manager, feature rich and extensible via plugin
+	
+fatrat is a feature rich download manager written in c++ and built on top of
+qt4 library. it supports a lot of download and file exchange protocols and is
+continuously extended. it also includes a plugin system.
+most relevant features are:
+
+
+ * http(s)/ftp downloads
+ * ftp uploads
+ * rss feed support + special functions for tv shows and podcasts
+ * bittorrent support (including torrent creating, dht, upnp,
+   encryption etc.)
+ * torrent search
+ * support for socks5 and http proxies
+ * rapidshare.com free downloads
+ * rapidshare.com uploads
+ * rapidshare.com link verification and folder extraction
+ * rapidsafe link decoding
+ * md4/md5/sha1 hash computing
+ * remote control via jabber
+ * remote control via a web interface
+ * youtube video downloading

@@ -1,0 +1,9 @@
+Implementation of the mpi message passing interface standard
+	
+mpich2 is a high-performance and widely portable implementation of the
+message passing interface (mpi) standard (both mpi-1 and mpi-2). it
+efficiently supports different computation and communication platforms
+including commodity clusters, smps, massively parallel systems, and
+high-speed networks.
+
+this package includes the program binaries necessary to run mpich2 programs.

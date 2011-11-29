@@ -1,0 +1,10 @@
+Tool to create and append to squashfs filesystems
+	
+squashfs is a highly compressed read-only filesystem for linux. it uses zlib
+compression to compress both files, inodes and directories. inodes in the
+system are very small and all blocks are packed to minimise data overhead.
+block sizes greater than 4k are supported up to a maximum of 64k.
+
+squashfs is intended for general read-only filesystem use, for archival use
+(i.e. in cases where a .tar.gz file may be used), and in constrained block
+device/memory systems (e.g. embedded systems) where low overhead is needed.

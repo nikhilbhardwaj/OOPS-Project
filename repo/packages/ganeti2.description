@@ -1,0 +1,15 @@
+Cluster-based virtualization management software
+	
+ganeti is a virtual server cluster management software tool built on top
+of the xen virtual machine monitor and other open source software. after
+setting it up it will provide you with an automated environment to
+manage highly available virtual machine instances.
+
+it has been designed to facilitate cluster management of virtual servers
+and to provide fast and simple recovery after physical failures using
+commodity hardware.
+
+it will take care of operations such as redundant disk creation and
+management, operating system installation  (in cooperation with os-specific
+install scripts), startup, shutdown, failover of instances between physical
+systems.

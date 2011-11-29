@@ -1,0 +1,10 @@
+Afs distributed filesystem old password changing
+	
+afs is a distributed filesystem allowing cross-platform sharing of
+files among multiple computers.  facilities are provided for access
+control, authentication, backup and administrative management.
+
+this package provides kpasswd and kas, utilities needed by the openafs
+kaserver to create users and change passwords.  only install this package
+if you are already using kaserver; generally you should not install this
+package for new cells or for cells using kerberos v5.

@@ -1,0 +1,7 @@
+Perl interface to the graphviz graphing tool
+	
+this module provides an interface to layout and image generation of
+directed and undirected graphs in a variety of formats (postscript,
+png, etc.) using the "dot", "neato", "twopi", "circo" and "fdp"
+programs from the graphviz project (http://www.graphviz.org/ or
+http://www.research.att.com/sw/tools/graphviz/).

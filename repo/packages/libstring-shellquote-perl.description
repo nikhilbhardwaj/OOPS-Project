@@ -1,0 +1,7 @@
+Quote strings for passing through the shell
+	
+this perl module contains some functions which are useful for quoting
+strings which are going to pass through the shell or a shell-like
+object, plus a command-line interface to it.  it is useful for doing
+robust tool programming, particularly when dealing with files whose
+names contain white space or shell globbing characters.

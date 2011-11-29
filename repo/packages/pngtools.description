@@ -1,0 +1,6 @@
+Series of tools for png (portable network graphics) images
+	
+pngtools is a suite of utilities to work with png (portable network
+graphics) files, equivalents to libtiff's tiffinfo, and tiffcp commands.
+these commands are called pnginfo, pngcp. tiffdump is replaced by pngchunks
+and pngchunkdesc as well.

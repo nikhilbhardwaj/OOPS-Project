@@ -1,0 +1,8 @@
+A motif widget for display html 3.2
+	
+xmhtml is a high performance motif widget capable of displaying html
+3.2 confirming text.  graphics support, lesstif compatibility and
+extensive documentation are amongst its many features.
+
+this package provides the runtime shared library. the xmhtml-dev
+package provides the header files, and the static library.

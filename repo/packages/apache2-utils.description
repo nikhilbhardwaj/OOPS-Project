@@ -1,0 +1,14 @@
+Utility programs for webservers
+	
+provides some add-on programs useful for any webserver.  these include:
+
+ - ab (apache benchmark tool)
+ - logresolve (resolve ip addresses to hostname in logfiles)
+ - htpasswd (manipulate basic authentication files)
+ - htdigest (manipulate digest authentication files)
+ - dbmmanage (manipulate basic authentication files in dbm format, using perl)
+ - htdbm (manipulate basic authentication files in dbm format, using apr)
+ - rotatelogs (periodically stop writing to a logfile and open a new one)
+ - split-logfile (split a single log including multiple vhosts)
+ - checkgid (checks whether the caller can setgid to the specified group)
+ - check_forensic (extract mod_log_forensic output from apache log files)

@@ -1,0 +1,9 @@
+Shell-like midi sequencer/filter
+	
+midish is a midi sequencer/filter implemented as a shell-like interpreter.
+it's intended to be lightweight, fast and reliable for real-time performance.
+important features are: multiple midi devices handling, synchronisation to
+external midi devices, real-time midi filtering/routing (controller mapping,
+keyboard splitting, ...), track recording and editing (insert, copy, delete,
+quantize...), import and export of standard midi files, system exclusive
+messages handling.

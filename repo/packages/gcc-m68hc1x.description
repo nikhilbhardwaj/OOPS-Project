@@ -1,0 +1,5 @@
+Gnu c compiler for the motorola 68hc11/12 processors
+	
+this is the gnu c compiler, a fairly portable optimizing compiler which
+supports multiple languages. this package includes support for c for
+cross-compiling to a motorola 68hc11/12 microcontroller-based target.

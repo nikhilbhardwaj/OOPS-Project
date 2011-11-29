@@ -1,0 +1,7 @@
+Python bindings for x on-screen display library
+	
+pyosd is a python module for displaying text on your x display, much
+like the "on screen displays" used on tvs and some monitors.
+
+it can be used by anything that needs your attention, such as showing
+the song currently playing in a python-based mp3 player.

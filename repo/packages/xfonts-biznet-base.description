@@ -1,0 +1,14 @@
+Standard biznet iso-8859-2 fonts for x servers
+	
+the biznet iso 8859-2 (central european) x window system fonts
+are a set of iso 8859-2 (sometimes called also iso latin2)
+x window system bitmap typefaces.
+
+iso-8859-2 character set is the iso standard character encoding for the
+following languages: albanian, croatian, czech, hungarian, polish,
+slovak, slovene, and serbian.
+
+xfonts-biznet-base provides a standard set of low-resolution
+bitmapped fonts.  in most cases it is desirable to have the x font
+server (xfs) and/or an x server installed to make the fonts available
+to x clients.

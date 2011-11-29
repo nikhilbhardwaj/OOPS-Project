@@ -1,0 +1,10 @@
+Advanced python testing tool and networking lib
+	
+the codespeak py lib aims at supporting a decent python development process
+addressing deployment, versioning, testing and documentation perspectives. it
+includes:
+
+
+ * py.test: cross-project testing tool with many advanced features
+ * py.path: path abstractions over local and subversion files
+ * py.code: dynamic code compile and traceback printing support

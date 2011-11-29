@@ -1,0 +1,18 @@
+Security image (captcha) generator
+	
+the (so called) "security images" are so popular. most internet
+software use these in their registration screens to block robot programs
+(which may register tons of  fake member accounts). security images are
+basicaly, graphical captchas (completely automated public
+turing test to tell computers and humans apart). this
+module gives you a basic interface to create such an image. the final
+output is the actual graphic data, the mime type of the graphic and the
+created random string. the module also has some "styles" that are
+used to create the background (or foreground) of the image.
+
+if you are an authen::captcha user, see gd::securityimage::ac
+for migration from authen::captcha to gd::securityimage.
+
+gd::securityimage is just an image generator. not a captcha handler.
+the validation of the generated graphic is left to your programming
+taste.

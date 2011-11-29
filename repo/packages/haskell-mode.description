@@ -1,0 +1,12 @@
+A major mode for editing haskell in emacs
+	
+a major mode for editing haskell (the functional
+programming language) in emacs.
+
+major features:
+
+ - syntax highlighting (font lock),
+ - automatic indentation,
+ - on-the-fly documentation,
+ - interaction with inferior ghci or hugs instance,
+ - scans declarations and places them in a menu.

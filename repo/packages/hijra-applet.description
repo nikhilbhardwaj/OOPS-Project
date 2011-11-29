@@ -1,0 +1,11 @@
+Hijri islamic calendar tray applet
+	
+hijri tray applet for gnome (also works with kde) that uses hijra algorithm by
+muayyad saleh alsadi provided by python-hijra package.
+
+this algorithm is based on integer operations which that there is no round
+errors (given accurate coefficients) the accuracy of this algorithm is based
+on 3 constants (p, q and a) where p/q is the full months percentage [ gcd(p,q)
+must be 1 ] currently it is set to 191/360 which mean that there is 191 months
+having 30 days in a span of 360 years, other months are 29 days, and a is just
+a shift.

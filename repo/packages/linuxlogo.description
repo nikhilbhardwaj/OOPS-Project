@@ -1,0 +1,14 @@
+Color ansi system logo
+	
+a color ansi logo with some system information that can be displayed at system
+boot time or, with some local configuration, at the login prompt. four
+different logos are available:
+
+
+ * debian swirl(default)
+ * debian banner
+ * tux classic and banner
+
+
+the classic and banner logos are based on larry ewing's penguin. monochrome
+ascii versions of all the logos are included.

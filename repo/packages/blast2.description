@@ -1,0 +1,9 @@
+Basic local alignment search tool
+	
+the famous sequence alignment program. this is "official" ncbi version,
+#2. the blastall executable allows you to give a nucleotide or protein
+sequence to the program. it is compared against databases and a summary of
+matches is returned to the user.
+
+note that databases are not included in debian; they must be retrieved
+manually.

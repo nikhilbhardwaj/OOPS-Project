@@ -1,0 +1,11 @@
+Cvs repository statistic analysis tool, written in java
+	
+statcvs retrieves information from a cvs repository and generates
+various tables and charts describing the project development,
+e.g. timeline for the lines of code, contribution of each developer
+etc.
+
+the current version of statcvs generates a static suite of
+html documents containing tables and chart images.
+statcvs is opens source software, released under the terms oft the lgpl.
+statcvs uses jfreechart to generate charts.

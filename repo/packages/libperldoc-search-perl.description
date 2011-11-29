@@ -1,0 +1,9 @@
+Index and search local perl documentation
+	
+perldoc::search uses the swish-e engine to index the local perl
+documentation. it provides both the command line utility perldig
+and an api to perform searches on the index. it uses swish::api::common
+as the indexing and search engine.
+
+this package also contains the command line utility perldig, which digs up
+keywords in the local perl documentation

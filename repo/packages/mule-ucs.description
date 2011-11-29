@@ -1,0 +1,9 @@
+Universal encoding system for mule
+	
+mule-ucs is an emacs lisp library to define encoding/decoding schemes
+by rather simple translation rules.  mule-ucs provides flexible and
+comprehensible encoding mechanism to emacs.
+
+mule-ucs unicode definition provides various coding-systems for
+external representations and some apis for other emacs lisp libraries.
+utf-8, utf-16, and utf-7 are supported.

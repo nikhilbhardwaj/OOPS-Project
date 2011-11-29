@@ -1,0 +1,6 @@
+Iterator pipelines for python
+	
+python-pipeline provides an easy way to construct pipelines of iterators,
+with a syntax resembling unix shell. it supplies counterparts for some
+common command-line utilities: cat, cut, echo, grep, head, nl, sort, split,
+tail, uniq, wc, yes.

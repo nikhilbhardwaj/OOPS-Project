@@ -1,0 +1,8 @@
+Utility wrapper around inotify
+	
+inotify is a linux kernel feature enabling user space programs to
+monitor parts of the filesystem in a efficient way. libinotifytools
+is a thin layer on top of the kernel interface which makes it easy
+to set up watches on many files at once, read events without having
+to deal with low-level i/o, and several utility functions for inotify-
+related string formatting

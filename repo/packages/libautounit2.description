@@ -1,0 +1,5 @@
+C unit testing framework interfacing well with autotools
+	
+this package provides the libraries to run programs that have c unit
+tests in them.  it will rarely be useful without the development
+package.

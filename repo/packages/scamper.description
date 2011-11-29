@@ -1,0 +1,13 @@
+Advanced traceroute and network measurement utility
+	
+scamper is a program that is able to conduct internet measurement
+tasks to large numbers of ipv4 and ipv6 addresses, in parallel, to
+fill a specified packets-per-second rate. currently, it supports the
+well-known ping and traceroute techniques.
+
+scamper can do icmp-based path mtu discovery. scamper starts with the
+outgoing interface's mtu and discovers the location of path mtu
+bottlenecks. scamper performs a pmtud search when an icmp
+fragmentation required message is not returned to establish the pmtu
+to the next point in the network, followed by a ttl limited search to
+infer the where failure appears to occur.

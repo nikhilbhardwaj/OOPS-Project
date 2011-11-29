@@ -1,0 +1,14 @@
+Fix as much of perl 5 as possible in one pragma
+	
+perl 5 has a lot of warts. there's a lot of individual modules and
+techniques out there to fix those warts. perl5i aims to pull the best
+of them together into one module so you can turn them on all at once.
+
+this includes adding features, changing existing core functions and
+changing defaults. it will likely not be 100% backwards compatible with
+perl 5, though it will be 99%, perl5i will try to have a lexical effect.
+
+please add to this imaginary world and help make it real,
+either by telling me what perl looks like in your imagination
+(http://github.com/schwern/perl5i/issues) or make a fork (forking on
+github is like a branch you control) and implement it yourself.

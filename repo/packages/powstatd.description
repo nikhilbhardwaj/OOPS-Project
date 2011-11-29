@@ -1,0 +1,24 @@
+Configurable ups monitoring daemon
+	
+assuming you have a relay-based "dumb" ups that corresponds with your
+machine via a serial connection, you should be able to configure powstatd
+in just a few minutes. it is easily configured, and can be expected to
+support most "dumb" ups supplies.
+
+ups models known to work:
+
+ cyberpower powersl series
+ cyberpower power2000 1500va
+ cyberpower power99 325va, 400va, 500va and 720va
+ some older cyberpower 385va and 450va models
+ tripplite internet office 500 ups
+ various older apc units.
+
+
+powstatd can also be configured to allow a master machine to control
+(via a network connection) up to 20 (by default) additional slave
+machines connected to the same ups. this allows you to run several
+machines off the same ups, with only one of the machines actually
+reading the ups status over the serial line.  this version of powstatd
+uses secure cryptography to communicate between master and slave(s),
+replacing the older powstatd-crypt debian package.

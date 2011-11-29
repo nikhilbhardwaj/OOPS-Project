@@ -1,0 +1,18 @@
+Library documentation for highlighting-kate
+	
+highlighting-kate is a syntax highlighting library with support for over
+50 languages. the syntax parsers are automatically generated from kate syntax
+descriptions (<http://kate-editor.org/>), so any syntax supported by kate can
+be added.
+
+currently the following languages are supported: ada, asp, awk, bash, bibtex,
+c, cmake, coldfusion, commonlisp, cpp, css, d, djangotemplate, doxygen, dtd,
+eiffel, erlang, fortran, haskell, html, java, javadoc, javascript, json,
+latex, lex, literatehaskell, lua, makefile, matlab, mediawiki, modula3, nasm,
+objectivec, ocaml, pascal, perl, php, postscript, prolog, python, rhtml, ruby,
+scala, scheme, sgml, sql, sqlmysql, sqlpostgresql, tcl, texinfo, xml, xslt,
+yacc.
+
+this package provides the documentation for a library for the haskell
+programming language.  see http://www.haskell.org/ for more information on
+haskell.

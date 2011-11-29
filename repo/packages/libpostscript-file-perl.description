@@ -1,0 +1,7 @@
+Perl module for creating adobe postscript files
+	
+postscript::file is a perl module capable of producing the outline for an
+adobe postscript file. it provides convenient routines for writing postscript
+directly, and also includes error reporting and debugging facilities. though
+it is designed to be used independently, the functions provided are suitable
+for use in other modules.

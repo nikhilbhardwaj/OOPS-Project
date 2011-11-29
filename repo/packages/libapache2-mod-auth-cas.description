@@ -1,0 +1,5 @@
+Cas authentication module for apache2
+	
+mod_auth_cas is an authentication module for apache2, that
+allows the webserver to interact with an authentication server
+that conforms to the cas (v1 or v2) protocol defined by yale/ja-sig.

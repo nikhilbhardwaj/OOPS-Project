@@ -1,0 +1,6 @@
+Memory reporting tool
+	
+tool that can give numerous reports on memory usage on linux systems.
+unlike existing tools, smem can report proportional set size (pss),
+which is a more meaningful representation of the amount of memory used
+by libraries and applications in a virtual memory system.

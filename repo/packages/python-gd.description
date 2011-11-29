@@ -1,0 +1,6 @@
+Python module wrapper for libgd
+	
+provides png, jpeg, and xpm creation and manipulation routines
+through the libgd library.
+
+also allows use of truetype fonts in images created.

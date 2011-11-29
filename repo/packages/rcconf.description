@@ -1,0 +1,6 @@
+Debian runlevel configuration tool
+	
+this tool configures system services in connection with system
+runlevels.  it turns on/off services using the scripts in
+/etc/init.d/.  rcconf works with system-v style runlevel configuration.
+it is a tui(text user interface) frontend to the update-rc.d command.

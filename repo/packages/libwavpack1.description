@@ -1,0 +1,10 @@
+An audio codec (lossy and lossless) - library
+	
+wavpack is a completely open audio compression format providing lossless,
+high-quality lossy, and a unique hybrid compression mode. although the
+technology is loosely based on previous versions of wavpack, the new version
+4 format has been designed from the ground up to offer unparalleled
+performance and functionality.
+
+this package contains the shared libraries necessary to run programs
+using libwavpack.

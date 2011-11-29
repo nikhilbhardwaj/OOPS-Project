@@ -1,0 +1,10 @@
+Low resolution coastlines for the generic mapping tools
+	
+this package contains the crude, low and intermediate resolution coastlines
+contained in the gmt distribution which will be enough to get you started.
+originally there were two more coastline packages (gmt-coast-high and -full)
+but they were to big for our servers and pulled from the distribution.
+
+read /usr/share/doc/gmt-coast-low/readme.debian to learn how to get coastline
+data on the net. otherwise you will not be able to create high quality
+maps with gmt.

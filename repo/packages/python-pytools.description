@@ -1,0 +1,12 @@
+Big bag of things supplementing python standard library
+	
+pytools is a big bag of things that are needed by packages created by
+andreas kloeckner. they are used by python-pycuda and python-pyopencl
+packages. they contain, amongst other:
+
+ * a ton of small tool functions such as len_iterable, argmin, tuple
+   generation, permutation generation, ascii table pretty printing,
+   gvr's mokeypatch_xxx() hack, the elusive flatten, and much more
+ * a time-series logging module, pytools.log
+ * batch job submission, pytools.batchjob
+ * a lexer, pytools.lex

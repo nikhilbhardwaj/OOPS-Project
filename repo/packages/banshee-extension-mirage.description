@@ -1,0 +1,14 @@
+Automatic playlist generation extension for banshee
+	
+mirage is a ready-to-try implementation of the latest research
+in automatic playlist generation and music similarity. mirage
+analyzes your music collection and computes similarity models
+for each song. after your music has been analyzed, mirage is
+able to automatically generate playlists of similar music.
+
+mirage is far from being perfect! but it is a nice and easy way
+to rediscover your music collection. imagine it's an automated
+radio station dj playing songs from your collection and all songs
+somehow fit together.
+
+banshee is a media management and playback application for the gnome desktop.

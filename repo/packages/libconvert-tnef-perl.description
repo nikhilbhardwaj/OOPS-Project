@@ -1,0 +1,5 @@
+Perl module to read tnef files
+	
+tnef stands for transport neutral encapsulation format, and if you've
+ever been unfortunate enough to receive one of these files as an email
+attachment, you may want to use this module.

@@ -1,0 +1,7 @@
+Perl module for accessing dirent structs returned by readdir
+	
+returns a list of hashrefs. each hashref contains the name of the
+directory entry, its inode for the filesystem it resides on and its
+type (if available).
+
+this module can be used by backuppc to speed up back-ups.

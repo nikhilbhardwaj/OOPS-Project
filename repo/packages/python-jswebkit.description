@@ -1,0 +1,5 @@
+Webkit/javascriptcore python bindings
+	
+python-jswebkit is an cython wrapper for jscontextref in
+pywebkitgtk, which makes it able to call javascript functions with
+webkit/javascriptcore.

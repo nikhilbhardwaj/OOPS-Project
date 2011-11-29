@@ -1,0 +1,11 @@
+Ggz gaming zone: common utilities library
+	
+the libggz library handles network, configuration file and data
+structure management functions as well as several convenience wrappers
+around glibc functions.
+
+this package provides the run-time library of base functions common to
+several ggz clients and servers.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

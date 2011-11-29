@@ -1,0 +1,5 @@
+Perl module to easily compare arrays
+	
+array::compare can easily compare two arrays, in a variety
+of flexible ways, such as whitespace-ignorant, case-insensitive,
+and with certain elements skipped.

@@ -1,0 +1,11 @@
+Makes an html site map from meta tags from other html pages
+	
+this python script reads the meta description tags from all html
+files under a directory and generates a site map from them. it can be
+easily configured with a simple dotfile.
+
+the site map of catb.org, known to most linux users, is an example of
+what this script can do.
+
+the generated site maps can be in english, german, italian, french,
+spanish and many other languages.

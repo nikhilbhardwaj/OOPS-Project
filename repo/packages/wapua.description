@@ -1,0 +1,14 @@
+Web browser for wap wml pages
+	
+wapua is a web browser for browsing wap (wireless application
+protocol) pages written in the wireless markup language (wml;
+versions 1.1 and 1.2 are supported). its main purpose is to test or
+surf wap pages without connecting with a wap capable mobile phone,
+which may be expensive or impossible, i.e. in case of wap pages on
+the local filesystem.
+
+wapua is written in perl using libwww-perl and perl/tk.
+
+included in the package is the command line front-end wbmp2xbm to
+wapua's internal converter for decoding wap wireless bitmaps (wbmp)
+into x bitmaps (xbm).

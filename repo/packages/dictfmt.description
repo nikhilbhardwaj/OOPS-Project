@@ -1,0 +1,8 @@
+Utility to format a file for use by a dictd server
+	
+this package provides dictfmt. this utility can convert an input file
+to a dictionary database that conforms to the dict protocol, and create
+a corresponding index file.
+
+the package also provides dictunformat, which creates a raw database
+from a dictionary index and a dictionary database.

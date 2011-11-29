@@ -1,0 +1,8 @@
+Llvm d compiler
+	
+ldc is a compiler for the d programming language. it is based on the
+latest dmd frontend and uses llvm as backend.
+
+ldc already compiles a lot of d code, but should still be considered
+beta quality. take a look at the tickets to get a better impression
+on what still needs to be implemented.

@@ -1,0 +1,10 @@
+Console-only getty
+	
+mingetty is a small, efficient, console-only getty for linux.
+
+"getty opens a tty port, prompts for a login name and invokes the
+/bin/login command. it is normally invoked by init(8)."
+
+mingetty is a minimal getty for use on virtual consoles. unlike
+the getty in the util-linux or mgetty packages, mingetty is not
+suitable for serial lines, which is why it's smaller.

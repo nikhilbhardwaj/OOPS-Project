@@ -1,0 +1,18 @@
+Gerris flow solver
+	
+gerris is a system for the solution of the partial differential
+equations describing fluid flow.
+
+a brief summary of its main (current) features:
+
+
+  * solves the time-dependent incompressible variable-density euler,
+    stokes or navier-stokes equations
+  * adaptive mesh refinement: the resolution is adapted dynamically to
+    the features of the flow
+  * entirely automatic mesh generation in complex geometries
+  * second-order in space and time
+  * unlimited number of advected/diffused passive tracers
+  * flexible specification of additional source terms
+  * portable parallel support using the mpi library
+  * volume of fluid advection scheme for interfacial flows

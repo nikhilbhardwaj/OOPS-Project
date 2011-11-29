@@ -1,0 +1,11 @@
+Configures encrypted block devices
+	
+cryptsetup provides a command-line interface for configuring encrypted
+devices. this is done using the linux kernel device mapper target
+dm-crypt. this version of cryptsetup has integrated support for luks.
+
+cryptsetup is backwards compatible with the on-disk format of cryptoloop,
+but also supports more secure formats. this package includes support for
+automatically configuring encrypted devices at boot time via the config
+file /etc/crypttab. additional features are cryptoroot support through
+initramfs-tools and several supported ways to read a passphrase or key.

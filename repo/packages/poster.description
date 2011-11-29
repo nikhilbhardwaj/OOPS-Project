@@ -1,0 +1,7 @@
+Create large posters out of postscript pages
+	
+poster takes a one-page postscript file and scales it to a specified
+size.  it can tile the resulting image into multiple smaller pages
+that can be pasted together to form the big poster.  poster prefers
+eps as its input although freer forms of postscript are also
+understood.

@@ -1,0 +1,7 @@
+Library for threading email by in-reply-to and references
+	
+the mail::thread module implements something relatively close to
+jamie zawinski's mail threading algorithm, as described by
+http://www.jwz.org/doc/threading.html.  this algorithm is based
+on following references and in-reply-to headers, and is able to
+deal with not having all of the messages in a thread.

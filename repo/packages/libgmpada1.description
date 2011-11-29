@@ -1,0 +1,8 @@
+Ada binding to the gnu multiprecision library: shared library
+	
+gmpada allows programmers to use the gnu multiprecision library
+within the ada language: unbounded integers, rationals and
+floats. experimental support for mpfr's better float rounding is
+provided.
+
+this package contains the runtime shared library.

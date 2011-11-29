@@ -1,0 +1,17 @@
+Documentation for libjsf-api-java
+	
+documentation for javaserver faces (jsf) 2.0, that is a java-based web
+application framework intended to simplify development integration of
+web-based user interfaces.
+
+jsf hides complexity to maximize developer productivity and provides a
+component model, page templating, ajax support, client device independence,
+clean separation of roles, better mvc handling for webapps, and world-class
+ide integration from every available java ide.
+
+jsf also provides a easy integration with popular enterprise technologies,
+including hibernate, spring, seam, jasper reports and others. jsf 2.0 is
+compatible with javaee 5 application servers or any server implementing
+servlet 2.5.
+
+this package contains a manual and javadoc files for jsf 2.0 api spec.

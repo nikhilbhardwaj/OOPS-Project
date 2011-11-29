@@ -1,0 +1,5 @@
+Gkrellm plugin to control xmms2
+	
+gkrellxmms2 is a plugin for gkrellm2, written in c, to control the xmms2 audio
+player. it supports basic controls such as play, pause, skip etc. and it has
+an integrated playlist editor with a media library search and browser.

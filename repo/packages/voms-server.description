@@ -1,0 +1,11 @@
+Virtual organization membership service server
+	
+in grid computing, and whenever the access to resources may be controlled
+by parties external to the resource provider, users may be grouped to
+virtual organizations (vos). this package provides a vo membership service
+(voms), which informs on that association between users and their vos:
+groups, roles and capabilities.
+
+the service can be understood as an account database, which serves the
+information in a special format (voms credential). the vo manager can
+administrate it remotely using command line tools or a web interface.

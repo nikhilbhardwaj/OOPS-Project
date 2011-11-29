@@ -1,0 +1,6 @@
+Python interface to the prctl() syscall
+	
+the linux prctl() function allows you to control specific characteristics of a
+process' behaviour. usage of the function is fairly messy though, due to
+limitations in c and linux. this module provides a nice non-messy python(ic)
+interface.

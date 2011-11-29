@@ -1,0 +1,9 @@
+Low level library functions for zorp, debug version
+	
+zorp is a new generation firewall. it is essentially a transparent proxy
+firewall, with strict protocol analyzing proxies, a modular architecture,
+and fine-grained control over the mediated traffic. configuration decisions
+are scriptable with the python based configuration language.
+
+this package contains the same library as libzorpll but with memtrace memory
+debugging code enabled.

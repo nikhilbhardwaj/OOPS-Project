@@ -1,0 +1,14 @@
+Reachability analyzer for algebraic system nets
+	
+maria is a powerful tool designed to aid engineers in modelling and
+solving concurrency related problems in parallel and distributed
+computing systems.
+
+maria finds deadlocks and violations against safety or liveness
+requirements by exploring all states that can be reached from the
+initial state of a system.  the tool manages tens or hundreds of
+millions of reachable states and enabled actions.
+
+the expressive power of maria's formalism is close to high-level
+programming languages, thanks to its rich data type system and
+powerful algebraic operations.

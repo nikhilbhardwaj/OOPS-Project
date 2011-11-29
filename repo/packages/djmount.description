@@ -1,0 +1,6 @@
+File system client for mounting network media servers
+	
+this package provides a client for universal plug'n'play (upnp)
+audio-visual mediaservers.  it discovers all compatible upnp av
+devices on the network automatically and mounts their media content
+as a file system using fuse.

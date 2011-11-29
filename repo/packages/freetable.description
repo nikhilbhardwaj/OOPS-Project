@@ -1,0 +1,25 @@
+Facilitates production of html tables
+	
+freetable is a perl script that aims to make the production of html
+tables a little easier.  this script works as a filter, reading stdin
+and writing to stdout.
+
+the input syntax is as roughly follows:
+
+
+      <wwwtable table-options...>
+        initial text (e.g. <caption> ... </caption>).
+        (x, y) options for cell (x, y)
+        text for cell (x,y)...
+        ((x,y)) options for header cell x,y
+        text for header cell (x,y)...
+      </wwwtable>
+
+
+rows and cells may be specified in any order, numbering starts at 1.
+x and/or y may be replaced by regular expression, explicit range
+or even arbitrary perl code to indicate rows or columns.
+options or text (or both) may be omitted for cells.  cells
+may be omitted completely if they are empty or fall under the
+rowspan/colspan specifications of another cell.  cells may contain
+arbitrary html text, including other freetable tables.

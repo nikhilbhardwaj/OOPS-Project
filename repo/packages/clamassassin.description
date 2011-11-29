@@ -1,0 +1,7 @@
+Email virus filter wrapper for clamav
+	
+clamassassin is a simple virus filter wrapper for clamav for use in procmail
+filters and similar applications. clamassassin's interface is similar to
+that of spamassassin, making it easy to implement for those familiar with that
+tool. clamassassin is designed with an emphasis on security, robustness and
+simplicity.

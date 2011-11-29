@@ -1,0 +1,18 @@
+3-manifold topology software with normal surface support
+	
+regina is a suite of mathematical software for 3-manifold topologists.
+it focuses upon the study of 3-manifold triangulations and includes
+support for normal surfaces and angle structures.
+
+highlights of regina include triangulation analysis and simplification,
+census creation and normal surface enumeration.  it offers embedded
+python scripting giving full access to the calculation engine.
+
+this package includes the kde user interface and the command-line
+python interface, as well as the users' handbook.  for the python
+reference (i.e., the api documentation for the regina calculation
+engine), see the package regina-normal-doc.
+
+components of regina that are designed to run on clusters are no longer
+shipped in this package.  they can now be found in the separate package
+regina-normal-mpi.

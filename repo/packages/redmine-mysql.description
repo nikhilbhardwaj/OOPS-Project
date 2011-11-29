@@ -1,0 +1,7 @@
+Metapackage providing mysql dependencies for redmine
+	
+this package only provides mysql dependencies for redmine, a
+flexible project management web application. install this
+one if you want to use a mysql database with redmine.
+
+redmine package should be installed along with this package.

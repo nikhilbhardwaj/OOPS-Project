@@ -1,0 +1,8 @@
+Syncml protocol library utilities
+	
+libsyncml implement the syncml protocol. it supports syncml version 1.0,
+1.1 and 1.2. the available transport are obex and http. this library can be
+used as a client or as a server.
+
+this package provides some tools for quickly adding or displaying
+items of syncml capable devices

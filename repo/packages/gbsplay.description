@@ -1,0 +1,6 @@
+A gameboy sound player
+	
+this program emulates the sound hardware of the nintendo gameboy.  it
+is able to play the sounds from a gameboy module dump (.gbs format)
+over /dev/dsp.  also included is the gbsinfo tool which displays
+information about a .gbs file.

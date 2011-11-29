@@ -1,0 +1,4 @@
+PackageId:24493
+Name:mini-buildd-rep
+Version:0.8.15+nmu1
+Deps:cron,bcron-run,debconf,debconf-2.0,cdebconf,cdebconf-udeb,mini-buildd-common,mini-dinstall,procps,python

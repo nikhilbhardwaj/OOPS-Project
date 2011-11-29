@@ -1,0 +1,20 @@
+Burns normalized audio cds from lists of mp3s/wavs/oggs/flacs
+	
+this script burns a playlist (.m3u, xmlplaylist or command line list) of
+mp3s, oggs, and/or wavs to an audio cd.  the ".m3u" format is really
+nothing more than a list of fully qualified filenames.  the script
+handles making the wavs sane by resampling if needed, and normalizing the
+volume across all tracks.  reading tags and writing cd-text is supported.
+
+if a failure happens, earlier stages can be skipped with the '-s' flag.
+the file "tool-output.txt" in the temp directory can be examined to see
+what went wrong during the stage.  some things are time-consuming (like
+writing the wavs from mp3s) and if the cd burn failed, it's much nicer
+not to have to start over from scratch.  when doing this, you will not
+need the m3u file any more, since the files have already been built.
+see the list of stages using '-h'.
+
+this script implements the suggested methods outlined in the linux mp3
+cd burning mini-howto:
+
+ http://tldp.org/howto/mini/mp3-cd-burning/

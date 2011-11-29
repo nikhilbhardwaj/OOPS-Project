@@ -1,0 +1,10 @@
+Openvpn ldap authentication module
+	
+a plugin that implements username/password authentication via
+ldap for openvpn 2.x. it features:
+
+
+ * simple apache-style configuration file.
+ * ldap group-based access restrictions.
+ * will authenticate against any ldap server that supports ldap
+   simple binds -- including active directory.

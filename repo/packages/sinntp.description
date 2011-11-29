@@ -1,0 +1,9 @@
+Tiny non-interactive nntp client
+	
+sinntp is a tiny nntp client originally designed to work in non-interactive
+mode. following commands are supported:
+
+ - nntp-push: sending articles to the server,
+ - nntp-pull: fetching new articles to the mbox file,
+ - nntp-list: listing available newsgroups,
+ - nntp-get: downloading individual messages in rfc822 format.

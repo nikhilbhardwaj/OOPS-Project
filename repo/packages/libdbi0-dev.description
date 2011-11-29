@@ -1,0 +1,6 @@
+Db independent abstraction layer for c  -- development files
+	
+libdbi implements a database-independent abstraction layer in c, similar to
+the dbi/dbd layer in perl. writing one generic set of code, programmers can
+leverage the power of multiple databases and multiple simultaneous database
+connections by using this framework.

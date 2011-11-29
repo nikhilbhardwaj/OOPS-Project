@@ -1,0 +1,8 @@
+Gimp plugin for greyc's magic image converter
+	
+g'mic is an interpreter of image processing macros whose goal is to
+convert, manipulate and visualize generic 1d/2d/3d multi-spectral
+image files. this includes classical color images, but also more
+complex data as image sequences or 3d volumetric images.
+
+this package contains the gimp plugin.

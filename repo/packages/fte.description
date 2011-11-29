@@ -1,0 +1,11 @@
+Text editor for programmers - base package
+	
+fte is a text editor for programmers.  some of its features are smart
+indentation for c, c++, java, perl; color syntax highlighting for many more
+languages; multiple file/window editing; column blocks; configurable menus
+and keyboard bindings; mouse support; undo/redo; regular expression search
+and replace; folding; background compiler execution.
+
+this package contains files necessary to build a configuration file and
+some elementary documentation.  there is no editor here; please select one
+of the packages in the dependencies.

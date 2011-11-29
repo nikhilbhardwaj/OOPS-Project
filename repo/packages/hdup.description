@@ -1,0 +1,10 @@
+Filesystem duplicator and backup
+	
+hdup is a backup utility with the following characteristics:
+
+remote backups (move the backup to another machine); encrypted backups;
+no obscure format for the backups; compression (gzip/bzip or none);
+simple to use.
+
+the source also includes two manpages, one for hdup itself and the other
+for the configuration file. it should be fairly obvious how to use hdup.

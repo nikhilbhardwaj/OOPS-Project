@@ -1,0 +1,7 @@
+Library for interfacing with the logitech g15 keyboards
+	
+libg15 provides an api for low level control of the lcd display and
+the extra keys on some logitech keyboards (g11, g15)
+
+this package contains the shared library for graphics primitives and
+text services for the display of the g15 keyboard.

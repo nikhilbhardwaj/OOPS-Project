@@ -1,0 +1,9 @@
+Check multiple mailboxes/maildirs for mail
+	
+mailcheck is a simple, configurable tool that allows multiple mailboxes
+to be checked for the existence of new mail messages.  it supports both
+mbox and maildir-style mailboxes for compatibility with most mail
+transport agents.  it also supports remote pop3 and imap mailboxes.
+
+
+ homepage: http://mailcheck.sourceforge.net/

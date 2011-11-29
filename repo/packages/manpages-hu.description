@@ -1,0 +1,12 @@
+Hungarian manpages
+	
+this package contains the linux manual pages translated into hungarian.
+following sections are included:
+
+ * 1 = user programs (e.g. ls, ln)
+ * 3 = library calls (e.g. clock ).
+ * 5 = file formats and protocols, syntaxes of several system
+       files (e.g. fstab, /etc/passwd ).
+ * 7 = conventions and standards, macro packages, etc.
+   (e.g. nroff, ascii).
+ * 8 = system administration commands (e.g. mount, umount )

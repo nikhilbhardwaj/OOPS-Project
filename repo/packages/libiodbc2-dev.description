@@ -1,0 +1,14 @@
+Iodbc driver manager (development files)
+	
+the iodbc (intrinsic open database connectivity) driver manager is compatible
+with the odbc 2.x and 3.x specification and performs all the jobs of a
+odbc driver manager (i.e. driver loading, parameters and function sequence
+checking, driver's function invoking, etc). any odbc driver working with
+odbc 2.0 and 3.x driver manager will also work with iodbc driver manager
+and vice versa.
+
+applications (using odbc function calls) linked with iodbc driver manager
+will be able to simultaneously access different types of data sources within
+one process through suitable iodbc drivers.
+
+this package contains the development files.

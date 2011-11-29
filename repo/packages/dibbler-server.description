@@ -1,0 +1,7 @@
+Portable dhcpv6 server
+	
+the dibbler server supports both stateful (i.e. ipv6 address
+granting) as well as stateless (i.e. options granting)
+auto-configuration modes of the dhcpv6 protocol. relays are also
+supported. this package allows ipv6 hosts to be automatically
+configured on the network.

@@ -1,0 +1,22 @@
+Platform game where you have to jump up to survive - data files
+	
+the goal in this game is to jump to the next floor so you don't fall down.
+as you go higher in the falling tower the floors will fall faster.  try to
+survive longer than anyone, or, in single player mode, try to get as high
+as you can.
+
+at the moment, the game is called sdljump (and it will appear as such in the
+menu), but the package name has changed following an upstream rename.  the
+new version of the game will be called gnujump as well.
+
+the game is a clone of xjump, and provides all its features, plus some more:
+
+ * multiplayer mode (up to four players, not networked)
+ * smooth graphics possible (but xjump style as well)
+ * different themes are available
+ * can use opengl for rendering
+ * music and sound effects
+ * recording (and replaying) of games
+
+
+this package provides the data files for the game.

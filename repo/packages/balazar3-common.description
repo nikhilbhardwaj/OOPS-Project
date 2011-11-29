@@ -1,0 +1,22 @@
+Dungeon adventure game with multiplayer support - common files
+	
+balazar iii is a dungeon adventure game with multiplayer support. as
+you explore the dungeon, you'll gain magical objects, experience and
+powers, but also... curses ! balazar iii is based on the (french)
+comics "le guide balazar du mauvais sorcier" (balazar's guide to bad
+sorcerers).
+
+the game comes in two versions (which are network-compatible):
+
+ - 3d version destined to computer gamers. the 3d version is
+   graphically more beautiful, as it takes avantages of the nice
+   cellshading algorithms of the soya 3d engine.
+ - 2d version, currently supporting 640x480 and 800x480 resolutions.
+   it has been designed mainly for hand-held devices (sharp zaurus,
+   nokia n810, openmoko freerunner, asus eee pc, and the like),
+   although it can be used on computer too. this version has been
+   highly optimized so as it can be run in 640x480 on a zaurus c1000
+   (416 mhz arm processor without graphics accelerators).
+
+
+this package provides common files to 2d and 3d versions

@@ -1,0 +1,5 @@
+Packet filter generator for various firewall systems
+	
+filtergen is a packet filter generator.  it compiles a fairly high-level
+description language into iptables, ipchains, or ipfilter scripts (and has
+bits of support for cisco ios access lists).

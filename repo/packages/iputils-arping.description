@@ -1,0 +1,6 @@
+Tool to send icmp echo requests to an arp address
+	
+the arping command acts like the standard ping command except it pings
+a machine by its arp address instead of its ip address.  it is typically
+used to locate a machine if its hardware address is known but its ip
+address is unknown

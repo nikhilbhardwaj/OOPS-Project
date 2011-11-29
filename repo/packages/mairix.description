@@ -1,0 +1,25 @@
+Indexes and searches email in locally stored email
+	
+mairix is a program for indexing and searching locally stored email messages.
+mairix supports maildir, mh folders, and mbox formats.
+
+
+ * indexing is fast. it runs incrementally on new messages - any
+ particular message only gets scanned once in the lifetime of the
+ index file.
+
+
+
+ * the search mode populates a "virtual" maildir folder with symlinks
+ which point to the real messages. this folder can be opened as usual
+ in your mail program.
+
+
+
+ * the search mode is very fast.
+
+
+
+ * indexing and searching works on the basis of words. the index file
+ tabulates which words occur in which parts (particular headers +
+ body) of which messages.

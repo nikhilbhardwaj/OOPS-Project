@@ -1,0 +1,8 @@
+Sqlite3 interface for ruby 1.8
+	
+sqlite3/ruby module allows ruby programs to interface with the sqlite3
+database engine.
+
+note that this module is not compatible with sqlite 2.x.
+
+this package contains sqlite3 module for ruby 1.8.

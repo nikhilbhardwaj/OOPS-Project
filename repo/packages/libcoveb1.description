@@ -1,0 +1,8 @@
+Range finding priority queue using optimized data structure
+	
+cache oblivious data structures have gained enormous popularity in
+theoretical computer science over recent decades.  this package uses
+the van emde boas cache oblivious priority queue to provide high throughput
+unsigned integer priority queue and range finding operations ideally
+suited anywhere 32-bit discrete keys are utilized.
+.

@@ -1,0 +1,30 @@
+A `scheme' interpreter designed for writing system programs (default version)
+	
+scsh has a high-level process notation for doing shell-script like
+tasks: running programs, establishing pipelines and i/o redirection.
+scsh embeds this process notation within a full implementation of
+scheme, a minimal and clean dialect of the lisp programming language.
+the process notation is realized as a set of macro definitions, and
+is carefully designed to allow full integration with standard scheme
+code. scsh isn't scheme-like; it is scheme.
+
+at the scripting level, scsh also has an awk design, also implemented
+as a macro that can be embedded inside general scheme code.
+
+scsh additionally provides the low-level access to the operating
+system normally associated with c. the current release provides full
+access to posix, plus important non-posix extensions, such as
+complete sockets support. "complete posix" means: fork, exec & wait,
+sockets, full read, write, open & close, seek & tell, complete
+file-system access, including stat, chmod/chgrp/chown, symlink, fifo
+& directory access, tty & pty support, file locking, pipes, select,
+file-name pattern-matching, time & date, environment variables,
+signal handlers, and more.
+
+please be aware that several of the other scheme implementations
+being distributed as debian packages also provide much of the similar
+system programming functionality.  it is wisest to try them all and
+explore.
+
+this package is a dependency package, which depends on debian's default
+scsh version (currently v0.6).

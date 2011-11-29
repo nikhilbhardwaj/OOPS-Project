@@ -1,0 +1,10 @@
+Dump intel cpu / chipset configuration parameters
+	
+inteltool is a tool for dumping the configuration space of
+intel cpus, northbridges and southbridges.
+
+this includes register contents of e.g. gpio, rcba, pmbase, mchbar, epbar,
+dmibar, pciexbar, and more.
+
+it has been developed for the coreboot project (see http://coreboot.org for
+details on coreboot), but may also be useful for other purposes.

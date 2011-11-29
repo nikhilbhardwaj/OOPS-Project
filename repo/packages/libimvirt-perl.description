@@ -1,0 +1,16 @@
+Perl module for detecting several virtualizations
+	
+this perl is able to determine, on which virtualization it is running.
+
+in this version it is able to detect the following virtualization
+technologies:
+
+ virtualbox
+ virtual pc/server
+ vmware
+ qemu
+ kvm
+ xen
+
+
+and much more.

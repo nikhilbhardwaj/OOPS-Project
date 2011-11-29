@@ -1,0 +1,7 @@
+Tools for the maintenance of the mcs system
+	
+modular config system is a library and set of tools which abstract the
+storage of configuration settings away from userland applications.
+
+this package contains a set of tools to deal with mcs managed configurations
+and the mcs system itself.

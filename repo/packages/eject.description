@@ -1,0 +1,10 @@
+Ejects cds and operates cd-changers under linux
+	
+this little program will eject cd-roms (assuming your drive supports
+the cdromeject ioctl). it also allows setting the autoeject feature.
+
+on supported atapi/ide multi-disc cd-rom changers, it allows changing
+the active disc.
+
+you can also use eject to properly disconnect external mass-storage
+devices like digital cameras or portable music players.

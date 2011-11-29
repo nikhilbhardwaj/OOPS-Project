@@ -1,0 +1,5 @@
+Compress/decompress images for mailheaders, libc6 devel
+	
+converts 48x48 .xbm format (x bitmap) files to a compressed format
+that can be placed in your x-face: mail header. some mailreaders,
+like exmh will then display this image when the user is reading your mail.

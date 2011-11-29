@@ -1,0 +1,11 @@
+The squeak smalltalk system (virtual machine)
+	
+squeak is a full-featured implementation of the smalltalk programming
+language and environment based on (and largely compatible with) the
+original smalltalk-80 system.
+
+this package contains just the squeak virtual machine.  if you are
+new to squeak then you will have to install a squeak image too before
+you can run squeak. squeak images can be downloaded from
+http://www.squeak.org, http://www.squeakland.org or
+http://squeak.educarex.es

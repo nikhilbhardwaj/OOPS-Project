@@ -1,0 +1,7 @@
+Hotline interface module for perl
+	
+net::hotline contains an interface to write programs that connect to
+hotline servers.  hotline is a set of protocols allowing chat, news, and file
+transfers. any user can run his/her own server and register it with a public
+tracker, which is a meta-server that users can access to obtain a list of
+registered servers and connect to them.

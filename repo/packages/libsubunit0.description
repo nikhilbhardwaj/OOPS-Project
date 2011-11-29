@@ -1,0 +1,6 @@
+Unit testing protocol - c/c++ shared library
+	
+subunit is a protocol for test activity reporting. this permits executing
+tests remotely, or saving the result of test runs for later introspection.
+
+the libsubunit0 package contains the c shared library.

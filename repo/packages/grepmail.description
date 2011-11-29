@@ -1,0 +1,6 @@
+Search mailboxes for mail matching an expression
+	
+grepmail looks for mail messages containing a pattern, and prints the
+resulting messages. usage is very similar to grep. it can handle
+compressed mailbox files, and can search the header or body of emails.
+it also supports searches constrained by date and size.

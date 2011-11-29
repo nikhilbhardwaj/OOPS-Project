@@ -1,0 +1,8 @@
+Restkit is an http resource kit for python
+	
+restkit is an http resource kit for python. it allows you to easily
+access to http resource and build objects around it. it's the base of
+couchdbkit a python couchdb framework.
+
+restkit is a full http client using pure socket calls and its own http
+parser. it's not based on httplib or urllib2.

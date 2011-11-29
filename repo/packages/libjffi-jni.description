@@ -1,0 +1,8 @@
+Java foreign function interface (jni library)
+	
+jffi is a wrapper for libffi, the foreign function interface library. a foreign
+function interface is the popular name for the interface that allows code
+written in one language to call code written in another language.
+java-based codings helper classes for joni and jruby
+
+this package ships the java native interface library.

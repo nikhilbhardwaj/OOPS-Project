@@ -1,0 +1,20 @@
+A lightweight desktop panel for x
+	
+lxpanel is a lightweight gtk+2 desktop panel derived from fbpanel. its
+features include:
+
+ * user-friendly application menu automatically generated from .desktop
+   files on the system
+ * launcher bar (small icons clicked to launch apps)
+ * task bar supporting icccm/ewmh `urgency' hint (pidgin im windows
+   can flash on new incoming messages)
+ * run dialog (type a command to run, without opening a terminal)
+ * net status icon plug-in (optional).
+ * volume control plug-in (optional).
+ * notification area (system tray).
+ * digital clock.
+ * keyboard leds plug-in (display caps/num locks).
+ * lxpanelctl: control lxpanel from other programs.
+   for example, "lxpanelctl run" will show the run dialog in lxpanel,
+   and "lxpanelctl menu" will show the application menu. this is
+   useful in combination with window manager key bindings.

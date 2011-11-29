@@ -1,0 +1,13 @@
+Keyboard layout indicator for kde
+	
+kkbswitch displays an icon in the system tray that indicates which layout is
+currently active and enables you to switch layouts by clicking the icon or by
+selecting from the menu. it works with all desktop environments.
+
+features include:
+
+  - configurable icons for the keyboard layouts.
+  - the "toggle mode" to toggle between the two most recently-used keyboard
+    layouts.
+  - choose to use a global layout or per-application or per-window layouts.
+  - configurable keyboard shortcuts.

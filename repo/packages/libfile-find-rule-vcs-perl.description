@@ -1,0 +1,9 @@
+Perl module to exclude files/directories for version control systems
+	
+many tools need to be equally useful both on ordinary files, and on
+code that has been checked out from revision control systems.
+
+file::find::rule::vcs provides quick and convenient methods to
+file::find::rule for exclusion of the version control directories of
+several major version control systems (currently cvs, subversion,
+bazaar, rcs, git and mercurial).

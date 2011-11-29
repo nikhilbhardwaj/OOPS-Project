@@ -1,0 +1,4 @@
+Interface to perls parser variables
+	
+b::hooks::parser provides an api for parts of the perl parser. it can
+be used to modify code while it's being parsed.

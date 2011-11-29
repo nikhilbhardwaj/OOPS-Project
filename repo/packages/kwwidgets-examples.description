@@ -1,0 +1,18 @@
+Cross-platform gui toolkit - examples
+	
+like many other gui toolkits, it provides low-level core widgets
+like buttons, entries, scales, menus, combo-boxes, thumbwheels,
+spin-boxes, trees, notebooks and multi-column lists to name a few.
+unlike many of those toolkits though, it also provides advanced
+composite widgets like toolbars, tooltips, progress gauges,
+split-frames, splash-screens, 2d/3d extents, color pickers,
+histograms, windows and dialogs.
+
+more importantly, kwwidgets builds upon this set of widgets to
+interface to visualization libraries like vtk and offer high-level
+visualization-oriented widgets like surface material editors,
+simple animation generators, transfer function editors, annotation
+editors, window/level and volume property preset editors, text
+property editors, 2d and 3d rendering widgets, etc.
+
+this package contains examples from the kwwidgets source.

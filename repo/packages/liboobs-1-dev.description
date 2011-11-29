@@ -1,0 +1,8 @@
+Gobject based interface to system-tools-backends - dev files
+	
+liboobs is a lightweight library that provides a gobject based
+interface to system-tools-backends. it's completely abstracted of the
+communication and authentication details, making it easy for
+applications to integrate with the system details.
+
+this package contains the development files.

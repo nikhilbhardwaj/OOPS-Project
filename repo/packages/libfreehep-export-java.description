@@ -1,0 +1,9 @@
+Freehep export and save as library
+	
+library to register filetypes (which can be loaded as plugin modules).
+this library is used by vectorgraphics libraries to implement a
+modular import/export system for image files: importers
+or exporters for different formats can be deloped or loaded
+independently.
+
+freehep is a collection of java libraries used in high energy physics.

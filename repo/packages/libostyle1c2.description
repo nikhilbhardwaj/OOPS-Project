@@ -1,0 +1,8 @@
+Runtime libraries for openjade
+	
+openjade's shared libraries, runtime support.  includes libogrove,
+providing an abstract interface to groves; libospgrove, an interface
+to groves on top of the opensp suite; and libostyle, the actual dsssl
+style engine.
+
+this shared library is used by the openjade package.

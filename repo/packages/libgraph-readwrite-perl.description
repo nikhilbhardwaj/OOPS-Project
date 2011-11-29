@@ -1,0 +1,12 @@
+Read and write directed graphs
+	
+this is a collection of perl classes for reading and writing directed graphs
+in a variety of file formats. the graphs are represented in perl using jarkko
+hietaniemi's graph classes.
+
+there are two base classes, graph::reader which is the base class for classes
+which read a graph file and create an instance of the graph class, and
+graph::writer which is the base class for classes which take an instance of
+the graph class and write it out in a specific file format.
+
+supported formats: xml, dot, vcg, davinci, htk

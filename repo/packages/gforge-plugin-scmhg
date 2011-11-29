@@ -1,0 +1,4 @@
+PackageId:5305
+Name:gforge-plugin-scmhg
+Version:5.0.2-5
+Deps:gforge-common,gforge-db-postgresql,gforge-db,gforge-shell-postgresql,gforge-shell,gforge-web-apache2,gforge-web,mercurial,php5-cli

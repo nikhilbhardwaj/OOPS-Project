@@ -1,0 +1,7 @@
+Display diagnostic information about i386 compatible cpus
+	
+x86info displays diagnostic information about the cpus fitted to i386
+compatible systems.  this includes information on the cpu cache
+configuration, speed and supported features.
+
+some features require the kernel cpuid driver to be available.

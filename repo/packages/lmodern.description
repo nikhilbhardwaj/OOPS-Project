@@ -1,0 +1,21 @@
+Scalable postscript and opentype fonts based on computer modern
+	
+the latin modern fonts, also known as "lm fonts", are a set of
+scalable fonts in postscript type 1 and opentype formats. they are
+based on the postscript type 1 version of the computer modern fonts
+and contain many additional characters (mostly accented ones).
+
+the latin modern fonts were generated using metatype1, a program
+based on metapost for generating postscript type 1 fonts
+(ftp://bop.eps.gda.pl/pub/metatype1/). their size is reasonable and
+they are usually considered to be of good quality (compared to
+cm-super, for instance; however, cm-super contains font families
+that have no equivalent in this package; additionally, there are
+character sets that are supported by cm-super and not by the latin
+modern fonts).
+
+the fonts are setup for use with the tex typesetting system. they
+are also registered with defoma, which makes them available to other
+applications such as ghostscript and fontconfig. finally, they are
+made available to the core x11 fonts system, which makes it possible
+to use them in any x application.

@@ -1,0 +1,10 @@
+The gpl ghostscript postscript/pdf interpreter - documentation
+	
+ghostscript is used for postscript/pdf preview and printing.  usually as
+a back-end to a program such as ghostview, it can display postscript and pdf
+documents in an x11 environment.
+
+this package contains the documentation of ghostscript. as this documentation
+is only interesting for printer driver developers or advanced users, it is
+in this separate package which can be left out in space-restricted
+installations, like for example live cds.

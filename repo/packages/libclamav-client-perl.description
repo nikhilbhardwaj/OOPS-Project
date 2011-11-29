@@ -1,0 +1,12 @@
+A client for the clamav virus scanner daemon
+	
+this package supplies clamav::client, a perl interface to
+the clamav virus scanner via the clamd daemon.  it allows
+connection either over a unix domain socket to a local
+clamd, via tcp to a remote one.
+
+the client package fully implements the clamd socket protocol,
+with both scanning and daemon management calls provided.
+
+
+ homepage: http://search.cpan.org/dist/clamav-client/

@@ -1,0 +1,8 @@
+Eye of gnome graphics viewer program - debugging symbols
+	
+eog or the eye of gnome is a simple graphics viewer for the gnome
+desktop which uses the gdk-pixbuf library.  it can deal with large
+images, and zoom and scroll with constant memory usage.  its goals are
+simplicity and standards compliance.
+
+this package contains the debugging symbols for eog.

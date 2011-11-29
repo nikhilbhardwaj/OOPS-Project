@@ -1,0 +1,4 @@
+Library to control rs-232 serial ports from ruby programs
+	
+this library provides an api to control rs-232 serial ports, and check and set
+the current statie of the signals on the line.

@@ -1,0 +1,10 @@
+Perl interface to debconf
+	
+this package contains the debaux::debconf module, which
+provides an easy-to-use interface for some of the
+debconf::client::confmodule functions.
+
+it has been separated from the debaux package to allow
+packages utilizing this package during configuration and/or
+installation without drawing the whole list of debaux's
+dependencies.

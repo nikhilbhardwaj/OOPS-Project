@@ -1,0 +1,17 @@
+A text mode alternative to buffy
+	
+buffycli displays a compact summary of your mail folders in text-mode, and
+allows to invoke a command (usually a mail reader) on them. it is written with
+the intent of being a handy everyday tool for people handling large volumes of
+mail. for mutt users, this can be a nice front-end to supplement the simple
+built-in folder browser when one has many folders to keep track of. it tries
+hard to work out of the box: it looks for mail folders in sensible places and
+comes with reasonable defaults.
+
+buffycli uses the same backend as buffy, but it outputs text to the terminal,
+rather than a gui window. it is thus suitable to be used over ssh links, and
+fits nicely with window managers that are primarily used to organise
+terminals.
+
+the program is functional but still very young, and only maildir and mailbox
+format are supported at the moment.

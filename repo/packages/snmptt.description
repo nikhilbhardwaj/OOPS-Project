@@ -1,0 +1,4 @@
+Snmp trap handler for use with snmptrapd
+	
+snmptt (snmp trap translator) is an snmp trap handler written in perl for use
+with the net-snmp / ucd-snmp snmptrapd program (www.net-snmp.org).

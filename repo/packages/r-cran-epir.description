@@ -1,0 +1,9 @@
+Gnu r functions for analysing epidemiological data
+	
+a package for analysing epidemiological data. contains functions for
+directly and indirectly adjusting measures of disease frequency,
+quantifying measures of association on the basis of single or multiple
+strata of count data presented in a contingency table, and computing
+confidence intervals around incidence risk and incidence rate estimates.
+miscellaneous functions for use in meta-analysis, diagnostic test
+interpretation, and sample size calculations.

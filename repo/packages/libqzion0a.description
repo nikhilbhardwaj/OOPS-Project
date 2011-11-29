@@ -1,0 +1,5 @@
+Canvas abstraction used by and made for qedje
+	
+qzion is a canvas abstraction used by and made for qedje. as it is an
+abstraction, different implementations can exist, making it possible to
+optimize qedje for different platforms/devices.

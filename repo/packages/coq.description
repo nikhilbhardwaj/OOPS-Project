@@ -1,0 +1,12 @@
+Proof assistant for higher-order logic (toplevel and compiler)
+	
+coq is a proof assistant for higher-order logic, which allows the
+development of computer programs consistent with their formal
+specification. it is developed using objective caml and camlp5.
+
+this package provides coqtop, a command line interface to coq.
+
+a graphical interface for coq is provided in the coqide package.
+coq can also be used with proofgeneral, which allows proofs to be
+edited using emacs and xemacs. this requires the proofgeneral-coq
+package to be installed.

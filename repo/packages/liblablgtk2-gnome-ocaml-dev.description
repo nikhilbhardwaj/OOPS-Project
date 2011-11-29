@@ -1,0 +1,6 @@
+Ocaml bindings to gnome
+	
+lablgtk2 contains bindings for gtk+ 2.x and objective caml.
+
+this package contains the development files of lablgtk for libraries using
+gnome functionalities (panel-applet, gnomeui, gnome-canvas, rsvg).

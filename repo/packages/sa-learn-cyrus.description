@@ -1,0 +1,13 @@
+Train spamassassin with spam/ham from user's imap mailbox(es)
+	
+sa-learn-cyrus is a perl script using sa-learn from the spamassassin package
+to train it knowing spam and ham. sa-learn-cyrus gets its spam and ham
+messages from cyrus-imapd mailboxes instead of mbox files or maildirs as
+sa-learn does. this is useful for cyrus users who for example sort their
+missed spam into a subfolder and let sa-learn-cyrus read it out (e.g. using a
+cron job).
+
+spamassassin is spam filter with numerous features including automatic
+white-listing, rbl testing, bayesian analysis, header and body text analysis.
+
+cyrus is a fully-featured imap daemon.

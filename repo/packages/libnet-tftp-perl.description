@@ -1,0 +1,6 @@
+Perl module for accessing tftp servers
+	
+net::tftp is a class implementing a simple trivial file transfer
+protocol client in perl as described in rfc1350. net::tftp also
+supports the tftp option extension (as described in rfc2347), with the
+following options: rfc2348 blocksize option.

@@ -1,0 +1,6 @@
+Constrained column approximate library for sparse matrices
+	
+suitesparse is a collection of libraries for computations involving
+sparse matrices.  this package includes the following dynamic library:
+
+colamd      constrained column approximate minimum degree ordering

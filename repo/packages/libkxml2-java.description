@@ -1,0 +1,20 @@
+Small xml parser, designed for small environments
+	
+kxml is a small xml pull parser, specially designed for constrained
+environments such as applets, personal java or midp devices. in
+contrast to kxml 1, kxml 2 is based on the common xml pull api.
+
+pull based xml parsing combines some of the advantages of sax and dom:
+
+
+ - in contrast to push parsers (sax), pull parsers such as kxml make it
+   possible to model the xml processing routines after the structure of
+   the processed xml document. events processing is similar to an
+   inputstream. if a part of the stream requires special handling, the
+   parser can simply be delegated to a specialized method by handing over
+   the parser.
+ - while the above is also possible with an explicit dom, dom usually
+   requires that the whole document structure is present in main memory.
+ - in contrast to dom based parsing, the xml events are accessible
+   immediately when they are available, it is not necessary to wait for
+   the whole tree to build up.

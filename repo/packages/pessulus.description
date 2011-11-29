@@ -1,0 +1,11 @@
+Lockdown editor for gnome
+	
+pessulus enables the system administrator to set mandatory settings in
+gconf, which apply to all users, restricting what they can do, which may
+be of particular usefulness for kiosks (internet cafes, for example).
+
+examples of what can be locked down are the panels (no changes in the panel
+configuration are allowed, locking their position and their contents), some
+of their functions individually (disabling screen locking and log out), the
+web browser (disabling specific protocols, arbitrary urls, forcing the user
+to be in fullscreen mode), among many others.

@@ -1,0 +1,14 @@
+Digital circuit editor and simulator for kde
+	
+klogic is an application for building and simulating digital circuits
+easily.
+
+it provides an easy way to build circuits containing standard
+components like and, or, xor and flipflops like rs and jk. to build
+more complex and reusable circuits, you can create sub-circuits.
+
+the simulation runs permanently by default while building your
+circuits. for extended testing you can use a single stepping simulation
+to recognise peaks. you can display the signal flow of the components
+of a circuit as a graph. each device of your circuit has a tunable
+delay. with the burst option the delay of all devices can be disabled.

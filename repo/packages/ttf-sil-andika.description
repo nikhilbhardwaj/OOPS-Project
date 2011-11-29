@@ -1,0 +1,24 @@
+Extended smart unicode latin/greek font family for literacy (basic version)
+	
+andika ("write!" in swahili) is a sans serif, unicode-compliant font
+designed especially for literacy use, taking into account the needs of
+beginning readers. the focus is on clear, easy-to-perceive letterforms that
+will not be easily confused with one another.
+
+a sans serif font is preferred by some literacy personnel for teaching
+people to read. its forms are simpler and less cluttered than some serif
+fonts can be. for years, literacy workers have had to make do with fonts
+that were available but not really suitable for beginning readers and
+writers. in some cases, literacy specialists have had to tediously cobble
+together letters from a variety of fonts in order to get the all of
+characters they need for their particular language project, resulting in
+confusing and unattractive publications. andika addresses those issues.
+
+its provides opentype and graphite features like smart code for diacritic
+placement. it supports recent additions to unicode and the sil pua, and
+character assignments are updated to conform to unicode 5.1
+
+a much more complete character set, comparable to charis sil and doulos sil,
+will be supported in a future version of andika. this "basic" font is intended
+to provide an andika with stable letterforms for both default and alternate
+glyphs.

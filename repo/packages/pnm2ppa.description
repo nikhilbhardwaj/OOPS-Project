@@ -1,0 +1,8 @@
+Ppm to ppa converter
+	
+using pnm2ppa it's possible to run hp-gdi printers on linux. these printers
+are normally "windows-only" and use the ppa protocol which is proprietary.
+pnm2ppa supports color.
+
+pnm2ppa supports the following printers: hp deskjet 7xx series, hp deskjet
+820 series and hp deskjet 1000 series.

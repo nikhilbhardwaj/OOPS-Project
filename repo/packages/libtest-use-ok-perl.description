@@ -1,0 +1,4 @@
+Tests if a perl module loads ok
+	
+like test::more::use_ok test::use::ok can be used in test scripts to
+check if a module loads ok but its usage is less error-prone.

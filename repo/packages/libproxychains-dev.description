@@ -1,0 +1,10 @@
+Proxy chains -- shared library (development)
+	
+proxy chains force any tcp connection made by any given tcp client
+to follow through proxy (or proxy chain). it is a kind of proxifier.
+it acts like sockscap / premeo / eborder driver ( intercepts tcp calls )
+
+see 'proxychains' package for more detailed description.
+
+this package contains development header files for the shared library used
+by proxychains.

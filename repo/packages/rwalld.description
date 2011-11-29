@@ -1,0 +1,5 @@
+Write messages to users currently logged in server
+	
+rpc.rwalld is a server which will send a message to users currently logged in
+to the system.  this server invokes the wall(1) command to actually write the
+messages to the system.

@@ -1,0 +1,7 @@
+Haskell interface for versioning file stores - ghc 6 libraries
+	
+the filestore library provides an abstract interface for a versioning
+file store, and modules that instantiate this interface. currently git,
+darcs, and mercurial modules are provided.
+
+this package contains the libraries compiled for ghc 6.

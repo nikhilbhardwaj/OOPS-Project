@@ -1,0 +1,6 @@
+Development files for libsmbclient
+	
+this package provides the development files (static library and headers)
+required for building applications against libsmbclient, a library that
+enables client applications to talk to microsoft windows and samba servers
+using the smb/cifs protocol.

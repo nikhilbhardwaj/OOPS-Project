@@ -1,0 +1,22 @@
+Implementation of jsr 243: java data objects 2.0
+	
+java data objects (jdo) is a standard way to access persistent data in
+databases, using plain old java objects (pojo) to represent persistent data.
+the approach separates data manipulation (done by accessing java data members
+in the java domain objects) from database manipulation (done by calling the
+jdo interface methods). this separation of concerns leads to a high degree of
+independence of the java view of data from the database view of the data.
+
+interfaces are defined for the user's view of persistence:
+
+ - persistencemanager: the component responsible for the life cycle of
+   persistent instances, query factory, and transaction access
+ - query: the component responsible for querying the datastore and returning
+   persistent instances or values
+ - transaction: the component responsible for initiating and completing
+   transactions
+
+
+jdo is being developed as a java specification request in the java community
+process. the original jdo 1.0 is jsr-12 http://www.jcp.org/en/jsr/detail?id=12
+and the current jdo 2.0 is jsr-243 http://www.jcp.org/en/jsr/detail?id=243

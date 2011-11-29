@@ -1,0 +1,5 @@
+Perl module for searching paths for executable programs
+	
+file::which searches directories of a user's path (as returned by file::spec)
+and looks for executable files having the name specified as a parameter to
+which(), simulating the behaviour of the standard `which' program.

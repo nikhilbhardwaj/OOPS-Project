@@ -1,0 +1,6 @@
+Daemon to setup your dvb devices, record and watch tv shows and browse epg
+	
+gnome dvb daemon is a gstreamer based daemon to setup your
+dvb devices, record and/or watch tv shows and browse epg.
+
+it can be controlled by any application via its d-bus interface.

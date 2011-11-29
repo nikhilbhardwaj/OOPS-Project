@@ -1,0 +1,11 @@
+Distributed compiler (client and server)
+	
+icecc is a distributed compile system. it allows parallel compiling by
+distributing the compile jobs to several nodes of a compile network running
+the icecc daemon. the icecc scheduler routes the jobs and provides status and
+statistics information to the icecc monitor.
+
+each compile node can accept one or more compile jobs depending on the number
+of processors and the settings of the daemon. link jobs and other jobs which
+cannot be distributed are executed locally on the node where the compilation
+is started.

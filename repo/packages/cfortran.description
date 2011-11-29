@@ -1,0 +1,6 @@
+Header file permitting fortran routines to be called in c/c++
+	
+cfortran.h is an easy-to-use powerful bridge between c and fortran.
+it provides a completely transparent, machine independent interface between
+c and fortran routines (= subroutines and/or functions) and global data,
+i.e. structures and common blocks.

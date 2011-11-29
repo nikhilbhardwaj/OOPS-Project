@@ -1,0 +1,9 @@
+Python modules for interacting with bug tracking systems
+	
+reportbug is a tool designed to make the reporting of bugs in debian
+and derived distributions relatively painless.
+
+this package includes python modules which may be reusable by other
+tools that want to interact with the debian bug tracking system.
+
+to actually report a bug, install the reportbug package.

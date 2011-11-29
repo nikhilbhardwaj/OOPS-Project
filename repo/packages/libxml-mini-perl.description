@@ -1,0 +1,12 @@
+Perl implementation of the minixml xml generator and parser
+	
+xml::mini is a set of perl classes that allow you to access
+xml data and create valid xml output with a tree-based hierarchy of
+elements.
+
+it provides an easy, object-oriented interface for manipulating xml
+documents and their elements. it is currently being used to send
+requests and understand responses from remote servers in perl
+applications.
+
+xml::mini does not require any external libraries or modules and is pure perl.

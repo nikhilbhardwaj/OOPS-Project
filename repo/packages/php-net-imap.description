@@ -1,0 +1,5 @@
+Provides an implementation of the imap protocol
+	
+php-net-imap pear module provides an implementation of the
+imap4rev1 protocol using pear's net_socket and the optional
+auth_sasl class.

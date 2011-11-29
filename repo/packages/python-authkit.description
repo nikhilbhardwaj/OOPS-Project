@@ -1,0 +1,14 @@
+Authentication and authorisation framework for python wsgi applications
+	
+authkit is a python module that provides functionality for wsgi (web)
+applications to use authentication and authorisation.
+
+
+ * built for wsgi applications and middleware
+ * sophisticated and extensible permissions system
+ * built in support for http basic, http digest, form, cookie and openid
+   authentication methods plus others.
+ * easily define users, passwords and roles
+ * designed to be totally extensible so you can use the components to integrate
+   with a database, ldap connection or your own custom system.
+ * plays nicely with the pylons web framework.

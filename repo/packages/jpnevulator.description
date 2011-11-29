@@ -1,0 +1,14 @@
+Serial sniffer
+	
+jpnevulator is a handy serial sniffer. you can use it to send data on a
+serial device too. you can read or write from/to one or more serial
+devices at the same time.
+
+in write mode data to be sent on the serial device(s) is read from a
+file or stdin in hexadecimal notation. data is sent on the serial
+device(s) line by line.
+
+in read mode data to be read from the serial device(s) is written to a
+file or stdout in hexadecimal notation. it's even possible to pass the
+data in between the serial device(s). several options enhance the
+way the data is displayed.

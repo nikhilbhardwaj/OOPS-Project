@@ -1,0 +1,13 @@
+A c++ library for geographical information systems -- development package
+	
+terralib enables quick development of custom-built geographical applications
+using spatial databases. as a research tool, terralib  is aimed at providing a
+rich and powerful environment for the development of gis research,
+enabling the development of gis prototypes that include new concepts such as
+spatio-temporal data models, geographical ontologies and advanced spatial
+analysis techniques. terralib defines a geographical data model and provides
+support for this model over a range of different dbms (mysql, postgresql,
+oracle and access), and is implemented as a library of c++ classes and
+functions, written in ansi-c++.
+
+this package contains development files for terralib.

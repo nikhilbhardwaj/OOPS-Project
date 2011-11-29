@@ -1,0 +1,4 @@
+Displays a list of (defined) machines to start vnc to
+	
+a basic wrapper that calls xvncviewer on a machine when requested.
+unless the author beats me to it, i intend to add better password handling.

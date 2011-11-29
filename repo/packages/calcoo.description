@@ -1,0 +1,16 @@
+Scientific calculator (gtk+)
+	
+calcoo is a scientific calculator designed to provide maximum usability.
+the features that make calcoo better than (at least some) other calculator
+programs are:
+
+
+ - bitmapped button labels and display digits to improve readability
+ - no double-function buttons - you need to click only one button
+   for any operation (except for arc-hyp trigonometric functions)
+ - undo/redo buttons
+ - both rpn (reverse polish notation) and algebraic modes
+ - copy/paste interaction with x clipboard
+ - display tick marks to separate thousands
+ - two memory registers with displays
+ - displays for y, z, and t registers

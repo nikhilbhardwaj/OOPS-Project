@@ -1,0 +1,18 @@
+Finite element multiphysics suite - development files
+	
+the elmer multiphysics simulation package includes physical models of
+fluid dynamics, structural mechanics, electromagnetics, heat transfer, and
+acoustics, among others. these are described by partial differential equations
+which elmer solves by the finite element method (fem).
+
+elmer uses metis (or its free counterpart scotch) for mesh partitioning, and
+(p)arpack, umfpack, blas/lapack, and hypre to solve the sparse linear systems
+resulting from fem discretization. it includes pre- and post-processors, and
+several examples illustrating simulation of various physical phenomena.
+
+elmer's lead institution is csc in collaboration with finnish universities,
+research institutes, and industry.
+
+this package contains the static libraries and header files for eio, huti, and
+matc, as well as the elmer solver shared library symlink. these are used for
+developing elmer, and are not needed to run the software.

@@ -1,0 +1,5 @@
+Headers and static libraries for libvanessa-logger
+	
+headers and static libraries required to develop against vanessa-logger.
+vanessa logger is a generic logging layer that may be used to log to
+one or more of syslog, an open file handle or filename.

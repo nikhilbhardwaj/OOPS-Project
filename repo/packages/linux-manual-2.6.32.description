@@ -1,0 +1,10 @@
+Linux kernel api manual pages for version 2.6.32
+	
+this package provides the kernel hacker's guide in the form of manual
+pages, describing the kernel api functions.  they are installed into
+section 9 of the manual.
+
+as the files containing manual pages for different kernel versions are
+installed in the same location, only one linux-manual package may be
+installed at a time.  the linux-doc package containing the documentation
+in other formats is free from such restriction.

@@ -1,0 +1,5 @@
+Vertical blanking interval decoder (vbi) - runtime files
+	
+the vbi devices capture the hidden lines on a television picture that carry
+further information like closed-caption data, teletext (primarily in
+europe), and now intercast and the atvec internet television encodings.

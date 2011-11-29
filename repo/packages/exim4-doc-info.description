@@ -1,0 +1,20 @@
+Documentation for the exim mta (v4) in info format
+	
+contains specification and filtering documentation in info format,
+taken from upstream's exim-texinfo.tar.bz2.
+
+the debian exim4 packages have their own web page,
+http://pkg-exim4.alioth.debian.org/. there is also a faq list. local
+information about the way the debian packages can be configured is
+can be found in /usr/share/doc/exim4-base/readme.debian.gz. this file
+has also information about the way the debian binary packages are
+built. there is a debian-centered mailing list,
+pkg-exim4-users@lists.alioth.debian.org. please ask debian-specific
+questions there, and only write to the upstream exim-users mailing
+list if you are sure that your question is not debian-specific. you
+can find the subscription web page on
+http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+exim is a drop-in replacement for sendmail/mailq/rsmtp.
+
+upstream url: http://www.exim.org/

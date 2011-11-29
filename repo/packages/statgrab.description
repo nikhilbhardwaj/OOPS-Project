@@ -1,0 +1,8 @@
+Sysctl-style access to system statistics
+	
+statgrab provides an access to system statistics using a sysctl-style
+interface. this is useful for applications that don't want to make
+library calls, but still want to access the statistics. an example is mrtg,
+for which scripts are provided to generate configuration files.
+
+statgrab utilizes libstatgrab library.

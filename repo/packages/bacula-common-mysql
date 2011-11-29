@@ -1,0 +1,4 @@
+PackageId:920
+Name:bacula-common-mysql
+Version:5.0.2-2.2 and others
+Deps:adduser,debconf,debconf-2.0,cdebconf,cdebconf-udeb,bacula-common,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libmysqlclient16,libstdc++6,libunwind7,zlib1g

@@ -1,0 +1,8 @@
+Contains spelling corrections and elo ratings for scid chess databases
+	
+spelling corrections and elo chess ratings for maintaining scid chess databases.
+they can be used to correct and identify player names, events and ratings in chess
+databases. this is necessary, because large databases come from various
+sources and only with spell corrected files there is a chance to identify
+duplicate database entries. the content is identical with scid-spell-data,
+it has additional elo ratings and replaces scid-spell-data.

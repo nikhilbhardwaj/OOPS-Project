@@ -1,0 +1,7 @@
+Object-oriented (oo) thread interface for c++, shared libs
+	
+this library is intended to provide a minimal & complete object-oriented (oo)
+thread interface for c++ programmers, used primarily in openscenegraph.  it is
+loosely modeled on the java thread api, and the posix threads standards.
+
+this package contains the shared libraries.

@@ -1,0 +1,8 @@
+A videocd (vcd) image mastering and ripping tool
+	
+this package contains a collection of tools to master (super)videocd,
+either directly from compliant mpeg streams with no playback control
+(pbc), or out of an xml description for a full-featured (s)vcd.
+
+this package also contains a videocd ripping tool to rip mpeg streams
+from videocd images, and some debugging tools.

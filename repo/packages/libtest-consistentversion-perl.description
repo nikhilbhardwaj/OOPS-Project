@@ -1,0 +1,5 @@
+Module to ensure consistent versions in a package
+	
+test::consistentversion is a perl module that ensures consistent versioning
+in all modules of a package. it also checks that the readme and changes files
+match the module version.

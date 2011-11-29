@@ -1,0 +1,6 @@
+Padre plugin to check spelling
+	
+the spellcheck plugin allows one to checking her text spelling within
+padre. the language is selectable from plugin preferences.
+
+this plugin is using text::aspell for the actual spelling check.

@@ -1,0 +1,4 @@
+Moose extension for code attribute introspection
+	
+moosex::methodattributes is a perl module that allows code attributes of
+methods to be introspected using moose meta method objects.

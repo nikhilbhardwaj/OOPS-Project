@@ -1,0 +1,10 @@
+Portable sdk for upnp devices (development files)
+	
+the portable sdk for upnp devices (libupnp) provides developers with an
+api and open source code for building control points, devices, and
+bridges that are compliant with version 1.0 of the universal plug and
+play device architecture specification - see http://www.upnp.org/ for
+specifications.
+
+the libupnp-dev package is a metapackage which will depend on the
+current stable development package.

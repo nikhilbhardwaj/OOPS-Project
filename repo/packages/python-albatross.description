@@ -1,0 +1,12 @@
+Toolkit for stateful web applications
+	
+albatross is a small and flexible python toolkit for developing highly
+stateful web applications. it includes, among other things:
+
+ * an extensible html templating system similar to dtml that promotes
+   separation of presentation and implementation.
+ * the ability to place python code for each page in a dynamically loaded
+   module, or to place each page in its own class.
+ * optional sessions: browser-based or server-based.
+ * deployment as cgi programs, mod_python modules or as standalone web
+   applications.

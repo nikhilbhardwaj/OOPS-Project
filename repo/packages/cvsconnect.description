@@ -1,0 +1,8 @@
+Cvs connection minimizer
+	
+cvsconnect enables you to do multiple cvs operations on single
+connection. cvsconnect sets up special environment using $cvs_rsh and
+$cvsroot for the command line cvs client. in the environment, the
+command line cvs client reuses a connection.
+
+cvsconnect is especially designed to use with cvssuck.

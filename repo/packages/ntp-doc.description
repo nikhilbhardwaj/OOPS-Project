@@ -1,0 +1,11 @@
+Network time protocol documentation
+	
+ntp, the network time protocol, is used to keep computer clocks
+accurate by synchronizing them over the internet or a local network,
+or by following an accurate hardware receiver that interprets gps,
+dcf-77, nist or similar time signals.
+
+this package contains html documentation for the ntp packages (ntp,
+ntpdate).  since there are no substantive man pages for ntp's
+programs and configuration files, this package is desirable for any
+setup beyond the simple default configuration.

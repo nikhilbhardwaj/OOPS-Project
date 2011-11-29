@@ -1,0 +1,7 @@
+Haskell module to manipulate haskell source; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+
+this library provides facilities for manipulating haskell source code:
+an abstract syntax, lexer, parser and pretty-printer.

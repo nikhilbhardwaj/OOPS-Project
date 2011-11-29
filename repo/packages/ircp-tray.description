@@ -1,0 +1,7 @@
+Irda and obex wireless file transfer
+	
+ircp tray is a irda file transfer program for linux. it stays inside
+your system tray, listening for incoming irobex file transfer request,
+as well as sending file out to remote devices via irda.
+
+ircp tray is compliant with obex push protocol.

@@ -1,0 +1,14 @@
+Console mode general purpose cw keyer, logging- and contest program
+	
+tlf is a console (ncurses) mode general purpose cw keyer, logging- and
+contest program for hamradio. it supports the cqww, the wpx, the arrl-dx,
+the arrl-fd, the pacc and the eu sprint contests (single operator) as
+well as a lot more basic contests, general qso and dxpedition mode.
+
+it interfaces with a morse code generator, a number of radios, and with
+a dx cluster. contest operation mimics the popular tr-log program for dos,
+the output file is tr- as well as cabrillo compatible.
+
+the user interface was designed with over 30 years of experience in cw
+contesting in mind. the program was written for console mode on purpose,
+to make it run also on smaller machines, or remotely via a modem link.

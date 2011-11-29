@@ -1,0 +1,7 @@
+The gnu c preprocessor
+	
+a macro processor that is used automatically by the gnu c compiler
+to transform programs before actual compilation.
+
+this package has been separated from gcc for the benefit of those who
+require the preprocessor but not the compiler.

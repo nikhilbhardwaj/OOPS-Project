@@ -1,0 +1,8 @@
+Remote configuration daemon for gracilis packeten
+	
+the 'p10cfgd' daemon provides support for the 'rmtcfg' command in the
+gracilis packeten amateur radio network packet switch.  with this daemon,
+and appropriate entries in the non-volatile configuration memory of a
+packeten, it is possible to have the switch load commands and information
+at boot time.  further, this daemon appends a command which sets the date
+and time in the clock on the packeten.

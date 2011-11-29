@@ -1,0 +1,9 @@
+Gnu r package for date handling
+	
+this cran package provides functions for handling dates, along with
+examples and documentation.
+
+note that this is a legacy package providing functionality that had
+been absent from r. however, more recent versions of r have more
+powerful date and datetime functionality in the base package, i.e.
+r-base-core under debian.

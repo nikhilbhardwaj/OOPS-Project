@@ -1,0 +1,11 @@
+Tools to help debian developers build haskell packages
+	
+this package provides a collection of scripts to help build haskell
+packages for debian.  unlike haskell-utils, this package is not
+expected to be installed on the machines of end users.
+
+this package is designed to support cabalized haskell libraries.  it
+is designed to build a library for each supported debian compiler or
+interpreter, generate appropriate postinst/prerm files for each one,
+generate appropriate substvars entries for each one, and install the
+package in the debian temporary area as part of the build process.

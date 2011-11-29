@@ -1,0 +1,13 @@
+Gnome cd ripper
+	
+a cd ripper for gnome which aims to have a simple, clean, easy to use
+interface.
+
+the package includes support by default for vorbis and flac formats.
+for other supports you need the following packages:
+
+ * gstreamer0.10-plugins-ugly to encode to mp2,
+ * gstreamer0.10-lame (not available in the debian archive) to encode
+   to mp3,
+ * gstreamer0.10-plugins-really-bad (not available in debian) to encode
+   to aac.

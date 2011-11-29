@@ -1,0 +1,12 @@
+Highly configurable text format for writing documentation
+	
+asciidoc is a text document format for writing articles, books, manuals and
+unix man pages. asciidoc files can be translated to html (with or without
+stylesheets), docbook (articles, books and refentry documents) and linuxdoc
+using the asciidoc command. asciidoc can also be used to build and maintain
+websites.
+
+you write an asciidoc document the same way you would write a
+normal text document, there are no markup tags or weird format notations.
+asciidoc files are designed to be viewed, edited and printed directly or
+translated to other presentation formats

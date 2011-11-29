@@ -1,0 +1,7 @@
+Java tool that calculates the percentage of code accessed by tests
+	
+tool that measures test coverage by instrumenting a java code base and watching
+which lines of code are and are not executed as the test suite runs. in
+addition to identifying untested code and locating bugs, cobertura can
+optimize code by flagging dead, unreachable code and can provide insights
+into how an api operates in practice. it is based on jcoverage.

@@ -1,0 +1,15 @@
+Pre processor pretty printer for ocaml - extras
+	
+objective caml (ocaml) is an implementation of the ml language,
+based on the caml light dialect extended with a complete
+class-based object system and a powerful module system in the
+style of standard ml.
+
+camlp4 is a pre-processor-pretty-printer for objective caml. it
+offers tools for syntax (stream parsers and grammars) and the
+ability to modify the concrete syntax of the language
+(quotations, syntax extensions).
+
+this package contains pre-linked executables and libraries for
+pre-processing and pretty-printing ocaml sources out of the box
+for various common needs.

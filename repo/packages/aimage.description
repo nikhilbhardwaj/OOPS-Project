@@ -1,0 +1,9 @@
+Create forensic image of devices in an open format
+	
+aimage is an advanced forensic imager. it can create a forensic
+copy of a device in different format like raw or aff. the
+resulting file can be in a raw format or a compressed format
+and/or encrypted. the aff format can hold metadatas like a hash
+sum of the device. those metadatas can be chosen by the user.
+it has an intelligent error recovery like in the ddrescue
+package. aimage use the afflib library.

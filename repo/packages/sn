@@ -1,0 +1,4 @@
+PackageId:31811
+Name:sn
+Version:0.3.8-10
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,ed,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,heirloom-mailx,mailx,bsd-mailx,mailutils,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,netbase,openbsd-inetd,inet-superserver,inetutils-inetd,rlinetd,xinetd,psmisc,tcpd,zlib1g

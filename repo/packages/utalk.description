@@ -1,0 +1,7 @@
+Talk-like program with additional features
+	
+utalk uses a protocol, based on udp, which ensures a quick response
+even over links with high packet loss, allows editing of previously
+typed text, including scrollback, deletion and overstrike, and
+provides some additional features. it is not compatible with bsd talk
+program.

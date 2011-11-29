@@ -1,0 +1,10 @@
+Converts html pages to wml (wap) or i-mode pages
+	
+html2wml converts html pages to wml or i-mode(tm) pages, suitable
+for being viewed on a wap or i-mode devices, e.g. cell phones.
+the conversion can be done either on the command line to create
+static pages or on-the-fly by calling this program as a cgi.
+
+different wap browsers are available to view the results of
+html2wml, e.g. the wmlbrowser add-on for iceweasel (aka firefox)
+and wapua.

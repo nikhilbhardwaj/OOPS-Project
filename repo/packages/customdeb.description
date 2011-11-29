@@ -1,0 +1,11 @@
+Modfies binary debian package
+	
+customdeb will modify binary debian packages based on
+information given in a simple file. it can
+
+  * add or replace files
+  * change permissions of files
+
+it can be used to distribute packages with local changes
+(configuration, fixes) locally, and is not meant to create
+packages for the official debian archive.

@@ -1,0 +1,24 @@
+Tools for editing and viewing exult games
+	
+includes:
+
+
+  expack       - command line tool for creating and extracting flex (.flx)
+                 files. flex files are used by ultima 7 to store most
+                 of its data.
+  splitshp     - command line tool to take a multi-frame shp file and
+                 split it into its individual frames.
+  shp2pcx      - command line tool to convert shp files to pcx format;
+                 the shp files can be extracted using expack.
+  ucxt         - tool to translate usecode back into `human readable',
+                 roughly assembly like code. the output can be presented
+                 in a variety of different format, including one which
+                 will, later, have a suitable compiler back into usecode.
+  ucc          - a usecode compiler.
+  exult_studio - an editor for games using the exult engine.
+
+
+these are all works in progress.
+
+a gimp plugin is provided, so that if you have the gimp installed you
+can edit and create game graphics with it.

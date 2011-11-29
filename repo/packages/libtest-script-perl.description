@@ -1,0 +1,7 @@
+Perl test module for scripts
+	
+test::script is a perl module that provides a series of basic tests for those
+files usually found in the bin or scripts directory of your package. it aims
+to provide your scripts with perfect platform-compatability and in a way that
+is as unobstrusive as possible. the general idea is that if a program works
+on a platform, then test::script tests should also pass on that platform.

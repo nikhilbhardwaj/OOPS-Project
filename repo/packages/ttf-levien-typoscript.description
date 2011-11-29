@@ -1,0 +1,15 @@
+Classic atf typo script revival font
+	
+math typesetting requires an ornate capital script font for symbols such as
+script-h (hilbert space), script-p (powerset), and so on. the most commonly
+used such font in tex is rsfs (ralph smith's formal script), which is based on
+the classic atf typo script. many of the atf script fonts have been
+professionally digitized, but not this one.
+
+the lines of the typo script digitization are much more delicate and refined,
+largely because they're based on the 18pt metal, while rsfs is designed for a
+10pt normal and 7pt subscript size. thus, this draft can't really be used as a
+drop-in replacement, as the hairlines will simply be too light to reproduce
+well. at some point, the digital adaptation of the atf optical scaling
+technology will be working, allowing to produce more robust versions
+suitable for use in text-sized mathematical setting.

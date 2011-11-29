@@ -1,0 +1,12 @@
+Layered template library for python
+	
+templayer currently supports only html generation, but its simple design
+is easily extended to support other file formats.
+
+templayer was created to offer an alternative to the more common ways
+of generating dynamic html: embedding code within the html (php etc.),
+or embedding html within code (traditional cgi). neither of these
+methods allow for a clean separation of the form, or layout, of a page
+and the function of page generation. instead of mixing html and python,
+two rich and extremely expressive languages, we can add a small amount
+of syntax to each and keep the two separate and coherent.

@@ -1,0 +1,14 @@
+A basic linear algebra library for java
+	
+provides fundamental operations of numerical linear algebra. the package
+provides five matrix decompositions. these decompositions are accessed by
+the matrix class to compute solutions of simultaneous linear equations,
+determinants, inverses and other matrix functions.
+
+the five decompositions are:
+
+ * cholesky decomposition of symmetric, positive definite matrices
+ * lu decomposition (gaussian elimination) of rectangular matrices
+ * qr decomposition of rectangular matrices
+ * eigenvalue decomposition of both symmetric and nonsymmetric square matrices
+ * singular value decomposition of rectangular matrices

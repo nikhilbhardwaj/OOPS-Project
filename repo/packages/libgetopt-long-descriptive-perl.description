@@ -1,0 +1,5 @@
+Module that handles command-line arguments with usage text
+	
+getopt::long::descriptive is a convenience wrapper for getopt::long, which
+allows one to easily define options in the same familiar way, while also
+supporting custom descriptions for program usage output.

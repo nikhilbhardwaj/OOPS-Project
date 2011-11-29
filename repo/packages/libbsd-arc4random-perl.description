@@ -1,0 +1,13 @@
+Cpan's bsd::arc4random -- perl bindings for arc4random
+	
+the bsd::arc4random module provides a perl api for the arc4random(3)
+suite of functions and a few natively implemented functions.
+
+exposed functions are: have_kintf (ability to push entropy back to
+the kernel); arc4random, arc4random_bytes, arc4random_uniform, the
+random variable (get entropy); arc4random_stir (next time used, some
+entropy from the kernel is first requested); arc4random_addrandom
+(add user data to srng state); arc4random_push[bk] (push user data
+to kernel rng if supported; add kernel data or, if not supported,
+user data to srng); the ability to "tie" variables to this module
+for retrieving and storing entropy (e.g. in $random).

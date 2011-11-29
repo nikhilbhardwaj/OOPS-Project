@@ -1,0 +1,11 @@
+Layer 2 tunnelling protocol network server (lns)
+	
+l2tpns is a daemon designed to terminate large volumes of layer 2
+tunnelling protocol (rfc 2661: l2tp) sessions.
+
+the daemon supports up to 65535 sessions plus features such as rate
+limiting, walled garden, usage accounting, and clustering (for both
+load-sharing and redundancy).
+
+note that only the lns side of the l2tp protocol is implemented, for
+a more complete l2tp implementation see the l2tpd package.

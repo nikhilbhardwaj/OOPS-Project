@@ -1,0 +1,10 @@
+Utility to control x10 firecracker devices for home automation
+	
+a command-line utility to interact with the firecracker version of
+x10's home control devices (wireless home automation to control lights,
+cameras, appliances via a small transmitter that plugs into the standard
+rs-232 serial port of a computer).
+
+also included is rocket launcher, a graphical frontend to bottlerocket.
+if you want this functionality you should have wish (tk8.3 or tk8.4 - the
+tcl/tk interpreter) installed.

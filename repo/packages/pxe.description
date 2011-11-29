@@ -1,0 +1,9 @@
+Free pxe daemon
+	
+pxe is a specification to boot pcs from the net. apart from bootp or dhcp for
+acquiring an ip address and tftp for transferring files, it requires a pxe
+daemon on the server. this package provides only this daemon. for the other
+protocols, it recommends alternatives that are known to work.
+
+
+ homepage: <http://www.kano.org.uk/projects/pxe/>

@@ -1,0 +1,4 @@
+PackageId:5045
+Name:gcc-4.4-multilib
+Version:4.4.5-8
+Deps:gcc-4.4,gcc-4.4-base,lib32gcc1,lib32gomp1,lib64gcc1,lib64gomp1,libc0.1-dev-i386,libc6-dev-amd64,libc6-dev-i386,libc6-dev-mips64,libc6-dev-mipsn32,libc6-dev-ppc64,libc6-dev-s390x,libc6-dev-sparc64,libn32gcc1,libn32gomp1

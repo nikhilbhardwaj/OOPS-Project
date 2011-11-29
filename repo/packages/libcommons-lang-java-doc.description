@@ -1,0 +1,24 @@
+Extension of the java.lang package
+	
+the lang component contains a set of java classes that provide helper
+methods for standard java classes, especially those found in the
+java.lang package in the sun jdk. the following classes are included:
+
+
+ * stringutils - helper for java.lang.string.
+ * charsetutils - methods for dealing with charsets, which are sets of
+   characters such as [a-z] and [abcdez].
+ * randomstringutils - helper for creating randomised strings.
+ * numberutils - helper for java.lang.number and its subclasses.
+ * numberrange - a range of numbers with an upper and lower bound.
+ * objectutils - helper for java.lang.object.
+ * serializationutils - helper for serializing objects.
+ * systemutils - utility class defining the java system properties.
+ * nestedexception package - a sub-package for the creation of nested
+   exceptions.
+ * enum package - a sub-package for the creation of enumerated types.
+ * builder package - a sub-package for the creation of equals, hashcode,
+   compareto and tostring methods.
+
+
+this package contains the api documentation of libcommons-lang-java

@@ -1,0 +1,9 @@
+Network capture library
+	
+ncap is a network capture library like libpcap (on which it is based)
+and tcpdump. it produces binary data in its own ncap format, which can
+be stored in a dump file or transmitted over a udp socket. unlike
+libpcap, it discards data link headers and only supports ipv4 and ipv6
+packets, but it can perform reassembly of ip datagrams.
+
+this package contains the shared library.

@@ -1,0 +1,12 @@
+Filesystem to access ftp hosts based on fuse and curl
+	
+curlftpfs is a tool to mount ftp hosts as local directories. it connects
+to a ftp server and maps its directory structure to the local filesystem.
+
+based on fuse (filesystem in userspace) and the curl library, curlftpfs
+has some features that distinguish it over other ftp filesystems:
+
+ * support for sslv3 and tlsv1
+ * connecting through tunneling http proxies
+ * automatic reconnection if the server times out
+ * conversion of absolute symlinks to point back into the ftp filesystem

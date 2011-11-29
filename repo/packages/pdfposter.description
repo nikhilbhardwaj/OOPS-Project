@@ -1,0 +1,12 @@
+Scale and tile pdf images/pages to print on multiple pages
+	
+pdfposter can be used to create a large poster by building it from
+multiple pages and/or printing it on large media. it expects as input a
+pdf file, normally printing on a single page. the output is again a
+pdf file, maybe containing multiple pages together building the
+poster. the input page will be scaled to obtain the desired size.
+
+this is much like poster does for postscript files, but working with pdf.
+since sometimes poster does not like your files converted from pdf. :-)
+indeed pdfposter was inspired by poster.  for more information please refer
+to the manpage or visit the project homepage

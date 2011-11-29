@@ -1,0 +1,5 @@
+Wrapper for the libsndfile audio file handling library
+	
+a c-programming language wrapper for the libsndfile audio file handling
+library (by erikd). the wrapper provides simple one line audio file read
+and write methods

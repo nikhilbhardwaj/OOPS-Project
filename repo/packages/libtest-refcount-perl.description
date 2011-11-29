@@ -1,0 +1,12 @@
+Perl module to assert reference counts
+	
+test::refcount asserts that an object's reference count is as expected. since
+perl's automatic memory management algorithm uses reference counting to keep
+track of which 'things' (ie, scalars, objects, etc.) are in use, problems
+like circular references (where a variable points to itself) can prevent perl
+from properly freeing them.
+
+if the assertion fails; that is, if the actual reference count is different
+to what was expected, a trace of references to the object is printed, using
+the devel::findref module. it is probably most useful as part of a
+comprehensive module author test suite.

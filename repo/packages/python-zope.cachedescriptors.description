@@ -1,0 +1,5 @@
+Method and property caching decorators
+	
+cached descriptors cache their output. they take into account instance
+attributes that they depend on, so when the instance attributes change, the
+descriptors will change the values they return.

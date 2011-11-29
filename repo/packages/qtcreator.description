@@ -1,0 +1,45 @@
+Lightweight integrated development environment (ide) for qt
+	
+qt creator is a new, lightweight, cross-platform integrated development
+environment (ide) designed to make development with the qt application
+framework even faster and easier.
+
+
+ * tailored specifically to the needs of qt developers creating cross-platform
+   applications
+ * focuses on features that boost developer productivity without getting in
+   their way
+ * helps new qt developers get up and running faster
+ * open and extendable; integrates familiar tools and file formats
+
+
+key features
+
+qt creator provides a focused set of features to boost the productivity of
+experienced qt developers, and to help new users get up and running with their
+qt projects faster.
+
+getting started
+
+ * project generating wizard
+ * welcome screen for quickly launching recent sessions or projects
+ * integrated, context-sensitive qt help system
+
+
+create, edit and navigate code
+
+ * advanced c++ code editor
+ * powerful tools for navigating between files and classes
+ * integrated qt designer visual layout and forms builder
+
+
+debug
+
+ * graphical frontend to the gdb: gnu symbolic debugger
+ * added awareness of qt class structures for faster debugging
+
+
+build & run
+
+ * build qt projects with integrated qmake cross-platform build tool
+ * run projects from within qt creator

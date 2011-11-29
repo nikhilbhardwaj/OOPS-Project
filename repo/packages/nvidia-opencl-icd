@@ -1,0 +1,4 @@
+PackageId:25790
+Name:nvidia-opencl-icd
+Version:195.36.31-6
+Deps:libcuda1,libopencl1,nvidia-libopencl1,nvidia-opencl-common

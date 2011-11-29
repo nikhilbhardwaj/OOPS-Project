@@ -1,0 +1,5 @@
+Gtk+ ia32 shared libraries
+	
+this package delivers a set of pre-compiled ia32 (i386 family) shared
+libraries, so that third-party 32bit programs can use the gtk+ widgets on
+64-bit systems that include appropriate emulation support.

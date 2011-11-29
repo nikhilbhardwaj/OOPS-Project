@@ -1,0 +1,8 @@
+Library for liberty alliance and saml protocols - runtime library
+	
+lasso is an implementation of liberty alliance and related protocols, for
+network identity federations, single sign-on and other web services protocols.
+the main specifications implemented by the library are id-ff, id-wsf and saml.
+
+this package contains liblasso library used by applications to gain library
+alliance support.

@@ -1,0 +1,4 @@
+PackageId:33547
+Name:udisks
+Version:1.0.1+git20100614-3
+Deps:dbus,libatasmart4,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdbus-1-3,libdbus-glib-1-2,libdevmapper1.02.1,libgcc1,libglib2.0-0,libgudev-1.0-0,libparted0debian1,libpolkit-backend-1-0,libpolkit-gobject-1-0,libsgutils2-2,libudev0,udev

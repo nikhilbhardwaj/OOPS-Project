@@ -1,0 +1,7 @@
+Expression language for java-based applications - library
+	
+mvel may be useful as an extension to anything from use in jsp tag libraries,
+to the configuration facilities of your library/framework.
+
+in addition to being an expression language, mvel also comes packaged with an
+templating system similar to velocity and freemarker.

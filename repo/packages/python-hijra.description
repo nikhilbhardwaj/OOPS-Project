@@ -1,0 +1,12 @@
+Hijri islamic calendar converting functions for python
+	
+hijri islamic calendar converting functions, based on an enhanced algorithm
+designed by muayyad saleh alsadi.
+it can be used to implement applications, gdesklets or karamba ..etc
+
+this algorithm is based on integer operations which that there is no round
+errors (given accurate coefficients) the accuracy of this algorithm is based
+on 3 constants (p, q and a) where p/q is the full months percentage [ gcd(p,q)
+must be 1 ] currently it is set to 191/360 which mean that there is 191 months
+having 30 days in a span of 360 years, other months are 29 days, and a is just
+a shift.

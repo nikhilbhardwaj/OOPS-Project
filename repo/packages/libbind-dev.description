@@ -1,0 +1,6 @@
+Static libraries and headers used by bind
+	
+this package delivers archive-style libraries, header files, and api man
+pages for libbind, libdns, libisc, and liblwres.  these are only needed
+if you want to compile other packages that need more nameserver api than the
+resolver code provided in libc.

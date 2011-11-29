@@ -1,0 +1,8 @@
+Java runtime library for use with gcj
+	
+this is the runtime that goes along with the gcj front end to
+gcc. libgcj includes parts of the java class libraries, plus glue to
+connect the libraries to the compiler and the underlying os.
+
+to show file names and line numbers in stack traces, the packages
+libgcj10-dbg and binutils are required.

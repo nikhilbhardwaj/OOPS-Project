@@ -1,0 +1,7 @@
+Masquerade module for drupal 6
+	
+the masquerade module is designed as a tool for site designers and
+site administrators. it allows a user with the right permissions to
+switch users. while masquerading, a field is set on the $user object,
+and a menu item appears allowing the user to switch back. watchdog
+entries are made any time a user masquerades or stops masquerading.

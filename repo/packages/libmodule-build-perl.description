@@ -1,0 +1,11 @@
+Framework for installing perl modules
+	
+module::build is a framework for easily building, testing and installing perl
+packages. it is meant as a next-generation replacement for extutils::makemaker
+and offers many additional features characteristic of a more modern install
+system, including simple subclassing for custom build actions.
+
+because it is written in pure perl, it has very few external dependencies. in
+particular, it allows for installation of packages on systems without 'make'
+and will even work without a shell. its only prerequisites are modules that
+are included with perl 5.6.0 and it is core as of perl 5.10.

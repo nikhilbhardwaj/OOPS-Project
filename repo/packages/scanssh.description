@@ -1,0 +1,8 @@
+Get ssh server versions for an entire network
+	
+the scanssh protocol scanner scans a list of addresses and networks for
+running ssh protocol servers and their version numbers.  version 2.0 adds
+support for scanning arbitrary ports and specifically open proxies.  the
+scanssh protocol scanner supports random selection of ip addresses from
+large network ranges and is useful for gathering statistics on the
+deployment of ssh protocol servers in a company or the internet as whole.

@@ -1,0 +1,6 @@
+Create disk usage reports
+	
+durep is a perl script used for disk usage reports. it can generate text
+output with bar graphs to allow easy comparisons of disk usage between
+directories. it can also generate web pages which can be navigated through the
+directory structure. this allows easy visual monitoring of disk usage.

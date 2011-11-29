@@ -1,0 +1,7 @@
+Efficient library of sat solvers in java
+	
+the aim of the sat4j library is to provide an efficient library of sat solvers
+in java. compared to the opensat project, the sat4j library targets first
+users of sat "black boxes", willing to embed  sat technologies into their
+application without worrying about the details. the sat4j project also tries
+to provide a basis of work for sat researchers.

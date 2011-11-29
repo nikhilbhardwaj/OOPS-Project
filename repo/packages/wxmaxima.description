@@ -1,0 +1,13 @@
+Gui for the computer algebra system maxima
+	
+wxmaxima is a graphical user interface for the computer algebra system
+maxima. it eases the use of maxima by making most of its commands available
+through a menu system and by providing input dialogs for commands that
+require more than one argument. it also implements its own display engine
+that outputs mathematical symbols directly instead of depicting them with
+ascii characters.
+
+wxmaxima also features 2d and 3d inline plots, simple animations, mixing of
+text and mathematical calculations to create documents, exporting of input
+and output to tex, and a browser for maxima's manual including command index
+and full text searching.

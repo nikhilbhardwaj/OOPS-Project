@@ -1,0 +1,9 @@
+Theme engine using qt 4 for gtk+ 2.x
+	
+the gtk-qt theme engine (also known as gtk-qt-engine) is a gtk+ 2 theme engine
+that calls qt 4 to do the actual drawing. this makes your gtk+ 2 applications
+look almost like real qt 4 applications and gives you a more unified desktop
+experience.
+
+this style can be configured within kde4's systemsettings using package
+system-config-gtk-kde .

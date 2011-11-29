@@ -1,0 +1,7 @@
+Infiniband userspace management datagram (umad) library
+	
+libibumad provides userspace infiniband management datagram (umad)
+functions which sit on top of the umad modules in the kernel.
+these are used by infiniband diagnostic and management tools.
+
+this package contains the shared library.

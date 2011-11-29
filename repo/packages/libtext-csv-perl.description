@@ -1,0 +1,13 @@
+Comma-separated values manipulator (using xs or pureperl)
+	
+text::csv provides facilities for the composition and decomposition of files
+containing comma-separated value records. an instance of the text::csv class
+can combine fields into a csv string and parse a csv string into fields.
+
+the module accepts either strings or files as input and can utilize any
+user-specified characters as delimiters, separators, and escapes so it is
+perhaps better called asv (anything separated values) rather than just csv.
+
+this module will automatically select the best available implementation of
+the algorithm, whether the pure perl version present in this package, or the
+c/xs implementation, available in libtext-csv-xs-perl.

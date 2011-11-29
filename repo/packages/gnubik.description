@@ -1,0 +1,8 @@
+3d rubik's cube game
+	
+gnubik is an interactive, graphical, single player puzzle. this free
+program renders an image of a cube, like that invented by erno rubik.
+you have to manipulate the cube using the mouse. when each face shows
+only one colour, the game is solved.
+
+it uses gtk+ and/or x11 and mesa / opengl.

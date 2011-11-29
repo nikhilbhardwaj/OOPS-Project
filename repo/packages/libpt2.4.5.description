@@ -1,0 +1,9 @@
+Portable tools library
+	
+this package contains the shared version of the library ptlib, which is
+a moderately large class library that has its genesis many years ago as
+a method to produce applications to run on both microsoft windows and
+unix x-window systems.
+
+this package also contains all the current ptlib plugins (alsa, oss, v4l2,
+and v4l).

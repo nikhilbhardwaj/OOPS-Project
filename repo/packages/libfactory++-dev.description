@@ -1,0 +1,29 @@
+C++ template factory framework
+	
+libfactory++ is a c++ template framework for run-time dynamic type
+instantiation. you can register single classes or whole hierarchies, and then
+tell libfactory++ to instantiate objects using the registration key. for
+instance, if you register class a with key 1 and a child class a::b with key
+2, then you could say create(1) to obtain a pointer to a newly allocated and
+constructed a object, or create(2) to return an a* containing a new instance
+of a::b.
+
+libfactory++ differs from other factory approaches mainly in its flexibility.
+for one, libfactory++ can use any constructor a type supports, and allows you
+to choose (and configure) the constructor to use for each call to create().
+second, it supports custom allocators, allowing you to use e.g. a memory pool
+rather than continuous invocations of 'new'.
+
+note that the library is not (yet) complete and it's not thoroughly tested.
+however, given the effort and grief i went through in writing it, i would
+like to make it available to folks, get people to test it, and hopefully have
+some peeps submit improvements.
+
+it's not yet documented, although the usage should be fairly straight
+forward. i am hoping to find someone else to document it as i suck at
+documentation and as the author, it's exceptionally difficult to stay
+didactically correct.
+
+libfactory++ only exists as a -dev package as it's only a bunch of c++ header
+files. therefore, no static or shared library is necessary, allowing for
+ultimate flexibility.

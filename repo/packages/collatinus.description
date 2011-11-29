@@ -1,0 +1,12 @@
+Virtual package to upgrade to collatinus 9.3
+	
+collatinus can be used to lemmatise latin texts, i.e. extract words and
+make a lexicon which indicates for each word its canonic form, and how
+the form actually found in the text was derived from it, for instance by
+declining it.
+
+if you want to keep versions 7 and 8 of collatinus together with the
+new version, do not install this virtual package. rather install
+directly the package collatinus9. the command "collatinus" will call
+collatinus8 by the alternatives, and the older versions will still be
+reachable as collatinus7 or collatinus8.

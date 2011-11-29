@@ -1,0 +1,38 @@
+A library for the finite element method
+	
+this package provides the header files and static libraries.
+
+life is a versatile finite element library to solve partial
+differential equations.
+
+support 1d, 2d, 3d
+
+support the following basic entities: simplices (segment, triangle,
+tetrahedron) and product of simplices (quadrangle, hexahedron)
+
+support various point sets on these basic entities: equispaced
+points, quadrature points, interpolation points (gauss-lobatto,
+fekete, warpblend?)
+
+support continuous and discontinuous galerkin methods
+
+support various polynomial sets:
+
+
+ * lagrange(continuous,discontinuous,all dimensions,all interpolation
+
+point sets)
+
+
+ * dubiner(discontinuous), boundary adapted(continuous)
+
+
+
+ * legendre(discontinuous), boundary adapted(continuous)
+
+
+provide mathematical concept for higher order abstraction (function
+spaces and associated elements, forms and operators)
+
+provide a language embedded in c++ for variational formulations,
+projection and numerical integration

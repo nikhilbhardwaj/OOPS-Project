@@ -1,0 +1,8 @@
+Pulseaudio client development headers and libraries
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+headers and libraries for developing applications that access a pulseaudio
+sound server via pulseaudio's native interface.

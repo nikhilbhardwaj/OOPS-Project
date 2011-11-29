@@ -1,0 +1,8 @@
+Kate is a codec for karaoke and text encapsulation for ogg (dbg)
+	
+kate is meant to be used for karaoke alongside audio/video streams (typically
+vorbis and theora), movie subtitles, song lyrics, and anything that needs text
+data at arbitrary time intervals.
+
+this package contains debugging symbols useful for tracing bugs in
+libkate software.

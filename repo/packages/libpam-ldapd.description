@@ -1,0 +1,5 @@
+Pam module for using ldap as an authentication service
+	
+this package provides a pluggable authentication module that allows
+user authentication, authorisation and password management based on
+credentials stored in an ldap server.

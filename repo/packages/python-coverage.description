@@ -1,0 +1,5 @@
+Code coverage tool for python
+	
+this tool measures which parts (statements) of a python program are
+executed while it is run. this is useful for testing: those parts of
+a program that are not executed by the tests have not been tested.

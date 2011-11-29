@@ -1,0 +1,9 @@
+Software library for dv format digital video (sample apps)
+	
+the quasar dv codec (libdv) is a software decoder for dv format video, as
+defined by the iec 61834 and smpte 314m standards. dv is the encoding format
+used by consumer-grade digital camcorders.
+
+this package contains sample programs for viewing (playdv), encoding
+(encodedv), transferring dv data (dvconnect) and insert audio into a dv
+stream (dubdv).

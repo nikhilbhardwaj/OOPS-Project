@@ -1,0 +1,7 @@
+Cgi::untaint::date - validate a date
+	
+this input handler for cgi::untaint verifies that it is dealing with
+a reasonable date.  reasonably means anything that date::manip thinks
+is sensible, so you could use any of (for example): "december 12,
+2001" "12th december, 2001" "2001-12-12" "next tuesday" "third
+wednesday in march"

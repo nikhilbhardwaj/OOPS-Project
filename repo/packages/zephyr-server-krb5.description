@@ -1,0 +1,15 @@
+The original "instant message" system-server with kerberos 5
+	
+you probably only need one server for a group of clients.
+this can be a memory-intensive server, especially for very large sites.
+
+the server maintains a location and subscription database for all the
+receiving clients. all zephyrgrams are sent to the server to be routed
+to the intended recipient.
+
+this version of the server uses kerberos v for message authentication.
+
+this is the project athena zephyr notification system.
+zephyr allows users to send messages to other users or to groups of
+users.  users can view incoming zephyr messages as windowgrams
+(transient x windows) or as text on a terminal.

@@ -1,0 +1,9 @@
+Office productivity suite -- java libraries for gij
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains the .jars from openoffice.org-java-common compiled to
+native to make the java features of ooo faster when using gij.
+
+this package has no effect with suns/blackdowns/ibms/etc. jdk.

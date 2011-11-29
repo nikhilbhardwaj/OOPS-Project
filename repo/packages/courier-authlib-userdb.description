@@ -1,0 +1,5 @@
+Userdb support for the courier authentication library
+	
+this package contains the userdb support for the courier authentication
+library. userdb is a simple way to manage virtual mail accounts using
+a gdbm-based database file.

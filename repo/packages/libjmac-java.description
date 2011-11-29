@@ -1,0 +1,6 @@
+Open source java monkey's audio decoder/encoder/javasound spi
+	
+jmac is a java implementation of monkey's audio compression
+decoder. jmac is a java library that decodes, converts and plays
+monkey's audio files (.mac, .apl, .ape) in real time. jmac doesn't
+need jmf. it runs under j2se.

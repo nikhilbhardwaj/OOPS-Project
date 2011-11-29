@@ -1,0 +1,8 @@
+A configurable snmp trap handler daemon for snmpd
+	
+this package contains a configurable snmp trap handler daemon for snmpd.
+the output of this trap handler daemon may be specified via a configuration
+file and written to a logfile or to the syslog daemon. during installation
+of this package, the configuration file for the snmptrapd daemon is changed
+(old version is saved) to activate the trap handler. the snmpd and snmptrapd
+daemons are restarted.

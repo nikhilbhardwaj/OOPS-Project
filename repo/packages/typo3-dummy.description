@@ -1,0 +1,25 @@
+Web content management system
+	
+typo3 is an enterprise-level content management system for use on the web
+and in intranets. it is flexible, extensible, and well supplied with
+ready-made interfaces, functions, and modules.
+
+its key features are:
+
+ * simple creation of multi-language websites with fallback to a default
+   language;
+ * handling of multi-domain websites within a single page tree;
+ * multi-user backend editing via a completely customizable gui using an
+   advanced acl system;
+ * an integrated workflow management system based on a multi-tier
+   architecture with editor and supervisor privileges;
+ * unlimited redefinition of the rendering process using the built-in
+   typoscript configuration interface or the plugin api;
+ * thousands of plugins available in the online typo3 extension repository.
+
+
+this package provides the basic directory structure to start a fresh
+website based on typo3. it includes scripts to register the site in
+apache, with a default configuration intended for single vhost
+installations. typo3 can also be configured to work with several vhosts
+and a single src-dir, but such setups require some manual configuration.

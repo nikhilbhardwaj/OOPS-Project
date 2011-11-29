@@ -1,0 +1,16 @@
+Gui tools for hugin
+	
+hugin is a panorama photo stitching program. essentially, hugin is a
+gui frontend for panorama tools. stitching is accomplished by using
+several overlapping photos taken from the same location, and using
+control points to align and transform the photos so that they can be
+blended together to form a larger image. hugin allows for the easy
+creation of control points between two images, optimization of the
+image transforms, and much more.
+
+this package includes the following graphical interfaces, using the
+command-line tools provided in the hugin-tools package:
+
+ * hugin                - hugin panorama creator
+ * hugin_stitch_project - hugin batch stitcher
+ * nona_gui             - graphical interface for nona.

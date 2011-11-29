@@ -1,0 +1,26 @@
+Wiki engine backed by a git or darcs filestore - ghc 6 libraries
+	
+gitit is a wiki backed by a git or darcs filestore. pages and uploaded files
+can be modified either directly via the vcs’s command-line tools or through
+the wiki’s web interface. pandoc is used for markup processing, so pages may
+be written in (extended) markdown, restructuredtext, latex, html, or literate
+haskell, and exported in ten different formats, including latex, context,
+docbook, rtf, openoffice odt, and mediawiki markup.
+
+other features include
+
+  * plugins: dynamically loaded page transformations written in haskell;
+  * categories;
+  * support for unicode;
+  * tex math using texmath;
+  * syntax highlighting of source code files and code snippets using
+    highlighting-kate;
+  * wiki pages can be viewed as slide shows;
+  * caching;
+  * atom feeds (site-wide and per-page);
+  * a library, network.gitit, that makes it simple to include a gitit wiki in
+    any happstack application;
+  * pages can be written directly in literate haskell.
+
+
+this package contains the libraries compiled for ghc 6.

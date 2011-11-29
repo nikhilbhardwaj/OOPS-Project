@@ -1,0 +1,5 @@
+Module providing lazy evaluation for perl
+	
+scalar::defer is a perl module that exports two functions, defer and lazy,
+which can be used to construct values that are evaluated as needed. it also
+provides a function to force immediate evaluation of a deferred value.

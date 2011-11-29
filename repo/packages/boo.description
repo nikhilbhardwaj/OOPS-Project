@@ -1,0 +1,10 @@
+Python-like language and compiler for the cli
+	
+boo is an object oriented statically typed programming language
+for the common language infrastructure (cli) with a python inspired
+syntax and a special focus on language and compiler extensibility.
+
+this package contains the boo compiler, interpreter and interactive shell.
+the boo compiler and the programs it produces are 100% common intermediate
+language (cil) bytecode and can therefore be run on any compliant cli virtual
+machine.

@@ -1,0 +1,8 @@
+A program to play minishogi, a shogi variant on a 5x5 board
+	
+gnuminishogi is a computer player for the minishogi variant of shogi
+(japanese chess).
+
+gnuminishogi is a modified version of the gnushogi program. it can be
+used through tagua, kaya, or other graphical frontends, but also has a
+simple alpha-numeric board display.

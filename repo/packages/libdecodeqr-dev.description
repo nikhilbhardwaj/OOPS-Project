@@ -1,0 +1,10 @@
+A c/c++ library for decoding qr code
+	
+libdecodeqr is a c/c++ library for decoding qr code ased on
+jis x 0510 and iso/iec18004.
+
+this library is able to decode various image formats whether it's
+taken from a file, webcam, scanner, or any other image formats
+available.
+
+this package contains development files.

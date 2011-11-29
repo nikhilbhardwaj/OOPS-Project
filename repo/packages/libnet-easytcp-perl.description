@@ -1,0 +1,15 @@
+Easily create secure, bandwidth-friendly tcp/ip clients and servers
+	
+this class allows you to easily create tcp/ip clients and
+servers and provides an oo interface to manage the connection(s).
+this allows you to concentrate on the application rather
+than on the transport.
+
+
+ - one easy module to create both clients and servers
+ - object oriented interface
+ - event-based callbacks in server mode
+ - internal protocol to take care of all the common
+   transport problems
+ - transparent encryption
+ - transparent compression

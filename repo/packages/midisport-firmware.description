@@ -1,0 +1,20 @@
+Firmware loader for m-audio's midisport devices
+	
+this package allows you to use m-audio's usb midi and audio interfaces with
+linux. these devices require a firmware download before an operating system
+driver (e.g. alsa's snd-usb-audio) can access them.
+
+supported devices:
+
+ - midisport 1x1
+ - midisport 2x2
+ - midisport 4x4
+ - midisport 8x8
+ - keystation (old models: 49, 61)
+ - oxygen
+ - radium49
+ - radium61
+ - uno
+
+the loader is not required for the midisport 2x4 and for newer keystation
+models (49e, 61es, pro 88).

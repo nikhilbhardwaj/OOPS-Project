@@ -1,0 +1,10 @@
+Freehep swf (flash) driver
+	
+the graphicsio library offers a base interface for image exporters in many
+vector or bitmap image formats. it features direct support for gif, png, ppm
+and raw formats, as well as the ability to manage truetype fonts. support
+for other file types can be added with plugins.
+
+this package contains a graphicsio plugin to export to swf (flash) format.
+
+freehep is a collection of java libraries used in high energy physics.

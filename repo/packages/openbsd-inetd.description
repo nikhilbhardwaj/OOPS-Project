@@ -1,0 +1,10 @@
+The openbsd internet superserver
+	
+the inetd server is a network daemon program that specializes in managing
+incoming network connections. its configuration file tells it what
+program needs to be run when an incoming connection is received. any
+service port may be configured for either of the tcp or udp protocols.
+
+this is a port of the openbsd daemon with some debian-specific features.
+this package supports ipv6, built-in libwrap access control, binding to
+specific addresses, unix domain sockets and socket buffers tuning.

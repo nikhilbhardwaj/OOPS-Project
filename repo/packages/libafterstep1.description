@@ -1,0 +1,10 @@
+Shared libraries for the afterstep window manager
+	
+afterstep is a window manager based on fvwm which attempts to emulate
+the nextstep look and feel, while retaining the configurability of its
+predecessor.  note that this window manager makes extensive use of the
+color palette.  if you have only an 8-bit color display, it will run
+as packaged, but you may want to modify the configuration to use fewer
+colors.
+
+this package contains runtime libraries needed by afterstep.

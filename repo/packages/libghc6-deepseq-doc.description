@@ -1,0 +1,6 @@
+"deep" version for haskell seq - documentation
+	
+evaluates a full haskell data structure, where the lazy haskell interpreter
+normally would skip it.
+
+this package contains the library documentation.

@@ -1,0 +1,6 @@
+Interface to the glib and gobject libraries
+	
+glib provides a perl interface to the glib and gobject libraries, as part
+of gtk2-perl. it attempts to provide a perlish interface while remaining as
+true as possible to the underlying c api, so perusing the reference manual is
+recommended (see <url:http://developer.gnome.org/doc/api/2.0/glib/>).

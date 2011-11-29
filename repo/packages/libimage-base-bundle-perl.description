@@ -1,0 +1,12 @@
+Set of modules for loading, saving and creating xpm and xbm images
+	
+a set of perl modules for loading, saving, and creating xpm and xbm
+images. contains the following modules:
+
+
+ image::base
+ image::xpm
+ image::xbm
+
+
+requred by image::info to parse xpm and xbm files.

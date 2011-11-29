@@ -1,0 +1,18 @@
+Terminal based irc client - development files
+	
+irssi is a terminal based irc client for unix systems. it also supports
+silc and icb protocols via plugins.
+
+features include:
+
+ * autologging
+ * formats and themes
+ * configurable keybindings
+ * paste detection
+ * perl scripting
+ * irssi-proxy
+ * transparent upgrading
+ * recode support
+
+
+this package includes the development files for the irssi client.

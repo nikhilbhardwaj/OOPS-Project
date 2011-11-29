@@ -1,0 +1,9 @@
+Perl module for testing scripts as subprocesses
+	
+test::script::run provides test::more-compatible subroutines for testing
+scripts in a perl module distribution's bin/ directory using ipc::run3 to
+spawn the scripts as subprocesses.
+
+subroutines are provided for running scripts and simply checking that the
+return value is good, as well as capturing a script's stdout and stderr and
+comparing against expected output.

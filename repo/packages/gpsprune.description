@@ -1,0 +1,31 @@
+Visualize, edit, convert and prune gps data
+	
+prune is an application for viewing, editing and converting coordinate
+data from gps systems. basically it's a tool to let you play with your
+gps data after you get home from your trip.
+
+it can load data from arbitrary text-based formats (for example, any
+tab-separated or comma-separated file) or xml, or directly from a gps
+receiver. it can display the data (as map view using openstreetmap
+images and as altitude profile), edit this data (for example delete
+points and ranges, sort waypoints, compress tracks), and save the data
+(in various text-based formats). it can also export data as a gpx
+file, or as kml/kmz for import into google earth, or send it to a gps
+receiver.
+
+some example uses of prune include cleaning up tracks by deleting
+wayward points - either recorded by error or by unintended detours. it
+can also be used to compare and combine tracks, convert to and from
+various formats, compress tracks, export data to google earth, or to
+analyse data to calculate distances, altitudes and so on.
+
+furthermore, prune is able to display the tracks in 3d format and
+lets you spin the model round to look at it from various directions.
+you can also export the model in pov format so that you can render a
+nice picture using povray. you can also create charts of altitudes or
+speeds. it can also load jpegs and read their coordinates from the
+exif tags, and export thumbnails of these photos to kmz format so that
+they appear as popups in google earth. if your photos don't have
+coordinates yet, prune can be used to connect them (either manually or
+automatically using the photo timestamps) to data points, and write
+these coordinates into the exif tags.

@@ -1,0 +1,6 @@
+Perl interface to audioscrobbler.com/last.fm
+	
+the audio::scrobbler module provides a perl interface to the track
+submission api of last.fm's audioscrobbler - http://www.last.fm. so
+far, only track submissions are handled; the future plans include
+access to the various statistics.

@@ -1,0 +1,23 @@
+A portable interpreter for sci games like space quest 3
+	
+freesci is a portable interpreter for sci games, such as the space quest
+series (starting with sq3) or leisure suit larry (2 and sequels).
+
+freesci is still incomplete. you should be able to finish some sci games with
+it, though.
+this release has the following limitations (plus some bugs):
+
+ - only sci0 games are supported (later versions are being worked on separately
+   in the experimental "glutton" branch)
+ - the sci debug functions aren't fully supported (and probably never will be,
+   since we're using our own debug functions)
+
+
+it has the following improvements over sierra sci:
+
+ - support for various filters and extended drawing operations for graphics
+ - saving and restoring the game state is possible from more places than the
+   sierra sci engine allowed (using the debugger functions)
+ - better debugger
+ - more portable
+ - it's free software :-)

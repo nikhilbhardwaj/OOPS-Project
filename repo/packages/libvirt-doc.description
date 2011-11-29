@@ -1,0 +1,8 @@
+Documentation for the libvirt library
+	
+libvirt is a c toolkit to interact with the virtualization capabilities
+of recent versions of linux (and other oses). the library aims at providing
+a long term stable c api for different virtualization mechanisms. it currently
+supports qemu, kvm, xen, openvz, lxc, and virtualbox.
+
+this package contains the documentation.

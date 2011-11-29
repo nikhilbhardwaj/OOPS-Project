@@ -1,0 +1,6 @@
+Portable compression library - runtime
+	
+ucl is a portable lossless data compression library written in ansi c,
+implementing a number of compression algorithms that achieve an
+excellent compression ratio while allowing *very* fast decompression.
+decompression requires no additional memory.

@@ -1,0 +1,7 @@
+Graphical tools for odbc management and browsing
+	
+this package contains three graphical applications for use with
+unixodbc, the open database connectivity suite: odbcconfig, a graphical
+configuration tool for managing database drivers and access to
+individual databases; datamanager, a simple browser and query tool for
+odbc databases; and odbctest, a tool for testing the odbc api itself.

@@ -1,0 +1,14 @@
+Tex live: czech/slovak
+	
+support for typesetting czech/slovak.
+
+this package includes the following ctan packages:
+
+ cs --
+ csbulletin -- latex class for articles submitted to the cstug bulletin
+  (zpravodaj).
+ cslatex -- latex support for czech/slovak typesetting.
+ csplain -- plain tex support for czech/slovak typesetting.
+ vlna --
+ hyphen-czech --
+ hyphen-slovak --

@@ -1,0 +1,10 @@
+Binfmt_misc plugin for utf-8 scripts
+	
+this package provides an additional binary format for linux: scripts
+which start with an utf-8 signature (aka bom), i.e.  with the byte
+sequence \xef\xbb\xbf#!.
+
+this is particularly useful for scripting languages which recognize
+the bom, e.g. python. with python 2.3 or newer, scripts with the utf-8
+bom are considered utf-8 enocded without the need for an addition
+encoding declaration.

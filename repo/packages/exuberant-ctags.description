@@ -1,0 +1,13 @@
+Build tag file indexes of source code definitions
+	
+ctags parses source code and produces a sort of index mapping
+the names of significant entities (e.g. functions, classes,
+variables) to the location where that entity is defined.  this
+index is used by editors like vi and emacsen to allow moving to
+the definition of a user-specified entity.
+
+exuberant ctags supports all possible c language constructions
+and multiple other languages such as assembler, awk, asp, beta,
+bourne/korn/z shell, c++, cobol, eiffel, fortran, java, lisp,
+lua, makefile, pascal, perl, php, python, rexx, ruby, s-lang,
+scheme, tcl, verilog, vim and yacc.

@@ -1,0 +1,7 @@
+One time password calculator
+	
+donkey is an alternative for s/key's "key" command.  this means that donkey
+is also an alternative for "keyinit".  since the entry is printed to stdout
+(not to /etc/skeykeys), you can easily send it to remote operator by e-mail
+(with pgp signature or something). so, it is possible to initiate s/key
+without login from the console of the host.

@@ -1,0 +1,10 @@
+A ms windows recycle bin analysis tool
+	
+rifiuti2 is a rewrite of rifiuti, a tool for analyzing windows recycle bin
+info2 file.
+
+analysis of windows recycle bin is usually carried out during windows computer
+forensics. rifiuti2 can extract file deletion time, original path and size of
+deleted files and whether the deleted files have been moved out from the
+recycle bin since they are trashed. it supports the info2 file format found in
+windows up to window xp as well as the new file format found in vista.

@@ -1,0 +1,13 @@
+A oo interface for searching and manipulating ldap-entries
+	
+net ldap is a clone of perls net::ldap object interface to ldapservers.
+it does not contain all of net::ldaps features, but has:
+
+ * a simple oo-interface to connections, searches and entries.
+ * support for tls and ldap v3.
+ * simple modification, deletion and creation of ldapentries.
+ * support for schema handling.
+
+
+note: this module is declared obsolete by its upstream, and superseded
+by the net::ldap2 module in package php-net-ldap2.

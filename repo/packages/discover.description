@@ -1,0 +1,7 @@
+Hardware identification system
+	
+discover is a hardware identification system based on the libdiscover2
+library.  discover provides a flexible interface that programs can
+use to report a wide range of information about the hardware that is
+installed on a linux system.  in addition to reporting information,
+discover includes support for doing hardware detection at boot time.

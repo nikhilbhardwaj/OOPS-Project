@@ -1,0 +1,9 @@
+Command line utilities for sending and receiving osc messages
+	
+this package contains the send_osc and dump_osc utilities, which can be
+used to send osc messages from a command line, and to print all incoming
+messages.
+
+open sound control (osc) is a protocol for communication among computers,
+sound synthesizers, and other multimedia devices that is optimized for modern
+networking technology.

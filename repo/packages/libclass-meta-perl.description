@@ -1,0 +1,7 @@
+Class automation, introspection, and data validation module
+	
+class::meta provides an interface for automating the creation of perl classes
+with attribute data type validation. it differs from other such modules in
+that it includes an introspection api that can be used as a unified interface
+for all class::meta-generated classes. in this sense, it is an implementation
+of the "facade" design pattern.

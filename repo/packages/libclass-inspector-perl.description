@@ -1,0 +1,8 @@
+Perl module that provides information about classes
+	
+class::inspector allows you to get information about a loaded class.
+most or all of this information can be found in other ways, but they
+aren't always very friendly, and usually involve a relatively high level
+of perl wizardry, or strange and unusual looking code. class::inspector
+attempts to provide an easier, more friendly interface to this
+information.

@@ -1,0 +1,7 @@
+Object oriented file::find replacement
+	
+file::find::object does same job as file::find but works like an object and
+with an iterator. as file::find is not object oriented, one can't perform
+multiple searches in the same application. the second problem of file::find
+is its file processing: after starting its main loop, one can't easily wait
+for another event and so get the next result.

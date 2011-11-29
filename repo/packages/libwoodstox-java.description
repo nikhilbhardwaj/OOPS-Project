@@ -1,0 +1,10 @@
+A high-performance xml processor
+	
+woodstox is a high-performance validating namespace-aware
+stax-compliant (jsr-173) open source xml-processor written in
+java. xml processor means that it handles both input (parsing) and
+output (writing, serialization), as well as supporting tasks such
+as validation.
+
+this library is needed for the freecol package, and will probably be
+of interest for others.

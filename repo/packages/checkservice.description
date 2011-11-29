@@ -1,0 +1,7 @@
+Checks the status of services on (remote) hosts
+	
+checkservice is a simple and fast service checking perl script. it is
+able to show the results in many ways: by keeping logs, showing it on
+the php status page, output that mrtg can use or warning(plugins) if
+something is wrong. checkservice features grouping of hosts, very
+easy configuration and thorough service checking using checkplugins.

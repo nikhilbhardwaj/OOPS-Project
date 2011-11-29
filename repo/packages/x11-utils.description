@@ -1,0 +1,30 @@
+X11 utilities
+	
+an x client is a program that interfaces with an x server (almost always via
+the x libraries), and thus with some input and output hardware like a
+graphics card, monitor, keyboard, and pointing device (such as a mouse).
+
+this package provides a miscellaneous assortment of x utilities
+that ship with the x window system, including:
+
+ - appres, editres, listres and viewres, which query the x resource database;
+ - luit, a filter that can be run between an arbitrary application and a
+   utf-8 terminal emulator;
+ - xdpyinfo, a display information utility for x;
+ - xdriinfo, query configuration information of dri drivers;
+ - xev, an x event displayer;
+ - xfd, a tool that displays all the glyphs in a given x font;
+ - xfontsel, a tool for browsing and selecting x fonts;
+ - xkill, a tool for terminating misbehaving x clients;
+ - xlsatoms, which lists interned atoms defined on an x server;
+ - xlsclients, which lists client applications running on an x display;
+ - xlsfonts, a server font list displayer;
+ - xmessage, a tool to display message or dialog boxes;
+ - xprop, a property displayer for x;
+ - xvinfo, an xv extension information utility for x;
+ - xwininfo, a window information utility for x;
+
+
+the editres and viewres programs use bitmap images provided by the
+xbitmaps package. the luit program requires locale information from
+the libx11-data package.

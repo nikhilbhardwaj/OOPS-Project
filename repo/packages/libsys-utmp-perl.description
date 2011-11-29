@@ -1,0 +1,5 @@
+Perl module to query utmp files
+	
+sys::utmp provides a vaguely object oriented interface to the unix user
+accounting file /var/run/utmp, and other files of similar format. it can
+only be used to query the contents of the file, and cannot modify it.

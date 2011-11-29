@@ -1,0 +1,23 @@
+Clients scripts for cia commit notification on irc
+	
+cia is a system for tracking open-source projects in real-time. people all
+over the world are constantly collaborating and creating software, creating a
+constant flow of new code and new ideas. cia provides an easy way for people
+to observe this flow. commit messages will be posted in #commits on
+freenode.net, and cia bots can be asked to join other irc networks and
+channels for individual projects.
+
+this collection include cia client scripts for:
+
+ * arch (tla)
+ * bazaar (bzr)
+ * bitkeeper (bk)
+ * cvs
+ * darcs
+ * git
+ * subversion (svn)
+   (the svnmailer package also includes cia support)
+ * mercurial (hg)
+
+
+see http://cia.vc/ for more information on the cia system.

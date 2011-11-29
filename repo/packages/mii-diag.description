@@ -1,0 +1,6 @@
+A little tool to manipulate network cards
+	
+examines and sets the mii registers of network cards.
+
+this is a general program. you can find specialized programs for
+several network cards in the nictools-pci and nictools-nopci packages.

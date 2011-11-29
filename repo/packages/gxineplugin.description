@@ -1,0 +1,10 @@
+The xine video player, gtk+/gnome; launcher plugin for mozilla
+	
+this is a gtk+ based gui for the libxine video player library.
+it provides gxine, a  media player that can play all the audio/video formats
+that libxine supports. currently, this includes mpeg1/2, some avi and
+quicktime files, some network streaming methods and disc based media (vcd,
+svcd, dvd).
+a more complete list can be found on http://xinehq.de/.
+
+this package contains the mozilla plugin, which is a launcher for gxine.

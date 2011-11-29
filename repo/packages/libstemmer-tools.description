@@ -1,0 +1,7 @@
+Simple word stemming utility using snowball
+	
+snowball provides access to efficient algorithms for calculating a
+"stemmed" form of a word.
+
+this package contains "stemwords", a simple utility function for stemming
+words.

@@ -1,0 +1,9 @@
+Advanced modular syslog daemon - gnutls support
+	
+dsyslog is an advanced, modular syslog daemon which allows for
+infinite expandability, scalability and customization through
+advanced rulesets, rewrite filters, and output sinks. the default
+configuration is comparable to the syslogd configuration provided
+by sysklogd.
+
+this package provides the gnutls output module.

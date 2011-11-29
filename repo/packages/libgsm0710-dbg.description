@@ -1,0 +1,10 @@
+Debugging symbols for use with libgsm0710
+	
+this library provides a lightweight implementation of the 3gpp gsm 07.10
+multiplexing protocol. in conjunction with libgsm0710mux it provides
+the base for multiplexing in the freesmartphone.org software stack.
+
+this package contains unstripped shared libraries. it is provided primarily
+to provide a backtrace with names in a debugger, this makes it somewhat easier
+to interpret core dumps. the libraries are installed in /usr/lib/debug and
+are automatically used by gdb.

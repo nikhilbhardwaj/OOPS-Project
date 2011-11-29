@@ -1,0 +1,18 @@
+External policy checker for the postfix mail server
+	
+tumgreyspf can optionally greylist and/or use spfquery to check spf records
+to determine if email should be accepted by your server. the default behavior
+is to let emails comming from server that are spf approved without any sort
+of greylisting, while all others will be greylisted.
+
+spf is information published by the domain owner about what systems may
+legitimately send e-mail for the domain. greylisting takes advantage of spam
+and viruses that do not follow the rfcs and retry deliveries on temporary
+failure. these checks can be used as part of a mail system and allow several
+orders of magnitude reduction in spam, lower system load, and few problems
+with legitimate mail getting blocked.
+
+tumgreyspf uses the file-system as its database, no additional database is
+required to use it, see /var/lib/tumgreyspf/data and it's clean-up cron
+script. also take care that tumgreyspf will block emails from any domain with
+dns configured with a buggy spf record.

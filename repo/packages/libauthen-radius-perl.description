@@ -1,0 +1,6 @@
+Module to authenticate users using radius
+	
+authen::radius is a perl module that supports authentication of credentials
+against a radius database. it also permits retrieval and modification of a
+user's settings. name/value attribute pairs are automatically translated by
+the loaded dictionary.

@@ -1,0 +1,6 @@
+Embedded gnu c library: name service cache daemon
+	
+a daemon which handles passwd, group and host lookups
+for running programs and caches the results for the next
+query. you should install this package only if you use
+slow services like ldap, nis or nis+

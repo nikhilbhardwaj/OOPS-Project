@@ -1,0 +1,20 @@
+Chemical toolbox library (development files)
+	
+open babel is a chemical toolbox designed to speak the many languages of
+chemical data. it allows to search, convert, analyze, or store data from
+molecular modeling, chemistry, solid-state materials, biochemistry, or related
+areas.  features include:
+
+
+ * hydrogen addition and deletion
+ * support for molecular mechanics
+ * support for smarts molecular matching syntax
+ * automatic feature perception (rings, bonds, hybridization, aromaticity)
+ * flexible atom typer and perception of multiple bonds from atomic coordinates
+ * gasteiger-marsili partial charge calculation
+
+
+file formats open babel supports include pdb, xyz, cif, cml, smiles, mdl
+molfile, chemdraw, gaussian, gamess, mopac and mpqc.
+
+this package contains the static library and the header files.

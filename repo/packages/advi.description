@@ -1,0 +1,13 @@
+An active dvi previewer and presenter
+	
+active-dvi is a dvi previewer and presenter written in objective caml
+with some eye candy effects for presentation, support for interactive
+demonstrations, and embedding of arbitrary applications within the
+presentation (hence the active adjective of the presenter :).
+
+active-dvi does not (yet) support postscript fonts (see the readme.debian for
+more details).
+
+active-dvi also has the ability to run embedded commands, which may cause
+security problems when viewing untrusted dvi files. make sure to read the
+readme.debian for more information.

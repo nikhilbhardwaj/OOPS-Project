@@ -1,0 +1,8 @@
+Implementation of the xdg base directory specifications
+	
+the xdg base directory specification defines where should user files be
+looked for by defining one or more base directories relative in with they
+should be located.
+
+this library implements functions to list the directories according to the
+specification and provides a few higher-level functions.

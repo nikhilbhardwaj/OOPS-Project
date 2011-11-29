@@ -1,0 +1,4 @@
+Mix-in to add / call inheritable triggers
+	
+class::trigger is a mixin class to add / call triggers (or hooks)
+that get called at some points you specify.

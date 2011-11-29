@@ -1,0 +1,8 @@
+Portable c++ multi-threading
+	
+this package forms part of the boost c++ libraries collection.
+
+toolkit for writing c++ programs that execute as multiple,
+asynchronous, independent, threads-of-execution. each thread has its
+own machine state including program instruction counter and
+registers.

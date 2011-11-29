@@ -1,0 +1,4 @@
+PackageId:33683
+Name:update-inetd
+Version:4.38+nmu1+squeeze1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libfile-copy-recursive-perl,libfile-temp-perl,perl-modules

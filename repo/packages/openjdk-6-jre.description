@@ -1,0 +1,6 @@
+Openjdk java runtime, using hotspot jit
+	
+full java runtime environment - needed for executing java gui and webstart
+programs. using hotspot jit.
+the packages are built using the icedtea build support and patches
+from the icedtea project.

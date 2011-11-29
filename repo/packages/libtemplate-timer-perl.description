@@ -1,0 +1,5 @@
+Rudimentary profiling module for template toolkit
+	
+template::timer provides inline timings of the template processing throughout
+your code. it's an overridden version of template::context that wraps the
+process() and include() methods.

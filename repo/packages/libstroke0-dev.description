@@ -1,0 +1,9 @@
+Mouse strokes library -- development files
+	
+libstroke is a stroke interface library.  strokes are motions
+of the mouse that can be interpreted by a program as a command. strokes
+are common in cad software such as geda and mentor graphics.
+fvwm can use mouse strokes to cause certain actions, just like button
+clicks.
+
+this package contains the header files needed for developing with this library.

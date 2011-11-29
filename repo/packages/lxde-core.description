@@ -1,0 +1,11 @@
+Meta-package for the lightweight x11 desktop environment core
+	
+lxde (the lightweight x11 desktop environment) is a new project aimed
+to provide a new desktop environment which is lightweight and fast.
+
+this package is a metapackage depends on the recommended core components
+of the lxde. it includes pcmanfm, lxpanel, lxsession, openbox and
+xscreensaver.
+
+if you just want to pick and choose the core components then feel free
+to remove this package.

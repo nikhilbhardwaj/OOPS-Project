@@ -1,0 +1,10 @@
+Client for the gearman distributed job system
+	
+gearman is a system to farm out work to other machines, dispatching function
+calls to machines that are better suited to do work, to do work in parallel,
+to load balance lots of function calls, or to call functions between
+languages.
+
+this package contains a client class for the gearman distributed job system,
+providing a framework for sending jobs to one or more gearman servers. for
+more information, see <url:http://www.danga.com/gearman/>.

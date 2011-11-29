@@ -1,0 +1,13 @@
+C library for generating pdf files
+	
+haru is a free, cross platform, open-source c library for generating
+pdf files. it supports the following features:
+
+ 1. generation of pdf files with lines, text and images.
+ 2. outlines, text and link annotations.
+ 3. document compression usig deflate-decode.
+ 4. embedded png and jpeg images.
+ 5. embedded type1 and truetype fonts.
+ 6. creation of encrypted pdf files.
+ 7. usage of various character sets (iso8859-1~16, mscp1250~8, koi8-r).
+ 8. support for cjk fonts and encodings.

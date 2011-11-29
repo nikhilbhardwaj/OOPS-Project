@@ -1,0 +1,10 @@
+Video decode and presentation api for unix (libraries)
+	
+vdpau (video decode and presentation api for unix) is an open source
+library (libvdpau) and api designed by nvidia originally for its geforce
+8 series and later gpu hardware, targeted at the x window system on unix
+operating-systems (including linux, freebsd, and solaris). this vdpau api
+allows video programs to offload portions of the video decoding process
+and video post-processing to the gpu video-hardware.
+
+this package contains the vdpau wrapper and trace libraries.

@@ -1,0 +1,11 @@
+Passive os fingerprinting tool
+	
+p0f performs passive os detection based on syn packets. unlike nmap
+and queso, p0f does recognition without sending any data.
+additionally, it is able to determine the distance to the remote
+host, and can be used to determine the structure of a foreign or
+local network. when running on the gateway of a network it is able
+to gather huge amounts of data and provide useful statistics. on a
+user-end computer it could be used as powerful ids add-on. p0f
+supports full tcpdump-style filtering expressions, and has an
+extensible and detailed fingerprinting database.

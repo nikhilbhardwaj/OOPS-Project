@@ -1,0 +1,20 @@
+A (syntax-)tree-handling tool (term processor)
+	
+kimwitu++ is a system that supports the construction of programs that use
+trees or terms as their main data structure.  it allows you to define, store
+and operate on trees with typed nodes. each type of node has a specific number
+of sons, and expects these sons to have specific types.  the most popular
+example of such trees are syntax trees.
+
+the nodes are defined in a yacc-like fashion.  the tree can be unparsed (ie.
+treewalk) and rewritten (ie. term substitution). kimwitu++ gives you powerful
+pattern matching for specifying unparse and rewrite rules.
+
+kimwitu++ is an extension to c++. it introduces yacc-like node definitions,
+the unparse and rewrite rules, and extensions for pattern matching within
+functions. it will translate its input files into pure c++.
+
+to build the tree you might use a parser generated with bison, but you are
+free to use other tools.  there also exists kimwitu (also packaged for debian)
+which interfaces with c instead of c++ which can also be used in c++ projects,
+but kimwitu++ has some extensions one might consider useful.

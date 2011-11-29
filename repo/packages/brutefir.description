@@ -1,0 +1,15 @@
+A software convolution engine
+	
+brutefir is a program for applying long fir filters to multi-channel
+digital audio, either offline or in realtime. its basic operation is
+specified through a configuration file, and filters, attenuation and
+delay can be changed in runtime through a simple command line
+interface. the fir filter algorithm used is  an optimised frequency
+domain algorithm, partly implemented in hand-coded assembler, thus
+throughput is extremely high. in realtime, a standard computer can
+typically run more than 10 channels with more than 60000 filter taps
+each.
+
+through its highly modular design, things like adaptive filtering,
+signal generators and sample i/o are easily added, extended and
+modified, without the need to alter the program itself.

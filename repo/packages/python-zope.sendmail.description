@@ -1,0 +1,5 @@
+Mail sending library for zope
+	
+this package is useful when your zope 3 application wants to send email.  it
+integrates with the transaction mechanism and queues your emails to be sent on
+successful commits only.

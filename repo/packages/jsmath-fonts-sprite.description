@@ -1,0 +1,10 @@
+Raster fonts for jsmath plugin spriteimagefonts
+	
+rasterized fonts saved in separate image files -- 1 image per font to
+enable viewing of jsmath pages by a web-browser which is missing
+access to tex fonts. sprite organization of raster fonts elivates the
+problem of jsmath-fonts, which is a tremendous number of images since
+each character has a separate image file. but such advantage comes at
+speed and compatibility cost.
+
+homepage: http://www.math.union.edu/~dpvc/jsmath

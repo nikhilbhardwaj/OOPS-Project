@@ -1,0 +1,11 @@
+Music player daemon controlled from the gnome panel or cli
+	
+quark is an audio player, for geeks, by geeks. it runs in the
+background with access provided via a fifo in the filesystem. it uses
+xine-lib for playing music, and can therefore play any file format
+supported by xine.
+
+quark comes with a couple front-ends to make it more useful:
+
+ * charm-quark - a cli interface
+ * strange-quark - a gnome notification area interface.

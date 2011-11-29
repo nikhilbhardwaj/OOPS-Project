@@ -1,0 +1,5 @@
+Virtual midi keyboard
+	
+this program allows you to use the linux awe32 driver, oss midi sequencer,
+or alsa midi sequencer and provides "virtual" keyboard (the musical type),
+which can be "played" using the keyboard or mouse under x11.

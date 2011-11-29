@@ -1,0 +1,4 @@
+Set of php scripts for administering a freeradius server
+	
+these scripts provide a web-based interface for administering a freeradius
+server which stores authentication information in either sql or ldap.

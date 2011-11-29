@@ -1,0 +1,7 @@
+Parser for json-based configuration files
+	
+config::json is a perl module capable of parsing and writing configuration
+files written in javascript object notation (json). it supports arbitrary
+file inclusion (even hierarchical includes) and comments in the file. it is
+beneficial in environments that already use json, since the parser is already
+loaded into memory.

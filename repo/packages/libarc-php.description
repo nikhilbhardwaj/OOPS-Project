@@ -1,0 +1,8 @@
+Flexible rdf system for semantic web and php practitioners
+	
+arc is a flexible rdf system for semantic web and php practitioners.
+
+it offers the following features : various rdf parsers and extractors
+(rdf/xml, turtle, rss, microformats, erdf, rdfa, ...); serializers
+(n-triples, rdf/json, rdf/xml, turtle); rdf storage, sparql query,
+and update; turtle templating and plugins and triggers.

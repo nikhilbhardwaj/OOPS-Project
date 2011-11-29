@@ -1,0 +1,12 @@
+Debugging symbols for libembryo
+	
+embryo is primarily a shared library that gives you an api to load
+and control interpreted programs compiled into an abstract machine
+bytecode that it understands.  this abstract (or virtual) machine is
+similar to a real machine with a cpu, but it is emulated in
+software
+
+this package contains unstripped shared libraries. it is provided primarily
+to provide a backtrace with names in a debugger, this makes it somewhat
+easier to interpret core dumps. the libraries are installed in
+/usr/lib/debug and are automatically used by gdb.

@@ -1,0 +1,5 @@
+Library to read/write paradox database files
+	
+library to read and write paradox db files. all versions
+of paradox are supported. binary large objects can only be
+read. primary index files can be read and written.

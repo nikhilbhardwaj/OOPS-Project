@@ -1,0 +1,16 @@
+Conversion tool to generating several file formats
+	
+txt2tags is a document generator written in python that
+generates html, xhtml, sgml, latex, lout, man page, wikipedia,
+google code wiki, dokuwiki, moinmoin, magic point and pagemaker
+documents from a plain text file with little marks.
+
+different from other conversion tools, it is generic, and not
+target-specific (as a txt2html tool). this way, you can keep just
+one source text file and one tool for all your formatting needs.
+
+supports header, title, bold/italic/underline/strike, preformatted,
+quote, link, lists, bar, image and table.
+
+with txt2tags, you focuses your mind on the document content, and
+forget about formatting. just let the program do this dirty job.

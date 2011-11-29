@@ -1,0 +1,12 @@
+Tool to audit dns signed zones according to local policy
+	
+opendnssec is a complete dnssec zone signing system which is very
+easy to use with stability and security in mind.  there are a lot of
+details in signing zone files with dnssec and opendnssec covers most
+of it.
+
+this package contains opendnssec auditor, which is a tool to check
+whether dnssec signed zone complies to a local policy.  it is issued
+automatically (unless disabled) after each resigning of a zone
+and will stop the signed zone file from being distributed if any
+error is found.

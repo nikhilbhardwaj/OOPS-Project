@@ -1,0 +1,15 @@
+X11 graphical kernel subsystem, development files
+	
+xgks is a level 2c implementation of the ansi graphical kernel system (gks)
+for use in a unix environment with the x window system. it supports the
+fortran language binding and a c language binding based on the 1988 draft.
+
+gks is a basic graphics system for applications that produce computer
+generated two-dimensional pictures on line graphics or raster graphics output
+devices.  it supports operator input and interaction by supplying basic
+functions for graphical input and picture segmentation and allows storage and
+dynamic modification of pictures.  gks is no longer under active development,
+but used in several existing graphical toolkits.
+
+it is not expected that xgks will gather any _new_ users, but factoring it out
+simplifies the size and maintenance of some other packages.

@@ -1,0 +1,9 @@
+Unit testing library for c -- documentation
+	
+cunit is a simple framework for incorporating test cases in your c
+code similar to junit or cppunit. it provides c programmers a basic
+testing functionality with a flexible variety of user interfaces.  it
+uses a simple framework for building test structures, and provides a
+rich set of assertions for testing common data types.  in addition,
+several different interfaces are provided for running tests and
+reporting results.

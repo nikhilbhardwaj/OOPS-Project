@@ -1,0 +1,6 @@
+Perl interface for github
+	
+github, http://github.com/, is a service for hosting git source code
+repositories and managing projects using git. the net::github module
+provides a perl interface that implements v1 and v2 of the github api,
+described at http://develop.github.com/.

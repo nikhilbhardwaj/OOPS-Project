@@ -1,0 +1,5 @@
+Provides missing functionality for older versions of php
+	
+php_compat provides drop-in functions and constants for compatibility with
+newer versions of php, environment emulation, and an api to allow for version
+indepedent authoring.

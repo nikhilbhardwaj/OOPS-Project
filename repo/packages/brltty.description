@@ -1,0 +1,35 @@
+Access software for a blind person using a braille display
+	
+brltty is a daemon which provides access to the console (text mode)
+for a blind person using a braille display.  it drives the braille
+display and provides complete screen review functionality.
+the following display models are supported:
+
+ * alva (abt3xx, delphi, satellite, braille system 40, bc 640/680)
+ * baum
+ * braillelite (18, 40, m20/m40)
+ * braillenote (18/32)
+ * ecobraille displays
+ * eurobraille displays
+ * freedom scientific (focus and pacmate)
+ * handytech displays
+ * hims (braille sense, syncbraille)
+ * logtext 32
+ * mdv braille displays
+ * papenmeier
+ * pegasus (20/27/40/80)
+ * seika 40
+ * tieman (voyager 44/70, combibraille, minibraille and multibraille)
+ * tivomatic (albatross)
+ * tsi (powerbraille/navigator)
+ * videobraille
+ * visiobraille
+
+
+brltty also provides a client/server based infrastructure for applications
+wishing to utilize a braille display.  the daemon process listens for incoming
+tcp/ip connections on a certain port.  a shared object library for clients is
+provided in the package libbrlapi0.5.  a static library, header files and
+documentation is provided in package libbrlapi-dev.  bindings to other
+programming languages can be found in cl-brlapi (lisp), libbrlapi-java (java)
+and python-brlapi (python).

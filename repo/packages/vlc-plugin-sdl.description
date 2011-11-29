@@ -1,0 +1,10 @@
+Sdl video and audio output plugin for vlc
+	
+this plugin adds support for the simple directmedia layer library to
+the vlc media player. to activate it, use the `--vout sdl' or
+`--aout sdl' flags or select the `sdl' video or audio output plugin
+from the preferences menu.
+
+vlc is the videolan project's media player. it plays mpeg, mpeg2, mpeg4,
+divx, mov, wmv, quicktime, mp3, ogg/vorbis files, dvds, vcds, and multimedia
+streams from various network sources.

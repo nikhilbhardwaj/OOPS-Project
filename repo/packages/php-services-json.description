@@ -1,0 +1,18 @@
+Php implementaion of json_encode/decode
+	
+json (javascript object notation, http://json.org) is a lightweight
+data-interchange format. it is easy for humans to read and write. it is easy
+for machines to parse and generate. it is based on a subset of the javascript
+programming language, standard ecma-262 3rd edition - december 1999. this
+feature can also be found in python. json is a text format that is completely
+language independent but uses conventions that are familiar to programmers of
+the c-family of languages, including c, c++, c#, java, javascript, perl, tcl,
+and many others. these properties make json an ideal data-interchange
+language.
+
+this package provides a simple encoder and decoder for json notation. it is
+intended for use with client-side javascript applications that make use of
+httprequest to perform server communication functions - data can be encoded
+into json notation for use in a client-side javascript, or decoded from
+incoming javascript requests. json format is native to javascript, and can be
+directly eval()'ed with no further parsing overhead.

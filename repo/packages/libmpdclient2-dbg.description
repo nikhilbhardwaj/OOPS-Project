@@ -1,0 +1,8 @@
+Debug symbols for libmpdclient2
+	
+libmpdclient provides an api for interfacing the music player daemon (mpd). it
+offers a low-level asynchronous api which knowns the mpd protocol syntax as
+well as a higher level synchronous api implementing the mpd commands and
+parsing all responses.
+
+this package provides the debugging symbols for the shared library.

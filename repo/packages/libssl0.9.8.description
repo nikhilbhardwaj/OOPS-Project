@@ -1,0 +1,6 @@
+Ssl shared libraries
+	
+libssl and libcrypto shared libraries needed by programs like
+apache-ssl, telnet-ssl and openssh.
+
+it is part of the openssl implementation of ssl.

@@ -1,0 +1,7 @@
+Runtime libraries for firestring, a string handling library
+	
+firestring is a library designed to make string handling easier. it includes
+string functions that are included in most libc's, but not in ansi c, so that
+programmers can write portable code while not having to reinvent the wheel.
+
+firestring also includes code for configuration file handling.

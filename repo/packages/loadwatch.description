@@ -1,0 +1,8 @@
+Run a program using only idle cycles
+	
+loadwatch forks a child process and only allows it to run when the
+system load meets user-defined parameters. it allows you to specify
+that a program should run only if the load is below a specified
+point, and will stop it when that point is reached. when the load
+falls below a second specified point, the program will be
+continued. the user can also specify the system load sampling period.

@@ -1,0 +1,7 @@
+Development files for the cairo 2d graphics library
+	
+cairo is a multi-platform library providing anti-aliased
+vector-based rendering for multiple target backends.
+
+this package contains the development libraries, header files needed by
+programs that want to compile with cairo.

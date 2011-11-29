@@ -1,0 +1,4 @@
+Headers for building applications communicating with gnome-settings-daemon
+	
+this package contains header files required to build applications that
+communicate with the gnome settings daemon over d-bus.

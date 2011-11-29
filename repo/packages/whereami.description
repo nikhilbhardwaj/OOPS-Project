@@ -1,0 +1,22 @@
+Automatically reconfigure your (laptop) system for a new location
+	
+whereami is a set of useful scripts and a coordinating system for
+automatically re-locating your computer within the current (network)
+environment.
+
+typically, you would use whereami to automatically detect and
+re-configure your laptop when you move between a variety of diverse
+networks and/or docking environments.
+
+although whereami will work best if all of your networks assign
+addresses through dhcp, this is not a pre-requisite and the system
+allows any technique to be used to ascertain the new location with
+as little ongoing user intervention as possible.
+
+having ascertained the correct location, whereami will run appropriate
+(user-configured) scripts to adjust the laptop operation to suit the
+current environment.
+
+see the man pages for more information.  you may also get useful
+assistance from the debian-laptop mailing list, which is
+frequented by several of the users and contributors.

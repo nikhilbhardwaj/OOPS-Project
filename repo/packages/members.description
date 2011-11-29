@@ -1,0 +1,12 @@
+Shows the members of a group; by default, all members
+	
+members is the complement of groups: whereas groups shows the groups a
+specified user belongs to, members shows users belonging to a specified
+group.
+
+given the name of a group, members will send a space-separated list of
+member names to stdout.
+
+full option parsing has been added as of this version. you can ask for
+primary members, secondary members, both on one line, each on separate
+lines. if no option is selected, prints all members on one line by default.

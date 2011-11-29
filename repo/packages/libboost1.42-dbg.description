@@ -1,0 +1,6 @@
+Boost c++ libraries with debug symbols
+	
+this package forms part of the boost c++ libraries collection.
+
+these libraries are built with debug symbols. they are useful to debug
+programs which use boost. these must be used also at build/link time.

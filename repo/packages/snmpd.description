@@ -1,0 +1,8 @@
+Snmp (simple network management protocol) agents
+	
+the simple network management protocol (snmp) provides a framework
+for the exchange of management information between agents (servers)
+and clients.
+
+the net-snmp agent is a daemon which listens for incoming snmp
+requests from clients and provides responses.

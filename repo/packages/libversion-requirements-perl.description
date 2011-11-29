@@ -1,0 +1,9 @@
+Module for handling version requirements for a cpan dist
+	
+a version::requirements object models a set of version constraints like those
+specified in the meta.yml or meta.json files in cpan distributions. it can be
+built up by adding more and more constraints, and it will reduce them to the
+simplest representation.
+
+logically impossible constraints will be identified immediately by thrown
+exceptions.

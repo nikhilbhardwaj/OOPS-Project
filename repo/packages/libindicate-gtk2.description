@@ -1,0 +1,6 @@
+Library for raising indicators via dbus - gtk+ bindings
+	
+a small library for applications to raise "flags" on dbus for other components
+of the desktop to pick up and visualize.
+
+this package contains shared libraries to be used by gtk+ applications.

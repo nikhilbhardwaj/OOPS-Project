@@ -1,0 +1,7 @@
+Pl/perl procedural language for postgresql 8.4
+	
+pl/perl enables an sql developer to write procedural language functions
+for postgresql 8.4 in perl.  you need this package if you have any
+postgresql 8.4 functions that use the languages plperl or plperlu.
+
+postgresql is an object-relational sql database management system.

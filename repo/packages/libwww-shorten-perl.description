@@ -1,0 +1,5 @@
+Perl modules providing abstract interface to url shortening sites
+	
+this package contains a variety of modules to interface with many url
+shortening sites. each site maintains a database of long urls, each of which
+has a unique identifier.

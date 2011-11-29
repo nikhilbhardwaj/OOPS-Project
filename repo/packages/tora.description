@@ -1,0 +1,6 @@
+A graphical toolkit for database developers and administrators
+	
+tora features a schema browser, sql worksheet, pl/sql editor & debugger,
+storage manager, rollback segment monitor, instance manager, and sql output
+viewer. via qt4 it can access postgresql and mysql directly. any other
+database systems can be accessed via odbc.

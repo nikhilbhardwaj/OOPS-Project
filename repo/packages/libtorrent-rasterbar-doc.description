@@ -1,0 +1,14 @@
+Documentation for libtorrent-rasterbar
+	
+bittorrent library by rasterbar software (arvid norberg).
+libtorrent-rasterbar is a c++ library that aims to be a good alternative to
+all the other bittorrent implementations around.
+
+the main goals of libtorrent-rasterbar are:
+
+ * to be cpu efficient
+ * to be memory efficient
+ * to be very easy to use
+
+
+this package contains documentation and example files.

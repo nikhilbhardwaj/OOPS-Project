@@ -1,0 +1,6 @@
+Lightweight xml tree builder
+	
+xml::parser::lite::tree is a singleton class for parsing xml into a tree
+structure. it differs from other xml tree generators because it is based on
+xml::parser::lite, which is a pure perl xml parser. using this module you can
+tree-ify simple xml without having to compile any c.

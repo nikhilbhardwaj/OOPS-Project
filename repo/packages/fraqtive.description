@@ -1,0 +1,7 @@
+Draws mandelbrot and julia fractals
+	
+fraqtive is a program for drawing mandelbrot and julia fractals.
+it uses a very fast algorithm and generates high quality, smooth
+images. it is fully interactive, allowing for real-time mouse
+navigation and dynamic generation of the julia fractal preview.
+opengl-rendered 3d view of the fractals is also supported.

@@ -1,0 +1,9 @@
+Search the web via the xfce4 panel
+	
+this plugin adds a text field to the xfce panel, allowing the user to search
+the web. the url and the text field size are configurable options.
+
+typical use cases are: google, wikipedia, the debian bug tracking system
+
+xfce4-smartbookmark-plugin is based on the smart bookmark concept:
+http://en.wikipedia.org/wiki/smart_bookmark

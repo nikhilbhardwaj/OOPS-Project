@@ -1,0 +1,4 @@
+Tools for conversion of esri arcinfo (binary) vector coverage in e00 format.
+	
+avce00 is a c library and group of tools that makes arcinfo (binary) vector coverages
+appear as e00. it allows you to read and write binary coverages just as if they were e00 files.

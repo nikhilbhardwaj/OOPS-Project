@@ -1,0 +1,9 @@
+Medical image (dicom, ecat, ...) conversion tool
+	
+this project stands for medical image conversion. released under the
+(l)gpl, it comes with the full c-source code of the library, a
+flexible command line utility and a neat graphical front-end using
+the gtk+ toolkit. the currently supported formats are: acr/nema 2.0,
+analyze (spm), dicom 3.0, interfile 3.3 and png.
+
+static library, include files and documentation for developers.

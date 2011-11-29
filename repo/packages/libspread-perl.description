@@ -1,0 +1,5 @@
+Perl bindings for the spread messaging service
+	
+a perl wrapper for libspread and the spread messaging service. spread
+provides a high performance messaging service that is resilient to
+faults across external or internal networks.

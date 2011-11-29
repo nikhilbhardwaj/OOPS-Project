@@ -1,0 +1,11 @@
+The scientific computing toolkit (basis set and atom data)
+	
+the scientific computing toolkit (sc) provides c++ class libraries for
+scientific computation. included are classes for managing memory, saving and
+restoring the state of objects, reading objects from an input file, parallel
+communication, matrix algebra, among others.
+
+class libraries supporting quantum chemistry applications are provided with
+this distribution of sc.
+
+this package includes the basis set and atom data.

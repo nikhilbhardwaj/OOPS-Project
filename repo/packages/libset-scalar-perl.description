@@ -1,0 +1,6 @@
+Perl interface for operations on finite sets
+	
+set::scalar provides an interface for working with finite, unordered sets of
+elements: creating, modifying, displaying, comparing and deriving them; the
+computation of power sets and the cartesian product of sets. it also provides
+overloaded operators for most operations.

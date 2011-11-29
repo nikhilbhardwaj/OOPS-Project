@@ -1,0 +1,5 @@
+Cli binding for fuse
+	
+mono.fuse is a binding for the fuse library, permitting user-space
+file systems to be written in c# or other cli based / enabled
+languages.

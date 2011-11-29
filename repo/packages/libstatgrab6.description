@@ -1,0 +1,5 @@
+Library being useful interface to system statistics
+	
+libstatgrab is a library which provides an easy to use interface
+for accessing system statistics. available statistics include cpu,
+load, memory, swap, disk i/o, and network i/o.

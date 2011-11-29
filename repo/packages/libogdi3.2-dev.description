@@ -1,0 +1,12 @@
+Open geographic datastore interface library -- development
+	
+ogdi is the open geographic datastore interface. ogdi is an application
+programming interface (api) that uses  a standardized access methods to
+work  in  conjunction  with  gis software  packages  (the  application)
+and  various  geospatial  data  products.  ogdi  uses  a  client/server
+architecture  to  facilitate  the   dissemination  of  geospatial  data
+products over  any tcp/ip  network, and  a driver-oriented  approach to
+facilitate access to several geospatial data products/formats.
+
+this package contains the development files to build ogdi enabled
+programs.

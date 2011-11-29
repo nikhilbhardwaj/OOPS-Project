@@ -1,0 +1,27 @@
+A simple tree object
+	
+this module is a fully object-oriented implementation of a simple
+n-ary tree. it is built upon the concept of parent-child
+relationships, so therefore every tree::simple object has both a
+parent and a set of children (who themselves may have children, and so
+on). every tree::simple object also has siblings, as they are just the
+children of their immediate parent.
+
+it can be used to model hierarchal information such as a file-system,
+the organizational structure of a company, an object inheritance
+hierarchy, versioned files from a version control system or even an
+abstract syntax tree for use in a parser. it makes no assumptions as
+to your intended usage, but instead simply provides the structure and
+means of accessing and traversing said structure.
+
+this module uses exceptions and a minimal design by contract
+style. all method arguments are required unless specified in the
+documentation, if a required argument is not defined an exception will
+usually be thrown. many arguments are also required to be of a
+specific type, for instance the $parent argument to the constructor
+must be a tree::simple object or an object derived from tree::simple,
+otherwise an exception is thrown. this may seems harsh to some, but
+this allows me to have the confidence that my code works as i intend,
+and for you to enjoy the same level of confidence when using this
+module. note however that this module does not use any exception or
+error module, the exceptions are just strings thrown with die.

@@ -1,0 +1,11 @@
+Documentation for the scheme48 implementation of scheme
+	
+scheme48 is an implementation of scheme written by richard kelsey
+and jonathan rees. it is based on a byte-code interpreter and
+incorporates such elements as a sophisticated module system, a
+pre-emptive & user-level thread system, a well-integrated
+interactive environment, clinger's explicit renaming low-level
+macros, and decent efficiency for its architecture.
+
+this package provides "the incomplete scheme48 reference manual" in
+html and pdf form.

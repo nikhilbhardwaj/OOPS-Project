@@ -1,0 +1,13 @@
+Peer-to-peer bug tracker
+	
+sd is a peer-to-peer bug tracker that's built for sharing and use both
+online and offline. with sd, you can sync your bugs back and forth
+between other instances of sd, and even between sd and other bug
+trackers that sd supports. since sd does not require a network
+connection for use and stores bug information locally, you can always
+access your bugs, no matter where you are.
+
+currently, sd supports syncing between sd and rt, hiveminder,
+trac, github, google code, and redmine (read-only).
+
+sd is built on top of prophet, a distributed database system.

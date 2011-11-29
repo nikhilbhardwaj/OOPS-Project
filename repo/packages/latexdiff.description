@@ -1,0 +1,14 @@
+Utility to mark up significant differences between latex files
+	
+latexdiff compares two latex files and marks up significant differences
+between them (i.e. a diff for latex files). it generates a new latex file
+containing the annotated differences.
+
+various options are available for visual markup using standard latex packages
+such as 'color.sty'. changes not directly affecting visible text, for example
+in formatting commands, are still marked in the latex source.
+
+a rudimentary revision facilility is provided by another perl script,
+'latexrevise', which accepts or rejects all changes. manual editing of the
+difference file can be used to override this default behaviour and accept or
+reject selected changes only.

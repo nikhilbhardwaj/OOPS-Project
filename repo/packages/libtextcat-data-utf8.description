@@ -1,0 +1,8 @@
+Language detection library - data files
+	
+libtextcat is a library with functions that implement the classification
+technic described in cavnar & trenkle, "n-gram-based text categorization".
+it was primarily developed for language guessing, a task on which it is known
+to perform with near-perfect accuracy.
+
+this package provides the libtextcat data files.

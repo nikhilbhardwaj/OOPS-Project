@@ -1,0 +1,8 @@
+Gnu privacy guard - signature verification tool
+	
+gnupg is gnu's tool for secure communication and data storage.
+
+gpgv is a stripped-down version of gnupg which is only able to check
+signatures.  it is smaller than the full-blown gnupg and uses a
+different (and simpler) way to check that the public keys used to
+make the signature are trustworthy.

@@ -1,0 +1,24 @@
+X11 print system (binary)
+	
+xprint is an advanced printing system which enables x11 applications
+to use devices like printers, fax or create documents in formats like
+postscript, pdf, pcl, etc.
+
+this package provides xprt, the xprint server compiled from
+xprint.mozdev.org, an x.org subproject. xprint provides superior support
+for printing from mozilla, including non-latin characters and mathml.
+truetype fonts are supported.
+
+please note that xprint is now deprecated and will be removed from the
+next debian release. those looking for the xprint wysiwyp functionality
+("what you see is what you print") should consider switching to the cairo
+library.
+
+xprint uses ttf2pt1 internally for some font support.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xserver module.

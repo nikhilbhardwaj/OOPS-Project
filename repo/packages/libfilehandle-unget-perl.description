@@ -1,0 +1,6 @@
+Perl module that allows ungetting of multiple bytes
+	
+filehandle::unget is a perl module that is a drop-in replacement for the
+standard filehandle module. it allows more than one byte to be placed back
+on the input. it also provides ungets to unget a string, which is useful if
+the filehandle refers to a stream for which you can't just seek() backwards.

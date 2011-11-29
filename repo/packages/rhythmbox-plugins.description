@@ -1,0 +1,34 @@
+Plugins for rhythmbox music player
+	
+rhythmbox is a very easy to use music playing and management program
+which supports a wide range of audio formats (including mp3 and ogg).
+originally inspired by apple's itunes, the current version also supports
+internet radio, ipod integration and generic portable audio player
+support, audio cd burning, audio cd playback, music sharing, and
+podcasts.
+
+this package contains the following plugins:
+
+ - cover art
+ - audio cd player
+ - last.fm
+ - context panel
+ - daap music sharing
+ - fm radio
+ - portable players
+ - im status
+ - portable players - ipod
+ - internet radio
+ - jamendo
+ - song lyrics
+ - magnatune store
+ - media player keys
+ - portable players - mtp
+ - power manager
+ - python console
+ - lirc
+ - status icon
+ - visualization
+ - browser plugin to integrate rhythmbox with itunes
+ - nautilus send-to
+ - replay gain

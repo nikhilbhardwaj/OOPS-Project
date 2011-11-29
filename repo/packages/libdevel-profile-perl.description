@@ -1,0 +1,6 @@
+A perl code profiler
+	
+devel::profile is a perl code profiler. it collects information on the
+execution time of a perl script and of the subs in that script. this
+information can be used to determine which subroutines are using the most
+time and which subroutines are being called most often.

@@ -1,0 +1,9 @@
+Tool for testing vt100 compatibility of terminals
+	
+this package provides a program designed to test the functionality of
+a vt100 terminal (or emulator). it also supports analysis of vt220,
+vt420, and xterm.
+
+the program is menu-driven and contains full on-line operating
+instructions. it tests both display (escape sequence) and keyboard
+handling.

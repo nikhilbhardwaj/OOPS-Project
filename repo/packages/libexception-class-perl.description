@@ -1,0 +1,13 @@
+Module that allows you to declare real exception classes in perl
+	
+exception::class allows you to declare exceptions in your modules in a
+manner similar to how exceptions are declared in java.
+
+it features a simple interface allowing programmers to 'declare'
+exception classes at compile time.  it also has a base exception
+class, exception::class::base, that can be used for classes stored in
+files (aka modules ;) ) that are subclasses.
+
+it is designed to make structured exception handling simpler and
+better by encouraging people to use hierarchies of exceptions in their
+applications.

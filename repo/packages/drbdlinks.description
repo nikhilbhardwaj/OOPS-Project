@@ -1,0 +1,11 @@
+Manages symlinks into a shared drbd partition
+	
+manages symlinks into a drbd partition which is shared among several
+machines.  a simple configuration file, "/etc/drbdlinks.conf",
+specifies the links.  this can be used to manage links for
+/etc/apache, /var/lib/pgsql, and other system directories that need
+to appear as if they are local to the system when running
+applications after a drbd shared partition has been mounted.
+
+drbd is a raid 1 over tcp/ip solution, please have a look at the
+packages drbd-utils and drbd-module-source for more information.

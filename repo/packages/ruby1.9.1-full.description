@@ -1,0 +1,8 @@
+Ruby 1.9.1 full installation
+	
+for many good reasons, the ruby programming language is split in many
+small different packages. installing this package will make sure you have
+all the packages that add up to a full ruby installation, with the exception
+of the tcl/tk bindings for ruby, which are only recommended.
+
+this package installs the dependencies for ruby 1.9.1.

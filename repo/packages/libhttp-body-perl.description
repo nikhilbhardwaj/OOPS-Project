@@ -1,0 +1,5 @@
+Module for manipulating http post data as an object
+	
+http::body is a perl module for manipulating http post request data in an
+object-oriented way, providing support for application/x-www-form-urlencoded
+application/octet-stream, and multipart/form-data.

@@ -1,0 +1,12 @@
+Metapackage to pull in ttf-dejavu-core and ttf-dejavu-extra
+	
+dejavu provides an expanded version of the vera font family aiming for
+quality and broader unicode coverage while retaining the original vera
+style. dejavu currently works towards conformance with the multilingual
+european standards (mes-1 and mes-2) for unicode coverage. the dejavu
+fonts provide serif, sans and monospaced variants.
+
+use this package if you want all dejavu variants.
+
+dejavu fonts are intended for use on low-resolution devices (mainly
+computer screens) but can be used in printing as well.

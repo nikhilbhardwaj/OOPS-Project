@@ -1,0 +1,9 @@
+The archiver plugin for the plexus compiler system
+	
+the plexus project provides a full software stack for creating and
+executing software projects. based on the plexus container, the applications
+can utilise component-oriented programming to build modular, reusable
+components that can easily be assembled and reused.
+
+this package provides the archiver plugin for plexus, used to create
+jars and other archives.

@@ -1,0 +1,10 @@
+Development files for parsing and querying a genders database
+	
+genders is a static cluster configuration database used for cluster
+configuration management.  it is used by a variety of tools and
+scripts for management of large clusters.  the genders database is
+typically replicated on every node of the cluster. it describes the
+layout and configuration of the cluster so that tools and scripts can
+sense the variations of cluster nodes. by abstracting this information
+into a plain text file, it becomes possible to change the
+configuration of a cluster by modifying only one file.

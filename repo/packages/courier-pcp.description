@@ -1,0 +1,9 @@
+Courier mail server - pcp server
+	
+the courier mail transfer agent (mta) is an integrated mail/groupware
+server based on open commodity protocols, such as esmtp, imap, pop3, ldap,
+ssl, and http. courier provides esmtp, imap, pop3, webmail, and mailing list
+services within a single, consistent, framework.
+
+this package contains the pcp (personal calendaring protocol) server
+needed for the groupware calendaring mode of sqwebmail.

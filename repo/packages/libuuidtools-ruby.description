@@ -1,0 +1,8 @@
+Uuids generation library for ruby
+	
+uuidtools was designed to be a simple library for generating any
+of the various types of uuids (or guids if you prefer to call
+them that). it conforms to rfc 4122 whenever possible.
+
+this is a dependency package, which depends on a uuidtools package
+built for the current default version of ruby.

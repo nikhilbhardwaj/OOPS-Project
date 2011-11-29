@@ -1,0 +1,8 @@
+Virtual router redundancy protocol user-space implementation
+	
+this package provides an implementation of vrrpv2 as specified in rfc2338.
+it runs in the linux kernel's userspace (as root).
+
+vrrp can be used to setup high-availability services in debian since two
+machines can use the same (virtual) ip address which is transfered upon
+failover. some kernel features need to be enabled (please read the faq)

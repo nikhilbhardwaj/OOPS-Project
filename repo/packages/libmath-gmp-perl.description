@@ -1,0 +1,9 @@
+High speed arbitrary size integer math for perl
+	
+math::gmp was designed to be a drop-in replacement both for
+math::bigint and for regular integer arithmetic.  unlike bigint,
+though, math::gmp uses the gnu gmp library for all of its
+calculations, as opposed to straight perl functions.  this can result
+in speed improvements.
+
+the downside is that this module is not 100% compatible to math::bigint.

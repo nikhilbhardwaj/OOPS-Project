@@ -1,0 +1,13 @@
+Bash debugger
+	
+this is a complete rewrite of the korn shell debugger from bill rosenblatt's
+`learning the korn shell', published by o'reilly and associates (isbn
+1-56592-054-6) with changes by michael loukides and cigy cyriac. however,
+this code now depends on a number of debugging support features that are
+neither part of the posix standard nor present are in many posix-like shells.
+although you can just use bashdb to debug scripts written in bash, it can
+also be used just as a front-end for learning more about programming in
+bash. as an additional aid, the debugger can be used within the context of an
+existing script with its functions and variables that have already been
+initialized; fragments of the existing code can be experimented with by
+changing them inside the debugger.

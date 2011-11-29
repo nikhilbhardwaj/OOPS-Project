@@ -1,0 +1,13 @@
+Low level cryptographic library (public-key cryptos)
+	
+nettle is a cryptographic library that is designed to fit easily in more or
+less any context: in crypto toolkits for object-oriented languages (c++,
+python, pike, ...), in applications like lsh or gnupg, or even in kernel
+space.
+
+it tries to solve a problem of providing a common set of cryptographic
+algorithms for higher-level applications by implementing a
+context-independent set of cryptographic algorithms. in that light, nettle
+doesn't do any memory allocation or i/o, it simply provides the
+cryptographic algorithms for the application to use in any environment and
+in any way it needs.

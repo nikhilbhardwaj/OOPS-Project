@@ -1,0 +1,7 @@
+Processing sequence alignments in sam and bam formats
+	
+samtools is a set of utilities that manipulate nucleotide sequence alignments
+in the binary bam format. it imports from and exports to the ascii sam
+(sequence alignment/map) format, does sorting, merging and indexing, and allows
+to retrieve reads in any regions swiftly. it is designed to work on a stream,
+and is able to open a bam (not sam) file on a remote ftp or http server.

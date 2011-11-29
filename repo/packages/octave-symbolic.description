@@ -1,0 +1,9 @@
+Symbolic package for octave
+	
+this package provides a symbolic package for octave based on ginac
+and cln.
+
+it contains geometric functions, can plot symbolic functions and solve systems
+of symbolic equations.
+
+this octave add-on package is part of the octave-forge project.

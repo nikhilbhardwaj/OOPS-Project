@@ -1,0 +1,11 @@
+Adds pragmata to exporter
+	
+pragmatic implements a default import method for processing pragmata before
+passing the rest of the import to exporter.
+
+perl automatically calls the import method when processing a use statement
+for a module. modules and use are documented in perlfunc and perlmod.
+
+(do not confuse pragmatic with pragmatic modules, such as less, strict and
+the like. they are standalone pragmata, and are not associated with any other
+module.)

@@ -1,0 +1,11 @@
+Emacs major mode for editing prolog code
+	
+this is a replacement for the standard emacs prolog mode. it comes
+with all the features you would expect, including syntax
+highlighting, auto indent, and full interaction with an inferior
+prolog process.
+
+this mode supports in principle any prolog system, though it is
+primarily maintained for swi prolog. it also has some special tweaks
+for gnu prolog and sicstus prolog, and explicitly supports prolog's
+close relatives eclipse and mercury.

@@ -1,0 +1,16 @@
+Client library for recaptcha and mailhide
+	
+this python package provides modules implementing clients for both
+recaptcha and recaptcha mailhide.
+
+recaptcha hinders automated abuse of web sites (such as comment spam
+or bogus registrations) by using a captcha to try to ensure that
+humans are involved.
+
+recaptcha mailhide allows web sites to obfuscate email addresses,
+revealing them only if a recaptcha is solved.
+
+these modules access a web service that requires sites running the
+recapcha client to register (at no cost) for an api key. on the other
+hand, no imaging libraries or complex computations are needed to
+generate and check captchas.

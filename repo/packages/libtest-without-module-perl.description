@@ -1,0 +1,5 @@
+Test fallback behaviour in absence of modules
+	
+test::without::module allows you to deliberately hide modules from a program
+even though they are installed. this is mostly useful for testing modules
+that have a fallback when a certain dependency module is not installed.

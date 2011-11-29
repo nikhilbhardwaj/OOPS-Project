@@ -1,0 +1,7 @@
+Library for configuration of pointing devices (debug symbols)
+	
+library for setting pointing devices. currently it can configure mouse type
+device (mouse, trackpoint etc.) and touchpads.
+
+this package contains debug symbols for both libgpds and
+gpointing-device-settings.

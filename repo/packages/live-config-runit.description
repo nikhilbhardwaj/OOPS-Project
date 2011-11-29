@@ -1,0 +1,6 @@
+Debian live - system configuration scripts (runit backend)
+	
+live-config contains the scripts that configure a debian live system during
+the boot process (late userspace).
+
+this package contains the runit backend (experimental!).

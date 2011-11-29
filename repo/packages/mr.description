@@ -1,0 +1,22 @@
+A multiple repository management tool
+	
+the mr(1) command can checkout, update, or perform other actions on
+a set of repositories as if they were one combined respository. it
+supports any combination of git, svn, mercurial, bzr, darcs, and cvs
+repositories, and support for other revision control systems can easily
+be added. (there are extensions adding support for unison and git-svn.)
+
+it is extremely configurable via simple shell scripting. some examples
+of things it can do include:
+
+
+ * update a repository no more frequently than once every twelve hours.
+ * run an arbitrary command before committing to a repository.
+ * when updating a git repository, pull from two different upstreams
+   and merge the two together.
+ * run several repository updates in parallel, greatly speeding up
+   the update process.
+ * remember actions that failed due to a laptop being offline, so they
+   can be retried when it comes back online.
+ .
+ this package also includes webcheckout.

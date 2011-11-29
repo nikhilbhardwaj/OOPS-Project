@@ -1,0 +1,9 @@
+Components for writing and executing test suites
+	
+this package forms part of the boost c++ libraries collection.  the
+library contains several components.
+
+
+ * basic execution, error detection, and reporting facility.
+ * facilities to monitor program execution and produce error reports.
+ * unit test framework to simplify writing test cases.

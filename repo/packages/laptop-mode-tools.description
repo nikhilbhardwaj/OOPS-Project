@@ -1,0 +1,15 @@
+Tools for power savings based on battery/ac status
+	
+laptop mode is a linux kernel feature that allows your laptop to save
+considerable power, by allowing the hard drive to spin down for longer
+periods of time. this package contains the userland scripts that are
+needed to enable laptop mode.
+
+it includes support for automatically enabling laptop mode when the
+computer is working on batteries. it also supports various other power
+management features, such as starting and stopping daemons depending on
+power mode, automatically hibernating if battery levels are too low, and
+adjusting terminal blanking and x11 screen blanking
+
+laptop-mode-tools uses the linux kernel's laptop mode feature and thus
+is also used on desktops and servers to conserve power

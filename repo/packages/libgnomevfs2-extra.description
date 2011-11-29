@@ -1,0 +1,15 @@
+Gnome virtual file system (extra modules)
+	
+gnome vfs is the gnome virtual file system.  it is the foundation of the
+nautilus file manager.  it provides a modular architecture and ships with
+several modules that implement support for local files, http, ftp and others.
+it provides an uri-based api, a backend supporting asynchronous file
+operations, a mime type manipulation library and other features.
+
+this package contains extra vfs modules for the gnome virtual
+file system.  it includes:
+
+ * the bzip2 module;
+ * the ftp module;
+ * the http module (which also includes support for webdav);
+ * the smb module, to browse windows shares.

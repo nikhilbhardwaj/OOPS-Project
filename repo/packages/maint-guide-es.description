@@ -1,0 +1,20 @@
+Spanish translation of debian new maintainers' guide
+	
+this package contains the spanish translation of debian new
+maintainers' guide, or guía del nuevo desarrollador de debian.
+
+this document tries to describe building of a debian package to the
+common debian user, and wannabe developer. it uses pretty common
+language, and it's well covered with working examples.
+
+the document contains these chapters:
+
+    * 1 getting started the right way
+    * 2 first steps
+    * 3 modifying the source
+    * 4 required files under debian directory
+    * 5 other files under debian directory
+    * 6 building the package
+    * 7 checking the package for errors
+    * 8 uploading the package
+    * 9 updating the package

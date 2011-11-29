@@ -1,0 +1,7 @@
+Provides super user privileges to specific users
+	
+calife is a lightweight alternative to sudo.
+it allows selected users to obtain a shell with the identity
+of root, or another user, after entering their own password.
+this permits the system administrator to grant root privileges
+without sharing the root password.

@@ -1,0 +1,6 @@
+Opie programs for maintaining an otp key file
+	
+creates a one time password (otp) key file and includes the opiepasswd
+and opieinfo commands to manipulate and display otp information. probably
+not useful without libpam-opie or another program to make use of the otp's
+for authentication.

@@ -1,0 +1,5 @@
+Library to allow perdition to access odbc based popmaps
+	
+perdition allows for arbitrary user database access through
+shared libraries much in the manner of nss in glibc. this package
+allows a user database stored in a database accessed via odbc.

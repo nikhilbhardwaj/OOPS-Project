@@ -1,0 +1,7 @@
+Perl module to convert gregorian dates to hijri and vice versa
+	
+the date::hijri module converts gregorian dates to islamic (hijri) and vice
+versa.
+
+the dates must be given as an array containing the day, month and year, and
+return the corresponding date as a list with the same elements.

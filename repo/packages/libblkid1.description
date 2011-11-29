@@ -1,0 +1,7 @@
+Block device id library
+	
+the blkid library which allows system programs like fsck and
+mount to quickly and easily find block devices by filesystem uuid and
+label.  this allows system administrators to avoid specifying
+filesystems by hard-coded device names, but via a logical naming
+system instead.

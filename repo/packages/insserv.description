@@ -1,0 +1,14 @@
+Tool to organize boot sequence using lsb init.d script dependencies
+	
+the insserv program is used to update the order of symlinks in
+/etc/rc?.d/ with sysv-rc based on dependencies specified in the
+scripts themselves using lsb init.d script headers.
+
+this allow each package maintainer to specify their init.d script
+relation to other scripts and make it possible to detect and reject
+script dependency loops as well as making sure all scripts start in
+their intended order.
+
+the program insserv in this package should be used with care and
+together with the sysv-rc package, as using it incorrectly can lead
+to an unbootable system.

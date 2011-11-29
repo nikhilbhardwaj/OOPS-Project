@@ -1,0 +1,8 @@
+Library for encoding/decoding of dirac video streams (development files)
+	
+the schroedinger project will implement portable libraries for the high quality
+dirac video codec created by bbc research and development. dirac is a free and
+open source codec producing very high image quality video.
+
+this package contains the header files, static libraries
+and symbolic links that developers using libschroedinger will need.

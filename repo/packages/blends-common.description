@@ -1,0 +1,8 @@
+Debian pure blends common package
+	
+this package builds the basic infra structure for metapackages.
+
+this package provides some files which are common to metapackages
+of common debian distributions. it introduces a method to handle
+system users in a group named according to the name of the
+debian pure blend.

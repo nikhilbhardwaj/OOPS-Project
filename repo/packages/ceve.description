@@ -1,0 +1,24 @@
+Utility to parse package dependencies as set of constraints
+	
+ceve is a command line utility used to parse package metadata
+information (in particular package interrelationships such as
+dependencies) and convert them to set of constraints that need to
+be satisfied by a proper package installation.
+
+supported input formats for package metadata are:
+
+ * .deb packages
+ * debian package lists (i.e. as in packages.gz)
+ * .rpm packages
+ * rpm package lists
+ * egraph (xml based format, derived from graphml)
+
+
+supported output formats for set of constraints are:
+
+ * pretty printed format for human consumption
+ * egraph
+ * dose base, suitable as input for the pkglab tool
+ * oz (a programming language supporting constraint programming)
+ * graphviz
+ * tart, suitable as input for the tart media partitioner

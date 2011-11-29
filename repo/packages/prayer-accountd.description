@@ -1,0 +1,21 @@
+Account management daemon for prayer
+	
+prayer is yet another webmail interface.
+
+it is unusual in that it is a complete, standalone, http server and proxy
+rather a apache/mod_php plugin. prayer maintains persistent connections to
+the imap server and is written entirely in c. consequently it is much
+faster than most open source webmail interfaces and puts very little load
+on either the machines running the web server or the backend imap servers
+(even if traditional unix format mailfolders are in use).
+
+this package contains a daemon that can do the following for users:
+
+
+ * change passwords
+ * change their full name
+ * manage mail filtering (requires exim) and forwarding
+ * manage vacation messages and logs
+
+
+note: this package is currently not very useful.

@@ -1,0 +1,6 @@
+Utilities for handling ieee 754 floating point special values
+	
+this python module implements constants and functions for working with
+ieee754 double-precision special values.  it provides constants for
+not-a-number (nan), positive infinity (posinf), and negative infinity
+(neginf), as well as functions to test for these values.

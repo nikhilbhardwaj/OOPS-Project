@@ -1,0 +1,11 @@
+Development library for class library for numbers (c++)
+	
+cln is a library for computations with all kinds of numbers.  it has a
+rich set of number classes, including integers (with unlimited precision),
+reals with various precisions (including unlimited), rationals, complex
+numbers and polynomials. the kernel is written in assembly language.
+it uses garbage  collection (automatic, without imposing any burden on the
+main application). many efficient algorithms (i.e. for all transcendental
+functions) are implemented.
+
+this package provides header files, a static library plus a manual.

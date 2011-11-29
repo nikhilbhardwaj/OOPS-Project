@@ -1,0 +1,24 @@
+Rendering engine for mathml documents
+	
+gtkmathview is a c++ rendering engine for mathml documents. it
+provides an interactive view that can be used for browsing and
+editing mathml markup.
+
+gtkmathview reads mathml documents by means of a frontend whose
+purpose is to traverse the mathml document (or part of it) and
+to appropriately instantiate gtkmathview's internal data
+structures that are suitable for rendering it.  currently the
+following frontends are supported: libxml2 (tree view using
+libxml2 api), libxml2 reader (event view using libxml2 reader
+api), gmetadom (tree view using dom api), custom
+(application-specific view with application-provided callbacks).
+
+gtkmathview renders mathml documents through a backend whose
+purpose is to provide an interface between the portable
+rendering engine and the platform-specific capabilities (like
+retrieving fonts, drawing on the screen, and so on). currently
+the following backends are provided: gtk+, gtk+ widget,
+postscript, svg, abiword.
+
+this package includes utilities to view and render mathml
+documents.

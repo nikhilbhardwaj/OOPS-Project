@@ -1,0 +1,10 @@
+Utilities related to the xmltv file format for tv listings
+	
+gather television listings, process them and organize your viewing.
+xmltv is a file format for storing tv listings, defined in xmltv.dtd.
+this package includes general programs that are part of the xmltv
+package, such as various "grabbers" to get tv listings from online
+providers and also utilities to manipulate such listings.
+
+the upstream cgi (web) front-end example is also included as part of
+the documentation.

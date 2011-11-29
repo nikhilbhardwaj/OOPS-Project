@@ -1,0 +1,11 @@
+Perl module implementing object oriented interface to ssl sockets
+	
+this module is a true drop-in replacement for io::socket::inet that
+uses ssl to encrypt data before it is transferred to a remote server
+or client.  io::socket::ssl supports all the extra features that one
+needs to write a full-featured ssl client or server application:
+multiple ssl contexts, cipher selection, certificate verification, and
+ssl version selection.  as an extra bonus, it works perfectly with
+mod_perl.
+
+io::socket::ssl uses ipv6 if libio-socket-inet6-perl is installed.

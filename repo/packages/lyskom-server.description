@@ -1,0 +1,13 @@
+Server for the lyskom conference system
+	
+lyskom has a lot in common with netnews, but lyskom is
+intended for local discussions (instead of worldwide).
+lyskom consists of a server process and several client
+programs. the server process maintains a data base of
+persons, conferences and articles. the clients connect to
+the server and let the users browse the database for
+unread articles.
+
+lyskom is much faster than netnews - almost as fast as irc
+or icq! - but like in netnews the articles are saved so
+that you don't have to be logged in to receive the news.

@@ -1,0 +1,16 @@
+Python interface to the gpgme gnupg encryption library
+	
+pyme is, for the most part, a direct interface to the c gpgme
+library.  however, it is re-packaged in a more pythonic way --
+object-oriented with classes and modules.  take a look at the classes
+defined here -- they correspond directly to certain object types in gpgme
+for c.
+
+features:
+
+ * feature-rich, full implementation of the gpgme library. supports
+   all gpgme features except interactive editing (coming soon).
+   callback functions may be written in pure python.
+ * ability to sign, encrypt, decrypt, and verify data.
+ * ability to list keys, export and import keys, and manage the keyring.
+ * fully object-oriented with convenient classes and modules.

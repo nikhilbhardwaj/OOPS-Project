@@ -1,0 +1,11 @@
+Library for autodection charset of russian text
+	
+librcd is used by rusxmms project for encoding auto-detection.
+it is optimized to handle very short titles, like id3 tags,
+file names and etc, and provides very high accuracy even
+for short 3-4 letter words.
+current version supports russian and ukrainian languages
+and able to distinguish utf-8, koi8-r, cp1251, cp866, iso8859-1.
+if compared with enca, librcc provides better detection accuracy
+on short titles and is able to detect iso8859-1 (non-cyrillic)
+encoding what allows to properly display correct id3 v.1 titles.

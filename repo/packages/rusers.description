@@ -1,0 +1,7 @@
+Displays who is logged in to machines on local network
+	
+the rusers command produces output similar to who, but for the list of hosts
+or all machines on the local network.  for each host responding to the rusers
+query, the hostname with the names of the users currently logged on is printed
+on each line.  the rusers command will wait for one minute to catch late
+responders.

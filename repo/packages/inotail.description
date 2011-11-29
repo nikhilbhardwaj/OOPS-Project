@@ -1,0 +1,9 @@
+Tail replacement using inotify
+	
+inotail is a replacement for the 'tail' program which is used to output the
+last portions of a file. it makes use of the inotify infrastructure in recent
+versions of the linux kernel to speed up tailing files in the follow
+mode (the '-f' option). ancient versions of tail poll the file every second by
+default while inotail (and tail from the gnu coreutils as of version 7.5)
+listens to special events sent by the kernel through the inotify api to
+determine whether a file needs to be reread.

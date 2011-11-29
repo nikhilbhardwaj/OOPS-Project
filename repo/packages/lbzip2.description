@@ -1,0 +1,11 @@
+Fast, multi-threaded bzip2 utility
+	
+lbzip2 is a multi-threaded implementation of bzip2, suited for serial and
+parallel processing. on a multi-core computer, lbzip2 is commonly the fastest
+bzip2 decompressor for most bz2 files found on the internet. (on dual-core
+computers, the 7za utility from the p7zip-full package may prove more
+efficient.)
+
+lbzip2 integrates nicely with gnu tar. even on single-core computers, lbzip2
+can speed up archiving in combination with tar, because lbzip2 allows
+compression to overlap with disk usage to a greater extent than bzip2 does.

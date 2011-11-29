@@ -1,0 +1,7 @@
+Program options library for c++
+	
+this package forms part of the boost c++ libraries collection.
+
+library to let program developers obtain program options, that is
+(name, value) pairs from the user, via conventional methods such as
+command line and config file.

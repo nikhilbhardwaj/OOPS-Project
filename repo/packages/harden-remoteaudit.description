@@ -1,0 +1,17 @@
+Audit your remote systems from this host
+	
+this package helps you to install a set of tools to check remote systems,
+sniff for passwords and more. observe that this kind of activity can be
+illegal so you have to check if you are authorized to do so in the environment
+where you install this package.
+
+you can check exploits, sniff for passwords and similar things.
+
+nessus note: you have to have the nessus client installed on some host. the
+client is provided by the 'nessus' package. you can install it on the same
+host but that is not necessary.
+
+note! this package includes packages that can damage the system that
+you audit. it should only be used to audit hosts, networks or systems
+that you are allowed to audit. i repeat: it can damage the hosts that are
+checked. you have been warned!

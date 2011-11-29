@@ -1,0 +1,9 @@
+A c++ iostream interface to posix process i/o
+	
+pstreams allows you to run another program from your c++ application and to
+transfer data between the two programs, similar to shell pipelines. the
+pstreams class works like a wrapper for the the posix.2 functions popen(3) and
+pclose(3) (although it doesn't actually use them), using a c++ iostreams
+interface, instead of c's stdio library. thus, pstreams makes it possible to
+run an external program and handle its stdin, stdout, and stderr just like you
+would handle any other c++ iostream.

@@ -1,0 +1,11 @@
+Checks password which is stored in ~/maildir/.password
+	
+checkpw is an implementation of the checkpassword interface that checks a
+password against a ``.password'' file in the user's maildir. the password
+file has read and write permissions to the user only.
+
+the code is in the public domain.
+
+the original checkpassword program and interface specification is written
+by d. j. bernstein:
+http://cr.yp.to/checkpwd.html

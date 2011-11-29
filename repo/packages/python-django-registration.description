@@ -1,0 +1,14 @@
+A user-registration application for django
+	
+this is a fairly simple user-registration application for django,
+designed to make allowing user signups as painless as possible.
+
+its main feature over django's standard user-registration application is
+the support of email confirmation.
+
+this application enables a fairly common workflow for user signups:
+
+ 1. user signs up for an account.
+ 2. user gets emailed an activation link.
+ 3. user clicks the activation link before it expires.
+ 4. user becomes a happy and productive contributor to your site.

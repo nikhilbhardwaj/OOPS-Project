@@ -1,0 +1,17 @@
+Web authoring system for haskell
+	
+wash is a family of embedded domain specific languages (edsl) for
+programming web applications. each language is embedded in the
+functional language haskell, which means that it is implemented as a
+combinator library.
+
+currently, wash has the following components:
+
+wash2hs, a preprocessor for including literal xhtml fragments in the
+style of haskell server pages (hsp)
+
+wash/cgi for server-side web scripting
+
+wash/html for dynamic generation of html and xhtml
+
+wash/mail for email processing

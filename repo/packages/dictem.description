@@ -1,0 +1,11 @@
+Dict client for emacs
+	
+dictem implements all functions of the client part of dictionary
+server protocol(dict) protocol (rfc-2229, www.dict.org), i.e looking
+up words and definitions, obtaining information about available
+strategies, provided databases, information about dict server etc.
+
+it uses autocompletion that is used for selecting dictionary and
+search strategy.  moreover, dictem provides several hooks which
+may be used for buffer postprocessing.
+.

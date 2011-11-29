@@ -1,0 +1,13 @@
+Configuration and release management using atfs
+	
+shapetools is a collection of programs to support software
+configuration management in an unix environment. it consists of a set
+of version and attribute control commands, and a configuration
+interpreter and build tool ("shape"). the toolkit is integrated on top
+of the attributed file system (atfs).
+
+shapetools is designed to live meaningfully together
+with any other unix tool operating on regular files. this distribution
+also contains a prototype for a comprehensive change control and
+release management system designed to manage the evolution of system
+releases in multi programmer software development efforts.

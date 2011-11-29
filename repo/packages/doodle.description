@@ -1,0 +1,11 @@
+Desktop search engine (client)
+	
+it searches your hard drive for files using pattern matching on meta-data. it
+extracts file-format specific meta-data using libextractor and builds a suffix
+tree to index the files. the index can then be searched rapidly. it is similar
+to locate, but can take advantage of information such as id3 tags. it is
+possible to do full-text indexing using the appropriate libextractor plugins.
+it also supports using fam to keep the database up-to-date.
+
+you can use doodled (separate package) to keep the doodle database
+automagically updated.

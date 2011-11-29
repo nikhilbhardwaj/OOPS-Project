@@ -1,0 +1,8 @@
+Data matrix barcodes (development files and static libraries)
+	
+libdmtx is a library for reading and writing data matrix 2d barcodes,
+two-dimensional symbols that hold a dense pattern of data with built-in error
+correction.
+
+this package contains the static libraries and c header files needed for
+development of applications with libdmtx.

@@ -1,0 +1,10 @@
+Shell scripts frontend tool
+	
+shell function library useful to build shell script frontends.
+
+the library defines a set of functions to display messages and read values
+from the user on x (using zenity or kdialog) or console (using dialog or
+plain text) and has been designed to be used by sourcing the library code
+from other scripts.
+
+the library supports l10n if gettext.sh is installed.

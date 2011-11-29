@@ -1,0 +1,9 @@
+Strong chess engine, to play chess against
+	
+free chess engine derived from glaurung 2.1. it is a chess engine, so it
+requires an uci (universal chess interface) compatible gui like xboard
+(with polyglot), eboard, jose, arena or scid in order to be used comfortably.
+it is the strongest open source chess engine by october 2009 in the
+"computer chess rating list" ccrl. written in c++ it uses multiple threads
+and cores. it is capable of chess960 and has experimental support for polyglot
+opening books.

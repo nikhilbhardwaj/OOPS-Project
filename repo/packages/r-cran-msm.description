@@ -1,0 +1,7 @@
+Gnu r multi-state markov and hidden markov models in continuous time
+	
+functions for fitting general continuous-time markov and hidden markov
+multi-state models to longitudinal data. both markov transition rates and the
+hidden markov output process can be modelled in terms of covariates. a variety
+of observation schemes are supported, including processes observed at arbitrary
+times, completely-observed processes, and censored states.

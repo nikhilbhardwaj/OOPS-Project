@@ -1,0 +1,6 @@
+A program that filters local email via forward/pipe
+	
+filter is one of the original mail filtering programs written for unix.
+(originally a part of the 'elm' mailer)
+install it via a pipe(|) reference in $home/.forward, and let it
+separate your incoming email into different personal mailboxes.

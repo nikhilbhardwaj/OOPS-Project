@@ -1,0 +1,5 @@
+Perl module parsing date::parse compatible formats
+	
+datetime::format::dateparse is a rather simplistic convenience module that
+simply wraps the date::parse module (see libtimedate-perl) and creates
+datetime objects from given strings.

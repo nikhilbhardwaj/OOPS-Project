@@ -1,0 +1,9 @@
+Xml-based report generator for php
+	
+a common business need is the ability to generate reports dynamically from
+an sql database and present the information in a tabular fashion.
+phpreports takes an xml definition of the general layout of the report and a
+query, and produces a finished report in one of several formats.
+
+phpreports is both a useful report generation package, as well as an
+excellent demonstration of the power of xml/xslt.

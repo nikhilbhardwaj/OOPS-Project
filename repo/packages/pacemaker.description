@@ -1,0 +1,10 @@
+Ha cluster resource manager
+	
+high-availability cluster resource manager for heartbeat as
+well as corosync.
+
+pacemaker supports a very sophisticated dependency model for
+n-node clusters and can respond to node and resource-level
+failures.
+
+it supports both the heartbeat and corosync cluster stacks.

@@ -1,0 +1,12 @@
+Utilities to complement a minimal window manager
+	
+these utilities were previously supplied with aewm++; they are intended
+to provide some of the typical desktop functionality that aewm++ itself
+does not include. this package provides:
+
+ * aewm++_appbar: a small application launcher
+ * aewm++_fspanel: a very small panel
+ * aewm++_setrootimage: draws a gradient on the x root window
+ * aewm++_xsession: keeps an x session alive
+
+note that some of these were named differently in previous releases.

@@ -1,0 +1,9 @@
+Web administration plugin for vdr
+	
+live, the "live interactive vdr environment", is a plugin providing the
+possibility to interactively control the linux video disc recorder vdr and
+some of it's plugins from a web interface.
+
+unlike external programs, like the vdr web frontend "vdradmin-am", that
+communicate  with vdr via its svdrp socket interface, live has direct
+access to vdr's data structures and thus is very fast.

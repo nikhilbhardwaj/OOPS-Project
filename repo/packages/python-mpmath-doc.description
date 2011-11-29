@@ -1,0 +1,29 @@
+Library for arbitrary-precision floating-point arithmetic - documentation
+	
+mpmath is a pure-python library for multiprecision floating-point
+arithmetic. it provides an extensive set of transcendental functions,
+unlimited exponent sizes, complex numbers, interval arithmetic,
+numerical integration and differentiation, root-finding, linear
+algebra, and much more. almost any calculation can be performed just
+as well at 10-digit or 1000-digit precision, and in many cases mpmath
+implements asymptotically fast algorithms that scale well for
+extremely high precision work.
+
+if available, mpmath will (optionally) use gmpy to speed up high
+precision operations. if matplotlib is available, mpmath also
+provides a convenient plotting interface.
+
+its features include:
+
+
+  * fair performance -- typically 10-100x faster than python's
+    decimal library
+  * transcendental functions -- all functions from python's math and
+    cmath modules, plus a few more like gamma, factorial, erf
+  * complex numbers -- with support for transcendental functions
+  * directed rounding -- floor, ceiling, down, up, half-down,
+    half-up, half-even
+  * unlimited exponents -- no overflow or underflow
+
+
+this package contains the documentation for mpmath python module.

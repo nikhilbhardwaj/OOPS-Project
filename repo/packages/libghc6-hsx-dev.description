@@ -1,0 +1,9 @@
+Haskell support for xml in source code - ghc 6 libraries
+	
+hsx (haskell source with xml) allows literal xml syntax to be used in
+haskell source code. the trhsx preprocessor translates .hsx source files
+into ordinary .hs files. literal xml syntax is translated into function
+calls for creating xml values of the appropriate forms. trhsx transforms
+literal xml syntax into a series of function calls.
+
+this package contains the libraries compiled for ghc 6.

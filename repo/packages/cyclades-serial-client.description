@@ -1,0 +1,7 @@
+Network serial port client software for cyclades terminal servers
+	
+this is the client for network serial port emulation via the rfc 2217
+protocol as used by cyclades terminal servers and other products.  it
+consists of a daemon that manages a pseudo-tty and a shared object to take
+over the tcsetattr() and tcsendbreak() library calls to redirect their
+functionality over the network.

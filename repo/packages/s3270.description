@@ -1,0 +1,7 @@
+Program for scripted telnet sessions to ibm mainframes
+	
+s3270 opens a telnet connection to an ibm mainframe host, then allows a
+script to control the host login session.
+
+s3270 implements rfcs 2355 (tn3270e), 1576 (tn3270),
+and 1646 (lu name selection), and supports ind$file file transfer.

@@ -1,0 +1,21 @@
+Cd/dvd burning application for gnome
+	
+brasero is a simple application to burn, copy and erase cd and dvd
+media: audio, video or data. it features among other things:
+
+ * on-the-fly burning
+ * multisession support
+ * on-the-fly conversion of music playlists in all formats supported by
+   gstreamer
+
+
+this package contains the main binary, the burning plugins and the
+nautilus extension.
+
+the following packages, if installed, will provide brasero with added
+functionality:
+
+ * cdrdao to burn combined data/audio cds and for byte-to-byte copy
+ * gstreamer backends to support more audio formats
+ * vcdimager to create vcds or svcds
+ * libdvdcss2 to copy encrypted dvds

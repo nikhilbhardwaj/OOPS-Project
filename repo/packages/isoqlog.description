@@ -1,0 +1,9 @@
+Mail transport agent log analysis program
+	
+isoqlog is an mta log analysis program written in c.
+it designed to scan qmail, postfix, sendmail logfile
+and produce usage statistics in html format for viewing
+through a browser. it produces top domains output according
+to sender, receiver, total mails and bytes; it keeps
+your main domain mail statistics with regard to days top
+domain, top users values for per day, per month and years.

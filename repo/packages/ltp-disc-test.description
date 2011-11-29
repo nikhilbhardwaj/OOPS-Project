@@ -1,0 +1,18 @@
+Disk i/o tests for the linux test project
+	
+the linux test project is a joint project with sgi, ibm, osdl, and bull with a
+goal to deliver test suites to the open source community that validate the
+reliability, robustness, and stability of linux. the linux test project is a
+collection of tools for testing the linux kernel and related features. our goal
+is to improve the linux kernel by bring test automation to the kernel testing
+effort. interested open source contributors are encouraged to join the project.
+
+this package contains the disk i/o tests for the linux test project.
+
+inorder for these tests to successfully operate a writable high-density
+3.5" floppy must be in the disk drive and a cd-rom with more than 100mb
+of data must be in the cd-rom drive.  the corresponding tests will fail
+if either disk is missing.
+
+warning: these tests may crash your machine, drain resources and
+jeopardize your security. use with caution, and not on production systems.

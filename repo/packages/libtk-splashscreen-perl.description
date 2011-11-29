@@ -1,0 +1,7 @@
+Toplevel mega widget to display a splashscreen
+	
+for programs that require large load times, it's a common practice to
+display a splashscreen that occupies the user's attention. this toplevel
+mega widget provides all the display, destroy and timing events. all you do
+is create the splashscreen mega widget, populate it as you see fit, then
+invoke splash() to display it and destroy() to tear it down.

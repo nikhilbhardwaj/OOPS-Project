@@ -1,0 +1,6 @@
+Cisco discovery protocol reporter
+	
+cdpr listens on specified network interfaces for cisco discovery
+protocol packets. it then decodes those packets and outputs the
+information, optionally sending the information to a server for
+processing.

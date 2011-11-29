@@ -1,0 +1,10 @@
+A graphical display of directories referenced at the shell prompt
+	
+viewglob complements the unix shell by presenting a graphical display
+showing the contents of directories referenced on the command line,
+including the current directory.  the display also shows results of file
+globs and expansions as they are typed, with selected files and possible
+name completions highlighted.
+
+viewglob currently supports bash and zsh.  it should work with any
+x-based terminal emulator (xterm, gnome-terminal, konsole, etc.).

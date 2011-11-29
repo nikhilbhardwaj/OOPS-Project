@@ -1,0 +1,7 @@
+Tuning and analysis utilities - support for python bindings
+	
+tau is a profiling toolkit specially made for parallel computing
+(multi-thread, multi-process, mpi, pvm).
+
+this package python bindings to the tau functionality, as well as
+some auto-instrumentation support for python programs.

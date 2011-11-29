@@ -1,0 +1,11 @@
+Hildon desktop mime type hander - runtime library
+	
+libhildonmime is a library containing an api for activating applications
+to handle certain mime types in the hildon desktop. it is similar to
+gnome_vfs_url_show() but uses x-osso-service field in .desktop files
+and activates applications with dbus directly. it also includes
+hildon-update-category-database, which is update-mime-database
+(from shared-mime-info) modified to recognize additional elements.
+
+this package contains the runtime libraries for libhildonmime, required
+to run apps that use this library.

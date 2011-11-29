@@ -1,0 +1,13 @@
+Sets your computer's clock from time servers on the net
+	
+it consists of a pair of programs :
+`chronyd'.  this is a daemon which runs in background on the system.  it
+obtains measurements (e.g. via the network) of the system's offset
+relative to other systems, and adjusts the system time accordingly.  for
+isolated systems, the user can periodically enter the correct time by hand
+(using `chronyc').  in either case, `chronyd' determines the rate at which
+the computer gains or loses time, and compensates for this.  chronyd
+implements the ntp protocol and can act as either a client or a server.
+`chronyc'.  this is a command-line driven control and monitoring program.
+an administrator can use this to fine-tune various parameters within the
+daemon, add or delete servers etc whilst the daemon is running.

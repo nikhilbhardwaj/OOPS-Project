@@ -1,0 +1,16 @@
+The stanford graphbase: combinatorial data and algorithms
+	
+a highly portable collection of programs and data for researchers who
+study combinatorial algorithms and data structures.
+
+the programs are intended to be interesting in themselves as examples
+of literate programming.  thus, the stanford graphbase can also be
+regarded as a collection of approximately 30 essays for programmers
+to enjoy reading, whether or not they are doing algorithmic research.
+the programs are written in cweb, a combination of tex and c that is
+easy to use by anyone who knows those languages and easy to read by
+anyone familiar with the rudiments of c.
+
+this package contains only the libraries and the demonstration
+programs; for the readable source code, which forms the documentation
+as well, see the sgb-doc package.

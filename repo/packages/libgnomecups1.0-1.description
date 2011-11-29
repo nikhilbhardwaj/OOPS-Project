@@ -1,0 +1,6 @@
+Gnome library for cups interaction
+	
+this library wraps the cups api in a glib fashion, so cups code can
+be cleanly integrated with glib code.
+
+although called libgnomecups, this library only depends on glib.

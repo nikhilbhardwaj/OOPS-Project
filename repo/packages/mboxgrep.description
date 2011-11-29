@@ -1,0 +1,6 @@
+Grep through mailboxes
+	
+mboxgrep is a small utility that scans either standard unix
+mailboxes, gnus nnml or nnmh mailboxes, mh mailboxes or maildirs,
+and displays messages matching a basic, extended, or
+perl-compatible regular expression.

@@ -1,0 +1,15 @@
+Undelete utility for the ext2 file system
+	
+interactive console tool to recover the data of deleted files on
+an ext2 file system under linux. it does not require knowledge
+about how ext2 file systems works and should be usable by
+most people.
+
+this tools searches all inodes marked as deleted on a file system and
+lists them as sorted by owner and time of deletion. additionally,
+it gives you the file size and tries to determine the file type in
+the way file(1) does. if you did not just delete a whole bunch of
+files with a 'rm -r *', this information should be helpful to find
+out which of the deleted files you would like to recover.
+
+e2undel will not work on ext3 (journaling) filesystems.

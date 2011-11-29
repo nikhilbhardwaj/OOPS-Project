@@ -1,0 +1,7 @@
+Redland resource description framework (rdf) utility programs
+	
+this package provides the rdfproc utility for processing the
+resource description framework (rdf) format using the redland rdf library.
+it allows reading rdf from syntaxes, manipulating the rdf graph, querying
+using rdql and sparql and serializing rdf into syntaxes in rdf/xml,
+n-triples, turtle and rss 1.0.

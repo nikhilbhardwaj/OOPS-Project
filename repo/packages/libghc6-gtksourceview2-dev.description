@@ -1,0 +1,8 @@
+Binding to the gtksourceview library
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+gtksourceview is a text widget that extends the standard gtk+ 2.x text widget
+gtktextview. it improves gtktextview by implementing syntax highlighting and
+other features typical of a source editor.

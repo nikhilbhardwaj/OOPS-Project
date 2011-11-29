@@ -1,0 +1,6 @@
+A library which enables you to define abstract method in ruby 1.9.1
+	
+an abstract method is a dummy method which is not implemented. it can be
+used as a placeholder to be overridden later to help build a framework.
+
+this package contains abstract library for ruby 1.9.1.

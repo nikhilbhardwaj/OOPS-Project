@@ -1,0 +1,13 @@
+Optimization of large scale problems for the yorick language
+	
+optimpack is a portable c library which implements algorithms for
+optimization of large scale problems with bound constraints. large
+scale means some million variables (e.g. pixel values) or more.
+
+the most important algorithm is vmlm-b: a variable metric method with
+limited memory requirements and, possibly, bound constraints on the
+parameters. the algorithm is based on limited memory bfgs updates
+with moré & thuente inexact line search and gradient projection to
+account for bounds.
+
+this package contains a yorick plug-in based on optimpack.

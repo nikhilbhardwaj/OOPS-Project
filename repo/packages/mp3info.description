@@ -1,0 +1,8 @@
+An mp3 technical info viewer and id3 1.x tag editor
+	
+mp3info has an interactive mode (using curses) and a command line mode.
+mp3info can display id3 tag information as well as various technical aspects
+of an mp3 file including playing time, bit-rate, sampling frequency and other
+attributes in a pre-defined or user-specifiable output format.
+
+if you prefer gui you should use mp3info-gtk package.

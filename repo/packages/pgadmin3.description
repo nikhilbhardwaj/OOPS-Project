@@ -1,0 +1,15 @@
+Graphical administration tool for postgresql
+	
+pgadmin iii is a database design and management application for use with
+postgresql. the application can be used to manage postgresql 7.3 and above
+running on any platform.
+
+pgadmin iii is designed to answer the needs of all users, from writing
+simple sql queries to developing complex databases. the graphical
+interface supports all postgresql features and makes administration
+easy. the application also includes a syntax highlighting sql editor, a
+server-side code editor, an sql/batch/shell job scheduling agent,
+support for the slony-i replication engine and much more. server
+connection may be made using tcp/ip or unix domain sockets (on *nix
+platforms), and may be ssl encrypted for security. no additional
+drivers are required to communicate with the database server.

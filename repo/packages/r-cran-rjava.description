@@ -1,0 +1,5 @@
+Gnu r low-level interface to java
+	
+this package provide a low-level interface from gnu r to java vm very much
+like .c/.call and friends. allows creation of objects, calling methods and
+accessing fields.

@@ -1,0 +1,25 @@
+Log analyzer and interactive viewer for the apache webserver
+	
+displays fast and valuable http statistics for system administrators that
+require a visual report on the fly.
+
+the collected information will be displayed to the user (sysadmin) in a
+visual/interactive window. collected information includes:
+
+
+ -general statistics, bandwidth etc.
+ -top visitors
+ -requested files
+ -requested static files, images, swf, js, etc.
+ -referrers urls
+ -404 or not found
+ -operating systems
+ -browsers and spiders
+ -hosts, reverse dns, ip location
+ -http status codes
+ -referring sites
+ -unlimited log file size
+
+
+goaccess can parse both of apaches' log formats, the common log format and
+the combined log format

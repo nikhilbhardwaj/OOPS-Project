@@ -1,0 +1,7 @@
+Poe component for performing asynchronous dns queries
+	
+poe::component::client::dns is a wrapper for non-blocking dns queries based on
+net::dns (libnet-dns-perl). it lets other tasks run while something is waiting
+for a nameserver response and allows multiple dns servers to be queried at the
+same time. dns client components are spawned as separate sessions rather than
+being created as proper objects; for full details, see the documentation.

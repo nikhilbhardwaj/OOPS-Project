@@ -1,0 +1,6 @@
+Module to make classes provide a familiar "param" method
+	
+mixin::extrafields::param mixes in to your class to provide a param method
+like the ones provided by cgi, cgi::application, and other classes. it uses
+mixin::extrafields, which means it can use any mixin::extrafields driver to
+store your data.

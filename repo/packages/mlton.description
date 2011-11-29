@@ -1,0 +1,10 @@
+Optimizing compiler for standard ml
+	
+mlton is a whole-program optimizing compiler
+for standard ml.  mlton generates standalone
+executables with excellent runtime performance,
+is sml 97 compliant, and has a complete basis
+library.  mlton has source-level profiling,
+a fast c ffi, an interface to the gnu
+multiprecision library, and lots of useful
+libraries.

@@ -1,0 +1,8 @@
+Barcode generation
+	
+with pear::image_barcode class you can create a barcode representation of a
+given string. this class uses gd function because of this the generated graphic
+can be pany of gd supported supported image types.
+
+
+ homepage: http://pear.php.net/package/image_barcode

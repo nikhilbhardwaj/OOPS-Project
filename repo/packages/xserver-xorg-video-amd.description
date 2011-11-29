@@ -1,0 +1,9 @@
+Geode gx2/lx display driver (dummy transitional package)
+	
+this transitional package helps users of the obsolete amd driver to update
+their x.org setup. it can safely be removed after the upgrade is completed.
+
+if you are using a static xorg.conf, edit the device section and change
+the driver value from "amd" to "geode" before purging this package.
+
+in all other cases, you can safely purge this package immediately.

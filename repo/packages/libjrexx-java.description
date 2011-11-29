@@ -1,0 +1,18 @@
+Automaton based regular expression api for java
+	
+jrexx is a regular expression api for textual pattern matching based on
+the finite state automaton theory. its matching algorithm is extremly
+fast and works with huge patterns and input texts. jrexx also offers
+set operations (union, intersection, difference, complement) for
+combination of automatons.
+
+features
+
+
+ * creation of deterministic regex automatons from pattern strings
+ * extremly fast pattern matching of input strings
+ * combination of automatons with set operations (unify, intersect,
+   substract, complement)
+ * introspection of the automaton's structure by states and transitions
+ * jrexx is implemented in 100% pure java and runs on any platform
+   providing a java runtime environment (jre) version 1.3.x or greater

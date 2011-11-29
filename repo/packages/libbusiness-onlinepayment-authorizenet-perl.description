@@ -1,0 +1,10 @@
+Authorizenet backend for business::onlinepayment
+	
+this is business::onlinepayment::authorizenet, an business::onlinepayment
+backend module for authorize.net.  it is only useful if you have a merchant
+account with authorize.net: http://www.authorize.net/
+
+business::onlinepayment is a generic interface for processing payments through
+online credit card processors, online check acceptance houses, etc.  (if you
+like buzzwords, call it an "multiplatform ecommerce-enabling middleware
+solution").

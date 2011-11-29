@@ -1,0 +1,22 @@
+Editor for programmers (textmode version)
+	
+jed is a small, fast (faster startup than bash) and powerful text editor.
+
+completely customizable with prepared emulation modes for emacs, cua
+(similar to kde/gnome/openoffice), borland-ide, brief, and edt. extensible
+in the s-lang scripting language (with a syntax resembling c).
+
+editing functions: folding support; rectangular cut/paste; regular
+expression search/replace; incremental searches; search/replace across
+multiple files; multiple windows; multiple buffers; ...
+
+tools: directory editor (dired); info (browse gnu info files); mail;
+rmail; ispell; shell mode; ...
+
+special modes (syntax highlight, indention, compile, ...) for
+basic, c, c++, dcl, fortran, idl, java, nroff, pascal,
+perl, php, postscript, python, sh.
+modes for markup languages include html and (la)tex (with auc-tex style
+editing and bibtex)
+
+additional tools and modes can be found in the jed-extra package.

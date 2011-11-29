@@ -1,0 +1,9 @@
+Json library for ruby (documentation)
+	
+this library implements the json (javascript object notation) specification in
+ruby, allowing the developer to easily convert data between ruby and json. you
+can think of it as a low fat alternative to xml, if you want to store data to
+disk or transmit it over a network rather than use a verbose markup language.
+
+this is the documentation package, with upstream documentation as well as
+generated rdoc.

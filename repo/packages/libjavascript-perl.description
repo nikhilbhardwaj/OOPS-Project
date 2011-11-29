@@ -1,0 +1,6 @@
+Module for executing embedded javascript
+	
+javascript is a perl module that provides the power of embedded javascript in
+your applications. you can write subroutines, classes, etc in perl and bind
+them to the javascript engine or vice versa. variables are converted between
+the languages automatically as needed.

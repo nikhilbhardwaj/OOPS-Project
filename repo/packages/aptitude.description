@@ -1,0 +1,14 @@
+Terminal-based package manager (terminal interface only)
+	
+aptitude is a package manager with a number of useful features,
+including: a mutt-like syntax for matching packages in a flexible
+manner, dselect-like persistence of user actions, the ability to
+retrieve and display the debian changelog of most packages, and a
+command-line mode similar to that of apt-get.
+
+aptitude is also y2k-compliant, non-fattening, naturally cleansing,
+and housebroken.
+
+this package contains a version of aptitude compiled with only the
+classic terminal-based interface (using curses).  for an experimental
+graphical interface, see the package aptitude-gtk.

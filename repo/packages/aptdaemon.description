@@ -1,0 +1,22 @@
+Transaction based package management service
+	
+aptdaemon allows normal users to perform package management tasks, e.g.
+refreshing the cache, upgrading the system, installing or removing software
+packages.
+
+currently it comes with the following main features:
+
+
+ - programming language independent d-bus interface, which allows to
+   write clients in several languages
+ - runs only if required (d-bus activation)
+ - fine grained privilege management using policykit, e.g. allowing all
+   desktop user to query for updates without entering a password
+ - support for media changes during installation from dvd/cdrom
+ - support for debconf (debian's package configuration system)
+ - support for attaching a terminal to the underlying dpkg call
+
+
+this package contains the aptd script and all the data files required to run
+the daemon. moreover it contains the aptdcon script, which is a command
+line client for aptdaemon. the api is not stable yet.

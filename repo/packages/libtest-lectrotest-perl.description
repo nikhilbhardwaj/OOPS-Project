@@ -1,0 +1,7 @@
+Easy, automatic, specification-based testing system
+	
+test::lectrotest provides a simple (yet full featured) interface to
+lectrotest, an automated, specification-based testing system for perl.
+to use it, declare properties that specify the expected behavior
+of your software.  lectrotest then checks your software to see whether
+those properties hold.

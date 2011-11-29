@@ -1,0 +1,11 @@
+Java api compatibility testing tools
+	
+it consists of two simple tools designed to test for compatibility between
+java apis. they were originally designed for testing free implementations
+of java itself for compatibility with sun's jdk, but they can also be used
+for testing backward compatibility between versions of any api.
+
+the tools are japize and japicompat. japize is a java program which emits
+a listing of an api in a machine-readable format. japicompat then takes two
+such listings and compares them for binary compatibility, as defined by sun
+in the java language specification.

@@ -1,0 +1,9 @@
+Utilities to save disk space
+	
+gnu cp used to detect files that contain 0-filled holes and save disk space
+by skipping them with lseek when writing a file and thus not allocating
+disk blocks. unfortunately it does no longer. so here is program to make
+holes in existing files.
+
+also there are some scripts that help cleaning up the hard disk
+(finding duplicated and/or unstripped files).

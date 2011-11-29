@@ -1,0 +1,4 @@
+PackageId:3376
+Name:dracut-network
+Version:005-1
+Deps:dhcp3-client,isc-dhcp-client,dracut,iputils-arping

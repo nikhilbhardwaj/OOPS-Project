@@ -1,0 +1,10 @@
+Nodes builder for doom-style games; has support for opengl
+	
+glbsp is a node builder specially designed to be used with opengl ports of
+the doom game engine. it adheres to the "gl-friendly nodes" specification,
+which means it adds some new special nodes to a wad file that makes it very
+easy (and fast!) for an opengl doom engine to compute the polygons needed
+for drawing the levels.
+
+there are many doom ports that understand the gl nodes which glbsp creates,
+including edge, the doomsday engine (jdoom), doom3d, prboom, and vavoom.

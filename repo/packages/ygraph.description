@@ -1,0 +1,16 @@
+Plot and animate data sets
+	
+the ygraph tool graphs one-dimensional data or displays a time-series of
+one-dimensional data sets. it is an enhanced alternative to the xgraph
+utility and supports the same input format as xgraph.  additionally,
+ygraph features:
+
+
+ * animating multiple plots simultaneously and synchronously;
+ * stepping back and forth through animations one frame at a time;
+ * zooming, similar to xgraph but without opening a lot of new windows;
+ * plotting derivatives;
+ * subtracting plots;
+ * convergence tests;
+ * reading compressed files;
+ * exporting images and animations.

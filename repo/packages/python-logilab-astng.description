@@ -1,0 +1,13 @@
+Rebuild a new abstract syntax tree (ast) from python's ast
+	
+the aim of this module is to provide a common base representation of
+python source code for projects such as pyreverse or pylint.
+
+since 0.18, it provides a compatible representation which may come
+from the `compiler` module (for python <= 2.4) pr the `_ast` module
+(for python >= 2.5).
+
+it rebuilds the generated tree by recursively walking down the ast
+and building an extended ast (let's call it astng ;). the new node
+classes have additional methods and attributes for different usages.
+furthermore, astng builds partial trees by inspecting living objects.

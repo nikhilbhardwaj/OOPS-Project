@@ -1,0 +1,8 @@
+Pre-processor and fonts to typeset sanskrit in tex
+	
+this package provides fonts and the `skt' pre-processor for typesetting
+sanskrit from both devanagari and transliterated roman scripts, and support
+for vedic accent marks.
+
+the input is in roman script; and output may be either devanagari or roman
+script.

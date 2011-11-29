@@ -1,0 +1,5 @@
+Erlang/otp application monitor
+	
+the application monitor, appmon, is a graphical utility used to supervise
+erlang applications executing either locally or on remote erlang nodes.
+the process tree of an application can furthermore be monitored.

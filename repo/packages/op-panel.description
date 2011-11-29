@@ -1,0 +1,13 @@
+Switchboard type application for the asterisk pbx
+	
+flash operator panel is a switchboard type application for
+the asterisk pbx. it runs on a web browser with the flash plugin.
+
+it is able to display information about your pbx activity in real time.
+the layout is configurable (button sizes and colors, icons, etc). you can
+have more than 100 buttons active per screen.
+
+it also supports contexts: you can have one server running and many
+different client displays (for hosted pbx, different departments,
+etc). it can integrate with crm software, by popping up a web page
+(and passing the clid) when a specified button is ringing.

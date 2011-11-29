@@ -1,0 +1,20 @@
+Management daemon for telepathy real-time communication framework
+	
+telepathy mission control 5 is an account manager and channel dispatcher for
+the telepathy framework, allowing user interfaces and other clients
+to share connections to real-time communication services without conflicting.
+it implements the accountmanager and channeldispatcher d-bus apis as described
+by telepathy-spec.
+
+the account manager part stores real time communication account details,
+connects to the stored accounts on request, and sets the accounts' presence,
+nickname and avatar according to requests from telepathy user interfaces and
+other components.
+
+the channel dispatcher part responds to incoming communication channels
+(message streams, voice/video calls, file transfers etc.) by dispatching
+them to suitable user interfaces, and requests outgoing communication
+channels according to requests from a telepathy ui.
+
+this is not a compatible replacement for mission control 4 (in the
+telepathy-mission-control package), but they can be installed in parallel.

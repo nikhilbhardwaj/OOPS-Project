@@ -1,0 +1,5 @@
+Perl module providing an api for finger queries
+	
+net::finger is a perl interface to the finger service,
+connecting to a local or remote server and making the request.
+for more details see the net::finger(3pm) manpage.

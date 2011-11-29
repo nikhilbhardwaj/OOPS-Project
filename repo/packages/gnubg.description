@@ -1,0 +1,12 @@
+Graphical or console backgammon program with analysis
+	
+gnu backgammon is a strong backgammon program (world-class with a bearoff
+database installed) usable either as an engine by other programs or as a
+standalone backgammon game.  in addition to supporting simple play, it
+also has extensive analysis features, a tutor mode, adjustable
+difficulty, and support for exporting annotated games.  it can be played
+either from a gtk+ graphical interface, optionally with a 3d board, or
+from a simple text console.
+
+gnu backgammon is still under initial development and should be
+considered beta software.

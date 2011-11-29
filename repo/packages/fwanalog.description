@@ -1,0 +1,10 @@
+Firewall log-file report generator (using analog)
+	
+fwanalog is a shell script that parses and summarizes firewall logfiles.
+it is able to work on firewall logs from ipchains (linux 2.2), iptables
+(linux 2.4), ipf (openbsd, freebsd and netbsd) and some zyxel/netgear
+routers.
+
+it uses analog to generate the log-files, which includes daily statistics and
+such,  and is both formatted in html and text (for online perusing, and a
+daily email, for instance).

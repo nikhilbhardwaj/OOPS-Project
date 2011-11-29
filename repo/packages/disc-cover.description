@@ -1,0 +1,6 @@
+Produces covers for audio cds
+	
+disc-cover queries freedb for track information for a given cd and
+creates a jewel-case insert in one of many available formats.
+postscript, pdf, dvi, latex, plain text, html, cdlabelgen and cddb
+are available.

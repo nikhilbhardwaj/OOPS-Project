@@ -1,0 +1,12 @@
+C++ network libraries for rapid application development
+	
+wvstreams is a library suite that is comprised of several parts.  included
+in the base package are:
+
+ * wvstring: a convenient and efficient c++ string class
+ * wvlist: an easy-to-use linked list
+ * wvhashtable: an efficient and easy-to-use hash table
+ * wvfile: a wvstream wrapper for handling files
+ * wvstreamclone: a base class which makes writing your own wvstreams easy
+ * wvlog: a log files handler
+ * uniinigen: a tiny version of uniconf for simple configuration systems

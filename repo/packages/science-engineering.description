@@ -1,0 +1,8 @@
+Debian science engineering packages
+	
+this metapackage is part od the debian pure blend "debian science"
+and installs packages related to engineering.
+
+please not that there is an additional package engineering-dev
+which depends from packages which are useful to develop engineering
+related software.

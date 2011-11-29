@@ -1,0 +1,7 @@
+Unit testing protocol - development headers and static library for libsubunit
+	
+subunit is a protocol for test activity reporting. this permits executing
+tests remotely, or saving the result of test runs for later introspection.
+
+the libsubunit-dev package contains the c development headers,
+pkgconfig data file and a static version of the library.

@@ -1,0 +1,20 @@
+A dialect of lisp using turtle graphics famous for teaching kids
+	
+this is the uc berkeley implementation of logo written primarily by
+daniel van blerkom, brian harvey, michael katz, and douglas orleans.  this
+version of logo is featured in brian harvey's book
+_computer_science_logo_style, _volume_1: _symbolic_computing_
+(isbn 0-262-58151-5).  this version provides the following special features:
+
+
+ - random-access arrays.
+ - variable number of inputs to user-defined procedures.
+ - mutators for list structure (dangerous).
+ - pause on error, and other improvements to error handling.
+ - comments and continuation lines; formatting is preserved when
+   procedure definitions are saved or edited.
+ - terrapin-style tokenization (e.g., [2+3] is a list with one member)
+   but lcsi-style syntax (no special forms except to).  the best of
+   both worlds.
+ - first-class instruction and expression templates.
+ - macros.

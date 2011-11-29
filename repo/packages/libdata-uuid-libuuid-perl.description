@@ -1,0 +1,4 @@
+Uuid.h based uuid generation module
+	
+data::uuid::libuuid provides bindings for libuuid. the module provides
+several methods for manipulating uuids.

@@ -1,0 +1,10 @@
+Developer files for the silc library (silc-toolkit)
+	
+silc (secure internet live conferencing) is a network protocol designed
+to provide end-to-end security for conferencing services. silc has a
+command set and a user interface similar to irc, but the network
+protocol is completely different as it supports public key strong
+cryptography and a different network model.
+
+this package contains headers and documentation for both the generic silc
+library (libsilc) and the client library (libsilcclient).

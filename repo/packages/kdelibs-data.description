@@ -1,0 +1,8 @@
+Core shared data for all kde applications
+	
+this package contains all the architecture independent data files
+commonly used by kde applications. you need these data files to run
+kde applications.
+
+this package is part of kde, and a component of the kde libraries module.
+see the 'kde' and 'kdelibs' packages for more information.

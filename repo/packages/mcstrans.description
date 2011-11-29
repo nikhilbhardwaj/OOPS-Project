@@ -1,0 +1,12 @@
+Daemon to translate se linux mcs/mls sensitivity labels
+	
+a se linux security context consists of four parts, the identity (the se linux
+name of the "user"), the role, the domain/type, and the sensitivity.
+
+the sensitivity label is comprised of a sensitivity level (always s0 for mcs
+and anything from s0 to s15 for mls) and a set of categories.  a ranged
+sensitivity label will have a low level and a high level where the high level
+will dominate the low level.  categories are numbered from c0 to c1023.
+
+names such as s0 and c1023 and not easily readable by humans, so mcstransd
+translated them to human readable labels such as systemlow and systemhigh.

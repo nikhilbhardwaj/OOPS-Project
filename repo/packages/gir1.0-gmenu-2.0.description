@@ -1,0 +1,7 @@
+Gobject introspection data for the gnome menu library
+	
+this package contains introspection data for gnome menu, an
+implementation of the desktop menu specification from freedesktop.org.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

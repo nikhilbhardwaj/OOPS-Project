@@ -1,0 +1,9 @@
+Network server for `plan'
+	
+plan is a schedule planner based on x/motif.
+
+netplan adds to plan multiuser capability using an ip server.
+
+warning: the best level of authentication offered by netplan in
+this version is identd.  that's quite weak, so watch the manpage and
+tune the config carefully.

@@ -1,0 +1,8 @@
+Fully featured pam module for using for using pkcs#11 smart cards
+	
+a pluggable authentication module for pkcs#11 based smart cards. useful for
+enabling smart card based user login to a system.
+
+more advanced than libpam-p11. additional features include full verification of
+the card data using certificate chains and certificate revocation lists.
+advanced username mapping including ldap, active directory and kerberos.

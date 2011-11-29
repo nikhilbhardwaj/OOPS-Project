@@ -1,0 +1,20 @@
+Inheritable, overridable class and instance data accessor creation
+	
+class::data::accessor is the marriage of class::accessor and
+class::data::inheritable into a single module. it is used for creating
+accessors to class properties that is overridable in subclasses as well as in
+class instances.
+
+for example:
+
+
+  pere::ubu->mk_classaccessor('suitcase');
+
+
+will generate the method suitcase() in the class pere::ubu.
+
+this new method can be used to get and set a piece of class property.
+
+
+  pere::ubu->suitcase('red');
+  $suitcase = pere::ubu->suitcase;

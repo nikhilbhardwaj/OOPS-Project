@@ -1,0 +1,5 @@
+Debugging symbols for tor
+	
+this package provides the debugging symbols for tor, the onion router.
+those symbols allow your debugger to assign names to your backtraces, which
+makes it somewhat easier to interpret core dumps.

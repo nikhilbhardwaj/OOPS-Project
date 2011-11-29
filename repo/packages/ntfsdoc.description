@@ -1,0 +1,8 @@
+Documentation about ntfs partitions format
+	
+this work is derived from the linux-ntfs project
+(http://linux-ntfs.sf.net/), that aims to bring full support for the
+ntfs filesystem to the linux operating system.
+
+this is a set of documents about all the ntfs internals (all the
+publicly known internals) and the ntfs journal file format.

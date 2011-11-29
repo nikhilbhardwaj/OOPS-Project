@@ -1,0 +1,12 @@
+C code generator for the s-lang scripting language
+	
+slirp is a c code generator, aimed at simplifying the process of
+creating modules for the s-lang scripting language. using it can
+dramatically reduce the time and effort required to make c, c++, and
+fortran code callable directly from the s-lang interpreter.
+
+slirp can also generate makefiles to automate the module build
+process, as well as pure c bindings for c++ code (cfront mode), or
+empty (stub) implementations for the interface(s) specified by its
+input. the code emitted in the latter two cases has no dependencies
+upon s-lang whatsoever.

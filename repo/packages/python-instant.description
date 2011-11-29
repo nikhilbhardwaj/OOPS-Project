@@ -1,0 +1,5 @@
+Simple inlining of c / c++ code in python
+	
+instant is a python module that allows for instant inlining of c and c++ code
+in python. it is a small python module built on top of swig and distutils.
+it is part of the fenics project (http://www.fenics.org).

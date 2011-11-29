@@ -1,0 +1,8 @@
+Tools for zmodem/xmodem/ymodem file transfer
+	
+lrzsz is a cosmetically modified zmodem/ymodem/xmodem package built
+from the public-domain version of chuck forsberg's rzsz package.
+
+these programs use error correcting protocols ({z,x,y}modem) to send
+(sz, sx, sb) and receive (rz, rx, rb) files over a dial-in serial port
+from a variety of programs running under various operating systems.

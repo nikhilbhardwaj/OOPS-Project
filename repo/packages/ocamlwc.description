@@ -1,0 +1,4 @@
+Count the lines of code and comments in ocaml sources
+	
+ocamlwc is a program to count the number of lines of code and documentation
+in ocaml sources.  it assumes the files to be lexically well-formed.

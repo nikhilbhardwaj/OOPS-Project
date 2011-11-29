@@ -1,0 +1,6 @@
+Generate image from latex command
+	
+mathtex is a cgi program that lets you easily embed latex math
+in your own html pages, blogs, wikis, etc.  it parses a latex
+math expression and immediately emits the corresponding gif
+(or png) image, rather than the usual tex dvi.

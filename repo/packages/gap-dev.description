@@ -1,0 +1,14 @@
+Gap computer algebra system, compiler and development files
+	
+gap is a system for computational discrete algebra with particular
+emphasis on computational group theory, but which has already proved
+useful also in other areas.   in the example text, gap is used to
+analyse rubik's cube using group theory.  a kernel implements a pascal-like
+language.
+
+this package contains the gap compiler and the headers files and
+objects files necessary to build gap packages.
+
+the gap compiler (gac) creates c code from gap code and then calls
+the system's c compiler to produce machine code from it. this can
+result in a speedup.

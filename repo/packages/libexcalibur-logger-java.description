@@ -1,0 +1,6 @@
+Excalibur project's log management system
+	
+excalibur-logger integrates neatly into the avalon ecm and excalibur-fortress.
+the main goal is to be able to define the log categories on a component basis
+by specifying a 'logger' attribute which denotes the log category to use for
+a particular component (given the component is logenabled or loggable).

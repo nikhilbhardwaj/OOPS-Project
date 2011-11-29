@@ -1,0 +1,16 @@
+Gnome viewer for .deb package files and contents
+	
+displays debian control information, devscript details and
+details of the files that would be installed (names,
+sizes and locations). files within the package can be
+viewed within the package or externally.
+
+accepts package locations on the command line to support
+the 'open' command in various file managers, one window
+for each package. packages do not need to be installed
+to be viewed. opening a changes file opens a new window
+for each package specified in the changes file.
+
+individual package files or packages referenced in a
+changes file can be viewed from local or remote
+filesystems.

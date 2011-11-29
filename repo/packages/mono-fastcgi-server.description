@@ -1,0 +1,8 @@
+Asp.net backend for fastcgi webservers - default version
+	
+mono-fastcgi-server contains the backend for fastcgi. it lets you run
+asp.net web applications via http servers such as lighttpd or apache.
+the fastcgi webserver should be configured to run fastcgi-mono-server to
+parse and compile the aspx code.
+
+this package pulls in the default version of the fastcgi backend.

@@ -1,0 +1,7 @@
+Puts an inactive or low battery laptop to sleep
+	
+this is a daemon to put a laptop to sleep if it is not being used or
+if the battery is low.
+
+it supports hal, apm, and acpi, although external programs must be used
+to actually put the system to sleep.

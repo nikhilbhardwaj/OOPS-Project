@@ -1,0 +1,7 @@
+Class for injecting distributions into cpan sources
+	
+cpan::inject provides a simple and reusable interface for injecting arbitrary
+packages to a cpan mirror. specifically, it takes an arbitrary tarball and
+adds it to the cpan sources directory for a particular author, then updating
+the checksums file accordingly. it replicates the functionality provided to
+mini cpan installations via cpan::mini::inject, but in a generalized manner.

@@ -1,0 +1,7 @@
+Headers and linker scripts for gputils
+	
+those utilities for the microchip pic microcontrollers family contain
+an assembler (compatible with mpasm), a disassembler, and other tools.
+
+this package contains the headers and linker scripts needed by
+gputils.

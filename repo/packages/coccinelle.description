@@ -1,0 +1,6 @@
+Semantic patching tool for c
+	
+cocinelle is a program matching and transformation tool for c.
+the programmer describes the code to match and the transformation to
+perform as a semantic patch, which looks like a standard patch, but can
+transform multiple files at any number of code sites.

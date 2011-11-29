@@ -1,0 +1,5 @@
+Python bindings for the gksu library
+	
+this package contains bindings allowing to run python programs using
+the gksu library to authenticate users and execute programs with the
+privileges of another user under the x window system.

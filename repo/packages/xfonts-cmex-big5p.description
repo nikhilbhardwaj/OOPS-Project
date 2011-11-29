@@ -1,0 +1,14 @@
+Big5+ chinese mingti bitmap font (by cmex & dynalab) for x11
+	
+this package contains the standard big5+ chinese ming 24x24 bitmap font
+(and a resized 16x16 bitmap font) by cmex and dynalab for the x window
+system (pcf).  this is one of the few big5 or big5+ chinese bitmap fonts
+on the internet that is dfsg-compliant.
+
+the font was designed by dynalab and released by cmex as part of the
+proposed big5+ standard documentation.  it was then converted to hbf and
+bdf format and further modified by wei-lun chao <chaoweilun@sinanet.com>
+in september 1998.
+
+
+ url: http://www.cmex.org.tw/

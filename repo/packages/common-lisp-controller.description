@@ -1,0 +1,14 @@
+Common lisp source and compiler manager
+	
+this package helps installing common lisp sources and compilers.
+
+it creates a user-specific cache of compiled objects. when a library
+or an implementation is upgraded, all compiled objects in the cache
+are flushed. it also provides tools to recompile all libraries and to
+generate debian packages from asdf-install packages.
+
+also includes clc-clbuild, a wrapper for clbuild. please see
+http://common-lisp.net/project/clbuild/ for more information.
+
+this package also contains a wrapper to invoke emacs with a
+clbuild provided slime environment.

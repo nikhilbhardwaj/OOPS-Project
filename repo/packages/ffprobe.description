@@ -1,0 +1,12 @@
+Command-line tool to analyze multimedia streams
+	
+ffprobe is a simple multimedia streams analyzer with a command-line
+interface based on the ffmpeg project libraries.
+
+it may be used to print informations about the format and header of a
+multimedia file or stream, the multimedia streams and each single packet
+or frame.
+
+ffprobe may be used both as a standalone application or in combination with
+a textual filter, which is supposed to perform more sophisticated elaboration
+(e.g. statistics elaboration or plotting).

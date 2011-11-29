@@ -1,0 +1,16 @@
+Converter from abc to midi format and back
+	
+this package contains the programs `abc2midi' and `midi2abc',  which
+convert from the abc musical notation format to standard midi format
+and vice-versa. they can generate accompaniment from guitar chords
+in the abc file, as well as insert various midi events; the
+midi-to-abc translation tries to figure out bars, triplets and
+accidentals on its own.
+
+the package also contains `abc2abc' (an abc prettyprinter/transposer),
+`mftext' (a program that dumps a midi file as text), and `midicopy'
+(a program that extracts specific tracks, channels or time intervals
+from a midi file).
+
+the programs in this package are based on the `midifilelib'
+distribution available from http://www.harmony-central.com/midi/.

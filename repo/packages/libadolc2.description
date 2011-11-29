@@ -1,0 +1,8 @@
+Adolc automatic differentiation system, runtime libs
+	
+the adolc system automatically calculates exact derivatives of a
+c/c++ function.  it uses c++ overloading to record arithmetic
+operations, which it plays back later in various ways to calculate
+the requested values.
+
+this package contains the runtime library.

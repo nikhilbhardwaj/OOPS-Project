@@ -1,0 +1,6 @@
+Module to check if your manifest matches your distribution
+	
+test::checkmanifest is a perl test module that checks whether the package
+manifest matches your distribution. the package manifest must name all files
+that come with the distribution. by default, this module searches for a file
+named manifest.

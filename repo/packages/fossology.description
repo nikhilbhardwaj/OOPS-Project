@@ -1,0 +1,12 @@
+Open and modular architecture for analyzing software
+	
+the fossology project is a web based framework that allows you to
+upload software to be picked apart and then analyzed by software agents
+which produce results that are then browsable via the web interface.
+existing agents include license analysis, metadata extraction, and mime
+type identification.
+
+this metapackage ensures that the fossology component packages needed
+for a single-system install are installed in the right order. for a
+multi-system install, consult the readme.debian file included in the
+fossology-common package.

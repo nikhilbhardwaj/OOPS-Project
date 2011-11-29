@@ -1,0 +1,6 @@
+Reimplementation of the 'host' command
+	
+this package provides the 'unbound-host' program that is bundled with the
+unbound domain name server. this version differs from the one provided in the
+package called host, which is from nikhef, and bind9-host, which is from isc,
+and has a similar but different set of features and options.

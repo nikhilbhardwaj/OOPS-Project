@@ -1,0 +1,5 @@
+Run real-mode video bios code to alter hardware state
+	
+vbetool uses lrmi in order to run code from the video bios. currently, it
+is able to alter dpms states, save/restore video card state and attempt to
+initialize the video card from scratch.

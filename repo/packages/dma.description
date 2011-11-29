@@ -1,0 +1,11 @@
+Lightweight mail transport agent
+	
+the dragonfly mail agent is a small mail transport agent (mta),
+designed for home and office use.  it accepts mails from local mail
+user agents (mua) and delivers them either to local mailboxes or
+remote smtp servers.  remote delivery includes support for features
+such as tls/ssl and smtp authentication.
+
+dma is not intended as a replacement for full-featured mtas like
+sendmail, postfix, or exim.  consequently, dma does not listen on
+port 25 for incoming connections.

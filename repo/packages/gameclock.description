@@ -1,0 +1,7 @@
+A simple chess clock to track time in real life games
+	
+this is a fairly simple application designed to track the time spent thinking
+by the players during a chess game. various ways of tracking time are
+supported, with only "countdown" (aka "blitz") and "fisher" for now. the
+graphical interface is keyboard driven and is intended to be minimal and
+simple. the code is made to be extensible to other game types.

@@ -1,0 +1,16 @@
+Selinux library for manipulating binary security policies
+	
+security-enhanced linux is a patch of the linux kernel and a number
+of utilities with enhanced security functionality designed to add
+mandatory access controls to linux.  the security-enhanced linux
+kernel contains new architectural components originally developed to
+improve the security of the flask operating system. these
+architectural components provide general support for the enforcement
+of many kinds of mandatory access control policies, including those
+based on the concepts of type enforcement®, role-based access
+control, and multi-level security.
+
+libsepol provides an api for the manipulation of selinux binary policies.
+it is used by checkpolicy (the policy compiler) and similar tools, as well
+as by programs like load_policy that need to perform specific transformations
+on binary policies such as customizing policy boolean settings.

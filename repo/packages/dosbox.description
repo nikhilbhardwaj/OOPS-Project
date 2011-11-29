@@ -1,0 +1,9 @@
+A x86 emulator with tandy/herc/cga/ega/vga/svga graphics, sound and dos
+	
+dosbox is a x86 emulator with tandy/hercules/cga/ega/vga/svga graphics,
+sound and dos. it's been designed to run old dos games under platforms that
+don't support it. (win2k/xp/freebsd/linux/mac os x)
+
+the following legacy sound devices are emulated: pc speaker, creative
+cms/gameblaster, tandy 3 voice, adlib, sound blaster pro/16,
+disney soundsource and a gravis ultrasound. mpu-401 is forwarded to the host.

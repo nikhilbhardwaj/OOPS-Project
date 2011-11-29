@@ -1,0 +1,11 @@
+Source for the sysprof module
+	
+sysprof is a sampling cpu profiler that uses a linux kernel module to profile
+the entire system, not just a single application. sysprof handles shared
+libraries and applications do not need to be recompiled. in fact they don't
+even have to be restarted.
+
+this package contains the source for the sysprof's kernel module.
+
+you need a linux kernel version 2.6.11 or newer on an i386 or amd64
+processor.

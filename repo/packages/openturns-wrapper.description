@@ -1,0 +1,26 @@
+Example of a wrapper for openturns
+	
+openturns is a powerful and generic tool to treat and quantify
+uncertainties in numerical simulations in design, optimization and
+control. it allows both sensitivity and reliability analysis studies:
+
+ * defining the outputs of interest and decision criterion;
+ * quantify and model the source of uncertainties;
+ * propagate uncertainties and/or analyse sensitivity and
+ * rank the sources of uncertainty
+
+
+openturns is a large project with more than 300 c++ classes which
+uses well known and supported software such as r for the statistical
+methods and blas/lapack for the linear algebra.
+
+this package provides a wrapper that allows any external code to be
+linked against the openturns library and to be used through the
+library functionalities.
+
+any code can be used provided that it can be seen as a
+numerical function that reads n doubles and returns p doubles.
+notice that the wrapper of this package only shows how to link
+against the openturns library. it does not show how to parse
+or write the arguments of the function so they can be sent to or
+retrieved from the code.

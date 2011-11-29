@@ -1,0 +1,6 @@
+Pythonic binding for the libxml2 and libxslt libraries (debug extension)
+	
+lxml is a new python binding for libxml2 and libxslt, completely
+independent from existing python bindings.
+
+this package contains the extension built for the python3 debug interpreter.

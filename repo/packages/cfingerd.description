@@ -1,0 +1,8 @@
+Configurable finger daemon
+	
+this is a free replacement for standard finger daemons such as gnu
+fingerd and mit fingerd.  cfingerd can enable/disable finger services
+to individual users, rather than to all users on a given host.  it is
+able to respond to a finger request to a specified user by running a
+shell script (e.g., finger doorbell@mysite.mydomain might cause a
+sound file to be sent) rather than just a plain text file.

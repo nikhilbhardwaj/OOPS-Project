@@ -1,0 +1,16 @@
+Client for setting system time from ntp servers
+	
+ntp, the network time protocol, is used to keep computer clocks
+accurate by synchronizing them over the internet or a local network,
+or by following an accurate hardware receiver that interprets gps,
+dcf-77, nist or similar time signals.
+
+ntpdate is a simple ntp client that sets a system's clock to match
+the time obtained by communicating with one or more ntp servers.  it
+is not sufficient, however, for maintaining an accurate clock in the
+long run.  ntpdate by itself is useful for occasionally setting the
+time on machines that do not have full-time network access, such as
+laptops.
+
+if the full ntp daemon from the package "ntp" is installed, then
+ntpdate is not necessary.

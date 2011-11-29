@@ -1,0 +1,9 @@
+Library for particle image velocimetry (piv) - development files
+	
+this library contains functions for evaluating images from a fluid flow
+by means of particle image velocimetry (piv), resulting into a velocity
+field of the fluid flow. it includes the core functions for interrogation,
+data validation, post-processing, input/output and memory allocation.
+
+this package contains the headers and statically linked libraries
+(serial as well as parallelized using mpi).

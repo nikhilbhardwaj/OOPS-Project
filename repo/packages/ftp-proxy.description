@@ -1,0 +1,26 @@
+Application level proxy for the ftp protocol
+	
+ftp-proxy is a transparent, application-level proxy server for ftp
+connections, designed to protect ftp servers against attacks based on the ftp
+protocol. it is the first (and currently only) component of the suse proxy
+suite, a set of programs to enhance firewall security.
+
+ftp-proxy is much less complex than any current ftp server, has been designed
+with great care and performs chroot(), setuid(), setgid() to avoid possible
+vulnerabilities, and is believed to be immune against current known attacks.
+
+ftp-proxy features include:
+
+ o securely relays ftp connections between clients and servers
+ o can switch connections from active to passive and vice versa
+ o utilizes port ranges for both control and data connections
+ o provides extensive auditing (via syslog or rotating log files)
+ o can separate user related from system triggered audit events
+ o provides command restriction based on logged in user name
+ o allows command argument checking with regular expressions
+ o is able to retrieve configuration data from an ldap directory
+ o has been thoroughly tested against buffer overflow attacks
+ o fully conforms to rfc 959 and 1123 (the basic ftp rfcs)
+ o planned to support rfc 1579 ("firewall friendly ftp")
+ o planned to support rfc 2428 (ipv6 extensions for ftp)
+ o based on gnu autoconf, supposed to run on many unix systems

@@ -1,0 +1,10 @@
+Input system for japanese - runtime library
+	
+canna provides a unified user interface for japanese input. it is based
+on a client-server model and supports automatic kana-to-kanji conversion.
+
+it supports multiple clients (including kinput2 and canuum), and allows
+them all to work in the same way, sharing customization files,
+romaji-to-kana conversion rules and conversion dictionaries.
+
+this package provides shared libraries for canna.

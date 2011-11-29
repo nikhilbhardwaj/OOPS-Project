@@ -1,0 +1,8 @@
+Generic c++ template library for sparse, dense and skyline matrices
+	
+gmm++ is a framework of pre-defined methods for matrix computation. it is built
+as a set of generic algorithms for any interfaced vector type or matrix type.
+
+it can be viewed as a glue library allowing cooperation between several vector
+and matrix types. however, basic sparse, dense and skyline matrix/vector types
+are built-in, hence it can be used as a standalone linear algebra library.

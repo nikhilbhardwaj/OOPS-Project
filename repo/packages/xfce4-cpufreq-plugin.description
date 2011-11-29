@@ -1,0 +1,5 @@
+Cpufreq information plugin for the xfce4 panel
+	
+this plugin displays the current frequency of the cpu, in ghz or mhz as
+necessary. it also displays the frequency relative to the maximum cpu
+frequency as an accordingly colored progress bar.

@@ -1,0 +1,5 @@
+Runtime libraries for firedns, an asynch. dns resolver library
+	
+firedns is a dns resolver library.  features include asynchronous resolution,
+and multi-server queries (making lookups much faster than with the stock
+libc/bind functions).

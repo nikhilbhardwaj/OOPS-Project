@@ -1,0 +1,14 @@
+A web-based photo album written in php
+	
+gallery is a web-based photo album with multiple user support. it
+provides users with the ability to create and maintain their own albums via an
+intuitive web interface. photo management includes automatic thumbnail
+creation, image resizing, rotation, ordering, captioning, searching and more.
+albums can have read, write and caption permissions per individual
+authenticated user for an additional level of privacy.
+
+created in an effort to prevent well meaning folks from sending obscenely
+large photos by email, gallery provides an easy place for friends and
+relatives to create and maintain their own photo albums.
+
+the upstream web site is: http://gallery.sf.net

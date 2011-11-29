@@ -1,0 +1,13 @@
+Improved decoder for application/ms-tnef attachments
+	
+yerase's tnef stream reader allows you to decode application/ms-tnef
+e-mail attachments, which are usually entitled "winmail.dat" and are
+generally a file container format that is only readable by microsoft
+outlook. some tnef streams also include rtf-formatted data.
+
+libytnef0 is the support library that exposes these functions to other
+programs. the ytnef program (and eponymous package) is the frontend for
+this library, so you should probably install that if you want to take
+advantage of it.
+
+these are the development headers for libytnef0.

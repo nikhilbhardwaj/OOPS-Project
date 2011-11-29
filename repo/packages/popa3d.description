@@ -1,0 +1,8 @@
+A tiny pop3 daemon, designed with security as the primary goal
+	
+popa3d is fast, small and secure pop3 daemon. it's written from scratch by
+solar designer for owl (openwall gnu/*/linux).
+
+popa3d can work both in standalone or inetd mode.
+
+for more information see design file.

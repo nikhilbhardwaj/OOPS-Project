@@ -1,0 +1,24 @@
+Python/c++ bindings generator development files
+	
+sip is a tool for generating bindings for c++ classes with some ideas
+borrowed from swig, but capable of tighter bindings because of its
+specificity towards c++ and python.
+
+sip was originally designed to generate python bindings for kde and so
+has explicit support for the signal slot mechanism used by the qt/kde
+class libraries.
+
+features:
+
+    - connecting qt signals to python functions and class methods
+    - connecting python signals to qt slots
+    - overloading virtual member functions with python class methods
+    - protected member functions
+    - abstract classes
+    - enumerated types
+    - global class instances
+    - static member functions.
+
+
+this package contains the code generator tool and the development headers
+needed to develop python bindings with sip.

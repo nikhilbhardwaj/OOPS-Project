@@ -1,0 +1,21 @@
+Ipv6 multicast routing daemon
+	
+mrd6 is a modular ipv6 multicast routing daemon which implements:
+
+  * mldv1 and mldv2 support
+    - mld proxying
+  * pim-sm (asm and ssm)
+    - bootstrap (bsr) mechanism support
+    - static rp configuration
+    - embedded-rp support (rfc 3956)
+  * partial mbgp support
+    - implements basic bgp4 mechanisms (ipv6 multicast safi)
+      to update local mrib from mbgp info
+    - uses ipv6 multicast safi prefixes announced by
+      peers to update local mrib
+    - is able to announce local prefixes
+    - filter support
+  * supports both native and virtual (tunnel) interfaces
+    (tested ipv6-ipv4, ipv6-ipv6 and tun/tap tunnels)
+  * abstract forwarding interface (mfa) with user-space module
+  * remote configuration and online administration

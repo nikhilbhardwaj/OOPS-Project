@@ -1,0 +1,6 @@
+Plugin for psi/psi+ for audio and video calls
+	
+psimedia is a thick abstraction layer for providing
+audio and video rtp services to psi-like im clients.
+
+the implementation is based on gstreamer.

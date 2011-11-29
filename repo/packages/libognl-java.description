@@ -1,0 +1,5 @@
+Java expression language
+	
+ognl stands for object-graph navigation language; it is an expression language
+for getting and setting properties of java objects. you use the same
+expression for both getting and setting the value of a property.

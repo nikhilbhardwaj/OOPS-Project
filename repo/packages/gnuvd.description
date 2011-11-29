@@ -1,0 +1,8 @@
+Query the online dutch van dale dictionary
+	
+this program is a frontend for the online van dale dictionary,
+http://www.vandale.nl/. it will search any word in the dictionary and return
+its description in dutch. van dale is a well known producer of dictionaries
+in the netherlands.
+
+this package provides the commandline frontend.

@@ -1,0 +1,8 @@
+Mocking and stubbing library for ruby
+	
+mocking and stubbing library with jmock/schmock syntax, which allows mocking
+and stubbing of methods on real (non-mock) classes. mocking and stubbing are
+techiniques used to improve unit testing.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

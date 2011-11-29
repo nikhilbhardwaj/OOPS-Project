@@ -1,0 +1,27 @@
+Revised^6 report on the algorithmic language scheme
+	
+this package contains the four parts of the r6rs report in both pdf and html
+format, as well as their published errata. it also includes only the r6rs and
+r6rs-lib reports in info format. these parts are defined as follows:
+
+r6rs: the report gives a defining description of the programming language
+scheme. scheme is a statically scoped and properly tail-recursive dialect of
+the lisp programming language invented by guy lewis steele jr. and gerald jay
+sussman. it was designed to have an exceptionally clear and simple semantics
+and few different ways to form expressions. a wide variety of programming
+paradigms, including functional, imperative, and message passing styles, find
+convenient expression in scheme.
+
+r6rs-lib: the report gives a defining description of the standard libraries of
+the programming language scheme.
+
+r6rs-app: this document contains non-normative appendices to the revised6
+report on the algorithmic language scheme. these appendices contain advice for
+users and suggestions for implementors on issues not fit for standardization,
+in particular on platform-specific issues.
+
+r6rs-rationale: this document describes rationales for some of the design
+decisions behind the revised^6 report on the algorithmic language scheme. the
+focus is on changes made since the last revision on the report. moreover,
+numerous fundamental design decisions of scheme are explained. this report also
+contains some historical notes.

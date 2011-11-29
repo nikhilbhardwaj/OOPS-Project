@@ -1,0 +1,15 @@
+Lightweight and easy-use mandatory access control for linux
+	
+tomoyo linux implements "lightweight and usable mandatory access control"
+with the following features:
+
+ - "automatic policy configuring" feature by "learning mode"
+ - administrators friendly policy language
+ - no need libselinux nor userland program modifications
+
+
+tomoyo linux consists of patches to the linux kernel and to administrative
+utilities. this package contains linux kernel patch.
+
+and from version 1.7.x, it has no compatiblity with previous 1.6.x. so, if you
+want to use this version, you must discard until 1.6.x version's settings.

@@ -1,0 +1,11 @@
+Website engine for collaborative work
+	
+mediawiki is a wiki engine (a program for creating a collaboratively
+edited website). it is designed to handle heavy websites containing
+library-like document collections, and supports user uploads of
+images/sounds, multilingual content, toc autogeneration, isbn links,
+etc.
+
+moreover, it keeps track of changes, so users can receive
+notifications, view diffs and revert edits. this system has many
+other features and can easily be extended.

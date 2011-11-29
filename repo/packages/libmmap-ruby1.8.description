@@ -1,0 +1,7 @@
+Ruby interface to manage memory-mapped file objects
+	
+this is a ruby library that implements memory-mapped file objects. it provides
+a ruby api to access the mmap syscall and manipulate mapped memory.
+
+this package is part of the ruby library extras, a supplement to ruby's
+standard library.

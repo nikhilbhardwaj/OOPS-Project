@@ -1,0 +1,6 @@
+Java classes for internationalization (i18n)
+	
+lightweight library combining the power of the unix-style gettext tools
+with the widely used java resourcebundles.
+this makes it possible to use the original text instead of arbitrary property
+keys, which is less cumbersome and makes programs easier to read.

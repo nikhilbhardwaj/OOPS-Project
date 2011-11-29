@@ -1,0 +1,8 @@
+Elite 3d framebuffer firmware initializer
+	
+the package provides a program that can initialize the microcode firmware
+on an elite 3d framebuffer card found on many ultrasparc systems. this is
+needed if you want to support acceleration under xfree86 for this card.
+
+note: this program requires that you obtain the proprietary microcode.
+please see the readme.debian for more information.

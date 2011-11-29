@@ -1,0 +1,11 @@
+Fast and lightweight sat solver
+	
+despite the np completeness of the satisfiabilty problem of boolean formulas
+(sat), sat solvers are often able to decide this problem in a reasonable time
+frame. as all other np complete problems are reducible to sat, the solvers
+have become a general purpose tool for this class of problems.
+
+minisat is a minimalistic, open-source sat solver, developed to help
+researchers and developers alike to get started on sat. winning all the
+industrial categories of the sat 2005 competition, minisat is a good starting
+point both for future research in sat, and for applications using sat.

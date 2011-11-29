@@ -1,0 +1,5 @@
+Scsh package installer
+	
+the scsh install library contains the code necessary to install scsh
+packages not packaged as debian packages, or to build debian packages
+of scsh packages.

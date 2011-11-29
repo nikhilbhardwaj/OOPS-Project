@@ -1,0 +1,20 @@
+Conversion between flavours of julian date
+	
+for date and time calculations it is convenient to represent dates by a
+simple linear count of days, rather than in a particular calendar. this is
+such a good idea that it has been invented several times. if there were a
+single such linear count then it would be the obvious data interchange format
+between calendar modules. with several versions, calendar modules can use
+such sensible data formats and still have interoperability problems. date::jd
+tackles that problem, by performing conversions between different flavours of
+day count. these day count systems are generically known as "julian dates",
+after the most venerable of them.
+
+among julian date systems there are also some non-trivial differences of
+concept. there are systems that count only complete days, and those that
+count fractional days also. there are some that are fixed to universal time
+(time on the prime meridian), and others that are interpreted according to a
+timezone. some consider the day to start at noon and others at midnight,
+which is semantically significant for the complete-day counts. the functions
+of this module appropriately handle the semantics of all the non-trivial
+conversions.

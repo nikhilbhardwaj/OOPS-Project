@@ -1,0 +1,10 @@
+Automatic theorem prover dedicated to program verification
+	
+alt-ergo is an automatic theorem prover dedicated to program verification.
+alt-ergo is based on cc(x) a congruence closure algorithm parameterized by an
+equational theory x. currently, cc(x) can be instantiated by the empty
+equational theory and by the linear arithmetics. alt-ergo contains also a home
+made sat-solver and an instantiation mechanism.
+
+alt-ergo is both safe and modular: each box is described by a small set of
+inference rules and is implemented as an ocaml functor.

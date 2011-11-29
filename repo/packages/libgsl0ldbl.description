@@ -1,0 +1,17 @@
+Gnu scientific library (gsl) -- library package
+	
+the gnu scientific library (gsl) is a collection of routines for
+numerical analysis.  the routines are written from scratch by the gsl
+team in c, and present a modern api for c programmers, while allowing
+wrappers to be written for very high level languages.
+
+gsl includes data types and routines for complex numbers, vectors,
+matrices, basic linear algebra subroutines (blas), eigensystems,
+simulated annealing, minimization, root finding, pseudo-random
+numbers, least-squares fitting, fast fourier transforms (fft),
+differential equations, quadrature, monte carlo integration, special
+functions, physical constants, and much more.
+
+this package provides the shared libraries required to run programs
+compiled with gnu gsl. to compile your own programs you also need to
+install libgsl0-dev.

@@ -1,0 +1,21 @@
+Compiler front-end generator based on labelled bnf
+	
+the bnf converter is a compiler construction tool that generates a
+compiler front-end and a readable syntax description document from a
+labelled bnf grammar. it was originally written to generate haskell,
+but it can now also be used for generating java, c++, and c.
+
+to process haskell output, you need the glorious glasgow haskell
+compiler (virtual package ghc), the happy parser generator (package
+happy) and the alex scanner generator (package alex).
+
+to process java output, you need a java compiler and virtual machine,
+the cup parser generator (package cup) and the jlex scanner generator
+(package jlex).
+
+to process c or c++ output, you need a c or c++ compiler,
+respectively, the bison parser generator (package bison) and the flex
+scanner generator (package flex).
+
+to process the generated documents, you need latex (packages
+tetex-base, tetex-bin, etc.).

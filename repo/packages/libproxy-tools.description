@@ -1,0 +1,7 @@
+Automatic proxy configuration management library (tools)
+	
+libproxy is a lightweight library which makes it easy to develop
+applications proxy-aware with a simple and stable api.
+
+this package contains a program to interact with libproxy from the
+command line.

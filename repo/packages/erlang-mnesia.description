@@ -1,0 +1,5 @@
+Erlang/otp distributed relational/object hybrid database
+	
+mnesia is a distributed database management system (dbms), appropriate
+for telecommunications applications and other erlang applications
+which require continuous operation and exhibit soft real-time properties.

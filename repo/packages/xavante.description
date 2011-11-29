@@ -1,0 +1,9 @@
+Lua http 1.1 web server
+	
+this package contains xavante, a lua http 1.1 web server that uses a modular
+architecture based on uri mapped handlers. xavante currently offers a file
+handler, a redirect handler and a cgilua handler. those are used for general
+files, uri remapping and cgilua scripts respectively.
+
+the cgilua handler is considered optional thus xavante just recommends the
+packages needed for that handler.

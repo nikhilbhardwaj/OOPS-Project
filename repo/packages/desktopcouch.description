@@ -1,0 +1,12 @@
+Desktop couchdb framework instance
+	
+desktopcouch provides integration of couchdb storage into desktop applications,
+for automatic replication and synchronization of data between computers.
+
+this package contains the desktop couchdb server, and the records api.
+additionally, it provides an api for:
+
+ - bookmarks
+ - contacts
+ - notes
+ - replication services

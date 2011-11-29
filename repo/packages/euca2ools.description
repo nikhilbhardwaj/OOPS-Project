@@ -1,0 +1,23 @@
+Managing cloud instances for eucalyptus
+	
+eucalyptus is an open source service overlay that implements elastic
+computing using existing resources. the goal of eucalyptus is to allow
+sites with existing clusters and server infrastructure to co-host an
+elastic computing service that is interface-compatible with amazon's ec2.
+
+elastic utility computing architecture for linking your programs
+to useful systems - is an open-source software infrastructure for
+implementing "cloud computing" on clusters.  eucalyptus systems is the
+pioneer in open source cloud computing technology that delivers hybrid
+cloud deployments for enterprise data centers. leveraging linux and web
+service technologies that commonly exist in today's it infrastructure,
+eucalyptus enables customers to quickly and easily create elastic clouds
+in minutes. this "no lock-in" approach provides users with ultimate
+flexibility when delivering their slas.
+
+eucalyptus is more than just virtualization. along with building virtual
+machines, the technology supports the network and storage infrastructure
+within the cloud environment. eucalyptus works with multiple flavors
+of linux including ubuntu, opensuse, debian, and centos. eucalyptus
+currently supports xen and kvm hypervisors.  these tools are meant to
+be cli compatible with the ec2-api-tools.

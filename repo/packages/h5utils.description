@@ -1,0 +1,16 @@
+Hdf5 files visualization tools
+	
+hdf5 (hierarchical data format 5) is a file format for storing
+scientific data. these tools allow to convert other formats to
+hdf5 and to visualize hdf5 files. they include:
+
+ - h5topng, which extracts a 2d slice of an hdf5 file and
+   outputs a corresponding image in png format;
+ - h5totxt, which extracts 2d slices and outputs comma-delimited
+   text (suitable for import into a spreadsheet);
+ - h5fromtxt, which converts simple text input into
+   multi-dimensional numeric hdf5 datasets;
+ - h5fromh4, which converts hdf4 data to hdf5;
+ - h5tovtk, which converts hdf5 files to vtk files for
+   visualization with vtk-aware programs;
+ - h5read, a plugin for the octave numerical language.

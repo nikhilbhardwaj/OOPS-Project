@@ -1,0 +1,10 @@
+A full featured web proxy cache (http proxy) - control cgi
+	
+squid is a high-performance proxy caching server for web clients, supporting
+ftp, gopher, and http data objects.
+
+squid version 3 is a major rewrite of squid in c++ and introduces a number of
+new features including icap and esi support.
+
+this package contains a cgi program that can be used to query and administrate
+a `squid' proxy cache through a web browser.

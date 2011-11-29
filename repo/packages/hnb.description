@@ -1,0 +1,14 @@
+Hierarchical notebook
+	
+hnb is an ncurses program to organize many kinds of data in one place, for
+example addresses, todo lists, ideas, book reviews or to store snippets of
+brainstorming, to make a structured packing list or just to take random notes.
+it can export ascii, html and xml, supports todo checkboxes, checkbox trees
+with percentages, priorities, preferences, searching and more.
+
+hnb is orphaned upstream. though the current debian maintainer tries to keep
+hnb in a usable and releasable state he does not plan to add many new
+features. if you are interested in hnb and want to become its new upstream
+maintainer please contact the original author and the debian maintainer.
+
+hnb does currently not support utf-8.

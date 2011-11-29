@@ -1,0 +1,6 @@
+Automatic cleanup of old tex-related files
+	
+removes unneeded files after a (la)tex run: .aux, .log, .dvi, etc, if their
+timestamp is more recent than the tex file's. also removes the backup files
+created by your text editor. this keeps a directory containing multiple (la)tex
+documents from becoming unmanageable.

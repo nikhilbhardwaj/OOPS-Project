@@ -1,0 +1,10 @@
+Syntax highlighter
+	
+code2html is a perl script which converts a program source code to
+syntax highlighted html, or any other target for which rules are
+defined.
+
+it may be used as a simple console program, converting a single
+source code file to a single output file, it can patch html files
+including special command sequences to insert syntax highlighted
+snippets of code, or it can be used as a cgi script.

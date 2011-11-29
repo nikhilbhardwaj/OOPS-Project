@@ -1,0 +1,8 @@
+Shisen-sho puzzle game for gnustep
+	
+the object of the game is to remove all tiles from the field. only two
+matching tiles can be removed at a time. two tiles can only be removed
+if they can be connected with at most three connected lines. lines can
+be horizontal or vertical but not diagonal. remember that lines may
+cross the empty border. if you are stuck, you can use the hint feature
+to find two tiles which may be removed.

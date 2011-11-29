@@ -1,0 +1,6 @@
+Identify mp3s that do not follow the mp3 format
+	
+mp3_check helps to identify in explicit detail mp3s that do not correctly
+follow the mp3 format. it also looks for invalid frame headers, missing
+frames, etc., and generates useful statistics. this can be useful when
+building a high-quality mp3 archive...

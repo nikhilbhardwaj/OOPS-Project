@@ -1,0 +1,11 @@
+Ppp dialer with built-in intelligence
+	
+wvdial sacrifices some of the flexibility of programs like "chat" in order
+to make your dialup configuration easier.  when you install this package,
+your modem will be detected automatically and you need to specify just
+three parameters: the phone number, username, and password.  wvdial knows
+enough to dial with most modems and log in to most servers without any
+other help.
+
+in particular, you no longer need a "chat script" to handle the most common
+situations.

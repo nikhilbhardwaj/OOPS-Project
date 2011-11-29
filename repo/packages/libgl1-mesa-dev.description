@@ -1,0 +1,11 @@
+A free implementation of the opengl api -- glx development files
+	
+this version of mesa provides glx and dri capabilities: it is capable of
+both direct and indirect rendering.  for direct rendering, it can use dri
+modules from the libgl1-mesa-dri package to accelerate drawing.
+
+this package includes headers and static libraries for compiling
+programs with mesa.
+
+for a complete description of mesa, please look at the libgl1-mesa-swx11
+package.

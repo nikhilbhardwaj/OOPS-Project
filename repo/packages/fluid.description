@@ -1,0 +1,10 @@
+Fast light toolkit - user interface designer
+	
+this package provides fluid, an interactive gui designer for fltk,
+allowing graphical development of fltk-based user
+interfaces. it natively works with (textual) .fl files, but also
+includes rough support for reading .fd files produced by fdesign (in
+libforms-bin).
+
+the fast light toolkit (fltk) is a cross-platform graphical user interface
+toolkit originally based on libforms.

@@ -1,0 +1,11 @@
+Control an ewmh/netwm compatible x window manager
+	
+wmctrl is a command line tool to interact with an
+ewmh/netwm compatible x window manager (examples include
+enlightenment, icewm, kwin, metacity, and sawfish).
+
+wmctrl provides command line access to almost all the features
+defined in the ewmh specification. for example it can maximize
+windows, make them sticky, set them to be always on top. it can
+switch and resize desktops and perform many other useful
+operations.

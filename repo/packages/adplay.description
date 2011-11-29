@@ -1,0 +1,9 @@
+Console-based opl2 audio player
+	
+adplay is adplug's console-based frontend. adplug is a free, universal opl2
+audio playback library. adplay/unix supports the full range of adplug's file
+format playback features. despite this, at the moment, only emulated opl2
+output is supported by adplay, but this on a wide range of output devices.
+
+
+ homepage: <http://adplug.sourceforge.net/>

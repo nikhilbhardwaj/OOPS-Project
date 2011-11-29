@@ -1,0 +1,8 @@
+Nss library for rainbow
+	
+rainbow is a isolation shell which implements portions of the bitfrost
+security architecture, as used on the olpc xo-1 and elsewhere.
+
+this package contains an "name service switch" plugin for glibc which
+permits rainbow to easily create and remove users and groups without
+modifying /etc/passwd and /etc/group.

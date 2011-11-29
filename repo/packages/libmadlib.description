@@ -1,0 +1,23 @@
+Mesh adaptation library
+	
+this package contains the dynamic libraries for madlib.
+
+madlib is a library that performs global node repositioning and mesh
+adaptation by local mesh modifications on tetrahedral or triangular
+meshes. it is designed to frequently adapt the mesh in transient
+computations. madlib is written in c++.
+
+the adaptation procedure is driven by two objectives:
+
+- make the edge lengths as close as possible to a (non-homogenous)
+
+  prescribed length,
+
+
+- maintain a satisfying element quality everywhere.
+
+madlib can be used in transient computations in order to maintain a
+satisfying element quality (moving boundaries, multiphase flows with
+interface tracking, ...) or/and to apply selective refinements and
+coarsenings (error estimators based, interface capturing: shocks,
+free surfaces, ...).

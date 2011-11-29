@@ -1,0 +1,21 @@
+Nendo-inspired 3d polygon mesh modeller
+	
+wings 3d is a polygon mesh modeller written entirely in erlang.  the
+user interface was designed to be easy to use for both beginners and
+advanced users alike.  it was inspired by the famous nendo modeller
+(from izware.)
+
+unlike similar modelling programs (such as blender), this program
+does not provide native support for doing animations (though you can
+output its models to an animation tool.)
+
+wings 3d supports the following import formats: nendo (ndo),
+3d studio (3ds), wavefront (obj), and adobe illustrator 8 (ai).
+
+wings 3d supports the following export formats: nendo (ndo),
+3d studio (3ds), wavefront (obj), vrml (wrl), renderman (rib),
+hash:animation master (mdl), renderware (rwx), yafray, toxic,
+and fbx via a third-party plug-in.
+
+open source erlang is a functional programming language designed at
+the ericsson computer science laboratory.

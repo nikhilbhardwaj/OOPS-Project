@@ -1,0 +1,6 @@
+A generic module to run web-applications
+	
+runapp streamlines the process for configuring applications that
+requires one or more web servers and/or other daemons, during
+development or deployment.  it builds the config files required  by
+the services (such as apache's httpd.conf) using a hash.

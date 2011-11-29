@@ -1,0 +1,13 @@
+Maildir-to-blog compiler with xml templating and python extensions
+	
+mnemosyne is a simple blogging system which generates static files.
+instead of using a database or filesystem hierarchy, you store your
+entries in a maildir. writing a blog entry is thus as easy as sending
+an email, and rebuilding the blog can be automated with mail filters,
+cron, etc.
+
+xhtml and xml are generated with kid templates; a bare-bones web view
+and an atom feed are included as examples. mnemosyne is extensible in
+python to add features such as input preprocessing (restructuredtext
+is used by default), metadata ("tags" are standard) and filtering
+entries for custom feeds.

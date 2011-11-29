@@ -1,0 +1,15 @@
+Generator for one time passwords
+	
+otp  creates  key  and password lists for verification and
+security purposes in a variety of formats.  keys can be of
+any length, consist of digits or letters (capital or lower
+case), and alphabetic passwords  can  either  be  entirely
+random (most secure) or obey the digraph statistics of
+english text (easier to remember when transcribing, but less
+secure).
+
+for  computer  applications,  for  example  one-time login
+passwords, otp can create a file containing the md5
+signature of each of the generated keys.  this permits the
+computer to verify keys without the need to store the keys in
+plaintext.

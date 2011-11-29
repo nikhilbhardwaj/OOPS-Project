@@ -1,0 +1,11 @@
+Miniature mount utility and free space monitoring tool
+	
+wmmount runs in a 64x64 window, displaying the amount of free space
+on file systems. simply by clicking on it you can mount and unmount
+file systems. this is especially suitable for removable disks such
+as floppies, cd-roms, zip drives etc.
+
+there's nothing in the program that makes it *require* window maker,
+i.e. it works great with other window managers. but if you are looking
+for seamless integration on your desktop, wmmount in the window maker
+dock may very well suit your needs.

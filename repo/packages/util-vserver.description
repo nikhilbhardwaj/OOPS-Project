@@ -1,0 +1,14 @@
+User-space tools for linux-vserver virtual private servers
+	
+the util-vserver project provides the user-space tools for creating and
+managing the virtualization technology known as linux-vserver guests.
+linux-vserver guests are a significantly advanced jail mechanism running
+inside a host gnu-linux server. linux-vserver guests can be used to
+securely partition resources such as processes, memory, network; logically
+separate services or run entirely different distributions all on a single
+system. virtual private servers are separated from each other through security
+contexts, and as a result are completely unaware of each other, or of the
+host itself.
+
+http://linux-vserver.org/
+http://ftp.linux-vserver.org/pub/utils/util-vserver/

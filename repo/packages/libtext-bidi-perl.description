@@ -1,0 +1,6 @@
+Unicode bidi algorithm for perl using libfribidi
+	
+text::bidi provides basic support for the unicode bidirectional text
+(bidi) algorithm, for displaying text consisting of both left-to-right and
+right-to-left written languages (like hebrew and arabic.) it does so using a
+swig interface file to the libfribidi library.

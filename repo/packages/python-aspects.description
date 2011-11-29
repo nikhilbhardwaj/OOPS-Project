@@ -1,0 +1,13 @@
+Lightweight aspect oriented programming library for python
+	
+aspects.py is a lightweight approach to aspect oriented programming
+(aop) in python. the aspects.py library provides means to intercept
+function calls. functions and methods (also in python standard
+library and third party code) can be wrapped so that when they are
+called, the wrap is invoked first. depending on the wrap, the
+execution of the original function can be omitted, or the function
+can be called arbitrarily many times. wraps are able to modify the
+arguments and the return value of the original function. in the
+terminology of aspect-oriented programming, the library allows
+applying advices (wraps) to call join points of methods and functions
+in around fashion.

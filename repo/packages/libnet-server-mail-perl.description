@@ -1,0 +1,16 @@
+Class to easily create a mail server
+	
+this module is a versatile and extensible implementation of the smtp
+protocol and its different evolutions like esmtp and lmtp. the event
+driven object-oriented api makes easy to incorporate the smtp protocol
+to your programs.
+
+other smtpd implementations don't support useful esmtp extensions and
+the lmtp protocol. their interface design precludes adding them
+later. so i've decided to rewrite a complete implementation with
+extensibility in mind.
+
+it provides mechanism to easy addition future or not yet implemented
+esmtp extensions. developers can hook code at each smtp session state
+and change the module's behaviors by registering event call-backs. the
+class is designed to be easily inherited from.

@@ -1,0 +1,20 @@
+A collection of applets for awn, written in c or vala
+	
+awn-extras-applets is a collection of applets for avant-window-navigator. it
+provides some extensions to the bar and some new features (like
+applets in the gnome-panel).
+
+this package provides the core applets written in c:
+
+ * awn-notification-daemon: libnotify notification daemon implementation.
+ * awn-system-monitor: display cpu activity and system stats on click.
+ * awnterm: a pop-up terminal that lives in awn.
+ * cairo_main_menu: displays a list of all the applications on your
+   computer in a standard menu format.
+ * notification-area : replaces the gnome-panel notification area and shows
+   it right on your dock
+ * plugger: displays mounted volumes and allows you to browse them.
+ * shinyswitcher: a workspace switcher supporting compiz and other wms.
+ * showdesktop: hides/shows all of the windows of the current viewport,
+   similar to the showdesktop icon of gnome-panel.
+ * garbage: a trash applet, like the one from gnome-panel.

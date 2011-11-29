@@ -1,0 +1,22 @@
+Web based digital image presentation and management system
+	
+"zoph organizes photos" is a web based photo management system written using
+php and backed by mysql, not just yet-another-web-album.
+
+database features: photos can have lots of meta data (exif info, title,
+photographer, location, description, rating, people in the photo); each photo
+can appear in zero or more albums; each photo can appear in zero or more
+categories; albums and categories are both hierarchical; searches can be
+performed using all this data; access privileges for each user.
+
+additional features: slideshows; lightboxes; "email this photo"; basic
+reporting (most photographed people, places, etc.); user interface in several
+languages.
+
+administration: photos, albums, categories, people, places and users can be
+easily administered using the web interface; import photos from the web or by
+using a perl script; export photos to generate static galleries with album or
+bins (both available as debian packages).
+
+
+ authors:  jason geiger and jeroen roos

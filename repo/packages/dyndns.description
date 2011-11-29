@@ -1,0 +1,6 @@
+Dynamic dns (ddns) update client implemented in perl
+	
+map dynamic ip address into your.hostname.example.org. a
+cross-platform solution for dhcp isp-connected users to obtain
+permanent dns, mx, and web hosting service from a ddns provider (e.g.
+dyndns.org). works anywhere where perl is installed.

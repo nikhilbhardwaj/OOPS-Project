@@ -1,0 +1,5 @@
+Perl module for processing xslt
+	
+the xml::xslt module parses xsl transformational sheets.  for a description
+of the xslt, see http://www.w3.org/tr/xslt.  currently, it uses xml::parser
+and xml::dom, but an effort is being made to use xml::xpath.

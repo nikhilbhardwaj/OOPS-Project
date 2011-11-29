@@ -1,0 +1,11 @@
+Fully configurable daemon for dynamic frequency and voltage scaling
+	
+cpufreqd is meant to be a replacement of the speedstep applet you can find on
+some other os, it monitors the system status and selects the most appropriate
+cpu level.  it is fully configurable and easily extensible through the many
+available plug-ins (more to come).
+despite its name it can be used to control also the nforce2-atxp1 voltage
+regulator and the core and memory clock for nvidia cards (see readme.debian).
+
+you need a cpufreq driver and either apm, acpi (a recent version) or pmu
+enabled in your kernel in order for this daemon to work.

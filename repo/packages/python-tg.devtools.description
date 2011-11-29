@@ -1,0 +1,14 @@
+Developer tools for the turbogears web framework
+	
+turbogears2 is a framework to develop web applications in python,
+following a model-view-controller architecture.
+
+the main turbogears2 package is python-turbogears2. this package
+contains the development tools needed to create web applications
+powered by turbogears2. in particular, this package provide
+integration with the python paste tools implementing scaffolding
+command to start developing turbogears2 applications.
+
+if you only need to run (and not developed) web applications powered
+by turbogears2, it might be enough to install the python-turbogears2
+packages.

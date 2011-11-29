@@ -1,0 +1,13 @@
+Addin framework for extensible cli applications/libraries
+	
+mono.addins is a framework for creating extensible cli applications, and for
+creating libraries which extend those applications.
+mono.addins has been designed to be easy to use and useful for a wide range
+of applications: from simple applications with small extensibility needs, to
+complex applications which need support for large add-in structures.
+
+this new framework intends to set an standard for building extensible
+applications and add-ins in mono.
+
+this package contains development files related to the mono.addins library,
+and should be used for compilation.

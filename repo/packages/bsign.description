@@ -1,0 +1,8 @@
+Corruption & intrusion detection using embedded hashes
+	
+this package embeds secure hashes (sha1) and digital signatures (gnu
+privacy guard) into files for verification and authentication.
+currently, target file types are all elf format: executables, kernel
+modules, shared and static link libraries.  this program has
+functionality similar to tripwire and integrit without the need to
+maintain a database.

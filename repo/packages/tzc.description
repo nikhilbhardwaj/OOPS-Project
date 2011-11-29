@@ -1,0 +1,5 @@
+Trivial zephyr client
+	
+tzc is a trivial zephyr client program which talks to the zephyr servers
+(via the "zephyr host manager").   it is primarily used by the gnu-emacs
+zephyr-mode package.

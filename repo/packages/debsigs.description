@@ -1,0 +1,6 @@
+Toolset for applying cryptographic signatures to debian packages
+	
+debsigs is a package that allows gpg signatures to be embedded inside debian
+packages.  these signatures can later be verified by package retrieval and
+installation tools to ensure the authenticity of the contents of the
+package.

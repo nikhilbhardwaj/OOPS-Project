@@ -1,0 +1,8 @@
+Development files for the wvware library
+	
+wvware (previously known as mswordview) is a library that allows access
+to microsoft word files.  it can load and parse the word 2000, word 97,
+word 95, and word 6 file formats.  (work is underway to support reading
+earlier formats as well: word 2 documents are converted to plain text.)
+
+this package contains the static library and header files.

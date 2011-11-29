@@ -1,0 +1,12 @@
+Musclecard cryptoflex plugin
+	
+this package works as a plug-in for the musclecard framework and provides
+card support through the musclecard api's.
+
+the smartcard used is a schlumberger cryptoflex.
+
+in order to use this package you must personalize the cryptoflex card with
+some directories, files, etc.
+
+muscletool(1) and xcard(1) from the debian packages muscletools and xcardii
+provides the capability to format the cryptoflex card.

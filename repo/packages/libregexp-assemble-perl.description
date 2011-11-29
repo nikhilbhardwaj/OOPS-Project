@@ -1,0 +1,23 @@
+Assemble multiple regular expressions into a single re
+	
+regexp::assemble takes an arbitrary number of regular expressions
+and assembles them into a single regular expression (or re) that
+matches all that the individual res match.
+
+as a result, instead of having a large list of expressions to loop
+over, a target string only needs to be tested against one expression.
+this is interesting when you have several thousand patterns to deal
+with. serious effort is made to produce the smallest pattern possible.
+
+it is also possible to track the original patterns, so that you can
+determine which, among the source patterns that form the assembled
+pattern, was the one that caused the match to occur.
+
+you should realise that large numbers of alternations are processed
+in perl's regular expression engine in o(n) time, not o(1). if you
+are still having performance problems, you should look at using a
+trie. note that perl's own regular expression engine will implement
+trie optimisations in perl 5.10 (they are already available in
+perl 5.9.3 if you want to try them out). regexp::assemble will
+do the right thing when it knows it's running on a trie'd perl.
+(at least in some version after this one).

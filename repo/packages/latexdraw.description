@@ -1,0 +1,10 @@
+Vector drawing program for latex using pstricks
+	
+latexdraw is a free pstricks code generator or pstricks editor for latex.
+it has the usual drawing tools (lines, rectangles, circles, bezier curves)
+and can resize, rotate, move and join objects using vector transformations.
+latexdraw uses svg as its file format and figures can be exported as pstricks
+code, pdf, eps, jpg, bmp, png, ppm.
+
+pstricks is an extension of latex which allows the creation of drawings,
+diagrams and graphs in 2d or 3d.

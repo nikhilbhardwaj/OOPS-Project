@@ -1,0 +1,9 @@
+Robust and user friendly python irc bot
+	
+supybot is a robust (it doesn't crash), user friendly (it's easy
+to configure) and programmer friendly (plugins are *extremely*
+easy to write) python irc bot.  it aims to be an adequate
+replacement for most existing irc bots.  it includes a very
+flexible and powerful acl system for controlling access to
+commands, as well as more than 50 builtin plugins providing
+around 400 actual commands.

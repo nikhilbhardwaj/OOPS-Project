@@ -1,0 +1,7 @@
+Web feed library for ruby
+	
+feedtools is a library for handling rss, atom, and cdf parsing,
+generation, and translation as well as caching.
+
+this is a dependency package, which depends on a feedtools package
+built for the latest version of ruby.

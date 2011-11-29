@@ -1,0 +1,8 @@
+Debian security analyzer
+	
+debsecan is a tool to generate a list of vulnerabilities which affect
+a particular debian installation.  debsecan runs on the host which is
+to be checked, and downloads vulnerability information over the
+internet.  it can send mail to interested parties when new
+vulnerabilities are discovered or when security updates become
+available.

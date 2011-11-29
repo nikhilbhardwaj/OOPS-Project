@@ -1,0 +1,10 @@
+Development files for a c++ library for handling of multiple co-processes
+	
+modglue is a c++ library with classes for forking external
+processes and asynchronous reading from streams. it takes
+away the burden of all subtleties involving the unix fork
+call. the asynchronous read facility enables one to read on
+multiple input streams at the same time, without losing any
+of the standard c++ stream facilities.
+
+this package contains the development header files.

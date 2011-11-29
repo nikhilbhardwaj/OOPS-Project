@@ -1,0 +1,24 @@
+Toolkit for image-guided surgery applications - runtime
+	
+the image-guided surgery toolkit (igstk: pronounced igstick) is a
+high-level component-based framework providing common functionality
+for image-guided surgery applications.
+
+this software framework consists of a set of high-level components
+integrated with other low-level open source software libraries and
+application programming interfaces (api) from hardware vendors.
+
+the cornerstone of igstk is robustness. igstk provides the following
+high-level functionality:
+ability to read and display medical images including ct and mri in
+dicom format.
+
+an interface to common tracking hardware (e.g. aurora from
+northern digital inc.). a graphical user interface and visualization
+capability including a four-quadrant view (axial, sagittal, coronal,
+and 3d) as well as a multi-slice axial view (from 1 by 1 to many by
+many such as 10 by 10).
+
+registration: point based registration and a means for selecting
+these points. robust common internal software services for logging,
+exception-handling and problem resolution.

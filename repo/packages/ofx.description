@@ -1,0 +1,6 @@
+Open financial exchange programs
+	
+this package contains programs that implement a primitive interface for
+exchanging financial information using open financial exchange.  more
+sophisticated access is normally done through programs using the libofx
+library rather than with the programs here.

@@ -1,0 +1,11 @@
+Source code files for sbcl
+	
+this package provides the source code for sbcl -- a development
+environment for the ansi common lisp language.
+
+the source code is useful in conjunction with development
+environments and debuggers like slime, that allow macro expansion and
+lookup of source definitions.
+
+installing this package enables your source browser to dig deeply
+into the core of steel bank common lisp.

@@ -1,0 +1,9 @@
+Perl module to determine perl module dependencies
+	
+b::perlreq is a backend module for the perl compiler that determines the
+dependencies of perl source code, based on the internal structure that perl
+creates itself after parsing a program source file. the output of this module
+is suitable for automatic dependency detection, tracking and organization,
+particularly for building and maintaining binary packages.
+
+it includes a script called perl.req which demonstrates module functionality.

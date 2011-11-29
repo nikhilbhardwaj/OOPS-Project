@@ -1,0 +1,6 @@
+Base class for error handling
+	
+class::errorhandler provides an error-handling mechanism that's generic
+enough to be used as the base class for a variety of oo classes.
+subclasses inherit its two error-handling methods, error and errstr,
+to communicate error messages back to the calling program.

@@ -1,0 +1,15 @@
+Highly configurable system monitor (all features enabled)
+	
+conky is a system monitor that can display just about anything,
+either on your root desktop or in its own window.
+conky has many built-in objects, as well as the ability to execute
+external programs or scripts (either external or through built-in
+lua support).
+
+this is a full conky with most compile options enabled:
+
+x11, xdamage, xdbe, xft, mpd, moc, openmp, math, hddtemp, portmon, rss,
+weather, wireless, ibm, nvidia, eve-online, imlib2, alsa mixer,
+apcupsd, i/o stats, argb, lua and the cairo and imlib2 lua bindings.
+
+use this if you are not sure what conky flavour you need.

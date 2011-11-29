@@ -1,0 +1,10 @@
+Apache http server common binary files
+	
+the apache software foundation's goal is to build a secure, efficient and
+extensible http server as standards-compliant open source software. the
+result has long been the number one web server on the internet.
+
+this package contains all binaries but no configuration or support scripts.
+to get a stand-alone server, you need to install one of the apache2-mpm-*
+packages, such as worker or prefork. other packages like gnome-user-share
+may bring their own apache configuration, though.

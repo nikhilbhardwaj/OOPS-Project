@@ -1,0 +1,15 @@
+Keyboard state indicator and switcher for xkb
+	
+this program is a keyboard state indicator and switcher for xkb. features:
+
+ - shows current xkb group (pixmap in its own window)
+ - allows switch group by mouse click
+ - allows individual state for every window
+ - can install its own button (indicator/mouse switcher) on every window's
+   title bar
+ - can restrict keyboard states for every window to only two ("main group" -
+   "alternative group") if xkb set up for more than two groups.
+
+bugs:
+
+ - documentation is partially in russian (koi8-r charset) only

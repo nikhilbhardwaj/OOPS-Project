@@ -1,0 +1,7 @@
+Common infrastructure for building and installing tex
+	
+this package contains a number of scripts and common configuration
+files that are needed to install a tex system.
+
+it also contains debhelper-like programs useful for building tex
+packages.

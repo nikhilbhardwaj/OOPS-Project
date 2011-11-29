@@ -1,0 +1,8 @@
+Visualize a monotone repository
+	
+monotone-viz is a small gtk+ application that visualizes monotone
+ancestry graphs. monotone is a free distributed version control
+system. montone-viz is developed in the objective caml language,
+using the gtk+ and libgnomecanvas libraries (via lablgtk, an ocaml
+binding for gtk+), and it uses the dot program from the graphviz
+package.

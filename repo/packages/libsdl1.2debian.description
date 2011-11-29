@@ -1,0 +1,10 @@
+Simple directmedia layer
+	
+sdl is a library that allows programs portable low level access to
+a video framebuffer, audio output, mouse, and keyboard.
+
+this is just a dummy package. you also need one of the seven versions of
+the library that this package depends on.
+
+(note: updates from sdl cvs after the version release date are occasionally
+factored into these packages).

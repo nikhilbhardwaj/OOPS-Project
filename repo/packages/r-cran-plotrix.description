@@ -1,0 +1,24 @@
+Gnu r package providing various plotting functions
+	
+this r package provides lots of plots, various labeling, axis and color scaling
+functions.  some of them are:
+
+
+ arctext:          display text on a circular arc.
+ barhier:          display a set of hierarchically associated variables
+ barp:             a bar plotting routine
+ bin.wind.records: classify wind direction and speed records.
+ centipede.plot:   display a centipede plot
+ clock24.plot:     plot values on a 24 hour "clockface".
+ color.legend:     legend matching categories or values to colors
+ dotplot.mtb:      minitab style dotplots.
+ gantt.chart:      display a gantt chart
+ intersectdiagram: display set intersections
+ multhist:         plot a multiple histogram, as a barplot
+ polar.plot:       plot values on a circular grid of 0 to 360 degrees.
+ vectorfield:      display magnitude/direction vectors
+ weighted.hist:    display a weighted histogram
+
+
+and many more.  read more about this package at
+http://cran.r-project.org/web/packages/plotrix/plotrix.pdf

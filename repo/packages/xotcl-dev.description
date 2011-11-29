@@ -1,0 +1,5 @@
+Extended object tcl (xotcl): object orientation for tcl - development files
+	
+header files and static libraries for libxotcl. you will need this
+package in place if you plan to develop using the xotcl c interface
+and/or if you want to create custom builts of xotcl c extensions.

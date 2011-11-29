@@ -1,0 +1,4 @@
+PackageId:35174
+Name:xserver-xorg-input-vmmouse
+Version:1:12.6.9-2
+Deps:libc6,libc6-udeb,udev,xorg-input-abi-7.0,xserver-xorg-core,xserver-xorg-input-mouse

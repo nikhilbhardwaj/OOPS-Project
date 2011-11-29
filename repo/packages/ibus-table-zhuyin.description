@@ -1,0 +1,15 @@
+Quick input method based on table engine of ibus
+	
+ibus-table is the im engine framework for table-based input methods, such as
+wubi, erbi, cangjie and so on.
+
+this package provide two input methods:
+
+ - zhu yin
+ - zhu yin (big)
+
+
+plain zhuyin is a traditional chinese input method:
+
+  cons: does not automatically choose the right characters;
+  pros: dose not automatically choose the wrong characters.

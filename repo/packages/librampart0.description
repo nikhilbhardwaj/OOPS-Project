@@ -1,0 +1,10 @@
+Apache web services security engine - runtime
+	
+apache rampart/c is the security module for apache axis2/c. it
+features in many ways to protect soap messages exchanged. this
+includes soap message encryption and signature as specified in
+ws-security specification. in addition apache rampart/c
+configurations are based on security policy assertions as per
+ws-security policy specificatoin
+
+this package contains the runtime library files.

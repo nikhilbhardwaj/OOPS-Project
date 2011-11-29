@@ -1,0 +1,8 @@
+Gobject introspection data for the gnome keyring library
+	
+this package contains introspection data for gnome keyring, a library
+to access the keyring agent to store passwords and sensitive data in a
+safe way.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

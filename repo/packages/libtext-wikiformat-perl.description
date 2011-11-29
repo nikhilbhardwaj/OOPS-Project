@@ -1,0 +1,7 @@
+Translates wiki formatted text into other formats
+	
+the original wiki web site was intended to have a very simple interface to
+edit and to add pages. its formatting rules are simple and easy to use. they
+are also easily translated into other, more complicated markup languages with
+this module. it creates html by default, but can be extended to produce valid
+pod, docbook, xml, or any other format imaginable.

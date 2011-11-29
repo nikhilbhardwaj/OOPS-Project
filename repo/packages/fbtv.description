@@ -1,0 +1,5 @@
+Television viewer - linux framebuffer application
+	
+fbtv is a linux framebuffer application which displays television
+channels. it supports video4linux devices and requires a framebuffer
+device (vesafb, matroxfb, atyfb, etc.).

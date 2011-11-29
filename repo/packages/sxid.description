@@ -1,0 +1,10 @@
+Suid, sgid file and directory checking
+	
+this program runs as a cronjob. basically it tracks any changes in
+your s[ug]id files and folders. if there are any new ones, ones that
+aren't set any more, or they have changed bits or other modes, then it
+reports the changes. you can also run this manually for spot checking.
+
+it tracks s[ug]id files by md5 checksums. this helps detect if your files
+have been tampered with, would not show under normal name and permissions
+checking. directories are tracked by inodes.

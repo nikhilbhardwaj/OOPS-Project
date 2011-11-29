@@ -1,0 +1,13 @@
+Utilities for z8530 based hdlc cards for ax.25
+	
+this package contains utilities to load, configure and modify
+the kernel driver for z8530 based scc cards.
+
+it should at least work with the following boards and
+connected modems:
+
+baycom uscc.
+pa0hzp card with and without escc and/or external clock divider
+(up to 19200 baud (loopback)) and compatibles.
+tcm3105 modem, 4k8 modem, 9k6 df9ic modem (loopback), hapn 4k8
+modem (connected to a scc board, of course!).

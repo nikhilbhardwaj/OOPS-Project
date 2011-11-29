@@ -1,0 +1,16 @@
+Free lossless audio codec - c development library
+	
+flac stands for free lossless audio codec. grossly oversimplified, flac is
+similar to mp3, but lossless.  the flac project consists of:
+
+
+ * the stream format
+ * libflac, which implements a reference encoder, stream decoder, and file
+   decoder
+ * flac, which is a command-line wrapper around libflac to encode and decode
+   .flac files
+ * input plugins for various music players (winamp, xmms, and more in the
+   works)
+
+
+this package contains the development library libflac.

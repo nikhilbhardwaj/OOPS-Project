@@ -1,0 +1,14 @@
+Trace network sessions and export it to html format
+	
+chaosreader traces tcp/udp/others sessions and fetches application data from
+snoop or tcpdump logs. this is a type of "any-snarf" program, as it will
+fetch telnet sessions, ftp files, http transfers (html, gif, jpeg etc) and
+smtp emails from the captured data inside network traffic logs. a html index
+file is created to that links to all the session details, including realtime
+replay programs for telnet, rlogin, irc, x11 and vnc sessions. chaosreader
+reports such as image reports and http get/post content reports.
+
+chaosreader can also run in standalone mode, where it invokes tcpdump to
+create the log files and then processes them.
+
+screenshots: http://www.brendangregg.com/chaosreader.html

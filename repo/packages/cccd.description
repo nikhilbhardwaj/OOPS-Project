@@ -1,0 +1,8 @@
+A small gtk+ cd player program
+	
+cccd is a small gtk+ cd player program with many features:
+
+ * works with scsi devices
+ * cddb lookups (local and remote) and local storing
+ * uses very little screen space
+ * handles cd extras (mixed mode cds)

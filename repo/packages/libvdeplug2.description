@@ -1,0 +1,11 @@
+Virtual distributed ethernet - plug library
+	
+vde is a virtual switch that can connect multiple virtual machines together,
+both local and remote.
+
+components of the vde architecture are vde switches (virtual counterpart of
+ethernet switches) and vde cables (virtual counterpart of a crossed-cable used
+to connect two switches).
+
+this package contains a library that makes programs able to connect to a local
+vde switch. the simplest one is vde_plug, contained in the vde2 package.

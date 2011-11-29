@@ -1,0 +1,6 @@
+Spatial trees common lisp library
+	
+spatial-trees provides access to dynamic index structures for
+spatially-extended data, all exposed through a uniform clos
+interface.  currently it supports the following data structures:
+r-trees, greene-trees, r*-trees, x-trees.

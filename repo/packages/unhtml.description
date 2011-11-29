@@ -1,0 +1,5 @@
+Remove the markup tags from an html file
+	
+this program removes all html tags from an html file and directs its
+output to stdout.  it can be used as a filter for getting the text
+content of an html file without the need of firing up a web browser.

@@ -1,0 +1,7 @@
+Utilities for use with the dapl libraries
+	
+the direct access programming library (dapl) is a transport-independent,
+platform-independent api that supports remote direct memory access (rdma)
+devices such as infiniband and iwarp .
+
+this package contains example utilities that use the dapl api.

@@ -1,0 +1,18 @@
+Ips that runs over layer 2 (no tcp/ip stack required)
+	
+hlbr stands for hogwash light br. it is a brazilian fork of jason larsen's
+hogwash intrusion prevention system (ips). its main feature is that it can
+run directly over osi model layer 2, which means it doesn't even require a
+tcp/ip stack, running as a bridge.
+
+hlbr comes with a set of rules to detect known malicious network traffic,
+and you can define your own rules as well. packet handling include options
+like dropping or diverting it to another machine (such as a honeypot).
+since it works like a bridge and doesn't requires an ip address, it is
+invisible to intruders. hlbr is a firewall component and must be put before
+a intrusion detection system (ids). the ids (snort or other) will show all
+suspect traffic doesn't blocked and it can be used to compose new rules
+to ips.
+
+hlbr rule definition language has support for regular expressions (perl).
+all blocked traffic is dumped in log under tcpdump format.

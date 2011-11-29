@@ -1,0 +1,6 @@
+Helper module for handling c headers and libraries
+	
+extutils::cchecker is a perl module designed to check for the presence of
+libraries and c headers required for building the remainder of your package.
+it is particularly useful for packages containing perl bindings to existing c
+libraries.

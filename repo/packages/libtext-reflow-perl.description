@@ -1,0 +1,8 @@
+Perl module for reflowing files using knuth's algorithm
+	
+text::reflow provides a series of utilities that reflow paragraphs in a given
+file, filehandle, string or array using knuth's paragraphing algorithm (as
+used in tex) to pick the optimal places to break lines. the reflow algorithm
+tries to keep lines the same length but also tries to break at punctuation,
+and to avoid breaking within a proper name or after certain connectives. the
+result is more readable since fewer phrases are broken across line breaks.

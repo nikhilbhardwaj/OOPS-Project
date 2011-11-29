@@ -1,0 +1,6 @@
+Perl module to format text tables
+	
+text::formattable renders simple tables as text. you pass to the constructor
+(new) a table format specification similar to latex (e.g. r|l|l) and you
+call methods to fill the table data and insert rules. after the data is filled,
+you call the render method and the table gets formatted as text.

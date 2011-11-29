@@ -1,0 +1,6 @@
+Asn.1 compiler for c
+	
+this asn.1 compiler turns the formal asn.1 specifications
+into the c code.  the compiler is shipped together with
+conformant ber/der/xer codecs.  the x.509 and gsm tap3
+decoding examples are shipped as well.

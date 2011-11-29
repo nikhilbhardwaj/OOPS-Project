@@ -1,0 +1,11 @@
+A high performance development framework for c
+	
+mowgli is a development framework for c (like glib), which provides high
+performance and highly flexible algorithms. it can be used as a supplement
+to glib (to add additional functions (dictionaries, hashes), or replace some
+of the slow glib list manipulation functions), or stand alone. it also
+provides a powerful hook system and convenient logging for your code, as well
+as a high performance block allocator.
+
+this package contains files needed for development with this library and code
+examples.

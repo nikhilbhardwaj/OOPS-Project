@@ -1,0 +1,12 @@
+X printing extension (xprint) client library
+	
+libxp provides public apis to allow client applications to render to
+non-display devices, making use of the x print service.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxp

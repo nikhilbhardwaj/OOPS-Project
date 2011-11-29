@@ -1,0 +1,9 @@
+A minimal but configurable x11r6 window manager
+	
+sapphire is a window manager for x11r6. it is fairly minimal in
+what it provides on screen: one toolbar, the usual window borders
+and a popup menu from the root window.
+
+it supports themes as x resource files, and the menu is editable.
+if you install the 'menu' package, you'll get an automatically updated
+'debian' submenu of installed programs.

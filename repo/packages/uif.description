@@ -1,0 +1,6 @@
+Advanced iptables-firewall script
+	
+complete package to create and simplify iptables packetfilter
+rules using perl. it was developed for a diskless router
+system that can store its configurations in regular files or
+ldap databases.

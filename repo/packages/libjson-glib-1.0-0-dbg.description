@@ -1,0 +1,9 @@
+Glib json manipulation library (debug symbols)
+	
+json-glib is a library for parsing, generating and manipulating javascript
+object notation (json) data streams using the glib type system. it allows
+manipulating json data types with a document object model api. it also
+allows serializing and deserializing simple or complex gobjects to and
+from json data types.
+
+this package contains the debug files.

@@ -1,0 +1,6 @@
+Internal cache saver for claws mail
+	
+this plugin for the claws mail allows saving the internal
+caches to disk periodically (each minute by default, or any other
+user-defined amount of time). it may help avoiding the loss of metadata
+on crashes.

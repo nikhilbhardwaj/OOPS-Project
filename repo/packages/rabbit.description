@@ -1,0 +1,14 @@
+Presentation tool using rd, a simple text format
+	
+rabbit is an application to do presentations with rd documents.  rd is a
+simple, easy-to-read, and easy-to-write text format like wiki.  rabbit has
+many noteworthy features, which distinguish this application from other
+presentation tools.
+
+
+ * slide looks are defined with ruby and customizable.
+ * various keyboard interfaces.
+ * mouse gesture support.
+ * slides can contain many image formats: eps, svg, gimp, and dia.
+ * rabbit can be a server and you can access it with the druby interface.
+ * and more...

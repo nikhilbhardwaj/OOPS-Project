@@ -1,0 +1,30 @@
+Python bindings for the kde development platform
+	
+this package contains pykde, the python bindings for the kde
+libraries, that allow you to write kde programs using python instead of
+c++. it contains at least the following modules under the
+pykde namespace:
+
+
+ * kdecore
+ * kdeui
+ * khtml
+ * kio
+ * kparts
+ * ktexteditor
+ * kutils
+ * solid
+ * nepomuk
+ * dnssd
+
+
+and a few kde related technologies like:
+
+
+ * soprano
+ * akonadi
+
+
+this package provides modules for all supported python versions.
+
+this is part of the kde bindings module.

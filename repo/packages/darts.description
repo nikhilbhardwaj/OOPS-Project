@@ -1,0 +1,16 @@
+C++ template library for implementation of double-array
+	
+darts is simple c++ template library for implementation of double-array
+structure.
+
+a double-array structure is a kind of trie structure, digital search tree,
+an efficient data structure combining fast access of a matrix form with the
+compactness of a list form. it is faster than other implementations like hash
+tree, patricia tree, suffix array and so.
+
+for more detail about double-array structure, see "aoe, j. an efficient
+digital search algorithm by using a double-array structure. ieee transactions
+on software engineering. vol. 15, 9 (sep 1989). pp. 1066-1077."
+
+this software provides indexing operations for common prefix search.
+darts is used for mecab and chasen, japanese morphological analysis system.

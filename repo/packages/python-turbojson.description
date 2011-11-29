@@ -1,0 +1,5 @@
+Plugin to use json templates in python templating engines
+	
+turbojson is a template engine plugin, allowing to easily use json
+via the simplejson module with turbogears, bufffer, or other systems
+that support python's python.templating.engines.

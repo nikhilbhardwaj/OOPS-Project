@@ -1,0 +1,9 @@
+Input/output data functions for octave
+	
+this package provides functions to input/output data in different
+formats in octave, a numerical computation software. it contains
+functions to add variables to existing save files (append_save), read
+and write matrixes to a text file (dlmwrite, csvread, csvwrite) and
+read excel tables (xlsread).
+
+this octave add-on package is part of the octave-forge project.

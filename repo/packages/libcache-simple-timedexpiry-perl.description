@@ -1,0 +1,9 @@
+Perl module to cache and expire key/value pairs
+	
+example:
+
+my $h = new cache::simple::timedexpiry;
+
+$h->set(forever => "don't expire", 0);
+do {$h->set($_,"value of $_", 1); sleep 2;} for qw(have a nice day); $,=' ';
+print $h->elements; $h->dump; sleep 4; print $h->elements; $h->dump;

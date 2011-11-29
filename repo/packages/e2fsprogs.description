@@ -1,0 +1,8 @@
+Ext2/ext3/ext4 file system utilities
+	
+the ext2, ext3 and ext4 file systems are successors of the original ext
+("extended") file system. they are the main file system types used for
+hard disks on debian and other linux systems.
+
+this package contains programs for creating, checking, and maintaining
+ext2/3/4-based file systems.

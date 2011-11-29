@@ -1,0 +1,8 @@
+Ebnf module for the xml version of the docbook dtd
+	
+docbook is a general-purpose and modular sgml and xml document-type
+definition. this is a module that adds elements for the markup of
+ebnf grammar rules to docbook.
+
+it is fully documented in "docbook - the definitive guide", available
+in the docbook-defguide package.

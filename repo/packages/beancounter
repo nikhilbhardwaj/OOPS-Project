@@ -1,0 +1,4 @@
+PackageId:1037
+Name:beancounter
+Version:0.8.10
+Deps:libdate-manip-perl,libdbd-pg-perl,libdbd-mysql-perl,libdbd-odbc-perl,libdbd-sqlite3-perl,libdbd-sqlite2-perl,libdbi-perl,libfinance-yahooquote-perl,libstatistics-descriptive-perl,perl,postgresql-client,postgresql-client-8.4,mysql-client,mysql-client-5.1,sqlite3,sqlite

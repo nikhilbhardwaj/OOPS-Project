@@ -1,0 +1,10 @@
+Pkcs#11 wrapper for python
+	
+pykcs11 let you access to almost all pkcs#11 functions and data types using
+any pkcs#11 library, such as the various modules supplied by smartcard
+vendors.
+
+the wrapper comes with 2 interfaces: a low level and very thin interface over
+the original pkcs#11 api, generated using the swig compiler (designed for
+library tests); and an high level interface that offers a simpler access (with
+few limits) to the pkcs#11 apis.

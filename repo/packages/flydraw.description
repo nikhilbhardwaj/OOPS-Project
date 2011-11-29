@@ -1,0 +1,4 @@
+Inline drawing tool
+	
+flydraw is an inline drawing tool, which uses libgd to output png, jpg,
+gif files. it parses its standard input for drawing commands.

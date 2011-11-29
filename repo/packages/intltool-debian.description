@@ -1,0 +1,6 @@
+Help i18n of rfc822 compliant config files
+	
+intltool is a bunch of scripts written by the gnome project to
+internationalize many different file formats.  this package is
+a slightly modified version which adds support for rfc822
+compliant config files, e.g. debconf templates files.

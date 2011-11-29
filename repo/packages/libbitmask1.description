@@ -1,0 +1,30 @@
+Supports multi-word bitmask operations
+	
+this bitmask library supports multi-word bitmask operations for
+applications programmed in 'c'. it works in conjunction with recent
+linux kernel support for processor and memory placement on
+multiprocessor smp and numa systems. the cpuset library, being
+developed in parallel, depends on this bitmask library.
+
+bitmasks provide multi-word bit masks and operations thereon to do
+such things as set and clear bits, intersect and union masks,
+query bits, and display and parse masks.
+
+the initial intended use for these bitmasks is to represent sets of
+cpus and memory nodes, when configuring large smp and numa systems.
+however there is little in the semantics of bitmasks that is
+specific to this particular use, and bitmasks should be usable for
+other purposes that had similar design requirements.
+
+these bitmasks share the same underlying layout as the bitmasks
+used by the linux kernel to represent sets of cpus and memory
+nodes. unlike the kernel bitmasks, these bitmasks use dynamically
+allocated memory and are manipulated via a pointer. this enables a
+program to work correctly on systems with various numbers of cpus
+and nodes, without recompilation.
+
+there is a related cpuset library which uses the bitmask type
+provided here to represent sets of cpus and memory nodes. the
+internal representation (as an array of unsigned longs, in little
+endian order) is directly compatible with the sched_setaffinity(2)
+and sched_getaffinity(2) system calls (added in linux 2.6).

@@ -1,0 +1,4 @@
+List of non-default blacklisted openssl rsa keys
+	
+contains the list of known-bad non-default openssl keys for openssl-vulnkey to
+use when examining suspect keys: rsa-512, rsa-4096

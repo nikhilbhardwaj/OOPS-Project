@@ -1,0 +1,6 @@
+Convert between xml, html, csv and a line-oriented format
+	
+xml2 tools are used to convert xml, html and csv to and from a
+line-oriented format more amenable to processing by classic unix
+pipeline processing tools, like grep, sed, awk, cut, shell scripts,
+and so forth.

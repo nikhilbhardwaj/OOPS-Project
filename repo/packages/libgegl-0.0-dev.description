@@ -1,0 +1,10 @@
+Generic graphics library (development files)
+	
+gegl (generic graphics library) is a graph based image processing
+framework.
+
+gegls original design was made to scratch gimps itches for a new
+compositing and processing core. this core is being designed to have
+minimal dependencies. and a simple well defined api
+
+this package contains the development files.

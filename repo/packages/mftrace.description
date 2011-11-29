@@ -1,0 +1,10 @@
+Converts metafont fonts into type1 fonts
+	
+mftrace is a small python program that lets you trace a tex bitmap
+font (a metafont font) into a pfa or pfb font (a postscript type1
+scalable font).
+
+type1 fonts offer many advantages over bitmaps, as they allow
+postscript files to render correctly on printers with many resolutions.
+moreover, ghostscript can generate much better pdf, if given scalable
+fonts.

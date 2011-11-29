@@ -1,0 +1,12 @@
+Utilities for amarok media player
+	
+this package contains command line utilities that are typically used by amarok
+media player but might also be useful on systems without amarok installed.
+they are designed to be lightweight as they do not depend on kde libraries.
+
+currently the package contains the following utilities:
+
+  - amarokcollectionscanner - scans audio files, collects information from
+    file tags and prints it in the structured xml format.
+  - amarok_afttagger - a helper program which writes/removes custom tags
+    to/from media files required for embedded "amarok file tracking".

@@ -1,0 +1,11 @@
+Network trace processing library supporting many input formats
+	
+libtrace is a library for trace processing. it supports multiple input
+methods, including device capture, raw and gz-compressed trace, and sockets;
+and multiple input formats.
+
+libpacketdump provides decoders to dump the contents of packets in human
+readable form.
+
+libtrace is developed by the wand network research group at waikato
+university in new zealand.

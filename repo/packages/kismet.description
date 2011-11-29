@@ -1,0 +1,9 @@
+Wireless 802.11b monitoring tool
+	
+kismet is a 802.11b wireless network sniffer.  it is capable of sniffing
+using almost any supported wireless card using the airo, hostap, wlan-ng,
+and orinoco (with a kernel patch) drivers.
+
+can make use of sox and festival to play audio alarms for network events
+and speak out network summary on discovery.  optionally works with gpsd
+to map scanning.

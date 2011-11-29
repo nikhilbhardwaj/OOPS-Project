@@ -1,0 +1,9 @@
+Tool to generate cvs patch set information
+	
+cvsps is a program for generating 'patch set' information from a cvs
+repository.  a patch set in this case is defined as a set of changes made
+to a collection of files, all committed at the same time (using a single
+'cvs commit' command).  this information is valuable for seeing the
+big picture of the evolution of a cvs project.  while cvs tracks revision
+information, it is often difficult to see what changes were committed
+'atomically' to the repository.

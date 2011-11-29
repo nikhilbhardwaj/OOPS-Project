@@ -1,0 +1,8 @@
+Bbc basic v interpreter
+	
+brandy is an interpreter for bbc basic. it is source code compatible with the
+basic v interpreter in risc os and runs under a number of different
+operating systems.
+
+note that it is not possible to make operating system calls from within a
+program except under risc os.

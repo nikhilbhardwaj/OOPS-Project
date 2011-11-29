@@ -1,0 +1,7 @@
+Perl module to check if makefile.pl has the right pre-requisites
+	
+test::prerq examines the modules looking on blib/lib/,
+blib/script, and the test files t/*  (and test.pl).
+then figures out which modules they use, skips the modules that are
+in the perl core, and compares the remaining list of modules to those
+in the prereq_pm section of makefile.pl.

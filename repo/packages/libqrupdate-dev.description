@@ -1,0 +1,6 @@
+Fast updates of qr and cholesky decompositions -- static library
+	
+qrupdate is a fortran library for qr and cholesky decompositions. it
+is most notably used by octave.
+
+this package contains the static library.

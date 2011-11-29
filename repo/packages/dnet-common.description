@@ -1,0 +1,11 @@
+Base package for linux decnet
+	
+this is the base package for linux decnet. it contains the necessary
+configuration files and a script to set up the mac address of your
+ethernet card(s) at boot-up.
+
+you will also need to be running a 2.4+ kernel and have decnet either
+built as a module or compiled into the kernel.
+
+to do useful work with decnet you will need the libdnet package and
+probably also dnet-progs.

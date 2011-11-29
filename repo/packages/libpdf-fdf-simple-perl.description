@@ -1,0 +1,17 @@
+Perl module to read and write (acrobat) fdf files
+	
+helps creating and extracting the content of fdf files. it is meant to
+be a simple replacement for the adobe fdftoolkit. therefore some of
+it's behavior, especially handling of diverse whitespace/newline
+artefacts is orientated on fdftoolkit's handling.
+
+after the extraction process the content is available within a hash
+reference.
+
+for creating fdf files it currently only supports setting text
+values. anyway, this should be enough to create fdf files for text
+fields, text areas, checkboxes and radio buttons.
+
+pdf::fdf::simple uses parse::recdescent and understands both, the
+"kids" notation and the "dotted" notation for field names. saving will
+always use the "dotted"- notation.

@@ -1,0 +1,15 @@
+International dictionary - common plugins
+	
+stardict is a cross-platform and international written in gtk+ 2.x.
+it has powerful features such as "glob-style pattern matching",
+"scan selection word", "fuzzy search", etc.
+
+this package contains some add-on plugins for stardict. these include:
+
+ - man virtual dict plugin
+ - qqwry virtual dict plugin
+ - html parse plugin
+ - xdxf parse plugin
+ - wordnet plugin
+ - powerword parse plugin
+ - wiki parse plugin

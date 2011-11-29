@@ -1,0 +1,16 @@
+Heavy-duty usenet news reader (curses-based client)
+	
+the motto of nn is its expanded name, which is "no news is good
+news, but nn is better", and the nn newsreader is designed to let you
+minimize the amount of time you spend reading news (or, more
+realistically, to allow you to follow even more newsgroups :-).
+
+nn allows you to quickly select articles of interest and skip the
+rest.  it also supports efficient article killing and selection of
+articles by author and subject.
+
+this version of nn reads news from a news server via nntp (the
+network news transfer protocol), and can make use of your nntp
+server's nov database, if configured.  you must have a news server
+available - large sites usually provide a site-wide server.  (for
+those familiar with 'nn', this is a client-only version.)

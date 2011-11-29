@@ -1,0 +1,9 @@
+Google's framework for writing c++ tests - shared library
+	
+google's framework for writing c++ tests on a variety of platforms. based on
+the xunit architecture. supports automatic test discovery, a rich set of
+assertions, user-defined assertions, death tests, fatal and non-fatal failures,
+value- and type-parameterized tests, various options for running the tests, and
+xml test report generation.
+
+this package contains the gtest shared library.

@@ -1,0 +1,7 @@
+Notifies you of changes on remote ftp servers
+	
+this package should be installed as a cron job (for interested users)
+which every week makes a ftp connection to a list of sites and studies
+a set of files or directories and report any changes it finds by email.
+
+every user can have his own set of sites and directories to watch.

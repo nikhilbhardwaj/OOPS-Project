@@ -1,0 +1,8 @@
+Library of unrelated but useful c++ classes
+	
+cxxtools contains an argument-parser, a base-64 encoder/decoder, a
+c++ interface to iconv, md5-stream for easy md5 calculation,
+threading classes, socket classes, a dynamic exception-safe buffer, a
+wrapper for dlopen/dlsym, a pool template (e.g., for a connection
+pool in a multi-threaded application), query_params, and a class for
+easy parsing of cgi parameters (get and post) in a cgi program.

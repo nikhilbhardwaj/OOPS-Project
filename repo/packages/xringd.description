@@ -1,0 +1,4 @@
+Extended ring daemon - monitor phone rings and take action
+	
+xringd will monitor a serial line for ring signals and activate various
+commands when specific "ring-delay sequences" are detected.

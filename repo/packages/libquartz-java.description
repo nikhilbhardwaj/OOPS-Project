@@ -1,0 +1,10 @@
+Open source job scheduling system
+	
+quartz is a full-featured, open source job scheduling system that can
+be integrated with, or used along side virtually any j2ee or j2se
+application - from the smallest stand-alone application to the
+largest e-commerce system. quartz can be used to create simple or
+complex schedules for executing tens, hundreds, or even
+tens-of-thousands of jobs; jobs whose tasks are defined as standard
+java components or ejbs. the quartz scheduler includes many
+enterprise-class features, such as jta transactions and clustering.

@@ -1,0 +1,16 @@
+Jboss aspect oriented programming (aop) framework
+	
+jboss aop is a 100% pure java aspected oriented framework usuable in
+any programming environment or tightly integrated with our
+application server. aspects allow you to more easily modularize your
+code base when regular object oriented programming just doesn't fit
+the bill. it can provide a cleaner separation from application logic
+and system code. it provides a great way to expose integration points
+into your software. combined with jdk 1.5 annotations, it also is a
+great way to expand the java language in a clean pluggable way rather
+than using annotations solely for code generation.
+
+jboss aop is not only a framework, but also a prepackaged set of
+aspects that are applied via annotations, pointcut expressions, or
+dynamically at runtime. some of these include caching, asynchronous
+communication, transactions, security, remoting, and many more.

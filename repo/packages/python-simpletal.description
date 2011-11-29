@@ -1,0 +1,6 @@
+Simple tal, tales and metal implementation
+	
+simpletal is a reimplementation of the zope tal (template attribute language),
+tales (tal expression syntax) and metal (macro expansion for tal) languages.
+more information and specifications of these languages is available at
+http://www.zope.org/wikis/devsite/projects/zpt/frontpage .

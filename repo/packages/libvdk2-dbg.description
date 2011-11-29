@@ -1,0 +1,17 @@
+Debugging static library for the vdk c++ library version 2
+	
+the visual development kit (vdk) is a c++ library
+that wraps the gtk+ toolkit.
+
+the package also includes the vdk component library which
+contains some  useful new  components not available in pure
+gtk+.
+
+programming in vdk is much like programming in vcl
+and borland c++ builder.
+
+this package contains the debugging static libraries for the
+vdk c++ library.
+
+the debugging libraries are installed as /usr/lib/libvdk_g.a
+link specifically with them if you want to debug.

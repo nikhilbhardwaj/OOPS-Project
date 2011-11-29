@@ -1,0 +1,25 @@
+Small scale reflection library for coq (theories)
+	
+the name ssreflect stands for "small scale reflection", a style of
+proof that evolved from the computer-checked proof of the four colour
+theorem and which leverages the higher-order nature of coq's
+underlying logic to provide effective automation for many small,
+clerical proof steps. this is often accomplished by restating
+("reflecting") problems in a more concrete form, hence the name. for
+example, in the ssreflect library, arithmetic comparison is not an
+abstract predicate, but a function computing a boolean.
+
+the ssreflect distribution comprises two parts:
+* a new tactic language, which promotes more structured, concise and
+
+  robust proof scripts, and is in fact independent from the "reflection"
+  proof style. it is implemented as a linkable extension to the coq
+  system.
+
+* a set of coq libraries that provide core "reflection-oriented"
+
+  theories for basic combinatorics (roughly: arithmetic, lists, and
+  finite sets).
+
+
+this package installs the full ssreflect distribution.

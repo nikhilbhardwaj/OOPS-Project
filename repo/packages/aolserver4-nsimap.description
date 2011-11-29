@@ -1,0 +1,6 @@
+This is aolserver 4 module that implements imap4 interface
+	
+nsimap provides an imap4 interface for aolserver4.
+it is based on uw imap c-client library from
+http://www.washington.edu/imap/. it allows using aolserver
+as an imap client and building web based imap applications.

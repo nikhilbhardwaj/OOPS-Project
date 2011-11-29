@@ -1,0 +1,9 @@
+Module for creating a minimal mirror of cpan
+	
+cpan::mini provides a simple mechanism to build and update a minimal mirror of
+the cpan on your local disk.  it contains only those files needed to install
+the newest version of every distribution.
+
+this package also contains the minicpan commandline utility, which is a thin
+wrapper around the cpan::mini module, which creates and updates local cpan
+mirrors without the need write a single line of perl code.

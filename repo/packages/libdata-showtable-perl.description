@@ -1,0 +1,9 @@
+Perl module to print arrays of data in a formatted listing
+	
+date::showtable is a perl module which defines subroutines
+to print arrays of data in a nicely formatted listing, using one of
+four possible formats: simple table, boxed table, list style, and
+html-formatting (for world-wide-web output).
+in other words, showtable is a data formatting program.  using the
+'-html' option, showtable can accept ascii tabular data and format it
+appropriately for display through a web-browser.

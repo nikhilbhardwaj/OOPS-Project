@@ -1,0 +1,12 @@
+A command-line interface for user input, written in haskell; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+haskeline provides a user interface for line input in command-line
+programs. this library is similar in purpose to readline, but since it is
+written in haskell it is (hopefully) more easily used in other haskell
+programs.
+
+haskeline runs both on posix-compatible systems and on windows.

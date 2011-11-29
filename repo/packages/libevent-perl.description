@@ -1,0 +1,5 @@
+Generic perl event loop module
+	
+the event module provides a simple and optimized event loop for a rather
+broad number of applications. it allows perl programs to register interest in
+events that concern it, and will receive those events.

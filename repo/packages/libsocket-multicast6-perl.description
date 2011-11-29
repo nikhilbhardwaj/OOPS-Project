@@ -1,0 +1,7 @@
+Base module for ipv4 and ipv6 multicast socket operations
+	
+socket::multicast6 is used to gain access to constants and utility functions
+used when manipulating multicast socket attributes.
+
+for simple, object-oriented way of doing the same thing, take a look at
+io::socket::multicast6 or io::socket::multicast.

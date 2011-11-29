@@ -1,0 +1,20 @@
+Daemon to use a hardware trng
+	
+the rngd daemon acts as a bridge between a hardware trng (true random number
+generator) such as the ones in some intel/amd/via chipsets, and the kernel's
+prng (pseudo-random number generator).
+
+it tests the data received from the trng using the fips 140-2 (2002-10-10)
+tests to verify that it is indeed random, and feeds the random data to the
+kernel entropy pool.
+
+this increases the bandwidth of the /dev/random device, from a source that
+does not depend on outside activity.  it may also improve the quality
+(entropy) of the randomness of /dev/random.
+
+a trng kernel module such as hw_random, or some other source of true
+entropy that is accessible as a device or fifo, is required to use this
+package.
+
+this is an unofficial version of rng-tools which has been extensively
+modified to add multithreading and a lot of new functionality.

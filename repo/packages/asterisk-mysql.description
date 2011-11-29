@@ -1,0 +1,15 @@
+Mysql support for the asterisk pbx (cdr mainly)
+	
+asterisk is an open source pbx and telephony toolkit.
+
+this package provides the following modules for basic mysql support for the
+asterisk pbx:
+
+  * cdr_addon_mysql.so for logging call detail records (cdr) into a mysql
+    database
+  * app_addon_sql_mysql.so for querying a mysql database from your dialplan
+  * res_config_mysql.so for configuring asterisk using a mysql database
+
+
+for more information about the asterisk pbx, have a look at the asterisk
+package.

@@ -1,0 +1,10 @@
+Front-end to the valgrind memory checker
+	
+alleyoop is a gnome front-end to the valgrind memory checker, including
+features like intelligently suppressing errors and launching editors at
+the error position in the source code.
+
+valgrind helps you to find memory-management problems in your programs.
+when a program is run under valgrind's supervision, all reads and
+writes of memory are checked, and calls to malloc/new/free/delete are
+intercepted.

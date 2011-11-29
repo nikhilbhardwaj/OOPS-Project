@@ -1,0 +1,6 @@
+Keep a mirrored working copy of a repository path
+	
+keep a directory in sync with a portion of a subversion repository.
+typically used to keep a development web server in sync with the changes
+made to the repository.  this directory can either be on the same box as
+the repository itself, or it can be remote (via ssh connection).

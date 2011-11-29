@@ -1,0 +1,16 @@
+Generate/apply patch files with more functionality than plain diff
+	
+this package contains a pair of programs, makepatch and applypatch, to
+assist in the generation and application of patch kits to synchronise
+source trees.
+
+makepatch knows about common conventions for patch kits (it generates
+index: and prereq: lines, it patches patchlevel.h first, it can use
+manifest files), plus it prepends some shell code which if run will
+take care adding directories, removing files, setting execute mode on
+scripts, and the like.
+
+applypatch uses some extra data supplied by makepatch to verify both the
+patch and the source directory before applying the patch.  afterwards it
+will clean up the directory tree plus fix up the permissions and even
+the timestamps on the patched files.

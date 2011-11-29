@@ -1,0 +1,8 @@
+A handy command line tool for handling csv files
+	
+ocaml csv is a library to read and write csv (comma-separated values)
+files.  it also supports all extensions used by excel - eg. quotes,
+newlines, 8 bit characters in fields, etc.
+
+this package contains csvtool, a handy command line tool for handling
+csv files from shell scripts.

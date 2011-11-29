@@ -1,0 +1,8 @@
+A small c++ library for reading zip files (library)
+	
+zipios++ is a java.util.zip-like c++ library for reading and writing zip
+files. access to individual entries is provided through standard c++
+iostreams. a simple read-only virtual file system that mounts regular
+directories and zip files is also provided.
+
+this package contains shared library.

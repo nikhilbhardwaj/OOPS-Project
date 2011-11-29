@@ -1,0 +1,14 @@
+A program to generate themable web picture albums
+	
+cthumb allows you to create themable web picture albums, i.e.
+collections of digital pictures, with small thumbnails of your pictures
+and with captions. in addition, it optionally allows you to have
+several views of the collection of pictures. an album is composed of a
+series of pages, each composed of a collection of pictures. for each
+page (and each picture), you can have several annotations per picture.
+cthumb  will generate several versions of the page, for each annotation
+type.
+
+you can customize almost everything in the way the albums look on the
+screen, from the size of the thumbnails to the background and foreground
+colors, the border colors, whether you want film-strips, etc.

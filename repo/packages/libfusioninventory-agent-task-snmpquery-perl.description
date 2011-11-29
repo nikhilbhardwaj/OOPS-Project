@@ -1,0 +1,15 @@
+Snmp devices scan support for fusioninventory agent
+	
+this module scans your networks to get information from devices with snmp
+protocol:
+
+ - networking devices discovery within an ip range
+ - network switch, printer and router analyse
+ - relation between computer / printer / switch port
+ - identify unknown mac addresses
+ - report printer cartridge and counter status
+ - support management of snmp versions v1, v2, v3
+
+
+the plugin depends on fusioninventory for glpi on server side.
+ocs inventory can't use this plugin.

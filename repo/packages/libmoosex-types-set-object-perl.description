@@ -1,0 +1,10 @@
+Perl module providing a set::object type
+	
+moosex::types::set::object provides moose type constraint (see moosex::types
+and moose::util::typeconstraints) that is a set::object, with coercions. it
+is essentially a collection of unordered objects without duplication (see
+set theory in mathematics).
+
+similarly, it allows one to operate on these sets - determining their union,
+intersection, difference and symmetric difference in a trivial way. there are
+many more operations, which are discussed in set::object's documentation.

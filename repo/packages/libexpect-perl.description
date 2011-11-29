@@ -1,0 +1,15 @@
+Expect.pm - perl expect interface
+	
+the expect module is a successor of comm.pl and a descendent of chat.pl. it
+more closely resembles the tcl expect language than its predecessors. it
+does not contain any of the networking code found in comm.pl. i suspect this
+would be obsolete anyway given the advent of io::socket and external tools
+such as netcat.
+
+expect.pm is an attempt to have more of a switch() & case: feel to make
+decision processing more fluid. three separate types of debugging have
+been implemented to make code production easier.
+
+it is now possible to interconnect multiple file handles (and processes) much
+like tcl's expect. an attempt was made to enable all the features of tcl's
+expect without forcing tcl on the victim programmer :-) .

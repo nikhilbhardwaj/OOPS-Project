@@ -1,0 +1,11 @@
+Utility to upgrade the firmware of a linksys nslu2 via the network
+	
+upslug2 is a command line program intended to allow the upgrade of a
+linksys nslu2 (network storage link for usb 2.0 disk drives) firmware
+to new or different versions.  when a nslu2 in the local network is put
+in upgrade mode, upslug2 can connect to it and upload a new firmware.
+
+upslug2 will accept a full firmware image but it can also upgrade the
+flash from individual files holding the kernel, ramdisk and root
+filesystem.  upslug2 provides status information during the upgrade
+process and verifies the written image after the upgrade.

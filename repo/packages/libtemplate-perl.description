@@ -1,0 +1,26 @@
+Template processing system written in perl
+	
+the template toolkit is a fast, powerful, flexible, and easily
+extensible template processing system written in perl. it is ideally
+suited for (but not limited) to the creation of static and dynamic web
+content. it includes support for all standard templating directives
+and many additional features including output filtering, exception
+handling, macro definition, support for plugin objects, definition of
+template metadata, embedded perl code, and much more.
+
+this package contains the 'tpage' and 'ttree' executables which serve
+as simple, powerful tools in the creation of static content without
+any prerequisite knowledge of perl. it also contains an extensive set
+of perl modules ideally suited to act as a templating system in the
+dynamic creation of web content.
+
+excellent offline batch processing makes it ideal for generating
+non-web-based content including pod, latex, postscript, and plain text
+from source templates.
+
+this package includes the html and postscript template libraries which
+provide a number of basic templates for use in building pages in these
+forms.
+
+this package also includes doug steinwand's high-speed drop-in
+replacement for template::stash written in perl xs.

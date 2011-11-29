@@ -1,0 +1,4 @@
+Non-blocking and thread-safe dns resolution library
+	
+libdnsres is library for resolving dns names that mirror the traditional
+gethostbyname and getaddrinfo interfaces.

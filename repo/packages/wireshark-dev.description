@@ -1,0 +1,8 @@
+Network traffic analyzer - development tools
+	
+wireshark is a network "sniffer" - a tool that captures and analyzes
+packets off the wire. wireshark can decode too many protocols to list
+here.
+
+this package provides idl2wrs and other files necessary for developing
+new packet dissectors.

@@ -1,0 +1,15 @@
+Authentication framework for python wsgi applications - plugins collection
+	
+repoze.who is an identification and authentication framework for
+arbitrary python wsgi applications; it acts as wsgi middleware and is
+inspired by zope 2's pluggable authentication service (pas).
+
+this package contains a collection of plugins for repoze.who, in
+particular:
+
+
+ * repoze.who-friendlyform - developer-friendly forms
+ * repoze.who-plugins.sa - sqlalchemy integration
+ * repoze.who-testutil - test utilities for repoze.who applications
+ * repoze.who.plugins.ldap - ldap authentication
+ * repoze.who.plugins.openid - login via openid

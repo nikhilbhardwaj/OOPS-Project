@@ -1,0 +1,11 @@
+Gui for gnu arch
+	
+archway is a gnu arch gui.  it follows the unix tradition of small tools
+doing their work well and cooperating nicely with each other.
+
+some tips: in a working tree, run "archelf" to operate on project files;
+run "archmag" to manage tree merges; run "archeye ." to view tree changes;
+run "archeye ,undo-1" to view any changeset; run "archrog" to manage
+registered archives; and so on.
+
+alternativelly, just run "archway" and choose the desired tools from there.

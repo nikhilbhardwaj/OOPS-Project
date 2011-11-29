@@ -1,0 +1,10 @@
+Tools to secure bastion hosts
+	
+titantools provides two of the tools provided by the titan package
+which are:
+
+  * noshell: an alternative way to nologin to add shells to administrative
+    (locked) system users.
+  * runas: a simple generic program that allows administrators to
+    start daemons as non privileged users, and optionally to run in a
+    chrooted environment.

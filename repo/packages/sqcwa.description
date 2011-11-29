@@ -1,0 +1,15 @@
+Workaround for squid not caching some pages
+	
+this program reads squid/access.log on the fly, analyses it and
+searches inside all text/html objects for some <meta> tags, and
+if found, tells squidclient to purge the page.
+
+it is needed for some webservers that do not put http-equiv tags
+in http headers.
+
+currently these tags are:
+
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="expires" content="-1">

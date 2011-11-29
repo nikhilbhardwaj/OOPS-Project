@@ -1,0 +1,9 @@
+Perl module that creates temporary files for testing
+	
+test::tempdir provides temporary directory creation with testing in mind.
+
+the differences between this module and file::temp are:
+
+ * prevent race conditions when running parallel tests harness
+ * empty directory before running tests
+ * files are not cleaned at the end of the tests if they fail

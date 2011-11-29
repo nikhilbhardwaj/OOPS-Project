@@ -1,0 +1,16 @@
+Toolkit assisting in the localization of software
+	
+the translate toolkit is a python library and a set of software designed
+to help make the lives of localizers both more productive and less
+frustrating.
+
+the software includes programs to convert localization formats to the
+common po format and programs to check and manage po files and
+utilities to create word counts, merge translations and perform
+various checks on po files.
+
+supported localization storage formats are: dtd, properties,
+openoffice.org gsi/sdf, csv, mo, qt .ts and of course po and xliff.
+
+the documentation of the translate toolkit api is packaged in
+translate-toolkit-dev-doc.

@@ -1,0 +1,4 @@
+PackageId:9495
+Name:libapache2-mod-php5
+Version:5.3.3-7+squeeze3
+Deps:apache2-mpm-prefork,apache2-mpm-itk,apache2.2-common,libbz2-1.0,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcomerr2,libdb4.8,libgcc1,libgssapi-krb5-2,libk5crypto3,libkrb5-3,libmagic1,libonig2,libpcre3,libqdbm14,libssl0.9.8,libxml2,mime-support,php5-common,tzdata,ucf,zlib1g

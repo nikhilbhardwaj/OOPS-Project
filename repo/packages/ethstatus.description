@@ -1,0 +1,6 @@
+Console-based ethernet statistics monitor
+	
+ethstatus is a console-based monitoring utility for displaying
+statistical data of the ethernet interface on a quantity basis.
+it is similar to iptraf but is meant to run as a permanent console
+task to monitor the network load.

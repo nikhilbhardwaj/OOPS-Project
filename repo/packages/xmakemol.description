@@ -1,0 +1,14 @@
+A program for visualizing atomic and molecular systems
+	
+xmakemol is a mouse-based program, written using the lesstif widget set, for
+viewing and manipulating atomic and other chemical systems.  it reads xyz
+input and renders atoms, bonds and hydrogen bonds.
+
+features include:
+
+ - animating multiple frame files
+ - interactive measurement of bond lengths, bond angles and torsion angles
+ - control over atom/bond sizes
+ - exporting to xpm, encapsulated postscript and xyz formats
+ - toggling the visibility of groups of atoms
+ - editing the positions of subsets of atoms

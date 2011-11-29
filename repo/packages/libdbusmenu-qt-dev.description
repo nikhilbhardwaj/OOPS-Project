@@ -1,0 +1,8 @@
+Qt implementation of dbusmenu protocol (development)
+	
+this library provides a qt implementation of the dbusmenu protocol
+
+the dbusmenu protocol makes it possible for applications to export
+and import their menus over dbus.
+
+this package provides header files for development.

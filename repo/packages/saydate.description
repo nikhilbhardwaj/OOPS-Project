@@ -1,0 +1,6 @@
+Speaks the current date through your sound card
+	
+says the current date and uptime through your sound card.
+requires you have a sound output device available.
+also includes au2raw, a sox wrapper which converts a .au
+file to a .raw file.

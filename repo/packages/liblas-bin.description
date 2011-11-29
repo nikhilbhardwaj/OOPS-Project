@@ -1,0 +1,13 @@
+Asprs lidar data translation toolset
+	
+liblas is a c/c++ library for reading and writing asprs las versions
+1.0, 1.1 and 1.2 data. the las format is a sequential binary format
+used to store data from sensors and as intermediate processing storage
+by some lidar-related applications. lidar (light detection and ranging)
+is an optical remote sensing technology that measures properties of
+scattered light to find range and/or other information of a distant
+target. the prevalent method to determine distance to an object or
+surface is to use laser pulses.
+
+this package contains the essential toolset to manage lidar data:
+lasinfo, lasmerge, las2las, las2txt, txt2las, las2ogr.

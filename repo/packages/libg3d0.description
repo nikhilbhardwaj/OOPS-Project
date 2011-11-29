@@ -1,0 +1,8 @@
+Library for loading and manipulating 3d model files
+	
+libg3d is a framework for loading 3d model files from files or memory. it can
+also load associated data like textures.
+
+libg3d cannot load anything without the importers provided by libg3d-plugins
+and libg3d-plugin-gdkpixbuf. see these packages for more information about
+supported formats.

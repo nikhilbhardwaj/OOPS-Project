@@ -1,0 +1,11 @@
+Adds width and height attributes to img tags in html files
+	
+the imgsizer script automates away the tedious task of creating and
+updating the extension height and width parameters in html img tags.
+these parameters help browsers to multi-thread image loading, instead of
+having to load images in strict sequence in order to have each one's
+dimensions available so the next can be placed.  this generally allows
+text on the remainder of the page to load much faster.
+
+the package needs either the imagemagick package or both the file and
+libjpeg-progs packages.

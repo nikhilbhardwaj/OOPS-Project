@@ -1,0 +1,6 @@
+Utility that merges httpd log files by date
+	
+a small and fast c program which merges and sorts http log files in
+'common log format' from web servers behind round-robin dns.  it has
+been designed to easily manage huge log files from highly stressed
+servers.

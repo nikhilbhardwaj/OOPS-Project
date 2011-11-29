@@ -1,0 +1,9 @@
+Utility to search google via your gnome menu/panel
+	
+this is a very simple and very handy utility that just spawns the
+configured gnome browser with a google search on whatever you have in
+the x clipboard (whatever you last selected). it's not even an applet,
+just a program with a launcher that's nice to put on the panel - drag
+it there from the menu. it also includes support for a command line
+option -u/--url, to specify an alternative url to which the search
+should be appended before opening.

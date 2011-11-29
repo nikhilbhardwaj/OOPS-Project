@@ -1,0 +1,10 @@
+Profile hidden markov models for protein sequence analysis
+	
+hmmer is an implementation of profile hidden markov model methods for
+sensitive searches of biological sequence databases using multiple sequence
+alignments as queries.
+
+given a multiple sequence alignment as input, hmmer builds a statistical
+model called a "hidden markov model" which can then be used as a query into
+a sequence database to find (and/or align) additional homologues of the
+sequence family.

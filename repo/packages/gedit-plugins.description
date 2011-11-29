@@ -1,0 +1,20 @@
+Set of plugins for gedit
+	
+gedit-plugins contain a set of plugins for gedit, gnome's text editor.
+
+the following plugins are included:
+
+ * code comment: comment out or uncomment a selected block of code.
+ * bracket completion: automatically adds closing brackets.
+ * multi edit: edit document in multiple places at once
+ * embedded terminal: embed a terminal in the bottom pane.
+ * character map: insert special characters just by clicking on them.
+ * draw spaces: draw spaces and tabs
+ * word completion: word completion using the completion framework
+ * smart spaces: forget you're not using tabulations.
+ * join/split lines: join several lines or split long ones
+ * bookmarks: easy document navigation with bookmarks
+ * show/hide tabbar: add a menu entry to show/hide the tabbar.
+ * color picker: pick a color from a dialog and insert its hexadecimal representation.
+ * session saver: save and restore your working sessions
+ * commander: command line interface for advanced editing

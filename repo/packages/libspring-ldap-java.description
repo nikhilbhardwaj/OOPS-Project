@@ -1,0 +1,9 @@
+Java library for simpler ldap programming
+	
+spring ldap is built on the same principles as the jdbctemplate in spring
+jdbc. it completely eliminates the need to worry about creating and closing
+ldapcontext and looping through namingenumeration. it also provides a
+more comprehensive unchecked exception hierarchy, built on spring's
+dataaccessexception. as a bonus, it also contains classes for dynamically
+building ldap filters and dns (distinguished names), ldap attribute
+management, and client-side ldap transaction management.

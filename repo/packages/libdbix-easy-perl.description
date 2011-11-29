@@ -1,0 +1,6 @@
+Easy to use dbi interface
+	
+dbix::easy is an easy to use dbi interface.
+currently the pg, msql, mysql, sybase and odbc drivers are supported.
+note that you also need one of the dbd::* drivers to use this module.
+for additional information please refer to the manpage.

@@ -1,0 +1,6 @@
+Facebook api implementation
+	
+www::facebook::api is a perl implementation of the facebook api, working off
+of the canonical java and php implementations. by default it uses json::any
+to parse the response returned by facebook's server. there is an option to
+return the raw response in either xml or json.

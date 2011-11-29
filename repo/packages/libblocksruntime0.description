@@ -1,0 +1,9 @@
+Blocks runtime library
+	
+blocks are a proposed extension to the c, objective c, and c++ languages
+developed by apple to support the grand central dispatch concurrency engine.
+blocks are anonymous inline functions that automatically capture a read-only
+copy of local variables, and have read-write access to local variables that
+are declared with the "__block" storage class.
+
+this package contains a library that is needed by programs that use blocks.

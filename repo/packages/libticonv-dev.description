@@ -1,0 +1,8 @@
+Texas instruments calculators charsets library [development files]
+	
+the libticonv is a library providing support for operations on texas
+instruments calculators charsets. all charsets for all calculators are
+supported; the library is also able to convert to/from utf-8/utf-16.
+
+this package provides the development files for the library, static library,
+required headers and documentation.

@@ -1,0 +1,14 @@
+Small newsfeed from an nntp server with standard nntp commands
+	
+this package contains software for copying news from an nntp server to your
+local machine, and copying replies back up to an nntp server.
+
+the suck/rpost combination allows you to run your own inn/cnews site,
+controlling where you get your news, and where you post outgoing articles.
+suck/rpost use only standard nntp commands that are used by your favorite
+news reader (like tin, knews, trn) such as post and article.  if you can
+use tin or knews against an nntp site, than you can use suck/rpost and have
+multiple site feeds.
+
+note: suck will not work with obsolete nntp servers that can't handle the
+xhdr command.

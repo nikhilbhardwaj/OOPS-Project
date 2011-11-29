@@ -1,0 +1,12 @@
+X window system (x.org) infrastructure
+	
+x11-common contains the filesystem infrastructure required for further
+installation of the x window system in any configuration; it does not
+provide a full installation of clients, servers, libraries, and utilities
+required to run the x window system.
+
+a number of terms are used to refer to the x window system, including "x",
+"x version 11", "x11", "x11r6", and "x11r7".  the version of x used in
+debian is derived from the version released by the x.org foundation, and
+is thus often also referred to as "x.org".  all of the preceding quoted
+terms are functionally interchangeable in an debian system.

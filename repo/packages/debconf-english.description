@@ -1,0 +1,6 @@
+Small footprint english-only debconf
+	
+this package is an alternative to the debconf-i18n package, intended for
+systems that are administered only in english, and low-footprint systems.
+if you install this package, debconf will not work properly in other
+languages, but you'll save half a megabyte of disk space.

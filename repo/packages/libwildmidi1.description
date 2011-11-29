@@ -1,0 +1,5 @@
+Software midi player library
+	
+midi streaming library designed to process a midi file and stream the results
+as stereo audio data through a buffer which an external program can then
+process further.

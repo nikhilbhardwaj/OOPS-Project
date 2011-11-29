@@ -1,0 +1,28 @@
+An http and webdav client library
+	
+neon is an http and webdav client library, with a c language api.
+
+warning: the neon api is not yet stable.
+
+provides lower-level interfaces to directly implement new http
+methods, and higher-level interfaces so that you don't have to
+worry about the lower-level stuff.
+
+current features:
+
+  * high-level interface to http and webdav methods (put, get, head, etc.)
+  * low-level interface to http request handling, to allow implementing
+    new methods easily.
+  * persistent connections
+  * rfc2617 basic and digest authentication (including auth-int, md5-sess)
+  * proxy support (including basic/digest authentication)
+  * ssl/tls support using openssl (including client certificate and thread
+    safety support)
+  * generic webdav 207 xml response handling mechanism
+  * xml parsing using the expat or libxml parsers
+  * easy generation of error messages from 207 error responses
+  * webdav resource manipulation: move, copy, delete, mkcol.
+  * webdav metadata support: set and remove properties, query any set ofi
+    properties (proppatch/propfind).
+  * autoconf macros supplied for easily embedding neon directly inside an
+    application source tree.

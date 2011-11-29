@@ -1,0 +1,7 @@
+Command-line interface parsing library
+	
+this package includes a tool that parses a command table to generate
+a simple command-line interface parser, the include files needed to
+compile and use it, and the static libs.
+
+it was originally inspired by the multics subsystem library.

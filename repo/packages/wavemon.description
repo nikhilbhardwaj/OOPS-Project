@@ -1,0 +1,8 @@
+Wireless device monitoring application
+	
+wavemon allows you to watch signal and noise levels, packet
+statistics, device configuration and network parameters of your
+wireless network hardware.  it has currently only been tested with
+the lucent orinoco series of cards, although it *should* work (though
+with varying features) with all devices supported by the wireless
+kernel extensions by jean tourrilhes.

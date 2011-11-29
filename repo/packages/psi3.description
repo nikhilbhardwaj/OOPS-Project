@@ -1,0 +1,36 @@
+Quantum chemical program suite
+	
+psi3 is an ab-initio quantum chemistry program.  it is especially designed to
+accurately compute properties of small to medium molecules using highly
+correlated techniques.
+
+it can compute energies and gradients for the following methods:
+
+ * closed shell and general restricted open shell hartree-fock (rhf/rohf)
+ * complete active space scf (casscf)
+ * coupled-cluster singles doubles (ccsd)
+ * coupled-cluster singles doubles with pertubative triples (ccsd(t))
+   (only for unrestricted (uhf) reference wavefunctions)
+
+
+additionally, it can compute energies for the following methods:
+
+ * unrestricted open shell hartree-fock (uhf)
+ * closed/open shell moeller-plesset pertubation theory (mp2)
+ * closed shell linear r12 moeller-plesset pertubation theory (mp2-r12)
+ * multireference configuration-interaction (mrci)
+ * coupled-cluster singles doubles with pertubative triples (ccsd(t))
+ * second-order approximate coupled-cluster singles doubles (cc2)
+ * closed shell and general restricted open shell equation-of-motion coupled-
+   cluster singles doubles (eom-ccsd)
+
+
+further features include:
+
+ * flexible, modular and customizable input format
+ * excited state calculations with the cc2, eom-ccsd, casscf and mrci methods
+ * internal coordinate geometry optimizer
+ * harmonic frequencies calculations
+ * one-electron properties like dipole/quadrupole moments, natural orbitals,
+   electrostatic potential, hyperfine coupling constants or spin density
+ * utilization of molecular point-group symmetry to increase efficiency

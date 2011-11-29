@@ -1,0 +1,11 @@
+Python interface to sqlite 3
+	
+pysqlite is an interface to the sqlite database server for
+python. it aims to be fully compliant with python database
+api version 2.0 while also exploiting the unique features of
+sqlite.
+
+pysqlite 1.1.x is built against sqlite 3 but uses the same api as
+pysqlite 1.0.x (for sqlite 2, packaged as python-sqlite). newer
+interfaces to sqlite 3 can be found in the package python-pysqlite2
+and python-apsw.

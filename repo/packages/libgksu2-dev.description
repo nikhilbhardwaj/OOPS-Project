@@ -1,0 +1,8 @@
+Library providing su and sudo functionality (development files)
+	
+this library comes from the gksu program. it provides a simple
+api to use su and sudo in programs that need to execute tasks
+as other user. it provides x authentication facilities for running
+programs in an x session.
+
+this package contains the development files.

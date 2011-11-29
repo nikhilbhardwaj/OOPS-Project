@@ -1,0 +1,6 @@
+Perl module to find the differences between two arrays
+	
+the array::diff module compares two arrays and determines which elements
+have been removed or added.  its interface is straightforward, solving
+a simple problem in a simple way; for those who need more features,
+there is always the array::compare module.

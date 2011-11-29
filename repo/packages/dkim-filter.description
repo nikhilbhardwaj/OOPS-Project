@@ -1,0 +1,8 @@
+Domainkeys identified mail (dkim) milter implementation
+	
+implements a sendmail mail filter (milter) for the domainkeys
+identified mail (dkim) standard. dkim provides a way for senders to
+confirm their identity when sending email by adding a cryptographic
+signature to the headers of the message.
+
+the dkim-milter implements both signing and verification.

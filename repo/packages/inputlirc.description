@@ -1,0 +1,7 @@
+Zeroconf lirc daemon using input event devices
+	
+this is a small lirc-compatible daemon that reads from /dev/input/eventx
+devices and sends the received keycodes to connecting lirc clients. inputlircd
+needs no configuration, it uses the standardised names for the keycodes as
+used by the kernel. many usb remote controls that present hid devices, as well
+as multimedia keyboards should work out of the box.

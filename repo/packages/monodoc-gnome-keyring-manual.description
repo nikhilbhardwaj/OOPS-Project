@@ -1,0 +1,7 @@
+Cli library to access the gnome keyring daemon - manual
+	
+gnome keyring is a system which allows you to store passwords and other
+sensitive data across gnome applications. it provides an api to access
+this information, as well as a daemon to manage it.
+
+this package contains the monodoc manual for the gnome-keyring cli library

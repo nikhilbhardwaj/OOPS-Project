@@ -1,0 +1,7 @@
+A dedicated server for collaborative editing
+	
+sobby is a dedicated server which allows clients to edit plain text
+documents and source files collaboratively over a network. changes
+to the documents are synchronised instantly to the other clients.
+
+it serves the documents using the same protocol as gobby.

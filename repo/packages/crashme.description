@@ -1,0 +1,8 @@
+Stress tests operating system stability
+	
+crashme generates strings of random bytes and then attempts to execute
+them. used to test kernel stability.
+
+**warning** while linux has been known to survive days and weeks of crashme,
+it is not guaranteed that your system will survive! do not use this program
+unless you really want to crash your computer

@@ -1,0 +1,15 @@
+Random number generators
+	
+math::random is  a perl port  of the c version of randlib,
+which is   a suite of  routines for  generating  random deviates.  see
+"randlib" for more information.
+
+this port supports all of the distributions  from which the fortran
+and c  versions generate deviates.   the major functionalities that
+are excluded  are   the  multiple  generators/splitting  facility  and
+antithetic  random number  generation.   these facilities,  along with
+some of  the distributions which are  included, are probably not of
+interest   except  to the   very  sophisticated   user.  if there   is
+sufficient interest, the excluded   facilities will be included in   a
+future  release.   the code  to   perform the  excluded facilities  is
+available as randlib in fortran and c source.

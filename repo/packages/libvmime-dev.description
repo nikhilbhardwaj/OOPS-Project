@@ -1,0 +1,10 @@
+A c++ mail library (development files)
+	
+vmime is a powerful c++ class library for parsing, generating, or editing
+internet rfc-[2]822 and mime messages. vmime is designed to provide a fast
+and an easy way to manipulate internet mail messages.
+
+the recent releases of vmime also include support for using messaging
+protocols (pop3, imap, smtp and maildir) with a lot of features supported:
+listing folders, downloading and adding messages to folders, extracting parts
+from message, getting and setting message flags, and a lot more.

@@ -1,0 +1,8 @@
+Neuroimaging data analysis pipelines in python -- documentation
+	
+nipype interfaces python to other neuroimaging packages and creates
+an api for specifying a full analysis pipeline in python.  currently,
+it has interfaces for spm, fsl, afni, freesurfer, but could be
+extended for other packages (such as lipsia).
+
+this package contains nipype documentation in various formats.

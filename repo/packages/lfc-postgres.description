@@ -1,0 +1,6 @@
+Lcg file catalog (lfc) server with postgres database backend
+	
+the lcg file catalog (lfc) keeps track of the locations of the physical
+replicas of the logical files in a distributed storage system.
+this package provides an lfc server that uses postgres as its database
+backend.

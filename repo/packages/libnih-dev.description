@@ -1,0 +1,8 @@
+Nih utility library (development files)
+	
+libnih is a light-weight "standard library" of c functions to ease the
+development of other libraries and applications, especially those
+normally found in /lib.
+
+this package contains the static library and c header files which are
+needed for developing software using libnih.

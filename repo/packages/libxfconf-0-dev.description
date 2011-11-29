@@ -1,0 +1,9 @@
+Development files for libxfconf
+	
+this package contains the development files libxfconf which are
+the main part of the xfce4 configuration system. if you want to
+develop applications that use this library, you want
+to install this package.
+
+the libxfconf reference manual is also included and it can be
+consulted with devhelp or a web browser.

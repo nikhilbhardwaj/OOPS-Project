@@ -1,0 +1,6 @@
+Irc logger, monitor and proxy program ("bot") in ruby
+	
+nadoka is a tool for monitoring and logging irc conversations and
+responding to specially formatted requests. you define and customize
+these responses in ruby. nadoka is conceptually similar to madoka, an
+older proxy written in perl.

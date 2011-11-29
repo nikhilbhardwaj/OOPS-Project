@@ -1,0 +1,10 @@
+Perl debugger using a tk gui
+	
+ptkdb is a debugger for perl that uses perltk for a user interface.
+
+features include:
+
+ * hot variable inspection
+ * breakpoint control panel
+ * expression list
+ * subroutine tree

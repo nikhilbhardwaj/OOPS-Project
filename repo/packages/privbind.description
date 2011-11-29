@@ -1,0 +1,12 @@
+Allow unprivileged apps to bind to a privileged port
+	
+privbind is a utility that allows running non-root applications, only giving
+them one root privilege - binding to low (<1024) ports. the aim is similar,
+though using a completely different method, to "authbind".
+
+privbind is a completely user space solution. it has no suid executables, and
+has to be started by a root user instead.
+
+privbind is useful for cases where there is a need to run an untrusted program
+that needs to bind to a low port, but requires no other root privilege. it is
+also useful if a daemon has no capability to drop privileges itself.

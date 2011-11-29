@@ -1,0 +1,12 @@
+Ax.25 ham radio applications
+	
+this package provides specific user applications for hamradio
+that use ax.25 net/rom or rose network protocols:
+
+ * axcall: a general purpose ax.25, net/rom and rose connection
+   program.
+ * axlisten: a network monitor of all ax.25 traffic heard by the system.
+ * ax25ipd: an rfc1226 compliant daemon which provides
+   encapsulation of ax.25 traffic over ip.
+ * ax25mond: retransmits data received from sockets into an ax.25
+   monitor socket.

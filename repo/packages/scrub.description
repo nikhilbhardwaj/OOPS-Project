@@ -1,0 +1,14 @@
+Writes patterns on magnetic media to thwart data recovery
+	
+scrub iteratively writes patterns on files or disk devices to make retrieving
+the data more difficult.
+
+scrub can write patterns direct to disk, destroying any file system (preferred
+method), or it can write patterns on files, or on file system free space.
+
+scrub writes nnsa nap-14.x, dod 5220.22-m, bsi, 35-pass gutmann, or one of
+several other selectable pattern sequences.
+
+scrub operates at the posix system call level, thus it is portable to a wide
+variety of hardware platforms. however, this means it cannot do certain things
+like manipulate spare blocks on disks, etc..

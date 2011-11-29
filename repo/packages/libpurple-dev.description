@@ -1,0 +1,6 @@
+Multi-protocol instant messaging library - development files
+	
+this package contains the headers and other development files not included in
+the main libpurple0 package. install this if you wish to compile your own
+client-agnostic plugins, or would like to compile programs that use
+libpurple.

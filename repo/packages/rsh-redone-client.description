@@ -1,0 +1,7 @@
+Reimplementation of rsh and rlogin
+	
+rsh-redone is a reimplementation of the remote shell clients and servers.
+it is written from the ground up to avoid the bugs found in the standard
+clients and servers. it also fully supports ipv6.
+
+this package provides rsh and rlogin.

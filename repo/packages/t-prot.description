@@ -1,0 +1,16 @@
+Display filter for rfc822 messages
+	
+this program is a filter which shall improve the readability of messages
+(email and posts) by *hiding* some annoying parts, e.g. mailing list footers,
+signatures and tofu as well as squeezing sequences of blank lines or
+punctuation.
+
+tofu is an acronym that stands for "text oben, fullquote unten" (german
+language) which means the style of sadly so many people that just leave all
+the quotes in a reply and add some own lines above. this acronym is what gave
+the script its name - tofu protection.
+
+it currently offers hints how to include it within mutt, slrn or inn2. it
+should be possible to do similars with other programs that allow to have a
+message run through a filter before it's displayed. if you use such a program
+we'd be interested if you could send in your setup.

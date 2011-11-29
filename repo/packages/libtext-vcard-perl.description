@@ -1,0 +1,8 @@
+Parse, edit and create multiple vcards
+	
+text::vcard::addressbook provides an api to reading / editing and
+creating multiple vcards. a vcard is an electronic business card.
+this package has been developed based on rfc2426.
+
+many applications (apple address book, ms outlook, evolution etc)
+can export and import vcards.

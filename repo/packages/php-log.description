@@ -1,0 +1,5 @@
+Log module for pear
+	
+the log framework provides an abstracted logging system.  it supports
+logging to console, file, syslog, sql, and mcal targets.  it also provides
+a subject - observer mechanism.

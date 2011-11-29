@@ -1,0 +1,15 @@
+Tk gui to edit config data through config::model
+	
+config::model::tkui provides a perl/tk interface to:
+
+  - the configuration editor provided by config::model.
+  - the configuration model editor provided by config::model::itself
+
+
+for instance, with config::model::tkui, config::model and
+config::model::openssh, you get a graphical configuration editor for
+sshd_config.
+
+to get the graphical editor, just install config::model::tkui, and
+the config-edit command (provided by libconfig-model-perl) will
+automagically launch the graphical interface.

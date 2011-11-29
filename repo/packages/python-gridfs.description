@@ -1,0 +1,5 @@
+Python implementation of gridfs for mongodb
+	
+gridfs is a storage specification for large objects in mongodb.
+the python gridfs module is an implementation based
+on the pymongo module. it provides a file-like interface.

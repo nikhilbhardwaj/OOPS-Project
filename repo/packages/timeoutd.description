@@ -1,0 +1,17 @@
+Flexible user timeout daemon with x11 support
+	
+timeoutd enforces the time restrictions specified for each or all users.
+
+timeoutd scans /var/run/utmp every minute and checks /etc/timeouts for
+an entry which matches a restricted user, based on:
+
+
+ - the current day and time
+ - the tty that the user is currently logged in on
+ - the user's login id
+ - any primary or secondary groups the user is in
+
+timeoutd can restrict local users, x11-users and users via telnet/ssh
+for a maximum of their session, max. day, idle or no login at all.
+
+timeoutd is also able to restrict users running x.

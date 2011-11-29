@@ -1,0 +1,10 @@
+Flexi-streams: flexible bivalent streams for common lisp
+	
+flexi-streams implements "virtual" bivalent streams that can be layered
+atop real binary or bivalent streams and that can be used to read and
+write character data in various single- or multi-octet encodings which
+can be changed on the fly. it also supplies in-memory binary streams
+which are similar to string streams.
+
+flexi-streams is currently not optimized towards performance - it is
+rather intended to be easy to use and (if possible) to behave correctly.

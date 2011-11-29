@@ -1,0 +1,11 @@
+Tool to discover detailed information about apple ipods
+	
+podsleuth is a tool to discover detailed model information about an apple (tm)
+ipod (tm). its primary role is to be run as a callout by hal because root
+access is needed to scan the device for required information. when the model
+information is discovered, it is merged into hal as properties for other
+applications to use.
+
+with podsleuth installed, applications can expect to have rich ipod (tm)
+metadata merged into the device tree on the ipod data volume node. podsleuth
+metadata properties are in the org.banshee-project.podsleuth namespace.

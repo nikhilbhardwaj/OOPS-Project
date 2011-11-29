@@ -1,0 +1,6 @@
+Fast alternative to dpkg -l and dpkg -s
+	
+uses gnu grep and text dumps of dpkg's data to greatly speed up finding out which
+package a file belongs to (i.e. a very fast dpkg -s). many other uses,
+including options to view all files in a package, calculate disk space
+used, view and check md5sums, list man pages, etc.

@@ -1,0 +1,6 @@
+Execute commands setuid root
+	
+super allows specified users to execute scripts (or other commands)
+as if they were root; or it can set the uid and/or gid on a
+per-command basis before executing the command.  it is intended to be
+a secure alternative to making scripts setuid root.

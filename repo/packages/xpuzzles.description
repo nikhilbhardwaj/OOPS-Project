@@ -1,0 +1,13 @@
+Collection of puzzles for x (plain x version)
+	
+the following puzzles are included:
+
+
+ - rotational 3d puzzles: xrubik, xpyraminx, xoct, xskewb, xdino, xmball
+ - sliding block puzzles: xcubes, xtriangles, xhexagons, xpanex
+ - combination: xbarrel, xmlink
+
+
+this version was compiled without the motif gui widget library and thus
+shows limited user interface functionality. see xmpuzzles for the
+extended version.

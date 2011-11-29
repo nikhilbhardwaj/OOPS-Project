@@ -1,0 +1,17 @@
+Conservative garbage collector for c (development)
+	
+boehm's gc is a garbage collecting storage allocator that is
+intended to be used as a plug-in replacement for c's malloc.
+this package is required to compile and link programs that use
+libgc1.
+
+since the collector does not require pointers to be tagged, it does
+not attempt to ensure that all inaccessible storage is reclaimed.
+however it has typically been more successful at reclaiming unused
+memory than most c programs using explicit deallocation.  unlike
+manually introduced leaks, the amount of unreclaimed memory typically
+stays bounded.
+
+this version of the collector is thread safe, has c++ support, and uses the
+defaults for everything else.  particularly, it does not work as a malloc()
+replacement.

@@ -1,0 +1,10 @@
+Statically defined probes development files
+	
+this package contains header file and executable (dtrace) that
+can be used to add static probes into userspace applications
+for use with systemtap.
+
+systemtap provides infrastructure to simplify the gathering of
+information about the running linux system.
+
+to be able to write new systemtap probes, install systemtap package.

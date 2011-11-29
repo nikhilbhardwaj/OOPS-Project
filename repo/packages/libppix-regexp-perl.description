@@ -1,0 +1,6 @@
+Perl module to parse regular expressions
+	
+ppix::regexp is a perl module designed to parse regular expressions in a
+manner similar to the way that ppi parsers perl documents. this class forms
+the root of the parse tree, playing a role similar to ppi::document. like
+ppi, this module produces output which is round-trip safe.

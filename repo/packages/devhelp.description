@@ -1,0 +1,9 @@
+A gnome developers help program
+	
+devhelp's primary goal is to be an api documentation browser for gnome.
+it is able to scan for .devhelp files generated automatically for
+packages that use gtk-doc-tools to generate documentation for libraries
+and programs.
+
+devhelp provides bonobo functionality, which is used to allow command-line
+searches, emacs integration and embedding in applications like the anjuta ide.

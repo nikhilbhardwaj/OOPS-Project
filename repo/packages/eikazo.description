@@ -1,0 +1,11 @@
+Graphical frontend for sane designed for mass-scanning
+	
+eikazo is a graphical frontend for sane (scanner access now easy) designed
+for mass-scanning, especially with scanners equiped with and adf (automatic
+document feeder). its major goal is to be fast.
+
+eikazo uses a plugin mechanism for post-processing, storage and to
+support device-specific options and features.
+
+install the python-mysqldb or the python-pygresql packages if you intend
+to use the (demonstration) sql output plugin.

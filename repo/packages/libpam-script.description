@@ -1,0 +1,6 @@
+Pam module which allows executing a script
+	
+this module will allow you to execute scripts during authorization,
+password changes and sessions. this is very handy if your current
+security application has no pam support but is accessible with
+perl or other scripts.

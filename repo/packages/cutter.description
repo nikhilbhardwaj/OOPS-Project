@@ -1,0 +1,5 @@
+Disconnect routed ip connections
+	
+cutter will send packets to both ends of a tcp/ip connection to close
+the connection.  it is designed to be used on a linux router to disconnect
+unwanted connections.

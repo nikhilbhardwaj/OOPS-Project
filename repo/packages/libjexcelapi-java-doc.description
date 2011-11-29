@@ -1,0 +1,13 @@
+Java api to read, write and modify excel spreadsheets - documentation
+	
+the java excel api is an open source java api which allows java developers to
+read excel spreadsheets and to generate excel spreadsheets dynamically. in
+addition, it contains a mechanism which allows java applications to read in a
+spreadsheet, modify some cells and write out the new spreadsheet.
+
+this api allows non windows operating systems to run pure java applications
+which can both process and deliver excel spreadsheets. because it is java,
+this api may be invoked from within a servlet, thus giving access to excel
+functionality over internet and intranet web applications.
+
+this package contains api documentation (javadoc) for java excel api.

@@ -1,0 +1,8 @@
+X86 virtualization solution - virtual filesystem
+	
+virtualbox is a free x86 virtualization solution allowing a wide range
+of x86 operating systems such as windows, dos, bsd or linux to run on a
+linux system.
+
+this package provides a fuse-based vfs (virtual filesystem) to mount a
+virtualbox disk so all partitions can be loop-mounted.

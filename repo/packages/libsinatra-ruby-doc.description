@@ -1,0 +1,12 @@
+Ruby web-development dressed in a dsl (documentation)
+	
+sinatra is an open source web framework for ruby programming language.
+it provides simple domain specific language (dsl) for defining restful
+http actions, and then defining how the application is going to respond
+to them.
+
+this framework is lighweight and uses rack which is a web server
+interface developed to run many ruby frameworks using the same stack.
+
+this is the documentation package, with upstream documentation, as well as
+generated rdoc.

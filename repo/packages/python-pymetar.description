@@ -1,0 +1,11 @@
+Python interface to metar reports
+	
+the pymetar python interface provides full and easy to use access to the
+metar reports available from the noaa (national oceanic and atmospheric
+administration, http://www.noaa.gov).
+
+metar (meteorological aviation report) is the international standard code
+format for hourly surface weather observations.
+
+this package consists of the python library itself and a command line tool for
+end users.

@@ -1,0 +1,10 @@
+Recover files/disks with damaged sectors
+	
+this program will help you recover disks with bad sectors. you can recover
+files as well complete devices. in case if finds sectors which simply cannot be
+recoverd, it writes an empty sector to the outputfile and continues.
+
+if you're recovering a cd or a dvd and the program cannot read the sector in
+"normal mode", then the program will try to read the sector in "raw mode"
+(without error-checking etc.). this toolkit also has a utility called
+'mergebad' which merges multiple images into one.

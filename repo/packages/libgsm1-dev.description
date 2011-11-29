@@ -1,0 +1,20 @@
+Development libraries for a gsm speech compressor
+	
+this package contains header files and development libraries for
+libgsm, an implementation of the european gsm 06.10 provisional
+standard for full-rate speech transcoding, pri-ets 300 036, which
+uses rpe/ltp (residual pulse excitation/long term prediction) coding
+at 13 kbit/s.
+
+gsm 06.10 compresses frames of 160 13-bit samples (8 khz sampling
+rate, i.e. a frame rate of 50 hz) into 260 bits; for compatibility
+with typical unix applications, our implementation turns frames of 160
+16-bit linear samples into 33-byte frames (1650 bytes/s).
+the quality of the algorithm is good enough for reliable speaker
+recognition; even music often survives transcoding in recognizable
+form (given the bandwidth limitations of 8 khz sampling rate).
+
+the interfaces offered are a front end modelled after compress(1), and
+a library api.  compression and decompression run faster than realtime
+on most sparcstations.  the implementation has been verified against the
+etsi standard test patterns.

@@ -1,0 +1,19 @@
+Interpolated variable order motifs to identify horizontally acquired dna
+	
+alien_hunter is an application for the prediction of putative
+horizontal gene transfer (hgt) events with the implementation of
+interpolated variable order motifs (ivoms). an ivom approach
+exploits compositional biases using variable order motif distributions
+and captures more reliably the local composition of a sequence compared
+to fixed-order methods. optionally the predictions can be parsed into a
+2-state 2nd order hidden markov model (hmm), in a change-point detection
+framework, to optimize the localization of the boundaries of the
+predicted regions. the predictions (embl format) can be automatically
+loaded into artemis genome viewer freely available at:
+http://www.sanger.ac.uk/software/artemis/.
+
+the manuscript describing the alien_hunter algorithm is available
+from bioinformatics: interpolated variable order motifs for
+identification of horizontally acquired dna: revisiting the
+salmonella pathogenicity islands.  vernikos gs, parkhill j
+bioinformatics. 2006;. pmid: 16837528

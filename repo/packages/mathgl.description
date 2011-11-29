@@ -1,0 +1,9 @@
+Library for scientific graphs. (utlities and examples)
+	
+a free cross-platform library of fast c++ routines for plotting data in up
+to 3 dimensions. it can export plots to bitmaps and vector eps, svg, idtf
+files. there are simple window interfaces based on glut, fltk and/or qt.
+mathgl can also be used in the console. there are interfaces to a set of
+languages, such as, c, fortran, pascal, forth, python, octave.
+
+this package contains mathgl utilities and examples.

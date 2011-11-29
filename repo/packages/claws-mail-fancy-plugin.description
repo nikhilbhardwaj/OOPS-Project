@@ -1,0 +1,6 @@
+Html mail viewer using gtk+ webkit
+	
+this plugin for claws mail allows rendering of html email messages
+in the message window.
+
+it uses the gtk+ port of the webkit library to render html.

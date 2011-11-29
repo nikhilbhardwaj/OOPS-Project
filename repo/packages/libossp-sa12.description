@@ -1,0 +1,11 @@
+Abstraction library for the unix socket api
+	
+ossp sa is an abstraction library for the unix socket application
+programming interface (api) featuring stream and datagram oriented
+communication over unix domain and internet domain (tcp and udp)
+sockets. it provides the following key features: address abstraction
+(local, ipv4, and ipv6), type abstraction, i/o timeouts, i/o stream
+buffering and convenience i/o functions.
+
+more about the project can be found at
+http://www.ossp.org/pkg/lib/sa

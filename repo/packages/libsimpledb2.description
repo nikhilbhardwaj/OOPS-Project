@@ -1,0 +1,5 @@
+C++ odbc database api
+	
+the simpledb api is a c++ api designed to encapsulate the odbc api
+functionality in an object oriented manner. the api has been tested
+to work with both mysql and postgresql on a debian linux platform.

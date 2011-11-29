@@ -1,0 +1,19 @@
+A tool to create and diagnose osgi r4 bundles
+	
+the bnd tool helps you create and diagnose osgi r4 bundles.
+the key functions are:
+
+
+  * show the manifest and jar contents of a bundle
+  * wrap a jar so that it becomes a bundle
+  * create a bundle from a specification and a class path
+  * verify the validity of the manifest entries
+
+
+the tool is capable of acting as:
+
+
+  * command line tool
+  * eclipse plugin
+  * maven plugin
+  * ant plugin

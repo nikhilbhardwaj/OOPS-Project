@@ -1,0 +1,12 @@
+Alarm extension for banshee
+	
+banshee alarm extension is an extension for banshee which allows alarms to be
+set in banshee. supported features include:
+
+ * wake up time
+ * ascending volume alarm with configurable start and end volumes as well as
+   duration
+ * sleep timer
+
+
+banshee is a media management and playback application for the gnome desktop.

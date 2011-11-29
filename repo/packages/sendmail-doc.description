@@ -1,0 +1,18 @@
+Powerful, efficient, and scalable mail transport agent
+	
+sendmail is an alternative mail transport agent (mta) for
+debian. it is suitable for handling sophisticated mail
+configurations, although this means that its configuration
+can also be complex.
+
+don't try anything fancy in sendmail without using this for guidance.
+
+because of the complexity, you may find yourself wanting to peruse
+the documentation files included herein.  the main files are:
+
+  cf.readme.gz    -- a reference for all things in sendmail.{mc,cf}
+  op.{ps,txt}.gz  -- the care and feeding of sendmail.
+  faq.txt.gz      -- sendmail faq, current as of the package date.
+
+
+other files include the references for smrsh and libmilter.

@@ -1,0 +1,15 @@
+Documentation for libeclipselink-java
+	
+documentation for eclipse persistence services project, more commonly known
+as eclipselink, that is a java comprehensive persistence framework delivering
+a set of persistence services based around standards. this lets you rapidly
+build applications that combine the best aspects of object technology and
+the specific data source.
+
+eclipselink was started by a donation of the full source code and
+test suites of oracle's toplink product.
+
+eclipselink's services currently include object-relational with jpa,
+object-xml binding in moxy (with support for jaxb), a service data objects
+(sdo) implementation and support for another technologies like: database web
+services (dws), xml-relational (xrm) and non-relational (eis via jca).

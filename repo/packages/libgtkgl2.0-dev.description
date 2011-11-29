@@ -1,0 +1,8 @@
+Opengl context support for gtk+ (development files)
+	
+the gtkgl library provides gtkglarea (a gtk+ widget containing an opengl
+context for fast 2d and 3d graphics), gdkglpixmap (an off-screen rendering
+context) and gdkglcontext (an opengl extension for virtually any drawable
+widget).
+
+this package contains the headers and static library.

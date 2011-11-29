@@ -1,0 +1,14 @@
+Gnu r package for structural change regression estimation
+	
+this package functions for testing, dating and monitoring of
+structural change in linear regression relationships. the strucchange
+package features tests/methods from the generalized fluctuation test
+framework as well as from the f test (chow test) framework. this
+includes methods to fit, plot and test fluctuation processes (e.g.,
+cusum, mosum, recursive/moving estimates) and f statistics,
+respectively.  it is possible to monitor incoming data online using
+fluctuation processes.
+
+finally, the breakpoints in regression models with structural changes
+can be estimated together with confidence intervals.  emphasis is
+always given to methods for visualizing the data.

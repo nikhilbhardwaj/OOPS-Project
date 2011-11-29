@@ -1,0 +1,8 @@
+Architecture independent files for atomix
+	
+this package contains all the files which atomix places under /usr/share,
+which are not specific to any single processor architecture once the
+package is build, so a single package can serve all the architectures
+debian supports.
+
+this package is not useful at all if atomix is not installed.

@@ -1,0 +1,4 @@
+PackageId:25165
+Name:mysqmail-dovecot-logger
+Version:0.4.9-7
+Deps:dovecot-imapd,dovecot-pop3d,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdotconf1.0,libmysqlclient16,lsb-base,mysqmail

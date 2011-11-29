@@ -1,0 +1,16 @@
+Documentation for jmock2
+	
+mock objects help you design and test the interactions between the objects in
+your programs.
+the jmock library:
+
+ * makes it quick and easy to define mock objects, so you don't break the
+   rhythm of programming.
+ * lets you precisely specify the interactions between your objects, reducing
+   the brittleness of your tests.
+ * works well with the autocompletion and refactoring features of your ide
+ * plugs into your favourite test framework
+ * is easy to extend.
+
+
+this is the api documentation for jmock2

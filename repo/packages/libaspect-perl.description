@@ -1,0 +1,12 @@
+Module for aspect-oriented programming in perl
+	
+aspect-oriented programming (aop) is a programming method developed by xerox
+parc and others. the basic idea is that in complex class systems there are
+certain aspects or behaviors that cannot normally be expressed in a coherent,
+concise and precise way. one example of such aspects are design patterns,
+which combine various kinds of classes to produce a common type of behavior.
+another is logging. for more information, see <url:http://www.aosd.net>.
+
+the perl aspect module is focused on subroutine matching and wrapping. it
+allows you to select collections of subroutines using a flexible pointcut
+language, and modify their behavior in any way you want.

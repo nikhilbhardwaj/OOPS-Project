@@ -1,0 +1,6 @@
+Library to mix shell scripting with haskell programs
+	
+hsh is designed to let you mix and match shell expressions with
+haskell programs. with hsh, it is possible to easily run shell
+commands, capture their output or provide their input, and pipe them
+to/from other shell commands and arbitrary haskell functions at will.

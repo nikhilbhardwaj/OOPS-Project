@@ -1,0 +1,18 @@
+Jdee, java development environment for emacs(en)
+	
+the java development environment for emacs (jdee) is an add-on emacs lisp
+package that interfaces emacs to third-party java application development
+tools, such as those provided by javasoft's java development kit (jdk).
+the result is an integrated development environment (ide) comparable in
+power to many commercial java ides. features include:
+
+ - source code editing with syntax highlighting and auto indentation
+ - compilation with automatic jump from error messages to responsible line
+   in the source code.
+ - run java application in an interactive (comint) emacs buffer
+ - integrated debugging with interactive debug command buffer and automatic
+   display of current source file/line when stepping through code
+ - browse jdk doc, using the browser of your choice
+ - browse your source code, using the emacs etags facility or a
+   tree-structured speedbar.
+ - easily and infinitely customizable

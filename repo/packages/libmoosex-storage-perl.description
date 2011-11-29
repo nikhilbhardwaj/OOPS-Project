@@ -1,0 +1,5 @@
+Serialization framework for moose classes
+	
+moosex::storage is a serialization framework for moose classes. it provides a
+flexible and highly pluggable way to serialize moose classes to a number of
+different formats and styles.

@@ -1,0 +1,13 @@
+Bonobo corba interfaces library -- development files
+	
+bonobo is a set of language and system independent corba interfaces
+for creating reusable components, controls and creating compound
+documents.
+
+the bonobo distribution includes a gtk+ based implementation of the
+bonobo interfaces, enabling developers to create reusable
+components and applications that can be used to form more complex
+documents.
+
+this package contains the headers and development libraries needed to
+build applications using bonobo.

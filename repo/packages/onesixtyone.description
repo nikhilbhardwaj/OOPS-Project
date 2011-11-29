@@ -1,0 +1,11 @@
+Fast and simple snmp scanner
+	
+onesixtyone is a simple snmp scanner which sends snmp requests for the
+sysdescr value asynchronously with user-adjustable sending times and
+then logs the responses which gives the description of the software
+running on the device.
+
+running onesixtyone on a class b network (switched 100mbs with 1gbs
+backbone) with -w 10 gives a performance of 3 seconds per class c, with
+no dropped packets, and all 65536 ip addresses were scanned in less than
+13 minutes.

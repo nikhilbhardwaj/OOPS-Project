@@ -1,0 +1,4 @@
+Postgresql output plugin for rsyslog
+	
+this plugin allows rsyslog to write the syslog messages into a postgresql
+database.

@@ -1,0 +1,10 @@
+Utility class for dealing with mime types
+	
+provide functionality for dealing with mime types:
+
+ * parse mime type.
+ * supports full rfc2045 specification.
+ * many utility functions for working with and determining info about types.
+ * most functions can be called statically.
+ * autodetect a files mime-type, either with fileinfo extension,
+ mime_magic extension, the file command or an in-built mapping list

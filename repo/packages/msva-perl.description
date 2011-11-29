@@ -1,0 +1,7 @@
+Cryptographic identity validation agent (perl implementation)
+	
+the monkeysphere validation agent offers a local service for tools to
+validate certificates (both x.509 and openpgp) and other public keys.
+
+this package contains a perl implementation of a monkeysphere
+validation agent.

@@ -1,0 +1,8 @@
+A c and c++ compiler and checker using tdf/andf
+	
+tendra is a free c/c++ compiler built around the tdf/andf format
+which provides strict conformance checks for a range of apis.
+among those currently supported are ansi and iso c, posix 1 & 2,
+system v, unix95, xpg3 and xpg4.
+
+c++ support is extremely limited in this release.

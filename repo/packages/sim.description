@@ -1,0 +1,28 @@
+Simple instant messenger (kde)
+	
+sim-im is a simple and powerful multi-protocol instant messenger.
+
+some of the features:
+
+ * supported protocols: icq, jabber, msn, aim,
+   yahoo!, livejournal;
+ * receiving and sending sms;
+ * server-side contact list;
+ * receiving and the sending messages in rtf-format;
+ * phone directory support;
+ * file transfers;
+ * chat;
+ * support miranda icon themes;
+ * spam filter;
+ * secure direct connection with sim and l-icq;
+ * gpg encryption using gnupg;
+ * message or chat mode for user window;
+ * on-screen display notification about messages and user status;
+ * sending of the messages to several users;
+ * proxy: http/https, socks4, socks5.
+
+
+
+ this package is compiled with kde support.
+ see the 'kde' package for more information about kde.
+ if you do not have kde installed then install sim-qt package instead.

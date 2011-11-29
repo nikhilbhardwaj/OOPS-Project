@@ -1,0 +1,4 @@
+PackageId:7540
+Name:initrd-kickseed
+Version:0.55
+Deps:cdebconf-udeb,di-utils,kickseed-common,preseed-common

@@ -1,0 +1,9 @@
+Parser for the irc protocol
+	
+poe::filter::ircd is a perl module that provides a convenient way of creating
+and parsing internet relay chat (irc) protocol commands using the perl object
+environment (poe) framework.
+
+this module provides the basic parsing engine for various modules, including
+poe::component::irc and poe::component::server::irc. a standalone version is
+available as parse::irc.

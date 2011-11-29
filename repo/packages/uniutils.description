@@ -1,0 +1,22 @@
+Tools for finding out what is in a unicode file
+	
+useful tools when working with unicode files when one doesn't know
+the writing system, doesn't have the necessary font, needs to inspect
+invisible characters, needs to find out whether characters have been
+combined or in what order they occur, or needs statistics on which
+characters occur.
+
+
+ * uniname defaults to printing the character offset of each character,
+   its byte offset, its hex code value, its encoding, the glyph itself,
+   and its name. it may also be used to validate utf-8 input.
+ * unidesc reports the character ranges to which different portions of the
+   text belong. it can also be used to identify unicode encodings
+   (e.g. utf-16be) flagged by magic numbers.
+ * unihist generates a histogram of the characters in its input.
+ * explicateutf8 is intended for debugging or for learning about unicode.
+   it determines and explains the validity of a sequence of bytes as a utf8
+   encoding.
+ * utf8lookup provides a handy way to look up unicode characters from the
+   command line.
+ * unireverse reverse each line of utf-8 input character-by-character.

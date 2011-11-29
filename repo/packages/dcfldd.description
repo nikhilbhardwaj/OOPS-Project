@@ -1,0 +1,22 @@
+Enhanced version of dd for forensics and security
+	
+based on the dd program with the following additional features:
+
+
+ - hashing on-the-fly, dcfldd can hash the input data as it is being
+   transferred, helping to ensure data integrity.
+ - status output, dcfldd can update the user of its progress in terms of the
+   amount of data transferred and how much longer operation will take.
+ - flexible disk wipes, dcfldd can be used to wipe disks quickly and with a
+   known pattern if desired.
+ - image/wipe verify, dcfldd can verify that a target drive is a bit-for-bit
+   match of the specified input file or pattern.
+ - multiple outputs, dcfldd can output to multiple files or disks at the same
+   time.
+ - split output, dcfldd can split output to multiple files with more
+   configurability than the split command.
+ - piped output and logs, dcfldd can send all its log data and output to
+   commands as well as files natively.
+
+
+homepage: http://dcfldd.sourceforge.net/

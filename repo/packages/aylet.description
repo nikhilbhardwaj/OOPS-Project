@@ -1,0 +1,12 @@
+Ncurses-based player for spectrum '.ay' music files
+	
+aylet plays music files in the `.ay' format. these files are
+essentially wrappers around bits of z80 code which play music on the
+sinclair zx spectrum 128's sound hardware - either the beeper, or
+(eponymously) the ay-3-8912 sound chip. files using the amstrad cpc
+ports are also supported.
+
+one source of `.ay' files playable with aylet is "project ay"
+on the world of spectrum website:
+
+http://www.worldofspectrum.org/

@@ -1,0 +1,6 @@
+Perl interface to touch-like functions
+	
+file::touch lets you update access and modification timestamps, creating
+nonexistent files where necessary. it also allows you to only modify one of
+the stamps, choose to not create nonexistent files, and use timestamps from
+a different file.

@@ -1,0 +1,7 @@
+Flowanalysis extension for mono.cecil
+	
+cecil.flowanalysis is an extension for the cecil cil-mangling library
+which enhances the ability to read back and analyse program execution
+patterns and flow.
+
+this package contains the cecil.flowanalysis library itself

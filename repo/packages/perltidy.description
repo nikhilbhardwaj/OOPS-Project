@@ -1,0 +1,13 @@
+Perl script indenter and reformatter
+	
+perltidy is a perl script which indents and reformats perl
+scripts to make them easier to read.
+
+the formatting can be controlled with command line parameters.
+the default parameter settings approximately follow the
+suggestions in the perl style guide.
+
+perltidy can also generate formatted html output from pod, and can
+even generate colored output in html for scripts. see examples at
+http://perltidy.sourceforge.net/
+.

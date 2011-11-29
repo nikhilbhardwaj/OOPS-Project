@@ -1,0 +1,7 @@
+Stretches and pitch-shifts sound independently
+	
+this program can strech and pitch-shift .wav-files independently.
+this is especially useful for musicians, who want to listen to a song
+played slowly, without having the pitch altered.
+
+this program uses libsoundtouch for the actual work

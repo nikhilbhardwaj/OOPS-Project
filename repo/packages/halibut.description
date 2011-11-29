@@ -1,0 +1,11 @@
+Yet another free document preparation system
+	
+this is yet another text formatting system, intended primarily for writing
+software documentation. it accepts a single source format and outputs any
+or all of text, html, windows help, man pages, gnu info, postscript, or
+pdf. it has comprehensive indexing and cross-referencing support, and
+generates hyperlinks within output documents wherever possible. it supports
+unicode, with the ability to fall back to an alternative representation
+when unicode output is not available.
+
+home page: http://www.chiark.greenend.org.uk/~sgtatham/halibut.html

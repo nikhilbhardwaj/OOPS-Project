@@ -1,0 +1,7 @@
+An advanced ident daemon
+	
+ident2 is an advanced, configurable ident daemon. you can set it to lie,
+not lie, or not return any response at all, and it is per-user configurable
+(e.g. if user daniel was ircing, it'd use ~daniel/.ident for its config, if
+user kim was ircing, it'd use ~kim/.ident). the admin can specify whether
+users can configure the type of return they want or not.

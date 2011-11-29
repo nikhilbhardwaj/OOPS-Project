@@ -1,0 +1,13 @@
+Perl pragma to make certain failures fatal
+	
+autodie is a perl pragma that changes the behaviour of many built-in functions
+so that exceptions are thrown on failure rather than simply returning a false
+value. it understands lexical scope, meaning functions and subroutines altered
+with this module will only have this behaviour until the end of the enclosing
+eval, file or block, so it is useful when some code is out of your control.
+
+by throwing exceptions on failure rather than simply returning false, programs
+are more robust and problems are easier to troubleshoot.
+
+this module can also use ipc::system::simple (see libipc-system-simple-perl)
+to do all the heavy lifting.

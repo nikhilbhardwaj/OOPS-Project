@@ -1,0 +1,11 @@
+Excel(tm) style formula expressions library
+	
+libformula provides excel-style-expressions. the implementation provided
+here is very generic and can be used in any application that needs to
+compute formulas.
+
+the syntax is based on the openformula-specifications, but with carefully
+pruning away all the spreadsheet specific parts (like references to
+cell-ranges).
+
+this package contains the javadoc.

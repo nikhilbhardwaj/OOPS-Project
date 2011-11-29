@@ -1,0 +1,11 @@
+A 3d chess game
+	
+dreamchess features 3d opengl graphics and provides various chess board sets,
+ranging from classic wooden to flat.
+
+a moderately strong chess engine is included: dreamer. however, should this
+engine be too weak for you, then you can use any other xboard-compatible chess
+engine, including the popular crafty and gnu chess.
+
+other features include on-screen move lists using san notation, undo
+functionality, and savegames in pgn format.

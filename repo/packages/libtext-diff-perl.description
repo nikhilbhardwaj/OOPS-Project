@@ -1,0 +1,8 @@
+Perl module to find differences in files and record sets
+	
+text::diff provides a basic functions similar to the gnu diff utility. it is
+not anywhere near as feature complete as gnu diff, but is better integrated
+with perl and available on all platforms. it is often faster than shelling
+out to a system's diff executable for small files, and generally slower on
+larger files. while it is not guaranteed to produce the same output as the
+system diff command, output is often identical.

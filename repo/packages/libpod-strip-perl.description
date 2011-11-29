@@ -1,0 +1,7 @@
+Remove pod documentation from perl code
+	
+pod::strip is a subclass of pod::simple that removes the pod (plain old
+documentation) from perl code. the pod may optionally be replaced with
+comments so that line numbers of the code stay the same.
+
+pod::strip is useful in perl code parsers that don't want to bother about pod.

@@ -1,0 +1,5 @@
+A library to parse rfc 2425 directory information blocks
+	
+rfc 2425 defines a mime content-type for directory information.
+this library contains necessary methods to parse information blocks arranged
+in such a manner.

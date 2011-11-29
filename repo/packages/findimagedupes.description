@@ -1,0 +1,7 @@
+Finds visually similar or duplicate images
+	
+findimagedupes is a commandline utility which performs a rough
+"visual diff" to two images. this allows you to compare two
+images or a whole tree of images and determine if any are
+similar or identical. on common image types, findimagedupes
+seems to be around 98% accurate.

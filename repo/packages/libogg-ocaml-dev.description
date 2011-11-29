@@ -1,0 +1,7 @@
+Ocaml bindings for the ogg bitstream library
+	
+libogg is a library for manipulating ogg bitstreams. it handles
+both making ogg bitstreams and getting packets from ogg bitstreams.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use ogg.

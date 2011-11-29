@@ -1,0 +1,6 @@
+Citation parsing framework
+	
+biblio::citation::parser provides generic methods for reference parsers. this
+class should not be used directly, but rather be overridden by specific
+parsers. parsers that extend the parser class must provide at least the two
+methods defined here to ensure compatibility.

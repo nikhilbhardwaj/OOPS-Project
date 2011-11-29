@@ -1,0 +1,7 @@
+The gnu binary utilities, for h8300-hitachi-coff target
+	
+this package provides gnu assembler, linker and binary utilities
+for h8300-hitachi-coff target, for use in a cross-compilation environment.
+
+you don't need this package unless you plan to cross-compile programs
+for h8300-hitachi-coff.

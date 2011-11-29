@@ -1,0 +1,34 @@
+Tex live: extra generic packages
+	
+extra packages that work with multiple formats, typically both tex and
+
+  latex.
+
+
+this package includes the following ctan packages:
+
+ abbr -- simple macros supporting abreviations for plain and latex.
+ abstyles -- adaptable bibtex styles.
+ barr -- diagram macros by michael barr.
+ borceux -- diagram macros by francois borceux.
+ c-pascal -- typeset python, c and pascal programs.
+ colorsep -- color separation.
+ dinat -- bibliography style for german texts.
+ dirtree -- display trees in the style of windows explorer.
+ eijkhout -- victor eijkhout's packages.
+ encxvlna -- insert nonbreakable spaces, using enctex.
+ fenixpar -- one-shot changes to token registers such as \everypar.
+ fltpoint -- simple floating point arithmetic.
+ insbox -- a tex macro for inserting pictures/boxes into paragraphs.
+ mathdots -- commands to produce dots in math that respect font size.
+ metatex -- incorporate metafont pictures in tex source.
+ mftoeps --
+ midnight -- a set of useful macro tools.
+ multi --
+ ofs -- macros for managing large font collections.
+ pdf-trans -- a set of macros for various transformations of tex boxes.
+ shade -- shade pieces of text.
+ tabto-generic -- "tab" to a measured position in the line.
+ vrb -- verbatim macros in plain tex.
+ vtex --
+ xlop -- calculates and displays arithmetic operations.

@@ -1,0 +1,6 @@
+Library for efficiently solving the nearest neighbor problem
+	
+neartree is an api and a library for finding nearest neighbors among
+points in spaces of arbitrary dimensions. this package provides a c++
+template, tnear.h, and c library and header files for compiling
+programs using neartree.

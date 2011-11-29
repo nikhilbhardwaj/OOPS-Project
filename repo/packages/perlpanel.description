@@ -1,0 +1,13 @@
+Lean menu and launcher panel written in perl and gtk2
+	
+perlpanel draws a small taskbar on your screen to display some useful widgets
+like a programs menu, some shortcut icons, a system tray and so on. it's
+similar to the windows taskbar, the gnome panel, and kde's kicker.
+
+perlpanel is completely independent of any particular environment. you can
+use it with any window manager, without need for one of the big desktop
+environments.
+
+you can create your own applets to show and do whatever you need using
+perl and the gtk2 bindings for it. it's no problem to run several perlpanels
+at the same time.

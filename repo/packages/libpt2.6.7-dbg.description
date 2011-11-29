@@ -1,0 +1,8 @@
+Portable tools library development debug files
+	
+this package contains the shared and static debug symbols of the library
+ptlib, which is a moderately large class library that has its genesis
+many years ago as a method to produce applications to run on both
+microsoft windows and unix x-window systems.  this is not the debug compiled
+version of ptlib which would yield much more detailled information as a
+compromise of benefit and compile power consumption.

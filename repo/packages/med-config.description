@@ -1,0 +1,32 @@
+Debian med general config package
+	
+this package provides the basic infrastructure of all med-* packages and is
+needed by them.
+
+this package provides some files which are common to all med-* packages.
+moreover it introduces a method to handle system users in a group
+med using debconf.
+
+other packages in debian med project are:
+
+
+ * med-bio         biological research
+ * med-bio-dev     developing applications in biological research
+ * med-cloud       command line biol. applications for cloud computing
+ * med-data        drug databases
+ * med-epi         epidemiology
+ * med-imaging     image processing
+ * med-imaging-dev developing applications for image processing
+ * med-pharmacy    pharmaceutical research
+ * med-physics     radiation oncology, diagnostic imaging, related fields
+ * med-practice    general practitioners
+ * med-psychology  psychological research
+ * med-statistics  miscellaneous tools medical for statistics
+ * med-tools       contains miscellaneous tools
+ * med-typesetting depends from useful tools for typesetting
+
+
+note: all these packages are so called metapackages. this means they are not
+executable programs, but only links to other packages. this way you will
+conveniently get all the non-commercial medical software which is available
+for debian gnu/linux.

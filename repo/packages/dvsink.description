@@ -1,0 +1,7 @@
+Programs to sink streams from dvswitch
+	
+this packages provides two sinks for dvswitch:
+
+dvsink-command runs a command with the dv stream on its standard input.
+
+dvsink-files stores dv frames in files named according to a pattern.

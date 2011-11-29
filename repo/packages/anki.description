@@ -1,0 +1,17 @@
+Extensible flashcard learning program
+	
+anki is a program designed to help you remember facts (such as words and
+phrases in a foreign language) as easily, quickly and efficiently as possible.
+to do this, it tracks how well you remember each fact, and uses that
+information to optimally schedule review times.
+
+besides text, it supports sounds, images and rendering tex snippets in the
+cards.  it can synchronize card decks to a server so that you can review the
+deck on other computers, a web interface or mobile devices, for which versions
+of anki are also available.  complete card decks offered by other users can be
+downloaded the same way.
+
+anki is extensible with plugins which can be downloaded and installed from
+the menu.  while anki can be used for studying anything, plugins are available
+with special features designed to make studying japanese and english easier:
+integrated dictionary lookups, missing kanji reports, and more.

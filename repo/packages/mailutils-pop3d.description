@@ -1,0 +1,11 @@
+Gnu mailutils-based pop3 daemon
+	
+the gnu mailutils pop3 daemon supports the basic pop3 protocol with the
+capa, resp-codes, pipelining and uidl extensions. it also supports apop
+authentication. the user credentials for apop can be stored in a variety
+of dbm formats. it is able to get the authentication information from
+the system user database as well as from a sql database of arbitrary
+structure. the pam framework can also be used for authentication
+purposes. additionally, mailutils pop3d supports virtual mail domains and
+has tls support via gnutls. gnu mailutils supports the mbox, mh and
+maildir mailbox formats.

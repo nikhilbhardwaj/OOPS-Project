@@ -1,0 +1,6 @@
+Documentation for haskell oauth library
+	
+hoauth implements all plaintext, hmac-sha1 and rsa-sha1
+signatures as defined in the specification 1.0.
+
+this package provides the api documentation for hoauth.

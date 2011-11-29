@@ -1,0 +1,7 @@
+Tools for cross compiling debian packages
+	
+dpkg-cross is a tool for installing libraries and headers for
+cross compiling in a way similar to dpkg. supports enhanced
+functionality of 'dpkg-buildpackage -a' when cross compiling.
+
+includes support for transitioning to a multiarch environment.

@@ -1,0 +1,10 @@
+Perl module to find information about codecs from its fourcc
+	
+video::fourcc::info finds information about a given four character code
+(fourcc).
+
+this code is a four-byte sequence embedded in video files that tells video
+players what algorithm is required to decode a given video stream. this
+detection scheme ensures that the detected codec format is independent of
+the file extension, which may be incorrect due to human error or for some
+other reason.

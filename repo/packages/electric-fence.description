@@ -1,0 +1,15 @@
+A malloc(3) debugger
+	
+electric fence is a debugger that uses virtual memory hardware to detect
+illegal memory accesses. it can detect two common programming bugs: software
+that overruns or underruns the boundaries of a malloc() memory allocation,
+and software that touches a memory allocation that has been released by
+free().
+
+unlike other malloc() debuggers, electric fence will detect read accesses as
+well as writes, and it will stop and pinpoint the exact instruction that
+causes an error. it is not as thorough as purify, however.
+
+in order to debug a program it needs to be linked with electric fence's
+library or dynamic linking needs to be used; readme.debian explains that in
+detail.

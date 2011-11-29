@@ -1,0 +1,7 @@
+Tcl extension for in-memory channels - runtime library
+	
+allows the creation of i/o channels, which store data in memory, not
+on disk. it implements the channel types fifo, null, random and
+zero; and provides a c api for creating custom memory channels.
+
+this package contains the runtime library to be used in tcl programs.

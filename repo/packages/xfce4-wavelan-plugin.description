@@ -1,0 +1,9 @@
+Wavelan status plugin for the xfce4 panel
+	
+the wavelan plugin displays information of a wavelan device.
+
+current features are:
+
+ - signal state: tells if a carrier signal was detected.
+ - signal quality: current quality of the carrier signal.
+ - network name: current ssid of the wavelan network.

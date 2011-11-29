@@ -1,0 +1,13 @@
+Plugin library for merb that provides helpers for assets
+	
+provides extra functionality related to assets:
+
+ * assets bundling.
+ * assets hosts.
+ * helpers to add asset links to views.
+ * deployment-time assets processing (for instance, with yui compressor).
+
+
+this package is a dependency package, which depends on the package
+containing actual ruby merb-assets libraries for the default ruby version
+(currently 1.8).

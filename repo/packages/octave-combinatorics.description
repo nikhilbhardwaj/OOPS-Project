@@ -1,0 +1,8 @@
+Combinatorics function for octave
+	
+this package provides functions to work with combinatorics in octave,
+a numerical computation software.  it contains functions for doing
+integer partitioning (partcnt and partint), as well as for computing
+the combinations of arbitrary sets of values (combs).
+
+this octave add-on package is part of the octave-forge project.

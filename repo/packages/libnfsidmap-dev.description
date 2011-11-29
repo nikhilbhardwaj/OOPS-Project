@@ -1,0 +1,7 @@
+Header files and docs for libnfsidmap
+	
+contains the header files and documentation for libnfsidmap
+for use in developing applications that use the libnfsidmap library.
+
+libnfsidmap provides functions to map between nfsv4 names (which are
+of the form user@domain) and local uid's and gid's.

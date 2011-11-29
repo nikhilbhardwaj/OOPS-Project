@@ -1,0 +1,9 @@
+Stretch functions for simple directmedia layer
+	
+this library provides stretch and blit routines for sdl surfaces.
+these are optimized for speed including lots of assembler parts
+in the general routines and dynamic cpu native code generation
+for applications to compile specialized stretch-and-blit routines
+at runtime.
+
+this package contains the sdl_stretch runtime library.

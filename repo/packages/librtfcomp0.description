@@ -1,0 +1,6 @@
+Library to read compressed rtf files
+	
+can decompress and recompress compressed rtf and convert from
+utf8 to rtf for use in things like the airsync protocols.
+
+this package contains the shared object library files.

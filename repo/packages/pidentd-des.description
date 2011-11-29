@@ -1,0 +1,4 @@
+Compatibility package for pidentd
+	
+this package exists so that users of the pidentd-des package can upgrade to
+the new pidentd which replaces it.  you can remove this package.

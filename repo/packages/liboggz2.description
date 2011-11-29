@@ -1,0 +1,18 @@
+Convenience interface for ogg stream i/o
+	
+oggz provides a simple programming interface for reading and writing
+ogg files and streams.
+
+liboggz supports the flexibility afforded by the ogg file format while
+presenting the following api niceties:
+
+
+ * strict adherence to the formatting requirements of ogg bitstreams,
+   to ensure that only valid bitstreams are generated.
+ * a simple, callback based open/read/close or open/write/close interface
+   to raw ogg files.
+ * a customisable seeking abstraction for seeking on multitrack ogg data.
+ * a packet queue for feeding incoming packets for writing, with callback
+   based notification when this queue is empty.
+ * a handy table structure for storing information on each logical
+   bitstream.

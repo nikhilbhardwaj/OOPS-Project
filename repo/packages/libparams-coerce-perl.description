@@ -1,0 +1,5 @@
+Perl module to permit parameter coercion for classes
+	
+params::coerce attempts to encourage flexibility in the ways that your class
+accepts parameters by making it easier to take different types of parameters,
+while adding negligible additional complexity to your code.

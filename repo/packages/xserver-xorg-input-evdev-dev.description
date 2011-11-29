@@ -1,0 +1,12 @@
+X.org x server -- evdev input driver (development headers)
+	
+this package provides the development headers for the evdev input driver
+found in xserver-xorg-input-evdev. non-developers likely have little use
+for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xf86-input-evdev driver module.

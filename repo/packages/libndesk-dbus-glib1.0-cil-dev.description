@@ -1,0 +1,14 @@
+Cli implementation of d-bus (glib mainloop integration)
+	
+ndesk-dbus is a c# implementation of d-bus. it's often referred to as
+"managed d-bus" to avoid confusion with existing bindings (which wrap
+libdbus).
+
+d-bus is a message bus, used for sending messages between
+applications.  conceptually, it fits somewhere in between raw sockets
+and corba in terms of complexity.
+
+this package provides integration into the glib mainloop.
+
+this package provides development files for the ndesk-dbus-glib library,
+and should be used for compilation.

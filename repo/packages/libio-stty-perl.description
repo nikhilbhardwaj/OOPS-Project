@@ -1,0 +1,4 @@
+Interface to secure pseudo ttys
+	
+this is a generic interface to handle secure pseudo terminals by perl
+scripts, such as the expect library. this package provides io::stty.

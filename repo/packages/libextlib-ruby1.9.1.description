@@ -1,0 +1,8 @@
+General ruby 1.9.1 class extensions for datamapper and merb
+	
+this library provides a number of lightweight ruby class extensions
+extracted from datamapper. examples include a mash class, which is a
+hash with indifferent access and an added blank? method to most
+standard variable classes.
+
+this package contains extlib libraries for ruby 1.9.1.

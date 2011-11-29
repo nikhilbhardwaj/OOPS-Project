@@ -1,0 +1,6 @@
+Simple irc bot baseclass
+	
+basic bot system designed to make it easy to do simple bots, optionally
+forking longer processes (like searches) concurrently in the background.
+
+designed primarily to be used as a superclass for other programs.

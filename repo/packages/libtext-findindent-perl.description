@@ -1,0 +1,8 @@
+Module to heuristically determine indentation style
+	
+text::findindent is a perl module that attempts to detect the underlying
+indentation "policy" for a text file (most likely a source code file). you
+give it a chunk of text, and it tells you if tabs, spaces or combination of
+both are used for indentation.
+
+it honours vim midelines and emacs local variables settings.

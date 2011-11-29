@@ -1,0 +1,21 @@
+Adaptive poisson boltzmann solver
+	
+apbs is a software package for the numerical solution of the
+poisson-boltzmann equation (pbe), one of the most popular continuum
+models for describing electrostatic interactions between molecular
+solutes in salty, aqueous media.  continuum electrostatics plays an
+important role in several areas of biomolecular simulation, including:
+
+
+  * simulation of diffusional processes to determine ligand-protein and
+    protein-protein binding kinetics,
+  * implicit solvent molecular dynamics of biomolecules ,
+  * solvation and binding energy calculations to determine
+    ligand-protein and protein-protein equilibrium binding constants
+    and aid in rational drug design,
+  * and biomolecular titration studies.
+
+
+apbs was designed to efficiently evaluate electrostatic properties for
+such simulations for a wide range of length scales to enable the
+investigation of molecules with tens to millions of atoms.

@@ -1,0 +1,6 @@
+Unicode/euc-jp translation module for ruby 1.9.1
+	
+the encoding translation module for the object-oriented scripting language
+ruby 1.9.1.  supported character encodings are ucs-4, utf-16, utf-8, euc-jp
+and cp932 (a variant of shift_jis for japanese windows).  this cannot
+detect character encoding automatically.

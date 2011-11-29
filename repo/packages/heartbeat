@@ -1,0 +1,4 @@
+PackageId:6763
+Name:heartbeat
+Version:1:3.0.3-2
+Deps:adduser,cluster-agents,cluster-glue,gawk,iproute,iputils-ping,libbz2-1.0,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcluster-glue,libcorosync4,libglib2.0-0,libgnutls26,libheartbeat2,libltdl7,libpam-runtime,libpam0g,libuuid1,libxml2,libxml2-utils,mawk,psmisc,python,python-central,zlib1g

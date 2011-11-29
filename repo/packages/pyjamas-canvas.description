@@ -1,0 +1,16 @@
+Pyjamas python port of gwtcanvas svg library
+	
+pyjamas is a stand-alone python to javascript compiler, an ajax
+framework / library and a desktop-like widget set.
+
+this package contains a port of the gwt canvas library, to pyjamas.
+written in pure python, it can be used to create scalable vector
+graphics applications in either a user's web browser (compiled to javascript),
+or as a desktop application under pyjamas-desktop.
+
+an online demo is here:
+http://pyjs.org/examples/gwtcanvas/output/gwtcanvasdemo.html
+
+please note: pyjamas-canvas is experimental but functional, and does not yet
+provide vml support (used exclusively by ie).  pyjamas-desktop (with the
+xulrunner backend), firefox and google chrome have been confirmed as working.

@@ -1,0 +1,5 @@
+Java plugin for freemind to export mindmaps to svg and pdf
+	
+this plugin will add two menu points 'file -> export -> svg-export' and
+'file -> export -> pdf-export'.
+the pdf export won't work without the recommended fop being installed.

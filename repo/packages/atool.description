@@ -1,0 +1,11 @@
+A tool for managing file archives of various types
+	
+atool is a script for managing file archives of various types (tar,
+tar+gzip, zip etc). the main command is probably aunpack,
+extracting files from an archive. it overcomes the dreaded "multiple
+files in archive root" problem by first extracting to a unique
+subdirectory, and then moving back the files if possible. aunpack
+also prevents local files from being overwritten by mistake.
+
+other commands provided are apack (create archives), als (list files
+in archives), and acat (extract files to standard out).

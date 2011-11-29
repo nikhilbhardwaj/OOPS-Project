@@ -1,0 +1,6 @@
+Utility to optimize jpeg files
+	
+jpegoptim can optimize/compress jpeg files. program support
+lossless optimization, which is based on optimizing the huffman
+tables. so called, "lossy" optimization (compression) is done
+by re-encoding the image using user specified image quality factor.

@@ -1,0 +1,7 @@
+Embedded gnu c library: pic archive library
+	
+contains an archive library (ar file) composed of individual shared objects.
+this is used for creating a library which is a smaller subset of the
+standard libc shared library. the reduced library is used on the debian
+boot floppies. if you are not making your own set of debian boot floppies
+using the `boot-floppies' package, you probably don't need this package.

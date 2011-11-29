@@ -1,0 +1,8 @@
+A pam module to move a user session into a cgroup
+	
+control groups provide a mechanism for aggregating/partitioning sets of tasks,
+and all their future children, into hierarchical groups with specialized
+behaviour.
+
+this pam module will move a user session into an existing cgroup by attempting
+to match uid and gid against the defined cgroup rules configuration.

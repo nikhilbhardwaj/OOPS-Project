@@ -1,0 +1,8 @@
+Asynchronous replication system for postgresql
+	
+bucardo is an asynchronous postgresql replication system, allowing for both
+multi-master and multi-slave operations.
+
+bucardo uses pl/pgsql and pl/perlu triggers to send notification events to a
+daemon, which replicates the data modifications, and bucardo provides both
+standard and custom conflict resolution methods.

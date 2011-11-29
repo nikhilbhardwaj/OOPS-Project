@@ -1,0 +1,7 @@
+Handle uri templates in perl
+	
+this module provides a wrapper around uri templates as described at
+http://bitworking.org/projects/uri-templates/
+
+uri templates are strings that are transformed into uris after
+embedded variables are expanded.

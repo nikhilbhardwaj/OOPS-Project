@@ -1,0 +1,6 @@
+Mysql-based virtual host configuration for lighttpd
+	
+this package contains the myqsl_vhost module for lighttpd. with
+this module, it is possible to write the configuration for virtual
+hosts into a mysql table instead of including it in the lighttpd
+configuration file.

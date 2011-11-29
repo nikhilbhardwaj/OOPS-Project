@@ -1,0 +1,12 @@
+Infinote-based collaborative text editor (current)
+	
+gobby is an editor which allows to edit text documents and source files
+collaboratively over a network. all users could work on the file
+simultaneously without the need to lock it. the parts the various users
+write are highlighted in different colours and it supports syntax
+highlighting of various programming and markup languages.
+
+this package is *not* protocol-compatible to the old gobby 0.4.
+
+this package is a metapackage and depends on the most current stable
+client version if multiple versions are available.

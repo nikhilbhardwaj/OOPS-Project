@@ -1,0 +1,11 @@
+Thinkpad laptops battery status indicator for gkrellm
+	
+this plugin displays:
+
+ * power consumption
+ * time estimation
+ * remaining capacity percentage
+ * charging information
+
+
+tp_smapi kernel module is required as source of information about battery.

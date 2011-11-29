@@ -1,0 +1,6 @@
+Linux upnp internet gateway device
+	
+this is a daemon which emulates microsoft's internet connection service (ics).
+it implements the upnp internet gateway device specification (igd) and allows
+upnp aware clients, such as msn messenger or games consoles, to work
+properly from behind a nat firewall.

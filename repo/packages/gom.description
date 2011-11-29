@@ -1,0 +1,13 @@
+Command line and interactive ncurses-based oss audio mixer
+	
+gom is a command line mixer utility with optional built-in ncurses
+interactive interface.
+
+its main feature is an exhaustive command line interface that makes
+it ideal for scripting (e.g. for audio recording, running at user
+and/or system login time, setting/restoring of settings, etc).
+
+it supports oss only, so if you want to use it with alsa, you will
+need its oss-compatible modules. if you want to use all possible
+features of alsa however, you would need to use a mixer program
+dedicated for alsa.

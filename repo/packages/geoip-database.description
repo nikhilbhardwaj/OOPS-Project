@@ -1,0 +1,9 @@
+Ip lookup command line tools that use the geoip library (country database)
+	
+geoip is a c library that enables the user to find the country that any
+ip address or hostname originates from. it uses a file based database.
+
+this database simply contains ip blocks as keys, and countries as values and
+it should be more complete and accurate than using reverse dns lookups.
+
+this package contains the free geolitecountry database.

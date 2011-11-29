@@ -1,0 +1,15 @@
+Scalable cyrillic fonts for tex
+	
+this package installs all needed tex font metcic files, virtual
+fonts, font definitions and some style packages in order to provide
+tex with the following font families: free times, free helvetian,
+free helvetian condensed, free courier, free avant garde, free
+paladin, free schoolbook, free bookman, free chancery, teams and
+oldslavic.
+
+if you want to have these font families available to x11 and
+defoma-aware applications (ghostscript, grace, scigraphica) then
+please install the packages t1-cyrillic, t1-teams and t1-oldslavic.
+
+in order to make this package functional please read the file
+/usr/share/doc/scalable-cyrfonts-tex/readme.debian.

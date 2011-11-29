@@ -1,0 +1,17 @@
+Dictionary client
+	
+this package provides a client application to query a dictd server.
+the client-server protocol is tcp-based; the server may then be local or
+accessed through the network.
+
+the dict development group maintains several public servers which can
+be accessed from any machine connected to the internet.  the default
+configuration is to query one of these servers first. this may be
+changed in the configuration file /etc/dictd/dict.conf.
+
+queries may be customized by numerous command line options, including
+specifying the database(s) to be queried and the search strategy to
+be used.
+
+this package also provides dictl, which allows using utf-8 encoded dictionaries
+with terminals that do not support utf-8.

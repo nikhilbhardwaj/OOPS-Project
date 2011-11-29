@@ -1,0 +1,20 @@
+Burn data and create songs with interactive dialog box
+	
+this application can burn data cds, music cds, multisession cds. it can burn
+and create iso files. it can burn bin/cue files, create oggs and flac files.
+supports burning dvd-images and data dvds, and others funny options.
+mybashburn depends on cdrecord and others backend applications, so basically
+if your writing device works with it, mybashburn will work flawlessly.
+
+mybashburn is the version/fork owned for the cd burning shell script called
+bashburn for linux, this originally not have the best eye-candy cd-burning,
+nevertheless, mybashburn use dialog box function which draws (using ncurses)
+windows onto the screen. mybashburn dialog box offer best functionability,
+has very good capabilities of automatically finding dependencies and autodetect
+devices cd/dvd rw. in short, don't reinvent the wheel, but just let mybashburn
+does what you want it to do.
+
+this package provides mybashburn and symlink from bashburn to mybashburn.
+
+
+ homepage: http://sourceforge.net/projects/mybashburn/

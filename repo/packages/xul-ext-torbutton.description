@@ -1,0 +1,14 @@
+Iceweasel/firefox extension enabling 1-click toggle of tor usage
+	
+torbutton is a 1-click way for iceweasel/firefox users to enable or disable the
+browser's use of tor (an anynomous communication system).
+
+torbutton tries to isolate as much as possible tor sessions from your non-tor
+sessions to preserve your anonimity.  to achieve the safest possible browsing
+experience, various browsing features are also reconfigured in tor sessions
+(like javascript, cookies and plugins).
+
+it adds a panel to the statusbar that says "tor enabled"
+(in green) or "tor disabled" (in red). the user may click on the panel to
+toggle the status. if the user (or some other extension) changes the
+settings, the change is automatically reflected in the statusbar.

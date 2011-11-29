@@ -1,0 +1,17 @@
+Small-based abstract machine (amx) bytecode interpreter
+	
+embryo is primarily a shared library that gives you an api to load
+and control interpreted programs compiled into an abstract machine
+bytecode that it understands.  this abstract (or virtual) machine is
+similar to a real machine with a cpu, but it is emulated in
+software.  the architecture is simple and is the same as the
+abstract machine (amx) in the small language as it is based on
+exactly the same code. embryo has modified the code for the amx
+extensively and has made it smaller and more portable.  it is very
+small.  the total size of the virtual machine code and header files
+is less than 2500 lines of code.  it includes the floating point
+library support by default as well.  this makes it one of the
+smallest interpreters around, and thus makes is very efficient to
+use in code.
+
+see also http://www.compuphase.com/small.htm for details on small.

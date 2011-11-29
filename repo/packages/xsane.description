@@ -1,0 +1,16 @@
+Featureful graphical frontend for sane (scanner access now easy)
+	
+xsane can be run as a stand-alone program or through the gimp image
+manipulation program.  in stand-alone mode, xsane can save an image
+to a file in a variety of image formats, serve as a frontend to a
+fax program, or send an image to a printer.
+
+sane stands for "scanner access now easy" and is an application
+programming interface (api) that provides standardized access to any
+raster image scanner hardware (flatbed scanner, hand-held scanner,
+video- and still-cameras, frame-grabbers, etc.). the sane standard is
+free and its discussion and development are open to everybody. the
+current source code is written to support several operating systems,
+including gnu/linux, os/2, win32 and various unices and is available
+under the gnu general public license (commercial applications and
+backends are welcome, too, however).

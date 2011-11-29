@@ -1,0 +1,8 @@
+Linux::usermod - modify user and group accounts
+	
+this module adds, removes and modify user and group accounts
+according to  the passwd and shadow files syntax (like struct
+passwd from pwd.h). it is not necessary  those accounts to be
+system as long as $linux::usermod::file_passwd,
+$linux::usermod::file_shadow, $linux::usermod::file_group,
+$linux::usermod::file_gshadow are not in "/etc" directory.

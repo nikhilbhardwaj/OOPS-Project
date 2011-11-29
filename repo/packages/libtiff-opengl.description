@@ -1,0 +1,7 @@
+Tiff manipulation and conversion tools
+	
+libtiff is a library providing support for the tag image file format
+(tiff), a widely used format for storing image data.  this package
+contains libtiff tools that depend upon opengl.  it complements the
+libtiff-tools package, which contains the libtiff tools that don't
+depend upon opengl.

@@ -1,0 +1,6 @@
+A small fast http library and server for ruby
+	
+mongrel is a fast http library and server for ruby that is intended
+for hosting ruby web applications of any kind using plain http. it is
+framework agnostic and already supports ruby on rails, og+nitro, and
+camping frameworks.

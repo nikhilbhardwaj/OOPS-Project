@@ -1,0 +1,9 @@
+Single interval mathematics package for octave
+	
+this package define the basic operations on intervals using octave, a
+scientific computation software.  intervals can be used instead of
+floating point number to automatically take into account the
+tolerance of the values used in calculation.  it is useful when some
+values for a computation are incertain.
+
+this octave add-on package is part of the octave-forge project.

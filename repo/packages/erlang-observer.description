@@ -1,0 +1,6 @@
+Erlang/otp application for investigating distributed systems
+	
+the observer application contains tools for tracing and investigation of
+distributed systems. they include etop - a tool for presenting information
+about erlang processes, and crashdump_viewer - a html based tool for
+browsing erlang crashdumps.

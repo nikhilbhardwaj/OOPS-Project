@@ -1,0 +1,10 @@
+Second generation incarnation of the cd index - python bindings
+	
+musicbrainz indexes both digital compressed audio (mp3/ogg vorbis) and
+digital audio cds.
+
+this is a straight python to c binding for libmusicbrainz.  it uses ctypes
+to avoid having to write c code.
+
+these bindings are deprecated upstream.  you problably want the
+python-musicbrainz2 package instead.

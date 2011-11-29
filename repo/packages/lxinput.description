@@ -1,0 +1,9 @@
+A program to configure keyboard and mouse settings for lxde
+	
+lxinput is a program to configure keyboard and mouse settings for lxde.
+features:
+
+ * delay and interval for character repeat
+ * enable/disable beeps of keyboard input error
+ * swap left and right mouse buttons
+ * mouse acceleration and sensitivity

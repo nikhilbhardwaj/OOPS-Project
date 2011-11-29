@@ -1,0 +1,11 @@
+Perl extension for trivial file transfer protocol server
+	
+net::tftpd is a class implementing a simple trivial file transfer protocol
+server in perl as described in rfc1350.
+
+net::tftpd also supports the tftp option extension (as described in rfc2347),
+with the following options:
+
+
+ - rfc2348 tftp blocksize option
+ - rfc2349 tftp timeout interval and transfer size options

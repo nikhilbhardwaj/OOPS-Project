@@ -1,0 +1,12 @@
+Module to remove ip from apache2's logs
+	
+this package provides the removeip module for the apache 2 webserver.
+this module allows for overwriting apache's environment variable
+remote_addr with a fixed value. this is necessary to anonymize all logs
+written by apache and to prevent web applications from accessing the original
+ip address.
+
+please be advised that activating this module may cause unexpected side effects
+to the behavior of your web applications.
+
+homepage: http://dev.riseup.net/privacy/apache/

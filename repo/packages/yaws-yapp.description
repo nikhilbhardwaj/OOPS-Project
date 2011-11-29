@@ -1,0 +1,7 @@
+An easy way to deploy applications for yaws web server
+	
+yaws-yapp (yaws application handler) is a helper application.
+it takes care of adding, and removing, the applications into a running
+server. when anyone access the server with an url that matches the path
+for an added application, the docroot will be temporarily switched
+to where the web pages for that application are located.

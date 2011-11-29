@@ -1,0 +1,11 @@
+Erlang/otp hipe enabled virtual machine and base applications
+	
+this package contains the erlang/otp runtime implementation, which is
+configured and built with hipe support (allows compiling to native code),
+and minimal set of erlang applications:
+
+ compiler - compiles erlang code to byte-code;
+ erts - the erlang runtime system application;
+ kernel - code necessary to run the erlang runtime system itself;
+ sasl - the system architecture support libraries application;
+ stdlib - modules for manipulating lists, strings, files etc.

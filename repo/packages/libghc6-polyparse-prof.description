@@ -1,0 +1,10 @@
+Profiling libraries for haskell-polyparse
+	
+
+a variety of alternative parser combinator libraries, including the original
+huttonmeijer set. the poly sets have features like good error reporting,
+arbitrary token type, running state, lazy parsing, and so on. finally,
+text.parse is a proposed replacement for the standard read class, for better
+deserialisation of haskell values from strings.
+
+this package contains the profiling libraries compiled for ghc 6.

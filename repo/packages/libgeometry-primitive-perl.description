@@ -1,0 +1,6 @@
+Module to represent geometric entities
+	
+geometry::primitive is a device- and library-agnostic system for representing
+geometric entities such as points, lines, and shapes. it provides some simple
+objects and many convenience methods you would expect from a simple geometry
+library.

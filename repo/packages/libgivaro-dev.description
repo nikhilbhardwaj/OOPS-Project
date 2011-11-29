@@ -1,0 +1,18 @@
+Library for arithmetic and algebraic computations
+	
+givaro is a c++ library for arithmetic and algebraic computations.
+its main features are implementations of the basic arithmetic of many
+mathematical entities: primes fields, extensions fields, finite
+fields, finite rings, polynomials, algebraic numbers, and arbitrary
+precision integers and rationals (c++ wrappers over gmp).
+
+givaro also provides data-structures and templated classes for the
+manipulation of basic algebraic objects, such as vectors, matrices
+(dense, sparse, structured), univariate polynomials (and therefore
+recursive multivariate).
+
+it contains different program modules and is fully compatible with
+the linbox linear algebra library and the athapascan environment,
+which permits parallel programming.
+
+this package contains development files for givaro.

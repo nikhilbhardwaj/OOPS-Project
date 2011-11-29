@@ -1,0 +1,11 @@
+Static library for i/o with fits format data files
+	
+fits (flexible image transport system) is a data format most used in
+astronomy. cfitsio is a library of ansi c routines for reading and
+writing fits format data files.  a set of fortran-callable wrapper
+routines are also included for the convenience of fortran
+programmers.
+
+this package contains what you need for compiling sources that
+use this library in your own code. it also contains example source
+files that demonstrate the use of cfitsio.

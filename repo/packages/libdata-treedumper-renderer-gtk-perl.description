@@ -1,0 +1,7 @@
+Gtk2::treeview renderer for data::treedumper
+	
+this widget is the gui equivalent of data::treedumper; it will display a perl
+data structure in a treeview, allowing you to fold and unfold child data
+structures and get a quick feel for what's where. right-clicking anywhere in
+the view brings up a context menu, from which the user can choose to expand
+or collapse all items.

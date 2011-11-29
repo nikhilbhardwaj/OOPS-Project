@@ -1,0 +1,12 @@
+Parser generator for ocaml
+	
+menhir is a lr(1) parser generator for ocaml. it is mostly compatible
+with the standard ocamlyacc and has the following enhancements:
+
+ * it accepts lr(1) grammars,
+ * it offers parameterized nonterminal symbols as well as a library of
+   standard definitions,
+ * it explains conflicts in terms of the grammar,
+ * it allows grammar specifications to be split over multiple files and
+   parametrized by ocaml modules,
+ * it produces reentrant parsers.

@@ -1,0 +1,8 @@
+A library that implements application-level logging.
+	
+this library provides logging apis based on c++-style streams and
+various helper macros.  the devel package contains static and debug
+libraries and header files for developing applications that use the
+google-glog package.
+
+this package contains the header files for developers using google-glog.

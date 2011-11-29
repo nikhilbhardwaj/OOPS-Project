@@ -1,0 +1,5 @@
+Convert datetimes to/from epoch seconds
+	
+datetime::format::epoch can convert a datetime object (or any object that can
+be converted to a datetime object) to the number of seconds since a given
+epoch. it can also do the reverse.

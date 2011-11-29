@@ -1,0 +1,9 @@
+Iso9660 checksum python module
+	
+isomd5sum is a set of utilities for implanting a md5 checksum in an
+iso (or any block device), then verifying the checksum later.  isomd5sum
+is not simply an md5 of the entire iso; it checksums the data inside a
+standard iso9660 image and write block checksum information to an iso9660
+header, that will carry over to burning the cd.
+
+this package contains python modules for isomd5sum.

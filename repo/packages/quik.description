@@ -1,0 +1,11 @@
+Bootloader for powermac or chrp systems
+	
+the quik package provides the functionality necessary for booting a
+linux debian/powerpc powermac or chrp system from disk.  it includes
+first and second stage disk bootstrap and a program for installing the
+first stage bootstrap on the root disk.
+
+note that if you are running on a newworld machine, quik will be of
+limited use to you.  you should install yaboot instead.  it may even
+come handy on an oldworld machine, since it provides the ofpath
+program and some documentation.

@@ -1,0 +1,6 @@
+Gnu aspell spell-checker runtime library
+	
+these are the runtime parts of the aspell and pspell spell-checking
+toolkits, needed by applications that use the toolkits at runtime.
+
+for a standalone spell-checker, install aspell as well.

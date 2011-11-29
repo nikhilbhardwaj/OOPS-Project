@@ -1,0 +1,10 @@
+Perl module performing math used to constrain image sizes
+	
+image::math::constrain is a perl module that implements all of the math behind
+implementing image size constraints. it allows one to restrict the dimensions
+of an image by checking to see if the image is larger than the desired final
+dimensions, and if so, provide a way to scale the image down proportionally so
+it fits within the constraints. it can set constraints based on width, height,
+or both, and is guaranteed to return dimensions that are proportional to the
+original -- that is, they will have the same aspect ratio. it also returns the
+necessary scaling factor, so you can pass it to a module to do the work.

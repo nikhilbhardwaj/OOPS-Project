@@ -1,0 +1,7 @@
+Handles the switching of various initialization files of emacsen
+	
+initz handles the switching of various startup initialization files
+of emacsen provided for various environment. according to the
+environment (maybe emacs version, os type or os versions) initz
+reads appropriate init files provided by the user in several
+directories, one for one environment.

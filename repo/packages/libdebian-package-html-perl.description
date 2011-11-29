@@ -1,0 +1,7 @@
+Generates html from a debian source/binary package
+	
+this module outputs a webpage using html::template templates which
+resumes the information of a normal build environment for a package
+in debian (source files, binary packages and changelogs) using
+linda/lintian for sanity checks. it is useful for making unified presentation
+webpages for those packages which are being sponsorized by someone in debian.

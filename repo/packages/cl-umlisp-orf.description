@@ -1,0 +1,7 @@
+Common lisp unified medical language system interface, orf
+	
+the unified medical language system is a multi-gigabyte database of
+medical terminology. this a interface for common lisp programs that utilizes
+the a sql database engine and common lisp meta-classes for efficient access
+and formatting. this package supports the original release format
+files (orf).

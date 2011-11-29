@@ -1,0 +1,8 @@
+The gnu standard c++ library v3 (development files)
+	
+this package contains the headers and static library files necessary for
+building c++ programs which use libstdc++.
+
+libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+was included up to g++-2.95. the first version of libstdc++-v3 appeared
+in g++-3.0.

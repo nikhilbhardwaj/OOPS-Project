@@ -1,0 +1,16 @@
+Ncurses-based git repository browser
+	
+this package contains a text-mode interface for the version control system
+git. it may be used to browse the history and contents of a repository.
+
+the following main features are supported:
+
+ - view revision logs, commit messages, diffstats, diffs, archive trees and
+   file contents.
+ - visualize revision graphs.
+ - stage / unstage changes and add untracked files.
+ - merge files.
+ - cherry-pick commits.
+
+
+tig may also be used as a pager. it reads input from stdin and colorizes it.

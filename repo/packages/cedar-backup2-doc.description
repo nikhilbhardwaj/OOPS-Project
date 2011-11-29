@@ -1,0 +1,21 @@
+Local and remote backups to cd or dvd media (documentation)
+	
+cedar backup is a software package designed to manage system backups for a
+pool of local and remote machines.  cedar backup understands how to back up
+filesystem data as well as mysql and postgresql databases and subversion
+repositories.  it can also be easily extended to support other kinds of data
+sources.
+
+cedar backup is focused around weekly backups to a single cd or dvd disc, with
+the expectation that the disc will be changed or overwritten at the beginning
+of each week.  if your hardware is new enough, cedar backup can write
+multisession discs, allowing you to add incremental data to a disc on a daily
+basis.
+
+besides offering command-line utilities to manage the backup process, cedar
+backup provides a well-organized library of backup-related functionality,
+written in the python programming language.
+
+this package provides the end-user and library public interface documentation
+for cedar backup, both in html form.  you really should read through the
+end-user documentation before using cedar backup for the first time.

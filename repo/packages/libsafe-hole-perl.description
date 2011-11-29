@@ -1,0 +1,10 @@
+Perl module which makes a "hole" in the safe compartment
+	
+libsafe-hole-perl allows externally defined routines and methods
+of objects to be called from within the safe compartment.  however,
+those subroutines and methods are executed within the safe compartment,
+so they are unable to call other subroutines which are dynamically
+qualified with the package name such as class methods.
+
+through safe::hole, we can execute externally defined subroutines in
+the original main compartment from the safe compartment.

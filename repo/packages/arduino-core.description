@@ -1,0 +1,8 @@
+Minimal (java-free) tool to interact with an arduino
+	
+arduino is an open hardware microcrontoler platform.  this package contains
+the minimal set of tools to allow one to program an arduino.  it also contains
+some examples, and a quick intro in the package's readme.debian.
+
+this package does not include the java based integrated development
+environment, which can be found in the 'arduino' package.

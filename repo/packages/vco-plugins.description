@@ -1,0 +1,8 @@
+Ladspa plugin sporting anti-aliased oscillators
+	
+this plugin contains three anti-aliased oscillators, all based on the
+concept of using precomputed bandlimited dirac pulses to construct the
+classical waveforms. they are both memory and cpu efficient. the first
+one produces a flat spectrum (impulses) and the second generates a
+sawtooth waveform. the third one (new in 0.3.0), provides a variable
+width rectangular waveform.

@@ -1,0 +1,5 @@
+Disk archive: backup directory tree and files
+	
+full featured archiver with support for differential backups, slices,
+compression, attr/acl support. dar also supports pipes for remote
+operations, including with ssh.

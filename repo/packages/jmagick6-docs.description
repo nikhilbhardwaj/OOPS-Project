@@ -1,0 +1,15 @@
+A java interface to imagemagick - api documentation
+	
+jmagick is an open source java interface of imagemagick.  it is
+implemented in the form of java native interface (jni) into the
+imagemagick api.
+
+jmagick does not attempt to make the imagemagick api
+object-oriented. it is merely a thin interface layer into the
+imagemagick api.
+
+jmagick currently only implements a subset of imagemagick apis.
+should you require unimplemented features in jmagick, please join the
+mailing list and make a request.
+
+this package contains javadoc generated documentation.

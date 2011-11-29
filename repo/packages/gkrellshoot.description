@@ -1,0 +1,11 @@
+Plugin for gkrellm to lock the screen and make screenshots
+	
+this plugin gives easy access to screenlock and screenshot facilities.
+for screenshot it uses imagemagick. the plugin displays animations
+(like a screensaver) along with 'lock' and 'shoot' buttons to be
+clicked on. with the 'shoot' button one can either grab a window,
+selected area or the whole screen. it's also possible to delay the
+screenshot by a given number of seconds. another feature is that
+grabbed images can be viewed with your preferred image viewer. pressing
+'lock' button will lock the screen and start your screen saver. (you
+need to have xscreensaver installed to use this feature.)

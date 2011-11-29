@@ -1,0 +1,11 @@
+Dns configuration checker (web interface)
+	
+dns is a critical resource for every network application, so it is
+quite important to ensure that a zone or domain name is correctly
+configured in the dns.
+
+zonecheck is intended to help solving misconfigurations or
+inconsistencies usually revealed by an increase in the latency of the
+application, up to the output of unexpected/inconsistant results.
+
+this package is the cgi version, for the web.

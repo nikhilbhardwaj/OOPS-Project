@@ -1,0 +1,6 @@
+Tool for generating classes from jpf plug-ins
+	
+jpf code generator is a handy little tool that generates classes for
+accessing the attributes and extensions of jpf plug-ins from plugin.xml
+files. this has the advantage of providing a strongly typed access to the
+plug-in and simplyfies working with plug-ins.

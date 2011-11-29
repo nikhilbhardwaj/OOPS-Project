@@ -1,0 +1,7 @@
+Tcp proxy for non-ipv6 applications
+	
+6tunnel allows you to use services provided by ipv6 hosts with
+ipv4-only applications and vice versa. it can bind to any of your ipv4
+or ipv6 addresses and forward all data to ipv4 or ipv6 host.
+
+it can be used for example as an ipv6-capable irc proxy.

@@ -1,0 +1,12 @@
+A simple and extensible routing-framework for testbeds
+	
+des-sert is a framework written as ansi-c library. while generally
+usable in many application scenarios, it is primarily used in des-mesh,
+the multi-transceiver wireless mesh network testbed part of the
+des-testbed. des-sert enables the implementation of routing protocols
+via an underlay in user space.
+
+des-sert routing daemons utilize libpcap to receive packets from the
+network resp. to send them. locally generated packets or packets destined
+to this host use a tun or tap interface as access point to the operating
+system protocol stack.

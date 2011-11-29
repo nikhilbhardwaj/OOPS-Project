@@ -1,0 +1,9 @@
+Linux standard base 3.2 init script functionality
+	
+the linux standard base (http://www.linuxbase.org/) is a standard
+core system that third-party applications written for linux can
+depend upon.
+
+this package only includes the init-functions shell library, which
+may be used by other packages' initialization scripts for console
+logging and other purposes.

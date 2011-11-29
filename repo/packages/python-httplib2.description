@@ -1,0 +1,16 @@
+Comprehensive http client library written for python
+	
+httplib2.py supports many features left out of other http libraries.
+
+ * http and https
+ * keep-alive
+ * authentication
+ * caching
+ * all methods
+ * redirects
+ * compression
+ * lost update support
+ * unit tested
+
+
+this package provides module for python2 series.

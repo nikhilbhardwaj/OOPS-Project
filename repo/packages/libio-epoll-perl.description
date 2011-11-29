@@ -1,0 +1,9 @@
+Perl interface to the epoll io multiplexing subsystem
+	
+io::epoll provides access to the new, (currently) linux-specific variant of
+poll() known as epoll(). it is designed to offer o(1) scalability over large
+numbers of watched file descriptors.
+
+this module provides a higher-level layer designed to emulate the behaviour
+of io::poll and io::ppoll, but also exposes the corresponding low-level api
+that closely matches the related system calls.

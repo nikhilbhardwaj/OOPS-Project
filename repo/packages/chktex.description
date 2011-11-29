@@ -1,0 +1,18 @@
+Finds typographic errors in latex
+	
+chktex finds typographic errors in latex documents:
+
+ * supports over 40 warnings.
+ * supports ``\input'' command; both tex and latex version. actually
+   includes the files. ``texinputs''-equivalent search path.
+ * intelligent warning/error handling. the user may promote/mute
+   warnings to suit his preferences. you may also mute warnings in
+   the header of a file; thus killing much unwanted garbage.
+ * supports both latex 2.09 and latex2e.
+ * flexible output handling. has some predefined formats and lets the
+   user specify his own format. uses a ``printf()'' similar syntax.
+   ``lacheck'' compatible mode included for interfacing with the
+   auc-tex emacs mode.
+
+
+homepage: http://baruch.ev-en.org/proj/chktex/

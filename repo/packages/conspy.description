@@ -1,0 +1,8 @@
+Remote control of linux virtual consoles
+	
+conspy allows a (possibly remote) user to see what is displayed
+on a linux virtual console, and send keystrokes to it.  it is
+rather like vnc, but where vnc takes control of a gui conspy
+takes control of a text mode virtual console.  unlike vnc,
+conspy does not require a server to be installed prior to being
+used.

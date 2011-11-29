@@ -1,0 +1,10 @@
+Adaptive finite element library (shared libraries)
+	
+alberta is an adaptive finite element library
+for solving partial differential equations (pdes).
+
+it offers a hierarchical mesh and methods for 1d, 2d
+and 3d stationary as well as time dependent problems.
+it is written in c with speed and flexibility in mind.
+
+this package contains shared libraries.

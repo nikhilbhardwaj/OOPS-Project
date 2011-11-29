@@ -1,0 +1,14 @@
+The opengl utility library (glu)
+	
+glu offers simple interfaces for building mipmaps; checking for the
+presence of extensions in the opengl (or other libraries which follow
+the same conventions for advertising extensions); drawing
+piecewise-linear curves, nurbs, quadrics and other primitives
+(including, but not limited to, teapots); tesselating surfaces; setting
+up projection matrices and unprojecting screen coordinates to world
+coordinates.
+
+on linux, this library is also known as libglu or libglu.so.1.
+
+this package provides the sgi implementation of glu shipped with the
+mesa package (ergo the "-mesa" suffix).

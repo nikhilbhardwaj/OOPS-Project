@@ -1,0 +1,15 @@
+Qt 4 qmake makefile generator tool
+	
+qt is a cross-platform c++ application framework. qt's primary feature
+is its rich set of widgets that provide standard gui functionality.
+
+this package contains qt 4 qmake (qmake-qt4), a tool that helps simplify
+the build process for development project across different platforms.
+qmake automates the generation of makefiles so that only a few lines of
+information are needed to create each makefile. qmake can be used for any
+software project, whether it is written using qt or not.
+
+qt 4 qmake requires a platform and compiler description file which contains
+many default values used to generate appropriate makefiles.
+
+this package contains also these platform specifications.

@@ -1,0 +1,9 @@
+A package to help configure nagios written in django
+	
+djagios is an open source nagios web based configuration tool with a complete
+python nagios api.
+
+the main goal of the tool was to make nagios usable for non-nagios admins.
+the initial install and configuration would have to be done by nagios
+administrators. but once done ordinary users can add servers, appliances,
+devices, services themselves.

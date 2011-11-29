@@ -1,0 +1,11 @@
+Interactive theorem prover
+	
+matita is a graphical interactive theorem prover based on the calculus of
+(co)inductive constructions.
+
+matita adopts xml-encoded proof objects are produced for storage and exchange.
+this makes it compatible, at some extent, with coq.
+
+the graphical interface has been inspired by ctcoq and proof general. it
+supports high quality bidimensional rendering of proofs and formulae
+transformed on-the-fly to mathml markup

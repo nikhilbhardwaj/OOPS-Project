@@ -1,0 +1,15 @@
+Xorg x server - development files
+	
+this package provides development files for the x.org ('xorg') x server.
+this is not quite the same as the ddk (driver development kit) from the
+xfree86 4.x and x.org 6.7, 6.8 and 6.9 series of servers; it provides
+headers and a pkg-config file for drivers using autotools to build
+against.
+
+unless you are developing or building a driver, you probably want
+xserver-xorg and/or xserver-xorg-core instead.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xserver module.

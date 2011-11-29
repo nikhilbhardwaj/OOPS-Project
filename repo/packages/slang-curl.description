@@ -1,0 +1,5 @@
+Transfer files using http and ftp from s-lang
+	
+the s-lang curl module makes use of the curl library to provide the
+s-lang interpreter the ability to transfer files in a simple but
+robust manner using a variety of protocols including ftp and http.

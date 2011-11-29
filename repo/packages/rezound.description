@@ -1,0 +1,8 @@
+Audio file editor
+	
+rezound is an advanced audio file editor for the gnu/linux platform. it
+supports the jack audio server and the oss sound api. it can import several
+audio file formats such ogg/vorbis, mp3, standard wav, flac and exports in
+its own file format (.rez). you can use rezound to burn your audio files
+directly to cd. rezound has unlimited undo. it supports the ladspa effect
+plugin standard and has several builtin effects.

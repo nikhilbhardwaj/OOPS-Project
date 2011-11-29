@@ -1,0 +1,8 @@
+Taglib audio meta-data library [development]
+	
+taglib is a library for reading and editing the meta-data of several popular
+audio formats. currently it supports both id3v1 and id3v2 for mp3 files, ogg
+vorbis comments and id3 tags and vorbis comments in flac files.
+
+this is the development package which contains headers and static libraries
+for the taglib audio meta-data library.

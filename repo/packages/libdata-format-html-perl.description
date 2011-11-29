@@ -1,0 +1,7 @@
+Perl module for dumping perl objects to html
+	
+data::format::html is a perl module that takes a data structure as input and
+produces html suitable for output. it has support for most common perl data
+types, even working with complicated nested data structures. in theory, you
+can pass in any sort of data type and get a "pretty" html representation of
+it. css rules can also extend this, but that behaviour is not yet documented.

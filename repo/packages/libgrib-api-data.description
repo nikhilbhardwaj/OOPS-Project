@@ -1,0 +1,13 @@
+Grib_api definition files
+	
+the ecmwf grib api is an application program interface accessible from c and
+fortran programs developed for encoding and decoding wmo fm-92 grib edition 1
+and edition 2 messages.
+
+grib_api performs encoding and deconding as directed by "definition files",
+that describe the various grib dialects and extensions. new grib extensions
+can be supported by providing an extra definition file, without the need of
+recompiling the library. this package contains the set of definition files
+distributed by ecmwf.
+
+ecmwf is the european centre for medium-range weather forecasts.

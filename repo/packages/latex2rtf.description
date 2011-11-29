@@ -1,0 +1,8 @@
+Converts documents from latex to rtf format
+	
+attempts to convert as much formatting information as possible from
+latex to microsoft's rich text format (rtf).  while rtf has limited
+support for mathematical markup, it is widely supported as a "least
+common denominator" word processing format.
+
+the detailed documentation is in the latex2rtf-doc package.

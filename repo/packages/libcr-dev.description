@@ -1,0 +1,17 @@
+Development files for blcr
+	
+blcr (berkeley lab checkpoint/restart) allows programs running on
+linux to be "checkpointed" (written entirely to a file), and then
+later "restarted".
+
+blcr can checkpoint both single- and multithreaded (pthreads)
+programs linked with the nptl implementation of pthreads. blcr is
+also able to save and restore groups of related processes together
+with the pipes that connect them.
+
+blcr can checkpoint and restore (most) un-modified programs,
+however blcr aware applications can customise this process
+further.
+
+this package contains headers and files needed to compile
+applications that work with blcr.

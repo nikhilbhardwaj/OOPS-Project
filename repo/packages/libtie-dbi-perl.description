@@ -1,0 +1,11 @@
+Module tying hashes to relational databases
+	
+tie::dbi is a perl module for using a database as a backing store for perl's
+hash data structure. one field of the table becomes the hash key, and another
+becomes the value. once tied, all standard hash operations work, including
+iteration over keys and values.
+
+using the storable module, you may store complex perl data structures (even
+objects) in the database and later retrieve them. when used in conjunction
+with a network-accessible database, this provides a simple way to transmit
+data structures between perl programs on different machines.

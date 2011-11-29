@@ -1,0 +1,13 @@
+Automatic screensaver for x
+	
+xscreensaver is a modular screen saver and locker for x11,
+containing more than 200 screen savers.
+
+this package includes the bare minimum needed to blank and lock
+your screen. install this package if you prefer xscreensaver to
+gnome-screensaver. if you prefer gnome-screensaver, you don't
+need to install this package.
+
+the graphical display modes are in the xscreensaver-data,
+xscreensaver-data-extra, xscreensaver-gl and xscreensaver-gl-extra
+packages.

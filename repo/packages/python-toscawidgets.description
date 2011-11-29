@@ -1,0 +1,15 @@
+Python framework for building reusable web components
+	
+toscawidgets is a system for creating re-usable web components, such
+as a popup calendar or a rich text editor.
+
+in general, components consist of an html template, static resources
+(javascript, css, images, etc.) and server-side code. toscawidgets
+allow these to be packaged into a "widget", that a web developer can
+then easily use in their application.
+
+this package also provides some contributions for toscawidgets, in
+particular:
+
+
+ * tw.forms - web widgets for building and validating forms

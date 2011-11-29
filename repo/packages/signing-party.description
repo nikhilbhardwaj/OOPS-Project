@@ -1,0 +1,20 @@
+Various openpgp related tools
+	
+signing-party is a collection for all kinds of pgp/gnupg related things,
+including tools for signing keys, keyring analysis, and party preparation.
+
+
+ * caff: ca - fire and forget signs and mails a key
+ * pgp-clean: removes all non-self signatures from key
+ * pgp-fixkey: removes broken packets from keys
+ * gpg-mailkeys: simply mail out a signed key to its owner
+ * gpg-key2ps: generate postscript file with fingerprint paper strips
+ * gpgdir: recursive directory encryption tool
+ * gpglist: show who signed which of your uids
+ * gpgsigs: annotates list of gnupg keys with already done signatures
+ * gpgparticipants: create list of party participants for the organiser
+ * gpgwrap: a passphrase wrapper
+ * keyanalyze: minimum signing distance (msd) analysis on keyrings
+ * keylookup: ncurses wrapper around gpg --search
+ * sig2dot: converts a list of gnupg signatures to a .dot file
+ * springgraph: creates a graph from a .dot file

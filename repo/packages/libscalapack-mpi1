@@ -1,0 +1,4 @@
+PackageId:20421
+Name:libscalapack-mpi1
+Version:1.8.0-6 and others
+Deps:libatlas3gf-base,libblacs-mpi1,libblas3gf,libblas.so.3gf,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgfortran3,liblam4,liblapack3gf,liblapack.so.3gf,libopenmpi1.3,mpi-default-bin

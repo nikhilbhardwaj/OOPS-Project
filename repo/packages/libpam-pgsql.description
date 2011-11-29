@@ -1,0 +1,5 @@
+Pam module to authenticate using a postgresql database
+	
+this module lets you authenticate users against a table in a postgresql
+database. it also supports checking account information and updating
+authentication tokens (ie. passwords).

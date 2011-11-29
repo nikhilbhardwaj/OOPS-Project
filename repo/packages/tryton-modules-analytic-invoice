@@ -1,0 +1,4 @@
+PackageId:33190
+Name:tryton-modules-analytic-invoice
+Version:1:1.6.0-1
+Deps:python,python-pkg-resources,python-support,tryton-modules-account-invoice,tryton-modules-analytic-account,tryton-server

@@ -1,0 +1,9 @@
+Identify the dependencies of a distribution
+	
+module::depends extracts module dependencies from an unpacked
+distribution tree.
+
+module::depends only evaluates the meta.yml shipped with a
+distribution.  this won't be effective until all distributions ship
+meta.yml files, so we suggest you take your life in your hands and
+look at module::depends::intrusive.

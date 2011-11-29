@@ -1,0 +1,9 @@
+The gnu dc arbitrary precision reverse-polish calculator
+	
+gnu dc is a reverse-polish desk calculator which supports unlimited
+precision arithmetic.  it also allows you to define and call macros.
+
+a reverse-polish calculator stores numbers on a stack. entering a number
+pushes it on the stack.  arithmetic operations pop arguments off the
+stack and push the results.
+home page: http://directory.fsf.org/gnu/bc.html

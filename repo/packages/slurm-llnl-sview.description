@@ -1,0 +1,7 @@
+Gui to view and modify slurm state
+	
+slurm, the simple linux utility for resource management,
+is an open-source cluster resource management and job scheduling.
+this package contains sview a gui that can be used to view slurm
+configuration, job, step, node and partitions state information.
+authorized users can also modify select information.

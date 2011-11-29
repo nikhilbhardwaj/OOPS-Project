@@ -1,0 +1,9 @@
+Tao fault tolerant services
+	
+tao supports fault tolerance for corba objects.
+
+this package includes three ft corba infrastructure components:
+
+ * fault_detector that monitors a process or a host
+ * fault_notifier that receives fault reports from detectors
+ * ft_replicationmanager that manages object groups

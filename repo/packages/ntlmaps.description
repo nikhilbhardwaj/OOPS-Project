@@ -1,0 +1,27 @@
+Ntlm authorization proxy server
+	
+'ntlm authorization proxy server' (aps) is a proxy software that
+allows you to authenticate via an ms proxy server (e.g. isa server)
+using the proprietary ntlm protocol. since version 0.9.5 aps has an
+ability to behave as a standalone proxy server and authenticate http
+clients at web servers using ntlm method. it can change arbitrary
+values in your client's request header so that those requests will
+look like they were created by ms ie. it is written in python v1.5.2
+language.
+
+main features:
+
+   * supports ntlm authentication via parent proxy server
+     (error 407 proxy authentication required)
+   * supports ntlm authentication at web servers
+     (error 401 access denied/unauthorized)
+   * supports translation of ntlm scheme to standard "basic"
+     authentication scheme
+   * supports the https 'connect' method for transparent tunnelling
+     through parent proxy server
+   * has ability to change arbitrary values in client's request headers;
+   * supports unlimited number of client connections
+   * supports connections from external hosts
+   * supports http 1.1 persistent connections
+   * stores user's credentials in config file or requests
+     password from a console during the start time

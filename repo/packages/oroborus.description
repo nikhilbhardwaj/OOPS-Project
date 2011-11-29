@@ -1,0 +1,11 @@
+A lightweight themeable windowmanager for x
+	
+oroborus is a small and simple window manager which does exactly what
+it says it does, manage windows. there is no fancy doc, clip, wharf, or a
+root menu for that matter. these utilities can be provided by other programs
+such as "deskmenu". oroborus has support for gnome and session management,
+or can be run as a stand-alone window manager. this package has also been
+compiled with xinerama support.
+
+oroborus is small, about 72kb at the time of this package. it has full
+keyboard control and is very themeable.

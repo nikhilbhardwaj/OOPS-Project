@@ -1,0 +1,20 @@
+Tryton application platform (financial and accounting module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this package contains the financial and accounting module with:
+
+
+ * payment term
+ * invoice/credit note
+ * supplier invoice/supplier credit note
+
+
+with the possibilities:
+
+
+ * to follow the payment of the invoices.
+ * to define invoice sequences on fiscal year or period.
+ * to credit any invoice.

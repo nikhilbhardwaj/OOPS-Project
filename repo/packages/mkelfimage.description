@@ -1,0 +1,11 @@
+Utility to create elf boot images from linux kernel images
+	
+mkelfimage is a program that makes an elf boot image from a linux
+kernel image.
+
+the image should work with any i386 multiboot compliant elf boot loader
+that passes no option. the image is compliant with the coreboot (previously
+linuxbios) elf booting spec and compatible with the linux kexec kernel patch.
+
+a key feature of mkelfimage is that nothing relies upon bios calls, but they
+can be made when necessary. this is useful for systems running on coreboot.

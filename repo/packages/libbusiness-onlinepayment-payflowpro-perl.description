@@ -1,0 +1,11 @@
+Paypal payflow pro backend for business::onlinepayment
+	
+this is business::onlinepayment::payflowpro, an business::onlinepayment
+backend module for paypal payflow pro.  it is only useful if you have a
+merchant account with paypal payflow pro:
+https://www.paypal.com/cgi-bin/webscr?cmd=_payflow-pro-overview-outside
+
+business::onlinepayment is a generic interface for processing payments through
+online credit card processors, online check acceptance houses, etc.  (if you
+like buzzwords, call it an "multiplatform ecommerce-enabling middleware
+solution").

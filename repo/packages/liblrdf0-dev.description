@@ -1,0 +1,9 @@
+Liblrdf0 development files
+	
+liblrdf can read rdf/xml and n3 files and export n3 files. it also has a
+light taxonomic inference capablility.
+
+it can also be used for general rdf manipulation.
+
+this package holds static libraries and headers needed by developers
+who wish to use liblrdf0 in their programs.

@@ -1,0 +1,4 @@
+PackageId:24969
+Name:multipath-tools
+Version:0.4.8+git0.761c66f-9
+Deps:initscripts,kpartx,libaio1,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdevmapper1.02.1,libncurses5,libreadline6,lsb-base,udev

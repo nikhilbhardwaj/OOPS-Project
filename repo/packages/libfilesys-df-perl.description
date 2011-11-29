@@ -1,0 +1,7 @@
+Module to obtain filesystem disk space information
+	
+this module provides a way to obtain filesystem disk space
+information. this is a unix only distribution. if you want to gather
+this information for unix and windows, use filesys::dfportable.  the
+only major benefit of using filesys::df over filesys::dfportable, is
+that filesys::df supports the use of open filehandles as arguments.

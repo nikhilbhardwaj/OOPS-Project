@@ -1,0 +1,17 @@
+Useful miscellaneous modules used by logilab projects
+	
+logilab-common is a collection of low-level python packages and modules,
+designed to ease:
+
+
+ * handling command line options and configuration files
+ * writing interactive command line tools
+ * manipulation files and character strings
+ * interfacing to omniorb
+ * generating sql queries
+ * running unit tests
+ * manipulating tree structures
+ * accessing rdbms (currently postgresql, mysql and sqlite)
+ * generating text and html reports
+ * logging
+ * parsing xml processing instructions

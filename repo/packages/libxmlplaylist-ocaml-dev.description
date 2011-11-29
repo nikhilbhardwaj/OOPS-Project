@@ -1,0 +1,11 @@
+Playlist parser for various xml formats
+	
+this module implements basic playlist parsing
+for various xml formats.
+
+currently supported formats are:
+
+ * podcast (rss)
+ * xspf
+ * smil
+ * asx

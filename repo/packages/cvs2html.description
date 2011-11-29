@@ -1,0 +1,7 @@
+Create html versions of cvs logs
+	
+cvs2html is program that transforms the 'cvs log' output into a
+html file.  the program can be used on any type of cvs archive,
+but since it invokes cvs itself, it needs to be run in a machine
+having a local checked out copy of the archive and access to the
+repository.

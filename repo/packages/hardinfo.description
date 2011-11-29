@@ -1,0 +1,5 @@
+Displays system information
+	
+hardinfo is a small application that displays information about your
+hardware and operating system. currently it knows about pci, isa pnp, usb,
+ide, scsi, serial and parallel port devices.

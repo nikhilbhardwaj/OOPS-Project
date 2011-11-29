@@ -1,0 +1,10 @@
+Automatic sql injection tool
+	
+sqlmap goal is to detect and take advantage of sql injection
+vulnerabilities in web applications. once it detects one or more sql
+injections on the target host, the user can choose among a variety of
+options to perform an extensive back-end database management system
+fingerprint, retrieve dbms session user and database, enumerate users,
+password hashes, privileges, databases, dump entire or user's specific
+dbms tables/columns, run his own sql statement, read specific files on
+the file system and more.

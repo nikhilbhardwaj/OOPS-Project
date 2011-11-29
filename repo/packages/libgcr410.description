@@ -1,0 +1,5 @@
+Pc/sc driver for gemplus gcr410 serial smartcard interface
+	
+the libgcr410 package contains a pc/sc driver for the gemplus gcr410 serial
+smartcard interface. note that this is a different driver then libgempc.
+if you have a gempc 410 reader, this driver is not for you.

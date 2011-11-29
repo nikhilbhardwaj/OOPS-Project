@@ -1,0 +1,14 @@
+Documentation for haskell utility library
+	
+missingh is a library of all sorts of utility functions for
+haskell programmers.  it is written in pure haskell and thus should
+be extremely portable and easy to use.  it also has no prerequisites
+save those that are commonly included with haskell compilers.
+
+missingh is based on missinglib library for ocaml and contains some
+of the same features.  however, some features are left behind because
+they are already in haskell or not needed here -- and others are added
+due to things haskell is missing, or things that haskell makes
+possible.
+
+this package provides the api documentation for missingh.

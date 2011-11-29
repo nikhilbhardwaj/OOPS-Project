@@ -1,0 +1,13 @@
+Console font and keymap setup program
+	
+this package provides the linux console with the same
+keyboard configuration scheme as the x window system. as a result,
+there is no need to duplicate or change the keyboard files just to
+make simple customizations such as the use of dead keys, the key
+functioning as altgr or compose key, the key(s) to switch between
+latin and non-latin mode, etc.
+
+the package also contains console fonts supporting many of the
+world's languages.  it provides an unified set of font faces - the
+classic vga, the simplistic fixed, and the cleaned terminus,
+terminusbold and terminusboldvga.

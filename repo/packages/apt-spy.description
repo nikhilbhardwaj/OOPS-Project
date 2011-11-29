@@ -1,0 +1,4 @@
+Writes a sources.list file based on bandwidth tests
+	
+parses a list of mirrors and tests each of the mirrors for bandwidth.
+writes to /etc/apt/sources.list.d/apt-spy.list based on the responses it gets.

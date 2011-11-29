@@ -1,0 +1,10 @@
+Simple interprocess messaging system (debug symbols)
+	
+d-bus is a message bus, used for sending messages between applications.
+conceptually, it fits somewhere in between raw sockets and corba in
+terms of complexity.
+
+this package provides support for debugging programs that use the core
+d-bus shared library.
+
+see the dbus package description for more information about d-bus in general.

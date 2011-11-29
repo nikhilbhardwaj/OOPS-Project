@@ -1,0 +1,14 @@
+Flexible audio player, similar to amarok, but written in gtk+
+	
+exaile is a media player aiming to be similar to kde's amarok, but for
+gtk+. it incorporates many of the cool things from amarok (and other
+media players) like automatic fetching of album art, handling of large
+libraries, lyrics fetching, artist/album information via the wikipedia,
+last.fm support, and optional ipod support (assuming you have python-gpod
+installed).
+
+in addition, exaile also includes a built-in shoutcast directory
+browser, tabbed playlists (so you can have more than one playlist open
+at a time), blacklisting of tracks (so they don't get scanned into your
+library), downloading of guitar tablature from fretplay.com, and
+submitting played tracks on your ipod to last.fm.

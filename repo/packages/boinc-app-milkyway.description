@@ -1,0 +1,24 @@
+Milkyway@home application for the boinc client
+	
+the goal of milkyway@home is to use the boinc platform to harness
+volunteered computing resources in creating a highly accurate three
+dimensional model of the milky way galaxy using data gathered by the
+sloan digital sky survey. this project enables research in both
+astroinformatics and computer science.
+
+in computer science, the project is investigating different optimization
+methods which are resilient to the fault-prone, heterogeneous and
+asynchronous nature of internet computing; such as evolutionary and
+genetic algorithms, as well as asynchronous newton methods. while in
+astroinformatics, milkyway@home is generating highly accurate three
+dimensional models of the sagittarius stream, which provides knowledge
+about how the milky way galaxy was formed and how tidal tails are
+created when galaxies merge.
+
+this package contains the milkyway@home application for the boinc
+distributed computing platform.
+note that this package has been primarily created for users of
+architectures for which milkyway@home does not provide its application.
+if your architecture is x86 or amd64 the boinc client automatically
+downloads the latest milkyway@home application if you participate in this
+project. there is no need to install this package then.

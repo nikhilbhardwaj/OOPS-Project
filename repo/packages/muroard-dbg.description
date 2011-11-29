@@ -1,0 +1,7 @@
+Minimalist roaraudio sound daemon (debugging symbols)
+	
+roaraudio is a sound-server for audio mixing. its main purpose is to mix audio
+from different clients before sending it to its outputs (for example a
+soundcard).
+
+this package provides debugging symbols for the muroard package.

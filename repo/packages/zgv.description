@@ -1,0 +1,7 @@
+Svgalib graphics viewer
+	
+'zgv' is a graphics viewer, based around svgalib, which can display
+gif87a, gif89a, jpeg/jfif, png, pbm/pgm/ppm, bmp, and tga files on a
+standard vga and most svgas. it can be used to view single files from
+the command line (like 'zgv filename'), but also includes a full-screen
+file selector and slide show capability.

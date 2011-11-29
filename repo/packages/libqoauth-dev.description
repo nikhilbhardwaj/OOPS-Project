@@ -1,0 +1,9 @@
+Qt-based client implementation of the oauth authorization scheme
+	
+qoauth is a qt-based c++ implementation of an interface to services
+using the oauth authorization scheme.
+
+oauth is described in detail at http://oauth.net/
+
+this package contains the headers required for building programs that
+use qoauth.

@@ -1,0 +1,10 @@
+Gnu common c++ framework for embedded scripting
+	
+the gnu ccscript package offers a class extensible threaded embedded
+scripting engine for use with gnu common c++.  this engine is also used in
+gnu bayonne (the gnu telephony application server package) and other
+parts of gnucomm (the gnu telephony meta-project). this engine differs
+from traditional scripting systems in that it is used to script near
+real-time state-event systems through deterministic callback step
+execution rather than the linear and non-deterministic fashion of embedded
+script systems such as tcl, libguile, etc.

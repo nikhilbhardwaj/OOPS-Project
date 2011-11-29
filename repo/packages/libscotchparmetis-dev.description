@@ -1,0 +1,4 @@
+Programs and libraries for graph, mesh and hypergraph partitioning
+	
+scotch/parmetis compatility interface, providing a free implementation of the
+parmetis system for parallel graph partitioning and sparse matrix reordering.

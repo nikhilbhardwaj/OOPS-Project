@@ -1,0 +1,12 @@
+Tools for building debian ruby packages
+	
+this package contains some useful tools for building debian ruby packages
+and is used by the debian ruby maintainers team. it includes:
+
+  * cdbs classes for building packages which use setup.rb and/or extconf.rb
+    as installer,
+  * a program to retrieve upstream sources for use in conjunction with
+    svn-buildpackage,
+  * a debhelper tool, dh_rdoc, to generate and install rdoc documentation
+    of libraries and applications,
+  * a list of team members.

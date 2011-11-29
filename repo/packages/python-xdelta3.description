@@ -1,0 +1,9 @@
+Xdelta3 python module
+	
+xdelta3 is a set of tools designed to compute changes between
+binary files.  these changes (delta files) are similar to the output of the
+"diff" program, in that they may be used to store and transmit only the
+changes between files.  the "delta files" that xdelta3 manages are
+stored in rfc3284 (vcdiff) format.
+
+this is the python module.

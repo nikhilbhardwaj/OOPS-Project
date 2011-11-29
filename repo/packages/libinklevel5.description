@@ -1,0 +1,8 @@
+Library for checking the ink level of your local printer
+	
+the aim of this library is to provide a way to check the ink level of a local
+printer.
+
+it supports printers attached via parallel port or usb.
+
+many hp, epson and canon printers are supported.

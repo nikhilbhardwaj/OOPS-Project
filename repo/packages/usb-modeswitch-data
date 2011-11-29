@@ -1,0 +1,4 @@
+PackageId:33725
+Name:usb-modeswitch-data
+Version:20100826-1+squeeze0
+Deps:udev,not+linux-gnu,type-handling

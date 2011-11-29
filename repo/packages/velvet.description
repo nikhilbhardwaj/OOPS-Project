@@ -1,0 +1,10 @@
+Nucleic acid sequence assembler for very short reads
+	
+velvet is a de novo genomic assembler specially designed for short read
+sequencing technologies, such as solexa or 454, developed by daniel zerbino and
+ewan birney at the european bioinformatics institute (embl-ebi), near
+cambridge, in the united kingdom.
+
+velvet currently takes in short read sequences, removes errors then produces
+high quality unique contigs. it then uses paired read information, if
+available, to retrieve the repeated areas between contigs.

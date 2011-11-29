@@ -1,0 +1,10 @@
+Replace perl error messages with haiku
+	
+coy is a perl module that generates haiku based on the error messages a
+perl program outputs. the haiku are not canned, they are generated fresh
+each time based on the error message.
+
+
+ before use coy: run
+ code...read rebuke. after use
+ coy: run code...haiku!

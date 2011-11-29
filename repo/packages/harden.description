@@ -1,0 +1,13 @@
+Makes your system hardened
+	
+this package is intended to help the administrator to improve the security
+of the system, or at least make the host less susceptible.
+
+note! this package will not make your system uncrackable, and it is not
+intended to do so. making your system secure involves a lot more than just
+installing a package. you are recommended to read at least some documents
+in addition to installing this package.
+
+there is a lot of information available on making your system more secure.
+a good place to start is with the harden-doc package or at
+http://www.debian.org/doc/manuals/securing-debian-howto/

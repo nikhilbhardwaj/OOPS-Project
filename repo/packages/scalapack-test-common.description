@@ -1,0 +1,7 @@
+Test data for scalapack testers
+	
+scalapack is the parallel version of lapack and is used on beowulf type
+clusters.
+
+you can choose between an implementation based on mpi or pvm. this package
+provides test data for all scalapack packages (mpich, lam and pvm versions).

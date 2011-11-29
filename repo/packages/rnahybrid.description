@@ -1,0 +1,11 @@
+Fast and effective prediction of microrna/target duplexes
+	
+rnahybrid is a tool for finding the minimum free energy hybridisation of a
+long and a short rna. the hybridisation is performed in a kind of domain mode,
+ie. the short sequence is hybridised to the best fitting part of the long one.
+the tool is primarily meant as a means for microrna target prediction.
+
+public research assisted by rnahybrid should cite:
+marc rehmsmeier, peter steffen, matthias höchsmann, robert giegerich
+fast and effective prediction of microrna/target duplexes
+rna, 10:1507-1517, 2004.

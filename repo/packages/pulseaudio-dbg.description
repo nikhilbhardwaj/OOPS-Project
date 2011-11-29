@@ -1,0 +1,8 @@
+Pulseaudio sound server detached debugging symbols
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+this package contains the detached debugging symbols for the daemon and
+basic module set.

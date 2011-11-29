@@ -1,0 +1,9 @@
+Musicbrainz tagging library development files
+	
+libtunepimp simplifies tagging your audio files with the correct data
+about artist, album and track title using the musicbrainz infrastrucure.
+it works on top of libmusicbrainz and libraries to read audio in flac, mp3
+musepack (mpc), speex, the true audio (tta), ogg vorbis, wave and wma and
+wavpack (wv).
+
+this package contains headers, documentation and static libraries.

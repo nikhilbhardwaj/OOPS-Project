@@ -1,0 +1,6 @@
+Validating xml parser for java with dom level 3 support (native code)
+	
+the xerces2 java parser is the reference implementation of xni, the
+xerces native interface, and also a fully conforming xml schema processor.
+
+this package contains the natively compiled code for use by gij.

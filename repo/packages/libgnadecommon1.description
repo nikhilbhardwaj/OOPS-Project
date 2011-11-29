@@ -1,0 +1,11 @@
+Gnat ada database environment - common subprograms library
+	
+gnade is a complete database development environment for ada
+programmers.  it consists of:
+
+a. a thin binding to the odbc api.  with this api, you can write
+programs that query any odbc-compliant database server.
+
+b. a thin binding to sqlite3.
+
+this package contains the shared library for the common subprograms.

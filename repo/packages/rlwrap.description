@@ -1,0 +1,7 @@
+Readline feature command line wrapper
+	
+this package provides a small utility that uses the gnu readline library
+to allow the editing of keyboard input for any other command.  input
+history is remembered across invocations, separately for each command;
+history completion and search work as in bash and completion word lists
+can be specified on the command line.

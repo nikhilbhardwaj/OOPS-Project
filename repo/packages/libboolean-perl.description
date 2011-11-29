@@ -1,0 +1,6 @@
+Boolean support for perl
+	
+the boolean module provides basic boolean support for perl.
+
+the module provides two singleton objects, true and false, and several
+helper functions.

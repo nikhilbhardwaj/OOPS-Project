@@ -1,0 +1,9 @@
+C++ math type library, development files
+	
+this package contains the header files and static libraries needed
+for development with libmath++.
+
+libmath++ is a template based math library, written in c++ for
+symbolic and numeric calculus applications.  currently implemented
+features include conversion between string and tree representations,
+symbolic differentiation, and expression simplification.

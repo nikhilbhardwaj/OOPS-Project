@@ -1,0 +1,10 @@
+Daemon to synchronize local directories using rsync
+	
+lsyncd (live syncing mirror daemon) uses rsync to synchronize local
+directories with a remote machine running rsyncd. lsyncd watches
+multiple directories trees through inotify. the first step after
+adding the watches is to rsync all directories with the remote host,
+and then sync single file by collecting the inotify events. so lsyncd
+is a light-weight live mirror solution that should be easy to install
+and use while blending
+well with your system.

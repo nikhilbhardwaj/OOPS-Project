@@ -1,0 +1,13 @@
+Libast2 development files
+	
+headers, static libraries and documentation for developing software
+that uses libast2.
+
+libast is the library of assorted spiffy things.  it contains many
+spiffy things, and it is a library.  thus, the ever-so-creative name.
+libast has been previously known as libmej, the eterm helper library
+which nobody really understood and certainly never used.  the
+plan is to gradually remove some of the neat stuff from eterm that
+could be made generic (things like the theme parsing engine, the
+command-line options parser, perhaps the event engine, ...) and place
+it here in the hopes that others will find them useful.

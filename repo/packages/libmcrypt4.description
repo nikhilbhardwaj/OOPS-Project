@@ -1,0 +1,14 @@
+De-/encryption library
+	
+libmcrypt is the library which implements all the algorithms and
+modes found in mcrypt.
+
+libmcrypt supports the algorithms: blowfish, twofish, des, tripledes,
+3-way, safer-sk64, safer-sk128, safer+, loki97, gost, rc2, rc6, mars,
+idea, rijndael-128, rijndael-192, serpent, rijndael-256, cast-128
+(known as cast5), cast-256, arcfour, enigma, panama, xtea and wake.
+block algorithms can be used in: cbc, ecb, cfb and ofb (8 bit and n
+bit, where n is the size of the algorithm's block length).
+
+more information can be found at the libmcrypt homepage
+http://mcrypt.sourceforge.net/ .

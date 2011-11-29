@@ -1,0 +1,18 @@
+Format-independent image processing - debugging symbols
+	
+graphicsmagick provides libraries in several programming languages to read,
+write and manipulate image files across a large number of formats, from the
+widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+image formats found on some photo cds. there are functions for finegrained
+image processing tasks, as well as conversion routines between the various
+image formats.
+
+the graphicsmagick library is a fork of imagemagick and therefore offers
+an interface that is similar in features, but intended to be more stable
+across releases. while compatibility does not go so far that the
+graphicsmagick library serves as a drop-in replacement for imagemagick,
+conversion can usually be done with little effort.
+
+this package contains debugging symbols for the gm executable as well as the
+c, c++, and perl bindings. tools like gdb and ltrace make use of these
+symbols.

@@ -1,0 +1,8 @@
+Deal with ddts mails
+	
+ddtc stands for debian description translation client. it's a perl script to
+help both translators and reviewers to deal with ddts mails. it parses mails
+from the ddts, splits them into individual package files, sends translations,
+reviews and patches buggy translations.
+
+supports only package description (pdesc) for the moment.

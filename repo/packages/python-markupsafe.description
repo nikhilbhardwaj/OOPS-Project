@@ -1,0 +1,23 @@
+Xml/html/xhtml markup safe string for python
+	
+markupsafe implements a unicode subclass that supports html strings:
+
+
+ >>> from markupsafe import markup, escape
+ >>> escape("<script>alert(document.cookie);</script>")
+ markup(u'&lt;script&gt;alert(document.cookie);&lt;/script&gt;')
+ >>> tmpl = markup("<em>%s</em>")
+ >>> tmpl % "peter > lustig"
+ markup(u'<em>peter &gt; lustig</em>')
+
+
+if you want to make an object unicode that is not yet unicode
+but don't want to lose the taint information, you can use the
+`soft_unicode` function:
+
+
+ >>> from markupsafe import soft_unicode
+ >>> soft_unicode(42)
+ u'42'
+ >>> soft_unicode(markup('foo'))
+ markup(u'foo')

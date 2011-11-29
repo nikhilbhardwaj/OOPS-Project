@@ -1,0 +1,6 @@
+Create/manage supervised aoe exports
+	
+this framework uses runit to supervise permanent exports of aoe block
+devices.  it gives administrators simple, fine-grained,
+easily-automatable control over which devices should be actively
+exported under which aoe shelfs and slots.

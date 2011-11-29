@@ -1,0 +1,7 @@
+Wireless tools - library
+	
+wireless tools are used to manipulate the linux wireless extensions. the
+wireless extension is an interface allowing you to set wireless lan specific
+parameters and get the specific stats.
+
+this package contains the dynamic library libiw.

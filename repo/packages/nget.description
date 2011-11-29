@@ -1,0 +1,6 @@
+Auto-resuming command line nntp file grabber
+	
+nget is a command line nntp file grabber. it automatically pieces together
+multipart postings for easy retrieval, even substituting parts from multiple
+servers. it handles disconnects gracefully, resuming after the last part
+successfully downloaded. nget also caches header data for quick access.

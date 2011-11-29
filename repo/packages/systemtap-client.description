@@ -1,0 +1,12 @@
+Instrumentation system for linux 2.6 (client for compile server)
+	
+this package contains client for systemtap compile server. it can be
+used to compile probes on a remote machine running systemtap-server.
+this client can be run on a machine without full kernel debug information
+and development environment required for 'systemtap' package.
+
+if you only want to compile systemtap probes locally just install
+'systemtap'  package.
+
+systemtap provides infrastructure to simplify the gathering of
+information about the running linux system.

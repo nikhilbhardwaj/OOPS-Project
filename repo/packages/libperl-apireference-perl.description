@@ -1,0 +1,7 @@
+Perl module to programmatically query the perlapi
+	
+perl::apireference allows accessing the perlapi documentation for multiple
+releases of perl as an index (a hash).
+
+currently, the stable releases perl 5.10.1, 5.10.0, 5.8.0-9, and 5.6.0-2 are
+supported. additionally, the development releases 5.11.0-2 are included.

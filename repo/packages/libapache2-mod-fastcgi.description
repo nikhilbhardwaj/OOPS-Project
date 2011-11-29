@@ -1,0 +1,9 @@
+Apache 2 fastcgi module for long-running cgi scripts
+	
+this is a fastcgi module for the apache 2.x web server.  fastcgi is an
+open standard for communicating between a web server and a long-running
+web application.  cgi scripts supporting fastcgi can be started as a
+daemon and process multiple requests without restarting.  this is
+particularly useful for scripts written in languages like perl, as it
+saves the cost of recompiling the scripts and its loaded modules with
+each invocation.

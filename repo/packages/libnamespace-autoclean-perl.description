@@ -1,0 +1,17 @@
+Perl module to remove all imported symbols at the end of the compile cycle
+	
+namespace::autoclean is a handy module to keep your namespace clean by
+removing all imported symbols at the end of the current package's compile
+cycle. perhaps most importantly, this means that imported functions will no
+longer be made accidentally accessible to users outside of your package via
+method invocations.
+
+the way this is done at the end of the compile cycle but prior to execution
+means that functions will remain accessible for use inside your package,
+since function calls are resolved at compile time. for the most part, the
+only change that needs to be made is to load the module.
+
+this module differs slightly from namespace::clean in that it cleans all
+imported functions, whether or not the imports happened prior to using the
+pragma. things that "look" like a method will be left alone (class::mop is
+used for this feature).

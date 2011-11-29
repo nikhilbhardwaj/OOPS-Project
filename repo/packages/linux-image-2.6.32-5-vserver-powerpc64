@@ -1,0 +1,4 @@
+PackageId:23392
+Name:linux-image-2.6.32-5-vserver-powerpc64
+Version:2.6.32-38
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,initramfs-tools,linux-initramfs-tool,dracut,libc6,libc6-udeb,linux-base,module-init-tools,kldutils

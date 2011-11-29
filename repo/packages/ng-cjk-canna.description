@@ -1,0 +1,8 @@
+Nihongo micrognuemacs with cjk and canna support
+	
+ng is nihongo mg, micrognuemacs. it is a small lightweight emacs-like
+editor. it can handle both latin and cjk.
+
+ng-cjk-canna can handle iso-2022-jp, shift-jis, euc-jp as well as euc-kr and
+euc-cn(gb only). latin is not supported. canna, one of japanese input
+methods, is also supported.

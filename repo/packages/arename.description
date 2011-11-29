@@ -1,0 +1,6 @@
+Automatic audio file renaming
+	
+arename is a tool that is able to rename audio files by looking at a file's
+tagging information. it uses this information to assemble a consistent
+destination file name. the user can define the format of the destination
+filename by the use of template strings.

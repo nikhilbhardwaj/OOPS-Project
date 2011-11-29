@@ -1,0 +1,7 @@
+The cairo 2d vector graphics library xlib backend
+	
+cairo is a multi-platform library providing anti-aliased
+vector-based rendering for multiple target backends.
+
+this is version of cairo with only the xlib backend, intended
+primarily for use in the graphical debian installer.

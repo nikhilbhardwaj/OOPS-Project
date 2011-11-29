@@ -1,0 +1,7 @@
+Debug symbols for claws mail mailer
+	
+this package contains debug symbols useful for debugging the claws-mail
+package with gdb or any compatible debugger.
+
+it is also required if you intend to provide detailed backtraces for
+helping the maintainer and/or upstream to fix some bug.

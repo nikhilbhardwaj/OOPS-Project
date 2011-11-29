@@ -1,0 +1,20 @@
+Ati all-in-wonder tv capture software
+	
+the general ati tv and overlay software (gatos) suite for
+capturing video.  this package does not require kernel
+patches, and includes:
+
+  * xatitv: gui tv-in-a-window application
+       gui access to all gatos functionality, save tv-out.
+  * atitv: simple text-mode program
+       basic functionality to record video and toggle tv-out.
+  * atitoppm:
+  * atitogif:
+  * atitojpg:
+       yuv conversion utilities
+  * yuvsum: video field to frame converter
+       averages all images in gatos.yuv (must all
+       be same size).
+  * atisplit: yuv conversion to ucbmpeg
+       this splits the output file for mpeg encoding.
+ this software is not intended to support most recent ati aiw radeon

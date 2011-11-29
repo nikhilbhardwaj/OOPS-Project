@@ -1,0 +1,5 @@
+Arp table administration
+	
+arptables is used to set up, maintain, and inspect the tables of
+arp rules in the linux kernel. it is analogous to iptables,
+but operates at the arp layer rather than the ip layer.

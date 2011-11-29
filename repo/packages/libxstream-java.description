@@ -1,0 +1,31 @@
+Java library to serialize objects to xml and back again
+	
+the features of the xstream library are:
+
+
+ - ease of use. a high level facade is supplied that simplifies common
+   use cases.
+ - no mappings required. most objects can be serialized without need
+   for specifying mappings.
+ - performance. speed and low memory footprint are a crucial part of
+   the design, making it suitable for large object graphs or systems
+   with high message throughput.
+ - clean xml. no information is duplicated that can be obtained via
+   reflection. this results in xml that is easier to read for humans
+   and more compact than native java serialization.
+ - requires no modifications to objects. serializes internal fields,
+   including private and final. supports non-public and inner classes.
+   classes are not required to have default constructor.
+ - full object graph support. duplicate references encountered in the
+   object-model will be maintained. supports circular references.
+ - integrates with other xml apis. by implementing an interface,
+   xstream can serialize directly to/from any tree structure (not just
+   xml).
+ - customizable conversion strategies. strategies can be registered
+   allowing customization of how particular types are represented as
+   xml.
+ - error messages. when an exception occurs due to malformed xml,
+   detailed diagnostics are provided to help isolate and fix the
+   problem.
+ - alternative output format. the modular design allows other output
+   formats. xstream ships currently with json support and morphing.

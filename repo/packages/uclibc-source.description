@@ -1,0 +1,8 @@
+Small c library implementation - source
+	
+uclibc is an implementation of the standard c library that is much smaller
+than glibc, which makes it useful for embedded systems. this package provides
+only the run-time libraries.
+
+this package provides the source code for the library, for toolchain
+bootstrap purposes.

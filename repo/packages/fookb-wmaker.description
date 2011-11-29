@@ -1,0 +1,7 @@
+An xkb state indicator -- windowmaker version.
+	
+windowmaker docked xkb state indicator. fookb can switch xkb groups
+and display a pixmap corresponding to the selected group. it also can
+execute a specified command upon the switch (for example, play sound).
+this is the windowmaker-compiled version. it can do docking, and uses
+proplist-style configuration files.

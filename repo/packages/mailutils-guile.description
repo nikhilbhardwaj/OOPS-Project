@@ -1,0 +1,5 @@
+Gnu mailutils guile interpreter and modules
+	
+these are the gnu mailutils guile utilities and modules. in particular,
+the "guimb" mail processor and the sieve.scm sieve to scheme translator
+are included, along with several .scm modules for use with guile.

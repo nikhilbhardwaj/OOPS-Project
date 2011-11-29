@@ -1,0 +1,8 @@
+Perl module for three-way merge of textual data
+	
+algorithm::merge provides three-way merge and diff functions, complementing
+the functionality offered by algorithm::diff (libalgorithm-diff-perl). given
+three sets of items, known as the original, left and right, this module can
+take a three-way difference or merge them. taking a difference provides an
+array reference that is very similar to the behaviour of algorithm::diff. one
+can also implement custom conflict resolution using the conflict callback.

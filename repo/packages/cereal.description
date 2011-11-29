@@ -1,0 +1,13 @@
+Automated, logged serial terminal management system
+	
+cereal provides a framework to easily set up and maintain automated,
+timestamped logs of serial lines, while simultaneously allowing end
+user access to them.  this is probably most useful for providing
+automated, logged access to remote serial consoles.
+
+cereal can control an arbitrary number of independently monitored and
+logged lines.  direct access to the monitored lines is allowed only
+to a specific user (who doesn't necessarily otherwise have access to
+the direct serial line), but logs can be made available to any group.
+logs are rotated automatically and their total space can be limited
+in size.

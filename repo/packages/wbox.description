@@ -1,0 +1,16 @@
+Http testing tool and configuration-less http server
+	
+wbox aims to help you having fun while testing http related stuff.
+you can use it to perform many tasks, including the following.
+
+ * benchmarking how much time it takes to generate content
+   for your web application.
+ * web server and web application stressing.
+ * testing virtual domains configuration without the need to alter
+   your local resolver.
+ * check if your redirects are working correctly emitting
+   the right http code.
+ * test if the http compression is working and if it is actually
+   serving pages faster.
+ * use it as a configuration-less http server to share files!
+   (it's as simple as % wbox servermode webroot /tmp)

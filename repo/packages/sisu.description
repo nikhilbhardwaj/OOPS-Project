@@ -1,0 +1,34 @@
+Documents - structuring, publishing in multiple formats and search
+	
+sisu is a lightweight markup based, command line oriented, document
+structuring, publishing and search framework for document collections.
+
+with minimal preparation of a plain-text, (utf-8) file, using its native
+markup syntax in your text editor of choice, sisu can generate various
+document formats (most of which share a common object numbering system for
+locating content), including plain text, html, xhtml, xml, epub, opendocument
+text (odf:odt), latex, pdf files, and populate an sql database with objects
+(roughly paragraph-sized chunks) so searches may be performed and matches
+returned with that degree of granularity: your search criteria is met by these
+documents and at these locations within each document. object numbering is
+particularly suitable for "published" works (finalized texts as opposed to
+works that are frequently changed or updated) for which it provides a fixed
+means of reference of content. document outputs also share semantic meta-data
+provided.
+
+sisu also provides concordance files, document content certificates and
+manifests of generated output.
+
+a vim syntax highlighting file and an ftplugin with folds for sisu markup is
+provided, as are syntax highlighting files for kate, kwrite, gedit and
+diakonos. vim 7 includes syntax highlighting for sisu.
+
+man pages, and interactive help are provided.
+
+dependencies for various features are taken care of in sisu related packages.
+the package sisu-complete installs the whole of sisu.
+
+additional document markup samples are provided in the package
+sisu-markup-samples which is found in the non-free archive the licenses for
+the substantive content of the marked up documents provided is that provided
+by the author or original publisher.

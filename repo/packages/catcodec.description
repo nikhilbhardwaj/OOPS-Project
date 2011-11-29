@@ -1,0 +1,5 @@
+Tool to decode/encode the sample catalogue for openttd
+	
+catcodec decodes and encodes sample catalogues for openttd.
+these sample catalogues are not much more than some meta-data
+(description and file name) and raw pcm data.

@@ -1,0 +1,7 @@
+The last.fm fingerprinting library
+	
+liblastfm is a collection of c++/qt4 libraries provided by last.fm for use
+with their web services.
+
+this library lets you fingerprint decoded audio tracks and fetch metadata
+suggestions for them.

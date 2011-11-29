@@ -1,0 +1,11 @@
+Debhelper addon to track package versions used to build a package
+	
+this script is designed to be run at build-time, and registers in a
+file the list of packages declared as build-time dependencies, as
+well as build-essential packages, together with their versions, as
+installed in the build machine.
+
+this will hopefully help to track packages (auto-)built with package
+versions which are known to be buggy, and, more generally, to find
+out whether a package needs to be rebuilt because of a significant
+change in a package it has a build-time dependency on.

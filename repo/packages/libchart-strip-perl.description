@@ -1,0 +1,8 @@
+Draw strip chart type graphs
+	
+the chart::strip package plots data values versus time graphs, such as
+used for seismographs, ekgs, or network usage reports.
+
+it can plot multiple data sets on one graph. it offers several
+styles of plots. it automatically determines the proper ranges
+and labels for both axes.

@@ -1,0 +1,9 @@
+Lightweight ruby-based mvc framework for web development
+	
+ruby-based mvc framework that is agnostic to orm, javascript library,
+and template languages. merb is plugin-based, so the core is small and
+well organized.
+
+the merb packages provide just enough to run a basic merb application.
+
+this package contains the merb binary and associated files.

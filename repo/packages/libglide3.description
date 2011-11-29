@@ -1,0 +1,8 @@
+Graphics library for 3dfx voodoo based cards - shared libraries
+	
+this package allows you to use the 3d functions of cards based on
+3dfx interactive, inc's voodoo banshee, voodoo 3, voodoo 4, and
+voodoo 5 chipsets.
+you should install it if you use such a card.
+
+this package does not need the 3dfx kernel driver, as it uses dri instead.

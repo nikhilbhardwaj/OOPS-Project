@@ -1,0 +1,9 @@
+Courier mail server - pop3 over ssl
+	
+the courier mail transfer agent (mta) is an integrated mail/groupware
+server based on open commodity protocols, such as esmtp, imap, pop3, ldap,
+ssl, and http. courier provides esmtp, imap, pop3, webmail, and mailing list
+services within a single, consistent, framework.
+
+pop3 over ssl is handled by the regular pop3 daemon from courier-pop
+in conjunction with the ssl/tls wrapper supplied by courier-ssl.

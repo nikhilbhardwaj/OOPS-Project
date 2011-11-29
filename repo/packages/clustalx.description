@@ -1,0 +1,18 @@
+Gui for clustal w
+	
+this package offers a gui interface for the clustal w multiple sequence
+alignment program. it provides an integrated environment for performing
+multiple sequence- and profile-alignments to analyse the results.
+the sequence alignment is displayed in a window on the screen.
+a versatile coloring scheme has been incorporated to highlight conserved
+features in the alignment. for professional presentations, one should
+use the texshade latex package or boxshade.
+
+the pull-down menus at the top of the window allow you to select all the
+options required for traditional multiple sequence and profile alignment.
+you can cut-and-paste sequences to change the order of the alignment; you can
+select a subset of sequences to be aligned; you can select a sub-range of the
+alignment to be realigned and inserted back into the original alignment.
+
+an alignment quality analysis can be performed and low-scoring segments or
+exceptional residues can be highlighted.

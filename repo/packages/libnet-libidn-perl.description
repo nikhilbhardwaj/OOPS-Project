@@ -1,0 +1,5 @@
+Perl bindings for gnu libidn
+	
+provides bindings for gnu libidn, a c library for handling internationalized
+domain names according to idna (rfc 3490), in a way very much inspired by
+turbo fredriksson's php-idn.

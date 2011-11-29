@@ -1,0 +1,7 @@
+Wraps any wsgi application and makes it easy to test
+	
+webtest helps you test your wsgi-based web applications. this can be any
+application that has a wsgi (web server gateway interface) interface,
+including an application written in a framework that supports wsgi (which
+includes most actively developed python web frameworks – almost anything
+that even nominally supports wsgi should be testable).

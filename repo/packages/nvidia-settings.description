@@ -1,0 +1,9 @@
+Tool for configuring the nvidia graphics driver
+	
+the nvidia-settings utility is a tool for configuring the nvidia
+linux graphics driver.  it operates by communicating with the nvidia
+x driver, querying and updating state as appropriate.  this
+communication is done with the nv-control x extension.
+
+values such as brightness and gamma, xvideo attributes, temperature,
+and opengl settings can be queried and configured via nvidia-settings.

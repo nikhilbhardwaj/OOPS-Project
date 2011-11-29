@@ -1,0 +1,13 @@
+Enhanced source code editor widget
+	
+gtk2::sourceview2 is the perl binding for the c library gtksourceview-2.0.
+this is the same widget that's used by gedit, monodevelop, anjuta and several
+other projects.
+
+this widget extends the standard gtk+ framework for multiline text editing
+with support for configurable syntax highlighting, unlimited undo/redo, utf-8
+compliant caseless searching, printing and other features typical of a source
+code editor.
+
+for more information about gtksourceview-2.0 see:
+http://projects.gnome.org/gtksourceview/.

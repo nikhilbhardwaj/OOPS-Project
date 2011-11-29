@@ -1,0 +1,5 @@
+External ppmd compression module for complearn learning library
+	
+c language interface to connect the ppmd data compressor to complearn.  by
+using this system, researchers can take full advantage of the external ppmd
+data compressor.  this module uses fork and exec like all *x complearn mods.

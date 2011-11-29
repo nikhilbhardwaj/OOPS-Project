@@ -1,0 +1,21 @@
+The massively parallel quantum chemistry program
+	
+mpqc is an ab-inito quantum chemistry program.  it is especially designed
+to compute molecules in a highly parallelized fashion.
+
+it can compute energies and gradients for the following methods:
+
+ * closed shell and general restricted open shell hartree-fock (hf)
+ * density functional theory (dft)
+ * closed shell moeller-plesset pertubation theory (mp2)
+
+
+additionally, it can compute energies for the following methods:
+
+ * second order open shell pertubation theory (opt2[2])
+ * z-averaged pertubation theory (zapt2)
+
+
+it also includes an internal coordinate geometry optimizer.
+
+mpqc is built upon the scientific computing toolkit (sc).

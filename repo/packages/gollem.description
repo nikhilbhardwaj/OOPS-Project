@@ -1,0 +1,7 @@
+File manager component for horde framework
+	
+gollem is the horde web-based file manager, providing the ability to fully
+manage a hierarchical file system stored in a variety of backends such as
+a sql database, as part of a real filesystem, or on an ftp server.  it uses
+the horde's mime_viewer framework to identify file types, associate icons,
+etc.

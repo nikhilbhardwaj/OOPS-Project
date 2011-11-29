@@ -1,0 +1,4 @@
+PackageId:1601
+Name:capisuite
+Version:0.4.5-12
+Deps:default-mta,exim4-daemon-light,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,ghostscript,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcapi20-3,libgcc1,libpython2.6,libstdc++6,libtiff-tools,libunwind7,python,python-support,sfftobmp,sox

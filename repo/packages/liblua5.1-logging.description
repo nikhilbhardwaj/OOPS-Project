@@ -1,0 +1,5 @@
+Lualogging library for the lua language version 5.1
+	
+this package contains the lua logging facility library, with backends for
+console, file, sql, mail, socket. sql and mail/socket support are available
+only installing respectively liblua5.1-sql* and liblua5.1-socket* packages.

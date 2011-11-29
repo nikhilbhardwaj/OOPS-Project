@@ -1,0 +1,13 @@
+Html photo album generator with theme support
+	
+album is a perl script that can create html photo albums for your
+directories of images. it supports themes that determine the visual
+appearance of the albums. album creates thumbnails if necessary, and
+'medium sized' versions of images for web viewing to avoid large
+downloads of original images. you can also customize your photo
+albums in many other ways.
+
+this program doesn't require a web server to work. once the html is
+generated, you can put it in your "www" directory.
+
+screenshot: http://www.eriberto.pro.br/debian/screenshots/album.jpg

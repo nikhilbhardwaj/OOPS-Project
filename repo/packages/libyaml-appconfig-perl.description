@@ -1,0 +1,7 @@
+Manage configuration files with yaml and variable references
+	
+yaml::appconfig manages configuration files using yaml for storage. it also
+provides variable interpolation, similar to appconfig.
+
+configuration keys can be accessed via dedicated get_foo/set_foo methods or
+through an all-in-one hash.

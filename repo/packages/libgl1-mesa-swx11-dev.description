@@ -1,0 +1,9 @@
+A free implementation of the opengl api -- development files
+	
+this package provides the development environment required for
+compiling programs with mesa.  for a complete description of mesa,
+please look at the libgl1-mesa-swx11 package.
+
+this library provides a pure software rasteriser; it does not provide
+a direct rendering-capable library, or one which uses glx.  for that,
+please see libgl1-mesa-dev.

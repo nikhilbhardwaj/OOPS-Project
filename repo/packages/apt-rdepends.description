@@ -1,0 +1,6 @@
+Recursively lists package dependencies
+	
+this utility can recursively list package dependencies, either forwards
+or in reverse.  it also lists forward build-dependencies.  the output
+format closely resembles that of `apt-cache depends`.  as well, it can
+generate .dot graphs, much like apt-cache in dotty mode.

@@ -1,0 +1,7 @@
+Processing, statistical analysis, and display of brain imaging data
+	
+this is a toolkit for analysis of functional neuroimaging (chiefly
+fmri) experiments and voxel-based lesion-behavior mapping. voxbo
+supports the modified glm (for autocorrelated data), as well as the
+standard glm for non-autocorrelated data. the toolkit is designed to be
+interoperable with afni, fsl, spm and others.

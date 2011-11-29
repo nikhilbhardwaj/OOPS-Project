@@ -1,0 +1,13 @@
+Python to debian source package conversion utility
+	
+this package provides some tools to produce debian packages from python
+packages via a new distutils command, sdist_dsc. automatic defaults are
+provided for the debian package, but many aspects of the resulting package can
+be customized via a configuration file.
+
+
+ * pypi-install will query the python package index (pypi) for a
+   package, download it, create a .deb from it, and then install
+   the .deb.
+ * py2dsc will convert a distutils-built source tarball into a debian
+   source package.

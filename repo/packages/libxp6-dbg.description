@@ -1,0 +1,20 @@
+X printing extension (xprint) client library (unstripped)
+	
+libxp provides public apis to allow client applications to render to
+non-display devices, making use of the x print service.
+
+this package provides an unstripped shared object with debugging symbols,
+useful to provide a backtrace with symbol names in a debugger; this
+facilitates interpretation of core dumps, and aids in finding logic errors in
+programs using this library (or the library itself).  the library is
+installed in /usr/lib/debug and can be used by placing that directory in the
+ld_library_path environment variable when the code to be debugged is
+executed.  non-programmers will likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxp

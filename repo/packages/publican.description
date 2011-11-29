@@ -1,0 +1,11 @@
+Tool for publishing material authored in docbook xml
+	
+publican is a docbook xml publication system:
+
+ * publican ensures your document is valid,
+ * publican works to ensure your document is up to publishable standard,
+ * publican supports skinning to allow you to create your own presentation
+   rules and look, overriding many parts of the default style to meet your
+   publishing needs,
+ * publican automates producing documentation in several formats: plain text,
+   several variations of html output and pdf, hiding boring details.

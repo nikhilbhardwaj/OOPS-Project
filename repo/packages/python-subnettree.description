@@ -1,0 +1,5 @@
+Python module for cidr lookups
+	
+the pysubnettree package provides a python data structure subnettree which
+maps subnets given in cidr (classless inter-domain routing) notation to python
+objects. lookups are performed by longest-prefix matching.

@@ -1,0 +1,11 @@
+Ruby library for scientific graphs [transition package]
+	
+tioga is a blend of pdf, pdftex and ruby into a library to make
+scientific graphs of high quality. it is fairly complete and
+extensive, and comes with examples and (online) complete documentation.
+
+tioga is useful for scripting the generation of graphs, and comes
+with a configuration file for irb for interactive plotting of pictures.
+
+this package is provided for a smooth transition and can be safely
+removed once libtioga-ruby has been installed.

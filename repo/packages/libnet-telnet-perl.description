@@ -1,0 +1,10 @@
+Script telnetable connections
+	
+net::telnet allows you to make client connections to a tcp port and
+do network i/o, especially to a port using the telnet protocol.
+simple i/o methods such as print, get, and getline are provided.
+more sophisticated interactive features are provided because
+connecting to a telnet port ultimately means communicating with a
+program designed for human interaction.  these interactive features
+include the ability to specify a timeout and to wait for patterns to
+appear in the input stream, such as the prompt from a shell.

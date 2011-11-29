@@ -1,0 +1,4 @@
+PackageId:27042
+Name:phamm-ldap
+Version:0.5.18-2+squeeze1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,ldap-utils,phamm-ldap-amavis,amavisd-new,phamm-ldap-vacation,gnarwl,slapd

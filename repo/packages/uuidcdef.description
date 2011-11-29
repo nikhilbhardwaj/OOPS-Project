@@ -1,0 +1,5 @@
+Universally unique identifier (uuid) generator
+	
+this utility generates univerally unique identifiers (uuids).  it also
+manages to print them out in osf form, or as a c structure when handling
+them in programs, as is the case for an xplc-enabled library.

@@ -1,0 +1,8 @@
+Functions from the book "the haskell school of expression"
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+an alternative implementation of the graphics library used in the book the
+haskell school of expression, by paul hudak, http://www.haskell.org/soe. this
+library builds on top of gtk+.

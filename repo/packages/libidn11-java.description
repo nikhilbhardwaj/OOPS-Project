@@ -1,0 +1,9 @@
+Java port of the gnu libidn library, an idn implementation
+	
+gnu libidn is an implementation of the stringprep, punycode and idna
+specifications defined by the ietf internationalized domain names
+(idn) working group, used for internationalized domain names.
+currently the nameprep, kerberos 5 and xmpp stringprep profiles are
+supported.
+
+this package contains the native java port of the library.

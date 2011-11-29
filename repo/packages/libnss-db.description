@@ -1,0 +1,7 @@
+Nss module for using berkeley databases as a naming service
+	
+nss_db is a set of c library extensions which allow berkeley databases
+to be used as a primary source of aliases, ethers, groups, hosts,
+networks, protocol, users, rpcs, services, and shadow passwords (instead
+of or in addition to using flat files or nis). install nss_db if your
+flat name service files are too large and lookups are slow.

@@ -1,0 +1,16 @@
+Gnu paint - a small, easy to use paint program for gnome
+	
+this is gpaint (gnu paint), a small-scale painting program for gnome,
+the gnu desktop environment. gpaint does not attempt to compete with
+gimp, it is just a simple drawing package based on xpaint, along the
+lines of 'paintbrush' from a popular non-free operating system.
+
+currently gpaint has the following features:
+
+  * drawing tools such as ovals, freehand, polygon and text, with
+    fill or shadow for polygons and closed freehand shapes.
+  * cut and paste by selecting irregular regions or polygons.
+  * preliminary print support using gnome-print.
+  * modern, ease-to-use user interface with tool and color palettes.
+  * multiple-image editing in a single instance of the program.
+  * all the image processing features present in xpaint.

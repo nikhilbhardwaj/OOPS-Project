@@ -1,0 +1,8 @@
+Development files for applications with pspell support
+	
+this package contains the headers and static libraries for developing
+applications with portable spell-checking interface (pspell) support.
+
+you need this package only if you plan to build applications that link
+against the pspell static libraries.  you do not have to install this
+package if all you want to do is use the aspell program to spell-check.

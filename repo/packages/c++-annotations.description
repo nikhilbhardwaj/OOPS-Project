@@ -1,0 +1,40 @@
+Extensive tutorial and documentation about c++
+	
+the c++ annotations offer an extensive tutorial about the c++ programming
+language. it can be used as a textbook for c/c++ programming courses. a
+translation of this document (included in this package) is available in
+portuguese.
+
+this document is intended for knowledgeable users of c (or any other language
+using a c-like grammar, like perl or java) who would like to know more about,
+or make the transition to, c++. this document is the main textbook for
+frank's c++ programming courses, which are yearly organized at the university
+of groningen, the netherlands.
+
+the c++ annotations do not cover all aspects of c++, though. in particular,
+c++'s basic grammar, which is, for all practical purposes, equal to c's
+grammar, is not covered. for this part of the c++ language, the reader should
+consult other texts, like a book covering the c programming language.
+
+this package installs c++ annotations packages for all available formats,
+including:
+
+   - plain ascii text
+   - latex (including a .dvi file)
+   - postscript
+   - pdf
+   - html
+
+the postscript, pdf and latex formats were constructed for two different
+paper-sizes: a4 and legal.
+
+if you do not require all of the available formats, you may prefer to
+install one or more of the following c++-annotations-{format} packages
+instead:
+
+   - c++-annotations-html
+   - c++-annotations-txt
+   - c++-annotations-latex
+   - c++-annotations-pdf
+   - c++-annotations-ps
+   - c++-annotations-dvi

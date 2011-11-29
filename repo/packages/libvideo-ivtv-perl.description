@@ -1,0 +1,8 @@
+Perl extension for using v4l2 in the ivtv perl scripts
+	
+the video::ivtv module will provide helper methods for working with
+videodev2.h structures and making ioctl calls that have proven to be
+too difficult to create pack strings for in perl itself.
+
+this is not supposed to be an equivalent of the video::capture::v4l
+module which was created for videodev.h.

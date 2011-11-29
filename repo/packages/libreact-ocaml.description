@@ -1,0 +1,8 @@
+Functional reactive programming in ocaml (plugins)
+	
+react is an ocaml module for functional reactive programming.
+it provides support to program with time varying values:
+applicative events and signals. react doesn't define any primitive
+event or signal, this lets the client chooses the concrete timeline.
+
+this package contains dynamically loadable plugins of react.

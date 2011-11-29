@@ -1,0 +1,13 @@
+Easily extensible python im bot for irc, jabber, silc, campfire, etc.
+	
+ibid is a multi-protocol, general purpose, instant messaging chat bot written
+in python. it aims for a naturalistic interface rather than strict-syntax
+commands.
+
+ibid understands many protocols, including irc, jabber/xmpp/google talk,
+campfire, nmdc and silc. it also interacts over smtp, http and various rpc
+protocols.
+
+ibid aims to make plugins as easy as possible to write. it ships with a large
+collection of plugins for looking up information, performing conversions,
+storing factoids, delivering messages, and much more.

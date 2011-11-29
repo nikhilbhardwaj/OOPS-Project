@@ -1,0 +1,27 @@
+Libpcap-based ethernet packet generator
+	
+bit-twist is designed to complement tcpdump, which by itself has done a great
+job in capturing network traffic. bit-twist can regenerate the captured
+traffic onto a live network (the packets are generated from tcpdump trace
+file, generating a .pcap file).
+
+bit-twist also comes with a comprehensive trace file editor to allow to change
+the contents of a trace file.
+
+generally, a packet generator is useful in simulating networking traffic or
+scenario, testing firewall, ids, and ips, and troubleshooting various network
+problems.
+
+the bit-twist features are:
+
+
+   * send multiple trace files at a time;
+   * send packets at a specific speed or line rate in mbps;
+   * comprehensive trace file editor with control over most fields in
+     ethernet, arp, ip, icmp, tcp, and udp headers with automatic header
+     checksum correction;
+   * append user payload to existing packets after a specific header;
+   * select a specific range of packets and save them in another trace file;
+   * if you are teaching computer networks classes, you may find bit-twist
+     useful as a practical teaching material. it gives your students a
+     hands-on experience to learn various networking protocols etc.

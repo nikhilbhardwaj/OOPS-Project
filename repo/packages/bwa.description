@@ -1,0 +1,8 @@
+Burrows-wheeler aligner
+	
+burrows-wheeler aligner (bwa) is a program that aligns relatively short
+nucleotide sequences against a long reference sequence such as the human
+genome. it implements two algorithms, bwa-short and bwa-sw. the former works
+for query sequences shorter than 200 bp and the latter for longer sequences up
+to around 100 kbp. both algorithms do gapped alignment. they are usually more
+accurate and faster on queries with low error rates.

@@ -1,0 +1,5 @@
+The d compiler
+	
+this is a dependency package providing the default d compiler.
+per policy, all packages that contain d sources must use this package
+in their build-depends line.

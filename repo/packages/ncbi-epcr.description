@@ -1,0 +1,19 @@
+Tool to test a dna sequence for the presence of sequence tagged sites
+	
+electronic pcr (e-pcr) is computational procedure that is used to identify
+sequence tagged sites(stss), within dna sequences. e-pcr looks for potential
+stss in dna sequences by searching for subsequences that closely match the
+pcr primers and have the correct order, orientation, and spacing that could
+represent the pcr primers used to generate known stss.
+
+the new version of e-pcr implements a fuzzy matching strategy. to reduce
+likelihood that a true sts will be missed due to mismatches, multiple
+discontigous words may be used instead of a single exact word. each of this
+word has groups of significant positions separated by 'wildcard' positions
+that are not required to match. in addition, it is also possible to allow
+gaps in the primer alignments.
+
+the main motivation for implementing reverse searching (called reverse e-pcr)
+was to make it feasible to search the human genome sequence and other large
+genomes. the new version of e-pcr provides a search mode using a query
+sequence against a sequence database.

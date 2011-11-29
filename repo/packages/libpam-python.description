@@ -1,0 +1,7 @@
+Enables pam modules to be written in python
+	
+this pam module runs the python interpreter, thus allowing pam
+modules to be written in python.  as a python incurs a considerable
+overhead its intended audience is sysadmins writing one off pam
+modules.  if you are doing that, you should probably install
+the documentation in libpam-python-doc as well.

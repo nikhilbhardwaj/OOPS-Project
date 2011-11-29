@@ -1,0 +1,9 @@
+Standalone applications implementing the ocas solver
+	
+this library implements optimized cutting plane algorithm (ocas) for
+training linear support vector machine (svm) classifiers from
+large-scale data. the computational effort of ocas scales linearly with
+the number of training examples. it is one of the fastest svm solvers
+around for solving linear and multiclass l2 regularized svms.
+
+this package contains the standalone applications.

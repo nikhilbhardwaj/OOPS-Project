@@ -1,0 +1,8 @@
+Interface to sendmail's mail filter api
+	
+sendmail::milter is a perl extension to sendmail's mail filter api
+(milter).
+
+with this module, perl callbacks can be defined and registered with
+the milter engine. this module calls those perl callbacks using
+interpreters from a threaded persistent interpreter pool.

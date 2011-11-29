@@ -1,0 +1,20 @@
+Firebird super server - an rdbms based on interbase 6.0 code
+	
+firebird is a relational database offering many ansi sql-99 features that
+runs on linux, windows, and a variety of unix platforms. firebird offers
+excellent concurrency, high performance, and powerful language support
+for stored procedures and triggers. it has been used on production systems
+under a variety of names since 1981.
+
+the "super" architecture uses separate threads to handle each connection.
+it has its advantages (eg: is usually faster and more efficient for large
+numbers of clients) but is unable to use more that one cpu on an smp
+system and under some circumstances a client may crash all server threads.
+
+this package contains the 2.5 branch of firebird.
+
+firebird is a commercially independent project of c and c++ programmers,
+technical advisors and supporters developing and enhancing a multi-platform
+relational database management system based on the source code released by
+inprise corp (now known as borland software corp) under the interbase public
+license v.1.0 on 25 july, 2000.

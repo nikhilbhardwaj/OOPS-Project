@@ -1,0 +1,21 @@
+Fancy interface to the python interpreter - curses frontend
+	
+bpython is a fancy interface to the python interpreter, and has the
+following features:
+
+
+  * in-line syntax highlighting.
+  * readline-like autocomplete with suggestions displayed as you type
+  * expected parameter list for any python function. uses pydoc to attempt to
+    divine params for c functions.
+  * "rewind" function to pop the last line of code from memory and re-evaluate.
+    note: this is only really useful when laying out classes and functions,
+    since a true "undo" function is impossible, so be careful when using this.
+  * send the code you've entered off to a pastebin and display the pastebin url
+    for copying, etc.
+  * save the code you've entered to a file.
+  * auto-indentation.
+  * anti-crash mode.
+
+
+this package contains the curses frontend to bpython.

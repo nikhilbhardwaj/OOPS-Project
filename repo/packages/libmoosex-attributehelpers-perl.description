@@ -1,0 +1,6 @@
+Perl library to extend your attribute interfaces
+	
+moosex::attributehelpers provides commonly-used attribute helper methods for
+more specific types of data than those offered by moose alone. it provides
+bool, counter, number, string, array, bag, hash, immutablehash, and list
+attribute types.

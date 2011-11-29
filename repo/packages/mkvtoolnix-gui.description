@@ -1,0 +1,10 @@
+Set of tools to work with matroska files - gui frontend
+	
+matroska is a new multimedia container format, based on ebml (extensible
+binary meta language), which is a kind of binary xml.
+
+the mmg tool is a graphical user interface for the mkvmerge program, which
+allows to create matroska files from other formats.
+
+this package also contains a graphical version of the mkvinfo tool, which
+allows to get information about a matroska file.

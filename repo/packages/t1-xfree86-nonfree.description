@@ -1,0 +1,17 @@
+Non-free postscript type 1 fonts from xfree86
+	
+collection of postscript type 1 fonts originally part of
+the xfree86 distribution, but which are licensed under terms
+incompatible with the debian free software guidelines, and thus cannot
+be distributed as part of debian.
+
+the fonts are:
+
+ - ibm courier
+ - b&h luxi mono
+ - b&h luxi sans
+ - b&h luxi serif
+
+
+other non-free fonts are in the separate packages ttf-xfree86-nonfree
+and ttf-xfree86-nonfree-syriac.

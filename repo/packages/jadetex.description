@@ -1,0 +1,14 @@
+Generator of printable output from sgml or xml using jade
+	
+jadetex, in conjunction with jade or openjade, can be used to produce
+printable output from sgml or xml files.  this package includes
+'jadetex', which produces dvi output, viewable with 'xdvi'; and
+'pdfjadetex', which produces pdf output.
+
+jadetex is a set of latex macros.  jadetex process the output from
+the tex backend to jade or openjade.
+
+note that jade and jadetex uses dsssl to produce formatted output
+from sgml or xml source files.  debian also provides sgml/xml
+document formatting using xsl stylesheets instead of dsssl; that is
+provided by other packages, such as passivetex, xsltproc, and fop.

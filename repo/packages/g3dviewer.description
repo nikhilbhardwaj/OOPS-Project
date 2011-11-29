@@ -1,0 +1,8 @@
+3d model viewer for gtk+
+	
+g3dviewer is a 3d file viewer for gtk+ supporting a variety of file types by
+using the libg3d plugin facility. models can be inspected and rendered using
+opengl. rendering options includes wireframe rendering, shadows, isometric
+view, specular lightning, and textures.
+
+see 'libg3d-plugin*' for supported formats.

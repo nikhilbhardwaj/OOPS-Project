@@ -1,0 +1,14 @@
+Real time application interface (documentation)
+	
+rtai is a realtime extension with a broad variety of services which
+make realtime programmers' lifes easier. some of them are
+
+
+ choose between fifo and rr scheduling policies on a per task basis.
+ extended posix apis and message queues, in kernel and user space
+ semaphores can be typed as: counting, binary and resource
+ a mailbox implementation
+ lxrt for hard real time in user space
+
+
+this package contains the documentation.

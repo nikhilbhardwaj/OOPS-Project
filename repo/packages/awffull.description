@@ -1,0 +1,28 @@
+Web server log analysis program
+	
+awffull is a web server log analysis program, forked from webalizer. it adds a
+number of new features and improvements, such as extended frontpage history,
+resizable graphs, and a few more pie charts.
+
+webalizer is a great weblog analysis program but hasn't been going anywhere in
+recent years. awffull takes that base and starts to fix the niggles and
+annoyances and hopefully become a useful enhancement.
+
+as a base, weblizer has a stated goal of producing web server analysis.
+awffull on the other hand, will gradually focus more on the business
+intelligence contained within those logs - and not specifically limited just to
+web server logs.
+
+major enhancements vs. webalizer
+
+the frontpage history can now cover more than 12 months.
+stylesheets (css) are supported. customise to your hearts content!
+the log type can be auto-detected
+can process: clf, combined, squid, ftp xfer and domino v6 logs
+all graphs are now resizable, rather than being a fixed size
+config file simplification to reduce duplication of common config pairings
+bookmarking numbers are tracked. be aware that these are estimates!
+backend changes: use of pcre lib and standard library calls to ease coding pain
+pattern matching improvements can increase the speed of a run by 50%. ymmv!
+404 errors are tracked and displayed with both the target and referrering url
+can specify what is a page or what is not.

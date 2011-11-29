@@ -1,0 +1,13 @@
+Stuttgart finite-state transducer tools
+	
+sfst is a toolbox for the implementation of morphological analysers
+and other tools which are based on finite state transducer
+technology. the sfst tools comprise
+
+
+  * a compiler which translates transducer programs into minimised transducers
+  * interactive and batch-mode analysis programs
+  * tools for comparing and printing transducers
+  * a c++ library which is efficient and easy to use
+
+.

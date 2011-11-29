@@ -1,0 +1,24 @@
+Extensions for mediawiki -- base package
+	
+this package provides the base set of useful extensions for mediawiki:
+
+ * categorytree         -- dynamic view of the wiki's category structure
+ * cite                 -- add tags for citation purpose
+ * createbox            -- safer inputbox variant for creating pages
+ * footnote             -- add footnote to your articles
+ * imagemap             -- make images into clickable maps
+ * inputbox             -- add predefined html forms to wiki pages
+ * languageselector     -- detect and select user language
+ * newusernotif         -- send customisable mail upon account creation
+ * newestpages          -- show the last pages added to the wiki
+ * news                 -- embed excerpt from recentchanges into a page
+ * pagecss              -- parser hook to add per-page css
+ * parserfunctions      -- collection of parser functions
+ * poem                 -- add tags for poems
+ * polyglot             -- provide redirects based on user language
+ * rss_reader           -- embed rss feed content into a page
+ * specialrenameuser    -- special page to rename users
+
+
+these extensions are set together for the debian mediawiki
+package, but they may also be used separately.

@@ -1,0 +1,4 @@
+PackageId:5287
+Name:gforge-ftp-proftpd
+Version:5.0.2-5
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,debianutils,gforge-common,gforge-shell-postgresql,gforge-shell,perl,php5-cli,proftpd,proftpd-basic,ucf

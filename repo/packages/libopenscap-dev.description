@@ -1,0 +1,19 @@
+Set of libraries enabling integration of the scap line of standards
+	
+openscap is a set of open source libraries providing an easier path
+for integration of the scap line of standards. scap is a line of
+standards managed by nist with the goal of providing a standard language
+for the expression of computer network defense related information.
+
+the intended scope of this project is to implement working interface
+wrappers for parsing and querying scap content including:
+
+ * common vulnerabilities and exposures (cve)
+ * common configuration enumeration (cce)
+ * common platform enumeration (cpe)
+ * common vulnerability scoring system (cvss)
+ * extensible configuration checklist description format (xccdf)
+ * open vulnerability and assessment language (oval)
+
+
+this package contains the development files for openscap.

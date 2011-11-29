@@ -1,0 +1,6 @@
+Library to read compressed rtf files (debugging symbols)
+	
+can decompress and recompress compressed rtf and convert from
+utf8 to rtf for use in things like the airsync protocols.
+
+this package contains the debugging symbols for the library.

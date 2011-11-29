@@ -1,0 +1,6 @@
+Base class for creating plugin enabled poe components
+	
+poe::component::pluggable is a base class for creating plugin enabled poe
+components. it is a generic port of poe::component::irc's plugin system. if
+your component dispatches events to registered poe sessions, then
+poe::component::pluggable may be a good fit for you.

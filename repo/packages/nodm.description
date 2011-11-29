@@ -1,0 +1,5 @@
+Automatic display manager
+	
+this package prepares the system to automatically start an x session at
+system boot. it is meant for devices like smartphones, but can be used on
+a regular computer as well, if the security implications are acceptable.

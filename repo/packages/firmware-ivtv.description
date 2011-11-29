@@ -1,0 +1,18 @@
+Binary firmware for itvc15-family mpeg codecs (ivtv and pvrusb2 drivers)
+	
+this package contains the binary firmware for tv cards with conexant
+itvc15-family mpeg codecs, supported by the ivtv and pvrusb2 drivers.
+
+contents:
+
+ * conexant cx23415/cx23416 mpeg codec (decoder) (v4l-cx2341x-dec.fw)
+ * conexant cx23415/cx23416 mpeg codec (encoder) (v4l-cx2341x-enc.fw)
+ * conexant cx23415/cx23416 mpeg codec (initialization) (v4l-cx2341x-init.mpg)
+ * conexant cx25840 mpeg codec (v4l-cx25840.fw)
+ * hauppauge pvr usb2 24xxx models (v4l-pvrusb2-24xxx-01.fw)
+ * hauppauge pvr usb2 29xxx models (v4l-pvrusb2-29xxx-01.fw)
+
+
+this firmware is covered by the hauppauge end-user firmware license
+agreement.  you must agree to the terms of this license before it is
+installed.

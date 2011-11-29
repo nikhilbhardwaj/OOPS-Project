@@ -1,0 +1,4 @@
+PackageId:1217
+Name:bluez
+Version:4.66-3
+Deps:dbus,libbluetooth3,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcap-ng0,libdbus-1-3,libglib2.0-0,libnl1,libusb-0.1-4,lsb-base,module-init-tools,kldutils,udev,makedev

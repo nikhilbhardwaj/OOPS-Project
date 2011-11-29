@@ -1,0 +1,11 @@
+Fast standalone full-text sql search engine
+	
+sphinx is a standalone full text search engine, meant to provide fast,
+size-efficient and relevant fulltext search functions to other applications.
+sphinx was specially designed to integrate well with sql databases and
+scripting languages. currently built-in data sources support fetching data
+either via direct connection to mysql or postgresql, or using xml pipe
+mechanism (a pipe to indexer in special xml-based format which sphinx
+recognizes).
+
+sphinx is an acronym which is officially decoded as sql phrase index.

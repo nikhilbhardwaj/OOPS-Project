@@ -1,0 +1,15 @@
+Microwave and rf transmission line calculator
+	
+transcalc is an analysis and synthesis tool for calculating the
+electrical and physical properties of different kinds of rf and
+microwave transmission lines.
+
+transcalc is built using the gimp toolkit (gtk+) for its gui
+interface. for each type of transmission line, using dialog boxes,
+you can enter values for the various parameters, and either calculate
+its electrical properties (analyze), or use the given electrical
+requirements to synthesize physical parameters of the required
+transmission line.
+
+available transmission lines (this list will expand with subsequent
+releases): microstrip, rectangular waveguide.

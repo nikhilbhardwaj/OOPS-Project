@@ -1,0 +1,12 @@
+Html::tiny - lightweight, dependency free html/xml generation
+	
+html::tiny is a simple, dependency free module for
+generating html (and xml). it concentrates on generating
+syntactically correct xhtml using a simple perl notation.
+in addition to the html generation functions utility functions are
+provided to
+
+ - encode and decode url encoded strings
+ - entity encode html
+ - build query strings
+ - json encode data structures

@@ -1,0 +1,6 @@
+The c++ portable components odbc library, debug version
+	
+the c++ portable components consist of various c++ libraries. this package
+provides libpocoodbcd library (debug version of poco odbc library).
+
+debian version is linked against unixodbc however poco can also use iodbc.

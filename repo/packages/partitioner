@@ -1,0 +1,4 @@
+PackageId:26787
+Name:partitioner
+Version:0.48
+Deps:cdebconf-udeb,fdisk-udeb,harddrive-detection,disk-detect,s390-dasd,libc6-udeb,libdebconfclient0-udeb,libdebian-installer4-udeb,libparted0-udeb

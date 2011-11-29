@@ -1,0 +1,10 @@
+Melting digital clock
+	
+the xdaliclock program displays a digital clock; when a digit changes, it
+"melts" into its new shape.
+
+it can display in 12 or 24 hour modes, and displays the date when a mouse
+button is held down. it has two large fonts built into it, but it can animate
+most other fonts that contain all of the digits. it can also do some funky
+psychedelic colormap cycling, and can use the "shape" extension so that the
+window is shaped like the digits.

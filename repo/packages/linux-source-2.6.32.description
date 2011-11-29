@@ -1,0 +1,7 @@
+Linux kernel source for version 2.6.32 with debian patches
+	
+this package provides source code for the linux kernel version 2.6.32.
+this source closely tracks official linux kernel releases.  debian's
+modifications to that source consist of security fixes, bug fixes, and
+features that have already been (or are believed to be) accepted by the
+upstream maintainers.

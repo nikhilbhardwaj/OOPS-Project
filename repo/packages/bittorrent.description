@@ -1,0 +1,17 @@
+Original bittorent client - console tools
+	
+bittorrent is a tool for distributing files. it's extremely
+easy to use - downloads are started by clicking on hyperlinks.
+whenever more than one person is downloading at once
+they send pieces of the file(s) to each other, thus relieving
+the central server's bandwidth burden. even with many
+simultaneous downloads, the upload burden on the central server
+remains quite small, since each new downloader introduces new
+upload capacity.
+
+this package contains the tools which are used for console-only
+downloading.  if you want the gui interface, install the
+bittorrent-gui package.
+
+
+ homepage: http://bitconjurer.org/bittorrent/

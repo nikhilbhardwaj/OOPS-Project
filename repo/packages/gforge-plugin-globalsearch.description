@@ -1,0 +1,11 @@
+Globalsearch plugin for fusionforge
+	
+fusionforge provides many tools to aid collaboration in a
+development project, such as bug-tracking, task management,
+mailing-lists, scm repository, forums, support request helper,
+web/ftp hosting, release management, etc. all these services are
+integrated into one web site and managed through a web interface.
+
+this plugin contains a cross-fusionforge search engine.  you can
+declare a list of other fusionforge sites, and search for projects
+hosted on these forges from your own.

@@ -1,0 +1,6 @@
+Determines file type using "magic" numbers
+	
+file tests each argument in an attempt to classify it. there are three sets of
+tests, performed in this order: filesystem tests, magic number tests, and
+language tests. the first test that succeeds causes the file type to be
+printed.

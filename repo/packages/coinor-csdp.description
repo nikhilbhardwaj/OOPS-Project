@@ -1,0 +1,11 @@
+A software package for semidefinite programming
+	
+csdp is a library of routines that implements a predictor corrector variant of
+the semidefinite programming algorithm of helmberg, rendl, vanderbei, and
+wolkowicz. the code runs in parallel on shared memory multi-processor systems,
+and it makes effective use of sparsity in the constraint matrices.
+
+csdp is part of the larger coin-or initiative (computational infrastructure
+for operations research).
+
+this package contains the binaries.

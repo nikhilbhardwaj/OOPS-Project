@@ -1,0 +1,13 @@
+Library for editing bytecodes in java
+	
+this library makes java bytecode manipulation simple. it enables java
+programs to define a new class at runtime and to modify a class file
+when the jvm loads it.
+
+unlike other bytecode editors, javassist provides two levels of api:
+source level and bytecode level. with the source-level api, users can
+edit a class file without knowledge of the specifications of the java
+bytecode. you can even specify inserted bytecode in the form of source
+text; javassist compiles it on the fly. on the other hand, the
+bytecode-level api allows the users to directly edit a class file as
+other editors.

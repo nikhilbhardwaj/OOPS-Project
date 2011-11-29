@@ -1,0 +1,6 @@
+Make ssh v2 connections with python
+	
+this is a library for making ssh2 connections (client or server).
+emphasis is on using ssh2 as an alternative to ssl for making secure
+connections between python scripts.  all major ciphers and hash methods
+are supported.  sftp client and server mode are both supported too.

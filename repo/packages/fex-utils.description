@@ -1,0 +1,16 @@
+Web service for transfering very large files (utils)
+	
+f*ex (frams's fast file exchange) is a service that can be used to allow
+users anywhere on the internet to exchange very large files quickly and
+conveniently.
+
+the sender uploads the file to the f*ex-server and the recipient
+automatically gets a notification e-mail with a download-url.
+
+this package includes:
+
+
+  fexsend
+  fexget
+  sexsend
+  sexget

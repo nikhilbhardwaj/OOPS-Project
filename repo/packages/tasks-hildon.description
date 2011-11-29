@@ -1,0 +1,8 @@
+A simple to do manager - hildon flavour
+	
+tasks is a simple to do manager, using gtk+ and libecal.  it eschews
+complicated features for a simple interface and functionality that does the
+right thing.
+
+this flavour is suitable for the hildon desktop; for other desktop systems
+such as gnome, see the tasks package.

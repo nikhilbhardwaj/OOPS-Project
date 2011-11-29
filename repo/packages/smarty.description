@@ -1,0 +1,25 @@
+Template engine for php
+	
+smarty is a template engine for php. more specifically, it
+facilitates a manageable way to separate application logic and content
+from its presentation.
+
+this is best described in a situation where the
+application programmer and the template designer play different roles,
+or in most cases are not the same person. for example, let's say you
+are creating a web page that is displaying a newspaper article. the
+article headline, tagline, author and body are content elements, they
+contain no information about how they will be presented. they are
+passed into smarty by the application, then the template designer
+edits the templates and uses a combination of html tags and template
+tags to format the presentation of these elements (html tables,
+background colors, font sizes, style sheets, etc.) one day the
+programmer needs to change the way the article content is retrieved (a
+change in application logic.) this change does not affect the template
+designer, the content will still arrive in the template exactly the
+same. likewise, if the template designer wants to completely redesign
+the templates, this requires no changes to the application
+logic. therefore, the programmer can make changes to the application
+logic without the need to restructure templates, and the template
+designer can make changes to templates without breaking application
+logic.

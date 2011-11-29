@@ -1,0 +1,12 @@
+Virtualization utilities, mostly for xen
+	
+this is a bunch of utilities for virtualization hosts. all except xenscreen are
+using xenstore and thus are xen-specific.
+
+
+ * xenscreen - attach xen domain consoles to screen windows.
+ * xenlog - log xenstore activity to stdout.
+ * xenstore - gtk xenstore browser.
+ * xenwatch - list running domains with some properties, allow connecting to
+   text and graphical (vnc) consoles.
+ * vnc-client - built-in vnc client from xenwatch as standalone application.

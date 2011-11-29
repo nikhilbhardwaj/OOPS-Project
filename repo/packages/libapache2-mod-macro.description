@@ -1,0 +1,6 @@
+Create macros inside apache2 config files
+	
+mod-macro allows the definition and use of macros within apache runtime
+configuration files.
+the syntax is a natural extension to apache html-like configuration
+style

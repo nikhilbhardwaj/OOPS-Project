@@ -1,0 +1,6 @@
+E-commerce and general http database display system
+	
+interchange is a database access and retrieval system focused on e-commerce.
+it allows customers to select items to buy from catalog pages. the program
+tracks user information in sessions and interacts with a http server
+through sockets.

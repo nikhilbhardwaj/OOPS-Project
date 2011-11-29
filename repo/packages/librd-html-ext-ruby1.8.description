@@ -1,0 +1,15 @@
+Extended rd2html format library
+	
+rd2html-ext is an extended rd2html format library.
+it provides the following function in addition to the original rd2html-lib.rb.
+
+ * section no. at headline
+ * enable <br> at textblock
+ * reference extension
+   + inline image
+   + reference to ruby-list ml
+   + reference to raa
+ * native inline
+   + any html inline can be inserted in rd!!
+ * head element
+   + any html elements in head element in rd!!

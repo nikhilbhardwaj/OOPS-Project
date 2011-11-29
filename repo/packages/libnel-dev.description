@@ -1,0 +1,11 @@
+Massive multi-user 3d game environments library
+	
+this is a software platform for creating and running massively multi-user
+entertainment in a 3d environment over the internet.
+
+this library is further divided into specific modules: network, ai, 3d
+and misc. if you want to use any of these, you also need to use the misc
+part of the library, but ai, 3d and network are totally independent from
+each other so you can use only the parts you really need in your project.
+
+this package contains the static library, headers and documentation.

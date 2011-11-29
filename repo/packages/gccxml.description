@@ -1,0 +1,8 @@
+Xml output extension to gcc
+	
+there is one open-source c++ parser, the c++ front-end to gcc, which
+is currently able to deal with the language in its entirety. the
+purpose of the gcc-xml extension is to generate an xml description of
+a c++ program from gcc's internal representation. since xml is easy to
+parse, other development tools will be able to work with c++ programs
+without the burden of a complicated c++ parser.

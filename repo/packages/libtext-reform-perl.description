@@ -1,0 +1,4 @@
+Perl module for manual text wrapping and reformatting
+	
+text::reform provides a re-entrant, highly configurable replacement
+for the built-in perl format() mechanism.

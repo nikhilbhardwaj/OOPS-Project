@@ -1,0 +1,7 @@
+Python module to control and program the ftdi usb controller
+	
+this python module could talk to ftdi's ft232 and ft245 type usb chips from
+userspace. it uses libusb to communicate with the chips.
+
+functionalities include the possibility to use the chips in standard
+mode, in bitbang mode, and to read or write the serial eeprom.

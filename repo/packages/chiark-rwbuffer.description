@@ -1,0 +1,5 @@
+Readbuffer/writebuffer: prevents tape drive seesawing, etc.
+	
+readbuffer and writebuffer: programs for reading input from devices,
+and writing output to, which don't like constant stopping and
+starting, such as tape drives and audio playback devices.

@@ -1,0 +1,11 @@
+Stani's python editor
+	
+spe is a python ide with auto-indentation, auto completion, call
+tips, syntax coloring, syntax highlighting, uml viewer, class
+explorer, source index, auto todo list, sticky notes, integrated
+pycrust shell, python file browser, recent file browser, drag&drop,
+context help, ... special is its blender support with a blender 3d
+object browser and its ability to run interactively inside
+blender. spe ships with wxglade & xrced (gui designers), pychecker
+(source code doctor) and kiki (regular expression console). spe is
+extensible with wxglade.

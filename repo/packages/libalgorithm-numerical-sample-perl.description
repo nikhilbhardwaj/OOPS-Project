@@ -1,0 +1,6 @@
+Draw samples from a set
+	
+this package gives two methods to draw fair, random samples from a set.
+there is a procedural interface for the case the entire set is known,
+and an object oriented interface when the a set with unknown size has
+to be processed.

@@ -1,0 +1,7 @@
+Rpm build shared library
+	
+the rpm package manager (rpm) is a command-line driven package
+management system capable of installing, uninstalling, verifying,
+querying, and updating computer software packages.
+
+this library provides an interface for building rpm packages.

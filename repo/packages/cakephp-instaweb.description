@@ -1,0 +1,8 @@
+Development webserver for cakephp applications
+	
+cakephp is a flexible model-view-controller rapid application development
+framework for php inspired by ruby on rails.
+
+this package contains a tiny python-based webserver suitable for quick
+development of cakephp applications, similar to django's 'runserver' and
+the 'script/server' script in ruby on rails.

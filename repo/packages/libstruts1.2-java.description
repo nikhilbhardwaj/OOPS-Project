@@ -1,0 +1,14 @@
+Java framework for mvc web applications
+	
+the core of the struts framework is a flexible control layer based on standard
+technologies like servlets, javabeans, resourcebundles, and extensible
+markup language (xml), as well as various apache commons packages. struts
+encourages application architectures based on the model 2 approach, a
+variation of the classic model-view-controller (mvc) design paradigm.
+
+struts provides its own controller component and integrates with other
+technologies to provide the model and the view. for the model, struts can
+interact with any standard data access technology, including enterprise java
+beans (ejb), jdbc, and object relational bridge. for the view, struts works
+well with javaserver pages (jsp), including jstl and jsf, as well as velocity
+templates, xslt, and other presentation systems.

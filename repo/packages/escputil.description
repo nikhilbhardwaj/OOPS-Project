@@ -1,0 +1,11 @@
+Maintenance utility for epson stylus printers
+	
+escputil is a utility to clean and align the heads of epson stylus
+printers.  it can also check the current ink levels in the printer.
+
+gutenprint is the print facility for the gimp, and in addition a
+suite of drivers that may be used with common unix spooling systems
+using ghostscript or cups.  these drivers provide printing quality
+for unix/linux on a par with proprietary vendor-supplied drivers in
+many cases, and can be used for many of the most demanding printing
+tasks.  gutenprint was formerly known as gimp-print.

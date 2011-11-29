@@ -1,0 +1,6 @@
+Vcard query utility for mutt
+	
+this package contains a utility for doing queries to a vcard data
+file from the mutt mail user agent using mutt's query_command.  you
+will then be able to query email addresses from the data file when
+you use the `q' command in mutt.

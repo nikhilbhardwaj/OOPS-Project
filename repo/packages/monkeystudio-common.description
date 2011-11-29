@@ -1,0 +1,19 @@
+Qt 4 integrated development enviroment (ide) - common files
+	
+monkey studio is a crossplatform qt 4 ide. it is developed using the qt
+library itself, meaning it will run on any platform supported by qt 4. this
+allows you to work on the same project on multiple platforms using the same
+ide. monkey studio uses the qt project file (.pro) to manage the project, and
+there are no extra files created.
+
+monkey studio also features
+
+ * advanced, customizable code editor, based on qscintilla
+ * syntax highlighting for more than 22 programming languages
+ * templates wizard - create files or projects from templates
+ * code restyling - quickly fix/update style of your code using astyle
+ * qt designer integration
+ * qt assistant integration
+
+
+this package contains the translations, templates etc.

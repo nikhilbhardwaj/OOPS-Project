@@ -1,0 +1,24 @@
+Format a bytecount and make it human readable
+	
+format::human::bytes is used to convert bytecount values to human-readable
+strings. it will return you a printable string which is more readable by
+humans than a simple bytecount.
+
+for example:
+
+   use format::human::bytes;
+   $readable = format::human::bytes::base2($bytecount[,$decimals]);
+
+it will convert in base 2 format.
+
+
+   $readable = format::human::bytes::base10($bytecount[,$decimals]);
+
+it will convert in base 10 format.
+
+another way is to create constructor for example:
+
+
+   $fhb = format::human::bytes->new();
+   $readable = $fhb->base2($bytecount[,$decimals]);
+   $readable = $fhb->base10($bytecount[,$decimals]);

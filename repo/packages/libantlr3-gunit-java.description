@@ -1,0 +1,14 @@
+Unit test framework for antlr grammars
+	
+gunit is a "unit test" framework for antlr grammars. it provides a simple
+way to write and run automated tests for antlr grammars in a manner similar
+to java unit testing framework junit. the basic idea is to create a bunch of
+input/output pairs for rules in a grammar and gunit will verify the expected
+output/result. the input can be a single line or multiple lines of strings or
+even an external file. the output can be simply success or failure, an
+abstract syntax tree (ast), a rule return value, or some text output which
+could be a rule's template return value. the current version of gunit has 2
+main functions, interpreter and junit generator. the interpreter interprets
+your gunit script and runs unit tests using java reflection to invoke methods
+in your parser objects. the generator, on the other hand, translates your
+gunit script to junit java code that you can compile and execute by hand.

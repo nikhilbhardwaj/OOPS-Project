@@ -1,0 +1,7 @@
+A highly configurable file dialog widget for perl/tk
+	
+this file dialog widget is a collection of sub-widgets: a listbox
+for files and (optionally) directories, an entry for filename, an
+(optional) entry for pathname, an entry for a filter pattern, a
+'showall' checkbox (for enabling display of .* files and directories),
+and three buttons, namely ok, rescan, and cancel

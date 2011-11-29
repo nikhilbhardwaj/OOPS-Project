@@ -1,0 +1,10 @@
+Svgalib video plugin for the allegro library
+	
+this plugin adds support for the svgalib graphics library to the allegro
+library. programs using the svgalib library need to run with root permissions,
+so you probably do not want to use this plugin unless you have very good
+reasons to do so.
+
+allegro is a cross-platform library intended for use in computer
+games and other types of multimedia programming. it is used by many
+dos games and can be used to port them easily to linux.

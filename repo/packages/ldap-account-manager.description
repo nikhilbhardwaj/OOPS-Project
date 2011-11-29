@@ -1,0 +1,11 @@
+Webfrontend for managing accounts in an ldap directory
+	
+ldap account manager (lam) runs on an existing webserver.
+it manages user, group and host accounts. currently lam
+supports these account types: samba 3, unix, kolab 2,
+address book entries, nis mail aliases and mac addresses.
+there is an integrated ldap browser to allow access to the
+raw ldap attributes. you can use templates
+for account creation and use multiple configuration profiles.
+account information can be exported as pdf file. there is also
+a script included which manages quotas and homedirectories.

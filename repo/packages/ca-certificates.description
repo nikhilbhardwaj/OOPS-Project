@@ -1,0 +1,12 @@
+Common ca certificates
+	
+this package includes pem files of ca certificates to allow ssl-based
+applications to check for the authenticity of ssl connections.
+
+it includes, among others, certificate authorities used by the debian
+infrastructure and those shipped with mozilla's browsers.
+
+please note that certificate authorities whose certificates are
+included in this package are not in any way audited for
+trustworthiness and rfc 3647 compliance, and that full responsibility
+to assess them belongs to the local system administrator.

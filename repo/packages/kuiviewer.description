@@ -1,0 +1,10 @@
+Viewer for qt designer user interface files
+	
+kuiviewer is a utility to display and check user interface (.ui) files
+created in qt designer.  the interfaces can be shown in a variety of
+different widget styles to ensure that they display correctly in any
+environment.
+
+the qt designer itself is in the package qt4-designer.
+
+this package is part of the kde software development kit module.

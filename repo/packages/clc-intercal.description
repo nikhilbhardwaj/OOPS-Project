@@ -1,0 +1,10 @@
+Compiler for the intercal language
+	
+this package provides a perl-based compiler for the intercal
+programming language, usable either from the command line or as a
+perl module.
+
+clc-intercal is designed to be almost compatible with the original
+(princeton 1972) compiler.  it also implements several extensions to
+the original language, including support for object orientation,
+operator overloading and quantum computing.

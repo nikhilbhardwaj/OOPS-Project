@@ -1,0 +1,12 @@
+Mit/gnu scheme debugging files
+	
+mit/gnu scheme is an implementation of the scheme programming language,
+providing an interpreter, compiler, source-code debugger, integrated
+emacs-like editor, and a large runtime library.  mit/gnu scheme is best
+suited to programming large applications with a rapid development
+cycle.
+
+this package contains debugging files for the development
+environment.  these files provide support for debugging the mit/gnu
+scheme system, and are useful only if you need to see the system
+internals while you are debugging.

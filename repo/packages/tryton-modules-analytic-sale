@@ -1,0 +1,4 @@
+PackageId:33192
+Name:tryton-modules-analytic-sale
+Version:1.6.0-1
+Deps:python,python-pkg-resources,python-support,tryton-modules-analytic-account,tryton-modules-analytic-invoice,tryton-modules-sale,tryton-server

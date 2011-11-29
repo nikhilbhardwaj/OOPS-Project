@@ -1,0 +1,6 @@
+Simple word wrapping routine
+	
+text::wrapper provides simple word wrapping.  it breaks long lines,
+but does not alter spacing or remove existing line breaks.  if you're
+looking for more sophisticated text formatting, try the
+text::format module.

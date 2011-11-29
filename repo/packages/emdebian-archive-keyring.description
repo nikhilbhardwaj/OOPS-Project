@@ -1,0 +1,8 @@
+Gnupg archive keys for the emdebian repository
+	
+emdebian digitally signs its release files. this package
+contains the archive key used by both emdebian crush and
+emdebian grip.
+
+the key is also available via the emdebian website and as
+a udeb for debian-installer support.

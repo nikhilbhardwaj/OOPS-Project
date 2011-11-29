@@ -1,0 +1,17 @@
+The gnu bombing utility
+	
+this game is the same as the old blitz16 game on commodore 16/plus 4,
+written by simon taylor.
+
+the player is driving a plane that moves across the screen. when the
+plane reaches the right edge of the screen it starts again on the
+left side, but drops down one line.  below is a cityscape composed of
+blocks. the player has to drop bombs from the plane, and each bomb
+which hits a building removes some blocks. as the plane descends it
+risks hitting any remaining blocks so priority has to be given to
+bombing the tallest buildings.  the level is completed when all
+blocks are removed and the plane has descended safely to the bottom
+of the screen.
+
+info about the original blitz 16:
+http://plus4world.powweb.com/software/blitz_16

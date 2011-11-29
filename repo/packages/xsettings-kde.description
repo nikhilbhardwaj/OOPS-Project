@@ -1,0 +1,6 @@
+Xsettings daemon for kde
+	
+this package provides a xsettings daemon for k desktop environment. it allows
+xsettings aware applications (all gtk+ 2 and gnome 2 applications) to be
+informed instantly of changes in kde configuration, such as theme name, default
+font and so on.

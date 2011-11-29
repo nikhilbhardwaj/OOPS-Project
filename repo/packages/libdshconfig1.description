@@ -1,0 +1,6 @@
+Configuration file parser library for dsh - runtime
+	
+runtime library for configuration file parser,
+required for running programs with dsh config file support.
+
+dsh uses this library to parse configuration files.

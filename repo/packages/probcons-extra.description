@@ -1,0 +1,10 @@
+Extra programs from the probcons package
+	
+contains the convert, project and makgnuplot programs from the probcons
+package, which have been renamed to pc-compare, pc-project and pc-makegnuplot
+respectively to avoid collisions with other program names. these programs are
+mostly useful for testing purposes and are not required for the normal usage of
+probcons.
+
+probcons is a tool for generating multiple alignments of protein
+sequences.

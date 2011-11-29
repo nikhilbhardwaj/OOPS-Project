@@ -1,0 +1,15 @@
+Linux scsi target user-space tools
+	
+the linux target framework (tgt) allows a linux system to provide scsi
+devices (targets) over networked scsi transports.
+
+tgt consists of kernel modules, user-space daemon, and user-space
+this package contains the user-space daemon and tools; a recent linux
+kernel is required for the modules.
+
+this package includes drivers for:
+
+
+ - fcoe (fibre channel over ethernet)
+ - iscsi (scsi over ip)
+ - iser (iscsi over rdma, using infiniband)

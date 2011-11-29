@@ -1,0 +1,19 @@
+The lightweight x11 desktop environment configuration data
+	
+lxde (the lightweight x11 desktop environment) is a project aimed
+to provide a new desktop environment which is lightweight and fast.
+
+it's not designed to be powerful and bloated, but to be usable and slim
+enough, and keep the resource usage low.  different from other desktop
+environments, lxde don't tightly integrate every component. instead,
+lxde tried to make all components independent, and each of them can be
+used independently with fewer dependencies.
+
+features:
+
+ - lightweight, runs with reasonable memory usage
+ - fast, rund well even on older machines produced in 1999
+ - good-looking, gtk+ 2 internationalized user interface
+ - easy-to-use, the user interface is simple, but usable enough
+ - desktop independent (suprise! every component can be used without lxde)
+ - standard compliant, follows the specs on freedesktop.org

@@ -1,0 +1,12 @@
+Nonlinear equations and nonlinear least squares shared library
+	
+minpack includes software for solving nonlinear equations and
+nonlinear least squares problems.  five algorithmic paths each include
+a core subroutine and an easy-to-use driver.  the algorithms proceed
+either from an analytic specification of the jacobian matrix or
+directly from the problem functions.  the paths include facilities for
+systems of equations with a banded jacobian matrix, for least squares
+problems with a large amount of data, and for checking the consistency
+of the jacobian matrix with the functions.
+
+this package provides the shared library.

@@ -1,0 +1,4 @@
+PackageId:26018
+Name:olpc-kbdshim-hal
+Version:12-3
+Deps:hal,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdbus-1-3,libdbus-glib-1-2,libglib2.0-0,libhal1,olpc-kbdshim-common

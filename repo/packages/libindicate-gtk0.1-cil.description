@@ -1,0 +1,9 @@
+Cli bindings for libindicate-gtk2
+	
+a small library for applications to raise "flags" on dbus for other components
+of the desktop to pick up and visualize.
+
+this package provides the indicate-sharp assembly that allows cli (.net)
+programs to display information consistently in the gnome panel.
+
+this package contains assemblies to be used by gtk# applications.

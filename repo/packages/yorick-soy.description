@@ -1,0 +1,23 @@
+Sparse matrix operations for the yorick language
+	
+sparse operations with yorick is a plugin for yorick (an interpreted computer
+language specialized for numerical and scientific problems) that allows
+performing efficient operations on sparse matrices. this software is also
+available for the commercial language idl.
+
+features:
+
+ * utilizes a sparse row-wise format optimized for fast matrix-vector
+   multiplication
+ * structure implementation for user-friendly interface on the yorick/idl
+   scripting level
+ * explicit memory handling on the scripting level
+ * as of v1.2 portable to 64-bit computing platforms
+ * offers basic matrix algebra and manipulation in single or double precision
+ * offers scripts for solving linear systems by e.g. conjugate gradients
+ * offers saving of sparse structures on a common fits format or an internal
+   binary format. using the fits format makes the saved matrices portable
+   between the idl/yorick distributions.
+
+
+http://homepage.mac.com/rflicker/soy.htm

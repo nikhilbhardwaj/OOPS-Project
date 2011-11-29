@@ -1,0 +1,8 @@
+Network card modules for sparc kernels
+	
+this package contains the drivers for the happy meal/big mac 10/100baset,
+sun quadethernet and myricom gigabit ethernet sbus devices for sparc
+systems, as well as various pci nic drivers (only on sparc64.)
+
+do not install this package on a real debian system! you probably
+want a kernel-image package instead.

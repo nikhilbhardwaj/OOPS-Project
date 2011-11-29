@@ -1,0 +1,5 @@
+Scriptable command interface to libg15render
+	
+g15composer provides a scriptable command interface to libg15render
+that exposes all of the text and graphics functions of libg15render
+to shell and other scripts.

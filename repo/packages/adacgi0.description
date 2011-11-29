@@ -1,0 +1,7 @@
+Ada cgi interface
+	
+this is david a. wheeler's ada 95 interface to the "common gateway
+interface" (cgi).  this makes it easier to create ada programs that
+can be invoked by http servers using the standard cgi interface.
+
+http://www.dwheeler.com/adacgi/

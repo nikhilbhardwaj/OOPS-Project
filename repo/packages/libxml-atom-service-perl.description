@@ -1,0 +1,11 @@
+Atom service document object
+	
+xml::atom::service is a service document implementation. in the atom
+publishing protocol, a client needs to first discover the capabilities
+and locations of collections. the service document is designed to
+support this discovery process. the document describes the location and
+capabilities of collections.
+
+the atom publishing protocol introduces some new xml elements, such as
+app:edited and app:draft, which are imported into xml::atom. see
+xml::atom::atompub in detail.

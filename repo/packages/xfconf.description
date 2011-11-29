@@ -1,0 +1,6 @@
+Utilities for managing settings in xfce
+	
+xfconf contains xfconfd and xfconf-query.
+
+ - xfconfd handles the xfce settings storage
+ - xfconf-query enables users to tune settings from command line

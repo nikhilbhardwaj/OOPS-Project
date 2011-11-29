@@ -1,0 +1,9 @@
+Socks library for internal use by the dante client
+	
+dante is a circuit-level firewall/proxy that can be used to provide
+convenient and secure network connectivity to a wide range of hosts
+while requiring only the server dante runs on to have external network
+connectivity.
+
+this package provides the actual socks wrapper library, which should only
+be used via the dante-client package's socksify(1) executable.

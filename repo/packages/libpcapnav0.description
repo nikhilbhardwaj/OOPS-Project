@@ -1,0 +1,8 @@
+Wrapper to libpcap
+	
+libpcap wrapper library that allows navigation to arbitrary packets in a
+tcpdump trace file between reads, using timestamps or percentage offsets.
+
+it was originally based on vern paxson's tcpslice tool.
+
+this package contains the shared library.

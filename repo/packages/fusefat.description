@@ -1,0 +1,9 @@
+File system in user space - module for fat
+	
+this module for the fuse kernel service allows any fuse-enabled user to mount
+fat file systems.
+
+the module has been initially written for umview, the user-mode
+implementation of view-os. if you want to allow completely user-mode disk
+images mounting (with no kernel/superuser support at all), take a look at
+umview-mod-umfusefat and its dependencies.

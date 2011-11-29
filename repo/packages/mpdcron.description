@@ -1,0 +1,23 @@
+Add scrobbler, rating, play counts and other functionalities to mpd
+	
+mpdcron is a daemon that watches a music player daemon instance for idle
+states and execs commands triggered by specific states.
+
+
+ * uses mpd's idle mode.
+ * calls hooks depending on the event.
+ * sets special environment variables to pass data to the hooks.
+ * optional support for modules via gmodule.
+ * included modules:
+   - notification
+     + uses notify-send to send notifications.
+     + can detect repeated songs.
+   - scrobbler
+     + uses curl to submit songs to last.fm or libre.fm
+   - stats
+     + module saves song data to a sqlite database
+     + supports loving, killing, rating and tagging songs, artists,
+       albums and genres.
+     + tracks play count of songs, artist, albums and genres.
+     + implements a simple server protocol for remote clients to
+       receive data.

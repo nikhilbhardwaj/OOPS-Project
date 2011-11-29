@@ -1,0 +1,6 @@
+Automatically patch the debian file-system
+	
+makes it possible to apply patches to the debian file system.
+it can be useful when a lot of configuration packages want to
+make changes to the same file. but be aware of that you can cause
+conflicts if you make changes on two different packages.

@@ -1,0 +1,6 @@
+Utilities for manipulating filesystem extended attributes
+	
+a set of tools for manipulating extended attributes on filesystem
+objects, in particular getfattr(1) and setfattr(1).
+an attr(1) command is also provided which is largely compatible
+with the sgi irix tool of the same name.

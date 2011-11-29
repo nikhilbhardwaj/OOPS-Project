@@ -1,0 +1,5 @@
+Generic interface for proof assistants - common package
+	
+proof general is a major mode to turn emacs into an interactive proof
+assistant to write formal mathematical proofs using a variety of
+theorem provers. it works with either xemacs or gnu emacs.

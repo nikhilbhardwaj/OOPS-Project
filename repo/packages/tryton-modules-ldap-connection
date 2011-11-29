@@ -1,0 +1,4 @@
+PackageId:33205
+Name:tryton-modules-ldap-connection
+Version:1.6.0-1
+Deps:python,python-ldap,python-pkg-resources,python-support,tryton-server

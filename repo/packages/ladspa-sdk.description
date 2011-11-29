@@ -1,0 +1,8 @@
+Sample tools for linux-audio-dev plugin architecture
+	
+ladspa is a free standard specification for audio effect plugins.
+
+contains sample plugins, and analyseplugin, listplugin, applyplugin
+programs, and the ladspa.h, the ladspa specification.
+
+please build-depend on this package if you need ladspa.h

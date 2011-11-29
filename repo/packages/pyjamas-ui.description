@@ -1,0 +1,14 @@
+Python pyjamas web widget set library
+	
+pyjamas is a stand-alone python to javascript compiler, an ajax
+framework / library and a desktop-like widget set.
+
+pyjamas is typically used for the development of "web 2.0" rias,
+where the application can be almost exclusively written in python,
+instead of javascript, yet compiled to run in the user's browser.
+pyjamas desktop is the desktop version, where the exact same
+application can also be run stand-alone on the desktop
+(where debugging is slightly easier).
+
+this package contains the user-interface widgets that are common
+to both pyjamas and pyjamas-desktop.

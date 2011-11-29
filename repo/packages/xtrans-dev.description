@@ -1,0 +1,16 @@
+X transport library (development files)
+	
+xtrans includes a number of routines to make x implementations
+transport-independent; at time of writing, it includes support for unix
+sockets, ipv4, ipv6, and decnet.
+
+xtrans is not actually a library in itself; it includes .c files which are
+then used in the compilation of x servers, libraries, et al.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxtrans

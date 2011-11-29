@@ -1,0 +1,14 @@
+Library of advanced visualization and data processing techniques - development
+	
+vtkedge is a library of advanced visualization and data processing techniques
+that complement the visualization toolkit (vtk), as well as custom modules to
+allow the use of these techniques within paraview. vtkedge does not replace
+vtk, but rather is built alongside vtk to provide additional functionality.
+vtkedge is available either as open source under the gplv3 licensing terms, or
+as a commercial product. this new toolkit was created by kitware in order to
+provide the open source visualization community with access to some of our
+latest technology, while still meeting the commercialization requirements of
+the government contracts that funded the research and development effort.
+
+this package contains the development files needed to build your own
+vtkedge applications.

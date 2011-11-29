@@ -1,0 +1,4 @@
+PackageId:4539
+Name:fossology-web
+Version:1.1.0-2
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,fossology-agents,libapache2-mod-php5

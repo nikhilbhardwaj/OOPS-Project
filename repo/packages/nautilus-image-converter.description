@@ -1,0 +1,7 @@
+Nautilus extension to mass resize or rotate images
+	
+this package adds a "resize images..." menu item to
+the context menu of all images. this opens a dialog
+where you set the desired image size and file name.
+a click on "resize" finally resizes the image(s)
+using imagemagick's convert tool.

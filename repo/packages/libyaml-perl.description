@@ -1,0 +1,13 @@
+Yaml ain't markup language
+	
+yaml is a generic data serialization language that is optimized for human
+readability. it can be used to express the data structures of most modern
+programming languages (including perl, of course). yaml supports unicode
+and there are implementations of the parser in many different languages,
+making it a rather portable serialization format.
+
+please note that the yaml module is currently a deprecated implementation
+in pure perl, which is probably slow on your system. the authors intend
+to change it to just be a front-end interface module for various yaml
+implementations. for now, yaml::any is a module provided for this purpose,
+which simply selects the best yaml implementation available.

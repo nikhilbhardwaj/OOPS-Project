@@ -1,0 +1,4 @@
+PackageId:35593
+Name:zoneminder
+Version:1.24.2-8
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,ffmpeg,libapache2-mod-php5,libarchive-tar-perl,perl-modules,libarchive-zip-perl,libavcodec52,libavformat52,libavutil49,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdate-manip-perl,libdevice-serialport-perl,libdirac-encoder0,libgcc1,libgnutls26,libjpeg62,libjs-mootools,libmime-lite-perl,libmime-tools-perl,libmodule-load-perl,libmysqlclient16,libpcre3,libphp-serialization-perl,libstdc++6,libswscale0,libunwind7,libwww-perl,mysql-client,mysql-client-5.1,mysql-server,mysql-server-5.1,php5,php5-mysql,rsyslog,system-log-daemon,busybox-syslogd,dsyslog,inetutils-syslogd,socklog-run,sysklogd,syslog-ng,zip,zlib1g

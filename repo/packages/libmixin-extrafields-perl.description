@@ -1,0 +1,8 @@
+Module to add extra stashes of data to objects
+	
+mixin::extrafields is a perl module that provides a simple way to add an
+arbitrary number of stashes for named data. these data can be stored in the
+object, in a database, or anywhere else. the storage mechanism is abstracted
+away from the provided interface, so one storage mechanism can be easily
+swapped for another. multiple extrafields stashes can be mixed into one
+class, using one or many storage mechanisms.

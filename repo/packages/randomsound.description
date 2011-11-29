@@ -1,0 +1,5 @@
+Alsa sound card related entropy gathering daemon
+	
+using the low order bit of the adc output of your sound card,
+randomsound gathers entropy, debiases it and offers it up to your
+kernel's random pool.

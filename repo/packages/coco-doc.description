@@ -1,0 +1,9 @@
+Documentation for the coco/r compiler generator
+	
+coco/r is a compiler generator, which takes an attributed grammar of a source
+language and generates a scanner and a parser for this language. the scanner
+works as a deterministic finite automaton. the parser uses recursive descent.
+ll(1) conflicts can be resolved by a multi-symbol lookahead or by semantic
+checks. thus the class of accepted grammars is ll(k) for an arbitrary k.
+
+see /usr/share/doc/cocosourcesdoc.

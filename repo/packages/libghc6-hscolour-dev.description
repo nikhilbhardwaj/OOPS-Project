@@ -1,0 +1,8 @@
+Ghc6 libraries for colourising haskell code
+	
+
+hscolour currently has five output formats: ansi terminal codes, html 3.2
+with <font> tags, html 4.01 with css, latex, and mirc chat client
+codes.
+
+this package contains the libraries compiled for ghc 6.

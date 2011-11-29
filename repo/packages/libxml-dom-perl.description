@@ -1,0 +1,6 @@
+Perl module for building dom level 1 compliant doc structures
+	
+this module parses xml strings or files and builds a data structure
+that conforms to the api of the document object model as described at
+http://www.w3.org/tr/rec-dom-level-1.  see the xml::parser manpage
+for other available features of the xml::dom::parser class.

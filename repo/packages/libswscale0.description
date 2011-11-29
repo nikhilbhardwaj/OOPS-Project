@@ -1,0 +1,6 @@
+Ffmpeg video scaling library
+	
+this is the video scaling library from the ffmpeg project.
+
+this package contains a debian-specific version of the libswscale shared
+object that should only be used by debian packages.

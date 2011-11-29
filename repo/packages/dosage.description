@@ -1,0 +1,9 @@
+Powerful webcomic downloader / archiver
+	
+dosage has a modular comic module infrastructure that allows new
+webcomics to be easily supported, but does not limit it to supporting
+webcomics with simple site layouts. dosage can retrieve just the latest
+strip in a comic, catch-up to the last strip downloaded, or download a
+strip for a particular date/index (except if the webcomic's site layout
+makes this impossible).
+.

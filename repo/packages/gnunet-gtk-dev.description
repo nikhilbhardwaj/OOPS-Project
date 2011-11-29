@@ -1,0 +1,9 @@
+Secure, trust-based peer-to-peer framework (gtk+ client development)
+	
+gnunet is a peer-to-peer framework which focuses on providing security. all
+link-to-link messages in the network are confidential and authenticated. the
+framework provides a transport abstraction layer and can currently encapsulate
+the peer-to-peer traffic in udp, tcp, or smtp messages.
+
+this package contains the development files for the graphical client, using the
+gtk+ toolkit.

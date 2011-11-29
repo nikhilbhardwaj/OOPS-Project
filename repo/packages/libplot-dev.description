@@ -1,0 +1,9 @@
+The gnu plotutils libraries (development files)
+	
+the gnu plotting utilities include programs for plotting
+two-dimensional scientific data.  they are built on top of gnu
+`libplot', a library for device-independent two-dimensional vector
+graphics.
+
+this package contains the header files and static libraries necessary
+for building programs which use libplot.

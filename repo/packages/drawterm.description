@@ -1,0 +1,5 @@
+Graphical client for plan 9 cpu servers
+	
+drawterm is a x11 application that allows to connect to a remote plan 9
+server, usually a cpu server, but a terminal can also be tweaked to receive
+drawterm clients.

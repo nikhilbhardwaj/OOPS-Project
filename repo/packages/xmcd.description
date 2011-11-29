@@ -1,0 +1,6 @@
+X11 based cd player
+	
+xmcd uses the motif toolkit (using the free lesstif libraries) to achieve a
+pleasing appearance, such that it actually looks and feels like a real cd
+player for all basic functions, yet takes advantage of the gui and window
+system to make programming and cd database functions easy.

@@ -1,0 +1,6 @@
+Perl api for apache 2.1 authentication
+	
+apache::authenhook offers access to the 2.1 apache authentication
+api in perl.  this is different than the authentication api
+from apache 1.3 or even apache 2.0, but in its differences lies
+strength.

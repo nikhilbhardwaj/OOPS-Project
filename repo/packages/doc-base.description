@@ -1,0 +1,9 @@
+Utilities to manage online documentation
+	
+this package contains utilities to manage documentation installed on
+a debian system. it generates a database of document metadata, which
+other packages such as dwww, dhelp, doc-central, and rarian-compat
+can use to provide a catalog of available documentation.
+
+for additional information see the debian doc-base manual included in
+this package.

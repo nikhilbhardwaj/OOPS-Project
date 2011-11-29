@@ -1,0 +1,25 @@
+Linux 2.4/2.6 router/firewall/vm host network config. system.
+	
+this is a router and firewall network configuration system.  it is specific to
+the 2.4.x and 2.6.x kernel series. this system is in production use, even
+though this is an experimental version.
+
+it offers much finer grained control of the network setup than the standard
+system in netbase, with support for bridge configuration, iptables, ip route
+and tc traffic control.  it is optimised for use on high traffic routers with
+interfaces being reconfigured individually while the rest of the machine is
+routing traffic 24x7.  common boiler plate filter creation functions are
+provided to ease the task of constructing iptables filters in the context
+of operation within an isp network.
+
+since this package is designed for a heavy duty network router, it is designed
+to work in conjunction with a routing daemon as found in the quagga package.
+
+don't use this on a pure server - it is very useful for a virtual machine
+server with complex networking needs.  this is because of its comprehensive
+network configuration capabilities.  thus it is a tempting replacement
+when you have to rip out networkmanager on a server.
+
+it was originally designed for dedicated routers and firewalls, and hence its
+lightweight scripting footprint. when it comes to firewall configuration
+though, have a look at the mason package if you are faint of heart.

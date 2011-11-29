@@ -1,0 +1,9 @@
+Smtp defence software against spam
+	
+sauce (software against unsolicited commercial email) sits between
+the internet and your existing mail transfer agent (e.g. exim).  it
+does a number of checks on incoming mail, including being able to
+blacklist senders and their sites automatically when they mail
+special `spam bait' addresses.
+
+this is a beta version and is best used by mail experts only.

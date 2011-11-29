@@ -1,0 +1,9 @@
+Apc ups power management (daemon)
+	
+apcupsd provides ups power management for apc products, including most backups
+series models (including usb), smartups v/s, smartups (net/rm), and matrix
+series.
+
+it controls and monitors the status of ups and allows your computer to run for
+a specified length of time on ups power, and then executes a controlled
+shutdown in the case of an extended power failure.

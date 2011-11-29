@@ -1,0 +1,15 @@
+Zpaq open standard maximum compressor (prebuilt levels)
+	
+paq family is a series of open source data compression archivers that have
+evolved through collaborative development to top rankings on several
+benchmarks measuring compression ratio although at the expense of
+speed and memory usage.
+
+this package includes program zp (a zpaq archiver), a proposed
+standard format for highly compressed data that allows new
+compression algorithms to be developed without breaking compatibility
+with older programs.
+
+note: zp is the "user friendly" version of zpaq(1) archiver. zp comes
+with 3 prebuilt and optimized compression levels. it does not
+require configuration file for min, med, max compression levels.

@@ -1,0 +1,11 @@
+Icarus verilog compiler (transitional package)
+	
+icarus verilog is intended to compile all of the verilog hdl as
+described in the ieee-1364 standard. it is not quite there
+yet. it does currently handle a mix of structural and behavioral
+constructs.
+
+the compiler can target either simulation, or netlist (edif).
+
+this is a dummy transitional package that will ensure a proper upgrade path.
+this package may be safely removed after upgrading.

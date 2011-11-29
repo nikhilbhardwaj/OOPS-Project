@@ -1,0 +1,28 @@
+C++ library for command line parsing
+	
+libgetopt++ is a c++ library to parse options that a program gets specified
+from the command line. it has the following features:
+
+
+ * minimal footprint in main.cc, and no header or source changes outside the
+   user of an option when the option is altered or a new option added.
+
+
+
+ * multiple option sets can co-exist safely. the default option set is a
+   singleton, but additional static sets can be created and used.
+
+
+
+ * easy to use: adding a new option is simply a case of adding a static
+   variable for the option, in the scope that the option needs to be visible.
+
+
+
+ * there are multiple concrete option classes provided: bool, string,
+   stringcollector.
+
+
+
+ * extensible: simply create a new subclass of option to implement a new
+   option type, and use it in your program.

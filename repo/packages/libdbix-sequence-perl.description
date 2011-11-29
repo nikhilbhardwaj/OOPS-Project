@@ -1,0 +1,13 @@
+A simple sql92 id generator
+	
+this module is intended to give easier portability to perl database
+application by providing a database independent unique id generator. this way,
+an application developer is not bound to use his database's sequence or
+auto_increment thus making his application portable on multiple database
+environnements.
+
+this module implements a simple spin locker mechanism and is garanteed to
+return a unique value every time it is called, even with concurrent processes.
+it uses your database for its state storage with ansi sql92 compliant sql. all
+sql queries inside dbix::sequence are pre cached and very efficient especially
+under mod_perl.

@@ -1,0 +1,14 @@
+A fast console cjk system using framebuffer
+	
+zhcon is a fast linux console chinese system which supports framebuffer
+device.it can display chinese,japanese or korean double byte characters
+on console.
+features include:
+
+  full support for linux framebuffer device(from 640x480x8bpp to
+    1024x768x32bpp)
+  multiple language support (gb2312,gbk,big5,jis,kscm)
+  auto-detect and convert between gb2312 and big5 encoding(like hztty)
+  hot key to change language encoding on the fly
+  can use input method from ms windows 98 chinese version or ucdos for
+    ms-dos

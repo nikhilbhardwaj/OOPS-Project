@@ -1,0 +1,5 @@
+Bundle of tests with a common interface
+	
+test::apocalypse is a perl test module that greatly simplifies common author
+tests for cpan modules. this module respects the test_author environment
+variable; if it is not set, it will skip the entire testsuite.

@@ -1,0 +1,8 @@
+High-level network game engine for python
+	
+tofu is designed for games where players play one or several characters
+accross several levels. this includes jump'n run games, rpg or rts, but
+not tetris-like games or board game (chess, go,...).
+
+it currently support client-server and single player mode; peer-to-peer
+mode may be added later.

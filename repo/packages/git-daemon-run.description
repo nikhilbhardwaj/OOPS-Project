@@ -1,0 +1,15 @@
+Fast, scalable, distributed revision control system (git-daemon service)
+	
+git is popular version control system designed to handle very large
+projects with speed and efficiency; it is used for many high profile
+open source projects, most notably the linux kernel.
+
+git falls in the category of distributed source code management tools.
+every git working directory is a full-fledged repository with full
+revision tracking capabilities, not dependent on network access or a
+central server.
+
+git-daemon, as provided by the git package, is a simple server for git
+repositories, ideally suited for read-only updates, i.e. pulling from git
+repositories through the network.  this package provides a runit service
+for running git-daemon permanently.

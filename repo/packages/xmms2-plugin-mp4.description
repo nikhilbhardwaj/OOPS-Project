@@ -1,0 +1,10 @@
+Xmms2 - mpeg-4 plug-in
+	
+xmms2 is a redesign of the xmms music player. it features a client-server
+model, allowing multiple (even simultaneous!) user interfaces, both textual
+and graphical. all common audio formats are supported using plug-ins. on top of
+this, there is a flexible media library to organize your music.
+
+this package enables decoding of data inside of mp4 containers for xmms2.
+together with xmms2-plugin-faad it's possible to decode .mp4 files. combined
+with xmms2-plugin-avcodec you can decode alac files.

@@ -1,0 +1,17 @@
+Yahoo user interface library
+	
+a collection of html, css, and javascript components for creating ajax web
+pages. the library currently includes:
+
+
+ * utility classes for animation, browser history, ajax, cookies,
+   drag and drop. safe cross-site data retrieval, dynamic script/css loading,
+   image loading, selectors, json, resizing elements, dom and browser events.
+ * autocomplete, button, calendar, carousel, charts, color picker,
+   data table, file upload, image crop, menu, paginator, layout manager,
+   rich text editor, slider, tabview and treeview controls and a container
+   control that can be used for tooltips, panels, dialog boxes etc.
+ * a logging framework.
+ * a profiler
+ * a test framework
+ * cascading stylesheets for browser-independent grids and fonts.

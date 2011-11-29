@@ -1,0 +1,11 @@
+Resamples a sound file using a fir filter
+	
+the resample program "resamples" a soundfile to change its sampling
+rate.  for example, it can be used to convert the sampling rate from
+48 khz (used by dat machines) to 44.1 khz (the standard sampling rate
+for compact discs).
+
+the windowfilter program designs finite-impulse-response (fir) digital
+filters by the so-called "window method."  in this method, the ideal
+impulse response (a sinc function) is "windowed" by a kaiser window (a
+popular window used in spectrum analysis).

@@ -1,0 +1,8 @@
+Typelib file for libdbusmenu-gtk1
+	
+libdbusmenu passes a menu structure across dbus so that a program can
+create a menu simply without worrying about how it is displayed on the
+other side of the bus.
+
+this package can be used by other packages using the girepository format to
+generate dynamic bindings for libdbusmenu-gtk1.

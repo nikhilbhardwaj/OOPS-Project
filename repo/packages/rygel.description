@@ -1,0 +1,23 @@
+Gnome upnp/dlna services
+	
+rygel is a collection of dlna (upnp av) services (devices in upnp speak),
+implemented through a plug-in mechanism. important facts and features:
+
+  * apis to ease the implementation of av devices (currently only
+    mediaserver v 2.0 specification).
+  * audio and video transcoding: source format could be anything
+    gstreamer's decodebin2 can handle but output formats are currently
+    limited to: mp3, pcm and mpeg ts. fortunately the transcoding
+    framework is flexible enough to easily add more transcoding targets.
+  * specifically designed for gnome (mobile).
+  * based on gupnp.
+  * written (mostly) in vala language.
+
+
+this package contains the core of rygel and following plugins:
+
+  * media-export: recursively exports folders and files specified in the
+    user configuration. this plugin supports all types of uris that
+    gio/gvfs and gstreamer can handle.
+  * external: a mediaserver plugin that exports media hierarchies
+    provided by external applications.

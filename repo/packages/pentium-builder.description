@@ -1,0 +1,8 @@
+Force pentium optimized compilation
+	
+replaces gcc, cc, and g++ with scripts that build pentium optimized code.
+(other processors can be optimized for as well.)
+
+by default, after installing this package, the compilers will behave
+normally. however, if the environment variable debian_buildarch=pentium
+is set, they will enter pentium optimized compile mode.

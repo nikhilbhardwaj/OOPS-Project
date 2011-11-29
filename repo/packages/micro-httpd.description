@@ -1,0 +1,12 @@
+Really small http server
+	
+a very small http server implemented in 150 lines of code.
+program can be used to serve https by wrapping it with stunnel.
+it implements all the basic features of an http server, including:
+
+
+  * security against ".." filename snooping
+  * the common mime types
+  * trailing-slash redirection
+  * index.html
+  * directory listings

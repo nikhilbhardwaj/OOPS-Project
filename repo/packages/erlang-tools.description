@@ -1,0 +1,22 @@
+Erlang/otp various tools
+	
+the tools application contains a number of stand-alone tools, which are
+useful when developing erlang programs.
+
+
+ cover - a coverage analysis tool for erlang.
+ cprof - a profiling tool that shows how many times each function
+   is called. uses a kind of local call trace breakpoints containing
+   counters to achieve very low runtime performance degradation.
+ eprof - a time profiling tool; measures how time is used in erlang
+   programs. predecessor of fprof (see below).
+ fprof - another erlang profiler; measures how time is used in erlang
+   programs. uses trace to file to minimize runtime performance
+   impact, and displays time for calling and called functions.
+ instrument - utility functions for obtaining and analyzing resource
+   usage in an instrumented erlang runtime system.
+ make - a make utility for erlang similar to unix make.
+ tags - a tool for generating emacs tags files from erlang source
+   files.
+ xref - a cross reference tool. can be used to check dependencies
+   between functions, modules, applications and releases.

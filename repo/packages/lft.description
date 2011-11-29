@@ -1,0 +1,12 @@
+Layer-four traceroute
+	
+lft sends various tcp syn and fin probes (differing from van jacobson's
+udp-based method) utilizing the ip protocol "time to live" field and
+attempts to elicit an icmp time_exceeded response from each gateway along
+the path to some host.
+lft also listens for various tcp and icmp messages along the way to assist
+network managers in ascertaining per-protocol heuristic routing information
+and can optionally retrieve various information about the networks it
+traverses.
+
+homepage: http://www.mainnerve.com/lft/index.html

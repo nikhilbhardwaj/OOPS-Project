@@ -1,0 +1,11 @@
+Allows grouping a list of arbitrary objects into related groups (clusters)
+	
+python-cluster is a "simple" package that allows to create several groups
+(clusters) of objects from a list. it's meant to be flexible and able to
+cluster any object. to ensure this kind of flexibility, you need not only to
+supply the list of objects, but also a function that calculates the similarity
+between two of those objects. for simple datatypes, like integers, this can be
+as simple as a subtraction, but more complex calculations are possible. right
+now, it is possible to generate the clusters using a hierarchical clustering
+and the popular k-means algorithm. for the hierarchical algorithm there are
+different "linkage" (single, complete, average and uclus) methods available.

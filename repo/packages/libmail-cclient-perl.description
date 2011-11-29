@@ -1,0 +1,6 @@
+Interface to uw c-client library
+	
+mail::cclient gives access to mailboxes in many different formats
+(including remote imap folders) via the c-client api. the c-client
+library is the core library used by pine and the university of
+washington imap daemon (written by mark crispin).

@@ -1,0 +1,13 @@
+B+tree implementation in c++
+	
+the stx b+ tree package is a set of c++ template classes
+implementing a b+ tree key/data container in main memory.
+designed to be drop-in replacements  of the stl containers
+set, map, multiset and multimap and follow their interfaces very closely.
+by packing multiple value pairs into each node
+of the tree the b+ tree reduces heap fragmentation and utilizes cache-line
+effects better than the standard red-black binary tree.
+the classes contain extensive assertion and verification mechanisms
+to ensure the implementation's correctness by testing the tree invariants.
+to illustrate the  b+ tree's structure a wxwidgets demo program is included
+in the stx-btree-demo package.

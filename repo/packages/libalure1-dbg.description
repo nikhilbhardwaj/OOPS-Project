@@ -1,0 +1,20 @@
+Al utilities retooled (debugging symbols)
+	
+alure is a utility library to help manage common tasks with openal
+applications. this includes device enumeration and initialization, file
+loading, and streaming.
+
+the purpose of this library is to provide pre-made functionality that would
+otherwise be repetitive or difficult to (re)code for various projects and
+platforms, such as loading a sound file into an openal buffer and streaming an
+audio file through a buffer queue. support for different formats is consistant
+across platforms, so no special checks are needed when loading files, and all
+formats are handled through the same api.
+
+currently alure includes a basic .wav and .aif file reader, and can leverage
+external libraries such as libsndfile (for extended wave formats and several
+others), vorbisfile (for ogg vorbis), and flac (for flac and ogg flac).
+external libraries can also be dynamically loaded at run-time, or individually
+disabled outright at compile time.
+
+this package installs the alure library debugging symbols.

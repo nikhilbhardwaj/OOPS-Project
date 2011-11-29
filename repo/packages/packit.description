@@ -1,0 +1,8 @@
+Network injection and capture
+	
+packit is a network auditing tool. its value is derived from its ability
+to customize, inject, monitor, and manipulate ip traffic. by allowing you
+to define (spoof) nearly all tcp, udp, icmp, ip, arp, rarp, and ethernet
+header options, packit can be useful in testing firewalls, intrusion
+detection systems, port scanning, simulating network traffic, and general
+tcp/ip auditing. packit is also an excellent tool for learning tcp/ip.

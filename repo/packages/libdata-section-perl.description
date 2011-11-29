@@ -1,0 +1,6 @@
+Module to read chunks of data from a module's data section
+	
+data::section is a perl module that provides an easy way to access multiple
+named chunks of line-oriented data in your module's data section. it was
+written to allow modules to store their own templates, but is probably useful
+for other purposes as well.

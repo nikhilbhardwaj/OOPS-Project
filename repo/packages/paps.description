@@ -1,0 +1,5 @@
+Utf-8 to postscript converter using pango
+	
+paps reads a utf-8 encoded file and generates a postscript
+language rendering of the file. the rendering is done by
+creating outline curves through the pango ft2 backend.

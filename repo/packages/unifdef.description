@@ -1,0 +1,5 @@
+Remove cpp '#ifdef' lines from files
+	
+the unifdef utility selectively processes conditional cpp(1) directives.
+it removes from a file both the directives and any additional text that
+they specify should be removed, while otherwise leaving the file alone.

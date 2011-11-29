@@ -1,0 +1,6 @@
+Sponge is a web framework built on top of cherrypy and genshi
+	
+sponge is a very tiny web framework, aiming on testability thus being
+simple enough to always keep things dry (don't repeat yourself),
+which is a development approach with a philosophy aimed at reducing
+repetition of code.

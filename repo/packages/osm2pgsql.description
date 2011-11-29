@@ -1,0 +1,6 @@
+Openstreetmap data to postgresql converter
+	
+convert osm planet snapshot data to sql suitable for loading
+into a postgresql database with postgis geospatial extensions. this
+database may then be used to render maps with mapnik or for other
+geospatial analysis.

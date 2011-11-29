@@ -1,0 +1,9 @@
+Pure perl interface to ogg vorbis information fields
+	
+ogg::vorbis::header::pureperl is an object-oriented interface to ogg vorbis
+information and comment fields, implemented entirely in perl. intended to be a
+drop in replacement for ogg::vobis::header.
+
+unlike ogg::vorbis::header, this module will go ahead and fill in all of the
+information fields as soon as you construct the object. in other words, the new
+and load constructors have identical behavior.

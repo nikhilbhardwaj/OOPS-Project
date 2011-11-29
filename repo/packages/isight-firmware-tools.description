@@ -1,0 +1,10 @@
+Tools for dealing with apple isight firmware
+	
+apple built-in isight requires firmware that can be extracted from
+the mac os x usbvideo driver. this package provides tools for extracting
+the firmware from the driver and installing udev rules and tools to
+automatically load the firmware when needed.
+
+a convenient tool for converting firmware binaries to intel hex format
+is also provided. this may be required later for use with a
+generic firmware loader such as fxload.

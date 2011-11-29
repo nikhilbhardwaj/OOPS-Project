@@ -1,0 +1,15 @@
+Command line interface to split mp3 and ogg vorbis files without reencoding
+	
+mp3splt-project is a utility to split mp3 and ogg files selecting a
+begin and an end time position, without decoding. it's very useful to
+split large mp3/ogg to make smaller files or to split entire albums to
+obtain original tracks. if you want to split an album, you can select
+split points and filenames manually or you can get them automatically
+from cddb (internet or a local file) or from .cue files. supports also
+automatic silence split, that can be used also to adjust cddb/cue
+splitpoints. you can extract tracks from mp3wrap or albumwrap files in
+few seconds. for mp3 files, both id3v1 & id3v2 tags are
+supported. mp3splt-project is split in 3 parts : libmp3splt, mp3splt
+and mp3splt-gtk.
+
+this package provides mp3splt, the command line interface.

@@ -1,0 +1,12 @@
+Module to inspect and manipulate lexical variables
+	
+padwalker is a module that allows you to inspect and even modify lexical
+variables in the current "lexical pad stack." perl tracks which variables
+are accessible and visible in each lexical scope by keeping a separate
+set of variables for each scope. this module looks for a given variable
+by traversing that stack, which allows it to alter anything in the stack,
+even variables not normally accessible in the current scope.
+
+in practise, this module is useful for checking anything defined in the full
+stack of subroutines that called your function, making it extremely useful
+for debugging. it is, however, not recommended for use in production code.

@@ -1,0 +1,12 @@
+An e-mail filter for spam that learns
+	
+a small, fast, flexible bayesian filter for processing e-mail. it is
+"trained" by the user to categorize email as spam or non-spam. this
+implementation integrates well with existing tools such as procmail
+and mutt. it can use a variety of formats for storing data. a utility
+is supplied for converting data between the supported formats.
+
+this package includes support for text and libdb formats.
+
+see "a plan for spam" <http://www.paulgraham.com/spam.html> by paul graham
+for further information.

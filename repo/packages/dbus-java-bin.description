@@ -1,0 +1,12 @@
+Simple interprocess messaging system (java binaries)
+	
+d-bus is a message bus, used for sending messages between applications.
+conceptually, it fits somewhere in between raw sockets and corba in
+terms of complexity.
+
+this package provides several programs using the java implementation
+of d-bus. this includes a simple d-bus daemon for use in session busses,
+a tool for generating java stubs from d-bus introspection data and
+a graphical browser for d-bus connections.
+
+see the dbus description for more information about d-bus in general.

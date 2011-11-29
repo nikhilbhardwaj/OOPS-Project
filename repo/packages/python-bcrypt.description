@@ -1,0 +1,11 @@
+Implementation of openbsd's blowfish password hash algorithm
+	
+py-bcrypt is a python module implementating the openbsd blowfish password
+hashing algorithm, as described in "a future-adaptable password scheme" by
+niels provos and david mazieres:
+http://www.openbsd.org/papers/bcrypt-paper.ps
+
+this module hashes passwords using a version of bruce schneier's blowfish
+block cipher with modifications designed to raise the cost of off-line
+password cracking. the computation cost of the algorithm is parametised, so
+it can be increased as computers get faster.

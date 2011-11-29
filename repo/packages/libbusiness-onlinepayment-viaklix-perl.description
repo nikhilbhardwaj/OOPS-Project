@@ -1,0 +1,10 @@
+Viaklix backend for business::onlinepayment
+	
+this module is a back end driver that implements the interface
+specified by business::onlinepayment to support payment handling
+via viaklix's internet payment solution.
+
+see business::onlinepayment for details on the interface this
+modules supports.
+
+homepage: http://search.cpan.org/dist/business-onlinepayment-viaklix/

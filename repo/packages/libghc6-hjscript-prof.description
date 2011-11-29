@@ -1,0 +1,14 @@
+Haskell dsl for writing javascript programs - ghc 6 profiling libraries
+	
+hjscript is a dsl (domain-specific language) built on top of
+hjavascript, for writing client-side dynamic web pages. the programming
+model is fairly low-level, resembling the actual javascript code quite a
+lot, but should be easy to extend with higher-level functionality.
+notable is that hjscript supports the use of literal xml syntax, as
+defined by the hsx package, for creating dom elementnodes. also notable
+is that hjscript supports ajax functionality.
+
+if you don't know what haskell and all these concepts are, you can just
+ignore this package.
+
+this package contains the profiling libraries compiled for ghc 6.

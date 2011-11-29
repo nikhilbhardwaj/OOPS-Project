@@ -1,0 +1,6 @@
+Minimal subset of the python language (default python3 version)
+	
+this package contains the interpreter and some essential modules.  it's used
+in the boot process for some basic tasks.
+see /usr/share/doc/python3.1-minimal/readme.debian for a list of the modules
+contained in this package.

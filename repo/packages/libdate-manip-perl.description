@@ -1,0 +1,11 @@
+Module for manipulating dates
+	
+date::manip is a perl module that contains a set of routines designed to make
+any common date/time manipulation easy to do. it aims to make operations like
+comparing two times, calculating a time a given amount of time from another,
+or parsing international times simpler.
+
+the focus of date::manip has been to be able to do any desired date or time
+operation easily, though not necessarily quickly. there are other modules
+that can do a small subset of these operations quicker, so if speed is a
+primary issue, you should look elsewhere.

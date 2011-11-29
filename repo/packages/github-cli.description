@@ -1,0 +1,5 @@
+Command-line interface to the github issues api
+	
+github-cli provides an executable called ghi, that can be used to access
+all of github's documented issues api (v2) functionality from the command
+line.

@@ -1,0 +1,5 @@
+Daemon for handling special apple laptop hotkeys
+	
+ikeyd is a simple daemon which sets the volume or ejects the cdrom on
+keypress. it will be started from init.
+warning this is currently only for the ibook 2001!

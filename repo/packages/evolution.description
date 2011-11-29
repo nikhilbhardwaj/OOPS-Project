@@ -1,0 +1,38 @@
+Groupware suite with mail client and organizer
+	
+evolution is a groupware suite which integrates mail, calendar,
+address book, to-do list and memo tools.
+
+additional features include integration with exchange and groupwise
+servers, newsgroup client, ldap support, web calendars and
+synchronization with palm devices.
+
+evolution is a graphical application that is part of gnome, and
+is distributed by novell, inc.
+
+see http://www.novell.com/products/evolution/ for more
+information.
+
+the following plugins belonging to the "base" set are included.
+
+ - calendar-file
+ - calendar-http
+ - calendar-weather
+ - itip-formatter
+ - plugin-manager
+ - default-source
+ - addressbook-file
+ - startup-wizard
+ - print-message
+ - mark-all-read
+ - groupwise-features
+ - groupwise-account-setup
+ - hula-account-setup
+ - mail-account-disable
+ - publish-calendar
+ - caldav
+ - imap-features
+ - google-account-setup
+ - sa-junk-plugin
+ - bogo-junk-plugin
+ - mono

@@ -1,0 +1,9 @@
+Verilog code coverage analysis tool
+	
+covered is a verilog code coverage utility that reads in a verilog design and
+a generated vcd/lxt dumpfile from that design and generates a coverage file
+that can be merged with other coverage files or used to create a coverage
+report. covered also contains the gui coverage report utility that reads in a
+coverage file to allow interactive coverage discovery. areas of coverage
+measured by covered are: line, toggle, memory, combinational logic, fsm
+state/state-transition and assertion coverage.

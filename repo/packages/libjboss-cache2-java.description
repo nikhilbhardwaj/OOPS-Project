@@ -1,0 +1,22 @@
+Cache frequently accessed java objects
+	
+jboss cache is a product designed to cache frequently accessed java
+objects in order to dramatically improve the performance of e-business
+applications. by eliminating unnecessary database access, jboss cache
+decreases network traffic and increases the scalability of
+applications.
+
+but jboss cache is much more than a simple cache. jboss cache provides
+fully transactional features as well as a highly configurable set of
+options to deal with concurrent data access in the most efficient
+manner possible for your application. in addition, it is a clustered
+cache that replicates contents to other cache instances running on
+separate jvms, servers or even entire networks, making jboss cache a
+highly efficient library used by application server developers to
+implement clustering features.
+
+jboss cache provides two caching apis to suit your needs. the jboss
+cache api offers a traditional, tree-structured, node-based cache and
+the pojo cache api, which builds on the jboss cache api, provides the
+ability to perform object-based, fine-grained replication of java
+objects, resulting in maximum performance benefits.

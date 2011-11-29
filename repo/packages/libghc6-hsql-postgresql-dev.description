@@ -1,0 +1,4 @@
+Postgresql driver of the hsql library for ghc6
+	
+hsql provides database interfaces for haskell programmers. this package
+provides the postgresql driver of hsql.

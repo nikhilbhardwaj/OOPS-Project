@@ -1,0 +1,7 @@
+Tool to edit disk quotas from the command line
+	
+quotatool is a utility to set filesystem quotas from the commandline.
+most quota-utilities are interactive, requiring manual intervention from the
+user.  quotatool on the other hand is not, making it suitable for use in
+scripts and other non-interactive situations.  this is very useful to edit
+disk quotas from scripts.

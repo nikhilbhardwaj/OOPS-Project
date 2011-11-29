@@ -1,0 +1,9 @@
+Perl module to convert pod to readme file
+	
+pod::readme is a subclass of pod::plaintext which provides
+additional pod markup for generating readme files
+
+this module allows authors to mark portions of the pod to
+be included only in, or to be excluded from the readme file.
+it also allows you to include portions of another file (such
+as a separate changelog).

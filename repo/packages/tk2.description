@@ -1,0 +1,16 @@
+Tk gui for the icom ic-r2 receiver
+	
+the current, experimental version of tk2 works with ic-r2 models which
+employ 10 khz or 9 khz spacing in the am broadcast band (e.g., usa,
+japanese, european, and other models). it permits expanded .005 -
+1599.995 mhz frequency coverage (except cellular bands) for memory
+channels and can:
+
+read a memory image from an ic-r2 receiver or a disk file.
+display data from a memory image and let a user change various settings.
+add descriptive labels to memory channels and banks.
+sort memory channels by frequency or label.
+swap pairs of memory banks.
+import memory channel data from a csv or icf file.
+export memory channel data to a csv file.
+write the results back to the radio.

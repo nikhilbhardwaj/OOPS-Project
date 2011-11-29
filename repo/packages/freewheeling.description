@@ -1,0 +1,7 @@
+Live looping musical instrument
+	
+freewheeling is a live looping instrument built for improvisation.
+using a keyboard or a midi controller, it allows to build and control
+repetitive patterns from a live audio stream.
+
+freewheeling uses the jack audio connection kit, fluidsynth, and sdl.

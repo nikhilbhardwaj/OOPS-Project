@@ -1,0 +1,8 @@
+Convert ascii diagrams into proper bitmap graphics
+	
+ditaa is a small command-line utility that can convert diagrams drawn using
+ascii art ("drawings" that contain characters that resemble lines, like | /
+and -), into proper bitmap graphics.
+
+ditaa also uses special markup syntax to increase the possibilities of shapes
+and symbols that can be rendered.

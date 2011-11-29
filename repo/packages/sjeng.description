@@ -1,0 +1,9 @@
+Chess program that plays many variants
+	
+sjeng is a chess program that plays normal chess and many variants
+like crazyhouse, bughouse, suicide (aka giveaway or anti-chess) and
+losers. it can also play variants which have the same rules as
+normal chess, but a different starting position. it uses the
+xboard/winboard interface by tim mann, so it can be used with
+xboard or eboard. it is also capable of playing on internet chess
+servers.

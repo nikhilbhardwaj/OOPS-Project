@@ -1,0 +1,15 @@
+Pippy activity for the sugar graphical shell
+	
+sugar is a graphical user interface aimed at children.
+
+originating as intregral part of the olpc "xo" a.k.a. the $100 laptop,
+sugar has since grown into a more widely usable low-ressource desktop
+environment for kids.
+
+this package contains the pippy activity, teaching python programming
+by providing access to python code samples and a fully interactive
+python interpreter.
+
+the user can type and execute simple python expressions. for example,
+it would be possible for a user to write python statements to calculate
+expressions, play sounds, or make simple text animation.

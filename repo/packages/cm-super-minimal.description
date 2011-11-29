@@ -1,0 +1,14 @@
+Tex font package (minimal version) with cm/ec in type1 in t1, t2*, ts1, x2 enc
+	
+this package ships the 10pt version of the various fonts. for the full
+set please install cm-super.
+
+the cm-super package contains type 1 fonts converted from metafont
+fonts and covers entire ec/tc, ec concrete, ec bright and lh fonts
+(computer modern font families). all european and cyrillic writings
+are covered. each type 1 font program contains all glyphs from the
+following standard latex font encodings: t1, ts1, t2a, t2b, t2c, x2,
+and also adobe standardencoding (585 glyphs per non-sc font and 468
+glyphs per sc font), and could be reencoded to any of these encodings
+using standard dvips or pdftex facilities (the corresponding support
+files are also included).

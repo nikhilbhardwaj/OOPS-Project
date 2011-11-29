@@ -1,0 +1,18 @@
+Commandline tool to perform operations on tagged collections
+	
+tagcoll takes a collection of items categorized with multiple tags and
+performs various kinds of operations on them:
+
+
+ * organize the collection in an intuitively navigable hierarchy;
+ * discover and show implicit hierarchical relationships between
+   tags;
+ * apply various transformations to the collection
+ * produce a special patch file with the differencies between two collections.
+   such patch files are specific to tagged collections, and can be applied and
+   merged more freely than normal diff output;
+ * apply a previously generated patch file to a collection.
+
+
+tagcoll has been written with the purpose of studying tagged collections and
+experiment with tagged collection algorithms.

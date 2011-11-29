@@ -1,0 +1,6 @@
+Simple linux inotify python bindings
+	
+pyinotify is a simple wrapper for the linux inotify mechanism.
+
+inotify is a linux kernel feature available since 2.6.13. inotify makes
+it possible for applications to easily be notified of filesystem changes.

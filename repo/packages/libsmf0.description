@@ -1,0 +1,6 @@
+Libsmf is a bsd-licensed c library for handling smf ("*.mid") files
+	
+libsmf is a bsd-licensed c library for handling smf ("*.mid")
+files. it transparently handles conversions between time and pulses,
+tempo map handling etc. the only dependencies are c compiler and
+glib. full api documentation and examples are included.

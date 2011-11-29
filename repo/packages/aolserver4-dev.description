@@ -1,0 +1,12 @@
+Aol web server version 4 - development files
+	
+aolserver is the web engine that powers america online. it
+is capable of serving a very high number of users, and can host
+hundreds of virtual servers simultaneously within the same process.
+
+it is similar in many respects to zope, except based largely on tcl.
+it is multi-threaded, and has a c api that can be used to extend
+its functionality.
+
+this package contains header files and libraries needed to develop
+applications based on aolserver.

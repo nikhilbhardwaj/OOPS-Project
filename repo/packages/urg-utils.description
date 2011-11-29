@@ -1,0 +1,10 @@
+Utilities for hokuyo urg/utm laser range scanners
+	
+hokuyo infrared laser range scanners provide range measurements to nearby
+objects using lidar technology.  uses include factory automation for automated
+safety systems and robotics research platforms.
+
+urg contains libraries and binaries to control and read data from hokuyo
+sensors.
+
+this package contains utility programs.

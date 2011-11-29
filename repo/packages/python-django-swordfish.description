@@ -1,0 +1,14 @@
+Persistent key-value database with http interface (django integration)
+	
+swordfish is a persistent database which uses javascript object notation
+(json) over http. it was designed to complement a relational database used in
+modern web applications by providing a means to denormalise (and thus avoid)
+computationally expensive join operations.
+
+to this end, swordfish's primary data structure is a dictionary with ordered
+keys and provides functionality for atomically manipulating and querying these
+structures, including set-based operations such as intersection and
+difference.
+
+this package contains a convenient wrapper for projects using the django web
+development framework.

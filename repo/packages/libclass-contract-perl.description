@@ -1,0 +1,8 @@
+Design-by-contract oo in perl
+	
+the class::contract module implements strong encapsulation, static
+inheritance, and design-by-contract condition checking for
+object-oriented perl. the module provides a declarative syntax for
+attribute, method, constructor, and destructor definitions at both
+the object and class level. pre-conditions, post-conditions, and
+class invariants are also fully supported.

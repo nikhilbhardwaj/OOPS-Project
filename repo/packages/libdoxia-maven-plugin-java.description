@@ -1,0 +1,14 @@
+A maven plugin for doxia
+	
+doxia is a content generation framework which aims to provide its users
+with powerful techniques for generating static and dynamic content.
+
+doxia can be used to generate static sites in addition to being
+incorporated into dynamic content generation systems like blogs, wikis
+and content management systems.
+
+doxia is used exensively by maven and it powers the entire
+documentation system of maven. it gives maven the ability to take any
+document that doxia supports and output it any format.
+
+this package provides a maven plugin for doxia.

@@ -1,0 +1,56 @@
+Gnu r package for fine-mapping complex diseases
+	
+most phenotypes of medical importance can be measured quantitatively,
+and in many cases the genetic contribution is substantial, accounting
+for 40% or more of the phenotypic variance. considerable efforts have
+been made to isolate the genes responsible for quantitative genetic
+variation in human populations, but with little success, mostly
+because genetic loci contributing to quantitative traits
+(quantitative trait loci, qtl) have only a small effect on the
+phenotype. association studies have been proposed as the most
+appropriate method for finding the genes that influence complex
+traits. however, family-based studies may not provide the resolution
+needed for positional cloning, unless they are very large, while
+environmental or genetic differences between cases and controls may
+confound population-based association studies.
+
+these difficulties have led to the study of animal models of human
+traits. studies using experimental crosses between inbred animal
+strains have been successful in mapping qtls with effects on a number
+of different phenotypes, including behaviour, but attempts to
+fine-map qtls in animals have often foundered on the discovery that a
+single qtl of large effect was in fact due to multiple loci of small
+effect positioned within the same chromosomal region. a further
+potential difficulty with detecting qtls between inbred crosses is
+the significant reduction in genetic heterogeneity compared to the
+total genetic variation present in animal populations: a qtl
+segregating in the wild need not be present in the experimental
+cross.
+
+the idea behind this package is that when multiple strains of
+animals that differ in their susceptibility to multiple diseases
+are bread over multiple generations, then one can analyse the
+contribution that a particular genetic locus has to each of those
+diseases. while in the past this approach has been performed
+for one disease at a time, this tool extends the statistics
+for allowing multiple crosses and thus save animal lifes. a larger
+stock of animals with more generations to keep them will further
+help producing larger numbers of observable cross-over events
+and thus help increasing the resolution of the mapping.
+
+happy is an r interface into the happy c package for fine-mapping
+quantitative trait loci (qtl) in heterogenous stocks (hs). an hs is
+an advanced intercross between (usually eight) founder inbred strains
+of mice. hs are suitable for fine-mapping qtl.  it uses a multipoint
+analysis which offers significant improvements in statistical power to
+detect qtls over that achieved by single-marker association.
+
+the happy package is
+an extension of the original c program happy; it uses the c code to
+compute the probability of descent from each of the founders, at each
+locus position, but the happy packager allows a much richer range of
+models to be fit to the data.
+
+further details can be found in
+
+ proc. natl. acad. sci. usa, 10.1073/pnas.230304397.

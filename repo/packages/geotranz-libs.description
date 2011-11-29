@@ -1,0 +1,13 @@
+Geographic coordinates translator (runtime libraries)
+	
+geotranz (geographic translator) is an application program which allows
+you to easily convert geographic coordinates among a wide variety of
+coordinate systems, map projections, and datums. currently, twenty-five
+different coordinate systems, map projections, grids, and coding
+schemes, and over two hundred different datums, are supported.
+
+geotranz is the debian version of geotrans, a product of the national
+geospatial-intelligence agency (nga) and u.s. army engineering research
+and development center.
+
+this package contains the geotranz runtime libraries.

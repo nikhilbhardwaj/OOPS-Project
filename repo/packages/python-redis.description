@@ -1,0 +1,9 @@
+Persistent key-value database with network interface (python library)
+	
+redis is a key-value database in a similar vein to memcache but the dataset
+is non-volatile. redis additionally provides native support for atomically
+manipulating and querying data structures such as lists and sets.
+
+the dataset is stored entirely in memory and periodically flushed to disk.
+
+this package contains python bindings to redis.

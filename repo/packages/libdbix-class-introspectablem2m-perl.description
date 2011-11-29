@@ -1,0 +1,8 @@
+Introspection of many-to-many dbix::class relationships
+	
+because dbix::class many-to-many relationships are not actual relationships,
+they cannot be introspected with dbix::class.  they are actually just a
+collection of convenience  methods that bridge two actual relationships.
+
+dbix::class::introspectablem2m can be used to store all relevant information
+about these m2m relationships so they can later be introspected and examined.

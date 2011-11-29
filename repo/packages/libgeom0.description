@@ -1,0 +1,4 @@
+Freebsd geom library
+	
+this library provides an interface to geom, a modular disk i/o request
+transformation framework provided by the kernel of freebsd.

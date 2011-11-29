@@ -1,0 +1,5 @@
+Module for dumping data structures in various formats
+	
+data::treedumper is a perl module that provides dumps of perl variable data
+in a tree-like fashion. it is flexible and customizable, providing various
+output formatting processors and means of filtering and sorting the output.

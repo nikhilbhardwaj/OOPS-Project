@@ -1,0 +1,21 @@
+X11 xkb utilities
+	
+xkbutils contains a number of client-side utilities for xkb, the x11
+keyboard extension.
+
+setxkbmap is a tool to query and change the current xkb map.
+
+xkbbell generates a bell event through the keyboard.
+
+xkbcomp is a tool to compile xkb definitions into map files the server
+can use.
+
+xkbevd is an experimental tool to listen for certain xkb events and execute
+defined triggers when actions occur.
+
+xkbprint is a tool to generate an image with the physical representation
+of the keyboard as xkb sees it.
+
+xkbvleds shows the changing status of keyboard leds.
+
+xkbwatch shows the changing status of modifiers and leds.

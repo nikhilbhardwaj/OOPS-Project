@@ -1,0 +1,28 @@
+An http library implementation in c -- gnome support development files
+	
+it was originally part of a soap (simple object access protocol)
+implementation called soup, but the soap and non-soap parts have now been
+split into separate packages.
+
+libsoup uses the glib main loop and is designed to work well with gtk+
+applications. this enables gnome applications to access http servers
+on the network in a completely asynchronous fashion, very similar to
+the gtk+ programming model (a synchronous operation mode is also
+supported for those who want it).
+
+the gnome support library is used for features which are important to
+gnome apps, but which require gnome-specific libraries that non-gnome
+apps may not want to add dependencies on.
+
+features:
+
+ * both asynchronous (gmainloop and callback-based) and synchronous apis
+ * automatically caches connections
+ * ssl support using gnutls
+ * proxy support, including authentication and ssl tunneling
+ * client support for digest, ntlm, and basic authentication
+ * server support for digest and basic authentication
+ * basic client-side soap and xml-rpc support
+
+
+this package contains the development files for the gnome support.

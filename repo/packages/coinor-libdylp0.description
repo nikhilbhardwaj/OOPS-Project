@@ -1,0 +1,13 @@
+Linear programming solver using the dynamic simplex algorithm
+	
+dylp is designed to find solutions of constrained linear mathematical
+optimization problems. to this end, it is using a full implementation of the
+so called dynamic simplex algorithm for linear programming.
+
+dylp is part of the larger coin-or initiative (computational infrastructure
+for operations research) and integrates well in the coin open solver
+interface (osi), osidylp, which takes advantage of capabilities provided by
+coin (e.g., enhanced input/output and constraint system preprocessing) and is
+recommended if you're working in a c++ environment.
+
+this package contains the binaries and libraries.

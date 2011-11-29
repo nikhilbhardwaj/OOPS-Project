@@ -1,0 +1,12 @@
+The mcrl2 formal specification language toolset
+	
+mcrl2 stands for micro common representation language 2.  it is a
+specification language that can be used to specify and analyse the
+behaviour of distributed systems and protocols and is the successor to
+mucrl.  using its accompanying toolset, systems can be analysed and
+verified automatically.
+
+this toolset supports a collection of tools for linearisation, simulation,
+state-space exploration and generation and tools to optimise and analyse
+specifications.  moreover, state spaces can be manipulated, visualised and
+analysed.

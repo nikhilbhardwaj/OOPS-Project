@@ -1,0 +1,16 @@
+General graphics interface x display target
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains two drivers enabling libggi (and therefore any
+program using libggi) to display its output on an x server:
+
+
+ "x" the new unified x display draws its raster output into an x window
+ "dga" uses the xfree86 direct graphics access x extension to speed up
+     drawing -- this only works on local displays, and is not available
+     on some architectures
+
+
+
+ "xlib" does no longer exist!

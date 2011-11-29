@@ -1,0 +1,9 @@
+Library for parsing video download links (development package)
+	
+library to parse adobe flash video download links. it supports youtube
+and other similar video websites. it provides access to functionality and
+data through an api, and does not enable or require the use of the
+flash technology.
+
+this package provides the necessary files to compile programs which
+use libquvi0.

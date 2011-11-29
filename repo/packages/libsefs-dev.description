@@ -1,0 +1,8 @@
+Security enhanced linux file context management development
+	
+security-enhanced linux is a patch of the linux kernel and a number
+of utilities with enhanced security functionality designed to add
+mandatory access controls to linux.  this package contains the
+headers and archives used for linking to the library routines used
+for indexing and analyzing a snapshot of security contexts for
+selinux file-system entities.

@@ -1,0 +1,7 @@
+Accessing aviation weather information with perl
+	
+geo::metar is a perl module to access and parse aviation weather information
+with perl.
+
+note: this version differs slightly from the version in cpan. see the file
+readme.debian for specific changes

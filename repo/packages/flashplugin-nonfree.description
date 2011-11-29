@@ -1,0 +1,13 @@
+Adobe flash player - browser plugin
+	
+this package will download the flash player from adobe.  it is a
+netscape/mozilla type plugin.  any browser based on netscape or mozilla can
+use the flash player.  this package currently supports the following browsers:
+mozilla, mozilla-firefox, firefox, iceweasel, and iceape.  also galeon and
+epiphany can use the flash player.  konqueror can also use the flash player if
+konqueror-nsplugins is installed.
+
+warning: installing this debian package causes the
+adobe flash player to be downloaded from www.adobe.com.
+the end user license agreement of the adobe flash player
+is available at www.adobe.com.

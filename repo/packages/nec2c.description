@@ -1,0 +1,7 @@
+Translation of the nec2 fortran source code to the c language
+	
+the translation was performed mostly "by hand" and a lot of modifications
+to the original program were introduced in order to modernize the nec2
+and to remove as many built-in limitations as possible. the attendant
+somnec program was also translated to c and incorporated in nec2c as a
+function so that sommerfeld ground solutions are a part of the program.

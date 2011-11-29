@@ -1,0 +1,10 @@
+Functional programming language for realtime audio applications
+	
+faust is a functional programming language specifically designed for realtime
+audio applications and plugins. the syntax of the language is block diagram
+oriented. the faust compiler translate signal processing specifications into
+optimized c++ code for signal processing applications.
+
+the generated code can be wrapped into an 'architecture file' in order to
+create for example a standalone jack/gtk application. several architecture
+file are provided and additional ones are fairly easy to add.

@@ -1,0 +1,10 @@
+A flexible and efficient ftp daemon
+	
+muddleftpd has been designed from the ground up to be efficient,
+configurable and to be tolerant of being run in root or non-root mode.
+this server enables users to set up a variety of configurations, from
+a traditional ftp server using the password file for everything, to
+using the password file for nothing running entirely as a single
+user.
+
+modules for smb, mysql and mud authentication included in the package.

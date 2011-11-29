@@ -1,0 +1,10 @@
+Braille translation library - utilities
+	
+liblouis is a braille translator and back-translator.  it features support for
+computer and literary braille, supports contracted and uncontracted translation
+for many languages and has support for hyphenation.  liblouis also supports
+math braille (nemeth and marburg).  new languages can easily be added through
+tables that support a rule- or dictionary based approach. included are also
+tools for testing and debugging tables.
+
+this package contains a few tools to test tables and translate text.

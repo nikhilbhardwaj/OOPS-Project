@@ -1,0 +1,7 @@
+Ruby interface to linux's inotify system (dependency package)
+	
+the ruby package ruby-inotify allows to use linux's inotify system to
+wait for and respond to file access/change/create/delete events.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8.x).

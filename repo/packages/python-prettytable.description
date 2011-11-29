@@ -1,0 +1,8 @@
+Library to represent tabular data in visually appealing ascii tables
+	
+prettytable is a simple python library designed to make it quick and
+easy to represent tabular data in visually appealing ascii tables. it
+was inspired by the ascii tables used in the postgresql shell
+psql. prettytable allows for selection of which columns are to be
+printed, independent alignment of columns (left or right justified or
+centred) and printing of "sub-tables" by specifying a row range.

@@ -1,0 +1,7 @@
+Documentation for fast, memory-efficient, low-level networking in haskell
+	
+
+fast, memory-efficient, low-level socket functions that use data.bytestrings
+instead of strings.
+
+this package contains the library documentation.

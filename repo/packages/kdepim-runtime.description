@@ -1,0 +1,7 @@
+Runtime components for akonadi-kde
+	
+this package contains akonadi agents written using kdelibs.
+any package that uses akonadi should probably pull this in as a dependency.
+the kres-bridges is also parts of this package.
+
+this package is part of the kdepim-runtime module.

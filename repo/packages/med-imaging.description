@@ -1,0 +1,19 @@
+Debian med imaging packages
+	
+this metapackage will install debian packages which might be useful in
+medical image processing.
+
+it installs several packages supporting dicom (digital imaging and
+communications in medicine) which is the de-facto standard for medical
+image management. the standard defines data structures and services for
+the exchange of medical images and related information. the latest release
+has been published in 2008 and consists of 18 parts.
+
+for more information, you can visit the nema homepage
+http://medical.nema.org/ .
+
+the status of the official dicom base standard plus all the
+supplements and correction items are summarized at david clunie's webpage:
+http://www.dclunie.com/dicom-status/status.html
+where you'll find direct links to the most recent yearly edition
+ftp://medical.nema.org/medical/dicom/2008/ .

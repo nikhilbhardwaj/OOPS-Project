@@ -1,0 +1,9 @@
+Perl module for error/exception handling in an oo-ish way
+	
+this module provides two interfaces.  firstly "error" provides a
+procedural interface to exception handling.  secondly "error" is a
+base class for errors/exceptions that can either be thrown, for
+subsequent catch, or can simply be recorded.
+
+errors in the class "error" should not be thrown directly, but the
+user should throw errors from a sub-class of "error".

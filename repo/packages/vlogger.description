@@ -1,0 +1,10 @@
+Virtual web logfile rotater/parser
+	
+vlogger is a little piece of code borned to handle dealing with large
+amounts of virtualhost logs.  it's bad news that apache can't do this
+on its own.  vlogger takes piped input from apache, splits it off to
+separate files based on the first field.  it uses a file handle cache
+so it can't run out of file descriptors.  it will also start a new
+logfile every night at midnight, and maintain a symlink to the most
+recent file.  for security, it can drop privileges and do a chroot to
+the logs directory.

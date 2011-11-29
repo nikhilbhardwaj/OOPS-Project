@@ -1,0 +1,9 @@
+X.org x server -- glint display driver
+	
+this package provides the driver for the texas instruments/3dlabs glint and
+permedia series of video cards.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-glint driver module.

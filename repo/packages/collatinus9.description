@@ -1,0 +1,7 @@
+Lemmatisation of latin text
+	
+collatinus can be used to lemmatise latin texts, i.e. extract words and
+make a lexicon which indicates for each word its canonic form, and how
+the form actually found in the text was derived from it, for instance by
+declining it. example : rosam gives : rosa-rosae -- acc. sing.
+collatinus provides a nice graphic front-end to each operation.

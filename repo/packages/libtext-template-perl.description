@@ -1,0 +1,7 @@
+Text::template perl module
+	
+text::template is a library for generating form letters, building
+html pages, or filling in templates generally. a `template' is a
+piece of text that has little perl programs embedded in it here and
+there. when you `fill in' a template, you evaluate the little
+programs and replace them with their values.

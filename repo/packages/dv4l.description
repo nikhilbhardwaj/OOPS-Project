@@ -1,0 +1,5 @@
+Redirect v4l api to access a camcorder from a v4l program
+	
+dv4l enables programs to access a dv1394 (firewire) camcorder by using
+the video4linux (v4l) api.  dv4lstart uses the ld_preload facility to
+intercept calls to the v4l api and make the camcorder's videostream available.

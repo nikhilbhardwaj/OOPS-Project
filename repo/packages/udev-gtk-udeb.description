@@ -1,0 +1,6 @@
+Libudev shared library
+	
+this library provides access to udev device information.
+the package additionally contains input_id and the related rules.
+
+this is a minimal version, only for use in the installation system.

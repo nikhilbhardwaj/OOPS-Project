@@ -1,0 +1,8 @@
+Pages an array of data, creating links to previous and next pages
+	
+takes an array of data as input and pages it according to various
+parameters, building links within a specified range. for example, an
+array of alphabetical letters could be paged, resulting in pages with
+three letters per page, and links to the previous and next two pages.
+can be configured to use "jumping" and "sliding" window styles.
+.

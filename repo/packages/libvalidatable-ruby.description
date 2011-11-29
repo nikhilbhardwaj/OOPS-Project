@@ -1,0 +1,9 @@
+Provide activerecord looking validations
+	
+the validatable library can be included with any ruby class and
+provide activerecord looking validations. the library follows
+activerecord's lead for features that are similar and introduce new
+features.
+
+this package provide documentation and depends on the package
+containing the actual library for the default ruby version.

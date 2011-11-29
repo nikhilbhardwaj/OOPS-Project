@@ -1,0 +1,7 @@
+Maketext from already interpolated strings
+	
+this module is a subclass of locale::maketext, with additional
+support for localizing messages that already contains interpolated
+variables.  this is most useful when the messages are returned by
+external modules -- for example, to match "dir: command not found"
+against "[_1]: command not found".

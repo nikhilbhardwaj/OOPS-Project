@@ -1,0 +1,12 @@
+The xine video player library, development packages
+	
+this contains development files (headers, documentation and the like)
+and additional documentation for developers for the xine library
+(libxine).
+
+libxine provides the complete infrastructure for a video/media player. it
+supports mpeg 1/2 and some avi and quicktime videos out of the box, so you
+can use it to play dvds, (s)vcds and most video files out there. it
+supports network streams, subtitles and even mp3 or ogg files. it's
+extensible to your heart's content via plugins for audio and video output,
+input media, demuxers (stream types), audio/video and subtitle codecs.

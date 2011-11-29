@@ -1,0 +1,12 @@
+Save additional statistical counters for atop in the record
+	
+this patch takes care that the additional statistical counters are added to
+the process-accounting record (yes, this means an incompatible layout of this
+record).  when this patch is installed, atop automatically shows the
+additional counters for terminated processes as well.  since the pid of
+processes is also stored in the modified process-accounting record, matching
+this info with the formerly running process is less time-consuming compared to
+the conventional process-accounting record.
+
+
+ author: gerlof langeveld <gerlof@atcomputing.nl>

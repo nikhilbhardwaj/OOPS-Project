@@ -1,0 +1,12 @@
+Common framework to manage astronomy packages
+	
+this package allows the installation and removal of astronomy catalogues,
+converting those catalogues to astronomy programs' data formats.
+
+all stardata catalogues conforming to stardata-common policy are
+converted automatically at installation time to the formats of
+astronomy programs that support stardata-common.
+
+the register-stardata program is transparent for the user; this program
+is called automatically when any astronomy package conforming to the
+stardata-common policy is installed, upgraded or removed.

@@ -1,0 +1,27 @@
+Cvs utilities for use in working directories
+	
+several utilities which are used to facilitate working with the
+files in the working directory of a developer using cvs.
+
+the utilities included in this package are:
+
+
+ + cvsu:       offline "cvs update" simulator. lists the files found in
+               the current directory (or in the directories which you
+               specify).
+ + cvsco:      "cruel checkout". removes results of compilation and
+               discards local changes. deletes all the files except
+               listed unmodified ones and checks out everything which
+               seems to be missing.
+ + cvsdiscard: discards local changes but keeps results of compilation.
+               works like "cvsco", but only deletes files which are
+               likely to cause merge conflicts.
+ + cvspurge:   cvs-based "make maintainer-clean". removes results of
+               compilation but keeps local changes intact. removes
+               unknown files, but keeps changes in files known to cvs.
+ + cvstrim:    removes files and directories unknown to cvs.
+ + cvschroot:  makes it possible to change cvs/root in all subdirectories
+               to the given value.
+ + cvsdo:      simulates some of the cvs commands (currently add, remove
+               and diff) without any access to the cvs server.
+ + cvsnotag:   reports untagged files.

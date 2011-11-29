@@ -1,0 +1,7 @@
+Bittorrent library in ruby
+	
+rubytorrent is a pure-ruby bittorrent peer library and toolset. you can use
+it to download or serve files over bittorrent from any ruby program.
+
+this is a dependency package which depends on debian's default version of ruby
+(currently 1.8).

@@ -1,0 +1,10 @@
+Module to test for string equality
+	
+test::longstring is a perl test module that provides some functions useful
+for testing the equality of long strings. upon failure, it will provide more
+useful diagnostic output by:
+
+
+ * reporting lengths of the strings that have been compared
+ * reporting length of the common prefix of strings
+ * automatically escaping non-ascii characters as \x{xx}

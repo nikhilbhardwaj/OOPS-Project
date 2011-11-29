@@ -1,0 +1,14 @@
+Python module for calculations with uncertainties
+	
+uncertainties is a python module, which allows calculations such as
+
+
+  (0.2 +/- 0.01) * 2 = 0.4 +/- 0.02
+
+
+to be performed transparently; much more complex mathematical expressions
+involving numbers with uncertainties can also be evaluated transparently.
+
+correlations between expressions are correctly taken into account; x-x is
+thus exactly zero, for instance. the uncertainties produced by this module
+are what is predicted by error propagation theory.

@@ -1,0 +1,19 @@
+Pure java x86 and x86_64 assembler
+	
+this is a pure-java port of asmjit (http://code.google.com/p/asmjit/).
+
+asmjit is complete x86/x64 jit-assembler for c++ language. it supports
+32/64-bit x86 processors including all usable extensions (fpu, mmx, 3dnow, sse,
+sse2, sse3 and sse4) through type-safe api that mimics intel assembler syntax
+and eliminates nearly all common mistakes that can be done by developers.
+
+asmjit contains also high-level code generation classes that can be used as a
+portable way to create jit code that should run on all supported architectures.
+high-level classes can handle various function calling-conventions, register
+allocation and 32/64-bit mode differences.
+
+asmjit has been successfully tested by various c++ compilers (including msvc,
+gcc and borlandc++) under all major operating systems (including windows, linux
+and macos). asmjit has been also ported to other programming languages
+including java, delphi and smalltalk (although these ports are not official
+part of asmjit and was developed outside).

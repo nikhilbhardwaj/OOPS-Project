@@ -1,0 +1,21 @@
+Usb device sharing system over ip network
+	
+usb/ip is a system for sharing usb devices over the network.
+
+to share usb devices between computers with their full
+functionality, usb/ip encapsulates "usb requests" into ip
+packets and transmits them between computers.
+
+original usb device drivers and applications can be used
+for remote usb devices without any modification of them. a
+computer can use remote usb devices as if they were
+directly attached.
+
+currently usb/ip provides no access control or encryption.
+it should only be used in trusted environments.
+
+usb/ip requires kernel support which is included in linux
+kernels 2.6.28 or newer.
+
+this package provides the server component 'usbipd' and the
+client tool 'usbip'.

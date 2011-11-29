@@ -1,0 +1,6 @@
+Not quite c compiler for lego mindstorms rcx
+	
+the lego mindstorms rcx is a hitachi microcontroller embedded into a
+lego brick.  this package lets you write programs in a c-like
+language and download them to your rcx using the serial or usb
+infrared tower included with the rcx.

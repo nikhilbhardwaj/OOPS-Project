@@ -1,0 +1,7 @@
+Snmp plug-in for gkrellm
+	
+this plug-in allows you to monitor values from snmp hosts with your gkrellm.
+
+with this plugin, you can obtain info on network usage, cpu consumption,
+disk space used, etc. on any host with snmp enabled. the data will be
+printed in the gkrellm stack.

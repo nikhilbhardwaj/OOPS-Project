@@ -1,0 +1,6 @@
+Module for handling salted hashes
+	
+crypt::saltedhash is a perl module that provides an object oriented interface
+to create salted (or seeded) hashes of clear text data. the formalization of
+this concept originates from rfc-3112 and is extended by the use of different
+digital algorithms.

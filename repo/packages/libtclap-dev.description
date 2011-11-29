@@ -1,0 +1,6 @@
+Templatized command-line argument parser for c++
+	
+this package provides a simple c++ library that facilitates
+parsing command-line arguments in a type-independent manner.
+the functionality is provided via template header files, so
+no actual library is included.

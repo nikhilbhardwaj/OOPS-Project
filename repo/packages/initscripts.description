@@ -1,0 +1,4 @@
+Scripts for initializing and shutting down the system
+	
+the scripts in this package initialize a standard debian
+system at boot time and shut it down at halt or reboot time.

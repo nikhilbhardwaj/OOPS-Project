@@ -1,0 +1,12 @@
+Runtime haskell interpreter (ghc api wrapper); profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this library defines an interpreter monad. it allows to load haskell modules,
+browse them, type-check and evaluate strings with haskell expressions and even
+coerce them into values. the library is thread-safe and type-safe (even the
+coercion of expressions to values). it is, esentially, a huge subset of the
+ghc api wrapped in a simpler api. works with ghc 6.10.x and 6.8.x (this
+version was not tested with ghc 6.6).

@@ -1,0 +1,4 @@
+PackageId:33219
+Name:tryton-modules-sale-price-list
+Version:1.6.0-1
+Deps:python,python-pkg-resources,python-support,tryton-modules-party,tryton-modules-product-price-list,tryton-modules-sale,tryton-server

@@ -1,0 +1,7 @@
+C++ library to connect to postgresql (development files)
+	
+c++ library to enable user programs to communicate with
+the postgresql database back-end.
+
+this package contains header files for linking against libpqxx. obsoletes
+the libpqpp-dev package.

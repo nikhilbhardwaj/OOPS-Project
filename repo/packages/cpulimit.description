@@ -1,0 +1,8 @@
+Tool for limiting the cpu usage of a process
+	
+cpulimit is a simple program that attempts to limit the cpu usage of a
+process (expressed in percentage, not in cpu time). this is useful to
+control batch jobs, when you don't want them to eat too much cpu. it does
+not act on the nice value or other priority stuff, but on the real cpu
+usage.  besides it is able to adapt itself to the overall system load,
+dynamically and quickly.

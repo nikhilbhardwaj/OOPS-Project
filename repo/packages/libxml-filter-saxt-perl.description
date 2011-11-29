@@ -1,0 +1,12 @@
+Perl module for replicating events to several event handlers
+	
+the xml::filter::saxt module is like the unix 'tee' command in that it
+multiplexes the input stream to several output streams.  in this case, the
+input stream is a perlsax event producer (like xml::parser::perlsax) and
+the output streams are perlsax handlers or filters.
+
+the saxt constructor takes a list of hash references.  each hash
+specifies an output handler.  the hash keys can be: documenthandler,
+dtdhandler, entityresolver or handler, where handler is a combination
+of the previous three and acts as the default handler.  e.g. if
+documenthandler is not specified, it will try to use handler.

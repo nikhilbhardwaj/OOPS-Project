@@ -1,0 +1,7 @@
+Password recovery tool for oracle databases
+	
+ngorca is a multithreaded password recovery tool using
+exhaustive key search for oracle versions 7-11g rel.2.
+due to the weak hashing algorithm and constantly improving
+hardware performance, passwords can be found in minutes,
+depending on their length.

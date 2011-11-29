@@ -1,0 +1,6 @@
+Extension library for the lua 5.0 programming language
+	
+this package provides string, maths and io functions to liblua50.
+
+this package will most commonly be installed by programs depending on it
+or by authors using the liblualib50-dev package

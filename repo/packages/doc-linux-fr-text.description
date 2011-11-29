@@ -1,0 +1,11 @@
+Linux docs in french: howtos, metafaqs in ascii format
+	
+this package installs the french versions of the current linux
+howtos, mini-howtos and the "fhs" on your debian in ascii format.
+alternatively, html versions are provided in the
+doc-linux-fr-html package.
+
+the version number reflects the month in which doc-linux-fr-text was created.
+
+all files are available at ftp://ftp.lip6.fr/pub/linux/french/docs
+(with versions in ascii, dvi and postscript formats).

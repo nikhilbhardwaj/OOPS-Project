@@ -1,0 +1,9 @@
+Tree to tree correction between xml documents
+	
+xmldiff is a utility for extracting differences between two xml
+files.  it returns a set of primitives to apply on source tree to
+obtain the destination tree.
+
+the implementation is based on _change detection in hierarchically
+structured - information_, by s. chawathe, a. rajaraman,
+h. garcia-molina and j. widom, - stanford university, 1996

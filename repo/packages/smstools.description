@@ -1,0 +1,16 @@
+Sms server tools for gsm modems
+	
+the sms server tools allow setting up a central sms gateway. it
+sends and receives sms messages using a simple file-based
+interface. it can accommodate up to 20,000 messages a month.
+
+it supports an event-handler option that allows calling customized
+programs or scripts after sending or receiving sms messages.
+
+the sms server tools use one or more (max. 32) gsm modems to send and
+receive sms messages. some modems may be equipped with sim cards such
+as vodafone or telmi ones.  all messages are sorted in queues by the
+provider. if one modem fails, it will be deactivated for one hour
+before the software retries, while other modems run without any
+restriction. the status information and alarms are logged with
+syslog.

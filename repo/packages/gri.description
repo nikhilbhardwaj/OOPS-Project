@@ -1,0 +1,27 @@
+A language for scientific illustration
+	
+gri is an open-source language for scientific graphics programming. it is
+command-driven, as opposed to point/click. some users consider gri similar
+to latex, since both provide extensive power as a reward for tolerating a
+learning curve. the output is industry-standard postscript as output,
+suitable for inclusion in other documents.
+
+gri can make x-y graphs, contour graphs, and image graphs. fine control is
+provided over all aspects of drawing, e.g. line widths, colors, fonts,
+etc. greek letters and mathematical symbols are available in a tex-like
+syntax.
+
+folks who write 1000-line gri scripts usually start with something as
+simple as the following:
+
+
+  open file.dat        # open a file
+  read columns x * y   # read the 1st column as x and the 3rd as y
+  draw curve           # draw the data and autoscale the axes
+
+
+a full manual is also available in html (gri-html-doc package), in
+postscript suitable for printing (gri-pdf-doc package) and on-line by
+following links from the gri home page:
+
+  http://gri.sourceforge.net/

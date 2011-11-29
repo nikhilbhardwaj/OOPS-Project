@@ -1,0 +1,4 @@
+PackageId:25756
+Name:nvidia-glx-legacy-96xx
+Version:96.43.18-2
+Deps:dpkg,libc6,libc6-udeb,libgl1-nvidia-legacy-96xx-glx,libglx-nvidia-alternatives,nvidia-kernel-96.43.18,nvidia-kernel-legacy-96xx-dkms,xorg-video-abi-6.0,xserver-xorg-core

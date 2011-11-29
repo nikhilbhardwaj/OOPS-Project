@@ -1,0 +1,8 @@
+Converts docbook/xml documents into man pages and texinfo
+	
+the main tools are:
+
+ * docbook2x-man: converts a docbook/xml refentry into a manual page,
+   with table support
+ * docbook2x-texi: converts a docbook/xml refentry into an info page,
+   most usable for emacs users

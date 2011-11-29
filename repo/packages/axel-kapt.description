@@ -1,0 +1,8 @@
+Light download accelerator - graphical front-end
+	
+axel tries to accelerate the downloading process by using multiple connections
+for one file.  it can also use multiple mirrors for one download.  axel tries
+to be as light as possible (25-30k in binary form), so it might be useful as a
+wget clone on byte-critical systems.
+
+this package provides a qt based graphical front-end as a wrapper around axel.

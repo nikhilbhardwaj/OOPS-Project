@@ -1,0 +1,7 @@
+Pl/sh procedural language for postgresql 8.4
+	
+pl/sh enables an sql developer to write procedural language functions
+for postgresql 8.4 in a shell of his choice.  you need this package
+if you have any postgresql 8.4 functions that use the language plsh.
+
+postgresql is an object-relational sql database management system.

@@ -1,0 +1,8 @@
+General purpose mouse interface
+	
+this package provides a daemon that captures mouse events when the system
+console is active, and delivers events to applications through a library.
+
+by default, the daemon provides a 'selection' mode, so that
+cut-and-paste with the mouse works on the console just as it does
+under x.

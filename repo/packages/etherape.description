@@ -1,0 +1,6 @@
+Graphical network monitor modeled after etherman
+	
+etherape is an etherman clone. it displays network activity
+graphically. active hosts are shown as circles of varying size,
+and traffic among them is shown as lines of varying width. it's
+gnome and libpcap based.

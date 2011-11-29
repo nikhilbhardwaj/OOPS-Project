@@ -1,0 +1,15 @@
+Module for translations of perl documentation
+	
+pod2::base is an abstraction of the code in pod2::it and pod2::fr.
+these modules belong to the italian and the french translation projects
+of core perl pods.
+
+once a translation package had been installed, the translated
+documentation can be accessed with:
+
+
+    $ perldoc pod2::<lang>::<podname>
+
+or
+
+    $ perldoc -l it <podpage>

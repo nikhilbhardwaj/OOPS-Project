@@ -1,0 +1,11 @@
+Enterprise resource management (server)
+	
+open erp, previously known as tinyerp, is a complete erp and crm. the main
+features are accounting (analytic and financial), stock management, sales and
+purchases management, tasks automation, marketing campaigns, help desk, pos,
+etc. technical features include a distributed server, flexible workflows, an
+object database, a dynamic gui, customizable reports, and net-rpc and xml-rpc
+interfaces.
+
+this package contains the open erp server, install openerp-client package for
+the client.

@@ -1,0 +1,11 @@
+Perl module concerning the string aspects of scalars
+	
+scalar::string is about the string part of plain perl scalars. a scalar has a
+string value, which is notionally a sequence of unicode codepoints, but may
+be internally encoded in either iso-8859-1 or utf-8. in places, and more so
+in older versions of perl, the internal encoding shows through. to fully
+understand perl strings it is necessary to understand these implementation
+details.
+
+this module provides functions to classify a string by encoding and to encode
+a string in a desired way.

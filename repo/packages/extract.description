@@ -1,0 +1,12 @@
+Displays meta-data from files of arbitrary type
+	
+similar to the well-known "file" command, extract can display meta-data from a
+file and print the results to stdout.
+
+currently, libextractor supports the following formats: html, pdf, ps, ole2
+(doc, xls, ppt), openoffice (sxw), staroffice (sdw), dvi, man, mp3 (id3v1 and
+id3v2), ogg, wav, exiv2, jpeg, gif, png, tiff, deb, rpm, tar(.gz), zip, elf,
+real, riff (avi), mpeg, qt and asf.
+
+also, various additional mime types are detected. it can also be used to
+compute hash functions (sha-1, md5, ripemd160).

@@ -1,0 +1,19 @@
+Kolab cyrus mail system - pop3 support
+	
+cyrus is an imap server designed to handle massive quantities of mail,
+with a number of features not found in other imap implementations,
+including support for:
+
+ - running the daemon without root privileges;
+ - pop3 in addition to plain imap;
+ - pop/imap-before-smtp using drac;
+ - secure imap using ssl;
+ - server-side filtering with sieve;
+ - mail users without login accounts;
+ - simple mail quotas;
+ - virtual domains;
+ - ipv6.
+
+
+this package contains the pop3 (post office protocol) portion of the cyrus
+imapd suite.

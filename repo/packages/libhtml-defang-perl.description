@@ -1,0 +1,13 @@
+Cleans html as well as css of scripting and other executable contents, and neutralises xss attacks.
+	
+html::defang accepts an input html and/or css string and removes any
+executable code including scripting, embedded objects, applets, etc., and
+neutralises any xss attacks. a whitelist based approach is used which means
+only html known to be safe is allowed through.
+
+html::defang uses a custom html tag parser. the parser has been designed and
+tested to work with nasty real world html and to try and emulate as close as
+possible what browsers actually do with strange looking constructs. the test
+suite has been built based on examples from a range of sources such as
+http://ha.ckers.org/xss.html and http://imfo.ru/csstest/css_hacks/import.php
+to ensure that as many as possible xss attack scenarios have been dealt with.

@@ -1,0 +1,9 @@
+Gtk+ morse code decoding software
+	
+xdemorse is a gtk+ graphical version of demorse, using the same decoding
+engine. it has an fft-derived "waterfall" display of the incoming audio
+signal's spectrum, as well as a 'scope-like display of the audio
+detector's output and status of the mark/space discriminator ("slicer").
+xdemorse also has cat for the ft-847 and this can be used to net the
+receiver's frequency to the incoming signal, by clicking near its trace
+in the waterfall display.

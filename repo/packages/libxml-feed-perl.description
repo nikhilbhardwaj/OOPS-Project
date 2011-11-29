@@ -1,0 +1,16 @@
+Syndication feed parser and auto-discovery perl module
+	
+xml::feed is a syndication feed parser for both rss and atom feeds. it
+also implements feed auto-discovery for finding feeds, given a uri.
+
+xml::feed supports the following syndication feed formats:
+
+
+ * rss 0.91
+ * rss 1.0
+ * rss 2.0
+ * atom
+
+
+the goal of xml::feed is to provide a unified api for parsing and using
+the various syndication formats.

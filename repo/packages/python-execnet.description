@@ -1,0 +1,10 @@
+Rapid multi-python deployment
+	
+execnet provides carefully tested means to ad-hoc interact with python
+interpreters across version, platform and network barriers.  it provides
+a minimal and fast api targetting the following uses:
+
+
+ * distribute tasks to local or remote cpus
+ * write and deploy hybrid multi-process applications
+ * write scripts to administer a bunch of exec environments

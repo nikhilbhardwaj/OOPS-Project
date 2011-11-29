@@ -1,0 +1,38 @@
+Make a chroot of a rpm-based distribution
+	
+mach allows you to set up clean roots from scratch for any distribution or
+distribution variation supported.
+
+this clean build root can be used for several goals:
+
+ - making clean packages
+ - set up chroots for services to run it
+ - make disk images of clean roots (for example for uml)
+
+
+currently, mach works for rpm-based distributions that can work with apt
+for rpm.
+
+included at this moment is the necessary information to set up:
+
+ - fedora 1, 2, 3, 4, 5, 6, and development
+ - red hat 7.0, 7.1, 7.2, 7.3, 8, and 9
+ - centos 4
+ - dave/dina
+ - conectiva 9
+ - suse 8.1, 8.2, and 9.0
+ - yellowdog 2.3, and 3.0
+
+
+some handy features of mach include:
+
+ - "caching" of downloaded packages using the build hosts's apt
+   the build root
+ - ensures clean packages by reverting to the base set of build packages
+ - uses apt to resolve dependencies
+ - parsing of buildrequires to install necessary packages for building
+ - build ordering when doing multiple builds
+ - support for flavours of distribution
+ - multiple build roots
+ - locking of buildroot to avoid concurrent builds
+ - optional signing of built packages

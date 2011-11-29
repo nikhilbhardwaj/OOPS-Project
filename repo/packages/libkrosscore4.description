@@ -1,0 +1,12 @@
+The kross core library
+	
+kross is a scripting bridge for the kde development platform used to embed
+scripting functionality into an application. kross provides an abstract api to
+provide scripting functionality in a interpreter-independent way. the
+application that uses kross should not need to know anything about the
+scripting language being used.
+
+the core of kross provides the framework to deal transparently with
+interpreter-backends and offers abstract functionality to deal with scripts.
+
+this package is part of the kde development platform libraries module.

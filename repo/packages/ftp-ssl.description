@@ -1,0 +1,14 @@
+The ftp client with ssl or tls encryption support
+	
+ftp is the user interface to the arpanet standard file transfer protocol.
+the program allows a user to transfer files to and from a remote network
+site.
+
+ftp-ssl replaces normal ftp using ssl or tls authentication and encryption.
+it interoperates with normal ftpd.
+it checks if the other side is also talking ssl or tls, if not it falls back
+to normal ftp protocol.
+
+advantages over normal ftp(d): your passwords and the data you send
+will not go in cleartext over the line. nobody can get it with
+tcpdump or similar tools.

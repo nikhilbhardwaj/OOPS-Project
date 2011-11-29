@@ -1,0 +1,8 @@
+Apc (alternative php cache) module for php 5
+	
+alternative php cache
+
+the alternative php cache, also known as apc, is a free, open, and robust
+framework for caching and optimizing php intermediate code. apc is a fast
+solution for caching php code locally, it is not distributed like memcached,
+but they can be used together for optimal caching.

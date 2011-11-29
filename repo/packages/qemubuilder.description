@@ -1,0 +1,17 @@
+Pbuilder using qemu as backend
+	
+pbuilder implementation for qemu.
+
+qemubuilder create -- builds qemu cow base image.
+
+qemubuilder update -- updates qemu cow base image.
+
+qemubuilder build -- builds package inside qemu cow base image.
+
+gives a pbuilder interface for emulated cross-building environments
+using qemu.
+
+pbuilder is a tool for building and testing debian package inside a
+clean chroot, and qemubuilder implements similar experience over
+emulated cpus. this tool allows building package inside emulated
+debian environment for different cpu architectures supported by qemu.

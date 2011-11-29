@@ -1,0 +1,4 @@
+Bash loadable builtins - headers & examples
+	
+bash can dynamically load new builtin commands.  included are the
+necessary headers to compile your own builtins and lots of examples.

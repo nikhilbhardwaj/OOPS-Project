@@ -1,0 +1,13 @@
+Monophonic synth plugin with two oscillators and waveshapers
+	
+a monophonic synth plugin that sends the sound from two sine oscillators
+through two sine waveshapers in series. you can control the vibrato, tremolo,
+portamento, the tuning of both oscillators, the oscillator mix, and the shape
+amount (total and split over both shapers). there is also an adsr envelope
+generator that can control the total shape amount and the amplification (with
+controllable sensitivity for both), an lfo for the total shape amount, and a
+feedback delay. the shape amount and amplification is velocity sensitive, and
+the "mod wheel" midi controller is bound to the total shape amount.
+
+this is a development version, so things will probably change - don't use this
+plugin in a patch or song and expect later versions to work in the same way.

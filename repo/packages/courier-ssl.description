@@ -1,0 +1,11 @@
+Courier mail server - ssl/tls support
+	
+the courier mail transfer agent (mta) is an integrated mail/groupware
+server based on open commodity protocols, such as esmtp, imap, pop3, ldap,
+ssl, and http. courier provides esmtp, imap, pop3, webmail, and mailing list
+services within a single, consistent, framework.
+
+courier uses the a ssl/tls wrapper application named
+couriertls instead of embedding ssl/tls support in the different applications.
+additionally, this package contains a default set
+of trusted x.509 root ca certs.

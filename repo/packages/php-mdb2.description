@@ -1,0 +1,36 @@
+Php pear module to provide a common api for supported rdbms
+	
+pear mdb2 is a merge of the pear db and metabase php database
+abstraction layers.
+
+it provides a common api for all supported rdbms. the main difference
+to most other db abstraction packages is that mdb2 goes much further
+to ensure portability. mdb2 provides most of its many features
+optionally that can be used to construct portable sql statements:
+
+
+ * object-oriented api
+ * a dsn (data source name) or array format for specifying database
+   servers
+ * datatype abstraction and on demand datatype conversion
+ * various optional fetch modes to fix portability issues
+ * portable error codes
+ * sequential and non sequential row fetching as well as bulk fetching
+ * ability to make buffered and unbuffered queries
+ * ordered array and associative array for the fetched rows
+ * prepare/execute (bind) named and unnamed placeholder emulation
+ * sequence/autoincrement emulation
+ * replace emulation
+ * limited sub select emulation
+ * row limit emulation
+ * transactions/savepoint support
+ * large object support
+ * index/unique key/primary key support
+ * pattern matching abstraction
+ * module framework to load advanced functionality on demand
+ * ability to read the information schema
+ * rdbms management methods (creating, dropping, altering)
+ * reverse engineering schemas from an existing database
+ * sql function call abstraction
+ * full integration into the pear framework
+ * phpdoc api documentation

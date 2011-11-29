@@ -1,0 +1,13 @@
+Bluetooth mobile devices support for asterisk
+	
+asterisk is an open source pbx and telephony toolkit.
+
+this package provides support for connecting bluetooth devices to the
+asterisk pbx. it allows you to:
+
+  * send and receive pstn calls and sms messages over a bluetooth phone.
+  * use a bluetooth handset as a local phone connected to your pbx.
+
+
+for more information about the asterisk pbx, have a look at the asterisk
+package.

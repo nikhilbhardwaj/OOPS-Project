@@ -1,0 +1,4 @@
+Freebsd kvm (kernel memory interface) library
+	
+the kvm library provides a uniform interface for accessing kernel virtual
+memory images, including live systems and crash dumps.

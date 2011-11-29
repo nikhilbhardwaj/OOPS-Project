@@ -1,0 +1,11 @@
+Parallel solver libraries within an object-oriented software framework
+	
+the trilinos project is an effort to develop and implement robust
+parallel algorithms using modern object-oriented software design,
+while still leveraging the value of established numerical libraries
+such as petsc, aztec, the blas and lapack. it emphasizes abstract
+interfaces for maximum flexibility of component interchanging, and
+provides a full-featured set of concrete classes that implement all
+abstract interfaces.
+
+this package contains the python bindings for trilinos.

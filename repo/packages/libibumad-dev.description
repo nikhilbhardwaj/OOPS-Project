@@ -1,0 +1,9 @@
+Development files for libibumad
+	
+libibumad provides userspace infiniband management datagram (umad)
+functions which sit on top of the umad modules in the kernel.
+these are used by infiniband diagnostic and management tools.
+
+this package is needed to compile programs against libumad1.
+it contains the header files and static libraries (optionally)
+needed for compiling.

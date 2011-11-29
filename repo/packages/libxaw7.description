@@ -1,0 +1,15 @@
+X11 athena widget library
+	
+libxaw7 provides the second version of xaw, the athena widgets tookit,
+which is largely used by legacy x applications.  this version is the
+most common version, as version 6 is considered deprecated, and version
+8, which adds xprint support, is unsupported and not widely used.
+in general, use of a more modern toolkit such as gtk+ is recommended.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxaw

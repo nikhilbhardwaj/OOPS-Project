@@ -1,0 +1,10 @@
+Debugging symbols for the libmthca driver
+	
+libmthca is a device-specific driver for mellanox infiniband host
+channel adapters (hcas) for the libibverbs library.  this allows
+userspace processes to access mellanox hca hardware directly with
+low latency and low overhead.
+
+this package contains the debugging symbols associated with
+libmthca1. they will automatically be used by gdb for debugging
+libmthca-related issues.

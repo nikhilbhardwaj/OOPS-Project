@@ -1,0 +1,6 @@
+Graphical user interface plug-in for licq using qt3
+	
+this package provides the qt-based graphical user interface to the licq
+instant messaging client.  this version is not linked against the kde3
+libraries; see licq-plugin-kde for that.  the qt plug-in has docking support
+for window maker, afterstep and enlightenment among others.

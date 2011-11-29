@@ -1,0 +1,6 @@
+Convert troff to docbook
+	
+lifting documents from presentation level to semantic level is hard,
+and a really good job requires human polishing.  this tool aims to do
+everything that can be mechanized, and to preserve any troff-level
+information that might have structural implications in xml comments.

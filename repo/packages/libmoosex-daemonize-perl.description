@@ -1,0 +1,5 @@
+Role for daemonizing your moose based application
+	
+moosex::daemonize provides a set of basic roles as an infrastructure to
+write a persistent daemon that has a pid file, and responds appropriately
+to signals.

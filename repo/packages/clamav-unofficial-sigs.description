@@ -1,0 +1,17 @@
+Update script for 3rd-party clamav signatures
+	
+this package provides a script for updating the following sources of
+3rd-party clamav signatures until freshclamav gains support for such
+signatures.
+
+the sanesecurity/oitc signatures provide detection of phishing, spear
+phishing, fake lottery, ecard malware, casino, fake jobs, fake loans,
+419s, fake diplomas, porn, emailed malware and other general spam.
+
+msrbl signatures provide detection of image spam and general spam.
+
+securiteinfo signatures provide various badware signatures,
+securiteinfo.com honeypot signatures, honeynet.cz signatures
+and french anti-spam signatures
+
+malwarepatrol provides detection of mail containing urls to malware.

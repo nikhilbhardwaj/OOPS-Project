@@ -1,0 +1,21 @@
+Television display application
+	
+this package provides a high quality television application for use with
+video capture cards. it processes the input from a capture card and
+displays it on a computer monitor or projector. tvtime focuses on high
+visual quality, making it ideal for videophiles.
+
+main features:
+
+ * deinterlaced output at a full interlaced rate of 59.94 frames per
+   second for ntsc sources, or 50 frames per second for pal sources.
+   this gives smoothness of motion and high visual quality;
+ * multiple deinterlacing algorithms for finding the optimal mode for
+   the video content and available processor speed;
+ * 16:9 aspect ratio mode for the highest available resolution when
+   processing input from an external dvd player or digital satellite
+   receiver;
+ * super-slick on-screen-display for the complete television
+   experience, with a featureful menu system;
+ * "2:3 pulldown" detection for optimal quality viewing of film content
+   from ntsc sources.

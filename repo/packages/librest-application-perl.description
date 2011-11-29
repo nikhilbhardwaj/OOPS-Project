@@ -1,0 +1,4 @@
+Framework for building restful web-applications
+	
+module that acts as a base class for applications which implement a restful
+interface, similar to cgi::application.

@@ -1,0 +1,8 @@
+Freebsd zfs library
+	
+the z file system is a pooled filesystem designed for maximum data integrity,
+supporting data snapshots, multiple copies, and data checksums.
+
+the zfs library provides support for managing zfs filesystems.
+
+this is a minimal package for use in debian-installer.

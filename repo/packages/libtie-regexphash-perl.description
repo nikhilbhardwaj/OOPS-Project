@@ -1,0 +1,4 @@
+Use regular expressions as hash keys
+	
+tie::regexphash allows one to use regular expressions as hash keys via
+the standard tied hash interfaces in perl, or through perloo methods.

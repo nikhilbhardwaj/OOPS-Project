@@ -1,0 +1,11 @@
+Server that manages uniconf elements
+	
+uniconf is a configuration system that can serve as the centrepiece among
+many other, existing configuration systems.
+
+uniconf can also be accessed over the network, with authentication, allowing
+easy replication of configuration data via the unireplicategen.
+
+this package contains the server that accepts incoming tcp or unix
+connections, and gets or sets uniconf elements at the request of a
+uniconf client.

@@ -1,0 +1,13 @@
+Feature rich ansi console login engine
+	
+francine is an easy to configure themeable console login program. its great
+configurability for per tty access-settings and the posibility to put the
+prompt for username and password anywhere within a nicely colored ansi-screen
+makes it a greatly enhanced replacement for the old clumpy login.
+
+you need a getty that is able to run different programs than just login. i
+suggest rungetty for that, but (alternative) getty does suffice. it can also
+be used from the telnetd with the -l option.
+
+this project is a spin-off from the fancylogin project, which is still
+maintained by richard bergmair.

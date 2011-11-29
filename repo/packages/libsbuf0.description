@@ -1,0 +1,5 @@
+Freebsd string buffer library
+	
+this library provide a way to handle string buffers. it contains
+numerous functions such as append, copy, cat, print, trim whitespace
+characters, etc.

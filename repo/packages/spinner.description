@@ -1,0 +1,7 @@
+Sends small packets over a idle link
+	
+spinner sends small packets (null packets or a fancy ascii spin
+fan with motion) to keep a link up.
+
+it is the perfect application to keep alive a connection over
+routers which disconnect a link after some idle time.

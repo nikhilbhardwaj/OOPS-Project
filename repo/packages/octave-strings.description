@@ -1,0 +1,7 @@
+Additional string manipulation functions for octave
+	
+this package provides additional functions to manipulate strings in octave,
+including the possibility to decode from base64 and encode into it and using
+perl-compatible regular expressions.
+
+this octave add-on package is part of the octave-forge project.

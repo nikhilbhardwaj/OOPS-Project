@@ -1,0 +1,7 @@
+Ace reliable multicast library
+	
+the rmcast library is a reliable source-ordered multicast protocol
+implementation.
+
+it uses sequence number for re-ordering, duplicate suppression and
+loss detection of messages.

@@ -1,0 +1,25 @@
+Installer for microsoft truetype core fonts
+	
+this package allows for easy installation of the microsoft true type
+core fonts for the web including:
+
+
+  andale mono
+  arial black
+  arial (bold, italic, bold italic)
+  comic sans ms (bold)
+  courier new (bold, italic, bold italic)
+  georgia (bold, italic, bold italic)
+  impact
+  times new roman (bold, italic, bold italic)
+  trebuchet (bold, italic, bold italic)
+  verdana (bold, italic, bold italic)
+  webdings
+
+
+you will need an internet connection to download these fonts if you
+don't already have them.
+
+note: the package ttf-liberation contains free variants of the times,
+arial and courier fonts. it's better to use those instead unless you
+specifically need one of the other fonts from this package.

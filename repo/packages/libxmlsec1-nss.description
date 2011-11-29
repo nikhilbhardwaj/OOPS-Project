@@ -1,0 +1,8 @@
+Nss engine for the xml security library
+	
+the xml security library implements standards related to secure handling
+of xml data.
+
+this package provides dynamic libraries for use by applications.
+specifically, it provides the nss implementation of the xml security
+library cryptography functions.

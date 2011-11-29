@@ -1,0 +1,6 @@
+Interface to drmaa-compliant distributed resource management systems
+	
+this is a python implementation of the distributed resource management (drm)
+application api (drmaa). it provides all high-level functionality necessary
+to consign a job to a drm system (e.g. sun gridengine), including common
+operations on jobs, such as termination or suspension.

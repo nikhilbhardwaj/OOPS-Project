@@ -1,0 +1,17 @@
+Dvd backup utility based on gstreamer and gtk+
+	
+thoggen is designed to be easy and straight-forward to use. it attempts
+to hide the complexity many other transcoding tools expose and tries to
+offer sensible defaults that work okay for most people most of the time.
+features:
+
+ * easy to use, with a nice graphical user interface (gui)
+ * supports title preview, picture cropping, and picture resizing.
+ * language selection for audio track (no subtitle support yet though)
+ * encodes into ogg/theora video
+ * can encode from local directory with video dvd files
+ * based on the gstreamer multimedia framework, which makes it fairly
+   easy to add additional encoding formats/codecs in future.
+
+
+http://thoggen.net

@@ -1,0 +1,4 @@
+Lock file lister
+	
+lslk attempts to list all of the locks on the executing
+system's local files (i.e., on the active inodes).

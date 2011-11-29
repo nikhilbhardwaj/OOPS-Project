@@ -1,0 +1,10 @@
+Perl module for git-compatible config file parsing
+	
+config::gitlike provides a perl interface for parsing, writing, and managing
+configuration files of the format used by the version control system git. it
+supports config-file inheritance in the same way that git does: system-wide,
+user-wide, and per-directory config files can be specified and loaded, with
+values from more local files overriding those in less-local files.
+
+for more information on this configuration file format, see:
+<url:http://www.kernel.org/pub/software/scm/git/docs/git-config.html>

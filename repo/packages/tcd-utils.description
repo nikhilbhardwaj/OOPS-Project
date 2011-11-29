@@ -1,0 +1,6 @@
+Convert tide constituent database (tcd) files
+	
+tcd-utils are command-line tools for converting tide constituent database
+(tcd) files to and from other formats.  they are used to create tidal
+harmonics files used by xtide (see the xtide package), such as those found
+in the xtide-data package.

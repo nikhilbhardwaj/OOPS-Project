@@ -1,0 +1,13 @@
+Gives a fake root environment
+	
+this is a clean reimplementation of the fakeroot command. just like it,
+anything run within the fake root command will assume it is running as root.
+unlike it, fakeroot-ng is not based on ld_preload but on ptrace.
+
+the practical upshot of this is that the technology supports intercepting the
+"open" system call. in particular, this allows simulating the "chroot" command
+reliably.
+
+another important difference is that fakeroot-ng can fool applications that do
+not perform system calls through glibc, such as statically linked executables
+and programs written in some non-c languages (like the latest sun jdk).

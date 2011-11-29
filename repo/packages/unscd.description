@@ -1,0 +1,15 @@
+Micro name service caching daemon
+	
+a daemon which handles passwd, group and host lookups for running
+programs and caches the results for the next query. you only need
+this package if you are using slow name services like ldap, nis or
+nis+.
+
+this particular nscd is a complete rewrite of the gnu glibc nscd
+which is a single threaded server process which offloads all nss
+lookups to worker children; cache hits are handled by the parent,
+and only cache misses start worker children, making the parent immune
+to resource leaks, hangs, and crashes in nss libraries.
+
+it should mostly be a drop-in replacement for existing installs using
+nscd.

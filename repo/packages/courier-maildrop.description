@@ -1,0 +1,17 @@
+Courier mail server - mail delivery agent
+	
+the courier mail transfer agent (mta) is an integrated mail/groupware
+server based on open commodity protocols, such as esmtp, imap, pop3, ldap,
+ssl, and http. courier provides esmtp, imap, pop3, webmail, and mailing list
+services within a single, consistent, framework.
+
+the maildrop program is a local mail delivery agent.
+it reads a mail message from standard input, then delivers the
+message to the mailbox. it is able to deliver mail to
+mbox-style mailboxes and maildirs.
+
+it will optionally read instructions from a file, which describes how
+to filter incoming mail, using a structured filtering language.
+
+this package is intended for use along with sqwebmail. otherwise,
+use the standalone maildrop package.

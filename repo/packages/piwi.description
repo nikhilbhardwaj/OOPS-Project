@@ -1,0 +1,10 @@
+P(erl|relude) ids web interface - a frontend to your prelude database
+	
+providing a complete web front-end for the prelude-intrusion detection system
+
+ with features like :
+   - alert listing, sorting, masking
+   - alert details
+   - source centric view
+   - alert-type centric view
+   - source informations (ip, mac, os via nmap, known open services)

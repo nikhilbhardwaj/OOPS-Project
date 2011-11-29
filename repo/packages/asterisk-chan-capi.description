@@ -1,0 +1,5 @@
+Common isdn api 2.0 implementation for asterisk
+	
+a channel driver for the asterisk software telephony pbx using the
+common isdn api (capi) 2.0. it is intended to be used with isdn hardware that
+provide such an interface.

@@ -1,0 +1,20 @@
+A full-text search system for communities
+	
+hyper estraier is a full-text search system. you can search lots of documents
+for some documents including specified words. if you run a web site, it is
+useful as your own search engine for pages in your site. also, it is useful as
+search utilities of mail boxes and file servers.
+the characteristic of hyper estraier is the following.
+
+ * high performance of search
+ * high scalability of target documents
+ * perfect recall ratio by n-gram method
+ * phrase search, attribute search, and similarity search
+ * multilingualism with unicode
+ * independent of file format and repository
+ * simple and powerful api
+ * supporting p2p architecture
+
+it is redesigned estraier and you can connect several index nodes over
+the network using node api.
+http://hyperestraier.sourceforge.net/

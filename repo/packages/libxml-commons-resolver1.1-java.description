@@ -1,0 +1,5 @@
+Xml entity and uri resolver library
+	
+apache xml commons resolver simplifies the task of using xml catalog files to
+perform entity resolution. they are used by other apache xml projects like
+xerces-j and xalan-j.

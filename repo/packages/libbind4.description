@@ -1,0 +1,12 @@
+Dns resolver and message parsing library
+	
+libbind contains the standard resolver library that was distributed in
+bind9 prior to version 9.6. included are functions that communicate with
+domain name servers, parse dns messages, retrieve network host entries
+from /etc/hosts or via dns, convert cidr network addresses, perform hesiod
+information lookups, retrieve network entries from /etc/networks,
+implement tsig transaction/request security of dns messages, perform
+name-to-address and address-to-name translations, and use /etc/resolv.conf
+for resolver configuration.
+
+this package contains the shared library.

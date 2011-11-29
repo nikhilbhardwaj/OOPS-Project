@@ -1,0 +1,12 @@
+Associate a combination of keys or mouse buttons with a shell command
+	
+xbindkeys is a program that allows you to launch shell commands with
+your keyboard or your mouse under the x window system.
+it links commands to keys or mouse buttons, using a configuration file.
+it's independent of the window manager and can capture all keyboard keys
+(ex: power, wake...).
+
+it optionally supports a guile-based configuration file layout, which enables
+you to access all xbindkeys internals, so you can have key combinations,
+double clicks or timed double clicks take actions. also all functions that work
+in guile will work for xbindkeys.

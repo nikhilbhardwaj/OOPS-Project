@@ -1,0 +1,19 @@
+Amazon s3 perl api - simple storage service
+	
+net::amazon::s3 provides a perlish interface to amazon s3. from the
+developer blurb: "amazon s3 is storage for the internet. it is
+designed to make web-scale computing easier for developers. amazon s3
+provides a simple web services interface that can be used to store and
+retrieve any amount of data, at any time, from anywhere on the web. it
+gives any developer access to the same highly scalable, reliable,
+fast, inexpensive data storage infrastructure that amazon uses to run
+its own global network of web sites. the service aims to maximize
+benefits of scale and to pass those benefits on to developers".
+
+to find out more about s3, please visit: http://s3.amazonaws.com/
+
+to use this module you will need to sign up to amazon web services and
+provide an "access key id" and " secret access key". if you use this
+module, you will incur costs as specified by amazon. please check the
+costs. if you use this module with your access key id and secret
+access key you must be responsible for these costs.

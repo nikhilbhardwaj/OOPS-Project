@@ -1,0 +1,5 @@
+Ax.25 traffic analyzer, dumper and spy daemon
+	
+ax25spyd is a daemon, which analyses, formats and transmit the ax.25
+traffic via sockets to other processes. statistic of heard frames
+and a simple dx-cluster-spy included.

@@ -1,0 +1,9 @@
+High-level terminal interface library for c++ (debugging files)
+	
+libcwidget is a modern user interface library modeled on gtk+ and qt,
+but using curses as its display layer and with widgets that are
+tailored to a terminal environment.
+
+this package contains debugging symbols for libcwidget-dbg.  it is
+only needed if you want to generate useful backtraces for programs
+using cwidget.

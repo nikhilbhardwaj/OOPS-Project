@@ -1,0 +1,24 @@
+System monitor that can react to user chosen conditions
+	
+while monitoring your cpu, memory, hard drive and network usage,
+sentinella can be programmed to take specific actions when setpoints
+for utilization or time are met. it can power off, reboot or hibernate
+your system, kill an active process, throw an alarm or execute any
+command.
+
+it can measure the following conditions:
+
+  - cpu load
+  - memory used
+  - network traffic
+  - date and time
+  - the existence of a process
+
+
+and the possible actions are:
+
+  - shutdown/reboot the computer
+  - standby/suspend/hibernate
+  - execute a command
+  - play an alarm
+  - kill a process

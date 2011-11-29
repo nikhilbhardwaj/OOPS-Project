@@ -1,0 +1,7 @@
+Debugging symbols for sylpheed, a gtk+ e-mail client
+	
+this package contains debug symbols useful for debugging sylpheed
+with gdb or any compatible debugger.
+
+it is also required if you intend to provide detailed backtraces for
+helping the maintainer and/or upstream to fix some bug.

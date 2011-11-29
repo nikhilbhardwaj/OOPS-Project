@@ -1,0 +1,17 @@
+Java library to parse html
+	
+html parser is a java library used to parse html in either a linear
+or nested fashion. primarily used for transformation or extraction,
+it features filters, visitors, custom tags and easy to use
+javabeans.
+
+the two fundamental use-cases that are handled by the parser are
+extraction and transformation (the syntheses use-case, where html
+pages are created from scratch, is better handled by other tools
+closer to the source of data).
+
+in general, to use the htmlparser you will need to be able to write
+code in the java programming language. although some example programs
+are provided that may be useful as they stand, it's more than likely
+you will need (or want) to create your own programs or modify the
+ones provided to match your intended application.

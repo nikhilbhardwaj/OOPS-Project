@@ -1,0 +1,12 @@
+Issues dynamic dns v3 requests
+	
+dynamic dns fixes your domain name when your ip address varies with
+permanent connections like cable modems.  your isp may charge extra
+for dns.  free dynamic dns with a range of domain names is available
+from sites like dyndns.org, hn.org and ddns.nu.  you set up an account
+and domain name with your browser at the dynamic dns site then update
+the ip periodically with an appropriate client program.
+
+this package installs a dns update client, ddns3, for dynamic dns
+version 3 used by server ddns.nu in sydney, australia.  after server
+account creation edit /etc/default/ddns3-client to activate ddns3.

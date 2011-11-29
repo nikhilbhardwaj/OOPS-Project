@@ -1,0 +1,9 @@
+The super sed stream editor
+	
+super sed reads the specified files or the standard input if no files are
+specified, makes editing changes according to a list of commands, and
+writes the results to the standard output.
+
+super sed is an enhanced version of gnu sed 3.02. relative to 3.02, there
+are several new features (including in-place editing of files, extended
+regular expression syntax and a few new commands) and some bug fixes.

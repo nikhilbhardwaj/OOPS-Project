@@ -1,0 +1,5 @@
+Transitional dummy package
+	
+the original kernel-patch-nfs-ngroups package got renamed to
+linux-patch-nfs-ngroups.  after the installation of the new package, you
+can safely remove this transitional package.

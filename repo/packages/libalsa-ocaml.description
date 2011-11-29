@@ -1,0 +1,6 @@
+Ocaml bindings for the alsa library
+	
+this ocaml library interfaces the alsa library libasound to access audio
+devices.
+
+this package contains only the shared runtime stub libraries.

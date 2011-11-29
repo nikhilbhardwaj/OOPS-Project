@@ -1,0 +1,4 @@
+PackageId:3730
+Name:emdebian-grip
+Version:2.2.7+i18n
+Deps:apt,debhelper,devscripts,dpkg-dev,emdebian-tdeb,libparse-debian-packages-perl,perl

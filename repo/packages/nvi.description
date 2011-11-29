@@ -1,0 +1,10 @@
+4.4bsd re-implementation of vi
+	
+vi is the original screen based text editor for unix systems.
+it is considered the standard text editor, and is available on
+almost all unix systems.
+
+nvi is intended as a "bug-for-bug compatible" clone of the original
+bsd vi editor. as such, it doesn't have a lot of snazzy features as do
+some of the other vi clones such as elvis and vim. however, if all
+you want is vi, this is the one to get.

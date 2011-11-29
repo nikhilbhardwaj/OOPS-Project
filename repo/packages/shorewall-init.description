@@ -1,0 +1,20 @@
+Shorewall initialization
+	
+this package provides two related features:
+
+
+   a)  it allows the firewall to be closed prior to bringing up
+       network devices. this insures that unwanted connections are not
+       allowed between the time that the network comes up and when the
+       firewall is started.
+
+
+
+   b)  it integrates with networkmanager and distribution ifup/ifdown
+       systems to allow for 'event-driven' startup and shutdown.
+
+
+the two facilities can be enabled separately.
+
+when shorewall-init is first installed, it does nothing until you
+configure it.

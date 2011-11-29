@@ -1,0 +1,4 @@
+PackageId:3343
+Name:dpkg-sig
+Version:0.13.1
+Deps:gnupg,libconfig-file-perl,libdigest-md5-perl,perl

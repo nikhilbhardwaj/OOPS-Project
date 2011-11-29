@@ -1,0 +1,9 @@
+Extension for munkres' solution to assignment problem
+	
+the algorithm::munkres module extends the solution of assignment problem
+for square matrices to rectangular matrices by padding zeros. thus a
+rectangular matrix is converted to square matrix by padding necessary zeros.
+
+assignment problem: given n jobs, n workers and the time taken by
+each worker to complete a job then how should the assignment of a
+worker to a job be done, so as to minimize the time taken.

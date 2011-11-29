@@ -1,0 +1,11 @@
+Interactive snmp tool with python
+	
+snimpy is a python-based tool providing a simple interface to build
+snmp queries. this interface aims at being the most pythonic
+possible: you grab scalars using attributes and columns are like
+dictionaries.
+
+snimpy can either be used interactively through its console (derived
+from python own console or from ipython if available) or by writing
+snimpy scripts which are just python scripts with some global
+variables available.

@@ -1,0 +1,7 @@
+Windows api implementation - opengl module
+	
+wine is a free ms-windows api implementation.
+this is still a work in progress and many applications may still not work.
+
+this package contains the opengl and direct3d modules that allow
+windows applications to use 3d acceleration.

@@ -1,0 +1,6 @@
+Lemonldap::ng web-sso system
+	
+lemonldap::ng is a complete web-sso system that can run with reverse-proxies
+or directly on application apache servers.
+
+this package is a metapackage that install handler, manager and portal.

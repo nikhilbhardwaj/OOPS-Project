@@ -1,0 +1,24 @@
+Gui program for particle image velocimetry - mpi version
+	
+gpiv is a graphic user interface program using the gtk/gnome libraries for
+particle image velocimetry (piv). the program gives a quick overview
+of the parameter settings of the processes and allows to change them
+easy, running the processes, individually or in a chain,
+visualizes and displays the results. the processes that may be
+invoked by gpiv are:
+
+image processing: typical image manipulations that might be needed for piv
+interrogation.
+
+image interrogation, resulting into estimators of particle image
+displacements.
+
+data validation to test on outliers, peak-locking effect and
+velocity gradients over the interrogation area's.
+
+data post-processing: data manipulation, spatial and time scaling to
+obtain a velocity field from the piv data, calculation of spatial
+averages, vorticity and strain.
+
+this is the parallelized version using message passing interface to
+be used on a (beowulf) cluster.

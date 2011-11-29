@@ -1,0 +1,6 @@
+Tcl library for xml parsing
+	
+tclxml provides event-based parsing of xml documents.  the
+application may register callback scripts for certain document
+features, and when the parser encounters those features while parsing
+the document the callback is evaluated.

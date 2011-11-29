@@ -1,0 +1,10 @@
+Audio collections of words (swac) manager
+	
+swac-get is a simple command line program written in c++ which allows to
+install audio collections of words (swac) in a sqlite3 database.
+audio collections can be imported from the hard drive or directly from the
+internet using the http protocol.
+swac-get is designed to be used with swac-explore, a gtk+ interface which
+allows to browse the created sqlite3 database.
+an important set of free audio collections of words (swac) is available at:
+http://swac-collections.org/

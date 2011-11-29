@@ -1,0 +1,659 @@
+Tex live: latex supplementary packages
+	
+a large collection of add-on packages for latex.
+
+this package includes the following ctan packages:
+
+ akktex -- a collection of packages and classes.
+ esieecv -- curriculum vitae for french use.
+ ha-prosper -- patches and improvements for prosper.
+ tabbing -- tabbing with accented letters.
+ a0poster -- support for designing posters on large paper.
+ abstract -- control the typesetting of the abstract environment.
+ achemso -- support for american chemical society journal submissions.
+ acronym -- expand acronyms at least once.
+ addlines -- a user-friendly wrapper around \enlargethispage.
+ adrconv -- bibtex styles to implement an address database.
+ adrlist -- using address lists in latex.
+ akletter -- comprehensive letter support.
+ alterqcm -- multiple choice questionnaires in two column tables.
+ altfont -- alternative font handling in latex.
+ amsaddr -- alter the position of affiliations in amsart.
+ animate -- create pdf animations from graphics files and inline graphics.
+ anonchap -- make chapters be typeset like sections.
+ answers -- setting questions (or exercises) and answers.
+ anyfontsize -- select any font size in latex.
+ appendix -- extra control of appendices.
+ arcs -- draw arcs over and under text
+ arrayjob -- array data structures for (la)tex.
+ assignment -- a class file for typesetting homework and lab assignments
+ attachfile -- attach arbitrary files to a pdf document
+ authoraftertitle -- make author, etc., available after \maketitle.
+ authorindex -- index citations by author names.
+ autotab -- generating tabulars from input data.
+ beamer-contrib -- contributed beamer theme.
+ beamerposter -- extend beamer and a0poster for custom sized posters.
+ begriff -- typeset begriffschrift.
+ beton -- use concrete fonts.
+ bez123 -- support for bezier curves.
+ bezos -- packages by javier bezos.
+ bigfoot -- footnotes for critical editions.
+ binomexp -- calculate pascal's triangle.
+ bizcard -- typeset business cards.
+ blindtext -- producing 'blind' text for testing.
+ blowup -- upscale or downscale all pages of a document.
+ boites -- boxes that may break across pages
+ bookest -- extended book class.
+ booklet -- aids for printing simple booklets.
+ boolexpr -- a boolean expression evaluator and a switch command.
+ bophook -- provides an at-begin-page hook.
+ boxhandler -- flexible captioning and deferred box/list printing.
+ bracketkey -- produce bracketed identification keys.
+ breakurl -- line-breakable \url-like links in hyperref when compiling via
+  dvips/ps2pdf.
+ bullcntr -- display list item counter as regular pattern of bullets.
+ bussproofs -- proof trees in the style of the sequent calculus.
+ calctab -- language for numeric tables.
+ calrsfs -- copperplate calligraphic letters in latex.
+ calxxxx -- prints a card-size calendar for any year.
+ captcont -- retain float number across several floats.
+ casyl -- typeset cree/inuktitut in canadian aboriginal syllabics.
+ catechis -- macros for typesetting catechisms.
+ cbcoptic -- coptic fonts and latex macros for general usage and for
+  philology.
+ ccaption -- continuation headings and legends for floats.
+ cclicenses -- typeset creative commons licence logos.
+ cd -- typeset cd covers.
+ cd-cover -- typeset cd covers.
+ cdpbundl -- business letters in the italian style.
+ cellspace -- ensure minimal spacing of table cells.
+ changebar -- generate changebars in latex documents.
+ changelayout -- change the layout of individual pages and their text.
+ changepage -- margin adjustment and detection of odd/even pages.
+ changes -- manual change markup.
+ chappg -- page numbering by chapter.
+ chapterfolder -- package for working with complicated folder structures.
+ chletter -- class for typesetting letters to swiss rules.
+ chngcntr -- change the resetting of counters.
+ circ -- macros for typesetting circuit diagrams.
+ cjw -- a bundle of packages and classes.
+ clefval -- key/value support with a hash.
+ cleveref -- automatic cross-reference formatting.
+ clock -- graphical and textual clocks for tex and latex.
+ cmdstring -- get command name reliably.
+ cmdtrack -- check used commands.
+ cmsd -- interfaces to the cm sans serif bold fonts.
+ codedoc -- latex code and documentation in latex-format file.
+ codepage -- support for variant code pages.
+ colorinfo -- retrieve colour model and values for defined colours.
+ colorwav -- colours by wavelength of visible light.
+ combine -- bundle individual documents into a single document.
+ comment -- selectively include/excludes portions of text.
+ concprog -- concert programmes.
+ constants -- automatic numbering of constants.
+ contour -- print a coloured contour around text.
+ cooking -- typeset recipes.
+ cool -- content-oriented latex.
+ coollist -- manipulate content oriented latex lists.
+ coolstr -- string manipulation in latex.
+ cooltooltips -- associate a pop-up window and tooltip with pdf hyperlinks.
+ coordsys -- draw cartesian coordinate systems.
+ courseoutline -- prepare university course outlines.
+ coursepaper -- prepare university course papers.
+ coverpage -- automatic cover page creation for scientific papers (with
+  bibtex data and copyright notice).
+ crossreference -- crossreferences within documents.
+ csquotes -- context sensitive quotation facilities.
+ csvtools -- reading data from csv files.
+ cuisine -- typeset recipes.
+ currvita -- typeset a curriculum vitae.
+ cursor -- draw a cursor in an equation.
+ cv -- a package for creating a curriculum vitae.
+ cweb-latex -- a latex version of cweb.
+ cwpuzzle -- typeset crossword puzzles.
+ dashbox -- draw dashed boxes.
+ dashrule -- draw dashed rules.
+ datatool -- tools to load and manipulate data.
+ dateiliste -- extensions of the \listfiles concept.
+ datenumber -- convert a date into a number and vice versa.
+ datetime -- change format of \today with commands for current time.
+ decimal -- latex package for the english raised decimal point.
+ delimtxt -- read and parse text tables.
+ diagnose -- a diagnostic tool for a tex installation.
+ dialogl -- macros for constructing interactive latex scripts.
+ dichokey -- construct dichotomous identification keys.
+ dinbrief -- german letter din style.
+ directory -- an address book using bibtex.
+ dlfltxb -- macros related to "introdktion til latex".
+ dnaseq -- format dna base sequences.
+ docmfp -- document non-latex code.
+ docmute -- convert document fragments into graphics.
+ doi -- create correct hyperlinks for doi numbers.
+ dotarrow -- extendable dotted arrows.
+ dotseqn -- flush left equations with dotted leaders to the numbers.
+ dox -- extend the doc package.
+ dpfloat -- support for double-page floats.
+ dprogress -- latex-relevant log information for debugging.
+ drac -- declare active character substitution, robustly.
+ draftcopy -- identify draft copies.
+ draftwatermark -- put a grey textual watermark on document pages.
+ dtk -- document class for the journal of dante.
+ dtxgallery -- a small collection of minimal dtx examples.
+ dvdcoll -- a class for typesetting dvd archives
+ ecards -- electronic flash cards.
+ easy -- a collection of easy-to-use macros.
+ easylist -- lists using a single active character.
+ ean13isbn -- print ean13 for isbn.
+ ebezier -- device independent picture environment enhancement.
+ ecclesiastic -- typesetting ecclesiastic latin.
+ ecv -- a fancy curriculum vitae class.
+ ed -- editorial notes for latex documents.
+ edmargin -- multiple series of endnotes for critical editions.
+ eemeir -- adjust the gender of words in a document.
+ egplot -- encapsulate gnuplot sources in latex documents.
+ ellipsis -- fix uneven spacing around ellipses in latex text mode.
+ elmath -- mathematics in greek texts.
+ elpres -- a simple class for electronic presentations
+ elsarticle -- class for articles for submission to elsevier journals.
+ em --
+ emptypage -- make empty pages really empty.
+ emulateapj -- produce output similar to that of apj.
+ endfloat -- move floats to the end with markers where they belong.
+ endheads -- running headers of the form "notes to pp.xx-yy"
+ engpron -- helps to type the pronunciation of english words.
+ engrec -- enumerate with lower- or uppercase greek letters.
+ enumitem -- control layout of itemize, enumerate, description.
+ envbig -- printing addresses on envelopes.
+ environ -- a new interface for environments in latex.
+ envlab -- addresses on envelopes or mailing labels.
+ epigraph -- a package for typesetting epigraphs.
+ epiolmec -- typesetting the epi-olmec language.
+ eqexam -- a stand-alone exam package.
+ eqlist -- description lists with equal indentation.
+ eqname -- name tags for equations.
+ eqparbox -- create equal-widthed parboxes.
+ errata -- error markup for latex documents.
+ esdiff -- simplify typesetting of derivatives.
+ esint -- extended set of integrals for computer modern.
+ esint-type1 -- font esint10 in type 1 format
+ etaremune -- reverse-counting enumerate environment.
+ etextools -- e-tex tools for latex users and package writers.
+ etoolbox -- tool-box for latex programmers using e-tex.
+ eukdate -- uk format dates, with weekday.
+ europecv -- unofficial class for european curricula vitae.
+ everypage -- provide hooks to be run on every page of a document.
+ exam -- package for typesetting exam scripts.
+ examdesign -- latex class for typesetting exams.
+ examplep -- verbatim phrases and listings in latex.
+ exceltex -- get data from excel files into latex.
+ exercise -- typeset exercises, problems, etc. and their answers
+ exp-testopt -- expandable \@testopt (and related) macros.
+ expdlist -- expanded description environments.
+ export -- import and export values of latex registers.
+ extract -- extract parts of a document and write to another document.
+ facsimile -- document class for preparing faxes.
+ fancynum -- typeset numbers.
+ fancytooltips -- include a wide range of material in pdf tooltips.
+ figsize -- auto-size graphics.
+ filecontents -- extended filecontents and filecontents* environments
+ fink -- the latex2e file name keeper.
+ fixfoot -- multiple use of the same footnote text.
+ fixme -- insert "fixme" notes into draft documents.
+ flabels -- labels for files and folders.
+ flacards -- generate flashcards for printing.
+ flagderiv -- flag style derivation package
+ flashcards -- a class for typesetting flashcards.
+ flippdf -- horizontal flipping of pages with pdflatex.
+ floatrow -- modifying the layout of floats.
+ flowfram -- create text frames for posters, brochures or magazines.
+ fltpage -- place caption on an adjacent page.
+ fmp -- include functional metapost in latex.
+ fmtcount -- display the value of a latex counter in a variety of formats.
+ fn2end -- convert footnotes to endnotes.
+ fnbreak -- warn for split footnotes.
+ fncychap -- seven predefined chapter heading styles.
+ foilhtml -- interface between foiltex and latex2html.
+ fonttable -- print font tables from a latex document.
+ footmisc -- a range of footnote options.
+ footnpag -- per-page numbering of footnotes.
+ forarray -- using array structures in latex.
+ forloop -- iteration in latex.
+ formlett -- letters to multiple recipients.
+ formular -- create forms containing field for manual entry.
+ fragments -- fragments of latex code.
+ frankenstein -- a collection of latex packages.
+ fribrief -- two latex classes for writing letters in german.
+ fullblck -- left-blocking for letter class.
+ fullpict -- full page pictures.
+ fundus -- providing latex access to various font families.
+ g-brief -- letter document class.
+ gauss -- a package for gaussian operations.
+ gcard -- arrange text on a sheet to fold into a greeting card.
+ gcite -- citations in a reader-friendly style.
+ genmpage -- generalization of latex's minipages.
+ getfiledate -- find the date of last modification of a file.
+ ginpenc -- modification of inputenc for german.
+ gloss -- create glossaries using bibtex.
+ glossaries -- create glossaries and lists of acronyms.
+ gmdoc -- documentation of latex packages.
+ gmdoc-enhance -- some enhancements to the gmdoc package.
+ gmeometric -- change page size wherever it's safe
+ gmiflink -- simplify usage of \hypertarget and \hyperlink.
+ gmutils -- support macros for other packages.
+ gmverb -- a variant of latex \verb, verbatim and shortvrb.
+ graphicx-psmin -- reduce size of postscript files by not repeating images.
+ grfpaste -- include fragments of a dvi file.
+ grid -- grid typesetting in latex.
+ gridset -- grid, a.k.a. in-register, setting.
+ guitlogo -- macros for typesetting the guit logo.
+ hanging -- hanging paragraphs.
+ harpoon -- extra harpoons, using the graphics package.
+ hc -- replacement for the latex classes.
+ hhtensor -- print vectors, matrices, and tensors.
+ histogr -- draw histograms with the latex picture environment.
+ hitec -- class for documentation.
+ hpsdiss -- a dissertation class.
+ hvfloat -- rotating caption and object of floats independently.
+ hypdvips -- hyperref extensions for use with dvips.
+ hyper -- hypertext cross referencing.
+ hyperref-docsrc --
+ hyperxmp -- embed xmp metadata within a latex document.
+ hyphenat -- disable/enable hypenation.
+ ifmslide -- presentation slides for screen and printouts.
+ ifmtarg -- if-then-else command for processing potentially empty arguments.
+ ifplatform -- conditionals to test which platform is being used.
+ image-gallery -- create an overview of pictures from a digital camera or
+  from other sources.
+ import -- establish input relative to a directory.
+ inlinedef -- inline expansions within definitions.
+ interactiveworkbook -- latex-based interactive pdf on the web
+ inversepath -- calculate inverse file paths.
+ iso -- generic iso standards typesetting macros.
+ iso10303 -- typesetting the step standards.
+ isodate -- tune the output format of dates according to language.
+ isonums -- display numbers in maths mode according to iso 31-0.
+ isodoc -- a latex class for the preparation of letters and invoices.
+ isorot -- rotation of document elements.
+ isotope -- a package for type setting isotopes
+ kastrup --
+ kerntest -- print tables and generate control files to adjust kernings.
+ keycommand -- simple creation of commands with key-value arguments.
+ keystroke -- graphical representation of keys on keyboard.
+ labbook -- typeset laboratory journals.
+ labelcas -- check the existence of labels, and fork accordingly.
+ labels -- print sheets of sticky labels.
+ lastpage -- reference last page for page n of m type footers.
+ latex-tds -- a structured copy of the latex distribution.
+ layouts -- display various elements of a document's layout.
+ lazylist -- lists in tex's "mouth".
+ lcd -- alphanumerical lcd-style displays.
+ lcg -- generate random integers.
+ leading -- define leading with a length.
+ leaflet -- create small handouts (flyers).
+ leftidx -- left and right subscripts and superscripts in math mode.
+ lettre -- letters and faxes in french.
+ lettrine -- typeset dropped capitals.
+ lewis -- draw lewis structures.
+ lhelp -- miscellaneous helper packages.
+ limap -- typeset maps and blocks according to the information mapping
+  method.
+ lipsum -- easy access to the lorem ipsum dummy text.
+ listliketab -- typeset lists as tables.
+ listofsymbols -- create and manipulate lists of symbols
+ lkproof -- lk proof figure macros.
+ localloc -- macros for localizing tex register allocations.
+ logical-markup-utils -- packages for language-dependent inline quotes and
+  dashes.
+ logpap -- generate logarithmic graph paper with latex.
+ lsc -- typesetting live sequence charts.
+ ltablex -- table package extensions.
+ ltabptch -- bug fix for longtable.
+ ltxdockit -- documentation support.
+ ltxindex -- a latex package to typeset indices with gnu's texindex.
+ ltxnew -- a simple means of creating commands.
+ mailing -- macros for mail merging.
+ mailmerge -- repeating text field substitution.
+ makebarcode -- print various kinds 2/5 and code 39 bar codes.
+ makebox -- defines a \makebox* command.
+ makecell -- tabular column heads and multilined cells.
+ makecirc -- a metapost library for drawing electrical circuit diagrams.
+ makecmds -- the new \makecommand command always (re)defines a command.
+ makedtx -- perl script to help generate dtx and ins files
+ makeglos -- include a glossary into a document.
+ manfnt -- latex support for the tex book symbols.
+ manuscript -- emulate look of a document typed on a typewriter.
+ mapcodes -- support for multiple character sets and encodings.
+ maple -- styles and examples for the maple newsletter.
+ marginnote -- notes in the margin, even where \marginpar fails
+ mathexam -- package for typesetting exams.
+ maybemath -- make math bold or italic according to context.
+ mcaption -- put captions in the margin.
+ mceinleger -- creating covers for music cassettes.
+ mcite -- multiple items in a single citation.
+ mciteplus -- enhanced multiple citations.
+ memexsupp -- experimental memoir support.
+ menu -- typesetting menus.
+ method -- typeset method and variable declarations.
+ metre -- support for the work of classicists
+ mff -- multiple font formats.
+ mftinc -- pretty-print metafont source.
+ midpage -- environment for vertical centring.
+ minibox -- a simple type of box for latex.
+ minipage-marginpar -- minipages with marginal notes.
+ minitoc -- produce a table of contents for each chapter, part or section.
+ minutes -- package for writing minutes of meetings.
+ misc209 --
+ mla-paper -- proper mla formatting.
+ mlist -- logical markup for lists.
+ mmap -- include cmap resources in pdf files from pdftex.
+ moderncv -- a modern curriculum vitae class.
+ modref -- customisation of cross-references in latex.
+ modroman -- write numbers in lower case roman numerals.
+ morefloats -- increase the number of simultaneous latex floats.
+ moresize -- allows font sizes up to 35.83pt.
+ moreverb -- extended verbatim.
+ movie15 -- multimedia inclusion package.
+ mparhack -- a workaround for a latex bug in marginpars.
+ msc -- draw msc diagrams.
+ msg -- a package for latex localisation.
+ mslapa -- michael landy's apa citation style.
+ mtgreek -- use italic and upright greek letters with mathtime.
+ multenum -- multi-column enumerated lists.
+ multibbl -- multiple bibliographies.
+ multicap -- format captions inside multicols
+ multirow -- create tabular cells spanning multiple rows.
+ nag -- detecting and warning about obsolete latex commands
+ namespc -- rudimentary c++-like namespaces in latex.
+ ncclatex -- an extended general-purpose class
+ ncctools -- a collection of general packages for latex
+ needspace -- insert pagebreak if not enough space.
+ newfile -- user level management of latex input and output.
+ newlfm -- write letters, facsimiles, and memos.
+ newspaper -- typeset newsletters to resemble newspapers.
+ newvbtm -- define your own verbatim-like environment.
+ nextpage -- generalisations of the page advance commands.
+ nfssext-cfr -- extensions to the latex nfss.
+ niceframe -- support for fancy frames.
+ nicetext -- minimal markup for simple text (wikipedia style) and
+  documentation.
+ noitcrul -- improved underlines in mathematics.
+ nomencl -- produce lists of symbols as in nomenclature.
+ nomentbl -- nomenclature typeset in a longtable
+ nonfloat -- non-floating table and figure captions.
+ notes -- mark sections of a document.
+ ntabbing -- simple tabbing extension for automatic line numbering.
+ ntheorem -- enhanced theorem environment.
+ numname -- convert a number to its english expression.
+ numprint -- print numbers with separators and exponent if necessary.
+ ocr-latex -- latex support for ocr fonts.
+ octavo -- typeset books following classical design and layout.
+ oldstyle -- old style numbers in ot1 encoding.
+ onlyamsmath -- inhibit use of non-amsmath mathematics markup when using
+  amsmath.
+ opcit -- footnote-style bibliographical references.
+ outline -- list environment for making outlines.
+ outliner -- change section levels easily.
+ overpic -- combine latex commands over included graphics.
+ pagecont -- page numbering that continues between documents.
+ pagenote -- notes at end of document.
+ paper -- versions of article class, tuned for scholarly publications.
+ papercdcase -- origami-style folding paper cd case.
+ papertex -- class for newspapers, etc.
+ paralist -- enumerate and itemize within paragraphs.
+ paresse -- defines simple macros for greek letters.
+ patch -- patch loaded packages, etc..
+ patchcmd -- change the definition of an existing command.
+ pauldoc -- german latex package documentation.
+ pawpict -- using graphics from paw.
+ pax -- extract and reinsert pdf annotations with pdftex.
+ pbox -- a variable-width \parbox command.
+ pbsheet -- problem sheet class.
+ pdfcomment -- a user-friendly interface to pdf annotations.
+ pdfcprot -- activating and setting of character protruding using pdflatex.
+ pdfmarginpar -- generate marginpar-equivalent pdf annotations.
+ pdfscreen -- support screen-based document design.
+ pdfslide -- presentation slides using pdftex.
+ pdfsync -- provide links between source and pdf.
+ pdfwin --
+ pdfx -- pdf/x-1a and pdf/a-1b support for pdftex.
+ pecha -- print tibetan text in the classic pecha layout style.
+ perltex -- define latex macros in terms of perl code
+ permute -- support for symmetric groups.
+ petiteannonce -- a class for small advertisements.
+ philex -- cross references for named and numbered environments.
+ photo -- a float environment for photographs.
+ pittetd -- electronic theses and dissertations at pitt.
+ placeins -- control float placement.
+ plates -- arrange for "plates" sections of documents.
+ plweb -- literate programming for prolog with latex.
+ polyglot --
+ polynom -- macros for manipulating polynomials.
+ polynomial -- typeset (univariate) polynomials.
+ polytable -- tabular-like environments with named columns.
+ postcards -- facilitates mass-mailing of postcards (junkmail).
+ ppr-prv -- prosper preview.
+ preprint -- a bundle of packages provided "as is".
+ prettyref -- make label references "self-identify".
+ printlen -- print lengths using specified units.
+ probsoln -- generate problem sheets and their solution sheets
+ program -- typesetting programs and algorithms.
+ progress -- creates an overview of a document's state.
+ properties -- load properties from a file.
+ protex -- literate programming package.
+ protocol -- a class for typesetting minutes of meetings.
+ psfragx -- a psfrag extension.
+ pst-pdf -- make pdf versions of graphics by processing between runs.
+ pstool -- support for psfrag within pdflatex.
+ qcm -- a latex2e class for making multiple choice questionnaires
+ qstest -- bundle for unit tests and pattern matching.
+ qsymbols -- maths symbol abbreviations.
+ quotchap -- decorative chapter headings.
+ quotmark -- consistent quote marks.
+ randtext -- randomise the order of characters in strings.
+ rangen -- generate random integers, rational and decimal numbers.
+ rccol -- decimal-centered optionally rounded numbers in tabular.
+ rcs-multi -- typeset rcs version control in multiple-file documents.
+ rcsinfo -- support for the revision control system.
+ recipe -- a latex class to typeset recipes.
+ recipecard -- typeset recipes in note-card-sized boxes.
+ rectopma -- recycle top matter.
+ refcheck -- check references (in figures, table, equations, etc).
+ refman -- format technical reference manuals.
+ refstyle -- advanced formatting of cross references.
+ regcount -- display the allocation status of the tex registers.
+ register -- typeset programmable elements in digital hardware (registers).
+ relenc -- a "relaxed" font encoding.
+ repeatindex -- repeat items in an index after a page or column break
+ rjlparshap --
+ rlepsf -- rewrite labels in eps graphics.
+ rmpage -- a package to help change page layout parameters in latex.
+ robustcommand -- declare robust command, with \newcommand checks.
+ robustindex -- create index with pagerefs.
+ romannum -- generate roman numerals instead of arabic digits.
+ rotfloat -- rotate floats.
+ rotpages -- typeset sets of pages upside-down and backwards.
+ rtkinenc -- input encoding with fallback procedures.
+ sagetex -- embed sage code and plots into latex.
+ sauerj -- a bundle of utilities by jonathan sauer.
+ savefnmark -- save name of the footnote mark for reuse.
+ savesym -- redefine symbols where names conflict.
+ savetrees -- pack as much as possible onto each page of a latex document.
+ scale -- scale document by sqrt(2) or magstep(2).
+ scalebar -- create scalebars for maps, diagrams or photos.
+ sciwordconv -- use scientific word/workplace files with another tex.
+ script -- variant report and book styles.
+ sdrt -- macros for segmented discourse representation theory.
+ sectionbox -- create fancy boxed ((sub)sub)sections.
+ sectsty -- control sectional headers.
+ selectp -- select pages to be output.
+ semantic -- help for writing programming language semantics.
+ semioneside -- put only special contents on left-hand pages in two sided
+  layout.
+ seqsplit -- split long sequences of characters in a neutral way.
+ sf298 -- standard form 298.
+ sffms -- typesetting science fiction/fantasy manuscripts.
+ sfheaders -- sans headers.
+ sfmath -- sans-serif mathematics.
+ shadbox -- shade the background of any box.
+ shadethm -- theorem environments that are shaded
+ shapepar -- a macro to typeset paragraphs in specific shapes.
+ shipunov -- a collection of latex packages and classes.
+ shorttoc -- table of contents with different depths.
+ show2e -- variants of \show for latex2e.
+ showdim -- variants on printing dimensions.
+ showexpl -- typesetting latex source code.
+ showlabels -- show label commands in the margin.
+ sidecap -- typeset captions sideways.
+ silence -- selective filtering of error messages and warnings.
+ simplecv -- a simple class for writing curricula vitae.
+ simplewick -- simple wick contractions.
+ slantsc -- access different-shaped small-caps fonts.
+ slashbox -- both column and row headings in a tabular cell.
+ smalltableof -- create listoffigures etc. in a single chapter.
+ smartref -- extend latex's \ref capability.
+ snapshot -- list the external dependencies of a latex document.
+ soul -- hyphenation for letterspacing, underlining, and more.
+ sparklines -- drawing sparklines: intense, simple, wordlike graphics.
+ spverbatim -- allow line breaks within \verb and verbatim output.
+ splitindex -- unlimited number of indexes.
+ spotcolor -- spot colours for pdflatex.
+ sprite -- macros to typeset simple bitmaps with latex.
+ srcltx -- jump between dvi and tex files.
+ sseq -- spectral sequence diagrams.
+ ssqquote -- use the cmssq fonts.
+ stack -- tools to define and use stacks.
+ statistik -- store statistics of a document.
+ stdclsdv -- provide sectioning information for package writers.
+ stdpage -- standard pages with n lines of at most m characters each.
+ stringstrings -- string manipulation for cosmetic and programming
+  application.
+ sttools -- various macros.
+ stubs -- create tear-off stubs at the bottom of a page.
+ subdepth -- unify maths subscript height.
+ subeqn -- package for subequation numbering.
+ subeqnarray -- equation array with sub numbering.
+ subfigure -- deprecated: figures divided into subfigures.
+ subfloat -- sub-numbering for figures and tables.
+ substr -- deal with substrings in strings.
+ supertabular -- a multi-page tables package.
+ svgcolor -- define svg named colours.
+ svn -- typeset subversion keywords.
+ svn-multi -- subversion keywords in multi-file latex documents
+ svn-prov -- subversion variants of \provides... macros.
+ svninfo -- typeset subversion keywords.
+ syntax -- creation of syntax diagrams.
+ syntrace -- labels for tracing in a syntax tree.
+ synttree -- typeset syntactic trees.
+ tableaux -- construct tables of signs and variations.
+ tablenotes -- notes in tables at end document.
+ tablists -- tabulated lists of short items.
+ tabls -- better vertical spacing in tables and arrays.
+ tabto-ltx -- "tab" to a measured position in the line.
+ tabularcalc -- calculate formulas in a tabular environment.
+ tabularew -- a variation on the tabular environment.
+ tabulary -- tabular with variable width columns balanced.
+ talk -- a latex class for presentations.
+ taupin --
+ tcldoc -- doc/docstrip for tcl.
+ tdclock -- a ticking digital clock package for pdf output.
+ technics -- a package to format technical documents.
+ ted -- a (primitive) token list editor.
+ termcal -- print a class calendar.
+ termlist -- label any kind of term with a continuous counter.
+ texilikecover -- a cover-page package, like texinfo.
+ texlogos -- ready-to-use latex logos.
+ texmate -- comprehensive chess annotation in latex.
+ texments -- using the pygments highlighter in latex.
+ texshade -- package for setting nucleotide and peptide alignments.
+ textcase -- case conversion ignoring mathematics, etc.
+ textfit -- fit text to a desired size.
+ textmerg -- merge text in tex and latex.
+ textpos -- place boxes at arbitrary positions on the latex page.
+ theoremref -- references with automatic theorem names.
+ threeparttablex -- notes in longtables.
+ thinsp -- a stretchable \thinspace for latex.
+ thmtools -- extensions to theorem environments.
+ thumb -- thumb marks in documents.
+ ticket -- make labels, visting-cards, pins with latex.
+ timesht --
+ timing -- fonts and macro package for drawing timing diagrams.
+ titlefoot -- add special material to footer of title page.
+ titlepic -- add picture to title page of a document.
+ titlesec -- select alternative section titles.
+ titling -- control over the typesetting of the \maketitle command.
+ tocbibind -- add bibliography/index/contents to table of contents.
+ tocloft -- control table of contents, figures, etc.
+ tocvsec2 -- section numbering and table of contents control.
+ todo -- make a to-do list for a document.
+ todonotes -- marking things to do in a latex document.
+ tokenizer -- a tokenizer.
+ toolbox -- macros for writing indices, glossaries.
+ topfloat -- move floats to the top of the page.
+ totcount -- find the last value of a counter.
+ totpages -- count pages in a document, and report last page number.
+ tracking -- adjust tracking of strings.
+ translator -- provide an open platform for packages to be localized.
+ trfsigns -- typeset transform signs.
+ trimspaces -- trim spaces around an argument or within a macro.
+ trsym -- symbols for transformations.
+ trivfloat -- quick float definitions in latex.
+ twoup -- print two virtual pages on each physical page.
+ type1cm -- arbitrary size font selection in latex.
+ typedref -- eliminate errors by enforcing the types of labels.
+ typogrid -- print a typographic grid.
+ ucs -- extended utf-8 input encoding for latex.
+ uebungsblatt -- a latex class for writing exercise sheets.
+ ulsy -- extra mathematical characters.
+ umoline -- underline text allowing line breaking.
+ underlin -- underlined running heads.
+ undertilde -- typeset a tilde under one (or many) maths symbols.
+ units -- typeset units.
+ unroman -- converting roman numerals to arabic numbers.
+ upmethodology -- writing specification such as for up-based methodologies.
+ upquote -- show "realistic" quotes in verbatim.
+ ushort -- shorter (and longer) underlines and underbars.
+ varindex -- luxury frontend to the \index command.
+ varsfromjobname -- extract variables from the name of the latex file.
+ varwidth -- a variable-width minipage.
+ vector -- latex macros for vectors.
+ verbatimbox -- deposit verbatim text in a box.
+ verbatimcopy -- make copies of text documents from within latex.
+ version -- conditionally include text.
+ versions -- optionally omit pieces of text.
+ vertbars -- mark vertical rules in margin of text.
+ vhistory -- support for creating a change log.
+ vita -- configurable class for curricula vitarum.
+ vmargin -- set various page dimensions.
+ volumes -- typeset only parts of a document, with complete indexes etc.
+ vpe -- source specials for pdf output.
+ vrsion -- add version number to a dvi file.
+ vwcol -- variable-width multiple text columns.
+ wallpaper -- easy addition of wallpapers (background images) to latex
+  documents, including tiling.
+ warning -- global warnings at the end of the logfile.
+ warpcol -- relative alignment of rows in numeric columns in tabulars.
+ was -- a collection of small packages by walter schmidt.
+ widetable -- an environment for typesetting tables of specified width
+ williams -- miscellaneous macros by peter williams.
+ wordlike -- simulating word processor layout.
+ wrapfig -- produces figures which text can flow around.
+ xargs -- define commands with many optional arguments.
+ xbmc --
+ xtab -- break tables across pages.
+ xtcapts -- defining language-dependent text macros.
+ xdoc -- extending the latex doc system.
+ xfor -- a reimplimentation of the latex for-loop macro.
+ xifthen -- extended conditional commands.
+ xmpincl -- include extensible metadata platform data in pdflatex.
+ xnewcommand -- define \global and \protected commands with \newcommand.
+ xoptarg -- expandable macros that take an optional argument.
+ xstring -- string manipulation for (la)tex.
+ xytree -- tree macros using xy-pic.
+ yafoot -- a bundle of miscellaneous footnote packages.
+ yagusylo -- a symbol loader.
+ yplan -- daily planner type calendar.
+ zed-csp -- typesetting z and csp format specifications.
+ ziffer -- conversion of punctuation in maths mode.
+ zwgetfdate -- get package or file date.
+ zwpagelayout -- page layout and crop-marks.
+ xmlplay -- typeset shakespeare's plays as marked up by bosak.

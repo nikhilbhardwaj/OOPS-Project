@@ -1,0 +1,10 @@
+Graphical tool for performing dns queries
+	
+gresolver is a graphical tool for dns queries. it allows system administrators
+to quickly and easily make the most common dns queries without constructing
+lengthy dig commands.
+
+gresolver supports all the main resource record types, including aaaa, axfr,
+mx and txt, and the appropriate in-addr.arpa address is constructed from
+dotted-quad ip addresses when doing ptr queries. there are checkboxes for
+controlling the most commonly-used options.

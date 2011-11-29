@@ -1,0 +1,6 @@
+Ncbi libraries for biology applications (text-based utilities)
+	
+this package includes various utilities distributed with the ncbi c sdk.
+none of the programs in this package require x; you can find the x-based
+utilities in the ncbi-tools-x11 package.  blast and related tools are
+in a separate package (blast2).

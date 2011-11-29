@@ -1,0 +1,5 @@
+Perl dbi driver for the postgresql database server
+	
+dbd::pg is a perl dbi database driver module that works with the dbi module to
+provide access to postgresql databases. it enables you to control a postgresql
+database in a perl script.

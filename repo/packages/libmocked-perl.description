@@ -1,0 +1,6 @@
+Module to use real libraries from within mocked libraries
+	
+when mocking modules using 'mocked', you are certain that no extra "real"
+libraries are being loaded.  but sometimes you don't want to use real
+libraries from within your mocked library.  this module allows you to load
+real libraries using your previous include paths.

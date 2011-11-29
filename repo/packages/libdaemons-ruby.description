@@ -1,0 +1,9 @@
+Ruby daemons library
+	
+daemons provides an easy way to wrap existing ruby scripts (for example
+a self-written server) to be run as a daemon and to be controlled by
+simple start/stop/restart commands.  daemons can also run and control
+blocks of ruby code in a daemon process.
+
+this is a dependency package which depends on debian's default ruby
+version (currently 1.8.x).

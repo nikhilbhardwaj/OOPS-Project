@@ -1,0 +1,5 @@
+Ipv6 recursive dns server discovery daemon
+	
+rdnssd autoconfigures recursive dns servers on ipv6 networks
+using icmpv6 neighbor discovery (rfc 5006), and can update the
+dns resolvers configuration (/etc/resolv.conf) accordingly.

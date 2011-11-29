@@ -1,0 +1,6 @@
+Blowfish cryptography for perl
+	
+this is crypt::blowfish, an xs-based implementation of the blowfish
+cryptography algorithm designed by bruce schneier.  it's designed to
+take full advantage of crypt::cbc when desired.  blowfish keys may be
+up to 448 bits (56 bytes) long.

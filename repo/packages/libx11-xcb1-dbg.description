@@ -1,0 +1,18 @@
+Xlib/xcb interface library (debug package)
+	
+libx11-xcb provides functions needed by clients which take advantage of
+xlib/xcb to mix calls to both xlib and xcb over the same x connection.
+
+this package contains the debug versions of the library found in
+libx11-xcb1.  non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+more information about xcb can be found at:
+<url:http://xcb.freedesktop.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libx11

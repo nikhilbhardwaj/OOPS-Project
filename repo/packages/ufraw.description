@@ -1,0 +1,11 @@
+Standalone importer for raw camera images
+	
+this is a standalone tool to import raw data from high-end digital cameras.
+
+the unidentified flying raw (ufraw) is a utility for converting and
+manipulating raw images from digital cameras. it can be used as a
+stand-alone tool or as a gimp plug-in, and images can be batch
+processed using the command-line interface. ufraw reads most existing
+raw formats using dave coffin's raw conversion utility dcraw, and it
+supports basic color management using little cms, allowing the user to
+apply color profiles.

@@ -1,0 +1,12 @@
+Glue library between telepathy and farsight2 (development files)
+	
+a helper library to glue together telepathy's media signalling and the media
+streaming capabilities of farsight2
+
+telepathy is a d-bus framework for unifying real time communication,
+including instant messaging, voice calls and video calls. it abstracts
+differences between protocols to provide a unified interface for applications.
+
+farsight2 is a framework for media streaming in audio/video conferences.
+
+this package contains development files for the telepathy-farsight library.

@@ -1,0 +1,15 @@
+A language for music composition and sound synthesis
+	
+unlike score languages that tend to deal only with events, or signal
+processing languages that tend to deal only with signals and synthesis,
+nyquist handles both in a single integrated system. nyquist is also flexible
+and easy to use because it is based on an interactive lisp interpreter
+(xlisp).
+
+with nyquist, you can design instruments by combining functions (much as you
+would using the orchestra languages of music v, cmusic, or csound). you can
+call upon these instruments and generate a sound just by typing a simple
+expression. you can combine simple expressions into complex ones to create a
+whole composition.
+
+homepage http://www.cs.cmu.edu/~music/nyquist/

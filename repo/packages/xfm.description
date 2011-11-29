@@ -1,0 +1,15 @@
+X file and application manager
+	
+xfm is an file and application manager program for the x window system, based
+on the xaw3d widget set.  it provides virtually all of the features that you
+would expect in a file manager; move around your directory tree in multiple
+windows, move, copy or delete files, and launch programs with simple mouse
+operations.  directory displays are updated automatically in regular
+intervals when the contents of the directory change.  the integrated
+application manager provides a kind of "shelf" onto which you can place your
+favorite applications, as well as the files and directories you are currently
+working with.  it also allows you to access different groups of applications
+and files.  user-definable file types let you specify a command to be
+executed when double-clicking on a file or dropping other files onto it.
+last not least, xfm can automatically mount and unmount special devices like
+floppies as you open and close the corresponding directories (mount points).

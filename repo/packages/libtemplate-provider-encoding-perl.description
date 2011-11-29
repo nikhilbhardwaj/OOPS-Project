@@ -1,0 +1,8 @@
+Template plugin to specify encoding
+	
+template::plugin::encoding is a template plugin to declare the
+encoding of template files. this plugin doesn't actually do anything
+but template::provider::encoding scans the usage of this module to
+find the encoding of templates. as a bonus, you can use encoding
+variable in the template to specify file encoding, which might be
+useful for xml or html meta tag.

@@ -1,0 +1,9 @@
+Perl module to truncate long strings
+	
+string::truncate is a perl module useful for truncating any long string
+sequence and marking the place where any text has been elided (deleted).
+you simply tell the module the maximum string width and where to elide
+strings (at the right side, left side, in the middle or at the ends). it
+also supports a customized marker for elisions, but defaults to the most
+common symbol, the ellipsis (...). it can also prefer to break strings at
+whitespace where possible.

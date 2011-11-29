@@ -1,0 +1,9 @@
+Project athena's dns-based directory service - development files
+	
+hesiod is a name service library that can provide general name service
+for a variety of applications. it is derived from bind, the berkeley
+internet name daemon, and leverages the existing dns infrastructure of a
+network. it is used on a number of university networks, including mit
+and iowa state university.
+
+this package contains hesiod's include files and static library.

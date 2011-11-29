@@ -1,0 +1,8 @@
+Perl module for creating fully reentrant lalr parser oo perl modules
+	
+this is a collection of modules that let you generate and use yacc
+like thread safe (reentrant) parsers with perl object oriented
+interface.
+
+the script yapp is a front-end to the parse::yapp module and let you
+easily create a perl oo parser from an input grammar file.

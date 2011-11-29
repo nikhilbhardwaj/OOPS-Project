@@ -1,0 +1,12 @@
+Analysis tools for fmri, mri and dti brain imaging
+	
+fsl is a comprehensive library of image analysis and statistical tools
+for fmri, mri and dti brain imaging data. the suite consists of various
+command line tools, as well as simple guis for its core analysis pipelines.
+among others, fsl offers implementations of standard glm analysis,
+white matter tractography, tissue segmentation, affine and non-linear
+co-registration, and independent component analysis.
+
+fsl interoperates well with other brain imaging related software. this includes
+caret, freesurfer (cortical flattening and modelling). all fsl tools support
+the nifti format.

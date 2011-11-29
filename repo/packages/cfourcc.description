@@ -1,0 +1,6 @@
+Command line tool for changing fourcc in microsoft riff avi files
+	
+identifies the codec used in avi files (*.avi) and allows
+the user to change the fourcc description code (like
+fourcc-changer in windows). useful for people working
+with microsoft avi file. a linux clone of avic fourcc changer tool.

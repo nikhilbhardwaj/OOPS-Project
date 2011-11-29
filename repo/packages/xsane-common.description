@@ -1,0 +1,9 @@
+Featureful graphical frontend for sane (scanner access now easy)
+	
+xsane can be run as a stand-alone program or through the gimp image
+manipulation program.  in stand-alone mode, xsane can save an image
+to a file in a variety of image formats, serve as a frontend to a
+fax program, or send an image to a printer.
+
+this package contains architecture-independent files needed by xsane
+(locales, help).

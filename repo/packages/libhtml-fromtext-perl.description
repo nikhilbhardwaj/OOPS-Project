@@ -1,0 +1,10 @@
+Mark up text as html
+	
+this is the cpan perl module html::fromtext.
+
+the html::fromtext module marks up plain text as html.  by default it converts
+html metacharacters into the corresponding entities.  more sophisticated
+transformations, such as splitting the text into paragraphs or marking up
+bulleted lists, can be carried out by setting the appropriate options.
+
+homepage: http://search.cpan.org/~cwest/html-fromtext-2.05/

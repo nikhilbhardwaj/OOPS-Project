@@ -1,0 +1,5 @@
+Identifies duplicate files within given directories
+	
+fdupes uses md5sums and then a byte by byte comparison to find
+duplicate files within a set of directories. it has several useful
+options including recursion.

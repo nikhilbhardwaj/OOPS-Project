@@ -1,0 +1,7 @@
+Object-oriented php interface for the jabber/xmpp protocol
+	
+class.jabber.php is an object oriented solution to make jabber connectivity
+for your website, bot, or even im client as simple as possible when using php.
+cjp gives you complete abstraction from jabber/xmpp so that you don't have
+to worry about api to the server, and instead focus on the quality of the
+jabber features that you are implementing.

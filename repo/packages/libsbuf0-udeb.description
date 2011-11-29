@@ -1,0 +1,7 @@
+Freebsd string buffer library (udeb)
+	
+this library provide a way to handle string buffers. it contains
+numerous functions such as append, copy, cat, print, trim whitespace
+characters, etc.
+
+this is a minimal package for use in debian-installer.

@@ -1,0 +1,10 @@
+A simple "encryption" tool
+	
+this is a simple "encryption" tool to work with common simple encryption
+algorithms (rot13, caesar, vigenère, ...)
+
+gcipher does not provide any strong encryption and should not be used to
+encrypt any private data.
+
+gcipher can run as either a gui, a command-line application, or a network
+proxy.

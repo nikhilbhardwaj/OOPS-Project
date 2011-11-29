@@ -1,0 +1,6 @@
+Set of classes to ease the initialisation of the program
+	
+part of the libclaw library.
+
+this library is intended to help to manage the arguments of your program, with
+automatic management of short/long arguments and help message.

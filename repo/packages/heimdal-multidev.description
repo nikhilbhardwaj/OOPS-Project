@@ -1,0 +1,10 @@
+Heimdal kerberos - multi-implementation development
+	
+heimdal is a free implementation of kerberos 5 that aims to be
+compatible with mit kerberos.
+
+this package provides versions of the heimdal development files that
+can be installed along-side mit kerberos development files.
+normally, heimdal-dev should be used. however if a package needs to
+build  against both heimdal kerberos and mit kerberos, then the
+multidev package should be used.

@@ -1,0 +1,13 @@
+An xml toolkit for haskel (profiling library)l
+	
+the haskell xml toolbox bases on the ideas of haxml and hxml, but
+introduces a more general and flexible approach for processing xml
+with haskell. the haskell xml toolbox uses a generic data model for
+representing xml documents, including the dtd subset and the document
+subset, in haskell. this data model makes it possible to use filter
+functions as a uniform design of xml processing applications. the
+processing filters are implemented as arrows. this is more flexible
+than the filter approach from hxml and haxml, but all filter
+applications can easily be transformed into arrows.
+
+this package contains the profiling libraries compiled for ghc 6.

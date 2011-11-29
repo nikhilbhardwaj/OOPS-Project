@@ -1,0 +1,7 @@
+Usb device viewer
+	
+usbview is a small gtk+ application to show what the device tree of
+the usb bus looks like. it shows a graphical representation of the
+devices that are currently plugged in, showing the topology of the
+usb bus. it also displays information on each individual device on
+the bus.

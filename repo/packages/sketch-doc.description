@@ -1,0 +1,12 @@
+Extra documentation for the sketch 3d line drawing system
+	
+sketch is a simple system for producing line drawings of
+three-dimensional objects and scenes. sketch is intended to produce finely
+wrought, mathematically-based illustrations with no extraneous detail
+and be able to easily overlay tex math and text. the input language is
+reminiscent of pstricks, so will be easy to learn for current pstricks
+users.  it generates either pstricks or tikz/pgf code as output.
+
+this package includes html and pdf versions of the user manual
+(an info version of the manual is part of the sketch package).  also includes
+some example input files.

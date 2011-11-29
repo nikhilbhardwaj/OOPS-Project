@@ -1,0 +1,9 @@
+Header files for the dovecot mail server
+	
+dovecot is a mail server whose major goals are security and extreme
+reliability. it tries very hard to handle all error conditions and verify
+that all data is valid, making it nearly impossible to crash. it should
+also be pretty fast, extensible, and portable.
+
+this package contains header files needed to compile plugins for the
+dovecot mail server.

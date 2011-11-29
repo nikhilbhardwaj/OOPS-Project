@@ -1,0 +1,18 @@
+Source for the acerhk driver
+	
+this package provides the source code for the acerhk kernel modules.
+
+this driver will give access to the special keys on notebooks of the
+acer travelmate series, which are not handled by the keyboard
+driver.
+
+it also works on notebooks from other manufacturers (some medion,
+fujitsu-siemens, compal, xbook...).
+
+it also has some other related functionality (depending on the model):
+
+  * controlling leds (mail, wireless)
+  * enable/disable wireless hardware
+
+
+kernel source or headers are required to compile these modules.

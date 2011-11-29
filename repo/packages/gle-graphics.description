@@ -1,0 +1,21 @@
+An interactive graphics language editor
+	
+gle  is  a  high  quality  graphics  package for scientists,
+combining  a  user  friendly  interface with a full range of
+facilities    for   producing  publication  quality  graphs,
+diagrams, posters and slides.
+
+gle  provides latex quality fonts together with a flexible
+graphics  module  which  allows  the  user  to  specify  any
+feature  of a graph (down to the line width of the subticks,
+for example)
+
+complex  pictures can be drawn with user defined subroutines
+and simple looping structures.
+
+current  device  drivers support decwindows, regis, tek4010,
+all  pc  graphics  cards,  vt100s,  hp-plotters,  postscript
+printers, epson printers and laserjet printers.
+
+gle  runs  on  both  vaxes and pcs, giving an identical user
+interface on both platforms.

@@ -1,0 +1,15 @@
+Berkeley yacc parser generator extended to generate java code
+	
+byacc/j is an extension of the berkeley v 1.8 yacc-compatible parser
+generator.
+
+standard yacc takes a yacc source file, and generates one or more c files from
+it, which if compiled properly, will produce a lalr-grammar parser. this is
+useful for expression parsing, interactive command parsing, and file reading.
+many megabytes of yacc code have been written over the years.
+
+this is the standard yacc tool that is in use every day to produce c/c++
+parsers.
+
+i have added a "-j" flag which will cause byacc to generate java source code,
+instead. so there finally is a yacc for java now!

@@ -1,0 +1,6 @@
+Build an ltsp environment in the installer target
+	
+this udeb bootstraps the ltsp client chroot in the installer target
+while the cd-rom is still mounted.
+
+ltsp stands for 'linux terminal server project'.

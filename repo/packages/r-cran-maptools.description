@@ -1,0 +1,7 @@
+Gnu r tools for reading and handling spatial objects
+	
+set of tools for manipulating and reading geographic data, in particular
+esri shapefiles; c code used from shapelib. it includes binary access to
+gshhs shoreline files. the package also provides interface wrappers for
+exchanging spatial objects with packages such as pbsmapping, spatstat,
+maps, rarcinfo, stata tmap, winbugs, mondrian, and others.

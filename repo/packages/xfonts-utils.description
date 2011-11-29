@@ -1,0 +1,13 @@
+X window system font utility programs
+	
+xfonts-utils provides a set of utility programs shipped with the x window
+system that are needed for font management.
+
+the programs in this package include:
+
+ - bdftopcf, which converts bdf fonts to pcf fonts;
+ - bdftruncate and ucs2any, tools to generate fonts with various encodings
+   from iso 10646-encoded fonts
+ - mkfontdir, a program to generate fonts.dir files;
+ - mkfontscale, a program to generate fonts.scale files;
+ - fonttosfnt, a program to wrap bitmap fonts in a sfnt (truetype) wrapper.

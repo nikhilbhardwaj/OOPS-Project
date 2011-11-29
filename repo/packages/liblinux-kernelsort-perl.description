@@ -1,0 +1,8 @@
+Perl module for sorting linux kernel version strings
+	
+this is the cpan perl module linux::kernelsort.
+
+linux::kernelsort is intended to sort a list of kernel versions into
+ascending order. it also provides the capability to compare two kernel
+versions and determine if one version is newer, older, or the same as
+the other version.

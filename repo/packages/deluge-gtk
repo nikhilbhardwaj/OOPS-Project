@@ -1,0 +1,4 @@
+PackageId:2900
+Name:deluge-gtk
+Version:1.2.3+git20110209.8c36830-0squeeze1
+Deps:deluge-common,librsvg2-common,notification-daemon,notification-daemon-xfce,xfce4-notifyd,python,python-glade2,python-notify,python-support,xdg-utils

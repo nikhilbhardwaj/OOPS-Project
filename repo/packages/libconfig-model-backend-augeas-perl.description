@@ -1,0 +1,54 @@
+Read and write configuration data through augeas
+	
+this class provides a way to load or store configuration data through
+config::augeas. this way, the structure and commments of the original
+configuration file will preserved.
+
+with config::model::backend::augeas, config::model now provides a way
+to load and save data through redhat's augeas library.
+
+config::model and augeas are both configuration editing tool.  both
+parse configuration files in their native formats and transforms them
+into a tree. configuration changes are made by manipulating this tree
+and saving it back into native config files.
+
+both augeas and config::model rely on a tree to represent
+configuration data.
+
+on one side, augeas is able to load and write data while respecting
+the structure and comments of the original configuration file. but
+augeas purpose is not to validate the semantic content of the
+configuration file.
+
+on the other side, config::model is able to validate the semantic
+content of the configuration file, but it will discard all comments
+and will write back configuration data using a canonical order. thus
+the comments and structure of the original configuration file is not
+preserved.
+
+you can now have the best of both worlds by using the augeas library
+to load and write data from config::model configuration tree. you can
+now instruct config::model to use augeas backend in the autoread and
+autowrite feature. see config::model::autoread for details.
+
+unfortunately, you must ensure that the tree representation specified
+in config::model and augeas lens are quite close together:
+
+  - config::model element names and augeas lens names must be identical
+  - both structures must be very close. each config::model node must
+    have a corresponsing lens.
+
+
+see config::model::backend::augeas documentation to use augeas with
+your configuration model.
+
+for more details on config::model see:
+
+
+   http://config-model.wiki.sourceforge.net/
+
+
+for more details on augeas, see:
+
+
+   http://augeas.net

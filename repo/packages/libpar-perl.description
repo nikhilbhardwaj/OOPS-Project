@@ -1,0 +1,7 @@
+Perl redistributable module packaging framework
+	
+par is a perl framework which allows you to easily bundle a typical blib/
+tree into a compressed file (currently a zip) called a perl archive. this
+makes it fairly simple to redistribute, even providing support for loading
+c/xs modules by overriding dynaloader's bootstrapping methods. it writes a
+shared object file to a temporary file at the time it is needed.

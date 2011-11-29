@@ -1,0 +1,5 @@
+Identify what's using up virtual memory
+	
+lists all the processes, executables, and shared libraries
+that are using up virtual memory. it's helpful to see how the
+shared memory is used and which 'old' libs are loaded.

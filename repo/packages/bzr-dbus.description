@@ -1,0 +1,5 @@
+D-bus announcements plugin for bazaar
+	
+integration between bzr and d-bus. this includes a d-bus service to
+broadcast revisions and bzr hooks to generate such broadcasts, and lan
+listening service to allow tracking of commits occuring within a lan.

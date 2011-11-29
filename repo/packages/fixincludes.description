@@ -1,0 +1,10 @@
+Fix non-ansi header files
+	
+fixincludes was created to fix non-ansi system header files. many
+system manufacturers supply proprietary headers that are not ansi compliant.
+the gnu compilers cannot compile non-ansi headers. consequently, the
+fixincludes shell script was written to fix the header files.
+
+not all packages with header files are installed on the system, when the
+package is built, so we make fixincludes available at build time of other
+packages, such that checking tools like lintian can make use of it.

@@ -1,0 +1,8 @@
+Development libraries, header files and docs for libevent
+	
+contains the header files, documentation, examples and static libraries
+for use in developing applications that use the libevent library.
+
+the libevent library is an asynchronous event notification library
+that provides a mechanish to execute a callback function when a specific
+event occurs on a file descriptor or after a timeout has been reached.

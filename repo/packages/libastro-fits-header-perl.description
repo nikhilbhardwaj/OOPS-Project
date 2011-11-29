@@ -1,0 +1,5 @@
+Perl tools for reading, modifying and writing fits headers
+	
+this is a set of perl modules that provide a more high-level approach
+than the straightforward cfitsio to reading, modifying and then
+writing out fits standard header blocks to fits files.

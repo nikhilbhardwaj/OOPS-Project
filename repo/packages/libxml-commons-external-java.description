@@ -1,0 +1,6 @@
+Xml commons external code - dom, sax, and jaxp, etc
+	
+xml-commons is focused on common code and guidelines for xml
+projects.  the first focus will be to organize and have common
+packaging for the various externally-defined standards code relating
+to xml - things like the dom, sax, and jaxp interfaces.

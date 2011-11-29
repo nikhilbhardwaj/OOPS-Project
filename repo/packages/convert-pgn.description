@@ -1,0 +1,9 @@
+Chess book format converter
+	
+convert format of given chess book from one format to pgn,
+the portable game notation format.
+
+pgn is an xml-like computer-processible format for recording
+chess games (both the moves and related data).
+
+supported source chess book formats: ccm, che, chn, mxq, xqf

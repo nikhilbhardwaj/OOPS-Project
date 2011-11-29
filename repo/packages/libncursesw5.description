@@ -1,0 +1,4 @@
+Shared libraries for terminal handling (wide character support)
+	
+this package contains the shared libraries necessary to run programs
+compiled with ncursesw, which includes support for wide characters.

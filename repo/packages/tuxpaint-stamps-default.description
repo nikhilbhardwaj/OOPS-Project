@@ -1,0 +1,21 @@
+Stamp files for tux paint, a paint program for children
+	
+tux paint is meant to be a simple drawing program for young
+children.  it is not meant as a general-purpose drawing tool.
+it is meant to be fun and easy to use.  sound effects and a
+cartoon character help let the user know what's going on, and
+keeps them entertained.
+
+tux paint is extensible.  brushes and "rubber stamp" shapes can be
+dropped in and pulled out.  for example, a teacher can drop in a
+collection of animal shapes and ask their students to draw an
+ecosystem.  each shape can have a sound which is played, and
+textual facts which are displayed, when the child selects the shape.
+
+there is no direct access to the computer's underlying intricacies.
+the current image is kept when the program quits, and reappears when
+it is restarted.  saving images requires no need to create filenames
+or use the keyboard.  opening an image is done by selecting it from
+a collection of thumbnails.
+
+this package contains sounds, images and other data for tux paint.

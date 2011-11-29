@@ -1,0 +1,19 @@
+Load modules with relative names
+	
+this module allows you to load modules using only parts of their name,
+relatively to the current module or to a given module. module names are
+by default searched below the current module, but can be searched upper
+in the hierarchy using the ..:: syntax.
+
+in order to further loosen the namespace coupling, import returns
+the full names of the loaded modules, making object-oriented code easier
+to write:
+
+
+   use relative;
+
+
+
+   my ($maker, $publisher) = import relative qw(create publish);
+   my $report    = $maker->new;
+   my $publisher = $publisher->new;

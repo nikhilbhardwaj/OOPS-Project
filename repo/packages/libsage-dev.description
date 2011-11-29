@@ -1,0 +1,7 @@
+Supports opengl in sdl applications
+	
+this is an opengl extension library written to make use of sdl's mechanism
+for enabling opengl's extensions.
+
+this package contains the development files needed to compile and link other
+libraries and applications against it.

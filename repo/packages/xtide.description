@@ -1,0 +1,19 @@
+Provides tide and current predictions
+	
+xtide is a package that provides tide and current predictions in a wide
+variety of formats. graphs, text listings, and calendars can be generated,
+or a tide clock can be provided on your desktop.
+
+xtide can work with the x window system, plain text terminals, or the
+web. this is accomplished with three separate programs: the interactive
+interface (xtide), the non-interactive or command line interface (tide),
+and the web interface (xttpd).
+
+the algorithm that xtide uses to predict tides is used by the national
+ocean service in the u.s. it is significantly more accurate than the
+simple tide clocks that can be bought in novelty stores. however, it takes
+more to predict tides accurately than just a spiffy algorithm -- data are
+required for every tidal prediction location.  this package provides a
+sample data set for only one location so you can try out the package, but
+anything useful requires the data packaged in the xtide-data package (or
+downloaded from the xtide ftp site).

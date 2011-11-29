@@ -1,0 +1,8 @@
+Extracts cursors and icons from ms windows compatible resource files
+	
+gextractwinicons can extract cursors, and icons from ms windows compatible
+resource files (like .exe, .dll, .ocx, .cpl).
+
+both icons, cursors and png images can be extracted from resources files with
+different resolution and color depth.
+the extracted icon files can be also used for "favicon.ico" website icon.

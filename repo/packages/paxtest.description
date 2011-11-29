@@ -1,0 +1,15 @@
+Test suite for the pax kernel patch
+	
+pax is a linux kernel patch which adds much stricter control on how memory
+is being used by applications. a normal linux kernel leaves the control to the
+application and does not implement any enforcement. especially buffer overflow
+attacks benefit from the absence of kernel enforced memory control. pax tries
+to do its best to enforce this control of memory used by applications, thereby
+making it harder to successfully exploit buffer overflows.
+
+paxtest provides a regression test suite that covers most (but not all)
+of pax functionality. it can also be used to test other memory protection
+patches.
+
+
+ homepage: http://pax.grsecurity.net/

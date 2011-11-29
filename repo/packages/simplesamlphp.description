@@ -1,0 +1,19 @@
+Authentication and federation application supporting several protocols
+	
+simplesamlphp, with its support for several authentication mechanisms
+and federation protocols, can be used for local authentication, as a
+service provider or identity provider. it currently supports the
+following protocols:
+
+
+ * saml 2.0 as a service or identity provider.
+ * shiboleth 1.3 as a service or identity provider.
+ * a-select as a service or identity provider
+ * cas for remote authentication
+ * openid as a provider or consumer
+ * ws-federation as a service provider
+
+
+further authentication providers can be added in form of modules. other
+features are protocol bridging, edugain compatibility, attribute mapping
+and attribute release consent.

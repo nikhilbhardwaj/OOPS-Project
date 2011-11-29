@@ -1,0 +1,11 @@
+Opengl based 3d model editor
+	
+this is an opengl based 3d model editor that works with triangle-based
+models. it supports multi-level undo, skeletal animations, simple texturing,
+scripting, command-line batch processing, and a plugin system for adding new
+model and image filters. complete online help is included. it is designed to
+be easy to use and easy to extend with plugins and scripts.
+
+it supports the following 3d files: milkshape (ms3d), wavefront (obj),
+lightwave 3d object (lwo), quake 2 model (md2), quake 3 model (md3),
+caligari truespace (cob), and autocad (dxf).

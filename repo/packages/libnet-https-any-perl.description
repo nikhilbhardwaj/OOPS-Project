@@ -1,0 +1,7 @@
+Perl module for https get and post using any available ssl module
+	
+net-https-any is a simple wrapper around either of the two available ssl
+modules. it offers a unified api for sending get and post requests over https
+and receiving responses.
+
+it depends on net::ssleay _or_ ( crypt::ssleay and lwp::useragent ).

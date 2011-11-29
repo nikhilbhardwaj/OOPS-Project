@@ -1,0 +1,15 @@
+Per-site password generator for mozilla browsers
+	
+pwdhash is a browser extension (compatible with iceweasel, firefox
+and seamonkey) to transparently convert a user's password into a
+site-specific password which is not tied to the machine on which it
+was generated.
+
+hashing is triggered by prefixing the password with '@@' or by using
+the shortcut key 'f2'. the password field in focus is replaced by the
+hash value. should the site be compromised, the attacker can now only
+see the hash of the password, not the password itself.
+
+pwdhash does not encrypt passwords, but it makes brute-force attacks much
+less effective. it also means phishing sites can only steal a hash that's
+specific to the spoof page and useless on the site being imitated.

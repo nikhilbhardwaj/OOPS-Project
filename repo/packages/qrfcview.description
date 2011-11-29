@@ -1,0 +1,12 @@
+Viewer for ietf rfcs
+	
+qrfcview is a smart ietf rfc viewer based on the qt4 library featuring:
+
+
+ - automatic table of content, with direct opening of section;
+ - handling of rfc internal cross-references;
+ - automatic downloading of a referenced rfc from the ietf web site
+   on a simple click;
+ - caching of rfc in a local directory;
+ - tab-browsing of rfc;
+ - searching.

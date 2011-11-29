@@ -1,0 +1,10 @@
+Dedicated server for infinote-based collaborative editing (current)
+	
+infinoted is a dedicated server which allows clients to edit plain text
+documents and source files collaboratively over a network. changes
+to the documents are synchronised instantly to the other clients.
+
+it serves the documents using the same protocol as gobby-0.5.
+
+this package is a metapackage and depends on the most current stable
+server version if multiple versions are available.

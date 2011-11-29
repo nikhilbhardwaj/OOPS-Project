@@ -1,0 +1,9 @@
+Gimp plugin to convert minolta dimage pictures to srgb colour space
+	
+this plugin converts images produced by some minolta dimage digital
+cameras (dimage 5/7 and s304 at least) into srgb colour space. these
+cameras produces images in a custom colour space so that pictures
+look "washed out" when viewed on a monitor without conversion.
+
+this package enables linux users to do the same conversions as they
+can with the minolta dimage viewer utility.

@@ -1,0 +1,5 @@
+Autogenerate and use a swap file
+	
+this init.d script exists so one does not need to have a fixed size
+swap partition. instead install without swap partition and then run this,
+with file size (re-)computed automatically to fit the current ram size.

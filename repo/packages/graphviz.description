@@ -1,0 +1,25 @@
+Rich set of graph drawing tools
+	
+graph drawing addresses the problem of visualizing structural information
+by constructing geometric representations of abstract graphs and networks.
+automatic generation of graph drawings has important applications in key
+technologies such as database design, software engineering, vlsi and
+network design and visual interfaces in other domains. situations where
+these tools might be particularly useful include:
+
+
+  * you would like to restructure a program and first need to understand
+    the relationships between its types, procedures, and source files
+  * you need to find the bottlenecks in an internet backbone - not only
+    individual links, but their relationships
+  * you're debugging a protocol or microarchitecture represented as a
+    finite state machine and need to figure out how a certain
+    error state arises
+  * you would like to browse a database schema, knowledge base, or
+    distributed program represented graphically
+  * you would like to see an overview of a collection of linked documents
+  * you would like to discover patterns and communities of interest in a
+    database of telephone calls or e-mail messages
+
+
+this package contains the command-line tools.

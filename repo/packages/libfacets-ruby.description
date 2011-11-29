@@ -1,0 +1,18 @@
+Extensive additions and extensions library for ruby
+	
+ruby facets is the single largest collection of core extension
+methods and standard library additions available for the ruby
+programming language.
+
+the core library extend existing base classes with lot's of
+convenient methods and new base objects (binding, functor,
+stackable, ...).
+
+in addition to the core libraries, facets provides dozens of
+additional classes, modules, mixins and light-weight frameworks.
+these solid libraries provide a general-purpose set of
+components commonly useful across a variety of applications
+(dictionary, linkedlist, pqueue, random, ...).
+
+this is a dependency package, which depends on a facets package
+built for the current default version of ruby.

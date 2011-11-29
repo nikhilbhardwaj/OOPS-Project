@@ -1,0 +1,30 @@
+Interactive mathematical programming environment
+	
+euler is a powerful numerical laboratory with a programming language.
+the system can handle real, complex and interval numbers, vectors and
+matrices. it can produce 2d/3d plots.
+
+euler features among other things:
+
+ * real, complex and interval scalars and matrices
+ * a programming language, with local variables, default values for
+   parameters, variable parameter number, passing of functions
+ * two and three dimensional graphs
+ * marker plots
+ * density and contour plots
+ * animations
+ * numerical integration and differentiation
+ * statistical functions and tests
+ * differential equations
+ * interval methods with guaranteed inclusions
+ * function minimizers (brent, nelder-mean)
+ * simplex algorithm
+ * interpolation and approximation
+ * finding roots of polynomials
+ * fast fourier transform (fft)
+ * an exact scalar product using a long accumulator
+ * postscript graphics export
+
+
+this package contains the main program. documentation for euler is included
+in the euler-doc package.

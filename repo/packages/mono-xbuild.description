@@ -1,0 +1,16 @@
+Msbuild-compatible build system for mono
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.
+
+xbuild is mono's implementation of msbuild and allows projects that have a
+msbuild file to be compiled natively on linux.
+
+microsoft build (msbuild) is a build system developed by microsoft similar in
+spirit to nant (in that it uses xml files for describing the build process)
+and in the same spirit as make.
+
+http://www.mono-project.com/microsoft.build

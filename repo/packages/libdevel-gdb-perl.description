@@ -1,0 +1,20 @@
+Open and communicate a gdb session
+	
+the devel::gdb package provides an interface for communicating
+with gdb. internally, it uses the gdb/mi interpreter
+(see http://sourceware.org/gdb/current/onlinedocs/gdb_25.html),
+which accurately informs the caller of the program state and,
+through the use of tokens, guarantees that the results returned
+actually correspond to the request sent.
+by contrast, gdb's console interpreter returns all responses on
+stdout, and thus there is no way to ensure that a particular response
+corresponds to a particular request.
+
+therefore, it is obviously preferable to use gdb/mi when programmatically
+interacting with gdb.  this can be done via the send_cmd family of functions
+(send_cmd, send_cmd_excl, and send_cmd_async).  there are, however,
+some cases when there is no gdb/mi command corresponding to a particular
+console command, or it has not yet been implemented (for example, -symbol-type,
+corresponding to the console command ptype, is not yet implemented as of gdb
+6.6).  in this case, the get function provides a workaround by capturing all
+output sent to the console stream.

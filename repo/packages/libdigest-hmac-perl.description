@@ -1,0 +1,10 @@
+Module for creating standard message integrity checks
+	
+hmac is used for message integrity checks between two parties
+that share a secret key, and works in combination with some other
+digest algorithm, usually md5 or sha-1.  the hmac mechanism
+is described in rfc 2104.
+
+the digest::hmac module follow the common digest:: interface,
+but the constructor takes the secret key and the name of some
+other simple digest:: module as argument.

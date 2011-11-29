@@ -1,0 +1,8 @@
+The chunky loop generator (development files)
+	
+cloog is a software which generates loops for scanning z-polyhedra. that is,
+cloog finds the code or pseudo-code where each integral point of one or more
+parametrized polyhedron or parametrized polyhedra union is reached. cloog is
+designed to avoid control overhead and to produce a very efficient code.
+
+this package contains the development files and the cloog binary.

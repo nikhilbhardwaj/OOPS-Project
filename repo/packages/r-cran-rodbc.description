@@ -1,0 +1,14 @@
+Gnu r package for odbc database access
+	
+this cran package provides access to any open database connectivity (odbc)
+accessible database.
+
+the package should be platform independent and provide access to any
+database for which a driver exists.  it has been tested with mysql
+and postgresql on both linux and windows (and to those dbmss on linux
+hosts from r under windows), microsoft access, sql server and excel
+spreadsheets (read-only), and users have reported success with
+connections to oracle and dbase.
+
+usage is covered in the r data import/export manual (available via the
+r-doc-pdf, r-doc-html and r-doc-info packages).

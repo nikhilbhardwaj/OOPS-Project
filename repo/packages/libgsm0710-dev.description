@@ -1,0 +1,8 @@
+Development files for use with libgsm0710
+	
+this library provides a lightweight implementation of the 3gpp gsm 07.10
+multiplexing protocol. in conjunction with libgsm0710mux it provides
+the base for multiplexing in the freesmartphone.org software stack.
+
+this package contains headers and static libraries for development with
+libgsm0710.

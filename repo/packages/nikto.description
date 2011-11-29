@@ -1,0 +1,14 @@
+Web server security scanner
+	
+nikto is a pluggable web server and cgi scanner written in perl, using
+rfp's libwhisker to perform fast security or informational checks.
+
+features:
+
+ - easily updatable csv-format checks database
+ - output reports in plain text or html
+ - available http versions automatic switching
+ - generic as well as specific server software checks
+ - ssl support (through libnet-ssleay-perl)
+ - proxy support (with authentication)
+ - cookies support

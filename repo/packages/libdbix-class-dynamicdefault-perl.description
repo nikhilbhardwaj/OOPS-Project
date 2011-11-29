@@ -1,0 +1,5 @@
+Dbix-class extension to automatically set and update fields
+	
+dbix::class::dynamicdefault provides a callback-based interface to inject
+sufficiently complex default values into a field upon row creation and
+subsequent updates of that row.

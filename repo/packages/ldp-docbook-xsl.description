@@ -1,0 +1,8 @@
+The linux documentation project's xsl stylesheets
+	
+these are customized stylesheets authored by contributors to the linux
+documentation project. they import standard docbook stylesheets and
+override certain components.
+
+this package provides the xsl stylesheets; a dsssl version can be found in
+ldp-docbook-dsssl.

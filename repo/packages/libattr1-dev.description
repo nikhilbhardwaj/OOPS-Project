@@ -1,0 +1,10 @@
+Extended attribute static libraries and headers
+	
+attr-dev contains the libraries and header files needed to develop
+programs which make use of extended attributes.  for linux programs,
+the documented system call api is the recommended interface, but an
+sgi irix compatibility interface is also provided.
+
+currently only ext2, ext3, jfs and xfs support extended attributes.
+the sgi irix compatibility api built above the linux system calls is
+used by programs such as xfsdump(8), xfsrestore(8) and xfs_fsr(8).

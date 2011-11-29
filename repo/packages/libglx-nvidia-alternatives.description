@@ -1,0 +1,5 @@
+Simplifies replacing xorg module libglx.so with gpu vendor library
+	
+diverts the free xorg module libglx.so (xorg) and introduces alternatives
+to simplify plugging in accelerated implementations from gpu vendors.
+handles both libglx.so and its debug symbols.

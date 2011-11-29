@@ -1,0 +1,4 @@
+PackageId:3113
+Name:diffmon
+Version:20020222-2.5
+Deps:bash,sendmail,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail

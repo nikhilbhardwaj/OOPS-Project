@@ -1,0 +1,11 @@
+Collection of forensics related utilities
+	
+tct is a collection of programs for a post-mortem analysis of a unix system
+after break-in. it enables you to collect data regarding deleted files,
+modification times of files and more.
+
+install this before you need to use it, so you do not risk destroying essential
+forensic data before you begin.
+
+tools contained within this package: grave-robber, lazarus, inode-cat,
+ils, unrm and pcat.

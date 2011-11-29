@@ -1,0 +1,8 @@
+Xfce mixer application
+	
+this is the frontend for mixer settings delivered together
+with the xfce4 desktop environment. it does the same jobs
+other mixer frontends do but is integrated into the xfce4
+desktop as a plugin for the xfce4 main panel.
+
+it uses gstreamer as a backend.

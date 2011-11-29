@@ -1,0 +1,12 @@
+Serve large static files efficiently from web applications
+	
+this package provides the xsendfile module for the apache 2 webserver.
+xsendfile is a small apache2 module that processes x-sendfile header
+sent by the original output handler.
+
+if it encounters the presence of such header it will discard all output
+and send the file specified by that header instead using apache internals
+including all optimizations like caching-headers and sendfile or mmap if
+configured.
+
+it is useful for processing script-output of e.g. php, perl or any cgi.

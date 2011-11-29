@@ -1,0 +1,7 @@
+Ocaml blocking interface to jack audio connection kit
+	
+ocaml-bjack is a blocking interface to jack audio connection kit.
+using it, you can create a jack device and read/write from it
+much like with alsa or oss.
+
+this package contains only the shared runtime stub libraries.

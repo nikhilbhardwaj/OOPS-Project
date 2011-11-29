@@ -1,0 +1,16 @@
+Perl extension for one way hash chaining encryption using sha
+	
+this module implements a chaining block cipher using a one way hash.  this
+method of encryption is the same that is used by radius (rfc2138) and is also
+described in applied cryptography.
+
+two interfaces are provided in the module.  the first is straight block
+encryption/decryption the second does base64 mime encoding/decoding of the
+encrypted/decrypted blocks.
+
+the idea is that the two sides have a shared secret that supplies one of the
+keys and a randomly generated block of bytes provides the second key.  the
+random key is passed in cleartext between the two sides.
+
+an example client and server are packaged as modules with this module.  they
+are used in the tests. they can be found in the examples directory.

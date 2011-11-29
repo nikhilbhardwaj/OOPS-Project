@@ -1,0 +1,11 @@
+Perl module for using memcached servers
+	
+cache::memcached is a module that interfaces with the memcached distributed
+memory cache daemon. danga interactive's memcached is a generic memory object
+caching system, often used to accelerate dynamic web sites by reducing load
+on slower databases. (see the memcached package)
+
+this module allows perl authors to quickly set and retrieve key/data pairs
+from memcached servers, even clusters of multiple daemons. as such, it is
+used to power several large-scale and high-performance web sites, including
+livejournal and slashdot.

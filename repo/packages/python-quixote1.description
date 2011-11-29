@@ -1,0 +1,27 @@
+A highly pythonic web application framework
+	
+quixote is yet another framework for developing web applications in
+python.  the design goals were:
+
+
+ 1) to allow easy development of web applications where the
+    emphasis is more on complicated programming logic than
+    complicated templating.
+
+
+
+ 2) to make the templating language as similar to python as possible,
+    in both syntax and semantics.  the aim is to make as many of the
+    skills and structural techniques used in writing regular python
+    code applicable to web applications built using quixote.
+
+
+
+ 3) no magic.  when it's not obvious what to do in
+    a certain case, quixote refuses to guess.
+
+
+if you view a web site as a program, and web pages as subroutines,
+quixote just might be the tool for you.  if you view a web site as a
+graphic design showcase, and each web page as an individual work of
+art, quixote is probably not what you're looking for.

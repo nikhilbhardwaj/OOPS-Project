@@ -1,0 +1,15 @@
+Documentation for compiler development tool kimwitu
+	
+kimwitu (pronounced kee'mweetoo) is a system that supports
+the construction of programs that use trees or terms as
+their main data structure. it is a meta-tool in the
+development process of tools.
+
+it can easily be interfaced with yacc and lex - the idea
+is that yacc and lex are used to do the parsing, and
+kimwitu routines are used to built and manipulate the
+parse tree.
+
+there is also kimwitu++ (also packaged for debian) which interfaces
+with c++ instead of c; its documentation is still a little shaky, so
+this document might be useful for it.

@@ -1,0 +1,9 @@
+Wordpad text editor library - development files
+	
+a library providing two gtk+ widgets, wptextbuffer and wptextview,
+which can be used to easily support rich text editing.
+
+a regular libwpeditor also exists; this -plus version brings extra
+functionality for changing background colours and inserting images.
+
+this package contains the development files for libwpeditor-plus.

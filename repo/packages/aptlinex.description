@@ -1,0 +1,12 @@
+Web browser addon to install debian packages with a click
+	
+this addon allows installing debian packages from iceweasel, firefox,
+galeon or konqueror just clicking on a web link.
+
+for this to work, links need to have an url beginning with apt://
+this package does not install the packages or download them from the
+web sites, it just launches apt, passing the package name to install
+as a parameter to apt.
+
+some screenshots to see how it works are available at
+http://gambas.gnulinex.org/linexapt/

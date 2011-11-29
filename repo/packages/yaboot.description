@@ -1,0 +1,10 @@
+Yet another bootloader
+	
+this package contains 'yaboot', the bootloader of choice on the
+newworld line of power macintosh computers and on ibm chrp computers.
+it supports loading a kernel from several different filesystems,
+including ext2, ext3, xfs, and reiserfs, as well as separate
+ramdisks and dual-booting.
+
+this package includes the installer tools ybin and mkofboot, and a
+yabootconfig program for generating a simple /etc/yaboot.conf file.

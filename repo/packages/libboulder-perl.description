@@ -1,0 +1,11 @@
+Perl module for hierarchical tag/value structures
+	
+boulder provides a simple stream-oriented format for transmitting data
+objects between one or more processes.  it does not provide for the
+serialization of perl objects the way freezethaw or data::dumper do,
+but it does provide the advantage of being language independent.
+
+in addition to a stream-oriented interface, boulder comes with a
+simple record-oriented database-oriented interface, boulder::store,
+which provides query and search capabilities comparable to many flat
+file dbms systems.

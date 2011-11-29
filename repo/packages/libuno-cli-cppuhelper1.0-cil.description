@@ -1,0 +1,8 @@
+Openoffice.org bindings for mono cli -- bootstrapping library
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains cli_cppuhelper.dll, a cli library which provides
+bootstrapping code to bootstrap native uno (use various uno services
+implemented in different languages).

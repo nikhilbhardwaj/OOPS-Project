@@ -1,0 +1,13 @@
+Sample programs that use libsndfile
+	
+this package contains simple programs which use libsndfile for operating on
+sound files.
+
+programs include:
+
+  - sndfile-cmp : compare the audio data of two files
+  - sndfile-concat : concatenate two or more files
+  - sndfile-convert : convert between sound file formats
+  - sndfile-info : print information about files
+  - sndfile-metadata-get/set : get and set file metadata
+  - sndfile-play : play a sound file

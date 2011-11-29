@@ -1,0 +1,16 @@
+Advanced proxy management tool for iceweasel
+	
+proxy management tool that completely replaces iceweasel's
+proxy configuration and compliments it with ability to
+
+ - define multiple proxies and order their use with priorities
+ - temporarily or permanently disable a proxy with the click of a
+   button
+ - define which proxy to use (or none!) for arbitrary urls using
+   wildcards, regular expression and other conveniences
+ - log of all urls loaded, including which proxy was used (if any),
+   and which pattern was matched, timestamps, etc.
+ - enable optional status bar information about which proxy is
+   currently in use
+ - support tor
+ - support full proxy auto-config (pac)

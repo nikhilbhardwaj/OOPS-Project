@@ -1,0 +1,6 @@
+Vmcore extraction tool
+	
+this program is used to extract a subset of the memory available either
+via /dev/mem or /proc/vmcore (for crashdumps). it is used to get memory
+images without extra uneeded information (zero pages, userspace programs,
+etc).

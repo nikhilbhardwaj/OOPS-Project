@@ -1,0 +1,19 @@
+Geometry engine for geographic information systems - c library
+	
+geos provides a spatial object model and fundamental geometric
+functions. it implements the geometry model defined in the
+opengis consortium simple features specification for sql.
+functions provided include:
+
+
+  * spatial predicates (based on the de-9im model),
+  * overlay functions (intersection, difference, union,
+    symmetric difference),
+  * buffer,
+  * convex hull,
+  * area and distance functions, and
+  * topological validity checking
+
+
+this package contains the c library. a c++ library is provided
+by the libgeos* package.

@@ -1,0 +1,18 @@
+Build system with automated dependency analysis
+	
+omake is a build system designed to scale from small projects to very
+large projects spanning many directories. omake uses a syntax similar
+to gnu make, with many additional features.  it contains
+specifications for easily building c, ocaml, and latex programs, but
+can be used to build projects with other languages as well.
+
+omake includes an accurate, automated dependency analysis based on
+md5 digests.  it also includes a stand-alone command-line
+interpreter, osh, that can be used as an interactive shell for
+debugging the build files.  omake's syntax is a full object oriented
+language.  features of the omake language include integer and
+floating point arithmetic, scoped expressions, higher order
+functions, multiple inheritance, pattern matching, runtime
+exceptions, lexers, and lalr(1) parsers.  users can easily produce
+architecture independent builds as omake provides a uniform interface
+to its standard library on linux/unix, win32, and os x.

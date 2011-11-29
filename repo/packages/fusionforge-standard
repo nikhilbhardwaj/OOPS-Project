@@ -1,0 +1,4 @@
+PackageId:4801
+Name:fusionforge-standard
+Version:5.0.2-5
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,gforge-common,gforge-db-postgresql,gforge-db,gforge-lists-mailman,gforge-lists,gforge-mta-exim4,gforge-mta,gforge-mta-courier,gforge-mta-postfix,gforge-shell-postgresql,gforge-shell,gforge-web-apache2,gforge-web,ucf

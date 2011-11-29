@@ -1,0 +1,9 @@
+Server-side implementation of the scgi protocol
+	
+the scgi protocol is a replacement for the common gateway
+interface (cgi) protocol. it is a proposed standard for
+applications to interface with http servers. it is similar to
+fastcgi but is designed to be easier to implement.
+
+this is a python package implementing the server side of the
+scgi protocol.

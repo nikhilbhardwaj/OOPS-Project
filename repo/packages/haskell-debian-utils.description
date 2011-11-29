@@ -1,0 +1,28 @@
+Various helpers to work with debian packages
+	
+this package contains tools shipped with the haskell library “debian”:
+
+
+  * fakechanges:
+    sometimes you have the .debs, .dsc, .tar.gz, .diff.gz, etc from a package
+    build, but not the .changes file. this package lets you create a fake
+    .changes file in case you need one.
+
+
+
+  * debian-report:
+    analyze debian repositories and generate reports about their contents and
+    relations. for example, a list of all packages in a distribution that are
+    trumped by another distribution.
+
+
+
+  * cabal-debian:
+    tool for creating debianizations of haskell packages based on the .cabal
+    file.
+
+
+
+  * apt-get-build-depends:
+    tool which will parse the build-depends{-indep} lines from debian/control
+    and apt-get install the required packages

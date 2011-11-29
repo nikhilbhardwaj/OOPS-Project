@@ -1,0 +1,10 @@
+Documentation for the snort ids [documentation]
+	
+snort is a libpcap-based packet sniffer/logger which can be used as a
+lightweight network intrusion detection system. it features rules
+based logging and can perform content searching/matching in addition
+to being used to detect a variety of other attacks and probes, such
+as buffer overflows, stealth port scans, cgi attacks, smb probes, and
+much more. snort has a real-time alerting capability, with alerts being
+sent to syslog, a separate "alert" file, or even to a windows computer
+via samba.

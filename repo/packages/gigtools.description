@@ -1,0 +1,22 @@
+Command line tools for gigasampler and dls level 1/2 files
+	
+raw file handling for audio sampler files based on dls level 1/2 and
+gigasampler.
+these files are typically used in modern day audio waveform samplers.
+this package contains the following command line tools:
+
+gigdump:
+
+  prints out the content of a .gig file.
+
+gigextract:
+
+  extracts samples from a .gig file.
+
+dlsdump:
+
+  prints out the content of a dls file.
+
+rifftree:
+
+  prints out the riff tree of an arbitrary riff file.

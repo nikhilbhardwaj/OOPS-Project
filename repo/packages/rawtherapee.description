@@ -1,0 +1,12 @@
+A free raw converter and digital photo processing software
+	
+rawtherapee is used to adjust some of the most often changed parameters when
+optimizing digital images. a normal user often just wants to adjust the white
+balance or brightness of a photo he took. instead of using a big and expensive
+image editor you could use a small and fast tool like rawtherapee.
+more and more cameras also support raw formats. raw files usually offer higher
+color depth than jpgs. so the adjustments are done with the high color depth
+and then afterwards converted to or saved as jpgs. rawtherapee supports jpg,
+png and tiff. all image processing is done in 16 bit/channel mode.
+different to other raw converters it can use eahd as demosaicing algorithm.
+the raw loading engine of rawtherapee is based on dcraw.

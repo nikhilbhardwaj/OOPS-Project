@@ -1,0 +1,10 @@
+Extracts files from network traffic based on file signatures
+	
+tcpxtract is a fast console tool to extract files from network traffic
+based on file headers and footers (so called carving).
+26 file formats are supported out of the box by tcpxtract but new formats
+can be added without problems.
+foremost configurations are simple to convert to tcpxtracts configuration
+files.
+
+it uses libpcap and it can be used with tcpdump files.

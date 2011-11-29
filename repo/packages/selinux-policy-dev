@@ -1,0 +1,4 @@
+PackageId:31443
+Name:selinux-policy-dev
+Version:2:0.2.20100524-7+squeeze1
+Deps:checkpolicy,gawk,m4,make,policycoreutils,python

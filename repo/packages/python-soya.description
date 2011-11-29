@@ -1,0 +1,7 @@
+High level 3d engine for python
+	
+soya 3d is a high level 3d engine for python. it relies on opengl and
+sdl. it is designed with games in mind, and written partly in python
+and partly in c; the goal is to provide a full architecture for making
+free (gpl) games of professional quality entirely in python.
+soya can also render on pygame surfaces !

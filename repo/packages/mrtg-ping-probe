@@ -1,0 +1,4 @@
+PackageId:24882
+Name:mrtg-ping-probe
+Version:2.2.0-1
+Deps:iputils-ping,ping,inetutils-ping,mrtg,perl

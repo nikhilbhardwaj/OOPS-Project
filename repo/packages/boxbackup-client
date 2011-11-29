@@ -1,0 +1,4 @@
+PackageId:1300
+Name:boxbackup-client
+Version:0.11~rc2-7squeeze1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libedit2,libgcc1,libssl0.9.8,libstdc++6,libunwind7,openssl,perl,ucf,zlib1g

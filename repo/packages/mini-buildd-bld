@@ -1,0 +1,4 @@
+PackageId:24491
+Name:mini-buildd-bld
+Version:0.8.15+nmu1
+Deps:cdbs,debconf,debconf-2.0,cdebconf,cdebconf-udeb,debhelper,debootstrap,devscripts,dpkg-dev,dput,fakeroot,lvm2,mini-buildd-common,schroot

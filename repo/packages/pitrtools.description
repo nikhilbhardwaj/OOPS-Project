@@ -1,0 +1,5 @@
+Wrapper scripts providing warm standby functionality to postgresql
+	
+pitrtools is a set of wrapper scripts that provide warm standby
+functionality to postgresql. the software is essentially two scripts,
+cmd_archiver.py and cmd_standby.py. the project is under the bsd license.

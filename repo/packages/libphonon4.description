@@ -1,0 +1,7 @@
+The core library of the phonon multimedia framework
+	
+phonon is the qt 4 multimedia api, which provides a task-oriented abstraction
+layer for capturing, mixing, processing, and playing audio and video content.
+
+this package contains the core library of the phonon cross-platform multimedia
+framework for qt 4.  it is required to run applications that use phonon.

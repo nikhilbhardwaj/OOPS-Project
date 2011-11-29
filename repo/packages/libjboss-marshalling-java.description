@@ -1,0 +1,34 @@
+Alternative serialization api
+	
+jboss marshalling is an alternative serialization api that fixes many of the
+problems found in the jdk serialization api while remaining fully compatible
+with java.io.serializable and its relatives, and adds several new tunable
+parameters and additional features, all of which are pluggable via factory
+configuration (externalizers, class/instance lookup tables, class resolution,
+and object replacement, to name a few).
+
+this framework was inspired by the need for certain features unavailable with
+the standard object*stream classes:
+
+
+ * pluggable class resolvers, making it easy to customize classloader
+   policy, by implementing a small interface (rather than having to subclass
+   the object*stream classes)
+ * pluggable object replacement (also without subclassing)
+ * pluggable predefined class tables, which can dramatically decrease
+   stream size and serialization time for stream types which frequently use a
+   common set of classes
+ * pluggable predefined instance tables, which make it easy to handle
+   remote references
+ * pluggable externalizers which may be used to serialize classes
+   which are not serializable, or for which an alternate strategy is needed
+ * customizable stream headers
+ * each marshaller instance is highly configurable and tunable to
+   maximize performance based on expected usage patterns a generalized api
+   which can support many different protocol implementations, including
+   protocols which do not necessarily provide all the above features
+ * inexpensive instance creation, beneficial to applications where
+   many short-lived streams are used
+ * support for separate class and instance caches, if the protocol
+   permits; useful for sending multiple messages or requests with a single
+   stream, with separate object graphs but retaining the class cache

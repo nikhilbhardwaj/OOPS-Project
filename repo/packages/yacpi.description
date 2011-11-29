@@ -1,0 +1,8 @@
+Ncurses based acpi monitor for text mode
+	
+yacpi (yet another configuration and power interface) is an ncurses based
+acpi monitoring program for notebooks. there is also a text-only output
+so it is possible to include it in scripts.
+it displays various acpi information like battery status, temperature,
+charging circuits and ac status.
+additionally it displays cpu govenor and current frequency.

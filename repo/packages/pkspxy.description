@@ -1,0 +1,5 @@
+Pgp public key server proxy daemon
+	
+this package implements a caching proxy to be used between any
+program which speaks the hkp protocol for pgp public key exchange,
+and any hkp-capable key server (this will probably be pks).

@@ -1,0 +1,11 @@
+Plotting program, reads stdin, allows interactive zooming
+	
+accepts data files or stdin in a form similar to the unix program
+graph and displays line graphs, scatter plots, or bar charts on an
+x11 display.  fully annotated with title, axis numbering and labels,
+and legend.  zooming with the mouse is supported.  can generate
+hardcopy output to postscript printers and hpgl plotters.  output can
+be directly pasted into idraw (drawtool) for further annotation.
+particularly useful in shell scripts.  also see "ygraph" which is a
+similar tool using an attractive albeit slower modern graphics
+library, which is under active maintenance and development.

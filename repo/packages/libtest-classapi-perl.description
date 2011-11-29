@@ -1,0 +1,6 @@
+Perl extension for basic first-pass api testing for class trees
+	
+for many apis with large numbers of classes, it can be very useful to be able
+to do a quick once-over to make sure that classes, methods, and inheritance
+is correct, before doing more comprehensive testing.
+this module aims to provide such a capability.

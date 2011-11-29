@@ -1,0 +1,9 @@
+Ha cluster resource manager (development files)
+	
+high-availability cluster resource manager for heartbeat.
+
+pacemaker supports a very sophisticated dependency model for
+n-node clusters and can respond to node and resource-level
+failures.
+
+this package contains pacemaker's development files.

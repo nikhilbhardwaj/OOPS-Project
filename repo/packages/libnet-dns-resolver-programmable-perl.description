@@ -1,0 +1,6 @@
+Programmable dns resolver class for offline emulation of dns
+	
+net::dns::resolver::programmable is a net::dns::resolver descendant class that
+allows a virtual dns to be emulated instead of querying the real dns.  a set
+of static dns records may be supplied, or arbitrary code may be specified as a
+means for retrieving dns records, or even generating them on the fly.

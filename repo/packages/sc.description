@@ -1,0 +1,11 @@
+Text-based spreadsheet with vi-like keybindings
+	
+"spreadsheet calculator" is a much modified version of the public-
+domain spread sheet sc, which was posted to usenet several years ago
+by mark weiser as vc, originally by james gosling. it is based on
+rectangular table much like a financial spreadsheet.
+
+its keybindings are familiar to users of 'vi', and it has most
+features that a pure spreadsheet would, but lacks things like
+graphing and saving in foreign formats.  it's very stable and quite
+easy to use once you've put a little effort into learning it.

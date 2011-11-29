@@ -1,0 +1,11 @@
+Module for generating/analyzing roman numerals
+	
+this module converts from and to roman numerals. it can convert numbers
+from 1 to 4999 and understands the common shortcuts (ix == 9), but not
+illegal ones (mim == 1999).
+
+this module is part of "dive into python", a free python tutorial for
+experienced programmers.  visit http://diveintopython.org/ for the
+latest version.
+
+it is maintained in debian as part of the python-docutils package.

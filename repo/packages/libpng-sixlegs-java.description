@@ -1,0 +1,6 @@
+Sixlegs java png decoder
+	
+sixlegs java png decoder is java library for decoding png image files.
+supports all valid bit depths (grayscale/color), interlacing, paletted images,
+alpha channel/transparency, gamma correction, access to most standard chunks,
+private chunk handling, and progressive display.

@@ -1,0 +1,11 @@
+Perl module for object oriented time objects
+	
+time::piece is a perl module that is designed to replace the standard gmtime
+and localtime functions with implementations that return objects. it does so
+in a backward-compatible manner, so that using localtime/gmtime in the way
+documented in `perlfunc' will still return what you think.
+
+furthermore, objects of this class will allow you to get any part of the date
+or time via method calls. it has methods for julian days and supports some
+simple date arithmetic operations. it also provides easy access strftime and
+strptime functions to parse and output locale-sensitive dates.

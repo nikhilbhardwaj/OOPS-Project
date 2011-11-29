@@ -1,0 +1,7 @@
+A regular expression "wizard", all written with bash2 builtins
+	
+^txt2regex$ is a regular expression "wizard", all written with bash2
+builtins, that converts human sentences to regexs. with a simple
+interface, you just answer to questions and build your own regex for a
+large variety of programs, like awk, emacs, grep, perl, php, procmail,
+python, sed and vim. there are more than 20 supported programs.

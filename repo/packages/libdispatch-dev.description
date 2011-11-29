@@ -1,0 +1,8 @@
+Development files for the grand central dispatch api
+	
+the libdispatch project consists of the user space implementation of
+the grand central dispatch api as seen in mac os x version 10.6
+(snow leopard).
+
+this package contains the headers, manpages, and other files needed
+to build programs that use libdispatch.

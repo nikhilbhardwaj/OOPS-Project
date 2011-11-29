@@ -1,0 +1,7 @@
+Utilities to generate c function prototypes from c source code
+	
+cproto is a program that generates function prototypes and variable
+declarations from c source code.  it can also convert function
+definitions between the old style and the ansi c style.  this
+conversion overwrites the original files, so make a backup copy of
+your files in case something goes wrong.

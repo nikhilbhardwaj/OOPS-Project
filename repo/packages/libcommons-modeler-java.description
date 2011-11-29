@@ -1,0 +1,12 @@
+Convenience library to use java management extensions (jmx)
+	
+commons modeler from the apache commons project simplifies using the java
+management extensions (jmx). it provides the following services to
+application developers who wish to make their applications manageable via jmx:
+
+ * reads an xml-based description of the model mbeans to be provided
+   for a set of managed resources.
+ * provides a registry of these descriptions.
+ * supplies a base model mbean implementation class that can be used
+   for all management activities where the attribute accesses or
+   operation calls are simply reflected on to the managed object.

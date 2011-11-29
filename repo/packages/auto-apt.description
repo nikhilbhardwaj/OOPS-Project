@@ -1,0 +1,9 @@
+Package search by file and on-demand package installation tool
+	
+auto-apt checks the file access of programs running within its
+environments, and if a program tries to access a file known to
+belong in an uninstalled package, auto-apt will install that
+package using apt-get.  this feature requires apt and sudo to work.
+
+it also provides simple database to search which package contains
+a requested file.

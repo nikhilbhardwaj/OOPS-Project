@@ -1,0 +1,7 @@
+Vnc server to allow remote access to an existing x session
+	
+x11vnc allows one to view remotely and interact with real x displays (i.e. a
+display corresponding to a physical monitor, keyboard, and mouse) with any
+vnc viewer. it has built-in ssl encryption and authentication, unix account
+and password support, server-side scaling, single port https and vnc, mdns
+service advertising, and tightvnc and ultravnc file-transfer.

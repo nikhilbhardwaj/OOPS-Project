@@ -1,0 +1,9 @@
+Automatic forward differentiation in octave
+	
+automatic differentiation (ad) is a technique to analytically compute
+the derivative of a function at a given inner point of its domain.
+it overcomes the accuracy and efficiency problems related to the
+method of finite differences.  this package implements the ad
+algorithms in octave, a numerical computation software.
+
+this octave add-on package is part of the octave-forge project.

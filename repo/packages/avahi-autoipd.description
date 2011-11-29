@@ -1,0 +1,13 @@
+Avahi ipv4ll network address configuration daemon
+	
+avahi is a fully lgpl framework for multicast dns service discovery.
+it allows programs to publish and discover services and hosts
+running on a local network with no specific configuration. for
+example you can plug into a network and instantly find printers to
+print to, files to look at and people to talk to.
+
+this tool implements ipv4ll, "dynamic configuration of ipv4 link-local
+addresses" (ietf rfc3927), a protocol for automatic ip address
+configuration from the link-local 169.254.0.0/16 range without the
+need for a central server. it is primarily intended to be used in
+ad-hoc networks which lack a dhcp server.

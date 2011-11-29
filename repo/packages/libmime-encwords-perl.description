@@ -1,0 +1,17 @@
+Perl interface to deal with rfc 2047 encoded words
+	
+mime::encwords is a module providing several utilities to encode and decode
+arbitrary text in rfc 2047 (formerly rfc 1522) format. the mime standard gives
+users the ability to represent any characters in any character set by using
+special sequences like:
+
+
+ =?iso-8859-1?q?keld_j=f8rn_simonsen?=
+
+
+there are various modules available to manipulate these special character
+sequences. this module bears most resemblance to the mime::words module and
+provides a similar interface, providing for relatively painless upgrading,
+while having stricter conformance to the aforementioned rfcs. it provides
+more flexibility than mime::worddecoder because characters can be mapped
+into any desired encoding, rather than simply the local system representation.

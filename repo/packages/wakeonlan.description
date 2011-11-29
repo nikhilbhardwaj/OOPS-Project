@@ -1,0 +1,10 @@
+Sends 'magic packets' to wake-on-lan enabled ethernet adapters
+	
+with this package you can remotely wake up and power on machines which have
+motherboards or network cards that support 'wake-on-lan' packets.
+
+the tool allows you to wake up a single machine, or a group of machines.
+
+you need the mac addresses of machines to construct the wol packets, but,
+in contrast to 'etherwake', you do not need root privileges to use the
+program itself as udp packets are used.

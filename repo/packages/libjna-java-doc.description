@@ -1,0 +1,8 @@
+Dynamic access of native libraries from java without jni (documentation)
+	
+jna provides java programs easy access to native shared libraries without
+writing anything but java code - no jni or native code is required. this
+functionality is comparable to windows' platform/invoke and python's ctypes.
+access is dynamic at runtime without code generation.
+
+this package contains the javadoc api documentation.

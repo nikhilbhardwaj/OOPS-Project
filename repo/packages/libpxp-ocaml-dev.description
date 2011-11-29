@@ -1,0 +1,9 @@
+Ocaml library that implements an xml-1.0 validating parser
+	
+pxp is a validating parser for xml-1.0 which has been written entirely
+in objective caml.
+
+pxp is the new name of the parser formerly known as "markup". pxp means
+"polymorphic xml parser" and emphasizes its most useful property: that
+the api is polymorphic and can be configured such that different objects
+are used to store different types of elements.

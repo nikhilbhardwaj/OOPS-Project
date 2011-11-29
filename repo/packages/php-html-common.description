@@ -1,0 +1,5 @@
+A base class for other html classes
+	
+the pear::html_common package provides methods for html code display and
+attributes handling. methods to set, remove, update html attributes, handles
+comments in html code, handles layout, tabs, line endings for nicer html code.

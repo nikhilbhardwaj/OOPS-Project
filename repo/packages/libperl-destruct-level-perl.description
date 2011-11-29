@@ -1,0 +1,15 @@
+Perl module to change perl's destruction level
+	
+perl::destruct::level is an interface allowing one to change perl's internal
+destruction level. while this functionality is available through the
+perl_destruct_level environment variable when perl is compiled with debug
+support, this module provides it for perls without -ddebugging.
+
+the default value of the destruct level is 0; it means that perl won't bother
+destroying all its internal data structures, but let the os do the cleanup
+for it at exit.
+
+relevant values recognized by perl are 1 and 2. consult your source code to
+know exactly what they mean. note that some embedded environments might
+extend the meaning of the destruction level for their own purposes: mod_perl
+does that, for example.

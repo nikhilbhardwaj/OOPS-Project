@@ -1,0 +1,16 @@
+British english male voice for mbrola
+	
+this package contains an english diphone database provided in the context
+of the mbrola project see: http://tcts.fpms.ac.be/synthesis/
+
+it provides a british english male voice (known as "roger's voice") to be used
+with the mbrola program. it has been built from the original roger diphones
+made available by cstr, university of edinburgh, as part of their generic
+text-to-speech system festival.
+
+http://www.cstr.ed.ac.uk/projects/festival.html
+
+input files use the sampa phonetic notation, as adopted in other mbrola
+databases. this package also provides the correspondence with the mrpa
+phonetic notation used in the original distribution of roger's voice
+in the festival tts system.

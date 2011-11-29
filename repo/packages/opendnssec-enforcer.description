@@ -1,0 +1,14 @@
+Tool to prepares dnssec keys (common package)
+	
+opendnssec is a complete dnssec zone signing system which is very
+easy to use with stability and security in mind.  there are a lot of
+details in signing zone files with dnssec and opendnssec covers most
+of it.
+
+opendnssec enforcer, which is a tool to make sure that there are
+enough keys for all of the zones, and take the policy and key
+information from the kasp database and turn it into an xml file that
+the signer can use.
+
+the package contains opendnssec enforcer documentation, manpages and
+it depends on either sqlite3 or mysql backend package with binaries.

@@ -1,0 +1,8 @@
+Command-line tool to typeset gregorian chant
+	
+gregorio is a project with a lot of functionalities. the main interest is gabc,
+a very simple and fast language to describe a gregorian chant score.
+the project is for now a command-line tool to convert gabc files into real
+score, like for example opustex or gregoriotex. but it also handles a xml
+format: gregorioxml.  you can use the tool to read or write gabc and
+gregorioxml, and to write opustex and gregoriotex.

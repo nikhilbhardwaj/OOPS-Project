@@ -1,0 +1,15 @@
+Database schema migration for sqlalchemy
+	
+inspired by ruby on rails' migrations, migrate provides a way to deal
+with database schema changes in sqlalchemy projects.
+
+sqlalchemy-migrate is build on top of sqlalchemy and provides a changeset
+and a versioning api for database schemas as well as a script utilizing
+these apis. the database change sets are managed in a file based
+repository allowing upgrades and downgrades of database schema versions.
+the change sets may consist of python code facilitating the changeset api
+or sql scripts.
+
+sqlalchemy-migrate has support for mysql, postgresql, sqlite and oracle
+databases. the support for oracle is not as well tested as the support for
+the other database systems.

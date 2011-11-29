@@ -1,0 +1,4 @@
+Module to rewrite strings based on a set of known prefixes
+	
+string::rewriteprefix rewrites all of the given strings based on a
+user-specified set of rules.

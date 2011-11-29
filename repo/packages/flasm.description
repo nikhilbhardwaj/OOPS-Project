@@ -1,0 +1,18 @@
+Assembler and disassembler for flash (swf) bytecode
+	
+flasm disassembles your entire swf including all the timelines and
+events. looking at disassembly, you learn how the flash compiler works.
+you can also do some optimization on the disassembled code by hand or
+adjust the code as you wish. flasm can then re-assemble the bytecode
+into a new swf.
+
+it is also possible to embed flasm actions in your actionscript, making
+optimization of large projects more comfortable.
+
+flasm is not a decompiler. what you get is the human readable
+representation of swf bytecode, not actionscript source.
+
+flasm can also compress and decompress swf files.
+
+flasm does not and may never work with flash 9 files since flash 9 is
+a new virtual machine and support for it would mean a full rewrite.

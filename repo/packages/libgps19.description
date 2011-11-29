@@ -1,0 +1,11 @@
+Global positioning system - library
+	
+the gpsd service daemon can monitor one or more gps devices connected to
+a host computer, making all data on the location and movements of the
+sensors available to be queried on tcp port 2947.
+
+this package provides libgps, a c service library for querying gps
+devices. it supports both a low-level interface, which communicates
+directly with the device to which the gps is connected, and a high-level
+interface, which goes through gpsd and is intended for concurrent use by
+several applications.

@@ -1,0 +1,8 @@
+Object-oriented graphics rendering engine (tools)
+	
+ogre is a complete object-oriented 3d rendering engine. it supports
+different rendering subsystems but only the opengl system is useful
+for linux.
+
+this package contains tools used to convert from and to ogre's
+native mesh format.

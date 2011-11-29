@@ -1,0 +1,14 @@
+Pump mode for distcc a distributed compiler client and server
+	
+distcc is a program to distribute compilation of c or c++ code across
+several machines on a network. distcc should always generate the same
+results as a local compile, is simple to install and use, and is often
+significantly faster than a local compile.  distcc does not require all
+machines to share a filesystem, have synchronized clocks, or to have
+the same libraries or header files installed.
+
+this package contains the necessary additions for distcc's "pump" mode,
+which improves on plain distcc by distributing not only compilation but
+also preprocessing to distcc servers.
+if you have more than 10 cpus involved in your distcc setup, you should
+consider using this package on your distcc client machine.

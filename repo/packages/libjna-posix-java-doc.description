@@ -1,0 +1,6 @@
+Java jna-posix library api documentation
+	
+this package includes the development documentation for the
+jna-posix library which provides access to various posix
+functions like chmod(2), link(2) or getuid(2) through
+dynamic loading of native libraries with jna.

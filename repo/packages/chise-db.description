@@ -1,0 +1,7 @@
+Chise db, the character information database
+	
+the chise (character information service environment) project
+attempts to collect and organize into a knowledge-base information
+about characters in the scripts of the world.
+this package provides the database itself.  please use this with
+libchise, the c language binding of chise database.

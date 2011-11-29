@@ -1,0 +1,4 @@
+PackageId:11000
+Name:libcrypt-cbc-perl
+Version:2.30-1
+Deps:libcrypt-rijndael-perl,libcrypt-blowfish-perl,libcrypt-des-perl,libcrypt-des-ede3-perl,perl

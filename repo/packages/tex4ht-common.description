@@ -1,0 +1,20 @@
+Latex and tex for hypertext (html) - support files
+	
+tex4ht is a highly configurable tex-based authoring system for producing
+hypertext. it interacts with tex-based applications through style files and
+postprocessors, leaving the processing of the source files to the native tex
+compiler. consequently, tex4ht can handle the features of tex-based systems
+in general, and of latex in particular.
+
+tex4ht can be used both for authoring html using tex/latex input files, or
+for converting existing tex input files (in any format) into html, with
+(usually) only minor modifications.  other varieties of hypertext can also be
+produced, including xml, xhtml, mathml and the openoffice.org format of xml.
+
+there are a number of different ways to convert glyphs and graphics
+in the dvi files into png, gif or jpeg. the default is to use dvipng.
+alternatives using ghostscript, imagemagick, netpbm and/or pstoedit are
+also possible.
+
+this package contains only the architecture independent files for
+tex4ht. you should install the tex4ht package to use these files.

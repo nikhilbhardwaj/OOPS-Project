@@ -1,0 +1,11 @@
+Ip over ip encapsulation daemon
+	
+this daemon provides an alternative to the kernel-resident support for ip
+encapsulation links.  it is better suited for situations where there are many
+encapsulation connections to be managed, such as is the case for amateur
+radio interconnection of network 44.  also, because the daemon is outside the
+kernel, it provides an excellent environment for experimenting with alternate
+mechanisms for distributing encapsulation routing updates.
+
+if you need one encapsulation link, use the kernel's built-in support.  if
+you need a lot of encapsulation links, give this daemon a try.

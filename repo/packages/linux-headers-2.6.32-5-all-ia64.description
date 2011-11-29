@@ -1,0 +1,5 @@
+All header files for linux 2.6.32 (meta-package)
+	
+this package depends against all architecture-specific kernel header files
+for linux kernel version 2.6.32, generally used for building out-of-tree
+kernel modules.

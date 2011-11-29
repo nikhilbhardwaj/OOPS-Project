@@ -1,0 +1,17 @@
+Remote authentication dial-in user service (radius) server
+	
+radius is an aaa (authentication, authorization and accounting) protocol for
+managing client access to network services, and is described by rfcs 2865 to
+2869. this version of the radius server is from lucent technologies inc.,
+formerly known as livingston enterprises inc.
+
+some internet service providers (isps) require a username and password to be
+given on connection. before access to the network is granted, this
+information is passed to a network access server (nas) device over the
+link-layer protocol and then to a radius server over the radius protocol. the
+radius server checks that the information is correct using authentication
+schemes like pap, chap or eap. if accepted, the server will then authorize
+access to the isp's system and select an ip address, l2tp parameters, etc.
+
+radius is also commonly used for accounting purposes so that the users can be
+billed accordingly.

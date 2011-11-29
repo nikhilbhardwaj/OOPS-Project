@@ -1,0 +1,13 @@
+An enhanced import facility for subversion
+	
+svn-load is a free replacement for svn_load_dirs, an enhanced import
+facility for subversion.
+
+this utility will commit a single changeset that alters a repository
+subtree to match a local directory. it detects filenames that have been
+removed or created, and uses this knowledge to prompt the user about file
+and directory movements within the subtree. an automatic tagging option
+is also supported.
+
+svn-load is well suited for vendor branch maintenance, where external
+source is routinely imported and merged.

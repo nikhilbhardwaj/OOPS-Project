@@ -1,0 +1,7 @@
+Thai word segmentation program
+	
+swath is a general-purpose utility for analyzing word boundaries in thai
+text and inserting predefined word delimiter codes. it can be used as a
+filter for thai latex files so the lines are wrapped properly when processed
+with thailatex macros. other formats that swath can also handle include html,
+rtf and plain text.

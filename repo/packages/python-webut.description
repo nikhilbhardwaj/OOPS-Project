@@ -1,0 +1,12 @@
+Miscellaneous utilities for nevow and twisted.web{,2} programming
+	
+a collection of utility libraries for use when programming web
+applications with nevow, twisted.web and twisted.web2.
+
+the intent is that as the individual libraries stabilize, they can be
+moved to nevow or twisted.web2.
+
+current content:
+
+ - support library for skinnable web apps
+ - web app navigation library

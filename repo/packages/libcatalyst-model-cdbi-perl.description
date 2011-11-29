@@ -1,0 +1,7 @@
+Cdbi model class for catalyst
+	
+this is the class::dbi model class for catalyst. it's built on top of
+class::dbi::loader.
+
+this module is deprecated and only provided for older applications which
+still need it for backwards compatibility.

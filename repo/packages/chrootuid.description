@@ -1,0 +1,10 @@
+Run commands in restricted environments
+	
+chrootuid makes it easy to run a network service at low privilege
+level and with restricted file system access.  the daemons have access only
+to their own directory tree, and run under a low-privileged userid.
+
+in the past it has been used to run the gopher and www
+(world-wide web) network. it can be used nowadays also for proxy servers.
+the arrangement greatly reduces the impact of possible loopholes in
+network software.

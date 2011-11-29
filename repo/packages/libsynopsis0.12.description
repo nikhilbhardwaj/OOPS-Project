@@ -1,0 +1,13 @@
+Runtime library for synopsis
+	
+synopsis is a multi-language source code introspection tool that
+provides a variety of representations for the parsed code to enable
+further processing such as documentation extraction, reverse
+engineering, and source-to-source translation.
+
+synopsis provides a framework of c++ and python apis to access these
+representations and allows processor objects to be defined and
+composed into processing pipelines, making this framework very
+flexible and extensible.
+
+this package contains the runtime library for synopsis.

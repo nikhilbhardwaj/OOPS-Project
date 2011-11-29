@@ -1,0 +1,8 @@
+Catch your forked web server's warnings in test::more tests
+	
+this module, based on test::http::server::simple, lets you retrieve the
+warnings that your forked http::server::simple-based web server throws.
+that way you can test that your application continues to throw warnings
+when it makes sense.  catching the warnings also keeps your test output
+tidy. finally, you'll be able to see when your application throws new,
+unexpected warnings.

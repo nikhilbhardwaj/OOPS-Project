@@ -1,0 +1,4 @@
+PackageId:22391
+Name:libwine-print
+Version:1.0.1-3.1
+Deps:cups-bsd,lpr,lprng,ia32-libs,libc6,libc6-udeb,libc6-i386,libcups2,libfreetype6,libwine

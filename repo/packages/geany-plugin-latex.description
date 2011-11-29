@@ -1,0 +1,15 @@
+Improved latex support plugin for geany
+	
+geanylatex is a plugin for the geany ide to improve work with latex. features
+include:
+
+ * wizard for creating a new latex-document
+ * frontend for easy input of \ref{} and \label{}
+ * easy adding of special characters and environments through plugin menu entry
+ * support for adding new items to bibtex database
+ * toolbar with commonly used format options
+ * bulk replacement and input replacement of special characters
+
+
+geany is a small and lightweight integrated development environment using the
+gtk+ toolkit.

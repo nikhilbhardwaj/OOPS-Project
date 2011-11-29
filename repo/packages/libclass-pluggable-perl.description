@@ -1,0 +1,11 @@
+Simple pluggable class.
+	
+this class makes your class (sub class of class::pluggable) pluggable.
+in this documentation, the word "pluggable" has two meanings.
+
+one is just simply adding new method to your pluggable classs from
+other plugin modules. so, after you plugged some modules to your class,
+you can use there method exactly same as your own object method.
+
+you can see this kind of plugin mechanism in cgi::application and
+cgi::application::plugin::session.

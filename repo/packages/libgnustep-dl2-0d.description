@@ -1,0 +1,9 @@
+Bundle of runtime libraries for gnustep-dl2
+	
+this package includes the eoaccess, eointerface and eocontrol runtime
+libraries.
+
+gnustep database library version 2 is needed by gnustep applications that
+communicate with databases.  it's an implementation of apple's
+enterprise objects framework (eof) v 3.0 (from next), and apple's
+webobjects 4.5 interface.

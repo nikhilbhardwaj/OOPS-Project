@@ -1,0 +1,15 @@
+Themed icon set that is window manager agnostic.
+	
+the window manager icons is a set of generic icons for use by window
+managers in a graphical environment.  it is an efficient icon
+distribution designed to be standardized and configurable.  it
+includes several themed icon sets, a template icon set to help
+building new themed icon sets, scripts and configurations for several
+window managers.
+
+wm-icons comes with different styles and common window manager sizes
+(small menu icons, larger desktop icons, etc.) as well as advice and
+setup for integrating them with various window managers such as fvwm,
+scwm, etc.  each set consists of an icon in that size and style for
+each of about 84 different generic categories ("game", "editor",
+"file-manager", etc).

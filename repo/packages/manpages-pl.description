@@ -1,0 +1,14 @@
+Polish man pages
+	
+this package contains the gnu/linux manual pages translated into polish.
+following sections are provided:
+
+
+ * 1 = user programs (e.g. ls, ln).
+ * 4 = devices (e.g. hd, sd).
+ * 5 = file formats and protocols, syntaxes of several system
+       files (e.g. wtmp, /etc/passwd, nfs).
+ * 6 = games etc.
+ * 7 = conventions and standards, macro packages, etc.
+       (e.g. nroff, ascii).
+ * 8 = administration and privileged commands.

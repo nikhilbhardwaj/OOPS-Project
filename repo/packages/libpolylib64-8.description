@@ -1,0 +1,8 @@
+The polyhedral library - long int version
+	
+polylib is a free c library for doing computations on polyhedra.
+the library is operating on objects like vectors, matrices, lattices,
+polyhedra, z-polyhedra, unions of polyhedra and other intermediary
+structures.
+it provides functions for all important operations on these structures.
+this package provides the version for operations on long integers.

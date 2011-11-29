@@ -1,0 +1,10 @@
+Ruby library to provide rgb, cmyk and other colorspace support
+	
+this ruby library provides support to rgb, cmyk and other
+colorspaces. it offers 152 named rgb colors (184 with spelling
+variations) that are commonly supported and used in html, svg and x11
+applications. a technique for generating a monochromatic contrasting
+palette is also included.
+
+this is the documentation package, with upstream documentation, as well as
+generated rdoc.

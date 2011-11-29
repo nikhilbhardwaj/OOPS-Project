@@ -1,0 +1,6 @@
+Debian base system miscellaneous files
+	
+this package contains the basic filesystem hierarchy of a debian system, and
+several important miscellaneous files, such as /etc/debian_version,
+/etc/host.conf, /etc/issue, /etc/motd, /etc/profile, /etc/nsswitch.conf,
+and others, and the text of several common licenses in use on debian systems.

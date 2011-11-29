@@ -1,0 +1,12 @@
+Gtk# frontend library for mono.addins
+	
+mono.addins is a framework for creating extensible cli applications, and for
+creating libraries which extend those applications.
+mono.addins has been designed to be easy to use and useful for a wide range
+of applications: from simple applications with small extensibility needs, to
+complex applications which need support for large add-in structures.
+
+this package contains a gtk# frontend library for the mono.addins.setup
+library.
+
+this package contains the mono.addins.gui library.

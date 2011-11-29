@@ -1,0 +1,7 @@
+The gnu version of the mach microkernel for debugging
+	
+this is the utah mach microkernel used by the hurd.
+
+the version in this package is identical to the version found in the
+gnumach package, except that it is not stripped and has the
+kernel-level debugger compiled in.

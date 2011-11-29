@@ -1,0 +1,10 @@
+A collection of programs to put heavy load on cpu
+	
+cpuburn is a collection of programs to put heavy stress on cpu.
+these programs are designed to load cpus as heavily as possible
+for the purposes of system testing.
+
+warning: the goal has been to maximize heat production from the cpu,
+putting stress on the cpu itself, cooling system, motherboard. this
+may cause data loss (filesystem corruption) and possibly permanent
+damage to electronic components. use at your own risk.

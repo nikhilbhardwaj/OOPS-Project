@@ -1,0 +1,14 @@
+Speech output interface to emacs
+	
+emacspeak is a speech output system that will allow someone who
+cannot see to work directly on a unix system.
+
+emacspeak is built on
+top of emacs.  once emacs is started with emacspeak loaded, users get
+spoken feedback for all actions.  as emacs can do everything,
+they get speech feedback for everything they do.
+
+this package includes speech servers
+written in tcl to support the dectalk express and dectalk multivoice
+speech synthesizers.  for other synthesizers, look for separate
+speech server packages such as emacspeak-ss and eflite.

@@ -1,0 +1,7 @@
+Small ruby web framework for model-view-controller type applications
+	
+camping is a web framework which consistently stays at less than 4kb of
+code.  the idea here is to store a complete fledgling web application
+(written in ruby) in a single file like many small cgis, but to organize
+it as a model-view-controller application like rails does.  you can then
+easily move it to rails once you've got it going.

@@ -1,0 +1,5 @@
+Collection of boot loaders
+	
+syslinux is a collection of boot loaders which operates off linux ext2/3/4 or
+btrfs filesystems, ms-dos fat filesystems, network servers using pxe firmware,
+or from cd-roms.

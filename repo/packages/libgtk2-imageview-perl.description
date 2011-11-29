@@ -1,0 +1,12 @@
+Perl bindings for the gtkimageview image viewer widget
+	
+gtkimageview is a simple image viewer widget for gtk+. similar to the image
+viewer panes in gthumb or eye of gnome. it makes writing image viewing and
+editing applications easy. among its features are:
+
+
+ mouse and keyboard zooming.
+ scrolling and dragging.
+ adjustable interpolation.
+ fullscreen mode.
+ gif animation support.

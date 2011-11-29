@@ -1,0 +1,10 @@
+A wrapper library for various spell checker engines (development)
+	
+enchant is a generic spell checking library which uses existing
+spell checker engines such as ispell, aspell and myspell as its backends.
+
+enchant steps in to provide uniformity and conformity on top of these
+libraries, and implement certain features that may be lacking in any
+individual provider library.
+
+this package contains files needed for development with enchant.

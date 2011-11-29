@@ -1,0 +1,8 @@
+A distributed job queue
+	
+gearman is a system to farm out work to other machines, dispatching function
+calls to machines that are better suited to do work, to do work in parallel,
+to load balance lots of function calls, or to call functions between languages.
+
+this package is an empty package that depends on both the client and the
+server.

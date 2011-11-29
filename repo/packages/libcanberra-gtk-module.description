@@ -1,0 +1,4 @@
+Translates gtk+ widgets signals to event sounds
+	
+a gtkmodule which will automatically hook into all kinds of events
+inside a gtk+ program and generate sound events from them.

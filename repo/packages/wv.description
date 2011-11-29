@@ -1,0 +1,34 @@
+Programs for accessing microsoft word documents
+	
+wvware (previously known as mswordview) is a library that allows access
+to microsoft word files.  it can load and parse the word 2000, word 97,
+word 95, and word 6 file formats.  (work is underway to support reading
+earlier formats as well: word 2 documents are converted to plain text.)
+
+this package provides the following programs:
+
+
+ * wvware: converts to html and latex.  it's used by a small army of
+   helper scripts able to preview word documents and convert them to
+   various other formats, like postscript, pdf, dvi, etc.
+
+
+
+ * wvrtf: converts to microsoft's rich text format.
+
+
+
+ * wvsummary: displays the summary information stream of all ole2 files,
+   i.e. excel, powerpoint, visio, access, etc.
+
+
+
+ * wvversion: outputs the version of the word format a document is stored
+   in.
+
+
+note that conversion to dvi, postscript, or pdf requires the tetex-extra
+package; pdf conversion also requires ghostscript.  having elinks, links,
+or lynx will greatly improve the plain text output.  imagemagick may help
+with the quality of images.  if you wish to preview word documents from
+the comfort of your mail reader, install a postscript viewer like gv.

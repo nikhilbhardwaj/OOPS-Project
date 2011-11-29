@@ -1,0 +1,11 @@
+Cut generator library, a library of cutting-plane generators
+	
+the cut generation library (cgl) is an open collection of cutting plane
+implementations ("cut generators") for use in teaching, research, and
+applications.
+
+cgl is part of the larger coin-or initiative (computational infrastructure
+for operations research) and can be used with other coin-or packages that
+make use of cuts, such as the mixed-integer linear programming solver cbc.
+
+this package contains the documentation and examples.

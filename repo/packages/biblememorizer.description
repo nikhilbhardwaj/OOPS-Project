@@ -1,0 +1,10 @@
+A bible verses memorizer
+	
+biblememorizer is a program to help with memorizing scripture. it allows you
+to create files with lists of verses you want to memorize, including the text
+of the verse and any categories you create.
+
+biblememorizer uses plugins to import texts, including a plugin to use the
+sword api. texts are then imported from the sword bible modules installed on
+your system.
+.

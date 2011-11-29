@@ -1,0 +1,8 @@
+Module for common gateway interface applications
+	
+cgi.pm is a perl module that provides classes useful for creating web forms
+and for parsing their contents. it defines cgi objects, entities that contain
+the values of the current query string and other state variables.
+
+this module is already included as part of perl's core distribution, so this
+package is only beneficial when newer features or bug fixes are required.

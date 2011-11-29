@@ -1,0 +1,12 @@
+Perl module to check code for fixme declarations
+	
+when coding it is common to come up against problems that need to be
+addressed but that are not a big deal at the moment. what generally happens
+is that the coder adds comments like:
+
+
+ # fixme - add checking of user privileges here.
+
+
+test::fixme allows you to add a test file that ensures that none of these get
+forgotten in the module.

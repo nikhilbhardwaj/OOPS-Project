@@ -1,0 +1,16 @@
+Set of low level http transport components for java
+	
+httpcore is a set of low level http transport components that can be used
+to build custom client and server side http services with a minimal
+footprint. httpcore supports two i/o models:
+
+
+ - blocking i/o model, based on the classic java i/o;
+ - non-blocking, event driven i/o model based on java nio.
+
+
+the blocking i/o model may be more appropriate for data intensive, low
+latency scenarios, whereas the non-blocking model may be more appropriate
+for high latency scenarios where raw data throughput is less important
+than the ability to handle thousands of simultaneous http connections in
+a resource efficient manner.

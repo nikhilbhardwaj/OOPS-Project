@@ -1,0 +1,11 @@
+File alteration monitor
+	
+fam monitors files and directories, notifying interested applications
+of changes.
+
+this package provides a server that can monitor a given list of files
+and notify applications through a socket.  if the kernel supports
+dnotify (kernels >= 2.4.x) fam is notified directly by the kernel.
+otherwise it has to poll the files' status.  fam can also provide an
+rpc service for monitoring remote files (such as on a mounted nfs
+filesystem).

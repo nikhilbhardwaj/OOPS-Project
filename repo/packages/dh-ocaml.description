@@ -1,0 +1,14 @@
+Helper tools for maintaining ocaml-related debian packages
+	
+dh-ocaml is a set of tools and documents to help maintaining debian
+packages related to the objective caml (ocaml) programming language.
+
+dh-ocaml notably contains the following components:
+
+ * makefile helpers to write debian/rules files implementing ocaml
+   packaging best-practices (both for cdbs lovers and haters)
+ * the debian ocaml packaging policy
+ * dh_ocaml debhelper to automatically computes dependencies among
+   binary ocaml packages
+ * ocaml-md5sums, the tool used to maintain the system registry of
+   ocaml module interface checksums

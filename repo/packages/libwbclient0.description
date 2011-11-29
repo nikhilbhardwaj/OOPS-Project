@@ -1,0 +1,8 @@
+Samba winbind client library
+	
+samba is an implementation of the smb/cifs protocol for unix systems,
+providing support for cross-platform file and printer sharing with
+microsoft windows, os x, and other unix systems.
+
+this package provides a library for client applications that interact
+via the winbind pipe protocol with a samba winbind server.

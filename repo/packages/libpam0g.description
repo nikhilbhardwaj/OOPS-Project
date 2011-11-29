@@ -1,0 +1,9 @@
+Pluggable authentication modules library
+	
+contains the c shared library for linux-pam, a suite of shared
+libraries that enable the local system administrator to choose how
+applications authenticate users.  in other words, without rewriting
+or recompiling a pam-aware application, it is possible to switch
+between the authentication mechanism(s) it uses.  one may entirely
+upgrade the local authentication system without touching the
+applications themselves.

@@ -1,0 +1,31 @@
+Command-line tools for extracting data for xcf files
+	
+this is a set of fast command-line tools for extracting information
+from the gimp's native file format xcf.
+the tools are designed to allow efficient use of layered xcf files as
+sources in a build system that use 'make' and similar tools to manage
+automatic processing of the graphics.
+these tools work independently of the gimp engine and do not require
+the gimp to even be installed.
+
+"xcf2pnm" converts xcf files to ppm, pgm or pbm format, flattening
+layers if necessary.
+if the image contains transparency, an alpha map can be written to a
+separate file, or a background color can be specified on the command
+line.
+
+"xcf2png" converts xcf files to png format, flattening layers if
+necessary.
+transparency information can be kept in the image, or a background
+color can be specified on the command line.
+
+"xcfinfo" lists information about layers in an xcf file.
+
+"xcfview" is a wrapper script that flattens an xcf image and displays
+it using an external png/ppm viewer.
+to use this script, you must make sure also to install an appropriate
+external viewer, as well as the mime-support package which provides the
+mailcap database.
+
+the tools can either flatten an xcf file as given, or extract
+specific layers named on the command line.

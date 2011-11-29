@@ -1,0 +1,5 @@
+Multi-protocol instant messaging library - extra utilities
+	
+this package contains the utilities not included in the main libpurple0
+package. currently included are: purple-remote, purple-send,
+purple-send-async, and purple-url-handler,

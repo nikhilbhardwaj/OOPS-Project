@@ -1,0 +1,9 @@
+Library for assembly code compilation at runtime
+	
+gnu lightning is a library to aid in making portable programs that compile
+assembly code at run time.  it produces very fast code, making it ideal for
+just-in-time compilers, and it abstracts over the target cpu, as it exposes to
+the clients a standardized risc instruction set inspired by the mips and sparc
+chips.
+
+lightning currently supports the i386, powerpc and sparc architectures.

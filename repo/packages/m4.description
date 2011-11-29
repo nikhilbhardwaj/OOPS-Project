@@ -1,0 +1,8 @@
+A macro processing language
+	
+gnu `m4' is an implementation of the traditional unix macro
+processor.  it is mostly svr4 compatible, although it has some
+extensions (for example, handling more than 9 positional parameters to
+macros).  `m4' also has builtin functions for including files, running
+shell commands, doing arithmetic, etc.  autoconf needs gnu `m4' for
+generating `configure' scripts, but not for running them.

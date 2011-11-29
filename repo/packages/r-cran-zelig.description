@@ -1,0 +1,23 @@
+Gnu r package providing a unified front-end for estimating statistical models
+	
+with thousands of contributors who have written hundreds of packaged
+routines, r can deal with nearly any statistical problem.  although
+this high level of participation may be its greatest strength, the
+enormous diversity in approaches to statistical inference covered by
+r often results in a virtual babel of competing functions and
+inconsistent syntax.
+
+to address these problems from a common perspective, the upstream
+authors have created zelig, a single, easy-to-use program, with a
+unified framework and syntax, that can estimate, help interpret, and
+present the results of a large range of statistical methods. it
+literally is "everyone's statistical software" because zelig uses r
+code from many researchers.  they also hope it will become
+"everyone's statistical software" for applications, and they have
+designed it so that anyone can use it or add their methods to it.
+zelig comes with detailed, self-contained documentation that
+minimizes startup costs for zelig and r, automates graphics and
+summaries for all models, and, with only three simple commands
+required, generally makes the power of r accessible for all users.
+zelig also works well for teaching, and is designed so that scholars
+can use the same program they use for their research.

@@ -1,0 +1,10 @@
+Java library to create and manipulate pdf on the fly
+	
+itext is a library that allows you to generate pdf files on the fly.
+the itext classes are very useful for people who need to generate read-only,
+platform independent documents containing text, lists, tables and images.
+the library is especially useful in combination with java(tm)
+technology-based servlets: the look and feel of html is browser dependent;
+with itext and pdf you can control exactly how your servlet's output will look.
+
+this package contains the natively compiled code for use by gij.

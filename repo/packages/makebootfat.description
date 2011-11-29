@@ -1,0 +1,10 @@
+Utility to create a bootable fat filesystem
+	
+makebootfat is a command line utility able to create bootable usb disks
+using the fat filesystem and syslinux.
+
+makebootfat is the most advanced tool available able to make bootable
+usb disks. it is able to autodetect/partition/format/populate the usb
+disk in a single step without any user interaction. it's also able to
+create disk images which are compatible with all the three standards
+usb-fdd, usb-hdd and usb-zip at the same time.

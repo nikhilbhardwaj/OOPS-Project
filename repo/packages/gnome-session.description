@@ -1,0 +1,11 @@
+The gnome session manager - gnome 2 session
+	
+this package contains a session that can be started from a display
+manager such as gdm. it will load all necessary applications for a
+full-featured user session.
+
+the session manager also features the ability to save a running session
+an restore it later.
+
+this version is configured to start the gnome 2 desktop, based on the
+gnome panel.

@@ -1,0 +1,6 @@
+Simple perl makefile parser
+	
+makefile::parser a simple perl makefile parser, able to parse most of syntax
+constructs supported both by microsoft nmake and gnu make: variable
+definitions, explicit and implicit rules, substitution references and a subset
+of gnu make functions.

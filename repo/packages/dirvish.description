@@ -1,0 +1,8 @@
+Filesystem based backup system using rsync
+	
+a utility to maintain multiple backups on online storage, each backup is
+available as a sort of snapshot directory, where common files are shared
+between the different backup generations. it uses rsync to do the actual
+copying.
+
+backups can be made locally or over the network (using ssh).

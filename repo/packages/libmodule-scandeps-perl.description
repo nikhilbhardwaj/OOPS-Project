@@ -1,0 +1,4 @@
+Perl module to recursively scan perl code for dependencies
+	
+module::scandeps scans potential modules used by perl programs and returns
+information about their module dependencies.

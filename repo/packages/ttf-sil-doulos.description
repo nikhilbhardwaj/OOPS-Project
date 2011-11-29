@@ -1,0 +1,24 @@
+Smart unicode font for latin and cyrillic scripts
+	
+the goal for the doulos sil font is to provide a single unicode-based font
+family that would contain a comprehensive inventory of glyphs needed for
+almost any roman- or cyrillic-based writing system, whether used for
+phonetic or orthographic needs. in addition, there is provision for other
+characters and symbols useful to linguists.
+
+the doulos sil font contains near-complete coverage of all the characters
+defined in unicode 5.1 for latin and cyrillic. in total, over 2,200 glyphs
+are included, providing support for over 1,500 graphic or control
+characters as well as a large number of ligated character sequences (e.g.,
+contour tone letters used in phonetic transcription of tonal languages).
+
+doulos sil is a truetype font with "smart font" capabilities added
+using the graphite, opentype(r), and aat font technologies. this means that
+complex typographic issues such as the placement of multiple diacritics or the
+formation of ligatures are handled by the font, provided you are running an
+application that provides an adequate level of support for one of these
+smart font technologies.
+
+doulos sil is a trademark of sil international.
+
+see the fontlog for information on this and previous releases.

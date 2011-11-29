@@ -1,0 +1,7 @@
+Simple directmedia layer development files
+	
+sdl is a library that allows programs portable low level access to a video
+framebuffer, audio output, mouse, and keyboard.
+
+this package contains the files needed to compile and link programs which
+use sdl.

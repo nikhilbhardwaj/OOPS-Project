@@ -1,0 +1,9 @@
+Mpeg layer iii streaming server
+	
+icecast is an audio broadcasting system. it can stream music in the
+mpeg layer iii format, and supports multiple streams on a single port
+through the use of "mountpoints".
+
+many audio players can listen to icecast streams, as it's been built to
+remain compatible with nullsoft shoutcast. popular clients such as xmms or
+winamp can also stream audio to an icecast server, using specific plugins.

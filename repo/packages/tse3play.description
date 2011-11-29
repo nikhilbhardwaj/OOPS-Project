@@ -1,0 +1,8 @@
+Midi/tse3mdl player/converter
+	
+tse3play plays tse3mdl files and midi files using the tse3 sequencer
+engine.
+
+it can convert files between the two supported formats. while playing
+it provides text-based visual feedback and can stream an english
+representation of the contents of the file to standard output.

@@ -1,0 +1,13 @@
+Filename encoding conversion tool
+	
+convmv can convert a single filename, a directory tree or all files
+on a filesystem to a different encoding. it only converts the
+encoding of filenames, not files contents. a special feature of
+convmv is that it also takes care of symlinks: the encoding of the
+symlink's target will be converted if the symlink itself is being
+converted.
+
+it is also possible to convert directories to utf-8 which are already
+partially utf-8 encoded.
+
+keywords: rename, move

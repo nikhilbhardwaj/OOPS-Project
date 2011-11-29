@@ -1,0 +1,8 @@
+Freehep 2d graphics library
+	
+this library extends the common awt graphics2d class, providing a standard
+and well known interface for writing image files the same way awt and
+swing components are drawn. the actual file writing is done by the
+graphicsio libraries.
+
+freehep is a collection of java libraries used in high energy physics.

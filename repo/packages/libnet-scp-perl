@@ -1,0 +1,4 @@
+PackageId:18401
+Name:libnet-scp-perl
+Version:0.08-1
+Deps:libnet-ssh-perl,libstring-shellquote-perl,perl,ssh-client,openssh-client

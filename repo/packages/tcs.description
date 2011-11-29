@@ -1,0 +1,7 @@
+Character set translator
+	
+tcs translates character sets from one encoding to another.
+
+supported encodings include utf (iso utf-8), ascii, iso 8859-[123456789],
+koi8, jis-kanji, ujis, ms-kanji, jis, gb, big5, unicode, tis, msdos, and
+atari.

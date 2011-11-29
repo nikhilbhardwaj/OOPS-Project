@@ -1,0 +1,14 @@
+Keeps ftp archives up-to-date
+	
+mirror uses the ftp protocol to locally duplicate remote host files and
+directories selected with perl regular expressions.  by default transfers
+only files missing locally or whose remote sizes or time-stamps have changed.
+can reduce directory download using compressed listings in ls-lr.gz files
+or further using compressed differences of daily listings in ls-lr.patch.gz
+files.  can read mirrored packages.gz files and mirror just their specified
+fraction of debian from pool/.  amongst many flexible options it can gzip
+and split files.  tracks large distant ftp archives accurately with low
+download volume.
+
+simpler programs like "mirrordir", "rsync" or "wget" use less memory and may
+copy directory trees faster between local machines.

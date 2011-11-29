@@ -1,0 +1,7 @@
+Metapackage formerly known as the gtk+ v2 crossfire client
+	
+as the gtk2 version of the client is the only remaining supported
+client version, it was moved to the crossfire-client package.  this
+dummy package was left in place to pull it in.
+
+you may safely remove this package.

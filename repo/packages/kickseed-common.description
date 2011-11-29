@@ -1,0 +1,4 @@
+Common files for kickstart compatibility
+	
+this package reads kickstart files and preseeds an installation with them,
+translating to the d-i preseeding infrastructure.

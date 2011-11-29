@@ -1,0 +1,10 @@
+Trigraph password generator
+	
+this package generates pronounceable passwords. it uses the statistics of
+three-letter combinations (trigraphs) taken from whatever dictionaries you
+feed it.
+
+thus pronounceability may differ from language to language. based
+on the ideas in morrie gasser's password generator for multics, and dan
+edwards's generator for ctss.  fips standard 181 describes a similar
+digraph-based generator, derived from gasser's.

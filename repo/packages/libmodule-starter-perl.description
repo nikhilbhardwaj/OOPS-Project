@@ -1,0 +1,6 @@
+Simple starter kit for perl modules
+	
+module::starter is used to create a skeletal perl module distribution,
+including basic builder scripts, tests, documentation, and module code.
+the module-starter script should be enough for most users, but the core
+module::starter module can also be overridden for more complex situations.

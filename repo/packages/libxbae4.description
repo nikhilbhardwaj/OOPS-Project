@@ -1,0 +1,9 @@
+Xbae matrix widget libraries
+	
+xbaematrix is a free motif® table widget (also compatible with the free
+lesstif) which presents an editable array of string data to the user in
+a scrollable table similar to a spreadsheet. the rows and columns of the
+matrix may optionally be labelled. a number of "fixed" and "trailing fixed"
+rows or columns may be specified.
+
+this package provides the c run-time form of the library.

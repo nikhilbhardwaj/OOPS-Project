@@ -1,0 +1,10 @@
+Graph theory ide
+	
+rocs aims to be a graph theory ide for helping professors to show the results
+of a graph algorithm and also helping students to do the algorithms.
+
+rocs has a scripting module, done in qt script, that interacts with the drawn
+graph and every change in the graph with the script is reflected on the drawn
+one.
+
+this package is part of the kde education module.

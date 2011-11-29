@@ -1,0 +1,7 @@
+Smtp benchmark - the mad postman.
+	
+this program starts a specified number of processes to send as much random
+data to random accounts as possible.
+
+adds the x-postal header to email it sends, so if someone uses it unethically
+then it will be easy to filter via procmail.

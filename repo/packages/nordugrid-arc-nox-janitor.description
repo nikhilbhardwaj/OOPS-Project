@@ -1,0 +1,13 @@
+Arc dynamic runtime environment installation
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced
+resource connector (arc).
+
+for grid computing, a major challenge is to keep the working environments
+homogeneous between the sites. to help this situation, runtime
+environments have been developed. those can be added to or removed from
+a site, and this janitor service helps automating this process.
+
+the janitor is a recent development and the community to prepare
+catalogues of dynamically installable packages still needs to evolve.

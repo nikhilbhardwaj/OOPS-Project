@@ -1,0 +1,6 @@
+Gtk+ performance benchmark
+	
+gtkperf is an application designed to test gtk+ performance.
+the point is to create common testing platform to run predefined
+gtk+ widgets (opening comboboxes, toggling buttons, scrolling text)
+and this way define the speed of device/platform.

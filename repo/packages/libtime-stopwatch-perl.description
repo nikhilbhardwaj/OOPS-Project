@@ -1,0 +1,6 @@
+Use tied scalars as timers
+	
+the time::stopwatch module provides a convenient interface to
+timing functions through tied scalars.  from the point of view of the
+user, scalars tied to the module simply increase their value by one
+every second.

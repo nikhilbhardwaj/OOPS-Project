@@ -1,0 +1,12 @@
+Module to manipulate and access uri strings
+	
+uri is a collection of perl modules that represent and manipulate uniform
+resource identifier (uri) references as specified in rfc 2396.
+
+uri objects can be used to access and manipulate the various components
+that make up these strings.  there are also methods to combine uris in
+various ways.
+
+the uri class replaces the uri::url class that used to be distributed with
+libwww-perl. this package also includes an emulation of the old uri::url
+interface, which implements both the old and the new interface.

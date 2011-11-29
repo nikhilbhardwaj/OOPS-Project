@@ -1,0 +1,7 @@
+Server for the bootp protocol with dhcp support
+	
+this is a server for the bootp protocol; which allows network administrator
+to setup networking information for clients via an /etc/bootptab on a server
+so that the clients can automatically get their networking information.  while
+this server includes rudimentary dhcp support as well, we suggest using the
+dhcp package if you need dhcp support, as it is much more complete.

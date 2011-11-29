@@ -1,0 +1,8 @@
+Perl module to use http and ftp urls with io::all
+	
+io::all::lwp acts as glue between io::all and lwp, so that files can
+be read and written through the network using the convenient io:all
+interface. note that this module is not used directly: you just use
+io::all, which knows when to autoload io::all::http, io::all::https,
+io::all::ftp, or io::all::gopher, which implement the specific
+protocols based on io::all::lwp.

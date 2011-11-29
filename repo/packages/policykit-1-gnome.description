@@ -1,0 +1,4 @@
+Gnome authentication agent for policykit-1
+	
+policykit-gnome provides a d-bus session bus service that is used to
+bring up authentication dialogs used for obtaining privileges.

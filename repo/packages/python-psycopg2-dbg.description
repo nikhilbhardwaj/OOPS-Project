@@ -1,0 +1,9 @@
+Python module for postgresql (debug extension)
+	
+psycopg is a postgresql database adapter for the python programming language
+(just like pygresql and popy.) this is version 2, a complete rewrite of the
+original code to provide new-style classes for connection and cursor objects
+and other sweet candies. like the original, psycopg 2 was written with the
+aim of being very small and fast, and stable as a rock.
+
+this package contains the extensions built for the python debug interpreter.

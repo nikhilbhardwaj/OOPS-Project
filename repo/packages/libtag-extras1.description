@@ -1,0 +1,6 @@
+Taglib extras library - support for more file formats
+	
+this package contains a library which implements reading and editing tags of a
+couple extra media file formats which are not supported by the core taglib
+audio meta-data library (taglib). currently supported file formats are asf,
+audible, mp4, realmedia and wav.

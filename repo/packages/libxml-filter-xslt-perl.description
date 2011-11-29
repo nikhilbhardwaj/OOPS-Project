@@ -1,0 +1,11 @@
+Perl module for xslt as a sax filter
+	
+the xml::filter::xslt module implements xslt as a sax filter.  at the
+moment it only uses xml::libxslt as an xslt transformer, but hopefully
+others will be supported in the future (it's written with that in mind).
+
+the beauty is you can stick other things in the transformation chain
+if you want, or you can make the writer use xml::handler::htmlwriter
+if you want to write out valid html 4.0, or you can make the
+generator something like xml::generator::dbi.  the possibilities are
+endless.

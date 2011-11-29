@@ -1,0 +1,5 @@
+Ipsec ike keying daemon
+	
+racoon is the kame ike (ipsec key exchange) server. it can be used with
+the linux ipsec implementation in 2.6 and later kernels or with
+the 2.4 backport of the ipsec changes.

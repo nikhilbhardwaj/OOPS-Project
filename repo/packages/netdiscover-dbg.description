@@ -1,0 +1,7 @@
+Active/passive network address scanner using arp requests (debug)
+	
+netdiscover is an active/passive address reconnaissance tool, mainly developed
+for those wireless networks without dhcp server, when you are wardriving. it
+can be also used on hub/switched networks.
+
+this package contains the debugging symbols.

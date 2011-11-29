@@ -1,0 +1,11 @@
+Perl module to parse 02packages.details.txt.gz
+	
+the comprehensive perl archive network (cpan) is a very useful
+collection of perl code. it has several indices of the files that it
+hosts, including a file named "02packages.details.txt.gz" in the
+"modules" directory. this file contains lots of useful information and
+parse::cpan::packages provides a simple interface to the data contained
+within.
+
+note that this module does not concern itself with downloading or
+unpacking this file. you should do this yourself.

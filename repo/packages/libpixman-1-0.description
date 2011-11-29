@@ -1,0 +1,6 @@
+Pixel-manipulation library for x and cairo
+	
+a library for manipulating pixel regions -- a set of y-x banded
+rectangles, image compositing using the porter/duff model
+and implicit mask generation for geometric primitives including
+trapezoids, triangles, and rectangles.

@@ -1,0 +1,14 @@
+Hexadecimal editor for binary files
+	
+okteta is a simple editor for the raw data of files. this type of program is
+also called hexadecimal editor or binary editor.
+the data is displayed in the traditional view with two columns: one with the
+numeric values and one with the assigned characters. editing can be done both
+in the value column and the character column. besides the usual editing
+capabilities okteta also brings a small set of tools, like a table listing
+decodings into common simple data types, a table listing all possible bytes
+with its character and value equivalents, a info view with a statistic and a
+filter tool. all modifications to the data loaded can be endlessly undone or
+redone.
+
+this package is part of the kde utilities module.

@@ -1,0 +1,12 @@
+The ad-hoc configuration protocol
+	
+ahcp is an autoconfiguration protocol for ipv6 and dual-stack
+ipv6/ipv4 networks designed to be used in place of router discovery
+and dhcp on networks where it is difficult or impossible to configure
+a server within every link-layer broadcast domain, for example mobile
+ad-hoc networks. ahcp will automatically configure the ipv6 prefix,
+an ipv4 address for every host, the routing protocol, the dns server
+and the ntp server. it is currently able to configure hosts for
+static routing, for use of the olsr protocol, or for use of the babel
+protocol. ahcp is extensible, so adding support for other routing
+protocols should be easy.

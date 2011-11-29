@@ -1,0 +1,22 @@
+Distributed resource management - common files
+	
+grid engine is software that facilitates "distributed resource
+management" (drm).  far more than just simple load-balancing tools or
+batch scheduling mechanisms, drm software typically provides the
+following key features across large sets of distributed resources:
+
+
+  * policy based allocation of distributed resources (cpu time,
+    software licenses, etc.)
+  * batch queuing & scheduling
+  * support diverse server hardware, os and architectures
+  * load balancing & remote job execution
+  * detailed job accounting statistics
+  * fine-grained user specifiable resources
+  * suspend/resume/migrate jobs
+  * tools for reporting job/host/cluster status
+  * job arrays
+  * integration & control of parallel jobs
+
+
+this package contains requried shared files and the basic configuration.

@@ -1,0 +1,6 @@
+Common lisp regression tester from mit
+	
+this is mit's regression tester for common lisp programs. it provides a
+framework for writing
+regression tests for common lisp packages. this package includes
+paul dietz's modifications to the original mit release.

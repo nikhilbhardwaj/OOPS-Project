@@ -1,0 +1,11 @@
+Graphviz libs and headers against which to build applications
+	
+graphviz is a set of graph drawing tools. see the description of the graphviz
+package for a full description.
+
+this package installs the libraries and headers necessary to link graphviz
+library routines into an application. it also installs additional man pages.
+
+this package also contains the ocaml development files.
+
+note: a graphviz user doesn't need to install this package.

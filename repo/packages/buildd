@@ -1,0 +1,4 @@
+PackageId:1400
+Name:buildd
+Version:0.60.0-2squeeze1
+Deps:adduser,cron,bcron-run,dupload,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,libsbuild-perl,perl,sbuild

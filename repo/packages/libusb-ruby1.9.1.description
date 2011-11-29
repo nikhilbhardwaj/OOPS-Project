@@ -1,0 +1,7 @@
+Libusb binding for ruby
+	
+ruby-usb is a libusb binding library for ruby.  it provides both
+direct (non-rubyish) binding and rubyish interface, while the latter
+is work in progress.
+
+this package is built for ruby 1.9.

@@ -1,0 +1,5 @@
+Perl module for performing unit conversions
+	
+the units package is a collection of modules for parsing strings
+with unit measurements (such as "12pt" or "3 meters") and
+converting them to some other unit (such as "picas" or "inches").

@@ -1,0 +1,7 @@
+Subversion i/o slaves for kde
+	
+this package includes kio slaves for svn, svn+file, svn+http,
+svn+https, svn+ssh. this allows you to access subversion repositories
+inside any kio enabled kde application.
+
+this package is part of kdesvn.

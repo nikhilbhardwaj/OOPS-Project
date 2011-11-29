@@ -1,0 +1,7 @@
+Development files for libsndfile; a library for reading/writing audio files
+	
+libsndfile is a library of c routines for reading and writing files containing
+sampled audio data.
+
+this is the development version of libsndfile. you will need this only if you
+intend to compile programs that use this library.

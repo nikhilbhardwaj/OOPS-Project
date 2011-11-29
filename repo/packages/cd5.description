@@ -1,0 +1,7 @@
+Compute checksum of individual track on cd-roms
+	
+cd-rom digest is a program that checks a multi-track cd-rom.
+it reports the md5 digest and size for each track on a cd-rom.
+the digest is done as the track is read, without dumping cd-rom data
+on the hard drive. this tool helps users that are burning a multi-track
+cd-rom to check the result.

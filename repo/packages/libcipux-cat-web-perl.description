@@ -1,0 +1,18 @@
+User and resource management framework cipux - web-based admin tools
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+cat is cipux administration tools, interacting with the core cipux
+framework through xml-rpc.
+
+two cats are provided officially with cipux:
+
+ - cipux-cat-web: generic web-based cat
+ - cipux-cat-moodle: cipux plugin for moodle
+
+these can be extended or replaced with custom tools.
+
+this package contains cipux::cat::web - functions used by the generic
+web-based cat cipux-cat-web.

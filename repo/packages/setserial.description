@@ -1,0 +1,15 @@
+Controls configuration of serial ports
+	
+set and/or report the configuration information associated with
+a serial port. this information includes what i/o port and which irq
+a particular serial port is using.
+
+this version has a completely new approach to configuration, so if you
+have a setup other than the standard ttys0 and 1, you will have to get
+your hands dirty.
+
+by default, only com1-4 are configured by the kernel, using irq 3 and 4.
+if you have other serial ports (such as an ast fourport card), or
+if you have mapped the irqs differently (perhaps com3 and 4 to other
+irqs to allow concurrent access with com1 and 2) then you must have this
+package.

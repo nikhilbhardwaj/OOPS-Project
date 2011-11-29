@@ -1,0 +1,12 @@
+Revised(5) report on the algorithmic language scheme
+	
+the report gives a defining description of the programming language
+scheme.  scheme is a statically scoped and properly tail-recursive
+dialect of the lisp programming language invented by guy lewis
+steele jr. and gerald jay sussman.  it was designed to have an
+exceptionally clear and simple semantics and few different ways to
+form expressions.  a wide variety of programming paradigms, including
+imperative, functional, and message passing styles, find convenient
+expression in scheme.
+
+the documentation in this package is in gnu info, html, and pdf formats.

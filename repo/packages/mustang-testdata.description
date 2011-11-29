@@ -1,0 +1,9 @@
+Multiple structural alignment of proteins, test data
+	
+this package contains a larger set of test data than what
+comes with the binary package.
+
+to run the test, change to a directory where you have write access,
+then issue the command:
+
+ mustang -f /usr/share/doc/mustang-testdata/examples/test_zf-cchh

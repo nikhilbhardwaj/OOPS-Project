@@ -1,0 +1,7 @@
+Logging framework for ada (development)
+	
+alog is a logging framework for ada and aims to be straight forward to use and
+easily extendable. alog base provides file-based and syslog logging facilities
+and log-level support.
+
+this package contains the development files.

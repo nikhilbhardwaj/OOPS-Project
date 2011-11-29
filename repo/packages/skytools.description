@@ -1,0 +1,9 @@
+Database management tools from skype to postgresql
+	
+skytools are database management tools to wal shipping, queueing and
+replication. this package has python parts of skytools:
+
+
+ - londiste - postgresql replication engine written in python
+ - pgqadm - pgq tickter and administration interface
+ - walmgr - tools for managing wal-based replication for postgresql.

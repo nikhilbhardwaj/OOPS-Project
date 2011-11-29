@@ -1,0 +1,5 @@
+Gnu r package providing command-line parsing functionality
+	
+this package provides the getopt function which can be used with r's
+rscript (or littler's r) to write ``#!'' shebang scripts that accept
+short and long flags/options.

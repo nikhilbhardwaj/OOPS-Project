@@ -1,0 +1,22 @@
+Network-wide graphing framework (node)
+	
+munin is a highly flexible and powerful solution used to create graphs of
+virtually everything imaginable throughout your network, while still
+maintaining a rattling ease of installation and configuration.
+
+this package contains the daemon for the nodes being monitored.  you should
+install it on all the nodes in your network. it will know how to extract all
+sorts of data from the node it runs on, and will wait for the gatherer to
+request this data for further processing.
+
+it includes a range of plugins capable of extracting common values such as cpu
+usage, network usage, load average, and so on. creating your own plugins which
+are capable of extracting other system-specific values is very easy, and is
+often done in a matter of minutes. you can also create plugins which relay
+information from other devices in your network that can't run munin, such as a
+switch or a server running another operating system, by using snmp or similar
+technology.
+
+munin is written in perl, and relies heavily on tobi oetiker's excellent
+rrdtool. to see a real example of munin in action, you can follow a link
+from <http://munin.projects.linpro.no/> to a live installation.

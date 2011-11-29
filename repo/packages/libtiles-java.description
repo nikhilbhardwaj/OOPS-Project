@@ -1,0 +1,12 @@
+Java templating framework for web application user interfaces
+	
+apache tiles is a java templating framework built to simplify the development
+of web application user interfaces. tiles allows authors to define page
+fragments which can be assembled into a complete page at runtime.
+
+tiles grew in popularity as a component of the popular
+struts <http://struts.apache.org/1.x/> framework.
+
+it has since been extracted from struts and is now integrated with various
+frameworks, such as struts 2 <http://struts.apache.org/2.x/>
+and shale <http://shale.apache.org/>.

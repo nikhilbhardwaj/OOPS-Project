@@ -1,0 +1,11 @@
+Lightweight taskbar
+	
+tint is a simple panel/taskbar intentionally made for openbox3, but should
+also work with other window managers. the taskbar includes transparency and
+color settings for the font, icons, border, and background. it also supports
+multihead setups, customized mouse actions, and a built-in clock. tint was
+originally based on ttm code. since then, support has also been added
+for a battery monitor and system tray.
+
+the goal is to keep a clean and unintrusive look with lightweight code and
+compliance with freedesktop specification.

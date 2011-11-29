@@ -1,0 +1,7 @@
+Web browser running in both graphics and text mode
+	
+links is a graphics and text mode www browser, similar to lynx. it displays
+tables, frames, downloads on background, uses http/1.1 keepalive connections.
+in graphics mode it displays png, jpeg, gif, tiff, and xbm pictures, runs
+external bindings on other types, and features anti-aliased font, smooth
+image zooming, 48-bit dithering, and gamma and aspect ratio correction.

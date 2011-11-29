@@ -1,0 +1,11 @@
+Dns zone abstraction python module
+	
+this module helps managing the common record types of a zone file,
+including soa records.
+the main features include:
+
+ - a high-level abstraction on top of dnspython.
+ - load a zone file into objects.
+ - modify/add/delete zone/record objects.
+ - save back to zone file.
+ - auto-update serial if necessary.

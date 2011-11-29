@@ -1,0 +1,16 @@
+Fast and efficient way to manage virtual hosting
+	
+mod_vhost_hash_alias is a simple, fast and efficient way to
+automatically manage virtual hosting.
+it allow administrator to build massive virtual web servers,
+without the need to describe each virtualhost document root.
+it use the servername extract from the http request to build
+a path to the real document root. it build a digest based on
+the servername and split it according to a configurable directory
+scheme.
+as digest could collide, mod_vhost_hash_alias add the servername to
+distinguish between hash value (and allow human to do inverse lookup
+on directory path).
+
+for a given servername, it could give path like that:
+/var/lib/www/6/ae/fa93/weuh.org/htdocs

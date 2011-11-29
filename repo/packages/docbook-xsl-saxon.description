@@ -1,0 +1,8 @@
+Java extensions for use with docbook xml stylesheets (saxon)
+	
+these are java extensions for use with the docbook xml stylesheets
+and the saxon xslt engine. you need these extensions to enable e.g.
+the callouts and linenumbering extensions of the docbook-xsl suite.
+
+in the past these extensions were shipped with the docbook-xsl tarball
+distribution directly.

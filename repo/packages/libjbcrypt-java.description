@@ -1,0 +1,9 @@
+Java implementation of openbsd's blowfish hashing
+	
+jbcrypt is an implementation of blowfish block cipher with modifications
+designed to raise the cost of off-line password cracking and frustrate fast
+hardware implementation.
+
+the intent is to make a compromise of a password database less likely to
+result in an attacker gaining knowledge of the plaintext passwords (e.g. using
+john the ripper).

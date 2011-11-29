@@ -1,0 +1,20 @@
+A highway trip planner
+	
+this is a highway trip planning program, similar to programs like
+rand mcnally's "tripmaker."  it allows you to plan road trips between
+two or more locations, using various interchangeable map files (or
+databases).
+
+currently, the program includes two databases covering north america;
+one is fairly simplistic, and one is quite detailed.  you can also
+create new databases with the editor in the routeplanner-gnome package.
+
+for retrocomputing nuts, this program traces its lineage back to a
+1980s program called "roadroute" written by jim butterfield for the
+amiga.  afaik all of the code has been rewritten, but the basic-usa
+database included here is jim's original dataset.
+
+the package includes two console-based interfaces; for the gnome
+interface and the editor, you should install routeplanner-gnome as well.
+
+home page: http://sourceforge.net/projects/routeplanner/

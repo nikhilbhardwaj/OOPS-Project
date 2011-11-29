@@ -1,0 +1,9 @@
+Automate interaction with websites (ruby 1.9.1)
+	
+the www::mechanize library is used for automating interaction with websites.
+mechanize automatically stores and sends cookies, follows redirects, can
+follow links, and submit forms. form fields can be populated and submitted.
+mechanize also keeps track of the sites that you have visited as a history.
+this library is loosely based on www::mechanize for perl.
+
+this package is built for ruby 1.9.1.

@@ -1,0 +1,15 @@
+H.323 protocol support for asterisk
+	
+asterisk is an open source pbx and telephony toolkit.
+
+this channel driver (chan_h323) provides support for the h.323 protocol
+for asterisk. this is an implementation originally contributed by nufone and
+nowdays maintained and distributed by digium, inc. hence, it is considered
+the official h.323 chanel driver.
+
+this is one of many h.323 channel implementations for asterisk with others
+being chan_oh323 and chan_ooh323c, distributed by debian as asterisk-oh323 and
+asterisk-ooh323c, respectively.
+
+for more information about the asterisk pbx, have a look at the asterisk
+package.

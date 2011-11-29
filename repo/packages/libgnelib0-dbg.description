@@ -1,0 +1,11 @@
+The game networking engine
+	
+gne, or the game networking engine, is a cross-platform,
+multithreaded, c++ networking library with an api specifically
+addressing the needs of game networking.
+
+there are two parts of gne, the first being the mid-level classes
+that handle packeted, error checked, and bandwidth throttled
+communication between two peers.
+
+this package contains the debug symbols.

@@ -1,0 +1,7 @@
+Screen multiplexer for logitech g15 keyboard
+	
+g15daemon provides multiple virtual screens for the lcd on the logitech
+g11 and g15 keyboards.
+
+this package contain the daemon and a generic client to talk to the
+daemon.

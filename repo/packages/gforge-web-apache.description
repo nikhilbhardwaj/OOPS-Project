@@ -1,0 +1,10 @@
+Transition package to gforge-web-apache2
+	
+fusionforge provides many tools to aid collaboration in a
+development project, such as bug-tracking, task management,
+mailing-lists, scm repository, forums, support request helper,
+web/ftp hosting, release management, etc. all these services are
+integrated into one web site and managed through a web interface.
+
+this package exists only as a means to make transitions to apache2
+easier. you can safely uninstall it.

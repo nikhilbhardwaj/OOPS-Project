@@ -1,0 +1,6 @@
+Tool to access netgroups from the command line
+	
+includes tools to dump and look up hosts, users and domains from the
+netgroup database.  the netgroup tool is used to list all members of
+a netgroup, while the innetgr tool is used to check if a given
+user/host is listed as a member of a netgroup.

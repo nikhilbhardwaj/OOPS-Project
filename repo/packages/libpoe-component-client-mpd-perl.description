@@ -1,0 +1,7 @@
+Full-blown mpd client library
+	
+pococm gives a clear message-passing interface (sitting on top of poe) for
+talking to and controlling mpd (music player daemon) servers. a connection to
+the mpd server is established as soon as a new pococm object is created.
+
+commands are then sent to the server as messages are passed.

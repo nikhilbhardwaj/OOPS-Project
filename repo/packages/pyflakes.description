@@ -1,0 +1,8 @@
+Passive checker of python programs
+	
+pyflakes is program to analyze python programs and detect various
+errors. it works by parsing the source file, not importing it, so it
+is safe to use on modules with side effects. it's also much faster.
+
+unlike pylint, pyflakes checks only for logical errors in programs;
+it does not perform any checks on style.

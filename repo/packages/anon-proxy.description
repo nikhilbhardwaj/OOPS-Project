@@ -1,0 +1,26 @@
+Proxy to surf the web anonymously
+	
+this package contains the jap client which acts as a local proxy between
+your browser and the insecure internet. all requests for web pages are
+handled by jap and are encrypted several times. the encrypted messages
+are sent through a chain of intermediate servers (named mixes) to the
+final destination on the internet.
+
+multiple layers of encryption protect all messages. a mix collects
+messages in a batch, totally changes their appearance (removes one
+layer of encryption) and forwards them all at the same time, but
+in a different order. an adversary may observe all communication links,
+however he cannot determine a relation between incoming and outgoing
+packets. a surfer remains anonymous within the group of all users
+of the service.
+
+demonstrably, the system protects your privacy as long as the mix
+works correctly. unfortunately nobody knows whether a certain mix
+is actually trustworthy or not. therefore we use a whole chain of
+mixes. each message passes through several mixes and the entire chain
+of mixes has to be corrupt to successfully observe the user's
+activities. the chaining effectively prevents single mixes from
+observing. this is the meaning of strong anonymity: even the
+anonymity service itself cannot spy on its users.
+
+for further information see http://anon.inf.tu-dresden.de/

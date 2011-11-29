@@ -1,0 +1,21 @@
+Management of encrypted file systems
+	
+cryptmount is a utility for creating encrypted filesystems & swap partitions
+and which allows an ordinary user to mount/unmount filing systems
+without requiring superuser privileges.
+
+it offers the following features:
+
+   * easy and safe on-demand access to filesystems without su/sudo;
+   * access passwords can be changed easily without involving the sys-admin;
+   * filesystems can reside on raw disk partitions or ordinary files;
+   * multiple filesystems can be stored in a single disk partition;
+   * includes support for encrypted swap partitions;
+   * temporary filesystems can be setup via command-line,
+     for use in shell-scripts;
+   * encrypted filesystems can be initialized at boot-up or on demand;
+   * transparent configuration of dm-crypt & loopback devices during mounting;
+   * encrypted access keys can be stored on removable media
+     (e.g. usb flash disks);
+   * access keys can optionally be made compatible with openssl;
+   * supports luks encrypted filesystems created by cryptsetup.

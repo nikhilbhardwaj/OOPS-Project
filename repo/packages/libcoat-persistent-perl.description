@@ -1,0 +1,9 @@
+Simple orm inspired by ruby's activerecord
+	
+coat::persistent is an object relational mapper (orm) for databases, which
+allows you to build instances of coat objects and save them into a database
+transparently. it allows one to execute sql commands directly as well.
+
+the underlying target of this module is to port the whole activerecord::base
+api to perl. it is still a development version and should not be used in a
+production environment.

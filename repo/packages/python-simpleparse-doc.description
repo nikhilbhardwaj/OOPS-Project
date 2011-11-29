@@ -1,0 +1,8 @@
+Documentation for simpleparse, a simple parser generator for python
+	
+simpleparse is a bsd-licensed python package providing a simple parser
+generator for use with the mxtexttools text-tagging engine. simpleparse
+allows you to generate tagging tables for use with the text-tagging
+engine directly from your ebnf grammar.
+
+this package contains documentation and examples.

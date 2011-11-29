@@ -1,0 +1,11 @@
+Virtual distributed ethernet - cryptcab
+	
+vde is a virtual switch that can connect multiple virtual machines together,
+both local and remote.
+
+components of the vde architecture are vde switches (virtual counterpart of
+ethernet switches) and vde cables (virtual counterpart of a crossed-cable used
+to connect two switches).
+
+this package contains cryptcab, which can be used to send encrypted data
+over an udp link.

@@ -1,0 +1,9 @@
+A http_user_agent client sniffer for php
+	
+a php class file that allows one to quickly determine the client's browser
+and system information based on the http_user_agent string. the class can
+be used to generate browser specific html markup and other client side
+scripting.
+
+
+ homepage: http://phpsniff.sourceforge.net/

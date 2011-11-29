@@ -1,0 +1,5 @@
+Open sound system - dkms module sources
+	
+this package contains the source for the oss4 kernel modules,
+packaged with approriate configuration for dkms to build new
+modules dynamically.

@@ -1,0 +1,9 @@
+Gruesomely over-featured inetd replacement
+	
+rlinetd is designed to replace the bsd inetd. feature-wise, it is a
+proper superset of the bsd inetd, including rpc support and both udp
+and tcp services. in addition, it supports a number of resource
+limiting features, including full resource limits a la setrlimit(2),
+renicing, chroot and limited per-service instances. to round out the
+features stolen from xinetd, it also supports binding to individual
+interfaces on request, and configurable logging.

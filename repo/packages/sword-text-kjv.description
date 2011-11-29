@@ -1,0 +1,15 @@
+King james version with strongs numbers for sword
+	
+this is the king james version of the holy bible (also known as the
+authorized version) with embedded strong's numbers. the rights to the
+base text are held by the crown of england. the strong's numbers in the
+ot were obtained from the bible foundation: http://www.bf.org. the nt
+strong's data was obtained from the kjv2003 project at crosswire:
+http://www.crosswire.org. these mechanisms provide a useful means for
+looking up the exact original language word in a lexicon that is keyed
+to strong's numbers.
+
+this package requires a libsword version of at least 1.5.6 to access
+through a sword front end.  however, this is not declared as a dependency
+because you may have occasion to install just the text without any sort
+of front end or other interface.

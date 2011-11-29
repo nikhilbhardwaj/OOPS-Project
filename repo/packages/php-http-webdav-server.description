@@ -1,0 +1,7 @@
+Webdav server base class
+	
+rfc2518 compliant helper class for webdav server implementation.
+web-based distributed authoring and versioning, or webdav, is a set of
+extensions to the hypertext transfer protocol (http) that allows
+computer-users to edit and manage files collaboratively on remote world wide
+web servers. rfc 4918 defines the extensions.

@@ -1,0 +1,6 @@
+Development symbols for the v8 javascript engine
+	
+v8 is google's open source, high performance javascript engine. it is written
+in c++ and is used in google chrome, google's open source browser.
+
+this package provides the debugging symbols for the library.

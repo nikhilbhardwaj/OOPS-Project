@@ -1,0 +1,6 @@
+Common lisp interface to the apache mod-lisp module
+	
+cl-modlisp provides a common lisp interface to the mod_lisp apache module.
+the mod_lisp is a low-level apache interface. this package provides a
+higher level layer on top of mod_lisp.
+the package has support for cmucl, sbcl, clisp, allegrocl, and lispworks.

@@ -1,0 +1,10 @@
+A web map tile caching system
+	
+tilecache is an implementation of a wms-c compliant server made available by
+metacarta. tilecache provides a python-based wms/tms server, with pluggable
+caching mechanisms and rendering backends. in the simplest use case, tilecache
+requires only write access to a disk, the ability to run python cgi scripts,
+and a wms you want to be cached. with these resources, you can create your own
+local disk-based cache of any wms server, and use the result in any wms-c
+supporting client, like openlayers, or any tms supporting client, like
+openlayers and worldkit.

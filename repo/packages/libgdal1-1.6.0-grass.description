@@ -1,0 +1,6 @@
+Grass extension for the gdal library
+	
+gdal is a translator library for raster geospatial data formats.
+as a library, it presents a single abstract data model to the
+calling application for all supported formats. this extension
+provides access to grass data via gdal.

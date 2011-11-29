@@ -1,0 +1,7 @@
+Development files for libavutil
+	
+this is the common utility library from the ffmpeg project. it is required
+by all other ffmpeg libraries.
+
+this package contains the header files and static libraries needed to
+compile applications or shared objects that use libavutil.

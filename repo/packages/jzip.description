@@ -1,0 +1,11 @@
+Text mode interpreter for z-code adventures
+	
+this package provides the jzip z-code interpreter required to run
+infocom or inform-generated text adventures, although the format can
+be used for more than games. it is based on the zip interpreter sources
+and adapted by john d. holder <jholder@frii.com>.
+
+the ckifzs program, for checking the basic structure of save files
+against the quetzal standard, is also included, as is the jzexe
+program to create a standalone executable by gluing a z-code file to
+jzip.

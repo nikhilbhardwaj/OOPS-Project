@@ -1,0 +1,7 @@
+Mocking framework for java
+	
+mockito is a mocking library which lets you write tests with a
+clean and simple api.
+
+it generates mocks using reflection, it records all mock invocations,
+including methods arguments.

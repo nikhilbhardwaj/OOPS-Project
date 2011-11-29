@@ -1,0 +1,11 @@
+Query spf (sender policy framework) to validate mail senders
+	
+the sender policy framework (spf) is one part of the spf/srs protocol
+pair. spf allows email systems such as sendmail, postfix, exim,
+zmailer and ms exchange to check spf records and make sure that the
+email is authorized by the domain name that it is coming from. this
+prevents email forgery, commonly used by spammers, scammers and email
+viruses/worms.
+
+this package contains simple utilities that use libspf2 to test and
+query spf records.

@@ -1,0 +1,11 @@
+Power management tool for the gnome desktop
+	
+gnome power manager is a session daemon for the gnome desktop
+that takes care of system or desktop events related to power, and
+triggers actions accordingly. its philosophy is to completely hide
+these complex tasks and only show some settings important to the user.
+
+the gnome power manager displays and manages battery status, power plug
+events, display brightness, cpu, graphics card and hard disk drive
+power saving, and can trigger suspend-to-ram, hibernate or shutdown
+events, all integrated to other components of the gnome desktop.

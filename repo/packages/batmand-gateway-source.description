@@ -1,0 +1,10 @@
+Source for the batmand-gateway kernel module
+	
+this package provides the source code for the batmand-gateway-source kernel
+modules. it is used to reduce the load of a batmand gateway by moving all
+tunnel related operations from userspace to kernelland and thus minimize memory
+operations between them. batmand doesn't require the gateway to be loaded to
+provide gateway functionality. kernel source or headers are required to compile
+these modules.
+
+this package is part of batmand. see batmand package for more information.

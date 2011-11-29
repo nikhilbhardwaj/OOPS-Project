@@ -1,0 +1,7 @@
+Fast and lite data cache system
+	
+a lite cache system optimized for high traffic websites that caches
+data on disk and/or in memory. cached data is accessed through a
+user-defined cache id (key). can ensure various levels of safety in
+the face of concurrency, even when the cache is backed by a
+distributed file system.

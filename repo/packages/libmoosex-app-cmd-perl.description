@@ -1,0 +1,4 @@
+Perl module combining app::cmd and moosex::getopt
+	
+moosex::app::cmd allows to write moose commands as moose classes, with
+moosex::getopt defining the options.

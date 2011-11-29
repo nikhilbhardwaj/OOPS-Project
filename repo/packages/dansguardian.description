@@ -1,0 +1,16 @@
+Web content filtering
+	
+dansguardian filters the content of pages based on many methods
+including phrase matching, pics filtering and url filtering. it does
+not purely filter based on a banned list of sites.
+
+it provides real-time virus scanning capabilities for content access.
+
+dansguardian is designed to be completely flexible and allows you to tailor
+the filtering to your exact needs. it can be as draconian or as
+unobstructive as you want. the default settings are geared towards what a
+primary school might want but dansguardian puts you in control of what you
+want to block.
+
+dansguardian requires squid or another similar caching proxy server
+on your local network.

@@ -1,0 +1,15 @@
+Re-usable components for django projects
+	
+djblets is a library of helper code for django web applications extracted
+from the development of review board. it offers additional functionality to
+django projects including:
+
+
+ * authentication improvements, making it easy to register and login in one
+   step, seamlessly, handle password recovery, etc.
+ * flexible datagrids for displaying data in a paginated list with
+   user-specific column customization, ordering and sorting.
+ * decorators to simplify creation of simple and block template tags.
+ * processors to allow more relocatable applications.
+ * dynamic site configuration, allowing an application's configuration to
+   reside in a database.

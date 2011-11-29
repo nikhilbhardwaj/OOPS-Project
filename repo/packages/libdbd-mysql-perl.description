@@ -1,0 +1,4 @@
+Perl5 database interface to the mysql database
+	
+dbd::mysql implements the standard perl5 dbi interface
+to give you access to mysql databases.

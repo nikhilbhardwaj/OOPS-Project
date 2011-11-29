@@ -1,0 +1,7 @@
+Pam module to skip password authentication for logged users
+	
+libpam-alreadloggedin is a pam module which allows a user to skip
+authentication if he is already logged in on an another console.
+
+note that this module trades a bit of security for users' convenience and
+thus should be used cautiously.

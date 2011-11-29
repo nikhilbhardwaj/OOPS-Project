@@ -1,0 +1,6 @@
+Exposes tcl 8.4's virtual filesystem c api to the tcl script level
+	
+the tclvfs project aims to provide an extension to the tcl language
+which allows virtual filesystems to be built using tcl scripts
+only. it is also a repository of such tcl-implemented filesystems
+(metakit, zip, ftp, tar, http, webdav, namespace, url)

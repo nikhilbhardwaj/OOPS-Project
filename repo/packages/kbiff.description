@@ -1,0 +1,7 @@
+Kde mail notification utility
+	
+kbiff is a "xbiff"-like mail notification utility. it has  multiple pixmaps,
+session management, and gui configuration.  it can "dock" into the kde panel.
+it can display animated gifs, play system sounds, or run arbitrary shell
+command when new mail arrives. it supports mbox, maildir, mh, pop3, imap4, and
+nntp mailboxes.

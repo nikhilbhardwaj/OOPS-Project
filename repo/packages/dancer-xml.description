@@ -1,0 +1,7 @@
+Non-conformant docbook-xml to html/latex conversion
+	
+a minimal parser for xml file format. this library does not
+try to conform to standards, but tries to be a standalone minimal
+implementation of xml parser.
+
+provides commands for translating docbook-xml to html and latex.

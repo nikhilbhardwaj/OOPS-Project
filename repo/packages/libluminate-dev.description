@@ -1,0 +1,9 @@
+Illuminator distributed visualization library: development files
+	
+this little library provides contour surface viewing for petsc's 3-d
+distributed array (da) objects using the geomview viewer, and distributed
+storage and retrieval of petsc das of any dimensionality in the illumulti
+(optionally compressed) binary format.
+
+this package contains the static libs and header files necessary for
+development with illuminator.

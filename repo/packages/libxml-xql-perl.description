@@ -1,0 +1,17 @@
+Perl module for querying xml tree structures with xql
+	
+the xml::xql module implements the xql (xml query language) proposal
+submitted to the xsl working group in september 1998.  the spec can
+be found at: http://www.w3.org/tands/ql/ql98/pp/xql.html.  most of
+the contents related to the xql syntax can also be found in the
+xml::xql::tutorial that comes with this distribution.  note that xql
+is not the same as xml-ql!
+
+the current implementation only works with the xml::dom module, but
+once the design is stable and the major bugs are flushed out, other
+extensions might follow, e.g. for xml::grove.
+
+xql was designed to be extensible and this implementation tries to
+stick to that.  users can add their own functions, methods,
+comparison operators and data types.  plugging in a new xml tree
+structure (like xml::grove) should be a piece of cake.

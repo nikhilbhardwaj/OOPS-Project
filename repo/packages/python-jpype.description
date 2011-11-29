@@ -1,0 +1,10 @@
+Binding the worlds of java and python
+	
+jpype is an effort to allow python programs full access to java class
+libraries. this is achieved not through re-implementing python, as
+jython/jpython has done, but rather through interfacing at the native
+level in both virtual machines.
+
+eventually, it should be possible to replace java with python in many,
+though not all, situations. jsp, servlets, rmi servers and ide plugins
+are good candidates.

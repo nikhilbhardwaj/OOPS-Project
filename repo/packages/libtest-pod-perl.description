@@ -1,0 +1,7 @@
+Module to test for pod errors
+	
+test::pod is a simple test for perl's plain old documentation (pod) format. it
+checks your distribution's module, script and documentation files for issues
+with the documentation syntax. in the cpan community, it is considered a best
+practice to use this module as an author test prior to releasing your packages
+because it prevents issues with various applications that use the pod.

@@ -1,0 +1,11 @@
+Feed aggregator (rss/atom) which puts items on a imap mail server
+	
+feed2imap is an rss/atom feed aggregator. after downloading
+feeds (over http or https), it uploads them to a specified
+folder of an imap mail server. the user can then access the
+feeds using a mail reader like mutt, evolution, mozilla
+thunderbird or even a webmail.
+
+the main advantage over rss2email is that feed2imap uploads
+emails itself to a specified folder. you don't have to play
+with procmail or your mua's filtering rules to classify mails.

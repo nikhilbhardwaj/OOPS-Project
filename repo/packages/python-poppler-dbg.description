@@ -1,0 +1,8 @@
+Poppler python bindings (debug extension)
+	
+this package includes python bindings for libpoppler.
+it is needed to run programs written in python and using poppler set.
+libpoppler is a pdf rendering library based on xpdf pdf viewer, and used by
+kpdf and evince pdf viewers.
+
+this package contains the extension built for the python debug interpreter.

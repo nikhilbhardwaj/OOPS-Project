@@ -1,0 +1,4 @@
+PackageId:5289
+Name:gforge-lists-mailman
+Version:5.0.2-5
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,debconf,debconf-2.0,cdebconf,cdebconf-udeb,debianutils,gforge-common,gforge-db-postgresql,gforge-db,gforge-mta-exim4,gforge-mta,gforge-mta-courier,gforge-mta-postfix,libdbd-pg-perl,libdbi-perl,mailman,perl,ucf

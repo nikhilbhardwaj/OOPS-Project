@@ -1,0 +1,6 @@
+Converts flat ascii text to man page format
+	
+it is a shell script using gnu awk, that should run
+on any unix-like system. the syntax of the ascii text
+is very straightforward and looks very much like the
+output of the man(1) program.

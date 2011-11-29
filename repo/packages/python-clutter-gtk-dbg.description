@@ -1,0 +1,7 @@
+Python bindings for clutter-gtk - debugging symbols
+	
+clutter-gtk is a library which allows the embedding of a clutter canvas
+(or "stage") into a gtk+ application. pyclutter-gtk provides python
+bindings for the clutter-gtk library.
+
+this package contains the debug symbols for the python bindings.

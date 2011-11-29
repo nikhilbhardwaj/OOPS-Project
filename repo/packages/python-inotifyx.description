@@ -1,0 +1,18 @@
+Simple python binding to the linux inotify
+	
+inotifyx is a python extension providing access to the linux
+inotify file system event notification api. it is primarily
+written in c but has some python window dressing
+
+inotifyx exists as an alternative to the much known pyinotify bindings
+
+reasons you might choose inotifyx over pyinotify
+
+ * inotifyx is a c extension and does not use ctypes, making it
+   faster and less prone to subtle breakage due to changes in the inotify api
+ * inotifyx is a much thinner wrapper around inotify. pyinotify is more
+   complicated. it does provide features that inotifyx does not, but many of
+   them are not needed by most applications
+ * the api provided by pyinotify seems to change in incompatible ways on a
+   fairly regular basis and with little justification. inotifyx has a simple
+   api that will change rarely, if ever.

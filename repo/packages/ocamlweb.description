@@ -1,0 +1,9 @@
+Literate programming tool for objective caml
+	
+literate programming, as defined by knuth, means to combine program
+code and documentation into one source document from which program
+code and documentation can be extracted. the approach of ocamlweb is
+that documentation is to be included in the program code as special
+comments. the ocamlweb tool extracts from this the documented program
+code as latex document, while no special preprocessing is required to
+compile the source files.

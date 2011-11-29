@@ -1,0 +1,9 @@
+Openhpi plugin module for direct ipmi over lan (rmcp) or smi
+	
+openhpi is an implementation of the service availability forum's hardware
+platform interface specification.  (see http://www.saforum.org)  as
+such, openhpi facilitates the development of computer manageability
+applications which are not tied to a single hardware vendor's products.
+
+this package contains a plugin module that accesses hardware information
+with direct ipmi commands over a lan (rmcp) or through the local smi.

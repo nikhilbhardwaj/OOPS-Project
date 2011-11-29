@@ -1,0 +1,8 @@
+Perl module for creating generic methods
+	
+class::methodmaker is a simple module which solves the problem of having to
+continually write accessor and mutator methods for your objects that perform
+standard tasks. instead of thinking in terms of methods, you install one or
+more components into a class and methods are automatically created for you.
+a component is intended as a cohesive unit of data that should only be changed
+using the provided methods.

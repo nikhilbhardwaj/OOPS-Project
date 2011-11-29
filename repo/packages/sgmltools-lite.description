@@ -1,0 +1,29 @@
+Convert docbook sgml source into html using dsssl
+	
+a text-formatting package based on sgml (standard generalized markup
+language), which allows you to produce tex/dvi/ps/pdf, html, rtf, and
+plain ascii (currently via w3m by default) from a single source with
+other recommended and suggested packages; due to the flexible nature
+of sgml, many other target formats are possible.
+
+this tool can not handle docbook xml yet.  for docbook sgml only.
+
+html can be generated without any other debian text processing package,
+but for the other formats the appropriate packages have to be installed.
+you need to install lynx or w3m for ascii text output (w3m is the default
+txt backend).  also jadetex is required for ps and pdf, and
+linuxdoc-tools for ld2db conversion.
+
+this system is tailored for writing technical software documentation,
+an example of which are the linux howto documents.  however, there is
+nothing linux-specific about this package; it can be used for many
+other types of documentation on many other systems.  it should be
+useful for all kinds of printed and online documentation.
+
+the package was formerly called linuxdoc-sgml because it originates
+from the linux documentation project (ldp).  the name has been changed
+into sgmltools to make it clearer that there is no linux-specific
+stuff included in this package.
+
+this is the latest version of the sgmltools series and the successor of
+sgmltools v2.

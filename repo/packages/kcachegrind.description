@@ -1,0 +1,11 @@
+Visualisation tool for the valgrind profiler
+	
+kcachegrind is a visualisation tool for the profiling data generated
+by calltree, a memory profiling tool for valgrind.  any executable can be
+profiled using calltree without being recompiled, including multi-threaded
+applications, shared libraries, and plugins.
+
+for visualising the output from profiling tools other than valgrind, several
+converters can be found in the kcachegrind-converters package.
+
+this package is part of the kde software development kit module.

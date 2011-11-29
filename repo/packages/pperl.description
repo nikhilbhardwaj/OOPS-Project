@@ -1,0 +1,6 @@
+Make perl scripts persistent in memory
+	
+this program turns ordinary perl scripts into long running daemons,
+making subsequent executions extremely fast.  it forks several
+processes for each script, allowing many processes to call the script
+at once.

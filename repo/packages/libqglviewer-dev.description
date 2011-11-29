@@ -1,0 +1,7 @@
+Dummy package to install libqglviewer-qt3-dev
+	
+the qglviewer is available in two flavours: linked with qt3 and qt4. this
+package is intended for allowing smooth transition to libqglviewer-qt3-dev.
+
+you can remove this package when your software is buildable with
+libqglviewer-qt3-dev.

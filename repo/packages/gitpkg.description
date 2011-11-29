@@ -1,0 +1,21 @@
+Tools for maintaining debian packages with git
+	
+this package provides tools and automation to assist with maintaining debian
+packages in git.
+
+
+ gitpkg        - creates a source package from specified repository versions.
+ git-debimport - creates a git repository from a set of existing packages.
+
+
+no particular repository layout is required for gitpkg to export source from
+it, existing repositories should require no modification.  if there is a valid
+debian source tree in there then gitpkg can export a package from any revision
+of it for you.  in the grand old manner these tools are intended to simplify
+specific parts of your existing packaging process and integrate smoothly with
+it, not to replace that with its own singular constraints on how you may work.
+since not every packaging style suits every package, gitpkg aims to be able to
+work equally well with all of them by sticking to just its part of the job and
+staying out of your way entirely until that job needs to be done.  hook points
+are provided for performing additional package and user specific operations as
+you may desire or require at export time.

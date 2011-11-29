@@ -1,0 +1,8 @@
+Perl extension for cyrus sasl library
+	
+this module provides an perl interface to the cyrus implementation of
+sasl.  it works with the existing authen::sasl implementation, has been
+tested with net::ldap, and provides the gssapi authentication layer.
+
+this version of the authen::sasl::cyrus includes an interface to the
+server-side functionality of the sasl library.

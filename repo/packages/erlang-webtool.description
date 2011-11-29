@@ -1,0 +1,4 @@
+Erlang/otp helper for web-based tools
+	
+webtool provides an easy way to use web-based tools with erlang/otp.
+it configures and starts a web server as well as all available tools.

@@ -1,0 +1,5 @@
+Documentation for the bindings provided by libpam-python
+	
+the libpam-python pam module runs the python interpreter, thus allowing
+pam modules to be written in python.  this package documents the bindings
+provided by libpam-python.

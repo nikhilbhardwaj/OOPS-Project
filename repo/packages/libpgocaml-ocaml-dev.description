@@ -1,0 +1,11 @@
+Ocaml type-safe bindings for postgresql
+	
+pg'ocaml provides an interface to postgresql databases for ocaml applications.
+it uses camlp4 to extend the ocaml syntax, enabling one to directly embed sql
+statements inside the ocaml code. moreover, it uses the describe feature of
+postgresql to obtain type information about the database. this allows pg'ocaml
+to check at compile-time if the program is indeed consistent with the database
+structure. this type-safe database access is the primary advantage that
+pg'ocaml has over other postgresql bindings for ocaml.
+
+this package contains development files for pg'ocaml.

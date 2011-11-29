@@ -1,0 +1,5 @@
+Python module for manipulating tags in music files
+	
+binds python to scott wheeler's taglib. makes it easy to read id3 tags
+from mp3 files, xiph comments from ogg vorbis and flac files, and ape
+tags from musepack files.

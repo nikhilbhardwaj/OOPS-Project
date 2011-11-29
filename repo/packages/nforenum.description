@@ -1,0 +1,11 @@
+A format correcter and linter for the nfo programming language
+	
+the nfo programming language is used in the graphic file format from the
+transport tycoon deluxe, ttdpatch and openttd games.
+
+it takes as input any number of files that contain something that vaguely
+resembles valid nfo, and produces, to the best of its ability, encodable nfo
+files, one for each input file.
+
+it also detects and warns about some common mistakes made in nfo coding. a
+pretty-printer is also included.

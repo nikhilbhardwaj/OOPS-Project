@@ -1,0 +1,30 @@
+Anti-virus utility for unix - command-line interface
+	
+clam antivirus is an anti-virus toolkit for unix. the main purpose of
+this software is the integration with mail servers (attachment
+scanning). the package provides a flexible and scalable
+multi-threaded daemon in the clamav-daemon package, a command-line
+scanner in the clamav package, and a tool for automatic updating via
+the internet in the clamav-freshclam package. the programs are based
+on libclamav6, which can be used by other software.
+
+this package contains the command line interface. features:
+
+ - built-in support for various archive formats, including zip, tar,
+   gzip, bzip2, ole2, cabinet, chm, binhex, sis and others;
+ - built-in support for almost all mail file formats;
+ - built-in support for elf executables and portable executable files
+   compressed with upx, fsg, petite, nspack, wwpack32, mew, upack and
+   obfuscated with sue, y0da cryptor and others;
+ - built-in support for popular document formats including microsoft
+   office and mac office files, html, rtf and pdf.
+
+
+for scanning to work, a virus database is needed. there are two options
+for getting it:
+
+ - clamav-freshclam: updates the database from internet. this is
+   recommended with internet access.
+ - clamav-data: for users without internet access. the package is
+   not updated once installed. the clamav-getfiles package allows
+   creating custom packages from an internet-connected computer.

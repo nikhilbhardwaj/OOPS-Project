@@ -1,0 +1,10 @@
+Snmp (simple network management protocol) mibs and documentation
+	
+the simple network management protocol (snmp) provides a framework
+for the exchange of management information between agents (servers)
+and clients.
+
+this package includes documentation and mibs (management information
+bases) for the snmp libraries, agents and applications. mibs contain
+a formal description of the data that can be managed using snmp.
+and applications.

@@ -1,0 +1,7 @@
+Gui for digital multimeter
+	
+a digital multimeter (dmm) attached to the serial port
+is presented under a qt surface. the tool plots values
+over time, has a simple scheduler for delayed starts
+and logging after a threshold was reached. it supports
+spawning external applications, too.

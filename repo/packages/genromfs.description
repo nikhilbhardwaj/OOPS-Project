@@ -1,0 +1,7 @@
+This is the mkfs equivalent for romfs filesystem
+	
+you need it to build a romfs filesystem.  romfs is a small,
+read-only filesystem intended for installation/rescue
+disks or "embedded" applications.
+
+this filesystem is supported by linux 2.1.25 and later.

@@ -1,0 +1,7 @@
+Haskell interface for versioning file stores - common files
+	
+the filestore library provides an abstract interface for a versioning
+file store, and modules that instantiate this interface. currently git,
+darcs, and mercurial modules are provided.
+
+this package data files used by filestore and its dependencies.

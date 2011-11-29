@@ -1,0 +1,5 @@
+Test cgi::application apps using www::mechanize
+	
+this package makes testing cgiapp based modules fast and easy.  it takes
+advantage of test::www::mechanize to provide functions for common web testing
+scenarios.

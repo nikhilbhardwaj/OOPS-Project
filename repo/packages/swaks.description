@@ -1,0 +1,10 @@
+Smtp command-line test tool
+	
+swaks (swiss army knife smtp) is a command-line tool written in perl
+for testing smtp setups; it supports starttls and smtp auth (plain,
+login, cram-md5, spa, and digest-md5). swaks allows to stop the smtp
+dialog at any stage, e.g to check rcpt to: without actually sending a
+mail.
+
+if you are spending too much time iterating "telnet foo.example 25"
+swaks is for you.

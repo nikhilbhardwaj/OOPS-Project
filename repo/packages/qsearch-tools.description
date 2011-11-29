@@ -1,0 +1,6 @@
+Qsearch machine-learning command-line utilities
+	
+the tools in this package allow the user to read text, nexus, or
+complearn-binary format files and search for trees that match.  the
+best tree is determined using a quartet tree scoring system in the
+surprisingly simple maketree command.

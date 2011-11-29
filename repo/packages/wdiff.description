@@ -1,0 +1,8 @@
+Compares two files word by word
+	
+`wdiff' is a front-end to gnu `diff'.  it compares two files, finding
+which words have been deleted or added to the first in order to create
+the second.  it has many output formats and interacts well with
+terminals and pagers (notably with `less').  `wdiff' is particularly
+useful when two texts differ only by a few words and paragraphs have
+been refilled.

@@ -1,0 +1,7 @@
+Tool for buffering data streams
+	
+the mbuffer tool is used to buffer data streams and show the i/o rate and
+summary to the user.  it is especially useful for writing backups to
+fast tape drives or streaming them over the network.  if used correctly,
+it can prevent buffer underruns and speed up the whole backup or
+transfer process.

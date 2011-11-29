@@ -1,0 +1,10 @@
+Api documentation for xbean
+	
+the goal of xbean project is to created a plugin based server analogous to
+eclipse being a plugin based ide. xbean will be able to discover, download and
+install server plugins from an internet based repository. in addition, we
+include support for multiple ioc systems, support for running with no ioc
+system, jmx without jmx code, lifecycle and class loader management, and a rock
+solid spring integration.
+
+this package contains the api documentation for libxbean-java

@@ -1,0 +1,11 @@
+Yubikey validation server
+	
+yubikeys are usb tokens that act like keyboards and generate one-time
+passwords.  the tokens are produced and sold by yubico
+
+this is a server that checks the validity of those otp tokens.  there
+are servers written in java and php, while this one is written in c
+
+it implements the server side of the api as described on
+http://www.yubico.com/developers/api/ and can be used with any client
+that implements the same api.

@@ -1,0 +1,5 @@
+Job scheduler for postgresql
+	
+introduced in pgadmin iii v1.4, pgagent is a job scheduling agent for
+postgresql, capable of running multi-step batch/shell and sql tasks on
+complex schedules.

@@ -1,0 +1,8 @@
+Linux traffic control language interpreter
+	
+using /sbin/tc (to configure linux network traffic flow control) is
+painful. this package attempts to reduce the pain with two new input
+languages (one for humans, and xml ;-). the output is xml, or /sbin/tc
+commands to configure the kernel.
+
+the "tcsim" traffic simulator is not included in debian.

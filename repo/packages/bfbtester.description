@@ -1,0 +1,9 @@
+Brute force binary tester
+	
+bfbtester is great for doing quick, proactive, security checks of
+binary programs. bfbtester will perform checks of single and multiple
+argument command line overflows as well as environment variable
+overflows. bfbtester can also watch for tempfile creation activity to
+alert the user of any programs using unsafe tempfile names. while
+bfbtester can not test all overflows in software, it is useful for
+detecting initial mistakes that can red flag dangerous software.

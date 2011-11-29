@@ -1,0 +1,5 @@
+Automatic install of dependencies via cpan
+	
+extutils::autoinstall lets module writers to specify a more
+sophisticated form of dependency information than the prereq_pm
+option offered by extutils::makemaker.

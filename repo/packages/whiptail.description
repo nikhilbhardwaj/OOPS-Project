@@ -1,0 +1,6 @@
+Displays user-friendly dialog boxes from shell scripts
+	
+whiptail is a "dialog" replacement using newt instead of ncurses. it
+provides a method of displaying several different types of dialog boxes
+from shell scripts. this allows a developer of a script to interact with
+the user in a much friendlier manner.

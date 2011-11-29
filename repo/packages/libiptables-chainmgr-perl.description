@@ -1,0 +1,10 @@
+Perl extension for manipulating iptables policies
+	
+the "iptables::chainmgr" package provides an interface to manipulate iptables
+policies on linux systems through the direct execution of iptables commands.
+
+then, it is easy to execute iptables commands directly in order to both parse
+and change the configuration of the policy. further, this simplifies
+installation since the only external requirement is (in the spirit of
+scripting) to be able to point iptables::chainmgr at an installed iptables
+binary instead of having to compile against a library.

@@ -1,0 +1,10 @@
+Jack audio plugins for vlc
+	
+these plugins add support for jack to the vlc media player. to
+activate the audio output module, use the `--aout jack' flag or
+select the `jack' audio output plugin from the preferences menu.
+for the jack input, use `vlc jack://channels=...:ports=...'
+
+vlc is the videolan project's media player. it plays mpeg, mpeg2, mpeg4,
+divx, mov, wmv, quicktime, mp3, ogg/vorbis files, dvds, vcds, and multimedia
+streams from various network sources.

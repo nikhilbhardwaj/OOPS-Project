@@ -1,0 +1,18 @@
+The data display debugger, a graphical debugger frontend
+	
+the data display debugger (ddd) is a popular graphical user interface to
+unix debuggers such as gdb, dbx, xdb, jdb and others. besides typical
+front-end features such as viewing source texts and breakpoints, ddd
+provides an interactive graphical data display, where data structures are
+displayed as graphs. using ddd, you can reason about your application by
+watching its data, not just by viewing it execute lines of source code.
+
+other ddd features include: debugging of programs written in ada, bash, c,
+c++, chill, fortran, java, modula, pascal, perl and python; machine-level
+debugging; hypertext source navigation and lookup; breakpoint, backtrace,
+and history editors; preferences and settings editors; program execution
+in terminal emulator window; debugging on remote host; on-line manual;
+interactive help on the motif user interface; gdb/dbx/xdb command-line
+interface with full editing, history, and completion capabilities.
+
+this version is linked against lesstif, an lgpl-ed implementation of motif.

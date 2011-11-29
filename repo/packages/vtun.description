@@ -1,0 +1,19 @@
+Virtual tunnel over tcp/ip networks
+	
+vtun is the easiest way to create virtual tunnels over tcp/ip networks
+with traffic shaping and compression.
+
+it supports ip, ppp, slip, ethernet and other tunnel types.
+
+vtun is easily and highly configurable, it can be used for various
+network tasks.
+
+vtun requires the universal tun/tap kernel module which can be found at
+http://vtun.sourceforge.net/tun/index.html or in the 2.4 and newer linux
+kernels.
+
+note: this program includes an "encryption" feature intended to protect the
+tunneled data as it travels across the network. however, the protocol it uses
+is known to be very insecure, and you should not rely on it to deter anyone
+but a casual eavesdropper. see the included readme.encryption file for more
+information.

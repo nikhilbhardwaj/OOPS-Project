@@ -1,0 +1,6 @@
+Http request and response parser
+	
+http::parser is a perl module that can take chunks of text as received and
+return a constructed http::request object once a complete request has been
+read. it also supports chunked encoding per http/1.1. it throws an exception
+upon error.

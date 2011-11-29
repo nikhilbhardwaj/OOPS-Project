@@ -1,0 +1,14 @@
+Flexible smtp daemon for network-level spam detection
+	
+this is a replacement smtp daemon which installs alongside a mail delivery
+and transport system such as exim, postfix or qmail, or used as an smtp
+proxy for a remote/dmz mta.
+
+the qpsmtpd damon emphasizes spam detection during the smtp transaction,
+attempting to reach spam/nonspam decisions prior to accepting each message,
+thereby eliminating much bounce/forgery blowback.  it exploits its visbility
+into the network transaction to detect certain behaviors often exhibited by
+spam sending agents.
+
+qpsmtpd is written in perl, with an extensive plugin api making it easy to
+add new features or replace functional components.

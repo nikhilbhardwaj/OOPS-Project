@@ -1,0 +1,16 @@
+Picture-embedded contents manipulation tool
+	
+pecomato is a metadata processor designed to display any kind
+of information embedded in picture files, as well as checking,
+filtering, extracting, removing, adding and fixing such
+information.
+
+it supports the following file formats: jpeg/jfif, adobe psd,
+ffo and raw iptc. and it knows about the following metadata
+formats: jfif, iptc, exif, adobe and fotostation.
+
+one of its main goals is to check the validity of parsed
+metadata as well as optionally check the strict compliance
+to official standards. on another hand, it aims to provide
+ways of fixing broken or not compliant chunks as well as
+providing general basic functions to manipulate the metadata.

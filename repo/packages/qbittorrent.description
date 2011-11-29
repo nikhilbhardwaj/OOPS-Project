@@ -1,0 +1,21 @@
+Bittorrent client based on libtorrent-rasterbar with a qt4 gui
+	
+bittorrent client written in c++ and based on libtorrent-rasterbar with a qt4
+user interface. qbittorrent is a feature rich but lightweight client that is
+very similar to utorrent. its main features are:
+
+
+ * polished utorrent-like user interface
+ * well integrated and extensible search engine
+ * remote control through a web user interface
+ * vuze-compatible protocol encryption
+ * utorrent-compatible peer exchange (pex)
+ * dht (trackerless) support
+ * upnp / nat-pmp port forwarding
+ * ipv6 compliant
+ * rss support with advanced download filters
+ * advanced control over torrent content and trackers
+ * ip filtering (emule / peer guardian filters)
+ * torrents queueing and prioritizing
+ * good localization (~25 languages supported)
+ * unicode support

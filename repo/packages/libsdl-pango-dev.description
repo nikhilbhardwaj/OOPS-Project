@@ -1,0 +1,9 @@
+Text rendering with pango in sdl applications (development)
+	
+sdl_pango is a simple directmedia layer extension for rendering text
+with the pango library. its use cases are similar to those of sdl_ttf,
+but it benefits from the superior pango font selection engine for
+improved rendering of internationalized text.
+
+this package contains the static library and development headers needed
+to build applications using sdl_pango.

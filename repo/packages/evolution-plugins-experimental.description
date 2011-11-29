@@ -1,0 +1,20 @@
+Experimental plugins for evolution
+	
+evolution is a groupware suite which integrates mail, calendar,
+address book, to-do list and memo tools.
+
+this package includes plugins for evolution. the plugins belong
+to the set of "experimental" plugins, which are unsupported, have
+undergone little testing, and might cause problems to the rest of
+evolution. use with care.
+
+the following plugins are included.
+
+ - folder-unsubscribe
+ - mail-to-meeting
+ - save-attachments
+ - external-editor
+ - ipod-sync
+ - tnef-attachments
+ - email-custom-headers
+ - evolution-webdav

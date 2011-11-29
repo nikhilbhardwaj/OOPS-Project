@@ -1,0 +1,12 @@
+High-level 3d graphics kit implementing the open inventor api
+	
+coin is an opengl-based, retain-mode 3d graphics library that
+implements the open inventor 2.1 api. it also includes support for
+vrml97 and 3d audio.  installing the suggested packages will enable
+extra features:
+
+
+    libsimage-dev enables loading of image files in sbimage
+    libfreetype6 enables use of truetype fonts
+    libopenal0a   enables audio support
+    zlib1g and libbz2 enable transparent read of compressed files

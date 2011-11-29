@@ -1,0 +1,13 @@
+Perl module to create pdf files
+	
+pdf::create allows you to create documents in the portable document format
+(pdf) using a large number of primitives, and emit the result as a pdf file
+or stream.
+
+documents can have several pages, a table of content, an information section
+and many other pdf elements. since documents are constructed on-the-fly, the
+memory footprint is not tied to the size of the pages; only the number of
+pages.
+
+it is intended to be simple and highly portable, as it is written purely in
+perl. for more complex tasks, see libpdf-api2-perl.

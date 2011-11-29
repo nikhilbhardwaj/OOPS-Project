@@ -1,0 +1,23 @@
+Openh323 gatekeeper - the gnu gatekeeper
+	
+gnu gatekeeper is an open-source project that implements an h.323
+gatekeeper. a gatekeeper provides call control services to the
+h.323 endpoints. it is an integral part of most useful internet
+telephony installations that are based on the h.323 standard.
+
+according to recommendation h.323, a gatekeeper shall provide the following
+services:
+
+
+ address translation
+ admissions control
+ bandwidth control
+ zone management
+ call control signaling
+ call authorization
+ bandwidth management
+ call management
+
+
+the gnu gatekeeper implements most of these functions based on the
+openh323 protocol stack.

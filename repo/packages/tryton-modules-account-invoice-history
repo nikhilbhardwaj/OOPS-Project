@@ -1,0 +1,4 @@
+PackageId:33184
+Name:tryton-modules-account-invoice-history
+Version:1.6.0-1
+Deps:python,python-pkg-resources,python-support,tryton-modules-account-invoice,tryton-modules-party,tryton-server

@@ -1,0 +1,10 @@
+Gnu r package for bootstrapping functions from davison and hinkley
+	
+this package provides functions and datasets from the book "bootstrap methods
+and their applications" by a. c. davison and d. v. hinkley (1997, cup). it was
+witten by angelo canty, and ported to r by brian ripley.
+
+this package is part of the set of packages that are 'recommended'
+by r core and shipped with upstream source releases of r itself.
+
+url: http://statwww.epfl.ch/davison/bma/library.html

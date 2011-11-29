@@ -1,0 +1,4 @@
+PackageId:3403
+Name:drupal6
+Version:6.18-1squeeze1
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,curl,dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,default-mta,exim4-daemon-light,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,mysql-client,mysql-client-5.1,virtual-mysql-client,postgresql-client,postgresql-client-8.4,php5,php5-gd,php5-mysql,php5-pgsql,wwwconfig-common

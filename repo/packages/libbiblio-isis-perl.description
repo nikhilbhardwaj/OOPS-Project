@@ -1,0 +1,23 @@
+Perl module which reads isis databases
+	
+this module will read isis databases created by dos cds/isis, winisis or
+isismarc.
+
+biblio::isis is a perl module which reads isis databases produced by
+cds/isis programs, such as microisis, winisis and isismarc. isis was a
+popular family of integrated library systems provided as freeware by
+unesco, and this module provides methods to parse full databases and
+use them in a perl program in order to migrate them to other formats.
+
+it can create hash values from data in isis database (using to_hash),
+ascii dump (using to_ascii) or just hash with field names and packed
+values (like ^asomething^belse).
+
+unique feature of this module is ability to include_deleted records.
+it will also skip zero sized fields (openisis has a bug in xs bindings, so
+fields which are zero sized will be filled with random junk from memory).
+
+it also has support for identifiers (only if isis database is created by
+isismarc), see to_hash.
+
+homepage: http://search.cpan.org/~dpavlin/biblio-isis-0.24/lib/biblio/isis.pm

@@ -1,0 +1,17 @@
+Rpn calculator for the terminal
+	
+orpie is a fullscreen rpn calculator for the console. its operation is
+similar to that of modern hp calculators, but data entry has been optimized
+for efficiency on a pc keyboard. features include:
+
+
+  * real and complex numbers and matrices
+  * extensive function library
+  * command completion of function names
+  * base conversions
+  * units and conversion factor handling
+  * exact integer arithmetic, with unlimited integer size
+  * visible stack, with browsing/modification capability
+  * user-defined variables
+  * user-configurable keybindings, via a mutt-like rcfile
+  * context-sensitive help

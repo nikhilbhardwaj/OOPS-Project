@@ -1,0 +1,6 @@
+Class to process configuration files
+	
+part of the libclaw library.
+
+this library is intended to help to read configutation files divided in
+sections made of attribute/value pairs.

@@ -1,0 +1,6 @@
+Dynamic swap space manager
+	
+small, stable system add-on that continuously and automatically adapts
+available virtual memory space to your actual memory needs.  claims disk space
+for use as swap space when needed; frees it up for use by the filesystem when
+not needed.

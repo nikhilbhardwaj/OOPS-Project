@@ -1,0 +1,9 @@
+Tcl/tk interfaces for reading and writing macintosh volumes
+	
+hfs is the native macintosh filesystem format.
+
+this package contains xhfs, a tk-based x windows interface, and hfssh,
+a tcl-based shell.
+
+
+ homepage: http://www.mars.org/home/rob/proj/hfs/

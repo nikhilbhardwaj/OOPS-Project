@@ -1,0 +1,10 @@
+Perl module for parsing encoding map xml files
+	
+this module, built as a subclass of xml::parser, parses encoding map
+xml files.  included in the package is the compile_encoding script
+that compiles these to the binary form used by xml::parser in order
+to parse scripts in the given encoding.  also included is a script
+that generates encoding map xml files from the type of mapping files
+obtained at ftp://ftp.unicode.org/public/mappings.
+
+several encoding maps are included in the maps subdirectory.

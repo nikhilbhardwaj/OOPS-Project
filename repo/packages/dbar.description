@@ -1,0 +1,14 @@
+General purpose ascii graphic percentage meter/progressbar
+	
+dbar lets you define static 0% and 100% marks or you can define these
+marks dynamically at runtime. static and dynamic marks can be mixed,
+in this case the value specified at runtime will have a higher priority.
+
+you can specify ranges of numbers, negative, positive or ranges with a
+negative min value and positive max value.
+
+features:
+
+
+  - simple interface, perfect to use within your scripts
+  - trivial to intergrate with dzen

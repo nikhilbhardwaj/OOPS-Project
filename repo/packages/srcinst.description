@@ -1,0 +1,6 @@
+Build and install debian packages completely from source
+	
+srcinst is used to build and install debian packages completely from source.
+all dependencies and build-dependencies are also built recursively from source.
+no binary .debs are required to install packages with this tool; however,
+it does generate binary .debs for your use.

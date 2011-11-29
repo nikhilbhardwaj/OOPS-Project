@@ -1,0 +1,7 @@
+Simple debconf wrapper for openssl
+	
+this package enables unattended installs of packages that
+need to create ssl certificates.
+
+it is a simple wrapper for openssl's certificate request utility that
+feeds it with the correct user variables.

@@ -1,0 +1,12 @@
+Apertium linguistic data to translate between french and catalan
+	
+this is a linguistic package for the apertium shallow-transfer
+machine translation system. the package can be used to translate
+between french and catalan, both romance languages. french is spoken in
+france, and around the world, catalan is spoken largely in spain and
+southern france, although they are also speakers in the city of l'aluger
+(alghero) in italy.
+
+to use this package you will need to install both lttoolbox,
+the lexical-processing tools, and apertium, the tagger and
+transfer engine.

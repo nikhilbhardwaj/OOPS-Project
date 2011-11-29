@@ -1,0 +1,5 @@
+Useful base class for deriving other modules
+	
+class::base implements a simple base class from which other modules
+can be derived, thereby inheriting a number of useful methods such as
+new(), init(), params(), clone(), error() and debug().

@@ -1,0 +1,8 @@
+Foreign function interface library (development files, 64bit)
+	
+this package contains the headers and static library files necessary for
+building programs which use libffi.
+
+a foreign function interface is the popular name for the interface that
+allows code written in one language to call code written in another
+language.

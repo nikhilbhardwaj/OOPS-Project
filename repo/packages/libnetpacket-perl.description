@@ -1,0 +1,13 @@
+Modules to assemble/disassemble network packets at the protocol level
+	
+netpacket provides a base class for a cluster of modules related to
+decoding and encoding of network protocols.  each netpacket
+descendent module knows how to encode and decode packets for the
+network protocol it implements.  consult the documentation for the
+module in question for protocol-specific implementation.
+
+note that there is no inheritance in the netpacket:: cluster of
+modules other than each protocol module being a netpacket.  this
+was seen to be too restrictive as imposing inheritance relationships
+(for example between the ip, udp and tcp protocols) would make things
+like tunneling or other unusual situations difficult.

@@ -1,0 +1,21 @@
+Image blending tool
+	
+enblend is a tool for compositing images. given a set of images that overlap
+in some irregular way, enblend overlays them in such a way that the seam
+between the images is invisible, or at least very difficult to see. it can,
+for example, be used to blend a panorama composed of several images.
+
+it uses a burt & adelson multi-resolution spline. this technique tries to
+make the seams between the input images invisible. the basic idea is that
+image features should be blended across a transition zone proportional in
+size to the spatial frequency of the features. for example, objects like
+trees and windowpanes have rapid changes in color. by blending these
+features in a narrow zone, you will not be able to see the seam because the
+eye already expects to see color changes at the edge of these features.
+clouds and sky are the opposite. these features have to be blended across a
+wide transition zone because any sudden change in color will be immediately
+noticeable.
+
+enblend does not align images for you. use a tool like hugin or panotools to
+do this. the tiffs produced by these programs are exactly what enblend is
+designed to work with.

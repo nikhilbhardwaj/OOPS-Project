@@ -1,0 +1,10 @@
+Python unittest module extension
+	
+sptest is a python module that provides a simplified interface for customized
+handling of unittest results.
+
+it is designed to be a drop-in replacement and does not require any
+modifications to exitsing python unittest-compatible code.
+
+sptest comes with two predefined output handlers providing coloured cli
+and xml output of test results.

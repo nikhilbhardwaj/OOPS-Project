@@ -1,0 +1,7 @@
+Ocaml bindings for libgtksourceview2 (runtime)
+	
+this is the ocaml binding for the gtksourceview2 widget, a text widget that
+extends the standard gtk+ 2.x text widget with syntax highlighting and other
+features typical of a source editor.
+
+this package contains the shared runtime stub libraries.

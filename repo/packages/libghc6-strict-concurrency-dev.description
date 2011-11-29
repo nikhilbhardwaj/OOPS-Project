@@ -1,0 +1,9 @@
+Haskell strict concurrency abstractions - ghc 6 libraries
+	
+this package provides head normal form strict versions of some standard
+haskell concurrency abstractions (mvars,chans), which provide control
+over where evaluation takes place not offered by the default lazy types.
+this may be useful for deciding when and where evaluation occurs,
+leading to improved time or space use, depending on the circumstances.
+
+this package contains the libraries compiled for ghc 6.

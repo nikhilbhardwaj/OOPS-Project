@@ -1,0 +1,12 @@
+Courier mail server - web-based administration frontend
+	
+the courier mail transfer agent (mta) is an integrated mail/groupware
+server based on open commodity protocols, such as esmtp, imap, pop3, ldap,
+ssl, and http. courier provides esmtp, imap, pop3, webmail, and mailing list
+services within a single, consistent, framework.
+
+the web-based administration and configuration tool for the courier
+mail server is capable of changing the settings of the mta, imap, pop
+and webmail servers and the ldap, mysql and postgresql authentication
+modules. only the installed parts of the courier mail server show up
+in the administration frontend.

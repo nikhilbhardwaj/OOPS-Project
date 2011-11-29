@@ -1,0 +1,5 @@
+Debugging symbols for konversation
+	
+konversation is a client for the internet relay chat (irc) protocol. this
+package contains the debugging symbols associated with konversation. they
+will automatically be used by gdb for debugging konversation-related issues.

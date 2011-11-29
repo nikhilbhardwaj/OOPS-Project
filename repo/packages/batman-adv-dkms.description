@@ -1,0 +1,11 @@
+Dkms source for the batman-advanced kernel module
+	
+this package contains the source for the batman-adv-source kernel modules,
+packaged with approriate configuration for dkms to build new modules
+dynamically.
+
+b.a.t.m.a.n. (better approach to mobile ad-hoc networking) is a new routing
+protocol for multi-hop ad-hoc mesh networks. b.a.t.m.a.n.-advanced is the
+implementation of this protocol on iso/osi layer 2, allowing mesh networks to
+be used as a virtual switch. with this approach, lans and wans can be easily
+integrated, and more protocols (like dhcp, ipv6) are supported.

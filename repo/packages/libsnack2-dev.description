@@ -1,0 +1,15 @@
+Sound extension to tcl/tk and python/tkinter - development files
+	
+this package is needed for building transcriber, and contains
+snackconfig.sh, snack.h.
+
+snack provides a sound functionality extension to the tcl/tk language.
+
+snack is an extension to the tcl/tk scripting language
+that adds sound functionality. there are commands to play, record,
+edit, and even visualize sound. snack supports in-memory sound
+objects, file based audio, and streaming audio. it handles
+file formats such as wav, au, aiff, mp3, and ogg vorbis.
+
+this package contains files to be used for development of c-based
+extensions which use the snack library.

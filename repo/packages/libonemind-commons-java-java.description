@@ -1,0 +1,21 @@
+Common java library used to support other developments
+	
+the onemind commons-java library contains java utilities and mini-frameworks
+that are created to support other developments. it contains the following
+packages:
+
+
+  * org.onemind.commons.java.criterion - for representing logical constraints
+  * org.onemind.commons.java.datastructure - some datastructure classes
+  * org.onemind.commons.java.event - event/event firer interface and a simple
+    listener list implementation
+  * org.onemind.commons.java.html.css - css attribute constants for css
+    related programming, and a simple css generation framework
+  * org.onemind.commons.java.io - fileutils
+  * org.onemind.commons.java.lang - null, enum, configurationexception and
+    reflectutils
+  * org.onemind.commons.java.servlet - servletutils
+  * org.onemind.commons.java.sql - sql metadata representation, sql type
+    mapper and utils
+  * org.onemind.commons.java.util - more utilities classes
+  * org.onemind.commons.java.xml - utilities for xml parsing

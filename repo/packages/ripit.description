@@ -1,0 +1,15 @@
+Textbased audio cd ripper
+	
+ripit runs in text mode (no fancy gui here) and does everything required to
+produce a set of mp3, ogg, flac, m4a files without any user-intervention.
+
+ripit does the following with an audio cd:
+
+ - get the audio cd album/artist/tracks information from cddb
+ - rip the audio cd tracks (using cdparanoia or other cdrippers)
+ - encode the files (using lame, oggvorbis flac and/or faac)
+ - id3 tag them (v1 & v2)
+ - optional: creates a playlist (m3u) file (lists mp3s created,
+   used by various mp3 players)
+ - optional: prepares and sends a cddb submission.
+ - optional: saves the cddb file.

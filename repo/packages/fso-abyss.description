@@ -1,0 +1,9 @@
+Gsm 07.10 multiplexer
+	
+the abyss daemon provides concurrenct access to the gsm modem by
+several process. access to the multiplexer is managed via d-bus command.
+
+this gsm muxer is the successor to fso-gsm0710muxd.
+
+this package is part of the freesmartphone.org software stack
+and it is targeted for smartphones.

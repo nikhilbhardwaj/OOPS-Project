@@ -1,0 +1,12 @@
+The plasma library for the kde platform
+	
+this package contains the plasma library. plasma is one of the key
+technologies of kde 4 (also known as the "pillars of kde"), and one of the
+most visible to users. it is the component that is "in charge" of the desktop
+interface; the desktop, panel (often referred simply as the task bar), and
+related elements. plasma aims to change the traditional concepts of the
+"desktop", incorporating semantic application elements, and bringing
+cooperating technologies to the user's fingertips in a way that is visually
+appealing while easing work flow.
+
+it is part of the kde development platform libraries module.

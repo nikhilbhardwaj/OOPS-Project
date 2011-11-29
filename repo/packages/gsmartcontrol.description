@@ -1,0 +1,18 @@
+Graphical user interface for smartctl
+	
+gsmartcontrol is a graphical user interface for smartctl, which is a tool for
+querying and controlling smart (self-monitoring, analysis, and reporting
+technology) data on modern hard disk drives. it allows you to inspect the
+drive's smart data to determine its health, as well as run various tests on it.
+
+features:
+
+
+ * automatically reports and highlights any anomalies;
+ * allows enabling/disabling automatic offline data collection;
+ * allows enabling/disabling smart itself;
+ * supports configuration of global and per-drive options for smartctl;
+ * performs smart self-tests;
+ * displays drive ids, capabilities, attributes, and self-test/error logs;
+ * can read in smartctl data from a saved file, interpreting it as a read-only
+   virtual device.

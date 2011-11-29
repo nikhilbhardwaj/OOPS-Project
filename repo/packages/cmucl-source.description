@@ -1,0 +1,27 @@
+The cmucl lisp sources
+	
+these are the cmucl sources, provided so that the
+debugger can show useful source information at appropriate
+times.
+
+this version includes common-lisp-controller compatible
+replacements for defsystem, graystream, clx and hemlock.
+
+defsystem provides a "make" type system for lisp. this is
+a patched version from clocc.
+
+gray streams are the usual lisp streams, but re-implemented
+as a object hierarchy. users can subclass existing classes and
+adapt them for their own needs.
+
+cmucl-clx is the clx library adapted for cmucl. clx is an
+interface to x11, just like xlib.
+
+hemlock is an emacs clone for cmucl.
+
+note that this version only works in x, the tty interface
+is broken: the system can't parse /etc/termcap.
+
+to open the editor, type "(ed)".
+
+note that to recompile cmucl you need a working cmucl system :-(

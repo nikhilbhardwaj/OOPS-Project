@@ -1,0 +1,9 @@
+Load dynamic libraries, bind functions from within ruby code
+	
+ruby-ffi is a ruby extension for programmatically loading dynamic
+libraries, binding functions within them, and calling those functions
+from ruby code. moreover, a ruby-ffi extension works without changes
+on ruby and jruby. discover why should you write your next extension
+using ruby-ffi here[http://wiki.github.com/ffi/ffi/why-use-ffi].
+
+this package is built for ruby 1.9.1.

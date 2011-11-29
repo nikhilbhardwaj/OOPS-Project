@@ -1,0 +1,6 @@
+Moose extension for type constraints on structured types
+	
+moosex::types::structured provides structured type constraints for moose. a
+structured type constraint is a standard container moose type constraint,
+such as an arrayref or hashref, which has been enhanced to allow you to
+explicitly name all the allowed type constraints inside the structure.

@@ -1,0 +1,7 @@
+Simple page-prefetch for squid web proxy
+	
+squid-prefetch will perform early fetches of pages linked to by pages already
+read.  this means that a user that clicks on a link will have that new page
+appear instantly instead of having to wait for it to be fetched from the
+internet.  only text pages are prefetched on the assumption that the images
+can be loaded later so long as the text of a page is available for display.

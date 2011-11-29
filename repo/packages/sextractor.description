@@ -1,0 +1,9 @@
+Source extractor for astronomical images
+	
+find sources, such as stars and galaxies, in astronomical images.
+the input data files are in fits file format, and are analyzed to
+compute the locations of sources, with the ability to distinguish
+between galaxies and stars using a neural-network technique.
+
+
+ homepage: http://terapix.iap.fr/rubrique.php?id_rubrique=91/

@@ -1,0 +1,11 @@
+The lemon parser generator
+	
+lemon is an lalr(1) parser generator for c or c++. it does the same
+job as bison and yacc. but lemon is not another bison or yacc
+clone. it uses a different grammar syntax which is designed to reduce
+the number of coding errors. lemon also uses a more sophisticated
+parsing engine that is faster than yacc and bison and which is both
+reentrant and thread-safe. furthermore, lemon implements features
+that can be used to eliminate resource leaks, making is suitable for
+use in long-running programs such as graphical user interfaces or
+embedded controllers.

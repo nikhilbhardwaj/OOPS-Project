@@ -1,0 +1,13 @@
+Basic library for maemo applications - scratchbox d-bus configuration
+	
+libosso is the basic library containing required and helpful functions
+for maemo applications. one of libosso's main features is rpc (remote
+procedure calls) services (as it "wraps" d-bus). in addition, libosso
+provides access to low-level hardware functions, such as turning on (or
+keeping on) the display, autosaving, state saving and system time.
+
+all maemo-compliant applications must use libosso to respond coherently
+to system changes and signals, such as the battery low, pre-shutdown
+and state saving signals.
+
+this package contains the d-bus configuration settings.

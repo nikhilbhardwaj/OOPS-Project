@@ -1,0 +1,4 @@
+PackageId:5770
+Name:gnatsweb
+Version:4.00-1.1
+Deps:httpd,aolserver4-core,aolserver4-daemon,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,libcgi-pm-perl,perl-modules,libmime-base64-perl,perl

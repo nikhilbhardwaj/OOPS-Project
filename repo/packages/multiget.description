@@ -1,0 +1,17 @@
+Graphical download manager
+	
+multiget is an easy-to-use gui file downloader for windows/linux/bsds/macos.
+it's programmed in c++ and has a gui based on wxwidgets. it supports http/ftp
+protocols which covers the requirements of most users. it supports multi-task
+with multi-thread on multi-server. it supports resuming downloads if the web
+server supports it, and if you like, you can reconfig the thread number
+without stopping the current task. it's also support socks 4,4a,5 proxy, ftp
+proxy, http proxy.
+
+it also support a feature called p2sp, or in other words, get file from
+multiple servers, and combine the data from different site into one file. this
+makes downloads complete much faster.
+
+multiget also supports switching language dynamically, you can choose chinese
+or english interface.  generally it will automatic choose a proper language
+for you.

@@ -1,0 +1,6 @@
+Module for safter, more secure programming
+	
+paranoid is a collection of perl modules that began as simple utilities which
+perform things in a (debatably) safer and taint-safe manner. since then it's
+also grown to include functionality that fit into the same framework and
+conventions of the original modules.

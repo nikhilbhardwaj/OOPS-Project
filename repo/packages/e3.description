@@ -1,0 +1,15 @@
+A very small editor
+	
+this package contains an editor you can call via the following links:
+
+  - e3em: emacs-like key bindings
+  - e3vi: vi-like key bindings
+  - e3pi: pico-like key bindings
+  - e3ne: nedit-like key bindings
+  - e3ws: wordstar-like key bindings
+
+
+e3 has the following advantages over other editors:
+
+  - it has no library dependencies
+  - one very small binary (only 10 kb) that gives you 5 editors

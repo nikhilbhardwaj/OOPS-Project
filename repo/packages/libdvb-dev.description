@@ -1,0 +1,13 @@
+Library to tune and command digital video broadcasting cards
+	
+the dvb standard (digital video broadcasting) is an integrated package of
+standards for the distribution of terrestrial (dvb-t), satellite (dvb-s)
+and cable (dvb-c) digital television.
+
+this library offers an abstraction layer over the linux dvb kernel drivers
+to tune and command dvb cards that are connected to the system. common uses
+include scanning transponders, selecting channels and retrieving raw mpeg-2
+transport streams (ts).
+
+this package contains the header files and static libraries needed to
+compile applications or shared objects that use libdvb.

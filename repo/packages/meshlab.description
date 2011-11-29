@@ -1,0 +1,11 @@
+System for processing and editing triangular meshes
+	
+meshlab is an open source, portable, and extendible system for the
+processing and editing of unstructured 3d triangular meshes.
+the system is aimed to help the processing of the typical not-so-small
+unstructured models arising in 3d scanning, providing a set of tools for
+editing, cleaning, healing, inspecting, rendering and converting this kind
+of meshes.
+
+meshlab can read files in these formats: ply, stl, off, obj, 3ds, collada
+and ptx. it can write ply, stl, off, obj, 3ds, collada, vrml, and dxf.

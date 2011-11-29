@@ -1,0 +1,7 @@
+Extremely naive charset analyser - debug files
+	
+enca is an extremely naive charset analyser. it detects the character set and
+the encoding of text files and can also convert them to other encodings.
+
+this package contains debugger symbols useful for debugging problems with
+this library.

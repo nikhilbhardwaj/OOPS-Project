@@ -1,0 +1,21 @@
+Virtual framebuffer 'fake' x server
+	
+xvfb provides an x server that can run on machines with no display hardware
+and no physical input devices. it emulates a dumb framebuffer using virtual
+memory. the primary use of this server was intended to be server testing,
+but other novel uses for it have been found, including testing clients
+against unusual depths and screen configurations, doing batch processing with
+xvfb as a background rendering engine, load testing, as an aid to porting the
+x server to a new platform, and providing an unobtrusive way to run
+applications that don't really need an x server but insist on having one
+anyway.
+
+this package also contains a convenience script called xvfb-run which
+simplifies the automated execution of x clients in a virtual server
+environment. this convenience script requires the use of the xauth
+program.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xserver module.

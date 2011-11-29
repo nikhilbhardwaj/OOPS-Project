@@ -1,0 +1,11 @@
+Development files for regina, the 3-manifold topology software
+	
+regina is a suite of mathematical software for 3-manifold topologists.
+this package provides development files for compiling the regina
+calculation engine into other projects.
+
+the calculation engine is provided as a c++ shared library.  for complete
+api documentation, see the package regina-normal-doc.
+
+highlights of regina include triangulation analysis and simplification,
+census creation and normal surface enumeration.

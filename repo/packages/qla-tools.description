@@ -1,0 +1,7 @@
+Qlogic linux tools for work with qlogic hbas
+	
+qlogic provides some tools that makes lun handling (add / remove) and
+adminstration of qlogic hbas much easier.  you can scan for newly added luns,
+display details about the qlogic hba attached to the system, change the state
+of luns from offline to online/running and set the timeout on the devices
+connected to the qlogic fc hba.

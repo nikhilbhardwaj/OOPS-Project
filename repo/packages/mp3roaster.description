@@ -1,0 +1,9 @@
+A perl hack for burning audio cds out of mp3/ogg/flac/wav files
+	
+mp3roaster is a perl hack for burning audio cds out of mp3, ogg vorbis, flac
+and wav files. the main highlights of this application are an easy to use
+command line syntax and automatic volume leveling support for best audio cd
+quality.
+
+in order to normalize the audio level of all files which will be burned on cds
+mp3roaster requires some free hard disk space.

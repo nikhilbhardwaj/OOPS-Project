@@ -1,0 +1,25 @@
+Indexing documents with mysql as storage
+	
+dbix::fulltextsearch is a flexible solution for indexing contents of documents.
+it uses the mysql database to store the information about words and
+documents and provides perl interface for indexing new documents,
+making changes and searching for matches.  for dbix::fulltextsearch, a document
+is nearly anything -- perl scalar, file, web document, database field.
+
+the basic style of interface is shown above. what you need is a mysql
+database and a dbi with dbd::mysql. then you create a dbix::fulltextsearch
+index  -- a set of tables that maintain all necessary information. once created
+it can be accessed many times, either for updating the index (adding
+documents) or searching.
+
+dbix::fulltextsearch uses one basic table to store parameters of the index.
+second table is used to store the actual information about documents and words,
+and depending on the type of the index (specified during index creation)
+there may be more tables to store additional information (like
+conversion from external string names (eg. url's) to internal numeric
+form). for a user, these internal thingies and internal behaviour of the
+index are not important. the important part is the api, the methods to
+index document and ask questions about words in documents. however,
+certain understanding of how it all works may be useful when you are
+deciding if this module is for you and what type of index will best
+suit your needs.

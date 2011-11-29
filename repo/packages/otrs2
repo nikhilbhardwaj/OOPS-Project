@@ -1,0 +1,4 @@
+PackageId:26670
+Name:otrs2
+Version:2.4.9+dfsg1-3+squeeze1
+Deps:adduser,dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libapache2-reload-perl,httpd-cgi,aolserver4-core,aolserver4-daemon,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,boa,bozohttpd,cherokee,lighttpd,mathopd,mini-httpd,monkey,ocsigen,thttpd,tntnet,yaws,libauthen-sasl-perl,libcrypt-passwdmd5-perl,libdate-pcalc-perl,libdbd-mysql-perl,libdbd-pg-perl,libdbi-perl,libemail-valid-perl,libgd-graph-perl,libgd-text-perl,libio-stringy-perl,libjs-prototype,libjs-yui,libmail-pop3client-perl,libmailtools-perl,libmime-tools-perl,libnet-imap-simple-perl,libnet-imap-simple-ssl-perl,libnet-smtp-ssl-perl,libpdf-api2-perl,libsoap-lite-perl,libtext-csv-perl,libtext-diff-perl,libxml-feedpp-perl,libxml-parser-perl,perl,ucf

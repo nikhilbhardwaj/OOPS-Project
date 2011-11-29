@@ -1,0 +1,19 @@
+Office productivity suite -- xhosa language package
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains the localization of openoffice.org in
+xhosa.
+it contains the user interface, the templates and the autotext features.
+(please note that not all this is available for all possible languages).
+you can switch user interface language using the locales system.
+
+spelling dictionaries, hyphenation patterns, thesauri and help are not
+included in this package. there are some available in separate packages
+(myspell-*, openoffice.org-hyphenation-*, openoffice.org-thesaurus-*,
+openoffice.org-help-*)
+
+if you just want to be able to spellcheck etc. in other languages, you can
+install extra dictionaries/hyphenation patterns/thesauri independently of
+the language packs.

@@ -1,0 +1,11 @@
+Perl interface to snowball stemmers
+	
+stemming reduces related words to a common root form. for instance, "horse",
+"horses", and "horsing" all become "hors".  most commonly, stemming is
+deployed as part of a search application, allowing searches for a given term
+to match documents which contain other forms of that term.
+
+this module is very similar to lingua::stem|lingua::stem -- however,
+lingua::stem is pure perl, while lingua::stem::snowball is an xs module which
+provides a perl interface to the c version of the snowball stemmers.
+(http://snowball.tartarus.org).

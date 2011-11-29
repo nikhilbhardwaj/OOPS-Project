@@ -1,0 +1,22 @@
+Firebird embedded client/server library
+	
+firebird is a relational database offering many ansi sql-99 features that
+runs on linux, windows, and a variety of unix platforms. firebird offers
+excellent concurrency, high performance, and powerful language support
+for stored procedures and triggers. it has been used on production systems
+under a variety of names since 1981.
+
+this package contains libfbembed - the embedded client/server library for
+firebird.
+
+it can work with remote firebird servers (either super-server or classic) via
+tcp connections, in the same way libfbclient does.
+
+contrary to libfbclient, libfbembed is not thread-safe.
+
+when working with local database libfbembed works directly with the database
+file without the need of a separate server process. it needs a separate lock
+manager -- fb_lock_mgr -- which is in firebird2.1-classic package.
+
+if you are in doubt, you most probably need libfbclient2, instead of this
+package.

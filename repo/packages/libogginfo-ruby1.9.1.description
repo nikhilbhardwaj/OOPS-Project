@@ -1,0 +1,5 @@
+Ruby library for accessing low-level information on ogg files
+	
+ruby-ogginfo provides access to the bitrate, length, samplerate, encoder,
+and tag information of ogg files. it can also access and write tags for
+ogg files provided that vorbis-tools is installed.

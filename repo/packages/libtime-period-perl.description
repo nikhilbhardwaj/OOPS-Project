@@ -1,0 +1,8 @@
+Perl library for testing if a time() is in a specific period
+	
+this perl library provides a function which tells whether a specific
+time falls within a specified time period.  its syntax for specifying
+time periods allows you to test for conditions like "monday to friday,
+9am till 5pm" and "on the second tuesday of the month" and "between 4pm
+and 4:15pm" and "in the first half of each minute" and "in january of
+1998".

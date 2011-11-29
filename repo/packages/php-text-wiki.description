@@ -1,0 +1,18 @@
+Transforms wiki and bbcode markup into xhtml, latex or plain text markup
+	
+this is the base engine for all of the text_wiki sub-classes.
+the text transformation is done in 2 steps.
+the chosen parser uses markup rules to tokenize the tags and content.
+renderers output the tokens and text into the requested format.
+the tokenized form replaces the tags by a protected byte value
+associated to an index in an options table. this form shares up to 50
+rules by all parsers and renderers.
+the package is intented for versatile transformers as well as
+converters.
+text_wiki is delivered with its own parser, which is used by yawiki
+or horde's wicked and three basic renderers: xhtml, latex and plain
+text.
+strong sanitizing of xhtml is default.
+parsers (* and renderers) exist for bbcode, cowiki (*), dokuwiki (*),
+mediawiki and tikiwiki (*).
+it is highly configurable and can be easily extended.

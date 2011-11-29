@@ -1,0 +1,9 @@
+View and modify the region code of dvd drives
+	
+regionset is a small utility which displays and sets
+the region/zone setting of a dvd drive, allowing it to decrypt
+the dvd's sold in this geographical zone. hardware vendors
+often limit the number of such modifications, but it is
+necessary to set it at least once with a brand new drive.
+
+url: http://linvdr.org/projects/regionset/

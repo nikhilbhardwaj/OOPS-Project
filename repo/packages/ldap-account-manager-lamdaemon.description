@@ -1,0 +1,5 @@
+Quota and home directory management for ldap account manager
+	
+lamdaemon is part of ldap account manager. this package
+needs to be installed on the server where the home directories
+reside and/or quotas should be managed.

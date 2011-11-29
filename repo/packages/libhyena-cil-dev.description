@@ -1,0 +1,28 @@
+Set of utility libraries for the cli - development files
+	
+hyena is a set of utility application programing interfaces (apis) for the
+common language infrastructure (cli), including both graphical and
+non-graphical components.
+
+among the included namespaces in hyena are:
+
+ * hyena
+ * hyena.collections
+ * hyena.commandline
+ * hyena.data
+ * hyena.jobs
+ * hyena.json
+ * hyena.query
+ * hyena.sexpengine
+ * hyena.data.sqlite
+ * hyena.data.gui
+ * hyena.gui
+ * hyena.gui.dialogs
+ * hyena.gui.theatrics
+ * hyena.gui.theming
+ * hyena.query.gui
+ * hyena.widgets
+
+
+this package contains development files for the hyena libraries, and should be
+used for compilation

@@ -1,0 +1,13 @@
+C-extensions for python
+	
+cython is a language that makes writing c extensions for the python language as
+easy as python itself. cython is based on the well-known pyrex, but supports
+more cutting edge functionality and optimizations.
+
+the cython language is very close to the python language, but cython
+additionally supports calling c functions and declaring c types on variables
+and class attributes. this allows the compiler to generate very efficient c
+code from cython code.
+
+this makes cython the ideal language for wrapping for external c libraries, and
+for fast c modules that speed up the execution of python code.

@@ -1,0 +1,12 @@
+Migrate changesets between version control systems
+	
+the tailor tool moves patches and changesets between different repositories,
+preserving as much information as possible. the repositories can be managed
+by different version control systems. currently, arx, bazaar, bazaar-ng,
+codeville, cvs, darcs, git, mercurial, monotone, subversion,
+and tla are supported.
+
+while tailor is useful for one-time operation, when switching to a different
+version control system, it can also synchronise repositories on an ongoing
+basis. changesets are either pulled one-way from a master repository, or
+migrated back and forth for full two-way synchronisation.

@@ -1,0 +1,8 @@
+C++ library implementing a real-time convolution matrix
+	
+zita convolver is a c++ library implementing a real-time
+convolution matrix for up to 64 inputs and outputs. it
+uses multiple partition sizes to provide both low delay
+and efficient cpu use.
+
+this package contains the shared library for libzita-convolver.

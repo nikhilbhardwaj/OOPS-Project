@@ -1,0 +1,11 @@
+Fast implementation of the md5 algorithm written in java
+	
+fast-md5 is faster than the build-in md5 support in java standard toolkit.
+it can be used if one or more of following applies:
+
+ * java's built-in md5 support is a bottleneck for your program's performance
+   and you want something faster.
+ * you are using a version of java which doesn't have md5 support, such as
+   j2me midp/cldc.
+ * you want the extra convenience methods for hashing a file, hashing a
+   string, converting the hash to a hex string, etc.

@@ -1,0 +1,9 @@
+Documentation for scons, a replacement for make
+	
+scons is a make replacement providing a range of enhanced features such
+as automated dependency generation and built in compilation cache
+support.  scons rule sets are python scripts so as well as the features
+it provides itself scons allows you to use the full power of python
+to control compilation.
+
+this package provides the scons user's guide.

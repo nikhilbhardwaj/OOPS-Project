@@ -1,0 +1,9 @@
+System-v-like init utilities
+	
+this package contains programs required for booting
+a debian system and doing basic process management.
+
+the most important program in the package is /sbin/init.
+it is the first process started on boot and continues
+to run as process number 1 until the system halts. all
+other processes are descended from it.

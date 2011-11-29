@@ -1,0 +1,8 @@
+Python input filter for doxygen
+	
+doxypy is an input filter for doxygen. it reformats python comments
+to conform to doxygen documentation blocks. this makes it possible
+to use the doxygen/javadoc syntax inside of docstrings when writing
+code documentation and automatically generate api documentation out
+of it instead of being forced to use non-python documentation blocks
+or to document code redundantly.

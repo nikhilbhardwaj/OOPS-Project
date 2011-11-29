@@ -1,0 +1,9 @@
+Spam-catcher using a collaborative filtering network
+	
+pyzor is a collaborative, networked system to detect and block spam using
+identifying digests of messages.
+
+it establishes a distributed database of spam digests which can be used to
+filter out known spam.
+
+pyzor is a reimplementation of razor in python.

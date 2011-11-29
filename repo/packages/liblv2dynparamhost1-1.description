@@ -1,0 +1,9 @@
+Lv2 plugin interface extension - host
+	
+library that enables plugin parameters to appear and disappear
+(i.e. number of voices).
+it also allows nested grouping of parameters.
+groups can be used for things like adsr abstraction,
+i.e. group of 4 float parameters.
+
+this package contains the shared library for liblv2dynparamhost1-1.

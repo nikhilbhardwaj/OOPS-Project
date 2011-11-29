@@ -1,0 +1,11 @@
+Python 3 wrapper of libgearman
+	
+this package contains a python 3 wrapper of libgearman.
+
+gearman provides a generic application framework to farm out work to
+other machines or processes that are better suited to do the work. it
+allows you to do work in parallel, to load balance processing, and to
+call functions between languages. it can be used in a variety of
+applications, from high-availability web sites to the transport of
+database replication events. in other words, it is the nervous system
+for how distributed processing communicates

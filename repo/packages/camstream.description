@@ -1,0 +1,15 @@
+Collection of tools for webcams and other video-devices
+	
+camstream is (going to be) a collection of tools for webcams and other
+video-devices, enhancing your linux system with multimedia video. all written
+in c++ and with a gui frontend. the interface is based on qt.
+
+the aim of this project is build a set of programs for:
+
+ * webcamming, that is saving an image and uploading it to a server at regular
+   intervals;
+ * video conferencing;
+ * webcam broadcast (including server);
+ * recording movie clips (avi, quicktime) from a webcam (and playing them
+   back);
+ * using a webcam as a security camera.

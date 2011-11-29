@@ -1,0 +1,17 @@
+Perl module implementing the tt800 algorithm
+	
+math::random::tt800 provides an implementation of makoto matsumoto and takuji
+nishimura's pseudorandom number generator (prng) algorithm called tt800. it is
+similar to some other fantastic prng algorithms such as the mersenne twister
+(see libmath-random-mt-perl) and isaac (see libmath-random-isaac-perl). this
+particular implementation is particularly notable because it has no external
+dependencies aside from perl itself.
+
+the algorithm itself is described in matsumoto's article published in acm
+transactions on modelling and computer simulation, volume 4, issue 3, 1994,
+pages 254-266.
+
+this algorithm is similar to the mersenne twister algorithm but uses a smaller
+array to hold state information (25 elements compared to mt's 624).
+consequently, the period is much smaller - 2^800-1 versus mt's 2^19937-1.
+the period of isaac is 2^8295 values on average.

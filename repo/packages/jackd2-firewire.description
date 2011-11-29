@@ -1,0 +1,6 @@
+Jack audio connection kit (ffado and freebob backends)
+	
+jack is a low-latency sound server, allowing multiple applications to
+connect to one audio device, and to share audio between themselves.
+
+this package contains the ieee1394 (firewire) backends ffado and freebob.

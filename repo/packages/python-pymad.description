@@ -1,0 +1,5 @@
+Python wrapper to the mpeg audio decoder library
+	
+this module makes the mad mp3 decoder library available to python
+programs.  it provides a high-level api to the mad functions, that make
+reading audio data from an mpeg stream simple.

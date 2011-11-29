@@ -1,0 +1,15 @@
+Afterstep xvt - a vt102 emulator for the x window system
+	
+aterm is a colour vt102 terminal emulator, based on rxvt 2.4.8 with
+some additions of fast transparency, intended as an xterm replacement
+for users who do not require features such as tektronix 4014
+emulation and toolkit-style configurability. as a result, aterm uses
+much less swap space -- a significant advantage on a machine serving
+many x sessions. it was created with afterstep window manager users
+in mind, but is not tied to any libraries, and can be used anywhere.
+
+this package contains four aterm binaries: katerm and caterm, for
+japanese and chinese (big5 only) characters support; gaterm, which
+supports elot-928 (iso-8859-7 standard) and ibm-437 keyboard
+translations for greek character entry, and taterm for thai characters
+support.

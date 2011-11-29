@@ -1,0 +1,12 @@
+Rplay network audio system - contributed binaries
+	
+contains mailsounds and mailsounds each of which can be used to play
+sounds on a system when new mail arrives.
+
+rplay allows sounds to be played to and from local and remote unix
+systems.  sounds can be played with or without sending audio data over
+the network using either udp or tcp/ip.  rplay audio servers can be
+configured to share sound files with each other.
+
+support for rplay is included in several applications.  these include
+xpilot, xlockmore, xboing, fvwm, and ctwm.

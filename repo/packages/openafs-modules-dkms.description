@@ -1,0 +1,8 @@
+Afs distributed filesystem kernel module dkms source
+	
+afs is a distributed filesystem allowing cross-platform sharing of
+files among multiple computers.  facilities are provided for access
+control, authentication, backup and administrative management.
+
+this package contains the source for the afs kernel module, packaged with
+approriate configuration for dkms to build new modules dynamically.

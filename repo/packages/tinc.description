@@ -1,0 +1,6 @@
+Virtual private network daemon
+	
+tinc is a daemon with which you can create a virtual private network
+(vpn). one daemon can handle multiple connections, so you can
+create an entire (moderately sized) vpn with only one daemon per
+participating computer.

@@ -1,0 +1,13 @@
+Pure-python database engine, using a pythonic, no-sql syntax
+	
+buzhug is a fast, pure-python database engine, using a syntax that python
+programmers should find very intuitive.
+
+the data is stored and accessed on disk (it is not an in-memory database);
+the implementation has been designed to make all operations, and especially
+selection, as fast as possible with an interpreted language.
+
+the database is implemented as a python iterator, yielding objects whose
+attributes are the fields defined when the base is created ; therefore,
+requests can be expressed as list comprehensions or generator expressions,
+instead of sql queries.

@@ -1,0 +1,14 @@
+Asterisk manager api interface module for python
+	
+this module provides an object oriented interface to the asterisk manager api,
+whilst embracing some applicable python concepts:
+
+ o functionality is split into separate mix-in classes
+ o asterisk pbx errors cause fairly granular exceptions
+ o docstrings are provided for all objects
+ o the module may be used asynchronously if required. it should be suitable
+   for inclusion in a single-threaded gui
+ o asterisk data is translated into data stored using python types, so
+   working with it should be trivial. through the use of xmlrpcserver or
+   similar, it should be trivial to expose this conversion to other
+   languages

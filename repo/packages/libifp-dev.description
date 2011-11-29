@@ -1,0 +1,9 @@
+Communicate with iriver ifp audio devices (development files)
+	
+this package contains files used to develop or compile programs that
+use libifp.
+
+libifp allows you to communicate with iriver ifp audio devices. it
+provides a high-level interface to upload and download files to and
+from the device, as well as other functions like battery status and
+firmware updating.

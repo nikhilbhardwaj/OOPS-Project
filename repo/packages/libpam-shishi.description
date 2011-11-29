@@ -1,0 +1,7 @@
+Pam module for shishi kerberos v5
+	
+shishi is an implementation of the kerberos v5 network authentication
+system.
+
+this package contain a pam module to authenticate local users against
+a kerberos kdc, and acquire kerberos tickets.

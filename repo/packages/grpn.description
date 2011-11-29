@@ -1,0 +1,7 @@
+Gtk+ reverse polish notation calculator
+	
+grpn is an rpn calculator which uses the gtk+ widgets. it
+works with real and complex numbers, has 4 different radix
+modes, supports general math functions along with logarithmic
+and trigonometric functions.  calculator stack is only limited
+by free memory.

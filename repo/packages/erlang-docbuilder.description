@@ -1,0 +1,5 @@
+Erlang/otp application for building html documentation
+	
+docbuilder provides functionality for generating html documentation
+for erlang modules and erlang/otp applications from xml source code
+and/or edoc comments in erlang source code.

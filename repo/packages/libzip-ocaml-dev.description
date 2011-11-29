@@ -1,0 +1,7 @@
+Ocaml compression libraries (development files)
+	
+this objective caml library provides easy access to compressed files in zip
+and gzip format, as well as to java jar files.  it provides functions
+for reading from and writing to compressed files in these formats.
+
+this package contains the developpment part of the camlzip package.

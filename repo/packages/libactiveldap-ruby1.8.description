@@ -1,0 +1,10 @@
+An object-oriented interface to ldap for ruby
+	
+activeldap is a wrapper around ruby/ldap with its interface inspired
+by activerecord (from the rails project).
+
+it dynamically parses the ldap server’s schema based on the
+objectclasses an entry has. it then exposes the ldap attributes as
+methods on the object. this means that if you update the objectclass
+on an object, the methods/attributes available for changing are
+automatically updated.

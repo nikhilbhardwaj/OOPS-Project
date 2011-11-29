@@ -1,0 +1,21 @@
+Gnu r epidemiological analysis
+	
+functions for demographic and epidemiological analysis in the lexis diagram,
+i.e. register and cohort follow-up data, including interval censored data and
+representation of multistate data. also some useful functions for tabulation
+and plotting. contains some epidemiological datasets.
+
+the epi package is mainly focused on "classical" chronic disease epidemiology.
+the package has grown out of the course statistical practice in epidemiology
+using r (see http://www.pubhealth.ku.dk/~bxc/spe).
+
+there is a short introduction to r for epidemiology available at
+http://staff.pubhealth.ku.dk/%7ebxc/epi/r-intro.pdf
+beware that the pages 38-120 of this is merely the manual pages for the epi
+package.
+
+epi is not the only r-package for epidemiological analysis, a package with
+more affinity to infectious disease epidemiology is the epitools package
+which is also evailable in debian.
+
+epi is used in the department of biostatistics of the university of copenhagen.

@@ -1,0 +1,11 @@
+Alsa driver sources
+	
+this package contains the source code for the alsa drivers.
+the source code can be compiled into an alsa-modules package
+using the m-a utility (available in the module-assistant
+package). please note that the kernel headers must be
+installed to compile these modules. please read the
+readme.debian file for more information about loading and
+building modules.
+
+alsa is the advanced linux sound architecture.

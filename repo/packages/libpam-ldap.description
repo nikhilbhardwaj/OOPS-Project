@@ -1,0 +1,6 @@
+Pluggable authentication module for ldap
+	
+this package provides an interface between an ldap server and the pam
+user authentication system. using it along with libnss-ldapd or libnss-ldap
+allows ldap to entirely replace other lookup methods (such as nis or
+flat-file) for system account tables.

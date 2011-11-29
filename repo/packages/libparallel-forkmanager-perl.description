@@ -1,0 +1,6 @@
+A simple parallel processing fork manager for perl
+	
+this perl module is intended for use in operations that can be done in
+parallel where the number of processes to be forked off should be limited.
+typical use is a downloader which will be retrieving hundreds/thousands
+of files.

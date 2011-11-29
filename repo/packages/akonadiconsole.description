@@ -1,0 +1,7 @@
+The management and debugging console for akonadi
+	
+akonadi console is a useful utility that can be used to explore or manage
+akonadi. since this utility exposes akonadi internals, it is very useful for
+debugging but may also prove handy in other cases.
+
+this package is part of the kde pim module.

@@ -1,0 +1,7 @@
+Python module for automating interactive applications
+	
+pexpect is a pure python module for spawning child applications;
+controlling them; and responding to expected patterns in their
+output. pexpect works like don libes' expect. pexpect allows your
+script to spawn a child application and control it as if a human were
+typing commands.

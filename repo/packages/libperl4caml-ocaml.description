@@ -1,0 +1,9 @@
+Use perl code in ocaml programs, runtime library
+	
+perl4caml allows you to use perl code within objective caml (ocaml),
+thus neatly side-stepping the old problem with ocaml which was that it
+lacked a comprehensive set of libraries. well now you can use any part
+of cpan in your ocaml code.
+
+this package provides the runtime dynamic library necessary to use this
+in bytecode ocaml programs.

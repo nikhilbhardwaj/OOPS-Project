@@ -1,0 +1,11 @@
+James clark's sgml parsing tools
+	
+this package is a collection of sgml/xml tools called sp.
+
+these tools are used to parse, validate, and normalize sgml and xml
+files.  the central programs included in this package are 'nsgmls',
+which replaces sgmls, 'spam', 'spent', 'sgmlnorm', and 'sgml2xml'.
+
+
+ author:   james clark <jjc@jclark.com>
+ homepage: http://www.jclark.com/sp/

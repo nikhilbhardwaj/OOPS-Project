@@ -1,0 +1,8 @@
+Use otpw for pam authentication
+	
+otpw is a one-time password system which is robust against
+the password list being stolen and race for the last digit
+attacks.
+
+this package contains the pam library to use otpw in any
+program which uses pam.

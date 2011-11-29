@@ -1,0 +1,13 @@
+Library for managing ocaml libraries (runtime)
+	
+the "findlib" ocaml library provides a scheme to manage reusable
+software components (packages), and includes tools that support this
+scheme. packages are collections of ocaml modules for which
+metainformation can be stored. the packages are kept in the
+filesystem hierarchy, but with strict directory structure. the
+library contains functions to look the directory up that stores a
+package, to query metainformation about a package, and to retrieve
+dependency information about multiple packages.
+
+this packages contains files that are or may be needed at runtime by
+programs using findlib (meta files and dynamically-loadable files).

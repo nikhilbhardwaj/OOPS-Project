@@ -1,0 +1,16 @@
+Utility for ipmi control with kernel driver or lan interface
+	
+a utility for managing and configuring devices that support the
+intelligent platform management interface.  ipmi is an open standard
+for monitoring, logging, recovery, inventory, and control of hardware
+that is implemented independent of the main cpu, bios, and os.  the
+service processor (or baseboard management controller, bmc) is the
+brain behind platform management and its primary purpose is to handle
+the autonomous sensor monitoring and event logging features.
+
+the ipmitool program provides a simple command-line interface to this
+bmc.  it features the ability to read the sensor data repository
+(sdr) and print sensor values, display the contents of the system
+event log (sel), print field replaceable unit (fru) inventory
+information, read and set lan configuration parameters, and perform
+remote chassis power control.

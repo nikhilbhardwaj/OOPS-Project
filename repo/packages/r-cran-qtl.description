@@ -1,0 +1,28 @@
+Gnu r package for genetic marker linkage analysis
+	
+r/qtl is an extensible, interactive environment for mapping quantitative
+trait loci (qtls) in experimental crosses. it is implemented as an
+add-on-package for the freely available and widely used statistical
+language/software r (see http://www.r-project.org).
+
+the development of this software as an add-on to r allows to take
+advantage of the basic mathematical and statistical functions, and
+powerful graphics capabilities, that are provided with r. further,
+the user will benefit by the seamless integration of the qtl mapping
+software into a general statistical analysis program. the goal is to
+make complex qtl mapping methods widely accessible and allow users to
+focus on modeling rather than computing.
+
+a key component of computational methods for qtl mapping is the hidden
+markov model (hmm) technology for dealing with missing genotype data. we
+have implemented the main hmm algorithms, with allowance for the presence
+of genotyping errors, for backcrosses, intercrosses, and phase-known
+four-way crosses.
+
+the current version of r/qtl includes facilities for estimating
+genetic maps, identifying genotyping errors, and performing single-qtl
+genome scans and two-qtl, two-dimensional genome scans, by interval
+mapping (with the em algorithm), haley-knott regression, and multiple
+imputation. all of this may be done in the presence of covariates (such
+as sex, age or treatment). one may also fit higher-order qtl models by
+multiple imputation.

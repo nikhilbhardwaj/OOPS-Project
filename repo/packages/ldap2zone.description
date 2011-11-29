@@ -1,0 +1,5 @@
+Extract dns zones from ldap trees
+	
+this is a tool that reads info for a zone from ldap and constructs
+a standard plain ascii zone file. the ldap information has to be
+stored using the dnszone schema.

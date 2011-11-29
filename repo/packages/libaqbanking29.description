@@ -1,0 +1,5 @@
+Library for online banking applications
+	
+aqbanking provides a middle layer between the applications
+and online banking libraries implementing various file formats and protocols.
+plugins supporting ofx, dtaus, and hbci are available.

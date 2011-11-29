@@ -1,0 +1,11 @@
+The gnu bourne again shell
+	
+bash is an sh-compatible command language interpreter that executes
+commands read from the standard input or from a file.  bash also
+incorporates useful features from the korn and c shells (ksh and csh).
+
+bash is ultimately intended to be a conformant implementation of the
+ieee posix shell and tools specification (ieee working group 1003.2).
+
+the programmable completion code, by ian macdonald, is now found in
+the bash-completion package.

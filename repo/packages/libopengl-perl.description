@@ -1,0 +1,7 @@
+Perl interface providing graphics display using opengl
+	
+opengl is a perl module that provides an interface to most of open graphics
+library, api versions 1.0, 1.1 and 1.2. there is full support for the utility
+toolkit (glut) up to version 3 and provides some additional functionality via
+partial support for the utility library (glu). it also provides functionality
+to use the x window system (through x11 and glx) as an alternative to glut.

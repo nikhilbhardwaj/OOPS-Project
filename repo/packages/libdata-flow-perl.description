@@ -1,0 +1,11 @@
+Perl extension for simple-minded recipe-controlled build of data
+	
+data::flow allows you to define recipes for building data. a recipe
+contains all of the rules for determining the value of the data involved
+based on a set of defaults and/or interreactions with other pieces of
+data in an automated fashion. you can define any or all of:
+
+ - default values
+ - prerequisites (other fields that must have values before the field
+   in question can be determined)
+ - subroutines to build the field data given all requirements

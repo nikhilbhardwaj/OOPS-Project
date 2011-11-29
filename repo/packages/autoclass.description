@@ -1,0 +1,11 @@
+Automatic classification or clustering
+	
+autoclass solves the problem of automatic discovery of classes in data
+(sometimes called clustering, or unsupervised learning), as distinct
+from the generation of class descriptions from labeled examples
+(called supervised learning).  it aims to discover the "natural"
+classes in the data.  autoclass is applicable to observations of
+things that can be described by a set of attributes, without referring
+to other things.  the data values corresponding to each attribute are
+limited to be either numbers or the elements of a fixed set of
+symbols.  with numeric data, a measurement error must be provided.

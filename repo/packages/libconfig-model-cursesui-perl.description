@@ -1,0 +1,13 @@
+Curses interface to edit config data through config::model
+	
+config::model::cursesui provides a curses interface to the configuration
+editor provided by config::model.
+
+for instance, with this module, config::model and
+config::model::openssh, you get a curses configuration editor for
+sshd_config.
+
+this interface is used by config-edit program provided by
+config::model.
+
+see also http://config-model.wiki.sourceforge.net/

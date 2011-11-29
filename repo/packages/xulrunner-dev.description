@@ -1,0 +1,15 @@
+Development files for the gecko engine library
+	
+this library provides an  api for xul applications and gecko embedders.
+the gecko engine is the core of the mozilla.org applications such as
+firefox, thunderbird or seamonkey.
+
+gecko features include xpcom, networking, dom editing and transaction
+support, xbl, xul, svg, xslt, xml extras (xmlhttprequest and domparser),
+web services (soap), accessibility support, ipc services, gtkmozembed, etc.
+
+install this package if you wish to embed the gecko engine in your
+program or want to develop xpcom components.
+
+this package also provides the xulrunner software development kit in the
+same form as the one you may find on mozilla.org in /usr/lib/xulrunner/sdk.

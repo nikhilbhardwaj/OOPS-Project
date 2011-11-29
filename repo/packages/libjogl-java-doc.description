@@ -1,0 +1,15 @@
+Documentation for the java bindings for opengl
+	
+the jogl project hosts the development version of the java bindings for
+opengl (jsr-231), and is designed to provide hardware-supported 3d graphics
+to applications written in java. jogl is not the official reference
+implementation of the jsr, but an evolving workspace; snapshots are taken
+from this workspace which become the official reference implementations of
+the jsr. jogl is part of a suite of open-source technologies initiated by
+the game technology group at sun microsystems.
+
+jogl provides full access to the apis in the opengl 2.0 specification as
+well as nearly all vendor extensions, and integrates with the awt and swing
+widget sets.
+
+this package includes the api documentation for jogl package.

@@ -1,0 +1,7 @@
+Convert pfb into more compressible format and back
+	
+the package contains the two small tools pfb2t1c and t1c2pfb. pfb file
+(postscript type1) can be converted into t1c and back without losing
+information. the t1c files have the same size but are more compressible.
+
+this feature is very useful when packaging postscript type1 fonts.

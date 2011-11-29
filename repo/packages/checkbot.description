@@ -1,0 +1,6 @@
+Www link verifier
+	
+checkbot verifies links within a region of the world wide web. it
+checks all pages within an identified region, and all links within
+that region. after checking all links within the region, it will also
+check all links which point outside of the region, and then stop.

@@ -1,0 +1,12 @@
+Minimalistic plugin api for video effects, plugins collection
+	
+frei0r is a minimalistic plugin api for video sources and filters. the
+behavior of the effects can be controlled from the host by simple
+parameters. the intent is to solve the recurring reimplementation or
+adaptation issue of standard effects. it is not meant as a generic api for
+all kinds of video applications.
+
+frei0r plugins are used by several projects (e.g.: lives, veejay, open movie
+editor, freej, pure data visual junk tools, mlt framework).
+
+this package contains a collection of plugins.

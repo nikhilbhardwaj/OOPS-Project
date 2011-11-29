@@ -1,0 +1,9 @@
+Binary firmware for qlogic intelligent ethernet (3000 and 3100 series)
+	
+this package contains the binary firmware for qlogic (formerly netxen)
+intelligent network adapters supported by the netxen_nic and qlcnic
+drivers.
+
+contents:
+
+ * phanfw.bin

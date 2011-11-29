@@ -1,0 +1,7 @@
+Perl module collection for managing sax processors
+	
+xml::sax::machines provides a collection of apis that allow developers to
+build complex simple api for xml (sax) machines quickly and minimalistically.
+sax machines are a way to gather and manage sax processors. each machine can
+also be used individually as sax processors; they do not need to parse or
+write anything.

@@ -1,0 +1,6 @@
+Perl interface to the gtkspell library
+	
+libgtk2-spell-perl allows to use the gtkspell library in perl applications
+using a gtk2/gnome interface. it can be used in concert with gtk2::textview
+to provide highlighting of mis-spelled words and a right click pop-up menu
+with possible corrections.

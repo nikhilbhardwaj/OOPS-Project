@@ -1,0 +1,5 @@
+Extract images from postscript files
+	
+the script scans a postscript file and saves the lines between
+'%%begindocument: name' and '%%enddocument' to a new file named
+dir/name.

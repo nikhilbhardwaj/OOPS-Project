@@ -1,0 +1,6 @@
+Implementation of the jsp2.0 expression language interpreter
+	
+the jsp 2.0 specification provides a portable api for evaluating "el
+expressions": the classes and interfaces in the javax.servlet.jsp.el
+package describe and define programmatic access to the expression
+language evaluator. this package is an implementation of the api.

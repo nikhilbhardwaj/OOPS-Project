@@ -1,0 +1,11 @@
+Safer version of universal::isa
+	
+universal is base class for all classes in object oriented perl.
+universal::isa (isa stands for "is a") is method which can tell
+you if object is blessed in package or inherits from package.
+
+this module overloads universal::isa with a version that makes sure
+that, when called as a function on objects which override isa, isa will
+call the appropriate method on those objects
+
+in all other cases, the real universal::isa gets called directly.

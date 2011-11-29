@@ -1,0 +1,6 @@
+Lightweight distributed issue tracking system
+	
+ditrack is a free, open source, lightweight, distributed issue (bug,
+defect, ticket) tracking system using a subversion repository instead
+of a backend database. it is written in python and runs in unix
+environment (*bsd, linux, macos x).

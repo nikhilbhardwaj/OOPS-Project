@@ -1,0 +1,14 @@
+Search in pdf files for strings matching a regular expression
+	
+pdfgrep is a tool to search text in pdf files. it works similar to
+`grep'.
+
+features:
+
+ - search for regular expressions.
+ - support for some important grep options, including:
+   + filename output.
+   + page number output.
+   + optional case insensitivity.
+   + count occurrences.
+ - and the most important feature: color output!

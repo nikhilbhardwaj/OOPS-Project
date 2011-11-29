@@ -1,0 +1,15 @@
+Tryton application platform (stock forecast module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this package contains the module for the "forecast" model in inventory
+management.
+
+the forecast form allows to define the expected stock movement towards
+customers in any period of time in the future. a wizard allows to compute the
+expected quantities with respect to a period in the past. once the form
+confirmed, the corresponding moves are created and spread homogeneously across
+the period. those moves will allow other process to take forecasts into
+account.

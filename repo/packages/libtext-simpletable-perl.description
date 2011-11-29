@@ -1,0 +1,14 @@
+Perl module for creating simple eyecandy ascii tables
+	
+text::simpletable is a replacement for the text::asciitable module.
+
+if you need to create text tables like
+
+
+ .-------+------------.
+ | foob- | yadayaday- |
+ | arbaz | ada        |
+ '-------+------------'
+
+
+this module is for you.

@@ -1,0 +1,5 @@
+Extensible irc bot written in python
+	
+phenny is a lightweight irc bot with the usual facilities that one expects such
+as a wordnet interface and thesaurus lookups. modularly extensible with python
+and can reload modules on the fly.

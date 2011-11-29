@@ -1,0 +1,7 @@
+Debugging symbols for kdeadmin
+	
+this package contains the debugging symbols associated with kdeadmin.
+they will automatically be used by gdb for debugging kdeadmin-related
+issues.
+
+this package is part of the kde administration module.

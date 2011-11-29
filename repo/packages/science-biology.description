@@ -1,0 +1,11 @@
+Debian science biology packages
+	
+this metapackage will install debian science packages related to
+biology.  you might also be interested in the field::biology debtag.
+
+this metapackage makes use of the packages med-bio and med-bio-dev
+(for development of biological applications) which are maintained
+by debian med - another debian pure blend.  if you are a biologist
+you are most probably interested in the debian med project which
+deals with biology and medicine in much more detail then the more
+general debian science.

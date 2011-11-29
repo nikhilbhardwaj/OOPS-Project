@@ -1,0 +1,8 @@
+Mjpeg video plugin for libavifile
+	
+this package provides a plugin for the avifile library to de/encode
+mjpeg video streams -  this implementation is rather slower and
+serves just as a sample plugin implementation. usage of ffmpeg or
+win32 codecs is a better choice.
+
+in general you do not need this plugin.

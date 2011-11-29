@@ -1,0 +1,5 @@
+Io::lockedfile class - supply object methods for locking files
+	
+in its simplistic use, the io::lockedfile class gives us the same interface of
+the io::file class with the unique difference that the files we deal with are
+locked using the flock mechanism (using the flock function).

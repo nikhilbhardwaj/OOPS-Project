@@ -1,0 +1,34 @@
+Base plugins for audacious
+	
+audacious is a fork of beep-media-player which supports winamp skins
+and many codecs.
+
+in the default install, the following codecs are supported:
+
+
+ * mp3
+ * ogg vorbis
+ * aac and aac+
+ * flac
+ * windows media (wma)
+ * tta
+ * many module formats and much more!
+
+
+additionally, audacious is extendable through plugins, and contains
+other useful features like lirc support.
+
+this package contains the plugins for audacious.
+
+ * audio cd reading
+ * mpeg support (mp3)
+ * ogg vorbis support
+ * windows media support (wma)
+ * aac support
+ * flac support
+ * alac support
+ * wave support
+ * alsa output
+ * oss output
+ * disk writer output
+ * and many more!

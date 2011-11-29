@@ -1,0 +1,5 @@
+Site news plugin for jifty applications
+	
+jifty::plugin::sitenews provides a way to include site news in your jifty app.
+to use it, you will need to add a news model and alias the view somewhere
+from yourapp::view

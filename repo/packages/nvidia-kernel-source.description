@@ -1,0 +1,20 @@
+Nvidia binary kernel module source
+	
+this package provides the source for the nvidia xorg binary kernel module
+needed by nvidia-glx in a form suitable
+for use by module-assistant or kernel-package.
+the nvidia binary drivers provide optimized hardware acceleration of
+opengl applications via a direct-rendering x server for graphics cards
+using nvidia chip sets.  agp, pcie, sli, tv-out and flat panel displays
+are also supported.
+
+please read /usr/share/doc/nvidia-kernel-source/readme.debian.gz
+for building information.  if you want the kernel module to be automatically
+installed via dkms, install nvidia-kernel-dkms instead.
+
+this version only supports geforce 6xxx and higher of the geforce gpus
+plus complimentary quadros and nforce.  look at the legacy packages
+for older cards.
+
+see /usr/share/doc/nvidia-kernel-source/readme.txt.gz
+for a complete list of supported gpus and pci ids.

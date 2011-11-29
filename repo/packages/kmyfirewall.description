@@ -1,0 +1,12 @@
+Iptables based firewall configuration tool for kde
+	
+kmyfirewall attempts to make it easier to setup iptables based firewalls on
+linux systems. it will be the right tool if you like to have a so called
+"personal firewall" running on your linux box, but don't have the time and/or
+the interest to spend hours in front of the iptables manual just to setup a
+firewall that keeps the "bad" people out.
+
+there is also the possibility to save entire rule sets, so you only have to
+configure your rule set one time and then you can use it on several computers
+giving each of them a similar configuration (p.e. school networks, office,
+university etc.)

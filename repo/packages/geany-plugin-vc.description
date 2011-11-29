@@ -1,0 +1,15 @@
+Vcs plugin for geany
+	
+geanyvc is a plugin for geany that provides a uniform way of accessing the
+different version-control systems inside the geany ide. only a small subset of
+vc operations are implemented, which are:
+
+ * diff
+ * log
+ * status
+ * revert
+ * commit
+
+
+geany is a small and lightweight integrated development environment using the
+gtk+ toolkit.

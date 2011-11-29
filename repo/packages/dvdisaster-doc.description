@@ -1,0 +1,7 @@
+Data loss/scratch/aging protection for cd/dvd media (documentation)
+	
+dvdisaster provides a margin of safety against data loss on cd and dvd media
+caused by scratches or aging media. it creates error correction data which is
+used to recover unreadable sectors if the disc becomes damaged at a later time.
+
+this package contains the documentation.

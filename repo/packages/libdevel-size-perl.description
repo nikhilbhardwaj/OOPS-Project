@@ -1,0 +1,6 @@
+Perl extension for finding the memory usage of perl variables
+	
+devel::size figures out the real sizes of perl variables in bytes. call
+functions with a reference to the variable you want the size of. if the
+variable is a plain scalar it returns the size of the scalar. if the
+variable is a hash or an array, use a reference when calling.

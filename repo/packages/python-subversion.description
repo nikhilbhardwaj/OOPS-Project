@@ -1,0 +1,6 @@
+Python bindings for subversion
+	
+this is a set of python interfaces to libsvn, the subversion
+libraries.  it is useful if you want to, for example, write a python
+script that manipulates a subversion repository or working copy.  see
+the 'subversion' package for more information.

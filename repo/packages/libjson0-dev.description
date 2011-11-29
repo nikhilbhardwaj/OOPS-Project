@@ -1,0 +1,8 @@
+Json manipulation library - development files
+	
+this library allows you to easily construct json objects in c,
+output them as json formatted strings and parse json formatted
+strings back into the c representation of json objects.
+
+the development headers for compiling programs that use libjson-c
+are provided by this package.

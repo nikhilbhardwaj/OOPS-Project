@@ -1,0 +1,10 @@
+Open source load balance and fail over utility for tcp based services
+	
+crossroads is a daemon running in user space, and features extensive
+configurability, polling of back ends using 'wakeup calls', detailed status
+reporting, 'hooks' for special actions when backend calls fail, and much more.
+
+crossroads is service-independent: it is usable for http(s), ssh, smtp, dns,
+etc.. in the case of http balancing, crossroads can provide
+'session stickiness' for back end processes that need sessions, but aren't
+session-aware of other back ends.

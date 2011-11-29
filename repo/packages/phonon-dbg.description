@@ -1,0 +1,8 @@
+Phonon debugging symbols
+	
+phonon is the qt 4 multimedia api, which provides a task-oriented abstraction
+layer for capturing, mixing, processing, and playing audio and video content.
+
+this package contains debugging symbols of the phonon library and main
+backends you should install this package when you are about to report a crash
+or want to debug a problem with phonon or its backends.

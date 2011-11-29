@@ -1,0 +1,19 @@
+Printer drivers for cups
+	
+this package includes a cups driver based on gutenprint.
+
+the cups drivers contain all of the files needed to support
+photo-quality printing on any printer supported by gutenprint.  you
+can find out more about the common unix printing system ("cups"), an
+ipp-based printing system for unix/linux, at:
+
+
+  http://www.cups.org
+
+
+gutenprint is the print facility for the gimp, and in addition a
+suite of drivers that may be used with common unix spooling systems
+using ghostscript or cups.  these drivers provide printing quality
+for unix/linux on a par with proprietary vendor-supplied drivers in
+many cases, and can be used for many of the most demanding printing
+tasks.  gutenprint was formerly known as gimp-print.

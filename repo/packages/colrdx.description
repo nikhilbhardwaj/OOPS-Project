@@ -1,0 +1,6 @@
+Dx-cluster client with curses color support
+	
+colrdx is a simple client for amateur radio dx-clusters. in a split-screen
+display you can type commands for the cluster in the bottom part. messages
+from the dx-cluster will appear in the main window. there is also a status
+line at the top with some basic information.

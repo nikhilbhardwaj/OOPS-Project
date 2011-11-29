@@ -1,0 +1,9 @@
+Graphicals tool for pyro
+	
+pyro (python remote object) is an easy to use and powerful distributed object
+system for python.
+
+this package contains two graphical name server control tools:
+
+ - xnsc : built on top of the tk toolkit
+ - wxnsc : build in on top of wxwindows

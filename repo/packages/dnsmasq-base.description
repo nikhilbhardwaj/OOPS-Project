@@ -1,0 +1,5 @@
+A small caching dns proxy and dhcp/tftp server
+	
+this package contains the dnsmasq executable and documentation, but
+not the infrastructure required to run it as a system daemon. for
+that, install the dnsmasq package.

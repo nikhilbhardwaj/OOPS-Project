@@ -1,0 +1,9 @@
+Convert gnu info files to pod or man pages
+	
+this package provides the info2pod tool to convert gnu info documents into
+perl's pod (plain old documentation) format. from there, they can be
+converted to manual pages to be viewed by people who prefer conventional
+pagers to the standard info viewer or emacs.
+
+the info2man tool uses info2pod and pod2man to perform the conversion in
+one step.

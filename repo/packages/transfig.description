@@ -1,0 +1,10 @@
+Utilities for converting xfig figure files
+	
+this package contains utilities (mainly fig2dev) to handle xfig
+(facility for interactive generation of figures) files.
+
+it can convert them to box, cgm, epic, eepic, eepicemu, emf, eps,
+gif, ibmgl, jpeg, latex, map (html image map), mf (metafont), mp
+(metapost), mmp (multi-meta-post), pcx, pdf, pdftex, pdftex_t, pic,
+pictex, png, ppm, ps, pstex, pstex_t, ptk (perl/tk), sld (autocad
+slide format), textyl, tiff, tk (tcl/tk), tpic, xbm and xpm.

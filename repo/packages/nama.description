@@ -1,0 +1,24 @@
+Ecasound-based multitrack recorder/mixer
+	
+nama is a text-based application for multitrack
+recording, mixing and mastering using the ecasound
+audio engine developed by kai vehmanen.
+
+features include tracks, buses, effects, presets,
+sends, inserts, marks and regions. nama runs under jack and
+alsa audio frameworks, automatically detects ladspa plugins,
+and supports ladish level 1 session handling.
+
+all editing under nama is non-destructive. effects are
+generally applied in realtime. a track caching (track
+freezing) function is also available.
+
+the command prompt accepts nama commands, ecasound
+interactive-mode commands, shell commands and perl code,
+providing command history and autocompletion.  the help
+system covers internal commands and ladspa effects and
+includes keyword search.
+
+by default, nama displays a simple graphic interface while
+the command processor runs in a terminal window. the -t
+option provides a text-only interface for console users.

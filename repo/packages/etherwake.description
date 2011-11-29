@@ -1,0 +1,10 @@
+A little tool to send magic wake-on-lan packets
+	
+you can wake up wol compliant computers which have been powered down to
+sleep mode or start wol compliant computers with a bios feature.
+
+wol is an abbreviation for wake-on-lan. it is a standard that allows you
+to turn on a computer from another location over a network connection.
+
+a feature etherwake seperates from other implementations is, that it also
+supports wol passwords.

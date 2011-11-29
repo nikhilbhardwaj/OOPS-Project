@@ -1,0 +1,7 @@
+Traces the route taken by packets over an ip network (transitional package)
+	
+package to ease upgrading from older traceroute-nanog packages to the new
+traceroute package.
+
+this package can be purged at anytime once the traceroute package has been
+installed.

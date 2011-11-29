@@ -1,0 +1,16 @@
+Daemon to balance interrupts for smp systems
+	
+irqbalance is a daemon that distributes interrupts over the processors
+and cores you have in your computer system, which can lead to better
+performance and io balance on smp systems.
+
+the design goal of irqbalance is to find a balance between power
+savings and optimal performance. to a large degree, the work
+irqbalance does is invisible to you; if irqbalance performs its job
+right, nobody will ever notice it is there.
+
+irqbalance is especially useful on systems with multi-core processors,
+as interrupts will typically only be serviced by the first core.
+
+irq load balancing isn't worthwhile until you have more than one
+socket, or more than two cpu cores.

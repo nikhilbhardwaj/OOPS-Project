@@ -1,0 +1,9 @@
+Audio analysis and feature extraction plugins (api documentation)
+	
+vamp is an audio processing plugin system for plugins that extract
+descriptive information from audio data - typically referred to as
+audio analysis plugins or audio feature extraction plugins.
+
+this package contains api specification for vamp plugins and
+documentation for libraries provided by the libvamp-hostsdk3 and
+libvamp-sdk2 packages.

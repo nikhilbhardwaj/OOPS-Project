@@ -1,0 +1,6 @@
+Simple gobject-based api to run programs as root
+	
+this library provides a simple gobject-based api to run programs as
+root, even in x-based environments.
+
+it uses a d-bus service to actually perform the work.

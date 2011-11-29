@@ -1,0 +1,4 @@
+PackageId:31976
+Name:spip
+Version:2.1.1-3squeeze1
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libjs-jquery,php-html-safe,php5,php5-mysql

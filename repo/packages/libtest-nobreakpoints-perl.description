@@ -1,0 +1,5 @@
+Module to test that files do not contain soft breakpoints
+	
+test::nobreakpoints is a perl module useful as part of a module's release
+testing that ensures that files do not contain soft breakpoints for the perl
+debugger (such as $db::single or $db::signal).

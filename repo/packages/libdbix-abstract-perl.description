@@ -1,0 +1,19 @@
+Dbi sql abstraction
+	
+this module provides methods for retrieving and storing data in sql
+databases.  it provides methods for all of the more important sql
+commands (like select, insert, replace, update, delete).
+
+it endeavors to produce an interface that will be intuitive to those
+already familiar with sql.
+
+notable features include:
+
+ * data_source generation for some dbd drivers.
+ * can check to make sure the connection is not stale and reconnect if
+   it is.
+ * controls statement handles for you.
+ * can delay writes.
+ * generates complex where clauses from hashes and arrays.
+ * shortcuts (convenience functions) for some common cases. (like
+   select_all_to_hashref.)

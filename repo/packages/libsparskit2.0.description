@@ -1,0 +1,10 @@
+A basic tool-kit for sparse matrix computations - runtime
+	
+sparskit a basic tool-kit for sparse matrix computations. sparskit is a
+general purpose fortran-77 library for sparse matrix computations. it has
+been gathered over several years and includes some of the most useful tools
+for developing and implementing sparse matrix techniques, particularly for
+iterative solvers. if you need a simple routine for doing a sparse matrix
+operation (e.g., adding two sparse matrices, or reordering a sparse matrix)
+it is likely to be available in sparskit. sparskit also contains most of
+the iterative accelarators and a number of efficient preconditioners.

@@ -1,0 +1,12 @@
+Graphical vrml97/x3d viewer, editor, 3d modeller and animation tool
+	
+whitedune can read vrml97 files, display and let the user change the
+scenegraph and all fields of all nodes.
+
+the most powerful 3d modelling features of whitedune support the
+vrml97 amendment1 style nurbs nodes and superformula based protos.
+this is mainly convenient for building some rounded shapes.
+
+whitedune supports some 3d inputdevices like joysticks, gamepads
+or all devices supported via the xinput protocol and also quadbuffer stereo
+visuals.

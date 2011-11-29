@@ -1,0 +1,8 @@
+Tools to backup a debian or alien linux installation
+	
+tools and documentation to backup a debian or alien linux
+distribution to a bootable debian bootcd.
+if you only want to backup an alien linux distribution just download
+ftp://bootcd.alioth.debian.org/pub/bootcd/bootcdbackupwizard.tar.gz
+on the alien linux distribution, untar it and follow the readme.
+to create bootcdbackupwizard.tar.gz and to learn more, install this package.

@@ -1,0 +1,5 @@
+Perl module for testing external commands
+	
+test::command lets you write tests that examine the exit status, stdout
+and stderr of any program helping you determine if it is behaving as
+expected.

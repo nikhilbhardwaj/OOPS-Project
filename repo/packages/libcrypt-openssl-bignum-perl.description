@@ -1,0 +1,6 @@
+Access openssl multiprecision integer arithmetic libraries
+	
+presently, many though not all of the arithmetic operations that openssl
+provides are exposed to perl cia crypt::openssl::bugnum.  in addition, this
+module can be used to provide access to bignum values produced by other
+openssl modules, such as key parameters from crypt::openssl::rsa.

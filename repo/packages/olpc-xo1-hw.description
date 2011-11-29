@@ -1,0 +1,6 @@
+Support for olpc xo-1 hardware
+	
+this package contains necessary scripts and other things to support olpc's
+xo-1 hardware.  this hardware is a mix between a laptop and an embedded
+device, and it has some pretty quirky hardware.  thus, it needs some
+special handling.

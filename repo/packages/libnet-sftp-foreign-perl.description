@@ -1,0 +1,7 @@
+Client for the secure file transfer protocol
+	
+net::sftp::foreign is a perl client for the secure file transfer protocol,
+providing a subset of commands listed in the ietf draft, which can be found
+at <url:http://www.openssh.org/txt/draft-ietf-secsh-filexfer-02.txt>. it uses
+any compatible ssh command installed on your system (for instance, openssh)
+to establish a connection to the remote server.

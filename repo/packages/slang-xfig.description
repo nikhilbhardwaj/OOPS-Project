@@ -1,0 +1,6 @@
+Produce plots and drawings through xfig's fig2dev in s-lang
+	
+slxfig is a s-lang module that produces plots, drawings, etc in a
+variety of formats (.ps, .eps, .png, .jpeg, etc). it accomplishes this
+via s-lang scripts that automatically run xfig's fig2dev and latex to
+produce the desired output format.

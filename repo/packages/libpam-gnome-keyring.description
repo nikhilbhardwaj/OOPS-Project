@@ -1,0 +1,13 @@
+Pam module to unlock the gnome keyring upon login
+	
+gnome-keyring is a daemon in the session, similar to ssh-agent,
+and other applications can use it to store passwords and other
+sensitive information.
+
+this package contains a pam module that will automatically unlock the
+keyrings using your login password, making gnome-keyring usage
+transparent without losing its security benefits.
+
+when installed, this module will automatically be used by gdm and
+gnome-screensaver to unlock your keyrings when logging in and when
+unlocking the screen saver.

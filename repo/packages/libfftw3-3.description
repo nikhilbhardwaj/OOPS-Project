@@ -1,0 +1,10 @@
+Library for computing fast fourier transforms
+	
+the fftw library computes fast fourier transforms (fft) in one or more
+dimensions. it is extremely fast. this package contains the shared library
+versions of the fftw libraries in single, double and long double precisions.
+note that on some architectures double is the same as long double in which
+case there is no long double library.
+
+to get the static library and the header files, you need to install
+libfftw3-dev. for documentation, see libfftw3-doc.

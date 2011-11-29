@@ -1,0 +1,28 @@
+Gnu r libraries contributed by jim and patrick lindsey
+	
+r is `gnu s' - a language and environment for statistical computing
+and graphics. r is similar to the award-winning s system, which was
+developed at bell laboratories by john chambers et al. it provides a
+wide variety of statistical and graphical techniques (linear and
+nonlinear modelling, statistical tests, time series analysis,
+classification, clustering, ...).
+
+this is a collection of libraries for r that implement various nonlinear
+regression and repeated measurements models.  the following libraries
+are included (all authored by jim lindsey, except as noted):
+
+
+ rmutil - utilities for nonlinear regression and repeated measurements
+ gnlm - generalized nonlinear regression models
+ stable - probability functions and generalized regression models for
+          stable distributions
+ growth - multivariate normal and elliptically-contoured repeated
+          measurements models
+ repeated - non-normal repeated measurements models
+ event - event history procedures and models
+ ordinal - repeated measures library for ordinal data
+          (by patrick lindsey)
+
+
+more information about these libraries is available at
+http://popgen.unimaas.nl/~jlindsey/rcode.html

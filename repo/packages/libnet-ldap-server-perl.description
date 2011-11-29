@@ -1,0 +1,6 @@
+Ldap server-side protocol handling in perl
+	
+net::ldap::server provides the protocol handling for an ldap server.
+you can subclass it and implement the request types you need.  once
+you accept a connection (e.g. using net::daemon), net::ldap::server
+takes care of decoding client requests and encoding your replies.

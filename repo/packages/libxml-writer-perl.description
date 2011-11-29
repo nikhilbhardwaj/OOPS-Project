@@ -1,0 +1,21 @@
+Perl module for writing xml documents
+	
+xml::writer is a helper module for perl programs that write an xml
+document.  the module handles all escaping for attribute values and
+character data and constructs different types of markup, such as
+tags, comments, and processing instructions.
+
+by default, the module performs several well-formedness checks to
+catch errors during output.  this behaviour can be extremely useful
+during development and debugging, but it can be turned off for
+production-grade code.
+
+the module can operate either in regular mode in or namespace
+processing mode.  in namespace mode, the module will generate
+namespace declarations itself, and will perform additional checks on
+the output.
+
+additional support is available for a simplified data mode with no
+mixed content: newlines are automatically inserted around elements
+and elements can optionally be indented based as their nesting
+level.

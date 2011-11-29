@@ -1,0 +1,5 @@
+Dns server that pulls data from an ldap directory
+	
+ldapdns is a ultra-fast, stable, multithreaded dns server that pulls
+data from an ldap directory. it supports rfc1279 (bind-style),
+microsoft active directory, and its own directory layouts.

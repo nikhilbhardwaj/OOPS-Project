@@ -1,0 +1,10 @@
+Record interaction with websites
+	
+http::recorder allows your perl program to record the interaction with
+websites (ssl and non-ssl). you set http::recorder as the user agent for
+a proxy, and it will rewrite http responses so that additional requests
+can be recorded.
+
+the interaction is recorded in a script suitable for www::mechanize. if
+a javascript-enabled browser is being used, the script can be examined
+an modified as it is being recorded.

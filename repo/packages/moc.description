@@ -1,0 +1,13 @@
+Ncurses based console audio player
+	
+moc (music on console) is a full-screen player designed to be powerful
+and easy to use.
+
+supported file formats are: mp3, ogg vorbis, flac, wave, speex, musepack (mpc),
+aiff, au, wma (and other less popular formats supported by libsndfile).
+new formats support is under development.
+
+other features: simple mixer, colour themes, searching the menu (the playlist
+or a directory) like m-s in midnight commander, the way moc creates titles
+from tags is configurable, optional character set conversion for file tags
+using iconv(), oss or alsa output.

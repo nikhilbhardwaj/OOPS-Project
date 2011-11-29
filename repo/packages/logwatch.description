@@ -1,0 +1,12 @@
+Log analyser with nice output written in perl
+	
+logwatch is a modular log analyser that runs every night
+and mails you the results. it can also be run from command line.
+
+the output is by service and you can limit the output to one particular
+service. the subscripts which are responsible for the output, mostly
+convert the raw log lines in structured format.
+
+logwatch generally ignores the time component in the output, that means,
+you will know that the reported event was logged in the requested range of
+time, but you will have to go to the raw log files to get the exact details.

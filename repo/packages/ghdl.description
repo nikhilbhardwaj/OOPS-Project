@@ -1,0 +1,15 @@
+Vhdl compiler/simulator using gcc technology
+	
+(description from the ghdl home page <http://ghdl.free.fr>):
+
+ghdl is a vhdl simulator, using the gcc technology.
+
+vhdl is a language standardized by the ieee, intended for developing
+electronic systems.
+
+ghdl implements the vhdl language according to the ieee 1076-1987 or
+the ieee 1076-1993 standard. ghdl compiles vhdl files and creates a
+binary which simulates (or executes) your design.
+
+ghdl does not do synthesis: it cannot translate your design into a
+netlist.

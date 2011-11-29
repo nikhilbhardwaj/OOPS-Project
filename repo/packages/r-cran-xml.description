@@ -1,0 +1,13 @@
+Gnu r package for xml parsing and generation
+	
+this package provides facilities for the r language to
+
+
+ * parse xml files, urls and strings, using either the dom (document
+   object model)/tree-based approach, or the event-driven sax (simple
+   api for xml) mechanism;
+ * generate xml content to buffers, files, urls, and internal xml trees;
+ * read dtds as r objects.
+
+
+url: http://www.omegahat.org/rsxml

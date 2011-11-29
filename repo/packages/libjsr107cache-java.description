@@ -1,0 +1,5 @@
+Java api for caching
+	
+jsr107 specifies api and semantics for temporary, in memory caching
+of java objects, including object creation, shared access, spooling,
+invalidation, and consistency across jvm's.

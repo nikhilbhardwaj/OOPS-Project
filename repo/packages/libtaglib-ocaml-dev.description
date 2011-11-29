@@ -1,0 +1,8 @@
+Ocaml bindings for the taglib audio meta-data library -- devel
+	
+taglib is a library for reading and editing the meta-data of several popular
+audio formats. this package provides ocaml interface to
+the c library.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use taglib.

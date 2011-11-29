@@ -1,0 +1,6 @@
+Dicom implementation containing image viewer and a ecg viewer
+	
+this is a stand-alone dicom toolkit that implements code for reading
+and creating dicom data, dicom network and file support, a database of
+dicom objects, support for display of directories, images, reports and
+spectra, and dicom object validation.

@@ -1,0 +1,10 @@
+Gnu r foreach looping support
+	
+this package provides support for the foreach looping construct.
+foreach is an idiom that allows for iterating over elements in a
+collection, without the use of an explicit loop counter.  this package
+in particular is intended to be used for its return value, rather
+than for its side effects.  in that sense, it is similar to the
+standard lapply function, but doesn't require the evaluation of
+a function.  using foreach without side effects also facilitates
+executing the loop in parallel.

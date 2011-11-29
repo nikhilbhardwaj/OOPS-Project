@@ -1,0 +1,5 @@
+Firmware for marvell's libertas wireless chip series
+	
+the linux 2.6 libertas drivers requires these firmwares in order to properly
+drive marvell 8388, 8686, and other wireless chips.  this includes firmware
+with mesh support, as well as the thinfirm driver (libertas_tf).

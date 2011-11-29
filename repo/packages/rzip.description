@@ -1,0 +1,8 @@
+Compression program for large files
+	
+rzip is a compression program able to take advantage of
+long distance redundancies in files, allowing greater
+compression ratios.  rzip uses a history buffer of up to
+900mb, while gzip uses 32kb and bzip2 uses 900kb.  rzip
+cannot read from the standard input or write to the
+standard output.

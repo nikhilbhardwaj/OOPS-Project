@@ -1,0 +1,12 @@
+Email gateway for virus scanning, spam and phishing detection
+	
+mailscanner is a email gateway virus-scanner and spam and
+phishing-detector. it uses exim, sendmail or postfix as its basis,
+and supports clamav and some commercial virus scanning engines to do
+the actual virus scanning. for spam dectection mailscanner uses
+spamassassin.
+
+the action taken on virus, spam or phishing mails can be configured
+with a flexible ruleset based on sender, receiver, scoring etc.
+
+virus checking is disabled and spam checking is enabled by default.

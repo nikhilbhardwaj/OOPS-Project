@@ -1,0 +1,6 @@
+Robust enumerated type support in python
+	
+an enumeration object is an immutable sequence object built from a sequence
+of strings. each value is also available as an attribute.
+such values are constant. comparisons and enumeration are
+supported.

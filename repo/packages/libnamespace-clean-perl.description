@@ -1,0 +1,10 @@
+Module for keeping imports and functions out of the current namespace
+	
+namespace::clean is a perl pragma for keeping imported functions out of the
+current namespace. this is especially important because perl functions are
+naturally available as methods, which can complicate subclassing.
+
+using the namespace::clean pragma will remove all previously declared or
+imported symbols at the end of the current package's compile cycle. this
+means that functions called in the package itself will still be bound by
+their name, but they won't show up as methods on your class or instances.

@@ -1,0 +1,10 @@
+Module to manage a person's identities/roles
+	
+user::identity is a perl module that provides a set of informational classes
+which are related to one user. this module attempts to be smart at providing
+defaults, conversions and often required combinations.
+
+the identities do not implement any kind of storage, so they can be used by
+any perl program. as a result, it is more flexible than an xml file to store
+the data. for instance, you can choose to store the data using data::dumper,
+storable, dbi, addressbook, etc.

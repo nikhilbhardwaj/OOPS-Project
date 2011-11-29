@@ -1,0 +1,9 @@
+C-based curses widget library
+	
+cdk stands for "curses development kit".  cdk sits on top of the curses
+library and provides 22 ready to use widgets for rapid application
+development of text-based interfaces.  cdk delivers many of the common
+widget types required for a robust interface.  widgets can be combined
+to create complex widgets if needed.
+
+home page: http://invisible-island.net/cdk/

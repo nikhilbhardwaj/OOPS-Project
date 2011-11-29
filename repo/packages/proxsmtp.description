@@ -1,0 +1,13 @@
+Multi purpose smtp proxy
+	
+proxsmtp is a flexible tool that allows you to reject, change or log email
+based on arbitrary critera.  it accepts smtp connections and forwards the smtp
+commands and responses to another smtp server.  the 'data' email body is
+intercepted and filtered before forwarding.
+
+you need to be able to write the filtering scripts that integrate it with your
+particular needs.  if you're looking for something that does virus filtering,
+take a look at clamsmtp which behaves similarly and uses a similar code base.
+
+you do not need a local mail-transport-agent installed, since this server can
+forward to a remote one.

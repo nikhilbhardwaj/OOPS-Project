@@ -1,0 +1,7 @@
+Napster console client
+	
+the advantage of nap over other graphical clients like gnome-napster
+is that you can run it under screen(1) on a remote host and disconnect
+from your session while nap continues the downloads. you can later
+reconnect to your running client even from another host and do more
+commands.

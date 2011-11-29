@@ -1,0 +1,22 @@
+Vector-based drawing program
+	
+inkscape loads and saves a subset of the svg (scalable vector graphics)
+format, a standard maintained by the www consortium.
+
+inkscape user interface should be familiar from coreldraw and similar
+drawing programs. there are rectangles, ellipses, text items, bitmap
+images and freehand curves.
+as an added bonus, both vector and bitmap objects can have alpha
+transparency and can be arbitrarily transformed.
+
+inkscape supports multiple opened files and multiple views per file.
+graphics can be printed and exported to png bitmaps.
+
+some of the import and export features are provided using the packages
+dia, libwmf-bin, pstoedit, skencil, imagemagick, and perlmagick.
+
+other extensions use ruby, libxml-xql-perl, python-numpy, and python-lxml.
+you must have these packages to make full use of all extensions and effects.
+
+if you want to use the spellchecker, you have to install aspell and the
+respective language-pack, e.g. aspell-en or aspell-de.

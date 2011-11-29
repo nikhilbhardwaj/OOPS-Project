@@ -1,0 +1,11 @@
+C source code utilities
+	
+this package contains several utilities which may be useful to
+developers of c source code utilities, namely:
+
+ cdecl and cundecl - decode and encode c type declarations
+ cobfusc - make a c source file unreadable but compilable
+ chilight - highlight c source files
+ cunloop - unloop c loops
+ yyextract - extract grammar rules from yacc grammar
+ yyref - yacc grammar reference program

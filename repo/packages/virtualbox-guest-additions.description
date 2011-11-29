@@ -1,0 +1,9 @@
+Guest additions iso image for virtualbox
+	
+virtualbox is a free x86 virtualization solution allowing a wide range of
+x86 operating systems such as windows, dos, bsd or linux to run on a
+linux system.
+
+this package provides an iso image which contains the guest additions
+for linux, solaris and windows to be installed on the host system. the guest
+systems then can mount the iso and install the guest additions from there.

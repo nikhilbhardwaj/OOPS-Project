@@ -1,0 +1,20 @@
+Alsa sound mixer for gnome
+	
+a "volume control" application. you can use it to adjust the volume
+of different sound sources of your sound card.
+
+it has a nice graphical user interface and a lot of features:
+
+
+ - access to all of your computers sound cards and audio sources
+ - possibility to give them custom names
+ - only display the mixer controls you need
+ - access to all the extra features some sound cards offer, like
+   3d enhancement, microphone gain boost...
+ - and more
+
+
+this application uses the alsa sound api, you cannot use it if you
+use the (older) oss drivers for your sound card(s). in return, it
+gives you access to all the functionality alsa provides with the
+"alsamixer" program, found in the "alsa-utils" package.

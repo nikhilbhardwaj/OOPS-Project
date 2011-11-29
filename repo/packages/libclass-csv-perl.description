@@ -1,0 +1,8 @@
+Class based csv parser/writer
+	
+this module can be used to create objects from csv files, or to create csv
+files from objects. text::csv_xs is used for parsing and creating csv file
+lines, so any limitations in text::csv_xs will of course be inherant in this
+module.
+
+this description was automagically extracted from the module by dh-make-perl.

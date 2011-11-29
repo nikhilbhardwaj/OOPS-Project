@@ -1,0 +1,6 @@
+Find uris which may be wrapped in enclosing delimiters
+	
+works like uri::find, but is prepared for uris in your text to be
+wrapped in a pair of delimiters and optionally have a title. this will
+be useful for processing text that already has some minimal markup in
+it, like bulletin board posts or wiki text.

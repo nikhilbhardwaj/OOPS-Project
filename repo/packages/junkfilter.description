@@ -1,0 +1,8 @@
+A junk-email filtering program for procmail
+	
+this package uses procmail filtering algorithms to detect junk email. this
+results in internal procmail variables being assigned to indicate the reason
+why the email has been classified as junk. the user can then use those
+variables within their .procmailrc file to deal with the junk in any way
+they see fit. there are a number of filters available in the package, and
+can be selected from a simple config file on a per-user basis.

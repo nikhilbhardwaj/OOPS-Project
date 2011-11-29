@@ -1,0 +1,5 @@
+Basic infrastructure for text console configuration
+	
+this package contains the install-keymap(8) utility, which is the
+recommended tool to specify a boot-time keymap to the system, as well
+as tools for internal use of keymap-providing packages.

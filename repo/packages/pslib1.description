@@ -1,0 +1,7 @@
+Library to create postscript files
+	
+pslib is a library to create postscript files. it offers many drawing
+primitives, image output and very sophisticated text rendering.
+it can read external type1 fonts and embed them into the output file.
+it supports pdfmarks which makes it in combination with ghostscript's
+pdfwriter an alternative for libraries creating pdf.

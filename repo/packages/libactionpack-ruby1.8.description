@@ -1,0 +1,7 @@
+Controller and view framework used by rails
+	
+action pack splits the response to a requests into a controller part
+(performing the logic) and a view part (rendering a template). this two-step
+approach is known as an action, which will normally create, read, update, or
+delete (crud for short) some sort of model part (often backed by a database)
+before choosing either to render a template or redirecting to another action.

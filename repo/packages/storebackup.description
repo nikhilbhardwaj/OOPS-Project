@@ -1,0 +1,16 @@
+Fancy compressing managing checksumming hard-linking cp -ua
+	
+copies directory hierarchies recursively into another location,
+by date (e.g.  /home/ => /var/bkup/2002.12.13_04.27.56/).
+permissions are preserved, so users with access to the backup
+directory can recover their files themselves.
+
+file comparisons are done with md5 checksums, so no changes go
+unnoticed.
+
+hard-links unchanged backuped files to old versions and
+identical files within the backuped tree.
+
+compresses large files (that don't match exclusion patterns).
+
+manages backups and removes old ones.

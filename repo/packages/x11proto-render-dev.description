@@ -1,0 +1,11 @@
+X11 render extension wire protocol
+	
+this package provides development headers describing the wire protocol for
+the render extension, used to implement porter-duff operations within x.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org renderproto proto module.

@@ -1,0 +1,7 @@
+Qt wrapper library for subversion
+	
+this package provides svnqt, a qt wrapper library around the
+subversion library.
+
+it is based on the rapidsvn svncpp library, a subversion client api
+written in c++.

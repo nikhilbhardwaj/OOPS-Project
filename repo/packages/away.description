@@ -1,0 +1,16 @@
+A terminal locking program
+	
+away is a simple program that locks your terminal, checks for new
+mail in any given number of mailboxes, and lets others know why you
+are inactive.
+
+away puts the message specified why your are away into the output of
+the 'w' command, so that users looking for you can see that and why you
+are away (and not only idle for some time)
+
+away will also notify you if you have new mail. by default away only
+checks for mail in a user's $mail file, but by using the awayrc file,
+a user can configure any given number of mailboxes to be checked.
+
+away also uses pam to lock your terminal in the way xlock locks an x11
+session.

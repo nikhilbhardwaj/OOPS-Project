@@ -1,0 +1,12 @@
+A collection of utilities for manipulating openexr images
+	
+exrtools is a set of simple command-line utilities for manipulating
+with high dynamic range images in openexr format.  openexr is a high
+dynamic-range (hdr) image file format developed by industrial light &
+magic for use in computer imaging applications.
+
+exrtools was developed to help experiment with batch processing of hdr
+images for tone mapping.  each application is small and reasonably
+self-contained such that the source code may be of most value to others.
+
+you can find more information at http://scanline.ca/exrtools/

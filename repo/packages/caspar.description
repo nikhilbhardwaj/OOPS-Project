@@ -1,0 +1,17 @@
+Makefile snippets for common tasks
+	
+caspar offers makefile snippets for tasks like installing files you maintain
+using a version control system, or typesetting documents in some markup
+language.
+
+if you need to maintain and distribute lots of files (system configuration
+files for unix hosts using a version control system, e.g.), caspar is likely
+useful for you.
+
+if you write documents in a markup language like latex, docbook
+xml, docbook sgml or pod, and want to automate the typesetting, you'll
+like caspar.  install all suggested packages if you'd like to use this
+typesetting functionality (or pick the suitable ones from the list of
+suggested packages).
+
+it's not strictly necessary to know how to write makefiles when using caspar.

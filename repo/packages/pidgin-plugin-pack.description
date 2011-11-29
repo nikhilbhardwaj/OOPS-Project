@@ -1,0 +1,99 @@
+Collection of pidgin plugins
+	
+plugin pack is a collection of many simple-yet-useful plugins for pidgin.
+a brief description of each is below. for more information about an individual
+plugin, please see http://plugins.guifications.org/trac/wiki/pluginpack
+
+/exec: execute commands and optionally send their output in an im/chat window.
+
+autoprofile: user profile and status message content generator.
+
+album: archives all buddy icons for all buddies in the user's buddy list.
+
+auto reply: auto-replies on any protocol, also can be specific to each buddy.
+
+bash.org: provides links to random or select quotes on bash.org and qdb.us.
+
+buddy list options: options to hide buddy list on creation and hide menu in it.
+
+colorize: colorizes outgoing message text.
+
+conversation badge: shows the protocol icon in the conversation menu tray.
+
+dewysiwygification: allows user to type in html without it being rendered.
+
+dice: simulates the rolling of dice.
+
+difftopic: shows changes when the topic is changed in a chatroom.
+
+magic 8 ball: shows random expressions from a magic 8 ball toy.
+
+enhanced history: an enhanced version of the history plugin.
+
+flip: flips a coin and shows the result in the current conversation.
+
+grim: annoy your buddies with a timed series of messages.
+
+google: writes the results of an "i'm feeling lucky" search to a conversation.
+
+group im: send an im to a group of buddies
+
+highlight: adds support for highlighting user specified words.
+
+ignore: ignore either all or just chat communication from a specific person.
+
+infopane: use different views for the "details" information  in conversations.
+
+irc helper: handles the rough edges of the irc protocol.
+
+irc more: adds a couple options to the irc protocol:
+
+       - customized default quit/part messages.
+       - a ctcp version reply.
+
+
+irssi features: implements many features of irssi:
+
+       - day change notifications
+       - /window, /layout, /lastlog commands
+       - auto-text formatting
+
+
+list handler: import and export buddy lists in various formats.
+
+chat user list logging: logs the list of users in a chat when you join.
+
+my status box: per-account status selectors with other features.
+
+napster: napster protocol plugin.
+
+nick said: to jump to where your name or other words were said in a chat.
+
+old logger: stores buddy logs in flat files (legacy format).
+
+plonkers: announce your ignore list to a chat room and other privacy features.
+
+purple schedule: schedule reminders at specific times.
+
+separate and tab: adds two new window positioning methods.
+
+sim fix: fixes messages received from buddies using broken sim clients.
+
+simple network paging protocol (snpp):
+
+    allows sending to pager servers (like sendpage or qpage) via snpp.
+
+
+message splitter: splits sent messages into smaller ones of a specified size.
+
+ssl info: adds a menu item to display info about the ssl plugin in use.
+
+switch spell: allows changing the spell-check language for each conversation.
+
+timelog: view pidgin logs that fall within specific time ranges.
+
+xchat chats: makes pidgin use xchat's indented view.
+
+xmpp priority: adds account options that allow users to specify the priorities
+
+    used for available and away for xmpp accounts.

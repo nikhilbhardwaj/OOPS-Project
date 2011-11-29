@@ -1,0 +1,9 @@
+Embedded gnu c library: shared libraries [v9b optimized]
+	
+contains the standard libraries that are used by nearly all programs on
+the system. this package includes shared versions of the standard c
+library and the standard math library, as well as many others.
+
+this set of libraries is optimized for the ultrasparc v9b abi. it only
+needs to be installed on ultrasparc machines. if you install this on a
+non-ultrasparc, it won't even be used.

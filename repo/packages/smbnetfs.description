@@ -1,0 +1,5 @@
+User-space filesystem for smb/nmb (windows) network servers and shares
+	
+a user-space filesystem that contains an entire smb/nmb network under a single
+mount point. workgroups, servers and shares can be browsed much like the
+network neighbourhood in microsoft windows.

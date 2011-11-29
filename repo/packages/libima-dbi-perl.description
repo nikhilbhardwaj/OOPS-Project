@@ -1,0 +1,17 @@
+Database connection caching and organization
+	
+ima::dbi attempts to organize and facilitate caching and more
+efficient use of database connections and statement handles.
+
+one of the things that can be annoying about writing large programs
+with dbi is making sure that you do not have duplicate database
+handles open. there is also the issue of the somewhat wasteful nature
+of the prepare/execute/finish route that users tend to go through.
+
+the new dbi->connect_cached and dbi->prepare_cached help a lot, but
+you still have to throw around global information about the data
+source, username and password.
+
+so, after a while the author grew a small library of dbi helper
+routines and techniques.  ima::dbi is the culmination of all this,
+put into a nice(?), clean(?) class to be inherited from.

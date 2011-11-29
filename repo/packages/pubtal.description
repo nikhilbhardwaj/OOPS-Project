@@ -1,0 +1,7 @@
+A template driven web site builder for small sites
+	
+pubtal uses the zpt language from zope and input plugins to
+generate a web site, maintaining content separate from presentation.
+
+input can be provided in several formats, including plain text, abiword,
+and textile, if the python-textile package is installed.

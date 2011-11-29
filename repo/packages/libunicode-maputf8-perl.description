@@ -1,0 +1,21 @@
+Perl module for conversing between any character sets and utf8
+	
+this module provides an adapter layer between core routines for
+converting to and from utf8 and other encodings.  in essence, a way
+to give multiple existing unicode modules a single common interface
+so you don't have to know the underlying implementations to do
+simple utf8 to-from other character set encoding conversions.  as
+such, it wraps the unicode::string, unicode::map8, unicode::map and
+jcode modules in a standardized and simple api.
+
+this also provides general character set conversion operation based
+on utf8 - it is possible to convert between any two compatible and
+supported character sets via a simple two step chaining of
+conversions.
+
+as with most things perlish - if you give it a few big chunks of text
+to chew on instead of lots of small ones it will handle many more
+characters per second.
+
+by design, it can be easily extended to encompass any new charset
+encoding conversion modules that arrive on the scene.

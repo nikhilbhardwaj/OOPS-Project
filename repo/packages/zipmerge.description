@@ -1,0 +1,5 @@
+Merge zip archives
+	
+zipmerge merges a source zip archives into a target zip archive.
+by default, files in the source zip archives overwrite existing files of the
+same name in the target zip archive.

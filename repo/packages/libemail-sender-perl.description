@@ -1,0 +1,8 @@
+Perl module for sending email
+	
+email::sender is a perl module provides an interface to send email via many
+backends, including sendmail, smtp, delivering directly to mbox file, etc.
+
+email::sender replaces the old and sometimes problematic email::send library
+(see libemail-send-perl), which did a decent job at handling very simple mail
+sending tasks, but was not suitable for serious use for a variety of reasons.

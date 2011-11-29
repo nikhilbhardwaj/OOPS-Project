@@ -1,0 +1,15 @@
+A system dedicated to the visualization of huge graphs
+	
+tulip is capable of managing graphs with up to 500,000 nodes and edges
+on relatively modest hardware (eg. 600mhz pentium iii, 256mb ram).
+it includes the following features:
+
+
+ * 3d visualizations
+ * 3d modifications
+ * plug-in support for easy evolution
+ * building of clusters and navigation into them
+ * automatic drawing of graphs
+ * automatic clustering of graphs
+ * automatic selection of elements
+ * automatic metric coloration of graphs

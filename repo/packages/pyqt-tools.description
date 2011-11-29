@@ -1,0 +1,7 @@
+Pyuic and pylupdate for qt3
+	
+pyuic is the pyqt counterpart for qt's uic. it takes an xml
+user interface file and generates python code.
+
+pylupdate is the counterpart for qt's lupdate. it updates qt
+linguist translation files from python code.

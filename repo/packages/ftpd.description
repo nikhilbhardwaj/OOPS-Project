@@ -1,0 +1,10 @@
+File transfer protocol (ftp) server
+	
+this is the netkit ftp server. you are recommended to use one of its
+alternatives, such as vsftpd, proftpd, or pure-ftpd.
+
+this server supports ipv6, and can be used in standalone mode as well
+as in inetd-slave mode, but other servers have better long-term
+security screening.
+
+the server can be used with gnu/linux and with gnu/kfreebsd.

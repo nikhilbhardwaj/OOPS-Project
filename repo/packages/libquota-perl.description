@@ -1,0 +1,6 @@
+Perl interface to file system quotas
+	
+quota is a perl module that provides access to filesystem quota information.
+this module uses the quotactl() or ioctl() system calls to set or query quota
+information on the local host. it also supports remotely submitting queries
+via rpc to a remote host.

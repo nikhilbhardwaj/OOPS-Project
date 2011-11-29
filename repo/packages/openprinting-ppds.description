@@ -1,0 +1,15 @@
+Openprinting printer support - postscript ppd files
+	
+this package includes a collection of free postscript printer description
+files for postscript (and clone) printers from various manufacturers, as
+distributed by openprinting.
+
+if you have non-postscript printers, the foomatic-db, foomatic-db-engine,
+hplip, gutenprint or splix packages are the ones you need; this package
+won't be of much help to you.
+
+some manufacturers distribute ppd files for their printers under
+non-free licenses; those are not included in this package, but may be
+available from the manufacturer's website, included on a cd or
+other media with the printer, or downloadable from the openprinting
+web site (even automatically if the printer setup tool supports it).

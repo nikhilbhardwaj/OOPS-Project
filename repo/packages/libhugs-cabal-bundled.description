@@ -1,0 +1,11 @@
+A framework for packaging haskell software
+	
+the haskell common architecture for building applications and
+libraries: a framework defining a common interface for authors to more
+easily build their haskell applications in a portable way.
+
+the haskell cabal is meant to be a part of a larger infrastructure
+for distributing, organizing, and cataloging haskell libraries
+and tools.
+
+this is the version bundled with the interpreter.

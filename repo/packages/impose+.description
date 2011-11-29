@@ -1,0 +1,19 @@
+Postscript utilities for two-up printing, bbox, etc
+	
+a set of utilities for manipulating dsc compliant postscript. the
+following programs are included:
+
+impose: a preprocessor to pstops for creating 2-up printouts. it
+tries to remove white space from the printout by probing the original
+postscript for the printed area's bounding box.  this makes the
+output more esthetic than a simplistic layout of non-cropped original
+pages.
+
+bboxx: extracts the bounding boxes of a postscript file, with the
+option of entering the bounding box into the file. this program uses
+the ghostscript bbox device.
+
+fixtd: sets options in a postscript file asking the printer to turn
+on tumbling or duplex printing.
+
+psbl: rearranges pages in a file to create booklets.

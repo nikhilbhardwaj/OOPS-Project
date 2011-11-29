@@ -1,0 +1,10 @@
+System identification functions for octave
+	
+this package provides functions to do additional system
+identification control theory under octave, a numerical computation
+software. this package allows you to create theta structures from the
+iir system ay = bx (mktheta), a more general theta structure for miso
+systems (poly2th), simulate the effects of the miso system defined by
+a theta (idsim) and plot the results of that simulation (idplot).
+
+this octave add-on package is part of the octave-forge project.

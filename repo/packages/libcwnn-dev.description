@@ -1,0 +1,12 @@
+Header files and static library for cwnn (freewnn cserver)
+	
+freewnn cserver (cwnn) is an integrated chinese input system running
+on unix workstation. it supports a wide range of input methods,
+satisfying the needs of the chinese users from all over the world,
+including p.r.china and taiwan. freewnn cserver is capable of
+carrying out hanzi conversion from an arbitrary pinyin or zhuyin
+sequence, hence improving the speed of pinyin/zhuyin input.
+
+this package contains the header files and the static library for
+cwnn. install this package if you wish to develop your own cwnn
+client programs.

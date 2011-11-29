@@ -1,0 +1,18 @@
+Enable all of the features of modern perl with one command
+	
+modern perl programs use several modules to enable additional features of
+perl and of the cpan. instead of copying and pasting all of these use lines,
+instead write only one:
+
+
+    use modern::perl;
+
+
+for now, this only enables the strict and warnings pragmas, as well as all
+of the features available in perl 5.10. it also enables c3 method resolution
+order; see perldoc mro for an explanation. in the future, it will include
+additional cpan modules which have proven useful and stable.
+
+see http://www.modernperlbooks.com/mt/2009/01/toward-a-modernperl.html for
+more information, and http://www.modernperlbooks.com/ for further discussion
+of modern perl and its implications.

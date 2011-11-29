@@ -1,0 +1,10 @@
+Type-safe signal framework for c++ - runtime
+	
+this library implements a full callback system for use in widget
+libraries, abstract interfaces, and general programming. it provides
+the ability to connect an abstract callback to a class method,
+function, or function object, and contains adaptor classes for
+connection of dissimilar callbacks.
+
+these are the runtime files for libsigc++, needed only if you wish to
+run software which depends on it.

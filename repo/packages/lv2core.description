@@ -1,0 +1,7 @@
+The lv2 audio plugin specification
+	
+this package contains the 'core' lv2 audio plugin specification,
+including data required by hosts to make effective use of lv2 plugins.
+lv2 is a simple but extensible successor of ladspa plugins,
+intended to address the limitations of ladspa
+which many applications have outgrown.

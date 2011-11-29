@@ -1,0 +1,19 @@
+An apt transport for communicating with debtorrent
+	
+this package contains the apt debtorrent transport. it makes it possible to
+use 'deb debtorrent://localhost:9988/foo distro main' type lines in your
+sources.list file.
+
+for an overview of the debtorrent program, see the 'debtorrent' package.
+
+you don't actually need this package to use the debtorrent program, it will
+work fine using the regular http:// transport.
+
+however, using this method has some advantages over http. unlike the
+traditional http method, this transport will send all possible requests to
+debtorrent as soon as it recieves them, which will speed up the download
+as peers can be contacted in parallel. this method also allows the
+debtorrent client to return files to apt in any order, which is important
+since bittorrent downloads proceed in a random order. additionally, this
+method uses a very similar protocol to http, and so can easily be used to
+access a debtorrent client running on another host.

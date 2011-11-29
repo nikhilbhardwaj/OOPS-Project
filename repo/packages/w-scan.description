@@ -1,0 +1,10 @@
+Channel scanning tool for for dvb and atsc channels
+	
+w-scan scans for dvb-s/s2, dvb-t, dvb-c and atsc channels and creates a
+channels.conf, that can be used directly by the linux video disc recorder vdr.
+it is also possible to output channels in a format readable by the
+czap/tzap tools provided by linuxtv-dvb-zap, xine, totem, kaffeine or me-tv.
+
+unlike the scan utility in linuxtv-dvb-apps, there is no need to specify
+an initial transponder and w-scan automatically detects the dvb or atsc
+card to be used.

@@ -1,0 +1,14 @@
+Trivial wsgi web framework for python
+	
+almost do-nothing web framewrok that features:
+
+ * wsgi-enabled ie. can be used with mod_wsgi, mod_python, fast cgi, cgi, with
+   paste or even without even a server
+ * light weight
+ * can be tuned to be suitable for desktop apps or public web servers
+ * no extra dependencies
+ * very simple
+ * contains a module to add support for xslt-based templates (requires
+   python-lxml package)
+ * contains a module to add support for kid-based templates (requires
+   python-kid package)

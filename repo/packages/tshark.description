@@ -1,0 +1,8 @@
+Network traffic analyzer - console version
+	
+wireshark is a network "sniffer" - a tool that captures and analyzes
+packets off the wire. wireshark can decode too many protocols to list
+here.
+
+this package provides the console version of wireshark, named
+"tshark".

@@ -1,0 +1,17 @@
+Parser 3, html-embedded scripting language (cgi binary)
+	
+this package provides the /usr/lib/cgi-bin/parser3 cgi interpreter built
+for use in apache 2 with mod_actions, or any other cgi httpd that
+supports a similar mechanism.
+
+parser 3 - simple and convenient object-oriented language which
+allows creating good sites in short time.
+
+available features:
+
+ * xml, xsl, xpath and dom support
+ * available in documented source code
+ * uniformed database support
+ * support of object-oriented programmers
+ * detailed language documentation (160 pages!)
+ * utf-8 support

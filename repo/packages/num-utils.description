@@ -1,0 +1,19 @@
+Programs for dealing with numbers from the command line
+	
+the 'num-utils' are a set of programs for dealing with numbers from the
+unix command line. much like the other unix command line utilities like
+grep, awk, sort, cut, etc. these utilities work on data from both
+standard in and data from files.
+
+includes these programs:
+
+ * numaverage: a program for calculating the average of numbers.
+ * numbound: finds the boundary numbers (min and max) of input.
+ * numinterval: shows the numeric intervals between each number in a sequence.
+ * numnormalize: normalizes a set of numbers between 0 and 1 by default.
+ * numgrep: like normal grep, but for sets of numbers.
+ * numprocess: do mathematical operations on numbers.
+ * numsum: add up all the numbers.
+ * numrandom: generate a random number from a given expression.
+ * numrange: generate a set of numbers in a range expression.
+ * numround: round each number according to its value.

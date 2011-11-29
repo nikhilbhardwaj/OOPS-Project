@@ -1,0 +1,5 @@
+Simplified docbook xml doctype and css stylesheets
+	
+the simplified docbook is a small subset of the docbook dtd.
+it has ~100 elements, rather than the >350 elements in the
+full docbook dtd.  a good choice when full docbook is overkill.

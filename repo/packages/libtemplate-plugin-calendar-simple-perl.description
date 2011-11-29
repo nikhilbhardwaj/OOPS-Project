@@ -1,0 +1,8 @@
+Simple calendar plugin for perl template toolkit
+	
+template::plugin::calendar::simple is a plugin for the perl template toolkit
+which provides access to the calendar function in the calendar::simple
+module.
+
+it is designed to make it very easy to produce a calendar for a
+particular, user designated, month.

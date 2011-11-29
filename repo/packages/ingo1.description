@@ -1,0 +1,6 @@
+Email filter component for horde framework
+	
+ingo is an email filter rules manager.  it can generate sieve and procmail
+scripts and upload them to the server (using a timsieved or vfs ftp driver,
+respectively).  it can also create and execute imap commands to run filter
+rules.

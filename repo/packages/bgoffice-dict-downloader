@@ -1,0 +1,4 @@
+PackageId:1061
+Name:bgoffice-dict-downloader
+Version:0.07
+Deps:curl,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libwww-mechanize-perl,perl

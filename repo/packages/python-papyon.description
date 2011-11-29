@@ -1,0 +1,6 @@
+Msn client library written in python
+	
+papyon is an msn client library, that tries to abstract the msn protocol
+gory details. it is a fork of the unmaintained pymsn msn library. papyon
+uses the glib main event loop to process the network events in an
+asynchronous manner.

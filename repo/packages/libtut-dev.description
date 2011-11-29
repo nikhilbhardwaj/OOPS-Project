@@ -1,0 +1,11 @@
+Elegant c++ unit test framework
+	
+tut is a unit test framework for c++, written in pure c++. it makes use of
+c++ templates to reduce the responsibilities of the user and provide an
+intuitive and easy-to-use interface. unlike other test unit frameworks for
+c++, tut doesn't use macros, since their usage conceals actual implementation
+and (what's worse) can interfere with client application.
+
+tut completely fits into a single header file. no library compilation is
+required, thus a lot of portability problems are avoided and integration with
+client code is very simple.

@@ -1,0 +1,26 @@
+Graphical and command-line tools for amazon s3 and cloudfront
+	
+the jets3t toolkit provides several applications for interacting and managing
+data stored in amazon simple storage service and amazon cloudfront content
+delivery network. features:
+
+ - jets3t-cockpitlite: a graphical application that service providers with s3
+   accounts may provide to clients or customers without s3 accounts.
+   jets3t-cockpitlite allows users to manage the content of an s3 account to
+   upload files, download files, delete s3 objects and make objects publicly
+   accessible. all these operations are mediated by a gatekeeper service.
+ - jets3t-cockpit: graphical application for transferring files, viewing and
+   managing the contents of an amazon s3 account.
+ - jets3t-synchronize: a command-line application for synchronizing
+   directories on your computer with an amazon s3 account. ideal for
+   performing back-ups or synchronizing files between different computers.
+ - jets3t-uploader: a graphical application that service providers with s3
+   accounts may provide to clients or customers without s3 accounts.
+   jets3t-uploader allows users to upload files to s3 using a simple
+   wizard-based workflow, but all uploads must first be authorized by a
+   gatekeeper service
+ - gatekeeper: a servlet that acts as an authorization service running on a
+   service provider's server to mediate access to s3 accounts.
+   it processes requests from client applications such as jets3t uploader &
+   cockpitlite, and authorizes the client application to perform operations
+   such as uploads, downloads and deletes.

@@ -1,0 +1,15 @@
+An asynchronous event notification library (extra)
+	
+the libevent api provides a mechanism to execute a callback function
+when a specific event occurs on a file descriptor or after a timeout
+has been reached.
+
+libevent is meant to replace the asynchronous event loop found in
+event driven network servers. currently, libevent supports /dev/poll,
+kqueue(2), event ports, select(2), poll(2) and epoll(4).
+
+the libevent_extra library includes code for http, dns, rpc, and so
+on.
+
+if you're writing software that uses libevent's protocol support, you
+need to link libevent_core and libevent_extra as well.

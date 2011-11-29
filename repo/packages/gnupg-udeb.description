@@ -1,0 +1,8 @@
+Gnu privacy guard - a free pgp replacement
+	
+gnupg is gnu's tool for secure communication and data storage.
+it can be used to encrypt data and to create digital signatures.
+it includes an advanced key management facility and is compliant
+with the proposed openpgp internet standard as described in rfc2440.
+
+this is gnupg packaged in minimal form for use in debian-installer.

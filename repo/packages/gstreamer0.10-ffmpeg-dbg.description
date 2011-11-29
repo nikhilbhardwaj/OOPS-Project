@@ -1,0 +1,15 @@
+Ffmpeg plugin for gstreamer (debug symbols)
+	
+this gstreamer plugin supports a large number of audio and video compression
+formats through the use of the ffmpeg library.  the plugin contains gstreamer
+elements for decoding 90+ formats (avi, mpeg, ogg, matroska, asf, ...),
+demuxing 30+ formats and colorspace conversion.
+
+http://www.ffmpeg.org/
+http://gstreamer.freedesktop.org/
+http://gstreamer.freedesktop.org/modules/gst-ffmpeg.html
+
+this package contains unstripped shared libraries. it is provided primarily
+to provide a backtrace with names in a debugger, this makes it somewhat
+easier to interpret core dumps. the libraries are installed in
+/usr/lib/debug and are automatically used by gdb.

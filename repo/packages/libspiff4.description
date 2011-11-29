@@ -1,0 +1,19 @@
+Library to read/write xspf, the xml shareable playlist format
+	
+libspiff implements reading and writing of playlists in the xml
+shareable playlist format (xspf), as developed by the xiph.org
+foundation. xspf enables to share playlists among different applications
+and devices which implement the xspf standard.
+
+features of libspiff include:
+
+
+ * full conformance to the xspf specification
+ * support for xspf versions 0 and 1
+ * full support for xspf extensions
+ * full support for xml namespaces
+ * fast (xml parsing is done by expat)
+ * unicode support
+
+
+this package provides a c++ library which also includes c bindings to itself.

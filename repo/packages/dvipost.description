@@ -1,0 +1,10 @@
+Post processor for dvi files supporting change bars
+	
+dvipost is a post processor for dvi files, created by latex or tex.
+if the command is invoked as pplatex, it integrates the call of latex
+and the post processing of the dvi file.
+
+dvipost is used for special modes, which normally need the support of
+dvi drivers (such as dvips). with dvipost, these features could be implemented
+independent of the preferred driver. currently, the post processor supports
+layout raster, change bars and overstrike mode.

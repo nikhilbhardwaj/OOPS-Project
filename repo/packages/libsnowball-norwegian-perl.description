@@ -1,0 +1,8 @@
+Stemming algorithm for norwegian
+	
+the stem function takes a scalar as a parameter and stems the word
+according to martin porters norwegian stemming algorithm,
+which can be found at the snowball website: http://snowball.tartarus.org/.
+
+it also supports caching if you pass the use_cache option when constructing
+a new l:s:s:n object.

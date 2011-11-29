@@ -1,0 +1,10 @@
+Perl module for reading and writing xml
+	
+the xml::simple module provides a simple api layer on top of an underlying
+xml parsing module to maintain xml files (especially configuration
+files).  two functions are exported: xmlin() and xmlout().
+
+the simplest approach is to call these two functions directly, but an
+optional object oriented interface allows them to be called as
+methods of an xml::simple object.  the object interface can also be
+used at either end of a sax pipeline.

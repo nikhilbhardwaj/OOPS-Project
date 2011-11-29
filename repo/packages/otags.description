@@ -1,0 +1,12 @@
+Tool for building tags files from ocaml sources
+	
+otags is a tool for building "tags" files for emacs and vi.  tags
+files provide the editor with an index table, mapping important
+symbol names to locations in source files.  this allows the developer
+to quickly jump to a function in a different file than the one he is
+currently visiting in the buffer.
+
+otags parses a set of ocaml source files in either the standard or
+revised syntax, and creates a tags file with the locations
+of functions, type declarations, record fields, sum type constructors,
+etc...

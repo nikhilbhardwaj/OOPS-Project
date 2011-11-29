@@ -1,0 +1,15 @@
+Parametric equalizer ladspa plugin
+	
+four-band parametric equaliser. each section has an active/bypass switch,
+frequency, bandwidth and gain controls. there is also a global bypass
+switch and gain control.
+
+the 2nd order resonant filters are implemented using a mitra-regalia
+style lattice filter, which has the nice property of being stable
+even while parameters are being changed.
+
+all switches and controls are internally smoothed, so they can
+be used 'live' without any clicks or zipper noises. this should
+make this plugin a good candidate for use in systems that allow
+automation of plugin control ports, such as ardour, or for
+stage use.

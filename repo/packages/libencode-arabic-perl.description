@@ -1,0 +1,6 @@
+Perl implementation for arabic encodings
+	
+encode::arabic is a wrapper for various implementations of the encoding
+systems used for the arabic language and covering even some non-arabic
+extensions to the arabic script. the included modules fit in the philosophy of
+encode::encoding and can be used directly with the encode module.

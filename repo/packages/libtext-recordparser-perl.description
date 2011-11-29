@@ -1,0 +1,8 @@
+Module to parse record-oriented data in a text file
+	
+text::recordparser is a perl module that extracts record-oriented data from
+arbitrary text files. the most common example has records separated by
+newlines and fields delimited by commas or tabs. this module aims to provide
+a consistent interface for processing an arbitrary sequence of records in a
+file, however they may be delimited. the data can then be extracted using
+arrays or hashes.

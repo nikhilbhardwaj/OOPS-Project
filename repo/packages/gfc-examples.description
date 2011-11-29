@@ -1,0 +1,15 @@
+Gtk+ foundation classes examples
+	
+gtk+ foundation classes (gfc) is a set of integrated c++ foundation classes
+for developing gtk+ applications.
+
+gfc-ui is a collection of c++ modules that form the user interface library
+of gfc. this is the library you will primarily use to build your applications
+interface.
+
+gfc-ui includes c++ wrappers for the atk, gdk, gtk+, gdkpixbuf and pango
+libraries.
+
+this package provides a gfc-based version of the gtk-demo application and the
+source code for some application examples demostrating some of the features
+of the framework.

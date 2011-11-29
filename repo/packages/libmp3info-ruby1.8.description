@@ -1,0 +1,5 @@
+A pure ruby library for access to mp3 files
+	
+libmp3info-ruby gives you access to low level informations on mp3
+files (bitrate, length, samplerate, etc...) using ruby programming
+language. it can read, write, remove id3v1 tag and read id3v2.

@@ -1,0 +1,17 @@
+Utilities for block layer io tracing
+	
+blktrace is a block layer io tracing mechanism which provides detailed
+information about request queue operations up to user space. there are
+three major components that are provided:
+
+blktrace: a utility which transfers event traces from the kernel
+into either long-term on-disk storage, or provides direct formatted
+output (via blkparse).
+
+blkparse: a utility which formats events stored in files, or when
+run in live mode directly outputs data collected by blktrace.
+
+running blktrace requires a patch to the linux kernel which includes the
+kernel event logging interfaces, and patches to areas within the block
+layer to emit event traces.  these patches have been included in the main
+linux kernel since 2.6.17-rc1, and the default debian kernel since 2.6.23.

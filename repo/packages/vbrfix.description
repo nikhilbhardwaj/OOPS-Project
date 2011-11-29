@@ -1,0 +1,31 @@
+Corrects mp3 files that have incorrect vbr information
+	
+in an average song there are points that require high quality and points
+that require low quality (i.e. silence).
+
+instead of having the whole file at, say, 160kbps cbr (constant bit rate),
+we can use vbr (variable bit rate). this allows us to have use low bitrates
+at points that does not require high quality (were a higher bitrate would
+not affect the sound heard) and high bitrates when needed. the result is
+usually a smaller mp3 file, with higher quality.
+
+unfortunately, the many mp3 decoders estimate the time of a mp3 file based
+on the first bitrate they find and the filesize. this means that the
+"prediction" used by such decoders is wildly wrong with vbr encoded files
+and, as a result, you can get fairly random times for such songs.
+
+as most songs start with silence you usually get the song length being
+shown as much longer than it should be. also when you jump through a
+file encoded in vbr, 50% through the file is usually not 50% through the
+song.
+
+a vbr null frame is placed at the beginning of the file to tell the mp3
+player information about the song length and indexing through the song.
+
+the problem arises because some poor encoders don't produce this null
+frame or do so incorrectly and this is what vbrfix attempts to fix.
+
+vbrfix can also fix other problems with mp3s as it deletes all non-mp3
+content (you can keep tags that you state, though).  it can also help
+when merging two vbr mp3s together with a merging tool and then needing
+a newly calculated vbr null frame.

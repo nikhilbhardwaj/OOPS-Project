@@ -1,0 +1,14 @@
+Versatile tool to collect malware by emulating widespread vulnerabilities
+	
+nepenthes is a low interaction honeypot which emulates known vulnerabilities
+to collect information about potential attacks. it is designed to emulate
+vulnerabilities worms use to spread, and to capture these worms. as there are
+many possible ways for worms to spread, nepenthes is modular. there are
+module interface to
+
+  * resolve dns asynchronous
+  * emulate vulnerabilities
+  * download files
+  * submit the downloaded files
+  * trigger events (sounds abstract and it is, but is still quite useful)
+  * shellcode handler

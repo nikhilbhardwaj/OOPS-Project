@@ -1,0 +1,7 @@
+Fatrat plugin allowing download and upload to czshare
+	
+fatrat is a feature rich download manager written in c++ and built on
+top of qt4 library, including many download protocols and a plugin system.
+
+this package contains a plugin for fatrat which provides integration with
+czshare.com allowing for download and upload of files.

@@ -1,0 +1,12 @@
+Tao event service
+	
+an event service creates channels where suppliers and consumers can
+push or pull events. this channel enables asynchronous, message based
+communication between consumers and suppliers.
+
+this event service supports both the push and pull styles for event
+communication.
+
+the following program is included:
+
+ * tao_cosevent

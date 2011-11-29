@@ -1,0 +1,10 @@
+The gnu pascal compiler
+	
+this is the gnu pascal compiler, which compiles pascal on platforms supported
+by the gcc compiler. it uses the gcc backend to generate optimized code.
+
+the current version 2.2 (release candidate 2) implements standard pascal
+(iso 7185, level 1), a large subset of extended pascal (iso 10206), and
+borland pascal. many borland pascal units supported.
+
+this is a dependency package providing the default gnu pascal compiler.

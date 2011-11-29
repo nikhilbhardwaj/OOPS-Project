@@ -1,0 +1,8 @@
+Ocaml bindings for the inotify api
+	
+this library provides ocaml bindings for using inotify.
+
+inotify is a linux kernel subsystem, that notice changes to the filesystem,
+and report those changes to applications.
+
+this package contains header and ocaml library.

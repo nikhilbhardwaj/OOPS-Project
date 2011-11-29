@@ -1,0 +1,7 @@
+Perl module to weave together a pod document from an outline
+	
+pod::weaver is a system for building pod documents from templates. it doesn't
+perform simple text substitution, but instead builds a
+pod::elemental::document. its plugins sketch out a series of sections that
+will be produced based on an existing pod document or other provided
+information.

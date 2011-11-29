@@ -1,0 +1,13 @@
+A command line ocr
+	
+gocr is a multi-platform ocr (optical character recognition) program.
+
+it can read pnm, pbm, pgm, ppm, some pcx and tga image files.
+
+currently the program should be able to handle well scans that have their text
+in one column and do not have tables. font sizes of 20 to 60
+pixels are supported.
+
+if you want to write your own ocr, libgocr is provided in a separate
+package. documentation and graphical wrapper are provided in separated
+packages, too.

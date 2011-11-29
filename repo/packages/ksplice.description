@@ -1,0 +1,8 @@
+Patching live kernel without having to reboot
+	
+ksplice allows system administrators to apply security patches to the
+linux kernel without having to reboot. ksplice takes as input a source
+code change in unified diff format and the kernel source code to be
+patched, and it applies the patch to the corresponding running kernel.
+the running kernel does not need to have been prepared in advance in any
+way.

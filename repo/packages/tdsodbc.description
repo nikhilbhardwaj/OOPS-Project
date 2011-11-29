@@ -1,0 +1,7 @@
+Odbc driver for connecting to ms sql and sybase sql servers
+	
+freetds is an implementation of the tabular datastream protocol, used for
+connecting to ms sql and sybase servers over tcp/ip.
+
+this package includes the odbc driver for freetds, for use with
+unixodbc or iodbc.

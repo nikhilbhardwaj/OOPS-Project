@@ -1,0 +1,6 @@
+Perl interface to the lchown() system call
+	
+lchown provides a perl interface to the lchown(2) unix system call. the
+lchown(2) call is useful to change the ownership and group of symbolic links,
+rather than changing that information for the referent (real target) of these
+links.

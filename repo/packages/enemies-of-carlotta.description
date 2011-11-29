@@ -1,0 +1,9 @@
+Mailing list manager
+	
+enemies of carlotta is a simple manager for mailing lists that mimics the
+ezmlm (http://www.ezmlm.org/) mail commands, but does not rely on qmail
+to work.
+
+supports english, finnish, french, spanish, and swedish: messages the list
+manager sends are in one of these languages. language is configurable
+per list.

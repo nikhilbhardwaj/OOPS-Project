@@ -1,0 +1,9 @@
+Simple configuration tool for native language environment
+	
+this tool adds basic settings for natural language environment such as
+lang variable, font specifications, input methods, and so on into
+user's several dot-files such as .bashrc and .emacs.
+
+this version of language-env supports belarusian, bulgarian, catalan,
+danish, french, german, japanese, korean, lithuanian, macedonian, polish,
+russian, serbian, spanish, thai, turkish, and ukrainian.

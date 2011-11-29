@@ -1,0 +1,9 @@
+Ocaml extended with xml types (runtime)
+	
+ocamlduce is a merger between ocaml and cduce. it comes as a modified
+version of ocaml which integrates cduce features: xml expressions,
+regular expression types and patterns, iterators. in particular, it
+extends ocaml with a new kind of values to represent xml documents,
+fragments, tags and unicode strings.
+
+this package provides runtime libraries of ocamlduce.

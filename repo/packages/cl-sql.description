@@ -1,0 +1,5 @@
+Sql interface for common lisp
+	
+clsql is a common lisp interface for multiple sql databases
+on multiple common lisp implementations. it uses the uffi
+foreign language interface.

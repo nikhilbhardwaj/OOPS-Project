@@ -1,0 +1,9 @@
+Usb multiplexor daemon for iphone and ipod touch devices
+	
+usbmuxd, the usb multiplexor daemon, is in charge of coordinating
+access to iphone and ipod touch services over usb. synchronization and
+management applications for the iphone and ipod touch need this daemon
+to communicate with such devices concurrently.
+
+this package includes udev rules to start the daemon when a supported
+device is plugged in, and stop it when all devices are removed.

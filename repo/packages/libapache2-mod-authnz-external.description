@@ -1,0 +1,12 @@
+Authenticate apache against external authentication services
+	
+mod_auth_external can be used to quickly construct secure, reliable
+authentication systems.  it can also be mis-used to quickly open gaping
+holes in your security.  read the documentation, and use with extreme
+caution.
+
+notably, this module can be used to securely authenticate against pam
+(without exposing /etc/shadow file), using, for example, pwauth
+authenticator.
+
+this package includes the mod-athnz-external module for apache version 2.x

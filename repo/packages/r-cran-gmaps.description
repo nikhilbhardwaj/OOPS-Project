@@ -1,0 +1,10 @@
+Gnu r support for producing geographic maps with grid graphics
+	
+this package provides facilities for easily producing maps based on
+data sets in the gnu r statistical computing environment.
+
+the gmaps package extends the functionality of the maps package for
+the grid graphics system, enabling more advanced plots and more
+functionality. it also makes use of the grid structure to fix
+problems encountered with the traditional graphics system, such as
+resizing of graphs.

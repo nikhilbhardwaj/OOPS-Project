@@ -1,0 +1,16 @@
+Dictionary server
+	
+this package provides a tcp-based server that allows a client to access
+dictionary definitions from a set of natural language dictionary databases.
+
+many dictionary databases have been packaged for use with dictd. they are
+described in the /usr/share/doc/dictd/readme.debian.gz file.
+
+either dict-gcide or dict-wn is essential for a useful english
+language dictionary server.  it is strongly recommended that both be
+installed.  if you are interested in computer terminology, it is
+recommended to install at least dict-jargon, dict-foldoc, or
+dict-vera.
+
+the client program, dict, is packaged separately and is needed on all
+machines that will use the server.

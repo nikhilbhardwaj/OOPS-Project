@@ -1,0 +1,6 @@
+Ladspa, minblep-based, hard-sync-capable oscillator plugins
+	
+a collection of ladspa plugins containing three anti-aliased,
+minblep-based, hard-sync-capable oscillator plugins. the oscillators are
+intended to be used with modular synthesis systems, such as alsa modular
+synth.

@@ -1,0 +1,4 @@
+A library for polynomial arithmetic in z/nz[x]
+	
+zn_poly is a c library for polynomial arithmetic in z/nz[x], where n
+is any modulus that fits into an unsigned long.

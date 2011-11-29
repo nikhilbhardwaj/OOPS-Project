@@ -1,0 +1,7 @@
+Text-based minesweeper
+	
+freesweep is an implementation of the popular minesweeper game, where
+one tries to find all the mines without igniting any, based on hints given
+by the computer.  unlike most implementations of this game, freesweep
+works in any visual text display - in linux console, in an xterm, and in
+most text-based terminals currently in use.

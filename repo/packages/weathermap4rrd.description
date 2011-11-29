@@ -1,0 +1,6 @@
+Script that generates picture network links utilization
+	
+network weathermap4rrd is a perl script that generates picture network
+links utilization. data used to create graph are acquired from rrdtool
+databases and are displayed as two ways colored arrows on a map
+representing the logical topology of the network.

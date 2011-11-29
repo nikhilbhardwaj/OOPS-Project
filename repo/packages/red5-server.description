@@ -1,0 +1,10 @@
+Flash streaming server
+	
+red5 is a java implementation of a flash media server based on
+reverse engineering of rtmp and amf protocols.
+
+it support streaming video/audio/data to a flash client and
+recording audio/video broadcast from a flash client.
+
+any flash client is supported, including gnash flash client and
+adobe flash player.

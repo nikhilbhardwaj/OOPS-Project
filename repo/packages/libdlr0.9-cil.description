@@ -1,0 +1,5 @@
+Dynamic language runtime for the cli
+	
+this package contains the libraries of the dynamic language runtime used by
+scripting languages like ironpython, ironruby, ironscheme or nua running on
+top of the common language runtime.

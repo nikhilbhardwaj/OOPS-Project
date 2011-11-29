@@ -1,0 +1,11 @@
+Lock debugging tool
+	
+this tool displays mutexes locked and unlocked during execution of a
+program, and can provide hints for debugging multithreaded
+applications. as it is fairly lightweight and easy to use, it is ideal
+at the start of a debugging session or when only limited resources are
+available.
+
+it cannot detect data races as it only looks at the synchronisation
+primitives themselves; if you need that, use helgrind (in the valgrind
+package) instead.

@@ -1,0 +1,11 @@
+Text-based calendar application
+	
+wyrd acts as an ncurses-based frontend for remind, a scheduler
+application featuring sophisticated date calculation, moon phases,
+sunrise/sunset, hebrew calendar, alarms, multilingual messages, and
+proper handling of holidays.
+
+wyrd displays reminders on a browsable time table along with a
+calendar and lets the user create new timed or untimed reminders.
+using the remind backend, it is possible to convert the calendar to
+postscript for printing and to synchronize it with palm handhelds.

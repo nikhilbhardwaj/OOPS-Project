@@ -1,0 +1,7 @@
+Ffmpeg utility library
+	
+this is the common utility library from the ffmpeg project. it is required
+by all other ffmpeg libraries.
+
+this package contains a debian-specific version of the libavutil shared
+object that should only be used by debian packages.

@@ -1,0 +1,8 @@
+Development files for the qt cryptographic architecture
+	
+the qt cryptographic architecture (qca) provides a straightforward and cross-
+platform api for a range of cryptographic features, including ssl/tls,
+x.509 certificates, sasl, openpgp, s/mime cms, and smart cards.
+
+this package contains development files for building software that uses the
+qt cryptographic architecture.

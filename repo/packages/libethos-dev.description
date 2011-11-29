@@ -1,0 +1,8 @@
+Gobject library for application plugins - development files
+	
+ethos is a library providing a standard plugin system that can be re-used.
+the goal is to allow plugin developers to re-use their skills between
+applications, therefore, increasing the developer base.
+
+this package contains the headers and development libraries needed to
+build applications using the ethos library

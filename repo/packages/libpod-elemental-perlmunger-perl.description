@@ -1,0 +1,5 @@
+Perl module that rewrites perl documentation
+	
+pod::elemental::perlmunger is a role to be included in classes that rewrite
+the documentation of a perl document, stripping out all the pod, munging it,
+and replacing it into the perl.

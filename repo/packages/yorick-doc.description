@@ -1,0 +1,20 @@
+Documentation for the yorick interpreted language
+	
+yorick is an interpreted programming language for:
+
+ * scientific simulations or calculations
+ * postprocessing or steering large simulation codes
+ * interactive scientific graphics
+ * reading, writing, and translating large files of numbers
+
+
+the yorick package ships with little documentation: a manpage, the
+yorick manual in info format, and its own "help" command. this
+package adds the yorick manual and quick reference in pdf and html
+format and a utility (update-yorickdoc) to build html documentation
+for the set of functions (from yorick and add-on packages) installed
+on this machine. by default, these pages are built and updated
+automatically whenever necessary.
+
+once this package is installed, simply point your preferred web
+browser to file:///usr/share/doc/yorick-doc/readme.html .

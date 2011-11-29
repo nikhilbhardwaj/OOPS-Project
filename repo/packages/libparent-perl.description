@@ -1,0 +1,6 @@
+Perl pragma to establish inheritance at compile time
+	
+parent is a perl pragma to establish an isa relationship with base classes
+at compile time. this module allows you to both load one or more modules,
+while setting up inheritance from those modules at the same time. this module
+was forked from the standard 'base' pragma.

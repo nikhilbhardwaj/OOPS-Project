@@ -1,0 +1,17 @@
+Collection of images and icons for the nagios system
+	
+nagios-images contains an assortment of dfsg-free images and icons
+for use in the web frontend of the nagios system.
+
+nagios is a host/service/network monitoring and management system. it has
+the following features:
+
+  *  monitoring of network services (via tcp port, smtp, pop3, http, nntp,
+     ping, etc.)
+  *  plugin interface to allow for user-developed service checks
+  *  contact notifications when problems occur and get resolved (via email,
+     pager, or user-defined method)
+  *  ability to define event handlers to be run during service or
+     host events (for proactive problem resolution)
+  *  web output (current status, notifications, problem history, log
+     file, etc.)

@@ -1,0 +1,18 @@
+Rio karma access library [development files]
+	
+libkarma is a c language library that provides (read/write) access
+to the rio karma music player using either the usb (with omfs) or
+network (pearl) interface.
+
+libkarma allows developers to do the following:
+
+
+  * login
+  * read, write and delete music or data files
+  * read and write file information
+  * write music or taxi files with one function, including setting
+    all metadata
+
+
+this package contains the development files needed to compile
+programs using the facilities provided by libkarma.

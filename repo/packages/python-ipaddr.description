@@ -1,0 +1,9 @@
+Python module for working with ip addresses, both ipv4 and ipv6
+	
+this library is used to create/poke/manipulate ipv4 and ipv6 addresses
+and networks in python.  it is intended to be fast and lightweight.
+
+this is a pure python implementation of classes for ipv4/6 addresses and
+networks. it supports comparisons to determine if ip addresses are contained
+inside a defined network, conversion of lists of ip addresses into compact
+cidr lists, and other ip address manipulation

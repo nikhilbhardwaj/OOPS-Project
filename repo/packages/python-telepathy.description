@@ -1,0 +1,9 @@
+Python language bindings for telepathy
+	
+telepathy-python is a python package containing base classes for use in
+connection managers, and proxy classes for use in clients.
+
+telepathy is a d-bus framework for unifying real time communication,
+including instant messaging, voice calls and video calls. it abstracts
+differences between protocols to provide a unified interface for
+applications.

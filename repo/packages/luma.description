@@ -1,0 +1,17 @@
+Gui utility for accessing and managing ldap database
+	
+luma is a graphical utility for accessing and managing data stored on
+ldap servers. it is written in python, using pyqt and python-ldap.
+plugin-support is included and useful widgets with ldap-functionality
+for easy creation of plugins are delivered.
+
+following plugins are available:
+
+ - addressbook
+ - admin utilities
+ - browser
+ - massive user creation
+ - schema browser
+ - search
+ - template
+ - usermanagement

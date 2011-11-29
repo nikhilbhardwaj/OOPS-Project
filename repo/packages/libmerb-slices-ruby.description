@@ -1,0 +1,9 @@
+Library to support merb-slices application modularization
+	
+usually these slices are reusable extractions from the main application.
+a module is set up to serve as a namespace for controller, models, helpers,
+etc.
+
+this package is a dependency package, which depends on the package
+containing actual ruby merb-slices libraries for the default ruby version
+(currently 1.8).

@@ -1,0 +1,12 @@
+Structured file library - development files for gnome
+	
+this package contains the development files used in building applications
+that use the gnome structured file library.
+
+the gnome structured file library aims to provide an efficient
+extensible i/o abstraction for dealing with different structured file
+formats. it is actively being developed and its api is still likely to
+undergo significant changes (in particular, extensions).
+
+this package supports the use of bonobo, gnome's corba-based component
+architecture and of gnome-vfs, the gnome virtual file-system.

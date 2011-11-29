@@ -1,0 +1,11 @@
+Sophisticated exporter for custom-built routines
+	
+when you use a perl module, first it is "required" function used, then its
+import method is called.
+
+sub::exporter provides a sophisticated alternative to exporter.pm.  it allows
+for renaming, currying/sub-generation etc.
+
+sub::exporter builds a custom exporter which can then be installed into your
+module. it builds this method based on configuration passed to its
+setup_exporter method.

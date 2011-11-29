@@ -1,0 +1,9 @@
+Enables/disables video output to crt/lcd on i810 video hardware
+	
+i810switch enables/disables the output to the crt display and lcd,
+depending on the i810 graphics controller hardware. such hardware is found
+on some laptops (eg, sony vaios, some dell models, etc). chipsets also
+supported include i855, i830, i845.
+
+this package includes the i810rotate script, which toggles the output
+between three states: lcd only, lcd + crt, and crt only.

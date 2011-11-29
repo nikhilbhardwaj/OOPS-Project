@@ -1,0 +1,9 @@
+Parser and pretty print combinator library for ghc 6
+	
+the uulib haskell library contains fast, error repairing parser
+combinators (uu.parsing), pretty print combinators (uu.pretty) and a
+set of data structures and algorithms for working with sets and
+sequences (uu.ddata) for haskell.
+
+the library is developed at utrecht university and is part of the
+haskell utrecht tools.

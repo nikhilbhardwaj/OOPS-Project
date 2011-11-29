@@ -1,0 +1,5 @@
+Synce plugin for gnome vfs
+	
+provides a method to access the filesystem of a device connected
+(using synce) through nautilus by reading and writing gnome vfs
+uris. gnome vfs is the gnome virtual file-system.

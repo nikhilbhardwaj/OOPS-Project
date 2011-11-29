@@ -1,0 +1,11 @@
+Git plugin for mercurial
+	
+th hg-git plugin for mercurial adds the ability to push and pull to/from
+a git server repository. this means you can collaborate on git based
+projects from mercurial, or use a git server as a collaboration point
+for a team with developers using both git and mercurial.
+
+the plugin can convert commits/changesets losslessly from one system to
+another, so you can push via a mercurial repository and another
+mercurial client can pull it and their changeset node ids will be
+identical - mercurial data does not get lost in translation.

@@ -1,0 +1,7 @@
+Make urls clickable in html
+	
+template::plugin::clickable is a plugin for the perl template toolkit
+which allows you to  filter html to make any embedded urls clickable.
+the basic idea is  that it searches the text for any http:// and https://
+urls that are  not marked up and adds the correct html anchor tags to make
+them into hyperlinks.

@@ -1,0 +1,6 @@
+Maintenance operations protocol loader daemon
+	
+this daemon services load requests on one or all ethernet interfaces using
+the dec maintenance operations protocol. normally, a filename (uppercase
+and ending in .sys) is included in the load request; this is looked for in
+/tftpboot/mop by default and may be used as a netboot image.

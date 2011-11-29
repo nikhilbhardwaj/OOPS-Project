@@ -1,0 +1,8 @@
+Rsync remote-delta algorithm library (development)
+	
+librsync implements the rsync remote-delta algorithm, which allows for
+efficient remote updates of a file, without requiring the old and new versions
+to both be present at the transmitter. the library uses a stream-based designed
+so that it can be easily embedded into network applications.
+
+this package contains the development files.

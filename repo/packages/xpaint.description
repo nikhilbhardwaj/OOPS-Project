@@ -1,0 +1,11 @@
+Simple paint program for x
+	
+xpaint is suitable for producing simple graphics. it does offer some
+advanced features such as image processing functions and gradient
+fill.
+
+in the c script editor of xpaint, the external editor in the file menu
+will invoke x-terminal-emulator -e sensible-editor.
+
+the gv package will be needed for pdf/ps reading, netpbm will be needed
+for external conversion, lpr for printing.

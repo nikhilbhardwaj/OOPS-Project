@@ -1,0 +1,7 @@
+Perl test module for tracing memory leaks
+	
+test::leaktrace provides several functions that detect and trace memory leaks.
+this module scans arenas, the memory allocation system, so it can detect any
+leaked scalar values (svs) in given blocks. leaked svs are those which are not
+released after the end of the scope they have been created, including internal
+caches and global variables.

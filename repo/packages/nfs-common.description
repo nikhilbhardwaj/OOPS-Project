@@ -1,0 +1,5 @@
+Nfs support files common to client and server
+	
+use this package on any machine that uses nfs, either as client or
+server.  programs included: lockd, statd, showmount, nfsstat, gssd
+and idmapd.

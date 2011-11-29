@@ -1,0 +1,10 @@
+Collection of command line video4linux utilities
+	
+v4l-utils contains the following video4linux command line utilities:
+
+
+ decode_tm6000: decodes tm6000 proprietary format streams
+ v4l2-compliance: tool to test v4l2 api compliance of drivers
+ v4l2-ctl, cx18-ctl, ivtv-ctl: tools to control v4l2 controls from the cmdline
+ v4l2-dbg: tool to directly get and set registers of v4l2 devices
+ v4l2-sysfs-path: sysfs helper tool

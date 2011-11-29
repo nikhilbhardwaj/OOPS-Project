@@ -1,0 +1,10 @@
+Simple perl object base class
+	
+rose::class is a generic base class for classes. it provides a single class
+method (error), but may be expanded further in the future.
+
+a class that inherits from rose::class is not expected to allow objects
+of that class to be instantiated, since the namespace for class and object
+methods is shared. for example, it is common for rose::object-derived classes
+to have error methods, but this would conflict with the rose::class method of
+the same name.

@@ -1,0 +1,13 @@
+A small utility to change signatures randomly
+	
+this small utility changes signatures in random order.
+it is compatible with all email and news
+clients that use $home/.signature although the
+signature file can be called anything. it works over
+nfs and can even handle multiple signature files.
+
+the utility to manipulate signature databases,
+sigitdb, is also included.
+
+
+ homepage: http://www.redhead.dk/

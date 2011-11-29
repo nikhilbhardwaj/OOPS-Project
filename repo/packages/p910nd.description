@@ -1,0 +1,10 @@
+Small printer daemon intended for diskless workstations
+	
+p910nd is a small daemon that copies any data received on the port it
+is listening on to the corresponding printer port.
+
+it is primarily intended for diskless linux hosts running as printer
+drivers but there is no reason why it could not be used on diskful hosts.
+
+port 9100 is copied to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2.
+the default is port 9100 to /dev/lp0.

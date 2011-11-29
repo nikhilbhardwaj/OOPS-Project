@@ -1,0 +1,8 @@
+Dynamic host information system - dns engine
+	
+this package contains a dynamic dns service module to be used
+with dhisd release 5 or above.
+
+while the dhis server dhisd retrieves dynamic ip addresses
+from clients, this module allows the server to update a
+dynamic dns zone based on those retrieved ip addresses.

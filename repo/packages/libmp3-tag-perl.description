@@ -1,0 +1,7 @@
+Module for reading tags of mp3 audio files
+	
+mp3::tag is a wrapper module to read different tags of mp3 files.
+it provides an easy way to access the functions of separate modules
+which do the handling of reading/writing the tags itself.
+
+at the moment mp3::tag::id3v1 and mp3::tag::id3v2 are supported.

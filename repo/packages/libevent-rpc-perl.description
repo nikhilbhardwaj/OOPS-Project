@@ -1,0 +1,13 @@
+Event based transparent client/server rpc framework
+	
+event::rpc supports you in developing event based networking client/server
+applications with transparent object/method access from the client to the
+server. network communication is optionally encrypted using io::socket::ssl.
+several event loop managers are supported due to an extensible api.
+currently event and glib are implemented.
+
+event::rpc consists of a server and a client library. the server exports a
+list of classes and methods, which are allowed to be called over the
+network. more specific it acts as a proxy for objects created on the server
+side (on demand of the connected clients) which handles client side methods
+calls with transport of method arguments and return values.

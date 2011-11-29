@@ -1,0 +1,13 @@
+Create arbitrary-res modelines using hardware parameters
+	
+videogen is a small but nice utility to create modelines you can
+insert into your xorg.conf and fb.modes files.
+
+modeline is created by telling the program the resolution you want
+and your video hardware parameters (maximum video adapter
+bandwidth, maximum hcf and vcf of the monitor etc).
+
+note that for most modern installations, xorg will handle its own modesetting
+automatically, and you don't need videogen to generate any modelines.
+
+the tool 'some_modes' may help you to create some common modes fast.

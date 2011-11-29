@@ -1,0 +1,18 @@
+Remote os identification
+	
+xprobe2 allows you to determine what operating system is running on a
+remote host. it sends several packets to a host and analyses the
+returned answers.
+
+xprobe2's functionality is comparable to the os fingerprinting feature
+in nmap (written by a different fyodor):
+
+ - outputs its level of confidence about the os on the remote host.
+ - remains usable even if intermediate systems (routers, firewalls) make
+   slight modifications to the packets.
+ - can list the type of intermediate device (e.g. "linux ip masquerading").
+ - modular architecture allows new fingerprinting tests and new os
+   signatures to be added.
+
+
+project homepage: <http://www.sys-security.com/html/projects/x.html>

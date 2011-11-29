@@ -1,0 +1,7 @@
+Perl module to find out modules used by the specified perl source
+	
+module::extractuse is basically a parse::recdescent grammar to parse perl
+code. it tries very hard to find all modules (whether pragmas, core, or from
+cpan) used by the parsed code.
+
+"usage" is defined by either calling use or require.

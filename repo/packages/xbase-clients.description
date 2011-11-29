@@ -1,0 +1,12 @@
+Miscellaneous x clients - metapackage
+	
+an x client is a program that interfaces with an x server (almost always via
+the x libraries), and thus with some input and output hardware like a
+graphics card, monitor, keyboard, and pointing device (such as a mouse).
+
+this package provides a miscellaneous assortment of several dozen x clients
+that ship with the x window system.
+
+this package is provided for transition from earlier debian releases, the
+programs formerly in xutils and xbase-clients having been split out in smaller
+packages.

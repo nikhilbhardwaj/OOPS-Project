@@ -1,0 +1,26 @@
+Educational games for small children
+	
+a large collection of educational games for small children.  it is meant to
+become some sort of unified interface to integrate more educational
+games.
+
+language-oriented games now contain vocabulary for too many languages
+to list them heres.  sounds and voices are also available for a number of
+languages, check the gcompris-sound packages for your language.
+
+currently available boards include:
+
+ * learning how to use a mouse and keyboard
+ * learning simple arithmetics
+ * learning how to read an analog clock
+ * recognize letters after hearing their names
+ * reading practice
+ * small games (memory games, jigsaw puzzles, ...)
+ * etc.
+
+
+it is designed so that it is easy to implement new boards to
+gcompris.
+
+a number of boards are only available if other packages are
+installed, see the suggests list for more details.

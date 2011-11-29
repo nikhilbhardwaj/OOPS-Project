@@ -1,0 +1,14 @@
+Spamassassin plugin to check image attachments
+	
+this spamassassin plugin checks for specific keywords in image/gif,
+image/jpeg or image/png attachments, using gocr (an optical character
+recognition program).  this plugin can be used to detect spam that
+puts all the real spam content in an attached image, while the mail
+itself is only random text and random html, without any url's or
+identifiable information.  additionally to the normal ocrplugin, it
+can do approximate matches on words, so errors in recognition or
+attempts to obfuscate the text inside the image will not cause the
+detection to fail.
+
+this is a development version from svn. currently, this svn
+version is the only one that works with spamassassin 3.2.

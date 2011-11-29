@@ -1,0 +1,14 @@
+Generate static html galleries from images
+	
+imageindex generates standards-compliant static html galleries of images
+(usually jpg photos, but can deal with images of just about any format).
+some features:
+
+
+   * only out-of-date thumbnail/medium images are generated
+   * captions come from comments embedded in images (never get lost!)
+   * output is customizable with css stylesheets
+   * can fetch exif header data from digicam photos
+   * can optionally recurse directory trees
+   * index, detail, slide, and frame views
+   * can use mplayer for dealing with video files.

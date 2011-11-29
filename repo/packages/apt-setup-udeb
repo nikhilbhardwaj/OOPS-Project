@@ -1,0 +1,4 @@
+PackageId:453
+Name:apt-setup-udeb
+Version:1:0.53+squeeze2
+Deps:apt-mirror-setup,apt-cdrom-setup,cdebconf-udeb,di-utils,installed-base,bootstrap-base,live-installer

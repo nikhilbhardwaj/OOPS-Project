@@ -1,0 +1,16 @@
+X11 pixmap library (development headers)
+	
+libxpm provides support and common operation for the xpm pixmap format, which
+is commonly used in legacy x applications.  xpm is an extension of the
+monochrome xbm bitmap specificied in the x protocol.
+
+this package contains the development headers for the library found in
+libxpm4.  non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxpm

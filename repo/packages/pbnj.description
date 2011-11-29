@@ -1,0 +1,7 @@
+A suite of tools to monitor changes on a network
+	
+pbnj is a network suite to monitor changes that occur on a network
+over time. it does this by checking for changes on the target
+machine(s), which includes the details about the services running on
+them as well as the service state. pbnj parses the data from a scan
+and stores it in a database. pbnj uses nmap to perform scans.

@@ -1,0 +1,5 @@
+Build ldap filter statements
+	
+construct ldap filter statments which are compliant with the rfc 4515
+syntax and also safely escape special characters. filter statements can
+be built incrementally using simple logic operations.

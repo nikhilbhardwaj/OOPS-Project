@@ -1,0 +1,13 @@
+Enhanced wiki and issue tracking system for software development projects
+	
+trac uses a minimalistic approach to web-based software project management.
+its mission is to help developers write great software while staying out of
+the way. trac should impose as little as possible on a team's established
+development process and policies.
+it provides an interface to subversion (or other version control systems),
+an integrated wiki and convenient reporting facilities.
+trac allows wiki markup in issue descriptions and commit messages, creating
+links and seamless references between bugs, tasks, changesets, files and
+wiki pages. a timeline shows all current and past project events in order,
+making the acquisition of an overview of the project and tracking progress
+very easy. the roadmap shows the road ahead, listing the upcoming milestones.

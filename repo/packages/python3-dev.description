@@ -1,0 +1,8 @@
+Header files and a static library for python (default)
+	
+header files, a static library and development tools for building
+python modules, extending the python interpreter or embedding python
+in applications.
+
+this package is a dependency package, which depends on debian's default
+python version (currently v3.1).

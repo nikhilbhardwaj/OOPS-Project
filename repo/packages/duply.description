@@ -1,0 +1,7 @@
+Easy to use frontend to the duplicity backup system
+	
+duply is a shell front end to duplicity that simplifies the usage by managing
+settings for each backup job in profiles. it supports executing multiple
+commands in a batch mode to enable single line cron entries and allows the
+user to use pre/post backup scripts. all duplicity backends are supported.
+the previous name of duply was ftplicity.

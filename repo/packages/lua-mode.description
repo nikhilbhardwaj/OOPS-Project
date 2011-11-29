@@ -1,0 +1,6 @@
+Emacs mode for editing lua programs
+	
+this emacs mode provides syntax highlighting and automatic
+indentation for lua, as well as sending lines/regions/files to a lua
+interpreter.  you will need this if you write lua programs using
+emacs.

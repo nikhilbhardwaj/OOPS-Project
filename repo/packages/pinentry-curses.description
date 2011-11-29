@@ -1,0 +1,17 @@
+Curses-based pin or pass-phrase entry dialog for gnupg
+	
+this package contains a program that allows for secure entry of pins or
+pass phrases.  that means it tries to take care that the entered
+information is not swapped to disk or temporarily stored anywhere.
+this functionality is particularly useful for entering pass phrases
+when using encryption software such as gnupg or e-mail clients using
+the same.  it uses an open protocol and is therefore not tied to
+particular software.
+
+the program contained in this package implements a pin entry dialog
+using the curses tool kit, meaning that it is useful for users working
+in text mode without the x window system.  there are sibling packages
+that implement pin entry dialogs that use an x tool kit.  if you
+install any of the latter packages then this package is not necessary
+because the sibling packages automatically fall back to text mode if
+x is not active.

@@ -1,0 +1,14 @@
+X.org x server -- via display driver
+	
+openchrome is a project for the development of free and open-source drivers
+for the via unichrome video chipsets.
+
+originally called the 'snapshot' release, since it was a snapshot of an
+experimental branch of the unichrome cvs code, this is a continued development
+of the open source unichrome driver (from http://unichrome.sf.net) which
+also incorporates support for the unichrome-pro chipsets.
+
+support for hardware acceleration (xvmc) for all chipsets has subsequently
+been ripped out of the unichrome.sf.net driver. therefore your only option if
+you wish to make use of the acceleration features of your via chip with free
+and open-source drivers is to use this version of the driver.

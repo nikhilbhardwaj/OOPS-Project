@@ -1,0 +1,7 @@
+Scalable distributed version control system (common files)
+	
+mercurial is a fast, lightweight source control management system designed
+for efficient handling of very large distributed projects.
+
+this package contains the architecture independent components of mercurial,
+and is generally useless without the mercurial package.

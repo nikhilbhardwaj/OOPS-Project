@@ -1,0 +1,7 @@
+The eresi tracer library
+	
+libetrace is a collection of generic routines to deal with program traces.
+it was unmerged from libelfsh which now only contains elf dependent code.
+
+this package contains the development files provided by libetrace (the
+static library - i.e the .a file - and the libetrace headers).

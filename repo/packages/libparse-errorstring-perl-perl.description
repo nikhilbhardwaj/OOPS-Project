@@ -1,0 +1,5 @@
+Perl module for parsing error messages from the perl interpreter
+	
+parse::errorstring::perl is aimed primarily at those developing an integrated
+development environments, allowing them to have a nice object oriented
+interface to parsed error messges of the perl interpreter.

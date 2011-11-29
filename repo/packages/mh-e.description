@@ -1,0 +1,39 @@
+Emacs interface to the mh mail system
+	
+mh-e offers all the functionality of mh, the visual orientation and
+simplicity of use of a gui, and full integration with emacs and
+xemacs, including thorough configuration and online help.
+
+mh-e allows one to read and process mail very quickly: many commands
+are single characters; completion and smart defaults are used for
+folder names and aliases. with mh-e you compose outgoing messages in
+emacs. this is a big plus for emacs users, but even non-emacs users
+have been known to use mh-e after only learning the most basic cursor
+motion commands.
+
+additional features include:
+
+
+  - attractive text rendering with font lock
+  - composition and display of mime body parts
+  - display of images and html within the emacs frame
+  - folder browsing with speedbar
+  - threading
+  - ticking messages
+  - lightning-fast full-text indexed searches of all of your email
+  - virtual folders to view ticked and unseen messages, search results
+  - multiple personalities
+  - signing and encrypting
+  - spam filter interaction
+  - xface, face, x-image-url and picon header field support
+
+
+mh is rand's mail handler, whose functionality is available in mh,
+nmh and gnu mailutils.
+
+the package also includes contributed files that are not distributed
+with gnu emacs:
+
+
+  mh-frame.el      - open mh-e in a separate frame.
+  mh-comp-frame.el - message composition in a separate frame.

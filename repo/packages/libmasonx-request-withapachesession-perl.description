@@ -1,0 +1,5 @@
+Session handler in the mason request object
+	
+masonx::request::withapachesession takes advantage of the new flexibility in
+mason 1.09_01 and newer to integrate an apache::session session directly into
+mason's request object.

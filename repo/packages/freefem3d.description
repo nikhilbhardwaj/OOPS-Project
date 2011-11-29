@@ -1,0 +1,27 @@
+A language and solver for partial differential equations in 3d
+	
+freefem3d (aka ff3d) is a 3d solver of partial differential
+equations (pde).  it is a member of the familly of the freefem
+programs (see http://www.freefem.org).
+
+ff3d, as well as its cousins, is a pde solver driven by a
+user-friendly language. it solves many kind of problems such as
+elasticity, fluids (stokes and navier-stokes) and a lot more. the
+user has to enter the equation associated with the problem, giving
+either the pde in strong formulation or weak (variational)
+formulation.
+
+ff3d can use either the finite elements method (the mesh of the
+geometry being provided by the user) or a fictitious domain like
+approach where the geometry is described using constructive solid
+geometry (csg). this description is done using the pov-ray language
+but others such as vrml could be added.
+
+the processing of the results is left to the user.  one can use
+various graphic tools: output in the medit mesh format or vtk are
+supported. the implementation of a vtk base visualization module is
+underway.
+
+the goal of ff3d is to provide a good teaching tool and a research
+toolbox (the code is written in c++ and its design is such that new
+methods can be easily implemented).

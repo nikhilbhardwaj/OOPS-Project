@@ -1,0 +1,4 @@
+PackageId:4438
+Name:flowscan
+Version:1.006-13
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,flow-tools,ksh,mksh,pdksh,zsh,libboulder-perl,libcflow-perl,libconfigreader-perl,libhtml-table-perl,libnet-patricia-perl,librrds-perl,perl,rrdtool

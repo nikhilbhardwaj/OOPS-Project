@@ -1,0 +1,6 @@
+Python bindings for gudev
+	
+the gudev library makes it much simpler to use libudev from programs already
+using gobject.
+
+this package provides a python binding to gudev.

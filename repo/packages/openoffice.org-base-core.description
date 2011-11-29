@@ -1,0 +1,10 @@
+Office productivity suite -- shared library
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains libdba, a common library of the openoffice.org
+suite used by base, writer and calc.
+
+if you need full base functionality (or actual database drivers), please
+install openoffice.org-base.

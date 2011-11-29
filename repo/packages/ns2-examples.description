@@ -1,0 +1,17 @@
+Examples of ns2
+	
+ns-2 provides substantial support for simulation of tcp, routing,
+and multicast protocols over wired and wireless (local and satellite)
+networks.
+ns-2 is written in c++ and an object oriented version of tcl called otcl.
+
+ns began as a variant of the real network simulator in 1989 and has
+evolved substantially over the past few years. in 1995 ns development
+was supported by darpa through the vint project  at lbl, xerox parc,
+ucb, and usc/isi. currently ns development is support through darpa
+with saman  and through nsf with conser, both in collaboration with
+other researchers including aciri. ns has always included substantal
+contributions from other researchers, including wireless code from the
+ucb daedelus and cmu monarch projects and sun microsystems.
+
+this package contains examples of ns2

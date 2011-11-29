@@ -1,0 +1,10 @@
+Pop3 and imap4 proxy server
+	
+perdition allows users to connect to a content-free pop3 or imap4
+server that will redirect them to their real pop3 or imap4 server. this
+enables mail retrieval for a domain to be split across multiple backend
+servers on a per user basis. this can also be used to as a pop3 or imap4
+proxy especially in firewall applications. perdition supports arbitrary
+library based map access to determine the server for a user. posix
+regular expression, gdbm, berkeley db, mysql, postgresql, odbc and ldap
+libraries ship with the distribution.

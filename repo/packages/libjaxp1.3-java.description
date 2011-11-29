@@ -1,0 +1,15 @@
+Java xml parser and transformer apis (dom, sax, jaxp, trax)
+	
+xml-apis.jar from the apache xml commons project is used by the xerces-j xml
+parser and xalan-j xslt processor and specifies these apis:
+
+ * document object model (dom) level 3
+ * simple api for xml (sax) 2.0.2
+ * java apis for xml processing (jaxp) 1.3.04
+ * transformation api for xml (trax) 1.3.04
+ * document object model (dom) level 3 load and save
+ * jsr 206 java api for xml processing 1.3
+
+
+these classes are also used in sun's reference implementation. a gpl'ed
+implementation of these apis can be found in the libgnujaxp-java package.

@@ -1,0 +1,7 @@
+Icom pcr-1000 control shared libraries
+	
+icomlib is the ghetto.org pcr-1000 control suite. it consists of a
+library, command line programs, and a qt widget gui application.
+
+this software controls an icom pcr-1000 receiver via a serial
+interface.

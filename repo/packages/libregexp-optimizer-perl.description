@@ -1,0 +1,13 @@
+Modules for optimizing regular expressions
+	
+this contains two modules, regexp::list and regexp::optimizer.
+
+regexp::list offers a method which turns a list of words into an
+optimized regular expression which matches all words therein.
+the optimized regular expression is much more efficient than a
+simple-minded '|'-concatenation.
+
+regexp:optimizer factors out common suffices/prefices in regular
+expressions (trie optimization). currently, the user has to optimize
+"foo|far" and "foo|goo" into "f(?:oo|ar)" and "[fg]oo" by hand;
+this module does it automatically.

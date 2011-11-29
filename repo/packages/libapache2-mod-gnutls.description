@@ -1,0 +1,4 @@
+Apache module for ssl and tls encryption with gnutls
+	
+mod_gnutls provides ssl 3.0, tls 1.0, and tls 1.1 encryption with the gnutls
+library. it's similar in purpos to mod_ssl, but doesn't use openssl.

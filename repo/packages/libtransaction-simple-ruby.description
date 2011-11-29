@@ -1,0 +1,14 @@
+A generic way to add active transaction support to objects
+	
+transaction::simple provides a generic way to add active transaction
+support to objects. the transaction methods added by this module will work
+with most objects, excluding those that cannot be marshal-ed (bindings,
+procedure objects, io instances, or singleton objects).
+
+the transactions supported by transaction::simple are not associated with
+any sort of data store. they are "live" transactions occurring in memory
+on the object itself. this is to allow "test" changes to be made to an
+object before making the changes permanent.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

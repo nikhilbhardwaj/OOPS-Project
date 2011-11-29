@@ -1,0 +1,8 @@
+Dssi wrapper for the fluidsynth soundfont-playing synthesizer
+	
+the fluidsynth-dssi  package contains fluidsynth-dssi, a wrapper for the
+fluidsynth soundfont-playing software synthesizer, allowing it to function
+as a dssi plugin.
+
+dssi is an api for audio processing plugins, particularly useful for software
+synthesis plugins with user interfaces.

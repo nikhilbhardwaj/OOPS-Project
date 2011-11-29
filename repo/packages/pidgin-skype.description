@@ -1,0 +1,13 @@
+Skype plugin for libpurple messengers
+	
+this protocol plugin allows libpurple to communicate with skype.
+applications using libpurple (pidgin, finch, empathy/telepathy,
+etc.) can thus show your skype contacts alongside those from
+other protocols, and you can communicate with them using that
+application instead of the skype user interface.
+
+this plugin communicates with the skype application in the
+background to perform its work, so it's necessary to have skype
+installed and running.
+this product uses the skype api but is not endorsed, certified
+or otherwise approved in any way by skype.

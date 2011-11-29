@@ -1,0 +1,12 @@
+Rxvt-like terminal emulator with basic unicode support
+	
+rxvt-unicode is a modern, unicode-aware color xterm replacement that uses
+significantly less memory than a conventional xterm and many other unicode
+supporting terminal emulators.
+
+it supports using multiple fonts at the same time, including xft fonts, and
+client-server technology to reduce memory consumption when using multiple
+windows.
+
+this package contains the small version with only a few extra features and
+without freetype support.

@@ -1,0 +1,12 @@
+Api/library for bible software
+	
+the sword project is an open source, cross-platform (linux, windows, solaris,
+macosx etc.) api/library for bible software with a constantly growing list
+of front-ends (gui, textmode, web-based, etc.) and a library of over 200
+text modules.
+
+this package contains the core libraries for the project.
+it also contains utilities for generating data modules.
+
+please read the readme.debian for more information on how to obtain other
+modules for sword.

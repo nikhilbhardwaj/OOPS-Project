@@ -1,0 +1,10 @@
+Disassembler for the zilog z80 microprocessor
+	
+the z80 microprocessor is used in some 1980s home microcomputers, such as the
+sinclair zx80, zx81, spectrum, galaksija and in several newer devices, such
+as graphical calculators from texas instruments and the original gameboy.
+
+this disassembler is useful for reverse engineering programs and operating
+systems written for such devices. it produces assembly source code from binary
+rom images and tries to guess locations of labels and symbols. its output can
+be directly converted back to binary with a z80 assembler, such as z80asm.

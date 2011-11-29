@@ -1,0 +1,6 @@
+Utilities to support the smf library
+	
+libsmf is a bsd-licensed c library for handling smf ("*.mid") files.
+
+this package contains smfsh an interactive command-driven frontend to libsmf,
+useful for modifying midi files by hand.

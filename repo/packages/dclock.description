@@ -1,0 +1,8 @@
+Digital clock for the x window system with flexible display
+	
+dclock main feature is its great flexibility in how it can draw. you can
+even display the output from "date" in it such as "wednesday, 3rd jan".
+dclock also supports setting an alarm.
+
+you need the package sox if you want to enable sound for alarm and
+hourly bells (rather than beeps).

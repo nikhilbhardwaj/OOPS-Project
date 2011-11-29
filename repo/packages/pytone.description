@@ -1,0 +1,6 @@
+Music jukebox with advanced features for djs and a text-mode user interface
+	
+pytone is a curses based jukebox program with advanced features like
+crossfading, multiple players (libmad,xmms,mpg321/123), prehearing
+with a second soundcard, search functionality, logging, mixer functions
+and an english and german interface.

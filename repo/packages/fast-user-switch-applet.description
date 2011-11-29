@@ -1,0 +1,6 @@
+Applet for the gnome panel providing a menu to switch between users
+	
+the fast user-switching applet is an applet for the gnome panel that
+provides a menu to switch between users without logging out. it
+integrates with gdm to switch between existing x11 sessions or create
+new ones as needed, and shows the same users as the gdm face browser.

@@ -1,0 +1,7 @@
+Ada semantic interface specification (asis) runtime library - debugging symbols
+	
+asis (ada semantic interface specification) lets you develop applications
+to walk through the sources of your ada programs and examine the semantic
+constructs.
+
+this package contains the symbols necessary to debug asis programs using gdb.

@@ -1,0 +1,29 @@
+Extension of java with parametric types, multi-methods, and more
+	
+nice is a new object-oriented programming language.
+
+it extends java with many advanced features:
+
+  * parametric types: this is especially useful for containers
+    (lists, hash-tables) and allows for shorter and safer code.
+  * anonymous functions: functions can be created and manipulated as
+    first-class expressions, just like in lisp and ml.
+    this is much lighter than java's anonymous classes in many situations,
+    for instance with listeners in a gui.
+  * multi-methods: they allow methods to be defined outside classes.
+    this means that new methods can be defined on classes that
+    belong to a different package (even in java.*).
+    multi-methods alse extend usual methods with the possibility to
+    dispatch on every argument, instead of only the receiver class.
+    this supersedes the visitor pattern.
+  * tuples: this allows in particular methods to return several values.
+  * optional parameters to methods.
+    optional parameters have a default value that is used when the parameter
+    is not present in the call. this is much simpler than in java, where one
+    has to write several versions of the method for each combination of
+    parameters.
+  * nice detects more errors during compilation: programs written in nice
+    never throw nullpointerexception nor classcastexception.
+
+
+for more information see http://nice.sourceforge.net

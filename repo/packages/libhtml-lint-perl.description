@@ -1,0 +1,12 @@
+Checker of html errors in strings or files
+	
+html::lint is a pure-perl html parser and checker for syntactic legitmacy.
+
+the "weblint" script - provided in the separate package "weblint-perl" -
+is a wrapper around the html::lint.
+
+you can also look into apache::lint which is a mod_perl wrapper around
+html::lint.
+
+finally, for those of you doing automated testing with test::more and
+its brethren, test::html::lint lets you automate html checking.

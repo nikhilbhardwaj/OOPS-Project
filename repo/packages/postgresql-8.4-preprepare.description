@@ -1,0 +1,5 @@
+Pre prepare your statement server side
+	
+the +pre_prepare+ module aims to prepare all your statements as soon as
+possible and in a way that allows client queries not to bother at all and
+just call execute.

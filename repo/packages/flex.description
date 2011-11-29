@@ -1,0 +1,10 @@
+A fast lexical analyzer generator.
+	
+flex is a tool for generating scanners: programs which recognized lexical
+patterns in text. it reads the given input files for a description of a
+scanner to generate. the description is in the form of pairs of regular
+expressions and c code, called rules. flex generates as output a c source
+file, lex.yy.c, which defines a routine yylex().  this file is compiled
+and linked with the -lfl library to produce an executable. when the
+executable is run, it analyzes its input for occurrences of the regular
+expressions. whenever it finds one, it executes the corresponding c code.

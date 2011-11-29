@@ -1,0 +1,9 @@
+Gnu scientific library (gsl) -- development package
+	
+the gnu scientific library (gsl) is a collection of routines for
+numerical analysis.  the routines are written from scratch by the gsl
+team in c, and present a modern api for c programmers, while allowing
+wrappers to be written for very high level languages.
+
+this package contains the header files, static libraries and symbolic
+links that developers using gnu gsl will need.

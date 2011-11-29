@@ -1,0 +1,10 @@
+Gnustep gui library
+	
+the gnustep gui library is a powerful library of graphical user interface
+classes written completely in the objective-c language; the classes are
+based upon the openstep specification, and provide the user with a
+traditional nextstep-like look and feel.  the classes include graphical
+objects such as windows, menus, buttons, text fields, popup lists, browsers,
+scrollviews, splitviews, fonts, colors, images, events, pasteboards...
+you need the corresponding backend library package (gnustep-back) to use
+this package.

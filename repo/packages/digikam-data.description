@@ -1,0 +1,7 @@
+Digikam architecture-independant data
+	
+contains the significant amount of architecture-independent data that is
+shipped with digikam.
+
+it has been placed in an architecture all file so we do not have
+to ship one copy for each architecture.

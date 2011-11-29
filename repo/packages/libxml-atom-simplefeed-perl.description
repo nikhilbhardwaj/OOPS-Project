@@ -1,0 +1,11 @@
+Perl module for generation of atom syndication feeds
+	
+this module provides a minimal api for generating atom syndication feeds
+quickly and easily. it supports all aspects of the atom format, but has
+no provisions for generating feeds with extension elements.
+
+you can supply strings for most things, and the module will provide
+useful defaults. when you want more control, you can provide data
+structures, as documented, to specify more particulars.
+
+this module has a much smaller dependency chain than xml::atom.

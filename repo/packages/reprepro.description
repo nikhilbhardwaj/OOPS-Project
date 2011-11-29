@@ -1,0 +1,10 @@
+Debian package repository producer
+	
+reprepro is a tool to manage a repository of debian packages
+(.deb, .udeb, .dsc, ...). it stores files either being
+injected manually or downloaded from some other repository
+(partially) mirrored into one pool/ hierarchy.
+managed packages and files are stored in a berkeley db,
+so no database server is needed.
+checking signatures of mirrored repositories and creating
+signatures of the generated package indices is supported.

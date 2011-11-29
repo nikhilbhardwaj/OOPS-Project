@@ -1,0 +1,13 @@
+A java library for the ssh protocol
+	
+j2ssh is an object-orientated java library implementation of the ssh
+version 2 protocol. it provides a rich, powerful, and extensible ssh
+api that enables developers to gain access to ssh servers and to
+develop entire ssh client/server frameworks. the api library provides
+a fully-featured ssh2 implementation specifically designed for
+cross-platform development. higher level components, representing
+both the standard ssh client and ssh servers, are provided which
+implement the protocol specification for user sessions and port
+forwarding. the specification currently supports public key and
+password authentication and a full implementation of the sftp
+protocol.

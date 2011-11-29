@@ -1,0 +1,4 @@
+C api to hook into perl opcode execution
+	
+b::hooks::op::ppaddr provides a c api for xs modules to hook into the
+execution of perl opcodes.

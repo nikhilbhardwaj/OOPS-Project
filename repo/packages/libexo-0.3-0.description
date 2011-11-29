@@ -1,0 +1,12 @@
+Library with extensions for xfce
+	
+libexo is a library for xfce that contains a bunch of additional widgets and
+a framework for editable toolbars (an improved version of the framework
+present in gnome), light-weight session management support, functions to
+automatically synchronize object properties (based on gobject binding
+properties) and several miscellaneous utility and helper functions for
+application developers.
+
+while xfce ships with quite a few libraries that are primarily targeted at
+desktop development, libexo is targeted at application development, with a
+focus on applications for xfce.

@@ -1,0 +1,7 @@
+Read-only access to unix mailboxes
+	
+mail::mboxparser attempts to provide a simplified access to standard
+unix-mailboxes.  it offers only a subset of methods to get 'straight
+to the point'. more sophisticated things can still be done by
+invoking any method from mime::tools on the appropriate return
+values.

@@ -1,0 +1,6 @@
+Tool to strip byte-order marks from utf-8 text files
+	
+bomstrip is a very simple tool that removes bom's (byte-order-marks)
+from utf-8 files.  utf-8 does not have byte-ordering issues, so there
+is absolutely no need to have three bytes (the utf-8-bom) that do not
+say anything about the byte-order (since there is nothing to say).

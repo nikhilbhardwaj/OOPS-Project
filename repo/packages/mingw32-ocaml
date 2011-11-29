@@ -1,0 +1,4 @@
+PackageId:24489
+Name:mingw32-ocaml
+Version:3.11.2+debian4
+Deps:libc0.1,libc0.1-udeb,libc0.1-i386,libc6,libc6-udeb,libc6-i386,libncurses5,mingw32,gcc-mingw32,ocaml-findlib,ocaml-nox

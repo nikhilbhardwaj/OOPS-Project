@@ -1,0 +1,16 @@
+Tex live: german
+	
+support for typesetting german.
+
+this package includes the following ctan packages:
+
+ dehyph-exptl -- experimental hyphenation patterns for the german language.
+ german -- support for german typography.
+ germbib -- german variants of standard bibtex styles.
+ germkorr -- change kerning for german quotation marks.
+ kalender -- create a calendar, in german.
+ mkind-german --
+ r_und_s -- chemical hazard codes.
+ uhrzeit -- time printing, in german.
+ umlaute -- german input encodings in latex.
+ hyphen-german -- new orthography german hyphenation patterns.

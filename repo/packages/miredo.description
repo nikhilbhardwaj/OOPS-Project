@@ -1,0 +1,9 @@
+Teredo ipv6 tunneling through nats
+	
+the teredo ipv6 tunneling protocol encapsulates ipv6 packets into udp/ipv4
+datagrams, to allow hosts behind nat devices to access the ipv6 internet.
+
+miredo is a teredo client (as per rfc 4380): it can provide ipv6
+connectivity to a dual-stack ipv6/ipv4 host even if it is located behind a
+nat. it can also operate as a teredo relay which forwards ipv6 packets
+between the ipv6 internet and remote teredo clients.

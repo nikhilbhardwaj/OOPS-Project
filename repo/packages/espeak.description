@@ -1,0 +1,21 @@
+A multi-lingual software speech synthesizer
+	
+espeak is a software speech synthesizer for english, and some other
+languages.
+
+espeak produces good quality english speech. it uses a different synthesis
+method from other open source text to speech (tts) engines, and sounds quite
+different. it's perhaps not as natural or "smooth", but some find the
+articulation clearer and easier to listen to for long periods.
+
+it can run as a command line program to speak text from a file or from stdin.
+
+
+  * includes different voices, whose characteristics can be altered.
+  * can produce speech output as a wav file.
+  * can translate text to phoneme codes, so it could be adapted as a front end
+    for another speech synthesis engine.
+  * potential for other languages. rudimentary (and probably humourous)
+    attempts at german and esperanto are included.
+  * compact size. the program and its data total about 350 kbytes.
+  * written in c++.

@@ -1,0 +1,4 @@
+PackageId:25330
+Name:netdiag
+Version:1.0-13
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libncurses5,libpcap0.8,netbase

@@ -1,0 +1,7 @@
+Library for tracing bitmaps
+	
+potrace is a utility for tracing a bitmap, which means, transforming
+a bitmap into a smooth, scalable image.
+
+libpotrace0 contains files needed to run programs that utilize the
+potrace library.

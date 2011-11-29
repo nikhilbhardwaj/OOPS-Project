@@ -1,0 +1,7 @@
+Formatter to easy checking the spelling of pod
+	
+pod::spell is a pod formatter whose output is good for checking the spelling
+of the document.  pod::spell is much like pod::text, except that it doesn't
+put much effort into actual formatting, and it suppresses things that look
+like perl symbols or perl jargon (so that your spellchecking program won't
+complain about mystery words like "`$thing'" or "`foo::bar'" or "hashref").

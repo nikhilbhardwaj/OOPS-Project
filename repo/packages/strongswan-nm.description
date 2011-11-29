@@ -1,0 +1,10 @@
+Strongswan plugin to interact with networkmanager
+	
+strongswan is an ipsec-based vpn solution for the linux kernel. it uses the
+native ipsec stack and runs on any recent 2.6 kernel (no patching required).
+it supports both ikev1 and the newer ikev2 protocols.
+
+this plugin provides an interface which allows networkmanager to configure
+and control the ikev2 daemon directly through d-bus. it is designed to work
+in conjunction with the network-manager-strongswan package, providing
+a simple graphical frontend to configure ipsec based vpns.

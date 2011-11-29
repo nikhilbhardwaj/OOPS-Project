@@ -1,0 +1,24 @@
+Free cdg/midi/mpeg karaoke player
+	
+pykaraoke is a free karaoke player. you can use this program to play your
+collection of cdg, midi and mpeg karaoke songs.
+
+this package includes the command-line programs to play cdg files, midi/kar
+files and mpeg files.
+
+pykaraoke-mini is a frontend for the pycdg and pympg karaoke players.  it is
+similar to pykaraoke, but it is designed for use on small portable devices
+rather than pc's. in particular, it could be useful on any device lacking a
+keyboard and mouse.
+
+features:
+
+   * cdg (mp3+g, ogg+g) playback - play standard cdg karaoke files
+   * midi (.mid/.kar) playback - play midi format karaoke files
+   * mpeg playback - play karaoke songs and movies in mpeg format
+
+
+midi/kar support on linux, requires the following:
+
+   * timidity++
+   * sounds/patches for timidity++ (e.g. freepats or eawpatches)

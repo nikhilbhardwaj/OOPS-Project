@@ -1,0 +1,6 @@
+Generates a status line for dzen2 or xmobar
+	
+i3status is a small program (less than 1000 sloc) for generating a status bar
+for dzen2, xmobar or similar programs by combining several information about
+your system (ip addresses of your interfaces, load, current date/time, essid
+of the network you are associated to, disk status, and so on).

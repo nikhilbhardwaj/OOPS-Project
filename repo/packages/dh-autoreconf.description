@@ -1,0 +1,13 @@
+Debhelper add-on to call autoreconf and clean up after the build
+	
+dh-autoreconf provides a debhelper sequence addon named 'autoreconf' and two
+commands, dh_autoreconf and dh_autoreconf_clean.
+
+the dh_autoreconf command creates a list of the files and their checksums,
+calls autoreconf and then creates a second list for the new files.
+
+the dh_autoreconf_clean command compares these two lists and removes all
+files which have been added or changed (files may be excluded if needed).
+
+for cdbs users, a rule is provided to call the dh-autoreconf programs at
+the right time.

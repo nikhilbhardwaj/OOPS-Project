@@ -1,0 +1,7 @@
+Web browser plugin based on openjdk and icedtea to execute java applets
+	
+icedteaplugin is a web browser plugin to execute java applets, supporting
+liveconnect/javascript. it is targeted for xulrunner-1.9 and compatible
+browsers that support the npapi.
+
+icedtea is a temporary fork of openjdk

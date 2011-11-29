@@ -1,0 +1,7 @@
+Graphical side by side "diff" utility
+	
+tkdiff is a graphical front-end for the standard unix 'diff' utility.
+its features include highlighted difference regions (with a quick
+overview/navigation bar) and linked scrolling of files. it provides
+file-merge and change-summary facilities, line number toggling (for easier
+cut & paste) and support for subversion, rcs, cvs and sccs.

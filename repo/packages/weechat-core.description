@@ -1,0 +1,8 @@
+Fast, light and extensible chat client - core files
+	
+weechat (wee enhanced environment for chat) is a fast and light chat client
+for many operating systems. everything can be done with a keyboard.
+
+this package provides core plugins and locales files for weechat. it
+currently ships the following plugins: alias, xfer, irc, charset and
+logger. it is useless without weechat-curses.

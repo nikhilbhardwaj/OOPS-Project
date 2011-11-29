@@ -1,0 +1,8 @@
+C++ binding for libnotify (development files)
+	
+libnotify is a library that sends desktop notifications to a
+notification daemon, as defined in the desktop notifications spec.
+libnotifymm is the c++ binding for libnotify.
+
+this package contains development files, as well as headers and
+static library.

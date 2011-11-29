@@ -1,0 +1,5 @@
+Debugging symbols for qt-x11-free binaries
+	
+this package contains the debugging symbols associated with qt-x11-free.
+they will automatically be used by gdb for debugging qt-related
+issues.

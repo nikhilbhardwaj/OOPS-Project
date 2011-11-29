@@ -1,0 +1,11 @@
+Postgresql c client library
+	
+libpq is a c library that enables user programs to communicate with
+the postgresql database server.  the server can be on another machine
+and accessed through tcp/ip.  this version of libpq is compatible
+with servers from postgresql 8.2 or later.
+
+this package contains the run-time library, needed by packages using
+libpq.
+
+postgresql is an object-relational sql database management system.

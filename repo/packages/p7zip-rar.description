@@ -1,0 +1,7 @@
+Non-free rar module for p7zip
+	
+p7zip is the unix port of 7-zip, a file archiver that archives with
+very high compression ratios.
+
+p7zip-rar provides a module for p7zip-full to make 7z able to
+extract rar files.

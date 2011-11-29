@@ -1,0 +1,12 @@
+A text menu based utility for configuring ppp
+	
+it provides extensive explanations at each step.  pppconfig supports
+pap, chap, and chat methods of authentication.  it uses the standard
+ppp configuration files and sets ppp up so that the standard pon and
+poff commands can be used to control ppp.
+some features supported by pppconfig are:
+
+ - multiple isps with separate nameservers.
+ - modem detection.
+ - dynamic dns.
+ - dial on demand.

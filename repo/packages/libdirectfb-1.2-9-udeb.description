@@ -1,0 +1,8 @@
+Direct frame buffer graphics - shared libraries
+	
+directfb is a graphics library which was designed with embedded systems
+in mind. it offers maximum hardware accelerated performance at a minimum
+of resource usage and overhead.
+
+this package contains the shared libraries for use with the debian
+installer.

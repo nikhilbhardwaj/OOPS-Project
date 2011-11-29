@@ -1,0 +1,10 @@
+Beautify source code for use with latex
+	
+texify is a perl script that translates source code written in any of
+several different languages to latex source files.  the purpose is to
+make source code embedded in documents more readable, by performing
+syntax highlighting.
+
+the supported languages are abel, ada, assembly, b, beta, bison, c,
+c++, omg/corba idl, java, lex, lisp, logla, matlab, ml, perl, promela,
+python, scheme, simula, sql, ruby and vhdl.

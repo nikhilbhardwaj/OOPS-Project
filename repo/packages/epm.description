@@ -1,0 +1,8 @@
+Cross-platform package builder by easy software products
+	
+this package allows a developer to produce packages for several
+different platforms from a single specification.  currently, debian
+dpkg, rpm, at&t/solaris pkg, hp-ux depot/swinstall, and irix
+inst/tardist packages are supported, as well as a "portable" package
+that includes installation and removal scripts and a gui setup
+program.

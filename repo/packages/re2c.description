@@ -1,0 +1,9 @@
+Tool for generating fast c-based recognizers
+	
+re2c is a great tool for writing fast and flexible lexers. unlike
+other such tools, re2c concentrates solely on generating efficient
+code for matching regular expressions. not only does this singleness
+make re2c more suitable for a wider variety of applications, it
+allows us to generate scanners which approach hand-crafted ones in
+terms of size and speed.
+.

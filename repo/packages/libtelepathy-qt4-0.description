@@ -1,0 +1,9 @@
+Telepathy framework - qt 4 library
+	
+this package contains telepathy-qt4, a qt-based library for telepathy
+components.
+
+telepathy is a d-bus framework for unifying real time communication,
+including instant messaging, voice calls and video calls. it abstracts
+differences between protocols to provide a unified interface for
+applications.

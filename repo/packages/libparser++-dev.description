@@ -1,0 +1,7 @@
+Generic parser base class for c++ (development files)
+	
+this library provides a base class for parsers as well as an adapter to an
+iterator compatible interface.
+
+a parser for debian-style rfc822 messages is included, both as an example
+and as a working implementation.

@@ -1,0 +1,8 @@
+Modular tftp/fuse supplicant
+	
+fts is a modular fuse-tftp-supplicant written in perl which allows
+to create pxelinux configurations for different types of clients
+using external modules
+
+there is already written modules for fai (fully automated install),
+opsi (openpc integration) and ltsp5 (linux terminal server project)

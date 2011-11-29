@@ -1,0 +1,10 @@
+Red hat cluster suite - distributed lock manager development files
+	
+this package is part of the red hat cluster suite, a complete
+high-availability solution.
+
+dlm is a symmetric general-purpose distributed lock manager. it is
+used for example by gfs and the distributed volume manager.
+
+this package contains the files needed for developing applications
+that use the lock manager.

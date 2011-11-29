@@ -1,0 +1,7 @@
+Perl module providing method modifiers
+	
+class::method::modifiers provides three modifiers: before, around, and after.
+the before and after modifiers are run just before and after the method they
+modify, but cannot really affect that original method. the remaining modifier,
+around, is run in place of the original method, with a hook to easily call the
+original method.

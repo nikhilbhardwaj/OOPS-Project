@@ -1,0 +1,7 @@
+Development tools for pyqt4
+	
+this package contains various support tools for pyqt4 developers:
+
+ * a user interface compiler (pyuic4)
+ * a resource file generator (pyrcc4)
+ * a translation string finder (pylupdate)

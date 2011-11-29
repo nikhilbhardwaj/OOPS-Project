@@ -1,0 +1,17 @@
+Gnu r package with miscellaneous functions by greg warnes et al
+	
+this package of miscellaneous functions for gnu r that written by
+gregory warnes with code contributions by ben bolker, bendix
+carstensen, don macqueen, william venables, marc schwartz, ben
+bolker, ian wilson, kjetil halvorsen, arni magnusson, lodewijk
+bonebakker, and others.
+
+most of the function in the gregmisc library fall into six general areas:
+permutations and combinations, tools for linear models, plots, data
+manipulation, and fixed or extended versions of existing functions.
+
+note that as of version 2.0.8, gregmisc's code is now provided by the
+new packages gdata, gmodels, gplots and gtools which contain all the
+code formerly provided by gregmisc.  unless any of your r code still
+loads the gregmisc package directly, and you thus need it to load the
+component packages, you can remove this package.

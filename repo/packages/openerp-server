@@ -1,0 +1,4 @@
+PackageId:26125
+Name:openerp-server
+Version:5.0.12-2
+Deps:adduser,debconf,debconf-2.0,cdebconf,cdebconf-udeb,python,python-libxslt1,python-lxml,python-psycopg2,python-pychart,python-pydot,python-reportlab,python-tz

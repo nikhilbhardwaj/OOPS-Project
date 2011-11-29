@@ -1,0 +1,5 @@
+Compression library - 64 bit runtime
+	
+zlib is a library implementing the deflate compression method found
+in gzip and pkzip.  this package includes a 64 bit version of the
+shared library.

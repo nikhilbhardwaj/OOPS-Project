@@ -1,0 +1,6 @@
+Phonetic transcription for slovak language
+	
+g2p-sk implements rule based approach for the
+phonetic transcription. each input word represented by the
+sequence of the graphemes is transcribed to the sequence of
+of the phones in the sampa coding.

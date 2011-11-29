@@ -1,0 +1,13 @@
+Emboss library for commands
+	
+this package contains a core library of the european molecular biology open
+software suite, emboss.
+
+ajax covers standard data structures, including strings, sequences, file
+handles, queues, hashes, heaps, lists, dictionaries, trees and dynamic
+arrays. it also covers standard algorithms including comparisons, pattern
+matching, sorting, and iterators. ajax will also provide a set of high level
+graphics functions suited to the needs of sequence analysis applications.
+
+this package contains the runtime library files needed to run software
+using libajax.

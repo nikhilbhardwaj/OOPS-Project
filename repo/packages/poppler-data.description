@@ -1,0 +1,7 @@
+Encoding data for the poppler pdf rendering library
+	
+this package contains the encoding data needed to view some pdf documents
+with libpoppler.
+
+if cjk users want to view pdf files that contains their language, this package
+will help, such as cmap-adobe-{gb1,cns1,korea1,japan1,japan2}.

@@ -1,0 +1,6 @@
+Ldap interface module for python (debug extension)
+	
+this module provides a python interface to the openldap client library
+(ldap is the lightweight directory access protocol).
+
+this package contains the extension built for the python debug interpreter.

@@ -1,0 +1,11 @@
+Arc charon service
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced resource
+connector (arc).
+
+charon is a remote policy decision point service. it accepts formatted
+policy decision request and return positive or negative response. when
+running a charon (within the hed), the tls layer can be used for
+securing the communication, when the request or response  information
+are critical.

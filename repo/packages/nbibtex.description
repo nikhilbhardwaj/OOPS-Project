@@ -1,0 +1,7 @@
+Powerful, flexible replacement for bibtex
+	
+tools to help authors take better advantage of bibtex data,
+especially when working in collaboration.  instead of using bibtex
+'keys', which are chosen arbitrarily and idiosyncratically, nbibtex
+builds a bibliography by searching the actual contents of citations.
+it can be used as a drop-in, compatible replacement for bibtex.

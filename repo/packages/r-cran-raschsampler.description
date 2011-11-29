@@ -1,0 +1,6 @@
+Gnu r package for sampling binary matrices with fixed margins
+	
+this package implements an mcmc algorithm for sampling of binary
+matrices with fixed margins complying to the rasch model.  its
+stationary distribution is uniform.  the algorithm also allows
+for square matrices with fixed diagonal.

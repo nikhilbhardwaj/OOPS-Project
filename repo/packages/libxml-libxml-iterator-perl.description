@@ -1,0 +1,5 @@
+Iterator for xml parse-trees genereated by xml::libxml
+	
+this class allows to iterate through a dom as it is done through an ordinary
+array, i.e. it implements the iterator part of the dom traversal and range
+specification.

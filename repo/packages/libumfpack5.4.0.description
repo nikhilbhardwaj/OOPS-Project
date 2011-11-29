@@ -1,0 +1,6 @@
+Sparse lu factorization library
+	
+suitesparse is a collection of libraries for computations involving
+sparse matrices.  this package includes the following dynamic library:
+
+umfpack     sparse lu factorization

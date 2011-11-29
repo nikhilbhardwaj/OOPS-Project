@@ -1,0 +1,18 @@
+Asynchronous dns helper for high volume perl applications
+	
+net::dns::async is a fire-and-forget asynchronous dns helper.
+that is, the user application adds dns questions to the helper, and
+the callback will be called at some point in the future without
+further intervention from the user application. the application need
+not handle selects, timeouts, waiting for a response or any other
+such issues.
+
+if the same query is added to the queue more than once, the module
+may combine the queries; that is, it will perform the query only
+once, and will call each callback registered for that query in turn,
+passing the same net::dns::response object to each query. for this
+reason, you should not modify the net::dns::response object in any
+way lest you break things horribly for a subsequent callback.
+
+this module is similar in principle to poe::component::client::dns, but
+does not require poe.

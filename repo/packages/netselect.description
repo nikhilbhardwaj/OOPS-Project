@@ -1,0 +1,7 @@
+Speed tester for choosing a fast network server
+	
+this package provides a utility that can perform parallelized "ping"
+tests on distant servers.
+
+it can process a (possibly very long) list of servers, and choose the
+fastest/closest one automatically.

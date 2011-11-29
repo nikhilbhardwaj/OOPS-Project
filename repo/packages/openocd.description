@@ -1,0 +1,102 @@
+Open on-chip jtag debug solution for arm and mips systems
+	
+openocd is an on-chip debugging, in-system programming and boundary-scan
+testing tool for arm and mips systems.
+
+the debugger uses an ieee 1149-1 compliant jtag tap bus master to access
+on-chip debug functionality available on arm based microcontrollers or
+system-on-chip solutions. for mips systems the ejtag interface is supported.
+
+user interaction is realized through a telnet command line interface,
+a gdb (the gnu debugger) remote protocol server, and a simplified rpc
+connection that can be used to interface with openocd's jim tcl engine.
+
+openocd supports various different types of jtag interfaces/programmers:
+
+
+  * parallel port wigglers:
+    * macraigor wiggler jtag cable (and many clones)
+    * xilinx dlc5 jtag parallel cable iii (and many clones)
+    * amontec jtag accelerator
+    * gateworks gw16012 jtag programmer
+    * wiggler 2 cable (basically a wiggler with an led)
+    * wiggler with ntrst inverted
+    * amt wiggler
+    * ka-ro triton starterkit ii jtag cable
+    * lattice parallel port jtag cable
+    * st flashlink programming cable
+  * usb ft2232 based dongles:
+    * usbjtag
+    * amontec jtagkey
+    * amontec jtagkey-tiny
+    * oocd-link
+    * everve signalyzer
+    * luminary micro stellaris/lm3s811 evaluation board a
+    * olimex arm-usb-ocd
+    * tincantools flyswatter
+    * turtelizer 2
+    * hitex str9-comstick
+    * hitex stm32-performancestick
+    * axiom axm-0432 link
+    * section5 icebear
+  * usb jlink based adapters:
+    * atmel samice (only works with atmel chips)
+    * segger j-link
+    * iar j-link
+  * usb rlink based adapters:
+    * raisonance rlink
+    * stm32 primer
+    * stm32 primer2
+  * usb other:
+    * usbprog
+    * asix presto
+    * versaloon-link
+    * arm-jtag-ew
+  * standalone systems:
+    * zylin zy1000
+  * other:
+    * ep93xx based linux machine
+    * at91rm9200
+
+
+openocd supports debugging on a number of different arm/mips cores:
+
+  * arm7:
+    * arm7tdmi(-s)
+    * arm720t
+  * arm9:
+    * arm9tdmi
+    * arm920t
+    * arm922t
+    * arm926ej-s
+    * arm966e-s
+  * arm11
+    * arm1136
+    * arm1156
+    * arm1176
+  * intel xscale:
+    * pxa25x
+    * pxa26x
+    * pxa27x
+    * ixp42x
+    * ixp45x
+    * ixp46x
+  * cortex-m3
+    * luminary stellaris lm3
+    * st stm32
+  * mips m4k
+  * marvell feroceon cpu core (as found in the orion soc family)
+
+
+flash programming/writing is supported for:
+
+  * external cfi compatible flashes:
+    * intel and amd/spansion command set
+  * internal flashes:
+    * lpc2000
+    * at91sam7
+    * str7x
+    * str9x
+    * lm3
+    * stm32x
+  * lpc3180 nand flash

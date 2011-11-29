@@ -1,0 +1,20 @@
+Dancing simulation game similar to the kind in arcades
+	
+pydance is a dancing simulator, in which you must step on particular arrows
+on the floor in time with music playing in the background. pydance supports
+multiple difficulty levels for each song, background images and movies,
+lyrics, freeze arrows, bpm changes and stops, and many common modifiers like
+2x, drop, stealth, and so on.
+
+pydance is interoperable with other dancing games, and can play the
+popular dwi, sm, and ksf formats. it is capable of playing games similar
+to dance dance revolution, pump it up, paraparaparadise, dance maniax,
+and technomotion. it also implements several unique modes. you can also
+make your own steps for songs in the .dance format.
+
+many playstation to usb (or parallel) adapters are supported for play. if
+you lack a dance pad, you can also play with the keyboard.
+
+this package does not contain any songs to play pydance with. for that,
+see the pydance-music package. you may also install your own separate
+data files (for example, if you own other proprietary dancing games).

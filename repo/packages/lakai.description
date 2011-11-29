@@ -1,0 +1,12 @@
+Transfers samples between a pc and an akai sampler
+	
+lakai is a small set of tools (+ a link library) used to transfer sampler
+data (programs, samples) between a pc with a scsi host adapter and an akai
+sampler (s1000, s2000..).
+
+the current tools allow an easy way to create a full backup of the sampler's
+memory contents to the pc and a full restore of this data back from the pc to
+the sampler.
+
+future versions might contain more fine-grained control over the data you
+exchange, but this is still in planning stage.

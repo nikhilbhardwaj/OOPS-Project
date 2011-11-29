@@ -1,0 +1,4 @@
+PackageId:8061
+Name:jwchat
+Version:1.0+dfsg-1
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libjs-debugger,libjs-jac,libjs-xmlextras,ucf

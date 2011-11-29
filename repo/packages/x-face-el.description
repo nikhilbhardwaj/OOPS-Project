@@ -1,0 +1,14 @@
+Utility for displaying x-face on emacsen
+	
+x-face utility provides x-face encoder/decoder for emacsen.
+
+for gnu emacs users: this package includes the x-face-e21 feature
+(x-face-e21.el).  it provides displaying an x-face image inline.  also,
+it supports the face field which contains a base64 encoded png image.
+if you want to scale face images, install the netpbm package.
+
+for xemacs users: displaying an x-face image inline is supported by
+the x-face-xmas feature (x-face-xmas.el).  it is enabled by default.
+
+
+ homepage: http://www.jpl.org/elips/

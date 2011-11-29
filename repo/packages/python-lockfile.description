@@ -1,0 +1,17 @@
+File locking library for python
+	
+the ‘lockfile’ module exports a ‘filelock’ class which provides a
+simple api for locking files.
+
+the appropriate implementation for ‘filelock’ is chosen automatically
+based on the os capabilities for an atomic filesystem operation.
+these implementations are also available for explicit use as
+‘linkfilelock’ and ‘mkdirfilelock’.
+
+other back ends are possible with the same semantics; an example
+provided is ‘sqlitefilelock’.
+
+unlike other python locking libraries (the windows ‘msvcrt.locking’
+function, the unix ‘fcntl.flock’, ‘fcntl.lockf’, and the deprecated
+‘posixfile’ module), the api is identical across both unix (including
+gnu/linux and macos) and windows platforms.

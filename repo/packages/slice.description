@@ -1,0 +1,7 @@
+Extract out pre-defined slices of an ascii file
+	
+the slice program reads an input file and divide its prepared ascii contents
+into possibly overlapping slices. these slices are determined by enclosing
+blocks which are defined by begin and end delimiters which have to be
+already in the file. the final output gets calculated by a slice term
+consisting of slice names, set theory operators and optional round brackets.

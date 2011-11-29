@@ -1,0 +1,8 @@
+Fast web server log analyzer
+	
+visitors is a very fast web server log analyzer designed to be run from
+the command line, with support for text or html output and real-time
+statistics generation.  it can handle most web server logs including
+apache access logs and is very easy to use: no configuration file and
+no database are required.  it can also generate visual path analysis
+graphs using graphviz.

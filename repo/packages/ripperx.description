@@ -1,0 +1,8 @@
+A gtk-based audio cd ripper/encoder
+	
+ripperx is a graphical interface for ripping cd audio tracks (using
+cdparanoia) and then encoding them into the ogg, flac, or mp2/3
+formats using the vorbis tools, flac, toolame or other available
+mp3 encoders.
+
+it includes support for cddb lookups and id3v2 tags.

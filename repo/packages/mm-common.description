@@ -1,0 +1,10 @@
+Common build files of the gnome c++ bindings
+	
+the mm-common module provides the build infrastructure and utilities
+shared among the gnome c++ binding libraries.  it is only a required
+dependency for building the c++ bindings from the gnome.org version
+control repository.  an installation of mm-common is not required for
+building tarball releases, unless configured to use maintainer-mode.
+
+the mm-common package also includes a snapshot of the doxygen tag file
+for the gnu c++ library reference documentation.

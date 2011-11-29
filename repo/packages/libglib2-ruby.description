@@ -1,0 +1,9 @@
+Glib 2 bindings for the ruby language
+	
+glib is a useful general-purpose c library, notably used by gtk+ and gnome.
+this package contains libraries for using glib with the ruby programming
+language. it is most likely useful in conjunction with ruby bindings for
+other libraries such as gtk+.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

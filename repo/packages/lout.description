@@ -1,0 +1,33 @@
+Typesetting system, an alternative to (la)tex
+	
+lout is a document formatting system similar in style to latex, i.e.
+it works with mark-up files - plain text files containing commands to
+control the formatting.
+
+lout offers a very full range of features, including
+
+ * postscript, pdf, and plain text output
+ * optimal paragraph and page breaking
+ * automatic hyphenation
+ * postscript eps file inclusion and generation
+ * equation formatting, tables, diagrams
+ * rotation and scaling
+ * sorted indexes, bibliographic databases
+ * running headers and odd-even pages, automatic cross referencing
+ * multilingual documents including hyphenation (most european languages are
+   supported, including russian),
+ * formatting of c/c++ programs.
+
+
+lout may be extended by writing definitions which are much simpler than
+the equivalent troff or tex macros.
+
+lout has several advantages over (la)tex.  it is much smaller, and it is
+much easier to understand how to do things in lout (including writing
+definitions) than in tex or latex.  lout's postscript output is very small
+and clean.
+
+however, it is much less widely used than (la)tex, so there are
+fewer add-on definition packages for lout than for (la)tex and fewer
+local experts around to ask about problems.  you are unlikely to
+find many lout documents floating around the 'net.

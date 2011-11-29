@@ -1,0 +1,12 @@
+Ruby library for read/write access for ole compound documents
+	
+ruby-ole is a library for read/write access to ole2 structured storage
+files, such as those produced by microsoft office, eg *.doc, *.msg
+etc.
+
+it provides a simple and easy to use api, supporting read and write
+streaming, by providing transparent access to the "files" within ole
+documents as io-like objects, supporting all the expected operations.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

@@ -1,0 +1,10 @@
+A library that emulates sgi's gl routines under x11
+	
+ygl is an graphics library that emulates the routines of sgi's gl (sometimes
+called iris gl). please note that gl is different from opengl.  ygl is very
+simple to use, and very fast. the 2d routines are built around the standard
+x11 libraries and reported to be faster than gl itself.  this release will
+also work with fortran code and has been built with 3d support.  the library
+therefore requires the use of the opengl libraries.
+
+this package provides the development files.

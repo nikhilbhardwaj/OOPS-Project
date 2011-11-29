@@ -1,0 +1,10 @@
+A d-bus service for the apertium machine translation system
+	
+a d-bus service for the apertium machine translation
+system, allows apertium to be used for machine translation for
+any installed language pair from inside any programming
+language which has d-bus bindings.
+
+to use this service you need the apertium engine
+installed, and at least one linguistic package or
+language pair.

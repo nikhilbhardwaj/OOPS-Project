@@ -1,0 +1,9 @@
+Gtk+ user interface designer
+	
+gazpacho is one of the components of the gruppy framework for
+building applications. gazpacho is the component that provides
+quick and easy development of user interfaces.
+
+the code is based on the development version of glade. it is
+compatible with libglade, writing xml files that specify the
+interface to be created in run-time.

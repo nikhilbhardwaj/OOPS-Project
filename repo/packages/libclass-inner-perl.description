@@ -1,0 +1,5 @@
+Module providing java-like inner classes
+	
+class::inner is an implementation of an anonymous class with per-object
+overrideable methods, but with the added attraction of sort-of-working
+dispatch to the parent class's method.

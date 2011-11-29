@@ -1,0 +1,6 @@
+Set the icc colour profile for an x display
+	
+this utility lets you set an icc colour profile for an x display, so that
+applications can use it to display colour calibrated images.  applications have
+to specifically look for this atom but several applications such as gimp and
+krita already do.

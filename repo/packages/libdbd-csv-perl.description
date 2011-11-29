@@ -1,0 +1,5 @@
+Dbi driver for csv files
+	
+dbd::csv is a perl dbi driver for providing an sql-based interface to records
+stored in comma-separated value (csv) files. such files are frequently used
+for exporting data from microsoft's access and excel applications.

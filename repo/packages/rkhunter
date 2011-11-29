@@ -1,0 +1,4 @@
+PackageId:30891
+Name:rkhunter
+Version:1.3.6-4
+Deps:binutils,debconf,debconf-2.0,cdebconf,cdebconf-udeb,exim4,postfix,sendmail,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,sendmail-bin,ssmtp,xmail,file,net-tools,freebsd-net-tools,perl

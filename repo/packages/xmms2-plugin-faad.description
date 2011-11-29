@@ -1,0 +1,10 @@
+Xmms2 - faad decoder
+	
+xmms2 is a redesign of the xmms music player. it features a client-server
+model, allowing multiple (even simultaneous!) user interfaces, both textual
+and graphical. all common audio formats are supported using plug-ins. on top of
+this, there is a flexible media library to organize your music.
+
+this package enables decoding of faad encoded aac files for xmms2. together
+with xmms2-plugin-mp4 it also allows to decide faad encoded data inside of an
+mp4 container.

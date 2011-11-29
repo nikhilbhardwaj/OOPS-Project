@@ -1,0 +1,22 @@
+Simple and extensible nntp server
+	
+papercut is a simple nntp server.  its main objective is to integrate existing
+web based message board software with an usenet front-end.
+
+however, using python, new article containers can be added to store and
+retrieve messages from various source and formats.
+
+this package contains the following storage classes:
+
+  - phorum web bulletin board (on mysql or postgresql),
+  - phpbb web bulletin board,
+  - phpnuke/nukebb web bulletin board,
+  - proxying another nntp server,
+  - simple mysql database,
+  - maildirs,
+  - mboxes.
+
+
+please note that papercut is only a nntp server, not a full-featured news
+transport system.  it does not handle newsfeeding or other usual news
+software features.

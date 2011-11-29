@@ -1,0 +1,17 @@
+Forks - emulate threads with fork
+	
+the forks.pm module is a drop-in replacement for threads.pm.  it has the
+same syntax as the threads.pm module (it even takes over its namespace) but
+has some significant differences:
+
+
+ - you do _not_ need a special (threaded) version of perl
+ - it is _much_ more economic with memory usage on os's that support cow
+ - it is more efficient in the startup of threads
+ - it is slightly less efficient in the stopping of threads
+ - it is less efficient in inter-thread communication
+
+
+if nothing else, it allows you to use the perl threading model in
+non-threaded perl builds and in older versions of perl (5.6.0 and
+higher are supported).

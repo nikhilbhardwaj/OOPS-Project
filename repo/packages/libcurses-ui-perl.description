@@ -1,0 +1,10 @@
+Curses-based oo user interface framework for perl
+	
+a ui framework for perl based on the curses library.  curses::ui contains
+the standard set of widgets for use in constructing user interfaces, plus
+the following more advanced widgets: calendar, progress bar, text editor
+(including word wrapping and undo), and text viewer.  it supports a
+variety of dialog windows, from the standard basic and error dialogs to
+file browsers, progress bars, and a calendar.  curses::ui also has
+internationalization support and currently has localization information
+for several languages.

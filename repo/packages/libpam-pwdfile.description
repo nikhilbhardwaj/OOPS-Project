@@ -1,0 +1,5 @@
+Pam module allowing authentication via an /etc/passwd-like file
+	
+this pam module lets you use an arbitrarily-named text file similar in
+structure to /etc/passwd to authenticate users. both des and md5
+hashed passwords are supported.

@@ -1,0 +1,17 @@
+A system-wide linux profiler
+	
+sysprof is a sampling cpu profiler that uses a linux kernel module to profile
+the entire system, not just a single application. sysprof handles shared
+libraries and applications do not need to be recompiled. in fact they don't
+even have to be restarted.
+
+it has the following features:
+
+ - profiles all running processes, not just a single application
+ - has a simple graphical interface
+ - shows the time spent in each branch of the call tree
+ - profiles can be loaded and saved
+
+
+you need the sysprof kernel module (provided in sysprof-module-source) to use
+sysprof.

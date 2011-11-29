@@ -1,0 +1,9 @@
+Gtk+ configuration tool for bind9
+	
+gadmin-bind is an easy to use gtk+ frontend for isc bind. it handles multiple
+domains and can switch from master to slave domain in three clicks. it can
+change the domain name for entire domains and subdomains, including domain
+resources such as mx, a, aaaa, cname, and ns.
+
+gadmin-bind can also generate and set up secret keys for rndc, construct a
+chroot environment, and handle ddns operations.

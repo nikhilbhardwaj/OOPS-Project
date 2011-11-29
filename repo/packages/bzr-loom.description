@@ -1,0 +1,7 @@
+Focused patch plugin support for bazaar
+	
+loom is a bazaar plugin to assist in developing focused patches. it adds a
+'loom' to a bzr branch.
+
+a loom allows the development of multiple patches at once, while still giving
+each patch a branch of its own.

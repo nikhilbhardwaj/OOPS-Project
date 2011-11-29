@@ -1,0 +1,4 @@
+PackageId:25148
+Name:mysql-mmm-agent
+Version:2.2.1-1
+Deps:iproute,libalgorithm-diff-perl,libdbd-mysql-perl,libdbi-perl,libnet-arp-perl,libproc-daemon-perl,mysql-mmm-common

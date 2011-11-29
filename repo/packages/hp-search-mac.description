@@ -1,0 +1,8 @@
+Search for a mac address on hp switches
+	
+this package contains a small utility that can query hp switches for their
+connection table. it then allow you to search for a mac address and tell you
+where it is physically connected (best match first).
+
+the functionality is similar to traceroute but on ethernet level and only
+for hp switches.

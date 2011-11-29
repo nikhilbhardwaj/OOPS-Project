@@ -1,0 +1,11 @@
+Realtime video mixer and linear video editor
+	
+freej is a digital instrument for realtime video manipulation used in
+the fields of dance theater, veejaying, medical visualization and tv.
+freej lets you interact with multiple layers of video (images, movies,
+live cameras, particle generators, text scrollers, flash animations and
+more), filter them with effect chains and then mix them together. it can
+be operated live from a text console and scripted to be controlled by
+keyboard, midi, osc and joysticks.
+
+this package contains debugging symbols for freej console.

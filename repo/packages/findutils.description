@@ -1,0 +1,6 @@
+Utilities for finding files--find, xargs
+	
+gnu findutils provides utilities to find files meeting specified
+criteria and perform various actions on the files which are found.
+this package contains 'find' and 'xargs'; however, 'locate' has
+been split off into a separate package.

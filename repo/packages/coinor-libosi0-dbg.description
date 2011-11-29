@@ -1,0 +1,18 @@
+Coin-or open solver interface
+	
+the coin-or open solver interface is a uniform api for interacting with
+callable solver libraries. it supports linear programming solvers as well as
+the ability to "finish off" a mixed-integer problem calling the solver
+library's mip solver.
+
+supported solvers:
+
+ * coin-or lp solver (osiclp)
+ * dylp (osidylp)
+ * the volume algorithm (osivol)
+
+
+osi is part of the larger coin-or initiative (computational infrastructure
+for operations research).
+
+this package contains the debug symbols.

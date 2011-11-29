@@ -1,0 +1,5 @@
+Python bindings for liblzma
+	
+pyliblzma provides a python interface for the liblzma library for
+reading and writing data that has been compressed or can be
+decompressed by lasse collin's xz / lzma utils.

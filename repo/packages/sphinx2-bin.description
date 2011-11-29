@@ -1,0 +1,8 @@
+Speech recognition utilities
+	
+sphinx 2 is a real-time, speaker-independent speech recognition system.
+
+this package contains examples and utilities that use sphinx. it also
+includes a sample language model that is capable of recognizing simple
+commands like "go forward ten meters" and other commands one might use to
+tell a robot where to move.

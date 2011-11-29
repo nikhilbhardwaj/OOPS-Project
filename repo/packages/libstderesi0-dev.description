@@ -1,0 +1,8 @@
+The eresi standard library
+	
+libstderesi is a collection of 100+ builtin commands shared between many
+eresi components. it was unmerged from librevm which is now only holding
+the eresi language interpreter.
+
+this package contains the development files provided by libstderesi (the
+static library - i.e the .a file - and the libstderesi headers).

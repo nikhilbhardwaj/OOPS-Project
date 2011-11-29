@@ -1,0 +1,13 @@
+Event logging framework - passive logging daemon
+	
+zeitgeist is a service which logs the user's activities and events (files
+opened, websites visited, conversations hold with other people, etc.) and
+makes the relevant information available to other applications.
+
+it serves as a comprehensive activity log and also makes it possible to
+determine relationships between items based on usage patterns.
+
+this package contains zeitgeist-datahub, a daemon which starts together with
+the main engine and inserts information collected from gtkrecentlyused into
+it. additional data collectors can be added to it and will be detected at
+startup time.

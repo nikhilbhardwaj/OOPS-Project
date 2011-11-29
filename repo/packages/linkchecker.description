@@ -1,0 +1,23 @@
+Check websites and html documents for broken links
+	
+provides a command line program and web interface to check links
+of websites and html documents.
+features:
+
+ o recursive checking
+ o multithreaded
+ o output in colored or normal text, html, sql, csv, xml or a sitemap
+   graph in different formats
+ o http/1.1, https, ftp, mailto:, news:, nntp:, telnet and local file
+   links support
+ o restrict link checking with regular expression filters for urls
+ o proxy support
+ o username/password authorization for http, ftp and telnet
+ o robots.txt exclusion protocol support
+ o cookie support
+ o i18n support
+ o html and css syntax check
+ o antivirus check
+
+users preferring a graphical interface can install the linkchecker-gui
+package.

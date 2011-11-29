@@ -1,0 +1,10 @@
+Feature-rich bsd mail(1)
+	
+workalike of the classical mail(1). heirloom mailx can produce and
+read mime and s/mime messages and has greatly improved character-set
+handling, including support for utf-8.
+
+it can send messages through a local /usr/bin/sendmail interface or
+smtp, using a smarthost. mail can be read from local mailboxes as
+well as via pop3 or imap connections. network protocols can be
+encrypted using ssl/tls.

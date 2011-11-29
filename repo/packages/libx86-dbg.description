@@ -1,0 +1,6 @@
+X86 real-mode library - debugging symbols
+	
+a library to provide support for making real-mode calls x86 calls. on x86
+hardware, vm86 mode is used. on other platforms, x86 emulation is provided.
+
+this package provides debugging symbols for libx86.

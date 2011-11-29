@@ -1,0 +1,5 @@
+A simple hex editor with a pico-style interface
+	
+shed is an easy application for viewing and editing files in hex, octal,
+binary, or ascii text using ncurses. the interface is inspired by pico, another
+ncurses based text editor.

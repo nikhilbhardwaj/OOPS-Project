@@ -1,0 +1,14 @@
+Generic constraint development environment
+	
+gecode is an attempt to construct an open, free, portable, accessible,
+and efficient environment for developing constraint-based systems and
+applications.
+
+gecode is radically open for programming: it can be easily
+interfaced to other systems. it supports the programming of new
+propagators (as implementation of constraints), branching strategies,
+and search engines. new variable domains can be programmed at the same
+level of efficiency as finite domain and integer set variables that
+come predefined with gecode.
+
+this package has the api documentation and examples.

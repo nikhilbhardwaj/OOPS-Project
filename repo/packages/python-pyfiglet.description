@@ -1,0 +1,7 @@
+Python port of the figlet specification
+	
+figlet is a program that creates large characters out of ordinary screen
+characters. it takes ascii text and renders it in ascii art fonts.
+
+this is a python port of the original c figlet.  it can be used on the
+commandline or as an object oriented driver library in your own programs.

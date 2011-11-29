@@ -1,0 +1,5 @@
+Simple pam authentication module
+	
+authen::simple::pam allows to use pam authentication methods.
+
+it uses the libauthen-simple-perl framework.

@@ -1,0 +1,11 @@
+A python program to cast and interpret i ching hexagrams
+	
+pyching is a program that allows you to 'consult' the i ching. the i ching
+is an ancient chinese book of wisdom, which, apart from being read as a
+book, has also traditionally been consulted as an oracle. pyching allows
+you to perform an i ching 'reading' using the coin oracle, and then look
+up a brief interpretation from the i ching.
+
+pyching is completely written in python, a cross platform, object
+oriented, programming language, using the tkinter interface to the
+tk gui toolkit.

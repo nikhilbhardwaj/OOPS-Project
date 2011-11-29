@@ -1,0 +1,10 @@
+Graphical disk usage display with cleanup facilities
+	
+kdirstat (kde directory statistics) is a small utility program that sums
+up disk usage for directory trees, very much like the unix 'du' command.
+it displays the disk space used up by a directory tree, both numerically
+and graphically.  it is network transparent (i.e., you can use it to sum
+up ftp servers), and comes with predefined and user configurable cleanup
+actions.  you can directly open a directory branch in konqueror or the
+shell of your choice, compress it to a .tar.bz2 archive, or define your
+own cleanup actions.

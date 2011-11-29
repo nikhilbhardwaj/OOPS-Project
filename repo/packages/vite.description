@@ -1,0 +1,11 @@
+Efficient visual trace explorer
+	
+vite is a powerful portable and open source profiling tool to visualize
+the behaviour of parallel applications. thanks to its scalable design,
+vite helps programmers to efficiently analyze the performance of
+potentially large applications.
+
+vite currently enables the visualisation of traces using the pajé format
+(open format, see http://www-id.imag.fr/logiciels/paje/) and has various
+functionalities such as exporting a view in a svg format to integrate
+the results easily in a report, or viewing statistics.

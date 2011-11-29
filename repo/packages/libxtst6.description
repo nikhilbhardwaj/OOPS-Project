@@ -1,0 +1,13 @@
+X11 testing -- record extension library
+	
+libxtst provides an x window system client interface to the record
+extension to the x protocol.
+
+the record extension allows x clients to synthesise input events, which
+is useful for automated testing.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxtst

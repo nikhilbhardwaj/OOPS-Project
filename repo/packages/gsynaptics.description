@@ -1,0 +1,8 @@
+Configuration tool for pointing devices (transitional package)
+	
+package to ease upgrading from gsynaptics to gpointing-device-settings.
+reason for this is that gsynaptics is not compatible with recent xservers
+and upstream now develops gpointing-device-settings instead.
+
+this package can be purged at anytime once the gpointing-device-settings
+package has been installed.

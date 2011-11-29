@@ -1,0 +1,6 @@
+Ogg vorbis streaming source for icecast 2
+	
+ices 2.x is used to source icecast 2 streaming audio
+servers with ogg vorbis audio streams.  it supports both
+live audio input from a soundcard and re-encoding of ogg
+vorbis files from a playlist.

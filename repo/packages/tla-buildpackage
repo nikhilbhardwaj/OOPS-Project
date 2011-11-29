@@ -1,0 +1,4 @@
+PackageId:32980
+Name:tla-buildpackage
+Version:0.9.14
+Deps:devscripts,dpkg-dev,python,python-apt,python-support,tla,tla-load-dirs

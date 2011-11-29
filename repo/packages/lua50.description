@@ -1,0 +1,14 @@
+Small embeddable language with simple procedural syntax
+	
+lua is a programming language originally designed for extending
+applications, but also frequently used as a general-purpose,
+stand-alone language.
+
+lua combines simple procedural syntax (similar to pascal) with
+powerful data description constructs based on associative arrays and
+extensible semantics. lua is dynamically typed, interpreted from
+bytecodes, and has automatic memory management, making it ideal for
+configuration, scripting, and rapid prototyping. lua is implemented
+as a small library of c functions, written in ansi c, and the
+implementation goals are simplicity, efficiency, portability, and low
+embedding cost.

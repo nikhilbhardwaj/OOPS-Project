@@ -1,0 +1,10 @@
+Mono jscript compiler
+	
+this is the mono jscript compiler, a platform-independent compiler which
+produces cil (common intermediate language) binary executables.
+
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.

@@ -1,0 +1,6 @@
+Setools java bindings (architecture-independent)
+	
+setools is a collection  tools for analysing security policyon selinux
+systems. this package includes java bindings for the following
+setools libraries: libapol, libpoldiff, libqpol, libseaudit, and
+libsefs.

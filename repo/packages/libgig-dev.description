@@ -1,0 +1,8 @@
+Development files for libgig
+	
+libgig is a c++ library for loading, modifying and creating gigasampler
+files and dls (downloadable sounds) level 1/2 files.
+
+this package contains the header files needed for
+development with libgig. you will need this only if you
+intend to compile programs that use this library.

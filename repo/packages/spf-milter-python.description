@@ -1,0 +1,5 @@
+Rfc 4408 compliant spf milter for sendmail and postfix
+	
+a python mail filter to add received-spf headers and reject forged mail.
+rejection policy is configured via sendmail access file. updated for rfc 4408
+compliance.

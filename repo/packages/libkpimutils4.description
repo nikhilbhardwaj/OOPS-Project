@@ -1,0 +1,8 @@
+Library for dealing with email addresses
+	
+this library contains utility functions for dealing with email addresses.
+this includes parsing, splitting and munging email addresses represented
+as strings (e.g. in email headers); some additional functions handle
+non-latin1 upper- and lower-case conversions.
+
+this package is part of the kde development platform pim libraries module.

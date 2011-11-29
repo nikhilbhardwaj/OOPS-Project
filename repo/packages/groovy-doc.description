@@ -1,0 +1,16 @@
+Agile dynamic language for the java virtual machine (documentation)
+	
+groovy is an agile dynamic language for the jvm combining lots of great
+features from languages like python, ruby and smalltalk and making them
+available to the java developers using a java-like syntax.
+
+groovy is designed to help you get things done on the java platform in a
+quicker, more concise and fun way - bringing the power of python and ruby
+inside the java platform.
+
+groovy can be used as an alternative compiler to javac to generate
+standard java bytecode to be used by any java project or it can be used
+dynamically as an alternative language such as for scripting java objects,
+templating or writing unit test cases.
+
+this package includes the groovy api javadocs, and examples.

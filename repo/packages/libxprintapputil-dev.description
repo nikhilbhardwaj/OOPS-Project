@@ -1,0 +1,16 @@
+Xprint job utility client library (development files)
+	
+libxprintapputil provides utility xpau apis allowing client applications
+to access information about and control xprint jobs from an xprint server.
+
+if you want to write an app to create xprint jobs (printing x windows
+to paper, for instance) then you probably want libxp-dev instead.
+
+this package provides a static library and c header files.
+
+more information about x.org can be found at:
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found as the module 'libxprintapputil' at
+http://xorg.freedesktop.org/releases/individual/lib/

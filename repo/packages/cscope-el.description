@@ -1,0 +1,10 @@
+Interactively examine a c program source, cscope emacs binding
+	
+cscope is a program that generates index tables from c and c++ source
+files. it is also a client program that knows how to use the
+generated index tables to answer questions such as where is a symbol
+defined, where is a symbol referenced, etc.
+
+cscope-el contains the emacs interfaces to cscope; darryl okahata's
+xcscope.el,
+see http://www.emacswiki.org/emacs/cscopeandemacs

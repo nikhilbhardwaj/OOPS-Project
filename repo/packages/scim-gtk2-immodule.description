@@ -1,0 +1,13 @@
+Gtk+2 input method module with scim as backend
+	
+scim (smart common input method) is an input method (im) platform.
+
+this package is the gtk+ 2.x native input method module for scim.  it provide
+a gtk+ im module with scim as the input backend.  this input method module
+should work within all gtk+ 2.x platforms, including gtk-x11, gtk-linuxfb and
+gtk-directfb.
+
+the gtk+ im module communicates with scim backend through the socket im engine
+module and socket front end module provided by scim-modules-socket package.
+
+for more information about scim, please see the description of scim package.

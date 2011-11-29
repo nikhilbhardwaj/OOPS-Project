@@ -1,0 +1,6 @@
+Lists windows and kills errant programs
+	
+gpe-taskmanager is part of the gpe palmtop environment. it displays a list of
+windows on the current display, and allows the user to kill the task which
+owns a particular window. this can be helpful if a program has hung and is no
+longer responding to direct user actions.

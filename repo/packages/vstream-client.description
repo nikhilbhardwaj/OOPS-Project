@@ -1,0 +1,10 @@
+A library and utility to fetch media streams from a tivo
+	
+vstream-client is a fork off of the vstream library from the
+tivo-mplayer project. it has been stripped down to just the
+client code, and includes an example client application. if
+you have vserver installed on your tivo (which most tivo hackers
+do), then you can use this simple client to stream .ty files
+from it. mplayer includes support for this library. this
+library can be used by mplayer/mencoder to watch/re-encode tivo
+streams live over a network.

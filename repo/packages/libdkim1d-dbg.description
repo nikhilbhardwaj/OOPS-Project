@@ -1,0 +1,6 @@
+Domainkeys identified mail (dkim) library - debug symbols
+	
+this package contains the debug symbols for libdkim1d, a library for
+server-level signing of email using the dkim standard, and
+verification of the signatures. see the description of that package
+for more information.

@@ -1,0 +1,12 @@
+I18n module for drupal 6
+	
+this is a collection of modules to extend drupal core multilingual
+capabilities and be able to build real life multilingual sites. some
+features:
+
+ * taxonomy translation (both, per language terms and translatable terms)
+ * multilingual variables
+ * multilingual blocks (control visibility per language and translate
+   title and content)
+ * language selection (when you switch the site language you'll see only
+   the content for that language)

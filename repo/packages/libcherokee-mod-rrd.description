@@ -1,0 +1,15 @@
+Cherokee web server - rrdtool based information collector
+	
+cherokee is a very fast, flexible and easy to configure web server.
+it supports the widespread technologies nowadays: fastcgi, scgi, php,
+cgi, tls and ssl encrypted connections, virtual hosts, authentication,
+on the fly encoding, apache compatible log files, http load balancing,
+data base balancing, ssi, reverse http proxy and much more.
+
+cherokee also provides an easy to use configuration interface that
+allows to configure the server from top to bottom without having to
+edit a text configuration file.
+
+this plugin includes the rrdtool based information collector
+functionality. you will probably want to install this plugin unless
+you are aiming to a minimal dependency footprint.

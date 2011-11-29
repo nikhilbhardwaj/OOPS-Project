@@ -1,0 +1,5 @@
+Debugging symbols for kdelibs
+	
+this package contains the debugging symbols associated with kdelibs.
+they will automatically be used by gdb for debugging kdelibs-related
+issues.

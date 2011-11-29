@@ -1,0 +1,9 @@
+Tools for xmame and xmess
+	
+various tools distributed with the xmame sources.
+
+the tools are:
+
+ - chdman: tool to manage chd images.
+ - romcmp: compares roms or romsets.
+ - xml2info: converts the new -listxml output to the old format.

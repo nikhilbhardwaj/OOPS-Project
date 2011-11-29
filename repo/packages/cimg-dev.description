@@ -1,0 +1,14 @@
+Powerful image processing library
+	
+the cimg library is a c++ toolkit providing simple classes and functions
+to load, save, process and display images in your own c++ code. it consists
+only of a single header file cimg.h that must be included in your program
+source. it contains useful image processing algorithms for loading/saving,
+resizing/rotating, filtering, object drawing (text, lines, faces,
+ellipses, ...), etc.
+
+images are instantiated by a class able to represent images up to 4-dimension
+wide (from 1-d scalar signals to 3-d volumes of vector-valued pixels), with
+template pixel types. it depends on a minimal number of libraries : you can
+compile it with only standard c libraries. no need for exotic libraries and
+complex dependencies.

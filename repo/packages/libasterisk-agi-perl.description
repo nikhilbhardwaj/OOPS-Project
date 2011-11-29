@@ -1,0 +1,9 @@
+Collections of perl modules to be used with asterisk pbx agi
+	
+this module provides a simple interface to several operations related to
+the asterisk pbx, including:
+
+
+ * asterisk::agi - simplifies writing agi scripts for the asterisk dialplan.
+ * asterisk::outgoing - create calls through the outgoing spool.
+ * asterisk::manager - control asterisk through the manager interface socket.

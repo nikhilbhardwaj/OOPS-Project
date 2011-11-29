@@ -1,0 +1,4 @@
+Erlang/otp code type annotator
+	
+typer is a tool that displays and automatically inserts type annotations
+in erlang code. it uses dialyzer to infer variable types.

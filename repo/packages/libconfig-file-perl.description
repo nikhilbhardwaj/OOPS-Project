@@ -1,0 +1,13 @@
+Parses simple configuration files
+	
+configfile parses simple configuration files and store its values in
+an anonymous hash reference. the syntax of the configuration file is
+quite simple:
+
+
+ # this is a comment
+ value_one = foo
+ value_two = $value_one/bar
+ value_three = the value contains a \# (hash). # this is a comment.
+ composed_value[one] = the first component of a clustered value
+ composed_value[two] = the second component of a clustered value

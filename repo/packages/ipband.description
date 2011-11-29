@@ -1,0 +1,9 @@
+Daemon for subnet bandwidth monitoring with reporting via email
+	
+this is a daemon which can monitor as many different subnets (or individual
+hosts, by specifying a "subnet" of /32) as you'd like. the reporting facility
+will only be triggered when a defined bandwidth level had been exceeded for a
+defined time.
+
+information reported includes the connections which are taking up the most
+bandwidth (ip address and port pairs). reporting is done via email.

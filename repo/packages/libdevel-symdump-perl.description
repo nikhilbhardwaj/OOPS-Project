@@ -1,0 +1,4 @@
+Perl module for inspecting perl's symbol table
+	
+the perl module devel::symdump provides a convenient way to inspect
+perl's symbol table and the class hierarchies within a running program.

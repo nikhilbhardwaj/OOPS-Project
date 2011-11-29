@@ -1,0 +1,8 @@
+Real-time logging system in mysql - courier traffic-logger
+	
+mysqmail is a set of tiny daemon loggers for mail and ftp servers that
+save traffic information in a mysql database. the information is split
+by domain and by user so that it's easy to measure all the traffic for
+a given domain name in real time.
+
+this package provides a logger for pop/imap traffic handled by courier.

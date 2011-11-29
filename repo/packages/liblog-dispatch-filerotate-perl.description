@@ -1,0 +1,6 @@
+Log to files that archive/rotate themselves
+	
+this module provides a simple object for logging to files under the
+log::dispatch::* system, and automatically rotating them according to
+different constraints. this is basically a log::dispatch::file wrapper
+with additions.

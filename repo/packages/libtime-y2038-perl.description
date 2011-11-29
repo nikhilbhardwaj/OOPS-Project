@@ -1,0 +1,6 @@
+Perl module with time functions working beyond 2038
+	
+on many computers, perl's time functions will not work past the year 2038.
+this is a design fault in the underlying c libraries perl uses. time::y2038
+provides replacements for those functions which will work accurately +/1 142
+million years.

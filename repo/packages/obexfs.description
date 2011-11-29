@@ -1,0 +1,6 @@
+Mount filesystem of obexftp capable devices
+	
+obexfs uses fuse to mount filesystems of obexftp capable
+devices either manually or in autofs style mode.
+it can handle all devices that the obexftp package can handle,
+connected via serial cable, irda, bluetooth or usb.

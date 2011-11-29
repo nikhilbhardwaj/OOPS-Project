@@ -1,0 +1,8 @@
+Interactive environment to explore package repositories
+	
+pkglab is an interactive, console-based environment to explore package
+repositories of package-based software distributions.
+
+using pkglab package lists can be loaded and installability tests can
+be performed to check whether given package combinations are
+co-installable or not, according to inter-package relationships.

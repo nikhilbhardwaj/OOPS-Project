@@ -1,0 +1,10 @@
+Gnu info documentation on the gnu octave language (3.2 branch)
+	
+octave is a (mostly matlab (r) compatible) high-level language, primarily
+intended for numerical computations. it provides a convenient command-line
+interface for solving linear and nonlinear problems numerically.
+
+this package provides the following documentation in info format:
+the faq, a document on the c++ classes used by octave, as well as the main
+octave documentation which is needed for the 'help -i foo' command within
+octave.

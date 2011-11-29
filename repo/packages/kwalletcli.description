@@ -1,0 +1,9 @@
+Command line interface to the kde wallet
+	
+kwalletcli implements a command line interface tool to get and set
+password entries in the default kde wallet. also included are a shell
+wrapper around pinentry, a pinentry-kwallet application checking the
+kde wallet for the passphrase requested before asking the user for
+use with the gnupg agent, which is also capable of running without
+a pinentry as backend, and kwalletaskpass, which can store ssh key
+passphrases in the kde wallet for use with the openssh agent.

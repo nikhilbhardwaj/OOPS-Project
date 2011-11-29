@@ -1,0 +1,6 @@
+A nice configure script for your qmake-based project
+	
+it is intended for developers who don’t need (or want)
+to use the more complex gnu autotools. with qconf/qmake,
+it is easy to maintain a cross-platform project that
+uses a familiar configuration interface on unix.

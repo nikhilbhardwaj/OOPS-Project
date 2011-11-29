@@ -1,0 +1,10 @@
+Haskell x11 binding for ghc; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library is a binding to the x11 graphics library.
+the binding is a direct translation of the c binding; for
+documentation of these calls, refer to "the xlib programming
+manual", available online at <http://tronche.com/gui/x/xlib/>.

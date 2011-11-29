@@ -1,0 +1,10 @@
+Gd graphics library version 2 (development version)
+	
+gd is a graphics library. it allows your code to quickly draw images
+complete with lines, arcs, text, multiple colours, cut and paste from
+other images, flood fills, and write out the result as a png file.
+this is particularly useful in world wide web applications, where png is
+one of the formats accepted for inline images by most browsers.
+
+this is the full development version of the library, built without xpm
+(x pixmap) or fontconfig support.

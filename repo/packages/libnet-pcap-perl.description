@@ -1,0 +1,7 @@
+Perl binding to the lbl pcap packet capture library
+	
+net::pcap module allows the user to interface with the lbl pcap(3) library.
+libpcap describes itself as "a system-independent interface for user-level
+packet capture. libpcap provides a portable framework for low-level network
+monitoring." this modules gives a program the ability to capture data from a
+network interface in a similar way tcpdump does.

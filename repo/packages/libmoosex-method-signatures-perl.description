@@ -1,0 +1,5 @@
+Moose extension for method declarations with type constraints
+	
+moosex::method::signatures provides a proper method keyword, like
+"sub" but specifically for making methods and validating their
+arguments against moose type constraints.

@@ -1,0 +1,17 @@
+Mail notifier for blackbox/fluxbox
+	
+bbmail is a small mail notifier (displays unread and read mail)
+that can be used in the blackbox or fluxbox window managers.
+it similar to other notifiers such as xbiff but with some
+additional features:
+
+    * all the colors an gradients can be changed.
+    * support for multiple mail boxes and provides a menu showing
+      all of them (and their unread/total mail count)
+    * support for counting mail through external programs, it can be
+      used to notify on pop or imap checkboxes with fetchpop/fetchmail
+    * possibility to 'copy' blackbox toolbar style
+    * ability to start command when new mail arrives (eg. to play sound)
+
+
+homepage: bbtools.sourceforge.net/

@@ -1,0 +1,8 @@
+Graphical front end for gnu privacy guard
+	
+kgpg manages cryptographic keys for the gnu privacy guard, and can encrypt,
+decrypt, sign, and verify files.  it features a simple editor for applying
+cryptography to short pieces of text, and can also quickly apply cryptography
+to the contents of the clipboard.
+
+this package is part of the kde utilities module.

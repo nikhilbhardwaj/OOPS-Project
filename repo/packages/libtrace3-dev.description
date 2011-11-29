@@ -1,0 +1,11 @@
+Development headers for the libtrace network processing library
+	
+this package contains development headers and other ancillary files for
+the libtrace library.
+
+libtrace is a library for trace processing. it supports multiple input
+methods, including device capture, raw and gz-compressed trace, and sockets;
+and mulitple input formats, including pcap and dag.
+
+libtrace is developed by the wand network research group at waikato
+university in new zealand.

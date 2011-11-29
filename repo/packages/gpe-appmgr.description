@@ -1,0 +1,11 @@
+Application manager for gpe desktop
+	
+the application manager is the main window of an embedded device
+running the gpe palmtop environment. it allows users to start-up
+applications and offers a main menu. any application that a user
+should be able to access should also be available through the
+application manager.
+
+gpe-appmgr uses freedesktop.org-style desktop files like known
+from gnome and kde. it is able to deal with single- and multi
+instance applications as well as different screen sizes.

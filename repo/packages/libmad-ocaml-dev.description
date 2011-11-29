@@ -1,0 +1,16 @@
+Ocaml bindings for the mad library (development package)
+	
+this ocaml library interfaces the mad c library to decode mpeg files.
+the mad library currently only supports the mpeg 1 standard, but fully
+implements all three audio layers (layer i, layer ii, and layer iii, the
+latter often colloquially known as mp3.)
+
+mad has the following special features:
+
+  - 100% fixed-point (integer) computation
+  - completely new implementation based on the iso/iec 11172-3 standard
+  - distributed under the terms of the gnu general public license (gpl)
+
+
+this package contains all the development stuff you need to use ocaml-mad
+in your programs.

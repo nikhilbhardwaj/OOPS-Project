@@ -1,0 +1,5 @@
+Perl xs interface for a portable traditional crypt() function
+	
+this module implements the des-based unix crypt function.  for those who need
+to construct non-standard variants of crypt, the various building blocks used
+in crypt are also supplied separately.

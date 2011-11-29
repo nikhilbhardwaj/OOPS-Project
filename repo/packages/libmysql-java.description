@@ -1,0 +1,6 @@
+Java database (jdbc) driver for mysql
+	
+mysql connector/j is a jdbc-3.0 type 4 driver, which means that it is
+pure java, implements version 3.0 of the jdbc specification, and
+communicates directly with the mysql server using the mysql
+protocol.

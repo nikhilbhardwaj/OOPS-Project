@@ -1,0 +1,21 @@
+Ncurses bittorrent client based on libtorrent from rakshasa
+	
+rtorrent is a bittorrent client based on libtorrent.  it uses ncurses
+and aims to be a lean, yet powerful bittorrent client, with features
+similar to the most complex graphical clients.
+
+since it is a terminal application, it can be used with the "screen"/"dtach"
+utility so that the user can conveniently logout from the system while keeping
+the file transfers active.
+
+some of the features of rtorrent include:
+
+ * use an url or file path to add torrents at runtime
+ * stop/delete/resume torrents
+ * optionally loads/saves/deletes torrents automatically in a session
+   directory
+ * safe fast resume support
+ * detailed information about peers and the torrent
+ * support for distributed hash tables (dht)
+ * support for peer-exchange (pex)
+ * support for initial seeding (superseeding)

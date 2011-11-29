@@ -1,0 +1,8 @@
+A d-bus object browser, viewer and debugger
+	
+d-feet is a d-bus debugger that allow you to:
+
+ * view names on the session and system bus
+ * view exported objects, interfaces, methods and signals
+ * view the full command line of services on the bus
+ * execute methods with parameters on the bus and see their return values

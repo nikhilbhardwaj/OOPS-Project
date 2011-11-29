@@ -1,0 +1,8 @@
+Graphical network simulator
+	
+graphical network simulator to design network topologies. you may run network
+simulations or configure devices ranging from cisco routers, cisco pix
+firewalls, cisco asa firewalls, cisco ids to junos routers using qemu or pemu.
+it is using dynamips as simulation backend, an ios emulator which allows
+users to run ios binary images from cisco systems.  cisco ios, pixos or
+junos software images are not included.

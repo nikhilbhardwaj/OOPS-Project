@@ -1,0 +1,27 @@
+Gnu scientific library binding for s-lang
+	
+the gnu scientific library (gsl) is a vast collection of robust and
+well documented numerical functions. it includes support for many
+special functions, random numbers, interpolation and integration
+routines, and much more.
+
+many of the routines in the gsl may be made available to the s-lang
+interpreter via the gsl modules included in this package.
+
+the following gsl modules are available:
+
+
+ * gslsf: the gsl special function module. currently, this module
+   provides an interface to nearly 200 gsl special functions.
+ * gslconst: the gsl constants module. this module defines many
+   constants such as const_mksa_speed_of_light, const_cgsm_boltzmann,
+   etc.
+ * gslinterp: the gsl interpolation module, which includes routines
+   for linear interpolation, cubic splines, etc.
+ * gslrand: the gsl random number module.  this module supports most
+   of gsl's random number generators and distributions.
+ * gslcdf: the gsl cumulative distribution function module.
+ * gslfft: the gsl fast-fourier transform module.
+ * gslcore: this is a module that must be loaded before any of the
+   above modules can be loaded.  its main purpose is to provide support
+   functions for the other gsl modules.

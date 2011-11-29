@@ -1,0 +1,6 @@
+Disassembler library for x86 code
+	
+libdisasm is a disassembler for intel x86-compatible object code. it compiles
+as a shared and static library on linux, freebsd, and win32 platforms. the
+core disassembly engine is contained in files with the prefix "i386", and is
+shared with the x86 arch extension of the bastard disassembler.

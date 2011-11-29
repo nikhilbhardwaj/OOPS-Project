@@ -1,0 +1,7 @@
+Summarize differences in a cvs repository
+	
+cvsdelta summarizes the difference between a cvs project and its
+local version. it detects files that have been added and removed, and
+of existing files it counts the number of lines that have been added,
+deleted, and changed. it filters project changes by using .cvsignore
+files, both system-wide and locally.

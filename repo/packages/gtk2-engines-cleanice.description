@@ -1,0 +1,8 @@
+Cleanice themes for gtk+ 2.x
+	
+this package contains a theme engine and 3 themes that allow you to
+configure the look of gtk+ 2.x-based programs. the programs need no
+modifications to use themes; the support is built in to gtk+ 2.x.
+
+the debian package provides these themes:
+cleanice, cleanice-dark, cleanice-debian, cleanice-marble.

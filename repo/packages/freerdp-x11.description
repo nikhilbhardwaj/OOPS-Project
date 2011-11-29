@@ -1,0 +1,18 @@
+Rdp client for windows terminal services
+	
+freerdp is a client for windows terminal services implementing the remote
+desktop protocol (rdp).
+
+currently, the following windows versions are supported:
+
+
+ * windows nt server
+ * windows 2000 terminal server
+ * windows xp
+ * windows 2003 server
+ * windows vista
+ * windows 2008 server
+ * windows 7
+
+
+this package contains the x11 based client.

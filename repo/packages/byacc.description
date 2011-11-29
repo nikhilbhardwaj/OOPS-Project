@@ -1,0 +1,7 @@
+Public domain berkeley lalr yacc parser generator
+	
+this package provides a parser generator utility that reads a grammar
+specification from a file and generates an lr(1) parser for it.  the
+parsers consist of a set of lalr(1) parsing tables and a driver
+routine written in the c programming language.  it has a public domain
+license which includes the generated c.

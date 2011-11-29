@@ -1,0 +1,12 @@
+Graphical user interface for compressible flow gas table modules
+	
+gas tables include modules for compressible gas flow
+calculations. the main modules currently included are:
+
+ - isentropic relations
+ - normal shock relations
+ - oblique shock relations
+ - fanno flow
+ - isothermal flow
+ - rayleigh flow
+ - prandtl meyer functions

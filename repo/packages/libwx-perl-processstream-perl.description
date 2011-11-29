@@ -1,0 +1,6 @@
+Access io of external processes via events (wx::perl module)
+	
+wx::perl::processstream provides the stdout, stderr and exit codes of
+asynchronously running processes via events. it may be used for long running
+or blocking processes that provide periodic updates on state via stdout.
+simple ipc is possible via stdin.

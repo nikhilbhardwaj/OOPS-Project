@@ -1,0 +1,18 @@
+C64 music editor
+	
+this is a crossplatform c64 music editor. supports emulated output via dag
+lem's resid engine, the hardsid soundcard or catweasel mk3.
+
+it supports emulated output via the software resid engine, the hardsid
+soundcard, or the catweasel (mk3/mk4) controller card, and produces songs in
+its own format (*.sng). the program can also export tunes in sid format, bin
+format, or commodore prg format for inclusion on a floppy you can stick into
+a 1541/1571/1581 drive.
+
+like most tracker programs, the program is able to import instrument files,
+create and modify track patterns, set the order of playback of patterns and
+change details of the song such as the title and author. if you are familiar
+with tracker-like programs, then goattracker will feel like a simple version
+of those, though with differences attributable to the hardware. people new to
+composing in general should look up other information on composing on the
+c64.

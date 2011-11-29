@@ -1,0 +1,9 @@
+Command line tool to access iriver ifp audio players
+	
+this package contains a tool compatible with the `ifp' program (in the
+ifp-line package) that uses libifp.
+
+ifp-line tool manages music on iriver ifp audio devices, including
+the 1xx, 3xx, 5xx, 7xx, 8xx, and n10 models. it lets you upload or download
+music or other files to or from the device, manage directories on it, or
+update your firmware version.

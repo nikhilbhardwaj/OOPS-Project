@@ -1,0 +1,6 @@
+Xslt based conversions from docbook to oasis open document (openoffice.org)
+	
+toolkit that automaticaly converts docbook to oasis opendocument (odf, the iso
+standardized format used for texts, spreadsheets and presentations).
+conversion is based on a xslt which makes it easy to convert docbook->odf,
+odt, ods and odp as all these documents are xml based.

@@ -1,0 +1,7 @@
+Utility to scan devices on the adb bus
+	
+lsadb is a utility to scan the devices on the adb-bus and print out
+some information about the devices found.
+
+this utility is not very useful on computers without an adb-bus. that
+means this utility is only useful mostly for apple macintosh computers.

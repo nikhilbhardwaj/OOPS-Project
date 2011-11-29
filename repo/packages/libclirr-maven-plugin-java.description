@@ -1,0 +1,10 @@
+Clirr maven plugin
+	
+clirr is a tool that checks java libraries for binary and source compatibility
+with older releases. basically you give it two sets of jar files and clirr
+dumps out a list of changes in the public api. the clirr-maven-plugin can
+be configured to break the build, if it detects incompatible api changes.
+in a continuous integration process, the clirr-maven-plugin can automatically
+prevent accidental introduction of binary or source compatibility problems.
+additionally, the plugin can generate a report as part of the generated
+site.

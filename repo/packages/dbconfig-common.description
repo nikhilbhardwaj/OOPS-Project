@@ -1,0 +1,24 @@
+Common framework for packaging database applications
+	
+this package presents a policy and implementation for
+managing various databases used by applications included in
+debian packages.
+
+it can:
+
+ - support mysql, postgresql, and sqlite based applications;
+ - create or remove databases and database users;
+ - access local or remote databases;
+ - upgrade/modify databases when upstream changes database structure;
+ - generate config files in many formats with the database info;
+ - import configs from packages previously managing databases on their own;
+ - prompt users with a set of normalized, pre-translated questions;
+ - handle failures gracefully, with an option to retry;
+ - do all the hard work automatically;
+ - work for package maintainers with little effort on their part;
+ - work for local admins with little effort on their part;
+ - comply with an agreed upon set of standards for behavior;
+ - do absolutely nothing if that is the whim of the local admin;
+ - perform all operations from within the standard flow of
+   package management (no additional skill is required of the local
+   admin).

@@ -1,0 +1,4 @@
+PackageId:9073
+Name:ldm-server
+Version:2:2.1.2-2
+Deps:openbsd-inetd,inet-superserver,inetutils-inetd,rlinetd,xinetd,openssh-server,python,update-inetd,x11-common

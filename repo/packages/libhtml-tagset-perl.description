@@ -1,0 +1,5 @@
+Data tables pertaining to html
+	
+html-tagset contains data tables useful in dealing with html.  for instance,
+it provides %html::tagset::emptyelement, which lists all of the html elements
+which cannot have content.  it provides no functions or methods.

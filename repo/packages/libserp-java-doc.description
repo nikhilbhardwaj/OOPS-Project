@@ -1,0 +1,13 @@
+Documentation for libserp-java
+	
+documentation of the serp bytecode framework that has as goal to tap the full
+power of bytecode modification while lowering its associated costs.
+
+the framework provides a set of high-level apis for manipulating all aspects
+of bytecode, from large-scale structures like class member fields to the
+individual instructions that comprise the code of methods.
+
+while in order to perform any advanced manipulation, some understanding of the
+class file format and especially of the jvm instruction set is necessary, the
+framework makes it as easy as possible to enter the world of bytecode
+development.

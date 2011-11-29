@@ -1,0 +1,9 @@
+A binding to the x11 graphics library
+	
+a haskell binding to the x11 graphics library.
+
+the binding is a direct translation of the c binding; for
+documentation of these calls, refer to "the xlib programming
+manual", available online at <http://tronche.com/gui/x/xlib/>.
+
+this is the version bundled with the interpreter.

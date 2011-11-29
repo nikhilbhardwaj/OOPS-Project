@@ -1,0 +1,10 @@
+Network ups tools - web interface
+	
+network ups tools (nut) is a client/server monitoring system that
+allows computers to share uninterruptible power supply (ups) and
+power distribution unit (pdu) hardware. clients access the hardware
+through the server, and are notified whenever the power status
+changes.
+
+this package provides an http interface for network ups tools which makes
+it possible to monitor the core nut system with a web browser.

@@ -1,0 +1,7 @@
+Dump windows 2k/nt/xp password hashes
+	
+this tool is designed to dump windows 2k/nt/xp password hashes from a sam
+file. it requires the syskey key which can be found with tools like bkhive.
+
+syskey is a windows feature that adds an additional encryption layer to the
+password hashes stored in the sam database.

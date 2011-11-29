@@ -1,0 +1,4 @@
+PackageId:435
+Name:apt-cacher
+Version:1.6.12
+Deps:ed,libdigest-sha1-perl,libfilesys-diskspace-perl,libfreezethaw-perl,libio-compress-bzip2-perl,libio-compress-perl,perl,libio-compress-zlib-perl,libio-interface-perl,libwww-curl-perl,libwww-perl

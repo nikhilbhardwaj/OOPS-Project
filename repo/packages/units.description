@@ -1,0 +1,7 @@
+Converts between different systems of units
+	
+gnu 'units' program converts quantities expressed in various scales
+to their equivalents in other scales.  the 'units' program can only
+handle multiplicative scale changes directly.  it uses a functional
+notation for "nonlinear" conversions such a fahrenheit temperature
+to celsius temperature.

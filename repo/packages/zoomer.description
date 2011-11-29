@@ -1,0 +1,9 @@
+Generate a video from a picture by zooming from one point to another
+	
+zoomer automatically generates a video from a picture. it starts at the full
+picture and then zooms into the first point. then zooms out and into the next
+point, etc. at the moment of reaching a point, zoomer will write a text (e.g.
+a name).
+
+zoomer needs a picture (bigger is better) and a data file to define the points
+to be zoomed into.

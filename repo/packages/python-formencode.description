@@ -1,0 +1,6 @@
+Validation and form generation python package
+	
+formencode is a validation and form generation package. the validation can
+be used separately from the form generation. the validation works on compound
+data structures, with all parts being nestable. it is separate from http or
+any other input mechanism.

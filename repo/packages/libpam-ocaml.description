@@ -1,0 +1,13 @@
+Ocaml bindings for the pam library (runtime)
+	
+ocamlpam is a wrapper for the pluggable authentication modules (pam)
+library. pam provides a flexible mechanism for authenticating users
+via administrator-defined policies. pam has modules for
+authenticating via unix passwd files, kerberos, ldap, etc. additional
+modules for custom authentication mechanisms can be created and
+deployed without recompiling existing services based on
+pam. moreover, policies defining the authentication requirements can
+be changed at runtime without restarting running services.
+
+this package contains only the shared runtime stub library for
+ocamlpam.

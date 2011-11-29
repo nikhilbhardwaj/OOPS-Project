@@ -1,0 +1,6 @@
+Make your object constructors blow up on unknown attributes
+	
+"use moosex::strictconstructor" instead of just "use moose" makes your
+constructors strict. if your constructor is called with an attribute
+init argument that your class does not declare, then it calls
+"carp::confess()". this is a great way to catch small typos.

@@ -1,0 +1,10 @@
+Mime and rfc822 parser for java - documentation
+	
+mime4j provides a parser, mimestreamparser, for e-mail message streams in
+plain rfc822 and mime format. the parser uses a callback mechanism to report
+parsing events such as the start of an entity header, the start of a body,
+etc.
+if you are familiar with the sax xml parser interface you should have no
+problem getting started with mime4j.
+
+this package contains the api documentation.

@@ -1,0 +1,15 @@
+Xml plugins for the template toolkit
+	
+this package provides a number of template toolkit
+plugin modules for working with xml.
+
+the template::plugin::xml module is a front-end to the various other
+xml plugin modules.  through this you can access xml files and
+directories of xml files via the template::plugin::xml::file and
+template::plugin::xml::directory modules (which subclass from the
+template::plugin::file and template::plugin::directory modules
+respectively).  you can then create a document object model (dom) from
+an xml file (template::plugin::xml::dom), examine it using xpath
+queries (template::plugin::xml::xpath), turn it into a perl data
+structure (template::plugin::xml::simple) or parse it as an rss (rdf
+site summary) file.

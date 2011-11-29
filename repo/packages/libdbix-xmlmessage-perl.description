@@ -1,0 +1,14 @@
+Perl module for exchanging xml messages between dbi data sources
+	
+this module maintains simple xml templates that describe object
+structure.  the module is capable of generating sql statements based
+on these templates and executing them against dbi data sources. after
+executing the sql, the package formats the data results into xml
+strings.
+
+inbound messages can be processed according to the same kind of
+templates and the database is updated accordingly. templates are
+capable of defining the sql operators, plus new save operation which
+is basically a combination of select and either insert or update
+depending on whether the record was found by the compound key value
+or not.

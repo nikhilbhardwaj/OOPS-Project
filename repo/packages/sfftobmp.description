@@ -1,0 +1,9 @@
+Sff (structed fax file) converter
+	
+tool to convert "structured fax files" into windows bitmaps
+(bmp), portable bitmaps (pbm), jpeg pictures (jpg) and
+single or multipaged tiff images.
+
+sff means 'structured fax file', intended by the capi interface
+to be used to save incoming faxes. within gnu/linux it's e.g. the
+avm-b1 card which creates such files.

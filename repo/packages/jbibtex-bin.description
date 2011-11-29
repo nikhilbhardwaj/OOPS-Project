@@ -1,0 +1,10 @@
+Make a bibliography for ascii p(la)tex / ntt j(la)tex
+	
+this is jbibtex, a japanized bibtex based on the original bibtex 0.99c.
+jbibtex can handle kanji characters (euc-jp).
+
+this package contains only jbibtex binary.  you need at least
+jbibtex-base together with it.
+
+this is a part of ascii ptex distribution,  but you can use this
+program not only with ascii p(la)tex but also with ntt j(la)tex.

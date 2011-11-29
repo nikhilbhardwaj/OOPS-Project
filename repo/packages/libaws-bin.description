@@ -1,0 +1,21 @@
+Ada web server utilities
+	
+aws is a complete framework to develop web based applications. the
+main part of the framework is the embedded web server. this small yet
+powerful web server can be embedded into your application so your
+application will be able to talk with a web browser. around this web
+server a lot of services have been developed.
+
+this package contains utility programs to help develop web applications
+with aws:
+
+awsres transforms any text or binary file into an ada unit which you
+can compile into your application, thereby making your application
+completely independent of any external files (think: embedded)
+
+ada2wsdl, an asis program, reads ada unit specifications and creates
+descriptions in the web service description language, so that you can
+advertise your web service application to the world.
+
+wsdl2aws does the opposite job: it creates an ada unit (spec and
+skeleton body) conforming to a specified description in wsdl.

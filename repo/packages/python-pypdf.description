@@ -1,0 +1,15 @@
+Pdf toolkit implemented solely in python
+	
+a pdf toolkit implemented solely in python.  it is capable of:
+
+   * extracting document information (title, author, ...),
+   * splitting documents page by page,
+   * merging documents page by page,
+   * cropping pages,
+   * merging multiple pages into a single page,
+   * encrypting and decrypting pdf files.
+
+by being pure-python, it should run on any python platform without any
+dependencies on external libraries. it can also work entirely on stringio
+objects rather than file streams, allowing for pdf manipulation in memory. it
+is therefore a useful tool for websites that manage or manipulate pdfs.

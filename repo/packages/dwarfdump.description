@@ -1,0 +1,6 @@
+Original utility to dump dwarf debug information from elf objects
+	
+this is the older implementation of dwarfdump written in c, see the
+dwarfdump2 package for the updated c++ version.
+
+this library is part of dwarfutils.

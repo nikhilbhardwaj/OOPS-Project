@@ -1,0 +1,6 @@
+Device-mapper software raid support tool - shared library (udeb)
+	
+dmraid discovers, activates, deactivates and displays properties
+of software raid sets (eg, ataraid) and contained dos partitions.
+
+this is the minimal package (udeb shared library) used by debian-installer

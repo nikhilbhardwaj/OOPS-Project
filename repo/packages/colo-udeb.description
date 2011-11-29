@@ -1,0 +1,6 @@
+Miscellaneous utilities for mips based cobalt machines
+	
+check whether colo resides in rom (colo-perm) and output information on
+the lcd (putlcd).
+
+this is a udeb for debian-installer.

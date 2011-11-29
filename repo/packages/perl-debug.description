@@ -1,0 +1,9 @@
+Debug-enabled perl interpreter
+	
+debugperl provides a debug-enabled version of perl which can produce
+extensive information about the interpreter as it compiles and executes
+a program (see the -d switch in perlrun(1)).
+
+note that this package is primarily of use in debugging *perl* rather
+than perl programs, which may be traced/debugged using the standard
+perl binary using the -d switch (see perldebug(1)).

@@ -1,0 +1,4 @@
+PackageId:2768
+Name:debconf-i18n
+Version:1.5.36.1
+Deps:debconf,liblocale-gettext-perl,libtext-charwidth-perl,libtext-iconv-perl,libtext-wrapi18n-perl

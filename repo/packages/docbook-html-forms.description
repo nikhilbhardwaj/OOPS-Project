@@ -1,0 +1,12 @@
+Extension to docbook xml for generating html forms
+	
+the docbook html forms module adds six new markup elements to
+docbook xml for easy generation of html forms from xml source
+documents.
+
+the html forms module is a customization of the full docbook
+xml v4.1.2 dtd.
+
+author: norman walsh <ndw@nwalsh.com>
+
+homepage: http://oasis-open.org/docbook/xml/htmlforms/

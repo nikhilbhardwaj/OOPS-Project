@@ -1,0 +1,4 @@
+Perlio layers for create symlinks
+	
+the perlio layer c<symlink> allows you to create a symbolic link by
+writing to the file handle.

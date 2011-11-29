@@ -1,0 +1,14 @@
+Unicast and multicast voice-over-ip application
+	
+rat is a network audio tool that allows users to participate in audio
+conferences over the internet. these can be between two participants
+directly, or between a group of participants on a common multicast group.
+no special features are required to use rat in point-to-point mode, but to
+use the multicast conferencing facilities of rat, a connection to the
+mbone, or a similar multicast-capable network, is required. rat is based on
+ietf standards, using rtp above udp/ip as its transport protocol, and
+conforming to the rtp profile for audio and video conferences with minimal
+control.
+
+further information is available on the www, at:
+http://www-mice.cs.ucl.ac.uk/multimedia/software/rat/index.html

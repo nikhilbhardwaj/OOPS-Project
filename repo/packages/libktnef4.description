@@ -1,0 +1,9 @@
+Library for handling tnef data
+	
+ktnef is a library for handling data in the tnef format (transport neutral
+encapsulation format, a proprietary format of e-mail attachment used by
+microsoft outlook and microsoft exchange server). the api permits access
+to the actual attachments, the message properties (tnef/mapi), and allows
+one to view/extract message formatted text in rich text format.
+
+this package is part of the kde development platform pim libraries module.

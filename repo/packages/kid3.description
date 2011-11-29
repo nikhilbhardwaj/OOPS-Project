@@ -1,0 +1,24 @@
+Kde mp3 id3 tag editor
+	
+with kid3, an id3 tag editor for kde you can:
+
+ * edit id3v1.1 tags in your mp3 files
+ * edit all id3v2.3 and id3v2.4 frames in your mp3 files
+ * convert between id3v1.1, id3v2.3 and id3v2.4 tags
+ * edit ogg/vorbis tags
+ * edit flac tags
+ * edit ape tags in mpc files
+ * edit tags in mp3, ogg/vorbis, flac, mpc, mp4/aac, mp2, speex,
+   trueaudio and wavpack files
+ * edit tags of multiple files, e.g. the artist, album, year and genre
+   of all files of an album typically have the same values and can be
+   set together
+ * generate tags from filenames
+ * generate filenames from tags
+ * generate playlist files
+ * automatic case conversion and string translation
+ * import and export album data
+ * import from gnudb.org, tracktype.org, musicbrainz, discogs
+
+
+this package uses kde libraries, if you do not use kde you should use kid3-qt.

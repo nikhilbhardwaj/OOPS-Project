@@ -1,0 +1,5 @@
+Library for common error values and messages in gnupg components
+	
+library that defines common error values for all gnupg
+components.  among these are gpg, gpgsm, gpgme, gpg-agent, libgcrypt,
+pinentry, smartcard daemon and possibly more in the future.

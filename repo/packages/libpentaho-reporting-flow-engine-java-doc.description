@@ -1,0 +1,18 @@
+Report library for java documentation
+	
+pentaho reporting flow engine is a free java report library.
+
+it has the following features:
+
+   * full on-screen print preview;
+   * data obtained via swing's tablemodel interface
+   (making it easy to print data directly from your application);
+   * xml-based report definitions;
+   * output to the screen, printer or various export formats
+   (pdf, html, csv, excel, plain text);
+   * support for servlets (uses the jfreereport extensions)
+   * extensive documentation in acrobat pdf format, plus full javadocs;
+ .
+
+this package contains the javadoc, the manual and the developers guide of
+the pentaho reporting flow engine.

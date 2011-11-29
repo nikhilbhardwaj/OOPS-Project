@@ -1,0 +1,18 @@
+Clone of the legendary first person shooter doom
+	
+doom is a 3d shoot'em'up game, written by id software, first
+released in 1993.
+
+prboom is a version of doom using the simple direct media
+layer (sdl) library, which enables it to use xfree86, opengl,
+linux framebuffer console, ggi, svgalib or even color or
+monochrome text consoles as display. there is an additional
+opengl renderer as well.
+
+prboom is based on mbf and lxdoom, which in turn are based on
+boom, a freely available port of doom for dos, written by
+teamtnt (http://www.teamtnt.com/).
+
+prboom requires an iwad to play. a free iwad is available
+in the freedoom package. you can install your commercial
+doom iwads using game-data-packager.

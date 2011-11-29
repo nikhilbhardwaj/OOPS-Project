@@ -1,0 +1,18 @@
+Powerful extensions to the standard datetime module
+	
+it features:
+
+
+ * computing of relative deltas (next month, next year, next monday, last week
+   of month, etc);
+ * computing of relative deltas between two given date and/or datetime objects
+ * computing of dates based on very flexible recurrence rules, using a superset
+   of the icalendar specification. parsing of rfc strings is supported as well.
+ * generic parsing of dates in almost any string format
+ * timezone (tzinfo) implementations for tzfile(5) format files
+   (/etc/localtime, /usr/share/zoneinfo, etc), tz environment string (in all
+   known formats), icalendar format files, given ranges (with help from
+   relative deltas), local machine timezone, fixed offset timezone, utc
+   timezone
+ * computing of easter sunday dates for any given year, using western, orthodox
+   or julian algorithms

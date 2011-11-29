@@ -1,0 +1,16 @@
+Access much of the toshiba laptop hardware interface
+	
+toshset is a command-line tool to allow access to much of the
+toshiba laptop hardware interface developed by jonathan buzzard. it can do
+things like set the hard drive spin-down time, turn off the display
+and set the fan speed without the help of the kernel.
+toshset requires an experimental version of the toshiba_acpi kernel module
+with an acpi-enabled kernel. otherwise it works only if the laptop supports
+the old apm bios. (the last of these was produced something like 5 years ago)
+please read readme.debian how to install the experimental version of the
+toshiba_acpi kernel module. (ubuntu users don't need it)
+
+this package also includes the toshsat1800-irdasetup by daniele peri.  it
+can be used to configure irda for laptops with ali1533 bridge (lpc47n227
+superio), smc-ircc and not initializing bios (tested on toshiba satellite
+1800-514).  homepage: http://www.csai.unipa.it/peri/toshsat1800-irdasetup/

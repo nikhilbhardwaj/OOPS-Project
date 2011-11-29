@@ -1,0 +1,7 @@
+Pure perl module to generate v1, v3, v4, and v5 uuids
+	
+uuid::tiny provides a simple, non-object-oriented interface for generating
+uuids from perl code. it is not suitable for performance-sensitive uuid
+generation or for applications that require v1 uuids generated from a real
+mac address (this module generates random mac addresses), but otherwise
+provides a simpler perl interface for uuid generation than alternatives.

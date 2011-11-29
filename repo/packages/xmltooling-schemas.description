@@ -1,0 +1,9 @@
+Xml schemas for xmltooling
+	
+the xmltooling library contains generic xml parsing and processing
+classes based on the xerces-c dom.  it adds more powerful facilities for
+declaring element- and type-specific api and implementation classes, as
+well as signing and encryption support.
+
+this package contains the xml schema files used by the xmltooling
+library.

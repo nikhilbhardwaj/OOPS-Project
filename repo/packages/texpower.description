@@ -1,0 +1,14 @@
+Macros for creating professional presentations with latex
+	
+texpower is a bundle of style and class files for creating dynamic
+online presentations with latex.
+
+it is the most complete macro package in this way and therefore in its
+features quite unique.
+
+this package also contains some additional packages:
+
+ - latex-automata: create "automata" for computer science (currently
+   dfa and mealy)
+ - tpmultiinc: macros to create "incremental images" in presentations
+ - dvips-landscapeplus: better paper sizes for a4 and letter (landscape)

@@ -1,0 +1,11 @@
+Xz-format compression utilities - compatibility commands
+	
+xz is the successor to the lempel-ziv/markov-chain algorithm
+compression format, which provides memory-hungry but powerful
+compression (often better than bzip2) and fast, easy decompression.
+
+this package provides symbolic links allowing xz-utils to provide the
+same interface for manipulating lzma files as the lzma package. the
+xz-utils package can handle lzma files on its own; this package is
+only necessary when using scripts or other programs that require the
+older command names.

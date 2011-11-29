@@ -1,0 +1,10 @@
+Lirc module for pulseaudio sound server
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+this module enables the volume of a pulseaudio sink to be controlled when
+buttons of an infrared remote control are pressed (through lirc).
+
+the module is called module-lirc.

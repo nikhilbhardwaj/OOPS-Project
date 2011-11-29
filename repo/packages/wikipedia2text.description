@@ -1,0 +1,7 @@
+Displays wikipedia articles on the command line
+	
+this script fetches wikipedia articles (currently supports around 30
+wikipedia languages) and displays them as plain text in a pager or
+just sends the text to standard out. alternatively it opens the
+wikipedia article in a (possibly gui) web browser or just shows the
+url of the appropriate wikipedia article.

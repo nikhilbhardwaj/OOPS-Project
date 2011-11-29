@@ -1,0 +1,7 @@
+Library to enable creation and expansion of iso-9660 filesystems
+	
+libisoburn is a frontend for libraries libburn and libisofs which enables
+creation and expansion of iso-9660 filesystems on all cd/dvd media supported
+by libburn. this includes media like dvd+rw, which do not support
+multi-session management on media level and even plain disk files or block
+devices.

@@ -1,0 +1,10 @@
+Hierarchical, prioritised todo list manager
+	
+manipulate and display a hierarchical (ie "subtasks") and prioritised
+list of things with a coloured command line interface.
+
+using devtodos output formatting features, it is possible to convert
+the todo list into almost any text format.
+
+devtodo comes with xslt stylesheets to convert xml .todo files to html
+and pdf, have a look at /usr/share/devtodo/.

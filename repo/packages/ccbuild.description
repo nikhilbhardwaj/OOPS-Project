@@ -1,0 +1,9 @@
+A c++ source scanning build utility
+	
+scan the source for main functions and includes. when the file
+contains a main function it will compile all the files next to that
+file's includes and link them into a program.
+
+this makes it possible to build entire programs with minimal
+configuration. linker and compiler options can be added and will be
+automatically divided over the compiler and linker.

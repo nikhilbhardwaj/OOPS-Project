@@ -1,0 +1,6 @@
+Perl module for text to speech with festival, espeak, cepstral
+	
+perlspeak.pm is perl module for text to speech with festival or cepstral.
+(other tts systems may be used by setting the tts command properties).
+perlspeak.pm includes several useful interface methods like an audio file
+selector and menu system.

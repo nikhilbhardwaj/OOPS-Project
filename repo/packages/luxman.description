@@ -1,0 +1,10 @@
+Pac-man clone (svgalib based)
+	
+a pac-man clone for svgalib. includes color, sound, several different
+levels, and difficulty levels.
+
+also includes tools for making your own levels and customizing the game.
+
+warning: this package contains setuid root binaries. this is a possible
+security risk, although no known, unfixed risk exists at the moment of
+this writing.

@@ -1,0 +1,7 @@
+Utilities for making and checking ms-dos fat filesystems (debug)
+	
+the dosfstools package includes the mkdosfs (aka mkfs.dos and mkfs.vfat) and
+dosfsck (aka fsck.msdos and fsck.vfat) utilities, which respectively make and
+check ms-dos fat filesystems on hard drives or on floppies.
+
+this package contains the debugging symbols.

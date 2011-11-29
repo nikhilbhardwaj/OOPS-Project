@@ -1,0 +1,8 @@
+Simplified docbook processor
+	
+sdop (simple docbook processor) reads a simplified docbook xml file, processes
+it into typeset pages, and outputs the result as postscript (which can easily
+be converted to a pdf). it is "simple" because it supports only a subset of
+docbook, and also because it does not make use of a dtd or stylesheets or any
+other heavyweight apparatus. it is a single program.  sdop is used to format
+the exim reference manual.

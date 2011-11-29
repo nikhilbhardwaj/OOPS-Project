@@ -1,0 +1,7 @@
+Optimizes png (portable network graphics) files
+	
+pngcrush is an optimizer for png (portable network graphics) files.
+its main purpose is to reduce the size of the png idat data stream by trying
+various compression levels and png filter methods. it also can be used to
+remove unwanted ancillary chunks, or to add certain chunks including gama,
+trns, and textual chunks.

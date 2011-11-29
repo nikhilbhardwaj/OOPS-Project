@@ -1,0 +1,19 @@
+Perl module for verifying cpan manifest files
+	
+test::distmanifest provides a simple method of testing that a manifest
+matches the distribution. it is similar to test::checkmanifest, but differs
+in that it has native support for the manifest.skip file.
+
+it tests three things:
+
+
+ 1. everything in manifest exists
+ 2. everything in the package is listed in manifest, or subsequently matches
+    a regular expression mask in manifest.skip
+ 3. nothing exists in manifest that also matches a mask in manifest.skip,
+    which is an unsatisfiable condition
+
+
+much of the functionality is provided by module::manifest, so developers
+wishing to manipulate manifest files in a similar way are encouraged to look
+at that distribution.

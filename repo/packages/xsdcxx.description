@@ -1,0 +1,9 @@
+Xml data binding for c++
+	
+codesynthesis xsd is an open-source, cross-platform w3c xml schema to
+c++ data binding compiler. provided with an xml instance specification
+(xml schema), it generates c++ classes that represent the given
+vocabulary as well as parsing and serialization code.
+you can then access the data stored in xml using types and functions
+that semantically correspond to your application domain rather than
+dealing with intricacies of reading and writing xml.

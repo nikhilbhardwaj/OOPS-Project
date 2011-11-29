@@ -1,0 +1,9 @@
+Display directory tree
+	
+ncdt displays directory tree, much like standard tree(1), but with few
+improvements:
+
+ - it prints summary info instead of directory special file size
+ - it prints mp3 file info
+
+it's particularly useful for indexing cds.

@@ -1,0 +1,4 @@
+PackageId:25333
+Name:netdisco-frontend
+Version:1.0-1
+Deps:adduser,apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,libapache-dbi-perl,libapache2-mod-perl2,libapache2-request-perl,libhtml-mason-perl,libmasonx-request-withapachesession-perl,netdisco-common,perl

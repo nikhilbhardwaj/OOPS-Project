@@ -1,0 +1,5 @@
+Html generation library for common lisp programs
+	
+cl-htmlgen is franz's library for generating html from common lisp programs.
+it is limited to generating html code, so you may want to use the cl-lml2
+debian package for generating xhtml code.

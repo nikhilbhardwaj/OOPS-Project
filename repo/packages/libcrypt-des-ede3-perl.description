@@ -1,0 +1,13 @@
+Triple-des ede encryption/decryption for perl
+	
+crypt::des_ede3 implements des-ede3 encryption. this is triple-des
+encryption where an encrypt operation is encrypt-decrypt-encrypt, and
+decrypt is decrypt-encrypt-decrypt. this implementation uses crypt::des
+to do its dirty des work, and simply provides a wrapper around that
+module: setting up the individual des ciphers, initializing the keys,
+and performing the encryption/decryption steps.
+
+you're probably best off not using this module directly, as the encrypt
+and decrypt methods expect 8-octet blocks. you might want to use the
+module in conjunction with crypt::cbc, for example. this would be
+des-ede3-cbc, or triple-des in outer cbc mode.

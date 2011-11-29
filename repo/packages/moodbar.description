@@ -1,0 +1,11 @@
+Analysis program for creating a colorful visual representation of an audio file
+	
+the moodbar is an algorithm for creating a colorful visual
+representation of the contents of an audio file, giving an idea of its
+"mood" (this is a rather fanciful term for the simple analysis it
+actually does).  the moodbar was invented by gavin wood and simon
+o'keefe for inclusion in the amarok music player.
+
+this package contains a gstreamer plugin with elements that are used
+in the moodbar analysis, and an application that actually does the
+analysis.

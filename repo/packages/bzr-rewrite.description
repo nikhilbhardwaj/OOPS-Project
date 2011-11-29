@@ -1,0 +1,10 @@
+History rewriting plugin for bazaar
+	
+the bazaar history rewriting plugin adds commands for rewriting history in
+bazaar, such as the 'rebase' command.
+
+when conflicts occur when replaying patches, the user can resolve the
+conflict and continue the rebase using the 'rebase-continue' command or abort
+using the 'rebase-abort' command.
+
+other commands provided include 'replay' and 'rebase-foreign'.

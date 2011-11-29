@@ -1,0 +1,8 @@
+Perl library to test directory attributes
+	
+test::dir provides a collection of test utilities for directory
+attributes.  use it in combination with test::more in your test
+programs.
+
+right now this only supports testing that a directory does or doesn't
+exist.

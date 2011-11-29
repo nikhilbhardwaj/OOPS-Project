@@ -1,0 +1,18 @@
+Shallow-transfer machine translation engine
+	
+an open-source shallow-transfer machine translation
+engine, apertium is initially aimed at related-language pairs.
+
+it uses finite-state transducers for lexical processing,
+hidden markov models for part-of-speech tagging, and
+finite-state based chunking for structural transfer.
+
+the system is largely based upon systems already developed by
+the transducens  group at the universitat d'alacant, such as
+internostrum (spanish-catalan, http://www.internostrum.com/welcome.php)
+and traductor universia (spanish-portuguese,
+http://traductor.universia.net).
+
+it will be possible to use apertium to build machine translation
+systems for a variety of related-language pairs simply providing
+the linguistic data needed in the right format.

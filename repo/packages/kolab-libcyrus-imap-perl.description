@@ -1,0 +1,12 @@
+Kolab interface to cyrus imap client imclient library
+	
+the cyrus::imap module provides an interface to the cyrus imclient
+library.  these are primarily useful for implementing cyradm operations
+within a perl script; there are easier ways to implement general client
+operations, although they may be more limited in terms of authentication
+options when talking to a cyrus imapd.
+
+the modules that compose cyrus::sieve are also included, but they are
+undocumented upstream.
+
+for more information, please see the kolab-cyrus-common package.

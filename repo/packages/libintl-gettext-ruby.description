@@ -1,0 +1,7 @@
+Gettext wrapper for ruby
+	
+this is a simple wrapper of gnu gettext that allows ruby programs to
+transparently produce multi-lingual messages.
+
+for a more elaborate implementation written in pure ruby, check out
+libgettext-ruby.

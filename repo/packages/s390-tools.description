@@ -1,0 +1,14 @@
+A set of fundamental utilities for linux on s/390
+	
+the package contains:
+
+ * dasdfmt, which is used to low-level format eckd-dasds with either
+   the classic disk layout or the new zseries compatible disk layout.
+ * dasdview, which is used to display dasd and vtoc information or to
+   dump the contents of a dasd to the console.
+ * fdasd, which is used to create or modify partitions on eckd-dasds
+   formatted with the zseries compatible disk layout.
+ * zipl, which is used to make either dasds or tapes bootable for
+   system ipl or system dump.
+ * zgetdump, which is used to retrieve system dumps from either tapes
+   or dasds.

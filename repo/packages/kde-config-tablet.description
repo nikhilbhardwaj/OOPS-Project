@@ -1,0 +1,11 @@
+Implements a kde configuration gui for the wacom drivers
+	
+kde 4 kcmodule
+
+this module implements a gui for the wacom linux drivers and extends it
+with profile support to handle different button / pen layouts per profile.
+
+for hardware support have a look at http://www.linuxwacom.sourceforge.net
+
+all tablets can be set up as long as they are found via xorg.conf or hal
+configuration.

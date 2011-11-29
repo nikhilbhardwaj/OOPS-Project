@@ -1,0 +1,6 @@
+Digital image warping library
+	
+libmorph warps images; the warping technique was invented and first used by
+industrial light and magic, and is commonly called "morphing."
+libmorph also contains utilities to handle control meshes, that are
+line grids that are used to design an image warp.

@@ -1,0 +1,12 @@
+Locate updated language files in emdebian
+	
+emdebian separates translations from each package to reduce the
+amount of required installation space. as packages are updated,
+new translations may be added as well as new packages.
+
+langupdate checks the list of installed packages, calculates
+the availability of translations for your locale, checks
+which translations are already installed and installs any
+suitable translation packages.
+
+langupdate does nothing if only debian packages are installed.

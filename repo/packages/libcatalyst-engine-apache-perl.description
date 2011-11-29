@@ -1,0 +1,14 @@
+Base class for apache 1.x and 2.x catalyst engines
+	
+catalyst is an elegant web application framework, extremely flexible yet
+extremely simple. it's similar to ruby on rails, spring (java) and maypole,
+upon which it was originally based.
+
+catalyst follows the model-view-controller (mvc) design pattern, allowing you
+to easily separate concerns, like content, presentation, and flow control,
+into separate modules. this separation allows you to modify code that handles
+one concern without affecting code that handles the others. catalyst promotes
+the re-use of existing perl modules that already handle common web application
+concerns well.
+
+catalyst::engine::apache is a base class for apache 1.x and 2.x engines.

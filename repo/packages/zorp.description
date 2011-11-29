@@ -1,0 +1,18 @@
+An advanced protocol analyzing firewall
+	
+zorp is a new generation firewall. it is essentially a transparent proxy
+firewall, with strict protocol analyzing proxies, a modular architecture,
+and fine-grained control over the mediated traffic. configuration decisions
+are scriptable with the python based configuration language.
+
+zorp has been successfully deployed in demanding environments like the
+protection of high traffic web sites, or the protection of large intranets.
+since the protocol analysis is strict and many of the common exploits
+violate the application protocol they are injected into, a large percentage
+of the attacks do not cross a zorp based firewall even if the given service
+is permitted.
+
+in a labor environment we could fully saturate a 100mbit ethernet link, and
+use up to about 600mbit of the bandwidth of an 1000mbit ethernet link. in
+real life situations we saturated a 10mbit internet link with 500 parallel
+sessions.

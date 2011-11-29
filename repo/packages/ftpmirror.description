@@ -1,0 +1,7 @@
+Mirroring directory hierarchy using ftp protocol
+	
+ftpmirror is an utility to copy directory hierarchy (usually
+called 'mirror') using ftp protocol.
+
+a similar perl script exists, whose name is 'mirror',
+but ftpmirror requires less memory than mirror.

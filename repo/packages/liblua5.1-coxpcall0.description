@@ -1,0 +1,7 @@
+Protected function calls across coroutines for lua 5.1
+	
+this package contains coxpcall, a lua library that extends the protected
+call mechanism typical of lua (xpcall and pcall) allowing it to cross
+coroutines boundaries.
+
+this package also contains the documentation.

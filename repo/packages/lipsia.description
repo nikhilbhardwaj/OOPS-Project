@@ -1,0 +1,17 @@
+Analysis suite for mri and fmri data
+	
+leipzig image processing and statistical inference algorithms (lipsia)
+
+this is a software package for the data processing and evaluation of
+functional magnetic resonance images. the analysis of fmri data comprises
+various aspects including filtering, spatial transformation, statistical
+evaluation as well as segmentation and visualization. all these aspects are
+covered by lipsia. for the statistical evaluation, a number of well established
+and peer-reviewed algorithms were implemented in lipsia that allow an efficient
+and user-friendly processing of fmri data sets. as the amount of data that must
+be handled is enormous, an important aspect in the development of lipsia was
+the efficiency of the software implementation.
+
+lipsia operates exclusively on data in the vista data format. however, the
+package contains converters for medical image data in ibruker, analyze  and
+nifti format -- converting vista images into nifti files is also supported.

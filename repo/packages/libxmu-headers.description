@@ -1,0 +1,13 @@
+X11 miscellaneous utility library headers
+	
+libxmu and libxmuu are miscellaneous utility libraries for x library
+developers to abstract some common functions.  this package provides the
+headers for both libraries (as libxmuu is a subset of libxmu), and
+is depended upon by both.  for more information, please see libxmu-dev or
+libxmuu-dev.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxmu

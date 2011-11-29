@@ -1,0 +1,5 @@
+Mpich static libraries and development files
+	
+this package contains the header files, static libraries, symbolic links and
+compiler wrappers (mpicc etc.) used to compile programs using the ch_p4mpd
+version of mpich.

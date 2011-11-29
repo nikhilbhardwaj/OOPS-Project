@@ -1,0 +1,8 @@
+Gpsd subset compatibility daemon for the freesmarpthone.org frameworkd
+	
+the fso-gpsd daemon provides a functional subset of gpsd interface to client
+applications, while using the services of the freesmartphone.org frameworkd
+daemon.
+
+this package is an addition to the freesmartphone.org software stack and is
+targeted for smartphones.

@@ -1,0 +1,5 @@
+Perl module for authentication using kerberos 5
+	
+authen::krb5::simple is a perl module that provides a way to authenticate a
+username/password combination using kerberos 5. simply use this module and
+call its authentication function (or user@krb_realm) and a password.

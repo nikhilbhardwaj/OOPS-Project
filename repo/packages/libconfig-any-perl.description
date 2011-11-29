@@ -1,0 +1,14 @@
+Module to load configuration from different file formats
+	
+config::any provides a facility for perl applications and libraries to load
+configuration data from multiple different file formats. it supports xml,
+yaml, json, apache-style configuration, windows ini files, and even perl
+code.
+
+the rationale for this module is as follows: perl programs are deployed on
+many different platforms and integrated with many different systems. systems
+administrators and end users may prefer different configuration formats than
+the developers. the flexibility inherent in a multiple format configuration
+loader allows different users to make different choices, without generating
+extra work for the developers. as a developer you only need to learn a single
+interface to be able to use the power of different configuration formats.

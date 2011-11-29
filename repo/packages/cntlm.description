@@ -1,0 +1,7 @@
+Fast ntlm authentication proxy with tunneling
+	
+cntlm is a fast and efficient ntlm proxy, with support for tcp/ip tunneling,
+authenticated connection caching, acls, proper daemon logging and behaviour
+and much more. it has up to ten times faster responses than similar ntlm
+proxies, while using by orders or magnitude less ram and cpu. manual page
+contains detailed information.

@@ -1,0 +1,8 @@
+Xsl transformations (xslt) compiler from xalan-java (native code)
+	
+xsltc provides a compiler and a runtime processor. use the compiler to
+compile an xsl stylesheet into a translet (i.e. a set of java classes).
+use the runtime processor to apply the translet to an xml document and
+perform a transformation.
+
+this package contains the natively compiled code for use by gij.

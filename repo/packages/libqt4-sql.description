@@ -1,0 +1,10 @@
+Qt 4 sql module
+	
+qt is a cross-platform c++ application framework. qt's primary feature
+is its rich set of widgets that provide standard gui functionality.
+
+the qtsql module helps you provide seamless database integration to your qt
+applications.
+
+if you wish to use the sql module for development, you should install the
+libqt4-dev package.

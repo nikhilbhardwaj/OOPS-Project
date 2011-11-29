@@ -1,0 +1,4 @@
+PackageId:1958
+Name:clamav-freshclam
+Version:0.97.2+dfsg-1~squeeze1
+Deps:clamav-base,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libclamav6,logrotate,lsb-base,ucf,zlib1g

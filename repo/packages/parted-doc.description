@@ -1,0 +1,9 @@
+The gnu parted disk partition resizing program documentation
+	
+gnu parted is a program that allows you to create, destroy,
+resize, move and copy hard disk partitions. this is useful
+for creating space for new operating systems, reorganising
+disk usage, and copying data to new hard disks. this package
+contains user documentation for parted (for the 'parted'
+package) and api documentation for libparted (for the
+'libparted0debian1' and 'libparted0-dev' packages).

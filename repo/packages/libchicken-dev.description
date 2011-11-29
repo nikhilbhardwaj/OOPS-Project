@@ -1,0 +1,8 @@
+A practical and portable scheme system - development
+	
+chicken is a scheme compiler which compiles a subset of r5rs into c.
+it uses the ideas presented in baker's paper "cheney on the mta", and
+has a small core and is easily extendable.
+
+this package contains the header file and static library for developing
+with chicken.

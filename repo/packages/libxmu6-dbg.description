@@ -1,0 +1,14 @@
+X11 miscellaneous utility library (debug package)
+	
+libxmu provides a set of miscellaneous utility convenience functions for x
+libraries to use.  libxmuu is a lighter-weight version that does not depend
+on libxt or libxext; for more information, see libxmuu1.
+
+this package contains the debug versions of the library found in libxmu6.
+non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxmu

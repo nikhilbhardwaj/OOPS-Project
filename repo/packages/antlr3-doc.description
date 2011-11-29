@@ -1,0 +1,8 @@
+Language tool for constructing compilers etc - documentation
+	
+antlr, another tool for language recognition, (formerly pccts) is
+a language tool that provides a framework for constructing recognizers,
+compilers, and translators from grammatical descriptions containing c++
+or java actions [you can use pccts 1.xx to generate c-based parsers].
+
+this package provides the api documentation for antlr 3

@@ -1,0 +1,7 @@
+Django integration for genshi
+	
+django-genshi is a small wrapper library around genshi that provides
+an api similar to django.template. included are imitations of
+context and requestcontext. there is also an implemention of the
+django template loader system adapted for genshi, and a selection of
+shortcut functions.

@@ -1,0 +1,6 @@
+System to portably create and manipulate graphical components
+	
+graphics::primitive is a perl module that provides an abstraction layer for
+creating and manipulating graphical elements such as borders, fonts, paths
+and the like. it provides mechanisms to create graphical layouts and pass it
+along to drivers for the actual on-screen rendering.

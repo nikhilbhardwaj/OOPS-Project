@@ -1,0 +1,6 @@
+A command-line url grabber
+	
+snarf is a utility to retrieve files via the http and ftp protocols. it
+supports http redirect, http and ftp resume, http and ftp
+authentication, and other neat things.  its functionality is similar to
+that of wget, but with a much smaller binary.

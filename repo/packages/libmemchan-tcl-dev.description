@@ -1,0 +1,8 @@
+Tcl extension for in-memory channels - development files
+	
+allows the creation of i/o channels, which store data in memory, not
+on disk. it implements the channel types fifo, null, random and
+zero; and provides a c api for creating custom memory channels.
+
+this package contains files to be used for development of c-based
+extensions which use the memchan library.

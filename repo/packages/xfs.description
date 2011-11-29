@@ -1,0 +1,10 @@
+X font server
+	
+xfs is a daemon that listens on a network port and serves x fonts to x
+servers (and thus to x clients).  all x servers have the ability to serve
+locally installed fonts for themselves, but xfs makes it possible to offload
+that job from the x server, and/or have a central repository of fonts on a
+networked machine running xfs so that all the machines running x servers on a
+network do not require their own set of fonts.  xfs may also be invoked by
+users to, for instance, make available x fonts in user accounts that are not
+available to the x server or to an already running system xfs.

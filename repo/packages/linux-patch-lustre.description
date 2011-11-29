@@ -1,0 +1,14 @@
+Linux kernel patch for the lustre filesystem
+	
+lustre is a scalable, secure, robust, highly-available
+cluster file system. it is maintained by cluster filesystems, inc.
+and available from http://www.lustre.org
+
+lustre servers require a number of patches to the core linux kernel,
+mostly to export new functions, add features to ext3, and add
+a new locking path to the vfs. this package provides these patches
+for kernel versions 2.6.18, 2.6.21 and 2.6.22 on i386, amd64, powerpc
+and ia64 architectures.
+
+for lustre clients, you will also need to build a lustre-modules
+package, using the lustre-source package and module-assistant.

@@ -1,0 +1,8 @@
+Pluggable authentication module for samba
+	
+this is a module for pam that enables a system administrator to migrate
+user passwords from the unix password database to the smb password
+database as used by samba, and to subsequently keep the two databases in
+sync.  unlike other solutions, it does this without needing users to log
+in to samba using cleartext passwords, or requiring them to change their
+existing passwords.

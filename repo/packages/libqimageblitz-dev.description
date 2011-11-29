@@ -1,0 +1,8 @@
+Development files for the qimageblitz image effects library
+	
+qimageblitz is an interim graphical effect and filter library for kde 4.0 that
+contains many improvements over kde 3.x's kdefx library, including bugfixes
+and speed improvements.  it is expected to be replaced by quasar for kde 4.1.
+
+this package contains development files for building software that uses the
+qimageblitz library.

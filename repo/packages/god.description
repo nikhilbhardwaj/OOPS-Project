@@ -1,0 +1,8 @@
+Fully configurable process monitoring
+	
+god is an easy to configure, easy to extend monitoring framework
+written in ruby.
+
+keeping your server processes and tasks running should be a simple
+part of your deployment process. god aims to be the simplest, most
+powerful monitoring application available.

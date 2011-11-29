@@ -1,0 +1,15 @@
+Translates from latex to html, info, or text
+	
+its remarkable features are
+
+ - it produces good output. special symbols (like mathematical symbols) are
+   translated into html entities which should be rendered by any graphical
+   browser. picture files are only generated on demand, for instance when
+   translating graphics.
+ - it is highly configurable through (la)tex macros. though aimed at
+   latex input it understands a fair subset of tex' macro language.
+ - it runs fast.
+
+
+this version of hevea is patched to generate by default picture files
+in the png format instead of the gif format.

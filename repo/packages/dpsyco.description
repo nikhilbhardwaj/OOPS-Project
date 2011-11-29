@@ -1,0 +1,20 @@
+Debian packages of system configurations
+	
+dpsyco introduces the concept of configuration packages. it is a special
+form of debian packages that is applied on top of the original debian
+packages. with this you can add users, groups, apply a file skeleton,
+patch things and more. observe! no such configuration packages should be
+uploaded to the debian archives. this kind of things are intended to be
+created and used by the system administrator only.
+
+for more information see http://www.opal.dhs.org/programs/dpsyco/.
+
+this tool is very useful if you have a lot of servers on which you want
+to have similar configuration (but not identical). if you only have one
+server (or client) this is probably not useful at all.
+
+warning! users with uid and gid between 500 and 999 will be automatically
+administrated by this tool. this means that if you do not have a admin
+package that set up users these users will be removed.
+groups with gid between 300 and 499 will be handled in the same way.
+you have been warned!

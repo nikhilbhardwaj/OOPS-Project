@@ -1,0 +1,9 @@
+The wallfire modular firewalling application library - development files
+	
+the library libwfnetobjs, handles network objects (hosts, ports, etc.) of the
+wallfire project.
+the goal of the wallfire project is to build a very general and modular
+firewalling application based on netfilter or any kind of low-level framework.
+it is part of the wallfire project, but can be used independently.
+
+this package contains development files.

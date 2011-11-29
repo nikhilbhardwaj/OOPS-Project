@@ -1,0 +1,4 @@
+PackageId:7601
+Name:interchange-cat-standard
+Version:5.7.6-2
+Deps:dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,interchange,interchange-ui,libdbd-sqlite,libdbd-mysql-perl,libdbd-pg-perl,libwww-perl

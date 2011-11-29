@@ -1,0 +1,12 @@
+Simple emacs-perl interaction
+	
+sepia is a set of features to make emacs a better tool for perl
+development, including:
+
+
+ * an interactive prompt (repl) for evaluating code;
+ * cross-referencing to find and navigate between function and
+   variable definitions and uses;
+ * variable- and function-name completion.
+ * eldoc support to echo function arguments in the minibuffer
+ * functions to simplify pod browsing with emacs-w3m

@@ -1,0 +1,21 @@
+Safer version of universal::can
+	
+the universal class provides a few default methods so that all objects can
+use them. object orientation allows programmers to override these methods in
+subclasses to provide more specific and appropriate behavior.
+
+some authors call methods in the universal class on potential invocants as
+functions, bypassing any possible overriding. this is wrong and one should
+not do it. unfortunately, not everyone heeds this warning and their bad code
+can break good code.
+
+this module replaces universal::can() with a method that checks to see if
+the first argument is a valid invocant (whether an object -- a blessed
+referent -- or the name of a class). if so, and if the invocant's class has
+its own can() method, it calls that as a method. otherwise, everything works
+as you might expect.
+
+if someone attempts to call universal::can() as a function, this module will
+emit a lexical warning (see perllexwarn) to that effect. you can disable it
+with no warnings; or no warnings 'universal::isa';, but don't do that; fix
+the code instead.

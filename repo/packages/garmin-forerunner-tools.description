@@ -1,0 +1,14 @@
+Retrieve data from garmin forerunner/edge gps devices
+	
+this package contains command-line tools to retrieve data from gps
+devices from the garmin forerunner series (these are
+wristwatch-like devices that allow you to register your exact
+itinerary when doing outdoor sports) or the garmin edge series (the
+same for cycling computers). it works with the forerunner 205 and 305
+models and with the edge 305 model, and possibly others. track data
+can be translated into an xml format and into gpx, and into a
+polyline format for use with google maps.
+
+in contrast to the gpsbabel software, this software also downloads
+data specific to usage in sports like maximal speed, lap summary,
+calorie consumption, etc.

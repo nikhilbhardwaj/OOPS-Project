@@ -1,0 +1,9 @@
+Extract a class or method's parse tree, return it as a s-expression
+	
+parsetree is a c extension (using rubyinline) that extracts the parse
+tree for an entire class or a specific method and returns it as a
+s-expression (aka sexp) using ruby's arrays, strings, symbols, and
+integers.
+
+this package provide documentation and depends on the package
+containing the actual library for the default ruby version.

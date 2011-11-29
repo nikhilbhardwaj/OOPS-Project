@@ -1,0 +1,24 @@
+Assorted tools related to subversion
+	
+this package includes miscellaneous tools for use with subversion
+clients and servers:
+
+ * svn-backup-dumps: incremental dumpfile-based backup script
+ * svn-bisect: bisect revisions to find a regression
+ * svn-clean: remove unversioned files from a working copy
+ * svn-fast-backup: rsync-based backup script for fsfs repositories
+ * svn-hot-backup: backup script, primarily for bdb repositories
+ * svn_apply_autoprops: apply property settings from
+   .subversion/config file to an existing repository
+ * svn_load_dirs: sophisticated replacement for 'svn import'
+ * svn2cl: generate gnu-style changelog from repository history
+ * svnmerge: maintain merge history between two related branches
+   (mostly obsolete as of subversion 1.5)
+ * svnwrap: set umask to 002 before calling svn or svnserve
+ * several example hook scripts: commit-access-control, commit-email,
+   log-police, mailer, svnperms, verify-po
+
+
+note that some of these scripts are unsupported by upstream, and may
+change radically or disappear in future releases.  the recommended
+packages are each required by at least one of these scripts.

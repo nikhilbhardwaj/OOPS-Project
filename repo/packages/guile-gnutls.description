@@ -1,0 +1,15 @@
+The gnu tls library - gnu guile bindings
+	
+gnutls is a portable library which implements the transport layer
+security (tls) 1.0 and secure sockets layer (ssl) 3.0 protocols.
+
+currently gnutls implements:
+
+ - the tls 1.0 and ssl 3.0 protocols, without any us-export
+   controlled algorithms
+ - x509 public key infrastructure (with several limitations).
+ - srp for tls authentication.
+ - tls extension mechanism
+
+
+this package contains the gnu guile 1.8 modules.

@@ -1,0 +1,13 @@
+A kde application used for displaying scientific data
+	
+this is a metapackage for kst which installs all of the relevant
+packages.
+
+kst is a program for examining data streams which can plot x-y plots,
+power spectra, histograms and equations (including equations of data
+streams).  it can also be used to examine data in files which are being
+updated as data is being logged, in which case it can act as a plotter
+for a chart recorder.
+
+kst also contains a command line interface for rapid analysis of large
+amounts of data.

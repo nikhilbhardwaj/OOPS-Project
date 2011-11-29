@@ -1,0 +1,5 @@
+Debhelper addon to install and register a metainit file
+	
+this debhelper script should be used by package that ship an
+metainit file. it installs the metainit file in the right spot and add
+the required actions to the maintainer scripts.

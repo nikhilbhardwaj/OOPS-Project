@@ -1,0 +1,14 @@
+Dancer's shell, or distributed shell
+	
+executes specified command on a group of computers using remote shell
+methods such as rsh or ssh.
+
+dsh can parallelise job submission using several algorithms, such as using
+fan-out method or opening as much connections as possible, or
+using a window of connections at one time.
+it also supports "interactive mode" for interactive maintenance of
+remote hosts.
+
+this tool is handy for administration of pc clusters, and multiple hosts.
+
+http://www.netfort.gr.jp/~dancer/software/dsh.html

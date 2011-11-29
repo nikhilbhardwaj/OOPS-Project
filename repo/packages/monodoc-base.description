@@ -1,0 +1,8 @@
+Shared monodoc binaries
+	
+the monodoc project is the documentation framework of the mono project which
+provides detailed api documentation for all mono components and the mono cli
+implementation.
+
+this package contains the shared binaries which are used by the monodoc
+programs like the documentation file compiler (assembler.exe aka "monodoc").

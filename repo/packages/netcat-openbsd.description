@@ -1,0 +1,12 @@
+Tcp/ip swiss army knife
+	
+a simple unix utility which reads and writes data across network
+connections using tcp or udp protocol.  it is designed to be a reliable
+"back-end" tool that can be used directly or easily driven by other
+programs and scripts. at the same time it is a feature-rich network
+debugging and exploration tool, since it can create almost any kind of
+connection you would need and has several interesting built-in
+capabilities.
+
+this package contains the openbsd rewrite of netcat, including support
+for ipv6, proxies, and unix sockets.

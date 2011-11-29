@@ -1,0 +1,13 @@
+Graphical file manager for the ext3cow filesystem
+	
+ttfm (time travelling file manager) is a graphical file manager that
+allows a user to navigate the filesystem namespace and previous
+snapshots for an ext3cow filesystem.
+
+it provides a time shifting interface allowing you to quickly see the
+snapshot of the filesystem in a previous moment, provided you took a
+snapshot in that moment.
+
+important: you need a patched kernel with ext3cow support and the
+snapshot utility in order to properly use this application (it will
+run on non-ext3cow systems, though)

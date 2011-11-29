@@ -1,0 +1,7 @@
+Fast, memory-efficient, low-level networking for haskell
+	
+
+fast, memory-efficient, low-level socket functions that use data.bytestrings
+instead of strings.
+
+this package contains the libraries compiled for ghc 6.

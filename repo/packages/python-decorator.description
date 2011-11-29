@@ -1,0 +1,17 @@
+Simplify usage of python decorators by programmers
+	
+python 2.4 decorators have significantly changed the way python programs are
+structured.
+
+   * decorators help reduce boilerplate code;
+   * decorators help the separation of concerns;
+   * decorators enhance readability and maintainability;
+   * decorators are very explicit.
+
+still, as of now, writing custom decorators correctly requires some
+experience and is not as easy as it could be. for instance, typical
+implementations of decorators involve nested functions and we all know that
+flat is better than nested.
+the aim of the decorator module it to simplify the usage of decorators for
+the average programmer and to popularize decorators usage giving examples of
+useful decorators, such as memoize, tracing, redirecting_stdout, locked, etc.

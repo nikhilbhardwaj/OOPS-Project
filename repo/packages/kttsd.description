@@ -1,0 +1,9 @@
+A text-to-speech system for kde
+	
+the kde text-to-speech system is a plugin based service that allows any kde
+(or non-kde) application to speak using the d-bus interface.
+
+it uses the speech-dispatcher daemon for the actual speech job; kmouth is an
+useful front-end for it.
+
+this package is part of kde accessibility module.

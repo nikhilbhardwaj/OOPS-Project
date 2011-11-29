@@ -1,0 +1,11 @@
+Cross-platform directory selection widget
+	
+tk::dirselect provides a cross-platform directory selection widget. a
+context menu (right-click or <button3>) allows the
+creation, renaming, and deletion of directories while browsing.
+
+note: perl/tk 804 added the choosedirectory method which uses native
+system dialogs where available. unfortunately, a non-existent
+directory cannot (yet?) be chosen. if you want a native feel for
+your program, and do not need non-existent directory choice, you
+probably want to use choosedirectory method instead of tk::dirselect.

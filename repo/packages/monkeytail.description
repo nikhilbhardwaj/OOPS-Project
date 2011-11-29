@@ -1,0 +1,8 @@
+Tail variant designed for web developers monitoring logfiles
+	
+monkeytail allows a user to tail multiple files on both local and remote hosts
+and clearly marks inactivity by putting 5 newlines in the output whenever a
+pause in output over 3 seconds is detected.
+
+monkeytail is implemented a fairly simple wrapper script around standard tail,
+ssh, and sudo.

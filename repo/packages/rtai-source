@@ -1,0 +1,4 @@
+PackageId:31003
+Name:rtai-source
+Version:3.8.1-2
+Deps:bash,debhelper,grep-dctrl,dctrl-tools,make,patch,python-rtai

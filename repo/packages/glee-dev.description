@@ -1,0 +1,15 @@
+Extension loading library for opengl - development
+	
+glee (gl easy extension library) is a free cross-platform extension loading
+library for opengl. it provides seamless support for opengl functions up to
+version 3.0 and 398 extensions.
+
+features:
+
+ * core functions up to opengl 3.0
+ * 398 extensions
+ * lazy loading for extension functions, so no initialisation code is required
+ * forced extension loading, though the gleeforcelink function.
+
+
+this package contains the development libraries and headers.

@@ -1,0 +1,11 @@
+Xpcom bindings for python
+	
+pyxpcom allows for communication between python and xpcom, such that a
+python application can access xpcom objects, and xpcom can access any
+python class that implements an xpcom interface.
+with pyxpcom, a developer can talk to xpcom or embed gecko from a
+python application. pyxpcom is similar to javaxpcom (java-xpcom bridge)
+or xpconnect (javascript-xpcom bridge).
+
+install this package if you wish to access xpcom objects from python, or
+want to use python components from xpcom.

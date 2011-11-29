@@ -1,0 +1,9 @@
+X cursor management library
+	
+xcursor is a simple library designed to help locate and load cursors for the
+x window system.  cursors can be loaded from files or memory and can exist in
+several sizes; the library automatically picks the best size.  when using
+images loaded from files, xcursor prefers to use the render extension's
+createcursor request for rendering cursors.  where the render extension is
+not supported, xcursor maps the cursor image to a standard x cursor and uses
+the core x protocol createcursor request.

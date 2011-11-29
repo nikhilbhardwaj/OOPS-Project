@@ -1,0 +1,12 @@
+Ipsec vpn solution metapackage
+	
+the strongswan vpn suite is based on the ipsec stack in standard linux 2.6
+kernels. it supports both the ikev1 and ikev2 protocols.
+
+strongswan is one of the two remaining forks of the original frees/wan
+project and focuses on ikev2 support, x.509 authentication and complete pki
+support. for a focus on opportunistic encryption (oe) and interoperability
+with non-standard ipsec features, see openswan.
+
+this metapackage installs the packages required to maintain ikev1 and ikev2
+connections via ipsec.conf or ipsec.secrets.

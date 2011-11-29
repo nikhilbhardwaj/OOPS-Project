@@ -1,0 +1,9 @@
+An intelligent whois client
+	
+this is a new whois (rfc 3912) client rewritten from scratch.
+it is inspired from and compatible with the usual bsd and ripe whois(1)
+programs.
+it is intelligent and can automatically select the appropriate whois
+server for most queries.
+
+the package also contains mkpasswd, a features-rich front end to crypt(3).

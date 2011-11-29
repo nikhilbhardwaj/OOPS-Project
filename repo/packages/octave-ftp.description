@@ -1,0 +1,7 @@
+Octave binding for ftplib, and matlab compatible apis
+	
+this package provides binding for octave, a numerical computation
+software, to ftplib and matlab compatible apis. it provides all the
+usual ftp functions like cd, pwd, ls, rmdir, mkdir and more.
+
+this octave add-on package is part of the octave-forge project.

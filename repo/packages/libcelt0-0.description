@@ -1,0 +1,22 @@
+The celt codec runtime library
+	
+celt is an experimental audio codec for use in low-delay communication.
+
+celt stands for "code-excited lapped transform". it applies some of the celp
+principles, but does everything in the frequency domain, which removes some of
+the limitations of celp. celt is suitable for both speech and music and
+currently features:
+
+
+ * ultra-low latency (typically from 3 to 9 ms)
+ * full audio bandwidth (44.1 khz and 48 khz)
+ * stereo support
+ * packet loss concealment
+ * constant bit-rates from 32 kbps to 128 kbps and above
+ * a fixed-point version of the encoder and decoder
+
+
+the celt codec is meant to close the gap between vorbis and speex for
+applications where both high quality audio and low delay are desired.
+
+this package provides the celt runtime library.

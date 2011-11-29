@@ -1,0 +1,6 @@
+Dcc program for liece
+	
+this program is dcc(direct client connection) program for liece.
+dcc is implemented not with emacslisp, but with c,
+so dcc package has been divided.
+and included "ltcp" which is connection support program, can use ipv6.

@@ -1,0 +1,10 @@
+Pac-man clone
+	
+kapman is a clone of the well known game pac-man. you must go through the
+levels escaping ghosts in a maze. you lose a life when a ghost eats you, but
+you can eat the ghosts for a few seconds when eating an energizer. you win
+points when eating pills, energizers, and bonus, and you win one life for
+each 10,000 points.  when you have eaten all the pills and energizers of a
+level, you go to the next level, and the player and ghost speeds increase.
+
+this package is part of the kde games module.

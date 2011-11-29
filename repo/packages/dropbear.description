@@ -1,0 +1,10 @@
+Lightweight ssh2 server and client
+	
+dropbear is a ssh 2 server and client designed to be small enough to
+be used in small memory environments, while still being functional and
+secure enough for general use.
+
+it implements most required features of the ssh 2 protocol, and other
+features such as x11 and authentication agent forwarding.
+
+see http://matt.ucc.asn.au/dropbear/dropbear.html

@@ -1,0 +1,14 @@
+Python web widget toolkit (desktop version)
+	
+pyjamas desktop is the desktop version of pyjamas, the
+web widget application framework.
+
+pyjamas is typically used for the development of "web 2.0" rias,
+where the application can be almost exclusively written in python,
+instead of javascript, yet compiled to run in the user's browser.
+
+the desktop version of pyjamas takes the original python application
+(which, in the browser version, is put through a javascript compiler),
+and executes it directly, through the standard python interpreter,
+unmodified.  the pyjamas infrastructure then uses xulrunner as the
+browser engine, to render the application's widgets.

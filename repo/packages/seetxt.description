@@ -1,0 +1,10 @@
+Lightweight text file and man page viewer
+	
+see is a lightweight linux text file and man page viewer. it maintains
+"document meta-data" for each user, allowing them to automatically keep
+bookmarks and highlights for read-only system files. it also has a
+"server mode" so that command line requests can be sent to a single
+running server rather than starting multiple instances. other features
+include hypertext-style apropos (man page) searches, file monitoring,
+regular expressions, command history, and nice little
+toggle lights on the interface for the server and file monitor.

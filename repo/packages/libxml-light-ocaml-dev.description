@@ -1,0 +1,9 @@
+Mininal xml parser and printer for ocaml
+	
+this is a xml parser and printer, designed to help parsing basic xml document
+into ocaml data structures and printing it back to a xml document.
+
+it also supports dtd.
+
+you can find more information about xml-light at
+http://tech.motion-twin.com/xmllight.html

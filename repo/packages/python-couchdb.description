@@ -1,0 +1,10 @@
+Library for working with apache couchdb
+	
+provides a high-level client library for apache couchdb, a view server and dump
+and load utilities that can be used as migration tools when upgrading or moving
+between databases.
+
+apache couchdb is a distributed document database system with bi-directional
+replication. it makes it simple to build collaborative applications that can
+be replicated offline by users, with full interactivity (query, add, update,
+delete), and later "synced up" with everyone else's changes when back online.

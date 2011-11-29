@@ -1,0 +1,13 @@
+Generate interface introspection data for gobject libraries
+	
+gobject introspection is a project for providing machine readable
+introspection data of the api of c libraries. this introspection
+data can be used in several different use cases, for example
+automatic code generation for bindings, api verification and documentation
+generation.
+
+gobject introspection contains tools to generate and handle the
+introspection data.
+
+this package contains tools for extracting introspection data from libraries
+and transforming it to different formats.

@@ -1,0 +1,8 @@
+Wrapper of libgpiv
+	
+this module allows the functionality of libgpiv3 in python scripts
+to develop programs for particle image velocimetry (piv). in this way
+you can extend the functionality of the piv processing as provided by
+the programs of the gpivtools package and by gpiv. an example
+script is provided in usr/docs, including a double-frame image for
+cross-correlation that can be interrogated by the script.

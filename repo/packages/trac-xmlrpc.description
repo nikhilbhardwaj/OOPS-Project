@@ -1,0 +1,6 @@
+Xml-rpc interface to the trac wiki and issue tracking system
+	
+this plugin allows trac plugins to export select parts of their
+interface via xml-rpc. it also includes some exported functions
+for manipulating tickets, with plans to include interfaces to
+other parts of trac's api.

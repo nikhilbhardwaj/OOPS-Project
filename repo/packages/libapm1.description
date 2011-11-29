@@ -1,0 +1,9 @@
+Library for interacting with apm driver in kernel
+	
+on laptop computers, the advanced power management (apm) support
+provides access to battery status information and may help you to
+conserve battery power, depending on your laptop and the apm
+implementation.
+
+this package contains a shared library that provides support for
+interacting with the apm driver in the kernel.

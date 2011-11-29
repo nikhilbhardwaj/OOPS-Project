@@ -1,0 +1,22 @@
+Runs a command and optionally reports its output by mail
+	
+shush was written to be a generic wrapper around cron jobs so that it can be
+applied to any command without having to modify it or create a custom wrapper
+for it. in a sense, it solves a fairly simple problem, but it also brings some
+powerful features making it a useful tool beyond cron jobs.
+
+feature highlights:
+
+
+  * multiple reports (for the output) may be defined
+  * decision to send a report (or not) is configurable based on:
+    - output content analysis (using regular expressions)
+    - command exit code
+    - size of output
+    - command execution duration
+  * support for plain text, enriched text and html report formatting.
+    (the latter two allow rendering part of the output in bold.)
+  * various timeout actions such as notification and command termination
+  * locking support
+  * progress report logging via syslog
+  * automatic crontab file updating based on shush's configuration

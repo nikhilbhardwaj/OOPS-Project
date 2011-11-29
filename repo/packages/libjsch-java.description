@@ -1,0 +1,4 @@
+Pure java implementation of the ssh2 protocol
+	
+jsch allows your programs to connect to an ssh server. it supports
+port forwarding, x11 forwarding, file transfer and more.

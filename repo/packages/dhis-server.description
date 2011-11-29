@@ -1,0 +1,9 @@
+Dynamic host information system - server
+	
+dhis is a client-server architecture meant to update databases
+for systems which are assigned a dynamic ip[v4] address.
+
+by the means of a dhis client a host which is assigned a dynamic
+ip address (either from its isp or from dhcp) is able to
+communicate with a dhis server in order to advertise its newly
+acquired ip address.

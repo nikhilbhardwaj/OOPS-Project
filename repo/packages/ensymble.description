@@ -1,0 +1,12 @@
+Developer utilities for symbian os
+	
+this is the ensymble developer utilities for symbian os(tm), a
+collection of python modules and command line programs for symbian
+os software development.
+
+current focus of ensymble development is to provide useful tools for
+making "python for s60" (also called pys60) programs. supported
+functions include generation of sis (installation) packages, merging
+several sis packages into one, (re-)signing existing sis packages and
+modifying extension dll headers. support for other symbian os software
+development tasks will follow.

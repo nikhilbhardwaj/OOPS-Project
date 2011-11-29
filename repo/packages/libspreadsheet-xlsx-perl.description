@@ -1,0 +1,6 @@
+Perl extension for reading ms excel 2007 files
+	
+spreadsheet::xlsx emulates the behaviour of spreadsheet::parseexcel for the
+excel 2007 (.xlsx) file format. it supports styles and many, but not all, of
+excel's quirks. it populates the classes from spreadsheet::parseexcel for
+interoperability; including workbook, worksheet, and cell.

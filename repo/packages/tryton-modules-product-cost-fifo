@@ -1,0 +1,4 @@
+PackageId:33210
+Name:tryton-modules-product-cost-fifo
+Version:1.6.0-1
+Deps:python,python-pkg-resources,python-support,tryton-modules-product,tryton-modules-stock,tryton-server

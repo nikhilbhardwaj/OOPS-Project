@@ -1,0 +1,12 @@
+A computer algebra system -- base system
+	
+maxima is a fully symbolic computation program.  it is full featured
+doing symbolic manipulation of polynomials, matrices, rational
+functions, integration, todd-coxeter methods for finite group
+analysis, graphing, multiple precision floating point computation.
+it has a symbolic source level debugger for maxima code.  maxima is
+based on the original macsyma developed at mit in the 1970s.  it is
+quite reliable, and has good garbage collection, and no memory leaks.
+it comes with hundreds of self tests.
+
+this package contains the main executables and base system files.

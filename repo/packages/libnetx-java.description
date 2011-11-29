@@ -1,0 +1,17 @@
+An open-source jnlp client
+	
+netx is a high-quality implementation of the java network launching
+protocol (jnlp). it downloads code over the network for applications
+and applets, caches it, and runs it in a secure environment.
+
+general features of netx and jnlp:
+
+ * quality: highest quality open-source jnlp client.
+ * modular: easily add jnlp capabilities to any applications.
+ * security: run code in a sandbox or log its activities.
+ * small size: loads from a ~130k jar file.
+ * auto-update: no special code needed to auto-update apps.
+ * fast startup: runs code from a cache for fast starting.
+ * saves memory: supports running apps in a shared jvm.
+ * no browser: runs apps and applets without a browser.
+ * web based: no installers needed to deploy an application

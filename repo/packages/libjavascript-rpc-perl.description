@@ -1,0 +1,9 @@
+Perl module to process remote procedure calls from javascript
+	
+javascript::rpc::server::cgi is a cgi-based server library for use with brent
+ashley's javascript remote scripting (jsrs) client library. it works
+asynchronously and uses dhtml to deal with the payload.
+
+the most current version (as of the release of this module) of the client
+library as well as a demo application have been included in this
+distribution.

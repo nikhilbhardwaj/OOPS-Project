@@ -1,0 +1,46 @@
+High-performance mysql tuning script
+	
+high-performance mysql tuning script written in perl that will provide
+you with a snapshot of a mysql server?s health. based on the statistics
+gathered, specific recommendations will be provided that will increase a
+mysql server's efficiency and performance. the script gives you
+automated mysql tuning that is on the level of what you would receive
+from a mysql dba.
+
+features:
+
+
+   * memory usage: calculates mysql memory usage at max load and makes
+     recommendations for increasing or decreasing the mysql memory
+     footprint. per-thread and server-wide buffer data is calculated
+     separately for an accurate snapshot of the server?s configuration.
+   * slow queries: reviews the amount of slow queries relative to the
+     total queries. slow query time limits are also analyzed and
+     recommendations are made.
+   * connections: current and historical connection counts are
+     reviewed.
+   * key buffer: takes configuration data and compares it to the actual
+     indexes found in myisam tables. key cache hit rates are calculated
+     and variable adjustments are suggested.
+   * query cache: query cache hit rates and usage percentages are used
+     to make recommendations for the query cache configuration
+     variables.
+   * sorting & joins: per-thread buffers that affect sorts and joins
+     are reviewed along with the statistics from the queries run
+     against the server.
+   * temporary tables: variable recommendations are made to reduce
+     temporary tables that are written to the disk.
+   * table cache: compares total tables opened to the currently open
+     tables. calculates the table cache hit rate in order to make
+     suggestions.
+   * open files: determines if the server will approach or run into the
+     open file limit set by the operating system or the mysql server
+     itself.
+   * table locks: finds table locking that forces queries to wait and
+     makes suggestions for reducing locks that require a wait.
+   * thread cache: calculates how many times mysql must create a new
+     thread to respond to a query.
+   * aborted connections: finds applications that are not closing
+     connections to mysql properly.
+   * read/write ratios: calculates the percentage of read and write
+     operations on your mysql installation.

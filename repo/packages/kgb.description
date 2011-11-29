@@ -1,0 +1,7 @@
+Archiver for .kgb files
+	
+this is an archiver (compressor/decompressor) for files in the kgb format,
+which provides high compression rates at the expense of memory and cpu time.
+
+this package contains the kgb archiver based on the
+paq6 archiver by matt mahoney.

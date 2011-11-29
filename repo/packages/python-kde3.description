@@ -1,0 +1,5 @@
+Kde3 bindings for python
+	
+python binding module that provides wide access to the kde3 api,
+also known as pykde. using this, you'll get (for example) classes
+from kio, kjs, khtml and kprint.

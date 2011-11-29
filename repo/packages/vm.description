@@ -1,0 +1,13 @@
+A mail user agent for emacs.
+	
+vm (view mail) is an emacs subsystem that allows unix mail to be read
+and disposed of within emacs.  commands exist to do the normal things
+expected of a mail user agent, such as generating replies, saving
+messages to folders, deleting messages and so on.  there are other
+more advanced commands that do tasks like bursting and creating
+digests, message forwarding, and organizing message presentation
+according to various criteria.  with smtpmail in modern emacsen, you do
+not need an mta locally in order to use vm.
+
+this package does not cater to xemacs, since vm comes (by default)
+bundled in with xemacs.

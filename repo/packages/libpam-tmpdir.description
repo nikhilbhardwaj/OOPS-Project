@@ -1,0 +1,9 @@
+Automatic per-user temporary directories
+	
+many programs use $tmpdir for storing temporary files.  not
+all of them are good at securing the permissions of those
+files.  libpam-tmpdir sets $tmpdir and $tmp for pam sessions
+and sets the permissions quite tight.  this helps system
+security by having an extra layer of security, making such
+symlink attacks and other /tmp based attacks harder or
+impossible

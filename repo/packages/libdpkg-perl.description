@@ -1,0 +1,27 @@
+Dpkg perl modules
+	
+this package provides the perl modules used by the scripts
+in dpkg-dev. they cover a wide range of functionalities. among them
+there are the following modules:
+
+
+ - dpkg::arch: manipulate debian architecture information
+ - dpkg::buildoptions: parse and manipulate deb_build_options
+ - dpkg::changelog: parse debian changelogs
+ - dpkg::checksums: generate and parse checksums
+ - dpkg::compression::process: wrapper around compression tools
+ - dpkg::compression::filehandle: transparently (de)compress files
+ - dpkg::control: parse and manipulate debian control information
+   (.dsc, .changes, packages/sources entries, etc.)
+ - dpkg::deps: parse and manipulate dependencies
+ - dpkg::errorhandling: common error functions
+ - dpkg::index: collections of dpkg::control (packages/sources files for
+   example)
+ - dpkg::ipc: spawn sub-processes and feed/retrieve data
+ - dpkg::substvars: substitute variables in strings
+ - dpkg::vendor: identify current distribution vendor
+ - dpkg::version: parse and manipulate debian package versions
+
+
+all the packages listed in suggests or recommends are used by some of the
+modules.

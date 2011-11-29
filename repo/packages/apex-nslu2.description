@@ -1,0 +1,14 @@
+Apex boot loader for linksys nslu2
+	
+the apex boot loader is a modular and retargetable firmware loader
+suitable for embedded systems.
+
+this package is a version of apex configured for the linksys nslu2
+network appliance.  in this case, apex is used as a second stage
+loader so that redboot, as installed by the manufacturer, may remain.
+
+the apex command line offers a comfortable (e.g. command line editing
+and history) and extensible platform for development and production
+uses.
+
+<http://wiki.buici.com/wiki/apex_bootloader>

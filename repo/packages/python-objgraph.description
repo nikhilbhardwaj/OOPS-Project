@@ -1,0 +1,8 @@
+Ad-hoc tools for drawing python object reference graphs with graphviz
+	
+objgraph contains a set of utility functions for exploring python objects in
+memory.
+
+it can be used for counting and statistics, finding root references
+responsible for large object trees and export the object reference graphs in
+graphviz format.

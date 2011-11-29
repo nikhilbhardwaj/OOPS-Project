@@ -1,0 +1,13 @@
+Html::mason perl module
+	
+mason allows web pages and sites to be constructed from shared,
+reusable building blocks called components. components contain a mix
+of perl and html, and can call each other and pass values back and
+forth like subroutines. components increase modularity and eliminate
+repetitive work: common design elements (headers, footers, menus,
+logos) can be extracted into their own components where they need be
+changed only once to affect the whole site.
+
+other mason features include a graphical site previewing utility, an
+html/data caching model, and the ability to walk through requests with
+the perl debugger.

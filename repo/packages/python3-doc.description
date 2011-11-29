@@ -1,0 +1,20 @@
+Documentation for the high-level object-oriented language python
+	
+this is the official set of documentation for the interactive high-level
+object-oriented language python (v3.1). all documents are provided
+in html format, some in info format. the package consists of nine documents:
+
+
+  * tutorial
+  * python library reference
+  * macintosh module reference
+  * python language reference
+  * extending and embedding python
+  * python/c api reference
+  * installing python modules
+  * documenting python
+  * distributing python modules
+
+
+this package is a dependency package, which depends on debian's default
+python version (currently v3.1).

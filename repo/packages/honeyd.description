@@ -1,0 +1,23 @@
+Small daemon that creates virtual hosts simulating their services and behaviour
+	
+honeyd is a small daemon that creates virtual hosts on a network. the
+hosts can be configured to run arbitrary services, and their tcp
+personality can be adapted so that they appear to be running certain
+versions of operating systems. honeyd enables a single host to claim
+multiple addresses on a lan for network simulation. it is possible to ping
+the virtual machines, or to traceroute them. any type of service on the
+virtual machine can be simulated according to a simple configuration file.
+instead of simulating a service, it is also possible to proxy it to
+another machine.
+
+features:
+
+    * simulates thousands of virtual hosts at the same time.
+    * configuration of arbitrary services via simple configuration file:
+       o includes proxy connects.
+    * simulates operating systems at tcp/ip stack level:
+       o fools nmap and xprobe,
+       o adjustable fragment reassembly policy,
+       o adjustable fin-scan policy.
+    * simulation of arbitrary routing topologies:
+      o configurable latency and packet loss.

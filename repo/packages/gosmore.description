@@ -1,0 +1,7 @@
+Openstreetmap.org viewer / wayfinder / search client
+	
+gosmore is a openstreetmap.org viewer and wayfinder with support for
+speech syntesis and fetching the current location from gpsd.
+
+this package requires additional data files which can be downloaded
+freely from openstreetmap.org.

@@ -1,0 +1,9 @@
+Prepares cd image files so they compress better
+	
+the ecm format allows you to reduce the size of a typical cd image file
+(bin, cdi, nrg, ccd, or any other format that uses raw sectors).
+it works by eliminating the error correction/detection codes (ecc/edc) from
+each sector whenever possible. the encoder automatically adjusts to
+different sector types and automatically skips any headers it encounters.
+since the data skipped is nearly impossible to compress with traditionnal
+tools, the resulting ecm file will compress far better than the raw cd image.

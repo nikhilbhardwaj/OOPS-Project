@@ -1,0 +1,7 @@
+Position server for geoclue (manual)
+	
+geoclue provides applications access to various geographical information
+sources using a d-bus api or a c library.
+
+this package provides a positioning backend for geoclue.
+it works by letting the user specify the location.

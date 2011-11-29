@@ -1,0 +1,11 @@
+Debugging tool for telepathy developers
+	
+telepathy inspector is a gtk+ client for telepathy whose objective is to
+expose all interfaces and functionalities implemented by a given
+connection manager along with its connections, channels, etc.
+
+the idea is to enable the user (likely to be a telepathy developer) to
+easily view and access all methods and interfaces of all telepathy
+objects (cms, connections, etc), which could not be easily achieved
+using a regular telepathy client since it would (and should!) hide all
+telepathy logic behind a pleasant, usability oriented, gui.

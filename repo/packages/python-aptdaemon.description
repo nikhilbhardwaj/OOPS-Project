@@ -1,0 +1,8 @@
+Python module for the server and client of aptdaemon
+	
+aptdaemon is a transaction based package management service. it allows
+normal users to perform package management tasks, e.g. refreshing the
+cache, upgrading the system, installing or removing software packages.
+
+this package provides the python modules required to run aptdaemon
+and to implement a client. the api is not stable yet.

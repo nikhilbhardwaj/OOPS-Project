@@ -1,0 +1,7 @@
+Symbolic algebra in pure perl
+	
+math::algebra::symbols supplies a set of functions and operators to manipulate
+operator expressions algebraically using the familiar perl syntax.
+
+these expressions are constructed from symbols, operators, functions, and
+processed via methods.

@@ -1,0 +1,10 @@
+Interactive shell for www::mechanize
+	
+www::mechanize::shellimplements a www-like shell above www::mechanize and
+also has the capability to output crude perl code that recreates the recorded
+session. its main use is as an interactive starting point for automating a
+session through www::mechanize.
+
+the cookie support is there, but no cookies are read from your existing
+browser sessions. see http::cookies on how to implement reading/writing
+your current browsers cookies.

@@ -1,0 +1,32 @@
+Embedded web application development framework
+	
+this package contains klone's source code, to be used to build custom
+kloned servers.
+
+klone is a fully-featured, multiplatform, web application development
+framework, targeted especially for embedded systems and appliances.
+
+it is a self-contained solution which includes a web server and an sdk
+for creating www sites with both static and dynamic content. when
+using klone, there's absolutely no need for any additional component:
+neither the http/s server (e.g. apache, netscape, roxen), nor the
+typical active pages engine (php, perl, asp, python).
+
+klone does everything, and does it fast and small.
+
+klone blends the http/s server application together with its content
+and configuration into a single executable file. the site developer
+writes his/her dynamic pages in c/c++ (in usual scripting style: <% /*
+code */ %>) and uses klone to transform them into embeddable,
+compressed native code with the native c/c++ compiler. the result is
+then linked to the http/s server skeleton to obtain one single,
+rom-able, binary file. this means that he/she can get:
+
+ - easy, complete and unfiltered interaction with the host operating
+     system
+ - dynamic pages in native compiled code, which in turn implies
+ - fast execution and
+ - small overall application footprint
+ - all of this without giving up the common functionality of web
+     application frameworks such as sessions, parsing of form
+     variables, cookies, etc

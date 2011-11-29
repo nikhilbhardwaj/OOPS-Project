@@ -1,0 +1,13 @@
+Debugging symbols for libupnp4
+	
+the portable sdk for upnp devices (libupnp) provides developers with an
+api and open source code for building control points, devices, and
+bridges that are compliant with version 1.0 of the universal plug and
+play device architecture specification - see http://www.upnp.org/ for
+specifications.
+
+this package contains the debugging symbols associated with libupnp4.
+they will automatically be used by gdb for debugging libupnp-related
+issues.
+
+most people will not need this package.

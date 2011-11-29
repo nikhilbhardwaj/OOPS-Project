@@ -1,0 +1,10 @@
+Gnu r package accompanying the venables and ripley book on s
+	
+this package provides functions and datasets from the book by william n.
+venables and brian d. ripley, "modern applied statistics with s", 4th ed.,
+springer, 2002. the vr package contains four individuals packages: mass,
+class, nnet and spatial.
+
+these packages are now shipped in individual packages upon which this
+package depends.  once all reverse depends: on r-cran-vr are resolved
+you will be able to remove the metapackage.

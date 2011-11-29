@@ -1,0 +1,6 @@
+Integrate iceweasel download messages with desktop notifications
+	
+iceweasel-notifiy provides integration between iceweasel and the galago
+project's specification for notifications. this allows iceweasel to integrate
+better into gnu/linux desktops which support a galago compatible notification
+daemon such as libnotify.

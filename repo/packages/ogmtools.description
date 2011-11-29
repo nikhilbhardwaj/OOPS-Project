@@ -1,0 +1,9 @@
+Tools for manipulating ogg multimedia streams
+	
+these tools manipulate ogg media streams:
+
+  * ogminfo  - displays stream information
+  * ogmdemux - demuxes an ogm stream into its component media streams
+  * ogmsplit - splits an ogm stream into chunks
+  * ogmmerge - joins media streams into an ogm stream
+  * dvdxchap - extracts chapter information from dvds

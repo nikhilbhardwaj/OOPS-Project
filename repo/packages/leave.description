@@ -1,0 +1,6 @@
+Reminds you when you have to leave
+	
+leave waits until the specified time, then reminds you that you have
+to leave.  you are reminded 5 minutes and 1 minute before the actual
+time, at the time, and every minute thereafter.  when you log off,
+leave exits just before it would have printed the next message.

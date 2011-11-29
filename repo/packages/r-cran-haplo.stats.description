@@ -1,0 +1,8 @@
+Gnu r package for haplotype analysis
+	
+the package provides routines for the gnu r statistics environment
+for statistical analysis of indirectly measured haplotypes with traits
+and covariates when linkage phase is ambiguous.  the statistical methods
+assume that all subjects are unrelated and that haplotypes are ambiguous
+(due to unknown linkage phase of the genetic markers). the main functions
+are: haplo.em, haplo.glm, haplo.score, haplo.power, and seqhap.

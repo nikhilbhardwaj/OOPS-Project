@@ -1,0 +1,5 @@
+Tcl/tk info browser
+	
+tkinfo is a tcl/tk script to read gnu info files and display them.
+tkinfo can be used stand alone (via wish), or embedded within an
+application to provide integrated, on-line help.

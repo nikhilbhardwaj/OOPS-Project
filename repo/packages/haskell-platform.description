@@ -1,0 +1,11 @@
+Standard haskell libraries and tools
+	
+the haskell platform is a suite of tools and libraries that contain the most
+important and best supported components. it is meant to be a starting point
+for haskell developers who are looking for libraries to use.
+
+installing this meta package will also install the debian packages containing
+the libraries and tools as specified in the official haskell platform, in the
+version available in debian. this may not be the version specified in the
+platform. if this is of relevance to you, please check them on the official
+haskell platform homepage.

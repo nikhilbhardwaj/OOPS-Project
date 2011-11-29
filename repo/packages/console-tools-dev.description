@@ -1,0 +1,7 @@
+Development files for linux console and font manipulation
+	
+this package includes the libconsole and libcfont headers and static
+libraries.
+
+warning: these libs' api are still in alpha stage; the interface is still
+subject from time to time to incompatible changes.

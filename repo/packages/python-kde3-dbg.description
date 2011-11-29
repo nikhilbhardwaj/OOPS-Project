@@ -1,0 +1,7 @@
+Kde3 bindings for python (debug extensions)
+	
+python binding module that provides wide access to the kde3 api,
+also known as pykde. using this, you'll get (for example) classes
+from kio, kjs, khtml and kprint.
+
+this package contains the extension built for the python debug interpreter.

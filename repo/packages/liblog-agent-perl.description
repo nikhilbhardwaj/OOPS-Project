@@ -1,0 +1,5 @@
+Perl module providing helper logging routines
+	
+log::agent is a general logging framework aimed at reusable modules
+that allow code to be written that is independent of the final logging
+method to be used.

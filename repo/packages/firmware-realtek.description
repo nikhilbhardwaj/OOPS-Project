@@ -1,0 +1,20 @@
+Binary firmware for realtek wired and wireless network adapters
+	
+this package contains the binary firmware for ethernet adapters with the
+rtl8111d/rtl8168d chips supported by the r8169 driver; and wireless
+network cards with the rtl8192 and rtl8712 chips supported by the
+r8192_pci, r8192s_usb and r8712u drivers.
+
+contents:
+
+ * realtek rtl8192e boot code (rtl8192e/boot.img)
+ * realtek rtl8192e init data (rtl8192e/data.img)
+ * realtek rtl8192e main code (rtl8192e/main.img)
+ * realtek rtl8192su firmware, version 902b (rtl8192su/rtl8192sfw.bin)
+ * realtek rtl8105e-1 firmware (rtl_nic/rtl8105e-1.fw)
+ * realtek rtl8111d-1/rtl8168d-1 firmware (rtl_nic/rtl8168d-1.fw)
+ * realtek rtl8111d-2/rtl8168d-2 firmware (rtl_nic/rtl8168d-2.fw)
+ * realtek rtl8168e-1 firmware (rtl_nic/rtl8168e-1.fw)
+ * realtek rtl8168e-2 firmware (rtl_nic/rtl8168e-2.fw)
+ * realtek rtl8168e-3 firmware (rtl_nic/rtl8168e-3.fw)
+ * realtek rtl8192su/rtl8712u firmware (rtlwifi/rtl8712u.bin)

@@ -1,0 +1,7 @@
+Kde3 bindings for python - development files and scripts
+	
+development .sip files with definitions of pykde classes. they
+are needed to build pykde, but also as building blocks of other
+packages based on them.
+the package also contains kdepyuic, a wrapper script around pyqt's
+user interface compiler.

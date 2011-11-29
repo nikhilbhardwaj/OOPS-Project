@@ -1,0 +1,5 @@
+Utilities to detect and configure printers automatically
+	
+these utilities allow to detect automatically printers using udev when they
+are plugged on the system. they are then configured automatically in the cups
+printing daemon and made available to users.

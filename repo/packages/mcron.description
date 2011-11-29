@@ -1,0 +1,7 @@
+Guile-based program for running jobs at regular times
+	
+the gnu package mcron (mellor's cron) can be a 100% compatible replacement for
+vixie cron (though the debian package is not configured this way). it is
+written in pure guile, and allows configuration files to be written in scheme
+(as well as vixie's original format) for infinite flexibility in specifying
+when jobs should be run.

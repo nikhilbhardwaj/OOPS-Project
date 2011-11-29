@@ -1,0 +1,11 @@
+Tao naming service and ior utilities
+	
+this package includes programs to query or control a corba naming
+service, and to dump an ior.
+
+the following programs are included:
+
+ * tao_nslist, to list naming context and object bindings
+ * tao_nsadd, to create bindings
+ * tao_nsdel, to remove bindings
+ * tao_catior, to dump the content of an interoperable object reference

@@ -1,0 +1,11 @@
+A gpgpu-driven wpa/wpa2-psk key cracker
+	
+pyrit allows to create massive databases, pre-computing part of the
+wpa/wpa2-psk authentication phase in a space-time-tradeoff. exploiting the
+computational power of many-core- and other platforms through ati-stream,
+nvidia cuda, opencl and via padlock, it is currently by far the most powerful
+attack against one of the world's most used security-protocols.
+
+this package contains the basic version of pyrit, with support for mmx, sse2
+and via padlock detected at run-time. support for non-free technologies such
+as nvidia cuda can be added through extensions.

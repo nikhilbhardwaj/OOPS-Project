@@ -1,0 +1,7 @@
+Evaluate the statistical distribution of dice rolls
+	
+with dicelab you can express most dice rolls (and similar things) in a
+functional language, and the either roll the expression, or evaulate the
+statistical distribution. in the latter case you can choose whether you want to
+simply roll and tally many times, or actually compute the distribution (which
+is more precise, but takes a long time in some obscure cases).

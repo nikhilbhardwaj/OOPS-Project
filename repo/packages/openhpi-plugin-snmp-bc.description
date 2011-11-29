@@ -1,0 +1,9 @@
+Openhpi plugin module for ibm's bladecenter or rsa over snmp
+	
+openhpi is an implementation of the service availability forum's hardware
+platform interface specification.  (see http://www.saforum.org)  as
+such, openhpi facilitates the development of computer manageability
+applications which are not tied to a single hardware vendor's products.
+
+this package contains a plugin module that accesses ibm bladecenter
+and rsa-enabled systems hardware information through snmp.

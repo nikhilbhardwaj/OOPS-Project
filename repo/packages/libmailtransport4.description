@@ -1,0 +1,14 @@
+Mail transport service library
+	
+mailtransport is a library that provides the following functionality:
+
+
+ * shared mail transport settings.
+ * gui elements to configure mail transport settings.
+ * job classes for mail sending.
+
+
+this package also contains a kde control module which can be embedded
+into your application to provide mail transport configuration.
+
+this package is part of the kde development platform pim libraries module.

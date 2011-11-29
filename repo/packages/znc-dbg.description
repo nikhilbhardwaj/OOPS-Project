@@ -1,0 +1,14 @@
+An advanced irc bouncer (debugging symbols)
+	
+znc is an irc proxy. it runs as a daemon and connects to irc server,
+then allows you to connect from a workstation and work as the user that
+is logged in to the irc server. after you disconnect, it maintains the
+connection to the server. it acts like any normal irc server, so you can
+use any irc client to connect to it.
+
+some of its features include support for multiple users, multiple clients,
+and multiple irc servers; playback buffers to catch up with what happened
+while you were detached, ssl encryption, dcc proxying, and a plugin
+interface with many plugins supporting other features.
+
+this package contains the debugging symbols of the znc package and his modules.

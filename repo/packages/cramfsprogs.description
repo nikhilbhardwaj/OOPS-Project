@@ -1,0 +1,7 @@
+Tools for cramfs (compressed rom file system)
+	
+this package contains tools that let you construct a cramfs
+(compressed rom file system) image from the contents of a given directory, as
+well as checking a constructed cramfs image and extracting its contents.
+
+cram file systems are used for debian initrd images.

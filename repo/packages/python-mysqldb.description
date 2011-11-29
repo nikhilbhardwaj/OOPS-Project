@@ -1,0 +1,13 @@
+A python interface to mysql
+	
+mysqldb is an interface to the popular mysql database server for
+python. the design goals are:
+
+
+ + compliance with python database api version 2.0
+ + thread-safety
+ + thread-friendliness (threads will not block each other)
+ + compatibility with mysql-3.23 and later
+
+
+this package contains modules for all python versions supported in debian.

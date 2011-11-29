@@ -1,0 +1,17 @@
+Event-based http/wsgi server
+	
+green unicorn (gunicorn) is an http/wsgi server designed to serve fast clients
+or sleepy applications. that is to say; behind a buffering front-end server
+such as nginx or lighttpd.
+
+
+ * optional support for eventlet, tornado and gevent to provide asynchronous
+   long-polling ("comet") connections.
+ * process management: gunicorn reaps and restarts workers that die.
+ * easy integration with django and paster compatible applications (pylons,
+   turbogears 2, etc.
+ * load balancing via pre-fork and a shared socket
+ * graceful worker process restarts
+ * upgrading without losing connections
+ * decode chunked transfers on-the-fly, allowing upload progress notifications
+   or stream-based protocols over http

@@ -1,0 +1,26 @@
+Load modules from a variable
+	
+this works exactly like the standard require in perl, except without
+the bareword restriction, and it does not die.  since require() is
+placed in the universal namespace, it will work on any module.  you
+just have to use universal::require somewhere in your code.
+
+if you have ever had to do this...
+
+
+   eval "require $module";
+
+
+to get around the bareword caveats on require(), this module is for
+you. it creates a universal require() class method that will work
+with every perl module and it is secure. so instead of doing some
+arcane eval() work, you can do this:
+
+
+   $module->require;
+
+
+it does not save you much typing, but it will make a lot more sense
+to someone who is not a ninth level perl acolyte.
+
+also provided is a use() method which works in a similar way.

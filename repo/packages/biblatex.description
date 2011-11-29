@@ -1,0 +1,11 @@
+Bibliographies for latex
+	
+the biblatex package is a complete reimplementation of the bibliographic
+facilities provided by latex in conjunction with bibtex. it redesigns the way
+in which latex interacts with bibtex at a fairly fundamental level. with
+biblatex, bibtex is only used to sort the bibliography and to generate labels.
+instead of being implemented in bibtex's style files, the formatting of the
+bibliography is entirely controlled by tex macros. good working knowledge in
+latex should be sufficient to design new bibliography and citation styles —
+there is no need to learn bibtex’s postfix stack language. just like the
+bibliography styles, all citation commands may be freely (re)defined.

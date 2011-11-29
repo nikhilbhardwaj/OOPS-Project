@@ -1,0 +1,28 @@
+Graphical user interface toolkit providing widgets for pygame
+	
+ocempgui is a small toolkit, which comes with various modules suitable for
+event management, user interfaces, 2d drawing and accessibility. it is nearly
+completely written in python and its drawing routines and user interface
+elements are created with and especially created for the pygame library.
+
+ocempgui enables you to enhance your python and/or pygame applications and
+games easily with graphical user interface elements such as buttons, entry
+boxes, scrolling abilities and more, simple event brokers or features, which
+enhance the program by adding accessibility to its objects.
+
+it can save you much time by providing a broad range of drawing routines and
+ready-to-use event capable object types. you can focus on the main tasks
+instead of taking care about needed low-level components, which are given to
+you with ocempgui.
+
+see http://ocemp.sourceforge.net/gui.html for more info.
+
+papi, the python accessibility programming interface, is a python wrapper
+around the gnome atk toolkit.
+
+it allows a developer to make python objects and applications easily
+accessibility aware without the need to install pygtk and the gnome
+accessibility components. instead it only depends on atk and - on the
+developers behalf - the atk/at-spi bridge whipped with at-spi.
+
+see http://ocemp.sourceforge.net/papi.html for more info.

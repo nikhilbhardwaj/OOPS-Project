@@ -1,0 +1,7 @@
+D-bus service for accessing cvs repositories
+	
+this package provides a d-bus service for browsing and manipulating
+remote cvs repositories.  applications may make use of it directly from
+c++, or access the service over d-bus.
+
+this package is part of the kde software development kit module.

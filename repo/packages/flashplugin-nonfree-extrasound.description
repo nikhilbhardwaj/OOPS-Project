@@ -1,0 +1,16 @@
+Adobe flash player platform support library for esound and oss
+	
+this is an open source extension library for the adobe flash player
+that enables support for otherwise unsupported sound systems.  it
+provides the libflashsupport.so plugin.  the sound system to use is
+automatically detected:
+
+
+ * it first tries to detect esound,
+ * next, it checks for oss.
+
+
+if all of the above failed, it falls back to the alsa driver that's
+built directly into flashplayer 9.
+
+for pulseaudio support, see flashplugin-nonfree-pulse.

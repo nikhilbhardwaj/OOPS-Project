@@ -1,0 +1,15 @@
+Collection of tools for scsi hardware management
+	
+this package is a collection of tools for manipulating scsi hardware:
+
+
+ scsiinfo: displays scsi drive low-level information and modifies scsi
+           drive settings,
+ scsidev: makes permanent scsi lun -> devicename connections,
+ scsifmt: low-level scsi formatter,
+ sraw: benchmarks raw scsi i/o rates bypassing the buffer cache,
+ scsi-spin: program to manually spin up and down a scsi device.
+
+
+beware that, to be used properly, these tools require some knowledge of
+what they're doing as they can cause damage to your system.

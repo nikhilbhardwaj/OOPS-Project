@@ -1,0 +1,6 @@
+Convert english text to numbers
+	
+a perl module that can parse a wide variety of english text
+and deduce the number it represents. for example, it can convert
+"five million, one thousand and sixteen" to 5001016, and
+"twenty-seventh" to 27.

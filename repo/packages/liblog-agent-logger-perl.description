@@ -1,0 +1,7 @@
+Extension for log::agent providing an application-level logging api
+	
+the log::agent::logger class defines a generic interface for
+application logging. it must not be confused with the interface
+provided by log::agent, which is meant to be used by re-usable
+modules that do not wish to commit on a particular logging method,
+so that they remain true building blocks.

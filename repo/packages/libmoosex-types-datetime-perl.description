@@ -1,0 +1,4 @@
+Perl datetime related constraints and coercions for moose
+	
+moosex::types::datetime packages several moose::util::typeconstraints with
+coercions, designed to work with the datetime suite of objects.

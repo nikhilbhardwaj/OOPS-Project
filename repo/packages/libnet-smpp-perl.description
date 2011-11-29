@@ -1,0 +1,6 @@
+Implementation of short message peer to peer protocol over tcp
+	
+net::smpp implements short message peer to peer protocol, which is frequently
+used to pass short messages between mobile operators implementing short
+message service (sms). this is applicable to both european gsm and american
+cdma/tdma systems.

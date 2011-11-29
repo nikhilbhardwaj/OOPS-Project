@@ -1,0 +1,11 @@
+Low-ceremony bug tracker for medium-sized projects under cvs
+	
+cvstrac implements a low-ceremony web-based bug and patch-set tracking system
+for use with cvs. features include automatic changelog generation, repository
+change history browsing, user-defined bug database queries, wiki pages, and
+web-based administration of the cvsroot/passwd file. cvstrac is a stand-alone
+c program that operates either as cgi or as its own web server.
+
+
+ author:   d. richard hipp <drh@hwaci.com>
+ homepage: http://www.cvstrac.org/

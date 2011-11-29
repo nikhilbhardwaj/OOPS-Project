@@ -1,0 +1,6 @@
+Module to monitor files for changes
+	
+file::changenotify is a perl module that provides a way to monitor files for
+changes in an efficient and cross-platform manner. developers can override
+the default mechanism by subclassing the included file::changenotify::watcher
+module, allowing for platform-specific optimizations.

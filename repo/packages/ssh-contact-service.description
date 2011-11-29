@@ -1,0 +1,7 @@
+Establish ssh connections to your im contacts using telepathy (server)
+	
+ssh-contact is a client/service tool that makes easy to connect your telepathy
+im contacts via ssh. no need to care about dynamic ip, nat, port forwarding
+or firewalls anymore; if you can chat with a friend, you can also ssh him.
+
+this package contains the server side of ssh-contact.

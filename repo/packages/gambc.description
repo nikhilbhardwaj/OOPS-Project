@@ -1,0 +1,10 @@
+Gambit-c scheme interpreter and compiler
+	
+the gambc package includes a scheme interpreter and a scheme compiler which
+can be used to build standalone executables. the thread system is very
+efficient and can support millions of concurrent processes.
+
+the gambit-c system conforms to the r4rs, r5rs and ieee scheme standards. the
+full numeric tower is implemented, including: infinite precision integers
+(bignums), rationals, inexact reals (floating point numbers), and complex
+numbers.  gambit-c supports a number of extensions to the standards.

@@ -1,0 +1,9 @@
+Displays a graph detailing memory usage of each process
+	
+gmemusage is a graphical program modelled after the silicon graphics inc.
+program of the same name. gmemusage displays a window with a stacked bar.
+areas on the bar correspond to individual processes running on the system
+and are updated periodically. multiple copies of the same program
+(actually, programs with the same name) are merged into one area on the
+stack. sizes of areas in the stack correspond to resident sizes of the
+processes.

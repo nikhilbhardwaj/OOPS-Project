@@ -1,0 +1,9 @@
+Very small, efficient, console-only getty and login
+	
+fgetty is a small, efficient, console-only getty for linux.  it is derived
+from mingetty but hacked until it would link against diet libc to produce
+the smallest memory footprint possible for a simple yet complete getty.
+
+fgetty includes a login program that supports the checkpassword
+authentication interface, and also a checkpassword program that uses the
+standard c library interface to passwd and shadow.

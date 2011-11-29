@@ -1,0 +1,7 @@
+Mro::* interface compatibility for perls < 5.9.5
+	
+the "mro" namespace provides several utilities for dealing with method
+resolution order and method caching in general in perl 5.9.5 and higher.
+
+mro::compat provides those interfaces for earlier versions of perl
+(back to 5.6.0 anyways).

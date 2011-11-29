@@ -1,0 +1,11 @@
+Off-line html generation toolkit
+	
+wml (website meta language) is a free and extensible webdesigner's
+off-line html generation toolkit for unix.  wml consists of a control
+frontend driving up to nine backends in a sequential pass-oriented
+filtering scheme. each backend provides one particular core language.
+for maximum power wml additionally ships with a well-suited set of
+include files which provide higher-level features build on top of the
+backends core languages. while not trivial and idiot proof wml provides
+most of the core features real hackers always wanted for html
+generation.

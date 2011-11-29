@@ -1,0 +1,12 @@
+Mail retriever with support for pop3, imap4 and sdps
+	
+getmail is intended as a simple replacement for fetchmail.
+it retrieves mail (either all messages, or only unread messages)
+from one or more pop3/imap4/sdps servers for one or more email
+accounts, and reliably delivers into a qmail-style maildir, mbox
+file or to a command (pipe delivery) like maildrop or procmail,
+specified on a per-account basis. getmail also has support for
+domain (multidrop) mailboxes.
+
+supported protocols:
+pop3, pop3-over-ssl, imap4, imap4-over-ssl, and sdps mail.

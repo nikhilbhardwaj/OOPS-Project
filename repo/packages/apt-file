@@ -1,0 +1,4 @@
+PackageId:443
+Name:apt-file
+Version:2.4.0
+Deps:curl,libapt-pkg-perl,libconfig-file-perl,libfile-temp-perl,perl-modules,liblist-moreutils-perl,libregexp-assemble-perl,perl

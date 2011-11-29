@@ -1,0 +1,17 @@
+Genome-scale comparison of biological sequences
+	
+last is software for comparing and aligning sequences, typically dna or
+protein sequences. last is similar to blast, but it copes better with very
+large amounts of sequence data. here are two things last is good at:
+
+
+ * comparing large (e.g. mammalian) genomes.
+ * mapping lots of sequence tags onto a genome.
+
+
+the main technical innovation is that last finds initial matches based on
+their multiplicity, instead of using a fixed size (e.g. blast uses 11-mers).
+this allows to map tags to genomes without repeat-masking, without becoming
+overwhelmed by repetitive hits. to find these variable-sized matches, it uses
+a suffix array (inspired by vmatch). to achieve high sensitivity, it uses a
+discontiguous suffix array, analogous to spaced seeds.

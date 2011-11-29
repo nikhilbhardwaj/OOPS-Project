@@ -1,0 +1,5 @@
+Class::dbi plugin to determine type information for table columns
+	
+the class::dbi::plugin::type module allows class::dbi-based classes to
+query their columns for data type information in a database-independent
+manner.

@@ -1,0 +1,19 @@
+Driver module that encapsulates the details of formatting a latex document
+	
+the latex::driver module encapsulates the details of invoking the latex
+programs to format a latex document. formatting with latex is complicated;
+there are potentially many programs to run and the output of those programs
+must be monitored to determine whether further processing is required.
+
+latex::driver runs the required commands in the directory specified, either
+explicitly with the dirname option or implicitly by the directory part of
+basename, or in the current directory. as a result of the processing up to a
+dozen or more intermediate files are created. these can be removed with the
+cleanup method.
+
+the latex::driver module takes care of running and re-running latex on
+a latex document so that forward references, tables of contents, and
+lists of figures and tables are resolved.  it will also run bibtex and
+makeindex if it detects that a bibliography or in index have been
+specified, and will re-run latex again one or more times until the
+formatting of the document has stabilized.

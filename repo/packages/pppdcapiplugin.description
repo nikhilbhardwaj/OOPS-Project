@@ -1,0 +1,7 @@
+Isdn utilities - pppd plug-in for capi support
+	
+some isdn cards can be used by capi utilities - for instance the avm
+passive cards, when a module from the avm website is loaded.
+
+this package provides a plug-in for the regular ppp daemon to use capi
+on such cards.

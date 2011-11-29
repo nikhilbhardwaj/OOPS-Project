@@ -1,0 +1,9 @@
+Tao load balancing service
+	
+tao implementation of omg load balancing and monitoring
+specification.
+
+this package provides:
+
+ * loadmanager, that distributes loads across objects
+ * loadmonitor, that monitors and reports loads to a manager

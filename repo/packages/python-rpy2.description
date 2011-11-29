@@ -1,0 +1,6 @@
+Python interface to the gnu r language and environment (version 2)
+	
+this debian package provides rpy2, a very simple yet robust python interface
+to the gnu r programming language. it can manage different types of r objects,
+and can execute arbitrary r functions, including graphic functions.
+rpy2 is a rewrite and extension of the older rpy interface.

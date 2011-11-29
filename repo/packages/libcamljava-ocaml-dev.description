@@ -1,0 +1,19 @@
+Interface between ocaml and java via caml/c interface and jni
+	
+camljava is an interface between ocaml and java allowing programs written in
+one of the two languages to call code written in the other.
+
+interaction among the two languages happen via the respective c interfaces:
+caml/c interface for ocaml and jni (java native interface) for java.
+
+currently, camljava provides a low-level, weakly-typed ocaml interface very
+similar to the jni. java object references are mapped to an abstract type, and
+various jni-like operations are provided to allow java method invocation,
+field access, and more.
+
+a basic callback facility (allowing java code to invoke methods on ocaml
+objects) is also provided, although some stub java code must be written by
+hand.
+
+this package contain all the development stuff needed to use camljava from
+ocaml programs.

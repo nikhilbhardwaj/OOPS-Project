@@ -1,0 +1,15 @@
+Xbase compatible c++ class library
+	
+xdb is an xbase (i.e. dbase, foxpro, etc.) compatible c++ class library
+originally based on the xbase library (version 1.8.1) by gary kunkel and
+others (see the authors file).
+
+xdb was forked off from the xbase library because the original authors
+are busy working on other things and we wanted to make our changes and
+bugfixes available to others who might be interested.
+
+xdb is useful for accessing data in legacy dbase 3 and 4 database files as
+well as a general light-weight database engine.  it includes support for
+dbf (dbase version 3 and 4) data files, ndx and ntx indexes, and dbt
+(dbase version 3 and 4).  it supports file and record locking under *nix
+os's (we hope to fix the locking support under win32 soon).

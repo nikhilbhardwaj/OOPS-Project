@@ -1,0 +1,13 @@
+Efficient sequence alignment of full genomes
+	
+mummer is a system for rapidly aligning entire genomes, whether
+in complete or draft form. for example, mummer 3.0 can find all
+20-basepair or longer exact matches between a pair of 5-megabase genomes
+in 13.7 seconds, using 78 mb of memory, on a 2.4 ghz linux desktop
+computer. mummer can also align incomplete genomes; it handles the 100s
+or 1000s of contigs from a shotgun sequencing project with ease, and
+will align them to another set of contigs or a genome using the nucmer
+program included with the system. if the species are too divergent for
+dna sequence alignment to detect similarity, then the promer program
+can generate alignments based upon the six-frame translations of both
+input sequences.

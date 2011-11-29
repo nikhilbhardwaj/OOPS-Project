@@ -1,0 +1,15 @@
+Keyboard focused web browser with emacs look and feel
+	
+conkeror is a highly-programmable web browser based on mozilla
+xulrunner. it has a sophisticated keyboard system for running
+commands and interacting with web page content, modelled after emacs
+and lynx. it is self-documenting and extensible with javascript.
+
+it comes with builtin support for several web 2.0 sites like several
+google services (search, gmail, maps, reader, etc.), del.icio.us,
+reddit, last.fm and youtube. for easier editing of form fields, it
+can spawn external editors. for this feature the recommended
+conkeror-spawn-process-helper package needs to be installed.
+
+despite its very similar sounding name, conkeror is not related to
+the kde web browser and file manager konqueror in any way.

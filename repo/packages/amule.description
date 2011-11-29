@@ -1,0 +1,20 @@
+Client for the ed2k and kad networks, like emule
+	
+amule is a peer-to-peer file sharing application, designed to connect
+to the edonkey and kad networks. it has a wide range of features,
+including many of the original emule client, like:
+
+
+ * online signature, source exchange, compressed transfers, secure
+   identification, and ip filter support
+ * boolean search, which can be local, global, or in the kad network
+ * checks against aggressive clients
+ * slot allocation, to decide the number of remote clients
+ * systray works well both in gnome and kde
+ * translations to many languages
+
+
+a daemonized version of the application that does not need a graphic
+environment to run is available in the amule-daemon package, and
+various utilities of interest can be found in the amule-utils and
+amule-utils-gui packages, including the ed2k link handler.

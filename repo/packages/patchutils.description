@@ -1,0 +1,16 @@
+Utilities to work with patches
+	
+this package includes the following utilities:
+
+ - combinediff creates a cumulative patch from two incremental patches
+ - dehtmldiff extracts a diff from an html page
+ - filterdiff extracts or excludes diffs from a diff file
+ - fixcvsdiff fixes diff files created by cvs that "patch" mis-interprets
+ - flipdiff exchanges the order of two patches
+ - grepdiff shows which files are modified by a patch matching a regex
+ - interdiff shows differences between two unified diff files
+ - lsdiff shows which files are modified by a patch
+ - recountdiff recomputes counts and offsets in unified context diffs
+ - rediff and editdiff fix offsets and counts of a hand-edited diff
+ - splitdiff separates out incremental patches
+ - unwrapdiff demangles patches that have been word-wrapped

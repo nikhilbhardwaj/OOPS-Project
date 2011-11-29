@@ -1,0 +1,9 @@
+A keyed-hash message authentication code (hmac) library for ruby
+	
+this library provides hmac functionality with ruby. hmac is a type of "message
+authentication code" (mac) algorithm documented in rfc2104, which is used to
+verify integrity of data transmitted over or stored in unreliable medium,
+based on a secret key.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8.x).

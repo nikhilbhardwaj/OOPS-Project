@@ -1,0 +1,17 @@
+Text::unidecode -- us-ascii transliterations of unicode text
+	
+it often happens that you have non-roman text data in unicode, but
+you can't display it -- usually because you're trying to
+show it to a user via an application that doesn't support unicode,
+or because the fonts you need aren't accessible.  you could
+represent the unicode characters as "???????" or
+"\15ba\15a0\1610...", but that's nearly useless to the user who
+actually wants to read what the text says.
+
+what text::unidecode provides is a function, unidecode(...) that
+takes unicode data and tries to represent it in us-ascii characters
+(i.e., the universally displayable characters between 0x00 and
+0x7f).  the representation is
+almost always an attempt at transliteration -- i.e., conveying,
+in roman letters, the pronunciation expressed by the text in
+some other writing system.  (see the example in the synopsis.)

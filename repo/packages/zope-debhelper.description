@@ -1,0 +1,4 @@
+Debhelper script for zope packaging
+	
+the package contains dh_installzope and dh_installzopeinstance debhelper
+scripts used for zope packaging tasks.

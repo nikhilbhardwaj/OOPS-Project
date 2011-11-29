@@ -1,0 +1,10 @@
+Mule enterprise service bus java libraries
+	
+mule comprises an infrastructure for java applications to communicate,
+referred to as a bus. it also gives the applications an address to
+be contacted.  at this stage of the development of the packaging,
+all sub-components are together in a single binary.
+
+amongst others, this package contains base libraries which comprise the
+core functionality of the mule esb.  these can be used to configure,
+bootstrap, manage and run the service bus.

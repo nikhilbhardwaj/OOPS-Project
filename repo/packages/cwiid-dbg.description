@@ -1,0 +1,9 @@
+Library to interface with the wiimote -- debug files
+	
+cwiid is a working userspace driver along with various
+applications implementing event drivers, multiple wiimote
+connectivity, gesture recognition, and other wiimote-based
+functionality.
+
+this package provides the debug symbols needed to debug programs
+using cwiid.

@@ -1,0 +1,8 @@
+Perl module providing authentication using the bitcard service
+	
+authen::bitcard is an implementation of verification for signatures generated
+by bitcard authentication. for information on the bitcard protocol and using
+bitcard in other applications, see <url:http://www.bitcard.org/api>
+
+the module and the protocol are heavily based on authen::typekey. (in fact,
+the bitcard authentication server also supports the typekey api!)

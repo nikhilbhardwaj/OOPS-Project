@@ -1,0 +1,11 @@
+Plugins and extras for anjuta
+	
+anjuta-extras contain a set of plugins for anjuta, gnome development ide.
+
+the following plugins are included:
+
+ * scintilla editor: an alternate editor based on scintilla
+ * profiler: application performance profiler
+ * scratchbox: change build commands to use scratchbox 1 or 2
+ * sample plugin: sample plugin for anjuta.
+ * valgrind plugin: powerful debugging tool.

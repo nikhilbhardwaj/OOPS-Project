@@ -1,0 +1,12 @@
+Just another gibbs sampler for bayesian mcmc simulation
+	
+jags is just another gibbs sampler.  it is a program for analysis of
+bayesian hierarchical models using markov chain monte carlo (mcmc)
+simulation  not wholly unlike bugs.
+
+jags was written with three aims in mind:
+
+ * to have an engine for the bugs language that runs on unix
+ * to be extensible, allowing users to write their own functions,
+   distributions and samplers.
+ * to be a plaftorm for experimentation with ideas in bayesian modelling

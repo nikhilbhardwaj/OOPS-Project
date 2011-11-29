@@ -1,0 +1,16 @@
+Logging, unittesting, and runtime diagnostics for c++ - library
+	
+diagnostics is a unified framework for code annotation, logging,
+program monitoring, and unit-testing.
+
+the annotations of diagnostics provide simple trace messages, tracing
+method entry and exit, checks (which potentially fail), asserts (which
+should never fail), invariance checking on method entry and exit, and
+a number of annotations for testing.
+
+the annotations raise events which are can be observed and monitored.
+using different loggers, the stream of logging events is used for
+logging or testing.
+
+the package contains the libraries for running software linked against
+diagnostics.

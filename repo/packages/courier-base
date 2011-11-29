@@ -1,0 +1,4 @@
+PackageId:2313
+Name:courier-base
+Version:0.65.0-3
+Deps:courier-authdaemon,courier-authlib,courier-authlib-userdb,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libfam0,libgamin0,libgcc1,libgdbm3,lsb-base,perl

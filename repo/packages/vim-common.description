@@ -1,0 +1,12 @@
+Vi improved - common files
+	
+vim is an almost compatible version of the unix editor vi.
+
+many new features have been added: multi level undo, syntax
+highlighting, command line history, on-line help, filename
+completion, block operations, folding, unicode support, etc.
+
+this package contains files shared by all non gui-enabled vim
+variants (vim and vim-tiny currently) available in debian.
+examples of such shared files are: manpages, common executables
+like xxd, and configuration files.

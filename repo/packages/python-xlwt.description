@@ -1,0 +1,7 @@
+Module for reading/writing microsoft excel spreadsheet files
+	
+xlwt is a python module for generating .xls spreadsheet files compatible with
+excel 97/2000/xp/2003, openoffice.org calc, and gnumeric. excel spreadsheets
+can be generated on any platform without needing excel or a com server. the
+only requirement is python 2.3 to 2.6. xlwt is a fork of the unmaintained
+pyexcelerator.

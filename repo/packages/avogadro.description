@@ -1,0 +1,20 @@
+Molecular graphics and modelling system
+	
+avogadro is a molecular graphics and modelling system targetted at molecules
+and biomolecules.  it can visualize properties like molecular orbitals or
+electrostatic potentials and features an intuitive molecular builder.
+
+features include:
+
+ * molecular modeller with automatic force-field based geometry optimization
+ * molecular mechanics including constraints and conformer searches
+ * visualization of molecular orbitals and general isosurfaces
+ * visualization of vibrations and plotting of vibrational spectra
+ * support for crystallographic unit cells
+ * input generation for the gaussian, gamess and molpro quantum chemistry
+   packages
+ * flexible plugin architecture and python scripting
+
+
+file formats avogadro can read include pdb, xyz, cml, cif, molden, as well as
+gaussian, gamess and molpro output.

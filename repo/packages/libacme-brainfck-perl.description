@@ -1,0 +1,10 @@
+Embed brainf*ck in your perl code
+	
+brainf*ck (yes, there is a u there.) is about the tiniest turing-complete
+programming language you can get.  a language is turing-complete if it can
+model the operations of a turing machine--an abstract model of a computer
+defined by the british mathematician alan turing in 1936.  a turing machine
+consists only of an endless sequence of memory cells and a pointer to one
+particular memory cell.  yet it is theoretically capable of performing any
+computation.  this module will allow you to mix brainf*ck with your
+perl code.

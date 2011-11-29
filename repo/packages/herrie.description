@@ -1,0 +1,13 @@
+Minimalistic audio player built upon ncurses
+	
+herrie is a minimalistic music player that uses the command line. it is
+written to support a variety of operating systems, audio subsystems and
+file formats, including playlists.
+
+herrie has a split-screen user interface, with a playlist at the top of
+the screen and a file browser at the bottom. when tracks are added to
+the playlist, herrie automatically consumes them one by one. it is thus
+an application that allows you to batch music for playback.
+
+herrie also has some more exotic features, including support for
+audioscrobbler and the ability to chroot() itself into a directory.

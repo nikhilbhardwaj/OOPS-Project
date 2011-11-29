@@ -1,0 +1,10 @@
+Documentation for omake
+	
+omake is a build system designed to scale from small projects to very
+large projects spanning many directories. omake uses a syntax similar
+to gnu make, with many additional features.  it contains
+specifications for easily building c, ocaml, and latex programs, but
+can be used to build projects with other languages as well.
+
+this package contains documentation for omake in html and pdf
+formats.

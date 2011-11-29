@@ -1,0 +1,5 @@
+Common lisp rss processor
+	
+this package provides a common lisp library for fetching and parsing
+remote site summary data via http. currently, it supports rss versions
+0.90, 0.91, and 0.92.

@@ -1,0 +1,9 @@
+Dahdi non-free firmware
+	
+dahdi (formly zaptel) is an interface for telephony devices used by e.g.
+the asterisk pbx software. the dahdi-* packages provide the kernel
+dahdi kernel modules and their required setup environment.
+
+this package includes the non-free firmwares from the dahdi tarball
+as well as downloading script for the digium firmwares that are normally
+downloaded on 'make install'.

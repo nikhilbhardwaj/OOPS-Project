@@ -1,0 +1,9 @@
+Text presentation program
+	
+tpp stands for text presentation program and is an ncurses-based presentation
+tool. the presentation can be written with your favorite editor in a simple
+description format and then shown on any text terminal that is supported by
+ncurses - ranging from an old vt100 to the linux framebuffer to an xterm.
+
+it supports color, latex output of presentation, sliding in text,
+a command prompt and additional cool features.

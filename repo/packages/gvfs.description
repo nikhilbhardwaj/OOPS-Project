@@ -1,0 +1,10 @@
+Userspace virtual filesystem - server
+	
+gvfs is a userspace virtual filesystem where mount runs as a separate
+processes which you talk to via d-bus. it also contains a gio module
+that seamlessly adds gvfs support to all applications using the gio
+api. it also supports exposing the gvfs mounts to non-gio applications
+using fuse.
+
+this package contains the gvfs server that provides gvfs mounts to all
+gio applications, and the minimal set of backends.

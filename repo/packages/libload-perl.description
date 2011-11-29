@@ -1,0 +1,22 @@
+Control when subroutines will be loaded
+	
+the "load" pragma allows a module developer to give the application developer
+more options with regards to optimize for memory or cpu usage. the "load"
+pragma gives more control on the moment when subroutines are loaded and start
+taking up memory. this allows the application developer to optimize for cpu
+usage (by loading all of a module at compile time and thus reducing the
+amount of cpu used during the execution of an application). or allow the
+application developer to optimize for memory usage, by loading subroutines
+only when they are actually needed, thereby however increasing the amount of
+cpu needed during execution.
+
+the "load" pragma combines the best of both worlds from autoloader and
+selfloader. and adds some more features.
+
+in a situation where you want to use as little memory as possible, the "load"
+pragma (in the context of a module) is a drop-in replacement for autoloader.
+but for situations where you want to have a module load everything it could
+ever possibly need (e.g. when starting a mod_perl server in pre-fork mode),
+the "load" pragma can be used (in the context of an application) to have all
+subroutines of a module loaded without having to make any change to the
+source of the module in question.

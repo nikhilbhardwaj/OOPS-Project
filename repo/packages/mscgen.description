@@ -1,0 +1,12 @@
+Message sequence chart (msc) generator
+	
+mscgen is a small program that parses message sequence chart
+descriptions and produces png, svg, eps or server side image
+maps (ismaps) as the output. message sequence charts (mscs)
+are a way of representing entities and interactions over some
+time period and are often used in combination with sdl. mscs
+are popular in telecoms to specify how protocols operate.
+
+mscgen can be used to create in-line msc-charts in documentations
+parsed by doxygen. extensions also exists for python's sphinx and
+mediawiki that can use mscgen.

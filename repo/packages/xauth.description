@@ -1,0 +1,5 @@
+X authentication utility
+	
+xauth is a small utility to read and manipulate xauthority files, which
+are used by servers and clients alike to control authentication and access
+to x sessions.

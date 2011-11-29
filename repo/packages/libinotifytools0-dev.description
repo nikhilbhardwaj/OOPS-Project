@@ -1,0 +1,9 @@
+Development library and header files for libinotifytools0
+	
+headers, static libraries, and documentation for the libinotifytools
+library.
+
+libinotifytools is a thin layer on top of the kernel interface which makes it
+easy to set up watches on many files at once, read events without having to
+deal with low-level i/o, and several utility functions for inotify-related
+string formatting

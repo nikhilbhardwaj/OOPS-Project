@@ -1,0 +1,10 @@
+Avahi browsing, publishing and discovery utilities
+	
+avahi is a fully lgpl framework for multicast dns service discovery.
+it allows programs to publish and discover services and hosts
+running on a local network with no specific configuration.  for
+example you can plug into a network and instantly find printers to
+print to, files to look at and people to talk to.
+
+this package contains several utilities that allow you to interact with
+the avahi daemon, including publish, browsing and discovering services.

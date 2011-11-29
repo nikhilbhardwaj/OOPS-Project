@@ -1,0 +1,9 @@
+Tools for manipulating msdos files
+	
+mtools is a collection of utilities to access ms-dos disks from unix
+without mounting them. it supports win'95 style long file names, os/2
+xdf disks, zip/jaz disks and 2m disks (store up to 1992kb on a high
+density 3 1/2 disk).
+
+also included in this package are commands to eject and manipulate
+the write/password protection control of zip disks.

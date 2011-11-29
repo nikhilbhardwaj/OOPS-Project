@@ -1,0 +1,11 @@
+An x11 jigsaw puzzle
+	
+xjig is a puzzle that tries to replicate a jigsaw puzzle on the screen
+as closely as possible. any gif, jpeg or ppm image may be loaded and cut
+into pieces. the goal (as with any jigsaw puzzle) is to reassemble the
+original picture.
+
+tiles may be freely rotated by use of the mouse, flipped (for
+double-sided puzzles) and even shown as shaped windows on the desktop
+(fast machine/video card recommended for the latter!). an example image
+is provided in /usr/share/games/xjig .

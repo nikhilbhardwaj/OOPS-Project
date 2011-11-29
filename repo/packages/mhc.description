@@ -1,0 +1,17 @@
+Schedule management tool for emacsen
+	
+mhc (message harmonized calendaring system) is a personal schedule
+management system, that is designed to help those who receive most
+appointments via email.
+
+mhc has the following features:
+
+ - you can easily import schedule articles from emails.
+ - simple data structure; schedule articles are stored in the same form
+   of mh that allows you to manipulate stored data in many ways.
+ - powerful but simple expression of appointments.
+
+
+this package provides mhc.el which cooperates with an emacsen mailer,
+gnus, mew, wanderlust or cmail.  non elisp (command line/gui) utilities
+are provided by the mhc-utils package.

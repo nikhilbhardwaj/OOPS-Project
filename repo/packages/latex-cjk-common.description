@@ -1,0 +1,12 @@
+Latex macro package for cjk (chinese/japanese/korean)
+	
+cjk is a macro package for latex to enable typesetting in chinese,
+japanese, korean and thai, and it supports vietnamese through the
+"vntex" macro.  and you can still use russian, greek and other
+languages in the same document.
+it supports various cjk encodings, like utf-8, big5, gb, jis, ks,
+cns (through cef) and emacs mule.
+
+this package will install the common files, as well as a few
+gnu/emacs lisp files, and it provides support for furigana
+("ruby text") and pinyin, either with or without tone marks.

@@ -1,0 +1,9 @@
+Apache module for running server-side neko programs
+	
+neko provides a common runtime for several different languages,
+including javascript and haxe.
+
+this package includes a module for apache 2 so that you can
+dynamically generate server-side web pages from apache.
+
+neko was written by nicolas cannasse.

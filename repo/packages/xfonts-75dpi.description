@@ -1,0 +1,17 @@
+75 dpi fonts for x
+	
+xfonts-75dpi provides a set of bitmapped fonts at 75 dots per inch.  in
+most cases it is desirable to have the x font server (xfs) and/or an x server
+installed to make the fonts available to x clients.
+
+this package contains only fonts in the iso 10646-1 and iso 8859-1
+encodings, to conserve disk space.  for other encodings, see the
+xfonts-75dpi-transcoded package.
+
+this package and xfonts-100dpi provide the same set of fonts, rendered at
+different resolutions; only one or the other is necessary, but both may be
+installed.  xfonts-75dpi may be more suitable for small monitors and/or
+small screen resolutions (under 1024x768).
+
+this package requires the xfonts-utils package to prepare the font
+directories for use by an x server or x font server.

@@ -1,0 +1,13 @@
+Gtk2 widget to control volume and similar values
+	
+gtk2::ex::volumebutton is a simple gtk2 widget based on
+gtk2::togglebutton to control the volume and similar values. it
+consists of a gtk2::togglebutton widget displaying an image
+representing the current volume. when the button is clicked a popup
+window containing a gtk2::vscale widget shows up and allows you to
+change the widgets volume value. it's also possible to change the
+volume using the scroll wheel over the toggle button even if the popup
+window isn't shown.
+
+this widget is modeled after the widgets use in gnome-panel, muine and
+rhythmbox. much code is stolen from the muine volume-button widget.

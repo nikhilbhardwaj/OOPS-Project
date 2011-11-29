@@ -1,0 +1,4 @@
+Apt https transport
+	
+this package contains a apt https transport. it makes it possible to
+use 'deb https://foo distro main' lines in the sources.list.

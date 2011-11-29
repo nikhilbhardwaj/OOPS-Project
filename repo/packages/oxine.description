@@ -1,0 +1,7 @@
+Xine osd (on screen display) gui
+	
+oxine is a lightweight, purely osd-based xine frontend for set-top boxes and
+home entertainment systems. it uses the on screen display functionality of xine
+to display its user interface elements like buttons, lists, sliders, and so on.
+due to this, oxine can easily use any video output device the xine library
+provides.

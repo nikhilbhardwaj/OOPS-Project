@@ -1,0 +1,11 @@
+Portable framework for opengl application development
+	
+glfw is a free, open source, framework for opengl application
+development. in short, it is a single library providing a powerful, portable
+api for otherwise operating system specific tasks such as opening an opengl
+window, and reading keyboard, time, mouse and joystick input.
+
+it also provides functions accessing opengl extensions, creating and
+synchronizing threads and reading textures from files.
+
+this package provides the shared libraries.

@@ -1,0 +1,7 @@
+Ruby client for http://del.icio.us xml api
+	
+www::delicious is a ruby client for http://del.icio.us xml api.
+it provides both read and write functionality. you can read user posts, tags
+and bundles but you can create new posts, tags and bundles as well.
+
+metapackage for libwww-delicious-ruby1.8

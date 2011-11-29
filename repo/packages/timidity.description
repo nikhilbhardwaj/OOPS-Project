@@ -1,0 +1,21 @@
+Software sound renderer (midi sequencer, mod player)
+	
+timidity++ is a very high quality software-only midi sequencer and mod player.
+it uses sound fonts (gus-compatible or sf2-compatible) to render midi files,
+which are not included in this package.
+
+
+  * plays midi files without any external midi instruments at all
+  * understands smf, rcp/r36/g18/g36, mfi, rmi (midi)
+  * autodetects and supports gm/gs/xg midi
+  * understands mod, xm, s3m, it, 699, amf, dsm, far, gdm,
+    imf, med, mtm, stm, stx, ult, uni (mod)
+  * does mod to midi conversion (including playback)
+  * outputs audio into various audio file formats: wav, au, aiff,
+    ogg (vorbis, flac, speex)
+  * supports nas, esound, jack, alsa and oss drivers
+  * uses gravis ultrasound compatible patch files and soundfont2 patch
+    files as the voice data for midi instruments
+  * supports playing from archives (zip, lzh, tar...) and playing remote
+    data from the network
+  * timidity++ can be used as an alsa sequencer device

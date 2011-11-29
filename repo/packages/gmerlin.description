@@ -1,0 +1,22 @@
+A multiformat media player
+	
+a multiformat media player with tree-like virtual directory structure,
+where you can save your files, webstreams or whatever. gmerlin handles even
+large media collections gracefully. hardware devices appear also in the
+tree so you can open audio-cds, (s)vcds, dvds and dvb-broadcasts.
+
+the applications include
+
+
+ o the gui player: a multiformat media player with tree-like virtual
+   directory structure, where you can save your files, webstreams or
+   whatever. gmerlin handles even large media collections gracefully.
+   hardware devices appear also in the tree so you can open audio-cds,
+   (s)vcds, dvds and dvb-broadcasts.
+ o gmerlin transcoder: feature rich transcoder, which supports audio,
+   video, subtitles and chapters.
+ o gmerlin alsamixer: an alsa mixer with support for multiple cards and
+   detachable mixer controls.
+ o gmerlin visualizer: run visualization plugins from your soundcard
+ o plugin configurator: configure gmerlin plugins for programs which can't
+   do this themselves.

@@ -1,0 +1,8 @@
+Fixed-width fonts for dos encodings
+	
+these are nice fixed-width fonts in various dos encodings.  they are
+mostly suitable for use in dosemu, but can be used also in
+terminals, editors, etc.
+
+this package supports the following code-pages: cp437, cp850, cp852,
+cp855, cp860, cp863, cp865, cp866, mik and ruscii.

@@ -1,0 +1,33 @@
+A utility for monitoring and managing daemons or similar programs
+	
+monit is a utility for monitoring and managing daemons or similar
+programs running on a unix system. it will start specified programs
+if they are not running and restart programs not responding.
+
+monit supports:
+
+ * daemon mode - poll programs at a specified interval
+ * monitoring modes - active, passive or manual
+ * start, stop and restart of programs
+ * group and manage groups of programs
+ * process dependency definition
+ * logging to syslog or own logfile
+ * configuration - comprehensive controlfile
+ * runtime and tcp/ip port checking (tcp and udp)
+ * ssl support for port checking
+ * unix domain socket checking
+ * process status and process timeout
+ * process cpu usage
+ * process memory usage
+ * process zombie check
+ * check the systems load average
+ * check a file or directory timestamp
+ * alert, stop or restart a process based on its characteristics
+ * md5 checksum for programs started and stopped by monit
+ * alert notification for program timeout, restart, checksum, stop
+   resource and timestamp error
+ * flexible and customizable email alert messages
+ * protocol verification. http, ftp, smtp, pop, imap, nntp, ssh, dwp,
+   ldapv2 and ldapv3
+ * an http interface with optional ssl support to make monit
+   accessible from a webbrowser

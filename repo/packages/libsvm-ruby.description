@@ -1,0 +1,9 @@
+Ruby bindings for libsvm library (dummy package)
+	
+this is a ruby binding for the popular and efficient libsvm learning package.
+the libsvm library implements the smo heuristic speedup for svm training.
+ruby provides the ease of use and applied mathematics provides the speed in
+this exciting scientific software.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

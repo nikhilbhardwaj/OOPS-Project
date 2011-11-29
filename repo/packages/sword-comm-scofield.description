@@ -1,0 +1,9 @@
+Scofield reference notes, 1917 edition for sword
+	
+scofield reference notes, 1917 edition based on the version at
+http://bible.crosswalk.com/ with formatting changes and corrections.
+
+this package requires a libsword version of at least 1.5.1a to access
+through a sword front end.  however, this is not declared as a dependency
+because you may have occasion to install just the text without any sort
+of front end or other interface.

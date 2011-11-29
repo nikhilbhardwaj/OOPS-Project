@@ -1,0 +1,8 @@
+Display information about pending events on login
+	
+given a list of the dates of various different events, works out and
+displays a list of those which will come up in the next couple of
+weeks. this was originally designed for birthdays, but can equally be
+used for reminders about yearly events, or for a running diary.
+
+note that if you want to use vcf2birthday script you will need perl.

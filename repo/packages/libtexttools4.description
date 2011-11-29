@@ -1,0 +1,10 @@
+Ada and c++ library for writing console applications: shared library
+	
+the texttools packages are a gpl, ncurses-based library for the linux
+console.  texttools contain more than 600 procedures and functions to
+create windows, draw scroll bars, handle the mouse and keyboard
+events, play sounds, and much more.  the texttools package also
+provides a thick binding to linux kernel calls.  you can create a wide
+variety of application programs using texttools alone.
+
+this package contains the runtime shared library.

@@ -1,0 +1,11 @@
+Luabind c++ binding for lua: unstripped binaries
+	
+luabind is a library that helps you create bindings between c++ and lua.
+it has the ability to expose functions and classes, written in c++, to
+lua. it will also supply the functionality to define classes in lua and
+let them derive from other lua classes or c++ classes. lua classes can
+override virtual functions from their c++ baseclasses. it is written
+towards lua 5.0, and does not work with lua other lua versions.
+
+this package contains the luabind unstripped binaries, for debugging
+applications developed with luabind.

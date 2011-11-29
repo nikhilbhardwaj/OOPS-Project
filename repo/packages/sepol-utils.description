@@ -1,0 +1,10 @@
+Security enhanced linux policy utility programs
+	
+this package provides a utility for a security-enhanced
+linux system to rewrite existing mandatory access control policy with
+different boolean setting, generating a new policy. security-enhanced
+linux is a patch of the linux kernel and a number of utilities with
+enhanced security functionality designed to add mandatory access
+controls to linux. this package provides utility programs to get and
+set process and file security contexts and to obtain security policy
+decisions.

@@ -1,0 +1,8 @@
+Make rapi calls to a window mobile device, library tools
+	
+librapi2 is equivalent to rapi.dll on a window machine. it allows you to
+make remote calls to your window mobile device.
+
+this package contains tools that use librapi2 to talk to a windows mobile
+device to perform various functions. many of these are simply remote
+versions of standard unix file utilities.

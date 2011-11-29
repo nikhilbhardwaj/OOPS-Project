@@ -1,0 +1,9 @@
+Fte quakec compiler
+	
+fteqcc compiles quakec source code to binary, platform-independent
+code that quake based engines can interpret. quakec is the language
+that quake game logic is developed in and is used for developing
+modifications.
+
+fte qcc supports quake1, quakeworld, hexen2 and fte quake, 64bit
+architectures and multithreading.

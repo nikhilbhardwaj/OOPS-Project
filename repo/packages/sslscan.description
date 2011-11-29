@@ -1,0 +1,6 @@
+Fast ssl scanner
+	
+sslscan queries ssl services, such as https, in order to determine the ciphers
+that are supported. sslscan is designed to be easy, lean and fast. the output
+includes preferred ciphers of the ssl service, the certificate and is in text
+and xml formats.

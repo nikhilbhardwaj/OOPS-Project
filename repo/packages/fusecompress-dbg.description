@@ -1,0 +1,8 @@
+Transparent filesystem compression using fuse - debugging symbols
+	
+fusecompress provides a mountable linux filesystem which transparently
+compress its content.  files stored in this filesystem are compressed
+on the background and fuse allows to create a transparent interface
+between compressed files and user applications.
+
+this package contains the debugging symbols for fusecompress.

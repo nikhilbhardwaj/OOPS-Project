@@ -1,0 +1,11 @@
+Extremely powerful and versatile nameserver
+	
+powerdns is a versatile nameserver which supports a large number
+of different backends ranging from simple zonefiles to relational
+databases and load balancing/failover algorithms.
+powerdns tries to emphasize speed and security.
+
+this is the authoritative nameserver that answers questions about
+domains that it knows about. it also includes the bind backend that
+allows powerdns to retrieve domain info from zone files as used by
+the "bind" software.

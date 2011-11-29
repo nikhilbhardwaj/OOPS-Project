@@ -1,0 +1,13 @@
+Scalable directory/file change notification
+	
+this module implements an interface to the linux 2.6.13 and later inotify
+file/directory change notification sytem.
+
+it has a number of advantages over the linux::inotify module:
+
+ - it is portable (linux::inotify only works on x86)
+ - the equivalent of fullname works correctly
+ - it is better documented
+ - it has callback-style interface, which is better suited for
+
+integration.

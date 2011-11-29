@@ -1,0 +1,22 @@
+Virtual filesystem for flickr online photosharing service
+	
+flickrfs is a virtual filesystem which mounts on your machine like
+any other partition. once mounted it retrieves information about your
+photos hosted on your flickr account, and shows them as files.  you
+can easily copy photos from your local machine to this mount and it
+will automatically upload them to your flickr account.  similarly you
+can copy the files from your mount to the local machine and it will
+download your images from flickr.
+
+flickrfs uses fuse (filesystem in userspace) which is a simple
+interface for userspace programs to export a virtual filesystem to
+the linux kernel.
+
+all the files in the mount have an associated meta file, which
+provides access to title, description, tags and license information.
+modifiying any of these fields and saving the meta file will cause
+them to be updated on the server also.
+
+flickrfs also includes a syncing mechanism. this allows for automatic
+synchronisation of changes done online directly to your local
+mountpoint.

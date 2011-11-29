@@ -1,0 +1,16 @@
+Mail/news handling commands and perl modules
+	
+im (internet message) provides a series of user interface commands
+(imput, imget, imls, ...) and backend perl5 modules to integrate
+e-mail and netnews user interface.  they are designed to be used
+both from mew version 1.x and on command line.
+
+the folder style for im is exactly the same as that of mh.  so,
+you can replace mh with this package without any migration works.
+moreover, you are able to operate your messages both by im and mh
+with consistent manner.
+
+mail/news messages are dispatched by way of smtp/nntp and are
+retrieved from local mailbox (mbox file, maildir, mmdf file, mh folder),
+pop3 server (plain password, apop, rpop), imap server, or nntp server.
+if you want to use rpop, you should install the perl-suid package.

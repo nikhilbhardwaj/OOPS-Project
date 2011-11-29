@@ -1,0 +1,8 @@
+Module for automatic text wrapping and reformatting
+	
+text::autoformat provides intelligent formatting of plain text without the
+need for any kind of embedded mark-up. the module recognizes internet
+quoting conventions, a wide range of bullet and number schemes, centered
+text, and block quotations, and reformats each appropriately. other options
+allow the user to adjust inter-word and inter-paragraph spacing, justify
+text, and impose various capitalization schemes.

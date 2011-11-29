@@ -1,0 +1,11 @@
+Configuration file parser library - runtime files
+	
+dot.conf is a simple-to-use and powerful configuration-file parser
+library written in c. the configuration files created for dot.conf
+look very similar to those used by the apache webserver. even
+container-directives known from httpd.conf can easily be used in the
+exact same manner as for apache-modules. it supports various types of
+arguments, dynamically loadable modules that create their own
+configuration options on-the-fly, a here-documents feature to pass
+very long arg_str data to your app, and on-the-fly inclusion of
+additional config files.

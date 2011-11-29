@@ -1,0 +1,16 @@
+Perl module to fix the case of people's names
+	
+forenames and surnames are often stored either wholly in uppercase
+or wholly in lowercase. this module allows you to convert names into
+the correct case where possible.
+
+although forenames and surnames are normally stored separately, if they
+do appear in a single string, whitespace separated, namecase and nc deal
+correctly with them.
+
+namecase currently correctly name cases names which include any of the
+following:
+mc, mac, al, el, ap, da, de, delle, della, di, du, del, der,
+la, le, lo, van and von.
+
+it correctly deals with names which contain apostrophies and hyphens too.

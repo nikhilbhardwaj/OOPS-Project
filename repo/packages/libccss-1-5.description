@@ -1,0 +1,8 @@
+A simple api for css stylesheets
+	
+libccss offers a simple api to
+
+ * parse css stylesheets.
+ * query for style configurations on a user-provided document
+   representation.
+ * draw query results onto cairo surfaces

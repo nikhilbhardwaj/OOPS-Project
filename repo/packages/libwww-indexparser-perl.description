@@ -1,0 +1,8 @@
+Fetch and parse the directory index from a web server
+	
+www::indexparser is a module that uses lwp to fetch a url from a web
+server. it then atempts to parse this page as if it were an auto generated
+index page.  it returns an array of www::indexparser::entry objects, one
+per entry in the directory index that it has found. each entry has a
+set of methods: filename(), time(), size(), and others if supported
+by the autoindex generated: type() and size_units().

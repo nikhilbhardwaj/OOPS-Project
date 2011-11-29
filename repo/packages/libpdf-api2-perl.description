@@ -1,0 +1,15 @@
+Module for creating or modifying pdf documents in perl
+	
+pdf::api2 started as a nice api around the text::pdf modules created by
+martin hosken.
+
+features:
+
+ - works with more than one pdf file open at once
+ - it presents a object-oriented api to the user
+ - supports the 14 base pdf core fonts
+ - supports truetype/opentype fonts with both tt and cff outlines
+ - supports adobe-type1 fonts (pfb/pfa/afm)
+ - supports native embedding of bitmap images (jpeg,ppm,png)
+ - supports modification of existing pdfs and import/cloning of pages
+ - lite version of the api for first-timers

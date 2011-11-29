@@ -1,0 +1,13 @@
+Assigns a new name to referenced sub
+	
+sub::name has only one function, which is also exported by default:
+
+subname name, coderef
+
+assigns a new name to referenced sub. if package specification is
+omitted in the name, then the current package is used. the return
+value is the sub.
+
+the name is only used for informative routines (caller, carp, etc).
+you won't be able to actually invoke the sub by the given name. to
+allow that, you need to do glob-assignment yourself.

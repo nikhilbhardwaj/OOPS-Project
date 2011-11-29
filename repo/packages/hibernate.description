@@ -1,0 +1,14 @@
+Smartly puts your computer to sleep (suspend to ram or disk)
+	
+the hibernate script helps you in putting your computer to sleep, using one
+of the various methods available in the kernel.
+
+hibernate can take care of loading and unloading modules, provides various
+hacks needed to get some video cards to resume properly under x, can
+optionally restart networking and system services, and basically do whatever
+else you ask it. it can be extended by writing new "scriptlets" which run at
+different points during the suspend process.
+
+currently the script supports all suspend mechanisms available through the
+/sys/power/state interface (including acpi suspend and the in-kernel software
+suspend), as well as software suspend 2 (http://www.suspend2.net)

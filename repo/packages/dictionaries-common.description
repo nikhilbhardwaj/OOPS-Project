@@ -1,0 +1,9 @@
+Common utilities for spelling dictionary tools
+	
+these are utilities shared by all ispell, myspell and wordlist
+dictionaries,  including support for some tools that use ispell
+(like emacsen, jed and mutt). more info about naming conventions
+and availability of those dictionaries in the readme file.
+
+maintainers should install dictionaries-common-dev as well, and
+read its documentation.

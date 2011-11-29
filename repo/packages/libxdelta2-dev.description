@@ -1,0 +1,11 @@
+Xdelta development files
+	
+xdelta is an application program designed to compute changes between
+files.  these changes (deltas) are similar to the output of the
+"diff" program in that they may be used to store and transmit only the
+changes between files.  however, unlike diff, the output of xdelta is
+not expressed in a human-readable format--xdelta can also apply
+these deltas to a copy of the original file.  xdelta uses a fast,
+linear algorithm and performs well on both binary and text files.
+
+this is are the development files for the runtime library.

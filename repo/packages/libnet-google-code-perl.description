@@ -1,0 +1,5 @@
+Interface to projects on google code
+	
+net::google::code is a perl module that provides an interface for interacting
+with projects hosted on google code <url:http://code.google.com/>. it allows
+manipulation of project issue trackers, wikis and downloads.

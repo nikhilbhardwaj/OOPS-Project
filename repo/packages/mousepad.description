@@ -1,0 +1,24 @@
+Simple xfce oriented text editor
+	
+mousepad is a graphical text editor for xfce based on leafpad.
+
+the initial reason for mousepad was to provide printing support, which would
+have been difficult for leafpad for various reasons.
+
+although some features are under development, currently mousepad has the
+following features:
+
+  * complete support for utf-8 text
+  * cut/copy/paste and select all text
+  * search and replace
+  * font selection
+  * word wrap
+  * character coding selection
+  * auto character coding detection (utf-8 and some code-sets)
+  * manual code-set setting
+  * infinite undo/redo by word
+  * auto indent
+  * multi-line indent
+  * display line numbers
+  * drag and drop
+  * printing

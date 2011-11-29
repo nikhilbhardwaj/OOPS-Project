@@ -1,0 +1,17 @@
+A perl module to read/write apache like configuration files
+	
+apache::admin::config provides an object oriented interface to read and write
+apache configuration files without affecting comments, indentation, or
+truncated lines.
+
+you can easily extract information from apache configuration files, or manage
+htaccess files.  an advantage over apache::configfile is that you can modify
+configuration files on disk, and generate new ones.
+
+the class was specifically written for a hosting provider, where it is used
+to add new clients, activate features, (un)lock directories using htaccess,
+etc.  it can also come in handy for writing a one-shot migration script in a
+few lines.
+
+
+ homepage: http://search.cpan.org/dist/apache-admin-config/

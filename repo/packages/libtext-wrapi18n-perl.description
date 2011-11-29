@@ -1,0 +1,9 @@
+Internationalized substitute of text::wrap
+	
+this module is a substitution for text::wrap, supporting
+multibyte characters such as utf-8, euc-jp, and gb2312, fullwidth
+characters such as east asian characters, combining characters
+such as diacritical marks and thai, and languages which don't
+use whitespaces between words such as chinese and japanese.
+
+it provides wrap().

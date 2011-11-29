@@ -1,0 +1,5 @@
+Creates temporary files and directories from a structured description
+	
+this package extends the directory::scratch module by adding a
+create_structured_tree subroutine, which can accept an array or an hash as
+arguments, creating files or directories, respectively.

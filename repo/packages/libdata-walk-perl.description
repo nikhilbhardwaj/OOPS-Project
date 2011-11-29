@@ -1,0 +1,11 @@
+Traverse perl data structures
+	
+with data::walk, one can have a call back function being called for each node
+in a given structure. it works with hash references, array references and
+blessed references of arbitrary depth.
+
+data::walk is similar to file::find, but instead of directory hiearchies, it
+works with perl data.
+
+
+ homepage: http://search.cpan.org/dist/data-walk/

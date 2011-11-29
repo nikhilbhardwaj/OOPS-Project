@@ -1,0 +1,9 @@
+Image processing tools providing imagemagick interface
+	
+graphicsmagick provides a set of command-line applications to manipulate
+image files. it is a fork of the imagemagick project and therefore offers
+a similar set of features, but puts a larger emphasis on stability.
+
+with this package installed, the graphicsmagick command line tools can
+be executed like their imagemagick counterparts. it allows to migrate
+scripts from imagemagick to graphicsmagick without any code changes.

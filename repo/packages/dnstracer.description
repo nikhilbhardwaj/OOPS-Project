@@ -1,0 +1,5 @@
+Trace dns queries to the source
+	
+dnstracer determines where a given domain name server (dns) gets its
+information from for a given hostname, and follows the chain of dns
+servers back to the authoritative answer.

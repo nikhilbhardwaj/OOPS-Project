@@ -1,0 +1,6 @@
+Simple printer ink level monitor based on libinklevel and qt4
+	
+qink is a simple printer ink level monitor based on libinklevel.
+
+it is a fork of kink (development of which ceased in 2003), but ported to
+qt4 and the most recent, api-incompatible versions of libinklevel.

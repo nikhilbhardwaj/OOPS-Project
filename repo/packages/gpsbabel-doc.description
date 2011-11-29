@@ -1,0 +1,14 @@
+Gps file conversion plus transfer to/from gps units
+	
+gpsbabel converts waypoints, tracks, and routes from one format to
+another, whether that format is a common mapping format like delorme,
+streets and trips, or even a serial upload or download to a gps unit
+such as those from garmin and magellan.
+
+gpsbabel supports dozens of data formats and will be useful for tasks
+such as geocaching, mapping, and converting from one gps unit to another.
+among the interesting formats it supports are several gps devices via
+a serial link, various pda-based mapping programs, and various
+geocaching data formats.
+
+this package contains the detailed documentation of gpsbabel.

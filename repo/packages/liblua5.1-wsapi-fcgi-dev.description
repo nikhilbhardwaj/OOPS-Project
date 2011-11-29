@@ -1,0 +1,5 @@
+Wsapi fastcgi development files for the lua language version 5.1
+	
+this package contains the development files of the wsapi library (extra
+backend), useful to create a statically linked binary (like a c application or
+a standalone lua interpreter).

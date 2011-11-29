@@ -1,0 +1,18 @@
+Nvidia binary kernel module dkms source
+	
+this package builds the nvidia xorg binary kernel module needed by
+nvidia-glx, using dkms.
+provided that you have the kernel header packages installed, the kernel
+module will be built for your running kernel and automatically rebuilt for
+any new kernel headers that are installed.
+the nvidia binary drivers provide optimized hardware acceleration of
+opengl applications via a direct-rendering x server for graphics cards
+using nvidia chip sets.  agp, pcie, sli, tv-out and flat panel displays
+are also supported.
+
+this version only supports geforce 6xxx and higher of the geforce gpus
+plus complimentary quadros and nforce.  look at the legacy packages
+for older cards.
+
+see /usr/share/doc/nvidia-kernel-dkms/readme.txt.gz
+for a complete list of supported gpus and pci ids.

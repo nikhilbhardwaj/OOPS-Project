@@ -1,0 +1,9 @@
+Automate administration of sudo privileges
+	
+this package contains a tool to automatically give some users
+sudo privileges.
+
+warning! this tool will automatically administrate all sudo permissions
+so if you do not have a admin package installed that give users
+sudo privileges they will no longer be able to use sudo.
+you have been warned!

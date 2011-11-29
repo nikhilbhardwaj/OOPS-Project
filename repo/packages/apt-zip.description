@@ -1,0 +1,9 @@
+Update a non-networked computer using apt and removable media
+	
+these scripts simplify the process of using dselect and apt on a
+non-networked debian box, using removable media like zip floppies and
+usb keys.
+one generates a `fetch' script (supporting backends such as wget and
+lftp, in a modular, extensible way) to be run on a host with better
+connectivity, check space constraints of your removable media, and
+then install the package on your debian box.

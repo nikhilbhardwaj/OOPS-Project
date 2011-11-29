@@ -1,0 +1,9 @@
+Efficient implementations of tree data structures for django
+	
+django treebeard is a library that implements efficient data structures for
+storing hierachical data in a database using the django web development
+framework.
+
+it currently includes 3 different tree implementations: adjacency list,
+materialized path and nested sets. each one has it's own strengths and
+weaknesses but share the same api, so it’s easy to switch between them.

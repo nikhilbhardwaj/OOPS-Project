@@ -1,0 +1,8 @@
+Advanced battery monitor for laptops - gkrellm plugin
+	
+this is the ibam plugin for gkrellm.
+
+ibam is an advanced battery monitor for laptops, which uses statistical and
+adaptive linear methods to provide accurate estimations of minutes of
+battery left or of the time needed until full recharge. it requires apm, acpi
+or pmu.

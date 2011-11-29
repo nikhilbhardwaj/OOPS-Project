@@ -1,0 +1,9 @@
+Python db api 2.0 extension for firebird and interbase
+	
+kinterbasdb implements python database api 2.0-compliant support
+for the open source relational database firebird and some
+versions of its proprietary cousin borland interbase(r).
+
+in addition to the minimal feature set of the standard python db
+api, kinterbasdb also exposes nearly the entire native client
+api of the atabase engine.

@@ -1,0 +1,19 @@
+A communication-friendly weblog system
+	
+tdiary is a weblog system, which makes your weblog communication-friendly for
+the writer (you) and readers. it consists of ruby scripts for cgi (common
+gateway interface). the followings are the main features.
+
+ * comments: readers can post comments to each entry like message boards.
+ * links: each entry can show referers from which readers come so that you
+   can see others write about the entry.
+ * trackback: tdiary can send and receive trackbacks.
+ * theme: you can easily change the design called `theme' of your weblog.
+   many themes are included in `tdiary-theme' package.
+ * plugin: you can add many functionalities called `plugins' to tdiary. many
+   plugins are included in `tdiary-plugin' package.
+ * pages for handhelds: tdiary is able to serve especially small and
+   terse documents for pdas and mobile phones.
+ * writing style: html is not required to write entries. plain text is
+   converted to html by tdiary. the converting grammars are called `styles'.
+   many styles are available.

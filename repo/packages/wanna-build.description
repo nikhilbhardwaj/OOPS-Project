@@ -1,0 +1,7 @@
+Database to track building of debian binary packages from debian sources
+	
+the sbuild suite of programs (wanna-build, buildd and sbuild) are
+used to build binary packages from source packages.  the wanna-build
+database tracks packages which require building; buildd schedules
+work from information it gets from the wanna-build database; sbuild
+does the actual package building.

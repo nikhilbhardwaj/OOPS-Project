@@ -1,0 +1,5 @@
+Common lisp package with the features of awk and more
+	
+an implementation of the features of the unix awk language, within common
+lisp, using macros.  in addition, it provides more complicated processing
+capabilities than that of awk.

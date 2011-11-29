@@ -1,0 +1,10 @@
+Converts openstreetmap maps to navit
+	
+navit is a car navigation system with routing engine.
+
+its modular design is capable of using vector maps of various formats for
+routing and rendering of the displayed map. it's even possible to use multiple
+maps at a time.
+
+this package contains maptool, a tool to convert openstreetmap maps to the
+navit format.

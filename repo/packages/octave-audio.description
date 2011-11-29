@@ -1,0 +1,8 @@
+Functions to work with audio files in octave
+	
+this package provides functions to work with audio files in octave, a
+numerical computation software. it contains functions for capturing
+sound from a soundcard (aucapture), reading sound files (auload), and
+plotting waveworm data of sound (auplot), among others.
+
+this octave add-on package is part of the octave-forge project.

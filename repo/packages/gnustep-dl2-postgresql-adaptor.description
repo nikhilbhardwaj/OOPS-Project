@@ -1,0 +1,8 @@
+Gnustep-dl2 adaptor to connect to postgresql
+	
+this specific eoadaptor project supports postgresql 8.1 and higher
+
+gnustep database library version 2 is needed by gnustep applications that
+communicate with databases.  it's an implementation of apple's
+enterprise objects framework (eof) v 3.0 (from next), and apple's
+webobjects 4.5 interface.

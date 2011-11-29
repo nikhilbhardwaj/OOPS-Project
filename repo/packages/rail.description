@@ -1,0 +1,7 @@
+Replace agent-string internal library
+	
+rail is a elisp library, translates codenames with latin chars of
+flim/semi/xemacs/utf-2000-mule/meadow to japanese characters (on
+irchat-pj, japanize code name for "ctcp version" return string). it
+also provides a function compatible with genjis.el (a partof tm, that
+converts mule-version to japanese characters).

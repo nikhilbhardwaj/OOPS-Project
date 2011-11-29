@@ -1,0 +1,5 @@
+Socks v5 proxy support for io::socket
+	
+io::socket::socks allows to create io::socket objects to establish a tcp
+connection through a socks v5 proxy, as well as creating a socks v5 proxy
+server.

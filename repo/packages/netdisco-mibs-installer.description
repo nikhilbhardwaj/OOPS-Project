@@ -1,0 +1,11 @@
+Netdisco mib bundle installer package
+	
+netdisco is an open source web-based network management
+tool designed for moderate-large networks. using snmp it
+locates the switch port of an end-user system by ip or mac
+address. layer2 topology discovery via cdp. device inventory
+by os/model + more.
+
+this package contains download and install helper programs
+for the netdisco mib bundle, which cannot be redistributed in
+debian.

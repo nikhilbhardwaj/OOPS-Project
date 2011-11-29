@@ -1,0 +1,13 @@
+Simple web framework
+	
+web::simple provides a bare minimum system for writing web applications that
+don't need a full-fledged web framework.
+
+the philosophy of web::simple is to keep to an absolute bare minimum, for
+everything. it is not designed to be used for large scale applications; the
+catalyst web framework already works very nicely for that and is a far more
+mature, well supported piece of software.
+
+however, if you have an application that only does a couple of things, and
+want to not have to think about complexities of deployment, then web::simple
+might be just the thing for you.

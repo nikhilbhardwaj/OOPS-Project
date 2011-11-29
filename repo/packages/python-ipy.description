@@ -1,0 +1,6 @@
+Python module for handling ipv4 and ipv6 addresses and networks
+	
+ipy is a python module for handling ipv4 and ipv6 addresses and
+networks in a fashion similar to perl's net::ip and friends. the ip
+class allows a comfortable parsing and handling for most notations in
+use for ipv4 and ipv6 addresses and networks.

@@ -1,0 +1,27 @@
+Header files and documentation for the roaraudio libraries
+	
+roaraudio is a server for audio mixing. its main purpose is to mix audio from
+different clients before sending it to its outputs (for example a soundcard).
+it is completely network transparent (unix sockets, tcp/ip, decnet) and
+supports many common codecs like ogg vorbis, speex or flac.
+
+this packet consists of the following libraries:
+libroar: the roaraudio main library. it contains code for talking to roard,
+virtual io functions useful not only for audio applications, memory
+management functions like buffers, lists, stacks.
+
+libroardsp: digital signal processing library. it contains code to work with
+pcm signals including simple filters, converters and code to work with some
+(realtime) codecs.
+
+libroareio: this is the roaraudio extended io library. it contains code for
+talking to extended io. currently it contains code to talk to soundcards
+without roard. this is not meant to be used by other applications directly.
+
+libroarlight: light control support library. it contains code to support
+the usage of the light control subsystem.
+
+libroarmidi: midi subsystem support library. it contains code to support
+the usage of the midi subsystem.
+
+this package contains the development headers for the libroar library.

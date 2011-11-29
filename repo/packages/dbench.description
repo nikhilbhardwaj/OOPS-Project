@@ -1,0 +1,10 @@
+The dbench (disk) and tbench (tcp) benchmarks
+	
+dbench and tbench simulate the load of the netbench "industry
+standard" benchmark used to rate (windows) file servers.  unlike netbench,
+they do not require a lab of microsoft windows pcs: dbench produces
+the filesystem load on a netbench run, and tbench produces the
+network load, allowing simpler bottleneck isolation.
+
+note that this benchmark is *not* a realistic reflection of normal
+server load.

@@ -1,0 +1,19 @@
+Snmp implementation for the twisted networking framework
+	
+twistedsnmp is a set of snmp (simple network management protocol)
+protocol implementations for python's twisted matrix networking framework
+using the pysnmp project.
+
+it provides the following:
+
+ * get, set, getnext and getbulk manager-side queries
+ * get, set, getnext and getbulk agent-side services
+
+
+eventual goals of the system:
+
+ * provide access to all v1 and v2 snmp functionality for writing agent
+   and manager services
+ * provide convenient testing mechanisms for snmp agent/manager
+   development (e.g. mirroring an snmp agent's oid tree for local query
+   testing)

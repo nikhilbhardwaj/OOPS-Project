@@ -1,0 +1,7 @@
+Library that provides common ntfs access functions
+	
+the linux-ntfs project (http://www.linux-ntfs.org/) aims to bring full
+support for the ntfs filesystem to the linux operating system.
+
+libntfs provides common ntfs access functions for the ntfsprogs
+and other foreign open source applications.

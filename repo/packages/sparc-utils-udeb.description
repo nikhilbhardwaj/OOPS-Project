@@ -1,0 +1,6 @@
+Sparc-utils package for the debian installer
+	
+this is a stripped-down version of the sparc-utils package, suitable
+for use in debian-installer. it provides only the prtconf binary which
+is required to adequately detect the sbus hardware, commonly found on
+sparc32 and some sparc64 (ultra1, ultra2) machines.

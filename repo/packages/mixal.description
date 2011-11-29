@@ -1,0 +1,20 @@
+A mix emulator and mixal interpreter
+	
+mixal is an implementation of the imaginary computer called
+mix and its assembly language mixal, which were invented
+by donald e. knuth in the 1960's for use in his monumental
+and yet unfinished book series "the art of computer programming".
+all actual programs and all programming exercises in the series
+are written in mixal.
+
+this package contains a modified version of darius bacon's mixal
+implementation.  it takes a mixal source file, translates it to
+mix machine code and then executes the resulting program, all in
+a single run.  the result of the assembler step cannot be extracted
+to a file.  similarly, one cannot take a precompiled mix program and
+try to execute it in this emulator - only mixal source is accepted.
+
+the mix emulator does not support floating-point operations
+nor the tape devices described in knuth's book.  this is not fatal,
+however, and most of the programs and exercise answers in knuth's
+book can be run in this mixal implementation.

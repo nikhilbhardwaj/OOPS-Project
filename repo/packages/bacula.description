@@ -1,0 +1,12 @@
+Network backup, recovery and verification - meta-package
+	
+bacula is a set of programs to manage backup, recovery and verification
+of computer data across a network of computers of different kinds.
+
+it is efficient and relatively easy to use, while offering many advanced
+storage management features that make it easy to find and recover lost or
+damaged files. due to its modular design, bacula is scalable from small
+single computer systems to networks of hundreds of machines.
+
+this meta-package installs the entire suite of bacula applications: job
+scheduling, storage control, node connector, and administrative console.

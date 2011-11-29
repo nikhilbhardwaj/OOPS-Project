@@ -1,0 +1,12 @@
+Libraries for lv2 plugins
+	
+these are some tools and libraries that may come in handy
+when writing lv2 plugins in c++.
+
+libpaq is a library for parsing and querying rdf data in turtle format.
+
+liblv2-plugin is a c++ library that you can use to write lv2 plugins
+by inheriting from a plugin base class and overriding
+a small number of functions.
+
+liblv2-gui is a c++ library that you can use to write lv2 plugin guis.

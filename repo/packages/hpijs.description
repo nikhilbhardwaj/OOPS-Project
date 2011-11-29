@@ -1,0 +1,23 @@
+Hp linux printing and imaging - gs ijs driver (hpijs)
+	
+this package contains an ijs printer driver for ghostscript, which
+adds support for most inkjet printers and some laserjet printers
+manufactured by hp.  it is also required for hplip fax support.
+
+the debian package of hpijs includes the so-called rss patch, to use
+pure black ink instead of composite black in printers that don't do
+color map conversion in firmware.
+
+hpijs can take advantage of ghostscript ijs krgb support when
+available, to enhance black printing on printers that do color
+map conversion in firmware and are thus not affected by the old
+rss patch.
+
+users of the cups printing system are advised to also install the
+hplip package, and use the hp cups backend to send data to the printer.
+hplip supports usb, networked and parallel-port devices, and enables
+extended hpijs functionality such as border-less printing.
+selecting any hpijs ppd in cups will use hpijs automatically.
+
+hpijs is meant to be used through the foomatic system (see the
+foomatic-filters package).

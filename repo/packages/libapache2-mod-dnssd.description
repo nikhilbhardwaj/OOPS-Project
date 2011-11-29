@@ -1,0 +1,5 @@
+Zeroconf support for apache 2 via avahi
+	
+mod_dnssd is an apache httpd module which adds zeroconf support
+via dns-sd using avahi. this allows apache to advertise itself and the
+websites available to clients compatible with the protocol.

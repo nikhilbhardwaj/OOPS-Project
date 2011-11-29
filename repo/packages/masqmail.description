@@ -1,0 +1,10 @@
+Mail transport agent for intermittently connected hosts
+	
+masqmail is an mta (mail transport agent) and pop3 client for hosts
+with no permanent network connection, such as home network servers
+or notebook computers. it has special support for connections to
+different internet service providers.
+
+in these cases, masqmail is a slim replacement for full-blown mtas
+such as sendmail, exim, qmail or postfix. the pop3 client can be
+a small replacement for other full-featured tools like fetchmail.

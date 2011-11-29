@@ -1,0 +1,9 @@
+Fluidsynth midi sound synthesiser front-end
+	
+qsynth is a fluidsynth gui front-end application written in c++ around the qt 4
+toolkit. eventually it may evolve into a softsynth management application
+allowing the user to control and manage a variety of command line softsynths
+but for the moment it wraps fluidsynth (http://www.fluidsynth.org).
+
+fluidsynth is a command line software synthesiser based on the soundfont
+specification.

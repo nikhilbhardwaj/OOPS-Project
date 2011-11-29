@@ -1,0 +1,11 @@
+Television viewer - tools
+	
+this package provides some tools that may be useful with xawtv:
+
+ - propwatch:    monitors properties of x11 windows. helps
+                 keep track of xawtv's _xawtv_station property;
+ - dump-mixers:  dump mixer settings to stdout;
+ - record:       console sound recorder. it has a simple input
+                 level meter which might be useful for
+                 troubleshooting sound problems;
+ - showriff:     display the structure of riff files (avi, wav).

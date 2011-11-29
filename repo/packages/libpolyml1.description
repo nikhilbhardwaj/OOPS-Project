@@ -1,0 +1,10 @@
+Runtime files for poly/ml, a compiler for the standard ml
+	
+poly/ml is an implementation of the standard ml programming language
+standard ml is a general-purpose, modular, type-safe, strict,
+functional programming language. poly/ml is sml 97 compliant
+interpreter and compiler that supports the generation of stand-alone
+executables with an interactive toplevel (repl).
+
+this package provides the files needed to run stand-alone executables
+built with poly/ml.

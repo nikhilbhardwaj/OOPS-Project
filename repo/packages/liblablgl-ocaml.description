@@ -1,0 +1,8 @@
+Runtime libraries for lablgl
+	
+lablgl is an opengl interface for objective caml. since it includes
+support for the togl widget, you can comfortably use it with labltk.
+a gtkglarea binding for use with lablgtk is also provided.
+
+this package include only the dynamic libraries needed for running dynamic
+bytecode executables.

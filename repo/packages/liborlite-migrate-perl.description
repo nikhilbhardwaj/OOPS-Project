@@ -1,0 +1,6 @@
+Perl helper module for sqlite-to-orlite schema migration
+	
+orlite::migrate is a light weight database schema migration enhancement for
+orlite. it provides a simple implementation of schema versioning within the
+sqlite database using the built-in user_version pragma (which is set to zero
+by default).

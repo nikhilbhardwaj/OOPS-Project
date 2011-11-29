@@ -1,0 +1,8 @@
+Syslog-style logfile parser with lots of output options
+	
+logtool is a syslog-style logfile parser and report-generator,
+capable of producing ansi, ascii, csv (for spreadsheets), html or
+just raw output.
+
+it's very handy in generating nightly reports and in online
+monitoring of logfile activity.

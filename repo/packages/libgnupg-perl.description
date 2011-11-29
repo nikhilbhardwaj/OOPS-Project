@@ -1,0 +1,6 @@
+Interface to gnupg using its coprocess interface
+	
+gnupg is a perl module that provides a limited programmatic interface to the
+gnu privacy guard program. it uses the coprocess hook system provided by gpg
+and communicates using shared memory. it attempts to map the interactive
+interface offered by the gpg command-line tool to a more programmatic api.

@@ -1,0 +1,4 @@
+Usb interface for python
+	
+pyusb is a native python module written in c (meanwhile, because the
+next major version will use ctypes), that provides usb access for it.

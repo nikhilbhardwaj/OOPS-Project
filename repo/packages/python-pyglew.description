@@ -1,0 +1,9 @@
+Glew bindings for python
+	
+pyglew is the python-bindings for the excellent opengl extension wrangler
+(glew), a library that handles initiliazation of opengl extensions.
+
+this python wrapper over glew will let that library to initializate and check
+availability of extentions, and then to freely use them in a python code.
+
+in addition, there are many extentions needed by other tools, like pygpu.

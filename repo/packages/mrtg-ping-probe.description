@@ -1,0 +1,6 @@
+Ping module for multi router traffic grapher
+	
+mrtg-ping-probe is a ping probe for mrtg 2.x.  it is used to monitor
+the round trip time and packet loss to networked devices.  mrtg uses
+its output to generate graphs visualizing minimum and maximum round
+trip times or packet loss.

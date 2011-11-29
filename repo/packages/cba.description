@@ -1,0 +1,6 @@
+Continuous beam analysis
+	
+a small engineering tool that calculates member forces and support reactions
+of a continuous beam.
+a material and section database is included to set elasticity and moment of
+inertia. boundary conditions can be set differently at each support.

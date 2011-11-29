@@ -1,0 +1,27 @@
+Administration tool for kernel ip sets
+	
+ip sets are a framework inside the linux 2.4.x and 2.6.x kernel which can be
+administered by the ipset(8) utility. depending on the type, an ip set may
+store ipv4 addresses, tcp/udp port numbers, or ipv4 addresses with mac
+addresses in a way which ensures lightning speed when matching an entry
+against a set.
+
+if you want to
+
+
+ * store multiple ipv4 addresses or port numbers and match against the entire
+ collection using a single iptables rule;
+
+
+
+ * dynamically update iptables rules against ipv4 addresses or ports without
+ performance penalty;
+
+
+
+ * express complex ipv4 address and ports based rulesets with a single iptables
+ rule and benefit from the speed of ip sets;
+
+
+then ip sets may be the proper tool for you.
+.

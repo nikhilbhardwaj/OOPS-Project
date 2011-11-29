@@ -1,0 +1,7 @@
+Translating and storing of ip addresses from log files
+	
+provide a means for storing a history of dns/name changes for the ip addresses
+extracted from web log files. the major target being that multiple analyses of
+older log files do not require re-lookups of ip address to fqdns, and
+additionally maintain the accuracy of the lookup as it was then and not as it
+is now.

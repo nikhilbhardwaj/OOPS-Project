@@ -1,0 +1,13 @@
+Control the behaviour of your cdrom device
+	
+this program allows you to control the behaviour of your linux cdrom
+player.
+
+you can control: auto close, auto eject, medium type checking and
+tray/caddy locking.  you can get information on the volume name of cd-roms
+and other data, and you can set the speed of your drive and choose a
+disc from a jukebox.
+
+the source of this package may be an example for cdrom player program
+developers that wish to exploit the features of the linux cdrom
+interface.

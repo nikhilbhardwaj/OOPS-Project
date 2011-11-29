@@ -1,0 +1,17 @@
+Linux howtos in html format (non-free)
+	
+the doc-linux-nonfree-html package provides the non-free portion of the
+current linux howtos in html format. alternatively, ascii versions are
+provided in the doc-linux-nonfree-text package.
+
+the version number reflects the month in which doc-linux-nonfree-html was
+created.
+
+all files are available at http://www.tldp.org/ (with versions in ascii,
+dvi, html, postscript, and sgml).
+
+the documents in this package fail to meet the debian free software
+guidelines for various reasons. for the most part this is due to
+significant restrictions on modification or on commercial redistribution,
+neither of which can be allowed for packages in the main distribution. see
+/usr/share/doc/doc-linux-nonfree-html/copyright for full details.

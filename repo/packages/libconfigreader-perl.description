@@ -1,0 +1,10 @@
+Perl module for reading configuration files
+	
+the configreader library is a set of classes which reads directives
+from a configuration file.
+
+provided classes:
+
+   * configreader::spec
+   * configreader::values
+   * configreader::directivestyle

@@ -1,0 +1,8 @@
+Common data files for all db-all.e modules
+	
+db-all.e is a fast on-disk database where meteorological observed and
+forecast data can be stored, searched, retrieved and updated.
+
+this package contains common db-all.e data files, including variable metadata,
+bufr and crex decoding tables, report metadata, level and time range
+descriptions.

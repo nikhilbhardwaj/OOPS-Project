@@ -1,0 +1,9 @@
+A software watchdog
+	
+the watchdog program writes to /dev/watchdog every ten seconds.  if
+the device is opened but not written to within a minute, the machine
+will reboot. this feature is available when the kernel is built with
+'software watchdog' support (standard in debian kernels).
+
+the ability to reboot will depend on the state of the machine
+and interrupts.

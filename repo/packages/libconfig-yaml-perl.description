@@ -1,0 +1,6 @@
+Module for manipulating yaml-based configuration files
+	
+config::yaml is a somewhat object-oriented wrapper around the yaml module
+designed to make reading and writing configuration files simple. it handles
+multiple configuration files (e.g. system and per-user configuration or a
+gallery application with per-directory configuration) with ease.

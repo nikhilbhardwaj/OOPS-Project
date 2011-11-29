@@ -1,0 +1,10 @@
+System tool to enable or disable system services
+	
+chkconfig is a utility to update and query runlevel information for system
+services.  chkconfig manipulates the numerous symbolic links in /etc/init.d/,
+to relieve system administrators of some of the drudgery of manually editing
+the symbolic links.
+
+in debian, there are several tools with similar functionality, but users
+coming from other linux distributions will find the tools in this package
+more familiar.

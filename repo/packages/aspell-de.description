@@ -1,0 +1,8 @@
+German dictionary for aspell
+	
+this package contains german dictionaries for the aspell spell checker.
+
+dictionaries included are: de_de (de/deutsch/german), de_ch (swiss), and
+de_at, all using the new german orthography from 1996 (neue rechtschreibung).
+
+the old (1901) spelling is provided by aspell-de-alt.

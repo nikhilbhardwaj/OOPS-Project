@@ -1,0 +1,12 @@
+Courier mail server - esmtp daemon
+	
+the courier mail transfer agent (mta) is an integrated mail/groupware
+server based on open commodity protocols, such as esmtp, imap, pop3, ldap,
+ssl, and http. courier provides esmtp, imap, pop3, webmail, and mailing list
+services within a single, consistent, framework.
+
+this package provides an esmtp daemon which uses the maildir format as native storage
+format, supports ipv6, implements smtp extensions for mailing list
+management and features integrated mail filtering. it can function as an
+intermediate mail relay, relaying mail between an internal lan and the
+internet, or perform final delivery to mailboxes.

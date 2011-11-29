@@ -1,0 +1,23 @@
+Tools to assist in using ata over ethernet
+	
+the aoetools are programs that assist in using ata over ethernet.  these
+tools are designed to work with the "aoe" driver for linux 2.6 kernels;
+in fact, this version recommends kernel 2.6.14 or later, as both support
+up to 16 slots per shelf address.
+
+systems running linux 2.4 kernels do not need and should not install
+the aoetools.  the aoe driver for 2.4 kernels is self-sufficient.
+
+there are several tools included in this package:
+
+ * aoecfg         - manipulate aoe configuration strings
+ * aoe-discover   - trigger discovery of ata over ethernet devices
+ * aoe-flush      - flush the down devices out of the aoe driver
+ * aoe-interfaces - restrict network interfaces used for aoe
+ * aoe-mkdevs     - create character and block device files
+ * aoe-mkshelf    - create block device files for one shelf address
+ * aoeping        - simple userland communication with aoe devices
+ * aoe-revalidate - revalidate the disk size of an aoe device
+ * aoe-stat       - print status information for aoe devices
+ * aoe-version    - print aoe-related software version information
+ * coraid-update  - upload an update file to a coraid appliance

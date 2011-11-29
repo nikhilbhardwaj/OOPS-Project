@@ -1,0 +1,4 @@
+Perlio layer for normalizing line endings
+	
+this layer normalizes any of cr, lf, crlf and native encoding into the
+designated line ending.  it works for both input and output handles.

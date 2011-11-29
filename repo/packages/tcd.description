@@ -1,0 +1,4 @@
+Portable cd player with an ncurses interface
+	
+tcd is a portable cd player with an ncurses based interface.  it uses sdl as
+a backend to access the cd devices without kernel-specific dependencies.

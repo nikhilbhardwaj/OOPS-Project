@@ -1,0 +1,7 @@
+Dj mixer for digital audio streams
+	
+the dbmix software collection mimicks a mixing desk as used by disc jockeys.
+using only a single sound card, it allows to mix audio streams from a variety
+of sources, cross-fade between them, adjust the pitches, or punch in short
+effects.  optionally, a second sound card (or output channel) can be used to
+cue in songs.

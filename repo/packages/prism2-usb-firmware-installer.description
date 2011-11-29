@@ -1,0 +1,14 @@
+Firmware files for the prism2_usb kernel driver
+	
+prism2-usb-firmware-installer will at the time of its own installation
+download the firmware files for the prism2_usb devices from the
+upstream code repository and convert them to the format used by the
+kernel modules since 2.6.32.
+
+the downloaded file will be used as-is by the 2.6.31 kernel. if you
+have an earlier kernel you will have to install the
+linux-wlan-ng-firmware package instead.
+
+note that only some adapters really need a firmware file and that
+firmware files are not completely free (in the sense of freely
+redistributable), which is why this package exists.

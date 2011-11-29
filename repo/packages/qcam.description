@@ -1,0 +1,7 @@
+Quickcam image grabber
+	
+tools for grabbing single frames and videos from black and white
+connectix quickcam digital cameras.  includes x11 and svgalib versions.
+
+note that nowadays there is support in the 2.2 kernels for this camera in
+the video4linux project, which is probably better than this.

@@ -1,0 +1,13 @@
+Infinote-based collaborative text editor - debugging symbols
+	
+gobby is an editor which allows to edit text documents and source files
+collaboratively over a network. all users could work on the file
+simultaneously without the need to lock it. the parts the various users
+write are highlighted in different colours and it supports syntax
+highlighting of various programming and markup languages.
+
+gobby is portable to both windows and unix-like platforms and makes use of
+the gtk+ toolkit.  a dedicated server is available in the infinoted package.
+
+these are the debugging symbols for gobby, needed only if you try to
+debug it.

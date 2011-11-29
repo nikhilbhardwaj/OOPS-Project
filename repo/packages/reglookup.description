@@ -1,0 +1,8 @@
+Utility to read and query windows nt/2000/xp registry
+	
+reglookup is an small command line utility for reading and querying microsoft
+windows nt/2000/xp registries.
+
+currently the program allows one to read an entire registry and output it in a
+(mostly) standardized, quoted format. it also provides features for filtering
+of results based on registry path and data type.

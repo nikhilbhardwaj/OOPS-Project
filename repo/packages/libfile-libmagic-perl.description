@@ -1,0 +1,7 @@
+Perl interface to libmagic for determining file type
+	
+the file::libmagic module is a simple perl interface to libmagic from the
+file-4.x or file-5.x package from christos zoulas
+(ftp://ftp.astron.com/pub/file/).
+
+libmagic is a library for detecting file type, and works like file(1).

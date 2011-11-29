@@ -1,0 +1,23 @@
+Collection of useful jed modes and utilities
+	
+the jed text editor can be easily extended using the s-lang scripting
+language.
+
+this package contains add-on packages for the jed editor, mainly from the
+jedmodes repository at sourceforge (http://jedmodes.sourceforge.net/)
+
+enhancements include:
+
+ * new or enhanced modes for:
+      jed help, file management, gnu info, man pages, calculator, calendar,
+      dict dictionary lookup (including thesaurus), spellchecking,
+      "game of life" and snake, version control (cvs/svn interface)
+ * additional language modes:
+      css, email, gnuplot, make, man, mupad, po_mode, restructuredtext,
+      ruby, sql, yodl
+ * new or enhanced editor emulation modes for:
+      vi, cua, brief
+ * uri-scheme handler (for transparent http: access, etc)
+ * buffer history and fast switching between (auto-)numbered buffers
+ * s-lang utility functions and extended set of key_* variables for xjed
+ * framework for installing of local or private extensions.

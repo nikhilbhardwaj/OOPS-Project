@@ -1,0 +1,8 @@
+Gnu cpio -- a program to manage archives of files (win32 build)
+	
+gnu cpio is a tool for creating and extracting archives, or copying
+files from one place to another.  it handles a number of cpio formats
+as well as reading and writing tar files.
+
+this is a win32 version of cpio.  it's meant to be used by the win32-loader
+component of debian-installer.

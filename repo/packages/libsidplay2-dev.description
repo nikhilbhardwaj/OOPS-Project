@@ -1,0 +1,12 @@
+Sid (mos 6581) emulation library
+	
+this is a (shared) library that implements the emulation of the c64's
+sid chip (mos 6581) and cpu (6510). it is used by several "player"
+applications, e.g. sidplay, which make it possible to listen to *really*
+a lot (13.600+) of tunes, known from old and new c64 programs (as well
+as amiga compositions).
+
+find most of the available musics from your favourite games or demos
+and more in the high voltage sid collection (hvsc). for downloads and
+information about the volunteers, who maintain the collection, look at
+the hvsc homepage http://www.hvsc.c64.org.

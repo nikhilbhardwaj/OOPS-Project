@@ -1,0 +1,9 @@
+Architecture for analyzing software, web interface
+	
+the fossology project is a web based framework that allows you to
+upload software to be picked apart and then analyzed by software agents
+which produce results that are then browsable via the web interface.
+existing agents include license analysis, metadata extraction, and mime
+type identification.
+
+this package depends on the packages for the web interface.

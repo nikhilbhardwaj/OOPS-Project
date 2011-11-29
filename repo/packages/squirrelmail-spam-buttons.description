@@ -1,0 +1,11 @@
+Squirrelmail plugin: place "spam" buttons on the mailbox message list page
+	
+this plugin will place "spam" and/or "not spam" buttons on the mailbox message
+list page as well as on a single message view page. the action associated with
+the buttons (as well as the button text) can be configured to suit most any
+spam reporting system. reporting by email, reporting by executing a command on
+the server and reporting by moving (or copying) the message to a designated
+folder are all supported.
+
+squirrelmail is a standards-based webmail package written in php. it runs on
+top of any imap server.

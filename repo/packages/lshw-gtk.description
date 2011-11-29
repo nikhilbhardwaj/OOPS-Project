@@ -1,0 +1,9 @@
+Graphical information about hardware configuration
+	
+a small tool to provide detailed information on the hardware
+configuration of the machine. it can report exact memory
+configuration, firmware version, mainboard configuration, cpu version
+and speed, cache configuration, bus speed, etc. on dmi-capable x86
+systems, on some powerpc machines (powermac g4 is known to work) and amd64.
+
+this package provides lshw-gtk (the gtk+ version)

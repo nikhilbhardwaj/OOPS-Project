@@ -1,0 +1,10 @@
+Equinox osgi framework
+	
+the eclipse platform is an open and extensible platform for anything and yet
+nothing in particular. it provides a foundation for constructing and running
+integrated software-development tools. the eclipse platform allows tool
+builders to independently develop tools that integrate with other people's
+tools so seamlessly you can't tell where one tool ends and another starts.
+
+this package includes only the eclipse equinox osgi framework, which can
+be used outside eclipse.

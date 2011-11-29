@@ -1,0 +1,33 @@
+Quranic study tool
+	
+zekr is an open platform quran study tool for simply browsing and researching
+on the holy quran (koran).
+
+a few selected features:
+
+ - zekr supports managed/scoped searching of the whole quran and translations,
+   with matching and non-matching diacritics;
+ - a builtin quran recitation player;
+ - revelation pack support (revelation order of suras or ayas);
+ - advanced search using lucene powerful text search library: boolean
+   operators, groups, wild cards, scopes, ...;
+ - "uthman taha (experimental)" theme: this theme uses me_quran font (designed
+   by meor ridzuan) for rendering quran ayas;
+ - zekr is flexible in adding new plugins, themes, language packs, and quran's
+   translations and recitations.
+
+
+you can find more quran translations and recitations in zekr's website:
+http://www.zekr.org
+
+if you would like to ask for a solution of any problem you have with zekr,
+report bugs, ask for new features, help in developing zekr, contribute in
+documenting zekr and extending zekr's wiki, translate zekr in your native
+language, and prepare quran translations available in your language for zekr
+you are welcome to the project google group: http://zekr.org/quran/contact
+
+please be advised that although the quran text used in zekr which is provided
+by http://tanzil.info is one of the most accurate electronic quran texts
+passed both manual and automatic text verification processes, it may still
+have typos. if you find any typos, please report it in the google group
+mentioned above.

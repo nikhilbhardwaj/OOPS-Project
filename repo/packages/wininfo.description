@@ -1,0 +1,17 @@
+Displays information about x windows under the mouse cursor
+	
+this is a window information utility for developers of applications,
+toolkits, and window managers. wininfo follows your pointer providing
+information about the windows below.
+information presented includes:
+
+
+ - a detailed description of the window hierarchy below the pointer.
+ - parsed interpretations of standard properties from both the
+   application window and the window manager.
+ - information about x server resources used by the application.
+
+
+wininfo requires an x server supporting the x-resource
+extension. the xfree86 server provided by debian enables this
+resource by default.

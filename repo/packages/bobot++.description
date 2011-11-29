@@ -1,0 +1,7 @@
+Irc bot with scripting features
+	
+bobot++ is a robust irc bot with many common bot features such as flood
+control, userlist and channel control, logging, but also intelligent
+ban/deban and channel mode settings.
+
+it also provides scheme scripting features using guile.

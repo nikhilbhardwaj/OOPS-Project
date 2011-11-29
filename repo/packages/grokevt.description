@@ -1,0 +1,8 @@
+Scripts for reading microsoft windows event log files
+	
+grokevt is a collection of scripts built for reading microsoft windows
+nt/2000/xp/2003 event log files.
+
+currently the scripts work together on one or more mounted microsoft windows
+partitions to extract all information needed (registry entries, message
+templates, and log files) to convert the logs to a human-readable format.

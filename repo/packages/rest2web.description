@@ -1,0 +1,25 @@
+Web site builder using restructured text as basic content format
+	
+rest2web is a simple tool that lets you build your website from a single
+template (or as many as you want), and keep the contents in restructured text
+(docutils; you can still keep pages in html if needed). the prefix "rest"
+does not in any way allude to the concept of "representational state
+transfer."
+
+the tool provides a host of features, for example:
+
+
+ * automatically builds index pages and navigation links (sidebars and
+   breadcrumbs).
+ * aids with the translation of the site to other languages.
+ * embedded code in templates for unlimited expressiveness.
+ * flexible macro system.
+ * uses relative links, so sites can be viewed from the filesystem.
+ * uses unicode internally.
+ * built-in gallery creator plugin.
+
+
+adding new pages is as easy as dropping a text file into the right folder;
+rest2web builds the new page and adds a link to it in the index (optionally
+with a description as well). removing a page is just as easy: delete the
+file, and when you run rest2web again it removes the entry.

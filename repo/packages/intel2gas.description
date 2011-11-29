@@ -1,0 +1,6 @@
+A converter from nasm assembly language to gas
+	
+intel2gas is a converter that will convert assembler source files
+written for nasm to files that can be assembled using the
+gnu assembler (gas), on the i386 platform. it provides support for basic
+mmx instructions as well.

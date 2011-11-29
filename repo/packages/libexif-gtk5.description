@@ -1,0 +1,7 @@
+Library providing gtk+ widgets to display/edit exif tags
+	
+most digital cameras produce exif files, which are jpeg files with
+extra tags that contain information about the image. the exif library
+allows you to parse an exif file and read the data from those tags.
+
+this library provides gtk+ widgets to display/edit exif tags.

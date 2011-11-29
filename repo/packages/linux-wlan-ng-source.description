@@ -1,0 +1,15 @@
+Linux-wlan-ng driver
+	
+linux-wlan-ng is a set of drivers and utilities that is intended to
+provide the full range of ieee 802.11 mac management capabilities for use
+in user-mode utilities and scripts. the package currently supports the
+intersil 802.11b prism2, prism2.5, and prism3 reference designs for
+pcmcia, pci, and usb. additionally, the package includes support for the
+plx9052 based pci to pcmcia adapter with a few different pcmcia cards.
+
+this package provides the source code for the linux-wlan-ng kernel
+modules. after installing this you must use module-assistant to compile
+and install the modules.
+
+please note that you probably do not need this package: the prism2_usb
+driver is included in the default kernel packages since 2.6.31.

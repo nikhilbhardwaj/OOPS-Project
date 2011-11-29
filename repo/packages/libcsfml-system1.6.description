@@ -1,0 +1,9 @@
+Libraries for the c binding of sfml - system part
+	
+sfml is an simple but fast library for providing access
+to multimedia libraries. it can be used to develop opengl
+applications with openal audio. it supports cross platform
+development
+
+the system library brings useful system utilities like multithreading and
+unicode handling

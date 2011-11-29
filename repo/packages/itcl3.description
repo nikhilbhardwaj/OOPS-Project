@@ -1,0 +1,10 @@
+[incr tcl] oop extension for tcl - run-time files
+	
+[incr tcl] (or itcl) is a popular object-oriented extension for the
+embeddable tcl scripting language.  the name is a play on c++, and
+itcl has a similar object model, including multiple inheritance and
+public and private classes and variables.  unlike most oop extensions
+to tcl, itcl is written in c for speed.
+
+this package contains everything you need to run itcl scripts and
+itcl-enabled apps.

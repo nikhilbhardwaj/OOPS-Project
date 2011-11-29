@@ -1,0 +1,8 @@
+Tools shipped with the gifti library
+	
+gifti is an xml-based file format for cortical surface data. this reference
+io implementation is developed by the neuroimaging informatics technology
+initiative (nifti).
+
+this package provides the tools that are shipped with the library
+(gifti_tool and gifti_test).

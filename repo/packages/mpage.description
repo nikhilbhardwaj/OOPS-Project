@@ -1,0 +1,7 @@
+Print multiple pages per sheet on postscript printer
+	
+mpage reads plain text files or postscript documents and prints them on
+a postscript printer with the text reduced in size so that several
+pages appear on one sheet of paper. this is useful for viewing large
+printouts on a small amount of paper. uses iso 8859.1 to print 8-bit
+characters.

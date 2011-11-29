@@ -1,0 +1,21 @@
+Source for loop-aes encryption modules
+	
+this package contains source code of the loop-aes loadable kernel
+modules for linux 2.0 - 2.6. it can be used with module-assistant,
+make-kpkg or stand-alone to build loop-aes module packages.
+
+loop-aes can be used to encrypt disk partitions, removable media,
+swap space and other devices. it provides measures to strengthen
+the encryption: passphrase seeds, multiple hash iterations, md5 iv
+and use of alternating encryption keys.
+
+encryption keys can be stored in a gnupg-encrypted keyfile, which
+allows the passphrase to be changed without re-encryption. keyfiles
+can also be encrypted asymmetrically for multi-user access.
+
+this package includes the cipher modules blowfish, twofish and
+serpent in addition to the default cipher (aes).
+
+modules compiled from this package require mount utils with
+support for loop-aes to work correctly. such utils are provided
+in the package 'loop-aes-utils'.

@@ -1,0 +1,18 @@
+Declarative object constructor
+	
+object::declare exports one function, declare, for building named
+objects with a declarative syntax, similar to how jifty::dbi::schema
+defines its columns.
+
+in list context, declare returns a list of name/object pairs in the
+order of declaration (allowing duplicates), suitable for putting into a hash.
+in scalar context, declare returns a hash reference.
+
+example: function for defining some declarative object
+
+
+ sub do_declare { declare {
+     column x =>
+         is rw,
+         is very::happy;
+     } };

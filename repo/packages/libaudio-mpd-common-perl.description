@@ -1,0 +1,5 @@
+Collection of common perl helper classes for mpd
+	
+audio::mpd::common is a perl module which provides some base classes to
+represent mpd (music player daemon) states and information. this module is a
+dependency of other, more useful modules such as audio::mpd.

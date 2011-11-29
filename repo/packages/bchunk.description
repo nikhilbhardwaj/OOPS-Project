@@ -1,0 +1,7 @@
+Cd image format conversion from bin/cue to iso/cdr
+	
+the bchunk package contains a unix/c rewrite of the binchunker program.
+binchunker converts a cd image in a .bin/.cue format (sometimes .raw/.cue) into
+a set of .iso and .cdr/.wav tracks. the .bin/.cue format is used by some
+non-unix cd-writing software, but is not supported on most other cd-writing
+programs.

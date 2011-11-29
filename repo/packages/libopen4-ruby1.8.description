@@ -1,0 +1,6 @@
+Library for managing child processes (ruby 1.8)
+	
+open4 lets you open child process with handles on pid, stdin, stdout, and
+stderr: manage child processes and their i/o handles easily.
+
+this package is built for ruby 1.8.

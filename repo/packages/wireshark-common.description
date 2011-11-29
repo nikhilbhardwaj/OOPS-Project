@@ -1,0 +1,8 @@
+Network traffic analyzer - common files
+	
+wireshark is a network "sniffer" - a tool that captures and analyzes
+packets off the wire. wireshark can decode too many protocols to list
+here.
+
+this package provides files common to both wireshark (the gtk+ version)
+and tshark (the console version).

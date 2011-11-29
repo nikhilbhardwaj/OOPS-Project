@@ -1,0 +1,5 @@
+Transactional persistence engine for java
+	
+jdbm is a transactional persistence engine for java. it aims to be
+for java what gdbm is for perl, python, c, etcetera: a simple
+persistence engine that is lightweight and fast.

@@ -1,0 +1,5 @@
+Ocaml interface to audioscrobbler and lastfm radios
+	
+this ocaml module provides an api to audioscrobbler, the lastfm
+submission protocol, as well as the radio api, which allows to
+listen to lastfm streams/radios.

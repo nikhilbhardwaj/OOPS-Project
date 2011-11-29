@@ -1,0 +1,9 @@
+Generate gd images of bio::seq objects
+	
+the bio::graphics::panel class provides drawing and formatting
+services for any object that implements the bio::seqfeaturei
+interface, including ace::sequence::feature, das::segment::feature and
+bio::db::graphics objects.  it can be used to draw sequence
+annotations, physical (contig) maps, protein domains, or any other
+type of map in which a set of discrete ranges need to be laid out on
+the number line.

@@ -1,0 +1,8 @@
+Binary file explorer using hachoir and urwid libraries
+	
+hachoir-urwid is a binary file explorer based on hachoir library to parse the
+files. using this tool you can exactly know the meaning of each bit/byte of
+your files. with direction keys, you can navigate in the field tree. the key
+'h' will disable 'human display' and switch to 'raw display'. it's sometime
+useful when you would like to compare hexadecimal data and hachoir
+representation.

@@ -1,0 +1,9 @@
+Shared libraries for avi read/writing
+	
+library that allows programs to read and write compressed
+avi files (indeo video, divx ;-), etc.) under gnu.
+(de)compression is performed with various audio/video plugins
+(ffmpeg, mad, vorbis, win32, ...).
+formats like mpeg, mov are partly supported.
+for more info about usage of win32, lame and opendivx plugin
+see readme.debian.

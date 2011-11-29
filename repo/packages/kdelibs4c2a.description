@@ -1,0 +1,17 @@
+Core libraries and binaries for all kde applications
+	
+this package contains all the shared libraries and common core binaries
+used by all kde applications. you need these libraries and binaries to
+run kde applications.
+
+several scripts included in kdebase-bin, related to the handling of smb
+and nfs shares, require the perl-suid package to work properly.
+
+if you are working with remote filesystems, you may find that fam
+is helpful in tracking filesystem updates. if you work only with local
+filesystems, then avoid fam (and gamin), since if they are not installed,
+kde will use its own more efficient inotify (or else dnotify) system
+directly.
+
+this package is part of kde, and a component of the kde libraries module.
+see the 'kde' and 'kdelibs' packages for more information.

@@ -1,0 +1,4 @@
+PackageId:6916
+Name:htcheck-php
+Version:1:2.0.0~rc1-2
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,php5,libapache2-mod-php5,libapache2-mod-php5filter,php5-cgi,php5-mysql

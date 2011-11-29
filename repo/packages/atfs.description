@@ -1,0 +1,9 @@
+The attributed file system (atfs)
+	
+atfs is a storage system supporting multiple versions of files and
+associating an arbitrary number of application defined attributes
+of the form "name=value" with each version. atfs comes as a function
+library that is meant as an extension to the unix file system. it does
+this without the need for kernel modifications and without imposing any
+restrictions to existing file system applications. it is part of shapetools,
+a software configuration management system.

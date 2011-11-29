@@ -1,0 +1,12 @@
+Collection of web-related python modules
+	
+nodebox web is a collection of python modules to get content from the web.
+one can query yahoo! and google for links, images, news and spelling
+suggestions, read rss and atom newsfeeds, retrieve articles from wikipedia,
+collect quality images from morguefile or flickr, browse through html
+documents, clean up html, validate urls, and create gif images from math
+equations using mimetex.
+
+the library uses a caching mechanism that stores things you download from the
+web, so they can be retrieved faster the next time. many of the services also
+work asynchronously.

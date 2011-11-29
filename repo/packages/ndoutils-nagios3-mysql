@@ -1,0 +1,4 @@
+PackageId:25300
+Name:ndoutils-nagios3-mysql
+Version:1.4b9-1.1
+Deps:dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libmysqlclient16,mysql-client,mysql-client-5.1,nagios3,ndoutils-common,ucf

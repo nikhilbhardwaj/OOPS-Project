@@ -1,0 +1,13 @@
+An example dssi host
+	
+dssi is an api for audio plugins, with particular application for software
+synthesis plugins with native user interfaces.
+
+dssi is an open specification developed for use in linux audio applications,
+although it is portable to other platforms. it may be thought of as
+ladspa-for-instruments, or something comparable to vsti.
+
+this package contains an example dssi host which is useful for testing new
+plugins. it listens for midi events on an alsa sequencer port, delivers them
+to dssi synths and outputs the result via jack.  it does not currently support
+audio input (e.g. for dssi effects plugins).

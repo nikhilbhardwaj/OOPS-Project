@@ -1,0 +1,8 @@
+Curses widget interface for perl
+	
+this module provides a standard library of functions and
+widgets for use in creating curses-based interfaces. should
+work reliably with both curses and ncurses libraries.
+
+current widgets include text field, list box, button sets,
+calendar, message box, input box

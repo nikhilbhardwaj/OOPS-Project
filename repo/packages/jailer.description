@@ -1,0 +1,7 @@
+Builds and maintains chrooted environments
+	
+jailer is a simple script to help system administrators
+to create and maintain chrooted (that is, jailed) environments.
+it uses a simple configuration file which can be used to
+describe the location of configuration files, debian packages
+and files or directories used to build the chroot environment.

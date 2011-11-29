@@ -1,0 +1,7 @@
+Moose extension to apply roles at object creation time
+	
+moosex::traits provides a method to add some roles to a class when creating
+it (during new). since components can be added easily to a given class, users
+don't have to create a named class with the desired roles applied or apply
+the roles to the instance one-by-one. this module also provides a basic way
+to initialize the applied roles' attributes while constructing objects.

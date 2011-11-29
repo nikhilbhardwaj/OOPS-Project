@@ -1,0 +1,12 @@
+Perl module providing an object-oriented flac decoder
+	
+the audio::flac::decoder module provides users with decoder objects for flac
+files. one can read data in pcm format from the stream, seek by pcm samples,
+or time.
+
+flac stands for free lossless audio codec. grossly oversimplified, flac is
+similar to mp3, but lossless, meaning that audio is compressed in flac without
+any loss in quality. this is similar to how zip works, except with flac you
+will get much better compression because it is designed specifically for audio
+and you can play back compressed flac files in your favorite player just like
+you would an mp3 file.

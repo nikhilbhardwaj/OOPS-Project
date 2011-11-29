@@ -1,0 +1,11 @@
+Perl module for persistent xml rss (rdf site summary) encapsulation
+	
+this module is a framework for persistent xml rss (rdf site summary)
+encapsulation. this module provides a framework for watching multiple
+rss sources. the magic is in the late_breaking_news method that returns
+only headlines it hasn't seen.
+
+if you want a non-blocking way to watch multiple rss sources with one
+process use poe::component::rssaggregator (libpoe-component-rssaggregator)
+
+homepage: http://search.cpan.org/~jbisbee/xml-rss-feed/

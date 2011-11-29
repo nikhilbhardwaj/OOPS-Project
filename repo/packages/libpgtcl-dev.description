@@ -1,0 +1,8 @@
+Tcl client library binding for postgresql - development files
+	
+this library provides tcl bindings to the postgresql client library (libpq),
+which is used to communicate with the postgresql database server.
+this package contains the static library and header files.
+
+postgresql is an object-relational sql database management system.
+tcl is a widely used and easily extended interpreted language.

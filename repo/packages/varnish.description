@@ -1,0 +1,14 @@
+A state-of-the-art, high-performance http accelerator
+	
+varnish is a state-of-the-art, high-performance http accelerator.  it uses the
+advanced features in linux 2.6, freebsd 6/7 and solaris 10 to achieve its high
+performance.
+
+some of the features include:
+
+ * a modern design
+ * vcl - a very flexible configuration language
+ * load balancing with health checking of backends
+ * partial support for esi - edge side includes
+ * url rewriting
+ * graceful handling of "dead" backends

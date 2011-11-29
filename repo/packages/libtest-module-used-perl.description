@@ -1,0 +1,6 @@
+Module for testing whether a module is used
+	
+test::module::used is a perl test module for determining whether a module is
+really used (and vice versa) between lib/t and meta.yml. it is useful for
+detecting cases where dependencies are specified (possibly as a remnant of
+older versions) but no longer needed, or where one forgets to declare them.

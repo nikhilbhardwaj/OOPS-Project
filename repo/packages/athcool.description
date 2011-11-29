@@ -1,0 +1,31 @@
+Tool to enable powersaving mode for athlon/duron processors
+	
+athcool is a small utility for enabling/disabling powersaving mode
+for amd athlon/duron processors.
+
+by enabling powersaving mode you can lower power consumption and
+cpu temperature when the cpu is idle.
+
+powersaving works only if your kernel supports acpi (apm does not
+work), because athcool does only (un)set the "disconnect enable when
+stpgnt detected" bits in the chipset's northbridge. to really save
+power, the stpgnt signal has to be sent when the cpu is idling. this
+is done by the acpi subsystem when c2 state entered.
+
+!!!warning!!!
+depending on your motherboard and/or hardware components, enabling
+athlon powersaving mode sometimes causes:
+
+
+ * noisy or distorted sound playback,
+ * a slowdown in harddisk performance,
+ * system locks or instability,
+ * massive corruption of the filesystem (observed at least once).
+
+
+if you met those problems, you should not use athcool. please use
+athcool at your own risk.
+
+if athcool works fine for you, and you want it to run automatically
+on startup, please read the /usr/share/doc/athcool/readme.debian
+file.

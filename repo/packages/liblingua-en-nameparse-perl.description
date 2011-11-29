@@ -1,0 +1,19 @@
+Perl routines for manipulating a person's name
+	
+lingua::en::nameparse takes as input a person or persons name in
+free format text such as,
+
+
+ mr ab & m/s cd macnay-smith
+ mr j.l. d'angelo
+ estate of the late lieutenant colonel ab van der heiden
+
+
+and attempts to parse it. if successful, the name is broken
+down into components and useful functions can be performed such as:
+
+
+ converting upper or lower case values to name case (mr ab macnay   )
+ creating a personalised greeting or salutation     (dear mr macnay )
+ extracting the names individual components         (mr,ab,macnay   )
+ determining the type of format the name is in      (mr_a_smith     )

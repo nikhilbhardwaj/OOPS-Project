@@ -1,0 +1,9 @@
+Gui frontend to create debian livecds, netboot images, etc.
+	
+live-build is a collection of programs that can be used to build debian live
+system images. the philosophy behind live-build is to provide a collection of
+small, simple, and easily understood tools that can be used in your own program
+to automate building of a live system.
+
+this package contains the gui frontend to live-build, offering a subset of the
+features in an easy-to-use user interface.

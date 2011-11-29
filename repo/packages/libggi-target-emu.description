@@ -1,0 +1,12 @@
+General graphics interface colour emulation targets
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains drivers for two colour-emulation pseudo-targets,
+enabling libggi (and therefore any program using libggi) to display
+its output in a different colour mode than the underlying physical
+target supports.  two targets are included:
+
+
+ "palemu" emulates a palette-based display on a true-colour target
+ "trueemu" emulates a true-colour display using a palette-based target

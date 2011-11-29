@@ -1,0 +1,16 @@
+Decnet libraries
+	
+this package contains the libraries necessary for a functioning decnet
+system. most decnet programs require these libraries to be present on
+the system. the libraries are:
+libdnet        - the basic decnet api as featured on ultrix(r) systems
+libdnet_daemon - useful calls for writing decnet daemons
+libdap         - dap (data access protocol) c++ classes
+librms         - high level library for programmatic access vms files
+
+                 from linux.
+
+
+if you're looking for libdnet, the "dumb" networking library from
+libdnet.sf.net by dug song then you should install libdumbnet instead.
+sorry for any confusion caused!

@@ -1,0 +1,11 @@
+Tools to access vmfs filesystems
+	
+vmfs is a clustered filesystem designed to store virtual machine disks for
+vmware esx or esxi server hosts. this set of tools allows to access these
+filesystems from some other non esx/esxi host for e.g. maintenance tasks.
+
+only read access is available at the moment, but write access is under
+works. multiple extents are supported.
+
+the vmfs can be accessed with a command line tool or mounted through a
+userspace filesystem (fuse-based).

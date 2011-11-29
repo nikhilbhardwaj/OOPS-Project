@@ -1,0 +1,10 @@
+Powerful interpreted programming language
+	
+pike is an interpreted, object-oriented, dynamic programming language
+with a syntax similar to c. it includes many powerful data types and
+a module system that, for instance, provides image manipulation together,
+with support for graphics formats like svg, jpg, png, gif, xcf and many
+others, database connectivity, advanced cryptography, xml/html parsers
+and others. to learn more about pike, please visit http://pike.ida.liu.se/
+note that some of the pike features are found in other pike7.8-* packages
+(image processing, mysql, postgresql, sane and more).

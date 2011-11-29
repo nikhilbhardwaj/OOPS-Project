@@ -1,0 +1,8 @@
+Outliers detection function for octave
+	
+this package provides functions to do grubbs, dixon and cochran tests
+for outlier detection and p-value approximating routines in octave, a
+numerical computation software. it was ported from the outliers package
+of r, a statistical computation software.
+
+this octave add-on package is part of the octave-forge project.

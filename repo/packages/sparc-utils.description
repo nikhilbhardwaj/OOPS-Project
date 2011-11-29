@@ -1,0 +1,11 @@
+Miscellaneous tools useful for sparc systems
+	
+this package provides the following tools:
+
+
+ - elftoaout,
+   piggyback,        to build bootable kernel images over the net for sparc
+                     workstations.  they are mainly used by the boot-floppies
+                     package to create the tftpboot image of the debian
+                     installation subsystem.
+ - prtconf, eeprom   to dump and modify contents of openprom.

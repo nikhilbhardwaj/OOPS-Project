@@ -1,0 +1,7 @@
+Debian live - system configuration scripts
+	
+live-config contains the scripts that configure a debian live system during
+the boot process (late userspace).
+
+in addition to live-config, a backend for an init system is required, such as
+live-config-sysvinit.

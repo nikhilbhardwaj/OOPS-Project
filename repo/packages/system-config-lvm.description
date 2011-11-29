@@ -1,0 +1,13 @@
+A utility for graphically configuring logical volumes
+	
+system-config-lvm provides a graphical interface to the lvm tools (and related
+utilities, including fsck and resize2fs) which is good for non-emergency
+storage administration. it enables you to manage your logical volume and
+filesystem configuration with a few mouse clicks, and it prevents potentially-
+disasterous command-line mistakes such as reducing a logical volume size before
+reducing the filesystem contained within that volume.
+
+(one word of warning: system-config-lvm does not recognize raid elements as
+being in use, and therefore lists them as "unitnitialized entities". if you are
+using a lvm-on-raid configuration, system-config-lvm will let you wipe out raid
+elements by making them into pvs. be careful!)

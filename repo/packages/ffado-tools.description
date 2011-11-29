@@ -1,0 +1,17 @@
+Ffado debugging and firmware tools
+	
+ffado is a linux driver for firewire (ieee1394) audio devices.
+
+the ffado library permits discovering and configuring such
+devices and provides an api for streaming clients.
+
+this package holds the following tools for firmware updating,
+troubleshooting and debugging:
+
+    * ffado-test-streaming
+    * ffado-diag
+    * ffado-test-isoxmit
+    * ffado-test-isorecv
+    * ffado-bridgeco-downloader
+    * ffado-test
+    * ffado-fireworks-downloader

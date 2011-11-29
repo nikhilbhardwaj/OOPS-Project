@@ -1,0 +1,15 @@
+Sql helper application for kannel wap and sms gateway
+	
+kannel is a gateway for connecting wap (wireless application protocol)
+phones to the internet. it also works as an sms/smpp gateway, for
+providing sms based services for gsm phones.
+
+sqlbox is a special kannel box that sits between bearerbox and smsbox
+and uses a database queue to store and forward messages.
+
+messages are queued on a configurable table (defaults to send_sms) and
+moved to another table (defaults to sent_sms) afterwards.
+
+you can also manually insert messages into the send_sms table and they
+will be sent and moved to the sent_sms table as well. this allows for
+fast and easy injection of large amounts of messages into kannel.

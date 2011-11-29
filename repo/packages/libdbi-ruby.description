@@ -1,0 +1,10 @@
+Database independent interface for ruby
+	
+ruby/dbi is a database independent interface for accessing databases,
+similar to perl's dbi.
+
+this package contains ruby/dbi documentation and provides dependency on
+the package containing common dbi libraries for the default ruby
+version (currently 1.8).
+
+database-specific drivers are located in libdbd-*-ruby packages.

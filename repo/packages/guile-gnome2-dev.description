@@ -1,0 +1,7 @@
+Guile gobject binding support library, development files
+	
+this package contains the development files for the guile gobject
+binding support library.
+
+you only need to install this package for building new wrapsets based
+on the guile-gnome gobject bindings.

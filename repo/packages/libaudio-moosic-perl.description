@@ -1,0 +1,8 @@
+Moosic client library for perl
+	
+audio::moosic acts as a client for the musical jukebox program moosic.
+
+using audio::moosic you can connect to a moosic server and execute
+arbitrary commands to control the moosic server.
+
+find out more about moosic at http://nanoo.org/~daniel/moosic/.

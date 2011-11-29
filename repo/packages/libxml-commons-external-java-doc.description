@@ -1,0 +1,9 @@
+Documentation of xml commons external api
+	
+xml-commons is focussed on common code and guidelines for xml
+projects.  the first focus will be to organize and have common
+packaging for the various externally-defined standards code relating
+to xml - things like the dom, sax, and jaxp interfaces.
+
+this package contains class api documentation for xml commons
+external api.

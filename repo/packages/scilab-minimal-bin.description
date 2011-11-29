@@ -1,0 +1,11 @@
+Scientific software package for numerical computations (minimal binary files)
+	
+scilab is a matrix-based scientific software package.
+scilab contains hundreds of built-in mathematical functions, rich
+data structures (including polynomials, rationals,linear systems, lists,
+etc...) and comes with a number of specific toolboxes for
+control, signal processing, ...
+
+this package contains the architecture specific binary files.
+all mandatory libraries for scilab-cli are shipped in this package.
+please install the package "scilab" to have all features.

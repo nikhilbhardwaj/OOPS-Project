@@ -1,0 +1,27 @@
+Small but fast and easy to use stand-alone template engine
+	
+jinja provides a django-like non-xml syntax and compiles templates
+into executable python code. it's basically a combination of django templates
+and python code.
+
+philosophy: application logic is for the controller but don't try to make the
+life for the template designer too hard by giving him too few functionality.
+
+features:
+
+ * simple api.
+ * extremely lightweight.
+ * the whole engine is completely sandboxed. a template designer won't be able
+   to modify application data or execute dangerous code
+ * you can use nearly every python expression. not supported are the binary
+   operators and list comprehensions / generator expressions.
+ * uses the same concept for inheritance django uses. it's very powerful
+   and easy to understand.
+ * provides so called macros that allow you to put often used template
+   snippets into callable blocks
+ * designer friendly. jinja simplifies many things for a template designer.
+   loops can be used in a recursive way, filters are available to format
+   values, loops know about their iteration etc.
+ * dynamic syntax. you don't like the django block syntax? you can override
+   the syntax elements on environment initialisation. it's no problem to use
+   asp/php/ruby syntax, html comments for blocks etc.

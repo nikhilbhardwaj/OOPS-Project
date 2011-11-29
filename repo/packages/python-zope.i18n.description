@@ -1,0 +1,9 @@
+Zope3 internationalization support
+	
+this package implements several apis related to internationalization and
+localization:
+
+
+ * locale objects for all locales maintained by the icu project.
+ * gettext-based message catalogs for message strings.
+ * locale discovery for web-based requests.

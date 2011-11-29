@@ -1,0 +1,11 @@
+Qt4 based user interface for cmake (cmake-gui)
+	
+cmake is used to control the software compilation process using simple
+platform and compiler independent configuration files. cmake generates native
+makefiles and workspaces that can be used in the compiler environment of your
+choice.
+
+this package provides the cmake qt4 based gui. project configuration
+settings may be specified interactively. brief instructions are provided at
+the bottom of the window when the program is running. the main executable
+file for this gui is "cmake-gui".

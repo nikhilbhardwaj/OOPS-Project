@@ -1,0 +1,8 @@
+A library that implements application-level logging.
+	
+this library provides logging apis based on c++-style streams and
+various helper macros.
+
+this package is provided primarily to provide a backtrace with names
+in a debugger, this makes it somewhat easier to interpret core
+dumps.  most people will not need this package.

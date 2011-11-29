@@ -1,0 +1,9 @@
+Dump and load databases from hp 100lx/200lx palmtops
+	
+gdbload/gdbdump converts any standard hp/lx database to and from
+csv (comma-separated-values) format.  many formatting
+options are available.  world-time and appointment
+databases as well as application specific fields are not
+supported.
+
+the hp 100lx was introduced in 1993.

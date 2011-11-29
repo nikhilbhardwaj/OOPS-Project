@@ -1,0 +1,5 @@
+Php pear module for encrypting and decrypting with gnupg
+	
+crypt/gpg.php profides an object oriented interface to gnu privacy
+guard (gnupg).  this pear package is intended to facilitate
+public-key cryptography.

@@ -1,0 +1,22 @@
+Tools for developing, maintaining and distributing software.
+	
+the dist package is a set of tools meant to ease the construction
+and maintenance of portable software.
+
+the first component is the configure script generator, metaconfig, which
+automatically builds the configure script from your sources. ideally,
+the end-user receiving your source code will simply have to read
+your readme file, run the configure script (which is self-documented),
+and then run make.
+
+the second component is the makefile.sh generator, which is a generic
+configured makefile, reusing some of the information figured out
+by configure, and a generic jmakefile description.
+
+the third component is the rcs aware package generator, which is
+used when it's time to build up the shell archives used to distribute
+your program.
+
+the fourth and latest component is the patch generator, used to
+make updates of your sources, which can later be applied on the
+original  distribution by using the patch program.

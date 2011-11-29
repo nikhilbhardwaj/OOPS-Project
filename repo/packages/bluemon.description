@@ -1,0 +1,9 @@
+Activate or deactivate programs based on bluetooth link quality
+	
+bluemon monitors the quality of the link to a bluetooth device and can start
+or stop programs when the threshold drops below a certain value. this can be
+used to perform actions like locking the terminal when you walk away from it.
+
+bluemon uses the dbus system bus to alert other applications to the presence
+of bluetooth devices. a user binary can then start or stop programs when such
+signals are received.

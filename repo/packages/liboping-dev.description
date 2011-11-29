@@ -1,0 +1,6 @@
+C/c++ library to generate icmp echo_requests (development files)
+	
+liboping features pinging multiple hosts in parallel using ipv4 or ipv6
+transparently. the interface is object oriented.
+
+this package contains the header files, the static library and the manpages.

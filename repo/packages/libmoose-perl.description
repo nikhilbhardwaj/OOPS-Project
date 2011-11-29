@@ -1,0 +1,17 @@
+Modern perl object system framework
+	
+moose, it's the new camel. moose is an extension of the existing perl 5 object
+system, inspired by the object model available in perl 6.
+
+because moose is built on top of class::mop (libclass-mop-perl), it is easier
+to build normal perl objects, while also providing the power of metaclass
+programming. it is designed to provide as much convenience during definition
+and construction of classes as possible, but can still stay out of your way.
+
+moose also conveniently manages all attributes (including inherited ones) that
+are defined, but also provides facilities for properly initializing instance
+slots, setting defaults where appropriate and performing any necessary type
+constraint checking or coercion.
+
+more details about the structure of moose as well as its features can be found
+in the ever-expanding moose::cookbook document.

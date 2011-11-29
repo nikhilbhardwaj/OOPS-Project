@@ -1,0 +1,10 @@
+C minimal perfect hashing library command line utilities
+	
+minimal perfect hash functions are widely used for memory efficient storage
+and fast retrieval of items from static sets, such as words in natural
+languages, reserved words in programming languages or interactive systems,
+universal resource locations (urls) in web search engines, or item sets in
+data mining techniques.
+
+this package contains the cmph command line utility to generate and query
+minimal perfect hash functions.

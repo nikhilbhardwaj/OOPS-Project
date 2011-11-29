@@ -1,0 +1,7 @@
+Debian package management static library
+	
+this package provides the header files and static library necessary to
+develop software using libdpkg, the same library used internally by dpkg.
+
+note though, that the api is to be considered volatile, and might change
+at any time, use at your own risk.

@@ -1,0 +1,12 @@
+Simple text-based mixer control program
+	
+aumix is a small, easy-to-use program to control the mixer of your sound
+card. it runs in text mode using the ncurses library, or from the command
+line (non-interactively). it can read default settings from a file, and it
+can also automatically save and restore the mixer settings at shutdown and
+boot.
+
+a wrapper script xaumix is provided that finds and invokes xterm or a
+replacement. this is primarily for creating the best sized terminal window.
+if you want a true graphical interface, install aumix-gtk instead. that has
+the same functionality as this one in addition to offering a nice x gui.

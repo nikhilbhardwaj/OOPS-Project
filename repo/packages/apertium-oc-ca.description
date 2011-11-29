@@ -1,0 +1,13 @@
+Apertium linguistic data to translate between occitan and catalan
+	
+this is a linguistic package for the apertium shallow-transfer
+machine translation system. the package can be used to translate
+between occitan and catalan. catalan is a romance language spoken
+in spain, southern france, andorra and l'alguer (alghero) in
+italy. occitan is spoken both in the val d'aran (in catalonia) and
+in southern france and italy. this package supports both standard
+occitan, and the aranese variety which is official in the val d'aran.
+
+to use this package you will need to install both lttoolbox,
+the lexical-processing tools, and apertium, the tagger and
+transfer engine.

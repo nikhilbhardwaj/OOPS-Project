@@ -1,0 +1,7 @@
+Image viewer using gtk+ (transitional package)
+	
+package to ease upgrading from older gqview packages to the new geeqie
+package. it provides compatibility script to launch geeqie as gqview.
+
+this package can be purged at anytime once the geeqie package has been
+installed.

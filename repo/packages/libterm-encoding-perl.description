@@ -1,0 +1,4 @@
+Perl module to detect encoding of the current terminal
+	
+term::encoding is a simple module to detect an encoding the current terminal
+expects, in various ways.

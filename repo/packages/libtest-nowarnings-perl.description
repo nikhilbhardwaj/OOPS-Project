@@ -1,0 +1,15 @@
+Perl module to make sure you didn't emit any warnings while testing
+	
+in general, your tests shouldn't produce warnings. this modules causes any
+warnings to be captured and stored. it automatically adds an extra test that
+will run when your script ends to check that there were no warnings. if there
+were any warings, the test will give a "not ok" and diagnostics of where, when
+and what the warning was, including a stack trace of what was going on when
+the it occurred.
+
+if some of your tests are supposed to produce warnings then you should be
+capturing and checking them with test::warn, that way test::nowarnings will
+not see them and so not complain.
+
+the test is run by an end block in test::nowarnings. it will not be run when
+any forked children exit.

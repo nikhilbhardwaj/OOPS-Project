@@ -1,0 +1,12 @@
+Suite to help with debian packages in git repositories
+	
+this package contains the following tools:
+
+ * git-import-{dsc,dscs}: import existing debian source packages into a git
+   repository
+ * git-import-orig: import a new upstream version into the git repository
+ * git-buildpackage: build a package out of a git repository, check for local
+   modifications and tag appropriately
+ * git-dch: generate debian changelog entries from git commit messages
+ * gbp-{pull,clone}: clone and pull from remote repos
+ * gbp-pq: manage debian/patches easily

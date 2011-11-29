@@ -1,0 +1,7 @@
+Runtime library for openjade group's sp suite
+	
+this is the sp suite's shared library runtime support.  this c++
+library contains entity management functions, parsing functions, and
+other functions useful for sgml/xml/dsssl development.
+
+this shared library is used by the opensp and openjade packages.

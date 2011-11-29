@@ -1,0 +1,7 @@
+Ruby mixin client/server header signing authentication/verification
+	
+provides a class based object to do header signing authentication.
+a multiline hash for authorization will be encoded in multiple
+header lines.
+
+this package contains mixlib-authentication libraries for ruby 1.8.

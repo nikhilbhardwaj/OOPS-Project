@@ -1,0 +1,6 @@
+Simple wrapper around make to colorize output
+	
+this package contains colormake.pl which parses the output of make to
+colorize it to make it easier read. in addition, there are two wrapper
+scripts included, colormake and clmake, which can be invoked instead of make
+with colorized output on-the-fly.

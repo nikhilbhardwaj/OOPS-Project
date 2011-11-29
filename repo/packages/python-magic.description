@@ -1,0 +1,6 @@
+File type determination library using "magic" numbers (python bindings)
+	
+this library can be used to classify files according to magic number tests. it
+implements the core functionality of the file command.
+
+this package contains the python bindings.

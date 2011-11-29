@@ -1,0 +1,4 @@
+Mpd client for lastfmsubmitd
+	
+lastmp listens to an instance of mpd and sends information about played
+songs to the last.fm submission daemon.

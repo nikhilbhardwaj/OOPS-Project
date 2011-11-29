@@ -1,0 +1,6 @@
+Lisp markup language
+	
+lml provides a markup language for generation xhtml web pages. it is
+a different syntax than cl-lml2 which some people like better.
+in general, though, cl-lml2 is
+faster at compiling and generating xhtml than this package.

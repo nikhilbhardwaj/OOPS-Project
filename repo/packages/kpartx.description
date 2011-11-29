@@ -1,0 +1,4 @@
+Create device mappings for partitions
+	
+kpartx can be used to set up device mappings for the partitions of any
+partitioned block device. it is part of the linux multipath-tools.

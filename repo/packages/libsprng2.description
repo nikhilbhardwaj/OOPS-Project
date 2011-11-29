@@ -1,0 +1,9 @@
+The sprng scalable parallel rng library -- library package
+	
+the sprng (scalable parallel random number generator) library provides
+several rngs that are suitable for use in parallel computing.
+
+url: http://sprng.cs.fsu.edu
+
+this package provides the shared libraries needed to execute programs
+built with sprng.

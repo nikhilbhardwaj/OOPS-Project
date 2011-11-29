@@ -1,0 +1,10 @@
+Dependency extraction and processing system
+	
+toolkit to extract internal dependencies from a project, manipulate
+the dependency graph in arbitrary ways, and produce graphs to help in
+managing your project, including locating abusive #includes.
+
+it aims to be fully generic and pluggable, but is still under
+development.  however, several aspects are already possible to
+customize.  eg, you can provide your own graph transformations,
+styling rules, and graph renderers.

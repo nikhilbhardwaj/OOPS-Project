@@ -1,0 +1,11 @@
+Session initiation protocol (sip) library
+	
+osip is an implementation of sip.
+
+sip stands for the session initiation protocol and is described by the
+rfc3261.  this library aims to provide multimedia and telecom software
+developers an easy and powerful interface to initiate and control sip
+based sessions in their applications.
+
+sip is the ietf replacement for the itu's h323. example programs using this
+library are partysip and linphone.

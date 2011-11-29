@@ -1,0 +1,8 @@
+Gnu r package for financial engineering -- fasianoptions
+	
+this package of functions for financial engineering and computational
+finance is part of rmetrics, a collection of packages written and
+compiled by diethelm wuertz.
+
+fasianoptions provides functions to price and hedge 'asian' (i.e.
+averaging) options on one or several assets.

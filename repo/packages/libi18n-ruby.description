@@ -1,0 +1,9 @@
+I18n and localization solution for ruby
+	
+implementation of the ruby on rails i18n core api.  this is the same i18n
+library included in the ruby on rails framework, but provided outside of
+that framework for those who wish to use it without pulling the entire
+ruby on rails framework.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8).

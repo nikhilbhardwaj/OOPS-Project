@@ -1,0 +1,5 @@
+Tool to recover jpeg images from a filesystem image
+	
+recoverjpeg tries to identify jpeg pictures from a filesystem image.
+to achieve this goal, it scans the filesystem image and looks for a
+jpeg structure at blocks starting at 512 bytes boundaries.

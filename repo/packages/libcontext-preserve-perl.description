@@ -1,0 +1,10 @@
+Perl module to preserve calling context
+	
+context::preserve allows developers to preserve the calling context of their
+subroutines, which is useful for functions that call other functions and
+return their results, with some possible modifications. this means that, if
+your module is called in scalar, list or void context, the given subroutine
+is called in the same context and the appropriate 'thing' is returned.
+
+this means that it is easy to write functions that call other functions,
+modify their result and return it, in a seamless manner.

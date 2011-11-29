@@ -1,0 +1,7 @@
+Static libraries and fortran module files of etsf_io
+	
+etsf_io is a library of f90 routines to read/write the etsf file format.
+
+this package contains the static libraries provided by etsf_io to let
+electronic structure codes read and write etsf files. it also contains
+the module file used by the fortran compiler.

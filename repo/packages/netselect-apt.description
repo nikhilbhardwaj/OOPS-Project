@@ -1,0 +1,8 @@
+Speed tester for choosing a fast debian mirror
+	
+this package provides a utility that can choose the best debian mirror
+by downloading the full mirror list and using netselect to find the
+fastest/closest one.
+
+it can output a sources.list(5) file that can be used with package
+management tools such as apt or aptitude.

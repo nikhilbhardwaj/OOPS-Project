@@ -1,0 +1,7 @@
+Find uris in arbitrary text
+	
+this module does one thing: finds uris and urls in plain text.  it finds
+them quickly and it finds them all (or what uri::url considers a uri
+to be.)  it only finds uris which include a scheme (http:// or the
+like); for something a bit less strict have a look at
+uri::find::schemeless.

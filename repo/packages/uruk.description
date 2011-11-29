@@ -1,0 +1,13 @@
+Very small firewall script, for configuring iptables
+	
+uruk is a wrapper for linux ip[6]tables.  a very simple shell script, but
+useful if you need similar (but not the same) packet filtering configurations
+on lots of hosts.  it uses a template file, which gets sourced as a shell
+script, to get lists of source addresses, allowed to use specific network
+services.  listing these groups of allowed hosts and allowed services is all
+what's needed to configure your box.
+
+main difference with other firewall setup tools: uruk is just a very small
+(just 11k!) shell script, no gui, no interactive setup, no default
+configuration.  you'll like this if you'd rather not have lots of (probably
+buggy) code between you and your filtering rules.

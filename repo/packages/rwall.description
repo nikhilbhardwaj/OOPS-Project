@@ -1,0 +1,5 @@
+Send a message to users logged on a host
+	
+the rwall command sends a message to the users logged into the specified host.
+the message to be sent can be typed in and terminated with eof or it can be in
+a file.

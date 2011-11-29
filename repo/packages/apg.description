@@ -1,0 +1,32 @@
+Automated password generator - standalone version
+	
+apg (automated password generator) is the tool set for random
+password generation. it generates some random words of required type
+and prints them to standard output. this binary package contains only
+the standalone version of apg.
+advantages:
+
+ * built-in ansi x9.17 rng (random number generator)(cast/sha1)
+ * built-in password quality checking system (now it has support for bloom
+   filter for faster access)
+ * two password generation algorithms:
+    1. pronounceable password generation algorithm (according to nist
+       fips 181)
+    2. random character password generation algorithm with 35
+       configurable modes of operation
+ * configurable password length parameters
+ * configurable amount of generated passwords
+ * ability to initialize rng with user string
+ * support for /dev/random
+ * ability to crypt() generated passwords and print them as additional output.
+ * special parameters to use apg in script
+ * ability to log password generation requests for network version
+ * ability to control apg service access using tcpd
+ * ability to use password generation service from any type of box (mac,
+   winxx, etc.) that connected to network
+ * ability to enforce remote users to use only allowed type of password
+   generation
+
+the client/server version of apg has been deliberately omitted.
+
+upstream url: http://www.adel.nursat.kz/apg/download.shtml

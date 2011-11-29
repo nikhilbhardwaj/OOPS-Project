@@ -1,0 +1,7 @@
+Creates eps files usable in tex and pdftex
+	
+while pdflatex has a number of nice features, its primary shortcoming
+relative to standard latex+dvips is that it is unable to read ordinary
+encapsulated postscript (eps) files, the most common graphics format
+in the latex world. purifyeps converts eps files into a "purified"
+form that can be read by *both* latex+dvips and pdflatex.

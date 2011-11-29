@@ -1,0 +1,17 @@
+Latex support for cweb
+	
+this is the distribution of latex cweb, a bundle that allows you to
+use latex as the documentation markup of your cweb program. your cweb
+programs may be latex documents now -- with sections, subsections,
+environments, figures, graphics inclusion, etc.
+
+you will want to use this bundle if you
+
+ - are a cweb programmer and use latex elsewhere,
+ - haven't used cweb up to now, because you wanted structured markup
+   (and you didn't want to develop it yourself), or
+ - want a hierarchic document structure for cweb programs.
+
+
+if you want to latex the example program, you will need the rcs-latex
+package, although this is not essential.

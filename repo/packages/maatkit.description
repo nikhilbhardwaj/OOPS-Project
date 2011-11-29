@@ -1,0 +1,6 @@
+Command-line utilities for mysql
+	
+contains utilities to check replication slaves for consistency with the
+master, efficiently synchronize remote tables, archive rows from oltp
+servers, log deadlocks, find duplicate indexes and foreign keys, profile
+queries, and perform other essential tasks.

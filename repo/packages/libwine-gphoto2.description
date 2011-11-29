@@ -1,0 +1,7 @@
+Windows api implementation - camera module
+	
+wine is a free ms-windows api implementation.
+this is still a work in progress and many applications may still not work.
+
+this package contains a twain interface that allows windows applications
+to communicate with cameras supported by gphoto2.

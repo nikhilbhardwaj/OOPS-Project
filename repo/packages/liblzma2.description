@@ -1,0 +1,9 @@
+Xz-format compression library
+	
+xz is the successor to the lempel-ziv/markov-chain algorithm
+compression format, which provides memory-hungry but powerful
+compression (often better than bzip2) and fast, easy decompression.
+
+the native format of liblzma is xz; it also supports raw (headerless)
+streams and the older lzma format used by lzma. (for 7-zip's related
+format, use the p7zip package instead.)

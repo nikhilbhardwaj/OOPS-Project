@@ -1,0 +1,7 @@
+Runtime libraries for styx
+	
+dynamically linked programs containing lexical scanners or parsers
+developed with styx depend on this library.
+
+it implements abstract grammar, lalr(1) parser and lexical scanner
+interfaces, hashed symbol tables and supporting data types.

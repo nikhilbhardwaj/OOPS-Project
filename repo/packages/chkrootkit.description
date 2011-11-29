@@ -1,0 +1,12 @@
+Rootkit detector
+	
+the chkrootkit security scanner searches the local system for signs
+that it is infected with a 'rootkit'. rootkits are set of programs
+and hacks designed to take control of a target machine by using known
+security flaws.
+
+types that chkrootkit can identify are listed on the project's home page.
+
+please note that where chkrootkit detects no intrusions, this does
+not guarantee that the system is uncompromised. in addition to
+running chkrootkit, more specific tests should always be performed.

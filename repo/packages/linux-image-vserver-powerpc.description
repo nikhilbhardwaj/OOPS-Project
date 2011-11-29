@@ -1,0 +1,6 @@
+Linux for uniprocessor 32-bit powerpc (meta-package), linux-vserver support
+	
+this package depends on the latest linux kernel and modules for use on
+uniprocessor 32-bit powerpc.
+
+this kernel includes support for linux-vserver virtualization.

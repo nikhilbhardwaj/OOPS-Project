@@ -1,0 +1,7 @@
+Perl interface to the llnl genders cluster management utilities
+	
+a perl api for querying the genders file, for llnl genders cluster
+configuration management. it is used by
+system administration scripts that need to manipulate lists of nodes or
+attributes and for performance or other reasons cannot do so via
+repeated calls to the nodeattr utility.

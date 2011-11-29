@@ -1,0 +1,10 @@
+Xml-rpc client and server library for haskell; documentation
+	
+haxr is a library for writing xml-rpc client and server applications in
+haskell.
+
+haxr consists of two packages: haxr and haxr-th. the latter package
+contains the template haskell code used for automatically deriving
+xml-rpc struct representations for haskell records.
+
+this package contains the libraries documentation.

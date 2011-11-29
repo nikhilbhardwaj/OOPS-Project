@@ -1,0 +1,22 @@
+The iceape internet suite
+	
+the iceape internet suite is an unbranded seamonkey internet suite suitable
+for free distribution. the seamonkey internet suite is a set of internet
+oriented applications. it is the continuity of the mozilla suite after it
+has been abandoned in favor of firefox and thunderbird.
+
+the iceape internet suite consists of:
+
+ - an internet browser (iceape navigator)
+ - an html wysiwyg editor (iceape composer)
+ - a mail and news client (iceape mail & newsgroups)
+ - an address book (iceape address book)
+ - an irc client (chatzilla)
+ - a calendar (iceape calendar) (not officially in the suite)
+
+
+this is a metapackage that depends on the main components of this suite.
+it is here to ease upgrades, installations, and provide a consistent upgrade
+path from previous versions.
+
+it can safely be removed with no ill effects.

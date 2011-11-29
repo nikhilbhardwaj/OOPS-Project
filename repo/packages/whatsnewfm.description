@@ -1,0 +1,13 @@
+A utility to filter the daily newsletter from freshmeat.net
+	
+whatsnewfm is a utility to filter the daily newsletter from freshmeat.net
+
+the main purpose is to cut the huge newsletter to a smaller size by
+only showing items that you didn't see before.
+
+the items already seen will be stored in a database. after some time, the items
+expire and will be shown again the next time they are included in a newsletter.
+
+if you find an item that you consider particularly useful, you can add it to a
+"hot" list. items in the hot list are checked for updates so that you don't
+miss anything about your favourite programs.

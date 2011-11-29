@@ -1,0 +1,5 @@
+Perl modules for processing sgml parser output
+	
+this is a set of perl5 routines for processing the output from the
+sgmls and nsgmls sgml parsers.  to make sensible use of this package
+you will need to install a suitable sgml parser as well.

@@ -1,0 +1,8 @@
+The gnome mud client
+	
+gnome-mud is a multi-user dungeon (mud) client for x. it supports aliases,
+triggers, multiple connections, command queuing, ipv6 servers and implements
+more advanced mud protocols like msp or zmp. it includes a plugin interface,
+which can be used to add your own features (for example, a graphical health
+monitor).  it uses the gtk+ toolkit, but it can be used with any window
+manager.

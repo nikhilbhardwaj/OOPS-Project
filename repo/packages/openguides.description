@@ -1,0 +1,8 @@
+A web application for managing a collaboratively-written city guide
+	
+the openguides software provides the framework for a collaboratively-written
+city guide.  it is similar to a wiki but provides somewhat more structured
+data storage allowing you to annotate wiki pages with information such as
+category, location, and much more.  it provides searching facilities
+including "find me everything within a certain distance of this place".
+every page includes a link to a machine-readable (rdf) version of the page.

@@ -1,0 +1,9 @@
+Zfs on fuse
+	
+zfs is an advanced filesystem from sun microsystems, originally developed
+for solaris. it provides a number of advanced features, such as live
+integrity checks, atomic updates, atomic snapshots and clones, compression,
+and much more.
+
+this package provides an implementation of sun's zfs filesystem in userspace,
+using fuse.

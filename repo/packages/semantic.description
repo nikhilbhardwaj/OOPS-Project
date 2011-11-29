@@ -1,0 +1,26 @@
+Parser infrastructure for emacsen
+	
+the semantic bovinator's goal is to provide an intermediate api for
+authors of language agnostic tools who want to deal with languages in
+a generic way.  it also provides a simple way for mode authors, who
+are experts in their language, to provide a parser for those tool
+authors, without knowing anything about those tools.
+
+the semantic bovinator is made up of these important pieces:
+
+ - lexer: converts a language into a token stream
+ - parser: converts a token stream into a stream of nonterminals
+   defined by the language.
+ - parser-generator: converts a language definition into a table
+   usable by the parser. (written using the semantic bovinator)
+ - language definitions: parsers already existing for the parser
+   generator language (bovine normal form), emacs lisp, and c.
+ - speedbar browser: code for browsing a generated nonterminal list
+   with speedbar.
+ - documentation generator: identifies inline documentation in source
+   code, and can convert it to texinfo.  it can also create inline
+   documentation.
+
+
+semantic is now a part of cedet (collection of emacs development
+environment tools).

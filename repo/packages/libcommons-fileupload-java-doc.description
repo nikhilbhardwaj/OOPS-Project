@@ -1,0 +1,9 @@
+Javadoc api documentation for commons fileuploads
+	
+fileupload parses http requests which conform to rfc 1867, "form-based file
+upload in html". that is, if an http request is submitted using the post
+method, and with a content type of "multipart/form-data", then fileupload
+can parse that request, and make the results available in a manner easily
+used by the caller.
+
+this package contains javadoc api documentation for commons fileupload.

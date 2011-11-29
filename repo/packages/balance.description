@@ -1,0 +1,8 @@
+Load balancing solution and generic tcp proxy
+	
+balance is a load balancing solution being a simple but powerful
+generic tcp proxy with round robin load balancing and failover
+mechanisms. its behaviour can be controlled at runtime using a
+simple command line syntax.
+
+homepage: http://www.inlab.de/balance.html

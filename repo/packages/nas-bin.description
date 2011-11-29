@@ -1,0 +1,10 @@
+Network audio system - client binaries
+	
+the network audio system (nas) was developed by ncd for playing,
+recording, and manipulating audio data over a network. like the x
+window system, it uses the client/server model to separate
+applications from the specific drivers that control audio input and
+output devices.
+
+this package contains the example applications and utilities that are
+provided with nas.

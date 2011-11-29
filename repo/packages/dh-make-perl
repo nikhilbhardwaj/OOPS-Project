@@ -1,0 +1,4 @@
+PackageId:2958
+Name:dh-make-perl
+Version:0.70-1
+Deps:debhelper,dpkg-dev,fakeroot,libapt-pkg-perl,libarray-unique-perl,libclass-accessor-perl,libdpkg-perl,libemail-date-format-perl,liblist-moreutils-perl,libmodule-depends-perl,libparse-debcontrol-perl,libparse-debianchangelog-perl,libtie-ixhash-perl,libwww-mechanize-perl,libyaml-perl,make,perl,libmodule-corelist-perl,perl-modules

@@ -1,0 +1,21 @@
+X11 distributed multihead library (debug package)
+	
+libdmx is an interface to the dmx extension for x, which allows a single
+server to be set up as a proxy spanning multiple servers -- not unlike
+xinerama across discrete physical machines.  it can be reconfigured
+on the fly to change the layout, and it is presented as a single logical
+display to clients.
+
+libdmx allows clients to configure the layout of dmx servers by adding
+and removing screens, input devices, et al.
+
+this package contains the debug versions of the library found in libdmx1.
+non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libdmx

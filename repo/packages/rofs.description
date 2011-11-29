@@ -1,0 +1,6 @@
+Read-only filesystem for fuse
+	
+rofs is a read-only filesystem that allows you to create a read-only
+mountpoint of a read-write directory on your system.
+
+homepage: http://mattwork.potsdam.edu/projects/wiki/index.php/rofs

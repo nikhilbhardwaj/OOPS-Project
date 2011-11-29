@@ -1,0 +1,7 @@
+Unit testing framework for postgresql
+	
+pgtap is a suite of database functions that make it easy to write
+tap-emitting unit tests in psql scripts suitable for harvesting,
+analysis, and reporting by a tap harness, such as those used in perl
+and php applications.
+tap is the test anything protocol (http://testanything.org/).

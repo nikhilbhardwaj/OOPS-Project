@@ -1,0 +1,12 @@
+Simple command line utility to create bittorrent metainfo files
+	
+mktorrent is a text-based utility to create bittorrent metainfo files
+used by trackers and torrent clients. it can create metainfo files for single
+files or complete directories in a fast way.
+
+it also supports:
+
+ - multiple trackers
+ - embed custom comments into the file
+ - dissalow dht and peer exchange
+ - support for multi-threaded hashing

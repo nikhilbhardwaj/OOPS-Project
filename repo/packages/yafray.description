@@ -1,0 +1,7 @@
+A modern, xml-speaking raytracing-based rendering system
+	
+yafray (yet another free raytracer) is an advanced raytracing
+rendering system with many modern features including full radiosity
+and high dynamic range imaging (hdri) for scene lighting. it reads a
+simple xml-based scene definition file, and can be used as a renderer
+for blender.

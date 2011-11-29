@@ -1,0 +1,10 @@
+A python interface to the gnuplot plotting program
+	
+gnuplot.py is a python module that interfaces to gnuplot, the popular
+plotting program. it allows you to use gnuplot from within python to
+plot arrays of data from memory, data files, or mathematical
+functions. if you use python to perform computations or as `glue' for
+numerical programs, you can use this module to plot data on the fly as
+they are computed. and the combination with python makes it is easy to
+automate things, including to create crude `animations' by plotting
+different datasets one after another.

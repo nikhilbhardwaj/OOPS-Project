@@ -1,0 +1,17 @@
+Yet another tex mode for emacs
+	
+yatex is an intelligent, acquisitive and integrated package which reduces
+your efforts of composing latex source on emacs.
+
+yatex automates typesetting and previewing of latex and enables
+completing input of latex mark-up command such as `\begin{}'..`\end{}'.
+
+this package also includes yahtml mode, the honest and bright yatex-compatible
+major-mode for writing html. if you have noticed the power of yatex, you can
+drive yahtml over the html files quickly and steadily. and vice versa, of
+course.
+
+yatex also supports demacs which runs on ms-dos(386), mule
+(multi language enhancement to gnu emacs), and latex on dos.
+
+for more information, please refer to http://www.yatex.org/

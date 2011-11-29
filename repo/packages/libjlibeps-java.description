@@ -1,0 +1,10 @@
+Java library to create eps images
+	
+the jlibeps classes are a set of java classes for creating eps images.
+
+they are suitable for creating high quality eps graphics for use
+in documents and papers, and can be used just like a standard graphics2d
+object within java applications that are using awt.
+
+jlibeps is a fork of the last gpl version of the epsgraphics2d package
+from jibble.org.

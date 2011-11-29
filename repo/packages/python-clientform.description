@@ -1,0 +1,6 @@
+Module for handling html forms on the client side
+	
+clientform is a python module for handling html forms on the client side,
+useful for parsing html forms, filling them in and returning the completed
+forms to the server. it developed from a port of gisle aas' perl module
+html::form, from the libwww-perl library, but the interface is not the same.

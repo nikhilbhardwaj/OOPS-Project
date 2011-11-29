@@ -1,0 +1,11 @@
+An x window system chess board
+	
+xboard is a graphical chessboard that can serve as a user interface
+for chess programs, for the internet chess server, or for electronic
+mail correspondence chess. it supports all major forms of chess,
+such as international chess, xiangqi and shogi. xboard can also be
+used by itself as viewer for stored chess games.
+
+xboard uses the helvetica font (located in the xfonts-75dpi and
+xfonts-100dpi packages) by default.  however, other fonts can be
+specified via a command line option or an x resource.

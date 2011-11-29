@@ -1,0 +1,5 @@
+Ethernet bridge frame table administration
+	
+ebtables is used to set up, maintain, and inspect the tables of
+ethernet frame rules in the linux kernel. it is analogous to iptables,
+but operates at the mac layer rather than the ip layer.

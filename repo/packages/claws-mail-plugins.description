@@ -1,0 +1,8 @@
+Installs plugins for the claws mail mailer
+	
+this is a metapackage to install all plugin packages provided
+within the claws mail sources.
+
+it does not install third party plugins available in the archive.
+
+see the claws-mail-extra-plugins package for more plugins.

@@ -1,0 +1,9 @@
+Procmail library of plug-in recipes
+	
+procmail module library is a collection of many plug-in modules for
+the procmail mail processing utility. the modules allow common tasks
+like parsing dates, times, mime, and email addresses, forwarding
+mail, dealing with pop3, spam shielding, running email cron jobs,
+handling daemon messages, and more.
+
+includes also all of alan stebben's recipes (the pioneer of prcmail).

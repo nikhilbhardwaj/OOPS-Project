@@ -1,0 +1,8 @@
+Creative labs nomad jukebox example binaries
+	
+a library for communicating with the creative nomad jukebox mp3
+player. more information can be found at the libnjb web site:
+http://sf.net/projects/libnjb/
+this package contains the example binaries each performing a simple
+function, such as transferring a track to the jukebox. the source code
+for these examples is in the package libnjb-doc.

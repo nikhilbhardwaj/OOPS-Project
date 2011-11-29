@@ -1,0 +1,17 @@
+Tool for managing i-blue 747 and compatible gps data loggers
+	
+mtkbabel is a command line program to operate the i-blue 747 gps data logger.
+it should work also with other gps devices based on the mediatek mtk chipset.
+for instance the holux m-241 gps data logger, the holux m-1200e, as well as
+the 747 a+ gps trip recorder, are also known to work.
+
+the main features are:
+
+ - command line interface
+ - save data log in gpx and raw binary format
+ - if required retrieve all the data, also the old one being overlapped
+ - change logging criteria: time, distance, speed
+ - change log format
+ - start/stop logging
+ - set overlap or stop method on memory full
+ - erase the internal memory

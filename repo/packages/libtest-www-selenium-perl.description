@@ -1,0 +1,6 @@
+Perl test framework using selenium remote control
+	
+test::www::selenium is a www::selenium subclass that provides methods useful
+for writing an automated test suite. for every selenium command, there is a
+corresponding method that checks its return value; likewise, for each getter,
+there is a corresponding set of methods to verify the value of the attribute.

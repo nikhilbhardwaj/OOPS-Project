@@ -1,0 +1,12 @@
+A gtk+ logbook editor
+	
+notebook is designed to store different kinds of information,
+including:
+
+ - regular notes.
+ - personal notes.
+ - bookmarks.
+
+
+you can search and sort through the information stored.it
+uses xml and is easy to import/export only part of the data.

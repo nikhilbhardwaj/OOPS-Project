@@ -1,0 +1,6 @@
+Module to manipulate cpan signature files
+	
+module::signature is a perl module that adds cryptographic authentications to
+cpan distributions, via the special signature file. it also includes various
+tools to sign distributions and to verify signatures and supports using many
+different cryptographic hashing algorithms.

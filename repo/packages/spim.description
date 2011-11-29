@@ -1,0 +1,10 @@
+Mips r2000/r3000 emulator
+	
+emulates a mips r2000/r3000 processor in software.
+useful for students who are taught mips r2000/r3000 assembly.
+
+spim s20 is a software simulator that runs assembly language programs for
+the mips r2000/r3000 risc computers.  spim can read and immediately run
+files containing assembly language statements.  spim is a self-contained
+system for running these programs and contains a debugger and interface to
+the operating system.

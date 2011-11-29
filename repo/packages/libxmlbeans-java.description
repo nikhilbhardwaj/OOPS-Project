@@ -1,0 +1,13 @@
+Java library for accessing xml by binding it to java types
+	
+xmlbeans is a technology for accessing xml by binding it to java types.
+
+xmlbeans provides several ways to get at the xml, including:
+
+ * through xml schema that has been compiled to generate java types that
+   represent schema types. in this way, you can access instances of the
+   schema through javabeans-style accessors after the fashion of "getfoo"
+   and "setfoo". the xmlbeans api also allows you to reflect into the xml
+   schema itself through an xml schema object model.
+ * a cursor model through which you can traverse the full xml infoset.
+ * support for xml dom.

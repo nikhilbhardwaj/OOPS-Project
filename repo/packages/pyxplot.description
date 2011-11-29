@@ -1,0 +1,11 @@
+Data plotting program producing publication-quality output
+	
+pyxplot is a command-line graphing/plotting package with a simple interface
+resembling that of gnuplot.
+
+pyxplot aims to improve significantly upon the quality of gnuplot's output,
+producing publication-quality figures. to this end, text is rendered with all
+of the beauty and flexibility of the latex typesetting environment.
+
+extensive documentation and examples can be found in the pyxplot-doc package.
+a gallery of sample plots is available from the project's web site.

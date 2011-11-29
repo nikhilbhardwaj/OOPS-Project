@@ -1,0 +1,13 @@
+Gnome music player client (graphical interface to mpd)
+	
+a gnome/gtk2.2 client for music player daemon, it began life as traymp,
+a simple tray notification client and has grown into much more.
+current features include:
+
+ * support for loading/saving playlists
+ * file browser
+ * browser based on id3 information
+ * search
+ * current playlist viewer with search
+ * id3 information
+ * cover art (via plugins)

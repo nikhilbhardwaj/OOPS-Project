@@ -1,0 +1,10 @@
+Advanced, stable and fast ircd
+	
+ircd-ratbox is a full featured ircd.  it is the primary ircd used on efnet,
+combining the stability of an ircd required for a large production network
+together with a rich set of features making it suitable for use on smaller
+networks.
+
+ircd-ratbox also has a twin services package with compatibility code in
+ircd-ratbox allowing for enhanced features and better support for networks
+with channel registration.

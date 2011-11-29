@@ -1,0 +1,23 @@
+Low-level virtual machine (llvm)
+	
+the low-level virtual machine (llvm) is a collection of libraries and
+tools that make it easy to build compilers, optimizers, just-in-time
+code generators, and many other compiler-related programs. llvm
+uses a single, language-independent virtual instruction set both
+as an offline code representation (to communicate code between
+compiler phases and to run-time systems) and as the compiler internal
+representation (to analyze and transform programs). this persistent
+code representation allows a common set of sophisticated compiler
+techniques to be applied at compile-time, link-time, install-time,
+run-time, or "idle-time" (between program runs).
+
+the strengths of the llvm infrastructure are its extremely
+simple design (which makes it easy to understand and use),
+source-language independence, powerful mid-level optimizer, automated
+compiler debugging support, extensibility, and its stability and
+reliability. llvm is currently being used to host a wide variety of
+academic research projects and commercial projects. llvm includes c
+and c++ front-ends (based on gcc 4.0.1), a front-end for a forth-like
+language (stacker), a young scheme front-end, and java support is
+in development. llvm can generate code for x86, sparcv9, powerpc,
+or it can emit c code.

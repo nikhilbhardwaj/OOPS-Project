@@ -1,0 +1,11 @@
+Fake the system date
+	
+this program (and preload library) fakes the system date so that
+programs think the wall clock is ... different.
+
+the faking is not complete; timestamp on files are not affected in any
+way.
+
+this package is useful if you want to test the date handling of your
+programs without changing the system clock. examples: does it handle
+expired certificates correctly? does it work on a leap day?

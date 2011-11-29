@@ -1,0 +1,7 @@
+Io library for the gifti cortical surface data format
+	
+gifti is an xml-based file format for cortical surface data. this reference
+io implementation is developed by the neuroimaging informatics technology
+initiative (nifti).
+
+this package provides the header files and static library.

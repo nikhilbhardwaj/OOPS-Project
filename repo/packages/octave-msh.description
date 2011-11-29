@@ -1,0 +1,9 @@
+Create and manage meshes for fe or fv solvers in octave
+	
+this package creates and manages triangular and tetrahedral meshes
+for finite element or finite volume pde solvers in octave, a
+scientific computation software. it uses a mesh data structure
+compatible with pdetool.  it relies on gmsh for unstructured mesh
+generation.
+
+this octave add-on package is part of the octave-forge project.

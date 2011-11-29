@@ -1,0 +1,19 @@
+Editor of the mime file types database
+	
+assogiate is an editor of the mime file types database for gnome.
+
+it allows users and administrators to customise the detection
+and presentation of file types by gnome and other environments.
+
+features:
+
+  * compliant with the freedesktop.org shared mime info and icon theme
+    specifications.
+  * standard file types can be modified, and additional file types can be
+    added and removed.
+  * file type detection based on filenames, file contents, and xml root
+    elements can be specified.
+  * default icons can be selected for file types without them.
+  * modifications can be imported and exported for network deployment or
+    public exchange.
+  * a complete help manual is included.

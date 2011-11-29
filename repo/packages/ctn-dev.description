@@ -1,0 +1,7 @@
+Development files for central test node, a dicom implementation
+	
+dicom is the standard for image storage, annotation, and networking.
+it is used widely for medical imaging.
+
+this package includes the header files and static library used for
+creating programs that use the ctn library.

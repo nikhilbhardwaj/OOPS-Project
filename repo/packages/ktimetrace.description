@@ -1,0 +1,11 @@
+Graphical tool to measure and graph data
+	
+ktimetrace is a graphical tool based on qt that measures and
+displays data from data acquisition hardware.  it captures
+samples from a data acquisition device, saving it to disk
+while providing a real-time graphing display.
+
+ktimetrace requires having a data acquisition device that is
+supported by comedi in order to capture data.  see the libcomedi0
+package or http://stm.lbl.gov/comedi for more information about
+comedi.

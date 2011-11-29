@@ -1,0 +1,7 @@
+Tool for enabling and disabling wireless devices
+	
+rfkill is a simple tool for accessing the linux rfkill device interface,
+which is used to enable and disable wireless networking devices, typically
+wlan, bluetooth and mobile broadband.
+
+rfkill uses /dev/rfkill, which is present in linux kernel 2.6.31 and later.

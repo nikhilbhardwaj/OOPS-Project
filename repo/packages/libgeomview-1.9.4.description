@@ -1,0 +1,8 @@
+Geomview library runtime
+	
+geomview is interactive geometry software which is
+particularly appropriate for mathematics research and education.
+
+oogl is the object oriented graphics library, upon which geomview is
+built.  this package provides the run-time oogl library for geomview
+and its modules.

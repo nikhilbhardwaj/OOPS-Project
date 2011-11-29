@@ -1,0 +1,8 @@
+Check your multicast connectivity
+	
+tools to check whether you can receive source specific multicast (ssm)
+or any source multicast (asm) via either ipv4 or ipv6
+
+if a host runs ssmpingd, users on other hosts can use the ssmping client
+to test whether they can receive ssm from the host. another program
+called asmping is also provided to check whether can receive asm.

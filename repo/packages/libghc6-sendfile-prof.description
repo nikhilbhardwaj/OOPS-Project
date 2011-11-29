@@ -1,0 +1,10 @@
+Haskell portable sendfile library - ghc 6 profiling libraries
+	
+this haskell library exposes zero-copy sendfile functionality in a
+portable way. sendfile is a non standard system call that copies data
+between one file descriptor and another. this library uses the native
+implementations where possible (for example, under linux or freebsd) and
+provides an haskell replacement in other cases, thus providing a
+portable interface.
+
+this package contains the profiling libraries compiled for ghc 6.

@@ -1,0 +1,7 @@
+Gobject introspection data for the clutter 1.0 library
+	
+this package contains introspection data for the clutter scene
+graph library.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

@@ -1,0 +1,10 @@
+Network ups tools - powerman pdu driver
+	
+network ups tools (nut) is a client/server monitoring system that
+allows computers to share uninterruptible power supply (ups) and
+power distribution unit (pdu) hardware. clients access the hardware
+through the server, and are notified whenever the power status
+changes.
+
+this package provides powerman-pdu, which allows nut clients to communicate
+with the powerman daemon to support pdus.

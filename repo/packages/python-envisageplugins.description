@@ -1,0 +1,21 @@
+Plugins for the envisage framework
+	
+the envisageplugins project includes a number of plug-ins for the
+envisage framework that enthought has found useful for building
+scientific applications. envisage does not require that you use these
+plug-ins, but you may find them useful to avoid having to reinvent
+these particular wheels.
+
+
+   * workbench: provides an application gui window that supports
+     views and perspectives, similar to the eclipse ide.
+   * action: supports user-interaction command mechanisms, such as
+     toolbars, menus, and buttons.
+   * single project: supports a project paradigm for saving
+     application data, assuming an interaction model in which only
+     one project can be open in the application at a time.
+   * text editor: provides a rudimentary text editor interface.
+   * python shell: provides an interactive python shell within a
+     workbench-based application.
+   * debug: provides the frame based inspector from the etsdevtools
+     project as an envisage plug-in

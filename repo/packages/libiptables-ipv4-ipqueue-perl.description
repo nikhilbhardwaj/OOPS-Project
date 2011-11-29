@@ -1,0 +1,8 @@
+Perl extension for libipq
+	
+perlipq (iptables::ipv4::ipqueue) is a perl extension for iptables userspace
+packet queuing via libipq.
+
+packets may be selected from the stack via the iptables queue target
+and passed to userspace.  perlipq allows these packets to be manipulated in
+perl and passed back to the stack.

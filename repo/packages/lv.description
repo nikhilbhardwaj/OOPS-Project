@@ -1,0 +1,11 @@
+Powerful multilingual file viewer
+	
+lv is a powerful file viewer like less.
+lv can decode and encode multilingual streams through
+many coding systems:
+iso-8859, iso-2022, euc, sjis, big5, hz, unicode.
+
+it recognizes multi-bytes patterns as regular
+expressions, lv also provides multilingual grep.
+in addition, lv can recognize ansi escape sequences
+for text decoration.

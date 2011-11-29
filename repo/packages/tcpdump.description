@@ -1,0 +1,11 @@
+A powerful tool for network monitoring and data acquisition
+	
+this program allows you to dump the traffic on a network. tcpdump
+is able to examine ipv4, icmpv4, ipv6, icmpv6, udp, tcp, snmp, afs
+bgp, rip, pim, dvmrp, igmp, smb, ospf, nfs and many other packet
+types.
+
+it can be used to print out the headers of packets on a network
+interface, filter packets that match a certain expression. you can
+use this tool to track down network problems, to detect "ping attacks"
+or to monitor network activities.

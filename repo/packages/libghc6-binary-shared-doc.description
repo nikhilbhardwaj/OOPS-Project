@@ -1,0 +1,8 @@
+Sharing-enhanced binary encoding; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library is similar to the haskell binary library, but add support to
+sharing identical element occuring in the data to be (de-)serialized.

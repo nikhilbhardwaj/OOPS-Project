@@ -1,0 +1,17 @@
+A semantic checker for fortran 77 programs
+	
+ftnchek (short for fortran checker) is a tool designed to detect
+certain errors in a fortran program that a compiler usually does not,
+thus assisting users in the debugging of their fortran programs.
+
+unlike syntax errors, semantic errors are legal in the fortran
+language but are wasteful or may cause incorrect operation. for
+example, variables which are never used may indicate some omission in
+the program; uninitialized variables contain garbage which may cause
+incorrect results to be calculated; and variables which are not
+declared may not have the intended type.
+
+ftnchek can also be used to provide call-trees, cross-reference of
+subprogram calls and common blocks usage, source listings, symbol
+tables and other things you might find useful when debugging a
+fortran program.

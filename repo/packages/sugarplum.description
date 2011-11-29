@@ -1,0 +1,14 @@
+An automated and intelligent spam trap/cache-poisoner
+	
+sugarplum is an automated spam-poisoner. its purpose is to feed realistic
+and enticing, but totally useless or hazardous data to wandering address
+harvesters such as emailsiphon, cherry picker, etc.  the idea is to so
+contaminate spammers' databases as to require that they be discarded,
+or at least that all data retrieved from your site (including actual
+email addresses) be removed.
+
+sugarplum employs a combination of apache's mod_rewrite url rewriting
+rules and perl code. it combines several anti-spambot tactics,
+includling fictitious (but rfc822-compliant) email address poisoning,
+injection with the addresses of known spammers (let them all spam each
+other), deterministic output, and "teergrube" spamtrap addressing.

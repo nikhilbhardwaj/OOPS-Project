@@ -1,0 +1,16 @@
+Utility to automatically build a debian package of google earth
+	
+google earth is a 3d planet viewer that lets you interactively navigate
+satellite imagery, maps, terrain, and so forth.
+
+google earth is available for gnu/linux from their web site, but is
+non-free software and is undistributable. it also does not integrate
+well into a debian system.
+
+this utility makes it possible to build your own personal debian
+package of google earth. the packaging itself is free software, but
+the google earth program is governed by the copyright holder (google),
+so you may be limited as to what you can do with the resulting
+package (i.e. no redistribution, etc). this package will simply help
+you create the package--it is your responsibility to use the resulting
+package responsibly.

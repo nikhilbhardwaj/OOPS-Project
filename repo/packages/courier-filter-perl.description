@@ -1,0 +1,26 @@
+Purely perl-based mail filter framework for the courier mta
+	
+courier::filter implements the courier mta's courierfilter interface as a
+framework for mail filter modules.  authors of filter modules can concentrate
+on writing the actual filter logic without having to care about the usual
+low-level details of the courierfilter interface.  logging to various
+facilities is also supported.
+
+courier::filter allows multiple filter modules to be installed in stacked and
+hierarchically grouped configurations.  also, modules' polarity can be
+reversed, so some modules can be used for explicitly accepting messages while
+others are used in the traditional way for rejecting messages.
+
+the following filter modules are included:
+
+  * blankbody: matching of blank bodies (a stupid spammer symptom)
+  * dnsbl:     matching of calling mta's ip address against dns black-lists
+  * spf:       authentication of sender addresses in inbound messages
+  * spfout:    authentication of sender addresses in outbound messages
+  * envelope:  matching of rfc 2821 message envelope fields
+  * header:    matching of rfc 2822 message header fields
+  * fakedate:  detection of implausible and malformed date header fields
+  * clamavd:   malware detection using the clamav scanner
+  * spamassassin:  spam detection using spamassassin
+  * parts:     matching of mime parts and zip archive contents
+  * sendcopy:  sending message copies to additional recipients

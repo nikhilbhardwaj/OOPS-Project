@@ -1,0 +1,10 @@
+Program that can find unused packages, e.g. libraries
+	
+deborphan finds "orphaned" packages on your system. it determines which
+packages have no other packages depending on their installation and shows
+you a list of these packages. it is most useful when finding libraries,
+but it can be used on packages in all sections.
+
+this package also includes orphaner, a text menu frontend to deborphan.
+please install the recommended packages dialog, gettext-base and apt when
+you want a working and fully featured orphaner.

@@ -1,0 +1,8 @@
+Vtk header files for building c++ code
+	
+the visualization toolkit (vtk) is an object oriented, high level
+library that allows one to easily write c++ programs, tcl, python and
+java scripts that do 3d visualization.
+
+this package provides the vtk header files required to compile
+c++ programs that use vtk to do 3d visualisation.

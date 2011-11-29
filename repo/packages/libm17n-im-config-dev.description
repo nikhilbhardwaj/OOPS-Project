@@ -1,0 +1,9 @@
+An input method configuration library for m17n-lib - development
+	
+m17n-im-config is a library to create a gtk+ widget for per-user
+configuration of input methods provided by the m17n library, and a
+standalone gui program which demonstrates the library.  m17n is an
+abbreviation of multilingualization.
+
+this package contains the header and development files needed to build
+programs and packages using the m17n-im-config library.

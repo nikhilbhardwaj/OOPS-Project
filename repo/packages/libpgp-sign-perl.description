@@ -1,0 +1,6 @@
+Perl module to create detached pgp signatures
+	
+creates and checks detached pgp signatures for textual data using gnupg.
+other pgp implementations are also supported with run-time configuration.
+secret key passphrases are passed via a pipe, and no temporary files are
+required for signature generation (but are for signature verification).

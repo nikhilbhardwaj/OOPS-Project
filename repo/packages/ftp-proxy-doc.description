@@ -1,0 +1,8 @@
+Documentation for ftp-proxy
+	
+ftp-proxy is a transparent, application-level proxy server for ftp
+connections, designed to protect ftp servers against attacks based on the ftp
+protocol. it is the first (and currently only) component of the suse proxy
+suite, a set of programs to enhance firewall security.
+
+this package contains the documentation in pdf and html for ftp-proxy.

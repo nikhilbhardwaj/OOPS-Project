@@ -1,0 +1,5 @@
+Perl interface to the imagemagick graphics routines
+	
+perlmagick is an objected-oriented perl interface to imagemagick.
+use the module to read, manipulate, or write an image or image sequence from
+within a perl script. this makes it very suitable for web cgi scripts.

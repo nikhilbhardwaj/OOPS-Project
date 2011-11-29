@@ -1,0 +1,12 @@
+Xemacs lisp for a+ development
+	
+this package contains the xemacs lisp required for the development of a+
+programs.  it does the key bindings, sets the font properly, and binds some
+function keys. the complete a+ development environment is provided by the
+aplus-fsf-dev package.
+
+to load a+ from xemacs, load a file with extension .apl, .a or .+, or
+use the command 'm-x a-mode'.  or, press f4 to start the a+ interpreter.
+
+see /usr/share/doc/readme.debian.gz if you have trouble entering the special
+a+ characters in xemacs.

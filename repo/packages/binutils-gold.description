@@ -1,0 +1,8 @@
+The (experimental) gnu gold linker utility
+	
+gold is a new linker, still in development, which is faster than the
+current linker included in binutils. it currently fails to link some
+applications and libraries (i.e. won't link usable kernels).
+
+this package diverts the gnu linker (ld) with the experimental gold
+linker.

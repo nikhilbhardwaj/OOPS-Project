@@ -1,0 +1,4 @@
+Kerberos tunnel for dcache
+	
+this package contains the kerberos tunnel plugin library used by dcap.
+this library is dynamically loaded at runtime.

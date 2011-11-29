@@ -1,0 +1,8 @@
+Wyse 60 terminal emulator
+	
+this is an emulator for the wyse 60 text mode terminal.
+it sets up a emulation environment converting  between
+wyse 60(tm) escape sequences and the escape codes of the host
+system, and launches a shell to run within this emulated environment,
+so it helps also applications with hard coded values to run within this
+emulated enviroment.

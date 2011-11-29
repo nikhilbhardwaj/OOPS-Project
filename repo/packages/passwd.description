@@ -1,0 +1,6 @@
+Change and administer password and group data
+	
+this package includes passwd, chsh, chfn, and many other programs to
+maintain password and group data.
+
+shadow passwords are supported.  see /usr/share/doc/passwd/readme.debian

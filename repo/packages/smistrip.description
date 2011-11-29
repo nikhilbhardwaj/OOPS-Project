@@ -1,0 +1,6 @@
+Extract mib from text files like rfc
+	
+the smistrip program is used to extract mib and pib module files from
+ascii documents like rfcs or internet drafts. modules are identified
+by a starting asn.1 definitions clause and the matching end
+clause. the output is written to files named by the modules' names.

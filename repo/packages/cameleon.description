@@ -1,0 +1,25 @@
+Integrated development environment for ocaml
+	
+cameleon is a set of tools and libraries put together to create an
+integrated development environment for the ocaml programming language.
+
+its main features are :
+
+ - graphical user interface,
+ - configuration management based on cvs,
+ - easy access to and browsing of documentation,
+ - various editors, according to customizable file types,
+ - use of plug-ins to define new features,
+ - highly customizable interface (menus, toolbar, keyboard shortcuts).
+
+
+tools shipped are :
+
+ - chamo, a source code editor based on the gtksourceview widget with some
+   emacs-like functionality,
+ - dbforge, a tool to describe database schemas and generate ocaml code to
+   access these databases,
+ - ocamlcvs, a graphical front end for the cvs configuration management
+   utility,
+ - report, a tool aims to make generation of xml documents from ocaml
+   applications easier,

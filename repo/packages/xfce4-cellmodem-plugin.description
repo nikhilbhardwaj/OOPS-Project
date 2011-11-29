@@ -1,0 +1,15 @@
+Cellular modem plugin for the xfce4 panel
+	
+the cellmodem plugin is a monitoring plugin for cellular modems.
+it reports provider and signal quality for gprs/umts(3g)/hsdpa(3.5g)
+modem cards. it works with (mostly) all cards which support an
+out-of-band channel for monitoring purposes.
+
+the current features include:
+
+ * display the current network type (gprs/umts)
+ * display the current signal level
+ * configure the maximum signal level
+ * configure the low and critical signal level
+ * asking for pin if modem needs it
+ * quick visual feedback on modem and registration status via leds

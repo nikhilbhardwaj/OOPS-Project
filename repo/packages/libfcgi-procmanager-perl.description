@@ -1,0 +1,11 @@
+Functions for managing fastcgi applications
+	
+fcgi::procmanager is used to serve as a fastcgi process manager.  by
+re-implementing it in perl, developers can more finely tune performance in
+their web applications, and can take advantage of copy-on-write semantics
+prevalent in unix kernel process management.  the process manager should
+be invoked before the caller''s request loop
+
+the primary routine, pm_manage, enters a loop in which it maintains a
+number of fastcgi servers (via fork(2)), and which reaps those servers
+when they die (via wait(2)).

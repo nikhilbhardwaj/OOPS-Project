@@ -1,0 +1,9 @@
+Dump perl data structures into javascript code
+	
+data::javascript is mainly inteded for cgi programming, when a perl script
+generates a page with client side javascript code that needs access to
+structures created on the server.
+
+it works by creating one line of javascript code per datum. therefore,
+structures cannot be created anonymously and need to be assigned to
+variables. however, this format enables dumping large structures.

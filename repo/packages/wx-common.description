@@ -1,0 +1,9 @@
+Wxwidgets cross-platform c++ gui toolkit (common support files)
+	
+wxwidgets (formerly known as wxwindows) is a class library for c++ providing
+gui components and other facilities on several popular platforms (and some
+unpopular ones as well).
+
+this package provides common support files not bound to any
+particular wxwidgets release, such as font metrics required by some
+ports, and miscellaneous developer aids and binary utilities.

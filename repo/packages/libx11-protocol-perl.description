@@ -1,0 +1,5 @@
+Perl module for the x window system protocol, version 11
+	
+x11::protocol is a client-side interface to the x11 protocol (see x(1) for
+information about x11), allowing perl programs to display windows and
+graphics on x11 servers.

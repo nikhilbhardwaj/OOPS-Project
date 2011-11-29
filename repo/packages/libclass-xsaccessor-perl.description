@@ -1,0 +1,13 @@
+Perl module providing fast xs accessors
+	
+class::xsaccessor implements fast xs accessors both for getting at and setting
+an object attribute. additionally, the module supports mutators and simple
+predicates like those for testing the truth value of a variable. it works only
+with objects that are implemented as ordinary hashes.
+
+the xs accessor methods were between 1.6 and 2.5 times faster than typical
+pure-perl accessors in some simple benchmarking. if you usually write clear
+code, a factor of two speed-up is a good estimate.
+
+refer to class::xsaccessor::array (also included in libclass-xsaccessor-perl)
+for an implementation that works with array-based objects.

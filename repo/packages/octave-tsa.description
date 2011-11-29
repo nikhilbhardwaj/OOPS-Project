@@ -1,0 +1,9 @@
+Time series analysis in octave
+	
+the tsa toolbox is useful for analysing time series.  the methods are
+based on stochastic concepts and maximum entropy methods. the
+programs should be compatible to matlab as well as octave.  it
+includes stochastic signal processing, autoregressive model
+identification, maximum entropy spectral estimation, and much more.
+
+this octave add-on package is part of the octave-forge project.

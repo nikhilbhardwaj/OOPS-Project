@@ -1,0 +1,20 @@
+Perl extension for dbi recordsets
+	
+dbix::recordset is a perl module for abstraction and simplification of
+database access.
+
+the goal is to make standard database access (select/insert/update/delete)
+easier to handle and independent of the underlying dbms. special attention is
+made on web applications to make it possible to handle the state-less access
+and to process the posted data of form fields, but dbix::recordset is not
+limited to web applications.
+
+dbix::recordset uses the dbi api to access the database, so it should
+work with every database for which a dbd driver is available (see
+also dbix::compat).
+
+most public functions take a hash reference as parameter, which makes
+it simple to supply various different arguments to the same
+function. the parameter hash can also be taken from a hash containing
+posted form fields like those available with cgi.pm, mod_perl,
+html::embperl and others.

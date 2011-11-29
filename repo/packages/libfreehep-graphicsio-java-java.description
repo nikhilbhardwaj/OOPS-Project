@@ -1,0 +1,15 @@
+Freehep java driver
+	
+the graphicsio library offers a base interface for image exporters in many
+vector or bitmap image formats. it features direct support for gif, png, ppm
+and raw formats, as well as the ability to manage truetype fonts. support
+for other file types can be added with plugins.
+
+this package contains a graphicsio plugin to export the java calls made to
+graphics2d as source code, with the associated class, field and method
+definitions, resulting in a class which, when run will produce the same
+display. generating such source code may be helpful in setting up test cases
+without a lot of machinery around it and in debugging problems for different
+formats.
+
+freehep is a collection of java libraries used in high energy physics.

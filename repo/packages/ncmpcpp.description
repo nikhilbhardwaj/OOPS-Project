@@ -1,0 +1,19 @@
+Ncurses-based client for the music player daemon (mpd)
+	
+ncmpcpp is almost an exact clone of ncmpc which is a text-mode client
+for mpd, the music player daemon. it provides a keyboard oriented and
+consistent interface to mpd and contains some new features ncmpc
+doesn't have. it's been also rewritten from scratch in c++.
+
+new features include:
+
+ - tag editor;
+ - playlists editor;
+ - easy to use search screen;
+ - media library screen;
+ - lyrics screen;
+ - possibility of going to any position in currently playing track
+   without rewinding/fastforwarding;
+ - multi colored main window (if you want);
+ - songs can be added to playlist more than once;
+ - a lot of minor useful functions.

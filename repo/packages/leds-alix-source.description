@@ -1,0 +1,7 @@
+Source for the leds driver of pcengines alix 2/3 boards
+	
+this package provides the source code for the leds-alix kernel module.
+
+pcengines alix boards (version 2/3) have three leds on front.
+
+this driver allow you to power them on/off.

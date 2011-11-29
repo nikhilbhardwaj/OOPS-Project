@@ -1,0 +1,5 @@
+Postgresql hdbc (haskell database connectivity) documentation
+	
+hdbc provides an abstraction layer between haskell programs and sql
+relational databases. this lets you write database code once, in
+haskell, and have it work with any number of backend sql databases.

@@ -1,0 +1,7 @@
+Linux 2.2+ device driver source for 3dfx boards
+	
+this package is the source for the 3dfx device driver to allow access
+to 3dfx boards and setting its mtrr:s correctly without the user having
+root privileges.
+
+it should work on linux 2.2+ kernels, including smp enabled kernels.

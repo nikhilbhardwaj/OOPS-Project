@@ -1,0 +1,9 @@
+Unified configuration api for linux installation
+	
+provides an api for various installation and configuration processes that are
+otherwise inconsistent between the many linux distributions, and the many
+architectures they run on.  for example, you can configure the bootloader
+on a system in a general way - you don't need to know anything about the
+particular boot loader on the system.  you can update the network settings
+of a system, without knowing the distribution or the format of its network
+configuration files.

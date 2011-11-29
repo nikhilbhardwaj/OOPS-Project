@@ -1,0 +1,4 @@
+PackageId:935
+Name:bacula-sd-pgsql
+Version:5.0.2-2.2 and others
+Deps:bacula-common,bacula-common-pgsql,bacula-sd,libacl1,libattr1,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libpq5,libssl0.9.8,libstdc++6,libunwind7,libwrap0,zlib1g

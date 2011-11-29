@@ -1,0 +1,6 @@
+Configuration management server
+	
+bcfg2 is a configuration management system that generates configuration sets
+for clients bound by client profiles.
+bcfg2-server is the server for bcfg2 clients, which generates configuration
+sets and stores statistics of client system states.

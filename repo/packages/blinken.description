@@ -1,0 +1,12 @@
+Kde version of the simon electronic memory game
+	
+blinken is based on an electronic game released in 1978, which
+challenges players to remember sequences of increasing length.  on
+the face of the device, there are 4 different color buttons, each
+with its own distinctive sound.  these buttons light up randomly,
+creating the sequence that the player must then recall.  if the
+player is successful in remembering the sequence of lights in the
+correct order, they advance to the next stage, where an identical
+sequence with one extra step is presented.
+
+this package is part of the kde education module.

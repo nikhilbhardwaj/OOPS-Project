@@ -1,0 +1,11 @@
+Zolera soap infrastructure
+	
+zsi is a python package that provides an implementation of soap messaging,
+as described in the soap 1.1 specification. in particular, zsi parses and
+generates soap messages, and converts between native python datatypes and
+soap syntax. it can also be used to build applications using soap messages
+with attachments. zsi is ``transport neutral'', and provides only a simple
+i/o and dispatch framework; a more complete solution is the responsibility
+of the application using zsi.
+
+this package contains the wsdl2py tool as well as all documentation.

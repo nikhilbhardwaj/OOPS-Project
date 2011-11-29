@@ -1,0 +1,5 @@
+Produces graph of changes introduced by a diff file
+	
+this program is a simple filter that reads the output of the 'diff' program,
+and produces a histogram of the total number of lines that were changed.
+it is useful for scanning a patch file to see which files were changed.

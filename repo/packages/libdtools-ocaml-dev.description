@@ -1,0 +1,10 @@
+Library for writing daemons in ocaml
+	
+dtools is a set of useful functions for writing daemon services in ocaml.
+
+it includes support for:
+
+ * configuration options
+ * logging
+ * detaching and writing pid file
+ * start-up and shutdown task manager

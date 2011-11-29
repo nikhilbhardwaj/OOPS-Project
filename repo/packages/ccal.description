@@ -1,0 +1,9 @@
+Colorised calendar utility
+	
+ccal is a drop in replacement for the standard unix calendar
+program.  it includes support for color and daily, weekly,
+and yearly reminders/appointments.
+
+this release contains bug fixes and
+new features including support for reading "reminder"
+data files.

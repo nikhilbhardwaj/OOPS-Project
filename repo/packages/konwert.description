@@ -1,0 +1,13 @@
+Charset conversion for files or terminal i/o
+	
+`konwert' is yet another charset converter.  some particular features are:
+
+ * one-to-many conversions
+ * context-dependent conversions
+ * approximations of some unavailable characters
+ * (as a result) ability to transcript e.g. russian cyrillic into polish
+
+phonetic equivalent
+
+`filterm' applies filter conversion to a terminal's i/o, to get on-the-fly
+charset conversion, and customized input methods.

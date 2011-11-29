@@ -1,0 +1,9 @@
+Terminal interaction recorder and player (for tty)
+	
+this package includes "ttyrec", a tty recorder which records terminal
+interaction, and "ttyplay", the player to see that intereaction.
+
+ttyrec records your terminal input and output, like the "script" command,
+but additionally records timing information to allow playback at the original
+speed.  it can record any console program, including screen-oriented programs
+such as those using curses.

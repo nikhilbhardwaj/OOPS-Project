@@ -1,0 +1,9 @@
+Hdaps daemon for ibm/lenovo thinkpads and apple ibooks/powerbooks
+	
+this is a disk protection user-space daemon. it monitors the acceleration
+values through the hdaps or ams interface and automatically initiates disk
+head parking if a fall or sliding of the laptop is detected.
+
+it is recommended that you use this daemon with the hdaps module provided
+by tp-smapi rather the one in the kernel, as this will save you a bit
+power and will work on a wider range of thinkpads.

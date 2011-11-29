@@ -1,0 +1,8 @@
+Tool for reporting changes in system configuration
+	
+this tool is run by a nightly cron job, and takes a `diff' of specified system
+configuration files and emails them to a specified email address.  options
+to diff can be specified.  this is useful in friendly environments where there
+are multiple sysadmins working on configuration files/setups and everyone's
+changes are reported.  cvs is a better answer, but most of us don't want to
+have the hassle of putting system files in a repository.

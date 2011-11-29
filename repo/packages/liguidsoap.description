@@ -1,0 +1,13 @@
+Control gui for liquidsoap
+	
+liguidsoap is a gui for controlling liquidsoap, using pygtk.
+
+it allows one to interact in various ways with:
+
+ * outputs
+ * playlists
+ * queues
+ * mixing table
+
+
+it can control a running instance of liquidsoap or launch its own instance.

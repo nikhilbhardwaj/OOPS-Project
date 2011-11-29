@@ -1,0 +1,8 @@
+Gnome interface for 'executing' bittorrent files
+	
+a simple gnome interface designed as a mime-sink for bittorrent files.
+gnome-btdownload allows a user to download files using bittorrent,
+a scatter-gather network.
+
+not a front-end, more-or-less just a session dialog. see bittorrent
+for more information.

@@ -1,0 +1,7 @@
+Libcryptsetup development files
+	
+cryptsetup provides a command-line interface for configuring encrypted
+devices. this is done using the linux kernel device mapper target
+dm-crypt. this version of cryptsetup has integrated support for luks.
+
+this package provides the libcryptsetup development files.

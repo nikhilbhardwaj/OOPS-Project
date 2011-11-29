@@ -1,0 +1,7 @@
+Haskell sdl gfx binding for ghc - documentation
+	
+this package provides the documentation for the sdl gfx library bindings
+for the haskell programming language. sdl gfx is an extension to the sdl
+library which provides basic antialiased drawing routines such as lines,
+circles or polygons, an interpolating rotozoomer for sdl surfaces,
+framerate control and mmx image filters.

@@ -1,0 +1,6 @@
+Development package for the libtre5 regexp matching library
+	
+this package contains the header files and static libraries required
+to develop programs based on the tre library. tre is a lightweight,
+robust, and efficient posix compliant regexp matching library with
+some exciting features such as approximate matching.

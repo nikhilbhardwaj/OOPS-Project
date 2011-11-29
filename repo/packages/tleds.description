@@ -1,0 +1,10 @@
+Blinks keyboard leds for tx and rx network packets
+	
+tleds monitors network traffic by blinking the scrolllock keyboard led
+when a network packet leaves the machine and the numlock led when one is
+received.
+
+warning: on some systems tleds has been reported to render part or all of
+the keyboard unusable.  this is rare and usually only happens on a few
+laptops and keyboards with overly long or old cables.  (this includes the
+ibm thinkpad 600 laptop, and the hp omnibook xe2.)

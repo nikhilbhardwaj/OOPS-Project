@@ -1,0 +1,16 @@
+Library offering easy access to fits files
+	
+fits (flexible image transport system) is a data format most used in
+astronomy.
+
+qfits is a stand-alone library written in c to interact with files
+complying with the fits format. it is fast and portable over any
+kind of posix-compliant platform. functionalities offered by this
+library are:
+
+ * header queries (get keywords, values).
+ * header manipulation (load/modify/save).
+ * header/data offset queries.
+ * pixel loading/saving to memory.
+ * support for files of any dimension (naxis).
+ * support for fits extensions, including ascii and binary tables.

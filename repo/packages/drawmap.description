@@ -1,0 +1,18 @@
+Draws customized maps, using raw usgs data files
+	
+drawmap reads data in the digital elevation model (dem),
+digital line graph (dlg), and geographic names information
+system (gnis) formats.  can also work with sdts, nad-83,
+wgs-84, gtopo30 data.
+
+using the data in these files, drawmap can produce various
+kinds  of  customized  maps,  including shaded relief maps
+(with or without roads, streams, place names, and  so  on)
+and  topographic  maps  (again, with or without additional
+features).
+
+outputs sun raster format, portable gray map, or pov format
+files.
+
+
+ home page: http://www.ttc-cmc.net/~fme/drawmap.html

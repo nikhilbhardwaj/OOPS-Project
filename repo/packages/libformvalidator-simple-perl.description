@@ -1,0 +1,8 @@
+Module for validating forms with simple chains of constraints
+	
+formvalidator::simple provides you a sweet way of form data validation with
+simple constraints chains. you can write constraints on single line for each
+input data.
+
+this idea is based on sledge::plugin::validator, and most of
+validation code is borrowed from this plugin.

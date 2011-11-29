@@ -1,0 +1,9 @@
+Very simple archive generator
+	
+vsag is a very simple program aimed at generating debian archives out of
+a directory filled with packages.
+
+it doesn't track state or manage the directory itself in any way.  its
+purpose is to provide a very simple method to generate the files normally
+provided by a debian archive so that it can be used by programs like apt
+or debootstrap.

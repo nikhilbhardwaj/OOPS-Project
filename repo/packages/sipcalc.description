@@ -1,0 +1,22 @@
+Advanced console-based ip subnet calculator
+	
+sipcalc is an advanced console-based ip subnet calculator. it can take
+multiple forms of input (ipv4/ipv6/interface/hostname) and output a
+multitude of information about a given subnet.
+
+features include:
+
+ - ipv4
+  * retrieving of address information from interfaces.
+  * classfull and cidr output.
+  * multiple address and netmask input and output formats (dotted
+    quad, hex, number of bits).
+  * output of broadcast address, network class, cisco wildcard, hosts/range,
+    network range.
+  * the ability to "split" a network based on a smaller netmask, now also with
+    recursive runs on the generated subnets. (also ipv6)
+ - ipv6
+  * compressed and expanded input and output addresses.
+  * standard ipv6 network output.
+  * v4 in v6 output.
+  * reverse dns address generation.

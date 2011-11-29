@@ -1,0 +1,10 @@
+Cooperative light-weight thread library (documentation)
+	
+lwt is a library of cooperative threads implemented in monadic style.
+with respect to preemptive threads, cooperative threads are not using
+a scheduler to distribute processor time between threads. instead of
+this, each thread must tell the others that he wants to let them
+work.
+
+this package contains the complete api reference for lwt, including
+openssl, glib bindings and examples.

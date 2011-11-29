@@ -1,0 +1,7 @@
+X-ray scattering data for the elements
+	
+this module supports access to x-ray scattering data for atoms and ions.
+it is designed to be a transparent interface to scattering data from a
+variety of sources.  currently, the only sources of data are the cromer-mann
+tables from the international tables of crystallography and the 1995
+waasmaier-kirfel tables.  more resources can be added easily.

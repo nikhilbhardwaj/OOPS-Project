@@ -1,0 +1,8 @@
+Updates .xvpics thumbnails from the command line
+	
+this package includes a shell script and a c helper program to update
+xv/zgv/xzgv thumbnails from the command line.
+
+note that the thumbnails used by gnome and kde are in a different,
+incompatible format; you will need to use a tool designed for those
+desktops to create thumbnails for nautilus or konqueror.

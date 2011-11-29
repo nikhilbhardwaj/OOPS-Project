@@ -1,0 +1,10 @@
+Simple mixer control program with gui and text interfaces
+	
+aumix is a small, easy-to-use program to control the mixer of your sound
+card. it runs in text mode using the ncurses library, or from the command
+line (non-interactively). it can read default settings from a file, and it
+can also automatically save and restore the mixer settings at shutdown and
+boot.
+
+additionally this version can be run as a gtk+ app, i.e. with a graphical
+interface.  it can also still run in text-only mode, though.

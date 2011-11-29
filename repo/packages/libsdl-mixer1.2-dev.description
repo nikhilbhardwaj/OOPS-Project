@@ -1,0 +1,8 @@
+Development files for sdl1.2 mixer library
+	
+sdl mixer is a sample multi-channel audio mixer library.  it supports 4
+channels of 16 bit stereo audio, plus a single channel of music, mixed by
+the popular mikmod mod, timidity midi, and smpeg mp3 libraries.
+
+this package contains files needed if you wish to use the sdl mixer
+library in your own programs.

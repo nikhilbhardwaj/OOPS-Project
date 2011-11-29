@@ -1,0 +1,12 @@
+Module to add context aware fetches to dbi
+	
+the perl database independent interface - dbi - does not take much
+advantage of perl's context sensitivity. this is the situation where
+a perl subroutine knows whether the caller wants a single scalar
+value or a list of them to be returned.
+
+dbix::contextualfetch is a sub-class of dbi which redefines some of
+the various fetch methods to fix this oversight. it also adds a few
+new methods for convenience (though not necessarily efficiency). much
+of this code was originally part of the ima::dbi perl module
+(libima-dbi-perl package).

@@ -1,0 +1,16 @@
+Advanced text-mode www browser - lightweight version
+	
+elinks is a feature-rich program for browsing the web in text mode.  it is
+like enhanced lynx and links.  the most noteworthy features of elinks are:
+
+
+ * lots of protocols (local files, finger, http(s), ftp, ipv4/6 etc.)
+ * persistent cookies, http authentication and proxy authentication
+ * tabbed browsing, good looking menus and dialogs, and key-binding manager
+ * history browsing and typeahead searches
+ * tables and frames rendering, and configurable color support
+ * compressed and background (non-blocking) downloads, and download resuming
+
+
+this lite version contains no scripting or extra features but doesn't
+depend on other libraries either, so it is useful for small systems.

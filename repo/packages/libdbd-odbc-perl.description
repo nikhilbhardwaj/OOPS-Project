@@ -1,0 +1,5 @@
+Perl database driver implementing odbc for dbi
+	
+dbd::odbc allows dbi to connect to any server complying with the odbc (open
+database connectivity) standard. this provides access to various platforms
+which do not currently have perl database drivers available.

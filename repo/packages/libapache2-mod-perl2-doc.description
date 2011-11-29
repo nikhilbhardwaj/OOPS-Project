@@ -1,0 +1,8 @@
+Integration of perl with the apache2 web server - documentation
+	
+mod_perl allows the use of perl for just about anything
+apache-related, including <perl> sections in the config
+files and the famous apache::registry module for caching
+compiled scripts.
+
+this package contains additional documentation for mod_perl.

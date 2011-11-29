@@ -1,0 +1,21 @@
+A common lisp window manager
+	
+stumpwm is a window manager written entirely in common lisp. it
+attempts to be highly customizable while relying entirely on the
+keyboard for input. you will not find buttons, icons, title bars,
+tool bars, or any of the other conventional gui widgets.
+
+these design decisions reflect the growing popularity of productive,
+customizable lisp based systems.
+
+please ensure that you install compatible implementations of cl and
+clx.  that means either install sbcl and cl-clx-sbcl or cmucl and
+cmucl-source or clisp only.
+
+the suggested package, slime, lets you control a running stumpwm
+session through emacs.
+
+if you need xinerama support, you need the xdpyinfo utility from the
+x11-utils package.
+
+the rlwrap package provides command completion for stumpish.

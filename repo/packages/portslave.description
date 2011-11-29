@@ -1,0 +1,11 @@
+Terminal server that does ppp and authenticates via radius
+	
+this package provides a program named portslave which will use at commands
+to answer a modem when it rings. it will then display a login: prompt at
+which the user can enter a user-name and password. if the user sends ppp
+data then portslave will run its own pppd instead and authenticate the user
+via pap. when the user-name and password are received they will be verified
+via a radius server.
+
+at the end of the call the accounting data will be written to the radius
+server.

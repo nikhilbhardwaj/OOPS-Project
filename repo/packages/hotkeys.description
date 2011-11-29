@@ -1,0 +1,12 @@
+A hotkeys daemon for your internet/multimedia keyboard in x
+	
+this program sits at the back and listens for the "special" hotkeys
+that you won't normally use on your internet/multimedia keyboards.
+the buttons perform their intended behaviors, such as volume up and
+down, mute the speaker, control the backlight, launch applications, etc.
+it has on-screen display (osd) to show the volume, program that's being
+started, etc.
+
+it features an xml-based keycode configuration file format, which
+makes it possible to define the hotkeys to launch any programs you
+want.

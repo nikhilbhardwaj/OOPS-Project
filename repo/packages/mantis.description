@@ -1,0 +1,21 @@
+Web-based bug tracking system
+	
+mantis is an issue tracker implemented in php and using mysql as a database.
+the features of mantis include:
+
+  * web based access
+  * simple/advanced issue pages
+  * multiple projects per instance
+  * support for projects, sub-projects, and categories
+  * users can have different access level per project
+  * changelog support
+  * roadmap
+  * user view page
+  * search and filter
+  * built-in reporting (reports/graphs)
+  * timetracking
+  * custom fields
+  * e-mail notifications
+  * users can monitor specific issues
+  * rss feeds
+  * and more

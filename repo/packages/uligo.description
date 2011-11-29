@@ -1,0 +1,13 @@
+Tsumego (go problems) practice tool
+	
+to get stronger at the game of go, it is essential to develop one's
+reading ability. that is why professionals recommend study of life and
+death or tesuji (local offensive positions) problems. uligo is a program
+that allows you to do that: the computer displays a problem, and asks for
+the answer. you enter the first move, the computer responds, and so on
+until you reach the final solution or enter a wrong move.
+
+uligo includes a stop clock, support for multiple solution paths, and
+random color selection and board rotation (to avoid rote memorization).
+it uses the standard sgf format for its problems, so you can easily
+create your own using any sgf editor (such as cgoban).

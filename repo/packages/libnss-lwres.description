@@ -1,0 +1,6 @@
+Nss module for using bind9's lwres as a naming service
+	
+this package provides a name service switch module that allows bind9's
+lightweight resolver to act as a name service. it is intended to replace the
+name service switch module that uses the bind4/bind8 resolver for name service
+lookups.

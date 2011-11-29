@@ -1,0 +1,9 @@
+Faxing over capi 2.0 device
+	
+if you have working capi20 interface, use this package to send and
+receive fax over capi. it can be used as a "fax-modem" for a
+hylafax-server or as stand alone version. be sure you have a recent
+kernel with capi4linux compiled in.
+
+please read /usr/share/doc/capi4hylafax/readme.debian to make things
+working.

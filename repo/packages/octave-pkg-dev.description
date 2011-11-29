@@ -1,0 +1,12 @@
+Infrastructure to build octave packages
+	
+since version 3.0 of octave (a numerical computation software),
+add-ons can be installed through the pkg.m system.  this package
+provides the infrastructure for packaging such add-ons for debian.
+it contains a makefile scrap for inclusion in debian/rules, as well
+as the necessary code for generating the appropriate maintainer
+scripts as well as the replacing the substitution variables in
+debian/control.
+
+this package is intended to be used by the debian octave group
+and should be of little interest to general users.

@@ -1,0 +1,8 @@
+C++ library to read and write pfs files (development files)
+	
+pfs is a high-dynamic range (hdr) image format. it is an attempt to integrate
+existing file formats by providing a simple data format that can be used to
+exchange data between applications. this library can be used to write custom
+applications that can integrate with the existing pfstools programs.
+
+this package contains the header files and the static library.

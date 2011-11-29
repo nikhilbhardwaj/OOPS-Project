@@ -1,0 +1,5 @@
+Headers and static libraries for libopensync
+	
+headers and static libraries for libopensync. these are not needed to use
+opensync, but are needed to build plugins or programs like multisync that
+link against libopensync.

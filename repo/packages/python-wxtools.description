@@ -1,0 +1,8 @@
+Wxwidgets cross-platform c++ gui toolkit (wxpython common files)
+	
+wxwidgets (formerly known as wxwindows) is a class library for c++ providing
+gui components and other facilities on several popular platforms (and some
+unpopular ones as well).
+
+this package provides support utilities and common files for wxpython2.8.
+if you wish to use xrced you'll also need the python-xml package installed.

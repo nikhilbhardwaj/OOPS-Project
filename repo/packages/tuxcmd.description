@@ -1,0 +1,16 @@
+Twin-panel (commander-style) file manager using gtk+ 2
+	
+tux commander is a windowed file manager with 2 panels side
+by side similar to popular total commander or midnight
+commander file managers.
+
+general features:
+
+ * two directory panels side by side (vertical)
+ * tabbed interface, buttons for quick access to favorite
+   places
+ * configurable mounter bar for quick access to removable
+   media and network shares
+ * multilingual user interface
+ * extendable via plugin system
+ * extension-based file type actions (associations)

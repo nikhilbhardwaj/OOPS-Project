@@ -1,0 +1,8 @@
+Texas instruments calculator files library
+	
+the libtifiles is a library providing support for operations on texas
+instruments calculators files. all formats for all calculators are supported
+read/write ; the library is also able to manipulate the group files, which
+means it is able to group and ungroup variables into such group files.
+
+this package provides the shared library.

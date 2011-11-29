@@ -1,0 +1,5 @@
+Theora video encoder using ffmpeg
+	
+this package provides a command-line tool to encode/recode various
+video formats (basically everything that ffmpeg can read) into theora,
+the free video codec.

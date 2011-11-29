@@ -1,0 +1,9 @@
+Proxy advertisement zapper add-on
+	
+a redirector for squid that intercepts advertising (banners, popup
+windows, flash animations, etc), page counters and some web bugs (as
+found). this has both aesthetic and bandwidth benefits.
+
+add one line to your squid.conf and it's installed ! can also be used by
+an apache2 or polipo proxy. this package contains also files which can
+be used by the konqueror adblock or mozilla adblock.

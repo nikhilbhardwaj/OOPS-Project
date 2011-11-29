@@ -1,0 +1,8 @@
+Lightweight bittorrent client (daemon)
+	
+transmission is a simple bittorrent client. it features a very simple,
+intuitive interface (gui and command-line) on top on an efficient,
+cross-platform back-end.
+
+this package contains the transmission-daemon and the associated control
+interface, transmission-remote.

@@ -1,0 +1,11 @@
+Genetic algorithms in python
+	
+python-genetic provides genetic algorithms for python, as often used
+in artificial intelligence. it should be able to solve any problem that
+consists in minimizing functions.
+
+you'll find some demos using genetic in this package, including an
+impressively simple program that provides a solution to the well-known tsp
+(travelling salesman problem). also, make sure to read
+demo/genetic_demo_2.py for the list of the special "magic" genes that make
+genetic really fun and ... living !

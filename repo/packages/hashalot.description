@@ -1,0 +1,5 @@
+Read and hash a passphrase
+	
+this program will read a passphrase from standard input and print a binary
+(not printable) hash to standard output. the output is suitable for use as
+an encryption key.

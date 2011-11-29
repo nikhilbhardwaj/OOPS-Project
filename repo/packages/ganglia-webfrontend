@@ -1,0 +1,4 @@
+PackageId:4965
+Name:ganglia-webfrontend
+Version:3.1.7-1
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,debconf,libgd2-noxpm,libgd2-xpm,php5,php5-cgi,libapache2-mod-php5,rrdtool

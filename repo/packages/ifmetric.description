@@ -1,0 +1,6 @@
+Set routing metrics for a network interface
+	
+ifmetric is a linux tool for setting the metrics of all ipv4 routes
+attached to a given network interface at once.  this may be used to
+change the priority of routing ipv4 traffic over the interface.
+lower metrics correlate with higher priorities.

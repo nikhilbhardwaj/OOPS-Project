@@ -1,0 +1,9 @@
+Gtk+ client for the music player daemon (mpd)
+	
+ario is a full featured client for mpd (music player daemon).
+the interface used to browse the library is inspired by rhythmbox but ario
+aims to be much lighter and faster.
+it uses gtk2, avahi for mpd server detection and curl to download remote
+files (like cover arts and lyrics).
+various plugins are provided like audioscrobbler/last.fm submission or
+multimedia keys support.

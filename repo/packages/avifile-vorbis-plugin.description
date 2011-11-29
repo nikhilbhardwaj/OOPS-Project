@@ -1,0 +1,9 @@
+Vorbis audio plugin for libavifile
+	
+this package provides a plugin for the avifile library to decompress
+audio streams in vorbis, which is a fully open, non-proprietary,
+patent-and-royalty-free, general-purpose compressed audio format.
+
+you might want to install this package if you are using the avifile
+video player and want to watch videos which provide audio using this
+format.

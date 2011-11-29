@@ -1,0 +1,7 @@
+Ocaml bindings for the portaudio library
+	
+portaudio is a portable audio i/o library designed for cross-platform
+support of audio. this package provides ocaml interface to this library.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use portaudio.

@@ -1,0 +1,28 @@
+Universal instant messaging client
+	
+ayttm is an instant messaging (aka chat) client that provides all-in-one chat
+functionality for several major instant messaging services from one simple
+program. ayttm "contacts" allow you to refer to several accounts of the same
+person from a single contact name, making it one of the cleanest and simplest
+clients to use.
+
+ayttm is the heir of the everybuddy project, and aims to continue improving
+the program and addressing its shortcomings. the primary goal is to provide a
+messenger which is:
+
+
+ * simple: ayttm should work nicely without having to first go through a
+   complicated configuration procedure. the preferences should be simple and
+   minimal.
+ * stable: ayttm should not crash when you use it.
+ * intuitive: ayttm should be almost instantly usable by your mother ;)
+ * flexible: ayttm supports multiple protocols and they should be supported in
+   an integrated manner (common interface, for example), without limiting
+   protocol-specific features support. ayttm currently handles yahoo!, msn,
+   jabber, irc, aim and icq.
+
+
+it also features support for file transfers, group chat, msn gnomemeeting
+integration, tabbed chat, smiley themes, status tooltips, conversation
+logging, automatic translation, gpg signing/encryption, typing notifications,
+spell checking and import of contacts from other clients.

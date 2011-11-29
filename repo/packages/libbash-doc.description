@@ -1,0 +1,7 @@
+User and developer documentation for libbash
+	
+libbash is a tool for managing bash scripts that contain functions you may
+want to use in various scripts. it provides mechanism to define dependencies
+between scripts and facility for script loading.
+
+this package contains user and developer docs libbash

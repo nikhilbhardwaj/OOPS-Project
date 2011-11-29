@@ -1,0 +1,11 @@
+Vcard library - development files
+	
+vcard is an electronic business card format, as specified by the
+versit consortium, useful for storing personal data.  libvc handles
+scanning a vcard file, parsing the vcard file into a data storage
+structure, manipulating the data storage structure, and writing back
+to file.  it was originally written for `rolo', but has been
+split-off as a generic library for general use.
+
+this package contains static library, headers, and the development
+manpage for libvc.

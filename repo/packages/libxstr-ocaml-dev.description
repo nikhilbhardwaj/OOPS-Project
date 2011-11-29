@@ -1,0 +1,11 @@
+Ocaml library for frequent string operations
+	
+xstr is an ocaml library for string operations.
+
+this package implements frequent string operations: searching,
+replacing, splitting, matching. it is independent from the str library,
+and can replace str in many cases. unlike str, xstr is thread-safe.
+xstr does not implement regular expressions in general, but an
+important subset.  some operations of xstr are performed as quickly as
+by str; if the string to be processed is small, xstr is often faster
+than str; if the string is big, xstr is up to half as fast than str.

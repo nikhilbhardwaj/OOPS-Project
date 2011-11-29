@@ -1,0 +1,15 @@
+Server-side support for emdebian grip
+	
+provides server-side scripts to manage and update
+the conversion of debian packages into 'gripped' packages
+that have no debian documentation, manpages or infopages.
+
+includes php support to process grip update logs and an
+example cron script to run on the buildd.
+
+also includes the grip-config replacements for install-info
+and update-alternatives to handle gripped packages without
+errors and a brief guide to preparing the grip-config package
+to replace the dpkg default scripts.
+
+this package does not depend on the rest of emdebian-tools.

@@ -1,0 +1,7 @@
+Debugging symbols for mutt
+	
+mutt is a sophisticated text-based mail user agent.
+
+this package contains the debugging symbols for mutt and mutt-patched; this
+is supposed to be used when there is a core file which should be analyzed
+using gdb.

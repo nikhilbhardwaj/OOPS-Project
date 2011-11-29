@@ -1,0 +1,6 @@
+Perl module for automated child-class/accessor generation
+	
+class::accessor::children automagically generates child classes which have
+accessor/mutator methods.
+
+this module inherits class::accessor to make accessors.

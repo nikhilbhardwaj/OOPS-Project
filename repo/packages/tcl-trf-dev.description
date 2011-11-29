@@ -1,0 +1,18 @@
+Tcl data transformations - development files
+	
+trf is an extension to tcl which provides various data
+transformations. the collection of provided transformation
+procedures includes:
+
+ * generation of message digests (hash values, checksums): md2,
+   md5, sha/shs, sha-1, haval, ripemd-128, -160, crc (polynomial
+   used by pgp), adler (based upon zlib);
+ * conversion to and from various data encodings: uuencoding,
+   base64-encoding, or ascii85-encoding, and binary, octal, or
+   hexadecimal representation;
+ * an error-correcting reed-solomon encoder/decoder;
+ * compression/decompression based on zlib and libbz2.
+
+
+this package contains files to be used for development of c-based
+extensions which use the trf library.

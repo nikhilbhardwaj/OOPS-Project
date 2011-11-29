@@ -1,0 +1,9 @@
+Server and x11 client for playing risk with humans or ais
+	
+risk is a board game played on a map of the world.  you control a group
+of armies and attempt to capture large sections of the world and try to
+stop your opponents from doing the same thing.  you can also choose to
+play with a mission that you have to accomplish before your opponents do.
+
+xfrisk allows you to play risk against other players over tcp/ip and
+includes 3 different ai players.

@@ -1,0 +1,6 @@
+File manager context menu extension to launch comparison tools
+	
+this shell extension (compatible with nautilus only) makes it possible
+to launch file comparison tool for 2 or 3 files (depending on the tool)
+in the same directory or save a file(s) for later comparison. it acts as
+external most recent used (mru) file list for the comparison tool.

@@ -1,0 +1,10 @@
+Maps media files to an arbitrary directory structure
+	
+pytagsfs is a fuse filesystem that arranges media files in a virtual directory
+structure based on the file tags.
+
+a set of audio files could be mapped to a new directory structure organizing
+them hierarchically by album, genre, release date, etc.
+
+file tags can be changed by moving and renaming virtual files and directories.
+the virtual files can be modified, opened and played just like regular files.

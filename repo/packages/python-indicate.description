@@ -1,0 +1,7 @@
+Python bindings for libindicate
+	
+a small library for applications to raise "flags" on dbus for other components
+of the desktop to pick up and visualize.
+
+this package provides python bindings so that you can use libindicate from
+a python program.

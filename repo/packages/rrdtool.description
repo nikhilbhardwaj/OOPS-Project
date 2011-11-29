@@ -1,0 +1,15 @@
+Time-series data storage and display system (programs)
+	
+the round robin database tool (rrdtool) is a system to store and display
+time-series data (e.g. network bandwidth, machine-room temperature,
+server load average). it stores the data in round robin databases (rrds),
+a very compact way that will not expand over time. rrdtool processes the
+extracted data to enforce a certain data density, allowing for useful
+graphical representation of data values.
+
+rrdtool is often used via various wrappers that can poll data from devices
+and feed data into rrds, as well as provide a friendlier user interface and
+customized graphs.
+
+this package contains command-line programs used to access and manipulate
+rrds.

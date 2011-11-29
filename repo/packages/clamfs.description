@@ -1,0 +1,5 @@
+User-space anti-virus protected file system
+	
+clamfs is a fuse-based user-space file system for linux with on-access
+anti-virus file scanning through clamd daemon. clamd (clamav-daemon) is
+a file scanning service developed by clamav project.

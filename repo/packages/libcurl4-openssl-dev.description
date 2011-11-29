@@ -1,0 +1,8 @@
+Development files and documentation for libcurl (openssl)
+	
+these files (ie. includes, static library, manual pages) allow to
+build software which uses libcurl.
+
+ssl support is provided by openssl.
+
+html and pdf versions of all the manual pages are also provided.

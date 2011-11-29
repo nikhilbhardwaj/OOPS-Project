@@ -1,0 +1,6 @@
+Netbeans cvs client library
+	
+the cvs client library is a pure java implementation of a cvs client protocol.
+it allows to access cvs servers without setting up an external cvs program.
+it is used in the javacvs module in netbeans and in other projects, such as
+smartcvs and maven scm.

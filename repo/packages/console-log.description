@@ -1,0 +1,11 @@
+Puts a logfile pager on virtual consoles
+	
+console-log keeps logfile pagers open on virtual consoles. the
+default configuration puts exim's mainlog on tty8, and the syslog on
+tty9, in a less process. it can also make sure that this console is visible
+automatically after system boot so that a crashed system at least
+leaves the syslog readable on the console before reset. using a pager
+makes searching, tagging and highlighting possible.
+
+this package has its upstream sources maintained in the debian
+project, so there is no upstream url.

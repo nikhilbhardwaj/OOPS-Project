@@ -1,0 +1,7 @@
+Library to render text in opengl using freetype
+	
+ftgl binds opengl and freetype together in order to offer and easy to use
+and flexible text rendering library.  it offers several rendering modes:
+as polygons, outlines, bitmaps and textures.
+
+this package contains the shared library for libftgl.

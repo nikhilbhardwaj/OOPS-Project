@@ -1,0 +1,11 @@
+Alcove customisation of the docbook dtd and stylesheets
+	
+this includes the alcovebook dtd (generic, still to be refined into several
+other dtds), and the alcove dsssl stylesheets, which currently include:
+
+ - a generic extension over norman walsh's modular stylesheets
+ - a book-like style for article
+ - an improved article style (still somewhat experimental)
+
+
+it integrates smoothly within the sgml2x framework.

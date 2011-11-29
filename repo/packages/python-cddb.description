@@ -1,0 +1,7 @@
+Python interface to cd-ids and freedb
+	
+the dynamic duo of cddb.py and discid.py, along with their side-kick
+c module cdrommodule.so, provide an easy way for python programs to
+fetch information on audio cds from cddb (http://www.cddb.com/) -- a
+very large online database of track listings and other information on
+audio cds. the default cddb server is freedb (http://www.freedb.org)

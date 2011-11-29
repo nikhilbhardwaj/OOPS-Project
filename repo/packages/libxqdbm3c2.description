@@ -1,0 +1,8 @@
+Qdbm database libraries for c++ [runtime]
+	
+qdbm is an embeded database library compatible with gdbm and ndbm.
+it features hash database and b+ tree database and is developed referring
+to gdbm for the purpose of the following three points: higher processing
+speed, smaller size of a database file, and simpler api.
+this is the runtime package for programs that use the dqbm
+database library.  this is only for programs which use the c++ interface.

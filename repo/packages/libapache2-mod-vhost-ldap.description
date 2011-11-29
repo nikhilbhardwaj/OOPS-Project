@@ -1,0 +1,8 @@
+Apache 2 module for virtual hosting from ldap
+	
+mod-vhost-ldap is an apache 2 module for storing and configuring
+virtual hosts from ldap.  it supports the documentroot, scriptalias,
+servername, serveralias, serveradmin and suexecusergroup directives.
+
+it is built on top of mod_ldap, so it uses its caching capabilities
+and can be used with a threaded apache mpm.

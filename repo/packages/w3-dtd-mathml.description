@@ -1,0 +1,14 @@
+Mathematical markup language v2.0 dtd
+	
+the mathematical markup language (mathml) v2.0 is an xml
+application for describing mathematical notation
+and capturing both its structure and content.
+the docbook-mathml package allows you to generate output
+documents from source files that use mathml markup.
+
+includes a prototype extension of the xhtml 1.1 dtd
+that incorporates mathml 2.0.
+
+author: w3c math working group <www-math@w3.org>
+
+homepage: http://www.w3.org/tr/mathml2/

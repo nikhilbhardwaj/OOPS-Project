@@ -1,0 +1,7 @@
+Moose extension to name your accessors get_foo() and set_foo()
+	
+moosex::followpbp does not provide any methods. simply loading it changes the
+default naming policy for the loading class so that accessors are separated
+into get and set methods. the get methods are prefixed with "get_" as the
+accessor, while set methods are prefixed with "set_". this is the naming
+style recommended by damian conway in perl best practices.

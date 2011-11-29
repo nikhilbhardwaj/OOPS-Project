@@ -1,0 +1,10 @@
+Runtime system for jocaml bytecode executables
+	
+the jocaml programming language is an extension of the ocaml language with
+high-level prmitives for communication and synchronization between processes.
+this enables programmers to rapidly develop distributed large-scale
+applications using the expressivity of ocaml.
+
+this package contains only the runtime system needed to run bytecode
+executables. the 'jocaml' package contains the full development suite of
+jocaml.

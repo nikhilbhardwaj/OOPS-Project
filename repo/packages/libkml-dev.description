@@ -1,0 +1,9 @@
+A library to manipulate kml 2.2 ogc standard files - development files
+	
+this is a library for use with applications that want to parse,
+generate and operate on kml, a geo-data xml variant. it is an
+implementation of the ogc kml 2.2 standard. it is written in c++ and
+bindings are available via swig to java and python.
+
+this package contains files required to build c/c++ programs which use
+the kml library.

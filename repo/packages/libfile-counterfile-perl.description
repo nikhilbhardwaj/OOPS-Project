@@ -1,0 +1,6 @@
+Persistent counter class for perl
+	
+file::counterfile implements a persistent counter class. each counter is
+represented by a separate file in the file system. file locking is applied,
+so multiple processes might try to access the same counters at the same time
+without risk of counter destruction.

@@ -1,0 +1,8 @@
+Perl module providing safe cleanup using guard objects
+	
+guard is a perl module implementing so-called "guards," which are things that
+"guard" a resource, ensuring that it is safely cleaned up when expected, even
+if exceptional conditions interrupt the normal control flow. this allows one
+to write code which executes an arbitrary code block or subroutine when either
+the related guard object is destroyed or when the current scope ends. in other
+languages, this sort of functionality is provided by the 'finally' keyword.

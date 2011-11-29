@@ -1,0 +1,10 @@
+Ime server of scim-bridge communicate with scim
+	
+scim-bridge is a wrapper library for scim, writen in c.
+
+scim (smart common input method) is an input method (im) platform.
+
+scim-bridge has two parts: agent and client. scim-bridge-agent stands
+between scim and the clients (immodules), so the clients only need
+communicate with scim-bridge-agent, because scim-bridge-agent was writen
+in c, it will solve some c++ abi problems.

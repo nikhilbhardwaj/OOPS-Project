@@ -1,0 +1,8 @@
+Cd detect & execute utility
+	
+cdde is a program that detects when a cd/dvd-rom drive has a disc
+inserted. when it finds a disc inserted in the drive it will attempt
+to determine the type of the disc, and execute a specified command.
+this means a dvd can be inserted and your favorite dvd software will
+start, or a data cd can be automatically mounted, etc. the commands
+are defined in a configuration file that has simple xml syntax.

@@ -1,0 +1,17 @@
+Module with common regular expressions
+	
+regexp::common is a perl module that exports a single hash ('%re') that
+stores or generates commonly needed regular expressions.
+
+the module currently provides the following patterns:
+
+
+  * balanced parentheses and brackets
+  * delimited text (with escapes)
+  * integers and floating-point numbers in any base (up to 36)
+  * comments in 44 languages
+  * offensive language
+  * lists of any pattern
+  * ipv4 addresses
+  * uris
+  * zip codes

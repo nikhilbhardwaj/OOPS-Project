@@ -1,0 +1,8 @@
+Debugging symbols for libnetfilter-log1
+	
+libnetfilter_log is a userspace library providing interface to
+packets that have been logged by the kernel packet filter. it is part
+of a system that deprecates the old syslog/dmesg based packet
+logging.
+
+this package provides the debugging symbols.

@@ -1,0 +1,7 @@
+Interface to the mysql database for the tcl language
+	
+the mysqltcl package provides a tcl interface to the mysql database system.
+within tcl you've a range of tcl commands and a global tcl array available
+to access the database server.
+written in c mysqltcl uses the official mysql c-api so that almost all
+tcl commands correspond to mysql c-api functions.

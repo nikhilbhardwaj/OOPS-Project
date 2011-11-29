@@ -1,0 +1,5 @@
+Pluggable authentication modules for pam
+	
+this package completes the set of modules for pam. it includes the
+
+ pam_unix_*.so module as well as some specialty modules.

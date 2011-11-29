@@ -1,0 +1,10 @@
+The net-3 networking toolkit
+	
+this package includes the important tools for controlling the network
+subsystem of the linux kernel.  this includes arp, ifconfig, netstat,
+rarp, nameif and route.  additionally, this package contains utilities
+relating to particular network hardware types (plipconfig, slattach,
+mii-tool) and advanced aspects of ip configuration (iptunnel, ipmaddr).
+
+in the upstream package 'hostname' and friends are included. those are
+not installed by this package, since there is a special "hostname*.deb".

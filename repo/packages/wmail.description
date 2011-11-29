@@ -1,0 +1,10 @@
+Windowmaker docklet watching your inbox
+	
+wmail is a window maker docklet watching your inbox, which is either a
+ordinary mbox or a directory conforming to qmails maildir format. it
+provides a nice little gui displaying some useful pieces of information
+about your inbox (as many other nice wm-apps doing nearly the same
+thing...). per default it uses the $mail environment-variable to locate
+the inbox you are using, other mailing mechanisms like pop or imap are
+not supported - use a tool like fetchmail to retrieve pop- or imap-based
+mail.

@@ -1,0 +1,6 @@
+A gnome panel applet for connecting to hosts using ssh
+	
+sshmenu-gnome puts all your most frequently used ssh connections on a menu
+in your gnome panel.  click on a host name to open a new gnome-terminal
+window with an ssh connection to the selected host.  set up options for
+port forwarding, etc. using the preferences dialog.

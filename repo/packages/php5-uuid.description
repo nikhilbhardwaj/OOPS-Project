@@ -1,0 +1,18 @@
+Ossp uuid module for php5
+	
+ossp uuid is an iso-c and perl application programming interface (api)
+and corresponding command line interface (cli) for the generation of
+dce 1.1 and iso/iec 11578:1996 compliant universally unique identifier
+(uuid). it supports dce 1.1 variant uuids of version 1 (time and node
+based), version 3 (name based) and version 4 (random number based).
+
+uuids are 128 bit numbers which are intended to have a high likelihood
+of uniqueness over space and time and are computationally difficult
+to guess. they are globally unique identifiers which can be locally
+generated without contacting a global registration authority. uuids
+are intended as unique identifiers for both mass tagging objects
+with an extremely short lifetime and to reliably identifying very
+persistent objects across a network.
+
+this package provides a module for ossp uuid functions support in php
+scripts.

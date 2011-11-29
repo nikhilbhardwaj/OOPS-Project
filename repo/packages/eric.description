@@ -1,0 +1,24 @@
+Full featured python ide
+	
+eric is a full featured python ide written in pyqt using the qscintilla
+editor widget. some highlights
+
+  * any number of editors with configurable syntax highlighting, code
+    folding, auto indenting and brace highlighting.
+  * integrated project management facility to organize your projects.  the
+    project browser shows all source files, all forms and all translations
+    each on its own tab. the source browser has built in class browsing
+    capabilities.
+  * integrated and full featured debuggers for python and ruby.
+  * interactive shells for python and ruby.
+  * an explorer window for walking through your directory structure with
+    built in class browsing capabilities for python files.
+  * variable windows that display local and global variables in the
+    current scope while debugging a program.
+  * an integrated interface to the python module "unittest".
+  * an integrated help viewer to display html help files. alternatively
+    you can choose to use qt-assistant to view help files.
+  * display of the ui in different languages.
+  * the capability to start qt-designer and qt-linguist from within eric4.
+  * the ability to compile qt-designer forms, to produce qt-linguist files
+    and release them from within the ide.

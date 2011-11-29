@@ -1,0 +1,8 @@
+Ruby interface to libxml (dependency package)
+	
+libxml-ruby is a ruby interface for processing xml.  it supports
+xpath, xpointer, and other features.  internally, it uses libxml
+and libxslt.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8.x).

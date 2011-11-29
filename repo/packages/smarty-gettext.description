@@ -1,0 +1,9 @@
+Gettext plugin enabling internationalization in smarty
+	
+smarty gettext is a smarty plugin providing internationalization support
+based on the standard gettext mechanism. smarty is a popular php templating
+engine.
+
+you need the php command line interpreter if you wish to use the tsmarty2c
+program: it lets you extract localizable strings from a smarty template so
+that you can use the normal gettext tools afterwards.

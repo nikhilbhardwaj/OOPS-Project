@@ -1,0 +1,8 @@
+Simple role-based access control functions for cipux
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+this package contains cipux::rbac::simple, used by the cipux xml-rpc
+server for authorization.

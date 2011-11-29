@@ -1,0 +1,5 @@
+Modules/classes for dpkg on ruby 1.9
+	
+it provides debian::dpkg and debian::dpkgdeb modules and
+debian::deb, debian::dsc, debian::archives, debian::sources,
+debian::packages and debian::status classes on ruby 1.9.

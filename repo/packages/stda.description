@@ -1,0 +1,10 @@
+Simple tools for data analysis (stda)
+	
+stda includes some primary tools for data analysis - you can evaluate
+sums, averages, integrals, histograms and distributions of 1-d data, and
+eventually plot the results. the separate programs are stand-alone tools
+(supporting the standard unix input and output pipelines) to be used for
+data processing from the command line. the package provides utilities for
+straightforward analysis in situations where a complex analytical approach
+is not necessary and  where an ultimate numerical precision with
+floating-point numbers is not critical.

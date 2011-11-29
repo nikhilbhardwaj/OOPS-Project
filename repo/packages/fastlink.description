@@ -1,0 +1,22 @@
+A faster version of pedigree programs of linkage
+	
+genetic linkage analysis is a statistical technique used to map
+genes and find the approximate location of disease genes. there
+was a standard software package for genetic linkage called
+linkage. fastlink is a significantly modified and improved
+version of the main programs of linkage that runs much faster
+sequentially, can run in parallel, allows the user to recover
+gracefully from a computer crash, and provides abundant new
+documentation. fastlink has been used in over 1000 published
+genetic linkage studies.
+
+this package contains the following programs:
+
+ ilink:    gemini optimization procedure to find a locally
+           optimal value of the theta vector of recombination
+           fractions
+ linkmap:  calculates location scores of one locus against a
+           fixed map of other loci
+ lodscore: compares likelihoods at locally optimal theta
+ mlink:    calculates lod scores and risk with two of more loci
+ unknown:  identify possible genotypes for unknowns

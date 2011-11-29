@@ -1,0 +1,11 @@
+Small ssl library optimized for embedded systems (documentation)
+	
+matrixssl is an embedded ssl implementation designed for small footprint
+devices and applications requiring low overhead per connection.  the
+library is less than 50k on disk with cipher suites.  it includes sslv3
+server support, session resumption, and implementations of rsa, 3des,
+arc4, sha1, and md5.  the source is well documented and contains
+portability layers for additional operating systems, cipher suites, and
+crypto providers.
+
+see http://www.matrixssl.org/ for more information.

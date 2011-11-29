@@ -1,0 +1,14 @@
+Samizdat module for ruby
+	
+this module is usable outside of samizdat engine and provides following
+classes:
+
+ * antispam: simple wiki spam filter
+ * cache: thread-safe time-limited fifo cache
+ * sanitize: html validation (requires tidy)
+ * storage: relational rdf storage (requires dbd::pg)
+
+
+this package is a dependency package, which depends on the package
+containing actual ruby samizdat module for the default ruby version
+(currently 1.8).

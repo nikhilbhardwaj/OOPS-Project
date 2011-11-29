@@ -1,0 +1,14 @@
+Java based library supporting ajax in java server pages
+	
+the ajax tag library is a set of jsp tags that simplify the use of
+asynchronous javascript and xml (ajax) technology in javaserver pages.
+
+this tag library does not force j2ee developers to write the necessary
+javascript to implement an ajax-capable web form. the tag library provides
+support for live form updates for the following use cases:
+
+ - autocomplete based on character input to an input field
+ - select box population based on selections made from another field
+ - callout or balloon popups for highlighting content
+ - refreshing form fields
+ - toggling images and form field states on/off.

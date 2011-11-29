@@ -1,0 +1,10 @@
+Pear html isotemplate api
+	
+this package allows you to manage previously defined html templates
+in an object-oriented fashion. a template consists of text and special
+labeled blocks and placeholders. the content of blocks can be re-used
+and parsed multiple times with different placeholder values, filled
+from php code with content.
+
+the isotemplate api gives you a maximum of flexibility, allowing any
+level of block nesting.

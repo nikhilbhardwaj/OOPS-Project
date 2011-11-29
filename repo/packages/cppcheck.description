@@ -1,0 +1,35 @@
+Tool for static c/c++ code analysis
+	
+cppcheck is a command-line tool that tries to detect bugs that your
+c/c++ compiler doesn't see. it is versatile, and can check non-standard
+code including various compiler extensions, inline assembly code, etc.
+its internal preprocessor can handle includes, macros, and several
+preprocessor commands. while cppcheck is highly configurable,
+you can start using it just by giving it a path to the source code.
+
+it includes checks for:
+
+ * pointers to out-of-scope auto variables;
+ * assignment of auto variables to an effective parameter of a function;
+ * out-of-bounds errors in arrays and stl;
+ * missing class constructors;
+ * variables not initialized by a constructor;
+ * use of memset, memcpy, etcetera on a class;
+ * non-virtual destructors for base classes;
+ * operator= not returning a constant reference to itself;
+ * use of deprecated functions (mktemp, gets, scanf);
+ * exceptions thrown in destructors;
+ * memory leaks in class or function variables;
+ * c-style pointer cast in c++ code;
+ * redundant if;
+ * misuse of the strtol or sprintf functions;
+ * unsigned division or division by zero;
+ * unused functions and struct members;
+ * passing parameters by value;
+ * misuse of signed char variables;
+ * unusual pointer arithmetic (such as "abc" + 'd');
+ * dereferenced null pointers;
+ * incomplete statements;
+ * misuse of iterators when iterating through a container;
+ * dereferencing of erased iterators;
+ * use of invalidated vector iterators/pointers;

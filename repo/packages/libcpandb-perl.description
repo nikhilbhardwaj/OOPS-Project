@@ -1,0 +1,5 @@
+Perl module for working with the unified cpan database
+	
+cpandb is a module for retrieving various types of information about cpan
+modules. it pulls data from different places, combining them in one sqlite
+database for convenient use.

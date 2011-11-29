@@ -1,0 +1,6 @@
+Poe component for running asynchronous http transactions
+	
+poe::component::client::http is an http user-agent. it allows other sessions
+to run while http transactions are being processed and can handle several http
+transactions in parallel. rather than being created as proper objects, clients
+are spawned as separate sessions; for full details, see the documentation.

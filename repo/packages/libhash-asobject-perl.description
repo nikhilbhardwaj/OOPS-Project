@@ -1,0 +1,9 @@
+Perl modules to treat hashes as objects, with arbitrary accessors/mutators
+	
+a hash::asobject is a blessed hash that provides read-write
+access to its elements using accessors.  (actually, they're both accessors
+and mutators.)
+
+it's designed to act as much like a plain hash as possible; this means, for
+example, that you can use methods like destroy to get or set hash elements
+with that name.

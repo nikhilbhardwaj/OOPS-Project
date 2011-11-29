@@ -1,0 +1,7 @@
+Utility for sorting fat directory structures
+	
+fatsort is a utility that sorts fat16 and fat32 partitions. it even
+can handle long file name entries. it reads the boot sector and sorts
+the directory structure recursively.
+this is for example useful for sorting the files on your mp3 player when
+it doesn't implement a sorting function itself.

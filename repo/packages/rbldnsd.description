@@ -1,0 +1,5 @@
+Small nameserver daemon designed for dnsbls
+	
+rbldnsd is a small authoritate-only dns nameserver
+designed to serve dns-based blocklists (dnsbls).
+it may handle ip-based and name-based blocklists.

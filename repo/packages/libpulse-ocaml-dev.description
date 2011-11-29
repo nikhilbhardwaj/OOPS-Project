@@ -1,0 +1,11 @@
+Ocaml interface to the pulseaudio library
+	
+this package provied an interface to the pulseaudio sound server for
+ocaml programmers.
+
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use ocaml-pulseaudio.

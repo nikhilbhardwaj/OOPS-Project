@@ -1,0 +1,8 @@
+Finite state automaton and stemming engine library
+	
+java based morfologik-stemming library provides the following fatures:
+
+  - finite state automaton traversal routines for jan daciuk's fsa package.
+  - a stemming engine for the polish language built on top of fsa traversal.
+
+the library may be used for other languages as well.

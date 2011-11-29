@@ -1,0 +1,5 @@
+Debugging library for java
+	
+this package provides a debugging library for java, including a generic
+utility class for providing nicely formatted dumps of byte arrays
+(similar to the hexdump utility).

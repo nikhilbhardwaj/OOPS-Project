@@ -1,0 +1,9 @@
+Dicom medical file reading and writing
+	
+pydicom is a pure python module for parsing dicom files.  dicom is a
+standard (http://medical.nema.org) for communicating medical images
+and related information such as reports and radiotherapy objects.
+
+pydicom makes it easy to read dicom files into natural pythonic
+structures for easy manipulation.  modified datasets can be written
+again to dicom format files.

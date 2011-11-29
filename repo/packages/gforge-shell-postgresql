@@ -1,0 +1,4 @@
+PackageId:5308
+Name:gforge-shell-postgresql
+Version:5.0.2-5
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,debianutils,gforge-common,gforge-db-postgresql,libnss-pgsql2,openssh-server,perl,ucf

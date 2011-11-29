@@ -1,0 +1,9 @@
+Sdl plugin for bochs
+	
+bochs is a highly portable free ia-32 (x86) pc emulator written in c++, that
+runs on most popular platforms. it includes emulation of the intel x86 cpu,
+common i/o devices, and a custom bios.
+
+this package contains an sdl gui plugin for bochs.
+
+use scroll-lock key for full screen.

@@ -1,0 +1,8 @@
+Scripts to help dealing with packaged kernel patches
+	
+this package contains scripts useful to people making use of the
+various kernel-patch packages.  it currently contains:
+
+
+ * lskpatches: a tool that lists installed patches, and gives
+ useful information about them.

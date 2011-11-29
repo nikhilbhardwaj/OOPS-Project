@@ -1,0 +1,6 @@
+Gtk+ utility for computing checksums and more
+	
+gtkhash is a small gtk+ utility which allows users to compute
+message digests or checksums using the mhash library.
+currently supported hash functions include md5, sha1,
+sha256, sha512, ripemd, haval, tiger and whirlpool.

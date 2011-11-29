@@ -1,0 +1,9 @@
+Honeyd's honeypot documentation and scripts
+	
+honeyd is a small daemon that creates virtual hosts on a network,
+including os fingerprinting personality and simulation of services
+that are simulated by scripts.
+
+this package provides honeyd's documentation and a number of scripts
+useful to simulate services of different unix and windows operating
+systems: smtp, pop3, ftp, telnet, web server, ssh...

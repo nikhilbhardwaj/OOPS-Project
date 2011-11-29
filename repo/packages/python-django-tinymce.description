@@ -1,0 +1,14 @@
+Replacement text widget for django web framework
+	
+tinymce is a pure javascript rich text editor, allowing non-technical users to
+easily enter formatted text. this package allows tinymce to be used as an
+alternative widget for text areas, a drop-in replacement, within both the
+django admin interface and user-facing views.
+
+features:
+
+ * enhanced support for content languages.
+ * integration with the tinymce spellchecker.
+ * enables predefined link and image lists for dialogs.
+ * can compress the tinymce javascript code.
+ * integration with django-filebrowser.

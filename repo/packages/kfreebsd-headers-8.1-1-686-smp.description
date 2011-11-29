@@ -1,0 +1,7 @@
+Header files for kernel of freebsd 8.1
+	
+this package provides the header files for kernel of freebsd 8.1, generally
+used for building out-of-tree kernel modules. these files are going to be
+installed into /usr/src/kfreebsd-headers-8.1-1-686-smp, and can be
+used for building modules that load into the kernel provided by the
+kfreebsd-image-8.1-1-686-smp package.

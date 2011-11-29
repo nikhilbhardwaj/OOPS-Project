@@ -1,0 +1,11 @@
+Raid 1 over tcp/ip for linux utilities
+	
+drbd is a block device which is designed to build high availability
+clusters by providing a virtual shared device which keeps disks in
+nodes synchronised using tcp/ip. this simulates raid 1 but avoiding
+the use of uncommon hardware (shared scsi buses or fibre channel).
+it is currently limited to fail-over ha clusters.
+
+this package contains the programs that will control the drbd kernel
+module provided in drbd-source. you will need a clustering service
+(such as heartbeat) to fully implement it.

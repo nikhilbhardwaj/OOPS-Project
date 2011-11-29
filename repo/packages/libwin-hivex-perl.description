@@ -1,0 +1,8 @@
+Perl bindings to hivex
+	
+libhivex is a self-contained library for reading and writing windows
+registry "hive" binary files.
+
+this package contains the perl bindings to libhivex and hivexregedit,
+a low-level tool for manipulating hives using a text format as
+understood and produced by regedit.exe.

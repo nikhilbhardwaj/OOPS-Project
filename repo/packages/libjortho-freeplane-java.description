@@ -1,0 +1,11 @@
+A java spell-checking library.
+	
+jortho (java orthography) is a spell-checker entirely written in java.
+its dictionaries are based on the free wiktionary project and can therefore
+be updated for virtually any language.
+
+the library works with any jtextcomponent from the swing frame work.
+this includes jtextpane, jeditorpane and jtextarea.
+
+the version packaged is based on jortho 0.4, slightly adapted for the needs
+of freeplane. see http://jortho.sourceforge.net/.

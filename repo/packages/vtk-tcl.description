@@ -1,0 +1,9 @@
+Tcl bindings for vtk
+	
+the visualization toolkit (vtk) is an object oriented, high level
+library that allows one to easily write c++ programs, tcl, python and
+java scripts that do 3d visualization.
+
+this provides the shared libraries and executable that enable one to use
+vtk from tcl/tk scripts. you will need tcl/tk and vtk installed to use
+this.

@@ -1,0 +1,13 @@
+Python bindings for liblemental (debug extension)
+	
+gelemental is a gtk+ periodic table viewer that provides detailed information
+about chemical elements.
+it features a table view which allows the elements to be coloured thematically
+by several properties, a sortable list view and an element properties
+dialog, displaying a variety of information, including historical,
+thermodynamic, electrochemical, and crystallographic properties.
+
+the data set is available through the libelemental shared library.
+
+this package contains the python bindings allowing you to use libelemental
+from python scripts, built for the python debug interpreter.

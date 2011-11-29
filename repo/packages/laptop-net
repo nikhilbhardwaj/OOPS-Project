@@ -1,0 +1,4 @@
+PackageId:8968
+Name:laptop-net
+Version:2.26-9
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,ifupdown,netscript-2.4,netscript-2.4-upstart,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libnet1,libpcap0.8,lockfile-progs,module-init-tools,kldutils,net-tools,freebsd-net-tools

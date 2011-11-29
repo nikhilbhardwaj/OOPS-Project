@@ -1,0 +1,7 @@
+Gtk+ gl extension bindings for the ruby language
+	
+gtkglext provides the gdk objects to support opengl rendering in gtk+,
+and gtkwidget api add-ons to make gtk+ widgets opengl-capable. this package
+contains libraries for using gtkglext with the ruby programming language.
+
+this package contains the debugging symbols.

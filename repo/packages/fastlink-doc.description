@@ -1,0 +1,15 @@
+Some papers about fastlink
+	
+genetic linkage analysis is a statistical technique used to map
+genes and find the approximate location of disease genes. there
+was a standard software package for genetic linkage called
+linkage. fastlink is a significantly modified and improved
+version of the main programs of linkage that runs much faster
+sequentially, can run in parallel, allows the user to recover
+gracefully from a computer crash, and provides abundant new
+documentation. fastlink has been used in over 1000 published
+genetic linkage studies.
+
+you do not really need these papers about fastlink but it is highly
+recommended to study this documentation before starting with the
+tools of the fastlink package.

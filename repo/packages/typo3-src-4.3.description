@@ -1,0 +1,21 @@
+Typo3 - the enterprise level open source webcms (core)
+	
+typo3 is a free open source content management system for enterprise purposes
+on the web and in intranets. it offers full flexibility and extendability while
+featuring an accomplished set of ready-made interfaces, functions and modules.
+
+the most important key features of typo3 are:
+
+ * simple creation of multi language websites with fallback to a default
+   language
+ * handling of multi domain websites within a single page tree
+ * multi user backend editing with complete gui customisation using an
+   advanced acl system
+ * an integrated workflow management system based on an multi step architecture
+   with editor and supervisor privileges
+ * unlimited redefinition of the rendering process using the build-in
+   typoscript configuration interface or the plugin api
+ * thousands of plugins are available in the online typo3 extension repository
+
+
+this package provides the core engine of typo3, often called the source.

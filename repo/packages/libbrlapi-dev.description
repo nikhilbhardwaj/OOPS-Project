@@ -1,0 +1,5 @@
+Library for communication with brltty - static libs and headers
+	
+this package contains the static library libbrlapi.a and header files
+in /usr/include/brltty/ necessary to compile programs for brlapi, a
+client-server based mechanism to remotely access a braille display.

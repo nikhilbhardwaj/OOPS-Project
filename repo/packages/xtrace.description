@@ -1,0 +1,6 @@
+Trace communication between x client and server
+	
+what strace is for system calls, xtrace is for x11 connections:
+you hook it between one or more x11 clients and an x server and
+it prints the requests going from client to server and the replies,
+events and errors going the other way.

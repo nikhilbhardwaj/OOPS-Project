@@ -1,0 +1,12 @@
+Imap new mail notification utility for iphone using prowl public api
+	
+prowl is a service and an app for iphone's push notification service.(apns)
+see http://prowl.weks.net/ for more about prowl.
+
+imaprowl is an utility script to notify new mail of imap server with prowl
+service.
+it's very useful to push notification of gmail or any other imap mail service
+to your iphone.
+
+this program uses imap/idle(rfc2177) or imap/noop to check the new mail on
+imap server and uses prowl public api via https.

@@ -1,0 +1,11 @@
+Protein multiple alignment by sequence annealing
+	
+amap is a command line tool to perform multiple alignment of peptidic
+sequences. it utilizes posterior decoding, and a sequence-annealing
+alignment, instead of the traditional progressive alignment method. it
+is the only alignment program that allows to control the sensitivity /
+specificity tradeoff.  it is based on the probcons source code, but
+uses alignment metric accuracy and eliminates the consistency
+transformation.
+
+the java visualisation tool of amap 2.2 is not yet packaged in debian.

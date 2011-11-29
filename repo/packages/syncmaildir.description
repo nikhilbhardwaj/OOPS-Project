@@ -1,0 +1,18 @@
+Sync mail dir is a set of tools to synchronize maildirs
+	
+sync mail dir is a set of utilities to synchronize a pair of mail boxes
+in maildir format, using ssh to transfer data. it provides the smd-pull
+utility to pull changes made on the remote mailbox, smd-push to propagate
+local changes to the remote mailbox, smd-loop to iterate push and pull
+in a timely way.
+
+the software is young and should thus be used with care in production
+environments.
+
+unlike offlineimap it requires no imap server to be installed on the remote
+host. moreover it never attempts to automatically resolve conflicts between
+incompatible mailbox statuses, it just notifies the user explaining how
+he can fix the problem.
+
+sync mail dir design is similar to the one of maildirsync, but is more
+efficient in terms of cpu cycles and disk i/o.

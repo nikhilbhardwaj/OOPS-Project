@@ -1,0 +1,8 @@
+Visualization toolkit - a high level 3d visualization library
+	
+the visualization toolkit (vtk) is an object oriented, high level
+library that allows one to easily write c++ programs, tcl, python and
+java scripts that do 3d visualization.
+
+this package provides the vtk header files required to compile c++ programs
+that use vtk gui support for qt3.

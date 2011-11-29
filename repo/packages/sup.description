@@ -1,0 +1,29 @@
+Software upgrade protocol implementation
+	
+the sup system is a set of programs developed by carnegie mellon
+university that provide for collections of files to be maintained in
+identical versions across a number of machines.  these programs are:
+
+sup: the "client" program, run by users or system maintainers, which
+initiates the upgrade activity  on  a  machine  requesting  the
+latest  version of a collection of files.  sup will normally be
+run as a daemon, firing up once  each  night  (week,  etc.)  to
+upgrade the specified file collections.
+
+supfilesrv: the "file server" program, a daemon that is run by the
+system maintainer to service requests for files initiated by client
+sup programs.  the file server runs on every machine used as a
+"repository" of distributable versions of files.  it runs continuously
+and listens for network connection requests by individual client
+processes; for each individual client request, a process is forked to
+service that request.
+
+supscan: the "file scanner" program, that may optionally be run
+periodically to speed up execution of the file server.  it
+pre-compiles a list of files on the file system that match the
+specifications for a given file collection so that the file server
+need not do this during each upgrade of that collection.  the file
+scanner is normally used daily for very large file collections that
+are upgraded by many clients each day; it is not so useful for small
+file collections or for those that are upgraded by only a few client
+machines per day.

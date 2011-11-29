@@ -1,0 +1,6 @@
+A small http server
+	
+mini-httpd implements all basic features of a httpd, including: get,head,post
+methods, common mime types, basic authentication, virtual hosting, cgi,
+directory listing, trailing-slash redirection, standard logging, custom error
+pages etc. it also can be configured to do ssl and ipv6.

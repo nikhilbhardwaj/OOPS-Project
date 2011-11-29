@@ -1,0 +1,9 @@
+Easy and secure management of files submitted via html forms
+	
+this class provides an advanced file uploader system for file uploads made
+from html forms. it features: handling from one file to multiple files, safe
+file copying from tmp dir, easy detecting mechanism of valid upload, missing
+upload or error, giving extensive information about the uploaded file,
+renaming uploaded files in different ways (as it is, safe or unique),
+validating allowed file extensions, multiple languages error messages
+support (es, en, de, fr, it, nl, pt_br).

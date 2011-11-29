@@ -1,0 +1,8 @@
+Isruntime library of intarsys
+	
+ths isruntime library collects a series of routines common to the iscwt,
+isfreetype and the jpod java libraries of the intarsys pdf management
+software.
+
+this package always installs the latest version of the iscwt library.
+it only offers a symbolic link to the respective jar file.

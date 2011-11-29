@@ -1,0 +1,7 @@
+Python class to access the koukaam netio-230a
+	
+this package provides a python class to access and control the koukaam
+netio-230a, a cheap but advanced multiple socket with ethernet control.
+furthermore it ships a cli which has the functionality to query and command
+the netio-230a via tcp (telnet) and a tool to discover all netio-230a devices
+on the local network.

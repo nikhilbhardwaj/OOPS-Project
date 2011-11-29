@@ -1,0 +1,21 @@
+Tv viewer for kde
+	
+kdetv is a kde application that allows you to watch television on your
+gnu/linux box running kde. you probably know it as qtvision, the completely
+rewritten version of kwintv.
+
+kdetv has a plugin based architecture. existing plugings support various video
+input methods (like xvideo and v4l v1 and v2), audio mixer control (oss,
+alsa etc), channel file plugins for importing channels from other viewers and
+video filter plugins (dscaler algorithms).
+
+other features include a channel scanner, three view modes, teletext and
+closed caption decoding. remote control is provided by the kdelirc, a
+component shipped as part of kde.
+
+this package uses v4l-conf to configure the video display when using the v4l
+plugin. if you intend to use the xvideo plugin exclusively, then you can avoid
+installing it.
+
+
+ homepage http://www.kdetv.org

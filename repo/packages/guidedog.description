@@ -1,0 +1,12 @@
+Nat/masquerading/port-forwarding configuration tool for kde
+	
+guidedog is a kde utility which allows to use easily activate and
+configure your machine for packet routing, network address
+translation/ip masquerading (nat) and port-forwarding.
+
+if you are using the functions of this program, it is recommended that
+you setup/configure a firewall to protect your machine - guidedog does
+not setup a firewall for you. to configure a firewall, the guarddog
+program, by the same author, is recommended.
+
+guidedog requires iptables, and therefore linux kernel 2.4+.

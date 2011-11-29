@@ -1,0 +1,8 @@
+Transaction central backend module for business::onlinepayment
+	
+this is business::onlinepayment::transactioncentral, a business::onlinepayment
+backend module for the merchantanywhere transaction central gateway.  it is
+only useful if you have a merchant account with merchantanywhere:
+http://www.merchantanywhere.com/
+http://www.merchantanywhere.com/ecshop/tc_elink.htm
+http://www.merchantanywhere.com/ecshop/tc%20interface%20new.pdf

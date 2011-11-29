@@ -1,0 +1,12 @@
+Documentation for steel bank common lisp
+	
+this package provides documentation for sbcl -- a development
+environment for the ansi common lisp language.
+
+the documents in this package cover sbcl-specific extensions to the
+language, explain how to use this common lisp implementation and how
+it differs from the ansi standard.
+
+the manual about sbcl's internals is also included in this package
+and may be of interest for people who intent to work with sbcl's
+source code.

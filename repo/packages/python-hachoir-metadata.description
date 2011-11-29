@@ -1,0 +1,31 @@
+Program to extract metadata using hachoir library
+	
+hachoir-metadata extracts metadata from multimedia files: music, picture,
+video, but also archives. it supports most common file formats:
+
+ * archives: bzip2, gzip, zip, tar
+ * audio: mpeg audio ("mp3"), wav, sun/next audio, ogg/vorbis (ogg), midi,
+   aiff, aifc, real audio (ra)
+ * image: bmp, cur, emf, ico, gif, jpeg, pcx, png, tga, tiff, wmf, xcf
+ * video: asf format (wmv video), avi, matroska (mkv), quicktime (mov),
+   ogg/theora, real media (rm)
+
+
+it tries to give the more information as possible. for some file formats,
+it gives really more information then libextractor for example. riff parser
+is really good for example, it can extract creation date, software used to
+generate the file, etc. but hachoir-metadata can not guess information. the
+most complex operation is just to compute duration of a music using frame size
+and file size.
+
+hachoir-metadata has three modes:
+
+ * classic mode: extract metadata, you can use --level=level to limit quantity
+   of information to display (and not to extract)
+ * --type: show on one line the file format and most important information
+ * --mime: just display file mime type
+
+
+the command 'hachoir-metadata --mime' works like 'file --mime',
+and 'hachoir-metadata --type' like 'file'. but today file command supports
+more file formats then hachoir-metadata.

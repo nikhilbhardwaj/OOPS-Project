@@ -1,0 +1,15 @@
+Media server with support for rsp, daap, dacp and airtunes
+	
+forked-daapd is an itunes-compatible media server, originally intended
+as a rewrite of firefly media server (also known as mt-daapd).
+
+it supports a wide range of audio formats, can stream video to itunes,
+frontrow and other compatible clients, has support for apple's remote
+iphone/ipod application and can stream music to airtunes devices like
+the airport express.
+
+it also features rsp support for roku's soundbridge devices.
+
+built-in, on-the-fly decoding support enables serving popular free music
+formats like flac, ogg vorbis or musepack to those clients that do not
+otherwise support them.

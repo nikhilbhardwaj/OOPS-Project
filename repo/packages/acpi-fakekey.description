@@ -1,0 +1,6 @@
+Tool to generate fake key events
+	
+this package contains a small tool that can be used to generate key events as
+if the corresponding key was pressed. it is used by scripts processing acpi
+events to translate these events to key presses but can also be used
+separately.

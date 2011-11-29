@@ -1,0 +1,11 @@
+Portable library for cross-platform game and multimedia development
+	
+allegro is a cross-platform library intended for use in computer games
+and other types of multimedia programming. it is used by many dos games
+and can be used to port them easily to linux. allegro supports many
+kinds of input and output interfaces, e.g. x11 (xlib or dga),
+framebuffer, svgalib.
+
+note: you should install xfree86 to use the display output plugins.
+alternatively, you can use the framebuffer output, or install the
+liballegro-plugin-svgalib on i386.

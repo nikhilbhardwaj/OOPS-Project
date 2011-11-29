@@ -1,0 +1,10 @@
+Development files for the chinese lunar library
+	
+this library provide a struct to covert between chinese lunar calendar
+and gregorian calendar.
+
+it also provide a gtk+ widget which can display chinese lunar calendar.
+
+this package is needed to compile programs against liblunar-1-0, as
+only it includes the header files and static libraries (optionally)
+needed for compiling.

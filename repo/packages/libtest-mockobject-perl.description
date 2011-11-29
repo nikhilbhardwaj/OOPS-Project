@@ -1,0 +1,7 @@
+Perl extension for emulating troublesome interfaces
+	
+test::mockobject allows you to control interfaces for writing
+tests in perl. it can emulate interfaces that you normally
+would use (such as a database or other external items).
+you don't have to recreate the functionality, but simply mimic
+the input and output.

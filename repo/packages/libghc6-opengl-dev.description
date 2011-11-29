@@ -1,0 +1,11 @@
+Haskell opengl binding for ghc
+	
+this package provides a library for the haskell programming language.
+
+this library provides a binding for the opengl graphics system (gl,
+version 1.5) and its accompanying utility library (glu, version 1.3).
+opengl is the industry's most widely used and supported 2d and 3d
+graphics application programming interface (api), incorporating
+a broad set of rendering, texture mapping, special effects, and
+other powerful visualization functions.  for more information
+about opengl, please see: <http://www.opengl.org/>.

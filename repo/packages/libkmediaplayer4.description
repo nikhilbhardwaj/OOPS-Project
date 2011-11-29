@@ -1,0 +1,7 @@
+The kmediaplayer interface for the kde platform
+	
+kmediaplayer provides an api for re-usable media player components. the main
+class (kmediaplayer::player) provides all the necessary media player
+operations, with an optional gui to control them.
+
+this package is part of the kde development platform libraries module.

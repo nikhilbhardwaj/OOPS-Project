@@ -1,0 +1,7 @@
+Png photo image support to tcl/tk
+	
+tkpng is an open source binary package that adds png photo image support
+to tcl/tk. although other extensions such as img also add support for png
+images, this package was designed to be lightweight, not depending on
+libpng nor implementing other image formats, and suitable for inclusion in
+the tk core.

@@ -1,0 +1,6 @@
+Ffmpeg video postprocessing library
+	
+this is the video postprocessing library from the ffmpeg project.
+
+this package contains a debian-specific version of the libpostproc shared
+object that should only be used by debian packages.

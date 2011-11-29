@@ -1,0 +1,17 @@
+Fake pop3 daemon. delivers same messages to all users
+	
+fakepop is a fake pop3 daemon. it returns always the same messages
+to all users, it does not care about usernames and passwords. all
+user/pass combinations are accepted.
+
+the main purpose of fakepop is to advice users that your server
+only accepts pop3-ssl and they have wrongly configured pop3 without
+ssl. you can customize messages in /etc/fakepop/ directory to teach
+your users how they should configure their mail clients to use
+pop3-ssl instead of pop3.
+
+warning: some pop3-ssl daemons require a pop3 non-ssl package to be
+installed. that is why fakepop does not conflicts with pop3-server.
+courier-pop-ssl is one of this packages (it requires courier-pop).
+before installing fakepop, be sure to disable other pop3 daemons.
+for courier, set pop3dstart=no in /etc/courier/pop3d

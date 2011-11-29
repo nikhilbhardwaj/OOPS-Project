@@ -1,0 +1,5 @@
+Perl datetime extension for computing rfc2445 recurrences
+	
+datetime::event::ical is a perl module that provides convenience methods
+for easily creating datetime::set objects for rfc2445 style recurrences,
+such as 'last friday of march'.

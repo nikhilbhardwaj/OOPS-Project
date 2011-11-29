@@ -1,0 +1,9 @@
+Ide for pic-microcontroller development
+	
+piklab is an integrated development environment for applications based on
+microchip pic and dspic microcontrollers similar to the mplab environment.
+
+support for several compiler and assembler toolchains is integrated. the
+gpsim simulator, the icd1 programmer, the icd2 debugger, the pickit1 and
+pickit2 programmers, the picstart+ programmer, and most direct programmers
+are supported. a command-line programmer and debugger are also available.

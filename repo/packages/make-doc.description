@@ -1,0 +1,8 @@
+Documentation for the gnu version of the "make" utility.
+	
+this package contains the documentation for gnu make.  the upstream
+sources for this package are available at the location
+ftp://ftp.gnu.org/gnu/make/. this package has been stripped down to
+only contain the documentation; since the documentation is covered
+under a non-free license and thus has been moved to
+non-free/doc. make itself remains in debian.

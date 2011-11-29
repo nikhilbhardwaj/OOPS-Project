@@ -1,0 +1,34 @@
+Displays an image for each piece of mail in your mailbox
+	
+xfaces is a program that will display an image for each
+piece of mail in your mail box. this lets you know at a
+glance who you have mail from. xfaces starts out (when you
+have no mail) looking like a color xbiff. as you receive
+mail xfaces becomes a column of mail images. some of xfaces
+features:
+
+ - both mono and color images.
+ - optional shaped window support with both xpm and xbm.
+ - sound support using the netaudio protocol. the netaudio server
+   currently supports sun's sparcstation (sunos 4.1.x and solaris
+   2.2), sgi's indigo and ncd mcx x terminals running ncdware 3.1 or
+   later.
+ - face images can be "compressed" so that each image will only show
+   up once on your display. this way, if you receive 30 messages from
+   one user, list or whatever the image will only show up once.
+ - you can use regular expressions to search any headers to choose
+   images and sounds or ignore that mail message completely. this
+   lets you specify an image/sound for mail that comes from a mailing
+   list or ignore mail that you have already seen but left in your
+   system mailbox.
+ - compatibility support for rich burridge's faces program. this
+   includes the ability to run user command to generate the image
+   list.
+ - support for pop mailboxes.
+ - xfaces can kick off shell commands based upon mailbox contents.
+   you could have yourself paged when a high priority item needs your
+   attention.
+ - xfaces can run external filters to convert images into xpm so that
+   image formats that xfaces does not understand can be used.
+ - the annotations for mail items include username, hostname, count,
+   user@host, the contents of any header.

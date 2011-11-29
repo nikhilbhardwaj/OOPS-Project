@@ -1,0 +1,10 @@
+Module to check if there is internet access
+	
+lwp::online will try to verify, as accurately as it can, if the
+host has any internet access: it will check if there is basic
+network access, dns connectivity and it will also check whether
+one from a whole set of transport (http, https, ftp, and so on) is
+actually available
+
+the exported 'online' function can also be used by other modules to
+skip the tests which require internet connectivity.

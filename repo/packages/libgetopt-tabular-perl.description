@@ -1,0 +1,21 @@
+Table-driven argument parsing for perl 5
+	
+getopt::tabular is a perl 5 module for table-driven argument parsing,
+vaguely inspired by john ousterhout's tk_parseargv.
+
+some nice features of getopt::tabular are:
+
+ * command-line arguments are carefully type-checked, both by pattern and
+   number -- e.g. if an option requires two integers, getoptions makes sure
+   that exactly two integers follow it!
+ * the valid command-line arguments are specified in a data structure
+   separate from the call to getoptions; this makes it easier to have very
+   long lists of options, and to parse options from multiple sources
+   (e.g. the command line, an environment variable, and a configuration file).
+ * getopt::tabular can intelligently generate help text based on your option
+   descriptions.
+ * the type system is extensible, and if you can define your desired argument
+   type using a single perl regular expression then it's particularly easy to
+   extend.
+ * options can be abbreviated and come in any order.
+ * a "spoof" mode in which arguments are parsed without side-effects.

@@ -1,0 +1,6 @@
+Module for simple mime message parsing
+	
+email::mime is an extension of the email::simple module for easily handling
+mime-encoded messages. it takes a message as a string, splits it up into its
+constituent parts, and allows you access to various parts of the message.
+headers are decoded from mime encoding.

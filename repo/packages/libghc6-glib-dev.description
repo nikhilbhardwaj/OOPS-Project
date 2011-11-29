@@ -1,0 +1,9 @@
+Binding to the glib library for gtk2hs
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+the gnu library is a collection of c data structures and utility function for
+dealing with unicode. this package only binds as much functionality as
+required to support the packages that wrap libraries that are themselves based
+on glib.

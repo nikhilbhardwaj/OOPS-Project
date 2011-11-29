@@ -1,0 +1,7 @@
+V8 javascript engine
+	
+v8 is google's open source, high performance javascript engine. it is written
+in c++ and is used in google chrome, google's open source browser.
+
+this package includes the dynamic library against which you can link your
+program.

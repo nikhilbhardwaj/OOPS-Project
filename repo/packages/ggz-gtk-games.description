@@ -1,0 +1,24 @@
+Ggz gaming zone: game clients collection for gtk+
+	
+ggz games are games that can be played online against other people while
+all having some features in common, like table chat, seats configuration,
+bot players, game spectators, savegames, statistics, and others.  some
+games also work in single-player mode.
+
+this package provides the complete collection of ggz game frontends that
+make use of the gtk+ toolkit.  it includes:
+
+ * chess
+ * chinese checkers
+ * combat
+ * connect-the-dots
+ * ggzcards (engine for la pocha, hearts, bridge, fortytwo etc.)
+ * hastings1066
+ * reversi
+ * spades
+ * tictactoe
+
+and much more.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

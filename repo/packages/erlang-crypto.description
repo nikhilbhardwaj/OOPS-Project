@@ -1,0 +1,5 @@
+Erlang/otp cryptographic modules
+	
+the crypto application provides functions for computation of message
+digests, encryption and decryption functions. it uses openssl for
+actual calculations.

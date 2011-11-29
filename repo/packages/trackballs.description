@@ -1,0 +1,16 @@
+An opengl-based game of marbles through a labyrinth
+	
+trackballs is a simple game similar to the classical game marble madness
+on the amiga in the 80's. by steering a marble ball through a labyrinth
+filled with vicious hammers, pools of acid and other obstacles the
+player collects points. when the ball reaches the destination it continues
+at the next, more difficult level - unless the time runs out.
+
+this game is not intended to be a replica of marble madness but rather
+inspired by it. the game is also highly configurable by using a
+scripting extension (guile) and it provides a simple editor by which new
+levels can easily be created.
+
+install the trackballs-music package for a soundtrack to be played during
+gameplay. for more information and screenshots of the game please see
+<http://trackballs.sourceforge.net>.

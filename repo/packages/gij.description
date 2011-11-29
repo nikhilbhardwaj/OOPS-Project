@@ -1,0 +1,8 @@
+The gnu java bytecode interpreter (transitional package)
+	
+gij is not limited to interpreting bytecode. it includes a class loader which
+can dynamically load shared objects, so it is possible to give it the name
+of a class which has been compiled and put into a shared library on the
+class path.
+
+this is a transitional package. it can be removed.

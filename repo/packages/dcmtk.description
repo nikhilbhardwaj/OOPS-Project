@@ -1,0 +1,10 @@
+The offis dicom toolkit command line utilities
+	
+dcmtk includes a collection of libraries and applications for examining,
+constructing and converting dicom image files, handling offline media,
+sending and receiving images over a network connection, as well as
+demonstrative image storage and worklist servers.
+
+this package contains the dcmtk utility applications.
+
+note: this version was compiled with libssl support.

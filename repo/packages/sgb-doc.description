@@ -1,0 +1,8 @@
+Documentation for the stanford graphbase
+	
+this package contains the source code for the graphbase library, which
+forms the major documentation of the package.  it will be installed in
+/usr/share/doc/sgb/src.
+
+the source code is written in cweb, a combination of tex and c, using a
+very readable literate programming style, making the code a joy to read.

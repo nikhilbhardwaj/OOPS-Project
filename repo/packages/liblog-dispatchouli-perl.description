@@ -1,0 +1,15 @@
+Simple wrapper around log::dispatch
+	
+log::dispatchouli is a simple wrapper around log::dispatch intended to make
+it simpler to add logging to a program. it removes the need to think much
+about categories, facilities, levels, or things like that. it makes logging
+just configurable enough so you can find the logs you want, and easy enough
+that you will actually log things.
+
+log::dispatchouli can log to syslog (if you specify a facility), standard
+error or standard output, to a file, or to an array in memory. logging to
+memory is primarily intended for testing.
+
+additionally, log::dispatchouli uses string::flogger to process the things to
+be logged, meaning you can easily log data structures. for more information,
+see string::flogger (libstring-flogger-perl).

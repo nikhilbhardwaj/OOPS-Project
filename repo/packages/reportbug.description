@@ -1,0 +1,21 @@
+Reports bugs in the debian distribution
+	
+reportbug is a tool designed to make the reporting of bugs in debian
+and derived distributions relatively painless.  its features include:
+
+
+ * integration with mutt and mh/nmh mail readers.
+ * access to outstanding bug reports to make it easier to identify
+   whether problems have already been reported.
+ * automatic checking for newer versions of packages.
+ * optional automatic verification of integrity of packages via debsums.
+ * support for following-up on outstanding reports.
+ * optional pgp/gnupg integration.
+
+
+reportbug is designed to be used on systems with an installed mail
+transport agent, like exim or sendmail; however, you can edit the
+configuration file and send reports using any available mail server.
+
+this package also includes the "querybts" script for browsing the
+debian bug tracking system.

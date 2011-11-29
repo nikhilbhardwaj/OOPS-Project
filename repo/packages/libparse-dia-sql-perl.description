@@ -1,0 +1,13 @@
+Dia class diagram parser and sql generator
+	
+dia is a diagram creation program for linux, unix and windows released under
+the gnu general public license.
+
+parse::dia::sql is the parser that interprets the .dia file(s) into an
+internal datastructure.
+
+parse::dia::sql::output (or one of its sub classes) can take the
+datastructure and generate the sql statements it represents.
+
+this package also contains a command line utility to convert diagrams
+into sql. this utility replaces the older tedia2sql script.

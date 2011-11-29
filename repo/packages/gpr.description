@@ -1,0 +1,11 @@
+Gui for lpr: print files and configure printer-specific options
+	
+gpr is a graphical interface to lpr that provides for easy configuration
+of printer-specific options. gpr interfaces with a postscript
+printer's ppd file to create a user-interface of configurable
+options. based upon user choice, the device-specific option code
+is then inserted into the postscript job and sent to the printer.
+this can be used to tell the printer to duplex or staple the print
+job, or tell it what paper tray to draw paper from.
+note: gpr will detect if the file to be print is postscript, and, if not,
+it will call a2ps to preprocess it before sending it to ppdfilt and to lpr.

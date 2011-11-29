@@ -1,0 +1,8 @@
+Putty terminal emulator
+	
+this is an x terminal emulator based on the popular windows ssh client,
+putty. it supports xterm escape sequences, plus some linux console
+sequences for colour palette configuration and some decterm sequences for
+title bar control, and with an appropriate font it supports the utf-8
+encoding of unicode. it also has some nifty features like rectangular
+selection and nethack keypad mode.

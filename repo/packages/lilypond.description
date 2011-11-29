@@ -1,0 +1,25 @@
+A program for typesetting sheet music
+	
+lilypond is a music typesetter, an automated engraving system.  it
+produces beautiful sheet music using a high level description file as input.
+
+lilypond supports many forms of music notation constructs, including
+chord names, drum notation, figured bass, grace notes, guitar tablature,
+modern notation (cluster notation and rhythmic grouping), tremolos,
+(nested) tuplets in arbitrary ratios, and more.
+
+lilypond's text-based music input language support can integrate into
+latex, html and texinfo seamlessly, allowing single sheet music
+or musicological treatises to be written from a single source.  form and
+content are separate, and with lilypond's expert automated formatting,
+users don't need typographical expertise to produce good notation.
+
+lilypond produces pdf, postscript, svg, or tex printed output, as well
+as midi for listening pleasures.  lilypond is exported from the
+rosegarden and noteedit guis, and can import abc, etf and midi.
+
+lilypond is part of the gnu project.
+
+
+ authors: han-wen nienhuys <hanwen@cs.uu.nl>
+          jan nieuwenhuizen <janneke@gnu.org>

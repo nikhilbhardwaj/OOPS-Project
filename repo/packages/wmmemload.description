@@ -1,0 +1,8 @@
+Windowmaker dockapp to monitor memory and swap usage
+	
+wmmemload displays the current memory and swap usage as a percentage
+value. it is based on wmcpuload and wmmemmon, and as such looks very
+nice alongside those.
+
+wmmemload is designed to work with the windowmaker dock, but will work with
+other window managers as well.

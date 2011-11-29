@@ -1,0 +1,6 @@
+A python source-code generator based on the compiler.ast abstract syntax tree
+	
+this package provides a module-level source-code generator which operates on
+the ast from the built-in compiler.ast module.
+
+note that this ast is not compatible with the new ast module in python 2.6.

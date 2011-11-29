@@ -1,0 +1,11 @@
+Algebraic differentiation engine
+	
+math::calculus::differentiate can take an algebraic expression,
+parse it into a tree structure, modify the tree to give a representation
+of the differentiated function, simplify the tree and turn the tree back
+into an output of the same form as the input.
+
+it supports differentiation of expressions including the +, -, *, / and ^
+(raise to power) operators, bracketed expressions to enable correct precedence
+and the functions ln, exp, sin, cos, tan, sec, cosec, cot, sinh, cosh, tanh,
+sech, cosech, coth, asin, acos, atan, asinh, acosh and atanh.

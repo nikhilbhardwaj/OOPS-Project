@@ -1,0 +1,8 @@
+User pictures plugin for jifty applications
+	
+jifty::plugin::userpic provides user pictures, or any image field associated
+with a record in a jifty application.
+in your model class schema description, you can simply add the following:
+
+
+ column image => is userpic;

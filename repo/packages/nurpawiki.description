@@ -1,0 +1,9 @@
+Wiki with integrated to-do list and scheduler
+	
+nurpawiki is a personal information manager (pim) application that
+combines a wiki, a to-do list and a simple scheduler to help you get
+organized. it aims to ease note taking and action planning. actions
+(to-dos) are always associated with notes or plans (wiki pages).
+
+nurpawiki is available as an eliom module for the ocsigen web server,
+and uses postgresql as backend.

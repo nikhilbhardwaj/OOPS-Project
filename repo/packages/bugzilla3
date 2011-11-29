@@ -1,0 +1,4 @@
+PackageId:1394
+Name:bugzilla3
+Version:3.6.2.0-4.4
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,dbconfig-common,debconf,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,libappconfig-perl,libcgi-pm-perl,perl-modules,libdatetime-perl,libdatetime-timezone-perl,libdbd-mysql-perl,libdbd-pg-perl,libemail-mime-perl,libemail-mime-creator-perl,libemail-mime-modifier-perl,libemail-send-perl,libjs-yui,libmail-sendmail-perl,libtemplate-perl,libtimedate-perl,mysql-client,mysql-client-5.1,postgresql-client,postgresql-client-8.4,patch,ucf

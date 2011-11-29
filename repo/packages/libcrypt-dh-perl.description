@@ -1,0 +1,6 @@
+Diffie-hellman key exchange system implemented in perl
+	
+diffie-hellman is an algorithm by which two parties can agree on a
+shared secret key, known only to them. the secret is negotiated over an
+insecure network without the two parties ever passing the actual shared
+secret, or their private keys, between them.

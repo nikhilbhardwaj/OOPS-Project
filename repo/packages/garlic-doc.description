@@ -1,0 +1,29 @@
+[chemistry] a molecular visualization program - documents
+	
+this is the documentation package for garlic.
+
+garlic is probably the most portable molecular visualization program
+in the unix world. it's written for the investigation of membrane
+proteins. it may be used to visualize other proteins, as well as some
+geometric objects. the name should has something to do with the
+structure and operation of this program. this version of garlic
+recognizes pdb format version 2.1. garlic may also be used to analyze
+protein sequences.
+
+features include (but not limited to):
+
+ o the slab position and thickness are visible in a small window.
+ o atomic bonds as well as atoms are treated as independent drawable
+   objects.
+ o the atomic and bond colors depend on position. five mapping modes
+   are available (as for slab).
+ o capable to display stereo image.
+ o capable to display other geometric objects, like membrane.
+ o atomic information is available for atom covered by the mouse
+   pointer. no click required, just move the mouse pointer over the
+   structure!
+ o capable to load more than one structure.
+ o capable to draw ramachandran plot, helical wheel, venn diagram,
+   averaged hydrophobicity and hydrophobic moment plot.
+ o the command prompt is available at the bottom of the main window.
+   it is able to display one error message and one command string.

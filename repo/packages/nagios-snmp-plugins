@@ -1,0 +1,4 @@
+PackageId:25183
+Name:nagios-snmp-plugins
+Version:1.1.1-7
+Deps:libnet-snmp-perl,nagios-plugins-basic,perl,perl-base,ucf

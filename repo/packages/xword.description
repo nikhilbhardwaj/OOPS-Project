@@ -1,0 +1,6 @@
+Reads and writes crossword puzzles in the across lite file format
+	
+xword is a gtk+ program that works well for doing crossword puzzles in the
+across lite file format used by the new york times and others. as well as a
+clock, it supports printing. it also auto-saves puzzles as you solve them so
+that you can return to partially completed puzzles.

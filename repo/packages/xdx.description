@@ -1,0 +1,8 @@
+Dx-cluster tcp/ip client for amateur radio
+	
+xdx is a client to connect to a dx-cluster. dx messages will be displayed
+in a list, announcements will go to a text display.
+
+as well as the usual functions, if you have hamlib installed it can control
+the radio and set the frequency simply by double clicking a dx-spot
+(using rigctl).

@@ -1,0 +1,9 @@
+Convert arbitrary files into elf objects
+	
+elfrc is a program which can turn arbitrary files into elf object files which
+can then be linked into your program directly and accessed via simple,
+user-defined symbol names.
+
+for instance, it's possible to embed even huge (16mb+) files directly into the
+executable and then access the data in constant time without making the
+compiler or linker eat loads of memory.

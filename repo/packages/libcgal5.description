@@ -1,0 +1,18 @@
+C++ library for computational geometry
+	
+cgal (computational geometry algorithms library) makes the most important
+of the solutions and methods developed in computational geometry available
+to users in industry and academia in a c++ library. the goal is to provide
+easy access to useful, reliable geometric algorithms.
+
+the cgal library contains:
+
+ - the kernel with geometric primitives such as points, vectors, lines,
+   predicates for testing things such as relative positions of points, and
+   operations such as intersections and distance calculation.
+ - the basic library which is a collection of standard data structures and
+   geometric algorithms, such as convex hull in 2d/3d, (delaunay)
+   triangulation in 2d/3d, planar map, polyhedron, smallest enclosing circle,
+   and multidimensional query structures.
+ - the support library which offers interfaces to other packages, e.g., for
+   visualisation, and i/o, and other support facilities.

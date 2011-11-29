@@ -1,0 +1,11 @@
+Scalable linear algebra package documentation
+	
+scalapack is the parallel version of lapack. it depends on pvm or mpi.
+
+this package provides the man pages for the routines in the
+scalapack library (see package scalapack1-pvm, scalapack1-mpich or
+scalapack1-lam) and a quick reference for pblas and scalapack. pblas
+is the library for parallel basic linear algebra subprograms included in
+scalapack.
+
+also included: scalapack users' guide (slug) and the faq on scalapack.

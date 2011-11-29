@@ -1,0 +1,7 @@
+Thai input method engine for scim
+	
+scim (smart common input method) is an input method (im) platform.
+
+this package provides thai input method engine for scim.  currently, it
+supports ketmanee, tis-820.2538 and pattachote keyboards; three levels
+of strictness for input sequence check.

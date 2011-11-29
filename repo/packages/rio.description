@@ -1,0 +1,20 @@
+A command line diamond rio mp3 player controller
+	
+rio is a diamond rio mp3 cli controller program
+the home website is http://www.world.co.uk/sba
+this program supports file uploads and downloads, on both
+the classic rio and the 64 meg rio, and supports plug in cards.
+
+the default port is 0x378, if your rio is plugged into a
+different port, you will need to use the -p option.
+
+this program directly controls various ioports.  the program need to
+be run as root, or setuid root.
+
+if you execute the following line as root after package installation,
+the program will be setuid root.
+
+chmod 4755 /usr/bin/rio
+
+do not do that unless you understand the security implications of a
+setuid binary that can "easily" overwrite any system file.

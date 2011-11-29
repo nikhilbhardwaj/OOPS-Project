@@ -1,0 +1,23 @@
+Source of the selinux reference policy for customization
+	
+the selinux reference policy (refpolicy) is a complete selinux
+policy, as an alternative to the existing strict and targeted
+policies available from http://selinux.sf.net. the goal is to have
+this policy as the system policy, be and used as the basis for
+creating other policies. refpolicy is based on the current strict and
+targeted policies, but aims to accomplish many additional
+goals:
+
+ + strong modularity
+ + clearly stated security goals
+ + documentation
+ + development tool support
+ + forward looking
+ + configurability
+ + flexible base policy
+ + application policy variations
+ + multi-level security
+
+
+this is the source of the policy, provided so that local variations of
+selinux policy may be created.

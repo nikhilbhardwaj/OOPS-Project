@@ -1,0 +1,7 @@
+General graphics interface direct access console text target
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains a driver for the "vcsa" target, enabling libggi
+(and therefore any program using libggi) to display text output on the
+linux console.  it uses direct access to the "/dev/vcsa*" devices.

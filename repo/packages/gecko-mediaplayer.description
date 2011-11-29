@@ -1,0 +1,8 @@
+Multimedia plug-in for gecko browsers
+	
+gecko media player is a browser plug-in that uses gnome mplayer
+and mplayer to play media in a browser.
+it uses the ns4 api and is therefore compatible with all ns4 derived browsers:
+iceweasel, firefox, iceape, epiphany, galeon, midbrowser, xulrunner, etc.
+
+it is the modern replacement for mplayerplug-in (from the same author).

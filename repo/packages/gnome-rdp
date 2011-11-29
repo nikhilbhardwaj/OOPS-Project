@@ -1,0 +1,4 @@
+PackageId:5881
+Name:gnome-rdp
+Version:0.2.3-4
+Deps:gnome-terminal,libglade2.0-cil,libglib2.0-cil,libgnome-keyring1.0-cil,libgtk2.0-0,libgtk2.0-cil,libmono-corlib2.0-cil,libmono-posix2.0-cil,libmono-sqlite2.0-cil,libmono-system-data2.0-cil,libmono-system2.0-cil,libvte0.16-cil,mono-runtime,openssh-client,xtightvncviewer,rdesktop

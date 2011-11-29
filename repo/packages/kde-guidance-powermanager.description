@@ -1,0 +1,7 @@
+A frontend to hal's power features for kde (dummy package)
+	
+a powermanagement applet that supports screen brightness, battery level,
+plugged/unplugged notices and laptop lid closing actions.
+
+this is a dummy package to depend on guidance-power-manager for
+upgrades, it can be safely removed

@@ -1,0 +1,5 @@
+Mail statistics rrdtool frontend for courier-{pop,imap}
+	
+couriergraph is a very simple mail statistics rrdtool frontend for
+courier-pop & courier-imap that produces daily, weekly, monthly and
+yearly graphs of mail server's activity (logins, traffic, etc).

@@ -1,0 +1,26 @@
+Usenet binary grabber for kde
+	
+klibido is a kde program to download encoded articles from the usenet news
+service, using the nntp protocol. it supports multiple servers, multiple
+download threads per server, automatic joining and decoding of articles.
+
+klibido is not a newsreader. it doesn't let you easily display the articles,
+only their subject, and it discards all non-binary posts. if you want a nice
+newsreader for kde, try knode.
+
+features include:
+
+ - getting the group list and subscribe to newsgroups
+ - getting headers, sorting, filtering by subject, state and "completeness"
+ - downloading and decoding of binary posts (including yenc).
+ - queue management: it's possible to drag and drop items around in the
+   download queue to change the order of download, pause the queue, pause
+   and cancel the items in the queue.
+ - server priorities and balancing
+ - requeueing: if an article fails on a server, it is automatically tried on
+   the other servers.
+ - viewing nfo's, covers, et al inside the program using kparts.
+ - group categories and aliases
+ - .nzb support
+ - klibido uses kde and the kde libraries for the interface, berkeley db for
+   storing the newsgroups' headers, and uudeview for decoding the posts.

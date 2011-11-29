@@ -1,0 +1,13 @@
+User-space access to linux kernel sctp - shared library
+	
+this library is part of the lksctp project for the
+linux kernel sctp reference implementation.
+
+this package is intended to supplement the linux kernel
+sctp reference implementation now available in the linux
+kernel source tree in versions 2.5.36 respectively 2.4.24 and following.
+
+sctp (stream control transmission protocol) is a message oriented,
+reliable transport protocol, with congestion control, support for
+transparent multi-homing, and multiple ordered streams of messages.
+rfc2960 defines the core protocol.

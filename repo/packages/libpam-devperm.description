@@ -1,0 +1,6 @@
+Pam module to change device ownership on login
+	
+this pam module allows you to change device ownership and permissions
+when a user logs in.
+
+this is functionally equivalent with sunos logindevperm(4).

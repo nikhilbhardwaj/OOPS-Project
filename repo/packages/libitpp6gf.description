@@ -1,0 +1,8 @@
+C++ library of signal processing and communication routines
+	
+it++ is a c++ library of mathematical, signal processing and
+communication classes and functions. its main use is in simulation of
+communication systems and for performing research in the area of
+communications. the kernel of the library consists of generic vector
+and matrix classes, and a set of accompanying routines. such a kernel
+makes it++ similar to matlab or gnu octave .

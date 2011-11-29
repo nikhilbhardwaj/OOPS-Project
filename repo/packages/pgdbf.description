@@ -1,0 +1,7 @@
+Converter of xbase / foxpro tables to postgresql
+	
+pgdbf converts xbase databases, particularly foxpro tables with  memo files,
+into a format that postgresql can directly import. it has no dependencies
+other than standard unix libraries.
+
+pgdbf is designed to be incredibly fast and as efficient as possible.

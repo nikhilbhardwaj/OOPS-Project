@@ -1,0 +1,9 @@
+Ocaml bindings for the gnu multiprecision arithmetic library
+	
+this package provides bindings for the gnu multiprecision library
+(gnu mp) for the language ocaml (caml.inria.fr).  it is mostly a 1-1 mapping
+of the c functions into the ocaml namespace, but also includes some
+infix operators to make for a cleaner syntax.
+
+this package provides the shared library for running applications linked
+against libgmp-ocaml

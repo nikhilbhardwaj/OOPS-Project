@@ -1,0 +1,6 @@
+Module for convenient mime message creation
+	
+mime::lite is a perl module intended as a simple module for generating (but
+not parsing) messages according to the multipurpose internet mail extensions
+(mime) standard. it allows one to output a simple, decent single- or multi-
+part message with text or binary attachments.

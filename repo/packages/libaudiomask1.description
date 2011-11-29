@@ -1,0 +1,12 @@
+Audio masking threshold estimation library
+	
+evaluates the simultaneous masking threshold for audio. the masking threshold
+is a psychoacoustics property of the perception of sound. this threshold
+determins the cut-off in perception. any fourier signal below the threshold is
+not perceived by listeners.
+
+simultaneous masking is the basis of mp3 audio compression. this gpl
+implementation allows arbitrary sample rate and window sizes. it is extremely
+simple to use, rather cheap in computation complexity and gives great results.
+to alter the degree of masking (quality of the playback after compression),
+simply shift the threshold this library generates up and down.

@@ -1,0 +1,5 @@
+Generic interface to message digest modules
+	
+this is a simple frontend module for autoloading various digest::*
+modules. it also provides documentation of the interface that all
+digest::* modules should provide.

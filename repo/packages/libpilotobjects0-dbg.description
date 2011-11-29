@@ -1,0 +1,7 @@
+Debug symbols for pilot-qof objects
+	
+pilot-qof provides a query interface to data on a palm device,
+using pilot-link and qof - the query object framework.
+
+this package contains the debugging symbols for qof objects that
+define the addressbook, datebook, expenses and invoice objects.

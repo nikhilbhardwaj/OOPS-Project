@@ -1,0 +1,9 @@
+Provide limited super user privileges to specific users
+	
+sudo is a program designed to allow a sysadmin to give limited root
+privileges to users and log root activity.  the basic philosophy is to give
+as few privileges as possible but still allow people to get their work done.
+
+this version is built with ldap support, which allows an equivalent of the
+sudoers database to be distributed via ldap.  authentication is still
+performed via pam.

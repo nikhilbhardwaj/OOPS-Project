@@ -1,0 +1,11 @@
+A loop-free distance-vector routing protocol
+	
+babel is a distance-vector routing protocol for ipv6 and ipv4 with
+fast convergence properties. it was designed to be robust and
+efficient on both wireless mesh networks and classical wired
+networks.  babel has extremely modest memory and cpu
+requirements. unlike most routing protocols, which route either ipv4
+or ipv6 but not both at the same time, babel is a hybrid ipv6 and
+ipv4 protocol: a single update packet can carry both ipv6 and ipv4
+routes (this is similar to how multi-protocol bgp works). this makes
+babel particularly efficient on dual (ipv6 and ipv4) networks.

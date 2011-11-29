@@ -1,0 +1,8 @@
+Objectweb utility ant tasks library
+	
+this library is used in the build process of several key frameworks
+developed by objectweb, among them the objectweb asm bytecode manipulation
+framework, which is a dependency for several key packages within the
+debian java packaging project.
+
+this package contains the library.

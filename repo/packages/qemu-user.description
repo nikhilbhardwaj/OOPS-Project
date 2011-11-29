@@ -1,0 +1,9 @@
+Qemu user mode emulation binaries
+	
+qemu is a fast processor emulator: currently the package supports
+arm, cris, i386, m68k (coldfire), microblaze, mips, powerpc, sh4,
+sparc and x86-64 emulation. by using dynamic translation it achieves
+reasonable speed while being easy to port on new host cpus.
+
+this package provides the user mode emulation binaries. in this mode
+qemu can launch linux processes compiled for one cpu on another cpu.

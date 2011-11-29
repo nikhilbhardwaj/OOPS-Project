@@ -1,0 +1,8 @@
+Internet key exchange daemon - debugging symbols
+	
+openswan is an ipsec based vpn solution for the linux kernel. it can use the
+native ipsec stack as well as the klips kernel module. both ikev1 and ikev2
+protocols are supported.
+
+this package provides the symbols needed for debugging of openswan
+binaries.

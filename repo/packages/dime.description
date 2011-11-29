@@ -1,0 +1,8 @@
+Dxf import, manipulation, and export programs
+	
+dime is a c++ class library for reading, constructing, manipulating,
+and writing dxf file data.
+
+this package comes with the programs dxf2vrml, which converts
+dxf to vrml files and dxfsphere, which makes triangle mesh approximations
+of spheres.

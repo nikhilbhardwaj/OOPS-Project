@@ -1,0 +1,8 @@
+Ruby library for handling html entities
+	
+htmlentities is a simple library to facilitate encoding and decoding of named
+(&yacute; and so on) or numerical (&#123; or &#x12a;) entities in html and
+xhtml documents.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

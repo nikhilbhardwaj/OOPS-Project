@@ -1,0 +1,4 @@
+Carp::assert - executable comments for perl
+	
+carp::assert provides ansi c assert.h style assertions for perl,
+useful for debugging and commenting

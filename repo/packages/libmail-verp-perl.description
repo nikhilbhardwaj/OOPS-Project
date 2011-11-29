@@ -1,0 +1,12 @@
+Variable envelope return paths (verp) address encoder/decoder
+	
+mail::verp provides utility functions to encode and decode variable envelope
+return paths (verp) addresses, as described by http://cr.yp.to/proto/verp.txt.
+
+verp addresses are used to help manage bounces coming back from remote smtp
+servers, especially when dispatching mail for a mailing-list; the verp address
+encodes the recipient address, which can then be recovered from the bounce to
+unsubscribe the address from the mailing-list.
+
+the encoding uses the method described by
+http://www.courier-mta.org/draft-varshavchik-verp-smtpext.txt.

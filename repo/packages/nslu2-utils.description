@@ -1,0 +1,6 @@
+Utilities and init scripts for the linksys nslu2
+	
+this package is intended to be used on the linksys nslu2 network storage
+server (aka the "slug"). it includes a "leds" utility that can control the
+leds on the front of the nslu2, and init scripts to do useful things with
+the leds while booting.

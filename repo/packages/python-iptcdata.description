@@ -1,0 +1,8 @@
+Python bindings for the iptcdata library
+	
+libiptcdata is a library, for manipulating the international press
+telecommunications council (iptc) metadata stored within multimedia
+files such as images. the library provides routines for parsing,
+viewing, modifying, and saving this metadata.
+
+this package contains the python bindings for libiptcdata.

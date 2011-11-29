@@ -1,0 +1,10 @@
+Instrument editor for gigasampler files
+	
+gigedit is an instrument editor allowing to modify existing gigasampler
+files, as well as creating new ones from scratch. the gui is based on
+the gtk+ (gtkmm) toolkit. even though it is created as a subproject of
+the linuxsampler project, it is currently a completely independent
+stand-alone editor.
+
+for more information visit
+http://www.linuxsampler.org

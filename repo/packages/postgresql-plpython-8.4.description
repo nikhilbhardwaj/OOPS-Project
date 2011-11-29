@@ -1,0 +1,7 @@
+Pl/python procedural language for postgresql 8.4
+	
+pl/python enables an sql developer to write procedural language functions
+for postgresql 8.4 in python.  you need this package if you have any
+postgresql 8.4 functions that use the languages plpython or plpythonu.
+
+postgresql is an object-relational sql database management system.

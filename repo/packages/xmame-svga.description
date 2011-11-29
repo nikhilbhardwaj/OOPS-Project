@@ -1,0 +1,13 @@
+Svgalib binaries for the multiple arcade machine emulator
+	
+mame is an arcade machine emulator: it includes a z80, 6502 and
+lastly i86 up emulators, joined to several arcade machine hardware
+emulators. each arcade emulator contains a full description about
+hardware, mem maps, video, sounds and so, making possible that if
+you have original rom images of a supported arcade game, you can
+play the game.
+
+you need the rom images to play a game: this is not a game
+emulator, just an arcade machine one.
+
+this package provides binaries for the svgalib version of xmame.

@@ -1,0 +1,10 @@
+Perl implementation of the isaac prng (c/xs accelerated)
+	
+math::random::isaac::xs implements the same interface as math::random::isaac
+and can be used as a drop-in replacement. this is the recommended version of
+the module, based on bob jenkins' reference implementation in c as described
+in his paper at: <url:http://burtleburtle.net/bob/rand/isaac.html>
+
+if you install this package, then any code that uses math::random::isaac will
+automagically benefit from this faster implementation. performance increases
+are somewhere on the order of 400-500%.

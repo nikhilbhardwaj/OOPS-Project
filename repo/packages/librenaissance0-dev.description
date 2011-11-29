@@ -1,0 +1,14 @@
+Gnustep gui framework - development files
+	
+renaissance is a gnustep develoment framework which runs on top of the
+gnustep libraries.  it also works on top of the apple mac os x cocoa
+libraries, providing an opaque layer to write portable applications.
+
+gnustep renaissance allows you to describe your user interface in simple
+and intuitive xml files, using an open, standard format describing the
+logic of the interface.  at run-time, gnustep renaissance will then
+generate the user interfaces (using the native host openstep-like libraries)
+by reading the xml files.  the connections between the objects created
+from the xml files, and the other objects in the application are done
+via outlets (as traditionally in openstep); a new quick and intuitive
+syntax has been developed to make creating outlets as easy as possible.

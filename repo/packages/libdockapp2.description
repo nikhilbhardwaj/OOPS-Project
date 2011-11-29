@@ -1,0 +1,9 @@
+Window maker dock app support (shared library)
+	
+simple library that eases the creation of window maker dock apps. it
+provides functions that set up a dock app in such a way that they can be
+properly docked. it also provides some event handlers and makes it very
+simple to write dockapps.
+
+this package contains the shared library. install this for programs that
+use libdockapp.

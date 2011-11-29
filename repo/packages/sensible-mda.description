@@ -1,0 +1,8 @@
+Mail delivery agent wrapper
+	
+sensible-mda is a debian addition in the sendmail package and has been
+split out in hopes that it might be useful for other mta packages.
+
+sensible-mda is called by the mta, and will in turn call whichever of
+the following mdas that it finds (in this order):
+procmail, maildrop, deliver, mail.local

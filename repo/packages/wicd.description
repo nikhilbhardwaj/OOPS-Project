@@ -1,0 +1,19 @@
+Wired and wireless network manager - metapackage
+	
+wicd is a general-purpose network configuration server which aims
+to provide a simple but flexible interface for connecting to networks.
+its features include:
+wide variety of settings.
+
+ * ability to connect to (and maintain profiles for) both wired and
+   wireless networks;
+ * support for many encryption schemes, including wep, wpa, wpa2 and
+   custom schemes;
+ * wireless-tools compatibility;
+ * tray icon showing network activity and signal strength;
+ * lack of gnome dependencies (although it does require gtk+), making it
+   easy to use in xfce, fluxbox, openbox, enlightenment, etc.
+
+
+this is a metapackage, it allows installation of all the components of
+wicd, including one of the clients, which must be manually chosen.

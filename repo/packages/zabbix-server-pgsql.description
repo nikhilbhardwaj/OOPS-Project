@@ -1,0 +1,17 @@
+Network monitoring solution - server (using postgresql)
+	
+zabbix is a server/client network monitoring system with many features.
+it can be used for:
+
+
+ - high level monitoring of it services;
+ - centralized monitoring of your servers and applications;
+ - monitoring of snmp-enabled devices;
+ - performance monitoring (process load, network activity, disk
+   activity, memory usage, os parameters etc.);
+ - data visualization.
+
+
+this package provides the software needed to integrate a host as a zabbix
+client. it collects information from zabbix clients and stores it in a
+postgresql database back-end.

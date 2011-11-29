@@ -1,0 +1,10 @@
+Strongswan internet key exchange (v1) daemon
+	
+strongswan is an ipsec-based vpn solution for the linux kernel. it uses the
+native ipsec stack and runs on any recent 2.6 kernel (no patching required).
+it supports both ikev1 and the newer ikev2 protocols.
+
+pluto is an ipsec ikev1 daemon. it was inherited from the frees/wan
+project, but provides improved x.509 certificate support and other features.
+
+pluto can run in parallel with charon, the newer ikev2 daemon.

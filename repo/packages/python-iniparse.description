@@ -1,0 +1,27 @@
+Module to access and modify configuration data in ini files
+	
+iniparse is a ini parser for python which is:
+
+
+ * compatiable with configparser: backward compatible implementations of
+   configparser, rawconfigparser, and safeconfigparser are included that are
+   api-compatible with the python standard library. they pass all the unit
+   tests in python-2.4.4.
+
+
+
+ * preserves structure of ini files: order of sections & options, indentation,
+   comments, and blank lines are preserved as far as possible when data is
+   updated.
+
+
+
+ * more convenient: values can be accessed using dotted notation
+   (cfg.user.name), or using container syntax (cfg['user']['name']).
+
+
+it is very useful for config files that are updated both by users and by
+programs, since it is very disorienting for a user to have her config file
+completely rearranged whenever a program changes it. iniparse also allows
+making the order of entries in a config file significant, which is desirable
+in applications like image galleries.

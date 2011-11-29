@@ -1,0 +1,6 @@
+Transfers entropy from an egd to the linux kernel pool
+	
+this utility reads from an egd capable service over tcp and writes
+the entropy retrieved to the linux kernel random pool. typically
+this will be used on clusters or virtual hosts where direct access
+to useful entropy is hard.

@@ -1,0 +1,7 @@
+Gpgme bindings for the ruby language
+	
+gnupg made easy (gpgme) is a library designed to make access to gnupg easier
+for applications. it provides a high-level crypto api for encryption,
+decryption, signing, signature verification and key management.
+
+this package is built for ruby 1.8.

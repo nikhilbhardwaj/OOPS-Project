@@ -1,0 +1,10 @@
+Telnet and web interface for vde 2.x
+	
+vdetelweb creates a telnet and/or a web interface to a running vde 2.x
+switch. the switch may then be managed via a telnet connection or a web
+browser.
+
+vdetelweb depends on the lwipv6 network stack.
+
+vdetelweb, along with vde, is part of the virtual square project:
+http://wiki.virtualsquare.org

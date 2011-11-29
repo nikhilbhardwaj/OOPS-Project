@@ -1,0 +1,6 @@
+Library for consumers of openid identities
+	
+after net::openid::consumer crawls a user's declared identity url
+and finds openid.server link tags in the html head, you get this
+object.  it represents an identity that can be verified with openid
+(the link tags are present), but hasn't been actually verified yet.

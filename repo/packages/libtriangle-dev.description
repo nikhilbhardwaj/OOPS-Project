@@ -1,0 +1,6 @@
+High-quality 2-d mesh generator development files
+	
+triangle is a library/program for meshing 2-d surfaces and manifolds.
+
+this package contains its static library, headers, and shared library symbolic
+link, which are needed to compile programs using the triangle library.

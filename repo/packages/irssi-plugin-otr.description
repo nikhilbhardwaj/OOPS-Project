@@ -1,0 +1,24 @@
+Off-the-record messaging plugin for irssi
+	
+off-the-record (otr) messaging plugin for the irssi chat client
+
+this plugin adds off-the-record messaging support for the irssi irc client.
+although primarily designed for use with the bitlbee irc2im gateway, it works
+within any query window, provided that the conversation partner's irc client
+supports otr.
+
+otr allows you to have private conversations over im by providing:
+
+ - encryption
+   - no one else can read your instant messages.
+ - authentication
+   - you are assured the correspondent is who you think it is.
+ - deniability
+   - the messages you send do _not_ have digital signatures that are
+     checkable by a third party.  anyone can forge messages after a
+     conversation to make them look like they came from you.  however,
+     _during_ a conversation, your correspondent is assured the messages
+     he sees are authentic and unmodified.
+ - perfect forward secrecy
+   - if you lose control of your private keys, no previous conversation
+     is compromised.

@@ -1,0 +1,10 @@
+Looping sampler
+	
+sooperlooper is a live looping sampler capable of immediate loop recording,
+overdubbing, multiplying, reversing and more. it allows for multiple
+simultaneous multi-channel loops limited only by your computer's available
+memory.
+
+the application is a standalone jack client with an engine controllable via
+osc and midi. it also includes a gui which communicates with the engine via
+osc (even over a network) for user-friendly control on a desktop.

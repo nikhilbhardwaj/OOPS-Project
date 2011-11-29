@@ -1,0 +1,4 @@
+PackageId:31909
+Name:spamassassin
+Version:3.3.1-1
+Deps:libarchive-tar-perl,perl-modules,libdigest-sha1-perl,libhtml-parser-perl,libnet-dns-perl,libnetaddr-ip-perl,libsocket6-perl,libsys-hostname-long-perl,libwww-perl,perl,libio-zlib-perl

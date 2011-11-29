@@ -1,0 +1,10 @@
+C library for accessing electronic books (utilities)
+	
+eb library is a c library for accessing cd-rom books.
+
+eb library supports to access cd-rom books of eb, ebg, ebxa, ebxa-c,
+s-ebxa and epwing formats.  cd-rom books of those formats are popular
+in japan.  since cd-rom books themseves are stands on the iso 9660
+format, you can mount the discs by the same way as other iso 9660 discs.
+
+this package provides utility commands of eb library.

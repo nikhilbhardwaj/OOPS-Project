@@ -1,0 +1,8 @@
+Control grub default through a gui
+	
+grub-choose-default gives you a gui that you can use to easily select the next
+default for grub and you can go and grab a snack while your computer reboots
+without having to wait for anything.
+
+it's a very simple program that just reads your grub menu entries and then
+lets you click on the one you want to be the next default.

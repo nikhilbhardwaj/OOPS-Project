@@ -1,0 +1,7 @@
+Ffmpeg codec library
+	
+this is the codec library from the ffmpeg project. it supports most existing
+encoding formats (mpeg, divx, mpeg4, ac3, dv...).
+
+this package contains a debian-specific version of the libavcodec shared
+object that should only be used by debian packages.

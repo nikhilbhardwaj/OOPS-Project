@@ -1,0 +1,8 @@
+Psk31 terminal for x11
+	
+phaseshift is a psk31 terminal for x11. psk31 is a digital modulation
+scheme popular with radio amateurs on hf radio.
+
+this program implements the psk31 modem and a terminal to use it.
+it is intended for keyboard to keyboard "qsos" (conversations),
+rather than file transfer.

@@ -1,0 +1,12 @@
+Gnustep gui header files and static libraries
+	
+the gnustep gui library is a powerful library of graphical user interface
+classes written completely in the objective-c language; the classes are
+based upon the openstep specification, and provide the user with a
+traditional nextstep-like look and feel.
+
+this package contains the header files and static libraries required
+to build applications against the gnustep gui library.
+
+install this package if you wish to develop your own programs using
+the gnustep gui library.

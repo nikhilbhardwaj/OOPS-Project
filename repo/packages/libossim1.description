@@ -1,0 +1,21 @@
+The ossim library -- shared library
+	
+open source software image map (ossim) is a high performance engine for
+remote sensing, image processing, geographical information systems and
+photogrammetry. it has been actively developed since 1996.
+
+designed as a series of high performance software libraries, it is
+written in c++ employing the latest techniques in object-oriented
+software design.
+
+the library provides advanced remote sensing, image processing, and
+geo-spatial functionality. a quick summary of ossim functionality
+includes ortho-rectification, precision terrain correction, rigorous
+sensor models, very large mosaics, and cross sensor fusions, a wide
+range of map projections anddatums, and a large range of commercial
+and government data formats. the architecture of the library supports
+parallel processing with mpi, a dynamic plugin architecture, and
+dynamically connectable objects allowing rapid prototyping of custom
+image processing chains.
+
+this package includes the ossim shared library.

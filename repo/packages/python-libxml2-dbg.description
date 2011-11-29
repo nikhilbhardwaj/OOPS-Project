@@ -1,0 +1,11 @@
+Python bindings for the gnome xml library (debug extension)
+	
+xml is a metalanguage to let you design your own markup language.
+a regular markup language defines a way to describe information in
+a certain class of documents (eg html). xml lets you define your
+own customized markup languages for many classes of document. it
+can do this because it's written in sgml, the international standard
+metalanguage for markup languages.
+
+this package contains the files needed to use the gnome xml library
+in python programs for use with the python debug interpreter.

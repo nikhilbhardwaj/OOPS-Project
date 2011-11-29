@@ -1,0 +1,103 @@
+Modules for catalyst mvc web application framework
+	
+this package includes some modules to enhance catalyst. it demands many perl
+modules to keep dependency but they are relatively small.
+
+currently the following modules are included:
+
+catalyst::action::renderview
+sensible default end action
+
+catalyst::log::log4perl
+log::log4perl logging for catalyst
+
+catalyst::plugin::cache
+flexible caching support for catalyst
+
+catalyst::plugin::configloader
+load config files of various types
+
+catalyst::plugin::session
+generic session plugin, ties together server side storage and client side
+state required to maintain session data.
+
+catalyst::plugin::stacktrace
+display a stack trace on the debug screen
+
+catalyst::plugin::static::simple
+make serving static pages painless
+
+catalyst::plugin::subrequest
+make subrequests to actions in catalyst
+
+catalyst::plugin::unicode
+unicode aware catalyst
+
+catalystx::component::traits
+automatic trait loading and resolution for catalyst components
+
+catalyst::model::dbi
+dbi model class
+
+catalyst::model::dbic::schema
+dbix::class::schema model class
+
+catalyst::plugin::cache::store::fastmmap
+fastmmap cache store for catalyst::plugin::cache
+
+catalyst::plugin::session::state::cookie
+maintain session ids using cookies
+
+catalyst::plugin::session::store::cache
+store sessions using a catalyst::plugin::cache
+
+catalyst::plugin::session::store::dbi
+store your sessions in a database using dbi
+
+catalyst::plugin::session::store::delegate
+delegate session storage to an application model object
+
+catalyst::plugin::session::store::fastmmap
+fastmmap session storage backend
+
+catalyst::plugin::session::store::file
+file storage backend for session data
+
+catalyst::view::json
+json view for your data
+
+catalyst::view::mason
+mason view class
+
+catalyst::plugin::authentication
+infrastructure plugin for the catalyst authentication framework
+
+catalyst::plugin::authorization::roles
+role based authorization built on catalyst::plugin::authentication
+
+catalyst::plugin::i18n
+i18n for catalyst
+
+catalyst::view::email
+send email from catalyst
+
+catalyst::authentication::credential::authen::simple
+verify credentials with the authen::simple framework
+
+catalyst::authentication::store::dbix::class
+a storage class for catalyst authentication using dbix::class
+
+catalyst::component::instancepercontext
+moose role to create only one instance of component per context
+
+catalyst::controller::formbuilder
+catalyst formbuilder base controller
+
+catalyst::controller::html::formfu
+catalyst integration for html::formfu
+
+catalyst::plugin::authorization::acl
+acl support for catalyst applications
+
+catalyst::plugin::session::store::dbic
+store your sessions via dbix::class

@@ -1,0 +1,6 @@
+Locate per-dist and per-module shared files
+	
+the intent of file::sharedir is to provide a companion to class::inspector and
+file::homedir, modules that take a process that is well-known by advanced perl
+developers but gets a little tricky, and make it more available to the larger
+perl community.

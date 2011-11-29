@@ -1,0 +1,7 @@
+Dpkg architecture generation script
+	
+this package provides a script known as "type-handling", whose purpose is
+converting system and cpu combinations into the architecture variable names
+that dpkg can understand.
+
+for details, see the manpage of type-handling.

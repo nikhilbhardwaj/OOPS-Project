@@ -1,0 +1,17 @@
+The gnu ada compiler
+	
+gnat is a full-featured ada 2005 compiler.  a quote from
+http://www.adaic.org says: "easily reused and maintained, readable
+and user friendly, ada code facilitates such massive software
+projects as the space station and the paris metro. it has proven to
+be extraordinarily robust in decades' worth of daily field tests
+under the most rigorous conditions in which millions of lives have
+been at stake."  ada is the language for real-world, mission-critical
+programming.
+
+at the same time, ada's radical type safety helps novice programmers
+avoid many common mistakes and deliver their software on time (see
+http://www.adaic.org/atwork/trains.html).
+
+this is an empty package that depends on the default ada compiler for
+debian, which is part of the gnu compiler collection.

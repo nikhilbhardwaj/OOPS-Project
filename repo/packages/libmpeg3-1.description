@@ -1,0 +1,18 @@
+Mpeg streams decoding library
+	
+libmpeg3 is a versatile and high-performance library capable
+of decoding both audio and video from many different mpeg formats.
+
+libmpeg3 decodes several mpeg standards into uncompressed
+data suitable for editing and playback. it currently decodes:
+
+
+ - mpeg-2 video
+ - mpeg-1 video
+ - mp3 audio
+ - mp2 audio
+ - ac3 audio
+ - mpeg-2 transport streams
+ - mpeg-2 program streams
+ - mpeg-1 program streams
+ - ifo files

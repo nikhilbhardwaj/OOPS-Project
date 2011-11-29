@@ -1,0 +1,11 @@
+User configurable relay-only mta
+	
+esmtp is a user configurable relay-only mail transfer agent (mta) with a
+sendmail-compatible syntax. it's based on libesmtp supporting the auth
+(including the cram-md5 and ntlm sasl mechanisms) and the starttls smtp
+extensions.
+
+esmtp does not receive mail, expand aliases or manage a queue but can deliver
+mail locally via an mda.
+
+this package contains the esmtp program.

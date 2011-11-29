@@ -1,0 +1,10 @@
+File upload capability to your servlets and web applications
+	
+the commons fileupload package makes it easy to add robust, high-performance,
+file upload capability to your servlets and web applications.
+
+fileupload parses http requests which conform to rfc 1867, "form-based file
+upload in html". that is, if an http request is submitted using the post
+method, and with a content type of "multipart/form-data", then fileupload
+can parse that request, and make the results available in a manner easily
+used by the caller.

@@ -1,0 +1,10 @@
+Your own document language (yodl) is a pre-document language
+	
+yodl is a package that implements a pre-document language and tools to
+process it.  the idea of yodl is that you write up a document in a
+pre-language, then use the tools (e.g. yodl2html) to convert it to some
+final document language.  current converters are for html, man, latex
+sgml and texinfo, a poor-man's text converter and an experimental xml
+converter. main document types are
+"article", "report", "book", "manpage" and "letter".
+the yodl document language was  designed to be easy to use and extensible.

@@ -1,0 +1,7 @@
+Free uci chess engine, to calculate chess moves
+	
+this is a very strong chess engine, finished 4th place at internatonal
+chesswar x. it uses the uci (universal chess interface), for chess
+engines as communication protocol. this means to play against it,
+you have to use an uci capable interface, like knights. or an
+xboard adapter like polyglot.

@@ -1,0 +1,6 @@
+Introspection of python metadata and conversion to debian package metadata
+	
+provides a python api for accessing python package metadata and trandslating
+that to debian packaging metadata.
+
+a binary useful in building debian packages is also provided.

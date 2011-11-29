@@ -1,0 +1,6 @@
+Perl module for writing opengl-based xscreensaver hacks
+	
+opengl::xscreensaver allows you to write opengl xscreensaver hacks in perl.
+it prepares the opengl library to be used with xscreensaver.
+
+it provides subroutines to support both preview and full screen mode.

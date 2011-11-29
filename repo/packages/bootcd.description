@@ -1,0 +1,16 @@
+Run your system from cd without need for disks
+	
+build an image of your running debian system with the command bootcdwrite.
+you can also build a bootcd iso image via nfs on a remote system.
+when you run your system from cd you do not need any disks. all
+changes will be done in ram. to reuse this changes at next boot time
+you can save them on floppy with the command bootcdflopcp. if booting
+from your cd-drive is not supported, booting from floppy is possible.
+it is possible to install a new system from the running cd with the
+command bootcd2disk. bootcd2disk can also find a target disk, format
+it and make it bootable automatically. bootcd also supports lilo,
+grub, initrd, udev, lvm, transparent-compression iso 9660 fs and
+syslinux/isolinux. the included faq describes how bootcd can do
+online or offline backups of other linux distributions, resulting
+in restore-bootcds. the bootcdbackupwizard helps to create online
+backups.

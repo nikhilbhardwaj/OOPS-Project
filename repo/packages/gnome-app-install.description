@@ -1,0 +1,4 @@
+Dummy upgrade package for gnome-app-install -> software-center
+	
+this is a transitional package so that gnome-app-install users get
+software-center on upgrades. it can be safely removed.

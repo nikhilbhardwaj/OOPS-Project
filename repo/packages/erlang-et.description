@@ -1,0 +1,4 @@
+Erlang/otp event tracer application
+	
+the event tracer (et) uses the built-in trace mechanism in erlang
+and provides tools for collecting and examining trace data using gui.

@@ -1,0 +1,7 @@
+Data files for wmakerconf, a configuration tool for window maker
+	
+this contains the necessary information that enables wmakerconf to generate
+a configuration file for window maker. in normal circumstances, you
+only have to change this package in order to be able to configure a new
+version of window maker. this package is useless without wmakerconf and
+an appropriate version of window maker.

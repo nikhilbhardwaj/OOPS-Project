@@ -1,0 +1,6 @@
+Libcurl bindings for the lua language version 5.1
+	
+this package contains the bindings for the curl library.
+currently many different implementations of curl bindings are available,
+this package includes the one developed for the freepops project
+(see <http://www.freepops.org>).

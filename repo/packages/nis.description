@@ -1,0 +1,6 @@
+Clients and daemons for the network information service (nis)
+	
+this package provides tools for setting up and maintaining a nis domain.
+nis, originally known as yellow pages (yp), is mostly used to let
+several machines in a network share the same account information, such
+as the password file.

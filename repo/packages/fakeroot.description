@@ -1,0 +1,12 @@
+Gives a fake root environment
+	
+this package is intended to enable something like:
+
+  dpkg-buildpackage -rfakeroot
+
+i.e. to remove the need to become root for a package build.
+this is done by setting ld_preload to libfakeroot.so,
+which provides wrappers around getuid, chown, chmod, mknod,
+stat, and so on, thereby creating a fake root environment.
+
+fakeroot requires sysv ipc or tcp to operate.

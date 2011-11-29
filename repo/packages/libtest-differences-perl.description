@@ -1,0 +1,6 @@
+Perl module to test string and data structure differences
+	
+cpan's test::differences compares data structures and strings
+and returns their differences in a unix diff fashion if they
+are "not ok". useful for comparing large structures easily
+when running tests.

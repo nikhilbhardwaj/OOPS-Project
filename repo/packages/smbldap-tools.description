@@ -1,0 +1,9 @@
+Scripts to manage unix and samba accounts stored on ldap
+	
+set of scripts to manage data relative to users and groups stored in an ldap
+server. the tools manage posix, shadow and samba (3.0 series) accounts and
+groups.
+
+this package is used to add/del/mod users and groups in the linux
+samba-openldap howto
+<http://download.gna.org/smbldap-tools/docs/samba-ldap-howto/>

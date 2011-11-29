@@ -1,0 +1,8 @@
+Xml pull parser library for java
+	
+xml pull parser (in short xpp) is a streaming pull xml parser for java.
+this version xpp3 is a successor of xpp2 (see package libxpp2-java) that
+implements xmlpull api (see http://www.xmlpull.org).
+
+however xpp3 currently supports only parsing and does not support
+incremental node tree from xpp2.

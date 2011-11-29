@@ -1,0 +1,8 @@
+Snmp (simple network management protocol) perl5 support
+	
+the simple network management protocol (snmp) provides a framework
+for the exchange of management information between agents (servers)
+and clients.
+
+the net-snmp perl5 support files provide the perl functions for
+integration of snmp into applications written in perl.

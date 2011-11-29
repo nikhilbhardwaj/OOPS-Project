@@ -1,0 +1,11 @@
+Centralized power distribution unit (pdu) management
+	
+powerman is a tool for manipulating power distribution units (pdus) from a
+central location. it is suitable for remote operation in data centers or
+compute cluster environment.
+
+several rpc varieties are supported natively by powerman and
+expect-like configurability simplifies the addition of new devices.
+
+this package contains the core system, and includes support for genders, http
+devices and ncurses user interface.

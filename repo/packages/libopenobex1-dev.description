@@ -1,0 +1,12 @@
+Obex protocol library - development files
+	
+the object exchange protocol can best be described as binary http.
+obex is optimised for ad-hoc wireless links and can be used to exchange
+all kind of objects like files, pictures, calendar entries (vcal)
+and business cards (vcard).
+
+obex is builtin in devices like pda's like the palm pilot, and mobile
+phones like the ericsson r320, siemens s25, siemens s45, siemens me45,
+nokia nm207 and nokia 9110 communicator.
+
+this package contains the development files.

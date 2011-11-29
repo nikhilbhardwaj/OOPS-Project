@@ -1,0 +1,8 @@
+Skeletal based 3d character animation library
+	
+cal3d is a skeletal based 3d character animation library
+written in c++ in a platform-/graphic api-independent way.
+it has an unified exporter plugin framework. currently it
+includes exporters 16 for 3d studio max and milkshape 3d).
+
+this package contains the cal3 runtime library.

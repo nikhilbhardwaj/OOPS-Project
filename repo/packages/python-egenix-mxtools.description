@@ -1,0 +1,9 @@
+Collection of additional builtins for python
+	
+mxtools is a python extension package that includes a collection of
+handy functions and objects giving additional functionality to the
+python programmer in form of new builtins, extensions to the sys
+module and several other helpers as part of the package.
+
+the package includes several functions which provide access to python
+internals that would otherwise not be available.

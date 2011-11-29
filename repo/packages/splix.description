@@ -1,0 +1,12 @@
+Driver for samsung's spl2 (bw) and splc (color) laser printers
+	
+support for printing to spl2- and splc-based printers. these are most
+of the cheaper samsung laser printers which do not understand standard
+languages like postscript or pcl. both monochrome (ml-15xx, ml-16xx,
+ml-17xx, ml-2xxx) and color (clp-5xx, clp-6xx) models are supported.
+also some rebranded samsungs like the xerox phaser 6100 work with this
+driver.
+
+note that older spl1-based models (ml-12xx, ml-14xx) do not work. use
+these printers with the older "gdi" driver which is built into
+ghostscript.

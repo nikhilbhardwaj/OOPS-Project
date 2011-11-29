@@ -1,0 +1,14 @@
+Mount removable devices as normal user
+	
+pmount is a wrapper around the standard mount program which permits normal
+users to mount removable devices without a matching /etc/fstab entry. this
+provides a robust basis for automounting frameworks like gnome's utopia
+project and confines the amount of code that runs as root to a minimum.
+
+this package also contains a wrapper "pmount-hal" which reads some
+information like device labels and mount options from hal and passes
+them to pmount. install the package "hal" if you want to use this
+feature.
+
+if a luks capable cryptsetup package is installed, pmount is able to
+transparently mount encrypted volumes.

@@ -1,0 +1,14 @@
+Front-ends to dns search
+	
+this package provides two programs to make user lookups on dns
+servers: dns_tree and dns_browse.
+
+dns_tree is a command-line-based front-end to dig.  it replaces the
+several dig invocations necessary to fetch a zone, and it formats the
+output in a somewhat sensible hierarchical style (a tree).
+
+dns_browse is a gui front-end to dns_tree.  it allows point-and-click
+dns browsing and makes it easy to expand/compress hierarchies in one
+or more dns zones.
+
+homepage: http://www.isi.edu/~johnh/software/dns/

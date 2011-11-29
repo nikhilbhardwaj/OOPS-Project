@@ -1,0 +1,11 @@
+An advanced ircii-based irc client
+	
+scrollz is advanced irc client based on ircii code. it adds features
+normally found in ircii scripts like toolz, phoenix, gargoyle or lice.
+
+the main difference between these scripts and scrollz is the code. where
+ircii scripts take a lot of disk and memory space and run slow, scrollz
+only takes a couple of extra kilobytes compared to stock ircii client
+yet runs faster than any ircii script. this was accomplished by using
+c code instead of ircii scripting language. this reduces memory and
+cpu usage and code tends to run way faster.

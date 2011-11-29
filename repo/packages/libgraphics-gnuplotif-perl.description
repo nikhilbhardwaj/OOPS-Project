@@ -1,0 +1,11 @@
+A dynamic perl interface to gnuplot
+	
+graphics::gnuplotif is a simple and easy to use dynamic perl interface to
+gnuplot.  it enables sending display requests asynchronously to gnuplot
+through simple perl subroutine calls.
+
+several independent plots can be started from one script. each plot has its
+own pipe. all pipes will be closed automatically by the destructor when the
+script terminates. the gnuplot processes terminate when the corresponding
+pipes are closed. their graphical output will then disappear (but see
+parameter persist|new).

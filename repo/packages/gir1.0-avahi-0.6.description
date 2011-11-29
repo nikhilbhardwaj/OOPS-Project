@@ -1,0 +1,7 @@
+Gobject introspection data for the avahi library
+	
+this package contains introspection data for avahi, a framework for
+multicast dns service discovery.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

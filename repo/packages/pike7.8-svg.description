@@ -1,0 +1,8 @@
+Svg format support for pike
+	
+this module provides an svg graphics format module. it has
+been separated from the pike7.8-image module because of its
+quite extensive dependencies.
+
+pike is an interpreted programming language, for more information
+see the description of the pike7.8-core package.

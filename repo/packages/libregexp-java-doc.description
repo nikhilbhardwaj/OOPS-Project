@@ -1,0 +1,8 @@
+Documentation for the regular expression library
+	
+regexp is a 100% pure java regular expression package. regular expressions
+are pattern descriptions which enable sophisticated matching of strings.
+in addition to being able to match a string against a pattern, you can also
+extract parts of the match. this is especially useful in text parsing!
+
+this package provides the javadoc for the regexp api.

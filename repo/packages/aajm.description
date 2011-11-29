@@ -1,0 +1,12 @@
+Ascii art version of jugglemaster
+	
+jugglemaster is a siteswap animator. a siteswap is a textual representation
+for patterns one can juggle (using balls, clubs, etc.). it is mainly useful
+for understanding specific siteswaps by animating them (including
+multiplexing). other uses may include watching patterns without understanding
+the notation behind them.
+
+this package contains the ascii art interface. it can be run as an ascii
+screensaver and doesn't come with patterns, so you better know siteswaps.
+
+siteswap faq: http://www.juggling.org/help/siteswap/faq.html

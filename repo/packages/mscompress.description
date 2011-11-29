@@ -1,0 +1,12 @@
+Microsoft "compress.exe/expand.exe" compatible (de)compressor
+	
+this package contains two programs:
+
+
+ * msexpand which decompresses files compressed by the microsoft
+   compress.exe utility (e.g. win 3.x installation files);
+ * mscompress which compresses files using the lz77 compression
+   algorithm.
+
+
+files can be decompressed using microsoft expand.exe or msexpand(1).

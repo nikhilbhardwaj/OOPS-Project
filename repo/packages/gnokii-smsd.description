@@ -1,0 +1,15 @@
+Sms daemon for mobile phones
+	
+gnokii is a suite of programs that allows communication with mobile phones.
+it currently supports many nokia mobile phones, all at capable ones as well as
+many symbian based.
+for a list of compatible phones, please visit:
+http://wiki.gnokii.org
+
+the smsd (sms daemon) handles automated sending and receiving of short messages
+using a storage backend. it is designed to use modules (plugins) to work with
+different backends, and shares gnokii's runtime configuration and libraries.
+
+this package contains the actual daemon and a file based backend. you will
+need to install the appropriate module packages to add support for other
+backends.

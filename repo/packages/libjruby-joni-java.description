@@ -1,0 +1,6 @@
+Java port of oniguruma regexp library
+	
+oniguruma is a regular expressions library.  the characteristics of this
+library is that different character encoding for every regular expression
+object can be specified. the supported apis are gnu regex, posix, and oniguruma
+native.

@@ -1,0 +1,13 @@
+Vi improved - enhanced vi editor - compact version
+	
+vim is an almost compatible version of the unix editor vi.
+
+many new features have been added: multi level undo, syntax
+highlighting, command line history, on-line help, filename
+completion, block operations, folding, unicode support, etc.
+
+this package contains a minimal version of vim compiled with no
+gui and a small subset of features in order to keep small the
+package size. this package does not depend on the vim-runtime
+package, but installing it you will get its additional benefits
+(online documentation, plugins, ...).

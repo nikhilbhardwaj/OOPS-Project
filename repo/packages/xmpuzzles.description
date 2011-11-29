@@ -1,0 +1,13 @@
+Collection of puzzles for x (motif version)
+	
+the following puzzles are included:
+
+
+ - rotational 3d puzzles: xmrubik, xmpyraminx, xmoct, xmskewb, xmdino, xmmball
+ - sliding block puzzles: xmcubes, xmtriangles, xmhexagons, xmpanex
+ - combination: xmbarrel, xmmlink
+
+
+this is the motif version which shows additional functionality. it was
+compiled with lesstif2. motif is a gui widget library for the x window
+system.

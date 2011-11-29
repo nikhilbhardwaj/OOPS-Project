@@ -1,0 +1,11 @@
+Arc python wrapper
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced
+resource connector (arc).
+
+developers with an interest to integrate the some functionality on a
+remote site via an interface compatible with arc, may find it preferable
+to perform that remote invocation from within python. while today most
+services in arc are associated with computation or storage, there is
+no constraint on these applications.

@@ -1,0 +1,18 @@
+Versatile anti arp poisoning daemon
+	
+arpon (arp handler inspection) is a portable handler daemon with some nice
+tools to handle all arp aspects.
+it makes arp a bit safer. this is possible using two kinds of anti arp
+poisoning techniques, the first is based on sarpi or "static arp inspection",
+the second on darpi or "dynamic arp inspection" approach.
+
+features of arpon include:
+
+  * detects and blocks arp poisoning/spoofing attacks in statically
+    configured networks (sarpi)
+  * detects and blocks arp poisoning/spoofing attacks in dynamically
+    configured (dhcp) networks (darpi)
+  * detects and blocks unidirectional and bidirectional arp attacks
+  * easily configurable via command line switches
+  * works in userspace
+  * can be a passive sniffer and capture all inbound/outbound arp packets

@@ -1,0 +1,7 @@
+Xml communication plugin for bazaar
+	
+plugin for bazaar that provides access an xml/rpc interface
+to the core bazaar commands.
+
+this plugin is mainly useful for other applications that
+need to use bazaar but are not written in python.

@@ -1,0 +1,7 @@
+Termios simple wrapper for ruby
+	
+ruby-termios enables you to use termios interface.
+
+termios module are simple wrapper for termios.  it can be included
+into io-family classes and can extend io-family objects.  in addition,
+the methods can use as module function.

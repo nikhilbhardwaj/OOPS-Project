@@ -1,0 +1,8 @@
+Documentation for libjcifs-java (cifs/smb library for java)
+	
+jcifs is an open source client library that implements the cifs/smb
+networking protocol in 100% java. cifs is the standard file sharing
+protocol on the microsoft windows platform (e.g. map network drive ...).
+
+the documentation includes the javadoc api as well as
+the html manual and several examples.

@@ -1,0 +1,7 @@
+Lint for dns files, checks integrity
+	
+nslint reads the nameserver configuration files and performs a
+number of consistency checks on the dns records.
+
+nslint understands both ancient style named.boot and bind 8's
+named.conf files (which are also used by bind 9).

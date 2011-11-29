@@ -1,0 +1,13 @@
+Inference of rna secondary structural alignments – documentation
+	
+infernal ("inference of rna alignment") is for searching dna sequence
+databases for rna structure and sequence similarities. it is an
+implementation of a special case of profile stochastic context-free
+grammars called covariance models (cms). a cm is like a sequence
+profile, but it scores a combination of sequence consensus and rna
+secondary structure consensus, so in many cases, it is more capable of
+identifying rna homologs that conserve their secondary structure more
+than their primary sequence.
+
+this package provides the documentation which is shipped with the
+code of infernal.

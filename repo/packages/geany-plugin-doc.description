@@ -1,0 +1,13 @@
+A documentation plugin for geany
+	
+geanydoc is a plugin for the geany ide which is intended to be used to search
+for documentation api from different sources. it allows execution of specified
+commands on the current word at the cursor position or otherwise specified via
+a dialog to obtain this documentation. this documentation is displayed in the
+geany buffer as a tab called *doc*, or may be displayed in an external program.
+
+after installing this package, you'll need to enable the "doc" plugin
+and then setup a keyword binding for it in geany's preferences dialogue.
+
+geany is a small and lightweight integrated development environment using the
+gtk+ toolkit.

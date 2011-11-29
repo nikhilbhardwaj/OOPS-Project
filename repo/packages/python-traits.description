@@ -1,0 +1,15 @@
+Manifest typing and reactive programming for python
+	
+the traits package provides a metaclass with special attributes that
+are called traits. a trait is a type definition that can be used for
+normal python object attributes, giving the attributes some
+additional characteristics:
+
+ * initialization: a trait attribute can have a default value
+ * validation: a trait attribute is manifestly typed.
+ * delegation: the value of a trait attribute can be contained in another
+   object
+ * notification: setting the value of a trait attribute can fired
+   callbacks
+ * visualization: with the traitsui package, guis can be generated
+   automatically from traited objects.

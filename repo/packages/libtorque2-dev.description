@@ -1,0 +1,8 @@
+Header files for libtorque2
+	
+the torque server dispatches jobs across physically separated
+machines. it may also be beneficial for single machines to organise
+the sequential execution of multiple jobs.
+
+this package includes the header files and static libraries necessary for
+developing programs which will use torque.

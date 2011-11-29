@@ -1,0 +1,14 @@
+Xml-to-any converter
+	
+xmlto is a front-end to an xsl toolchain. it chooses an appropriate
+stylesheet for the conversion you want and applies it using an external
+xslt processor (currently, only xsltproc is supported). it also performs
+any necessary post-processing.
+
+it supports converting from docbook xml to dvi, xsl-fo, html (multiple
+pages), html (one page), man page, pdf, postscript and plain text. it
+supports converting from xsl-fo to dvi, pdf and postscript.
+
+dvi output requires dblatex or passivetex. other formats can be produced
+with any of the supported toolchains - dblatex, passivetex or
+docbook-xsl/fop (but may require some extensions).

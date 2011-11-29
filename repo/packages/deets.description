@@ -1,0 +1,11 @@
+Decentralized model-based administration tool
+	
+deets provides a way to manage debian packages and files
+on your systems using lua-based configuration files.  a
+specialized lua interpreter called luau is capable of
+validating your specifications and optionally enforcing
+them.
+
+in addition, it can scan your system and generate a
+crude model configuration based on the current state
+of the debian package database and all conffiles.

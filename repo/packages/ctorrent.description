@@ -1,0 +1,31 @@
+Bittorrent client written in c++
+	
+this application is written in the c++ language and doesn't
+require any graphical component, such as an x server. original
+ctorrent's upstream has stopped its development and now it's kept
+updated with new releases/bug fixes by a new developer.
+it's built as a console program and it can be even used remotely
+in a machine that provides outside ssh access. other main features are:
+
+
+ * support for large files (>2gb) and large torrents (>255 files).
+ * strategic selection of pieces to request for download.
+ * continuous queueing of download requests, tuned based on
+   latency and throughput for each peer.
+ * improved download performance, including parallel requests
+   in initial and endgame modes.
+ * improved bandwidth regulation.
+ * improved compatibility with other peers.
+ * performance optimization and bug fixes.
+ * an interface for monitoring and managing multiple clients.
+ * dynamic cache allocation and management, including prefetch.
+
+
+
+ homepage: http://www.rahul.net/dholmes/ctorrent/
+
+
+
+ see also:  http://ctorrent.sourceforge.net/
+ note: this website refers to the old and discontinued project,
+ which is no more active.

@@ -1,0 +1,10 @@
+Portable mount library - shared library
+	
+this library implements functions pmount() and pumount() as wrappers to
+the real mount/unmount unportable interfaces on each platform.
+
+its goal is to provide a consistent interface application programmers can
+rely on for mounting and umounting filesystems without having to address
+kernel-related portability problems.
+
+this package contains the libpmount shared object.

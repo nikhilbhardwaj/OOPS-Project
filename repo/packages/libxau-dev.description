@@ -1,0 +1,14 @@
+X11 authorisation library (development headers)
+	
+this package provides the main interface to the x11 authorisation handling,
+which controls authorisation for x connections, both client-side and
+server-side.
+
+this package contains the development headers for the library found in libxau6.
+non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxau

@@ -1,0 +1,7 @@
+Joel bartlett's fabled scheme->c system
+	
+the original scheme->c system, the first of its kind.  it conforms to
+the r4rs scheme standard, and compiles scheme sources to c as an
+intermediate step, allowing easy integration with external libraries.
+also included is an interpreter, for development.  due to a variety
+of clever techniques, the system is quite fast.

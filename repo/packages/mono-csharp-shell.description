@@ -1,0 +1,13 @@
+Interactive c# shell
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.
+
+this package contains the interactive c# shell named csharp.  csharp permits
+dynamically evaluating c# statements, and can be used for writing scripts or
+testing code fragments.
+for examples and a brief overview of the commands see:
+http://www.mono-project.com/csharprepl

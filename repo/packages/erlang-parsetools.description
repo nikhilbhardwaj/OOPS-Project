@@ -1,0 +1,6 @@
+Erlang/otp parsing tools
+	
+the parsetools application contains utilities for parsing. currently,
+it includes yecc module. yecc is an lalr-1 parser generator for erlang,
+similar to yacc. yecc takes a bnf grammar definition as input, and
+produces erlang code for a parser as output.

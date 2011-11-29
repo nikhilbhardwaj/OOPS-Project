@@ -1,0 +1,10 @@
+Gnu mailutils-based imap4 daemon
+	
+the gnu mailutils imap4 daemon implements the internet message access
+protocol, version 4rev1 as per rfc 2060. it supports the "namespace"
+capability and gssapi authentication mechanism. it is able to get the
+authentication information from the system user database as well as from
+a sql database of arbitrary structure. the pam framework can also be
+used for authentication purposes. additionally, mailutils imap4d supports
+virtual mail domains and has tls support via gnutls. gnu mailutils supports
+the mbox, mh and maildir mailbox formats.

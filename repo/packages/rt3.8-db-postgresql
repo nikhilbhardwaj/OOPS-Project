@@ -1,0 +1,4 @@
+PackageId:30997
+Name:rt3.8-db-postgresql
+Version:3.8.8-7+squeeze1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libdbd-pg-perl,postgresql-client,postgresql-client-8.4

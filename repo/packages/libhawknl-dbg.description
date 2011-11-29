@@ -1,0 +1,18 @@
+Hawk game oriented network library api (debug package)
+	
+hawknl is a free, open source, game oriented network api.
+
+hawknl (nl) is a fairly low level api, a wrapper over berkeley/unix
+sockets and winsock. but nl also provides other features
+including support for:
+
+  * multiple operating systems.
+  * groups of sockets
+  * socket statistics
+  * high accuracy timer
+  * crc functions
+  * macros to read and write data to packets with endian conversion
+  * multiple network transports.
+
+
+this package contains the debug symbols.

@@ -1,0 +1,10 @@
+Classic-analog (vcos-vcf-vca) style software synthesizer
+	
+the xsynth-dssi  package contains the xsynth-dssi plugin, a classic-analog
+(vcos-vcf-vca) style software synthesizer with an editor gui. xsynth-dssi was
+written by sean bolton, and was based on steve brooke's xsynth code, but has
+since acquired polyphonic operation, band-limited oscillators, a better
+filter mode, and velocity-sensitive envelopes.
+
+dssi is an api for audio processing plugins, particularly useful for software
+synthesis plugins with user interfaces.

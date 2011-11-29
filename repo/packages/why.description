@@ -1,0 +1,8 @@
+A software verification tool
+	
+why aims at being a verification conditions generator (vcg) back-end
+for other verification tools. it provides a powerful input language
+including higher-order functions, polymorphism, references, arrays and
+exceptions. it generates proof obligations for many systems: the proof
+assistants coq, pvs, isabelle/hol, hol 4, hol light, mizar and the
+decision procedures simplify, alt-ergo, yices, cvc lite and harvey.

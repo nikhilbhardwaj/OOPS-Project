@@ -1,0 +1,9 @@
+Java api to biological data and applications
+	
+this package presents the open source java api to biological databases
+and a series of mostly sequence-based algorithms. the apis are not
+compatible between versions. in analogy to the dealing with shared
+libraries of the c language, the jar file of this package has the
+api version in its name. it is symbolically linked to the expected
+biojava.jar filename in the package libbiojava-java. this will help
+keeping multiple versions of the biojava api in parallel.

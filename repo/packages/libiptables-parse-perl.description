@@ -1,0 +1,8 @@
+Perl extension for parsing iptables firewall rulesets
+	
+the iptables::parse package provides an interface to parse iptables
+rules on linux systems through the direct execution of iptables commands, or
+from parsing a file that contains an iptables policy listing.  you can get
+the current policy applied to a table/chain, look for a specific user-defined
+chain, check for a default drop policy, or determing whether or not logging
+rules exist.

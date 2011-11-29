@@ -1,0 +1,16 @@
+Php class to generate pdf files
+	
+fpdf is a php class that allow generating pdf files with pure php,
+that is to say without using the pdflib library.  fpdf provides
+high-level functions and has the following main features:
+
+
+ - choice of measure unit, page format, and margins
+ - page header and footer management
+ - automatic page break
+ - automatic line break and text justification
+ - image support (jpeg and png)
+ - colors
+ - links
+ - truetype, type1, and encoding support
+ - page compression

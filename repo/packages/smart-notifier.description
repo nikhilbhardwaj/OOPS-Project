@@ -1,0 +1,8 @@
+Graphical hard disk health status notifier
+	
+a graphical notifier for smartmontools which attempts to show messages from
+the smartd disk monitoring daemon to the user. currently only for gtk.
+
+warning: this package is not a replacement for regular backups. it will _try_
+to warn the user when smartd sends a disk health warning. but success is not
+guaranteed. at best this package is an extra layer of protection.

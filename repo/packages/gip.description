@@ -1,0 +1,9 @@
+Ip calculator for gnome desktop environment
+	
+gip provides system administrators with tools for ip address based
+calculations. for example, an administrator who needs to find out which ip
+prefix length equals the ip netmask 255.255.240.0, just types in the mask
+and gets the prefix length presented. but many more advanced calculations
+can be made. gip can convert an address range into a list of prefix lengths.
+it can also split subnets using a given ip netmask or ip prefix length.
+many more calculations are possible.

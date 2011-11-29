@@ -1,0 +1,11 @@
+Multi-lingual vt102 terminal emulator for the x window system
+	
+rxvt is an 8-bit clean, color xterm replacement that uses significantly
+less memory than a conventional xterm, mostly since it doesn't support
+toolkit configurability or tek graphics, but also since features can
+be removed at compile-time to reflect your needs.
+
+this package contains three versions of rxvt: krxvt and crxvt,
+which support japanese and chinese characters, and grxvt, which
+supports both elot-928 (iso-8859-7 standard) and ibm-437 keyboard
+translations for greek character entry.

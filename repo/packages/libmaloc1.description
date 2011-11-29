@@ -1,0 +1,12 @@
+Object-oriented abstraction layer for c
+	
+maloc is a small, portable, abstract c environment library for object-
+oriented c programming.  maloc is used as the foundation layer for a
+number of scientific applications, including mc, sg, and apbs.  maloc
+can be used as a small stand-alone abstraction environment for writing
+portable c programs which need access to resources which are typically
+architecture-dependent, such as inet sockets, timing routines, and so
+on.  maloc provides abstract datatypes, memory management routines,
+timing routines, machine epsilon, access to unix and inet sockets, mpi,
+etc.  all things that can vary from one architecture to another are
+abstracted out of an application code and placed in maloc.

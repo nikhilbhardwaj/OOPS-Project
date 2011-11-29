@@ -1,0 +1,4 @@
+PackageId:2561
+Name:cvs-mailcommit
+Version:1.19-2
+Deps:postfix,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,sendmail-bin,ssmtp,xmail,rcs

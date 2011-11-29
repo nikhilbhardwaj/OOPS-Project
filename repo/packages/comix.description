@@ -1,0 +1,33 @@
+Gtk comic book viewer
+	
+comix is a comic book viewer. it reads zip, rar, tar, tar.gz and
+tar.bz2 archives (often called .cbz, .cbr and .cbt) as well as
+normal image files. it is written in python and has a simple user
+interface using pygtk.
+
+main features:
+
+
+  * fullscreen mode.
+  * double page mode.
+  * fit-to-screen mode.
+  * zooming and scrolling.
+  * rotation and mirroring.
+  * magnification lens.
+  * changeable image scaling quality.
+  * image enhancement.
+  * can read right-to-left to fit manga etc.
+  * caching for faster page flipping.
+  * bookmarks support.
+  * customizable gui.
+  * archive comments support.
+  * archive converter.
+  * thumbnail browser.
+  * standards compliant.
+  * translated to english, swedish, simplified chinese, spanish,
+    brazilian portuguese and german.
+  * reads the jpeg, png, tiff, gif, bmp, ico, xpm and xbm image formats.
+  * reads zip and tar archives natively, and rar archives through the unrar
+    program.
+  * runs on linux, freebsd, netbsd and virtually any other unix-like os.
+  * more!

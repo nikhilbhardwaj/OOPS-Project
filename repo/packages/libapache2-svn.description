@@ -1,0 +1,6 @@
+Subversion server modules for apache
+	
+this package provides the mod_dav_svn and mod_authz_svn modules for
+the apache 2.2 web server.  these modules provide subversion's webdav
+server backend, to serve repositories over the http and https
+protocols.  see the 'subversion' package for more information.

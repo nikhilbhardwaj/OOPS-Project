@@ -1,0 +1,10 @@
+Perl module to examine video files
+	
+video::info is a module for working with video files. it can open files and
+determine its most likely type, then extract information such as play length,
+bitrate, resolution, dimensions, etc.
+
+currently there is support for mpeg, avi, asf and riff. there is quicktime
+support in the upstream module which has been disabled in debian because
+there is no current package for openquicktime. if you would like to see
+support for this, please file a bug report.

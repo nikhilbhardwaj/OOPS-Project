@@ -1,0 +1,11 @@
+Python ctypes bindings for net-snmp with twisted integration
+	
+pynetsnmp is a set of python ctypes binding for net-snmp, an
+implementation of the simple network management protocol (snmp).
+
+pynetsnmp is a replacement for the various python bindings provided by
+pysnmp* implementations (available as the debian packages python-pysnmp*).
+
+it also implements a glue with the python twisted matrix networking
+framework which replaces the twistedsnmp implementation (available as the
+python-twisted-snmp debian package).

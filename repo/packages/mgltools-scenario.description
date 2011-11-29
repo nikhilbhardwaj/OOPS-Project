@@ -1,0 +1,9 @@
+Python-based viewer of molecular structures
+	
+this package is part of the mgltools set of python libraries which
+provide an infrastructure for the analysis of protein structures and
+their docking of chemical compounds.
+
+it provides functionality for modifying python objects over the course
+of time according to a scenario.  a scenario is defined as a set of
+events taking place at specific times.

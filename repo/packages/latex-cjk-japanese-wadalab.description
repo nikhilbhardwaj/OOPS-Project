@@ -1,0 +1,13 @@
+Type1 and tfm dnp japanese fonts for latex-cjk
+	
+this package installs type1 and tfm fonts from a dnp font called "wadalab".
+you'll get three flavours: mincho, gothic and maru.
+
+dnp stands for "dai nippon printing" (a big printing company in japan).
+dnp fonts are commercial fonts made by this company; if real dnp fonts have
+been already installed at your site, you should use them.  but watanabe-dnp
+fonts (like wadalab), which are customized from watanabe-jfonts to emulate
+dnp fonts, are freeware.  the method of emulation is symbolic name linking.
+
+these type1 fonts differ from those in the gsfonts-wadalab package, because
+cjk author werner lemberg has introduced some fixes.

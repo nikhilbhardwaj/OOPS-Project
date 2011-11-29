@@ -1,0 +1,15 @@
+Language for synchronous reactive hardware system design
+	
+from the upstream website:
+
+a confluence program can generate digital logic for an fpga or asic
+platform, or c code for hard real-time software.
+
+confluence combines the component-based methodologies of verilog and
+vhdl with the expressiveness of higher order functional programming.
+
+in comparison to verilog, vhdl, and c, systems designed in confluence
+result in 2x to 10x code reduction, making the source easier to manage
+and reuse. and because confluence relies on a correct-by-construction
+compiler, bugs are reduced--some are prevented altogether--thus
+reducing the overall verification effort.

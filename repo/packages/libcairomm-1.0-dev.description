@@ -1,0 +1,9 @@
+C++ wrappers for cairo (development files)
+	
+cairomm provides c++ bindings for the cairo graphics library,
+a multi-platform library providing anti-aliased vector-based
+rendering for multiple target backends.
+
+this package contains the development libraries and header
+files needed by c++ programs that want to compile with cairo.
+files and examples.

@@ -1,0 +1,8 @@
+Pretty version of df(1) command
+	
+discus aims to make df prettier, with features such as color, graphs,
+and smart formatting of numbers (automatically choosing the most
+suitable size from kilobytes, megabytes, gigabytes, or terabytes). if
+you don't want discus deciding the best sizes, you can also choose
+your own increments, along with specifying the number of decimal
+places you'd like to see.

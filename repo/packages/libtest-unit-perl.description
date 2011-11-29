@@ -1,0 +1,11 @@
+A unit testing framework for perl
+	
+test::unit::* is a sophisticated unit testing framework for perl
+that is derived from the junit testing framework for java by kent
+beck and erich gamma.
+
+while this framework is originally intended to support unit
+testing in an object-oriented development paradigm (with support
+for inheritance of tests etc.), test::unit::procedural is intended
+to provide a simpler interface to the framework that is more
+suitable for use in a scripting style environment.

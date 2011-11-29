@@ -1,0 +1,23 @@
+Fast prototype-based oo programming in perl
+	
+this package provides for efficient and simple prototype-based
+programming in perl. you can provide different subroutines for each
+object, and also have objects inherit their behavior and state from
+another object.
+
+the structure of an object is inspected and modified through *mirrors*,
+which are created by calling "reflect" on an object or class that
+inherits from "class::prototyped".
+
+the author says: 'when i reach for "class::prototyped", it's generally
+because i really need it. when the cleanest way of solving a problem is
+for the code that uses a module to subclass from it, that is generally
+a sign that "class::prototyped" would be of use. if you find yourself
+avoiding the problem by passing anonymous subroutines as parameters
+to the "new" method, that's another good sign that you should be using
+prototype based programming. if you find yourself storing anonymous
+subroutines in databases, configuration files, or text files, and then
+writing infrastructure to handle calling those anonymous subroutines,
+that's yet another sign. when you expect the people using your module
+to want to change the behavior, override subroutines, and so forth,
+that's a sign'.

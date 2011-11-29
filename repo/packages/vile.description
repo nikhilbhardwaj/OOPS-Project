@@ -1,0 +1,10 @@
+Vi like emacs - vi work-alike
+	
+vile is a text editor which is extremely compatible with vi in terms of
+``finger feel''.  in addition, it has extended capabilities in many areas,
+notably multi-file editing and viewing, syntax highlighting, key rebinding,
+an optional embedded perl interpreter, and real x window system support.
+
+this package contains the character-mode binary.  required support files
+are contained in vile-common.  source code highlighting filters are in
+vile-filters.  an x11 binary is in the xvile package.

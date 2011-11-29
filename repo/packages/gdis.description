@@ -1,0 +1,29 @@
+Molecular and crystal model viewer
+	
+a gtk+ based program for the display and manipulation of
+isolated molecules, periodic systems and crystalline habits.
+it is in development, but is nonetheless fairly functional.
+it has the following features:
+
+
+ * support for several file types (cif, biosym, xyz,
+   xtl, marvin, and gulp)
+ * a simple molecular creation and manipulation tool
+ * a dialogue for creating starting configurations for
+   molecular dynamics simulations
+ * assorted tools for visualization (geometry information,
+   region highlighting, etc.)
+ * animation of biosym files (also rendered animations,
+   see below)
+
+
+gdis also allows you to perform the following functions
+through other packages:
+
+
+ * model rendering (courtesy of povray)
+ * energy minimization (courtesy of gulp)
+ * morphology calculation (courtesy of cdd)
+ * space group processing (courtesy of sginfo)
+ * view the periodic table (courtesy of gperiodic)
+ * load additional filetypes, such as pdb (courtesy of babel)

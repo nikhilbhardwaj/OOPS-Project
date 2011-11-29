@@ -1,0 +1,7 @@
+Asp.net 2.0 backend for mod_mono2 apache module
+	
+mono-apache-server contains the backend for mod_mono. it lets you run asp.net
+web applications via apache. mod_mono will call mono-apache-server to parse
+and compile the aspx code.
+
+this package requires you to install libapache2-mod-mono for apache 2.0.

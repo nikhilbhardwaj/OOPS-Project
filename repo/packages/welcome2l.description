@@ -1,0 +1,11 @@
+Linux ansi boot logo
+	
+this is a little program that may run at login time to produce nice
+ansi login logo.
+
+welcome2l intends to produce  the best looking ansi screens by making
+full usage of pc graphic characters.
+
+therefore an architecture able to display those characters (i386, alpha with
+tga adapter,... ) is required to use it.  and, even if it will work on larger
+screens, it will only produce 80 column ansi screens.

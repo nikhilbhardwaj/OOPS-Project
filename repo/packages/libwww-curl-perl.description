@@ -1,0 +1,5 @@
+Perl bindings to libcurl
+	
+www::curl is a collection of perl modules which contain perl bindings to
+libcurl. in debian, more information on how the curl library can be used in
+your applications is available in the libcurl4-gnutls-dev debian package.

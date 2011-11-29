@@ -1,0 +1,17 @@
+Administrative utilities for the xfs filesystem
+	
+the xfsdump package contains xfsdump, xfsrestore and a number of
+other administrative utilities for managing xfs filesystems.
+
+xfsdump examines files in a filesystem, determines which need to be
+backed up, and copies those files to a specified disk, tape or other
+storage medium.  it uses xfs-specific directives for optimizing the
+dump of an xfs filesystem, and also knows how to backup xfs extended
+attributes.  backups created with xfsdump are "endian safe" and can
+thus be transfered between linux machines of different architectures
+and also between irix machines.
+
+xfsrestore performs the inverse function of xfsdump; it can restore a
+full backup of a filesystem.  subsequent incremental backups can then
+be layered on top of the full backup.  single files and directory
+subtrees may be restored from full or partial backups.

@@ -1,0 +1,5 @@
+Compiler wrapper to enable security hardening flags
+	
+replaces gcc, g++, and ld with wrapper scripts that set security hardening
+compilation flags, as an alternative to changing gcc specs.  enabled when
+deb_build_hardening=1 is set.

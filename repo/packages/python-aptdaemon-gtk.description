@@ -1,0 +1,9 @@
+Python gtk+ widgets to run an aptdaemon client
+	
+aptdaemon is a transaction based package management daemon. it allows
+normal users to perform package management tasks, e.g. refreshing the
+cache, upgrading the system, installing or removing software packages.
+
+this package provides the python gtk+ widgets to implement a fully working
+graphical client. the widgets can be used to initiate, to monitor and
+to control a transaction. the api is not stable yet.

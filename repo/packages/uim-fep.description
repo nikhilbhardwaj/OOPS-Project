@@ -1,0 +1,9 @@
+Uim front end processor
+	
+uim is a input method module library supporting various languages, which
+become a frontend for anthy, skk, canna, t-code, tut-code, pinyin(chinese
+input method), hangul(korean input method), ipa(international phonetic
+alphabet) and etc.... most of the functions are implemented with scheme,
+so it's very simple and flexible.
+
+this package is a fep (front end processor) on curses.

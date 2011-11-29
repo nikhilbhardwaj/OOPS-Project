@@ -1,0 +1,8 @@
+Unit testing library for c++
+	
+cppunit is a simple framework for incorporating test cases in
+your c++ code.  it is similar to, and inspired by, xunit and
+junit.
+
+package libqttestrunner1 is required for using the qt-based
+test runner gui.

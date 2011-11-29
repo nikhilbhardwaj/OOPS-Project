@@ -1,0 +1,9 @@
+Idzebra utility programs
+	
+this package contains idzebra utilities such as the zebraidx indexer
+utility and the zebrasrv server.
+
+idzebra is a high-performance, general-purpose structured text indexing
+and retrieval engine. it reads structured records in a variety of input
+formats (eg. email, xml, marc) and allows access to them through exact
+boolean search expressions and relevance-ranked free-text queries.

@@ -1,0 +1,9 @@
+Ip defragmentation tcp segment reassembly library
+	
+libnids is a library that provides the functionality of one of the nids
+(network intrusion detection system) components, namely e-component.
+libnids code watches all local network traffic, cooks received datagrams a
+bit, and provides convenient information about them to the nids analyzing
+modules.
+libnids performs assembly of tcp segments into tcp streams, ip
+defragmentation, and tcp port scan detection.

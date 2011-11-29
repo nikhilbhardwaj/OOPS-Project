@@ -1,0 +1,5 @@
+Vdr plugin to provide other programs access to the osd
+	
+the osdserver plugin allows external programs to access vdr's osd.
+osdserver listens for commands on port 2010 and is mainly intended
+to be used by shell and perl scripts.

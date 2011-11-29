@@ -1,0 +1,6 @@
+Generate similarity hashes to find nearly duplicate files
+	
+one of the questions that it's nice to be able to answer about a pair of files
+is the degree of similarity between them. this command-line tool is useful for
+estimating the "degree of similarity" between a pair of nominally sequential
+files such as textfiles. the tool uses manassas's "shingleprinting" technique.

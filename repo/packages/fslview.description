@@ -1,0 +1,9 @@
+Viewer for (f)mri and dti data
+	
+this package provides a viewer for 3d and 4d mri data as well as dti images.
+fslview is able to display analyze and nifti files. the viewer supports
+multiple 2d viewing modes (orthogonal, lightbox or single slices), but also
+3d volume rendering. additionally fslview is able to visualize timeseries and
+can overlay metrical and stereotaxic atlas data.
+
+fslview is part of fsl.

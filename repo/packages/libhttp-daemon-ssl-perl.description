@@ -1,0 +1,6 @@
+A simple http server class with ssl support
+	
+http::daemon::ssl is a descendant of http::daemon that uses ssl sockets
+(via io::socket::ssl) instead of cleartext sockets.  it also handles
+ssl-specific problems, such as dealing with http clients that attempt
+to connect to it without using ssl.

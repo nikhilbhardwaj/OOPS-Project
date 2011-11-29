@@ -1,0 +1,8 @@
+Implementation of the levenshtein edit distance
+	
+text::levenshtein implements the levenshtein edit distance. the levenshtein
+edit distance is a measure of the degree of proximity between two strings.
+this distance is the number of substitutions, deletions or insertions
+("edits") needed to transform one string into the other one (and vice versa).
+when two strings have distance 0, they are the same. a good point to start
+is: <http://www.merriampark.com/ld.htm>

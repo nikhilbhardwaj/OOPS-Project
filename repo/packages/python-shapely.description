@@ -1,0 +1,11 @@
+Geometric objects, predicates, and operations
+	
+shapely is a package for manipulation and analysis of 2d features.
+its capabilities include:
+
+ * calculating the point set unions, intersections, or differences of features
+ * predicate tests on features: intersects, touches, contains, and more.
+
+
+supported geometric types are points, line strings, linear rings, polygons, and
+homogeneous or heterogeneous collections thereof.

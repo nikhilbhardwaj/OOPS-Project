@@ -1,0 +1,6 @@
+Module to parse rfc2822 headers and message format
+	
+email::simple is the first deliverable of the perl email project, a reaction
+against the complexity and increasing bugginess of the mail::* modules. in
+contrast, email::* modules are meant to be simple to use and to maintain,
+pared to the bone, fast, minimal in their external dependencies, and correct.

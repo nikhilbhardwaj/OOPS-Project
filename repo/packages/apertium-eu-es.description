@@ -1,0 +1,13 @@
+Apertium linguistic data to translate between basque and spanish
+	
+this is a linguistic package for the apertium shallow-transfer
+machine translation system. the package can be used to translate
+from basque to spanish. basque is a language isolate, spoken
+in the basque country (euskal herria), which is split between france
+and spain. spanish is a romance language spoken widely around
+the world. unlike other linguistic packages this one currently
+only has one direction, basque to spanish.
+
+to use this package you will need to install both lttoolbox,
+the lexical-processing tools, and apertium, the tagger and
+transfer engine.

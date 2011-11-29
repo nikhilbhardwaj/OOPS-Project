@@ -1,0 +1,5 @@
+Wraps the best available json implementation available in a common interface
+	
+loads whichever is the fastest json module installed and provides a uniform
+api regardless of which json implementation is used. the exceptions will also
+be the same whichever json module is used.

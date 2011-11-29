@@ -1,0 +1,7 @@
+Packet capture and interception for switched networks
+	
+4g8 allows you to capture traffic from a third party in a switched
+environment at the expense of a slight increase in latency to that
+third party host. utilizing arp cache poisoning, packet capture and
+packet reconstruction techniques, 4g8 works with nearly all tcp, icmp
+and udp ipv4 traffic flows.

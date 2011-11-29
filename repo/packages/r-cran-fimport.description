@@ -1,0 +1,9 @@
+Gnu r package for financial engineering -- fimport
+	
+this package provides functions to import financial and economic data
+series import and is part of rmetrics, a collection of packages for
+financial engineering and computational finance written and compiled
+by diethelm wuertz and others.
+
+fimport provides import function to access (free) data from economagic,
+the us federal reserve, forecasts.org, yahoo and other web sources.

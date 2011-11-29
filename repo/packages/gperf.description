@@ -1,0 +1,8 @@
+Perfect hash function generator
+	
+gperf is a program that generates perfect hash functions for sets of
+key words.
+
+a perfect hash function is simply: a hash function and a data structure
+that allows recognition of a key word in a set of words using exactly 1
+probe into the data structure.

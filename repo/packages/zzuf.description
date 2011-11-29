@@ -1,0 +1,9 @@
+Transparent application fuzzer
+	
+zzuf is a transparent fuzzer. it works by intercepting applications' file
+and network operations and changing random bits in their input. its behaviour
+is deterministic, making it easy to reproduce bugs.
+
+zzuf has support for variable fuzzing ratio, character filtering, fuzzing
+decision based on filenames and optional network fuzzing. it can also stop
+processes that run for too long or that output too much data.

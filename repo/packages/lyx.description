@@ -1,0 +1,23 @@
+Document processor
+	
+lyx is an almost wysiwyg-frontend for latex. it makes the power and
+typesetting quality of latex available for people who are used to
+word processors. since lyx supports latex's concept of general
+mark-ups, it is even easier and faster to create professional quality
+documents with it than with usual word processors. it is also
+possible to use latex commands within lyx, so nothing of latex's
+power is lost.
+
+you can extend the functionality of lyx by installing these packages:
+
+ * chktex: check for typographical errors
+ * dvipost: display tracked changes in dvi format output
+ * gnuhtml2latex: import html documents
+ * groff: improved table formatting in plain text exports
+ * linuxdoc-tools: export sgml linuxdoc documents
+ * noweb: import noweb files
+ * rcs: integrated version control
+ * sgmltools-lite: export sgml docbook documents
+ * elyxer, tex4ht, hevea, tth, or latex2html: export html documents
+ * texlive-latex-extra: more styles and packages
+ * wv: import ms word documents

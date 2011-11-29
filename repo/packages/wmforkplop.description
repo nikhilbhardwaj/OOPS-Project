@@ -1,0 +1,7 @@
+Monitors forking activity and displays top cpu consuming processes
+	
+wmforkplop monitors the forking activity of the kernel and
+displays a list of the most cpu consuming processes.
+although primarily aimed at windowmaker, it will run on any
+window manager, either as a dockapp or as a standard x11
+application.

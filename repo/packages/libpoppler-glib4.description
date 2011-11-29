@@ -1,0 +1,6 @@
+Pdf rendering library (glib-based shared library)
+	
+poppler is a pdf rendering library based on xpdf pdf viewer.
+
+this package provides the glib-based shared library for applications
+using the glib interface to poppler.

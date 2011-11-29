@@ -1,0 +1,11 @@
+Milter implementation of domainkeys identified mail
+	
+the opendkim project is a community effort to develop and maintain a c library
+for producing dkim-aware applications and an open source milter for providing
+domainkeys identified mail (dkim) service.
+
+dkim provides a way for senders to confirm their identity when sending email
+by adding a cryptographic signature to the headers of the message.
+
+this package contains the opendkim mail filter (milter) for plugging into
+milter-aware mtas. it implements both signing and verification.

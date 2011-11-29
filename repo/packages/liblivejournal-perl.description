@@ -1,0 +1,6 @@
+Perl implementation of the livejournal protocol
+	
+this module is implements the livejournal protocol. see
+http://www.livejournal.com/developer/protocol.bml for details. data
+is requested from the server through mode lines. many methods return
+a hash reference containing key/value pairs returned by the server.

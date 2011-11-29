@@ -1,0 +1,10 @@
+Portable archive interchange
+	
+pax is an archiving utility that reads and writes tar and cpio formats,
+both the traditional ones and the extended formats specified in ieee 1003.1.
+it handles multi-volume archives and automatically determines the format
+of an archive while reading it.  the pax interface was designed by ieee
+1003.2 as a compromise in the chronic controversy over which of tar or
+cpio is best.
+
+this is the free openbsd's version written by keith muller.

@@ -1,0 +1,5 @@
+Executable uniform command-line interface descriptions
+	
+getopt::euclid uses your program's own documentation to create a command-line
+argument parser. this ensures that your program's documented interface and
+its actual interface always agree.

@@ -1,0 +1,11 @@
+Template engine for php
+	
+smarty is a template engine for php. more specifically, it
+facilitates a manageable way to separate application logic and content
+from its presentation.
+
+the smarty 3 api has been refactored to a syntax geared for consistency
+and modularity. the smarty 2 api syntax is still supported, but will
+throw a deprecation notice. you can disable the notices, but it is highly
+recommended to adjust your syntax to smarty 3, as the smarty 2 syntax
+must run through an extra rerouting wrapper.

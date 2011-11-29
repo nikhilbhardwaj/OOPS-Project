@@ -1,0 +1,7 @@
+Library to work with iso9660 filesystems (development files)
+	
+this package contains development files (headers and static library)
+for the libiso9660 library.
+
+this library is made to read and write iso9660 filesystems; those
+filesystems are mainly used on cdroms.

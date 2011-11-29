@@ -1,0 +1,19 @@
+General purpose computational fluid dynamics (cfd) software - includes
+	
+the basic capabilities of code_saturne enable the handling of either
+incompressible or expandable flows with or without heat transfer and
+turbulence. dedicated modules are available for specific physics such
+as radiative heat transfer, combustion (gas, coal, heavy fuel oil, ...),
+magneto-hydrodynamics, compressible flows, two-phase flows
+(euler-lagrange approach with two-way coupling), extensions to
+specific applications (e.g. mercure_saturne for atmospheric
+environment).
+
+it runs in parallel with mpi on distributed memory machines.
+developed since 1997 at edf r&d, it is based on a co-located finite
+volume approach that accepts meshes with any type of cell
+(tetrahedral, hexahedral, prismatic, pyramidal, polyhedral...) and any
+type of grid structure (unstructured, block structured, hybrid,
+conforming or with hanging nodes, ...).
+
+this package contains the include files.

@@ -1,0 +1,5 @@
+Ncurses disk usage viewer
+	
+ncdu is a ncurses-based du viewer. it provides a fast and easy-to-use interface
+through famous du utility. it allows to browse through the directories and show
+percentages of disk usage with ncurses library.

@@ -1,0 +1,8 @@
+Acts as an interface to various online weather-services
+	
+services_weather searches for given locations and retrieves current
+weather data and, dependent on the used service, also forecasts. up to
+now, globalweather from capescience, weather xml from ejse (us only),
+a xoap service from weather.com and metar/taf from noaa are supported.
+further services will get included, if they become available, have a
+usable api and are properly documented.

@@ -1,0 +1,7 @@
+Modularized system wide shell configuration mechanism
+	
+simple centralized configuration mechanism for flexible maintenance
+of the shell specific parts for login to a debian system.
+
+it has been designed to work with bash.  other shells have not
+been taken in consideration for this version.

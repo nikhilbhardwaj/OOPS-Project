@@ -1,0 +1,15 @@
+Perl data language: perl extensions for numerics
+	
+pdl gives standard perl the ability to compactly
+store and speedily manipulate the large n-dimensional data arrays
+which are the bread and butter of scientific computing.  the idea
+is to turn perl in to a free, array-oriented, numerical language
+in the same sense as commercial packages like idl and matlab. one
+can write simple perl expressions to manipulate entire numerical arrays
+all at once. for example, using pdl the perl variable $a can hold a
+1024x1024 floating point image, it only takes 4mb of memory to store
+it and expressions like $a=sqrt($a)+2 would manipulate the whole image
+in a few seconds.
+
+a simple interactive shell (perldl) is provided for command line use
+together with a module (pdl) for use in perl scripts.

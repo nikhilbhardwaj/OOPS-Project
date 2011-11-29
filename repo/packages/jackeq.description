@@ -1,0 +1,15 @@
+Routes and manipulates audio from/to multiple sources
+	
+jackeq is a tool for  routing and manipulating audio from/to multiple
+input/output sources.  it runs in the  jack audio connection kit, and
+uses ladspa for   its backend dsp  work, specifically  the dj eq  swh
+plugin created by steve harris, one of jackeq's main authors.
+
+jackeq  is intended to provide an  accessible method for tweaking the
+treble, mid and bass of any  jack aware applications output. designed
+specifically for live performance, it is modelled on various dj mixing
+consoles which the main author has used.
+
+jackeq wll  allow sound as rich and  powerful as jackie  o, as street
+smart as jackie brown. jackeq may be the first female entity in jacks
+realm. is jackeq more than you can handle?

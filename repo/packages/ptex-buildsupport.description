@@ -1,0 +1,9 @@
+Support files for building ascii ptex
+	
+this package actually contains a fragment of the latest tetex source
+tarball(will be placed in /usr/src).  since ascii ptex is provided as a set
+of additional source files to tetex source tree, you need to install this
+package when you build ptex-bin package.  a little shell script to
+strip down big tetex source tarball is also included.
+
+you don't need to install this package to have a running ptex system.

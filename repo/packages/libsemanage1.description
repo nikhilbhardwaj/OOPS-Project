@@ -1,0 +1,19 @@
+Selinux policy management library.
+	
+this package provides the shared libraries for selinux policy management.
+it uses libsepol for binary policy manipulation and libselinux for
+interacting with the selinux system.  it also exec's helper programs
+for loading policy and for checking whether the file_contexts
+configuration is valid (load_policy and setfiles from
+policycoreutils) presently, although this may change at least for the
+bootstrapping case
+
+security-enhanced linux is a patch of the linux kernel and a
+number of utilities with enhanced security functionality designed to
+add mandatory access controls to linux.  the security-enhanced linux
+kernel contains new architectural components originally developed to
+improve the security of the flask operating system. these
+architectural components provide general support for the enforcement
+of many kinds of mandatory access control policies, including those
+based on the concepts of type enforcement, role-based access
+control, and multi-level security.

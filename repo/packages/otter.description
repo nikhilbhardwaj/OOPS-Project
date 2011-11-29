@@ -1,0 +1,10 @@
+Resolution-style theorem prover
+	
+otter is an automated theorem prover for equational logic developed
+at argonne national laboratory.
+
+otter's inference rules are based on resolution and paramodulation,
+and it includes facilities for term rewriting, term orderings,
+knuth-bendix completion, weighting, and strategies for directing and
+restricting searches for proofs. otter can also be used as a symbolic
+calculator and has an embedded equational programming system.

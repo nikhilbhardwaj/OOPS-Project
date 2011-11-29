@@ -1,0 +1,10 @@
+Desktop sharing utility
+	
+kde desktop sharing is a manager for easily sharing a desktop session with
+another system.  the desktop session can be viewed or controlled remotely by
+any vnc or rfb client, such as the kde remote desktop connection client.
+
+kde desktop sharing can restrict access to only users who are explicitly
+invited, and will ask for confirmation when a user attempts to connect.
+
+this package is part of the kde networking module.

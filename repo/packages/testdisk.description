@@ -1,0 +1,57 @@
+Partition scanner and disk recovery tool
+	
+
+ testdisk checks the partition and boot sectors of your disks.
+ it is very useful in recovering lost partitions.
+ it works with :
+ * dos/windows fat12, fat16 and fat32
+ * ntfs ( windows nt/2k/xp )
+ * linux ext2 and ext3
+ * befs ( beos )
+ * bsd disklabel ( freebsd/openbsd/netbsd )
+ * cramfs (compressed file system)
+ * hfs and hfs+, hierarchical file system
+ * jfs, ibm's journaled file system
+ * linux raid
+ * linux swap (versions 1 and 2)
+ * lvm and lvm2, linux logical volume manager
+ * netware nss
+ * reiserfs 3.5 and 3.6
+ * sun solaris i386 disklabel
+ * ufs and ufs2 (sun/bsd/...)
+ * xfs, sgi's journaled file system
+ .
+ photorec is file data recovery software designed to recover
+ lost pictures from digital camera memory or even hard disks.
+ it has been extended to search also for non audio/video headers.
+ it searchs for
+ * sun/next audio data (.au)
+ * riff audio/video (.avi/.wav)
+ * bmp bitmap (.bmp)
+ * bzip2 compressed data (.bz2)
+ * source code written in c (.c)
+ * canon raw picture (.crw)
+ * canon catalog (.ctg)
+ * fat subdirectory
+ * microsoft office document (.doc)
+ * nikon dsc (.dsc)
+ * html page (.html)
+ * jpeg picture (.jpg)
+ * mov video (.mov)
+ * mp3 audio (mpeg adts, layer iii, v1) (.mp3)
+ * moving picture experts group video (.mpg)
+ * minolta raw picture (.mrw)
+ * olympus raw format picture (.orf)
+ * portable document format (.pdf)
+ * perl script (.pl)
+ * portable network graphics (.png)
+ * raw fujifilm picture (.raf)
+ * contax picture (.raw)
+ * rollei picture (.rdc)
+ * rich text format (.rtf)
+ * shell script (.sh)
+ * tar archive (.tar )
+ * tag image file format (.tiff)
+ * microsoft asf (.wma)
+ * sigma/foveon x3 raw picture (.x3f)
+ * zip archive (.zip)

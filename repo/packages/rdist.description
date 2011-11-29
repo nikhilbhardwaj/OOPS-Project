@@ -1,0 +1,5 @@
+Remote file distribution client and server
+	
+rdist is a program to maintain identical copies of files over multiple hosts.
+it preserves the owner, group, mode, and mtime of files if possible and can
+update programs that are executing.

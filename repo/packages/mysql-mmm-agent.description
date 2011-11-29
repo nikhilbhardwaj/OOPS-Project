@@ -1,0 +1,11 @@
+Multi-master replication manager for mysql - agent daemon
+	
+mmm (master-master replication manager for mysql) is a set of flexible scripts
+to perform monitoring/failover and management of mysql master-master
+replication configurations (with only one node writable at any time).
+the toolset also has the ability to read balance standard master/slave
+configurations with any number of slaves, so you can use it to move virtual
+ip addresses around a group of servers depending on whether they are behind
+in replication.
+
+this package includes the mmm agent.

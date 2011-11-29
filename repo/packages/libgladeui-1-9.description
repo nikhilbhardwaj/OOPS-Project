@@ -1,0 +1,12 @@
+Gtk+ user interface build core library
+	
+glade is a rad tool to enable quick and easy development of user
+interfaces for the gtk+ 2 toolkit.
+
+glade is, since its "3.0" major version, highly modular, and composed
+of widgets which can be used by other applications to integrate
+functionality similar to the one provided by the glade application
+itself.
+
+this library provides all the widgets and core code, like parsing and
+saving files.

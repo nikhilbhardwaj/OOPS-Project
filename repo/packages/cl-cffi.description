@@ -1,0 +1,16 @@
+The common foreign function interface for common lisp
+	
+cffi, the common foreign function interface, purports to be a portable foreign
+function interface for common lisp. the cffi library is composed of a
+lisp-implementation-specific backend in the cffi-sys package, and a portable
+frontend in the cffi package.
+
+the cffi-sys backend package defines a low-level interface to the native ffi
+support in the lisp implementation. it offers operators for allocating and
+dereferencing foreign memory, calling foreign functions, and loading shared
+libraries. the cffi frontend provides a declarative interface for defining
+foreign functions, structures, typedefs, enumerated types. it is implemented
+in portable ansi cl making use of the low-level operators exported by
+cffi-sys.
+
+a uffi compatibility layer is also being developed.

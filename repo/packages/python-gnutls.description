@@ -1,0 +1,14 @@
+Python wrapper for the gnutls library
+	
+this package provides a high level object oriented wrapper around
+libgnutls, as well as low level bindings to the gnutls types and
+functions via ctypes. the high level wrapper hides the details of
+accessing the gnutls library via ctypes behind a set of classes
+that encapsulate gnutls sessions, certificates and credentials and
+expose them to python applications using a simple api.
+
+the package also includes a twisted interface that has seamless
+intergration with twisted, providing connecttls and listentls
+methods on the twisted reactor once imported (the methods are
+automatically attached to the reactor by simply importing the
+gnutls twisted interface module).

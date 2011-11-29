@@ -1,0 +1,14 @@
+Controller gui for tor
+	
+vidalia offers a graphical user interface to start and stop tor, view
+its status at a glance, and monitor its bandwidth usage.
+
+vidalia also makes it easy to contribute to
+the tor network by helping you set up a tor server.
+
+tor protects privacy in communications via a distributed network of
+relays run by volunteers all around the world: it prevents anybody
+watching internet connections from learning what sites you visit,
+and it prevents the visited sites from learning your physical
+location. tor works with web browsers, instant messaging programs,
+remote login clients, and many other tcp-based applications.

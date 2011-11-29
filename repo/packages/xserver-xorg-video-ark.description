@@ -1,0 +1,11 @@
+X.org x server -- ark display driver
+	
+this package provides the driver for the ark family
+of chipsets.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xf86-video-ark driver module.

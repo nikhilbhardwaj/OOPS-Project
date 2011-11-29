@@ -1,0 +1,18 @@
+Official text editor of the gnome desktop environment (development files)
+	
+gedit is a text editor which supports most standard editor features,
+extending this basic functionality with other features not usually
+found in simple text editors. gedit is a graphical application which
+supports editing multiple text files in one window (known sometimes as
+tabs or mdi).
+
+gedit fully supports international text through its use of the unicode
+utf-8 encoding in edited files. its core feature set includes syntax
+highlighting of source code, auto indentation and printing and print preview
+support.
+
+gedit is also extensible through its plugin system, which currently
+includes support for spell checking, comparing files, viewing cvs
+changelogs, and adjusting indentation levels.
+
+this package is required to build plugins for gedit.

@@ -1,0 +1,12 @@
+Ntlm authentication library
+	
+ntlm is an authentication protocol used in various microsoft network
+protocol implementations and supported by the ntlm security support
+provider ("ntlmssp"). originally used for authentication and negotiation
+of secure dce/rpc, ntlm is also used throughout microsoft's systems as
+an integrated single sign-on mechanism.
+
+ntlm employs a challenge-response mechanism for authentication, in  which
+clients are able to prove their identities without sending a  password to
+the server. it consists of three messages, commonly referred  to as type 1
+(negotiation), type 2 (challenge) and type 3 (authentication).

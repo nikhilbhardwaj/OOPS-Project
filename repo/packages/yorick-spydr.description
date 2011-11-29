@@ -1,0 +1,9 @@
+Fits image display and simple analysis
+	
+spydr (pronounced like spider) basically is an fits image viewer. it
+can work as a stand-alone application but is best integrated in a
+yorick-based data-analysis work-flow (yorick is an interpreted
+language specialized in numerical computations and scientific
+graphics). it includes tools to zoom, produce cuts, histograms,
+gaussian/moffat fits, psf fits (inc. fwhm and strehl). can work on
+single images, sequences of images or data cubes.

@@ -1,0 +1,21 @@
+Foundation classes, design patterns, ipc and threads
+	
+ooa and ood for linux dynamic libraries.
+
+this package provides the shared libraries for corelinux
+so that you can run any corelinux based code on the machine.
+
+ .
+ ooa: object oriented analysis
+ ood: object oriented design
+ check http://corelinux.sourceforge.net
+ .
+ libcorelinux provides the following features:
+ .
+ foundation classes
+ inter-process communication
+ process and threads
+ design patterns (complete)
+  creational design patterns
+  structural design patterns
+  behavioral design patterns

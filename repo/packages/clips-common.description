@@ -1,0 +1,15 @@
+Clips common files and examples
+	
+clips 6.0 is an ops-like forward chaining production system written
+in ansi c by nasa. the clips inference engine includes truth maintenance,
+dynamic rule addition, and customizable conflict resolution strategies.
+
+clips, including the runtime version, is easily embeddable in other
+applications.  clips includes an object-oriented language called cool
+(clips object-oriented language) which is directly integrated with the
+inference engine.
+
+this package installs the common files shared by both the text and
+graphics interface, currently it includes both the help file and examples
+of clips programs that can be used to learn the language and test
+the interfaces.

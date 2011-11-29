@@ -1,0 +1,8 @@
+Graphical boot animation and logger (spinfinity theme)
+	
+plymouth provides an attractive graphical boot animation in place of the text
+messages that normally get shown. text messages are instead redirected to a log
+file for viewing after boot.
+
+this package contains the spinfinity theme. it features a centered logo and
+animated spinner that spins in the shape of an infinity sign.

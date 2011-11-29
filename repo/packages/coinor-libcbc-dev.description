@@ -1,0 +1,19 @@
+Coin-or branch-and-cut mixed integer programming solver
+	
+cbc (coin-or branch and cut) is an open-source mixed integer programming
+solver written in c++.  it is primarily meant to be used as a callable
+library, but a basic, stand-alone executable version is also available.
+
+mixed integer programming (mip) is a generalization of linear programming (lp)
+and allows to find the minimum solution of objective functions depending
+linearly on variables, which are linearly constrained and additionally may
+have integrality constraints.
+
+cbc is part of the larger coin-or initiative (computational infrastructure for
+operations research) and depends on the coin-or clp linear programming solver
+for solving subproblems.
+
+cbc works well as independent solver (reading files in the mps format) and as a
+solver backend for ampl.
+
+this package contains the header files for developers.

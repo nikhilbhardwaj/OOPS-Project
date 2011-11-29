@@ -1,0 +1,13 @@
+Graphical alsa sequencer connection manager
+	
+aconnectgui is a graphical utility to connect and disconnect two existing
+ports on alsa sequencer system. the ports with the arbitrary subscription
+permission, such as created by aseqview, can be connected to any (midi) device
+ports.
+
+aconnectgui is a frontend for aconnect, written directly on top of the
+aconnect source, leaving the original source intact, only adding a couple of
+ifdefs, and some calls to the gui part. it provides exactly the same
+functionality, but with a graphical user interface.
+
+homepage: http://www.iua.upf.es/~mdeboer/projects/aconnectgui/

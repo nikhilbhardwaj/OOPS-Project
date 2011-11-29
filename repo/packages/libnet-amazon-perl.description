@@ -1,0 +1,6 @@
+Perl framework for accessing amazon.com via soap and xml/http
+	
+net::amazon provides an object-oriented interface to amazon.com's soap and
+xml/http interfaces. this way it's possible to create applications using
+amazon's vast amount of data via a functional interface, without having to
+worry about the underlying communication mechanism.

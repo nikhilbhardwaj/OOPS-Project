@@ -1,0 +1,11 @@
+User-mode linux (utility programs)
+	
+user-mode linux is a port of the linux kernel to its own system call
+interface.  it provides a kind of virtual machine, which runs linux
+as a user process under another linux kernel.  this is useful for
+kernel development, sandboxing, jailing, experimentation, and
+many other things.
+
+this package contains userspace utilities for use with user-mode
+linux, including uml_mconsole, uml_moo, uml_switch, uml_net and
+tunctl.

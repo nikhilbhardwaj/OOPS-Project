@@ -1,0 +1,25 @@
+Ip protocols logger
+	
+writes information about incoming icmp messages, tcp connections and
+udp datagrams to syslog.
+
+it is highly configurable and has a built-in dns cache.
+
+please note that upstream is rather inactive lately (no release since
+2001), and that there are some rather nasty bugs.
+
+an incomplete list of the bugs includes:
+
+  - random packets don't get logged sometimes
+  - stops logging at all after some weeks
+  - ipv6 never got implemented
+  - documentation is out of sync.
+
+
+trying to fix these bugs is not easy. please do not expect the debian
+maintainer to do this, but patches are appreciated.
+
+please consider using a fully-grown intrusion detection system (like
+snort) instead of ippl.
+
+upstream url: http://pltplp.net/ippl/

@@ -1,0 +1,9 @@
+Image viewer using gtk+
+	
+geeqie is a browser for graphics files offering single click viewing of
+your graphics files. it includes thumbnail view, zoom, filtering
+features and external editor support.
+
+this package contains standard feature set, if you want to be able to display
+maps of photos based on gps data in them, you want to install geeqie-gps
+package.

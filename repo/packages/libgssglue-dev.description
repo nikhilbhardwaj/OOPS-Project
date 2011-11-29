@@ -1,0 +1,9 @@
+Header files and docs for libgssglue
+	
+contains the header files and documentation for libgssglue
+for use in developing applications that use the libgssglue library.
+
+libgssglue provides a gssapi interface, but does not implement any
+gssapi mechanisms itself; instead it calls other gssapi functions
+(e.g., those provided by mit kerberos), depending on the requested
+mechanism, to do the work.

@@ -1,0 +1,8 @@
+Tcp/ip packet repeater in the application layer
+	
+it repeats tcp and udp packets from inside to outside of a firewall, or from
+outside to inside.
+stone supports ssl. stone can encrypt/decrypt packets with openssl library.
+stone can also be a tiny http proxy.
+pop -> apop conversion. with stone and a mailer that does not support apop,
+you can access to an apop server.

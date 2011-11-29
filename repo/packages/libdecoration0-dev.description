@@ -1,0 +1,8 @@
+Compiz window decoration library - development files
+	
+the window decoration library is responsible for drawing the window borders
+and title bar of windows managed by compiz. it is used by window decorators
+like gtk-window-decorator and kde-window-decorator.
+
+this package contains files required for developing window decorators
+compatible with compiz.

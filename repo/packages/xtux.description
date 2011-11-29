@@ -1,0 +1,5 @@
+Legacy package that you should remove
+	
+the xtux package was split into xtux-client, xtux-server and
+xtux-common. this package is here to allow smooth upgrades and
+should be removed.

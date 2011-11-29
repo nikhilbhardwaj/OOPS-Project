@@ -1,0 +1,8 @@
+Ben's own graphics library - graphical terminal
+	
+ben's own graphics library is a small framebuffer library,
+including basic widgets, support for text in multiple
+languages, and mouse handling.
+
+this package contains bterm, a utf-enabled framebuffer terminal,
+for use in debian-installer.

@@ -1,0 +1,5 @@
+Remote user communication server
+	
+talkd is the server that notifies a user that someone else wants to initiate
+a conversation.  it acts a repository of invitations, responding to requests
+by clients wishing to rendezvous to hold a conversation.

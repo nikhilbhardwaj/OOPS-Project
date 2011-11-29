@@ -1,0 +1,7 @@
+Typelib file for libindicate4
+	
+a small library for applications to raise "flags" on dbus for other components
+of the desktop to pick up and visualize.
+
+this package can be used by other packages using the girepository format to
+generate dynamic bindings for libindicate4.

@@ -1,0 +1,17 @@
+A free implementation of the opengl api -- debugging symbols
+	
+mesa is a 3-d graphics library with an api which is very similar to
+that of opengl.  to the extent that mesa utilizes the opengl command
+syntax or state machine, it is being used with authorization from
+silicon graphics, inc.  however, the author makes no claim that mesa
+is in any way a compatible replacement for opengl or associated with
+silicon graphics, inc.
+
+this library provides a pure software rasteriser; it does not provide
+a direct rendering-capable library, or one which uses glx.  for that,
+please see libgl1-mesa-glx.
+
+on linux, this library is also known as libgl or libgl.so.1.
+
+this package contains debugging symbols for the software rasterization gl
+library.

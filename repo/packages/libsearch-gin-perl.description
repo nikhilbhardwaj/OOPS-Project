@@ -1,0 +1,8 @@
+Perl module for generalized inverted indexing
+	
+search::gin is a perl module providing an implementaiton of a generalized
+inverted index. an inverted index is a structure storing pairs of keys and
+posting lists, where a posting list is a set of documents in which the key
+occurs. it is generalized in the sense that it does not know what operation
+it accelerates and in general is used to provide fast and scalable full-text
+search facilities.

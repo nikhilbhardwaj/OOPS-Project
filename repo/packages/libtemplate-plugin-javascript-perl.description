@@ -1,0 +1,6 @@
+Perl module to sanitize text for javascript
+	
+template::plugin::javascript is a template toolkit filter that automatically
+sanitizes your text so it can be used safely in javascript quotes. you simply
+enable the filter inside a javascript string, resulting in any metacharacters
+being automatically escaped.

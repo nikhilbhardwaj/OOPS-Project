@@ -1,0 +1,29 @@
+Xdoclet attribute oriented programming
+	
+xdoclet is an open source code generation engine. it
+enables attribute-oriented programming for java. in
+short, this means that you can add more significance
+to your code by adding meta data (attributes) to your
+java sources. this is done in special javadoc tags.
+
+xdoclet will parse your source files and generate many
+artifacts such as xml descriptors and/or source code
+from it. these files are generated from templates that
+use the information provided in the source code and its
+javadoc tags.
+
+this package ships the core xdoclet module as well as
+a selection of the xdoclet extension modules. the
+installed modules are: apache, borland, caucho, ejb,
+exolab, hibernate, hp, ibm, java, jboss, jdo,
+jmx, jsf, libelis, macromedia, mockobjects,
+mvcsoft, mx4j, objectweb, openejb, oracle,
+orion, portlet, pramati, solarmetric, spring,
+sybase, tjdo, web, webwork, wsee, xdoclet.
+
+modules that are present in the original xdoclet project
+but contain proprietary source code have not been
+included (bea, sun).
+
+the package also contains xdoclet locales (de, fr_fr,
+pt_br).

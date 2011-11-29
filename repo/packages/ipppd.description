@@ -1,0 +1,6 @@
+Isdn utilities - ppp daemon
+	
+this package provides the specially modified version of the point to
+point protocol daemon needed to connect to the internet through an
+internal isdn card. it also supports dial-in connections from windows
+clients.

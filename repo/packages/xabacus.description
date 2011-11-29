@@ -1,0 +1,9 @@
+Simulation of the ancient calculator (plain x version)
+	
+this program is an implementation of the original abacus, it provides
+the chinese, japanese, korean, roman and russian version and can be
+modified to allow others.
+
+this version was compiled without the motif gui widget library and thus
+shows limited user interface functionality. see xmabacus for the
+extended version.

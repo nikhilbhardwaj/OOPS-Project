@@ -1,0 +1,9 @@
+Windowmaker dockapp that shows your current weather
+	
+wmweather provides a monitor on a 64x64 mini window that displays the current
+weather. the weather reports are received from noaa's national weather
+service at http://www.nws.noaa.gov/, that is the same source that pilots use.
+
+wmweather is designed to work with the windowmaker dock, but will work with
+other window managers as well. xbase-clients are required for the left click
+to bring up the complete metar record.

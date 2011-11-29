@@ -1,0 +1,7 @@
+Extract text from postscript and pdf files
+	
+pstotext extracts text (in the iso 8859-1 character set) from a postscript
+or pdf (portable document format) file. thus, pstotext is similar to the
+ps2ascii program that comes with ghostscript. the output of pstotext is
+however better than that of ps2ascii, because pstotext deals better with
+punctuation and ligatures.

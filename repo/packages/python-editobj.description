@@ -1,0 +1,9 @@
+Python object editor
+	
+editobj can create and display a tkinter dialog box for editing any
+python object (similarly to what java call a bean editor, but for
+python object). editobj is a useful tool for writing (text or
+non-text) editors of all kinds, including gui editor, 3d editor,...
+
+in terms of mvc (model view controler), editobj is a generic view
+coupled with a universal controler.

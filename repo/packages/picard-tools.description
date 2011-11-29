@@ -1,0 +1,18 @@
+Command line tools to manipulate sam and bam files
+	
+sam (sequence alignment/map) format is a generic format for storing
+large nucleotide sequence alignments. picard tools includes these
+utilities to manipulate sam and bam files:
+bamtobfq                        meanqualitybycycle
+buildbamindex                   mergebamalignment
+calculatehsmetrics              mergesamfiles
+cleansam                        normalizefasta
+collectalignmentsummarymetrics  qualityscoredistribution
+collectgcbiasmetrics            replacesamheader
+collectinsertsizemetrics        revertsam
+comparesams                     samformatconverter
+createsequencedictionary        samtofastq
+estimatelibrarycomplexity       sortsam
+fastqtosam                      validatesamfile
+fixmateinformation              viewsam
+markduplicates

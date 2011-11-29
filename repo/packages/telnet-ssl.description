@@ -1,0 +1,15 @@
+The telnet client with ssl encryption support
+	
+the telnet command is used for interactive communication with another host
+using the telnet protocol.
+
+ssl telnet replaces normal telnet using ssl authentication and
+encryption. it interoperates with normal telnetd in both directions.
+it checks if the other side is also talking ssl, if not it falls back
+to normal telnet protocol.
+
+advantages over normal telnet: your passwords and the data you send
+will not go in cleartext over the line. nobody can get it with
+tcpdump or similar tools. with ssltelnet you can also connect to
+https-server like https://www.mozilla.org. just do
+'telnet -z ssl www.mozilla.org 443'

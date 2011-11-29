@@ -1,0 +1,11 @@
+Project athena's notification service - non-kerberos server
+	
+zephyr is derived from the original project athena 'instant message' system
+and allows users to send messages to other users or to groups of users.
+users can view incoming zephyr messages as windowgrams (transient x
+windows) or as text on a terminal.
+
+this package provides the server for the messaging service, which
+maintains a location and subscription database for all the receiving
+clients. all zephyrgrams are sent to the server to be routed to the
+intended recipient. only one server is required for a group of clients.

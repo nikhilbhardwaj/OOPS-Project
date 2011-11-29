@@ -1,0 +1,5 @@
+Library to create barcode images (gd::barcode)
+	
+gd::barcode creates barcode images. it supports the following barcode formats:
+coop2of5, code39, ean13 (jan13), ean8 (jan8), iata2of5, itf (interleaved2of5),
+industrial2of5, matrix2of5, nw7, qrcode, upc-a and upc-e.

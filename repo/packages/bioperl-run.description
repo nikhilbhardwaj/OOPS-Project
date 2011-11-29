@@ -1,0 +1,8 @@
+Wrapper modules for bioperl
+	
+contains modules that provide a perl interface to various
+bioinformatics applications to allow them to be
+used with common bioperl objects.
+
+not all the wrappable applications are packaged in debian. the ones
+that are are "suggested" by this package.

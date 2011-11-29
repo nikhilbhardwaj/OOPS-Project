@@ -1,0 +1,10 @@
+Header files for compiling extension modules for the ruby 1.9.1
+	
+ruby is the interpreted scripting language for quick and easy
+object-oriented programming.  it has many features to process text
+files and to do system management tasks (as in perl).  it is simple,
+straight-forward, and extensible.
+
+this package contains the header files and the mkmf library, necessary
+to make extension library for ruby 1.9.1. it is also required to build
+many gems.

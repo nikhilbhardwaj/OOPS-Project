@@ -1,0 +1,6 @@
+Module for scanning for hard tabs in files
+	
+test::notabs is a perl test module that scans your project/distribution for
+any perl files (scripts, modules, etc) that contain hard tabs (the \t, or
+0x09) character. tabs can render with slightly different width depending on
+the author's environment, so it's best to use spaces instead.

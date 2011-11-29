@@ -1,0 +1,8 @@
+The autopoint program from gnu gettext
+	
+the `autopoint' program copies standard gettext infrastructure files
+into a source package.  it extracts from a macro call of the form
+`am_gnu_gettext_version(version)', found in the package's
+`configure.in' or `configure.ac' file, the gettext version used by the
+package, and copies the infrastructure files belonging to this version
+into the package.

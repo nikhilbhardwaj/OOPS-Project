@@ -1,0 +1,8 @@
+Japanese direct input method environment for emacsen
+	
+this package is provides tc2. the t-code input environment for emacsen,
+which enables you to input japanese characters with t-code or tut-code.
+
+t-code is a japanese input method that doesn't use kana-to-kanji
+conversion.  you can input kanji characters directly in the same way
+of inputting hiragana.  tut-code is an alternative to t-code.

@@ -1,0 +1,16 @@
+Open-source project for a network data access protocol library
+	
+opendap provides software that allows you to access data over the internet,
+from programs that weren't originally designed for that purpose, as well
+as some that were. while opendap is the original developer of the data access
+protocol which its software uses, many other groups have adopted dap
+and provide compatible clients, servers and software development kits.
+
+the dap is a nasa community standard; here is the offical link to the
+specification.
+
+with opendap software, you access data using a url, just like a url you
+would use to access a web page. however, before you request any data,
+you need to know how to request it in a form your browser can handle.
+opendap data is stored in binary form, and by default, it is
+transmitted that way, too.

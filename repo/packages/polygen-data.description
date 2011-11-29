@@ -1,0 +1,14 @@
+Grammar definitions for polygen
+	
+polygen is a program for generating random sentences according to a grammar
+definition, that is following custom syntactical and lexical rules.
+
+formally, it is an interpreter of a language itself designed to define
+languages, where to interpret means executing a source program in real time
+and eventually outputting its result.
+
+here a source program is a grammar definition, the execution consists in the
+exploration of such grammar by selecting a random path and the result is the
+sentence built on the way.
+
+this package contains various grammar files suited for polygen.

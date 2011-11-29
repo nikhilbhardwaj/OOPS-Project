@@ -1,0 +1,13 @@
+Git repository viewer for gtk+/gnome
+	
+gitg is a fast gtk2 git repository browser for the gnome desktop.
+it currently features:
+
+
+ * loading large repositories very fast
+ * show/browse repository history
+ * show highlighted revision diff
+ * browse file tree of a revision and export by drag and drop
+ * search in the revision history on subject, author or hash
+ * switch between history view of branches easily
+ * commit view providing per hunk stage/unstage and commit

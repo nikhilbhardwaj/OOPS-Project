@@ -1,0 +1,12 @@
+Multihost ssh wrapper
+	
+mussh is a shell script that allows you to execute a command
+or script over ssh on multiple hosts with one command.  when
+possible mussh will use ssh-agent and rsa/dsa keys to minimize
+the need to enter your password more than once.
+
+unlike clusterssh or mssh, mussh is just a shell script
+wrapper for ssh with concurrency support.  it is intended
+to make running identical commands or scripts on almost any
+number of hosts possible with minimal overhead.  there is
+no gui and the only language used is bash.

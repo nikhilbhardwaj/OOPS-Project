@@ -1,0 +1,11 @@
+Copy-on-write utility
+	
+fl-cow allows you to utilise hard links to save disk space by causing
+hard-linked files to be copied rather than overwritten as they are changed.
+
+this is useful for making changes to large source trees while keeping a copy
+of the original tree to generate patches from. also, if you are using the
+arch revision control system with working copies hard-linked to a revision
+library, using fl-cow can prevent revision library corruption.
+
+fl-cow is an ld_preload hack, not a kernel patch.

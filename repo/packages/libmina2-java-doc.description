@@ -1,0 +1,21 @@
+Java network application framework - documentation
+	
+apache mina is a network application framework which helps users develop high
+performance and high scalability network applications easily. it provides an
+abstract - event-driven - asynchronous api over various transports such as
+tcp/ip and udp/ip via java nio.
+
+some of the features of apache mina are:
+
+ - unified api for various transport types: tcp/udp/rs232/in-vm
+ - filter interface as an extension point; similar to servlet filters
+ - low-level and high-level api
+ - highly customizable thread model
+ - out-of-the-box ssl / tls and starttls support using java 5 sslengine
+ - overload shielding & traffic throttling
+ - unit testability using mock objects
+ - jmx managability
+ - stream-based i/o support via streamiohandler
+
+
+this package contains javadoc api for apache mina 2.x release.

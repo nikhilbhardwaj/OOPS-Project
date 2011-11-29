@@ -1,0 +1,8 @@
+Ocaml bindings for linux-audio-dev plugin architecture
+	
+ladspa is a free standard specification for audio effect plugins.
+ocaml-ladspa provide an interface for ocaml programmers to this
+architecture.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use ladspa.

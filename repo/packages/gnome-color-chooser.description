@@ -1,0 +1,12 @@
+Gtk+/gnome desktop appearance customization tool
+	
+this is an application for customizing the appearance of the
+gnome desktop.
+
+features:
+
+ * change most important colors (e.g. background, window decoration, tooltips)
+ * change colors and sizes of gtk+ widgets
+ * colorize desktop icons
+ * configure installed gtk+ engines and let your current theme be drawn
+   by an installed gtk+ engine of your choice

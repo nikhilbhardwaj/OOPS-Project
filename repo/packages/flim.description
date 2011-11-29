@@ -1,0 +1,22 @@
+Library about internet message for emacsen
+	
+flim (faithful library about internet message) is a library to provide
+basic functions about message representation and encoding for emacsen.
+it consists of following modules:
+
+
+ std11.el         std 11 (rfc 822) parser and utility
+ mime.el          to provide various services about mime-entities
+ mime-def.el      definitions about mime format
+ mime-parse.el    mime parser
+ mel.el           mime encoder/decoder
+ mel-b-dl.el      base64 (b-encoding) encoder/decoder
+                  (for emacs 20 with dynamic loading support)
+ mel-b-ccl.el     base64 (b-encoding) encoder/decoder (using ccl)
+ mel-b-en.el      base64 (b-encoding) encoder/decoder (for other emacsen)
+ mel-q-ccl.el     quoted-printable and q-encoding encoder/decoder (using ccl)
+ mel-q.el         quoted-printable and q-encoding encoder/decoder
+ mel-u.el         unofficial backend for uuencode
+ mel-g.el         unofficial backend for gzip64
+ eword-decode.el  encoded-word decoder
+ eword-encode.el  encoded-word encoder

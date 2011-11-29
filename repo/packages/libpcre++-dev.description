@@ -1,0 +1,9 @@
+C++ wrapper class for pcre (development)
+	
+pcre++ is a c++ wrapper-class for the library pcre (perl compatible
+regular expressions).
+
+its class allows you to use perl alike regular expressions in your c++
+applications. you can use it to search in strings, to split strings
+into parts using expressions or to search and replace a part of a
+string with another part.

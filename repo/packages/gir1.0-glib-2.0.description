@@ -1,0 +1,13 @@
+Introspection data for glib, gobject, gio and gmodule
+	
+gobject introspection is a project for providing machine readable
+introspection data of the api of c libraries. this introspection
+data can be used in several different use cases, for example
+automatic code generation for bindings, api verification and documentation
+generation.
+
+gobject introspection contains tools to generate and handle the
+introspection data.
+
+this package contains the introspection data for the glib, gobject,
+gmodule and gio libraries.

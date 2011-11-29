@@ -1,0 +1,10 @@
+Quick access to folders, documents and removable media
+	
+this plugin brings much of the functionality of gnome’s places menu to xfce.
+it puts a simple button on the panel. clicking on this button opens up a menu
+with 4 sections:
+
+ - system-defined directories (home folder, trash, desktop, file system)
+ - removable media (using thunar-vfs)
+ - user-defined bookmarks (reads ~/.gtk-bookmarks)
+ - recent documents submenu

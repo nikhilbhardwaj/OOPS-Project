@@ -1,0 +1,5 @@
+Tiny monitor calibration loader for xorg
+	
+xcalib loads 'vcgt'-tag of icc profiles to the x-server
+using the xvidmode extension in order to calibrate your
+display.

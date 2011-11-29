@@ -1,0 +1,7 @@
+Gnupg smart-card daemon with pkcs#11 support (debug)
+	
+gnupg-pkcs11-scd is a drop-in replacement for the smart-card daemon (scd)
+shipped with gnupg. the daemon interfaces to smart-cards by using rsa security
+inc. pkcs#11 cryptographic token interface (cryptoki).
+
+this package contains the debugging symbols.

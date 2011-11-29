@@ -1,0 +1,13 @@
+Harmonics data for xtide (canada, netherlands, germany and uk)
+	
+xtide is a package that provides tide and current predictions in a wide
+variety of formats. graphs, text listings, and calendars can be generated,
+or a tide clock can be provided on your desktop.
+
+this package provides _extra_ harmonic station data for the xtide package.
+xtide works fine without them using the (free) xtide-data package which
+provides harmonics data for the us, but this package adds non-free data
+for canada, the netherlands, germany and the uk.
+
+this package is non-free because commercial distribution of the data is
+not allowed.

@@ -1,0 +1,11 @@
+Utilities to test color capabilities of terminal
+	
+most terminals are capable of displaying 16 colors; 8 colors and 2
+different brightness values, some (like xterm) can display more, even
+256 colors.
+
+the colortest package includes set of utilities to help test how many
+colors a terminal can show. these color settings depend on the $term
+environment variable and termcap entry and by adjusting or selecting
+correct values, higher colors may be available. test are for , 8, 16
+and 256 colors.

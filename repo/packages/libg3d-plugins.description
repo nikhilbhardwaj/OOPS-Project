@@ -1,0 +1,30 @@
+Plugins for the libg3d library
+	
+libg3d is a framework for loading 3d model files from files or memory. it can
+also load associated data like textures.
+
+this package contains plugins for the libg3d library, so that files can be
+loaded.
+it can handle:
+
+   * 3d studio (.3ds, .prj)
+   * lightwave (.lw, .lwb, .lwo)
+   * alias wavefront (.obj)
+   * impulse turbosilver / imagine (.iob)
+   * autocad (.dxf)
+   * quake ii models (.md2)
+   * quake iii models (.md3)
+   * neutral file format (.nff)
+   * 3d metafile (.3dmf, .3mf, .b3d)
+   * caligari truespace objects (.cob)
+   * quick3d objects & scenes (.q3o, q3s)
+   * vrml 1.0 files (.wrl, .vrml)
+   * ac3d objects (.ac, .acc)
+   * leocad models (.lcd)
+   * racer car models (.ar, .dof)
+   * ultimate stunts car models (.glb)
+   * vdrift car models (.joe, .car)
+   * collada (.dae)
+   * keyhole markup language model container (.kmz)
+   * ascii scene exporter (.ase)
+   * ldraw (.dat, .mpd)

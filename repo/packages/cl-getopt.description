@@ -1,0 +1,5 @@
+Common lisp utility for command-line processing
+	
+this package provides common lisp programs processing of command-line
+arguments. the command-line processing is based on gnu's getopt_long
+module.

@@ -1,0 +1,9 @@
+Http/1.1 compliant http agent implementation
+	
+httpclient is a http/1.1 compliant http agent implementation based on
+httpcore. it also provides reusable components for client-side
+authentication, http state management, and http connection management.
+
+httpcomponents client is a successor of and replacement for commons
+httpclient 3.x. users of commons httpclient are strongly encouraged to
+upgrade.

@@ -1,0 +1,6 @@
+X configuration tool for non-free nvidia drivers
+	
+the nvidia-xconfig program helps with manipulation of x configuration
+files, primarily for systems that use the non-free drivers provided by
+nvidia.  it automatically changes the configuration to use the nvidia
+driver and can add additional options given on the command line.

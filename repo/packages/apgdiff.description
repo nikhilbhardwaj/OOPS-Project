@@ -1,0 +1,6 @@
+Another postgresql diff tool
+	
+another postgresql diff tool is a simple postgresql diff tool that is useful
+for schema upgrades. the tool compares two schema dump files and creates
+an sql output file that is (after some hand-made modifications) suitable for
+upgrades of old schemata.

@@ -1,0 +1,7 @@
+Versatile audio processor
+	
+glame provides a powerful and extensible framework for processing
+audio files similar to what gimp offers in the graphics area.  glame so
+far features a graphical frontend to set up filter networks and perform
+basic audio editing tasks.  a flexible scheme-based command line editor
+offers low-level access for scripting purposes.

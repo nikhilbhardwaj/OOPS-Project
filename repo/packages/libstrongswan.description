@@ -1,0 +1,9 @@
+Strongswan utility and crypto library
+	
+strongswan is an ipsec-based vpn solution for the linux kernel. it uses the
+native ipsec stack and runs on any recent 2.6 kernel (no patching required).
+it supports both ikev1 and the newer ikev2 protocols.
+
+this package provides the underlying library of charon and other strongswan
+components. it is built in a modular way and is extendable through various
+plugins.

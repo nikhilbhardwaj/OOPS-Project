@@ -1,0 +1,4 @@
+PackageId:1289
+Name:bootstrap-base
+Version:1.115
+Deps:archdetect,base-installer,created-fstab,partconf,partman-base,debian-archive-keyring-udeb,debootstrap-udeb,gpgv-udeb,libc0.1-udeb,libc6-udeb,libc6.1-udeb,libdebconfclient0-udeb,libdebian-installer4-udeb,mounted-partitions

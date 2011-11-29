@@ -1,0 +1,8 @@
+Testing suite for clsql
+	
+this package contains a test suite for clsql. it requires manual
+configuration of mysql and postgresql databases to execute.
+a configured, licensed version of allegrocl with odbc setup is
+required to test the clsql-aodbc interface. see the
+/usr/share/doc/cl-sql-tests/readme file if you want to try
+running these regression tests.

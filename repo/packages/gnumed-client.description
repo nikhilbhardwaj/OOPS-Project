@@ -1,0 +1,19 @@
+Medical practice management - client
+	
+this is the gnumed electronic medical record. its purpose is
+to enable doctors to keep a medically sound record on their
+patients' health. currently it is not fully featured. the
+features provided are, however, tested, in use, and
+considered stable. this package does not yet provide
+functionality for billing and stock keeping.
+
+while the gnumed team has taken the utmost care to make sure
+the medical records are safe at all times you still need to
+make sure you are taking appropriate steps to backup the
+medical data to a safe place at appropriate intervals. do
+test your backup and disaster recovery procedures, too !
+
+protect your data! gnumed itself comes without
+any warranty whatsoever. you have been warned.
+
+this package contains the wxpython client.

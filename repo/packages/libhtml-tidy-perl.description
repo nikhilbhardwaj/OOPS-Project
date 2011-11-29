@@ -1,0 +1,8 @@
+Module for (x)html validation
+	
+html::tidy is a perl module useful for performing cleanup and providing basic
+validation of input. it is based on perl bindings to the html tidy project,
+also known as libtidy; for details, see: <url:http://tidy.sourceforge.net/>.
+
+this module is intended to replace html::lint and includes documentation for
+easing the migration from that module.

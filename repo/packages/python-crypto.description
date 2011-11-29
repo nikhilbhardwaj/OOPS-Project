@@ -1,0 +1,13 @@
+Cryptographic algorithms and protocols for python
+	
+a collection of cryptographic algorithms and protocols, implemented
+for use from python. among the contents of the package:
+
+
+ * hash functions: hmac, md2, md4, md5, ripemd160, sha, sha256.
+ * block encryption algorithms: aes, arc2, blowfish, cast, des, triple-des.
+ * stream encryption algorithms: arc4, simple xor.
+ * public-key algorithms: rsa, dsa, elgamal, qnew.
+ * protocols: all-or-nothing transforms, chaffing/winnowing.
+ * miscellaneous: rfc1751 module for converting 128-key keys
+   into a set of english words, primality testing, random number gereration.

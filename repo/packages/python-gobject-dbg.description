@@ -1,0 +1,10 @@
+Python bindings for the gobject library (debug extension)
+	
+gobject is an abstraction layer that allows programming with an object
+paradigm that is compatible with many languages. it is a part of glib,
+the core library used to build gtk+ and gnome.
+
+this package contains the python bindings for gobject. it is mostly
+used by other bindings to map their gobjects to python objects.
+
+this package contains the extensions built for the python debug interpreter.

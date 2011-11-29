@@ -1,0 +1,10 @@
+Epic irc client, version 5
+	
+epic5 is an irc client based on ircii.  it is primarily suited to users who
+wish to write their own irc scripts or have irc scripts written by others.
+
+previous versions of epic were 100% compatible with ircii 2.8.2, though
+this is no longer the case.  instead we've taken a new direction and chosen
+to find places where compatibility with ircii is undesirable and fix them.
+no gratuitous incompatibilities have been added, though many new features
+have been.

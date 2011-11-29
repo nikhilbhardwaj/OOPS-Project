@@ -1,0 +1,10 @@
+Console tool to analyze dns traffic
+	
+dnstop is a console tool to analyze and display various tables of dns traffic.
+currently dnstop displays tables of (among others):
+
+ * source ip addresses
+ * destination ip addresses
+ * query types
+ * top level domains
+ * second level domains

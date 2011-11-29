@@ -1,0 +1,9 @@
+Apache dnsbl module that blocks listed ip addresses
+	
+mod_spamhaus is an apache module for dns block listing that protects web
+services by denying access to particular ip addresses. it can stop spam
+relaying via web form url injection, and block http ddos attacks from
+bot-nets.
+
+it queries sbl-xbl.spamhaus.org, taking advantage of the spamhaus block
+list (sbl) and the exploits block list (xbl).

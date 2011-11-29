@@ -1,0 +1,10 @@
+A gnome2 applet to check your mboxes
+	
+mboxcheck is an applet that checks mails arrive in your mboxes.
+it has a list of indicators :
+
+
+ * the indicators are pixmaps or text
+ * the indicator are attached to one or several boxes
+ * each indicator has a customisable tooltip with informations like his name,
+   the number of mails, the list of mboxes attached

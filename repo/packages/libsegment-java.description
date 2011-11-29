@@ -1,0 +1,5 @@
+Rule based text splitting library
+	
+segment library is used to split text into segments, for example sentences.
+splitting rules are read from srx file, which is standard format for this
+task.

@@ -1,0 +1,15 @@
+Module for manipulating vtk files
+	
+pyvtk provides a vtkdata class to create vtk a file from standard
+python objects.  only vtk file format version 2.0 is supported.
+features include:
+
+  - ascii and binary output, ascii input
+  - dataset formats:
+      structuredpoints, structuredgrid, rectilineargrid,
+      polydata, unstructuredgrid
+  - data formats:
+      pointdata, celldata
+  - datasetattr formats:
+      scalars, colorscalars, lookuptable, vectors,
+      normals, texturecoordinates, tensors, field

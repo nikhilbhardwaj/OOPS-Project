@@ -1,0 +1,9 @@
+Oss compatibility package
+	
+this package ensures that oss support is provided in some way.  on linux, it
+enables the alsa compatibility modules.  on other kernels where oss is the
+default interface, no action is taken.
+
+the purpose of this package is for applications that only support oss to depend
+on it, hence preventing common "/dev/dsp not found" errors that would confuse
+unexperienced users.

@@ -1,0 +1,10 @@
+Haskell test utility pack for hunit and quickcheck
+	
+testpack provides utilities for both hunit and quickcheck.  these include
+tools for running quickcheck properties as hunit test cases, allowing you to
+combine both approaches in a single program.  it also includes tools for more
+helpful displays of running progress in both hunit and quickcheck, additional
+generators for other types for quickcheck, and shortcuts for quickly defining
+new test cases.
+
+this package contains the profiling libraries.

@@ -1,0 +1,16 @@
+Python wrapper around the openssl library (documentation package)
+	
+high-level wrapper around a subset of the openssl library, includes
+
+
+  * ssl.connection objects, wrapping the methods of python's portable
+    sockets
+  * callbacks written in python
+  * extensive error-handling mechanism, mirroring openssl's error
+    codes
+
+
+a lot of the object methods do nothing more than calling a
+corresponding function in the openssl library.
+
+this package contains documentation for python-openssl.

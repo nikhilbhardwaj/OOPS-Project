@@ -1,0 +1,9 @@
+Utility functions for the xsettings protocol (development files)
+	
+this package contains headers and other files required to compile
+software using the gpe scheduling library to use the xsettings
+configuration setting propagation protocol. controls setting of
+double click timeout, drag-and-drop threshold, and default foreground and
+background colors for all applications running within a desktop.
+
+used by the gpe palmtop environment.

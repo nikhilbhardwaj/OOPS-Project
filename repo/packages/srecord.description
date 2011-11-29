@@ -1,0 +1,16 @@
+Collection of powerful tools for manipulating eprom load files
+	
+the srecord package is a collection of powerful tools for manipulating eprom
+load files. it reads and writes numerous eprom file formats, and can perform
+many different manipulations.
+
+the tools include:
+
+ * the srec_cat program may be used to catenate (join) eprom load files, or
+   portions of eprom load files, together. because it understands all of the
+   input and output formats, it can also be used to convert files from one
+   format to another. it also understands filters.
+ * the srec_cmp program may be used to compare eprom load files, or portions
+   of eprom load files, for equality.
+ * the srec_info program may be used to print summary information about eprom
+   load files.

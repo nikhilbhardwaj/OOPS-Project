@@ -1,0 +1,9 @@
+Perl module implementing the porter stemming algorithm
+	
+libtext-english-perl implements the porter stemming algorithm in pure
+perl.
+
+the porter stemming algorithm is a process for removing the commoner
+morphological and inflexional endings from words in english. its main
+use is as part of a term normalisation process that is usually done
+when setting up information retrieval systems.

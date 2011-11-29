@@ -1,0 +1,6 @@
+Yamaha dx7 modeling dssi plugin
+	
+hexter is a software synthesizer that models the sound generation of a yamaha
+dx7 synthesizer. it can easily load most dx7 patch bank files, accept patch
+editing commands via midi sys-ex messages, and recreate the sound of the dx7
+with great accuracy.

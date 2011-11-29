@@ -1,0 +1,18 @@
+The haskell make system
+	
+this package contains a universal make system for use with
+haskell compilers.  hmake is not compiler-dependent, so you
+may use this with hugs, ghc, or nhc98.
+
+hmake will use the module import definitions of the source
+files to determine which modules need to be compiled and
+loaded to run the resulting executable.
+
+in addition, the "hi" hmake-interactive environment is provided.
+this is a hugs-like text-mode utility that allows you to
+interactively program using any of the available haskell
+compilers (including ghc, but defaults to nhc98.)  warning:  this
+is a fairly slow interpreter :-)
+
+for more information, see the nhc98 web page at
+<http://www.cs.york.ac.uk/fp/nhc98/>.

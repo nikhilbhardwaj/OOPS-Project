@@ -1,0 +1,7 @@
+An apache2 module that interfaces with lisp environments
+	
+establishes a link between the apache2 web server and a lisp environment
+that allows a lisp program to generate dynamic content while letting
+apache2 take care of the dirty details of http serving.  the protocol
+between lisp and apache2 is simple, making it easy to create www-
+accessible applications quickly.

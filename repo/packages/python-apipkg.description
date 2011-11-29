@@ -1,0 +1,8 @@
+Namespace control and lazy-import mechanism for python
+	
+with apipkg you can control the exported namespace of a python package and
+greatly reduce the number of imports for your users. it is a small pure
+python module that works on virtually all python versions, including
+cpython2.3 to python3.1, jython and pypy. it co-operates well with python's
+help() system, custom importers (pep302) and common command line completion
+tools.

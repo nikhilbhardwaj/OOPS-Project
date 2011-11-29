@@ -1,0 +1,6 @@
+Module to parse icalendar files into a data structure
+	
+ical::parser is a perl module that processes icalendar (vcalendar 2.0) files
+as specified in rfc 2445 into a perl data structure. it handles several key
+features, including recurrences, exclusions, event updates and nested data
+structures (attendees and valarms).

@@ -1,0 +1,5 @@
+X11 keyboard indicator and switcher
+	
+it shows a flag of current keyboard in a systray area and
+allows you to switch to another one. it's written in c and
+uses the gtk+2.4 library only (no gnome is needed).

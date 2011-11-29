@@ -1,0 +1,7 @@
+Transitional dummy package (rancid-core -> rancid)
+	
+this package is provided to smoothly merge the old rancid-core and
+rancid-util packages into a new rancid package.
+
+after migration from rancid-core to rancid this package can be
+removed safely.

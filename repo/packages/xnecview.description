@@ -1,0 +1,9 @@
+Nec structure and gain pattern viewer
+	
+xnecview allows a representation of a nec (numerical electromagnetics
+code) structure, such as an antenna which is to be modelled to be
+displayed on the screen.  after an nec run the gain pattern in various
+formats can also be superimposed.  this can be rotated and translated for
+viewing from different angles.  plots of swr and gain as a function of
+frequency can also be produced.  in addition to on screen display,
+postscript or png output can also be produced.

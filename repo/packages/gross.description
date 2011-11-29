@@ -1,0 +1,8 @@
+Fast and efficient greylist server with dnsbl support
+	
+gross is a resource efficient greylist server written in c that supports
+greylisting and/or blocking based on dnsrbl so it will not impact legitimate
+mails
+
+it also contains a milter implementation and natively supports postfix,
+exim and sendmail.

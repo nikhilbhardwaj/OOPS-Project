@@ -1,0 +1,6 @@
+Xml quote/dequote functions
+	
+xml::quote provides functions to quote/dequote strings in "xml"-way.
+
+all functions are written in xs and are very fast; they correctly process
+utf8, tied, overloaded variables and all the rest of perl "magic".

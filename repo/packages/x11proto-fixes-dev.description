@@ -1,0 +1,12 @@
+X11 fixes extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for the fixes extension, which contains a few small extensions to the
+x protocol, including a region type.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org fixesproto proto module.

@@ -1,0 +1,8 @@
+Module to test tcp/ip programs
+	
+test::tcp is a perl test framework for tcp/ip programs, especially those
+written in perl. for example, to test a client or server written in perl,
+one simply specifies code to launch the server on an arbitrary port and
+provides corresponding code to execute a client to connect to it.
+
+this module also supports running multiple servers in the same test file.

@@ -1,0 +1,20 @@
+Generic formatter for sgml/xml documents using dsssl stylesheets
+	
+sgml2x allows to easily format sgml and xml documents using dsssl
+stylesheets, and provides the following features:
+
+ * multiple possible stylesheets per document class
+ * easy specification of style-sheets using sort aliases
+ * easy integration of new stylesheets by adding a simple new
+ definition file in a configuration directory
+ * the caller can specify a path-like list of configuration
+ directories, defaulting to one system-wide, one per-user, and
+ one per-project configuration directory
+ * automatic selection of a default stylesheet to be used
+
+
+it will currently be most useful with one of the suggested sets of
+dsssl stylesheets for docbook.
+
+this package requires the dsssl dtd from package openjade, although
+it can be used with any variant of jade.

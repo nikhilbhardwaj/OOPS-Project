@@ -1,0 +1,14 @@
+A pattern scanning and text processing language
+	
+mawk is an interpreter for the awk programming language. the awk
+language is useful for manipulation of data files, text retrieval and
+processing, and for prototyping and experimenting with algorithms. mawk
+is a new awk meaning it implements the awk language as defined in aho,
+kernighan and weinberger, the awk programming language, addison-wesley
+publishing, 1988. (hereafter referred to as the awk book.) mawk conforms
+to the posix 1003.2 (draft 11.3) definition of the awk language
+which contains a few features not described in the awk book, and mawk
+provides a small number of extensions.
+
+mawk is smaller and much faster than gawk. it has some compile-time
+limits such as nf = 32767 and sprintf buffer = 1020.

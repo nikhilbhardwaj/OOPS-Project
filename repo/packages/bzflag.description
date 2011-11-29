@@ -1,0 +1,22 @@
+A 3d first person tank battle game
+	
+bzflag is a 3d multi-player multiplatform tank battle game
+that allows users to play against each other in a network
+environment. there are five teams: red, green, blue,
+purple and rogue (rogue tanks are black).  destroying a
+player on another team scores a win, while being destroyed
+or destroying a teammate scores a loss. rogues have no
+teammates (not even other rogues), so they cannot shoot
+teammates and they do not have a team score.
+
+there are two main styles of play: capture-the-flag and
+free-for-all. in capture-the-flag, each team (except
+rogues) has a team base and each team with at least one
+player has a team flag. the object is to capture an enemy
+team's flag by bringing it to your team's base. this
+destroys every player on the captured team, subtracts one
+from that team's score, and adds one to your team's score.
+in free-for-all, there are no team flags or team bases.
+the object is simply to get as high a score as possible.
+
+this metapackage installs the client and server.

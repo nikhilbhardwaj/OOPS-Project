@@ -1,0 +1,9 @@
+Development files for the glib library
+	
+glib is a library containing many useful c routines for things such
+as trees, hashes, lists, and strings.  it is a useful general-purpose
+c library used by projects such as gtk+, gimp, and gnome.
+
+this package is needed to compile programs against libglib2.0-0,
+as only it includes the header files and static libraries (optionally)
+needed for compiling.

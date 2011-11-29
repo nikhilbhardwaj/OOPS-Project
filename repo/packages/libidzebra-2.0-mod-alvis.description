@@ -1,0 +1,10 @@
+Idzebra filter alvis (xslt filter for xml)
+	
+this package includes the alvis filter which uses libxslt1 to
+transform xml records by xslt into xml indexable records.
+deprecated, better use the libidzebra-2.0-mod-dom indexing filter.
+
+idzebra is a high-performance, general-purpose structured text indexing
+and retrieval engine. it reads structured records in a variety of input
+formats (eg. email, xml, marc) and allows access to them through exact
+boolean search expressions and relevance-ranked free-text queries.

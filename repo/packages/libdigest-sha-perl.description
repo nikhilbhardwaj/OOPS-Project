@@ -1,0 +1,6 @@
+Perl extension for sha-1/224/256/384/512
+	
+digest::sha is a complete implementation of the nist secure hash
+standard. it gives perl programmers a convenient way to calculate
+sha-1, sha-224, sha-256, sha-384, and sha-512 message digests. the
+module can handle all types of input, including partial-byte data.

@@ -1,0 +1,12 @@
+Code generator producing a python extension from java classes
+	
+jcc is a code generator for producing a python extension providing
+access to a set of java classes. for every java class, jcc generates
+a c++ wrapper class that hides the gory details necessary for
+accessing methods and fields from c++ via java's native invocation
+interface.  jcc can also generate c++ wrappers that make it possible
+to access these classes from python.  when generating python
+wrappers, jcc produces a complete python extension via the distutils
+package that makes it readily available to the python interpreter.
+jcc is a project maintained by the open source applications
+foundation.

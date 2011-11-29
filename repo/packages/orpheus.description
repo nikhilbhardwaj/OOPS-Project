@@ -1,0 +1,27 @@
+Light-weight text mode menu- and window-driven audio player
+	
+orpheus is a light-weight text mode menu- and window-driven audio player
+application for cds and files in mp3 and vorbis ogg format.  brief list
+of its features is as follows:
+
+  * text mode user interface
+    + based on the ncurses library
+    + provides windows, menus and dialogs
+    + configurable color schemes
+    + configuration is done with dialogs
+  * player
+    + supports mp3 (through mpg123), ogg (with ogg123) and cd tracks
+    + saves and loads playlists
+    + provides quick access to recent lists played
+    + can combine cd, mp3 and ogg tracks in the same playlist
+    + edit mp3 and ogg id tags feature
+    + "repeat track", "repeat play list" and "random" play modes
+    + play list sorting and search options
+    + auto-generated currently_playing file which makes it possible to
+      easily find out from other applications what is playing now
+    + internal mixer controller
+    + command line interface for controlling an already running instance
+      of the program
+  * network
+    + cddb information retrieval for cds
+    + http proxy support

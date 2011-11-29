@@ -1,0 +1,22 @@
+Java api to biological data and applications
+	
+biojava is an open-source project dedicated to providing a java framework
+for processing biological data. it includes objects for manipulating
+sequences, file parsers, das client and server support, access to biosql
+and ensembl databases, and powerful analysis and statistical routines
+including a dynamic programming toolkit.
+
+biojava is provided by a vibrant community which meets annually at
+the bioinformatics open source conference (bosc) that traditionally
+accompanies the intelligent systems in molecular biology (ismb)
+meeting. much like bioperl, the employment of this library is valuable
+for everybody active in the field because of the many tricks of the
+trade one learns just by communicating on the mailing list.
+
+if using biojava, please cite: r.c.g. holland, t. down, m. pocock,
+a. prlić, d. huen, k. james, s. foisy, a. dräger, a. yates,
+m. heuer; m.j. schreiber (2008) "biojava: an open-source framework
+for bioinformatics" bioinformatics 24(18):2096-2097.
+
+this is a wrapper package which should enable smooth upgrades to new
+versions.

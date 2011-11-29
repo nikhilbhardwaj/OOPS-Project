@@ -1,0 +1,10 @@
+Module to add new syntax to perl
+	
+devel::declare can install subroutines called declarators which locally take
+over control of perl's parser, allowing the creation of new syntax, including
+keywords and other constructs that might not be, in themselves, valid perl 5
+code.
+
+this module can be used for adding new keywords, completely in perl code. it
+allows a subroutine to be executed during the perl code compilation, meaning
+that syntax can be transformed into equivalent code for perl on-the-fly.

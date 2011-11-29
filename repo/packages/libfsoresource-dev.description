@@ -1,0 +1,7 @@
+Development files for libfsoresource
+	
+this c library contains classes useful for interfaceing with the fso
+resource system.  it is based on glib-2.0. vala bindings are available.
+
+this package offers files required for the development of new programs
+with this library and should not be required for using the phone.

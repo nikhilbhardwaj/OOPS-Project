@@ -1,0 +1,27 @@
+Mirbsd korn shell
+	
+mksh is the mirbsd enhanced version of the public domain korn
+shell (pdksh), a bourne-compatible shell which is largely similar
+to the original at&t korn shell; mksh is the only pdksh derivate
+currently being actively developed.
+it includes bug fixes and feature improvements, in order to produce a
+modern, robust shell good for interactive and especially script use.
+mksh has utf-8 support (in substring operations and the emacs editing
+mode) and, while r39c corresponds to openbsd 4.6-current ksh (without
+gnu bash-like ps1 and fancy character classes), adheres to susv4 and
+is much more robust.
+the code has been cleaned up and simplified, bugs fixed, standards
+compliance added, and several enhancements (for extended
+compatibility to other modern shells – as well as a couple of its
+own) are available.
+this shell is debian policy 10.4 compliant and may be used as /bin/sh
+on debian systems.
+
+the mksh-static binary is a version of mksh, linked against dietlibc
+(if dietlibc exists for that debian architecture), and optimised for
+small code size, for example for use on initrd or initramfs images,
+installation or rescue systems.
+
+a sample ~/.mkshrc is included in /usr/share/doc/mksh/examples and
+provided as /etc/mkshrc conffile, which is sourced by another file
+/etc/skel/.mkshrc users are recommended to copy into their home.

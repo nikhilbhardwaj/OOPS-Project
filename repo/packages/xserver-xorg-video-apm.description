@@ -1,0 +1,12 @@
+X.org x server -- apm display driver
+	
+this package provides the driver for the alliance pro motion family
+of video cards; specifically, the 6420, 6422, at24, at25, and at3d
+cards.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xf86-video-apm driver module.

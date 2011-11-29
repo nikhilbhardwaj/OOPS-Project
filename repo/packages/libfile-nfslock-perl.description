@@ -1,0 +1,9 @@
+Perl module to do nfs (or not) locking
+	
+program based on the concept of hard linking of files being atomic across
+nfs. this concept was mentioned in mail::box::locker. some ideas are
+taken from there -- particularly the idea of creating a random local file,
+hard linking a common file to the local file, and then checking the nlink
+status.
+
+file::nfslock was written to be light, generic, and fast.

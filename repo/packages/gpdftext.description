@@ -1,0 +1,14 @@
+Gtk+ text editor for ebook pdf files
+	
+gpdftext opens a simple text-based pdf file, typically
+intended for reading on an ebook reader and loads the
+text into a text editor window, autoformatting the text
+for long lines and paragraph breaks.
+
+gpdftext is useful when the downloaded pdf uses a small
+font or wastes a lot of space in the margins so that
+a plain text file would display in a more comfortable
+font.
+
+gpdftext supports spell checking and editor font selection
+and can save ascii content as pdf.

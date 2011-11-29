@@ -1,0 +1,4 @@
+Glib input, output and streaming library (fam module)
+	
+gio is the input, output and streaming api of glib. this package
+provides a fam file and directory monitoring backend for it.

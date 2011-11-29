@@ -1,0 +1,7 @@
+Perl parser and diff for subunit streams
+	
+subunit is a protocol for test activity serialisation deserialisation. this
+permits executing tests remotely, or saving the result of test runs for later
+introspection.
+
+the libsubunit-perl package contains the perl language support for subunit.

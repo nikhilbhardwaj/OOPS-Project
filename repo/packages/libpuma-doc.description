@@ -1,0 +1,9 @@
+Documentation for the puma scanner and parsers
+	
+libpuma is a library written in c++ for scanning and parsing c++
+code. it also does some semantic analysis.
+
+it was written to faciliate the development for tools, which manipulate
+and/or transfor c/c++ code.
+
+this package ships doxygen generated documentation for puma.

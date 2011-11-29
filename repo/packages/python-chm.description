@@ -1,0 +1,9 @@
+Python binding for chmlib
+	
+pychm is a package that provides python binding for jed wing's chmlib library.
+
+the chm package contains four modules, namely chm.chm, chm.chmlib,
+chm.extra and chm._chmlib, which provide access to the api implemented
+by the c library chmlib and some additional classes and functions.
+they are used to access ms-itss encoded files - compressed html help
+files (.chm).

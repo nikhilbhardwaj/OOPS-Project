@@ -1,0 +1,8 @@
+Olpc xo power management support daemon
+	
+the powerd daemon can function as an easily customizable replacement for ohmd
+(independent of x, dbus, and hald).  this package provides the powerd
+and olpc-switchd daemons, and related utilities.  the olpc-switchd daemon
+simply provides notifications about lid and switch events.  the powerd daemon
+controls display dimming, automatically putting an xo to sleep after a period
+of idleness, etc.

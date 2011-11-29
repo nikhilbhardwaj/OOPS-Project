@@ -1,0 +1,18 @@
+Debug symbols for libmemcached
+	
+libmemcached is a c and c++ client library to the memcached server
+(http://danga.com/memcached). it has been designed to be light on
+memory usage, thread safe, and provide full access to server side methods.
+
+a few notes on its design:
+
+
+  * synchronous and asynchronous support.
+  * tcp and unix socket protocols.
+  * a half dozen or so different hash algorithms .
+  * implementations of the new cas, replace, and append operators.
+  * man pages written up on entire api.
+  * implements both modulo and consistent hashing solutions.
+
+
+this package provides debug symbols.

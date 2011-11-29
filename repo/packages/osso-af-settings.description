@@ -1,0 +1,10 @@
+Pkg-config based registry for maemo directories
+	
+this package holds a pkg-config module file acting as a registry for
+various maemo directories.  it should be queried using pkg-config by
+applications which need to install files in these directories.
+
+for example, some directories are for hildon desktop plugins
+(hildondesktoplibdir), task navigator plugins
+(tasknavigatordesktopentrydir), status bar plugins
+(statusbardesktopentrydir), or home plugins (homedesktopentrydir).

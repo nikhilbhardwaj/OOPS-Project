@@ -1,0 +1,6 @@
+The eresi user interface
+	
+libui is the user interface of the eresi project based on readline.
+
+this package contains the development files provided by libui (the
+static library - i.e the .a file - and the libui headers).

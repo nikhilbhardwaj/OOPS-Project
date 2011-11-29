@@ -1,0 +1,11 @@
+Text-based multi-protocol instant messaging client
+	
+finch is a text/console-based, modular instant messaging client capable of
+using multiple networks at once. currently supported are:
+aim/icq, yahoo!, msn, irc, jabber/xmpp/google talk, napster, zephyr, gadu-gadu,
+bonjour, groupwise, sametime, silc, simple, qq, myspaceim, and mxit.
+
+some extra packages are suggested to use increased functionality:
+
+ * libx11-6
+   - to use the clipboard and/or toaster plugins.

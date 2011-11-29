@@ -1,0 +1,6 @@
+Python bindings to libcurl (debug extension)
+	
+this module provides the python bindings to libcurl. please refer to
+the libcurl documentation available in libcurl4-gnutls-dev debian package.
+
+this package contains the extension built for the python debug interpreter.

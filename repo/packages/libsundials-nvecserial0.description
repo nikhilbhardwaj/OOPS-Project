@@ -1,0 +1,6 @@
+Vector operations library (sundials library)
+	
+this package provides implementations for all vector operations
+defined by the generic nvector module in the table of operations for
+sundials (suit of nonlinear and differential/algebraic equation
+solvers).

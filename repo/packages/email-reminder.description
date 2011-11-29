@@ -1,0 +1,12 @@
+Send event reminders by email
+	
+email-reminder allows users to define events that they want to be reminded of
+by email.  possible events include birthdays, anniversaries and yearly events.
+reminders can be sent on the day of the event and/or a few days beforehand.
+
+this package includes the cron job that checks for events and send reminders
+once a day, and a simple gui allowing users to edit the reminders they want to
+receive.
+
+make sure you install the anacron package if your computer is turned off at
+night or the reminders will never get sent.

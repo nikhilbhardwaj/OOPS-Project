@@ -1,0 +1,4 @@
+PackageId:33223
+Name:tryton-modules-stock-location-sequence
+Version:1.6.0-1
+Deps:python,python-pkg-resources,python-support,tryton-modules-party,tryton-modules-product,tryton-modules-purchase,tryton-modules-stock,tryton-server

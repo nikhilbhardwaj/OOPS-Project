@@ -1,0 +1,15 @@
+Latex document processing framework in python
+	
+plastex is a collection of python frameworks that allow you to process latex
+documents. this processing includes, but is not limited to, conversion of
+latex documents to various document formats. of course, it is capable of
+converting to html or xml formats such as docbook  and tbook, but it is an
+open framework that allows you to drive any type of rendering. this means that
+it could be used to drive a com object that creates a ms word document.
+
+the plastex framework allows you to control all of the processes including
+tokenizing, object creation, and rendering through api calls. you also have
+access to all of the internals such as counters, the states of "if" commands,
+locally and globally defined macros, labels and references, etc. in essence,
+it is a latex document processor that gives you the advantages of an xml
+document in the context of a language as superb as python.

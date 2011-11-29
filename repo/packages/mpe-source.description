@@ -1,0 +1,7 @@
+Source for mpe, for other package to build-depend
+	
+this package includes the source to mpe, so that
+other package can build mpe build-depending in this package.
+
+mpe is a set of tools to profile mpi (message passing interface) programs,
+and other tools, useful in debugging mpi applications.

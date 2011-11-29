@@ -1,0 +1,14 @@
+Object-oriented c++ networking library
+	
+libassa is an object-oriented c++ networking library based on adaptive
+communication patterns. it features a simplistic implementation of the set
+of communication patterns such as service configurator, reactor, acceptor,
+connector, and others described in various papers published by
+dr. d. c. schmidt.
+
+libassa happily co-exists with other frameworks such as gui toolkits and
+various corba implementations
+
+this package contains the header files and static libraries which are
+needed for developing applications and a program that generates
+skeleton files for rad development with assa library.

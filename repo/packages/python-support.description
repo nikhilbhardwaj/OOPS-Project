@@ -1,0 +1,10 @@
+Automated rebuilding support for python modules
+	
+this package contains the 'update-python-modules' script, which takes
+care of byte-compilation of python-only modules.
+
+private modules are automatically rebuilt upon major python upgrades,
+avoiding the need for strong dependencies.
+
+public modules are automatically made available for all installed
+python versions.

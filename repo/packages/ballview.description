@@ -1,0 +1,18 @@
+A free molecular modeling and molecular graphics tool
+	
+ballview provides fast opengl-based visualization of molecular structures,
+molecular mechanics methods (minimization, md simulation using the
+amber, charmm, and mmff94 force fields), calculation and visualization
+of electrostatic properties (fdpb) and molecular editing features.
+
+ballview can be considered a graphical user interface on the basis of
+ball (biochemical algorithms library), having taken the most common
+demands of protein chemists and biophysicists in particular taken into account.
+which is currently being developed in the groups of hans-peter lenhof
+(saarland university, saarbruecken, germany) and oliver kohlbacher
+(university of tuebingen, germany). ball is an application framework
+in c++ that has been specifically designed for rapid software
+development in molecular modeling and computational molecular biology.
+it provides an extensive set of data structures as well as classes
+for molecular mechanics, advanced solvation methods, comparison and
+analysis of protein structures, file import/export, and visualization.

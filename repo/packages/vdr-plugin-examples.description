@@ -1,0 +1,10 @@
+Plugins for vdr to show some possible features
+	
+video disk recorder (vdr) is a digital sat-receiver program using
+linux and dvb technologies. it allows one to record mpeg2 streams,
+as well as output the stream to tv.
+
+this package contains the example-plugins hello, osddemo, svccli,
+svcsvr, skincurses, status and svdrpdemo from the vdr-source.
+these plugins do not have useful features, they only demonstrate
+how vdr-plugins work and what is possible to do with them.

@@ -1,0 +1,11 @@
+Manage incremental data snapshots with make/rsync
+	
+mrb is a single, self-documenting, executable makefile, which aims to make
+trivial the task of maintaining a set of compact, incremental, rsync mirrors
+of your important (and sometimes rapidly changing) data.
+
+it relies only on the time-hardened industry tools gnu make and rsync.
+snapshots may be taken at any opportune interval.  multiple snapshot targets
+can be configured in a modular fashion, so fast changing data can be separated
+from static bulk data, with snapshots of each scheduled or triggered on demand,
+as may be appropriate for each.

@@ -1,0 +1,16 @@
+Collect powerups and avoid your opponents' trails
+	
+heroes is similar to the "tron" and "nibbles" games of yore, but includes
+many graphical improvements and new game features.  in it, you must maneuver
+a small vehicle around a world and collect powerups while avoiding obstacles,
+your opponents' trails, and even your own trail.
+
+several styles of play are available, including "get-all-the-bonuses",
+deathmatch, and "squish-the-pedestrians".  all game styles can be played
+in both single-player and two-player (split-screen) modes.
+
+you should install the heroes-sound-effects package if you want sound effects,
+and the heroes-sound-tracks package if you want background music in the game.
+
+this package contains a small number of common files for the ggi and sdl
+versions of heroes.

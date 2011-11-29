@@ -1,0 +1,14 @@
+A common lisp compiler and development system
+	
+sbcl is a development environment for the ansi common lisp language.
+it provides a native-code compiler and an integrated debugger, as well
+as all the features in the ansi specification.
+
+sbcl also contains other extensions to the ansi specification, including
+a foreign-function interface, a pseudo-server api, user-extensible
+stream functionality, a meta-object protocol, and an ability to run
+external processes.
+
+to browse sbcl source definitions with development environments,
+install the sbcl-source package. for documentation on sbcl's usage
+and internals, the package sbcl-doc is provided.

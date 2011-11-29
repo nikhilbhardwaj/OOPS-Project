@@ -1,0 +1,8 @@
+Query object framework - api documentation
+	
+qof is a framework to allow the execution of sql-type queries
+using collections of in-memory objects as tables.
+
+this package provides the documentation of the qof
+api produced using doxygen in
+/usr/share/doc/libqof-doc/html/

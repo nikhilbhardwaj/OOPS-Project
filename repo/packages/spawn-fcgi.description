@@ -1,0 +1,13 @@
+A fastcgi process spawner
+	
+spawn-fcgi allows fcgi processes to be separated from web server process :
+
+  * easy creation of chmoded socket.
+  * privilege separation without needing a suid-binary,
+    or running a server as root.
+  * you can restart your web server and the fastcgi applications
+    without restarting the others.
+  * you can run them in different chroot()s.
+  * running your fastcgi applications doesn’t depend on the web server
+    you are running, which allows for easier testing of/migration
+    to other web servers.

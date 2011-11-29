@@ -1,0 +1,9 @@
+Ldap schema files for the glue schema
+	
+the glue specification is an information model for grid entities such
+as computing clusters and data storage facilities. as a conceptual
+model, it is designed to be independent from the concrete data models
+adopted for its implementation. the specification can be rendered to
+several concrete data models such as xml schema, ldap schema or sql.
+
+this package provides ldap schema files for glue schema version 2.0.

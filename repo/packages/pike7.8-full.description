@@ -1,0 +1,8 @@
+Metapackage for pike 7.8
+	
+this package depends on all the components that make up the pike
+language distribution. it will pull in a lot of packages the
+pike components depend upon (including xfree libraries, gtk+, gnome)!
+
+pike is an interpreted programming language, for more information
+see the description of the pike7.8-core package.

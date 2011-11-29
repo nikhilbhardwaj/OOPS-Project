@@ -1,0 +1,7 @@
+Jifty plugin to a add dynamic ldap authorization
+	
+jifty::plugin::authzldap is a jifty plugin and provides ldap authorization
+with filters table and cache.
+
+you can use jifty::plugin::authzldap->ldapvalidate($user,'is_admin') in your
+dispatcher and update 'is_admin' ldap filter in your application.

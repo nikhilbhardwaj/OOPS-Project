@@ -1,0 +1,10 @@
+Human-readable unit-aware calculator
+	
+math::calc::units is a simple calculator that keeps track of units. it only
+handles combinations of byte sizes and duration only, though adding any other
+multiplicative types is easy. any unknown type is treated as a unique user
+type (with some effort to map english plurals to their singular forms).
+
+the included 'ucalc' program prints out all of the "readable" variants of a
+value. for example, "3 bytes" will only produce "3 byte", but "3 byte/sec"
+produces the original along with "180 byte/minute", etc.

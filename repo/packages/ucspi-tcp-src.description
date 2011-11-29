@@ -1,0 +1,23 @@
+Source only package for building ucspi-tcp binary package
+	
+written by dan j. bernstein, tcpclient and tcpserver are
+powerful easy-to-use command-line tools for building tcp
+client-server applications. tcpserver provides tcp access control
+features, similar to tcp-wrappers/tcpd's hosts.allow but much
+faster; it can run high-availability services much better than
+inetd.
+
+real-time blocking list support is also included in tcpserver, so
+you can run qmail-smtpd with it and avoid a lot of spam.
+
+tcpclient and tcpserver conform to ucspi, the unix client-server
+program interface, using the tcp protocol.
+
+dan bernstein (ucspi-tcp's author) only gives permission for his code
+to be distributed in source form, or binary by approval.  this package
+has been put together to allow people to easily build a binary
+package for themselves, from source.
+
+if there is a package called ucspi-tcp available, then dan has approved the
+binary version of the package for distribution, so you might as well install
+that and save yourself some effort.

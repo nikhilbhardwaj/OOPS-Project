@@ -1,0 +1,10 @@
+Backport of the enhanced unittest testing framework in python 2.7
+	
+unittest2 is an enhanced version of unittest including a
+standard test runner (automatic test discovery), class and
+module level fixtures (``setupclass`` / ``setupmodule`` etc),
+many powerful new assert methods, better resource management
+with ``addcleanups`` and a host of other new features. these new
+features are *all* going into the python version of unittest in
+python 2.7 and python 3.2. the point of unittest2 is that it
+works with python 2.4 - 2.6; you can use it now.

@@ -1,0 +1,9 @@
+Dns service discovery (dns-sd) for pike
+	
+this pike module enables one to take advantage of dns service discovery.
+
+dns service discovery is a way of using standard dns programming interfaces,
+servers, and packet formats to browse the network for services.
+
+pike is an interpreted programming language, for more information
+see the description of the pike7.8-core package.

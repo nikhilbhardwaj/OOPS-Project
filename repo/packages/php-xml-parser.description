@@ -1,0 +1,14 @@
+Php pear module for parsing xml
+	
+this is an xml parser based on phps built-in xml extension.
+it supports two basic modes of operation: 'func' and 'event'.
+in 'func' mode, it will look for a function named after each element
+(xmltag_element for start tags and xmltag_element_ for end tags),
+and in 'event' mode it uses a set of generic callbacks.
+
+since version 1.2.0 there's a new xml_parser_simple class
+that makes parsing of most xml documents easier, by automatically
+providing a stack for the elements.
+furthermore its now possible to split the parser from the handler object,
+so you do not have to extend xml_parser anymore in order to parse
+a document with it.

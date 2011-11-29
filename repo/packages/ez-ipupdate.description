@@ -1,0 +1,14 @@
+Client for most dynamic dns services
+	
+ez-ipupdate is a quite complete client for the dynamic dns service offered
+by http://www.ez-ip.net/ and many more.
+
+currently supported are: ez-ip (http://www.ez-ip.net/), penguinpowered
+(http://www.penguinpowered.com/), dhs (http://members.dhs.org/),
+dyndns (http://members.dyndns.org/), ods (http://www.ods.org/),
+tzo (http://www.tzo.com/), easydns (http://members.easydns.com/),
+justlinux (http://www.justlinux.com), dyns (http://www.dyns.cx),
+hn (http://dup.hn.org/), zoneedit (http://www.zoneedit.com/) and
+hurricane electric's ipv6 tunnel broker (http://ipv6tb.he.net/).
+
+all services using gnudip are also supported.

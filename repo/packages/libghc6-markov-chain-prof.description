@@ -1,0 +1,11 @@
+Markov chains for random sequence generation; profiling libraries
+	
+this package provides a library for the haskell programming language
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this library can be used to generate random sequences with a behaviour
+adapted to some training data. the algorithm analyses your input/training
+data with respect to how likely a given letter follows another one, then
+on recomposition it chooses subsequent letters randomly according to the
+frequencies found in the training data.

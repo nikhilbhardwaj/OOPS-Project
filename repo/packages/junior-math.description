@@ -1,0 +1,11 @@
+Debian jr. educational math
+	
+this metapackage will install educational math programs suitable for
+children.  some of the packages use mathematics that is well beyond
+the abilities of young children (e.g. fractals and cryptography), but
+hopefully using these let them gain an appreciation of the beauty of
+math from an early age.  other packages allow children to explore and
+learn math concepts in an engaging, interactive way.  some packages
+are more general, providing math activities as only one part of the
+package, e.g. bsdgames includes "arithmetic" in addition to other
+non-math games, and x11-apps provides xcalc.

@@ -1,0 +1,18 @@
+Ocaml libraries for managing packages and their dependencies
+	
+dose2 is a framework made of several ocaml libraries for managing
+distribution packages and their dependencies.
+
+though not tied to any particular distribution, dose2 constitutes a
+pool of libraries which enable injecting packages coming from various
+distribution. companion libraries (e.g. ceve) and tools (e.g.
+pkglab) rely on dose2 to manage packages coming from various
+distributions, e.g. debian and red hat.
+
+besides basic functionalities for querying and setting package
+properties, dose2 also implements algorithms for solving more complex
+problems (monitoring package evolutions, correct and complete
+dependency resolution, repository-wide uninstallability checks).
+
+this package contains the runtime stuff you need to run programs using
+dose2.

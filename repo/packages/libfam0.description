@@ -1,0 +1,7 @@
+Client library to control the fam daemon
+	
+fam monitors files and directories, notifying interested applications
+of changes.
+
+this package provides a shared library to allow programs to connect to
+the fam daemon and ask for files to be monitored.

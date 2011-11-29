@@ -1,0 +1,6 @@
+C++ library to connect to postgresql
+	
+c++ library to enable user programs to communicate with
+the postgresql database back-end. the database back-end can
+be local or it may be on another machine, accessed via
+tcp/ip. this package obsoletes the libpqpp package.

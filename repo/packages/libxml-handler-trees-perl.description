@@ -1,0 +1,15 @@
+Perl module for building tree structures using perlsax handlers
+	
+the xml::handler::trees module provides three perlsax handler classes for
+building tree structures.  xml::handler::tree builds the same type of tree
+as the "tree" style in xml::parser.  xml::handler::easytree builds the same
+type of tree as the "easytree" style added to xml::parser by
+xml::parser::easytree.  xml::handler::treebuilder builds the same
+type of tree as sean m. burke's xml::treebuilder.  these classes make
+it possible to construct these tree structures from sources other
+than xml::parser.
+
+all three handlers can be driven by either perlsax 1 or perlsax 2
+drivers.  in all cases, the end_document() method returns a reference
+to the constructed tree, which normally becomes the return value of
+the perlsax driver.

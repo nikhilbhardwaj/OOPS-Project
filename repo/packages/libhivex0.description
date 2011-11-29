@@ -1,0 +1,10 @@
+Library for reading and writing windows registry hives
+	
+libhivex is a self-contained library for reading and writing windows
+registry "hive" binary files.
+
+unlike many other tools in this area, it doesn't use the textual .reg
+format for output, because parsing that is as much trouble as parsing
+the original binary format. instead it makes the file available
+through a c api, or there is a separate program to export the hive as
+xml.

@@ -1,0 +1,7 @@
+Maintain multipath block device access
+	
+these tools are in charge of maintaining the disk multipath device maps and
+react to path and map events.
+
+if you install this package you may have to change the way you address block
+devices. see readme.debian for details.

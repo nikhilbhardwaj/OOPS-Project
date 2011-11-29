@@ -1,0 +1,11 @@
+Chinese module of latex cjk
+	
+cjk is a macro package for latex.  this package gives you the possibility
+to include chinese (traditional and simplified) text in your (la)tex documents.
+
+install hbf-jfs56 if you want to use bitmap fonts in simplified chinese.
+install hbf-cns40-b5 if you want bitmap fonts in traditional chinese.
+install hbf-cns40-[1-7] if you want cef bitmap fonts.  this is only needed
+if you need extremely rare and exotic chinese characters.
+
+have a look at latex-cjk-common for a more detailed description.

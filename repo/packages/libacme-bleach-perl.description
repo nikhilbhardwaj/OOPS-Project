@@ -1,0 +1,9 @@
+Perl module for really clean programs
+	
+the first time you run a program under use acme::bleach, the module removes all
+the unsightly printable characters from your source file.
+
+this package also installs the acme::dwim and acme::morse modules. acme::dwim
+replaces all the unsightly operators et al. from your source file with the new
+dwim operator: ... (pronounced "yadda yadda yadda"). acme::morse converts your
+program to morse code.

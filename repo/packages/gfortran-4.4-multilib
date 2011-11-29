@@ -1,0 +1,4 @@
+PackageId:5324
+Name:gfortran-4.4-multilib
+Version:4.4.5-8
+Deps:gcc-4.4-base,gcc-4.4-multilib,gfortran-4.4,lib32gfortran3,lib64gfortran3,libn32gfortran3

@@ -1,0 +1,11 @@
+Code repository viewing component for horde framework
+	
+chora allows the viewing of local (to the server) rcs and cvs repositories
+as well as local and remote subversion repositories.  it is written
+completely in php and is a component of the horde project.
+
+currently, chora has feature parity with cvs-web and also includes a new
+feature, called visual branch viewing, that aims to make the concept of
+branches and branch histories less confusing.
+
+homepage http://www.horde.org/chora/

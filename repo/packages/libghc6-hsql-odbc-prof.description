@@ -1,0 +1,7 @@
+Unixodbc driver of the hsql profiling library for ghc6
+	
+hsql provides interfaces for haskell programmers to the postgresql,
+mysql, sqlite, and unixodbc database systems.  there is a generic
+abstract interface so that code can be used interchangeably with these
+database systems.  in this sense, it is similar to java's jdbc,
+python's db-api, or perl's dbi.

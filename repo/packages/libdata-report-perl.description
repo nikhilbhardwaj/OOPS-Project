@@ -1,0 +1,6 @@
+Framework for flexible reporting
+	
+data::report is a flexible, plugin-driven reporting framework. it
+makes it easy to define reports that can be produced in text, html and
+csv. textual ornaments like extra empty lines, dashed lines, and cell
+lines can be added in a way similar to html style sheets.

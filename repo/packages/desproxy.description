@@ -1,0 +1,15 @@
+Tunnel tcp traffic through a http proxy
+	
+http clients (web browsers) use http proxies to request web pages; the
+http server just forwards those request to the destination server. all
+the negotiation is done via the http protocol, which is designed just
+to carry http requests and no generic (tcp/ip) traffic. that is why you
+can't (normally) use internet applications beside your web server if
+you are behind a http proxy.
+
+that is what desproxy is good for. desproxy is a tcp tunnel, which
+means desproxy can forward tcp/ip traffic via a http proxy. desproxy
+uses a http/1.1 method (connect) to establish tcp/ip connections on
+demand. connect is used for ssl connections when accessing to secure
+sites, so if you can access sites that support ssl (www.hotmail.com for
+example) you can use desproxy.

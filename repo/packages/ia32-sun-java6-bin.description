@@ -1,0 +1,11 @@
+Sun java(tm) runtime environment (jre) 6 (32-bit)
+	
+the sun java platform standard edition runtime environment (jre) 6
+contains the java virtual machine, runtime class libraries, and
+java application launcher that are necessary to run programs written
+in the java progamming language. it is not a development environment and
+doesn't contain development tools such as compilers or debuggers.
+for development tools, see the java development kit jdk(tm) 6
+(package sun-java6-jdk).
+
+this package contains architecture dependent files for ia32.

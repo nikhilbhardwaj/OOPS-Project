@@ -1,0 +1,16 @@
+Platform independent web based javascript/html wysiwyg editor
+	
+tinymce is a platform independent web based javascript html wysiwyg editor
+control released as open source under lgpl by moxiecode systems ab. it has the
+ability to convert html textarea fields or other html elements to editor
+instances. tinymce is very easy to integrate into other content management
+systems.
+
+tinymce provides the following features:
+
+ * easy to integrate, takes only two lines of code.
+ * customizable through themes and plugins.
+ * customizable xhtml 1.0 output.
+ * block invalid elements and force attributes.
+ * international language support (language packs)
+ * multiple browser support, mozilla, msie, firefox, opera and safari

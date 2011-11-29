@@ -1,0 +1,11 @@
+A 3d fits data viewer specialized in spectro-imaging
+	
+cubeview is a viewer for 3d data store in fits files, a file format
+extensively used among astronomers. it is specialized in displaying
+spectro-imaging data but can be used to do basic visualization on any
+fits file containing a 3d array.
+
+cubeview features a stand-alone graphical user interface which
+adheres to the gtk+ look-and-feel. being written (mostly) in
+yorick, it is inherently scriptable. a system of hooks allows custom
+actions to be repeated automatically when certain events occur.

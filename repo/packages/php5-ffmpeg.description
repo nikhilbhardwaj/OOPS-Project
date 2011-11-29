@@ -1,0 +1,6 @@
+Audio and video support via ffmpeg for php5
+	
+provides access and retrieval of meta-data from all the movies and
+audio file formats supported by ffmpeg. extra features include retrieving and
+manipulating frames from video files that can later be also manipulated by
+php's own image functions.

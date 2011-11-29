@@ -1,0 +1,9 @@
+X.org x server -- ati r128 display driver
+	
+this driver for the x.org x server (see xserver-xorg for a further description)
+provides support for the ati rage 'r128' series.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-r128 driver module.

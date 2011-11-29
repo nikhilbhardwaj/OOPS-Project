@@ -1,0 +1,12 @@
+Nt sam password recovery utility
+	
+this little program provides a way to view information and
+change user passwords in a windows nt/2000 user database file.
+old passwords need not be known since they are overwritten.
+in addition it also contains a simple registry editor
+(same size data writes) and an hex-editor which enables you to
+fiddle around with bits and bytes in the file as you wish.
+
+if you want gnu/linux bootdisks for offline password recovery
+you can add this utility to custom image disks or use those provided
+at the tools homepage.

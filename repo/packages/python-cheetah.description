@@ -1,0 +1,23 @@
+Text-based template engine and python code generator
+	
+cheetah can be used as a standalone templating utility or referenced as a
+library from other python applications. it has many potential uses, but web
+developers looking for a viable alternative to asp, jsp, php and psp are
+expected to be its principle user group.
+
+features:
+
+ * generates html, sgml, xml, sql, postscript, form email, latex, or any other
+   text-based format.
+ * cleanly separates content, graphic design, and program code.
+ * blends the power and flexibility of python with a simple template language
+   that non-programmers can understand.
+ * gives template writers full access to any python data structure, module,
+   function, object, or method in their templates.
+ * makes code reuse easy by providing an object-orientated interface to
+   templates that is accessible from python code or other cheetah templates.
+   one template can subclass another and selectively reimplement sections of
+   it.
+ * provides a simple, yet powerful, caching mechanism that can dramatically
+   improve the performance of a dynamic website.
+ * compiles templates into optimized, yet readable, python code.

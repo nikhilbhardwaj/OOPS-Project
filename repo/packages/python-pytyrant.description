@@ -1,0 +1,13 @@
+Pure python client implementation of the tokyo tyrant protocol
+	
+a pure python client implementation of the binary tokyo tyrant
+protocol. tokyo cabinet <http://tokyocabinet.sourceforge.net/> is a "super
+hyper ultra database manager" written and maintained by mikio hirabayashi and
+released under the lgpl.
+
+tokyo tyrant is the de facto database server for tokyo cabinet written and
+maintained by the same author. it supports a rest http protocol, memcached,
+and its own simple binary protocol. this library implements the full binary
+protocol for the tokyo tyrant 1.1.17 in pure python as defined here::
+
+http://tokyocabinet.sourceforge.net/tyrantdoc/

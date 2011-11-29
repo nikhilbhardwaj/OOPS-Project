@@ -1,0 +1,11 @@
+Mpi parallel computing system implementation, shmem version
+	
+mpich is a robust and flexible implementation of the mpi (message passing
+interface).  mpi is often used with parallel or distributed computing
+projects.  mpich is a multi-platform, configurable system (development,
+execution, libraries, etc) for mpi.  it can achieve parallelism using
+networked machines or using multitasking on a single machine.
+
+this version is compiled with ch_shmem support, which runs in shared memory.
+this method is faster than ch_p4 or ch_p4mpd on smp machines, but cannot be
+used on a cluster.

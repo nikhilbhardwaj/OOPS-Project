@@ -1,0 +1,7 @@
+Dvd+-rw/r tools (debug)
+	
+dvd+rw-tools makes it possible to burn dvd images created by dvdauthor or
+genisoimage to dvd+r, dvd+rw, dvd-r, and dvd-rw disks, replacing
+cdrecord-prodvd in many cases.
+
+this package contains the debugging symbols.

@@ -1,0 +1,6 @@
+Ncbi libraries for biology applications (x-based utilities)
+	
+this package includes some x-based utilities distributed with the
+ncbi c sdk: cn3d, network entrez, sequin, ddv, and udv.  these
+programs are not part of ncbi-tools-bin because they depend on
+several additional library packages.

@@ -1,0 +1,12 @@
+Prints round cd-labels
+	
+cd-circleprint is a program to create round cd-labels written in perl,
+using perl-tk to produce a graphical frontend. the
+labels have four lines of nice curved text and an additional four
+fields with normal text. each field has selectable text-size, font and
+colour. the background colour is also selectable. the label may also have
+a background image.
+you can squeeze the whole page if your printer doesn't generate correct
+circles and you can move the two labels on the sheet to accommodate
+different types of label sheets.
+the output is postscript to make it as portable as possible.

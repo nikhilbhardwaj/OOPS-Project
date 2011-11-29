@@ -1,0 +1,5 @@
+Parrot development tools
+	
+this package contains development tools for the parrot virtual machine. it is
+essential for developing language implementations to run on parrot, but not
+needed for running languages once they've been installed.

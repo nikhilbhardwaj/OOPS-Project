@@ -1,0 +1,11 @@
+Support files for the multi emulator super system
+	
+xmess is the unix port of the multi emulator super system. it is
+similar in spirit to xmame, with the difference being that xmess
+emulates consoles and computers instead of arcade machines.
+
+you need the roms of the system you want as well as software.
+
+this package provides support files such as crcs for software,
+more information for the systems emulated and more.
+to get the actual emulator, install the xmess-x package.

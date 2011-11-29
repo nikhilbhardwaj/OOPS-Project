@@ -1,0 +1,9 @@
+Perl module to transform strings into datetime objects
+	
+datetime::format::flexible is designed to transform arbitrary date/time
+strings into datetime objects. it is currently able to parse and extract date
+information from over 2500 variations of date/time strings.
+
+although this module is similar in nature to datetime::format::natural (see
+libdatetime-format-natural-perl), it currently fails to parse more than 2000
+of the formats successfully parsed by this module.

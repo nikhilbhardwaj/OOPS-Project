@@ -1,0 +1,17 @@
+Whole-genome association analysis toolset
+	
+plink expects as input the data from snp (single
+nucleotide polymorphism) chips of many individuals
+and their phenotypical description of a disease.
+it finds associations of single or pairs of dna
+variations with a phenotype and can retrieve
+snp annotation from an online source.
+
+snps can evaluated individually or as pairs for their
+association with the disease phenotypes. the joint
+investigation of copy number variations is supported.
+a variety of statistical tests have been implemented.
+
+please note: the executable was renamed to p-link
+because of a name clash.  please read more about this
+in /usr/share/doc/readme.debian.

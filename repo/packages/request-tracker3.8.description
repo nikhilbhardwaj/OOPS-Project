@@ -1,0 +1,28 @@
+Extensible trouble-ticket tracking system
+	
+request tracker (rt) is a ticketing system which
+enables a group of people to intelligently and efficiently manage
+tasks, issues, and requests submitted by a community of users. it
+features web, email, and command-line interfaces (see the package
+rt3.8-clients).
+
+this package provides the 3.8 series of rt. it can be installed alongside
+the 3.6 series without any problems.
+
+rt is a high-level, portable, platform independent system that eases
+collaboration within organizations and makes it easy for them to take care
+of their customers.
+
+rt manages key tasks such as the identification, prioritization,
+assignment, resolution, and notification required by
+enterprise-critical applications, including project management, help
+desk, noc ticketing, crm, and software development.
+
+this package provides the core of rt.
+
+this package supports three database types out of the box: mysql,
+postgresql and sqlite. in order to support a zero-configuration install,
+sqlite will be used by default, but is not recommended for production
+use. please see /usr/share/doc/request-tracker3.8/notes.debian for more
+details and consider installing rt3.8-db-postgresql or rt3.8-db-mysql at
+the same time as this package.

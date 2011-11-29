@@ -1,0 +1,4 @@
+A basic icecast source client for audio and video streaming
+	
+oggfwd is a simple source client to forward an ogg file to an icecast 2
+streaming server. it forwards audio or video ogg files read from stdin.

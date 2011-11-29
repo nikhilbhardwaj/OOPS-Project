@@ -1,0 +1,4 @@
+PackageId:7327
+Name:icinga-cgi
+Version:1.0.2-2
+Deps:adduser,apache2-utils,coreutils,debconf,debconf-2.0,cdebconf,cdebconf-udeb,icinga-common,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgd2-noxpm,libgd2-xpm,libjpeg62,libjs-mootools,libjs-prototype,libjs-scriptaculous,libpng12-0,ucf,zlib1g

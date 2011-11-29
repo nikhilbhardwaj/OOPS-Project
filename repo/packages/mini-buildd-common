@@ -1,0 +1,4 @@
+PackageId:24492
+Name:mini-buildd-common
+Version:0.8.15+nmu1
+Deps:adduser,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,bsd-mailx,mailx,heirloom-mailx,mailutils,debconf,debconf-2.0,cdebconf,cdebconf-udeb,gnupg,openssh-client,sbuild,wget

@@ -1,0 +1,25 @@
+Alsa wrapper for oss applications
+	
+this package contains a program loader, aoss, which wraps
+applications written for oss in a compatibility library,
+thus allowing them to work with alsa.
+
+there are two ways of getting an application to work with
+alsa if the application was written for oss. the first way
+is to load the special alsa drivers that emulate the oss
+kernel interface; these allow the application to open
+/dev/dsp0 and other oss device files. the second way is
+to wrap the application in the libaoss library provided
+in this package; the wrapper causes the application to
+access native alsa device files such as /dev/snd/pcmc0d0c
+instead of oss device files.
+
+use of the alsa-oss library is recommended over the use of
+oss-emulation drivers if you want to use alsa's pcm plugin
+layer.
+
+alsa is the advanced linux sound architecture:
+
+    http://alsa.sourceforge.net
+
+oss is the free version of the open sound system.

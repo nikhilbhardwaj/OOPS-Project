@@ -1,0 +1,5 @@
+Sends ip and/or arp pings (to the mac address)
+	
+the arping utility sends arp and/or icmp requests to the specified host
+and displays the replies. the host may be specified by its hostname,
+its ip address, or its mac address.

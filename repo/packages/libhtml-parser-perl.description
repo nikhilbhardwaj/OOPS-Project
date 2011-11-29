@@ -1,0 +1,10 @@
+Collection of modules that parse html text documents
+	
+html::parser is a collection of modules useful for handling html documents.
+these modules used to be part of the libwww-perl distribution, but are now
+unbundled in order to facilitate a separate development track.
+
+objects of the html::parser class will recognize markup and separate it from
+content data. as different kinds of markup are recognized, the corresponding
+event handler is invoked. the document to be parsed may also be supplied in
+arbitrary chunks, making on-the-fly parsing of network documents possible.

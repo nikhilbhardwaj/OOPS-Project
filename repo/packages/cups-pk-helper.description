@@ -1,0 +1,6 @@
+Policykit helper to configure cups with fine-grained privileges
+	
+this package provides a policykit helper to configure cups with
+fine-grained privileges. for example, it's possible to let users
+enable/disable printers without requiring a password, while still
+requiring a password for editing printer settings.

@@ -1,0 +1,10 @@
+A perl class for creating pod to wiki filters
+	
+the pod::simple::wiki module is used for converting pod text to wiki text.
+
+pod (plain old documentation) is a simple markup language used for writing
+perl documentation.
+
+a wiki is a user extensible web site. it uses very simple mark-up that is
+converted to html. for an introduction to wikis see:
+http://en.wikipedia.org/wiki/wiki

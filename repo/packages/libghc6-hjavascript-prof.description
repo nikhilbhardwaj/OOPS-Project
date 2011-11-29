@@ -1,0 +1,12 @@
+Haskell abstract syntax for a subset of javascript - ghc 6 profiling libraries
+	
+hjavascript defines a haskell abstract syntax and pretty printer for a
+subset of javascript. however, a significant difference from javascript
+is that hjavascript is typed, even on the abstract syntax level using
+gadts. the subset of javascript that is supported is those parts that
+lend themself to typing (i.e. no prototyping of classes).
+
+if you don't know what haskell and all these concepts are, you can just
+ignore this package.
+
+this package contains the profiling libraries compiled for ghc 6.

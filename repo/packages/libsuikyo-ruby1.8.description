@@ -1,0 +1,6 @@
+Romaji hiragana conversion library (ruby-binding)
+	
+suikyo is a romaji hiragana conversion library based on
+dfa (deterministic finate state) automaton.
+
+this package contains ruby1.8 binding of suikyo.

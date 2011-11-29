@@ -1,0 +1,16 @@
+Fixed point computation for octave
+	
+when implementing algorithms in hardware, it is common to reduce the
+accuracy of the representation of numbers to a smaller number of bits.
+this allows much lower complexity in the hardware, at the cost of
+accuracy and potential overflow problems. such representations are
+known as fixed point.
+
+this package supplies a fixed point type that allows octave, a
+numerical computational software, to model the effects of such a
+reduction in accuracy of the representation of numbers.  the major
+advantage of this package is that with correctly written octave
+scripts, the same code can be used to test both fixed and floating
+point representations of numbers.
+
+this octave add-on package is part of the octave-forge project.

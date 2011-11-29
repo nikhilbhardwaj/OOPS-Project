@@ -1,0 +1,9 @@
+Pdf and ps manipulation for printing needs
+	
+converts pdf and ps files to new pdf and ps documents with several
+sheets on the same page, or with resized or rotated sheets. it also
+can generate a book ready to print.
+
+it acts as a graphical frontend to psutils programs, like psnup and
+psbook, and runs viewers such as xpdf and gv for preview once the
+processing is done.  the gui is made in tcl/tk.

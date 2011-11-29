@@ -1,0 +1,6 @@
+Apache module for running asp.net applications on mono
+	
+the mod_mono module for apache allows asp.net web applications to be
+run with the mono .net implementation.
+
+this package provides the apache 2.2 version of the module.

@@ -1,0 +1,6 @@
+Django ldap authentication backend
+	
+django authentication backend that authenticates against an ldap
+service. configuration can be as simple as a single distinguished
+name template, but there are many rich configuration options for
+working with users, groups, and permissions.

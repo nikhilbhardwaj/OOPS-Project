@@ -1,0 +1,11 @@
+Cyrix/ibm 5x86/6x86 cpu configuration tool
+	
+allows one to modify the internal configuration registers in
+the 5x86 and 6x86 cpu. these include specifying non-cacheable
+memory areas (important for e.g. graphics cards), i/o delays,
+cache write policy (wb/wt), write-gathering, and also enable an
+automatic standby mode where a cpu "halt" instruction cuts down
+power by a factor of 70 (from 20 watts to 0.3 watts for the
+6x86 p133+) when the cpu is idle. especially the cpu power
+reduction cuts down on most temperature-related problems on
+many motherboards.

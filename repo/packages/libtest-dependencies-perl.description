@@ -1,0 +1,6 @@
+Module to verify dependencies listed in makefile.pl
+	
+test::dependencies makes sure that all of the modules that are 'use'd are
+listed in the makefile.pl as dependencies. target users are perl module
+authors who want to add a check if their makefile.pl lists all dependencies to
+their tests.

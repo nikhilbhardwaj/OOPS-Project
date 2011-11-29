@@ -1,0 +1,8 @@
+Code_saturne mathematical expression interpreter
+	
+mei stands for mathematical expression interpreter.
+it is intended to provide interpretation of mathematical formula in a string.
+it is destined to be used by scientific codes (computational fluid
+dynamics).
+
+this package contains the debugging symbols of the library.

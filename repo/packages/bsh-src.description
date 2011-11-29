@@ -1,0 +1,13 @@
+Java scripting environment (beanshell) version 2 (source code)
+	
+beanshell is a small, free, embeddable, java source interpreter with object
+scripting language features, written in java. beanshell executes standard java
+statements and expressions, in addition to obvious scripting commands and
+syntax.  beanshell supports scripted objects as simple method closures like
+those in perl and javascript(tm).
+
+you can use beanshell interactively for java experimentation and debugging or
+as a simple scripting engine for you applications.  in short: beanshell is a
+dynamically interpreted java, plus some useful stuff.
+
+this package contains the bsh source code.

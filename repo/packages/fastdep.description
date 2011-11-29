@@ -1,0 +1,6 @@
+Fast dependency generator for c/c++ files
+	
+efficiently generates dependency information for c and c++ files, suitable for
+inclusion in makefiles, and optionally generates dependency information for
+its own output. this can be used to create robust, fast and largely automated
+build rules.

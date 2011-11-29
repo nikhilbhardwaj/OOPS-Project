@@ -1,0 +1,6 @@
+A text renderer
+	
+it's a commandline text renderer. it will take text on the
+commandline or from a file and render it using antialiased truetype
+fonts, using optional font styles, word wrapping, justification and
+layout control.

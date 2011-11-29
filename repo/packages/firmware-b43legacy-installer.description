@@ -1,0 +1,10 @@
+Installer package for firmware for the b43legacy driver
+	
+this package installs the firmware needed for usage of the b43legacy kernel
+driver.
+
+supported chipsets:
+
+ - bcm4301
+ - bcm4303
+ - bcm4306/2

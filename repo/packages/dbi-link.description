@@ -1,0 +1,7 @@
+A partial implementation of sql/med to postgresql
+	
+dbi-link is a partial implementation of the sql/med (management of
+external data) portion of the sql:2003 specification to postgresql.
+
+it's possible connect in others dbms as mysql, oracle, firebird,
+sqlite, since that it is supported by perl/dbi.

@@ -1,0 +1,25 @@
+Plugins for the totem media player
+	
+totem is a simple yet featureful media player for gnome which can read
+a large number of file formats.
+
+this package contains a set of recommended plugins for totem, which
+allow to:
+
+
+   * annotate the screen with the gromit tool
+   * control totem with an infrared remote control
+   * control totem with the keyboard's media player keys
+   * keep the totem window on top of the screen
+   * display movie properties
+   * deactivate the screensaver when a movie is playing
+   * skip to a defined time in the movie
+   * set the away status in the instant messenger when a movie is
+     playing
+   * control totem with a mobile phone using the bluetooth protocol
+   * share the current playlist via http
+   * search, browse for and play videos from youtube
+   * search for videos using tracker
+
+
+additional plugins can be written in c, python or vala.

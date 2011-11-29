@@ -1,0 +1,15 @@
+Webdav module for lighttpd
+	
+the webdav module is a very minimalistic implementation of rfc 2518.
+minimalistic means that not all operations are implemented yet.
+
+currently supports:
+
+ get
+ post
+ head
+ propfind
+ options
+ mkcol
+ delete
+ put

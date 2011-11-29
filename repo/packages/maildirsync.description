@@ -1,0 +1,8 @@
+Simple and efficient maildir synchronisation utility
+	
+maildirsync is a utility for synchronising maildir folders between
+computers. it uses its own custom protocol for efficient
+communication, and uses ssh as its transport.
+
+
+ homepage: http://hacks.dlux.hu/maildirsync/

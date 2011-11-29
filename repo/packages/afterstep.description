@@ -1,0 +1,12 @@
+Window manager with the nextstep look and feel
+	
+afterstep is a window manager based on fvwm which attempts to emulate
+the nextstep look and feel, while retaining the configurability of its
+predecessor.  note that this window manager makes extensive use of the
+color palette.  if you have only an 8-bit color display, it will run
+as packaged, but you may want to modify the configuration to use fewer
+colors.
+
+afterstep is a continuation of the bowman window manager project, but
+the name was changed to reflect the desire that it do more than
+simply emulate and become a valuable window manager in its own right.

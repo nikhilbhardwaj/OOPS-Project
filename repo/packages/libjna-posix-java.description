@@ -1,0 +1,5 @@
+Basic posix-like functions for java
+	
+this package is a java library providing access to various
+posix functions like chmod(2), link(2) or getuid(2) through
+dynamic loading of native libraries with jna.

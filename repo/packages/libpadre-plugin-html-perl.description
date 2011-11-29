@@ -1,0 +1,5 @@
+Padre plugin for html support
+	
+the html plugin can be used to validate and tidy (x)html from within
+padre. it uses html::tidy to tidy html, and webservice::validator::html::w3c
+to validate it.

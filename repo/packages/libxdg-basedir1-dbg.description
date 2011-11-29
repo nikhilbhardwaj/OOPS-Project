@@ -1,0 +1,7 @@
+Implementation of the xdg base directory specifications (debugging symbols)
+	
+the xdg base directory specification defines where should user files be
+looked for by defining one or more base directories relative in with they
+should be located.
+
+this package contains the debugging symbols for the library.

@@ -1,0 +1,7 @@
+Television channel-scanner
+	
+this package provides a utility that can scan a channel set for tv
+stations and write the ones found in an xawtv configuration file
+(which is also read by some other utilities such as fbtv). it
+attempts to extract the station names from inter-frame (vbi) data
+as well.

@@ -1,0 +1,44 @@
+Tex live: tex auxiliary programs
+	
+various useful, but non-essential, support programs. includes programs and
+
+  macros for dvi file manipulation, literate programming, patgen, and the
+  tex works editor.
+
+
+this package includes the following ctan packages:
+
+ a2ping -- advanced ps, pdf, eps converter.
+ bibtex8 -- a fully 8-bit adaptation of bibtex 0.99.
+ ctie --
+ cweb -- a web system in c.
+ detex -- strip tex from a source file.
+ dtl -- tools to dis-assemble and re-assemble dvi files.
+ dvi2tty -- produce ascii from dvi.
+ dviasm -- a utility for editing dvi files.
+ dvicopy -- copy dvi files, flattening vfs.
+ dviljk -- dvi to laserjet output.
+ dvipos --
+ findhyph -- find hyphenated words in a document.
+ getnonfreefonts --
+ hyphenex -- generate a hyphenation exceptions file.
+ latex2man -- translate latex-based manual pages into unix man format.
+ listings-ext -- automated input of source.
+ mkind-english --
+ mkjobtexmf -- generate a texmf tree for a particular job.
+ patgen --
+ pdfcrop -- crop pdf graphics.
+ pdftools -- pdf-related utilities, including postscript-to-pdf conversion
+ pkfix -- replace pk fonts in postscript with type 1 fonts.
+ pkfix-helper -- make postscript files accessible to pkfix.
+ seetexk -- utiities for manipulating dvi files.
+ synctex --
+ texcount -- count words in a latex document.
+ texdiff -- compare documents and produce tagged merge.
+ texdirflatten -- collect files related to a latex job in a single
+  directory.
+ texloganalyser -- analyse tex logs.
+ texware -- utility programs for use with tex.
+ tie -- allow multiple web change files.
+ tpic2pdftex -- use tpic commands in pdftex.
+ web -- original web programs tangle and weave

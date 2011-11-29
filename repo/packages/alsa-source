@@ -1,0 +1,4 @@
+PackageId:226
+Name:alsa-source
+Version:1.0.23+dfsg-2
+Deps:bzip2,debconf,debconf-2.0,cdebconf,cdebconf-udeb,debconf-utils,debhelper,dpkg-dev,gcc,c-compiler,bcc,gcc-4.1,gcc-4.3,gcc-4.4,tcc,make

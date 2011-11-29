@@ -1,0 +1,17 @@
+Graphical music player daemon (mpd) client using gtk+2
+	
+gimmix is a graphical music player daemon (mpd) client using gtk+2.
+it's very simple and easy to use, yet offers many features to make your
+audio experience a pleasant one.
+
+features :
+
+ * simple and clean interface.
+ * library browser.
+ * library search. (search by artist, album, filename, etc)
+ * playlist management (manage mpd playlists)
+ * id3v2 tag editing support.
+ * system tray icon support.
+ * support for controlling gimmix through keyboard.
+ * notification support (displays the currently playing song in systray).
+ * small memory footprint.

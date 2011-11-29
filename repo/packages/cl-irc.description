@@ -1,0 +1,5 @@
+Common lisp internet relay chat library
+	
+cl-irc provides a library for common lisp programs to interact with
+irc servers. this library has been most tested with sbcl.
+several example programs are provided.

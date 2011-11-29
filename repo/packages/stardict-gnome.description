@@ -1,0 +1,10 @@
+International dictionary for gnome 2
+	
+stardict is a cross-platform and international dictionary written in
+gtk+ 2.x.  it has powerful features such as "glob-style pattern
+matching", "scan selection word", "fuzzy search", etc.
+
+this package is compiled with gnome 2 support and contains only the
+program of stardict and will be of limited use without the dictionary
+files. for more information about how to get the dictionary files,
+please read /usr/share/doc/stardict/readme.debian.

@@ -1,0 +1,9 @@
+Tableau write-blocking bridge query/command utility
+	
+the tableau-parm is an small command line utility designed to interact with
+tableau forensic write blockers. it performs functions similar to the tableau
+disk monitor.
+
+is designed to interact with write-blocking forensics bridges produced by
+tableau, llc. it can be used to query bridges for various bridge and device
+data, as well as to disable dco regions.

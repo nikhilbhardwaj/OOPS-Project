@@ -1,0 +1,7 @@
+Haskell library to convert latex to mathml - documentation
+	
+the texmath haskell library provides functions to convert latex math
+formulas to presentation mathml. it supports basic latex and ams
+extensions, but not macros.
+
+this package contains the library documentation.

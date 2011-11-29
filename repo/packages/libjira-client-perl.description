@@ -1,0 +1,7 @@
+Perl interface to jira's api
+	
+jira::client is a perl module that implements an object oriented wrapper
+around the soap api for jira - a bug tracking, issue tracking and project
+management system <url:http://www.atlassian.com/software/jira/>. moreover,
+it implements some other methods to make it easier to perform some common
+operations.

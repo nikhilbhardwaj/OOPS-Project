@@ -1,0 +1,10 @@
+The atk libraries and debugging symbols
+	
+atk is a toolkit providing accessibility interfaces for applications or
+other toolkits. by implementing these interfaces, those other toolkits or
+applications can be used with tools such as screen readers, magnifiers, and
+other alternative input devices.
+
+this package contains detached debugging symbols.
+
+most people will not need this package.

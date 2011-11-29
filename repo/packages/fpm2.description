@@ -1,0 +1,16 @@
+A password manager with gtk+ 2.x gui
+	
+figaro's password manager 2 (fpm2) is a program that allows you to securely
+store the passwords. passwords are encrypted with the aes-256 algorithm.
+
+if the password is for a web site, fpm2 can keep track of the urls of your
+login screens and can automatically launch your browser. in this capacity,
+fpm2 acts as a kind of bookmark manager. you can teach fpm2 to launch other
+applications, and optionally pass hostnames, usernames or passwords to the
+command line.
+
+fpm2 also has a password generator that can choose passwords for you.
+it allows you to determine how long the password should be, and what types
+of characters (lower case, upper case, numbers and symbols) should be used.
+you can even have it avoid ambiguous characters such as a capital o or the
+number zero.

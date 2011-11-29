@@ -1,0 +1,6 @@
+Bidi viewer - command-line tool displaying logical hebrew/arabic
+	
+bidiv is a simple utility for converting logical-hebrew input to visual-hebrew
+output. this is useful for reading hebrew mail messages, viewing hebrew texts,
+etc. it was written for hebrew but arabic (or other bidi languages) should
+work equally well.

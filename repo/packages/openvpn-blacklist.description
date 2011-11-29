@@ -1,0 +1,5 @@
+List of blacklisted openvpn rsa shared keys
+	
+contains the blacklist-checking tool "openvpn-vulnkey" as well as the common
+set of 2048-bit known-bad openvpn shared keys for openvpn-vulnkey to use
+when examining suspect keys.

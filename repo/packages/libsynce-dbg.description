@@ -1,0 +1,7 @@
+Helper library to sync windows mobile devices (debug symbols)
+	
+the purpose of the synce project is to provide a means of communication with
+a windows mobile, or windows ce, device from a computer running linux,
+freebsd or a similar operating system.
+
+this package contains debugging symbols for the shared object.

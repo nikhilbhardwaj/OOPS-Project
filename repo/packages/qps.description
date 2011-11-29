@@ -1,0 +1,7 @@
+Visual process status monitor
+	
+qps is a monitor that displays the status of the processes currently
+in existence, much like top(1) or ps(1).  the user interface uses the
+qt toolkit, and most operations should be fairly intuitive.
+
+homepage: http://qps.kldp.net/

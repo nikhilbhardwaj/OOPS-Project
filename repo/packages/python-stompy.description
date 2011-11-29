@@ -1,0 +1,9 @@
+Implementation of the stomp protocol in python
+	
+this is useful for connecting to and communicating with apache activemq
+(an open source java message service (jms) message broker) or other brokers
+with support for the stomp protocol.
+
+the majority of the methods available take a single argument; a dictionary.
+this dictionary should contain the necessary bits you need to pass to the
+stomp server.  it is outlined in each method exactly what it needs to work.

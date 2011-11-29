@@ -1,0 +1,20 @@
+Verify electronic mail addresses
+	
+'vrfy' is a tool to verify e-mail addresses and mailing lists.  in its
+simplest form it takes an address "user@domain", figures out the mx hosts
+for "domain", and issues the smtp command vrfy at the primary mx host
+(optionally all), or at "domain" itself if no mx hosts exist.  without
+"domain" it goes to "localhost".
+
+more complex capabilities are:
+
+ * recursively expanding forward files or mailing lists,
+ * detecting mail forwarding loops,
+ * understanding full-blown rfc822 address specifications,
+ * syntax checking that can be carried out either locally or remotely,
+ * various options provided to exploit alternative protocol suites
+   if necessary, and to print many forms of verbose output.
+
+
+obvious limitations exist (mostly due to a lousy vrfy command
+implementation on some hosts), but otherwise, it works pretty well.

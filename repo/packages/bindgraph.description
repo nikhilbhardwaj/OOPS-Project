@@ -1,0 +1,5 @@
+Dns statistics rrdtool frontend for bind9
+	
+bindgraph is a very simple dns statistics rrdtool frontend for
+bind9 that produces daily, weekly, monthly and yearly graphs of
+the dns server's activity (queries, errors, etc.).

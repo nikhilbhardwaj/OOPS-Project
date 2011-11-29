@@ -1,0 +1,12 @@
+Support booting from multipath devices
+	
+this package contains the necessary support for booting from a multipath
+device:
+
+
+ * copy over multipath.conf and persistent bindings if necessary
+ * load the necessary kernel modules
+ * detect multipath block devices
+
+
+don't install this package if you're not booting from a multipath device.

@@ -1,0 +1,7 @@
+A simple wiimote library (debug symbols)
+	
+libwiimote is a c-library that provides a simple api for communicating
+with the nintendo wii remote (aka. wiimote).
+
+this package includes the debug symbols needed to debug programs that
+make use of libwiimote.

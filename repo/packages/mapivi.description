@@ -1,0 +1,21 @@
+Photo viewer and organizer with emphasis on iptc fields
+	
+cross-platform (unix, mac os x, and windows) picture manager and organizer,
+mapivi is a stand alone tool, there is no need for a web server, online
+access or a database.
+
+deals with exif data (like timestamp, camera model, focal length, exposure
+time, aperture, etc.), and is able to rename the pictures according to their
+internal date/time, to display and modify jpeg comments and to do lossless
+rotation.
+
+the idea of using mapivi as an picture organizer is to keep user, exif, and
+iptc information where it belongs -- in the pictures -- as well in a
+searchable mapivi database.
+
+mapivi is also able to do image processing. mapivi serves here as a
+frontend (gui) for many proven command line tools, like the image magick
+tools.
+
+home page: <http://mapivi.de.vu/> or <http://herrmanns-stern.de/> or
+<http://sourceforge.net/projects/mapivi>

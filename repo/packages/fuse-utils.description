@@ -1,0 +1,10 @@
+Filesystem in userspace (utilities)
+	
+simple interface for userspace programs to export a virtual
+filesystem to the linux kernel.
+
+this package contains the fusermount utility which is necessary to
+mount fuse filesystems.
+
+this utility is setuid by default. use dpkg-statoverride if you want
+to change that.

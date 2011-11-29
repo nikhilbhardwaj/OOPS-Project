@@ -1,0 +1,10 @@
+Web based irc client
+	
+cgi:irc is a perl/cgi program that allows you to use irc
+from a web browser without having to have access to an
+irc port. it does not use java, but it does need a browser
+capable of rendering frames. it can be used on a web page
+to allow users to chat and can also be used to access chat
+from behind a firewall.
+
+homepage: http://cgiirc.sourceforge.net/

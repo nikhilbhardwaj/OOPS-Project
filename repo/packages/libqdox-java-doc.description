@@ -1,0 +1,18 @@
+Documentation for qdox (javadoc)
+	
+this package contains the documentation for qdox, generated from
+javadoc.
+
+qdox quickly parses java source files looking for key items of
+interest:
+
+ * class and interface definitions
+ * member declarations
+ * import statements
+ * javadoc comments
+
+
+qdox ignores all other components of java source, such as actual method
+implementations, to avoid overhead.  qdox returns a simple document
+model containing only the declarations and containing enough
+information to be useful.

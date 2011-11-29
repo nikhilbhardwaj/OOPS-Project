@@ -1,0 +1,7 @@
+Perl module to implement rpc calls using xml requests
+	
+frontier::rpc implements userland software's xml rpc (remote
+procedure calls using extensible markup language).  frontier::rpc
+includes both a client module for making requests to a server and
+a daemon module for implementing servers.  frontier::rpc uses rpc2
+format messages.

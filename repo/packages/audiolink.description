@@ -1,0 +1,13 @@
+Makes managing and searching for music easier
+	
+audiolink is a tool that makes searching for music on your local
+storage media easier and faster. your searches can include a variety
+of criteria, like male artists, female artists, band, genre, etc.
+
+it works with mp3 and ogg vorbis files and creates a mysql database
+in which it stores the information about the music files. it creates
+symbolic links to the actual music files based on the search
+results. you can search for multiple fields, like artist, band,
+composer, lyricist, etc.
+
+see http://audiolink.sourceforge.net/ for more information.

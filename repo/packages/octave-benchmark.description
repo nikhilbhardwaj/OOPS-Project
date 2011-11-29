@@ -1,0 +1,10 @@
+Code to benchmark speed of octave
+	
+this package contains a collection of routines to benchmark speed of
+octave, a numerical computation software.  it contains functions to
+test dense transposed matrix-matrix and matrix-vector multiplication,
+array indexing, integer math & conversions, array permuting, sparse
+transposed matrix-vector multiplication, as well as tools for
+controlling the benchmark.
+
+this octave add-on package is part of the octave-forge project.

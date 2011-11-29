@@ -1,0 +1,8 @@
+Web and mac os x dashboard widget support for plasma
+	
+this package provides the webkit script engine for plasma which adds support
+for the webpage widgets written in html and javascript and for the apple
+mac os x dashboard widgets. you have to install this package if you want to be
+able to load these widgets in your plasma shell.
+
+this package is part of the kde base workspace module.

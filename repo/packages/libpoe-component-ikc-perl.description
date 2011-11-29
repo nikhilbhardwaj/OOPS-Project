@@ -1,0 +1,16 @@
+Perl module for poe inter-kernel communication
+	
+poe::component::ikc provides several inter-kernel communication (ikc) methods
+for the perl object environment (poe) that help exchange events and related
+data between poe kernels.
+
+this module allows bidirectional communication between two or more instances
+of poe allowing authors to push or retrieve state information from remote
+running kernels using tcp/ip networking. it also provides facilities to
+monitor external instances and fire events when a new client connects or
+disconnects.
+
+the included server implementation can handle multiple concurrent connections
+and is designed to take advantage of pre-forking for high-demand applications.
+it is easily integrable with non-blocking code because it executes the given
+callback code when an event happens.

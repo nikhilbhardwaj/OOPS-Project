@@ -1,0 +1,27 @@
+Modern mailing list manager
+	
+sympa is a scalable and highly customizable modern mailing list manager
+capable of handling big setups: 20.000 lists with 700,000 subscribers.
+
+here are some of its many features:
+
+ - advanced mime support, including digests, anonymization and s/mime
+   encryption
+ - builtin password-based authentication, https x.509 certificates or
+   use of ldap database or single sign-on cas or shibboleth servers
+ - archive management with web access and rss feeds
+ - moderation and administration via email, web and soap interface
+ - multi-lingual, translated to more than 30 languages
+ - virtual domains (virtual robots)
+ - local sqlite subscriber database or use of mysql, postgresql or ldap
+ - integrated scripting language to extend and automate routines
+ - web inteface called wwsympa providing homogenous access for both
+   users and admins to list overviews, customization, administration,
+   searchable archives and optional web-based email reply form.
+ - clean moderation and expiration processing
+ - customizable service messages (templates) for owner and listmaster
+ - semi-automatic bounces management
+
+
+sympa is french for 'système de multi-postage automatique', which means
+'automatic multi mailing system'.

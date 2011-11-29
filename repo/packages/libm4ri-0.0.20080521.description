@@ -1,0 +1,9 @@
+Method of the four russians inversion library, shared library
+	
+m4ri is a library for fast arithmetic with dense matrices over f2.
+the name m4ri comes from the first implemented algorithm: the "method
+of the four russians" inversion algorithm.  this algorithm in turn is
+named after the "method of the four russians" multiplication
+algorithm which is probably better referred to as kronrod's method.
+
+this package contains the m4ri shared library.

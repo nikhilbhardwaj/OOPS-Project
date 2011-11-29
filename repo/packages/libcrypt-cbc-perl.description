@@ -1,0 +1,6 @@
+Implementation of cipher block chaining (cbc) mode
+	
+in combination with a block cipher such as crypt::rijndael or
+crypt::blowfish, you can encrypt and decrypt messages of
+arbitrarily long length.  the encrypted messages are compatible
+with the encryption format used by ssleay.

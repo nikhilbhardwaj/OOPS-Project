@@ -1,0 +1,6 @@
+Tools to manage speakup configuration and synths
+	
+this package contains tools to manage speakup's configuration and synths.
+
+- speakupconf allows to save and restore speakup's customizable variables.
+- talkwith allows to easily switch between speech synthesizers.

@@ -1,0 +1,5 @@
+Command-line tool to access x clipboard and selection buffers
+	
+xsel is a command-line program for getting and setting the contents of
+the x selection.  it can also append and have it follow a growing file
+(similar to tail -f).

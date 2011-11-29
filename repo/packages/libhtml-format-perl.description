@@ -1,0 +1,21 @@
+Format html syntax trees into text, postscript or rtf
+	
+the modules present in this package are:
+
+
+  html::formatter - base class for various formatters. formatters
+        traverse a syntax tree and produce some textual output. none
+        of the current formatters handle tables or forms yet.
+
+
+
+  html::formattext - formatter that converts a syntax tree to plain
+        readable text.
+
+
+
+  html::formatps - formatter that outputs postscript code.
+
+
+
+  html::formatrtf - formatter that outputs microsofts rtf format.

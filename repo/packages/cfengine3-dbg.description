@@ -1,0 +1,7 @@
+Debugging symbols for cfengine3
+	
+the main purpose of cfengine is to allow the system administrator
+to create a single central file which will define how every host
+on a network should be configured.
+
+this package contains the debugging symbols for cfengine3.

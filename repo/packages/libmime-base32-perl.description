@@ -1,0 +1,8 @@
+Base32 encoder/decoder
+	
+similar to base64, base32 encodes arbitrary (binary) data in ascii text.  the
+difference to base64 is that base32 encoding is case insensitive.
+
+base32 is defined in rfc3548 using the characters [a-z2-7], but this module
+by default uses [0-9a-v] for compatibility with older versions of
+mime::base32.  an rfc compliant mode is also provided, though.

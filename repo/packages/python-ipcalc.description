@@ -1,0 +1,6 @@
+Perform ip subnet calculations
+	
+returns the network address, netmask, network address in hexadecimal
+and cidr notation, min/max ip addresses, broadcast address and
+the number of subnets.
+there is support for both ipv4 and ipv6.

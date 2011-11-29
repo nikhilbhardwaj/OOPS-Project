@@ -1,0 +1,8 @@
+Easily dump variables together with their names (data::dumper-like)
+	
+this module allows the user to dump variables in a data::dumper format.
+unlike the default behavior of data::dumper, the variables are named
+(instead of $var1, $var2, etc.)  data::dumper provides an extended
+interface that allows the programmer to name the variables, but this
+interface requires a lot of typing and is prone to tyops (sic).  this
+module fixes that.

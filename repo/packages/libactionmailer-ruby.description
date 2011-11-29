@@ -1,0 +1,8 @@
+Framework for generation of customized email messages
+	
+action mailer is a framework for designing email-service layers. these layers
+are used to consolidate code for sending out forgotten passwords, welcome
+wishes on signup, invoices for billing, and any other use case that requires
+a written notification to either a person or another system.
+
+this is an empty dependency package.

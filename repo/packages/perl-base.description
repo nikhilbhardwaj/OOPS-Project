@@ -1,0 +1,8 @@
+Minimal perl system
+	
+perl is a scripting language used in many system scripts and utilities.
+
+this package provides a perl interpreter and the small subset of the
+standard run-time library required to perform basic tasks. for a full
+perl installation, install "perl" (and its dependencies, "perl-modules"
+and "perl-doc").

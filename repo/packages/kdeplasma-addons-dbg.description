@@ -1,0 +1,5 @@
+Debugging symbols for kdeplasma-addons
+	
+this package contains the debugging symbols associated with kdeplasma-addons.
+they will automatically be used by gdb for debugging kdeplasma-addons related
+issues.

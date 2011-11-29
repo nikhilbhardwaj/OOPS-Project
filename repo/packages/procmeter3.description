@@ -1,0 +1,24 @@
+Graphical system status monitor
+	
+procmeter displays constantly updating graphs of system information.
+many different graphs are supported, including:
+
+
+ apm and acpi information.
+ mailbox monitoring.
+ date, time, uptime.
+ amount of free and used disk space.
+ size, number of lines, rate of growth of log files.
+ amount of used and free memory and swap.
+ traffic on network devices.
+ load average, number of processes running and starting.
+ low level system statistics like cpu usage, disk usage and swapping.
+ cpu clock speed.
+ wireless network link quality.
+
+
+as if all that wasn't enough, procmeter is designed to be easily extendable
+via plugins.
+
+procmeter can use either the athena or the gtk+ widgets. it also supports
+display on small lcd screens using the linux lcdproc driver.

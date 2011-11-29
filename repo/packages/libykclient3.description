@@ -1,0 +1,9 @@
+Yubikey client library runtime
+	
+yubikeys are usb tokens that act like keyboards and generate one-time
+passwords.  the tokens are produced and sold by yubico
+
+this library is used for talking to an online validation server such
+as yubikey-server-c, yubikey-server-php or yubikey-server-j.
+
+this package contains the runtime library.

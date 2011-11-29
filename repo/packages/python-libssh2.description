@@ -1,0 +1,9 @@
+Python binding for libssh2 library
+	
+libssh2 is a client-side c library implementing the ssh2 protocol
+with support for regular terminal, scp and sftp sessions; port
+forwarding; password, key-based and keyboard-interactive
+authentication.
+
+this package contains the python bindings libssh2. it is a fork and
+rewrite of org.keyphrene.

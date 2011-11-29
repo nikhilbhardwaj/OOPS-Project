@@ -1,0 +1,8 @@
+Namespace aware sax-parser utility library
+	
+libxml is a namespace aware sax-parser utility library. it eases the
+pain of implementing non-trivial sax input handlers. the original
+code of these classes had been written by peter becker for the
+jcommon library.
+
+libxml replaces the jcommon-xml classes, which were not namespace aware.

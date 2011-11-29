@@ -1,0 +1,10 @@
+Strip html markup from text
+	
+html::strip simply strips html-like markup from text in a very quick and
+brutal manner. it could quite easily be used to strip xml or sgml from text
+as well.
+
+it is written in xs, and thus about five times quicker than using regular
+expressions for the same task.
+
+it does not do any syntax checking (if you want that, use html::parser)

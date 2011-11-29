@@ -1,0 +1,13 @@
+Multiple-personality middleware for ada (development)
+	
+polyorb provides a uniform solution to build distributed applications; relying
+either on industrial-strength middleware standards such as corba, the
+distributed system annex of ada 95, distribution programming paradigms such as
+web services, message oriented middleware (mom), or to implement
+application-specific middleware.
+
+this package provides the development files and utilities necessary to develop
+distributed applications using polyorb.
+
+distributed applications will also require the polyorb-servers package but not
+necessarily on the same machine.

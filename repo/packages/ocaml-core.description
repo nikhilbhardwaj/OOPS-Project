@@ -1,0 +1,11 @@
+Ocaml core tools (metapackage)
+	
+a metapackage containing dependencies on, and suggestions of packages useful
+for developing in the objective caml (ocaml) programming language.
+
+includes dependencies on various tools related to ocaml like
+compiler and preprocessor, tuareg mode for the emacs editor, package manager,
+documentation tool and more.
+
+also includes a rad tool for gui design and a framework for
+regression testing.

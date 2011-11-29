@@ -1,0 +1,6 @@
+Socks proxy support for lwp
+	
+lwp::protocol::socks implements the socks protocol for perl www library. it
+provides the essential hooks into the lwp system to add the capability to
+setup a lwp::useragent to use a socks proxy the same way as already possible
+for a http proxy.

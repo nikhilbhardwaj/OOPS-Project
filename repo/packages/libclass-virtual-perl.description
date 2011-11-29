@@ -1,0 +1,17 @@
+Base class for virtual base classes
+	
+this is a base class for implementing virtual base classes (what some
+people call an abstract class).  kinda kooky.  it allows you to
+explicitly declare what methods are virtual and that must be
+implemented by subclasses.  this might seem silly, since your program
+will halt and catch fire when an unimplemented virtual method is hit
+anyway, but there's some benefits.
+
+the error message is more informative.  instead of the usual
+"can't locate object method" error, you'll get one explaining that a
+virtual method was left unimplemented.
+
+subclass authors can explicitly check to make sure they've implemented
+all the necessary virtual methods.  when used as part of a regression
+test, it will shield against the virtual method requirements changing
+out from under the subclass.

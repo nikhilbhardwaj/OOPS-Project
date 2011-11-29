@@ -1,0 +1,4 @@
+PackageId:33878
+Name:vdr-plugin-remote
+Version:0.4.0-20
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libstdc++6,libunwind7,vdr-abi-1.6.0-debian,vdr

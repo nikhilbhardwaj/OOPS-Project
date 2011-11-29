@@ -1,0 +1,4 @@
+Nss module for using postgresql as a naming service
+	
+this module works as a replacement for the flat file databases /etc/passwd,
+/etc/group etc. it is a plugin to glibc's name service switch.

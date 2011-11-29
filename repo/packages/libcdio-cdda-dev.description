@@ -1,0 +1,9 @@
+Library to read and control digital audio cds (development files)
+	
+this package contains development files (headers and static library)
+for the libcdio-cdda library.
+
+this library is made to read and control digital audio cds. it does
+not play such cds, it only reads them digitally. as it uses libcdio as
+a backend, it supports the same kind of cdrom drives (and images) as
+libcdio.

@@ -1,0 +1,5 @@
+Module to parse the postfix mail queue
+	
+postfix::parse::mailq is a perl module that reads the output of postfix's
+mailq command and returns the contents of the queue as an arrayref. each
+record is then reported as a hashref.

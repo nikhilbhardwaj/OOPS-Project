@@ -1,0 +1,16 @@
+Direcway(tm) and motosat(tm) utilities
+	
+a collection of utilities for users of the direcway(tm) satellite internet
+service, particularly users of motosat(tm).
+
+includes tools to control a motosat d2 datastorm controller, including
+initiating a satellite search, stowing the dish, manual positioning,
+saving and restoring positions, and a status display.
+
+also includes tools to extract information from the d2 to extract some
+information form the dw6000 satellite modem, as well as tools to reboot
+either device. perl libraries are included to aid in building custom control
+programs.
+
+a program is also included to update your location on the
+datastormusers.com map.

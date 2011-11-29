@@ -1,0 +1,8 @@
+Support programs and tools for mpqc
+	
+mpqc is an ab-inito quantum chemistry program.  it is especially designed
+to compute molecules in a highly parallelized fashion.
+
+this package includes perl modules to parse the output, emacs-modes to
+facilitate editing mpqc files and molrender, a program to output the
+molecules in oogl-format.

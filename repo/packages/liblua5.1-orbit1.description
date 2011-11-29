@@ -1,0 +1,7 @@
+Mvc web framework for lua
+	
+orbit is a library for developing web applications according to
+the model-view-controller paradigm in lua.
+
+orbit also includes a basic or mapper that currently only works with
+lua-sql sqlite3 driver.

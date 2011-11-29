@@ -1,0 +1,15 @@
+Basic linear algebra comm. subprograms - dev. files for mpi
+	
+the blacs project is an ongoing investigation whose purpose is to
+create a linear algebra oriented message passing interface that may be
+implemented efficiently and uniformly across a large range of
+distributed memory platforms.
+
+you can choose between an implementation based on mpi or pvm. this package
+uses mpi. there are packages for the shared libraries, for the static
+libraries and the development files (this one), and for test programs.
+
+most users do not need to install this package directly because it is
+used as a high level driver for the communication in the scalapack packages.
+therefore, it is installed when installing scalapack. scalapack is a
+parallel version of lapack and is used on beowulf type clusters.

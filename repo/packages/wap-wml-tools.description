@@ -1,0 +1,11 @@
+Wireless markup language development and test tools
+	
+wml-tools is a suite of small programs designed to help in the
+construction of wap wml decks. the suite currently comprises:
+
+    * wmlc - a wml bytecode compiler
+    * wmld - a wml bytecode decompiler
+    * wmlv - a very simple text-based wml deck viewer
+    * wbmp2xpm - a wbmp to xpm converter
+    * wmlhtml - a simple wml deck to html converter
+    * rdfwml - an rdf channel to wml deck converter

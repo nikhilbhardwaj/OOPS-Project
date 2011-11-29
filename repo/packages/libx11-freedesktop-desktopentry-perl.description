@@ -1,0 +1,6 @@
+Perl interface to freedesktop.org .desktop files
+	
+x11::freedesktop-desktopentry provides an object-oriented interface to
+files that comply with the freedesktop.org desktop entry specification.
+you can query the file for available values and also get locale
+information as well.

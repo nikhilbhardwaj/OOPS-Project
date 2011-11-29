@@ -1,0 +1,5 @@
+Converts uif files (used by magiciso) to iso or other formats
+	
+uif2iso is a command-line tool for converting single and multipart uif images
+(universal image format, used by magiciso) to uncompressed images according to
+the original input file: iso, bin/cue, mds/mdf, ccd/img/sub, nrg.

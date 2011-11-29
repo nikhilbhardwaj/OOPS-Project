@@ -1,0 +1,12 @@
+Qemu full system emulation binaries
+	
+qemu is a fast processor emulator: currently the package supports
+arm, cris, i386, m68k (coldfire), microblaze, mips, powerpc, sh4,
+sparc and x86-64 emulation. by using dynamic translation it achieves
+reasonable speed while being easy to port on new host cpus.
+
+this package provides the full system emulation binaries. in this mode
+qemu emulates a full system, including a processor and various
+peripherals. it enables easier testing and debugging of system code.
+it can also be used to provide virtual hosting of several virtual
+machines on a single server.

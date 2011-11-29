@@ -1,0 +1,4 @@
+PackageId:2558
+Name:cvs-autoreleasedeb
+Version:0.12-1
+Deps:adduser,cvs,cvs-buildpackage,dpkg-dev,dupload,fakeroot,libapt-pkg-perl,libxml-parser-perl,perl

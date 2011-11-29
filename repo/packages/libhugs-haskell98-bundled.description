@@ -1,0 +1,9 @@
+Compatibility with haskell 98
+	
+this package provides compatibility with the modules of haskell
+98 and the ffi addendum, by means of wrappers around modules from
+the base package (which in many cases have additional features).
+however prelude, numeric and foreign are provided directly by
+the base package.
+
+this is the version bundled with the interpreter.

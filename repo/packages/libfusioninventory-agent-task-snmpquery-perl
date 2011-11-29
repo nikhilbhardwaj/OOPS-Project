@@ -1,0 +1,4 @@
+PackageId:12414
+Name:libfusioninventory-agent-task-snmpquery-perl
+Version:1.1-2
+Deps:fusioninventory-agent,libnet-ip-perl,libnet-snmp-perl,libxml-simple-perl,perl

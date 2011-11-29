@@ -1,0 +1,9 @@
+A wrapper that encrypts or signs outgoing mail
+	
+kuvert automatically signs and/or encrypts outgoing mail using
+the pgp/mime standard (rfc3156), based on the availability
+of the recipient's key in your keyring. other than similar wrappers,
+kuvert does not store key passphrases itself, ever.
+kuvert works as a wrapper around your mta but can be
+fed mails via smtp, too.
+.

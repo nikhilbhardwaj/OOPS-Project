@@ -1,0 +1,11 @@
+Python binding to exiv2
+	
+pyexiv2 is a python binding to eiv2, the c++ library for manipulation
+of exif and iptc image metadata. it is a python module that allows your
+python scripts to read and write metadata (exif, iptc, thumbnail)
+embedded in image files (jpeg, tiff, ...).
+
+it is designed as a high level interface to the functionalities offered
+by exiv2 (and is built on top of it). using python's built-in data
+types and standard modules, it provides easy manipulation of image
+metadata.

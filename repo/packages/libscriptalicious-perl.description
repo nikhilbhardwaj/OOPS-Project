@@ -1,0 +1,6 @@
+Module to simplify writing of perl scripts
+	
+scriptalicious is a perl module that enables developers to write scripts that
+conform to common best practices, quickly and easily. it provides some useful
+features such as providing a help message via the -h option and shortcuts for
+aborting the program with various error conditions.

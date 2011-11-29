@@ -1,0 +1,28 @@
+Spiffy perl interface framework
+	
+class::spiffy is a framework and methodology for doing object oriented
+programming in perl. class::spiffy combines the best parts of exporter.pm,
+base.pm, mixin.pm and super.pm into one magic foundation class. it attempts to
+fix all the nits and warts of traditional perl oo, in a clean, straightforward
+and (perhaps someday) standard way.
+
+class::spiffy borrows ideas from other oo languages like python, ruby, java
+and perl 6. it also adds a few tricks of its own.
+
+if you take a look on cpan, there are a ton of oo related modules. when
+starting a new project, you need to pick the set of modules that makes most
+sense, and then you need to use those modules in each of your classes.
+class::spiffy, on the other hand, has everything you'll probably need in one
+module, and you only need to use it once in one of your classes. if you make
+class::spiffy the base class of the basest class in your project,
+class::spiffy will automatically pass all of its magic to all of your
+subclasses. you may eventually forget that you're even using it!
+
+the most striking difference between class::spiffy and other perl object
+oriented base classes, is that it has the ability to export things. if you
+create a subclass of class::spiffy, all the things that class::spiffy exports
+will automatically be exported by your subclass, in addition to any more
+things that you want to export. and if someone creates a subclass of your
+subclass, all of those things will be exported automatically, and so on. think
+of it as "inherited exportation", and it uses the familiar exporter.pm
+specification syntax.

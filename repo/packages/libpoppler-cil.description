@@ -1,0 +1,6 @@
+Pdf rendering library -- cli bindings
+	
+poppler is a pdf rendering library based on the xpdf pdf viewer.
+
+this package contains the managed cli bindings for poppler, which are needed to
+run cli applications which use this library.

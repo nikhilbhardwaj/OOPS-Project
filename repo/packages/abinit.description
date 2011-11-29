@@ -1,0 +1,17 @@
+A package for electronic structure calculations
+	
+abinit is a package whose main program allows one to find the total energy,
+charge density and electronic structure of systems made of electrons and
+nuclei (molecules and periodic solids) within density functional theory (dft),
+using pseudopotentials and a planewave basis.
+
+abinit also includes options to optimize the geometry according to the dft
+forces and stresses, or to perform molecular dynamics simulations using these
+forces, or to generate dynamical matrices, born effective charges, and
+dielectric tensors. excited states can be computed within the time-dependent
+density functional theory (for molecules), or within many-body perturbation
+theory (the gw approximation). in addition to the main abinit code, different
+utility programs are provided.
+
+this package contains all programs needed to perform calculations. for
+documentation and tests, install the abinit-doc package.

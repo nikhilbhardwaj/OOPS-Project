@@ -1,0 +1,14 @@
+The kde bluetooth stack
+	
+bluedevil is a set of components which integrate bluetooth in kde.
+it contains:
+
+ * a kde control module (kcm) to configure all the bluetooth-related options.
+ * integration with the kde input/output system (kio), which allows you to
+   discover and explore bluetooth devices from your favorite file browser.
+ * a wizard to pair your devices and connect directly to services they offer,
+   such as input (mouse, keybaord, wiimote) and audio (headsets, phones).
+ * a system tray application from where all bluedevil actions can be done
+   (disconnect devices, send files, configure, etc...)
+ * a daemon to listen incoming petitions, for example to receive files
+   or to introduce a requested pin.

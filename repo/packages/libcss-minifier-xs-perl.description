@@ -1,0 +1,7 @@
+Xs based css minifier
+	
+css::minifier::xs is a css "minifier"; its designed to remove un-necessary
+whitespace and comments from css files, while also not breaking the css.
+
+css::minifier::xs is similar in function to css::minifier, but is
+substantially faster as its written in xs and not just pure perl.

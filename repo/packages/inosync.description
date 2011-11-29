@@ -1,0 +1,11 @@
+Notification-based directory synchronization daemon
+	
+the inosync daemon uses the inotify service available in recent linux
+kernels to monitor and synchronize changes within directories to
+remote nodes using rsync.
+
+system administrators have relied on cron+rsync for years to
+constantly synchronize files and directories to remote machines. it
+is not feasible to let authors wait for their content to get
+synchronized every x hours with regard to the enormous pace of
+articles and podcasts nowadays.

@@ -1,0 +1,31 @@
+Grid analysis and display system for earth science data
+	
+the grid analysis and display system (grads) is an interactive desktop tool
+that is used for easy access, manipulation, and visualization of earth
+science data. the format of the data may be either binary, grib, netcdf, or
+hdf-sds (scientific data sets). grads has been implemented worldwide on
+a variety of commonly used operating systems and is freely distributed
+over the internet.
+
+grads uses a 4-dimensional data environment: longitude, latitude,
+vertical level, and time. data sets are placed within the 4-d space
+by use of a data descriptor file. grads interprets station data as well as
+gridded data, and the grids may be regular, non-linearly spaced, gaussian, or
+of variable resolution. data from different data sets may be graphically
+overlaid, with correct spatial and time registration. operations are executed
+interactively by entering fortran-like expressions at the command line.
+a rich set of built-in functions are provided, but users may also add their
+own functions as external routines written in any programming language.
+
+data may be displayed using a variety of graphical techniques: line and
+bar graphs, scatter plots, smoothed contours, shaded contours, streamlines,
+wind vectors, grid boxes, shaded grid boxes, and station model plots.
+graphics may be output in postscript or image formats. grads provides
+geophysically intuitive defaults, but the user has the option to control
+all aspects of graphics output.
+
+grads has a programmable interface (scripting language) that allows for
+sophisticated analysis and display applications. use scripts to display
+buttons and dropmenus as well as graphics, and then take action based on user
+point-and-clicks. grads can be run in batch mode, and the scripting language
+facilitates using grads to do long overnight batch jobs.

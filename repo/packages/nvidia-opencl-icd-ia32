@@ -1,0 +1,4 @@
+PackageId:25791
+Name:nvidia-opencl-icd-ia32
+Version:195.36.31-6
+Deps:lib32opencl1,nvidia-libopencl1-ia32,libcuda1-ia32,nvidia-opencl-common

@@ -1,0 +1,7 @@
+The gnu objective-c++ compiler (multilib files)
+	
+this is the gnu objective-c++ compiler, which compiles objective-c++ on
+platforms supported by the gcc compiler.
+
+on architectures with multilib support, the package contains files
+and dependencies for the non-default multilib architecture(s).

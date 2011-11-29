@@ -1,0 +1,5 @@
+Dbus introspection command line utility
+	
+mdbus allows to list dbus methods, call them and listen to dbus
+events. is easier to use then standard dbus commands.
+extra functionality is interactive mode with tab completion.

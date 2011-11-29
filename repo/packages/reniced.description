@@ -1,0 +1,11 @@
+Renice running processes based on regular expressions
+	
+reniced takes a list of regular expressions, looks for processes
+matching them and renices the processes to given values.
+
+instead of editing the scripts in /etc/init.d to give daemons the
+nicelevel you want (and get prompted at every package update because
+these files are conffiles) you can just run reniced once a day.
+
+
+ homepage: http://www.cgarbs.de/stuff.en.html

@@ -1,0 +1,14 @@
+A psychoacoustics gammatone filter bank library
+	
+header and example files for the gammatone library
+this library implements the gammatone auditory filter
+bank which is a psychoacoustic model of how the basilar
+membrane moves in the ear.
+the library can filter arbitrary arrays of audio data
+and will produce the gammatone output for each of the
+filters which are spread along the length of the ear.
+the -dev package comes with example code.
+this package is a c++ implementation of slaney's 1993
+report :
+"an efficient implementation of the
+patterson-holdsworth auditory filter bank"

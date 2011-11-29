@@ -1,0 +1,4 @@
+PackageId:33633
+Name:unattended-upgrades
+Version:0.62.2
+Deps:apt,apt-utils,debconf,debconf-2.0,cdebconf,cdebconf-udeb,lsb-release,python,python-apt,ucf

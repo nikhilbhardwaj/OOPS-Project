@@ -1,0 +1,8 @@
+Erlang/otp snmp applications
+	
+a multilingual simple network management protocol application features
+an extensible agent, simple manager, a mib compiler and facilities for
+implementing snmp mibs etc.
+
+the otp_mibs application provides an snmp management information base
+for erlang nodes.

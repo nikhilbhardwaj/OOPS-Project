@@ -1,0 +1,31 @@
+Java lightweight mathematics and statistics components - documentation
+	
+commons math is a java library of lightweight, self-contained mathematics
+and statistics components.
+
+commons math is made up of a small set of math/stat utilities addressing
+programming problems like the ones in the list below:
+
+ - computing means, variances and other summary statistics for a list of
+ numbers
+ - fitting a line to a set of data points using linear regression
+ - finding a smooth curve that passes through a collection of points
+ (interpolation)
+ - fitting a parametric model to a set of measurements using least-squares
+ methods
+ - solving equations involving real-valued functions (i.e. root-finding)
+ - solving systems of linear equations
+ - solving ordinary differential equations
+ - minimizing multi-dimensional functions
+ - generating random numbers with more restrictions (e.g distribution, range)
+ than what is possible using the jdk
+ - generating random samples and/or datasets that are "like" the data in an
+ input file
+ - performing statistical significance tests
+ - miscellaneous mathematical functions such as factorials, binomial
+ coefficients and "special functions" (e.g. gamma, beta functions)
+
+
+this is a part of the apache commons project.
+
+this package provides the api documentation for commons math.

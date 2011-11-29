@@ -1,0 +1,17 @@
+Arbitrary precision calculator (original name: calc)
+	
+calc is an arbitrary precision arithmetic system that uses a c-like
+language. calc is useful as a calculator, an algorithm prototyper and as a
+mathematical research tool. more importantly, calc provides one with a
+machine independent means of computation. calc comes with a rich set of
+builtin mathematical and programmatic functions.
+
+calc is built on top of the library libcalc that represents numeric values
+as fractions reduced to their lowest terms. this library can also be used
+to add arbitrary precision capabilities to your own programs and is
+available in the debian package `apcalc-dev'.
+
+the original name of this package is `calc', but it had to be changed to
+`apcalc' for debian, because there's already another package called `calc'
+in debian. nevertheless, the binary and manpage installed by this package
+are still named `calc'.

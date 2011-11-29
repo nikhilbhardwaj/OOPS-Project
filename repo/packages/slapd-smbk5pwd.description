@@ -1,0 +1,6 @@
+Keeps samba and kerberos passwords in sync within slapd.
+	
+extends the passwordmodify extended operation to update kerberos keys
+and samba password hashes for an ldap user. the kerberos support is
+written for heimdal using its hdb-ldap backend. the samba support is
+written using the samba 3.0 ldap schema.

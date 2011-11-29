@@ -1,0 +1,6 @@
+Library for ssa/ass subtitles rendering
+	
+substation alpha (ssa) is a subtitle file format that allows more
+advanced subtitles than the conventional srt and similar formats.
+
+this package contains the shared library for libass.

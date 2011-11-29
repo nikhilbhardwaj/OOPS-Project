@@ -1,0 +1,11 @@
+A multi-language extensible build tool
+	
+a set of tools for processing gnat project files. gprbuild runs tools
+on the specified source files; gprclean removes the corresponding
+built files; gprconfig configures both tools. it is highly
+configurable; the default configuration supports compiling ada,
+assembler, c, c++, and fortran sources. it can be extended to support
+user source processing tools.
+
+this package contains the documentation for gprbuild, gprclean,
+gprconfig, in html, info, and pdf formats.

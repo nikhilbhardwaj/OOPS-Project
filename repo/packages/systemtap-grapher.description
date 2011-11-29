@@ -1,0 +1,7 @@
+Instrumentation system for linux 2.6 (grapher)
+	
+this package contains a utility for real-time visualization of
+data from systemtap instrumentation scripts.
+
+systemtap provides infrastructure to simplify the gathering of
+information about the running linux system.

@@ -1,0 +1,16 @@
+Serialize data-structures between threads
+	
+*** a note of caution ***
+
+thread::serialize only functions on perl versions 5.8.0 and later.
+and then only when threads are enabled with -dusethreads. it
+is of no use with any version of perl before 5.8.0 or without
+threads enabled.
+
+*************************
+
+the thread::serialize module is a library for centralizing the routines used
+to serialize data-structures between threads. because of this central
+location, other modules such as thread::conveyor, thread::pool or thread::tie
+can benefit from the same optimilizations that may take place here in the
+future.

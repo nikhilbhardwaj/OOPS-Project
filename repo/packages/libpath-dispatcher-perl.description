@@ -1,0 +1,13 @@
+Flexible and extensible command-line dispatch for perl programs
+	
+path::dispatcher is a perl module that allows you to find code
+to run based on matching a path against a list of rules.
+
+the basic operation is that of dispatch. dispatch takes a path and a
+list of rules, and it returns a list of matches. from there you can
+"run" the rules that matched. these phases are distinct so that, if you
+need to, you can inspect which rules were matched without ever running
+their codeblocks.
+
+path::dispatcher was inspired by the jifty web framework's dispatcher,
+jifty::dispatcher.

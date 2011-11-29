@@ -1,0 +1,6 @@
+Tao concurrency service
+	
+a concurrency service provides a mechanism to acquire and release
+locks in a distributed system.
+
+tao version does not support transactions.

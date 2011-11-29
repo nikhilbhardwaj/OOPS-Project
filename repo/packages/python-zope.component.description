@@ -1,0 +1,5 @@
+Zope component architecture
+	
+the core of the zope component architecture. together with the zope.interface
+package, it provides facilities for defining, registering and looking up
+components.

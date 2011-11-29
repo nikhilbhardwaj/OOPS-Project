@@ -1,0 +1,11 @@
+Service delivery suite framework - kannel sms gateway api
+	
+netsds::kannel module provides api to kannel sms gateway.
+
+to decrease innecessary problems we use a lot of predefined parameters
+while sending and receiving messages via kannel http api. it's not so
+flexible as direct http processing but less expensive in development
+time ;-)
+
+this modules uses lwp to send messages and cgi.pm to process messages
+from kannel.

@@ -1,0 +1,8 @@
+Debugging symbols for the getfem++ generic finite element library
+	
+getfem++ is a library allowing the computation of any elementary matrix (even
+for mixed finite element methods) on the largest class of methods and elements,
+and for arbitrary dimension.
+
+this package contains debugging files used to investigate problems with
+binaries included in the getfem++ packages.

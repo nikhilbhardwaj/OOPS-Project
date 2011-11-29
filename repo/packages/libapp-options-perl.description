@@ -1,0 +1,4 @@
+Command line options, environment vars, and option file values
+	
+app::options combines command-line arguments, environment variables, option
+files, and program defaults to produce a hash of option values.

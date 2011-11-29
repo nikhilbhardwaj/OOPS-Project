@@ -1,0 +1,7 @@
+Infiniband communication manager (cm) library
+	
+libibcm provides a userspace implementation of an infiniband
+communication manager (cm). the cm handles both connection
+establishment as well as service id resolution.
+
+this package contains the shared library.

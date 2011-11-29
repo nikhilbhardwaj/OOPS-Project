@@ -1,0 +1,6 @@
+Perl module to highlight search result context snippets
+	
+text::context is a perl module that provides a simple interface to extract and
+highlight some context around given search terms. it can also dump the string
+out as html text with all the search terms highlighted in bold. this provides
+a simple way to get some representative text for display in search results.

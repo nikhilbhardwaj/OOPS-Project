@@ -1,0 +1,13 @@
+External commands for mew
+	
+the mew-bin package contains external commands for the mew package.
+
+
+ - mewencode: encode/decode mime objects
+ - mewl: extract necessary fields from messages stored in folders
+ - incm: incoporate new mails from maildir or mbox to mew's inbox folder
+ - mewest: update indexes of hyper estraier
+ - mew-pinentry: front end of gpg-agent to ask a passphrase to a user
+ - mewstunnel: wrapper script for using stunnel
+ - cmew: create mew's database file
+ - smew: search related messages from mew's database file

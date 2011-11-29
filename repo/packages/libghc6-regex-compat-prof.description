@@ -1,0 +1,7 @@
+Ghc 6 profiling library provinding old text.regex inferface
+	
+a library providing the old text.regex interface to the posix regular
+expression backend.
+
+this package contains additional profiling libraries which can be
+used with ghc6-prof.

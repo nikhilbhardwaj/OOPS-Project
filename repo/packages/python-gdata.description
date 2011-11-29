@@ -1,0 +1,22 @@
+Google data python client library
+	
+the gdata (google data) apis provide a simple protocol for reading
+and writing data on the web.
+
+each of the following google services provides a google data api:
+
+  * base
+  * blogger
+  * calendar
+  * code search
+  * contacts
+  * document list
+  * google apps provisioning
+  * notebook
+  * picasa web albums
+  * spreadsheets
+  * youtube
+
+
+the google data python client library provides a library and source
+code that make it easy to access data through google data apis.

@@ -1,0 +1,6 @@
+Mozilla extension to block adobe flash content
+	
+flashblock is an extension for the iceweasel/firefox browser that takes a
+pessimistic approach to dealing with adobe flash content on a webpage and
+blocks all flash content from loading. it then leaves placeholders on the
+webpage that allow you to click to download and then view the flash content.

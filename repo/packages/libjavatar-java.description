@@ -1,0 +1,6 @@
+Allows access to tar files from java
+	
+the package com.ice.tar implements a tar archive io package. this package
+allows you to create, and extract tar archives. since the package uses
+inputstream and outputstream, it is possible to combine this package with
+the java.util.zip package to handle .tar.gz files.

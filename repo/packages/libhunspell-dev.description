@@ -1,0 +1,22 @@
+Spell checker and morphological analyzer (development)
+	
+hunspell is a spell checker and morphological analyzer library and program
+designed for languages with rich morphology and complex word compounding or
+character encoding. it is based on myspell and features an ispell-like
+terminal interface using curses library, an ispell pipe interface and an
+openoffice.org uno module.
+
+main features:
+
+ - unicode support (first 65535 unicode character)
+ - morphological analysis (in custom item and arrangement style)
+ - max. 65535 affix classes and twofold affix stripping (for agglutinative
+   languages, like azeri, basque, estonian, finnish, hungarian, turkish, etc.)
+ - support complex compoundings (for example, hungarian and german)
+ - support language specific algorithms (for example, handling azeri
+   and turkish dotted i, or german sharp s)
+ - handling conditional affixes, circumfixes, fogemorphemes,
+   forbidden words, pseudoroots and homonyms.
+
+
+this package contains the headers and the static library.

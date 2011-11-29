@@ -1,0 +1,5 @@
+Tools for infiniband attached storage (srp)
+	
+in conjunction with the kernel ib_srp driver, srptools allows you to
+discover and use infiniband attached storage devices which use the
+scsi rdma protocol (srp).

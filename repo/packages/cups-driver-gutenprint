@@ -1,0 +1,4 @@
+PackageId:2527
+Name:cups-driver-gutenprint
+Version:5.2.6-1
+Deps:cups,cups-client,ghostscript-cups,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcups2,libcupsimage2,libgcrypt11,libgnutls26,libgssapi-krb5-2,libgutenprint2,perl,zlib1g

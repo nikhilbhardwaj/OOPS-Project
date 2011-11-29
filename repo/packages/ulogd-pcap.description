@@ -1,0 +1,5 @@
+Pcap extension to ulogd
+	
+this module adds a plugin to ulogd, that allows to log to a pcap format
+file. you can then use this file with other tools that use pcap like
+tcpdump or ethereal.

@@ -1,0 +1,12 @@
+Filesystem client based on ssh file transfer protocol (with debbuging symbols)
+	
+sshfs is a filesystem client based on the ssh file transfer protocol.
+since most ssh servers already support this protocol it is very easy
+to set up: i.e. on the server side there's nothing to do.  on the
+client side mounting the filesystem is as easy as logging into the
+server with ssh.
+
+sshfs is fuse (filesystem in userspace).
+
+this package contains debbuging symbols.
+please install it to create meaningful backtraces when reporting bugs.

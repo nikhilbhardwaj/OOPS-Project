@@ -1,0 +1,7 @@
+Python bindings for petsc libraries
+	
+petsc is a suite of data structures and routines for the scalable (parallel)
+solution of scientific applications modeled by partial differential equations.
+it employs the mpi standard for all message-passing communication.
+
+this package provides python bindings to almost all functions of petsc.

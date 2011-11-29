@@ -1,0 +1,52 @@
+Basic plugins for cgi::application
+	
+this package includes some basic plugin modules to enhance cgi::application.
+currently the following modules are included:
+
+cgi::application::dispatch
+dispatch requests to cgi::application based objects
+
+cgi::application::plugin::autorunmode
+provides an easy way to add run modes
+
+cgi::application::plugin::configauto
+add config::auto support
+
+cgi::application::plugin::dbh
+easy dbi access
+
+cgi::application::plugin::devpopup
+runtime info in a popup window
+
+cgi::application::plugin::fillinform
+integrate with html::fillinform
+
+cgi::application::plugin::forward
+pass control from one run mode to another
+
+cgi::application::plugin::logdispatch
+add log::dispatch support
+
+cgi::application::plugin::redirect
+provides easy external redirects
+
+cgi::application::plugin::session
+add cgi::session support
+
+cgi::application::plugin::stream
+for streaming files
+
+cgi::application::plugin::validaterm
+validate run modes using data::formvalidator
+
+cgi::application::plugin::viewcode
+view the source of the running application
+
+cgi::application::standard::config
+defines a standard configuration api for cgi::application
+
+cgi::application::plugin::debugscreen
+add debug support
+
+cgi::application::plugin::errorpage
+returns an error page

@@ -1,0 +1,9 @@
+Collection of tools for reading and writing ewf files
+	
+libewf is a library with support for reading and writing the expert witness
+compression format (ewf).
+this library allows you to read media information of ewf files in the smart
+(ewf-s01) format and the encase (ewf-e01) format. it supports files created
+by encase 1 to 6, linen and ftk imager.
+
+this package contains tools to acquire, verify and export ewf files.

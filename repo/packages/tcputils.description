@@ -1,0 +1,14 @@
+Utilities for tcp programming in shell-scripts
+	
+this is a collection of programs to facilitate tcp programming
+in shell-scripts.  there is also a small library which makes it
+somewhat easier to create tcp/ip sockets.
+
+the programs included in this release are:
+
+
+    mini-inetd  - small tcp/ip connection dispatcher
+    tcpbug      - tcp/ip connection bugging device
+    tcpconnect  - general tcp/ip client
+    tcplisten   - general tcp/ip server
+    getpeername - get name of connected tcp/ip peer

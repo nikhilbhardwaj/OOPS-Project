@@ -1,0 +1,5 @@
+A perl script that converts html files to latex
+	
+gnuhtml2latex is a perl script that converts html files to latex
+files. it takes list of .html files as arguments and make .tex
+ones. can also convert html stdin to latex stdout.

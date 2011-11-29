@@ -1,0 +1,6 @@
+Transitional dummy package which can be safely removed
+	
+this package used to contain a pam module creating a file in
+/var/run/console/ for all users logged in to the console.  this
+functionallity is now provided by the libpam-ck-connector package,
+and this package is now a dummy package to pull in libpam-ck-connector.

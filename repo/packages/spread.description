@@ -1,0 +1,13 @@
+The spread messaging daemon
+	
+spread is a toolkit that provides a high performance messaging
+service that is resilient to faults across external or internal
+networks. spread functions as a unified message bus for distributed
+applications, and provides highly tuned application-level multicast
+and group communication support. spread services range from reliable
+message passing to fully ordered messages with delivery guarantees,
+even in case of computer failures and network partitions. spread is
+designed to encapsulate the challenging aspects of asynchronous
+networks and enable the construction of scalable distributed
+applications, allowing application builders to focus on the
+differentiating components of their application.

@@ -1,0 +1,12 @@
+A unix utility for tracking down wasted disk space
+	
+unix provides the standard du utility, which scans your disk and tells you
+which directories contain the largest amounts of data. that can help you
+narrow your search to the things most worth deleting.
+
+however, that only tells you what's big. what you really want to know is
+what's too big. by itself, du won't let you distinguish between data that's
+big because you're doing something that needs it to be big, and data that's
+big because you unpacked it once and forgot about it.
+
+to make this difference, agedu relies on the atime of the files.

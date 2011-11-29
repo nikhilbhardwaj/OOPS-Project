@@ -1,0 +1,21 @@
+Debugging symbols for the exim mta (v4) packages
+	
+exim (v4) is a mail transport agent. this package contains
+debugging symbols for the binaries contained in the
+exim4-daemon-light package.
+
+the debian exim4 packages have their own web page,
+http://pkg-exim4.alioth.debian.org/. there is also a debian-specific
+faq list. information about the way the debian packages are
+configured can be found in
+/usr/share/doc/exim4-base/readme.debian.gz, which additionally contains
+information about the way the debian binary packages are built. the
+very extensive upstream documentation is shipped in
+/usr/share/doc/exim4-base/spec.txt.gz. to repeat the debconf-driven
+configuration process in a standard setup, invoke dpkg-reconfigure
+exim4-config. there is a debian-centered mailing list,
+pkg-exim4-users@lists.alioth.debian.org. please ask debian-specific
+questions there, and only write to the upstream exim-users mailing
+list if you are sure that your question is not debian-specific. you
+can find the subscription web page on
+http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users

@@ -1,0 +1,9 @@
+Ocaml bindings for gdome2 dom implementation
+	
+ocaml bindings for gdome2 that is a fast, light and complete dom level2
+implementation based on libxml2.
+
+this particular binding is one of the bindings from the gmetadom
+binding collection.
+
+this package contains only the shared runtime stub libraries.

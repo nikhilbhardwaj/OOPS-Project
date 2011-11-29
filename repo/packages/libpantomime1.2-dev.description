@@ -1,0 +1,22 @@
+Gnustep framework for mail handling (development files)
+	
+pantomime provides a gnustep framework that models a mail system. pantomime
+can be seen as a javamail 1.2 clone written in objective-c.
+
+pantomime provides the following features:
+
+
+ * a full mime encoder and decoder
+ * a "folder view" to pop3 accounts, local (berkeley format) or imap mailboxes
+ * a powerful api to work on all aspects of message objects
+ * a local mailer and a smtp conduit for sending messages
+ * apop and smtp auth support
+ * imap and pop3 url scheme support
+ * iconv and core foundation support
+ * maildir support
+ * ssl support for imap, pop3 and smtp
+ * and more!
+
+
+this package contains the files required to develop applications that use
+pantomime.

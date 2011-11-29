@@ -1,0 +1,4 @@
+Set of encoding() methods for http::response
+	
+http::response:enconding adds methods to better handle encoded responses from
+http::response

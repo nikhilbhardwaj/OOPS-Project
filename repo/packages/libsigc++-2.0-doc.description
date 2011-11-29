@@ -1,0 +1,10 @@
+Type-safe signal framework for c++ - reference documentation
+	
+this library implements a full callback system for use in widget
+libraries, abstract interfaces, and general programming. it provides
+the ability to connect an abstract callback to a class method,
+function, or function object, and contains adaptor classes for the
+connection of dissimilar callbacks.
+
+this package contains the reference documentation for libsigc++,
+needed only if you wish to write software which uses it.

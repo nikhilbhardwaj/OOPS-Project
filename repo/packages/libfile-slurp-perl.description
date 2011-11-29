@@ -1,0 +1,6 @@
+Single call read & write file routines
+	
+this module consists of some quickie routines that read from,
+append to or overwrite a file with a single subroutine call. their main
+intention is to save a couple of lines of code over and over again,
+but they do not do anything fancy.

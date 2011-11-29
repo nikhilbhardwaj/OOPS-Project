@@ -1,0 +1,6 @@
+Cross-platform library for kernel event notification
+	
+libkqueue is a portable userspace implementation of the kqueue(2)
+kernel event notification mechanism found in freebsd and other bsd-based
+operating systems. the library translates between the kevent structure
+and the native kernel facilities of the host machine.

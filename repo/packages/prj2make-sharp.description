@@ -1,0 +1,5 @@
+Convert vs.net solution files to makefiles
+	
+prj2make-solution is a utility used to read a "solution" file created
+with visual studio .net and generate a usual makefile suitable for
+compilation with a c# compiler.

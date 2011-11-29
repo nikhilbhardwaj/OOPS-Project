@@ -1,0 +1,14 @@
+Raptor rdf parser and serializer library
+	
+raptor is a c library providing a set of parsers and serializers for
+resource description framework (rdf) triples by parsing syntaxes or
+serializing the triples into a syntax.
+
+the parsing syntaxes are rdf/xml, n-triples, turtle, grddl and rss
+tag soup including atom 0.3 and atom 1.0.  the serializing syntaxes
+are rdf/xml, n-triples rss 1.0 and atom 1.0.  raptor can handle
+rdf/xml as used by rdf applications such as rss 1.0, foaf, doap,
+dublin core and owl.
+
+raptor is designed for performance, flexibility and embedding (no
+memory leaks) and to closely match the revised rdf/xml specification.

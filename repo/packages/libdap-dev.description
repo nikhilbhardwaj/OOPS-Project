@@ -1,0 +1,10 @@
+Development files (headers and static libraries) for libdap
+	
+opendap provides software that allows you to access data over the internet,
+from programs that weren't originally designed for that purpose, as well
+as some that were. while opendap is the original developer of the data access
+protocol which its software uses, many other groups have adopted dap
+and provide compatible clients, servers and software development kits.
+
+this package contains header files, pkgconfig files and static libraries
+for dap.

@@ -1,0 +1,14 @@
+Support for printing to zjstream-based printers
+	
+foo2zjs is an open source printer driver for printers that use the
+zenographics zjstream wire protocol for their print data, such as the
+minolta magicolor 2200/2300/2430 dl, minolta color pageworks/pro l and
+hp laserjet 1000/1005/1018/1020/1022. these printers are often
+erroneously referred to as "winprinters" or "gdi printers".
+
+this package provides the following drivers: foo2hiperc, foo2hp,
+foo2lava, foo2oak, foo2qpdl, foo2slx, foo2xqx, foo2zjs.
+
+the foomatic-db-engine package is recommended to simplify configuring
+this printer driver.  the psutils package is needed to enable n-up
+printing support.

@@ -1,0 +1,9 @@
+Global and progressive multiple sequence alignment
+	
+kalign is a command line tool to perform multiple alignment of
+biological sequences. it employs the muth-manber string-matching
+algorithm, to improve both the accuracy and speed of the alignment.
+it uses global, progressive alignment approach, enriched by employing
+an approximate string-matching algorithm to calculate sequence
+distances and by incorporating local matches into the otherwise global
+alignment.

@@ -1,0 +1,8 @@
+Xml to pdf translator
+	
+fop is a print formatter driven by xsl formatting objects.
+it is a java application that reads a formatting object
+tree and then turns it into a pdf document. the formatting
+object tree can be in the form of an xml document (output by
+an xslt engine like xalan) or can be passed in memory as a dom
+document or (in the case of xalan) sax events.

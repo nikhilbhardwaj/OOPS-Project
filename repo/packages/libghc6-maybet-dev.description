@@ -1,0 +1,9 @@
+Haskell maybet monad transformer - ghc 6 libraries
+	
+maybet is a haskell monad transformer that adds maybe semantics to an
+existing monad, making it able to fail (i.e. return nothing) or be
+successful (return the result wrapped in a just).
+
+if you don't know what a haskell monad is, you can just ignore this package.
+
+this package contains the libraries compiled for ghc 6.

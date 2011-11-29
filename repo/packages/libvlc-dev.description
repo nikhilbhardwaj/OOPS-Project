@@ -1,0 +1,8 @@
+Development files for libvlc
+	
+this package contains headers and a static library required to build
+standalone applications that use vlc features.
+
+vlc is the videolan project's media player. it plays mpeg, mpeg2, mpeg4,
+divx, mov, wmv, quicktime, mp3, ogg/vorbis files, dvds, vcds, and multimedia
+streams from various network sources.

@@ -1,0 +1,10 @@
+Haskell support for regexp based pattern matching - ghc 6 libraries
+	
+harp, or haskell regular patterns, is a haskell extension that extends
+the normal pattern matching facility, allowing the user to match against
+regular expressions. this expressive power is highly useful in a wide
+range of areas, including text parsing and xml processing. regular
+expression patterns in harp work over ordinary haskell lists ([]) of
+arbitrary type. harp is implemented as a pre-processor to ordinary haskell.
+
+this package contains the libraries compiled for ghc 6.

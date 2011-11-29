@@ -1,0 +1,20 @@
+Random-number generator test library -- development package
+	
+libdieharder is the core library of dieharder and friends, designed to
+be "the last suite of random number testers you'll ever wear".  it can
+test any of its many prebuilt and library linked generators (basically
+all of those in the gnu scientific library plus a number of others from
+various sources) or a potentially random dataset in either an
+ascii-formatted or raw (presumed 32 bit uint) binary file.  it is fairly
+straightforward to wrap new software generators for testing, or to add
+hardware generators that have a software interface for testing, and the
+file input method permits pretty much any software or hardware rng to be
+tested using libdieharder calls.
+
+libdieharder has as a design goal the full encapsulation in an
+extensible shell of basically all the random number tests i have been
+able to find -- george marsaglia's "diehard" battery of tests, sts
+(v1.6) from nist fips, knuth's tests, and more.  check in the man
+page(s) or /usr/share/dieharder*/dieharder.pdf for documentation.
+
+this package provides the header files and the pdf manual.

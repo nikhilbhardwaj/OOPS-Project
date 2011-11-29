@@ -1,0 +1,9 @@
+Tool to distribute config files
+	
+this project is aimed at automatically installing (and keeping
+update) site specific config files on many hosts, after preprocessing
+them (conditional content and include files and include sections). it
+also triggers postinstall scripts whenever their associated config
+file has been changed. it can also remove config files, including
+running an preremove script before doing so. all this is driven by an
+simple config file list.

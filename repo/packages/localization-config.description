@@ -1,0 +1,7 @@
+Configures different programs' locale settings
+	
+updates config files of different programs so they use the right
+language by default.
+
+this package is based on locale-config-skolelinux from the skolelinux
+project (now debian edu project), which it replaces.

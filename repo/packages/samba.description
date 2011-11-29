@@ -1,0 +1,14 @@
+Smb/cifs file, print, and login server for unix
+	
+samba is an implementation of the smb/cifs protocol for unix systems,
+providing support for cross-platform file and printer sharing with
+microsoft windows, os x, and other unix systems.  samba can also function
+as an nt4-style domain controller, and can integrate with both nt4 domains
+and active directory realms as a member server.
+
+this package provides the components necessary to use samba as a
+stand-alone file and print server.  for use in an nt4 domain or active
+directory realm, you will also need the winbind package.
+
+this package is not required for connecting to existing smb/cifs servers
+(see smbclient) or for mounting remote filesystems (see cifs-utils).

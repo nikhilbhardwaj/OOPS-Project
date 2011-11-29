@@ -1,0 +1,4 @@
+Creates debian source packages for php pear and pecl extensions
+	
+contains dh-make-pear and dh-make-pecl, which create debian source packages
+from php pear and pecl packages respectively.

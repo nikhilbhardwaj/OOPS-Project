@@ -1,0 +1,14 @@
+Utilities for multi-way secret-sharing
+	
+this package contains the gfsplit and gfcombine binaries.
+
+gfsplit can be used to split a secret file (like a gpg secret key)
+into multiple parts, so that at least some number of those parts are needed
+to recover the original file, but any smaller combination of parts is useless
+to an attacker. gfcombine is used to combine the parts created by gfsplit.
+
+for instance, you might split a gpg key using a 3-of-5 share and put one
+share on each of three computers, and two shares on a usb memory stick; then
+you can use the gpg key on any of those three computers using the memory
+stick, but if the memory stick is lost, you can recover the key by
+bringing the three computers together.

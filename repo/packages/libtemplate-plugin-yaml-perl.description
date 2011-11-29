@@ -1,0 +1,5 @@
+Simple template toolkit plugin interface to the yaml module
+	
+template::plugin::yaml provides the ability to load yaml strings and files
+into data structures and also dump data structures to files and strings from
+within the perl template toolkit.

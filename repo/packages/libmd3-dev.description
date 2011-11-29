@@ -1,0 +1,9 @@
+Library to handle quake .md3 files - development files
+	
+this library provides full support for loading all quake .md3 models found
+in the field. many of these were not handled by tutorial code, or other
+loaders. it contains a simple converter provided for stripping environment
+texture coords to make vertex data more compact and easy to use.
+
+this package contains the development files needed to compile and link against
+this library.

@@ -1,0 +1,14 @@
+Tipc utilities
+	
+this package provides tools and scripts to configure and manage
+version 1.6 of the tipc (transparent inter process communication)
+kernel module.
+
+tipc is designed for use in clustered computer environments, allowing
+the creation of applications that can communicate with one another
+quickly and reliably regardless of their location within the cluster.
+
+the tipc 1.6 kernel module is included in the official linux kernel
+releases 2.6.16 to 2.6.33. please note that this version is not
+compatible with tipc versions or official linux kernel releases other
+than the mentioned ones.

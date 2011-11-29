@@ -1,0 +1,13 @@
+Runtime tools to handle med files
+	
+med-fichier (modélisation et echanges de données, in english modelisation
+and data exchange) is a library to store and exchange meshed data or
+computation results. it uses the hdf5 file format to store the data.
+
+this package contains runtime tools for med-fichier:
+
+ - mdump: a tool to dump med files
+ - xmdump: graphical version of mdump.
+ - medconforme: a tool to validate a med file
+ - medimport: a tool to convert a med v2.1 or v2.2 file into a med v2.3
+   file

@@ -1,0 +1,12 @@
+A library for demand-driven testing of haskell programs; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+
+lazy smallcheck is a library for exhaustive, demand-driven testing of
+haskell programs.  it is based on the idea that if a property holds
+for a partially-defined input then it must also hold for all
+fully-defined refinements of the that input.  compared to ``eager''
+input generation as in smallcheck, lazy smallcheck may require
+significantly fewer test-cases to verify a property for all inputs up
+to a given depth.

@@ -1,0 +1,25 @@
+Qt-based midi/audio sequencer
+	
+muse is a midi/audio sequencer with recording and editing capabilities.
+some highlights:
+
+
+ - standard midifile (smf) import-/export
+ - organizes songs in tracks and parts which you can arrange with
+   the part editor
+ - midi editors: pianoroll, drum, list, controller
+ - score editor with high quality postscript printer output
+ - realtime: editing while playing
+ - unlimited number of open editors
+ - unlimited undo/redo
+ - realtime and step-recording
+ - multiple midi devices
+ - unlimited number of tracks
+ - sync to external devices:
+   mtc/mmc, midi clock, master/slave (currently only partially implemented)
+ - audio tracks, ladspa host for master effects
+ - multithreaded
+ - uses raw midi devices (alsa & serial ports..., oss was dropped)
+ - xml project file
+ - project file contains complete app state (session data)
+ - application spanning cut/paste drag/drop

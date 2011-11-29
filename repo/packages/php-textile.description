@@ -1,0 +1,5 @@
+Php parser for the textile markup
+	
+textile takes plain text with simple markup and produces valid
+xhtml. this php library implements a parser and a generator that
+supports the textile markup syntax.

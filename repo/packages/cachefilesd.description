@@ -1,0 +1,8 @@
+Support fscache on already mounted filesystem
+	
+fscache is a generic caching manager in the linux kernel which can be used
+by network and other filesystems to cache data locally.
+
+cachefiles is an fscache backend that's meant to use as a cache a directory on
+an already mounted filesystem of a local type (such as ext3).  this package
+installs the userspace support required by the cachefiles backend.

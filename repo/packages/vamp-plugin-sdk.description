@@ -1,0 +1,20 @@
+Audio analysis and feature extraction plugins (sdk)
+	
+vamp is an audio processing plugin system for plugins that extract
+descriptive information from audio data - typically referred to as
+audio analysis plugins or audio feature extraction plugins.
+
+just like an audio effects plugin (such as a vst), a vamp plugin is a
+binary module that can be loaded up by a host application and fed
+audio data. however, unlike an effects plugin, a vamp plugin outputs
+not processed audio but some sort of symbolic information. typical
+things that a vamp plugin might calculate include the locations of
+moments such as note onset times, visual representations of the audio
+such as histograms, or curve data such as power or fundamental
+frequency.
+
+hosts using vamp plugins include audacity and sonic visualiser.
+
+this package contains c and c++ header files for developing vamp
+plugins and hosts as well as source code of example plugins and a
+simple host and also a utility to generate vamp plugin rdf templates.

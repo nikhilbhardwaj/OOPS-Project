@@ -1,0 +1,9 @@
+Cairo bindings for the ruby language
+	
+cairo is a multi-platform library providing anti-aliased vector-based
+rendering for multiple target backends. this package contains libraries for
+using cairo with the ruby programming language. it is most likely useful in
+conjunction with ruby bindings for other libraries such as gtk+.
+
+this is a dependency package which depends on debian's default version of ruby
+(currently 1.8).

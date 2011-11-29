@@ -1,0 +1,8 @@
+Sync mail dir gnome applet
+	
+sync mail dir is a set of utilities to synchronize a pair of mail boxes
+in maildir format, using ssh to transfer data.
+
+this package provides an applet that integrates smd-loop with gnome, i.e.
+notifies the user with popups, starts smd-loop when the user logs in and
+provides a simple user interface to deal with synchronization errors.

@@ -1,0 +1,16 @@
+Qt application for viewing git trees
+	
+with qgit you will be able to browse revision tree, view patch content
+and changed files, graphically following different development branches.
+main features:
+
+ - view revisions, diffs, files history, files annotation, archive tree.
+ - commit changes visually cherry picking modified files.
+ - apply or format patch series from selected commits, drag and
+   drop commits between two instances of qgit.
+ - qgit implements a gui for the most common stgit commands like push/pop
+   and apply/format patches. you can also create new patches or refresh
+   current top one using the same semantics of git commit, i.e.
+   cherry picking single modified files.
+
+.

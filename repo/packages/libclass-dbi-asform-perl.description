@@ -1,0 +1,8 @@
+Module to produce html form elements for database columns using class::dbi
+	
+the class::dbi::asform module helps to generate html forms for creating new
+database rows or editing existing rows. it maps column names in a database
+table to html form elements which fit the schema. large text fields
+are turned into textareas, and fields with a has-a relationship to
+other class::dbi tables are turned into select drop-downs populated
+with objects from the joined class.

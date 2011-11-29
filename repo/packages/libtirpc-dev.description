@@ -1,0 +1,7 @@
+Transport-independent rpc library - development files
+	
+this package contains a port of sun's transport-independent rpc library to
+linux. the library is intended as a replacement for the rpc code in the gnu c
+library, providing among others support for rpc (and in turn, nfs) over ipv6.
+
+this package contains the files needed for development against libtirpc.

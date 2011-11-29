@@ -1,0 +1,13 @@
+An mp3/ogg multicast/http streamer and mp3 cutting tool
+	
+poc is a suite of mp3 tools and mp3 streaming programs. it can stream
+mp3s over http, rtp multicast (rfc 2250 and rfc 3119) and a special
+multicast protocol to enable the use of forward error correction to
+protect the mp3 stream against packet loss. it can also stream oggs
+over http.
+in addition to the streaming programs, poc contains two mp3 tools:
+mp3cue and mp3cut. mp3cue can cut a big mp3 file according to a
+tracklisting contained in a .cue file. mp3cut can split and
+concatenate mp3 files according to time slices given on the command
+line. mp3cut cuts mp3 files on adu (autonomous data units) frames
+to ensure best quality.

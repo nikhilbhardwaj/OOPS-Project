@@ -1,0 +1,9 @@
+Ruby extension for the ncurses c library
+	
+all c functions are wrapped by module functions of the module "ncurses",
+with exactly the same name. additionally, c functions expecting a window* as
+their first argument can also be called as methods of the "ncurses::window"
+class.
+
+the panel library (for support of overlapping windows) is also wrapped, in
+the module "ncurses::panel".

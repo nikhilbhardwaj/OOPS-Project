@@ -1,0 +1,9 @@
+Afs distributed filesystem database server
+	
+afs is a distributed filesystem allowing cross-platform sharing of
+files among multiple computers.  facilities are provided for access
+control, authentication, backup and administrative management.
+
+this package provides afs database server binaries.  it should be
+installed on the servers that will act as volume location and
+protection servers.

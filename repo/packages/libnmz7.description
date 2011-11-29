@@ -1,0 +1,8 @@
+Full text search engine - shared library
+	
+namazu is a full text search engine which is usable via cgi. it features
+a simple and easy setup, and is written in c and perl. namazu uses the
+text utilities nkf, kakasi or chasen.
+
+the package contains shared library. it is for cgi, command line tool,
+and/or another utilities.

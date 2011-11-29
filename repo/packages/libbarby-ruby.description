@@ -1,0 +1,12 @@
+Ruby library for barcode generation
+	
+this is a pure-ruby library for generating various kinds of barcodes,
+including all the standard 1d and 2d barcodes, and meant to be easily
+extensible.
+
+barby separates the concerns of barcode generation and graphical
+representations, so not only the barcodes' format can be extended,
+but also the way they are output.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

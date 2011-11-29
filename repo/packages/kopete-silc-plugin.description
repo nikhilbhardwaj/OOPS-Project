@@ -1,0 +1,12 @@
+Plugin for kopete to support silc protocol
+	
+plugin for kopete instant messaging client to support the silc protocol.
+
+silc (secure internet live conferencing) is a protocol which provides
+secure conferencing services in the internet over insecure channel.
+silc is like irc although internally they are very different.
+the biggest similarity between silc and irc is that they both provide
+conferencing services and that silc has almost same commands as irc.  other
+than that they are nothing alike.  the biggest differences are that silc is
+secure and irc is not in any way.  the network model is also entirely
+different to irc.

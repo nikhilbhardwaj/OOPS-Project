@@ -1,0 +1,9 @@
+Swish document indexing made easy
+	
+swish::api::common offers an easy interface to the swish index engine.
+while swish::api offers a complete api, swish::api::common focusses
+on ease of use.
+
+currently, swish::api::common just allows for indexing documents
+in a single directory and any of its subdirectories. also, don't run
+index() and search() in parallel yet.

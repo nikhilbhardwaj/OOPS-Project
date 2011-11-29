@@ -1,0 +1,8 @@
+Unpacks .arc and .ark ms-dos archives
+	
+this is a de-archiving only replacement for the arc archiver from sea.  it
+can handle pkarc archives, as well as others.  it can also be used with
+emacs - see the nomarch manpage.
+
+this package is very useful for e-mail virus scanner scripts for attachement
+unpacking.

@@ -1,0 +1,14 @@
+Places database for the 2000 us gazetteer
+	
+this is a database of (primarily) united states cities using
+information gathered in the 2000 census.  each entry contains:
+
+ * full name for the city
+ * type of entry (city, borough, village, etc)
+ * total population and housing units
+ * total land and water area, given in both square miles and
+   square kilometers
+ * government fips code
+ * state the city is within
+ * latitude and longitude of the city
+ * zip codes for the location from 1990.

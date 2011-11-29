@@ -1,0 +1,4 @@
+Broadcast relay daemon
+	
+the bcrelay daemon relays broadcasts between two interfaces. it is shipped
+with the pptpd package, but can be used for other purposes.

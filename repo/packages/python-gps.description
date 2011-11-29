@@ -1,0 +1,10 @@
+Global positioning system - python libraries
+	
+the gpsd service daemon can monitor one or more gps devices connected to
+a host computer, making all data on the location and movements of the
+sensors available to be queried on tcp port 2947.
+
+this package contains a python interface to connect to gpsd, together with
+a module providing a controlled testing environment. it also ships two tools
+which utilize the interface: gpsprof for latency-profiling, and gpsfake to
+simulate a gps by playing back a logfile.

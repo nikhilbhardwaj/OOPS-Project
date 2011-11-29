@@ -1,0 +1,6 @@
+Perl module for highlighting words or patterns in html documents
+	
+html::highlight provides google-like highlighting of words or patterns
+in html documents. this feature is typically used to highlight search
+results. each specified pattern or word is highlighted using a
+different color.

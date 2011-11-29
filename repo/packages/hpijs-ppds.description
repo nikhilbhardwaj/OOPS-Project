@@ -1,0 +1,10 @@
+Hp linux printing and imaging - hpijs ppd files
+	
+this package contains ppd (printer definition) files for the
+printers supported through the hp linux printing and imaging
+system hpijs driver.
+
+these ppds should work well with the matching versions of hplip
+and hpijs, but may not be the most up-to-date ppds available for
+a given printer.  see http://www.openprinting.org/ for the latest
+version of the ppds (which are not guaranteed to work well).

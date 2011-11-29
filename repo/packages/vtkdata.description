@@ -1,0 +1,8 @@
+Example data for vtk
+	
+the visualization toolkit comes with example c++, tcl and
+python code. these examples reference data files installed
+by this package.
+
+during building of vtk packages this data is used in the
+testing stages.

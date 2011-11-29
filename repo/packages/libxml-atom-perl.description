@@ -1,0 +1,5 @@
+Module for manipulating atom feeds
+	
+xml::atom is a perl module that implements the atom syndication api and
+archiving format for blogs and other data. this module consists of both
+the protocol implementation and a simple client for the api.

@@ -1,0 +1,13 @@
+Libc+syscalls to libc-only wrapper for libc functions
+	
+purelibc is an overlay library that converts the glibc, the gnu standard c
+library, into a pure library, i.e. a library that can upcall instead of
+running the system calls. with purelibc a process can trace (and virtualize)
+its own calls. it is used, for instance, by the umview modules to support
+the recursion of virtual environments.
+
+purelibc, along with umview, is part of the view-os project:
+http://wiki.virtualsquare.org
+
+this package contains the library, that can be linked with an application or
+preloaded using the ld_preload environment variable.

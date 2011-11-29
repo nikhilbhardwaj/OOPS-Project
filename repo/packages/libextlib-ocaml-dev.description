@@ -1,0 +1,16 @@
+Extended standard library for ocaml
+	
+extlib is a project aiming at providing a complete - yet small -
+standard library for the ocaml programming language.
+
+the purpose of this library is to add new functions to ocaml
+standard library modules, to modify some functions in order to
+get better performances or more safety (tail-recursive) but also
+to provide new modules which should be useful for the average
+ocaml programmer.
+
+extlib contains modules implementing: enumeration over abstract
+collection of elements, efficient bit sets, dynamic arrays,
+references on lists, unicode characters and utf-8 encoded
+strings, additional and improved functions for hashtables,
+strings, lists and option types.

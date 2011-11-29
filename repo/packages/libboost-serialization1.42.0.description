@@ -1,0 +1,17 @@
+Serialization library for c++
+	
+this package forms part of the boost c++ libraries collection,
+containing the following functionalities:
+
+
+ * proper restoration of pointers to shared data
+ * serialization of stl containers and other commonly used templates
+ * data portability - streams of bytes created on one platform should
+   be readable on any other
+ * archive interface must be rich enough to permit the creation of an
+   archive that presents serialized data as xml in a useful manner
+
+
+here, "serialization" means the reversible deconstruction of an
+arbitrary set of c++ data structures to a sequence of bytes.
+archive: to refer to a specific rendering of this stream of bytes.

@@ -1,0 +1,5 @@
+Support for third-party components in java look-and-feel libraries
+	
+the goal of this project is to provide a generic plugin framework for
+look-and-feels and define the interface of a common kind of plugins - the
+component plugins.

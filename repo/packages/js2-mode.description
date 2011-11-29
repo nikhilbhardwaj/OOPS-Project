@@ -1,0 +1,18 @@
+Emacs mode for editing javascript programs
+	
+this javascript editing mode supports:
+
+
+ - the full javascript language through version 1.7
+ - support for most rhino and spidermonkey extensions from 1.5 to 1.7
+ - accurate syntax highlighting using a recursive-descent parser
+ - syntax-error and strict-mode warning reporting
+ - "bouncing" line indentation to choose among alternate indentation points
+ - smart line-wrapping within comments and strings
+ - code folding:
+   - show some or all function bodies as {...}
+   - show some or all block comments as /*...*/
+ - context-sensitive menu bar and popup menus
+ - code browsing using the imenu' package
+ - typing helpers (e.g. inserting matching braces/parens)
+ - many customization options

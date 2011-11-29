@@ -1,0 +1,12 @@
+Gnu readline and bsd editline wrappers for java
+	
+included is the java package org.gnu.readline which provides the gnu
+readline and bsd editline libraries for java.  note that this is not a
+pure java implementation; it merely contains jni wrappers for the standard
+system libraries.
+
+bsd editline resembles gnu readline but is under a more relaxed license.
+in some cases it can be used as a drop-in replacement for gnu readline
+when licensing issues prevent gnu readline from being used.
+
+the api documentation and examples can be found in libreadline-java-doc.

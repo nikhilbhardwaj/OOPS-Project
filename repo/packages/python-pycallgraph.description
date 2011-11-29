@@ -1,0 +1,5 @@
+Python library that creates call graphs for python programs
+	
+it uses graphviz to generate call graphs from one execution of
+your python code. it's very easy to use and can point out possible problems
+with your code execution.

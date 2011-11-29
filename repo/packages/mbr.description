@@ -1,0 +1,5 @@
+Master boot record for ibm-pc compatible computers.
+	
+the mbr is used in booting operating systems from the hard disk. it
+runs first, then transfers control to the operating system's loader
+which transfers control to the kernel.

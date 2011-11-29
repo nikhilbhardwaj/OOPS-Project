@@ -1,0 +1,15 @@
+Unified java api to access an olap server - documentation
+	
+olap4j is a java library to access a olap server with an unified api :
+you may switch your olap server to another implementation with ease.
+
+it can be compared to jdbc for sql servers.
+
+this project is supported by many libre software project in this area :
+
+ * jasperreports
+ * mondrian
+ * pentaho
+
+
+this package contains javadoc api of olap4j package.

@@ -1,0 +1,10 @@
+Intelligent phonetic input method library - data files
+	
+libchewing is an intelligent phonetic input method library for chinese.
+
+it provides the core algorithm and logic so that they can be shared among
+the various input methods like jmcce, xcin-chewing, scim-chewing,
+iiimf-chewing, screen-chewing, ime-chewing, etc.
+
+the chewing input method is a smart bopomofo fonetics input method that
+is useful for inputing mandarin chinese based language.

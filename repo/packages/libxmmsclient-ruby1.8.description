@@ -1,0 +1,11 @@
+Xmms2 - ruby bindings
+	
+xmms2 is a redesign of the xmms music player. it features a client-server
+model, allowing multiple (even simultaneous!) user interfaces, both textual
+and graphical. all common audio formats are supported using plug-ins. on top of
+this, there is a flexible media library to organize your music.
+
+this package contains a ruby library that allows you to write xmms2 clients.
+it's a language binding of libxmmsclient0.
+
+this package is compiled for ruby 1.8.

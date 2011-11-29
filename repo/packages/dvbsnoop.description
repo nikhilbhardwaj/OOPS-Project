@@ -1,0 +1,15 @@
+Dvb / mpeg stream analyzer
+	
+this sniffer program can monitor, analyze, debug, dump or view dvb / mpeg /
+dsm-cc / mhp stream information:
+
+ * iso/dvb basic sections: bat, pat, sdt, nit, ...
+ * dsm-cc: int, mpe, mpe fec, datagram, ...
+ * ts (transport stream), ps (program stream),
+   pes (packetized elementary stream)
+
+
+input can be a live stream from a dvb card, or a recorded stream.
+
+for dvb cards, it can also dump frontend information and status, and make a
+pid scan.

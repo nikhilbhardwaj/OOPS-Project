@@ -1,0 +1,9 @@
+Perl manual pages index and query application
+	
+perlindex is a program to index and search the perl documentation.
+
+an index database must be built that will store keywords for *all*
+perl and installed modules man pages.
+
+then perlindex can be run and will present the user the most likely
+choice for documentation.

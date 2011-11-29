@@ -1,0 +1,6 @@
+Festival text to speech synthesizer for hindi language
+	
+this package provides the modules required to synthesize speech in hindi (hi)
+language using the festival text-to-speech synthesizer. given text represented
+in unicode (utf-8 encoding), it uses the festival synthesizer to generate
+speech in hindi.

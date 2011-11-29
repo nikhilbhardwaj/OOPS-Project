@@ -1,0 +1,6 @@
+Alternative python package installer
+	
+pip is a replacement for easy_install, and is intended to be an improved
+python package installer.  it integrates with virtualenv, doesn't do partial
+installs, can save package state for replaying, can install from non-egg
+sources, and can install from version control repositories.

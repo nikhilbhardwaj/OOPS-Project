@@ -1,0 +1,8 @@
+Perl extension for scrubbing/sanitizing html
+	
+if you want to "scrub" or "sanitize" html input in a reliable and
+flexible fashion, then this module is for you.
+
+the author says: "i was not satisfied with html::sanitizer because it
+is based on html::treebuilder, so i thought i would write something
+similar that works directly with html::parser".

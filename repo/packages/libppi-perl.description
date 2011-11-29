@@ -1,0 +1,12 @@
+Module to parse, analyze and manipulate perl code
+	
+ppi provides the ability to parse, analyze and manipulate perl code without
+actually executing the code, by implementing a lexer similar to what perl has
+itself internally.
+
+the purpose of ppi is not to parse perl code, but to parse perl documents. by
+making this distinction and treating the problem this way, one could analyze
+files containing perl source code in isolation from any other resources and
+without executing it, including other libraries. a significant feature of ppi
+is the ability to analyze perl source code without requiring an instance of
+perl to run alongside or inside the parser.

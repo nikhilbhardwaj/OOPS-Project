@@ -1,0 +1,9 @@
+A podcast client and feed aggregator
+	
+gpodder is a podcast receiver/catcher. you can subscribe to feeds
+("podcasts") and automatically download new audio and video content.
+downloaded content can be played on your computer or synchronized to
+ipods, mtp-based players, filesystem-based mp3 players and bluetooth
+enabled mobile phones. youtube video feeds are also supported.
+
+this package provides the "gpodder" gui and the "gpo" cli utility.

@@ -1,0 +1,7 @@
+Utilities for configuring the linux ethernet bridge
+	
+this package contains utilities for configuring the linux ethernet
+bridge in linux 2.4 or later. the linux ethernet bridge can be used
+for connecting multiple ethernet devices together. the connecting is
+fully transparent: hosts connected to one ethernet device see hosts
+connected to the other ethernet devices directly.

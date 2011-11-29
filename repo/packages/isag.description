@@ -1,0 +1,5 @@
+Interactive system activity grapher for sysstat
+	
+this package provides the command isag, which graphically displays the
+system activity data stored in the binary logs produced by sar (in the
+package sysstat).

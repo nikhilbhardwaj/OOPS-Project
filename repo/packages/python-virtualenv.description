@@ -1,0 +1,6 @@
+Python virtual environment creator
+	
+the virtualenv utility creates virtual python instances, each invokable
+with its own python executable.  each instance can have different sets
+of modules, installable via easy_install.  virtual python instances can
+also be created without root access.

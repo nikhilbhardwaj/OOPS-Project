@@ -1,0 +1,10 @@
+Mp3 format support (format_mp3) for the asterisk pbx
+	
+asterisk is an open source pbx and telephony toolkit.
+
+this package provides read-only native support for mp3 files for the asterisk
+pbx.  this should allow you to, e.g, play mp3 files using playback() or
+background() from the dialplan.
+
+for more information about the asterisk pbx, have a look at the asterisk
+package.

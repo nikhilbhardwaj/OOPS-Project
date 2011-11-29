@@ -1,0 +1,14 @@
+Parser for chemical formula and equilibria
+	
+chemeq is a basic standalone filter written in c language,
+flex and bison. it inputs strings like:
+
+ 2h2 + o2 ---> 2 h2o
+
+then it outputs latex code and messages about the equilibrium of a
+chemical reaction.
+
+
+ example:~/src$ echo "2h2 + o2 ---> 2 h2o" | chemeq -lc
+ 2\,h_{2}\,+\,o_{2}\,\rightarrow\,2\,h_{2}o
+ ok

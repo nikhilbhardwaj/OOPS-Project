@@ -1,0 +1,10 @@
+X.org x server -- qxl display driver
+	
+this package provides the driver for qxl video device, i.e. if linux is
+running inside a redhat enterprise virtulization(rhev) environment, or
+other spice-compatible kvm/qemu emulator.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-qxl driver module.

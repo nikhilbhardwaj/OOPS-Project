@@ -1,0 +1,10 @@
+Gnome bluetooth tools
+	
+this package contains tools for managing and manipulating bluetooth
+devices using the gnome desktop.
+
+bluetooth-applet provides an agent to ask for pin and managing pairing with
+devices, together with bluetooth-properties.
+
+bluetooth-sendto is also included for sending files to bluetooth devices via
+obex.

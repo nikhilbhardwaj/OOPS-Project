@@ -1,0 +1,9 @@
+A generic tagging application for django projects
+	
+this is a generic tagging application for django, which allows
+association of a number of tags with any model instance and makes
+retrieval of tags simple.
+
+models can be expanded with a new tagfield; web templates
+can easily include tag clouds and dedicated views are available
+to browse objects by tag.

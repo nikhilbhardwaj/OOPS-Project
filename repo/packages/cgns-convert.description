@@ -1,0 +1,11 @@
+Cfd general notation system - conversion tools
+	
+the cfd general notation system (cgns) provides a general, portable, and
+extensible standard for the storage and retrieval of computational fluid
+dynamics (cfd) analysis data. it consists of a collection of conventions, and
+free and open software implementing those conventions. it is self-descriptive,
+machine-independent, well-documented, and administered by an international
+steering committee. it is also an american institute of aeronautics and
+astronautics (aiaa) recommended practice.
+
+this package contains the adf2hdf, hdf2adf tools.

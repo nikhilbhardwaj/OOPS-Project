@@ -1,0 +1,7 @@
+Fast, high-capacity, identifier database tool
+	
+actually, the term `identifier' is too limiting--`mkid' stores
+tokens, be they program identifiers of any form, literal numbers, or
+words of human-readable text.  database queries can be issued from the
+command-line, or from within emacs, serving as an augmented tags
+facility.

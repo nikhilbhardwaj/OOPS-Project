@@ -1,0 +1,5 @@
+Perl module that provides an interface to youtube services
+	
+webservice::youtube provides a perl interface to youtube programming interface
+and corresponding rss services. this module only supports the legacy api, not
+the data api based on the google data protocol.

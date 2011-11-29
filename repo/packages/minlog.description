@@ -1,0 +1,18 @@
+Proof assistant based on first order natural deduction calculus
+	
+intended to reason about computable functionals, using minimal
+rather than classical or intuitionistic logic. the main motivation
+behind minlog is to exploit the proofs-as-programs paradigm for
+program development and program verification. proofs are in fact
+treated as first class objects which can be normalized. if a formula
+is existential then its proof can be used for reading off an instance
+of it, or changed appropriately for program development by proof
+transformation. to this end minlog is equipped with tools to extract
+functional programs directly from proof terms. this also applies to
+non-constructive proofs, using a refined a-translation. the system
+is supported by automatic proof search and normalization by
+evaluation as an efficient term rewriting device.
+
+minlog can be used with proofgeneral, which allows proofs to be
+edited using emacs and xemacs. this requires the proofgeneral-minlog
+package to be installed.

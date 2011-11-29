@@ -1,0 +1,5 @@
+Sqlite database driver for libdbi
+	
+this driver provides support for serverless sqlite databases through the
+libdbi database independent abstraction layer. switching a program's driver
+does not require recompilation or rewriting source code.

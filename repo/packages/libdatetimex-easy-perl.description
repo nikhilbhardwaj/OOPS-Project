@@ -1,0 +1,6 @@
+Module to parse arbitrary date/time strings
+	
+datetimex::easy is a perl module designed to make it easy to create datetime
+objects from arbitrary strings. it uses a variety of datetime::format modules
+to do the bulk of the parsing, with some tweaks to smooth out the rough edges
+(mainly concerning timezone detection and selection).

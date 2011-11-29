@@ -1,0 +1,5 @@
+Wrapper for using gnupg in programs designed for pgp
+	
+pgpgpg is a wrapper around gnu privacy guard which takes pgp 2.6
+command line options, translate them and then call gnupg (gnu privacy
+guard) to perform the desired action.

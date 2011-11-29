@@ -1,0 +1,12 @@
+Combined parser/scanner generator for c/c++
+	
+the package facilitates application development including
+user-defined context free languages.
+
+its development model deviates from the traditional lex/yacc pair
+(flex/bison in debian) by automating tedious tasks which are
+commonly implemented in yacc's actions.
+
+styx automatically derives a depth grammar, generates reentrant
+parsers that support persistent derivation trees, preserve full
+source information, support unicode and are thread safe.

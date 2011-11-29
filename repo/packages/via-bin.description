@@ -1,0 +1,8 @@
+Tools for volumetric image analysis
+	
+via is a volumetric image analysis suite for functional and structural
+(medical) images. the suite consists of different tools ranging from
+simple data handling over viewers to complex image transformation.
+
+all tools operate on data in vista format. the package contains several
+converters from e.g. png, pgm or pnm to this data format and back.

@@ -1,0 +1,6 @@
+Class to ease the manipulation of dynamic libraries
+	
+part of the libclaw library.
+
+this library is intended to ease the use or dynamic libraries: loading,
+checking the availability of a symbol and getting a function pointer on it.

@@ -1,0 +1,10 @@
+Update utility for linux-kernel sources
+	
+this utility can update (or install) kernel sources automatically.
+it can search for the newest kernel in numerous trees (vanilla, rc,
+tiny, mm, mjb, etc.).
+
+it can also automatically download the needed patches (and apply
+them) to create the newest repository from an old one.
+
+homepage: http://www.selenic.com/ketchup/

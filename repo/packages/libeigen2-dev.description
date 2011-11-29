@@ -1,0 +1,9 @@
+Lightweight c++ template library for linear algebra
+	
+eigen 2 is a lightweight c++ template library for vector and matrix math,
+a.k.a. linear algebra.
+
+unlike most other linear algebra libraries, eigen 2 focuses on the simple
+mathematical needs of applications: games and other opengl apps, spreadsheets
+and other office apps, etc. eigen 2 is dedicated to providing optimal speed
+with gcc.

@@ -1,0 +1,7 @@
+Embedded perl 5 language
+	
+eperl interprets an ascii file bristled with perl 5 program statements by
+evaluating the perl 5 code while passing through the plain ascii data. it
+can operate in various ways: as a stand-alone unix filter or integrated
+perl 5 module for general file generation tasks and as a powerful webserver
+scripting language for dynamic html page programming.

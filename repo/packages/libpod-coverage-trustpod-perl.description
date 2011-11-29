@@ -1,0 +1,7 @@
+Module to support hints for pod::coverage
+	
+pod::coverage::trustpod is a perl module that extends pod::coverage by
+allowing your plain old documentation (pod) to declare certain symbol names
+as trusted. it is similar to using the 'trustme' feature in your test file,
+but does not require changes to the test file; instead, you make such trust
+annotations in your pod in a specially formatted field.

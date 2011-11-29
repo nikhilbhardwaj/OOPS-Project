@@ -1,0 +1,6 @@
+Romaji hiragana conversion library (elisp binding)
+	
+suikyo is a romaji hiragana conversion library based on
+dfa (deterministic finate state) automaton.
+
+this package contains elisp binding of suikyo

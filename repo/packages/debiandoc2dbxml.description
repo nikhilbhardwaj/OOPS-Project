@@ -1,0 +1,8 @@
+Debiandoc to docbook xml converter
+	
+this package provides a method for converting an sgml file written
+according to the debiandoc dtd into an xml file following the docbook
+xml dtd.
+
+see the 'docbook-xml' and 'debiandoc-sgml' packages for information
+about those respective documentation formats.

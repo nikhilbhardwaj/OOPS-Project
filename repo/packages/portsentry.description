@@ -1,0 +1,11 @@
+Portscan detection daemon
+	
+portsentry has the ability to detect portscans(including stealth scans) on
+the network interfaces of your machine. upon alarm it can block the
+attacker via hosts.deny, dropped route or firewall rule. it is part of the
+abacus program suite.
+
+note: if you  have no idea what a port/stealth scan is, it's recommended to
+have a look at http://sf.net/projects/sentrytools/ before installing this
+package. otherwise you might easily block hosts you'd better not (e.g. your
+nfs-server, name-server, etc.).

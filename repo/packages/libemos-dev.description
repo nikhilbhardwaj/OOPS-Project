@@ -1,0 +1,9 @@
+Ecmwf interpolation library - development
+	
+the interpolation library (emoslib) includes interpolation software and grib,
+bufr, crex encoding/decoding routines. it is used by the ecmwf meteorological
+archival and retrieval system (mars) and also by the ecmwf graphics
+package metview.
+
+this package contains the static libraries and headers needed to build
+applications against libemos.

@@ -1,0 +1,11 @@
+Correctly read (or write) a region of a block device
+	
+devio is a command line program to read correctly from mtd character
+(and other block) devices. devio allows access to specific regions of
+the device and allows output of data from specific locations.
+the primary difference between devio and other command line
+utilities, such as dd and cat, is that it is not stream based - it
+writes directly into the object rather than reading and writing a
+stream of data.
+
+devio-udeb is a minimal package used by debian-installer.

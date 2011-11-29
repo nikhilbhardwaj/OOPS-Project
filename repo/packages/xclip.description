@@ -1,0 +1,8 @@
+Command line interface to x selections
+	
+xclip is a command line utility that is designed to run on any system with an
+x11 implementation. it provides an interface to x selections ("the clipboard")
+from the command line. it can read data from standard in or a file and place
+it in an x selection for pasting into other x applications. xclip can also
+print an x selection to standard out, which can then be redirected to a file
+or another program.

@@ -1,0 +1,8 @@
+Json manipulation library - debug symbols
+	
+this library allows you to easily construct json objects in c,
+output them as json formatted strings and parse json formatted
+strings back into the c representation of json objects.
+
+the debugging symbols for tracking down bugs in applications
+that use libjson-c are provided by this package.

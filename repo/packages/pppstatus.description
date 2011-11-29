@@ -1,0 +1,8 @@
+Console-based ppp status monitor
+	
+pppstatus is a console-based utility for displaying the
+status of a ppp link, including connection verification,
+connecting time, costs calculation, top speed, e-mail
+check, ip address, graphical statistics, tx and rx leds,
+interface selection, and more. it even supports xdsl
+with pppoe.

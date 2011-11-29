@@ -1,0 +1,11 @@
+Theme engines for gtk+ 2.x in the debian installer
+	
+this package contains the "engines" that hide behind the themes for
+gtk+ and gnome applications. they redefine the way gtk+ widgets are
+drawn. the package currently includes the following engine:
+
+ * clearlooks, the default gnome theme, based on bluecurve;
+
+
+this package only holds the minimal set of files for debian installer
+to use gtk+ 2.x theme engines under directfb.

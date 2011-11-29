@@ -1,0 +1,6 @@
+Checks java libraries for compatibility with older releases
+	
+clirr is a tool that checks java libraries for binary and source
+compatibility with older releases. the clirr ant task can break
+the build if it detects incompatible api changes, making it easy to
+prevent accidental introduction of compatibility issues.

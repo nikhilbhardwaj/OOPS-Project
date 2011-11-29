@@ -1,0 +1,8 @@
+Anagram word game
+	
+pynagram is a simple word game in which the player is presented with seven
+letters in a random order. every word that is "solved" from the jumbled letters
+earns the player points. if the player solves one or more seven letter words,
+the score is carried over into the next game.
+
+pynagram was inspired from anagramarama.

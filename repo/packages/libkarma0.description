@@ -1,0 +1,8 @@
+Rio karma access library [runtime files]
+	
+libkarma is a c language library that provides (read/write) access
+to the rio karma music player using either the usb (with omfs) or
+network (pearl) interface.
+
+this package contains the runtime library needed by programs using
+the facilities provided by libkarma.

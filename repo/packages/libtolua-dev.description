@@ -1,0 +1,7 @@
+Tool to integrate c/c++ code with lua - development files
+	
+tolua is a tool that greatly simplifies the integration of c/c++ code with
+lua. based on a cleaned header file, tolua automatically generates the
+binding code to access c/c++ features from lua. using lua api and tag
+method facilities, tolua maps c/c++ constants, external variables,
+functions, classes, and methods to lua.

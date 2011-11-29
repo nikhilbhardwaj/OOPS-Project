@@ -1,0 +1,17 @@
+Font with a glyph for each visible unicode 5.1 plane 0 character
+	
+this package is a convenient way to install both the pcf bitmap
+version and the scalable truetype outline version of gnu unifont.
+it also installs a copy of unifont.hex and related files in
+/usr/share/unifont.
+
+gnu unifont was designed to render something besides an empty box
+for each visible unicode character in the basic multilingual plane
+(plane 0).  plane 0 contains most of the world's modern writing scripts.
+this font looks best at 12pt.
+
+complex fonts (such as indic or semitic scripts, where letters
+change shape depending on their position in a word, or such as
+mongolian, which is written vertically) will not render perfectly.
+the philosophy behind this font, though, is that anything meaningful
+is better than an empty box for a unknown glyph.

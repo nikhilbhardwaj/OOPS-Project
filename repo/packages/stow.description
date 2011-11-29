@@ -1,0 +1,6 @@
+Organizer for /usr/local software packages
+	
+gnu stow is a software installation manager for /usr/local.  using
+symbolic links, gnu stow helps you keep the installations separate
+(/usr/local/stow/emacs vs. /usr/local/stow/perl, for example) while
+maintaining the illusion that they are all under /usr/local.

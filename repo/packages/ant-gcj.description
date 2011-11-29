@@ -1,0 +1,6 @@
+Java based build tool like make
+	
+a system independent (i.e. not shell based) build tool that uses xml
+files as "makefiles".
+
+this package contains a native version of ant built using gcj.

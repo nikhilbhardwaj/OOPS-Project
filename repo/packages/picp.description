@@ -1,0 +1,10 @@
+Command line utility to drive a picstart programmer
+	
+picp is a utility enabling the use of microchip picstart
+programmers or compatible programmers such as warp-13 or jupic,
+where you would normally be required to use windows
+software. the picstart is a low-cost hardware pic programmer for
+developing custom microcontroller applications.
+
+it is faster than mplab, it has a comprehensive command line interface,
+and full source is provided under the gpl.

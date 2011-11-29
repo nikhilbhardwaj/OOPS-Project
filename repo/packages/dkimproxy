@@ -1,0 +1,4 @@
+PackageId:3178
+Name:dkimproxy
+Version:1.2-6
+Deps:adduser,liberror-perl,libmail-dkim-perl,libnet-server-perl,libtext-wrapper-perl,lsb-base,openssl,perl,ssl-cert

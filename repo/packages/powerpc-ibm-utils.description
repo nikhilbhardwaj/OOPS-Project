@@ -1,0 +1,13 @@
+Utilities for maintenance of ibm powerpc platforms
+	
+the powerpc-ibm-utils package provides the utilities listed below
+which are intended for the maintenance of powerpc platforms. further
+documentation for each of the utilities is available from their
+respective man pages.
+
+
+ * nvram - nvram access utility
+ * bootlist - boot configuration utility
+ * ofpathname - translate logical device names to of names
+ * snap - system configuration snapshot
+ * ppc64_cpu - cpu settings utility

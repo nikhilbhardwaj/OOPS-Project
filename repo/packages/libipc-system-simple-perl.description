@@ -1,0 +1,8 @@
+Perl module to run commands simply, with detailed diagnostics
+	
+ipc::system::simple takes the hard work out of calling external commands; it
+provides replacements for system() and the backtick operator that will either
+succeed, or die with rich diagnostic messages on errors.
+
+the module also includes the ability to specify acceptable exit values, trap
+errors, or process diagnostics.

@@ -1,0 +1,12 @@
+Table engine for ibus
+	
+ibus-table is the im engine framework for table-based input methods, such as
+wubi, erbi, cangjie and so on.
+
+this package provide the table engine framework and one input method:
+
+  * compose: input special character by compose letter and diacritical mark
+
+
+more input method based on ibus-table can be installed from
+ibus-table-cangjie, ibus-table-wubi, ...

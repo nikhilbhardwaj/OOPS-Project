@@ -1,0 +1,19 @@
+Distributed object system for python
+	
+pyro (python remote object) is an easy to use and powerful distributed object
+system for python. in a distributed object system, clients send requests to
+distant servers, which owns the remote objects. pyro simplifies a lot the
+creation of clients and servers, and has among its features:
+
+ - dynamic and static proxies for all remote method invocations,
+ - a naming service which keeps record of the location of objects,
+ - mobile objects support: clients and servers can pass objects around,
+ - exceptions that occur in the remote object is raised on the client too,
+ - multithreaded server support to handle multiple requests simultaneously.
+
+
+this package contains the core pyro library and the command line tools.
+
+some graphical tools are available in the pyro-gui package.
+the documentation is available in the pyro-doc package.
+a lot of examples are available in the pyro-examples package.

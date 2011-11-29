@@ -1,0 +1,7 @@
+Emacs-lisp ruby-mode for ruby
+	
+this package provides major-mode for editing ruby scripts and some
+emacs-lisp programs for ruby programmers.
+
+this package is a dependency package, which depends on debian's default
+ruby version (currently 1.8.x).

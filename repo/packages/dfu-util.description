@@ -1,0 +1,10 @@
+Device firmware update (dfu 1.0) usb programmer
+	
+dfu-util is a program that implements the host (pc) side of the usb dfu 1.0
+(universal serial bus device firmware upgrade) protocol.
+
+note: at this point only dfu version 1.0 is supported!
+
+in the openmoko project (for example), this program is used to communicate
+with the specially enhanced bootloader u-boot, which implements the dfu
+device side.

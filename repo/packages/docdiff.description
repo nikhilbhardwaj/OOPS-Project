@@ -1,0 +1,8 @@
+Compares two files word by word / char by char
+	
+docdiff compares two files and shows the difference.  it can compare files
+word by word, char by char, or line by line.
+
+it has several output formats such as html/xhtml, tty, manued, or
+user-defined markup.  it supports several encodings and end-of-line
+characters, including ascii, utf-8, euc-jp, shift_jis, cr, lf, and crlf.

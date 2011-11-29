@@ -1,0 +1,9 @@
+Hardware abstraction layer
+	
+hal provides an abstract view on hardware.
+
+this abstraction layer is simply an interface that makes it possible to
+add support for new devices and new ways of connecting devices to the
+computer, without modifying every application that uses the device.
+it maintains a list of devices that currently exist, and can provide
+information about those upon request.

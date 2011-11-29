@@ -1,0 +1,5 @@
+Module to interactively prompt for user input
+	
+io::prompt is a perl module useful for prompting the user for some input and
+returning that data as an object. it also provides functions for simulating
+hand-typing to the console and for accessing the low-level input.

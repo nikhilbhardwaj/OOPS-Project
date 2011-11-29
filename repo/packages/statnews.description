@@ -1,0 +1,7 @@
+Extracts useful statistics out of a newsgroup or mailing list
+	
+this program may be useful to analyze newsgroups or mailing lists with
+respect to authors, messages length and frequency, and so on.
+
+at this moment, it operates on local spools only (it has neither
+nntp nor http capabilities).

@@ -1,0 +1,6 @@
+Read and write fits files from s-lang
+	
+the cfitsio library consists of a set of functions for reading and
+writing fits (flexible image transport system) files. the s-lang
+cfitsio module wraps many of the functions of the cfitsio library and
+permits one to easily manipulate fits files from the s-lang interpreter.

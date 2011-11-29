@@ -1,0 +1,24 @@
+Documentation for libsdo-api-java
+	
+documentation for sdo that is a framework for data application
+development, which includes an architecture and api. sdo does
+the following:
+
+
+ - simplifies the j2ee data programming model
+ - abstracts data in a service oriented architecture (soa)
+ - unifies data application development
+ - supports and integrates xml
+ - incorporates j2ee patterns and best practices
+
+
+with sdo, you do not need to be familiar with a
+technology-specific api in order to access and utilize data.
+you need to know only one api, the sdo api, which lets you
+work with data from multiple data sources, including
+relational databases, entity ejb components, xml pages, web
+services, the java connector architecture, javaserver pages
+pages, and more.
+
+this package contains only a java api of sdo 2.1 spec.
+eclipselink is a implementation of this spec.

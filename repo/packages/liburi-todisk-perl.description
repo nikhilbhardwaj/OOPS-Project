@@ -1,0 +1,9 @@
+Module to provide mapping between uris and on-disk storage
+	
+uri::todisk is a perl module which provides an object that can easily map
+between uniform resource identifiers (uris) and on-disk storage. in several
+processes relating to working with the web, one may need to keep track of an
+area on disk which maps to a particular uri.
+
+using this information, the module can derive both a filesystem path and uri
+for any file or directory in this location that one might need to work with.

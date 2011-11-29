@@ -1,0 +1,5 @@
+A python interface to the pam library
+	
+this module makes the pam (pluggable authentication modules) functions
+available in python. with this module you can write python applications
+that implement authentication services using pam.

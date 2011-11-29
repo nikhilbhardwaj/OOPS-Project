@@ -1,0 +1,5 @@
+Library for decoding/encoding several popular file encodings
+	
+libuu is a library of functions for decoding and encoding files in
+the following formats: uuencode, xxencode, base64, quoted printable,
+and binhex.

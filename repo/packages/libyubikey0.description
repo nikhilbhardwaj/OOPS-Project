@@ -1,0 +1,9 @@
+Yubikey otp handling library runtime
+	
+yubikeys are usb tokens that act like keyboards and generate one-time
+passwords.  the tokens are produced and sold by yubico
+
+this library is used for decrypting the one-time passwords into their
+various components.
+
+this package contains the runtime library for libyubikey.

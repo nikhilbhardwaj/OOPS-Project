@@ -1,0 +1,8 @@
+Provides the busybox dhcp client implementation
+	
+busybox contains a very small yet fully function rfc compliant dhcp
+client formerly known as udhcpc.
+
+this package contains the glue to use the busybox udhcpc as dhcp
+client in the system by providing the appropriate symbolic links and
+scripts.

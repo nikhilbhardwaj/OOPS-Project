@@ -1,0 +1,7 @@
+C++ library and application server for web applications [common]
+	
+wt (pronounced 'witty') is a c++ library and application server for
+developing and deploying web applications. the api is widget-centric
+and offers complete abstraction of any web-specific application details.
+
+this package contains only the wt common files, such as config files, etc

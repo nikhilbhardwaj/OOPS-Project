@@ -1,0 +1,9 @@
+Qt3 developer applications development files
+	
+this package is intended for developers who want to develop applications
+using the additional static libraries that ship with the applications
+included with qt; the qt designer and the qt assistant.
+it allows integrating additional enhancements into the qt designer
+respectively faciliate the qt assistant from within your qt application
+to interactively call the assistant for displaying online help that the
+developer includes with his application.

@@ -1,0 +1,10 @@
+The offis dicom toolkit worklist www server application
+	
+dcmtk includes a collection of libraries and applications for examining,
+constructing and converting dicom image files, handling offline media,
+sending and receiving images over a network connection, as well as
+demonstrative image storage and worklist servers.
+
+this package contains the dicom basic worklist management web server
+application. you only need to install this if you want to manage worklist
+entries using a web browser.

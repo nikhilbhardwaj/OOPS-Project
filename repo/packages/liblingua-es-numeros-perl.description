@@ -1,0 +1,7 @@
+Perl module to convert numbers to spanish text
+	
+lingua::es::numeros is an arbitrary precision number converter to its textual
+representation in spanish. supports cardinals, ordinals and reals. as managed
+numbers are widely longer than perl's native number management, these are
+handled as character strings, allowing unlimited growth on the conversion
+system.

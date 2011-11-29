@@ -1,0 +1,6 @@
+Haskell parser for emails and smtp conversations - ghc 6 libraries
+	
+this haskell library is parser for email messages (as described in rfc
+2822) and smtp conversation (as described in rfc 2821).
+
+this package contains the libraries compiled for ghc 6.

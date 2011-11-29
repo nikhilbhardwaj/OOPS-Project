@@ -1,0 +1,12 @@
+Server-side, html-embedded scripting language (metapackage)
+	
+this package is a metapackage that, when installed, guarantees that you
+have at least one of the three server-side versions of the php5 interpreter
+installed. removing this package won't remove php5 from your system, however
+it may remove other packages that depend on this one.
+
+php5 is a widely-used general-purpose scripting language that is
+especially suited for web development and can be embedded into html.
+the goal of the language is to allow web developers to write
+dynamically generated pages quickly. this version of php5 was built
+with the suhosin patch.

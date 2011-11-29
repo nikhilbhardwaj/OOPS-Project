@@ -1,0 +1,8 @@
+Graphical satellite tracking client program
+	
+the gsat program is a graphical client for the 'predict' satellite tracking
+program running in server mode, built using gtk.
+
+since this program can be run on a different machine than predict, there is
+no dependency specified... but you need access to a copy of 'predict'
+installed somewhere on the network for this programs to be useful!

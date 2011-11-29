@@ -1,0 +1,10 @@
+Xslt 1.0 processing library - debugging symbols
+	
+xslt is an xml language for defining transformations of xml files from
+xml to some other arbitrary format, such as xml, html, plain text, etc.
+using standard xslt stylesheets. libxslt is a c library which
+implements xslt version 1.0.
+
+this package provides the debugging symbols for the library and for
+the xsltproc utility provided by the xsltproc package.
+debugging symbols for the python modules are not available.

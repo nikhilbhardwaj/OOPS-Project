@@ -1,0 +1,9 @@
+Development libraries and header files for libocas
+	
+this library implements optimized cutting plane algorithm (ocas) for
+training linear support vector machine (svm) classifiers from
+large-scale data. the computational effort of ocas scales linearly with
+the number of training examples. it is one of the fastest svm solvers
+around for solving linear and multiclass l2 regularized svms.
+
+this package contains the header files and static libraries.

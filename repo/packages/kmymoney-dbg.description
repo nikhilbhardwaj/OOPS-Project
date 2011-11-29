@@ -1,0 +1,9 @@
+Kmymoney debugging symbols
+	
+kmymoney is the personal finance manager for kde. it operates similar to
+ms-money and quicken, supports different account types, categorisation of
+expenses, qif import/export, multiple currencies and initial online banking
+support.
+
+this package contains the debugging symbols associated with kmymoney.
+they will automatically be used by gdb for debugging kmymoney-related issues.

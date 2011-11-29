@@ -1,0 +1,7 @@
+Source for the quickcam express driver
+	
+this package provides the source code for the quickcam kernel module for
+logitech's quickcam express webcam and similar webcams. this driver
+supersedes the qce-ga driver.
+
+kernel source or headers are required to compile these modules.

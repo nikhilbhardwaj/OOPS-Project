@@ -1,0 +1,7 @@
+Yet another parser generator for python
+	
+yappy provides a lexical analyser and a lr parser generator
+for python applications. it currently builds slr,
+lr(1) and lalr(1) tables. tables are kept in python shelves for use
+in parsing.  some ambiguous grammars can be handled if priority
+and associativity information is provided.

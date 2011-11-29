@@ -1,0 +1,20 @@
+Apt helper for peer-to-peer downloads of debian packages
+	
+apt-p2p is a helper for downloading debian packages files with apt.
+it will download any needed files from other apt-p2p peers in a
+peer-to-peer manner, and so reduce the strain on the debian mirrors.
+
+the apt-p2p daemon runs automatically on startup and listens for
+requests from apt for files, as well as maintaining membership in a
+distributed hash table (dht). for any files which have a hash
+available (most files), peers that have the file are looked for in the
+dht. the file can then be downloaded from them, using the uploading
+bandwidth of other peers while reducing the demand on the debian mirror
+network. however, if a package can not be found on any peers, apt-p2p
+will fall back to downloading from a mirror to ensure all packages are
+downloaded. once downloaded, the file is hash checked and added to the
+dht so that other peers can download it without the mirror.
+
+the configuration is very simple, and only involves prepending
+'localhost' and the port to your current sources.list lines (similar
+to other apt-proxy-like software).

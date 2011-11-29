@@ -1,0 +1,5 @@
+Share a set of package choices
+	
+allows others to easily replicate your package choices via
+debian's apt-get utility. generating an apt-gettable, custom debian
+package, with the appropriate dependencies.

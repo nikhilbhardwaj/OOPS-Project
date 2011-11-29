@@ -1,0 +1,16 @@
+Mode switching data for usb-modeswitch
+	
+several new usb devices have their proprietary windows drivers onboard,
+especially wan dongles. when plugged in for the first time, they act
+like a flash storage and start installing the driver from there. if
+the driver is already installed, the storage device vanishes and
+a new device, such as an usb modem, shows up. this is called the
+"zerocd" feature.
+
+on debian, this is not needed, since the driver is included as a
+linux kernel module, such as "usbserial". however, the device still
+shows up as "usb-storage" by default. usb-modeswitch solves that
+issue by sending the command which actually performs the switching
+of the device from "usb-storage" to "usbserial".
+
+this package contains the commands data needed for usb-modeswitch.

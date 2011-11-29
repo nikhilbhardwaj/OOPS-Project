@@ -1,0 +1,7 @@
+Ascii-art editor without a name
+	
+aewan is an ascii art editor with support for multiple layers that can be
+edited individually, colors, rectangular copy and paste, and intelligent
+horizontal and vertical flipping (converts '\' to '/', etc). it produces
+both stand-alone art files and an easy-to-parse format for integration
+into your terminal applications.

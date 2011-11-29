@@ -1,0 +1,4 @@
+PackageId:3984
+Name:exim4-daemon-heavy
+Version:4.72-6+squeeze2
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,exim4-base,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdb4.8,libgnutls26,libldap-2.4-2,libmysqlclient16,libpam0g,libpcre3,libperl5.10,libpq5,libsasl2-2,libsqlite3-0

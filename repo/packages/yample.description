@@ -1,0 +1,5 @@
+Yet another mail processing language
+	
+yample is a processing language for email. it sorts email based on criteria
+you define. it can deliver email to unix mailboxes (mbox), maildirs (used by
+courier imap and others) or pipes.

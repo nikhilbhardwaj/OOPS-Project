@@ -1,0 +1,8 @@
+Module for manipulating filesystem extended attributes (debug extension)
+	
+pyxattr is a python interface to the libattr library. it allows
+manipulation of the filesystem extended attributes present in some
+operating systems (gnu/linux included).
+
+this package contains the extension built for the python debug
+interpreter.

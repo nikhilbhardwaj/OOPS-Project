@@ -1,0 +1,8 @@
+Convert and install rpm and other packages
+	
+alien allows you to convert lsb, red hat, stampede and slackware packages
+into debian packages, which can be installed with dpkg.
+
+it can also generate packages of any of the other formats.
+
+this is a tool only suitable for binary packages.

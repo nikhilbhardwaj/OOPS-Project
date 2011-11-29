@@ -1,0 +1,8 @@
+Efficient cryptographic hash implementations for bytestrings
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this package provides efficient cryptographic hash implementations for strict
+and lazy bytestrings. for now, crc32 and adler32 are supported; they are
+implemented as ffi bindings to efficient code from zlib.

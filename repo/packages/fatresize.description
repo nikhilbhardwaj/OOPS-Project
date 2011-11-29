@@ -1,0 +1,7 @@
+Fat16/fat32 filesystem resizer
+	
+fatresize is a command line tool for non-destructive resizing of fat16/fat32
+partitions.
+
+it is based on the gnu parted library. the main target of the project is to be
+used with the evms fat plugin.

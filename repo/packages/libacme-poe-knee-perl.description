@@ -1,0 +1,9 @@
+Time sliced pony race using the poe event loop
+	
+poe::knee is a homophone of "pony".  we all like ponies. and wouldn't we
+love to race ponies? well, that's what acme::poe::knee is for!
+
+using the poe event driven component architecture, you specify a distance the
+ponies must run, and a maximum delay before the pony will reach the next
+step. so, the bigger the delay, the bigger the distance between multiple
+ponies can be.

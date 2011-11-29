@@ -1,0 +1,8 @@
+Infra-red remote control support - svgalib utilities
+	
+lirc stands for 'linux infra-red remote control'.
+
+this package provides svgalib utilities for lirc:
+
+ smode2: shows the ir waveform of the remote controller without an
+         oscilloscope. unneeded for tv cards or the irman.

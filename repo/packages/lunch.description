@@ -1,0 +1,14 @@
+Distributed process launcher
+	
+lunch is a simple distributed process launcher and manager for gnu/linux.
+
+with lunch, one can launch software processes on several different computers
+and make sure they keep running. this software was created to suit the needs
+of new media artists for live performances and interactive installations.
+it respawns the software that crash and provides a mean to manage
+dependencies between running processes.
+
+it provides the command-line lunch utility which can be invoked with a gtk+
+user interface.
+
+see http://svn.sat.qc.ca/trac/lunch for more information.

@@ -1,0 +1,6 @@
+Place markers on maps at given coordinates
+	
+ircmarkers takes a map in .png or .jpg format and a list of coordinates and
+labels in xplanet format and places markers on the map. it was written to
+generate user maps of irc channels. gnupg/pgp key ids can be associated with
+each marker, to create "maps of trust".

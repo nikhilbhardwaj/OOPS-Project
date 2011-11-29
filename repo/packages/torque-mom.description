@@ -1,0 +1,10 @@
+Job execution engine for torque batch system
+	
+the torque server dispatches jobs across physically separated
+machines. it may also be beneficial for single machines to organise
+the sequential execution of multiple jobs.
+
+the pbs_mom daemon is executed on those machines that perform
+the computations. this package should be installed on all these
+execute hosts. the mom, the client and the server can all be
+installed on the same machine.

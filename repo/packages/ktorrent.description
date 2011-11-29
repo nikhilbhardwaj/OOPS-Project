@@ -1,0 +1,26 @@
+Bittorrent client based on the kde platform
+	
+this package contains ktorrent, a bittorrent peer-to-peer network client, that
+is based on the kde platform. obviously, ktorrent supports such basic features
+as downloading, uploading and seeding files on the bittorrent network.
+however, lots of other additional features and intuitive gui should make
+ktorrent a good choice for everyone. some features are available as plugins
+hence you should make sure you have the ones you need enabled.
+
+  - support for http and udp trackers, trackerless dht (mainline) and webseeds.
+  - alternative ui support including web interface and plasma widget.
+  - torrent grouping, speed capping, various download prioritization
+    capabilities on both torrent and file level as well as bandwidth
+    scheduling.
+  - support for fetching torrent files from many sources including any local
+    file or remote url, rss feeds (with filtering) or actively monitored
+    directory etc.
+  - integrated and customizable torrent search on the web.
+  - various security features like ip blocking and protocol encryption.
+  - disk space preallocation to reduce fragmentation.
+  - utorrent compatible peer exchange.
+  - autoconfiguration for lans like zeroconf extension and port forwarding via
+    upnp.
+  - scripting support via kross and interprocess control via dbus interface.
+  - socksv4 and socksv5 proxy, ipv6 support.
+  - lots of other useful built-in features and plugins.

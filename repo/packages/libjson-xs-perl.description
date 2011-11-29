@@ -1,0 +1,11 @@
+Module for serializing/deserializing json
+	
+json::xs is a perl module for converting arbitrary perl data structures to
+json and vice versa. its primary objectives are to be semantically correct
+and to run quickly; for the latter goal, the implementation is written in c.
+
+from json version 2.0 onward, the json module will use json::xs to accelerate
+its work, with no overhead due to emulation (by inheriting the constructor
+and methods). using json instead of json::xs gives you a portable json api
+that can be fast when needed, but doesn't require a c compiler by falling
+back on a pure perl implementation.

@@ -1,0 +1,22 @@
+Bean scripting framework to support scripting languages in java
+	
+bean scripting framework (bsf) is a set of java classes which provides
+scripting language support within java applications, and access to java
+objects and methods from scripting languages. bsf allows one to write jsps in
+languages other than java while providing access to the java class library. in
+addition, bsf permits any java application to be implemented in part (or
+dynamically extended) by a language that is embedded within it. this is
+achieved by providing an api that permits calling scripting language engines
+from within java, as well as an object registry that exposes java objects to
+these scripting language engines.
+
+bsf supports these scripting languages:
+
+ * python (using jython)
+ * javascript (using rhino)
+ * xslt stylesheets (as a component of apache xml project's xalan and xerces)
+ * beanshell (using bsh) via its own bsf adapter
+
+
+support for tcl, netrexx is not available in this debian
+package since jacl, netrexx (non-free) are not packaged.

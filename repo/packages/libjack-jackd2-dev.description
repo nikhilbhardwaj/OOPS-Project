@@ -1,0 +1,7 @@
+Jack audio connection kit (development files)
+	
+jack is a low-latency sound server, allowing multiple applications to
+connect to one audio device, and to share audio between themselves.
+
+this package contains files needed for the development of jack applications
+and an api reference.

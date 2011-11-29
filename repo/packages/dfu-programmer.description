@@ -1,0 +1,11 @@
+Device firmware update (dfu) based usb programmer for atmel chips
+	
+a linux based command-line programmer for atmel chips with a usb
+bootloader supporting in system programming.
+
+this is a mostly device firmware update (dfu) 1.0 compliant
+user-space application. this program was created because the atmel
+flip program for flashing devices does not run on linux and because
+standard dfu loaders do not work for atmel chips.
+
+see http://dfu-programmer.sourceforge.net/ for more information.

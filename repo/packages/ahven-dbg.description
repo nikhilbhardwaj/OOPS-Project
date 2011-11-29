@@ -1,0 +1,8 @@
+Unit test library for ada (debug)
+	
+ahven is a simple unit test library for the ada 95 programming language. it
+is loosely modeled after junit, and some ideas are taken from aunit. ahven is
+free software distributed under permissive isc license and should work with any
+ada 95 compiler.
+
+this package contains the debug symbols.

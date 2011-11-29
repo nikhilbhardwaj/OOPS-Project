@@ -1,0 +1,7 @@
+Free test suite for the java class libraries
+	
+mauve is intended to test several different varieties of the
+libraries.  for instance, it will contain tests that are specific to
+a particular jdk version.  tags in the test files help the test
+framework decide which tests should or should not be run against a
+given runtime.

@@ -1,0 +1,7 @@
+Perl extension for manipulating ipv4 addresses
+	
+net::ipv4addr provides functions for parsing ipv4 addresses both
+in traditional address/netmask format and in the new cidr format.
+there are also methods for calculating the network and broadcast
+address and also to see check if a given address is in a specific
+network.

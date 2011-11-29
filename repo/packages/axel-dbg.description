@@ -1,0 +1,8 @@
+Light download accelerator - debugging symbols
+	
+axel tries to accelerate the downloading process by using multiple connections
+for one file.  it can also use multiple mirrors for one download.  axel tries
+to be as light as possible (25-30k in binary form), so it might be useful as a
+wget clone on byte-critical systems.
+
+this package contains the debugging symbols for axel.

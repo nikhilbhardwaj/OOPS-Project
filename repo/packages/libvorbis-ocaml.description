@@ -1,0 +1,11 @@
+Ocaml bindings for vorbis library
+	
+this ocaml library interfaces the vorbis c library. it can be used to
+decode from or encode to the ogg vorbis compressed audio format as well
+as to get informations about an ogg vorbis file.
+
+ogg vorbis is a fully open, non-proprietary, patent-and-royalty-free,
+general-purpose compressed audio format for audio and music at fixed
+and variable bitrates from 16 to 128 kbps/channel.
+
+this package contains only the shared runtime stub libraries.

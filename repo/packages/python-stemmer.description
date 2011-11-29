@@ -1,0 +1,16 @@
+Python bindings for libstemmer - snowball stemming algorithms
+	
+pystemmer provides access to efficient algorithms for calculating a "stemmed"
+form of a word.  this is a form with most of the common morphological endings
+removed; hopefully representing a common linguistic base form.  this is most
+useful in building search engines and information retrieval software; for
+example, a search with stemming enabled should be able to find a document
+containing "cycling" given the query "cycles".
+
+pystemmer provides algorithms for several (mainly european) languages, by
+wrapping the libstemmer library from the snowball project in a python module.
+
+it also provides access to the classic porter stemming algorithm for english:
+although this has been superseded by an improved algorithm, the original
+algorithm may be of interest to information retrieval researchers wishing to
+reproduce results of earlier experiments.

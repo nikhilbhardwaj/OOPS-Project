@@ -1,0 +1,12 @@
+Procedural language interface between postgresql and r
+	
+r is a language and environment for statistical computing and graphics,
+providing a wide variety of statistical and graphical techniques (linear and
+nonlinear modelling, statistical tests, time series analysis, classification,
+clustering, and so on).
+
+postgresql is an open source sql database server.
+
+this package provides a procedural language interface to r from
+postgresql. procedural languages are used to write functions
+which can be called in database queries.

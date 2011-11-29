@@ -1,0 +1,11 @@
+Multiple alignment of protein sequences
+	
+proda is a system for automated detection and alignment of homologous
+regions in collections of proteins with arbitrary domain architectures.
+given an input set of unaligned sequences, proda identifies all
+homologous regions appearing in one or more sequences, and returns a
+collection of local multiple alignments for these regions.
+
+proda is published in: phuong t.m., do c.b., edgar r.c., and batzoglou
+s. multiple alignment of protein sequences with repeats and
+rearrangements. nucleic acids research 2006 34(20), 5932-5942.

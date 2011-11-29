@@ -1,0 +1,9 @@
+Perl module for creating or removing directory trees
+	
+file::path module provide a convenient way to create directories of
+arbitrary depth and to delete an entire directory subtree from the
+filesystem.
+
+this package contains a newer version of the core perl module file::path.
+unless you need a higher version than the one present in perl-modules, there
+is no need to install or depend on this package.

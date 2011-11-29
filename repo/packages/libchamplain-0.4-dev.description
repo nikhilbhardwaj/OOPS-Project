@@ -1,0 +1,10 @@
+C library providing clutteractor to display maps (development files)
+	
+libchamplain is a c library providing a clutteractor to
+display maps.
+
+it supports numerous free map sources such as
+openstreetmap (default), openarialmap and maps for free.
+
+this package contains the header files required if you wish
+to develop software that uses libchamplain.

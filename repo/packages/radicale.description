@@ -1,0 +1,9 @@
+Simple calendar server - daemon
+	
+the radicale project is a complete caldav calendar server solution. it
+can store multiple calendars.
+
+calendars are available from both local and distant accesses, possibly
+limited through authentication policies.
+
+this package contains the radicale daemon.

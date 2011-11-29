@@ -1,0 +1,4 @@
+PackageId:24984
+Name:mumble-server-web
+Version:1.2.2-6
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,ice33-slice,ice-slice,ice33-translators,ice-translators,libcgi-session-perl,libhtml-template-perl,libnet-dbus-perl,mumble-server,perl,php-zeroc-ice

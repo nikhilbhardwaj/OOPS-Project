@@ -1,0 +1,7 @@
+Utilities for the input layer of the linux kernel
+	
+this is a collection of utilities which are useful when working with
+the input layer of the linux kernel (version 2.6 and later). included
+are utilities to list the input devices known to the kernel, show
+the input events that are received by a device, and query or modify
+keyboard maps.

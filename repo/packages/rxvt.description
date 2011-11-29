@@ -1,0 +1,9 @@
+Vt102 terminal emulator for the x window system
+	
+rxvt is an 8-bit clean, color xterm replacement that uses significantly
+less memory than a conventional xterm, mostly since it doesn't support
+toolkit configurability or tek graphics, but also since features can
+be removed at compile-time to reflect your needs.
+
+the distribution also includes rclock, the smaller/better xclock
+replacement with appointment scheduling and xbiff functionality.

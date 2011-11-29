@@ -1,0 +1,15 @@
+Open source c library of cryptographic algorithms
+	
+beecrypt is an open source cryptography library that contains
+highly optimized c and assembler implementations of many well-known
+algorithms including blowfish, sha-1, diffie-hellman, and elgamal.
+
+unlike some other crypto libraries, beecrypt is not designed to
+solve one specific problem, like file encryption, but to be a
+general purpose toolkit which can be used in a variety of
+applications.
+
+there are also no patent or royalty issues associated with
+beecrypt, and it is released under the gnu lgpl license, which
+means it can be used for free in both open source and closed
+source commercial projects.

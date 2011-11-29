@@ -1,0 +1,6 @@
+Perl module to communicate with imap servers
+	
+net::imap::client provides methods to access an imap server. it aims to
+provide a simple and clean api, while employing a rigorous parser for imap
+responses in order to create perl data structures from them. the code is
+simple, clean and extensible.

@@ -1,0 +1,6 @@
+Python signal dispatching mechanism
+	
+louie provides python programmers with a straightforward way to
+dispatch signals between objects in a wide variety of contexts. it is
+based on pydispatcher, which in turn was based on a highly-rated recipe
+in the python cookbook.

@@ -1,0 +1,11 @@
+A small finnish dictionary for /usr/share/dict
+	
+this is a list of finnish words and names in various inflected forms,
+containing roughly 0.7 million items, to be used for whatever purpose you
+may think of.
+
+larger lists (roughly two or over six million items) can be manually
+generated from the medium-size and large finnish ispell dictionaries
+in packages ifinnish and ifinnish-large.  please find
+instructions in /usr/share/doc/wfinnish/readme.debian after installing
+this package.

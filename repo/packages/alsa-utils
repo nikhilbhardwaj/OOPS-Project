@@ -1,0 +1,4 @@
+PackageId:229
+Name:alsa-utils
+Version:1.0.23-3
+Deps:libasound2,liboss-salsa-asound2,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libncursesw5,linux-sound-base,lsb-base,module-init-tools,kldutils,udev,whiptail,dialog

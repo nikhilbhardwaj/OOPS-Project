@@ -1,0 +1,42 @@
+A small music player written in python and inspired by amarok
+	
+minirok is a small music player written in python for the k desktop
+environment. as its name hints, it's modelled after amarok, but with a
+reduced set of features. in particular, it is designed to cover all the
+needs and wishes of the author, leaving everything else out. the look
+and feel is almost identical to amarok's, though.
+
+the main interface is a *tree view of the filesystem*, with a playlist
+that can only be populated via drag and drop. there is no collection
+built from tags, so it's targeted at people whose collection is
+structured in a tree already at the filesystem level. searches can be
+performed both in the tree view and the playlist.
+
+other features include:
+
+
+ * dbus interface for controlling the player and retrieving the
+   currently played track, among other things
+
+
+
+ * alter the playing order in the playlist by queueing tracks;
+   stop after a certain track; repeat track or playlist; random mode;
+   undo and redo
+
+
+
+ * reading of tags when adding to the playlist can be disabled by
+   specifying a regular expression to extract them from the filename
+
+
+
+ * submission of played songs to last.fm
+
+
+
+ * global shortcuts
+
+
+minirok is written using the pykde bindings and the gstreamer media
+framework.

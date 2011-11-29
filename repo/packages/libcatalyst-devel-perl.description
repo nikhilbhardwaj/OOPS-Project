@@ -1,0 +1,15 @@
+Collection of development tools for catalyst
+	
+catalyst::devel is a collection of modules needed for catalyst application
+development and testing, but is not required to run them. this package is not
+needed for catalyst application deployment on production servers. among other
+things, it includes the following tools:
+
+module::install::catalyst
+provides various utilities for creating catalyst module distributions.
+
+catalyst::helper
+helper module for bootstrapping a catalyst application via catalyst.pl.
+
+catalyst::restarter
+utility to restart the server when files have changed

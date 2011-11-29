@@ -1,0 +1,11 @@
+Thin network communication layer on top of udp - documentation
+	
+enet's purpose is to provide a relatively thin, simple and robust network
+communication layer on top of udp (user datagram protocol). the primary
+feature it provides is optional reliable, in-order delivery of packets.
+
+enet is not intended to be a general purpose high level networking library
+that handles authentication, lobbying, server discovery, compression,
+encryption and other high level, often application level or dependent tasks.
+
+this package includes the documentation.

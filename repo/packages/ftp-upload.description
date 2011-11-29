@@ -1,0 +1,6 @@
+Put files with ftp from a script
+	
+ftp-upload transfers local files to another machine using ftp.  it's
+meant to be used by scripts and such rather than interactively.  there's
+no user interface, the program is controlled strictly via the command
+line.  it is disciplined with its exit status.

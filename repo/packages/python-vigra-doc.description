@@ -1,0 +1,12 @@
+Documentation for python bindings for the c++ computer vision library
+	
+vision with generic algorithms (vigra) is a computer vision library
+that puts its main emphasis on flexible algorithms, because
+algorithms represent the principle know-how of this field. the
+library was consequently built using generic programming as
+introduced by stepanov and musser and exemplified in the c++ standard
+template library. by writing a few adapters (image iterators and
+accessors) you can use vigra's algorithms on top of your data
+structures, within your environment.
+
+this package contains documentation for python bindings for the vigra library.

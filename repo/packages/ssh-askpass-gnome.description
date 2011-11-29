@@ -1,0 +1,7 @@
+Interactive x program to prompt users for a passphrase for ssh-add
+	
+this has been split out of the main openssh-client package so that
+openssh-client does not need to depend on gtk+.
+
+you probably want the ssh-askpass package instead, but this is
+provided to add to your choice and/or confusion.

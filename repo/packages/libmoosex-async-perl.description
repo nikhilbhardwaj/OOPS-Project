@@ -1,0 +1,5 @@
+Moose metaclasses to support asynchronous operations
+	
+moosex::async is a set of metaclasses for moosex::poe (see libmoosex-poe-perl)
+and it's siblings. as such, it is probably not very useful on its own. please
+see them for documentation.

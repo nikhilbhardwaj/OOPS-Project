@@ -1,0 +1,21 @@
+Mobile phone management library (development files)
+	
+gammu is command line utility and library to work with mobile phones
+from many vendors. support for different models differs, but basic
+functions should work with majority of them. program can work with
+contacts, messages (sms, ems and mms), calendar, todos, filesystem,
+integrated radio, camera, etc. it also supports daemon mode to send and
+receive smses.
+
+currently supported phones include:
+
+
+ * many nokia models.
+ * alcatel be5 (501/701), bf5 (715), bh4 (535/735).
+ * at capable phones (siemens, nokia, alcatel, ipaq).
+ * obex and irmc capable phones (sony-ericsson, motorola).
+ * symbian phones through gnapplet.
+
+
+this package contains header files needed for compiling programs with
+gammu and developer documentation.

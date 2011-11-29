@@ -1,0 +1,8 @@
+A userspace driver for mellanox connectx infiniband hcas
+	
+libmlx4 is a device-specific driver for mellanox connectx infiniband
+host channel adapters (hcas) for the libibverbs library.  this allows
+userspace processes to access mellanox hca hardware directly with
+low latency and low overhead.
+
+this package contains the loadable plug-in.

@@ -1,0 +1,11 @@
+Debug memory allocation library
+	
+drop in replacement for the system's `malloc', `realloc', `calloc', `free' and
+other memory management routines while providing powerful debugging facilities
+configurable at runtime.
+
+these facilities include such things as memory-leak tracking, fence-post write
+detection, file/line number reporting, and general logging of statistics.
+
+this package contains only the shared libraries, the development files and
+documentation is in the libdmalloc-dev package.

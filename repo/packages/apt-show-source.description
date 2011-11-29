@@ -1,0 +1,7 @@
+Shows source-package information
+	
+this program parses the apt lists for source packages and the
+dpkg status file and then lists every package with a different
+version number than the one installed.
+it's very useful if your deb-src sources.list entries point to
+unstable and your deb entries point to stable.

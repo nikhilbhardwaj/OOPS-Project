@@ -1,0 +1,7 @@
+Ltsp display manager
+	
+ldm is an x11 display manager similar to xdm, gdm and kdm, but unlike
+those it wraps the x11 traffic within an ssh tunnel to provide a
+secure login mechanism for remote x sessions.
+
+ltsp stands for 'linux terminal server project'.

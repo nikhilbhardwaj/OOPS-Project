@@ -1,0 +1,11 @@
+Multiuser mpm for apache 2.2
+	
+the itk multi-processing module (mpm) works in about the same way as the
+classical "prefork" module (that is, without threads), except that it allows
+you to constrain each individual vhost to a particular system user. this
+allows you to run several different web sites on a single server without
+worrying that they will be able to read each others' files. this is a
+third-party mpm that is not included in the normal apache httpd.
+
+please note that this mpm is somewhat less tested than the mpms that come with
+apache itself.

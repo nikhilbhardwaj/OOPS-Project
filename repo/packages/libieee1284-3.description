@@ -1,0 +1,8 @@
+Cross-platform library for parallel port access
+	
+this library was designed to ease the use of the parallel port. it will
+automatically figure out which access method is available, depending on the
+running kernel and the permissions of the process.
+
+it handles particular queries to the devices, like fetching the device id of
+a device.

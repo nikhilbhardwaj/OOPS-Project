@@ -1,0 +1,14 @@
+Perl module for access to parsed xml trees
+	
+with the xml::smart module, nodes in an xml tree made with xml::libxml can
+be accessed equally conveniently with the perl syntax for hashes and arrays.
+it also provides convenience features such as searching for nodes by
+attribute, selection of an attribute value in each of multiple nodes,
+change the format of returned data, and so forth.
+
+the module also professes to automatically handle binary data
+(encoding/decoding to/from base64), cdata sections (used for text
+content with unbalanced <tags> and so forth), and unicode.  it can be
+used to create xml files and load xml from the web (just pasting an url
+as a file path).  it also provides an easy way to send xml data through
+sockets, adding the length of the data in the <?xml?> header.

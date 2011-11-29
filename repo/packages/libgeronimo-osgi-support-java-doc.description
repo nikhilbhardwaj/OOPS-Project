@@ -1,0 +1,19 @@
+Documentation for libgeronimo-osgi-support-java
+	
+documentation for java libraries that allow the use of osgi framework with
+geronimo existing projects. they allow lookup and registration of components.
+
+- geronimo-osgi-locator.jar: allow performing class and components lookups
+
+  with osgi support.
+  .
+
+- geronimo-osgi-registry.jar: facilitate the use of geronimo specs providers
+
+  (components typically plugged in to the jre through meta-inf/services
+  resources) like geronimo-validation-1.0-spec (geronimo jsr-303 bean
+  validation spec api).
+  .
+  the service created by this library will maintain a registry of factory
+  class that can be used by the spec bundles to locate factory classes that
+  reside in other bundles.

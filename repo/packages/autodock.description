@@ -1,0 +1,11 @@
+Analysis of ligand binding to protein structure
+	
+autodock is a prime representative of the programs addressing the
+simulation of the docking of fairly small chemical ligands to rather big
+protein receptors. earlier versions had all flexibility in the ligands
+while the protein was kept rather ridgid. this latest version 4 also
+allows for a flexibility of selected sidechains of surface residues,
+i.e., takes the rotamers into account.
+
+the autodock program performs the docking of the ligand to a set of
+grids describing the target protein. autogrid pre-calculates these grids.

@@ -1,0 +1,19 @@
+Proxy chains - redirect connections through proxy servers
+	
+proxy chains force any tcp connection made by any given tcp client
+to follow through proxy (or proxy chain). it is a kind of proxifier.
+it acts like sockscap / premeo / eborder driver ( intercepts tcp calls )
+
+this version supports socks4, socks5 and http connect proxy servers.
+different proxy types can be mixed in the same chain.
+
+features
+
+  * access internet from behind restrictive firewall.
+  * source ip masquerade.
+  * ssh tunneling and forwarding.
+  * dynamic lan-to-lan vpn channel.
+  * servers and daemons friendly (works fine with sendmail mta).
+
+
+http://proxychains.sourceforge.net

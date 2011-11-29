@@ -1,0 +1,14 @@
+Icon-based floating application launcher with transparency
+	
+apwal is a simple icon-based application launcher. it consists of two
+components: the application launcher itself, and the configuration editor.
+
+upon startup, apwal displays icons at the mouse pointer location. left
+clicking on the icons launches applications, and right-clicking opens
+apwal editor.
+
+apwal editor is an easy to use graphical interface to configure apwal. an
+icon selector displays icons available on your filesystem. several filters
+are available to ease the search (by extension, by size, by name, etc.).
+
+homepage: http://apwal.free.fr/

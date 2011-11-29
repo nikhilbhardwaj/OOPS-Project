@@ -1,0 +1,11 @@
+Ggz gaming zone: common utilities library - development files
+	
+the libggz library handles network, configuration file and data
+structure management functions as well as several convenience wrappers
+around glibc functions.
+
+this package provides the header files and static libraries needed for
+development with libggz in the c programming language.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

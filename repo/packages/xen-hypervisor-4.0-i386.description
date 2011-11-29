@@ -1,0 +1,9 @@
+The xen hypervisor on i386
+	
+the hypervisor is the "core" for xen itself.  it gets booted by the boot
+loader and controls cpu and memory, sharing them between your
+administrative domain (domain 0) and the virtual guest systems.
+
+in order to boot a xen system along with this package you also need a
+kernel specifically crafted to work as the domain 0, mediating hardware
+access for xen itself.

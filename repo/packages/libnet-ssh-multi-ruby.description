@@ -1,0 +1,13 @@
+Ruby library for making multiple ssh connections to remote systems
+	
+net::ssh::multi is a library for controlling multiple net::ssh connections
+via a single interface. it exposes an api similar to that of
+net::ssh::connection::session and net::ssh::connection::channel, making it
+simpler to adapt programs designed for single connections to be used with
+multiple connections.
+
+this library is particularly useful for automating repetitive tasks that
+must be performed on multiple machines. it executes the commands in parallel,
+and allows commands to be executed on subsets of servers (defined by groups).
+
+metapackage for libnet-ssh-multi-ruby1.8

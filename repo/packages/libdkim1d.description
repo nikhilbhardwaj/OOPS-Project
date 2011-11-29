@@ -1,0 +1,12 @@
+Cryptographically identify the sender of email
+	
+domainkeys identified mail (dkim) defines a domain-level
+authentication framework for email using public-key cryptography and
+key server technology to permit verification of the source and
+contents of messages by either mail transport agents (mtas) or mail
+user agents (muas).
+
+libdkim is a library, developed by alt-n technologies, that allows
+incorporating dkim into an existing mta or other application. it
+provides full support for signing, verifying, and ssp. see the
+changelogs for information on compliance with specifications.

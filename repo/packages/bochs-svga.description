@@ -1,0 +1,12 @@
+Svga plugin for bochs
+	
+bochs is a highly portable free ia-32 (x86) pc emulator written in c++, that
+runs on most popular platforms. it includes emulation of the intel x86 cpu,
+common i/o devices, and a custom bios.
+
+this package contains an svga gui plugin for bochs.
+
+**very important warning**
+running bochs with this plugin will redirect all your keyboard input
+(including alt+fx) to the guest os, blocking your terminal. an exception
+is the f12 key, which you can use to interrupt the emulation.

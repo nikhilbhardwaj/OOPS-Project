@@ -1,0 +1,7 @@
+Debug files for warzone2100
+	
+this package contains debug information for the warzone2100 game.
+
+it can be used to debug warzone2100 using gdb if the game crashes
+due to programming errors. warzone2100 also generates crash dumps
+and places them in the /tmp directory.

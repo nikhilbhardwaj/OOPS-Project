@@ -1,0 +1,10 @@
+Japanese predictive input method editor
+	
+prime is japanese predictive input  method editor.
+prime predicts the user's input using knowledge of natural
+languages and the user's previous input to reduce the difficulty of
+typing.  for example, when the user types "ap", intending "application",
+prime might suggest "apple", "application", and "appointment."  the user
+then easily selects "application."
+
+uri: http://taiyaki.org/prime/

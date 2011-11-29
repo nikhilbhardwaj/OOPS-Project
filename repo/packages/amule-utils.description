@@ -1,0 +1,14 @@
+Utilities for amule (command-line version)
+	
+this package contains a set of command-line utilities related to amule,
+the ed2k network client:
+
+
+ * ed2k: handles ed2k:// links, queueing them into amule
+ * cas: displays the contents of your amule online signature
+ * alcc: computes ed2k:// links for the given input files
+ * amulecmd: text-based client to control amule or the amule daemon
+
+
+some of these utilities have graphic versions, which can be found in
+the amule-utils-gui package.

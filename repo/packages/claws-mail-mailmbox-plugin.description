@@ -1,0 +1,6 @@
+Mbox format mailboxes handler for claws mail
+	
+the mailmbox plugin for claws mail provides the ability of handling
+existing mbox format files using the libetpan library.
+
+once added, these files appear like mailer's native mail folders.

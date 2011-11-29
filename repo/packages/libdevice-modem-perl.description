@@ -1,0 +1,5 @@
+Perl class to interface generic modems (at-compliant)
+	
+device::modem class implements basic at (hayes) compliant device abstraction.
+it can be inherited by sub classes (as device::gsm), which are based on serial
+connections.

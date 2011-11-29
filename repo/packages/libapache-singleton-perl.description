@@ -1,0 +1,11 @@
+Singleton class for mod_perl
+	
+apache::singleton is a perl module that provides a singleton class suitable
+for use with mod_perl.
+
+a singleton describes an object class that can have only one instance in any
+system.  an example of a singleton might be a print spooler or system
+registry.
+
+for a description and discussion of the singleton class, see
+"design patterns", gamma et al, addison-wesley, 1995, isbn 0-201-63361-2.

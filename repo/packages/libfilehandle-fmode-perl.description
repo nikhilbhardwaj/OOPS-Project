@@ -1,0 +1,6 @@
+Perl module for checking filehandle status
+	
+filehandle::fmode provides methods to test if a filehandle is readable,
+writable, both, or open for appending.
+
+filehandle::fmode is used by other packages like dbm::deep.

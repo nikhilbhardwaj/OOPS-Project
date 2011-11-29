@@ -1,0 +1,5 @@
+Perl interface to fork() system call
+	
+proc::fork module provides an intuitive, perl-ish way to write forking
+programs by letting you use blocks to illustrate which code section executes
+in which fork.

@@ -1,0 +1,15 @@
+Non-graphic version of amule, a client for the ed2k and kad networks
+	
+this package contains a daemonized version of amule, amuled, that does
+not need a graphic environment to run, and can run in the background as
+well. it is normally used to be run in a machine 24/7, since the
+application continues to run if the x11 session closes.
+
+included in the package is a webserver that provides an interface to
+control the daemon. remote connections are supported, and the daemon
+can be configured to start the webserver automatically at startup. it
+is also possible to control amuled via amulecmd, from the amule-utils
+package, and amulegui, available in the amule-utils-gui package.
+
+see the description of the amule package for a list of features, and
+/usr/share/doc/amule-daemon/readme.debian for some basic usage notes.

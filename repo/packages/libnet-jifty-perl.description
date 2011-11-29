@@ -1,0 +1,11 @@
+Perl interface to online jifty applications
+	
+jifty is a full-stack web framework. it provides an optional rest
+interface for applications. using this module, you can interact with
+that rest interface to write client-side utilities.
+
+you can use this module directly, but you'll be better off subclassing
+it, such as is done in net::hiveminder.
+
+this module also provides a number of convenient methods for writing
+short scripts.

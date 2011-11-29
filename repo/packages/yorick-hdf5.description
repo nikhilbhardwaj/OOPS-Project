@@ -1,0 +1,5 @@
+Hierarchical data format 5 interface for the yorick language
+	
+hdf5 is the yorick interface plugin to the ncsa hierarchical data format
+version 5. it includes function for reading, writing, updating, getting
+information on hdf5 files.

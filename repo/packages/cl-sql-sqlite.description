@@ -1,0 +1,5 @@
+Clsql database backend, sqlite
+	
+this package enables you to use the clsql data access package
+with sqlite databases.
+clsql is a common lisp interface to sql databases.

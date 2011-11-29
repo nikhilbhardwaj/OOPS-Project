@@ -1,0 +1,11 @@
+Scan for mdns/dns-sd services published on the local network
+	
+mdns-scan is a tool for scanning for mdns/dns-sd services published
+on the local network.
+
+it works by issuing a mdns ptr query to the special rr
+_services._dns-sd._udp.local for retrieving a list of all currently
+registered services on the local link.
+
+mdns/dns-sd is part of apple's zeroconf strategy (a.k.a. bonjour).
+the avahi-daemon package is an implementation of mdns/dns-sd.

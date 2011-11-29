@@ -1,0 +1,6 @@
+Tabulation of finite element function spaces
+	
+the finite element automatic tabulator fiat supports generation of arbitrary
+order instances of the lagrange elements on lines, triangles, and tetrahedra.
+other supported elements include arbitrary order raviart-thomas elements,
+brezzi-douglas-marini elements and a few others.

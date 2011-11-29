@@ -1,0 +1,13 @@
+Superimpose macromolecules using maximum likelihood
+	
+theseus is a program that simultaneously superimposes multiple
+macromolecular structures. theseus finds the optimal solution to the
+superposition problem using the method of maximum likelihood. by
+down-weighting variable regions of the superposition and by correcting for
+correlations among atoms, the ml superposition method produces very
+accurate structural alignments.
+
+when macromolecules with different residue sequences are superimposed,
+other programs and algorithms discard residues that are aligned with
+gaps. theseus, however, uses a novel superimposition algorithm that
+includes all of the data.

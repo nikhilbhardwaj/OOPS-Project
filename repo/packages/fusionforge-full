@@ -1,0 +1,4 @@
+PackageId:4799
+Name:fusionforge-full
+Version:5.0.2-5
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,gforge-common,gforge-db-postgresql,gforge-db,gforge-lists-mailman,gforge-lists,gforge-mta-exim4,gforge-mta,gforge-mta-courier,gforge-mta-postfix,gforge-plugin-contribtracker,gforge-plugin-extratabs,gforge-plugin-globalsearch,gforge-plugin-mediawiki,gforge-plugin-projectlabels,gforge-plugin-scmarch,gforge-plugin-scmbzr,gforge-plugin-scmcvs,gforge-plugin-scmdarcs,gforge-plugin-scmgit,gforge-plugin-scmhg,gforge-plugin-scmsvn,gforge-shell-postgresql,gforge-shell,gforge-web-apache2,gforge-web,gforge-web-apache2-vhosts,ucf

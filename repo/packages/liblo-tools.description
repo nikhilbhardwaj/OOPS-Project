@@ -1,0 +1,22 @@
+Lightweight osc library
+	
+this is a lightweight, easy to use implementation of the osc (open
+sound control) protocol (see
+<http://www.cnmat.berkeley.edu/opensoundcontrol/> for details).
+
+open sound control (osc) is a protocol for communication among
+computers, sound synthesizers, and other multimedia devices that is
+optimized for modern networking technology. osc features:
+
+
+ * open-ended, dynamic, url-style symbolic naming scheme
+ * symbolic and high-resolution numeric argument data
+ * pattern matching language to specify multiple recipients of a
+   single message
+ * high resolution time tags
+ * "bundles" of messages whose effects must occur simultaneously
+ * query system to dynamically find out the capabilities of an osc
+   server and get documentation
+
+
+this package contains the tools included with the library.

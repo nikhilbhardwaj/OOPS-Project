@@ -1,0 +1,8 @@
+Gives a fake chroot environment
+	
+this package provides a library which overrides libc functions, so
+it is possible to use root-specific tools without root privileges.
+
+in fake chroot you can install i.e. debian bootstrap, create developer's
+environment and build packages inside chroot'ed system using standard
+non-root user account.

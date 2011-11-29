@@ -1,0 +1,18 @@
+Uk postcode validation and location
+	
+geo::postcode will accept full or partial uk postcodes, validate them against
+the official spec, separate them into their significant parts, translate them
+into map references or co-ordinates and calculate distances between them.
+
+the last two features require a postcode database to be supplied separately.
+
+it does not check whether the supplied postcode exists: only whether it is
+well-formed according to british standard 7666, which you can find here:
+
+http://www.govtalk.gov.uk/gdsc/html/frames/postcode.htm
+
+geo::postcode will also work with partial codes, ie areas, districts and
+sectors. they won't validate, but you can test them for legitimacy with a
+call to valid_fragment, and you can still turn them into grid references.
+
+to work with us zipcodes, you need geo::postalcode instead.

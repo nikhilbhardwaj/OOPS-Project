@@ -1,0 +1,6 @@
+Sort naturally - sort lexically except for numerical parts
+	
+sort::naturally exports two functions, nsort and ncmp; they are used
+in implementing the idea of "natural sorting" algorithm.  with that natural
+sorting, numeric substrings are compared numerically, and other
+word-characters are compared lexically.

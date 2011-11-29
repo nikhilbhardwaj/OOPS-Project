@@ -1,0 +1,27 @@
+Utilities to make life with gnu arch (tla) easier
+	
+this is a collection of tools to make life with gnu arch easier.  the
+tools included are:
+
+  o tla-changelogs-to-log: takes a gnu changelog and creates an arch
+    patch log.
+  o tla-copy-changes: copy and commit arch changesets from another
+    branch.
+  o tla-cvs-sync: bidirectional sync with cvs archives.
+  o tla-emacs-xids-to-db: produce an id rename database for emacs.
+  o tla-file-log: output historical log for a file in an arch project
+    tree.
+  o tla-fix-changelog-conflicts: resolve merge conflicts in changelog
+    files.
+  o tla-fork: create an arch branch forking off an existing one.
+  o tla-fork-archive: fork a new arch archive.
+  o tla-munge-archive-names: changes names of
+    categories/branches/versions in an arch archive.
+  o tla-munge-archive-xids: modify an archive to use taglines instead
+    of explicit ids.
+  o tla-prune-revlib: prune arch revision library, somewhat
+    conservatively
+  o tla-scan-for-xids: produce a list of explicit ids used in an
+    archive.
+  o tla-switch: switch a project tree to a new version.
+  o tla-update-ids: automate handling of changed id tags.

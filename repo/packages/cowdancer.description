@@ -1,0 +1,12 @@
+Copy-on-write directory tree utility.
+	
+tries to make copy-on-write semantics upon hard-link copied
+directory trees generated with 'cp -la'
+
+'cow-shell' command invokes a shell session. within that session,
+under the directory cow-shell was invoked,
+cowdancer will create a new file when existing i-nodes are opened for
+write.
+useful for quick scratch workspace and experimentation.
+
+for a useful debian tool, try cowbuilder.

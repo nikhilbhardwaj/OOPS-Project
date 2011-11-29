@@ -1,0 +1,8 @@
+Infiniband fabric simulator utilities
+	
+ibsim provides a simulation of an infiniband fabric,
+which can be used by the opensm subnet manager and
+infiniband diagnostics and management tools.
+
+this package provides utilities for use with the
+simulator.

@@ -1,0 +1,7 @@
+Debian live - system build scripts (transitional package)
+	
+package to ease upgrading from older live-helper packages to the new
+live-build package.
+
+this package can be purged at anytime once the live-build package has been
+installed.

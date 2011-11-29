@@ -1,0 +1,6 @@
+Modular patch bay for jack audio and alsa midi
+	
+patchage provides a graphical interface to connect jack and midi inputs
+and outputs. each application is represented as one box with inputs on
+the left and output on the right. boxes can be moved around and
+arranged to have a clear display of the current setup.

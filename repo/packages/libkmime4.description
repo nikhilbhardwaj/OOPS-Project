@@ -1,0 +1,9 @@
+Library for handling mime data
+	
+this library provides an api for handling mime data. mime (multipurpose
+internet mail extensions) is an internet standard that extends the format
+of e-mail to support text in character sets other than us-ascii, non-text
+attachments, multi-part message bodies, and header information in non-ascii
+character sets.
+
+this package is part of the kde development platform pim libraries module.

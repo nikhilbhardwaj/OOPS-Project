@@ -1,0 +1,7 @@
+Perl utility to install and uninstall perl stuff
+	
+extutils::install handles the installing and uninstalling of perl modules,
+scripts, man pages, etc. it installs things intelligently, replicating the
+proper directory tree while preserving timestamps and permissions. it is also
+useful as a tool to uninstall distributions by removing anything listed in a
+given packlist file.

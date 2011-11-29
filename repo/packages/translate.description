@@ -1,0 +1,5 @@
+Translates words from english into german or viceversa
+	
+it looks up a word in a file with language-to-language translations
+(field separator should be \" :: \") and maintains local dictionaries.
+so it should be easy to add more languages, if you have such a dictionary.

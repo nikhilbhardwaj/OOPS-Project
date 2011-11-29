@@ -1,0 +1,21 @@
+Source for netfilter kernel modules derived from patch-o-matic-ng
+	
+this package provides the source code for the netfilter-extensions kernel
+modules.  kernel source or headers are required to compile these modules.
+
+the following netfilter extensions derived from netfilter.org's
+patch-o-matic-ng repository are included:
+
+
+  tarpit
+  ipv4options
+  set
+  u32
+
+
+the modules in this package should be usable with the unmodified linux
+kernel and iptables packages included in debian; they do not require extracted
+linux kernel and iptables source trees as part of the build process.
+
+note that these modules are not included in the upstream linux kernel because
+they may be buggy or experimental and should be used with caution.

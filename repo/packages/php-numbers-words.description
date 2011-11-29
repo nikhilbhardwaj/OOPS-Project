@@ -1,0 +1,9 @@
+A pear module providing methods for spelling numerals in words
+	
+with numbers_words class you can convert numbers written in arabic digits to
+words in several languages. you can convert an integer between -infinity and
+infinity. if your system does not support such long numbers you can call
+numbers_words::towords() with just a string.
+
+with the numbers_words::tocurrency($num, $locale, 'usd') method you can
+convert a number (decimal and fraction part) to words with currency name.

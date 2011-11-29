@@ -1,0 +1,11 @@
+Documentation for gnu common lisp, cvs snapshot
+	
+gnu common lisp (gcl) is a common lisp compiler and interpreter
+implemented in c, and complying mostly with the standard set
+forth in the book "common lisp, the language i".  it attempts
+to strike a useful middle ground in performance and portability
+from its design around c.
+
+this package contains documentation in info format of both the
+system internals, as well as the graphical interface currently
+implemented in tcl/tk.

@@ -1,0 +1,12 @@
+Perl module for manipulating icalendar (rfc2445) files
+	
+data::ical provides an implementation of perl objects that represent a given
+vcalendar object as defined in the icalendar protocol (rfc 2445, mime type
+"text/calendar"), as implemented in many popular calendaring programs such as
+apple's ical.
+
+each data::ical object is a collection of "entries", which are objects of a
+subclass of data::ical::entry. the types of entries defined by icalendar
+(which refers to them as "components") include events, to-do items, journal
+entries, free/busy time indicators and time zone descriptors, but this module
+currently only implements to-do items and events.

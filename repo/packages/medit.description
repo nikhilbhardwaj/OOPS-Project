@@ -1,0 +1,13 @@
+A useful programming and around-programming text editor
+	
+features:
+
+ * configurable syntax highlighting.
+ * configurable keyboard accelerators.
+ * multiplatform - works both on unix and windows.
+ * plugins: can be written in c or python.
+ * configurable tools available from the main and context menus. they can be
+   written in python, or it can be a shell script, or in mooscript - simple
+   builtin scripting lanugage.
+ * regular expression search/replace, grep and find frontends, builtin file
+   selector and whatnot.

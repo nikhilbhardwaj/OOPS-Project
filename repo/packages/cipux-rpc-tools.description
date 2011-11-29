@@ -1,0 +1,21 @@
+Commandline helper tools for xml-rpc server
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+cat is cipux administration tools.  two cats are provided officially
+with cipux:
+
+ - cipux-cat: generic web-based cat
+ - cipux-cat-moodle: cipux plugin for moodle
+
+these can be extended or replaced with custom tools.
+
+this package contains the cipux xml-rpc daemon, serving the cipux::task
+api for network-based appplications.  any xml-rpc application can
+access the cipux::task api and perform tasks, like creating users and
+other objects, inside the cipux framework.
+
+this package contains commandline tools to help setup and test the
+xml-rpc server for cipux.

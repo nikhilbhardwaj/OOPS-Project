@@ -1,0 +1,4 @@
+Provides user data in an os independent manner
+	
+provides an api to retrieve user data, such as login name or home
+directory in an os independent manner. [used by www::search]

@@ -1,0 +1,11 @@
+Common java interface for various compilers - core and fam
+	
+commons jci is a common java compiler interface for various compilers.
+
+it can be used to either compile java (or any other language that can be
+compiled to java classes like e.g. groovy or javascript) to java.
+
+it is integrated with a java fam (filesystem alteration monitor)
+that can be used with jci compiling/reloading classloader.
+
+this package contains fam and core module of commons jci.

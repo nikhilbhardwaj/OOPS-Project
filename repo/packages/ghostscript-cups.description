@@ -1,0 +1,8 @@
+The gpl ghostscript postscript/pdf interpreter - cups filters
+	
+ghostscript is used for postscript/pdf preview and printing.  usually as
+a back-end to a program such as ghostview, it can display postscript and pdf
+documents in an x11 environment.
+
+this package contains the cups filters, drivers, and ppds which come with
+ghostscript.

@@ -1,0 +1,8 @@
+Fast free verilog simulator
+	
+verilator is the fastest free verilog hdl simulator, and beats many commercial
+simulators. it compiles synthesizable verilog (not test-bench code!), plus
+some psl, systemverilog and synthesis assertions into c++ or systemc code.
+it is designed for large projects where fast simulation performance is of
+primary concern, and is especially well suited to generate executable models
+of cpus for embedded software design teams.

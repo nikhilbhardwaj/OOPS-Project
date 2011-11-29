@@ -1,0 +1,11 @@
+Tool for parsing flat and csv files and converting them to different formats
+	
+ffe has many areas of use with fixed lenth and csv files. it can extract
+particular fields or records from a flat file, convert data from one format
+to an other (csv to fixed lenth, ...), display flat file content in human
+readable form, etc. in addition, one input file can contain several types of
+records (lines) and the input file structure and output definitions are
+independent, meaning one output format can be used with several input files.
+this input file structure and output format are 'freely' configurable,
+so the output can be formatted e.g. as: fixed length, separated, tokenized,
+xml, sql,...

@@ -1,0 +1,8 @@
+C++ library to connect to postgresql (debugging symbols)
+	
+c++ library to enable user programs to communicate with
+the postgresql database back-end.
+
+this package contains debugging symbols for the libpqxx library. it is usually
+needed to get a useful backtrace when applications using the libpqxx library
+crashes.

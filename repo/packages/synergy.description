@@ -1,0 +1,17 @@
+Share mouse, keyboard and clipboard over the network
+	
+synergy lets you easily share a single mouse and keyboard between
+multiple computers with different operating systems, each with its
+own display, without special hardware.  it's intended for users
+with multiple computers on their desk since each system uses its
+own display.
+
+redirecting the mouse and keyboard is as simple as moving the mouse
+off the edge of your screen.  synergy also merges the clipboards of
+all the systems into one, allowing cut-and-paste between systems.
+furthermore, it synchronizes screen savers so they all start and stop
+together and, if screen locking is enabled, only one screen requires
+a password to unlock them all.
+
+packages for windows/macos/rpm and sources can be found at
+http://sourceforge.net/project/showfiles.php?group_id=59275

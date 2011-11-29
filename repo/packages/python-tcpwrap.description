@@ -1,0 +1,4 @@
+Python interface for libwrap0 (tcp wrappers)
+	
+libwrap0 is a library for tcp wrappers so that programs can support tcp
+wrappers natively. this package provides a python interface for libwrap0.

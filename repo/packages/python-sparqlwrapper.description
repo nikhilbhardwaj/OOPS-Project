@@ -1,0 +1,5 @@
+Sparql endpoint interface to python
+	
+this is a wrapper around a sparql service. it helps in
+creating the query uri and, possibly, convert the
+result into a more manageable format.

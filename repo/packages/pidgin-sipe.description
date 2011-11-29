@@ -1,0 +1,13 @@
+Pidgin protocol plugin to connect to ms office communicator
+	
+a third-party plugin for the pidgin multi-protocol instant messenger.
+it implements the extended version of sip/simple used by various products:
+
+
+    * microsoft office communications server (ocs 2007/2007 r2 and newer)
+    * microsoft live communications server (lcs 2003/2005)
+    * reuters messaging
+
+
+with this plugin you should be able to replace your microsoft office
+communicator client with pidgin.

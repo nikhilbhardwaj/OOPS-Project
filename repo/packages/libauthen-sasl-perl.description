@@ -1,0 +1,15 @@
+Authen::sasl - sasl authentication framework
+	
+sasl is a generic mechanism for authentication used by several network
+protocols. authen::sasl provides an implementation framework that all
+protocols should be able to share.
+
+the framework allows different implementations of the connection class
+to be plugged in. at the time of writing there were two such plugins:
+
+ - authen::sasl::perl
+   this module implements several mechanisms and is implemented
+   entirely in perl.
+ - authen::sasl::cyrus
+   this module uses the cyrus sasl c-library (both version 1 and 2 are
+   supported).

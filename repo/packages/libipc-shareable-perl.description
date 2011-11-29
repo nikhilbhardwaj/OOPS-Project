@@ -1,0 +1,10 @@
+Module to access ipc shared memory segments through perl
+	
+this perl module provides a tie() interface to system v ipc shared memory
+segments.
+
+ipc::shareable allows you to tie a variable to shared memory making it
+easy to share the contents of that variable with other perl processes.
+scalars, arrays, and hashes can be tied.  the variable being tied may
+contain arbitrarily complex data structures - including references to
+arrays, hashes of hashes, etc.

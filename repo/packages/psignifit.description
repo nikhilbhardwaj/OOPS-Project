@@ -1,0 +1,10 @@
+Fitting and testing hypotheses about psychometric functions
+	
+psignifit allows fitting of psychometric functions to datasets while
+maintaining full control over a large number of parameters. data
+can either be read from text files or passed through a pipe.
+
+psignifit performs the calculation of confidence intervals as well as
+goodness-of-fit tests.
+
+this is the command line version.

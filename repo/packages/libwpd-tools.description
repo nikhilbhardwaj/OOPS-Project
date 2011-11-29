@@ -1,0 +1,9 @@
+Tools from libwpd for converting wordperfect to html/raw/text
+	
+libwpd is a library for reading and writing wordperfect(tm) documents.
+importing from wordperfect 4/5/6/7/8/9/10/11 and wordperfect for macintosh
+1.x/2.x/3.5e files are supported.  libwpd has complete support for the
+entire set of wordperfect extended characters, too.
+
+this package contains some little programs using libwpd to convert
+wordperfect files into html/raw files and text.

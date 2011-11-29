@@ -1,0 +1,8 @@
+Open-source version of sgi's audiofile library
+	
+the audiofile library allows the processing of audio data to and from audio
+files of many common formats (currently aiff, aiff-c, wave, next/sun, bics,
+and raw data).
+
+this package contains the library needed to run executables using
+libaudiofile.

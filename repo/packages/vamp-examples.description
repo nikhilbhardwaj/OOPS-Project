@@ -1,0 +1,52 @@
+Example vamp plugins and host
+	
+vamp is an audio processing plugin system for plugins that extract
+descriptive information from audio data - typically referred to as
+audio analysis plugins or audio feature extraction plugins.
+
+this package contains the following example plugins:
+
+
+ * zero crossings calculates the positions and density of
+   zero-crossing points in an audio waveform.
+
+
+
+ * spectral centroid calculates the centre of gravity of the
+   frequency domain representation of each block of audio.
+
+
+
+ * simple power spectrum calculates a power spectrum from the input
+   audio.  actually, it doesn't do any work except calculating power
+   from a cartesian complex fft output.  the work of calculating this
+   frequency domain output is done for it by the host or host sdk; the
+   plugin just needs to declare that it wants frequency domain
+   input. this is the simplest of the example plugins.
+
+
+
+ * amplitude follower is an implementation of supercollider's
+   amplitude-follower algorithm as a simple vamp plugin.
+
+
+
+ * simple percussion onset detector: estimates the locations of
+   percussive onsets using a simple method described in "drum source
+   separation using percussive feature detection and spectral
+   modulation" by dan barry, derry fitzgerald, eugene coyle and bob
+   lawlor, issc 2005.
+
+
+
+ * simple fixed tempo estimator: calculates a single beats-per-minute
+   value which is an estimate of the tempo of a piece of music that is
+   assumed to be of fixed tempo, using autocorrelation of a frequency
+   domain energy rise metric.  it has several outputs that return
+   intermediate results used in the calculation, and may be a useful
+   example of a plugin having several outputs with varying feature
+   structures.
+
+
+also included is a simple host that can enumerate plugins, list their
+features, and process an audio file.

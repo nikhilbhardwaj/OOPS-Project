@@ -1,0 +1,10 @@
+Common unix printing system(tm) - bsd commands
+	
+the common unix printing system (or cups(tm)) is a printing system and
+general replacement for lpr, lpd and the like.  it supports the
+internet printing protocol (ipp), and has its own filtering driver
+model for handling various document types.
+
+this package provides the bsd commands for interacting with cups.  it
+is provided separately to allow cups to coexist with other printing
+systems (to a small degree).

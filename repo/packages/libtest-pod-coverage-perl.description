@@ -1,0 +1,8 @@
+Check for pod coverage in your distribution
+	
+test::pod::coverage is a wrapper for pod::coverage that
+automates the process of testing one's documentation for
+completeness. it is mostly used as a final check before
+distributing a new release.
+
+also see lib-pod-coverage-perl.

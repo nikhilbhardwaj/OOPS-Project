@@ -1,0 +1,6 @@
+Perl interface to make urls for gravatars from an email address
+	
+a gravatar is a globally recognized avatar for a given email address. this
+allows you to have a global picture associated with your email address. you
+can look up the gravatar for any email address by constructing a url to get
+the image from gravatar.com. gravatar::url does that.

@@ -1,0 +1,7 @@
+Library to consume and produce dwarf debug information
+	
+the libdwarf package provides a shared library which allows reading/consumer
+and writing/producer of dwarf debugging information from object files, shared
+libraries, and executables.
+
+this library is part of dwarfutils.

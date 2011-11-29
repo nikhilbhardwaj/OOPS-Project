@@ -1,0 +1,6 @@
+Memory leak tracer
+	
+kmtrace is a kde tool to assist with malloc debugging using glibc's
+"mtrace" functionality.
+
+this package is part of the kde software development kit module.

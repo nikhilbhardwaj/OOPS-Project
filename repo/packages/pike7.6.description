@@ -1,0 +1,15 @@
+Recommended metapackage for pike 7.6
+	
+this is a metapackage which depends upon several other pike
+packages that together make up the recommended pike installation.
+if you want to install every packaged component of the pike
+distribution, please install the package pike7.6-meta.
+
+if you want to remove several components this package depends
+upon, you can purge this package without worrying about the
+functionality loss in pike and then remove the packages you
+don't need on your system.
+
+pike is an interpreted programming language, for more information
+see the description of the pike7.6-core package or visit the url
+below.

@@ -1,0 +1,10 @@
+Command line hierarchical todo list
+	
+todo list manager in ncurses, with hierarchical representation of the tasks.
+each task has:
+
+  * title
+  * long text description
+  * deadline (tudu warns you when the date is approaching)
+  * categories
+  * priorities

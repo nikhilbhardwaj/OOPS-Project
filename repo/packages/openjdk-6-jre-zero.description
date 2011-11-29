@@ -1,0 +1,8 @@
+Alternative jvm for openjdk, using zero/shark
+	
+the package provides an alternative runtime using the zero vm and the
+shark just in time compiler (jit).  built on architectures in addition
+to the hotspot vm as a debugging aid for those architectures which don't
+have a hotspot vm.
+
+the vm is started with the option `-zero'. see the readme.debian for details.

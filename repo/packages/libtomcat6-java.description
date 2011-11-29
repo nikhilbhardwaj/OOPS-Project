@@ -1,0 +1,8 @@
+Servlet and jsp engine -- core libraries
+	
+apache tomcat implements the java servlet and the javaserver pages (jsp)
+specifications from sun microsystems, and provides a "pure java" http web
+server environment for java code to run.
+
+this package contains the tomcat core classes which can be used by other
+java applications to embed tomcat.

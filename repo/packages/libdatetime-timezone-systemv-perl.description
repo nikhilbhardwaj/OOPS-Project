@@ -1,0 +1,10 @@
+System v and posix timezone strings
+	
+an instance of this class represents a timezone that was specified by means
+of a system v timezone string or the posix extended form of the same syntax.
+these can express a plain offset from universal time, or a system of two
+offsets (standard and daylight saving time) switching on a yearly cycle
+according to certain types of rule.
+
+this class implements the datetime::timezone interface, so that its instances
+can be used with datetime objects.

@@ -1,0 +1,31 @@
+Viewing, editing and writing id3 tags
+	
+easytag is an utility for viewing, editing and writing
+the id3 tags of different audio files, using a gtk+ interface.
+
+currently easytag supports the following:
+
+ - view, edit, write tags of mp3, mp2 files (id3 tag), flac files (flac vorbis
+   tag), ogg vorbis files (ogg vorbis tag), and musepack, monkey's audio files
+   (ape tag),
+ - auto tagging: parse filename and directory to complete automatically the
+   fields (using masks),
+ - ability to rename files from the tag (using masks) or by loading
+   a text file,
+ - process selected files of the selected directory,
+ - ability to browse subdirectories,
+ - recursion for tagging, removing, renaming, saving...,
+ - can set a field (artist, title,...) to all other selected files,
+ - read file header informations (bitrate, time, ...) and display them,
+ - undo and redo last changes,
+ - ability to process fields of tag and file name (convert letters into
+   uppercase, downcase, ...),
+ - ability to open a directory or a file with an external program,
+ - cddb support (from http protocol),
+ - a tree based browser,
+ - a list to select files,
+ - a playlist generator window,
+ - a file searching window,
+ - simple and explicit interface!,
+ - french, german, russian, dutch, hungarian, swedish, italian, japanese,
+   ukrainian, czech, spanish, polish and romanian translation language

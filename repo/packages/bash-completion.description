@@ -1,0 +1,7 @@
+Programmable completion for the bash shell
+	
+bash completion extends bash's standard completion behavior to achieve
+complex command lines with just a few keystrokes.  this project was
+conceived to produce programmable completion routines for the most
+common linux/unix commands, reducing the amount of typing sysadmins
+and programmers need to do on a daily basis.

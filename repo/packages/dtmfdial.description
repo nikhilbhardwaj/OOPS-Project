@@ -1,0 +1,7 @@
+Dtmf tone dialer
+	
+dtmfdial is a dtmf (dual tone multiple frequency) tone generator. this
+program generates the same tones that modern "touchtone" telephones use
+to dial. it can be used to dial on any phone system supporting dtmf tones.
+dtmfdial requires a sound card to work, and is designed to be used as a
+phone dialer from address book programs.

@@ -1,0 +1,13 @@
+Ggz gaming zone: main server
+	
+the ggz server (ggzd) is the central part of the server-side
+infrastructure of the ggz gaming zone.  it provides player account
+management, game server launches, and administration of the statistics
+database, as well as secure chat rooms.
+
+you do not require this package if you simply want to play online games.
+you will need it, however, if you intend to do any game hosting, either
+because you want to run your own server or for development purposes.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

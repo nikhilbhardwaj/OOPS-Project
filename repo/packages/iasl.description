@@ -1,0 +1,5 @@
+Intel asl compiler/decompiler
+	
+iasl compiles asl (acpi source language) into aml (acpi machine
+language). this aml is suitable for inclusion as a dsdt in system
+firmware. it also can disassemble aml, for debugging purposes.

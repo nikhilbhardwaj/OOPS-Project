@@ -1,0 +1,13 @@
+Ggz gaming zone: game backend class library
+	
+the ggzdmod library implements the communication between the main ggz
+server (ggzd) and the game servers.  games use it to receive information
+about themselves, to report back results and savegames, and to control
+other run-time aspects.
+
+this package provides the c++ version of the run-time library used by
+most of the ggz game servers.  it also includes a network transport
+class.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

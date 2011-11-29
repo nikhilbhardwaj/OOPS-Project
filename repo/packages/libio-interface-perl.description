@@ -1,0 +1,8 @@
+Socket methods to get/set interface characteristics
+	
+io::interface adds object-methods to io::socket objects to allow them
+to get and set operational characteristics of network interface cards,
+such as ip addresses, net masks, and so forth.  it is useful for
+identifying runtime characteristics of cards, such as broadcast
+addresses, and finding interfaces that satisfy certain criteria, such
+as the ability to multicast.

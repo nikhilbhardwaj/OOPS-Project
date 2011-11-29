@@ -1,0 +1,19 @@
+Virtual network computing server software
+	
+vnc stands for virtual network computing. it is, in essence, a remote
+display system which allows you to view a computing `desktop' environment
+not only on the machine where it is running, but from anywhere on the
+internet and from a wide variety of machine architectures.
+
+this package provides a server to which x clients can connect and the
+server generates a display that can be viewed with a vncviewer.
+
+the difference between the tightvncserver and the normal vncserver is the
+data encoding, optimized for low bandwidth connections. if the client do not
+support jpeg or zlib encoding it can use the default one. later versions of
+vncserver (> 3.3.3r2) support a new automatic encoding that should be equally
+good as the tightvnc encoding.
+
+note: this server does not support or need a display. you need a vncviewer to
+see something. however, this viewer may also be on a computer running other
+operating systems in the local net.

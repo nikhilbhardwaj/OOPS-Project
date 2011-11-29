@@ -1,0 +1,9 @@
+Interface for collins and langenscheidt dictionaries
+	
+this is an ncurses interface to the collins english-polish/polish-english
+and/or langenscheidt german-polish/polish-german dictionaries distributed by
+young digital planet. it can also play the pronunciation samples if the cd is
+available.
+
+this package is only the interface, it does not contain the dictionary files
+itself. to use it, you need a copy of a dictionary from ydp.

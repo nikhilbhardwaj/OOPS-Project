@@ -1,0 +1,10 @@
+Bickley daemons for meta data management api and framework (debug)
+	
+bickley metadata system are made by two daemons: bkl-orbiter and
+bkl-investigator. bkl-orbiter is always running and keeps track of various
+sources, watching for files on the sources that need to be indexed.
+when it has found something that needs extracting, the bkl-investigator is
+started and scans the file for metadata which it then sends to the orbiter.
+the orbiter puts this metadata into the database.
+
+this package contains the debug symbols.

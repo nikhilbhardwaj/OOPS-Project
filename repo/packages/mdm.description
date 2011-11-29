@@ -1,0 +1,10 @@
+Utilities for single-host parallel shell scripting
+	
+the middleman system (mdm) is a set of utilities that help you
+parallelize your shell scripts.  simply label the commands to run in
+parallel, and the system automatically exploits every parallelization
+opportunity that arises at runtime.  you can also specify dependency
+between commands so that they run in an appropriate order.
+
+comes with an ncurses-based monitoring console.  compatible with xargs,
+find, make, any shell, together, in a script or interactively.

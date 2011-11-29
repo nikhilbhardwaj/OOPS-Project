@@ -1,0 +1,9 @@
+Create debian packages from drupal modules and themes
+	
+the purpose of this program is to generate debian packages for any drupal
+projects (that is, modules or themes).
+
+given that drupal developers publish their work through the main drupal
+site (http://drupal.org), this program fetches the information for the
+latest available versions (for the right drupal release, and with the
+specified stability level), and prepares a debian package from it.

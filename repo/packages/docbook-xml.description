@@ -1,0 +1,20 @@
+Standard xml documentation system for software and systems
+	
+docbook is an xml document type definition (dtd).  that is, it
+contains the "docbook" document structure.  this is used by authors
+or editors writing documents in the docbook xml format.  docbook was
+designed for books, articles, or reference documentation about
+technical matters or software.  it has emerged as an open, standard
+dtd in the software industry, and is the documentation system of
+choice for many free software projects.
+
+this package contains the xml dtd for docbook, which describes the
+formal structure for documents following this format.  if you wish to
+author docbook documents using sgml rather than xml, use the
+'docbook' package.  you will need other packages in order to edit
+(psgml), validate (opensp, libxml2-utils) or format (docbook-xsl,
+docbook-dsssl) docbook documents.
+
+this package ships with the latest docbook 4.5 xml dtd, as well as a
+selected set of legacy dtds for use with older documents, including
+4.0, 4.1.2, 4.2, 4.3 and 4.4.

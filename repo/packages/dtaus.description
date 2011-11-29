@@ -1,0 +1,10 @@
+Paperless money transfer with german banks on floppies
+	
+this package contains a library that can read and write german dtaus
+files.  dtaus is an acronym for datentraegeraustausch.  it is used by
+german credit institutes in order to transfer commands for money
+exchanges between accounts.  this format is used both between banks
+and between banks and their customers.  one mainly wants to use it to
+be able to do automatic "bankeinzuege".
+
+this package probably will only be useful in germany.

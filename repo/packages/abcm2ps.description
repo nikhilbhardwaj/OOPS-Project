@@ -1,0 +1,12 @@
+Translates abc music description files to postscript
+	
+this is the debian port of the abcm2ps program by jean-françois moine.
+the program translates tunes written in the abc format to postscript,
+which can then be viewed using ghostview et al. or printed on a
+postscript printer or through ghostscript. it supports various
+semi-standard extensions to the abc standard, such as multiple
+voices and staves.
+
+this program is a vastly improved spin-off from michael methfessel's
+abc2ps, which is no longer supplied as part of debian. in particular,
+it contains a lot of extensions to help typeset classical music.

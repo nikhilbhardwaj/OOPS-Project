@@ -1,0 +1,9 @@
+Spam module for horde framework
+	
+sam is the horde module permitting to each user to manage his
+spamassassin or amavisd-new preferences. for example, it can
+authorize to change spamassassin user scores, manage blacklist
+and whitelist.
+
+user preferences can be stored in a variety of backends such
+as a sql database, ldap storage or on an ftp server.

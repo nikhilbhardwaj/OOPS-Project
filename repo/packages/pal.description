@@ -1,0 +1,33 @@
+Command-line calendar program that can keep track of events
+	
+pal is a command-line calendar program for unix/linux systems that can keep
+track of events. it has similarities with the unix cal command, the more
+complex gnu gcal program, and the calendar program distributed with the bsds.
+
+some of pal's main features are:
+
+ * a cal-like calendar that highlights days that have events.
+ * assign different colors to different types of events.
+ * search events with regular expressions (-s).
+ * includes calendars for us holidays, christian holidays, world holidays,
+   historical events and more.
+ * one-time events and a variety of recurring events are supported (daily,
+   weekly, monthly, yearly). recurring events can have start and end dates.
+ * easy-to-use interface for interactively adding, editing and deleting
+   events (-m).
+ * automated deletion of old events (-x).
+ * option to generate an html calendar (--html).
+ * option to generate a latex calendar suitable for printing (--latex).
+
+
+ways to use pal effectively include:
+
+ * create your own calendar files and be reminded of upcoming meetings,
+   deadlines, and events.
+ * remind yourself daily of your "to do" list by using the special todo event
+   type.
+ * run pal in your shell initialization file (such as ~/.bash_profile) to see
+   your calendar whenever you open a new terminal.
+ * set up a cron job that emails you and/or others the output of pal every
+   morning (--mail).
+ * view the calendars of other pal users on the same system.

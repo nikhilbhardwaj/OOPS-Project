@@ -1,0 +1,8 @@
+Apple powerbook power management daemon utils
+	
+pmud is a daemon which periodically polls the pmu
+(power manager) and performs various housekeeping functions
+depending on the power status.
+this package contains additional tools including a battery
+status monitor and a tool to preserve x mouse settings
+across sleep.

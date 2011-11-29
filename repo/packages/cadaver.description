@@ -1,0 +1,14 @@
+Command-line webdav client
+	
+cadaver supports file upload, download, on-screen display, in-place editing,
+namespace operations (move/copy), collection creation and deletion, property
+manipulation, and resource locking.
+
+its operation is similar to the standard bsd ftp(1) client and the samba
+project's smbclient(1).
+
+this package includes gnutls (https) support.
+
+webdav (web-based distributed authoring and versioning) is a set of
+extensions to the http protocol which allow users to collaboratively edit and
+manage files on remote web servers.

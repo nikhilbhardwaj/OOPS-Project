@@ -1,0 +1,7 @@
+Perl framework providing an extensible high-performance orm
+	
+rose::db::object is a base class for objects that encapsulate a single row in
+a database table. by deriving objects from this module, you get a simple api
+for manipulating database tuples. this module inherits from, and follows the
+convention of, rose::object. see the manual for rose::object or the tutorial,
+rose::db::object::tutorial, for details.

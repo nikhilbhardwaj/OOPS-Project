@@ -1,0 +1,17 @@
+Perl extension for getting md5 sums for files and urls
+	
+digest::md5::file adds functionality for easy calculation of md5 checksums of
+entire files, directories or urls to the standard digest::md5 module.
+
+example usage:
+
+
+  use digest::md5::file;
+  my $md5 = digest::md5->new;
+  $md5->addpath('/path/to/file.txt');
+  $md5->addpath(\@files);
+  $md5->adddir('/home/tmbg/');
+  $md5->addurl('http://www.tmbg.com/tour.html');
+  my $digest = file_md5_hex($file);
+  my $dir_hashref = dir_md5_hex($dir);
+  my $digest = url_md5_hex($url);

@@ -1,0 +1,8 @@
+Detached symbols for libneon27
+	
+this package contains the debugging symbols for libneon27, suitable for
+debugging.
+
+neon provides lower-level interfaces to directly implement new http
+methods, and higher-level interfaces so that you don't have to
+worry about the lower-level stuff.

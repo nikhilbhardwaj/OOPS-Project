@@ -1,0 +1,5 @@
+Lexicon-handling backends for locale::maketext
+	
+locale::maketext::lexicon is a perl module that extends locale::maketext with
+lexicon-handling modules to read from other localization formats, including
+gettext, msgcat, and more. it can read from databases, po files or mo files.

@@ -1,0 +1,8 @@
+A wrapper to run netscape plugins on other architectures
+	
+nspluginwrapper is an open source compatibility plugin for netscape 4
+(npapi) plugins. that is, it enables you to use plugins on platforms
+they were not built for.
+
+this package is built to run i386 plugins, since there are no known
+binary-only plugins built for any other architecture.

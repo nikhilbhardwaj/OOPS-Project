@@ -1,0 +1,13 @@
+C++ network libraries for rapid application development
+	
+uniconf is a configuration system that can serve as the centrepiece among
+many other, existing configuration systems, such as:
+
+ * gconf
+ * kconfig
+ * windows registry
+ * mutt ;)
+
+
+uniconf can also be accessed over the network, with authentication, allowing
+easy replication of configuration data via the unireplicategen.

@@ -1,0 +1,7 @@
+Ocaml bindings to embed python interpreter (runtime)
+	
+pycaml is intended to allow users to build native ocaml libraries and
+use them from python, and conversely, in order to allow ocaml users
+to benefit from linkable libraries provided for python.
+
+this package contains the runtime library.

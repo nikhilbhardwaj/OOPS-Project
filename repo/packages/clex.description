@@ -1,0 +1,6 @@
+Command line file manager which uses the ncurses library
+	
+clex is a fully functional textual file-manager. it displays things
+like permissions, date of creation, filesize and others when browsing a
+directory. clex also has the ability to accept commands with the
+default shell, and showing the output.

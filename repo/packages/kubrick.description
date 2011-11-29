@@ -1,0 +1,11 @@
+Game based on rubik's cube
+	
+kubrick is a game based on rubik's cube and using opengl 3-d graphics
+libraries.
+
+kubrick handles cubes, "bricks" and "mats" from 2x2x1 up to 6x6x6. it has
+several built-in puzzles of graded difficulty, as well as demos of solving
+moves and pretty patterns. the game has unlimited undo, redo, save and
+reload capabilities.
+
+this package is part of the kde games module.

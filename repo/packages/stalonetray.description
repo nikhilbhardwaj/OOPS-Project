@@ -1,0 +1,17 @@
+Standalone freedesktop.org and kde systray implementation
+	
+stalonetray is an implementation of system tray application (aka
+notificaton area) according to freedesktop.org specification; support
+for kde icons included.
+
+stalonetray is a stand-alone system tray (notification area) for x
+window system/x11 (e.g. x.org or xfree 86). it has full xembed
+support and minimal dependencies: an x11 lib only. stalonetray works
+with virtually any ewmh-compliant window manager.
+
+window managers that are reported to work well with stalonetray:
+
+ - fvwm
+ - openbox
+ - enlightenment
+ - ion3

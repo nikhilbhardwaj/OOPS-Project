@@ -1,0 +1,13 @@
+User space tcp/ip pipe
+	
+a tcp/ip pipe is a user space programme that listens for tcp/ip
+connections on port on the local host and when a client connects makes a
+connection to a tcp port, possibly on another host. once both connections
+are established data sent on one connection is relayed to the other, hence
+forming a bi-directional pipe.
+
+uses include enabling connections to specific ports on hosts behind a
+packet filter.
+
+this code is intended primarily as an example of how many of the features
+of libvanessa_socket work.

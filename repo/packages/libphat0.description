@@ -1,0 +1,6 @@
+Collection of gtk widgets geared towards audio apps
+	
+audio applications demand a set of special widgets of its own
+which phat aims to provide. the first widget being the "fanslider",
+a mix between the button and the slider metaphores, providing the
+user a more precise graphical input method.

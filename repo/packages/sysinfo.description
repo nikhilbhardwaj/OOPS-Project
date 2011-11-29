@@ -1,0 +1,16 @@
+Display computer and system information
+	
+sysinfo is a graphical tool that is able to display some hardware and
+software information about the computer it is run on.
+
+it is able to recognize information about:
+
+  - system (linux distribution release, versions of gnome, kernel, gcc and
+    xorg and hostname);
+  - cpu (vendor identification, model name, frequency, level2 cache, bogomips,
+    model numbers and flags);
+  - memory (total system ram, free memory, swap space total and free, cached,
+    active, inactive memory);
+  - storage (ide interface, all ide devices, scsi devices);
+  - hardware (motherboard, graphic card, sound card, network devices);
+  - nvidia graphic card: only with nvidia display driver installed.

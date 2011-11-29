@@ -1,0 +1,7 @@
+Mysql database connector for cli
+	
+the mysql.data library is a fully managed (100% c#) driver for all cli
+languages (c#, vb.net, boo, nemerle, etc) for accessing mysql databases.
+
+this package contains development files for connector/net and will always
+pull in the current default version - and should be used for compilation.

@@ -1,0 +1,5 @@
+Tilp framework documentation generator
+	
+the tfdocgen program is a program used by the libti*2 libraries to generate
+their html documentation from sources and misc files. you don't need this
+package unless you want to develop on the libti*2 libraries.

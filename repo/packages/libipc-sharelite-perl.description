@@ -1,0 +1,6 @@
+Perl module that provides a simple interface to shared memory
+	
+ipc::sharelite provides a simple interface to shared memory, allowing
+data to be efficiently communicated between processes. your operating
+system must support sysv ipc (shared memory and semaphores) in order to
+use this module.

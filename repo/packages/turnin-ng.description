@@ -1,0 +1,6 @@
+Assignment submitter and manager
+	
+turnin-ng is an assignment submission suite written in python and composed of
+turnin and turnincfg. students can use the turnin command to submit an
+assignment to a course. professors and tas (teaching assistants) can use
+turnincfg to manage submitted assignments, making them easier to grade.

@@ -1,0 +1,33 @@
+An automatic mail-processing tool and filter.
+	
+mailagent is a mail delivery agent, and can be programmed to
+respond to mail in ways more sophisticated than a mail filtering
+program like procmail. it is easy to configure, and very easy to
+extend using perl. not only can the base functionality be
+extended, new commands and processing methods can be added in a
+modular fashion.
+
+obeying lex-like rulesets, mailagent can file mails to specific
+folders (plain unix-style folders and also mmdf and mh ones),
+forward messages to third parties, pipe them to commands or post
+them to newsgroups. the filtering commands that are executed on
+the messages can be extended, and may rewrite the message headers
+or body as desired. it can also create and process commands based
+on key words contained in the body of the mail message.
+
+mailagent can be used as a vacation program, and can answer mail
+automatically and with more flexibility than the command of that
+name. a template can be provided for the body of the response,
+and the frequency of vacation mails can also be specified. simple
+macro substitutions allow parts of the mail header to be recycled
+into the vacation messages, for a more personalized reply.
+
+mailagent can also be used to set up a generic mail server,
+without the hassle of the lower-level concerns like error
+recovery, logging or command parsing.
+
+please note that on debian systems, mailagent requires a catch-all
+rule saving all mail into the user's home directory. unlike other
+mail delivery agents such as procmail, mailagent is too extensible
+to be safely made setgid mail, and so cannot lock /var/spool/mail
+mailboxes.

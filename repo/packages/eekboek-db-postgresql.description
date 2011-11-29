@@ -1,0 +1,6 @@
+Postgresql database driver for eekboek
+	
+this package includes eb::db::postgres, the postgresql database driver for
+eekboek.  it also makes sure a postgresql database back end is available for
+eekboek.  install it if you'd like to use eekboek with postgresql
+(instead of the default sqlite).

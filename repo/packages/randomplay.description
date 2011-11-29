@@ -1,0 +1,14 @@
+Command-line based shuffle music player that remembers songs between sessions
+	
+randomplay plays your music collection (or execute any arbitrary commands on
+any arbitrary filetypes) in random order, remembering songs played across
+sessions. it also has many features to make command-line music playing more
+convenient, including recursive regexp searching for tracks and the ability to
+specify a certain number of tracks, bytes, or minutes to play.  randomplay
+will also generate a list of music files to be loaded onto a portable music
+player device.  it includes a 'random weighting' feature, so your favorite
+songs are more likely to come up in the random shuffle.
+
+randomplay is a convenient tool for the user who does everything in an xterm
+window or console and is constantly devising complex find/grep/sed command
+lines to play just the right set of songs.

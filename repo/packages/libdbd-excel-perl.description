@@ -1,0 +1,6 @@
+Provides an sql interface (via dbi) for accessing excel files
+	
+the dbd::excel module is a dbi driver which permits access to excel files
+(in the 95, 97 and 2000 flavours) via sql commands through the perl dbi.
+
+as of 0.06, this module is still in an alpha version according to its author.

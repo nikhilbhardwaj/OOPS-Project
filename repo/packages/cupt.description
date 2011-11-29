@@ -1,0 +1,28 @@
+Alternative front-end for dpkg -- console interface
+	
+this package provides a console interface to cupt library, which is a
+re-implementation of libapt-pkg c++ library using perl. the aim is to produce
+more strict, more robust, less buggy front-end than apt.
+
+cupt uses the same apt infrastructure, e.g. index files, deb cache archive
+files, configuration files. it understands some of widely used apt options.
+
+some features:
+
+ - strict full-case resolver;
+ - resolver reasons tracking;
+ - command-line and apt-like option name checker;
+ - case-sensitive search;
+ - pinning by source package name;
+ - pinning by package groups using shell-like patterns;
+ - configurable 'depends' and 'rdepends' subcommands;
+ - 'satisfy' subcommand;
+ - support of lzma-compressed indexes;
+ - source versions synchronization;
+ - 'shell' subcommand (to get command history, search etc. working, install
+   the package 'libterm-readline-gnu-perl');
+ - integration with debdelta (to get it, install the package 'debdelta');
+ - system snapshots (needs packages 'dpkg-dev' and 'dpkg-repack').
+
+
+its interface is mostly like apt-get/aptitude console interface.

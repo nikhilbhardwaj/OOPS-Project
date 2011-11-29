@@ -1,0 +1,13 @@
+Avoid servers that are known to be insecure
+	
+harden-servers gives the administrator an easy way to avoid servers that are
+insecure in some sense. it conflicts with: servers that need passwords in
+plaintext, packages that can give someone access to the local host without
+permission, and packages that give system information to remote users.
+
+note! this package will not make your system uncrackable, and it is
+not intended to do so. making your system secure involves a lot
+more than just installing a package.
+
+for more information on how to secure your system see:
+http://www.debian.org/doc/manuals/securing-debian-howto/

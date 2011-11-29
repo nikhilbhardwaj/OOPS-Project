@@ -1,0 +1,9 @@
+Php pear module for sending email
+	
+pear's mail:: package defines the interface for implementing mailers
+under the pear hierarchy, and provides supporting functions useful
+in multiple mailer backends. currently supported are native php mail()
+function, sendmail and smtp.
+
+this package also provides a rfc 822 email address list validation
+utility class.

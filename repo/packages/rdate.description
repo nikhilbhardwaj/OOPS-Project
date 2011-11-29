@@ -1,0 +1,7 @@
+Sets the system's date from a remote host
+	
+rdate displays and sets the local date and time from the host name
+or address given as the argument. the time source may be an rfc 868
+tcp protocol server, which is usually implemented as a built-in
+service of inetd(8), or an rfc 2030 protocol sntp/ntp server. by
+default, rdate uses the rfc 868 tcp protocol.

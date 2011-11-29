@@ -1,0 +1,7 @@
+Development files for libopenjpeg2, a jpeg 2000 image library
+	
+libopenjpeg2 is a library for handling the jpeg 2000 image compression format.
+jpeg 2000 is a wavelet-based image compression standard and permits progressive
+transmission by pixel and resolution accuracy for progressive downloads of an
+encoded image. it supports lossless and lossy compression, supports higher
+compression than jpeg 1991, and has resilience to errors in the image.

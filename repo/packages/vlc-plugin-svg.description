@@ -1,0 +1,10 @@
+Svg plugin for vlc
+	
+this plugin allows you to render svg graphics on top of the video. it is a text
+renderer, and must be activated through the '--text-renderer svg' option. when
+sent non-svg data, it will convert it to svg using a template that can be
+specified by the svg-template-file option.
+
+vlc is the videolan project's media player. it plays mpeg, mpeg2, mpeg4,
+divx, mov, wmv, quicktime, mp3, ogg/vorbis files, dvds, vcds, and multimedia
+streams from various network sources.

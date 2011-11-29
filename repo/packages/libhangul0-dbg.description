@@ -1,0 +1,8 @@
+Hangul keyboard input library - debugging symbols
+	
+this library implements hangul keyboard input with various types of
+korean keyboards.  it is intended to be a base library of korean
+input methods on multiple platforms.
+
+this package contains the debugging symbols. most people will not need this
+package.

@@ -1,0 +1,9 @@
+Base kaa framework for all kaa modules
+	
+kaa base provides the base kaa framework and is an implicit dependency for all
+kaa modules. the kaa framework includes a mainloop facility with an api for
+signals and callbacks, timers, process and thread management, file descriptor
+monitoring (with inotify support), inter-process communication, as well as a
+rich, practically magical api for asynchronous programming.
+
+the kaa media repository is a set of python modules related to media.

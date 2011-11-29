@@ -1,0 +1,5 @@
+Display or change ethernet device settings
+	
+ethtool can be used to query and change settings such as speed, auto-
+negotiation and checksum offload on many network devices, especially
+ethernet devices.

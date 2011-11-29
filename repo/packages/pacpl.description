@@ -1,0 +1,20 @@
+Multi-purpose audio converter/ripper/tagger script
+	
+perl audio converter is a tool for converting multiple audio types from one
+format to another using various external encoders/decoders.
+
+it supports the following audio formats: aac, ac3, aiff, ape, au, avr, bonk,
+caf, cdr, fap, fla, flac, ircam, la, lpac, m4a, mat, mat4, mat5, mmf, mp2, mp3,
+mp4, mpc, mpp, nist, ofr, ofs, ogg, pac, paf, pvf, ra, ram, raw, sd2, sf, shn,
+smp, snd, spx, tta, voc, w64, wav, wma, and wv.
+
+it can also convert audio from the following video extensions: rm, rv, asf,
+divx, mpg, mkv, mpeg, avi, mov, ogm, qt, vcd, svcd, m4v, nsv, nuv, psp, smk,
+vob, flv, and wmv.
+
+pacpl also includes a cd ripping function with cddb support, batch conversion,
+tag preservation for most supported formats, independent tag reading/writing,
+a simple kommander gui and extensions for dolphin and konqueror.
+you can write your own modules in order to add support for new file formats.
+
+see readme.debian for more informations on supported formats.

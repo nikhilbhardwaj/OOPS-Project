@@ -1,0 +1,11 @@
+A tool for easy and automatic renaming of many files
+	
+mass rename is a simple pair of shell scripts which make it easier to
+move, rename, or copy multiple files at once. it is intended mainly as an
+automatic and simple way to rename multiple files with a customizable
+prefix and a progressive number. it is also possible to modify the rename
+format simply by editing one of the scripts. it is easy, complete, and
+efficient, and was written only in sh code.
+
+
+ homepage: http://alfalinux.sourceforge.net/mrename.php3

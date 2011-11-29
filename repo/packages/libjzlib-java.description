@@ -1,0 +1,10 @@
+Reimplementation of zlib in pure java
+	
+jzlib is a pure java implementation of zlib (see rfc-1950 and rfc-1951).
+
+it supports all compression level and all flushing mode of zlib and
+it can inflate and deflate exactly like zlib does.
+it provide much more flexibility over 'java.util.zip.*' included in
+java platform api.
+
+jzlib is licensed under a bsd style license.

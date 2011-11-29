@@ -1,0 +1,11 @@
+Populates html forms with data
+	
+this module automatically inserts data from a previous html form into
+the html input, textarea, radio buttons, checkboxes and select
+tags. it is a subclass of html::parser and uses it to parse the html
+and insert the values into the form tags.
+
+one useful application is after a user submits an html form without
+filling out a required field.  html::fillinform can be used to
+redisplay the html form with all the form elements containing the
+submitted info.

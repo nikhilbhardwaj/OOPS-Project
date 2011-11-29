@@ -1,0 +1,9 @@
+Nss module for multicast dns name resolution (32-bits version)
+	
+nss-mdns is a plugin for the gnu name service switch (nss) functionality
+of the gnu c library (glibc) providing host name resolution via multicast
+dns (using zeroconf, aka apple bonjour / apple rendezvous ), effectively
+allowing name resolution by common unix/linux programs in the ad-hoc mdns
+domain .local.
+
+this package is built for 32-bits environments.

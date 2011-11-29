@@ -1,0 +1,13 @@
+Installer for game data files
+	
+various games are divided into two logical parts: engine
+and data. often the engine and data are licenced in
+different ways, such that only one half can be distributed
+in debian.
+
+game-data-packager is a tool which builds .deb files for game
+data which cannot be distributed in debian (such as
+commercial game data).
+
+at the moment, game-data-packager has support for building debs
+for doom games (doom, doom 2 and final doom).

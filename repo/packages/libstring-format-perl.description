@@ -1,0 +1,7 @@
+Module for flexible printf-like string formatting
+	
+string::format is a perl module that allows developers to define arbitrary
+printf-like format sequences to be expanded, inspired by mutt's index_format
+and related directives. this module would be most useful in configuration
+files and reporting tools, where the results of a query need to be formatted
+in a particular way.

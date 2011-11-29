@@ -1,0 +1,8 @@
+Multiplatform crypto library (debug)
+	
+botan is a c++ library which provides support for many common cryptographic
+operations, including encryption, authentication, and x.509v3 certificates and
+crls. a wide variety of algorithms is supported, including rsa, dsa, des, aes,
+md5, and sha-1.
+
+this package contains the debugging symbols.

@@ -1,0 +1,7 @@
+Transparent subversion access and perl documentation kio slaves
+	
+this package includes the svn and svn+ssh kio plugins, which allows kde
+applications to browse remote subversion repositories, and the perldoc kio
+plugin, which can be used to browse the perl documentation within konqueror.
+
+this package is part of the kde software development kit module.

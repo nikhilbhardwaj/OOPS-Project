@@ -1,0 +1,7 @@
+Modular assembler with multiple syntaxes support
+	
+yasm is a complete rewrite of the nasm assembler. it supports multiple
+assembler syntaxes (eg, nasm, gas, tasm, etc.) in addition to multiple
+output object formats (binary objects, coff, win32, elf32, elf64) and
+even multiple instruction sets (including amd64). it also has an
+optimiser module.

@@ -1,0 +1,7 @@
+Geoclue example clients
+	
+geoclue provides applications access to various geographical information
+sources using a d-bus api or a c library.
+
+this package provides examples of clients using different backends
+through the c library.

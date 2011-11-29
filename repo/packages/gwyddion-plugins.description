@@ -1,0 +1,9 @@
+Plugins for gwyddion spm analysis tool
+	
+this package yet contains only sample plugins for gwyddion in
+python, ruby and perl. gwyddion is a modular program for scanning probe
+microscopy data visualization and analysis.
+
+if you would like to extend gwyddion's functionality, you are encouraged
+to consider writing gwyddion modules instead of plugins. for help on this, see
+the package libgwyddion20-doc.

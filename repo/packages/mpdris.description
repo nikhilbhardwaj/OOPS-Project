@@ -1,0 +1,7 @@
+Media player interface (mpris) client for mpd
+	
+mpdris is an implementation of the media player interface mpris as a client
+for mpd.
+
+it can be used both controlling the mpd using standard d-bus interface
+as well as it emits events on track changes.

@@ -1,0 +1,19 @@
+A tool for building complete linux filesystem images
+	
+rootstrap was originally written to provide a facility for building
+filesystems for use with user-mode linux, but can be useful in other
+applications as well.
+
+it uses a modular set of shell scripts to create the filesystem
+image, install a base system, and customize it for a particular
+application.  currently, it only builds debian systems, but the
+architecture is such that other base systems could be used instead.
+
+use of rootstrap does not require root access, or special privileges
+of any kind.  this is because it builds the filesystem inside a
+user-mode linux system running under an
+unprivileged uid.
+
+filesystem creation with rootstrap is quick and painless.  with a
+local mirror and a single command, a fresh debian filesystem
+can be created in about 3 minutes on relatively modest hardware.

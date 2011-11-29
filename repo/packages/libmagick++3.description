@@ -1,0 +1,7 @@
+Object-oriented c++ interface to imagemagick
+	
+the magick++ library is a set of c++ wrapper classes that provides access
+to the imagemagick package functionality from within a c++ application.
+
+this package contains the c++ libraries needed to run executables that make
+use of libmagick++.

@@ -1,0 +1,5 @@
+Erlang/otp table viewer
+	
+the tv application allows the user to examine ets and mnesia tables.
+once a certain table has been opened in the tool, its content may be
+viewed in various levels of detail.

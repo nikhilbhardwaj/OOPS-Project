@@ -1,0 +1,21 @@
+A web file explorer and manager using ext js
+	
+a web-based file manager. you can use it to:
+
+   * browse directories & files on the server and
+   * edit, copy, move, delete files,
+   * search, upload and download files,
+   * create and extract archives,
+   * create new files and directories,
+   * change file permissions (chmod) and much more...
+
+
+you can even use extplorer to login to the ftp server (like net2ftp) and work
+as if you were using an ftp client. access via webdav is also possible
+(requires some extra work and a database!).
+
+extplorer is released under a dual-license: you can choose wether you want to
+use extplorer under the mozilla public license (mpl 1.1) or under the gnu
+general public license (gnu/gpl). note that if you decide to distribute/use
+extplorer under the mpl, you are not allowed to use the extjs javascript
+library.

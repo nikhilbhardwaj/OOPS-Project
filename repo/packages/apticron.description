@@ -1,0 +1,5 @@
+Simple tool to mail about pending package updates
+	
+apticron is a simple script which sends daily emails about pending package
+updates such as security updates, properly handling packages on hold both by
+deselect and aptitude.

@@ -1,0 +1,18 @@
+A perl interface to subversion dumps
+	
+an svn::dump object represents a subversion dump.
+
+this module follow the semantics used in the reference document
+(the file notes/fs_dumprestore.txt in the subversion source tree):
+
+a dump is a collection of records (svn::dump::record objects).
+
+a record is composed of a set of headers (a svn::dump::headers object),
+a set of properties (a svn::dump::property object) and an optional
+bloc of text (a svn::dump::text object).
+
+some special records (delete records with a node-kind header)
+recursively contain included records.
+
+this module is an alpha release. the interfaces will probably change
+in the future.

@@ -1,0 +1,16 @@
+Utility classes for concurrent java programming
+	
+the concurrent java library provides standardized, efficient versions of
+utility classes commonly encountered in concurrent java programming.
+discussions of the rationale and applications of several of these classes
+can be found in the second edition of concurrent programming in java.
+
+the package mainly consists of implementations of a few interfaces:
+
+
+ * sync -- locks, conditions
+ * channel -- queues, buffers
+ * barrier -- multi-party synchronization
+ * synchronizedvariable -- atomic ints, refs etc
+ * java.util.collection -- collections
+ * executor -- replacements for direct use of thread

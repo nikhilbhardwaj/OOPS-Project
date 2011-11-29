@@ -1,0 +1,5 @@
+Raptor rdf parser and serializer utilities
+	
+this package provides the rapper tool for validating, parsing and
+serializing rdf/xml, n-triples, turtle, rss, atom and other resource
+description framework (rdf) syntaxes using the raptor rdf library.

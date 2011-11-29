@@ -1,0 +1,4 @@
+PackageId:23623
+Name:llvm-runtime
+Version:2.6-9.1
+Deps:binfmt-support,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libffi5,libgcc1,libstdc++6

@@ -1,0 +1,8 @@
+Lightweight virtual machine - shared library
+	
+neko provides a common runtime for several different languages,
+including javascript and haxe.
+
+this is the shared library implementing the neko virtual machine.
+
+neko was written by nicolas cannasse.

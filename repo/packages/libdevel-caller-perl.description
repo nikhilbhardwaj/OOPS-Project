@@ -1,0 +1,7 @@
+Module providing enhanced caller() support
+	
+devel::caller is a perl module that provides several useful functions for
+introspecting your code deeper than the internal function "caller()" does. it
+allows you to access arguments passed to a function or even retrieve the code
+reference of the subroutine being invoked at the call frame indicated by the
+given level.

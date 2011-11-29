@@ -1,0 +1,12 @@
+Mpeg layer 1/2/3 audio player for i486 machines - dummy package
+	
+mpg123 is a fast and portable mpeg audio player for unix.  it supports
+mpeg 1.0/2.0 layers 1, 2 and 3 (those famous "mp3" files).
+
+for full cd quality playback (44 khz, 16 bit, stereo) a pentium,
+sparcstation10, dec alpha or similar cpu is required.  mono and/or reduced
+quality playback (22 khz or 11 khz) is even possible on 486 cpus.
+
+this package used to contain an executable specially optimized for i486
+processors, but nowadays just depends on the generic package mpg123. it is
+an empty dummy package to facilitate upgrades and can be safely removed.

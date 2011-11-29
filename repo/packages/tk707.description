@@ -1,0 +1,10 @@
+Drum sequencer for a sound card or midi device
+	
+this program emulates the operation of roland's tr-707 rhythm
+composer.
+
+the output is to a midi device, sound card or file.  a
+latin-percussion instrument map emulates the roland tr-727 and
+the instrument map can be customized by the user. if you do not
+have a midi sound card, you should install the timidity package
+to emulate one..

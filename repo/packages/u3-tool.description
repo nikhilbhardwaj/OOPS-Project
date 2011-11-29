@@ -1,0 +1,10 @@
+Tool for controlling the special features of a u3 usb flash disk
+	
+tool for controlling usb flash devices that conform to the u3 specifications.
+you can do the following with your u3 flash:
+
+ * replace the cd image
+ * change the size of the virtual cd or completely remove it
+ * enable and disable security
+ * unlock and change the password of secured u3 device
+ * obtain various device information

@@ -1,0 +1,9 @@
+The geotiff library -- epsg geodetic parameter dataset
+	
+this c library supports tiff 6.0 based interchange format for georeferenced
+raster imagery. the geotiff standard has been developed for reading, and writing
+geographic meta-information tags on top of tiff raster.
+
+this package contains epsg geodetic paramenters data files which can be used
+with standard projections. these data are useful to better dump geo-contents
+of many geotiff files.

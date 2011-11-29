@@ -1,0 +1,5 @@
+Shared library for the gambit-c interpreter and compiler
+	
+the package includes libgambc4, which is necessary to run the gsi interpreter
+and the gsc compiler.  it also includes the _gambc.c base link file and the
+gambit.h header file necessary to use the compiler.

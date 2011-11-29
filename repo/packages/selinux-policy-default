@@ -1,0 +1,4 @@
+PackageId:31442
+Name:selinux-policy-default
+Version:2:0.2.20100524-7+squeeze1
+Deps:libpam-modules,libselinux1,libsepol1,policycoreutils,python

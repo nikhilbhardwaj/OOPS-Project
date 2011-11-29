@@ -1,0 +1,12 @@
+Chart library for perl
+	
+this package is collection of chart creation modules for perl based
+on the gd graphics library.  it provides the ability to create the
+following chart types:
+
+ * bar
+ * line
+ * mountain
+ * pareto
+ * pie
+ * point

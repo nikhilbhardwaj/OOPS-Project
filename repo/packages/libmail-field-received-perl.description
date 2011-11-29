@@ -1,0 +1,13 @@
+Mostly rfc822-compliant parser of received headers
+	
+don't use this class directly!  instead ask mail::field for new
+instances based on the field name!
+
+mail::field::received provides subroutines for parsing received
+headers from e-mails.  it mostly complies with rfc822, but deviates to
+accommodate a number of broken mtas which are in common use.  it also
+attempts to extract useful information which mtas often embed within
+the (comments).
+
+it is a subclass derived from the mail::field and mail::field::generic
+classes.

@@ -1,0 +1,16 @@
+Report kernel-detected pci and ecc ram errors
+	
+this package contains the user-space utilities for use with the edac
+kernel subsystem.  edac (error detection and correction) is a set of
+linux kernel modules for handling hardware-related errors.  currently
+its major focus is ecc memory error handling. however it also detects
+and reports pci bus parity errors.
+
+pci parity errors are supported on all architectures (and are a
+mandatory part of the pci specification).
+
+main memory ecc drivers are memory controller specific.  at the time
+of writing, drivers exist for many x86-specific chipsets and cpus,
+and some powerpc, and mips systems.
+
+this package contains development files for the library

@@ -1,0 +1,6 @@
+Universal foreign function library for common lisp
+	
+uffi provides a universal foreign function interface (ffi) for
+common lisp.
+uffi supports allegrocl, cmucl, lispworks, mcl, openmcl,
+sbcl, and scl.

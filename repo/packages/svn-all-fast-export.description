@@ -1,0 +1,12 @@
+A fast-import based converter to convert repos from svn to git
+	
+svn-all-fast-export is a tool to convert your svn repositories to git.
+
+you will need to have a copy of your svn repository and to write some rules to
+specify how the conversion will be done, for instance, you can manage how the
+tags and branches will be managed writing the appropriate rules. you have
+examples in /usr/share/doc/svn-all-fast-export/samples
+
+also, you can provide a file mapping the old svn accounts to the authors names
+in the format "author name <email>" so will not need to use git filter-branch
+to amend the commiters' names.

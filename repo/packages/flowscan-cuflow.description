@@ -1,0 +1,7 @@
+Flowscan module combining campusio and subnetio
+	
+cuflow is a flowscan module designed to combine the features
+of campusio and subnetio and to process data more quickly.  cuflow
+allows you to differentiate traffic by protocol, service, tos,
+router, and network and then generate topn reports over 5 minutes
+periods and over an extended period of time.

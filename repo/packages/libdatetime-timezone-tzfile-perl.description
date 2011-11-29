@@ -1,0 +1,9 @@
+Perl handling of tzfile (zoneinfo) timezone files
+	
+an instance of this class represents a timezone that was encoded in a file in
+the tzfile(5) format. these can express arbitrary patterns of offsets from
+universal time, changing over time. offsets and change times are limited to a
+resolution of one second.
+
+this class implements the datetime::timezone interface, so that its instances
+can be used with datetime objects.

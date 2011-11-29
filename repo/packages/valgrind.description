@@ -1,0 +1,17 @@
+A memory debugger and profiler
+	
+valgrind is a gpl'd tool to help you find memory-management problems in your
+programs. when a program is run under valgrind's supervision, all reads and
+writes of memory are checked, and calls to malloc/new/free/delete are
+intercepted.
+
+valgrind can debug more or less any dynamically-linked elf x86/linux,
+amd64/linux and ppc/linux executables, without modification, recompilation,
+or anything.
+
+valgrind provides a generic infrastructure for supervising the execution of
+programs called "tools". this is done by providing a way to instrument
+programs in very precise ways, making it relatively easy to support
+activities such as dynamic error detection and profiling. the valgrind
+distribution currently includes three tools: a memory error detectors, a
+cache (time) profiler and a heap (space) profiler.

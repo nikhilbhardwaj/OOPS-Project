@@ -1,0 +1,9 @@
+Graphical client for subversion
+	
+subcommander is a graphical client for subversion which supports most
+subversion features. its tight integration of repository browser and
+working copy status allows to switch quickly between these views.
+subcommander also contains submerge, a visual diff and merge tool for text
+files.
+
+this package contains the subcommander and submerge applications.

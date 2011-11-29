@@ -1,0 +1,10 @@
+Additional facilities for postgresql (supported version)
+	
+the postgresql contrib package provides several additional features
+for the postgresql database. contrib often serves as a testbed for
+features before they are adopted into postgresql proper.
+
+this package always depends on the currently supported contrib
+package for postgresql.
+
+postgresql is an object-relational sql database management system.

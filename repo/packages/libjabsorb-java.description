@@ -1,0 +1,18 @@
+Java to javascript object request broker
+	
+simple and lightweight ajax/web 2.0 framework that allows you to call
+methods in a java web application from javascript code running in a web
+browser as if they were local objects residing directly in the browser.
+
+jabsorb handles all the details of marshalling and unmarshalling objects
+back and forth between the client and server so that you can focus on
+writing your application features.
+
+jabsorb makes use of the json-rpc protocol for it's transport mechanism.
+json-rpc is a standard protocol and jabsorb can interoperate with other
+standard json-rpc clients and servers that may be written in other
+languages.
+
+starting with jabsorb 1.2, additional orb functionality has been added,
+and it extends the basic json-rpc protocol to allow for passing data
+structures that contain circular references.

@@ -1,0 +1,16 @@
+Binary editor and viewer
+	
+beav (binary editor and viewer) is an editor for binary files containing
+arbitrary data. text file editors, on the other hand, expect the files they
+edit to contain textual data, and/or to be formatted in a certain way (e.g.
+lines of printable characters delimited by newline characters).
+
+with beav, you can edit a file in hex, ascii, ebcdic, octal, decimal, and
+binary. you can display but not edit data in float mode. you can search or
+search and replace in any of these modes. data can be displayed in byte,
+word, or double word formats. while displaying words or double words the
+data can be displayed in intel's or motorola's byte ordering. data of any
+length can be inserted at any point in the file. the source of this data
+can be the keyboard, another buffer, or a file. any data that is being
+displayed can be sent to a printer in the displayed format. files that are
+bigger than memory can be handled.

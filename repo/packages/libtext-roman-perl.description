@@ -1,0 +1,7 @@
+A module for managing integer and roman
+	
+it provides functions for checking if a string is a valid roman
+numeral, as well as for converting between roman and integers
+
+the module also support milhar algarisms, which extends the roman
+numeration system up to 4,002,999.

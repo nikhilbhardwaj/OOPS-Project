@@ -1,0 +1,5 @@
+Rfc 2217 compliant telnet serial port redirector
+	
+sredird is a serial port redirector that is compliant with the rfc 2217
+"telnet com port control option" protocol. this protocol lets you share a
+serial port through the network.

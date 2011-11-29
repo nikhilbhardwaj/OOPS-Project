@@ -1,0 +1,7 @@
+Library for handling of units of physical quantities
+	
+the udunits package supports units of physical quantities (e.g., meters,
+seconds).  specifically, it supports conversion between string and binary
+representations of units, arithmetic manipulation of units, and conversion of
+numeric values between compatible units. the package is written in the
+c programming language.

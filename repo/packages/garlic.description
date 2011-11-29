@@ -1,0 +1,26 @@
+A visualization program for biomolecules
+	
+garlic is written for the investigation of membrane proteins. it may be
+used to visualize other proteins, as well as some geometric objects.
+this version of garlic recognizes pdb format version 2.1. garlic may
+also be used to analyze protein sequences.
+
+it only depends on the x libraries, no other libraries are needed.
+
+features include:
+
+ - the slab position and thickness are visible in a small window.
+ - atomic bonds as well as atoms are treated as independent drawable
+   objects.
+ - the atomic and bond colors depend on position. five mapping modes
+   are available (as for slab).
+ - capable to display stereo image.
+ - capable to display other geometric objects, like membrane.
+ - atomic information is available for atom covered by the mouse
+   pointer. no click required, just move the mouse pointer over the
+   structure!
+ - capable to load more than one structure.
+ - capable to draw ramachandran plot, helical wheel, venn diagram,
+   averaged hydrophobicity and hydrophobic moment plot.
+ - the command prompt is available at the bottom of the main window.
+   it is able to display one error message and one command string.

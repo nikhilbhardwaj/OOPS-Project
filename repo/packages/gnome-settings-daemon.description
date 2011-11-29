@@ -1,0 +1,18 @@
+Daemon handling the gnome session settings
+	
+this package contains the daemon which is responsible for setting the
+various parameters of a gnome session and the applications that run
+under it. it handles the following kinds of settings:
+
+
+ * keyboard: layout, accessibility options, shortcuts, media keys
+ * clipboard management
+ * theming: background, icons, gtk+ applications
+ * cleanup of unused files
+ * mouse: cursors, speed, accessibility options
+ * startup of other daemons: screensaver, sound daemon
+ * typing break
+
+
+it also sets various application settings through x resources and
+freedesktop.org xsettings.

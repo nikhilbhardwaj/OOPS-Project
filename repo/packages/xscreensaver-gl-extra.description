@@ -1,0 +1,18 @@
+Gl(mesa) screen hacks for xscreensaver
+	
+xscreensaver is a modular screen saver and locker for x11,
+containing more than 200 screen savers.
+
+this package contains the rest of the 3d (opengl) screen saver
+modules from the xscreensaver collection. this package is used
+by both xscreensaver and gnome-screensaver.
+
+this is the set of gl screensavers not shipped by default with
+xscreensaver-gl: antmaze, atlantis, blocktube, boing, bouncingcow, boxed,
+cage, carousel, crackberg, cube21, cubenetic, dangerball, extrusion,
+fliptext, glhanoi, glplanet, juggler3d, klein, lament, menger,
+noof, pinion, providence, rubik, sballs, sproingies, staris, starwars,
+tangram, timetunnel.
+
+more display modes can be found in the xscreensaver-data,
+xscreensaver-data-extra and xscreensaver-gl packages.

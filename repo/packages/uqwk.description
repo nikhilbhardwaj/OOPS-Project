@@ -1,0 +1,13 @@
+Offline mail and news package creator (nntp version)
+	
+uqwk is a program which collects all of a user's unread mail or news
+and formats it into a packet for offline reading.  qwk, simple
+offline usenet packet (soup), and zipnews packet formats are supported.
+
+uqwk also accepts reply packets, so replies can be mailed or posted,
+depending whether the message is marked private (email) or public (news).
+
+uqwk also supports a small offline command language, so the contents
+of the user's .newsrc file can be viewed and manipulated offline.
+
+this version accesses newsgroups via nntp.

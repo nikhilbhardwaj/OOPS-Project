@@ -1,0 +1,9 @@
+The puzzle game of huarongdao
+	
+huarongdao (hrd) is an ancient chinese puzzle game.  its aim is to move
+pieces on the board in order to move the largest one to the center of the
+bottom.  it is a very small game, and it is very challenging.
+
+this implementation is based on the curses library.  the game is controlled
+by keyboard only.  its features include undo, redo and bookmarks.  custom
+starting patterns are also supported.

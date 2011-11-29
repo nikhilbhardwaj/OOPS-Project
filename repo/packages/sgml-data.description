@@ -1,0 +1,14 @@
+Common sgml and xml data
+	
+this package contains basic xml and sgml data shared and used by
+multiple packages.  the package provides the technical format
+(document type definition, or dtd) of all major versions of html.  it
+also includes standard character entity definitions which describe
+spacial characters or international characters, as well as other
+standard miscellany used by other sgml and xml packages.
+
+this package implements the debian xml and sgml standards for entity
+placement and registration.  this benefits the user by making the
+included materials instantly available to people writing, editing or
+building documentation without any further effort.  see
+<http://debian-xml-sgml.alioth.debian.org/> for more information.

@@ -1,0 +1,19 @@
+Micro web framework based on werkzeug, jinja2 and good intentions
+	
+flask is a micro web framework for python based on werkzeug, jinja 2 and good
+intentions. a minimal flask application looks like that:
+
+
+  from flask import flask
+  app = flask(__name__)
+
+
+
+  @app.route("/")
+  def hello():
+      return "hello world!"
+
+
+
+  if __name__ == '__main__':
+      app.run()

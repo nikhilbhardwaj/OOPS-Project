@@ -1,0 +1,13 @@
+Embedded gnu c library: binaries
+	
+this package contains utility programs related to the gnu c library.
+
+
+ * catchsegv: catch segmentation faults in programs
+ * getconf: query system configuration variables
+ * getent: get entries from administrative databases
+ * iconv, iconvconfig: convert between character encodings
+ * ldd, ldconfig: print/configure shared library dependencies
+ * locale, localedef: show/generate locale definitions
+ * rpcinfo: report rpc information
+ * tzselect, zdump, zic: select/dump/compile time zones

@@ -1,0 +1,15 @@
+Tool for indexing, searching and viewing images by keywords for kde
+	
+kphotoalbum lets you index, search, group and view images by keywords, date,
+locations and persons. it provides a quick and elegant way to lookup groups of
+images when you have thousands of pictures on your hard disk.
+
+the information associated with each photo is stored in an xml file. together
+with its keywords, kphotoalbum stores each picture's md5 sum, so it will
+recognize them even if you move them to another directory. kphotoalbum can
+also create html galleries with the images you select.
+
+kphotoalbum can also make use of the kipi image handling plugins to extend its
+capabilities. the kipi-plugins package contains many useful extensions. among
+others, it contains extensions for photo manipulation, importing, exporting
+and batch processing.

@@ -1,0 +1,25 @@
+Cli application for automated downloading from file hosters
+	
+provides a command-line interface for automatically downloading files
+from hosting providers. slimrat is also capable of captcha solving using
+tesseract for optical character recognition. support includes, but is
+not limited to the following file hosters:
+
+
+   * data.hu
+   * www.depositfiles.com
+   * www.easy-share.com
+   * www.fast-load.net
+   * www.fast-share.com
+   * www.hotfile.com
+   * leteckaposta.cz
+   * www.mediafire.com
+   * www.megaupload.com
+   * odsiebie.najlepsze.net
+   * www.rapidshare.com
+   * sharebase.to
+   * uploaded.to
+   * www.youtube.com
+
+
+this package provides the command-line user interface

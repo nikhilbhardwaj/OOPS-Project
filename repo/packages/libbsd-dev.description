@@ -1,0 +1,18 @@
+Utility functions from bsd systems - development files
+	
+this library provides some functions commonly available on bsd systems but
+not on others like gnu systems.
+
+the currently provided functions are:
+
+md5data, md5end, md5file, md5filechunk, md5final, md5init, md5pad,
+md5transform, md5update, arc4random, arc4random_addrandom, arc4random_buf,
+arc4random_stir, arc4random_uniform, bsd_getopt, dehumanize_number, errc,
+fgetln, flopen, fmtcheck, getmode, getprogname, heapsort, humanize_number,
+inet_net_pton, nlist, pidfile_open, pidfile_write, pidfile_close,
+pidfile_remove, readpassphrase, strlcpy, strlcat, setproctitle, setmode,
+setprogname, strmode, strtonum, strnvis, strnunvis, strunvis, strunvisx,
+strvis, strvisx, unvis, vis, verrc, vwarnc, warnc.
+
+also included are some queue macro definitions not present on includes
+from glibc.

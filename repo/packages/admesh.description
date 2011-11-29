@@ -1,0 +1,11 @@
+A tool for processing triangulated solid meshes
+	
+currently, admesh only reads the stl file
+format that is used for rapid prototyping applications,
+although it can write stl, vrml, off, and dxf files.
+some features of admesh are: fill holes in the mesh
+by adding facets. repair facets by connecting
+nearby facets. repair normal directions
+(i.e. facets should be ccw) remove degenerate
+facets (i.e. facets with 2 or more vertices equal)
+web site: http://www.varlog.com/products/admesh/

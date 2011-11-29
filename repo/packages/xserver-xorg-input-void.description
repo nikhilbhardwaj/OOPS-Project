@@ -1,0 +1,9 @@
+X.org x server -- void input driver
+	
+this package provides the void input driver, which never actually registers
+any input events -- it is, as such, a 'fake' driver.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-input-void driver module.

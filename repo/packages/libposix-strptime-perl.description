@@ -1,0 +1,5 @@
+Perl extension to the posix date parsing strptime(3) function
+	
+posix::strptime is a perl interface to strptime(3). the strptime()
+function converts the specified character string to time values, using
+the specified format.

@@ -1,0 +1,7 @@
+Ghc 6 profiling library of the posix regex backend for regex-base
+	
+a library containing a posix regular expression backend conforming to
+the interface api of regex-base.
+
+this package contains additional profiling libraries which can be
+used with ghc6-prof.

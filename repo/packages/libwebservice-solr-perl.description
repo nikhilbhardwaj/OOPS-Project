@@ -1,0 +1,6 @@
+Perl interface for the solr (lucene) web service
+	
+webservice::solr provides a convenient way to interact with any solr instance.
+solr is an enterprise search server providing faceted navigation and full-text
+search using the lucene java library. it provides access via official xml/http
+and json programming interfaces.

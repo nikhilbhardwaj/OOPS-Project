@@ -1,0 +1,14 @@
+Jdesktop integration components
+	
+the jdesktop integration components (jdic) project aims to make java
+technology-based applications ("java applications") first-class
+citizens of current desktop platforms without sacrificing platform
+independence. its mission is to enable seamless desktop/java
+integration.
+
+jdic provides java applications with access to functionalities and
+facilities provided by the native desktop. it consists of a
+collection of java packages and tools. jdic supports a variety of
+features such as embedding the native browser, launching the desktop
+applications, creating tray icons on the desktop, registering file
+type associations, creating jnlp installer packages, etc.

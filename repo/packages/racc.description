@@ -1,0 +1,5 @@
+Ruby lalr parser generator
+	
+racc is lalr(1) parser generator for ruby, written in ruby. it allows
+programmers to easily write syntactic parsers from simple rules, like yacc
+and bison.

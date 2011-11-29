@@ -1,0 +1,5 @@
+Common lisp regular expression compiler/matcher
+	
+a fully-featured regular expression compiler and matching engine for
+common lisp that claims to be roughly 5x-20x times faster than the gnu
+regex matcher written in c.

@@ -1,0 +1,10 @@
+A simple graphical file manager for x11
+	
+rox-filer is a simple and easy to use graphical file manager
+for x11 based on the gtk2 library. it uses a uniform
+drag-and-drop approach for every operation.
+
+it is also the core component of the rox desktop environment.
+
+invoking rox opens each directory or file listed,  or  the
+current working directory if no arguments are given.

@@ -1,0 +1,8 @@
+Perl module to load mix-ins or components to c3-based classes
+	
+class::c3::componentised will inject base classes to your module using the
+class::c3 method resolution order.
+
+please note: these are not plugins that can take precedence over methods
+declared in mymodule. if you want something like that, consider
+moosex::object::pluggable.

@@ -1,0 +1,8 @@
+Graphviz writer for graph object
+	
+graph::writer::graphviz is a class for writing out a graph object with graphviz
+module. all graphviz formats should be supported without a problem.
+
+unlike other graph::writer modules, this module provide an extra parameter
+'-format' to new() method, in order to save different format. other supported
+graphviz parameters are -layout, -ranksep, -shape, -fontsize, -arrowsize.

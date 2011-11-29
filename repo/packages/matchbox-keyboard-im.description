@@ -1,0 +1,11 @@
+On-screen keyboard
+	
+matchbox-keyboard is an on-screen 'virtual' or 'software' keyboard, designed
+for touch-screen devices running x.
+
+matchbox is a base environment for the x window system running on non-desktop
+embedded platforms such as handhelds, set-top boxes, kiosks and anything else
+for which screen space, input mechanisms or system resources are limited.
+
+this package provides a gtk+ input module for use with matchbox-keyboard or
+other on-screen keyboards.

@@ -1,0 +1,8 @@
+Cache name service directories in db format
+	
+this package contains a script, nss_updatedb, which can be
+used to maintain local caches of user and group directories.
+these can then be used by the db name service switch module
+(libnss-db) to provide name service when the system is offline.
+
+these tools are designed to work with libpam-ldap and libnss-ldap.

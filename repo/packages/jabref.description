@@ -1,0 +1,13 @@
+Graphical frontend to manage bibtex databases
+	
+jabref is a graphical java application for editing bibtex (.bib) databases.
+jabref lets you organize your entries into overlapping logical groups, and
+with a single click limit your view to a single group or an intersection or
+union of several groups. you can customize the entry information shown in the
+main window, and sort by any of the standard bibtex fields. jabref can
+autogenerate bibtex keys for your entries. jabref also lets you easily link
+to pdf or web sources for your reference entries.
+
+jabref can import from and export to several formats, and you can customize
+export filters. jabref can be run as a command line application to convert
+from any import format to any export format.

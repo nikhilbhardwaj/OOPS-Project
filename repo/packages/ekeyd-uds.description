@@ -1,0 +1,9 @@
+Simtec electronics udekey01 entropy key daemon (uds variant)
+	
+this package augments the ekeyd package with additional support
+for running the entropy key using a userland daemon written using
+libusb instead of the kernel cdc-acm driver.
+
+you should use this package if you are having difficulty with the
+cdc-acm driver such as might be exhibited in linux 2.6.18, 2.6.28
+or similarly unstable kernel versions.

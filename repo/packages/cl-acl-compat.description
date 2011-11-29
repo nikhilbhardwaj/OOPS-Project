@@ -1,0 +1,6 @@
+Compatibility layer for allegro common lisp
+	
+a thin compatibility-layer that emulates library functions provided
+by allegro common lisp. it is used
+to support a number of franz's open-source packages which depend upon
+such library functions.

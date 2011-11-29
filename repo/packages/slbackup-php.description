@@ -1,0 +1,12 @@
+Web-based administration tool for slbackup
+	
+slbackup-php provides the necessary functions to maintain a slbackup
+repository.
+
+features:
+
+ - scheduling of slbackup execution;
+ - editing of the configuration file;
+ - verifying ssh keys and successful backups;
+ - restoring from backups;
+ - removing old backups from the repository.

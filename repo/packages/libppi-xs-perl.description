@@ -1,0 +1,10 @@
+Perl module to accelerate the perl parsing interface (ppi)
+	
+ppi::xs provides xs-based acceleration of the core ppi packages. it
+selectively replaces a (small but growing) number of methods throughout ppi
+with identical but much faster c versions.
+
+once installed, it will be auto-detected and loaded in by ppi completely
+transparently. the integration between the primary (perl) implementation and
+the xs-accelerated version are designed to degrade gracefully if they fall out
+of sync -- the perl version is preferred over the xs version.

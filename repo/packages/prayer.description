@@ -1,0 +1,14 @@
+Standalone imap-based webmail server
+	
+prayer is yet another webmail interface.
+
+it is unusual in that it is a complete, standalone, http server and proxy
+rather a apache/mod_php plugin. prayer maintains persistent connections to
+the imap server and is written entirely in c. consequently it is much
+faster than most open source webmail interfaces and puts very little load
+on either the machines running the web server or the backend imap servers
+(even if traditional unix format mailfolders are in use).
+
+prayer has very few external dependencies as user preferences are stored on
+the imap server rather than in a sql database. it does however implement a
+full range of features and user preference settings.

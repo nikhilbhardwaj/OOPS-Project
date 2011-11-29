@@ -1,0 +1,6 @@
+Useful extensions for the cgi module
+	
+cgi::extratags adds several useful methods to the cgi class,
+such as producing html code for a link to an email address or
+producing html code for a table row with the arguments as cell
+contents.

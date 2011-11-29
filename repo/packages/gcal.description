@@ -1,0 +1,14 @@
+Program for calculating and printing calendars
+	
+gcal displays a calendar for a month or a year, eternal holiday lists
+and fixed date lists, in many ways. the program correctly omits the
+dates that were skipped when the current gregorian calendar replaced
+the earlier julian calendar.
+
+apart from the usual and well known calendar functions like the
+output of a month or a year calendar sheet, or the output of an eternal
+holiday list, gcal offers the facility to display fixed dates on the
+day of their occurrence and to remind or inform the user about them.
+so it is possible for users to receive an on-screen notification, at bootup
+or login, of all holidays or appointments which take place on that day.
+notification by electronic mail is also possible.

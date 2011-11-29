@@ -1,0 +1,9 @@
+Perl modules for automatically generating debian packages
+	
+debian::package::make::* is a set of modules that simplify the
+process of writing make-*-package programs (scripts that
+automatically generate debian packages).
+
+this is useful for source distributions where contents change too
+frequently for manual building or where peculiar licenses prohibit
+redistribution via public package repositories.

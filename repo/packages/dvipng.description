@@ -1,0 +1,15 @@
+Convert dvi files to png graphics
+	
+dvipng makes png graphics from dvi files as obtained from tex
+and its relatives.  it is intended to produce anti-aliased
+screen-resolution images as fast as is possible.  this makes
+dvipng suitable for generating large amounts of images
+on-the-fly.
+
+dvipng does not read the postamble, so it can be started before tex
+finishes.  it can read options interactively through stdin,
+and all options are usable. one can even change the input file through
+this interface.
+
+dvipng supports pk, vf, postscript type1, and truetype fonts, color
+specials and simple postscript inclusion specials.

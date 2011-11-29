@@ -1,0 +1,7 @@
+Xboard compatible chess engine to play chess with
+	
+chess engine compatible with xboard, but may also be used
+stand-alone, via terminal. hoichess is written in c++ for
+gnu/linux systems, but should work on most other unix like
+systems. it provides also a xiangqi ("chinese chess") playing
+program.

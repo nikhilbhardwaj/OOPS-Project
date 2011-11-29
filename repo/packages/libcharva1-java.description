@@ -1,0 +1,14 @@
+Java windowing toolkit for text terminals
+	
+java framework for presenting a "graphical" user interface, composed of
+elements such as windows, dialogs, menus, textfields and buttons, on a
+traditional character-cell ascii  terminal. it has an api  based on that of
+"swing" (a.k.a. the java foundation classes). programmers familiar with awt
+and swing will find programming charva straightforward. user interfaces can
+be designed on wysiwyg ides such as borland jbuilder and then easily
+converted to charva merely by changing the "import" statements to import the
+"charva.awt" and "charvax.swing" packages instead of the standard "java.awt"
+and "javax.swing" packages.
+
+
+ screenshots: http://www.pitman.co.za/projects/charva/screenshots.html

@@ -1,0 +1,25 @@
+Mono.data.* libraries (for cli 1.0)
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.
+
+this package contains various mono.data.* libraries for cli 1.0 that allow to
+use different tds-based databases:
+
+ - mono.data
+ - mono.data.tdsclient:
+   generic tds provider (tds 4.2 by default) for older versions of sybase and
+   microsoft sql servers.
+ - mono.data.sybaseclient:
+   provider for sybase sql servers (tds 5.0)
+
+
+if you are looking for a current microsoft sql server library then you want
+to check the libmono-system-data1.0-cil package which contains
+system.data.sqlclient.
+
+for more information about mono.data and tds see:
+http://www.mono-project.com/tds_providers

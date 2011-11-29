@@ -1,0 +1,5 @@
+Smart uri fetching/caching
+	
+uri::fetch is a smart client for fetching http pages, notably syndication
+feeds (rss, atom, and others), in an intelligent, bandwidth- and
+time-saving way.

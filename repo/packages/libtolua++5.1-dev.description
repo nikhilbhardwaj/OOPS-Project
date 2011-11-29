@@ -1,0 +1,11 @@
+Extended tool to integrate c/c++ code with lua
+	
+tolua++5.1 is an extension of tolua, a tool to integrate c/c++ code with
+lua. tolua++5.1 includes new features oriented to c++, such as class
+templates and is compiled with the newest lua 5.1.
+
+based on a "cleaned" header file, tolua++ automatically generates
+the binding code to access c/c++ features from lua. using lua-5.1 api and
+metamethod facilities, the current version automatically maps c/c++
+constants, external variables, functions, namespace, classes, and methods
+to lua. it also provides facilities to create lua modules.

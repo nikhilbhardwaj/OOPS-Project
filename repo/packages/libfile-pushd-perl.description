@@ -1,0 +1,12 @@
+Change directory temporarily for a limited scope
+	
+file::pushd does a temporary chdir that is easily and automatically reverted,
+similar to pushd in some unix command shells. it works by creating an object
+that caches the original working directory. when the object is destroyed, the
+destructor calls chdir to revert to the original working directory. by
+storing the object in a lexical variable with a limited scope, this happens
+automatically at the end of the scope.
+
+this is very handy when working with temporary directories for tasks like
+testing; a function is provided to streamline getting a temporary directory
+from file::temp.

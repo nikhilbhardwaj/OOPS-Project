@@ -1,0 +1,9 @@
+Sax parser for html and other badly formed xml documents
+	
+php-xml-htmlsax3 provides an api very similar to the native
+php xml extension (http://www.php.net/xml), allowing handlers
+using one to be easily adapted to the other.
+
+the key difference is php-xml-htmlsax3 will not break
+on badly formed xml, allowing it to be used for parsing
+html documents.

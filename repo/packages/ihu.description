@@ -1,0 +1,36 @@
+Qt voip softphone with an own, encrypted protocol
+	
+ihu creates an audio stream between two computers easily and with the minimal
+traffic on the network.
+
+the main features are:
+
+
+ - peer-to-peer: the communication takes place directly between the
+   computers, without need of session protocols (such as sip and h323) or
+   other servers in the middle.
+
+
+
+ - udp/tcp support: ihu supports both udp and tcp, with the possibility to
+   choose udp, for fast and easy connections, or tcp, if it's the only
+   solution when your computer is behind firewall or nat.
+
+
+
+ - good audio performance: ihu was born to give the best audio performance,
+   low latency above all. for this purpose ihu is compatible with alsa, now
+   the default linux sound architecture, but also with jack, a low latency
+   sound server. for the audio compression, ihu uses speex, a codec optimized
+   for speech (and completely free and open source).
+
+
+
+ - crypted stream: you have also the possibility to encrypt/decrypt the
+   stream using a fast hybrid cryptographic system (rsa + blowfish)
+
+
+
+ - command-line support: the gui is not strictly necessary, you can run also
+   a textual ihu from command-line (for example if you need to run the
+   program on remote computers).

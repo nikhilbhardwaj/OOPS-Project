@@ -1,0 +1,23 @@
+Dungeon crawl game - qt interface
+	
+nethack is a wonderfully silly, yet quite addictive, dungeons &
+dragons-style adventure game. you play a character from one of many
+classes (such as wizard, ranger, or tourist), fighting your way down to
+retrieve the amulet of yendor (try saying that one backwards!) for your
+god. on the way, you might encounter a quantum mechanic or two, or
+perhaps king arthur, or - if you're really lucky - the ravenous
+bugblatter beast of traal.
+
+you should install a front-end for nethack if you
+wish to play the game.  each of them includes the
+original non-graphical version, and they can all be installed
+at the same time:
+
+ - nethack-console: no graphics, just plain nethack;
+ - nethack-x11    : original x11/athena-based graphical version;
+ - nethack-qt     : qt-based graphical version;
+ - nethack-lisp   : lisp window version.
+
+
+this package provides the text and qt-based graphical versions
+of nethack.

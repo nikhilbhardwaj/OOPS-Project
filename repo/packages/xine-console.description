@@ -1,0 +1,7 @@
+The xine video player, user interface
+	
+xine-ui is a frontend for the libxine video player library.
+
+this package contains additional front ends, aaxine, cacaxine and fbxine
+which run even on the console, so you can use it to watch dvds even in
+an xterm. ;-)

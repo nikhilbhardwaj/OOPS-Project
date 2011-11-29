@@ -1,0 +1,6 @@
+A major emacs mode for editing standard ml
+	
+this emacs mode provides syntax highlighting and automatic
+indentation for standard ml and comes with sml-proc which allows
+interaction with an inferior sml interactive loop.  you will need
+this if you write standard ml programs using emacs.

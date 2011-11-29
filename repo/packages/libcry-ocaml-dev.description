@@ -1,0 +1,10 @@
+Mp3/ogg vorbis broadcast ocaml module
+	
+this ocaml module implements the protocols used to connect and
+send source data to icecast2 and shoutcast servers.
+
+it is a low-level implementation, so it only does the minimal
+source connection. in particular, it does not handle synchronisation.
+hence, the task of sending audio data to the streaming server
+at real time rate is up to the programmer, contrary to the main
+implementation, libshout.

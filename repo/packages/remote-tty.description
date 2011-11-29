@@ -1,0 +1,7 @@
+Multiuser "tip"/"cu" replacement with logging
+	
+this is paul vixie's rtty serial console tool. it allows runs a server
+per port which then support multiple connections at time from
+"tip"/"cu"-like clients. it also supports logging of output from the
+port, even when no client is connected. this can be invaluable for post
+mortem diagnosis of crashes of serial consoled machines.

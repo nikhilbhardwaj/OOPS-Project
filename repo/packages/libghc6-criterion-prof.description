@@ -1,0 +1,13 @@
+Robust, reliable performance measurement and analysis; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides a powerful but simple way to measure the performance of
+haskell code.  it provides both a framework for executing and analysing
+benchmarks and a set of driver functions that makes it easy to build and run
+benchmarks, and to analyse their results.
+
+the fastest way to get started is to read the documentation and examples in
+the criterion.main module.

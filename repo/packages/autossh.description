@@ -1,0 +1,7 @@
+Automatically restart ssh sessions and tunnels
+	
+autossh is a program to start an instance of ssh and monitor it, restarting it
+as necessary should it die or stop passing traffic. the idea is from rstunnel
+(reliable ssh tunnel), but implemented in c. connection monitoring is done
+using a loop of port forwardings. it backs off on the rate of connection
+attempts when experiencing rapid failures such as connection refused.

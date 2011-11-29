@@ -1,0 +1,7 @@
+Kanji code checker
+	
+this package contains file2 command.
+file2 command tests the classification of japanese text files
+into jis, utf-8, euc-jp, sjis, ascii, and unknown.
+if the file package is installed, the file command is executed
+instead of unknown.

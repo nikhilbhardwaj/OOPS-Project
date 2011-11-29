@@ -1,0 +1,8 @@
+Extensions to the python unittest library
+	
+testtools (formerly pyunit3k) is a set of extensions to the python standard
+library's unit testing framework. these extensions have been derived from
+years of experience with unit testing in python and come from many different
+sources. it's hoped that these extensions will make their way into the
+standard library eventually. also included are backports from python trunk of
+unittest features that are not otherwise available to existing unittest users.

@@ -1,0 +1,9 @@
+A graphical diff program
+	
+fldiff is a graphical diff program that shows the differences between
+two files/directories, or a file/directory and a cvs or subversion repository.
+it is inspired by xdiff (motif-based) and xxdiff (qt-based), whose choice of
+gui toolkit has hampered their portability to many of the systems.
+
+fldiff uses the fast light toolkit (fltk) and has been tested on aix, irix,
+linux, macos x, and solaris, and should also run on windows.

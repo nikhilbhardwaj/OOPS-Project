@@ -1,0 +1,19 @@
+Module to access opencl parallel computation api
+	
+pyopencl lets you access the opencl parallel computation api from
+python. here's what sets pyopencl apart:
+
+ * object cleanup tied to lifetime of objects. this idiom, often called
+   raii in c++, makes it much easier to write correct, leak- and
+   crash-free code.
+ * completeness. pyopencl puts the full power of opencl’s api at your
+   disposal, if you wish.
+ * convenience. while pyopencl's primary focus is to make all of opencl
+   accessible, it tries hard to make your life less complicated as it
+   does so--without taking any shortcuts.
+ * automatic error checking. all opencl errors are automatically
+   translated into python exceptions.
+ * speed. pyopencl’s base layer is written in c++, so all the niceties
+   above are virtually free.
+ * helpful, complete documentation and a wiki.
+ * liberal licensing (mit).

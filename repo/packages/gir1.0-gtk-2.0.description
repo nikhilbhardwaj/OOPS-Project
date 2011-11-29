@@ -1,0 +1,16 @@
+Gobject introspection data for the gtk+ library
+	
+this package contains introspection data for the gtk+ graphical
+toolkit, and a few related libraries. it contains the following
+modules:
+
+
+ * pango
+ * atk
+ * gdk
+ * gdkpixbuf
+ * gtk
+
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

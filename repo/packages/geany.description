@@ -1,0 +1,17 @@
+A fast and lightweight ide
+	
+geany is a small and lightweight integrated development environment.
+it was developed to provide a small and fast ide, which has only a
+few dependencies from other packages. it is using only the gtk2 toolkit
+and therefore you need only the gtk2 runtime libraries to run geany.
+
+the basic features of geany are:
+
+ - syntax highlighting
+ - code completion
+ - auto completion of constructs like if, for and while, xml and html
+ - call tips
+ - folding
+ - many supported filetypes like c, java, php, html, python, perl, pascal
+ - symbol lists
+ - embedded terminal emulation

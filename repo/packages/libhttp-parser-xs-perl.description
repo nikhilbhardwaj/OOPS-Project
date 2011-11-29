@@ -1,0 +1,5 @@
+Simple and fast http request parser
+	
+http::parser::xs is a fast, primitive http request parser that can be used
+either for writing a synchronous http server or a event-driven server. it is
+designed primarily for use with the plack toolkit.

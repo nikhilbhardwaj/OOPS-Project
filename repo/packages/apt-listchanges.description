@@ -1,0 +1,11 @@
+Package change history notification tool
+	
+the tool apt-listchanges can compare a new version of a
+package with the one currently installed and show what has been
+changed, by extracting the relevant entries from the debian changelog
+and news files.
+
+it can be run on several .deb archives at a time to get a list of all
+changes that would be caused by installing or upgrading a group of
+packages. when configured as an apt plugin it will do this
+automatically during upgrades.

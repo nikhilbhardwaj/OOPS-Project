@@ -1,0 +1,6 @@
+Perl module assisting with op tree manipulation
+	
+b::utils contains a variety of functions which make it easier to manipulate
+perl's op tree. it provides many commonly used features like stringification
+of operations, determining ancestors and predecessors, etc. it also provides
+several ways to walk the entire op tree.

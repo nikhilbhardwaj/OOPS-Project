@@ -1,0 +1,5 @@
+Nss module for mysql
+	
+this package provides a name service switch module that allows your mysql
+server act as a name service. it currently features full account support
+(shadow, passwd and group).

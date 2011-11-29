@@ -1,0 +1,7 @@
+Linux 2.6.32 for pcs with 4gb+ ram
+	
+the linux kernel 2.6.32 and modules for use on pcs with 4-64gb ram, using
+pae (physical address extension).
+
+this kernel also runs on a xen hypervisor.  it supports only unprivileged
+(domu) operation.

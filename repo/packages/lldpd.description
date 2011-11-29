@@ -1,0 +1,14 @@
+Implementation of ieee 802.1ab (lldp)
+	
+lldp is an industry standard protocol designed to supplant
+proprietary link-layer protocols such as extreme's edp (extreme
+discovery protocol) and cdp (cisco discovery protocol). the goal of
+lldp is to provide an inter-vendor compatible mechanism to deliver
+link-layer notifications to adjacent network devices.
+
+this implementation provides lldp sending and reception, supports
+vlan and includes an snmp subagent that can interface to an snmp
+agent through agentx protocol.
+
+this daemon is also able to deal with cdp, sonmp, fdp and edp
+protocol. it also handles lldp-med extension.

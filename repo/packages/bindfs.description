@@ -1,0 +1,17 @@
+Mirrors or overlays a local directory with altered permissions
+	
+bindfs is a fuse filesystem for mirroring a directory to another
+directory, similarly to mount --bind. the permissions of the mirrored
+directory can be altered in various ways.
+
+some things bindfs can be used for:
+
+ - making a directory read-only.
+ - making all executables non-executable.
+ - sharing a directory with a list of users (or groups).
+ - modifying permission bits using rules with chmod-like syntax.
+ - changing the permissions with which files are created.
+
+
+non-root users can use almost all features, but most interesting
+use-cases need user_allow_other to be defined in /etc/fuse.conf

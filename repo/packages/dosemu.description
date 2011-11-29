@@ -1,0 +1,12 @@
+The linux dos emulator
+	
+dosemu is a pc emulator application that allows linux to run a dos
+operating system in a virtual x86 machine. this allows you to run
+many dos applications.
+
+ - color text and full keyboard emulation (via hotkeys) via terminal.
+ - built-in x support, includes ibm character set font.
+ - graphics capability at the console with most compatible video cards.
+ - dpmi support so you can run doom.
+ - cdrom support.
+ - builtin ipx and pktdrvr support.

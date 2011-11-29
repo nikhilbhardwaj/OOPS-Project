@@ -1,0 +1,13 @@
+Gnu r package for estimating vector generalized additive models
+	
+this package implements a variety of functions for estimating vector
+generalized additive models (vgams), as well as vector generalized
+linear models (vglms), reduced-rank vglms, and quadratic reduced-rank
+vglms.
+
+specific models that can be fit include a wide variety of
+categorical-response models (with nominal and ordinal dependent
+variables), bivariate binary-response models (bivariate
+logit/probit), and seemingly-unrelated regressions.  the package also
+includes a number of standard and non-standard distribution functions
+of use to statisticians.

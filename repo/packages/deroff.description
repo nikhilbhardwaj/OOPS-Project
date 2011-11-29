@@ -1,0 +1,5 @@
+Removes roff and preprocessor constructs
+	
+deroff strips out roff constructs and macros.  the preprocessor
+(eqn, tbl, pic, grap, and vgrind) sections are removed entirely.
+the resulting output is suitable for spelling with e.g. spell(1).

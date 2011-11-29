@@ -1,0 +1,5 @@
+Thoroughly testing objects via registered handlers
+	
+the test::object perl module aids testing deep trees of classes.
+it allows testing an object against the expected behavior of all the
+classes in its inheritance tree.

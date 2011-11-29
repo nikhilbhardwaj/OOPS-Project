@@ -1,0 +1,12 @@
+Console-based aol instant messenger & irc client
+	
+pork is an ncurses-based aol instant messenger and irc client. it uses the
+oscar protocol (the one the windows client uses) to access aim. pork
+features perl scripting; an online help system; the ability to
+configure nearly all aspects of the program's look-and-feel; an alias
+system; and a powerful, fully-configurable key binding system. it
+supports being logged in with more than one screen name at the same
+time. the default look-and-feel of the client is modeled after the
+ircii irc client. anyone comfortable using ircii (or any clients
+derived from it -- e.g., epic, bitchx, etc.) will feel comfortable
+using pork.

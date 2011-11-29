@@ -1,0 +1,23 @@
+Optical intreferometry image reconstruction within yorick
+	
+mira is an algorithm for image reconstruction from data provided by
+optical interferometers. it is written in the yorick language and
+operated through the yorick interpreter.
+
+mira won the 2008' interferometric imaging beauty contest organized
+by international astronomical union (iau) to compare the image
+synthesis algorithms designed for optical interferometry.  in a
+nutshell, mira proceeds by direct minimization of a penalized
+likelihood. this penalty is the sum of two terms: a likelihood term
+(typically a χ2) which enforces agreement of the model with the data,
+plus a regularization term to account for priors. the priors are
+required to lever the many degeneracies due to the sparseness of the
+spatial frequency sampling. mira implements many different
+regularizations (quadratic or edge-preserving smoothness, total
+variation, maximum entropy, etc.) and let the user defines his own
+priors. the likelihood penalty is modular and designed to account for
+available data of any kind (complex visibilities, powerspectra and/or
+closure phase). one of the strength of mira is that it is purely
+based on an inverse problem approach and can therefore cope with
+incomplete data set; for instance, mira can build an image without
+any fourier phase information. input data must be in oi-fits format.

@@ -1,0 +1,12 @@
+Program bugs to compete for food and survival - server
+	
+infon is a game which simulates the live of simple bugs who eat,
+propagate, eat each other and evolve. the players can not control
+the bugs directly but write their “intelligence” in the simple
+script language lua and upload it to the game using a plain telnet
+connection. the code can then be modified even while the game
+is running.
+
+this package contains the infon server which hosts the game. to
+upload code to it, you only need a telnet client. to be able to
+view the game, see the infon-viewer package.

@@ -1,0 +1,7 @@
+Utilities for .desktop files
+	
+some utilities to make dealing with .desktop files easier:
+
+ * update-desktop-database -- update the desktop-mime mapping
+ * desktop-file-validate -- validate a desktop file
+ * desktop-file-install -- install a desktop file, munging en route.

@@ -1,0 +1,6 @@
+Netbios auditing tool
+	
+this tool can perform various security checks on remote
+servers running netbios file sharing services. it
+is capable of enumerating shares and make break-in attempts
+using a (user-provided) list of users and passwords.

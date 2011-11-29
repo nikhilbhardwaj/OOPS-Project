@@ -1,0 +1,8 @@
+Secure file deletion
+	
+recovery of supposedly erased data from magnetic media is easier than what many
+people would like to believe. a technique called magnetic force microscopy
+(mfm) allows any moderately funded opponent to recover the last two or three
+layers of data written to disk. wipe repeatedly writes special patterns to the
+files to be destroyed, using the fsync() call and/or the o_sync bit to force
+disk access.

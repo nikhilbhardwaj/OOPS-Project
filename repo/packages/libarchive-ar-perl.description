@@ -1,0 +1,13 @@
+Perl interface for manipulating ar archives
+	
+archive::ar is a pure-perl way to handle standard ar archives.
+
+this is useful if you have those types of old archives on the system, but it
+is also useful because .deb packages for the debian gnu/linux distribution are
+ar archives. this is one building block in a future chain of modules to build,
+manipulate, extract, and test debian modules with no platform or architecture
+dependence.
+
+you may notice that the api to archive::ar is similar to archive::tar, and
+this was done intentionally to keep similarity between the archive::*
+modules.

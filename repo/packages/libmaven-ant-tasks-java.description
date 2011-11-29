@@ -1,0 +1,11 @@
+A library to use maven's artifact handling features from ant
+	
+the mavent ant tasks allow several of maven's artifact handling features to
+be used from within an ant build. these include:
+
+
+  * dependency management - including transitive dependencies, scope
+    recognition and snapshot handling.
+  * artifact deployment - deployment to a maven repository (file integrated,
+    other with extensions)
+  * pom processing - for reading and writing a maven 2 pom.xml file.

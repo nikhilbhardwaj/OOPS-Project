@@ -1,0 +1,19 @@
+Sax-compliant parser for real-life html
+	
+tagsoup, a sax-compliant parser written in java that, instead of parsing
+well-formed or valid xml, parses html as it is found in the wild: poor,
+nasty and brutish, though quite often far from short. tagsoup is designed
+for people who have to process this stuff using some semblance of a
+rational application design.
+
+by providing a sax interface, it allows standard xml tools to be applied
+to even the worst html. tagsoup also includes a command-line processor
+that reads html files and can generate either clean html or well-formed
+xml that is a close approximation to xhtml.
+
+tagsoup is designed as a parser, not a whole application; it isn't
+intended to permanently clean up bad html, as html tidy does, only to
+parse it on the fly. therefore, it does not convert presentation html
+to css or anything similar. it does guarantee well-structured results:
+tags will wind up properly nested, default attributes will
+appear appropriately, and so on.

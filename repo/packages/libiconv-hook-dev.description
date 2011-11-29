@@ -1,0 +1,17 @@
+Header files of libiconv-hook
+	
+this code is iconv compatible interface routine for mod_encoding.
+taisuke yamada writes sample code for hooking iconv() for mod_encoding.
+
+in mod_encoding configuration directive,
+supports following encoding names additionally:
+
+
+ mssjis
+ - this is almost same as sjis, but is a microsoft variant of it.
+
+
+
+ ja-auto-sjis-ms
+ - this is a special converter which does autodetection between
+   utf-8/jis/mssjis/sjis/euc-jp. this itself does not do conversion.

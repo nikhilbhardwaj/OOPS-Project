@@ -1,0 +1,9 @@
+Performance co-pilot graphical client tools library
+	
+the libpcp-gui package contains the runtime environment required by any
+monitoring tool that makes use of the time control services of pmtime(1).
+
+the performance co-pilot provides a unifying abstraction for
+all of the interesting performance data in a system, and allows
+client applications to easily retrieve and process any subset of
+that data.

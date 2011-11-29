@@ -1,0 +1,20 @@
+Bidirectional interface between swi-prolog and java
+	
+swi-prolog is a fast and powerful iso/edinburgh-style prolog compiler with a
+rich set of built-in predicates. it offers a fast, robust and small
+environment which enables substantial applications to be developed with it.
+
+swi-prolog additionally offers:
+
+
+ * a powerful module system
+ * garbage collection
+ * unicode character set handling
+ * unbounted integer and rational number arithmetic
+ * multithreading support
+ * a powerful c/c++ interface
+ * gnu readline interface
+
+
+this library provides jpl, a bidirectional interface between swi-prolog and
+the java 2 runtime.

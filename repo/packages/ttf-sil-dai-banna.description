@@ -1,0 +1,23 @@
+Smart unicode font for dai banna (xishuangbanna dai)
+	
+this package provides the dai banna sil fonts which are a unicode
+rendering of the new tai lue (xishuangbanna dai) script.  version 2.000 is the
+first unicode release.  (version 1.0 was released under the name of 'sil dai
+banna' in legacy encoding.)  two font families, differing only in weight,
+allow for a wide range of uses.
+
+the new tai lue script is used by approximately 300,000 people who speak the
+xishuangbanna dai language in yunnan, china.  it is a simplification of the
+tai tham (old tai lue) script as used for this language for hundreds of years.
+
+the dai banna sil fonts are smart fonts using a graphite description. the
+source package includes the source gdl code for the description. the features
+of the fonts are:
+
+
+ - complete coverage of the new tai lue script
+ - graphite smarts for re-ordrant vowels and line-breaking
+
+
+extended font sources (graphite .gdl and fontlab .vfb) are available in the
+source package and on the project website.

@@ -1,0 +1,12 @@
+Openbios fcode utilities
+	
+fcode is a forth programming language dialect compliant with ans forth.
+it can exist in two forms; source code and a compiled version, known as
+bytecode. it is of interest mainly for its use in openfirmware.
+
+this package provides a set of fcode utilities:
+
+ - the tokenizer toke
+ - the detokenizer detok
+ - a pci rom header utility
+ - a portable implementation of forth local values

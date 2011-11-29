@@ -1,0 +1,9 @@
+Library version of kakasi
+	
+this package provides the function of kakasi as a shared library.
+
+kakasi is the language processing filter to convert kanji characters
+to hiragana, katakana or romaji(1) and may be helpful to read
+japanese documents.
+
+(1) "romaji" is alphabetical description of japanese pronunciation.

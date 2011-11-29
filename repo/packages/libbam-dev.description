@@ -1,0 +1,7 @@
+Manipulates nucleotide sequence alignments in bam or sam format
+	
+the bam library provides i/o and various operations on manipulating nucleotide
+sequence alignments in the bam (binary alignment/mapping) or sam (sequence
+alignment/map) format. it now supports importing from or exporting to sam,
+sorting, merging, generating pileup, and quickly retrieval of reads overlapped
+with a specified region.

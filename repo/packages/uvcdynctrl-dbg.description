@@ -1,0 +1,16 @@
+Debug symbols for uvcdynctrl
+	
+this package contains debug data for uvcdynctrl
+
+most people will not need this package. please install it to produce useful
+stacktraces to help debugging the webcam library.
+
+uvcdynctrl is part of the webcam library.
+
+the webcam library libwebcam is designed to simplify
+the development of webcam applications, primarily on linux but
+with an option to be ported to other platforms, in particular
+solaris. it realizes part of what the unwritten video4linux user
+space library was always supposed to be: an easy to use library
+that shields its users from many of the difficulties and problems
+of using the v4l2 api directly.

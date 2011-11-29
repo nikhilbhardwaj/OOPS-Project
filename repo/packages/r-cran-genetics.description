@@ -1,0 +1,16 @@
+Gnu r package for population genetics
+	
+classes and methods for handling genetic data. includes
+the package provides a library for the statistics environment r that
+contains classes to represent genotypes and haplotypes at single markers up
+to multiple markers on multiple chromosomes. function include
+allele frequencies, flagging homo/heterozygotes, flagging carriers
+of certain alleles, estimating and testing for hardy-weinberg
+disequilibrium, estimating and testing for linkage disequilibrium,
+and more.
+
+note: this package is now obsolete.
+
+the r-genetics project has developed an set of enhanced genetics
+packages to replace 'genetics'. please visit the project homepage
+at http://rgenetics.org for information.

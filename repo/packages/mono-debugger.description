@@ -1,0 +1,8 @@
+Debugger for mono
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete .net clr including compiler and runtime, which can
+produce and execute cil bytecode (assemblies), and a .net class library.
+
+this package allows debugging cli applications that run on mono.

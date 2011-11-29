@@ -1,0 +1,11 @@
+Olpc xo keyboard support daemon (common files)
+	
+the olpc-kbdshim daemon is used to handle keyboard events on the somewhat
+unique olpc xo hardware.  it does this by monitoring the keyboard and
+touchpad, enabling the xo "grab" keys and touchpad rotation (to match
+screen rotation), and reporting user (in)activity.  it can also bind the xo
+screen rotate, brightness, and volume keys to appropriate commands (which are
+provided).
+
+this package provides the common files shared between hal and non-hal
+version.

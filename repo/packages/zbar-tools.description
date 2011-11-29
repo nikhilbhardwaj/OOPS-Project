@@ -1,0 +1,8 @@
+Bar code scanner and decoder (utilities)
+	
+zbar is a library for scanning and decoding bar codes from various sources
+such as video streams, image files or raw intensity sensors. it supports
+ean-13/upc-a, upc-e, ean-8, code 128, code 39, interleaved 2 of 5 and qr code.
+
+this package contains basic applications for decoding captured bar code images
+and using a video4linux device (e.g. webcam) as a bar code scanner.

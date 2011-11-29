@@ -1,0 +1,7 @@
+Email classification tool
+	
+popfile is an tool to classify email with a naive bayes classifier, a pop3
+proxy and a web interface. it runs on most platforms and with most email
+clients. it's not only useful to filter spam, but also to sort legitimate
+mail into different folders. popfile can be trained to recognize and sort
+mails even when no regular mail rules based on header can be made.

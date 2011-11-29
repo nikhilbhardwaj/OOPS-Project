@@ -1,0 +1,10 @@
+Lightweight image viewer
+	
+gpicview is a lightweight gtk+ 2.x based image viewer with following features:
+
+
+ * extremely lightweight and fast with low memory usage
+ * very suitable for default image viewer of desktop system
+ * simple and intuitive interface
+ * minimal lib dependency: only pure gtk+ is used
+ * desktop independent: doesn't require any specific desktop environment

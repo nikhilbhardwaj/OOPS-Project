@@ -1,0 +1,16 @@
+Spl based web application framework
+	
+webspl is a pretty powerful framework for doing web application development
+with spl.
+
+the interesting thing about webspl is that, other than usual cgi scripts, a
+webspl script is not executed once for each http request. instead there is one
+spl process for each session and such a webspl script can pause its execution
+at any time, wait for the user to do something and continue execution as soon
+as the user did something.
+
+in addition to that there is a module package called "wsf" (webspl forms) which
+adds an additional abstraction layer between the application logic and the
+representation as web page. with this spl modules, web application development
+becomes as easy as normal application development with well-designed widget
+sets.

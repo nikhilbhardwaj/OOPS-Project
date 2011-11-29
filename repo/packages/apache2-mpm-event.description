@@ -1,0 +1,11 @@
+Apache http server - event driven model
+	
+each apache multi-processing module provides a different "flavor" of
+web server binary, compiled with a different processing model.
+
+the event mpm is designed to allow more requests to be served
+simultaneously by passing off some processing work to supporting
+threads, freeing up the main threads to work on new requests. it is
+especially suitable for sites that see extensive keepalive traffic.
+
+this mpm is experimental and less tested than the worker and prefork mpms.

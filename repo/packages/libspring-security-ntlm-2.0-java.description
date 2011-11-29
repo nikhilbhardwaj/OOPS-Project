@@ -1,0 +1,28 @@
+Modular java/j2ee application security framework - ntlm
+	
+spring security is a java/java ee framework that provides advanced
+authentication, authorization and other comprehensive security features for
+enterprise applications. in addition to having a comprehensive list of
+security functionality, spring security is very configurable and employs the
+spring framework for configuration, it allows for reuse and portability of
+security components, and it can also be used with non-spring applications.
+
+spring security currently supports authentication integration with these
+technologies:
+
+ - http basic authentication headers.
+ - http digest authentication headers.
+ - http x.509 client certificate exchange.
+ - ldap.
+ - form-based authentication
+ - transparent authentication context propagation for remote method
+   invocation (rmi) and httpinvoker (a spring remoting protocol).
+ - automatic "remember-me" authentication.
+ - anonymous authentication.
+ - run-as authentication.
+ - java authentication and authorization service (jaas)
+ - container integration with jboss, jetty, resin and tomcat.
+
+
+this package provides spring-security-ntlm.jar: support for windows
+ntlm authentication.

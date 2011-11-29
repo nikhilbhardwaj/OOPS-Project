@@ -1,0 +1,11 @@
+X11 printing extension (xprint) wire protocol
+	
+this package provides the wire protocol for xprint,
+the x11 printing  extension.
+
+more information about x.org can be found at:
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found as the printproto module tarball at
+http://xorg.freedesktop.org/releases/individual/proto/

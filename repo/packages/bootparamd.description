@@ -1,0 +1,5 @@
+Boot parameter server
+	
+bootparamd is a server process that provides information to diskless clients
+necessary for booting.  it consults the /etc/bootparams file to find the
+information it needs.

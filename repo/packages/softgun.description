@@ -1,0 +1,9 @@
+Arm system emulator
+	
+softgun is an arm system emulator intended to emulate complete
+embedded systems. currently three boards with netsilicon ns9750
+or ns9360 and freescale i.mx21 and some additional components
+on pci and i2c bus are supported. features include arm926-ejs
+32bit instruction set with dsp extensions, little-endian and
+big-endian cpu modes, mmu with 3-entry tlb, serial ports and
+ethernet controller.

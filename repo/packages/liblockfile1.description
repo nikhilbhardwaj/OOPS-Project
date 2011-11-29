@@ -1,0 +1,4 @@
+Nfs-safe locking library, includes dotlockfile program
+	
+liblockfile is a shared library with nfs-safe locking functions. it
+includes the command-line utility ``dotlockfile''.

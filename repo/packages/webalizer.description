@@ -1,0 +1,10 @@
+Web server log analysis program
+	
+the webalizer was designed to scan web server log files in various formats
+and produce usage statistics in  html format for viewing through a browser.
+the webalizer produces yearly, monthly, daily and hourly statistics. in the
+monthly reports, various statistics may be produced to show overall usage,
+usage by day and hour, usage by visiting sites, urls, user agents
+(browsers), referrers and country. the webalizer is highly configurable by
+use of either command line options or a configuration file, allowing the
+program to be tailored to individual needs easily.

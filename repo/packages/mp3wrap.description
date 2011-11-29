@@ -1,0 +1,10 @@
+Utility for mp3 wrapping (rolling multiple mp3s into one)
+	
+command-line utility that wraps multiple mp3 files into a single, playable
+mp3, without losing filenames or id3 information, and without reencoding. also
+supports archiving non-audio data such as playlists, info files, and cover
+images inside the mp3. these files can be unpacked later (using mp3splt, e.g.);
+ordinary mp3 decoders can play the entire audio stream as one long track.
+
+this is a free, independent alternative to albumwrap:
+http://www.infamus.com/albumwrap/

@@ -1,0 +1,15 @@
+Captures communication between two external serial devices
+	
+snooper passes data transparently between two serial (rs232c)
+devices, capturing and logging the data and occasional comments you
+want to insert into the logs.
+
+it is useful for debugging or analyzing the communications protocol
+between two devices that would normally be connected directly to each
+other, e.g. a digital camera and a personal computer.  by sitting
+"in the middle" (after you connect the two devices to serial ports
+on your linux machine) snooper is able to capture data traveling in
+either direction while also passing it unmodified to the other device.
+
+it is also possible to operate with a single serial device, using
+your console and keyboard as the second device.

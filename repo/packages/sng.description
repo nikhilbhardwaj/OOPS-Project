@@ -1,0 +1,10 @@
+A specialized markup language for representing png contents
+	
+sng (scriptable network graphics) is a minilanguage designed
+specifically to represent the entire contents of a png (portable
+network graphics) file in an editable form. thus, sngs representing
+elaborate graphics images and ancillary chunk data can be readily
+generated or modified using only text tools.
+
+sng is implemented by a compiler/decompiler called sng that
+losslessly translates between sng and png.

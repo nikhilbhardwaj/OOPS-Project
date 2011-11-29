@@ -1,0 +1,18 @@
+Gedit plugin for composing and compiling latex documents
+	
+this plugin assist you in a number of task:
+
+ - code completion: if you type a prefix it shows you all matching commands
+   and the structure and meaning of their arguments. if possible it shows
+   options for the argument the cursor is in.
+ - assistants: there are several assistants for frequent tasks like creating
+   the body of a new latex file, inserting a graphics, inserting a table or a
+   matrix, inserting source code listings, inserting bibtex entries.
+ - bibtex integration: an outline view is created for bibtex files and the
+   latex completion is aware of bibliographies included per \bibliography and
+   proposes their entries at the \cite command. bibtex entries may be inserted
+   with the help of a dialog.
+ - build system: the build system uses profiles like "pdf", "dvi" or
+   "postscript". per default the plugin uses rubber for automated document
+   compiling, but you may create your own profiles invoking the latex command
+   chain directly.

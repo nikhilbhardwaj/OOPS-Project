@@ -1,0 +1,9 @@
+The kde platform core library
+	
+all kde applications use this library to provide basic functionality such as
+the configuration system, ipc, internationalization and locale support,
+site-independent access to the filesystem and a large number of other (but no
+less important) things. the classes in this library does not require linkage
+to qtgui or any other library that requires a graphical interface.
+
+this package is part of the kde development platform libraries module.

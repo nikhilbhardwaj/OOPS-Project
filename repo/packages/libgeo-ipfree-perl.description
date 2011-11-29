@@ -1,0 +1,5 @@
+Module to look up the country of an ipv4 address
+	
+geo::ipfree is a perl module that determines the originating country of an
+arbitrary ipv4 address. it uses a local file-based database to provide basic
+geolocation services.

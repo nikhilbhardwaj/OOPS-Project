@@ -1,0 +1,9 @@
+Graphical user interface to the ham radio control libraries
+	
+gnome rig is a graphical user interface to the ham radio control libraries,
+which lets you control your communication radios and/or antenna rotators from
+a personal computer. gnome rig is written using the gtk+ and gnome widgets.
+
+gnome rig is in a very early stage and it supports only a very little subset
+of the full hamlib api, but it can be very useful in testing basic hamlib
+support for your rig.

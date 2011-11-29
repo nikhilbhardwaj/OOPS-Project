@@ -1,0 +1,4 @@
+PackageId:33221
+Name:tryton-modules-stock-forecast
+Version:1.6.0-1
+Deps:python,python-dateutil,python-pkg-resources,python-support,tryton-modules-company,tryton-modules-product,tryton-modules-stock,tryton-server

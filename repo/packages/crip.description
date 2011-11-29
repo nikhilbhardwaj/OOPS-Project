@@ -1,0 +1,15 @@
+Terminal-based ripper/encoder/tagger tool
+	
+crip creates ogg vorbis/flac/mp3 files under unix/linux. it is
+well-suited for anyone (especially the perfectionist) who seeks to
+make a lot of files from cds and have them all properly labeled and
+professional-quality with a minimum of hassle and yet still have
+flexibility and full control over everything. current versions of
+crip only support ogg vorbis and flac.
+
+this script is special because it is capable of doing group
+vorbisgain/replaygain and/or normalization (adjust the volume to be
+as loud as possible without clipping/distortion) and group
+labelling/tagging, which makes it easy to allow a group of tracks to
+be treated as one piece. it can also trim off the silence at the
+beginning and end of these tracks/groups.

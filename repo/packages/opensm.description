@@ -1,0 +1,5 @@
+An infiniband subnet manager
+	
+opensm provides an implementation of an infiniband subnet manager (sm) and
+administrator (sa). one subnet manager is required to run on each infiniband
+subnet in order to initialize the infiniband hardware.

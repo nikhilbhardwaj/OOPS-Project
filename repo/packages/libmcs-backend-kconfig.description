@@ -1,0 +1,6 @@
+Kde kconfig backend for libmcs
+	
+modular config system is a library and set of tools which abstract the
+storage of configuration settings away from userland applications.
+
+this package provides a kde kconfig backend to store configurations.

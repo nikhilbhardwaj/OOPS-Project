@@ -1,0 +1,10 @@
+Nvidia binary kernel module for linux 2.6.32-5-vserver-686
+	
+this package provides the non-free nvidia binary kernel module built for
+the debian linux kernel package.  this kernel module is required by the
+nvidia-glx x video driver, the non-free binary video driver for nvidia
+graphics chipsets.  this is the main nvidia driver release, which
+supports the latest chipsets; for older chipsets, see the nvidia legacy
+packages.
+
+this package is built for linux-image-2.6.32-5-vserver-686.

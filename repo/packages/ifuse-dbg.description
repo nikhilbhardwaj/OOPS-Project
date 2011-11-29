@@ -1,0 +1,11 @@
+Fuse module for iphone and ipod touch devices
+	
+ifuse is a fuse filesystem driver which uses libiphone to connect to iphone
+and ipod touch devices without needing to "jailbreak" them. ifuse uses the
+native apple afc protocol over a normal usb cable in order to access the
+device's media files.
+
+although ifuse is now in a working state it is still under heavy
+development and should be considered experimental.
+
+this package contains the debugging symbols.

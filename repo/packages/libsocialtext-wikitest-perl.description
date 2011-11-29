@@ -1,0 +1,8 @@
+Module to execute tests defined on wiki pages
+	
+socialtext::wikitest executes tests defined on wiki pages.
+
+socialtext::wikifixture is a base class that fetches and parses wiki pages
+using the socialtext::resting rest api.  it then tries to execute the
+commands in the wiki tables.  the code for executing the tables should
+be implemented in subclasses.

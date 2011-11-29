@@ -1,0 +1,10 @@
+Arc prototype clients
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced resource
+connector (arc).
+
+for the regular user of any arc-based computational grid,
+this client package contains (or depends on) all packages
+that are needed to submit jobs, query their status and
+retrieve results.

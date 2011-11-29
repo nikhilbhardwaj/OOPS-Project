@@ -1,0 +1,16 @@
+Base programs for atm in linux, the net-tools for atm
+	
+this package provides all the basic programs needed for setting up,
+monitoring and tuning atm networks. such as:
+
+ * atmsigd, an atm signal daemon that implements the atm uni protocol.
+ * atmtcp, a tool to setup atm over tcp connections.
+ * atmarpd, an implementation of the atmarp protocol (rfc1577, rfc1755)
+ * zeppelin, an atm lan emulation client daemon
+ * les and bus, atm lan emulation service daemons
+
+
+notice that upstream still flags these tools as experimental software and
+says that there is still a number of known bugs and issues. the
+software is, however, in productive use at a number of sites and is
+working reliably.

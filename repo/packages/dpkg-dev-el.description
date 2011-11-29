@@ -1,0 +1,14 @@
+Emacs helpers specific to debian development
+	
+this package contains:
+
+
+ debian-bts-control - builds control@bugs.debian.org email messages;
+ debian-changelog-mode - a helper mode for debian changelogs;
+ debian-control-mode - a helper mode for debian/control files;
+ debian-copyright - major mode for debian package copyright files;
+ readme-debian - major mode for editing readme.debian files.
+
+
+see /usr/share/doc/dpkg-dev-el/readme.debian for a short description of
+all files.

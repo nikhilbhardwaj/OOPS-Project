@@ -1,0 +1,7 @@
+Library for reading dvds (development)
+	
+libdvdread provides the functionality that is required to access many dvds. it
+parses ifo files, reads nav-blocks, and performs css authentication and
+descrambling.
+
+this package contains the development files.

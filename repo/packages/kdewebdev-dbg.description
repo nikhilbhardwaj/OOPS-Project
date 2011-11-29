@@ -1,0 +1,5 @@
+Debugging symbols for the kde web development module
+	
+this package contains the debugging symbols associated with kdewebdev.
+they will automatically be used by gdb for debugging kdewebdev-related
+issues.

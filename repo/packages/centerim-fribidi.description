@@ -1,0 +1,9 @@
+A text-mode multi-protocol instant messenger client (hebrew)
+	
+centerim is a fork of the centericq instant messaging client
+
+centerim is a text mode menu- and window-driven im client program that
+supports the icq2000, yahoo!, aim, msn, irc and jabber protocols.
+
+binary in this package is compiled with fribidi support. add support for
+displaying hebrew and arabic texts.

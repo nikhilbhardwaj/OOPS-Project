@@ -1,0 +1,7 @@
+Performance analysis tools for linux 2.6.32
+	
+this package contains the 'perf' performance analysis tools for linux
+kernel version 2.6.32.
+
+the linux-base package contains a 'perf' command which will invoke the
+appropriate version for the running kernel.

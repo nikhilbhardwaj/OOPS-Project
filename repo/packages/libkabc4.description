@@ -1,0 +1,20 @@
+Library for handling address book data
+	
+this library provides an api for address book data. it includes features
+such as:
+
+ * value based interface, addressbook entry data is implicitly shared.
+ * address book entries are identified by a unique id.
+ * vcard backend (rfc 2425 / rfc 2426).
+ * locking mechanism to support concurrent access to the address book by
+   multiple processes.
+ * notification on change of addressbook by other process.
+ * dialog for selecting address book entries, supports mouse and keyboard
+   selection, supports automatic name completion.
+ * gui client for viewing, modifying address book data. this is aimed at
+   developers not end users.
+ * tool for converting data, written with libkab, to libkabc format.
+ * multiple backends (resources) for storing entries e.g. ldap
+
+
+this package is part of the kde development platform pim libraries module.

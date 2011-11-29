@@ -1,0 +1,8 @@
+New version of well known tool traceroute
+	
+paris-traceroute is a new version of the well known traceroute.
+it addresses problems caused by load balancers with the initial
+implementation of traceroute. by controling packet, header
+contents, it obtains a more precise picture of the actual route
+that packets follow.
+.

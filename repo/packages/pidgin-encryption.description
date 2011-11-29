@@ -1,0 +1,5 @@
+Pidgin plugin that provides transparent encryption
+	
+provides transparent encryption to all protocols supported by pidgin.
+can be activated on a per user basis or even automatically detected.
+uses a private/public key system based on mozilla's nss.

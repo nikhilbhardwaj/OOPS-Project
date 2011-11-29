@@ -1,0 +1,13 @@
+An advanced shut down utility for kde
+	
+it has 4 main commands:
+
+
+ - shut down (logout and halt the system),
+ - reboot (logout and reboot the system),
+ - lock screen (lock the screen using a screen saver),
+ - logout (end the session and logout the user).
+
+
+it features time and delay options, command line support, wizard,
+and sounds.

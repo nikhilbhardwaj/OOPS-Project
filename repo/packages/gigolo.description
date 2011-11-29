@@ -1,0 +1,5 @@
+Frontend to manage connections to remote filesystems using gio/gvfs
+	
+gigolo is a frontend to easily manage connections to remote filesystems
+using gio/gvfs. it allows you to quickly connect/mount a remote filesystem
+and manage bookmarks of such.

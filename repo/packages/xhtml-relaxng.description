@@ -1,0 +1,8 @@
+Implementation in relax ng of the modularization of xhtml
+	
+this package contains an implementataion in relax ng of the modularization of
+xhtml specified by the modularization of xhtml recommendation
+
+the relax ng schema has not been mechanically derived from the dtds.  rather,
+it has been hand-crafted so as to produce a good quality relax ng schema.
+however, it may well contain bugs.

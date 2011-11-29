@@ -1,0 +1,28 @@
+Ocaml image processing library (development package)
+	
+camlimages is an image processing library for ocaml, which provides:
+
+
+ * basic functions for image processing and loading/saving
+   various image file formats (hence providing a translation
+   facility from format to format)
+
+
+
+ * an interface with the caml graphics library allows to display
+   images in the graphics module screen and to mix them with caml
+   drawings
+
+
+
+ * a freetype interface, integrated into the library: you can
+   draw texts into images using any truetype fonts
+
+
+in addition, the library can handle huge images that cannot be
+(or can hardly be) stored into the main memory (the library then
+automatically creates swap files and escapes them to reduce the
+memory usage).
+
+this package contains the development part of the camlimages
+library.

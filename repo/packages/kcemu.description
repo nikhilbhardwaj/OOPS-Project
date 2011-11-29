@@ -1,0 +1,17 @@
+Kc 85/4 emulator
+	
+kcemu is an emulator for the kc85 homecomputer series and other
+z80 based microcomputers like z1013, lc80, polycomputer 880 and
+bic a5105. the emulation supports a number of additional hardware,
+e.g. floppy disk drives and extended graphic modules.
+
+the debian package does not contain the rom images required to
+run the emulated machines. please refer to the readme.debian
+file for more.
+
+some alternate keywords for the above:
+kc85, kc87, lc80, z1013, a5105, polycomputer 880
+
+for original programs and general information about the
+emulated computer systems have a look at http://www.kc-club.de/
+and http://www.kc85emu.de/.

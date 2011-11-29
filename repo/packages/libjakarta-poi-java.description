@@ -1,0 +1,7 @@
+Poor obfuscation implementation
+	
+the poi project consists of apis for manipulating various file formats
+based upon microsoft's ole 2 compound document format using pure java.
+
+ole 2 compound document format based files include
+most microsoft office files such as xls and doc.

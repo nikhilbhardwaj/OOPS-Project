@@ -1,0 +1,7 @@
+Library for managing child processes in ruby
+	
+open4 lets you open child process with handles on pid, stdin, stdout, and
+stderr: manage child processes and their i/o handles easily.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8).

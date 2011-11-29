@@ -1,0 +1,11 @@
+Javascript/plugins permissions manager for iceweasel and iceape
+	
+this extension brings a powerful control over the way external scripts or
+embedded programs, such as java or flash, are loaded.
+
+by blocking scripts and/or plugins, it improves security and disables annoying
+behaviours caused by malicious scripts.
+
+when a script is blocked, you are notified, and you can unblock a site or a
+page, either temporarily or permanently. you can then set a whitelist of
+trusted sites based on url or on domain name.

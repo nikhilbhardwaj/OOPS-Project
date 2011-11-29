@@ -1,0 +1,4 @@
+PackageId:25874
+Name:ocfs2-tools-pacemaker
+Version:1.4.4-3
+Deps:libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcomerr2,libcorosync4,libdlm3,libdlmcontrol3,libglib2.0-0,libopenais3,ocfs2-tools,pacemaker

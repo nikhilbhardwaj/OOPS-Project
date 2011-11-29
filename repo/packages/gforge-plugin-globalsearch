@@ -1,0 +1,4 @@
+PackageId:5296
+Name:gforge-plugin-globalsearch
+Version:5.0.2-5
+Deps:gforge-common,gforge-db-postgresql,gforge-db,gforge-web-apache2,gforge-web,libcrypt-ssleay-perl,libdbi-perl,libgetopt-mixed-perl,libunicode-string-perl,libwww-perl,libxml-rss-perl

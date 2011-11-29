@@ -1,0 +1,13 @@
+Simple user sessions management
+	
+user::simple provides a very simple framework for validating users,
+managing their sessions and storing a minimal set of information (this
+is, a meaningful user login/password pair and the user's name) via a
+database. the sessions can be used as identifiers for i.e. cookies on
+a web system. the passwords are stored as md5 hashes (this means, the
+password is not stored in clear text).
+
+user::simple was originally developed with a postgresql database in
+mind, but should work with any dbi handle, be it from a real database
+(i.e. postgresql, firebird, mysql) or from a file-based one
+(dbd::csv, dbd::xbase, dbd::dbm, etc.)

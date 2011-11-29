@@ -1,0 +1,8 @@
+Header files for linux 2.6.32-5-vserver-686
+	
+this package provides the architecture-specific kernel header files for
+linux kernel 2.6.32-5-vserver-686, generally used for building out-of-tree
+kernel modules.  these files are going to be installed into
+/usr/src/linux-headers-2.6.32-5-vserver-686, and can be used for building
+modules that load into the kernel provided by the
+linux-image-2.6.32-5-vserver-686 package.

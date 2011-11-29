@@ -1,0 +1,7 @@
+Apt update manager core functionality
+	
+this package holds the core functionality for the apt update managers
+such as update-manager, the gnome update manager. update managers are
+applications that help you keep your system up-to-date by providing a
+nice interface in which you can see the list of updates and install
+them using apt.

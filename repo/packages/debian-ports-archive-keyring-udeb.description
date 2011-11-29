@@ -1,0 +1,5 @@
+Gnupg keys of the debian-ports archive
+	
+the debian-ports archive digitally signs its release files. this package
+contains the archive keys used for that, in a minimal form for use
+in the installer.

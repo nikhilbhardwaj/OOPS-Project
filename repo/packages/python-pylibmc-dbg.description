@@ -1,0 +1,8 @@
+Libmemcached wrapper (debug mode)
+	
+pylibmc is a python wrapper around the accompanying c python
+extension _pylibmc, which is a wrapper around libmemcached
+from tangentorg. it also manages pooling in a multi-threading
+environment.
+
+this package provides the debug mode.

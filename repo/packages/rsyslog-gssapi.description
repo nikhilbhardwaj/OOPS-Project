@@ -1,0 +1,5 @@
+Gssapi authentication and encryption support for rsyslog
+	
+these plugins allow rsyslog to write and/or receive gssapi authenticated and
+encrypted syslog messages. gssapi is commonly used for kerberos
+authentication.

@@ -1,0 +1,7 @@
+Ktorrent debugging symbols
+	
+this package contains debugging symbols for ktorrent. when ktorrent crashes,
+in most cases this package is needed to get a backtrace that is useful for
+developers. if you have experienced ktorrent crash without this package
+installed, please install it, try to reproduce the problem and file a bug
+report with a new backtrace attached.

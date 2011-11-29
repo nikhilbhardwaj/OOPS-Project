@@ -1,0 +1,6 @@
+Net::mac - perl extension for representing and manipulating mac addresses
+	
+this is a module that allows you to store a mac address
+in a perl object, find out information about a stored mac address and
+convert a mac address into a specified format and easily compare two
+mac addresses for string or numeric equality.

@@ -1,0 +1,12 @@
+Gnu awk, a pattern scanning and processing language
+	
+`awk', a program that you can use to select particular records in a
+file and perform operations upon them.
+
+gawk is the gnu project's implementation of the awk programming language.
+it conforms to the definition of the language in the posix 1003.2 command
+language and utilities standard. this version in turn is based on the
+description in the awk programming language, by aho, kernighan, and
+weinberger, with the additional features defined in the system v release
+4 version of unix awk. gawk also provides more recent bell labs awk
+extensions, and some gnu-specific extensions.

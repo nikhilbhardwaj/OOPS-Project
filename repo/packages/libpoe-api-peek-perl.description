@@ -1,0 +1,5 @@
+Module to peek into the internals of a running poe environment
+	
+poe::api::peek extends the poe::kernel interface to provide clean access to
+kernel internals in a cross-version compatible manner. other calculated data
+is also available.

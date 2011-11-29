@@ -1,0 +1,12 @@
+Clients provided with bind
+	
+the berkeley internet name domain (bind) implements an internet domain
+name server.  bind is the most widely-used name server software on the
+internet, and is supported by the internet software consortium, www.isc.org.
+this package delivers various client programs related to dns that are
+derived from the bind source tree.
+
+
+ - dig - query the dns in various ways
+ - nslookup - the older way to do it
+ - nsupdate - perform dynamic updates (see rfc2136)

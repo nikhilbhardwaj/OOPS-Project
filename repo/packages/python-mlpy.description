@@ -1,0 +1,17 @@
+High-performance python package for predictive modeling
+	
+mlpy provides high level procedures that support, with few lines of
+code, the design of rich data analysis protocols (daps) for
+preprocessing, clustering, predictive classification and feature
+selection. methods are available for feature weighting and ranking,
+data resampling, error evaluation and experiment landscaping.
+
+mlpy includes: svm (support vector machine), knn (k nearest
+neighbor), fda, srda, pda, dlda (fisher, spectral regression,
+penalized, diagonal linear discriminant analysis) for classification
+and feature weighting, i-relief, dwt and fssun for feature weighting,
+*rfe (recursive feature elimination) and rfs (recursive forward
+selection) for feature ranking, dwt, uwt, cwt (discrete, undecimated,
+continuous wavelet transform), knn imputing, dtw (dynamic time
+warping), hierarchical clustering, k-medoids, resampling methods,
+metric functions, canberra indicators.

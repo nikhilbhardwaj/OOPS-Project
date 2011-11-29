@@ -1,0 +1,13 @@
+Declarative mapper for sqlalchemy
+	
+a declarative layer on top of sqlalchemy. it is a fairly thin wrapper, which
+provides the ability to define model objects following the active record
+design pattern, and using a dsl syntax similar to that of the ruby on rails
+activerecord system.
+
+elixir does not intend to replace sqlalchemy's core features, but instead
+focuses on providing a simpler syntax for defining model objects when you do
+not need the full expressiveness of sqlalchemy's manual mapper definitions.
+
+elixir is intended to replace the activemapper sqlalchemy extension, and the
+turboentity project.

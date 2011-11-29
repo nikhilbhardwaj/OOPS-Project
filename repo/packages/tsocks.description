@@ -1,0 +1,7 @@
+Transparent network access through a socks 4 or 5 proxy
+	
+tsocks provides transparent network access through a socks version 4
+or 5 proxy (usually on a firewall). tsocks intercepts the calls
+applications make to establish tcp connections and transparently
+proxies them as necessary. this allows existing applications to use
+socks without recompilation or modification.

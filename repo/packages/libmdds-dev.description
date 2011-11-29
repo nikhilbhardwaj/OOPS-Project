@@ -1,0 +1,13 @@
+Multi dimension data structure library -- headers
+	
+a collection of multi-dimensional data structure and indexing algorithm.
+
+this is a c++ library, and is a collection of various data structures designed
+to efficiently store and query multi-dimensional data for various
+filtering criteria. different structures are optimized for different
+query needs.
+
+this library is a source-code only library. it’s designed to be
+header-only meaning that the user program does not need to link to any
+additional shared library in order to use these data structures. the
+data structures are all available as c++ templates.

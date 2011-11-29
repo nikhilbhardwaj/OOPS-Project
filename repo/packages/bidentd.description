@@ -1,0 +1,18 @@
+Bisqwit's identd for nat proxying
+	
+this daemon provides an identification protocol (rfc 1413) daemon.  it
+works like an ident daemon is supposed to work.  masquerading is
+supported, and works recursively.  works only under linux, due to the
+use of /proc filesystem.
+
+a typical case for using bisqwit's identd:
+
+  - alpha has the internet connection. it has an ip in internet.
+  - beta is masqueraded by alpha.
+  - gamma is masqueraded by beta.
+  - somebody in gamma starts irc, and the irc server (in internet)
+    gets the username of the user in gamma, correctly.
+
+all of these computers would be running bidentd (from inetd),
+although gamma could have any ident daemon, as it does not masquerade
+further.

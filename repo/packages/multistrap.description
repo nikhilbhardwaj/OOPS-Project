@@ -1,0 +1,20 @@
+Multiple repository bootstrap based on apt
+	
+a debootstrap replacement with multiple repository support,
+using apt to handle all dependency issues and conflicts.
+
+multistrap includes support for native and foreign architecture
+bootstrap environments. foreign bootstraps only need minimal
+configuration on the final device. also supports cleaning up the
+generated bootstrap filesystem to remove downloaded packages and
+hooks to modify the files in the bootstrap filesystem after the
+packages have been unpacked but before being configured.
+
+unlike debootstrap, multistrap relies on working versions of
+dpkg and apt outside the final filesystem.
+
+multistrap supercedes emdebian-rootfs and replaces the previous
+support for preparing root filesystems for specific machines and
+variants. multistrap includes the previous emdebian-rootfs support
+for customisation of package selection and of files created
+within the root filesystem.

@@ -1,0 +1,5 @@
+Interface to smbios using dmidecode
+	
+parse::dmidecode provides an oo interface to smbios information through the
+dmidecode command which is known to work under a number of linux, bsd and
+beos variants.

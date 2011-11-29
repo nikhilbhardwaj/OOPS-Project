@@ -1,0 +1,6 @@
+H.323 conferencing server
+	
+openh323 console interactive conferencing server that allows two
+or more people using a h.323 client to talk to each other in chat
+rooms. the server mixes the sound coming from all participants and
+splits the image so that up to 4 of them can be seen.

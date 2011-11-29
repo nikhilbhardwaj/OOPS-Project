@@ -1,0 +1,8 @@
+Web based ldap administration program
+	
+provided is access to posix, shadow, samba, proxy, fax, pureftp and
+kerberos accounts. it is able to manage the postfix/cyrus server
+combination and can write user adapted sieve scripts.
+
+gosa² is a combination of system-administrator and end-user web
+interface, designed to handle ldap based setups.

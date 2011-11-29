@@ -1,0 +1,11 @@
+Graphical cvs client
+	
+cervisia is a front-end for the cvs version control system client.
+
+in addition to basic and advanced cvs operations, it provides a convenient
+graphical interface for viewing, editing, and manipulating files in a cvs
+repository or working directory.  it includes tools designed to ease the use
+of cvs, such as a log browser, conflict resolver, and changelog editor that
+checks for incorrect formatting.
+
+this package is part of the kde software development kit module.

@@ -1,0 +1,4 @@
+Php pear module implementing smtp protocol
+	
+provides an implementation of the smtp protocol using
+pear's net_socket class.

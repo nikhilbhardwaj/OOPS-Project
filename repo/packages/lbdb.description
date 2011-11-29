@@ -1,0 +1,26 @@
+The little brother's database for the mutt mail reader
+	
+this package consists of a set of small tools, which collect mail
+addresses from several sources and offer these addresses to the mutt
+external query feature. at the moment the following modules are
+supported:
+
+ - m_finger (uses the finger(1) command)
+ - m_inmail (scans incoming mail for addresses)
+ - m_passwd (searches /etc/passwd)
+ - m_yppasswd (searches the yp password database)
+ - m_nispasswd (searches the nis password database)
+ - m_getent (searches the configured password database)
+ - m_pgp2, m_pgp5, m_gpg (searches your pgp or gnupg keyrings)
+ - m_fido (searches the fidonet nodelist)
+ - m_abook (uses the address book application abook(1))
+ - m_addr_email (uses addr-email from the addressbook tk program)
+ - m_muttalias (searches your mutt mail aliases)
+ - m_pine (searches your pine addressbook files)
+ - m_wanderlust (search the wanderlust alias database)
+ - m_palm (uses your palm database; needs libpalm-perl package)
+ - m_gnomecard (uses gnomecard database files)
+ - m_bbdb (search your bbdb (big brother database))
+ - m_ldap (query some ldap server)
+ - m_evolution (search in the evolution addressbook)
+ - m_vcf (search in vcard files using libvformat)

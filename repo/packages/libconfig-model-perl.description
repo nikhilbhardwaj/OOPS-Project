@@ -1,0 +1,16 @@
+Module for describing and editing configuration data
+	
+config::model is a perl framework that enables project developers to provide
+an interactive configuration system for their software. it supports various
+frontend interfaces (graphical, curses-based or plain terminal) to users. it
+handles configuration files semantically rather than syntactically, meaning
+that developers can specify the structure and constraints of the data along
+with a mechanism to read and write the files.
+
+using the structure and constraint information, config::model will generate
+interactive configuration editors that include help and data validation. it
+is equally simple to use graphical (via tk) interfaces as well as curses-
+and readline-based terminal interfaces.
+
+config::model also provides a facility to help configuration data upgrade
+that can be triggered during package upgrades.

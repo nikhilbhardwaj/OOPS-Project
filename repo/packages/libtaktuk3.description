@@ -1,0 +1,11 @@
+C bindings for taktuk
+	
+taktuk allows to execute commands in parallel on a potentially large set of
+remote nodes (using ssh to connect to each node). it is typically used inside
+high performance computing clusters and grids. it uses an adaptive algorithm
+to efficiently distribute the work and sets up an interconnection network to
+transport commands and perform i/os multiplexing. it doesn't require any
+specific software on the nodes thanks to a self-propagation algorithm.
+
+this package provides libtaktuk3, the c bindings for the taktuk communication
+layer.

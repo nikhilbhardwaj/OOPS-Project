@@ -1,0 +1,8 @@
+Manual pages for a gnu/kfreebsd system
+	
+this package contains a selection of manual pages from freebsd that are
+useful on a gnu/kfreebsd system:
+
+ 2 = system calls (functions provided by the kernel)
+ 4 = special files (usually found in /dev)
+ 9 = kernel routines

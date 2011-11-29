@@ -1,0 +1,9 @@
+Virtual filesystem to access archives, disk images, remote locations
+	
+this fuse-base vfs (virtual filesystem) enables all programs to look inside
+archived or compressed files, or access remote files without recompiling the
+programs or changing the kernel.
+
+at the moment it supports floppies, tar and gzip files, zip, bzip2, ar and rar
+files, ftp sessions, http, webdav, rsh/rcp, ssh/scp. quite a few other
+handlers are implemented with the midnight commander's external fs.

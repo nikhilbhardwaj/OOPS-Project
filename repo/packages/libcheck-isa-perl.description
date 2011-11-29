@@ -1,0 +1,6 @@
+Perl module for correct checking of an object's class
+	
+the check::isa module provides several functions to assist in testing
+whether a value is an object, and if so asking about its class.
+it allows an object to be examined using various methods provided by
+perl's universal class.

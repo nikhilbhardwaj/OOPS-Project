@@ -1,0 +1,11 @@
+Cdrkit extensions for the brasero burning application
+	
+brasero is a simple application to burn, copy and erase cd and dvd
+media.
+
+this package contains extensions for brasero, based on the genisoimage,
+wodim, readom and dvdauthor programs. they are only needed for the
+following operations in brasero:
+
+ * audio cd burning with cd-text information
+ * video dvd creation

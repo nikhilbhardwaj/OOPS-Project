@@ -1,0 +1,8 @@
+The vorbis general audio compression codec (debug files)
+	
+ogg vorbis is a fully open, non-proprietary, patent-and-royalty-free,
+general-purpose compressed audio format for audio and music at fixed
+and variable bitrates from 16 to 128 kbps/channel.
+
+this package contains debugging symbols useful for tracking bugs in
+applications with libvorbis.

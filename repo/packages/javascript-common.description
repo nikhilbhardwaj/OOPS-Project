@@ -1,0 +1,8 @@
+Base support for javascript library packages
+	
+web applications that use javascript need to distribute it through http. using
+a common path for every script avoids the need to enable this path in the http
+server for every package.
+
+this is a helper package that creates /usr/share/javascript and enables it in
+the apache webserver.

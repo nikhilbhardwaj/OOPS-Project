@@ -1,0 +1,13 @@
+Computer vision gui library
+	
+this package contains the opencv (open computer vision) gui library.
+
+the open computer vision library is a collection of algorithms and sample
+code for various computer vision problems. the library is compatible with
+ipl (intel's image processing library) and, if available, can use ipp
+(intel's integrated performance primitives) for better performance.
+
+opencv provides low level portable data types and operators, and a set
+of high level functionalities for video acquisition, image processing and
+analysis, structural analysis, motion analysis and object tracking, object
+recognition, camera calibration and 3d reconstruction.

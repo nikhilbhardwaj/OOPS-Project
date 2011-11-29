@@ -1,0 +1,5 @@
+Simple network management protocol bindings for ruby
+	
+this library implements snmp (the simple network management protocol).
+it is implemented in pure ruby, so there are no dependencies on
+external libraries like net-snmp.

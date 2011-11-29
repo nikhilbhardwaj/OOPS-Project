@@ -1,0 +1,9 @@
+Development files for libembryo0
+	
+embryo is primarily a shared library that gives you an api to load
+and control interpreted programs compiled into an abstract machine
+bytecode that it understands.  this abstract (or virtual) machine is
+similar to a real machine with a cpu, but it is emulated in
+software.
+
+this package contains headers and static libraries for embryo.

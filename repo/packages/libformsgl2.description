@@ -1,0 +1,10 @@
+The opengl xforms graphical interface widget library
+	
+this package contains the opengl bindings of the xforms shared library.
+
+xforms is a gui toolkit based on xlib for x window systems. it features a
+rich set of objects, such as buttons, scrollbars, and menus etc.
+integrated into an easy and efficient object/event callback execution
+model that allows fast and easy construction of x-applications. in
+addition, the library is extensible and new objects can easily be created
+and added to the library.

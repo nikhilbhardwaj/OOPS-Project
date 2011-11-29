@@ -1,0 +1,7 @@
+Library for handling page faults in a portable way
+	
+gnu libsigsegv is a library that allows handling page faults in a
+portable way. it is used e.g. for generational garbage collectors
+and stack overflow handlers.
+
+this package contains the shared library.

@@ -1,0 +1,16 @@
+Panorama tools utilities
+	
+this package contains the following tools, all part of the panorama tools
+library, and supposed to make it easy to work with panoramic images:
+
+ * panoinfo    - list details about the libpano13 library
+ * ptblender   - colour and brightness correction of panoramas
+ * ptcrop      - crop tiff images
+ * ptinfo      - display information about a panotools-generated image
+ * ptmasker    - compute stitching masks
+ * ptmender    - replacement for ptstitcher
+ * ptoptimizer - wrapper around control point optimization routines
+ * ptroller    - merge several images into a single one
+ * pttiff2psd  - convert a set of tiff files into a photoshop psd file
+ * pttiffdump  - compare two tiff images
+ * ptuncrop    - uncrop tiff images

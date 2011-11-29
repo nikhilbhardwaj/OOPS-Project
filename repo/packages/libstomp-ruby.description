@@ -1,0 +1,11 @@
+Ruby bindings for the stomp messaging protocol
+	
+stomp is a text-oriented wire protocol for messaging (mom/mq/jms)
+type systems. this library provides two useful interfaces, a low-
+level class, stomp::connection, which is a basic protocol
+implementation, and stomp::client, which is designed as a higher
+level convenience api.
+
+this package is a dependency package, which depends on the package
+containing actual ruby stomp libraries for the default ruby version
+(currently 1.8).

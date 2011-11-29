@@ -1,0 +1,9 @@
+Development files for the libibcm library
+	
+libibcm provides a userspace implementation of an infiniband
+communication manager (cm). the cm handles both connection
+establishment as well as service id resolution.
+
+this package is needed to compile programs against libibcm1.
+it contains the header files and static libraries (optionally)
+needed for compiling.

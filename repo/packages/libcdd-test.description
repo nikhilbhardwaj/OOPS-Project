@@ -1,0 +1,9 @@
+Test programs for libcdd-dev
+	
+the cddlib library is a c library for manipulating general convex
+polyhedra.  it supports converting between the system of linear
+inequalities representation and a vertices and extreme rays
+representation of a polyhedron, and also supports solving linear
+programming problems.
+
+this package contains test programs.

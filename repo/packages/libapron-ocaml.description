@@ -1,0 +1,11 @@
+Runtime libraries for apron (ocaml interface)
+	
+the apron library is dedicated to the static analysis of the numerical
+variables of a program by abstract interpretation. the aim of such an analysis
+is to infer invariants about these variables. it is intended to be a common
+interface to various underlying libraries/abstract domains and to provide
+additional services that can be implemented independently from the underlying
+library/abstract domain.
+
+this package include only the dynamic libraries needed for running dynamic
+bytecode executables.

@@ -1,0 +1,11 @@
+A common and simple interface for generating and verifying openpgp signatures
+	
+currently implemented using  bouncycastle, it is intended to allow
+pluggable providers so that alternate open source and commercial providers
+can be used.
+
+the library was started by maven and ant committers to enable the use of
+openpgp from these tools. currently, maven uses it in its development
+version to sign libraries released to the repository.
+
+this package contains the api documentation for libcommons-openpgp-java

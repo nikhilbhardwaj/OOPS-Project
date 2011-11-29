@@ -1,0 +1,27 @@
+Db-all.e c development library for weather research
+	
+db-all.e is a fast on-disk database where meteorological observed and
+forecast data can be stored, searched, retrieved and updated.
+
+the debian packaging of db-all.e includes all the features of the libraries,
+but any subset can be used without interference from other subsets.  it is
+also possible to rebuild the library to include only those features that are
+needed.
+
+features provided:
+
+
+ * unit conversion
+ * handling of physical variables
+ * encoding and decoding of bufr and crex reports from:
+    * fixed land and sea stations, like synops and buoys
+    * mobile stations: ships, airplanes
+    * soundings: temp, pilot
+    * metar reports
+    * satellite strides (decode only)
+ * decoding of aof reports
+ * interpretation of weather reports as physical data precisely located in
+   space and time, and encoding of physical data into weather reports.
+ * smart on-disk database for observed and forecast weather data based on
+   physical principles, built to support operations such as quality control,
+   data thinning, correlation of data from mixed sources

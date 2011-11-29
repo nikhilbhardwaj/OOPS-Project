@@ -1,0 +1,10 @@
+A utility to choose profiles in mutt
+	
+a profile in mutt is simply a specific subset of the configuration. you may
+have a personal and a work profile, each of which uses the same base
+configuration and then overrides specific configuration items like the email
+address.
+
+muttprofile gives an easy way to switch between such profiles from within
+a running instance of mutt. quite simple and quite beautiful, and implemented
+in perl.

@@ -1,0 +1,7 @@
+Keeps track via inotify the state paths and fires events when state changes
+	
+this is a simple ruby wrapper over the inotify linux kernel subsystem
+for monitoring changes to files and directories. it uses the ffi ruby
+library to avoid having to compile a c extension
+
+this package is built for ruby 1.9.1.

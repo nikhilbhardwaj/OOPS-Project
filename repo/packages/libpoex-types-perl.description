@@ -1,0 +1,5 @@
+Perl module to provide moosex::types for poe
+	
+poex::types exports the needed subtypes, and coercions for poex modules. it
+is based on sub::exporter (see libsub-exporter-perl), so see that module for
+options on importing.

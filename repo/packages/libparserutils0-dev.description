@@ -1,0 +1,13 @@
+A utility library for parser building - development files
+	
+libparserutils provides various pieces of functionality that are useful
+when writing parsers. these are:
+
++ a number of character set convertors
++ mapping of character set names to/from mib enum values
++ utf-8 and utf-16 (host endian) support functions
++ various simple data structures (resizable buffer, stack, vector)
++ a utf-8 input stream
+
+this package includes the headers and symlinks needed to build software
+against libparserutils.

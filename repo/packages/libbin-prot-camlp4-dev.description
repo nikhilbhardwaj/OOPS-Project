@@ -1,0 +1,12 @@
+Type-safe binary serialization for ocaml values
+	
+bin-prot provides functionalities for reading and writing ocaml-values
+in a type-safe binary protocol.
+
+these functions provide a safe way of performing i/o on any
+extensionally defined data type. functions, objects, and values whose
+type is bound through a polymorphic record field are not supported, but
+everything else is.
+
+there is no support for cyclic or shared values and only little endian
+computer architectures are supported.

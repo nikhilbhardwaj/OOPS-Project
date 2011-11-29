@@ -1,0 +1,6 @@
+Jack audio connection kit (server and example clients)
+	
+jack is a low-latency sound server, allowing multiple applications to
+connect to one audio device, and to share audio between themselves.
+
+this package contains the daemon jackd as well as some example clients.

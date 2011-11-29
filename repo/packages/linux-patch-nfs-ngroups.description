@@ -1,0 +1,9 @@
+Client-side bypassing of ngroups limitation in nfs protocol
+	
+this package contains a patch to the linux kernel, which allows to
+bypass a limitation in the nfs/rpc protocol, which limits the number
+of groups per users to 16 (whereas the linux kernel allows 32 groups
+per users by default).
+
+this is a linux nfs client patch. it works with every nfs server, by
+identifying the necessary groups to advertise to the server.

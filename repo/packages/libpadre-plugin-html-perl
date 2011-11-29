@@ -1,0 +1,4 @@
+PackageId:19100
+Name:libpadre-plugin-html-perl
+Version:0.09-2
+Deps:libhtml-lint-perl,libhtml-tidy-perl,libwebservice-validator-html-w3c-perl,libxml-xpath-perl,padre-plugin-api-0,padre,perl

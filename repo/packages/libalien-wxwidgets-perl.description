@@ -1,0 +1,6 @@
+Perl module for locating wxwidgets binaries
+	
+alien::wxwidgets is a simple perl module that detects configuration settings
+of an installed wxwidgets. it is useful to assist in the building of modules
+that require wxwidgets, providing indispensible compile-related information
+like relevant linker and compiler flags.

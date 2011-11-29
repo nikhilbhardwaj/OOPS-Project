@@ -1,0 +1,10 @@
+A high performance network sniffer for packet inspection
+	
+netsniff-ng is a high performance linux network sniffer
+for packet inspection. it can be used for protocol analysis
+and reverse engineering, network debugging, measurement of
+performance throughput or network statistics creation of
+incoming packets on central network nodes like routers
+or firewalls. it works similar to tcpdump, but a 'zero-copy'
+mechanism for network packets results in better performance
+than libpcap-based sniffers.

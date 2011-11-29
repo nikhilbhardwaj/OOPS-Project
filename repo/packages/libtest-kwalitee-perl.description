@@ -1,0 +1,12 @@
+Test the quality of your distribution, automatically!
+	
+kwalitee is an automatically-measurable gauge of how good your software is.
+that's very different from quality, which a computer really can't measure in
+a general sense. (if you can, you've solved a hard problem in computer
+science.)
+
+in the world of the cpan, the cpants project (cpan testing service; also a
+funny acronym on its own) measures kwalitee with several metrics. if you plan
+to release a distribution to the cpan -- or even within your own organization
+-- testing its kwalitee before creating a release can help you improve your
+quality as well.

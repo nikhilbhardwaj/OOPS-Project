@@ -1,0 +1,7 @@
+General purpose cryptographic library - debug symbols
+	
+general purpose cryptographic library for c++.
+
+this package contains the debug symbols for the shared library and
+should only be installed if you debugging a program that uses the
+shared library.

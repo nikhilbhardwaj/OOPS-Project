@@ -1,0 +1,15 @@
+Secure shell v2 (ssh2) protocol utilities
+	
+lsh is gnu gpl'd implementation of the secure shell protocol version
+2 (ssh2). the ssh (secure shell) protocol is a secure replacement for
+rlogin, rsh and rcp.
+
+this package contains the lsh utilities. this includes programs such
+as lsh-keygen, lsh-writekey (both programs for public/private key
+generation), lsh-authorize (for automatic remote key authentication),
+ssh-conv (utilities for converting between various public & private
+key formats), and a number of other utilities for use with both the
+lsh server and client.
+
+in some countries it may be illegal to use any encryption at all
+without a special permit.

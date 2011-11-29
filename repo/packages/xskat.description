@@ -1,0 +1,9 @@
+3-player card game "skat"
+	
+xskat lets you play the card game skat as defined by the official
+german "skatordnung".
+
+you can play by sending a window to the other player's x display, or
+via an irc server. the computer can also simulate players.
+
+many unofficial rules like "ramsch" or "bock" are supported.

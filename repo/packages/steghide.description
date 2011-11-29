@@ -1,0 +1,10 @@
+A steganography hiding tool
+	
+steghide is steganography program which hides bits of a data file
+in some of the least significant bits of another file in such a way
+that the existence of the data file is not visible and cannot be proven.
+
+steghide is designed to be portable and configurable and features hiding
+data in bmp, wav and au files, blowfish encryption, md5 hashing of
+passphrases to blowfish keys, and pseudo-random distribution of hidden bits
+in the container data.

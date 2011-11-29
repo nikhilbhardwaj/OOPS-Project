@@ -1,0 +1,4 @@
+Icmp echo tool
+	
+ping uses icmp to send out echo requests, and uses the reply packets to
+calculate latency between the sending and the destination hosts.

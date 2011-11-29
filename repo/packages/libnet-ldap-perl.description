@@ -1,0 +1,6 @@
+Client interface to ldap servers
+	
+net::ldap is a collection of perl modules that implement an interface to
+various ldap services. the module is capable of searching directories or
+performing maintenance functions such as adding, deleting or modifying
+entries.

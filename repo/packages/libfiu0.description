@@ -1,0 +1,8 @@
+Userspace fault injection framework
+	
+libfiu is a c library for fault injection. it provides functions to mark
+"points of failure" inside your code (the "core api"), and functions to
+enable/disable the failure of those points (the "control api").
+
+this package contains the libfiu shared library. to perform fault injection,
+you will require the "libfiu-dev" package.

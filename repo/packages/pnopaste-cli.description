@@ -1,0 +1,9 @@
+Pastebin with syntax highlighting (cli tool)
+	
+perl nopaste is a pastebin written in perl using mysql as backend.
+it features syntax highlighting for more than 120 languages, badword
+and ip address blacklists with hit counter, expiration date on postings,
+raw download of posted files, automatic multilanguage support and more.
+
+this package contains the cli tool to add pastes about the command-line
+interface on remote servers.

@@ -1,0 +1,7 @@
+Python modules useful for scientific computing
+	
+scientificpython is a collection of python modules that are
+useful for scientific computing. most modules are rather general,
+others belong to specific domains and will be of interest to only a
+small number of users (e.g. the module scientific.io.pdb). almost all
+modules make extensive use of numerical python (numpy)

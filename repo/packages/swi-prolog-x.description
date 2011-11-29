@@ -1,0 +1,21 @@
+User interface library for swi-prolog (with x support)
+	
+swi-prolog is a fast and powerful iso/edinburgh-style prolog compiler with a
+rich set of built-in predicates. it offers a fast, robust and small
+environment which enables substantial applications to be developed with it.
+
+swi-prolog additionally offers:
+
+
+ * a powerful module system
+ * garbage collection
+ * unicode character set handling
+ * unbounted integer and rational number arithmetic
+ * multithreading support
+ * a powerful c/c++ interface
+ * gnu readline interface
+
+
+xpce is an object-oriented symbolic programming environment for user
+interfaces. although xpce was designed to be language-independent, it has
+gained popularity most with prolog.

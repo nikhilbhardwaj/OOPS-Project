@@ -1,0 +1,8 @@
+Perl script for running latex the correct number of times
+	
+latexmk runs latex the correct number of times to resolve cross references,
+etc; it also runs auxiliary programs (bibtex, makeindex if necessary, and
+dvips and/or a previewer as requested). it has a number of other useful
+capabilities, for example to start a previewer and then run latex whenever the
+source files are updated, so that the previewer gives an up-to-date view of
+the document.

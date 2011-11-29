@@ -1,0 +1,20 @@
+Application to scan video files
+	
+themonospot is a simple application that can be used to scan an avi and
+matroska (.mkv) file and extract some informations about audio and video
+data flow:
+
+
+ - video codec used
+ - frame size
+ - average video bitrate
+ - file size
+ - total time
+ - frame rate
+ - total frames
+ - info data
+ - packet bitstream
+ - user data (in movi chunk)
+ - audio codec used
+ - average audio bitrate
+ - audio channelss

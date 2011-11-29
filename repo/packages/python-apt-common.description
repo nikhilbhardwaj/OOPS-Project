@@ -1,0 +1,7 @@
+Python interface to libapt-pkg (locales)
+	
+the apt_pkg python interface will provide full access to the internal
+libapt-pkg structures allowing python programs to easily perform a
+variety of functions.
+
+this package contains locales.

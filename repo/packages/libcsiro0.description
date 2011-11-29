@@ -1,0 +1,12 @@
+Scientific plotting library (csiro libraries)
+	
+this package contains two libraries developed by pavel sakov, from the
+csiro marine research, used in geometry applications:
+
+
+ * libcsirocsa: bivariate cubic spline approximation library
+ * libcsironn: natural neighbours interpolation library
+
+
+the source code for these libraries are part of the plplot source
+package.

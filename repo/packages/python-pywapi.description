@@ -1,0 +1,5 @@
+Python wrapper around different weather apis
+	
+the module provides a python wrapper around the yahoo! weather, google weather
+and national oceanic and atmospheric administration (noaa) apis. fetch weather
+reports using zip code, location id, city name, state, country etc.

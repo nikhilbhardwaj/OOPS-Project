@@ -1,0 +1,10 @@
+Simple, extensible, embeddable programming language
+	
+lua is a powerful, light-weight programming language designed for extending
+applications.  the language engine is accessible as a library, having a c
+api which allows the application to exchange data with lua programs and also
+to extend lua with c functions.  lua is also used as a general-purpose,
+stand-alone language through the simple command line interpreter provided.
+
+this package contains the official manual covering the lua language and c api,
+examples, etc.

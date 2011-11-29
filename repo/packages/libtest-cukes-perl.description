@@ -1,0 +1,9 @@
+Test framework inspired by cucumber
+	
+test::cukes is a perl test framework inspired by cucumber, which lets you
+write module tests with scenarios and is compatible with test::more and other
+tap-compliant modules. it uses test::builder's note function internally to
+print messages.
+
+for more information about how to define features and scenarios, please read
+the cucumber documentation from <url:http://cukes.info/>

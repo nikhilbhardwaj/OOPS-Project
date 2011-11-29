@@ -1,0 +1,5 @@
+Translate joystick movements into equivalent keystrokes
+	
+joy2key allows one to choose keyboard events for joystick axes and buttons,
+so that a joystick or gamepad can be used with an application that doesn't
+have native joystick support.

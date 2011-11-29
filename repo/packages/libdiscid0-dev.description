@@ -1,0 +1,10 @@
+Library for creating musicbrainz discids (development files)
+	
+libdiscid is a library for creating musicbrainz discids from audio cds.
+it reads a cd's table of contents (toc) and generates an identifier which
+can be used to lookup the cd at musicbrainz (http://musicbrainz.org).
+additionally, it provides a submission url for adding the discid to the
+database.
+
+this is the development package which contains headers and libraries for
+libdiscid.

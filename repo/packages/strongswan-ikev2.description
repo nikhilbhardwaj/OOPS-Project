@@ -1,0 +1,11 @@
+Strongswan internet key exchange (v2) daemon
+	
+strongswan is an ipsec-based vpn solution for the linux kernel. it uses the
+native ipsec stack and runs on any recent 2.6 kernel (no patching required).
+it supports both ikev1 and the newer ikev2 protocols.
+
+charon is an ipsec ikev2 daemon. it is
+written from scratch using a fully multi-threaded design and a modular
+architecture. various plugins provide additional functionality.
+
+this build of charon can run in parallel with pluto, the ikev1 daemon.

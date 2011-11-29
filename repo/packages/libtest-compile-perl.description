@@ -1,0 +1,6 @@
+Check whether perl module files compile correctly
+	
+test::compile is a perl module that lets you check whether a perl module or
+script compiles properly, and report its results in standard test::simple
+fashion. it can test all perl modules in a distribution, as well as single
+module or script files.

@@ -1,0 +1,7 @@
+Fluendo mp3 decoder gstreamer plugin
+	
+this gstreamer plugin permits decoding of mpeg 1 audio layer iii
+streams.  it is derived from the iso mpeg dist10 reference package.
+
+this plugin differs from the gstreamer mad plugin in that it doesn't
+depend on a gpl library.

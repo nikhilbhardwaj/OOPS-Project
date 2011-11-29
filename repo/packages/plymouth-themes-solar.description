@@ -1,0 +1,8 @@
+Graphical boot animation and logger (solar theme)
+	
+plymouth provides an attractive graphical boot animation in place of the text
+messages that normally get shown. text messages are instead redirected to a log
+file for viewing after boot.
+
+this package contains the solar theme. it features a blue flamed sun with
+animated solar flares.

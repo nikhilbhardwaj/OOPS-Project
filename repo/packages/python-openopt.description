@@ -1,0 +1,19 @@
+Python module for numerical optimization
+	
+numerical optimization framework developed in python which provides
+connections to lots of solvers with easy and unified openopt
+syntax. problems which can be tackled with openopt
+
+ * linear problem (lp)
+ * mixed-integer linear problem (milp)
+ * quadratic problem (qp)
+ * non-linear problem (nlp)
+ * non-smooth problem (nsp)
+ * non-linear solve problem (nlsp)
+ * least squares problem (lsp)
+ * linear least squares problem (llsp)
+ * mini-max problem (mmp)
+ * global problem (glp)
+
+
+a variety of solvers is available (e.g. ipopt, algencan).

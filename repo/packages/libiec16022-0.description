@@ -1,0 +1,8 @@
+Library to generate 2d iso/iec 16022 barcodes (data matrix/semacode)
+	
+the library generates a 2d datamatrix/semacode barcode from a
+parameter or from a file and produces output in various formats (png,
+eps, ascii-art).
+
+http://www.semapedia.org/ for example uses semacode tags to create
+real-world "links" to wikipedia articles.

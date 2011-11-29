@@ -1,0 +1,5 @@
+Standard fonts for x
+	
+xfonts-base provides a standard set of low-resolution bitmapped fonts.  in
+most cases it is desirable to have the x font server (xfs) and/or an x server
+installed to make the fonts available to x clients.

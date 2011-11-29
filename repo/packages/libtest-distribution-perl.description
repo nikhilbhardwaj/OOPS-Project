@@ -1,0 +1,15 @@
+Perform tests on all modules of a distribution
+	
+when using test::distribution in a test script, it goes through all the
+modules in your distribution, checks their pod, checks that they compile ok
+and checks that they all define a $version.
+
+this module also performs a numer of test on the distribution itself. it
+checks that your files match your signature file if you have one. it checks
+that your distribution isn't missing certain 'core' description files. it
+checks to see you havent' missed out listing any pre-requisites in makefile.pl
+
+it defines its own testing plan, so you usually don't use it in conjunction
+with other test::* modules in the same file. it's recommended that you just
+create a one-line test script as shown in the synopsis above. however, there
+are options.

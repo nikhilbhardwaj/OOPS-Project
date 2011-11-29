@@ -1,0 +1,11 @@
+Use sql to store/write your apache queries logs - base
+	
+mod_log_sql is a log module for apache 1.3 and 2 which logs all requests to a
+database.
+
+base package.
+
+if you want to use make_combined_log and mysql_import_combined_log scripts you
+will need installed perl package.
+
+created for apache 2. use libapache-mod-log-sql for apache 1.3.

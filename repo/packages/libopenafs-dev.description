@@ -1,0 +1,8 @@
+Afs distributed filesystem development libraries
+	
+afs is a distributed filesystem allowing cross-platform sharing of
+files among multiple computers.  facilities are provided for access
+control, authentication, backup and administrative management.
+
+this package provides static development libraries and headers
+needed to compile afs applications.

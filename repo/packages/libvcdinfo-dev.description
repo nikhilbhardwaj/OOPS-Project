@@ -1,0 +1,11 @@
+Library to extract information from videocd (development files)
+	
+this package contains development files (headers and static library)
+for the libvcdino library.
+
+this library can be used to extract information stored on a
+videocd. one use is in media players, such as xine and vlc (where in
+fact it is currently used). here libvcdinfo assists in videocd
+navigation, playback control and showing what is contained on a
+videocd. some standalone programs for this library are vcd-info and
+vcdxrip (part of the vcdimager distribution).

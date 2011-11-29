@@ -1,0 +1,12 @@
+Daemon for x.509 path discovery and validation
+	
+pathfinder is designed to provide a mechanism for any program to perform
+rfc3280-compliant path validation of x.509 certificates, even when some of
+the intermediate certificates are not present on the local machine. it will
+automatically download any such certificates (and their crls) from the
+internet as needed using the aia and crl distribution point extensions of the
+certificate it is processing.
+
+this package has the uniconf enabled dbus daemon for pathfinder which has
+been designed for central management and configuration of pki trust anchors
+and configuration information.

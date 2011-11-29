@@ -1,0 +1,13 @@
+Original lempel-ziv compress/uncompress programs
+	
+this package provides the original compress and uncompress programs that used
+to be the de facto unix standard for compressing and uncompressing files.
+these programs implement a fast, simple lempel-ziv (lzw) file compression
+algorithm.
+
+for debian, the standard uncompress program is installed as uncompress.real,
+to avoid conflicting with other packages.
+
+this package also contains a copyright notice and a brief discussion of the
+lzw patent history (written by one of the original authors) in the file
+/usr/share/doc/ncompress/readme.debian.

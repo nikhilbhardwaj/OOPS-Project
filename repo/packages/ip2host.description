@@ -1,0 +1,11 @@
+Resolve ips to hostnames in web server logs
+	
+this script is a drop-in replacement for the logresolve.pl
+script distributed with the apache web server.
+
+ip2host has the same basic design of forking children to handle
+the dns resolution in parallel, but multiplexes the communication
+to minimize the impact of slow responses.  this results in a
+significant speed improvement (approximately 10x faster), and
+the performance degrades more gracefully as the dns timeout value
+is increased.

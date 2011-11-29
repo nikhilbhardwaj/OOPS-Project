@@ -1,0 +1,16 @@
+3d rendering solution adhering to the renderman(r) standard, binaries
+	
+aqsis is a high quality, photorealistic, 3d rendering solution. it complies
+with the renderman(r) interface standard defined by pixar.
+
+the renderman(r) standard has been used in film and television visual effects
+since it's introduction in 1989. pixar has used their own implementation for
+all of their award winning cg features, and provided their implementation for
+use in the visual effects of most major blockbuster films over the last 2
+decades. the aqsis project offers a way for individuals and organisations alike
+to gain experience with the renderman(r) interface without the cost of
+commercial software licenses.
+
+this package contains the aqsis binaries (command line rendering tool, a tool
+for compiling shaders in the rsl language and a tool for preparing textures for
+optimal use).

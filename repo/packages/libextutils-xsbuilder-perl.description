@@ -1,0 +1,11 @@
+Automatic xs glue code generation
+	
+extutils::xsbuilder is a set of modules to parse c header files and
+create xs glue code and documentation from it.
+
+ideally this allows you to "write" an interface to a c library
+without coding a line.  although this module automates much of the
+process, you must still be familiar with c and xs programming since no
+c api is ideal and usually some adjuments are necessary.  when the c
+api changes, most of the time you only have to rerun xsbuilder to get
+your new perl api.

@@ -1,0 +1,10 @@
+Lists available package versions with distribution
+	
+apt-show-versions parses the dpkg status file and the apt lists for
+the installed and available package versions and distribution and
+shows upgrade options within the specific distribution of the selected
+package.
+
+this is really useful if you have a mixed stable/testing environment
+and want to list all packages which are from testing and can be
+upgraded in testing.

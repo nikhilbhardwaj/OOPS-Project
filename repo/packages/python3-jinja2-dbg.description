@@ -1,0 +1,7 @@
+Small but fast and easy to use stand-alone template engine
+	
+jinja2 is a template engine written in pure python. it provides a django
+inspired non-xml syntax but supports inline expressions and an optional
+sandboxed environment.
+
+this package contains the extension built for the python debug interpreter.

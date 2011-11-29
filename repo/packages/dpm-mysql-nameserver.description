@@ -1,0 +1,7 @@
+Dpm nameserver server with mysql database backend
+	
+the lcg disk pool manager (dpm) creates a storage element from a set
+of disks. it provides several interfaces for storing and retrieving
+data such as rfio and srm version 1, version 2 and version 2.2.
+this package provides a dpm nameserver that uses mysql as its
+database backend.

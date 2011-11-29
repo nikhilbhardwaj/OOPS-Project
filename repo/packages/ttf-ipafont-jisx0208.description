@@ -1,0 +1,18 @@
+Japanese truetype font, ipafont (jisx0208)
+	
+ipafont is japanese truetype font set that provided by information-technology
+promotion agency, japan (ipa does not mean international phonetic alphabet).
+
+it consists of
+
+ * ipa gothic
+ * ipa p gochic
+ * ipa ui gothic
+ * ipa mincho
+ * ipa p mincho
+
+
+it based on jisx0208 specifications. ttf-ipafont package is based on new
+jisx0214, has different glyphs on some same characters. so this package
+contains glyphs that have compatibility with old specifications, such as ms
+gothic or mincho fonts or so. that is important thing for business documents.

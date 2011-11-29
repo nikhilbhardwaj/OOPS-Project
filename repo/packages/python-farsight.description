@@ -1,0 +1,9 @@
+Audio/video communications framework: python bindings
+	
+the farsight project is an effort to create a framework to deal with all
+known audio/video conferencing protocols. on one side it offers a generic
+api that makes it possible to write plugins for different streaming
+protocols, on the other side it offers an api for clients to use those
+plugins.
+
+this package provides python bindings for farsight 2.

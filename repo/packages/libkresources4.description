@@ -1,0 +1,7 @@
+The kde resource framework library
+	
+this library provides a framework for managing resources of different types,
+organized in families. the resource framework is for example used for
+addressbook resources in libkabc and for calendar resources in libkcal.
+
+this package is part of the kde development platform pim libraries module.

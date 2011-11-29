@@ -1,0 +1,6 @@
+The adodb database abstraction layer for php
+	
+a library for php, to allow for a universal way to access databases.
+adodb stands for active data objects data base. currently supported
+databases are mysql, postgresql, interbase, oracle, ms sql 7, foxpro,
+access, ado, sybase, db2 and generic odbc.

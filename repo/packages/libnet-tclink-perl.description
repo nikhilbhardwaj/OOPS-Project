@@ -1,0 +1,7 @@
+Perl interface to the trustcommerce payment gateway
+	
+net::tclink is a module that allows for fast, secure, reliable credit
+card and check transactions via the trustcommerce ip gateway. the
+module consists of a single function call that accepts a hash that
+describes the requested transaction and returns a map that describes the
+result.

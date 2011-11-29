@@ -1,0 +1,5 @@
+Interface to support mp3 (mpeg 1/2/2.5 layer 1/2/3) audio format
+	
+mp3spi is a java service provider interface that adds mp3 (mpeg
+1/2/2.5 layer 1/2/3) audio format support for java platform. it
+supports streaming, id3v2 frames and equalizer.

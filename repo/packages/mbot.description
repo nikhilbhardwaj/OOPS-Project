@@ -1,0 +1,8 @@
+A multi purpose mail robot
+	
+it is intended to be a general purpose mail robot, and it is written in
+python. at first, we want it to provide simple internet access via mail,
+for people having only mail and wanting to get updated online docs !
+it can do some google searches for you, download pages on the web, and
+even add some news in a database.
+adding new handlers is easy.

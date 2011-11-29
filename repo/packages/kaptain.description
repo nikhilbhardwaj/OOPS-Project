@@ -1,0 +1,6 @@
+Universal graphical front-end for command line programs
+	
+kaptain is a universal graphical front-end (qt) based on context-free
+grammars. the program reads a file containing grammatical rules for
+generating text. it builds a dialog from the grammar and generates
+the text according to the user's settings.

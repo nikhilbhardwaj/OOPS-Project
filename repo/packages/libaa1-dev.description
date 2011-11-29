@@ -1,0 +1,8 @@
+Ascii art library, development kit
+	
+aalib is a portable ascii art graphics library. internally, it works like
+a graphics display, but the output is rendered into platform-independent
+ascii graphics.
+
+this package contains the static library and header files used in
+development, plus developer's documentation.

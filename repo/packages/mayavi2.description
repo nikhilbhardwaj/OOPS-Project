@@ -1,0 +1,23 @@
+A scientific visualization package for 2-d and 3-d data
+	
+mayavi2 is a cross-platform tool for 2-d and 3-d scientific data
+visualization.  its features include:
+
+  * visualization of scalar, vector and tensor data in 2 and 3 dimensions
+  * easy scriptability using python
+  * easy extendability via custom sources, modules, and data filters
+  * reading several file formats: vtk (legacy and xml), plot3d, etc.
+  * saving of visualizations
+  * saving rendered visualization in a variety of image formats.
+
+
+mayavi2 has been designed with scriptability and extensibility in
+mind.  while the mayavi2 application is usable by itself, it may be
+used as an envisage plugin which allows it to be embedded in user
+applications natively.  alternatively, it may be used as a
+visualization engine for any application.
+
+this package also provides tvtk, which wraps vtk objects to provide a
+convenient, pythonic api, while supporting traits attributes and
+numpy/scipy arrays. tvtk is implemented mostly in pure python, except
+for a small extension module.

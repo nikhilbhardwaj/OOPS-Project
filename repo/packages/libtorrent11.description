@@ -1,0 +1,5 @@
+A c++ bittorrent library by rakshasa
+	
+libtorrent is a bittorrent library written in c++ for *nix. it is
+designed to avoid redundant copying and storing of data that other
+clients and libraries suffer from.

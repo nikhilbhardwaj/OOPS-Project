@@ -1,0 +1,8 @@
+Abstractions and java implementations for rendering pdf
+	
+to built a flexible pdf rendering one first needed some basics
+functionality to deal with fonts, images and general platform
+abstractions. the result is iscwt. it contains all abstraction and
+implementations needed for rendering pdf that are not related to pdf
+itself.  this library is built and used primarily for jpod renderer,
+so one is likely to miss some features when using it in another context.

@@ -1,0 +1,8 @@
+Html to postscript converter (tcl/tk gui frontend)
+	
+this program converts html directly to postscript. the html code can be
+retrieved from one or more urls or local files, specified as parameters on the
+command line. a comprehensive level of html is supported, including inline
+images, css 1.0, and some features of html 4.0.
+
+this package provides an (outdated) gui frontend to the html2ps converter.

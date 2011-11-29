@@ -1,0 +1,8 @@
+Modular audio processing and synthesis system
+	
+galan is a sophisticated audio-processing tool (both on-line and
+off-line). it allows one to build synthesisers, effects chains, mixers,
+sequencers, drum-machines, and much more, in a modular fashion. it
+includes basic functionality for all these tasks, and also includes
+support for ladspa-compliant plugins, which greatly expand its
+capabilities.

@@ -1,0 +1,11 @@
+A program that can automate interactive applications (tk hooks)
+	
+expect is a tool for automating interactive applications according to a script.
+following the script, expect knows what can be expected from a program and what
+the correct response should be. expect is also useful for testing these same
+applications. and by adding tk, you can also wrap interactive applications in
+x11 guis. an interpreted language provides branching and high-level control
+structures to direct the dialogue. in addition, the user can take control and
+interact directly when desired, afterward returning control to the script.
+
+this package contains the tk hooks.

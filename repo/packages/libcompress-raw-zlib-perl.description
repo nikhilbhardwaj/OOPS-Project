@@ -1,0 +1,6 @@
+Low-level interface to zlib compression library
+	
+compress::raw::zlib is a perl module that provides low-level interface to the
+zlib compression library. it provides the core compression and decompression
+functionality useful for supporting other higher-level modules. other modules
+provide support for file and stream compression.

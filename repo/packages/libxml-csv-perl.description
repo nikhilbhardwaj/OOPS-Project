@@ -1,0 +1,7 @@
+Perl module for transforming csv documents into xml
+	
+this module provides functions to easily transform csv documents into
+xml.  the module uses text::csv_xs to parse csv files and put into
+perl data structure.  the perl data structure is then written into
+xml data structure. xml::csv allows to create your own text::csv_xs
+object with defaults that fit your needs or just use defaults.

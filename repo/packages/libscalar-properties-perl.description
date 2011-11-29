@@ -1,0 +1,20 @@
+Perl module to add run-time properties on scalar variables
+	
+scalar::properties attempts to make perl more object-oriented by
+taking an idea from ruby: everything you manipulate is an object,
+and the results of those manipulations are objects themselves.
+
+'hello world'->length
+(-1234)->abs
+"oh my god, it's full of properties"->index('g')
+
+the first example asks a string to calculate its length. the second
+example asks a number to calculate its absolute value. and the
+third example asks a string to find the index of the letter 'g'.
+
+using this module you can have run-time properties on initialized
+scalar variables and literal values. the word 'properties' is used
+in the perl 6 sense: out-of-band data, little sticky notes that
+are attached to the value. while attributes (as in perl 5's attribute
+pragma, and see the attribute::* family of modules) are handled
+at compile-time, properties are handled at run-time.

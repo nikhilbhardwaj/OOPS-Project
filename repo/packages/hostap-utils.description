@@ -1,0 +1,10 @@
+Utility programs for host ap driver for intersil prism2/2.5/3
+	
+this is a linux driver for wireless lan cards based on intersil's prism2/2.5/3
+chipset. the driver supports a so called host ap mode, i.e., it takes care
+of ieee 802.11 management functions in the host computer and acts as an
+access point. this does not require any special firmware for the wireless
+lan card. in addition to this, it has support for normal station operations
+in bss and possible also in ibss.
+
+this packages contains binary utilities for use with hostap.

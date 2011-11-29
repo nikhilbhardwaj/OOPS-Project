@@ -1,0 +1,14 @@
+Standard dictionary file for skk
+	
+this package provides `skk-jisyo', the standard dictionary file for skk
+japanese input systems.  currently, this package contains the large size
+dictionary file `skk-jisyo.l' as the standard dictionary file.
+
+for faster access, install the skkdic-cdb package which provides the
+constant database (cdb) file of this dictionary.  other dictionary files,
+such as zipcode, personal names, small size, are provided by the
+skkdic-extra package.
+
+to merge or edit dictionaries, install the skktools package.  to use
+dictionaries more conveniently, several skk dictionary servers are
+available, such as dbskkd-cdb and skksearch.

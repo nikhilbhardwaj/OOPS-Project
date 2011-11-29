@@ -1,0 +1,15 @@
+Firebird client library
+	
+firebird is a relational database offering many ansi sql-99 features that
+runs on linux, windows, and a variety of unix platforms. firebird offers
+excellent concurrency, high performance, and powerful language support
+for stored procedures and triggers. it has been used on production systems
+under a variety of names since 1981.
+
+this package contains the client library required to connect to firebird. it
+works with either "super-server" or "classic" variants, as well as with
+commercial interbase servers.
+
+it uses tcp to connect to the server and is tread-safe.
+
+for direct (non-tcp) database access, see libfbembed2.1.

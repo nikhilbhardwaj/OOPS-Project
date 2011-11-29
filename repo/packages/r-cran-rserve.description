@@ -1,0 +1,12 @@
+Gnu r rserve tcp/ip server and sample clients
+	
+this package provide rserve, a headless server for gnu r.  rserve
+acts as a socket server (tcp/ip or local sockets) which allows binary
+requests to be sent to r. every connection has a separate workspace
+and working directory. client-side implementations are available for
+popular languages such as c/c++ and java, allowing any application to
+use facilities of r without the need of linking to r code. rserve
+supports remote connection, user authentication and file transfer. a
+simple r client is included in this package as well.
+
+url: http://www.rosuda.org/rserve/

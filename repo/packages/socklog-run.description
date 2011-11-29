@@ -1,0 +1,15 @@
+System and kernel logging services
+	
+socklog cooperates with the runit package to create a small and secure
+replacement for syslogd.  socklog supports system logging through unix
+domain sockets (/dev/log), udp sockets (0.0.0.0:514), as well as tcp
+socket, with the help of runit's runsvdir, runsv, and svlogd.  socklog
+provides a different network logging concept, and also does log event
+notification.  svlogd has built in log file rotation based on file size,
+so there is no need for any cron jobs to rotate the logs.  socklog is
+small, secure, and reliable.
+
+see http://smarden.org/socklog/ for more information.
+
+this package sets up the socklog-unix and socklog-klog services to
+provide a system log service and kernel log service respectively.

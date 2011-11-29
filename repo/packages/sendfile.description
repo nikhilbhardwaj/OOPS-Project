@@ -1,0 +1,15 @@
+Simple asynchronous file transfer
+	
+sendfile is an asynchronous file transfer service for the internet,
+like the sendfile facility in bitnet: any user a can send files to
+another user b without b being active in any way.
+
+the existing standard file transfer (ftp) is a synchronous service:
+the user must have access to an account on the sending and on the
+receiving site, too.
+
+sendfile for unix, which is an implementation of the saft protocol
+(simple asynchronous file transfer) now offers you a true
+asynchronous file transfer service for the internet.  virtually any
+form of file can be sent, including encrypted ones.  the saft
+protocol will be submitted as an rfc in the near future.

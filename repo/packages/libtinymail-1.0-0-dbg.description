@@ -1,0 +1,11 @@
+Framework for mobile applications with e-mail -- debug symbols
+	
+tinymail is a library for developing mobile applications with e-mail
+functionality. the framework provides components that aid the developer
+with the user interface and, of course also with the connectivity and the
+caching of messages.
+
+it supports local mail storage (maildir, mh, spool & mbox), imap, pop and
+nntp. it can also be used to send messages over smtp and by using sendmail.
+
+this package contains the debugging symbils for all the shared libraries.

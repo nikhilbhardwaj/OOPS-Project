@@ -1,0 +1,13 @@
+Grid-entry handwriting input panel
+	
+cellwriter is a grid-entry natural handwriting input panel.
+as you write characters into the cells, your writing is instantly
+recognized at the character level. when you press 'enter' on the panel,
+the input you entered is sent to the currently focused application as if
+typed on the keyboard.
+
+
+  * writer-dependent, learns your handwriting for reliable recognition
+  * correcting preprocessor algorithms account for digitizer noise,
+    differing stroke order, direction, and number of strokes
+  * unicode support enables you to write in your native language

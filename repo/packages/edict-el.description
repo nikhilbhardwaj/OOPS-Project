@@ -1,0 +1,9 @@
+An emacs interface to edict
+	
+this package provides edict.el and associated files, thus allowing
+to query the edict japanese-english dictionary from within emacs.
+
+using the region and couple of keystrokes, edict.el will look up the
+japanese key and return all the edict entries containing that key, in
+a pop-up buffer.  english is even easier, you just put point anywhere
+in the word you want to look up.

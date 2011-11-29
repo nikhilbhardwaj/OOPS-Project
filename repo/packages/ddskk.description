@@ -1,0 +1,19 @@
+Efficient japanese input system for emacsen
+	
+daredevil skk (ddskk) is a fast and efficient japanese input system
+written in emacs lisp.
+
+ddskk is an expand version of skk (simple kana to kanji conversion
+program, originated by masahiko sato).  the way of kana to kanji
+conversion is characteristic of skk.  to learn the usage of ddskk,
+the tutorial program `skk-tutorial' is available.
+
+by default, ddskk tries to connect an skkserv compatible dictionary
+server such as dbskkd-cdb or skksearch on localhost.  if the server is
+not active, the standard dictionary file `skk-jisyo' provided by the
+skkdic package is used.
+
+to make a local dictionary from the skkdic package and the skkdic-extra
+package, use the update-skkdic command of the skktools package.  to use
+optional features, install required packages such as lookup-el, kakasi,
+and so on.

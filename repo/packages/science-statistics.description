@@ -1,0 +1,8 @@
+Debian science statistics packages
+	
+this metapackage is part of the debian pure blend "debian science"
+and installs packages related to statistics.  this task is a general
+task which might be useful for any scientific work.  it depends from
+a lot of r packages as well as from other tools which are useful to
+do statistics.  moreover the science mathematics task is suggested
+to optionally install all mathematics related software.

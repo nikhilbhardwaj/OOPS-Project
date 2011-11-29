@@ -1,0 +1,8 @@
+Commandline player based on libupse
+	
+upse is an advanced playstation sound emulator which
+concentrates on sound correctness. it plays psf and
+minipsf format files.
+
+this package contains a commandline player based on
+the upse emulation library.

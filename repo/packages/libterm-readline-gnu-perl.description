@@ -1,0 +1,10 @@
+Perl extension for the gnu readline/history library
+	
+term::readline::gnu is a perl interface to the gnu readline library, allowing
+developers to provide features including input line editing, input history
+management, word completion and more.
+
+through this module, you have access to almost all variables and functions as
+documented in the gnu readline/history library. this means you can write your
+custom editing function, custom completion function, and so on, with perl.
+you may find it useful for prototyping before programming with c.

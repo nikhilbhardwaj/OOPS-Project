@@ -1,0 +1,11 @@
+Mit kerberos runtime libraries - administration clients
+	
+kerberos is a system for authenticating users and services on a network.
+kerberos is a trusted third-party service.  that means that there is a
+third party (the kerberos server) that is trusted by all the entities on
+the network (users and services, usually called "principals").
+
+this is the mit reference implementation of kerberos v5.
+
+this package contains the runtime library used by clients of the kerberos
+administration protocol.

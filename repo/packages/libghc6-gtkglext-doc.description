@@ -1,0 +1,8 @@
+Binding to the gtk+ opengl extension; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+gtkglext provides the gdk objects to support opengl rendering in gtk+, and
+gtkwidget api add-ons to make gtk+ widgets opengl-capable.

@@ -1,0 +1,4 @@
+PackageId:25758
+Name:nvidia-glx-legacy-96xx-ia32
+Version:96.43.18-2
+Deps:libc6-i386,libgl1-nvidia-legacy-96xx-glx-ia32,nvidia-kernel-96.43.18,nvidia-kernel-legacy-96xx-dkms

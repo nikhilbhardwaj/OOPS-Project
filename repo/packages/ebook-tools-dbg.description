@@ -1,0 +1,9 @@
+Library and tools to work with the epub file format
+	
+the ebook-tools provide ways for accessing and converting different
+ebook file formats.
+
+this c library is free and portable. it includes methods to parse
+epub files and extract their contents.
+
+this package includes the debug symbols for the library.

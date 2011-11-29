@@ -1,0 +1,7 @@
+Ocaml bindings for the ncurses library
+	
+the ncurses library provides functions to create rich text-mode
+interfaces. this package contains the necessary files to use the ncurses
+library in ocaml.
+
+this package contains only the shared runtime stub libraries.

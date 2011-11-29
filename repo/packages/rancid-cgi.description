@@ -1,0 +1,10 @@
+Looking glass cgi for rancid
+	
+this is a popular isp toolkit, based on expect and shell scripts,
+for managing router configurations.
+rancid monitors a router's (or device's) configuration, including
+software and hardware (cards, serial numbers, etc), using cvs.
+rancid currently supports cisco routers, juniper routers, catalyst
+switches, foundry switches, redback nass, and adc ezt3 muxes.
+this is the cgi package, a modified version of lg (looking glass)
+provided from rancid team to check rancid through web interface too.

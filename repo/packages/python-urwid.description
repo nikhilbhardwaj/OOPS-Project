@@ -1,0 +1,18 @@
+Curses-based ui/widget library for python
+	
+urwid is a console user interface library that includes many features
+useful for text console application developers including:
+
+
+ * fluid interface resizing (xterm window resizing/fbset on linux console)
+ * web application display mode using apache and cgi
+ * support for utf-8, simple 8-bit and cjk encodings
+ * multiple text alignment and wrapping modes built-in
+ * ability to create user-defined text layout classes
+ * simple markup for setting text attributes
+ * powerful list box that handles scrolling between different widget types
+ * list box contents may be managed with a user-defined class
+ * flexible edit box for editing many different types of text
+ * buttons, check boxes and radio boxes
+ * customizable layout for all widgets
+ * easy interface for creating html screen shots

@@ -1,0 +1,9 @@
+Shell program to display visual disk usage with navigation
+	
+years have passed and disks have become larger and larger, but even on
+this incredibly huge harddisk era, the space seems to disappear over
+time. this small and effective programs provides more convenient
+listing than the default du(1). it displays what has happened since
+last run and displays dir size and the total percentage. it is
+possible to navigate and ascend to directories by using cursor-keys
+with text based browser (links, elinks, lynx etc.)

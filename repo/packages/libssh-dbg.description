@@ -1,0 +1,9 @@
+A tiny c ssh library. debug symbols
+	
+the ssh library was designed to be used by programmers needing a working ssh
+implementation by the mean of a library. the complete control of the client
+is made by the programmer. with libssh, you can remotely execute programs,
+transfer files, use a secure and transparent tunnel for your remote programs.
+with its sftp implementation, you can play with remote files easily.
+
+this package contains debug symbols.

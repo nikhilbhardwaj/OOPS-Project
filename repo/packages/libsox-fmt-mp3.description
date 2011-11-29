@@ -1,0 +1,8 @@
+Sox mp3 format library
+	
+sox is the swiss army knife of sound processing.
+
+this package contains the sox mp3 format library.
+read support by libmad. write support not available yet.
+
+libmad: http://www.underbit.com/products/mad/

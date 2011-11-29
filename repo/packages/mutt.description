@@ -1,0 +1,18 @@
+Text-based mailreader supporting mime, gpg, pgp and threading
+	
+mutt is a sophisticated text-based mail user agent. some highlights:
+
+
+ * mime support (including rfc1522 encoding/decoding of 8-bit message
+   headers and utf-8 support).
+ * pgp/mime support (rfc 2015).
+ * advanced imap client supporting ssl encryption and sasl authentication.
+ * pop3 support.
+ * esmtp support.
+ * message threading (both strict and non-strict).
+ * keybindings are configurable, default keybindings are much like elm;
+   mush and pine-like ones are provided as examples.
+ * handles mmdf, mh and maildir in addition to regular mbox format.
+ * messages may be (indefinitely) postponed.
+ * colour support.
+ * highly configurable through easy but powerful rc file.

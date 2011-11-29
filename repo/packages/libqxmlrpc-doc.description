@@ -1,0 +1,7 @@
+Full qt4 based implementation of xml-rpc protocol. (headers)
+	
+it provides an easy way to construct, send and receive xml-rpc messages on the
+client side, and process xml-rpc messages on the server side.
+qxml-rpc licensed under lgpl.
+
+this package contains documentation for the library libqxmlrpc.

@@ -1,0 +1,10 @@
+Java bytecode manipulation library
+	
+the library presents itself as a collection of routines to manipulate java
+bytecode. it allows for the dynamic creation of java class files without
+using of javac. such tailored code can be used, i.e. as for the upstream's
+motivation of the biojava developers, to generate implementations of
+hidden markov models. it thus acts much like inline assembly for java.
+
+
+ http://www.biojava.org

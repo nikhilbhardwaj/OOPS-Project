@@ -1,0 +1,4 @@
+PackageId:6001
+Name:gnupg2
+Version:2.0.14-2
+Deps:dpkg,install-info,gnupg-agent,libbz2-1.0,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcurl3-gnutls,libgcc1,libgcrypt11,libgpg-error0,libksba8,libreadline6,zlib1g

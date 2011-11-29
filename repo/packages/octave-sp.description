@@ -1,0 +1,5 @@
+Semidefinite programming functions for gnu octave
+	
+the octave-sp package provides functions for semidefinite programming. it
+can be used to solve nonlinear, convex optimization problems. for an
+overview of the functionality, use 'demosp' from within octave.

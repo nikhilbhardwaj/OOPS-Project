@@ -1,0 +1,14 @@
+Gnu shockwave flash (swf) player - common files/libraries
+	
+gnu gnash is a free gpl'd swf player. it runs as a standalone application
+on either the desktop or embedded devices, or may be used as a plugin
+for several popular browsers. it supports playing media from a disk or
+streaming over a network connection.
+
+gnu gnash is based on gameswf and supports most swf v7 features and some
+swf v8 and v9. swf v10 is not supported by gnu gnash.
+
+included in the gnash is an xml based messaging system, as specified in
+the swf specification. this lets a swf animation communicate over a tcp/ip
+socket, and parse the incoming xml message. this lets an animation be a remote
+control for other devices or applications.

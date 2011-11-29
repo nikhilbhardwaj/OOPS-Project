@@ -1,0 +1,8 @@
+Convert pgn chess game files into webpages
+	
+conversion tool to generate webpages from chess "portable game notation"
+pgn files. the webpages allow the replaying of chess games within a web
+browser. it has a commandline client and a gtk graphical user interface
+for convenience. the html output is highly customisable, it is using
+javascript and the webpages are standards compliant and working with
+all major browsers.

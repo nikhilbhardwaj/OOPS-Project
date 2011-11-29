@@ -1,0 +1,7 @@
+Python interface to the ogg vorbis library (debug extension)
+	
+this module makes the libvorbis (ogg vorbis) functions available
+in python. with this module you can write python applications
+that use the ogg vorbis library.
+
+this package contains the extension built for the python debug interpreter.

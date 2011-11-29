@@ -1,0 +1,8 @@
+Abstraction for power management - shared library
+	
+upower provides an interface to enumerate power sources on the system
+and control system-wide power management. any application can access the
+org.freedesktop.upower service on the system message bus. some
+operations (such as suspending the system) are restricted using policykit.
+
+this package contains the shared library to be used by applications.

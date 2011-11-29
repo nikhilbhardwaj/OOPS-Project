@@ -1,0 +1,8 @@
+Atari emulator for x/curses/sdl
+	
+this is an atari emulator that can use x, plain curses or sdl.
+it can emulate the atari 800, 800xl, 130xe, and 5200 systems.
+
+the atari operating system roms are not available with this package, due to
+copyright. you'll have to either make copies of them from an old atari
+computer, or see readme.debian for other ways to obtain them.

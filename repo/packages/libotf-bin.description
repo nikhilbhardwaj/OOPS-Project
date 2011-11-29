@@ -1,0 +1,14 @@
+A library for handling opentype font - utilities
+	
+the libotf library provides the following facilities:
+
+ - read open type layout tables from otf file.  currently these
+   tables are supported; head, name, cmap, gdef, gsub, and gpos.
+ - convert a unicode character sequence to a glyph code sequence by
+   using the above tables.
+
+
+the combination of libotf and the freetype library (ver.2) realizes
+ctl (complex text layout) by opentype fonts.
+
+this package contains the support utilities of libotf.

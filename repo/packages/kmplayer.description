@@ -1,0 +1,13 @@
+Media player for kde
+	
+kmplayer is a simple frontend for mplayer/ffmpeg/phonon.
+
+some features:
+
+ * play dvd/vcd movies (from file or url and from a video device)
+ * embed inside konqueror (movie is played inside konqueror)
+ * embed inside khtml (movie playback inside a html page)
+ * movie recording using mencoder (part of the mplayer package)
+ * no video during recording, but you can always open a new window and play it
+ * broadcasting, http streaming, using ffserver/ffmpeg
+ * for tv sources, you need v4lctl (part of the xawtv package)

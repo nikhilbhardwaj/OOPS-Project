@@ -1,0 +1,14 @@
+Set of lenses needed by libaugeas0 to parse config files
+	
+augeas parses configuration files described in lenses into a tree structure,
+which it exposes through its public api. changes made through the api are
+written back to the initially read files.
+
+lenses are the building blocks of the file <-> tree transformation; they
+combine parsing a file and building the tree (the get transformation), with
+turning the tree back into an (updated) file (the put transformation).
+
+the transformation works very hard to preserve comments and formatting
+details. it is controlled by ``lens'' definitions that describe the file
+format and the transformation into a tree. this package includes the official
+set of lenses.

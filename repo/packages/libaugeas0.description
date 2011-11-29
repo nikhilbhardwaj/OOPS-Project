@@ -1,0 +1,9 @@
+The augeas configuration editing library and api
+	
+augeas is a configuration editing tool. it parses configuration files in their
+native formats and transforms them into a tree. configuration changes are made
+by manipulating this tree and saving it back into native config files.
+
+the transformation works very hard to preserve comments and formatting
+details. it is controlled by ``lens'' definitions that describe the file
+format and the transformation into a tree.

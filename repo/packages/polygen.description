@@ -1,0 +1,21 @@
+Generator of random sentences from grammar definitions
+	
+polygen is a program for generating random sentences according to a grammar
+definition, that is following custom syntactical and lexical rules.
+
+formally, it is an interpreter of a language itself designed to define
+languages, where to interpret means executing a source program in real time
+and eventually outputting its result.
+
+here a source program is a grammar definition, the execution consists in the
+exploration of such grammar by selecting a random path and the result is the
+sentence built on the way.
+
+though polygen is quite a serious piece of software then, what else would be
+more noble for it than being used as a parody tool for linguistical habits,
+stereotypes and trends of this foolish era?
+
+principles of parody are focusing a ridiculous topic and eventually
+abstracting its rules and schemes (here in terms of a grammar definition) by
+which reproducing it through the variatio device.  and randomization is
+perfect at this purpose thanks to its purely asemantic behaviour =:)

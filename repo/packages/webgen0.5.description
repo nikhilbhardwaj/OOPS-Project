@@ -1,0 +1,6 @@
+A template based static website generator
+	
+webgen is used to generate web pages from page description and template files.
+you create one template file in which you define the layout of your page and
+where the content should go. after that you can create page description files
+in which you only define the content.

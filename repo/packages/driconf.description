@@ -1,0 +1,12 @@
+Dri configuration applet
+	
+driconf is a configuration applet for the direct rendering infrastructure
+(dri). it allows customizing performance and visual quality settings of opengl
+drivers on a per-driver, per-screen and/or per-application level.
+
+driconf is implemented in python. it uses the gtk+ toolkit bindings and the
+xdriinfo program (from the xdriinfo or xbase-clients package) to retrieve
+configuration information from opengl drivers.
+
+
+ homepage: http://dri.freedesktop.org/wiki/driconf

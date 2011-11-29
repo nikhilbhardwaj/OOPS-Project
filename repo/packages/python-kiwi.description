@@ -1,0 +1,13 @@
+A graphical framework to construct simple ui
+	
+kiwi is a framework and a set of enhanced pygtk widgets designed to
+make building programs with graphical interfaces both easy to write
+and easy to maintain.
+
+kiwi consists of a set of classes and wrappers for pygtk that were
+developed to provide a sort of framework for applications. fully
+object-oriented, and roughly smalltalk's mvc, kiwi provides a simple,
+practical way to build forms, windows and widgets that transparently
+access and display your object data.
+
+kiwi is inspired by allen holub's visual proxy.

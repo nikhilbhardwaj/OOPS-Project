@@ -1,0 +1,12 @@
+Automatically prepare storage devices
+	
+using fai disk_config files, setup-storage computes effective
+partition and volume sizes and executes the necessary commands
+to configure storage devices. it manages disk drives as well
+as raid and lvm volumes. it handles all file systems supported
+by parted(8) as well as ntfs but is flexible enough to be
+extended to further types as well. once the storage devices
+are prepared, an appropriate fstab(5) file is generated.
+
+this package provides the setup-storage utility as separate
+package so it can be used independent from fai as well.

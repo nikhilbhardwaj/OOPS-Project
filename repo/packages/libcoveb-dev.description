@@ -1,0 +1,12 @@
+High speed low memory footprint priority queue data structure lib
+	
+in networking, computer graphics, and many other applications it is
+necessary to have a high-throughput priority queue.  libcoveb provides
+this by using a powerful data structure called stratified trees.  by
+using special indexing techniques, they are able to provide access to more
+data in less time than more common balanced binary trees.  this priority
+queue supports range and greater-than type queries as well as basic
+set containment.  it is an ideal choice for keeping a sorted list of integers
+available from a large unsorted dynamic list of data.  there is also a
+customizable mapping priority queue that can carry any kind of user data.
+.

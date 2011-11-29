@@ -1,0 +1,12 @@
+A web-like literate-programming tool
+	
+noweb is designed to meet the needs of literate programmers while
+remaining as simple as possible.  its primary advantages are
+simplicity, extensibility, and language-independence.
+
+the noweb manual is only 3 pages; an additional page explains how to
+customize its latex output.  noweb works ``out of the box'' with any
+programming language, and supports tex, latex, and html back ends.
+
+the primary sacrifice relative to web is that code is not
+prettyprinted.

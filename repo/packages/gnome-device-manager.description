@@ -1,0 +1,6 @@
+Gnome device manager based on hal
+	
+this is a gnome program to manage devices and device drivers. it's
+inspired by hal-device-manager, from the hal project, but rewritten in
+c for efficiency and an outlook to actually make it manage devices
+rather than just show information.

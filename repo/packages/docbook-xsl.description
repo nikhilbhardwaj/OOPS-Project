@@ -1,0 +1,13 @@
+Stylesheets for processing docbook xml to various output formats
+	
+these are modular xsl stylesheets for processing documents composed
+with the docbook xml dtd and its derivatives ("simplified" docbook
+xml, jrefentry dtd, etc.).
+
+the stylesheets provide xslt transformations for (x)html, wordml, html help,
+javahelp, man page (nroff), website, eclipse platform help file and formatting
+object (fo) output. the latter can be further processed to a number of print
+formats using fop or tex-based tools.
+
+the stylesheets are modular in the sense that you can extend and, to some
+extent, customize them. the documentation is included in a separate package.

@@ -1,0 +1,10 @@
+A postfix whitelister daemon
+	
+whitelister is a postfix whitelister policy daemon aimed to whitelist mails
+that come from clean hosts wrt rbl/rhbl in order to let suspicious mails go
+through evil treatments like greylisting.
+
+whitelister has also spf capabilities, and can even (despite its name) reject
+mails based on spf (see http://spf.pobox.com/ for more informations).
+
+url : https://projects.aaege.net/mailtools/wiki/project.whitelister

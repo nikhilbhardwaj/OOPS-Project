@@ -1,0 +1,9 @@
+X11 font editor
+	
+gbdfed lets you interactively create new bitmap font files or modify existing
+ones. it allows editing multiple fonts and multiple glyphs, it allows cut and
+paste operations between fonts and glyphs and editing font properties. the
+editor works natively with bdf fonts.
+
+this editor is the successor of xmbdfed and is using the gtk+ toolkit instead
+of the motif toolkit for better user experience.

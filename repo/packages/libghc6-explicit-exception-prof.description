@@ -1,0 +1,10 @@
+Profiling libraries for libghc6-explicit-exception-dev
+	
+this package provides a library for the haskell programming language
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides synchronous and asynchronous exceptions which are
+explicit in the type signature. the first ones are very similar to either
+and control.monad.error.errort. the second ones are used for
+system.io.readfile and system.io.hgetcontents.

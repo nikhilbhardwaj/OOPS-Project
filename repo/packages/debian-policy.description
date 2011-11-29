@@ -1,0 +1,12 @@
+Debian policy manual and related documents
+	
+this package contains:
+
+   - debian policy manual
+   - linux filesystem hierarchy standard (fhs)
+   - authoritative list of virtual package names
+   - paper about libc6 migration
+   - policy checklist for upgrading your packages
+
+it also replaces the old packaging manual; most of the still-relevant
+content is now included as appendices to the policy manual.

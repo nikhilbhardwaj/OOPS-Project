@@ -1,0 +1,6 @@
+Cooperative threading and event driven framework
+	
+the fibranet package provides an event dispatch mechanism, a
+cooperative scheduler, an asynchronous networking library and a safe,
+fast serializer for simple python types. it is designed to simplify
+applications which need to simulate concurrency, particularly games.

@@ -1,0 +1,8 @@
+A front-end using readline to "cook" input lines for other programs
+	
+this tool lets you use history and line-editing in any text oriented
+tool. this is especially useful with third-party proprietary tools that
+cannot be distributed linked against readline. it is not perfect but it
+works pretty well.
+
+see the ledit and rlwrap packages for other programs of that kind.

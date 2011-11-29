@@ -1,0 +1,9 @@
+Openhpi example client programs
+	
+openhpi is an implementation of the service availability forum's hardware
+platform interface specification.  (see http://www.saforum.org)  as
+such, openhpi facilitates the development of computer manageability
+applications which are not tied to a single hardware vendor's products.
+
+this package contains the example client programs supplied as part
+of openhpi.

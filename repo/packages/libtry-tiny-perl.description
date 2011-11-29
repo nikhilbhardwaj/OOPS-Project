@@ -1,0 +1,8 @@
+Module providing minimalistic try/catch
+	
+try::tiny is a perl module that provides bare bones try/catch statements. it
+is designed to eliminate common mistakes with eval blocks, and nothing else.
+
+the main focus of this module is to provide simple and reliable error
+handling for those having a hard time installing trycatch, but who still want
+to write correct eval blocks without 5 lines of boilerplate each time.

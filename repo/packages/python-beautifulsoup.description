@@ -1,0 +1,7 @@
+Error-tolerant html parser for python
+	
+the beautifulsoup class turns arbitrarily bad html into a tree-like nested
+tag-soup list of tag objects and text snippets. a tag object corresponds to
+an html tag.  it knows about the html tag's attributes, and contains a
+representation of everything contained between the original tag and its
+closing tag (if any). it's easy to extract tags that meet certain criteria.

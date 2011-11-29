@@ -1,0 +1,7 @@
+Library to read temperature/voltage/fan sensors
+	
+lm-sensors is a hardware health monitoring package for linux. it allows you
+to access information from temperature, voltage, and fan speed sensors. it
+works with most newer systems.
+
+this package contains a shared library for querying lm-sensors.

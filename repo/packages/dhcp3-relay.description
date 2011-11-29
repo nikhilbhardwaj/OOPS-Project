@@ -1,0 +1,13 @@
+Isc dhcp relay (transitional package)
+	
+this is the relay from the internet software consortium's implementation of
+dhcp. for more information visit
+http://www.isc.org.
+
+installing this package will make the machine a dhcp relay, which
+requires a reachable dhcp or bootp server in order to function.
+
+this is a dummy package to aid in transitioning from the v3 dhcp packages
+to the new-style dhcp packages.
+
+this dummy package may be safely removed after upgrading to squeeze

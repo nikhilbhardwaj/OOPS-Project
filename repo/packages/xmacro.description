@@ -1,0 +1,13 @@
+Record / play keystrokes and mouse movements in x displays
+	
+xmacrorec can be used to record mouse and keyboard events on any x11 display.
+
+xmacroplay can be used to playback recorded events or send any other
+mouse/keyboard events you choose. it is very handy for scripting an
+x display - for example controlling a presentation in mgp or ultrapoint
+from a script, network connection...
+
+xmacroplay-keys is a script to help use the above.
+
+together these utils can be used to record and replay sessions
+for demonstrations etc.

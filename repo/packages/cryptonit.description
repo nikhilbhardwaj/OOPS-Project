@@ -1,0 +1,21 @@
+A client side pki (x.509) cryptographic tool
+	
+cryptonit is a client side cryptographic tool which allows you to
+encrypt/decrypt and sign/verify files with pki (public key
+infrastructure) certificates.
+
+it comes with:
+
+ o encryption / decryption based on ciphers provided by openssl
+ o rsa cryptography
+ o documents signature / verification
+ o generation of self-decrypting files (use a password to encrypt your
+   files either for gnu/linux or microsoft windows)
+ o ldap interface to import certificates (x.509)
+ o pkcs#11 support
+ o crl download
+ o addressbook
+
+
+cryptonit provides a graphical user interface written in c++ with
+wxwidgets.

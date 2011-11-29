@@ -1,0 +1,8 @@
+Check common localisation mistakes
+	
+acheck, any text file checker, is a tool designed to help both translators and
+reviewers checking and fixing common localisation mistakes according to file
+format.  rules can be defined to add new checks.
+
+if you install the aspell perl module as recommended, aspell can be invoked to
+check word spelling.

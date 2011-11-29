@@ -1,0 +1,10 @@
+Netcat like tool with nice features to transport files over network
+	
+netrw is a simple (but powerful) tool for transporting data over the
+internet. its main purpose is to simplify and speed up file transfers to
+hosts without an ftp server. it can also be used for uploading data to
+some other user. it is something like one-way netcat (nc) with some nice
+features concerning data transfers. netrw can compute and check message
+digest (md5, sha-1, and some others) of all the data being transferred,
+it can also print information on progress and average speed. at the end
+it sums up the transfer.

@@ -1,0 +1,18 @@
+An open-source platform for xml and rdf processing
+	
+4suite is a python-based toolkit for xml and rdf application development.
+at the core of 4suite is a library of integrated tools (including convenient
+command-line tools for xml processing, implementing open technologies such
+as dom, rdf, xslt, xinclude, xpointer, xlink xpath, xupdate, relax ng, and
+xml/sgml catalogs.
+
+layered upon this is an xml and rdf data repository and server. the server
+supports multiple methods of data access, query, indexing, transformation,
+rich linking, and rules processing. it provides the data infrastructure of
+a full database management system, including transactions and concurrency
+support, access control and a variety of management tools. for purposes of
+integration with other tools, it supports remote, cross-platform and
+cross-language access through http (including native soap and webdav), rpc,
+ftp and corba. it offers apis in python, http, soap and xslt.
+
+this package contains the xml part without rdf.

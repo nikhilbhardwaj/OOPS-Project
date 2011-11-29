@@ -1,0 +1,6 @@
+A metapackage to install all plasma script engines
+	
+this metapackage depends on all plasma script engines which kdebase-workspace
+module provides and suggests script engines from other official kde modules.
+
+this package is part of the kde base workspace module.

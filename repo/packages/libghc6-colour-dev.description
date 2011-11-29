@@ -1,0 +1,8 @@
+A model for human colour/color perception
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this package provides a data type for colours and transparency. colours can be
+blended and composed. various colour spaces are supported. a module of colour
+names (data.colour.names) is provided.

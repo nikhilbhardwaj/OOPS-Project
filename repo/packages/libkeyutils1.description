@@ -1,0 +1,9 @@
+Linux key management utilities (library)
+	
+keyutils is a set of utilities for managing the key retention facility in the
+kernel, which can be used by filesystems, block devices and more to gain and
+retain the authorization and encryption keys required to perform secure
+operations.
+
+this package provides a wrapper library for the key management facility system
+calls.

@@ -1,0 +1,13 @@
+Service delivery suite framework
+	
+netsds is a flexible framework for rapid software development using the
+following technologies:
+
+
+ * perl5 - default programming language
+ * postgresql - default dbms
+ * memcacheq - message queue manager
+ * apache - http server with fastcgi support
+ * kannel - sms and wap gateway
+ * asterisk - voip / telephony applications
+ * mbuni - mmsc and mms vas gateway

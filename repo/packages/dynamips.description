@@ -1,0 +1,8 @@
+Cisco 7200/3600/3725/3745/2600/1700 router emulator
+	
+dynamips emulates cisco 7200/3600/3725/3745/2600/1700 routers on a traditional
+pc.  you can use dynamips to create labs. it uses ios images (which are not
+part of this package). of course, this emulator cannot replace a real router.
+it is simply a complementary tool to real labs for administrators of cisco
+networks or people wanting to pass their ccna/ccnp/ccie exams. for a command
+line interface for dynamips see dynagen or gns3 package.

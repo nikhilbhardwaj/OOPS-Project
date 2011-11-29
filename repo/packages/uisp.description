@@ -1,0 +1,7 @@
+Micro in-system programmer for atmel's avr mcus
+	
+this utility is required to program avr chips with object code
+created by the ava assembler/linker, gas, or gcc.  it supports
+in-system programming, atmel's prototype board/programmer (stk500),
+and many other extremely low-cost parallel port programmers.
+it can also be used to program atmel's at89s51 and at89s52.

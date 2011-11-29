@@ -1,0 +1,8 @@
+Program to support non-standard buttons on mice in linux
+	
+many mice have side or "thumb" buttons that see limited use in linux, as well
+as a wheel that is not used by many older applications.
+
+imwheel supports these non-standard buttons and/or wheel operations by
+allowing the user to map their input to specific key combinations depending
+on the application in use.

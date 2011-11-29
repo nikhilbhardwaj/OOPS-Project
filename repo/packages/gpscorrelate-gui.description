@@ -1,0 +1,19 @@
+Correlates digital photos with gps data filling exif fields (gui)
+	
+gpscorrelate fills exif (exchangeable image file format) fields of
+digital photos related to gps (global positioning system) information
+(e.g.: gpslatitude, gpslongitude, gpsaltitude, ...). the act of filling
+those fields is referred to as "correlation".
+
+inputs of the correlation process are a set of jpeg images and gps data
+encoded in gpx (gps exchange format) format.
+
+if gps data are available at the precise moment the photo was taken
+(with a 1-second granularity) the gps data are stored unmodified in
+exif fields. if they are not linear interpolation of gps data
+available at moments before and after the photo was taken can be used.
+
+both a command line tool (package gpscorrelate) and a gtk+ graphical
+user interface for it (package gpscorrelate-gui) are provided.
+
+this package contains the gtk+ graphical user interface.

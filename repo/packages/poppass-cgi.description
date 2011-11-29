@@ -1,0 +1,6 @@
+A cgi script to interact with a poppassd server
+	
+poppass is a cgi script written to allow users to change their passwords
+through the web. it interacts with a poppassd server (see the poppassd debian
+package) and does no changing itself. it can therefore be installed in an
+unprivileged way.

@@ -1,0 +1,14 @@
+Python interface to amazon's web services
+	
+boto is a python interface to the infrastructure services available from
+amazon.
+
+boto supports the following services:
+
+ * elastic compute cloud (ec2)
+ * simpledb
+ * simple storage service (s3)
+ * cloudfront
+ * simple queue service (sqs)
+ * elastic mapreduce
+ * relational database service (rds)

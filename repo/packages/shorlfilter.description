@@ -1,0 +1,7 @@
+Text filter to shorten long urls using online redirection database
+	
+shorlfilter takes all http links in input text longer than a specified length
+and converts them to short links through the online shorl database. it is
+particularly handy for email, and can be used as a vim or mutt macro.
+
+see http://shorl.com for more information.

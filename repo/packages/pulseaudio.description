@@ -1,0 +1,37 @@
+Pulseaudio sound server
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+these are some of pulseaudio's features:
+
+
+  * high quality software mixing of multiple audio streams with support for
+    more than one sink/source. may be used to combine multiple sound cards
+    into one (with sample rate adjustment).
+
+
+
+  * wide range of supported client libraries. esd, alsa, oss, libao and
+    gstreamer client applications are supported as-is. native pulseaudio
+    plug-ins are also available for xmms and mplayer.
+
+
+
+  * good low latency behaviour and very accurate latency measurement for
+    playback and recording. ability to fully synchronize multiple playback
+    streams.
+
+
+
+  * network transparency, allowing an application to play back or record
+    audio on a different machine than the one it is running on.
+
+
+
+  * extensible plug-in architecture with plug-ins for jackd, multicast-rtp
+    lirc and avahi, just to name a few.
+
+
+this package contains the daemon and basic module set.

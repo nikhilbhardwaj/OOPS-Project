@@ -1,0 +1,6 @@
+Perl module for handling irc connections
+	
+anyevent::irc is a perl module that can be conceptualized as a toolbox for
+handling internet relay chat (irc) connections and communications. it won't
+do everything for you, and you still need to have a basic understanding of
+the internal protocol.

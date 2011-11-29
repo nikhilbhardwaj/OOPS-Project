@@ -1,0 +1,8 @@
+Perl interface to wordnet database
+	
+wordnet::querydata provides a direct interface to the wordnet database files.
+it allows the user direct access to the full wordnet semantic lexicon. all
+parts of speech are supported and access is generally very efficient because
+the index and morphical exclusion tables are loaded at initialization. this
+initialization step is slow (appx. 10-15 seconds), but queries are very fast
+thereafter -- thousands of queries can be completed every second.

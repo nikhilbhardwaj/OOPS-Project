@@ -1,0 +1,12 @@
+Python mode for gnu emacs and xemacs
+	
+provides a major mode for gnu emacs and xemacs to edit, debug, and develop
+python programs and doctests.
+
+if you install this with xemacs 21, it will replace the included
+python-mode.el, which may or may not be a more recent version
+(use "c-h v py-version" to compare).
+
+since this package automagically loads after python mode shipped with
+gnu emacs >= 22, installation of this package makes python-mode's
+mode the default for editing python code in emacs.

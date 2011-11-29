@@ -1,0 +1,11 @@
+Squirrelmail support for decoding exotic character sets
+	
+squirrelmail decoding functions are used to display and convert messages
+encoded in different character sets. this extra decoding library provides
+support for some complex eastern character sets and some rarely used apple
+character sets.
+
+this release supports big5, windows-874 (cp874, thai), windows-949 (uhc,
+korean), euc-cn, euc-jp, euc-kr, euc-tw, gb18030, gb2312, iso-2022-cn,
+iso-2022-jp, iso-2022-jp-2, iso-2022-kr, shift_jis and various x-mac-*
+character sets.

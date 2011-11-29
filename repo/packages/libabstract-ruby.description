@@ -1,0 +1,8 @@
+A library which enables you to define abstract method in ruby
+	
+an abstract method is a dummy method which is not implemented. it can be
+used as a placeholder to be overridden later to help build a framework.
+
+this package is a dependency package, which depends on the package
+containing actual ruby abstract library for the default ruby version
+(currently 1.8).

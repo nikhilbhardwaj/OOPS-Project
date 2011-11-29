@@ -1,0 +1,9 @@
+Redmine plugin to restrict common bots access
+	
+this plugin makes redmine returns 403 forbidden for user-agents
+that are commonly known to be bots, when accessing :
+
+ * alternate format download links (eg. csv, pdf)
+ * gantt, calendar
+ * repository
+ * wiki history

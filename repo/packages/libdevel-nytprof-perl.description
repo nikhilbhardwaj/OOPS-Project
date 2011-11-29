@@ -1,0 +1,31 @@
+Perl statement and subroutine code profiler
+	
+devel::nytprof is a powerful feature-rich perl source code profiler.
+
+
+ * performs per-line statement profiling for fine detail
+ * performs per-subroutine statement profiling for overview
+ * performs per-block statement profiling (the first profiler to do so)
+ * accounts correctly for time spent after calls return
+ * performs inclusive and exclusive timing of subroutines
+ * subroutine times are per calling location (a powerful feature)
+ * can profile compile-time activity, just run-time, or just end time
+ * uses novel techniques for efficient profiling
+ * sub-microsecond (100ns) resolution on systems with clock_gettime()
+ * very fast - the fastest statement and subroutine profilers for
+   perl
+ * handles applications that fork, with no performance cost
+ * immune from noise caused by profiling overheads and i/o
+ * program being profiled can stop/start the profiler
+ * generates richly annotated and cross-linked html reports
+ * trivial to use with mod_perl - add one line to httpd.conf
+ * includes an extensive test suite
+ * tested on very large codebases
+
+
+nytprof is effectively two profilers in one: a statement profiler, and a
+subroutine profiler.
+
+nytprof stands for 'new york times profiler'. indeed, this module was
+initially developed from devel::fastprof by the new york times co. to help
+their developers quickly identify bottlenecks in large perl applications.

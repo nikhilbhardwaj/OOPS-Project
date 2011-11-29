@@ -1,0 +1,8 @@
+Library to read and write elf files
+	
+the libelf1 package provides a shared library which allows reading and
+writing elf files on a high level.  third party programs depend on
+this package to read internals of elf files.  the programs of the
+elfutils package use it also to generate new elf files.
+
+this library is part of elfutils.

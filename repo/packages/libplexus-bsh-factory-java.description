@@ -1,0 +1,8 @@
+Plexus beanshell factory
+	
+the plexus project provides a full software stack for creating and
+executing software projects. based on the plexus container, the applications
+can utilise component-oriented programming to build modular, reusable
+components that can easily be assembled and reused.
+
+this package provides a factory for instantiating beanshell with plexus.

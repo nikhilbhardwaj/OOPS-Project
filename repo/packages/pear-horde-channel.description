@@ -1,0 +1,16 @@
+Pear.horde.org channel
+	
+this is the pear channel registry entry for horde. some horde and kolab pear
+packages are already packaged for debian, and can be easily identified by
+names beginning with "php-horde-" or "php-kolab-".
+
+the horde framework is written in php, and provides the common tools a web
+application requires: classes for dealing with preferences, compression,
+browser detection, connection tracking, mime, and more.
+
+kolab is a secure, scalable, and reliable groupware server. it consists of a
+number of well-known and proven components for the standard tasks such as
+e-mail, directory service, and web service. kolab adds intelligent interaction
+between the components, a web administration interface, management of
+free/busy lists, etc. various clients can access kolab, among them kontact
+(kde), outlook (windows), and horde (web).

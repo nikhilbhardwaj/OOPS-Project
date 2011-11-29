@@ -1,0 +1,17 @@
+Show me the money is a configurable perl/tk stock ticker program
+	
+smtm, which is a not overly clever acronym for show me the money, is a
+simple stock ticker and charting application. it creates and automatically
+updates a window with stock quotes from yahoo! finance, as well as optional
+charts from yahoo! finance.
+
+smtm is fully configurable -- it can display the stock symbol and the full
+name of the company, the price change, the percentage change, the volume
+traded, the profit or loss, the value of the holding, the length of the
+holding period, annualised percentage returns and more. the display can be
+sorted on almost any of the columns.  losers are flagged in red. smtm can be
+used for most global stock symbols, north american mutual funds and options,
+currencies and some commodities -- anything supported yahoo! finance.
+
+stock quotes are normally delayed, 15 minutes for nasdaq and 20
+minutes otherwise, see yahoo! finance for details.

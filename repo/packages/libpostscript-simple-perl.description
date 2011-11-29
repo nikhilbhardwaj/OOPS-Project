@@ -1,0 +1,6 @@
+Perl library for generating postscript files
+	
+postscript::simple allows you to have a simple method of writing
+postscript files from perl. it has several graphics primitives that
+allow lines, circles, polygons and boxes to be drawn. text can be
+added to the page using standard postscript fonts.

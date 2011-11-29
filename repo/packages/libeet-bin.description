@@ -1,0 +1,10 @@
+Enlightenment dr17 file chunk reading/writing utility
+	
+eet is a tiny library designed to write an arbitrary set of chunks of data to a
+file and optionally compress each chunk (very much like a zip file) and allows
+fast random-access reading of the file later on. it does not do zip as zip
+itself has more complexity than needed, and it was much simpler to implement
+this once here.
+
+this package contains eet, an utility that allows you to extract, insert,
+encode and decode config blobs created with libeet.

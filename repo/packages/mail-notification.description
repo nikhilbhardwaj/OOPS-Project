@@ -1,0 +1,21 @@
+Mail notification in system tray
+	
+mail-notification works with system trays implementing the
+freedesktop.org system tray specification, such as the gnome panel
+notification area, the xfce4 notification area and the kde system tray.
+
+
+ mail notification features include:
+  * multiple mailbox support
+  * mbox, mh, maildir, sylpheed, pop3, imap, gmail and evolution support
+  * mozilla products (mozilla, seamonkey, thunderbird, ...) mailbox support
+  * sasl authentication support
+  * apop authentication support
+  * ssl/tls support (disabled, see readme.debian)
+  * automatic detection of mailbox format
+  * immediate notification (depends on your settings)
+  * hig 2.0 compliance
+
+
+
+ note: evolution support is available with mail-notification-evolution.

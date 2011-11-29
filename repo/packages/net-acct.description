@@ -1,0 +1,8 @@
+User-mode ip accounting daemon
+	
+this package logs network traffic. it provides a daemon (nacctd) that
+logs all traffic passing the machine it runs on (similar to what tcpdump
+does).
+
+capability is provided to associate traffic to slip/ppp users in case you
+run a slip/ppp server.

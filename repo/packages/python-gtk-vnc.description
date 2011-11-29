@@ -1,0 +1,11 @@
+A vnc viewer widget for gtk+ (python binding)
+	
+it is built using coroutines, allowing it to be completely asynchronous while
+remaining single threaded. it supports rfb protocols 3.3 through 3.8 and the
+vencrypt authentication extension providing ssl/tls encryption with x509
+certificate authentication.
+
+the core library is written in c and a binding for python using pygtk is
+available. the networking layer supports connections over both ipv4 and ipv6.
+
+this package contains the python binding.

@@ -1,0 +1,7 @@
+Set window title and icon name for x terminal
+	
+xtitle sets the window title and/or the icon name of the terminal
+window in which it is run to be its command line arguments. it does
+this by outputting the appropriate xterm(1) control sequence
+characters. in verbose mode xtitle will also report the settings it
+has made.

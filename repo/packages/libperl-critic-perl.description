@@ -1,0 +1,9 @@
+Perl module to critique code for best practices
+	
+perl::critic is an extensible framework for creating and applying software
+coding policies to perl source code. by default, it is distributed with a
+number of policy modules that attempt to enforce various coding guidelines,
+including those discussed in damian conway's perl best practices. however,
+it is not limited to pbp and will even support policies that contradict pbp.
+you can enable, disable and customize those policies through the perl::critic
+interface. you can also create new policy modules to suit your own tastes.

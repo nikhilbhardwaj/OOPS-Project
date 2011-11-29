@@ -1,0 +1,6 @@
+Library to parse iptc metadata (debug files)
+	
+libiptcdata is a library, for manipulating the international press
+telecommunications council (iptc) metadata stored within multimedia
+files such as images. the library provides routines for parsing,
+viewing, modifying, and saving this metadata.

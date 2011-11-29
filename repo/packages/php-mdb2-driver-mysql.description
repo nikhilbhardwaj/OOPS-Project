@@ -1,0 +1,7 @@
+Php pear module to provide a mysql driver for mdb2
+	
+mdb2 provides a common api for all supported rdbms. the main difference
+to most other db abstraction packages is that mdb2 goes much further
+to ensure portability.
+
+this package provides the mysql package for mdb2.

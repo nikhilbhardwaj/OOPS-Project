@@ -1,0 +1,8 @@
+Perl module to use ssi from cgi scripts
+	
+cgi::ssi is meant to be used as an easy way to filter shtml through cgi
+scripts in a loose imitation of apache's mod_include. if you're using
+apache, you may want to use either mod_include or the apache::ssi module
+instead of cgi::ssi. limitations in a cgi script's knowledge of how the
+server behaves make some ssi directives impossible to imitate from a cgi
+script.

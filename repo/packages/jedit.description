@@ -1,0 +1,22 @@
+A plugin-based editor for programmers
+	
+as one of the most feature rich editors available, jedit boasts support for
+syntax highlighting in more than 140 languages. jedit combines the power of
+emacs, the user-friendliness of kate, and the advanced editing features
+(such as vertical paste) of ultraedit, to bring you an open-source
+plugin-based programmer's editor of professional quality.
+
+it is possible to define complex macros in beanshell or jython, or other
+languages that fit into the bsf. jedit offers a powerful and user-friendly
+keyboard mapping system (including 2-keystroke shortcuts), making it
+possible to give jedit a very emacs-like feel, if you so desire.
+
+its functionality is easily extended by the use of 'plugins' which can be
+downloaded, updated, and installed, all without exiting the editor. these
+include a built-in console shell integration, which lets you execute
+interactive external commands inside your editor, as well as bind them to
+keyboard shortcuts. the ftp plugin lets you browse and edit files on remote
+systems over ftp or sftp. other plugins provide shells, object oriented
+structure/code browsers, or completion popups for java, xml, html, ant,
+latex, python, ruby, perl, c, c++, bash, scheme, prolog, and many other
+languages.

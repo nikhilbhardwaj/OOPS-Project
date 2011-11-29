@@ -1,0 +1,10 @@
+Perl module to provide a unified approach to tracing
+	
+a module to provide a unified approach to tracing. a script can use log::trace
+qw( < mode > ) to set the behaviour of the trace function.
+
+by default, the trace functions are exported to the calling package only. you
+can export the trace functions to other packages with the "deep" option. see
+"options" for more information.
+
+all exports are in uppercase (to minimise collisions with "real" functions).

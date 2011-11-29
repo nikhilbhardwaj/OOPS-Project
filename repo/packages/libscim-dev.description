@@ -1,0 +1,18 @@
+Development library for scim platform
+	
+scim (smart common input method) is an input method (im) platform.
+
+this package provides development libraries on scim platform, including the
+header files and static libraries.  the development documentations can be
+found in the scim-dev-doc package.
+
+scim can be used as a dynamically loaded library on a single machine, or as a
+server/client model through socket in a network environment.  as a component
+of the system, scim can work with existing im framework such as xim or iiimf
+(in progress), as well as using client specific im interface, such as gtk+
+im module or qt im module.  scim provides an im application, scim, which use
+various im engines to provide input methods for many languages, either by
+native modules (such as scim-pinyin and scim-hangul) or interfaces to other
+im libraries (such as scim-anthy, scim-uim, scim-m17n, and scim-chewing).
+
+for more information about scim, please see the description of scim package.

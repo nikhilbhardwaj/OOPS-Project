@@ -1,0 +1,9 @@
+Sources for objective caml
+	
+objective caml (ocaml) is an implementation of the ml language, based on
+the caml light dialect extended with a complete class-based object system
+and a powerful module system in the style of standard ml.
+
+this package contains the sources needed to build some packages which build
+depend on the ocaml source. notice that if you want to rebuild ocaml, these
+will not work, consider using the source package instead.

@@ -1,0 +1,6 @@
+Proxy for evaluating the security of web applications
+	
+paros is for people who need to evaluate the security of their web
+applications. through paros's proxy nature, all http and https data
+between server and client, including cookies and form fields, can be
+intercepted and modified.

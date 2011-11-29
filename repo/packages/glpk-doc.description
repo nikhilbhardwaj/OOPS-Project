@@ -1,0 +1,9 @@
+Linear programming kit - documentation files
+	
+glpk (gnu linear programming kit) is intended for solving large-scale
+linear programming (lp), mixed integer programming (mip), and other
+related problems. it is a set of routines written in ansi c and
+organized in the form of a callable library.
+
+this package contains the c api reference manual and the gnu mathprog
+modeling language manual.

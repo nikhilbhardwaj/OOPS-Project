@@ -1,0 +1,12 @@
+Server components for ltsp display manager
+	
+ldm is an x11 display manager similar to xdm, gdm and kdm, but unlike
+those it wraps the x11 traffic within an ssh tunnel to provide a
+secure login mechanism for remote x sessions.
+
+this package includes the server components used by ldm to discover
+available sessions and locales on the server. it also recommends
+packages relevent for local device access, a login session, and remote
+sound.
+
+ltsp stands for 'linux terminal server project'.

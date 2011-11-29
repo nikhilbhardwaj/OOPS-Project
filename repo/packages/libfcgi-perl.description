@@ -1,0 +1,10 @@
+Helper module for fastcgi
+	
+fcgi is a simple perl module for writing fastcgi applications. fastcgi is a
+language-independent, scalable, open extension to cgi that provides faster
+performance by keeping programs persistent in memory and allowing them to
+handle multiple requests. this module provides the core interface needed to
+write these applications.
+
+for complex applications, you should consider a more full-featured solution
+such as plack or catalyst (see libcatalyst-perl).

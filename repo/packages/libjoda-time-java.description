@@ -1,0 +1,9 @@
+Java date and time api
+	
+joda-time provides a quality replacement for the java date and time
+classes. the design allows for multiple calendar systems, while still
+providing a simple api. the 'default' calendar is the iso8601 standard
+which is used by xml. the gregorian, julian, buddhist, coptic, ethiopic
+and islamic systems are also included, and we welcome further
+additions. supporting classes include time zone, duration, format and
+parsing.

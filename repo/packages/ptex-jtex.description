@@ -1,0 +1,10 @@
+Ascii jtex with ptex
+	
+ascii jtex is japanese tex, designed by ascii corporation.
+
+if ajtex/ajlatex would not work, please try "ptexjtexconfig addpath".
+before removing this package, you should do "ptexjtexconfig rempath".
+
+in this version, 'jtex' and 'jlatex' are renamed as 'ajtex' and 'ajlatex',
+respectively. and these programs are compiled with a recent ptex, which is
+included in ptex-bin package.  note ajlatex is of latex209 version.

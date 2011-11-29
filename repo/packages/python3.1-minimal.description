@@ -1,0 +1,6 @@
+A minimal subset of the python language (version 3.1)
+	
+this package contains the interpreter and some essential modules.  it can
+be used in the boot process for some basic tasks.
+see /usr/share/doc/python3.1-minimal/readme.debian for a list of the modules
+contained in this package.

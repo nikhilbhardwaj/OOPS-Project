@@ -1,0 +1,10 @@
+Library to generate and inspect cil assemblies
+	
+cecil is a library under development to generate and inspect programs and
+libraries in the ecma cil format.
+
+in simple english, with cecil, you can load existing managed assemblies,
+browse all the contained types, modify them on the fly and save back to the
+disk the modified assembly.
+
+this package contains the cecil library

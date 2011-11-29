@@ -1,0 +1,9 @@
+X/gtk+ and console ftp client
+	
+gftp is a multithreaded ftp client, available in two versions:
+
+ * version for x, written using glib and gtk+
+ * version for the console, using only glib
+
+
+this is an upgrade convenience package, it's only useful for depending on.

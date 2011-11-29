@@ -1,0 +1,24 @@
+A simple media player for the gnome desktop based on gstreamer
+	
+totem is a simple yet featureful media player for gnome which can read
+a large number of file formats. it features :
+
+
+   * shoutcast, m3u, asx, smil and ra playlists support
+   * dvd (with menus), vcd and digital cd (with cddb) playback
+   * tv-out configuration with optional resolution switching
+   * 4.0, 5.0, 5.1 and stereo audio output
+   * full-screen mode (move your mouse and you get nice controls) with
+     xinerama, dual-head and randr support
+   * aspect ratio toggling, scaling based on the video's original size
+   * full keyboard control
+   * simple playlist with repeat mode and saving feature
+   * gnome, nautilus and gio integration
+   * screenshot of the current movie
+   * brightness and contrast control
+   * visualisation plugin when playing audio-only files
+   * video thumbnailer for nautilus
+   * nautilus properties page
+   * works on remote displays
+   * dvd, vcd and ogg/ogm subtitles with automatic language selection
+   * extensible with plugins

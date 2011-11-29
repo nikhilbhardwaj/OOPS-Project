@@ -1,0 +1,15 @@
+Event-driven framework with a component architecture
+	
+circuits is an event-driven framework with a focus on component
+software architectures where system functionality is defined in
+components. components communicate with one another by propagating
+events throughout the system. each component can react to events and
+expose events to other parts of the system components are able to
+manage their own events and can also be linked to other components.
+
+circuits has a clean architecture and has no external dependencies on
+any other library. it's simplistic design is unmatchable but yet
+delivers a powerful framework for building large, scalable,
+maintainable applications and systems. circuits was a core integral
+part of the pymills library developed in 2006 and was partly inspired
+by the trac architecture.

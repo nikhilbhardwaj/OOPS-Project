@@ -1,0 +1,11 @@
+Snort rules manager
+	
+a simple script to manage and update snort rules with the
+capability of disabling, modifying and enabling specific
+rules after an update. oinkmaster will tell you exactly what
+has changed since your last update, giving you good
+control of your rules. it also can be used to manage updates
+from both the official provider (www.snort.org) and from
+home-grown rulesets.
+
+homepage:  http://oinkmaster.sourceforge.net/

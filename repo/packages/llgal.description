@@ -1,0 +1,13 @@
+Command-line online gallery generator
+	
+llgal is a online gallery generator for images, videos, ...
+it is based on igal and adds multiple features including:
+
+ - various types of slides (movies, text, links, downloads and subdirs);
+ - addition of headers, footers, links and separators in generated html files;
+ - automatic generation of captions from jfif, gif or exif tags;
+ - highly configurable layout.
+
+the llgal interface is command line only. its purpose is to generates
+nice web-pages quickly, using very simple but standard xhtml/css code,
+without requiring anything like php or javascript.

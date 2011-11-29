@@ -1,0 +1,6 @@
+A class to emulate perl's crypt::cbc module
+	
+this package provides an implementation of a class to emulate perl's
+crypt::cbc module. this is particularly important when you want to deal with
+any srs compatible domain name registration api like the one of tucows and
+others, that are using cbc as a mean of encrypted data transport.

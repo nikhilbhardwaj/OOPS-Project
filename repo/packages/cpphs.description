@@ -1,0 +1,13 @@
+Simplified cpp-a-like preprocessor for haskell
+	
+the c pre-processor has been widely used in haskell source code. it
+enables conditional compilation for different compilers, different
+versions of the same compiler, and different os platforms. it is also
+occasionally used for its macro language, which can enable certain
+forms of platform-specific detail-filling, such as the tedious
+boilerplate generation of instance definitions and ffi declarations.
+
+however, gcc's cpp has recently been evolving to more strictly adhere
+to the c standard. this has had the effect of making it increasingly
+incompatible with haskell's syntax. this is a cpp-a-like designed with
+haskell's syntax in mind.

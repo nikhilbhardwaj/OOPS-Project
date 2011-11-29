@@ -1,0 +1,5 @@
+This module can generate both lanman and nt password hashes
+	
+smbpasswd was written to generate password hashes suitable for use with samba,
+and possibly other places which uses lanman and/or nt hashes - such as
+samba with ldap-backend, or even as hash in some radius implementations.

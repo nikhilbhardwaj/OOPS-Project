@@ -1,0 +1,5 @@
+Module to add comments to any record of your jifty application
+	
+jifty::plugin::comment allows you to attach comments to any model of your
+jifty application. you do this using the three steps listed in the synopsis.
+this steps concern config.yml, model updates and vies updates.

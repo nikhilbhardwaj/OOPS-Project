@@ -1,0 +1,8 @@
+Web front end to a simple, extensible perl debugger
+	
+devel::ebug is a simple, extensible perl debugger with a clean api. using this
+module, you may easily write a perl debugger to debug your programs.
+
+this package provides a web front end to devel::ebug. ebug_http is the command
+line program to launch the debugger. it will return a url which you should
+point a web browser to.

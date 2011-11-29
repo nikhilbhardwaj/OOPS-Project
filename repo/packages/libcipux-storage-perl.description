@@ -1,0 +1,8 @@
+Storage abstraction layer for cipux
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+this package contains cipux::storage, the storage abstraction layer for
+cipux.

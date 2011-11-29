@@ -1,0 +1,14 @@
+Debugging symbols for the mesa glx runtime
+	
+this version of mesa provides glx and dri capabilities: it is capable of
+both direct and indirect rendering.  for direct rendering, it can use dri
+modules from the libgl1-mesa-dri package to accelerate drawing.
+
+this package does not include the modules themselves: these can be found
+in the libgl1-mesa-dri package.
+
+for a complete description of mesa, please look at the
+libgl1-mesa-swx11 package.
+
+this package contains debugging symbols for the gl library with glx and dri
+capabilities.

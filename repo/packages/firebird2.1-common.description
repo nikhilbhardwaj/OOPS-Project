@@ -1,0 +1,16 @@
+Common files for firebird 2.1 servers and clients
+	
+firebird is a relational database offering many ansi sql-99 features that
+runs on linux, windows, and a variety of unix platforms. firebird offers
+excellent concurrency, high performance, and powerful language support
+for stored procedures and triggers. it has been used on production systems
+under a variety of names since 1981.
+
+this package contains files common to both servers and clients for both super
+and classic flavours.
+
+these include the message file (firebird.msg), support scripts as well as
+configuration files in /etc/firebird/2.1.
+
+please refer to the firebird2.1-super or firebird2.1-classic packages for more
+information about firebird in general.

@@ -1,0 +1,6 @@
+Graphical whois client for gnome
+	
+a gnome application which allows you to perform whois lookups. you enter the
+whois server to use (or choose from predefined values), type the name of the
+host you want to find details of; and the full output from the server will be
+shown. for convenience, output can be easily saved to file.

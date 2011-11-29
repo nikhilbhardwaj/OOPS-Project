@@ -1,0 +1,15 @@
+Perl module providing a mmap'ed cache
+	
+cache::fastmmap uses the mmap system call to establish an interprocess shared
+memory cache. its core code is written in c, which can provide significant
+performance compared to a pure perl implementation such as cache::mmap. it can
+handle rather large pages without the socket connection and latency of using
+full-fledged databases where long-term persistence is unnecessary.
+
+since the algorithm uses a dual-level hashing system (a hash is used to find
+a page, then another hash within each page to find a given slot), most get
+calls can execute in constant o(1) time. the system uses fcntl to handle
+concurrent access, but only locks individual pages to reduce contention. the
+oldest (least recently used) data is evicted from the cache first, making
+this cache implementation most suitable for cases when old data is unlikely
+to be searched.

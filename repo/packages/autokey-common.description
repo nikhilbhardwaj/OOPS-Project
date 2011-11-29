@@ -1,0 +1,9 @@
+Desktop automation utility - common data
+	
+autokey is a desktop automation utility for linux and x11. it allows the
+automation of virtually any task by responding to typed abbreviations and
+hotkeys. it offers a full-featured gui that makes it highly accessible for
+novices, as well as a scripting interface offering the full flexibility and
+power of the python language.
+
+this package contains the common data shared between the various frontends.

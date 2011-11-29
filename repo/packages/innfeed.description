@@ -1,0 +1,6 @@
+This is the inn feeder program `innfeed.'
+	
+this is a program that sends a newsfeed to one or more remote hosts
+through nntp. it can handle multiple connections to multiple remote
+hosts. it is an alternative to `nntplink' (of which there is no
+debian package) or the inn-provided `send-nntp' (which is slow).

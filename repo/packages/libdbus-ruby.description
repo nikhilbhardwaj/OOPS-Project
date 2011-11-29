@@ -1,0 +1,7 @@
+Ruby binding for d-bus
+	
+this module allows ruby programs to interface with the d-bus message
+bus installed on newer unix operating systems.
+
+this is a dummy package depending on the library for the default version
+of ruby (currently 1.8).

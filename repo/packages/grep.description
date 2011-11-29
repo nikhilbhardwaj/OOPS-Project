@@ -1,0 +1,14 @@
+Gnu grep, egrep and fgrep
+	
+'grep' is a utility to search for text in files; it can be used from the
+command line or in scripts.  even if you don't want to use it, other packages
+on your system probably will.
+
+the gnu family of grep utilities may be the "fastest grep in the west".
+gnu grep is based on a fast lazy-state deterministic matcher (about
+twice as fast as stock unix egrep) hybridized with a boyer-moore-gosper
+search for a fixed string that eliminates impossible text from being
+considered by the full regexp matcher without necessarily having to
+look at every character. the result is typically many times faster
+than unix grep or egrep. (regular expressions containing backreferencing
+will run more slowly, however.)

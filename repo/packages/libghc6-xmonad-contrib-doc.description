@@ -1,0 +1,18 @@
+Extensions to xmonad; documentation
+	
+this is a huge extensions library for xmonad, providing alternative
+layout algorithms, key bindings, extended operations, and much more.
+
+xmonad is a minimalist tiling window manager for x, written in
+haskell.  windows are managed using automatic layout algorithms,
+which can be dynamically reconfigured. at any time windows are
+arranged so as to maximise the use of screen real estate. all
+features of the window manager are accessible purely from the
+keyboard: a mouse is entirely optional.  xmonad is configured in
+haskell, and custom layout algorithms may be implemented by the user
+in config files. a principle of xmonad is predictability: the user
+should know in advance precisely the window arrangement that will
+result from any action.
+
+this package contains the documentation for building your custom
+configured xmonad binary as well as example configuration files.

@@ -1,0 +1,4 @@
+Attempt to detect a laptop
+	
+laptop-detect attempts to determine whether it is being run on a laptop or a
+desktop and appraises its caller of this.

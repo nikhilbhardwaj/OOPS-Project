@@ -1,0 +1,9 @@
+Gnu r package for survival analysis
+	
+this package provides functions and datasets for survival analysis:
+descriptive statistics, two-sample tests, parametric accelerated failure
+models, cox model. delayed entry (truncation) is allowed for all models;
+interval censoring for parametric models.
+
+this package is part of the set of packages that are 'recommended'
+by r core and shipped with upstream source releases of r itself.

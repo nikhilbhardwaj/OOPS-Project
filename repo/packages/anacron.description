@@ -1,0 +1,15 @@
+Cron-like program that doesn't go by time
+	
+anacron (like `anac(h)ronistic') is a periodic command scheduler.  it
+executes commands at intervals specified in days.  unlike cron, it
+does not assume that the system is running continuously.  it can
+therefore be used to control the execution of daily, weekly and
+monthly jobs (or anything with a period of n days), on systems that
+don't run 24 hours a day.  when installed and configured properly,
+anacron will make sure that the commands are run at the specified
+intervals as closely as machine-uptime permits.
+
+this package is pre-configured to execute the daily jobs of the debian
+system. you should install this program if your system isn't powered on
+24 hours a day to make sure the maintenance jobs of other debian packages
+are executed each day.

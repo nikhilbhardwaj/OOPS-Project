@@ -1,0 +1,8 @@
+Perl-only implementation of the crypt(3) function
+	
+the crypt::unixcrypt module is a portable implementation of the unix
+library function crypt().  it is especially useful on systems whose
+perl does not implement the built-in crypt() function.
+
+this module won't overload a built-in crypt() unless forced by a true
+value of the variable $crypt::unixcrypt::override_builtin.

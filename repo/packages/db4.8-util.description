@@ -1,0 +1,18 @@
+Berkeley v4.8 database utilities
+	
+this package provides different tools for manipulating databases
+in the berkeley v4.8 database format, and includes:
+
+ - db4.8_archive: write the pathnames of the log files no longer in use.
+ - db4.8_checkpoint: daemon process to monitor the database log and
+   checkpoint it periodically.
+ - db4.8_deadlock: traverse the database environment lock region and
+   abort lock requests when a deadlock is detected.
+ - db4.8_load: loads (and creates) a database from standard input.
+ - db4.8_dump: read a database file and write it in a format understood
+   by db4.{2..8}_load.
+ - db4.8_printlog: dump log files in human readable format.
+ - db4.8_stat: display statistics for berkeley db environments.
+ - db4.8_upgrade: upgrades the version of files and the databases they
+   contain.
+ - db4.8_verify: check the structure of files and their databases.

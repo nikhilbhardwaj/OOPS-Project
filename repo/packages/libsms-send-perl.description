@@ -1,0 +1,16 @@
+Driver-based api for sending sms messages
+	
+the sms::send perl module is intended to provide a driver-based single api for
+sending sms and mms messages. the intent is to provide a single api against
+which to write the code to send an sms message.
+
+at the same time, the intent is to remove the limits of some of the
+previous attempts at this sort of api, like "must be free internet-based
+sms services".
+
+sms::send drivers are installed separately, and might use the web,
+email or physical sms hardware. it could be a free or paid. the details
+shouldn't matter.
+
+you should not have to care how it is actually sent, only that it has
+been sent (although some drivers may not be able to provide certainty).

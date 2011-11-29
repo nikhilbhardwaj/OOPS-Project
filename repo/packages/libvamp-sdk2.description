@@ -1,0 +1,8 @@
+Helper library for vamp plugins written in c++
+	
+vamp is an audio processing plugin system for plugins that extract
+descriptive information from audio data - typically referred to as
+audio analysis plugins or audio feature extraction plugins.
+
+if you want to develop vamp plugins in c++, you should use this
+library to expose the official c api to hosts.

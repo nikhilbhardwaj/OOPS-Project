@@ -1,0 +1,9 @@
+An ftps kio slave for kde 4
+	
+an ftps kio slave for kde 4, based on rfc4217 and build upon the ftp kio-slave
+sources. it should work yet with most server implementations. it issues an
+"auth tls" command after connecting and refuses to continue, when it's not
+supported. in prior to every data channel io command ("stor", "retr", etc) it
+tries to secure the data channel via "pbsz" and "prot" commands. if that fails
+it will transfer data unencrypted. there is currently no support for
+ssl-certificates. this might be added on demand.

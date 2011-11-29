@@ -1,0 +1,18 @@
+Object-oriented language base on prototype
+	
+lisaac is a small prototype-based programming language. the ideas in
+lisaac are mostly inspired by smalltalk (all values are objects), self
+(prototype-based) and eiffel (design by contract). it has the following
+features:
+
+
+ * pure object language
+ * very fast (like c code)
+ * dynamic and multiple inheritance
+ * dynamic definition slots
+ * static typing (invariant)
+ * generic types
+ * auto-cast type system
+ * programming by contract
+ * interrupt manager
+ * include c code facilities

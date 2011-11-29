@@ -1,0 +1,15 @@
+Database-independent schema objects
+	
+dbix::dbschema objects are collections of dbix::dbschema::table objects and
+represent a database schema.
+
+this module implements an oo-interface to database schemas.  using this
+module, you can create a database schema with an oo perl interface.  you can
+read the schema from an existing database.  you can save the schema to disk
+and restore it from a different process.  most importantly, dbix::dbschema
+can write sql create statements  for different databases from a single source.
+
+currently supported databases are mysql, postgresql, oracle, sybase and sqlite.
+dbix::dbschema will attempt to use generic sql syntax for other databases.
+assistance adding support for other databases is welcomed.  see the
+dbix::dbschema::dbd manpage, "driver writer's guide and base class".

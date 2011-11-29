@@ -1,0 +1,13 @@
+Hardware identification system library
+	
+hwinfo is the hardware detection tool used in suse linux.
+
+in debian edu (skolelinux) hwinfo has shown better results than discover when
+detecting mouse, keyboard and monitor.
+
+hwinfo collects information about the hardware installed on a system.  among
+others, libhd contains information about cdrom, zip, floppy, disks and
+partitions, network card, graphics card, monitor, camera, mouse, sound, pppoe,
+isdn, modem, printer, scanner, bios, cpu, usb, memory and smp.
+
+this package contains the shared library from the hwinfo package.

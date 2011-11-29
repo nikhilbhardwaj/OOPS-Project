@@ -1,0 +1,15 @@
+Core client for the boinc distributed computing infrastructure
+	
+the berkeley open infrastructure for network computing (boinc) is a
+software platform for distributed computing: several initiatives of
+various scientific disciplines all compete for the idle time of
+desktop computers. the developers' web site at the university of
+berkeley serves as a common portal to the otherwise independently run
+projects.
+
+this package contains the boinc core client program that is required
+to participate in any project that uses boinc. a central server
+distributes work units and collects results via this client. when
+attaching a local machine to a project, this client will also
+dynamically download the projects application's program to be then
+wrapped by the boinc core client.

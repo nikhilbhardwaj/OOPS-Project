@@ -1,0 +1,13 @@
+News reader for gnustep
+	
+lusernet is an nntp based news reader for gnustep.  although it's at
+an early version, it's already quite usable.  the following features
+are available:
+
+
+ * coloring of messages based on quoting depth.
+ * background read-ahead.
+ * intelligent scrolling.
+ * handles multiple servers.
+ * completely asynchronous.
+ * good mime conformance and handling.

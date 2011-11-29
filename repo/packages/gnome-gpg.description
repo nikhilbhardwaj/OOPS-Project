@@ -1,0 +1,9 @@
+Gpg passphrase agent based on gnome keyring
+	
+gnome-gpg is a command-line wrapper around gpg which neatly integrates
+passphrase caching with gnome's keyring agent and user interface.
+
+having supplied the passphrase for your key once, it is kept
+in memory for a finite time to save typing it again. this better
+protects your keys by making it less inconvenient to use a complex
+passphrase.

@@ -1,0 +1,7 @@
+Haskell library to convert date and time formats - ghc 6 profiling libraries
+	
+this haskell library provides several utilities for easily converting among the
+various standard library date and time types, and for converting
+between these and standard external representations.
+
+this package contains the profiling libraries compiled for ghc 6.

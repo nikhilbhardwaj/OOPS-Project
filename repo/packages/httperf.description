@@ -1,0 +1,7 @@
+An http server performance tester
+	
+httperf is a tool to measure web server  performance. it speaks the http
+protocol both in its http/1.0 and http/1.1 flavors and offers a variety of
+workload generators. while running, it keeps track of a number of performance
+metrics that are summarized in the form  of  statistics  that  are printed  at
+the end of a test run.

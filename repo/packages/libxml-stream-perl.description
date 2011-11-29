@@ -1,0 +1,8 @@
+Module for manipulating streaming xml data
+	
+xml::stream is a perl module that provides the user with methods to connect
+to a remote server, send a stream of xml to the server and receive/parse an
+xml stream from the server.
+
+it is primarily based on work for the jabber development team's etherx xml
+router. for details, see <url:http://xmpp.org/protocols/streams/>

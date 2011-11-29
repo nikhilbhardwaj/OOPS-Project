@@ -1,0 +1,6 @@
+Module to test for valid yaml
+	
+test::yaml::valid is a perl module that allows developers to easily test the
+validity of arbitrary data structures serialized using yaml (yaml ain't a
+markup language). it provides a simple interface compatible for use with most
+test::builder-based tests.

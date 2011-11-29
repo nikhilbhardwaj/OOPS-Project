@@ -1,0 +1,8 @@
+Linux 2.6 for modern pcs (meta-package), openvz support
+	
+this package depends on the latest linux kernel 2.6 and modules for use on
+pcs with intel pentium pro/ii/iii/4/4m/d/m, xeon, celeron, core or atom;
+amd geode nx, athlon (k7), duron, opteron, sempron, turion or phenom;
+transmeta efficeon; or via c7 processors.
+
+this kernel includes support for openvz container-based virtualization.

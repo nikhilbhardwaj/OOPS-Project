@@ -1,0 +1,13 @@
+Fullscreen sdl/opengl version of nethack
+	
+glhack is a port of the game nethack, using hardware acceleration via
+opengl(r) to render the 2d tile graphics.  it uses libsdl as the video
+and input library.  there is good support for software rendering
+(without opengl) as well.
+
+glhack is just one of the many nethack front-ends.  others include the
+original text-terminal (tty) version, one for the x window system, and
+one for gnome called gnomehack.
+
+see the official nethack website for complete information about the actual
+game.

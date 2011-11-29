@@ -1,0 +1,7 @@
+Exif tag parsing library for ruby1.8
+	
+libexif is a library for parsing, editing, and saving exif data.
+you can retrieve useful information from exif tags contained in
+images created by recording equipments(for example, digital camera).
+
+libexif-ruby provides a simple interface to this library.

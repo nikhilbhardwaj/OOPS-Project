@@ -1,0 +1,10 @@
+Tex equations in html documents
+	
+provides a method of including mathematics in html pages that works
+across multiple browsers under windows, macintosh os x, linux and
+other flavors of unix. it overcomes a number of the shortcomings of
+the traditional method of using images to represent mathematics:
+jsmath uses native fonts, so they resize when you change the size of
+the text in your browser, they print at the full resolution of your
+printer, and you don't have to wait for dozens of images to be
+downloaded in order to see the mathematics in a web page.

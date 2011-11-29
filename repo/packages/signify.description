@@ -1,0 +1,9 @@
+Automatic, semi-random ".signature" rotator/generator
+	
+signify is a neat little program that allows a random signature to be
+generated from a set of rules.  each "section" can be one of an unlimited
+number of possibilities, each with its own weighting so those really cool
+quotes can appear more often than others.  sections can also be placed next
+to each other vertically to create columns.  each section can be formatted
+independently as left/right/center and top/bottom/vcenter.  see
+http://signify.sf.net/ for more information.

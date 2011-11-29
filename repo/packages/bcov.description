@@ -1,0 +1,9 @@
+Code coverage analysis tool
+	
+bcov produces coverage information without recompiling a program by
+instrumenting it with breakpoints. effectively it debugs the program
+automatically, removing each breakpoint after it has been hit. this
+produces detailed coverage information with minimal runtime overhead.
+
+this package contains bcov for producing the coverage data and bcov-report
+for generating human readable html files from the collected coverage data.

@@ -1,0 +1,24 @@
+Framework providing verilog support
+	
+verilog is a perl framework providing verilog support in the perl language.
+it includes:
+
+
+ * verilog::getopt, which parses command line options similar to c++ and vcs
+ * verilog::language, which knows the language keywords and parses numbers.
+ * verilog::netlist, which builds netlists out of verilog files. this allows
+   easy scripts to determine things such as the hierarchy of modules.
+ * verilog::parser, which invokes callbacks for language tokens
+ * verilog::preproc, preprocesses the language, and allows reading
+   post-processed files right from perl without temporary files.
+
+
+it also includes a variety of useful utilities:
+
+
+ * vpassert inserts pliish warnings and assertions for any simulator
+ * vppreproc preprocesses the complete verilog 2001 and systemverilog
+   language
+ * vrename renames and cross-references verilog symbols. it creates verilog
+   cross references and makes it easy to rename signal and module names over
+   multiple files.

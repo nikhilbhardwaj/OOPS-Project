@@ -1,0 +1,10 @@
+Bsd process resource limit and priority functions
+	
+the bsd::resource module provides the bsd process resource limit functions
+getrusage(), getrlimit(), setrlimit() and the bsd process priority functions.
+
+these are also available via core perl but here the prio_* constants are
+available: getpriority(), setpriority().
+
+also provided is times() which provides the same functionality as the one
+in core perl, only with better time resolution.

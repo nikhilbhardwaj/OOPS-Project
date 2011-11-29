@@ -1,0 +1,18 @@
+Perl module used to tokenize html documents
+	
+this is the cpan module html::tokeparser::simple.
+
+html::tokeparser::simple is a subclass of html::tokeparser that uses
+easy-to-remember method calls to work with tokens.  for instance,
+rather than writing code like this:
+
+
+   $token->[0] eq 's' and $token->[1] eq 'form' .
+
+
+you can instead write something simpler like this:
+
+
+   $token->is_start_tag( 'form' )
+
+.

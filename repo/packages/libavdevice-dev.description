@@ -1,0 +1,6 @@
+Development files for libavdevice
+	
+this is the device handling library from the ffmpeg project.
+
+this package contains the header files and static libraries needed to
+compile applications or shared objects that use libavdevice.

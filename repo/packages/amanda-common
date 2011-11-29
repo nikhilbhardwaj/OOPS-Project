@@ -1,0 +1,4 @@
+PackageId:253
+Name:amanda-common
+Version:1:2.6.1p2-3
+Deps:adduser,bsd-mailx,mailx,heirloom-mailx,mailutils,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libglib2.0-0,libncurses5,libreadline6,libunwind7,openbsd-inetd,inet-superserver,inetutils-inetd,rlinetd,xinetd,perl,perl5,tar,update-inetd

@@ -1,0 +1,11 @@
+Chm(compiled html) decompressor
+	
+archmage is a reader and decompiler for files in the chm format. this is the
+format used by microsoft html help, and is also known as compiled html.
+
+archmage provides the following features:
+
+ - extracting chm content to set of html, css files and images
+ - dumping html data from chm as a plain text
+ - serving chm contents as a standalone http server
+ - serving chm content with apache by providing apache module mod_chm.

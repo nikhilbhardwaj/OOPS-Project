@@ -1,0 +1,5 @@
+Biopython support for the biosql database schema
+	
+this is the biopython interface to a biosql database (see www.biosql.org
+for details). bioperl, biojava and bioruby also provide their own biosql
+interfaces onto the same shared sql schema.

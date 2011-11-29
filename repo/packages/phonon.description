@@ -1,0 +1,7 @@
+Metapackage for the phonon multimedia framework
+	
+phonon is the qt 4 multimedia api, which provides a task-oriented abstraction
+layer for capturing, mixing, processing, and playing audio and video content.
+
+this metapackage ensures that a user has working phonon configuration
+installed on the system (the core library and at least one backend).

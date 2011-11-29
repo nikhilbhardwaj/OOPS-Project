@@ -1,0 +1,5 @@
+Perl module for generating sax events from pod
+	
+the pod::sax module parses pod and generates corresponding sax events. the aim
+of this module is not round trip data preservation, but rather standards
+compliance, while maintaining simple access to the underlying data.

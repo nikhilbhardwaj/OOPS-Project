@@ -1,0 +1,20 @@
+Set of tools for reporting on and manipulating mpeg data
+	
+tstools is a set of cross-platform command line tools for working with mpeg
+data.
+
+the emphasis is on relatively simple tools which concentrate on mpeg (h.264
+and h.262) data packaged according to h.222 (i.e., ts or ps), with a particular
+interest in checking for conformance.
+
+transport stream (ts) is typically used for distribution of cable and
+satellite data. program stream (ps) is typically used to store data on dvds.
+
+the tools are focussed on:
+
+ * quick reporting of useful data (tsinfo, stream_type)
+ * giving a quick overview of the entities in the stream (esdots, psdots)
+ * reporting on ts packets (tsreport) or es units/frames/fields (esreport)
+ * simple manipulation of stream data (es2ts, esfilter, esreverse, esmerge,
+   ts2es)
+ * streaming of data, possibly with introduced errors (tsplay)

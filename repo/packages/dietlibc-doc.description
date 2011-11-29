@@ -1,0 +1,13 @@
+Diet libc documentation - a libc optimized for small size
+	
+the diet libc is a c library that is optimized for small size. it
+can be used to create small statically linked binaries for linux
+on alpha, arm, ia64, mips, mipsel, ppc, parisc, s390, sparc and x86.
+
+this package contains the documentation for the diet libc.
+
+the diet libc also supports dynamic linking, currently on the arm and
+i386 architectures only. the dietlibc package provides the shared
+libraries.
+
+see http://www.fefe.de/dietlibc/ for more information.

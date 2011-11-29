@@ -1,0 +1,15 @@
+Mono core library (for cli 1.0)
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.
+
+this package contains the core library (mscorlib.dll) of mono for cli 1.0,
+which is the glue between the bcl (base class libraries) and the jit.
+
+you should install libmono-i18n-west1.0-cil if you are using
+iso 8859-15 (latin 9) or other common western european code pages.
+us-ascii, iso 8859-1 (latin 1) and utf-8 users don't need any extra i18n
+packages.

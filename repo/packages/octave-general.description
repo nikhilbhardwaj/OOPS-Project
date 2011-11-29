@@ -1,0 +1,10 @@
+Provide extra general functions for octave
+	
+this package provides additional general functions for octave, a
+numerical computation software. it cointains functions to transpose
+complex matrixes (ctranspose), check if a string is sorted
+(issorted), take the non-conjugate transpose of a matrix (transpose)
+and a function to generate a symmetric matrix from the lower
+triangular elements of a vector (unvech).
+
+this octave add-on package is part of the octave-forge project.

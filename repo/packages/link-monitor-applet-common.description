@@ -1,0 +1,13 @@
+Gnome panel applet with graph of round-trip times to hosts (data)
+	
+link monitor applet is a gnome panel applet displaying the round-trip time to
+one or more hosts in a bar graph, featuring:
+
+ * round-trip time plot graphs
+ * country flags and names
+ * full icmp and icmpv6 support
+ * configurable scale and delays
+ * hig 2.0 compliance
+
+
+this package contains the architecture independent files (mostly flags).

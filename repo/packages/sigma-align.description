@@ -1,0 +1,9 @@
+Simple greedy multiple alignment of non-coding dna sequences
+	
+sigma (“simple greedy multiple alignment”) is an alignment program with a
+new algorithm and scoring scheme designed specifically for non-coding dna
+sequence. it uses a strategy of seeking the best possible gapless local
+alignments, at each step making the best possible alignment consistent with
+existing alignments, and scores the significance of the alignment based on
+the lengths of the aligned fragments and a background model which may be
+supplied or estimated from an auxiliary file of intergenic dna.

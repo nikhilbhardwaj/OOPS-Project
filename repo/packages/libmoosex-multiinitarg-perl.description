@@ -1,0 +1,6 @@
+Perl library providing attributes with aliases for constructors
+	
+moosex::multiinitarg is an extension to moose that allows you to call an
+attribute any number of things while you're passing arguments to your object
+constructor. this is useful when you want to change attribute names without
+breaking backward compatibility with the existing api.

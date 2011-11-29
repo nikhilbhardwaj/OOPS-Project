@@ -1,0 +1,9 @@
+Perl implementation of sender policy framework and sender id
+	
+mail::spf is an object-oriented perl implementation of the sender policy
+framework (spf) e-mail sender authentication system <http://www.openspf.org>.
+
+it supports both the txt and spf rr types as well as both spfv1 (v=spf1) and
+sender id (spf2.0) records, and it is fully compliant to rfcs 4408 and 4406.
+(it does not however implement the patented pra address selection algorithm
+described in rfc 4407.)

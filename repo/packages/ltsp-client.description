@@ -1,0 +1,9 @@
+Complete ltsp client environment
+	
+this package ensures that a complete ltsp client with a graphical user
+environment, remote audio and local device support is installed.
+
+do not install this package on a regular machine, it is intended only
+for installation inside a ltsp client file system.
+
+ltsp stands for 'linux terminal server project'.

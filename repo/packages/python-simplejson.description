@@ -1,0 +1,15 @@
+Simple, fast, extensible json encoder/decoder for python
+	
+simplejson is a simple, fast, complete, correct and extensible json
+<http://json.org> encoder and decoder.
+
+the encoder may be subclassed to provide serialization in any kind of
+situation, without any special support by the objects to be serialized
+(somewhat like pickle).
+
+the decoder can handle incoming json strings of any specified encoding
+(utf-8 by default).
+
+simplejson is the externally maintained development version of the json
+library included with python 2.6 and python 3.0, but maintains backwards
+compatibility with python 2.5.

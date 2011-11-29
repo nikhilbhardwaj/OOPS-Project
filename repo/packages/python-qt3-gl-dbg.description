@@ -1,0 +1,8 @@
+Qt3 opengl bindings for python (debug extension)
+	
+python binding module that allows use of the opengl facilities
+offered by the qt x window toolkit v3. you can use it to create
+portable graphics-capable scripts (there are pyqt versions for
+linux, windows and macos x).
+
+this package contains the extension built for the python debug interpreter.

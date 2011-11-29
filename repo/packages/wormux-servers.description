@@ -1,0 +1,24 @@
+Stand alone server and game index server for wormux
+	
+wormux is a free game where funny animals fight on a 2d map with
+funny weapons. though currently under heavy development, it is
+already very playable, with lots of weapons (dynamite, baseball bat,
+teleportation, etc.). for the moment, you can not play against
+computer opponents.
+
+there are also lots of maps available for your battling pleasure!
+wormux takes the genre to the next level, with great customisation
+options leading to great gameplay. there is a wide selection of
+teams, from the aliens to the chickens. also, new battlefields can be
+downloaded from the internet, making strategy an important part of
+each battle.
+
+this package contains the stand alone server and the index server for
+wormux. you will need this package if you want to host a standalone
+wormux server or a wormux index server which can be always available
+for anyone who might want to play.
+
+note that if you want to play a network game, this package is not
+absolutely necessary since any of the game players can host the game.
+
+if you want to play the game, you need to install the wormux package.

@@ -1,0 +1,7 @@
+Freehep character table converter
+	
+this maven plugin converts 16 bit unicode text files into lookup tables.
+these tables are used by the vectorgraphics package (part of the freehep
+project) to include and embed fonts in the output formats.
+
+freehep is a collection of java libraries used in high energy physics.

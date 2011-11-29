@@ -1,0 +1,6 @@
+Library of callable ftp routines (development)
+	
+ftplib makes it easier for c programmers to use file transfer in their
+programs.  this package is required to compile and link programs that
+use ftplib.  it includes an example command line utility for
+transferring files via ftp (rfc959).

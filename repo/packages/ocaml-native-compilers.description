@@ -1,0 +1,11 @@
+Native code compilers of the ocaml suite (the .opt ones)
+	
+objective caml (ocaml) is an implementation of the ml language, based on
+the caml light dialect extended with a complete class-based object system
+and a powerful module system in the style of standard ml.
+
+this package contains the native code version of the compilers and lexer
+(ocamlc.opt, ocamllex.opt, ocamlopt.opt, camlp4o.opt and camlp4r.opt).
+the normal version of these programs are found in the 'ocaml' package.
+for big source codes, these packages can be two to three times faster, but
+for most normal sized sources, the difference won't be noticeable.

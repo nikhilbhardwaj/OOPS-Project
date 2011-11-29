@@ -1,0 +1,8 @@
+Pattern matching tool similar to grep
+	
+glark is a program like 'grep' to search for text in files. it can
+be used from the command line or in scripts.
+
+in addition to many features of gnu grep, glark offers perl compatible
+regular expressions, highlighting of matches, complex expressions, and
+automatic exclusion of non-text files.

@@ -1,0 +1,18 @@
+Streaming fast powerful standard conformant json processor in java
+	
+jackson is a java-based json-processing package that contains:
+
+
+ * high-performance streaming json parser/generator
+ * tree model that can be built from/written to parser/generator
+ * object mapper that implements data binding to/from
+ * parser/generator
+
+
+api of streaming parser/generator is similar to stax api used for
+efficient xml processing on java platform.
+
+beyond very fast json parser and generator, jackson project also offers
+full data binding support through 2 different approaches: "object
+mapper" for full pojo to/from json data mapping (similar to jaxb2) and
+"tree mapper" for something similar to dom and xpath.

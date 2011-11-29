@@ -1,0 +1,8 @@
+The attributed file system (atfs runtime libraries)
+	
+atfs is a storage system supporting multiple versions of files and
+associating an arbitrary number of application defined attributes
+of the form "name=value" with each version. it is part of shapetools, a
+software configuration management system.
+
+this package contains the runtime libararies.

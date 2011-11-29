@@ -1,0 +1,10 @@
+Turn a lucene query into a perl data structure
+	
+this module parses a lucene query. it deals with fields, types, phrases,
+subqueries, and so on; everything handled by the simplequery class in
+lucene. the data structure is similar to the one given above, and is
+pretty self-explanatory.
+
+the other function, deparse_query turns such a data structure back into
+a lucene query string. this is useful if you've just been mucking about
+with the data.

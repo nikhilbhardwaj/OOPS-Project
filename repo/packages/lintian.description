@@ -1,0 +1,18 @@
+Debian package checker
+	
+lintian dissects debian packages and reports bugs and policy
+violations. it contains automated checks for many aspects of debian
+policy as well as some checks for common errors.
+
+it uses an archive directory, called laboratory, in which it stores
+information about the packages it examines.  it can keep this
+information between multiple invocations in order to avoid repeating
+expensive data-collection operations. this makes it possible to check the
+complete debian archive for bugs, in a reasonable time.
+
+this package is useful for all people who want to check debian
+packages for compliance with debian policy. every debian maintainer
+should check packages with this tool before uploading them to the
+archive.
+
+this version of lintian is calibrated for policy version 3.9.1.

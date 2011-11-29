@@ -1,0 +1,19 @@
+Development files for the pango
+	
+pango is a library for layout and rendering of text, with an emphasis
+on internationalization. pango can be used anywhere that text layout is
+needed. however, most of the work on pango-1.0 was done using the gtk+
+widget toolkit as a test platform. pango forms the core of text and
+font handling for gtk+-2.0.
+
+pango is designed to be modular; the core pango layout can be used with
+four different font backends:
+
+ - core x windowing system fonts
+ - client-side fonts on x using the xft library
+ - direct rendering of scalable fonts using the freetype library
+ - native fonts on microsoft backends
+
+
+this package contains the header files and some files needed for development
+with pango.

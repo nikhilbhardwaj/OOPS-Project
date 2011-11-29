@@ -1,0 +1,4 @@
+Regexp::common extension for matching e-mail addresses
+	
+regexp::common::email::address perl module extends regexp::common with a
+pattern that matches e-mail addresses as defined by rfc-2822.

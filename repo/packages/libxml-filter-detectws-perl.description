@@ -1,0 +1,22 @@
+Perl module for detecting ignorable whitespace
+	
+the xml::filter::detectws module is a perlsax filter that detects which
+character data contains ignorable whitespace and optionally filters it.
+
+the xml spec defines ignorable whitespace as the character data found
+in elements that were defined in an <!element> declaration with a model
+of 'empty' or 'children' (children is the rule that does not contain
+'#pcdata').
+
+in addition, xml::filter::detectws allows the user to define other
+whitespace to be ignorable.  the ignorable whitespace is passed to
+the perlsax handler with the ignorable_whitespace handler, provided
+that the handler implements this method.  otherwise it is passed to
+the characters handler.  if the skipignorablews is set, the ignorable
+whitespace is simply discarded.  xml::filter::detectws also takes
+xml:space attributes into account.
+
+cdata sections are passed in the standard perlsax way (i.e. with
+surrounding start_cdata and end_cdata events), unless the handler
+does not implement these methods.  in that case, the cdata section is
+simply passed to the characters method.

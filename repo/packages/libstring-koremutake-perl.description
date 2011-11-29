@@ -1,0 +1,16 @@
+Convert to/from koremutake memorable random strings
+	
+the string::koremutake module converts to and from koremutake
+memorable random strings.
+
+the term "memorable random string" was thought up by sean b. palmer
+as a name for those strings like dopynl, glargen, glonknic,
+spoopwiddle, and kebble etc. that don't have any conventional sense,
+but can be used as random identifiers, especially in uris to keep
+them persistent. see http://infomesh.net/2001/07/mers/
+
+koremutake is a mers algorithm which is used by shorl
+(http://shorl.com/koremutake.php). as they explain: "it is, in plain
+language, a way to express any large number as a sequence of
+syllables. the general idea is that word-sounding pieces of
+information are a lot easier to remember than a sequence of digits."

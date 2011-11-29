@@ -1,0 +1,10 @@
+Lexical analyzer generator for java
+	
+it is also a rewrite of the very useful tool jlex which was developed
+by elliot berk at princeton university. as vern paxon states for
+his c/c++ tool flex : they do not share any code though.
+
+jflex is designed to work together with the lalr parser generator cup
+by scott hudson, and the java modification of berkeley yacc byacc/j
+by bob jamison. it can also be used together with other parser generators
+like antlr or as a standalone tool.

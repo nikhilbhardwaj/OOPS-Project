@@ -1,0 +1,14 @@
+Manage data robotics storage units (drobos)
+	
+this package provides a command line interface for managing a drobo, as well
+as a graphical dashboard interface.  these tools allow you to setup a new
+drobo, and monitor the status of connected drobos.
+
+to enable the graphical interface, please be sure to install the suggested
+python-qt4 package, as well as gparted.
+
+data robotics storage units ("drobos") are external hard drive enclosures that
+connect to your pc via usb or firewire and provide raid-like features.  drobos
+provide automatic data redundancy, hotswappable drive bays, and the size of
+the raid can be easily expanded.  different sized hard drives can be mixed on
+the same drobo.  see http://drobo.com for more information.

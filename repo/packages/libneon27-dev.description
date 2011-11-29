@@ -1,0 +1,7 @@
+Header and static library files for libneon27
+	
+this package contains the headers and the static library for libneon27.
+
+neon provides lower-level interfaces to directly implement new http
+methods, and higher-level interfaces so that you don't have to
+worry about the lower-level stuff.

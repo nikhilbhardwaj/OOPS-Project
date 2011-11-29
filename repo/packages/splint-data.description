@@ -1,0 +1,25 @@
+Tool for statically checking c programs for bugs - data files
+	
+splint is an annotation-assisted lightweight static checker.  it is a tool for
+statically checking c programs for security vulnerabilities and coding
+mistakes.  if additional effort is invested in adding annotations to programs,
+splint can perform stronger checking.
+
+splint does many of the traditional lint checks including unused declarations,
+type inconsistencies, use before definition, unreachable code, ignored return
+values, execution paths with no return, likely infinite loops, and fall
+through cases.  problems detected by splint include:
+
+
+ * dereferencing a possibly null pointer
+ * using or returning storage that is undefined or not properly defined
+ * type mismatches, with greater precision and flexibility than by c compilers
+ * memory management errors like use of dangling references and memory leaks
+ * inconsistent (with specified interface) global variable modification or use
+ * problematic control flow such as likely infinite loops etc.
+ * buffer overflow vulnerabilities
+ * dangerous macro implementations or invocations
+ * violations of customized naming conventions
+
+
+this package contains the data files that are necessary to use splint.

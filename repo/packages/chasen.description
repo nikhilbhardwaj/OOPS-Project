@@ -1,0 +1,7 @@
+A japanese morphological analysis system
+	
+chasen is a morphological analysis system. it can segment and
+tokenize japanese text string, and can output with many additional
+information (pronunciation, semantic information, and others).
+it will print the result of such an operation to the standard output,
+so that it can be either written to a file or further processed.

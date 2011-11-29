@@ -1,0 +1,10 @@
+Simple top-like i/o monitor
+	
+iotop does for i/o usage what top(1) does for cpu usage. it watches i/o
+usage information output by the linux kernel and displays a table of
+current i/o usage by processes on the system. it is handy for answering
+the question "why is the disk churning so much?".
+
+iotop can only run under a linux 2.6.20 or later kernel built with the
+config_taskstats, config_task_delay_acct, config_task_io_accounting and
+config_vm_event_counters build config options on.

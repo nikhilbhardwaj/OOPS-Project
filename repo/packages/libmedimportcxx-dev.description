@@ -1,0 +1,8 @@
+Development files for libmedimportcxx0 (c++ support)
+	
+med-fichier (modélisation et echanges de données, in english modelisation
+and data exchange) is a library to store and exchange meshed data or
+computation results. it uses the hdf5 file format to store the data.
+
+this package contains the header files and static library needed to
+compile applications that use libmdc.

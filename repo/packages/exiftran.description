@@ -1,0 +1,8 @@
+Transform digital camera jpeg images
+	
+exiftran is a command line utility to transform digital image jpeg
+images. it can do lossless rotations like jpegtran, but unlike
+jpegtran it cares about the exif data: it can rotate images
+automatically by checking the exif orientation tag, it updates the
+exif informaton if needed (image dimension, orientation), it also
+rotates the exif thumbnail. it can process multiple images at once.

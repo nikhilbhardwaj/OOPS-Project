@@ -1,0 +1,17 @@
+Java library to instantiate a new object of a particular class
+	
+objenesis is a small java library that serves one purpose: to instantiate a
+new object of a particular class.
+java already supports this dynamic instantiation of classes using
+class.newinstance(). however, this only works if the class has an appropriate
+constructor. there are many times when a class cannot be instantiated this
+way, such as when the class contains:
+
+ * constructors that require arguments.
+ * constructors that have side effects.
+ * constructors that throw exceptions.
+
+as a result, it is common to see restrictions in libraries stating that
+classes must require a default constructor.
+objenesis aims to overcomes these restrictions by bypassing the constructor
+on object instantiation.

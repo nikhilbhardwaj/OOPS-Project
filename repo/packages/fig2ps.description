@@ -1,0 +1,13 @@
+Converts xfig files into ps, eps or pdf files using latex for processing text
+	
+this perl script takes into advantage the pstex and pstex_t export
+formats of fig2dev (xfig) to separate special text and the rest of a xfig
+file. then, the text is processed separately using latex, and
+everything is put back together at the end, to make a nice wonderful
+figure with the text formatted exactly the same way as the article you
+are typing ! pdf output is also available.
+
+though gv is strictly speaking not necessary for conversion, it can
+be called directly by fig2ps depending on the options you choose.
+for nice pdf output, you should install type 1 fonts, such as lmodern
+or cm-super.

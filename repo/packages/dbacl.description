@@ -1,0 +1,11 @@
+Digramic bayesian text classifier
+	
+dbacl can distill text documents into categories, and then
+compare other text documents to the learned categories.
+
+it can be used to recognize spam, and more generally
+sort incoming email into any number of categories such as
+work, play, and so on.
+
+as a noise filter, it can be useful during the indexing of
+personal document collections.

@@ -1,0 +1,11 @@
+Virtual machine running in user mode
+	
+faumachine is a virtual machine that can simulate pc hardware like qemu.
+its main focus is to simulate the real hardware as close as possible.
+
+faumachine comes with the ability to inject faults to different hardware
+simulators, e.g. to inject intermittent or transient faults to the simulated
+disk or the simulated memory.
+
+faumachine also comes with an experiment controller, with which automated
+tests, like installing an operating system from an iso image, can be run.

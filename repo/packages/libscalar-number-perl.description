@@ -1,0 +1,13 @@
+Perl module for handling numeric aspects of scalars
+	
+scalar::number is about the numeric part of plain (string) perl scalars.
+a scalar has a numeric value, which may be expressed in either the
+native integer type or the native floating point type. many values
+are expressible both ways, in which case the exact representation is
+insignificant. to fully understand perl arithmetic it is necessary to
+know about both of these representations, and the differing behaviours
+of numbers according to which way they are expressible.
+
+scalar::number provides functions to extract the numeric part of a scalar,
+classify a number by expressibility, and compare numbers across
+representations.

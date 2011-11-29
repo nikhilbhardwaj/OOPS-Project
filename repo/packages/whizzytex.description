@@ -1,0 +1,8 @@
+A wysiwyg emacs environment for latex
+	
+whizzytex is an emacs minor mode for incrementally
+(texing and) previewing a latex file while editing at real-time.
+
+it works with ghostview-based and xdvi-based previewers,
+but enhanced visual effects and wider variety of options
+will be available when using the advi dvi-previewer.

@@ -1,0 +1,9 @@
+Console svga display utilities
+	
+svgalib provides graphics capabilities to programs running on the
+system console, without going through the x window system. it uses
+direct access to the video hardware to provide low-level access to
+the standard vga and svga graphics modes. only works with some
+video hardware; use with caution.
+
+this package contains the svgalib utility programs.

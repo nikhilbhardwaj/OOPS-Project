@@ -1,0 +1,6 @@
+A ruby library for programmatic access to the amazon website
+	
+ruby/amazon allows ruby programs to fetch data from the popular amazon
+website via the rest (xml over http) based amazon web services. in addition
+to the original amazon.com site, the amazon.co.uk, amazon.de and amazon.co.jp
+properties are also supported.

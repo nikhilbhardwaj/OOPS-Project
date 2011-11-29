@@ -1,0 +1,14 @@
+Color management system, calibrator and profiler
+	
+argyll is an experimental, open source, icc compatible color management
+system. it supports accurate icc profile creation for scanners, cmyk
+printers, film recorders and calibration and profiling of displays.
+spectral sample data is supported, allowing a selection of illuminants
+observer types, and paper fluorescent whitener additive compensation.
+profiles can also incorporate source specific gamut mappings for perceptual
+and saturation intents. gamut mapping and profile linking uses the ciecam02
+appearance model, a unique gamut mapping algorithm, and a wide selection of
+rendering intents. it also includes code for the fastest portable 8 bit
+raster color conversion engine available anywhere, as well as support for
+fast, fully accurate 16 bit conversion. device color gamuts can also be
+viewed and compared using a vrml viewer.

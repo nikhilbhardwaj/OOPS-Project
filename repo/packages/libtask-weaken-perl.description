@@ -1,0 +1,15 @@
+Ensure that a platform has weaken support
+	
+one recurring problem in modules that use scalar::util's weaken function is
+that it is not present in the pure-perl variant.
+
+while this isn't necesarily always a problem in a straight cpan-based perl
+environment, some operating system distributions only include the pure-perl
+versions, don't include the xs version, and so weaken is then "missing" from
+the platform, despite passing a dependency on scalar::util successfully.
+
+most notably this is redhat linux at time of writing, but other come and go
+and do the same thing, hence "recurring problem".
+
+the normal solution is to manually write tests in each distribution to ensure
+that weaken is available.

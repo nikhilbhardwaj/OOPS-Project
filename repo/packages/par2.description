@@ -1,0 +1,9 @@
+Parity archive volume set, for checking and repair of files
+	
+a command line implementation of the par v2.0 specification.  this
+specification is used for parity checking and repair of a file set.
+if the files in the recovery set ever get damaged (e.g. when they are
+transmitted or stored on a faulty disk) the client can read the damaged
+input files, read the (possibly damaged) par files, and regenerate the
+original input files. of course, not all damages can be repaired, but
+many can.

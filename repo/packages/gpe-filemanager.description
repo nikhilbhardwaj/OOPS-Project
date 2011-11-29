@@ -1,0 +1,17 @@
+File manager for gpe
+	
+the gpe filemanager provides a simple graphical interface
+for accessing and manipulating files.
+
+gpe-filemanager makes use of the gnome virtual filesystem, allowing
+access to a variety of filesystem backends including ftp, smb or ssh.
+it implements freedesktop.org specified mime type identification and
+application selection so that gpe-filemanager is able to launch applications
+associated to a certain file type.
+
+the user interface is designed to scale from small portrait mode
+pda displays (qvga, 240x320) up to resolutions typical for web pads
+and notebooks.
+
+this package is part of the gpe palmtop environment,
+intended to be used on palmtop computers.

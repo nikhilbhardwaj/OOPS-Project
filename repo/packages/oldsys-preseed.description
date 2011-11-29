@@ -1,0 +1,5 @@
+Preseed debian-installer from an existing device
+	
+this udeb is used to preseed debian-installer from information already
+found on a device, such as the network configuration from an existing
+unix installation or from flash on some embedded devices.

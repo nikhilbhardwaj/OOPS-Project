@@ -1,0 +1,9 @@
+Framework exposing the olson time zone database to perl
+	
+datetime::timezone is a perl module framework providing an interface to the
+olson time zone database. it exposes the database as a set of modules, one
+for each time zone defined, allowing for various optimizations in doing time
+zone calculations.
+
+the olson time zone database is the best available source for worldwide time
+zone information and is available from <url:ftp://elsie.nci.nih.gov/pub/>.

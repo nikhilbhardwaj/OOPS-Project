@@ -1,0 +1,22 @@
+Universal character encoding detector
+	
+chardet takes a sequence of bytes in an unknown character encoding, and
+attempts to determine the encoding.
+
+supported encodings:
+
+ * ascii, utf-8, utf-16 (2 variants), utf-32 (4 variants)
+ * big5, gb2312, euc-tw, hz-gb-2312, iso-2022-cn (traditional and simplified
+   chinese)
+ * euc-jp, shift_jis, iso-2022-jp (japanese)
+ * euc-kr, iso-2022-kr (korean)
+ * koi8-r, maccyrillic, ibm855, ibm866, iso-8859-5, windows-1251 (cyrillic)
+ * iso-8859-2, windows-1250 (hungarian)
+ * iso-8859-5, windows-1251 (bulgarian)
+ * windows-1252 (english)
+ * iso-8859-7, windows-1253 (greek)
+ * iso-8859-8, windows-1255 (visual and logical hebrew)
+ * tis-620 (thai)
+
+
+this library is a port of the auto-detection code in mozilla.

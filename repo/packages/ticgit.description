@@ -1,0 +1,7 @@
+Ticketing system built on git
+	
+ticgit is an issue tracking system based in the git revision control
+system. tickets are stored in a separate branch called “ticgit” within
+a git repository that can be made available on a public server along
+with the project’s source code. the idea is to keep tickets close to a
+project without touching its source tree.

@@ -1,0 +1,7 @@
+Library for particle image velocimetry (piv) - common files
+	
+this library contains functions for evaluating images from a fluid
+flow by means of particle image velocimetry (piv).
+
+this package contains the files that the libgpiv3-* packages share,
+like the configuration file.

@@ -1,0 +1,13 @@
+Octave bindings to the xraylib functions
+	
+xraylib is a library to provide access to data sets from different
+published works on spectroscopic and imaging techniques using x-ray
+fluorescence.  although the target applications are on x-ray
+fluorescence, cross sections of interactions like photoionization,
+coherent scattering and compton scattering, as well as form factors
+and anomalous scattering functions, are also available.
+
+this package contains the binding to access the xraylib functions
+from octave, a scientific computation software.
+
+this octave add-on package is part of the octave-forge project.

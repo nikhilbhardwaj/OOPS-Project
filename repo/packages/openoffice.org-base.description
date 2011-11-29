@@ -1,0 +1,24 @@
+Office productivity suite -- database
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains the database component for openoffice.org.
+
+you can extend the functionality of openoffice.org base by installing these
+packages:
+
+
+ * unixodbc: odbc database support
+ * libmyodbc | odbc-postgresql | libsqliteodbc | tdsodbc | mdbtools: odbc
+   drivers for:
+   - mysql
+   - postgresql
+   - sqlite
+   - ms sql / sybase sql
+   - *.mdb (jet / ms access)
+ * libmysql-java | libpg-java | libjtds-java: jdbc drivers
+   for:
+   - mysql
+   - postgresql
+   - ms sql server and sybase

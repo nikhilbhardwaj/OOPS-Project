@@ -1,0 +1,7 @@
+Bridge double dummy solver - python extension
+	
+dds is a double dummy solver. this package contains pydds, the python
+extension.
+
+a double dummy solver computes the optimal line of play for a bridge deal,
+with all hands open (both sides dummy).

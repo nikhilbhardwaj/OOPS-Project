@@ -1,0 +1,17 @@
+Manipulation of various common network address notations
+	
+netaddr is a python library for the manipulation of various common
+network address notations and representations.
+
+it takes the hassle out of fiddling with enumerable variations of
+network addresses presenting a consistent, extensible, easy-to-use
+and (above all) pythonic api.
+
+with it you can validate, convert, categorise, iterate, generate,
+slice (and dice):
+
+ - mac (media access control)
+ - ieee eui-48 and eui-64
+ - ip version 4
+ - ip version 6
+ - cidr (classless inter-domain routing)

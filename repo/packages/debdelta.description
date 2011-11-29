@@ -1,0 +1,14 @@
+Diff and patch utilities which work with debian packages
+	
+debdelta is a program suite designed to compute changes between
+debian packages. these changes (deltas) are similar to the output of the
+"diff" program in that they may be used to store and transmit only the
+changes between debian packages.
+
+this suite contains 'debdelta-upgrade', that downloads deltas and use them
+to create all debian packages needed for an 'apt-get upgrade'.
+it may be used in a debian/unstable host (to speed up download of new
+packages), or in a debian/stable host (for security updates).
+
+similarly, when this package is installed, the 'cupt' package manager will
+use deltas to upgrade the host.

@@ -1,0 +1,9 @@
+A simple date object for perl
+	
+dates are complex enough without times and timezones.  this module may
+be used to create simple date objects.
+
+it handles validation, interval arithmetic, day-of-week calculation
+and transparent date formatting.
+
+it does not deal with hours, minutes, seconds, and time zones.

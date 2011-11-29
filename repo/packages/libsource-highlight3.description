@@ -1,0 +1,6 @@
+Source highlighting library
+	
+this is the library that underlies the source-highlight program
+suite.  it converts source code to a document with syntax
+highlighting and supports many file formats.  the library can be used
+by other c++ programs to get source code highlighting capabilities.

@@ -1,0 +1,11 @@
+Java(tm) db, sun microsystems' distribution of apache derby
+	
+java db is sun's supported distribution of the open source apache
+derby 100% java technology database. it is fully transactional, secure,
+easy-to-use, standards-based -- sql, jdbc api, and java ee -- yet small,
+only 2mb.
+
+this package adds the optional java db to your jdk 6 installation.
+
+for more information, check out the java db website:
+http://developers.sun.com/prodtech/javadb/

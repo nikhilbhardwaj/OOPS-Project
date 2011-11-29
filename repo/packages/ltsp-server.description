@@ -1,0 +1,9 @@
+Basic ltsp server environment
+	
+this is the basic environment including the minimal features necessary to
+build an ltsp environment.
+
+it also recommends services needed for thin-clients to boot and mount
+filesystems over the network.
+
+ltsp stands for 'linux terminal server project'.

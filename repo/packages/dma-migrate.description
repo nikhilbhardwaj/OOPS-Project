@@ -1,0 +1,5 @@
+Migration utility for the dragonfly mail agent's spool files
+	
+the dma-migrate utility examines the dragonfly mail agent's mail queue
+and performs any conversions from old message file formats to the most
+recent one as needed.

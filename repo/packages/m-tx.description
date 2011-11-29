@@ -1,0 +1,9 @@
+A simple music-from-text language for use with pmx/musixtex
+	
+m-tx is a preprocessor for pmx (which is, in turn, a musixtex preprocessor)
+that facilitates inputting lyrics. it builds the pmx input file based on a
+language very similar to pmx. m-tx includes most of pmx's functionality, but it
+also permits in-line pmx commands to give access to virtually all of pmx.
+
+
+ author: dirk laurie <dlaurie@na-net.ornl.gov>

@@ -1,0 +1,11 @@
+Gnu ada project manager
+	
+gnat, the gnu ada compiler, uses project files to organise source and object
+files in large-scale development efforts.  several other tools, such as
+asis tools (package asis-programs) and gnat programming studio (package
+gnat-gps) also use project files.  this library contains the necessary
+support; it was built from gnat itself.  it is licensed under the pure gpl;
+all programs that use it must also be distributed under the gpl, or not
+distributed at all.
+
+this package contains the debugging symbols for the run-time shared library.

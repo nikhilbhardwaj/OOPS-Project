@@ -1,0 +1,13 @@
+Manage a case preserving but case insensitive hash table
+	
+tie::cphash provides a hash table that is case preserving but case
+insensitive. this means that
+
+
+ $cphash{key}    $cphash{key}
+ $cphash{key}    $cphash{key}
+
+
+all refer to the same entry.  also, the hash remembers which form of
+the key was last used to store the entry.  the keys and each functions
+will return the key that was used to set the value.

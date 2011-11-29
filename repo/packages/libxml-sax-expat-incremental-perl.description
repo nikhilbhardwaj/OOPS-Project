@@ -1,0 +1,11 @@
+Xml::sax::expat subclass for non-blocking (incremental) parsing
+	
+most xml parsers give a callback interface within an encapsulated loop and
+eventually, when the xml source is depleted by the parser, the parse function
+will return.
+
+sometimes you don't want the parser to control the loop for you. for example,
+if you need to retrieve your xml in chunks in a funny way, you might need to
+use a kind of iterator to get your xml data.
+
+this module provides this possibility.

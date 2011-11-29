@@ -1,0 +1,28 @@
+Programming environment and scene editor for 3d games
+	
+qcake is a programming environment as well as a scene editor for 3d
+games based on plib. qcake will support almost all plib functions.
+
+currently implemented features:
+
+ * hierarchical object tree
+ * non-blocking scene display with plib
+ * lens flare, fire and fog
+ * particle and wave systems
+ * cameras
+ * project file using xml-opml format
+ * player controlled by keyboard, mouse and joystick
+ * physics and collision with ode
+ * barrier object
+ * body object
+ * player camera: tv, 2d, ego modes
+ * dynamic sky
+ * spl scripting language
+ * javascript
+ * 3d sound with openal
+ * sound- and object catalogue
+ * gui with plib user interface
+ * md2 bone-animation
+ * pathfinding with astar
+ * pixel and vertex shader with glsl
+ * qcake-player to release your project

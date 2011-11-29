@@ -1,0 +1,7 @@
+Portable compression library - development
+	
+ucl is a portable lossless data compression library written in ansi c,
+implementing a number of compression algorithms that achieve an
+excellent compression ratio while allowing *very* fast decompression.
+
+this package contains the development support files.

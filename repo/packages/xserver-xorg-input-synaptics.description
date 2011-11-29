@@ -1,0 +1,26 @@
+Synaptics touchpad driver for x.org server
+	
+this package provides an input driver for the x.org x server to enable
+advanced features of the synaptics touchpad including:
+
+
+ * movement with adjustable, non-linear acceleration and speed
+ * button events through short touching of the touchpad
+ * double-button events through double short touching of the touchpad
+ * dragging through short touching and holding down the finger on the touchpad
+ * middle and right button events on the upper and lower corner of the touchpad
+ * vertical scrolling (button four and five events) through moving the finger
+   on the right side of the touchpad
+ * the up/down button sends button four/five events
+ * horizontal scrolling (button six and seven events) through moving the finger
+   on the lower side of the touchpad
+ * the multi-buttons send button four/five events, and six/seven events for
+   horizontal scrolling
+ * adjustable finger detection
+ * multifinger taps: two finger for middle button and three finger for right
+   button events. (needs hardware support. not all models implement this
+   feature.)
+ * run-time configuration using shared memory. this means you can change
+   parameter settings without restarting the x server (see synclient(1)).
+ * it also provides a daemon to disable touchpad while typing at the keyboard
+   and thus avoid unwanted mouse movements (see syndaemon(1)).

@@ -1,0 +1,31 @@
+Builtin kernel debugger
+	
+this package contains a patch to the linux kernel, which provides a
+means of examining kernel memory and data structures while the system
+is operational.
+
+this package includes a magicpoint presentation and demo; you'll need
+the mgp package to view it.
+
+additional commands may be easily added to format and display
+essential system data structures given an identifier or address of the
+data structure.
+
+current command set allows complete control of kernel operations
+including single-stepping a processor, stopping upon execution of a
+specific instruction, stopping upon access (or modification) of a
+specific virtual memory location, stopping upon access to a register
+in the input-output address space, stack tracebacks for the current
+active task as well as for all other tasks (by process id),
+instruction disassembly, et. al.
+
+included is support for 2.6.7 on i386 and ia64, and 2.6.6 on i386,
+ia64, sparc64, and amd64. kdb 4.3 versions for 2.6.5 and 2.4.25 are
+also provided.  versions close enough may (or may not) work.  please
+look at /use/share/doc/kernel-patch-kdb/readme.debian for more info.
+
+the bfd headers from the binutils-dev package are required to compile
+a kdb-enabled kernel.
+
+version 6.23 of the kernel-package package has a bug preventing correct
+application of this patch.

@@ -1,0 +1,10 @@
+Apertium linguistic data to translate between spanish and catalan
+	
+this is a linguistic package for the apertium shallow-transfer
+machine translation system. the package can be used to translate
+between spanish and catalan, both romance languages of the
+iberian peninsula.
+
+to use this package you will need to install both lttoolbox,
+the lexical-processing tools, and apertium, the tagger and
+transfer engine.

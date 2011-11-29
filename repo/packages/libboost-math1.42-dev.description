@@ -1,0 +1,15 @@
+Boost.math library development files
+	
+this package forms part of the boost c++ libraries collection.
+
+this library is divided into three interconnected parts:
+
+ * statistical distributions: provides a reasonably comprehensive set of
+   statistical distributions, upon which higher level statistical tests
+   can be built.
+ * mathematical special functions: provides a small number of high quality
+   special functions, initially these were concentrated on functions used in
+   statistical applications along with those in the technical report on
+   c++ library extensions.
+ * implementation toolkit: provides many of the tools required to implement
+   mathematical special functions.

@@ -1,0 +1,9 @@
+Red hat cluster suite - fence server development files
+	
+this package is part of the red hat cluster suite, a complete
+high-availability solution.
+
+fenced is the daemon in charge of controlling cluster node fencing.
+
+this package contains the files needed for developing applications
+that need to request node fencing.

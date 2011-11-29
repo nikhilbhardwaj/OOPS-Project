@@ -1,0 +1,13 @@
+Better approach to mobile adhoc networking
+	
+b.a.t.m.a.n. (better approach to mobile ad-hoc networking) is a new routing
+protocol for multi-hop ad-hoc mesh networks.
+
+the approach of the b.a.t.m.a.n algorithm is to divide the knowledge about the
+best end-to-end paths between nodes in the mesh to all participating nodes.
+each node perceives and maintains only the information about the best next hop
+towards all other nodes. thereby the need for a global knowledge about local
+topology changes becomes unnecessary. additionally, an event-based but timeless
+flooding mechanism prevents the accruement of contradicting topology
+information and limits the amount of topology messages flooding the mesh. the
+algorithm is designed to deal with networks that are based on unreliable links.

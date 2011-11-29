@@ -1,0 +1,13 @@
+Strong, lightweight web application framework for perl
+	
+titanium is solid and mature. while it has a new name, the reality is
+that titanium is simply a more user-friendly packaging of the mature
+cgi::application framework and some useful plugins.
+
+titanium is lightweight; it has a light core and the plugins it uses employ
+lazy-loading whenever possible. it runs well in a plain cgi environment and
+provides excellent performance in a persistent environment such as fastcgi
+or mod_perl.
+
+applications are compatible with plugins for cgi::application, so you can add
+additional features as your needs evolve.

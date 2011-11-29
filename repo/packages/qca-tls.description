@@ -1,0 +1,11 @@
+Tls plugin for the qt cryptographic architecture (qca)
+	
+this is a plugin to provide ssl/tls capability to programs that
+utilize the qt cryptographic architecture (qca).
+
+qca is a library providing an easy api for several cryptographic algorithmns
+to qt programs.
+
+at the moment only the qca-tls plugin is packaged for debian, as it's
+used by the package 'psi'. the generic library and several other plugins
+will be packaged when upstream releases them.

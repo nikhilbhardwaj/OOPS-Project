@@ -1,0 +1,9 @@
+Split-terminal user interface for perl
+	
+term::visual is a "visual" terminal interface for curses applications.
+it provides the split-screen interface you may have seen in console
+based irc and mud clients.
+
+term::visual uses the poe networking and multitasking framework to support
+concurrent input from network sockets and the console, multiple
+timers, and more.

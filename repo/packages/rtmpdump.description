@@ -1,0 +1,5 @@
+A small dumper for media content streamed over the rtmp protocol
+	
+a small dumper for media content streamed over the rtmp protocol (like bbc's
+iplayer high quality streams). supplying an rtmp url will result in a dumped
+flv file, which can be played/transcoded using ffmpeg/mplayer, etc.

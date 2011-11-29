@@ -1,0 +1,11 @@
+Queries multiple realtime blackhole lists in parallel
+	
+this module is used to discover what rbl's are listing a particular ip
+address.  it parallelizes requests for fast response.
+
+an rbl, or realtime blackhole list, is a list of ip addresses meeting some
+criteria such as involvement in unsolicited bulk email.  each rbl has
+its own criteria for addition and removal of addresses.  if you want to
+block email or other traffic to/from your network based on one or more
+rbls, you should carefully study the behavior of those rbls before and
+during such blocking.

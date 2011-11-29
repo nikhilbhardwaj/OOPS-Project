@@ -1,0 +1,12 @@
+Sql translation utilities
+	
+sql::translator (also known as sql fairy) is a collection of perl modules
+for manipulating structured data definitions (mostly database schemas). it
+can perform tasks like converting between different sql data definition
+language (ddl) dialects, visualizations of schemas (pseudo-er diagrams
+created with gd or graphviz), converting non-rdbms files to sql schemas
+(xsv text files, excel spreadsheets), serializing parsed schemas (via
+storable, yaml and xml), creating documentation, and more.
+
+this package contains various command-line utilities for translations and
+visualizations.

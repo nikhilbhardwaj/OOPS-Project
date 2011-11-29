@@ -1,0 +1,18 @@
+Graphical file/directory comparison and merge tool
+	
+xxdiff is a powerful tool for viewing the differences between two or three
+files, or two directories, and can be used to produce a merged version.  the
+texts of the two or three files are presented side by side with their
+differences highlighted with colors for easy identification.  among its
+features are:
+
+
+ * compares two or three files, or two directories (shallow and recursive)
+ * horizontal highlighting of diffs
+ * interactive merges, previewing and saving of the resulting output
+ * unmerges cvs conflicts and displays two files, to help resolve conflicts
+ * fully customizable with a resource file
+ * features and output that ease integration with scripts
+
+
+the scripts that accompany xxdiff can be found in the xxdiff-scripts package.

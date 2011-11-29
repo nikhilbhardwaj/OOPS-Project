@@ -1,0 +1,7 @@
+Php library implementing the oauth secure authentication protocol
+	
+oauth is a simple way to publish and interact with protected data.  it allows
+the user to grant access to their private resources on one site, to another
+site. while openid is all about using a single identity to sign into many
+sites, oauth is about giving access to your stuff without sharing your identity
+at all.

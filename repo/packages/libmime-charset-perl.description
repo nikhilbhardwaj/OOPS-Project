@@ -1,0 +1,8 @@
+Perl module for mime character set information
+	
+mime::charset provides information about character sets specified in the mime
+(multipurpose internet mail extensions) format. it is often used to describe
+character set and encoding information for messages on the internet.
+
+this module allows one to work with character sets and encodings, providing
+a simple facility for converting between them.

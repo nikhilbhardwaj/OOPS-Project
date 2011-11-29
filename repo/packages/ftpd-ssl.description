@@ -1,0 +1,12 @@
+Ftp server with ssl encryption support
+	
+this is the netkit ftp server with encryption support.
+
+ftpd-ssl replaces normal ftpd using ssl authentication and encryption.
+it interoperates with normal ftp.
+it checks if the other side is also talking ssl, if not it falls back
+to normal ftp protocol.
+
+advantages over normal ftp(d): your passwords and the data you send
+will not go in cleartext over the line. nobody can get it with
+tcpdump or similar tools.

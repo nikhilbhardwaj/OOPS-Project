@@ -1,0 +1,7 @@
+Debian jr. project common package
+	
+this package builds the basic infra structure of all junior-* packages.
+
+this package provides some files which are common to all junior-* packages.
+moreover it introduces a method to handle system users in a group
+junior using debconf.

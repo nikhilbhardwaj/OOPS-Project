@@ -1,0 +1,11 @@
+X11 postscript type 1 font for the phonetic alphabet
+	
+tipa is a system for processing ipa (international phonetic
+alphabet) symbols in latex written by fukui rei.  tipa stands for
+either tex ipa or tokyo ipa and derived from the tsipa package, made
+in 1992 by kobayashi hajime, fukui rei and shirakawa shun.
+
+this package contains type 1 version of the tipa fonts for the x
+window system.  it contains the pfb and afm files.  the installed x
+font has the silipa encoding (see
+http://www.sil.org/computing/fonts/encore-ipa.html).

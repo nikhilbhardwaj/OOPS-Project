@@ -1,0 +1,7 @@
+Assembles a dvd video filesystem from html pages and video files
+	
+videolink is intended to provide a simple way of producing dvds with
+attractive and usable menus.  it converts html pages into dvd menus by
+rendering them in mozilla and reproducing their link structure.  this
+allows you to design dvds using familiar html editing tools or your
+favourite text editor.

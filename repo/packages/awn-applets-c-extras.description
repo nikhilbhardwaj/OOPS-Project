@@ -1,0 +1,13 @@
+A collection of extras applets for awn, written in c or vala
+	
+awn-extras-applets is a collection of applets for avant-window-navigator. it
+provides some extensions to the bar and some new features (like
+applets in the gnome-panel).
+
+this package contains extras applets written in c:
+
+ * digitalclock: a digital clock and calendar applet.
+ * main-menu: display a list of all the applications on your computer.
+ * places: displays shortcuts in buttons.
+ * sysmon: display cpu activity and system stats on click.
+ * webapplet: displays a web page.

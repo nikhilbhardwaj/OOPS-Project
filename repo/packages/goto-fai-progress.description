@@ -1,0 +1,8 @@
+Fully automatic installation progress bar
+	
+fai is a non-interactive system to install a debian gnu/linux operating
+system unattended on a pc cluster. you can take one or more virgin
+pcs, turn on the power, and after a few minutes, linux is installed,
+configured, and running on the whole cluster, without any interaction
+necessary. this package contains the software needed to show graphical
+or textual progress bars during the installation.

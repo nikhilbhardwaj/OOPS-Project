@@ -1,0 +1,6 @@
+Display dos style hierarchical directory tree
+	
+display an indented directory tree using ascii graphical character to
+represent hierarchical sturucture. the directories to include or
+exlude can be specified with command line options. a perl
+implementation of the tree(1) program.

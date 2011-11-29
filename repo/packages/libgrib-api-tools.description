@@ -1,0 +1,10 @@
+Grib decoding/encoding software (utilities)
+	
+the ecmwf grib api is an application program interface accessible from c and
+fortran programs developed for encoding and decoding wmo fm-92 grib edition 1
+and edition 2 messages.
+
+this is a useful set of command line tools to give quick access to grib
+messages.
+
+ecmwf is the european centre for medium-range weather forecasts.

@@ -1,0 +1,8 @@
+Xml security library
+	
+the xml security library implements standards related to secure handling
+of xml data.
+
+this package provides dynamic libraries for use by applications.
+specifically, it provides all xml security library functionality
+except for the cryptography engine.

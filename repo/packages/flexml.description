@@ -1,0 +1,6 @@
+Generate fast validating xml processors and applications
+	
+flexml makes it easy to generate very fast validating xml processors
+as flex(1) source.
+
+by design it can only handle documents using an external dtd.

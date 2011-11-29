@@ -1,0 +1,10 @@
+A command-line shell for sound-file players
+	
+a command-line shell for programs like mpg123 and ogg123, music123
+plays a variety of sound files using a mpg123/ogg123-like interface.
+with all the recommends installed, music123 plays wav, mp3 and
+ogg files. by simply changing the config file, music123 can play any
+sound file you have a player for.
+
+(if you install a recent version of vorbis-tools, music123 will
+handle ogg flac and ogg speex files too.)

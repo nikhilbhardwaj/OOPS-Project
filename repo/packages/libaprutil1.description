@@ -1,0 +1,8 @@
+The apache portable runtime utility library
+	
+apr is apache's portable runtime library, designed to be a support library
+that provides a predictable and consistent interface to underlying
+platform-specific implementations.
+
+apr util is a utilities library implemented on top of apr, providing database
+access, xml parsing, and other useful functionality.

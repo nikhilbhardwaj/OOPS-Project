@@ -1,0 +1,16 @@
+Pop-before-dyndns service using djbdns
+	
+tinydyndns is a simple but powerful dynamic dns solution that uses
+djbdns.  it cooperates with the djbdns package to publish dynamic ip
+addresses authenticated through pop connections.  on successfully
+authenticated pop connections, the tinydyndns-update program manipulates
+tinydns' constant database "data.cdb" directly without rebuilding it;
+this makes the dynamic dns solution use very few system resources.
+
+using a pop service for authentication saves the work for installing
+special client software, since pop clients are available for every
+common network-aware operating system.  to provide the dns and pop
+services, tinydyndns cooperates with djbdns, mailfront, and cvm.
+
+the pop service can easily be replaced with other services that provide
+authentication, such as apop, imaps, ...

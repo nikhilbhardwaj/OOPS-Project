@@ -1,0 +1,8 @@
+Efficient arrays for haskell; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+an efficient implementation of int-indexed arrays (both mutable and
+immutable), with a powerful loop fusion optimization framework.

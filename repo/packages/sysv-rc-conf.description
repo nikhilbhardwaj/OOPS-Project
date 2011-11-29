@@ -1,0 +1,7 @@
+Sysv init runlevel configuration tool for the terminal
+	
+sysv-rc-conf provides a terminal gui for managing "/etc/rc{runlevel}.d/"
+symlinks.  the interface comes in two different flavors, one that simply
+allows turning services on or off and another that allows for more fine tuned
+management of the symlinks.  unlike most runlevel config programs, you can
+edit startup scripts for any runlevel, not just your current one.

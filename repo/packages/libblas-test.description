@@ -1,0 +1,22 @@
+Basic linear algebra subroutines 3, testing programs
+	
+this package is a binary incompatible upgrade to the blas-test
+package. several minor changes to the c interface have been
+incorporated. one can maintain both versions on a system
+simultaneously to aid in the transition.
+
+blas (basic linear algebra subroutines) is a set of efficient
+routines for most of the basic vector and matrix operations.
+they are widely used as the basis for other high quality linear
+algebra software, for example lapack and linpack.  this
+implementation is the fortran 77 reference implementation found
+at netlib.
+
+this package contains a set of programs which test the integrity
+of an installed blas-compatible shared library.  these programs
+may therefore be used to test the libraries provided by the
+blas package as well as those provided by the atlas packages.
+the programs are dynamically linked -- one can explicitly select
+a library to test by setting the ld_library_path or ld_preload
+environment variables.  likewise, one can display the library
+selected using the ldd program in an identical environment.

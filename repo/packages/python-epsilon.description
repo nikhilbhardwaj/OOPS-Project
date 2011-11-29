@@ -1,0 +1,17 @@
+Utility python modules commonly used by divmod.org project
+	
+epsilon is a set of python utility modules, commonly used by all
+divmod.org python-based projects.
+
+this is intended mainly as a support package for code used by divmod
+projects, however it contains many useful modules.
+
+currently included:
+
+ * a powerful date/time formatting and import/export class
+   (extime.time), for exchanging date and time information between all
+   python's various ways to interpret objects as times or time deltas
+ * tools for managing concurrent asynchronous processes within twisted
+ * a metaclass which helps you define classes with explicit states
+ * a featureful version class
+ * a formal system for application of monkey-patches.

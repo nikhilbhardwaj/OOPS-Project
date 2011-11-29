@@ -1,0 +1,10 @@
+Pragma for using the c3 method resolution order
+	
+class::c3 is a perl pragma that modifies the standard method resolution order
+from depth-first left-to-right to the more sophisticated c3 method resolution
+order.
+
+the c3 algorithm aims to provide a sane method resolution order with multiple
+inheritance. it was first introduced in the dylan language, later adopted for
+python 2.3. it is also the canonical mro implementation for perl 6 classes
+and is the default for parrot objects as well.

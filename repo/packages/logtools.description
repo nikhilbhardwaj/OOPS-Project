@@ -1,0 +1,13 @@
+Russell's misc tools for managing log files.
+	
+clfmerge - merge common-log-format web logs in order without sorting (good for
+when you have a gig of logs).
+
+logprn - like "tail -f" but after a specified time period of inactivity will
+run a program (such as lpr) and pipe the new data to it)
+
+funnel - pipe one stream of data to several files or processes.
+
+clfsplit - split clf format web logs by client ip address.
+
+clfdomainsplit - split clf logs by server domain.

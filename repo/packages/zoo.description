@@ -1,0 +1,10 @@
+Manipulate zoo archives
+	
+zoo is used to create and maintain collections of files in compressed
+form.  it uses a lempel-ziv compression algorithm that gives space
+savings in the range of 20% to 80% depending on the type of file data.
+zoo can store and selectively extract multiple generations of the same
+file.
+
+this package exists for its historical value. if you are looking for
+a compression tool for serious use, check tar and gzip.

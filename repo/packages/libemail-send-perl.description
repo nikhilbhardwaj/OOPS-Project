@@ -1,0 +1,5 @@
+Perl module for simply sending email
+	
+email::send provides a very simple, very clean, very specific interface
+to multiple mailers. the goal of this software is to be small and simple,
+easy to use, and easy to extend.

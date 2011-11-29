@@ -1,0 +1,12 @@
+Command line tool reporting raid status for several raid types
+	
+array-info is a command line tool to retrieve informations and logical
+drives status from several raid controllers (currently hp compaq ida
+and ciss, and md software raid).
+
+it displays informations about the firmware version, rom revision,
+number of physical and logical drives on the controller, as well as the fault
+tolerance, size, number of physical disks and status for each logical drive.
+
+
+ homepage: http://sourceforge.net/projects/array-info

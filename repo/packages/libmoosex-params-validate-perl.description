@@ -1,0 +1,7 @@
+Perl module to validate moose method parameters
+	
+moosex::params::validate fills a gap in moose by adding method parameter
+validation to moose, providing a simple way to verify that incoming parameters
+are of the appropriate moose types and roles. this module is just one of many
+developing options to do this sort of thing; it should not yet be considered
+the "official" way to validate parameters.

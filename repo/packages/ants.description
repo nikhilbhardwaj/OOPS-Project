@@ -1,0 +1,12 @@
+Advanced normalization tools for brain and image analysis
+	
+advanced normalization tools (ants) is an itk-based suite of
+normalization, segmentation and template-building tools for
+quantitative morphometric analysis. many of the ants registration
+tools are diffeomorphic, but deformation (elastic and bspline)
+transformations are available. unique components of ants include
+multivariate similarity metrics, landmark guidance, the ability to
+use label images to guide the mapping and both greedy and space-time
+optimal implementations of diffeomorphisms. the symmetric
+normalization (syn) strategy is a part of the ants toolkit as is
+directly manipulated free form deformation (dmffd).

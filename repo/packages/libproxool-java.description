@@ -1,0 +1,6 @@
+Java jdbc connection pool
+	
+a java sql driver that provides a connection pool wrapper around
+another driver of your choice. very simple to migrate existing code.
+fully configurable. fast, mature and robust. transparently adds
+connection pooling to your existing jdbc driver.

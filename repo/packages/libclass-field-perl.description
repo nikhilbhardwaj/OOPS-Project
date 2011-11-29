@@ -1,0 +1,7 @@
+Class field accessor generator
+	
+class::field exports two subroutines, field and const. these
+functions are used to declare fields and constants in your class.
+
+class::field generates custom code for each accessor that is optimized
+for speed.

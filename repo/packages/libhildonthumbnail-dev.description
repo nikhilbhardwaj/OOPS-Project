@@ -1,0 +1,10 @@
+Hildon thumbnail library - development files
+	
+hildon-thumbnail is a thumbnail-generating and managing helper
+library for the hildon desktop. it includes an api for getting
+thumbnails for files. it is designed for devices with low performance
+and little memory. also included is a thumbnailer plugin for files
+supported by gdkpixbuf.
+
+this package contains the header files and other bits needed for
+developing with libhildonthumbnail

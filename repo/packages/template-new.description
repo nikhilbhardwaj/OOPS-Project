@@ -1,0 +1,15 @@
+A template system
+	
+template-new is called new by upstream author.
+
+it is especially useful in conjunction with a simple
+text editor such as vi. the user maintains templates which may contain
+format strings. at run time, new replaces the format strings in a
+template with appropriate values to create a new file.
+
+this amounts to creation of new files from templates by issuing a
+command like: template-new file.c
+
+it comes with a large set of predefined templates.
+
+upstream: http://www.flyn.org/projects/new/index.html

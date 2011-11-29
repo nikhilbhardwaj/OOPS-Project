@@ -1,0 +1,7 @@
+Kernel logging daemon
+	
+the klogd daemon listens to kernel message sources and is responsible
+for prioritizing and processing operating system messages.  the klogd
+daemon can run as a client of syslogd or optionally as a standalone
+program.  klogd can now be used to decode eip addresses if it can
+determine a system.map file.

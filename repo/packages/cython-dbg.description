@@ -1,0 +1,4 @@
+C-extensions for python (debug build of cython)
+	
+this package contains cython libraries built against versions of
+python configured with --pydebug.

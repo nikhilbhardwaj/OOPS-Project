@@ -1,0 +1,9 @@
+Lttng userspace tracer (utilities)
+	
+the userspace tracer is designed to provide detailed information about
+userspace activity. like the kernel tracer, performance is the main goal.
+tracing does not require system calls or traps. ust instrumentation points may
+be added in any userspace code including signal handlers and libraries.
+
+this package contains the ust utility applications necessary to record and
+analyze trace data.

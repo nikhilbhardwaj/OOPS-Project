@@ -1,0 +1,14 @@
+Pvm (parallel virtual machine) interface for s-lang
+	
+pvm (parallel virtual machine) is a software package which permits a
+heterogeneous collection computers connected by a network to be used
+as a single large parallel computer.
+
+the s-lang pvm module provides a s-lang interface to pvm. by
+organizing distributed computations with s-lang, one gains the
+advantages of programming in an interpreted language.
+
+with this approach, one can make efficient use of all available
+computer resources: high level logic is handled in interpreted code,
+cpu intensive work is done in compiled code and pvm simplifies using
+all available cpus.

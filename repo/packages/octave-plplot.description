@@ -1,0 +1,13 @@
+Octave support for plplot, a plotting library
+	
+plplot is relatively small, portable, freely distributable, and is rich
+enough to satisfy most users.  it has a wide range of plot types including
+line (linear, log), contour, 3d, fill, and almost 1000 characters
+(including greek and mathematical) in its extended font set.  the package
+is designed to make it easy to quickly get graphical output; only a
+handful of function calls is typically required.  for more advanced use,
+virtually all aspects of plotting are configurable.
+
+this package contains the octave bindings for plplot.  it provides an
+almost drop-in replacement for the traditional gnuplot graphical
+interface in octave. examples are also provided.

@@ -1,0 +1,10 @@
+Haskell monad transformer library for ghc; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+mtl is a monad transformer library, inspired by the paper "functional
+programming with overloading and higher-order polymorphism",
+by mark p jones (<http://www.cse.ogi.edu/~mpj/>), advanced school
+of functional programming, 1995.

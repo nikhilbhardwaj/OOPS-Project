@@ -1,0 +1,8 @@
+Perl module for secure sockets layer (ssl)
+	
+net::ssleay.pm is a perl module that allows you to call secure sockets
+layer (ssl) functions of the ssleay library directly from your perl
+scripts. it is useful if you want to program robots that access secure web
+servers or if you want to build your own applications over ssl encrypted
+tunnels. if you just want to view web pages on https servers, you do not
+need this - your web browser already knows to do that.

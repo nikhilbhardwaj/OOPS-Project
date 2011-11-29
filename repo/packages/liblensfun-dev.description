@@ -1,0 +1,23 @@
+Lens correction library - development files
+	
+lensfun is an opensource database of photographic lenses and their
+characteristics. it contains three kinds of objects:
+
+ * mounts
+ * cameras
+ * lenses
+
+
+it is used in various photo-related softwares in which it allows the
+correction of various artifacts:
+
+ * distortion
+ * transveral (also known as lateral) chromatic aberrations
+ * vignetting
+ * colour contribution of the lens (correcting said "yellowish" or "blueish"
+   images)
+
+
+it provides a way to read and search for specific things in the database.
+
+this package contains the development files.

@@ -1,0 +1,14 @@
+Implementation of a "singleton" class
+	
+the class::singleton module implements a singleton class from which other
+classes can be derived.  a singleton describes an object class that can have
+only one instance in any system.  an example of a singleton might be a print
+spooler or system registry.
+
+by itself, the class::singleton module does very little other than manage the
+instantiation of a single object.  in deriving a class from class::singleton,
+your module will inherit the singleton instantiation method and can implement
+whatever specific functionality is required.
+
+for a description and discussion of the singleton class, see
+"design patterns", gamma et al, addison-wesley, 1995, isbn 0-201-63361-2.

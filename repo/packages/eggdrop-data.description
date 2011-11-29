@@ -1,0 +1,8 @@
+Architecture independent files for eggdrop
+	
+this package contains all the files that eggdrop places on /usr/share.
+these files are not specific to a single processor architecture once
+the package is built, so a single package can serve all the archs
+debian supports.
+
+this package is not useful at all if eggdrop is not installed.

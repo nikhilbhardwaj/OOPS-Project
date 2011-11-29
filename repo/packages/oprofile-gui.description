@@ -1,0 +1,5 @@
+System-wide profiler for linux systems (gui components)
+	
+this package contains only the gui components of the oprofile package.
+this allows oprofile to be used on machines that require a much
+smaller footprint, or that do not wish to use an x windows interface.

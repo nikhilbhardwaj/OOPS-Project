@@ -1,0 +1,7 @@
+Perl interface to the libxml2 library
+	
+xml::libxml is a perl interface to the gnome libxml2 library, which provides
+interfaces for parsing and manipulating xml files. this module allows perl
+programmers to make use of the highly capable validating xml parser and the
+high performance document object model (dom) implementation. additionally, it
+supports using the xml path language (xpath) to find and extract information.

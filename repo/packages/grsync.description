@@ -1,0 +1,5 @@
+Gtk+ frontend for rsync
+	
+grsync is a simple graphical interface using gtk2 for the rsync command line
+program. it currently supports only a limited set of the most important rsync
+features, but can be used effectively for local directory synchronization.

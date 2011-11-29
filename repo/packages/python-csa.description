@@ -1,0 +1,8 @@
+The connection-set algebra implemented in python
+	
+the csa library provides elementary connection-sets and operators for
+combining them. it also provides an iteration interface to such
+connection-sets enabling efficient iteration over existing connections
+with a small memory footprint also for very large networks. the csa
+can be used as a component of neuronal network simulators or other
+tools.

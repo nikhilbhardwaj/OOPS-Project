@@ -1,0 +1,5 @@
+Notification email plugin for bazaar
+	
+plugin for bazaar that can send notification emails at commit time.
+
+it supports sending (partial) diffs of the commit.

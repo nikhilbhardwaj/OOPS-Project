@@ -1,0 +1,11 @@
+Fast, stable php opcode cacher
+	
+xcache is a fast, stable php opcode cacher that has been tested and
+is now running on production servers under high load.  it overcomes a
+lot of problems that has been with other competing opcachers such as
+being able to be used with new php versions.
+
+php5 is an html-embedded scripting language. much of its syntax is borrowed
+from c, java and perl with a couple of unique php-specific features thrown
+in. the goal of the language is to allow web developers to write
+dynamically generated pages quickly.

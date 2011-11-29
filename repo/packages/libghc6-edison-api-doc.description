@@ -1,0 +1,13 @@
+Documentation of the edison haskell library
+	
+documentation of the edison library containing efficent,
+purely-functional data structures for haskell.
+
+edison is a library of purely function data structures for haskell
+originally written by chris okasaki. conceptually, it consists of two
+things:
+
+  - a set of type classes defining data the following data structure
+    abstractions: 'sequences', 'collections' and 'associative
+    collections'
+  - multiple concrete implementations of each of the abstractions

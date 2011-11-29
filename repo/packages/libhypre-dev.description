@@ -1,0 +1,7 @@
+High performance matrix preconditioners - development files
+	
+hypre is a set of matrix preconditioning libraries to aid in the solution of
+large systems of linear equations.
+
+this package contains the headers and symlinks necessary to develop programs
+which use hypre.

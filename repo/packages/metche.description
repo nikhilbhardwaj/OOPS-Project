@@ -1,0 +1,14 @@
+Configuration monitor to ease collective administration
+	
+metche monitors changes made to a "system state" composed of:
+
+   - a "watched" directory (typically: /etc)
+   - one or more user maintained changelog files
+     (e.g. /root/changelog)
+   - the state of debian packages and versions (using apt-show-versions)
+
+by periodically:
+
+   - saving backups of the corresponding files
+   - emailing the changes in the system state to your administrators'
+     mailing list

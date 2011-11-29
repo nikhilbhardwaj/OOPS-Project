@@ -1,0 +1,6 @@
+Pdf rendering library (qt 3 based shared library)
+	
+poppler is a pdf rendering library based on xpdf pdf viewer.
+
+this package provides the qt 3 based shared library for applications
+using the qt 3 interface to poppler.

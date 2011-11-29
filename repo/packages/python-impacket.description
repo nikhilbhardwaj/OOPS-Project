@@ -1,0 +1,13 @@
+Python module to easily build and dissect network protocols
+	
+impacket  is a  collection  of python  classes  focused on  providing
+access  to network  packets.   impacket allows  python developers  to
+craft and decode network packets in simple and consistent manner.  it
+includes support for low-level protocols  such as ip, udp and tcp, as
+well as higher-level protocols such as nmb and smb.
+
+impacket is highly  effective when used in conjunction  with a packet
+capture utility or package such as pcapy.  packets can be constructed
+from  scratch, as  well as  parsed from  raw data.   furthermore, the
+object  oriented api  makes  it  simple to  work  with deep  protocol
+hierarchies.

@@ -1,0 +1,9 @@
+A quake-style terminal emulator based on kde konsole technology
+	
+yakuake is inspired from the terminal in the quake game: when you press a key
+(by default f12, but that can be changed) a terminal window slides down from
+the top of the screen. press the key again, and the terminal slides back.
+
+it is faster than a keyboard shortcut because it is already loaded into memory
+and as such is very useful to anyone who frequently finds themselves switching
+in and out of terminal sessions.

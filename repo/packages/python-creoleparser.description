@@ -1,0 +1,9 @@
+Parser for the creole common wiki markup language
+	
+creoleparser is a python library for converting creole wiki markup for
+output on the web. it is a full implementation of the creole 1.0
+specification and aims to follow the spec exactly.
+creole is a common wiki markup language to be used across different wikis.
+it's not replacing existing markup but instead enabling wiki users to
+transfer content seamlessly across wikis, and for novice users to contribute
+more easily.

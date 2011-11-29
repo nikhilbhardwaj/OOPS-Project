@@ -1,0 +1,12 @@
+Perl extension for parsing and manipulating dns zone files.
+	
+this module will parse a zone file and put all the resource records (rrs)
+into an anonymous hash structure. at the moment, the following types of
+rrs are supported: soa, ns, mx, a, cname, txt, ptr. it could be useful for
+maintaining dns zones, or for transferring dns zones to other servers. if
+you want to generate an xml-friendly version of your zone files, it is
+easy to use xml::simple with this module once you have parsed the zonefile.
+
+dns::zoneparse scans the dns zonefile - removes comments and seperates
+the file into its constituent records. it then parses each record and
+stores the records internally.

@@ -1,0 +1,14 @@
+Generates or checks tth message digests
+	
+tthsum generates or checks tth checksums (root of the thex hash
+tree).  the merkle hash tree, invented by ralph merkle, is a hash
+construct that exhibits desirable properties for verifying the
+integrity of files and file subranges in an incremental or
+out-of-order fashion.  tthsum uses the tiger hash algorithm for both
+the internal and the leaf nodes.
+
+the specification of the thex algorithm is at:
+http://www.open-content.net/specs/draft-jchapweske-thex-02.html
+
+the specification of the tiger hash algorithm is at:
+http://www.cs.technion.ac.il/~biham/reports/tiger/

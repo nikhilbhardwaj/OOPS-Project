@@ -1,0 +1,9 @@
+Makefile generator for java programs
+	
+mmake will generate a master makefile for your java programs.
+this generated makefile fully understands the subdirectories
+that are required if your program consists of multiple packages.
+mmake also automatically generates dependencies, and can use
+the c preprocessor for java programs and generate javadoc documentation.
+mmake defaults to using sun's javac from the jdk but can easily use
+guavac or a different gpl alternative as well.

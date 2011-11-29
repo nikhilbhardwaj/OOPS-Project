@@ -1,0 +1,11 @@
+The network dictionary transfer protocol server
+	
+the ebnetd distribution is a series of servers which provide ways to
+access so-called "cd-rom books" via tcp/ip, using eb library.  the cd-rom
+books is a popular form to provide dictionaries and multimedia references
+in japan.  various formats such as eb, ebg, ebxa, ebxa-c, s-ebxa and epwing
+are supported.
+
+ndtpd is a server for accessing cd-rom books via ndtp (network
+dictionary transfer protocol).  ndtp is a de facto standard way to
+use cd-rom books.

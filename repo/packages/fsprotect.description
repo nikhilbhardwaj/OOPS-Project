@@ -1,0 +1,11 @@
+Helper scripts to make filesystems immutable
+	
+this is a set of scripts that make immutable the root and other filesystems.
+using aufs they pack a tmpfs filesystem and the filesystem forcing
+changes to be written to the tmpfs.
+
+the root filesystem is protected by an initramfs script. other filesystems
+are protected by an init script. all protected filesystems become read-only
+ensuring their immutability even on power-offs.
+
+this can be used for public computers to prevent damage or changes.

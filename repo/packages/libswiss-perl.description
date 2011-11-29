@@ -1,0 +1,11 @@
+Perl api to the uniprot database
+	
+uniprot, swissprot and trembl are different views on protein sequence
+data that is prepared by groups at the european bioinformatics institute
+(embl-ebi) in cambridge and the swiss institute of bioinformatics (sib)
+in geneva.
+
+the swissknife perl library is used by the developers of these databases
+to perform all the automated editing and sytax checks. the users of
+this package will profit from the stable api on an ever evolving
+representation of biological knowledge.

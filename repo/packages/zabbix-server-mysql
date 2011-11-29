@@ -1,0 +1,4 @@
+PackageId:35486
+Name:zabbix-server-mysql
+Version:1:1.8.2-1squeeze2
+Deps:debconf,adduser,dbconfig-common,debconf-2.0,cdebconf,cdebconf-udeb,fping,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcurl3-gnutls,libgcc1,libiksemel3,libldap-2.4-2,libmysqlclient16,libopenipmi0,libsnmp15,lsb-base

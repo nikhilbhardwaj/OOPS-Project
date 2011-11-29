@@ -1,0 +1,9 @@
+The authenticating firewall [ssl library]
+	
+nufw is an authenticating firewall based on netfilter's nfqueue target.
+it allows to write filtering rules based on user identity, in addition
+to classical network criteria. unless other solutions, nufw uses a
+strict security model and can apply different access rules to users
+connected on the same host, for example.
+
+this library provides an abstraction layer over ssl functions.

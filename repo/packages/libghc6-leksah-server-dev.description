@@ -1,0 +1,7 @@
+Haskell editor - ghc interface library
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+the library is used by the leksah package to interface with the leksah server.
+it is not required to use leksah, only to build it.

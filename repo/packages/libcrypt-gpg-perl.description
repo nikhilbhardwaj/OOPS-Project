@@ -1,0 +1,12 @@
+An object oriented interface to gnupg
+	
+the crypt::gpg module provides near complete access to gnupg
+functionality through an object oriented interface. it provides
+methods for encryption, decryption, signing, signature verification,
+key generation, key export and import, and most other key management
+functions.
+
+this module works almost identically to its cousin, crypt::pgp5. the
+two modules together provide a uniform interface to deal with both pgp
+and gnupg. eventually, these modules will be folded into a single
+module which will interface with gnupg as well as all versions of pgp.

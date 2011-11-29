@@ -1,0 +1,15 @@
+A modular backup utility
+	
+vbackup constists of a set of scripts that handle the various aspects of
+a backup. it can be easily extended to support other backup methods too.
+it can be used for full or incremental backups. it also includes a wizard
+for basic (quick) configuration.
+
+currently it supports/backups:
+
+ * xfs using xfsdump
+ * generic filesystem backups using tar
+ * postgresql
+ * mysql
+ * dpkg and rpm database
+ * partition tables, disk mbrs, md and lvm information

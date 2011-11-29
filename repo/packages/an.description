@@ -1,0 +1,6 @@
+Very fast anagram generator
+	
+generates anagrams for a phrase supplied by the user, the words used in the
+anagram are taken from a specified dictionary which should contain one word
+per line (default:/usr/share/dict/words).  appears to be up to 10 times
+faster than wordplay, especially for longer phrases.

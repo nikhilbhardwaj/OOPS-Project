@@ -1,0 +1,8 @@
+Tools to build the gtk2hs suite of user interface libraries
+	
+this package provides a set of helper programs necessary to build the gtk2hs
+suite of libraries. these tools include a modified c2hs binding tool that is
+used to generate ffi declarations, a tool to build a type hierarchy that
+mirrors the c type hierarchy of gobjects found in glib, and a generator for
+signal declarations that are used to call back from c to haskell. these tools
+are not needed to actually run gtk2hs programs.

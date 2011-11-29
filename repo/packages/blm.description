@@ -1,0 +1,7 @@
+Boolean line manipulator utility program for set operations
+	
+blm is a boolean line manipulator utility program.  it allows you to
+perform set operations like union, intersection, difference, and
+exclusive-or by considering line-oriented files as sets of strings with
+one string on each line.
+.

@@ -1,0 +1,15 @@
+Ice-e for java libraries
+	
+ice-e ('embedded ice') is a compact communications engine designed
+specifically for use in environments where resources are scarce, such
+as internet-enabled smart phones, personal digital assistants (pdas),
+and embedded controllers.
+
+ice-e is the embedded version of ice, made by zeroc inc.  it is built
+on concepts which will be familiar to corba programmers, and supports
+a wide variety of programming languages and runtime platforms.
+
+this package contains a jar library required to run/develop
+applications with ice-e for java.  you will find further information
+in the zeroc home page (http://www.zeroc.com/icee/) and in the
+non-free package zeroc-ice-manual.

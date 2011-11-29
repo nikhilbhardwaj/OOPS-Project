@@ -1,0 +1,13 @@
+Ruby wrapper for the libbuffy library
+	
+buffy wants to be the ultimate mail folder summary system.
+
+this library provides efficient mailfolder checking routines, packaged in a
+library with a simple api and with wrappers for many languages, so that
+everyone can create mail folder summary systems in the language they prefer
+without having to care about the actual mailbox checking.
+
+libbuffy currently supports detection and summarizing of folders in maildir
+and mailbox format.
+
+this package provides a ruby wrapper for libbuffy.

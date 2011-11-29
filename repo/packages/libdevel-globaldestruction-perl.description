@@ -1,0 +1,11 @@
+Expose pl_dirty, the flag which marks global destruction
+	
+perl's global destruction is a little tricky to deal with wrt finalizers
+because it's not ordered and objects can sometimes disappear.
+
+writing defensive destructors is hard and annoying, and usually if global
+destruction is happenning you only need the destructors that free up non
+process local resources to actually execute.
+
+for these constructors you can avoid the mess by simply bailing out if global
+destruction is in effect.

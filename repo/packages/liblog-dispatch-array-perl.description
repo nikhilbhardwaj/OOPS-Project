@@ -1,0 +1,5 @@
+Module to log events to an array (reference)
+	
+log::dispatch::array provides a log::dispatch log output system that appends
+logged events to an array reference. this is probably only useful for testing
+the logging of your code.

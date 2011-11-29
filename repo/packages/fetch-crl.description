@@ -1,0 +1,10 @@
+Downloads certificate revocation lists
+	
+this tool and associated cron entry ensure that certificate revocation
+lists (crls) are periodically retrieved from the web sites of the
+respective certification authorities.
+
+the fetch-crl tool finds all *.crl_url files in the configured crl
+directory, downloads the crls listed in those files and saves them in
+the same directory. the default configuration uses
+/etc/grid-security/certificates as the crl directory.

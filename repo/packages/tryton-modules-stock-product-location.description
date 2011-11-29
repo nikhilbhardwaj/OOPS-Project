@@ -1,0 +1,8 @@
+Tryton application platform (stock product location module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this package contains the module to define default storage location by
+warehouse on products.

@@ -1,0 +1,16 @@
+Build helper for the user and resource management framework cipux
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+cat is cipux administration tools.  two cats are provided officially
+with cipux:
+
+ - cipux-cat: generic web-based cat
+ - cipux-cat-moodle: cipux plugin for moodle
+
+these can be extended or replaced with custom tools.
+
+this package contains module::build::cipux, a subclass of module::build
+used to handle installation routines of the cipux sources.

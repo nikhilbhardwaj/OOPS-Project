@@ -1,0 +1,6 @@
+Utility to monitor input device events
+	
+evtest monitors an input device, displaying all the events it generates.
+
+it can be used to determine mice button bindings, keymaps for exotic
+keyboards...

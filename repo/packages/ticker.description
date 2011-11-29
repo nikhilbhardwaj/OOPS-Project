@@ -1,0 +1,6 @@
+Configurable text scroller
+	
+ticker is a simple program to scroll text across a line of the display, in
+a manner similar to a stock ticker. in fact, since ticker supports
+communicating with a program that changes the text periodically, it could
+be used to implement a stock ticker.

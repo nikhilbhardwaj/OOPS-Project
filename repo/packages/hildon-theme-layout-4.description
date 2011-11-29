@@ -1,0 +1,7 @@
+A layout file for making themes for the maemo 4 platform
+	
+this package contains tools that can help you create a theme for
+the maemo platform version 4. it contains a gtkrc template for themes.
+this works by maintaining a single gtkrc template (which is closely
+tied with the code) and implement different themes by only drawing a
+single png file.

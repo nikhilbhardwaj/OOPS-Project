@@ -1,0 +1,6 @@
+Generate cryptographically secure pseudo random file
+	
+sha1-random generates cryptographically secure pseudo random output
+which should not be compressible by any algorithm that does not know
+the key used to generate it. without knowing the key, it is believed
+to be impossible to compress this file.

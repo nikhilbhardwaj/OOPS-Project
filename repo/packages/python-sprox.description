@@ -1,0 +1,11 @@
+Python library to generate web widgets from database schemas
+	
+sprox is a python library to generate web widgets from database
+schemas.
+
+sprox provides an easy way to create forms for web content which are:
+automatically generated, easy to customize, and validated.  the way
+in which sprox displays content is customizable by the means of
+different "viewers".  finally, sprox provides a way to fill your
+widgets, whether they are forms or other content with customizable
+data.

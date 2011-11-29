@@ -1,0 +1,21 @@
+Web application security testing proxy
+	
+spike proxy is part of the spike application testing suite,
+it functions as an http and https proxy, and allows the web developer
+or web application auditor low level access to the entire web application
+interface, while also providing a bevy of automated tools and techniques
+for discovering common problems. these automated tools include:
+
+
+ - automated sql injection detection
+ - web site crawling (guaranteed not to crawl sites other than
+   the one being tested)
+ - login form brute forcing
+ - automated overflow detection
+ - automated directory traversal detection
+
+
+in addition to automated analysis, spike proxy allows the user to
+analyse the internals of the web application by viewing and changing
+all variables, cookies, headers, or other parts of the request and
+resubmit them. also, a single installation can be shared by multiple users.

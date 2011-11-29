@@ -1,0 +1,11 @@
+Pbs-derived batch processing server
+	
+the torque server dispatches jobs across physically separated
+machines. it may also be beneficial for single machines to organise
+the sequential execution of multiple jobs.
+
+torque stands for "tera-scale open-source resource and queue manager".
+it is based on openpbs version 2.3.12 and incorporates scalability,
+fault tolerance, and feature extension patches provided by usc, ncsa,
+osc, the u.s. dept of energy, sandia, pnnl, u of buffalo, teragrid,
+and many other leading edge hpc organizations.

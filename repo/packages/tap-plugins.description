@@ -1,0 +1,11 @@
+Tom's audio processing ladspa plugins
+	
+tom szilagyi has written a number of plugins for ladspa
+compatible hosts (e.g. ardour, gnu sound and gstreamer).
+
+the plugins (equalizer, reverberator, stereo echo, tremolo,
+scaling limiter, autopanner and deesser) have been written
+primarily for ardour but should work well with any ladspa
+host.
+
+homepage: http://tap-plugins.sourceforge.net/

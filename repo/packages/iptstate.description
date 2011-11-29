@@ -1,0 +1,21 @@
+Top-like interface to your netfilter connection-tracking table
+	
+ip tables state (iptstate) was originally written to implement
+the "state top" feature of ip filter (see "the idea" below) in
+ip tables. "state top" displays the states held by your stateful
+firewall in a top-like manner.
+
+features include:
+
+ - top-like realtime state table information
+ - sorting by any field
+ - reversible sorting
+ - single display of state table
+ - customizable refresh rate
+ - display filtering
+ - color-coding
+ - open source (specifically i'm using the zlib license)
+ - much more...
+
+
+to use iptstate, conntrack should be enabled in your kernel.

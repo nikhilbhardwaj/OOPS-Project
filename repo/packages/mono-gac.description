@@ -1,0 +1,10 @@
+Mono gac tool
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.
+
+this package pulls in the default gac (global assembly cache) tool (gacutil)
+used by mono to store shared cil (common intermediate language) libraries.

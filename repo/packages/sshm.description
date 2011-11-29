@@ -1,0 +1,6 @@
+A command-line tool to manage your ssh servers
+	
+sshm is a little command line tool for managing your ssh
+servers. you can add / del / list servers and connect to them easily.
+for example, if you add a server and decide to give it the alias "foo",
+you can connect to it simply by typing "sshm foo".

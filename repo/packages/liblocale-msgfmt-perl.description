@@ -1,0 +1,5 @@
+Pure perl reimplementation of msgfmt
+	
+locale::msgfmt is a tool to compile .po files to .mo files. this
+module does the same thing as msgfmt from gnu gettext-tools, except
+this is pure perl.

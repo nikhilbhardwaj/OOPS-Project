@@ -1,0 +1,13 @@
+Hardened system environment
+	
+harden-environment provides a hardened system environment, or at least
+helps the administrator to configure such an environment.
+
+right now this includes packages for local intrusion detection.
+
+note! this package will not make your system uncrackable, and it is
+not intended to do so. making your system secure involves a lot
+more than just installing a package.
+
+for more information on how to secure your system see:
+http://www.debian.org/doc/manuals/securing-debian-howto/

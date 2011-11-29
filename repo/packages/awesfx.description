@@ -1,0 +1,16 @@
+Utility programs for awe32/64 and emu10k1 driver
+	
+this package contains the following programs:
+
+ - asfxload     soundfont file loader (alsa)
+ - sfxload      soundfont file loader (oss)
+ - setfx        chorus/reverb effect loader
+ - aweset       change the running mode of awe driver
+ - sf2text      convert soundfont to readable text
+ - text2sf      convert from text to soundfont file
+ - gusload      gus pat file loader
+ - sfxtest      example program to control awe driver
+
+
+the package includes a collection of soundfont managing routines
+called awelib.  by default, awelib is installed as a static library.

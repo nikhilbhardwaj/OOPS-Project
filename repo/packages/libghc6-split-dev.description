@@ -1,0 +1,10 @@
+Haskell library for splitting lists - ghc 6 libraries
+	
+this haskell library provides a wide range of strategies and a unified
+combinator framework for splitting lists with respect to some sort of
+delimiter.
+
+for example, it can split a list every n elements, or on elements that
+satisfy some condition.
+
+this package contains the libraries compiled for ghc 6.

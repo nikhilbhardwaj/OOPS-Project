@@ -1,0 +1,7 @@
+Runtime java compiler
+	
+janino is a compiler that reads a java expression, block, class body,
+source file or a set of source files, and generates java bytecode that is
+loaded and executed directly. janino is not intended to be a development tool,
+but an embedded compiler for run-time compilation purposes, e.g. expression
+evaluators or embedded code as with jsp.

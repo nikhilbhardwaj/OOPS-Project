@@ -1,0 +1,7 @@
+Emacs speech client using speech dispatcher
+	
+speechd-el is an emacs client and an elisp library to speech dispatcher.  it
+provides a complex speech interface to emacs, focused especially on (but not
+limited to) the blind and visually impaired users.  it allows the user to work
+with emacs without looking on the screen, using the speech output produced by
+the synthesizers supported in speech dispatcher.

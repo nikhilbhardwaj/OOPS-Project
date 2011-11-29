@@ -1,0 +1,8 @@
+Web interface for anyremote acting as http server
+	
+anyremote2html is a web interface for anyremote. it acts as a http server and
+translates anyremote commands to html.
+
+with the help of this interface any device which contains a web browser and
+which can connect to the pc with anyremote by tcp/ip (gprs, wi-fi, ...)
+could be used as a remote control.

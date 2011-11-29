@@ -1,0 +1,38 @@
+Chiark system administration scripts
+	
+this package contains a number of small administration scripts used
+by chiark.greenend.org.uk and other systems belonging to the sinister
+greenend organisation.  featuring:
+
+chiark-named-conf: a tool for managing nameserver configurations
+and checking for suspected dns problems.  its main functions are to
+check that delegations are appropriate and working, that secondary
+zones are slaved from the right places, and to generate a
+configuration for bind, from its own input file.
+
+sync-accounts: a simple but flexible account info synchroniser.
+sync-accounts is a tool for copying un*x account data from remote
+systems and installing it locally.  it is flexible and reasonably
+straightforward, but lacks integration with other distributed
+databases such as nis.
+
+cvs-repomove and cvs-adjustroot: tools for moving cvs repositories
+and adjusting working trees.
+
+palm-datebook-reminders: a program which emails mails you reminders
+about the appointments in your palm's datebook.
+
+cvsweb-list: cgi program to list ucgi (userv-utils) cvsweb repos
+
+expire-iso8601: keep or expire backup trees named after their dates
+
+gnucap2genspic, ngspice2genspic, genspic2gnuplot: convert gnucap
+files and ngspice output files to genspic and genspic files to
+gnuplot input so they can be plotted.
+
+hexterm: connects to serial port and allows the user interact in
+ascii and hex.  ie, a hex "terminal" program which lets you speak a
+serial port protocol directly.  (needs tcl8.4 to be installed.)
+
+random-word, remountresizereiserfs,
+summarise-mailbox-preserving-privacy

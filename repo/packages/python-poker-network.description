@@ -1,0 +1,13 @@
+Multiplayer poker server and client library
+	
+the server deals the cards and checks the user actions using a poker
+game engine (poker-engine). it can handle all the poker variants
+implemented by the poker game engine (holdem, omaha, omaha high/low,
+stud 7 ...) in ring games, sit and go or multitables tournaments.
+the client library can be used to implement simple clients such as
+robots (<1000 loc example robot provided) or a graphical user
+interface.
+
+the poker server has its own tcp/ip based protocol. the client
+library decodes the protocol. an abstract user interface library
+provides a framework to implement graphical clients.

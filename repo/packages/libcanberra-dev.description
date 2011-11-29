@@ -1,0 +1,7 @@
+A simple abstract interface for playing event sounds
+	
+libcanberra defines a simple abstract interface for playing event
+sounds.
+
+this package contains headers and libraries for developing
+applications that play event sounds with libcanberra.

@@ -1,0 +1,7 @@
+Perl interface to libplot (transitional dummy package)
+	
+graphics::libplot provides a perl interface to libplot from plotutils.
+only the c library routines are available with this package.
+
+this is transitional dummy package to ensure migration to
+libgraphics-libplot-perl.

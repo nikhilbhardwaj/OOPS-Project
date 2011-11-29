@@ -1,0 +1,6 @@
+Simple perl client for hylafax fax server
+	
+fax::hylafax::client is a simple perl client for hylafax fax server
+(www.hylafax.org).  it communicates with the server directly through ftp
+protocol and thus does not require any hylafax software components to be
+installed on the client machine.

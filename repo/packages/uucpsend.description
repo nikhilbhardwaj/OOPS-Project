@@ -1,0 +1,7 @@
+Alternative frontend for uucp batching with inn
+	
+this package provides some neat features to do uucp batching.
+partially it is logically based on send-uucp and nntpsend which were
+included in early versions of inn.
+
+it is tested with inn 1 and may require tweaking with inn 2.

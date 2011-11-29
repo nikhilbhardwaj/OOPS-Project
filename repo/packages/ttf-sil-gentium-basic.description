@@ -1,0 +1,29 @@
+Smart unicode font families (basic and book basic) based on gentium
+	
+gentium basic and gentium book basic are font famililes based on the original
+gentium design, but with additional weights. the "book" family is slightly
+heavier. both families come with a complete regular, bold, italic and bold
+italic set of fonts.
+
+the supported character set, however, is much smaller than for the main
+gentium fonts. these "basic" fonts support only the basic latin and latin-1
+supplement unicode ranges, plus a selection of the more commonly used extended
+latin characters, with miscellaneous diacritical marks, symbols and
+punctuation. a much more complete character set will be supported in a future
+version of the complete gentium fonts. these "basic" fonts are intended as a
+way to provide additional weights for basic font users without waiting until
+the complete gentium character set is finished.
+
+there are, however, some wonderful new features that are still missing from
+the main gentium family:
+
+ * bold
+ * bold italic
+ * the slightly-heavier book family
+ * opentype and graphite smart code for diacritic placement
+ * a few useful opentype and graphite features support for a few more recent
+ * additions to unicode character assignments updated to unicode 5.1
+
+
+the font sources are available in the source package and directly on the
+upstream project website.

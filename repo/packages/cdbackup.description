@@ -1,0 +1,7 @@
+Cd-r(w) backup utility
+	
+cdbackup and cdrestore are a pair of utilities designed to facilitate
+streaming backup to and from cd-r(w) disks.  specifically, they were
+designed to work with dump/restore, but tar/cpio/whatever you want should
+work, so long as it writes to stdout for backups and reads from stdin for
+restores.

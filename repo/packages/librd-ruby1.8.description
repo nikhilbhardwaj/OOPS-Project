@@ -1,0 +1,10 @@
+Rdtool library for ruby 1.8
+	
+rd is multipurpose documentation format created for documentating ruby and
+output of ruby world.
+
+you can embed rd into ruby script. and rd have neat syntax which help you
+to read document in ruby script. on the other hand, rd have a feature for
+class reference.
+
+this package contains a library for ruby 1.8 which is used by rdtool.

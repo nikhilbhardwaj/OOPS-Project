@@ -1,0 +1,9 @@
+Create and extract ms windows icons and cursors
+	
+icoutils is a set of programs that deal with ms windows icons and
+cursors. resources such as icons and cursors can be extracted from ms
+windows executable and library files with "wrestool". conversion of
+these files to and from png images is done with "icotool". "extresso"
+automates these tasks with the help of special resource scripts.
+
+this package can be used to create "favicon.ico" files for web sites.

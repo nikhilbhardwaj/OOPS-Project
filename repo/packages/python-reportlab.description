@@ -1,0 +1,18 @@
+Reportlab library to create pdf documents using python
+	
+reportlab is a library that lets you directly create documents in
+adobe's portable document format (pdf) using the python programming language.
+
+reportlab library creates pdf based on graphics commands without
+intervening steps. it's therefore extremely fast, and flexible (since
+you're using a full-blown programming language).
+
+sample use cases are:
+
+  * dynamic pdf generation on the web
+  * high-volume corporate reporting and database publishing
+  * as embeddable print engine for other applications, including a
+    'report language' so that users can customize their own reports.
+  * as 'build system' for complex documents with charts, tables and text
+    such as management accounts, statistical reports and scientific papers
+  * from xml to pdf in one step

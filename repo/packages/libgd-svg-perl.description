@@ -1,0 +1,6 @@
+Seamlessly enable svg output from scripts written using gd
+	
+gd::svg painlessly enables scripts that utilize gd to export scalable vector
+graphics (svg). it accomplishes this task by wrapping svg.pm with gd-styled
+method calls. to enable this functionality, one need only change the "use gd"
+call to "use gd::svg" (and initial "new" method calls).

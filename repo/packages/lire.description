@@ -1,0 +1,12 @@
+Full-featured log analyzer and report generator
+	
+lire is a full-featured and extensible set of utilities and api's to
+generate statistics and reports from logfiles. although those could be
+any type of logfiles, the first purpose of lire is to ease the
+administration and the monitoring of system services. as such, filters
+are bundled for email servers like postfix, sendmail and exim,
+for web servers like apache and iis, as well as several kinds of
+firewall, printing, dns or database services, ...
+
+using docbook as an intermediary format, the resulting reports can be
+produced in ascii, html, pdf and other formats.

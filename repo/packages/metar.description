@@ -1,0 +1,8 @@
+Utility to download/decode metar reports
+	
+metar is a small utility that will download meteorological reports for
+aviation from the noaa http server at weather.noaa.gov and optionally decodes
+them into a human readable form.
+
+this package is particularly useful is you want to quickly find out what the
+weather is like in places all over the world and you do not need fancy guis.

@@ -1,0 +1,6 @@
+The gnu binary utilities (bfd development files)
+	
+this package includes header files and static libraries necessary to build
+programs which use the gnu bfd library, which is part of binutils.  note
+that building debian packages which depend on the shared libbfd is not
+allowed.

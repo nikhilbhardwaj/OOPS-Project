@@ -1,0 +1,10 @@
+Server daemon for receiving user input events - debug symbols
+	
+this package provides a remote input server daemon which listens for
+connections from rinput clients (such as mobile phone applications). these
+authenticate via a secure ssl socket through the cyrus sasl password
+database, /etc/sasldb2. the uinput user input event interface can
+then create virtual devices such as a keyboard and mouse under the
+remote control of the client.
+
+this package contains debug symbols.

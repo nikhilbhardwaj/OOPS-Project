@@ -1,0 +1,5 @@
+Perl module for a sax2 driver for expat (xml::parser)
+	
+this module is an implementation of a sax2 driver sitting on top of
+expat (xml::parser).  it is still incomplete, though most of the
+basic sax2 events should be available.

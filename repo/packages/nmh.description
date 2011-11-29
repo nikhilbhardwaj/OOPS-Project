@@ -1,0 +1,14 @@
+A set of electronic mail handling programs
+	
+this is the nmh mail user agent (reader/sender), a command-line based mail
+reader that is powerful and extensible.  nmh is an excellent choice for
+people who receive and process a lot of mail.
+
+unlike most mail user agents, nmh is not a single program, rather it is a
+set of programs that are run from the shell.  this allows the user to
+utilize the full power of the unix shell in coordination with nmh.  various
+front-ends are available, such as mh-e (an emacs mode), xmh, and exmh (x11
+clients).
+
+nmh was originally based on mh version 6.8.3, and is intended to be a
+(mostly) compatible drop-in replacement for mh.

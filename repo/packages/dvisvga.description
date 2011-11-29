@@ -1,0 +1,10 @@
+Dvi viewer for svgalib
+	
+dvisvga is a screen-previewer for .dvi-files compiled by tex. it lets you
+see what your printed output will look like. you can choose between a
+black-and-white representation and greyscaling. you can choose an arbitrary
+zoom factor (at some cost of performance). you can set marks to measure
+distances. you can search for text strings. you may visit lots of dvi files,
+set bookmarks and get them saved to a startup-file. dvisvga does not
+support pxl-files. dvisvga ignores all 'special'-commands and has no
+font-replacing mechanism.

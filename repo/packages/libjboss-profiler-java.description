@@ -1,0 +1,6 @@
+Jboss profiler
+	
+jboss profiler is a log based profiler using jvmpi and jvmti. it uses
+an agent written in c that captures events from the jvm and logs to
+disk. a web application running on jboss or another machine can be
+used to analyze these logs through a web browser.

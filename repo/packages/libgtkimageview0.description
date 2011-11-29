@@ -1,0 +1,12 @@
+Image viewer widget for gtk+
+	
+gtkimageview is a gtk+ widget that provides a zoomable and panable view of an
+image. it is intended to be usable in most types of image viewing applications.
+
+among its features are:
+
+ - mouse and keyboard zooming
+ - scrolling and dragging
+ - adjustable interpolation
+ - fullscreen mode
+ - gif animation support

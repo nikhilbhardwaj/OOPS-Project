@@ -1,0 +1,9 @@
+Freebsd fork of send-pr (from gnu gnats)
+	
+send-pr is a client utility for sending problem reports to a remote gnats
+database. this is the freebsd version of send-pr, which contains a number
+of enhancements, and is primarily targeted at sending reports to the freebsd
+pr database.
+
+it is useful for debian maintainers (or even users) of software originated in
+freebsd, as it provides an easy way to send patches or feedback to upstream.

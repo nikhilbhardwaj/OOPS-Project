@@ -1,0 +1,16 @@
+Orthogonal object persistence in relational databases
+	
+tangram is an object-relational mapper. it makes objects persist in
+relational databases, and provides powerful facilities for retrieving
+and filtering them. tangram fully supports object-oriented programming,
+including polymorphism, multiple inheritance and collections.
+it does so in an orthogonal fashion, that is, it doesn't require
+your classes to implement support functions nor inherit from a utility class.
+
+tangram builds upon dbi, so you'll need to install dbi and at least
+one dbd driver if that is not done already. you will also need
+set::object. these modules are available from cpan.
+
+if you intend to run the regression tests (recommended), you will
+also need to prepare an empty database before starting the installation
+procedure.

@@ -1,0 +1,9 @@
+Generic interface for proof assistants - documentation
+	
+proof general is a major mode to turn emacs into an interactive proof
+assistant to write formal mathematical proofs using a variety of
+theorem provers. it works with either xemacs or gnu emacs.
+
+this package provides the html documentation for proof general.
+it was created from the same sources as the info documentation
+which is included in the proofgeneral package.

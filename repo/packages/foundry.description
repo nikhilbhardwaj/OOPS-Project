@@ -1,0 +1,8 @@
+Code generation tools
+	
+this is (the start of) a collection of code generators for various common
+tasks in software development.
+
+contains:
+
+ * an ast/cst class generator (with a heavy bias towards c++ and boost)

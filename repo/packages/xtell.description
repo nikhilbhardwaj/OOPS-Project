@@ -1,0 +1,5 @@
+Simple messaging client and server, sort of networked write
+	
+simple messaging client and server, allowing you to send messages
+from computer running xtell client to computer running xtelld server.
+can be used as replacement for write(1).

@@ -1,0 +1,34 @@
+Ocaml application-level internet libraries - core development libraries
+	
+ocamlnet is a collection of ocaml libraries focusing focus on
+application-level internet protocols and conventions.
+
+ocamlnet consists of the following libraries:
+
+ * netstring: processing of strings that occur in network context
+ * netcgi1 and netcgi2: portable web applications
+ * nethttpd: is a web server component (http server implementation)
+ * netplex: generic server framework
+ * rpc: oncrpc implementation
+ * netclient: clients for http, ftp, and telnet
+ * equeue: event queue used for many protocol implementations
+ * shell: external commands invocation
+ * netshm: shared memory for ipc purposes
+ * netsys: bindings for system functions
+ * smtp and pop: two further client implementations
+
+
+a number of ideas and concepts are used throughout the libraries:
+
+ * netchannels are a way to abstract sequential i/o channels
+ * event queues provided by equeue and unixqueue make asynchronous
+   protocol interpreters possible
+
+
+this package contains the development stuff you need to use the core
+ocamlnet libraries in your programs. the following libraries are
+packaged separately: ssl-related libraries (libocamlnet-ssl-ocaml-dev),
+gtk-related libraries (libocamlnet-gtk2-ocaml-dev), nethttpd
+(libnethttpd-ocaml-dev). the netcgi2 apache connector is also part of
+this package; to run applications built for that connector you will
+need the mod_netcgi_apache apache module (libapache2-mod-ocamlnet).

@@ -1,0 +1,15 @@
+Hibernate commons annotations
+	
+hibernate, like all other object/relational mapping tools, requires
+metadata that governs the transformation of data from one
+representation to the other (and vice versa). as an option, you can
+now use jdk 5.0 annotations for object/relational mapping with
+hibernate 3.2. you can use annotations in addition to or as a
+replacement of xml mapping metadata.
+
+you can use hibernate extension annotations on top of standardized
+java persistence annotations to utilize all native hibernate
+features.
+
+this package ships the hibernate commons annotations classes used by
+annotations based hibernate sub-projects.

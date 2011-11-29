@@ -1,0 +1,8 @@
+Applet that monitors apt sources for upgrades (transitional package)
+	
+apt-watch is an applet that will inform you when upgrades are
+available for your computer.  it is similar to windows update or the
+red hat network applet.
+
+this is a transitional dummy package to ensure clean upgrades from
+old releases.  it can be safely removed after upgrade.

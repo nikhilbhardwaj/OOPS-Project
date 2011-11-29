@@ -1,0 +1,14 @@
+Read/write coreboot-related nvram/cmos information
+	
+nvramtool is a utility for reading/writing coreboot parameters in nvram/cmos
+and displaying information from the so-called 'coreboot table'.
+
+the coreboot table resides in low physical memory. it is created at
+boot time by coreboot, and contains various system information such as
+the type of mainboard in use. it specifies locations in the nvram/cmos
+(nonvolatile ram) where the coreboot parameters are stored.
+
+this program is mostly intended for (x86-based) systems that use coreboot, but
+can also be used for non-coreboot system (e.g. for dumping all nvram bytes).
+
+for information about coreboot, see http://www.coreboot.org/.

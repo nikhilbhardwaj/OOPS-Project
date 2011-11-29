@@ -1,0 +1,7 @@
+Data caching daemon for rrdtool
+	
+rrdcached is a daemon that receives updates to existing rrd files, accumulates
+them and, if enough have been received or a defined time has passed, writes
+the updates to the rrd file. the daemon was written with big setups in mind.
+those setups usually run into i/o related problems. rrdcached's goal is to
+alleviate these problems.

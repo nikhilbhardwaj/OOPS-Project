@@ -1,0 +1,29 @@
+Command-line tools to process debian package information
+	
+debian package information is generally stored in files having a
+special file format, dubbed the debian control file format (the dctrl
+format), a special case of the record jar file format.  these tools
+operate on any files conforming in a general sense to that format and
+are therefore widely applicable whenever those formats are in play.
+
+included are:
+
+
+  grep-dctrl     - grep dctrl-format files
+  grep-available - grep the dpkg available database
+  grep-status    - grep the dpkg status database
+  grep-aptavail  - grep the apt available database
+  grep-debtags   - grep the debtags package database
+
+
+
+  sort-dctrl     - sort dctrl-format files
+
+
+
+  tbl-dctrl      - tabulate dctrl-format files
+
+
+
+  sync-available - sync the dpkg available database with
+                   the apt database

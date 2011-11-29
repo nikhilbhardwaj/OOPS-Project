@@ -1,0 +1,14 @@
+Squirrelmail plugin: add logging functionality to your webmail interface
+	
+this plugin implements logging functionality for your webmail interface. you
+can choose to log to a database, a file, your system log, or any combination
+thereof. you can also choose which kinds of events to log, including login
+events, logout events, login error events, all outgoing messages, possible
+outgoing spam messages, and other error events.
+
+also included is monitoring functionality that will send alert emails to the
+administrator when certain events trigger. log message format is completely
+custom-defined to meet your needs in the configuration file.
+
+squirrelmail is a standards-based webmail package written in php. it runs on
+top of any imap server.

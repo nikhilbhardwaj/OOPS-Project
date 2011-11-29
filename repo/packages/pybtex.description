@@ -1,0 +1,18 @@
+Bibtex-compatible bibliography processor
+	
+pybtex reads citation information from a file and produces a formatted
+bibliography. bibtex style files are supported. alternatively it is
+possible to write styles in python.
+
+pybtex currently understands the following bibliography formats:
+
+ * bibtex
+ * bibtexml
+ * yaml-based format
+
+
+the resulting bibliography may be output in one of the following formats:
+
+ * latex
+ * html
+ * plain text

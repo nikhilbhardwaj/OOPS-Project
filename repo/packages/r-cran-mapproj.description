@@ -1,0 +1,7 @@
+Gnu r support for cartographic projections of map data
+	
+this package provides facilities for easily producing cartographic
+projections of maps based on data sets in the gnu r statistical
+computing environment.  projections are used by mapmakers to
+compensate for the inaccuracies inherent in projecting a spheroid's
+surface onto a two-dimensional plane.

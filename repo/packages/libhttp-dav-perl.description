@@ -1,0 +1,16 @@
+Webdav client library for perl, and "dave" cli client
+	
+http::dav provides client-side access to a dav server.  dav is a
+protocol for remote web-site authoring and management.  now you can
+lock, delete and put files and much more on a dav-enabled webserver.
+
+the perldav library consists of:
+
+
+ * http::dav - an object-oriented web-dav client api.
+ * dave - the dav explorer, an end-user unix console program for
+   interacting with webdav servers. dave looks and feels like a
+   standard unix ftp program.
+
+
+learn more about webdav at http://www.webdav.org/

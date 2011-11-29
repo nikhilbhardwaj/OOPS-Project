@@ -1,0 +1,18 @@
+Server-side, html-embedded scripting language (apache 2 module)
+	
+this package provides the php5 module for the apache 2 webserver (as
+found in the apache2-mpm-prefork package).  please note that this package
+only works with apache's prefork mpm, as it is not compiled thread-safe.
+the following extensions are built in: bcmath bz2 calendar core ctype date
+
+ dba dom ereg exif fileinfo filter ftp gettext hash iconv json libxml
+ mbstring mhash openssl pcre phar posix reflection session shmop simplexml
+ soap sockets spl standard sysvmsg sysvsem sysvshm tokenizer wddx xml
+ xmlreader xmlwriter zip zlib.
+
+
+php5 is a widely-used general-purpose scripting language that is
+especially suited for web development and can be embedded into html.
+the goal of the language is to allow web developers to write
+dynamically generated pages quickly. this version of php5 was built
+with the suhosin patch.

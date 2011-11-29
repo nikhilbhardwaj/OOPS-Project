@@ -1,0 +1,19 @@
+Extract just the secret information out of openpgp secret keys
+	
+a reasonable way to achieve a long term backup of openpgp (gnupg, pgp,
+etc) keys is to print them out on paper.  the reasoning behind this is
+that paper and ink has amazingly long retention qualities - far longer
+than the magnetic or optical means that are generally used to back up
+computer data.
+
+due to metadata and redundancy, openpgp secret keys are significantly
+larger than just the "secret bits".  in fact, the secret key contains
+a complete copy of the public key.  since the public key generally
+doesn't need to be escrowed (most people have many copies of it on
+various keyservers, web pages, etc), only extracting the secret parts
+can be a real advantage.
+
+paperkey extracts just those secret bytes and prints them.  to
+reconstruct, you re-enter those bytes (whether by hand or via ocr) and
+paperkey can use them to transform your existing public key into a
+secret key.

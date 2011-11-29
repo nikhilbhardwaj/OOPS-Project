@@ -1,0 +1,5 @@
+Smtp, pop, & imap interface library for common lisp programs
+	
+this is a franz's open-source postoffice package which includes
+libraries for smtp, pop, and imap clients. this package uses the
+acl-compat module for operation on non-allegro common lisp implementations.

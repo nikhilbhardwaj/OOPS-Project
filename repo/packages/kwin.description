@@ -1,0 +1,4 @@
+A dummy upgrade-helper package for kde-window-manager
+	
+this package exists purely for the sake of upgrades from lenny to squeeze. it
+is supposed to hint apt to do the thing right about kde-window-manager.

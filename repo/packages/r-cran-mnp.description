@@ -1,0 +1,9 @@
+Gnu r package for fitting multinomial probit (mnp) models
+	
+mnp is an r package that fits bayesian multinomial probit (mnp)
+models via markov chain monte carlo (mcmc).  along with the standard
+multinomial probit model, it can also fit models with different
+choice sets for each observation and complete or partial ordering of
+all the available alternatives.  the estimation is based on the
+efficient marginal data augmentation algorithm that is developed by
+imai and van dyk (2004).

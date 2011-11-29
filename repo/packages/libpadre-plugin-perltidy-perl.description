@@ -1,0 +1,7 @@
+Perl::tidy plugin for padre
+	
+the perltidy plugin is a simple plugin to run perl::tidy on your
+source code. currently there are no customisable options (since the
+padre plugin system doesn’t support that yet) - however perl::tidy
+will use your normal .perltidyrc file if it exists (see perl::tidy
+documentation).

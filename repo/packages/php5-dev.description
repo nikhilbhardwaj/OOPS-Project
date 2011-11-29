@@ -1,0 +1,10 @@
+Files for php5 module development
+	
+this package provides the files from the php5 source needed for compiling
+additional modules.
+
+php5 is a widely-used general-purpose scripting language that is
+especially suited for web development and can be embedded into html.
+the goal of the language is to allow web developers to write
+dynamically generated pages quickly. this version of php5 was built
+with the suhosin patch.

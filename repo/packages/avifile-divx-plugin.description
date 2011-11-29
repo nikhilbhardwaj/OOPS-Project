@@ -1,0 +1,10 @@
+Divx4linux video de/encoding plugin for libavifile
+	
+plugin for encoding divx4 video.
+notice:
+
+  this plugin requires separate installation of libdivxdecore
+  and libdivxencore library which is not a part of this package
+  nor debian itself. see documentation for more details who
+  to obtain this library.
+  in general you do not need this plugin.

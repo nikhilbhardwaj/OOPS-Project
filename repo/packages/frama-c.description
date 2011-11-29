@@ -1,0 +1,22 @@
+Framework for source code analysis of software written in c
+	
+frama-c is a framework dedicated to the analysis of the source code
+of software written in c.
+
+frama-c gathers several static analysis techniques in a single
+collaborative framework. the collaborative approach of frama-c allows
+static analyzers to build upon the results already computed by other
+analyzers in the framework. thanks to this approach, frama-c provides
+sophisticated tools, such as a slicer and dependency analysis.
+
+it can be used to:
+
+  * validate the source code formally
+  * look for potential runtime errors
+  * audit or review it
+  * reverse engineer it to understand its structure
+  * generate formal documentation
+
+
+this package provides the graphical user interface of frama-c and depends
+on frama-c-base.

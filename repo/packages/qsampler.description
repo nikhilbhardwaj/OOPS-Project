@@ -1,0 +1,5 @@
+Linuxsampler gui frontend based on the qt toolkit
+	
+qsampler is a linuxsampler gui front-end application written in c++ around
+the qt3 toolkit using qt designer. at the moment it just wraps as a client
+reference interface for the linuxsampler control protocol (lscp).

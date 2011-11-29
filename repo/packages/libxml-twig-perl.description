@@ -1,0 +1,17 @@
+Perl module for processing huge xml documents in tree mode
+	
+this module provides a way to process xml documents.  it is built on
+top of xml::parser.
+
+the module offers a tree interface to the document, while allowing to
+output the parts of it that have been completely processed.
+
+it allows minimal resource (cpu and memory) usage by building the
+tree only for the parts of the documents that need actual processing,
+through the use of the twig_roots and twig_print_outside_roots
+options.  the finish and finish_print methods also help to increase
+performance.
+
+xml::twig tries to make simple things easy so it tries its best to
+takes care of a lot of the (usually) annoying (but sometimes
+necessary) features that come with xml and xml::parser.

@@ -1,0 +1,13 @@
+Replacement for old unix crypt(1)
+	
+mcrypt is a crypting program, intended to be replacement for the old
+unix crypt(1).  but it can do a lot more, since with its libmcrypt
+library it can encrypt and decrypt with the following alogirhtms:
+blowfish, twofish, des, tripledes, 3-way, safer-sk64, safer-sk128,
+safer+, oki97, gost, rc2, rc6, mars, idea, rijndael-128,
+rijndael-192, serpent, rijndael-256, cast-128 (known as cast5),
+cast-256, arcfour, enigma, panama, xtea and wake.
+
+please note that this package is buggy and unmaintained by
+the upstream authors.  if you can, please look for other
+implementations (openssl, gnutls, gnupg).

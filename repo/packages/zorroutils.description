@@ -1,0 +1,9 @@
+Zorro bus utilities for amigas running 2.1 and later kernels
+	
+this package includes a program called "lszorro" that translates the
+/proc/bus/zorro hierarchy into human-readable form; it replaces the
+functionality from the /proc/zorro file provided under linux 2.0 and
+below.
+
+this package is only useful on amiga computers using autoconfig
+(however, it works on systems without the zorro bus, despite the name).

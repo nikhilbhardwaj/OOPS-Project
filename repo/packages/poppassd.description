@@ -1,0 +1,11 @@
+Password change server for eudora and nupop
+	
+this package provides a daemon for changing passwords on pop mail accounts,
+a feature common to eudora and other macos/win32 mail user agents.  this
+feature is also commonly used for tcp loopback password changing from web
+scripting languages like php or perl, so that the webserver process doesn't
+need to be run as root (on in the shadow group).
+
+this version of poppassd changes passwords via pam (as opposed to other
+versions of the same daemon that used the newusers(8) application to change
+passwords), allowing for great flexibility.

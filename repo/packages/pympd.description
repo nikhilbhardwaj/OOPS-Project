@@ -1,0 +1,5 @@
+Frontend for mpd in the style of rhythmbox and itunes
+	
+pympd is a frontend for mpd in the style of rhythmbox and itunes,
+written in python, with pygtk. pympd itself is not a music player, but
+is actually a frontend to mpd, a daemon for playing and managing music.

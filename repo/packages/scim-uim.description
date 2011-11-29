@@ -1,0 +1,10 @@
+Uim im engine module for scim platform
+	
+scim (smart common input method) is an input method (im) platform.
+
+this package provides the uim im engine module for scim.  it provides various
+imput methods through uim library.  with this module you can use all the
+input methods provided by uim with the scim user interface.
+
+for details about scim, please see the description of package scim.
+for details about uim, please see the description of package uim-common.

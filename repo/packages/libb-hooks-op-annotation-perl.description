@@ -1,0 +1,11 @@
+Module to allow annotation and delegation of hooked ops
+	
+b::hooks::op::annotation provides a way for xs code that hijacks op op_ppaddr
+functions to delegate to (or restore) the previous functions, whether they
+are assigned by perl or by another module. typically this should be used in
+conjunction with b::hooks::op::check (see libb-hooks-op-check-perl).
+
+b::hooks::op::annotation makes its types and functions available to xs code
+by means of extutils::depends (libextutils-depends-perl). modules that wish
+to use these exports in their xs code should use b::op::hooks::annotation in
+the perl module that loads the xs.

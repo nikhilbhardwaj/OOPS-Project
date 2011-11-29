@@ -1,0 +1,25 @@
+A generic file repository synchronization tool
+	
+syrep is a generic file repository synchronization tool. it may be used to
+synchronize large file hierarchies bidirectionally by exchanging patch files.
+syrep is truely peer-to-peer, no central servers are involved.
+synchronizations between more than two repositories are supported. the patch
+files may be transferred via offline media, e.g. removable hard disks or
+compact discs.
+
+files are tracked by their message digests, currently md5. the following file
+operations are tracked in the snapshot files: creation, deletion,
+modification, creation of new hard or symbolic links, renaming. (the latter is
+nothing more than a new hard link and removal of the old file). syrep doesn't
+distinguish between soft and hard links. in fact even copies of files are
+treated as the same. currently, syrep doesn't synchronize file attributes like
+access modes or modification times.
+
+syrep was written to facilitate the synchronization of two large digital music
+repositories without direct network connection. patch files of several
+gigabytes are common in this situation.
+
+syrep is able to cope with 64 bit file sizes. (lfs)
+
+syrep is optimized for speed. it may make use of a message digest cache to
+accelerate the calculation of digests of a whole directory hierarchy

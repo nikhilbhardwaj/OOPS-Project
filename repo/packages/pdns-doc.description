@@ -1,0 +1,9 @@
+Powerdns manual
+	
+powerdns is a versatile nameserver which supports a large number
+of different backends ranging from simple zonefiles to relational
+databases and load balancing/failover algorithms.
+powerdns tries to emphasize speed and security.
+
+this is the complete manual for powerdns, documenting both how to
+install and configure it as well as how to write new backend modules.

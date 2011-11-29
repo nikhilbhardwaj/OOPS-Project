@@ -1,0 +1,20 @@
+Debian auxiliary programs
+	
+this package contains perl programs and modules to build
+and publish debian packages.
+
+debaux-build automatically downloads apt sources before
+building, applies patches and additional sources. it
+has options to build the packages in an existing chroot
+environment, check the generated packages with lintian, install
+the created packages on your local system or turn them
+into rpm packages.
+
+debaux-build has experimental support for downloading
+perl modules from cpan and creating the necessary debian
+packaging files.
+
+debaux-publish uploads packages and runs the scripts
+to create the apt sources and packages files on the
+remote system. debaux-publish doesn't support the pool
+structure yet.

@@ -1,0 +1,8 @@
+Ssl-capable xml-rpc implementation - debug symbols
+	
+this cross-platform xml-rpc library supports persistent http/1.1
+connections over ssl. it comes with an xml-rpc interface description
+language compiler.
+
+the debugging symbols for tracking down bugs in applications
+that use libxr are provided by this package.

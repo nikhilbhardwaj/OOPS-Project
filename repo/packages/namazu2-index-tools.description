@@ -1,0 +1,9 @@
+Full text search engine - index handling tools
+	
+namazu is a full text search engine which is usable via cgi. it features
+a simple and easy setup, and is written in c and perl. namazu uses the
+text utilities nkf, kakasi or chasen.
+
+this package including only index handling(ex, create) tools.
+index file format of namazu2 is incompatible with namazu1's one.
+actually, namazu2 packages is needed for searching.

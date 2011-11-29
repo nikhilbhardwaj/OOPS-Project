@@ -1,0 +1,11 @@
+The gtk+ graphical user interface library - minimal runtime
+	
+this is a udeb, or a microdeb, for the debian-installer.
+
+the gtk+ is a multi-platform toolkit for creating graphical user
+interfaces. offering a complete set of widgets, the gtk+ is suitable
+for projects ranging from small one-off tools to complete application
+suites.
+
+this package contains the minimal runtime library using x11 needed
+by the debian installer.

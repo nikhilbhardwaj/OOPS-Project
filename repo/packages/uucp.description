@@ -1,0 +1,9 @@
+Unix to unix copy program
+	
+uucp will copy files to or from another (usually *nix) system, which
+also runs uucp.
+
+uucp is used to transfer mail, news and random files between systems
+which are not connected by more modern networks.  the communication can
+be made via modems, direct (hard-wired) serial connections or via an ip
+connection.

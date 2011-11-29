@@ -1,0 +1,7 @@
+Module to filter scripts out of html
+	
+html::stripscripts::parser is a perl module that provides an easy interface
+to html::stripscripts, using html::parser to parse the html. see html::parser
+(see libhtml-parser-perl) for details of how to customise how the raw html is
+parsed into tags, and html::stripscripts (see libhtml-stripscripts-perl) for
+details of how to customise the way those tags are filtered.

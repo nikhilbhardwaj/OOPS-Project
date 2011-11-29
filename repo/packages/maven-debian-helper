@@ -1,0 +1,4 @@
+PackageId:24184
+Name:maven-debian-helper
+Version:1.1
+Deps:default-jdk,libmaven-clean-plugin-java,libmaven-compiler-plugin-java,libmaven-jar-plugin-java,libmaven-resources-plugin-java,libmaven-site-plugin-java,libplexus-velocity-java,libsurefire-java,maven-repo-helper,maven2,velocity

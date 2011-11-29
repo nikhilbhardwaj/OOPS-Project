@@ -1,0 +1,13 @@
+The smallest ansi c compiler
+	
+tcc (for tiny c compiler) is a small and fast ansi c compiler.  it
+generates optimized x86 code, and can compile, assemble, and link
+several times faster than 'gcc -o0'.  any c dynamic library can be used
+directly.  it includes an optional memory and bounds checker, and
+bounds-checked code can be mixed freely with standard code.  c script
+is also supported via the usual hash-bang mechanism.
+
+note: tcc is still somewhat experimental and is not recommended for
+production use.  the code it generates is much less optimized than what
+gcc produces, and compiler bugs can have serious security consequences
+for your program.

@@ -1,0 +1,14 @@
+Convert between mac and unix font formats
+	
+fondu is a set of programs to convert between mac font formats and
+pfb, ttf, otf and bdf files on unix.
+
+fondu will read a series of mac files, check their resource forks and
+extract all font related items into separate files.
+
+the input files may be either macbinary files (.bin), binhex files
+(.hqx), bare mac resource forks or data fork resource files (.dfont,
+used by mac os/x). a bare resource fork may be generated easily be
+copying a file with a resource fork onto a floppy (or zip) with a dos
+format. the mac will create an (invisible on the mac) folder called
+resource.frk in which the resource fork will reside as a bare file.

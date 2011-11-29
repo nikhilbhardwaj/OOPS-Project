@@ -1,0 +1,11 @@
+Audio/video information automatic extractor/file list generator
+	
+avinfo is a powerful tool for extracting practically any useful information
+from a collection of your multimedia files. it works with many different file
+formats including most popular ones as avi, ogg, ogm, mpeg, and mkv.
+all the file scanning code has been implemented from scratch. avinfo does not
+rely on any external libraries to do this job and has been written in pure c.
+due to that it is fast and efficient. it has a built-in scripting language
+called a.s.s. (avinfo simple script) that is used in templates which control
+the output of the program. it is a "must have" tool for anyone with a huge
+number of multimedia files on her/his hard drives.

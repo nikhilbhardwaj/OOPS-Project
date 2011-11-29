@@ -1,0 +1,8 @@
+Library for parsing ghc event log files; profiling libraries
+	
+this package provides a library for the haskell programming language
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides functions to parse .eventlog files emitted by
+the ghc 6.12.1 and later runtimes.

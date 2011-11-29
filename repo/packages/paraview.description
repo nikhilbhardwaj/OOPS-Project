@@ -1,0 +1,19 @@
+Dynamic libraries for paraview
+	
+paraview is an open-source, multi-platform application designed to
+visualize data sets of size varying from small to very large. the
+goals of the paraview project include the following:
+
+
+    * develop an open-source, multi-platform visualization application.
+    * support distributed computation models to process large data sets.
+    * create an open, flexible, and intuitive user interface.
+    * develop an extensible architecture based on open standards.
+
+
+paraview runs on distributed and shared memory parallel as well as
+single processor systems and has been successfully tested on windows,
+mac os x, linux and various unix workstations, clusters and
+supercomputers. under the hood, paraview uses the visualization
+toolkit as the data processing and rendering engine and has a user
+interface written using qt.

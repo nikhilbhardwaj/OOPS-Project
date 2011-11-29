@@ -1,0 +1,4 @@
+Dbix::class extension to update and create date and time based fields
+	
+dbix::class::timestamp works in conjunction with inflatecolumn::datetime to
+automatically set update and create date and time based fields in a table.

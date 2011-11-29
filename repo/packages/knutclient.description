@@ -1,0 +1,6 @@
+A kde gui that displays ups statistics from nut's upsd
+	
+knutclient monitors ups statistics through the nut (network ups tools,
+http://www.networkupstools.org/) framework on linux and other systems. this
+information, presented in a nice visual format, can be invaluable on
+stations using an ups.

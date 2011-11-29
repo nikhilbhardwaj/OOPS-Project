@@ -1,0 +1,23 @@
+X/gtk+ ftp client
+	
+gftp graphical version is a multithreaded ftp client running under x and
+written using glib/gtk+.
+
+gftp features:
+
+  * simultaneous downloads,
+  * resuming of interrupted file transfers,
+  * file transfer queues,
+  * downloading of entire directories,
+  * ftp and http proxy support,
+  * remote directory caching,
+  * passive and non-passive file transfers,
+  * drag-n-drop support,
+  * bookmarks menu,
+  * support for ssh and ssh2 file transfers,
+  * support fxp transfers,
+  * stop button, and many more features.
+
+
+
+ author:   brian masney <masneyb@gftp.org>

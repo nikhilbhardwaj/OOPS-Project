@@ -1,0 +1,10 @@
+Simple class for ole document interface
+	
+ole::storage_lite is a perl module that allows you to read and write an
+ole-structured file. ole (object linking and embedding) is microsoft's
+framework for a compound document technology which is used throughout the
+office product family.
+
+this module provides the ole functionality for spreadsheet::parseexcel (see
+libspreadsheet-parseexcel-perl) which can used to extract data from excel
+spreadsheets.

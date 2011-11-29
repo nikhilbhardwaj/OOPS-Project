@@ -1,0 +1,11 @@
+Extended modelling of group access
+	
+this package can help you to extend the normal limits of unix groups.
+
+right now there are two tools available:
+
+
+  * target handling, allowing you to have one group for read access
+    and one group for write access.
+  * group file generator that makes it easier to define complex
+    group structures.

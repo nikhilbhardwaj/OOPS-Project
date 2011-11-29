@@ -1,0 +1,9 @@
+An x11 common lisp client library for sbcl
+	
+clx is a low-level x11 client library for common lisp.  clx is to lisp what
+xlib is to c.
+
+this version of clx originated in a cmucl distribution, was modified in order
+to make it compile and run under sbcl and was enhanced with some features from
+other clx implementations.  it currently runs only on sbcl, but it might be
+ported to other common lisp implementations.

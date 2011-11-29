@@ -1,0 +1,10 @@
+Binary microcode for the ixp4xx ethernet
+	
+this package contains the binary microcode for the ixp4xx ethernet nic,
+which is found on the linksys nslu-2, and some other systems. this microcode
+is required for the ixp4xx_eth kernel module to work.
+
+contents:
+
+ * npe-b
+ * npe-c

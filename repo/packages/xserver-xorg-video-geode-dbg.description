@@ -1,0 +1,6 @@
+Geode gx2/lx display driver (debugging symbols)
+	
+this driver supports the geode family of chipsets, including
+nsc gx2 (red cloud), amd gx and amd lx series chips.
+
+this package provides debugging symbols for this x.org driver.

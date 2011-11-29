@@ -1,0 +1,6 @@
+Tool to rip dvd's from the command line
+	
+dvdbackup will extract all (or optionally only selected) titles as found
+on the dvd.  it will structure the extracted files in a format suitable for
+burning at a later time with genisoimage and dvdrecord.  has the advantage of
+being very easy to use, small, and fast.

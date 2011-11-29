@@ -1,0 +1,12 @@
+Wysiwyg presentation tool for emacs
+	
+goby is an emacs lisp package to display large fonts and images, which
+can be used as a wysiwyg presentation tool on gnu emacs.
+
+there are two modes, edit and view, for goby.  edit mode is implemented
+as a minor mode while view mode as a major mode.  the created file (*.gby)
+is just a text, so you can easily handle it.
+
+to display large fonts, install truetype font packages.  to use images,
+install the netpbm package.  to make screen dumps, install the
+imagemagick package.

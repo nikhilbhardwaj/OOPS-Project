@@ -1,0 +1,19 @@
+Perl module for using and building perl sax2 xml processors
+	
+xml::sax consists of several framework classes for using and
+building perl sax2 xml parsers, filters, and drivers.  it is designed
+around the need to be able to "plug in" different sax parsers to an
+application without requiring programmer intervention.  those of you
+familiar with the dbi will be right at home.  some of the designs
+come from the java jaxp specification (sax part), only without the
+javaness.
+
+the package also contains a sax parser, xml::sax::pureperl, but it
+is considered too slow for serious use and is only provided as a
+fallback parser. it is recommend xml::sax::expat (provided in
+libxml-sax-expat-perl) instead.
+
+the framework includes a debian-specific script (called
+update-perl-sax-parsers) to manage the parserdetails.ini file. this
+script is intended to be used in postinst and prerm package scripts to
+(de)register parsers.  see readme.debian for more info.

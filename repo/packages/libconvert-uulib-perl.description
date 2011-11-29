@@ -1,0 +1,11 @@
+Perl interface to the uulib library (a.k.a. uudeview/uuenview)
+	
+convert::uulib is a versatile and powerful decoder/encoder library
+for a variety of encodings used in usenet and mail (uuencode,
+xxencode, b64, binhex...).
+
+the library contains a variety of heuristics to reliably decode
+any files found in the input files, whether part of a single
+mail folder or spread over hundreds of files. its two-pass
+architecture makes it possible to decode hundreds of megabytes in
+one sweep, without using much virtual memory.

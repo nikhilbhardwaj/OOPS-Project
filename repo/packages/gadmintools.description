@@ -1,0 +1,14 @@
+Gtk+ server administration tools (meta-package)
+	
+gadmintools consists of several easy to use gtk+ server administration tools
+for the following programs:
+
+
+ * gadmin-bind - isc bind dns server
+ * gadmin-dhcpd - isc dhcpd server
+ * gadmin-openvpn-client - openvpn client
+ * gadmin-openvpn-server - openvpn server
+ * gadmin-proftpd - proftpd ftp server
+ * gadmin-rsync - rsync server
+ * gadmin-samba - samba smb server
+ * gadmin-squid - squid proxy server

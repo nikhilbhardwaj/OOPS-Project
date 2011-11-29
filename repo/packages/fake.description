@@ -1,0 +1,5 @@
+Ip address takeover tool
+	
+fake is a utility that enables the ip address be taken over by bringing up
+a second interface on the host machine and using gratuitous arp. designed
+to switch in backup servers on a lan.

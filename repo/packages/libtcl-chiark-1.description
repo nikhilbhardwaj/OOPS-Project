@@ -1,0 +1,13 @@
+Tcl interfaces for adns, cdb, crypto, etc.
+	
+tcl bindings for:
+
+ * adns (resolver library)
+ * cdb (constant database) plus journalling writeable database
+ * crypto: the nettle cryptographic library
+ * hbytes: bytestrings with hex as string representation but efficient
+
+to make sensible use of these you will need a version of tcl installed
+(this package is compatible with at least tcl 8.0 to 8.4 inclusive).
+to use the adns and nettle bindings you need to have the
+appropriate libraries installed too.

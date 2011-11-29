@@ -1,0 +1,10 @@
+Apache2 module to speed up perl scripts by making them persistent
+	
+speedycgi is a way to run perl scripts persistently, which usually makes
+them run much more quickly because it avoids the overhead of starting
+up a new perl interpreter and compiling the perl code.
+
+this package provides an apache2 module so that speedycgi scripts can be run
+without the overhead of doing a fork/exec for each request. please note that
+this package only works with apache2's prefork mpm or the itk mpm, as it is
+not thread-safe.

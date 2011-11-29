@@ -1,0 +1,8 @@
+Tools to manage aufs filesystems
+	
+the aufs driver provides a unification file system for the linux kernel. it
+allows to virtually merge the contents of several directories and/or stack
+them, so that apparent file changes in the aufs end in file changes in only one
+of the source directories.
+
+this package contains utilities needed to configure aufs containers on-the-fly.

@@ -1,0 +1,13 @@
+Open sound system - base package
+	
+open sound system (oss) is an attempt in unifying
+the digital audio architecture for unix.
+
+this package contains various utilities for configuring
+and using oss
+
+for oss to work on a system with a given sound card,
+there must be an oss driver for that card in the kernel.
+for linux 2.6, a custom oss4-modules package can be built
+from the sources in the oss4-source package using
+the module-assistant utility.

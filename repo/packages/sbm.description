@@ -1,0 +1,23 @@
+Smart boot manager (sbm) is a full-featured boot manager
+	
+smart boot manager (sbm) is an os independent and full-featured boot
+manager with an easy-to-use user interface.
+
+the main goals of sbm are to be absolutely os independent, flexible
+and full-featured. it has all of the features needed to boot a variety
+of oses from several kinds of media, while keeping its size no more
+than 30k bytes. in another words, sbm does not touch any of your
+partitions, it totally fits into the first track (the hidden track)
+of your hard disk!
+
+main features:
+
+  * automatically searches drivers and partitions
+  * powerful boot schedule
+  * booting from cd-rom
+  * swapping driver id
+  * auto delay boot
+  * sending keystrokes to the operating system
+  * easy customized theme file
+  * password protection
+  * y2k bug work-around for old bioses

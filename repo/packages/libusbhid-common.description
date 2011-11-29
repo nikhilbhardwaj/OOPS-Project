@@ -1,0 +1,8 @@
+Common files for the usb hid devices freebsd library
+	
+usb human interface devices send and receive data layed out in a device
+dependent way. the usbhid library contains routines to extract the report
+descriptor which contains the data layout information and then use this
+information.
+
+this package contains the common files which the library need.

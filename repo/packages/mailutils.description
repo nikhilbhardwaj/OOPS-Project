@@ -1,0 +1,17 @@
+Gnu mailutils utilities for handling mail
+	
+this package contains the gnu mailutils versions of dotlock, frm, from,
+maidag, mail, messages, mimeview, movemail, readmsg and sieve. they are
+capable of speaking pop3, imap, mbox, mh and maildir.
+
+
+ dotlock -- lock mail spool files.
+ frm -- display from: lines.
+ from -- display from and subject.
+ maidag -- the mail delivery agent.
+ mail -- the standard /bin/mail interface, mail sender and reader.
+ messages -- count the number of messages in a mailbox.
+ mimeview -- display files, using mailcap mechanism.
+ movemail -- move messages across mailboxes.
+ readmsg -- extract selected messages from a mailbox.
+ sieve -- a mail filtering tool.

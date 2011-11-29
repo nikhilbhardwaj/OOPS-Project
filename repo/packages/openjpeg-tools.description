@@ -1,0 +1,10 @@
+Command-line tools using the jpeg 2000 library
+	
+this package provides with command-line tools allowing for conversions between
+several formats:
+
+ - j2k_to_image: decodes j2k, jp2, and jpt files to pgm, ppm, pnm,
+                 pgx, and bmp.
+ - image_to_j2k: encodes pnm, pgm, pgx, bmp, and ppm files to j2k,
+                 and jp2.
+ - index_create: create jp2 with jpip index file from a j2k file.

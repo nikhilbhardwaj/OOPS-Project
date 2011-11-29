@@ -1,0 +1,7 @@
+Index and search pods using x<> entries
+	
+the pod-index distribution includes various modules for indexing and
+searching pod that is appropriately marked with x<> pod codes.
+
+pod::index, as a module, does nothing. everything is done by
+pod::index::builder, pod::index::search, and other helper modules.

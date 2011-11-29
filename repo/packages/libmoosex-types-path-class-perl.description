@@ -1,0 +1,10 @@
+Path::class type library for moose
+	
+moosex::types::path::class creates common moose types, coercions and option
+specifications useful for dealing with path::class objects as moose
+attributes.
+
+coercions (see moose::util::typeconstraints) are made from both 'str' and
+'arrayref' to both path::class::dir and path::class::file objects. if you
+have moosex::getopt installed, the getopt option type ("=s") will be added
+for both path::class::dir and path::class::file.

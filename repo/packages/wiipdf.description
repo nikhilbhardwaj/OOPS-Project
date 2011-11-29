@@ -1,0 +1,7 @@
+Present a pdf file using your wiimote
+	
+wiipdf is a tiny tool to present a pdf using xpdf and your wiimote.
+after providing it the bluetooth-id of your wiimote it connects and
+lets you use the a and b button to go one slide forward respectively
+backward in your presentation. each keypress is confirmed by a short
+rumble of your wiimote.

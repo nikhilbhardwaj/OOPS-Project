@@ -1,0 +1,12 @@
+Audio tag editor for gtk+
+	
+ex falso displays and edits audio metadata tags. supported formats include
+mp3, ogg vorbis, flac, musepack (mpc), wavpack, and mod/xm/it.
+
+notable features include:
+
+ * freeform tag editing for most supported formats, including id3v2
+ * multiple values for tag keys
+ * flexible rename-by-tags and tag-by-filename patterns
+ * extensible using simple python-based plugins
+ * edit multiple files in several formats at once

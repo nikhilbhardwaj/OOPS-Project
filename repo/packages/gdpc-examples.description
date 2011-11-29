@@ -1,0 +1,8 @@
+Example files for the gdpc program
+	
+gpdc is a graphical program for visualising output data from
+molecular dynamics simulations. it reads input in the standard xyz
+format, as well as other custom formats, and can output pictures of
+each frame in jpg or png format.
+
+this package contains examples to be used by the gdpc program.

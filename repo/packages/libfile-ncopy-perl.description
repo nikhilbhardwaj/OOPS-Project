@@ -1,0 +1,6 @@
+File copying like cp for perl
+	
+the file::ncopy module provides a function that copies files to
+directories, or a single file to another file.  it can also use a
+reference to a file handle.  the functionality is very similar to
+the cp program.

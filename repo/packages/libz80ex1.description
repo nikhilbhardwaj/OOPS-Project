@@ -1,0 +1,6 @@
+Z80ex emulation library, shared files
+	
+libz80ex is a portable zilog z80 cpu emulator designed as a library.
+goals include: precise opcode emulation (documented & undocumented),
+exact timings for each opcode (including i/o operations) and multiple
+cpu contexts. a disassembler is included as well.

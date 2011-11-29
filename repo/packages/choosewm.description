@@ -1,0 +1,7 @@
+Fake x-session-manager allowing the user to choose a wm
+	
+when installed, this package installs a x-session-manager alternative
+allowing the user to choose the window manager. the list is taken
+by default from everything installing a window manager option in
+the debian menu system, but the administrator or user can add or
+remove items via config files.

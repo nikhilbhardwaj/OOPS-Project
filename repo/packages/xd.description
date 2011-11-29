@@ -1,0 +1,17 @@
+Smart directory change utility
+	
+the program xd is a program smart directory changer. it allows you to change
+to a directory specifying only its initial characters or a subset of the
+initial characters allowing commands like 'xd ulb' to do a 'chdir
+/usr/local/bin'.
+
+xd can be used in combination with the standard tab-filename completion as
+offered by most shells. but as xd is very easy to use, one is quickly
+addicted to xd when changing to directories that are not close to the current
+working directory. small changes required thereafter are in practice always
+performed using the facilities offered by the command shell.
+
+when multiple expansions are available xd offers a list of alternatives from
+which the user may select an option by simply pressing an associated
+key. directories that are never selected by the user may be ignored using
+directives in xd's configuration file.

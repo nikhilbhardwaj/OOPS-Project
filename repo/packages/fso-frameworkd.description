@@ -1,0 +1,9 @@
+Freesmartphone.org framework daemon
+	
+this packages provides the backend daemon of the freesmartphone.org software
+stack. it provides all telephone related features, such as accepting and making
+calls, receiving and sending sms and other hardware specifics via a d-bus
+interface to the user interface programs.
+
+this package is part of the freesmartphone.org software stack
+and it is targeted for smartphones.

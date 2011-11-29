@@ -1,0 +1,10 @@
+Tools for managing ocfs2 cluster filesystems
+	
+ocfs2 is a general purpose cluster filesystem. unlike the initial release
+of ocfs, which supported only oracle database workloads, ocfs2 provides
+full support as a general purpose filesystem.  ocfs2 is a complete rewrite
+of the previous version, designed to work as a seamless addition to the
+linux kernel.
+
+this package installs the tools to manage the ocfs2 filesystem, including mkfs,
+tunefs, fsck, debugfs, and the utilities to control the o2cb clustering stack.

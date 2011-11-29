@@ -1,0 +1,8 @@
+Subunittestprogresslistener for cppunit - development headers
+	
+subunit is a protocol for test activity reporting. the
+subunittestprogresslistener permits outputting subunit from  a cppunit test
+suite.
+
+the libcppunit-subunit-dev package contains the c++ development headers,
+pkgconfig data file and a static version of the library.

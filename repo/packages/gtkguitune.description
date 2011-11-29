@@ -1,0 +1,6 @@
+Guitar and other instruments tuner
+	
+gtkguitune is a linux program for tuning guitars and other
+instruments by using the method of schmitt-triggering, i.e.  counting
+the number of triggerings between two trigger levels in a certain
+amount of time.

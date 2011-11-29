@@ -1,0 +1,15 @@
+Quantum mechanic-like superpositions for perl
+	
+the quantum::superpositions module provides a new scalar data structure: the
+superposition. in a metaphor drawn from quantum mechanics, superpositions store
+a collection of values by overlaying them in parallel superimposed states
+within a single scalar variable.
+
+under the standard interpretation of quantum mechanics, until they are
+observed, particles exist only as a discontinuous probability function. under
+the cophenhagen interpretation, this situation is often visualized by imagining
+the state of an unobserved particle to be a ghostly overlay of all its possible
+observable states simultaneously. for example, a particle that might be
+observed in state a, b, or c may be considered to be in a pseudo-state where it
+is simultaneously in states a, b, and c.  such a particle is said to be in a
+superposition of states.

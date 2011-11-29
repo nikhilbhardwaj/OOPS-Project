@@ -1,0 +1,12 @@
+Sound module tracking program (it - impulse tracker clone)
+	
+this program is used to create what is called 'sound modules', files
+containing samples of, for instance, piano's and guitars, and a
+couple of play-patterns with notes, durations and effects. if these
+patterns are sequenced, a melody will play according to the notes
+and instruments you set in the pattern. this program is a direct
+clone of the msdos program called impulse tracker. it's not hard to
+learn, and very funny to play around with. this version is only
+capable of loading .it type files (the original impulse tracker
+format). to start and find some cool pre-made tunes go to
+ftp://ftp.scene.org/pub/music/.

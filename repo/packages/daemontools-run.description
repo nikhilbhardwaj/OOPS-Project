@@ -1,0 +1,4 @@
+Daemontools service supervision
+	
+starts svscanboot from inittab, and provides the directory /etc/service/
+for services to be supervised by daemontools.

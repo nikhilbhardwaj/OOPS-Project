@@ -1,0 +1,12 @@
+Multiplatform interface for sequence alignment and phylogeny
+	
+seaview reads and writes various file formats (nexus, msf, clustal, fasta,
+phylip, mase, newick) of dna and protein sequences and of phylogenetic trees.
+alignments can be manually edited. it drives the programs muscle or clustal w
+for multiple sequence alignment, and also allows to use any external alignment
+algorithm able to read and write fasta-formatted files. it computes
+phylogenetic trees by parsimony using phylip's dnapars/protpars algorithm, by
+distance with nj or bionj algorithms on a variety of evolutionary distances, or
+by maximum likelihood using the program phyml 3.0. seaview draws phylogenetic
+trees on screen or postscript files, and allows to download sequences from
+embl/genbank/uniprot using the internet.

@@ -1,0 +1,8 @@
+Qt4 designer plugin for qscintilla 2
+	
+qscintilla is a text editor for qt4 with features especially useful when
+writing and debugging source code. these include support for syntax
+styling, error indicators, code completion, call tips and margins.
+
+this package contains a plugin to use the qscintilla 2 widget in the
+qt4 ui designer.

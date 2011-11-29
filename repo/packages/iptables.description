@@ -1,0 +1,11 @@
+Administration tools for packet filtering and nat
+	
+these are the user-space administration tools for the linux
+kernel's netfilter and iptables. netfilter and iptables provide
+a framework for stateful and stateless packet filtering, network
+and port address translation, and other ip packet manipulation.
+the framework is the successor to ipchains.
+
+netfilter and iptables are used in applications such as internet
+connection sharing, firewalls, ip accounting, transparent proxying,
+advanced routing and traffic control.

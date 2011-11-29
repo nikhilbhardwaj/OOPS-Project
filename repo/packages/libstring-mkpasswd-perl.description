@@ -1,0 +1,13 @@
+Perl module implementing a random password generator
+	
+string::mkpasswd defines a single function, mkpasswd(), to generate
+random passwords.  the function is meant to be a simple way for
+developers and system administrators to easily generate a relatively
+secure password.
+
+the exportable mkpasswd() function returns a single scalar: a random
+password.  by default, this password is nine characters long with a
+random distribution of four lower-case characters, two upper-case
+characters, two digits, and one non-alphanumeric character.  these
+parameters can be tuned by the user, as described in the /"arguments"
+section.

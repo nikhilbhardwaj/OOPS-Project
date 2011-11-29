@@ -1,0 +1,14 @@
+Transaction-based software configuration management
+	
+aegis provides a framework within which a team of developers may
+work on many changes to a program independently, and aegis
+coordinates integrating these changes back into the master source
+of the program, with as little disruption as possible.
+
+aegis simplifies the problems associated with multiple developers and
+development trees by using a transaction-based approach to version control,
+along with a web-browsable repository and an integrated testing
+mechanism.
+
+see aegis-doc for documentation, aegis-tk for a tk based user
+interface, and aegis-web for a web based user interface.

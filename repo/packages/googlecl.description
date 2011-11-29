@@ -1,0 +1,10 @@
+Command-line tool for access to (some) google services
+	
+this package provides a user-friendly command-line interface to
+some of the google data protocol (gdata) apis.  it lets you do things like:
+
+
+ google blogger post --title "test post" "i'm posting from the command line"
+ google calendar list --date 2010-06-01
+ google contacts list
+ google youtube post killer_robots.avi

@@ -1,0 +1,11 @@
+Utilities to dump system's acpi tables to an ascii file
+	
+this package contains a small collection of utilities acpi system
+tables:
+
+ * acpidump: to dump tables
+ * acpixtract: to convert ascii acpidump output to raw binary
+ * turbostat: to gather performance statistics (x86 only)
+
+
+note: upstream package is called pmtools.

@@ -1,0 +1,6 @@
+Library for creating easy email filters
+	
+email::filter is another module produced by the "perl email project",
+a reaction against the complexity and increasing bugginess of the
+"mail::*" modules. it replaces mail::audit, and allows you to write
+programs describing how your mail should be filtered.

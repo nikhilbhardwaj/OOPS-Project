@@ -1,0 +1,11 @@
+Realtime apache monitoring tool
+	
+apache top is a curses-based realtime utility to display information from a
+running copy of apache.
+
+it is modelled after the standard 'top' utility, and displays information such
+as the requests pers second, bytes per second and the most popular urls
+displayed.
+
+it must be run from a machine running apache, as it works by processing the
+logfiles found in /var/log/apache.

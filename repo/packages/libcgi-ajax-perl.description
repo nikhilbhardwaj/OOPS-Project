@@ -1,0 +1,23 @@
+Perl-specific system for writing asynchronous web applications
+	
+cgi::ajax is an object-oriented module that provides a unique mechanism
+for using perl code asynchronously from javascript-enhanced html pages.
+cgi::ajax unburdens the user from having to write extensive javascript,
+except for associating an exported method with a document-defined event
+(such as onclick, onkeyup, etc.). cgi::ajax also mixes well with html
+containing more complex javascript.
+
+cgi::ajax supports methods that return single results or multiple
+results to the web page, and supports returning values to multiple
+div elements on the html page.
+
+using cgi::ajax, the url for the http get/post request is automatically
+generated based on html layout and events, and the page is then
+dynamically updated with the output from the perl function.  additionally,
+cgi::ajax supports mapping url's to a cgi::ajax function name, so you
+can separate your code processing over multiple scripts.
+
+a primary goal of cgi::ajax is to keep the module streamlined and
+maximally flexible. we are trying to keep the generated javascript code
+to a minimum, but still provide users with a variety of methods for
+deploying cgi::ajax. and very little user javascript.

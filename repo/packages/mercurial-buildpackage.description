@@ -1,0 +1,19 @@
+Suite to maintain debian packages in mercurial repository
+	
+this package helps to automate the task of maintaining debian
+packages by using the distributed version-control system mercurial.
+the programs included are:
+
+mercurial-importdsc: import an existing debian source package into a
+mercurial repository.
+
+mercurial-importorig: import new upstream tarballs.
+
+mercurial-pristinetar: recreate source tarballs from the mercurial
+repository so they are identical to original upstream tarballs.
+
+mercurial-buildpackage: build a debian package from the mercurial
+repository, either in-place or using pbuilder.
+
+mercurial-tagversion: mark an uploaded debian package for future
+reference.

@@ -1,0 +1,10 @@
+Squirrelmail plugin: let other plugins work with older/newer sm versions
+	
+this plugin allows any other plugin access to the functions and special
+variables needed to make it backward (and forward) compatible with most
+versions of sm in wide use. this eliminates the need for duplication of
+certain functions throughout many plugins. it also provides functionality that
+helps check that plugins have been installed and set up correctly.
+
+squirrelmail is a standards-based webmail package written in php. it runs on
+top of any imap server.

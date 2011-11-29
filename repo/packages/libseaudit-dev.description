@@ -1,0 +1,7 @@
+Security enhanced linux audit message parser development
+	
+security-enhanced linux is a patch of the linux kernel and a number
+of utilities with enhanced security functionality designed to add
+mandatory access controls to linux.  this package contains the
+headers and archives used for linking to the library routines used to
+parse and filter selinux audit log messages.

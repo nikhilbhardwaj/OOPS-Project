@@ -1,0 +1,13 @@
+Options parsing tool library
+	
+opt is a subroutine library which facilitates the convenient input
+of parameters to a c program. parameters are parsed from a command
+line, with further facilities for reading options from files, from
+environment strings, or from an interactive environment. the aim of
+the opt package is to permit programs to be both user- and
+programmer- friendly. the package attempts to on the one hand
+provide a direct and relatively full-featured input interface to the
+ultimate user of the program, and at the same time impose a minimal
+amount of work on the programmer to "attach" the package to his or
+her software. it is similar to gnu's (and at&t's old) getopts
+package, but with a different interface that might be easier to use.

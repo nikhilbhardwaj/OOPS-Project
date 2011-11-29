@@ -1,0 +1,7 @@
+A phylogenetic tree drawing program
+	
+njplot is able to draw any dendrogram expressed in the newick standard
+phylogenetic tree format (e.g., the format used by the phylip package).
+njplot is especially convenient for rooting the unrooted trees
+obtained from parsimony, distance or maximum likelihood tree-building
+methods.

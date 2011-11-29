@@ -1,0 +1,7 @@
+Tools to test the reachability of network hosts
+	
+the ping command sends icmp echo_request packets to a host in order to
+test if the host is reachable via the network.
+
+this package includes a ping6 utility which supports ipv6 network
+connections.

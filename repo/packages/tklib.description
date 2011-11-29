@@ -1,0 +1,30 @@
+The standard tk library
+	
+tklib, the standard tk library, is a collection of common utility
+functions and widgets all written in pure tcl/tk.
+
+modules included:
+
+  autoscroll: automatically maps scrollbars when they are needed;
+  canvas: provides a canvas with map background based on square tiles;
+  chatwidget: a composite widget for chat applications;
+  crosshair: provides commands to (de)activate and track crosshairs;
+             on canvas widgets;
+  ctext: a text widget with syntax highlighting support;
+  cursor: provides a few cursor routines;
+  datefield: an entry widget for the purpose of date entry;
+  diagrams: helps drawing diagrams, like flowcharts;
+  getstring: a dialog which prompts for a string input;
+  history: provides a history for mechanism for entry widgets;
+  ico: provides functions for reading and writing windows icons;
+  ipentry: a widget for the entering of an ip address;
+  khim: provides key bindings for entering international
+        characters on a keyboard that does not support them;
+  ntext: provides alternative bindings for the text widget;
+  plotchart: provides simple plotting and charting commands;
+  style: provides simple theming using tk options;
+  swaplist: a dialog which allows to move options between two lists;
+  tablelist: a multicolumn listbox widget;
+  tkpiechart: 2d or 3d pie chart object in a canvas;
+  tooltip: provides tooltips for tk widgets;
+  widget: a set of megawidgets based on snit system.

@@ -1,0 +1,9 @@
+Ace network service implementations
+	
+ace network services provide reusable components for common
+distributed system tasks such as logging, naming, locking, and time
+synchronization.
+
+this package contains driver program and exemplary configuration
+files that links the various ace network services together, either
+statically or dynamically, to form complete server programs.

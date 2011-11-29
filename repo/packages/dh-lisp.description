@@ -1,0 +1,16 @@
+Debhelper to support common lisp related packages
+	
+this debhelper addon targets debian package maintainers of packages
+related to common lisp. it automates the processes of making a
+package conform to the common lisp in debian manual:
+
+it generates maintainer scripts and establishes symbolic links to
+register libraries at the common lisp controller and the another
+system definition facility (asdf).
+
+it adds dependencies to required common lisp implementations if
+precompiled object files for them are included in the package.
+
+dh-lisp supports packages of common lisp implementations by
+generating maintainer scripts to register them at the common lisp
+controller.

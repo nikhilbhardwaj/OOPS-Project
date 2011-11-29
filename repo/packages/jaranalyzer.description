@@ -1,0 +1,6 @@
+Dependency management utility for jar files
+	
+jaranalyzer's primary purpose is to traverse through a directory,
+parse each of the jar files in that directory, and identify the
+dependencies between the jar files. the output is an xml or graphviz
+file representing the dependencies between the jar files.

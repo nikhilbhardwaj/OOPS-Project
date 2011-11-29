@@ -1,0 +1,9 @@
+Database-independent create and drop functions
+	
+this module implements create_database and drop_database functions for
+databases.  it aims to provide a common interface to database creation and
+deletion regardless of the actual database being used.
+
+currently supported databases are mysql and postgresql.  assistance adding
+support for other databases is welcomed and relatively simple - see
+dbix::datasource::driver.

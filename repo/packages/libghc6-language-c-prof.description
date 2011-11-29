@@ -1,0 +1,8 @@
+Profiling libraries for haskell library.c module
+	
+
+language c is a haskell library for the analysis and generation of c code. it
+features a complete, well tested parser and pretty printer for all of c99 and
+a large set of gnu extensions.
+
+this package contains the profiling libraries compiled for ghc 6.

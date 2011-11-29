@@ -1,0 +1,8 @@
+Gui (graphical user interface) for smbstatus
+	
+qtsmbstatus is a smbstatus graphical interface (gui).
+it is meant to provide the possibility of administering remote machines.
+qtsmbstatus was designed as a client/server system secured with ssl.
+
+this package provides the lightweight client-side application which
+works only locally and doesn't require qtsmbstatus-server.

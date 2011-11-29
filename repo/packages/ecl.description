@@ -1,0 +1,20 @@
+Embeddable common-lisp: has an interpreter and can compile to c
+	
+ecl stands for embeddable common-lisp. the ecl project is an
+effort to modernize giuseppe attardi's ecl environment to
+produce an implementation of the common-lisp language
+which complies to the ansi x3j13 definition of the language.
+
+the current ecl implementation features:
+
+ * a bytecodes compiler and interpreter.
+ * a translator to c.
+ * a uffi-compatible interface to c code.
+ * a dynamic loader.
+ * the possibility to build standalone executables and dlls.
+ * the common-lisp object system (clos).
+ * conditions and restarts for handling errors.
+ * sockets as ordinary streams.
+ * the gnu multiprecision library for fast bignum operations.
+ * a simple conservative mark & sweep garbage collector.
+ * the boehm-weiser garbage collector.

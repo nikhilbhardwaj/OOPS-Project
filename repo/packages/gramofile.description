@@ -1,0 +1,34 @@
+Transfer sound from gramophone records to cd
+	
+gramofile enables you to record audio from (for example) gramophone
+records, process the signal and listen to the results. because sound
+files in .wav-format are used, it is possible to exchange the files
+with many other programs. wodim(1) can burn cd-recordables of these,
+so you can make cds with the music of your favorite records.  the user
+interface of gramofile has a windows-like look-and-feel, making it
+fairly easy to use.
+
+one of the most important parts of gramofile is the ability to process
+digital audio signals. through the application of several filters it
+is possible to accomplish a significant reduction of disturbances like
+ticks and scratches. these filters have been programmed in such a fashion
+that they can be applied in any order (and multiple times) in a single
+run, thus avoiding the use of temporary files. it is possible to adjust
+the properties of each filter independently, so in every situation an
+optimal result can be achieved.
+
+another interesting feature is the track splitting. just make one .wav
+file of an entire side of an record and gramofile will detect where
+the individual tracks are located. this happens fully automatically,
+without need to set any options. more experienced users may fine-tune
+the algorithm, or change the detected track starts and ends, but
+generally that will not be necessary. track-times are saved in an
+editable (plaintext) .tracks file, that will be used during the signal
+processing to produce one processed .wav file for each individual track.
+
+to record and play .wav files, modified versions of brec(1) and bplay(1)
+by david monro are included. these programs provide buffered recording
+and playback, so all will go well even on a highly loaded system. both
+programs have been modified to support the standard gramofile user
+interface.  brec also got a `graphical' peak level meter, and bplay a
+running time display.

@@ -1,0 +1,10 @@
+Gnu r routines for bayesian ecological inference
+	
+this is a set of routines for gnu r that implement imai and lu's
+parametric and nonparametric bayesian ecological inference algorithms
+using markov chain monte carlo estimation.  ecological inference is a
+statistical technique designed to recover individual-level information
+from aggregate-level data.
+
+the suggested r-cran-mcmcpack package includes other ei estimators that
+may be useful alternatives to those included in this package.

@@ -1,0 +1,6 @@
+Module for perlish declarative templates
+	
+template::declare is a pure-perl declarative html/xul/rdf/xml templating
+system. all templates are 100% pure perl code using a simple declarative
+syntax. it supports "native" xml namespace and declarator support, as well
+as inheritance and public/private templates.

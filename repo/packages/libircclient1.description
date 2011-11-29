@@ -1,0 +1,21 @@
+C library to create irc clients
+	
+libircclient is a small but powerful library that implements the
+client-server irc protocol. it is designed to be small, fast, portable and
+compatible to rfc standards, and most irc clients. libircclient features
+include:
+
+
+ * full multi-threading support.
+ * single threads handles all the irc processing.
+ * support for single-threaded applications, and socket-based applications,
+   which use select()
+ * synchronous and asynchronous interfaces.
+ * ctcp support with optional build-in reply code.
+ * flexible dcc support, including both dcc chat, and dcc file transfer.
+ * can both initiate and react to initiated dcc.
+ * can accept or decline dcc sessions asynchronously.
+ * plain c interface and implementation (possible to use from c++ code,
+   obviously)
+ * compatible with rfc 1459 and most irc clients.
+ * good documentation and examples available.

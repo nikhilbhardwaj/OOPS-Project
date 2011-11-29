@@ -1,0 +1,11 @@
+Authentication service for credential -- development package
+	
+munge (munge uid 'n' gid emporium) is an authentication service
+for creating and validating credentials.  it allows a process
+to authenticate the uid and gid of another local or remote
+process within a group of hosts having common users and groups.
+these hosts form a security realm that is defined by a shared
+cryptographic key.
+
+this package contains the development files for compiling
+applications using munge.

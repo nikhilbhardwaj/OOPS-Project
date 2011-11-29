@@ -1,0 +1,21 @@
+A graphical predictive text input system
+	
+dasher is an information-efficient text-entry interface, driven by natural
+continuous pointing gestures. dasher is a competitive text-entry system
+wherever a full-size keyboard cannot be used - for example,
+
+
+ * on a palmtop computer
+ * on a wearable computer
+ * when operating a computer one-handed, by joystick, touchscreen, trackball,
+ or mouse
+ * when operating a computer with zero hands (i.e., by head-mouse or by
+ eyetracker).
+
+
+the eyetracking version of dasher allows an experienced user to write text
+as fast as normal handwriting - 25 words per minute; using a mouse,
+experienced users can write at 39 words per minute.
+
+dasher uses a more advanced prediction algorithm than the t9(tm) system
+often used in mobile phones, making it sensitive to surrounding context.

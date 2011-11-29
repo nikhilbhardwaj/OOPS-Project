@@ -1,0 +1,25 @@
+Arc grid middleware
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced resource
+connector (arc).
+
+the advanced resource connector (arc) brings computing resources
+together across institutional boundaries. this concept is commonly
+referred to as a "computational grid". historically, grids address the
+organisation of distributed storage of data and parallel computation,
+but arbitrary services are thinkable.
+
+just like the web, arc has its roots in the it infrastructure that was
+erected to analyse the experiments for high energy physics at cern. the
+first release, arc-0.x, was dependent on globus, the current release
+keeps that compatibility but can also be used independently.
+
+with arc-nox, formerly known as arc-1, the user gains flexibility
+with additional services and more supported platforms. the service
+developer notices that even for persistent functionality across the
+two major versions, what has been a script on the server side once,
+that was repeatedly started and ran through, this has now become a
+service. those are only started once and can then be queried, which
+is far more efficient, far more responsive, and is no longer stateless
+but can observe changes of values over time.

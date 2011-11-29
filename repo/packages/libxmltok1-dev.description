@@ -1,0 +1,10 @@
+Xml parser toolkit, developer libraries
+	
+libraries for xml parsing in c.  it aims to be fully conforming. it
+is currently not a validating xml processor.
+
+the library libxmltok contains a low-level library for tokenizing
+xml.  the library libxmlparse contains an xml parser library which is
+built on top of the xmltok library.
+
+author:   james clark <jjc@jclark.com>

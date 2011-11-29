@@ -1,0 +1,7 @@
+Continuous snapshotting log-structured filesystem
+	
+nilfs is a new implementation of a log-structured filesystem. it allows
+continuous snapshotting, so that users can restore files mistakenly overwritten
+or destroyed even when it happens after the last backup.
+
+this package contains utilities (mkfs, fsck, etc.) used to work with nilfs.

@@ -1,0 +1,8 @@
+Drawing and graphical effects extension for sdl
+	
+the sdl_gfx library is an extension to the sdl library which provides
+basic antialiased drawing routines such as lines, circles or polygons,
+an interpolating rotozoomer for sdl surfaces, framerate control and mmx
+image filters.
+
+this package contains the sdl_gfx runtime library.

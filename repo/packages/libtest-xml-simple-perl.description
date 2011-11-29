@@ -1,0 +1,5 @@
+Perl testing framework for xml data
+	
+test::xml::simple is a very basic class for testing xml. it uses the xpath
+syntax to locate nodes within the xml. you can also check all or part of the
+structure against a given xml fragment.

@@ -1,0 +1,8 @@
+Parallelism library for c++ - documentation
+	
+tbb is a library that helps you leverage multi-core processor
+performance without having to be a threading expert. it represents a
+higher-level, task-based parallelism that abstracts platform details
+and threading mechanism for performance and scalability.
+
+this package includes the tbb documentation files.

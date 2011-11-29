@@ -1,0 +1,4 @@
+Text utilities for use with gd
+	
+this module provides a font-independent way of dealing with text in gd,
+for use with the gd::text::* modules and gd::graph.

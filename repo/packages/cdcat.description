@@ -1,0 +1,6 @@
+Media catalog program
+	
+cdcat is a graphical, multiplatform media catalog program which scans the
+directories/drives you specify and makes a list of the filesystem
+contents (including the tags of mp3 files) and stores the result in a
+gzipped xml file.

@@ -1,0 +1,5 @@
+Fieldset rendering mixin for django-based forms
+	
+this package provides a mixin class for forms that use the django web
+framework. it allows forms to be partitioned into groups (or
+"fieldsets") in a similar way to the built-in admin system.

@@ -1,0 +1,14 @@
+Unix-domain socket client-server command-line tools
+	
+unixclient and unixserver are command-line tools for building unix
+domain client-server applications.  unixclient connects to a unix domain
+socket and runs a program of your choice.  unixserver creates a unix
+domain socket, waits for incoming connections and, for each connection,
+runs a program of your choice.
+
+unixclient and unixserver conform to ucspi, the unix client-server
+program interface, using unix domain sockets.  ucspi tools are available
+for several different networks.
+
+see http://cr.yp.to/proto/ucspi.txt for more information on ucspi.  see
+http://untroubled.org/ucspi-unix/ for recent informations.

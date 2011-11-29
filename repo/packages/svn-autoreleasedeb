@@ -1,0 +1,4 @@
+PackageId:32318
+Name:svn-autoreleasedeb
+Version:0.12-1
+Deps:adduser,dpkg-dev,dupload,fakeroot,libapt-pkg-perl,libxml-parser-perl,perl,subversion,svn-buildpackage

@@ -1,0 +1,9 @@
+Mecab binding for java - native interface
+	
+mecab is a morphological analysis system.  it reads japanese
+sentences from the standard input, segments them into morpheme
+sequences, and outputs them to the standard output with many
+additional pieces of information (pronunciation, semantic
+information, etc).
+
+this package is built for java.

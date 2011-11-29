@@ -1,0 +1,13 @@
+Ip network transaction auditing tool
+	
+argus is a network transaction auditing tool that allows the user
+to easily classify connections using tcpdump(1) compliant expressions.
+argus runs as an application level daemon, promiscuously reading network
+datagrams from a specified interface, and generates network traffic audit
+records for the network activity that it encounters.
+auditing records can be used to ensure that access control policies are
+being enforced, identify network problems such as denial of service attacks
+and more.
+
+this package contains the client programs for the argus server.
+please see the package argus-server for the appropriate server.

@@ -1,0 +1,8 @@
+Unixodbc hdbc (haskell database connectivity) driver for ghc
+	
+hdbc provides an abstraction layer between haskell programs and sql
+relational databases. this lets you write database code once, in
+haskell, and have it work with any number of backend sql databases
+(mysql, oracle, postgresql, odbc-compliant databases, etc.)
+
+this package provides the odbc database driver for hdbc under ghc.

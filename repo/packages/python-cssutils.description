@@ -1,0 +1,15 @@
+Css cascading style sheets parser and builder
+	
+package to parse and build css cascading style sheets. dom only, not any
+rendering facilities! base upon and partly implements the following
+specifications:
+
+
+  * css 2.1 and css 2.1 errata
+  * css3 module: syntax
+  * dom level 2 style css
+  * dom level 2 style stylesheets
+  * cssom
+  * mediaqueries
+  * namespaces
+  * selectors

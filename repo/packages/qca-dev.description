@@ -1,0 +1,15 @@
+Qt cryptographic architecture - development files
+	
+taking a hint from the similarly-named java cryptography architecture,
+qca aims to provide a straightforward and cross-platform crypto api,
+using qt datatypes and conventions. qca separates the api from the
+implementation, using plugins known as providers. the advantage of
+this model is to allow applications to avoid linking to or explicitly
+depending on any particular cryptographic library. this allows one to
+easily change or upgrade crypto implementations without even needing
+to recompile the application!
+
+this package contains the files necessary to compile applications
+using qca.
+
+qca version 1 is deprecated - use qca2 if possible.

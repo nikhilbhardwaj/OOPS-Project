@@ -1,0 +1,31 @@
+Upload/download maps to/from a valve game server (client)
+	
+uploading maps to a game server can be a tedious process if you want to get
+the post-upload processing right. maptransfer tries to automate this process
+as much as possible. it handles everything a map upload takes:
+
+
+ * finds the paths on the disk where steam is installed and where games are
+   located. (uses the registry on windows, and maptransfer.cfg for other oss)
+ * bzips the map before upload, and only uploads the bz2ed file. that way,
+   maps are automatically prepared for fast download, while saving (mega)bytes
+   for the client to upload.
+ * uploads .nav/.txt/.res files, if any.
+ * hardlinks files on the server side, if more than one gameserver path is
+   specified in the config; that way a single map is uploaded to multiple
+   servers at once (and only takes up the space once, too).
+ * saves you and your users a lot of tedious cdery and copypasta.
+ * highlights the maps you or the server don't have, so you easily see what's
+   missing on either side.
+
+
+aside from the core functionality, it offers a few niceties as well:
+
+
+ * client allows for simultaneous downloads and uploads.
+ * uses https as protocol - that way, you can download maps (or test
+   connectivity) with your favorite web browser, or write your own scripts
+   that interact with the server.
+ * ipv6 ready
+ * extensible: any game should work, as long as it uses bsp maps - map
+   directories aren't hard coded but read from the config file.

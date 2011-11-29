@@ -1,0 +1,6 @@
+A ncurses-based hex editor with many features
+	
+hexcurse is a versatile ncurses-based hex editor written in c that provides
+the user with many features. it currently supports searching, hex, and
+decimal address output, jumping  to specified locations in a file, and
+quick keyboard shortcuts to commands.

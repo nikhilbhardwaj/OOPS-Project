@@ -1,0 +1,9 @@
+Kolab cyrus mail system (test clients)
+	
+this package contains client tools to test the cyrus imapd suite.
+it contains the mupdatetest, sivtest, smtptest, lmtptest,
+imtest and pop3test tools which can be used to interactively talk to
+a mupdate, sieve, smtp, lmtp, imap or pop3 server.
+the clients are fully sasl-enabled for authentication.
+
+for more information, please see the kolab-cyrus-common package.

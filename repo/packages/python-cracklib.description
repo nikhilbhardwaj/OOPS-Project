@@ -1,0 +1,8 @@
+Python bindings for password checker library cracklib2
+	
+this package provides python bindings for cracklib. it contains a
+pythonic interface to cracklib's functions and some python
+convenience functions.
+
+you should install this package if you want to use or develop python
+applications that want to interface with cracklib2.

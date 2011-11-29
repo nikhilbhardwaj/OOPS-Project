@@ -1,0 +1,16 @@
+X11 xinerama extension library
+	
+libxinerama provides an x window system client interface to the xinerama
+extension to the x protocol.
+
+the xinerama (also known as panoramix) extension allows for multiple screens
+attached to a single display to be treated as belonging together, and to give
+desktop applications a better idea of the monitor layout.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxinerama

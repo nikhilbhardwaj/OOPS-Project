@@ -1,0 +1,10 @@
+Python bindings for omniorb
+	
+omniorb4 is a freely available common object request broker
+architecture (corba) 2.6 compliant object request broker (orb)
+implementation. it is based on the iiop communications
+protocol and should be interoperable with any other
+corba 2.6 compliant orb.
+
+this package contains the debug symbols of python-omniorb as well as
+modules for use with python-dbg.

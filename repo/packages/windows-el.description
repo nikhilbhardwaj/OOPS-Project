@@ -1,0 +1,6 @@
+Window manager for gnu emacs
+	
+windows.el allows you to switch between window configurations in emacs,
+providing behaviour similar to virtual desktops that is common in several
+window managers.  in addition, you can save window configurations to a file
+and restore them at a later time.

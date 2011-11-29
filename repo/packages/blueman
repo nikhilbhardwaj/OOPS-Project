@@ -1,0 +1,4 @@
+PackageId:1210
+Name:blueman
+Version:1.21-4.1
+Deps:bluez,dbus,hicolor-icon-theme,libbluetooth3,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcairo2,libglib2.0-0,libgtk2.0-0,libpango1.0-0,librsvg2-common,libstartup-notification0,notification-daemon,notification-daemon-xfce,xfce4-notifyd,obex-data-server,python,python-central,python-dbus,python-gobject,python-gtk2,python-notify

@@ -1,0 +1,7 @@
+The gnu fortran 95 compiler (multilib files)
+	
+this is the gnu fortran compiler, which compiles fortran 95 on platforms
+supported by the gcc compiler.
+
+on architectures with multilib support, the package contains dependencies
+for the non-default multilib architecture(s).

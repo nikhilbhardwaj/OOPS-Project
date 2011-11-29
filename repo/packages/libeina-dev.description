@@ -1,0 +1,17 @@
+Development files for libeina
+	
+eina is a multi-platform library that provides optimized data types and a few
+tools. it supports the following data types:
+
+ - array
+ - hash table
+ - double-linked list
+ - red-black tree
+ - shared string
+ - access content types
+   + accessor: can access items of a container randomly
+   + iterator: can access items of a container sequentially
+
+
+this package contains headers and static libraries for development with
+libeina.

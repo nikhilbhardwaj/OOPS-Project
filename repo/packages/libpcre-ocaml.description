@@ -1,0 +1,18 @@
+Ocaml bindings for pcre (runtime)
+	
+this ocaml-library interfaces the pcre (perl-compatibility
+regular expressions) c library. it can be used for matching
+regular expressions which are written in perl style.
+
+compared with the ocaml standard library "str" module, this
+library:
+
+ * uses perl style rather than emacs one
+ * is reentrant and thus thread safe
+ * is faster (when compiled to native code is even faster than
+   perl regular expressions)
+ * returns data on which you can safely use destructive updates
+ * gives more "programming confort" through a better api
+
+
+this package contains only the shared runtime stub libraries.

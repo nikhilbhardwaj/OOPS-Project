@@ -1,0 +1,6 @@
+Perl module enabling use of usps web tools services
+	
+this module provides a perl interface to the us postal service's
+web tools service. you need a userid and password to use these
+services. see the web tools site at http://www.usps.com/webtools/
+for details.

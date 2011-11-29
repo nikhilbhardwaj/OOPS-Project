@@ -1,0 +1,12 @@
+Development and the evaluation of epidemiological outbreak detection algorithms
+	
+the r-package 'surveillance' is a framework for the development and the
+evaluation of outbreak detection algorithms in univariate and multivariate
+routine collected public health surveillance data. it is hosted on cran..
+
+the intention of the r-package surveillance is to provide open source
+software for the visualization and monitoring of count data time series
+in public health surveillance. potential users are epidemiologists and
+others working in applied infectious disease epidemiology.
+furthermore, surveillance also provides a data structure and framework
+for methodological developments of surveillance algorithms.

@@ -1,0 +1,8 @@
+Pyunit extension for managing expensive test fixtures
+	
+pyunit extension to manage the initialisation and lifetime of expensive
+test fixtures.
+
+for example reference databases are often only need to be constructed
+once but standard test isolation causes them to be constructed for every
+fixture, making test execution very slow.

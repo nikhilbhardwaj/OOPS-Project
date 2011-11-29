@@ -1,0 +1,8 @@
+Scratchbox remote shell daemon
+	
+sbrshd mounts nfs partition from the host and executes a binary on it.
+this used to provide cpu transparency for cross-compiling with
+scratchbox.
+
+
+ http://scratchbox.org/

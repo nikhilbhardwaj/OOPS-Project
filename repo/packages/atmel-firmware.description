@@ -1,0 +1,8 @@
+Firmware for atmel at76c50x wireless networking chips.
+	
+the drivers for these chips in the linux 2.6.x kernel do not include
+the firmware; this firmware needs to be loaded by the host on most
+cards using these chips. this package provides the firmware images
+which should be automatically loaded as needed by the hotplug
+system. it also provides a small loader utility which can be used to
+accomplish the same thing when hotplug is not in use.

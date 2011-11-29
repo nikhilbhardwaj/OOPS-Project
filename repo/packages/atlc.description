@@ -1,0 +1,16 @@
+Arbitrary transmission line calculator
+	
+atlc is a computer aided design (cad) package for the design and analysis
+of electrical transmission lines and directional couplers of totally
+arbitrary cross section and an arbitrary number of different dielectrics.
+
+by analysis, it is assumed one requires finding the electrical properties
+of a transmission line or coupler, where the physical dimensions of the
+device are known.  by design, it is assumed one requires a transmission
+line or coupler to have certain electrical properties and one wishes to
+find how to physically realise such a structure
+
+atlc likely to be of use to radio amateurs, professional rf engineers,
+students and academics.
+
+more information on atlc is available at http://atlc.sourceforge.net/

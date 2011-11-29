@@ -1,0 +1,10 @@
+Perl module to read/write .css files with as little code as possible
+	
+css::tiny is a perl class to read and write .css stylesheets with as
+little code as possible, reducing load time and memory overhead.
+css.pm requires about 2.6m of memory to load, which is a large amount of
+overhead if you only want to do trivial things.
+
+this module is primarily for reading and writing simple files, and anything
+you write shouldn't need to have documentation/comments. if you need something
+with more power, move up to css.pm.

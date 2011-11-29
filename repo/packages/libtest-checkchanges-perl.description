@@ -1,0 +1,6 @@
+Module to validate a changes file
+	
+test::checkchanges is a perl module that extracts a package version number
+from build data or the makefile and compares it with the latest entry in the
+changes file. it currently only checks that the version in the change log
+file matches the version of the distribution.

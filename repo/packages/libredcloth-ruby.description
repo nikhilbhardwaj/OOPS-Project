@@ -1,0 +1,10 @@
+Textile module for ruby
+	
+textile is a very simple text format, intended for making readable text
+that can be converted to html, and used in docs, blogs, and wiki pages.
+
+redcloth is a ruby module for converting textile to html.
+
+this package is a dependency package, which depends on the package
+containing actual redcloth module for the default ruby version
+(currently 1.8).

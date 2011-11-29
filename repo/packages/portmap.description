@@ -1,0 +1,7 @@
+Rpc port mapper
+	
+portmap is a server that converts rpc (remote procedure call) program
+numbers into darpa protocol port numbers. it must be running in order
+to make rpc calls.
+
+services that use rpc include nfs and nis.

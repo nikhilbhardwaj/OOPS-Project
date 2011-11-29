@@ -1,0 +1,18 @@
+Analysis of compiler options via evolutionary algorithms
+	
+acovea (analysis of compiler options via evolutionary algorithm)
+implements a genetic algorithm to find the "best" options for
+compiling programs with the gnu compiler collection (gcc) c and c++
+compilers.  "best," in this context, is defined as those options that
+produce the fastest executable program from a given source code.
+
+acovea is a c++ framework that can be extended to test other
+programming languages and non-gcc compilers.
+
+acovea is envisioned as an optimization tool, similar in purpose
+to profiling.  traditional function-level profiling identifies the
+algorithms most influential in a program's performance; acovea is
+then applied to those algorithms to find the compiler flags and
+options that generate the fastest code.  acovea is also useful for
+testing combinations of flags for pessimistic interactions, and for
+examining the reliability of the compiler.

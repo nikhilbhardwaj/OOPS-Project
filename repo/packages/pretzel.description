@@ -1,0 +1,11 @@
+Prettyprinter generator for noweb
+	
+pretzel is a system that builds prettyprinters; that is programs that
+will take some plain ascii source code and generate a latexified version
+for presentation.
+
+pretzel has hooks to integrate with noweb, so that code chunks may be
+prettyprinted with pretzel's generated prettyprinters.
+
+example prettyprinter source for c, c++, pascal, and dijkstra's guarded
+command language are included.

@@ -1,0 +1,22 @@
+Syntax tree builder and visitors generator for javacc
+	
+jtb (java tree builder) is a syntax tree builder and visitors generator to be
+used in front of javacc (java compiler compiler).  it takes a javacc grammar
+file as input (usually a ".jtb" file) and automatically generates the
+following:
+
+ * a set of syntax tree classes based on the productions in the grammar,
+   utilizing the visitor design pattern;
+ * four interfaces: ivoidvisitor, ivoidarguvisitor, iretvisitor,
+   iretarguvisitor;
+ * four depth-first visitors: depthfirstvoidvisitor, depthfirstvoidarguvisitor,
+   depthfirstretvisitor, depthfirstretarguvisitor, whose default methods simply
+   visit the children of the current node;
+ * a javacc grammar ".jj" file (jtb.out.jj by default), with the proper
+   annotations to build the syntax tree during parsing (which then must be
+   compiled with javacc).
+
+
+new visitors, which subclass any generated one, can then override the default
+methods and perform various operations on and manipulate the generated syntax
+tree.

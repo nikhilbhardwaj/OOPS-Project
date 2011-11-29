@@ -1,0 +1,5 @@
+Hercules dj console access library
+	
+the dj console library is a c++ library that facilitates access to the
+hercules dj console mk i and mk ii via libusb. it supports all non-audio
+functions such as leds, buttons and controllers.

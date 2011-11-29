@@ -1,0 +1,10 @@
+An improved dynamic tiling window manager
+	
+key features of i3 are good support of multi-monitor setups (workspaces are
+assigned to virtual screens, i3 does the right thing when attaching new
+monitors), xrandr support, horizontal and vertical columns (think of a table)
+in tiling. also, special focus is on writing clean, readable and well
+documented code. i3 uses xcb for asynchronous communication with x11, and has
+several measures to be very fast.
+
+please be aware i3 is primarily targeted at advanced users and developers.

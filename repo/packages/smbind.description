@@ -1,0 +1,14 @@
+Php-based tool for managing dns zones for bind
+	
+smbind is a php-based tool for managing dns zones for bind via the web.
+supports per-user administration of zones, error checking,
+and a pear db database backend.
+
+this tool will enable you to administer your bind-based dns server without
+having to touch your zone files with a text editor, while also providing
+a redundant backup of the data stored in both a pear db database and in the
+normal text configuration files.
+
+since it is web-accessible, those without shell access or command-line skills
+(or whom are just plain lazy) can enjoy dns administration from the comfort
+of a remote browser.

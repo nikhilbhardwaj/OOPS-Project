@@ -1,0 +1,10 @@
+Openoffice.org bindings for mono cli
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains the cli bindings to openoffice.org for
+accessing the openoffice.org api from mono languages (e.g. c# and boo)
+
+note that currently the use of mono for add-ins & scripting inside
+openoffice.org is *not* yet supported.

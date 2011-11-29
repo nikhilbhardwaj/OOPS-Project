@@ -1,0 +1,9 @@
+Development files for webauth authentication
+	
+webauth is a cookie-based web authentication system built on top of
+kerberos.  it relies on a central authentication server that handles all
+user authentication for a domain and creates user authentication
+credentials for any web server that needs strong authentication.
+
+this package contains the symlinks, headers, and static library needed to
+compile and link programs that use libwebauth.

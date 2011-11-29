@@ -1,0 +1,8 @@
+Bsd lpr/lpd line printer spooling system
+	
+this is the bsd printer spooler and associated utilities.
+you can use this for local and remote printers.
+
+if you install magicfilter or apsfilter (along with ghostscript),
+lpr will be able to automatically handle special file types
+(such as postscript and pdf files).

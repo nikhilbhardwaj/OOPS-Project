@@ -1,0 +1,23 @@
+Type sensitive preprocessor for haskell
+	
+drift automates instance derivation for classes that aren't supported
+by the standard compilers. in addition, instances can be produced in
+separate modules to that containing the type declaration. this allows
+instances to be derived for a type after the original module has been
+compiled. as a bonus, simple utility functions can also be produced
+from a type.
+
+features:
+
+  - drift comes with a set of rules to produce instances for all
+    derivable classes given in the haskell prelude. there are also a
+    number of extra useful rules to derive instances of a variety of
+    useful classes.
+  - drift performs import chasing to find the definition of a type.
+  - code is generated using pretty-printing combinators. this means
+    that the output is (fairly) well formatted, and easy on the eye.
+  - effort has been made to make the rule interface as easy to use as
+    possible. this is to allow users to add rules to generate code
+    specific to their own projects. as the rules are themselves
+    written in haskell, the user doesn't have to learn a new language
+    to express rules.

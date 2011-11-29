@@ -1,0 +1,16 @@
+Fast, light and extensible chat client - console client
+	
+weechat (wee enhanced environment for chat) is a fast and light chat client
+for many operating systems. everything can be done with a keyboard.
+it is customizable and extensible with plugins/scripts, and includes:
+
+ - nicklist
+ - smart hotlist
+ - infobar with highlight notification
+ - horizontal and vertical split
+ - double charset support (decode/encode)
+ - fifo pipe for remote control
+ - and much more!
+
+
+this package provides the console client (ncurses).

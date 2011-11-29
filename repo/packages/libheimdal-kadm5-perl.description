@@ -1,0 +1,10 @@
+Perl module to administer a heimdal kerberos kdc
+	
+heimdal::kadm5 is a perl module that wraps the heimdal libkadm5clnt
+library and allows administration of a heimdal kdc inside perl programs.
+it mimics the commands that would normally be sent to the server with the
+kadmin command.  principal creation, deletion, modification, and
+searching and extraction of keytabs are supported.
+
+this module is equivalent to authen::krb5::admin except for a heimdal kdc
+instead of an mit kerberos kdc.

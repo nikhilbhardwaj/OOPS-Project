@@ -1,0 +1,22 @@
+Foreign function call libraries (development files)
+	
+this is a collection of four libraries which can be used to build
+foreign function call interfaces in embedded interpreters.
+
+the four packages are:
+
+
+   avcall - calling c functions with variable arguments
+
+
+
+   vacall - c functions accepting variable argument prototypes
+
+
+
+   trampoline - closures as first-class c functions
+
+
+
+   callback - closures with variable arguments as first-class c functions
+              (a reentrant combination of vacall and trampoline)

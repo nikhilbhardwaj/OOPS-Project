@@ -1,0 +1,5 @@
+Template based module starter for cgi apps
+	
+this is a plugin for module::starter that builds you a skeleton
+cgi::application module with all the extra files needed to package it for
+cpan. you can customize the output using html::template.

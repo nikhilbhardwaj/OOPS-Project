@@ -1,0 +1,10 @@
+Module for managing layout of graphical components
+	
+layout::manager is a perl module that provides a framework for working with
+layout managers, which are classes that determine the size and position of
+arbitrary components within a container. a few managers are provided for
+reference purposes, but this module is intended to serve as a basis for other
+implementations.
+
+this module uses graphics::primitive::container as a source of its components
+(see libgraphics-primitive-perl for details).

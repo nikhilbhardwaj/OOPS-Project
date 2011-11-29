@@ -1,0 +1,16 @@
+Print log file lines that have not been read (deprecated)
+	
+this program will read in a standard text file and create an
+offset marker when it reads the end. the offset marker is read
+the next time logtail is run and the text file pointer is moved
+to the offset location. this allows logtail to read in the next
+lines of data following the marker. this is good for marking log
+files for automatic log file checkers to monitor system events.
+
+the package also provides logtail2, which better deals with rotated log
+files: if logtail2 finds that the inode of the file was changed, it assumes
+that the log has been rotated, and tries to find the file it was rotated to
+using heuristic plugins. if it finds the file, it will print the remainder of
+the file starting at the offset saved to the offset file. if a file with the
+correct inode was not found, logtail2 will only print the new file in its
+entirety before writing a new offset file.

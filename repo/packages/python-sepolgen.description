@@ -1,0 +1,13 @@
+A python module used in selinux policy generation
+	
+this package contains a python module that forms the core of the modern
+audit2allow (which is a part of the package policycoreutils). the
+sepolgen library is structured to give flexibility to the application
+using it. the library contains: reference policy representation,
+which are objects for representing policies and the reference policy
+interfaces. secondly, it has objects and algorithms for representing
+access and sets of access in an abstract way and searching that
+access. it also has a parser for reference policy "headers". it
+contains infrastructure for parsing selinux related messages as
+produced by the audit system. it has facilities for generating policy
+based on required access.

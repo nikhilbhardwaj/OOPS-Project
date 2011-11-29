@@ -1,0 +1,18 @@
+A mail notification tool
+	
+biff is a small program that prints a message to your terminal
+when new email arrives. actually, the message is printed by
+the comsat daemon, and biff just enables/disables the u+x
+permission flag for the terminal, which comsat uses to determine
+whether or not to write to your terminal.
+
+biff is mainly of historic interest, since there are much better
+alternatives (such as xlbiff and gbuffy) that are network-aware and
+do not require a daemon. although there are no known security
+problems, running additional services is often considered risky.
+
+by default, the biff service is disabled. to use biff email
+notification, you must enable this service by running 'update-inetd
+--enable biff' after the package is installed. you may also need
+to modify the configuration of your mail transport agent to enable
+comsat notification.

@@ -1,0 +1,9 @@
+Object exchange file transfer library
+	
+obex, the object exchange protocol, can best be described as binary http.
+obex is optimized for ad-hoc links and can be used to exchange
+all kind of objects like files, pictures, calendar entries (vcal)
+and business cards (vcard) over bluetooth, irda, usb and serial cable
+links.
+
+this package contains the runtime library.

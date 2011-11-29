@@ -1,0 +1,16 @@
+Simple implementation of nested groups
+	
+set::nestedgroups gives an implementation of nested groups,
+access control lists (acls) would be one example of
+nested groups.
+
+for example, if joe is a manager, and managers have access to payroll,
+you can create an acl which implements these rules, then ask the acl
+if joe has access to payroll.
+
+another example, you may wish to track which city, state and country
+people are in, by adding people to cities, cities to states, and states
+to countries.
+
+this module includes some facilities to integrate its data structures
+with either files in the local filesystem and with tables in a rdbms.

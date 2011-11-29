@@ -1,0 +1,17 @@
+Hardware information-gathering tool for vesa pnp monitors
+	
+read-edid consists of two tools:
+
+get-edid uses a vesa vbe 2 interrupt service routine request to read
+a 128 byte edid version 1 structure from your graphics card, which
+retrieves this information from the monitor via the data display
+channel (ddc).
+
+get-edid uses architecture-specific methods for querying the video
+hardware (real-mode x86 instructions on i386, open firmware device
+tree parsing on powermac) and is therefore only available for i386 and
+powerpc architectures.
+
+parse-edid parses this data structure and outputs data suitable for
+inclusion into the xfree86 or x.org configuration file. it is available
+for any architecture.

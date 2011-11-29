@@ -1,0 +1,11 @@
+The x.org x window system development libraries
+	
+this metapackage provides the development libraries for the x.org x window
+system.
+
+x window system design documentation, manual pages, library reference
+works, static versions of the shared libraries, and c header files are
+supplied by the packages depended on by this metapackage.
+
+note that this is a convenience package for users and is not a package for
+debian developers to have their package depend on.

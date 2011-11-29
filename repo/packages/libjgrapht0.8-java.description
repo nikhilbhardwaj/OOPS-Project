@@ -1,0 +1,20 @@
+Mathematical graph theory library for java
+	
+jgrapht is a free java graph library that provides mathematical
+graph theory objects and algorithms. jgrapht supports various types of
+graphs including:
+
+ - directed and undirected graphs;
+ - graphs with weighted, unweighted, labeled or user-defined edges;
+ - various edge multiplicity options, including simple graphs,
+   multigraphs and pseudographs;
+ - unmodifiable graphs: allow modules to provide "read-only" access
+   to internal graphs;
+ - listenable graphs: allow external listeners to track modification events;
+ - subgraphs: graphs that are auto-updating subgraph views on other graphs;
+ - all compositions of above graphs.
+
+
+jgrapht is designed to be simple and type-safe (via java generics): graph
+vertices can be of any objects: strings, urls, xml documents, even graphs
+themselves.

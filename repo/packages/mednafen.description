@@ -1,0 +1,28 @@
+Multi-platform emulator, including nes, gb/a, lynx, pc engine
+	
+mednafen is a command-line driven emulator for many different systems. it
+has full support for opengl and sdl graphics, network play, remappable input
+configuration, joystick and keyboard support, save states, game rewinding,
+gsf playback, and screenshots.
+
+the systems supported by mednafen are:
+
+   * atari lynx
+   * gameboy
+   * gameboy color
+   * gameboy advance
+   * nes
+   * pc engine (turbografx 16)
+   * pc-fx
+   * supergrafx
+   * neogeo pocket, neogeo pocket color
+   * wonderswan
+
+
+hardware emulated by mednafen includes:
+
+   * nes gamepad, zapper, powerpad
+   * four-score, famicom multiplayer adapter
+   * arkanoid, hypershot, space shadow, mahjong controllers
+   * oeka kids tablet, quiz king buzzers, family trainer, barcode world
+   * game genie

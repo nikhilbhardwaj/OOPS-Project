@@ -1,0 +1,7 @@
+Gnu version of the tar archiving utility
+	
+tar is a program for packaging a set of files as a single archive in tar
+format.  the function it performs is conceptually similar to cpio, and to
+things like pkzip in the dos world.  it is heavily used by the debian package
+management system, and is useful for performing system backups and exchanging
+sets of files with others.

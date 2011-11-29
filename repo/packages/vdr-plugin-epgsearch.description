@@ -1,0 +1,10 @@
+Vdr plugin that provides extensive epg searching capabilities
+	
+this plugin for the linux video disc recorder (vdr) allows searching the epg
+(electronic programme guide) data by defining search terms that can
+permanently be stored in a list for later reuse. it supports regular
+expressions and is capable of doing fuzzy searches. epg-search scans the epg
+in background and can automatically create timers for matching search terms.
+besides this it supports searching for repetitions, detection of timer
+conflicts, sending emails on timer events and much more. search terms can
+also be added and modified with vdradmin-am, a web frontend for vdr.

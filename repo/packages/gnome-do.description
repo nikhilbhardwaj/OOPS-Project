@@ -1,0 +1,16 @@
+Quickly perform actions on your desktop
+	
+allows you to quickly search for many items present in your
+gnome desktop environment (applications, evolution contacts, firefox
+bookmarks, files, artists and albums in rhythmbox, pidgin buddies,
+etc.) and perform commonly used actions on those items (run, open,
+email, chat, play, etc.).
+
+gnome do is plugin based, allowing it to be easily extended to handle
+new items and actions.  this package contains a core set of items and
+actions.
+
+although gnome do primarily targets the gnome desktop, it also works
+under other desktop environments.
+
+gnome do is inspired by quicksilver and gnome launch box.

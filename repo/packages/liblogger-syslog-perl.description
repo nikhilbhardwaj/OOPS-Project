@@ -1,0 +1,10 @@
+Logger::syslog -- an simple wrapper over sys::syslog for perl
+	
+you want to deal with syslog, but you don't want to bother with sys::syslog,
+that module is for you.
+
+logger::syslog takes care of everything regarding the syslog communication, all
+you have to do is to use the function you need to send a message to syslog.
+
+logger::syslog provides one function per syslog message level: debug, info,
+warning, error, notice, critic, alert.

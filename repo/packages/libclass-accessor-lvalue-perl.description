@@ -1,0 +1,4 @@
+Create lvalue accessors
+	
+class::accessor::lvalue subclasses class::accessor in order to provide
+lvalue accessor makers.

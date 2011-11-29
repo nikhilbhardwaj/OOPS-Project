@@ -1,0 +1,12 @@
+Ui::dialog a wrapper for various dialog applications
+	
+ui::dialog is an ooperl wrapper for various dialog
+applications. these dialog backends are currently
+supported: zenity, xdialog, gdialog, kdialog, cdialog,
+and whiptail. there is also an ascii backend provided
+as a last resort interface for console based dialog
+variants. ui::dialog is a class that provides a strict
+interface to these various backend modules.
+
+
+ homepage: http://search.cpan.org/dist/ui-dialog-1.0

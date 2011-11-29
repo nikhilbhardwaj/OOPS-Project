@@ -1,0 +1,7 @@
+Irc services for use with ircd-ratbox
+	
+ratbox-services is a highly configurable irc services program, with nearly all
+options being set in a config that can be rehashed rather than set at compile
+time.
+
+this package contains files common to all ratbox-services packages.

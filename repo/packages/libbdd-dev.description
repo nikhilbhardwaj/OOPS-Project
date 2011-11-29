@@ -1,0 +1,12 @@
+Binary decision-diagram library (development)
+	
+binary decision diagrams (bdds) are space-efficient encodings of
+boolean expressions or dynamic truth tables, used in eg. model
+checking.  buddy is an efficient bdd library with all the standard
+bdd operations, dynamic reordering of variables, automated garbage
+collection, a c++ interface with automatic reference counting, and
+more.
+
+libbdd-dev is the buddy development package containing a static
+library and the include files needed for building applications using
+buddy.

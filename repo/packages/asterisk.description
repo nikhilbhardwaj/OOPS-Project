@@ -1,0 +1,26 @@
+Open source private branch exchange (pbx)
+	
+asterisk is an open source pbx and telephony toolkit.  it is, in a
+sense, middleware between internet and telephony channels on the bottom,
+and internet and telephony applications at the top.
+
+asterisk can be used with voice over ip (sip, h.323, iax and more) standards,
+or the public switched telephone network (pstn) through supported hardware.
+
+supported hardware:
+
+
+ * all wildcard (tm) isdn pri cards from digium (http://www.digium.com)
+ * hfc-s/hfc-4s-based isdn bri cards (junghanns.net, beronet, digium etc.)
+ * all tdm (fxo/fxs) cards from digium
+ * various clones of digium cards such as those by openvox
+ * xorcom astribank usb telephony adapter (http://www.xorcom.com)
+ * voicetronix openpci, openline and openswitch cards
+ * capi-compatible isdn cards (using the add-on package chan-capi)
+ * full duplex sound card (alsa or oss) supported by linux
+ * tormenta t1/e1 card (http://www.zapatatelephony.org)
+ * quicknet internet phonejack and linejack (http://www.quicknet.net)
+
+
+this is the main package that includes the asterisk daemon and most channel
+drivers and applications.

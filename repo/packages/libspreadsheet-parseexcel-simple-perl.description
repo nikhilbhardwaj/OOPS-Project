@@ -1,0 +1,9 @@
+A simple interface to excel data
+	
+this provides an abstraction to the spreadsheet::parseexcel module for
+simple reading of values.
+
+you simply loop over the sheets, and fetch rows to arrays.
+
+for anything more complex, you probably want to use
+spreadsheet::parseexcel directly.

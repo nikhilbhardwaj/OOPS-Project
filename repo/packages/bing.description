@@ -1,0 +1,8 @@
+Empirical stochastic bandwidth tester
+	
+bing is a point-to-point bandwidth measurement tool (hence the 'b'),
+based on ping.
+
+bing determines the real (raw, as opposed to available or average)
+throughput on a link by measuring icmp echo requests' round trip times
+for different packet sizes at each end of the link.

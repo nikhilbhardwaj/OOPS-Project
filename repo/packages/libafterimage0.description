@@ -1,0 +1,14 @@
+Imaging library designed for afterstep - runtime files
+	
+libafterimage is the imaging library implemented for afterstep
+x window manager. it has been generalized to be suitable for any
+application in need of robust graphics engine.
+
+it provides facilities for loading images from files of different
+formats, compressed in memory storage of images, scaling,
+tinting/shading, flipping and superimposition of arbitrary number of
+images over each other. in addition it allows for linear gradients
+drawing, and antialiased/smoothed text drawing using both  freetype
+library and x window fonts.
+
+this package contains the libafterimage runtime library.

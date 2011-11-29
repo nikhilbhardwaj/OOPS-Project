@@ -1,0 +1,7 @@
+Perl extension library for locking devices
+	
+it provides a reliable way to put an exclusive lock to
+devices using _both_ fsstnd and svr4 methods.
+
+includes a shared lib loadable by perl 5 (use lockdev),
+the module lockdev.pm and its manpage lockdev(3pm) .

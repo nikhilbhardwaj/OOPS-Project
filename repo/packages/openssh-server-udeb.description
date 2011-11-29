@@ -1,0 +1,9 @@
+Secure shell server for the debian installer
+	
+this is the portable version of openssh, a free implementation of
+the secure shell protocol as specified by the ietf secsh working
+group.
+
+this package provides the sshd server for use in debian-installer.
+since it is expected to be used in specialized situations (e.g. s/390
+installs with no console), it does not provide any configuration.

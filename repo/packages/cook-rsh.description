@@ -1,0 +1,10 @@
+Remote execution scripts for cook
+	
+cook is a very powerful and very easy to use replacement
+for make. through the use of cook's powerful description
+language, and its many built in functions, sophisticated
+build can be easily accomplished.
+
+cook supports file fingerprints to speed build times,
+and also supports parallel builds over a network without
+requiring contorted build rules.

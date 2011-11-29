@@ -1,0 +1,5 @@
+Openid support library in c++ (runtime)
+	
+libopkele is a c++ implementation of an openid decentralized identity
+system.  it provides openid protocol handling, leaving authentication
+and user interaction to the implementor.

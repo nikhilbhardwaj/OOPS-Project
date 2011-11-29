@@ -1,0 +1,6 @@
+Log colorizer that makes log checking easier
+	
+colortail works like tail but can optionally read one or more config
+files where it's specified which patterns results in which colors.
+colortail uses regular expressions (see regex(7)) to determine which
+lines and parts of lines to print in which colors.

@@ -1,0 +1,6 @@
+Moose extension providing fine-grained cloning support
+	
+moosex::clone extends moose's low level cloning functionality by providing
+selective deep cloning using introspection. attributes with the clone trait
+will handle cloning of data within the object, typically delegating to the
+attribute value's own clone method.

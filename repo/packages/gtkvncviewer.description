@@ -1,0 +1,5 @@
+Small gnome vnc client
+	
+this script provides a gui for connecting to vnc servers. it remembers the
+credentials of known servers, so connecting to a vnc server is just one
+double-click away. servers are shown in an icon view.

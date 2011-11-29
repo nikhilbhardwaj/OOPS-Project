@@ -1,0 +1,6 @@
+Development files for libavfilter
+	
+this is the video filtering library from the ffmpeg project.
+
+this package contains the header files and static libraries needed to
+compile applications or shared objects that use libavfilter.

@@ -1,0 +1,23 @@
+Mobile robot programming toolkit - documentation and examples
+	
+the mobile robot programming toolkit (mrpt) is an extensive, cross-platform,
+and open source c++ library aimed to help robotics researchers to design and
+implement algorithms in the fields of simultaneous localization and mapping
+(slam), computer vision, and motion planning (obstacle avoidance).
+
+the libraries include classes for easily managing 3d(6d) geometry,
+probability density functions (pdfs) over many predefined variables (points
+and poses, landmarks, maps), bayesian inference (kalman filters, particle
+filters), image processing, path planning and obstacle avoidance, 3d
+visualization of all kind of maps (points, occupancy grids, landmarks,...),
+etc.
+gathering, manipulating and inspecting very large robotic datasets (rawlogs)
+efficiently is another goal of mrpt, supported by several classes and
+applications.
+
+the mrpt is free software and is released under the gpl.
+
+this package provides the documentation and examples of mrpt, and the book
+
+ writing scientific applications with the mobile robot programming toolkit
+ in .ps.gz format.

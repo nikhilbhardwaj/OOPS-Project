@@ -1,0 +1,6 @@
+Ocaml bindings for openssl (runtime)
+	
+ocaml library for communicating through ssl/tls encrypted connections
+using the openssl library.
+
+this package contains only the shared runtime stub libraries.

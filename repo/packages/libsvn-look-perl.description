@@ -1,0 +1,7 @@
+Module providing access to svnlook data
+	
+svn::look is a simple perl module that provides a object-oriented wrapper
+around subversion's svnlook command, with built-in caching to improve speed.
+it is useful to gather information about a repository, its revisions and its
+transactions, which makes it easy for hook writers to retrieve and use the
+information they need.

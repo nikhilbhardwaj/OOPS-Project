@@ -1,0 +1,6 @@
+X based system monitor
+	
+xosview is a monitor which displays the status of several system based
+parameters. these include cpu usage, load average, memory usage, swap space
+usage, network usage, interrupts and serial port status. appearance is fully
+configurable via command line or x resources.

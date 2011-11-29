@@ -1,0 +1,9 @@
+Module to compact many css files into one big file
+	
+css::squish is a perl module that takes a list of css files and concatenates
+them, honouring any valid @import statements included in the files, following
+the css 2.1 specification. media-specific @import statements will be honoured
+by enclosing the included file in a @media rule.
+
+future versions may include methods to compact whitespace and other parts of
+the css itself, but this functionality is not yet supported.

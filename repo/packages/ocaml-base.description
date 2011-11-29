@@ -1,0 +1,10 @@
+Runtime system for ocaml bytecode executables
+	
+objective caml (ocaml) is an implementation of the ml language, based on
+the caml light dialect extended with a complete class-based object system
+and a powerful module system in the style of standard ml.
+
+this package contains only the runtime system needed to run bytecode
+executables. the 'ocaml' package contains the full development suite of
+objective caml.  you may wish to install the 'ocaml-base-nox' package if
+you do not require any graphical capabilities for your runtime.

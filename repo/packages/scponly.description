@@ -1,0 +1,10 @@
+Restricts the commands available to scp- and sftp-users
+	
+"scponly" is an alternative 'shell' (of sorts) for system
+administrators who would like to provide access to remote users to
+both read and write local files without providing any remote
+execution priviledges.  functionally, it is best described as a
+wrapper to the mostly trusted suite of ssh applications.
+
+this package has, for security reasons, no support for rsync,
+unison or svn. if you want that, choose "scponly-full" instead.

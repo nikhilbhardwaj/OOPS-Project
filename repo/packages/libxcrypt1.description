@@ -1,0 +1,5 @@
+Crypt library for des, md5, and blowfish
+	
+libxcrypt is a replacement for libcrypt, which comes with the gnu c
+library. it supports des crypt, md5, and passwords with blowfish
+encryption.

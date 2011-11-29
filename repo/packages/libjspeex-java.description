@@ -1,0 +1,6 @@
+Java implementation of speex
+	
+jspeex is a java port of the speex speech codec (open source/free
+software patent-free audio compression format designed for
+speech). it provides both the decoder and the encoder in pure java,
+as well as a javasound spi.

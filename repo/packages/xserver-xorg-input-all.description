@@ -1,0 +1,5 @@
+The x.org x server -- input driver metapackage
+	
+this package depends on the full suite of input drivers for the x.org x server
+(xorg).  it does not provide any drivers itself, and may be removed if you wish
+to only have certain drivers installed.

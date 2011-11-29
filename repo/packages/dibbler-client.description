@@ -1,0 +1,8 @@
+Portable dhcpv6 client
+	
+the dibbler client supports both stateful (i.e. ipv6 address
+granting) as well as stateless (i.e. option granting)
+auto-configuration modes of the dhcpv6 protocol. besides basic
+capabilities, it supports various dhcpv6 extensions, for instance
+option renewal. installing dibbler allows obtaining ipv6 addresses and
+options from a dhcpv6 server.

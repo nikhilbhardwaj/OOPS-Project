@@ -1,0 +1,15 @@
+Gromacs molecular dynamics sim, development kit
+	
+gromacs is a versatile package to perform molecular dynamics, i.e. simulate
+the newtonian equations of motion for systems with hundreds to millions of
+particles.
+
+it is primarily designed for biochemical molecules like proteins and lipids
+that have a lot of complicated bonded interactions, but since gromacs is
+extremely fast at calculating the nonbonded interactions (that usually
+dominate simulations) many groups are also using it for research on non-
+biological systems, e.g. polymers.
+
+this package contains header files and static libraries for development
+purposes, plus sample makefiles.  development components for mpi-enabled
+builds are contained within the gromacs-mpich and gromacs-lam packages.

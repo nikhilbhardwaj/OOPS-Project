@@ -1,0 +1,5 @@
+Module to run tests in multiple processes and merge results
+	
+test::sharedfork is utility module for tests built using test::builder (which
+constitute the majority of test modules on cpan). it allows developers to run
+tests in multiple processes, in parallel, and combine the results together.

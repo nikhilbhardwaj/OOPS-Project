@@ -1,0 +1,8 @@
+Support library for ocaml preprocessor type conversions
+	
+the type-conv library factors out functionality needed by different
+camlp4 extensions that generate code from type specifications.
+
+camlp4 extensions adding support for some trailing "with foo" (e.g.
+"with sexplib" provided by sexplib, and "with bin_io" provided by
+bin-prot) after type declaration can rely on type-conv.

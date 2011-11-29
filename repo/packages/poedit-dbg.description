@@ -1,0 +1,10 @@
+Gettext catalog editor (debug)
+	
+poedit is an editor for gettext catalogs (.po files). it aims to provide a
+convenient approach to editing catalogs. it features utf-8 support, fuzzy and
+untranslated records highlighting, whitespace highlighting, references browser,
+header editing and can be used to create new catalogs or update existing
+catalogs from source code with a single click. it is built with wxwidgets
+toolkit.
+
+this package contains the debugging symbols.

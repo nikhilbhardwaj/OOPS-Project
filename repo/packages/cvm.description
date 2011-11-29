@@ -1,0 +1,16 @@
+Credential validation modules
+	
+cvm is a framework for validating a set of credentials against a database
+using a filter program.  the modules act as a filter, taking a set of
+credentials as input and writing a set of facts as output if those
+credentials are valid.  optional input is given to the module through
+environment variables.
+
+some of the ideas for cvm came from experience with pam (pluggable
+authentication modules), the checkpassword interface used by qmail-pop3d,
+and the "authmod" interface used by courier imap and pop3.  this framework
+places fewer restrictions on the invoking client than checkpassword does,
+and is much simpler to implement on both sides than pam and the authmod
+framework.
+
+see http://untroubled.org/cvm/cvm.html for more information.

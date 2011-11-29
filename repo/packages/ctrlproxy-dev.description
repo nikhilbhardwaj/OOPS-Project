@@ -1,0 +1,14 @@
+Irc proxy with conversation replay support - development files
+	
+ctrlproxy is an irc proxy with support for multiple
+client and server connections within a single process. it can
+replay stored conversations when a client connects.
+
+it has an easy configuration that can be changed at run-time using special
+irc commands.
+
+other features include flexible logging, ssl, ipv6, acting as a socks proxy,
+ability to talk to nickserv and support for ctcp when no clients are
+connected.
+
+this package contains files required for building ctrlproxy plugins.

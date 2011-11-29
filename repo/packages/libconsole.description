@@ -1,0 +1,5 @@
+Shared libraries for linux console and font manipulation
+	
+this package includes the libconsole and libcfont libraries, which
+are intended to provide a high-level programming interface to the
+linux console, and console-font files.

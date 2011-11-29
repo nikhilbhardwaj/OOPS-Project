@@ -1,0 +1,9 @@
+Converts text to postscript, html or rtf with syntax highlighting
+	
+gnu enscript takes ascii files (often source code) and converts them
+to postscript, html or rtf.  it can store generated output to a file
+or send it directly to the printer.
+
+it is often used for its syntax highlighting, as it comes with rules
+for a wide range of programming languages.  new rules can be added
+using an awk-like stateful scripting language.

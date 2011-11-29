@@ -1,0 +1,8 @@
+Gnu emacs shared, architecture independent, non-dfsg items
+	
+gnu emacs is the extensible self-documenting text editor.  this
+package contains the architecture independent infrastructure that is
+not compliant with the debian free software guidelines.  in
+particular, this includes some of the gnu emacs info pages, as they
+are covered under the gfdl, and they specify invariant sections.
+see http://www.debian.org/vote/2006/vote_001 for more information.

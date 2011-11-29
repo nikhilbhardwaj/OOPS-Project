@@ -1,0 +1,9 @@
+Plot data on unstructured triangular and tetrahedral meshes in octave
+	
+fpl is a collection of routines for plotting  data on finite element
+method (fem) meshes.  it provides routines for outputing files and
+displaying data in opendx (ibm visualization data explorer) and vtk
+(visualization toolkit) formats.  it allows displays of triangular
+and tetrahedral meshes, as well as scalar and 2d vector fields.
+
+this octave add-on package is part of the octave-forge project.

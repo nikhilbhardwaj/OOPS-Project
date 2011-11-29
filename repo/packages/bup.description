@@ -1,0 +1,4 @@
+Highly efficient file backup system based on git
+	
+bup is a backup tool which stores the backups in a system based around
+the packfile format from git.

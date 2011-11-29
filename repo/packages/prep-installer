@@ -1,0 +1,4 @@
+PackageId:27691
+Name:prep-installer
+Version:0.13
+Deps:archdetect,cdebconf-udeb,di-utils-mapdevfs,kernel-installer,bootstrap-base,live-installer,os-prober,os-prober-udeb,parted-udeb

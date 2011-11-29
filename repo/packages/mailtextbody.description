@@ -1,0 +1,9 @@
+Tool to return the body of an email message
+	
+mailtextbody reads a complete email message on stdin and returns the body
+on standard out. -- technically speaking it returns the decoded first
+text/plain mime part of any however nested mime message or just the body of
+a non-mime message otherwise.
+
+mailtextbody can therefore easily be included in other tools using
+pipes.

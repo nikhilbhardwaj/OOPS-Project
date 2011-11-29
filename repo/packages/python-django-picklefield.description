@@ -1,0 +1,11 @@
+Pickled object field for django
+	
+django-picklefield provides an implementation of a pickled object field
+for the django framework. such fields can contain any picklable objects.
+
+it is useful for storing just about anything in the database when there
+isn't a 'proper' field for the job.
+pickledobjectfield is database-agnostic, and should work with any database
+backend you can throw at it. you can pass in any python object and it will
+automatically be converted behind the scenes. you never have to manually
+pickle or unpickle anything.

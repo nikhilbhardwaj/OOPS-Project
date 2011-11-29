@@ -1,0 +1,9 @@
+Unrealistic 2d volleyball simulation
+	
+slime volley is a 2d arcade-oriented volleyball simulation, in the spirit of
+some java games of the same name.
+two teams, 1-3 players each, try to be the first to get 10 points. this happens
+when the one ball touches the floor on the other side of the net.
+there can be 1 to 8 balls in game.
+each player use 4 keys, 2 direction keys, one for jump and one for changing its
+skin.

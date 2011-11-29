@@ -1,0 +1,19 @@
+Theorem prover and countermodel generator
+	
+this package provides the prover9 resolution/paramodulation theorem
+prover and the mace4 countermodel generator.
+
+prover9 is an automated theorem prover for first-order and equational
+logic. it is a successor of the otter prover.  prover9 uses the
+inference techniques of ordered resolution and paramodulation with
+literal selection.
+
+the program mace4 searches for finite structures satisfying first-order
+and equational statements, the same kind of statement that prover9
+accepts. if the statement is the denial of some conjecture, any
+structures found by mace4 are counterexamples to the conjecture.
+
+mace4 can be a valuable complement to prover9, looking for
+counterexamples before (or at the same time as) using prover9 to search
+for a proof. it can also be used to help debug input clauses and formulas
+for prover9.

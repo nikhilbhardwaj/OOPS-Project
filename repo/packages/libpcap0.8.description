@@ -1,0 +1,11 @@
+System interface for user-level packet capture
+	
+libpcap (packet capture) provides a portable framework for low-level
+network monitoring.  applications include network statistics collection,
+security monitoring, network debugging, etc.
+
+since almost every system vendor provides a different interface for
+packet capture, and since there are several tools that require this
+functionality, we've created this system-independent api to ease in
+porting and to alleviate the need for several system-dependent packet
+capture modules in each application.

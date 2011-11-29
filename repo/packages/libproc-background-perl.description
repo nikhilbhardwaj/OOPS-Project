@@ -1,0 +1,6 @@
+Generic interface for unix and win32 background process management
+	
+proc::background is a generic interface for placing processes in the
+background on both unix and win32 platforms. this module lets you start,
+kill, wait on, retrieve exit values, and see if background processes still
+exist.

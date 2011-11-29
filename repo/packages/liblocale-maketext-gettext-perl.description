@@ -1,0 +1,5 @@
+Perl module bridging gettext and maketext localization frameworks
+	
+locale::maketext::gettext joins the gnu gettext and maketext frameworks
+providing a code that bridges gettext po/pot localization infrastructure and
+maketext perl api.

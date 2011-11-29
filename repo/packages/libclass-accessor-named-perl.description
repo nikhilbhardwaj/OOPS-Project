@@ -1,0 +1,14 @@
+Better profiling output for class::accessor
+	
+class::accessor is a great way to automate the tedious task of generating
+accessors and mutators. one small drawback is that due to the details of
+the implemenetation, you only get one __anon__ entry in profiling output.
+that entry contains all your accessors, which can be a real pain if you're
+attempting to figure out which of your accessors is being called six billion
+times.
+
+class::accessor::names is a development aid which uses hook::lexwrap and
+sub::name to talk your accessors into identifying themselves. while
+it shouldn't add much additional runtime overhead (as it acts only
+class::accessor's generator functions), it has not been designed for
+production deployment.

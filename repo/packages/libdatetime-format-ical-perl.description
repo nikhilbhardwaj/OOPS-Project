@@ -1,0 +1,5 @@
+Perl module to parse and format ical datetime and duration strings
+	
+datetime::format::ical understands the ical date/time and duration formats,
+as defined in rfc 2445. it can be used to parse these formats in order to
+create the appropriate objects.

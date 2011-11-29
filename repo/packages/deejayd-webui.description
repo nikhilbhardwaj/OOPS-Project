@@ -1,0 +1,9 @@
+Web interface for deejayd
+	
+this package provides, in order to control your deejayd server:
+
+   - a xul web interface and,
+   - a pure html and ajax web interface optimized for small screens.
+
+
+the required webserver is embedded in the deejayd daemon.

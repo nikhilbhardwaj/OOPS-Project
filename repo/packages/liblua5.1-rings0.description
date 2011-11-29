@@ -1,0 +1,8 @@
+Lua state creation and control library for the lua language version 5.1
+	
+rings is a library which provides a way to create new lua states from within
+lua. it also offers a simple way to communicate between the creator (master)
+and the created (slave) states.
+
+this mechanism can be used to run chunks of code in an isolated
+lua state, obtaining what is usually called a sandbox.

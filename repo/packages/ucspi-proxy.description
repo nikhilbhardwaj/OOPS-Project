@@ -1,0 +1,7 @@
+Connection proxy for ucspi tools
+	
+this package contains a proxy program that passes data back and forth
+between two connections set up by a ucspi server and a ucspi client.
+
+see http://cr.yp.to/proto/ucspi.txt for more information on ucspi.  see
+http://untroubled.org/ucspi-proxy/ for recent informations.

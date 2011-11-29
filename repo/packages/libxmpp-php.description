@@ -1,0 +1,13 @@
+Php library allowing communication with xmpp servers
+	
+xmpphp is the successor to class.jabber.php. taking advantage of php5, it is an
+elegant solution with a direct approach.
+
+some of the features include:
+
+ * connect to any xmpp 1.0 server (google talk, lj talk, jabber.org, etc)
+ * supports tls encryption
+ * several xml processing approaches and supported styles (process
+   indefinitely, processuntil an event, processtime for a number of seconds),
+   waiting on events or map them, etc.
+ * persistent connections

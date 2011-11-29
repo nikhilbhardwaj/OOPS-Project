@@ -1,0 +1,8 @@
+Return the canonicalized absolute pathname
+	
+the package contains a small utility realpath, which converts each
+pathname argument to an absolute pathname, which has no components
+that are symbolic links or the special .  or ..  directory entries.
+
+this utility provides mostly the same functionality as `/bin/readlink -f'
+in the coreutils package.

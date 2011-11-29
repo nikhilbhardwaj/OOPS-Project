@@ -1,0 +1,9 @@
+Linux virtual server support programs
+	
+the linux virtual server is a highly scalable and highly available server
+built on a cluster of real servers. the architecture of the cluster is
+transparent to end users, and the users see only a single virtual server.
+
+this package provides some support programs necessary to implement a virtual
+server under linux. with the addition of the mon and heartbeat packages it is
+possible to implement a complete high-availability solution for linux.

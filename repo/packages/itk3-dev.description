@@ -1,0 +1,9 @@
+[incr tk] oop extension for tk - development files
+	
+[incr tk] (or itk) combines the object-oriented power of [incr tcl]
+with the popular tk graphical toolkit to create a framework for
+creating mega-widgets.  one such set of mega-widgets is provided by
+the iwidgets package.
+
+this package contains the headers and libraries needed to embed or
+add c extensions to itk.

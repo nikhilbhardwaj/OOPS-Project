@@ -1,0 +1,17 @@
+Battery monitor for apple g3/g4 ibooks/powerbooks
+	
+wmbatppc displays the status of your laptop's battery in a dock icon,
+and features an on-screen display to remind you of the battery state.
+this is aimed at ppc laptops, suchs as ibooks and powerbooks g3 or g4 ;
+laptops with two batteries are supported.
+
+a command-line utility called batppc is also provided to access battery
+information from the console.
+
+the status infos include the charge of the battery, the voltage, whether
+your laptop is plugged in or not, whether the battery is charging
+or not, the time remaining (both use and charge) and the level of the
+battery (it indicates the level of each battery if your laptop has two
+bays).
+
+this package suggests pmud which can be used as a source of information.

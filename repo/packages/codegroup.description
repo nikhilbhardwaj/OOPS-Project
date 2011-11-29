@@ -1,0 +1,13 @@
+Convert any file, including binary, into 5 letter code
+	
+codegroup converts any file, of any format including raw binary,
+into a set of five letter uppercase codegroups.
+the codegroup format includes a 16 bit crc and file length to verify
+message integrity.
+codegroup does no crypto.  it's purely a file format converter
+much like base64 or uuencoding.
+unlike other traditional file encoding algorithms such as
+base64 or uuencoding, codegroup exclusively uses the 26
+letter alphabet.
+codegroup is ideal for transfering short binary files over a voice
+or morse code channel.

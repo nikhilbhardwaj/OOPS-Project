@@ -1,0 +1,9 @@
+Module to find differences between files (xs accelerated)
+	
+algorithm::diff::xs is a perl diff utility module based on joe schaefer's
+excellent but not very well-known algorithm::lcs module, with a drop-in
+interface identical to algorithm::diff.
+
+note that only the lcsidx function is optimized in xs at the moment, which
+means only compact_diff will get significantly faster for large data sets,
+while diff and sdiff will run in identical speed as algorithm::diff.

@@ -1,0 +1,8 @@
+Run executable java .jar files
+	
+jarwrapper sets up binfmt-misc to run executable jar files
+using the installed java runtime.
+
+it also includes a /usr/share/jarwrapper/java-arch.sh script
+to convert debian architecture names into java names to locate
+libjvm.so

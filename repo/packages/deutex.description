@@ -1,0 +1,9 @@
+Composition tool for doom-style wad files
+	
+deu's texture companion (deutex) is a resource editor that
+can extract and insert graphics, sounds, levels and other
+resources in doom-format wad (where's all the data?) files.
+
+deutex is command-line oriented and is most useful for
+assembling wad files as part of a build procedure, such as
+via makefile.

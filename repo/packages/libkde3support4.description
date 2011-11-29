@@ -1,0 +1,8 @@
+The kde 3 support library for the kde 4 platform
+	
+the classes here are only for convenience of porting from kde 3 to kde 4
+platform. they are not supposed to be used for a long time. you should move on
+to replacement classes provided by the framework or implement something
+yourself in the long run.
+
+this package is part of the kde development platform libraries module.

@@ -1,0 +1,10 @@
+Report upon packages of cpan distributions
+	
+cpan consists of distributions. however, cpan is not an isolated
+system - distributions are also packaged in other places, such as for
+operating systems. this module reports whether cpan distributions are
+packaged for various operating systems, and which version they have.
+
+note: only cpan, debian, fedora, freebsd, gentoo, mandrake, openbsd and
+suse are currently supported. i want to support everything else.
+patches are welcome.

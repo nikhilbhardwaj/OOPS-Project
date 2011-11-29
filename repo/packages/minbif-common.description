@@ -1,0 +1,31 @@
+Irc-to-other-im-networks gateway using pidgin library (common files)
+	
+minbif is an irc gateway to im networks which provides the following features:
+
+ * minbif uses a library which abstracts all im calls, and has several
+   plugins to support more than 15 im protocols (irc included!);
+ * two modes: inetd and daemon fork;
+ * only irc commands are used to control minbif;
+ * certificates check;
+ * buddies are irc users;
+ * each account has a status channel. you see in all connected
+   buddies, and their status on it;
+ * add and remove buddies from list with /invite and /kick commands;
+ * blocked users are bans on the account's status channel;
+ * display when a buddy is typing a message;
+ * can chat with someone who is not in your buddy list;
+ * you can see buddies' icons (with libcaca) or download them;
+ * dcc send an image to set your icon on im networks;
+ * display extended information about buddies with /wii command;
+ * support away messages;
+ * can send and receive files, which are sent or received to/from your
+   irc client with dcc send;
+ * conversation channels are supported;
+ * auto\-rejoin conversation channels at connection;
+ * display list of channels on an im account with /list;
+ * irssi scripts to increase your user experience of minbif;
+ * cacacam (webcam in ascii art).
+ * coincoin plugin for libpurple.
+
+
+this package contains the documentation and common plugins.

@@ -1,0 +1,6 @@
+Follow a symlink and print out its target file
+	
+chase is a small utility for tracking down the actual
+file that a symbolic link points to - chasing the symlink,
+if you will.  the result of a successful run is guaranteed
+to be an existing file which is not a symbolic link.

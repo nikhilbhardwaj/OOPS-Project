@@ -1,0 +1,10 @@
+Change courier user passwords using poppassd interface
+	
+courierpassd works with the courier mail server user authentication
+mechanism to allow changing a user's password from across a network. it
+uses the same protocol as poppassd to obtain user ids and passwords.
+it can be used, for example, to allow users to change their passwords
+from within various webmail programs.
+
+
+ homepage: http://www.arda.homeunix.net/store/

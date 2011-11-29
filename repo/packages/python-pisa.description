@@ -1,0 +1,10 @@
+Pdf generator using html and css (python module)
+	
+pisa is an html2pdf converter using the reportlab toolkit, html5lib and pypdf.
+
+it supports html 5 and css 2.1 (and some of css 3). it is completely written
+in pure python so it is platform independent. the main benefit of this tool
+that a user with web skills like html and css is able to generate pdf
+templates very quickly without learning new technologies. easy integration
+into python frameworks like cherrypy, kid templating, turbogears, django, zope,
+plone, google appengine (gae) etc.

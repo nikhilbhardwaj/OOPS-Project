@@ -1,0 +1,19 @@
+Allows extraction of meta information from image files
+	
+this perl extension allows you to extract meta information from
+various types of image files.  in this release the following file
+formats are supported:
+
+
+  jpeg (plain jfif and exif)
+  png
+  gif
+  pbm/pgm/ppm
+  svg
+  xbm/xpm
+  bmp/dib/rle
+  tiff
+
+
+this perl module is deprecated; consider using image::exiftool (in
+libimage-exiftool-perl) instead.

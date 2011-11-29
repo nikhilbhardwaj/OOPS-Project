@@ -1,0 +1,6 @@
+Automated option processing library based on autogen
+	
+this package contains the shared libraries needed by binaries that use
+autoopts for option processing. the package containing the header files
+and static libraries is libopts25-dev. the package containing the
+development tools is autogen.

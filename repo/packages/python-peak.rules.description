@@ -1,0 +1,16 @@
+Generic functions support for python
+	
+peak-rules is a highly-extensible framework for creating and using
+generic functions in python.
+
+peak-rules supports out of the box: multiple-dispatch on positional
+arguments using tuples of types, full predicate dispatch using
+strings containing python expressions, and clos-like method
+combining.  additionally, peak-rules allows to mix and match dispatch
+engines and custom method combinations.
+
+this package also provides some third party contribution over
+peak-rules, in particular:
+
+
+ * prioritized_methods - prioritize methods to resolve dispatch ambiguities

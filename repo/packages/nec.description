@@ -1,0 +1,13 @@
+Nec2 antenna modelling system
+	
+the nec2 (numerical electromagnetics code) is software for modelling
+antennas using the method of moments.  it was developed at lawrence
+livermore laboratories, and remains widely used, despite the old
+fashioned punched card style input required.
+
+this version contains code which hasn't been extensively tested
+for errors, which was input by hand from a report -- use with care.
+the numerics are currently only single precision.
+
+user's documentation is provided in html format (based on ocr text
+so beware of potential errors).

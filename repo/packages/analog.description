@@ -1,0 +1,15 @@
+Web server log analyzer
+	
+analog is a fast log file processor that generates usage statistic reports
+for web servers.
+
+features:
+
+ - fast: can process millions of lines per minute;
+ - scalable;
+ - flexible: the default output is well suited for many needs but there
+   are many options and 32 alternative report styles;
+ - internationalized output;
+ - html output (compliant with standards);
+ - handles many log file formats;
+ - uses a command-line interface or a web interface.

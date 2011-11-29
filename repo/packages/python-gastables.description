@@ -1,0 +1,15 @@
+Compressible flow gas table modules for python
+	
+gas tables include modules for compressible gas flow
+calculations. the main modules currently included are:
+
+ - isentropic relations
+ - normal shock relations
+ - oblique shock relations
+ - fanno flow
+ - isothermal flow
+ - rayleigh flow
+ - prandtl meyer functions
+
+
+this package only provides the python modules.

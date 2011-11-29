@@ -1,0 +1,6 @@
+Restricted shell allowing scp, sftp, cvs, svn, rsync or rdist
+	
+rssh is a restricted shell, used as a login shell, that allows users to
+perform only scp, sftp, cvs, svnserve (subversion), rdist, and/or rsync
+operations.  it can also optionally chroot user logins into a restricted
+jail.

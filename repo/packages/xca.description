@@ -1,0 +1,12 @@
+X509 certification authority management tool based on qt4
+	
+xca creates and manages certificate authorities and helps the user to
+create and manage keys, certificates, certificate sign requests,
+certificate revocation lists etc.
+
+all data is saved in an encrypted, portable database, and can be exported
+in various standard formats. xca is also available for macos x and
+windows systems.
+
+for a good workflow, certificate templates can be defined to make the
+creation of new certificates an easy task.

@@ -1,0 +1,13 @@
+Module to allow c/xs libraries to interrupt perl
+	
+async::interrupt is a perl module that implements asynchronous interruptions,
+similar in nature to unix signals, in a cross-platform manner. modules might
+want to run code asynchronously (in another thread or from a signal handler)
+and then signal the interpreter on certain events. one common way is to write
+data to a pipe and use an event handling toolkit to watch for i/o events.
+another way is to send a signal. those methods are slow, and in the case of a
+pipe, also not asynchronous - it won't interrupt a running perl interpreter.
+
+this module implements asynchronous notifications that enable you to signal
+running perl code from another thread, asynchronously, and sometimes even
+without using a single syscall.

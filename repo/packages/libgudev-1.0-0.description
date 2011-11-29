@@ -1,0 +1,6 @@
+Gobject-based wrapper library for libudev
+	
+this library makes it much simpler to use libudev from programs already using
+gobject. it also makes it possible to easily use libudev from other
+programming languages, such as javascript, because of gobject introspection
+support.

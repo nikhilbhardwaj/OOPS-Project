@@ -1,0 +1,12 @@
+Ruby implementation of the git revision control system
+	
+libgit-ruby allows ruby applications to access and manipulate git
+repositories.  it provides an object-oriented interface to git’s data storage
+system and is capable of reading from and writing to the index, managing
+branches, or obtaining information about the history of a project.
+
+git is a popular distributed source code management tool.  the original
+implementation can be found in the git-core package.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

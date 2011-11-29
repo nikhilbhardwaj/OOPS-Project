@@ -1,0 +1,14 @@
+Image gallery generator for the kde
+	
+kallery is an easy to use image gallery generator application with a
+wizard-like interface. you can create nicely looking, ready-to-publish web
+pages from your digitally stored images. the most important features are:
+
+
+   * handles a lot of image formats
+   * automatically generates thumbnails with the help of imagemagick
+   * converts the images in other formats (eg. jpeg)
+   * it's possible to create descriptions for images
+   * the output html gallery is highly configurable
+   * uses templates for the gallery
+   * save and load of the project files

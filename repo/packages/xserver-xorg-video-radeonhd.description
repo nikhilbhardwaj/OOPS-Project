@@ -1,0 +1,9 @@
+X.org x server -- amd/ati r5xx-r7xx alternate display driver
+	
+this package provides the alternate driver for the amd/ati radeon
+r5xx, r6xx and r7xx families of chipsets.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-radeonhd driver module.

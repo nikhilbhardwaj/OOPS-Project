@@ -1,0 +1,12 @@
+Documentation for scsh, "the scheme shell"
+	
+this package contains the documentation for scsh: the scheme shell.
+scsh is used for shell-script like tasks.
+
+included in the package are the scsh manual (in html and postscript),
+the s48 manual (the scheme that scsh is based on) (in html and
+postscript), a paper written in 1994 describing scsh, and some
+miscellaneous documentation.
+
+this package is a dependency package, which depends on debian's default
+scsh version (currently v0.6).

@@ -1,0 +1,4 @@
+PackageId:33776
+Name:user-setup
+Version:1.38
+Deps:adduser,debconf,debconf-2.0,cdebconf,cdebconf-udeb,passwd

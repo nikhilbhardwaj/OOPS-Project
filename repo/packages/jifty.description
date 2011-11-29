@@ -1,0 +1,38 @@
+Perl web mvc framework
+	
+perl based web framekwork.
+jifty offers the following features:
+
+dry (don't repeat yourself)
+
+       jifty tries not to make you say things more than once.
+
+
+full-stack
+
+       out of the proverbial box, jifty comes with one way to do everything
+       you should need to do: one database mapper, one templating system,
+       one web services layer, one ajax toolkit, one set of handlers for
+       standalone or fastcgi servers. jifty developers work hard to make all
+       the bits play well together, so you don't have to.
+
+
+continuations
+
+       with jifty, it's easy to let the user go off and do something else,
+       like fill out a wizard, look something up in the help system or go
+       twiddle their preferences and come right back to where they were.
+
+
+form-based dispatch
+
+       this is one of the things that jifty does that we've not seen
+       anywhere else. jifty owns your form rendering and processing. this
+       means you never need to write form handling logic. all you say is "i
+       want an input for this argument here" and jifty takes care of the
+       rest. (even autocomplete and validation)
+
+
+this metapackage provides examples to help you writing application on your
+desktop. you can use libjifty-perl package alone for running your jifty
+application on servers.

@@ -1,0 +1,19 @@
+Network management framework daemon
+	
+networkmanager attempts to keep an active network connection available at all
+times. it is intended only for the desktop use-case, and is not intended for
+usage on servers. the point of networkmanager is to make networking
+configuration and setup as painless and automatic as possible.  if using dhcp,
+networkmanager is _intended_ to replace default routes, obtain ip addresses
+from a dhcp server, and change nameservers whenever it sees fit.
+
+this package provides the userspace daemons.
+
+optional dependencies:
+
+ * policykit-1: required for reading and writing system connections.
+ * ppp: required for establishing dial-up connections (e.g. via gsm).
+ * dnsmasq-base/iptables: required for creating ad-hoc connections and
+   connection sharing.
+ * avahi-autoipd: used for ipv4ll, a protocol for automatic link-local ip
+   address configuration.

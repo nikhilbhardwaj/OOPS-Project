@@ -1,0 +1,5 @@
+Serial port logger
+	
+print everything to stdout that comes from a
+serial device. you can specify the device and
+the baud rate.

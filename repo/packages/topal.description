@@ -1,0 +1,13 @@
+Links pine and gnupg together
+	
+topal is yet another program that links gnupg and pine/alpine.  it
+offers facilities to encrypt, decrypt, sign, and verify messages.
+multiple pgp blocks included in the text of a message are processed.
+decryption and verification output can be cached to reduce the
+number of times the passphrase is entered.  rfc2015/3156 multipart
+messages can be sent and received with help from some scripts,
+procmail, and a patch to pine/alpine.  it includes basic support for
+verifying s/mime multipart/signed messages.  there is a remote
+sending mode for reading email on a distant computer via ssh with
+secret keys on the local computer.  there is a high level of
+configurability.

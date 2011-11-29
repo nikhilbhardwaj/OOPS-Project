@@ -1,0 +1,6 @@
+Jack client for transmission recording and audio logging
+	
+rotter is a recording of transmission / audio logger for jack. it was
+designed for use by radio stations, who are legally required to keep
+a recording of all their output. rotter runs continuously, writing to
+a new file every hour.

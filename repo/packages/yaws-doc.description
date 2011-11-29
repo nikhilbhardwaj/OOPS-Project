@@ -1,0 +1,7 @@
+Documentation and examples for yaws web server
+	
+yaws is a high performance http 1.1 webserver written in erlang. it is a
+multithreaded webserver where one erlang light weight process is used to
+handle each client.
+
+this package includes yaws documentation and examples.

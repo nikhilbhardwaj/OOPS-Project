@@ -1,0 +1,15 @@
+Scripts and data files for development
+	
+this package contains scripts and data files to facilitate development of
+kde software.  also included are scripts which are not specific to
+kde, such as helper scripts for working with subversion and cvs repositories.
+
+in addition to these scripts, this package provides:
+
+ - gdb macros for qt programming
+ - vim and emacs helper files for qt/kde programming
+ - bash and zsh completion rules for kde applications
+ - valgrind error suppressions for kde applications
+
+
+this package is part of the kde software development kit module.

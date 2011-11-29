@@ -1,0 +1,13 @@
+Message passing yorick (openmpi build)
+	
+yorick is an interpreted programming language for:
+
+ * scientific simulations or calculations
+ * postprocessing or steering large simulation codes
+ * interactive scientific graphics
+ * reading, writing, and translating large files of numbers
+
+
+the mpy is a parallel version of yorick based on the message passing
+interface (mpi). this package contains a build of mpy linked against
+openmpi.

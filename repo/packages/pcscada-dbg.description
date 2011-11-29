@@ -1,0 +1,7 @@
+Ada bindings to pc/sc middleware (debug)
+	
+pcsc/ada provides thin- and thick-bindings to pc/sc-middleware for the ada
+programming language. the library allows applications written in ada to
+communicate with smart cards using the scard api.
+
+this package contains the debugging symbols.

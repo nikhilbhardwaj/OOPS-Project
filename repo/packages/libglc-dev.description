@@ -1,0 +1,7 @@
+An implementation of sgi's opengl character renderer (glc)
+	
+the opengl character renderer (glc) is a state machine that provides opengl
+programs with character rendering services via an application programming
+interface (api).
+
+this package contains the development files.

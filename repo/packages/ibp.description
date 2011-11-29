@@ -1,0 +1,12 @@
+Viewer for the international beacon project
+	
+ibp shows which of the beacons of the international beacon project is
+transmitting now. the user is presented with a list of beacons with the
+current beacon highlighted. in a separate graphical window the position and
+short/long path to the beacon can be seen.
+
+the list can be viewed in either single or multiband mode, a maidenhead
+locator, when used as an argument, shows distance and azimuth to each beacon.
+
+you will need an accurate clock because the beacons transmit at 10 second
+intervals.

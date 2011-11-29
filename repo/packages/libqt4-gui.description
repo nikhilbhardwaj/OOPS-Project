@@ -1,0 +1,8 @@
+Transitional package for qt 4 gui runtime libraries
+	
+qt is a cross-platform c++ application framework.  qt's primary feature
+is its rich set of widgets that provide standard gui functionality.
+
+this is a dummy transitional package depending on the qt 4 gui library
+packages which the package of the same name used to provide in qt 4.3.4
+and earlier debian packages of qt 4.

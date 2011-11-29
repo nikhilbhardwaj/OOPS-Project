@@ -1,0 +1,12 @@
+A c++ library of generic design patterns (development files)
+	
+loki is a ("the"?) c++ library of generic programming techniques, containing
+flexible implementations of common design patterns and idioms. it is an
+essential library for modern c++ programming and exposes many cool features
+of the language.
+
+the code accompanies the (non-free) book, _modern c++ design_ (alexandrescu,
+2001), which goes into depth on the design of the library.
+
+this package contains the header files and static libraries needed
+to build programs that use loki.

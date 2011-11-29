@@ -1,0 +1,7 @@
+Commmon wrapper interface for several logging apis (documentation)
+	
+provides a simple, component oriented interface together with wrappers for
+several existing java logging systems. the user can choose at runtime which
+system they want to use for logging.
+
+this package contains the documentation.

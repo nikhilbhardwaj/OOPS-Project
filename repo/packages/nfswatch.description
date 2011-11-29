@@ -1,0 +1,7 @@
+Program to monitor nfs traffic for the console
+	
+nfswatch is a command-line tool for monitoring nfs traffic. it can capture and
+analyze the nfs packets on a particular network interface or on all interfaces.
+
+it mostly monitors nfs client traffic (nfs requests). it also monitors the nfs
+reply traffic from a server in order to measure the response time for each rpc.

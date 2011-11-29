@@ -1,0 +1,7 @@
+A viewer for biosignal storage files such as bdf and edf
+	
+edfbrowser is a viewer for medical timeseries storage files containing data
+such as eeg, emg, and ecg signals.  it supports edf(+) and bdf(+) file
+formats.
+apart from viewing the files, it also supports some editing operations and
+can convert the biomedical files to other formats.

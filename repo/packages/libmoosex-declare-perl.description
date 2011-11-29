@@ -1,0 +1,6 @@
+Perl module providing declarative syntax for moose
+	
+moosex::declare provides syntactic sugar for moose, the postmodern object
+system for perl 5, inspired by perl 6. when used in your code, it sets up the
+"class" and "role" keywords that can be used to declare classes in an elegant
+and concise manner.

@@ -1,0 +1,10 @@
+Debian-installer netboot assistant
+	
+di-netboot-assistant is a tool to download and extract debian-installer
+netboot images. it's especially useful if you want to download multiple
+netboot image, since it builds a top menu, so you can select the image
+at boot time (on amd64, i386 and ia64).
+
+currently, it supports amd64, i386, ia64, alpha, hppa and sparc clients.
+
+syslinux and elilo are needed if you plan to use the "top menu".

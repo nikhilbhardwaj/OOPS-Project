@@ -1,0 +1,13 @@
+Smartcard utilities from the opensc project, compiled against libbeidlibopensc
+	
+this package contains some of the utilities that can be found in the
+opensc package, but compiled against libbeidlibopensc rather than
+libopensc.  libbeidlibopensc is libopensc 0.8.1 with additional support
+for the belgian eid card. see the libbeidlibopensc0 package for
+details.
+
+the binaries in this package have all been prefixed with 'beid-', so
+as to avoid namespace conflicts with the opensc package.
+
+please read the readme.debian file in the libbeidlibopensc2 package for
+information on setting up your system so that it can read from smartcards.

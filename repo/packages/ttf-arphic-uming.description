@@ -1,0 +1,34 @@
+"ar pl uming" chinese unicode truetype font collection mingti style
+	
+"ar pl uming" is a high-quality chinese unicode truetype font collection
+(uming.ttc) derieved from the original "ar pl mingti2l big5" and
+"ar pl sungtil gb" fonts generously provided by arphic technology
+to the free software community under the "arphic public license".
+
+it has been extended from the original "ar pl mingti2l big5" and
+"ar pl sungtil gb" fonts with additional glyphs now covering
+iso8859-1,2,3,4,9,10,13,14,15, big5, gb2312-80 and hkscs-2004.
+it also includes bopomofo extensions for hakka and minnan according
+to the unicode 5.0 standard and their mbe variants.
+
+support for cns 11643, gbk, gb 18030, japanese and korean is under heavy
+development.
+users who need more han glyphs than provided by gb2312 and big5 or who need
+support for chinese minority languages may want to install this font package.
+
+this font also includes firefly's bitmap characters for better rendering in
+small fontsizes (big5 and gb2312 only).
+
+this font is an alternative to the ttf-arphic-bsmi00lp and
+ttf-arphic-gbsn00lp font packages.
+
+if you use x window system, be sure to install the "x-ttcidfont-conf"
+package so you can use this font in x.
+
+original author: arphic technology co., ltd.
+
+    url: http://www.arphic.com.tw/
+
+modified by arne goetje (arne@ubuntu.com)
+
+    url: http://www.freedesktop.org/wiki/software/cjkunifonts

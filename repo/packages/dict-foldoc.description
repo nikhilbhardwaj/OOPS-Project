@@ -1,0 +1,8 @@
+Foldoc dictionary database
+	
+this package contains the foldoc, the free on line dictionary of
+computing, supplemented by a number of debian-specific definitions,
+formatted for use by the dictionary server in the dictd package.
+
+this package will be of limited use without the server found
+in the dictd package.

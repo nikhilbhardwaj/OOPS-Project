@@ -1,0 +1,19 @@
+Simulator for microchip's pic microcontrollers
+	
+gpsim is a full-featured software simulator for microchip pic microcontrollers.
+
+gpsim has been designed to be as accurate as possible. accuracy includes the
+entire pic - from the core to the i/o pins and including all of the internal
+peripherals. thus it's possible to create stimuli and tie them to the i/o pins
+and test the pic the same pic the same way you would in the real world.
+
+gpsim has been designed to be as fast as possible. real time simulation speeds
+of 20mhz pics are possible.
+
+gpsim has been designed to be as useful as possible. the standard simulation
+paradigm including breakpoints, single stepping, disassembling, memory inspect
+& change, have been implemented. in addition, gpsim supports many debugging
+features that are only available with in-circuit emulators. for example, a
+continuous trace buffer tracks every action of the simulator. also, it's
+possible to set read and write break points on values (e.g. break if a specific
+value is read from or written to a register).

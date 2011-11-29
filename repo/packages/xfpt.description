@@ -1,0 +1,9 @@
+Generate xml from plain text
+	
+xfpt is a program that reads a file of plain text that contains relatively
+simple markup, and outputs an xml file. it is intended to simplify the
+management of xml data. it is not a program that attempts to turn a plain text
+document into xml. markup within text is introduced by ampersand characters,
+but is otherwise "soft". you can define what follows the ampersand, for
+example, &" to generate a "quote" element. there is also a macro facility that
+allows for higher level concepts such as chapters, displays, tables, etc.

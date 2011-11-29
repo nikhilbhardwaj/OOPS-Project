@@ -1,0 +1,6 @@
+Reading and writing id3v1.1 tags in mp3 for ruby1.9.1
+	
+mp3tag.rb is a ruby class to read id3v1.0 an id3v1.1, and write
+id3v1.1 tags in mp3 files. these tags save meta information about
+the music piece such song name, artist, album, genre, track number
+and a comment.

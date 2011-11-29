@@ -1,0 +1,18 @@
+Tryton application platform (stock supply module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this package contains the module for supply management with:
+
+
+ * order points
+ * purchase requests
+
+
+providing scheduler tasks:
+
+
+ * to generate purchase requests based on order points.
+ * to generate internal shipments based on order points.

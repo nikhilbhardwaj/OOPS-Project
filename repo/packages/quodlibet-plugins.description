@@ -1,0 +1,16 @@
+Various contributed plugins for quod libet
+	
+this package contains a number of contributed plugins for the quod
+libet media player, each extending the player's functionality in
+different ways.
+
+notable plugins in this package include:
+
+
+ - animated on-screen display
+ - musicbrainz and cddb/freedb tag lookups
+ - alarm clock and lullaby, start and stop playing music at specified times
+ - export a playlist as html
+ - export a jabber jep-118 file
+ - burn cds with brasero or k3b
+ - audioscrobbler/last.fm submission and synchronization (http://www.last.fm/)

@@ -1,0 +1,12 @@
+Web-based translation and translation management tool
+	
+pootle provides a rich set of features for managing a translation
+project.  it integrates components of the translate toolkit to provide
+error checkers for translation messages and the ability to download files
+in a number of formats: po, xliff, csv.  pootle can also provide compiled
+po files for download. you can use it to assign work to translators in
+your team, and you can define goals to help focus the efforts of your
+translation.  pootle can run without a web server or be proxied through
+your existing apache server.  the translate toolkit is a set of software
+and documentation designed to help make the lives of localizers both more
+productive and less frustrating.

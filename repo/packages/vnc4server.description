@@ -1,0 +1,16 @@
+Virtual network computing server software
+	
+vnc stands for virtual network computing. it is, in essence, a remote
+display system which allows you to view a computing `desktop' environment
+not only on the machine where it is running, but from anywhere on the
+internet and from a wide variety of machine architectures.
+
+this package provides a vncserver to which x clients can connect and the
+server generates a display that can be viewed with a vncviewer.
+
+it contains an x server connector so clients can connect to your local x
+desktop directly.
+
+note: this server does not need a display. you need a vncviewer to see
+something. this viewer may also be on a computer running other operating
+systems.

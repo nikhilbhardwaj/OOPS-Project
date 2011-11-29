@@ -1,0 +1,6 @@
+Graphs printing plugin for trac
+	
+this is a plugin for the trac project management application. it
+allows drawing of diagrams in a extension to the wiki markup language
+and renders them using the graphviz programs into a form that is
+displayable in a webbrowser.

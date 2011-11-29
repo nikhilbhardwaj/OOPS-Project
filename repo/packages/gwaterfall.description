@@ -1,0 +1,11 @@
+View all characters of font in all sizes
+	
+this program facilitates comparison of various font and font
+rendering parameters.
+
+it displays sample line of text in sizes from 5 to 36px
+simultaneously and allows changing of font size range and increment,
+hinting, autohinting, anti-aliasing, subpixel smoothing, and aspect,
+immediately showing the changes on the screen.  all unicode
+characters are divided into blocks of 128 characters, and user can
+choose block of 128 characters to use as sample line of text.

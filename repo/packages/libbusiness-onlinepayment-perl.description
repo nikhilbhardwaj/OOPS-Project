@@ -1,0 +1,10 @@
+Perl extension for online payment processing
+	
+business::onlinepayment is a generic module for processing payments through
+online credit card processors, online check acceptance houses, etc.  (if you
+like buzzwords, call it an "multiplatform ecommerce-enabling middleware
+solution").
+
+important: business::onlinepayment only defines the frontend interface to the
+system, in order to use it you also need to have at least one backend
+processing module installed.

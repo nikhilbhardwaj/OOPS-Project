@@ -1,0 +1,9 @@
+Output template data in a test-friendly format
+	
+html::template::dumper helps you to test html::template-based programs by
+printing only the information used to fill-in the template data. this makes
+it much easier to automatically parse the output of your program. currently,
+data can be outputed by data::dumper (default) or yaml.
+
+note that the underlying html::template methods are still called, so options
+like strict and die_on_bad_params will still throw errors.

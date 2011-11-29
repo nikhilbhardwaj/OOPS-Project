@@ -1,0 +1,10 @@
+Greylisting implementation for postfix
+	
+this package provides a policy server for postfix to implement "greylisting".
+
+greylisting is a spam filtering method that rejects email from external
+servers on the first try. spammers don't usually retry sending their
+messages, whereas legitimate mail servers do.
+
+while postgrey is designed for use with postfix, it can also be used
+with exim.

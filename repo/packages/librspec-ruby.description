@@ -1,0 +1,12 @@
+Behaviour driven development framework for ruby
+	
+rspec is a behaviour driven development framework for ruby. it
+provides two frameworks for writing and executing examples of how your
+ruby application should behave:
+
+  * a story framework for describing behaviour at the application level
+  * a spec framework for describing behaviour at the object level
+
+
+this is a dependency package, which depends on a librspec package
+built for the default ruby version.

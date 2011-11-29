@@ -1,0 +1,9 @@
+The java implementation of multi-cast dns documentation
+	
+jmdns is a java implementation of the ietf draft rfp multicast
+extensions for dns.
+this project contains the needed elements for service discovery
+and service registration.
+it is compatible with apple's rendezvous service.
+
+this package contains the documentation and javadoc for jmdns.

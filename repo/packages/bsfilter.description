@@ -1,0 +1,10 @@
+Bayesian spam filter
+	
+bsfilter is a spam filter which can distinguish spam mail from other mails.
+it can read mails by three way:
+
+  * reads from normal file or stdin.
+  * retrieves and stores from imap server.
+  * reads from pop server and passes to pop client. (pop proxy)
+
+bsfilter gives nice support of japanese.

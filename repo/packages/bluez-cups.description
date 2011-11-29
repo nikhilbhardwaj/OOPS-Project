@@ -1,0 +1,7 @@
+Bluetooth printer driver for cups
+	
+this package contains a driver to let cups print to bluetooth-connected
+printers.
+
+bluez is the official linux bluetooth protocol stack. it is an open source
+project distributed under gnu general public license (gpl).

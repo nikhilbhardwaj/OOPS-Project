@@ -1,0 +1,21 @@
+View-os in user space - core and base modules
+	
+view-os is a novel approach to the process/kernel interface.  the semantics of
+each system call can be assigned process by process giving the user the right
+to decide which view of the system each process has to join.  each process can
+"see" a different file system structure, networking resources, processor,
+devices.  moreover some of the resources can be provided by the user
+him/herself, thus these resource can be private to the single process and are
+not known a priori by the system.  groups of processes can share the same view
+but this is just an optimization to share management methods.
+
+for more information, see http://wiki.virtualsquare.org
+
+umview is a user-mode implementation of view-os.  processes are run with a
+controlling daemon that captures all the system calls (at present using the
+ptrace() system call) and uses dynamically loadable modules to change their
+semantic.
+
+this package contains the umview controlling daemon and some modules, both
+for testing and for real use.  other modules are contained in separate
+packages because they depend on additional libraries.

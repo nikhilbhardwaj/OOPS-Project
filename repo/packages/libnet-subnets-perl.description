@@ -1,0 +1,7 @@
+Module for ipv4 subnet calculations
+	
+net::subnets is a perl module that provides a quick and simple method to
+perform miscellaneous operations with ip version 4 (ipv4) addresses. it can
+match a list of ip addresses against one or more cidr (classless inter-domain
+routing) subnets. it also calculates ranges of ip addresses based on a subnet
+size, specified as a cidr.

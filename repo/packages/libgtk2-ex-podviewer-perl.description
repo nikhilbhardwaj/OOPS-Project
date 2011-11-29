@@ -1,0 +1,7 @@
+Perl gtk2 widget for displaying plain old documentation (pod)
+	
+libgtk2-podviewer-perl provides a gtk2 widget for rendering perl pod
+documents.
+
+it also provides the example script podviewer, which can be used to
+browse your local perl documentation.

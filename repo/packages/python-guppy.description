@@ -1,0 +1,17 @@
+Python programming environment guppy-pe
+	
+guppy-pe is a programming environment providing object and heap
+memory sizing, profiling and analysis. it includes a prototypical
+specification language that can be used to formally specify aspects of
+python programs and generate tests and documentation from a common
+source.
+
+modules which constitute the environment:
+
+ - heapy: debugging and optimization regarding memory related issues
+   in python programs
+ - gsl (guppy specification language): describes aspects of a system,
+   especially its api, in a way that can be automatically converted
+   to tests as well as to documents
+ - guppy: umbrella package combining heapy and gsl with support
+   utilities such as the glue module that keeps things together

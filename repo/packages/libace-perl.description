@@ -1,0 +1,12 @@
+Object-oriented access to acedb databases
+	
+aceperl is an object-oriented perl interface for the acedb
+database. it provides functionality for connecting to remote acedb
+databases, performing queries, fetching ace objects, and updating
+databases. the programmer's api is compatible with the jade java api,
+and interoperable with the api used by boulderio.
+
+acedb is a genome database system developed since 1989 primarily by
+jean thierry-mieg (cnrs, montpellier) and richard durbin (sanger
+institute). it was originally developed for the c.elegans genome
+project , from which its name was derived (a c. elegans database).

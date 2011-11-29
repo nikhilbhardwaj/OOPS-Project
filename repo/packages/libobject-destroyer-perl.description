@@ -1,0 +1,10 @@
+Make objects with circular references destroy normally
+	
+object::destroyer allows for the creation of "destroy" handles. the
+handle is "attached" to a circular relationship, but is not a part of
+it. when the destroy handle falls out of scope, it will be cleaned up
+correctly, and while being cleaned up, it will also force the data
+structure it is attached to to be destroyed as well. object::destroyer
+can call a specified release method on an object (or method destroy by
+default). alternatively, it can execute an arbitrary user code passed to
+constructor as a code reference.

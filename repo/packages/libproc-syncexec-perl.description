@@ -1,0 +1,5 @@
+Spawn processes but report exec() errors properly
+	
+this perl module contains functions for synchronized process spawning
+with full error return.  if the child's exec() call fails the reason
+for the failure is reported back to the parent.

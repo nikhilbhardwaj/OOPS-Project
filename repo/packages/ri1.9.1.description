@@ -1,0 +1,9 @@
+Ruby interactive reference (for ruby 1.9.1)
+	
+ri is a command line tool that displays descriptions of built-in ruby
+methods, classes, and modules. for methods, it shows you the calling
+sequence and a description. for classes and modules, it shows a
+synopsis along with a list of the methods the class or module
+implements.
+
+this package provides ri command and descriptions about ruby 1.9.1.

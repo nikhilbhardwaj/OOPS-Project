@@ -1,0 +1,7 @@
+A multi node tree object
+	
+tree::multinode, tree::multinode::node, and multinode::handle
+of objects are written to model the tree heirarchical structure.
+each child object can be the tree itself. the tree has no
+internal sorting, though all operations perserve the order
+of the child nodes.

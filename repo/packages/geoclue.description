@@ -1,0 +1,6 @@
+Geographic information framework
+	
+geoclue provides applications access to various geographical information
+sources using a d-bus api or a c library.
+
+this package contains the master server for geoclue.

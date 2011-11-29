@@ -1,0 +1,11 @@
+Module to parse and represent nagios configuration as objects
+	
+nagios::object is a group of modules for parsing a nagios configuration and
+providing an object representation in perl. it has support for inheriting from
+templates and the structure is kept in tact within the perl representation.
+
+nagios::statuslog reads the nagios status log and returns status objects which
+can be used to get status information about a host.
+
+nagios::config creates a new nagios::config object, which will parse a nagios
+main configuration file and all of it's object configuration files.

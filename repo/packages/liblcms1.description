@@ -1,0 +1,5 @@
+Color management library
+	
+lcms is a standalone cmm engine, which deals with the color management.
+it implements a fast transformation between icc profiles. the intention
+of it is to be portable across several platforms.

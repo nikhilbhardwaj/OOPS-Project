@@ -1,0 +1,5 @@
+Object-oriented access to localized cldr information
+	
+locales is a perl library providing an object-oriented interface to
+a particular locale, in order to obtain cldr language and territory
+information from it.

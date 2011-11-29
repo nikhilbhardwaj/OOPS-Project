@@ -1,0 +1,8 @@
+Non-blocking io library development files
+	
+wrapper functions for the bsd sockets library to prevent applications from
+blocking on connect, read, and write. this provides an application's main loop
+function and notifies the application on these events.
+
+this package contains the development files needed to compile applications
+that use libnbio.

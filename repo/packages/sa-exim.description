@@ -1,0 +1,13 @@
+Spamassassin filter for exim
+	
+sa-exim integrates spamassassin filtering at smtp time with the exim
+v4 mta. it may be used to reject incoming mails before they arrive, or
+even to tie up the sender's resources by slowing down the connection
+("teergrubing").
+
+most of the functionality of this package can also be achieved
+using the exiscan acl conditions built into the "heavy" exim daemon,
+exim-daemon-heavy. use this package if you need spamassassin's
+report_safe feature, or if you want to have easier control over the
+header fields added, without using the report template to add multiple
+fields.

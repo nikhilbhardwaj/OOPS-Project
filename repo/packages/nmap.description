@@ -1,0 +1,11 @@
+The network mapper
+	
+nmap is a utility for network exploration or security auditing. it
+supports ping scanning (determine which hosts are up), many port
+scanning techniques, version detection (determine service protocols
+and application versions listening behind ports), and tcp/ip
+fingerprinting (remote host os or device identification). nmap also
+offers flexible target and port specification, decoy/stealth scanning,
+sunrpc scanning, and more. most unix and windows platforms are
+supported in both gui and commandline modes. several popular handheld
+devices are also supported, including the sharp zaurus and the ipaq.

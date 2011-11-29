@@ -1,0 +1,7 @@
+Source for fonts needed to build debian installers
+	
+this package contains bdf fonts needed to build the international version
+of boot-floppies and debian-installer (replacement for boot-floppies).
+
+if you aren't building debian boot & install floppies or cds, you
+probably don't need this package.

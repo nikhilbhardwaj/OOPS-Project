@@ -1,0 +1,16 @@
+Functional and object-oriented callback architecture
+	
+params::callbackrequest provides functional and object-oriented callbacks to
+method and function parameters. callbacks may be either code references
+provided to the new() constructor, or methods defined in subclasses of
+params::callback. callbacks are triggered either for every call to the
+params::callbackrequest request() method, or by specially named keys in the
+parameters to request().
+
+the idea behind this module is to provide a sort of plugin architecture for
+perl templating systems. callbacks are triggered by the contents of a request
+to the perl templating server, before the templating system itself executes.
+this approach allows you to carry out logical processing of data submitted
+from a form, to affect the contents of the request parameters before they're
+passed to the templating system for processing, and even to redirect or abort
+the request before the templating system handles it.

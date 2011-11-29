@@ -1,0 +1,7 @@
+Perl implementation of a simple orm
+	
+dbix::searchbuilder is a simple implementation of an object-relational mapper
+(orm). it provides an object-oriented mechanism for retrieving and updating
+data in a dbi-accessible database. this module is similar in nature to other,
+more popular, solutions like rose::db::object (see librose-db-object-perl) and
+dbix::class (libdbix-class-perl).

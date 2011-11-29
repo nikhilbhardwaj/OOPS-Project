@@ -1,0 +1,12 @@
+Overlays your screen with various system information
+	
+osdsh is a little program that overlays system information using
+the xosd library. osdsh was originally based on osdd and provides
+features like:
+
+
+ * it is able to display a clock.
+ * shows the volume levels of the soundcard when changing.
+ * tells you if you are on- or off-line, and the time you were connected.
+ * shows the battery status and
+ * shows any message you want it to.

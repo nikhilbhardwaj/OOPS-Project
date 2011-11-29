@@ -1,0 +1,6 @@
+A pure-python library for tftp
+	
+tftpy is a tftp library for the python programming language.
+it includes client and server classes, with sample implementations.
+hooks are included for easy inclusion in a ui for populating progress
+indicators. it supports rfcs 1350, 2347 and 2348.

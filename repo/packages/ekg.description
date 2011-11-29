@@ -1,0 +1,20 @@
+Console gadu gadu client for unix systems
+	
+ekg ("eksperymentalny klient gadu-gadu") is an open source
+gadu-gadu client for unix systems. gadu-gadu is an instant
+messaging program, very popular in poland.
+
+ekg features include:
+
+  - irssi-like ncurses interface with mouse support
+  - sending and receiving files
+  - voice conversations
+  - launching shell commands on certain events
+  - reading input from pipe
+  - python scripting support
+  - speech synthesis (using an external program)
+  - encryption support
+
+
+please note that the program is not internationalized and all messages are in
+polish (although the commands are in english).

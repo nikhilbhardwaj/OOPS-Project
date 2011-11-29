@@ -1,0 +1,16 @@
+Java swing diagramming library
+	
+jgraph x is based on the mxgraph architecture, a re-designed core based
+on jgraph experience.
+
+the new library api is designed to provide a much lower learning curve as
+well as making the feature set easier to extend and integrate. sharing the
+model code base of mxgraph, the web diagramming library, enabling applications
+written in java to be more easily ported to mxgraph-based web applications.
+
+overall, jgraph x provides more features that jgraph, with a far smaller code
+size and complexity. redesigning the codebase from scratch now means
+implementing common feature extensions are easier and require less coding.
+a number of new loosely coupled application-centric features have been added,
+making prototyping even faster, without their usage restricting application
+flexibility.

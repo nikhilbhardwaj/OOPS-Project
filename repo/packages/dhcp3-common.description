@@ -1,0 +1,9 @@
+Isc dhcp common files (transitional package)
+	
+this package contains the files used by all the packages from isc
+dhcp.
+
+this is a dummy package to aid in transitioning from the v3 dhcp packages
+to the new-style dhcp packages.
+
+this dummy package may be safely removed after upgrading to squeeze

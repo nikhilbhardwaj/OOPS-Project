@@ -1,0 +1,13 @@
+Modular multiprotocol gopher/http/wap server in python
+	
+this is an all-new, modern gopher server.  it can serve documents
+with gopher+, standard gopher (rfc1436), http, and wap -- all on the same
+port.  pygopherd features a modular extension system as well as
+loadable scripts and much more.  it contains full support for
+umn gopherd systems -- including .links, .names, .cap, searches, etc.
+pygopherd also supports bucktooth features such as gophermap files
+and executables.  in addition to all this, there are pygopherd's own
+extra features.  all features are fully customizable and can be enabled
+or disabled by editing /etc/pygopherd/pygopherd.conf.
+
+this version of pygopherd introduces wap support.

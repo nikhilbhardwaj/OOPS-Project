@@ -1,0 +1,7 @@
+Media daemon and play queue manager library (debug symbols)
+	
+bognor-regis controls playqueues in moblin allowing the same information to
+be shared between the media player and panel. this library provides the api
+to access the bognor-regis daemon.
+
+this package contains the debug symbols.

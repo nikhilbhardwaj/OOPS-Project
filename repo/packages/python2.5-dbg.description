@@ -1,0 +1,4 @@
+Debug build of the python interpreter (version 2.5)
+	
+python interpreter configured with --pydebug. dynamically loaded modules are
+searched in /usr/lib/python2.5/lib-dynload/debug first.

@@ -1,0 +1,9 @@
+Perl module to parse xml into a perl hash
+	
+xml::bare provides a simple api to read and write xml files, it also provides
+a function to validate the xml schema. the parser itself is a simple state
+engine that is less than 500 lines of c.
+
+in comparison to other available perl xml parsers that create trees, xml::bare
+is extremely fast; benchmarking shows that it can even be one or two orders of
+magnitude faster than similar modules.

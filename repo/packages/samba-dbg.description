@@ -1,0 +1,9 @@
+Samba debugging symbols
+	
+samba is an implementation of the smb/cifs protocol for unix systems,
+providing support for cross-platform file and printer sharing with
+microsoft windows, os x, and other unix systems.
+
+this package provides debugging information for the software in the
+samba suite. install it to get a better backtrace in the event of a
+crash.

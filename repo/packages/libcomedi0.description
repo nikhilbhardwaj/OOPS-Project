@@ -1,0 +1,16 @@
+Library for comedi
+	
+comedilib is a library for using comedi, a driver interface for data
+acquisition hardware.  comedi supports a wide variety of isa and pci
+devices that contain analog-to-digital converters, digital-to-analog
+converters, digital input/output, counters and timers.  the full list
+of support devices can be found in the libcomedi-dev documentation.
+
+this package contains the shared library component of comedilib.  in
+general, this package will be automatically installed as a dependency
+of application or other library packages.
+
+in order to effectively use this package, you need to have compiled
+and installed the comedi kernel modules.  the source for comedi is
+available in the comedi-source package, which also contains
+instructions on how to compile and install the modules.

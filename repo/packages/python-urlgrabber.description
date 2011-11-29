@@ -1,0 +1,12 @@
+A high-level cross-protocol url-grabber
+	
+urlgrabber dramatically simplifies the fetching of files. it is designed to
+be used in programs that need common (but not necessarily simple)
+url-fetching features. this package provides both a binary and a module, both
+of the name urlgrabber.
+
+it supports identical behavior for http://, ftp:// and file:/// uris. it
+provides http keepalive, byte ranges, regets, progress meters, throttling,
+retries, access to authenticated http/ftp servers, and proxies. additionally
+it has the ability to treat a list of mirrors as a single source and to
+automatically switch mirrors if there is a failure.

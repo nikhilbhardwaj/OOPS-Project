@@ -1,0 +1,5 @@
+Library to access method parameter names at runtime
+	
+paranamer is a library that allows the parameter names of methods and
+constructors to be accessed at runtime. normally this information is
+dropped by the compiler.

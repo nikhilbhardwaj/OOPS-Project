@@ -1,0 +1,12 @@
+Develop, simulate and run magnetic resonance sequences
+	
+odin is a framework for magnetic resonance imaging (mri).
+it covers the whole toolchain of mri, from low-level data acquisition
+to image reconstruction. in particular, it aims at rapid prototyping
+of mri sequences. the sequences can be programmed using a high-level,
+object oriented, c++ programming interface.  it provides advanced
+sequence analysis tools, such as interactive plotting of k-space
+trajectories, a user interface for a fast compile-link-test cycle
+and a powerful mri simulator which supports different virtual samples.
+for fast and flexible image reconstruction, odin contains a highly
+customizable, multi-threaded data-processing framework.

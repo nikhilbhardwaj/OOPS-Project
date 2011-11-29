@@ -1,0 +1,7 @@
+Pam module to cache authentication credentials
+	
+this package provides the means for linux workstations to locally
+authenticate using an enterprise identity when the network is unavailable.
+used in conjunction with the nss_updatedb utility, it provides a mechanism for
+disconnected use of network directories. they are designed to work with
+libpam-ldap and libnss-ldap.

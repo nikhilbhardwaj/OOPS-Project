@@ -1,0 +1,5 @@
+Application to create common lisp images
+	
+buildapp is an application for sbcl that configures and saves an
+executable common lisp image. it is similar to cl-launch and
+hu.dwim.build.

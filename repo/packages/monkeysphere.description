@@ -1,0 +1,12 @@
+Leverage the openpgp web of trust for ssh and tls authentication
+	
+ssh key-based authentication is tried-and-true, but it lacks a true
+public key infrastructure for key certification, revocation and
+expiration.  monkeysphere is a framework that uses the openpgp web of
+trust for these pki functions.  it can be used in both directions:
+for users to get validated host keys, and for hosts to authenticate
+users.  current monkeysphere ssh tools are designed to integrate
+with the openssh implementation of the secure shell protocol.
+
+monkeysphere can also be used by a validation agent to validate tls
+connections (e.g. https).

@@ -1,0 +1,13 @@
+User-space driver for mwimax equipment based on samsung cmc-730
+	
+madwimax is an experimental reverse-engineered linux driver for
+mobile wimax (802.16e) devices based on samsung cmc-730 chip. these
+devices are currently supported:
+
+ * samsung swc-u200
+ * samsung swc-e100
+ * samsung swm-s10r (it is built in samsung nc-10 netbook)
+
+
+this package contains the user-space standalone implementation of the
+driver. it requires universal tun/tap support in your kernel.

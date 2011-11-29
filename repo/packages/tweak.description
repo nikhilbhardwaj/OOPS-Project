@@ -1,0 +1,11 @@
+An efficient hex editor
+	
+tweak is a hex editor. it allows you to edit a file at very low
+level, letting you see the full and exact binary contents of the
+file. it can be useful for modifying binary files such as
+executables, editing disk or cd images, debugging programs that
+generate binary file formats incorrectly, and many other things.
+
+tweak runs under any terminal emulator using the curses library.  it
+has customizable keybindings, but the default keybindings are similar
+to emacs.

@@ -1,0 +1,13 @@
+Clean object-oriented perl interface to gtk2::gladexml
+	
+gtk2::gladexml::simple is a module that provides a clean and easy interface
+for gnome/gtk2 and glade applications using an object-oriented syntax. you just
+make gtk2::gladexml::simple your application's base class, have your new call
+super::new, and the module will do the tedious and dirty work for you.
+
+gtk2::gladexml::simple offers:
+
+ * signal handler callbacks as methods of your class.
+ * autoconnection of signal handlers.
+ * autocalling of creation functions for custom widgets.
+ * access to the widgets as instance attributes.

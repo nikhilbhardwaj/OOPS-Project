@@ -1,0 +1,10 @@
+A program to notify the user when other one logs in
+	
+notifyme is a gpl'ed unix (tested under linux, freebsd and openbsd)
+console  utility that stays in a background (it isn't a daemon but it
+doesn't  block terminal) and prints a message if a specified login
+and/or logout occurs. in a resource file ($home/notify.rc by default)
+you can specify (extended regular expressions are allowed) usernames,
+hostnames and terminals  that should be monitored, optional messages
+that will be displayed and other options (beep, report logouts etc.)
+see notifyrc.sample for examples. it should be self explanatory.

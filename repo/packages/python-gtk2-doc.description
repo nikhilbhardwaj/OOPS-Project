@@ -1,0 +1,11 @@
+Python bindings for the gtk+ widget set - documentation
+	
+this package contains the documentation and api reference for the
+python bindings of the pango, atk, gdk, gtk+ and glade libraries.
+it is well structured and easy to use.
+
+the documentation can be browsed with the devhelp documentation
+browser, or with a regular web browser.
+
+this package also provides several examples showing how to use these
+bindings to build simple gui applications.

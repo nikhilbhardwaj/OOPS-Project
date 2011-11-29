@@ -1,0 +1,8 @@
+Debian-installer loader for win32
+	
+this package provides a win32 program that can be used as a loader for
+debian installer, acting as a more user-friendly boot mechanism than
+traditional bios-based boot.
+
+this package contains both the cdrom/usb-disk add-on that starts a media-based
+install and the standalone netboot loader.

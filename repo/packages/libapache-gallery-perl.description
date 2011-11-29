@@ -1,0 +1,9 @@
+Apache module to create galleries on-the-fly
+	
+this package contains a perl module for apache to create galleries.
+
+the images just need to be copied into a directory where apache will pick
+them up and create a gallery page for you, with thumbnails and links to the
+full size images.
+
+thumbnail size and maximum image size can be defined, among others.

@@ -1,0 +1,7 @@
+Ax25 library for hamradio applications
+	
+this library is for ham radio applications that use the ax25
+protocol.  included are routines to do ax25 address parsing, common
+ax25 application config file parsing, etc.
+
+it is recommended to use this library with a recent 2.6 kernel.

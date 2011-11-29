@@ -1,0 +1,13 @@
+Monitor mailboxes and/or newsgroups
+	
+xbuffy is a program that displays how many unread mails you have in
+your different mailboxes.  you can have different titles for the
+mailboxes, and define what shall happen when a new mail arrives.  it
+can beep and invoke a shell command, for example.
+
+if you press mouse button 1 on the title associated with a mail box,
+a list of from: and subject: lines of the mails in the mail spool file
+is shown.  if you press mouse button 2, an arbitrary command is
+executed.
+
+xbuffy can similarly watch newsgroups via nntp.

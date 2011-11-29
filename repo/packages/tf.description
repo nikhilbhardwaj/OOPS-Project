@@ -1,0 +1,10 @@
+Tinyfugue mud client for tinymuds, dikumuds, and lpmuds
+	
+tinyfugue (also known as "fugue" or "tf") is a line-based client
+designed for connecting to mud servers (note: lp, diku, and other
+servers which use prompts require "/lp on"; see /help prompts).
+
+tinyfugue is larger than most mud clients, but has many more features
+and is much more flexible. the goal is to provide the most
+functionality in a client that still maintains the user-friendliness
+of tinytalk.

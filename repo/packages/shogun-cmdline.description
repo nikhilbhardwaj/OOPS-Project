@@ -1,0 +1,21 @@
+Large scale machine learning toolbox
+	
+shogun - is a new machine learning toolbox with focus on large scale kernel
+methods and especially on support vector machines (svm) with focus to
+bioinformatics. it provides a generic svm object interfacing to several
+different svm implementations. each of the svms can be combined with a variety
+of the many kernels implemented. it can deal with weighted linear combination
+of a number of sub-kernels, each of which not necessarily working on the same
+domain, where  an optimal sub-kernel weighting can be learned using multiple
+kernel learning.  apart from svm 2-class classification and regression
+problems, a number of linear methods like linear discriminant analysis (lda),
+linear programming machine (lpm), (kernel) perceptrons and also algorithms to
+train hidden markov models are implemented. the input feature-objects can be
+dense, sparse or strings and of type int/short/double/char and can be
+converted into different feature types. chains of preprocessors (e.g.
+substracting the mean) can be attached to each feature object allowing for
+on-the-fly pre-processing.
+
+shogun comes in different flavours, a stand-a-lone version and also with
+interfaces to matlab(tm), r, octave, readline and python. this is the readline
+package.

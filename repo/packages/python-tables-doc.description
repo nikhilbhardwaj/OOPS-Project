@@ -1,0 +1,10 @@
+Hierarchical database for python based on hdf5 - documentation
+	
+pytables is a hierarchical database package designed to efficently
+manage very large amounts of data. pytables is built on top of the
+hdf5 library and the numpy package. it features an object-oriented
+interface that, combined with natural naming and c-code generated
+from pyrex sources, makes it a fast, yet extremely easy to use tool
+for interactively save and retrieve large amounts of data.
+
+this package includes the manual in pdf and html formats.

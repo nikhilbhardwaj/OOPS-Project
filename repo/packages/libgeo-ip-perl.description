@@ -1,0 +1,9 @@
+Perl bindings for geoip library
+	
+geo::ip is a perl external module which provides an interface to
+geoip library.
+
+geoip is a c library that enables the user to find the country that any
+ip address or hostname originates from.  it uses a file based database
+that simply contains ip blocks as keys, and countries as values.
+this database is managed by the geoip library package.

@@ -1,0 +1,11 @@
+Simplified debian package management front end
+	
+wajig is a single commandline wrapper around apt, apt-cache, dpkg,
+/etc/init.d scripts and more, intended to be easy to use and providing
+extensive documentation for all of its functions.
+
+with a suitable sudo(1) configuration, most (if not all) package installation
+as well as creation tasks can be done from a user shell. wajig is also
+suitable for general system administration.
+
+a gnome gui command 'gjig' is also included in the package.

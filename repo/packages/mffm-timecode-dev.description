@@ -1,0 +1,22 @@
+C++ hierarchy which controls and describes time code
+	
+time code description is in two modes, integer or digit mode. integer mode
+allows easy mathematical manipulation (using c++ operators). digit mode allows
+the user to manipulate the time code digit by digit.
+more specifically, time code is made of a data window (array) for media data
+content. if the multimedia content is audio (1d stream) then a type ii filter
+is implemented for this stream.
+it also has time based indexes. namely :
+
+ b : beginning - the absolute first time
+ s : start - the start time
+ c : current - the current time
+ e : end - the last time
+ f : finish - the absolute last time
+
+for all instances :
+
+ i] b<=s<=e<f
+ ii] s<=c<e
+
+.

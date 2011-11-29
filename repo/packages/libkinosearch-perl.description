@@ -1,0 +1,21 @@
+Perl library providing search engine features
+	
+kinosearch is a loose port of the java search engine library, apache lucene.
+it is written in perl and c, designed primarily for providing website search
+functionality, but it can be put to many different uses.
+
+it has the following features:
+
+
+ * extremely fast and scalable: kinosearch can handle millions of documents
+ * incremental indexing (addition/deletion of documents to/from an existing
+   index)
+ * full support for 12 indo-european languages
+ * support for boolean operators (and, or, as well as and not), parenthetical
+   groupings, and prepended +plus and -minus
+ * algorithmic selection of relevant excerpts and highlighting of search
+   terms within excerpts
+ * highly customizable query and indexing apis
+ * phrase matching
+ * stemming
+ * stoplists

@@ -1,0 +1,8 @@
+Ocaml bindings for the d-bus api
+	
+this library provides ocaml bindings for using d-bus.
+
+d-bus is a projects that permits program to communicate with each other, using
+a simple ipc protocol
+
+this package contains header and ocaml library.

@@ -1,0 +1,7 @@
+Python module for delimiter-separated-value files
+	
+python-dsv is an alternative to python's standard csv module, with
+somewhat different usage and optional support for wxwidgets-mediated
+user interaction in the course of format autodetection.  like the
+standard module, it supports a wide range of delimiters and handles
+both import and export.

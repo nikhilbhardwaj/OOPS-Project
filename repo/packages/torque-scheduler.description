@@ -1,0 +1,7 @@
+Scheduler part of torque
+	
+the torque server dispatches jobs across physically separated
+machines. it may also be beneficial for single machines to organise
+the sequential execution of multiple jobs.
+
+this package contains the fifo c scheduler.

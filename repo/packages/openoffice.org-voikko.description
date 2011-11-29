@@ -1,0 +1,15 @@
+Finnish language tools for openoffice.org
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains a finnish spell-checking, grammar checking and
+hyphenation component for openoffice.org. the actual functionality is
+provided by the voikko library.
+
+note: usually spell-checking, grammar checking and hyphenation should be
+automatically activated after installing this package. if this is not the
+case, go to "writing aids" settings in openoffice.org and activate voikko
+components manually. see file
+/usr/share/doc/openoffice.org-voikko/readme.debian for more information
+about using this package.

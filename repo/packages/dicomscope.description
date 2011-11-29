@@ -1,0 +1,15 @@
+The offis dicom viewer
+	
+dicomscope is a free dicom viewer which can display uncompressed,
+monochrome dicom images from all modalities and which supports
+monitor calibration according to dicom part 14 as well as
+presentation states. dicomscope offers a print client (dicom basic
+grayscale print management) which also implements the optional
+presentation lut sop class. the development of this prototype was
+commissioned by the "committee for the advancement of dicom" and
+demonstrated at the european congress of radiology ecr 1999. an
+enhanced version was developed for the "dicom display consistency
+demonstration" at rsna inforad 1999. the current release 3.5.1 has
+been demonstrated at ecr 2001 and contains numerous extensions,
+including a print server, support for encrypted dicom communication,
+digital signatures and structured reporting.

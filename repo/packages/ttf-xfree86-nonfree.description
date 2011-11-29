@@ -1,0 +1,19 @@
+Non-free truetype fonts from xfree86
+	
+collection of truetype fonts originally part of the
+xfree86 distribution, but which are licensed under terms
+incompatible with the debian free software guidelines, and thus cannot
+be distributed as part of debian.
+
+the fonts are:
+
+ - b&h luxi mono
+ - b&h luxi sans
+ - b&h luxi serif
+
+
+read /usr/share/doc/ttf-xfree86-nonfree/readme.debian for instructions
+on how to register these fonts with xfree86.
+
+other non-free fonts are in the separate packages t1-xfree86-nonfree
+and ttf-xfree86-nonfree-syriac.

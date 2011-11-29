@@ -1,0 +1,8 @@
+Pdf presentation tool with eye candies (transition package)
+	
+package to ease upgrading for previousely installed versions of keyjnote,
+which was later renamed into impressive. also it provides symbolic links
+from keyjnote to impressive module and executable.
+
+this package can be purged at anytime once the impressive package has
+been installed and user comprehends the change of the project name.

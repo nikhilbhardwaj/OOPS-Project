@@ -1,0 +1,5 @@
+High level tools to configure network interfaces
+	
+this package provides the tools ifup and ifdown which may be used to
+configure (or, respectively, deconfigure) network interfaces based on
+interface definitions in the file /etc/network/interfaces.

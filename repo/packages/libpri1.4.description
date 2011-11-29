@@ -1,0 +1,6 @@
+Primary rate isdn specification library
+	
+c implementation of the primary rate isdn specification.  it was
+based on the bellcore specification sr-nwt-002343 for national isdn.  as of
+may 12, 2001, it has been tested work with ni-2, nortel dms-100, and lucent
+5e custom protocols on switches from nortel and lucent

@@ -1,0 +1,13 @@
+Architecture-independent files for octave3.2
+	
+octave is a (mostly matlab (r) compatible) high-level language, primarily
+intended for numerical computations. it provides a convenient command-line
+interface for solving linear and nonlinear problems numerically.
+
+octave uses some of the best and most respected numerical libraries as
+balgen, dassl, eispack, fftpack, lapack, linpack, minpack, odepack,
+ranlib, slatec-fn and villad. octave can be dynamically extended with
+user-supplied c++ files.
+
+this package provides the architecture-independent files (octave scripts
+and other helper files).

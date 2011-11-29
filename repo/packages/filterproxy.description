@@ -1,0 +1,7 @@
+A filtering proxy, which can among other things remove ads
+	
+filterproxy is a perl script that acts as a generic web proxy. it is
+unique in that it allows "modules" to be installed that can perform
+arbitrary transformations on html(or any other mime-type). currently
+it filters ads, and compresses html content (for a 5-1 speedup on
+modems!) configuration is done with web forms.

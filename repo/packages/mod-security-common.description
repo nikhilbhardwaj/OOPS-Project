@@ -1,0 +1,8 @@
+Tighten web applications security - common files
+	
+mod_security is an apache module whose purpose is to tighten the web
+application security. effectively, it is an intrusion detection and prevention
+system for the web server.
+
+this package includes documentation, configuration examples and some scripts
+to test the functionality of the module.

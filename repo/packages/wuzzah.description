@@ -1,0 +1,11 @@
+Inobtrusively monitor your friends
+	
+the idea: you have friends on a system, and you want to know when they
+log on and off when you're logged on. what's more, maybe you're tired
+of throwing together crappy/clunky who(1)/w(1)/finger(1) commands in
+obfuscated shell/perl scripts that only half do the job anyway.
+
+wuzzah is a program that selectively scans a system's utmpx records (where
+logins are stored, among other things), keeping an eye out for your friends
+logging in and out, taking customizable actions on events. wuzzah is small,
+fast, efficient, and written in c.

@@ -1,0 +1,14 @@
+Simple, in-memory, workqueue service
+	
+beanstalkd is a simple, fast, workqueue service (a specific case of message
+queueing), in which messages are organised in "tubes". beanstalk clients can
+insert and consume messages into and from such tubes.
+
+the beanstalk interface is generic, but was originally designed for reducing
+the latency of page views in high-volume web applications by running
+time-consuming tasks asynchronously.
+
+beanstalkd is meant to be ran in a trusted network, as it has no
+authorisation/authentication mechanisms.
+
+this package has the server files.

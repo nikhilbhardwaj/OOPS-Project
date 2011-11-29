@@ -1,0 +1,18 @@
+An emacs interface to gpg and pgp
+	
+mailcrypt is an emacs lisp package that provides a simple but
+powerful interface to cryptographic functions for mail and news.
+with mailcrypt, encryption becomes a seamlessly integrated part of
+mail and news handling.  mailcrypt can automatically fetch public
+keys to encode, decode, and verify messages; can be configured to
+automate mailing through anonymous remailers; and can interface to
+both gpg (the gnu privacy guard) and pgp.
+
+although mailcrypt may be used to process data in arbitrary emacs
+buffers, it is most useful in conjunction with other emacs packages
+for handling mail and news.  mailcrypt has specialized support for
+rmail, vm, mh-e, mew, and gnus.
+
+xemacs ships with its own version of mailcrypt, so this package
+should only be used with gnu emacs.  (i.e., you don't need to install
+this package if you only use xemacs.)

@@ -1,0 +1,18 @@
+Extensions to swing layout
+	
+the goal of swing layout extensions is to make it easy to create professional
+cross platform layouts with swing. this project has an eye towards the needs
+of gui builders, such as netbeans. this package provides the following
+functionality:
+
+
+  ability to get the baseline for components.
+
+
+
+  ability to get the preferred gap between components.
+
+
+
+  a new layoutmanager that utilizes both of these concepts and is tuned toward
+  a free-form drag and drop layout model as can be provided by gui builders.

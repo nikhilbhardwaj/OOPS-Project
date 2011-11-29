@@ -1,0 +1,12 @@
+Miscellaneous tools from the kde software development kit
+	
+this package contains additional tools to aid in development for kde.
+
+included are:
+
+ - headers to assist with profiling kde code
+ - a kde address book resource for kde subversion repository accounts
+ - kstartperf to measure startup time
+
+
+this package is part of the kde software development kit module.

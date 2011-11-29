@@ -1,0 +1,19 @@
+User-space access to linux kernel sctp - commandline tools
+	
+commandline tools and libraries to test sctp functionality
+
+this package is part of the lksctp project.
+
+it includes the following commandline tools:
+
+ * checksctp: determine if kernel supports sctp
+ * withsctp: run existing tcp binaries over sctp
+ * sctp_darn: send and receive messages via sctp
+ * sctp_test: userspace test application for the sctp kernel
+   reference implementation
+
+
+sctp (stream control transmission protocol) is a message oriented,
+reliable transport protocol, with congestion control, support for
+transparent multi-homing, and multiple ordered streams of messages.
+rfc2960 defines the core protocol.

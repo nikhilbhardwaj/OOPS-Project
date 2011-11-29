@@ -1,0 +1,4 @@
+Perl module for analyzing raw ip flow files written by cflowd
+	
+this perl module implements an api for analyzing flows in raw ip flow files
+written by cflowd, a package used to collect cisco netflow data.

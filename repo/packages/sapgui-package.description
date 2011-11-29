@@ -1,0 +1,5 @@
+Utility to build sap gui related debian packages
+	
+this package provides the capability to create a debian package for the
+platinum java sap gui from the provided jar by just running
+'make-sgpkg <filename>'.

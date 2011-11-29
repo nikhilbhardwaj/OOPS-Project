@@ -1,0 +1,4 @@
+Perl module for dns service discovery
+	
+net::bonjour is a set of modules that allow one to discover local services
+via multicast dns (mdns) or enterprise services via traditional dns.

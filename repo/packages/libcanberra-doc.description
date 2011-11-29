@@ -1,0 +1,12 @@
+A simple abstract interface for playing event sounds - doc
+	
+libcanberra defines a simple abstract interface for playing event
+sounds.
+
+libcanberra relies on the xdg sound naming specification for
+identifying event sounds. on unix/linux the right sound to play
+is found via the mechanisms defined in the xdg sound theming
+specification.
+
+this package contains the html documentation for libcanberra and
+libcanberra-gtk.

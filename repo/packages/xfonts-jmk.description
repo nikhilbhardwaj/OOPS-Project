@@ -1,0 +1,16 @@
+James m. knoble's character-cell fonts for x
+	
+these are character-cell fonts for use with the x window system, created
+by jim knoble.  the fonts currently included in this package are:
+
+neep (formerly known as nouveaugothic): a pleasantly legible variation on
+the standard fixed fonts that accompany most distributions of the x
+window system.  comes in both normal and bold weights in small, medium,
+large, extra-large, and huge sizes, as well as an extra-small size that
+only comes in normal weight.  iso-8859-1, iso-8859-2, iso-8859-9, and
+iso-8859-15 encodings are available.  the 6x13, 8x15, and 10x20 sizes have
+an iso-10646-1 (unicode) variant, drawing glyphs missing in neep from
+misc-fixed.
+
+modd: a fixed-width font with sleek, contemporary styling.  normal and
+bold weights in a 12-point (6x13) size.  iso-8859-1 encoding only.

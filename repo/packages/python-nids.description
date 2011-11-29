@@ -1,0 +1,6 @@
+Python binding for libnids (aka pynids)
+	
+this package is commonly known as pynids. it is a python wrapper for the
+libnids packet capture analysis library, a network intrusion detection
+system library offering sniffing, ip defragmentation, tcp stream
+reassembly and tcp port scan detection.

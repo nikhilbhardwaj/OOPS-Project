@@ -1,0 +1,14 @@
+Finds a datetime::format parser class for a database connection
+	
+datetime::format::dbi finds a datetime::format::* class that is suitable for
+the use with a given dbi connection (and dbd::* driver).
+
+it currently supports the following format modules: ibm db2
+(db2)|datetime::format::db2, mysql|datetime::format::mysql,
+oracle|datetime::format::oracle, postgresql (pg)|datetime::format::pg,
+sqlite|datetime::format::sqlite.
+
+note: this module provides a quick method to find the correct parser and
+formatter class. however, this is usually not sufficient for full database
+abstraction. you will also have to cater for differences in the syntax and
+semantics of sql datetime functions (and other sql commands).

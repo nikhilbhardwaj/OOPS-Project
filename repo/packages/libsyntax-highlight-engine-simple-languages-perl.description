@@ -1,0 +1,12 @@
+Perl module collection providing syntax highlighting
+	
+syntax::highlight::engine::simple provides a framework for generating coloured
+html from source code and similar text using regular expressions, controlled
+by cascading stylesheets (css). this package provides subclasses definining
+syntax for concrete languages.
+
+currently, this package includes the following modules:
+
+
+ * syntax-highlight-engine-simple-perl (syntax highlighting for perl)
+ * syntax-highlight-engine-simple-html (syntax highlighting for html)

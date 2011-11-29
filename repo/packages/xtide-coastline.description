@@ -1,0 +1,9 @@
+Coastline data for xtide
+	
+xtide is a package that provides tide and current predictions in a wide
+variety of formats.  this package enables the xtide package to display the
+world's coastlines (world vector shoreline data) when displaying the earth
+to select tidal stations.
+
+works automatically with xtide 2.9.5-2; see readme.debian if using an earlier
+version.

@@ -1,0 +1,19 @@
+Multicast file distribution utility
+	
+flamethrower is intended to be an easy to use multicast file distribution
+system.  it was created to add multicast install capabilities to
+systemimager, but was designed to be fully functional as a stand-alone
+package.
+
+notable characteristics:
+
+ 1)  works with entire directory hierarchies of files, not just single files.
+ 2)  uses a server configuration file that takes module entries that are
+     similar to those used by rsyncd.conf.
+ 3)  flamethrower is an on-demand system.  the multicast of a module is
+     initiated when a client connects, but waits min_wait (conf file) for
+     other clients to connect.  if other clients try to connect after a
+     cast has been initiated, they simply wait until that cast has finished,
+     and catch the next one when it begins.
+ 4)  the udpcast package is used as the multicast transport, and offers a
+     gob and a half of tuning parameters.

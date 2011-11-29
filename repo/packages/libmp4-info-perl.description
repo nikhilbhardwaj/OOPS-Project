@@ -1,0 +1,8 @@
+Fetch info from mpeg-4 files
+	
+this module can be used to extract tag and meta information from mpeg-4
+audio (aac) and video files. it is designed as a drop-in replacement
+for mp3::info.
+
+note that this module does not allow you to update the information in mpeg-4
+files.

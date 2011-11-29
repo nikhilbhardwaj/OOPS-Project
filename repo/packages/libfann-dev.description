@@ -1,0 +1,15 @@
+Development libraries and header files for fann
+	
+fast artificial neural network library is a free open
+source neural network library, which implements multilayer artificial
+neural networks in c with support for both fully connected and
+sparsely connected networks. cross-platform execution in both fixed
+and floating point are supported. it includes a framework for easy
+handling of training data sets. it is easy to use, versatile, well
+documented, and fast. a python binding is available, and bindings for
+php, c++, .net, delphi, octave, ruby, pure data and mathematica
+can be downloaded from fann's homepage.
+
+this package contains the header files and static libraries which are
+needed for developing libfann applications. it also includes some
+examples.

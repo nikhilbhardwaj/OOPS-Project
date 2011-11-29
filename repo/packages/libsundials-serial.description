@@ -1,0 +1,10 @@
+Suit of nonlinear and differential/algebraic equation solvers
+	
+the family of solvers referred to as sundials consists of solvers cvode
+(for ode systems), cvodes (ode with sensitivity analysis capabilities),
+ida (for differential-algebraic systems), and kinsol (for nonlinear
+algebraic systems).
+
+this package depends on all other packages containing the shared
+libraries for the subcomponents of sundials: cvode, cvodes, ida,
+kinsol, and nvector_serial.

@@ -1,0 +1,13 @@
+Aol web server version 4 - core libraries
+	
+aolserver is the web engine that powers america online. it
+is capable of serving a very high number of users, and can host
+hundreds of virtual servers simultaneously within the same process.
+
+it is similar in many respects to zope, except based largely on tcl.
+it is multi-threaded, and has a c api that can be used to extend
+its functionality.
+
+this package provides the basic shared libraries which are needed by
+the daemon and are also useful for building add-on modules. it does
+not contain the aolserver daemon, which is in aolserver4.

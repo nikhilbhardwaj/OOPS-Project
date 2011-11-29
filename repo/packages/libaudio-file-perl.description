@@ -1,0 +1,8 @@
+Perl audio file abstraction library
+	
+audio::file abstracts a single audio file, independent of its format.
+using this module you can access a files meta-info like title, album,
+etc. as well as the files audio-properties like its length and bitrate.
+
+currently only the formats flac, ogg vorbis and mp3 are supported, but
+support for other formats may be easily added.

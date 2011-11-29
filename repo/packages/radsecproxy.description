@@ -1,0 +1,8 @@
+Radius protocol proxy supporting radsec
+	
+a generic radius proxy that in addition to usual radius udp transport also
+supports tls (radsec). it aims to be flexible while at the same time small in
+size and memory footprint, efficient and easy to configure.
+
+it can be useful as a proxy on site boundaries or in other complex radius
+routing topologies. it supports both ipv4 and ipv6.

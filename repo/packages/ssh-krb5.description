@@ -1,0 +1,6 @@
+Secure shell client and server (transitional package)
+	
+this is a transitional package depending on the regular debian openssh
+client and server, which now support gssapi natively. it will add the
+necessary gssapi options to the server configuration file. you can
+remove it once the upgrade is complete and nothing depends on it.

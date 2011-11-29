@@ -1,0 +1,11 @@
+Perl library for manipulating imap mail stores
+	
+mail::imapclient provides an interface for interacting with internet message
+access protocol (imap). it supports virtually all imap client operations as
+of rfc3501 and is even capable of handling most unknown commands, including
+non-standard extensions or those which are from a newer version of the imap
+specification.
+
+there are various implementations of imap authentication mechanisms. if your
+mail system uses a different procedure to authenticate users, this feature is
+extensible through plugins.

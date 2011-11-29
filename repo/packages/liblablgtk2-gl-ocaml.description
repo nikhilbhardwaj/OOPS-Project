@@ -1,0 +1,6 @@
+Runtime libraries for ocaml bindings to gtkgl
+	
+lablgtk2 contains bindings for gtk+ 2.x and objective caml.
+
+this package include only the dynamic libraries needed for running dynamic
+bytecode executables using gtkgl functionalities.

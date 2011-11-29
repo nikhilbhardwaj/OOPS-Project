@@ -1,0 +1,9 @@
+Perl module for subroutine signatures with no source filter
+	
+with signatures, you can specify subroutine signatures and have
+variables automatically defined within the subroutine. note that,
+although the syntax is very similar, the signatures provided by this
+module are not to be confused with the prototypes described in
+perlsub. all this module does is extracting items of @_ and assigning
+them to the variables in the parameter list. no argument validation
+is done at runtime.

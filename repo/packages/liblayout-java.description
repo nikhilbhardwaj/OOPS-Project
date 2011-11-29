@@ -1,0 +1,5 @@
+Java layouting framework
+	
+liblayout is a layouting framework. it is based on the cascading stylesheets
+standard (in the upcoming version 3). the layouting expects to receive its
+content as a dom structure (although it does not rely on the w3c-dom api).

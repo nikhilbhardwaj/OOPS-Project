@@ -1,0 +1,8 @@
+Reverse address resolution protocol daemon
+	
+rarp is a protocol which allows individual devices on an ip network to
+get their own ip addresses from the rarp server.
+you need this daemon only if you have on your lan machines like
+diskless sun boxes.
+with kernels up to 2.2 you have the option of using the integrated rarp
+support instead of this daemon.

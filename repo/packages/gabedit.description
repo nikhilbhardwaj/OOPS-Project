@@ -1,0 +1,19 @@
+Graphical user interface to ab initio packages
+	
+gabedit is a graphical user interface to computational chemistry
+packages like the free software package mpqc.  other (proprietary)
+packages supported include:
+
+
+ - gamess-us
+ - gaussian
+ - molcas
+ - molpro
+ - q-chem
+
+
+running locally or on a remote server (supporting ftp, rsh and ssh).
+it can display a variety of calculation results including support for
+most major molecular file formats.  the advanced "molecule builder"
+allows to rapidly sketch in molecules and examine them in 3d. graphics
+can be exported to various formats, including animations.

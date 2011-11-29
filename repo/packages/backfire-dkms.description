@@ -1,0 +1,4 @@
+Kernel module for signal benchmarking (dkms)
+	
+backfire is a driver used by sendme(8) (contained in the rt-tests package) to
+benchmark kernel to userspace signal generation.

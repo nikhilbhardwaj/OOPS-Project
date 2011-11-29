@@ -1,0 +1,8 @@
+Module aliases and test program for /dev/mga_vid
+	
+this package contains the program 'mga_vid_test', which has one mission
+in life: to verify that the mga_vid driver works correctly.
+
+it also contains some configuration files for udev so that
+the module gets loaded automatically on demand and so that the device
+node will be created with proper permissions.

@@ -1,0 +1,11 @@
+Postfix tools for the black list daemon
+	
+bld stands for "black list daemon" and is intended to build blacklists
+using simple rules based on a maximum number of submissions of the same
+ip address during a minimum time interval.  bld was primarily designed to
+fight against dictionary-based spams (by making the mta report to bld
+any host that tries to send a mail to an unknown user) but can be used
+by any application that needs a blacklist based on connection rate
+limits.
+
+this package contains the tools dedicated to postfix.

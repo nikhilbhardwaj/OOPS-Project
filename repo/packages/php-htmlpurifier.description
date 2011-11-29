@@ -1,0 +1,6 @@
+Standards-compliant html filter
+	
+html purifier is an html filter that will remove all malicious code
+(better known as xss) with a thoroughly audited, secure yet
+permissive whitelist and will also make sure your documents
+are standards compliant.

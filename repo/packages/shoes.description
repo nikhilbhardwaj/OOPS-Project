@@ -1,0 +1,10 @@
+Tiny graphics and windowing toolkit using ruby
+	
+shoes is a very informal graphics and windowing toolkit for making simple
+graphical applications.  it blends ideas from the web (hyperlinks, simple text
+layout, and more) from traditional windowing toolkits (buttons, progress bars,
+dialogs and the like) and applications like nodebox and processing (drawing
+anywhere on the window with shapes and curves, simple animation).
+
+shoes uses ruby as its interface language; applications created with it can
+run on windows, mac os x and linux.

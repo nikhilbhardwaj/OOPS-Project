@@ -1,0 +1,8 @@
+Display mail user agent extension for icedove (transitional package)
+	
+adds an image on the right side of the "expanded header view" which displays
+the icon of the application with which the currently selected mail was
+written.
+
+this is a transitional package that depends on xul-ext-dispmua.
+it can be safely removed.

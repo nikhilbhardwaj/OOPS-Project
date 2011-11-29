@@ -1,0 +1,21 @@
+Fast processor emulator
+	
+qemu is a fast processor emulator: currently the package supports
+arm, cris, i386, m68k (coldfire), microblaze, mips, powerpc, sh4,
+sparc and x86-64 emulation. by using dynamic translation it achieves
+reasonable speed while being easy to port on new host cpus. qemu has
+two operating modes:
+
+
+ * user mode emulation: qemu can launch linux processes compiled for
+   one cpu on another cpu.
+ * full system emulation: qemu emulates a full system, including a
+   processor and various peripherals. it enables easier testing and
+   debugging of system code. it can also be used to provide virtual
+   hosting of several virtual machines on a single server.
+
+
+as qemu requires no host kernel patches to run, it is very safe and
+easy to use.
+
+this package is a metapackage depending on all qemu-related packages.

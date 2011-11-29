@@ -1,0 +1,10 @@
+M17n input method engine for scim
+	
+scim (smart common input method) is an input method (im) platform.
+
+m17n (multilingualization) input method engine enables scim to input
+many non-latin characters from the keyboard using libm17n library.
+
+author: james su <suzhe@tsinghua.org.cn>
+
+for details about scim, please see the description of the scim package.

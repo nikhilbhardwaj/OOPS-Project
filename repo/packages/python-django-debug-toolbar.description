@@ -1,0 +1,17 @@
+Embedded debugging toolbar for django projects
+	
+the django debug toolbar is a plug-in django application that displays a set
+of panels which conveys information about the current request at the top of the
+rendered page. it can show:
+
+
+  * total time taken to process request
+  * request variables, including get, post, cookie, and session information.
+  * all sql queries performed during response creation and processing,
+    including timing and 'explain' output for each query in conjunction with
+    the total time spent performing sql queries. if python-pygments is
+    installed, the sql syntax is highlighted.
+  * current django version
+  * http headers
+  * total requests, time, hits and misses of the cache.
+  * which templates were rendered the context provided to each template.

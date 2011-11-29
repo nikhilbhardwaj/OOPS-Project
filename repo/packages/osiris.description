@@ -1,0 +1,10 @@
+Network-wide system integrity monitor control interface
+	
+osiris is a host integrity monitoring system that periodically
+monitors one or more hosts for change. it maintains detailed logs of
+changes to the file system, user and group lists, resident kernel
+modules, and more.
+
+this package contains the control program used to communicate with
+the osiris central management daemon, and should be installed on any system
+from which administrators will manage osiris.

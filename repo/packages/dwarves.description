@@ -1,0 +1,20 @@
+Set of advanced dwarf utilities
+	
+this package contains tools that use the dwarf debugging information
+inserted in elf binaries by the compiler. this information is already
+used by debuggers (e.g. gdb), and more recent tools such as systemtap.
+
+utilities in the dwarves suite include:
+
+
+ - pahole: finds alignment holes in structs and classes in languages
+   such as c/c++, cpu cacheline alignment. helps repack those structures
+   to achieve more cache hits.
+ - codiff: a diff like tool to compare the effects changes in source
+   code generate on the resulting binaries
+ - pfunct: displays all sorts of information about functions, inlines, etc.
+ - pdwtags: pretty-prints dwarf information
+ - pglobal: lists global symbols
+ - prefcnt: counts dwarf tags usage
+ - syscse: system call sign extender
+ - dtagnames: lists tag names

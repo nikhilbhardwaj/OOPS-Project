@@ -1,0 +1,6 @@
+Graphical tool for displaying gcov test coverage data
+	
+this is a simple gui for browsing c test coverage data gathered
+by programs instrumented with "gcc -fprofile-arcs -ftest-coverage".
+hence it's a graphical replacement for the "gcov" program that
+comes with gcc.

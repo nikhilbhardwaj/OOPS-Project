@@ -1,0 +1,14 @@
+Ambisonic decoder for first and second order
+	
+ambdec is an ambisonics decoder for up to 36 speakers. it can be used
+for both horizontal and full 3-d systems of first, second and third
+order. the decoding matrices are fully user-configurable. ambdec has
+some advanced features not found on most decoders:
+
+ * dual frequency band operation.
+ * speaker distance compensation.
+ * near-field effect compensation.
+
+
+all three features can be selectively enabled or disabled in the
+configuration.

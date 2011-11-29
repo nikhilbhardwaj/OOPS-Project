@@ -1,0 +1,7 @@
+Obtain information about the currently running perl interpreter
+	
+probe::perl provides methods for obtaining information about the currently
+running perl interpreter.
+
+it can retireve the current version, path, @inc or details about perl
+configuration, as well as compare if two perl interpreters are the same.

@@ -1,0 +1,18 @@
+Clone of the unix sccs revision-control system
+	
+sccs is a per-file revision-control system. it is a de-facto standard
+on commercial unices, being shipped with most of those.
+
+gnu-based systems usually use rcs instead of sccs - indeed it has been
+a choice to design rcs instead of implementing a free sccs clone.  rcs
+was designed to address some problems with sccs (eg. extraction time
+grows linearly with the size of the history file), but it has anyway
+problems of its own (eg. extraction time of branches grows with trunk
+length).
+
+some project-wide revision-control systems, like aegis, can make use
+of cssc instead of rcs.
+
+this package also provides a web frontend to navigate the history of
+files under sccs control, with optional support for formatting of
+manpages using groff.

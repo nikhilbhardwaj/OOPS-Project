@@ -1,0 +1,16 @@
+Dvd+-rw/r tools
+	
+dvd+rw-tools makes it possible to burn dvd images created by dvdauthor or
+genisoimage to dvd+r, dvd+rw, dvd-r, and dvd-rw disks, replacing
+cdrecord-prodvd in many cases.
+
+the package contains:
+
+
+  * growisofs to burn dvd images or create a data dvd on the fly
+  * dvd+rw-format to format a dvd+rw
+  * dvd+rw-mediainfo to give details about dvd disks
+
+
+and some programs to control the write speed and obtain information from
+dvd-ram.

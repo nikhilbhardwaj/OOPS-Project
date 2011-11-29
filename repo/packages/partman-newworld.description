@@ -1,0 +1,5 @@
+Partman support for new-world powermac boot partitions
+	
+this package provides the 'newworld' partition use method. the yaboot
+boot loader used on pci-era powermac systems requires a special
+apple_bootstrap partition, created by this method.

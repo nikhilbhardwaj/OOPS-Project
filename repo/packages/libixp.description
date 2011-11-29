@@ -1,0 +1,6 @@
+Simple 9p client-/server-library
+	
+this is a an extremly simple 9p stand-alone library. 9p is a virtual filesystem
+from the plan9 operating system.
+
+libixp is currently only used by wmii (window manager improved, version 3).

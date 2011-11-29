@@ -1,0 +1,4 @@
+Gpgme - gnupg made easy
+	
+gpgme is a wrapper library which provides a c api to access some of the
+gnupg functions, such as encrypt, decrypt, sign, verify, ...

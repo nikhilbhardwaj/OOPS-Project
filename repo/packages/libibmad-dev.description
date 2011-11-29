@@ -1,0 +1,10 @@
+Development files for libibmad
+	
+libibmad provides low layer infiniband functions for use by the
+infiniband diagnostic and management programs. these include
+managment datagrams (mad), subnet administration (sa), subnet
+management packets (smp) and other basic functions.
+
+this package is needed to compile programs against libibumad1.
+it contains the header files and static libraries (optionally)
+needed for compiling.

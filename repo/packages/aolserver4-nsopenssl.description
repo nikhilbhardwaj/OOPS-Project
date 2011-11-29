@@ -1,0 +1,6 @@
+Aolserver 4 module: module for ssl mode
+	
+this module adds ssl capabilities to aolserver, and gives tcl scripts
+an api to access openssl functions.
+
+this is currently a beta release! use at your own risk.

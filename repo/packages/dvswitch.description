@@ -1,0 +1,8 @@
+Basic video mixer for live dv streams
+	
+dvswitch is a very basic video mixer that receives dv streams from
+sources and sends a dv stream to sinks over a tcp/ip network.  it has
+a graphical interface in which all source streams can be viewed and
+selected from.
+
+it is intended to be used for live editing at conferences.

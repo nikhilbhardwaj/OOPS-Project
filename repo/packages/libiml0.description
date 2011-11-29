@@ -1,0 +1,15 @@
+Integer matrix library, runtime files
+	
+iml is a library for exact, dense linear algebra over the integers.
+iml contains algorithms for nonsingular rational system solving,
+computing the right nullspace of an integer matrix, and certified
+linear system solving.
+
+in addition, iml provides some low level routines for a variety of
+mod p matrix operations: computing the row-echelon form, determinant,
+rank profile, and inverse of a mod p matrix.  these mod p routines
+are not general purpose; they require that p satisfy some
+preconditions based on the dimension of the input matrix (usually p
+should be prime and should be no more than about 20 bits long).
+
+this package contains runtime files for iml.

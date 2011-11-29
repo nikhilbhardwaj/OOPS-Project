@@ -1,0 +1,5 @@
+Module to compact javascript code
+	
+javascript::packer is a perl module that attempts to compact your javascript
+code by removing unneeded whitespace, comments and newlines. this can result
+in substantial size reductions, which can decrease loading times.

@@ -1,0 +1,13 @@
+A collection of ladspa plugins
+	
+computer music toolkit is a collection of ladspa compatible
+plugins that any conforming program may take advantage of.
+
+plugins available are: low/high pass filters, echo/feedback delay filters
+with configurable delays from 0.01 to 60 seconds, amplifies, white and
+ping noise generators, compressors, expanders, limiters, b/fmh encoders,
+drum synthesizers, lofi (low fidelity), phase modulator (phasemod) and
+many more.
+
+these plugins are only usable in host applications, of which glame,
+sweep and others can be found in debian.

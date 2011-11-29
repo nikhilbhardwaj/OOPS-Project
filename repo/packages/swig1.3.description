@@ -1,0 +1,8 @@
+Generate scripting interfaces to c/c++ code
+	
+swig is a compiler that makes it easy to integrate c and c++ code
+with other languages including perl, php, tcl, ruby, python, java,
+guile, mzscheme, chicken, ocaml, pike, and c#.
+
+this is just an upgrade convenience package. for the real stuff
+look at the swig package.

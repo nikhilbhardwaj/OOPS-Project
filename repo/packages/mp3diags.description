@@ -1,0 +1,38 @@
+Find issues in mp3 files and help to solve them
+	
+mp3 diags is a gui-based application that allows end-users to identify issues
+with their mp3 files, fix some of the issues and make other changes, like
+adding track information. it also allows user to "look inside" an mp3 file.
+
+unlike some programs that are designed to deal with a single topic (like
+fixing vbr headers or adding cover art), mp3 diags is a one stop solution
+that identifies more than 50 different issues in mp3 files and provides the
+means to fix many of them.
+
+some of the more important issues that are found:
+
+
+ * broken tags / headers / audio.
+ * duplicate tags / headers.
+ * incorrect placement of tags / headers (id3v2, id3v1, lame, xing, etc).
+ * low quality audio.
+ * missing vbr header.
+ * missing track info / cover art.
+ * broken track info / cover art.
+ * missing normalization data.
+ * character encoding issues (for languages other than english).
+
+
+some of the fixes and changes that mp3 diags can do:
+
+
+ * adding / fixing track info, including album cover; information can be
+   retrieved from several sources: internet, clipboard, file name, local
+   files, and (obviously) keyboard.
+ * correcting files that show incorrect song duration.
+ * correcting files in which the player cannot seek correctly.
+ * converting characters for non-english names.
+ * adding composer name to the artist field, for players that don't handle
+   the composer field.
+ * renaming files based on their fields.
+ * changing word case for track info.

@@ -1,0 +1,14 @@
+Profiling libraries for the glasgow haskell compilation system
+	
+version 6 of the glorious glasgow haskell compilation system (ghc).  ghc is
+a compiler for haskell98.
+
+haskell is "the" standard lazy functional programming language. haskell98
+is the current version of the language. the language definition and
+additional documentation can be found in the `haskell-doc' package.
+alternatively, there is an online version at
+http://haskell.org/onlinereport/.
+
+this package contains additional profiling libraries. they are only needed,
+if you want to take a closer look on where exactly your program burns cpu
+cycles.

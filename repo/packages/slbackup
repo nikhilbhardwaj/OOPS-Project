@@ -1,0 +1,4 @@
+PackageId:31708
+Name:slbackup
+Version:0.0.12-2
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libconfig-general-perl,libnet-dns-perl,logrotate,perl,rdiff-backup

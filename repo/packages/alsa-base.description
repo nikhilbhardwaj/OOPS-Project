@@ -1,0 +1,16 @@
+Alsa driver configuration files
+	
+this package contains various configuration files for
+the alsa drivers.
+
+for alsa to work on a system with a given sound card,
+there must be an alsa driver for that card in the kernel.
+linux 2.6 as shipped in linux-image packages contains
+alsa drivers for all supported sound cards in the form
+of loadable modules. a custom alsa-modules package can
+be built from the sources in the alsa-source package
+using the m-a utility (included in the module-assistant
+package). please read the readme.debian file for more
+information about loading and building modules.
+
+alsa is the advanced linux sound architecture.

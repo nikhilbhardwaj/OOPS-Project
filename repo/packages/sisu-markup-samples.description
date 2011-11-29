@@ -1,0 +1,52 @@
+Document markup examples for sisu, publish and search framework
+	
+the document samples provided include:
+
+ * "viral spiral", david bollier
+ * "the wealth of networks", jochai benkler
+ * "free culture", lawrence lessig
+ * "content", cory doctrow
+ * "two bits", christopher kelty
+ * "democratizing innovation", eric von hippel
+ * "free for all", peter wayner
+ * "the cathedral and the bazaar", eric s. raymond
+ * "little brother", cory doctrow
+ * "accelerando", charles stross
+
+and a couple of additional texts.
+
+the documents were shared by their authors under creative commons licenses,
+that permit their distribution, though not within the main debian archive by
+debian policy.
+
+
+ * "free as in freedom", on rms by sam williams, is available as a markup
+
+sample within the package sisu
+
+sisu is a lightweight markup based, command line oriented, document
+structuring, publishing and search framework for document collections.
+
+with minimal preparation of a plain-text, (utf-8) file, using its native
+markup syntax in your text editor of choice, sisu can generate various
+document formats (most of which share a common object numbering system for
+locating content), including plain text, html, xhtml, xml, epub, opendocument
+text (odf:odt), latex, pdf files, and populate an sql database with objects
+(roughly paragraph-sized chunks) so searches may be performed and matches
+returned with that degree of granularity: your search criteria is met by these
+documents and at these locations within each document. object numbering is
+particularly suitable for "published" works (finalized texts as opposed to
+works that are frequently changed or updated) for which it provides a fixed
+means of reference of content. document outputs also share semantic meta-data
+provided.
+
+sisu also provides concordance files, document content certificates and
+manifests of generated output.
+
+man pages, and interactive help are provided.
+
+dependencies for additional features are taken care of in sisu related
+packages.
+
+the dummy package sisu-complete together with sisu-markup-samples installs
+the whole of sisu.

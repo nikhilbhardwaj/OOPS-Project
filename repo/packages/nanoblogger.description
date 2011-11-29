@@ -1,0 +1,6 @@
+Small weblog engine for the command line
+	
+nanoblogger is a small weblog engine written in bash. it uses common unix
+tools such as cat, grep, and sed to create static html content. it's command
+line driven and supports archiving by category, year, month, day, and entry.
+it's designed to be modular, flexible, and independent of external databases.

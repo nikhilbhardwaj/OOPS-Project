@@ -1,0 +1,7 @@
+Validate and convert data types
+	
+data::types exports a number of functions that are useful for validating
+and converting data types.
+it is intended for use in applications where data types
+are more important than they typically are in perl -- e.g., database
+applications.

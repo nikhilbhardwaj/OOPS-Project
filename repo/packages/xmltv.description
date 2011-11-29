@@ -1,0 +1,11 @@
+Functionality related to the xmltv file format for tv listings
+	
+gather television listings, process them and organize your viewing.
+xmltv is a file format for storing tv listings, defined in xmltv.dtd.
+this is a metapackage that installs all of the xmltv pieces.
+
+this package is intended mainly for end-users who will run xmltv
+programs directly.  maintainers of other packages that rely on xmltv
+functionality should consider depending on one or more of the related
+packages (libxmltv-perl, xmltv-util, xmltv-gui) as needed instead of
+this metapackage.

@@ -1,0 +1,5 @@
+Perl module encapsulating access to the ispell program
+	
+lingua::ispell allows a perl program to communicate with an ispell
+process to check spellings of strings.  a sample program called
+`spellcheck' is provided.

@@ -1,0 +1,4 @@
+Email::sender with l<net::smtp::tls> (eg. gmail)
+	
+a transport class for use with email::sender (libemail-sender-perl) which
+implements smtp with tls and auth.

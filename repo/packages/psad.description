@@ -1,0 +1,19 @@
+Port scan attack detector
+	
+psad is a collection of four lightweight system daemons (in perl and
+c) designed to work with iptables to detect port scans. it features:
+
+ * a set of highly configurable danger thresholds (with sensible
+   defaults provided);
+ * verbose alert messages that include the source, destination,
+   scanned port range, beginning and end times, tcp flags, and
+   corresponding nmap options;
+ * reverse dns information;
+ * alerts via email;
+ * automatic blocking of offending ip addresses via dynamic firewall
+   configuration.
+
+
+when combined with fwsnort and the iptables string match extension,
+psad is capable of detecting many attacks described in the snort rule
+set that involve application layer data.

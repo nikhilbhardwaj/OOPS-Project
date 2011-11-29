@@ -1,0 +1,4 @@
+PackageId:4822
+Name:fwsnort
+Version:1.1-2
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,iptables,libiptables-parse-perl,libnetwork-ipv4addr-perl,perl

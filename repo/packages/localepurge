@@ -1,0 +1,4 @@
+PackageId:23642
+Name:localepurge
+Version:0.6.2+nmu1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,locales,locales-all,procps,ucf

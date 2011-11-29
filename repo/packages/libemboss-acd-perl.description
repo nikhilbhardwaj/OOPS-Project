@@ -1,0 +1,8 @@
+Perl module to parse emboss acd files
+	
+emboss::acd parses emboss ajax command definition files
+and provides object-oriented access to the data contained
+therein.
+
+for a complete specification of the acd format, see
+http://emboss.sourceforge.net/developers/acd

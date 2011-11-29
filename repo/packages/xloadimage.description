@@ -1,0 +1,9 @@
+Graphics file viewer under x11
+	
+can view png, jpeg, gif, tiff, niff, sunraster, fbm, cmuraster, pbm, faces,
+rle, xwd, vff, mcidas, vicar, pcx, gem, macpaint, xpm and xbm files. can
+view images, put them on the root window, or dump them. does a variety of
+processing, including: clipping, dithering, depth reduction, zoom,
+brightening/darkening and merging.
+
+includes xsetbg, xview and uufilter.

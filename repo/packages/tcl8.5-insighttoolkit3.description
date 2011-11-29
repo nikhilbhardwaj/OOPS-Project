@@ -1,0 +1,13 @@
+Image processing toolkit for registration and segmentation - tcl bindings
+	
+itk is an open-source software toolkit for performing registration and
+segmentation. segmentation is the process of identifying and
+classifying data found in a digitally sampled
+representation. typically the sampled representation is an image
+acquired from such medical instrumentation as ct or mri
+scanners. registration is the task of aligning or developing
+correspondences between data. for example, in the medical
+environment, a ct scan may be aligned with a mri scan in order to
+combine the information contained in both.
+
+this package contains the tcl language bindings for itk.

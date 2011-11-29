@@ -1,0 +1,7 @@
+Flexible, ruby based make
+	
+similar to make, the rant commandline tool reads a file called rantfile, which
+contains task definitions. unlike make, however, an rantfile is just a valid
+script written in the ruby programming language. since ruby comes with many
+useful libraries and is portable across many different operating systems, it
+is easy to write portable rantfiles.

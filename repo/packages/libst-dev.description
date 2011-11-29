@@ -1,0 +1,13 @@
+State threads library - development files
+	
+the state threads library has an interface similar to posix threads.
+
+however, the threads are actually all run in-process. this type of
+threading allows for controlled schedualing points. it is highly useful
+for designing robust and extremely scalable internet applications since
+there is no resource contention and locking is generally unnecessary.
+
+it can be combined with traditional threading or multiple process
+parallelism to take advantage of multiple processors.
+
+this package contains the development files for compiling programs.

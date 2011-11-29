@@ -1,0 +1,6 @@
+Interface statistics monitoring
+	
+ifstat is a tool to report network interfaces bandwidth just like
+vmstat/iostat do for other system counters. it can monitor local
+interfaces by polling the kernel counters, or remote hosts
+interfaces using snmp.

@@ -1,0 +1,17 @@
+Xquery implementation with static typing - command line front-ends
+	
+galax is an implementation of xquery, the w3c xml query language.
+
+galax implements xquery 1.0 as specified by the w3c, as well as xpath 2.0,
+which is subset of xquery 1.0.
+
+galax is a schema-aware implementation of xquery and supports static
+typing. also thanks to that, galax is a really fast implementation of the
+language.
+
+galax supports some advanced xquery features, such as xml schema validation,
+xml updates, xquery optimization and projection, applications of xquery to web
+services.
+
+this package contains the command line front-ends to evaluate xquery queries
+and to validate xml documents against xml schemas.

@@ -1,0 +1,15 @@
+Transparent caching ftp proxy
+	
+frox is an ftp proxy with the following features.
+
+ - written with security in mind, default setup runs as a non-root user in
+   a chroot jail.
+ - it supports caching of ftp downloads, either through a local cache, or
+   by redirecting connections through another proxy such as squid.
+ - downloads may be transparently scanned for viruses (through an external
+   scanner).
+ - controllable via scripts, there is an interface for writing scripts to
+   add features or modify frox's behavior, examples included.
+
+
+transparent proxy support is not automatically setup by this package.

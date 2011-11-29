@@ -1,0 +1,22 @@
+A versatile news and mail reader for emacsen
+	
+gnus is a flexible message reader running under emacs. it supports
+reading and composing both news and mail. in addition, it is able to
+use a number of web-based sources as inputs for its groups. the main
+gnus goal is to provide the user with an efficient and extensible
+interface towards dealing with large numbers of messages, no matter
+the form they may have or wherever they may come from. gnus is
+fully mime-compliant and supports reading and composing messages
+using any charset that emacs supports.
+
+gnus biggest strength is the fact that it is extremely
+customisable. it is somewhat intimidating at first glance, but most
+of the complexity can be ignored until you're ready to take advantage
+of it. if you receive a reasonable volume of e-mail (i.e. you're on
+various mailing lists), or you would like to read high-volume mailing
+lists but cannot keep up with them, or read high volume newsgroups or
+are just bored, then gnus may be what you want.
+
+note: this package contains beta version from no gnus series. users
+of gnu emacs 23 are better served by gnus 5.13 included in gnu emacs
+23 packages.

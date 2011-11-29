@@ -1,0 +1,10 @@
+Geo backend for powerdns
+	
+powerdns is a versatile nameserver which supports a large number
+of different backends ranging from simple zonefiles to relational
+databases and load balancing/failover algorithms.
+powerdns tries to emphasize speed and security.
+
+this package contains a geobackend for the powerdns nameserver. this backend
+balances the load throughout the world so that people access the
+geographically nearest available server.

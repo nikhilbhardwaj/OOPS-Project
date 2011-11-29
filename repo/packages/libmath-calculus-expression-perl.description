@@ -1,0 +1,11 @@
+Algebraic calculus tools expression class
+	
+math::calculus::expression can take an algebraic expression, parse it into a
+tree structure, simplify the tree, substitute variables and named constants for
+other variables or constants (which may be numeric), numerically evaluate the
+tree and turn the tree back into an output of the same form as the input.
+
+it supports a wide range of expressions including the +, -, *, / and ^
+(raise to power) operators, bracketed expressions to enable correct precedence
+and the functions ln, exp, sin, cos, tan, sec, cosec, cot, sinh, cosh, tanh,
+sech, cosech, coth, asin, acos, atan, asinh, acosh and atanh.

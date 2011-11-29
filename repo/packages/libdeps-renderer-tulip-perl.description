@@ -1,0 +1,5 @@
+Deps renderer plugin using tulip
+	
+tulip output support for the dependency extraction and processing
+system.  tulip can render graphs in three dimensions using opengl,
+but this plugin is currently very limited.

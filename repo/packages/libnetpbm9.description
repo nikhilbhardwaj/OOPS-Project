@@ -1,0 +1,5 @@
+Shared libraries for netpbm (v9)
+	
+this package contains shared libraries used to be used by netpbm.
+now we've switched to a single shared library, look out for libnetpbm10.
+this package is provided for backward compatibility.

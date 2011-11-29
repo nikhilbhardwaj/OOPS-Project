@@ -1,0 +1,29 @@
+Clustered database to store temporary data
+	
+ctdb is a cluster implementation of the tdb database used by samba and other
+projects to store temporary data. if an application is already using tdb for
+temporary data it is very easy to convert that application to be cluster aware
+and use ctdb instead.
+
+ctdb provides the same types of functions as tdb but in a clustered fashion,
+providing a tdb-style database that spans multiple physical hosts in a cluster.
+
+features include:
+
+ * ctdb provides a tdb that has consistent data and consistent locking across
+   all nodes in a cluster.
+ * ctdb is very fast.
+ * in case of node failures, ctdb will automatically recover and repair all tdb
+   databases that it manages.
+ * ctdb is the core component that provides pcifs ("parallel cifs") with
+   samba3/4.
+ * ctdb provides ha features such as node monitoring, node failover, and ip
+   takeover.
+ * ctdb provides a reliable messaging transport to allow applications linked
+   with ctdb to communicate to other instances of the application running on
+   different nodes in the cluster.
+ * ctdb has pluggable transport backends. currently implemented backends are
+   tcp and infiniband.
+ * ctdb supports a system of application specific management scripts, allowing
+   applications that depend on network or filesystem resources to be managed in
+   a highly available manner on a cluster.

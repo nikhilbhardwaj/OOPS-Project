@@ -1,0 +1,6 @@
+Freetype-based font drawing library for x
+	
+xft provides a client-side font api for x applications, making the freetype
+font rasterizer available to x clients.  fontconfig is used for font
+specification resolution.  where available, the render extension handles
+glyph drawing; otherwise, the core x protocol is used.

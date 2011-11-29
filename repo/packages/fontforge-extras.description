@@ -1,0 +1,11 @@
+Additional data and utilities for fontforge
+	
+this package contains extra data and utilities for the fontforge
+font editor:
+
+
+ * cidmaps: character set descriptions for editing cid keyed fonts;
+ * encodings.ps: an extra encoding tables;
+ * showttf: a program which will decompose a truetype (or opentype)
+   font file into its various tables and display the contents of
+   those tables.

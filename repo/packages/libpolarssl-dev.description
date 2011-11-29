@@ -1,0 +1,14 @@
+Lightweight crypto and ssl/tls library
+	
+polarssl is a fork of the abandonned project xyssl. it is a lean crypto
+library providing ssl and tls support in your programs. it features:
+
+ - aes, triple-des, des, arc4, camellia, xtea
+ - md2, md4, md5, sha-1, sha-256, sha-384, sha-512
+ - havege random number generator
+ - rsa with pkcs#1 v1.5 padding
+ - sslv3 and tlsv1 client support
+ - x.509 certificate and crl reading
+
+
+this package contains the static library and the header files.

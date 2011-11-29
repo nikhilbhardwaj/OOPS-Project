@@ -1,0 +1,10 @@
+Gui client for xmpp (jabber) instant messaging protocol
+	
+tkabber is a gui client for xmpp (jabber) instant messaging protocol.
+it provides full support of basic xmpp specifications as well as many
+protocol extensions (xeps), such as multi-user conferencing,
+file transfers, extensive handling of privacy lists and much more.
+tkabber is written in tcl/tk and thus is easily extensible.
+
+also a rich set of tkabber external plugins is available
+in the package named "tkabber-plugins".

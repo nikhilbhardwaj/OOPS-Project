@@ -1,0 +1,5 @@
+An applet that is a wrapper around pon and poff
+	
+gpppon is an applet that reads the names of the configured providers
+from /etc/ppp/peers and calls the pon and poff scripts with the
+selected provider as argument.

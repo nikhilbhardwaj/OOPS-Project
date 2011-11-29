@@ -1,0 +1,12 @@
+Json validator and converter for ocaml
+	
+json-static is a tool for converting parsed json data
+with an unchecked structure into specialized ocaml
+types and vice-versa.
+
+by reading a type definition, the preprocessor inserts
+code that converts between ocaml types and untyped
+json data.
+
+type definitions are written in a syntax which is
+very close to regular ocaml type definitions.

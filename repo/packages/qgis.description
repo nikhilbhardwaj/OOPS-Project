@@ -1,0 +1,9 @@
+Geographic information system (gis)
+	
+a geographic information system (gis) manages, analyzes, and displays
+databases of geographic information. quantum gis (qgis) supports shape file
+viewing and editing, spatial data storage with postgresql/postgis, projection
+on-the-fly, map composition, and a number of other features via a plugin
+interface. qgis also supports display of various georeferenced raster and
+digital elevation model (dem) formats including geotiff, arc/info ascii grid,
+and usgs ascii dem.

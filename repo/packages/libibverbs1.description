@@ -1,0 +1,15 @@
+A library for direct userspace use of rdma (infiniband/iwarp)
+	
+libibverbs is a library that allows userspace processes to use rdma
+"verbs" as described in the infiniband architecture specification and
+the rdma protocol verbs specification.  iwarp ethernet nics support
+rdma over hardware-offloaded tcp/ip, while infiniband is a
+high-throughput, low-latency networking technology.  infiniband host
+channel adapters (hcas) and iwarp nics commonly support direct
+hardware access from userspace (kernel bypass), and libibverbs
+supports this when available.
+
+for this library to be useful, a device-specific plug-in module
+should also be installed.
+
+this package contains the shared library.

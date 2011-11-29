@@ -1,0 +1,9 @@
+Augeas command line tools
+	
+augeas is a configuration editing tool. it parses configuration files in their
+native formats and transforms them into a tree. configuration changes are made
+by manipulating this tree and saving it back into native config files.
+
+this package provides command line tools based on libaugeas0:
+- augtool, a tool to manage configuration files.
+- augparse, a testing and debugging tool for augeas lenses.

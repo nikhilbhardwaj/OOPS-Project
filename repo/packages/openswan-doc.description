@@ -1,0 +1,7 @@
+Internet key exchange daemon - documentation
+	
+openswan is an ipsec based vpn solution for the linux kernel. it can use the
+native ipsec stack as well as the klips kernel module. both ikev1 and ikev2
+protocols are supported.
+
+this package provides the free parts of the documentation for openswan.

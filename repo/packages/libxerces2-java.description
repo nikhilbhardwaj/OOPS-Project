@@ -1,0 +1,26 @@
+Validating xml parser for java with dom level 3 support
+	
+the xerces2 java parser is the reference implementation of xni, the
+xerces native interface, and also a fully conforming xml schema processor.
+
+xerces2-j supports the following standards and apis:
+
+ * extensible markup language (xml) 1.0 second edition recommendation
+ * namespaces in xml recommendation
+ * document object model (dom) level 2 core, events, and traversal and
+   range recommendations
+ * simple api for xml (sax) 2.0.1 core and extension
+ * java apis for xml processing (jaxp) 1.2.01
+ * xml schema 1.0 structures and datatypes recommendations
+ * experimental implementation of the document object model (dom) level 3
+   core and load/save working drafts
+ * provides a partial implementation of the xml inclusions (xinclude) w3c
+   candidate recommendation
+
+
+xerces is now able to parse documents written according to the xml 1.1
+candidate recommendation, except that it does not yet provide an option to
+enable normalization checking as described in section 2.13 of this
+specification. it also handles namespaces according to the  xml namespaces 1.1
+candidate recommendation, and will correctly serialize xml 1.1 documents if
+the dom level 3 load/save api's are in use.

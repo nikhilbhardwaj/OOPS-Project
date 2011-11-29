@@ -1,0 +1,5 @@
+Module for detecting mailing list messages
+	
+mail::listdetector is a perl module useful for detecting whether or not a
+message originates from a mailing list. it is based on rfc2369 and is also
+capable of matching mailman and ezmlm messages.

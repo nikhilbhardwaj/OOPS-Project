@@ -1,0 +1,15 @@
+Kochi subst gothic japanese truetype font without naga10
+	
+ttf-kochi-gothic is high quality, japanese gothic truetype font.
+it does not include naga10 font, so it's dfsg-free.
+
+the family of ttf-kochi-* is very smooth and beautiful compared with
+current free japanese truetype fonts. it has bitmap hinting information,
+so it's beautiful and not jagged to display on the crt.
+this font is suitable for both printing and displaying japanese
+characters.
+
+transition warning: upstream development of the kochi fonts has been
+discontinued. the author of this font suggests as a replacement the use of
+the kochi-based "sazanami" font. so if you want to usea font like this one,
+consider using "ttf-sazanami-gothic", instead.

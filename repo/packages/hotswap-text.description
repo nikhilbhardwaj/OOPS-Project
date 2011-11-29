@@ -1,0 +1,11 @@
+(de)register hotswappable ide hardware (command line tool)
+	
+hotswap is a utility to register and deregister hotswappable ide
+hardware. it is written to be used on laptops with some sort of
+hardware bay to remove the module from the machine without rebooting
+it. eg. dell laptops.
+
+note that this utility is not required to insert or remove batteries
+or floppy disk drives; only for ide devices.
+
+this package includes the command line tool.

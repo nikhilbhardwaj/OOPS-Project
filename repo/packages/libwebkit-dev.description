@@ -1,0 +1,11 @@
+Web content engine library for gtk+ - development files
+	
+webkit is a web content engine, derived from khtml and kjs from kde, and
+used primarily in apple's safari browser.  it is made to be embedded in
+other applications, such as mail readers, or web browsers.
+
+it is able to display content such as html, svg, xml, and others. it also
+supports dom, xmlhttprequest, xslt, css, javascript/ecmascript and more.
+
+this package provides development files required to create gtk+ applications
+embedding webkit.

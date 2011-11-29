@@ -1,0 +1,5 @@
+Module for generating two- and three-dimensional plots
+	
+chart::gnuplot is a module to plot graphs using gnuplot. if an image format
+other than ps, pdf and eps is required to generate, imagemagick's convert
+program is needed.

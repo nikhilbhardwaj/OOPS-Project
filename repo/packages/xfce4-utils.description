@@ -1,0 +1,8 @@
+Various tools for xfce
+	
+this package contains xfrun4, xfterm4, xflock4, xfmountdev4, xfbrowser4,
+startxfce4, xfhelp4, xfce4-about, eight tools for xfce.  xfce is a desktop
+environment that uses the gtk+ library and isn't resource-hungry.
+
+if you want to use xfmountdev4, be sure to install thunar before because it's
+called by it.

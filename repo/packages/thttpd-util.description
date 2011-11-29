@@ -1,0 +1,9 @@
+Tiny/turbo/throttling http server (utilities)
+	
+thttpd is a small, fast secure webserver. it features cgi support,
+url-traffic-based throttling and basic authentication. thttpd has a very small
+memory footprint as it only forks itself in order to execute cgi scripts. it is
+designed to be as fast as fully featured web-servers and it performs extremely
+well under high load.
+
+this package contains various support utilities for thttpd web-server.

@@ -1,0 +1,21 @@
+Policy-compliant interface from invoke-rc.d to local config files
+	
+a script which is linked via the alternatives subsystem to
+/usr/sbin/update-rc.d. this script looks for a local policy-rc.d
+script in /usr/local and /etc, providing a policy- and fhs-compliant
+way to interface invoke-rc.d with a local script.
+
+without this package, a local admin wanting to cleanly interface with
+invoke-rc.d is forced to drop a local binary to /usr/sbin and/or
+manually interface with the alternatives system. both ways of doing
+this are clumsy and error-prone, so this package offers a clean way of
+interfacing with sysvrc and file-rc.
+
+since there are at least two packages containing their own version of
+invoke-rc.d, having a search path policy for policy-rc.d can be
+messy and is prone to be unstructured and uncoordinated.
+
+hence, having a dedicated package is the clean way of doing things.
+
+this package has its upstream sources maintained in the debian
+project, so there is no upstream url.

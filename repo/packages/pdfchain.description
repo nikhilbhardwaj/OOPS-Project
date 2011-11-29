@@ -1,0 +1,7 @@
+A graphical user interface for the pdf tool kit
+	
+the package includes features designed to handle pdf files in a easy
+way. basically it can merge, split, add backgrounds or stamps and add
+attachments. there are some tools for extended needs, too.
+
+the gui is written in gtkmm, a c++ library for gtk+.

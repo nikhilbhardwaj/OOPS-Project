@@ -1,0 +1,11 @@
+Whois client interface for perl5
+	
+the net::xwhois class provides a generic client framework for doing
+whois queries and parsing server response.
+
+one of the more important goals of this module is to enable the
+design of consistent and predictable interfaces to incompatible
+whois response formats. the whois rfc (954) does not define a
+template for presenting server data; consequently there is a large
+variation in layout styles as well as content served across
+servers.

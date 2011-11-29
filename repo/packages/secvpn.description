@@ -1,0 +1,7 @@
+Secure virtual private network
+	
+secvpn builds a vpn based on ssh and ppp as described
+in the linux vpn howto. (please look there for further
+information) all necessary routing on the secvpn
+hosts will be done by secvpn. secvpn will try to
+reestablish broken connections automatically.

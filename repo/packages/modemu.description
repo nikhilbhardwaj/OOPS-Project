@@ -1,0 +1,8 @@
+Telnet services for communication programs
+	
+modemu is a program that lets you telnet to remote sites using
+any standard communications program such as minicom or seyon.
+it emulates a modem, including options for 8-bit clean mode so
+one can use zmodem or kermit over a telnet connection.
+
+it can also be used for other tasks, such as uucp over telnet.

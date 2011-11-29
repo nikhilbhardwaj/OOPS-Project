@@ -1,0 +1,13 @@
+Text to html converter
+	
+txt2html is a perl program that converts plain text to html.
+
+it supports headings, lists, simple character markup, and hyperlinking, and is
+highly customizable. it recognizes some of the apparent structure of the
+source document (mostly whitespace and typographic layout), and attempts to
+mark that structure explicitly using html.
+
+the purpose for this tool is to provide an easier way of converting existing
+text documents to html format, giving something nicer than just whapping the
+text into a big pre block. txt2html can also be used to aid in writing new
+html documents, but there are probably better ways of doing that.

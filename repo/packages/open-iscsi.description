@@ -1,0 +1,18 @@
+High performance, transport independent iscsi implementation
+	
+open-iscsi is a high-performance, transport independent, multi-platform
+implementation of rfc3720 iscsi
+
+open-iscsi is partitioned into user and kernel parts where the kernel
+portion implements iscsi data path (i.e. iscsi read and iscsi write)
+the userspace contains the entire control plane consisting of:
+
+ * configuration manager
+ * iscsi discovery, login and logout processing
+ * connection level error processing
+ * nop-in and nop-out handling
+ * text processing, isns, slp, radius et cetera (future)
+
+
+the userspace component consists of a daemon, iscsid and a management
+utility, iscsiadm

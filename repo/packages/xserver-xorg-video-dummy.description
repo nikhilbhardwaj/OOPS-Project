@@ -1,0 +1,9 @@
+X.org x server -- dummy display driver
+	
+this package provides a 'dummy' display driver, which does not actually
+display anything.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-dummy driver module.

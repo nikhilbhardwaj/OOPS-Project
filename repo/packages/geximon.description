@@ -1,0 +1,7 @@
+A monitor for the exim mta
+	
+geximon is a gtk2 reimplementation of eximon, an x monitor for
+the exim mail transport agent. it has all features of the original
+(tracking the log, managing the mail queue, plotting, etc.) and more. it
+also integrates with exiwhat (allowing you to manage active exim instances),
+exigrep, and eximstats. the interface is intuitive, compact, and easy to use.

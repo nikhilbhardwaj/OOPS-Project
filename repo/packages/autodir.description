@@ -1,0 +1,11 @@
+Automatically creates home and group directories for ldap/nis/sql/local accounts
+	
+a modular and thread-enabled tool to create and/or mounting and managing
+automagically and transparently user/group home directories, on demand.
+
+it can work with any authentication framework (e.g. system files, nis, ldap or sql)
+and does not require pam, which is a required feature for session-less service
+such as smtp servers.
+
+automounter version 4 (autofs4) has to be enabled when compiling the kernel.
+debian packaged kernels have it enabled as module.

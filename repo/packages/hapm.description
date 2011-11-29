@@ -1,0 +1,11 @@
+Light and fast high availability port monitor
+	
+high availability port monitor (hapm) is an application to check the local
+ports status. it is a simple, light and fast daemon to check tcp/udp ports.
+
+hapm works with heartbeat daemon. heartbeat is an essential element used
+in high availability projects.
+
+if one or more monitored ports (per ip) go down then the primary
+heartbeat will be killed by hapm and the secondary host will take over
+virtual ip.

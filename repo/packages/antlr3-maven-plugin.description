@@ -1,0 +1,9 @@
+Maven plugin for antlr 3
+	
+antlr, another tool for language recognition, (formerly pccts) is
+a language tool that provides a framework for constructing recognizers,
+compilers, and translators from grammatical descriptions containing c++
+or java actions [you can use pccts 1.xx to generate c-based parsers].
+
+this package provides the maven plugin that allow to compile antlr 3
+grammars during a maven build

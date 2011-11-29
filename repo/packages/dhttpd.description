@@ -1,0 +1,16 @@
+Minimal secure webserver without cgi-bin support
+	
+dhttpd just serve static pages. the only add-ons is the ability to lookup
+hosts for logging purposes.
+for production website, something like thttpd would be a better bet.
+
+doesn't run external programs (no cgi-bin support), so
+this webserver cannot be easily hacked:
+
+  * does not need a permanent ip address.
+  * memory efficient.
+  * low profile.
+  * quick.
+  * just transfers files.
+  * can be run from a user account on high ports.
+  * no configuration necessary. it just works.

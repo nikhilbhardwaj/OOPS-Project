@@ -1,0 +1,11 @@
+Control the dpi setting and thumb buttons of a hama slide s1 gaming mouse
+	
+this command-line program allows you to control a hama slide s1 mouse
+connected to the usb port. you can switch between its three modes:
+either thumb button 1 and the scroll wheel select the dpi setting, or a
+fixed dpi setting is used, or the two thumb buttons toggle between two
+dpi settings. the colour of the mouse changes according to the current
+setting. this package also aids you in configuring udev to apply your
+favourite settings whenever the mouse is plugged in or the machine boots.
+
+homepage: http://atterer.net/hama-slide-mouse-control/

@@ -1,0 +1,6 @@
+Tools for internationalizing python applications
+	
+babel is composed of two major parts. first tools to build and work with
+gettext message catalogs. second a python interface to the cldr (common
+locale data repository), providing access to various locale display
+names, localized number and date formatting, etc.

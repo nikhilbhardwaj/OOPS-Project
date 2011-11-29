@@ -1,0 +1,10 @@
+A ruby class to use html templates
+	
+this implements a html::template class similar to perl's one. its
+main goal is to implement a complete selectivity between design
+and logic easily. the html files are known as templates with
+prospective variables to be replaced by their values by the ruby
+cgi script. also, you can deal with a nested block, a loop and a
+conditional expression.
+
+the url for this project is http://shebang.jp/src/ruby/

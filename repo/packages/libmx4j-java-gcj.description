@@ -1,0 +1,10 @@
+An open source implementation of the jmx(tm) technology (native code)
+	
+jmx defines the architecture, the patterns , the api and services to
+build manageable java applications. it provide flexible framework to
+stop and restart services, and remove it from the application or to add
+it to an application, to change its configuration files, to ask it to
+do some operation (such as downloading information from an url the
+system administrator passes in), and so on.
+
+this package contains the natively compiled code for use by gij.

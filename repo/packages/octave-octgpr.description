@@ -1,0 +1,8 @@
+Functions to smooth and interpolate scattered data in octave
+	
+this package provides functions to smooth and interpolate scattered
+multidimensional data in octave, a numerical computation software.
+it contains two functions, one for training (building statistical
+models) and one for prediction (inference).
+
+this octave add-on package is part of the octave-forge project.

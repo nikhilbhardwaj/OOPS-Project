@@ -1,0 +1,4 @@
+Displays directory tree, in color
+	
+displays an indented directory tree, using the same color assignments as
+ls, via the ls_colors environment variable.

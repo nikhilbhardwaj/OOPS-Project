@@ -1,0 +1,8 @@
+Ruby binding for the evolution mail client
+	
+revolution is a little ruby binding to the excellent evolution email
+client. at the moment it supports simple querying of the calendar,
+task, and contact information, and minimal editing.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

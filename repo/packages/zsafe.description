@@ -1,0 +1,14 @@
+Password manager with encryption
+	
+zsafe is a password manager.  passwords can be stored into user defined
+categories. the password file will be encrypted by using a secure rc2
+mechanism.
+
+zsafe makes a fine standalone application with features such as import
+and export, encrypted storage, etc.
+
+but one of the added benefits is that it is built from the same source
+code as the zsafe program for the sharp zaurus line of pdas.  thus,
+you can use the same program and work with the same files on your
+desktop as you can on your pda.  this program uses the same on-disk
+format as the zaurus version.

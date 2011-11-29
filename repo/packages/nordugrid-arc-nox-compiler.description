@@ -1,0 +1,10 @@
+Arc compiler service
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced resource
+connector (arc).
+
+the purpose of this service is to provide compilation capability on the
+remote site utilizing its full cpu capacity for parallel compilation
+tasks. the service presumes that the compilation task is described in a
+usual make file. the current implementation supports gnu compilers only.

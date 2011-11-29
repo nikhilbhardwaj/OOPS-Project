@@ -1,0 +1,7 @@
+Mouse device autodetection tool
+	
+mdetect is a tool for autoconfiguring mice; it is typically used as the
+backend to some user-friendly frontend code.  mdetect writes the autodetected
+mouse device and protocol (as used by gpm) to standard output.  it can be
+invoked so as to produce output appropriate for xfree86 x server
+configuration files.

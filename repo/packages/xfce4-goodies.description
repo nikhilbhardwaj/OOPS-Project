@@ -1,0 +1,69 @@
+Enhancements for the xfce4 desktop environment
+	
+the "goodies for xfce" project includes additional software and artwork that
+are related to the xfce desktop, but not part of the official release.
+
+this package will install the following xfce4 related plugins:
+
+  * extra artwork (xfce4-artwork)
+  * battery levels monitor (xfce4-battery-plugin)
+  * clipboard history (xfce4-clipman-plugin)
+  * cpu frequency management plugin (xfce4-cpufreq-plugin)
+  * cpu utilisation graphs (xfce4-cpugraph-plugin)
+  * date and time plugin (xfce4-datetime-plugin)
+  * disk performance display (xfce4-diskperf-plugin)
+  * filesystem monitor (xfce4-fsguard-plugin)
+  * generic monitor, for displaying any command result (xfce4-genmon-plugin)
+  * mail watcher (xfce4-mailwatch-plugin)
+  * mount plugin (xfce4-mount-plugin)
+  * network load monitor (xfce4-netload-plugin)
+  * notes plugin (xfce4-notes-plugin)
+  * quick access to bookmarked folders, recent documents and removable
+    media (xfce4-places-plugin)
+  * tiny launchers (xfce4-quicklaunchers)
+  * sensors plugin, frontend to lm-sensors (xfce4-sensors-plugin)
+  * smartbookmarks plugin (xfce4-smartbookmark-plugin)
+  * system load monitor (xfce4-systemload-plugin)
+  * timer plugin (xfce4-timer-plugin)
+  * command line with history (xfce4-verve-plugin)
+  * wireless lan monitor (xfce4-wavelan-plugin)
+  * weather monitor (xfce4-weather-plugin)
+  * keyboard configuration (xfce4-xkb-plugin)
+  * archive management for thunar (thunar-archive-plugin)
+  * media tags editor for thunar (thunar-media-tags-plugin)
+
+
+it'll install some standalone applications too:
+
+  * tiny text editor (mousepad)
+  * images viewer (ristretto)
+  * archive manager (squeeze)
+  * cd/dvd burner (xfburn)
+  * frontend to dictionnaries (xfce4-dict)
+  * notification daemon (xfce4-notifyd)
+  * tool to take screenshots (xfce4-screenshooter)
+  * task manager (xfce4-taskmanager)
+  * terminal emulator (xfce4-terminal)
+
+
+some packages are only suggested because they bring too much dependencies,
+but you may find them interesting:
+
+  * cellular modem plugin (xfce4-cellmodem-plugin)
+  * search plugin, frontend to locate (xfce4-linelight-plugin)
+  * dbus messaging plugin (xfce4-messenger-plugin)
+  * another commandline plugin (xfce4-minicmd-plugin)
+  * frontends to mpd (xfce4-mpc-plugin, xfmpc)
+  * radio plugin (xfce4-radio-plugin))
+  * gnome applet plugin (xfce4-xfapplet-plugin)
+  * fast-user switching plugin (xfswitch-plugin)
+  * thinkpads hdaps plugin (xfce4-hdaps)
+  * additional thumbnailer for thunar (thunar-thumbnailers)
+  * gio/gvfs frontend to manage connections to remote filesystems (gigolo)
+  * media player (xfmedia)
+  * power manager (xfce4-power-manager)
+
+
+this is a metapackage to ease upgrades, installations, and provide a
+consistent upgrade path from previous versions. it can safely be removed with
+no ill effects.

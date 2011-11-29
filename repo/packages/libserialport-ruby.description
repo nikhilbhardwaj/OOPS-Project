@@ -1,0 +1,7 @@
+Library to control rs-232 serial ports from ruby programs
+	
+this library provides an api to control rs-232 serial ports, and check and set
+the current statie of the signals on the line.
+
+this is a dependency package which depends on debian's default version of ruby
+(currently 1.8).

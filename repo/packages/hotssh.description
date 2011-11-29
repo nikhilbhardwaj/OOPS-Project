@@ -1,0 +1,12 @@
+Graphical interface to secure shell
+	
+hotssh is an interface to secure shell, for gnome and openssh.
+it intends to be a better experience than simply invoking "ssh"
+from an existing terminal window.
+features:
+
+  * fast search-based interface for new connections
+  * also display and search of local (avahi) ssh servers
+  * tabbed display with automatic session saving
+  * close integration with openssh features like connection sharing
+  * networkmanager integration to easily reconnect after a network change

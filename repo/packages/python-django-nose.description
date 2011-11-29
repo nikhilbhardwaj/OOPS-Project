@@ -1,0 +1,4 @@
+Django test runner that uses python-nose
+	
+python-django-nose integrates python-nose into django test runner by
+extending the django management cli with nose-related options.

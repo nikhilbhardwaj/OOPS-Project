@@ -1,0 +1,12 @@
+A sophisticated reminder service
+	
+remind allows you to remind yourself of upcoming events and
+appointments.  each reminder or alarm can consist of a message sent
+to standard output, or a program to be executed.
+
+it also features: sophisticated date calculation, moon phases,
+sunrise/sunset, hebrew calendar, alarms, postscript output, tcl/tk
+front-end and proper handling of holidays.
+
+reminders can be created by the remind scripting language or by using
+the graphical frontend package "tkremind".

@@ -1,0 +1,9 @@
+Server and game logic for the game openarena
+	
+openarena is an open-source content package for ioquake3 licensed under the
+gpl, effectively creating a free stand-alone game. though openarena is a free
+replacement for id software inc.'s quake 3 arena, it is not compatible with
+the proprietary game!
+
+this package installs the openarena dedicated server, and the game logic files
+needed by both the client and the server.

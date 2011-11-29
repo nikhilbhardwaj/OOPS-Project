@@ -1,0 +1,8 @@
+Emacs support for the gnu octave language (3.2 branch)
+	
+octave is a (mostly matlab (r) compatible) high-level language, primarily
+intended for numerical computations. it provides a convenient command-line
+interface for solving linear and nonlinear problems numerically.
+
+this package provides the elisp files for the octave modes for gnu emacs
+and xemacs.

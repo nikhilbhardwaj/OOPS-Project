@@ -1,0 +1,6 @@
+Ethernet/fddi station activity monitor
+	
+arpwatch maintains a database of ethernet mac addresses seen on the
+network, with their associated ip pairs.  alerts the system administrator
+via e-mail if any change happens, such as new station/activity,
+flip-flops, changed and re-used old addresses.

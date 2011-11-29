@@ -1,0 +1,9 @@
+The ladr deduction library, development files
+	
+ladr (library for automated deduction research) is a library for
+use in constructing theorem provers.  among other useful routines it
+provides facilities for applying inference rules such as resolution
+and paramodulation to clauses.  ladr is used by the prover9 theorem
+prover, and by the mace4 countermodel generator.
+
+this package provides development support files for ladr.

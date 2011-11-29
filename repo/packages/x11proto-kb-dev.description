@@ -1,0 +1,14 @@
+X11 xkb extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for the xkeyboard extension, used to control all manner of options
+related to keyboard handling and layout in particular.
+it does not control the addition/enabling/disabling of keyboards;
+this is done with the xinput extension.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org kbproto proto module.

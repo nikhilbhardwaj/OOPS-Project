@@ -1,0 +1,11 @@
+Pcmanx plugin for mozilla based browser
+	
+this plugin adds support for telnet:// protocol to your mozilla based
+browser. the protocol engine is done by pcmanx and the output window
+is embedded in a webpage in the browser window.
+
+pcman x is a newly developed gpl'd version of pcman, a full-featured
+famous bbs client. it aimed to be an easy-to-use yet full-featured telnet
+client facilitating bbs browsing with the ability to process double-byte
+characters. some handy functions like tabbed-browsing, auto-login and
+a built-in ansi editor enabling colored text editing are also provided.

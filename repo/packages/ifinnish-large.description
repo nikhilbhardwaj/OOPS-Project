@@ -1,0 +1,14 @@
+A large finnish dictionary for ispell
+	
+this is a large version of the finnish dictionary, to
+be used with ispell to check and correct spelling in finnish texts.
+
+since ispell is not really good at spell checking the kind
+of languages such as finnish, this dictionary may not be
+as useful as the dictionaries for other languages.
+
+this dictionary recognizes over 6 million words and word forms.
+ispell requires about 19 megabytes of memory when using this dictionary.
+most users may find it more worthwhile to use either the ifinnish package
+or the ifinnish-small package.  however, there are cases where the size of
+this dictionary is definitely a good thing.

@@ -1,0 +1,6 @@
+Fdisk partition manipulation tool for powerpc
+	
+the fdisk utilities from the mklinux project, adopted for linux/ppc.
+pmac-fdisk allows you to create and edit the partition table of a disk.
+it supports the pc partition format as used on powerpc. it is an
+interactive tool similar to pc fdisk.

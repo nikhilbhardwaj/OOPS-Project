@@ -1,0 +1,6 @@
+Perl interface to ogg vorbis information and comments
+	
+this package provides the module ogg::vorbis::header. this module
+presents an object-oriented interface to ogg vorbis files which
+allows a user to view vorbis information and comments and to modify
+or add comments.

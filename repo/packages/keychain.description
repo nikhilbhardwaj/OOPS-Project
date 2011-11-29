@@ -1,0 +1,10 @@
+Key manager for openssh
+	
+keychain is an openssh key manager, typically run from ~/.bash_profile. when
+keychain is run, it checks for a running ssh-agent, otherwise it starts one.
+it saves the ssh-agent environment variables to ~/.keychain/\$\{hostname\}-sh,
+so that subsequent logins and non-interactive shells such as cron jobs can
+source the file and make passwordless ssh connections.  in addition, when
+keychain runs, it verifies that the key files specified on the command-line
+are known to ssh-agent, otherwise it loads them, prompting you for a password
+if necessary.

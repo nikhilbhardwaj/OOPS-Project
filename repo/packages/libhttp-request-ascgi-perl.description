@@ -1,0 +1,5 @@
+Module to setup a cgi environment from a http::request
+	
+http::request::ascgi is a perl module that provides a convenient mechanism
+for setting up a cgi environment using information from an http::request
+object.

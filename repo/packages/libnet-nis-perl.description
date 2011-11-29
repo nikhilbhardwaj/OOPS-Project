@@ -1,0 +1,5 @@
+Interface to sun's network information service
+	
+this is a snapshot release of the nis interface to perl 5.  there are
+three parts to the interface: the raw component (net::nis), the object-
+oriented component (net::nis::table), and the tied interface (net::nis)

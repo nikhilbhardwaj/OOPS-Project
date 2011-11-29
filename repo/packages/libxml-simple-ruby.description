@@ -1,0 +1,5 @@
+Simple ruby api for reading and writing xml
+	
+class xmlsimple offers an easy api to read and write xml. it is a ruby
+translation of grant mclean's perl module xml::simple.  simply put, it
+automatically converts xml documents into a ruby hash.

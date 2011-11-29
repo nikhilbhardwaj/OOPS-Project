@@ -1,0 +1,12 @@
+Perl framework to generate syntax highlighted code
+	
+syntax::highlight::engine::simple provides an easy way to create syntax
+highlighting modules for various languages. it generates html by marking up
+the input string with "span" tags according the given rules.
+
+new rules can be added using regular expressions, typically in a subclass,
+allowing this framework to be extended for new languages. it is a simple
+module, designed to be fast and does not require any external dependencies.
+
+the appearance of keywords or other tokens is easily changed using defined
+cascading style sheets (css) properties.

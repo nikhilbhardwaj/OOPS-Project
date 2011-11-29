@@ -1,0 +1,12 @@
+Next generation intrusion detection and prevention tool
+	
+suricata is a network intrusion detection system (ids). it is based on
+rules (and is fully compatible with snort rules) to detect a variety of
+attacks / probes by searching packet content.
+
+this new engine supports multi-threading, automatic protocol detection
+(ip, tcp, udp, icmp, http, tls, ftp and smb), gzip decompression, fast
+ip matching and coming soon hardware acceleration on cuda and opencl gpu
+cards.
+
+this version has inline (nfqueue) support enabled.

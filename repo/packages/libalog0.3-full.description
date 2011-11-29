@@ -1,0 +1,5 @@
+Logging framework for ada (full)
+	
+alog is a logging framework for ada and aims to be straight forward to use and
+easily extendable. alog full offers more facilities than alog base, notably
+smtp, postgresql and xmpp/jabber.

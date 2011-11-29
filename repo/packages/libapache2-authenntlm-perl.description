@@ -1,0 +1,21 @@
+Perform microsoft ntlm and basic user authentication
+	
+the purpose of this module is to perform a user authentication via microsoft's
+ntlm protocol. this protocol is supported by all versions of the internet
+explorer and is mainly useful for intranets. depending on your preferences
+setting ie will supply your windows logon credentials to the web server
+when the server asks for ntlm authentication. this saves the user to type in
+his/her password again.
+
+the ntlm protocol performs a challenge/response to exchange a random number
+(nonce) and get back a md4 hash, which is built from the user's password
+and the nonce. this makes sure that no password goes over the wire in plain
+text.
+
+the main advantage of the perl implementation is, that it can be easily
+extended to verify the user/password against other sources than a windows
+domain controller.
+
+the default implementation is to go to the domain controller for the given
+domain and verify the user. if you want to verify the user against another
+source, you can inherit from apache2::authenntlm and override it's methods.

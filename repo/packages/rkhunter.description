@@ -1,0 +1,18 @@
+Rootkit, backdoor, sniffer and exploit scanner
+	
+rootkit hunter scans systems for known and unknown rootkits,
+backdoors, sniffers and exploits.
+
+it checks for:
+
+ - md5 hash changes;
+ - files commonly created by rootkits;
+ - executables with anomalous file permissions;
+ - suspicious strings in kernel modules;
+ - hidden files in system directories;
+
+and can optionally scan within files.
+
+using rkhunter alone does not guarantee that a system is not
+compromised. running additional tests, such as chkrootkit, is
+recommended.

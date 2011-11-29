@@ -1,0 +1,4 @@
+Wrap subs with pre- and post-call hooks
+	
+hook::wrapsub enables intercepting a call to any named function; handlers may
+be added both before and after the call to the intercepted function.

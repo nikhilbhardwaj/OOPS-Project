@@ -1,0 +1,10 @@
+Context orientation for common lisp
+	
+contextl provides the common lisp object system with functionality
+for context orientation. it allows the definition of context-specific
+methods or class slots, so that methods act differently depending on
+the dynamic context they are executed in.
+
+it further allows developers to rebind places (e.g. slots of objects)
+dynamically using the "dletf" framework that has previously been
+present in aspectl.

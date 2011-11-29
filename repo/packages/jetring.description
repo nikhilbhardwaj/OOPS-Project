@@ -1,0 +1,11 @@
+Gpg keyring mantainance using changesets
+	
+jetring is a collection of tools that allow for gpg keyrings to be maintained
+using changesets. it was developed with the debian keyring in mind, and aims
+to solve the problem that a gpg keyring is a binary blob that's hard for
+multiple people to collaboratively edit.
+
+with jetring, changesets can be submitted, reviewed to see exactly what they
+will do, applied, and used to build a keyring. the origin of every change
+made to the keyring is available for auditing, and gpg signatures can be used
+to further secure things.

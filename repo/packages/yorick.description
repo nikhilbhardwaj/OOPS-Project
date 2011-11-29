@@ -1,0 +1,20 @@
+Interpreted language and scientific graphics
+	
+yorick is an interpreted programming language for:
+
+ * scientific simulations or calculations
+ * postprocessing or steering large simulation codes
+ * interactive scientific graphics
+ * reading, writing, and translating large files of numbers
+
+
+the language features a compact syntax for many common array
+operations, so it processes large arrays of numbers very quickly and
+efficiently.  superficially, yorick code resembles c code, but yorick
+variables are never explicitly declared and have a dynamic scoping
+similar to many lisp dialects.  the yorick language is designed to be
+typed interactively at a keyboard, as well as stored in files for
+later use.
+
+this package includes an emacs-based development environment, which
+you can launch by typing m-x yorick in emacs.

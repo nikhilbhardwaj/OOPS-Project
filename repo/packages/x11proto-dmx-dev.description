@@ -1,0 +1,13 @@
+X11 distributed multihead x extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for the dmx extension, used to set up a distributed multi-head environment
+with a single server acting as a gateway to multiple x servers on multiple
+machines.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org dmxproto proto module.

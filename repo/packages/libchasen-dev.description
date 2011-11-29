@@ -1,0 +1,6 @@
+A japanese morphological analysis system (libraries and headers)
+	
+you can use chasen library to put chasen's module into other programs.
+chasen is a morphological analysis system. it can segment and
+tokenize japanese text string, and can output with many additional
+information (pronunciation, semantic information, and others).

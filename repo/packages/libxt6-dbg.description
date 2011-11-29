@@ -1,0 +1,16 @@
+X11 toolkit intrinsics library (debug package)
+	
+libxt provides the x toolkit intrinsics, an abstract widget library upon
+which other toolkits are based.  xt is the basis for many toolkits, including
+the athena widgets (xaw), and lesstif (a motif implementation).
+
+this package contains the debug versions of the library found in libxt6.
+non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxt

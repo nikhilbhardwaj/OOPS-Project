@@ -1,0 +1,4 @@
+PackageId:30983
+Name:rstatd
+Version:4.0.1-4
+Deps:libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,netbase,openbsd-inetd,inet-superserver,inetutils-inetd,rlinetd,xinetd,portmap,rpcbind,update-inetd

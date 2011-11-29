@@ -1,0 +1,6 @@
+Full internationalization support for debconf
+	
+this package provides full internationalization for debconf, including
+translations into all available languages, support for using translated
+debconf templates, and support for proper display of multibyte character
+sets.

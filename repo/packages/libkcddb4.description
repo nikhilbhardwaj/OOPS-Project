@@ -1,0 +1,9 @@
+Cddb library for kde platform (runtime)
+	
+the kde compact disc database library provides an api for applications using
+the kde platform to fetch and submit audio cd information over the internet.
+
+this package also includes libkcompactdisc, which provides and api for
+handling audio cds.
+
+this package is part of the kde multimedia module.

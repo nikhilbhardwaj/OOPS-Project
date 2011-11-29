@@ -1,0 +1,11 @@
+Podcast aggregrator/downloader optimized for cron
+	
+podget is a simple podcast aggregator optimized for running as a scheduled
+background job (i.e. cron). it features support for downloading podcasts
+from rss & xml feeds, for sorting the files into folders &
+categories, for importing urls from itunes pcast files & opml lists
+automatic m3u & asx playlist creation, and automatic cleanup of old files.
+it also features automatic utf-16 conversion for podcasts hosted on ms
+windows servers.
+run podget once to install the users configuration files to $home/.podget,
+and then customize them there.

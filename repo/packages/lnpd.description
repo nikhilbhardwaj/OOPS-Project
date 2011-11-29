@@ -1,0 +1,11 @@
+Daemon for lnp communication with brickos
+	
+the lnpd package provides a daemon capable of being started at boot time
+that enables communication with a lego(r) mindstorms rcx which is running
+brickos. this package also provides a library so that you can build
+client programs which talk via lnp to applications running under brickos
+on the rcx.  see the examples provided.
+
+for posts to/from other users: http://lugnet.com/robotics/rcx/legos/
+
+(lego(r) is a trademark of the lego group of companies.)

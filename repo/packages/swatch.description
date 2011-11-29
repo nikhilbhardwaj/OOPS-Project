@@ -1,0 +1,13 @@
+Log file viewer with regexp matching, highlighting & hooks
+	
+swatch is designed to monitor system activity.  it reads a configuration
+file which contains pattern(s) to look for and action(s) to perform when
+each pattern is found.
+
+a typical action is echoing the matched line in a variety of colours and
+formats including reverse video, bold, underline, and normal, which swatch
+knows how to do internally.  other actions include sending mail or
+executing an arbitrary program on the line.
+
+swatch is written in perl and uses perl regular expressions for line
+matching.

@@ -1,0 +1,10 @@
+Python bindings to the asynchronous dns resolver library
+	
+this module provides a python binding to the adns asynchronous dns
+resolver library.
+
+the module provides a small wrapper adns that simply returns status
+codes as does the c library. it also provides a more python like
+interface adns that wraps status codes in proper exceptions.
+
+the package contains working examples in adns.py and dnsbl.py.

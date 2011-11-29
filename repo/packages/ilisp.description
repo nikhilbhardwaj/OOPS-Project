@@ -1,0 +1,6 @@
+Emacs interface to lisp implementations
+	
+ilisp is a powerful gnu emacs interface to many dialects of lisp,
+including lucid, allegro, harlequin lispworks, gcl, kcl, akcl, ecl,
+ibcl, and cmucl.  also some scheme implementations are supported as
+well as a preliminary version of xlisp/xlispstat.

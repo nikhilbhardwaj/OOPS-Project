@@ -1,0 +1,9 @@
+Development files for the libmlx4 driver
+	
+libmlx4 is a device-specific driver for mellanox connectx infiniband
+host channel adapters (hcas) for the libibverbs library.  this allows
+userspace processes to access mellanox hca hardware directly with
+low latency and low overhead.
+
+this package contains static versions of libmlx4 that may be linked
+directly to an application, which may be useful for debugging.

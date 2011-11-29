@@ -1,0 +1,5 @@
+System status server
+	
+rwhod is the server which maintains the database used by the rwho(1)
+and ruptime(1) programs.  its operation is predicated on the ability to
+broadcast messages on a network.

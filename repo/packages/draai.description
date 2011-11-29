@@ -1,0 +1,13 @@
+A command-line music player for mpd
+	
+draai is a wrapper around mpc, making playing music from the commandline more
+enjoyable.  mpc is a client for mpd, the music player daemon.  using draai,
+one can play an audiofile (ogg, mp3, whatever your mpd offers), play all
+files in a predefined playlist, view details on current, past and future
+playing songs, skip to the next song, etc.
+
+the interface is purely command-line.  no fancy gui's whatsoever.  draai
+consists of one zsh shell script, calling mpc.
+
+next to draai itself, the package installs some extra utilities for dealing
+with audio files.

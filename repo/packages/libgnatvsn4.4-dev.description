@@ -1,0 +1,7 @@
+Gnu ada compiler version library - development files
+	
+this library exports selected components of gnat, the gnu ada compiler, for use
+in other packages, most notably asis and asis-based packages.  it is licensed
+under the gnat-modified gpl, allowing to link proprietary programs with it.
+
+this package contains the development files and static library.

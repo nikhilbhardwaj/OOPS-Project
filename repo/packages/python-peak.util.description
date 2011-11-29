@@ -1,0 +1,19 @@
+Utilities from the python enterprise application kit
+	
+the python enterprise application kit (peak) is a set of python
+libraries to help develop large-scale python applications.
+
+peak includes libraries and frameworks to support: component
+integration, component configuration , document-driven testing,
+event-driven programming, storage management and persistence, domain
+modelling, and much more.
+
+this package provides a subset of utilities related to peak, and
+commonly found as dependencies for peak-based components. in
+particular, this package provides:
+
+
+ * addons - dynamic mixins with private attribute and methods
+ * bytecodeassembler - code object generation assembling bytecode
+ * extremes - absolute max and min values (pep 326 implementation)
+ * symboltype - symbol type, i.e., enumerations

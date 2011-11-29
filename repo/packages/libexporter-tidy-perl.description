@@ -1,0 +1,8 @@
+Another way of exporting symbols
+	
+exporter::tidy serves as an easy, clean alternative to
+exporter. unlike exporter, it is not subclassed, but it simply
+exports a custom import() into your namespace.
+
+with exporter::tidy, you don't need to use any package global
+in your module. even the subs you export can be lexically scoped.

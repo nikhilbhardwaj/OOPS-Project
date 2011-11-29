@@ -1,0 +1,6 @@
+Perl sax 2 xs extension to expat parser
+	
+xml::sax::expatxs is a direct xs extension to expat xml parser. it implements
+perl sax 2.1 interface. see http://perl-xml.sourceforge.net/perl-sax/ for
+perl sax api description. any deviations from the perl sax 2.1 specification
+are considered as bugs.

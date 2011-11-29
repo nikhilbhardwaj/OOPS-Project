@@ -1,0 +1,9 @@
+Lua procedural language for postgresql
+	
+pl/lua is an implementation of lua as a loadable procedural language for
+postgresql: with pl/lua you can use postgresql functions and triggers
+written in the lua programming language.
+
+it brings the power and simplicity of lua to postgresql, including:
+small memory footprint, simple syntax, lexical scoping, functions as
+first-class values, and coroutines for non-preemptive threading.

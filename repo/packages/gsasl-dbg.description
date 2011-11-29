@@ -1,0 +1,12 @@
+Gnu sasl debugging symbols
+	
+gnu sasl is an implementation of the simple authentication and
+security layer framework and a few common sasl mechanisms. sasl is
+used by network servers (e.g., imap, smtp) to request authentication
+from clients, and in clients to authenticate against servers.
+
+this package contains detached debugging information.  most people
+will not need this package.  it is provided primarily to provide a
+backtrace with names in a debugger, this makes it somewhat easier to
+interpret core dumps.  gdb will find this debug information
+automatically.

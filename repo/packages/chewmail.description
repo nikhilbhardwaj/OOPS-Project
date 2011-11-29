@@ -1,0 +1,5 @@
+Mail archiver for various mailbox formats
+	
+chewmail is a perl-based mail archiver. it uses mail::box so supports
+any mailbox format it does. it can filter messages into mbox's based
+on the message's date and other criteria.

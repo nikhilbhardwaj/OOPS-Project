@@ -1,0 +1,6 @@
+Python module for easy html-writing
+	
+forgethtml is a python module for writing html by building a tree
+from different classes, one pr. html element. this makes it possible
+to modify and create elements in a different order than they will end
+up in the final html output.

@@ -1,0 +1,9 @@
+A library for reading collins dictionaries
+	
+this library makes it easy for a program to read the dictionaries distributed
+by young digital planet (english-polish/polish-english and/or
+german-polish/polish-german).
+
+this package only contains the library, it does not contain the dictionary
+files. to use it, you need a copy of the dictionary from ydp and a program
+which can use this library (e.g. ydpdict).

@@ -1,0 +1,26 @@
+Gnu r routines for markov chain monte carlo model estimation
+	
+this is a set of routines for gnu r that implement various
+statistical and econometric models using markov chain monte carlo
+(mcmc) estimation, which allows "solving" models that would otherwise
+be intractable with traditional techniques, particularly problems in
+bayesian statistics (where one or more "priors" are used as part of
+the estimation procedure, instead of an assumption of ignorance about
+the "true" point estimates), although mcmc can also be used to solve
+frequentist statistical problems with uninformative priors.  mcmc
+techniques are also preferable over direct estimation in the presence
+of missing data.
+
+currently implemented are a number of ecological inference (ei)
+routines (for estimating individual-level attributes or behavior from
+aggregate data, such as electoral returns or census results), as well
+as models for traditional linear panel and cross-sectional data, some
+visualization routines for ei diagnostics, two item-response theory
+(or ideal-point estimation) models, metric, ordinal, and
+mixed-response factor analysis, and models for gaussian (linear) and
+poisson regression, logistic regression (or logit), and binary and
+ordinal-response probit models.
+
+the suggested packages (r-cran-bayesm, -eco, and -mnp) contain
+additional models that may also be useful for those interested in
+this package.

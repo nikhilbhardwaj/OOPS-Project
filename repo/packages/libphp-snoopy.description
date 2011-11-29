@@ -1,0 +1,19 @@
+Snoopy is a php class that simulates a web browser
+	
+it automates the task of retrieving web page content and posting forms,
+for example
+
+some of snoopy's features:
+
+
+ * easily fetch the contents of a web page
+ * easily fetch the text from a web page (strip html tags)
+ * easily fetch the links from a web page
+ * supports proxy hosts
+ * supports basic user/pass authentication
+ * supports setting user_agent, referer, cookies and header content
+ * supports browser redirects, and controlled depth of redirects
+ * expands fetched links to fully qualified urls (default)
+ * easily submit form data and retrieve the results
+ * supports following html frames (added v0.92)
+ * supports passing cookies on redirects (added v0.92)

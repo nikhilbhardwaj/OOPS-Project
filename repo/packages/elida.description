@@ -1,0 +1,8 @@
+Pbuilder mail interface
+	
+elida accepts the url of a .dsc file from the subject of a email
+message and downloads the rest of the files of the corresponding
+debian source package. if there is a previous version in debian,
+a diff between the old and new source packages is reported. it
+then runs pbuilder, piuparts, and lintian. the reports are
+compressed and emailed back to the user.

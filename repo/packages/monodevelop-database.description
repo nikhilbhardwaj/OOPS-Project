@@ -1,0 +1,13 @@
+Database plugin for monodevelop
+	
+monodevelop is a gnome ide primarily designed for c# and other .net
+languages.
+
+this package implements database features for monodevelop.
+
+the following rdbmss are supported:
+
+ * mysql
+ * postgresql
+ * sqlite
+ * micrsoft sql server

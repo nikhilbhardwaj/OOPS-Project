@@ -1,0 +1,12 @@
+Digital audio workstation (graphical gtk2 interface) [i686]
+	
+ardour is a multichannel hard disk recorder (hdr) and digital audio
+workstation (daw).  it can be used to control, record, edit and run
+complex audio setups. for more information see the description
+of the ardour package or <http://ardour.org/>.
+
+this package is optimized for i686 and will not run on
+subarchitectures that don't support features enabled in i686.
+it might fail with weird error sigills and other non-obvious failures.
+please refrain from filling bugs to the upstream author about this package
+that are not reproducible in the non-optimized package.

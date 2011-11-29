@@ -1,0 +1,18 @@
+Client for kgb (irc collaboration bot)
+	
+kgb is an irc bot, helping people work together by notifying an irc channel
+when a commit occures.
+
+it supports multiple repositories/irc channels and is fully configurable.
+
+this package contains the client-side program, kgb-client, which is supposed
+to be used as an hook in your version control system and sends the
+notifications to the kgb daemon.
+
+currently supported version control systems are:
+
+ * subversion
+ * git
+
+
+note that git support is provided by a separate package, kgb-client-git

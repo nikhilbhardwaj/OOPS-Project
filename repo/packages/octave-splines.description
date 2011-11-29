@@ -1,0 +1,9 @@
+Cubic spline functions for octave
+	
+this package provides functionality to work with additional cubic
+spline functions in octave.
+
+it contains functions to interpolate using cubic splines with various end
+conditions as well as fucntions for differentiating splines and plotting them.
+
+this octave add-on package is part of the octave-forge project.

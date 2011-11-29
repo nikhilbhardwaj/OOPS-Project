@@ -1,0 +1,24 @@
+Personal full text search package with a qt gui
+	
+this package is a personal full text search package is based on a very strong
+backend (xapian), for which it provides an easy to use and feature-rich
+interface.
+
+features:
+
+ * qt-based gui
+ * supports the following document types (and their compressed versions)
+  - natively: text, html, openoffice files, maildir and mailbox (mozilla and
+    icedove mail) with attachments, pidgin log files
+  - with external helpers:  pdf (pdftotext), postscript (ghostscript), msword
+    (antiword), excel, ppt (catdoc), rtf (unrtf)
+ * powerful query facilities, with boolean searches, phrases, filter on file
+   types and directory tree
+ * support for multiple charsets, internal processing and storage uses unicode
+   utf-8
+ * stemming performed at query time (can switch stemming language after
+   indexing)
+ * easy installation. no database daemon, web server or exotic language
+   necessary
+ * an indexer which runs either as a thread inside the gui or as an external,
+   cron'able program

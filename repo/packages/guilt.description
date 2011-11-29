@@ -1,0 +1,10 @@
+Quilt for git; similar to mercurial queues
+	
+guilt (git quilt) is a series of bash scripts which add a mercurial
+queues-like functionality and interface to git.  the one distinguishing
+feature from other quilt-like porcelains, is the format of the patches
+directory.
+
+all the information is stored as plain text - a series file and the
+patches (one per file). this easily lends itself to versioning the patches
+using any number of scms.

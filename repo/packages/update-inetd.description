@@ -1,0 +1,7 @@
+Inetd configuration file updater
+	
+this package provides a program used by other packages to
+automatically update /etc/inetd.conf, the configuration file shared
+by all implementations of the internet super-server.
+
+note that xinetd is not supported by this package.

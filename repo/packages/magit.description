@@ -1,0 +1,7 @@
+A emacs interface for git
+	
+with magit, you can inspect and modify your git repositories with
+emacs.  you can review and commit the changes you have made to the
+tracked files, for example, and you can browse the history of past
+changes.  there is support for cherry picking, reverting, merging,
+rebasing, and other common git operations.

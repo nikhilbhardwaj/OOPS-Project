@@ -1,0 +1,10 @@
+Posix functionality
+	
+this package gives you access to the set of operating system
+services standardised by posix 1003.1b (or the ieee portable
+operating system interface for computing environments -
+ieee std. 1003.1).
+
+the package is not supported under windows (except under cygwin).
+
+this is the version bundled with the interpreter.

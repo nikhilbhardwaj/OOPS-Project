@@ -1,0 +1,25 @@
+X server utilities
+	
+an x client is a program that interfaces with an x server (almost always via
+the x libraries), and thus with some input and output hardware like a
+graphics card, monitor, keyboard, and pointing device (such as a mouse).
+
+this package provides a miscellaneous assortment of x server utilities
+that ship with the x window system, including:
+
+ - iceauth, a tool for manipulating ice protocol authorization records;
+ - rgb;
+ - sessreg, a simple program for managing utmp/wtmp entries;
+ - xcmsdb, a device color characteristic utility for the x color management
+   system;
+ - xgamma, a tool for querying and setting a monitor's gamma correction;
+ - xhost, a very dangerous program that you should never use;
+ - xmodmap, a utility for modifying keymaps and pointer button mappings in x;
+ - xrandr, a command-line interface to the randr extension;
+ - xrdb, a tool to manage the x server resource database;
+ - xrefresh, a tool that forces a redraw of the x screen;
+ - xset, a tool for setting miscellaneous x server parameters;
+ - xsetmode and xsetpointer, tools for handling x input devices;
+ - xsetroot, a tool for tailoring the appearance of the root window;
+ - xstdcmap, a utility to selectively define standard colormap properties;
+ - xvidtune, a tool for customizing x server modelines for your monitor.

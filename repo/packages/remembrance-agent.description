@@ -1,0 +1,13 @@
+Emacs mode to help find relevant texts
+	
+the remembrance agent is one of the projects being developed by the mit
+media lab's software agents group.  given a collection of the user's
+accumulated email, usenet news articles, papers, saved html files and other
+text notes, it attempts to find those documents which are most relevant to
+the user's current context.  that is, it searches this collection of text
+for the documents which bear the highest word-for-word similarity to the
+text the user is currently editing, in the hope that they will also bear
+high conceptual similarity and thus be useful to the user's current work.
+these suggestions are continuously displayed in a small buffer at the
+bottom of the user's emacs buffer.  if a suggestion looks useful, the full
+text can be retrieved with a single command.

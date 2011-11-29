@@ -1,0 +1,11 @@
+Perl module that facilitates lightweight logging
+	
+the log::loglite class helps create simple logs for an
+application. the log::loglite object is created with a logging
+level. the default logging level is 5. after the log::loglite object
+is created, each call to the write method may write a new line in the
+log file. if the level of the message is lower or equal to the
+logging level, the message will be written to the log file. the
+format of the logging messages can be controlled by changing the
+template, and by defining a default message. the class uses the
+io::lockedfile class.

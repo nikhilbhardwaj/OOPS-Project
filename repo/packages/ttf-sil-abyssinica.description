@@ -1,0 +1,25 @@
+Smart unicode font for ethiopian and erythrean scripts (amharic et al.)
+	
+the ethiopic script is used for writing many of the languages of ethiopia
+and eritrea. ethiopic (u+1200..u+137f) was added to unicode 3.0. ethiopic
+supplement (u+1380..u+139f) and ethiopic extended (u+2d80..u+2ddf) were
+added to unicode 4.1. abyssinica sil supports all ethiopic characters which
+are in unicode including the unicode 4.1 extensions. some languages of
+ethiopia are not yet able to be fully represented in unicode and, where
+necessary, we have included non-unicode characters in the private use area.
+
+please read the documentation to see what ranges are supported
+and for more about the various features of the font.
+
+abyssinica sil is a truetype font with "smart font" capabilities added using
+the graphite, opentype(r), and aat font technologies. this means that
+complex typographic issues such as the placement of multiple diacritics or
+the formation of ligatures are handled by the font, provided you are
+running an application that provides an adequate level of support for one
+of these smart font technologies.
+
+this release is a regular typeface, with no bold or italic version
+available or planned.
+
+extended sources (fontlab .vfb, graphite .gdl and volt .vtg/.vtp) are available
+in the source package and on the project website.

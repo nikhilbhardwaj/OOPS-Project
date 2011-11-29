@@ -1,0 +1,9 @@
+Daap client implemented in python
+	
+pythondaap is a (under development) daap client implemented in python, and
+based on pytunes by davyd madeley.
+
+pythondaap contains the authentication stuff needed by recent copies of itunes
+and a primitive object model that can download individual tracks.
+
+as of version 0.4, pythondaap has playlist support.

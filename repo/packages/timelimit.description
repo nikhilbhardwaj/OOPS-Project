@@ -1,0 +1,6 @@
+Simple utility to limit a process's absolute execution time
+	
+the timelimit utility executes a command and terminates the spawned process
+after a given time with a given signal.  a "warning" signal is sent first,
+then, after a timeout, a "kill" signal, similar to the way init(8) operates
+on shutdown.

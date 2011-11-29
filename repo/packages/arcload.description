@@ -1,0 +1,11 @@
+Bootloader for sgi/arcs machines
+	
+arc load was built to load any linux kernel on any sgi/arcs machine.
+
+supported platforms and machines:
+
+ o ip22: sgi indy, sgi indigo2, sgi challenge s
+ o ip27: sgi origin200 & origin2000
+ o ip28: sgi indigo2 r10000
+ o ip30: sgi octane, sgi octane2
+ o ip32: sgi o2

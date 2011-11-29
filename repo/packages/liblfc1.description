@@ -1,0 +1,5 @@
+Lcg file catalog (lfc)
+	
+the lcg file catalog (lfc) keeps track of the locations of the physical
+replicas of the logical files in a distributed storage system.
+this package contains the runtime lfc client library.

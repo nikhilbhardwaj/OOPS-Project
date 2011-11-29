@@ -1,0 +1,25 @@
+Large database of small groups for gap
+	
+gap is a system for computational discrete algebra with particular
+emphasis on computational group theory, but which has already proved
+useful also in other areas.   in the example text, gap is used to
+analyse rubik's cube using group theory.  a kernel implements a pascal-like
+language.
+
+the small groups library is a catalogue of groups of `small' order.
+this package contains the groups data and identification routines for groups
+
+
+  * of order at most 2000 except 1024.
+  * of cubefree order at most 50 000.
+  * of order p^n for n <= 6 and all primes p.
+  * of squarefree order.
+  * whose order factorises in at most 3 primes.
+  * of order q^n * p for q^n dividing 2^8, 3^6, 5^5, 7^4 and p prime
+    different to q
+
+
+the small groups library provides access to these groups and a method to
+identify the catalogue number of a given group.
+
+homepage: <http://www.gap-system.org/>

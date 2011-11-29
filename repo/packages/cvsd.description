@@ -1,0 +1,14 @@
+Chroot wrapper to run 'cvs pserver' more securely
+	
+cvsd is a wrapper program for cvs in pserver mode. it will run 'cvs pserver'
+under a special uid/gid in a chroot jail. cvsd is run as a daemon and is
+controlled through a configuration file. it is relatively easy to configure
+and provides tools for setting up a rootjail.
+
+this server can be useful if you want to run a public cvs pserver. you
+should however be aware of the security limitations of running a cvs
+pserver. if you want any kind of authentication you should really consider
+using secure shell as a secure authentication mechanism and transport.
+passwords used with cvs pserver are transmitted in plaintext.
+
+you should probably disable the pserver from the cvs package.

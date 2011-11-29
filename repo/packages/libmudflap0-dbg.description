@@ -1,0 +1,4 @@
+Gcc mudflap shared support libraries (debug symbols)
+	
+the libmudflap libraries are used by gcc for instrumenting pointer and array
+dereferencing operations.

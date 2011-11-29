@@ -1,0 +1,8 @@
+Ocaml line editor library
+	
+ledit is a line editor, allowing to use control commands like in emacs
+or in shells (bash, tcsh). to be used with interactive commands. it is
+written in ocaml and camlp4 and uses the library unix.cma.
+
+this package ships ledit as a development library, so that you can use
+it to build interactive programs with line editing capabilities.

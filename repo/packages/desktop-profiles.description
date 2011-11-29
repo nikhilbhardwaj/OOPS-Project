@@ -1,0 +1,17 @@
+Framework for setting up desktop profiles
+	
+the different desktop environments in debian all offer the possibility of
+customizing them through the use of profiles (sets of configuration and/or
+data files). usually it's also possible to stack configuration sets,
+combining the customizations provided by a number of profiles.
+
+this package offers a standard cross-desktop way of managing the conditional
+activation of available profiles. as such it is useful to both administrators
+(allowing different configurations for different sets of users) and cdd's
+(who want to have a configuration customized for a certain target group).
+
+this package currently supports setting up profiles for kde, gnome, rox,
+xfce (>=4.2), gnustep, ude, and freedesktop. freedesktop profiles allow
+you to do a (growing amount of) cross-desktop customization, while the
+other profile kinds allow you to customize the respective desktop environments
+to various degrees.

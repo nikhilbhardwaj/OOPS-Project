@@ -1,0 +1,14 @@
+A process server with telnet console and log access
+	
+procserv is a wrapper that starts an arbitrary command as a child process in
+the background, connecting its standard input and output to a tcp port for
+telnet access. it supports logging, child restart (manual or automatic on
+exit), and more.
+
+procserv does not have the rich feature set of the screen utility,
+but is intended to provide running a command in a system service style,
+in a small, robust way.
+handling multiple users, authorization, authentication, central logging
+is done best on a higher level, using a package like conserver.
+
+for security reasons, procserv only accepts connections from localhost.

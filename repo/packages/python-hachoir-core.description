@@ -1,0 +1,19 @@
+Core of hachoir framework: parse and edit binary files
+	
+hachoir is a python library used to represent of a binary file as a tree of
+python objects. each object has a type, a value, an address, etc. the goal is
+to be able to know the meaning of each bit in a file.
+
+why using slow python code instead of fast hardcoded c code? hachoir has many
+interresting features:
+
+ * autofix: hachoir is able to open invalid / truncated files
+ * lazy: open a file is very fast since no information is read from file,
+   data are read and/or computed when the user ask for it
+ * types: hachoir has many predefined field types (integer, bit, string, etc.)
+   and supports string with charset (iso-8859-1, utf-8, utf-16, ...)
+ * addresses and sizes are stored in bit, so flags are stored as classic fields
+ * endian: you have to set endian once, and then number are converted in the
+   right endian
+ * editor: using hachoir representation of data, you can edit, insert, remove
+   data and then save in a new file.

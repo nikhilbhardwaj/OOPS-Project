@@ -1,0 +1,6 @@
+Read/write buffer class for perl
+	
+data::buffer implements a low-level binary buffer in which you can get
+and put integers, strings, and other data. internally the implementation
+is based on pack and unpack, such that data::buffer is really a layer
+on top of those built-in functions.

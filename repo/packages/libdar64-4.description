@@ -1,0 +1,7 @@
+Disk archive: shared library
+	
+full featured archiver with support for differential backups, slices,
+compression, attr/acl support. dar also supports pipes for remote
+operations, including with ssh.
+
+this package contains the shared library for accessing archives.

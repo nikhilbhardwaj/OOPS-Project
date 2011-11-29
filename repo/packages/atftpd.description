@@ -1,0 +1,7 @@
+Advanced tftp server
+	
+multi-threaded tftp server implementing all options (option extension and
+multicast) as specified in rfc1350, rfc2090, rfc2347, rfc2348 and rfc2349.
+atftpd also supports multicast protocol known as mtftp, defined in the pxe
+specification. the server supports being started from inetd(8) as well as
+in daemon mode using init scripts.

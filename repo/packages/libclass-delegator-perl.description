@@ -1,0 +1,8 @@
+Perl module for a simple and fast object-oriented delegation
+	
+this module provides a subset of the functionality of damian conway's lovely
+class::delegation module.
+
+however the specification semantics of class::delegator differ slightly
+from those of class::delegation, so this module isn't a drop-in
+replacement for class::delegation.

@@ -1,0 +1,5 @@
+Module for xml support in aolsever4
+	
+this is an additional module for aolserver4 to support xml
+documents. the module wraps around the libxml2 library, starting with
+version 2.2.5.

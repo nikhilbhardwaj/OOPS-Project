@@ -1,0 +1,8 @@
+Porters stemming algorithm for denmark
+	
+the stem function takes a scalar as a parameter and stems the word
+according to martin porters danish stemming algorithm,
+which can be found at the snowball website: http://snowball.tartarus.org/.
+
+it also supports caching if you pass the use_cache option when constructing
+a new l:s:s:d object.

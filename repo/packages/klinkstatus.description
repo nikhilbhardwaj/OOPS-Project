@@ -1,0 +1,10 @@
+Web link validity checker
+	
+klinkstatus is kde's web link validity checker. it allows you to
+search internal and external links throughout your web site. simply
+point it to a single page and choose the depth to search.
+
+you can also check local files, or files over ftp:, fish: or any other
+kio protocols. for performance, links can be checked simultaneously.
+
+this package is part of kde web development module.

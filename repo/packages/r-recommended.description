@@ -1,0 +1,48 @@
+Gnu r collection of recommended packages [metapackage]
+	
+r is a system for statistical computation and graphics.  it consists
+of a language plus a run-time environment with graphics, a debugger,
+access to certain system functions, and the ability to run programs
+stored in script files.
+
+the design of r has been heavily influenced by two existing languages:
+becker, chambers & wilks' s and sussman's scheme.  whereas the
+resulting language is very similar in appearance to s, the underlying
+implementation and semantics are derived from scheme.
+
+the core of r is an interpreted computer language which allows
+branching and looping as well as modular programming using functions.
+most of the user-visible functions in r are written in r.  it is
+possible for the user to interface to procedures written in the
+c, c++, or fortran languages for efficiency, and many of r's core
+functions do so.  the r distribution contains functionality for a
+large number of statistical procedures and underlying applied math
+computations.  there is also a large set of functions which provide
+a flexible graphical environment for creating various kinds of data
+presentations.
+
+additionally, over thousand extension "packages" are available from
+cran, the comprehensive r archive network, many also as debian packages,
+named 'r-cran-<name>'.
+
+this debian package is now a metapackage that depends on a set of
+packages that are recommended by the upstream r core team as part of a
+complete r distribution, and distributed along with the source of r
+itself, as well as directly via the cran network of mirrors. this set
+comprises the following packages (listed in their upstream names):
+
+ - kernsmooth: functions for kernel smoothing for wand & jones (1995)
+ - matrix: classes and methods for dense and sparse matrices and
+   operations on them using lapack and suitesparse
+ - mass, class, nnet and spatial: packages from venables and ripley,
+   `modern applied statistics with s' (4th edition).
+ - boot: bootstrap r (s-plus) functions from the book "bootstrap methods
+   and their applications" by a.c. davison and d.v. hinkley (1997).
+ - cluster: functions for clustering (by rousseeuw et al.)
+ - codetools: code analysis tools for r
+ - foreign: read data stored by minitab, s, sas, spss, stata, ...
+ - lattice: implementation of trellis (r) graphics
+ - mgcv: multiple smoothing parameter estimation and gams by gcv
+ - nlme: linear and nonlinear mixed effects models
+ - rpart: recursive partitioning and regression trees
+ - survival: survival analysis, including penalised likelihood.

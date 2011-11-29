@@ -1,0 +1,12 @@
+Scientific plotting library (gd driver)
+	
+plplot is relatively small, portable, freely distributable, and is rich
+enough to satisfy most users.  it has a wide range of plot types including
+line (linear, log), contour, 3d, fill, and almost 1000 characters
+(including greek and mathematical) in its extended font set.  the package
+is designed to make it easy to quickly get graphical output; only a
+handful of function calls is typically required.  for more advanced use,
+virtually all aspects of plotting are configurable.
+
+this package provides the gd driver module for plplot. it allows the
+generation of png and jpeg files directly from plplot programs.

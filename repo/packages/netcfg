@@ -1,0 +1,4 @@
+PackageId:25328
+Name:netcfg
+Version:1.59
+Deps:ethernet-card-detection,ethdetect,s390-netdevice,freebsd-net-tools-udeb,isc-dhcp-client-udeb,libc0.1-udeb,libc6-udeb,libc6.1-udeb,libdebconfclient0-udeb,libdebian-installer4-udeb,libiw30-udeb

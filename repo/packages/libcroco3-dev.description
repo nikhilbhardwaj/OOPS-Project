@@ -1,0 +1,30 @@
+A generic cascading style sheet (css) parsing and manipulation toolkit
+	
+services provided by libcroco
+
+ * a parser module that provides
+   o a sac like api. sac stands for simple api for css. sac is an event driven
+     api wich resembles sax in the xml world.
+   o a cssom like api. cssom stands for cascading style sheet object model.
+
+
+
+   the libcroco parser implements the css level 2 specification, the css
+   forward compatibility rules and the css cascading rules.
+
+
+
+ * a css2 selection engine
+   given an xml element node (that obviously comes from an xml document) and
+   a stylesheet cascade, the libcroco selection engine can evaluate the css
+   selectors of the cascade and return the style properties associated to
+   the xml element node.
+
+
+
+   note that the xml manipulation toolkit used by the libcroco selection
+   engine at the moment is libxml2.
+
+
+this package contains the header files and static libraries which is
+needed for developing the gtk+ applications.

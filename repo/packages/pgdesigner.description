@@ -1,0 +1,17 @@
+Graphical database designer for postgresql
+	
+pgdesigner is a database design application for postgresql, for
+versions 7.x and 8.x.
+
+pgdesigner provides the following features:
+
+ * complete datamodel editor
+ * support for postgresql objects: tables, views, relations,
+   tablespaces, procedures, triggers, types, domains and sequences
+ * automatic updating of relations between tables.
+ * wizard for the construction of views.
+ * report generator, with statistics
+ * printing the diagram
+ * sql export
+ * creation of the database
+ * management of the project on a diagram chart

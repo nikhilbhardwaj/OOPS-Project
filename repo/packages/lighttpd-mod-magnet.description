@@ -1,0 +1,6 @@
+Control the request handling module for lighttpd
+	
+mod_magnet can attract a request in several stages in the request-handling.
+either at the same level as mod_rewrite, before any parsing of the url is done
+or at a later stage, when the doc-root is known and the physical-path is
+already setup

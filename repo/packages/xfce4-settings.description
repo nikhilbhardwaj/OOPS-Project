@@ -1,0 +1,15 @@
+Graphical application for managing xfce settings
+	
+xfce4-settings is the xfce settings manager front-end. it comes
+with several different components for configuring application-independent
+settings inside xfconf.
+it contains multiple tools:
+
+ - xfce4-settings-manager (which replaces the old mcs settings manager),
+   which executes the various (provided) settings dialogs
+ - xfce4-settings-helper: a daemon which provides special features, like
+   keyboard shortcuts,  accessx notification and update of keyboard and
+   mouse-pointer data
+ - xfce4-settings-editor, a tool for editing all settings within xfconf, the
+   graphical counterpart of xfconf-query.
+ - xfsettingsd, a daemon for exporting xsettings to applications.

@@ -1,0 +1,8 @@
+Pure perl multi-level hash/array dbm that supports transactions
+	
+dbm::deep is an unique flat-file database module, written in pure perl. true
+multi-level hash/array support (unlike mldbm, which is faked), hybrid oo /
+tie() interface, cross-platform ftpable files, acid transactions, and is quite
+fast. can handle millions of keys and unlimited levels without significant
+slow-down. written from the ground-up in pure perl -- this is not a wrapper
+around a c-based dbm.

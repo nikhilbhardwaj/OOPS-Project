@@ -1,0 +1,4 @@
+PackageId:1280
+Name:bootcd
+Version:3.23
+Deps:bootcd-i386,bootcd-hppa,bootcd-ia64,cpio,dosfstools,fdutils,file,genisoimage,realpath

@@ -1,0 +1,16 @@
+Apache2 module to get mime info from filesystem extended attributes
+	
+this is a module for the apache httpd 2.2 which may be used to set a range of
+mime properties of files served from a document tree with extended attributes
+(eas) as supported by the underlying file system. the current version of
+mod_mime_xattr has support for linux style eas which are supported by linux
+2.4 with the acl/ea patches applied and vanilla linux 2.6. the following
+attributes may be used:
+
+
+ - user.mime_type: set the mime type of a file explicitly. this attribute is
+   compatible with the shared mime database specification as published by
+   freedesktop.org.
+ - user.charset: set the charset used in a file.
+ - user.mime_encoding: set the mime encoding of a file (e.g. gzip).
+ - user.apache_handler: set the apache handler of a file explicitly.

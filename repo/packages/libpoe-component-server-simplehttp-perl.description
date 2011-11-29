@@ -1,0 +1,6 @@
+Simple http server for poe
+	
+poe::component::server::simplehttp is perl extension to easily serve http
+requests within the poe framework. it supports ssl and pre-forking if
+libpoe-component-sslify-perl and libipc-shareable-perl, respectively,
+are installed.

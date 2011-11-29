@@ -1,0 +1,9 @@
+Python-based spam filter using statistical analysis
+	
+spambayes uses a different set of algorithm to most statistical spam
+filters, which enables to dramatically lower the number of legitimate
+mail classified as spam, through the introduction of an 'unsure'
+category.
+
+spambayes can be used as a pop3 or an imap proxy, as well as a simple
+mail filter for use with procmail.

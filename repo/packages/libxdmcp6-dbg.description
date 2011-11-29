@@ -1,0 +1,15 @@
+X11 authorisation library (debug package)
+	
+this package provides the main interface to the x11 display manager control
+protocol library, which allows for remote logins to display managers.
+
+this package contains the debug versions of the library found in libxdmcp6.
+non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxdmcp

@@ -1,0 +1,4 @@
+PackageId:11495
+Name:libdebian-packages-compare-perl
+Version:2.2.7+i18n
+Deps:libparse-debcontrol-perl,libparse-debian-packages-perl,perl,libio-compress-zlib-perl,libio-compress-perl

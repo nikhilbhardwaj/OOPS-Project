@@ -1,0 +1,16 @@
+Versatile and intelligent list processor
+	
+smartlist is a mailing list manager built on top of the procmail
+mail processing package. some features:
+
+ * enough intelligence to overcome the ignorance of some subscribers
+   (will direct subscribe and unsubscribe requests away from the regular
+   list and automatically onto the -request address).
+ * no hardwired format for (un)subscribe requests (i.e. new subscribers
+   need not be educated, unsubscribing users do not need to remember any
+   particular syntax).
+ * intelligent automatic removal of addresses from the list that cause too
+   many bounces.
+ * duplicate submissions are eliminated automatically.
+ * you can set up a mailing list to function as a standalone mail archive
+   server.

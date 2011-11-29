@@ -1,0 +1,11 @@
+Ldap map support for postfix
+	
+postfix is wietse venema's mail transport agent that started life as an
+
+ alternative to the widely-used sendmail program.  postfix attempts to
+ be fast, easy to administer, and secure, while at the same time being
+ sendmail compatible enough to not upset existing users. thus, the outside
+ has a sendmail-ish flavor, but the inside is completely different.
+
+this provides support for ldap maps in postfix. if you plan to use ldap maps
+with postfix, you need this.

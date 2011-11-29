@@ -1,0 +1,5 @@
+Set of fast functions to convert between number bases
+	
+math::basecnv provides a few simple functions for converting between
+arbitrary number bases. it is as fast as the author currently knows
+how to make it (of course relying only on the lovely perl).

@@ -1,0 +1,24 @@
+Kolab cyrus mail system - common files
+	
+cyrus is an imap server designed to handle massive quantities of mail,
+with a number of features not found in other imap implementations,
+including support for:
+
+ - running the daemon without root privileges;
+ - pop3 in addition to plain imap;
+ - pop/imap-before-smtp using drac;
+ - secure imap using ssl;
+ - server-side filtering with sieve;
+ - mail users without login accounts;
+ - simple mail quotas;
+ - virtual domains;
+ - ipv6.
+
+
+cyrus doesn't support reading from and storing mail in the
+standard mail spool. it stores mail in a separate directory in its
+own mh-like format.
+
+this package contains the common files needed by the other cyrus
+components. the kolab-cyrus-imapd and/or kolab-cyrus-pop3d packages are needed
+to enable imap and pop3 support respectively.

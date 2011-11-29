@@ -1,0 +1,38 @@
+Gnu troff text-formatting system
+	
+this package contains optional components of the gnu troff text-formatting
+system. the core package, groff-base, contains the traditional tools like
+troff, nroff, tbl, eqn, and pic. this package contains additional devices
+and drivers for output to dvi, html (when the recommended packages
+ghostscript, netpbm, and psutils are installed), hp laserjet printers, and
+canon capsl lbp-4 and lbp-8 printers.
+
+the x75, x75-12, x100, and x100-12 devices, which allow groff output to be
+conveniently viewed on an x display using the standard x11 fonts, are now
+included here. they were previously in a separate package, groff-x11.
+
+besides these, the groff package contains man pages describing the language
+and its macro sets, info documentation, and a number of supplementary
+programs:
+
+
+ - gxditview, which is used to display the output of the x* devices, and
+   can also be used to view postscript output from groff;
+ - grn, a preprocessor for pictures in the 'gremlin' format;
+ - tfmtodit, which creates font files for use with 'groff -tdvi';
+ - hpftodit, which creates font files for use with 'groff -tlj4';
+ - afmtodit, which creates font files for use with 'groff -tps';
+ - refer, which preprocesses bibliographic references for use with groff;
+ - indxbib, which creates inverted indices for bibliographic databases used
+   by 'refer';
+ - lkbib and lookbib, which search bibliographic databases;
+ - addftinfo, which adds metric information to troff font files for use
+   with groff;
+ - pfbtops, which translates a postscript font in .pfb format to ascii for
+   use with groff;
+ - mmroff, a simple groff preprocessor which expands references in mm;
+ - pic2graph, which converts pic diagrams into cropped image files;
+ - eqn2graph, which converts eqn equations into cropped image files.
+
+
+all the standard macro packages are supported.

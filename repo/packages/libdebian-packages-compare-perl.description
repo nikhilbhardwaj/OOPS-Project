@@ -1,0 +1,8 @@
+Emdebian repository comparison support
+	
+parse packages and sources.gz files from a local repository,
+or set of local repositories, compare the source and binary
+versions and produce lists of packages that need to be
+updated in unstable or migrated into testing.
+
+used by emdebian-grip-server to identify packages needing updates.

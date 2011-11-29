@@ -1,0 +1,13 @@
+Apache2 module for non-ascii filename interoperability
+	
+this module improves non-ascii filename interoperability of
+apache (and mod_dav).
+
+it seems many webdav clients send filename in its platform-local
+encoding. but since mod_dav expects everything, even http request
+line, to be in utf-8, this causes an interoperability problem.
+
+i believe this is a future issue for specification (rfc?) to
+standardize encoding used in http request-line and http header,
+but life would be much easier if mod_dav (and others) can handle
+various encodings sent by clients, today. this module does just that.

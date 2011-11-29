@@ -1,0 +1,11 @@
+Html parser for java
+	
+this is a simple html scanner and tag balancer that enables
+application programmers to parse html documents and access the
+information using standard xml interfaces. the parser can scan html
+files and "fix up" many common mistakes that human (and computer)
+authors make in writing html documents. nekohtml adds missing parent
+elements; automatically closes elements with optional end tags; and
+can handle mismatched in-line element tags.
+
+this package provides the api documentation for nekohtml.

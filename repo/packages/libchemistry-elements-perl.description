@@ -1,0 +1,11 @@
+Perl extension for working with chemical elements
+	
+chemistry::elements provides an easy, object-oriented way to
+keep track of your chemical data.  using either the atomic
+number, chemical symbol, or element name you can construct
+an element object.  once you have an element object, you can
+associate your data with the object by making up your own
+methods, which the autoload function handles.  since each
+chemist is likely to want to use his or her own data, or
+data for some unforesee-able property, this module does not
+try to be a repository for chemical data.

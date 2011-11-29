@@ -1,0 +1,7 @@
+Module for automated testing for catalyst applications
+	
+test::www::mechanize::catalyst is a perl module that combines the well-known
+test::www::mechanize module with the power of catalyst. it allows developers
+to easily test their catalyst applications without starting up a web server;
+in fact, this module works by passing the http request object directly to
+catalyst.

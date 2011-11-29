@@ -1,0 +1,6 @@
+A library for performing common tasks related to par recovery sets
+	
+libpar2 allows for the generation, modification, verification,
+and repairation of par v1.0 and par v2.0(par2) recovery sets.
+it contains the basic functions needed for working with these
+sets and is the basis for gui applications such as gpar2.

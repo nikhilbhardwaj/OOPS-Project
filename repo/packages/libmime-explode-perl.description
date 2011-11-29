@@ -1,0 +1,6 @@
+Perl extension to explode mime messages
+	
+mime::explode is a perl module for parsing and decoding single or multipart
+mime messages, and outputting its decoded components to a given directory.
+the module is designed to allows users to extract the attached files
+out of a mime encoded email messages or mailboxes.

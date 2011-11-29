@@ -1,0 +1,8 @@
+Xjavadoc engine
+	
+the xjavadoc engine is a complete rewrite of sun's javadoc engine
+that is faster and more suited for xdoclet (although it is completely
+standalone). it scans java source code and makes information about a
+class available via special java beans that are part of the xjavadoc
+core. these beans provide the same information about a class as sun's
+javadoc api, and some nice extra features.

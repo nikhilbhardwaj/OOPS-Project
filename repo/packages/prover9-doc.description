@@ -1,0 +1,9 @@
+Documentation for prover9 and associated programs
+	
+prover9 is an automated theorem prover for first-order and equational
+logic. it is a successor of the otter prover.  prover9 uses the
+inference techniques of ordered resolution and paramodulation with
+literal selection.
+
+this package provides documentation for prover9, mace4 and other
+associated programs.

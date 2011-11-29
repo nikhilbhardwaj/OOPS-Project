@@ -1,0 +1,13 @@
+Experimental software for the icom ic-r5 receiver
+	
+tk5 is open source software designed for the  icom  ic-r5 receiver.
+the current version can:
+
+read a memory image from an ic-r5 receiver, an icf file, an ic5 file, or a
+native tr5 file.
+using a graphical interface, display data from a memory image and let a user
+change the limit search bank, television bank, and most other settings.
+import memory channel data from a csv (comma-separated values) file.
+export memory channel data to a csv file.
+enable a hidden 70-channel television bank.
+write the results back to the radio.

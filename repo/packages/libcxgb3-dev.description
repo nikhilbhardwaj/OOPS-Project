@@ -1,0 +1,9 @@
+Development files for the libcxgb3 driver
+	
+libcxgb3 is a device-specific driver for chelsio t3-based iwarp (rdma
+over ip/ethernet) adapters for the libibverbs library.  this allows
+userspace processes to access chelsio iwarp hardware directly with
+low latency and low overhead.
+
+this package contains static versions of libcxgb3 that may be linked
+directly to an application, which may be useful for debugging.

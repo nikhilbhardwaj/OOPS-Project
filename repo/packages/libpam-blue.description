@@ -1,0 +1,10 @@
+Pam module for local authenticaction with bluetooth devices
+	
+pam_blue is a dynamically loadable binary object for the pam security
+framework in linux. it is presented as an extension for the common pam
+modules, gives the user the ability for authenticate via a
+bluetooth-compatible device like a cell phone or other bluetooth
+dongles (e.g. epox-presenter). due to the fact that a whole part of
+the bluetooth stack is implemented in hardware-side it is relatively
+difficult to change the bluetooth hardware mac address which makes
+this module more secure.

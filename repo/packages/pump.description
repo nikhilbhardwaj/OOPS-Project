@@ -1,0 +1,14 @@
+Bootp and dhcp client for automatic ip configuration
+	
+this is the bootp/dhcp client written by redhat.
+
+dhcp (dynamic host configuration protocol) and bootp (boot protocol)
+are protocols which allow individual devices on an ip network to get
+their own network configuration information (ip address, subnetmask,
+broadcast address, etc.) from network servers. the overall purpose of
+dhcp and bootp is to make it easier to administer a large network.
+
+pump is a combined bootp and dhcp client daemon, which allows your
+machine to retrieve configuration information from a server. you
+should install this package if you are on a network which uses bootp
+or dhcp.

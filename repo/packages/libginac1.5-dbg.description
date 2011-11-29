@@ -1,0 +1,10 @@
+The ginac symbolic framework (debugging symbols)
+	
+ginac (which stands for "ginac is not a cas (computer algebra system)") is a
+library for doing symbolic (i.e. non-numeric) computation directly in the c++
+programming language.
+
+this package provides an unstripped shared library with debugging symbols. the
+library is installed in /usr/lib/debug and will be automatically used by
+gdb while debugging programs using the ginac library. most people will not
+need this package.

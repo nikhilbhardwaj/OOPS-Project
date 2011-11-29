@@ -1,0 +1,18 @@
+High-performance secure irc server
+	
+ircd-hybrid is a stable, high-performance irc server that features:
+
+
+ * if enabled, ssl client support and server-to-server rsa encryption.
+ * alternative connection methods like ziplinks (compressed)
+   and lazylinks (efficient protocol where not all channels are
+   synced in the initial burst).
+ * channel exceptions (+e) and invitation exceptions (+i).
+ * new configuration file format.
+ * halfops (+h) and anti-spam user mode +g.
+ * dynamically loadable modules.
+ * channel and nickname resv's (reservations).
+
+
+it is also the irc server of choice on the venerable efnet, although
+efnet also uses the ratbox, comstud, and the hybrid 6 ircds.

@@ -1,0 +1,11 @@
+Event logging framework
+	
+zeitgeist is a service which logs the user's activities and events (files
+opened, websites visited, conversations hold with other people, etc.) and
+makes the relevant information available to other applications.
+
+it serves as a comprehensive activity log and also makes it possible to
+determine relationships between items based on usage patterns.
+
+this metapackage depends on the zeitgeist engine and a set of packages
+(such as data providers) commonly used together with it.

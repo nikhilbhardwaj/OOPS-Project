@@ -1,0 +1,10 @@
+Global positioning system - qt wrapper for libgps
+	
+the gpsd service daemon can monitor one or more gps devices connected to
+a host computer, making all data on the location and movements of the
+sensors available to be queried on tcp port 2947.
+
+this package provides libqgpsmm, the qt version of libgpsmm.
+it is a wrapper over libgps, the service library for querying gps
+devices. libqgpsmm is available on all platforms which are supported
+by qt4.

@@ -1,0 +1,10 @@
+Object-oriented ogg vorbis decoder
+	
+ogg::vorbis::decoder provides users with decoder objects for ogg
+vorbis files.
+
+one can read data in pcm format from the stream, seek by raw bytes,
+pcm samples, or time, and gather decoding-specific information not
+provided by ogg::vorbis::header.  currently, no support is provided for
+the callback mechanism provided by the vorbisfile api; this may be
+included in future releases.

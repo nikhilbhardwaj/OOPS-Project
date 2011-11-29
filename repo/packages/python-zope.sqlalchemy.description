@@ -1,0 +1,4 @@
+Minimal zope/sqlalchemy transaction integration
+	
+the aim of this package is to unify the plethora of existing packages
+integrating sqlalchemy with zope's transaction management.

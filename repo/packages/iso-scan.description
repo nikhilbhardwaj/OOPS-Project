@@ -1,0 +1,4 @@
+Scan hard drives for an installer iso image
+	
+this udeb will try to find an installer iso image on a hard drive, and will
+mount it on /cdrom.

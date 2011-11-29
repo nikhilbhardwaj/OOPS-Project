@@ -1,0 +1,4 @@
+/dev/ and hotplug management daemon
+	
+udev is a daemon which dynamically creates and removes device nodes from
+/dev/, handles hotplug events and loads drivers at boot time.

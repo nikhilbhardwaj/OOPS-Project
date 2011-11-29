@@ -1,0 +1,9 @@
+Sundials documentation files
+	
+the family of solvers referred to as sundials (suit of nonlinear and
+differential/algebraic equation solvers) consists of solvers cvode
+(for ode systems), cvodes (ode with sensitivity analysis capabilities),
+ida (for differential-algebraic systems), and kinsol (for nonlinear
+algebraic systems).
+
+this package contains sundials documentation.

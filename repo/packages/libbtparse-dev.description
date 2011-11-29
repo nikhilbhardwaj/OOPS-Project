@@ -1,0 +1,10 @@
+A c library to parse bibtex files - development files
+	
+btparse is the c component of btool, a pair of libraries for parsing and
+processing bibtex files. it is built on top of a lexical analyzer and parser
+constructed using pccts. the library provides entry points to the parser,
+functions to traverse and query the abstract-syntax tree that it produces, and
+some functions for processing strings in "the bibtex way".
+
+this package contains the necessary symlinks, headers and object files needed
+develop applications using btparse.

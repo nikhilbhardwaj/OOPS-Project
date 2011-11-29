@@ -1,0 +1,8 @@
+Perl interface to lowlevel tcp/ip
+	
+net::rawip gives you the ability to create and manipulate arbitrary ip
+packages and fiddle around with every bit in the protocol header.
+
+this module is useful if you want to implement a "traceroute" or "ping" in
+perl or you just want to learn about tcp/ip protocol suite but are afraid of
+the c language.

@@ -1,0 +1,12 @@
+Author and publish projects using wiki-like markup
+	
+emacs muse is an authoring and publishing environment for emacs.  it
+simplifies the process of writings documents and publishing them to
+various output formats, such as docbook, latex, (x)html, texinfo, and
+pdf.  it can even produce content suitable for blogging, such as
+blosxom-style .txt files and rdf or rss 2.0 feeds, using the
+muse-blosxom and muse-journal modules.
+
+muse consists of two main parts: an enhanced text-mode for authoring
+documents and navigating within muse projects, and a set of publishing
+styles for generating different kinds of output.

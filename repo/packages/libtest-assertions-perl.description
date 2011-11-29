@@ -1,0 +1,9 @@
+Simple set of building blocks for unit and runtime testing
+	
+test::assertions provides a convenient set of tools for constructing tests,
+such as unit tests or run-time assertion checks (like c's assert macro).
+unlike some of the test:: modules available on cpan, test::assertions is
+not limited to unit test scripts; for example it can be used to check if
+output is as expected within a benchmarking script.
+when it is used for unit tests, it generates output in the standard form
+for cpan unit testing (under test::harness).

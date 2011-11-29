@@ -1,0 +1,38 @@
+Plugins for konqueror, the kde file/web/document browser
+	
+this package contains a variety of useful plugins for konqueror, the
+file manager, web browser and document viewer for kde.  many of these
+plugins will appear in konqueror's tools menu.
+
+web navigation plugins:
+
+ - akregator feed icon: allows to add a feed to akregator from konqueror
+ - auto refresh: refresh a webpage at a given rate
+ - bookmarklets: enables the use of bookmarklets, bookmarks containing
+   javascript code
+ - document relations: displays the document relations of a document
+ - dom tree viewer: view the dom tree of the current page
+ - khtml settings: fast way to change the javascript/images/cookies settings
+ - microformat icon: displays an icon in the statusbar if the page contains
+   a microformat
+ - search bar: launches web searches from the konqueror's toolbar
+ - translate: language translation for the current page using babelfish
+ - useragent changer: quick switch of the useragent used for the current site
+ - website validators: css and html validation tools
+ - web archiver: creates archives of websites
+ - crash manager: restores your opened tabs if konqueror crashes (disabled
+   by default as konqueror has this feature builtin)
+
+
+file management plugins:
+
+ - image gallery: an easy way to generate a html image gallery
+ - file size view (kpart): a proportional view of directories and files
+   based on file size
+ - transform image (service menu): rotate and flip images
+ - convert to (service menu): convert and image to another format
+ - directory filter (dolphin): filter directory views
+
+
+these plugins are not part of the official kde software compilation, they
+are a kde extragear software and may get out of sync with konqueror.

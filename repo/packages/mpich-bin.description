@@ -1,0 +1,10 @@
+Mpi parallel computing system implementation
+	
+mpich is a robust and flexible implementation of the mpi (message passing
+interface).  mpi is often used with parallel or distributed computing
+projects.  mpich is a multi-platform, configurable system (development,
+execution, libraries, etc) for mpi.  it can achieve parallelism using
+networked machines or using multitasking on a single machine.
+
+this version is compiled with ch_p4 support, which only requires installation
+on the master node, and starts up parallel tasks using rsh.

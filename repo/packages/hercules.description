@@ -1,0 +1,24 @@
+System/370, esa/390 and z/architecture emulator
+	
+hercules is an open source software implementation of the mainframe system/370
+and esa/390 architectures, in addition to the new 64-bit z/architecture.
+
+this means that your pc can emulate an ibm mainframe processor. the
+mainframe can range from a 360 to a z900 - running in "system/370"
+mode, "esa/390" mode, or "z/architecture" mode. hercules executes
+s/370, esa/390, and z/architecture instructions and channel
+programs. it emulates mainframe i/o devices by using pc devices. for
+example, 3390 dasd devices are emulated by large files on your hard
+disk, and local 3270 screens are emulated by tn3270 sessions.
+
+hercules implements only the raw s/370, esa/390, and z/architecture
+instruction set; it does not provide any operating system facilities. this
+means that you need to provide an operating system or standalone program which
+hercules can load from an emulated disk or tape device. you will have to use a
+free software operating system such as linux, write the operating system or
+standalone program yourself, obtain a license from ibm to run one of their
+operating systems on your pc, or use ibm programs and operating systems which
+have been placed in the public domain.
+
+virtual networking can be accomplished using the tun/tap driver in
+host linux kernel.

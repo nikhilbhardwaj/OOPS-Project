@@ -1,0 +1,16 @@
+Xml-rpc routines for perl-based cipux xml-rpc applications
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+cat is cipux administration tools.  two cats are provided officially
+with cipux:
+
+ - cipux-cat: generic web-based cat
+ - cipux-cat-moodle: cipux plugin for moodle
+
+these can be extended or replaced with custom tools.
+
+this package contains cipux::rpc, providing xml-rpc routines for the
+cipux xml-rpc server and for perl-based clients like cipux cat.

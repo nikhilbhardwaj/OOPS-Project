@@ -1,0 +1,12 @@
+Arc paul service
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced resource
+connector (arc).
+
+the paul is a pull-based execution service for computing resources. in
+these case the computing resource can be single smp computer. the paul
+uses the ibes protocol to communicate with scheduler services or any
+other service which implements ibes. the paul can interact with multiple
+scheduler and can controll multiple job in one time. paul can be used
+to run on desktops (ms windows as well) to form a 'desktop' grid.

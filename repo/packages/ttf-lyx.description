@@ -1,0 +1,17 @@
+Truetype versions of some tex fonts
+	
+these fonts are needed for the visual math symbol display in
+lyx. they can also be used to display mathml in gecko-based browsers
+like iceweasel.
+
+the following fonts are included in this package:
+
+ * cmex10  - computer modern math extension
+ * cmmi10  - computer modern math italic
+ * cmr10   - computer modern roman
+ * cmsy10  - computer modern math symbols
+ * esint10 - alternate integrals
+ * eufm10  - euler fraktur (medium-weight)
+ * msam10  - extra math symbols, first series
+ * msbm10  - extra math symbols, second series, including blackboard bold
+ * wasy10  - waldi symbol fonts

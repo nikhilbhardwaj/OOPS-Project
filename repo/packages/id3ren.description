@@ -1,0 +1,9 @@
+Id3 tagger and renamer
+	
+tool used to rename batches of mpeg3 files by reading the id3 tag at the
+end of the file which contains the song name, artist, album, year, and a
+comment.
+
+the secondary function of id3ren is a tagger, which can create, modify, or
+remove id3 tags. the id3 fields can be set on the command line, entered
+interactively, or "guessed" from the path and the filename.

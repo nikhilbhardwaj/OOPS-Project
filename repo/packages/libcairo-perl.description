@@ -1,0 +1,17 @@
+Perl interface to the cairo graphics library
+	
+libcairo-perl provides access to the cairo library.
+
+cairo is a 2d graphics library with support for multiple
+output devices. it is designed to produce consistent output
+on all output media while taking advantage of display hardware
+acceleration when available (eg. through the x render extension).
+
+the cairo api provides operations similar to the drawing
+operators of postscript and pdf. operations in cairo including
+stroking and filling cubic bézier splines, transforming and compositing
+translucent images, and antialiased text rendering. all drawing
+operations can be transformed by any affine transformation (scale,
+rotation, shear, etc.)
+
+find out more about cairo at http://www.cairographics.org/.

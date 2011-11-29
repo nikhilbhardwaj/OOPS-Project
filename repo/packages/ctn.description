@@ -1,0 +1,7 @@
+Central test node, a dicom implementation for medical imaging
+	
+dicom is the standard for image storage, annotation, and networking.
+it is used widely for medical imaging. the central test node software (ctn)
+provides an implementation of this standard.
+
+this package includes the binary and run-time configuration files for ctn.

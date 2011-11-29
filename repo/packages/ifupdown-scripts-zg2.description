@@ -1,0 +1,27 @@
+Zugschlus' interface scripts for ifupdown's manual method
+	
+this package contains a set of scripts that are called by ifupdown.
+they use ifupdown's manual method. compared to ifupdown's static
+method, the scripts contained in this package have the following
+advantages:
+
+ - cidr support
+ - support for 802.1q vlan tagging
+ - built-in handling of static routes
+
+additionally, the code needed to bring down an interface is generated
+on the fly when the interface is brought up. that way,
+/etc/network/interfaces changes made while the interface is up don't
+prevent it from being taken down, allowing "ifdown foo; ifup foo" to
+activate the changes.
+
+this package is work in progress. although being in productive use,
+it is still missing some features, especially regarding source
+routing, metrics etc. please feel free to provide patches.
+
+many of this package's features are implemented in other packages
+nowadays. however, some features (such as generation of shutdown
+code at interface init time) are still unique to this package.
+
+this package has its upstream sources maintained in the debian
+project, so there is no upstream url.

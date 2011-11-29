@@ -1,0 +1,13 @@
+Monitoring system for systems, networks and applications
+	
+xymon (previously called hobbit) is a network- and applications-
+monitoring system designed for use in large-scale networks. but it will
+also work just fine on a small network with just a few nodes. it is
+low-overhead and high-performance, with an easy to use web front-end.
+it handles monitoring of network services, and through client packages
+it can also be used to monitor server- specific items.  alerts can
+trigger when monitoring detects a problem, resulting in e-mails or
+calls to your pager or mobile phone.
+
+xymon has a great deal of inspiration from the non-free big brother
+package, but does not include any big brother code.

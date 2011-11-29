@@ -1,0 +1,10 @@
+Text-to-html conversion library/tool
+	
+markdown is a text-to-html conversion tool for web writers. markdown
+allows you to write using an easy-to-read, easy-to-write plain text
+format, then convert it to structurally valid xhtml (or html).
+
+this is a python implementation of john gruber's markdown. the current
+version of python-markdown implements all markdown syntax features and
+fully passes markdown test suite 1.0. it also supports footnotes and
+attributes.

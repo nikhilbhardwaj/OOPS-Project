@@ -1,0 +1,5 @@
+Interpret icmp messages
+	
+icmpinfo is a tool for looking at the icmp messages received on the running
+host.  it can be used to detect and record 'bombs' as well as various network
+problems.

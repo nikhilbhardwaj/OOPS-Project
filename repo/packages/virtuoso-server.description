@@ -1,0 +1,12 @@
+High-performance database - server dependency package
+	
+openlink virtuoso is a high-performance object-relational sql database.
+it provides transactions, a smart sql compiler, hot backup, sql:1999
+support, a powerful stored-procedure language supporting server-side
+java or .net, and more. it supports all major data-access interfaces,
+including odbc, jdbc, ado.net, and ole/db.
+
+this is an empty package depending on the current "best" version of the
+virtuoso server framework, as recommended by the maintainers (currently
+virtuoso-opensource-6.1). install this package if in doubt about
+which version you need.

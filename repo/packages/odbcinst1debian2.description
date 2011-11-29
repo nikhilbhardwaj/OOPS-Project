@@ -1,0 +1,11 @@
+Support library for accessing odbc ini files
+	
+this package contains the libodbcinst library from unixodbc, a library
+used by odbc drivers for reading their configuration settings from
+/etc/odbc.ini and ~/.odbc.ini.  it is useful to provide this in a
+stand-alone package, so that all odbc drivers in debian can use a
+consistent ini library, regardless of whether applications are built
+with iodbc or unixodbc.
+
+also contained in this package are the driver setup plugins, which
+describe the features supported by individual odbc drivers.

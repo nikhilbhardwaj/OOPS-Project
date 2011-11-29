@@ -1,0 +1,11 @@
+Rasqal rdf query library
+	
+rasqal is a c library providing support for querying the
+resource description framework (rdf) including
+parsing query syntaxes, constructing the queries, executing them,
+returning result bindings and formatting results.  it supports the
+sparql rdf query language, rdf data query language (rdql) and laqrs
+experimental query language extending sparql.
+
+rasqal is designed for performance, flexibility and embedding (no
+memory leaks) and to track ongoing rdf query language work.

@@ -1,0 +1,6 @@
+Euclidean geometry drawing language
+	
+eukleides is a language which allows one to typeset geometric figures
+within a (la)tex document.  this package includes scripts to convert
+these figures into eps and other formats.  eukleides uses a console
+interface.

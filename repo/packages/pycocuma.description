@@ -1,0 +1,10 @@
+Pythonic contact and customer management
+	
+pycocuma (pythonic contact and customer management) provides a personal
+information system for addresses, telephone numbers and other data associated
+with personal contacts (also supports photographic pictures).
+
+pycocuma is purely written in python with a tk graphical interface. pycocuma
+is based on an xml-rpc client-server architecture. the server stores its data
+in compatible vcard (ver. 3.0) files (*.vcf) which can be read by all modern
+address programs (evolution, kaddressbook, outlook, gnomecard, etc).

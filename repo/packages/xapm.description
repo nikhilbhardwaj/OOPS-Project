@@ -1,0 +1,9 @@
+X program to monitor apm battery status
+	
+on laptop computers, the advanced power management (apm) support
+provides access to battery status information and may help you to
+conserve battery power, depending on your laptop and the apm
+implementation.
+
+this package contains xapm(1), an x11 utility that displays the
+status of the battery.

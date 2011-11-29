@@ -1,0 +1,8 @@
+Model-view-controller (mvc) implementation for pygtk
+	
+this mvc for pygtk2 helps with writing well structured code by splitting the
+program's code into three distinctive sections. a program written using this
+mvc pattern usually contains four parts: the view (providing access to the
+glade widget tree), the controller (providing glue functions), the model
+(providing the abstract logic) and the main program (simply connecting the
+three parts mentioned before).

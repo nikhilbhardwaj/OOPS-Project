@@ -1,0 +1,8 @@
+Gnu r package providing multivariate normal and t distribution
+	
+this package provides functions for computing the density and the
+distribution function of, and for generating random vectors from the
+multivariate normal and multivariate t distributions.  it provides
+functions similar in scope to those of the package 'mvtnorm', but
+with some differences; one of these is that probabilities are
+computed via a non-monte carlo method.

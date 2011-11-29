@@ -1,0 +1,14 @@
+Ftp clients collection
+	
+ftpcopy is a simple ftp client written to copy files or directories
+(recursively) from an ftp server.  it was written to mirror ftp sites
+which support the eplf directory listing format, but it also supports
+the traditional listing format (/bin/ls).
+
+ftpls is an ftp client which generates directory listings, either in
+plain text or html.
+
+the tools only support passive mode ftp.  there is no plan to support
+active mode.
+
+see http://www.ohse.de/uwe/ftpcopy.html for more information.

@@ -1,0 +1,6 @@
+C/c++ compilation tasks for ant.
+	
+the cc task can compile various source languages and produce executables,
+shared libraries (aka dll's) and static libraries.
+compiler adaptors are currently  available for c/c++,
+fortran, midl and windows resource compilers.

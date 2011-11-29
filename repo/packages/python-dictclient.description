@@ -1,0 +1,9 @@
+Python client library for dict (rfc2229) protocol
+	
+this is a new library for interacting with dict servers.
+it defines three classes -- connection, database, and definition.
+it supports all common dict server requests, including definitions,
+matching, and getting information about available databases,
+capabilities, etc.  you can use it to communicate to a local
+or remote dictd database.  the homepage for this package (includes docs)
+is at gopher://quux.org/1/devel/dictclient.

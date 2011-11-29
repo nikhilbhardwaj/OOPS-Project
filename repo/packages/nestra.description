@@ -1,0 +1,8 @@
+Nintendo entertainment system emulator
+	
+nestra is a dynamic recompiler which translates 6502 code into native code
+to emulate a nintendo entertainment system. execution of the translated
+code is quite fast, and the emulator can run at full speed with relatively
+modest cpu requirements. however, there is no sound support.
+
+to use this program, you need nes roms which are not included.

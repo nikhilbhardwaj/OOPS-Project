@@ -1,0 +1,5 @@
+Implementation of the disk quota system
+	
+quota is implemented using the bsd system call interface as the means of
+communication with the user level. this is based on the melbourne quota
+system which uses both user and group quota files.

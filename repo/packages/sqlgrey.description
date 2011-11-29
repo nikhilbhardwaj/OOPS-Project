@@ -1,0 +1,6 @@
+Postfix greylisting policy server
+	
+a policy server for postfix implementing greylisting.
+
+could be configured to use mysql, postgresql or sqlite. postgresql is
+recommended by author.

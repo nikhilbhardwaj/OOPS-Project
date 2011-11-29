@@ -1,0 +1,24 @@
+Portable library for emacsen
+	
+apel stands for "a portable emacs library".  it consists of following
+modules:
+
+
+ poe.el          emulation module mainly for basic functions and special
+                 forms/macros of latest emacsen
+ poem.el         basic functions to write portable mule programs
+ pces.el         portable character encoding scheme (coding-system) features
+ invisible.el    features about invisible region
+ mcharset.el     mime charset related features
+ static.el       utility for static evaluation
+ broken.el       information of broken facilities of emacs
+ pccl.el         utility to write portable ccl program
+ alist.el        utility for association-list
+ calist.el       utility for condition tree and condition/situation-alist
+ path-util.el    utility for path management or file detection
+ filename.el     utility to make file-name
+ install.el      utility to install emacs-lisp package
+ mule-caesar.el  rot 13-47-48 caesar rotation utility
+ emu.el          emu bundled in tm-7.106 compatibility
+ pcustom.el      portable custom environment
+ product.el      functions for product version information

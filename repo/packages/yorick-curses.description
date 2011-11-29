@@ -1,0 +1,6 @@
+Interface to the (n)curses library for the yorick language
+	
+yorick-curses enables programs written in yorick (an interpreted computer
+language specialized for numerical and scientific problems) to use the
+(n)curses library, which allows fine control of the cursor and output in a
+terminal session.

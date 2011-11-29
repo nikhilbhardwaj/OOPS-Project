@@ -1,0 +1,7 @@
+The gnu bc arbitrary precision calculator language
+	
+gnu bc is an interactive algebraic language with arbitrary precision which
+follows the posix 1003.2 draft standard, with several extensions including
+multi-character variable names, an `else' statement and full boolean
+expressions.  gnu bc does not require the separate gnu dc program.
+home page: http://directory.fsf.org/gnu/bc.html

@@ -1,0 +1,7 @@
+Perl module to parse a string containing fixed length fields
+	
+the parse::fixedlength module facilitates the process of breaking
+a string into its fixed-length components. sure, it's a glorified
+(and in some ways more limited) substitute for the perl functions pack and
+unpack, but this module helps in the maintainability of working with fixed
+length formats as the number of fields in a format grows.

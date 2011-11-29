@@ -1,0 +1,9 @@
+Ms sql and sybase client library (static libs and headers)
+	
+freetds is an implementation of the tabular datastream protocol, used for
+connecting to ms sql and sybase servers over tcp/ip.
+
+this package includes the static libraries and header files for tds, which
+you will need to develop applications that connect to ms sql servers.  you
+will also need this package if you are installing the perl dbd::sybase
+module on your system using cpan.

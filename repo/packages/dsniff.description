@@ -1,0 +1,25 @@
+Various tools to sniff network traffic for cleartext insecurities
+	
+this package contains several tools to listen to and create network traffic:
+
+
+ * arpspoof  - send out unrequested (and possibly forged) arp replies.
+ * dnsspoof  - forge replies to arbitrary dns address / pointer queries
+             on the local area network.
+ * dsniff    - password sniffer for several protocols.
+ * filesnarf - saves selected files sniffed from nfs traffic.
+ * macof     - flood the local network with random mac addresses.
+ * mailsnarf - sniffs mail on the lan and stores it in mbox format.
+ * msgsnarf  - record selected messages from different instant messengers.
+ * sshmitm   - ssh monkey-in-the-middle. proxies and sniffs ssh traffic.
+ * sshow     - ssh traffic analyser.
+ * tcpkill   - kills specified in-progress tcp connections.
+ * tcpnice   - slow down specified tcp connections via "active"
+             traffic shaping.
+ * urlsnarf  - output selected urls sniffed from http traffic in clf.
+ * webmitm   - http / https monkey-in-the-middle. transparently proxies.
+ * webspy    - sends urls sniffed from a client to your local browser
+             (requires libx11-6 installed).
+
+
+please do not abuse this software.

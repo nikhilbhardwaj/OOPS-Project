@@ -1,0 +1,7 @@
+Newzbin (nzb) & binnews (bns) files downloader and post-processor
+	
+python application designed for *nix environments that retrieves nzb files and
+fully processes them. the goal being to make getting files from usenet as
+hands-free as possible. once fully installed, all thats required is moving an
+nzb file to the queue directory. the rest; fetching, par-checking, un-raring,
+etc. is taken care of by hellanzb.

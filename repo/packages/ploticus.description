@@ -1,0 +1,20 @@
+Script driven business graphics package
+	
+ploticus is script-driven, which makes it suitable for automated,
+unattended uses, or for applications that will be run again and again.
+in general, ploticus is good at making graphs like you would see in
+newspapers and news magazines, business publications, journals for
+medical and social sciences, and so on.
+
+ploticus is not a function or mathematical plotting package like
+gnuplot, nor would it be a good choice for applications where
+mathematical formulas or scientific notations are to be rendered
+as an integral part of the data display.  ploticus is also not
+intended as a "marketing" graphics package.  its goal is to
+display data crisply without extra decoration and distracting
+"dingbats" that cloud the picture.
+
+ploticus supports a wide range of output options, including jpeg
+(joint photographics experts group format), png (portable network
+graphics format), svg (simple vector graphics), bmp (microsoft bitmap),
+ps (postscript), swf (flash), and x11.

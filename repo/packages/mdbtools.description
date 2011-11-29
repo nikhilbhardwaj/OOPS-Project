@@ -1,0 +1,10 @@
+Jet / ms access database (mdb) tools
+	
+these are various tools for manipulating jet / ms access database (mdb) files:
+
+ * utils     - provides command line utilities to list tables, export schema,
+               and data, show file versions, and other useful stuff.
+ * mdb-sql   - a command line sql tool that allows one to type sql queries and
+               get results.
+ * odbc      - an odbc driver for use with unixodbc driver manager.  allows
+               one to use mdb files with php for example.

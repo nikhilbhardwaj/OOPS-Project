@@ -1,0 +1,7 @@
+Python bindings for silc (debug extension)
+	
+pysilc is a near-complete set of python bindings for creating silc clients
+using the silc-toolkit. it allows developers to write simple bots and clients
+for connecting to silc servers.
+
+this package contains the extensions built for the python debug interpreter.

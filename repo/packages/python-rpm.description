@@ -1,0 +1,8 @@
+Python bindings for rpm
+	
+the rpm package manager (rpm) is a command-line driven package
+management system capable of installing, uninstalling, verifying,
+querying, and updating computer software packages.
+
+this package includes the python bindings for librpm, allowing python
+scripts to manipulate rpm packages and the rpm database.

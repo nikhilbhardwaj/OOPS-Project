@@ -1,0 +1,9 @@
+Perl - perl6::form - implements the perl 6 'form' built-in
+	
+formats are perl 5's mechanism for creating text templates with
+fixed-width fields. those fields are then filled in using values from
+prespecified package variables.
+
+unlike perl 5, perl 6 doesn't have a c<format> keyword. or the
+associated built-in formatting mechanism. instead it has a form.pm
+module. and a c<form> function.

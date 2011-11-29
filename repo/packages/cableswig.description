@@ -1,0 +1,12 @@
+Generate wrappers for python and tcl from c++ code
+	
+cableswig is used to create interfaces (i.e. "wrappers") to interpreted
+languages such as tcl and python. it was created to produce wrappers for
+itk because the toolkit uses c++ structures that swig cannot parse (deeply
+nested template instantiations). cableswig is a combination tool that uses
+gcc_xml as the c++ parser. the input files are cable style input files. the
+xml produced from the cable/gcc_xml input files are then parsed and feed
+into a modified version of swig. swig is a software development tool that
+connects programs written in c and c++ with a variety of high-level
+programming languages. it is used to generate the language bindings to the
+target language. currently, tcl and python are supported.

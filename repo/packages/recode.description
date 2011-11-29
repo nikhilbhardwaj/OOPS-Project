@@ -1,0 +1,8 @@
+Character set conversion utility
+	
+free `recode' converts files between character sets and usages.  when
+exact transliterations are not possible, it may get rid of the
+offending characters or fall back on approximations.  this program
+recognizes or produces nearly 300 different character sets and is able
+to transliterate files between almost any pair.  most rfc 1345
+character sets, and all `libiconv' character sets, are supported.

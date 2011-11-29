@@ -1,0 +1,10 @@
+Backup system for small systems and networks
+	
+these are the backup scripts used by chiark.greenend.org.uk and other
+systems belonging to the sinister greenend organisation.  features:
+
+ * suitable for single systems and small networks.
+ * reasonably simple; they do what you tell it to.
+ * hard failures when individual systems fail, to encourage fixing !
+
+if you have a larger site you may wish to look at amanda.

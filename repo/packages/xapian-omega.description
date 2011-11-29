@@ -1,0 +1,14 @@
+Cgi search interface and indexers using xapian
+	
+this package contains:
+
+ - the "omega" cgi application which provides a customisable web interface for
+   searching xapian databases.
+ - the "omindex" tool for indexing a directory tree of documents into a xapian
+   database in a form suitable for searching with omega.
+ - the "scriptindex" indexer, which takes a simple text input format
+   representing documents as a set of fields, together with an "index script"
+   file specifying actions to be performed on each field, and indexes the
+   documents into a xapian database.
+ - some example scripts for converting data from different sources into a form
+   suitable for processing with "scriptindex".

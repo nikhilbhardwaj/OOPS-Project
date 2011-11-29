@@ -1,0 +1,5 @@
+Lexical analyser generator for haskell
+	
+alex is a tool for generating lexical analysers in haskell, given a
+description of the tokens to be recognised in the form of regular
+expressions. it is similar to the tool lex or flex for c/c++.

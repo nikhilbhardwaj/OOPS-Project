@@ -1,0 +1,9 @@
+Tao implementation repository
+	
+an implementation repository activates corba servers on demand.
+
+this package includes the following programs:
+
+ * implrepo_service: the main server; delegates call to activators
+ * imr_activator: activates and shuts servers down on demand
+ * tao_imr: registers servers for later activation

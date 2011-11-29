@@ -1,0 +1,7 @@
+Fast and reliable load balancing reverse proxy
+	
+haproxy is a tcp/http reverse proxy which is particularly suited for high
+availability environments. it features connection persistence through http
+cookies, load balancing, header addition, modification, deletion both ways. it
+has request blocking capabilities and provides interface to display server
+status.

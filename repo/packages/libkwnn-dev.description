@@ -1,0 +1,9 @@
+Header files and static library for kwnn (freewnn kserver)
+	
+freewnn kserver (kwnn) is an integrated korean input system running
+on unix workstation. it supports a wide range of input methods,
+satisfying the needs of the korean users from all over the world.
+
+this package contains the header files and the static library for
+kwnn. install this package if you wish to develop your own kwnn
+client programs.

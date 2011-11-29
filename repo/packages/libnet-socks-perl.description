@@ -1,0 +1,5 @@
+Perl module providing an api to communicate with socks servers
+	
+this is a socks client module that can communicate with socks v4 and
+v5 servers.  it currently allows you to make outgoing and incoming
+tcp connections.

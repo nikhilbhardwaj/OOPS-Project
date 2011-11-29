@@ -1,0 +1,21 @@
+Partition image user documentation
+	
+this package contains documentation about partition image.
+
+partition image is a partition imaging utility. it has support for the
+following file systems:
+
+ * ext2/3, the linux standard
+ * reiserfs, a journalised and powerful file system
+ * fat16/32, dos and windows file systems
+ * hpfs, ibm os/2 file system
+ * jfs, journalised file system, from ibm, used on aix
+ * xfs, another journalised and efficient file system, from sgi, used on irix
+ * ufs (beta), unix file system
+ * hfs (beta), macos file system
+ * ntfs (experimental), windows nt, 2000 and xp
+
+only used blocks are copied and stored into an image file.
+the image file can be compressed in the gzip/bzip2 formats to save disk space,
+and split into multiple files to be copied onto removable media (zip for
+example), burned on a cd-r, etc.

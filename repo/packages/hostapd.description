@@ -1,0 +1,21 @@
+User space ieee 802.11 ap and ieee 802.1x/wpa/wpa2/eap authenticator
+	
+originally, hostapd was an optional user space component for host ap
+driver. it adds more features to the basic ieee 802.11 management
+included in the kernel driver: using external radius authentication
+server for mac address based access control, ieee 802.1x authenticator
+and dynamic wep keying, radius accounting, wpa/wpa2 (ieee 802.11i/rsn)
+authenticator and dynamic tkip/ccmp keying.
+
+the current version includes support for other drivers, an integrated
+eap authenticator (i.e., allow full authentication without requiring
+an external radius authentication server), and radius authentication
+server for eap authentication.
+
+hostapd works with the following drivers:
+
+
+ * mac80211 based drivers with support for master mode
+ * host ap driver for prism2/2.5/3,
+ * madwifi driver for cards based on atheros chip set (ar521x),
+ * any wired ethernet driver for wired ieee 802.1x authentication.

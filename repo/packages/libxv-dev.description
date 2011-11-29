@@ -1,0 +1,19 @@
+X11 video extension library (development headers)
+	
+libxv provides an x window system client interface to the xvideo
+extension to the x protocol.
+
+the xvideo extension allows for accelerated drawing of videos.  hardware
+adaptors are exposed to clients, which may draw in a number of colourspaces,
+including yuv.
+
+this package contains the development headers for the library found in
+libxv1.  non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxv

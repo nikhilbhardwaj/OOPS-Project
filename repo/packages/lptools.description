@@ -1,0 +1,8 @@
+Tools for working with launchpad
+	
+lp tools allow you to work with launchpad without ever having to deal
+with the web interface. the review-list tool can list reviews, and
+review-notifier provides a desktop notifier about reviews that can be done.
+
+milestone2ical converts milestones on a project or project group into the
+ical format.

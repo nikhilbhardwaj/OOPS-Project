@@ -1,0 +1,12 @@
+Loadable modules development environment for postfix
+	
+postfix is wietse venema's mail transport agent that started life as an
+
+ alternative to the widely-used sendmail program.  postfix attempts to
+ be fast, easy to administer, and secure, while at the same time being
+ sendmail compatible enough to not upset existing users. thus, the outside
+ has a sendmail-ish flavor, but the inside is completely different.
+
+this provides the headers and library links to build additional map
+types for postfix. if you're not developing postfix modules, then you
+do not need this.

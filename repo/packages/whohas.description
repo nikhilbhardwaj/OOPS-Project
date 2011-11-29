@@ -1,0 +1,14 @@
+Query multiple distributions' package archives
+	
+whohas is a command line tool that allows you to query several package
+collections at once.
+
+it supports arch linux (and aur), debian, fedora, gentoo, opensuse, slackware
+(and linuxpackages.net), source mage linux, ubuntu, freebsd, netbsd, openbsd,
+fink, mandriva, macports and opkg (openmoko community) repositories.
+
+whohas was designed to help package maintainers find ebuilds, pkgbuilds, and
+similar package definitions from other distributions to learn from. however, it
+can also be used by normal users who want to know which distribution provides
+certain packages, and which version of a given package is in use in each
+distribution or in each release of a distribution.

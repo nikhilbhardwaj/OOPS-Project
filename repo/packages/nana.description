@@ -1,0 +1,20 @@
+Improved support for assertions and logging in c/c++
+	
+gnu nana is a library that provides improved support for assertion checking,
+logging, and performance measurement in c/c++, when compared with the
+standard assert.h mechanism.  avoid maintaining a source version without
+assertions and logging for production use or using non-standard macros.
+
+
+ - space/time efficient assertion checking.
+ - space/time efficient program logging to file, console, process,
+   or circular buffer in memory.
+ - selectively enable and disable assertion checking and logging both at
+   compile and run time.  configure action following assertion failure.
+ - logging via inline c code (as in <assert.h>) or by extraction of
+   commands for gdb which results in no performance cost unless
+   running in the debugger.
+ - statement and function-level source tracing under gdb.
+ - code-to-html converter giving only details of your interface and
+   pre/postconditions (similar to eiffel short form).
+ - official gnu package.

@@ -1,0 +1,15 @@
+Module for using html templates with perl
+	
+html::template attempts make using html templates simple and natural.  it
+extends standard html with a few new html-esque tags - <tmpl_var>,
+<tmpl_loop>, <tmpl_include>, <tmpl_if> and <tmpl_else>.  the file
+written with html and these new tags is called a template.  it is
+usually saved separate from your script - possibly even created by
+someone else!  using this module you fill in the values for the
+variables, loops and branches declared in the template.  this allows
+you to separate design - the html - from the data, which you generate
+in the perl script.
+
+this module allows you to store its cache in shared memory using the
+ipc::sharedcache module, please install libipc-sharedcache-perl if you
+want to make use of this.

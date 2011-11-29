@@ -1,0 +1,16 @@
+Mupen64plus debug symbols package
+	
+n64 emulator for linux that works with many roms that are publically available.
+it has the following features:
+
+ * loading of compressed roms
+ * cheat system
+ * exchangeable plugins for graphics, sound and input emulation
+ * multiple save states
+ * fullscreen support
+ * high quality texture filter for many graphic plugins
+ * support for external hi-res texture packs
+ * integrated graphical debugger for development
+
+
+this package contains the debug files.

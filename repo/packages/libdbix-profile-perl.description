@@ -1,0 +1,17 @@
+Dbi query profiler
+	
+dbix::profile is a quick and easy, and mostly transparent, profiler
+for scripts using dbi.  it collects information on the query
+level, and keeps track of first, failed, normal, and total amounts
+(count, wall clock, cpu time) for each function on the query.
+
+note: dbix::profile use time::hires to clock the wall time and
+
+      the old standby times() to clock the cpu time.  the cpu time is
+      pretty coarse.
+
+
+dbix::profile can also trace the execution of queries.  it will print
+a timestamp and the query that was called.  this is optional, and
+occurs only when the environment variable dbixprofiletrace is set
+to 1. (ex: (bash) export dbixprofiletrace=1).

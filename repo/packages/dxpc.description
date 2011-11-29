@@ -1,0 +1,16 @@
+A differential x protocol compressor
+	
+dxpc is an x protocol compressor designed to improve the speed of x11
+applications run over low-bandwidth links (such as dialup ppp
+connections).  the executable in this package can run as either a
+client or a server.
+
+this version is not compatible with versions older than 3.9.0.
+for this package to be useful, you need to have a compatible dxpc
+executable running on another computer.  if the other computer is a
+non-debian machine, you may need to obtain the dxpc archive from
+ftp.x.org and compile it yourself for the non-debian computer.
+precompiled binaries for many systems are available from
+http://www.vigor.nu/dxpc/.
+
+for more information on dxpc, see http://www.vigor.nu/dxpc/.

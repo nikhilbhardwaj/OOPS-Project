@@ -1,0 +1,10 @@
+An audio time-stretching and pitch-shifting library (development files)
+	
+rubber band is a library and utility program that permits you to
+change the tempo and pitch of an audio recording independently of one
+another.
+
+this package contains development files for linking against
+librubberband, along with the static version of the library. api
+documentation is available at
+http://www.breakfastquay.com/rubberband/code-doc/ .

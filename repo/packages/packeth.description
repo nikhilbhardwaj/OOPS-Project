@@ -1,0 +1,12 @@
+Ethernet packet generator
+	
+packeth is a gui packet generator tool for ethernet.
+it allows you to create and send any possible packet
+or sequence of packets via ethernet. it also
+supports the pcap format, so you can load packets
+from any other program (i.e. wireshark).
+
+you can create and send any ethernet packet. the
+supported protocols are: ethernet ii, ethernet
+802.3, 802.1q, qinq, arp, ipv4, udp, tcp, icmp,
+igmp, rtp.

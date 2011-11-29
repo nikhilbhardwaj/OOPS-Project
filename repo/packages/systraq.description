@@ -1,0 +1,15 @@
+Monitor your system and warn when system files change
+	
+systraq daily sends you an email listing the state of your system.
+furthermore, if critical files have changed, you'll get an email within a
+shorter notice. systraq consists of few very small shell scripts.
+
+it can help you implementing a not too strict security policy.  for more
+demanding systems, you'd better use something like tripwire. make sure you
+really want to do the monitoring this script offers: it might not comply with
+your site's privacy policy. getting informed when users' config file change
+might be too intrusive.
+
+other similar tools are available in debian (`diffmon' for instance), but
+systraq is less intrusive because it can warn for file changes without mailing
+a complete diff (which is not desirable for e.g. /etc/shadow).

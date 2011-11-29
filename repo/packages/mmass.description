@@ -1,0 +1,16 @@
+Mass spectrometry tool for proteomics
+	
+mmass is a free mass spectrum viewer/analyzer in which the
+following proteomics-related tasks can be performed:
+
+
+ - open raw text, mzxml and mzdata mass spectra;
+ - define peak lists;
+ - powerful mass spectrum viewer (zoom, cursor...);
+ - data recalibration;
+ - protein-only simulations;
+ - online mascot searches.
+
+
+this software is written with python, and the author claims that
+writing new modules should be easy.

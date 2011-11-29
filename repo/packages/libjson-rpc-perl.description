@@ -1,0 +1,6 @@
+Perl implementation of json-rpc 1.1 protocol
+	
+json::rpc is a stateless and light-weight remote procedure call (rpc)
+protocol for inter-networking applications over http. it uses json
+as the data format for of all facets of a remote procedure call,
+including all application data carried in parameters.

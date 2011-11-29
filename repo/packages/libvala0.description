@@ -1,0 +1,9 @@
+C# like language for the gobject system - library
+	
+vala is a new programming language that aims to bring modern programming
+language features to gnome developers without imposing any additional
+runtime requirements and without using a different abi compared to
+applications and libraries written in c.
+
+this library contains the parser used by valac. it can be used for
+building tools arround vala.

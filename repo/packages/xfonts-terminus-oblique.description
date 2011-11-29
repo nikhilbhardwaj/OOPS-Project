@@ -1,0 +1,13 @@
+Oblique version of the terminus font
+	
+this package contains oblique versions of the fonts in the package
+xfonts-terminus.  these fonts are automatically generated and at
+present are not supported by the upstream maintainer.  they have much
+lower quality than the original fonts.  nevertheless they can be
+useful for some programs such as gnu emacs and xemacs.
+
+this package contains normal and bold oblique fonts in the following
+in following sizes: 6x12, 8x14, 8x16, 10x20, 11x22, 12x24, 14x28 and 16x32
+and supports the following encodings: iso10646-1, iso8859-1,
+iso8859-2, iso8859-5, iso8859-9, iso8859-13, iso8859-15, iso8859-16,
+koi8-r, koi8-u, cp1251 and pt154.

@@ -1,0 +1,5 @@
+Linux kernel aio access library - development files
+	
+this library enables userspace to use linux kernel asynchronous i/o
+system calls, important for the performance of databases and other
+advanced applications.

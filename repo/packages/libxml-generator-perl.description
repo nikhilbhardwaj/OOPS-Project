@@ -1,0 +1,5 @@
+Perl module for generating xml files
+	
+this is a simple module to help in the generation of xml. basically,
+you create an xml::generator object and then call a method for each
+tag, supplying the contents of that tag as parameters.

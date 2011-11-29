@@ -1,0 +1,10 @@
+Perl module to check that file names in a distribution are portable
+	
+test::portability::files is used to check the portability across operating
+systems of the names of the files present in the distribution of a module.
+the tests use the advices given in perlport/"files and filesystems". the
+author of a distribution can select which tests to execute.
+
+to use this module, simply copy the code from the synopsis in a test file
+named t/portfs.t for example, and add it to your manifest. you can delete the
+call to options() to enable only most common tests.

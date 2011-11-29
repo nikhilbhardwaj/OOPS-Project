@@ -1,0 +1,9 @@
+Python interface to sqlite 3 (debug extension)
+	
+pysqlite is a db-api 2.0-compliant database interface for sqlite.
+
+this package is built against sqlite 3. for an interface to sqlite 2,
+see the package python-sqlite. an alternative python sqlite 3 module
+is packaged as python-apsw.
+
+this package contains the extension built for the python debug interpreter.

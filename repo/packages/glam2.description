@@ -1,0 +1,23 @@
+Gapped protein motifs from unaligned sequences
+	
+glam2 is a software package for finding motifs in sequences, typically
+amino-acid or nucleotide sequences. a motif is a re-occurring sequence
+pattern: typical examples are the tata box and the caax prenylation motif. the
+main innovation of glam2 is that it allows insertions and deletions in motifs.
+
+the package includes these programs:
+
+ glam2:       discovering motifs shared by a set of sequences;
+ glam2scan:   finding matches, in a sequence database, to a motif discovered
+              by glam2;
+ glam2format: converting glam2 motifs to  standard alignment formats;
+ glam2mask:   masking glam2 motifs out of sequences, so that weaker motifs
+              can be found;
+ glam2-purge: removing highly similar members of a set of sequences.
+
+
+in this package, the fast fourier algorithm (fft) was enabled for glam2.
+
+if you use glam2, please cite: mc frith, nfw saunders, b kobe, tl bailey
+(2008) discovering sequence motifs with arbitrary insertions and deletions,
+plos computational biology (in press).

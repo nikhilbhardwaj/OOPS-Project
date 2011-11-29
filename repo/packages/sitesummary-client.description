@@ -1,0 +1,9 @@
+Generate site summary of submitting hosts (client part)
+	
+the sitesummary system makes it easier to keep track of a lot of
+machines, by allowing each machine to report their existence once a
+day to a central collector, and using this collector to make summary
+reports about the hosts.
+
+this package is the client part, reporting in to the server after
+boot and once a day.

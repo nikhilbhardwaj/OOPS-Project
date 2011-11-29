@@ -1,0 +1,7 @@
+Window manager for resource-limited systems
+	
+matchbox is a base environment for the x window system running on non-desktop
+embedded platforms such as handhelds, set-top boxes, kiosks and anything else
+for which screen space, input mechanisms or system resources are limited.
+
+this package contains the matchbox window manager.

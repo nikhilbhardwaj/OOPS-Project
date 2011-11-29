@@ -1,0 +1,6 @@
+Autoreply plug-in for licq
+	
+this is an autoreplier plug-in for the licq instant messaging client.  any
+events (messages, urls, etc.) received while the plug-in is enabled will cause
+the plug-in to reply with the output from any specified program (e.g.,
+fortune).

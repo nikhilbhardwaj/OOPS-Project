@@ -1,0 +1,14 @@
+Programs to provide source streams for dvswitch
+	
+this package provides sources for dvswitch:
+
+dvsource-alsa captures audio from an alsa device.
+
+dvsource-file reads dv frames from a file and sends them at the
+normal frame rate.
+
+dvsource-firewire reads dv frames from a camera or other device
+connected by firewire (1394).
+
+dvsource-v4l2-dv reads dv frames from a video4linux2 device such
+as a usb-connected dv camera.

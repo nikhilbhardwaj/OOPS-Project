@@ -1,0 +1,23 @@
+Lam runtime environment for executing parallel programs
+	
+lam (local area multicomputer) is an open source implementation of the
+message passing interface (mpi) standard.
+
+some enhancements in lam 6.3 are:
+
+ o added the mpi-2 c++ bindings package (chapter 10 from the mpi-2
+     standard) from the laboratory for scientific computing at the
+     university of notre dame.
+ o added romio mpi i/o package (chapter 9 from the mpi-2 standard)
+     from the argonne national laboratory.
+ o pseudo-tty support for remote io (e.g., line buffered output).
+ o ability to pass environment variables through mpirun.
+ o ability to mpirun shell scripts/debuggers/etc. (that eventually
+     run lam/mpi programs).
+ o ability to execute non-mpi programs across the multicomputer.
+ o added configurable ability to zero-fill internal lam buffers
+     before they are used (for development tools such as purify).
+ o greatly expanded error messages; provided for customizable
+     local help files.
+ o expanded and updated documentation.
+ o various bug fixes and minor enhancements.

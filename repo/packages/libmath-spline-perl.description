@@ -1,0 +1,6 @@
+Cubic spline interpolation of data
+	
+this package provides cubic spline interpolation of numeric data. the
+data is passed as references to two arrays containing the x and y
+ordinates. it may be used as an exporter of the the numerical
+functions or, more easily as a class module.

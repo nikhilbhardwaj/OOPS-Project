@@ -1,0 +1,11 @@
+Library of useful guile modules
+	
+a set of various-purpose library modules for guile. covered areas include:
+
+
+ * unit testing framework ala junit
+ * logging system
+ * string routines (wrapping, completion, soundex algorithm)
+ * os process chains (think "shell pipes in scheme")
+ * ansi escape sequence text coloring
+ * srfi-35 (conditions)

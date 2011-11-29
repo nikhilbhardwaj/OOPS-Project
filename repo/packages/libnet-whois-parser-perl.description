@@ -1,0 +1,4 @@
+Module for parsing whois information
+	
+net::whois::parser module provides whois data parsing. you can add your own
+parsers for any whois server.

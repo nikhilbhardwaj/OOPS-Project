@@ -1,0 +1,13 @@
+Perl extension for validating email addresses
+	
+mail::rfc822::address validates email addresses against the grammar described
+in rfc 822 using regular expressions.  how to validate a user supplied email
+address is a faq (see perlfaq9): the only sure way to see if a supplied email
+address is genuine is to send an email to it and see if the user recieves it.
+the one useful check that can be performed on an address is to check that the
+email address is syntactically valid.  that is what this module does.
+
+this module is functionally equivalent to rfc::rfc822::address, but uses
+regular expressions rather than the parse::recdescent parser.  this means that
+startup time is greatly reduced making it suitable for use in transient scripts
+such as cgi scripts.

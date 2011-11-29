@@ -1,0 +1,5 @@
+A web based front-end for rtorrent
+	
+rtgui is a web based front end for rtorrent - the linux
+command line bittorrent client. it's written in php and
+uses xml-rpc to communicate with the rtorrent client.

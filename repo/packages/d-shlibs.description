@@ -1,0 +1,12 @@
+Debian shared library package building helper scripts
+	
+shared library packages in debian need some special catering to do
+with regards to which files go where. this package contains
+programs which try to help automate the process and catch simple
+errors
+
+"d-shlibmove" moves the shared library binary around from temporary
+installation directory to the  destination package directory
+
+"d-devlibdeps" tries to list the development library dependencies
+required for using the -dev package.

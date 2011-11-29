@@ -1,0 +1,12 @@
+Perl library to encrypt stuff simply
+	
+maybe you have a web application and you need to store some session
+data at the client side (in a cookie or hidden form fields) but you
+don't want the user to be able to mess with the data. maybe you want
+to save secret information to a text file.  maybe you have better
+ideas of what to do with encrypted stuff!
+
+the crypt::simple module will convert all your data into nice base64 text
+that you can save in a text file, send in an email, store in a cookie
+or web page, or bounce around the net. the data you encrypt can be as
+simple or as complicated as you like.

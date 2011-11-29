@@ -1,0 +1,8 @@
+Tools to convert from otf or ttf to eot font format
+	
+the eot-utils are the two programs mkeot and eotinfo.
+the former creates an eot (embedded opentype) file from an opentype
+or truetype font and the urls of one or more web pages.
+mkeot respects the truetype embedding bits.
+the eotinfo program displays the contents of an eot header in a
+human-readable way.

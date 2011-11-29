@@ -1,0 +1,5 @@
+A refactoring tool for python
+	
+a framework and refactoring tool for python. ide plugins are included for
+pymacs, idle and vim. using bicycle repair man you can rename classes, methods
+and variables, and all users of them are found and adjusted appropriately.

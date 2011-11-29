@@ -1,0 +1,8 @@
+Icarus verilog compiler
+	
+icarus verilog is intended to compile all of the verilog hdl as
+described in the ieee-1364 standard. it is not quite there
+yet. it does currently handle a mix of structural and behavioral
+constructs.
+
+the compiler can target either simulation, or netlist (edif).

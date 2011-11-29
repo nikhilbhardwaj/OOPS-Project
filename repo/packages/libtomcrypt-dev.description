@@ -1,0 +1,8 @@
+Static library, header files and documentation for libtomcrypt
+	
+libtomcrypt is a well documented, public domain open source crypthographic
+toolkit written in c. it supports lots of block ciphers (blowfish, twofish,
+aes, xtea, ...), chaining modes (ecb, cbc, ofb, cfb, ctr, ...), hash functions
+(md5, sha-1, sha-256, ripe-md, ...), hmac mechanisms, pseudo-random number
+generators and public key algorithms. it has several optimizations for the
+i386, x86_64 and ppc32 architecture.

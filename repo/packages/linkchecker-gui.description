@@ -1,0 +1,14 @@
+Check websites and html documents for broken links (gui client)
+	
+provides a graphical interface "linkchecker-gui" to check links of websites
+and html documents.
+features:
+
+ o recursive checking
+ o multithreaded
+ o http/1.1, https, ftp, mailto:, news:, nntp:, telnet and local file
+   links support
+ o proxy support
+ o username/password authorization for http, ftp and telnet
+ o robots.txt exclusion protocol support
+ o i18n support

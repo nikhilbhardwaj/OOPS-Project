@@ -1,0 +1,9 @@
+Package discovery and resource access using pkg_resources
+	
+the pkg_resources module provides an api for python libraries to
+access their resource files, and for extensible applications and
+frameworks to automatically discover plugins.  it also provides
+runtime support for using c extensions that are inside zipfile-format
+eggs, support for merging packages that have separately-distributed
+modules or subpackages, and apis for managing python's current
+"working set" of active packages.

@@ -1,0 +1,8 @@
+Bzr plugin for debian package management
+	
+bzr-builddeb is a plugin for the bzr version control system that helps to
+automate the task of maintaining debian packages using bzr. it is similar
+in intent to cvs-buildpackage, svn-buildpackage and the similar scripts.
+
+it builds a debian package from a bzr branch, optionally using a separate
+upstream tarball.

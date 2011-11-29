@@ -1,0 +1,6 @@
+Software control for icom radios with ci-v interface
+	
+this program allows you to control many types of icom radio
+(transceivers and receivers) from the serial port on your computer.
+you need a ci-v interface circuit to connect the radio to the computer
+(to convert between rs-232 and ttl), which can be easily found on the web.

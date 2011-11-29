@@ -1,0 +1,5 @@
+Reverse proxy, load balancer and https front-end for web servers
+	
+pound was developed to enable distributing the load among several web-servers
+and to allow for a convenient ssl wrapper for those web servers that do not
+offer it natively.

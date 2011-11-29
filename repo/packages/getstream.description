@@ -1,0 +1,6 @@
+Dvb streaming application
+	
+getstream is a small utility which is able to pull a mpeg
+transport stream from a dvb card and stream it to the local
+area network. it is written to replace vlc, and uses much less
+cpu and memory than vlc.

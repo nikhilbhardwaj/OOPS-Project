@@ -1,0 +1,7 @@
+The pseudo terminal library for the kde platform
+	
+this library provides primitives to interface with pseudo terminal devices as
+well as a kprocess derived class for running child processes and communicating
+with them using a pty.
+
+this package is part of the kde development platform libraries module.

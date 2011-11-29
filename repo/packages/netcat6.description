@@ -1,0 +1,10 @@
+Tcp/ip swiss army knife with ipv6 support
+	
+a simple unix utility which reads and writes data across network
+connections using tcp or udp protocol.  it is designed to be a reliable
+"back-end" tool that can be used directly or easily driven by other
+programs and scripts. at the same time it is a feature-rich network
+debugging and exploration tool.
+
+netcat6 is a rewrite of the original netcat with support for ipv6 and
+an enhanced support for udp.

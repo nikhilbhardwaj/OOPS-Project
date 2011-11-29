@@ -1,0 +1,4 @@
+PackageId:25438
+Name:nfs-kernel-server
+Version:1:1.2.2-4
+Deps:libblkid1,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcomerr2,libgssapi-krb5-2,libgssglue1,libk5crypto3,libkrb5-3,libnfsidmap2,librpcsecgss3,libwrap0,lsb-base,nfs-common,ucf

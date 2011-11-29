@@ -1,0 +1,14 @@
+Nvidia cuda runtime library (32-bit)
+	
+the compute unified device architecture (cuda) enables nvidia
+graphics processing units (gpus) to be used for massively parallel
+general purpose computation.
+this package contains the driver specific runtime library (32-bit).
+
+supported nvidia devices include gpus starting from geforce 8 and quadro fx
+series, as well as the tesla computing processors.
+
+please see the nvidia-kernel-dkms or
+nvidia-kernel-source packages
+for building the kernel module required by this package.
+this will provide nvidia-kernel-195.36.31.

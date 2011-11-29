@@ -1,0 +1,15 @@
+Clarion database files extractor
+	
+the cldump utility allows you to extract the content of a clarion database;
+clarion is a windows ide similar to delphi and others, and has its own
+(simple) database format.
+
+cldump can export the content of the database to csv or sql, plus its own
+"format" which dumps all the meta data along with the data contained in
+the database. when using the sql output, you'll get a nearly ready-to-go
+dump of the database that will create the table and the indexes and insert
+the data into the table.
+
+note that cldump doesn't support all the datatypes yet; patches welcome.
+
+you may be interested in the dbview package too, which can dump dbase files.

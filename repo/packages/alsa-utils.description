@@ -1,0 +1,13 @@
+Utilities for configuring and using alsa
+	
+included tools:
+
+ o amixer: command line mixer
+ o alsamixer: curses mixer
+ o amidi: read from and write to alsa rawmidi ports
+ o aplay, arecord: command line playback and recording
+ o aplaymidi, arecordmidi: command line midi playback and recording
+ o aconnect, aseqnet, aseqdump: command line midi sequencer control
+
+
+alsa is the advanced linux sound architecture.

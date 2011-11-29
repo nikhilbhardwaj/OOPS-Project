@@ -1,0 +1,20 @@
+Ruby 1.8 library for verifying and serving openid identities
+	
+ruby openid makes it easy to add openid authentication to your web
+applications.
+this library is a port of the python openid library, and features:
+
+
+ * api for verifying openid identities (openid::consumer)
+ * api for serving openid identities (openid::server)
+ * consumer and server support for extensions, including simple registration
+ * yadis 1.0 and openid 1.0 service discovery, including server fallback
+ * does not depend on underlying web framework
+ * multiple storage implementations (filesystem, sql)
+ * comprehensive test suite
+ * example code to help you get started, including:
+   - webrick based consumer
+   - ruby on rails based server
+   - openidlogingenerator for quickly creating a rails app that uses openid
+     for authentication
+   - activerecord adapter for using an sql store in rails

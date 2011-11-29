@@ -1,0 +1,10 @@
+Library for signing and verifying domainkeys identified mail signatures
+	
+the opendkim project is a community effort to develop and maintain a c library
+for producing dkim-aware applications and an open source milter for providing
+domainkeys identified mail (dkim) service.
+
+this package provides library for implementing signing and verification of the
+domainkeys identified mail (dkim) standard. this library provides support for
+signing and verifying signatures according to rfc 4871, and supports both
+domainkeys signing policy and dkim adsp.

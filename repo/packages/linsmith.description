@@ -1,0 +1,26 @@
+A tool to generate smith charts
+	
+a smith chart is a tool used in electrical engineering that
+shows how the complex impedance of a transmission line varies along its
+length, and simplifies the design of impedance matching networks to match
+the line to its load.
+
+linsmith is a smith charting program, mainly designed for educational use.
+as such, there is an emphasis on capabilities that improve the 'showing
+the effect of'-style of operation.
+
+it's main features are:
+
+ * definition of multiple load impedances (at different frequencies)
+ * addition of discrete (l, c, parallel and series lc, and transformer)
+   and line components (open and closed stubs, line segments)
+ * connection in series and parallel
+ * easy experimentation with values using scrollbars
+ * a 'virtual' component switches from impedance to admittance to help
+   explaining (or understanding) parallel components
+ * the chart works in real impedances (not normalized ones)
+ * direct view of the result on the screen
+ * ability to generate publication quality postscript output
+ * a 'log' file with textual results at each intermediate step
+ * load and circuit configuration is stored separately, permitting several
+   solutions without re-defining the other

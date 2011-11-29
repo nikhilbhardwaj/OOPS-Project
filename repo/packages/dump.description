@@ -1,0 +1,10 @@
+4.4bsd dump and restore for ext2 filesystems
+	
+dump examines files on a filesystem and determines which files need to be
+backed up.  these files are copied to the given disk, tape or other storage
+medium for safe keeping.
+
+the restore command performs the inverse function of dump.  a full backup of
+a file system may be restored and subsequent incremental backups layered on
+top of it.  single files and directory subtrees may be restored from full or
+partial backups.

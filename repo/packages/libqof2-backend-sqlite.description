@@ -1,0 +1,9 @@
+Query object framework - sqlite backend module
+	
+qof is a framework to allow the execution of sql-type
+queries using collections of in-memory objects as 'tables'.
+
+this module provides a sqlite backend intended for
+embedded systems. the package can also be installed
+alongside other qof backends, applications using qof
+can use whichever backend is available.

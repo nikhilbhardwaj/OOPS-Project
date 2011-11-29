@@ -1,0 +1,9 @@
+Library to interface with the wiimote -- dummy package
+	
+cwiid is a working userspace driver along with various
+applications implementing event drivers, multiple wiimote
+connectivity, gesture recognition, and other wiimote-based
+functionality.
+
+this package is a dummy transitional package to install libcwiid-dev
+you may safetly remove it.

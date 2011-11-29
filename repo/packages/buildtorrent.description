@@ -1,0 +1,5 @@
+Command line torrent creation program
+	
+buildtorrent is a torrent file creation program. given an announce url and an
+input file or directory, buildtorrent generates an output .torrent file that
+can be used by torrent clients.

@@ -1,0 +1,22 @@
+Resource files for gs-cjk, ghostscript cjk-truetype extension
+	
+this package contains several resource files (actually adobe cmaps) to
+use cjk truetype fonts with gs.
+
+gs-cjk enables ghostscript to handle cjk truetype fonts through cid-keyed
+font technology. in addition to this package, a language-specific cmap
+package (named cmap-adobe-*) and a truetype font package (ttf-*) is
+needed.
+
+japanese: needs cmap-adobe-japan1 and ttf-kochi-mincho |
+
+ ttf-kochi-gothic.
+
+korean: needs cmap-adobe-korea1 and ttf-unfonts-core.
+traditional-chinese: needs cmap-adobe-cns1 and ttf-arphic-ukai |
+
+ ttf-arphic-uming.
+
+simplified-chinese: needs cmap-adobe-gb1 and ttf-arphic-ukai |
+
+ ttf-arphic-uming.

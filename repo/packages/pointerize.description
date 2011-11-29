@@ -1,0 +1,12 @@
+Internationalization utilities, based on gettext
+	
+pointerize is a set of tools used to generate message catalogs from a
+set of specially formated c source files. those message catalogs are
+loaded at run-time, making it possible to have one binary that displays
+messages in several languages.
+
+it's based on gettext, but it makes smaller binary message catalogs
+(a must when one is making internationalized boot floppies). the
+programmer may use his gettexttified c source files just applying one
+small change to the main() function. the translator will work with the
+well known po format.

@@ -1,0 +1,6 @@
+Setools python bindings
+	
+setools is a collection  tools for analysing security policyon selinux
+systems. this package includes python bindings for the following
+setools libraries: libapol, libpoldiff, libqpol, libseaudit, and
+libsefs.

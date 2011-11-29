@@ -1,0 +1,10 @@
+Global positioning system - daemon
+	
+the gpsd service daemon can monitor one or more gps devices connected to
+a host computer, making all data on the location and movements of the
+sensors available to be queried on tcp port 2947.
+
+with gpsd, multiple gps client applications can share access to devices
+without contention or loss of data. also, gpsd responds to queries with a
+format that is substantially easier to parse than the different standards
+emitted by gps devices.

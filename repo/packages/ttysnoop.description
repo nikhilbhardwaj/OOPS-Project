@@ -1,0 +1,5 @@
+Allows you to spy on telnet+serial connections
+	
+ttysnoop allows you to snoop on login tty's through another tty-device
+or pseudo-tty. the snoop-tty becomes a 'clone' of the original tty,
+redirecting both input and output from/to it.

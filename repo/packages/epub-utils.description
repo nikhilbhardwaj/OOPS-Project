@@ -1,0 +1,10 @@
+Library and tools to work with the epub file format
+	
+the ebook-tools provide ways for accessing and converting different
+ebook file formats.
+
+this package contains the following utilities:
+
+ - einfo           : provides some basic info about an epub document,
+                     such as metadata, reading order, etc.
+ - lit2epub        : converts a lit file to epub (using clit).

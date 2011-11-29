@@ -1,0 +1,11 @@
+Gnome keyring services library
+	
+gnome-keyring is a daemon in the session, similar to ssh-agent,
+and other applications can use it to store passwords and other
+sensitive information.
+
+the program can manage several keyrings, each with its own master
+password, and there is also a session keyring which is never stored to
+disk, but forgotten when the session ends.
+
+this package contains shared libraries for gnome.

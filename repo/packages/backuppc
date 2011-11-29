@@ -1,0 +1,4 @@
+PackageId:916
+Name:backuppc
+Version:3.1.0-9
+Deps:adduser,apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,bzip2,debconf,debconf-2.0,cdebconf,cdebconf-udeb,default-mta,exim4-daemon-light,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,dpkg,iputils-ping,libarchive-zip-perl,libcompress-zlib-perl,libio-compress-perl,perl,libdigest-md5-perl,perl-suid,samba-common-bin,smbclient,tar,ucf

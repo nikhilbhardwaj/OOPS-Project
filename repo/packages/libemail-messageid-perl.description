@@ -1,0 +1,4 @@
+Perl library for unique mail message-id generation
+	
+message-ids are optional, but highly recommended headers that identify a
+message uniquely. the email::messageid module generates unique message-ids.

@@ -1,0 +1,7 @@
+Terminfo action checker (debug)
+	
+the 'tack' program is a diagnostic tool that is designed to create and verify
+the correctness of terminfo's. this program can be used to create new terminal
+descriptions that are not included in the standard ncurses release.
+
+this package contains the debugging symbols.

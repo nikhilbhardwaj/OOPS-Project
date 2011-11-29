@@ -1,0 +1,13 @@
+Tools for working with jigdo files
+	
+jigit makes jigdo easy! run jigit to update existing cds and images
+to the latest release. also contains more utilities written to make
+jigdo files easier to work with.
+
+
+ jigit:         client wrapper script to make jigit-mkimage friendly
+ jigit-mkimage: program to create images from jigdo files
+ iso-image.pl:  example cgi wrapper for mkimage - make images on the fly!
+ dump:          list the contents of a template file
+ jigsum:        output md5 sums in the base64-style jigdo way
+ mkjigsnap:     helper script to be run on the upstream server

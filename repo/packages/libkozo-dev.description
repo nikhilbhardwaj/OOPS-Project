@@ -1,0 +1,6 @@
+Kozo is a database abstraction around the tdb library (dev)
+	
+kozo uses tdb library to store database. the client should not need to know
+how libkozo has stored the data in the database.
+
+this package contains the development headers.

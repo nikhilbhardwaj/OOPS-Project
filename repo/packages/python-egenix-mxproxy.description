@@ -1,0 +1,10 @@
+Generic proxy wrapper type for python
+	
+mxproxy is an extension package that provides a new type that is
+suitable to implement bastion like features without the need to use
+restricted execution environments.
+
+given that current python versions no longer support bastion or rexec
+as secure sand-box execution models, mxproxy fills an important
+gap. it also gives the programmer more control over how and to what
+extent access should be controlled or not.

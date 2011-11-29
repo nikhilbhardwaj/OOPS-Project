@@ -1,0 +1,11 @@
+Support for the grip flavour of emdebian
+	
+supports on-the-fly conversion of regular debian packages
+into 'gripped' packages that have no debian documentation,
+manpages or infopages using deb_build_options.
+
+supports the extension of emdebian grip to packages that
+are not currently available from the grip repository, by
+machines already running emdebian grip.
+
+this package does not depend on the rest of emdebian-tools.

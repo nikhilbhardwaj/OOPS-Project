@@ -1,0 +1,16 @@
+Lightweight subset of exporter
+	
+exporter::lite is an alternative to exporter intended to provide a
+lightweight subset of its functionality.  it supports import(), @export and
+@export_ok and not a whole lot else.
+
+unlike exporter, it is not necessary to inherit from exporter::lite
+(ie. no @isa = qw(exporter::lite) mantra).  exporter::lite simply
+exports its import() function.  this might be called a "mix-in".
+
+setting up a module to export its variables and functions is simple:
+
+package my::module;
+use exporter::lite;
+
+@export = qw($foo bar);

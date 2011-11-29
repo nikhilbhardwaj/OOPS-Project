@@ -1,0 +1,5 @@
+Gnu r color space manipulation
+	
+carries out mapping between assorted color spaces including rgb, hsv, hls,
+ciexyz, cieluv, hcl (polar cieluv), cielab and polar cielab. qualitative,
+sequential, and diverging color palettes based on hcl colors are provided.

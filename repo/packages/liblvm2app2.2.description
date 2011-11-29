@@ -1,0 +1,5 @@
+Lvm2 application library
+	
+this package contains the lvm2app shared library. it allows easier access
+to the basic lvm objects and provides functions to enumerate, create or
+modify them.

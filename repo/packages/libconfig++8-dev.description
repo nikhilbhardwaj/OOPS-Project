@@ -1,0 +1,20 @@
+Parsing and manipulation of structured config files(c++ development)
+	
+this library features a fully reentrant parser and includes bindings for
+both the c and c++ programming languages. it runs on modern posix-compliant
+systems such as linux, solaris, and mac os x (darwin), as well as on
+microsoft windows 2000/xp and later (visual studio or mingw).
+
+this library allows parsing, manipulating and writing structured configuration
+files. its main features are:
+
+ - a fully reentrant parser: multiple configurations can be parsed in
+   concurrent threads at the same time.
+ - a simple, structured configuration file format: more readable and compact
+   than xml and more flexible than windows' "ini" file format.
+ - a low-footprint implementation
+ - proper documentation.
+
+
+this package contains the files needed in order to use libconfig
+in your own c++ programs.

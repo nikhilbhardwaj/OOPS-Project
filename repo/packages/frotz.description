@@ -1,0 +1,10 @@
+Interpreter of z-code story-files
+	
+frotz interprets z-code story-files, which are usually text adventure
+games (although a few arcade-style z-code games have been written).
+examples of such story files include the adventure games published by
+infocom, as well as any games produced by compilers to this format,
+such as inform.  you can find a number of inform-compiled games up for
+anonymous ftp at ftp://ftp.ifarchive.org/ or http at http://www.ifarchive.org/
+
+frotz complies with the z machine specification version 1.0.

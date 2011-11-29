@@ -1,0 +1,4 @@
+PackageId:33863
+Name:vdr-plugin-bitstreamout
+Version:0.89c-6
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libasound2,liboss-salsa-asound2,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libmad0,libstdc++6,libunwind7,vdr-abi-1.6.0-debian,vdr

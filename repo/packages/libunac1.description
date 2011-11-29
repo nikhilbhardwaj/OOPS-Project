@@ -1,0 +1,8 @@
+The unac programming library - runtime version
+	
+unac is a c programmer's library that removes accents from a string.
+
+this package contains only the shared library libunac.so.* and copyright
+information. it is only necessary for programs that use this library. if you
+plan on doing development with unac, you will need the companion -dev
+package as well.

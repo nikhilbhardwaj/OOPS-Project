@@ -1,0 +1,8 @@
+Gui for torque clients
+	
+the torque server dispatches jobs across physically separated
+machines. it may also be beneficial for single machines to organise
+the sequential execution of multiple jobs.
+
+these clients feature the same functionality as their regular
+counterparts and also allow for a graphical interaction.

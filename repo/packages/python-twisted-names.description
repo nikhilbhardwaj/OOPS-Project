@@ -1,0 +1,12 @@
+A dns protocol implementation with client and server
+	
+twisted names is both a domain name server as well as a client
+resolver library. twisted names comes with an "out of the box"
+nameserver which can read most bind-syntax zone files as well as a
+simple python-based configuration format. twisted names can act as an
+authoritative server, perform zone transfers from a master to act as
+a secondary, act as a caching nameserver, or any combination of
+these. twisted names' client resolver library provides functions to
+query for all commonly used record types as well as a replacement for
+the blocking gethostbyname() function provided by the python stdlib
+socket module.

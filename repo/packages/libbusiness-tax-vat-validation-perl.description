@@ -1,0 +1,4 @@
+Library for european vat numbers validation
+	
+business::tax::vat::validation is a perl library providing an easy api
+to validate european vat numbers, checking the vies database when needed.

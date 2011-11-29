@@ -1,0 +1,12 @@
+Erlang/otp application for automated testing
+	
+common test is a portable application for automated testing. it is
+suitable for black-box testing of target systems of any type (i.e.
+not necessarily implemented in erlang), as well as for white-box
+testing of erlang/otp programs. black-box testing is performed via
+standard interfaces (such as snmp, http, corba, telnet, etc) and,
+if required, via user specific interfaces (often called test ports).
+white-box testing of erlang/otp programs is easily accomplished by
+calling the target api functions directly from the test case functions.
+common test also integrates usage of the otp cover tool for code
+coverage analysis of erlang/otp programs.

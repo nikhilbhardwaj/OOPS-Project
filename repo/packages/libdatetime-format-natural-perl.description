@@ -1,0 +1,7 @@
+Perl module for parsing human-readable date/time strings
+	
+datetime::format::natural parses a string with a human readable date/time
+and creates a machine readable one by applying natural parsing logic. it
+also understands timespans.
+
+the module is currently limited to english.

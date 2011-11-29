@@ -1,0 +1,19 @@
+X11 screen saver extension library (development headers)
+	
+libxss provides an x window system client interface to the mit-screen-saver
+extension to the x protocol.
+
+the screen saver extension allows clients behaving as screen savers to
+register themselves with the x server, to better integrate themselves with
+the running session.
+
+this package contains the development headers for the library found in
+libxss1.  non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libscrnsaver

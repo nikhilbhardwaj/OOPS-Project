@@ -1,0 +1,8 @@
+Jcommon - general serializaton framework
+	
+jcommon is a free general purpose java class library that is used in
+several projects at www.jfree.org, including jfreechart and
+jfreereport.
+
+this library module contains a general serialization framework. it simplifies
+the task of writing custom serialization handlers for non-serializable classes.

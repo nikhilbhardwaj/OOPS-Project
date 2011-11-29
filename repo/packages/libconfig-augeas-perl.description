@@ -1,0 +1,9 @@
+Module for manipulating configuration files through augeas
+	
+config::augeas is a perl module that provides an object-oriented interface to
+the augeas open source configuration library. the api is more "perlish" than
+its c counterpart, making it natural to use with perl.
+
+augeas is a library and command line tool that addresses the common problem
+of handling configuration data, providing a means to easily edit many types
+of configuration files. (see the augeas package for details)

@@ -1,0 +1,7 @@
+Fsp v2 protocol stack library - development files
+	
+this is c library which support talking with fsp server using fsp v2 protocol
+and provides posix-like file manipulation interface.
+
+for more information about fsp protocol see http://fsp.sourceforge.net/
+for library and api info see http://fsp.sourceforge.net/fsplib.html

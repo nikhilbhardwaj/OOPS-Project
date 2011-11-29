@@ -1,0 +1,6 @@
+Tcp monitoring and logging tool with support for http 1.1
+	
+this program allows recording of http sessions by being used as
+a proxy server. it writes out the requests you send to a file.
+its recommended usage is as a plugin to funkload.
+.

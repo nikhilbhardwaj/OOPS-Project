@@ -1,0 +1,7 @@
+Gobject introspection data for the gssdp library
+	
+this package contains introspection data for gssdp, a ssdp
+library.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

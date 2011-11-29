@@ -1,0 +1,4 @@
+PackageId:31841
+Name:snort
+Version:2.8.5.2-8 and others
+Deps:adduser,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcrypt11,libgnutls26,libltdl7,libpcap0.8,libpcre3,libprelude2,logrotate,rsyslog,system-log-daemon,busybox-syslogd,dsyslog,inetutils-syslogd,socklog-run,sysklogd,syslog-ng,snort-common,snort-common-libraries,snort-rules-default

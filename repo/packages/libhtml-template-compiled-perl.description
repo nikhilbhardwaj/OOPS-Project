@@ -1,0 +1,7 @@
+Perl template system compiling html::template files to perl code
+	
+html::template::compiled is a template system that exposes the same interface
+as html::template. because it turns the template into perl code, generating
+the output is much faster than with html::template (3-7 times at the moment,
+depending on the features you use). the best performance gain is achieved in
+caching, long-running applications such as those running under mod_perl.

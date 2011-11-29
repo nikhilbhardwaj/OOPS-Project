@@ -1,0 +1,12 @@
+Gnu r package for financial engineering -- futilities
+	
+this package of functions for financial engineering and computational
+finance is part of rmetrics, a collection of packages written and
+compiled by diethelm wuertz and others.
+
+futilities provides basic utility function used throughout rmetrics:
+basic extension, bivariate interpolation, code tables, color
+palettes, column statistics, general s4 class extractors, heaviside
+functions, hypothesis testing, interactive plots, portable (random)
+model innovations / error terms, row statistics, skewness/kurtosis measures
+and vector/matrix add-on functions.

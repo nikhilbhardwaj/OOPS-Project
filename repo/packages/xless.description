@@ -1,0 +1,5 @@
+A file browsing tool for the x window system
+	
+xless allows you to view information in an x window. it allows
+filename (or multiple filenames) arguments, or input via stdin.
+it can print the current buffer and do regular expression searches.

@@ -1,0 +1,17 @@
+Application to read out information from the belgian electronic id card
+	
+this application allows the user to read out any information from a
+belgian electronic id card, by using libbeid and libbeidlibopensc to
+read the data from the card and parse it. both identity information and
+information about the stored cryptographic keys can be read in a
+user-friendly manner, and can easily be printed out or stored for later
+reviewal.
+
+the application verifies the signature of the identity information,
+checks whether it was signed by a government-issued key, and optionally
+checks the certificate against the government's certificate revocation list
+(crl) and/or by using the online certificate status protocol (ocsp) against
+the government's servers.
+
+please read the readme.debian file in the libbeidlibopensc2 package for
+information on setting up your system so that it can read from smartcards.

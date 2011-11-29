@@ -1,0 +1,5 @@
+Perl module to publish rendezvous services
+	
+net::rendezvous::publish creates, publish and manages rendezvous services. it
+can manage how much time will handle network events and updates of internal
+state.

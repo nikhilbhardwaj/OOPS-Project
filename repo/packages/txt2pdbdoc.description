@@ -1,0 +1,9 @@
+Convert plain text files to palm doc (for palmos) and back
+	
+this utility converts plain text files (or html files) to the de facto
+palmos standard doc format for use in document readers (such as "c spot
+run") and editors (such as "zdoc").  doc files are compressed by
+default, and txt2pdbdoc can also convert doc files back to plain text.
+
+
+ homepage: http://homepage.mac.com/pauljlucas/software/txt2pdbdoc/index.html

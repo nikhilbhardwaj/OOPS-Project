@@ -1,0 +1,10 @@
+The gnu debugger (remote server)
+	
+gdb is a source-level debugger, capable of breaking programs at
+any specific line, displaying variable values, and determining
+where errors occurred. currently, it works for c, c++, fortran
+modula 2 and java programs. a must-have for any serious
+programmer.
+
+this package contains gdbserver.  install this to debug remotely
+from another system where gdb is installed.

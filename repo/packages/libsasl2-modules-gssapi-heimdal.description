@@ -1,0 +1,7 @@
+Pluggable authentication modules for sasl (gssapi)
+	
+this is the cyrus sasl api implementation, version 2.1. see package
+libsasl2-2 and rfc 2222 for more information.
+
+this package provides the gssapi plugin, compiled with the heimdal
+kerberos 5 library.

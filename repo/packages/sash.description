@@ -1,0 +1,23 @@
+Stand-alone shell
+	
+sash serves as an interactive substitute for /bin/sh, for use when
+/bin/sh is unusable.  it's statically linked, and includes many standard
+utilities as builtins (type "help" at the prompt for a reference list).
+if you've installed sash before rendering your system unbootable, and
+you have some knowledge of how your system is supposed to work, you might
+be able to repair your system using init=/bin/sash at the boot prompt.
+
+some people also prefer to have sash available as the shell for a
+root account (perhaps an under an alternate name such as sashroot)
+configuration support is included for people who want this.
+
+note: sash is not intended to serve as /bin/sh, and has few of the
+interactive features present in bash or ksh.  it's designed to be simple
+and robust, for people who need to do emergency repair work on a system.
+
+also note: sash doesn't include a built-in fsck -- fsck is too big
+and complicated.  if you need fsck, you'll have to get at least one
+partition or disk working well enough to run fsck.  more generally,
+sash is but one tool of many (backups, backup recovery tools, emergency
+boot disks or partitions, spare parts, testing of disaster plans,
+etc.) to help you recover a damaged system.

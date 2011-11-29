@@ -1,0 +1,17 @@
+Chinese input method data tables for scim platform
+	
+scim (smart common input method) is an input method (im) platform.
+
+this package contains scim table-based input method data for chinese.
+currently the provided tables are:
+
+array30, cangjie, cangjie3, cangjie5, cantonese, cantonhk, cns11643,
+dayi3, ez-big, erbi, erbi-qs, jyutping, quick, simplex, stroke5, wubi,
+wu, zhuyin, zhuyin-big, and ziranma.
+
+traditional chinese users may also want to look at the scim-chewing
+package, which provides a phonetic (bopomofo) input method likely
+better than the one provided by zhuyin and zhuyin-big tables in this
+package.
+
+for details about scim, please see the description of package scim.

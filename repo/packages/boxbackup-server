@@ -1,0 +1,4 @@
+PackageId:1301
+Name:boxbackup-server
+Version:0.11~rc2-7squeeze1
+Deps:adduser,debconf,debconf-2.0,cdebconf,cdebconf-udeb,gawk,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libssl0.9.8,libstdc++6,libunwind7,openssl,perl,ucf,zlib1g

@@ -1,0 +1,6 @@
+Perl module to access information from excel spreadsheets
+	
+spreadsheet::parseexcel is a perl module allows one to extract information
+from excel spreadsheets. it can be used to read information from an excel
+95-2003 file. it cannot read information in the new xml-based xlsx format,
+for that, see spreadsheet::xlsx (libspreadsheet-xlsx-perl) instead.

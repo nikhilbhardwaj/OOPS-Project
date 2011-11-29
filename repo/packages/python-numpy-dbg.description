@@ -1,0 +1,12 @@
+Fast array facility to the python language (debug extension)
+	
+numpy contains a powerful n-dimensional array object, sophisticated
+(broadcasting) functions, tools for integrating c/c++ and fortran
+code, and useful linear algebra, fourier transform, and random number
+capabilities.
+
+numpy replaces the python-numeric and python-numarray modules which
+are now deprecated and shouldn't be used except to support older
+software.
+
+this package contains the extension built for the python debug interpreter.

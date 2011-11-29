@@ -1,0 +1,5 @@
+Send multiple inputs to multiple outputs
+	
+multitee sends all input on file descriptor fdin to each
+descriptor fdout. this is an improved version written by dan
+bernstein of the multitee program for bsd systems.

@@ -1,0 +1,5 @@
+Cgi library for java
+	
+this library allows cgi scripts to be written in java.  the library provides
+access to all the standard cgi variables including post/get. it also makes it
+easy to create input forms in html documents.

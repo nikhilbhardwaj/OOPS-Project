@@ -1,0 +1,18 @@
+Java api for concurrent programming of ejbs and servlets
+	
+the commonj api enables concurrent programming of ejbs and
+servlets within a j2ee application. this api is also known
+as timer and work manager api.
+
+the commonj api contains the following components:
+
+ - timer api:
+   the timer api allows applications to schedule and receive
+   timer notification callbacks for a specific listener defined
+   within an application. timers allow you to schedule and
+   perform work at specific times or intervals.
+ - work manager api:
+   the work manager api allows an application to prioritize
+   work within an ejb or servlet. applications can
+   programmatically execute multiple work items within a
+   container.

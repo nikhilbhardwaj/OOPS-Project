@@ -1,0 +1,9 @@
+Isdn utilities - graphical tools
+	
+this package provides xmonisdn and xisdnload, which are graphical tools
+for isdn. each in its own way gives a visual indication of the status of
+the isdn lines, so that (for example) it is obvious when there is a
+connection.
+
+they have been split out into a separate package to allow the others
+in the suite to avoid dependencies on the x window system.

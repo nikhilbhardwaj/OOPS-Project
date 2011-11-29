@@ -1,0 +1,9 @@
+Documentation files for common c++ "2"
+	
+common c++ "2" is a gnu package which offers portable "abstraction"
+of system services such as threads, networks, and sockets.  common
+c++ also offers individual frameworks generally useful to developing
+portable c++ applications including a object persistence engine, math
+libraries, threading, sockets, etc.  common c++ is small, and highly
+portable.  common c++ will support most unix operating systems as
+well as win32, in addition to gnu/linux.

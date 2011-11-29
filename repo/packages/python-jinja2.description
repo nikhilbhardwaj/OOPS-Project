@@ -1,0 +1,20 @@
+Small but fast and easy to use stand-alone template engine
+	
+jinja2 is a template engine written in pure python. it provides a django
+inspired non-xml syntax but supports inline expressions and an optional
+sandboxed environment.
+
+the key-features are:
+
+ * configurable syntax. if you are generating latex or other formats with
+   jinja2 you can change the delimiters to something that integrates better
+   into the latex markup.
+ * fast. while performance is not the primarily target of jinja2 it’s
+   surprisingly fast. the overhead compared to regular python code was reduced
+   to the very minimum.
+ * easy to debug. jinja2 integrates directly into the python traceback system
+   which allows you to debug jinja2 templates with regular python debugging
+   helpers.
+ * secure. it’s possible to evaluate untrusted template code if the optional
+   sandbox is enabled. this allows jinja2 to be used as templating language
+   for applications where users may modify the template design.

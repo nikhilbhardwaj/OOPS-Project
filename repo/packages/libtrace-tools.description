@@ -1,0 +1,10 @@
+Helper utilities for use with the libtrace process library
+	
+libtrace is a library for trace processing. these tools perform many common
+tasks that are required when analysing and manipulating network traces.
+
+multiple input methods and formats are supported including device capture,
+raw and gz-compressed traces, and sockets.
+
+libtrace is developed by the wand network research group at waikato
+university in new zealand.

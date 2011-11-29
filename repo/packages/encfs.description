@@ -1,0 +1,7 @@
+Encrypted virtual filesystem
+	
+encfs integrates file system encryption into the unix(tm) file system.
+encrypted data is stored within the native file system, thus no
+fixed-size loopback image is required.
+
+encfs uses the fuse kernel driver and library as a backend.

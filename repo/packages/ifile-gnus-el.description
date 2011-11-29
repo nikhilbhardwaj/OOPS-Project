@@ -1,0 +1,7 @@
+A news and mail classifier for the gnus newsreader
+	
+ifile-gnus-el makes it possible to use the emacs gnus newsreader
+together with ifile, a text classifier using the naive bayes
+statistical method.  it is excellent for filtering out spam.
+ifile-gnus currently works with most (all?) of the nnmail backends,
+but does not work with nnimap.

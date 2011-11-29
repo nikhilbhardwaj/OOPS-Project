@@ -1,0 +1,26 @@
+Front-end for viewing of remote desktops in gnome
+	
+tsclient is a gnome program for remotely accessing microsoft windows nt/2000
+terminal services and xp remote desktop sharing as implemented by the remote
+desktop protocol (rdp). using the rdesktop program as a backend, tsclient
+allows users to access and view their desktops as stored on remote windows
+nt/2000/xp servers.
+
+some of tsclient's features include:
+
+  * a gnome panel applet to quickly launch saved rdp files
+  * support for rdpv5 and rdesktop-1.3 arguments
+  * reading .rdp files in the ms unicode format
+  * writing .rdp files in ascii (for compatibility with the ms client)
+  * a "rdp picker" which lists .rdp files in ~/.tsclient/ and launches
+    rdesktop from the rdp file when selected
+
+
+tsclient also supports:
+
+  * vnc clients (*vncviewer)
+  * citrix ica client
+  * x via xnest
+
+
+author:   erick woods <erick@gnomepro.com>

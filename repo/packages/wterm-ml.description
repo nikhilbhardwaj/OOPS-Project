@@ -1,0 +1,17 @@
+Lightweight multilingual terminal emulator for x
+	
+wterm is a color vt102 terminal emulator for the x window system.  while
+lightweight, it provides an elegant interface including nextstep style scroll
+bars and an application menu that integrates well with the window maker
+window manager and gnustep based applications.  wterm works well with any
+window manager or desktop environment.
+
+features of wterm include background images, transparency, and reverse
+transparency.  an extensive set or runtime options are available resulting in
+a very customizable terminal emulator.
+
+this package contains three variants of wterm.  cwterm provides support for
+chinese characters (big5).  kwterm provides support for kanji characters
+(euc-jp or sjis).  gwterm provides greek keyboard support.  if you are
+interested in latin character set support only, please see the wterm
+package.

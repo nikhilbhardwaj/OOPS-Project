@@ -1,0 +1,8 @@
+Daemon for using 3d input devices from 3dconnexion
+	
+spacenavd, is a free software replacement user-space driver (daemon),
+for 3dconnexion's six-degree-of-freedom input devices. it is
+compatible with the original 3dxsrv proprietary daemon provided by
+3dconnexion, and works perfectly with any program that was written
+for the 3dconnexion driver. it also offers another method
+of accessing the device via a new non-x11-dependent protocol.

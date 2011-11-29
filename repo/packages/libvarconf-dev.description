@@ -1,0 +1,10 @@
+Worldforge configuration file handling library - development files
+	
+varconf is a configuration system designed for the stage server. varconf
+can parse configuration files, command-line arguments and environment
+variables. it supports callbacks and can store its configuration
+information in separate config objects or in one global configuration
+instance.
+
+this package contains the development files for compiling applications and
+libraries depending on varconf.

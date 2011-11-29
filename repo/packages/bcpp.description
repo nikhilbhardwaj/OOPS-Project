@@ -1,0 +1,9 @@
+C(++) beautifier
+	
+bcpp indents c/c++ source programs, replacing tabs with spaces or the
+reverse. unlike indent, it does (by design) not attempt to wrap long
+statements.
+
+this version improves the parsing algorithm by marking the state of all
+characters, recognizes a wider range of indention structures, and implements
+a simple algorithm for indenting embedded sql.

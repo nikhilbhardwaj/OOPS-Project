@@ -1,0 +1,22 @@
+Tex live: tex and outline font utilities
+	
+programs for conversion between font formats, testing fonts, virtual fonts,
+
+  .gf and .pk manipulation, mft, fontinst, etc. manipulating opentype,
+  truetype, postscript type 1, etc.
+
+
+this package includes the following ctan packages:
+
+ accfonts -- utilities to derive new fonts from existing ones.
+ afm2pl --
+ epstopdf -- convert eps to 'encapsulated' pdf using ghostscript.
+ fontware --
+ lcdftypetools -- a bundle of outline font manipulation tools.
+ ps2pkm -- generate a pk font from an adobe type 1 font.
+ pstools -- produce encapsulated postscript from postscript.
+ dvipsconfig -- collection of dvips postscript headers.
+ fontinst -- help with installing fonts for tex and latex.
+ fontools -- tools to simplify using fonts (especially tt/otf ones).
+ mft --
+ ttfutils --

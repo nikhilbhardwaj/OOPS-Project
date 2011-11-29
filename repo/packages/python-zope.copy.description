@@ -1,0 +1,6 @@
+Pluggable object copying mechanism
+	
+this package provides a pluggable way to copy persistent objects. it
+was once extracted from the zc.copy package to contain much less
+dependencies. in fact, we only depend on zope.interface to provide
+pluggability.

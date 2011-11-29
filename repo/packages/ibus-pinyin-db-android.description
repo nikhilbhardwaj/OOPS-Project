@@ -1,0 +1,13 @@
+Pinyin engine for ibus, android database
+	
+ibus-pinyin is a im engine for chinese, based on ibus.
+
+this package provide one input method:
+
+  * pinyin: pinyin input method.
+
+
+for more information on pinyin input method, check
+http://en.wikipedia.org/wiki/pinyin_method .
+
+this package contains the android data files used by ibus-pinyin.

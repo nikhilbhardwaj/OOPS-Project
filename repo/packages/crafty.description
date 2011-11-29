@@ -1,0 +1,6 @@
+State-of-the-art chess engine, compatible with xboard
+	
+crafty is the strong chess program played on icc. it uses all of the
+search algorithms you have probably read about and performs better
+than gnu-chess in most positions. it has a reasonable set of features to use,
+and offers a great starting point to try your own new search extensions.

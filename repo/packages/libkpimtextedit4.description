@@ -1,0 +1,7 @@
+Library that provides a textedit with pim-specific features
+	
+kpimtextedit provides a textedit with pim-specific features. it also provides
+so-called rich text builders which can convert the formatted text in the text
+edit to all kinds of markup, like html or bbcode.
+
+this package is part of the kde development platform pim libraries module.

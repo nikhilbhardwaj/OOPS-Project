@@ -1,0 +1,5 @@
+Perl modeule for forcing coercion when validating type constraints
+	
+moosex::meta::typeconstraint::forcecoercion allows to wrap any
+moose::meta::typeconstraint in a way that will force coercion of the
+value when checking or validating a value against it.

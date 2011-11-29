@@ -1,0 +1,10 @@
+Cgi executable for mapserver
+	
+this package contains the mapserv cgi program. it provides the
+mapserver template language, and can be used to implement web map
+service applications.
+
+mapserver is a cgi-based framework for internet map services which
+supports open geospatial consortium (ogc) standards. scripting
+functionality in mapscript is provided by the suggested mapscript
+library packages.

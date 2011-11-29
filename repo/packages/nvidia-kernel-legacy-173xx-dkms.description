@@ -1,0 +1,42 @@
+Nvidia binary kernel module dkms source (173xx legacy version)
+	
+this package builds the nvidia xorg binary kernel module needed by
+nvidia-glx-legacy-173xx, using dkms.
+provided that you have the kernel header packages installed, the kernel
+module will be built for your running kernel and automatically rebuilt for
+any new kernel headers that are installed.
+the nvidia binary drivers provide optimized hardware acceleration of
+opengl applications via a direct-rendering x server for graphics cards
+using nvidia chip sets.  agp, pcie, sli, tv-out and flat panel displays
+are also supported.
+
+this legacy version is the last release that supports the following gpus:
+geforce fx 5100 [nv34], geforce fx 5200 [nv34], geforce fx 5200 ultra [nv34],
+geforce fx 5200le [nv34], geforce fx 5500 [nv34], geforce fx 5600 [nv31],
+geforce fx 5600 ultra [nv31], geforce fx 5600xt [nv31],
+geforce fx 5700 [nv36.2], geforce fx 5700 ultra [nv36.1],
+geforce fx 5700le [nv36], geforce fx 5700ve [nv36.4], geforce fx 5800 [nv30],
+geforce fx 5800 ultra [nv30], geforce fx 5900 [nv35],
+geforce fx 5900 ultra [nv35], geforce fx 5900xt [nv35],
+geforce fx 5900zt [nv35], geforce fx 5950 ultra [nv38],
+geforce fx go5100 [nv34], geforce fx go5200 [nv34m],
+geforce fx go5200 32m/64m [nv34m], geforce fx go5200 64m [nv34m],
+geforce fx go5250 [nv34m], geforce fx go5300 [nv34glm],
+geforce fx go5600 [nv31m], geforce fx go5650 [nv31m],
+geforce fx go5700 [nv36], geforce pcx 4300 [nv18], geforce pcx 5300 [nv37gl],
+geforce pcx 5750 [nv36], geforce pcx 5900 [nv35],
+geforce 6800 ultra [nv40] (only pci id 10de:00f0), quadro fx 330 [nv37gl],
+quadro fx 500/600 pci [nv34gl], quadro fx 700 [nv35gl],
+quadro fx 1000 [nv30gl], quadro fx 1100 [nv36gl], quadro fx 1300 [nv38gl],
+quadro fx 2000 [nv30gl], quadro fx 3000 [nv35gl], quadro fx go700 [nv31],
+quadro fx go1000 [nv36], quadro nvs 280 pci [nv34gl],
+quadro nvs 280 pci-e [nv37gl], nv31, nv31m, nv31m pro, nv31glm, nv31glm pro,
+nv34gl, nv36.5, nv36m pro, nv36map, nv36gl.
+
+there are several "more modern" gpus supported by this package, too, but the
+updated drivers in the newer legacy packages or the current nvidia-glx
+package usually provide more features and better support.
+look at the other legacy packages for older cards.
+
+see /usr/share/doc/nvidia-kernel-legacy-173xx-dkms/readme.txt.gz
+for a complete list of supported gpus and pci ids.

@@ -1,0 +1,9 @@
+The motif interface for cmucl
+	
+this package contains the lisp interface to motif and
+the motifd server program that actually does the processing.
+
+the motifd server is based on lesstif.
+
+included in this package is an x based replacement for the tty based
+debugger and inspector.

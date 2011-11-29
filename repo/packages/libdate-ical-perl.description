@@ -1,0 +1,5 @@
+Perl extension for icalendar date objects
+	
+date::ical talks the ical date format, and is intended to
+be a base class for other date/calendar modules that know
+about ical time format also.

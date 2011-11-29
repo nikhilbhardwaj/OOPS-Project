@@ -1,0 +1,8 @@
+Documentation for the python-qwt3d library
+	
+pyqwt3d is a set of python bindings for the qwtplot3d c++ class
+library which extends the qt framework with widgets to visualize
+3-dimensional data. this package contains documentation and
+examples for both qt3 and qt4. the  examples show how easy it is
+to make a 3d plot and how to save a 3d plot to an image or an
+(e)ps/pdf file.

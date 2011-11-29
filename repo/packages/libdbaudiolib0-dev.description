@@ -1,0 +1,8 @@
+Communicate to the dbmix audio system (development files)
+	
+the dbaudiolib library allows a program to communicate with the dbmix sound
+daemon (dbfsd) that mixes audio streams from multiple sources and sends the
+output to a single sound card.
+
+this package includes the libraries and header files needed to compile
+programs using libdbaudiolib.

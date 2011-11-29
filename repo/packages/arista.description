@@ -1,0 +1,17 @@
+Multimedia transcoder for the gnome desktop
+	
+arista is a simple multimedia transcoder, it focuses on being easy to use
+by making complex task of encoding for various devices simple.
+
+users should pick an input and a target device, choose a file to save to
+and go.
+features:
+
+ * presets for ipod, computer, dvd player, psp, playstation 3, and more.
+ * live preview to see encoded quality.
+ * automatically discover available dvd media and video 4 linux (v4l)
+   devices.
+ * rip straight from dvd media easily (requires libdvdcss).
+ * rip straight from v4l devices.
+ * simple terminal client for scripting.
+ * automatic preset updating.

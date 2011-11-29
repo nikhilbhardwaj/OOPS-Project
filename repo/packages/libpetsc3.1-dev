@@ -1,0 +1,4 @@
+PackageId:19393
+Name:libpetsc3.1-dev
+Version:3.1.dfsg-7
+Deps:gfortran,lam4-dev,libblas-dev,libblas-3gf.so,libatlas-base-dev,libhdf5-mpi-dev,libhypre-dev,liblapack-dev,liblapack-3gf.so,libopenmpi-dev,libpetsc3.1,libscotch-dev,libspooles-dev,libsuitesparse-dev,libsuperlu3-dev,libx11-dev

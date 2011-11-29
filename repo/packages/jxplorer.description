@@ -1,0 +1,33 @@
+Java ldap browser
+	
+jxplorer is an open source ldap browser originally developed by
+computer associates' etrust directory development lab. it is a
+standards compliant general purpose ldap browser that can be used
+to read and search any ldap directory, or any x500 directory with
+an ldap interface.
+jxplorer is a fully functional piece of software with advanced
+security integration and support for the more difficult and
+obscure parts of the ldap protocol. it should run on any java
+supporting operating system.
+main features are:
+
+
+ * standard ldap operations: add/delete/copy/modify
+ * complex operations: tree copy and tree delete
+ * optional gui based search filter construction
+ * ssl and sasl authentication
+ * pluggable editors/viewers
+ * pluggable security providers
+ * html templates/forms for data display
+ * full i18n support
+ * ldif file format support
+ * highly user configurable
+ * drag-n-drop browsing operation
+ * dsml support
+ * handles complex ldap cases:
+   o multi valued rdns
+   o binary attributes
+   o certificates and passwords
+   o unicode characters
+   o special characters / utf8 in distinguished names.
+ * extensible architecture with object class based java plugins

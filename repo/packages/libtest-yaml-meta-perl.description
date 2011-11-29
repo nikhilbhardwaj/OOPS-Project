@@ -1,0 +1,9 @@
+Test module to validate a meta.yml file
+	
+test::yaml::meta was written to ensure that a meta.yml file, provided with a
+standard distribution uploaded to cpan, meets the specifications that slowly
+being introduced to module uploads, via the use of extutils::makemaker,
+module::build and module::install.
+
+this package is considered deprecated in favour of test::cpan::meta, which
+provides similar functionality (see libtest-cpan-meta-perl).

@@ -1,0 +1,7 @@
+The opengl extension wrangler - runtime environment
+	
+for more information about glew please refer to the description of the
+libglew-dev package.
+
+this package contains the runtime support files, built with glew_mx option,
+adding support for thread-safe usage of multiple rendering contexts.

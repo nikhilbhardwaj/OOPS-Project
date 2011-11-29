@@ -1,0 +1,6 @@
+Load balancing tool for serial network connections
+	
+the eql_enslave tool allow you to double, triple, quadruple your
+network bandwidth with multiple point-to-point links. works with
+ppp or slip.  it needs "eql (serial line load balancing)
+support" in the kernel.

@@ -1,0 +1,12 @@
+Chinese hz/gb/big5/uni/utf7/utf8 encodings auto-converter
+	
+autoconvert is an intelligent chinese encoding converter. it uses
+builtin functions to judge the type of the input file's chinese
+encoding (such as gb/big5/hz), then converts the input file to any
+type of chinese encoding you want. you can use autoconvert to handle
+incoming mail, automatically converting messages to the chinese
+encoding you want.
+it can alse handle unicode/utf7/utf8 now.
+
+
+ author: yu guanghui <ygh@debian.org>

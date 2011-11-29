@@ -1,0 +1,20 @@
+Plugins for the nagios network monitoring and management system
+	
+nagios is a host/service/network monitoring and management system. it has
+the following features:
+
+
+ *  monitoring of network services (via tcp port, smtp, pop3, http, nntp,
+    ping, etc.)
+ *  plugin interface to allow for user-developed service checks
+ *  contact notifications when problems occur and get resolved (via email,
+    pager, or user-defined method)
+ *  ability to define event handlers to be run during service or host events
+    (for proactive problem resolution)
+ *  web output (current status, notifications, history, log file, etc.)
+
+
+this metapackage will install the entire suite of plugins for nagios.
+if you are installing nagios plugins on a remote "satellite" server
+(using nagios-nrpe-server or nsca), you may be interested in the
+nagios-plugins-basic package.

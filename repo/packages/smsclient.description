@@ -1,0 +1,8 @@
+A program for sending short messages (sm / sms)
+	
+smsclient is a tool for sending short messages (sm - often false
+named sms). sm can be sent to mobile phones. additional some
+paging systems are supported by this tool. smsclient supports
+the common protocols ucp, tap and some other. out of the box there
+is preconfigured support for many local services, but smsclient
+can be easily extended to support other systems.

@@ -1,0 +1,6 @@
+Interfaces gmp to python for fast, unbound-precision computations
+	
+gmpy is a c-coded python extension module that wraps the gmp library to
+provide to python code fast multiprecision arithmetic (integer, rational, and
+float), random number generation, advanced number-theoretical functions, and
+more.

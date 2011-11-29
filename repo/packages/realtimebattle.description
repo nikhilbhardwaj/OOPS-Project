@@ -1,0 +1,10 @@
+Programming game
+	
+realtimebattle is a programming game in which robots controlled by programs
+are fighting each other. the goal is to destroy the enemies, using the
+radar to examine the environment and the cannon to shoot.
+
+robot programs can be written in any language, all communication
+with the main program is done via stdout/stdin.
+
+this package contain the main program, and some robot.

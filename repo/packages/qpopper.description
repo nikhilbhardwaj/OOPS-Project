@@ -1,0 +1,6 @@
+Enhanced post office protocol server (pop3)
+	
+this is the qualcomm enhanced version of the post office protocol
+daemon (pop3 daemon), based on the latest bsd version. the qualcomm
+popper has some extensions to the normal pop3 daemon, such as uidl
+and bulletin support.

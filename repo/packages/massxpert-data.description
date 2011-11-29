@@ -1,0 +1,9 @@
+Linear polymer mass spectrometry software - arch-indep data
+	
+massxpert is a program to simulate and analyse mass spectrometric
+data obtained on linear (bio-)polymers. it is the successor of gnu
+polyxmass.
+
+this package contains the architecture-independent data required for
+the proper functioning of massxpert. for example, polymer chemistry
+definition files are in this package.

@@ -1,0 +1,11 @@
+Collection of useful tools for velocity template engine - documentation
+	
+the velocitytools project is a collection of useful java classes (aka tools),
+as well as infrastructure to easily, automatically and transparently
+make these tools available to velocity templates.
+
+project include easy integration of velocity into the view-layer of
+web applications (via the velocityviewtag and
+velocityviewservlet) and integration with struts 1.x applications.
+
+this package provides the api documentation for velocity tools.

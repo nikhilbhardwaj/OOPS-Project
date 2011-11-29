@@ -1,0 +1,35 @@
+X terminal-emulator similar to xterm, but smaller
+	
+xvt is an x terminal-emulator that is designed to be more or less
+compatible with xterm while using much less swap space.  it is mainly
+intended for use at sites which use large numbers of x terminals but
+may also be useful on single workstations that are short of memory.
+the main way that xvt achieves its small size is by avoiding the use
+of the x toolkit.
+
+if you are looking for a more featureful terminal-emulator than xvt,
+but one which still uses less swap space than xterm, consider rxvt.
+
+features of xterm which xvt does not support include:
+
+
+ - tektronix 4014 emulation
+ - session logging
+ - pop-up menus.  the only one of xterm's popup menu commands that
+   is provided in xvt is displaying and hiding of the scrollbar
+   and this is done simply by pressing any mouse key in the window
+   with the control key held down.
+ - toolkit style configurability.  in particular, xvt does not
+   allow the user to remap the mouse or keyboard keys.
+
+
+features which are supported include:
+
+
+ - vt100 emulation.  most of the main escape sequences are supported --
+   certainly all those used by the standard screen based unix
+   applications.
+ - lines that scroll off the top of the window are saved and can be
+   scrolled back with a scrollbar.
+ - text selection and insertion including double and triple click for
+   words and lines.

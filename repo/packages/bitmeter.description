@@ -1,0 +1,13 @@
+Diagnosis tool for jack audio software
+	
+jack bitmeter is a diagnosis tool for jack audio software.  as its name
+might suggest, the bitmeter operates at the bare metal of jack's i/o
+layer, looking at the 32 binary digits in each individual sample.
+
+think of bitmeter like the cable detector in your toolbox. you cannot
+use a cable detector to drive screws into wood, or to undo bolts, or
+measure the length of a copper pipe, but it's the perfect tool for
+detecting hidden cables in walls before you drill. you will rarely need
+bitmeter, in fact most jack users will never use it at all, but having
+it and never needing it is much better than needing it and not having
+it.

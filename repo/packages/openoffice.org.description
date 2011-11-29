@@ -1,0 +1,47 @@
+Office productivity suite
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this metapackage installs all components of openoffice.org:
+
+ * openoffice.org-writer: word processor
+ * openoffice.org-calc: spreadsheet
+ * openoffice.org-impress: presentation
+ * openoffice.org-draw: drawing
+ * openoffice.org-base: database
+ * openoffice.org-math: equation editor
+ * openoffice.org-filter-mobiledev: mobile devices filters
+ * openoffice.org-filter-binfilter: legacy filters (e.g. staroffice 5.2)
+
+
+you can extend the functionality of openoffice.org by installing these
+packages:
+
+ * hunspell-dictionary-*/myspell-dictionary-*: hunspell/myspell dictionaries
+   for use with openoffice.org
+ * openoffice.org-l10n-*: ui interface translation
+ * openoffice.org-help-*: user help
+ * openoffice.org-thesaurus-*: thesauri for the use with openoffice.org
+ * openoffice.org-hyphenation-*: hyphenation patterns for openoffice.org
+ * openoffice.org-gtk: gtk ui plugin, gnome file picker support,
+   quickstarter for gnomes notification are
+ * openoffice.org-gnome: gnome vfs, gconf backend
+ * openoffice.org-kde: kde ui plugin and kde file picker support
+ * menu: will add openoffice.org menu entries for every debian window manager.
+ * unixodbc: odbc database support
+ * cups-bsd: allows openoffice.org to detect your cups printer queues
+    automatically
+ * libsane: use your sane-supported scanner with openoffice.org
+ * libxrender1: speed up display by using xrender library
+ * libgl1: opengl support
+ * openclipart-openoffice.org: open clip art gallery with ooo index files
+ * iceweasel | firefox | icedove | thunderbird | iceape-browser | mozilla-browser:
+   mozilla profile with certificates needed for xml security...
+ * openjdk-6-jre | gcj-jre | java5-runtime:
+   java runtime environment for use with openoffice.org
+ * pstoedit / imagemagick: helper tools for eps thumbnails
+ * gstreamer0.10-plugins-*: gstreamer plugins for use with ooos media backend
+ * libpaper-utils: papersize detection support via paperconf
+ * libldap-2.4-2: ldap client library; needed for ooo getting its profiles
+   from ldap

@@ -1,0 +1,13 @@
+Lightweight virtual machine - headers
+	
+neko provides a common runtime for several different languages,
+including javascript and haxe.
+
+the virtual machine is both very lightweight and well optimized.  it
+can be easily embedded into other applications, and libraries are
+directly accessible using the c foreign function interface.
+
+this package includes the header files for development using the neko
+virtual machine.
+
+neko was written by nicolas cannasse.

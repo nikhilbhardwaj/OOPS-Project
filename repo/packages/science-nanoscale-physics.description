@@ -1,0 +1,23 @@
+Debian science nanoscale physics packages
+	
+this metapackage will install debian science packages related to
+nanoscale physics, which corresponds to the study of physical systems
+typically ranging from 1 to 100 nm in size. the properties of such
+systems usually depend on the number of atoms they are made of, while
+this number is still relatively large for an accurate description.
+
+the nanoscale is the meeting point of classical and quantum physics.
+previous research efforts were considering either smaller systems, for
+which everybody could develop their own methods and software
+independently, or much bigger systems, for which it was clearly
+impossible to provide a fine-grained description. addressing the issues
+raised by the nanoscale requires however cooperative and coordinated
+efforts in a multidisciplinary context. this metapackage is part of
+such an endeavor.
+
+please note that packages listed as "recommended" may not be installed
+by default, and that packages listed as "suggested" will not be
+installed unless the user asks for them to be installed.
+
+you might also be interested in the debtag field::physics and, depending on
+your focus, in the physics and education-physics metapackages.

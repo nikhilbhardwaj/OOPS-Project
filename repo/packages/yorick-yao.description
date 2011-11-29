@@ -1,0 +1,19 @@
+A yorick-based adaptive optics system simulator
+	
+yao is a monte-carlo simulation package for adaptive optics. it can
+be used stand-alone through a gtk-based integrated graphical user
+interface or as a yorick language extension. yao features:
+
+  * shack-hartmann and curvature wfs, on or off axis;
+  * support for stackarray (piezostack), curvature (bimorph), modal
+    (zernike) and tip-tilt deformable mirrors. the altitude of
+    conjugation is adjustable;
+  * arbitrary number of wfss and dms, with the possibility of mixing
+    types. it is therefore possible (and easy) to simulate single dm
+    systems, as well as single non-zero conjugate, glao and mcao
+    systems;
+  * support for natural and laser guide stars (or a mix), wfs with
+    photon and read-out noise;
+  * multi-layered atmospheric model with geometrical propagation
+    only;
+  * speed-optimized loop: critical routines have been coded in c.

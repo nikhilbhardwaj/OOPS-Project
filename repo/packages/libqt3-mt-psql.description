@@ -1,0 +1,5 @@
+Postgresql database driver for qt3 (threaded)
+	
+this package contains the threaded postgresql plugin for qt3.
+install it if you intend to use or write qt programs that are
+to access a postgresql db.

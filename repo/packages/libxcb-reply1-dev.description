@@ -1,0 +1,11 @@
+Utility libraries for x c binding -- reply
+	
+this package contains the header and library files needed to build software
+using libxcb-reply.
+
+the xcb-util module provides a number of libraries which sit on top of
+libxcb, the core x protocol library, and some of the extension
+libraries. these experimental libraries provide convenience functions
+and interfaces which make the raw x protocol more usable. some of the
+libraries also provide client-side code which is not strictly part of
+the x protocol but which have traditionally been provided by xlib.

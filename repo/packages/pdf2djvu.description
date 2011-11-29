@@ -1,0 +1,9 @@
+Pdf to djvu converter
+	
+pdf2djvu creates djvu files from pdf files. it's able to extract:
+
+ - graphics,
+ - text layer,
+ - hyperlinks,
+ - document outline (bookmarks),
+ - metadata (including xmp metadata).

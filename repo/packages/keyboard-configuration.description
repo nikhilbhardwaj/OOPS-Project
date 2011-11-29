@@ -1,0 +1,6 @@
+System-wide keyboard preferences
+	
+this package maintains the keyboard preferences in
+/etc/default/keyboard.  other packages can use the information
+provided by this package in order to configure the keyboard on the
+console or in x window.

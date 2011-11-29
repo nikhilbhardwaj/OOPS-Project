@@ -1,0 +1,5 @@
+Display stack trace of a running process
+	
+pstack dumps a stack trace for a process, given the pid of that process.  if
+the process named is part of a thread group, then all the threads in the group
+are traced.

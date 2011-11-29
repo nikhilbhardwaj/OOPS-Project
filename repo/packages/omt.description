@@ -1,0 +1,6 @@
+A tool for mirroring web pages
+	
+opal mirror tool is a program written in perl to mirror web pages or download
+files from the web. it has the powerful ability to rewrite the content of the
+pages to make a fully functional mirror and the user can specify additional
+rewrite rules at the command line.

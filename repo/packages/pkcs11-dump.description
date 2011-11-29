@@ -1,0 +1,9 @@
+Dump pkcs#11 token content
+	
+pkcs11-dump is a program to query pkcs#11 (cryptoki) provider
+modules for objects available on a specific crypto device and
+dump them to stdout in a human-readable format.
+
+this package is mostly interesting for people familiar with
+pkcs#11 who are developing or analyzing a pkcs#11 module or
+like to get a detailed view of objects on a crypto device.

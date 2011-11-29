@@ -1,0 +1,16 @@
+Light and moose-compatible meta-class for perl5
+	
+the coat module was inspired by the excellent moose meta class which provides
+enhanced object creation for perl5.
+
+moose is great, but has huge dependencies which makes it difficult to
+use in restricted environments.
+
+this module implements the basic goodness of moose, namely accessors
+automagic, hook modifiers and inheritance facilities.
+
+it is not moose but the small bunch of features provided are
+moose-compatible. that means you can start with coat and, if later you
+get to the point where you can or want to upgrade to moose, your code won't
+have to change: every features provided by coat exist in the moose's api (but
+the opposite is not true, as you can imagine).

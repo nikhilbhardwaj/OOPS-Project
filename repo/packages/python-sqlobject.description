@@ -1,0 +1,16 @@
+Object relational manager providing an object interface to your database
+	
+sqlobject is an object-relational mapper. it allows you to translate rdbms
+table rows into python objects, and manipulate those objects to transparently
+manipulate the database.
+
+in using sqlobject, you will create a class definition that will describe how
+the object connects to the database (in addition to any other methods you may
+wish to add to the class). sqlobject will produce the code to access the
+database, and update the database with your changes. the interface to the
+database is meant to be indistinguishable from other interfaces you may add
+to the object.
+
+sqlobject also includes a novel feature to generate where clauses using
+python syntax and objects (instead of generating sql using string
+substitution, as is traditional).

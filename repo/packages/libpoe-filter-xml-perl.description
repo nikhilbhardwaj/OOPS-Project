@@ -1,0 +1,14 @@
+Poe filter for parsing xml
+	
+poe::filter::xml provides poe with a completely encapsulated xml parsing
+strategy for poe::wheels that will be dealing with xml streams.
+
+poe::filter::xml relies upon xml::sax and xml::sax::parserfactory to acquire
+a parser for parsing xml.
+
+the assumed parser is xml::sax::expat::incremental (need a real push parser)
+
+by default, the filter will spit out poe::filter::xml::nodes because that is
+what the default xml::sax compliant handler produces from the stream it is
+given. you are of course encouraged to override the default handler for your
+own purposes if you feel poe::filter::xml::node to be inadequate.

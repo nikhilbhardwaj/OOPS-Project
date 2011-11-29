@@ -1,0 +1,11 @@
+Daemon to sign dns zone files periodically
+	
+opendnssec is a complete dnssec zone signing system which is very
+easy to use with stability and security in mind.  there are a lot of
+details in signing zone files with dnssec and opendnssec covers most
+of it.
+
+this package contains opendnssec signer engine.  the task of the
+signer engine is to schedule signing operation on dns zones.  taking
+input from the kasp, it will automatically sign zones and keep their
+signatures up-to-date.

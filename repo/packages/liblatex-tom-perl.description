@@ -1,0 +1,10 @@
+A module for parsing, analyzing and manipulating latex documents
+	
+this module provides a parser which parses and interprets (though not fully)
+latex documents and returns a tree-based representation of what it finds.
+this tree is a latex::tom::tree. the tree contains latex::tom::node nodes.
+
+this module should be especially useful to anyone who wants to do processing
+of latex documents that requires extraction of plain-text information, or
+altering of the plain-text components (or alternatively, the math-text
+components).

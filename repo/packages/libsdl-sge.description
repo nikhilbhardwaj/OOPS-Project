@@ -1,0 +1,8 @@
+Extension of graphic functions for the sdl multimedia library
+	
+sge is a layer over the sdl multimedia library which provides common graphics
+operations such as clipping, block copies, drawing of lines, circles and
+primitives, rotation and scaling of surfaces, pixel operations, palette
+functions and many more.
+
+this package contains the libsdl-sge runtime library.

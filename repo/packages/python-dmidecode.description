@@ -1,0 +1,9 @@
+Python extension module for dmidecode
+	
+dmi (the desktop management interface) provides a standardized description of
+a computer's hardware, including characteristics such as bios serial number
+and hardware connectors.
+
+this package provides an interface to the dmi data available from the bios.
+it is intended to be used as a back-end tool by other hardware detection
+programs implemented in python.

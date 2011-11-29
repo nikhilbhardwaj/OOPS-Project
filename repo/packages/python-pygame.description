@@ -1,0 +1,9 @@
+Sdl bindings for games development in python
+	
+a multimedia development kit for python. pygame provides modules for you
+to access the video display, play sounds, track time, read the mouse and
+joystick, control the cd player, render true type fonts and more. it does
+this using mainly the cross-platform sdl library, a lightweight wrapper
+to os-specific apis.
+
+this package also includes pygame's api documentation and examples.

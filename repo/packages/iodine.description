@@ -1,0 +1,9 @@
+Tool for tunneling ipv4 data through a dns server
+	
+this is a piece of software that lets you tunnel ipv4 data through a dns
+server. this can be usable in different situations where internet access is
+firewalled, but dns queries are allowed.
+
+iodine is similar to nstx but has password authentication, brings up the
+tun interface automatically and lets the user specify the ip address as a
+command line option.

@@ -1,0 +1,4 @@
+PackageId:33687
+Name:update-notifier
+Version:0.99.3debian8
+Deps:gconf2,gksu,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdbus-glib-1-2,libgconf2-4,libgdu0,libglib2.0-0,libgtk2.0-0,libgudev-1.0-0,libnotify1,libnotify1-gtk2.10,libx11-6,notification-daemon,notification-daemon-xfce,xfce4-notifyd,python,update-manager-gnome,update-notifier-common

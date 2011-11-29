@@ -1,0 +1,9 @@
+Gearman distributed job server and perl interface
+	
+gearman is a system to farm out work to other machines, dispatching function
+calls to machines that are better suited to do work, to do work in parallel,
+to load balance lots of function calls, or even to call functions between
+languages.
+
+this package contains both the gearman server as well as the corresponding
+perl bindings.

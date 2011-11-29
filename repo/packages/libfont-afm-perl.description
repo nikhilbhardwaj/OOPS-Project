@@ -1,0 +1,10 @@
+Font::afm - interface to adobe font metrics files
+	
+this module implements the font::afm class. objects of this class are
+initialised from an afm-file and allows you to obtain information
+about the font and the metrics of the various glyphs in the font.
+
+all measurements in afm files are given in terms of units equal to
+1/1000 of the scale factor of the font being used. to compute actual
+sizes in a document, these amounts should be multiplied by (scale
+factor of font)/1000.

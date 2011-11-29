@@ -1,0 +1,10 @@
+Object-oriented python interface for rrd
+	
+pyrrd is a module that wraps rrdtool (round-robin database tool) to allow
+for the greatest possible programmatic ease in creating, updating, querying
+and graphing rrd data. the idea is to make rrdtool insanely easy to use and
+to be aesthetically pleasing for python programmers.
+
+it is different from python-rrdtool, which is more a simple way to use
+rrdtool as by command line, because python-pyrrd wraps options in objects
+that are more easy and comfortable to use.

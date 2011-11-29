@@ -1,0 +1,6 @@
+Gnu mail abstraction library
+	
+this is gnu's mail abstraction library.  this library allows programs to
+hook into a single library for many different types of mail backends.
+the following backend stores are currently provided: mbox, mh, maildir,
+pop3, imap4.

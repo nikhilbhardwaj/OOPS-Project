@@ -1,0 +1,4 @@
+PackageId:27836
+Name:puppet-testsuite
+Version:2.6.2-5+squeeze1
+Deps:facter,git-core,git,libldap-ruby1.8,libmocha-ruby1.8,librspec-ruby,lsb-base,mongrel,puppet,puppetmaster,rails,rdoc,ruby,ruby1.8

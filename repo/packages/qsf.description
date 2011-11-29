@@ -1,0 +1,26 @@
+Small and fast bayesian spam filter
+	
+quick spam filter (qsf) is an open source email classification filter,
+designed to be small, fast, and accurate, which works to classify incoming
+email as either spam or non-spam.
+
+qsf's targets are speed, accuracy and simplicity:
+
+ * it is small and is written in c so it starts up quickly, unlike filters
+ written in perl.
+ * it understands mime and html, so it can intelligently deal with modern
+ spam, unlike older bayesian filters such as ifile.
+ * it runs as an inline filter rather than as a daemon, so it is simple to
+ install.
+ * it is written to do only one job - decide whether an email is spam or not
+ using the content of the message alone - so it is less complex than filters
+ such as spamassassin. less complexity means bugs and security problems are
+ less likely.
+ * as well as words and word pairs, qsf also spots special patterns in email
+ such as runs of gibberish, html comments embedded in text, and other common
+ spam giveaways, and its flexible tokeniser allows more patterns to be added
+ as spammers change their tactics.
+
+
+
+ homepage: http://code.google.com/p/qsf/

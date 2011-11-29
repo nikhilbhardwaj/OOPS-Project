@@ -1,0 +1,5 @@
+Subunittestprogresslistener for cppunit - c++ shared library
+	
+subunit is a protocol for test activity reporting. the
+subunittestprogresslistener permits outputting subunit from a cppunit test
+suite.

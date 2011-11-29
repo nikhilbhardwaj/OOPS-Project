@@ -1,0 +1,7 @@
+Simple and extensible templating module
+	
+text::micromason interpolates blocks of perl code embedded into text strings.
+each micromason object acts as a "template compiler" which converts templates
+from text-with-embedded-code formats into ready-to-execute perl subroutines.
+if you want to use the text::template compatibility mode, you will also need
+to install text::balanced.

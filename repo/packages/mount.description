@@ -1,0 +1,4 @@
+Tools for mounting and manipulating filesystems
+	
+this package provides the mount(8), umount(8), swapon(8),
+swapoff(8), and losetup(8) commands.

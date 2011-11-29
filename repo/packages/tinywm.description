@@ -1,0 +1,9 @@
+Tiny window manager
+	
+tinywm is a small, simple window manager.  it has a minimal memory
+footprint, which makes it useful in embedded systems.  it features window
+move, resize, and raise operations, and supports "sloppy focus".
+
+due to its simplicity, its source code (in c and python) can be used as a
+reference implementation for developers seeking to understand basic window
+manager programming.

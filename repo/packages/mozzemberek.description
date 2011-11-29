@@ -1,0 +1,7 @@
+Turkish spell checking for firefox and xulrunner applications
+	
+mozzemberek provides turkish spell checking for xulrunner based applications
+(iceweasel, firefox, prism, seamonkey, etc.) via zemberek-server.
+
+mozzemberek can use a remote zemberek-server for spell checking. this feature
+is configurable via extension's options dialog.

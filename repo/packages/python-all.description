@@ -1,0 +1,8 @@
+Package depending on all supported python runtime versions
+	
+the package currently depends on python2.5 and python2.6, in the future,
+dependencies on jython (python for a jvm) and ironpython (python for mono)
+may be added.
+
+this package is used as a build dependency for other packages to
+avoid hardcoded dependencies on specific python runtimes.

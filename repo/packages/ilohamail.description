@@ -1,0 +1,39 @@
+Light weight yet full featured multilingual web-based imap/pop3 client
+	
+ilohamail (pronounced: e-lo-ha-mail) is a light weight yet full featured
+multilingual webmail program that is easy to use.
+
+admin features:
+
+ * light weight and fast
+ * extensive multilingual capabilities
+ * modular - easily modifiable to accommodate different backends.
+ * activity logging
+ * spam prevention
+ * multiple host/domain support
+ * auto-appended tag-lines
+ * optional mysql backend for improved scalability and performance.
+ * external smtp server support
+ * imap caching
+ * theme support
+
+
+client features:
+
+ * pop3 & imap support
+ * send, receive, file, delete messages
+ * gpg support
+ * multiple sender identities
+ * spell checker (with aspell)
+ * create, rename, delete folders
+ * send/receive attachments
+ * view images inline
+ * full featured contacts list
+ * calendar included
+ * bookmarks manager
+ * search messages
+ * customizable - over 2 dozen user preferences
+ * support for over 20 languages
+
+
+upstream homepage is http://www.ilohamail.org/

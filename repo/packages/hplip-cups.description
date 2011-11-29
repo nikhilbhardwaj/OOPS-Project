@@ -1,0 +1,18 @@
+Hp linux printing and imaging - cups raster driver (hpcups)
+	
+this package contains a cups-raster-based printer driver which adds support
+for most inkjet printers and some laserjet printers manufactured by hp. it
+does not provide ppds for the fax functionality of hp's multi-function
+devices.
+
+users of the cups printing system are advised to also install the
+hplip package, and use the hp cups backend to send data to the printer.
+hplip supports usb, networked and parallel-port devices, and enables
+extended hpcups functionality such as border-less printing.
+selecting any hpcups ppd in cups will use hpcups automatically.
+
+no physical ppds are shipped with this driver. ppds are dynamically
+generated via a cups ddk .drv file.
+
+this package can be installed to provide a minimal headless printer
+solution using cups.

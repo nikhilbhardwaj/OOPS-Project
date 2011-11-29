@@ -1,0 +1,7 @@
+Scheme control for network interfaces
+	
+ifscheme allows you to change network configuration schemes or query the
+current scheme. it integrates with the ifup(8) command and interfaces(5). for
+example, you might use this program to configure a "home" scheme and a "work"
+scheme for a network device on a laptop. when you move between home and work,
+a simple command can reconfigure your networking.

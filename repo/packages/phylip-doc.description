@@ -1,0 +1,11 @@
+Package of programs for inferring phylogenies
+	
+the phylogeny inference package is a package of programs for inferring
+phylogenies (evolutionary trees) from sequences.
+methods that are available in the package include parsimony, distance
+matrix, and likelihood methods, including bootstrapping and consensus
+trees. data types that can be handled include molecular sequences, gene
+frequencies, restriction sites, distance matrices, and 0/1 discrete
+characters.
+
+this package contains the html documentation

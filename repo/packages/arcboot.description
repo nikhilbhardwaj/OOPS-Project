@@ -1,0 +1,6 @@
+Bootloader for mips based sgi ip22 and ip32 machines
+	
+arcboot is a bootloader for sgi ip22 and ip32 machines like the indy, indigo2
+and o2. it is able to boot the linux kernel from ext2 and ext3 filesystems.
+support for other arcs based subarchitectures can easily be added. it is
+currently not capable of booting irix or to boot from iso9660 cdroms though.

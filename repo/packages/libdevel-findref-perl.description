@@ -1,0 +1,14 @@
+Perl module to find variables referring to an object
+	
+devel::findref is a module that can help developers track down reference
+problems. since perl keeps track of everything internally, it is usually
+possible to take an object/scalar/what-have-you and find everything that is
+referring to it.
+
+one common scenario is that some object goes out of scope and you expect it
+to be destroyed, but there are still references to it that keep it from being
+garbage collected.
+
+this module can output a tree containing a list of variables that point to a
+given value, along with some context about them, such as their scope and
+where they are.

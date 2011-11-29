@@ -1,0 +1,20 @@
+Extract bibliographic references from various sources
+	
+cb2bib is a program to extract bibliographic references from
+unformatted and non standard sources, like:
+
+ - email alerts;
+ - journal web pages;
+ - and most interestingly pdf files.
+
+
+output references are written to bibtex-formatted files. other
+features include:
+
+ - article files can be linked and renamed by dragging them onto the
+   cb2bib window;
+ - editing and browsing bibtex files;
+ - citing references, searching references and the full contents of the
+   referenced documents;
+ - inserting bibliographic metadata to documents;
+ - writing short notes that interrelate several references.

@@ -1,0 +1,7 @@
+An qt3 input method module with gcin as backend
+	
+gcin is an input method platform, which supports gtk+/qt immodule and xim.
+gcin is focused mainly on traditional chinese. however, it is also very useful
+for simplified chinese, japanese, and many other languages.
+
+this package is the qt 3.x native input method module for gcin.

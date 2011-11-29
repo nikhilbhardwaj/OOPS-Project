@@ -1,0 +1,13 @@
+A utility for building linux kernel related debian packages.
+	
+this package provides the capability to create a debian kernel image
+package by just running make-kpkg kernel_image in a kernel source
+directory tree.  it can also package the relevant kernel headers into
+a kernel-headers package. in general, this package is very useful if
+you need to create a custom kernel, if, for example, the default
+kernel does not support some of your hardware, or you wish a leaner,
+meaner kernel.  it also scripts the steps that need be taken to
+compile the kernel, which is quite convenient (forgetting a crucial
+step once was the initial motivation for this package). please look at
+/usr/share/doc/kernel-package/rationale.gz for a full list of advantages
+of this package.

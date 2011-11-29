@@ -1,0 +1,17 @@
+Basic building blocks for python applications
+	
+this module provides some basic components that can be used to simplify
+building python applications.
+
+the components included by this package encapsulate the functionality to
+handle the following tasks:
+
+
+ - unix process management (forking, signal handling, pid file creation)
+ - a very simple to use interface to handle configuration files.
+ - an extensible system logger for console and/or syslog.
+ - miscellaneous utilities and helpers.
+ - memory troubleshooting and execution timing.
+ - communicate inside the application using a notification system.
+ - manage the version number for applications, modules and packages.
+ - verify package dependencies at runtime.

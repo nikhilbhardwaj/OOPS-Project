@@ -1,0 +1,4 @@
+Perl module for spellchecking pod formatted text
+	
+test::spelling was written to check pod files for spelling mistakes,
+using pod::spell and spell to do the heavy lifting.

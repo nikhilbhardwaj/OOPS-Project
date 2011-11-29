@@ -1,0 +1,7 @@
+Query object framework
+	
+qof is a framework to allow the execution of sql-type queries
+using collections of in-memory objects as 'tables'.
+
+this package provides the shared libraries needed
+to run programs developed using qof.

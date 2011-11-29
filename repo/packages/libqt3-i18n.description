@@ -1,0 +1,5 @@
+I18n files for qt3 library
+	
+this package contains the internationalization files for the qt library.
+qt applications that are internationalized will need to depend on this package
+for full internationalization support of the application towards the end user.

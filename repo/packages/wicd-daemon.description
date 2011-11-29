@@ -1,0 +1,15 @@
+Wired and wireless network manager - daemon
+	
+wicd is a general-purpose network configuration server which aims
+to provide a simple but flexible interface for connecting to networks.
+its features include:
+wide variety of settings.
+
+ * ability to connect to (and maintain profiles for) both wired and
+   wireless networks;
+ * support for many encryption schemes, including wep, wpa, wpa2 and
+   custom schemes;
+ * wireless-tools compatibility.
+
+
+this package contains the daemon needed to run wicd.

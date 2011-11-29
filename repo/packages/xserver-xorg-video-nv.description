@@ -1,0 +1,12 @@
+X.org x server -- nv display driver
+	
+this driver for the x.org x server (see xserver-xorg for a further description)
+provides support for nvidia riva, tnt, geforce, and quadro cards.
+
+note that this is not the same as the binary-only 'nvidia' driver, which
+adds 3d support, but is binary-only and not supported.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-nv driver module.

@@ -1,0 +1,7 @@
+The gnustep development environment -- development tools
+	
+these packages provide tools for development applications for gnustep, as
+well as extra libraries for the gnustep environment.
+
+this is a metapackage that depends on gnustep-core-devel and commonly
+used development applications.

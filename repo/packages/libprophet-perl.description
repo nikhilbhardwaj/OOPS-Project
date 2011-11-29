@@ -1,0 +1,10 @@
+Distributed, peer-to-peer replicated database system
+	
+prophet is a lightweight schemaless database designed for peer to peer
+replication and disconnected operation. prophet keeps a full copy of
+your data (and history) on your laptop, desktop or server. prophet syncs
+when you want it to, so you can use prophet-backed applications whether
+or not you have network.
+
+if you're not a programmer, you likely want an end-user application
+built on top of prophet, rather than this package.

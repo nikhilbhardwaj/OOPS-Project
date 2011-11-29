@@ -1,0 +1,7 @@
+New test tcp program
+	
+this program is a much more convenient version of the ttcp program.
+it uses inetd (or simulates its behaviour) to start off the remote
+side program which will send/receive data. both sides measure the time
+and number of bytes transfered. the local side will print the measures.
+the format of the output can be specified on the commandline.

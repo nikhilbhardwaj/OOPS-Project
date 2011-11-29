@@ -1,0 +1,7 @@
+Administration utility for the shishi kerberos v5 kdc database
+	
+shishi is an implementation of the kerberos v5 network authentication
+system.
+
+this package contain the admin tool to create and modify the user
+database used by the shishi daemon.

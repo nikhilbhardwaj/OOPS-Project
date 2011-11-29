@@ -1,0 +1,30 @@
+A puzzle game inspired by tetris
+	
+block attack is a puzzle/blockfall game inspired by nintendo's tetris attack
+for the super nintendo. the game is pretty action packed for a puzzle game :-)
+
+features:
+
+ * based on the classic "tetris attack" for the snes
+ * 5 single player modes: endless, time trial, puzzle mode, stage clear and
+ vs. mode
+ * 2 two player options: time trial and vs. mode
+ * puzzle mode has 20+ puzzles
+ * players can use a custom key setup
+ * handicap in multiplayer
+ * highscores are saved
+ * joypad support
+ * music and sound effects
+ * animations
+ * puzzle level editor (writen in java)
+ * select puzzle file from a list in the game
+ * runs under linux and windows + more
+
+
+system requirements:
+
+ * screen resolution: 1024x768 (cannot be changed, but it can run in a window)
+ * keyboard
+ * mouse (optional)
+ * processor: decent (tested on 733 mhz)
+ * memory: at least 64 mb

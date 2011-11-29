@@ -1,0 +1,8 @@
+Documentation and examples for python milter extensions
+	
+python milter provides python extensions for the milter protocol
+traditionally used by sendmail and now also used by postfix.
+
+this package provides documentation and a sample implementation of a complex
+milter that includes multiple types of checks to catch spam. this an example,
+not a packaged milter.

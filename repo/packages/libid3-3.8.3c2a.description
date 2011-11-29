@@ -1,0 +1,8 @@
+A library for manipulating id3v1 and id3v2 tags
+	
+this package provides a software library for manipulating id3v1 and id3v2
+tags. it provides a convenient interface for software developers to include
+standards-compliant id3v1/2 tagging capabilities in their applications.
+features include identification of valid tags, automatic size conversions,
+(re)synchronisation of tag frames, seamless tag (de)compression, and
+optional padding facilities.

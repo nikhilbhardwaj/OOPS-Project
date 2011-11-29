@@ -1,0 +1,11 @@
+An interface for scientific data access to large binary data
+	
+netcdf (network common data form) is an interface for scientific
+data access and a freely-distributed software library that provides an
+implementation of the interface.  the netcdf library also defines a
+machine-independent format for representing scientific data.
+together, the interface, library, and format support the creation,
+access, and sharing of scientific data.
+
+this package contains the c, c++ and fortran77/90 run-time shared
+libraries required by programs.

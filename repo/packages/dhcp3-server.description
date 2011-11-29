@@ -1,0 +1,16 @@
+Isc dhcp server (transitional package)
+	
+this is the server from the internet software consortium's implementation of
+dhcp. for more information, visit http://www.isc.org.
+
+dynamic host configuration protocol (dhcp) is a protocol like bootp
+(actually dhcpd includes much of the functionality of bootpd). it
+gives client machines "leases" for ip addresses and can
+automatically set their network configuration.
+
+this server can handle multiple ethernet interfaces.
+
+this is a dummy package to aid in transitioning from the v3 dhcp packages
+to the new-style dhcp packages.
+
+this dummy package may be safely removed after upgrading to squeeze

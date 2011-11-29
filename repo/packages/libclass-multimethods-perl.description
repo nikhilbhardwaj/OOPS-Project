@@ -1,0 +1,12 @@
+Support multimethods and subroutine overloading in perl
+	
+sometimes perl's standard polymorphic method dispatch mechanism isn't
+sophisticated enough to cope with the complexities of finding the right
+method to handle a given situation.
+
+generally speaking, multiple dispatch is needed whenever two or more objects
+belonging to different class hierarchies are going to interact, and we need to
+do different things depending on the combination of actual types of those
+objects. typical applications that need this kind of ability include graphical
+user interfaces, image processing libraries, mixed-precision numerical
+computation systems, and most types of simulations.

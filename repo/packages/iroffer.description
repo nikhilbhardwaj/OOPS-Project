@@ -1,0 +1,10 @@
+Irc file distribution bot
+	
+iroffer is a fileserver for irc (commonly referred to as a dcc bot).
+it uses the dcc feature of irc to send files to other users. iroffer
+will connect to an irc server and let people request files from it.
+unlike similar programs, iroffer is not a script; it is a standalone
+executable written entirely in c, from scratch, with high transfer
+speed and efficiency in mind. iroffer has been known to reach
+2mbyte/sec or higher bandwidth usage when multiple transfers are
+occurring at the same time.

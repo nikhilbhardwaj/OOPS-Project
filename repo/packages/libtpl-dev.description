@@ -1,0 +1,16 @@
+Efficient c serialization library - development files
+	
+tpl is a library for serializing c data. the data is stored in its
+natural binary form. the api is small and tries to stay "out of the
+way". tpl can serialize many c data types, including structures.
+
+tpl makes a convenient file format. for example, suppose a program
+needs to store a list of user names and ids. this can be expressed
+using the format string "a(si)". if the program needs two such lists
+(say, one for regular users and one for administrators) this could be
+expressed as "a(si)a(si)". it is easy to read and write this kind of
+structured data using tpl.
+
+tpl can also be used as an ipc message format. it handles byte order
+issues and deframing individual messages off of a stream
+automatically.

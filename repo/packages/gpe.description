@@ -1,0 +1,11 @@
+The g palmtop environment (gpe) metapackage
+	
+this is the g palmtop environment for embedded and handheld devices.
+
+this package depends on the basic set of gpe applications, including
+programs for device configuration, appointments, tasks, contacts,
+expenses and some games.
+
+do not install this package unless you want to let the complete
+gpe environment replace your current kde or gnome environment.
+you can remove this package once it is installed.

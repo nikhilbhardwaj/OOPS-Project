@@ -1,0 +1,9 @@
+X display manager
+	
+xdm manages a collection of x servers, which may be on the local host or
+remote machines.  it provides services similar to those provided by init,
+getty, and login on character-based terminals: prompting for login name and
+password, authenticating the user, and running a session.  xdm supports xdmcp
+(x display manager control protocol) and can also be used to run a chooser
+process which presents the user with a menu of possible hosts that offer
+xdmcp display management.

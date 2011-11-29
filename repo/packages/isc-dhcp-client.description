@@ -1,0 +1,14 @@
+Isc dhcp client
+	
+this is the client from the internet software consortium's implementation of
+dhcp. for more information visit http://www.isc.org.
+
+dynamic host configuration protocol (dhcp) is a protocol like bootp
+(actually dhcpd includes much of the functionality of bootpd). it
+gives client machines "leases" for ip addresses and can
+automatically set their network configuration. if your machine
+depends on dhcp (especially likely if it's a workstation on a large
+network, or a laptop, or attached to a cable modem), keep this or
+another dhcp client installed.
+
+extra documentation can be found in the package isc-dhcp-common.

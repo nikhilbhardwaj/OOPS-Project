@@ -1,0 +1,16 @@
+Perl module to parse iso8601 date and time formats
+	
+datetime::format::iso8601 parses almost all iso8601 date and time formats.
+
+the signature feature of iso 8601 date and time representations is the
+ordering of date and time values from the most to the least significant or,
+in plain terms, from the largest (the year) to the smallest (the second).
+
+
+  example date:  2008-04-18
+  example separate date and time in utc: 2008-04-18 08:47z
+  example combined date and time in utc: 2008-04-18t08:47z
+  example date with week number: 2008-w16-5
+
+
+iso8601 time-intervals will be supported in a later release.

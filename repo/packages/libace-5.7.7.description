@@ -1,0 +1,22 @@
+C++ network programming framework
+	
+this package contains the adaptive communication environment (ace)
+framework.
+
+it provides platform independent c++ wrappers for interprocess
+communication:
+
+ * signals
+ * pipes
+ * sockets
+ * message queues
+ * semaphores
+ * shared memory
+
+as well as thread, process management routines and much more.
+
+moreover, it defines patterns for common communication tasks. beyond
+these:
+
+ * reactor, to handle event demultiplexing and dispatching
+ * proactor, for asynchronous i/o driven programs

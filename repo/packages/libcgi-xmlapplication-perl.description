@@ -1,0 +1,8 @@
+Perl module for creating xml-dom and oo based cgi scripts
+	
+this module provides an xml-dom and object-oriented extension to the
+cgi module.  the xml-dom extension allows one to generate the output
+from xml and laid out according to an xslt stylesheet, separating
+code and presentation.  the object-oriented extension allows one to
+specify handlers for events like a mouse click on a submit button or
+on an image.

@@ -1,0 +1,9 @@
+A collection of portable common lisp utilities
+	
+alexandria is a collection of utilities in the public domain for common lisp
+
+it is a library but also a project that aims to reduce duplication of effort
+and improve portability of common lisp code according to its own idiosyncratic
+and rather conservative aesthetic.
+
+it is used by other projects as a base to build on.

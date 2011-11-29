@@ -1,0 +1,5 @@
+Module for converting japanese encodings
+	
+unicode::japanese is a perl module for converting japanese encodings. it has
+support for conversion between zenkaku and hankaku, and safely handles emoji
+for mobile devices (docomo i-mode, astel dot-i and j-phone j-sky).

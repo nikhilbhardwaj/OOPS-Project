@@ -1,0 +1,4 @@
+Udeb package builder for debian-installer
+	
+kernel-wedge splits udeb packages out of a kernel image deb. the udebs
+are used by the debian-installer.

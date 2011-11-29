@@ -1,0 +1,11 @@
+Name server information handler
+	
+resolvconf is a framework for keeping up to date the system's
+information about name servers. it sets itself up as the intermediary
+between programs that supply this information (such as ifup and
+ifdown, dhcp clients, the ppp daemon and local name servers) and
+programs that use this information (such as dns caches and resolver
+libraries).
+
+this package may require some manual configuration. please
+read the readme file for detailed instructions.

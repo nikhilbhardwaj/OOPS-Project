@@ -1,0 +1,4 @@
+Hierarchical pool based memory allocator
+	
+a hierarchical pool based memory allocator with destructors. it uses
+reference counting to determine when memory should be freed.

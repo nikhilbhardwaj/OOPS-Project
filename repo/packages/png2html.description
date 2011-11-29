@@ -1,0 +1,9 @@
+Transforms a png image to a web page
+	
+png2html takes a png image and transforms it pixel by pixel to a web page,
+encoding each pixel as an appropriately coloured letter. it is decided which
+letter to encode each pixel as by using a text file supplied by the user. an
+example can be found on the project's homepage.
+
+
+ homepage: http://www.geoffholden.com/content/projects/png2html/

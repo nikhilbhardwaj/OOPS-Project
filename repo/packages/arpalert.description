@@ -1,0 +1,16 @@
+Monitor arp changes in ethernet networks
+	
+this package provides the arpalert daemon.
+
+it listens on a network interface (without using 'promiscuous' mode) and
+catches all conversations of mac address to ip request.
+it then compares the mac addresses it detected with a pre-configured list of
+authorized mac addresses. if the mac is not in list, arpalert launches a
+pre-defined user script with the mac address and ip address as parameters.
+this software can run in daemon mode; it's very fast (low cpu and memory
+consumption).
+it responds at signal sighup (configuration reload) and at signals sigterm,
+sigint, sigquit and sigabrt (arpalert stops itself).
+
+if you need to use a list of authorized mac addresses, this package should
+suit your needs, otherwise arpwatch may be also fine.

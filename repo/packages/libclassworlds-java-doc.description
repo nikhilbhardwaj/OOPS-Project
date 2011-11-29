@@ -1,0 +1,14 @@
+Documentation for the classworlds java library
+	
+classworlds is a framework for container developers who require complex
+manipulation of java's classloaders. java's native classloader mechanims
+and classes can cause many headaches and confusion for certain types of
+application developers. projects which involve dynamic loading of
+components or otherwise represent a 'container' that can benefit from the
+classloading control provided by classworlds.
+
+classworlds provides a richer set of semantics for class loading than java's
+normal mechanisms, while still being able to provide a classloader interface
+to integrate seamlessly with the java environment.
+
+this package provides the api documentation.

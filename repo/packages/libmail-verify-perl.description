@@ -1,0 +1,8 @@
+Utility to verify an email address
+	
+mail::verify provides a function checkaddress function for verifying
+email addresses. first the syntax of the email address is checked, then
+it verifies that there is at least one valid mx server accepting email
+for the domain. using net::dns and io::socket a list of mx records (or,
+falling back on a hosts a record) are checked to make sure at least one
+smtp server is accepting connections.

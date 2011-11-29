@@ -1,0 +1,6 @@
+Another system definition facility
+	
+asdf provides a "make" type functions for common lisp software.
+it drives compilation and dynamic loading for complex lisp systems
+with multiple modules and files, and is the de facto standard used
+by free software written in common lisp.

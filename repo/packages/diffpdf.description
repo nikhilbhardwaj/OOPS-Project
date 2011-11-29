@@ -1,0 +1,12 @@
+Compare two pdf files textually or visually
+	
+diffpdf is used to compare two pdf files.
+by default the comparison is of the text on each pair of pages, but
+comparing the appearance of pages is also supported (for example, if
+a diagram is changed or a paragraph reformatted). it is also possible
+to compare particular pages or page ranges. for example, if there are
+two versions of a pdf file, one with pages 1-12 and the other with
+pages 1-13 because of an extra page having been added as page 4, they
+can be compared by specifying two page ranges, 1-12 for the first and 1-3,
+5-13 for the second. this will make diffpdf compare pages in the pairs
+(1, 1), (2, 2), (3, 3), (4, 5), (5, 6), and so on, to (12, 13).

@@ -1,0 +1,9 @@
+Output analysis and diagnostics for mcmc simulations in r
+	
+this package provides output analysis and diagnostics for markov chain
+monte carlo simulations and estimations within r.  it also includes some
+graphical analysis routines and a facility for importing output from bugs
+(bayes using gibbs sampling), a popular tool for running mcmc simulations.
+
+the related r-cran-mcmcpack package includes mcmc estimators for some
+common models in the social sciences.

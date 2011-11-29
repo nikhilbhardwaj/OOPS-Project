@@ -1,0 +1,4 @@
+PackageId:8836
+Name:krb5-rsh-server
+Version:1:1.0.1-1.1 and others
+Deps:krb5-config,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcomerr2,libk5crypto3,libkrb5-3,openbsd-inetd,inet-superserver,inetutils-inetd,rlinetd,xinetd

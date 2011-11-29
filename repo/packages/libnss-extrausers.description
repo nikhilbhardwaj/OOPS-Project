@@ -1,0 +1,6 @@
+Nss module to have an additional passwd, shadow and group file
+	
+this name service switch (nss) module reads /var/lib/extrausers/passwd,
+/var/lib/extrausers/shadow and /var/lib/extrausers/groups, allowing to
+store system accounts and accounts copied from other systems in different
+files.

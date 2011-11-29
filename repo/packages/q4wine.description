@@ -1,0 +1,18 @@
+Qt4 gui for wine (w.i.n.e)
+	
+q4wine will help you manage wine prefixes and installed applications.
+
+general features:
+
+ - can export qt color theme into wine colors settings.
+ - can easy work with different wine versions at same time;
+ - easy creating, deleting and managing prefixes (wineprefix);
+ - easy controlling for wine process;
+ - easy installer wizard for wine applications; (not yet. wait for v. 0.120)
+ - autostart icons support;
+ - easy cd-image use;
+ - fuseiso\embedded fuseiso mount profiles;
+ - you can extract icons from pe files (.exe .dll);
+ - easy backup and restore for managed prefixes.
+ - winetriks support.
+ - and more...

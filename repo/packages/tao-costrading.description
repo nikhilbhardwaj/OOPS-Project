@@ -1,0 +1,11 @@
+Tao trading service
+	
+tao implementation of corba trading service.
+
+a trading service is quite like a naming service except that it
+relies on a set of properties instead of a name to find object
+references.
+
+the following program is included:
+
+ * tao_costrading

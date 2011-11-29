@@ -1,0 +1,11 @@
+General graphics interface plain text target
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the driver for the "monotext" target, enabling
+libggi (and therefore any program using libggi) to display its output
+as ascii art.  this driver does not use the "aalib" ascii art library;
+"monotext" is an independent implementation of the same idea.
+
+the monotext target requires a text-capable target, such as the
+"terminfo" target, to display its output.

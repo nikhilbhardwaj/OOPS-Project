@@ -1,0 +1,6 @@
+Jrosetta - advanced graphical console engine
+	
+jrosetta provides a common base for graphical component that could be used to
+build a graphical console in swing with the latest requirements, such as
+command history, completion and so on for instance for scripting language
+or command line.

@@ -1,0 +1,15 @@
+Lex and yacc implementation for python
+	
+ply   is   yet  another   implementation   of   lex   and  yacc   for
+python.  although  several  other  parsing tools  are  available  for
+python, there are  several reasons why you might want  to take a look
+at ply:
+
+ * it's implemented entirely in python.
+ * it uses  lr-parsing which is reasonably efficient  and well suited
+   for larger grammars.
+ * ply  provides most  of  the standard  lex/yacc features  including
+   support for  empty productions, precedence  rules, error recovery,
+   and support for ambiguous grammars.
+ * ply is  extremely easy  to use and  provides very  extensive error
+   checking.

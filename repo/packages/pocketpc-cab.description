@@ -1,0 +1,5 @@
+Build an installable pocket pc cabinet file
+	
+pocketpc-cab uses lcab to build a cab file for pocket pc devices.
+when tapped, the cab file extracts and installs itself. the installed
+package will have a listing in the "remove programs" tool.

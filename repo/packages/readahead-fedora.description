@@ -1,0 +1,13 @@
+Fedora's implementation of readahead to preload boot process files
+	
+"readahead" is the term used to refer to a tool that preloads files in
+this case used during the boot process to make the system boot faster.
+
+this implementation of the tool provides the following features:
+
+ * it can take multiple lists of files to be preloaded, and sort them
+   according to their position on the disk.
+ * it preloads the inode tables on ext2-based file systems.
+ * it opens the files without making the system update their access
+   time, therefore avoiding extra disk writes.
+ * it uses a lightweight monitoring daemon.

@@ -1,0 +1,11 @@
+A speedy filetransfer and network diagnostic program
+	
+netsend transmits and receives files. it is highly configurable and offers
+the transport protocols tcp, dccp, udp, udplite and sctp using either
+ipv4 or ipv6 on the network layer. the cluster protocol tipc is also
+supported.
+
+the user is able to tweak various options of the linux network stack
+to gain maximum performance. while this is not needed for trivial
+filetransfer, it is valuable for network protocol performance
+testing.

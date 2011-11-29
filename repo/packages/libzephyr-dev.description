@@ -1,0 +1,9 @@
+Project athena's notification service - development files
+	
+zephyr is derived from the original project athena 'instant message' system
+and allows users to send messages to other users or to groups of users.
+users can view incoming zephyr messages as windowgrams (transient x
+windows) or as text on a terminal.
+
+this package provides development libraries and files, which are
+needed to compile alternative zephyr clients.

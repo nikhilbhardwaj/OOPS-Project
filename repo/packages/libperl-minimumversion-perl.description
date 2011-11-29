@@ -1,0 +1,10 @@
+Module to determine minimum required version of perl required
+	
+perl::minimumversion is a module that inspects arbitrary perl source code and
+determines the minimum version of perl required to be able to run it. because
+it is based on ppi, it can do this without having to actually load the code.
+
+currently it tests both the syntax of your code, and the use of explicit
+version dependencies such as "require 5.005".
+
+future plans are to also add support for tracing module dependencies.

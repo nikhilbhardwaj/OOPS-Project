@@ -1,0 +1,32 @@
+A mib compiler supporting smiv1 and smiv2
+	
+snmp::mib::compiler is a mib compiler that fully supports
+both smi(v1) and smiv2. this module can be use to compile
+mibs (recursively or not) or load already compiled mibs for
+later use.
+some tasks can be performed by the resulting object such as :
+
+
+ resolution of object names into object identifiers (oids).
+
+e.g. ifinoctets => 1.3.6.1.2.1.2.2.1.10
+
+
+ convertion of oids.
+
+e.g. 1.3.6.1.2.1.2.1 =>
+iso.org.dod.internet.mgmt.mib-2.interfaces.ifnumber
+
+
+ drawing mib trees.
+
+e.g. iftesttable => iftesttable
+
++-- --- iftestentry(1)
+
++-- -rw integer  iftestid(1)
++-- -rw integer  ifteststatus(2)
++-- -rw objectid iftesttype(3)
++-- -r- integer  iftestresult(4)
++-- -r- objectid iftestcode(5)
++-- -rw string   iftestowner(6)

@@ -1,0 +1,9 @@
+Small program managing notes from commandline
+	
+this is a small console program similar to knotes, which
+allows you to manage notes from commandline.
+note can use different database-backends for notes-storage.
+it ships with a dbi-based mysql-module (which can also be
+used by others through a dbi-based supported dbms)
+and another module, which uses a binary file for storage
+and a dbm module.

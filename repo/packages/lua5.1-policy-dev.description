@@ -1,0 +1,8 @@
+Lua 5.1 debian policy - template and scripts
+	
+this package contains some template/support files (like a generic makefile, a
+generic test application...) that can be used by lua libraries at compile
+time. it also includes a simple script that sets up an svn directory
+conforming to svn-buildpackage and populates it with the standard files needed
+to use lua5.1-policy-dev at build time. obviously packages made using
+lua5.1-policy-dev will conform to the policy contained in lua5.1-policy.

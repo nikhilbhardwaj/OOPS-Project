@@ -1,0 +1,9 @@
+Perl module to parse dhcp leases file from isc dhcpd
+	
+text::dhcpleases provides an object-oriented interface to isc dhcpd leases
+files.  the goal is to objectify all declarations, as defined by the isc
+dhcpd package man pages.
+
+this interface is useful for analyzing, reporting, converting lease files,
+or as a tool for other applications that need to import dhcpd lease data
+structures.

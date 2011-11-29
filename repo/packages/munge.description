@@ -1,0 +1,21 @@
+Authentication service to create and validate credentials
+	
+munge (munge uid 'n' gid emporium) is an authentication service
+for creating and validating credentials.  it allows a process
+to authenticate the uid and gid of another local or remote
+process within a group of hosts having common users and groups.
+these hosts form a security realm that is defined by a shared
+cryptographic key.
+
+a process creates a credential by requesting one from the local
+munge service.  the encoded credential contains the uid and gid
+of the originating process.  this process sends the credential to
+another process within the security realm as a means of proving its
+identity.  the receiving process validates the credential with the
+use of its local munge service.  the decoded credential provides
+the receiving process with a reliable means of ascertaining the
+uid and gid of the originating process, and this information can
+be used for accounting or access control decisions.
+
+clients can create and validate these credentials without the use
+of root privileges, reserved ports, or platform-specific methods.

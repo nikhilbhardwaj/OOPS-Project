@@ -1,0 +1,11 @@
+Tool for documenting python modules (documentation)
+	
+epydoc is a tool for generating api documentation for python modules based on
+their docstrings.  a lightweight markup language called epytext can be used to
+format docstrings and to add information about specific fields, such as
+parameters and instance variables.  epydoc also understands docstrings written
+in restructuredtext, javadoc, and plaintext.
+
+this package contains the api reference and usage information for epydoc, all
+available through the debian documentation system (dhelp, dwww, doc-central,
+etc.) in the devel section.

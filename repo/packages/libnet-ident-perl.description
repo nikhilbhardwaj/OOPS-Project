@@ -1,0 +1,8 @@
+Perl module to lookup the username on the remote end of a tcp/ip connection
+	
+net::ident is a perl module implementing the rfc1413 identification protocol,
+also known as "ident".
+
+it provides both a simple interface for doing one ident lookup at a time, and
+an asynchronous interface to perform (possibly) many simultaneous lookups, or
+simply continue serving other things while the lookup is proceeding.

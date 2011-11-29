@@ -1,0 +1,16 @@
+A wiki compiler
+	
+ikiwiki converts a directory full of wiki pages into html pages suitable
+for publishing on a website. unlike many wikis, ikiwiki does not have its
+own ad-hoc means of storing page history, and instead uses a revision control
+system such as subversion or git.
+
+ikiwiki implements all of the other standard features of a wiki, including
+web-based page editing, user registration and logins, a recentchanges
+page, backlinks, search, discussion pages, tags, smart merging and conflict
+resolution, and page locking.
+
+ikiwiki also supports generating news feeds (rss and atom) and blogging.
+ikiwiki provides a plugin system which allows many other features to be
+added. some of the plugins have additional dependencies, found among the
+recommends and suggests of this package.

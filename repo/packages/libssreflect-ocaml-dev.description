@@ -1,0 +1,5 @@
+Small scale reflection extension for coq (devt files)
+	
+this package is part of ssreflect, the small scale reflection
+extension for coq. it provides the static native-code library, needed
+to build custom toplevels, and the compiled interface.

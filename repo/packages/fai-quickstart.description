@@ -1,0 +1,8 @@
+Fully automatic installation quickstart package
+	
+fai is a non-interactive system to install, customize and manage
+linux systems and software configurations on computers as well as
+virtual machines and chroot environments, from small networks to
+large infrastructures and clusters.
+this package setups an install server with some basic
+examples. it should be removed when creating your own config space.

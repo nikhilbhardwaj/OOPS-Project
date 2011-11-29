@@ -1,0 +1,6 @@
+Perl module for converting cgi variables from/to xml
+	
+this module converts cgi.pm variables to xml and vice versa.
+
+cgi::xml is a subclass of cgi.pm, so it reads the cgi variables just
+as cgi.pm would.

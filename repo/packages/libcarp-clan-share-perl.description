@@ -1,0 +1,5 @@
+Perl module enabling sharing of carp::clan settings
+	
+carp::clan::share is a lightweight helper module that automatically creates
+a ::carp module for you, under your current base namespace, forwarding the
+options to carp::clan. it does this using an import method.

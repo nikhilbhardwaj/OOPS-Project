@@ -1,0 +1,8 @@
+Facebook chat plugin for pidgin
+	
+this is a facebook chat plugin for pidgin and libpurple messengers. it connects
+to the new facebook chat im service without the need for an api key.
+
+currently the plugin can log into the facebook servers, grab the buddy list,
+send/receive messages, add/remove friends, receive notifications, search for
+facebook friends and set your facebook status.

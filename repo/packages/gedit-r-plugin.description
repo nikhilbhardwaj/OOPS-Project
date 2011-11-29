@@ -1,0 +1,9 @@
+Gedit plugin for r statistical computing language
+	
+this plugins serves as a lightweight ide for r. in addition
+to standard gedit functionality such as syntax highlighting
+the additional features are:
+
+ - bottom panel containing one or more different r consoles
+ - executing predefined blocks of code
+ - generating customized r code

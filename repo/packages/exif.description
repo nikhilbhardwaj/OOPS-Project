@@ -1,0 +1,7 @@
+Command-line utility to show exif information in jpeg files
+	
+most digital cameras produce exif files, which are jpeg files with
+extra tags that contain information about the image.
+
+'exif' is a small command-line utility to show exif information hidden
+in jpeg files.

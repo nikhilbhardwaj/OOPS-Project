@@ -1,0 +1,15 @@
+Poe filter for http clients or servers
+	
+poe::filter::http::parser is a filter for the perl object environment (poe)
+system based on http::parser. it can be used to easily create poe-based http
+servers or clients.
+
+with the type set to client, which is the default behaviour, 'get' will parse
+http::response objects from http streams and 'put' will accept http::request
+objects and convert them to http streams.
+
+for servers, the reverse will happen; 'get' will parse http::request objects
+from http streams and 'put' will accept http::response objects and convert
+them to http streams. if there is an error parsing the request, this filter
+will generate a http::response object instead, encapsulating an error message
+suitable for simply sending back to the requesting client.

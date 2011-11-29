@@ -1,0 +1,17 @@
+Algebraic newton raphson implementation
+	
+the math::calculus::newtonraphson module takes an algebraic expression,
+parses it and then uses the newton raphson method to solve it.
+the newton raphson method relies on the fact that the expression
+you pass in evaluates to zero where there is a solution. that is, to solve:-
+
+x^2 = 5
+
+you would need to pass in:-
+
+x^2 - 5
+
+it understands expressions containing any of the operators +, -, *, / and ^
+(raise to power), bracketed expressions to enable correct precedence and the
+functions ln, exp, sin, cos, tan, sec, cosec, cot, sinh, cosh, tanh, sech,
+cosech, coth, asin, acos, atan, asinh, acosh and atanh.

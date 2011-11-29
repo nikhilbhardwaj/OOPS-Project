@@ -1,0 +1,23 @@
+Uniform frontend to running common lisp code from the shell
+	
+cl-launch will allow you to invoke common lisp source code from the shell
+command line or from a shell script. it will also allow you to turn your
+common lisp source programs into standalone executables or executable shell
+scripts (optionally using a dumped image), depending on the features
+available in your underlying implementation.
+
+cl-launch will automatically detect a supported common lisp implementation
+and use adequate invocation options. it can also be configured to fit exactly
+the programmer's desires. supported implementations are:
+
+    sbcl, cmucl, gnu clisp, ecl, openmcl, allegro, gcl, lispworks pro.
+
+(gcl 2.6 support has limitations; gcl 2.7 has been broken for me on debian.)
+
+cl-launch also offers common lisp programs a simple uniform interface to
+invocation parameters (command-line arguments and environment variables).
+it relies on asdf 2 for system construction. see the asdf 2 manual for
+more information on how to configure source and object code location.
+cl-launch may save memory images for fast startup (at the expense of disk
+space). it can also be used as a quick way to evaluate and print simple lisp
+forms or scripts from the command-line without invoking a full-fledged repl.

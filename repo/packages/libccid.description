@@ -1,0 +1,94 @@
+Pc/sc driver for usb ccid smart card readers
+	
+this library provides a pc/sc ifd handler implementation for the usb smart
+card drivers compliant to the ccid protocol.
+
+this package is needed to communicate with the ccid smartcard readers through
+the pc/sc lite resource manager (pcscd).
+
+supported usb readers are (see homepage for more info):
+
+ - activcard usb reader 3.0
+ - advanced card systems acr 38u-ccid
+ - alcor micro au9520
+ - athena ase iiie usb v2
+ - athena ase iiie kb usb
+ - axalto reflex usb v3
+ - blutronics bludrive ii ccid
+ - c3po ltc31
+ - c3po ltc32
+ - c3po kbr36
+ - c3po tltc2usb
+ - charismathics token
+ - cherry xx33 keyboard
+ - cherry xx44 keyboard
+ - cherry smartterminal st2xxx
+ - cherry st-1044u
+ - dell keyboard sk-3106
+ - dell smart card reader keyboard
+ - eutron sim pocket combo
+ - eutron cryptoidentity
+ - eutron smart pocket
+ - eutron digipass 860
+ - fujitsu siemens computers smartcard usb 2a
+ - fujitsu siemens computers smartcard keyboard usb 2a
+ - gemplus gempc 433 sl
+ - gemplus gempc key
+ - gemplus gempc pinpad
+ - gemplus gempc twin
+ - gemplus gemcore pos pro
+ - gemplus gemcore sim pro
+ - giesecke & devrient starsign card token 350
+ - giesecke & devrient starsign card token 550
+ - hp usb smart card keyboard
+ - hp usb smartcard reader
+ - id3 semiconductors cl1356d
+ - id3 semiconductors cl1356t
+ - kobil kaan base
+ - kobil kaan advanced
+ - kobil kaan sim iii
+ - kobil midentity
+ - lexar smart enterprise guardian
+ - emv cap - secovid reader iii
+ - lenovo integrated smart card reader
+ - o2micro oz776
+ - omnikey cardman 1021
+ - omnikey cardman 3021
+ - omnikey cardman 3121
+ - omnikey cardman 3621
+ - omnikey cardman 3821
+ - omnikey cardman 3621
+ - omnikey cardman 4321
+ - omnikey cardman 5121
+ - omnikey cardman 5125
+ - omnikey cardman 5321
+ - omnikey cardman 6121
+ - philips semiconductors jcop41v221" iccd card
+ - reiner-sct cyberjack pinpad(a)
+ - rsa secureid sid800
+ - scm micro scr 331
+ - scm micro scr 331-di
+ - scm micro scr 331-di nttcom
+ - scm micro scr 3310
+ - scm micro scr 3310 nttcom
+ - scm micro scr 3311
+ - scm micro scr 3320
+ - scm micro scr 333
+ - scm scr 3340 expresscard54
+ - scm micro scr 335
+ - scm micro scr 355
+ - scm micro spr 532
+ - scm micro sdi 010
+ - scm scr 3340 expresscard54
+ - smartepad (v 2.0)
+ - silitek sk-3105 keyboard
+ - schlumbergersema cyberflex access e-gate iccd
+ - verisign secure storage token
+ - verisign secure token
+ - winbond electronics w81e381 (for oem only)
+ - xiring teo
+
+
+this driver also supports the gempc twin connected to a serial port and
+the gempc card (pcmcia, through the suggested pcmciautils package) and
+gemplus gempc express (express54 card).

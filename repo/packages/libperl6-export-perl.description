@@ -1,0 +1,8 @@
+Implements the perl 6 'is export(...)' trait
+	
+this module prototypes the perl 6 'exported' and 'exportable' traits
+in perl 5.
+
+instead of messing around with @export arrays, you just declare which
+subs are to be exported (or are exportable on request) as part of
+those subs.

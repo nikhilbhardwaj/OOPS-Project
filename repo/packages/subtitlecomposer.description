@@ -1,0 +1,9 @@
+Subtitles editor for kde
+	
+a text-based subtitles editor for kde supporting basic operations (text,
+time and style edition), realtime previewing and spell checking. other
+fancy features are delaying all subtitles in the current subtitle file,
+checking errors or creating translations.
+
+different backends (gstreamer, mplayer, phonon or xine) can be used to play
+the realtime video preview which helps to synchronize the subtitles.

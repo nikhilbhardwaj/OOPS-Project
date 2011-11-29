@@ -1,0 +1,4 @@
+PackageId:31120
+Name:samizdat
+Version:0.6.2-2
+Deps:apache2-mpm-prefork,httpd-cgi,aolserver4-core,aolserver4-daemon,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-worker,boa,bozohttpd,cherokee,lighttpd,mathopd,mini-httpd,monkey,ocsigen,thttpd,tntnet,yaws,libdbd-pg-ruby1.8,libdbd-mysql-ruby1.8,libdbd-sqlite3-ruby1.8,libmahoro-ruby1.8,librmagick-ruby1.8,libsamizdat-ruby1.8,ruby,tidy

@@ -1,0 +1,18 @@
+Connect apache server to database via perl's dbi
+	
+these modules are supposed to be used with the apache server together with
+an embedded perl interpreter like mod_perl. they provide support for basic
+authentication and authorization as well as support for persistent database
+connections via perl's database independent interface (dbi).
+
+
+ o authdbi.pm provides authentication and authorization:
+   - optional shared cache for passwords to minimize database load
+   - configurable cleanup-handler deletes outdated entries from the cache
+
+
+
+ o dbi.pm provides persistent database connections:
+   - connections can be established during server-startup
+   - configurable rollback to ensure data integrity
+   - configurable verification of the connections to avoid time-outs.

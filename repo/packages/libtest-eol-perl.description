@@ -1,0 +1,5 @@
+Module to check for non-unix line endings
+	
+test::eol is a perl module for verifying that your project/distribution
+contains only unix-style line endings. it is especially useful for developers
+that work on windows, but that release code for unix.

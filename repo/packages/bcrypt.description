@@ -1,0 +1,9 @@
+Cross platform file encryption utility using blowfish
+	
+bcrypt is a cross platform file encryption utility.  encrypted files are
+portable across all supported operating systems and processors.  in addition
+to encrypting your data, bcrypt will by default overwrite the original input
+file with random garbage three times before deleting it in order to thwart
+data recovery attempts by persons who may gain access to your computer.
+bcrypt uses the blowfish encryption algorithm published by bruce schneier in
+1993.

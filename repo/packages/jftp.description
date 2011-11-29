@@ -1,0 +1,10 @@
+Java gui client for ftp, smb, sftp and nfs
+	
+jftp is a graphical java network and file transfer client. it
+supports ftp using its own ftp api and various other protocols like
+smb, sftp, nfs, http, and file i/o using third party apis. it
+includes many advanced features such as recursive directory
+up/download, browsing ftp servers while transferring files, ftp
+resuming and queueing, browsing the lan for windows shares, and
+more. multiple connections can open at a time in a mozilla-style
+tabbed browsing environment.

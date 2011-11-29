@@ -1,0 +1,12 @@
+Kernel driver for the back-end scaler on matrox cards (source)
+	
+the mga_vid module will enable you to use the back-end scaler found on
+many matrox cards. if you own a matrox card, and use your debian system
+to watch movies with 'mplayer', which you'll find at http://mplayerhq.hu ,
+you definitely want this piece of software, as it is the best video
+output driver available.
+
+this package just contain the sources needed to build the kernel module.
+to actually use it, you'll have to compile it to match your installed
+kernel. refer to /usr/share/doc/mga-vid-source/readme.debian for
+information on how to do this.

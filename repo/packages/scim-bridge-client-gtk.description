@@ -1,0 +1,8 @@
+Ime server of scim-bridge communicate with scim
+	
+scim-bridge is a wrapper libray for scim, writen in c.
+
+scim (smart common input method) is an input method (im) platform.
+
+scim-bridge-client-gtk is the gtk client of scim-bridge, it provide
+another gtk-immodule for scim.

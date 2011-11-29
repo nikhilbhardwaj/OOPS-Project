@@ -1,0 +1,8 @@
+Perl module to get context around a keyword
+	
+text::context::eitherside is a perl module that extracts some context from a
+large piece of text, such as a web page or mail message. you can search for a
+keyword and intelligently get some context in which you found the keywords
+inside the body of the text. it is more rigorous than simply extracting the
+two words on either side of each keyword, since multiple searches may have
+overlapping context.

@@ -1,0 +1,6 @@
+Makefile and meta wizard for ocaml libraries
+	
+this wizard helps you creating makefiles and meta files for simple
+ocaml library projects. it generates a makefile, and the makefile
+produces the meta file. this generated build system is a starting
+point and can be later fine-tuned.

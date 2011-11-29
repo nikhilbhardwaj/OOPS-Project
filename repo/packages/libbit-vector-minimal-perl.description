@@ -1,0 +1,4 @@
+Object oriented wrapper around vec()
+	
+a much simplified, lightweight version of bit::vector.  it wraps perl's
+sometimes confusing vec() function in an object-oriented abstraction.

@@ -1,0 +1,8 @@
+Minimal ident (rfc 1413) daemon
+	
+it is similar in the purpose to pidentd but with different design goals. it's
+a very small and simple daemon that would not give out any sensitive
+information. in this regard it is not rfc compliant (rfc 1413 requires the
+daemon to be insecure by default).
+
+slidentd is statically compiled (with dietlibc) and quite small (~2kb).

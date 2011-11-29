@@ -1,0 +1,9 @@
+Xml-rpc client/server library
+	
+xml_rpc2 is a pear package providing xml_rpc client and server
+services. xml-rpc is a simple remote procedure call protocol built
+using http as transport and xml as encoding.  as a client library,
+xml_rpc2 is capable of creating a proxy class which exposes the
+methods exported by the server. as a server library, xml_rpc2
+is capable of exposing methods from a class or object instance,
+seamlessly exporting local methods as remotely callable procedures.

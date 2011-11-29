@@ -1,0 +1,14 @@
+A waveform viewer eg for spice simulators
+	
+gwave is a tool for viewing analog data, such as the output of spice
+simulations.
+
+gwave can read "raw" files from spice2g6, spice3f5 or ngspice, and a tabular
+ascii format suitable for use with gnucap or homegrown tools. it can also read
+several binary and ascii files written by commercial spice-type simulators
+such as hspice, tspice, and nanosim.
+
+it supports multiple "panels" (graticules) with multiple variables displayed
+in each. two vertical-bar cursors are available for time-difference
+measurements. multiple files can be loaded, for comparing results of several
+simulations.

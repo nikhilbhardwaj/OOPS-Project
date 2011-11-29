@@ -1,0 +1,6 @@
+Debian base system master password and group files
+	
+these are the canonical master copies of the user database files
+(/etc/passwd and /etc/group), containing the debian-allocated user and
+group ids. the update-passwd tool is provided to keep the system databases
+synchronized with these master files.

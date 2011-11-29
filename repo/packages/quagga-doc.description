@@ -1,0 +1,5 @@
+Documentation files for quagga
+	
+this package includes info files for quagga, a free software which manages
+tcp/ip based routing protocols.  it supports bgp4, bgp4+, ospfv2, ospfv3,
+is-is, ripv1, ripv2, and ripng as well as the ipv6 versions of these.

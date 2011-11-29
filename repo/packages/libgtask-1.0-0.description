@@ -1,0 +1,9 @@
+Gobject library for asynchronous programming - shared libraries
+	
+gtask is asynchronous and callback based execution for gobject, similar
+to python twisted.
+
+unlike twisted, however, gtask will work hard towards being multi-core
+ready.
+
+this package contains the shared libraries.

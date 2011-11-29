@@ -1,0 +1,8 @@
+Double-double and quad double types in c++ and f90
+	
+this package supports both a double-double datatype (approx. 32
+decimal digits) and a quad-double datatype (approx. 64 decimal
+digits). the computational library is written in c++. both c++ and
+fortran-90 high-level language interfaces are provided to permit one
+to convert an existing c++ or fortran-90 program to use the library
+with only minor changes to the source code.

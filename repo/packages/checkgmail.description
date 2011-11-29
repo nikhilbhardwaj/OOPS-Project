@@ -1,0 +1,11 @@
+Alternative gmail notifier for linux via atom feeds
+	
+checkgmail is an alternative gmail notifier for linux and other *nix
+systems. it is fast, secure and uses minimal bandwidth via the use of
+atom feeds.
+
+checkgmail is a system tray application that checks a gmail account
+for new mail. when new mail is present the tray icon changes, an
+optional animated popup is displayed and a tooltip displays the
+number and details of new messages. configuration is gui-based and
+the application is designed to be simple, elegant and unobtrusive.

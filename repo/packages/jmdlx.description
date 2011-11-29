@@ -1,0 +1,12 @@
+Jugglemaster deluxe using wxwidgets
+	
+jugglemaster is a siteswap animator. a siteswap is a textual representation
+for patterns one can juggle (using balls, clubs, etc.). it is mainly useful
+for understanding specific siteswaps by animating them (including
+multiplexing). other uses may include watching patterns without understanding
+the notation behind them.
+
+this package contains the wxwidgets interface and features a lot of builtin
+patterns available via a menu.
+
+siteswap faq: http://www.juggling.org/help/siteswap/faq.html

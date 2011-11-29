@@ -1,0 +1,10 @@
+X keyboard extension (xkb) configuration data
+	
+this package contains configuration data used by the x keyboard
+extension (xkb), which allows selection of keyboard layouts when
+using a graphical interface.
+
+every x11 vendor provides its own xkb data files, so keyboard layout
+designers have to send their layouts to several places.  the
+xkeyboard-config project has been launched at freedesktop in order
+to provide a central repository that could be used by all vendors.

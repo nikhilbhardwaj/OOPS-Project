@@ -1,0 +1,6 @@
+A portable interface to open and send raw data to network
+	
+net::write provides a portable interface to write raw data directly to a
+network interface. it provides three methods: open, send and close. it is
+especially useful because it can send arbitrary packets on the link layer
+(layer 2), network layer (layer 3) or transport layer (layer 4).

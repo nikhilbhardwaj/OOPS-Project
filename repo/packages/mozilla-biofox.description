@@ -1,0 +1,16 @@
+Extension of bioinformatics tools to iceape and iceweasel browsers
+	
+code biofox aims at implementing various bioinformatics tools as an extension
+on the iceape and iceweasel browsers. analysis of your favorite gene(s)
+usually require(s) retrieving it from a database like ncbi or swiss-prot and
+then performing one or more tasks including but not limited to:
+
+
+ * translation of a nucleotide sequence;
+ * blast search (eg. blastn, blastp etc.) of the desired nucleotide/protein
+   sequence;
+ * calculation of properties (like pi, charge, molecular weight, at/gc content
+   etc.) of a protein/nucleotide sequence;
+ * conversion between formats (genbank, fasta, swiss-prot etc.);
+ * prediction of sequence for sub-cellular localization (predotar, targetp,
+   psort etc).

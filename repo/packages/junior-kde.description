@@ -1,0 +1,13 @@
+Debian jr. for kde
+	
+this package includes a collection of programs for children
+which are built for kde.  a kde desktop is not required
+in order to run these.  they are kept separate merely so that
+installing a debian jr. system won't drag in all kinds of
+kde dependencies.
+
+as such, this package is by no means a complete collection of
+programs suitable for children in kde.  the debian jr. project
+will be adding to this list in future releases, and likely
+refining the package into categories the way the rest of debian
+jr. packages are now organized.

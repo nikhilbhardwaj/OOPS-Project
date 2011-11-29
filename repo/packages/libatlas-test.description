@@ -1,0 +1,10 @@
+Automatically tuned linear algebra software, test programs
+	
+atlas is an approach for the automatic generation and optimization of
+numerical software. currently atlas supplies optimized versions for the
+complete set of linear algebra kernels known as the basic linear algebra
+subroutines (blas), and a subset of the linear algebra routines in the
+lapack library.
+
+this package provides dynamically linked testing and bench-marking
+binaries to compare the blas and atlas libraries on your system.

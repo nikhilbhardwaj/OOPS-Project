@@ -1,0 +1,4 @@
+Modular, event-driven initramfs infrastructure -- network support
+	
+this package extends dracut with support for booting off nfs, iscsi,
+nbd or fcoe.

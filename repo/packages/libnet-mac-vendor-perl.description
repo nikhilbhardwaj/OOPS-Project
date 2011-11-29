@@ -1,0 +1,15 @@
+Look up the vendor by oui
+	
+the institute of electrical and electronics engineers (ieee) assigns an
+organizational unique identifier (oui) to manufacturers of network
+interfaces. each interface has a media access control (mac) address of six
+bytes. the first three bytes are the oui.
+
+net::mac::vendor allows you to take a mac address and turn it into the oui
+and vendor information. you can, for instance, scan a network, collect mac
+addresses, and turn those addresses into vendors. with vendor information,
+you can often guess at what you are looking at (e.g. an apple product).
+
+you can use this as a module as its individual functions, or call it as a
+script with a list of mac addresses as arguments. the module can figure it
+out.

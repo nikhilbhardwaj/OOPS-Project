@@ -1,0 +1,8 @@
+Library for reading and writing quicktime files (utilities)
+	
+libquicktime is a library for reading and writing quicktime files on unix
+systems. video codecs supported by this library are opendivx, mjpa, jpeg photo,
+png, rgb, yuv 4:2:2, and yuv 4:2:0 compression. supported audio codecs are ogg
+vorbis, ima4, ulaw, and any linear pcm format.
+
+this package contains additional utilities.

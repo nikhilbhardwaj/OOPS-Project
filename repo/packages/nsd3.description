@@ -1,0 +1,11 @@
+Authoritative domain name server (3.x series)
+	
+nsd3 is a fast, authoritative only, high performance, simple
+and open source name server.
+
+nsd was primarily developed by nlnet labs on request from and in close
+cooperation with ripe ncc, as an alternative name server software to be
+run on the root name server ripe ncc operates.
+
+note: 3.x configuration is not backward compatible with the 2.x series,
+but lives in /etc/nsd3 so it won't overwrite your nsd 2.x one.

@@ -1,0 +1,7 @@
+Voicetronix telephony hardware driver source
+	
+this package provides the source code for the voicetronix kernel modules.
+kernel source or headers are required to compile these modules.
+
+to build a binary module package to suit your running kernel, do:
+m-a a-i vpb-driver

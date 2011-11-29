@@ -1,0 +1,5 @@
+Vloopback modules for linux
+	
+vloopback is a video4linux driver providing video pipes.  with this driver you
+can use the output of a user program as input to another program which would
+normally communicate with a video4linux device.

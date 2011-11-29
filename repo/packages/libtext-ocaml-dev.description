@@ -1,0 +1,20 @@
+Library for dealing with sequences of unicode characters
+	
+ocaml-text is an ocaml library for dealing with "text", i.e. sequences
+of unicode characters, in a convenient way. it supports:
+
+ * encoding/decoding of text;
+ * functions for manipulation of utf-8 encoded strings, such as
+   validation and most of the functions from "list" and "string"
+   modules of the ocaml standard library, adapted for utf-8 strings;
+ * locale-specific text functions (compare, upper, is_alpha, ...).
+
+
+it is composed of two modules:
+
+ * "encoding" for encoding/decoding text
+ * "text" for text manipulation
+
+
+this package contains all the development stuff you need to use the
+ocaml-text library in your programs.

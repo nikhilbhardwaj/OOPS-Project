@@ -1,0 +1,8 @@
+Ruby module for gnuplot (dummy package)
+	
+gnuplot is a program that has a rich language for the generation of plots.
+ruby gnuplot implements a domain-specific language (dsl) to control
+gnuplot from ruby scripts.
+
+this package is a dependency package, which depends on debian's default ruby
+version (currently 1.8.x).

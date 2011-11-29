@@ -1,0 +1,12 @@
+An irc and jabber bot written in python
+	
+
+gozerbot is a channel bot that aids with conversation in irc channels
+and jabber conference rooms. it's mainly used to send notifications (rss,
+nagios, etc.) and to provide custom commands for the channel. more then
+just a channel bot gozerbot aims to provide a platform for the user to
+program his own bot and make it into something that's useful. this is done
+with a plugin structure that makes it easy to program your own plugins.
+but gozerbot comes with some batteries included, there are now over 100
+plugins already written and ready for use.
+.

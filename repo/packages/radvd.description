@@ -1,0 +1,11 @@
+Router advertisement daemon
+	
+ipv6 has a lot more support for autoconfiguration than ipv4. but
+for this autoconfiguration to work on the hosts of a network, the
+routers of the local network have to run a program which answers
+the autoconfiguration requests of the hosts.
+
+on linux this program is called radvd, which stands for router
+advertisement daemon. this daemon listens to router solicitations (rs)
+and answers with router advertisement (ra). furthermore unsolicited
+ras are also sent from time to time.

@@ -1,0 +1,9 @@
+Api documentation for jtidy
+	
+jtidy is a java port of html tidy (http://www.w3.org/people/raggett/tidy/).
+like its non-java cousin, jtidy can be used as a tool for cleaning up malformed
+and faulty html. in addition, jtidy provides a dom interface to the document
+that is being processed, which effectively makes you able to use jtidy as a
+dom parser for real-world html.
+
+this package contains the documentation for jtidy.

@@ -1,0 +1,14 @@
+Reference formatting using endnote-like templates
+	
+this small module provides a way of formatting bibliographic
+references using style templates similar to those used by the popular
+reference management software endnote (http://www.endnote.com/).  the
+api is embarrassingly simple: a formatter object is made using the
+class's constructor, the new() method; format() may then be
+repeatedly called on this object, using the same or different
+templates.
+
+(the sole purpose of the object is to cache compiled templates so that
+multiple format() invocations are more efficient than they would
+otherwise be. apart from that, the api might just as well have been a
+single function.)

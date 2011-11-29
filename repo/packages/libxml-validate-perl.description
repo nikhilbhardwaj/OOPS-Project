@@ -1,0 +1,7 @@
+Xml validator factory
+	
+xml::validate is a generic interface to different xml validation backends.
+for a list of backend included with this distribution see the readme.
+
+if you want to write your own backends, the easiest way is probably to
+subclass xml::validate::base. look at the existing backends for examples.

@@ -1,0 +1,14 @@
+Smartlink software modem daemon
+	
+the smartlink modem daemon is the application part of the
+driver for recent modems produced by smart link ltd.
+
+this package replaces (along with hardware access drivers) the old
+driver generation (2.7.x) which consisted of kernel modules only.
+
+it needs a kernel driver to access the hardware. this can be either
+recent alsa (shipped with a newer kernel (>=2.6.4) with alsa support
+and snd-intel8x0m module) which is sufficient for basic operation and
+data/internet connection, or the smartlink kernel driver which is
+provided by separate packages which you can build using the source from
+the sl-modem-source package.

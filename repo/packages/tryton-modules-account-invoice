@@ -1,0 +1,4 @@
+PackageId:33183
+Name:tryton-modules-account-invoice
+Version:1.6.0-1
+Deps:python,python-dateutil,python-pkg-resources,python-support,tryton-modules-account,tryton-modules-account-product,tryton-modules-company,tryton-modules-currency,tryton-modules-party,tryton-modules-product,tryton-server

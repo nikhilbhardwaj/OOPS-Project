@@ -1,0 +1,10 @@
+Transitional package for graphviz-dev rename
+	
+graphviz is a set of graph drawing tools. see the description of the graphviz
+package for a full description.
+
+this package is targeted at easing the upgrade from older graphviz-dev to the
+new libgraphviz-dev package.
+
+this package can be purged at anytime once the libgraphviz-dev package has
+been installed.

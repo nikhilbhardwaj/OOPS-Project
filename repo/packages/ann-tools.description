@@ -1,0 +1,13 @@
+Approximate nearest neighbor searching library (tools)
+	
+ann is a library written in c++, which supports data structures and
+algorithms for both exact and approximate nearest neighbor searching
+in arbitrarily high dimensions.  ann assumes that distances
+are measured using any class of distance functions called minkowski
+metrics. these include the well known euclidean distance, manhattan
+distance, and max distance. ann performs quite efficiently for point
+sets ranging in size from thousands to hundreds of thousands, and in
+dimensions as high as 20.
+
+this package contains the ann2fig (display ann output in fig foramt)
+and the ann_sample (a sample demonstration for ann) programs.

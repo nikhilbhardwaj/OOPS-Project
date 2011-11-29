@@ -1,0 +1,5 @@
+Webdav server implementation in python
+	
+pywebdav is a webdav server implementation in python. it's aim is to provide a
+simple interface to webdav services to any application which needs it. it can
+be run as a daemon.

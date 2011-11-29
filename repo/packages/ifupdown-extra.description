@@ -1,0 +1,19 @@
+Network scripts for ifupdown
+	
+this package provides a set of network testing scripts to be used together
+with the ifupdown package. these scripts can:
+
+  - check the network cable before an interface is configured.
+  - test if an assigned ip address is already in use in the network.
+  - test if default network gateways are reachable.
+  - setup default static routes for interfaces.
+
+
+this package also provides 'network-test', a script to test the network
+configuration status by checking:
+
+  - status of available interface.
+  - availability of configured gateway routes.
+  - if host resolution is working properly (dns checks).
+  - if network connectivity is working, including icmp and web connections to
+    remote web servers.

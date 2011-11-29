@@ -1,0 +1,10 @@
+Gsm/gps-data logger for the openbmap project
+	
+openbmap is a free and open map of wireless communicating objects
+(e.g. cellular antenna, wi-fi, bluetooth). it provides tools to
+mutualize data, create and access this map.
+
+the purpose of this software is to log gsm data, together with
+gps coordinate. the result can be sent to their website, in
+order to build a free database. they store gps quality, speed,
+gsm signal strength, etc. to keep a high quality of data.

@@ -1,0 +1,10 @@
+Command-line utility that reports when files have been altered
+	
+this software is a client to fam (file alteration monitor).
+you can use fileschanged in shell scripts to take action when monitored files
+become altered. in it's simplest form, you can give filenames to monitor from
+standard-input, and it will report when those files have changed via
+standard-output. in a more complex usage, fileschanged can monitor
+command-line specified files recursively, while following symbolic links,
+while staying on the current filesystem, and reporting deleted files as well
+as created and changed files that haven't been written to for 2 seconds.

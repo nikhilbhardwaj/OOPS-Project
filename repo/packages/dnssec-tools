@@ -1,0 +1,4 @@
+PackageId:3210
+Name:dnssec-tools
+Version:1.7-3
+Deps:bind9utils,libnet-dns-perl,libnet-dns-sec-perl,libtimedate-perl,perl

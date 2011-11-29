@@ -1,0 +1,9 @@
+Tool to build chroot-jails for daemons
+	
+jailtool provides an easy way to build chroot-jails for daemons.
+it can make use of perl cpan .packlist files and debian package
+information. the jail is copied from the base system, the amount
+of copied data can be configured.
+
+new init.d-scripts for daemons can be generated to automagically
+start in the jail.

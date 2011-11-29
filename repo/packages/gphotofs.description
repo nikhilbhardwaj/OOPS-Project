@@ -1,0 +1,12 @@
+Filesystem to mount digital cameras
+	
+gphotofs is a filesystem client based on libgphoto2 that exposes
+supported cameras as filesystems; while some cameras implement the usb
+mass storage class and already appear as filesystems (making this
+program redundant), many use the picture transfer protocol (ptp) or
+some other custom protocol. but as long as the camera is supported
+by libgphoto2, it can be mounted as a filesystem using this program.
+
+this package is based on the fuse (filesystem in user space)
+infra-structure of the linux kernel and, therefore, does not require
+any modifications to the kernel, apart from the fuse module.

@@ -1,0 +1,10 @@
+Altlinux hyphenation library - shared library
+	
+altlinuxhyph is a modified version of libhnj which is a high quality
+hyphenation and justification library based on the tex
+hyphenation algorithm. the tex hyphenation patterns could be used after
+a preprocessing step.
+
+it is used in openoffice.org
+
+this package contains the shared library.

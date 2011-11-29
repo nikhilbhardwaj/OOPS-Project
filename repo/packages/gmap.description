@@ -1,0 +1,12 @@
+Spliced and snp-tolerant alignment for mrna and short reads
+	
+this package contains the programs gmap and gsnap as well as
+utilities to manage genome databases in gmap/gsnap format.
+gmap (genomic mapping and alignment program) is a tool for aligning
+est, mrna and cdna sequences.
+gsnap (genomic short-read nucleotide alignment program) is a tool for
+aligning single-end and paired-end transcriptome reads.
+both tools can use a database of
+* known splice sites and identify novel splice sites.
+* known single-nucleotide polymorphisms (snps).
+gsnap can align bisulfite-treated dna.

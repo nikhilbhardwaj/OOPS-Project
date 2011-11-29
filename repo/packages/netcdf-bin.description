@@ -1,0 +1,10 @@
+Programs for reading and writing netcdf files
+	
+contains the programs ncdump and ncgen which convert netcdf
+files to ascii and back, respectively. netcdf (network common data
+form) is an interface for scientific data access and a
+freely-distributed software library that provides an implementation
+of the interface.  the netcdf library also defines a
+machine-independent format for representing scientific data.
+together, the interface, library, and format support the creation,
+access, and sharing of scientific data.

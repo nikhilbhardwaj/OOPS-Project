@@ -1,0 +1,6 @@
+Program to parse and pretty print arbitrary haskell show output
+	
+the ppsh program takes the output of an arbitrary haskell show output on
+stdin and pretty prints it to stdout. it uses the library provided in the
+libghc6-pretty-show-dev package to parse the input and pretty print the
+output.

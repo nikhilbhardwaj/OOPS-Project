@@ -1,0 +1,4 @@
+Cpu's audio mixer for linux
+	
+an audio mixer for linux, based originally on aumix.
+supports both oss/free and oss/linux (but not alsa without emulation).

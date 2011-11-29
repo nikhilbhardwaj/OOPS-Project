@@ -1,0 +1,12 @@
+A scilab library of space flight dynamics functions
+	
+celestlab is a library of space flight dynamics functions written in scilab.
+this library has been developed and is maintained by the cnes (centre national
+d'etudes spatiales) for mission analysis purposes. the library is used by cnes
+for the trajectory analysis and orbit design for various type of missions.
+celestlab gathers in ten modules about 200 functions that allow mission
+designers to perform various tasks such as: orbit propagation, attitude
+computation, elementary manoeuvre computation, change of reference frames,
+change of coordinates, three body orbit analysis. celestlab has been validated
+against the cnes flight dynamics reference software. selected examples from
+mission analysis typical studies are provided in the celestlab help pages.

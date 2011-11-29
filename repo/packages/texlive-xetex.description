@@ -1,0 +1,29 @@
+Tex live: xetex packages
+	
+packages for xetex, the unicode/opentype-enabled tex by jonathan kew,
+
+  http://scripts.sil.org/xetex.
+
+
+this package includes the following ctan packages:
+
+ arabxetex -- an arabtex-like interface for xelatex.
+ euenc -- unicode font encoding definitions for xetex.
+ bidi -- support for bidirectional typesetting with xelatex.
+ fontspec -- an automatic interface to feature-rich fonts in xelatex.
+ fontwrap -- bind fonts to specific unicode blocks.
+ harvardkyoto -- xetex input map for unicode devanagari.
+ mathspec -- specify arbitrary fonts for mathematics in xetex.
+ philokalia -- a font to typeset the philokalia books.
+ polyglossia -- modern multilingual typesetting with xelatex.
+ xecjk -- support for cjk documents in xelatex.
+ xecolour -- support for colour in xelatex.
+ xecyr -- using cyrillic languages in xetex.
+ xepersian -- persian for latex over xetex.
+ xetex --
+ xetex-def -- colour and graphics support for xetex.
+ xetex-pstricks -- running pstricks under xetex.
+ xetexconfig --
+ xetexfontinfo -- report font features in xetex.
+ xltxtra -- "extras" for latex users of xetex.
+ xunicode -- generate unicode characters from accented glyphs.

@@ -1,0 +1,11 @@
+Xenomai runtime utilities
+	
+xenomai is a real-time development framework cooperating with the linux
+kernel in order to provide a pervasive, interface-agnostic, hard real-time
+support to user-space applications, seamlessly integrated into the gnu/linux
+environment. xenomai provides its own api and emulation layers ("skins") to
+make migration from other rtos easier. examples are: psos+, vxworks, vrtx,
+uitron, rtai, posix.
+
+this package contains the runtime programs and the testsuite for the xenomai
+realtime system.

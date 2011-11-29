@@ -1,0 +1,5 @@
+Nvidia opengl development files (transitional package)
+	
+this is a transitional dummy package to aid migration to libgl1-mesa-dev.
+nvidia recommends to use the official headers for developing opengl
+applications.

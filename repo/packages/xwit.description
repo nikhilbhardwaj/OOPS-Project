@@ -1,0 +1,9 @@
+A collection of simple routines to call some x11 functions
+	
+xwit allows to call some x11 functions from the command line or
+a shell script.
+
+xwit will resize, iconify, pop, and move windows given
+by name or id, change an icon, title or name, set the screen saver
+going, and change individual key autorepeat settings, move the
+mouse cursor, etc.

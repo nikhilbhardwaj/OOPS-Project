@@ -1,0 +1,6 @@
+Check the bug closings in a debian changelog
+	
+yaclc (yet another change log check) queries the bug
+tracking system to see if the bugs closed in a package's
+changelog actually belong to that package. this helps to
+prevent accidental closing of the wrong bugs in an upload.

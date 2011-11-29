@@ -1,0 +1,8 @@
+The settlers of catan board game - meta-server
+	
+pioneers is a computer implementation of the settlers of catan board game.
+it can be played over the internet.
+
+this package contains a meta-server, which can be used to locate running
+servers. most people will use a central meta-server, and do not need this
+package.

@@ -1,0 +1,18 @@
+Parallel/multiprocessor ray tracing software
+	
+tachyon is a portable, high performance parallel ray tracing system
+supporting mpi and multithreaded implementations.  tachyon is built
+as a c callable library, which can be used with the included demo
+programs or within your own application.  the distribution also
+includes a simple scene file parser front-end which reads a few
+different formats.
+
+tachyon implements all of the basic geometric primitives such as
+triangles, planes, spheres, cylinders, etc.  some of the goals in
+developing tachyon were to make it fast and for it to parallelize
+well.  these are what set it apart from more full-featured programs
+like pov-ray, rayshade, and others.  tachyon supports enough features
+to be an excellent alternative to slower programs for demanding
+animation and scientific visualization tasks.  as time goes on,
+tachyon will indeed incorporate more features, but with a continued
+emphasis on rendering performance.

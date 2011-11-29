@@ -1,0 +1,17 @@
+Easier relationship specification in class::dbi::loader
+	
+the class::dbi::loader::relationship module acts as a mix-in, adding the
+relationship() method to class::dbi::loader. since class::dbi::loader knows
+how to map between table names and class names, there ought to be no need to
+replicate the names.
+
+in addition, it is common (but not universal) to want reverse
+relationships defined for has-many relationships, and for has-a
+relationships to be defined for the linkages surrounding a
+many-to-many table.
+
+the aim of this module is to simplify the declaration of common
+database relationships by providing both of these features.
+
+the relationship takes a string. it recognises table names (singular
+or plural, for convenience) and extracts them from the "sentence".

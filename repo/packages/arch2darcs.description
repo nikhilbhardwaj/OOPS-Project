@@ -1,0 +1,13 @@
+Convert arch/tla repositories to darcs
+	
+arch2darcs is used to convert an arch repository to darcs,
+automatically preserving:
+
+
+ - all original logs,
+ - modification dates,
+ - all adds, deletes, and renames that were versioned with tla,
+ - files in arch.
+
+
+arch2darcs can process entire arch/tla branches at once.

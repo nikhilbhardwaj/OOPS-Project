@@ -1,0 +1,10 @@
+Development files for pam
+	
+contains c header files and development shared libraries for libpam, the
+pluggable authentication modules, a suite of shared libraries that enable
+the local system administrator to choose how applications authenticate
+users.
+
+pam decouples applications from the authentication mechanism, making it
+possible to upgrade the authentication system without recompiling or
+rewriting the applications.

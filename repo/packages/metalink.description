@@ -1,0 +1,5 @@
+Generator for metalink files
+	
+metalink is a metalink generation tool. it combines a list of mirrors
+and a number of files into one metalink record (stdout). it can also
+be used to transform a md5sums file into a metalink.

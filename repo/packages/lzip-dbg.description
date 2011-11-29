@@ -1,0 +1,6 @@
+Data compressor based on the lzma algorithm (debug)
+	
+lzip is a lossless data compressor based on the lzma algorithm, with very safe
+integrity checking and a user interface similar to the one of gzip or bzip2.
+
+this package contains the debugging symbols.

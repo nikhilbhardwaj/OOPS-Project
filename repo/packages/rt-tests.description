@@ -1,0 +1,7 @@
+Test programs for rt kernels
+	
+rt-tests contains a set of programs that test and measure various components
+of real-time kernel behavior, such as timer latency, signal latency and the
+functioning of priority-inheritance mutexes.
+additionally it contains hackbench, a program to generate work for the
+scheduler.

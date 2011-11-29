@@ -1,0 +1,10 @@
+Utilities for running debian on a sony playstation 3
+	
+this package contains a number of useful and essential utilities needed for
+running debian gnu/linux on a playstation 3 console.  it includes:
+
+ * ps3-video-mode: display/change the video mode of the ps3.
+ * ps3-boot-game-os: reboot the system into the "game os".
+ * ps3-flash-util: read and manipulate the system flash rom of the ps3.
+ * ps3-dump-bootloader: dump the "other os" bootloader image.
+ * ps3-rtc-init: initialize the linux rtc diff value.

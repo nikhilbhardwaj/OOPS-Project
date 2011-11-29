@@ -1,0 +1,9 @@
+Open gl based interactive canvas library gesture framework (debug files)
+	
+clutter is an open gl based interactive canvas library, designed for creating
+fast, mainly 2d single window applications such as media box uis,
+presentations, kiosk style applications and so on. gesture library allows
+clutter applications to be aware of gestures and to easily attach some
+handlers to gesture events.
+
+this package contains the debug files.

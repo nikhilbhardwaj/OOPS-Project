@@ -1,0 +1,8 @@
+Asn.1 to c or c++ or idl compiler, shared libraries
+	
+snacc is short for "sample neufeld asn.1 to c compiler" and asn.1
+stands for abstract syntax notation one (itu-t x.208/iso 8824).
+snacc supports a subset of asn.1 1988.  if you need features of
+asn.1 1992 or later, snacc is not for you.
+
+these are the shared libraries for programs developed using snacc.

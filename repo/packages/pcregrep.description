@@ -1,0 +1,8 @@
+Grep utility that uses perl 5 compatible regexes.
+	
+perl-style regexps have many useful features that the standard posix ones
+don't; this is basically the same as grep but with the different
+regexp syntax.
+
+the other reason for the existence of pcregrep is that its source code is an
+example of programming with libpcre.

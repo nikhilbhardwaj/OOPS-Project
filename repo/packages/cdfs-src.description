@@ -1,0 +1,7 @@
+Shows the tracks on a cd as normal files
+	
+cdfs is a file system for linux systems that `exports' all tracks and
+boot images on a cd as normal files.  these files can then be mounted
+(e.g. for iso and boot images), copied, played (wave audio and videocd
+tracks)... the primary goal for developing this file system was to
+`unlock' information in old iso images.

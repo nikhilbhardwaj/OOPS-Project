@@ -1,0 +1,12 @@
+Python bindings for the quantlib quantitative finance library
+	
+the quantlib project is aimed to provide a comprehensive software framework
+for quantitative finance. the goal is to provide a standard free/open source
+library to quantitative analysts and developers for modeling, trading, and
+risk management in real-life.
+
+quantlib plans to offer tools that are useful for both practical
+implementation, with features such as market conventions, solvers, pdes,
+etc., and advanced modeling, e.g., exotic options and interest rate models.
+
+this package provides python bindings to parts of the quantlib library.

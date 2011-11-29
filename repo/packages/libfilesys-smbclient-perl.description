@@ -1,0 +1,5 @@
+Perl interface to access samba filesystem
+	
+this package provides the filesys::smbclient module. it provides
+interface to the functions in libsmbclient.so. it has functions to
+read/write/add/modify files/directories on samba shares.

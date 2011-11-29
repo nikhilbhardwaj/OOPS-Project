@@ -1,0 +1,5 @@
+Perl module providing a sweeter class::dbi
+	
+class::dbi::sweet provides convenient count, search, page and cache functions
+in a simple package. it integrates these functions with the usual class::dbi
+(libclass-dbi-perl) interface in a convenient and efficient way.

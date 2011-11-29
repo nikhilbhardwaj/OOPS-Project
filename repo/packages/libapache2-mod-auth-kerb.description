@@ -1,0 +1,5 @@
+Apache2 module for kerberos authentication
+	
+an apache2 module for authenticating users in a kerberos realm.
+it supports basic user and password authentication or a
+negotiate auth based on kerberos tickets.

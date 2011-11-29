@@ -1,0 +1,11 @@
+Tex/latex to html converter
+	
+latex is popular for specifying complex printed documents. tth translates
+plain tex or latex documents into html. it quickly produces web documents
+that are compact, editable and fast viewing.  tth translates most equations
+instead of converting them into images.  this html preserves much format
+when imported by ms word.
+
+tth needs tetex to generate auxiliary files for cross references
+and content tables. complex equations and graphics require gs and netpbm
+to convert postscript output from tetex to images.

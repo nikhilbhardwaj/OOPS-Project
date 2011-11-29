@@ -1,0 +1,11 @@
+Perl extensions for keeping data partially sorted
+	
+the heap collection of modules provide routines that manage
+a heap of elements.  a heap is a partially sorted structure
+that is always able to easily extract the smallest of the
+elements in the structure (or the largest if a reversed compare
+routine is provided).
+
+if the collection of elements is changing dynamically, the
+heap has less overhead than keeping the collection fully
+sorted.

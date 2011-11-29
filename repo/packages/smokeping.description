@@ -1,0 +1,9 @@
+Latency logging and graphing system
+	
+smokeping consists of a daemon process which organizes the
+latency measurements and a cgi which presents the graphs.
+
+with smokeping you can measure latency and packet loss in your network.
+smokeping uses rrdtool to maintain a longterm datastore and to draw pretty
+graphs giving up to the minute information on the state of each
+network connection.

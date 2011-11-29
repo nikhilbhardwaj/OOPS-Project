@@ -1,0 +1,5 @@
+Perl module for writing shell-like interfaces
+	
+term::shell makes it joyfully easy to write command-line interfaces in perl.
+all the boring details like command-line parsing and terminal handling are
+done for you.

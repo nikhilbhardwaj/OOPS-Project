@@ -1,0 +1,6 @@
+Human/perl readable strings from the results of an expr
+	
+the autobox::dump pragma adds, via the autobox pragma, a method to normal
+expression (such as scalars, arrays, hashes, math, literals, etc.) that
+produces a human/perl readable representation of the value of that
+expression.

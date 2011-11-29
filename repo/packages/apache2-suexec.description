@@ -1,0 +1,5 @@
+Standard suexec program for apache 2 mod_suexec
+	
+provides the standard suexec helper program for mod_suexec. this version is
+compiled with document root /var/www and userdir suffix public_html. if you
+need different settings, use the package apache2-suexec-custom.

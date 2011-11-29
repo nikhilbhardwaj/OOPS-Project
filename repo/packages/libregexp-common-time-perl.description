@@ -1,0 +1,4 @@
+Regexp::common extension for date and time matching
+	
+regexp::common::time extends regexp::common with regular expressions
+that can be used for parsing dates and times.

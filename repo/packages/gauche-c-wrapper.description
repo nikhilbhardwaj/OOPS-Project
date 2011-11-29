@@ -1,0 +1,5 @@
+Foreign function interface for gauche to c libraries
+	
+c-wrapper is a foreign function interface for c and objective-c
+libraries.  it can parse c header files, so you don't need to define
+functions, global variables and constants to use libraries.

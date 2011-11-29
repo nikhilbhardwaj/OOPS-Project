@@ -1,0 +1,12 @@
+A flexible command-line scientific calculator
+	
+wcalc is a very capable calculator. it has standard functions
+(sin, asin, and sinh for example, in either radians or degrees),
+many pre-defined constants (pi, e, c, etc.), support for using
+variables, "active" variables, a command history, hex/octal/binary
+input and output, unit conversions, embedded comments, and an
+expandable expression entry field. it evaluates expressions using
+the standard order of operations.
+
+wcalc uses intuitive expressions. for example, wcalc will evaluate:
+5sin 4!-7*2(4%6)^2 to be -221.96631678

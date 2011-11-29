@@ -1,0 +1,9 @@
+Configurable suexec program for apache 2 mod_suexec
+	
+provides a customizable version of the suexec helper program for mod_suexec.
+this is not the version from upstream, but can be configured with a
+configuration file.
+
+if you do not need non-standard document root or userdir settings, it is
+recommended that you use the standard suexec helper program from the
+apache2-suexec package instead.

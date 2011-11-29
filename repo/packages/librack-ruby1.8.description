@@ -1,0 +1,12 @@
+A modular ruby webserver interface (ruby 1.8)
+	
+rack provides a minimal, modular and adaptable interface for
+developing web applications in ruby.  by wrapping http requests and
+responses in the simplest way possible, it unifies and distills the
+api for web servers, web frameworks, and software in between (the
+so-called middleware) into a single method call.
+
+the exact details of this are described in the rack specification,
+which all rack applications should conform to.
+
+this is the package for ruby 1.8.

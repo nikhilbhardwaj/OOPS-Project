@@ -1,0 +1,18 @@
+Specialized libpcap utilities
+	
+pcaputils includes the following libpcap-based utilities:
+
+ - pcapip: filters an input pcap file based on a file containing ip addresses
+ - pcappick: picks specific frames out of a pcap by number
+ - pcapuc: prints unique src ips, dst ips, or {src, dst} ip pairs witnessed
+ - pcapdump: a dedicated packet capture utility similar to dumpcap, but with
+   these features:
+ * logs packet dump and drop rates
+ * can run as a daemon
+ * can dynamically reload its configuration without dropping packets
+ * can be signalled to immediately rotate its capture output file
+ * can partition its output based on time intervals (e.g., start of hour or
+   start of day)
+ * can strip application data from the trace file (output headers only)
+ * can sample the packet stream (e.g., only dump every 1 in 10 or 1 in 100
+   packets)

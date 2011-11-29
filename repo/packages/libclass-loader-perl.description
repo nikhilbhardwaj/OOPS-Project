@@ -1,0 +1,6 @@
+Module to load modules and create objects on command
+	
+class::loader is a perl module that provides an inheritable class useful for
+loading a module and automatically constructing an object. loading this way
+is beneficial in situations where many modules are available, and one must be
+appropriately selected at compile time.

@@ -1,0 +1,12 @@
+A parser generator for use with java
+	
+java compiler-compiler (javacc) is (according to sun)
+"the most popular parser generator" for use with java [tm]
+applications.
+
+a parser generator is a tool that reads a grammar specification
+and converts it to a java program that can recognize matches to
+the grammar. in addition to the parser generator itself, javacc
+provides other standard capabilities related to parser
+generation such as tree building (via a tool called jjtree
+included with javacc), actions, debugging, etc.

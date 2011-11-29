@@ -1,0 +1,11 @@
+Gawk script to parse /var/lib/dpkg/{status,available} and packages
+	
+this script can parse the dpkg database files. it can do regular
+expressions on the fields, and only get what you want. it can also be
+made to output certain fields. as an added bonus, there is an option
+to sort the output.
+
+'dpkg-awk "status: .* installed$"  -- package version status' will
+output all installed packages, with only the listed fields.
+'dpkg-awk -f=/var/lib/dpkg/available "package:^[aa].*" -- package version'
+will output all available packages that start with the letter 'a.'

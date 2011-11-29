@@ -1,0 +1,15 @@
+Perl module for fast ip address lookups
+	
+net::patricia uses a patricia trie data structure to quickly
+perform ip address prefix matching for applications such as
+ip subnet, network or routing table lookups.  the data
+structure is based on a radix tree using a radix of two, so
+sometimes you see patricia implementations called "radix" as
+well.  the term "trie" is derived from the word "retrieval"
+but is pronounced like "try".  patricia stands for
+"practical algorithm to retrieve information coded as
+alphanumeric", and was first suggested for routing table
+lookups by van jacobsen.  patricia trie performance
+characteristics are well-known as it has been employed for
+routing table lookups within the bsd kernel since the 4.3
+reno release.

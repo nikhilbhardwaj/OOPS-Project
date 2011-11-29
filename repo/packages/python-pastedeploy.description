@@ -1,0 +1,8 @@
+Load, configure, and compose wsgi applications and servers
+	
+paste deployment is a system for finding and configuring wsgi applications and
+servers. for wsgi application consumers it provides a single, simple function
+(loadapp) for loading a wsgi application from a configuration file or a python
+egg. for wsgi application providers it only asks for a single, simple entry
+point to your application, so that application users don't need to be exposed
+to the implementation details of your application.

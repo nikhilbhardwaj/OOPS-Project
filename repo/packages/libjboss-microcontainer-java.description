@@ -1,0 +1,14 @@
+Jboss microcontainer
+	
+the jboss microcontainer provides an environment to configure and
+manage pojos (plain old java objects). it is designed to reproduce the
+existing jboss jmx microkernel but targetted at pojo environments. as
+such it can be used standalone outside the jboss application server.
+
+features:
+
+ - all the features of the jmx microkernel
+ - direct pojo deployment (no need for standard/xmbean or mbeanproxy)
+ - direct ioc style dependency injection
+ - improved lifecycle management
+ - additional control over dependencies

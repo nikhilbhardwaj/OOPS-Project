@@ -1,0 +1,6 @@
+Poe interface to net::pcap
+	
+poe::component::pcap provides a wrapper for using the net::pcap module
+from poe programs.  the component creates a separate session which
+posts events to a specified session and state when packets are
+available.

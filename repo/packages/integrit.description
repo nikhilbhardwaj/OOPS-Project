@@ -1,0 +1,16 @@
+A file integrity verification program
+	
+integrit helps you determine whether an intruder has modified your
+system.  without the use of integrit, a sysadmin wouldn't know if the
+programs used for investigating the system are trojan horses or not.
+integrit works by creating a database that is a snapshot of the most
+essential parts of the system.  you put the database somewhere safe,
+and then later you can use it to make sure that no one has made any
+illicit modifications to your file system.
+
+integrit's key features are the small memory footprint, the design
+with unattended use in mind, intuitive cascading rulesets for the
+paths listed in the configuration file, the possibility of xml or
+human-readable output, and simultaneous checks and updates.
+
+see http://integrit.sourceforge.net/ for more information.

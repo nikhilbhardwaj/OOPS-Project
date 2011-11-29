@@ -1,0 +1,14 @@
+Japanese handwriting model for zinnia
+	
+zinnia is a simple, customizable and portable online hand recognition
+system based on support vector machines. zinnia simply receives user pen
+strokes as a sequence of coordinate data and outputs n-best characters
+sorted by svm confidence. to keep portability, zinnia doesn't have any
+rendering functionality. in addition to recognition, zinnia provides
+training module that allows us to create any hand-written recognition
+systems with low-cost.
+
+this package provide a data model for zinnia. with this model, zinnia can
+recognize japanese character.
+
+this data model is derived from tomoe project: http://tomoe.sourceforge.jp

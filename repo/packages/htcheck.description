@@ -1,0 +1,6 @@
+Utility for checking web site for dead/external links
+	
+ht://check is more than a link checker. it's particularly suitable for
+checking broken links, anchors and web accessibility barriers, but
+retrieved data can also be used for web structure mining. uses a mysql
+backend. derived from ht://dig.

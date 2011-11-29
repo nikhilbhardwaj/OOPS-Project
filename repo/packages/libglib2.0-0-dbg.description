@@ -1,0 +1,9 @@
+The glib libraries and debugging symbols
+	
+glib is a library containing many useful c routines for things such
+as trees, hashes, lists, and strings.  it is a useful general-purpose
+c library used by projects such as gtk+, gimp, and gnome.
+
+this package contains detached debugging symbols.
+
+most people will not need this package.

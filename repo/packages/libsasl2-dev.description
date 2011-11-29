@@ -1,0 +1,7 @@
+Cyrus sasl - development files for authentication abstraction library
+	
+this is the cyrus sasl api implementation, version 2. see package
+libsasl2-2 and rfc 2222 for more information.
+
+this package includes development files for compiling programs with sasl
+support. it is needed for development purposes only.

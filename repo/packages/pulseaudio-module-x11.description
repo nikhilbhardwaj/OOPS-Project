@@ -1,0 +1,11 @@
+X11 module for pulseaudio sound server
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+this module enables pulseaudio to publish itself as the default sound
+server to the x11 root window automatically upon startup. the is also a
+module to playback a sound file in place of the x11 bell beep.
+
+the modules are called module-x11-publish and module-x11-bell.

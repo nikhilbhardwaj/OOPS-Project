@@ -1,0 +1,8 @@
+Viewer for images in the openexr format
+	
+openexr is a high dynamic-range (hdr) image file format developed by
+industrial light & magic for use in computer imaging applications.
+
+this package contains the following utility:
+
+ - exrdisplay      : simple viewer for exr images

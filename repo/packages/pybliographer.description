@@ -1,0 +1,8 @@
+Tool for manipulating bibliographic databases
+	
+it currently supports bibtex, medline, ovid and refer files. it is useful
+for viewing, editing and searching, but also to convert bibliographic
+databases into html pages for example.
+
+yelp (part of gnome) is required to view the pybliographic manual
+from within the gui.

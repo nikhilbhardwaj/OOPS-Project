@@ -1,0 +1,5 @@
+Partition editor for acorn/risc os machines
+	
+acorn-fdisk allows you to edit disk partitions on acorn machines.  it
+understands a variety of the partition tables formats used under risc os,
+including filecore, ics-ide, eesox and powertec.

@@ -1,0 +1,8 @@
+The cmucl lisp compiler and development system
+	
+this is the basis package for cmucl. it contains the base
+image with the compiler, pcl (clos), and the tty based
+debugger.
+
+it is a common lisp development system, written in common
+lisp itself with a long history.

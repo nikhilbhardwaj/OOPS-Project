@@ -1,0 +1,7 @@
+Create tcp tunnels trough https proxies, for using with ssh
+	
+proxytunnel is a program that connects stdin and stdout
+to an origin server somewhere in the internet through an industry
+standard https proxy. it was originally written to be used
+as an extension to ssh, to be used to ssh to a box at home. it's possible
+to use proxytunnel along with other applications as well.

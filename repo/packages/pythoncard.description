@@ -1,0 +1,12 @@
+Wxpython-based gui construction framework (meta-package)
+	
+pythoncard is a gui construction framework for building cross-platform desktop
+applications on windows, mac os x, and linux, using the python language.  it
+is based on the wxpython bindings for the wxwidgets toolkit (formerly known
+as wxwindows).
+
+this is a meta-package which is intended to be used by developers who want the
+entire upstream distribution available to them.  maintainers of other packages
+that rely on pythoncard functionality should consider depending on one or more
+of the related packages (python-pythoncard, pythoncard-tools) as needed instead
+of this meta-package.

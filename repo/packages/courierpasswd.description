@@ -1,0 +1,6 @@
+Authenticate courier passwords with checkpassword interface
+	
+courierpasswd is a user authentication and password changing utility that
+works with the courier mail server user authentication mechanism. it's
+interface follows that of checkpassword. it can be used, for example, to
+authenticate users who are sending email through a non-courier mta.

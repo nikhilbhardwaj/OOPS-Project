@@ -1,0 +1,4 @@
+PackageId:31485
+Name:service-discovery-applet
+Version:0.4.4-4.1
+Deps:avahi-daemon,gconf2,notification-daemon,notification-daemon-xfce,xfce4-notifyd,python,python-avahi,python-central,python-dbus,python-glade2,python-gnome2,python-gnomeapplet,python-gtk2,python-notify

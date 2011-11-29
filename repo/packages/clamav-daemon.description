@@ -1,0 +1,18 @@
+Anti-virus utility for unix - scanner daemon
+	
+clam antivirus is an anti-virus toolkit for unix. the main purpose of
+this software is the integration with mail servers (attachment
+scanning). the package provides a flexible and scalable
+multi-threaded daemon in the clamav-daemon package, a command-line
+scanner in the clamav package, and a tool for automatic updating via
+the internet in the clamav-freshclam package. the programs are based
+on libclamav6, which can be used by other software.
+
+this package contains the daemon and its command line interface,
+featuring:
+
+ - fast, multi-threaded daemon;
+ - easy integration with mta's;
+ - support for on-access scanning;
+ - remote scanning;
+ - able to be run supervised by daemon.

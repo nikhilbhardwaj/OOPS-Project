@@ -1,0 +1,6 @@
+Development files for the smf library
+	
+libsmf is a bsd-licensed c library for handling smf ("*.mid") files.
+
+this package contains the development libraries, header files needed
+by programs that want to compile with libsmf

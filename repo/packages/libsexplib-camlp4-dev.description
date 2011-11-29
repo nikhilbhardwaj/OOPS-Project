@@ -1,0 +1,16 @@
+Automated conversions between ocaml-values and s-expressions
+	
+sexplib library contains functionality for parsing and pretty-printing
+s-expressions.
+
+sexplib also contains a preprocessing module for camlp4, which can be
+used to automatically generate code from type definitions for
+efficiently converting ocaml-values to s-expressions and vice versa.
+in combination with the parsing and pretty-printing functionality this
+frees users from having to write their own i/o-routines for the
+datastructures they define.  possible errors during automatic
+conversions from s-expressions to ocaml-values are reported in a very
+human-readable way.
+
+another module contained in sexplib you to extract and replace
+sub-expressions in s-expressions.

@@ -1,0 +1,9 @@
+A graphical calendar with memos and reminder alarms
+	
+the "classic" calendar app with memos and alarms, xcal normally
+sits idle and displays the date.  when clicked on, pops up a `strip'
+for this month.  clicking on a day allows you to enter details.
+automatically parses times entered, and reminds you 5 minutes
+before your appointment.
+
+supports daily and weekly repeating events and context-sensitive help.

@@ -1,0 +1,12 @@
+Gnome scheduler for automatic tasks
+	
+gnome gui for configuring a users' cron (automatic jobs).
+
+some of its features are:
+
+ * templates support so that you won't have to create the same task
+   again and again.
+ * if run as root, you can edit any user's crontab and "at" tasks.
+ * human-readable strings like "every hour" instead of "0 * * * *".
+ * advanced mode for crontab experts.
+ * a calendar allows you to choose the day you want a task executed.

@@ -1,0 +1,6 @@
+A tool to automatically update your dnssec trust anchors
+	
+autotrust takes care of keeping your dnssec trust anchors up to
+date. it is rfc 5011 compliant, except for the query intervals and
+the retry timers. autotrust is meant to run as a daemon or from
+a cron job.

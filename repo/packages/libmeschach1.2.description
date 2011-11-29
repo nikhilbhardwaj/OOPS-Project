@@ -1,0 +1,13 @@
+Library for performing operations on matrices and vectors
+	
+meschach is a library of routines written in c for matrix
+computations. these include operations for basic numerical linear
+algebra; routines for matrix factorisations; solving systems of
+equations; solving least squares problems; computing eigenvalues,
+eigenvectors and singular values;sparse matrix computations including
+both direct and iterative methods. this package makes use of the
+features of the c programming language: data structures, dynamic
+memory allocation and deallocation, pointers, functions as parameters
+and objects. meschach has a number of self-contained data structures
+for matrices, vectors and other mathematical objects.
+web site: ftp://ftpmaths.anu.edu.au/pub/meschach/meschach.html

@@ -1,0 +1,11 @@
+Python module for creating and decoding radius packets
+	
+it takes care of all the details like building radius
+packets, sending them and decoding responses.
+this package contains several modules:
+
+ - client: radius client code
+ - dictionary: radius attribute dictionary
+ - server: basic radius server and proxy classes.
+ - packet: a radius packet as send to/from servers
+ - tools: utility functions

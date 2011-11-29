@@ -1,0 +1,6 @@
+Utility module for tests to check whether modules are available
+	
+test::requires is a perl module for tests written using test::builder that
+simply checks to see if the module can be loaded. if loading the module fails
+then this skips all tests in the file, rather than causing a complete failure
+in module testing.

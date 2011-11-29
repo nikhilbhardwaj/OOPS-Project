@@ -1,0 +1,27 @@
+Xml infrastructure and xml catalog file support
+	
+this package creates the xml infrastructure directories and provides
+xml catalog file support in compliance with the current debian xml
+policy draft:
+
+
+  * infrastructure directories:
+     - /etc/xml
+     - /usr/share/xml/{declaration,entities,misc,schema}
+     - /usr/local/share/xml/{declaration,entities,misc,schema}
+
+
+
+  * xml catalog schema: oasis xml catalog committee specification 1.0
+
+
+
+  * update-xmlcatalog(8): tool for maintaining the root xml catalog
+    file and the package xml catalog files in the '/etc/xml' directory
+    as well as local xml catalog files.
+
+
+
+  * dh_installxmlcatalogs(1): debhelper tool for installing local xml
+    catalog files and registering xml entities in package xml catalog
+    files and the root xml catalog file (requires debhelper package)

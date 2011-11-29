@@ -1,0 +1,18 @@
+Framework for developing visual-novel type games
+	
+ren'py is a programming language and runtime, intended to ease the creation
+of visual-novel type games. it contains features that make it easy to
+display thoughts, dialogue, and menus; to display images to the user; to
+write game logic; and to support the saving and loading of games.
+
+ren'py tries to be like an executable script, allowing you to get a working
+game without much more effort than is required to type the game script into
+the computer.
+
+ren'py is implemented on top of python, and that python heritage shows
+through in many places. many ren'py statements allow python expressions
+to be used, and there are also ren'py statements that allow for the
+execution of arbitrary python code. many of the less-used features of
+ren'py are exposed to the user by way of python. by only requiring use of
+the simplest features of python, it's hoped that ren'py will be usable by
+all game authors.

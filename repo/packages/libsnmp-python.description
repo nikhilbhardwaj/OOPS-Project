@@ -1,0 +1,8 @@
+Snmp (simple network management protocol) python support
+	
+the simple network management protocol (snmp) provides a framework
+for the exchange of management information between agents (servers)
+and clients.
+
+the net-snmp python support files provide the python functions for
+integration of snmp into applications written in python.

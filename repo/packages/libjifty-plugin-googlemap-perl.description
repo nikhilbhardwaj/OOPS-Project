@@ -1,0 +1,10 @@
+Googlemap plugin for jifty
+	
+jifty::plugin::googlemap provides a google-map widget for jifty, as well as a
+new geolocation column type.
+
+you will put your apikey in config.yml and add in your model class schema
+description:
+
+
+ column location => is geolocation;

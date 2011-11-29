@@ -1,0 +1,9 @@
+Tool to decode rfid tag data
+	
+rfdump is a tool to decode rfid tags and show their meta information:
+tag id, tag type, manufacturer etc. the user data memory of a tag can
+be displayed and modified using either a hex or an ascii editor. in
+addition, the integrated cookie feature demonstrates how easy it is
+for a company to abuse rfid technology to spy on their customers.
+rfdump works with the acg multi-tag reader or similar card reader
+hardware.

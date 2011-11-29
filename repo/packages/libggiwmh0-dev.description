@@ -1,0 +1,11 @@
+Ggi window manager hints extension development package
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+libggiwmh is an extension module for ggi display targets that are window
+system based. it provides portable access to things like setting the title
+bar, resizing, moving and iconifying windows that enclose the libggi
+controlled display surface.
+
+this package includes the development files necessary to compile programs
+that use libggiwmh.

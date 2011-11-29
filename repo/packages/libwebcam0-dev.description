@@ -1,0 +1,11 @@
+The webcam library
+	
+this package provides the files needed to build apps that use libwecam.
+
+the webcam library libwebcam is designed to simplify
+the development of webcam applications, primarily on linux but
+with an option to be ported to other platforms, in particular
+solaris. it realizes part of what the unwritten video4linux user
+space library was always supposed to be: an easy to use library
+that shields its users from many of the difficulties and problems
+of using the v4l2 api directly.

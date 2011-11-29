@@ -1,0 +1,16 @@
+Old-school first person shooter game
+	
+cytadela is a single player game in which the player fights against
+computer-controlled (ai) enemies. the goal of the game is to find six
+bomb parts with which the citadel has to be blown up.
+
+to achieve it, the player not only has to defend himself against the
+enemies, but (s)he also has to solve many riddles, such as switching
+apropriate buttons in order to open some door, move some walls, etc.
+
+it's a conversion of a first person shooter amiga game originally
+released in mid 1990's, first in poland and then in other countries.
+
+cytadela requires a 3d graphics card.  it uses the opengl and glu
+libraries for 3d, and sdl and sdl_mixer for 2d, music, sounds and
+controllers.

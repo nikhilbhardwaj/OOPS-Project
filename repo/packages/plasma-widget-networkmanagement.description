@@ -1,0 +1,11 @@
+Network management widget for kde4 plasma
+	
+this package contains the network management plasma widget which aims to
+provide a fully featured gui for managing networks.  currently, the only
+supported backend is networkmanager.  support for wired, wireless, gsm
+and vpn networks are provided.  the widget is exclusively written for plasma
+and kde4 and it is not supposed to work in other environments.
+
+this widget needs plasma shell to be usable. main kde 4 plasma shell is
+available in the kdebase-workspace-bin package. the user friendly name of the
+widget is "network management" (in e.g. "add widgets" dialog).

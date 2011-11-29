@@ -1,0 +1,11 @@
+A library to communicate with the lttng control module
+	
+the lttng project aims at providing highly efficient tracing tools for linux.
+its tracers help tracking down performance issues and debugging problems
+involving multiple concurrent processes and threads. tracing across multiple
+systems is also possible.
+
+ltt-control is the part of the lttng that allows a machine to be traced.
+
+this library allows applications to communicate with the kernel tracer control
+module.

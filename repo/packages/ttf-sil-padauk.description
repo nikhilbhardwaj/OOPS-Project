@@ -1,0 +1,19 @@
+Smart unicode font for languages in myanmar
+	
+padauk is a myanmar font covering all currently used characters in the
+myanmar block as specified in unicode 5.1
+
+the font is a smart font using a graphite description.
+
+the gdl source code for the description and the corresponding documentation
+is available on the website or in the source package (simply type "apt-get
+source" to download it).  in addition opentype tables have been added.
+
+the features of the font are complete coverage of myanmar script (excluding
+unused characters u+1050..u+1059), graphite smarts including line breaking
+rules, opentype tables for use on windows.
+
+two fonts from this typeface family are included in this release:
+
+   * padauk
+   * padauk bold

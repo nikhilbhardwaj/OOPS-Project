@@ -1,0 +1,5 @@
+Simple program to filter messages into maildir folders from dot-qmail
+	
+this program was designed to filter messages based on regular expressions with
+perl syntax and perform actions on them (deliver on a maildir folder, send it
+to oblivion or bounce it).

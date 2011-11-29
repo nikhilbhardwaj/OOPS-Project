@@ -1,0 +1,15 @@
+Emacs helpers specific to debian users
+	
+this package contains:
+
+
+ apt-sources - major mode for editing debian sources.list files;
+ apt-utils - interface to apt (debian package management);
+ debian-bug - an emacs command to submit a bug report;
+ deb-view - view contents of debian package, similarly to tar-mode;
+ gnus-bts - provides buttons for bug numbers seen in gnus messages;
+ preseed - major mode for editing debian-installer preseed files.
+
+
+see /usr/share/doc/debian-el/readme.debian for a short description of
+all files, or the info node `debian-el' for details.

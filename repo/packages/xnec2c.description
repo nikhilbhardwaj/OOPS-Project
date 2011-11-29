@@ -1,0 +1,14 @@
+Calculate and display radio antenna properties
+	
+the original nec2c is a non-interactive command-line application that reads
+standard nec2 input files and produces an output file with data requested
+by "commands" in the input file.
+
+in contrast xnec2c is a gui interactive application that (in its current form)
+reads nec2 input files but presents output data in graphical form, e.g. as
+wire frame drawings of the radiation pattern or near e/h field, graphs of
+maximum gain, input impedance, vswr etc against frequency and simple rendering
+of the antenna structure, including color code representation of currents or
+charge densities. these results are only calculated and drawn on user demand
+via menu items or buttons, e.g. xnec2c is interactive and does not execute
+nec2 "commands" in batch style as the original does.

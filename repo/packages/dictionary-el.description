@@ -1,0 +1,5 @@
+Dictionary client for emacs
+	
+dictionary-el is a dict (rfc 2229) client for (x)emacs, with support
+for brace-delimited cross references and utf-8-encoded entries.
+note that xemacs bundles a slightly older version of this package.

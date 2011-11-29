@@ -1,0 +1,10 @@
+Haskell bindings to the bsd editline library (libedit) (documentation)
+	
+this package contains bindings to the bsd editline library. it provides a
+basic interface to the editline api for reading lines of input from the
+user.
+
+additionally, a readline compatibility module is included which provides a
+subset of the functions from the readline package.
+
+this package contains library documentation.

@@ -1,0 +1,9 @@
+Perl interface to hiveminder.com
+	
+hiveminder is a collaborate todo list organizer, built with jifty.
+
+net::hiveminder uses hiveminder's rest api to let you manage your tasks any
+way you want to.
+
+this module is built on top of net::jifty. consult that module's
+documentation for the lower-level interface.

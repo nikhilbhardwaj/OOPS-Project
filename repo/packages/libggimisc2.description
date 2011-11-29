@@ -1,0 +1,14 @@
+General graphics interface misc runtime libraries
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the shared libraries for libgiimisc, the ggi
+project's general graphics interface misc extension library containing
+display target extensions that don't deserve their own extension library.
+
+extensions are included for the following targets:
+
+
+ "fbdev"
+ "svgalib" (on supported archs)
+ "x" - this is temporarily disabled and not available with this release!

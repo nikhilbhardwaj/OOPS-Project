@@ -1,0 +1,4 @@
+PackageId:24057
+Name:mailscanner
+Version:4.79.11-2.2
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,libarchive-zip-perl,libconvert-tnef-perl,libdbd-sqlite3-perl,libdbi-perl,libdigest-sha1-perl,libfilesys-df-perl,libhtml-parser-perl,libmailtools-perl,libmime-tools-perl,libmime-perl,libnet-cidr-perl,libnet-dns-perl,libnet-ip-perl,libole-storage-lite-perl,libsys-hostname-long-perl,perl,spamassassin,ucf,unzip

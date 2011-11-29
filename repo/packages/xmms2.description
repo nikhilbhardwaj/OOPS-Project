@@ -1,0 +1,10 @@
+Client/server based media player system
+	
+xmms2 is a redesign of the xmms music player. it features a client-server
+model, allowing multiple (even simultaneous!) user interfaces, both textual
+and graphical. all common audio formats are supported using plug-ins. on top of
+this, there is a flexible media library to organize your music.
+
+this package is a metapackage depending on various other xmms2 packages.
+installing this package gets you a command line client and enables xmms2
+playback of ogg vorbis and mp3 files from local and remote sources.

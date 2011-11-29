@@ -1,0 +1,4 @@
+Perl module for dec vms password hashing
+	
+authen::dechpwd implements the lgi$hpwd password hashing function from vms,
+and some associated vms username and password handling functions.

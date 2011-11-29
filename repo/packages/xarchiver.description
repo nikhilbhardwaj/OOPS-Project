@@ -1,0 +1,9 @@
+Gtk+ frontend for most used compression formats
+	
+xarchiver is a desktop environment independent gtk+ 2 frontend for manipulating
+7z, arj, bzip2, gzip, rar, tar, zip, and rpm files. it allows you to create
+archives and add, extract, and delete files from them. password protected
+archives in the arj, 7z, rar, and zip formats are supported.
+
+xarchiver uses library package routines, if available. if you need even more
+package formats, try xarchive which uses shell scripts.

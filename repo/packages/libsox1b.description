@@ -1,0 +1,11 @@
+Sox library of audio effects and processing
+	
+sox is the swiss army knife of sound processing.
+
+this package contains the sox library which enables to convert various formats
+of computer audio files in to other formats. it also allows you to apply
+various effects to sound files.
+
+any format support requires at least libsox-fmt-base.
+sound card i/o requires libsox-fmt-alsa, libsox-fmt-ao, libsox-fmt-oss or
+libsox-fmt-pulse.

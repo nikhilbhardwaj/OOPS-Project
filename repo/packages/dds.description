@@ -1,0 +1,7 @@
+Bridge double dummy solver - frontend
+	
+dds is a double dummy solver. this package contains the driver frontend
+(originally named ddd).
+
+a double dummy solver computes the optimal line of play for a bridge deal,
+with all hands open (both sides dummy).

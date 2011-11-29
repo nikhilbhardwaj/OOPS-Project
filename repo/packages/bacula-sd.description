@@ -1,0 +1,11 @@
+Network backup, recovery and verification - storage daemon
+	
+bacula is a set of programs to manage backup, recovery and verification of
+data across a network of computers of different kinds.
+
+the storage daemon performs the storage and recovery of the file
+attributes and data to the physical media; in other words, it is
+responsible for reading and writing the backups.
+
+it runs on the machine which has access to the backup device(s) - usually
+a tape drive, but alternatively other storage media, such as files.

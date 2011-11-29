@@ -1,0 +1,11 @@
+Qt 4 phonon module
+	
+qt is a cross-platform c++ application framework. qt's primary feature
+is its rich set of widgets that provide standard gui functionality.
+
+the qt phonon module provides a cross-platform multimedia framework that
+enables the use of audio and video content in qt applications.
+
+the sole purpose of this package to provide phonon libraries until libphonon4
+is built from the phonon source package. therefore it's only useful when
+bootstraping new architectures or rebuilding the whole archive from scratch.

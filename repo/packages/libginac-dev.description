@@ -1,0 +1,8 @@
+The ginac symbolic framework (development files)
+	
+ginac (which stands for "ginac is not a cas (computer algebra system)") is a
+library for doing symbolic (i.e. non-numeric) computation directly in the c++
+programming language.
+
+this package provides header files, a static library plus a tutorial as info
+file.

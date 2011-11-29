@@ -1,0 +1,18 @@
+Powerful clone of the vi/ex text editor (without x11 support)
+	
+this package contains elvis compiled without x11 support.  if you want
+to use elvis' x11 interface then install the package elvis instead.
+see also: elvis-tools
+
+elvis is a clone of vi/ex, the standard unix editor. it supports
+nearly all of the vi/ex commands, in both visual mode and ex mode.
+elvis adds support for multiple files, multiple windows, a variety of
+display modes (including syntax highlighting, man, tex, html and
+hex), an optional x11 user interface (see elvis-x11), on-line help,
+folding, spell checking, new options, auto commands, regions, enhanced
+tags, printing, aliases and an improved :map command.
+
+like vi/ex, elvis stores most of the text in a temporary file,
+instead of ram. this allows it to edit files that are too large to
+fit in a single process' data space.
+also, the edit buffer can survive a power failure or crash.

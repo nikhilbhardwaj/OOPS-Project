@@ -1,0 +1,7 @@
+Development files for libass
+	
+substation alpha (ssa) is a subtitle file format that allows more
+advanced subtitles than the conventional srt and similar formats.
+
+this package contains the header files and static libraries needed to compile
+applications or shared objects that use libass.

@@ -1,0 +1,10 @@
+Binding to the gstreamer open source multimedia framework; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this package provides a wrapper around the gstreamer c library. gstreamer is a
+library for constructing graphs of media-handling components. the applications
+it supports range from simple oggvorbis playback, audiovideo streaming to
+complex audio (mixing) and video (non-linear editing) processing.

@@ -1,0 +1,4 @@
+Library for accessing process information from /proc
+	
+these are the header files for libproc. some packages using libproc
+to access process information from /proc need these to compile.

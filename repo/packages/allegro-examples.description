@@ -1,0 +1,13 @@
+Example programs and demo tools for the allegro library
+	
+this package contain some example programs that are distributed with
+the allegro library and small tools that can be used on console or in x11:
+
+
+  - fli player
+  - wav/voc player
+  - simple graphical calculator
+  - graphical midi "keyboard"
+
+
+the programs are accessible via the "allegro-examples" program.

@@ -1,0 +1,5 @@
+Generate and encrypt passwords
+	
+generates true random passwords by using the /dev/urandom feature of
+linux, with the emphasis on security over pronounceability.  it can
+also encrypt plaintext passwords given in a temporary file.

@@ -1,0 +1,11 @@
+Java service provider interface for the ogg vorbis audio format
+	
+vorbisspi is a java service provider interface that adds ogg vorbis audio
+format support to java platform. it supports icecast streaming. it is based on
+jorbis java libraries.
+
+ogg vorbis is a fully open, non-proprietary, patent-and-royalty-free,
+general-purpose compressed audio format for high quality (44.1-48.0khz, 16+
+bit, polyphonic) audio and music at fixed and variable bitrates from 16 to 128
+kbps/channel. this places vorbis in the same class as audio representations
+including mpeg-1 audio layer 3, mpeg-4 audio (aac and twinvq), and pac.

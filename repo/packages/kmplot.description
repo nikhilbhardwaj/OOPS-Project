@@ -1,0 +1,15 @@
+Mathematical function plotter for kde
+	
+kmplot is a powerful mathematical plotter kde, capable of plotting multiple
+functions simultaneously and combining them into new functions.
+
+cartesian, parametric, and differential functions are supported, as well as
+functions using polar coordinates.  plots are printed with high precision at
+the correct aspect ratio.
+
+kmplot also provides numerical and visual features such as filling and
+calculating the area between the plot and the first axis, finding maxima and
+minima, changing function parameters dynamically, and plotting derivatives
+and integral functions.
+
+this package is part of the kde education module.

@@ -1,0 +1,5 @@
+Modules for manipulating wav audio files
+	
+audio::wav is a collection of perl modules that provide mechanisms to read,
+parse and write uncompressed microsoft wav audio files. it is a pure perl
+module, so it is extremely portable at the cost of performance.

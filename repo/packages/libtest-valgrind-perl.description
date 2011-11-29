@@ -1,0 +1,15 @@
+Module to test perl code through valgrind
+	
+test::valgrind is a module that lets you run perl code through the memcheck
+tool of the valgrind memory debugger, to test it for memory errors and leaks.
+
+due to the nature of perl's memory allocator, this module can't track leaks
+of perl objects. this includes non-mortalized scalars and memory cycles.
+however, it can track leaks of chunks of memory allocated in xs extensions
+with newx and friends or malloc. as such, it's complementary to the other
+very good leak detectors such as test::leaktrace.
+
+additionally, this module can run arbitrary commands (not just perl code)
+and provide output compliant with perl's test anything protocol (tap).
+this means that any executable can be run under valgrind and incorporated
+into your testsuite.

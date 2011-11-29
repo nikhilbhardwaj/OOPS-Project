@@ -1,0 +1,5 @@
+Module for creating a static syntax tree for a pod
+	
+pod::tree parses a pod into a static syntax tree. applications walk the
+tree to recover the structure and content of the pod. see pod::tree::node
+for a description of the tree.

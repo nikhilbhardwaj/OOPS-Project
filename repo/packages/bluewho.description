@@ -1,0 +1,10 @@
+Notifies new discovered bluetooth devices
+	
+bluewho informs and notifies when a new bluetooth device is discovered.
+detection can be requested by the user or automatically continuous until it's
+stopped. a visible and audible notification can be triggered whenever a new
+device is detected.
+
+each device found will be saved on the list as well its name, mac address,
+last seen date and time.
+for each device a list of available bluetooth services can be requested.

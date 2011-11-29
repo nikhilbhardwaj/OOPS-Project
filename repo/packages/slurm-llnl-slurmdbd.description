@@ -1,0 +1,8 @@
+Secure enterprise-wide interface to a database for slurm
+	
+slurm, the simple linux utility for resource management,
+is an open-source cluster resource management and job scheduling.
+this package contain slurmdbd (slurm database daemon) that can be
+used to securely manage the accounting data for several slurm
+clusters in a central location and sacctmgr a command for managing
+user accounts in slurmdbd.

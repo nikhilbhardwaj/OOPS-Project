@@ -1,0 +1,19 @@
+A general purpose computer algebra system: main binary and modules
+	
+axiom is useful for
+research and development of mathematical algorithms. it defines a
+strongly typed, mathematically correct type hierarchy. it has a
+programming language and a built-in compiler.
+
+axiom has been in development since 1973 and was sold as a
+commercial product. it has been released as free software.
+
+efforts are underway to extend this software to (a) develop a
+better user interface (b) make it useful as a teaching tool
+(c) develop an algebra server protocol (d) integrate additional
+mathematics (e) rebuild the algebra in a literate programming style
+(f) integrate logic programming (g) develop an axiom journal with
+refereed submissions.
+
+this package contains the main program binary and all precompiled
+algebra and autoloadable modules.

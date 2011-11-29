@@ -1,0 +1,9 @@
+Python bindings for vtk
+	
+the visualization toolkit (vtk) is an object oriented, high level
+library that allows one to easily write c++ programs, tcl, python and
+java scripts that do 3d visualization.
+
+this provides the shared libraries that enable one to use vtk from python
+scripts.  you will need python and vtk installed to use this. some useful
+information may be available in /usr/share/doc/python-vtk/.

@@ -1,0 +1,10 @@
+Utilities from the iksemel library
+	
+iksemel handles jabber connections, parses xml, and sends and
+receives jabber messages. it works pretty good for parsing other
+kinds of xml, too, if the need arises.
+
+this package includes three utilitaries from the library: ikslint,
+which checks xml files for well-formedness, iksperf, which tests
+speed and memory usage, and, finally, iksroster, which backups your
+roster.

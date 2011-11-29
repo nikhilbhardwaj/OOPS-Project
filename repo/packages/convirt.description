@@ -1,0 +1,8 @@
+A graphical xen management tool
+	
+convirt is a xen management tool with a gtk+ based graphical interface
+that allows for performing the standard set of domain operations
+(start, stop, pause, kill, shutdown, reboot, snapshot, etc...). it
+also attempts to simplify certain aspects such as the creation of
+domains, as well as making the consoles available directly within the
+tool's user interface.

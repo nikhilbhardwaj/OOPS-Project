@@ -1,0 +1,11 @@
+The ntlm authentication library for the kde platform
+	
+this library is useful for creating the authentication structures which
+can be used for various servers which implement ntlm type authentication. a
+comprehensive description of the ntlm authentication protocol can be found at
+http://davenport.sourceforge.net/ntlm.html
+
+the library also provides subroutines to create the lanmanager and nt (md4)
+hashes of a password.
+
+this package is part of the kde development platform libraries module.

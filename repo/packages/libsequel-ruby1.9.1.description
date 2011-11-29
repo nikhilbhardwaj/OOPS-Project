@@ -1,0 +1,15 @@
+Lightweight database access toolkit (ruby1.9.1)
+	
+sequel is a lightweight database access toolkit for ruby. sequel
+provides thread safety, connection pooling and a concise dsl for
+constructing database queries and table schemas. sequel also includes
+a lightweight but comprehensive orm layer for mapping records to ruby
+objects using the activerecord pattern.
+
+sequel makes it easy to deal with multiple records without having to
+break your teeth on sql.
+
+sequel currently has adapters for ado, db2, dbi, informix, jdbc,
+mysql, odbc, openbase, oracle, postgresql and sqlite3.
+
+this is the package for ruby1.9.1.

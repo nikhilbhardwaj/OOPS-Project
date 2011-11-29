@@ -1,0 +1,7 @@
+Console based color-coded graphs of cpu load average
+	
+display fairly standard, but hard-coded, ansi ascii escape sequences
+for screen manipulation and colorization for different graphs: 1
+minute, 5 minute, 15 minute load averages.
+
+see http://www.daveltd.com/src/util/ttyload/screenshots.html

@@ -1,0 +1,6 @@
+Platform constants for java
+	
+this package provides java values for common platform c constants
+like those of files errno.h or sys/socket.h.
+
+the upstream version of this package is now also known as jnr-constants.

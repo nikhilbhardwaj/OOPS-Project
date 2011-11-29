@@ -1,0 +1,10 @@
+Userspace driver for the wiimote
+	
+cwiid is a working userspace driver along with various
+applications implementing event drivers, multiple wiimote
+connectivity, gesture recognition, and other wiimote-based
+functionality.
+
+this packages provides an event driver for the wiimote, supporting all
+buttons (except power) and pointer tracking, and featuring a tracking
+algorithm plugin architecture.

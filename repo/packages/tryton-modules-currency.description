@@ -1,0 +1,8 @@
+Tryton application platform (currency module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this module defines currencies and exchange rates and allows to customize the
+formatting of currency amounts.

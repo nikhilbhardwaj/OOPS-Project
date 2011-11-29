@@ -1,0 +1,12 @@
+A simple syntax checker for latex
+	
+lacheck is a simple syntax checker for latex that is based on a
+single-pass lexical scanner. this makes clear that there are a lot of
+latex problems this program cannot find, although it will find most
+simple mistakes.  complex macro packages may, however, make it completely
+unusable.
+
+this program was bundled with auctex once upon a time and is best known
+from there.
+
+homepage: http://www.ctan.org/tex-archive/support/lacheck/

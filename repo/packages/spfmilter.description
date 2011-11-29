@@ -1,0 +1,8 @@
+A simple milter for performing spf checks
+	
+spfmilter implements sender policy framework (spf) checks using the
+milter (mail filter) interface. this interface is primarily used to plug
+filters in to sendmail.
+
+see http://openspf.org for more on spf and http://www.milter.org for
+more on milter.

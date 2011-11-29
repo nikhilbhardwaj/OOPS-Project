@@ -1,0 +1,7 @@
+Cgi interface to your cvs repository
+	
+cvsweb is a www cgi script that provides remote access to your cvs
+repository. it allows browsing of the full tree, with configurable
+access controls. it will display the revision history of a file, as
+well as produce diffs between revisions and allow downloading any
+revision of the whole file.

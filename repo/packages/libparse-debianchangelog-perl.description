@@ -1,0 +1,11 @@
+Parse debian changelogs and output them in other formats
+	
+replacement for the very limited dpkg-parsechangelog. accessible
+either via the parsechangelog command line script or as perl module.
+
+currently supported output formats:
+
+ * original dpkg-parsechangelog output format
+ * similar format with multiple stanzas instead of one
+ * xml
+ * html (customizable via html::template templates).

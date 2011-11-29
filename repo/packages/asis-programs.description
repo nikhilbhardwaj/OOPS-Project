@@ -1,0 +1,16 @@
+Ada semantic interface specification (asis) example programs
+	
+asis (ada semantic interface specification) lets you develop applications
+to walk through the sources of your ada programs and examine the semantic
+constructs.
+
+
+ * asistant is an interactive command-line tool to explore the asis parse tree
+   of a program.
+ * gnatcheck verifies the conformance of source text to coding conventions
+ * gnatelim finds out unused subprograms and eliminates them.
+ * gnatmetric calculates metrics such as code complexity.
+ * gnatpp is a pretty-printer which reformats ada source text according to
+   a default or user-specified style guide.
+ * gnatstub generates an empty but compilable body for a given specification.
+ * gnatsync analyzes multitasking programs to find possible race conditions.

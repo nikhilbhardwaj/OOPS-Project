@@ -1,0 +1,12 @@
+Creation and display of circle packings
+	
+circlepack is a c program for the creation, display, manipulation, and
+storage of circle packings using the x window system. computations may
+be done in either hyperbolic, euclidean, or spherical geometry, though
+the routines for the latter are not yet complete. for the theory behind
+the package, one must consult the research literature. one of the
+author's primary interests concerns the parallels between the
+developing theory of circle packings and the classical theory of
+analytic functions.
+
+home page: http://www.math.utk.edu/~kens/

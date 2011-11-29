@@ -1,0 +1,7 @@
+Perl module providing a persistent fifo queue using a file
+	
+file::queue allows for the creation of persistent first in, first out (fifo)
+queue objects, saving data in a file. queue elements can only be scalars; if
+you want to work with references or other complex data structures, you have
+to serialize them first. this module was written with speed in mind, and is
+indeed very fast, but one should take care to understand its limitations.

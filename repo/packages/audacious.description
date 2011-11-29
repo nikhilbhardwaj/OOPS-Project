@@ -1,0 +1,22 @@
+Small and fast audio player which supports lots of formats
+	
+audacious is a fork of beep-media-player which supports winamp skins
+and many codecs.
+
+in the default install, the following codecs are supported:
+
+
+ * mp3
+ * ogg vorbis
+ * aac and aac+
+ * flac
+ * windows media (wma)
+ * musepack
+ * tta
+ * many module formats and much more!
+
+
+additionally, audacious is extendable through plugins, and contains
+other useful features like lirc support and support for last.fm.
+
+this package contains the core player and its localization.

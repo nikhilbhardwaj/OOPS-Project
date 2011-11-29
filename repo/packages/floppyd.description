@@ -1,0 +1,5 @@
+Daemon for remote access to floppy drives
+	
+floppyd is used as a server to grant access to the floppy drive to
+clients running on a remote machine, just as an x server grants access
+to the display to remote clients.

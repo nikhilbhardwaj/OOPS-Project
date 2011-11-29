@@ -1,0 +1,9 @@
+Latex class for presentations
+	
+chaksem is a latex2e class for slides.  based on seminar, it adds
+support for running footers as well as itemised and numbered lists,
+with a layout that fits nicely to the sans serif font used for text.
+there is support for overlays, which includes the ability to accumulate
+text and images on the slides for online presentations.  printable
+lecture notes with collapsed overlays are also able to be generated from
+this class.

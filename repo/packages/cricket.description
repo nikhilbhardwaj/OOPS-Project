@@ -1,0 +1,9 @@
+Program for collection and display of time-series data
+	
+this is cricket. it is a configuration, polling, and data-display engine
+wrapped around the rrd tool by tobias oetiker. there are three user-visible
+pieces to cricket: the collector, the grapher, and the config tree. the
+collector runs from cron and fetches data from a number of devices
+according to the info it finds in the config tree. the grapher is a cgi
+application that allows users to traverse the config tree from a web
+browser and see the data that the collector recorded.

@@ -1,0 +1,37 @@
+Computes number of pages or quantity of ink needed to print documents
+	
+pkpgcounter is a generic page description language parser which can
+either count the number of pages or compute the percent of ink
+coverage needed to print various types of documents. it is written in
+python.
+
+it currently recognizes the following file formats :
+
+
+ * postscript (both dsc compliant and binary)
+ * pdf
+ * pcl3/4/5
+ * pclxl (aka pcl6)
+ * dvi
+ * opendocument (iso/iec dis 26300)
+ * microsoft word (c) (tm) (r) (etc...)
+ * plain text
+ * tiff
+ * several other image formats
+ * esc/p2
+ * zenographics zjstream
+ * samsung qpdl (aka spl2)
+ * samsung spl1
+ * esc/pages03
+ * brother hbp
+ * hewlett-packard lightweight imaging device interface language
+ * structured fax
+ * canon bj/bjc
+ * ascii pnm (netpbm)
+
+
+the ten latter ones, as well as some tiff documents, are currently
+only supported in page counting mode.
+
+pkpgcounter is often used in combination with print
+accounting solutions like pykota or jasmine.

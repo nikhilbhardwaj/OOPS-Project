@@ -1,0 +1,5 @@
+A console based jabber client
+	
+this package features a readline interface with completion of buddy names,
+commands and even ordinary english words. it is extensible, configurable, and
+scriptable through a guile interface.

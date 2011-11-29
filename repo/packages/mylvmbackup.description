@@ -1,0 +1,8 @@
+Quickly creating backups of mysql server's data files
+	
+to perform a backup, mylvmbackup obtains a read lock on all tables and
+flushes all server caches to disk, makes an lvm snapshot of the volume
+containing the mysql data directory, and unlocks the tables again. the
+snapshot process takes only a small amount of time. when it is done, the
+server can continue normal operations, while the actual file backup
+proceeds.

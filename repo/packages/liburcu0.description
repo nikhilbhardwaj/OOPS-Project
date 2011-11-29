@@ -1,0 +1,7 @@
+A userspace rcu (read-copy-update) library
+	
+this data synchronization library provides read-side access which scales
+linearly with the number of cores. it does so by allowing multiples copies of
+a given data structure to live at the same time, and by monitoring the data
+structure accesses to detect grace periods after which memory reclamation is
+possible.

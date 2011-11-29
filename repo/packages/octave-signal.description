@@ -1,0 +1,11 @@
+Signal processing functions for octave
+	
+this package provides signal processing tools including filtering,
+windowing and display functions in octave.
+
+blackman-harris, blackman-nuttall and bohman are among the windowing functions
+and filters include chebyshev type filters and butterworth filters.
+
+additionally, some wavelet functions are included.
+
+this octave add-on package is part of the octave-forge project.

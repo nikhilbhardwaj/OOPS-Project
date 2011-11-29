@@ -1,0 +1,12 @@
+Small command line tools and toys for mpd
+	
+this is a collection of small toys and tools for doing various things
+to mpd (music player daemon) from the command line. some of them are
+very useful, while others are only amusing.
+
+some examples of things the mpdtoys can do include moving the playing
+song between different mpd daemons on different machines, storing
+the state of a mpd daemon and loading it back later, reversing the
+playlist, slowly fading volume up or down, stopping playback after the
+current song finishes, emulating a skipping record, and editing the
+playlist in a text editor.

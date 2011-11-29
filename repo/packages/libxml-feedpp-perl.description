@@ -1,0 +1,5 @@
+Module to parse/write/merge/edit rss/rdf/atom syndication feeds
+	
+xml::feedpp is an all-purpose syndication utility that parses and publishes
+rss 2.0, rss 1.0 (rdf), atom 0.3 and 1.0 feeds. it allows you to add new
+content, merge feeds, and convert among these various formats.

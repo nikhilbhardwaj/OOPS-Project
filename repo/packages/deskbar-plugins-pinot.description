@@ -1,0 +1,13 @@
+Deskbar plugin to search files with pinot
+	
+pinot provides a d-bus service that crawls, indexes your documents and
+monitors them for changes. this service can then be used via a command-line
+interface, or through a gtk-based gui that enables to query the index built
+by the service and your favourite web engines, and display and analyze the
+results.
+
+pinot also provides a xesam interface, which can be used through xesam query
+language and xesam user language.
+
+this package provides a plugin for the gnome deskbar applet to search for
+files using pinot.

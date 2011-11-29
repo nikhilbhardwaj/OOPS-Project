@@ -1,0 +1,10 @@
+Abstract document tree for perl pod documents
+	
+pod::abstract provides an abstract, tree-based interface to pod documents. it
+allows straightforward, round-trip capable manipulation of pod documentation.
+
+this also allows an easy tree-based mechanism to write a pod::<format> type
+filter. the package includes a simple, and extensible, command line utility
+called "paf" (pod::abstract filter). this program can chain together filter
+operations, allowing manipulation and extraction of pod documents from the
+command line.

@@ -1,0 +1,14 @@
+Plugin library for merb that provides view helpers
+	
+this plugin provides the following helpers for your views:
+
+ * form_helpers
+ * date_time_helpers
+ * tag_helpers
+ * text_helpers
+
+see the rdoc documentation and the package readme for more information.
+
+this package is a dependency package, which depends on the package
+containing actual ruby merb-helpers libraries for the default ruby version
+(currently 1.8).

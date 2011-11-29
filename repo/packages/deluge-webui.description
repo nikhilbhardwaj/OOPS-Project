@@ -1,0 +1,5 @@
+Bittorrent client (web ui transitional package)
+	
+this is a transitional dummy package to ensure clean upgrades from old
+releases (the package deluge-webui is replaced by deluge-web). if nothing
+depends on it, this package can be safely removed after upgrade.

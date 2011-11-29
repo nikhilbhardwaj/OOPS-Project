@@ -1,0 +1,8 @@
+Python implementation targeting the .net and mono platforms
+	
+ironpython is a new implementation of the python programming language
+running on .net. it supports an interactive console with fully
+dynamic compilation. it is well integrated with the rest of the .net
+framework and makes all .net libraries easily available to python
+programmers, while maintaining full compatibility with the python
+language.

@@ -1,0 +1,17 @@
+Bibliographic database
+	
+bibus is a bibliographic database which has been developed with openoffice.org
+in mind. it can directly insert citations and format the bibliographic index
+in an open openoffice.org writer document. the main features are
+
+ * hierarchical organization of the references with user-defined keys
+ * designed for multiuser-environments (share databases between users)
+ * a search engine supporting live queries
+ * on-line pubmed access
+ * import of pubmed (medline), endnote/refer, ris and bibtex records.
+
+
+bibus will use an sqlite-database by default for storage (via the sqlite3
+module available in python 2.5). but it also supports mysql-databases.
+if you want to use a mysql-database, make sure, that you have the
+python-mysqldb package installed.

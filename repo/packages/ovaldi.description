@@ -1,0 +1,11 @@
+Open vulnerability and assessment language reference interpreter
+	
+oval is an international, information security, community
+standard to promote open and publicly available security
+content, and to standardize the transfer of this
+information across the entire spectrum of security tools
+and services.
+
+this package includes the reference interpreter, adapted to be used in debian
+systems. it does not, however, include any definitions for vulnerability
+tests.

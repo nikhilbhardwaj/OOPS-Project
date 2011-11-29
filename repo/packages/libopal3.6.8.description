@@ -1,0 +1,11 @@
+Open phone abstraction library - successor of openh323
+	
+this package contains the shared version of the opal library.
+
+the opal project aims to create a full featured, interoperable, open source
+implementation of the h.323 and sip protocols that can be used freely by
+everybody.  these protocols are most used for voice over ip (voip)
+conferencing.
+
+this package contains the shared version of the opal library, together
+with several free audio codecs and theora and h261 video codecs.

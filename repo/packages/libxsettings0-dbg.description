@@ -1,0 +1,10 @@
+Xsettings protocol (development files)
+	
+provides a mechanism to allow the configuration of settings such as double
+click timeout, drag-and-drop threshold, and default foreground and
+background colors for all applications running within a desktop.
+
+this package contains the debug symbols for use with applications
+using libxsettings.
+
+used by the gpe palmtop environment.

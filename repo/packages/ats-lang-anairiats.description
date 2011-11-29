@@ -1,0 +1,18 @@
+The ats language compiler anairiats
+	
+ats is a programming language with a highly expressive type system
+rooted in the framework applied type system. in particular, both
+dependent types and linear types are available in ats. the current
+implementation of ats (ats/anairiats) is written in ats itself. it
+can be as efficient as c/c++ and supports a variety of programming
+paradigms.
+
+in addition, ats contains a component ats/lf that supports a form of
+(interactive) theorem proving, where proofs are constructed as total
+functions. with this component, ats advocates a programming style
+that combines programming with theorem proving. furthermore, this
+component may be used as a logical framework to encode various
+deduction systems and their (meta-)properties.
+
+this package contains the compiler atsopt, the frontend atscc, and
+the lexer atslex.

@@ -1,0 +1,13 @@
+Gobject introspection data for the libevince library
+	
+this package contains introspection data for the libevince library.
+
+evince is a simple multi-page document viewer.  it can display and print
+postscript (ps), encapsulated postscript (eps), djvu, dvi and portable
+document format (pdf) files.
+when supported by the document, it also allows searching for text,
+copying text to the clipboard, hypertext navigation, and
+table-of-contents bookmarks.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

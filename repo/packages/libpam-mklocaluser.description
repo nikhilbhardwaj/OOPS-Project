@@ -1,0 +1,8 @@
+Configure pam to create a local user if it do not exist already
+	
+when the user log in for the first time, a local user is created in
+/etc/passwd and primary group created in /etc/group, and a local home
+directory is created in /home.  this is useful on roaming computers when
+the password is set up to be cached by for example libpam-ccreds or sssd
+to allow login without network connectivity using the password provided
+by a network authentication service like kerberos or ldap.

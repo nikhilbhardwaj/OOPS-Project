@@ -1,0 +1,15 @@
+Network management framework (gnome frontend)
+	
+networkmanager attempts to keep an active network connection available at all
+times. it is intended only for the desktop use-case, and is not intended for
+usage on servers. the point of networkmanager is to make networking
+configuration and setup as painless and automatic as possible.  if using dhcp,
+networkmanager is _intended_ to replace default routes, obtain ip addresses
+from a dhcp server, and change nameservers whenever it sees fit.
+
+this package contains a systray applet for gnome's notification area but it
+also works for other desktop environments which provide a systray like kde
+or xfce.
+it displays the available networks and allows to easily switch between them.
+for encrypted networks it will prompt the user for the key/passphrase and it
+can optionally store them in the gnome-keyring.

@@ -1,0 +1,9 @@
+Library to access hokuyo laser range scanners
+	
+hokuyo infrared laser range scanners provide range measurements to nearby
+objects using lidar technology.  uses include factory automation for automated
+safety systems and robotics research platforms.
+
+liburg is a library to control and read data from hokuyo sensors.
+
+this package contains shared libraries.

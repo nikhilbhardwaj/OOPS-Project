@@ -1,0 +1,8 @@
+Library for reading, creating, and modifying zip archives (runtime)
+	
+libzip is a c library for reading, creating, and modifying zip archives. files
+can be added from data buffers, files, or compressed data copied directly from
+other zip archives. changes made without closing the archive can be reverted.
+
+this package contains the files necessary for running applications that
+use the libzip library.

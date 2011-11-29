@@ -1,0 +1,10 @@
+Command line shell and unix scripting interface for drupal
+	
+drush is a command line shell and unix scripting interface for drupal, a
+veritable swiss army knife designed to make life easier for those of us
+who spend some of our working hours hacking away at the command prompt.
+
+drush core ships with lots of useful commands for interacting with code
+like modules/themes/profiles. similarly, it runs update.php, executes
+sql queries and db migrations, and misc utilities like run cron or clear
+cache.

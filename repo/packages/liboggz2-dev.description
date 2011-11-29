@@ -1,0 +1,7 @@
+Convenience interface for ogg stream i/o (development files)
+	
+oggz provides a simple programming interface for reading and writing
+ogg files and streams.
+
+this package contains the header files, static libraries, and stream
+debugging tools required for developing applications that use oggz.

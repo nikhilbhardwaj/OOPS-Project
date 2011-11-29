@@ -1,0 +1,16 @@
+Incoming and outgoing tcp/ip connections logger
+	
+tcpspy is an administrator's tool that logs information
+about incoming and outgoing tcp/ip connections. it's
+written in c and uses no libpcap functions, unlike tcpdump.
+
+connections are selected for logging with rules, similarly
+to the filter expressions accepted by tcpdump. the
+following information is logged: username, local address
+and port, remote address and port, and, optionally, the
+executable filename.
+
+at present, only the ipv4 protocol is supported.
+
+the current url for this project is
+http://the.wiretapped.net/security/network-monitoring/tcpspy/

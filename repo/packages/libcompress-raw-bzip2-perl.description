@@ -1,0 +1,8 @@
+Low-level interface to bzip2 compression library
+	
+this package provides a low-level interface to bzip2 compression library for
+perl.
+
+usually, you don't need to use this directly;  modules like
+io::compress::bzip2 in the libio-compress-bzip2-perl package provide a nice,
+more high-level interface for your in your own perl programs.

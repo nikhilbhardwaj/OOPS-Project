@@ -1,0 +1,9 @@
+Store /etc in git, mercurial, bzr or darcs
+	
+the etckeeper program is a tool to let /etc be stored in a git, mercurial,
+bzr or darcs repository. it hooks into apt to automatically commit changes
+made to /etc during package upgrades. it tracks file metadata that version
+control systems do not normally support, but that is important for /etc, such
+as the permissions of /etc/shadow. it's quite modular and configurable, while
+also being simple to use if you understand the basics of working with version
+control.

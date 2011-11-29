@@ -1,0 +1,20 @@
+Multimedia player and streamer (without x support)
+	
+vlc is the videolan project's media player. it plays mpeg, mpeg2, mpeg4,
+divx, mov, wmv, quicktime, mp3, ogg/vorbis files, dvds, vcds, and multimedia
+streams from various network sources.
+
+vlc can also be used as a streaming server that duplicates the stream it
+reads and multicasts them through the network to other clients, or serves
+them through http.
+
+vlc has support for on-the-fly transcoding of audio and video formats, either
+for broadcasting purposes or for movie format transformations. support for
+most output methods is provided by this package, but features can be added
+by installing additional audio plugins (vlc-plugin-pulse, vlc-plugin-sdl,
+vlc-plugin-jack) or video plugins (vlc-plugin-sdl, vlc-plugin-ggi,
+vlc-plugin-svgalib). there is also a web browser plugin in  the
+mozilla-plugin-vlc package.
+
+this package contains a version of vlc that does not require x and that is
+thus suitable for headless servers.

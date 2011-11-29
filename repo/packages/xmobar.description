@@ -1,0 +1,7 @@
+A lightweight status bar for x11 window managers with utf-8 and xft support
+	
+xmobar is a lightweight text-based status bar for x11 desktops written in
+haskell and designed to work with (but not limited to) xmonad. it has a
+variety of plugins allowing the display of system-related data and an
+extensible architecture that makes it easy to write one's own plugins. xmobar
+supports displaying utf-8 text and using truetype fonts via xft.

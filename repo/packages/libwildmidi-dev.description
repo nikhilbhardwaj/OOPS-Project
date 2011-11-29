@@ -1,0 +1,7 @@
+Software midi player library headers
+	
+midi streaming library designed to process a midi file and stream the results
+as stereo audio data through a buffer which an external program can then
+process further.
+
+this package contains the development headers

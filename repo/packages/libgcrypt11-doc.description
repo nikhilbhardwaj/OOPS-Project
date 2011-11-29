@@ -1,0 +1,9 @@
+Lgpl crypto library - documentation
+	
+libgcrypt contains cryptographic functions.  many important free
+ciphers, hash algorithms and public key signing algorithms have been
+implemented:
+arcfour, blowfish, cast5, dsa, dsa2, des, 3des, elgamal, md5, rijndael,
+rmd160, rsa, seed, sha1, sha-384, sha-512, twofish, tiger.
+
+this package contains developer documentation.

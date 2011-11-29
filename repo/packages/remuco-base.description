@@ -1,0 +1,12 @@
+Duplex remote control for media players - base
+	
+remuco is a duplex remote control system for media players and mobile
+devices equipped with bluetooth or wifi. it allows you to control your
+favourite media player by switching to the next, previous, or any other media
+within your current playlist, as well as browse your media library, activate
+your other playlists, rate your media, adjust volume, and more. on the mobile
+device, it displays information about the current media, including cover art.
+
+this package contains the base module as well as the client .jar for
+remuco. you probably do not want to install this package directly, but instead
+install one of the adapters.

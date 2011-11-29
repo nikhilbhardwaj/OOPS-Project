@@ -1,0 +1,8 @@
+Gnu r package providing a generic database interface
+	
+a generic database interface (dbi) definition for communication
+between r and relational database management systems -- similar to
+perl's dbi system.  all classes in this package are virtual and need
+to be extended by the various r/dbms implementations as e.g. rmysql.
+
+url: http://stat.bell-labs.com/rs-dbi

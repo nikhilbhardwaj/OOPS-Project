@@ -1,0 +1,6 @@
+Library for converting characters to x key-presses [runtime]
+	
+libfakekey is a simple library for converting utf-8 characters into 'fake' x
+key-presses.
+
+this package contains the libfakekey runtime library.

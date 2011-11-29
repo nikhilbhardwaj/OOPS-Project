@@ -1,0 +1,24 @@
+Authorization framework for python wsgi applications
+	
+repoze.what is an authorization framework for wsgi applications,
+based on repoze.who (which deals with authentication and
+identification).
+
+on the one hand, it enables an authorization system based on the
+groups to which the authenticated or anonymous user belongs and the
+permissions granted to such groups by loading these groups and
+permissions into the request on the way in to the downstream wsgi
+application.
+
+and on the other hand, it enables you the programmer to manage groups
+and permissions from the application itself or another program, under
+a backend-independent api. for example, it would be easy to switch
+from one back-end to another, and even use this framework to migrate
+the data.
+
+this is just the authorization pattern it supports out-of-the-box,
+but it supports other authorization patterns with custom
+predicates. it's highly extensible, so it's very unlikely that it
+will get in the way and can be extended to check for many conditions
+(e.g.: checking that the user comes from a given country, based on
+her ip address).

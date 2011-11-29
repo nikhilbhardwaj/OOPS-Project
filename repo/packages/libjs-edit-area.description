@@ -1,0 +1,16 @@
+A free javascript editor for source code
+	
+edit-area is a free javascript editor for source code that is easy to
+integrate, has only one script include and one function call. it supports
+tabulation (allow to write well formated source code), has customizable
+real-time syntax highlighting (currently: php, css, javascript, python, html,
+xml, vb, c, cpp, sql, pascal, basic, brainf*ck, and probably more...),
+word-wrap support, search and replace (with regexp), auto-indenting new
+lines, line numerotation, multilanguage support (currently: croatian, czech,
+danish, dutch, english, esperanto, french, german, italian, japanese,
+macedonian, polish, portuguese, russian, slovak, spanish, and probably
+more...), has the possibility to use php gzip compression (compress the 12
+core files to one file of ~30ko), allows multiple instances, has a full
+screen mode, possible plugin integration, possible save and load callback
+functions, possible dynamic content management, can work in the same
+environment than prototype and mootools's like libraries.

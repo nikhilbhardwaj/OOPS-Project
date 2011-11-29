@@ -1,0 +1,26 @@
+Imap client interface with lots of features
+	
+mail::imaptalk communicates with an imap server. each imap server command is
+mapped to a method of this object.
+
+although other imap modules exist on cpan, this has several advantages over
+other modules.
+
+ * it parses the more complex imap structures like envelopes and body
+   structures into nice perl data structures
+ * it correctly supports atoms, quoted strings and literals at any point.
+   some parsers in other modules aren't fully imap compatiable and may
+   break at odd times with certain messages on some servers
+ * it allows large return values (eg. attachments on a message) to be read
+   directly into a file, rather than into memory
+ * it includes some helper functions to find the actual text/plain or
+   text/html part of a message out of a complex mime structure. it also
+   can find a list of attachements, and cid links for html messages with.
+   attached images
+ * it supports decoding of mime headers to perl utf-8 strings
+   automatically, so you don't have to deal with mime encoded headers
+   (enabled optionally)
+
+
+while the imap protocol does allow for asynchronous running of commands, this
+module is designed to be used in a synchronous manner.

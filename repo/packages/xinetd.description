@@ -1,0 +1,14 @@
+Replacement for inetd with many enhancements
+	
+xinetd has access control mechanisms, extensive logging capabilities,
+the ability to make services available based on time, and can place
+limits on the number of servers that can be started, among other things.
+
+it has the ability to redirect tcp streams to a remote host and port.
+this is useful for those of that use ip masquerading, or nat, and want
+to be able to reach your internal hosts.
+
+it also has the ability to bind specific services to specific interfaces.
+this is useful when you want to make services available for your internal
+network, but not the rest of the world. or to have a different service
+running on the same port, but different interfaces.

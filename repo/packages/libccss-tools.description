@@ -1,0 +1,14 @@
+A simple api for css stylesheets (utilities)
+	
+libccss offers a simple api to
+
+ * parse css stylesheets.
+ * query for style configurations on a user-provided document
+   representation.
+ * draw query results onto cairo surfaces
+
+
+this package contains some utilities.
+
+ * ccss-stylesheet-to-gtkrc: load css files and dump the resulting for
+   debugging multi-file stylesheets

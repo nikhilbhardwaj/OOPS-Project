@@ -1,0 +1,7 @@
+Gobject introspection data for the babl library
+	
+this package contains introspection data for babl, a dynamic, any to
+any, pixel format conversion library.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

@@ -1,0 +1,8 @@
+Python dhcp client/server library
+	
+pydhcplib is a python library which provides two levels of support
+for dhcp clients and servers.  the first is the low-level support
+for encoding and decoding dhcp packets (the library supports both
+rfc 2131 and rfc 2132 options).  the second is support communicate
+as a client or as a server, sending and receiving packets over the
+wire.

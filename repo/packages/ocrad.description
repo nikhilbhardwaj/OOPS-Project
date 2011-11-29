@@ -1,0 +1,8 @@
+Optical character recognition program
+	
+gnu ocrad is an ocr (optical character recognition) program based on a
+feature extraction method. it reads a bitmap image in pgm/pbm format and
+produces text in byte (8-bit) or utf-8 formats.
+
+ocrad includes a layout analyzer able to separate the columns or blocks
+of text normally found on printed pages.

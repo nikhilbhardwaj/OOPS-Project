@@ -1,0 +1,12 @@
+Tao real-time event service
+	
+another tao implementation of corba event service. for more
+information on corba event service have a look at tao-cosevent
+package.
+
+this version does not support the pull style but provides a real-time
+event channel.
+
+the following program is included:
+
+ * tao_rtevent

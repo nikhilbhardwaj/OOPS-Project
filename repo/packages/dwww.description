@@ -1,0 +1,6 @@
+Read all on-line documentation with a www browser
+	
+all installed on-line documentation will be served via a local http
+server. when possible, dwww converts the documentation to html.
+you need to install both a cgi-capable http server and a www
+browser to read the documentation.

@@ -1,0 +1,7 @@
+Grantlee templating library for qt - core
+	
+grantlee is a string template engine based on the django template system
+and written in qt.
+
+this package contains the core grantlee library. it also includes the
+standard tag and filter plugins.

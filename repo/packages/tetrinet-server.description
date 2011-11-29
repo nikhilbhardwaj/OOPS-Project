@@ -1,0 +1,6 @@
+Server for tetrinet, a multiplayer tetris-like game
+	
+tetrinet-server is a small limited server binary for the multiplayer tetris
+version called tetrinet. it supports only one playfield so at most 6 players,
+but it is good enough for a fast game and can be configured throughly through
+a ~/.tetrinet file (default written on first start).

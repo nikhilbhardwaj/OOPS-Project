@@ -1,0 +1,8 @@
+D-bus service for managing modems
+	
+provides a d-bus interface to communicate with mobile broadband (gsm, cdma,
+umts, ...) cards. implements a loadable plugin interface to add work-arounds
+for non standard devices. also provides patches to use networkmanager (and
+the applet) with modem manager.
+
+git repository: http://cgit.freedesktop.org/modemmanager/modemmanager/

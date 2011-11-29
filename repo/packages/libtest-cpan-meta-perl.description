@@ -1,0 +1,7 @@
+Test module to validate a cpan meta.yml file
+	
+the test::cpan::meta module was written to ensure that a meta.yml file,
+provided with a standard distribution uploaded to cpan, meets the
+specifications that are slowly being introduced to module uploads, via the use
+of package makers and installers such as extutils::makemaker, module::build
+and module::install.

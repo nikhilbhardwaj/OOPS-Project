@@ -1,0 +1,15 @@
+Perl module to read fortune (strfile) databases
+	
+the fortune program is a small but important part of the
+unix culture, and this module aims to provide support for
+its "fortune cookie" databases to perl programmers.
+
+for efficiency, all versions of fortune rely on a binary
+header consisting mainly of offsets into the fortune file
+proper.
+
+modern versions of fortune keep this header in a
+separate file, and this is the style adopted by the
+fortune module; the older style of munging the header and
+data into one large "compiled" file is not (currently)
+supported.

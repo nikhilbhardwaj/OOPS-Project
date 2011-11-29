@@ -1,0 +1,21 @@
+Fuse module to browse database's metadata, sugar datastores and xml files
+	
+fsgateway allows you to use your preferred directory navigation tool
+to inspect a database's metadata, sugar datastores and xml files.
+
+it allows you to compare two database structures in an easy way using
+the diff tool, or to find where a field is defined using the grep
+tool.
+
+at the moment it supports the following mode of operation:
+
+tagfs: rewrites a directory tree using directory names as tags
+
+xmlfs: map the structure of an xml file as a directory tree. it
+supports elements, attributes and texts. the resulting path of a node
+is similar to its xpath path.
+
+sugar datastore: access a sugar datastore as a normal filesystem.
+
+databases: access a database's metadata as a directory tree.  drivers
+are available for postgresql, mysql, sqlite and sqlserver

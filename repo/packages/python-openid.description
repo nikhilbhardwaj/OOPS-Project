@@ -1,0 +1,9 @@
+Openid support for servers and consumers
+	
+set of python packages to support use of the openid decentralized
+identity system in your application, both server- and client-side,
+including:
+
+ - openid 1.0, 1.1 and 2.0 support,
+ - sreg support,
+ - several storage implementations for stateful openid authentication.

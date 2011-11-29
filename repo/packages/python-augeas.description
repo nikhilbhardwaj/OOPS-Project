@@ -1,0 +1,8 @@
+Python bindings for augeas
+	
+augeas is a library and command line tool that focuses
+on the most basic problem in handling linux configurations
+programmatically: editing actual configuration files in a
+controlled manner.
+
+this module provides a python interface to the augeas api.

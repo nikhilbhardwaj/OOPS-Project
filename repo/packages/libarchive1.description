@@ -1,0 +1,21 @@
+Single library to read/write tar, cpio, pax, zip, iso9660, etc.
+	
+the libarchive library provides a flexible interface for reading and
+writing streaming archive files such as tar and cpio.  the library is
+inherently stream-oriented; readers serially iterate through the archive,
+writers serially add things to the archive.  in particular, note that
+there is no built-in support for random access nor for in-place
+modification.
+
+libarchive can read at least five tar formats, four cpio formats,
+iso9660 cd/dvd images (including rockridge extensions), and zip
+files.
+
+libarchive can write two tar formats (ustar and pax), one cpio format
+(odc/posix), and two types of shar files (with and without uuencoding).
+
+the bsdtar debian package, which is the default tar(1) on freebsd,
+is built using libarchive.
+
+there is also a manpage, tar(5), that provides an excellent description
+of the various tar file formats.

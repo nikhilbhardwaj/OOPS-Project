@@ -1,0 +1,8 @@
+Java class (.class) file assembler
+	
+jasmin is a java assembler interface. it takes ascii descriptions of java
+classes, written in the java virtual machine instruction set in an
+assembler-like syntax.
+
+jasmin converts these input files into binary java class files (.class)
+suitable for executing on an java virtual machine.

@@ -1,0 +1,16 @@
+Cross implementation amop library
+	
+this library enhances the different mop implementations so that
+they support better the amop specifications.
+
+the clos spec contained two parts, only the basic level went into
+the common lisp standard. the lower level functions of the amop
+were not included so different implementations differ (mostly
+slightly) in how to implement the amop.
+
+with the help of cl-closer-mop you can use the full power of
+amop on all supported implementations, relying on the library
+to translate your code.
+
+supported implementations: allegro common lisp, clisp, cmucl,
+lispworks, openmcl and sbcl (version restrictions might apply)

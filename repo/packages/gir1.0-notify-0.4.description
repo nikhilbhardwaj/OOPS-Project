@@ -1,0 +1,7 @@
+Gobject introspection data for the libnotify library
+	
+this package contains introspection data for libnotify, a library that
+sends desktop notifications to a notification daemon.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

@@ -1,0 +1,15 @@
+Typeset music scores with tex
+	
+this package contains the musixtex macros, musixflex, musixtex user's
+manual in latex source and dvi formats, and example source musixtex music
+score files.
+
+musixtex is a set of versatile and power tex macros to typeset polyphonic,
+orchestral or choral music.  it allows very fine control and produces
+professional printed music scores.
+
+due to the important amount of information to be provided to the
+typesetting process, coding musixtex might appear to be awfully
+complicated, especially for beginners.  therefore, it is recommended
+to use musixtex with some pre-processors, such as pmx and m-tx,
+available as debian packages.

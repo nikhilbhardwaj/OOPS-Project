@@ -1,0 +1,5 @@
+Implementation of dns in java
+	
+dnsjava is an implementation of dns in java. it can be used for queries,
+zone transfers, and dynamic updates. it includes a cache which can be
+used by clients, and a minimal implementation of a server.

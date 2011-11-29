@@ -1,0 +1,8 @@
+Specify tests with a finer granularity
+	
+test::block allows one to specify the number of expected tests at a finer
+level of granularity than an entire test script. it is built with
+test::builder and plays happily with test::more and friends.
+
+if you are not already familiar with test::more now would
+be the time to go take a look.

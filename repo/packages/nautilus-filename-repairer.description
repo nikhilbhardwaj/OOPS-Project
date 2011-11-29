@@ -1,0 +1,9 @@
+Nautilus extension for filename encoding repair
+	
+this is a nautilus extension which repairs filename which uses wrong
+encoding in nautilus. this extension provides the context menu for any
+file whose filename uses wrong encoding, so that you cannot read the
+filename in nautilus.
+
+you can find a candidate for filename in context menu or submenu.
+this extension also provides a decoded name for url encoded filename.

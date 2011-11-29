@@ -1,0 +1,4 @@
+PackageId:32319
+Name:svn-buildpackage
+Version:0.8.3
+Deps:devscripts,file,libcapture-tiny-perl,libfile-libmagic-perl,liblocale-gettext-perl,libsvn-perl,liburi-perl,perl,subversion,unp,wget

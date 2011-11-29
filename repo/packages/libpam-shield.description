@@ -1,0 +1,6 @@
+Locks out remote attackers trying password guessing
+	
+in certain situations it is not possible to use host based
+authentication and here pam-shield comes in use.
+
+it locks out brute-force password crackers using null-route or iptables rules.

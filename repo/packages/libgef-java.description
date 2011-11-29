@@ -1,0 +1,20 @@
+Graph editing framework written entirely in java
+	
+this lib is needed by argouml but can be used within different applications.
+
+the goal of the gef project is to build a graph editing library that can be
+used to construct many, high-quality graph editing appications. some of gef's
+features are:
+
+ * a simple, concrete design that makes the framework easy to understand and
+   extend.
+ * node-port-edge graph model that is powerful enough for the vast majority
+  of connected graph applications.
+ * model-view-controller design based on the swing java ui library makes gef
+  able to act as a ui to existing data structures, and also minimizing learning
+  time for developers familiar with swing.
+ * high-quality user interactions for moving, resizeing, reshaping, etc. gef
+  also supports several novel interactions such as the broom alignment tool
+  and secltion-action-buttons.
+ * generic properties sheet based on javabeans introspection.
+ * xml-based file formats based on the pgml standard (soon to support svg).

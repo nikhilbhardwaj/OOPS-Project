@@ -1,0 +1,4 @@
+Meta-package depending on latest petsc development package
+	
+this package will always depend on the most recent version of petscx-dev
+(x=version), so if you install it then you will get upgrades automatically.

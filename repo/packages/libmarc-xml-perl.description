@@ -1,0 +1,6 @@
+Perl library to access marc data encoded as xml
+	
+marc::xml is an extension to the marc::record distribution for working with
+marc21 data that is encoded as xml. the xml encoding used is the marc21slim
+schema supplied by the library of congress. installing marc-xml automatically
+adds support for the additional file format for use with marc::batch.

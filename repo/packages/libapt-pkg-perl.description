@@ -1,0 +1,5 @@
+Perl interface to libapt-pkg
+	
+a perl interface to apt's libapt-pkg which provides modules for configuration
+file/command line parsing, version comparison, inspection of the binary
+package cache and source package details.

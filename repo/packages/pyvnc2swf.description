@@ -1,0 +1,9 @@
+Screen recording tool with flash (swf) output
+	
+pyvnc2swf captures screen motion using the vnc protocol and generates
+a shockwave flash (swf) movie which can be played back in any browser
+supporting the swf format.
+
+in contrast to vnc2swf, pyvnc2swf is being actively developed and has
+more functions: recording and adding an audio track, editing and
+adding a seekbar.

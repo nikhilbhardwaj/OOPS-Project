@@ -1,0 +1,33 @@
+A vector graphics application for the kde office suite
+	
+karbon is a vector drawing application with an user interface that is easy to
+use, highly customizable and extensible. that makes karbon a great application
+for users starting to explore the world of vector graphics as well as for
+artists wanting to create breathtaking vector art. features include:
+
+ .
+ * loading support for odg, svg, wpg, wmf, eps/ps
+ * writing support for odg, svg, png, pdf, wmf
+ * customizable user interface with freely placable toolbars and dockers
+ * layer docker for easy handling of complex documents including preview
+   thumbnails, support for grouping shapes via drag and drop,
+   controlling visibility of shapes or locking
+ * advanced path editing tool with great on-canvas editing capabilies
+ * various drawing tools for creating path shapes including a draw path
+   tool, a pencil tool as well as a calligraphy drawing tool
+ * gradient and pattern tools for easy on-canvas editing of gradient and
+   pattern styles
+ * top notch snapping facilities for guided drawing and editing (e.g.
+   snapping to grid, guide lines, path nodes, bounding boxes, orthogonal
+   positions, intersections of path shapes or extensions of lines and
+   paths)
+ * includes many predefined shapes including basic shapes like stars,
+   circle/ellipse, rectangle, image
+ * artistic text shape with support for following path outlines
+   (i.e. text on path)
+ * complex path operations and effects like boolean set operations,
+   path flattening, rounding and refining as well as whirl/pinch effects
+ * extensible by writing plugins for new tools, shapes and dockers
+
+
+this package is part of the kde office suite.

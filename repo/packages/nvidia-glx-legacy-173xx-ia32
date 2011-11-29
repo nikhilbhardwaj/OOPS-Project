@@ -1,0 +1,4 @@
+PackageId:25755
+Name:nvidia-glx-legacy-173xx-ia32
+Version:173.14.27-2
+Deps:libc6-i386,libgl1-nvidia-legacy-173xx-glx-ia32,nvidia-kernel-173.14.27,nvidia-kernel-legacy-173xx-dkms

@@ -1,0 +1,16 @@
+Custom django field for easy use of markup in text fields
+	
+an implementation of a custom markupfield for django. a markupfield is in
+essence a textfield with an associated markup type. the field also caches
+its rendered value.
+
+it supports these markup types by default:
+
+ * html: allows html, potentially unsafe
+ * plain: plain text markup, calls urlize and replaces text with linebreaks
+
+and these markups if the appropriate python module is installed:
+
+ * markdown: default markdown renderer (requires python-markdown)
+ * restructuredtext: default rest renderer (requires python-docutils)
+ * textile: default textile renderer (requires python-textile)

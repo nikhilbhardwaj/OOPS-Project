@@ -1,0 +1,22 @@
+X rendering extension client library (unstripped)
+	
+the x rendering extension (render) introduces digital image composition as
+the foundation of a new rendering model within the x window system.
+rendering geometric figures is accomplished by client-side tessellation into
+either triangles or trapezoids.  text is drawn by loading glyphs into the
+server and rendering sets of them.  the xrender library exposes this
+extension to x clients.
+
+this package provides an unstripped shared object with debugging symbols,
+useful to provide a backtrace with symbol names in a debugger; this
+facilitates interpretation of core dumps, and aids in finding logic errors in
+programs using this library (or the library itself).  the library is
+installed in /usr/lib/debug and can be used by placing that directory in the
+ld_library_path environment variable when the code to be debugged is
+executed.  non-programmers will likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxrender

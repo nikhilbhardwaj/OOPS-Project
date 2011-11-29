@@ -1,0 +1,8 @@
+Decode raw digital camera images
+	
+this utility converts the native (raw), format of various digital
+cameras into netpbm portable pixmap (.ppm) image.  supports the
+following models: canon, kodak, olympus, nikon, fuji, minolta and
+sigma (see http://www.cybercom.net/~dcoffin/dcraw/ for full list)
+note: this utility does not read directly from the cameras, only
+the files after they have been downloaded, use gphoto2 for that.

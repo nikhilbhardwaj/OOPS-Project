@@ -1,0 +1,8 @@
+Security enhanced linux semantic policy differences library
+	
+security-enhanced linux is a patch of the linux kernel and a number
+of utilities with enhanced security functionality designed to add
+mandatory access controls to linux.  libpoldiff is a library to be
+used in conjunction with libapol to find "semantic" differences
+between policies. libpoldiff operates by breaking a policy into
+various 'policy items'.

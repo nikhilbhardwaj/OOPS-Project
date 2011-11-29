@@ -1,0 +1,9 @@
+Linux for modern pcs (meta-package), xen dom0 support
+	
+this package depends on the latest linux kernel and modules for use on pcs
+with intel pentium pro/ii/iii/4/4m/d/m, xeon, celeron, core or atom; amd
+geode nx, athlon (k7), duron, opteron, sempron, turion or phenom;
+transmeta efficeon; or via c7 processors.
+
+this kernel also runs on a xen hypervisor.  it supports both privileged
+(dom0) and unprivileged (domu) operation.

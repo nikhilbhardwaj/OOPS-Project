@@ -1,0 +1,4 @@
+PackageId:1934
+Name:cl-sql-sqlite
+Version:5.1.1-1
+Deps:cl-sql,cl-sql-uffi,common-lisp-controller,libsqlite0-dev

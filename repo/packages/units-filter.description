@@ -1,0 +1,19 @@
+Parser for expressions concerning physical values
+	
+units-filter is a basic standalone filter written in c language,
+flex and bison. it inputs strings like "1.5e3 nn.m.s^-1" (it could
+be the time growth ratio of a torque) and outputs the value in
+standard si unit, followed by the physical dimension of this value.
+
+
+ example :~/src$ echo 1.5e3 nn.m.s^-1 | units-filter
+ 1.5e-06   2   1  -3   0   0   0   0    0    0
+
+
+
+                                  2     -3
+ which means : 1.5e-06 (si unit) m .kg.s
+
+
+this parser can be embedded in educational test systems, in order to
+analyze a student's answer to a problem of physics or chemistry.

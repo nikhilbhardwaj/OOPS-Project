@@ -1,0 +1,16 @@
+Simple monitor config tool for lxde
+	
+this is a very basic monitor config tool utilizing the x extension
+called randr. it can let you change the screen resolution on the fly.
+besides, when you run lxrandr with external monitor connected, its gui
+will change, and show you some quick options to get your projector or
+external monitor working correctly.
+
+this tool doesn't aim to be a full randr frontend. it's a utility for
+grandma, not for geeks. if you need the full power of randr, get
+xrandr (console) or grandr (gui) and read some tutorials.
+
+lxrandr only gives you some easy and quick options which are intuitive.
+it's very suitable for laptop users who frequently uses projectors or
+external monitor and just want to get their work done without reading
+a lot of "geek-centered" manuals or command line tutorials.

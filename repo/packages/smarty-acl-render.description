@@ -1,0 +1,8 @@
+Provide acl based rendering for smarty
+	
+smarty-acl-render provides acl based rendering support for smarty,
+the popular php templating engine (http://smarty.php.net/). this
+module is mainly used by gosa².
+
+gosa² is a combination of system-administrator and end-user web
+interface, designed to handle ldap based setups.

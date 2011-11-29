@@ -1,0 +1,5 @@
+Python binding to libdrizzle
+	
+libdrizzle is a database protocol library which implements the mysql and
+the drizzle protocols. the package provides both low-level and db api
+access using libdrizzle.

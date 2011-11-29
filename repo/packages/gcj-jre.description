@@ -1,0 +1,9 @@
+Java runtime environment using gij/classpath
+	
+gij is a java bytecode interpreter, not limited to interpreting bytecode.
+it includes a class loader which can dynamically load shared objects, so
+it is possible to give it the name of a class which has been compiled and
+put into a shared library on the class path.
+
+the package contains as well a collection of wrapper scripts and symlinks.
+it is meant to provide a java-rte-like interface to the gij/gcj tool set.

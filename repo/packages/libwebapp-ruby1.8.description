@@ -1,0 +1,9 @@
+Easy-to-use cgi/fastcgi/mod_ruby/webrick interface
+	
+webapp is a library to ease web application development in ruby.
+it has very easy-to-use api, and you can debug web application
+as usual command (cli).  features include:
+
+ path_info aware relative uri generation
+ automatic content-type generation
+ html form parameter validation by html form

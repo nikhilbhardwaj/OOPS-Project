@@ -1,0 +1,7 @@
+Perl module used to extract links from html documents
+	
+this is the cpan perl module html::linkextractor.
+
+html::linkextractor is used to extract links from html documents.  it is very
+similar to html::linkextor, except that besides getting the url, you also get
+the link-text.

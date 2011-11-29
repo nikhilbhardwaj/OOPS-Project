@@ -1,0 +1,16 @@
+Open sound system (oss) interface for python
+	
+the oss module is an interface to the open sound system from the python
+programming language.
+
+the open sound system is a unix device driver and api that allows you to
+
+
+ * record and play digitized audio,
+ * control input and output volume levels,
+ * select recording sources, and
+ * generate synthesizer commands and midi bytes controlled by a
+   low-level sequencer.
+
+
+this package provides the module for all supported python versions.

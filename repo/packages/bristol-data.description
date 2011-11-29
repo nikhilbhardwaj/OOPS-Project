@@ -1,0 +1,13 @@
+Vintage synthesizer emulator (data files)
+	
+bristol is a synthesizer emulator application. bristol uses the sound card
+pcm generator and can be midi driven, furthermore it can be set to use the
+low latency scheduling feature of the kernel, reducing audio under runs.
+it can handle any number of simultaneous synthesizers (they all connect to
+the same engine). it supports splitting and layering the keyboard with
+multiple synthesizers on a single midi channel. currently bristol emulates
+the following keyboards: moog mini, moog voyager (bristol "explorer"),
+sequential circuits prophet-5, roland juno-6, yamaha dx-7,
+hammond (single manual), hammond b3 (dual manual).
+
+this package contains the application data files.

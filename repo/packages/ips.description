@@ -1,0 +1,6 @@
+Intelligent process status
+	
+ips is an intelligent ps-like program which displays process status obtained
+from the /proc filesystem. it has features to make tracking of active,
+semi-active, and transient processes easy. it is extremely configurable, but
+is still efficient.

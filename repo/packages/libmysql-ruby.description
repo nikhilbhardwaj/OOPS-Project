@@ -1,0 +1,11 @@
+Mysql module for ruby
+	
+this is an api module that allows to access mysql database from
+programs in ruby programming language. usually, it will be pulled in
+automatically by packages providing ruby programs which need this
+capability, you only need to install it directly if you intend to write
+such programs yourself.
+
+this package is a dependency package, which depends on the package
+containing actual ruby mysql module for the default ruby version
+(currently 1.8).

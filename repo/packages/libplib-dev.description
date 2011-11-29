@@ -1,0 +1,9 @@
+Portability libraries: development package
+	
+provides a joystick interface, a simple gui built on top of opengl,
+some standard geometry functions, a sound library and a simple scene
+graph api built on top of opengl.
+
+this package provides the static libraries, the header files and the
+development links to the shared libraries. you need this package if you
+want to compile software which needs plib.

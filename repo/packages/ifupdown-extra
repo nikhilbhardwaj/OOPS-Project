@@ -1,0 +1,4 @@
+PackageId:7423
+Name:ifupdown-extra
+Version:0.14
+Deps:host,bind9-host,iproute,iputils-arping,arping,net-tools,freebsd-net-tools,netcat,netcat-openbsd,netcat-traditional,ping,inetutils-ping,iputils-ping

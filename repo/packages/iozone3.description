@@ -1,0 +1,6 @@
+Filesystem and disk benchmarking tool
+	
+iozone is useful for determining a broad benchmark of filesystem
+performance. the benchmark tests file i/o performance for the
+following operations: read, write, re-read, re-write, read backwards,
+read strided, fread, fwrite, random read/write, pread/pwrite variants.

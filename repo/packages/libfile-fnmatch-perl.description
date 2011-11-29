@@ -1,0 +1,6 @@
+Perl module that provides simple filename and pathname matching
+	
+file::fnmatch::fnmatch() provides simple, shell-like pattern matching.
+
+though considerably less powerful than regular expressions, shell patterns
+are nonetheless useful and familiar to a large audience of end-users.

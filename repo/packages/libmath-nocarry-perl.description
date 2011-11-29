@@ -1,0 +1,20 @@
+Perl extension for no carry arithmetic
+	
+no carry arithmetic doesn't allow you to carry digits to the
+next column.  for example, if you add 8 and 4, you normally
+expect the answer to be 12, but that 1 digit is a carry.
+in no carry arithmetic you can't do that, so the sum of
+8 and 4 is just 2.  in effect, this is addition modulo 10
+in each column. i discard all of the carry digits in
+this example:
+
+
+ 1234
+ + 5678
+ ------
+ 6802
+
+
+for multiplication, the result of pair-wise multiplication
+of digits is the modulo 10 value of their normal, everyday
+multiplication.

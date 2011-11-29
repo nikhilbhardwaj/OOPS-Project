@@ -1,0 +1,8 @@
+Classic text-based mud client
+	
+tintin++ is telnet client specialized to play muds (multi-user dungeons).
+it has scripting support, tab-completion, internal chat, and takes
+advantage of the gnu readline library.
+
+you can find a complete set of commands and features in the tintin++ manual,
+in /usr/share/doc/tintin++.

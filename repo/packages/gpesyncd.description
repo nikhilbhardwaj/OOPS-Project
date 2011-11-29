@@ -1,0 +1,11 @@
+Synchronisation agent for gpe pim data
+	
+gpesyncd synchronises pim data by transforming vcards, vevents, vttodo and
+icals to the appropriate format in the sqlite database of the respective gpe
+applications and vice versa.
+
+gpesyncd exports and imports pim data either to stdout or over tcp/ip.
+it can also be used as a command line tool to access all the pim data.
+
+opensync-plugin-gpe needs gpesyncd to run on the machine where the gpe
+application data are stored.

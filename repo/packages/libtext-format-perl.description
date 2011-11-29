@@ -1,0 +1,30 @@
+Perl module for formatting (text) paragraphs
+	
+this module provides the following functions:
+
+
+  format()      format text into a paragraph.  text is first broken into
+                words and then joined back together to make up the
+                paragraph.  there are numerous attributes you can set to
+                your liking.
+
+
+
+  paragraphs()  treats each element of the array passed in as a separate
+                paragraph and passes them to format() for formatting.
+                the list returned will be then formatted into separate
+                paragraphs.
+
+
+
+  center()      centers all the lines that were passed in.
+
+
+
+  expand()      expand tabs into spaces.
+
+
+
+  unexpand()    turn spaces into tabs.  first calls expand() to expand
+                tabs into spaces and then turns tabstop number of spaces
+                into tabs, you can set tabstop size with tabstop().

@@ -1,0 +1,16 @@
+Development files for libgdome2
+	
+gdome2 is a fast, light and complete dom level2 implementation based
+on libxml2.  although it has been written for the gnome project, it
+can be used stand-alone.
+
+dom (document object model) is a standard interface for manipulating
+xml documents. a dom implementation (also called a host implementation)
+is what makes a parsed xml or html document available for processing
+using a dom interface.
+
+libgdome2 currently supports the "core", "xml", "events" and
+"mutationevents" modules from the dom2 recommendation.
+
+this package contains the header files and static libraries for
+developing with libgdome2-0.

@@ -1,0 +1,24 @@
+Safe wrapper to dbi interface
+	
+the purpose of this module is to give controlled, limited access to an
+application, rather than simply passing it a raw database handle through dbi.
+dbix::safe acts as a wrapper to the database, by only allowing through the
+commands you tell it to. it filters all things related to the database handle
+- methods and attributes.
+
+the typical usage is for your application to create a database handle via a
+normal dbi call to new(), then pass that to dbix::safe->new(), which will
+return you a dbix::safe object. after specifying exactly what is and what is
+not allowed, you can pass the object to the untrusted application. the object
+will act very similar to a dbi database handle, and in most cases can be used
+interchangeably.
+
+by default, nothing is allowed to run at all. there are many things you can
+control. you can specify which sql commands are allowed, by indicating the
+first word in the sql statement (e.g. 'select'). you can specify which
+database methods are allowed to run (e.g. 'ping'). you can specify a regular
+expression that allows matching sql statements to run (e.g. 'qr{set
+timezone}'). you can specify a regular expression that is not allowed to run
+(e.g. qr(update xxx}). finally, you can indicate which database attributes
+are allowed to be read and changed (e.g. 'printerror'). for all of the above,
+there are matching methods to remove them as well.

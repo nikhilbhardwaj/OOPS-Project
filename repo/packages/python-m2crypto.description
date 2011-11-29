@@ -1,0 +1,12 @@
+A crypto and ssl toolkit for python
+	
+m2crypto features the following:
+
+  * rsa, dsa, dh, hmacs, message digests, symmetric ciphers (including aes).
+  * ssl functionality to implement clients and servers.
+  * https extensions to python's httplib, urllib, and xmlrpclib.
+  * unforgeable hmac'ing authcookies for web session management.
+  * ftp/tls client and server.
+  * s/mime.
+  * zserverssl: a https server for zope.
+  * zsmime: an s/mime messenger for zope.

@@ -1,0 +1,8 @@
+Python bindings for the geoip ip-to-country resolver library
+	
+geoip is a library that enables the user to find the country that any
+ip address or hostname originates from, using a database instead of
+dns.
+
+this package contains the python bindings for geoip, allowing to use
+this library within a python program.

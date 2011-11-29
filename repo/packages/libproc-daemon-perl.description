@@ -1,0 +1,4 @@
+Run perl program as a daemon process
+	
+this module allows a perl program to run as a daemon. the init
+function does all necessary things a daemon needs to do.

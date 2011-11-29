@@ -1,0 +1,17 @@
+German male voice for mbrola
+	
+this package contains a german diphone database provided in the context
+of the mbrola project see: http://tcts.fpms.ac.be/synthesis/
+
+de6 is a male german diphone voice created in the context of the eu project
+neca (ist-2000-28580), with the aim of being particularly suitable for the
+flexible synthesis of expressive speech.
+
+the main feature of de6 is therefore that it contains a complete diphone
+set for three different voice qualities defined by their vocal effort, low
+effort ("soft voice"), medium effort ("normal or modal voice"), and high
+effort ("loud voice").
+
+this diphone database was recorded jointly by the institute of phonetics at
+saarland university and by the language technology department at dfki,
+saarbrücken.

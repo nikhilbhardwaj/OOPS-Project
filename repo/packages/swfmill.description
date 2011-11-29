@@ -1,0 +1,14 @@
+Xml2swf and swf2xml processor
+	
+swfmill is a tool to process shockwave flash(tm) (swf) files. it can
+convert swf from and to an xml-dialect called swfml, which is closely
+modeled after the swf file format.
+
+apart from this xml2swf and swf2xml functionality, it also provides a
+libxslt-based xsl transformator that supports an extension ("swft")
+which helps with generating ids for swf objects and can import an swf as
+xml using an xpath command (swft:document()).
+
+as a simple application of such functionality, swfmill can pack together
+a bunch of media files (currently jpgs, pngs, ttfs and other swfs) into
+an swf as "library objects" for your attachmovie() pleasure.

@@ -1,0 +1,7 @@
+Perl module for gssapi based authentication plugin for lwp
+	
+this is the cpan perl module lwp::authen::negotiate.
+
+lwp::authen::negotiate is a transparent authentication plugin for lwp.
+the lwp::useragent will do authentication transparently based on your
+gssapi installation (mit kerberos or heimdal).

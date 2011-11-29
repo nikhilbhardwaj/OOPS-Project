@@ -1,0 +1,8 @@
+Bluetooth connection infrastructure for synce-hal
+	
+synce-hal is a hal callout infrastructure and dccm implementation for
+windows mobile devices. it responds to keep alives and provides other
+members of the synce suite of tools with access to the device.
+
+this package contains an extension for synce-hal to allow windows
+mobile devices to connect via a bluetooth serial connection.

@@ -1,0 +1,7 @@
+Ocaml bindings for openssl
+	
+ocaml library for communicating through ssl/tls encrypted connections
+using the openssl library.
+
+this package contains all the development stuff you need to use
+the ssl ocaml library in your programs.

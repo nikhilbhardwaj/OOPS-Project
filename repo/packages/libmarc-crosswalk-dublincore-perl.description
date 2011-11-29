@@ -1,0 +1,10 @@
+Convert data between marc and dublin core
+	
+this module provides an implentation of the loc's spec on how to convert
+metadata between marc and dublin core format. the spec for converting marc to
+dublin core is available at: http://www.loc.gov/marc/marc2dc.html, and from dc
+to marc: http://www.loc.gov/marc/dccross.html.
+
+nb: the conversion cannot be done in a round-trip manner. i.e. doing a
+conversion from marc to dc, then trying to go back to marc will not yield the
+original record.

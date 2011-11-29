@@ -1,0 +1,14 @@
+Library for operating on boolean expression binary trees
+	
+boolstuff is a c++ library that supports a few operations on boolean
+expression binary trees. the main features are:
+
+ * a simple boolean expression parser (supports operators and, or and
+   not, as well as parentheses)
+ * an algorithm to convert a boolean expression binary tree into its
+   disjunctive normal form (this algorithm supports the not operator)
+ * a function that determines if an expression tree is in dnf.
+
+
+this package includes the development files for using the library from
+inside your programs.

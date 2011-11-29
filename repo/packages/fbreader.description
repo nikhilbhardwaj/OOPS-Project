@@ -1,0 +1,19 @@
+E-book reader
+	
+fbreader is an e-book reader.
+
+main features:
+
+ * supports several open e-book formats: fb2, html, chm, plucker,
+   palmdoc, ztxt, tcr (psion text), rtf, oeb, openreader, non-drm'ed
+   mobipocket, plain text, epub
+ * reads directly from tar, zip, gzip, bzip2 archives (you can have
+   several books in one archive)
+ * supports a structured view of your e-book collection
+ * automatically determines encodings
+ * automatically generates a table of contents
+ * keeps the last open book and the last read positions for all open books
+   between runs
+ * automatic hyphenation (patterns for several languages are included)
+ * searching and downloading books from www.feedbooks.com and www.litres.ru
+ * partial css support for epub files

@@ -1,0 +1,6 @@
+Bazaar plugin providing mercurial integration
+	
+plugin for bazaar that adds the ability to work with mercurial repositories.
+
+at the moment most read-only operations work, including cloning local and
+remote mercurial repositories.

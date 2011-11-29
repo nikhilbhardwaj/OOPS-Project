@@ -1,0 +1,16 @@
+Netcdf-io for pdl
+	
+this is the pdl interface to the unidata netcdf library.  it uses the
+netcdf version 3 library to make a subset of netcdf functionality
+available to pdl users in a clean, object-oriented interface.
+
+another netcdf perl interface, which allows access to the entire range
+of netcdf functionality (but in a non-object-oriented
+style which uses perl arrays instead of pdls) is available through unidata at
+http://www.unidata.ucar.edu/packages/netcdf/index.html.
+
+the netcdf standard allows n-dimensional binary data to be efficiently
+stored, annotated and exchanged between many platforms.
+
+when one creates a new netcdf object, this object is associated with one
+netcdf file.

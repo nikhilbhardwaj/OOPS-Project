@@ -1,0 +1,7 @@
+Filesystem in userspace support for pike
+	
+this pike module enables one to export filesystems to the linux
+kernel using the fuse library.
+
+pike is an interpreted programming language, for more information
+see the description of the pike7.8-core package.

@@ -1,0 +1,31 @@
+Miscellaneous utility functions in ocaml for marionnet
+	
+library ocaml which provide a set of needed and useful macros for developing.
+modules and functionality are the follows :
+
+
+ - configuration_files: allow to get information from configuration files
+ - environments: environments are useful for maintaining the state, intendend
+
+as a set of bindings, of a user interaction with a gui
+
+ - filenameextra: additional features for the standard module filename
+ - fix: poor man fix point operators
+ - hashm[m]ap: 2 module implementing polymorphic unbounded (multi) maps
+ - hashset: very simple module implementing a polymorphic unbounded sets
+ - identifier: build and manage unique (fresh) identifiers
+ - ledgrid: constants some global constant definitions, for fine-tuning
+ - listextra: additional features for the standard module list
+ - memo: module for building memoised functions
+ - oomarshal: object-oriented marshalling support
+ - preludeextra: "additional features" for the standard module pervasives
+ - shell: a collection of (mainly quick and easy) wrappers for the most
+
+famous unix tools and generic unix commands or scripts
+
+ - strextra: additional features for the standard library str
+ - sugar: basic shortcuts and syntactic sugar
+ - sysextra: additional features for the standard module sys
+ - unixextra: additional features for the standard library unix
+ - widget: some generic tools for building guis
+ - wrapper: handling shell scripts in ocaml

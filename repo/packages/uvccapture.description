@@ -1,0 +1,9 @@
+Usb uvc video class snapshot software
+	
+the purpose of this software is to capture an image from a usb webcam at a
+specified interval, and save it to a jpeg file, no other formats are supported.
+
+right now this software is really a hack, since still image support is not yet
+available in the uvc driver. the program continually polls the uvc driver in
+mjpeg mode, and at a specified interval writes a jpeg header and a single frame
+to file, creating a jpeg image.

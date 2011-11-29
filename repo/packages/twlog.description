@@ -1,0 +1,19 @@
+Logging program for hamradio operators
+	
+this gui program records basic ham log information. it is for
+day to day logging, not contesting.  there is no dup checking and
+contest related things like that.  my keyboard is where my logbook
+used to be, so why not use the computer to log qsos!
+
+the interface can be customized without re-compiling.  a resource
+file allows you to modify the menus for the bands, modes, etc.
+that you use.
+
+most of the log entries can be made with a button press or a single
+key stroke.  it records the date, start and end times, call sign,
+band, mode, power, and signal reports.  there is also a field
+for general notes.
+
+a second window allows you to search and edit the log file, and a
+third window provides online help.  the help file can also be view
+with any unix command or editor at any time.

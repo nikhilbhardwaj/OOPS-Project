@@ -1,0 +1,16 @@
+Multimedia retrieval markup language
+	
+mrml's aims are to unify access to multimedia retrieval and management
+software component in order to extend their capabilities. the success
+of such a context has already been demonstrated via the development of
+the gnu image finding tool (gift).
+
+the gift (the gnu image-finding tool) is a content based image
+retrieval system (cbirs). it enables you to do query by example on
+images, giving you the opportunity to improve query results by
+relevance feedback. for processing your queries the program relies
+entirely on the content of the images, freeing you from the need
+to annotate all images before querying the collection.
+
+the gift is an open framework. the communication protocol for
+client-server communication, mrml, is xml based and fully documented.

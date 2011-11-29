@@ -1,0 +1,18 @@
+Toolbox to manipulate mpeg files (video, system, and audio)
+	
+mpgtx is a tool to manipulate mpeg files. its features include the
+following:
+
+
+  * mpgtx can currently split and join mpeg 1 video files and most
+    mpeg audio files.
+  * mpgtx can fetch detailed information from mpeg 1 and mpeg 2.
+  * mpgtx can demultiplex mpeg 1 and mpeg 2 files (system layer, program
+    layer and transport layer).
+  * mpgtx can add, remove and edit id3 tags from mp3 files and rename
+    mp3 files according to their id3 tags. it reads and writes id3v1,
+    but only reads id3v2.
+
+
+
+ homepage: http://mpgtx.sourceforge.net/

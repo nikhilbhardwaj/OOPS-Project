@@ -1,0 +1,6 @@
+A general purpose base service library (ooo 3.1 branch)
+	
+libbase is a library developed to provide base services like
+logging, configuration and initialization to all other libraries
+and applications. the library is the root library for all other
+pentaho-reporting projects.

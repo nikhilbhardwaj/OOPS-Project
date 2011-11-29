@@ -1,0 +1,21 @@
+Curses-based language trainer
+	
+latrine is a curses-based language trainer. it takes a dictionary and asks you
+for a word or a phrase, and you try to give the correct answer. you can choose
+in what direction latrine shall ask, and the selection of the words or phrases
+will depend on how often you don't know the correct translation for the
+respective phrase. this is a conventional way to drill yourself in foreign
+language vocabulary.
+
+latrine provides full utf-8 support for non-ascii characters, entering of
+digraphs, keyboard mappings for foreign alphabets, as well as right-to-left
+input and output, e.g. for hebrew. the program features several localizations.
+latrine's upstream homepage can be found at
+http://people.debian.org/~godisch/latrine/.
+
+in addition to this package you need an appropriate dictionary. writing your
+own word list is the easiest and recommended way, but you may also download one
+from the internet. the free dictionaries project at
+http://sourceforge.net/projects/freedict/, provides dictionaries for about 50
+language combinations, which should be compatible with latrine. these
+dictionaries are also available via the debian dict-freedict-*-* packages.

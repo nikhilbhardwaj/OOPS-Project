@@ -1,0 +1,15 @@
+Read gettext mo files directly, without requiring anything other than php
+	
+the gnu gettext library is a widely used localization library, but in
+order to use it with the php language, the system has to support the
+desired locale, and library itself must be installed.
+
+since this is not always the case, php-gettext has been developed to be
+able to read gettext mo files directly, without requiring anything other
+than php.
+
+currently, it's usable if you develop most of the infrastructure for
+choosing language on your own, because it's possible to use both
+gettext() and ngettext() calls. in the near future, it should also be
+fully compatible drop-in replacement for all of gettext functionality
+written in php.

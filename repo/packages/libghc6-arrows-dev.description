@@ -1,0 +1,7 @@
+Haskell arrow classes and transformers for ghc
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides several classes that extend the arrow class, and
+some transformers that implement or lift these classes.

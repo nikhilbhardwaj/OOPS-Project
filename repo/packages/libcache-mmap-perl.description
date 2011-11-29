@@ -1,0 +1,12 @@
+Shared data cache using memory mapped files
+	
+this module implements a shared data cache, using memory mapped files.
+if routines are provided which interact with the underlying data, access to
+the cache is completely transparent, and the module handles all the details of
+refreshing cache contents, and updating underlying data, if necessary.
+
+cache entries are assigned to "buckets" within the cache file, depending on
+the key. within each bucket, entries are stored approximately in order of last
+access, so that frequently accessed entries will move to the head of the
+bucket, thus decreasing access time. concurrent accesses to the same bucket are
+prevented by file locking of the relevant section of the cache file.

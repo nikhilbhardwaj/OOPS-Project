@@ -1,0 +1,5 @@
+Transition package for raidutils rename to dpt-i2o-raidutils
+	
+the package previously named raidutils, used for manipulating some
+adaptec i2o raid hardware, has been renamed dpt-i2o-raidutils.  this
+package helps ease that transition.

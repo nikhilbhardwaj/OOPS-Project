@@ -1,0 +1,8 @@
+Software pcl emulation for canon capsl laser printers
+	
+cjet filters printer data from stdin to stdout, converting hp pcl
+(printer command language) escape sequences and data structures,
+e.g. font headers, to their capsl equivalents.
+
+the only printers known to use this language are the canon lbp-4u and
+canon lbp-8a1.

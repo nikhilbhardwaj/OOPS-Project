@@ -1,0 +1,5 @@
+The gnu fortran 95 compiler
+	
+this is the gnu fortran compiler, which compiles
+fortran 95 on platforms supported by the gcc compiler. it uses the
+gcc backend to generate optimized code.

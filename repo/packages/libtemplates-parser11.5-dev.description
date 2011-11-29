@@ -1,0 +1,11 @@
+Ada library to parse files and replace variables with their values
+	
+the main goal is to ease the development of web servers. in cgi
+(common gateway interface) applications, you have to write  html pages in
+the program (in ada or whatever other language) by using some specific
+libraries or by using only basic output functions.  this is of course not
+mandatory but by lack of a good library every web development ends up doing
+just that.  templates parser takes that burden off of you.
+
+this package contains the static libraries, documentation, tools and ada
+specification files.

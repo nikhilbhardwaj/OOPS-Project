@@ -1,0 +1,8 @@
+Library for multi-way secret-sharing (debug symbols)
+	
+this library implements shamir's method for secret sharing, which can be
+used to split a secret (like a gpg secret key) into multiple parts, so that
+at least some number of those parts are needed to recover the original file,
+but any smaller combination of parts is useless to an attacker.
+
+this package contains support for debugging programs that use libgfshare.

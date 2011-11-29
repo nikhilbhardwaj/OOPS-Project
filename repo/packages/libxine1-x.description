@@ -1,0 +1,8 @@
+X desktop video output plugins for libxine1
+	
+this package contains plugins for the xine video/media player engine
+which are used for video display on the x desktop.
+
+you most probably want to install this package if you are using a
+graphical frontend like gxine, kaffeine or xine-ui. it contains xine output
+plugins necessary for drawing on x11 displays.

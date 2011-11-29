@@ -1,0 +1,11 @@
+Ncurses-based scanner for bluetooth devices
+	
+btscanner is a tool designed specifically to extract as much information
+as possible from a bluetooth device without the requirement to pair. a
+detailed information screen extracts hci and sdp information, and
+maintains an open connection to monitor the rssi and link quality.
+btscanner is based on the bluez bluetooth stack, which is included with
+recent linux kernels, and the bluez toolset. btscanner also contains a
+complete listing of the ieee oui numbers and class lookup tables. using
+the information gathered from these sources it is possible to make
+educated guesses as to the host device type.

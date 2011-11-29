@@ -1,0 +1,8 @@
+A computational logic for applicative common lisp: infix interface
+	
+acl2 is both a programming language in which you can model computer
+systems and a tool to help you prove properties of those models.
+
+this package contains utilities and libraries to access acl2 via an
+infix notation similar to that used in many non-lisp programming
+languages.

@@ -1,0 +1,8 @@
+Sqlite3 adapter for libdataobjects-ruby1.8
+	
+the purpose of do.rb is to rewrite existing ruby database drivers to
+conform to a single interface. at present, postgresql, mysql, and
+sqlite adapters are available (as separate packages).
+
+this is a dummy package depending on the library for the current default
+version of ruby.

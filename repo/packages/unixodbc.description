@@ -1,0 +1,11 @@
+Odbc tools libraries
+	
+binaries and libraries from the unixodbc package.
+
+ components:
+
+
+
+ libodbc.so.1        (odbc driver manager)
+ libodbctxt.so       (driver for text files)
+ isql                (cmd line tool... batch & interactive sql)

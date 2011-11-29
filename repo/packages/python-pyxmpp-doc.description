@@ -1,0 +1,27 @@
+Xmpp and jabber implementation for python (documentation)
+	
+pyxmpp is a python xmpp (rfc 3920,3921) and jabber
+(http://www.jabber.org/protocol/) implementation. it is based on libxml2 --
+fast and fully-featured xml parser.
+
+pyxmpp provides most core features of the xmpp protocol and several
+jsf-defined extensions. pyxmpp provides building blocks for creating jabber
+clients and components. developer uses them to setup xmpp streams, handle
+incoming events and create outgoing stanzas (xmpp "packets").
+
+features:
+
+ * nearly complete xmpp core (rfc 3920) protocol for client connections
+   (includes sasl, tls and stringprep)
+ * mostly complete xmpp im (rfc 3921) protocol (lacks privacy lists)
+ * xmpp error objects including translations to and from legacy codes for
+   backward compatibility (jep-0086).
+ * legacy authentication ("digest" and "plain") (jep-0078).
+ * component protocol (jep-0114).
+ * service discovery (jep-0030).
+ * vcards -- both jabber "vcard-temp" and rfc 2426
+ * basic parts of the multi-user chat protocol (jep-0045)
+ * delayed delivery timestamps (jep-0091).
+
+
+this package contains the api documentation of pyxmpp.

@@ -1,0 +1,28 @@
+A perl replacement for make
+	
+excerpted from the readme file:
+
+cons is a system for constructing, primarily, software, but is quite
+different from previous software construction systems. cons was
+designed from the ground up to deal easily with the construction of
+software spread over multiple source directories. cons makes it easy
+to create build scripts that are simple, understandable and
+maintainable. cons ensures that complex software is easily and
+accurately reproducible.
+
+cons uses a number of techniques to accomplish all of this.
+construction scripts are just perl scripts, making them both easy to
+comprehend and very flexible. global scoping of variables is replaced
+with an import/export mechanism for sharing information between
+scripts, significantly improving the readability and maintainability
+of each script. construction environments are introduced: these are
+perl objects that capture the information required for controlling the
+build process. multiple environments are used when different semantics
+are required for generating products in the build tree. cons
+implements automatic dependency analysis and uses this to globally
+sequence the entire build. variant builds are easily produced from a
+single source tree. intelligent build subsetting is possible, when
+working on localized changes. overrides can be setup to easily
+override build instructions without modifying any scripts. md5
+cryptographic signatures are associated with derived files, and are
+used to accurately determine whether a given file needs to be rebuilt.

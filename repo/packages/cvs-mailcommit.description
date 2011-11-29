@@ -1,0 +1,6 @@
+Send cvs commitments via mail
+	
+the cvs-mailcommit program is hooked into the cvs system via the
+loginfo file and helps people keep track of cvs repositories by
+distributing changes in a repository via mail.  this package is
+written in perl.

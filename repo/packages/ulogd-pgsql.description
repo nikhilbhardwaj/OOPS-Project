@@ -1,0 +1,4 @@
+Postgresql extension to ulogd
+	
+this module adds postgresql support to ulogd. you can log into a postgresql
+database if you have it installed.

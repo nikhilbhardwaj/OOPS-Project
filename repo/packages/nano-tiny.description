@@ -1,0 +1,8 @@
+Small, friendly text editor inspired by pico - tiny build
+	
+gnu nano is an easy-to-use text editor originally designed as a replacement
+for pico, the ncurses-based editor from the non-free mailer package pine
+(itself now available under the apache license as alpine).
+
+this package contains a build of gnu nano with many features disabled, for
+environments such as rescue disks where resources are limited.

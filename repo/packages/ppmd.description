@@ -1,0 +1,7 @@
+Fast archiver program with good compression ratio
+	
+ppmd predicts the probability of a given character based on the
+characters that immediately precede it (as all ppm compressors,
+see also markov chains and context modeling). this archiver
+should be better than zip, gzip, bzip2, zzip, szip and ppmz(2)
+at compressing files.

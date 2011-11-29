@@ -1,0 +1,4 @@
+PackageId:5311
+Name:gforge-web-apache2
+Version:5.0.2-5
+Deps:cronolog,debconf,debconf-2.0,cdebconf,cdebconf-udeb,debianutils,gforge-common,gforge-db-postgresql,gforge-db,libapache2-mod-php5,libdbd-pg-perl,libdbi-perl,libjs-yui,libnusoap-php,perl,php-htmlpurifier,php5-cgi,php5-gd,php5-pgsql,python,ssl-cert,ucf

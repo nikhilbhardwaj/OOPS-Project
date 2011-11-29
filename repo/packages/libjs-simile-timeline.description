@@ -1,0 +1,9 @@
+Javascript library for web-based interactive timelines
+	
+timeline is a dhtml-based ajax-based widget for visualizing time-based
+events. it uses the "slippy page" concept in a similar way to google maps
+allowing the user to pan the timeline by dragging the page horizontally.
+
+each timeline can consist of multiple "bands", each with a configurable
+scale, which can provide useful context when displaying a large number
+of items. timelines can be populated directly via xml or json.

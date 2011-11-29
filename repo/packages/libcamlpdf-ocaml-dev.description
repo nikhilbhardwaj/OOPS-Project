@@ -1,0 +1,8 @@
+Library for reading, writing and manipulating pdf files and data
+	
+camlpdf consists of a set of low level modules for representing,
+reading and writing the basic structure of pdf, together with an
+initial attempt at a higher level api.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use camlpdf.

@@ -1,0 +1,19 @@
+Perl database interface (dbi)
+	
+dbi (database interface) is a perl framework that provides a common interface
+to access various backend databases in a uniform manner. dbd (database driver)
+modules provide implementations for various backend data storage mechanisms
+including networked relational databases (particularly sql databases) and even
+web services such as the google search engine.
+
+it is extremely portable and available for a wide range of operating systems,
+architectures and data stores, including:
+
+
+ * oracle
+ * microsoft sql server
+ * ibm db2
+ * sqlite
+ * postgresql
+ * firebird
+ * mysql

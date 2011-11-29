@@ -1,0 +1,11 @@
+Documentation for the pyevolve genetic algorithm framework
+	
+pyevolve was developed to be a complete genetic algorithm framework written in
+pure python. it provides an easy-to-use api, implementing the most common
+features of ga, including various selectors and scaling schemes. it is also
+easily extendable, allowing users to create new representations and genetic
+operators. various methods of interactive and non-interactive visualization
+are supported.
+
+this package contains the documentation for pyevolve in html form, and some
+examples.

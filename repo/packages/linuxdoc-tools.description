@@ -1,0 +1,14 @@
+Convert linuxdoc sgml source into other formats
+	
+linuxdoc sgml is a highly configurable text format for writing
+documentation, something like html only it's simpler and can be
+converted to various other formats, including html for websites.
+you write a linuxdoc document using any text editor such as vim.
+then you use linuxdoc-tools to convert it to html, rtf, plain-text
+(install linuxdoc-tools-text), info (install linuxdoc-tools-info),
+latex, dvi or postscript (install linuxdoc-tools-latex). the
+sgmltools-lite package can convert linuxdoc to docbook format.
+
+linuxdoc can automatically create a table of contents.  it's easier to
+write and read than docbook since it allows one to omit most closing
+tags while paragraphs are separated by just blank lines.

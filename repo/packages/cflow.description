@@ -1,0 +1,10 @@
+Analyze control flow in c source files
+	
+gnu cflow analyzes a collection of c source files and prints a graph, charting
+control flow within the program.
+
+gnu cflow is able to produce both direct and inverted flowgraphs for c
+sources. optionally a cross-reference listing can be generated. two output
+formats are implemented: posix and gnu (extended).
+
+input files can optionally be preprocessed before analyzing.

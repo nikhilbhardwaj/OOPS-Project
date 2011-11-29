@@ -1,0 +1,18 @@
+Exif/iptc metadata manipulation library
+	
+exiv2 library supports:
+
+ * full read and write access to the exif and iptc metadata of an image
+   through exiv2 keys and standard c++ iterators
+ * a smart iptc implementation that does not affect data that programs like
+   photoshop store in the same image segment
+ * exif makernote support:
+   - makernote tags can be accessed just like any other exif metadata
+   - a sophisticated write algorithm avoids corrupting the makernote:
+ * extract and delete methods for exif thumbnails (both, jpeg and tiff
+   thumbnails)
+ * set methods for exif thumbnails (jpeg only, tiff thumbnails can be set from
+   individual tags)
+ * complete api documentation (by doxygen)
+ * generic lower-level classes to access ifd (image file directory) data
+   structures

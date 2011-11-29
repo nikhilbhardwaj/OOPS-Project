@@ -1,0 +1,6 @@
+Embedded gnu c library: precompiled locale data
+	
+this package contains the precompiled locale data for all supported locales.
+a better alternative is to install the locales package and only select
+desired locales, but it can be useful on a low-memory machine because some
+locale files take a lot of memory to be compiled.

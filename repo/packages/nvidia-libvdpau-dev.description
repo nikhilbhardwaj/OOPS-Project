@@ -1,0 +1,8 @@
+Nvidia vdpau development files (transitional package)
+	
+the nvidia video decode and presentation api for unix (vdpau) provides a
+complete solution for decoding, post-processing, compositing, and displaying
+compressed or uncompressed video streams.
+
+this is a transitional dummy package depending on the free version of the
+vdpau development files.

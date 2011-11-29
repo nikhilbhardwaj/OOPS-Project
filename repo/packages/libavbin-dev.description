@@ -1,0 +1,7 @@
+Development files for libavbin
+	
+avbin is a thin wrapper around ffmpeg, providing binary compatibility
+for applications and languages that need it.
+
+this package contains the header files and static libraries needed to
+compile applications or shared objects that use libavbin.

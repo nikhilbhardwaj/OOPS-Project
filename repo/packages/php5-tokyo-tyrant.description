@@ -1,0 +1,6 @@
+Php interface to tokyo cabinet's network interface, tokyo tyrant
+	
+php extension providing an object-oriented interface to tokyo tyrant
+via the binary protocol.
+
+the key-value and table (with query) apis are both supported.

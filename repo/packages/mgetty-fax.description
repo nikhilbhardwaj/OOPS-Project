@@ -1,0 +1,9 @@
+Faxing tools for mgetty
+	
+the fax subsystem of the mgetty package.
+
+this subsystems has the enhancements that are needed to send and receive
+faxes with mgetty and a class 2 faxmodem.
+
+the program 'mgetty' allows you to use a fax modem for receiving faxes
+and handling external logins without interfering with outgoing calls.

@@ -1,0 +1,5 @@
+Unified interface to mime encoding and decoding
+	
+email::mime::encodings simply wraps mime::base64 and mime::quotedprint
+so that you can throw the contents of a content-transfer-encoding
+header at some text and have the right thing happen.

@@ -1,0 +1,11 @@
+Network ups tools - hal interface
+	
+network ups tools (nut) is a client/server monitoring system that
+allows computers to share uninterruptible power supply (ups) and
+power distribution unit (pdu) hardware. clients access the hardware
+through the server, and are notified whenever the power status
+changes.
+
+this package provides add-ons for the hardware abstraction layer (hal) that
+allow desktop environments to monitor locally-connected ups equipment. the
+hal drivers cannot be used at the same time as the normal nut upsd.

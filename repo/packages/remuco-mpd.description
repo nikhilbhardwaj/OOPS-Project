@@ -1,0 +1,12 @@
+Duplex remote control for media players - mpd adapter
+	
+remuco is a duplex remote control system for media players and mobile
+devices equipped with bluetooth or wifi. it allows you to control your
+favourite media player by switching to the next, previous, or any other media
+within your current playlist, as well as browse your media library, activate
+your other playlists, rate your media, adjust volume, and more. on the mobile
+device, it displays information about the current media, including cover art.
+
+this package contains the remuco adapter for music player daemon (mpd). mpd is
+a server that allows remote access for playing audio files and managing
+playlists

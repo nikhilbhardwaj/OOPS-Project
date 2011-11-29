@@ -1,0 +1,9 @@
+Api to write one's own vnc server - development files
+	
+libvncserver makes writing a vnc server (or more correctly, a program
+exporting a framebuffer via the remote frame buffer protocol) easy.  it hides
+the programmer from the tedious task of managing clients
+and compression schemata.
+
+this is the development package which contains headers and static libraries
+for libvncserver.

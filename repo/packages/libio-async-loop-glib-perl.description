@@ -1,0 +1,6 @@
+Perl extension for an event loop using glib
+	
+io::async::loop::glib is a perl module that provides an implementation of an
+event loop that uses the gnome library's main event loop implementation. the
+glib main event loop manages all the available sources of events for glib and
+gtk+ applications.

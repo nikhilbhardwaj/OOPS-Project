@@ -1,0 +1,6 @@
+Debugging symbols for libraries provided in libgcj10-dev
+	
+the package provides debugging symbols for the libraries provided
+in libgcj10-dev.
+
+binutils is required to show file names and line numbers in stack traces.

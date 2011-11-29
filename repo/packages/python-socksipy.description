@@ -1,0 +1,6 @@
+Python socks client module
+	
+this module was designed to allow developers of python
+software that uses the internet or another tcp/ip-based
+network to add support for connection through a socks proxy
+server with as much ease as possible.

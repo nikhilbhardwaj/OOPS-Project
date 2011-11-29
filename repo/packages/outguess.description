@@ -1,0 +1,7 @@
+Universal steganographic tool
+	
+outguess is a universal steganographic tool that allows the insertion of
+hidden information into the redundant bits of data sources. the nature of the
+data source is irrelevant to the core of outguess. the program relies on data
+specific handlers that will extract redundant bits and write them back after
+modification. in this version the pnm and jpeg image formats are supported.

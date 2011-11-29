@@ -1,0 +1,15 @@
+Documentation of c++ wrappers for glib/gtk+
+	
+glib is a low-level general-purpose library used mainly by gtk+/gnome
+applications, but is useful for other programs as well.
+glibmm is the c++ wrapper for glib.
+
+gtkmm is a c++ interface for the popular gui library gtk+.  it provides
+a convenient interface for c++ programmers to create graphical user
+interfaces with gtk+'s flexible oo framework. highlights include type
+safe callbacks, widgets extensible using inheritance and over 180
+classes that can be freely combined to quickly create complex user
+interfaces.
+
+this package contains tutorial, faq, as well as examples for the above
+components.

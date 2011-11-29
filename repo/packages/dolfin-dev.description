@@ -1,0 +1,7 @@
+Empty package depending on latest dolfin development package
+	
+dolfin is the c++/python interface of fenics, providing a consistent pse
+(problem solving environment) for ordinary and partial differential equations.
+
+this package will always depend on the most recent version of libdolfinx-dev
+(x=version), so if you install it then you will get upgrades automatically.

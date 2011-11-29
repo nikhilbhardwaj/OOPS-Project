@@ -1,0 +1,12 @@
+Hp postscript printer definition (ppd) files
+	
+because postscript is just a page description language,
+there is a need to provide a mechanism for a print spooler to
+customize the postscript job to the actual printer device.
+
+a ppd (postscript printer definitions) specify the device specific
+postscript commands needed to utilize printer features (such as
+printing quality, paper tray, duplex printing).
+
+this package contains some ppds for hp printers that are not in
+package linuxprinting.org-ppds

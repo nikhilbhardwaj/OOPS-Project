@@ -1,0 +1,22 @@
+Perl handling of the three iso 8601 numerical calendars
+	
+the international standard iso 8601 "data elements and interchange formats -
+information interchange - representation of dates and times" defines three
+distinct calendars by which days can be labelled. it also defines textual
+formats for the representation of dates in these calendars. date::iso8601
+provides functions to convert dates between these three calendars and
+chronological julian day numbers, which is a suitable format to do arithmetic
+with. it also supplies functions that describe the shape of these calendars,
+to assist in calendrical calculations. it also supplies functions to
+represent dates textually in the iso 8601 formats. iso 8601 also covers time
+of day and time periods, but this module does nothing relating to those parts
+of the standard; this is only about labelling days.
+
+the first iso 8601 calendar divides time up into years, months, and days. it
+corresponds exactly to the gregorian calendar, invented by aloysius lilius
+and promulgated by pope gregory xiii in the late sixteenth century, with ad
+(ce) year numbering. this calendar is applied to all time, not just to dates
+after its invention nor just to years 1 and later. thus for ancient dates it
+is the proleptic gregorian calendar with astronomical year numbering.
+
+this description was automagically extracted from the module by dh-make-perl.

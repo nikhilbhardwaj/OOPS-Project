@@ -1,0 +1,5 @@
+Module to trace perl subroutine calls
+	
+debug::trace is a perl module that can trace information upon every
+call and return of perl function. it does not require any changes to
+the sources.

@@ -1,0 +1,11 @@
+Wrapper around the rm command to prevent accidental deletions
+	
+this package provides a tool intended to prevent the accidental deletion
+of important files by replacing rm with a wrapper, which checks the
+given arguments against a configurable blacklist of files and directories
+that should never be removed.
+
+users who attempt to delete one of these protected files or directories will
+not be able to do so and will be shown a warning message instead.
+
+protected paths can be set both at the site and user levels.

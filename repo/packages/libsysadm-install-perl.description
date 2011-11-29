@@ -1,0 +1,9 @@
+Module for typical installation tasks of system administrators
+	
+sysadm::install executes shell-like commands performing typical
+installation tasks: copying files, extracting tarballs, calling make.
+it has a fail once and die policy, meticulously checking the result
+of every operation and calling die() immeditatly if anything fails.
+
+sysadm::install also supports a dry_run mode, in which it
+logs everything, but suppresses any write actions.

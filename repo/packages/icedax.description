@@ -1,0 +1,9 @@
+Creates wav files from audio cds
+	
+icedax lets you digitally copy ("rip") audio tracks from a cd, avoiding
+the distortion that is introduced when recording via a sound card. data
+can be dumped into raw (cdr), wav or sun format sound files. options control
+the recording format (stereo/mono; 8/16 bits; sampling rate, etc).
+
+please install cdrkit-doc if you want most of the documentation and
+readme files.

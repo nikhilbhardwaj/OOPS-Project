@@ -1,0 +1,9 @@
+Tools for ocaml developers
+	
+this package collects various tools to help developing objectiva caml
+(ocaml) programs; in particular it contains:
+
+
+ * ocaml-autoconf: autoconf macros for ocaml
+ * omlet: a better ocaml indentation mode for vim
+ * a configure.in and makefile.in template

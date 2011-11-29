@@ -1,0 +1,5 @@
+Debugging symbols for netcdf
+	
+this package contains the files that make it possible to debug the
+netcdf binaries and programs that use the netcdf libraries with a
+source-level debugger like gdb.

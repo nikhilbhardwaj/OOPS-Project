@@ -1,0 +1,6 @@
+Qsl signing routines for the logbook of the world (lotw)
+	
+a qsl is a confirmation of contact between two amateur radio stations.
+this library provides functions for signing amateur radio qsl data to
+create tqsls. tqsls can be uploaded to the arrl logbook of the world
+project for credit towards amateur radio awards.

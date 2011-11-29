@@ -1,0 +1,6 @@
+Ccrtp extension for zrtp/zfone support
+	
+this library is an extension to the gnu rtp stack, libccrtp,
+that offers compatibility with phil zimmermann's zrtp/zfone voice
+encryption, and which can be directly embedded into telephony
+applications.  the current release is conformant to the zrtp specification.

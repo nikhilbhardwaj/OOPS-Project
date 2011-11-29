@@ -1,0 +1,8 @@
+Shell with c-like syntax, standard login shell on bsd systems
+	
+the c shell was originally written at ucb to overcome limitations in the
+bourne shell.  its flexibility and comfort (at that time) quickly made it
+the shell of choice until more advanced shells like ksh, bash, zsh or
+tcsh appeared.  most of the latter incorporate features original to csh.
+
+this package is based on current openbsd sources.

@@ -1,0 +1,23 @@
+Disassembling engine provided to the eresi framework
+	
+libasm provides rich information on the code of binary files loaded
+in the eresi framework, such as instruction and operands analysis,
+semantic attributes for instructions and operands, allowing
+straight-forward construction of the control flow graph and the call
+graph (among others). libasm relies on a modular and extensible
+handling of instruction formats using the reflective vector data
+structure provided by libaspect, which lead to a uniform intregration
+of libasm features into the eresi framework language.
+
+libasm can be used in many operations requesting an access to
+instructions information:
+
+
+ * generate listing of instructions for basic blocks or functions
+   on-demand.
+ * helping at building different kind of flow graphs by assigning
+   semantic attributes to instructions and operands.
+ * searching for longuests sequences of valid instruction in a buffer.
+ * searching for push or pop sequences in binary code.
+ * disassembling sparc opcodes with ia32 engine to check if code may
+   be valid on both architecture.

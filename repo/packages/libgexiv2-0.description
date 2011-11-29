@@ -1,0 +1,6 @@
+Gobject-based wrapper around the exiv2 library
+	
+gexiv2 is a gobject-based wrapper around the exiv2 library. it makes the basic
+features of exiv2 available to gnome applications.
+
+this package contains the shared library.

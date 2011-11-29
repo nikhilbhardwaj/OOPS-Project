@@ -1,0 +1,16 @@
+Easy compiling of complex (and simple) latex documents
+	
+this package provides several tools that aim to simplify the
+compilation of latex documents:
+
+latex.mk: a makefile snippet to help compiling latex documents in
+dvi, pdf, ps, ... format. dependencies are automatically tracked: one
+should be able to compile documents with a one-line makefile
+containing 'include latex.mk'. complex documents (with multiple
+bibliographies, indexes, glossaries, ...) should be correctly managed.
+
+figlatex.sty: a latex package to easily insert xfig figures (with
+\includegraphics{file.fig}). it can interact with latex.mk so that the
+latter automatically invokes transfig if needed.
+
+and various helper tools for latex.mk

@@ -1,0 +1,10 @@
+Ensure that the latest kde development platform is installed
+	
+this package ensures that the latest version of the kde development platform
+packages are installed on the system.
+
+this package is intended to be used only in the build-depends of the kde
+software compilation packages. if the "breaks" effect of this package is not
+desired on the maintainer system, it can be overridden by installing a custom
+version of this package with the pkgkde-override-sc-dev-latest command from
+the pkg-kde-tools package.

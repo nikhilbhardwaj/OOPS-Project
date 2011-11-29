@@ -1,0 +1,22 @@
+Atari 2600 emulator for sdl & the x window system
+	
+stella is a portable emulator of the old atari 2600 video-game
+console. you can play most atari 2600 games with it.
+
+stella's features include:
+
+ * emulation of atari 2600 joysticks, keyboards, paddles and driving
+   controllers using the host system's input peripherals;
+ * emulation of trackballs and the amiga mouse using the host's
+   system's mouse;
+ * support for real atari 2600 controllers using the stelladaptor;
+ * support for the speech portion of a real atarivox device;
+ * support for supercharger single-load and multi-load games;
+ * emulation of crt tv features, including texturing, colour bleed,
+   rf noise and phosphor burn-off (requires opengl 2.0 and glsl).
+
+
+an extensive debugger is included, with the distella disassembler.
+
+note that this is not isee systems' stella modeling, simulation and
+analysis tool.

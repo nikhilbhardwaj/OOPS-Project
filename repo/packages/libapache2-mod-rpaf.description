@@ -1,0 +1,14 @@
+Module for apache2 which takes the last ip from the 'x-forwarded-for' header
+	
+rpaf is short for reverse proxy add forward.
+
+rpaf is for backend apache servers what mod_proxy_add_forward is for
+frontend apache servers. it does exactly the opposite of
+mod_proxy_add_forward written by ask bjorn hansen.
+
+it changes the remote address of the client visible to other apache modules
+when two conditions are satisfied. first condition is that the remote client
+is actually a proxy that is defined in httpd.conf. secondly if there is an
+incoming x-forwarded-for header and the proxy is in its list of known
+proxies it takes the last ip from the incoming x-forwarded-for header and
+changes the remote address of the client in the request structure.

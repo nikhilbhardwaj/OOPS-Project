@@ -1,0 +1,10 @@
+Text-wrapping library with i18n - runtime
+	
+text-wrapping (or line-folding) library for displaying a string on
+the terminal.  this supports i18n (internationalization), i.e,
+automatic locale-encoding detection, multibyte encoding (such as
+utf-8, euc-jp, and so on), fullwidth characters (occupying two
+columns per one character, like cjk ideogram), combining characters
+(occupying zero columns per one character, like thai and diacritical
+marks), and languages which do not use whitespaces between words
+(like chinese and japanese).

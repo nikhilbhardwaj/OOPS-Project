@@ -1,0 +1,6 @@
+Unit testing framework for c++, static library and headers
+	
+unittest++ is a unit testing framework designed for simplicity
+and portability. features include no explicit test registration,
+good crash handling, fixtures, rich condition-checking functionality,
+minimal footprint for embedded environments.

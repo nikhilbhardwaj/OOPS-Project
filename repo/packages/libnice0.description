@@ -1,0 +1,13 @@
+Ice library (shared library)
+	
+nice is an implementation of the ietf's draft interactive connectivity
+establishment standard (ice).  ice is useful for applications that want to
+establish peer-to-peer udp data streams. it automates the process of
+traversing nats and provides security against some attacks.
+
+existing standards that use ice include the session initiation protocol (sip)
+and the jingle xmpp extension for audio/video calls.
+
+nice includes integration with gstreamer.
+
+this package provides the nice library.

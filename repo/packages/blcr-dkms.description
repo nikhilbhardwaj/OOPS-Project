@@ -1,0 +1,8 @@
+Dkms support for blcr kernel module
+	
+this package provides integration with the dkms infrastructure for
+automatically building out of tree kernel modules.
+
+blcr (berkeley lab checkpoint/restart) allows programs running on
+linux to be "checkpointed" (written entirely to a file), and then
+later "restarted".

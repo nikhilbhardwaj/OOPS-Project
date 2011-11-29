@@ -1,0 +1,17 @@
+Logfile rotator for web servers
+	
+a simple program that reads log messages from its input and writes
+them to a set of output files, the names of which are constructed
+using template and the current date and time.  the template uses the
+same format specifiers as the unix date command (which are the same
+as the standard c strftime library function).
+
+it intended to be used in conjunction with a web server, such as
+apache, to split the access log into daily or monthly logs:
+
+
+  transferlog "|/usr/bin/cronolog /var/log/apache/%y/access.%y.%m.%d.log"
+
+
+a cronosplit script is also included, to convert existing
+traditionally-rotated logs into this rotation format.

@@ -1,0 +1,8 @@
+A utility for testing the memory subsystem
+	
+this is a userspace utility for testing the memory subsystem for faults.
+in comparison to memtest86 you do not need to reboot the computer to test
+for memory faults.
+
+memtester can also be told to test memory starting at a particular
+physical address.

@@ -1,0 +1,11 @@
+A themed widget set provider library for tk
+	
+the tile widget set is an experimental reimplementation
+of some of the standard tk widgets.  the main features are:
+
+
+   * "revitalized" look and feel under x11
+   * appearance controlled by a theme engine, providing
+     greater flexibility for custom widgets
+   * new widgets, including notebook, progressbar, combobox,
+     separator, and sizegrip.

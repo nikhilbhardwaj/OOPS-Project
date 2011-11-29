@@ -1,0 +1,7 @@
+Archiver plugin for claws mail
+	
+this plugin for claws mail allows archiving of account's folders (imap,
+pop or local) as well as vcalendar folders.
+
+several formats are supported (tar, pax, shar and cpio) with optional
+compression methods (gzip, bzip2).

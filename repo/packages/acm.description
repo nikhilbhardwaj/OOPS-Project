@@ -1,0 +1,6 @@
+A multi-player aerial combat simulation
+	
+acm is an air combat simulator that runs under the x window system.
+this version of acm is implemented as a distributed simulation.  it
+communicates information via the ieee distributed interactive
+simulation protocol.

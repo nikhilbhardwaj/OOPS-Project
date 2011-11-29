@@ -1,0 +1,4 @@
+PackageId:30998
+Name:rt3.8-db-sqlite
+Version:3.8.8-7+squeeze1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libdbd-sqlite3-perl,sqlite3

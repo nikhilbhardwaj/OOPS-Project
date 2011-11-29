@@ -1,0 +1,9 @@
+Upload progress support for the apache web server
+	
+mod_upload_progress allows to monitor status of http file uploads.
+
+website authors can then query the server using javascript to provide better
+feedback (e.g. progress bar, throughput) while the browser is uploading.
+
+this module produces output similar to the equivalent modules for nginx and
+lighttpd.

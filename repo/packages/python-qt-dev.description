@@ -1,0 +1,5 @@
+Qt bindings for python - development files
+	
+development .sip files with definitions of pyqt classes. they
+are needed to build pyqt, but also as building blocks of other
+packages based on them, like pykde.

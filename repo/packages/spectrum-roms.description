@@ -1,0 +1,23 @@
+Zx spectrum roms
+	
+this package provides images of the read-only memories from various
+versions of the sinclair spectrum. although the canonical source code for
+the roms is no longer available, the incomplete spectrum rom assembly (of
+the 48k code) is here for your reference.
+
+the current list of roms included is:
+
+
+ * 48.rom - original 48k rom
+ * 128-0.rom - 128k rom 0 (128k editor and menu)
+ * 128-1.rom - 128k rom 1 (48k basic)
+ * 128-spanish-0.rom - spanish 128k rom 0 (128k editor & menu)
+ * 128-spanish-1.rom - spanish 128k rom 1 (48k basic)
+ * if1-2.rom - interface 1 v2 rom
+ * plus2-0.rom - +2 rom 0 (128k editor and menu)
+ * plus2-1.rom - +2 rom 1 (48k basic)
+ * plus3-40-0.rom - +2a/+3 v4.0 rom 0 (128k editor)
+ * plus3-40-1.rom - +2a/+3 v4.0 rom 1 (128k syntax checker)
+ * plus3-40-2.rom - +2a/+3 v4.0 rom 2 (+3dos)
+ * plus3-40-3.rom - +2a/+3 v4.0 rom 3 (48k basic)
+ * tc2048.rom - original 48k rom modified for the timex tc2048

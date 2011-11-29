@@ -1,0 +1,8 @@
+Iscsi enterprise target userland tools
+	
+iscsi enterprise target is for building an iscsi storage system on
+linux. it is aimed at developing an iscsi target satisfying enterprise
+requirements.
+
+this package contains the userland part; you require the kernel module
+for proper operation.

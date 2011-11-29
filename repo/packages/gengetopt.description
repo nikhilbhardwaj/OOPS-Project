@@ -1,0 +1,6 @@
+Skeleton main.c generator
+	
+gengetopt reads an interface description file, and writes a skeleton
+main.c file.  gengetopt supports: long and short options, 11 types of
+parameters (including flag, int, double, string, and function call),
+and a usage message.

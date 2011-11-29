@@ -1,0 +1,6 @@
+Gnu octave encapsulated postscript toolkit
+	
+the octave-epstk package provides, via a set of .m functions, a toolkit to
+create powerful encapsulated postscript (.eps) graphs. most 2d scientific
+graphics functions are written. the generated .eps-files are very small and
+can be imported into other documents without loss of quality.

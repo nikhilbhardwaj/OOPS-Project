@@ -1,0 +1,8 @@
+System upgrader from konflux
+	
+upgrade-system offers a convenient way to keep a debian system up-to-date,
+yet free from accumulated cruft such as obsolete libraries.
+
+it is particularly useful on systems that mix packages from different
+releases (stable/testing/unstable) and on desktop systems where packages
+are frequently installed or removed according to evolving user tastes.

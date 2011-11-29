@@ -1,0 +1,8 @@
+Abstraction for power management - development files
+	
+upower provides an interface to enumerate power sources on the system
+and control system-wide power management. any application can access the
+org.freedesktop.upower service on the system message bus. some
+operations (such as suspending the system) are restricted using policykit.
+
+this package contains files that are needed to build applications.

@@ -1,0 +1,6 @@
+Use sql to store/write your apache queries logs - ssl extension
+	
+mod_log_sql is a log module for apache 1.3 and 2 which logs all requests to a
+database.
+
+for logging ssl connection informations (cipher, hash, etc.).

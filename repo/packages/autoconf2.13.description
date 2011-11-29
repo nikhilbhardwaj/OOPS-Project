@@ -1,0 +1,10 @@
+Automatic configure script builder (obsolete version)
+	
+obsolete compatibility package of autoconf 2.13.  for use only with
+packages that cannot easily be updated to use autoconf 2.50+.
+
+this package provides compatibility wrappers for autoconf,
+autoheader, and autoreconf that attempt to automatically choose which
+version of autoconf to use, based on some simple heuristics.  for
+information on these heuristics or how to force use of a particular
+autoconf version, see /usr/share/doc/autoconf2.13/readme.debian.gz.

@@ -1,0 +1,11 @@
+Checks intelligently if files have changed
+	
+file::modified module is intended as a simple method for programs to detect
+whether configuration files (or modules they rely on) have changed. there are
+currently two methods of change detection implemented, mtime and md5.
+the md5 method will fall back to use timestamps if the digest::md5 module
+cannot be loaded.
+
+there is another module, file::signature, which has many similar features,
+so if this module doesn't do what you need, maybe file::signature does. there
+also is quite some overlap between the two modules, code wise.

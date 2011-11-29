@@ -1,0 +1,5 @@
+Parallel virtual machine - shared libraries
+	
+just the bare library, required by binaries with optional pvm support such
+as pvmpov.  install the pvm package if you wish to actually run a parallel
+job.

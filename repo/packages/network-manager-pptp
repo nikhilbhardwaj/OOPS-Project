@@ -1,0 +1,4 @@
+PackageId:25400
+Name:network-manager-pptp
+Version:0.8.1-1
+Deps:libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdbus-1-3,libdbus-glib-1-2,libglib2.0-0,libnm-glib-vpn1,libnm-glib2,libnm-util1,ppp,pptp-linux

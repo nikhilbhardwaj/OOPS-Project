@@ -1,0 +1,12 @@
+Randomize lines of input text
+	
+rl is a command-line tool that reads lines from an input file or stdin,
+randomizes the lines and outputs a specified number of lines. it does this
+with only a single pass over the input while trying to use as little memory
+as possible.
+
+currently randomize-lines is under development and command-line arguments
+may change slightly until a 1.0 release is made.
+
+users are recommended to use the shuf command instead which should be
+available by default. this package may be considered deprecated.

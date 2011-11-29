@@ -1,0 +1,8 @@
+Minimalist gnu w64 (cross) runtime
+	
+this package contains the target runtime files for a cross-compilable
+windows/amd64 target.
+
+along with this package, you need the amd64-mingw32 cross-compiler in
+gcc-mingw32 if you want to compile binaries for windows/amd64
+architecture.

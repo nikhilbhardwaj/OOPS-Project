@@ -1,0 +1,6 @@
+A simple log colorizer
+	
+lwatch is a program to split syslog or syslog-ng messages with regexps
+(pcres), colorize and display them in a way that important
+informations can be seen at a glance. it is a small, useful tool for
+system administrators.

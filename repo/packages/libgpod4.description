@@ -1,0 +1,7 @@
+Library to read and write songs and artwork to an ipod
+	
+libgpod is a library meant to abstract access to an ipod's content. it
+provides an easy to use api to retrieve the list of files and playlist
+stored on an ipod, to modify them and to save them back to the ipod
+
+this package contains the shared library.

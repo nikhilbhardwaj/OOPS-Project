@@ -1,0 +1,5 @@
+Slice definitions for zeroc icee services
+	
+zeroc ice is a corba-like middleware solution. icee is a subset of
+ice used in embedded systems. this package installs the slice
+definitions of standard icee services on /usr/share/slice.

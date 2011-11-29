@@ -1,0 +1,6 @@
+Monitor and decode events from itanium firmware
+	
+sal (system abstraction layer) provides useful diagnostic information that
+can be extracted via a /proc interface in the linux kernel. salinfo provides
+a daemon that can monitor and capture this information into /var/log for
+analysis.

@@ -1,0 +1,8 @@
+Documentation for the mpich mpi implementation and user's guides
+	
+this package provides manual pages in both man and html form
+documenting the mpi (message passing interface) parallel programming
+standard as implemented by mpich, and the user's guides for the transports
+included in binary debian packages (chp4, chp4mpd, chshmem).
+
+for the mpi specification, see mpi-specs.

@@ -1,0 +1,33 @@
+Command line client for the shishi kerberos v5 implementation
+	
+shishi is an implementation of the kerberos v5 network authentication
+system.
+
+shishi can be used to authenticate users in distributed systems.
+
+shishi contains a library ('libshishi') that can be used by
+application developers to add support for kerberos v5.  shishi
+contains a command line utility ('shishi') that is used by users to
+acquire and manage tickets (and more).  the server side, a key
+distribution center, is implemented by 'shishid'.  of course, a
+manual documenting usage aspects as well as the programming api is
+included.
+
+shishi currently supports as/tgs exchanges for acquiring tickets, the
+ap exchange for performing client and server authentication, and
+safe/priv for integrity/privacy protected application data exchanges.
+
+shishi is internationalized; error and status messages can be
+translated into the users' language; user name and passwords can be
+converted into any available character set (normally including
+iso-8859-1 and utf-8) and also be processed using an experimental
+stringprep profile.
+
+most, if not all, of the widely used encryption and checksum types
+are supported, such as arcfour, 3des, aes and hmac-sha1.
+
+this package includes a few command line tools:
+
+ shishi -- acquire and manage kerberos tickets.
+ keytab2shishi -- convert mit/heimdal /etc/krb5.keytab's to shishi format.
+ ccache2shishi -- convert mit/heimdal user ticket files to shishi format.

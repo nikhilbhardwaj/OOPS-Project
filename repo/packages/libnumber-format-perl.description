@@ -1,0 +1,6 @@
+Perl module to format numbers for display
+	
+number::format is a perl module that formats numbers according to standard
+conventions, such as adding thousands separators and decimal points
+appropriate to the current locale. it can also convert strings into numbers,
+format currency values, and convert numbers to kb, mb, and gb values.

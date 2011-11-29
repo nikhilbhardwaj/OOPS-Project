@@ -1,0 +1,16 @@
+Development files and documentation for the lasi library
+	
+lasi is a library that provides a c++ stream output interface (with
+operator <<) for creating postscript documents that can contain
+characters from any of the scripts and symbol blocks supported in
+unicode and by the pango layout engine. the library accommodates
+right-to-left scripts such as arabic and hebrew as easily as
+left-to-right scripts. indic and indic-derived complex text layout
+(ctl) scripts, such as devanagari, thai, lao, and tibetan are
+supported to the extent provided by pango and by the opentype fonts
+installed on your system. all of this is provided without need for
+any special configuration or layout calculation on the programmer's
+part.
+
+this package contains the development files as well as the html
+documentation for lasi.

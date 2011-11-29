@@ -1,0 +1,6 @@
+Set of tools to deal with specially encoded macintosh files
+	
+macutils is a package that contains a number of utilities
+that deal with macintosh files on a unix system. this is
+useful for converting binhex-encoded files to the smaller
+macbinary format before transferring them to a mac.

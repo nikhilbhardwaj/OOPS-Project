@@ -1,0 +1,23 @@
+Extra surfraw search tools with heavy dependencies
+	
+surfraw-extra contains extra website search tools for surfraw that
+have large dependency trees. currently surfraw-extra only contains:
+
+opensearch -- search an opensearch-enabled website
+
+surfraw - shell users' revolutionary front rage against the world wide web
+
+surfraw provides a fast unix command line interface to a variety of
+popular www search engines and other artifacts of power. it reclaims
+google, altavista, dejanews, freshmeat, research index, slashdot
+and many others from the false-prophet, pox-infested heathen lands of
+html-forms, placing these wonders where they belong, deep in unix
+heartland, as god loving extensions to the shell.
+
+surfraw abstracts the browser away from input. doing so lets it get
+on with what it's good at. browsing. interpretation of linguistic
+forms is handed back to the shell, which is what it, and human
+beings are good at. combined with incremental text browsers, such
+as links, w3m (or even lynx), and screen(1), or netscape-remote
+a surfraw liberateur is capable of research speeds that leave
+gui tainted idolaters agape with fear and wonder.

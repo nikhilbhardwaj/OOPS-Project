@@ -1,0 +1,5 @@
+Python imaging library - sane interface
+	
+the imaging-sane module is a python interface to the sane (scanner
+access is now easy) library, which provides access to various raster
+scanning devices such as flatbed scanners and digital cameras.

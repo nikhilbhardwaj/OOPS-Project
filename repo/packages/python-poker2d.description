@@ -1,0 +1,7 @@
+Gtk poker client to play on a poker-network server
+	
+play poker with other players connected on a poker-network server
+(holdem, omaha, omaha high/low, stud 7 ...) in ring games, sit and go
+or multitables tournaments. poker2d will automatically reconnect to
+the table if the connection is lost and allows playing on multiple
+tables simultaneously.

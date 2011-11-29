@@ -1,0 +1,7 @@
+Ruby libraries for mod_ruby
+	
+mod_ruby embeds the ruby interpreter into the apache2 web server,
+allowing ruby cgi scripts to be executed natively. these scripts will
+start up much faster than without mod_ruby.
+
+this package contains ruby libraries for mod_ruby.

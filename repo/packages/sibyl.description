@@ -1,0 +1,7 @@
+Boot loader for broadcom sibyte mips boards
+	
+sibyl is a boot loader for boards using the broadcom cfe firmware (such as
+the broadcom swarm board (bcm91250a)). it is started by the broadcom cfe
+firmware and uses this firmware to load and start the linux kernel. this
+package also includes an installation utility to write the sibyl boot
+loader to the hard disk.

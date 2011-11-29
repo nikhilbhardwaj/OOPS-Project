@@ -1,0 +1,8 @@
+Perl module to generate postscript code
+	
+the postscript module lets you generate postscript files within a perl
+script.
+
+with postscript::element you can represent circles, boxes, lines and images
+such that they can be easily output as postscript code.
+with postscript::textblock you can write text blocks into your output file.

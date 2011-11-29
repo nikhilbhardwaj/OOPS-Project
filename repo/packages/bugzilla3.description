@@ -1,0 +1,16 @@
+Web-based bug tracking system
+	
+bugzilla is a bug tracking system accessible through a web interface,
+with which you can:
+
+ * report bugs;
+ * assign bugs to the appropriate developers;
+ * prioritize bugs;
+ * set bug dependencies;
+ * arrange bugs by product and component.
+
+it can also be used as a todo list manager.
+
+this package provides a web application that lets users make and look
+up bug reports. interested users are automatically informed about
+changes to a bug's status.

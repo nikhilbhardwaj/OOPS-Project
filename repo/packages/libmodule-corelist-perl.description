@@ -1,0 +1,13 @@
+Module to determine modules shipped with perl
+	
+module::corelist is a perl module that can provide various information about
+the versions of perl modules that shipped with perl interpreter releases.
+
+it contains a hash of hashes which is keyed on the perl interpreter version,
+as indicated in $]. the second level hash has pairs of modules and as well as
+their versions. it's possible that the version of a module is unspecified, in
+which case it will be undef.
+
+other features include a hash providing iso formatted versions of the release
+dates, as gleaned from perlhist, and a hash that clusters known perl releases
+by their major versions.

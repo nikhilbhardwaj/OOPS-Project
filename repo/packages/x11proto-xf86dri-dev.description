@@ -1,0 +1,12 @@
+X11 dri extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for the xfree86-dri extension, used to organise direct rendering support
+for 3d clients, and help arbiter the requests.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xf86driproto proto module.

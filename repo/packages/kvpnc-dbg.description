@@ -1,0 +1,6 @@
+Vpn clients frontend for kde4 - debugging symbols
+	
+kvpnc is a kde4 frontend for various vpn clients.
+
+this package contains the debugging symbols associated with kvpnc.
+they will automatically be used by gdb for debugging kvpnc-related issues.

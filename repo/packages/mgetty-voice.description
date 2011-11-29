@@ -1,0 +1,11 @@
+Voicemail handler for mgetty
+	
+vgetty allows you to add answering machine / voicemail capability to all
+the other normal mgetty functions.
+
+the program 'mgetty' allows you to use a voice modem as an answering
+machine and handling external logins without interfering with outgoing
+calls.
+
+to create and manipulate voice messages, you need the mgetty-pvftools
+package.

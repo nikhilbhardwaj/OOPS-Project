@@ -1,0 +1,10 @@
+Dns toolkit for python
+	
+dnspython is a dns toolkit for python. it supports almost all record types. it
+can be used for queries, zone transfers, and dynamic updates. it supports tsig
+authenticated messages and edns0.
+
+dnspython provides both high and low level access to dns. the high level
+classes perform queries for data of a given name, type, and class, and return
+an answer set. the low level classes allow direct manipulation of dns zones,
+messages, names, and records.

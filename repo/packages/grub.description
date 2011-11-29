@@ -1,0 +1,7 @@
+Grand unified bootloader (dummy package)
+	
+this is a dummy transitional package to handle upgrades.
+
+note: this package depends on `grub-pc', which upgrades your
+system to grub 2.  if you want to continue using grub legacy, it
+is provided in the `grub-legacy' package.

@@ -1,0 +1,7 @@
+Logic puzzle game similar to sudoku
+	
+hitori puzzles give you a grid filled with numbers. the goal is to
+remove numbers such that no row or column contains duplicates.
+
+this implementation has undo/redo support, can give hints, and
+generates puzzles up to 10x10 cells large.

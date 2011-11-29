@@ -1,0 +1,7 @@
+Dummy transition package for cgi::application plugins packages
+	
+this package only exists to transition to the
+libcgi-application-basic-plugin-bundle-perl and
+libcgi-application-extra-plugin-bundle-perl packages.  all the code that used
+to be in this package is now contained in those packages so after one or both
+has been installed, you can remove this one.

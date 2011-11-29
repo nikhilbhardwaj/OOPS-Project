@@ -1,0 +1,57 @@
+Collection of simple type 1 font manipulation programs
+	
+the t1utils tools allow you to convert between pfa (ascii) and pfb
+(binary) formats; disassemble pfa or pfb files into human-readable
+form; and reassemble the human-readable files into pfa or pfb format
+files.  you can also  extract font resources from a macintosh font
+file (atm/laserwriter), or create a macintosh type 1 font file from a
+pfa or pfb font.
+
+there are currently six programs:
+
+
+ t1ascii   converts pfb files to pfa format.
+
+
+
+ t1binary  converts pfa files to pfb format.
+
+
+
+ t1disasm  disassembles a type 1 font (pfa or pfb format) into a raw,
+           human-readable text form for subsequent hand editing,
+           tweaking, hint fixing, etcetera...
+
+
+
+ t1asm     assembles a type 1 font into pfa or pfb format from
+           the human-readable form produced by t1disasm.
+
+
+
+ t1unmac   extracts post resources from a macintosh type 1 font file
+           (atm/laserwriter) into pfa or pfb format for use outside
+           the macintosh environment.  the macintosh file should be
+           stored in macbinary, applesingle, appledouble, or binhex
+           format, or as a raw resource fork.  note that t1unmac does
+           not have to run on a macintosh, but makes macintosh type 1
+           fonts available for use on unix machines and pcs.
+
+
+
+ t1mac     creates a macintosh type 1 file from a pfa- or pfb-format
+           type 1 font. writes the macintosh file in macbinary,
+           applesingle, appledouble, or binhex format, or as a raw
+           resource fork.  warning: this tool will not suffice to
+           allow you to use the new font on a macintosh, as
+           macintoshes cannot read raw type 1 fonts.  you will need
+           to create a font suitcase containing bitmap fonts.  if you
+           do not already have such a suitcase for the font, t1utils
+           will not help you create one.
+
+
+this version of the t1utils programs has been maintained by eddie
+kohler <eddietwo@lcs.mit.edu> since version 1.5, based on the
+original code by i. lee hetherington.  as such, it is a complete
+replacement for the t1utils debian package, which is based on version
+1.2 of i. lee hetherington's code.

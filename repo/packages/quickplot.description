@@ -1,0 +1,8 @@
+Fast interactive 2d plotter and data viewer
+	
+a 2-d plotter with infinite zooming, value picking, pipe input, and
+unlimited plots displayed.  quickplot is meant for looking at your
+data quickly and of secondary importance is making static pictures of
+your data.  it is a data viewer, not a plot editor.  it reads ascii
+text and sound files.  it has lots of command line options, making it
+very shell script friendly.

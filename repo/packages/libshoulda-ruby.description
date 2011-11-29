@@ -1,0 +1,12 @@
+Additional features for the test::unit testing framework
+	
+shoulda makes it easy to write elegant, understandable, and maintainable
+tests. shoulda consists of test macros, assertions, and helpers added on to
+the test::unit framework. it's fully compatible with your existing tests, and
+requires no retooling to use.
+
+shoulda adds lots of features for testing rails applications, but can also be
+used for plain ruby ones.
+
+this is a dependency package which depends on the one for the default ruby
+version.

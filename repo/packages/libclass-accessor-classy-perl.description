@@ -1,0 +1,9 @@
+Perl module providing minimalist, fast accessors
+	
+class::accessor::classy provides an extremely small-footprint accessor/mutator
+declaration scheme for fast and convenient object attribute setup. its intent
+is to be a simple and speedy mechanism for preventing hash-key typos rather
+than a full-blown object system with type checking and so on.
+
+the accessor ('foo') and mutator ('set_foo') methods appear as a hidden parent
+class of your package and stay out of your way otherwise.

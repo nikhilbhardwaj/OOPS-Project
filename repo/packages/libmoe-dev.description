@@ -1,0 +1,8 @@
+Library to handle multiple octets character encoding scheme (devel files)
+	
+libmoe is a collection of routines to handle sequence of characters
+consisting of multiple octets.  the main functionalities are to convert
+the encoding of a character from iso 2022 to "fake" utf-8, and vice versa.
+
+this development package contains include files for the interface.
+it includes also a static lib for particular cases.

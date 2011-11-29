@@ -1,0 +1,7 @@
+Voice memo player/recorder for gpe
+	
+gpe-soundbite-play allows short voice messages to be played
+back or recorded through the internal audio system on the
+embedded device.
+
+the libgsm codec library is used to compress the data for storage.

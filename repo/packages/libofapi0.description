@@ -1,0 +1,7 @@
+Openfirmware device-tree parsing library
+	
+oflib is a library designed to make the parsing of power and sparc
+device-tree's (openfirmware) simple and fast.
+
+it is useful for querying the hardware of the current system in applications
+for apple, ibm and sun machines.

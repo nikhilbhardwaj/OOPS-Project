@@ -1,0 +1,4 @@
+PackageId:26130
+Name:openhpi
+Version:2.14.1-1
+Deps:libopenhpi-dev,openhpi-clients,openhpi-plugin-ilo2-ribcl,openhpi-plugin-ipmi,openhpi-plugin-ipmidirect,openhpi-plugin-oa-soap,openhpi-plugin-snmp-bc,openhpi-plugin-sysfs,openhpid

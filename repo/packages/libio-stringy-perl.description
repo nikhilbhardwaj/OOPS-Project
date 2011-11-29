@@ -1,0 +1,11 @@
+Perl modules for io from scalars and arrays
+	
+the libio-stringy-perl package (which corresponds to the cpan package
+io-stringy) provides the following perl modules:
+
+  io::atomicfile    write a file which is updated atomically
+  io::lines         i/o handle to read/write to array of lines
+  io::scalar        i/o handle to read/write to a string
+  io::scalararray   i/o handle to read/write to array of scalars
+  io::wrap          wrap old-style fhs in standard oo interface
+  io::wraptie       tie your handles & retain full oo interface

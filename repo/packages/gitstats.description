@@ -1,0 +1,7 @@
+Statistics generator for git repositories
+	
+gitstats is a statistics generator for git repositories. it examines
+the repository and produces some interesting statistics from the
+history. currently it outputs only html.
+
+it is the equivalent of statcvs and statsvn for git repositories.

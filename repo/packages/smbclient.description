@@ -1,0 +1,10 @@
+Command-line smb/cifs clients for unix
+	
+samba is an implementation of the smb/cifs protocol for unix systems,
+providing support for cross-platform file and printer sharing with
+microsoft windows, os x, and other unix systems.
+
+this package contains command-line utilities for accessing microsoft
+windows and samba servers, including smbclient, smbtar, and smbspool.
+utilities for mounting shares locally are found in the package
+cifs-utils.

@@ -1,0 +1,13 @@
+Compression and decompression in the gzip and zlib formats
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this package provides a pure interface for compressing and decompressing
+streams of data represented as lazy bytestrings. it uses the zlib c library so
+it has high performance. it supports the \"zlib\", \"gzip\" and \"raw\"
+compression formats.
+
+it provides a convenient high level api suitable for most tasks and for the
+few cases where more control is needed it provides access to the full zlib
+feature set.

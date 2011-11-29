@@ -1,0 +1,9 @@
+Java user interface toolkit
+	
+buoy is a java framework for creating user interfaces.
+
+buoy is built on top of swing, but provides a completely new set of classes
+to represent user interface elements. it has many advantages over using swing
+directly, including a cleaner and simpler api, a far more powerful event
+handling mechanism, a better system for laying out components, and built in
+support for serializing and reconstructing user interfaces as xml.

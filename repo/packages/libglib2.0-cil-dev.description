@@ -1,0 +1,10 @@
+Cli binding for the glib utility library 2.12
+	
+this package provides the glib-sharp assembly that allows cli (.net) programs
+to use the glib utility library 2.12. this is mostly useful for the gtk+ and
+gnome bindings.
+
+gtk# 2.10 is a cli (.net) language binding for the gtk+ 2.10 toolkit
+
+this package contains development files for the glib-sharp library, and should
+be used for compilation

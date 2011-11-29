@@ -1,0 +1,8 @@
+Mms stream protocol library - development files
+	
+libmms is a common library for parsing mms:// and mmsh:// type network
+streams.  these are commonly used to stream windows media video content
+over the web.  libmms itself is only for receiving mms stream, it
+doesn't handle sending at all.
+
+this package holds the development files.

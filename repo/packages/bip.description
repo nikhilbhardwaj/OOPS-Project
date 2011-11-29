@@ -1,0 +1,7 @@
+Multiuser irc proxy with conversation replay and more
+	
+bip is a irc proxy that supports replaying logged conversation when a client
+connects, multiple clients on one irc server connection, it has a handy
+logging directory structure. it is multiuser, and has a flexible
+configuration. some of its configuration can be changed at runtime with
+special irc commands.

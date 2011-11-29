@@ -1,0 +1,6 @@
+Log analysis tool for syslog, apache and raw log files
+	
+petit is a log analysis tool aiming systems administrators and
+systems analysts. it interact with syslog and apache logs to clarify
+what is happening in logs in order to get more human-readable
+results.

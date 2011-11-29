@@ -1,0 +1,14 @@
+Manage asn.1 structures (development)
+	
+manage asn1 (abstract syntax notation one) structures.
+the main features of this library are:
+
+  * on-line asn1 structure management that doesn't require any c code
+    file generation.
+  * off-line asn1 structure management with c code file generation
+    containing an array.
+  * der (distinguish encoding rules) encoding
+  * no limits for integer and enumerated values
+
+
+this package contains header files and libraries for static linking.

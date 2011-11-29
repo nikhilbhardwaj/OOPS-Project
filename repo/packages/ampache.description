@@ -1,0 +1,10 @@
+Web-based audio file management system
+	
+ampache is a web-based audio file manager implemented with php and
+mysql which allows viewing, editing, and playing audio files via the
+web. it has support for playlists, artist and album views, album art,
+random or vote-based play and per-user play-tracking/theming.
+playback may be via http, on-the-fly transcoding and downsampling,
+mpd/icecast, or integrated flash player. multiple ampache servers can
+be linked together using xml-rpc. the software is fully localized in many
+languages.

@@ -1,0 +1,11 @@
+Objective caml interface to metapost (command-line tool)
+	
+mlpost is an ocaml library for scientific drawing. it relies on
+metapost, giving the possibility to include (la)tex fragments.
+mlpost users can use the full power of ocaml to generate their
+diagrams, including static typing and the possibility to use any
+ocaml library. moreover, mlpost promotes a declarative style quite
+different from existing tools.
+
+this package contains a command-line tool to ease the generation of
+postscript or pdf figures directly from .ml files.

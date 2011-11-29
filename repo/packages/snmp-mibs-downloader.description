@@ -1,0 +1,9 @@
+Install and manage management information base (mib) files
+	
+this package ships the ietf rfcs containing mib files and a script which
+extracts them to be used by simple network management libraries. the script
+can be used to update some mibs to the latest version or to download extra
+vendor mibs.
+
+these mibs can be useful for programs like wireshark or snmpget to enable
+them to translating the received information into human readable text.

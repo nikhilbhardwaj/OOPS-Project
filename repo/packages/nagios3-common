@@ -1,0 +1,4 @@
+PackageId:25188
+Name:nagios3-common
+Version:3.2.1-2
+Deps:adduser,bsd-mailx,mailx,heirloom-mailx,mailutils,coreutils,lsb-base,nagios-plugins-basic,ucf

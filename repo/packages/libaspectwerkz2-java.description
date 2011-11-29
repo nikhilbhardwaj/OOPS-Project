@@ -1,0 +1,21 @@
+Aop framework for java
+	
+aspectwerkz is a dynamic, lightweight and high-performant aop framework
+for java.
+
+aspectwerkz offers both power and simplicity and will help you to
+easily integrate aop in both new and existing projects.
+
+aspectwerkz utilizes bytecode modification to weave your classes at
+project build-time, class load time or runtime. it hooks in using
+standardized jvm level apis. it has a rich and highly orthogonal join
+point model. aspects, advices and introductions are written in plain
+java and your target classes can be regular pojos. you have the
+possibility to add, remove and re-structure advice as well as swapping
+the implementation of your introductions at runtime. your aspects can
+be defined using either java 5 annotations, java 1.3/1.4 custom doclets
+or a simple xml definition file.
+
+aspectwerkz provides an api to use the very same aspects for proxies,
+hence providing a transparent experience, allowing a smooth transition
+for users familiar with proxies.

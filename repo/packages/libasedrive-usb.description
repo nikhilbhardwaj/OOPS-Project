@@ -1,0 +1,5 @@
+Pc/sc driver for the athena asedrive iiie usb smart card reader
+	
+this package provides a pc/sc ifd handler bundle for the athena asedrive
+iiie usb smart card readers.  this driver is necessary to use one of these
+devices with the pc/sc lite resource manager (pcscd).

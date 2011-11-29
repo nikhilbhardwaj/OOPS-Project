@@ -1,0 +1,8 @@
+Lossy compression and denoising
+	
+the program wzip is a preprocessor for lossy data compression.
+a sequence of ascii floating-point numbers is transformed into a sequence
+of small integers ready for effective compression with e.g. gzip.
+the program can also be used for effective but time consuming denoising
+of measurement data. wzip was originally written for the processing of
+edx-linescans.

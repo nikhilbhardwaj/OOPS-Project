@@ -1,0 +1,9 @@
+Genomics application for assembling millions of very short dna sequences
+	
+the short sequence assembly by k-mer search and 3′ read extension
+(ssake) is a genomics application for aggressively assembling
+millions of short nucleotide sequences by progressively searching for
+perfect 3′-most k-mers using a dna prefix tree. ssake is designed to
+help leverage the information from short sequences reads by
+stringently clustering them into contigs that can be used to
+characterize novel sequencing targets.

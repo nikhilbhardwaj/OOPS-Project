@@ -1,0 +1,8 @@
+Library to parse xmp metadata (debug files)
+	
+exempi is a library to parse xmp metadata as defined by the
+specification.
+
+xmp (extensible metadata platform) facilitates embedding metadata in files
+using a subset of rdf. most notably xmp supports embedding metadata in pdf
+and many image formats, though it is designed to support nearly any file type.

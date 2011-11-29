@@ -1,0 +1,4 @@
+PackageId:25711
+Name:nuauth
+Version:2.4.2-1
+Deps:adduser,passwd,debconf,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcrypt11,libglib2.0-0,libldap-2.4-2,libnussl1,libpam0g,libprelude2,libsasl2-2,libsasl2-modules,openssl,ssl-cert,ucf

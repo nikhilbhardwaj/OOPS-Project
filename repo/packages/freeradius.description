@@ -1,0 +1,11 @@
+A high-performance and highly configurable radius server
+	
+freeradius is a high-performance radius server with support for:
+
+ - many vendor-specific attributes
+ - proxying and replicating requests by any criteria
+ - authentication on system passwd, sql, kerberos, ldap, users file, or pam
+ - multiple default configurations
+ - regexp matching in string attributes
+
+and lots more.

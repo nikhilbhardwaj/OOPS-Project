@@ -1,0 +1,7 @@
+Module to handle output destined for log files
+	
+log::handler is an easy-to-use perl module designed to handle log files. it's
+possible to define a log level for your programs and control information that
+will be written to the log file. the module handles locking and unlocking of
+the log file according to the operating mode. it can also verify the inode of
+log file, which is useful if log rotation is in use.

@@ -1,0 +1,8 @@
+Utility to upload debian packages
+	
+dupload will automagically upload debian packages to a remote host
+with a debian upload queue. the default host is configurable,
+along with the upload method and a lot of other things.
+all uploads are logged.
+
+it's intended only for debian package maintainers.

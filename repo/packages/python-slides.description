@@ -1,0 +1,5 @@
+Python-based slide maker
+	
+slides is an lgpl slides generator, unique in that you write a python program
+in order to create your presentation.  that is, you write a program that
+when run generates the slides for your presentation, currently in html.

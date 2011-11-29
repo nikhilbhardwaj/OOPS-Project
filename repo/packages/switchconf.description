@@ -1,0 +1,16 @@
+Switch between system configuration sets
+	
+switchconf allows users to easily change their system's settings,
+choosing between the possible configurations for different
+environments.
+
+most switchconf users are laptop owners who want to change their
+network settings according to where they currently are - but there
+are many cases for non mobile systems to desire to choose between
+configuration sets.
+
+switchconf is a very simple script that takes its arguments from the
+command line. it allows you to maintain different sets of
+configurations, installing the desired set of configuration when
+called with its name as an argument, and execute a pre-specified set
+of commands before and after the switch.

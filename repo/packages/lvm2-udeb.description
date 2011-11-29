@@ -1,0 +1,9 @@
+The linux logical volume manager
+	
+this is a udeb, or a microdeb, for the debian-installer.
+
+this is lvm2, the rewrite of the linux logical volume manager.  lvm
+supports enterprise level volume management of disk and disk subsystems
+by grouping arbitrary disks into volume groups. the total capacity of
+volume groups can be allocated to logical volumes, which are accessed as
+regular block devices.

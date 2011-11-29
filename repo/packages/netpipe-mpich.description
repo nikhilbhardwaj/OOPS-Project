@@ -1,0 +1,21 @@
+A network performance tool using mpich mpi
+	
+netpipe is a protocol independent performance tool that encapsulates
+the best of ttcp and netperf and visually represents the network
+performance under a variety of conditions. by taking the end-to-end
+application view of a network, netpipe clearly shows the overhead
+associated with different protocol layers. netpipe answers such
+questions as: how soon will a given data block of size k arrive at its
+destination? which network and protocol will transmit size k blocks
+the fastest? what is a given network's effective maximum throughput
+and saturation level?  does there exist a block size k for which the
+throughput is maximized? how much communication overhead is due to the
+network communication protocol layer(s)? how quickly will a small (< 1
+kbyte) control message arrive, and which network and protocol are best
+for this purpose?
+
+this package measures network performance using the mpi protocol, a
+message passing interface frequently used in parallel processing, and
+which uses in turn tcp as its underlying transport.   the implementation
+of the mpi standard used by this package is that provided by the mpich
+package.

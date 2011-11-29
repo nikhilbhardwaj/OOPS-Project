@@ -1,0 +1,26 @@
+Multiple-precision integer library [development files]
+	
+libtommath is a c language library that provides a vast array of highly
+optimized functions for number theory; including:
+
+
+ * simple algebra (addition, subtraction, multiplication, division)
+ * digit manipulation (shift, binary and/or/xor)
+ * modular reduction (barrett, montgomery, dr, 2k)
+ * number theory
+   - greatest common divisor
+   - least common multiple
+   - jacobi symbol computation
+   - multiplicative inverse
+   - modular exponentiation
+   - fermat & miller-rabin primality tests
+ * miscellaneous
+   - root finding over z
+   - pseudo-random integers
+   - signed & unsigned comparisons
+   - karatsuba and toom-cook multiplication algorithms
+   - fast comba based multiplier, squaring and montgomery routines
+
+
+this package contains the files needed to create programs that use libtommath.
+it is not needed to merely execute programs that use libtommath.

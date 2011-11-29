@@ -1,0 +1,5 @@
+Rescue files from damaged cds and dvds (ncurses-interface)
+	
+dares scans a cd/dvd image or a cd/dvd for files. this also works when
+the filesystem (iso-9660 or udf) on the disc is damaged and cannot be mounted
+anymore.

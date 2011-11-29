@@ -1,0 +1,8 @@
+Emulation of win32::serialport for linux/posix
+	
+device::serialport provides an object-based user interface essentially
+identical to the one provided by the win32::serialport module.  this
+provides device-level access to a system's serial port.
+
+also included is modemtest -- a tool for examining your modem using
+device::serialport.

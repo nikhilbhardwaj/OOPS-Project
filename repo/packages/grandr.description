@@ -1,0 +1,6 @@
+Gtk interface to xrandr
+	
+a simple gtk interface to the x resize and rotate (xrandr) extension. this
+allows you change the resolution and frequency of your monitor dynamically
+using a simple interface. for drivers that support it, it can also
+configure the relative positioning of multiple monitors.

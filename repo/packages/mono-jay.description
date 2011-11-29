@@ -1,0 +1,13 @@
+Lalr(1) parser generator oriented to java/cli
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.
+
+jay is a yacc implementation oriented to java-like input syntax. it
+takes a grammar, specified in bnf and augmented with semantic actions,
+and generates tables and an interpreter which recognizes the language
+defined by the grammar and executes the semantic actions as their
+corresponding phrases are recognized.

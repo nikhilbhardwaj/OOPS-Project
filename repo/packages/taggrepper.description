@@ -1,0 +1,7 @@
+Search and match tags of audio files against regular expressions
+	
+taggrepper is a small tool written to "grep" tags of audio
+files. currently, it can be used to match some or any tags of mp3,
+ogg vorbis and flac files, against specified regular expressions, and
+display the name and designated fields of the matching files. it
+supports recursive directory searches as well.

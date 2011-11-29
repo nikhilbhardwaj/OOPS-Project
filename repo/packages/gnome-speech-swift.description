@@ -1,0 +1,13 @@
+Gnome text-to-speech library (cepstral swift engine support)
+	
+the gnome speech library gives a simple yet general api for programs
+to convert text into speech, as well as speech input.
+
+this package provides the source code required to compile a driver
+for the commercial swift speech synthesis engine and voices from
+cepstral (http://www.cepstral.com/).
+upon installation, it will automatically attempt to compile and install
+the swift-synthesis-driver binary required to use gnome speech with swift.
+
+this package is only useful if the swift engine is already installed on the
+system.

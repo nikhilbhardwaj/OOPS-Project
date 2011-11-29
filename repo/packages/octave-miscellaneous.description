@@ -1,0 +1,9 @@
+Miscellaneous tools for octave
+	
+this package provides miscellaneous tools for octave, a numerical
+computation program. included are functions to create a latex file
+from a comma separated data file (csv2latex), map matrices and
+cells (map), a match filter that resembles the filter in python
+(match) and many more.
+
+this octave add-on package is part of the octave-forge project.

@@ -1,0 +1,12 @@
+Gtk+ front-end to visualboyadvance emulator
+	
+visualboyadvance is a game boy advance emulator that works with
+many roms that are publically available. it features save states
+(like those that are available in zsnes), full screen support,
+joystick support, the all-important 'speedup emulation' key for
+impatient gamers, and a lot more.
+
+it also contains many useful tools for game boy advance developers,
+such as powerful gdb and gprof integration.
+
+this package contains a version of visualboyadvance with gtk+ support.

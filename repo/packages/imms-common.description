@@ -1,0 +1,7 @@
+Unobtrusive, automatic, and learning playlist manager
+	
+imms is an intelligent playlist plug-in that tracks your
+listening patterns and dynamically adapts to your taste.
+
+this package contains internal tools used by imms plugins for players.
+it is useless without any imms-plugin

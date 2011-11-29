@@ -1,0 +1,15 @@
+Visualization addon for nagios
+	
+nagvis can be used to visualize nagios data, e.g. to display it processes like
+a mail system or a network infrastructure.
+
+key features are:
+
+
+ * display of single hosts or services
+ * display the state of a host dependent on the state of its services
+   ("recognize services")
+ * visualization of host- oder servicegroups with one icon
+ * define sub-map icons wich represent a complete nagvis map of
+   hosts/services/groups in one icon (drill down)
+ * visualization of complete it processes using self drawn graphics

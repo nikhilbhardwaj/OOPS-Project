@@ -1,0 +1,10 @@
+Omniidl backend to compile python stubs from idl files
+	
+omniorb4 is a freely available common object request broker
+architecture (corba) 2.6 compliant object request broker (orb)
+implementation. it is based on the iiop communications
+protocol and should be interoperable with any other
+corba 2.6 compliant orb.
+
+this includes the python backend for omniidl to compile idl to
+python stubs.

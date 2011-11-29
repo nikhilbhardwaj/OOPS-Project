@@ -1,0 +1,9 @@
+Parsing and manipulation of structured configuration files
+	
+this library features a fully reentrant parser and includes bindings for
+both the c and c++ programming languages. it runs on modern posix-compliant
+systems such as linux, solaris, and mac os x (darwin), as well as on
+microsoft windows 2000/xp and later (visual studio or mingw).
+
+this library allows parsing, manipulating and writing structured configuration
+files.

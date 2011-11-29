@@ -1,0 +1,6 @@
+Poe event loop implementation using event
+	
+poe::loop::tk implements the standard poe::loop event loop interface (see the
+documentation from libpoe-perl) for the event library (see libevent-perl). it
+provides features needed to manage an event-based event loop in perl in a
+consistent fashion and does not differ from the standard interface.

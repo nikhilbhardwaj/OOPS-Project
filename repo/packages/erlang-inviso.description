@@ -1,0 +1,6 @@
+Erlang/otp trace tool
+	
+inviso, an erlang trace tool. with the inviso api, runtime components
+can be started and tracing managed across a network of distributed
+erlang nodes, using a control component also started with inviso api
+functions.

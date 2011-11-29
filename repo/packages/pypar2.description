@@ -1,0 +1,11 @@
+Graphical frontend for the par2 utility
+	
+par2 files create redundant data that can be used later in case parts
+of the original data is lost or corrupted.
+
+pypar2 is a graphical frontend for the par2 command line utility, it is
+designed to be very easy to use. for this reason:
+
+ * advanced settings are present, but hidden by default.
+ * there is no preferences dialog, all selected options are automatically
+   saved and restored.

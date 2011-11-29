@@ -1,0 +1,10 @@
+Debugging symbols for libvalhalla1
+	
+libvalhalla is a scanner and parser library for audio/video files based
+on sqlite and ffmpeg/libavformat.
+
+media files are retrieved in paths defined by the user and metadata are
+saved in a database. it provides a very simple api and it can use
+several parsers concurrently to speed up on a multi-core/cpu system.
+
+this package contains the debugging symbols for libvalhalla1.

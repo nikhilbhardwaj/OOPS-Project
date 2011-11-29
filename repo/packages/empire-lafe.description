@@ -1,0 +1,6 @@
+Fast line-mode empire client
+	
+lafe is an empire client optimized for high latency links.  you can type,
+edit, and send several commands before the server replies with
+output from the first command.  this allows you to make better use
+of the existing bandwidth than most other clients.

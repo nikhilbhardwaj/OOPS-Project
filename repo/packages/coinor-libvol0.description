@@ -1,0 +1,11 @@
+Coin-or linear programming solver
+	
+vol (volume algorithm) is a linear programming solver based on the
+subgradient method.
+
+vol is part of coin-or (computational infrastructure for operations
+research) project which is an initiative to spur the development of
+open-source software in operational research - mathematical optimization
+algorithms.
+
+this package contains the binaries and libraries.

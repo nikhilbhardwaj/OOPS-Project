@@ -1,0 +1,6 @@
+Ghc 6 library of the posix regex backend for regex-base
+	
+a library containing a posix regular expression backend conforming to
+the interface api of regex-base.
+
+this package contains the libraries for use with ghc 6.

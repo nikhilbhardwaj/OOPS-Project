@@ -1,0 +1,8 @@
+Windows metafile documentation
+	
+windows metafile (wmf) is a picture format used by many windows
+programs, e.g. microsoft word.  libwmf is a library for interpreting
+metafile images and either displaying them using x or converting them
+to standard formats such as png, jpeg, ps, eps and svg(z)...
+
+this package documents the libwmf api and wmf in general.

@@ -1,0 +1,7 @@
+Convert pim data between applications with xsl
+	
+works with various query object framework (qof) data, in a generic
+xml format called qsf. includes stylesheets and example scripts to
+convert qsf xml personal information data into other formats,
+including vcard, ical and custom text based formats used by the
+suggested packages.

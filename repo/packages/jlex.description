@@ -1,0 +1,7 @@
+A lex-style lexical analyser generator for java
+	
+the jlex utility is a lexical analyser generator, modelled after the
+popular unix "lex" utility.
+
+jlex takes a specification file similar to that accepted by lex,
+then creates a java source file for the corresponding lexical analyzer.

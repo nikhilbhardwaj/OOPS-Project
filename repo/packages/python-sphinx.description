@@ -1,0 +1,14 @@
+Tool for producing documentation for python projects
+	
+sphinx is a tool for producing documentation for python projects, using
+restructuredtext as markup language.
+
+sphinx features:
+
+ * html, chm, latex output,
+ * cross-referencing source code,
+ * automatic indices,
+ * code highlighting, using pygments,
+ * extensibility. existing extensions:
+   - automatic testing of code snippets,
+   - including doctrings from python modules.

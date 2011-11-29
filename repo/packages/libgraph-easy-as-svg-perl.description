@@ -1,0 +1,5 @@
+Perl module to output a graph::easy as scalable vector graphics
+	
+graph::easy::as_svg is a perl module which contains just the code for
+converting a graph::easy object to a svg (scalable vector graphics)
+text.

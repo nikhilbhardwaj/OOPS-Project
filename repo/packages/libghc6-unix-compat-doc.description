@@ -1,0 +1,8 @@
+Haskell portable posix-compatible layer - documentation
+	
+this package provides portable haskell implementations of some posix
+system calls contained in the unix package. this package re-exports the
+unix package when available. when it isn't available, portable
+implementations are used.
+
+this package contains the library documentation.

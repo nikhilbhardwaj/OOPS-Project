@@ -1,0 +1,8 @@
+Http normalizer and parser library (devel)
+	
+the htp library is an http normalizer and parser.  this integrates and
+provides very advanced processing of http streams for suricata. the htp
+library is required by the engine, but may also be used independently in a
+range of applications and tools.
+
+this package provides the development files for libhtp.

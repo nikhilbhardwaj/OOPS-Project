@@ -1,0 +1,12 @@
+Binary firmware for atheros wireless cards
+	
+this package contains the binary firmware for usb wireless network and
+bluetooth cards supported by the ar9170, ath3k or ath9k_htc drivers.
+
+contents:
+
+ * atheros ar7010/ar7015/ar9018 (type 1) firmware (ar7010.fw)
+ * atheros ar7010/ar7015/ar9018 (type 2) firmware (ar7010_1_1.fw)
+ * atheros ar9170 firmware (ar9170.fw)
+ * atheros ar9271 firmware (ar9271.fw)
+ * atheros ar3011 firmware (ath3k-1.fw)

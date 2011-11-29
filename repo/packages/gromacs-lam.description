@@ -1,0 +1,7 @@
+Transition package to gromacs-openmpi
+	
+this package is provided to automate the transition from the lam-mpi
+implementation to its successor, openmpi.  (on architectures where openmpi
+is unavailable, it will install mpich2 instead.)
+
+it may safely be removed from your system.

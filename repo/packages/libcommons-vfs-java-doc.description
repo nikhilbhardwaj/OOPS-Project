@@ -1,0 +1,10 @@
+Java api for accessing various filesystems - documentation
+	
+commons vfs provides a single api for accessing various different file
+systems. it presents a uniform view of the files from various different
+sources, such as the files on local disk, on an http server, or inside
+a zip archive.
+
+this is a part of the apache commons project.
+
+this package provides the api documentation for commons vfs.

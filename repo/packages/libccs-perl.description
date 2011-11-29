@@ -1,0 +1,12 @@
+Red hat cluster suite - cluster configuration module
+	
+this package is part of the red hat cluster suite, a complete
+high-availability solution.
+
+the ccs library provides a simplified xpath implementation to access
+cman/corosync configuration data via the same api as the old and
+deprecated libccs provided by ccsd.
+
+this module implements a perl interface to the libccs library.
+it shouldn't be used for new development. use libconfdb from
+corosync instead.

@@ -1,0 +1,14 @@
+Gtk+ foundation classes ui - development files
+	
+gtk+ foundation classes (gfc) is a set of integrated c++ foundation classes
+for developing gtk+ applications.
+
+gfc-ui is a collection of c++ modules that form the user interface library
+of gfc. this is the library you will primarily use to build your applications
+interface.
+
+gfc-ui includes c++ wrappers for the atk, gdk, gtk+, gdkpixbuf and pango
+libraries.
+
+this package provides the development files needed to compile programs that
+use gfc-ui.

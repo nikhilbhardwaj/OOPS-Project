@@ -1,0 +1,5 @@
+Python extension wrapping the icu c++ api
+	
+icu is a c++ and c library that provides robust and full-featured
+unicode and locale support. this package provides an extension for
+python which wraps the icu c++ api.

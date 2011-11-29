@@ -1,0 +1,14 @@
+Threaded usenet news reader, based on rn
+	
+trn is the most widely-used newsreader on usenet - even to the
+point of being a de-facto standard. it has a powerful full screen
+text mode user interface, where most actions are available at the
+press of a single key.  it is highly configurable.
+
+this version of trn reads news from a news server via nntp (the
+network news transfer protocol).  you must have a news server
+available - large sites usually provide a site-wide server.
+
+if you install a news server on your system (either containing
+just local newsgroups or with a partial or full usenet feed) you
+can configure trn to access it.

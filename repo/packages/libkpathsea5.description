@@ -1,0 +1,5 @@
+Tex live: path search library for tex (runtime part)
+	
+this package contains the runtime part of the kpathsea[rch] library,
+which implements generic path searching, configuration, and
+tex-specific file searching.

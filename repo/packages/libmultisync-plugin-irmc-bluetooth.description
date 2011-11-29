@@ -1,0 +1,11 @@
+Adds bluetooth support to the irmc plugin
+	
+this will make it possible to syncronise over bluetooth.
+
+
+ homepage http://multisync.sourceforge.net
+
+
+you will need either a kernel > 2.4.20 or kernel patch from
+http://www.holtmann.org/linux/kernel/ to get this to work and
+rfcomm enabled in your kernel.

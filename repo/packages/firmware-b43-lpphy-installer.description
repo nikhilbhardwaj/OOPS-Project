@@ -1,0 +1,8 @@
+Installer package for firmware for the b43 driver (lp-phy version)
+	
+this package installs the firmware needed for usage of the b43 kernel
+driver.
+
+supported chipsets:
+
+ - bcm4312 (with low-power aka lp-phy)

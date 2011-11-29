@@ -1,0 +1,6 @@
+Smart card pkcs #11 cryptographic module
+	
+linux driver support for the coolkey and common access card (cac)
+smart card security keys used in a public key infrastructure (pki).
+the libpkcs11 module allows use of smart cards in applications
+that use mozilla network security services (nss).

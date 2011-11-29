@@ -1,0 +1,20 @@
+Perl module for parsing xml files
+	
+this module provides ways to parse xml documents.  it is built on top
+of xml::parser::expat, which is a lower level interface to james
+clark's expat library.  each call to one of the parsing methods
+creates a new instance of xml::parser::expat which is then used to
+parse the document.  expat options may be provided when the
+xml::parser object is created.  these options are then passed on to
+the expat object on each parse call.  they can also be given as extra
+arguments to the parse methods, in which case they override options
+given at xml::parser creation time.
+
+the behavior of the parser is controlled either by style and/or
+handlers options, or by sethandlers method.  these all provide
+mechanisms for xml::parser to set the handlers needed by
+xml::parser::expat.  if neither style nor handlers are specified,
+then parsing just checks the document for being well-formed.
+
+when underlying handlers get called, they receive as their first
+parameter the expat object, not the parser object.

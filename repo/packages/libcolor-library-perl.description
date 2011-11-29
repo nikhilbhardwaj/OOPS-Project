@@ -1,0 +1,6 @@
+Comprehensive named-colour library
+	
+color::library is a perl module that provides a library of web (svg, html
+and css) colours, x11 colours, windows system palette colours, and more. it
+provides a simple way to specify colour names and retrieve the corresponding
+rgb definition in return.

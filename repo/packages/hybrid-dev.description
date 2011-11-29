@@ -1,0 +1,9 @@
+Development files for ircd-hybrid
+	
+these are the headers used when writing modules for ircd-hybrid.
+for more information on how to write these modules, see the ircd-hybrid
+documentation or example_module.c in the source code for ircd-hybrid.
+
+it also includes mbuild-hybrid, a shell script that simplifies building
+and installation of such modules. this shell script is simplistic and
+assumes a lot; if you possess clue, you will know what to do anyway.

@@ -1,0 +1,7 @@
+Hardlinks multiple copies of the same file
+	
+hardlink is a tool which detects multiple copies of the same file and replaces
+them with hardlinks.
+
+the idea has been taken from http://code.google.com/p/hardlinkpy/, but the
+code has been written from scratch and licensed under the mit license.

@@ -1,0 +1,11 @@
+Model management interface for the turbogears web framework
+	
+turbogears2 is a framework to develop web applications in python,
+according to the model-view-controller (mvc) architecture; catwalk is
+a component to manage turbogears2 models via a simple, web-based
+interface.
+
+using catwalk application developers can populate their database with
+sample data for rapid prototyping purposes. similarly, catwalk can be
+used to manage models of deployed applications skipping other
+application-specific interfaces.

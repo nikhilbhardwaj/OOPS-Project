@@ -1,0 +1,5 @@
+Module to perform permutations with object oriented interface
+	
+algorithm::permute makes performing permutation in perl easy and fast,
+although perhaps its algorithm is not the fastest on the earth. it supports
+permutation r of n objects where 0 < r <= n.

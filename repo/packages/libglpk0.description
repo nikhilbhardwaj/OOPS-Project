@@ -1,0 +1,23 @@
+Linear programming kit with integer (mip) support
+	
+glpk (gnu linear programming kit) is intended for solving large-scale
+linear programming (lp), mixed integer programming (mip), and other
+related problems. it is a set of routines written in ansi c and
+organized in the form of a callable library.
+
+glpk supports the gnu mathprog language, which is a subset of the
+ampl language.  glpk also supports the standard mps and lp formats.
+
+the glpk package includes the following main components:
+
+   * revised simplex method.
+   * primal-dual interior point method.
+   * branch-and-bound method.
+   * translator for gnu mathprog modeling language.
+   * application program interface (api).
+
+
+in order to get connections between the internal mathprog model
+objects and external database tables, please install the
+libiodbc2-dev (for the iodbc table driver) and libmysqlclient-dev
+(for the mysql table driver).

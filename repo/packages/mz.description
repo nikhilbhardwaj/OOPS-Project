@@ -1,0 +1,19 @@
+Versatile packet creation and network traffic generation tool
+	
+mausezahn (mz) is a fast traffic generator written in c which allows you to
+send nearly every possible and impossible packet. it is mainly used to test
+voip or multicast networks but also for security audits to check whether
+your systems are hardened enough for specific attacks.
+mausezahn can be used for example:
+
+
+ * as traffic generator (e.g. to stress multicast networks);
+ * to precisely measure jitter (delay variations) between two hosts
+   (e.g. for voip-sla verification);
+ * as didactical tool during a datacom lecture or for lab exercises;
+ * for penetration testing of firewalls and ids;
+ * for dos attacks on networks (for audit purposes of course);
+ * to find bugs in network software or appliances;
+ * for reconnaissance attacks using ping sweeps and port scans;
+ * to test network behaviour under strange circumstances (stress test,
+   malformed packets, ...).

@@ -1,0 +1,9 @@
+Development files for libstaden-read
+	
+this package contains the header and development files needed to build
+programs and packages using the staden io_lib.
+
+the io_lib from the staden package is a library of file reading and writing
+code to provide a general purpose trace file (and experiment file) reading
+interface. it has been compiled and tested on a variety of unix systems,
+macos x and ms windows.

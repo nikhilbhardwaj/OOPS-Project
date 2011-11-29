@@ -1,0 +1,8 @@
+Akonadi pim storage service
+	
+akonadi is an extensible cross-desktop personal information management (pim)
+storage service.  it provides a common framework for applications to store and
+access mail, calendars, addressbooks, and other pim data.
+
+this package contains the akonadi pim storage server and associated programs.
+it pulls in all required dependencies including the mysql server executable.

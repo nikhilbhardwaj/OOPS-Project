@@ -1,0 +1,34 @@
+Tex live: basic latex packages
+	
+these packages are mandated by the core latex team, or at least very
+
+  strongly recommended.
+
+
+this package includes the following ctan packages:
+
+ ae -- virtual fonts for t1 encoded cmr-fonts.
+ amscls -- ams document classes for latex.
+ amsmath -- ams mathematical facilities for latex.
+ babel -- multilingual support for plain tex or latex.
+ babelbib -- multilingual bibliographies.
+ carlisle -- david carlisle's small packages.
+ colortbl -- add colour to latex tables.
+ fancyhdr -- extensive control of page headers and footers in latex2e.
+ geometry -- flexible and complete interface to document dimensions.
+ graphics -- standard latex graphics.
+ hyperref -- extensive support for hypertext in latex.
+ latex -- the basic latex package.
+ latex-bin -- latex executables and man pages.
+ latex-fonts -- a collection of fonts used in latex distributions.
+ latexconfig --
+ ltxmisc -- miscellaneous latex packages, etc.
+ mfnfss -- packages to typeset oldgerman and pandora fonts in latex.
+ natbib -- flexible bibliography support.
+ oberdiek -- a bundle of packages submitted by heiko oberdiek.
+ pdftex-def -- colour and graphics support for pdftex.
+ pslatex -- use postscript fonts by default.
+ psnfss -- font support for common postscript fonts.
+ pspicture -- postscript picture support.
+ supp-pdf -- native metapost graphics inclusion
+ tools -- the latex standard tools bundle.

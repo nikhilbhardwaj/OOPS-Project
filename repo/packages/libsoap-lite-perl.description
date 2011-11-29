@@ -1,0 +1,9 @@
+Perl implementation of a soap client and server
+	
+soap::lite is a collection of perl modules that provide a simple and
+lightweight interface to the simple object access protocol (soap) both on
+client and server side.
+
+this version of soap::lite supports a subset of the soap 1.1 specification
+and has initial support for soap 1.2 specification.
+see http://www.w3.org/tr/soap for details.

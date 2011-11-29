@@ -1,0 +1,12 @@
+File::tail perl module
+	
+the file::tail module is designed for reading files which
+are continously appended to (the name comes from the tail -f
+directive). usually such files are logfiles of some description.
+
+the module tries hard not to busy wait on the file, dynamicaly
+calculating how long it should wait before it pays to try reading the
+file again.
+
+the module should handle normal log truncations ("close; move; open" or
+"cat /dev/null >file") transparently, without losing any input.

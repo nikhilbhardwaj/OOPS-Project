@@ -1,0 +1,6 @@
+An editor for the gconf configuration system
+	
+gconf-editor is a tool used for editing the gconf configuration database.
+this is not the recommended way of setting desktop preferences, but it might
+be useful when the proper configuration utility for some software provides no
+way of changing some option.

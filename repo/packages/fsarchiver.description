@@ -1,0 +1,12 @@
+File system archiver
+	
+fsarchiver is a system tool that allows you to save the contents of a
+file system to a compressed archive file. the file system can be restored
+on a partition which has a different size and it can be restored on a
+different file system.
+unlike tar/dar, fsarchiver also creates the file system when it extracts
+the data to partitions.
+everything is checksummed in the archive in order to protect the data. if
+the archive is corrupt, you just lose the current file, not the whole archive.
+
+it's still under heavy development so it should not be used for critical data.

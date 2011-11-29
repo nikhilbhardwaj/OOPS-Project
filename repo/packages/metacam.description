@@ -1,0 +1,10 @@
+Extract exif information from digital camera files
+	
+exif stands for exchangeable image file format, and is a standard for
+storing interchange information in image files, especially those using
+jpeg compression. most digital cameras now use the exif format. the
+format is part of the dcf standard created by jeida to encourage
+interoperability between imaging devices. in addition to the standard
+exif fields, metacam also supports vendor-specific extensions from
+nikon, olympus, canon and casio.
+.

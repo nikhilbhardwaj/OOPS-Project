@@ -1,0 +1,6 @@
+Ssl connection handling module for other poe components
+	
+poe::component::sslify represents the standard way to handle ssl connections
+for other poe components. it allows for the creation of ssl-wrapped sockets,
+generally used with poe::wheel::socketfactory, which are correctly handled by
+the poe engine.

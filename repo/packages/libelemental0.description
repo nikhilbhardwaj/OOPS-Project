@@ -1,0 +1,11 @@
+Periodic table viewer (data and shared library)
+	
+gelemental is a gtk+ periodic table viewer that provides detailed information
+about chemical elements.
+
+it features a table view which allows the elements to be coloured thematically
+by several properties, a sortable list view and an element properties
+dialog, displaying a variety of information, including historical,
+thermodynamic, electrochemical, and crystallographic properties.
+
+this package contains the shared library and the data set.

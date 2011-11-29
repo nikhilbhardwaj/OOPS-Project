@@ -1,0 +1,9 @@
+Replication system for postgresql: daemon and administration tools
+	
+slony-i is an asynchronous master-to-multiple-slaves replication system
+for postgresql with cascading and slave promotion.
+
+this package contains the slon daemon and the slonik administration tool.
+it should be installed on those hosts where slony-i daemons are to be run
+or administered, which usually, but not necessarily, are the hosts where
+the database server nodes are running.

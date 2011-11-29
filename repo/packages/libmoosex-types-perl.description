@@ -1,0 +1,11 @@
+Moose extension to organise types in libraries
+	
+moosex::types allows developers to organise and selectively import your own
+and the built-in types in libraries, rather than the default behaviour where
+types are global. as a nice side effect, it catches typographic errors at
+compile-time too.
+
+the main motivation for this module is to provide an easy way of preventing
+conflicts with your type names, since the internal fully qualified names of
+the types will be prefixed with the library's name. it also provides some
+convenient functions for working with moose types.

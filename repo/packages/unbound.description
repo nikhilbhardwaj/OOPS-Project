@@ -1,0 +1,9 @@
+Validating, recursive, caching dns resolver
+	
+unbound is a recursive-only caching dns server which can perform dnssec
+validation of results. it implements only a minimal amount of authoritative
+service to prevent leakage to the root nameservers: forward lookups for
+localhost, reverse for 127.0.0.1 and ::1, and nxdomain for zones served by
+as112. stub and forward zones are supported.
+
+this package contains the unbound daemon.

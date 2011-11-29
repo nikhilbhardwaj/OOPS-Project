@@ -1,0 +1,8 @@
+Utility to associate a name to a color
+	
+colorname tries to assign a name to a color using external color
+definitions and a little math.
+
+for this it calculates the euclidean distance between the currently
+selected color and all predefined colors, either in the yiq, rgb or
+hsv color space.

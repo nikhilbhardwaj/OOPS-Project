@@ -1,0 +1,7 @@
+Syntax and minimal style checker for html
+	
+weblint is a perl script which picks fluff off html pages, much in the same
+way traditional lint picks fluff off c programs.
+
+the script is a complete rewrite of neil bowers' original weblint script.
+it currently supports html 4.0 (and only html 4.0).

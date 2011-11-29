@@ -1,0 +1,8 @@
+Middleware to access a smart card using pc/sc (library)
+	
+the purpose of pc/sc lite is to provide a windows(r) scard interface
+in a very small form factor for communicating to smartcards and
+readers.
+
+the pc/sc lite library is used to connect to the pc/sc daemon from
+a client application and provide access to the desired reader.

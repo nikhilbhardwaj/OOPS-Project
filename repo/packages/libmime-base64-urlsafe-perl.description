@@ -1,0 +1,12 @@
+Perl version of python's url-safe base64 codec
+	
+mime::base64::urlsafe is a perl version of python's url-safe base64 encoder /
+decoder.
+
+when embedding binary data in url, it is preferable to use base64 encoding.
+however, two characters ('+' and '/') used in the standard base64 encoding have
+special meanings in urls, often leading to re-encoding with url-encoding, or
+worse, interoperability problems.
+
+to overcome the problem, the module provides a variation of base64 codec
+compatible with python's urlsafe_b64encode / urlsafe_b64decode

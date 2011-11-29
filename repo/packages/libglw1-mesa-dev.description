@@ -1,0 +1,7 @@
+A free implementation of the opengl api -- development files
+	
+this package provides the development environment required for
+compiling programs with the mesa widgets library, libglw, which
+allows motif-based applications to embed an opengl drawing context.
+the headers and static libraries for compiling programs that use this
+library are included.

@@ -1,0 +1,11 @@
+Perl module to use html templates from cgi scripts
+	
+html::template::pro attempts to make using html templates simple and natural.
+it extends standard html with a few new html-esque tags that provide control
+structures, such as allowing for simple variable manipulation, looping, file
+inclusion and conditionals (if, else, unless).
+
+the file written with html and these new tags is called a template, which is
+usually saved separately from your script. using this module, you fill in the
+values for the variables declared in the template, allowing you to separate
+the web site design from the data you generate inside your perl script.

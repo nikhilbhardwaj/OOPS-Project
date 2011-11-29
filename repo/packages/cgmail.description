@@ -1,0 +1,12 @@
+Mail checker for the gnome desktop
+	
+this application intends to replace old mail checkers getting
+integrated correctly inside gnome desktops. it requires d-bus and
+notification-daemon support (org.freedesktop.notifications service)
+for any kind of notifications and the gnome keyring to store
+user's credentials. ggmail will pop-up on the top right side of
+your desktop and after providing every information requested for
+accessing each of your email accounts, it will start up sending
+notifications when a new mail hits one of your mailboxes. this
+package is similar to xbiff but has some more features like
+pop3 and gmail account's support.

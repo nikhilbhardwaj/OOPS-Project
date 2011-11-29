@@ -1,0 +1,9 @@
+Graphical client for pommed
+	
+pommed handles the hotkeys found on the apple macbook pro, macbook air,
+macbook, powerbook and ibook laptops and adjusts the lcd backlight, sound
+volume, keyboard backlight or ejects the cd-rom drive accordingly.
+
+gpomme is a graphical client for pommed. it listens for signals sent by
+pommed on d-bus and displays the action taken by pommed along with the
+current state associated to this action.

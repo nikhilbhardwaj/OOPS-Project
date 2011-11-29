@@ -1,0 +1,6 @@
+Multiplayer poker engine with abstract variants specifications
+	
+poker-engine is a python library that implements poker rules according
+to variants and betting structures specified in configuration files.
+it designed to be used by a multiplayer poker server, a poker ai or a
+poker client.

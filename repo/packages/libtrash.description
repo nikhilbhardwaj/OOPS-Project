@@ -1,0 +1,7 @@
+A trash can library to use with ld_preload
+	
+libtrash is a shared library which, when preloaded,
+implements a trash can under gnu/linux. this way, your
+mistakes (at least those of the "rm -rf dir /" class :-))
+will no longer cause the loss of a week's work or your
+system's binaries.

@@ -1,0 +1,8 @@
+Small honeypot to trap attackers
+	
+small honeypot provides an environment which can be used to
+to lure attackers into it. it provides sample responses that simulate
+a set of services (http, pop3, ftp, ssh, mssql and shell) and logs all the
+connections to these services for later auditing.
+
+homepage: http://www.alpinista.org/thp/

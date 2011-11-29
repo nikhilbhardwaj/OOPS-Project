@@ -1,0 +1,11 @@
+Php based host information
+	
+phpsysinfo is a php script that displays information about the
+host being accessed.
+
+it displays informations on the system like kernel version, uptime,
+network, disk and memory usage, informations on cpu and model,
+attached ide and scsi devices and pci cards and lm-sensors output on
+architectures supporting it.
+
+it has support for multiple languages and themes.

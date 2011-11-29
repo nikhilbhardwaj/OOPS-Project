@@ -1,0 +1,6 @@
+Lightweight qt 4 text editor
+	
+juffed is a simple, cross-platform text editor written using the qt 4 toolkit
+and the qscintilla library. it supports most features found in modern text
+editors, including syntax highlighting, bracket matching, switching encodings,
+sessions, and a plugin api.

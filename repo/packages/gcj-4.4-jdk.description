@@ -1,0 +1,9 @@
+Gcj and classpath development tools for java(tm)
+	
+gcj is a front end to the gcc compiler which can natively compile both
+java(tm) source and bytecode files. the compiler can also generate class
+files. other java development tools from classpath are included in this
+package.
+
+the package contains as well a collection of wrapper scripts and symlinks.
+it is meant to provide a java-sdk-like interface to the gcj tool set.

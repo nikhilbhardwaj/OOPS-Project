@@ -1,0 +1,5 @@
+High availability, load balancing and query modification for mysql
+	
+mysql proxy stands between database servers and clients to provide load
+balancing and failover. incoming queries can be filtered and modified using
+lua scripts.

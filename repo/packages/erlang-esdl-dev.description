@@ -1,0 +1,7 @@
+Erlang bindings to the sdl (development files)
+	
+esdl is an erlang binding to the sdl, and might be used to write
+multimedia application in erlang.
+
+this package includes esdl headers which are necessary to build erlang
+applications which use esdl.

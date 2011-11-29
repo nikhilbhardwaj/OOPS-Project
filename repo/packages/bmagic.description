@@ -1,0 +1,14 @@
+C++ template library for efficient platform independent bitsets
+	
+bitmagic is a c++ template library designed and developed to implement
+efficient platform independent bitsets.  key features:
+
+
+ - several types of on the fly adaptive compression.
+ - dynamic range of addressable space of 232-1 bits.
+ - efficient memory management.
+ - cache optimized bitset distance algorithms.
+ - serialization in platform independent, compact format suitable
+   for storing in files and databases.
+ - performance tuning for 32-bit and 64-bit systems.
+ - optimization for intel sse2 128-bit integer simd.

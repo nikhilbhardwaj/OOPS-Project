@@ -1,0 +1,7 @@
+Command-line tools to manage zfs filesystems
+	
+the z file system is a pooled filesystem designed for maximum data integrity,
+supporting data snapshots, multiple copies, and data checksums.
+
+this package provides the zfs and zpool commands to create and administer
+zfs filesystems.

@@ -1,0 +1,15 @@
+Mit kerberos master server (kadmind)
+	
+kerberos is a system for authenticating users and services on a network.
+kerberos is a trusted third-party service.  that means that there is a
+third party (the kerberos server) that is trusted by all the entities on
+the network (users and services, usually called "principals").
+
+this is the mit reference implementation of kerberos v5.
+
+this package contains the kerberos master server (kadmind), which handles
+account creations and deletions, password changes, and other
+administrative commands via the kerberos admin protocol.  it also
+contains the command used by the master kdc to propagate its database to
+slave kdcs.  this package is generally only used on the master kdc for a
+kerberos realm.

@@ -1,0 +1,10 @@
+Printing tool for cups on the gnome desktop
+	
+gtklp lets you print files under the common unix printing system
+(cups).  written in gtk+ 2.0 and for the gnome desktop environment,
+it supports multiple option settings for each printer it knows,
+with all the standard cups options available.
+
+other features include localized dialogs for several languages, as
+well as multiple interfaces; with a little more effort, you can use
+gtklp as a drop-in replacement for `lp'.

@@ -1,0 +1,8 @@
+Bazaar (bzr) integration for nautilus
+	
+basic plugin for nautilus that provides integration for the
+bazaar version control system (bzr).
+
+the plugin adds icon overlays to versioned files indicating
+their status and provides access to the dialogs in the bzr-gtk
+package from a context menu.

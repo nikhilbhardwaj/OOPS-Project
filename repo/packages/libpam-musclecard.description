@@ -1,0 +1,7 @@
+Pam module for musclecard framework
+	
+this pam module will allow you to login, screenlock, and validate to services
+using your musclecard smartcard.
+
+it offers two methods of authentication both based on x509 der encoded
+certificates.

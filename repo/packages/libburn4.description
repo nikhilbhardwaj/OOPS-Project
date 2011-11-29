@@ -1,0 +1,6 @@
+Library to provide cd/dvd writing functions
+	
+libburn is a library for reading, mastering and writing optical discs.
+for now this means cd-r, cd-rw, dvd-ram, dvd+rw, dvd+r, dvd+r/dl, dvd-rw,
+dvd-r, bd-r, bd-re.
+not supported yet are dvd-r/dl.

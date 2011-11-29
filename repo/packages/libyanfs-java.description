@@ -1,0 +1,8 @@
+Yet another nfs - a java nfs library
+	
+this project represents a java implementation of the xdr, rpc, nfsv2,
+and nfsv3 protocols in client side form.
+
+webnfs was the original name for this implementation but the name has
+changed to reflect the expanded scope of the project to include a
+server side implementation.

@@ -1,0 +1,9 @@
+Gnu r package for multiple parameter smoothing estimation
+	
+this package provides functions for generalised additive models (gams)
+and other generalized ridge regression problems with multiple smoothing
+parameter selection by gcv or ubre. it includes an implementation (not
+a clone) of gam().
+
+this package is part of the set of packages that are 'recommended'
+by r core and shipped with upstream source releases of r itself.

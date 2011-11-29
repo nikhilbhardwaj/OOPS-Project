@@ -1,0 +1,8 @@
+Festival-lite based emacspeak speech server
+	
+eflite is a speech server for emacspeak and other screen readers that
+allows them to interface with festival lite, a free text-to-speech
+engine developed at the cmu speech center as an off-shoot of festival.
+
+due to limitations inherited from its backend, eflite does only provide
+support for the english language at the moment.

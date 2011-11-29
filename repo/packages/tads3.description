@@ -1,0 +1,13 @@
+Text mode interpreter for tads game files
+	
+tads is the text adventure development system, a set of tools for writing
+and playing text-based adventure games.  you interface with these games
+by entering commands in english, and the game responds with a textual
+description of the result.
+
+this package contains a text-mode interpreter for tads game files.
+you must have a tads interpreter to play a tads game file, which
+typically has an extension of ".gam".
+
+this package contains both a tads 3 only interpreter, t3run, and an
+interpreter which can run either tads 2 or tads 3 games, t23run.

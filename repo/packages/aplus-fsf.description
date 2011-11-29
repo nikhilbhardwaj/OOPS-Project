@@ -1,0 +1,17 @@
+A+ programming language run-time environment
+	
+a+ is a powerful and efficient programming language. it is freely
+available under the gnu general public license. it embodies a rich set
+of functions and operators, a modern graphical user interface with
+many widgets and automatic synchronization of widgets and variables,
+asynchronous execution of functions associated with variables and
+events, dynamic loading of user compiled subroutines, and many other
+features. execution is by a rather efficient interpreter. a+ was
+created at morgan stanley. primarily used in a
+computationally-intensive business environment, many critical
+applications written in a+ have withstood the demands of real world
+developers over many years. written in an interpreted language, a+
+applications tend to be portable.
+
+this package contains the binaries and libraries needed to run a+ programs.
+the a+ development environment is provided by the aplus-fsf-dev package.

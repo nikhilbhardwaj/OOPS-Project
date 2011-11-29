@@ -1,0 +1,8 @@
+Structured configuration library
+	
+zconfig is a configuration library intended for general use.  it
+supports a hierarchical schema-driven configuration model that allows
+a schema to specify data conversion routines written in python.
+zconfig's model is very different from the model supported by the
+configparser module found in python's standard library, and is more
+suitable to configuration-intensive applications.

@@ -1,0 +1,9 @@
+Minimal window manager written in c++
+	
+aewm++ is a minimal window manager for x11, based on aewm. it keeps aewm's
+minimalist look and feel but is written in c++, and adds some modern features
+like virtual desktops. gnome ewmh hints have been removed in this release,
+because upstream wants to focus on making the code stable and minimalistic.
+
+this package used to include appbar, aewm++_fspanel, setrootimage and
+aewm++_xsession; these can now be found in the aewm++-goodies package.

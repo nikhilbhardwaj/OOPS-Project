@@ -1,0 +1,11 @@
+X.org x server -- legacy s3 display driver
+	
+this package provides the driver for certain legacy s3 video card chipsets,
+including the trio64 and 96x cards.  it does not provide support for
+virge/trio3d or savage chipsets; support for these cards is provided by
+xserver-xorg-video-s3virge and xserver-xorg-driver-savage, respectively.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-s3 driver module.

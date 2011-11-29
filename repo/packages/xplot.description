@@ -1,0 +1,10 @@
+Simple on-screen x-y column data plotter
+	
+xplot is a small program to plot one- or two-dimensional datasets, which are
+present either in a file or are generated `on-the-fly' and piped to xplot.
+xplot lets you display one or more datasets and lets you zoom to different
+sections of the sets. also. `blowups' of the currently shown portion of the
+data can be made.
+
+xplot is meant for on-screen data exploration.  it does not have a print
+button, nor is it meant for final output or publication-quality figures.

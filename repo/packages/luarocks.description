@@ -1,0 +1,14 @@
+Deployment and management system for lua modules
+	
+this package contains luarocks, a tool for managing rocks.  a lua rock is a
+bundle containing a module and some metadata like compilation instructions and
+copyright. the command line utility luarocks can download, build, install and
+remove rocks, properly handling dependencies among them and allowing multiple
+versions of the same rock to coexist.
+
+the tool installs system-wide rocks in /usr/local when run by the superuser,
+but a regular user can easily tune it to install rocks in his home directory.
+
+this package also provides the luarocks-admin tool, needed to create a rocks
+repository, and the documentation for luarocks, describing the command line
+tools as well as the library to manipulate rocks.

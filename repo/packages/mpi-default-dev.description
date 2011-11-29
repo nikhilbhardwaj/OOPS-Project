@@ -1,0 +1,7 @@
+Standard mpi development files
+	
+this package depends on the development files of the recommended mpi
+implementation for each platform, currently openmpi on all of the platforms
+where it exists, and lam on the others.  the package which this depends on has
+alternatives links for the shared libraries libmpi and libmpi++, and for
+compilers mpicc, mpic++/mpicxx/mpicc, mpif77 and mpi90 and their manpages.

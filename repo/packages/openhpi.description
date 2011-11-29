@@ -1,0 +1,15 @@
+Saf's hpi: abstracted interface for managing computer hardware
+	
+openhpi is an implementation of the service availability forum's hardware
+platform interface (hpi) specification.  (see http://www.saforum.org)
+as such, openhpi facilitates the development of computer manageability
+applications which are not tied to a single hardware vendor's products.
+
+hpi provides an abstracted interface for managing computer hardware,
+typically for chassis and rack based servers. hpi includes resource
+modeling; access to and control over sensor, control, watchdog, and
+inventory data associated with resources; abstracted system event log
+interfaces; hardware events and alerts; and a managed hotswap interface.
+
+this package is a metapackage which installs all of the openhpi
+components.

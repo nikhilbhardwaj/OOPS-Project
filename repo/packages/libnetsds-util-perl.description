@@ -1,0 +1,14 @@
+Service delivery suite framework - supplementary packages
+	
+netsds::util modules contains functions useful for everyday tasks.
+
+
+ * netsds::util::convert - data format conversions
+ * netsds::util::datetime - processing date and time
+ * netsds::util::file - work with files and catalogs
+ * netsds::util::spreadsheet - processing spreadsheet files
+ * netsds::util::misc - miscelaneous routines
+ * netsds::util::string - text and binary strings processing
+ * netsds::util::struct - data structures conversion
+ * netsds::util::translit - transliteration
+ * netsds::util::types - work with data types

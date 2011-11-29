@@ -1,0 +1,8 @@
+Python interface to libapt-pkg (development files)
+	
+the apt_pkg python interface will provide full access to the internal
+libapt-pkg structures allowing python programs to easily perform a
+variety of functions.
+
+this package contains the header files needed to use python-apt objects from
+c++ applications.

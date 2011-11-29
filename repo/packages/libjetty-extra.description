@@ -1,0 +1,10 @@
+Java servlet engine and webserver -- extra libraries
+	
+jetty is an open source http servlet server written in 100% java.
+it is designed to be light weight, high performance, embeddable,
+extensible and flexible, thus making it an ideal platform for serving
+dynamic http requests from any java application.
+this package contains the platform-dependent libraries used by jetty.
+currently it contains libsetuid.so which can be used to start jetty as root
+so that privileged ports may be accessed and then switched to a non-root
+user for security.

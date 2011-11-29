@@ -1,0 +1,12 @@
+Simple logging facade for java
+	
+the simple logging facade for java (or slf4j) is intended to serve as
+a simple facade for various logging apis allowing to the end-user to
+plug in the desired implementation at deployment time. slf4j also
+allows for a gradual migration path away from apache commons
+logging (cl)
+
+logging api implementations can either choose to implement the slf4j
+interfaces directly, e.g. logback or simplelogger. alternatively, it
+is possible (and rather easy) to write slf4j adapters for the given
+api implementation, e.g. log4jloggeradapter or jdk14loggeradapter.

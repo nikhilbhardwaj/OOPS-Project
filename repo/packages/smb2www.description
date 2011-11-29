@@ -1,0 +1,5 @@
+Smb/cifs network client with a web interface
+	
+this package allows browsing an smb/cifs-based network (such as
+a windows-based network) by using a
+standard web browser. it uses the samba smbclient utility.

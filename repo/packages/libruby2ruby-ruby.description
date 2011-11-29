@@ -1,0 +1,8 @@
+Generate pure ruby code easily from parsetree's sexps
+	
+ruby2ruby provides a means of generating pure ruby code easily from
+parsetree's sexps. this makes making dynamic language processors much
+easier in ruby than ever before.
+
+this package provide documentation and depends on the package
+containing the actual library for the default ruby version.

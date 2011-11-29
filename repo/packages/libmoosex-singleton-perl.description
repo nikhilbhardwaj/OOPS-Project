@@ -1,0 +1,7 @@
+Moose extension to turn a class into a singleton
+	
+moosex::singleton lets you easily change your moose class into a singleton,
+which is a class that only has one instance in an application. all you should
+need to do is change your use of "use moose" to "use moosex::singleton". this
+module uses a new class metaclass and instance metaclass, so if you're doing
+metamagic you may not be able to use this.

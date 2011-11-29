@@ -1,0 +1,7 @@
+Mojito library to fetch data from social service
+	
+a social data server which will fetch data from the "social web", such as
+blog posts and photos, upcoming events, recently played tracks, and pending
+auctions. it also provides a service to update status on supported web
+services such as facebook and twitter. mojito can be accessed via d-bus,
+or with a custom mojito client.

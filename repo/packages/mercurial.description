@@ -1,0 +1,19 @@
+Scalable distributed version control system
+	
+mercurial is a fast, lightweight source control management system designed
+for efficient handling of very large distributed projects.
+
+its features include:
+
+ * o(1) delta-compressed file storage and retrieval scheme
+ * complete cross-indexing of files and changesets for efficient exploration
+   of project history
+ * robust sha1-based integrity checking and append-only storage model
+ * decentralized development model with arbitrary merging between trees
+ * high-speed http-based network merge protocol
+ * easy-to-use command-line interface
+ * integrated stand-alone web interface
+ * small python codebase
+
+
+this package contains the architecture dependent files.

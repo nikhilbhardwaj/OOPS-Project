@@ -1,0 +1,14 @@
+Picon (personal images) database of common accounts and misc.
+	
+"picons" is short for "personal icons". they're small, constrained
+images used to represent users and domains on the net, organized into
+databases so that the appropriate image for a given e-mail address can
+be found. besides users and domains, there are picons databases for
+usenet newsgroups and weather forecasts. the picons are in either
+monochrome xbm format or color xpm and gif formats.
+
+these databases have been compiled in hopes of helping make cyberspace
+a more personable place. with them, software and services can be
+developed to identify persons on the net by face (or, at least, by
+institution logo) instead of by a cryptic e-mail address. software of
+this kind is for example xfaces and exmh.

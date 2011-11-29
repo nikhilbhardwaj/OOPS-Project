@@ -1,0 +1,8 @@
+A bitfrost isolation shell
+	
+rainbow is a isolation shell which implements portions of the bitfrost
+security architecture, as used on the olpc xo-1 and elsewhere.
+
+at the moment, rainbow only knows how to provide the same primitive form
+of filesystem and signal isolation that competent sysadmins provide to
+users of multi-user unix shell servers.

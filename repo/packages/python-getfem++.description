@@ -1,0 +1,7 @@
+Python interface to the getfem++ generic finite element library
+	
+getfem++ is a library allowing the computation of any elementary matrix (even
+for mixed finite element methods) on the largest class of methods and elements,
+and for arbitrary dimension.
+
+this package contains the python interface to getfem++.

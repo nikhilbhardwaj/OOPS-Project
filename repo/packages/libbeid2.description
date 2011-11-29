@@ -1,0 +1,16 @@
+Library to read identity information from the belgian electronic id card
+	
+the belgian electronic id card contains two types of data: on the one
+hand, there's the x.509 keys that can be used by the owner of the card
+to perform authentication and to make digital signatures; on the other
+hand, the card contains digital versions of the identity information,
+digitally signed by the government.
+
+this library allows the user to read out the identity information, to
+verify the signature, and to verify its certificate against an online
+crl or similar technology.
+
+to read out the x.509 keys, please see the libbeidlibopensc2 package.
+
+please read the readme.debian file in the libbeidlibopensc2 package for
+information on setting up your system so that it can read from smartcards.

@@ -1,0 +1,11 @@
+Graphical threaded news reader
+	
+knews is an x11 based thread-oriented news reader.  it is capable of
+representing threads as a graphical tree, represents quotations with
+different colors and much more.
+
+also included here is knewsd, a tiny nntp daemon which can read news
+from a spool directory or even from a mail folder hierarchy, for use
+when you don't have a real server available.  there is no guarantee
+that it will work with any client other than knews, so it is not
+packaged separately.

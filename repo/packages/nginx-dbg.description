@@ -1,0 +1,9 @@
+Debugging symbols for nginx
+	
+nginx (engine x) is a web server created by igor sysoev and kindly provided to
+the open-source community. this server can be used as standalone http server
+and as a reverse proxy server before some apache or another big server to
+reduce load to backend servers by many concurrent http-sessions.
+
+this package provides debugging symbols for nginx, to assist in debugging
+issues that you may find.  it should not be required for normal operation.

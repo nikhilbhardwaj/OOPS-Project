@@ -1,0 +1,5 @@
+Common lisp package to query pubmed medical literature database
+	
+this library has functions for querying the pubmed medical literature
+database and parsing the xml results into common lisp objects. this package
+uses the cl-aserve for http fetches.

@@ -1,0 +1,5 @@
+Secure shell client and server (metapackage)
+	
+this metapackage is a convenient way to install both the openssh client
+and the openssh server. it provides nothing in and of itself, so you
+may remove it if nothing depends on it.

@@ -1,0 +1,9 @@
+Text to html converter implemented in perl
+	
+convert text file into html 4.01/css2 format. the is written in
+natural white paper format by using standard headings and indented
+paragraphs at standard tab position column 8. the text can *contain*
+_ascii_ =markup= `tokens'. embedding html is also possible via include
+directives. this utility predates similar python-based asciidoc.
+
+a showcase: http://pm-doc.sourceforge.net/pm-tips.html

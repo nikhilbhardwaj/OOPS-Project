@@ -1,0 +1,10 @@
+Pdf documentation on the gnu octave language (3.2 branch)
+	
+octave is a (mostly matlab (r) compatible) high-level language, primarily
+intended for numerical computations. it provides a convenient command-line
+interface for solving linear and nonlinear problems numerically.
+
+this package provides the following documentation in pdf format:
+the faq, a reference card in a4, letter and legal formats, a document on the
+c++ classes used by octave, as well as the main octave documentation which
+is also included in info format in the octave3.2-info package.

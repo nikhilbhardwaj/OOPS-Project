@@ -1,0 +1,8 @@
+Daemon to run x86 code in an emulated environment
+	
+v86d provides a backend for kernel drivers that need to execute
+x86 bios code. the code is executed in a controlled environment
+and the results are passed back to the kernel via the netlink
+interface.
+
+v86d is needed by the uvesafb kernel module.

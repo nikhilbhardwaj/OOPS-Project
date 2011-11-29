@@ -1,0 +1,9 @@
+File system in user space - module for iso9660
+	
+this module for the fuse kernel service allows any fuse-enabled user to mount
+iso9660 file systems, e.g. cdrom disk images.
+
+the module has been initially written for umview, the user-mode
+implementation of view-os. if you want to allow completely user-mode disk
+images mounting (with no kernel/superuser support at all), take a look at
+umview-mod-umfuseiso9660 and its dependencies.

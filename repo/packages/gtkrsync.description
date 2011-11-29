@@ -1,0 +1,26 @@
+Gui front-end to display rsync status
+	
+gtkrsync is a simple gui that displays a running status display
+built from rsync --progress -v.  this status display includes a
+per-file and overall status bar, overall estimated time to completion,
+and an expandable button that shows all rsync status output.
+
+unlike other gui rsync frontends such as grsync, gtkrsync does not have
+any gui tools for configuring or invoking rsync.  gtkrsync is designed
+to be invoked from the command line or shell scripts, which already
+specify all the needed rsync options.  it is thus ideal for scripted
+rsync runs that need a gui, or for command-line users that would like a
+gui to monitor their rsync progress.
+
+this package provides two binaries.  gtkrsync is a drop-in replacement
+for rsync.  it fires up the gui and invokes rsync, passing all args to
+it.  when invoked this way, gtkrsync is able to detect if rsync exits
+in error and alerts the user.  gtkrsync can also monitor both stdout
+and stderr from rsync, and displays both.  the cancel button in
+gtkrsync also will kill off the rsync process.
+
+the other binary is gtkrsyncp.  this program accepts the output of
+rsync --progress -v on standard input and displays it in a gui.  it
+cannot detect whether rsync exited in error and cannot kill rsync when
+cancel is pressed.  however, this program may be useful in some cases
+when direct control of rsync is handled elsewhere.

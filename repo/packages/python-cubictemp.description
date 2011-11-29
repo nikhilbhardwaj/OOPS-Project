@@ -1,0 +1,8 @@
+Small, elegant, python-specific html templating system
+	
+cubictemp integrates tightly with python, allowing you to pass
+arbitrary python objects into a html template, walk sequences and
+iterators, and evaluate expressions.
+
+cubictemp includes default protection against common classes of
+html and javascript cross-site scripting vulnerabilities.

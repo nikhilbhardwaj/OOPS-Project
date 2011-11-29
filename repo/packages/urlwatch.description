@@ -1,0 +1,6 @@
+Tool for monitoring webpages for updates
+	
+this script is intended to help you watch urls and get notified (via email)
+of any changes. the change notification will include the url that has changed
+and a unified diff of what has changed. the script supports the use of a
+filtering hook function to strip trivially-varying elements of a webpage.

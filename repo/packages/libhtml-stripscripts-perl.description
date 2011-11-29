@@ -1,0 +1,16 @@
+Module for removing scripts from html
+	
+html::stripscripts is a perl module for neutralizes scripting constructs in
+html, leaving as much non-scripting markup in place as possible. this allows
+web applications to display html originating from an untrusted source without
+introducing cross-site scripting (xss) vulnerabilities.
+
+the process is based on whitelists of tags, attributes and attribute values.
+this approach is the most secure against disguised scripting constructs hidden
+in malicious html documents.
+
+as well as removing scripting constructs, this module ensures that there is a
+matching end for each start tag, and that the tags are properly nested.
+
+you will probably use html::stripscripts::parser rather than using this module
+directly (see libhtml-stripscripts-parser-perl).

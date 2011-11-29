@@ -1,0 +1,7 @@
+Newlib c library (motorola 68hc11/12)
+	
+newlib is a c library intended for use on embedded systems. it is a
+conglomeration of several library parts, all under free software
+licenses that make them easily usable on embedded products.
+
+this package contains the newlib library compiled for m68hc11/12 targets.

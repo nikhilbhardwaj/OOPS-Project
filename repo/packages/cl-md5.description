@@ -1,0 +1,4 @@
+Common lisp package for md5 message digests
+	
+this package contains a common lisp function to calculate the md5
+message digest of a string, stream, or file.

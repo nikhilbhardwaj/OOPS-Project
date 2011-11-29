@@ -1,0 +1,9 @@
+Python bindings for liblo, the lightweight osc library
+	
+pyliblo, provides python bindings for liblo, which is an implementation
+of the open sound control specification and facilitates communication
+between various music applications.
+
+open sound control (osc) is a protocol for communication among computers,
+sound synthesizers, and other multimedia devices that is optimized for modern
+networking technology.

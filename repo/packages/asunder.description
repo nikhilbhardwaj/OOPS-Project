@@ -1,0 +1,12 @@
+Graphical audio cd ripper and encoder
+	
+asunder is a graphical audio cd ripper and encoder. it can be used to save
+tracks from audio cds. main features:
+
+
+ * supports wav, mp3, ogg vorbis, flac, and wavpack audio files
+ * uses cddb to name and tag each track
+ * can encode to multiple formats in one session
+ * creates m3u playlists
+ * allows for each track to be by a different artist
+ * does not require a specific desktop environment (just gtk+)

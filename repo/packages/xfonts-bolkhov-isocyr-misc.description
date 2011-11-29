@@ -1,0 +1,10 @@
+Character-cell iso-8859-5 encoded cyrillic fonts for x (cyr-rfx collection)
+	
+this package provides a standard set of character-cell low-resolution
+cyrillic fonts.  these are iso-8859-5 fonts.
+in most cases it is desirable to have the x font server (xfs) and/or
+an x server installed to make the fonts available to x clients.
+
+the fonts are modified (mainly with cyrillic added) versions of the
+standard x-window fonts from misc/.  upstream author: dmitry
+bolkhovityanov <bolkhov@inp.ins.su>

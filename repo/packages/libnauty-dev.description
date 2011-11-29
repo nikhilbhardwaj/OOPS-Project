@@ -1,0 +1,8 @@
+Library for computing graph automorphisms (development files)
+	
+nauty (no automorphisms, yes?) is a set of procedures for determining
+the automorphism group of a vertex-coloured graph. it provides this
+information in the form of a set of generators, the size of the
+group, and the orbits of the group. it is also able to produce a
+canonically-labelled isomorph of the graph, to assist in isomorphism
+testing.  this package provides a c api.

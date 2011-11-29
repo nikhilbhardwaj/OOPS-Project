@@ -1,0 +1,5 @@
+Json manipulation library - shared library
+	
+this library allows you to easily construct json objects in c,
+output them as json formatted strings and parse json formatted
+strings back into the c representation of json objects.

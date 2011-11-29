@@ -1,0 +1,13 @@
+Utilities for manipulating the gnu unifont
+	
+this is a set of perl scripts, c programs, and fontforge scripts
+to manipulate roman czyborra's gnu unifont ".hex" format font
+files.  the gnu unifont has a unicode-compatible font structure.
+these utilities allow editing ".hex" fonts with text and
+graphical editors, producing final versions of fonts in bdf,
+pcf, truetype sbit, and truetype outline formats.
+
+to build the truetype fonts, install the package 'fontforge'.
+to build the pcf fonts, use 'bdftopcf', which is in the
+'xfonts-utils' package.  to obtain the font sources, run
+'apt-get source unifont'.

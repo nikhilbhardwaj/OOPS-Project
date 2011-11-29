@@ -1,0 +1,4 @@
+Webmail application for yaws web server
+	
+yaws-mail is a small stateless webmail application. it requires
+smtp and pop3 servers to operate and does not store email locally.

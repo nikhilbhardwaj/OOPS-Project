@@ -1,0 +1,12 @@
+A portable sound library - development files
+	
+this library is capable of playing samples as well as module
+files and was originally written by jean-paul mikkers (mikmak) for dos. it has
+subsequently been hacked by many hands and now runs on many unix flavours.
+it uses the oss /dev/dsp driver including in all recent kernels for output,
+as well as alsa and esound, and will also write wav files.
+
+supported file formats include mod, stm, s3m, mtm, xm, and it.
+
+this package contains the symlinks, headers, and object files needed to compile
+and link programs which use libmikmod.

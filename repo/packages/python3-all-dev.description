@@ -1,0 +1,8 @@
+Package depending on all supported python development packages
+	
+the package currently depends on python3.1-dev, in the
+future, dependencies on jython (python for a jvm) and ironpython (python
+for mono) may be added.
+
+this package is used as a build dependency for other packages to
+avoid hardcoded dependencies on specific python development packages.

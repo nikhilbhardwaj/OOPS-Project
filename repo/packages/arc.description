@@ -1,0 +1,22 @@
+Archive utility based on the msdos arc program
+	
+this program is based on the msdos arc program, version 5.21, plus
+a few enhancements...
+
+
+ o arc also performs huffman squeezing on data. the huffman squeeze
+   algorithm was removed from msdos arc after version 5.12. it turns
+   out to be more efficient than lempel-ziv style compression when
+   compressing graphic images. squeeze analysis is always done now,
+   and the best of packing, squeezing, or crunching is used.
+
+
+
+ o compresses and extracts squashed files. "squashing" was created
+   by phil katz in his pkxxx series of arc utility programs for
+   msdos. dan lanciani wrote the original modifications to arc's
+   crunch code to handle squashing. i've made minor changes since
+   then, mostly to reduce the amount of memory required. the 'q'
+   option flag must be specified to squash files. the squashing
+   algorithm will be used instead of the usual crunch algorithm,
+   and will be compared against packing and squeezing, as before.

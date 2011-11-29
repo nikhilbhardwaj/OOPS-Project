@@ -1,0 +1,13 @@
+Harmonics data for xtide
+	
+xtide is a package that provides tide and current predictions in a wide
+variety of formats. graphs, text listings, and calendars can be generated,
+or a tide clock can be provided on your desktop.
+
+this package provides the harmonics data used by the xtide package to
+display tidal information for most parts of the world.  the data are
+packaged separately from xtide because they may be updated separately.
+
+some data omitted from the upstream harmonics file because of restrictions
+on commercial distribution and were included in the non-free package
+xtide-data-nonfree.

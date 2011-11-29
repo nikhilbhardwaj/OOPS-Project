@@ -1,0 +1,28 @@
+Framebuffer-enabled replacement for getty
+	
+qingy (qingy is not getty) is a replacement for getty that uses directfb to
+provide a fast, nice gui without the overhead of the x window system.
+it allows the user to log in and start the session of his choice (text
+console, gnome, kde, wmaker, ...).
+
+main features:
+
+ - it works ;-)
+ - it remembers last user who logged in, with focus on password
+ - it also rememebers last session each user chose
+ - alternatively it remembers last session on a per-tty basis
+ - fully themable
+ - a theme will look the same on all machines, independently of
+   the resolution
+ - you can select your favourite theme, or a random one every time
+ - both text and x sessions are supported
+ - you can start more that one x session at once
+ - you can even start x inside a console when x sessions are already
+   running
+ - pam support
+ - support for screen savers
+ - auto log-in support
+ - session locking support
+ - tty specific options support
+ - customizable key bindings
+ - text mode support.

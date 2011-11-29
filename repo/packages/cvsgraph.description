@@ -1,0 +1,5 @@
+Create a tree of revisions/branches from a cvs/rcs file
+	
+cvsgraph was inspired by the graph option from wincvs. it represents
+the revisions and branches in a cvs/rcs file in a graphical tree
+structure, also listing any tags associated with any given revision.

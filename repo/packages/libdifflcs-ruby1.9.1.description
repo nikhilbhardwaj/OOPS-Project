@@ -1,0 +1,8 @@
+Mcilroy-hunt longest common subsequence algorithm implementation (ruby1.9.1)
+	
+diff::lcs is a port of algorithm::diff that uses the mcilroy-hunt
+longest common subsequence (lcs) algorithm to compute intelligent
+differences between two sequenced enumerable containers. the
+implementation is based on mario i. wolczko's smalltalk version
+
+this is the package for ruby 1.9.1.

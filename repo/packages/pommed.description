@@ -1,0 +1,8 @@
+Apple laptops hotkeys event handler
+	
+pommed handles the hotkeys found on the apple macbook pro, macbook air,
+macbook, powerbook and ibook laptops and adjusts the lcd backlight, sound
+volume, keyboard backlight or ejects the cd-rom drive accordingly.
+
+pommed also monitors the ambient light sensors to automatically
+light up the keyboard backlight on machines that support it.

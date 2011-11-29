@@ -1,0 +1,7 @@
+Configuration files for kerberos version 5
+	
+this package provides /etc/krb5.conf and any other files needed to
+configure kerberos version 5.  this package may be used with one of the
+implementations of kerberos in debian, or with a locally built kerberos.
+generally this package will be installed as part of installing some
+kerberos implementation.

@@ -1,0 +1,12 @@
+Social network analysis and visualisation application
+	
+socnetv is a graphical application designed to be an easy tool for social
+networks analysis and visualisation (not to be confused with social
+networking, as in online communities). with it, one can load and visualise
+networks of various formats (graphviz, adjacency, pajek, etc), and/or visually
+create and modify a network in a point and click fashion.
+
+the program can also compute network statistics and properties (such as
+distances, centralities, diameter) and apply some layout algorithms for more
+meaningful visualisation of your networks. furthermore, socnetv can create
+simple random networks (lattice, same degree, etc).

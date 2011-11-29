@@ -1,0 +1,9 @@
+Automate administration of access via ssh
+	
+this package contains a tool to automatically give some users
+access via ssh.
+
+warning! users with uid < 999 will have its ssh access administrated
+automatically which means that the authorized_keys file will be
+removed if there is no admin package installed that gives the user
+ssh access. you have been warned!

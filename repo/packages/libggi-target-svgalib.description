@@ -1,0 +1,12 @@
+General graphics interface svgalib display target
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the driver for the "svga" target, enabling libggi
+(and therefore any program using libggi) to display its output on the
+linux console via svgalib.
+
+because svgalib needs direct access to hardware, any program using
+it must be run setuid root.  programs using libggi are not normally
+installed setuid root, so you will have to arrange that if you want to
+use this target.

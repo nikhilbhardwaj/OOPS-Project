@@ -1,0 +1,8 @@
+Perl module to extract which modules some code uses
+	
+module::extract::use extracts the names of the modules used in a file using a
+static analysis. it uses ppi (perl parsing interface) to tokenize and extract
+the file data.
+
+since this module does not run code, it cannot find dynamic uses of modules,
+such as eval "require $class".

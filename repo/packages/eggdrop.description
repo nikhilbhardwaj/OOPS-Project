@@ -1,0 +1,12 @@
+Advanced irc robot
+	
+eggdrop is an irc bot written in c, which sits on channels and takes
+protective measures, such as preventing it from being taken over (in
+the few ways that anything can), recognizing banned users to reject
+them, recognizing privileged users to give them operator status,
+punishing users for things like flooding, among innumerable others.
+
+all of this is completely configurable, and can be disabled or enabled
+as you wish in the configuration file. also, it's very easy to expand
+and customize with tcl scripts and c modules, making it possible to
+adapt eggdrop to any special need you might have.

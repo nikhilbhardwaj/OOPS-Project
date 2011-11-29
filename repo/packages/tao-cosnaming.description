@@ -1,0 +1,11 @@
+Tao naming service
+	
+tao implementation of corba interoperable naming service (ins).
+
+a naming service provides a location service for corba objects.
+given a name, it will return the interoperable object reference (ior)
+for the corba object that was registered with this name.
+
+the following program is included:
+
+ * tao_cosnaming

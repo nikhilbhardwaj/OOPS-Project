@@ -1,0 +1,8 @@
+Pam module for pbs mom nodes
+	
+the torque server dispatches jobs across physically separated
+machines. it may also be beneficial for single machines to organise
+the sequential execution of multiple jobs.
+
+a simple pam module to authorize users on pbs mom nodes with a running
+job.

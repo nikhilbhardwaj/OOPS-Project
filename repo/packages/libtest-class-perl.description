@@ -1,0 +1,5 @@
+Module for creating test classes in an xunit style
+	
+test::class is a perl test harness for creating tests using the xunit style
+inspired by smalltalk. it is aimed at authors of perl modules already using
+test::builder-based modules.

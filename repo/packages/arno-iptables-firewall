@@ -1,0 +1,4 @@
+PackageId:536
+Name:arno-iptables-firewall
+Version:1.9.2.k-4
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,gawk,iproute,iptables

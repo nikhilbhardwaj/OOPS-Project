@@ -1,0 +1,7 @@
+Personalization tool for yubikey otp tokens
+	
+yubikeys are usb tokens that act like keyboards and generate one-time
+or static passwords.
+
+this package contains the run-time shared library needed for the
+personalization tool.

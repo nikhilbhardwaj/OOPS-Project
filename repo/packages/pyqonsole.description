@@ -1,0 +1,9 @@
+X window terminal emulation written in python
+	
+the code is based on konsole, and it uses the qt toolkit. it is
+mainly meant for use by python application developpers who would like
+to embed a terminal in their application, but it can be used as a not
+blazingly fast xterm replacement, consuming a lot more memory than
+rxvt or xterm.
+
+homepage: http://www.logilab.org/projects/pyqonsole/

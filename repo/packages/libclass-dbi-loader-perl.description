@@ -1,0 +1,6 @@
+Perl module for dynamic definition of class::dbi sub classes
+	
+class::dbi::loader automates the definition of class::dbi
+sub-classes. it scans database schemas to set up tables, columns, and
+primary keys. class names are defined by table names and namespace
+option. it currently supports mysql, postgres and sqlite.

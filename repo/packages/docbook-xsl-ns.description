@@ -1,0 +1,16 @@
+Stylesheets for processing docbook 5 xml to various output formats
+	
+these are modular xsl stylesheets for processing documents composed
+with docbook 5 xml and its derivatives. unlike in docbook-xsl the docbook
+namespace prefix has been added to element names in pattern matches and
+expressions. however processing of docbook 4 documents is also possible
+with these stylesheets. for a more detailed explanation read
+http://www.sagehill.net/docbookxsl/procesingdb5.html.
+
+the stylesheets provide xslt transformations for (x)html, wordml, html help,
+javahelp, man page (nroff), website, eclipse platform help file and formatting
+object (fo) output. the latter can be further processed to a number of print
+formats using fop or tex-based tools.
+
+the stylesheets are modular in the sense that you can extend and, to some
+extent, customize them. the documentation is included in a separate package.

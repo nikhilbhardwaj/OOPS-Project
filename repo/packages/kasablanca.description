@@ -1,0 +1,13 @@
+Fast and free ftp client for kde
+	
+kasablanca is an ftp client, written in c++, using the kde libraries.
+
+features:
+
+ * ftps encryption via auth tls
+ * fxp (direct server to server transfer), supporting alternative mode
+ * advanced bookmarking system
+ * fast responsive multithreaded engine
+ * concurrent connections to multiple hosts
+ * interactive transfer queue, movable by drag and drop
+ * small nifty features, like a skiplist

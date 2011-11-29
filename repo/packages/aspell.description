@@ -1,0 +1,12 @@
+Gnu aspell spell-checker
+	
+gnu aspell is a spell-checker which can be used either as a standalone
+application or embedded in other programs.  its main feature is that it
+does a much better job of suggesting possible spellings than just about
+any other spell-checker available for the english language, including
+ispell and microsoft word.  it also has many other technical
+enhancements over ispell such as using shared memory for dictionaries
+and intelligently handling personal dictionaries when more than one
+aspell process is open at once.
+
+aspell is designed to be a drop-in replacement for ispell.

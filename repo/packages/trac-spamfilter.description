@@ -1,0 +1,11 @@
+Spam-prevention plugin for trac
+	
+this plugin attempts to reject contributions to trac environments that contain
+spam. it can use the following techniques:
+
+
+ * regular expressions
+ * akismet web service
+ * ip throttling
+ * ip blacklisting (requires python-dnspython package)
+ * bayesian filtering (requires spambayes package)

@@ -1,0 +1,8 @@
+Poe component for running asynchronous dbi calls
+	
+poe::component::dbiagent is your answer to non-blocking dbi in poe.
+
+it fires off a configurable number child processes (defaults to 3) and
+feeds database queries to it via two-way pipe (or sockets ... however
+poe::component::wheel::run is able to manage it).  the primary method
+is query.

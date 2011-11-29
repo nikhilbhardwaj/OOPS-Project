@@ -1,0 +1,13 @@
+A complete mathml rendering solution (java classes)
+	
+jeuclid is a complete mathml rendering solution, consisting of:
+
+ * a mathviewer application
+ * command line converters from mathml to other formats
+ * an ant task for automated conversion
+ * display components for awt and swing
+ * a component for apache cocoon
+
+
+this package contains the basic jeuclid rendering and document handling
+classes.

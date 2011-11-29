@@ -1,0 +1,12 @@
+Collection of utilities for socialtext rest apis
+	
+socialtext::resting::utils is a collection of perl utility modules related
+to socialtext's rest apis.
+
+currently, this package consists of:
+
+socialtext::editpage
+edit a wiki page using your favourite editor
+
+socialtext::wikiobject
+represents wiki markups as a data structure and object

@@ -1,0 +1,8 @@
+Dump the syskey bootkey from a windows nt/2k/xp system hive
+	
+this tool is designed to recover the syskey bootkey from a windows nt/2k/xp
+system hive. then we can decrypt the sam file with the syskey and dump
+password hashes.
+
+syskey is a windows feature that adds an additional encryption layer to the
+password hashes stored in the sam database.

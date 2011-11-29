@@ -1,0 +1,4 @@
+PackageId:32200
+Name:strongswan-ikev2
+Version:4.4.1-5.1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,bsdmainutils,debianutils,host,bind9-host,iproute,ipsec-tools,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcap2,libcurl3,libgcc1,libldap-2.4-2,libpam0g,libstrongswan,strongswan-starter,strongswan-nm

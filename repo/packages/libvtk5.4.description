@@ -1,0 +1,18 @@
+Visualization toolkit - a high level 3d visualization library
+	
+the visualization toolkit (vtk) is an object oriented, high level
+library that allows one to easily write c++ programs, tcl, python and
+java scripts that do 3d visualization.
+
+vtk enables users to concentrate on their work by providing a large
+number of excellent and feature packed high level functions that do
+visualization.  the library needs opengl to render the graphics and
+for linux machines mesa is necessary. the terms/copyright can be read
+in /usr/share/doc/vtk/readme and readme.html.  vtk-linux-howto has
+information about using vtk, getting documentataion or help and
+instructions on building vtk.
+
+this package provides the shared libraries needed to run c++ programs
+that use vtk.
+
+to compile c++ code that uses vtk you have to install libvtk5-dev.

@@ -1,0 +1,6 @@
+Confine services in a limited environment
+	
+compartment was designed to allow safe execution of privileged
+and/or untrusted executables and services. it has got all possible
+features included, which can be used to minimize the risk of a
+trojanized or vulnerable program/service.

@@ -1,0 +1,10 @@
+Cli binding for the gtk+ toolkit 2.12
+	
+this package provides the atk-sharp, gdk-sharp, gtk-dotnet, gtk-sharp and
+pango-sharp assemblies that allow cli (.net) programs to use the
+gtk+ user interface toolkit 2.12, atk, pango, gtk.net and gdk.
+
+gtk# 2.10 is a cli (.net) language binding for the gtk+ 2.10 toolkit
+
+this package contains development files for the gtk# library, and should
+be used for compilation

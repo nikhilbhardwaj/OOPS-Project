@@ -1,0 +1,11 @@
+Unified code generation interface for form-compilers
+	
+ufc (unified form-assembly code) is a unified framework for finite element
+assembly. more precisely, it defines a fixed interface for communicating low
+level routines (functions) for evaluating and assembling finite element
+variational forms. the ufc interface consists of a single header file ufc.h
+that specifies a c++ interface that must be implemented by code that complies
+with the ufc specification. examples of form compilers that support the ufc
+interface are ffc and syfi.
+
+this package contains documentation for ufc.

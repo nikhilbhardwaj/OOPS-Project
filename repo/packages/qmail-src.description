@@ -1,0 +1,14 @@
+Source only package for building qmail binary package
+	
+qmail is a secure, reliable, efficient, simple mail transport system.
+
+to build a binary deb package, first install the qmail-src package, then
+type the command "build-qmail".  if you try "apt-get source --build qmail-src"
+only the qmail-src package will be built.  you will need to install qmail-src
+and type the command "build-qmail" to get a usable binary package of qmail.
+also be sure to build and install ucspi-tcp before installing the binary qmail
+package.  install the ucspi-tcp-src package to get ucspi-tcp.
+
+this package builds a binary .deb that is fhs compliant and conforms to the
+debian standards guidelines.  the resulting binary packages are not suitable
+for re-distribution.

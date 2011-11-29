@@ -1,0 +1,16 @@
+Xmpp plugin for irssi - debugging symbols
+	
+an irssi plugin to connect to the jabber network, using the xmpp protocol.
+
+its main features are:
+
+ - sending and receiving messages in irssi's query windows
+ - a roster with contact & resource tracking (contact list)
+ - contact management (add, remove, manage subscriptions)
+ - tab completion of commands, jids and resources
+ - support for multiple accounts
+ - unicode support (utf-8)
+ - ssl support
+
+
+this package features debugging symbols for the plugin.

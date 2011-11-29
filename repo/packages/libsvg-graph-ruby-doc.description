@@ -1,0 +1,9 @@
+Pure ruby library for generating charts in svg format (documentation)
+	
+svg::graph allows to generate charts, that is, graphs where the values of one
+axis are not scalar. it has a very similar api to the perl library
+svg::tt::graph, and the resulting charts also look the same. this isn't
+surprising, because svg::graph started as a loose port of svg::tt::graph,
+although the internal code no longer resembles the perl original at all.
+
+this package contains the documentation.

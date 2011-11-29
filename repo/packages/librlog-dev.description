@@ -1,0 +1,6 @@
+Flexible message logging library - development files
+	
+rlog library provides a flexible message logging facility for c++ programs and
+libraries. it is meant to be fast enough to live in production code.  rlog
+provides macros which are similar to qt's debug macros, which are similar
+to simple printf() statements

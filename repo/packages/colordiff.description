@@ -1,0 +1,8 @@
+Tool to colorize 'diff' output
+	
+colordiff is a wrapper for the 'diff' command. it produces
+the same output as diff, but with colored highlighting to improve
+readability. the color schemes can be customized.
+
+the output is similar to the syntax-highlighting mode of vim or emacs
+when editing a patch created by diff.

@@ -1,0 +1,7 @@
+Post periodic faqs to usenet newsgroups
+	
+the purpose of this package is to handle the posting of periodic
+informational postings to the usenet using cron.
+
+for this it adds appropriate message-id, expires, supersedes, and
+references headers.

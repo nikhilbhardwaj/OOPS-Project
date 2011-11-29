@@ -1,0 +1,8 @@
+Fast mathematical expressions parser library (runtime)
+	
+muparser is a high performance mathematical parser library, written in pure
+c++. it is based on transforming an expression into a bytecode and
+precalculating constant parts of it.
+
+this package contains the files necessary for running applications that use
+the muparser library.

@@ -1,0 +1,12 @@
+Strips some unwanted mime parts out of a mime message.
+	
+this program may be useful as a filter on a mailing list.
+
+it strips every unwanted mime part from a mime compliant message, warning by
+email the original author about this, and outputs a mime compliant cleaned
+message, to be further processed by a mailing list software.
+
+you may find it useful if you don't want certain attachments on your mailing
+lists, or if you want to allow just the text part from multipart/alternative
+messages, and so on.  you can easily fine tune the list of allowed mime types
+to suit your particular needs, using normal perl regexps.

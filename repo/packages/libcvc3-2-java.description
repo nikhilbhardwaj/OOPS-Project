@@ -1,0 +1,30 @@
+Java bindings for cvc3 (bytecode library)
+	
+cvc3 is an automatic theorem prover for satisfiability modulo theories
+(smt) problems. it can be used to prove the validity (or, dually, the
+satisfiability) of first-order formulas in a large number of built-in
+logical theories and their combination.
+
+cvc3 is the last offspring of a series of popular smt provers, which
+originated at stanford university with the svc system. in particular,
+it builds on the code base of cvc lite, its most recent
+predecessor. its high level design follows that of the sammy prover.
+
+cvc3 works with a version of first-order logic with polymorphic types
+and has a wide variety of features including:
+
+
+ * several built-in base theories: rational and integer linear
+   arithmetic, arrays, tuples, records, inductive data types, bit
+   vectors, and equality over uninterpreted function symbols;
+ * support for quantifiers;
+ * an interactive text-based interface;
+ * rich c, c++, and java apis for embedding in other systems;
+ * proof and model generation abilities;
+ * predicate subtyping;
+ * essentially no limit on its use for research or commercial
+   purposes (see license).
+
+
+this package provides architecture-independent files of the java
+bindings for cvc3

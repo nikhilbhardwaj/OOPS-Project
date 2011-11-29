@@ -1,0 +1,9 @@
+Development files for the icc profile i/o library
+	
+the icclib is a set of routines which implement the reading and
+writing of color profile files that conform to the international
+color consortium (icc) profile format specification, version 3.4.
+
+this package is needed to compile programs against libicc2.10, as
+it only includes the header files and static libraries (optionally)
+needed for compiling.

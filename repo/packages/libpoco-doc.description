@@ -1,0 +1,14 @@
+Documentation for poco - the c++ portable components
+	
+the c++ portable components currently consist of eleven libraries:
+
+ * the foundation library (contains a platform abstraction layer)
+ * the xml library (contains an xml parser as well as an xmlwriter)
+ * the util library (contains classes for working with configuration files and
+   command line arguments)
+ * the net and the netssl libraries (contains network classes like sockets,
+   smtp, http, secure socket layer, ssl secured http, etc.)
+ * the data library (contains data abstraction layer)
+ * the odbc, mysql and the sqlite libraries (contains database connectivity)
+ * the crypto library (contains implementation of des, aes, rsa, etc.)
+ * the zip library

@@ -1,0 +1,8 @@
+Emulate a hayes compatible modem
+	
+tcpser turns a pc serial port into an emulated hayes compatible modem that
+uses tcp/ip for incoming and outgoing connections.  it can be used to allow
+older applications and systems designed for modem use to operate on the
+internet.  tcpser supports all standard hayes commands, and understands
+extended and vendor proprietary commands (though it does not implement
+many of them).  tcpser can be used for both inbound and outbound connections.

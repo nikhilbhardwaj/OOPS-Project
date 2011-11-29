@@ -1,0 +1,19 @@
+Extensions to the swing gui toolkit
+	
+this package contains extensions to the swing gui toolkit, including new and
+enhanced components that provide functionality commonly required by rich
+client applications. highlights include:
+
+ - sorting, filtering, highlighting for tables, trees, and lists
+ - find/search
+ - auto-completion
+ - login/authentication framework
+ - treetable component
+ - collapsible panel component
+ - date picker component
+ - tip-of-the-day component
+
+
+many of these features will eventually be incorporated into the swing toolkit,
+although api compatibility will not be guaranteed. the swingx project focuses
+exclusively on the raw components themselves.

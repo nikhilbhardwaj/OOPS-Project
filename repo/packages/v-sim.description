@@ -1,0 +1,12 @@
+Visualize atomic structures
+	
+v_sim visualizes atomic structures such as crystals, grain boundaries,
+molecules and so on (either in binary format, or in plain text format).
+
+the rendering is done in pseudo-3d with spheres (atoms) or arrows (spins).
+the user can interact through many functions to choose the view, set the
+bindings, draw cutting planes, compute surfaces from scalar fields,
+duplicate nodes, measure geometry... moreover v_sim allows to export the
+view as images in png, jpg, pdf (bitmap), svg (scheme) and other formats.
+some tools are also available to colorize atoms from data values or to
+animate on screen many position files.

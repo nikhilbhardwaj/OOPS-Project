@@ -1,0 +1,17 @@
+File management support - gtk+ gui library
+	
+libfm provides file management functions built on top of glib/gio,
+giving a convenient higher-level api. features:
+
+ * desktop-independent, following freedesktop standards;
+ * fast, light on memory usage, and responsive - well suited to
+   less powerful hardware such as netbooks and thin clients;
+ * uses gio/gvfs (like nautilus) for trash support and access to
+   remote file systems (ftp, sftp, webdav, windows shares, etc.);
+ * clipboard operations are compatible with gtk+/gnome and qt/kde;
+ * supports both drag-and-drop, and the x direct save protocol;
+ * reusable design with the core functions separated out to
+   simplify porting to other guis.
+
+
+this package contains the gtk+ gui.

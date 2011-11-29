@@ -1,0 +1,12 @@
+Java bytecode manipulation framework
+	
+it can be used to dynamically generate stub classes or other proxy classes,
+directly in binary form, or to dynamically modify classes at load time, i.e.,
+just before they are loaded into the java virtual machine.
+
+asm offers similar functionalities as bcel or serp, but is much smaller
+(25kb instead of 350kb for bcel and 150kb for serp) and faster
+than these tools (the overhead of a load time class transformation is on
+the order of 60% with asm, 700% or more with bcel, and 1100% or more with
+serp). asm was designed to be used in a dynamic and static way and was
+therefore designed and implemented to be as small and as fast as possible.

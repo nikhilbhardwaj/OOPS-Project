@@ -1,0 +1,12 @@
+Browse output of processes
+	
+bosh stands for browsable output shell. this is a bit of a
+misnomer because it isn't really a shell. what is does is
+store the output of a specified program in a buffer, and
+provides a simple curses interface to browse this buffer.
+actions can be configured which can make use of the
+contents of the currently selected line.
+
+commands and actions are stored in bosh configuration file.
+these can include shebag line (eg #!/usr/bin/bosh) so that
+the configuration can just be run from the command-line.

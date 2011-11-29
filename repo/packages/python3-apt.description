@@ -1,0 +1,15 @@
+Python 3 interface to libapt-pkg
+	
+the apt_pkg python 3 interface will provide full access to the internal
+libapt-pkg structures allowing python 3 programs to easily perform a
+variety of functions, such as:
+
+
+ - access to the apt configuration system
+ - access to the apt package information database
+ - parsing of debian package control files, and other files with a
+   similar structure
+
+
+the included 'aptsources' python interface provides an abstraction of
+the sources.list configuration on the repository and the distro level.

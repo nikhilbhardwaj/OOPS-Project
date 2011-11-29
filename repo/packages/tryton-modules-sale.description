@@ -1,0 +1,15 @@
+Tryton application platform (sale module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this module provides the possibility to define sale orders, to add sale
+information to products, and to define the sale price as the list price.
+
+with the possibilities:
+
+
+ * to follow invoice and shipment states from the sale order.
+ * to define invoice method: manual, on order confirmed, on shipment sent.
+ * to define shipment method: manual, on order confirmed, on invoice paid.

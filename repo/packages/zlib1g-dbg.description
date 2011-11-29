@@ -1,0 +1,5 @@
+Compression library - development
+	
+zlib is a library implementing the deflate compression method found
+in gzip and pkzip.  this package includes debugging symbols for use
+when debugging applications which use zlib.

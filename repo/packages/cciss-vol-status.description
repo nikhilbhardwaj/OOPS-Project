@@ -1,0 +1,8 @@
+Hp smartarray raid volume status checker
+	
+a raid monitor for hp smartarray controllers. only the newer ones, which use
+the kernel driver named "cciss" can be checked. it will check for problems
+on your configured logical drives, without parsing the array controllers
+event log.
+
+it also supports msa500 and msa1000 controllers.

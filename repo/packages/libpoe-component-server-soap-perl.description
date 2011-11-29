@@ -1,0 +1,6 @@
+Poe component to publish event handlers via soap over http
+	
+poe::component::server::soap is a component that can publish event handlers
+via soap over http. currently, this module only supports soap/1.1 requests,
+though support for soap/1.2 is planned. a simple http server is provided by
+poe::component::server::simplehttp (libpoe-component-server-simplehttp-perl).

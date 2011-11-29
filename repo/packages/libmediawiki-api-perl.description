@@ -1,0 +1,6 @@
+Perl interface to the mediawiki api
+	
+mediawiki::api is a perl module that provides an interface to the mediawiki
+api (see <url:http://www.mediawiki.org/wiki/api>), which allows the creation
+of scripts to automate editing and extraction of data from mediawiki-driven
+sites like wikipedia.

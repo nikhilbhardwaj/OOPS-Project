@@ -1,0 +1,9 @@
+Bluez 3.x compatibility binaries
+	
+this package provides the legacy binaries that were reminiscent of the
+bluez 3.x pairing methods.  these binaries are not supported, and will
+go away again in the future. the provided binaries are:
+
+hidd
+dund
+pand

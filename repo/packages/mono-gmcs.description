@@ -1,0 +1,38 @@
+Mono c# 2.0 and c# 3.0 compiler for cli 2.0
+	
+this is the mono c# (c-sharp) 2.0 and c# 3.0 compiler, a platform-independent
+compiler which produces cil (common intermediate language) binary executables.
+the gmcs compiler supports two different featuresets (c# versions).
+
+with c# 2.0 (which is the default) it supports:
+
+ - generics
+ - iterators (yield)
+ - nullable value types
+ - partial types
+ - anonymous methods
+ - static classes
+ - coalesce operator: ??
+
+
+with c# 3.0 it supports:
+
+ - language integrated query (linq)
+ - object initializers
+ - collection initializers
+ - anonymous types
+ - local variable type inference
+ - implicitly-typed arrays
+ - lambda expressions
+ - automatic properties
+ - extension methods
+ - partial methods
+
+
+this compiler targets the cli 2.0 runtime version.
+
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.

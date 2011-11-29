@@ -1,0 +1,7 @@
+Gpl eda -- electronics design software -- gschem -> pcb workflow gui
+	
+``xgsch2pcb`` provides an intuitive, user-friendly graphical interface to
+the ``gsch2pcb`` command-line tool, part of the geda suite, which is used
+to generate and update a pcb layout.  it works with schematics created
+by ``gschem``, part of the geda suite, and layouts created by ``pcb``, a
+pcb layout system commonly used with geda.

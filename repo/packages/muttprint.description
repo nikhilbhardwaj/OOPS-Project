@@ -1,0 +1,10 @@
+Pretty printing of mails
+	
+muttprint formats the printing of mutt and other mail clients to be as
+pretty as the printing of mozilla or kmail.
+
+it can print a little penguin -- or the debian logo -- on the first
+page (suitable pictures can be found in the ospics package) and a headline
+on every page. furthermore, it only prints the most important headers, but
+not the whole plethora of them. finally, it can even print two pages on one
+page in landscape format.

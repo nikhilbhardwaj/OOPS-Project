@@ -1,0 +1,4 @@
+PackageId:5292
+Name:gforge-mta-exim4
+Version:5.0.2-5
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,debianutils,exim4,exim4-daemon-heavy,gforge-common,gforge-db-postgresql,gforge-db,perl,ucf

@@ -1,0 +1,8 @@
+Gtk+ object/class inspector
+	
+g-inspector invokes a gtk+ application and inspects its objects.
+it shows widgets hierarchy, properties of widgets, etc.
+it can blink a specific widget instance so that you can identify it.
+it can handle glib objects too.
+
+homepage: http://sourceforge.net/projects/g-inspector/

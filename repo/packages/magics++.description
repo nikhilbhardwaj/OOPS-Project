@@ -1,0 +1,9 @@
+Executables for the magics++ library
+	
+magics++ is the latest generation of the ecmwf's meteorological plotting
+software magics. although completely redesigned in c++, it is intended to be
+as backwards-compatible as possible with the fortran interface.
+besides its programming interfaces (fortran and c), magics++ offers magml,
+a plot description language based on xml aimed at automatic web production.
+
+this package contains the magcml binary that may be used with magics++.

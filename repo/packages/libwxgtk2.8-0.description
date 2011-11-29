@@ -1,0 +1,9 @@
+Wxwidgets cross-platform c++ gui toolkit (gtk+ runtime)
+	
+wxwidgets (formerly known as wxwindows) is a class library for c++ providing
+gui components and other facilities on several popular platforms (and some
+unpopular ones as well).  for more information see http://wxwidgets.org
+
+this package provides the shared libraries needed to run programs linked
+against wxwidgets.  to use the (optional) glcanvas library you will need
+to have mesa or opengl installed.

@@ -1,0 +1,14 @@
+Set of utilities to deal with maildirs (upstream name mu)
+	
+mu is a set of utilities to deal with maildirs, specifically,
+indexing and searching.
+
+ - mu index - recursively scans a collection of email messages, and
+
+stores information found in a database.
+
+ - mu find - searches for messages based on some search criteria.
+ - mu mkmdir - creates a new maildir
+
+
+mu uses libgmime2 to parse the message, and xapian to store the message data.

@@ -1,0 +1,7 @@
+Linux console font and keytable utilities
+	
+this package allows you to set up the linux console, change the font,
+resize text mode virtual consoles and remap the keyboard.
+
+you will probably want to install a set of data files, such as the one
+in the “console-data” package.

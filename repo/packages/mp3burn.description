@@ -1,0 +1,7 @@
+Burn audio cds directly from mp3, ogg vorbis, or flac files
+	
+mp3burn is a perl script that allows you to burn audio cds composed
+of mp3, ogg vorbis, or flac tracks without an intermediate file conversion
+to .cdr or .wav.
+the .mp3/.ogg/.flac files *are* converted using a decoder, but are
+written to fifos so they don't consume filesystem space during the burn.

@@ -1,0 +1,25 @@
+Monitoring client for acgvision.
+	
+acgvision is a client/server monitoring system. it is made of 4 parts:
+
+ - acgvision-core is the server. it serves jobs to agents, computes
+   information to display on the console and sends email about events.
+ - acgvision-agent is the client. it monitors the system activity.
+ - acgvision-console is a joomla plugin displaying reports about
+   activity and allows selecting monitoring jobs for each agent.
+ - acgvision-parameter is the gui for creating jobs and templates (services)
+   for acgvision.
+
+
+acgvision-agent is the client used by acgvision to monitor the system
+activity. it can monitor cpu activity, memory, filesystem space, and
+processes. it is controlled by the acgvision server (like what to monitor,
+which commands to execute and when to execute them).
+
+it checks the result and compares it to event values. if the value matches
+some criterias it sends an event to the core which will email it to the host
+owner and its followers. the event will also be displayed on the web console.
+
+the client exchanges soap messages with the server via http or https. it
+reports events and executes scripts on failure. it is compatible with many
+nagios scripts.

@@ -1,0 +1,5 @@
+Os independent interface to the unix 'at' command
+	
+schedule::at is an operating system-independent perl interface to 'at', the
+unix command that allows you to execute commands at a specified time. it can
+add new jobs to the queue, read current jobs and remove jobs.

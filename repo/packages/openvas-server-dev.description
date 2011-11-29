@@ -1,0 +1,12 @@
+Remote network security auditor - static libraries and headers
+	
+the open vulnerability assessment system is a modular security auditing
+tool, used for testing remote systems for vulnerabilities that should be
+fixed.
+
+it is made up of two parts: a server, and a client. the server/daemon,
+openvasd, is in charge of the attacks, whereas the client,
+openvas-client, provides an x11/gtk+ user interface.
+
+this package provides the static libraries and headers required for
+compiling the server.

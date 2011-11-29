@@ -1,0 +1,9 @@
+Query object framework - xml backend module
+	
+qof is a framework to allow the execution of sql-type
+queries using collections of in-memory objects as 'tables'.
+
+this module provides the default xml backend for libqof2
+using a generic xml format called qsf. any qof object can
+be written out or loaded from qsf xml. data can be
+converted to other text-based formats using xsl.

@@ -1,0 +1,7 @@
+Unit test framework for c
+	
+check features a simple interface for defining unit tests, putting
+little in the way of the developer. tests are run in a separate
+address space, so check can catch both assertion failures and code
+errors that cause segmentation faults or other signals. the output
+from unit tests can be used within source code editors and ides.

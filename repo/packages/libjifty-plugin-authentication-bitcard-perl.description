@@ -1,0 +1,9 @@
+Bitcard authentication plugin
+	
+jifty::plugin::authentication::bitcard replaces jifty::plugin::user, and
+jifty::plugin::authentication::password, since bitcard handles all the heavy
+lifting for us.
+
+user logins are handled through bitcard.
+
+caution: this plugin has not been thoroughly tested in the wild.

@@ -1,0 +1,84 @@
+Voice over internet protocol (voip) sip phone
+	
+soft-phone for making telephone calls using sip over an ip network.
+
+twinkle supports direct ip phone to ip phone communication or a network
+using a sip proxy to route your calls.
+
+in addition to making basic voice calls twinkle provides you the
+following features regardless of the services that your voip service
+provider might offer.
+
+
+ 2 call appearances (lines)
+ multiple active call identities
+ custom ring tones
+ call waiting
+ call hold
+ 3-way conference calling
+ mute
+ call redirection on demand
+ call redirection unconditional
+ call redirection when busy
+ call redirection no answer
+ reject call redirection request
+ blind call transfer
+ call transfer with consultation (attended call transfer) (new)
+ reject call transfer request
+ call reject
+ repeat last call
+ do not disturb
+ auto answer
+ message waiting indication
+ voice mail speed dial
+ user definable scripts triggered on call events
+  e.g. to implement selective call reject or distinctive ringing
+ rfc 2833 dtmf events
+ in-band dtmf
+ out-of-band dtmf (sip info)
+ stun support for nat traversal
+ send nat keep alive packets when using stun
+ nat traversal through static provisioning
+ missed call indication
+ history of call detail records for incoming, outgoing, successful and missed
+ dns srv support
+ automatic fail-over to an alternate server if a server is unavailable
+ other programs can originate a call via twinkle, e.g. call from address book
+ system tray icon
+ system tray menu to originate and answer calls while twinkle stays hidden
+ user definable number conversion rules
+ simple address book
+ support for udp and tcp (new) as transport for sip
+ presence
+ instant messaging
+ simple file transfer with instant message
+ instant message composition indication
+ command line interface (cli)
+
+
+voip security
+
+ secure voice communication by zrtp/srtp
+ md5 digest authentication support for all sip requests
+ akav1-md5 digest authentication support for all sip requests (new)
+ identity hiding
+
+
+audio codecs
+
+ g.711 a-law (64 kbps payload, 8 khz sampling rate)
+ g.711 u-law (64 kbps payload, 8 khz sampling rate)
+ gsm (13 kbps payload, 8 khz sampling rate)
+ speex narrow band (15.2 kbps payload, 8 khz sampling rate)
+ speex wide band (28 kbps payload, 16 khz sampling rate)
+ speex ultra wide band (36 kbps payload, 32 khz sampling rate)
+ g.726 (16, 24, 32 or 40 kbps payload, 8 khz sampling rate)
+
+
+for all codecs the following preprocessing options are available to improve
+quality at the far end of a call.
+
+ automatic gain control (agc) (new)
+ noise reduction (new)
+ voice activity detection (vad) (new)
+ acoustic echo control (aec) [experimental] (new)

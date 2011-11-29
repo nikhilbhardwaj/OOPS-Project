@@ -1,0 +1,11 @@
+Many board games in one program
+	
+gtkboard aims to provide a common platform for all board games.  all
+games have a common interface.  the first thing you do on starting
+gtkboard is to select a game from the menu.  currently 18 games are
+implemented.  of these, antichess, ataxx, fifteen puzzle, hiq,
+memory, othello, pentaline, plot4, rgb and samegame are fully
+implemented.  checkers, infiltrate, hypermaze, mastermind, maze, and
+tetris are partially implemented but playable.  chess, and pacman are
+partially implemented and currently unplayable.  some are single
+player and some are two player games.

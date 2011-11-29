@@ -1,0 +1,6 @@
+Ssl/ssh multiplexer
+	
+sslh lets one accept both https and ssh connections on the
+same port. it makes it possible to connect to an ssh server
+on port 443 (e.g. from inside a corporate firewall) while
+still serving https on that port.

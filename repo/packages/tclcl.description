@@ -1,0 +1,6 @@
+Shared library of tclcl
+	
+tclcl (tcl with classes) is a tcl/c++ interface used by mash, vic,
+vat, rtp_play and nsnam. it provides a layer of c++ glue over otcl.
+
+this package contains bin file.

@@ -1,0 +1,23 @@
+Comfortable radio application for kde
+	
+kradio is a comfortable radio application for kde 3.x with support for
+v4l and v4l2 radio cards drivers.
+
+kradio currently provides
+
+
+  * v4l/v4l2 radio support
+  * remote control support (lirc)
+  * alarms, sleep countdown
+  * several gui controls (docking menu, station quickbar, radio display)
+  * recording capabilities, including mp3 and ogg/vorbis encoding
+  * timeshifter functionality
+  * extendable plugin architecture
+
+
+this package also includes a growing collection of station preset
+files for many cities around the world contributed by kradio users.
+
+as kradio is based on an extendable plugin architecture, contributions
+of new plugins (e.g. internet radio streams, new cool guis) are welcome.
+.

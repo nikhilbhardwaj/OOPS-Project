@@ -1,0 +1,9 @@
+Hildon libraries - shared libraries
+	
+hildon is the widget library for maemo. it contains a
+generic application window as well as several specialized
+widgets designed for internet tablets. it is very closely
+tied with hildon-theme-plankton.
+
+this package contains the shared libraries, needed to run
+applications that use this library.

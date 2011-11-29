@@ -1,0 +1,9 @@
+Gnu sasl command line utility
+	
+gnu sasl is an implementation of the simple authentication and
+security layer framework and a few common sasl mechanisms. sasl is
+used by network servers (e.g., imap, smtp) to request authentication
+from clients, and in clients to authenticate against servers.
+
+this package contains the gnu sasl command line tool and the
+gnu sasl manual.

@@ -1,0 +1,11 @@
+Moose extension providing parameterized roles
+	
+moosex::role::parameterized is a moose extension that consists of two things:
+parameter declarations and a role block.
+
+parameters are declared using the "parameter" keyword which resembles moose's
+"has", even supporting any option that "has" accepts. you can use any option
+that "has" accepts. the default value for the "is" option is read-only, as
+that's a very common case. these parameters will get their values when the
+consuming class (or role) uses moose's "with". a parameter object will be
+constructed with these values, and passed to the role block.

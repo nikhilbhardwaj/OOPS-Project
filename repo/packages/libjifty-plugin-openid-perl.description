@@ -1,0 +1,5 @@
+Openid authentication plugin for jifty applications
+	
+jifty::plugin::openid is a jifty plugin that provides openid authentication.
+it adds the authentication to your user model. you can also combine this with
+other jifty authentication plugins such as email/password or ldap.

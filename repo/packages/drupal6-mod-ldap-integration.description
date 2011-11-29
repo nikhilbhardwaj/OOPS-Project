@@ -1,0 +1,10 @@
+Ldap_integration module for drupal 6
+	
+this ldap integration module allows users to authenticate against a
+configurable lightweight directory access protocol directory. this is
+useful for organizations which have an existing organizational directory
+with usernames and passwords, and want drupal to be able to authenticate
+against it.
+
+users can read and modify their ldap entries, and the administrator is
+able to limit configuration.

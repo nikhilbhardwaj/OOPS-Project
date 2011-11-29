@@ -1,0 +1,17 @@
+Intuitive gnome web browser
+	
+epiphany is a simple yet powerful gnome web browser targeted at
+non-technical users. its principles are simplicity and standards
+compliance.
+
+simplicity is achieved by a well designed user interface and reliance
+on external applications for performing external tasks (such as reading
+email). simplicity does not mean less features; epiphany has everything
+a modern web browser is expected to have, and can have more through
+its extensions.
+
+standards compliance is achieved on the html side by using the
+webkitgtk+ rendering engine (which is based on the engine used by
+apple safari and google chrome); and on the user interface side by
+closely following the gnome human interface guidelines (hig) and by
+close integration with the gnome desktop.

@@ -1,0 +1,8 @@
+Development libraries for use with f2c
+	
+these are the necessary static libraries and header
+files for an implementation of the fortran intrinsic
+functions and io functions.
+
+they are required when linking applications built from the
+c output from the fortran to c translator f2c.

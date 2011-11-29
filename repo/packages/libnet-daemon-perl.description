@@ -1,0 +1,5 @@
+Perl module for building portable perl daemons easily
+	
+net::daemon is an abstract base class for implementing portable
+server applications in a very simple way. the module is designed
+for perl 5.005 and threads, but can work with fork() and perl 5.004.

@@ -1,0 +1,9 @@
+Simple graphical user interfaces using zenity in octave
+	
+this package provides a set of functions for creating simple graphical
+user interfaces for octave. it is currently possible to create calendar
+windows, text entries, file selection dialogs, lists, message
+windows, icons in the notification area, and windows for large amount
+of text.
+
+this octave add-on package is part of the octave-forge project.

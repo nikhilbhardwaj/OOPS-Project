@@ -1,0 +1,8 @@
+Selinux utility programs
+	
+this package provides various utility programs for a security-enhanced
+linux system. security-enhanced linux is a patch of the linux kernel
+and a number of utilities with enhanced security functionality
+designed to add mandatory access controls to linux. this package
+provides utility programs to get and set process and file security
+contexts and to obtain security policy decisions.

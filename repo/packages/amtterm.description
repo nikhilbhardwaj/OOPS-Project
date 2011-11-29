@@ -1,0 +1,15 @@
+Serial-over-lan (sol) client for intel amt, console version
+	
+amt (included in intel vpro and centrino pro) provides out-of-band (oob)
+management for desktops and laptops, using an agent integrated in the
+network adapter and in the motherboard.
+
+serial-over-lan provides a secure way to connect a remote computer, through
+a pseudo serial interface.
+
+amtterm and gamt are two terminal tools to connect to that pseudo serial
+interface from a remote computer.
+
+amttool is a perl script to gather informations about and remotely
+control amt managed computers. in order to use it you need to have the
+package libsoap-lite-perl installed.

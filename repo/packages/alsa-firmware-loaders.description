@@ -1,0 +1,12 @@
+Alsa software loaders for specific hardware
+	
+a collection of software loaders for specific hardware:
+
+
+ cspctl - sound blaster 16 asp/csp control program
+ hdsploader - firmware loader for the rme hammerfall dsp cards
+ mixartloader - firmware loader for digigram's mixart board sound drivers
+ pcxhrloader - firmware loader for digigram pcxhr compatible soundcards
+ sscape_ctl - soundscape control utility and firmware loader
+ usx2yloader - firmware loader for tascam usx2y usb soundcards
+ vxloader - firmware loader for digigram vx soundcards

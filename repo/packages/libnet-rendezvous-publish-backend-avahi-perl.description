@@ -1,0 +1,4 @@
+Perl module to publish zeroconf data with the avahi library
+	
+net::rendezvous::publish::backend::avahi publishes zeroconf data with the
+avahi library. it is a backend for the net::rendezvous::publish module.

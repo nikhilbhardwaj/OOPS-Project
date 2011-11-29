@@ -1,0 +1,11 @@
+Automates use of a flash disk as the root filesystem
+	
+flashybrid is a system to help in setting up and managing hybrid
+flash/disk/ram based debian systems which can run most of the time
+using only a small flash disk for their root filesystem and do a useful,
+but limited task (such as being a router, or a pda, or a rescue system
+on a usb keydrive). the flash can be as small as 32 mb, though 64 to 256
+mb is more comfortable.
+
+to use this package, you will need a 2.4 or greater version of the lainux
+kernel, with tmpfs support built in.

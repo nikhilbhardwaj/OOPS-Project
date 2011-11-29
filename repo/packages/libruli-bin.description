@@ -1,0 +1,10 @@
+Library for easily querying dns srv records - sample programs
+	
+ruli stands for resolver user layer interface. it's a library
+built on top of an asynchronous dns stub resolver. ruli
+provides an easy-to-use interface for querying dns srv
+resource records. the goal is to promote the wide deployment
+of srv-cognizant client programs. ruli aims to fully support
+srv-related standards.
+
+this package contains the ruli sample programs.

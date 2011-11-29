@@ -1,0 +1,7 @@
+Bind-mount bash as /bin/sh
+	
+small program to bind-mount bash as /bin/sh for its child processes.
+
+it can be used when bash is not the default shell interpreter but a given
+program makes use of bashisms (features not required by policy for sh) and one
+wants to run it without changing (or can not change) the default sh.

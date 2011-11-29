@@ -1,0 +1,9 @@
+Portable shell tool from the gnu project
+	
+gnu shtool is a tool for developers of software programs. it is a compilation
+of small but very stable and portable shell scripts into a single shell tool.
+all ingredients were in successful use over many years in various free software
+projects. the compiled shtool program is intended to be used inside the source
+tree of other free software packages. there it can overtake various (usually
+non-portable) tasks related to the building and installation of such a package.
+it especially can replace the old mkdir.sh, install.sh and related scripts.

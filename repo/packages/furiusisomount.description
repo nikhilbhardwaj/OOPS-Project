@@ -1,0 +1,21 @@
+An iso, img, bin, mdf and nrg image management utility
+	
+furius iso mount is a simple application for mounting .iso, .img, .bin, .mdf
+and .ng image files without burning them to disk.
+
+it provides the following features:
+
+ - automatically mounts iso, img, bin, mdf and nrg image files.
+ - automatically creates a mount point in your home directory.
+ - automatically unmounts the image files.
+ - automatically removes the mount directory to return your home directory to
+   its previous state.
+ - automatically saves the history of the last 10 images mounted.
+ - mounts multiple images.
+ - burn iso and img files to optical disk.
+ - generate md5 and sha1 checksums.
+ - automatically retrieves any previously unmounted images.
+ - automatically generates a log file of all commands needed to mount and
+   unmount images manually.
+ - language support (currently czech, danish, french, hungarian, italian,
+   german, polish, slovenian, spanish and turkish are available).

@@ -1,0 +1,23 @@
+Internet protocol bandwidth measuring tool
+	
+iperf is a modern alternative for measuring tcp and udp bandwidth performance,
+allowing the tuning of various parameters and characteristics.
+
+features:
+
+   * measure bandwidth, packet loss, delay jitter
+   * report mss/mtu size and observed read sizes.
+   * support for tcp window size via socket buffers.
+   * multi-threaded. client and server can have multiple simultaneous
+     connections.
+   * client can create udp streams of specified bandwidth.
+   * multicast and ipv6 capable.
+   * options can be specified with k (kilo-) and m (mega-) suffices.
+   * can run for specified time, rather than a set amount of data to transfer.
+   * picks the best units for the size of data being reported.
+   * server handles multiple connections.
+   * print periodic, intermediate bandwidth, jitter, and loss reports at
+     specified intervals.
+   * server can be run as a daemon.
+   * use representative streams to test out how link layer compression affects
+     your achievable bandwidth.

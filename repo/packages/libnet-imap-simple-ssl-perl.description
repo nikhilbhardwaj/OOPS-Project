@@ -1,0 +1,4 @@
+Subclass of net::imap::simple with ssl support
+	
+this module is a subclass of net::imap::simple that
+includes ssl support. the interface is identical.

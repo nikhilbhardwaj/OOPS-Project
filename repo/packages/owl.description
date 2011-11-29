@@ -1,0 +1,7 @@
+A curses-based tty zephyr client
+	
+an alternative standalone (doesn't use zwgc) zephyr (instant
+messaging) client.  has perl hooks and a curses ui; supports kerberos
+if libzephyr3-krb is present. (also supports aim.)
+
+ktools software -- the 'k' is for quality!

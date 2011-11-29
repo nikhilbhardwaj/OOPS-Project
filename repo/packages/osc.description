@@ -1,0 +1,8 @@
+Opensuse (buildsystem) commander
+	
+commandline client for the opensuse build service, which allows to access
+repositories in the opensuse build service in similar way as subversion
+repositories.
+
+the opensuse build service is service that allows developers to  package
+software for all major linux distributions.

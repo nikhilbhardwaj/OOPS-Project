@@ -1,0 +1,26 @@
+Easy to use traffic shaping script
+	
+an easy to use traffic shaping script that provides these improvements:
+
+ * low latency for interactive traffic (and pings) at all times
+ * allow websurfing at reasonable speeds while uploading / downloading
+ * make sure uploads don't hurt downloads
+ * make sure downloads don't hurt uploads
+
+
+it does this by:
+
+ * limiting upload speed slightly, to eliminate queues
+ * limiting download speed, while allowing bursts, to eliminate queues
+ * interactive traffic skips the queue
+ * acks and tiny packets skip the queue
+
+
+configuring the wondershaper requires you to accurately and precisely
+determine your consistent upload and download speeds.
+
+the wondershaper is the simplest, easiest to use, entry level, traffic
+shaping script provided by debian.
+
+after installing this package, read highly the detailed instructions:
+/usr/share/doc/wondershaper/readme.debian

@@ -1,0 +1,7 @@
+Daemon to auto-mount and manage media devices
+	
+ivman is a daemon that acts as a policy agent on top of hal. it
+listens to hal events and reacts with user-configurable
+actions. currently it supports automount of new media and hot-plugged
+devices, autorun, autoplay for cds and dvds, and automatic camera
+management.

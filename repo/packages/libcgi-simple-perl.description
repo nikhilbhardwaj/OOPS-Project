@@ -1,0 +1,15 @@
+Simple totally oo cgi interface that is cgi.pm compliant
+	
+cgi::simple provides a relatively lightweight drop in replacement for cgi.pm.
+it shares an identical oo interface to cgi.pm for parameter parsing, file
+upload, cookie handling and header generation. this module is entirely object
+oriented, however a complete functional interface is available by using the
+cgi::simple::standard module.
+
+essentially everything in cgi.pm that relates to the cgi (not html) side of
+things is available. there are even a few new methods and additions to old
+ones! if you are interested in what has gone on under the hood see the
+compatibility with cgi.pm section at the end.
+
+in practical testing this module loads and runs about twice as fast as cgi.pm
+depending on the precise task.

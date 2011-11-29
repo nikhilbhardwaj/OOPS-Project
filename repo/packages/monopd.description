@@ -1,0 +1,12 @@
+Monopoly game network server
+	
+monopd is a dedicated game server daemon for playing monopoly-like
+board games. clients such as atlantik and gtkatlantic connect to the
+server, which manages the game. note that you do not need to install
+this server unless you want to use one of the clients offline, or
+play custom game types.
+
+currently supported board games are monopoly(r) and atlantic, a
+variation on monopoly(r), and you can design your own game boards
+using atlantikdesigner. efforts are under way to generalize monopd
+even more and eventually support a multitude of board games.

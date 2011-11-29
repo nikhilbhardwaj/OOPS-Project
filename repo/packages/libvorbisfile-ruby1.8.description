@@ -1,0 +1,12 @@
+Ogg vorbis support library for ruby
+	
+libvorbisfile-ruby is a decoder library provided with the ogg vorbis
+distribution. see http://xiph.org/ogg/vorbis/ for details.
+
+the api of this extension is virtually identical to that of
+vorbisfile.h, with a couple of exceptions:
+
+
+ * prefixes have been removed (ov_open -> open).
+ * the oggvorbis_file parameter is removed, as the vorbisfile object
+   encapsulates this.

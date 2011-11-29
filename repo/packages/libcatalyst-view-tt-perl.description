@@ -1,0 +1,9 @@
+Template view class for catalyst
+	
+catalyst::view::tt is the catalyst view class for the template toolkit. your
+application subclass should inherit from this class. this plugin renders the
+template specified in $c->stash->{template}, or $c->request->match. the
+template variables are set up from the contents of $c->stash, augmented with
+template variable base set to catalyst's $c->req->base, template variable c to
+catalyst's $c, and template variable name to catalyst's $c->config->{name}.
+the output is stored in $c->response->output.

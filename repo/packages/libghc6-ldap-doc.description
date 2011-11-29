@@ -1,0 +1,9 @@
+Ldap interface for haskell
+	
+this package provides an interface to the c ldap api for haskell programmers.
+with it, you can search, modify, and interrogate ldap directories.
+the haskell binding features automatic memory management and proper
+handling for binary data, and handles all marshalling into and out of
+c data structures for you automatically.
+
+this package provides documentation for the haskell ldap bindings.

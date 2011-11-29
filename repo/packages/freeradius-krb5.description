@@ -1,0 +1,4 @@
+Kerberos module for freeradius server
+	
+the freeradius server can use kerberos to authenticate users, and this module
+is necessary for that.

@@ -1,0 +1,9 @@
+Simple rfc1413 client library - runtime
+	
+this is a small library to interface to the ident protocol server;
+"ident" enables a remote host to find out who's the owner of a
+network connection.
+
+/usr/sbin/in.identtestd is a small daemon (to be started from inetd)
+that does an ident lookup on you if you telnet into it. can be used
+to verify that your ident server is working correctly.

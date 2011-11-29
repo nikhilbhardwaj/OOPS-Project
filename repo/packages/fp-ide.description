@@ -1,0 +1,15 @@
+Free pascal - ide
+	
+the free pascal compiler is an object pascal compiler supporting both delphi
+and turbo pascal 7.0 dialects as well as mac pascal dialects.
+it provides a completely portable runtime library (rtl) available on many
+platforms and compatible with turbo pascal, but also a platfrom independent
+class based free component library (fcl) adding many delphi extensions and
+interfacing many popular open source libraries.
+
+some extensions are added to the language, like function overloading. shared
+libraries can be linked and created. delphi language extentions like classes,
+exceptions, ansi strings and open arrays are also supported.
+
+this package contains the integrated development environment (ide). the ide
+has an internal compiler.

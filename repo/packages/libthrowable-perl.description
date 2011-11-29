@@ -1,0 +1,5 @@
+Moose role for classes that can be thrown
+	
+throwable is a moose role for classes that are intended to be thrown as
+exceptions to standard program flow. it automatically saves any previous
+value for $@ and calls die $self.

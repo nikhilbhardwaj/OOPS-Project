@@ -1,0 +1,8 @@
+Ocaml bindings for the sound stretching library
+	
+libsoundtouch is a library that can be used to change pitch and time
+of soundfiles independently. this package provides ocaml interface to
+the c library.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use soundtouch.

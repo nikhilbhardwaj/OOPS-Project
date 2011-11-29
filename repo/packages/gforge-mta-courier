@@ -1,0 +1,4 @@
+PackageId:5291
+Name:gforge-mta-courier
+Version:5.0.2-5
+Deps:courier-mta,debconf,debconf-2.0,cdebconf,cdebconf-udeb,debianutils,gforge-common,gforge-db-postgresql,gforge-db,perl,ucf

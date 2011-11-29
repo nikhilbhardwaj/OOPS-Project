@@ -1,0 +1,9 @@
+The "get hot new stuff" v2 library for the kde platform
+	
+the knewstuff2 ("get hot new stuff" v2)  library adds data sharing
+capabilities to kde applications. technically, it implements the ghns and dxs
+specifications. the library consists of three parts: the data management core
+and ghns protocol implementation, the dxs web service handler, and the user
+interface classes like dialogs and buttons.
+
+this package is part of the kde development platform libraries module.

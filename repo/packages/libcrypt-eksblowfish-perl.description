@@ -1,0 +1,19 @@
+Perl module implementing the eksblowfish block cipher
+	
+an object of this type encapsulates a keyed instance of the eksblowfish
+block cipher, ready to encrypt and decrypt.
+
+eksblowfish is a variant of the blowfish cipher, modified to make the
+key setup very expensive.  ("eks" stands for "expensive key schedule".)
+this doesn't make it significantly cryptographically stronger,
+but is intended to hinder brute-force attacks.  it also makes it
+unsuitable for any application requiring key agility.  it was designed
+by niels provos and david mazieres for password hashing in openbsd.
+see crypt::eksblowfish::bcrypt for the hash algorithm.
+
+eksblowfish is a parameterised (family-keyed) cipher.  it takes a cost
+parameter that controls how expensive the key scheduling is.  it also
+takes a family key, known as the "salt".  cost and salt parameters
+together define a cipher family.  within each family, a key determines an
+encryption function in the usual way.  see crypt::eksblowfish::family
+for a way to encapsulate an eksblowfish cipher family.

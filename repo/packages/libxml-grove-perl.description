@@ -1,0 +1,16 @@
+Perl module for accessing parsed *ml instances
+	
+the xml::grove module provides simple access to the information set of
+parsed xml, html, or sgml instances using a tree of perl hashes.  this
+package also includes several extensions to xml::grove that provide
+the following:
+
+
+ * returning element contents as a string
+ * returning element contents as xml, html, or canonical xml
+ * processing entire groves using the visitor pattern
+ * processing entire groves using perlsax
+ * running a filter over all nodes in the grove
+ * substituting values into an xml template grove
+ * indexing a grove by id or other attributes
+ * accessing elements and objects via url-like paths

@@ -1,0 +1,13 @@
+Interface between mta and virus scanner/content filters
+	
+amavisd-new is a script that interfaces a mail transport agent (mta) with
+zero or more virus scanners, and spamassassin (optional).
+
+it supports all common virus scanners (more than 20 different avs), with
+direct talk-to-daemon support for clamav, openantivirus, trophie, avg,
+f-prot, and sophos avs.
+
+amavisd-new supports all mtas through its generic smtp/lmtp filter mode
+(ideal for postfix and exim).  it is faster and safer to use the smtp/lmtp
+filter mode than using the amavis pipe client.  it supports sendmail milter
+through the amavisd-new-milter package.

@@ -1,0 +1,4 @@
+Tool for correcting bit errors in an aes key schedule
+	
+this program illustrates a technique for correcting bit errors in an aes
+key schedule. it should be used with the output of the aeskeyfinder program.

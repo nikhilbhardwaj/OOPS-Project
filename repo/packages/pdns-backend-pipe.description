@@ -1,0 +1,10 @@
+Pipe/coprocess backend for powerdns
+	
+powerdns is a versatile nameserver which supports a large number
+of different backends ranging from simple zonefiles to relational
+databases and load balancing/failover algorithms.
+powerdns tries to emphasize speed and security.
+
+this package contains the pipe backend for the powerdns nameserver. this
+allows powerdns to retrieve domain info from a process that accepts
+questions on stdin and returns answers on stdout.

@@ -1,0 +1,15 @@
+Mrtg config generator for storage monitoring via snmp
+	
+the purpose of cfgstoragemaker is to remotely generate an mrtg config
+file in order to graph all storage devices (disk, memory and swap) of
+one or more specific host(s) via snmp.
+
+as you can imagine, it was heavily inspired by cfgmaker.
+
+one of the most important advantages of cfgstoragemaker is that you
+don't have to install and run mrtg on the servers you want to
+monitor, everything is done remotely on a distinct and centralized
+monitoring host. the datas are acquired by snmp.
+
+moreover, you don't have to worry about the list of all the mounted
+partitions and their size, cfgstoragemaker will do that for you.

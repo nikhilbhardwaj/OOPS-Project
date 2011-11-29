@@ -1,0 +1,7 @@
+Extended persistence framework for session data
+	
+apache::sessionx extends apache::session. it was initialy written to use
+apache::session inside html::embperl, but it seems to be useful outside of
+embperl as well, so here it is as a standalone module. apache::sessionx
+provides lazy creation of sessions, and an easier configuration using canned
+locking and storage combinations.

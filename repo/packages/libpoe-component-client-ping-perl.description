@@ -1,0 +1,12 @@
+An icmp ping client component for poe
+	
+poe::component::client::ping is an asynchronous, event driven client
+for icmp ping. it accepts events containing the specifics of icmp
+ping requests, and it returns events carrying the results of those
+pings.
+
+ping client components are not proper objects.  instead of being
+created, as most objects are, they are "spawned" as separate sessions.
+to avoid confusion (and hopefully not cause other confusion), they
+must be spawned with a spawn method, not created anew with a new
+one.

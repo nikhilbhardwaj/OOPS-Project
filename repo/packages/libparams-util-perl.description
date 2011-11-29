@@ -1,0 +1,5 @@
+Perl extension for simple stand-alone param checking functions
+	
+params::util provides a basic set of importable functions that makes checking
+parameters easier. the functions provided by params::util check in the most
+strictly correct manner, and it should  not be fooled by odd cases.

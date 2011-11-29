@@ -1,0 +1,16 @@
+Pythonic binding for the libxml2 and libxslt libraries
+	
+lxml is a new python binding for libxml2 and libxslt, completely
+independent from existing python bindings. its aim:
+
+
+  * pythonic api.
+  * documented.
+  * use python unicode strings in api.
+  * safe (no segfaults).
+  * no manual memory management!
+
+
+lxml aims to provide a pythonic api by following as much as possible
+the elementtree api, trying to avoid inventing too many new apis,
+or the user's having to learn new things -- xml is complicated enough.

@@ -1,0 +1,14 @@
+Mit kerberos key server (kdc) ldap plugin
+	
+kerberos is a system for authenticating users and services on a network.
+kerberos is a trusted third-party service.  that means that there is a
+third party (the kerberos server) that is trusted by all the entities on
+the network (users and services, usually called "principals").
+
+this is the mit reference implementation of kerberos v5.
+
+this package contains the ldap plugin for the kerberos key server (kdc)
+and supporting utilities.  this plugin allows the kdc data to be stored
+in an ldap server rather than the default local database.  it should be
+installed on both master and slave kdcs that use ldap as a storage
+backend.

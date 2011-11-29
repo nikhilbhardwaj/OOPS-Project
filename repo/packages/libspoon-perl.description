@@ -1,0 +1,11 @@
+A spiffy application building framework
+	
+spoon is an application framework that is designed primarily for
+building social software web applications. the kwiki wiki software is
+built on top of spoon.
+
+spoon::base is the primary base class for all the spoon::* modules.
+spoon.pm inherits from spiffy.pm.
+
+spoon is not an application in and of itself. (as compared to kwiki)
+you need to build your own applications from it.

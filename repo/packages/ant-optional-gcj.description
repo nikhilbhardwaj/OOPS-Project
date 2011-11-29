@@ -1,0 +1,5 @@
+Java based build tool like make - api documentation and manual
+	
+a system independent (i.e. not shell based) build tool that uses xml
+files as "makefiles". this package contains the optional tasks libraries
+compiled natively.

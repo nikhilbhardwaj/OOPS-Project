@@ -1,0 +1,13 @@
+Module providing low-level manipulation of perl data
+	
+data::peek is a module that allows for low-level manipulation of perl data
+structures, particularly for displaying the internal representation of given
+perl variables.
+
+in particular, it allows one to look at a scalar value to determine whether it
+contains a string (pv), integer (iv or uv) or floating point number (nv); the
+reference count of that scalar (refcount) and other flags (such as whether the
+string is utf-8).
+
+this module can also create triple variables, which are similar to the dual
+variables provided by scalar::util (see libscalar-util-perl).

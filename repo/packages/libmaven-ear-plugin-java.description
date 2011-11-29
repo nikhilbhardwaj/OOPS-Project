@@ -1,0 +1,20 @@
+Maven ear plugin
+	
+maven is a software project management and comprehension tool. based on the
+concept of a project object model (pom), maven can manage a project's build,
+reporting and documentation from a central piece of information.
+
+maven's primary goal is to allow a developer to comprehend the complete
+state of a development effort in the shortest period of time. in order to
+attain this goal there are several areas of concern that maven attempts
+to deal with:
+
+
+   * making the build process easy
+   * providing a uniform build system
+   * providing quality project information
+   * providing guidelines for best practices development
+   * allowing transparent migration to new features
+
+
+the maven ear plugin generates a j2ee enterprise archive (ear) file.

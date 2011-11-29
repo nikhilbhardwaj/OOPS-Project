@@ -1,0 +1,8 @@
+Export captured traffic to remote netflow collector (ulog version)
+	
+this program is obtains packets through lnux netfilter code
+(iptables ulog target). the main advantages of this version
+are native input/output interface  snmp-index support and
+significant performance benefits.
+
+homepage: fprobe.sourceforge.net

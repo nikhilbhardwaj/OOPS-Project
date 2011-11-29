@@ -1,0 +1,13 @@
+Pulls a small newsfeed from an nntp server
+	
+slrnpull pulls a small newsfeed, from an nntp server, to a local news spool
+directory. the news spool can be used by news readers (such as slrn), which
+can read a local news spool without an nntp server.
+
+in combination with the slrn news reader, slrnpull can provide true
+offline news reading. you can tell slrnpull to download headers only,
+mark interesting ones for download with slrn and fetch those article
+bodies during the next run of slrnpull.
+
+slrnpull also has the ability to killfile articles so that they will not
+be downloaded from the server.

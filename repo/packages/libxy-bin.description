@@ -1,0 +1,7 @@
+Xylib - utilities
+	
+xylib is a c++ library for reading files that contain x-y data from powder
+diffraction, spectroscopy and other experimental methods.
+
+this package contains a small program xyconv that converts files supported
+by the xylib library to tsv (tab-separated values).

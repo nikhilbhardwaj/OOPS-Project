@@ -1,0 +1,11 @@
+Live audio streamer
+	
+darkice is an icecast, icecast2 and shoutcast live audio streamer. it
+takes audio input from a sound card, encodes it into mp3 and/or ogg
+vorbis, and sends the mp3 stream to one or more icecast and/or
+shoutcast servers, the ogg vorbis stream to one or more icecast2
+servers. darkice uses lame as a shared object as its mp3 encoder, and
+the ogg vorbis as its ogg vorbis encoder.
+note: the debian version of darkice is only compiled with ogg vorbis
+support due to patent reasons and will therefore only work with icecast2
+servers!

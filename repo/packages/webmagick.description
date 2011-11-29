@@ -1,0 +1,7 @@
+Create gallery thumbnails for website
+	
+webmagick provides a means of easily putting image collections on the
+web. it recurses through directory trees, building html pages and
+imagemap (gif or jpeg) files to allow the user to navigate through
+collections of thumbnail images (somewhat similar to 'xv') and select
+the images to view with a mouse click.

@@ -1,0 +1,6 @@
+Perl libraries related to the xmltv file format for tv listings
+	
+gather television listings, process them and organize your viewing.
+xmltv is a file format for storing tv listings, defined in xmltv.dtd.
+this package includes perl libraries that are part of the xmltv
+package, as well as the xml dtd itself.

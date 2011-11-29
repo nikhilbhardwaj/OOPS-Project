@@ -1,0 +1,10 @@
+Kernel time variables configuration utility
+	
+this package provides a utility to manipulate the kernel time
+variables.  for a machine connected to the internet, or equipped with
+a precision oscillator or radio clock, the best way to keep the
+system clock accurate is using ntp (network time protocol).  however,
+for a standalone or intermittently connected machine, you may use
+adjtimex instead to at least correct for systematic drift.  it can
+optionally adjust the system clock using the cmos clock as a
+reference, and can log times for long-term estimation of drift rates.

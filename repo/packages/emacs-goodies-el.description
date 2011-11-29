@@ -1,0 +1,88 @@
+Miscellaneous add-ons for emacs
+	
+this package contains:
+
+ align-string - align string components over several lines;
+ all - edit all lines matching a given regexp;
+ apache-mode - major mode for editing apache configuration files;
+ ascii - ascii code display for character under point;
+ auto-fill-inhibit - finer grained control over auto-fill-mode;
+ bar-cursor - change your cursor to a bar instead of a block;
+ bm - visible bookmarks in buffers;
+ boxquote - quote texts in nice boxes;
+ browse-huge-tar - browse tar files without reading them into memory;
+ browse-kill-ring - browse, search, modify the kill ring;
+ clipper - save strings of data for further use;
+ coffee - now emacs can even brew coffee;
+ color-theme - changes the colors used within emacs;
+ csv-mode - major mode for comma-separated value files;
+ ctypes - enhanced font lock support for custom defined types;
+ cwebm - a modified cweb/web modified mode;
+ dedicated - make a window dedicated to a single buffer;
+ df - display in the mode line space left on devices;
+ dict - wrapper around the 'dict' command. (depends on bash and dict)
+ diminish - shorten or erase modeline presence of minor modes;
+ dir-locals - provides directory-wide local variables;
+ edit-env - display, edit, delete and add environment variables;
+ egocentric - highlight your name inside emacs buffers;
+ ff-paths - $path-like searching in c-x c-f;
+ filladapt - enhances emacs's built-in adaptive fill;
+ floatbg - slowly modify background color;
+ framepop - display temporary buffers in a dedicated frame;
+ graphviz-dot-mode.el - mode for the dot-language used by graphviz (att).
+ highlight-beyond-fill-column - highlight lines that are too long;
+ highlight-completion - highlight completions in the minibuffer;
+ highlight-current-line - highlight line where the cursor is;
+ home-end - alternative home and end commands;
+ htmlize - html-ize font-lock buffers;
+ initsplit - split customizations into different files;
+ joc-toggle-buffer - fast switching between two buffers;
+ joc-toggle-case - a set of functions to toggle the case of characters;
+ keydef - a simpler way to define key mappings;
+ keywiz - emacs key sequence quiz;
+ lcomp - list-completion hacks;
+ maplev - major mode for maple;
+ map-lines - map a command over lines matching a regexp;
+ markdown-mode - major mode for editing markdown files;
+ marker-visit - navigate through a buffer's marks in order;
+ matlab - major mode for matlab dot-m files;
+ minibuf-electric -  electric minibuffer behavior from xemacs;
+ minibuffer-complete-cycle - cycle through the *completions* buffer;
+ miniedit - enhanced editing for minibuffer fields;
+ mutt-alias - lookup and insert the expansion of mutt mail aliases;
+ muttrc-mode - major mode for editing mutt config files;
+ obfusurl - obfuscate an url;
+ pack-windows - resize all windows to display as much info as possible;
+ perldoc - show help for perl functions and modules. (depends on perl-doc);
+ pod-mode - major mode for editing pod files;
+ pp-c-l - display control-l characters in a pretty way;
+ projects - create project-based meaningful buffer names;
+ prot-buf - protect buffers from accidental killing;
+ protocols - perform lookups in /etc/protocols;
+ quack - enhanced support for editing and running scheme code;
+ rfcview - view ietf rfcs with readability-improved formatting;
+ services - perform lookups in /etc/services;
+ session - saves settings between emacs invocations and visits to a file;
+ setnu - setnu-mode, a vi-style line number mode;
+ shell-command - enables tab-completion for shell-command;
+ show-wspace - highlight whitespaces of various kinds;
+ silly-mail - generate bozotic mail headers;
+ slang-mode.el - a major-mode for editing s-lang scripts;
+ sys-apropos - interface for the *nix apropos command;
+ tabbar - display a tab bar in the header line;
+ tail - "tail -f" a file or a command from within emacs;
+ tc - cite text with proper filling;
+ thinks - quote texts in cartoon-like think bubbles;
+ tlc - major mode for editing target language compiler scripts;
+ tld - explain top-level domain names;
+ todoo - major mode for editing todo files;
+ toggle-option - easily toggle frequently toggled options;
+ twiddle - mode line hacks to keep you awake;
+ under - underline a region with ^ characters;
+ upstart-mode - mode for editing upstart files;
+ wdired - rename files editing their names in dired buffers;
+ xrdb-mode - mode for editing x resource database files.
+
+
+see /usr/share/doc/emacs-goodies-el/readme.debian.gz for a short
+description of all files, or the info node `emacs-goodies-el' for details.

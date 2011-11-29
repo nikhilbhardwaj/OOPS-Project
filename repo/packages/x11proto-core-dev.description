@@ -1,0 +1,15 @@
+X11 core wire protocol and auxiliary headers
+	
+this package provides development headers describing the wire protocol
+for the core x11 protocol, and also provides a number of utility headers,
+used to abstract os-specific functions.
+
+this package deprecates 'x-dev', a package from the monolithic builds of
+xfree86 and x.org.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xproto proto module.

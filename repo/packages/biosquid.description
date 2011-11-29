@@ -1,0 +1,8 @@
+Utilities for biological sequence analysis
+	
+squid is a library of c code functions for sequence analysis. it also
+includes a number of small utility programs to convert, show statistics,
+manipulate and do other functions on sequence files.
+
+the original name of the package is "squid", but since there is already
+a squid on the archive (a proxy cache), it was renamed to "biosquid".

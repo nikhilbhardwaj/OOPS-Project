@@ -1,0 +1,5 @@
+Convert between any two calendrical formats
+	
+date::convert is intended to allow you to convert back and forth between any
+arbitrary date formats (ie. pick any from: gregorian, julian, hebrew,
+absolute, and any others that get added on).

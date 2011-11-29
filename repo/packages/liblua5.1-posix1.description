@@ -1,0 +1,4 @@
+Posix library for the lua language version 5.1
+	
+this package contains the lua posix library, that includes some posix
+functions like fork, chmod, wait, sleep and kill.

@@ -1,0 +1,5 @@
+Interface for subversion repositories written in php
+	
+websvn is a set of php scripts that provides remote access to subversion
+repositories. it supports several repositories, can be customized, supports
+apache multiviews, and can provide rss feeds.

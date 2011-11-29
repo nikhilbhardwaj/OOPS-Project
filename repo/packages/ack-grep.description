@@ -1,0 +1,10 @@
+Grep-like program specifically for large source trees
+	
+ack is designed as a replacement for 99% of the uses of grep. ack is
+intelligent about the files it searches. it knows about certain file
+types, based on both the extension on the file and, in some cases, the
+contents of the file.
+
+ack ignores backup files and files under cvs and .svn directories. it
+also highlights matches to help you see where the match was. ack uses
+perl regular expressions.

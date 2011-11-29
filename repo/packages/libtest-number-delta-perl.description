@@ -1,0 +1,5 @@
+Compare the difference between numbers against a given tolerance
+	
+test::number::delta allows perl programmers to define tests for
+operations that have no exact outcome, but need to return values
+in a given tolerance range around a certain value.

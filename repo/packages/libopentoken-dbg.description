@@ -1,0 +1,10 @@
+Opentoken lexical analysis library for ada (debug)
+	
+opentoken is a facility for performing token analysis within the ada language.
+it is designed to provide all the functionality of a traditional lexical
+analyzer generator, such as lex. but due to the magic of inheritance and
+runtime polymorphism it is implemented entirely in ada as withed-in code. no
+precompilation step is required, and no messy tool-generated source code is
+created.
+
+this package contains the debug symbols.

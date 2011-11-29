@@ -1,0 +1,7 @@
+Simple package to set up iptables on boot
+	
+this package contains just a system startup script that restores iptables
+rules from a configuration file.
+
+since this is aimed at experienced admins, there is no configuration
+wizard.

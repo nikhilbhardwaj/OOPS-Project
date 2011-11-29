@@ -1,0 +1,14 @@
+Manage newsrc files
+	
+news::newsrc manages newsrc files.
+
+ methods are provided for
+ - reading and writing newsrc files
+ - adding and removing newsgroups
+ - changing the order of newsgroups
+ - subscribing and unsubscribing from newsgroups
+ - testing whether groups exist and are subscribed
+ - marking and unmarking articles
+ - testing whether articles are marked
+ - returning lists of newsgroups
+ - returning lists of articles

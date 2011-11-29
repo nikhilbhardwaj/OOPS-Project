@@ -1,0 +1,9 @@
+Simple interprocess messaging system (java implementation)
+	
+d-bus is a message bus, used for sending messages between applications.
+conceptually, it fits somewhere in between raw sockets and corba in
+terms of complexity.
+
+this package provides an implementation of d-bus in java (library).
+
+see the dbus description for more information about d-bus in general.

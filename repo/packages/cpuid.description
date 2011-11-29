@@ -1,0 +1,9 @@
+Intel and amd x86 cpuid display program
+	
+this program displays the vendor id, the processor specific features,
+the processor name string, different kinds of instruction set
+extensions present, l1/l2 cache information, and so on for the
+processor on which it is running.
+
+
+ homepage: http://www.ka9q.net/code/cpuid/

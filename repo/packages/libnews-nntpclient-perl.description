@@ -1,0 +1,5 @@
+Perl module to access nntp servers
+	
+news::nntpclient allows you full access to nntp (aka news or netnews)
+servers from within perl applications. with it you can write applications
+that post articles to nntp servers, download articles, etc.

@@ -1,0 +1,10 @@
+Perl module for using the gnome libxslt library
+	
+xml::libxslt is a fast xslt library, based on the gnome libxslt engine.
+
+performance is currently about twice that of xml::sablotron (based on
+xsltmark tests converted to perl).
+
+the libxslt processor is also highly standards compliant, with
+practically all of xslt 1.0 being supported in version 0.9 of
+libxslt.

@@ -1,0 +1,9 @@
+Mpeg-related plugins for libxine1
+	
+this package contains plugins for the xine video/media player engine,
+which are necessary to decode mpeg-based codecs. among them, this package
+includes the ffmpeg input plugin for xine, which enables xine-based
+players a large variety of modern audio and video codecs.
+
+you most probably want to install this package. it is required if you want
+to watch dvds or digital tv using any xine-based player.

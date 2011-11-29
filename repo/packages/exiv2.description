@@ -1,0 +1,15 @@
+Exif/iptc metadata manipulation tool
+	
+exiv2 can:
+
+
+ * print the exif metadata of jpeg, tiff and several raw image formats as
+   summary info, interpreted values, or the plain data for each tag
+ * print the iptc metadata of jpeg images
+ * print, set and delete the jpeg comment of jpeg images
+ * set, add and delete exif and iptc metadata of jpeg images
+ * adjust the exif timestamp (that's how it all started...)
+ * rename exif image files according to the exif timestamp
+ * extract, insert and delete exif metadata, iptc metadata and jpeg comments
+ * extract, insert and delete the thumbnail image embedded in the exif metadata
+ * fix the exif iso setting of picture taken with nikon cameras

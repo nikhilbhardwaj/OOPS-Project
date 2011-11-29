@@ -1,0 +1,9 @@
+Socks library for packages built using libsocksd-dev
+	
+dante is a circuit-level firewall/proxy that can be used to provide
+convenient and secure network connectivity to a wide range of hosts
+while requiring only the server dante runs on to have external network
+connectivity.
+
+this package provides the dante socks support library and will generally
+be automatically selected by packages that require it.

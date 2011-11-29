@@ -1,0 +1,7 @@
+Simple html tokenizer/parser for ruby
+	
+libhtml-htmltokenizer-ruby is a port of perl's
+html::tokeparser::simple to ruby.  it is a simple html parsing
+class which takes a string and parses out tokens.
+
+homepage: http://rubyforge.org/projects/htmltokenizer

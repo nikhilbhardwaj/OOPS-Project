@@ -1,0 +1,9 @@
+Binding to the cairo library; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+cairo is a library to render high quality vector graphics. there exist various
+backends that allows rendering to gtk windows, pdf, ps, png and svg documents,
+amongst others.

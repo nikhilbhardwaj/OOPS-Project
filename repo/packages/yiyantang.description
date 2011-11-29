@@ -1,0 +1,7 @@
+Terminal-based chinese automatic encoding converter
+	
+yyt is a pseudo-tty program that converts chinese terminal output
+encoded in gb/big5 to a preset encoding automatically. it is
+useful for users who have to work with multiple chinese encoding
+in console applications. now it also converts input to the incoming
+encoding if the incoming encoding is set explicitly.

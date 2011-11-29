@@ -1,0 +1,7 @@
+Mpeg audio decoder development library
+	
+mad is an mpeg audio decoder. it currently only supports the mpeg 1
+standard, but fully implements all three audio layers (layer i, layer ii,
+and layer iii, the latter often colloquially known as mp3.)
+
+this is the package you need to develop or compile applications that use mad.

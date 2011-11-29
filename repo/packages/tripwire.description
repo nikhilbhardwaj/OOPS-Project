@@ -1,0 +1,7 @@
+File and directory integrity checker
+	
+tripwire is a tool that aids system administrators and users in
+monitoring a designated set of files for any changes.  used with
+system files on a regular (e.g., daily) basis, tripwire can notify
+system administrators of corrupted or tampered files, so damage
+control measures can be taken in a timely manner.

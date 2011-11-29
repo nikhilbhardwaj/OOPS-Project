@@ -1,0 +1,8 @@
+Object-oriented backtrace
+	
+devel::backtrace provides methods for accessing backtrace information, i.e.
+it allows to see the "route" through a script. it returns short or detailed
+information about backtrace points as strings.
+
+the included devel::dollarat module gives some additional functionality to
+the $@ scalar, i.e. it makes interpreting exceptions easier.

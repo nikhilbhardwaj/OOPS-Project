@@ -1,0 +1,11 @@
+Gnome applet for monitoring current and upcoming tv programs
+	
+ontv is a gnome applet written in python using pygtk, it uses xmltv files
+to monitor current and upcoming tv programs. features include:
+
+       * program descriptions as tooltips.
+       * remaining time of/until current and upcoming programs.
+       * program search dialog with incremental search.
+       * global keybindings for most common actions.
+       * program reminders.
+       * and more...

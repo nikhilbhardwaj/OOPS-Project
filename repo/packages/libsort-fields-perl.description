@@ -1,0 +1,15 @@
+Sort lines containing delimited fields
+	
+sort::fields provides a general purpose technique for efficiently sorting
+lists of lines that contain data separated into fields.
+
+sort::fields automatically imports two subroutines, fieldsort and
+make_fieldsort, and two variants, stable_fieldsort and
+make_stable_fieldsort.  make_fieldsort generates a sorting subroutine
+and returns a reference to it.  fieldsort is a wrapper for
+the make_fieldsort subroutine.
+
+the first argument to make_fieldsort is a delimiter string, which is
+used as a regular expression argument for a split operator.  the
+delimiter string is optional.  if it is not supplied, make_fieldsort
+splits each line using /\s+/.

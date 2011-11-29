@@ -1,0 +1,14 @@
+Development utilities for libgtkada2
+	
+gtkada is a library that allows programmers to write gtk+ applications in the
+ada programming language.
+
+this package contains development utilities:
+
+
+ * gate2 generates ada source files from glade user interface description
+   files.
+ * gtkada2-dialog displays a dialog box according to a description on standard
+   input.
+ * generate2 reads the c header file for a gtk+ entity and creates a thin ada
+   binding for it.

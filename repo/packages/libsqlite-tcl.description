@@ -1,0 +1,7 @@
+Sqlite tcl bindings
+	
+sqlite is a c library that implements an sql database engine.
+programs that link with the sqlite library can have sql database
+access without running a separate rdbms process.
+
+this package contains the tcl bindings.

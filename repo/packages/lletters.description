@@ -1,0 +1,15 @@
+Gtk letters-learning game for small children
+	
+this is based on author's daughter's (formerly) favorite game, larry's
+learning letters and numbers. this is a linux replacement, written from
+scratch, with many improvements.  it was built using the gtk (gimp
+toolkit) for x.  it presently works with 1.0.x and 1.1.x, but images
+load faster with the newer library.
+
+it is intended for children 2 and up, and is a fun learning game.  it
+helps younger children learn their letters and numbers, while older
+children will improve their spelling, and vocabulary skills.  it also
+helps them develop important keyboard and mouse skills too.
+
+you can have more than one image for each word, more than one word for each
+letter, and you can add new images without recompiling too.

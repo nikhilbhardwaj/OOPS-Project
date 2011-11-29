@@ -1,0 +1,7 @@
+Sawfish debugging symbols
+	
+this package contains the debugging symbols from the sawfish window manager.
+it is not needed for normal operation of the package.
+
+install it if you need to debug problems in sawfish. you will also almost
+certainly need sawfish-lisp-source in that case.

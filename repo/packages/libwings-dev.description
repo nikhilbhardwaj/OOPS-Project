@@ -1,0 +1,8 @@
+Window maker's own widget set
+	
+wings is not gnustep (wings) is a small widget set with the nextstep
+look and feel. its api is inspired in openstep and its
+implementation borrows some ideas from tk. it has a reasonable set of
+widgets, sufficient for building small applications like a cdplayer
+or hacking something like rxvt. it is used for basic widgets in
+the windowmaker window manager.

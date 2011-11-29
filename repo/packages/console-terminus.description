@@ -1,0 +1,10 @@
+Fixed-width fonts for fast reading on the linux console
+	
+this package installs in /usr/share/consolefonts several console
+variants of the terminus font.  if you have to work for extended time
+in front of monitor (i.e. over eight hours), you may find that using
+of these fonts reduces your eyes-fatigue.
+
+the following charsets are supported: western european latin, central
+european latin, turkish latin, romanian latin, slavic cyrillic and
+asian cyrillic (bashkyr, kazakh, mongolian and others).

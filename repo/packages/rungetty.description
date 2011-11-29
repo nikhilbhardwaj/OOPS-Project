@@ -1,0 +1,11 @@
+Minimal console getty that can run any process
+	
+rungetty might be the getty you were looking for.  it is able to run any
+program, not just login. if a different program than login is used it usually
+is run as nobody:nogroup, or the user/group specified on the commandline.
+rungetty can even be configured to autologin, under certain circumstances.
+see the manual page for more information.
+
+you have to change some lines in /etc/inittab for having any effect after
+installing the package.  rungetty is based on mingetty and therefore not
+suitable for serial use.

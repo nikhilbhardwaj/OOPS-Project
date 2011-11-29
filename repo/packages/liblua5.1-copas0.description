@@ -1,0 +1,6 @@
+Copas is a dispatcher of concurrent tcp/ip requests for lua 5.1
+	
+copas is a dispatcher of concurrent tcp/ip requests based on corutines.  a
+server registered with copas should provide a handler for requests and use
+copas socket functions to send the response. copas loops through requests and
+invokes the corresponding handlers.

@@ -1,0 +1,16 @@
+Easy-to-use download manager written in gtk+2
+	
+uget (formerly urlgfe) is a simple, lightweight and easy-to-use
+download manager.
+it provides the following features:
+
+ * resume downloads.
+ * queue downloads.
+ * classify downloads in categories.
+ * mozilla firefox integration (through flashgot plugin).
+ * clipboard monitoring.
+ * import downloads import from html files.
+ * batch download.
+
+
+it also can be launched from the command line.

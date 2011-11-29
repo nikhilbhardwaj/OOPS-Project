@@ -1,0 +1,18 @@
+Utilities for managing the jfs filesystem
+	
+utilities for managing ibm's journaled file system (jfs) under linux.
+
+ibm's journaled file system technology, currently used in ibm
+enterprise servers, is designed for high-throughput server
+environments, key to running intranet and other high-performance
+e-business file servers.
+
+the following utilities are available:
+fsck.jfs - initiate replay of the jfs transaction log, and check and repair a
+jfs formatted device.
+logdump - dump a jfs formatted device's journal log.
+logredo - "replay" a jfs formatted device's journal log.
+mkfs.jfs - create a jfs formatted partition.
+xchkdmp - dump the contents of a jfs fsck log file created with xchklog.
+xchklog - extract a log from the jfs fsck workspace into a file.
+xpeek - shell-type jfs file system editor.

@@ -1,0 +1,12 @@
+Perl framework to handle multiple event loops
+	
+anyevent is not an event model itself, it only interfaces to whatever event
+model the main program happens to use, in a pragmatic way. for event models,
+the statement "there can only be one" is a bitter reality: in general, only
+one event loop can be active at the same time in a process. this module
+cannot change this, but it can hide the differences between them.
+
+the goal of anyevent is to offer module authors the ability to do event
+programming (waiting for i/o or timer events) without subscribing to a
+religion, a way of living, and most importantly: without forcing your module
+users into the same thing by forcing them to use the same event model you use.

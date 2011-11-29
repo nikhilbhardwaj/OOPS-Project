@@ -1,0 +1,11 @@
+Client for spamassassin spam filtering daemon
+	
+spamc is the client to communicate with spamd, the daemonized form of
+spamassassin (see the spamassassin package). it is written in c for
+maximum speed and minimum loading overhead.
+
+spamc is quite useful for integrating spamassassin into an mta or
+into a .procmailrc file because of its speed.
+
+this package is useless unless you have spamassassin installed,
+either on this machine or another local machine (i.e. a mail server).

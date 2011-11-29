@@ -1,0 +1,19 @@
+Provide access to (sm)bios information - development files
+	
+libsmbios aims towards providing access to as much bios information as
+possible. it does this by providing a library of functions that can be
+used as well as sample binaries.
+
+it incorporates extensible access to smbios information capabilities and
+ability to perform unit tests across multiple systems without using physical
+hardware. moreover, centralized, data-driven exception handling for broken
+bios tables is provided.
+
+to start out with, the focus is on the smbios tables. currently, full access
+to the smbios table and its items is implemented. in the future, it will
+provide $pir, mptable, rci, rbu, and other tables as well.
+
+additionally, access and manipulation of dell indexed io token (type 0xd4)
+is implemented. this token is a vendor-extention smbios structure which
+allows uniform access to manipulate the system cmos to enable, disable, or
+otherwise manipulate normal bios functions or features.

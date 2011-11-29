@@ -1,0 +1,21 @@
+Matrix manipulations library (c++)
+	
+newmat library is intended for scientists and engineers
+who need to manipulate a variety of types of matrices
+using standard matrix operations.
+emphasis is on the kind of operations needed in statistical calculations
+such as least squares, linear equation solve and eigenvalues.
+
+newmat supports matrix types: matrix (rectangular matrix);
+uppertriangularmatrix; lowertriangularmatrix; diagonalmatrix;
+symmetricmatrix; bandmatrix; upperbandmatrix; lowerbandmatrix;
+symmetricbandmatrix; identitymatrix;
+rowvector; columnvector.
+
+only one element type (float or double) is supported (default is double).
+
+the library includes the operations *, +, -, *=, +=, -=, kronecker product,
+schur product, concatenation, inverse, transpose, conversion between types,
+submatrix, determinant, cholesky decomposition, qr triangularisation,
+singular value decomposition, eigenvalues of a symmetric matrix, sorting,
+fast fourier and trig. transforms and printing.

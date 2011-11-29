@@ -1,0 +1,13 @@
+Python module for odbc database access - debugging symbols
+	
+a python db api 2 module for odbc. no 3rd party libraries are required.
+only native python datatypes are used, such as decimal and datetime.
+it implements the python database api specification v2.0.
+for example:
+import pyodbc
+next, create a connection by passing an odbc connection string to the
+connect method. this step causes odbc to load the database driver (the sql
+server driver in this example) and connect to the database.
+cnxn = pyodbc.connect('dsn=northwind')
+
+this package contains debugging symbols.

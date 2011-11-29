@@ -1,0 +1,9 @@
+Implements a flat filesystem in perl
+	
+file::flat implements a flat filesystem. a flat filesystem is a filesystem
+in which directories do not exist. it provides an abstraction over any normal
+filesystem which makes it appear as if directories do not exist.
+
+in effect, it will automatically create directories as needed. this is create
+for things like install scripts and such, as you never need to worry about the
+existance of directories, just write to a file, no matter where it is.

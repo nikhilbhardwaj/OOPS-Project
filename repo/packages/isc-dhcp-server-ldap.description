@@ -1,0 +1,11 @@
+Dhcp server able to use ldap as backend
+	
+this is the server from the internet software consortium's implementation of
+dhcp. for more information, visit http://www.isc.org.
+
+dynamic host configuration protocol (dhcp) is a protocol like bootp
+(actually dhcpd includes much of the functionality of bootpd). it
+gives client machines "leases" for ip addresses and can
+automatically set their network configuration.
+
+this is the dhcp server with ldap patches applied to it.

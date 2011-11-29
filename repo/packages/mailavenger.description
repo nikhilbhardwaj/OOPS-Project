@@ -1,0 +1,35 @@
+Highly configurable, mta-independent smtp filter server
+	
+mail avenger is a highly configurable, mta-independent spam filtering solution
+at smtp'ing time.
+
+the criteria mail avenger uses to handle filtering is based on a "how is it
+being send?" fashion, instead of the classical "what are you sending?" model,
+in which the body or mail itself is analysed looking for spam patterns,
+keywords, bad words or applying bayesian filters, like spamassassin, dspam or
+spambayes does.
+
+a distinguishing feature of mail avenger is that it allows you to reject spam
+during smtp time, before even spooling messages in your local mail queue.
+this carries interesting features like identifying most clients os (using
+tcp syn fingerprints), acquiring client's network information, embed
+cryptographically secure expiration times in temporary mail addresses
+to validate mail before receiving the message body, between others.
+
+this is a partial list of features:
+
+ * mail-bomb protection
+ * tcp filtering
+ * network-level traffic analysis
+ * smtp-level traffic analysis
+ * smtp callbacks
+ * per-user and per-user-extension mail scripts
+ * per-user mail relay checks
+ * virtual domain mapping
+ * alias to user mapping
+ * rbl support
+ * spf
+ * spf language queries
+ * asynchronous dns queries
+ * "bodytest" support
+ * smtp starttls support

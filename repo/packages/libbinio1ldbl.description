@@ -1,0 +1,7 @@
+Binary i/o stream class library
+	
+the binary i/o stream class library presents a platform-independent way to
+access binary data streams in c++. the library is hardware independent in
+the form that it transparently converts between the different forms of
+machine-internal binary data representation. it further employs no special
+i/o protocol and can be used on arbitrary binary data sources.

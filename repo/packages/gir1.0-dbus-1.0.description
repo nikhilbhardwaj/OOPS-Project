@@ -1,0 +1,7 @@
+Gobject introspection data for the d-bus library
+	
+this package contains introspection data for d-bus, a simple
+interprocess messaging system.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

@@ -1,0 +1,20 @@
+Perl interface to the gstreamer media processing framework
+	
+libgstreamer-perl allows a perl developer to use the gstreamer libraries
+in a perlish way, freeing the programmer from any memory management and
+object casting.
+
+gstreamer is a media processing framework with support for a wide variety
+of data sources, sinks, and formats through the use of dynamically loaded
+plugins.
+
+the perl bindings follow the c api very closely, and the c reference
+documentation should be considered the canonical source.
+
+this module is part of gtk2-perl.
+
+to discuss gtk2-perl, ask questions and flame/praise the authors,
+join gtk-perl-list@gnome.org at lists.gnome.org.
+
+also have a look at the gtk2-perl website and sourceforge project page,
+http://gtk2-perl.sourceforge.net

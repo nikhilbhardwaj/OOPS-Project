@@ -1,0 +1,8 @@
+Qt 4 designer module
+	
+qt is a cross-platform c++ application framework. qt's primary feature
+is its rich set of widgets that provide standard gui functionality.
+
+the qtdesigner module provides classes that allow you to create your own
+custom widget plugins for qt designer, and classes that enable you to access
+qt designer's components.

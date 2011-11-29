@@ -1,0 +1,11 @@
+View multiple logfiles windowed on console
+	
+multitail lets you view one or multiple files like the original tail
+program.
+
+the difference is that this program creates multiple windows on
+your console (with ncurses). it can also use colors while displaying the
+logfiles for faster recognizing which lines are important and which are
+not.
+
+it is optimized for terminal-sessions through slow links.

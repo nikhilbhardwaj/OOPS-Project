@@ -1,0 +1,8 @@
+Remote desktop protocol (rdp) server
+	
+based on research work by the rdesktop project, xrdp uses the remote
+desktop protocol to present a graphical login to a remote client.
+xrdp can connect to a vnc server or another rdp server.
+
+microsoft windows users can connect to a system running xrdp without
+installing additional software.

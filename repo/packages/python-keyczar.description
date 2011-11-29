@@ -1,0 +1,16 @@
+Toolkit for safe and simple cryptography for python
+	
+keyczar is an open source cryptographic toolkit designed to make it easier and
+safer for devlopers to use cryptography in their applications. keyczar
+supports authentication and encryption with both symmetric and asymmetric keys.
+some features of keyczar include:
+
+
+ * a simple api
+ * key rotation and versioning
+ * safe default algorithms, modes, and key lengths
+ * automated generation of initialization vectors and ciphertext signatures
+ * java, python, and c++ implementations
+
+
+this package provides the python implementation of keyczar.

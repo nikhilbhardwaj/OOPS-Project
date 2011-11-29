@@ -1,0 +1,11 @@
+N at a time iteration api
+	
+data::stream::bulk is a utility for working with data streams of indefinite
+size. it tries to find a middle ground between one-at-a-time and all-at-once
+processing of data sets by providing a common interface for both.
+
+often, data sets from streams can fit entirely in memory, so operating on them
+with an array is simple and appropriate. however, in cases where the stream is
+not bounded, the array can grow to a very large size and quickly consume all
+available memory. this module allows developers to work with data in blocks
+which are guaranteed to fit in memory.

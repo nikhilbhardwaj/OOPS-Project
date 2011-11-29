@@ -1,0 +1,5 @@
+Jifty plugin providing charting functionality
+	
+jifty::plugin::chart provides a charting framework that can be used by jifty
+applications to build data visualizations without regard to the underlying
+rendering mechanism.

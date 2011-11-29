@@ -1,0 +1,9 @@
+Disassembler for 8052, 8048/8041, and z80/8080/8085 code
+	
+disassembler for microcontroller code which supports various targets.
+
+this package contains:
+
+ - d52: a disassembler for 8052 code,
+ - d48: a disassembler for 8048/8041 code,
+ - dz80: a disassembler for z80/8080/8085 code.

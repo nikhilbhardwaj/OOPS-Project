@@ -1,0 +1,5 @@
+Fuse filesystem for mounting files from http servers
+	
+httpfs2 is a fuse based filesystem for mounting http or https urls as files in
+the filesystem. there is no notion of listable directories in http so only a
+single url can be mounted. the server must be able to send byte ranges.

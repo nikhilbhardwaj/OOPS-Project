@@ -1,0 +1,12 @@
+Compiler for finite element variational forms
+	
+the fenics form compiler ffc provides state-of-the-art automatic and efficient
+evaluation of general multilinear forms (variational formulations) for fenics.
+ffc functions as the form evaluation system for dolfin but can also be used to
+compile forms for other systems.
+
+ffc works as a compiler for multilinear forms by generating code (c or c++)
+for the evaluation of a multilinear form given in mathematical notation. this
+new approach to form evaluation makes it possible to combine generality with
+efficiency; the form can be given in mathematical notation and the generated
+code is as efficient as hand-optimized code.

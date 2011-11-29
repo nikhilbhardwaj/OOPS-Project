@@ -1,0 +1,15 @@
+Protocol implementation of visca cameras control interface
+	
+visca is a protocol used to control many pan and tilt cameras. it is commonly
+found in cameras used for computer vision or robotics research, as well as
+video conferencing.
+
+libvisca is a library for controlling a visca(tm) compliant camera through the
+rs232 port of your pc. visca, on its side, is a protocol developed by sony so
+that a lot of machine vision cameras from sony are compliant with visca.
+
+typical cameras include the fcb-ix47 family of camera block for oems.
+note that other devices, such as vcrs, can be controlled.
+
+this package contains the shared library.
+.

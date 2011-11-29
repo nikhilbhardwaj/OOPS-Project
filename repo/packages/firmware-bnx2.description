@@ -1,0 +1,19 @@
+Binary firmware for broadcom netxtremeii
+	
+this package contains the binary firmware for broadcom netxtremeii network
+adapters supported by the bnx2 driver.
+
+contents:
+
+ * broadcom netxtremeii 5706/5708 firmware, version linux 2.6.25 (bnx2-06-4.0.5.fw)
+ * broadcom netxtremeii 5709 firmware, version linux 2.6.25 (bnx2-09-4.0.5.fw)
+ * broadcom netxtremeii 5706/5708 firmware (mips), version linux 2.6.32 (bnx2/bnx2-mips-06-5.0.0.j3.fw)
+ * broadcom netxtremeii 5706/5708 firmware (rv2p), version linux 2.6.32 (bnx2/bnx2-rv2p-06-5.0.0.j3.fw)
+ * broadcom netxtremeii 5709/5716 firmware (mips), version linux 2.6.32 (bnx2/bnx2-mips-09-5.0.0.j3.fw)
+ * broadcom netxtremeii 5709/5716 firmware (rv2p), version linux 2.6.32 (bnx2/bnx2-rv2p-09-5.0.0.j3.fw)
+ * broadcom netxtremeii 5709 a0/a1 firmware (rv2p), version linux 2.6.32 (bnx2/bnx2-rv2p-09ax-5.0.0.j3.fw)
+ * broadcom netxtremeii 5706/5708 firmware (mips), version linux 2.6.37 (bnx2/bnx2-mips-06-6.0.15.fw)
+ * bnx2/bnx2-rv2p-06-6.0.15.fw
+ * broadcom netxtremeii 5709/5716 firmware (mips), version linux 2.6.37 (bnx2/bnx2-mips-09-6.0.17.fw)
+ * broadcom netxtremeii 5709/5716 firmware (rv2p), version linux 2.6.37 (bnx2/bnx2-rv2p-09-6.0.17.fw)
+ * broadcom netxtremeii 5709 a0/a1 firmware (rv2p), version linux 2.6.37 (bnx2/bnx2-rv2p-09ax-6.0.17.fw)

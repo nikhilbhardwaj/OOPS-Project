@@ -1,0 +1,7 @@
+Programs to mirror-image or melt your display
+	
+flip your (or your "xhost +" using friend's) screen on either the vertical
+or horizontal axis or melt away the graphics on your display. both commands,
+named xflip and meltdown, have a -planes option to independently act on
+individual bit planes. this version now comes with a new -oblic option which
+flips horizontally and vertically simultaneously.

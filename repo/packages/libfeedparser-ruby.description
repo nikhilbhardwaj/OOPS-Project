@@ -1,0 +1,7 @@
+Ruby library to parse atom/rss feeds (dummy package)
+	
+ruby-feedparser is a library allowing ruby developers to parse rss and
+atom feeds.
+
+this package is a dependency package, which depends on debian's default ruby
+version (currently 1.8.x).

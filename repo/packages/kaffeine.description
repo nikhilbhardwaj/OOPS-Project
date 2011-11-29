@@ -1,0 +1,9 @@
+Versatile media player for kde
+	
+kaffeine is a media player for kde. while it supports multiple phonon
+backends, its default backend is xine, giving kaffeine a wide variety of
+supported media types and letting kaffeine access cds, dvds, and
+network streams easily.
+
+kaffeine can keep track of multiple playlists simultaneously, and supports
+autoloading of subtitles files for use while playing video.

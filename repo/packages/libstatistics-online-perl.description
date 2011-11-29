@@ -1,0 +1,5 @@
+Module to perform statistic operations on large datasets
+	
+statistics::online is a pure perl implementation of the on-line algorithm to
+produce statistics on large datasets which, typically, could not fit the memory
+of the machine, e.g. a stream of data from the network.

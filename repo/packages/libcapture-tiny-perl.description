@@ -1,0 +1,6 @@
+Module to capture stdout and stderr
+	
+capture::tiny is a perl module that provides a simple, portable way to
+capture anything sent to stdout or stderr, regardless of whether it comes
+from perl, xs code or an external program. further, output can be captured
+while being passed through to the original handles.

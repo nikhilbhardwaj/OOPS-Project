@@ -1,0 +1,8 @@
+Cairo-dock - cairo clipper plug-in
+	
+a collection of official plug-ins and applets for cairo-dock.
+
+this plug-in keeps a trace of the clipboard and mouse selection,
+so that you can recall them quickly. it's a clone of the well-know klipper.
+this supports clipboard and mouse selection, predefined actions, and
+persistent items.

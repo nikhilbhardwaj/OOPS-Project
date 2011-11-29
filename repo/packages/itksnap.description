@@ -1,0 +1,14 @@
+Semi-automatic segmentation of structures in 3d images
+	
+snap provides semi-automatic segmentation of structures in medical
+images (e.g.  magnetic resonance images of the brain) using active
+contour methods, as well as manual delineation and image navigation.
+noteworthy features are:
+
+
+ * linked cursor for seamless 3d navigation
+ * manual segmentation in three orthogonal planes at once
+ * support for many different 3d image formats, including nifti
+ * support for concurrent, linked viewing and segmentation of multiple images
+ * limited support for color images (e.g., diffusion tensor maps)
+ * 3d cut-plane tool for fast post-processing of segmentation results

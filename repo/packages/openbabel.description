@@ -1,0 +1,30 @@
+Chemical toolbox utilities
+	
+open babel is a chemical toolbox designed to speak the many languages of
+chemical data. it allows to search, convert, analyze, or store data from
+molecular modeling, chemistry, solid-state materials, biochemistry, or related
+areas.  features include:
+
+
+ * hydrogen addition and deletion
+ * support for molecular mechanics
+ * support for smarts molecular matching syntax
+ * automatic feature perception (rings, bonds, hybridization, aromaticity)
+ * flexible atom typer and perception of multiple bonds from atomic coordinates
+ * gasteiger-marsili partial charge calculation
+
+
+file formats open babel supports include pdb, xyz, cif, cml, smiles, mdl
+molfile, chemdraw, gaussian, gamess, mopac and mpqc.
+
+this package includes the following utilities:
+
+ * babel: convert between various chemical file formats
+ * obenergy: calculate the energy for a molecule
+ * obminimize: optimize the geometry, minimize the energy for a molecule
+ * obgrep: molecular search program using smarts pattern
+ * obprop: print standard molecular properties
+ * obfit: superimpose two molecules based on a pattern
+ * obrotamer: generate conformer/rotamer coordinates
+ * obchiral: print molecular chirality information
+ * obrotate: rotate dihedral angle of molecules in batch mode

@@ -1,0 +1,8 @@
+Moose extension to delay errors for attribute declarations
+	
+moosex::lazyrequire adds a lazy_require option to moose attribute
+declarations.
+
+the reader methods for all attributes with that option will throw an
+exception unless a value for the attributes was provided earlier by a
+constructor parameter or through a writer method.

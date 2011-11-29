@@ -1,0 +1,10 @@
+Application for easy access to any pastebin
+	
+app::nopaste is a perl module and application collection to upload arbitrary
+text, usually code, to pastebins (also known as nopaste sites) for public
+viewing. they're used a lot in irc channels to show code that would normally
+be too long to give directly in the channel.
+
+each pastebin is slightly different; this program attempts to encapsulate the
+differences between them and provide a unified, redundant interface to upload
+code. if one site doesn't work, it simply tries a different one.

@@ -1,0 +1,7 @@
+Ruby client library for memcached (ruby 1.9.1)
+	
+this is intended to provide access to basic memcached functionality. it
+does not attempt to be complete implementation of the entire api, but it
+is approaching a complete implementation.
+
+this package is built for ruby 1.9.1.

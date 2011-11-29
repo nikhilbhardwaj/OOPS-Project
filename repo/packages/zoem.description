@@ -1,0 +1,24 @@
+General-purpose macro/programming language for transforming text
+	
+zoem is a language for transforming text. it supports the creation of
+light-weight mark-up languages as macro packages built on top of zoem.
+pud (portable unix documentation) provides two such mini-languages and
+is shipped with zoem.  the pud languages are for generating manpages and
+faq documents in both html and troff.
+
+zoem submits text to a two-stage transformation process. macro
+expansion and interpretation is followed by application of
+customizable character filtering rules. zoem supports inside-out
+evaluation, comprehensive io, control operators, iteration,
+dictionary stacks, multidimensional data storage, arithmetic
+expressions, regular expressions, system commands, and more.
+
+pud allows semantic mark-up, abstraction from repeated (mark-up)
+elements, centralized control, automatic generation of toc sections,
+and more of that stuff.
+
+if you'd like to generate manpages, but don't like troff syntax, and
+find perl's pod too limited, zoem's pud is likely useful for you. if
+you like your documents to be available in both pdf and html, but
+find docbook xml too heavyweight (and aren't really happy with
+docbook xml's baroque default tagnames), you'll like pud.

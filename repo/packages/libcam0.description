@@ -1,0 +1,4 @@
+Freebsd cam (common access method) library
+	
+the cam (common access method) library provides a way for userland
+scsi applications to construct a scsi command.

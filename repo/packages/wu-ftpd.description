@@ -1,0 +1,26 @@
+Powerful and widely used ftp server
+	
+this ftp daemon, originally from the washington university of st. louis,
+is a powerful, and widely used replacement ftp server for unix systems.
+the ftp protocol is a method of transferring files between machines on
+a network and/or over the internet.
+
+besides fully supporting the ftp protocol defined in rfcs 959 and
+1579 (and others), it adds the following features:
+
+    o  logging of transfers,
+    o  logging of commands,
+    o  on the fly compression and archiving,
+    o  classification of users on type and location,
+    o  per class limits,
+    o  per directory upload permissions,
+    o  restricted guest accounts,
+    o  system wide and per directory messages,
+    o  directory aliases,
+    o  cdpath,
+    o  filename filter,
+    o  virtual host support (similar to the apache http server).
+
+
+this release is maintained by the wu-ftpd development group as a
+public service to the internet.

@@ -1,0 +1,5 @@
+Python bindings for the gtkspell library
+	
+this package contains bindings allowing to run python programs using
+the gtkspell library, that extends gtk+'s gtktextview widget with
+support for spell-checking.

@@ -1,0 +1,16 @@
+Python bindings for qt4
+	
+pyqt4 exposes the qt4 api to python. the following modules are supported:
+
+ * qtcore
+ * qtgui
+ * qtnetwork
+ * qtxml
+ * qtscript
+ * qtsvg
+ * qttest
+ * qtassistant
+ * qtwebkit
+ * qtopengl (in python-qt4-gl)
+ * qtsql (in python-qt4-sql)
+ * phonon (in python-qt4-phonon)

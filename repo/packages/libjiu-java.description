@@ -1,0 +1,8 @@
+Library to load, analyze, process and save pixel images
+	
+jiu, the java imaging utilities, is a library which offers functionality
+to load, analyze, process and save pixel images.
+
+it can handle a variety of different image formats (pbm, png, gif, tiff,
+psd etc) and perform a number of sophisticated transformations to the
+images including color adjustments, analysis and image filtering.

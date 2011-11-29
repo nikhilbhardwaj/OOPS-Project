@@ -1,0 +1,6 @@
+A small http proxy which tidies html
+	
+tidy-proxy is a small http proxy server written in perl. using this proxy
+web-pages are checked for html errors with tidy or validate while they are
+downloaded. the results are displayed on top of that page.
+tidy-proxy is mainly intended for developing dynamic web-pages.

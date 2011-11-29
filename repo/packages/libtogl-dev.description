@@ -1,0 +1,21 @@
+A tk opengl widget - development files
+	
+togl is a tk widget for opengl rendering. togl was originally
+based on ogltk, written by benjamin bederson at the university
+of new mexico. togl's main features
+are:
+
+
+ * unifies microsoft windows, x11 (linux/irix/...), and mac os x
+   aqua support
+ * support for requesting stencil, accumulation, alpha buffers, etc.
+ * multiple opengl drawing windows
+ * simple stereo rendering support
+ * simple, portable font support
+ * color-index mode support including color allocation functions
+ * overlay plane support
+ * opengl extension testing from tcl
+ * tcl extension architecture (tea) 3 compliant
+
+
+this package contains development files for using optimized shared libraries.

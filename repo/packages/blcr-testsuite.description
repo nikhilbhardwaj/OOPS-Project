@@ -1,0 +1,13 @@
+Userspace tools to checkpoint and restart linux processes
+	
+blcr (berkeley lab checkpoint/restart) allows programs running on
+linux to be "checkpointed" (written entirely to a file), and then
+later "restarted".
+
+blcr can checkpoint both single- and multithreaded (pthreads)
+programs linked with the nptl implementation of pthreads. blcr is
+also able to save and restore groups of related processes together
+with the pipes that connect them.
+
+this package contains the testsuite needed to verify and diagnose
+problems with the local blcr kernel module.

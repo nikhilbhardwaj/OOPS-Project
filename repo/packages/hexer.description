@@ -1,0 +1,6 @@
+An interactive binary editor with a vi-like interface
+	
+hexer is an interactive binary editor (also known as a hexeditor)
+with a vi-like interface.  its most important features are
+multiple buffers, multi-level undo, command-line editing with
+completion, and binary regular expressions.

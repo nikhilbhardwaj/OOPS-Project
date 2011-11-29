@@ -1,0 +1,10 @@
+Printer filter for hp laserjet printers
+	
+ifhp is a highly versatile print filter for bsd based print spoolers.
+it can be configured to handle text, postscript, pjl, pcl, and
+raster printers, supports conversion from one format to another,
+and can be used as a stand-alone print utility.  it is the primary
+supported print filter for the lprng print spooler.
+
+it provides access to printer features like duplex printing, paper tray
+selection and strong accounting using the printer's internal page counter.

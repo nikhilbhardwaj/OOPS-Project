@@ -1,0 +1,8 @@
+Metapackage for libdpkg-ruby
+	
+it provides debian::dpkg and debian::dpkgdeb modules and
+debian::deb, debian::dsc, debian::archives, debian::sources,
+debian::packages and debian::status classes on ruby 1.8.
+
+this package depends on the version of libdpkg-ruby built for the
+default version of ruby.

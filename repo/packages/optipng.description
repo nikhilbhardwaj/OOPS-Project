@@ -1,0 +1,8 @@
+Advanced png (portable network graphics) optimizer
+	
+optipng is a png optimizer that recompresses the image files to a smaller
+size. it losslessly reduces the bit depth, the color type and the color
+palette of the image, runs a suite of compression methods and strategies,
+and selects the compression parameters that yield the smallest output file.
+it also recognizes several external file formats like bmp, gif, tiff and
+pnm (pbm, pgm, ppm).

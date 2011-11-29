@@ -1,0 +1,11 @@
+Creates tex files from go game records
+	
+go is a board game from eastern asia and tex is a program for
+typesetting.  sgf2dg converts go game records in smart-go format (sgf)
+into tex files.  you can produce camera-ready copies for books or
+magazines, or simply generate attractive printouts of your (internet)
+go games.
+
+sgf2dg includes the metafont sources for a new set of go fonts, and a
+script, sgf2dg (formerly sgf2tex), which translates files in sgf-format
+into tex.

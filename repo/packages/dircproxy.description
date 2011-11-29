@@ -1,0 +1,14 @@
+Irc proxy for people who use irc from different workstations
+	
+dircproxy is an irc proxy server designed for people who use
+irc from lots of different workstations or clients, but wish to
+remain connected and see what they missed while they were away.
+you connect to irc through dircproxy, and it keeps you connected
+to the server, even after you detach your client from it.
+while you're detached, it logs channel and private messages
+as well as important events, and when you re-attach it'll let
+you know what you missed.
+
+this can be used to give you roughly the same functionality as
+using ircii and screen together, except you can use whatever
+irc client you like, including x ones!

@@ -1,0 +1,9 @@
+Gnome chemistry utils (debugging symbols)
+	
+the gnome chemistry utils provide c++ classes and gtk+-2 widgets
+related to chemistry. they will be used in future versions of both
+gcrystal and gchempaint.
+
+this package provides the debugging symbols for the library and
+the utilities provided by the gcu-bin and gcrystal packages.
+install it to get a meaningful backtrace in case of a crash.

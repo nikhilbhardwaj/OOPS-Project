@@ -1,0 +1,22 @@
+Crystal structure viewer
+	
+drawxtl reads a basic description of the crystal structure, which includes
+unit-cell parameters, space group, atomic coordinates, thermal parameters or
+a fourier map, and outputs a geometry object that contains polyhedra, planes,
+lone-pair cones, spheres or ellipsoids, bonds, iso-surface fourier contours
+and the unit-cell boundary.
+
+four forms of graphics are produced:
+
+
+ * an opengl window for immediate viewing
+ * the persistence of vision ray tracer (pov-ray) scene language for
+   publication-quality drawings
+ * the virtual reality modeling language (vrml) for dissemination
+   across the internet
+ * a postscript rendering of the opengl window for those who want
+   high-quality output but do not have pov-ray installed.
+
+
+file formats drawxtl can read include cif, fdat, fullprof (pcr), gsas, schakal,
+shelx, discus and wien2k.

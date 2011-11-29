@@ -1,0 +1,5 @@
+Gcc support library
+	
+shared version of the support library, a library of internal subroutines
+that gcc uses to overcome shortcomings of particular machines, or
+special needs for some languages.

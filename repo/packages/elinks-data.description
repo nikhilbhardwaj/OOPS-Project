@@ -1,0 +1,18 @@
+Advanced text-mode www browser - data files
+	
+elinks is a feature-rich program for browsing the web in text mode.  it is
+like enhanced lynx and links.  the most noteworthy features of elinks are:
+
+
+ * lots of protocols (local files, finger, http(s), ftp, ipv4/6 etc.)
+ * internationalized domain names
+ * persistent cookies, http authentication and proxy authentication
+ * tabbed browsing, good looking menus and dialogs, and key-binding manager
+ * history browsing and typeahead searches
+ * forms history and completion, and history in commonly used input dialogs
+ * css support and support for browser scripting (perl, lua, guile etc.)
+ * tables and frames rendering, and configurable color support
+ * compressed and background (non-blocking) downloads, and download resuming
+
+
+this package contains the data files that are necessary to use elinks.

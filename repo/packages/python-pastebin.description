@@ -1,0 +1,6 @@
+Python module to send text files to pastebin web applications
+	
+a pastebin is a web application which allows users to upload text files for
+public viewing. this module provides a quick and easy way to submit textual
+contents to a wide variety of the pastebins available on the internet; users
+also can extend support to other services by simply writing new validators.

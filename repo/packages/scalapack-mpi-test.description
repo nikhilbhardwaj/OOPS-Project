@@ -1,0 +1,13 @@
+Scalable linear algebra package - test files for mpich
+	
+scalapack is the parallel version of lapack and is used on beowulf type
+clusters.
+
+you can choose between an implementation based on mpi or pvm. this
+package uses mpi.
+
+the package is available for lam and mpich. this package uses mpich. there
+are packages for the shared libraries, for the static libraries and
+the development files and for test programs (this one).
+
+also included: pblas, parallel basic linear algebra subprograms.

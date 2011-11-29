@@ -1,0 +1,8 @@
+Linux loader - the classic os loader can load linux and others
+	
+this package contains lilo (the installer) and boot-record-images to
+install linux, os/2, dos and generic boot sectors of other oses.
+
+you can use lilo to manage your master boot record (with a simple text screen,
+text menu or colorful splash graphics) or call lilo from other boot-loaders to
+jump-start the linux kernel.

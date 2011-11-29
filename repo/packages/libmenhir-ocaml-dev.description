@@ -1,0 +1,10 @@
+Menhir library for ocaml
+	
+this package contains the menhir library for ocaml. it gives access to,
+among others, the following modules:
+
+ * infinitearray: implements infinite arrays, that is, arrays
+   that grow transparently upon demand.
+ * rowdisplacement: compresses a two-dimensional table, where some
+   values are considered insignificant, via row displacement.
+ * engine: lr parsing engine.

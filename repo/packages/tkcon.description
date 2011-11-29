@@ -1,0 +1,16 @@
+Enhanced interactive console for developing in tcl
+	
+tkcon is a tcl shell and console, making it ideal for
+experimenting with tcl and tk programs interactively.
+
+features:
+
+ command history
+ path (unix style) / proc / variable name expansion
+ multiple consoles, each with its own state (via multiple interpreters)
+ captures stdout and stderr to console window (puts overridden)
+ hot errors (click on error result to see stack trace)
+ electric character matching (a la emacs)
+ electric proc highlighting
+ communication between consoles and other tk interpreters
+  (including non-tcl ones)

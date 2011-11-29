@@ -1,0 +1,8 @@
+Dispatcher module with syntactic sugar
+	
+path::dispatcher::declarative adds some sugar to path::dispatcher.
+
+path::dispatcher is a perl module that allows you to find code
+to run based on matching a path against a list of rules.
+
+for details look into libpath-dispatcher-perl.

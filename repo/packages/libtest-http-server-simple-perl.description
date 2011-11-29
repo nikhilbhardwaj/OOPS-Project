@@ -1,0 +1,5 @@
+Test::more functions for http::server::simple
+	
+test::http::server::simple provides methods to test an
+http::server::simple-based web server.
+currently, it provides only one such method: started_ok.

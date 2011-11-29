@@ -1,0 +1,9 @@
+Earth observation system extensions to hdf4
+	
+hdf-eos4 is a software library designed built on hdf4 to support eos-specific
+data structures, namely grid, point, and swath. the new data structures
+are constructed from standard hdf data objects, using eos conventions, through
+the use of a software library [1,4]. a key feature of hdf-eos files is that
+instrument-independent services, such as subsetting by geolocation, can be
+applied to the files across a wide variety of data products.
+the library is extensible and new data structures can be added.

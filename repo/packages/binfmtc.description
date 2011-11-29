@@ -1,0 +1,10 @@
+Execute c program as script
+	
+linux binfmt_misc handler for c, c++, assembly languages, pascal,
+fortran, java(gcj).
+
+using the binfmt_misc interface, binfmtc allows users to
+seamlessly execute c source code as if they were scripts.
+
+includes example utilities realcsh.c, realksh.c, which are for your
+real c scripting pleasures.

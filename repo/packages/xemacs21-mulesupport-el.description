@@ -1,0 +1,13 @@
+Editor and kitchen sink -- source elisp support files
+	
+this package contains the mule elisp files in order to have a functioning
+mule xemacs21 package.
+
+mule is the extension to (x)emacs that allows for the display of
+non-european characters (for example japanese and korean characters).
+
+the xemacs21-mulesupport package contains the
+compiled versions of these files.
+
+the major reason to install this package is if you want to learn
+elisp or modify the libraries for your specific installation.

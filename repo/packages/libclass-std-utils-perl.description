@@ -1,0 +1,5 @@
+Utility subroutines for building "inside-out" objects
+	
+class::std::utils provides three utility subroutines that simplify the
+creation of "inside-out" classes. see chapters 15 and 16 of "perl best
+practices" (o'reilly, 2005) for details.

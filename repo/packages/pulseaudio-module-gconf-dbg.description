@@ -1,0 +1,7 @@
+Gconf module for pulseaudio sound server debugging symbols
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+this package contains debugging symbols for the pulseaudio gconf module.

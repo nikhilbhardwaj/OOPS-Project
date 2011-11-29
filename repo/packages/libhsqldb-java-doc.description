@@ -1,0 +1,13 @@
+Documentation for hsqldb
+	
+hsqldb is an sql relational database engine written in java.  it has a
+jdbc driver and supports a rich subset of sql-92 (bnf tree format) plus
+sql:1999 and sql:2003 enhancements.  it offers a small, fast database
+engine that offers both in-memory and disk-based tables.  embedded and
+server modes are available.  additionally, it includes tools such as a
+minimal web server, in-memory query and management tools (can be run as
+applets), and a number of demonstration examples.
+
+this package contains the documentation of hsqldb.
+
+web site: http://hsqldb.org/

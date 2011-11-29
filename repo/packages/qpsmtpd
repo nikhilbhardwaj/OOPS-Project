@@ -1,0 +1,4 @@
+PackageId:30338
+Name:qpsmtpd
+Version:0.84-5
+Deps:adduser,debconf,libclamav-client-perl,libdigest-hmac-perl,libipc-shareable-perl,libmail-spf-perl,libmailtools-perl,libnet-dns-perl,libnet-perl,perl-modules,libsocket6-perl,perl

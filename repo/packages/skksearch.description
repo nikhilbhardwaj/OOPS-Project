@@ -1,0 +1,13 @@
+Skk dictionary server handling multiple dictionaries
+	
+skksearch is a dictionary server for skk japanese input systems.
+skksearch can deal with more than one dictionary and supports three
+types of dictionaries, that is, plain, berkeley db and cdb
+(djb's constant database).
+
+skksearch is compatible with skkserv on the protocol behavior.
+it is called from an internet super-server.
+
+by default, this package uses the skk dictionary cdb file
+`skk-jisyo.cdb' that is provided by the skkdic-cdb package.  also,
+you can use other dictionary files such as the skkdic-extra package.

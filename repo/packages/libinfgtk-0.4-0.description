@@ -1,0 +1,9 @@
+Infinote-based collaborative editing (gtk widgets)
+	
+libinfinity is library to build collaborative text editors.  changes
+to the text buffers are synced to all other clients over a central server.
+even though a central server is involved, the local user sees his changes
+applied instantly and the merging is done on the individual clients.
+
+this package contains gtk widgets for use in libinfinity-based and
+gtk-based applications.

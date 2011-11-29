@@ -1,0 +1,9 @@
+Moose role for turning objects into poe sessions
+	
+poex::role::sessioninstantiation is a moose role that can support nearly
+seamless integration for non-poe objects in a poe environment. it does this
+by handling the poe stuff behind the scenes including allowing per-instance
+method changes, session registration to the kernel, and providing defaults
+like setting an alias if supplied via the attribute or constructor argument,
+or defining a _default that warns if your object receives an event that it
+does not have. this role exposes your class' methods as poe events.

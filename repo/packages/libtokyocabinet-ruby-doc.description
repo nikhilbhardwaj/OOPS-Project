@@ -1,0 +1,9 @@
+Documentation for ruby binding of tokyo cabinet database
+	
+tokyo cabinet is an efficient database library like gdbm and ndbm.
+it features hash database and b+ tree database and is developed as the
+successor of qdbm, for the purpose of the following three points: higher
+processing speed, smaller size of a database file, and simpler api.
+
+documentation for all of the api's and utilities provided by tokyo cabinet
+ruby biding.

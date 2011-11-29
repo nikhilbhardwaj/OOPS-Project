@@ -1,0 +1,11 @@
+Helper to find the first executable of a series of alternatives
+	
+whiff command, which takes a number of command names and returns the first one
+that exists and is executable.
+
+it assumes that all the arguments form a best-first list of
+alternatives, and only prints the path to the first alternative found in
+the path. if none is found, it prints an error (to stderr) and exits
+with an error code.
+
+a programmer interface is available in the app::whiff module.

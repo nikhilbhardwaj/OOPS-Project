@@ -1,0 +1,12 @@
+Backup utility
+	
+déjà dup is a simple backup program. it hides the complexity of
+doing backups the 'right way' (encrypted, off-site, and regular)
+and uses duplicity as the backend.
+
+features:
+
+ * uses amazon s3, an ssh server, or a local folder as a backup location
+ * securely encrypts your data
+ * schedules regular backups
+ * integrates well into your gnome desktop

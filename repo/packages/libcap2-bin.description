@@ -1,0 +1,6 @@
+Basic utility programs for using capabilities
+	
+this package contains the programs sucap, execap, getpcaps, setpcaps for
+manipulation of capabilities. the manpages of this package reference the
+manpage cap_from_text(3) from the libcap-dev package. please install the
+libcap-dev package if you need its documentation.

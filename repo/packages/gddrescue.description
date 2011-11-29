@@ -1,0 +1,40 @@
+The gnu data recovery tool
+	
+the gddrescue tool copies data from one file or block device
+(hard disc, cdrom, etc) to another, trying hard to rescue data
+in case of read errors.
+
+gddrescue does not truncate the output file if not asked to.
+so, every time you run it on the same output file, it tries to
+fill in the gaps.
+
+the basic operation of gddrescue is fully automatic.  that is,
+you don't have to wait for an error, stop the program, read the
+log, run it in reverse mode, etc.  if you use the logfile
+feature of gddrescue, the data is rescued very efficiently (only
+the needed blocks are read).  also you can interrupt the rescue
+at any time and resume it later at the same point.
+
+automatic merging of backups: if you have two or more damaged
+copies of a file, cdrom, etc, and run gddrescue on all of them,
+one at a time, with the same output file, you will probably
+obtain a complete and error-free file. this is so because the
+probability of having damaged areas at the same places on
+different input files is very low. using the logfile, only the
+needed blocks are read from the second and successive copies.
+
+the logfile is periodically saved to disc. so in case of a crash
+you can resume the rescue with little recopying. also, the same
+logfile can be used for multiple commands that copy different
+areas of the file, and for multiple recovery attempts over
+different subsets.
+
+gddrescue aligns its i/o buffer to the sector size so that it
+can be used to read from raw devices. for efficiency reasons,
+also aligns it to the memory page size if page size is a
+multiple of sector size.
+
+please note that this is the gnu ddrescue version providing
+the /sbin/ddrescue executable. if you are searching for the
+ddrescue version of kurt garloff please check out the
+ddrescue package instead.

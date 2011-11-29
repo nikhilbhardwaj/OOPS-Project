@@ -1,0 +1,13 @@
+Maven plugin for the plexus component descriptor creator
+	
+the plexus project provides a full software stack for creating and
+executing software projects. based on the plexus container, the applications
+can utilise component-oriented programming to build modular, reusable
+components that can easily be assembled and reused.
+
+the component descriptor creator (or cdc for short) is a tool that will create
+the components.xml file from your java code. it uses javadoc tags to gather the
+information it needs to create the component descriptor.
+
+this package ships a maven plugin to automatically generate the component
+descriptor file during the build process.

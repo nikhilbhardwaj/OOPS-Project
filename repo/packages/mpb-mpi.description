@@ -1,0 +1,14 @@
+Mit photonic-bands, parallel (mpich) version
+	
+the mit photonic-bands package is a free program for computing the band
+structures (dispersion relations) and electromagnetic modes of periodic
+dielectric structures, on both serial and parallel computers. it was
+developed by steven g. johnson at mit in the joannopoulos ab initio
+physics group, and designed to study photonic crystal structures.
+
+this package contains a parallel version of mpb, using the mpich
+implementation of the mpi protocol. it allows for calculations on
+clusters of computers.
+
+note that you must install libhdf5-mpich if your cluster doesn't have
+a common filesystem available on all nodes.

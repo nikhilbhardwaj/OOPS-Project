@@ -1,0 +1,9 @@
+Python cdb (constant database) library
+	
+d. j. bernstein's cdb library adapted as a python extension module. you
+probably already know that cdb files are mappings of keys to values (c.f.,
+dbm and friends), designed for wickedly fast lookups and atomic updates.
+
+this interface presents cdb files as (surprise!) mapping objects with a few
+special features. in general, the module tries to mimic the functionality of
+the normal cdb utilities.

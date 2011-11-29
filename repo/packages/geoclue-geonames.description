@@ -1,0 +1,7 @@
+Geocoder provider for geoclue (geonames)
+	
+geoclue provides applications access to various geographical information
+sources using a d-bus api or a c library.
+
+this package provides a geocoder backend for geoclue. the
+location information comes from www.geonames.org.

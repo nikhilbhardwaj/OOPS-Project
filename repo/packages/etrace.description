@@ -1,0 +1,25 @@
+The embedded elf tracer
+	
+the eresi tracer is an embedded tracer which operates directly
+from within the traced the binary itself. we acheive this modus
+operandi by using binary module injection and function redirection.
+a new binary is created where all functions are hooked so we can
+display the program entering and leaving functions. as the tracer
+is directly into the traced binary, we gain performance as we don't
+need to single-step, in comparison with others tracers relying on a
+kernel interface like its ptrace debugging api. another major
+difference is that etrace works on all functions without using a
+predefined list, as done by most other tracers. etrace was designed
+for reverse engineering targets with not only glibc functions, but
+also a custom function present in your binary or in a specific library.
+
+the main features of the elf tracer (etrace) are :
+
+
+ * command-line tracing on elf binaries without using ptrace.
+ * a logical organization of trace events fully integrated in the scripting
+   language.
+ * support debug format information (if available) to display names and types
+   of function parameters.
+ * advanced user control over selection of traced functions with regular
+   expressions.

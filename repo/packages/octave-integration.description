@@ -1,0 +1,15 @@
+Numerical integration toolbox for octave
+	
+this package contains functions for 1-d, 2-d, and n-d numerical
+integration in octave, a scientific computation software.
+the general purpose integration routines using gaussian quadrature
+are provided:
+
+
+  * quadg.m      -- high accuracy replacement for quad and quad8 (1-d)
+  * quad2dg.m    -- 2-d integration over a rectangular region
+  * quad2dggen.m -- 2-d integration over a general region
+  * quadndg.m    -- n-d integration over a n-d hyper-rectangular region
+
+
+this octave add-on package is part of the octave-forge project.

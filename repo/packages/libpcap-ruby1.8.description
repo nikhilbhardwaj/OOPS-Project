@@ -1,0 +1,5 @@
+Ruby 1.8 interface for the libpcap packet capture library
+	
+libpcap (packet capture) provides a portable framework for low-level
+network monitoring. this package provides bindings for the ruby programming
+language, version 1.8.

@@ -1,0 +1,7 @@
+Xml-based formatting tool for rfcs
+	
+this package provides xml2rfc, a tool which creates text, html and
+nroff output in the format required for internet-drafts and rfcs.  the
+text and nroff output is suitable for input to the rfc editor.
+
+the dtd used by the xml documents is described in rfc 2629.

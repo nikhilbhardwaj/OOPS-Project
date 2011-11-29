@@ -1,0 +1,13 @@
+Debiandoc sgml dtd and formatting tools
+	
+this is an sgml-based documentation formatting package used for the
+debian manuals.  it reads markup files and produces html, latex, dvi
+(via latex), postscript (via latex/dvi), pdf (via latex), texinfo,
+info (via texinfo), debiandoc sgml, docbook xml, plain text (with
+overstrikes a la troff as well as without) files.
+
+the latex based output needs the libpaperg, texlive-latex-recommended,
+texlive-latex-base, texlive-latex-extra and texlive-fonts-recommended
+packages.  in addition to this, chinese and japanese need cjk-latex and
+corresponding font packages while korean needs hlatex and corresponding
+font packages. the texinfo based output needs the texinfo package.

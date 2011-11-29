@@ -1,0 +1,9 @@
+Utility for configuring rfc 2684 atm/ethernet bridging
+	
+atm bridging is a way to extend ethernet over an atm network and is
+mainly used for dsl connections. this package contains the user space
+utility needed to configure the kernel driver.
+
+this package is needed if you own an usb dsl modem and your connection
+uses one of these protocols: rfc 1483 bridged (rfc 2684 bridged),
+rfc 1483 bridged (rfc 2684 routed), ppp over ethernet (pppoe).

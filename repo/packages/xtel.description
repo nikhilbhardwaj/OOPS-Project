@@ -1,0 +1,11 @@
+X emulator of the french minitel
+	
+this is a lesstif minitel client that runs on color/black and white
+x display and a xteld daemon that can make minitel connection with
+one or more modems.
+
+the minitel is a dedicated terminal for accessing the teletel,
+the french videotex network.
+thus, this package is almost only for french users.
+this package now supports the 3622 i-minitel protocol
+(more information on http://www.i-minitel.com).

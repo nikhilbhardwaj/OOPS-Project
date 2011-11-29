@@ -1,0 +1,6 @@
+Charset conversion library
+	
+this library provide japanese code conversion capability
+based on iconv. it is based by application to enlarge
+number of supported encoding. it isn't only for japanese
+people, it is used as helper in sylpheed mailer.

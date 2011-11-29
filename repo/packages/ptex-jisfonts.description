@@ -1,0 +1,9 @@
+Provide an environment of jis.tfm and jisg.tfm for ptex/dvips
+	
+this includes tfm files and vf files for jis.tfm and jisg.tfm which
+might produce better output than ordinary/traditional min*.tfm and
+goth*.tfm would do.
+
+this package supports to use xdvik-ja, dvipsk-ja, dvi2ps and
+dvipdfm(-cjk) with jisfonts.  for the detail of usage, please read
+readme.debian after installing this.

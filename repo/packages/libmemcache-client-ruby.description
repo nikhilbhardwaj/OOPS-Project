@@ -1,0 +1,8 @@
+Ruby client library for memcached
+	
+this is intended to provide access to basic memcached functionality. it
+does not attempt to be complete implementation of the entire api, but it
+is approaching a complete implementation.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8).

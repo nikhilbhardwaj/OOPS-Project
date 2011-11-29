@@ -1,0 +1,11 @@
+Recover lost blocks using forward error correction
+	
+vdmfec implements block ecc using a forward error correction
+(fec) code based on vandermonde (vdm) matrices in gf(2^8) due
+to luigi rizzo. given the fec parameters k and n, with n
+greater than k, n blocks are written for every k input blocks
+in such a way that any k blocks are sufficient to reconstruct
+the data. that is, up to n - k blocks out of every group of n
+blocks may be lost without loss of data. its primary
+application is intended to be in recovering data from
+unreliable media such as diskettes.

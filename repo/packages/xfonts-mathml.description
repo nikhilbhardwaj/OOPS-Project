@@ -1,0 +1,12 @@
+Type1 symbol font for mathml
+	
+to display web pages containing mathml equations properly with
+mathml-enabled browsers, you will need stix fonts, tex's computer
+modern fonts, type1 'symbol' font and (possibly) some other fonts
+installed on your computer.
+
+this package provides type1 symbol font which is modified from
+s050000l.pfb of gsfonts with fontforge.
+
+you will also need to install the packages: otf-stix (stix fonts)
+and ttf-lyx (tex's computer modern fonts) to view mathml properly.

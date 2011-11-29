@@ -1,0 +1,28 @@
+Server for educative contents as courses, exercises, exams
+	
+wims is an acronym for www interactive mathematics server. nowadays
+wims serves much more than mathematic contents (physics, chemistry,
+biology, languages).
+
+the wims educational platform features a rich set of resources and
+exercises either with free access or for personalised study.
+
+
+ * exercises with automatic feedback and correction, which allow the
+   learners to work at their own pace;
+ * interactive exercices with randomly assigned data, which allow
+   the learners to work on the same type of exercise but with
+   different data and as often as they wish;
+ * exercises with an automatic scoring system, which enhances learner
+   motivation;
+ * user-friendly graphics and calculation tools;
+ * courses and documents with hyperlinks to the exercise pool, and also
+   eventually randomly built parts to exemplify theories
+ * support for exams with pre-published contents. as each individual exam
+   will have randomly chosen data, training is possible but writing each
+   response in advance is not.
+
+
+this package contains the wims fast cgi server, serving oef documents.
+oef is the acromym for "open exercise format", a very high-level language
+which allow authors to focus on pedagogical issues.

@@ -1,0 +1,4 @@
+PackageId:7803
+Name:iwatch
+Version:0.2.2-1
+Deps:libevent-perl,liblinux-inotify2-perl,libmail-sendmail-perl,libxml-simpleobject-libxml-perl,perl-modules,postfix,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,sendmail-bin,ssmtp,xmail

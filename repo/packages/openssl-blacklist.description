@@ -1,0 +1,4 @@
+List of blacklisted openssl rsa keys
+	
+contains the list of known-bad openssl keys for openssl-vulnkey to use when
+examining suspect keys: rsa-1024, rsa-2048

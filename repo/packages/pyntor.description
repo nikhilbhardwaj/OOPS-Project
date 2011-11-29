@@ -1,0 +1,11 @@
+Flexible and componentized presentation program
+	
+pyntor is a small, flexible and componentized presentation program. it
+is built upon python and the sdl library (via pygame). pyntor features
+a wiki-like presentation component, a html page component
+(pyromaniac), and several more. standard features like pdf/html
+export, page selection and interactivity are available, as are
+advanced features such as full-text search in the presentation slides.
+
+due to the minimal size and maximum configurability, pyntor is a nice
+alternative to conventional presentation programs.

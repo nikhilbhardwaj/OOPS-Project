@@ -1,0 +1,12 @@
+Extensions of emacs standard shell-mode
+	
+oneliner-el provides nice extensions for unix shell masters who
+love one-line scripts.  this package has the following functions:
+
+
+ - you can easily connect standard input or output of a command to
+   an emacs buffer.
+ - you can sync the current directory of shell-mode and a shell
+   process.
+ - oneliner-el can beep when command execution terminates.
+ - oneliner-el handles control codes.

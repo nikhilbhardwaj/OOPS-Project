@@ -1,0 +1,12 @@
+Index generator for structured documents like latex or sgml
+	
+xindy is an index processor that can be used to generate book-like
+indexes for arbitrary document-preparation systems. this includes
+systems such as tex and latex, the roff-family, sgml/xml-based systems
+(e.g. html) that process some kind of text and generate indexing
+information. the kernel system is not fixed to any specific system, but
+can be configured to work together with such systems.
+
+in comparison to other index processors xindy has several powerful
+features that make it an ideal framework for describing and generating
+complex indices, addressing especially international indexing.

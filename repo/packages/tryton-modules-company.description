@@ -1,0 +1,14 @@
+Tryton application platform (company module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this package defines company and employees:
+
+
+ * add main and current company on users preferences.
+ * add company on properties.
+ * define new report parser for report with company header.
+ * add letter template on party.
+ * make the scheduler run on each company.

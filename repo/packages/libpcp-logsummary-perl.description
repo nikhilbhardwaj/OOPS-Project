@@ -1,0 +1,13 @@
+Performance co-pilot historical log summary module
+	
+the pcp::logsummary module provides a perl module for using the
+statistical summary data produced by the performance co-pilot
+pmlogsummary utility.  this utility produces various averages,
+minima, maxima, and other calculations based on the performance
+data stored in a pcp archive.  the perl interface is ideal for
+exporting this data into third-party tools (e.g. spreadsheets).
+
+the performance co-pilot provides a unifying abstraction for
+all of the interesting performance data in a system, and allows
+client applications to easily retrieve and process any subset of
+that data.

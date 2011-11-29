@@ -1,0 +1,5 @@
+Show hyphenations in dvi-files
+	
+hyphen_show scans a dvi-file, tries to find all hyphenations and writes them
+to stdout. it is useful to check whether tex's hyphenation algorithm really
+did the good job it is supposed to do.

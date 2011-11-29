@@ -1,0 +1,25 @@
+Flexible project management web application
+	
+redmine is a flexible project management web application. written using ruby
+on rails framework, it is cross-platform and cross-database.
+
+dependencies for database support are provided by these metapackages:
+redmine-mysql, redmine-pgsql, redmine-sqlite.
+
+features
+
+   * multiple projects support
+   * flexible role based access control
+   * flexible issue tracking system
+   * gantt chart and calendar
+   * news, documents & files management
+   * feeds & email notifications
+   * per project wiki
+   * per project forums
+   * time tracking
+   * custom fields for issues, time-entries, projects and users
+   * scm integration (svn, cvs, git, mercurial, bazaar and darcs)
+   * issue creation via email
+   * multiple ldap authentication support
+   * user self-registration support
+   * multilanguage support

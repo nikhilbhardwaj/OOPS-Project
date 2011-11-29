@@ -1,0 +1,16 @@
+Pulseaudio device chooser
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+this is a simple gtk tool which registers an icon in the tray area and
+allows quick access to some features of the pulseaudio sound server.
+specifically it can do for you:
+
+
+   * notify about new sink/sources becoming available on the lan
+   * quickly change the default pulseaudio sink/source/server assigned to
+     the current x11 display, selecting devices available on the lan
+   * start the auxiliary tools pulseaudio volume control, pulseaudio volume
+     meter, pulseaudio manager, pulseaudio preferences

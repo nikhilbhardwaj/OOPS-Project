@@ -1,0 +1,9 @@
+Header files and docs for libcpuset
+	
+contains the header files and documentation for libcpuset
+for use in developing applications that use the libcpuset library.
+
+the cpuset system is a processor and memory placement mechanism that
+enables a system administrator to confine tasks to running on
+certain cpus, and to allocating memory on certain memory nodes.
+the libcpuset library provides a convenient 'c' api to cpusets.

@@ -1,0 +1,10 @@
+Spellcheck plugin for geany
+	
+spellcheck is a plugin which  checks the content of the current document in
+geany with the spell check library enchant. this plugin allows the whole
+document, or only a selection to be checked for spelling mistakes. misspelt
+words are highlighted with a red squiggly underline, and wrong words are
+printed in geany's messages window along with available suggestions.
+
+geany is a small and lightweight integrated development environment using the
+gtk+ toolkit.

@@ -1,0 +1,6 @@
+Feature rich configuration file parser
+	
+config::scoped is a configuration file parser for complex configuration
+files based on parse::recdescent. files similar to the isc named or isc
+dhcpd configurations are possible. in order to be fast a precompiled
+grammar and optionally a config cache is used.

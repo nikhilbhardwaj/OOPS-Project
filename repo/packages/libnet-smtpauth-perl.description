@@ -1,0 +1,8 @@
+Perl module that provides smtp authentication (net::smtp_auth)
+	
+this module implements a client interface to the smtp and esmtp protocol
+auth service extension, enabling a perl5 application to talk to and
+authenticate against smtp servers.
+
+this module supplies a more powerful environment than net::smtp (provided
+by perl-modules).

@@ -1,0 +1,7 @@
+Tools to develop embedded qt applications
+	
+this package contains applications only suitable for developing
+applications with qt embedded and/or qtopia. it provides the qvfb
+program for simulating an embedded device desktop as well as makeqpf
+for converting fonts to embedded fonts suitable for being utilized
+by qt embedded applications.

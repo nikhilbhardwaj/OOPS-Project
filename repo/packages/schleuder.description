@@ -1,0 +1,9 @@
+Gnupg enabled mailing list manager with remailer-capabilities
+	
+schleuder is designed as a tool for group communication: subscribers
+can communicate encrypted (and pseudonymously) among themselves, receive
+emails from non-subscribers and send emails to non-subscribers via the list.
+
+schleuder takes care of all decryption and encryption, stripping of headers,
+formatting conversions, etc. schleuder can also send out its own public key
+upon request and process administrative commands by email.

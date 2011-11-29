@@ -1,0 +1,7 @@
+Perl module to convert multimarkdown syntax to (x)html
+	
+text::multimarkdown is a perl module that extends the functionality of the
+markdown structured text format. markdown provides a simple way to translate
+easy-to-read and easy-to-write structured text into (x)html. in turn, this
+module extends the functionality by implementing the multimarkdown syntax
+extensions as described on: <url:http://fletcherpenney.net/multimarkdown>.

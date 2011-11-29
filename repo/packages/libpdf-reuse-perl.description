@@ -1,0 +1,12 @@
+Reuse and mass produce pdf documents
+	
+pdf::reuse could be used when you want to mass produce similar (but not
+identical) pdf documents and reuse templates, javascripts and some other
+components. it is functional to be fast, and to give your programs capacity to
+produce many pages per second and very big pdf documents if necessary.
+
+the module produces pdf-1.4 files. some features of pdf-1.5, like "object
+streams" and "cross reference streams", are supported, but only at an
+experimental level. more testing is needed. (if you get problems with a new
+document from acrobat 6 or 7, try to save it or recreate it as a pdf-1.4
+document first, before using it together with this module.)

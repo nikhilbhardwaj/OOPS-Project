@@ -1,0 +1,15 @@
+Simple puzzle game involving untangling planar graphs
+	
+gplanarity is a puzzle game with the goal to untangle planar graphs for
+fun and prizes. if you tend to get addicted to cute little math  puzzles,
+this one is a doozy.
+
+gplanarity is a super-clone of the flash planarity game written by john
+tantalo. the original planarity ran well in ie and firefox on other
+platforms, but was slow and liked to lock up or abort under linux
+browsers.
+
+gplanarity implements gameplay identical to the original planarity but
+adds some ui and game extras around the basic game such as multiple
+board generation algorithms, puzzle boards, complete backing state,
+group select/drag and so on.

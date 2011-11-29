@@ -1,0 +1,9 @@
+The qt4 port of the scintilla source code editing widget
+	
+qscintilla is a text editor for qt4 with features especially useful when
+writing and debugging source code. these include support for syntax
+styling, error indicators, code completion, call tips and margins.
+
+styling choices are more open than with many editors, allowing the use
+of proportional fonts, bold and italics, multiple foreground and background
+colours and multiple fonts.

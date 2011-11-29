@@ -1,0 +1,6 @@
+Convenience object for manipulating perl module dependencies
+	
+module::math::depends is a convenience module for storing perl module
+interdependencies. it can accumulate several dependency links, picking the
+most requiring ones, so that you end up with a set of dependencies that
+represent all of imput dependency relationships.

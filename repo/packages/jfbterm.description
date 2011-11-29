@@ -1,0 +1,12 @@
+Multilingual terminal on linux framebuffer
+	
+jfbterm (j framebuffer terminal/multilingual extension) can display
+multilingual text on linux framebuffer.  it can display iso-2022
+text such as iso-8859-{1-11,13-16}, iso-2022-{jp,cn,kr}, euc-jp,
+euc-kr (aka wangsung), euc-cn (aka gb2312 or cn-gb).
+it also supports utf-8, and other coding system such as shift_jis by
+using iconv(3).
+
+it supports 8bpp packed-pixels pseudocolor and (15|16|24|32) bpp
+packed-pixels truecolor framebuffers.  it also supports 1bpp, 2bpp,
+(and vga16fb on arch i386).

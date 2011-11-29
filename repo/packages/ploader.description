@@ -1,0 +1,15 @@
+Application to upload your pictures to your piwigo gallery
+	
+piwigo is an opensource web application to manage and share a pictures
+collection.
+with ploader, you can easily upload pictures to your piwigo gallery, and do
+some management tasks, without having to use the web interface.
+
+features:
+
+ - easy editing of pictures properties (title, description, privacy, tags)
+ - ability to specify pictures upload size and orientation.
+ - large picture preview.
+ - drag-and-drop support from other applications.
+ - create categories
+ - watermarking

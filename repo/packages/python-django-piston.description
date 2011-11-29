@@ -1,0 +1,17 @@
+Django mini-framework creating restful apis
+	
+piston is a relatively small django application that lets you
+create application programming interfaces (api) for your sites.
+
+it has several unique features:
+
+
+   * ties into django's internal mechanisms.
+   * supports oauth out of the box (as well as basic/digest or custom auth).
+   * doesn't require tying to models, allowing arbitrary resources.
+   * speaks json, yaml, python pickle & xml (and hateoas).
+   * ships with a convenient reusable library in python.
+   * respects and encourages proper use of http (status codes, ...).
+   * has built in (optional) form validation (via django), throttling, etc.
+   * supports streaming, with a small memory footprint.
+   * stays out of your way.

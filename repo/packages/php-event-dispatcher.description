@@ -1,0 +1,9 @@
+Dispatch notifications using php callbacks
+	
+the event_dispatcher acts as a notification dispatch table. it is used to
+notify other objects of interesting things. this information is encapsulated
+in event_notification objects. client objects register themselves with the
+event_dispatcher as observers of specific notifications posted by other
+objects. when an event occurs, an object posts an appropriate notification to
+the event_dispatcher. the event_dispatcher dispatches a message to each
+registered observer, passing the notification as the sole argument.

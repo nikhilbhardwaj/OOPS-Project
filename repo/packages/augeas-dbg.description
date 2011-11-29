@@ -1,0 +1,9 @@
+Debugging symbols for libaugeas0
+	
+augeas is a configuration editing tool. it parses configuration files in their
+native formats and transforms them into a tree. configuration changes are made
+by manipulating this tree and saving it back into native config files.
+
+this package provides debugging symbols for augeas, both the core library
+and the tools, to assist in diagnosing critical bugs.  it is not required
+for normal operation.

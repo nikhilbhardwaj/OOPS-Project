@@ -1,0 +1,10 @@
+Validator for email addresses written in perl
+	
+data::validate::email collects common email validation routines to make input
+validation, and untainting easier and more readable.
+
+the main purpose of this module is to check if a mail address is a valid
+mail address and if it is compliant with rfc822
+
+the module will also check if the domain is a proper one using
+data::validate::domain.

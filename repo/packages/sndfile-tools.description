@@ -1,0 +1,6 @@
+A collection of programs for operating on sound files
+	
+
+sndfile-tools is a collection of programs which use libsndfile and other
+libraries to do useful things like generate spectrograms using libfftw and
+libcariro and play sound via the jack audio connection kit daemon.

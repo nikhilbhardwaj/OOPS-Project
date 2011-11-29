@@ -1,0 +1,7 @@
+Framework for building document analysis applications (header files)
+	
+the gamera framework is a python library for building custom
+applications for document analysis and recognition.
+
+this package contains header files that might be required to build
+extra c/c++ extension modules for gamera.

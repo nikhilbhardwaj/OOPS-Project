@@ -1,0 +1,6 @@
+Program to save/restore oss mixer settings
+	
+this package saves the open sound system (oss) mixer settings into a
+file when the machine is shut down, and restores them from the file
+when it is restarted.  it can optionally restore from a file of fixed
+settings.

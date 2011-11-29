@@ -1,0 +1,7 @@
+Internet storage naming service - cli-client
+	
+the internet storage name service (isns) is used to register iscsi and
+ifcp storage devices in the network. the isns allows dynamic discovery
+of available storage targets by storage initiators.
+
+this package provides a cli-client

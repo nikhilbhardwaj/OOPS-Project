@@ -1,0 +1,8 @@
+A library to read and write csv files in ocaml
+	
+ocaml csv is a library to read and write csv (comma-separated values)
+files.  it also supports all extensions used by excel - eg. quotes,
+newlines, 8 bit characters in fields, etc.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use ocaml csv.

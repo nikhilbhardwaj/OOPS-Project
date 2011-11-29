@@ -1,0 +1,22 @@
+Cave surveying - 2d and 3d drawing software
+	
+therion aids the process of drawing up cave surveys (maps). drawings are
+done over scans and can be distorted to fit the centreline data. output is
+in single sheet or atlas style pdf or svg files. all data is stored in text
+files and a map  editor (xtherion) is provided to aid in the creation of the
+files.
+
+therion can also produce 3d models, generated from walls and passage-heights.
+output formats supported are survex .3d files, vrml, dxf, svg, shapefiles,
+and the native .loc and older .thm (therion model). therion is compatible with
+survex, and centreline data can be stored in survex or therion form. centreline
+data and sketches can be imported from pockettopo.
+
+tex and metapost are used to generate the images. libtk-img is needed to use
+scans in formats other than gif and pnm (such as png and jpeg).
+survex will be used for loop-closure if installed, but is not required.
+
+you will need appropriate tex language packages to process therion files which
+specify those character sets: texlive-lang-czechslovak is needed to process
+the examples, and texlive-lang-cyrillic is also suggested. see readme.debian
+for details

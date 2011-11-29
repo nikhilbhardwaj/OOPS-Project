@@ -1,0 +1,17 @@
+Audio streaming language
+	
+liquidsoap is a powerful tool for building complex audio streaming systems,
+typically targeting internet radios (e.g. icecast streams).
+
+it consists of a simple script language, in which you can create, combine and
+transform audio sources. its design makes liquidsoap flexible and easily
+extensible.
+
+some of the typical uses are:
+
+ * dynamically generating playlists depending on the time or other factors
+ * having smooth transitions between songs
+ * adding jingles periodically
+ * applying effects on the sound like volume normalization
+ * reencoding the stream at various qualities
+ * remotely controlling the stream

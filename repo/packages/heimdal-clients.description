@@ -1,0 +1,8 @@
+Heimdal kerberos - clients
+	
+heimdal is a free implementation of kerberos 5 that aims to be
+compatible with mit kerberos.
+
+this package includes kerberos utilities like kadmin, kinit, kpasswd and
+klist. it also includes client programs like telnet and ftp that have been
+compiled with kerberos support.

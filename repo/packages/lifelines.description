@@ -1,0 +1,21 @@
+Text-based genealogy software
+	
+lifelines is a genealogy program that runs on unix systems in text mode. it
+maintains genealogical records (persons, families, sources, events and
+others) in a database, and generates reports from those records.
+
+there are no practical limits on the number of records that can be stored in
+a lifelines database, nor on the amounts or kinds of data that can be
+kept in the records.
+
+lifelines does not contain built-in reports. instead it provides a
+programming subsystem that you use to program your own reports and
+charts. some standard report files are included in the
+lifelines-reports package.
+
+the programming subsystem also lets you query your databases and
+process your data in any way. lifelines uses the terminal independent
+features of unix to provide a screen and menu based user interface.
+
+the program is able to read and write gedcom files, the de facto
+standard for genealogical data exchange.

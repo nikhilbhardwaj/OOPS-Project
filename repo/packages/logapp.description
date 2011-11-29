@@ -1,0 +1,13 @@
+Supervise execution of applications producing heavy output
+	
+logapp is a wrapper utility that helps supervise the execution of
+applications that produce heavy console output (e.g. make, cvs and
+subversion). it does this by logging, trimming, and coloring each
+line of the output before displaying it. it can be called instead of
+the executable that should be monitored; it then starts the
+application and logs all of its console output to a file. the output
+shown in the terminal is preprocessed, e.g. to limit the length of
+printed lines and to show the stderr output in a different color. it
+is also possible to automatically highlight lines that match a
+certain regular expression. the output is therefore reduced to the
+necessary amount, and all important lines are easy to identify.

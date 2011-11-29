@@ -1,0 +1,8 @@
+Rsync friendly encryption
+	
+rsyncrypto allows you to encrypt a file or a directory structure, such that
+they can later be synchronized to another machine using rsync. this means
+that local changes to the plain text file result in local changes to the
+cipher text file.
+
+rsyncrypto compresses the plain text file prior to encrypting it.

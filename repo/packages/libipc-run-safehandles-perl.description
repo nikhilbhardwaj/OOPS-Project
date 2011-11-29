@@ -1,0 +1,8 @@
+Use ipc::run and ipc::run3 safely
+	
+ipc::run and ipc::run3 are both very upset when you try to use them under
+environments where you have stdout and/or stderr tied to something else, such
+as under fastcgi.
+
+the module adds safe-guarding code when you call ipc::run or ipc::run3 under
+such environment to make sure it always works.

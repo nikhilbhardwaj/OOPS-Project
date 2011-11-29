@@ -1,0 +1,18 @@
+Functions used to manipulate tagged collections (development version)
+	
+tagged collections are collections of items tagged with multiple categories.
+libtagcoll provides general infrastructure to handle tagged collection data,
+plus various kind of tagged collection manipulation functions:
+
+
+ * apply various kinds of transformations to the collection;
+ * generate and apply tag patches;
+ * discover and show implicit hierarchical relationships between
+   tags;
+ * organize the collection in an intuitively navigable hierarchy.
+ * keep an on-disk index of the tag data
+
+
+warning: the api has not yet been stabilized and is subject to change in
+future versions.  this is why the library is distributed in a -dev package
+only.

@@ -1,0 +1,15 @@
+Posix shell's "select" loop for perl
+	
+shell::posix::select implements the select loop of the "posix" shells (bash,
+korn, and derivatives) for perl. that loop is unique in two ways: it's by far
+the friendliest feature of any unix shell, and it's the only unix shell loop
+that's missing from the perl language. until now!
+
+what's so great about this loop? it automates the generation of a numbered
+menu of choices, prompts for a choice, proofreads that choice and complains if
+it's invalid (at least in this enhanced implementation), and executes a
+code-block with a variable set to the chosen value. that saves a lot of coding
+for interactive programs -- especially if the menu consists of many values!
+
+the benefit of bringing this loop to perl is that it obviates the need for
+future programmers to reinvent the choose-from-a-menu wheel.

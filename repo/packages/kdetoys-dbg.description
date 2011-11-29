@@ -1,0 +1,5 @@
+Debugging symbols for kdetoys
+	
+this package contains the debugging symbols associated with kdetoys.
+they will automatically be used by gdb for debugging kdetoys-related
+issues.

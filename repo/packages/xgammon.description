@@ -1,0 +1,10 @@
+Implementation of backgammon under x
+	
+this a nicely implemented backgammon with the following features:
+
+   - x11/xaw interface,
+   - a simple file selector and saving dialog,
+   - you can edit positions and perform rollouts.
+   - position dump to a mail file in the format used in backgammon newsgroups.
+   - easier movement of stones, by simple button clicks.
+   - you can play against an opponent on a remote x-terminal. (experimental).

@@ -1,0 +1,10 @@
+Tool to search a file for structured pattern
+	
+a tool for searching text files and filtering text streams for structured
+criteria. sgrep implements a query language based on so called region
+expressions.
+
+like grep, sgrep can be used for any kind of text files. however it is most
+useful for text files containing some kind of structured text. a file
+containing structured text could be defined as a file, which obeys some syntax.
+examples of structured text files are sgml, html, c, tex and mail files.

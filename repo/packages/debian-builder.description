@@ -1,0 +1,17 @@
+Rebuild debian packages from source code
+	
+this is a simple tool which is designed to allow a local
+administrator to rebuild individual debian packages from
+their source code.
+
+with the aid of a few included wrapper scripts this allows
+automatically rebuilding a package and all its dependencies.
+
+note: this software is not designed to enhance your installation
+by producing optimized binaries, however this may be achieved
+with the aid of companion packages such as 'pentium-builder',
+or 'athlon-builder'.
+
+the prime purpose of this package is to ease the testing of
+compiler patches such as the stack smashing protection patch
+available from ibm.

@@ -1,0 +1,10 @@
+Development files for ecpg (embedded postgresql for c)
+	
+this package contains the necessary files to build ecpg (embedded
+postgresql for c) programs.  it includes the development libraries
+and the preprocessor program ecpg.
+
+postgresql is an object-relational sql database management system.
+
+install this package if you want to write c programs with sql statements
+embedded in them (rather than run by an external process).

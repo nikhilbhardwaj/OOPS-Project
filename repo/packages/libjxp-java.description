@@ -1,0 +1,28 @@
+Java template engine/script processor
+	
+jxp (java scripted page) is a script-processor that process jsp-like files.
+it contains a parser to parse the script file into an abstract syntax tree
+and a tree processor (jxpprocessor) that will process the syntax tree to
+execute the code using reflection api to produce output. the main uses of jxp
+are:
+
+
+  * as a script language engine to increase flexibility in the user
+    application
+  * as a template engine to produce dynamic text output
+
+
+some of the main features of jxp include:
+
+
+  * java as script/template language. why learn another one? ;)
+  * run jsp-like code outside of servlet container
+  * support common java language 1.4 constructs (partial 1.5 syntax support
+    on jdk 1.4)
+  * support common jsp constructs including import directive, declaration, el
+    etc (taglib not supported, yet)
+  * practical template sources management framework
+  * support caching of parsed syntax tree to eliminate reparse of template
+  * a servlet implementation to enable web-scripting
+  * extensible processing context for defining built-in function on the
+    scripts

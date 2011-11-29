@@ -1,0 +1,15 @@
+Tryton application platform (purchase module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this module adds the possibility to define purchase orders, to add product
+supplier and purchase information, and to define the purchase price as the
+supplier price or the cost price.
+
+with the possibilities:
+
+
+ * to follow invoice and packing states from the purchase order.
+ * to define invoice method: manual, based on order, based on packing.

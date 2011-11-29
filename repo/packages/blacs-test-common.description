@@ -1,0 +1,12 @@
+Test data for blacs testers
+	
+the blacs project is an ongoing investigation whose purpose is to
+create a linear algebra oriented message passing interface that may be
+implemented efficiently and uniformly across a large range of
+distributed memory platforms.
+
+you can choose between an implementation based on mpi or pvm. this package
+provides test data for all blacs packages (mpi and pvm versions).
+
+most users do not need to install this package directly because it is
+installed when installing the test programs for any blacs package.

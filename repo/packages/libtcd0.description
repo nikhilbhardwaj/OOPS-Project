@@ -1,0 +1,9 @@
+Tide constituent database (tcd) library
+	
+libtcd provides a software api for reading and writing tide constituent
+database (tcd) files.
+
+the tcd file format and schema are used by xtide to retrieve constituent
+definitions (speeds, equilibrium arguments, and node factors), harmonic
+constants, subordinate station offsets and associated metadata for use in
+generating tide predictions.

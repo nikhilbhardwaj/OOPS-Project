@@ -1,0 +1,11 @@
+Counties database for the 2000 us gazetteer
+	
+this is a database of (primarily) united states counties using
+information gathered in the 2000 census.  each entry contains:
+
+ * full name for the county
+ * type of entry (county, municipio, parish, borough, etc)
+ * total population and housing units
+ * total land and water area, in both mi^2 and km^2
+ * state the county is within
+ * latitude and longitude of the county

@@ -1,0 +1,6 @@
+Scripts for handling base acpi events such as the power button
+	
+this package contains scripts to react to various base acpi events
+such as the power button. for more extensive acpi support, including support
+for suspend-to-ram and for various laptop features, install the package
+"acpi-support".

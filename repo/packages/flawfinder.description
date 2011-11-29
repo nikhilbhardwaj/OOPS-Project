@@ -1,0 +1,18 @@
+Examines source code and looks for security weaknesses
+	
+flawfinder searches through c/c++ source code looking for potential
+security flaws and produces a report describing the potential flaws
+found in source code, ranking them by likely severity.
+
+like rats, flawfinder reports are not a direct indication of a
+vulnerability, but provide a reasonable starting point for performing manual
+security audits in source code.
+
+flawfinder can also generate differential reports by pointing it to
+a patch (diff) file describing the code changes. this way it can be used
+to determine if the potential flaws found in code have increased or
+decreased after a commit to a source code management system like
+cvs or subversion.
+
+
+ homepage: http://www.dwheeler.com/flawfinder/

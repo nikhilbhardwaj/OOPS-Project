@@ -1,0 +1,29 @@
+Universal vector graphics translator
+	
+uniconvertor is a multiplatform universal vector graphics translator.
+it uses sk1 engine to convert one format to another.
+
+import filters:
+
+ * coreldraw ver.7-x3,x4 (cdr/cdt/ccx/cdrx/cmx)
+ * adobe illustrator up to 9 ver. (ai postscript based)
+ * postscript (ps)
+ * encapsulated postscript (eps)
+ * computer graphics metafile (cgm)
+ * windows metafile (wmf)
+ * xfig
+ * scalable vector graphics (svg)
+ * skencil/sketch/sk1 (sk and sk1)
+ * acorn draw (aff)
+
+
+export filters:
+
+ * ai (postscript based adobe illustrator 5.0 format)
+ * svg (scalable vector graphics)
+ * sk (sketch/skencil format)
+ * sk1 (sk1 format)
+ * cgm (computer graphics metafile)
+ * wmf (windows metafile)
+ * pdf (portable document format)
+ * ps (postscript)

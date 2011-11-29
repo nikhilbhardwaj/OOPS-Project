@@ -1,0 +1,7 @@
+Perl module to read mail from a folder
+	
+email::folder is a perl module which reads all messages from a folder into
+email::simple objects (see libemail-simple-perl for more), making them easy
+to manipulate from perl. it becomes fairly trivial to extract information
+from headers in your mail, or change them to different values. as a result,
+this provides a general purpose mail handling facility.

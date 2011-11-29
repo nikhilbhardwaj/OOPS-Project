@@ -1,0 +1,13 @@
+X binaries for the multi emulator super system
+	
+xmess is an emulator for various consoles and computing systems, sharing
+a lot of codebase with the mame project.
+
+some of the well known consoles and computers emulated are the atari 2600,
+lynx, nes, snes, gameboy, sega master system, sega megadrive, game gear,
+colecovision, vectrex, apple ii, atari 400/800, commodore 64/128,
+ibm pc xt and at (mda and cga), zx80, zx spectrum, ti99/4, trs-80,
+and the msx.
+
+this package provides binaries for the x version of xmess.
+it is compiled with xvideo, dga and opengl support.

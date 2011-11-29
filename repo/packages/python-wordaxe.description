@@ -1,0 +1,21 @@
+German language (and other) hyphenation algorithms
+	
+wordaxe allows python programs to automatically hyphenate text using an
+algorithm based on decomposing compound words into base words.
+
+the algorithm is suitable for any language that extensively uses closed-form
+compound words, as long as a base word list is provided.  currently such a list
+only exists for german.
+
+in addition, wordaxe implements other algorithms:
+
+
+ * a language-independent algorithm that only hyphenates at a few special
+   characters (in particular, '-').
+ * a (currently incomplete) port of the tex hyphenation algorithm to pure
+   python.
+ * a wrapper for the pyhnj library (called python-hyphen in debian).
+
+
+wordaxe integrates with the reportlab library to provide automatic hyphenation
+for the paragraph line-breaking method.

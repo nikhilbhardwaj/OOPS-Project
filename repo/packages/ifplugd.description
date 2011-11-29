@@ -1,0 +1,19 @@
+Configuration daemon for ethernet devices
+	
+ifplugd is a daemon which will automatically configure your ethernet device
+when a cable is plugged in and automatically de-configure it if the cable is
+pulled out. this is useful on laptops with onboard network adapters, since it
+will only configure the interface when a cable is really connected.  features
+include:
+
+
+ * syslog support
+ * multiple ethernet interface support
+ * uses debian's native ifup/ifdown programs
+ * small executable size and memory footprint
+ * option to beep when the cable is unplugged or plugged
+ * option to beep when the interface configuration succeeds or fails
+ * can be configured to ignore short unplugged or plugged periods
+ * configure wlan devices (on detecting a successful association to an ap)
+ * supports siocethtool, siocgmiireg and siocdevprivate for getting link status
+ * compatibility mode for network devices which do not support cable detection

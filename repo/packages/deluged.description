@@ -1,0 +1,9 @@
+Bittorrent client written in python/pygtk (daemon)
+	
+deluge is a full-featured, multi-platform, multi-interface bittorrent client.
+
+it uses libtorrent-rasterbar in it's backend and features multiple
+user-interfaces including: gtk+, web and console.
+
+this package contains the daemon application (deluged) which is able to accept
+local or remote connections from any user-interface.

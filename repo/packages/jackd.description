@@ -1,0 +1,6 @@
+Jack audio connection kit (default server package)
+	
+jack is a low-latency sound server, allowing multiple applications to
+connect to one audio device, and to share audio between themselves.
+
+this dummy package depends on the current default jack implementation.

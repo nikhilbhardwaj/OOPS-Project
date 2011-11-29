@@ -1,0 +1,7 @@
+Module for reading/writing excel spreadsheet files
+	
+pyexcelerator is a python module that can generate excel 97/2000/xp/2003
+spreadsheet files. it can also extract data from these files.  it supports
+unicode in excel files, and can use a variety of formatting features and
+printing options. it can dump excel and ole2 compound files.  included are
+simple conversion tools py_xls2html, py_xls2csv and py_xls2txt.

@@ -1,0 +1,5 @@
+Cgi program for unbundling djvu files on the fly
+	
+cgi program to convert a bundled multi-page djvu document into an
+indirect djvu document on the fly.  this provides for efficiently
+browsing large djvu documents without transferring unnecessary pages.

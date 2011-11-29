@@ -1,0 +1,13 @@
+Dedicated game server for armagetron advanced
+	
+armagetron advanced is a 3d game based on the light cycle racing in the movie
+"tron". you have to control a light cycle that can only turn in steps of 90
+degrees, leaves a solid wall behind and can not be stopped.  the aim is to
+survive the longest of all players by not crashing into any walls.
+
+this version of armagetron advanced can only be used as a network game server.
+it does not have graphical output and can be controlled via the text console.
+
+the normal armagetron advanced used for playing is also capable to serve
+games, but will require x to display its graphics, will provide a player and
+is therefore unsuited for permanent game servers.

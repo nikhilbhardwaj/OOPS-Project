@@ -1,0 +1,7 @@
+A friendly interactive shell (debugging symbols)
+	
+fish is a shell geared towards interactive use.  its features are focused on
+user friendliness and discoverability.  the language syntax is simple but
+incompatible with other shell languages.
+
+this package contains gdb debugging symbols for the fish package.

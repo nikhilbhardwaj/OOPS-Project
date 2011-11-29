@@ -1,0 +1,10 @@
+Advanced metronome for jack
+	
+klick is an advanced command-line based metronome using the jack sound server.
+it allows you to define complex tempo maps for entire songs or performances.
+
+a single meter and tempo can be specified on the command line, while more
+complex tempo maps can be read from plain text files.
+alternatively, it's also possible to run klick in interactive mode,
+where the tempo can be changed at runtime using the keyboard,
+or to follow tempo information read from jack transport.

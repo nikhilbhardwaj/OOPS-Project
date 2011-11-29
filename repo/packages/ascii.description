@@ -1,0 +1,8 @@
+Interactive ascii name and synonym chart
+	
+the ascii utility provides easy conversion between various byte representations
+and the american standard code for information interchange (ascii) character
+table.  it knows about a wide variety of hex, binary, octal, teletype mnemonic,
+iso/ecma code point, slang names, xml entity names, and other representations.
+given any one on the command line, it will try to display all others.  called
+with no arguments it displays a handy small ascii chart.

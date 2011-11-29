@@ -1,0 +1,6 @@
+Export captured traffic to remote netflow collector (meta)
+	
+this program is a libpcap-based utility which collects network
+traffic and emits it as netflow towards a specified collector.
+
+this is a meta package that depends on fprobe.

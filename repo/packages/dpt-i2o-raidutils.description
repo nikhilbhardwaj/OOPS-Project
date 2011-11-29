@@ -1,0 +1,9 @@
+Adaptec i2o hardware raid management utilities
+	
+suite of programs to manage some i2o-compliant raid controllers; in
+particular some adaptec hardware; to be very specific those using the
+dpt_i2o kernel module or config_scsi_dpt_i2o driver, or (for more
+recent kernels) the i2o_block and i2o_config modules, or
+config_i2o_block and config_i2o_config drivers.  one can
+create/delete a raid array, add/remove a hot spare drive to/from an
+array, activate/silence the alarm, and query array/disk status.

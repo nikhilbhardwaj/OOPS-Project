@@ -1,0 +1,5 @@
+A python interface to the audio output library
+	
+this module makes the libao (audio output) functions available
+in python. with this module you can write python applications
+that use the cross platform audio output library.

@@ -1,0 +1,20 @@
+Tool for manipulating pdf documents
+	
+if pdf is electronic paper, then pdftk is an electronic stapler-remover,
+hole-punch, binder, secret-decoder-ring, and x-ray-glasses. pdftk is a
+simple tool for doing everyday things with pdf documents. keep one in the
+top drawer of your desktop and use it to:
+
+ - merge pdf documents
+ - split pdf pages into a new document
+ - decrypt input as necessary (password required)
+ - encrypt output as desired
+ - fill pdf forms with fdf data and/or flatten forms
+ - apply a background watermark
+ - report pdf on metrics, including metadata and bookmarks
+ - update pdf metadata
+ - attach files to pdf pages or the pdf document
+ - unpack pdf attachments
+ - burst a pdf document into single pages
+ - uncompress and re-compress page streams
+ - repair corrupted pdf (where possible)

@@ -1,0 +1,10 @@
+Free japanese dictionaries for mecab (replacement of mecab-ipadic) in euc-jp
+	
+naist japanese dictionary is a dictionary for mecab, japanese morphological
+analysis implementation.
+
+this is based on mecab-ipadic, however it is released under bsd style license
+now by naist (nara institute of science and technology, japan), so it is free
+and can replace mecab-ipadic.
+
+this package provides euc-jp data, not utf-8.

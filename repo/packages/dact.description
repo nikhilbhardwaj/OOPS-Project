@@ -1,0 +1,11 @@
+Multi-algorithm compression
+	
+dact compresses each block within the file with all its known algorithms and
+uses the block with the best compression ratio.
+
+dact can encrypt the compressed data with one of two algorithms.
+
+compression time for dact is slow as each block is compressed multiple times.
+
+current supported compression algorithms include rle, delta, text, zlib,
+modified zlib, bzip2 and seminibble encoding.

@@ -1,0 +1,5 @@
+Perl module to add mediawiki markup support to html::wikiconverter
+	
+html::wikiconverter::mediawiki contains rules for converting html into
+mediawiki markup, used by html::wikiconverter and 'html2wiki' command.
+see the libhtml-wikiconverter-perl package for more information.

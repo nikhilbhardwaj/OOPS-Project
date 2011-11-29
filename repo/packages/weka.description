@@ -1,0 +1,15 @@
+Machine learning algorithms for data mining tasks
+	
+weka is a collection of machine learning algorithms in java that can
+either be used from the command-line, or called from your own java
+code. weka is also ideally suited for developing new machine learning
+schemes.
+
+implemented schemes cover decision tree inducers, rule learners, model
+tree generators, support vector machines, locally weighted regression,
+instance-based learning, bagging, boosting, and stacking. also included
+are clustering methods, and an association rule learner. apart from
+actual learning schemes, weka also contains a large variety of tools
+that can be used for pre-processing datasets.
+
+this package contains the binaries and examples.

@@ -1,0 +1,18 @@
+Xprint printer utility client library (development files)
+	
+libxprintutil provides utility xpu apis allowing client applications
+to access and manipulate information about printer capabilities
+from an xprint server.
+
+if you want to write an app to create xprint jobs (printing x windows
+to paper, for instance) then you probably want libxp-dev instead.
+
+this package provides a static library and c header files.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxprintutil

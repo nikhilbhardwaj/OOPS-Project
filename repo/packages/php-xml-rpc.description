@@ -1,0 +1,5 @@
+Php implementation of the xml-rpc protocol
+	
+a pear-ified version of useful inc's xml-rpc for php.
+
+it has support for http and https transport, proxies and authentication.

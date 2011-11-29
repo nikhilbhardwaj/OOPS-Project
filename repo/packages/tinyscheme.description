@@ -1,0 +1,10 @@
+Very small scheme implementation
+	
+tinyscheme is an implementation of the algorithmic language scheme that
+aims to very small memory footprint while being as close to r5rs as
+practically feasible.  tinyscheme is also a good base for hacking,
+given the implementation's small size, easy gluing with c and code
+being fully reentrant.
+
+tinyscheme is based on an s-expression evaluator.  this package
+distributes tinyscheme as a standalone executable.

@@ -1,0 +1,13 @@
+Linux fdisk replacement based on libparted
+	
+gnu fdisk is a replacement to the old linux fdisk. it provides the same
+features as the original fdisk provides plus some interesting ones like:
+
+ * partition resizing
+ * creating filesystem on newly created partitions
+ * partition integrity checking
+ * copying/moving partition
+
+
+gnu fdisk also intend to be a valid replacement for mac-fdisk and freebsd
+fdisk.

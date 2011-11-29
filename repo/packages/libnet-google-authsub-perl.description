@@ -1,0 +1,6 @@
+Module to interact with sites that implement google style authsub
+	
+net::google::authsub allows you to interact with sites that implement google
+style authsub. the module is an api for the authentication service of google.
+it can be used to access both regular google accounts and hosted google
+accounts (google apps).

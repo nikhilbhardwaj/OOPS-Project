@@ -1,0 +1,21 @@
+Software-build tool, replacement for make
+	
+perforce's jam (formerly called jam/mr) is a powerful and highly
+customizable utility to build programs and other things, that can run
+on un*x, nt, vms, os/2 and macintosh mpw, using portable jamfiles.
+it can build large projects spread across many directories in one
+pass, and can run jobs in parallel where make would not.
+
+it takes some time to fully apprehend, especially when one's already
+accustomed to make(1), but there's no comparison in power when
+comparing these two tools.
+
+standard rules:
+
+ - can automatically extract header dependencies for c/c++ (you can
+
+customize for you own language)
+
+ - provide for automatic "clean", "install", "uninstall" rules,
+
+so that an automake-like tool is not needed

@@ -1,0 +1,8 @@
+A simple cgi to retrieve images from video4linux device
+	
+w3cam is a simple cgi to retrieve images from video4linux device.
+in other words this program will only run on linux machines
+which support a video4linux-device.
+
+w3cam supports a plain mode and a gui mode. in the gui mode a html
+with a form is supplied to change some parameters with the mouse

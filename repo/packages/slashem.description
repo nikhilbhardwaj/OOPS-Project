@@ -1,0 +1,19 @@
+A variant of nethack
+	
+super lotsa added stuff hack - extended magic (slash'em)
+is a role-playing game where you control a single character. the
+interface and gameplay are similar in style to rogue, adom, angband
+and, of course, nethack. you control the actions through the
+keyboard and view the world from an overhead perspective.
+
+the problem: the amulet of yendor has been stolen. not only
+that but it appears that the wizard of yendor (not a nice person),
+who took the amulet, is hiding in the dungeons of doom (not a
+friendly place).
+
+this package contains the basic ascii interface. for more fancy
+graphical interfaces see
+
+ slashem-x11 - simple graphic interface using xaw
+ slashem-sdl - graphical interface usnig sdl
+ slashem-gtk - graphical interface usnig gtk

@@ -1,0 +1,7 @@
+Perform an ldap search and update results using a text editor
+	
+from a first glance ldapvi looks like ldapsearch: you search for entries in
+the ldap database. but the results get opened in your preferred editor, and
+you can change, add or delete entries from there. after you are done you quit
+the editor and ldapvi offers you several options: view your changes as ldif,
+commit changes or discard them.

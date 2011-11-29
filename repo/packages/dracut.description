@@ -1,0 +1,11 @@
+Modular, event-driven initramfs infrastructure
+	
+this package contains tools to create a
+bootable initramfs for 2.6 linux kernels. unlike existing
+implementations, this is an attempt at having as little as
+possible hard-coded into the initramfs as possible. therefore,
+instead of scripts hard-coded to do various things, dracut
+contains various modules which contribute functionality to
+udev, which handles device creation. having the root on md,
+lvm2, luks is supported as well as nfs, iscsi, nbd and fcoe
+with dracut-network.

@@ -1,0 +1,15 @@
+Flickr api wrapper for python
+	
+python-flickrapi is a complete and easy to use python
+module for interfacing with the flickr api (see
+http://www.flickr.com/services/api/ for details on
+the flickr api).
+
+the main features are:
+
+
+  - keeping track of authentication credentials
+    (no need to pass them on every flickr api call)
+  - caching of api calls
+  - support for uploading and replacing photos
+  - support for different xml parsers

@@ -1,0 +1,14 @@
+Common files for building cli packages
+	
+this package must be installed if a cli (common language infrastructure)
+packaging environment is desired.
+
+it includes debhelper scripts for managing automatic dependency tracking
+between native libraries, cli libraries and cli applications:
+
+ * dh_clideps to generate cli:depends information for debian/control
+ * dh_makeclilibs to create clilibs files that are needed/used by dh_clideps
+ * dh_installcligac to register assemblies to be late installed into a gac
+ * dh_cligacpolicy to create and install the policy files into a gac
+ * dh_clifixperms to fix permissions of files in cli package build directories
+ * dh_clistrip to strip cli debug symbols from package build directories

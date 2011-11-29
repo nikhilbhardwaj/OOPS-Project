@@ -1,0 +1,10 @@
+Cyrus sasl extension for php 5
+	
+sasl is the simple authentication and security layer (as defined by
+rfc 2222).  it provides a system for adding plugable authenticating
+support to connection-based protocols.  the sasl extension for php
+makes the cyrus sasl library functions available to php. it aims to
+provide a 1-to-1 wrapper around the sasl library to provide the
+greatest amount of implementation flexibility.  to that end, it is
+possible to build both a client-side and server-side sasl
+implementation entirely in php.

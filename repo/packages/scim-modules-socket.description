@@ -1,0 +1,11 @@
+Socket modules for scim platform
+	
+scim (smart common input method) is an input method (im) platform.
+
+this package provides the socket modules for scim.  scim can use a local or
+inet socket as the front end and connect to the configuration and im engine
+modules.  then other computers and/or environments can share these input
+methods by connecting to the socket with socket im engine module and socket
+configure module.
+
+for more information about scim, please see the description of scim package.

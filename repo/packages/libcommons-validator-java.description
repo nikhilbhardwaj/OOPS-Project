@@ -1,0 +1,8 @@
+Ease and speed development and maintenance of validation rules
+	
+the commons validator is a basic validation framework
+that lets you define validation rules for a javabean
+in an xml file.
+
+validation rules can be defined in an xml file which
+keeps them abstracted from javabean you are validating.

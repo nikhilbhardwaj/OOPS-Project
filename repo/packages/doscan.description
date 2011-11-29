@@ -1,0 +1,10 @@
+Port scanner for discovering services on large networks
+	
+doscan is a tool to discover tcp services on your network. it is
+designed for scanning a single ports on a large network.  doscan
+contacts many hosts in parallel, using standard tcp sockets provided
+by the operating system.  it is possible to send strings to remote
+hosts, and collect the banners they return.
+
+there are better tools for scanning many ports on a small set of
+hosts, for example nmap.

@@ -1,0 +1,16 @@
+Provides an xml-based rss parser in php
+	
+magpierss is an xml-based rss parser in php.  it attempts to be "php-like",
+and simple to use.
+
+some features include:
+
+
+ * supports rss 0.9 - 1.0, with limited rss 2.0 support
+ * supports namespaces, and modules, including mod_content and mod_event
+ * open minded
+ * simple, functional interface, to object oriented backend parser
+ * automatic caching of parsed rss objects makes its easy to integrate
+ * supports conditional get with last-modified, and etag
+ * uses constants for easy override of default behaviour
+ * heavily commented

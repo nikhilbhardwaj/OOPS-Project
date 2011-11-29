@@ -1,0 +1,16 @@
+Erlang-style bitstrings for ocaml
+	
+bitstring adds erlang-style bitstrings and matching over bitstrings as a syntax
+extension and library for ocaml.
+
+you can use this module to both parse and generate binary formats, files and
+protocols.
+
+bitstring handling is added as primitives to the language, making it simple to
+use.
+
+bitstring handles integers, strings, sub-bitstrings, big-, little- and
+native-endianness, signed and unsigned types, variable-width fields, fields
+with arbitrary bit alignment.
+
+this package contains header and ocaml library.

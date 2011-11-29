@@ -1,0 +1,6 @@
+Moose extension for roles that support overloading
+	
+moosex::role::withoverloading allows you to write a moose::role which defines
+overloaded operators and allows those operator overloadings to be composed
+into the classes/roles/instances it's compiled to, while plain moose::roles
+would lose the overloading.

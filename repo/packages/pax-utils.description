@@ -1,0 +1,6 @@
+Security-focused elf files checking tool
+	
+this is a small set of various pax aware and related utilities for elf
+binaries. it can check elf binary files and running processes for
+issues that might be relevant when using elf binaries along with pax,
+such as non-pic code or executable stack and heap.

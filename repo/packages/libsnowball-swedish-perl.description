@@ -1,0 +1,8 @@
+Stemming algorithm for swedish
+	
+the stem function takes a scalar as a parameter and stems the word
+according to martin porters swedish stemming algorithm,
+which can be found at the snowball website: http://snowball.tartarus.org/.
+
+it also supports caching if you pass the use_cache option when constructing
+a new l:s:s:s object.

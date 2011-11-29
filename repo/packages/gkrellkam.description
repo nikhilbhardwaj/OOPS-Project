@@ -1,0 +1,11 @@
+Gkrellm plugin that displays a periodically updating image
+	
+gkrellkam is basically wmgrabimage in a gkrellm panel, except that it
+is more flexible (you can specify a local or remote image, or a list of
+local or remote images, or a script that outputs the right image, etc).
+the image (any format or size) is resized to a thumbnail and placed in
+a gkrellm panel, where it is updated periodically. multiple images are
+rotated.
+
+this plugin is useful for keeping track of webcams, weather maps, or
+any other kind of changing image information.

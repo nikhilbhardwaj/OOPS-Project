@@ -1,0 +1,11 @@
+Java hdf5 object package (java jni library)
+	
+hdf is a versatile data model that can represent very complex data objects
+and a wide variety of metadata. it is a completely portable file format
+with no limit on the number or size of data objects in the collection.
+
+this java package implements hdf5 data objects in an
+object-oriented form. it provides a common java api for accessing hdf5 files.
+
+this package includes the architecture specific java native interface part
+for the java bindings for hdf5.

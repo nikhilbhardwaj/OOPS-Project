@@ -1,0 +1,21 @@
+Extensible wiki
+	
+sputnik is a wiki written in lua. it is also a platform for building a range
+of wiki-like applications, drawing on lua's strengths as an extension
+language.
+
+out of the box sputnik behaves like a wiki with all the standard wiki
+features: editable pages, protection against spam bots, history view of pages,
+diff, preview, per-page-rss feed for site changes.
+
+at the same time, sputnik is designed to be used as a platform for a wide
+range of "social software" applications. sputnik stores its data as versioned
+"pages" that can be editable through the web, and it allows those pages to
+store any data that can be saved as text (prose, comma-separated values, lists
+of named parameters, lua tables, mbox-formatted messages, xml, etc.) while by
+default the page is displayed as if it carried markdown-formatted text, the
+way the page is viewed (or edited, or saved, etc.) can be overriden on a
+per-page basis by over-riding or adding "actions".
+
+the packages sputnik-storage-* provide a wide range of storage modules
+in addition to the default one (that is based on plain text files).

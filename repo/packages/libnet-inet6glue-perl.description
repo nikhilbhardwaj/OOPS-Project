@@ -1,0 +1,9 @@
+Glue module to make perl modules ipv6 ready
+	
+net::inet6glue is a collection of modules to make common modules ipv6 ready
+by hotpatching them.
+
+unfortunatly the current state of ipv6 support in perl is that no ipv6
+support is in the core and that a lot of important modules (like net::ftp,
+net::smtp, lwp,...) do not support ipv6 even if the modules for ipv6 sockets
+socket6, io::socket::inet6 are available.

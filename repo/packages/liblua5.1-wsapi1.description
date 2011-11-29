@@ -1,0 +1,17 @@
+Web server api abstraction layer for the lua language version 5.1
+	
+wsapi is an api that abstracts the web server for lua web applications,
+allowing the same application to be used in different web servers.
+
+this package contains the wsapi utility libraries (for common tasks like url
+encoding/decoding) as well as the following backends (server implementations):
+
+
+ - cgi (the regular environment-variables based protocol)
+ - xavante (for the xavante web server)
+
+
+the fastcgi backends is available in the separate package liblua5.1-wsapi-fcgi.
+
+this package also includes a backward compatible implementation of sapi, used
+by old versions of cgilua.

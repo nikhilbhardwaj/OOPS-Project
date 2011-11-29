@@ -1,0 +1,9 @@
+Fuse filesystem for media transfer protocol devices
+	
+mtpfs is a fuse filesystem that supports reading and writing from mtp (media
+transfer protocol) devices, such as mp3 players, video players or digital
+cameras.
+
+in addition to revealing media files on the connected device, mtpfs exposes a
+virtual directory called "/playlists" which contains the device's playlists as
+m3u files.

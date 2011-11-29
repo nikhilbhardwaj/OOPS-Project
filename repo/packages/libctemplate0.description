@@ -1,0 +1,8 @@
+A simple but powerful template language for c++
+	
+this package contains a library implementing a simple but
+powerful template language for c++.  it emphasizes separating logic
+from presentation: it is impossible to embed application logic in this
+template language.  this limits the power of the template language
+without limiting the power of the template *system*.  indeed, google's
+"main" web search uses this system exclusively for formatting output.

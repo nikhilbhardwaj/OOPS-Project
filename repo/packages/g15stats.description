@@ -1,0 +1,15 @@
+A cpu/memory/swap usage meter for g15daemon
+	
+the packages provides the following usage meter for lcd on
+some logitech keyboards, usind g15daemon:
+
+cpu screen displays graphs of user/system/nice and idle time, along with
+loadavg and uptime.
+
+memory screen displays memory total & free, and graph of used vs
+buffered+cached memory.
+
+swap screen displays used, free and total swap space, along with the number
+of pages currently paged in/out.
+
+network screen displays total bytes in/out, history graph, peak speed.

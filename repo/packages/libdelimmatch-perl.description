@@ -1,0 +1,9 @@
+Perl module to match delimited substrings
+	
+delimmatch allows you to match delimited substrings in a buffer. the
+delimiters can be specified with any regular expression and the start
+and end delimiters need not be the same. if the delimited text is
+properly nested, entire nested groups are returned.
+
+in addition, you may specify quoting and escaping characters that
+contribute to the recognition of start and end delimiters.

@@ -1,0 +1,8 @@
+Not erik's windowing toolkit - text mode windowing with slang
+	
+newt is a windowing toolkit for text mode built from the slang library.
+it allows color text mode applications to easily use stackable windows,
+push buttons, check boxes, radio buttons, lists, entry fields, labels,
+and displayable text. scrollbars are supported, and forms may be nested
+to provide extra functionality. this package contains the shared library
+for programs that have been built with newt.

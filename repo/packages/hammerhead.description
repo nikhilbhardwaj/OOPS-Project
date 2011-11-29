@@ -1,0 +1,12 @@
+Stress testing tool for web server and web site
+	
+a stress testing tool designed to test out
+your web server and web site. it can initiate multiple
+connections from ip aliases and simulated numerous (256+)
+users at any given time. the rate at which hammerhead
+attempts to pound your site is fully configurable,
+there are numerous other options for trying to create
+problems with a web site (so you can fix them).
+
+http://hammerhead.sourceforge.net/
+https://sf.net/projects/hammerhead/

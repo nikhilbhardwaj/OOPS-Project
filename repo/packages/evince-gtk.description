@@ -1,0 +1,11 @@
+Document (postscript, pdf) viewer (gtk+ version)
+	
+evince is a simple multi-page document viewer.  it can display and print
+postscript (ps), encapsulated postscript (eps), djvu, dvi and portable
+document format (pdf) files.
+when supported by the document, it also allows searching for text,
+copying text to the clipboard, hypertext navigation, and
+table-of-contents bookmarks.
+
+this version of evince is built without gconf and gnome keyring
+support.

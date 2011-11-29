@@ -1,0 +1,5 @@
+Data compressor based on the lzma algorithm (library)
+	
+the lzlib compression library provides in-memory lzma compression and
+decompression functions, including integrity checking of the uncompressed data.
+the compressed data format used by the library is the lzip format.

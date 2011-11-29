@@ -1,0 +1,10 @@
+Generic library support script
+	
+this is gnu libtool, a generic library support script.  libtool hides
+the complexity of generating special library types (such as shared
+libraries) behind a consistent interface.  to use libtool, add the
+new generic library building commands to your makefile, makefile.in,
+or makefile.am.  see the documentation for details.  libtool supports
+building static libraries on all platforms.
+
+libtool supports generation of c, c++, fortran and java libraries.

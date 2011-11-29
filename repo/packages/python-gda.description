@@ -1,0 +1,5 @@
+Python bindings for the gnome data abstraction library
+	
+this package contains bindings allowing to run python programs using
+the gnome data abstraction (gda), a database access library based on
+glib.

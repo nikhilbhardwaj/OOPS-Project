@@ -1,0 +1,14 @@
+Secure anycast tunneling protocol
+	
+anytun is an implementation of the secure anycast tunneling protocol. it
+uses an easy openvpn style interface and makes it possible to build
+redundant vpn clusters with load balancing between servers. vpn servers
+share a single ip address. adding and removing vpn servers is done by the
+routing protocol, so no client changes have to be made when additional vpn
+servers are added or removed. it is possible to realise global load
+balancing based on shortest bgp routes by simply announcing the address
+space of the tunnel servers at multiple locations.
+
+currently ethernet, ipv4 and ipv6 tunnels are supported by the
+implementation. however the protocol allows to tunnel every ethertype
+protocol.

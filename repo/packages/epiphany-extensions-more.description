@@ -1,0 +1,19 @@
+Collection of third-party extensions for the epiphany web browser
+	
+this package contains various user-contributed extensions for
+epiphany, an intuitive web browser for the gnome desktop.
+
+extensions bringing new features:
+
+ * bookmark shortcuts - perform bookmark searches by typing a shortcut in the
+   address bar
+
+
+modifications of the user interface:
+
+ * confirm window close - confirm closing when several tabs are open
+
+
+modifications of the tabs behaviour:
+
+ * restore closed tab

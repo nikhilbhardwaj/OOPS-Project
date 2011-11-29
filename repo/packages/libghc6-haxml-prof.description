@@ -1,0 +1,15 @@
+Profiling libraries for the haskell haxml library
+	
+
+haxml is a collection of utilities for parsing, filtering,
+transforming, and generating xml documents using haskell. its basic
+facilities include:
+
+ - a parser for xml,
+ - a separate error-correcting parser for html,
+ - an xml validator,
+ - pretty-printers for xml and html.
+
+
+.
+this package contains the profiling libraries compiled for ghc 6.

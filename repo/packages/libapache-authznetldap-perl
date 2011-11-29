@@ -1,0 +1,4 @@
+PackageId:9433
+Name:libapache-authznetldap-perl
+Version:0.07-4
+Deps:libapache2-mod-perl2,libconvert-asn1-perl,libmime-base64-urlsafe-perl,libnet-ldap-perl,liburi-perl,perl

@@ -1,0 +1,14 @@
+Tex portable graphic format
+	
+pgf stands for `portable graphics format'. it is a tex macro package
+that allows you to create graphics in your tex documents using a
+special pgfpicture environment and special macros for drawing lines,
+curves, rectangles, and many other kind of graphic objects. its usage
+closely resembles the pstricks package or the normal picture
+environment of latex.
+
+although pgf is less powerful than \pstricks, it has the advantage
+that it can generate both postscript output and pdf output from the
+same file. the pgf package works together both with dvips and
+pdftex. in particular, packages that rely on pdftex or pdflatex (like
+some packages for creating presentations) can be used together with pgf.

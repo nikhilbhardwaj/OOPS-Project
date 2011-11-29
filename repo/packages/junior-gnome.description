@@ -1,0 +1,13 @@
+Debian jr. for gnome
+	
+this package includes a collection of programs for children
+which are built for gnome.  a gnome desktop is not required
+in order to run these.  they are kept separate merely so that
+installing a debian jr. system won't drag in all kinds of
+gnome dependencies.
+
+as such, this package is by no means a complete collection of
+programs suitable for children in gnome.  the debian jr. project
+will be adding to this list in future release, and likely
+refining the package into categories the way the rest of debian
+jr. packages are now organized.

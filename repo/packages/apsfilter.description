@@ -1,0 +1,12 @@
+Magic print filter with automatic file type recognition
+	
+apsfilter makes printing many file formats much easier.  it features
+on-the-fly decompression and conversion, and works on both postscript
+and non-postscript (via ghostscript) graphical printers.
+
+among the supported formats are: gzip, bzip2, compress, freeze, pack,
+ascii, bmp, data (pcl, etc.), dvi, fbm, fig, fits, gif, group 3 fax,
+html, iff ilbm, jpeg, kodak photo cd, mgr, miff, pbm/pgm/pnm/ppm, pdf,
+png, postscript, rle, sgi, sketch, sun raster, targa, tiff, troff, wpg,
+x pixmap, xcf.  note that actual support depends on the installed
+filter programs.

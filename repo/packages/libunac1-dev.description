@@ -1,0 +1,10 @@
+A c programmer's library that removes accents from a string
+	
+unac is a c programmer's library that removes accents from a string.
+for instance the string été will become ete.  it provides a command
+line interface that removes accents from a input flow or a string
+given in argument (unaccent command). in the library function and the
+command, the charset of the input is specified as an argument. the
+input is converted to utf-16 using iconv(3), accents are stripped and
+the result is converted back to the original charset. the iconv --list
+command on gnu/linux will show all charset supported.

@@ -1,0 +1,6 @@
+Grapher for mimedefang spam and virus logs
+	
+graphdefang is a configurable utility that parses arbitrary
+syslog entries and creates a set of configurable charts (png files)
+with the data. these files can be written to disk or displayed by a
+web server through a cgi script.

@@ -1,0 +1,11 @@
+The blt extension library for tcl/tk - run-time package
+	
+blt is a library of useful extensions for the tcl language and the
+popular tk graphical toolkit.  it adds a vector and tree data type,
+background execution and some debugging tools to tcl, and provides
+several new widgets for tk, including graphs, bar-charts, trees, tabs,
+splines and hyper-links, as well as a new geometry manager, drag &
+drop support, and more.
+
+this package contains everything you need to use blt with your tcl/tk
+scripts and tcl/tk-enabled apps.

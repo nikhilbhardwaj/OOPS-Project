@@ -1,0 +1,7 @@
+Ace protocol over http tunneling library
+	
+the http tunneling, bidirectional, protocol (htbp) library enables
+the writing of stream-based protocols over http.
+
+this allows clients behind a firewall to establish a connection with
+outbound servers using the http protocol.

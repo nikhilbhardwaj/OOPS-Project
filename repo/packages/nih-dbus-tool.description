@@ -1,0 +1,8 @@
+Nih d-bus binding tool
+	
+nih-dbus-tool generates c source code from the d-bus introspection xml
+data provided by most services; either to make implementing the
+described objects in c programs or to make proxying to the described
+remote objects easier.
+
+the generated code requires libnih-dbus-dev to be compiled.

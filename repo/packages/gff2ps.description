@@ -1,0 +1,10 @@
+Produces postscript graphical output from gff-files
+	
+gff2ps is a script program developed with the aim of converting gff-formatted
+records into high quality one-dimensional plots in postscript. such plots
+maybe useful for comparing genomic structures and to visualizing outputs from
+genome annotation programs.
+it can be used in a very simple way, because it assumes that the gff file
+itself carries enough formatting information, but it also allows through a
+number of options and/or a configuration file, for a great degree of
+customization.

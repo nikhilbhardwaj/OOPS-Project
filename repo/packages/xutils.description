@@ -1,0 +1,9 @@
+X window system utility programs metapackage
+	
+xutils provides a set of utility programs shipped with the x window system.
+many of these programs are useful even on a system that does not have any x
+clients or x servers installed.
+
+this package is provided for transition from earlier debian releases, the
+programs formerly in xutils and xbase-clients having been split out in smaller
+packages.

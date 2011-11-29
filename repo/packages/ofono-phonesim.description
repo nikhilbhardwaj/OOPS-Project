@@ -1,0 +1,9 @@
+Modem emulator used by the ofono mobile telephony stack
+	
+ofono is a stack for mobile telephony devices on linux.  ofono supports
+speaking to telephony devices through specific drivers, or with generic
+at commands.
+
+phonesim is a modem emulator that ofono uses for development and testing.
+this allows ofono to be used by any host without requiring special gsm
+(or other) hardware.

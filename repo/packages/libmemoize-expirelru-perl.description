@@ -1,0 +1,7 @@
+Expiry plug-in for memoize that adds lru cache expiration
+	
+memoize::expirelru implements an expiry policy for memoize that follows lru
+semantics, that is, the last n results, where n is specified as the argument
+to the cachesize parameter, will be cached.
+
+for the theory of memoization, please see the memoize module documentation.

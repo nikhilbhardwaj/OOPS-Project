@@ -1,0 +1,27 @@
+Dynamic libraries for openturns
+	
+openturns is a powerful and generic tool to treat and quantify
+uncertainties in numerical simulations in design, optimization and
+control. it allows both sensitivity and reliability analysis studies:
+
+ * define the outputs of interest and decision criteria;
+ * quantify and model the source of uncertainties;
+ * propagate uncertainties and/or analyse sensitivity
+ * rank the sources of uncertainty
+
+
+openturns is a large project with more than 300 c++ classes which
+uses well known and supported software such as r for the statistical
+methods and blas/lapack for the linear algebra.
+
+this package provides the dynamic libraries.
+
+the library implements almost all the treatments of uncertainty that
+openturns can provide. it is designed to be linked against any user
+specific application, or with either the textual front-end (see
+python-openturns package).
+
+the main function of that library is giving to specific applications
+all the functionalities needed to treat uncertainties in
+studies. targeted users are all engineers who want to introduce the
+probabilistic dimension in their so far deterministic studies.

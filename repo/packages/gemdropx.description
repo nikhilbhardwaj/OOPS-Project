@@ -1,0 +1,18 @@
+Gem drop x is an interesting one-player puzzle game for x11
+	
+the game is played with you at the bottom of the screen.  at the
+top is a random assortment of colored shapes ("gems").  as time
+goes on, more gems appear at the very top of the screen, pushing the
+rest downwards.  the game is over when the gems reach the bottom.
+
+it's your job to keep the screen from filling up.  you do this by
+"grabbing" gems from the top of the screen, carrying them around,
+if need be, and "throwing" them back up.
+
+if, when you throw some gems back up, you create a "match" of 3 or more
+gems in a vertical column, they disappear (with a cool little explosion).
+at this point, if there are any "matches" of the same gem to the left or
+right of this column, they disappear too!  and so on.  this is great for
+cool chain-reactions! you also get more points for the more gems that
+disappear in a match.  (matching four gives as many points as matching
+three twice, for example.)

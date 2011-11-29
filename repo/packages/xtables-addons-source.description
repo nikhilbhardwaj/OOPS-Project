@@ -1,0 +1,10 @@
+Extensions targets and matches for iptables [modules sources]
+	
+xtables-addons provides extra modules for iptables not present in the
+kernel, and is the successor of patch-o-matic.
+extensions includes new targets like tee, tarpit, chaos, or modules like
+geoip, ipset, and account.
+
+this package provides the source code for the xtables-addons kernel modules.
+the xtables-addons package is also required in order to make use of these
+modules. kernel source or headers are required to compile these modules.

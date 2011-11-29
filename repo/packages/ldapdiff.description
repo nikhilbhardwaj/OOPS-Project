@@ -1,0 +1,8 @@
+Tool to synchronize ldap servers using ldif formatted input files
+	
+ldapdiff compares ldif files with a running ldap server and does an
+appropriate add/delete/update for every changed entry/attribute.
+
+essentially, it combines "diff" and "patch" in one application (although it is
+designed for "patching" ldap directories using ldif files, not for use on flat
+ascii files).

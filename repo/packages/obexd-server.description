@@ -1,0 +1,9 @@
+D-bus obex server
+	
+implementation of obex(object exchange) client and server as a d-bus service providing
+high-level functionality.
+
+obex is communication protocol to facilitate the exchange of the binary object between
+the device.
+
+in this package the server is included.

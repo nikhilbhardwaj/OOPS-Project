@@ -1,0 +1,25 @@
+Erlang/otp applications for corba support
+	
+the orber application is an erlang implementation of a corba
+object request broker.
+
+the cosevent application is an erlang implementation of a corba
+service cosevent.
+
+the coseventdomain application is an erlang implementation of a
+corba service coseventdomainadmin.
+
+the cosfiletransfer application is an erlang implementation of
+the omg corba file transfer service.
+
+the cosnotification application is an erlang implementation of
+the omg corba notification service.
+
+the cosproperty application is an erlang implementation of the
+omg corba property service.
+
+the costime application is an erlang implementation of the omg
+corba time and timerevent services.
+
+the costransactions application is an erlang implementation of
+the omg corba transaction service.

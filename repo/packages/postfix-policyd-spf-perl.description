@@ -1,0 +1,5 @@
+Simple postfix policy server for rfc 4408 spf checking
+	
+postfix-policyd-spf-perl is a basic postfix smtp policy server for spf
+checking.  it is implemented in pure perl and uses the mail::spf module.  the
+spf project web site is http://www.openspf.org/.

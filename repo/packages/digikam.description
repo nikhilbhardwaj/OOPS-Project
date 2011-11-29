@@ -1,0 +1,34 @@
+Digital photo management application for kde
+	
+digital photo management program designed to import, organize, enhance, search
+and export your digital images to and from your computer.
+
+some of the new features in this release of digikam include (compared to
+digikam 0.9.4):
+
+ designed from the ground-up for kde4, using kde4 technology:
+ hardware handling with kde4's solid interface
+ more comprehensive multimedia file handling using kde4's phonon interface
+ easy geolocation with kde4's marble interface
+ xmp metadata support
+ tiff/ep raw metadata editing
+ customizable file storage for the digikam database, supporting remote albums
+ support of multiple root album paths (no more importing into one giant album)
+ thumbnail-bar integration for easy navigation and editing
+ supports the latest camera raw files
+
+
+new/revamped tools:
+
+ revamped camera import wizard
+ lensfun integration: auto-correction of lens distortion
+ fuzzy searches based on hand-drawn sketches
+ advanced searches using image meta-information, like keywords and dates
+ map searching that gives you the power to search for global photo locations
+ advanced searches for duplicate and similar images
+
+
+digikam can also make use of the kipi image handling plugins to
+extend its capabilities even further for photo manipulations,
+import and export, etc. the kipi-plugins package contains many
+very useful extentions.

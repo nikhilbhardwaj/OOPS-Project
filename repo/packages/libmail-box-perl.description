@@ -1,0 +1,8 @@
+Message-folder management module
+	
+mail::box is the base-class for accessing various types of mail-folder
+organizational structures in a uniform way.  the various folder types vary
+on how they store their messages. for example, a folder may store many
+messages in a single file, or store each message in a separate file in a
+directory. similarly, there may be different techniques for locking the
+folders.

@@ -1,0 +1,14 @@
+H.323 protocol support for asterisk (ooh323c stack)
+	
+asterisk is an open source pbx and telephony toolkit.
+
+this channel driver (chan_ooh323c) provides support for the h.323 protocol
+for asterisk. this is an implementation by objective systems, inc. and does
+not use the openh323 library.
+
+this is one of many h.323 channel implementations for asterisk with others
+being chan_h323 and chan_oh323, distributed by debian as asterisk-h323 and
+asterisk-oh323, respectively.
+
+for more information about the asterisk pbx, have a look at the asterisk
+package.

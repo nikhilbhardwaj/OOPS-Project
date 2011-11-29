@@ -1,0 +1,10 @@
+Web-based social bookmarking system
+	
+allows multiple users to store, share and tag their favourite links online.
+
+
+  * scuttle supports most of the del.icio.us api.
+    almost all of the neat tools made for that system can be
+    modified to work with scuttle instead. if you find a tool
+    that won't let you change the api address, ask the creator
+    to add this setting. you never know, they might just do it.

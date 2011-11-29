@@ -1,0 +1,8 @@
+Copy regexp objects
+	
+regexp::copy allows you to copy the contents of one regexp object to another.
+a problem that i have found with the qr// operator is that the regexp objects
+that it creates are is impossible to dereference. this causes problems if you
+want to change the data in the regexp without losing the reference to it.
+its impossible. regexp::copy allows you to change the regexp by copying one
+object created through qr// to another.

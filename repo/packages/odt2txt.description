@@ -1,0 +1,13 @@
+Simple converter from opendocument text to plain text
+	
+odt2txt is a command-line tool which extracts the text out of opendocument
+texts, as produced by openoffice.org, koffice, staroffice and others.
+
+odt2txt can also extract text from some file formats similar to opendocument
+text, such as openoffice.org xml (*.sxw), which was used by openoffice.org
+version 1.x and older staroffice versions. to a lesser extend, odt2txt may
+be useful to extract content from opendocument spreadsheets (*.ods) and
+opendocument presentations (*.odp).
+
+it is small and fast, can output the document in many encodings and
+adopts to your locale.

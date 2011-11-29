@@ -1,0 +1,5 @@
+Perl module which provides a testing framework
+	
+the test::cmd module provides a framework for portable automated testing
+of executable commands and scripts (in any language, not just perl),
+especially commands and scripts that interface with the file system.

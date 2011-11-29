@@ -1,0 +1,6 @@
+Expand dependencies in a list of seed packages
+	
+germinate takes lists of seed packages and expands their dependencies to
+produce a full list of packages. this can be used for purposes such as
+managing the list of packages present in a derived distribution's archive
+or cd builds.

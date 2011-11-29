@@ -1,0 +1,4 @@
+Ibm 64bit hypervisor console modules
+	
+contains drivers for the hypervisor console, used as console for linux
+running in logical partitions of ibm hardware supporting it.

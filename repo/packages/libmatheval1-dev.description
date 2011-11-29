@@ -1,0 +1,12 @@
+Gnu library for evaluating symbolic mathematical expressions (development)
+	
+gnu libmatheval is library comprising several procedures that makes
+possible to create in-memory tree representation of mathematical
+functions over single or multiple variables and later use this
+representation to evaluate function for specified variable values, to
+create corresponding tree for function derivative over specified
+variable or to print textual representation of in-memory tree to
+specified string.  the library supports arbitrary variable names in
+expressions, decimal constants, basic unary and binary operators and
+elementary mathematical functions.
+this package contains the header files and development libraries.

@@ -1,0 +1,7 @@
+Tool that display nat connections
+	
+netstat-nat is a small program written in c. it displays nat
+connections, managed by netfilter/iptables which comes with the > 2.4.x
+linux kernels. the program reads its information from
+'/proc/net/ip_conntrack', which is the temporary conntrack-storage of
+netfilter.

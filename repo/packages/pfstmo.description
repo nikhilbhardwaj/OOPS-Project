@@ -1,0 +1,12 @@
+Set of tone mapping operators
+	
+this package contains a set of state-of-the-art tone mapping operators. tone
+mapping is a technique used to approximately map the appearance of
+high-dynamic range (hdr) images to media with more limited dynamic range. the
+operators are suitable for processing of both static images and animations.
+
+the operators are embedded in a flexible framework (pfstools) which provides
+a unified input/output mechanism and a modular architecture for the filtering
+of the image data. various file formats for static images and video are
+transparently supported and the high dynamic range data are processed
+modularly through a unix piping mechanism.

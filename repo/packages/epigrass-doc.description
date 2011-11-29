@@ -1,0 +1,10 @@
+Documentation for epigrass, a network epidemiology tool
+	
+epigrass is a software for visualizing, analyzing and simulating of
+epidemic processes on geo-referenced networks.
+
+epigrass can interact with the grass gis from which it can obtain
+maps and other geo-referenced information. however, epigrass does not
+require an installation of the grass gis for most of its features.
+
+this package contains the documentation.

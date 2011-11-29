@@ -1,0 +1,7 @@
+Ocaml bindings for the file type determination library
+	
+libmagic is a library for classifying files according to magic number tests.
+this package provides ocaml interface to the c library.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use libmagic.

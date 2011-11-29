@@ -1,0 +1,5 @@
+Stax reference implementation (ri)
+	
+stax is a standard xml processing api that allows you to stream xml data
+from and to your application. this stax implementation is the standard
+pull parser implementation for jsr-173 specification.

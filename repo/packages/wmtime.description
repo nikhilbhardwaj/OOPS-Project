@@ -1,0 +1,13 @@
+Window maker dockapp that displays the time and date
+	
+wmtime displays the time and date and gives you some nice additional
+features too.  it is intended for docking in window maker.
+
+it currently provides:
+
+
+  * the time and date;
+  * a realtime morphing interface (analog <> digital mode);
+  * auto-scaled and anti-aliased hands;
+  * localization: displaying the day and date in various languages;
+  * three user-defined commands to launch.

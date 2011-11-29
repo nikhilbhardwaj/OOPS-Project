@@ -1,0 +1,12 @@
+Kernel-based automounter for linux, version 5
+	
+autofs controls the operation of the automount daemons. the
+automount daemons automatically mount filesystems when they
+are used and unmount them after a period of inactivity. this
+is done based on a set of pre-configured maps.
+
+the kernel automounter implements an almost complete sunos
+style automounter under linux. a recent version of the kernel
+autofs4 module (builtin or separate) is required.
+
+this is the experimental branch of the autofs daemon.

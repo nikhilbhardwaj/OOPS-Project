@@ -1,0 +1,15 @@
+Perl module for bidirectional marc-8 <-> unicode conversion
+	
+marc::charset allows you to turn marc-8 encoded strings into utf-8
+strings.
+
+marc-8 is a single byte character encoding that predates unicode, and
+allows you to put non-roman scripts in marc bibliographic records.
+
+the marc21 standard now supports encoding character data in unicode,
+specifically the ucs transformation formats-8 (utf-8).  unicode
+notwithstanding, libraries still have a wealth of data encoded using
+marc-8. yet, some new data formats such as xml require that characters are
+encoded using unicode. in order to facilitate conversion the library of
+congress graciously published character mappings to enable the conversion
+of marc-8 data to unicode.

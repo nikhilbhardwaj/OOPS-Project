@@ -1,0 +1,13 @@
+A partition management utility
+	
+partition manager is a utility program to help you manage the disk devices,
+partitions and file systems on your computer. it allows you to easily create,
+copy, move, delete, resize without losing data, backup and restore partitions.
+
+partition manager supports a large number of file systems, including ext2/3/4,
+reiserfs, ntfs, fat16/32, jfs, xfs and more. note that to gain support for a
+specific file system other than ext2/3/4, you should install the corresponding
+suggested package.
+
+partition manager is based on libparted (like gparted) and makes use of the
+kde libraries for its user interface.

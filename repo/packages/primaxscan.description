@@ -1,0 +1,10 @@
+Primax colorado direct scanner software
+	
+this is a stand-alone driver program for the primax colorado direct
+scanners and compatibles (e.g. storm totalscan, network scanny mm100,
+genius colorpage vivid+)
+
+the command must be run by root because it wants direct access to
+the hardware parallell port.
+
+the software seems to be written only for i386 hardware.

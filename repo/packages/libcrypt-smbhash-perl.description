@@ -1,0 +1,8 @@
+Generate lm/nt hash of a password for samba
+	
+this module provides functions to generate lm/nt hashes
+used in samba's 'smbpasswd' file.
+
+the module is a direct port of code from samba and is written
+entirely in perl, so it is slower than a c implementation but it
+is easily ported and installed.

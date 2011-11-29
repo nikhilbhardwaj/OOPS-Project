@@ -1,0 +1,8 @@
+Kernel acpi event monitor
+	
+modern computers support the advanced configuration and power interface (acpi)
+to allow intelligent power management on your system and to query battery and
+configuration status.
+
+kacpimon is a small tool that monitors kernel acpi and keyboard events from
+multiple interfaces and reports them to the console.

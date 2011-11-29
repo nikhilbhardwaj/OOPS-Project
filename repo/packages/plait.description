@@ -1,0 +1,13 @@
+Command-line jukebox
+	
+plait (pronounced "play") is a command-line jukebox and music player
+front end. it understands brief, easy to type queries that pick a
+single song, mix queries that combine works from multiple artists,
+stream queries that find shoutcast radio streams, and everything in
+between.
+
+a variety of filters are available to pick just the music you want
+to hear. in order to actually play the music it finds, plait
+automatically hands off a play list to one of the supported
+music players (or you can use it manually with any player that
+supports .m3u playlists).

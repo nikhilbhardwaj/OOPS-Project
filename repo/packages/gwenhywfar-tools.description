@@ -1,0 +1,10 @@
+Helper applications for gwenhywfar library
+	
+this package contains some helper tools provided by gwenhywfar and
+useful for applications making use of gwenhywfar: mklistdoc,
+gct-tool, xmlmerge and typemaker.
+
+gwenhywfar allows porting of your software to different operating
+systems like linux, *bsd, windows etc. it also provides some often
+needed modules such as configuration file handling, simple xml file
+parsing, ipc etc.

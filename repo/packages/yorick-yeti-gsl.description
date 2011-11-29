@@ -1,0 +1,7 @@
+Gsl special functions plugin for the yorick language
+	
+yeti is a collection of extension plugins for yorick (a fast interpreted
+interactive data processing language).
+
+the yorick-yeti-gsl package gives access to 120 special functions from the
+gnu scientific library (gsl).

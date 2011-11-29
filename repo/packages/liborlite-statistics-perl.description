@@ -1,0 +1,7 @@
+Orlite extension providing simple statistics
+	
+orlite::statistics provides easy integration with the statistics::basic set
+of modules (see libstatistics-basic-perl). it enables some basic statistical
+analysis by generating a vector for a particular method, which can then be
+used for any number of things, like determining the median, mean, standard
+deviation and other basic descriptive statistics.

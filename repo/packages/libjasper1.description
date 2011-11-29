@@ -1,0 +1,8 @@
+The jasper jpeg-2000 runtime library
+	
+jasper is a collection of software (i.e., a library and application programs)
+for the coding and manipulation of images.  this software can handle image
+data in a variety of formats.  one such format supported by jasper is the
+jpeg-2000 format defined in iso/iec 15444-1:2000.
+
+this package contains the shared library.

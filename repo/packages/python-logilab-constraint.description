@@ -1,0 +1,7 @@
+Constraints satisfaction solver in python
+	
+extensible constraint satisfaction problem solver written in pure
+python, using constraint propagation algorithms. the
+logilab.constraint module provides finite domains with arbitrary
+values, finite interval domains, and constraints which can be applied
+to variables linked to these domains.

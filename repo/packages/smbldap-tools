@@ -1,0 +1,4 @@
+PackageId:31781
+Name:smbldap-tools
+Version:0.9.5-1
+Deps:libcrypt-smbhash-perl,libdigest-sha1-perl,libio-socket-ssl-perl,libnet-ldap-perl,libunicode-maputf8-perl,perl

@@ -1,0 +1,17 @@
+Utilities to call the flickr api from command line - documentation
+	
+flickcurl is a c library for the flickr api, handling creating the
+requests, signing, token management, calling the api, marshalling
+request parameters and decoding responses. the library now supports
+100% of the 2008-01-11 version of the api, including the functions
+for photo uploading, browsing, searching, adding and editing
+comments, groups, notes, photosets, categories, activity, blogs,
+favorites, places, tags and photo metadata. it also includes a
+program flickrdf to turn photo metadata, tags and machine tags into
+rdf descriptions of photos and tags.
+
+support for the flickr api in these programs is through the
+libflickcurl library.
+
+this package contains the html documentation for flickcurl and the
+related library.

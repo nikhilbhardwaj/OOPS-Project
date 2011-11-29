@@ -1,0 +1,12 @@
+Run-time library to control radio transceivers and receivers
+	
+most recent amateur radio transceivers allow external control of their
+functions through a computer interface. unfortunately, control commands are
+not always consistent across a manufacturer's product line and each
+manufacturer's product line differs greatly from its competitors.
+
+this library addresses that issue by providing a standardised programming
+interface that applications can talk to and translating that into the
+appropriate commands required by the radio in use.
+
+this package provides the python bindings of the library.

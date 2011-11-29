@@ -1,0 +1,8 @@
+Erlang/otp idl compiler (java classes)
+	
+the ic application is an erlang implementation of an idl (corba interface
+definition language) compiler. depending on the choice of back-end the
+code will map to erlang, c, or java. the compiler generates client stubs
+and server skeletons.
+
+this package includes classes for java-erlang communication.

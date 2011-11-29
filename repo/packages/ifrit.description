@@ -1,0 +1,9 @@
+A powerful tool for visualizing 3-dimensional data sets
+	
+ifrit (the ionization front interactive tool) has its origins (and
+hence name) in a specialized utility designed to visualize ionization
+fronts in cosmological numerical simulations.  ifrit, however, has
+outgrown its origins and now can visualize general data sets as well.
+
+ifrit is written in c++ and is based on two state-of-the-art toolkits:
+the visualization toolkit (vtk) and a gui toolkit qt.

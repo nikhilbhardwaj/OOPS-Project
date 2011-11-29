@@ -1,0 +1,11 @@
+A simple gui tool to organize collections of music
+	
+music librarian is a tool to assist you in organizing your collection
+of music files. it provides an interface from which you can view the
+list of files in your collection and modify the tags of one or more
+files.
+
+music librarian handles ogg files natively, but also has support for
+the legacy mp3 format. it displays music in a hierarchical
+organization according to one of several rules, and allows you to
+undo any number of changes to files.

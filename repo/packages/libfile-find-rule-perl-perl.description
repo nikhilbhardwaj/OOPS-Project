@@ -1,0 +1,11 @@
+Perl module for searching perl things
+	
+file::find::rule::perl provides methods for finding various perl distribution
+files easily, which allows one to replicate search queries usually run on cpan
+search or related web sites.
+
+this module makes it easy to find out information like which perl modules are
+included in a distribution, names of test scripts, the type of installation
+mechanism (makefile.pl or build.pl) and names of any other miscellaneous perl
+scripts that are distributed. it can also be used to locate files that contain
+perl code.

@@ -1,0 +1,10 @@
+Common files for the ebnetd suite
+	
+the ebnetd distribution is a series of servers which provide ways to
+access so-called "cd-rom books" via tcp/ip, using eb library.  the cd-rom
+books is a popular form to provide dictionaries and multimedia references
+in japan.  various formats such as eb, ebg, ebxa, ebxa-c, s-ebxa and epwing
+are supported.
+
+this package provides common files for ebnetd servers, including the
+configuation framework and documents.

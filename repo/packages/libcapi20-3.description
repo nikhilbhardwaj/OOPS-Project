@@ -1,0 +1,8 @@
+Isdn utilities - capi support libraries
+	
+if you have an isdn card with which capi works, you may be able to use
+capi-capable applications such as fax systems. at this point, avm cards can
+work with capi, as well as some active cards. for the avm passive cards you
+need to visit the www.avm.de website.
+
+this package will be installed automatically if needed.

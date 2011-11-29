@@ -1,0 +1,23 @@
+Cross-platform and multi-threaded benchmark tool
+	
+sysbench is a modular, cross-platform and multi-threaded benchmark tool for
+evaluating os parameters that are important for a system running a database
+under intensive load.
+
+the idea of this benchmark suite is to quickly get an impression about system
+performance without setting up complex database benchmarks or even without
+installing a database at all.
+
+current features allow to test the following system parameters:
+
+
+ * file i/o performance
+ * scheduler performance
+ * memory allocation and transfer speed
+ * posix threads implementation performance
+ * database server performance (oltp benchmark)
+
+
+primarily written for mysql server benchmarking, sysbench will be further
+extended to support multiple database backends, distributed benchmarks and
+third-party plug-in modules.

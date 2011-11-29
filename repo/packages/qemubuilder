@@ -1,0 +1,4 @@
+PackageId:30288
+Name:qemubuilder
+Version:0.62+nmu2
+Deps:debootstrap,libc6,libc6-udeb,pbuilder,qemu,kvm,qemu-kvm

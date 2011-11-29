@@ -1,0 +1,4 @@
+Decrypt an encrypted response from pidentd
+	
+this package contains the idecrypt(8) utility which is used to decrypt
+encrypted responses from a pidentd server with des encryption turned on.

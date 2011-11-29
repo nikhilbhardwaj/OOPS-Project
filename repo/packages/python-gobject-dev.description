@@ -1,0 +1,8 @@
+Development headers for the gobject python bindings
+	
+gobject is an abstraction layer that allows programming with an object
+paradigm that is compatible with many languages. it is a part of glib,
+the core library used to build gtk+ and gnome.
+
+this package contains the development headers needed to build
+other python bindings relying on pygobject.

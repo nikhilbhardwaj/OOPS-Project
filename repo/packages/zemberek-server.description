@@ -1,0 +1,7 @@
+Turkish spellcheck server
+	
+zemberek is an open source, platform independent, general purpose natural
+language processing library and toolset designed for turkic languages,
+especially turkish.
+
+this package contains spellchek server which works via tcp/ip and dbus.

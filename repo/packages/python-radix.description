@@ -1,0 +1,12 @@
+Radix tree implementation for storage of ipv4 and ipv6 networks
+	
+py-radix is an implementation of a radix tree for python, which supports
+storage and lookups of ipv4 and ipv6 networks. this is a python equivalent to
+dave plonka's perl net::patricia (it even steals the same radix tree code from
+mrtd).
+
+the radix tree (a.k.a patricia tree) is the data structure most commonly used
+for routing table lookups. it efficiently stores network prefixes of varying
+lengths and allows fast lookups of containing networks. py-radix's
+implementation is built solely for networks (the data structure itself is more
+general).

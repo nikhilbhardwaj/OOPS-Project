@@ -1,0 +1,11 @@
+.deb package installation, upgrading, and removal testing tool
+	
+piuparts tests that .deb packages (as used by debian) handle
+installation, upgrading, and removal correctly. it does this by
+creating a minimal debian installation in a chroot, and installing,
+upgrading, and removing packages in that environment, and comparing the
+state of the directory tree before and after. piuparts reports any
+files that have been added, removed, or modified during this process.
+
+piuparts is meant as a quality assurance tool for people who create .deb
+packages to test them before they upload them to the debian package archive.

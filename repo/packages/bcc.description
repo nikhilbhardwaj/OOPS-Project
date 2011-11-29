@@ -1,0 +1,7 @@
+16-bit x86 c compiler
+	
+this is a c-compiler for 8086 cpus which is important for the
+development of boot loaders or bios related 8086 code.
+
+it is possible to run 8086 code under i386 linux using an emulator,
+`elksemu', also included in this package.

@@ -1,0 +1,4 @@
+PackageId:30751
+Name:redmine
+Version:1.0.1-2
+Deps:debconf,dbconfig-common,debconf-2.0,cdebconf,cdebconf-udeb,libactionmailer-ruby,libactionpack-ruby,libactiveresource-ruby,libactivesupport-ruby,libjs-scriptaculous,rails,redmine-sqlite,redmine-mysql,redmine-pgsql,ruby,ruby1.8

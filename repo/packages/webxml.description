@@ -1,0 +1,10 @@
+Simple form-based generator/editor of tomcat's web.xml files
+	
+webxml is a tool to easily edit web application descriptors (web.xml) used in
+tomcat and other java application servers.
+
+it supports the following tags:
+<servlet>, <servlet-name>, <display-name>, <description>,
+<servlet-class>, <init-param>, <servlet-mapping>, <url-pattern>.
+these tags are basic and most of them are indispensable for every web
+application.

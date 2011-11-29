@@ -1,0 +1,9 @@
+Embeddable sql database for ocaml programs
+	
+this package provides an interface for the sqlite3 embeddable sql
+database. it allows your ocaml programs to use a sql database without
+depending on any external software; the resulting system can be
+entirely self-contained.
+
+this package provides the files necessary to develop new applications that
+use sqlite3 for ocaml.

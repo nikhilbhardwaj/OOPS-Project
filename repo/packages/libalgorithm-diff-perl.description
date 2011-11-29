@@ -1,0 +1,9 @@
+Module to find differences between files
+	
+algorithm::diff is a perl module that allows users to analyze text based on a
+longest common subsequence (lcs) algorithm. it can compare two files and find
+the differences between them, which can produce the same information as the
+common unix tool 'diff'.
+
+there is an xs-optimized implementation of the core loop, which accelerates
+some types of diff output (see libalgorithm-diff-xs-perl).

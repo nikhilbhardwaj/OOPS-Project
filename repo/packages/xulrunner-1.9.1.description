@@ -1,0 +1,18 @@
+Xul + xpcom application runner
+	
+xulrunner is a single "gecko runtime" that can be used to bootstrap
+multiple xul + xpcom applications that are as rich as firefox and
+thunderbird.
+
+xul is mozilla's xml based user interface language that lets you build
+feature-rich cross platform applications. these applications are easily
+customized with alternative text, graphics and layout so that they can be
+readily branded or localized for various markets. web developers already
+familiar with dynamic html (dhtml) will learn xul quickly and can start
+building applications right away.
+
+xpcom is a cross platform component model. it has multiple language
+bindings and idl descriptions so programmers can plug their custom
+functionality into the framework and connect it with other components.
+
+this package also contains the gecko engine library (libxul)

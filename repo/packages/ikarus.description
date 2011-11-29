@@ -1,0 +1,6 @@
+Scheme compiler and interpreter
+	
+ikarus is a compiler-based implementation of the scheme programming
+language which targets the i386 (with sse2) architecture.  it has
+good performance, is rather light weight, is case-sensitive, and
+implements a substantial portion of the language described in r6rs.

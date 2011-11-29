@@ -1,0 +1,8 @@
+Apache 2 connector for the tomcat java servlet engine
+	
+apache tomcat is the reference implementation for the java servlet and
+javaserver pages (jsp) specification from the apache jakarta project.
+
+this package contains an apache 2 module (mod_jk) to forward requests
+from apache to tomcat using the ajp 1.3 or 1.4 protocol. it can either
+talk to tomcat on the local machine or to a remote engine using tcp.

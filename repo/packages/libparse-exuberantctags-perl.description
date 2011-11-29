@@ -1,0 +1,11 @@
+Exuberant ctags parser for perl
+	
+parse::exuberantctags parses ctags files and handles both traditional
+ctags as well as extended ctags files such as produced with exuberant
+ctags. it does not handle emacs-style "etags" files.
+
+the module is implemented as a wrapper around the readtags library
+that normally ships with exuberant ctags. if you do not know what
+that is, you are encouraged to have a look at
+http://ctags.sourceforge.net/ and look at the exuberant-ctags
+package.

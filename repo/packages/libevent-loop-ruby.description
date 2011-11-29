@@ -1,0 +1,7 @@
+Simple signal system and an event loop for ruby
+	
+this is a library for building event-based programs with ruby. it contains
+both a simple signal system and an event loop that uses said signal system.
+
+this package is an empty dummy package that always depends on a package built
+for debian's default ruby version.

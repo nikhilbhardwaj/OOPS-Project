@@ -1,0 +1,5 @@
+Perl module for writing xml documents
+	
+the xml::handler::yawriter implements yet another xml::handler::writer.  the
+reasons for this one are needing a flexible escaping technique, and wanting
+some kind of pretty printing.

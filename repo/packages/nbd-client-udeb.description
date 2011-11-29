@@ -1,0 +1,10 @@
+Network block device protocol - client for debian installer
+	
+network block device (nbd) is a client/server protocol that
+emulates a block device (such as a hard disk, a floppy, or a cd-rom)
+over the network, thus giving the system the ability to swap over the
+network, or to use raw network disks pace for other purposes.
+
+this package provides the client binary for nbd.
+
+it is a minimal version meant for use in the installer only.

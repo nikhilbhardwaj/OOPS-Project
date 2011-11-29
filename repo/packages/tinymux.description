@@ -1,0 +1,11 @@
+Text-based multi-user virtual world server
+	
+this is the tinymux flavor of mud servers of the mush branch. it
+provides a number of robust features to enable players to extend
+the virtual world. this is done by building new rooms and objects,
+and utilizing its internal programming language, mushcode.
+
+tinymux doesn't provide the superset of features available in other
+mush flavors, but those it does implement provide a stable and
+robust environment that performs as well or better than that of its
+peers.

@@ -1,0 +1,15 @@
+Sofia-sip library runtime
+	
+sofia-sip is an open-source sip user-agent library, compliant
+with the ietf rfc3261 specification. it can be used as
+a building block for sip client software for uses such as voip,
+im, and many other real-time and person-to-person communication
+services.
+
+the library is implemented in ansi c, and provides an extensive
+set of features for implementing sip/simple user-agents. highlights
+include full udp/tcp/tls support, ipv4/6 support, simple presence
+and messaging support, sip offer/answer engine and numerous
+mechanisms for nat/fw traversal.
+
+this package provides the main library runtime files.

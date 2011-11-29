@@ -1,0 +1,10 @@
+Buffering/reblocking program for tape backups, printing, etc.
+	
+buffer implements double buffering and can be used to keep backup tapes
+streaming or printers printing. it can also be used to convert a data
+stream to a given output blocksize.
+
+buffer uses shared memory to convert a variable input data rate to a
+constant output data rate. it is typically used in a pipe between a backup
+program and the tape device, but there are also other applications like
+buffering printer data in lpd's input filter.

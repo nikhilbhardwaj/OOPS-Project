@@ -1,0 +1,5 @@
+Perl module to deal with file archives in any format
+	
+the archive::any module allows a perl program to create, manipulate,
+read, and write different archive formats (tarballs and zip files)
+through a single api.

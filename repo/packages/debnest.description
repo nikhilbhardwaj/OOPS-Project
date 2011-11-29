@@ -1,0 +1,26 @@
+Nested build system of debian source package
+	
+debnest provides a build system to create debian binary packages
+such that original upstream sources include debian source packages,
+i.e. .dsc and other files such as .orig.tar.gz and diff.gz, or .tar.gz.
+in build-time, this system unpacks debian source packages by
+'dpkg-source -x' and propagates policy-defined targets of debian/rules
+into the unpacked sources.
+
+this allows you to:
+
+ * manage your own files under debian/ such as debian/rules
+   debian/control, debian/changelog and so on separately away from
+   their original packages.
+ * create your own tuned packages with your own pre-defined
+   deb_build_options, cc in your debian/rules from their
+   original packages without specifying any environment
+   variables in each build-time.
+ * create your own tuned packages with patches to their
+   original sources as well as to debian/* files, separating
+   them completely away from their original source packages.
+ * make it possible to redistribute your modified debian package
+   based on another debian source package which restricts
+   source-code from being distributed in modified form _only_ by
+   the distribution of "patch files" with the source code for the
+   purpose of modifying the program at build time.

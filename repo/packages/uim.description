@@ -1,0 +1,18 @@
+Simple and flexible input method collection and library
+	
+uim is a input method module library supporting various languages, which
+become a frontend for anthy, skk, canna, prime, t-code, tut-code,
+pinyin(chinese input method), hangul(korean input method), ipa(international
+phonetic alphabet) and etc.... most of the functions are implemented with
+scheme, so it's very simple and flexible.
+
+this package is a dummy package for newbies. you can safely update or remove
+this package. but this package does not depends on japanese plugin packages
+because uim is not specific for japanese.
+if you want to use japanese input methods, you have to install one of the
+following packages.
+
+uim-anthy: anthy plugin for uim
+uim-canna: canna plugin for uim
+uim-prime: prime plugin for uim
+uim-skk:   skk plugin for uim

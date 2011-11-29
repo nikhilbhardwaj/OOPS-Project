@@ -1,0 +1,25 @@
+Computes checksums, crcs and message digests
+	
+jacksum is a free and platform independent software for computing and
+verifying checksums, crcs and message digests.  jacksum features both a
+commandline interface and an open api.
+
+jacksum supports 58 popular algorithms (adler32, bsd sum, bzip2's crc-32,
+posix cksum, crc-8, crc-16, crc-24, crc-32 (fcs-32), crc-64, elf-32,
+emule/edonkey, fcs-16, gost r 34.11-94, has-160, haval (3/4/5 passes,
+128/160/192/224/256 bits), md2, md4, md5, mpeg-2's crc-32, ripemd-128,
+ripemd-160, ripemd-256, ripemd-320, sha-0, sha-1, sha-224, sha-256,
+sha-384, sha-512, tiger-128, tiger-160, tiger, tiger2, tiger tree
+hash, tiger2 tree hash, unix system v sum, sum8, sum16, sum24, sum32,
+whirlpool-0, whirlpool-1, whirlpool and xor8).
+
+some of the additional features include:
+
+
+ - fully customizable output
+ - customized crc algorithms and support for combination of multiple algorithms
+ - by default, output is 100% compatible with unix-standard tools such
+   as sum, cksum, md5sum and sha1sum
+ - supports verification of both the content and timestamp of files
+ - large file aware
+ - recursive file processing

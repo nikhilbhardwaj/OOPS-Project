@@ -1,0 +1,11 @@
+Background job killer
+	
+killer is a perl script that gets rid of background jobs. background
+jobs are defined as processes that belong to users who are not currently
+logged into the machine. jobs can be run in the background (and are
+exempt from *killer*'s actions) if their scheduling priority has been
+reduced by increasing their nice(1) value or if they are being run
+through condor.
+
+when the package is installed, a cron job is installed to run killer
+once an hour.

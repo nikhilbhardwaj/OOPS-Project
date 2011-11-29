@@ -1,0 +1,8 @@
+Perl module to unbless objects
+	
+acme::damn provides a way to reverse the bless operation, which takes a
+variable and associates it with a given class. one can use this module
+to return the original reference; that is, prior to calling bless on it.
+
+after using 'damn()' or custom aliases thereof, the blessed perl object
+reference becomes a simple data type.

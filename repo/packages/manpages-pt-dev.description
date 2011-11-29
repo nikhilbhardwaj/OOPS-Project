@@ -1,0 +1,9 @@
+Portuguese versions of the manual pages (dev sections)
+	
+these are the manpages available in portuguese
+this package contains the following sections:
+
+ * 2 = linux system calls.
+ * 3 = libc calls (note that a more comprehensive source of
+   information may be found in the libc6-doc package).
+ * 8 = kernel functions

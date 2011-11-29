@@ -1,0 +1,7 @@
+Extensible rule-based checker for cli assemblies
+	
+gendarme is a extensible rule-based tool to find problems in .net
+applications and libraries. gendarme inspects programs and libraries
+that contain code in ecma cil format (mono and .net) and looks for
+common problems with the code, problems that compiler do not typically
+check or have not historically checked.

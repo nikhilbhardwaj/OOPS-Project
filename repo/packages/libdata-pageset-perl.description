@@ -1,0 +1,13 @@
+Perl module for page numbering and page sets
+	
+the object produced by data::pageset can be used to create page navigation,
+it inherits from data::page and has access to all methods from this object.
+
+in addition it also provides methods for dealing with set of pages, so that
+if there are too many pages you can easily break them into chunks for the
+user to browse through.
+
+you can even choose to view page numbers in your set in a 'sliding' fassion.
+
+the object can easily be passed to a templating system such as template
+toolkit or be used within a script.

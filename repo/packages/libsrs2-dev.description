@@ -1,0 +1,8 @@
+Development tools for the libsrs2
+	
+libsrs2 is the next generation srs library. spf verifies that the
+sender address of a mail matches (according to some policy) the
+client ip address which submits the mail. when a mail is forwarded,
+the sender address must be rewritten to comply with spf policy. the
+sender rewriting scheme, or srs, provides a standard for this
+rewriting which is not vulnerable to attacks by spammers.

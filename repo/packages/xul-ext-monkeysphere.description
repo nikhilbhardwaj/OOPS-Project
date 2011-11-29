@@ -1,0 +1,7 @@
+Iceweasel/firefox extension for using monkeysphere on the web
+	
+monkeysphere is a system for using the openpgp web of trust as a pki
+for rsa keys.
+
+this extensions enables monkeysphere checking of x.509 certificates
+from https hosts whose keys are in the web of trust.

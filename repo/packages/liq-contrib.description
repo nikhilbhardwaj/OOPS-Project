@@ -1,0 +1,11 @@
+Contributed scripts for liquidsoap
+	
+liq-contrib contains various scripts implemented using
+the liquidsoap audio streaming language.
+
+currently, it contains:
+
+ o liq123: a command line audio player
+ o streamliqueur: an audio stream ripper
+ o simpleliq: a program to create and test simple streaming
+   examples using the liquidsoap language.

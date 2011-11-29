@@ -1,0 +1,8 @@
+Client for the boxbackup remote backup system
+	
+boxbackup is an automatic on-line backup system.
+the client watches for changes on the local file system,
+connects to a boxbackup server and sends the changes via a
+secure channel. all data is encrypted before being sent to
+the server. a command-line tool is provided for restoration
+of backups including deleted files and old versions.

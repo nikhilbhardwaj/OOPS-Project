@@ -1,0 +1,7 @@
+Parse the data from a debian packages.gz
+	
+parse::debian::packages parses the packages files used by the debian
+package management tools.
+
+it presents itself as an iterator.  each call of the ->next method
+will return the next package found in the file.

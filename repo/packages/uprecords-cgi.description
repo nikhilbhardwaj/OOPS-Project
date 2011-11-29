@@ -1,0 +1,8 @@
+A cgi script to show the world your highest uptimes
+	
+this cgi script produces a html report containing all your
+highest uptimes from the uptimed database.
+
+uptimed is a tool that allows you to track your highest uptimes
+via boot ids. it uses the system boot time to keep sessions
+apart from each other.

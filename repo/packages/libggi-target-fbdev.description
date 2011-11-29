@@ -1,0 +1,13 @@
+General graphics interface direct access framebuffer target
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the driver for the "fbdev" target, enabling
+libggi (and therefore any program using libggi) to display its output
+on the kernel framebuffer device.  the framebuffer device is the usual
+means of displaying graphics on most non-i386 architectures, and, for
+i386, kernels from the stable 2.2 kernel series on contain a working i386
+framebuffer device.
+
+installation of libdirectfb is recommended for accelerated drawing on
+supported graphic cards.

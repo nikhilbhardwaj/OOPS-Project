@@ -1,0 +1,6 @@
+Perl module for safe concurrent access to mldbm databases
+	
+mldbm::sync wraps around the mldbm interface, by handling concurrent
+access to mldbm databases with file locking, and flushes i/o explicity
+per lock/unlock.  the new [read]lock()/unlock() api can be used to serialize
+requests logically and improve performance for bundled reads & writes.

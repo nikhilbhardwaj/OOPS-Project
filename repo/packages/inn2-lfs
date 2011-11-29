@@ -1,0 +1,4 @@
+PackageId:7552
+Name:inn2-lfs
+Version:2.5.2-2~squeeze1
+Deps:inn2-inews,cron,bcron-run,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,libc6,libc6-udeb,libdb4.8,libmime-tools-perl,libpam0g,libperl5.10,libsasl2-2,libssl0.9.8,perl,perlapi-5.10.1,perl-base,procps,time,zlib1g

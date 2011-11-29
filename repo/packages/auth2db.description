@@ -1,0 +1,9 @@
+Powerful and eye-candy ids logger, log viewer and alert generator
+	
+the core daemon and backend parts of the auth2db log engine
+
+auth2db uses mysql database to store logs, whichs allows to performe
+a separated multi-client to single db storage, turning the tedious
+work of constants auditing into a trivial and enjoyable experience
+
+note that mysql-server is needed in this scheme, but it can be anywhere

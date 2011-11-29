@@ -1,0 +1,10 @@
+Debug symbols for libxine1
+	
+this is the xine media player library (libxine).
+
+this package contains debug data for the shared libraries. its purpose is
+to allow debuggers to produce backtraces with names, making it easier to
+interpret core dumps. the data is installed in /usr/lib/debug.
+
+most people will not need this package. please install it to produce useful
+stacktraces to help debugging the xine library.

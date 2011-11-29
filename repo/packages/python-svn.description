@@ -1,0 +1,5 @@
+A(nother) python interface to subversion
+	
+the pysvn module is a python interface to the subversion version
+control system.  this api exposes client interfaces for managing a
+working copy, querying a repository, and synchronizing the two.

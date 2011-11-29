@@ -1,0 +1,5 @@
+Kernel oops tracker
+	
+kerneloops is a daemon that collects kernel crash information and then
+submits the extracted signature to the kerneloops.org website for
+statistical analysis and presentation to the linux kernel developers.

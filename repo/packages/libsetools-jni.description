@@ -1,0 +1,6 @@
+Setools java bindings (architecture-dependent)
+	
+security-enhanced linux is a patch of the linux kernel and a number
+of utilities with enhanced security functionality designed to add
+mandatory access controls to linux.  this package includes the
+architecture-dependent library files needed for libsetools-java.

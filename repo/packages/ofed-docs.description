@@ -1,0 +1,12 @@
+Documentation for ofed infiniband software
+	
+the openfabrics (ofed) software stack is  designed to support server and
+storage clustering and grid connectivity using remote direct memory access
+(rdma)-based infiniband and internet wide area rdma protocol (iwarp) fabrics.
+
+the open-source software is optimized for performance (i.e., high throughput,
+low latency) using rdma and transport-offload technologies available in
+adapter hardware. ofed provides a set of kernel drivers, userspace libraries
+and applications which are known to work together.
+
+this package contains documentation for the software.

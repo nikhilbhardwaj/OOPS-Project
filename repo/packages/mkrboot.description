@@ -1,0 +1,14 @@
+Make a kernel + root image bootable from one disk or from dos
+	
+mkrboot generates boot disks that contain both a kernel and a root image.
+this enables debian bootup for installation purposes from one floppy.
+
+mkrboot can also use loadlin to make a floppyless installation possible.
+
+boot methods supported:
+
+ - loadlin from running dos/windows without a floppy
+ - loadlin from a freedos bootup disk
+ - lilo from one floppy
+ - kernel boot loader from one floppy
+ - syslinux from one floppy

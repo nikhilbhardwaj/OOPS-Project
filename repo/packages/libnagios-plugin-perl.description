@@ -1,0 +1,12 @@
+Family of perl modules to streamline writing nagios
+	
+nagios::plugin and its associated nagios::plugin::* modules are a family of
+perl modules to streamline writing nagios plugins. the main end user modules
+are nagios::plugin, providing an object-oriented interface to the entire
+nagios::plugin::* collection, and nagios::plugin::functions, providing a
+simpler functional interface to a useful subset of the available
+functionality.
+
+the purpose of the collection is to make it as simple as possible for
+developers to create plugins that conform the nagios plugin guidelines
+(http://nagiosplug.sourceforge.net/developer-guidelines.html).

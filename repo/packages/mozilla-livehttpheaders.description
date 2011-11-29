@@ -1,0 +1,14 @@
+Adds information about the http headers to iceweasel and iceape
+	
+this extension allows the user to see http headers exchanged during an
+http request.
+
+it can be helpful to debug web applications, see what kind of web server
+the remote site is using, see the cookies sent by the remote site, see
+the content sent by the browser during a post request, etc.
+
+these http headers are available in a headers tab in the page info
+dialog, and from a live http headers tool in the tools > web
+development menu in iceape and tools menu in iceweasel.
+
+it is also possible to modify a request and replay it.

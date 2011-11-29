@@ -1,0 +1,8 @@
+Filter that inserts printer specific commands into print jobs
+	
+ppdfilt is a filter program designed to be used within a filter
+script or from the command line tool to insert printer specific
+commands to a postscript print job. this can be used to tell the printer
+to duplex or staple the print job, or tell it what paper tray to draw
+paper from. in the gnulpr printing environment, users do not call ppdfilt
+directly, but its features are accessed by using 'lpr' or 'gpr' (see)

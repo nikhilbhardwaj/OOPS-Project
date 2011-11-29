@@ -1,0 +1,5 @@
+Perl module implementing the rijndael algorithm
+	
+crypt::rijndael is a perl module that provides an xs-based implementation of
+the advanced encryption standard (aes) algorithm rijndael, designed by joan
+daemen and vincent rijmen.

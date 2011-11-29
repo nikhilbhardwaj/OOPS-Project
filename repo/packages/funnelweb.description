@@ -1,0 +1,21 @@
+A literate-programming tool
+	
+literate-programming allows the programmer to write a program's
+code and the code's documentation, with equal importance accorded
+to both. this helps to produce well-documented code.
+
+unlike other literate-programming tools, funnelweb is not derived
+from knuth's cweb.
+
+it claims the following technical features:
+
+ * can be used with any programming language.
+ * runs on most platforms.
+ * mature and essentially bug-free (released 1992).
+ * simple; specifically designed to minimize errors.
+ * high speed; doesn't stretch the development cycle.
+ * generates documentation in html and tex forms.
+
+
+this package does not include the reference, tutorial, and developer
+manuals.  see package funnelweb-doc for these.

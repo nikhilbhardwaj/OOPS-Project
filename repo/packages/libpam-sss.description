@@ -1,0 +1,9 @@
+Pam module for the system security services daemon
+	
+provides a set of daemons to manage access to remote directories and
+authentication mechanisms. it provides an nss and pam interface toward
+the system and a pluggable backend system to connect to multiple different
+account sources. it is also the basis to provide client auditing and policy
+services for projects like freeipa.
+
+this package provide the pam module to connect to the sssd daemon.

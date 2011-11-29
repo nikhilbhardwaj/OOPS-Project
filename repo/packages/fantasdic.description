@@ -1,0 +1,16 @@
+Dictionary application
+	
+fantasdic is a client for the dict protocol (rfc 2229) and various
+other dictionary sources. it has several interesting functionalities:
+
+
+     * can look up words in various dictionary sources:
+       -> dict servers,
+       -> google translate,
+       -> edict files.
+     * can look up words in the clipboard.
+     * keeps an history of searched words.
+     * supports printing.
+     * supports socks 5 and http proxies.
+     * can stay in the system tray.
+     * is translated in several languages.

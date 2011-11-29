@@ -1,0 +1,4 @@
+Common interface to speech synthesizers
+	
+speech dispatcher provides a device independent layer for speech synthesis.
+this package contains speech dispatcher itself.

@@ -1,0 +1,8 @@
+Emulation for the iis web server
+	
+this package provides an emulation for the internet information
+services (iis) web server which can be used in conjunction
+with honeypot-deployment software (such as honeyd) to create a virtual
+server that emulates it.
+
+more information at http://sourceforge.net/projects/iisemul8/

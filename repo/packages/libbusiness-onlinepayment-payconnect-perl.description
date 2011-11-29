@@ -1,0 +1,13 @@
+Paymentone payconnect backend for business::onlinepayment
+	
+this is business::onlinepayment::payconnect, an business::onlinepayment backend
+
+ module for paymentone (formerly ebillit) payconnect.  it is only useful if
+ you have a merchant account with paymentone (formerly ebillit):
+ http://www.paymentone.com/products/paycon.asp
+
+
+business::onlinepayment is a generic interface for processing payments through
+online credit card processors, online check acceptance houses, etc.  (if you
+like buzzwords, call it an "multiplatform ecommerce-enabling middleware
+solution").

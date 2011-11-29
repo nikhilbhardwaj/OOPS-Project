@@ -1,0 +1,6 @@
+Remove latex commands from input
+	
+the program will remove “some latex commands” from a file (it will
+optionally try to strip out all mathematics, too). it also has an
+option to honour \input and \include commands in the file. input is
+read from files and results are sent to stdout.

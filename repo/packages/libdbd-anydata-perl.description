@@ -1,0 +1,15 @@
+Perl dbi driver for files and data structures
+	
+dbd::anydata allows you to import almost any type of perl data structure
+into an in-memory table and then use dbi and sql to access and modify
+it.  it also allows standard database access to almost any kind of file,
+supporting sql manipulation of the file without converting the file
+out of its native format.
+
+the module allows you to prototype a database without having
+an rdbms system or other database engine and can operate either with or
+without creating or reading disk files.  if you do use disk files,
+they may, in most cases, either be local files or any remote file
+accessible via http or ftp.
+
+the module also supports converting files between any of the supported formats.

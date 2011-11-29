@@ -1,0 +1,6 @@
+Lcg file catalog (lfc) data location interface (dli) server
+	
+the lcg file catalog (lfc) keeps track of the locations of the physical
+replicas of the logical files in a distributed storage system.
+this package provides the data location interface (dli) server for
+the lfc.

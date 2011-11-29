@@ -1,0 +1,14 @@
+Command-line amazon s3 client
+	
+command-line tool to upload, retrieve and manage data in amazon s3 service
+(http://www.amazon.com/s3/), designed for use in scripts. features:
+
+ - creating and destroying s3 buckets
+ - uploading and downloading files
+ - listing remote files
+ - removing remote files
+ - synchronizing local directories to s3 buckets
+ - getting various information about buckets and disk usage
+
+
+s3cmd supports both (us and eu) s3 datacentres.

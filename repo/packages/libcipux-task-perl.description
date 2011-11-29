@@ -1,0 +1,8 @@
+Task library for cipux
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+this package contains cipux::task, providing task routines for use on
+command line as well as through the xml-rpc server.

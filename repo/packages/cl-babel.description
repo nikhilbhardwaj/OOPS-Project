@@ -1,0 +1,14 @@
+A charset encoding/decoding library, not unlike gnu libiconv
+	
+written completely in common lisp, not using a foreign library.
+
+it strives to achieve decent performance. most of the
+encoding/decoding algorithms have been adapted from clozure cl's source.
+
+another important goal is reusability. similarly to sbcl, it defines an
+interface wherein the algorithms can be reused between a variety of data types
+so long we're dealing with conversions between octets and unicode code points.
+
+babel comes with converters between strings and octet vectors but can be
+easily extended to deal with, e.g., strings and foreign memory, vectors and
+closure's runes, etc...

@@ -1,0 +1,7 @@
+Kerberos v5 key distribution center (kdc) shishi server daemon
+	
+shishi is an implementation of the kerberos v5 network authentication
+system.
+
+this package contain the shishi server (shishid), which is a key
+distribution center (kdc).

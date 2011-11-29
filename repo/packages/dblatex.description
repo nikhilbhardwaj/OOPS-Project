@@ -1,0 +1,7 @@
+Produces dvi, postscript, pdf documents from docbook sources
+	
+docbook to latex publishing that transforms your sgml/xml docbook documents to
+dvi, postscript or pdf by translating them in pure latex as a first process.
+mathml 2.0 markups are supported, too.  it originally started as a clone of
+db2latex, but has been enhanced extensively since then and is actively
+maintained by the upstream author.

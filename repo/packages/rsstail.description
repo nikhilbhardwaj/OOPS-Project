@@ -1,0 +1,6 @@
+Console rss reader that monitors a feed and outputs new entries
+	
+this small, simple application reads an rss feed and outputs it like the
+'tail' command.
+
+this tool can be used as a plugin in multitail

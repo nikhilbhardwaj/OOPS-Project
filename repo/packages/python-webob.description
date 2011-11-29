@@ -1,0 +1,7 @@
+Python module providing wsgi request and response objects
+	
+webob provides wrappers around the wsgi request environment, and an object to
+help create wsgi responses.
+
+the objects map much of the specified behavior of http, including header
+parsing and accessors for other standard parts of the environment.

@@ -1,0 +1,23 @@
+User-space bandwidth shaping tcp proxy daemon
+	
+iprelay can shape the tcp traffic forwarded through it to a specified
+bandwidth and allow this bandwidth to be changed on-the-fly. multiple
+data streams to different sockets may be shaped to the same total
+bandwidth, much like a traffic shaping router would. however, this
+application runs in user space, and works by acting as a tcp proxy.
+
+here's what the author would like you to know: ip_relay sprang from
+the fact that i use a modem for home internet connectivity, and once
+a large download has started, other internet activities: telnet,
+surfing, voip, are largely useless. with ip_relay, you can suddenly
+decide to shape your downloads to 50% of your available bandwidth,
+and make use of the more interactive applications.
+
+after using ip_relay for a while, it became obvious to me that it had
+another use: simulating bandwidth limits for other applications. most
+notably was testing vnc over an ethernet connection, but at modem
+speeds.
+
+the original software is called ip_relay
+(http://www.stewart.com.au/ip_relay/) but its name has been changed
+according to debian policy.

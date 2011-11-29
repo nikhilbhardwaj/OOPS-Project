@@ -1,0 +1,17 @@
+Manage directories with arch, bazaar, cvs, http, ftp and/or subversion
+	
+config-manager is designed to manage directory trees. the components of
+a directory may be specified by a location from any of:
+
+
+ - arch
+ - bazaar (bzr)
+ - cvs
+ - ftp
+ - http
+ - subversion (svn)
+
+
+these directory trees are described by recipes (also known as
+configs) and are typically used to build software although nothing
+within config-manager prevents their use in, for example, web sites.

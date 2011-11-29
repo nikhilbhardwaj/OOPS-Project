@@ -1,0 +1,6 @@
+X input method for japanese with skk conversion
+	
+skkinput is a tool for x applications to input japanese using
+protocols such as kinput2/xim/ximp.
+skkinput communicates with skkserv using the berkeley socket.
+without skkserv, local dictionary files are used.

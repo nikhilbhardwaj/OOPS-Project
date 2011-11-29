@@ -1,0 +1,14 @@
+Toolkit for reliable multicast communication
+	
+jgroups is a toolkit for reliable multicast communication.  (note
+that this doesn't necessarily mean ip multicast, jgroups can also use
+transports such as tcp). it can be used to create groups of processes
+whose members can send messages to each other. the main features
+include:
+
+ * group creation and deletion. group members can be spread across lans or wans
+ * joining and leaving of groups
+ * membership detection and notification about joined/left/crashed members
+ * detection and removal of crashed members
+ * sending and receiving of member-to-group messages (point-to-multipoint)
+ * sending and receiving of member-to-member messages (point-to-point)

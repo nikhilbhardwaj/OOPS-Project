@@ -1,0 +1,9 @@
+Tools from libwps for converting works text documents to html/raw/text
+	
+libwps is a library (for use by word processors, for example) for importing the
+microsoft works word processor file format. as of november 2006, the project
+is new, but it imports works format versions 2, 3, 4, and 8 with some
+formatting. support for works formats version 2000 (aka 5) is coming soon.
+
+this package contains some little programs using libwps to convert
+works text document files into html/raw files and text.

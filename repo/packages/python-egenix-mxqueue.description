@@ -1,0 +1,8 @@
+Fast and memory-efficient queue for python
+	
+mxqueue is a python extension package that provides a new object type
+called queue.
+
+it works much like what you would expect from such a type, having
+push() and pop() methods and focuses on obtaining maximum speed at
+low memory costs.

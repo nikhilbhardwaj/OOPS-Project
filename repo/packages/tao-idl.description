@@ -1,0 +1,7 @@
+Tao idl to c++ compiler
+	
+this package provides a interface definition language (idl) to c++
+compiler.
+
+use tao_idl to generate stubs and skeletons to call or implement
+corba distributed objects in c++.

@@ -1,0 +1,11 @@
+Event lists with relative or absolute timestamps; profiling libraries
+	
+this package provides a library for the haskell programming language
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides lists to manage events that are associated with
+times. times may be given as difference between successive events or as
+absolute time values. pauses before the first and after the last event
+are supported. the data structures can be used to represent midi files,
+opensoundcontrol message streams, music performances etc.

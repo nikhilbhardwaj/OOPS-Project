@@ -1,0 +1,16 @@
+Next generation mirroring tool
+	
+simba was created to be _the_ mirroring tool, to get more control
+over the mirrored content and (most importantly) more control over
+the reports you can generate using the mirrored content data.
+using simba, you can:
+
+   +   create web pages with mirrors status
+   +   create web pages with mirror details
+   +   generate rss feeds
+   +   generate google sitemaps
+   +   generate rsync configuration files
+   +   ... and more
+
+simba is extensible and has a dynamic plugin system. if you have some knowledge
+of perl, you can write your own plugins and extend simba as you wish.

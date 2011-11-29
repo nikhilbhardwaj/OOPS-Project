@@ -1,0 +1,14 @@
+High performance collections for java
+	
+gnu trove is a fast, lightweight  implementations of the java.util
+collections api. these implementations are designed to be pluggable
+replacements for their jdk equivalents.
+
+whenever possible, gnu trove provide the same collections support for
+primitive types. this gap in the jdk is often addressed by using the
+"wrapper" classes (java.lang.integer, java.lang.float, etc.) with
+object-based collections. for most applications, however, collections
+which store primitives directly will require less space and yield
+significant performance gains.
+
+this package includes the documentation.

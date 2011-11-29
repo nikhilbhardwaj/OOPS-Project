@@ -1,0 +1,9 @@
+Generate/apply a patch between two binary files (python module)
+	
+bsdiff and bspatch are tools for building and applying patches to binary files.
+by using suffix sorting (specifically, larsson and sadakane's qsufsort) and
+taking advantage of how executable files change, bsdiff routinely produces
+binary patches 50-80% smaller than those produced by xdelta, and 15% smaller
+than those produced by .rtpatch (a commercial patch tool).
+
+this package contains the python interpreter module.

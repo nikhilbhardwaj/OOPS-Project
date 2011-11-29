@@ -1,0 +1,20 @@
+Eclipse platform without plug-ins to develop any language
+	
+the eclipse platform is an open and extensible platform for anything and yet
+nothing in particular. it provides a foundation for constructing and running
+integrated software-development tools. the eclipse platform allows tool
+builders to independently develop tools that integrate with other people's
+tools so seamlessly you can't tell where one tool ends and another starts.
+
+this package provides only the eclipse platform. it does not include any
+development plug-ins. these are available in different packages:
+
+
+ * eclipse-jdt java development tools
+ * eclipse-pde plug-in development tools
+ * eclipse complete development environment
+
+
+this package is the base for all eclipse plug-ins. please note that many
+plugins will fail to install if you don't have the eclipse-pde package
+installed.

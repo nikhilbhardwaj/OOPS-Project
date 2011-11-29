@@ -1,0 +1,9 @@
+Slip/ppp emulator using a dial up shell account
+	
+slirp is a tcp/ip emulator which turns an ordinary shell account
+into a (c)slip/ppp account.  this allows shell users to use all the
+funky internet applications like netscape, mosaic, cuseeme, etc.
+
+please note that maybe your isp really doesn't like you using slirp,
+because they want to charge more for a ppp connection, so use it at
+your own risk.

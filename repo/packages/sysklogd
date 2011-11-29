@@ -1,0 +1,4 @@
+PackageId:32421
+Name:sysklogd
+Version:1.5-6
+Deps:klogd,busybox-syslogd,linux-kernel-log-daemon,dsyslog,inetutils-syslogd,rsyslog,socklog-run,syslog-ng,libc6,libc6-udeb,libc6.1,libc6.1-udeb,lsb-base

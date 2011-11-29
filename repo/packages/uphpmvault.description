@@ -1,0 +1,12 @@
+Upload recovery images to hp mediavault2 via ethernet
+	
+the hp mediavault--generation 2 a.k.a mv2--implements a custom
+recovery protocol for rescuing a device when the operating system
+image is corrupt.  the uphpmvault application listens for broadcast
+ethernet packets from an mv2 devices waiting for recovery.  on
+receipt of one of these 'beacon' packets, uphpmvault transmits a
+recovery image to the waiting device which will automatically boot
+the recovery image.
+
+the primary purpose of this application is for installing debian
+gnu/linux on an mv2.

@@ -1,0 +1,16 @@
+Compiler for icon, a high-level programming language
+	
+ideal for both complex nonnumerical applications and for situations where
+users need quick solutions with a minimum of programming effort, icon is a
+high-level, general purpose programming language with a syntax similar to
+pascal and c. its applications include: rapid prototyping, analyzing
+natural languages, generating computer programs, and artificial
+intelligence. (from the back cover of the book "the icon programming
+language," by griswold and griswold.)
+
+this package contains the icon compiler. it generates programs that
+generally run faster than those of the icont/iconx icon interpreter. on the
+other hand, the icon compiler takes much longer to compile programs and is
+more memory-hungry than the iconx/icont pair. as such, the compiler is
+probably only useful to speed up the execution of large icon programs once
+they are fully developed and debugged.

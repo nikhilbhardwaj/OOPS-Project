@@ -1,0 +1,6 @@
+Web server api fastcgi backend
+	
+wsapi is an api that abstracts the web server for lua web applications,
+allowing the same application to be used in different web servers.
+
+this package contains the backend for the fastcgi protocol.

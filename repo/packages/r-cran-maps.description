@@ -1,0 +1,14 @@
+Gnu r support for producing geographic maps
+	
+this package provides facilities for easily producing maps based on
+data sets in the gnu r statistical computing environment.
+
+the r-cran-maps package includes map data for the united states
+(including state and county-level maps), new zealand, and a world
+map; additional maps (including a higher-resolution world map) are
+available in the suggested r-cran-mapdata package.
+
+the suggested r-cran-mapproj package adds facilities for calculating
+geographic projections, which are used by mapmakers to compensate for
+the inaccuracies inherent in projecting a spheroid's surface onto a
+two-dimensional plane.

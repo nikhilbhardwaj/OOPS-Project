@@ -1,0 +1,12 @@
+Http regression testing and benchmarking utility
+	
+siege is an regression test and benchmark utility. it can stress test a single
+url with a user defined number of simulated users, or it can read many urls
+into memory and stress them simultaneously. the program reports the total
+number of hits recorded, bytes transferred, response time, concurrency, and
+return status. siege supports http/1.0 and 1.1 protocols, the get and post
+directives, cookies, transaction logging, and basic authentication. its
+features are configurable on a per user basis.
+
+note: this package contains siege with https support turned on, thus it
+obsoletes siege-ssl package now.

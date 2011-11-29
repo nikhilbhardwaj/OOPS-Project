@@ -1,0 +1,8 @@
+Converts between character sets in perl
+	
+the iconv() family of functions from xpg4 define an api for converting
+between character sets (e.g. utf-8 to latin1, ebcdic to ascii). they
+are provided by libc6.
+
+this package allows access to them from perl via the text::iconv
+package.

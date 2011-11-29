@@ -1,0 +1,8 @@
+Structured file library - runtime version
+	
+the gnome structured file library aims to provide an efficient
+extensible i/o abstraction for dealing with different structured file
+formats.
+
+this is the basic runtime version of libgsf. it does not provide
+gnome-specific extensions.

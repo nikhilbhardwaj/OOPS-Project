@@ -1,0 +1,5 @@
+Convert microsoft reader .lit files to html
+	
+this program will extract "drm1" format .lit files into their original
+xml/html.  if you have the appropriate "keys.txt" file with your private
+ebook keys, you can also convert "drm5" files to "drm1".

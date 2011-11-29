@@ -1,0 +1,12 @@
+Red hat cluster suite - cluster manager
+	
+this package is part of the red hat cluster suite, a complete
+high-availability solution.
+
+cman is a symmetric general-purpose cluster manager. it provides a
+service manager that handles service groups, plus a connection
+manager that handles cluster membership management, messaging among
+the cluster nodes, event notification, quorum and state transitions.
+
+this package contains only tools for controlling the cluster manager
+itself.

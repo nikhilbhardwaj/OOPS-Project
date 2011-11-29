@@ -1,0 +1,8 @@
+Development files needed to compile zorp modules
+	
+zorp is a new generation firewall. it is essentially a transparent proxy
+firewall, with strict protocol analyzing proxies, a modular architecture,
+and fine-grained control over the mediated traffic. configuration decisions
+are scriptable with the python based configuration language.
+
+these are the files you need to compile a zorp module.

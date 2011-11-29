@@ -1,0 +1,15 @@
+A scriptable frame buffer and ascii art image viewer
+	
+fim is a highly customizable and scriptable image viewer targeted at the
+users who are confortable with software like the vim text editor or the mutt
+mail user agent (it aims to be a swiss army knife for viewing images).
+it is based on the fbi image viewer (by gerd hoffmann), and works primarily in
+the linux framebuffer console.
+it is multidevice : it has x support, too (via the sdl library) and it supports
+ascii art output (via the aalib library).
+it is capable of regular expressions based (on filename) image viewing,vim-like
+autocommands, it offers gnu readline command line autocompletion and history,
+completely customizable key bindings, external/internal (if-while based)
+scriptability (through return codes, standard input/output, and commands given
+at invocation time, initialization file), internal filename-based image search,
+and much more features.

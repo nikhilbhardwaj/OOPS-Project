@@ -1,0 +1,13 @@
+Fsp v2 protocol stack library - shared library
+	
+this is c library which support talking with fsp server using fsp v2 protocol
+and provides posix-like file manipulation interface.
+
+fsp is a protocol, a bit like ftp, for moving files around. it's designed for
+anonymous archives, and has protection against server and network overloading.
+it doesn't use connections, so it can survive things falling over. it's also
+designed to prevent network congestion, so it can be very nice for large
+transfers over slow links.
+
+for more information about fsp protocol see http://fsp.sourceforge.net/
+for library and api info see http://fsp.sourceforge.net/fsplib.html

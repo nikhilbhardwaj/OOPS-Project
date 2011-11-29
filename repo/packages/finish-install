@@ -1,0 +1,4 @@
+PackageId:4322
+Name:finish-install
+Version:2.28squeeze1
+Deps:archdetect,bootable-system,arcboot-installer,colo-installer,elilo-installer,flash-kernel-installer,grub-installer,lilo-installer,nobootloader,prep-installer,quik-installer,sibyl-installer,silo-installer,yaboot-installer,zipl-installer,cdebconf-udeb,created-fstab,partconf,partman-base,installed-base,bootstrap-base,live-installer

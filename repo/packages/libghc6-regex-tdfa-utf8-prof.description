@@ -1,0 +1,7 @@
+Profiling libraries for the utf8 version of the tagged dfa regex engine
+	
+
+this combines regex-tdfa with utf8-string to allow searching over utf8 encoded
+lazy bytestrings.
+
+this package contains the profiling libraries compiled for ghc 6.

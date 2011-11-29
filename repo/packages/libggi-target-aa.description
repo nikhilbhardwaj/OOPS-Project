@@ -1,0 +1,7 @@
+General graphics interface ascii art display target
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the driver for the "aa" target, enabling libggi
+(and therefore any program using libggi) to display its output as
+ascii art.

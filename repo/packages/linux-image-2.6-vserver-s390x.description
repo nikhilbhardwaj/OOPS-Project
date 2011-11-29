@@ -1,0 +1,8 @@
+Linux 2.6 for ibm zseries (meta-package), linux-vserver support
+	
+this package depends on the latest linux kernel 2.6 and modules for use on
+ibm zseries.
+
+this kernel has support to ipl (boot) from a vm reader or dasd device.
+
+this kernel includes support for linux-vserver virtualization.

@@ -1,0 +1,6 @@
+Small console cd player
+	
+mcdp is a really small cd player with a curses-like
+user interface. it supports minimal remote/local
+cddb/freedb track data, different play methods (including
+intro, repeat cd, and repeat track) and volume control.

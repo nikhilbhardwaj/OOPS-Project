@@ -1,0 +1,5 @@
+Debug symbols for libopenjpeg2, a jpeg 2000 image library
+	
+this package contains the debug symbols to match the runtime component of the
+libopenjpeg2 library, allowing debugging of a program using libopenjpeg2 to
+access debugging details within the library itself.

@@ -1,0 +1,13 @@
+Subsystem for high-availability linux (libraries)
+	
+heartbeat is a basic heartbeat subsystem for linux-ha which implements
+serial, udp, and ppp/udp heartbeats together with ip address takeover
+including a nice resource model including resource groups.
+
+it currently supports a very sophisticated dependency model for n-node
+clusters. it is both extremely useful and quite stable at this point in
+time.
+
+this package contains the heartbeat libraries to make them available
+to other programs like pacemaker without having to install the whole
+heartbeat suite.

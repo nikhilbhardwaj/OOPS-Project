@@ -1,0 +1,4 @@
+PackageId:5040
+Name:gcc-4.3-spu
+Version:4.3.5-4
+Deps:binutils-spu,gcc-4.3-base,libc6,libc6-udeb,libgmp3c2,libmpfr4,newlib-spu

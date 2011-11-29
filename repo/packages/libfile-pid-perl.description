@@ -1,0 +1,4 @@
+Perl module for pid file manipulation
+	
+file::pid manages pid files. it creates a pid file, queries the process
+within to discover if it's still running, and removes the pid file.

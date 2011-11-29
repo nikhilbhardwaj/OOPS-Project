@@ -1,0 +1,8 @@
+Avl tree manipulation library - development
+	
+this library consists of a set of functions to manipulate avl trees.  avl
+trees are very efficient balanced binary trees, similar to red-black trees.
+the functions in this library can handle any kind of payload and search key
+type.
+
+this package contains the header files.

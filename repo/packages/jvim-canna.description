@@ -1,0 +1,7 @@
+Japanized vim (canna version)
+	
+jvim 3.0 is japanized vim (vi clone editor) by k.tsuchida
+<ken_t@st.rim.or.jp> on dec 24, 2002 (patch version 2.1b).
+this editor can utilize the canna-server in "canna" package
+directly without other extra libraries (i.e. libonew) in order
+to enter "kanji" from kon (kanji linux console) in kon2 package.

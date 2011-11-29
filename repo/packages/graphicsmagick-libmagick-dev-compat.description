@@ -1,0 +1,23 @@
+Image processing libraries providing imagemagick interface
+	
+graphicsmagick provides libraries in several programming languages to read,
+write and manipulate image files across a large number of formats, from the
+widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+image formats found on some photo cds. there are functions for finegrained
+image processing tasks, as well as conversion routines between the various
+image formats.
+
+the graphicsmagick libraries are a fork of imagemagick and therefore offer
+programming interfaces that are mostly compatible. while there might be
+small differences, experience tells that many programs only use a compatible
+subset and build fine with either graphicsmagick or imagemagick.
+
+while graphicsmagick uses different names for libraries, classes, and
+helper applications in order to coexist with imagemagick, this package
+intends to minimise porting efforts by exporting the graphicsmagick
+interface with the usual imagemagick names. note that this package only
+tries to provide build-time compatibility. run-time libraries of
+imagemagick and graphicsmagick are incompatible and cannot be interchanged.
+
+this package includes compatibility wrappers for the c, c++, and perl
+libraries.

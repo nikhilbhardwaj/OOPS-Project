@@ -1,0 +1,11 @@
+A cffi based interface to the plplot scientific plotting library
+	
+cl-plplot provides a cffi based interface to the plplot graphics
+library. the plplot graphics library supports the drawing of many different
+types of 2d and 3d graphs using a large variety of output devices including
+x11, postscript and png. plplot can also be used to make scaled drawing,
+or diagrams.
+
+at present, cl-plplot consists of two packages, one is low-level interface
+to the plplot library and the other is high-level plotting interface that
+attempts to make using plplot with lisp easier.

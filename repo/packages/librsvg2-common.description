@@ -1,0 +1,7 @@
+Sax-based renderer library for svg files (extra runtime)
+	
+the rsvg library is an efficient renderer for scalable vector graphics
+(svg) pictures.
+
+this package includes the gdk-pixbuf loader and a gtk+ engine, allowing
+to load svg images transparently inside gtk+ applications.

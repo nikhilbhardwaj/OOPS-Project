@@ -1,0 +1,6 @@
+Module to extract system data from an http user agent string
+	
+http::browserdetect is a perl module that attempts to identify the browser,
+software version and platform associated with a given http user agent string.
+this module is based upon the javascript browser detection code available at
+<url:http://www.mozilla.org/docs/web-developer/sniffer/browser_type.html>.

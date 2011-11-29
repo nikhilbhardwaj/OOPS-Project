@@ -1,0 +1,6 @@
+Create mathematically accurate line figures, plots and movies
+	
+epix provides a system for creating mathematically accurate line figures,
+plots, and movies using an easy-to-learn c++-like syntax.  latex and dvips
+comprise the typographical rendering engine, while imagemagick is used to
+create bitmapped images and animations.

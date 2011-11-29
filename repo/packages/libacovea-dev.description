@@ -1,0 +1,12 @@
+Library for analyzing compiler options via evolutionary algorithms
+	
+the acovea (analysis of compiler options via evolutionary algorithm)
+library that implements a genetic algorithm to find the "best" options for
+compiling programs with the gnu compiler collection (gcc) c and c++
+compilers.  "best," in this context, is defined as those options that
+produce the fastest executable program from a given source code.
+
+libacovea is part of a c++ framework that can be extended to test other
+programming languages and non-gcc compilers.
+
+this package contains the development files for libacovea.

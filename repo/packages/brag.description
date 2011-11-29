@@ -1,0 +1,14 @@
+Downloads and assembles multipart usenet binaries
+	
+brag collects and assembles multipart binary attachements from
+newsgroups. this is a robust command-line tool, well suited to run
+as a cron job.
+
+ * collects and downloads multipart binary attachements
+ * supported encodings: uuencode, mime base64 and yenc
+ * filters messages using accept/reject patterns
+ * optionally saves message subjects
+ * supports nntp authentication
+ * supports non-default nntp ports
+ * can combine parts from different newsgroups or even different servers
+ * bulletproof: restarts from the last successful operation

@@ -1,0 +1,8 @@
+Ktorrent plasma widget
+	
+this package provides the ktorrent plasma widget which features display of
+the current upload and download speeds and status of any single torrent which
+ktorrent knows about. please note that ktorrent must be running for this
+widget to be able to display any up-to-date information.
+
+this package contains ktorrent plasma data engine as well.

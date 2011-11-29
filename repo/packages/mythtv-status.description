@@ -1,0 +1,8 @@
+Show the status of a mythtv backend
+	
+shows the current status of a local or remote mythtv backend and up to
+the next 10 recordings for today and tomorrow.
+
+also provides funtionality for updating the motd with this information,
+this can provide a good heads up on when you should avoid heavy cpu or
+i/o work on your mythtv backend.

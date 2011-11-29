@@ -1,0 +1,12 @@
+Python implementation of the google command line flags module
+	
+gflags defines a distributed command line system, replacing systems like
+getopt(), optparse and manual argument processing. rather than an application
+having to define all flags in or near main(), each python module defines flags
+that are useful to it.  when one python module imports another, it gains
+access to the other's flags.
+
+it includes the ability to define flag types (boolean, float, integer, list),
+autogeneration of help (in both human and machine readable format) and reading
+arguments from a file. it also includes the ability to automatically generate
+man pages from the help flags.

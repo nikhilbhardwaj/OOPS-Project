@@ -1,0 +1,14 @@
+A program to read/write arc/info compressed e00 files
+	
+e00compr is an ansi c library that reads and writes arc/info compressed e00
+files. both "partial" and "full" compression levels are supported. e00 files
+are the vector import/export format for arc/info. it is plain ascii and is
+meant as an interchange format. esri considers the format to be proprietary,
+so this package may not read all e00 files as esri may change the format.
+
+this package is useful for importing e00 files into the grass gis system.
+
+it contains the e00conv command-line program, which takes a e00 file as
+input (compressed or not) and copies it to a new file with the requested
+compression level (none, partial or full). the library is not included
+at this stage.

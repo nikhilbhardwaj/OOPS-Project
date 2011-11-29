@@ -1,0 +1,12 @@
+Open ticket request system
+	
+otrs is an open source ticket request system (also well known as
+trouble ticket system) with many features to manage customer telephone
+calls and e-mails. the system is built to allow your support, sales,
+pre-sales, billing, internal it, helpdesk, etc. department to react
+quickly to inbound inquiries. for a detailed documentation see package
+otrs-doc-en or otrs-doc-de.
+
+this package ships version 2 of otrs. note that there is no fully
+automatic upgrade path from version 1.3, please consult
+/usr/share/doc/otrs2/readme.debian.gz for more information about that.

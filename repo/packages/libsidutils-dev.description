@@ -1,0 +1,21 @@
+Utility functions for sid players
+	
+this library contains various things deemed useful to all sid players
+(emulations of the c64's sid chip (mos 6581) and cpu (6510)), and
+currently every player seems to be re-inventing. it is used by
+several "player" applications, e.g. sidplay.
+
+support so far is:
+
+
+ * ini file reader.
+ * md5 key creation.
+ * song length database parser.
+ * sid filter file parser.
+
+
+coming soon:
+
+
+ * playlist parser (load and save).
+ * stil parser.

@@ -1,0 +1,5 @@
+Amd64 shared libraries for use on i386/x86_64 systems
+	
+this package contains runtime libraries for the amd64 (x86_64)
+architecture, configured for use on an i386 debian system running
+a 64-bit kernel.

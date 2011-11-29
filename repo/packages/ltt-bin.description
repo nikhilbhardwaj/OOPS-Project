@@ -1,0 +1,11 @@
+Tools to control kernel tracing with lttng
+	
+the lttng project aims at providing highly efficient tracing tools for linux.
+its tracers help tracking down performance issues and debugging problems
+involving multiple concurrent processes and threads. tracing across multiple
+systems is also possible.
+
+ltt-control is the part of the lttng that allows a machine to be traced.
+
+this package contains the daemon with which the kernel will communicate and
+the application that starts and terminates tracing.

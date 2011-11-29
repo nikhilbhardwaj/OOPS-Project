@@ -1,0 +1,12 @@
+Java html renderer & parser
+	
+cobra is a pure java html renderer and dom parser that is being
+developed to support html 4, javascript and css 2.
+
+cobra can be used as a javascript-aware and css-aware html dom
+parser, independently of the cobra rendering engine. javascript dom
+modifications that occur during parsing (e.g. via document.write)
+will be reflected in the parsed dom, unless javascript is
+disabled. likewise, dom element implementations have a getstyle
+method that can be called to obtain the styling properties of an
+element.

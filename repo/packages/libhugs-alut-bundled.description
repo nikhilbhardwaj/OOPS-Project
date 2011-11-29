@@ -1,0 +1,9 @@
+A binding for the openal utility toolkit
+	
+a haskell binding for the openal utility toolkit, which makes
+managing of openal contexts, loading sounds in various formats
+and creating waveforms very easy. for more information about the
+c library on which this binding is based, please see:
+<http://www.openal.org/openal_webstf/specs/alut.html>.
+
+this is the version bundled with the interpreter.

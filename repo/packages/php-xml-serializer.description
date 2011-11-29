@@ -1,0 +1,13 @@
+Swiss-army knife for reading and writing xml files
+	
+xml_serializer creates xml files from data structures and vice versa.
+it serializes complex data structures like arrays or objects as xml
+documents. you can create any xml document without the need for dom
+access.
+this package includes an unserializer facility that creates php data
+structures (like arrays and objects) from xml documents, if type hints
+are available. if not, it will try to guess how it has to be
+unserialized, doing exactly what you expect it to do in most cases.
+
+since version 0.8.0 the package is able to treat xml documents similar
+to the simplexml extension of php 5.

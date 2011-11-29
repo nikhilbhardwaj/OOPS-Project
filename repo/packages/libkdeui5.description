@@ -1,0 +1,11 @@
+The kde platform user interface library
+	
+this library provides standard user interface elements for use in kde
+applications. if your kde application has a gui, you will almost certainly
+link to this library.
+
+a spell-checker functionality is also provided. sonnet offers easy access to
+international ispell or aspell as well as a spell-checker gui ("add",
+"replace", etc.).
+
+this package is part of the kde development platform libraries module.

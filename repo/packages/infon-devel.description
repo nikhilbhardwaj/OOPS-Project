@@ -1,0 +1,12 @@
+Develop bots for the infon game
+	
+infon is a game which simulates the live of simple bugs who eat,
+propagate, eat each other and evolve. the players can not control
+the bugs directly but write their “intelligence” in the simple
+script language lua and upload it to the game using a plain telnet
+connection. the code can then be modified even while the game
+is running.
+
+this package contains a graphical lua editor with integration into
+the infon server and allows easy uploading of the code. it also
+marks the currently executed line of code.

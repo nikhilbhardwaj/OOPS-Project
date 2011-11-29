@@ -1,0 +1,9 @@
+A c++ library to solve some geodesic problems -- development files
+	
+geographiclib is a small set of c++ classes for converting between
+geographic, utm, ups, mgrs, geocentric, and local cartesian coordinates,
+for geoid calculations, and for computing geodesic. it is a suitable
+replacement for the core functionality provided by nga geotrans.
+
+this package contains the files used to develop applications that use the
+geographiclib library.

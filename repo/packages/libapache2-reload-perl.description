@@ -1,0 +1,12 @@
+Reload perl modules when changed on disk
+	
+apache2::reload reloads modules that change on the disk.
+
+when perl pulls a file via "require", it stores the filename in the global
+hash %inc. the next time perl tries to "require" the same file, it sees the
+file in %inc and does not reload from disk. this module's handler can be
+configured to iterate over the modules in %inc and reload those that have
+changed on disk. it can also monitor only specific modules that have
+registered themselves with apache2::reload. it is possible to trigger the
+check only when a special touch-file has been modified, minimizing the number
+of stat() calls per request.

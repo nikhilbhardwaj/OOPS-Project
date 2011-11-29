@@ -1,0 +1,8 @@
+Perl binding for the ois c++ input framework
+	
+this is a perl binding for ois, object-oriented input system, a crossplatform
+c++ input framework, found at <http://sourceforge.net/projects/wgois>. it is
+made so that ogre (<http://search.cpan.org/~slanning/ogre/>) can be useful,
+but there might be uses outside of ogre.
+
+the wrapping isn't really complete at the moment.

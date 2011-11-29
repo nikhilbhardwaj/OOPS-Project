@@ -1,0 +1,6 @@
+Documentation for grub legacy
+	
+grub is a gpled bootloader intended to unify bootloading across x86
+operating systems.  in addition to loading the linux kernel,
+it implements the multiboot standard, which allows for flexible loading
+of multiple boot images (needed for modular kernels such as the gnu hurd).

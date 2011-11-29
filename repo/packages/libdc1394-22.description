@@ -1,0 +1,11 @@
+High level programming interface for ieee1394 digital camera
+	
+libdc1394 is a library that is intended to provide a high level
+programming interface for application developers who wish to control
+ieee 1394 based cameras that conform to the 1394-based digital camera
+specification (found at http://www.1394ta.org/).
+
+this version of libdc1394 supports both the old and new (juju) firewire stack.
+it automatically detects which one to use at runtime.
+
+this package contains shared libraries.

@@ -1,0 +1,12 @@
+X session utilities
+	
+this package provides the x session manager and related tools:
+
+ - rstart;
+ - smproxy, a session manager proxy for x clients that do not use the x
+   session manager protocol;
+ - xsm, a session manager for x sessions;
+
+installation of an rsh or ssh daemon (server) is necessary if rstartd is
+to be used, and installation of an rsh or ssh client is necessary if
+rstart is to be used.

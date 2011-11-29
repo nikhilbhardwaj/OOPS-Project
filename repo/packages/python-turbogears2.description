@@ -1,0 +1,24 @@
+Python web application framework
+	
+turbogears2 is a framework to develop web applications in python.
+
+turbogears2 application are developed according to a
+model-view-controller (mvc) architecture composed of several
+components: an object relational mapper (or orm, to code the model),
+a template engine (to write views), and an url mapper (to associate
+urls to python methods acting as controllers).
+
+turbogears2 relies on the best available individual components and
+combines them into a coherent and well-documented whole. turbogears2
+includes parts that join the components together and make them work
+together seamlessly, but does not obscure each included project. this
+allows to take advantage of existing documentation, articles, mailing
+lists and other resources that have built up in the communities for
+each project.
+
+turbogears2 is the next major version of turbogears, and builds on
+the pylons framework.
+
+this package contains all you would need to run (but not develop) web
+applications powered by turbogears2; to develop them you should
+also install the python-tg.devtools packages.

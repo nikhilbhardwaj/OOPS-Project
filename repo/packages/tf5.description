@@ -1,0 +1,11 @@
+Text-based mu* and chatserver client
+	
+tinyfugue is a text-based, line-based client designed for connecting to
+most flavors of mu* servers (tinymush, tinymux, lp, diku, etc.) or any
+telnet-based chatserver.  it includes support for 256-color terminals,
+mccp versions 1 and 2, a powerful trigger and scripting language, and
+many other features.
+
+this package is the current development version of tinyfugue (major
+version 5).  for the current stable version (major version 4), install
+the "tf" package instead.

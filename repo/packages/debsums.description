@@ -1,0 +1,5 @@
+Tool for verification of installed package files against md5 checksums
+	
+debsums can verify the integrity of installed package files against
+md5 checksums installed by the package, or generated from a .deb
+archive.

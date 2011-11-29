@@ -1,0 +1,8 @@
+Musical score editor
+	
+nted is a gtk+ score editor. it intends to be really wysiwyg: what you
+see on the screen is exactly what you get on printer output. it supports
+up to 4 voices per staff, drum notes, 5 lyrics lines, n-tuplets, context
+changes, repeats with alternatives, configurable music instruments per
+staff, midi / musicxml import, ps / pdf / svg / png / lilypond / midi
+export. scores can be played through the alsa sequencer.

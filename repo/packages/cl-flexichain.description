@@ -1,0 +1,4 @@
+An efficient gap buffer with a well-defined external protocol
+	
+the flexichain common lisp protocol allows client code to dynamically add
+elements to, and delete elements from a sequence (or chain) of such elements.

@@ -1,0 +1,11 @@
+A collection of tools for managing unix services
+	
+supervise monitors a service. it starts the service and restarts the
+service if it dies. setting up a new service is easy: all supervise
+needs is a directory with a run script that runs the service.
+
+multilog saves error messages to one or more logs. it optionally timestamps
+each line and, for each log, includes or excludes lines matching specified
+patterns. it automatically rotates logs to limit the amount of disk space
+used. if the disk fills up, it pauses and tries again, without losing any
+data.

@@ -1,0 +1,12 @@
+Programming by contract for python
+	
+this package provides a means for programming by contract in python.
+programming by contact is a methodology whereby a api designer can
+define checkable preconditions and postconditions for method calls,
+and invariants for classes and methods.  the most famous use of this
+methodology is in the eiffel programming language.
+
+this implementation of programming by contract has the developer
+write constraints in the docstrings of methods and classes that can
+be optionally checked at runtime.  if the constraints are not met,
+an exception is raised.

@@ -1,0 +1,8 @@
+Snowball stemming algorithms, debugging symbols
+	
+snowball provides access to efficient algorithms for calculating a
+"stemmed" form of a word.
+
+this package contains the debugging symbols associated with snowball.  gdb
+will automatically use these symbols when debugging programs linked with
+snowball.

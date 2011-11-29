@@ -1,0 +1,15 @@
+Full virtualization on x86 hardware
+	
+using kvm, one can run multiple virtual pcs, each running unmodified linux or
+windows images. each virtual machine has private virtualized hardware: a
+network card, disk, graphics adapter, etc.
+
+kvm (for kernel-based virtual machine) is a full virtualization solution for
+linux hosts on x86 hardware with x86 guests. kvm is intended for systems where
+the processor has hardware support for virtualization, see below for details.
+all combinations of 32-bit and 64-bit host and guest systems are supported,
+except 64-bit guests on 32-bit hosts.
+
+kvm requires your system to support hardware virtualization, provided by amd's
+svm capability or intel's vt. see /usr/share/doc/qemu-kvm/readme.debian for
+more information.

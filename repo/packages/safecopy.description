@@ -1,0 +1,6 @@
+Copy utility ignoring errors
+	
+safecopy is a data recovery tool which tries to extract as much data as
+possible from a seekable, but problematic (i.e. damaged sectors) source - like
+floppy drives, harddisk partitions, cds, ..., where other tools like dd would
+fail due to i/o errors.

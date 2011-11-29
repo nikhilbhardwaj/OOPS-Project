@@ -1,0 +1,8 @@
+Language tool for constructing recognizers, compilers etc
+	
+antlr, another tool for language recognition, (formerly pccts) is
+a language tool that provides a framework for constructing recognizers,
+compilers, and translators from grammatical descriptions containing c++
+or java actions [you can use pccts 1.xx to generate c-based parsers].
+
+these are the static libraries for c++.

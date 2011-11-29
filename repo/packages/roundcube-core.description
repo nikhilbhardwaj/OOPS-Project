@@ -1,0 +1,11 @@
+Skinnable ajax based webmail solution for imap servers
+	
+roundcube webmail is a browser-based multilingual imap client with an
+application-like user interface. it provides full functionality
+expected from an e-mail client, including mime support, address book,
+folder manipulation and message filters.
+
+the user interface is fully skinnable using xhtml and css 2.
+
+this package provides the core code for roundcube. you should install
+it along with one of the roundcube database metapackages.

@@ -1,0 +1,21 @@
+Visual dialog builder and executor tool
+	
+kommander is a visual dialog building tool whose primary objective is
+to create as much functionality as possible without using any scripting
+language.
+
+more specifically, kommander is a set of tools that allow you to create
+dynamic gui dialogs that generate, based on their state, a piece of
+text. the piece of text can be a command line to a program, any piece
+of code, business documents that contain a lot of repetitious or
+templated text and so on.
+
+the resulting generated text can then be executed as a command line
+program (hence the name "kommander"), written to a file, passed to a
+script for extended processing, and literally anything else you can
+think of. and you aren't required to write a single line of code!
+
+as well as building dialogs, kommander may be expanded to create full
+mainwindow applications.
+
+this package is part of kde web development module.

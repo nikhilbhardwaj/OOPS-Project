@@ -1,0 +1,13 @@
+Tools to build and analyze sgml or xml document type definitions
+	
+dtd2html generates a suite of linked html documents listing the components and
+features of each element in an sgml document type definition (dtd).
+
+dtddiff shows differences between two dtds.
+
+dtdtree shows the hierarchy tree (in ascii) of sgml elements in a dtd.
+
+dtdview is an interactive program for studying an sgml dtd.
+
+stripsgml strips sgml markup from a file, and also attempts to translate
+entity references to standard ascii characters.

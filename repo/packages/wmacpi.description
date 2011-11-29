@@ -1,0 +1,5 @@
+Acpi battery monitor for windowmaker
+	
+this is a battery monitor that uses acpi to query the battery status.
+this version should work with all recent kernels (vanilla > 2.4.21), both
+2.4.x and 2.6.x.

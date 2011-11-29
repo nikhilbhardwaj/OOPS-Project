@@ -1,0 +1,10 @@
+Simple and lightweight fan control program
+	
+some hardware has a kind of broken fan-control and lets the fan run
+faster than really needed. thinkfan will prevent this by controlling
+the fan on its own (the fan speed for each temperature interval can be
+adjusted in the configuration file).
+
+originally designed specifically for ibm/lenovo thinkpads,
+it supports any kind of system via the sysfs hwmon interface.
+it is designed to eat as little cpu power as possible.

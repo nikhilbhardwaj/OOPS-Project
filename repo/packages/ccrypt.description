@@ -1,0 +1,8 @@
+Secure encryption and decryption of files and streams
+	
+ccrypt is a utility for encrypting and decrypting files and streams. it was
+designed as a replacement for the standard unix crypt utility, which is
+notorious for using a very weak encryption algorithm. ccrypt is based on the
+rijndael cipher, which is the u.s. government's chosen candidate for the
+advanced encryption standard (aes, see http://www.nist.gov/aes). this cipher is
+believed to provide very strong security.

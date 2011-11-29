@@ -1,0 +1,13 @@
+Simple library for python mock objects
+	
+minimock is a simple python library for using mock objects.
+
+its mock objects will report any access made to the mock object's
+interfaces. by using the standard-library ‘doctest’ module, the
+programmer can easily make assertions about how mock objects are
+used by matching the reported access against expected behaviour.
+
+mock objects can return specified values, raise exceptions, etc.
+to simulate the mocked behaviour. existing objects can optionally
+be replaced in-place in their namespace by a mock object, and
+restored safely after testing.

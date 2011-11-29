@@ -1,0 +1,7 @@
+Calculate replaygain information - development files
+	
+libreplaygain calculates the perceived loudness of audio and
+suggests db adjustments according to the replaygain standard.
+
+this package contains the header files, static libraries
+and symbolic links that developers using libreplaygain will need.

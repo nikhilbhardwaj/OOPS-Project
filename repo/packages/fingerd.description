@@ -1,0 +1,6 @@
+Remote user information server
+	
+fingerd is a simple daemon based on rfc1196 that provides an interface to the
+"finger" program at most network sites.  the program is supposed to return a
+friendly, human-oriented status report on either the system at the moment or a
+particular person in depth.

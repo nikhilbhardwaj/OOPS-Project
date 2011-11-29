@@ -1,0 +1,7 @@
+Java access bridge for gnome (jni bindings)
+	
+this module contains the java access bridge for gnome,
+which connects the built-in accessibility support in
+java swing apps to the gnome accessibility framework,
+specifically the assistive technology service provider
+interface (at-spi).

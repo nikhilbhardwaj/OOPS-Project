@@ -1,0 +1,23 @@
+Colored ftp client using glib
+	
+gftp text version is a multithreaded ftp client running under console and
+written using glib.
+
+gftp features:
+
+  * simultaneous downloads,
+  * resuming of interrupted file transfers,
+  * file transfer queues,
+  * downloading of entire directories,
+  * ftp and http proxy support,
+  * remote directory caching,
+  * passive and non-passive file transfers,
+  * drag-n-drop support,
+  * bookmarks menu,
+  * support for ssh and ssh2 file transfers,
+  * support fxp transferts,
+  * stop button, and many more features.
+
+
+
+ author:   brian masney <masneyb@gftp.org>

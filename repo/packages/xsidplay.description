@@ -1,0 +1,14 @@
+Music player for tunes from c64
+	
+this is a very sophisticated music player for c64
+tunes, aka sid tunes.
+
+it's very simple now to change emulation parameters and control
+tunes and subtunes. furthermore, the player features a playlist
+and support for the hvsc song lengths database file. the `readme'
+contains instructions where to download and how to install this
+file.
+
+there is a somewhat `hidden' expert mode, which enables the
+built-in oscilloscope. please see `readme.debian' and `readme'
+for more information (and possible problems).

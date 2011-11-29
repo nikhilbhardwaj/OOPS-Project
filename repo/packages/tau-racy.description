@@ -1,0 +1,11 @@
+Tuning and analysis utilities - tcl/tk profiler gui
+	
+tau is a profiling toolkit specially made for parallel computing
+(multi-thread, multi-process, mpi, pvm).
+
+racy (routine and data acces profile display) is a gui that
+graphically visualizes profiling data.
+
+racy has been superceded by a set of java tools, and is no more
+actively developed.  unfortunately, those tools cannot build yet
+using free tools.

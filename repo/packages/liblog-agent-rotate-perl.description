@@ -1,0 +1,7 @@
+Extension for log::agent providing file-rotating features
+	
+the log::agent::rotate module is an extension of log::agent that brings
+file-rotating features to the file logging driver.
+
+this is not a generic all-purpose logfile rotation package.  it is meant
+to be used only within the log::agent framework.

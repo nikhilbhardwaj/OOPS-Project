@@ -1,0 +1,5 @@
+Utility to format postgresql files
+	
+this package contains a utility to format postgresql heap/index/control
+files into a human-readable form. you can format/dump the files several
+ways.

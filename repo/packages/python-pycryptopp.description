@@ -1,0 +1,5 @@
+Python wrappers for the crypto++ library
+	
+pycryptopp is a set of python wrappers for a few of the best crypto algorithms
+from the crypto++ library (including sha-256, aes, rsa signatures and elliptic
+curve dsa signatures).

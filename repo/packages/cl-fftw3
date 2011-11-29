@@ -1,0 +1,4 @@
+PackageId:1887
+Name:cl-fftw3
+Version:1.0-1
+Deps:cl-cffi,cl-kmrcl,common-lisp-controller,libfftw3-dev

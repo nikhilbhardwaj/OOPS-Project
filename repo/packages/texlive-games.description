@@ -1,0 +1,26 @@
+Tex live: games typesetting
+	
+setups for typesetting various games, including chess.
+
+this package includes the following ctan packages:
+
+ cchess -- chinese chess.
+ chess -- fonts for typesetting chess boards.
+ chess-problem-diagrams -- a package for typesetting chess problem diagrams.
+ chessboard -- print chess boards.
+ chessfss -- a package to handle chess fonts.
+ crossword -- typeset crossword puzzles.
+ crosswrd -- macros for typesetting crossword puzzles.
+ egameps -- latex package for typesetting extensive games.
+ go -- fonts and macros for typesetting go games.
+ hexgame -- provide an environment to draw a hexgame-board.
+ jeopardy -- build a jeopardy game in latex.
+ othello -- create othello boards in latex.
+ psgo -- typeset go diagrams with pstricks.
+ sgame -- latex style for typesetting strategic games.
+ skak -- fonts and macros for typesetting chess games.
+ skaknew -- the skak chess fonts redone in adobe type 1.
+ sudoku -- create sudoku grids.
+ sudokubundle -- a set of sudoku-related packages.
+ xq -- support for writing about xiangqi.
+ xskak -- an extension to the skak package for chess typesetting.

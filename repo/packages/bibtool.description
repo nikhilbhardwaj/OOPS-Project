@@ -1,0 +1,9 @@
+Tool for bibtex database manipulation
+	
+bibtool is a command-line utility for rewriting and transforming
+bibliography databases for bibtex.
+it can sort records.
+it can generate normalized citelabels.
+it can rewrite field contents based on user-specified regex recipes.
+it can extract records based on regex matching, or all the records
+a given document cites.

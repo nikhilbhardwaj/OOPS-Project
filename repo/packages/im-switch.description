@@ -1,0 +1,16 @@
+Input method switch framework
+	
+im-switch provides the framework to configure and to switch the input
+method on x window system depending on the locale. this input method is
+the essential mechanism for japanese, chinese and korean (cjk) language
+to enter their non-ascii native characters.
+
+some input methods such as scim support not only one of these cjk
+languages but support almost all languages simultaneously by
+dynamically switching keyboard modes with gui.
+
+by installing this package, the most desirable input method and its
+backend conversion engine are automatically configured with both xim or
+immodule mechanism.
+
+you can further customize your input method with 'im-switch' command.

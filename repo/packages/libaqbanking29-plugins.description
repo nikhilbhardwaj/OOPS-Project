@@ -1,0 +1,13 @@
+Plugins needed by libaqbanking29
+	
+aqbanking provides a middle layer between the applications
+and online banking libraries implementing various file formats and protocols.
+plugins supporting ofx, dtaus, and hbci are available.
+
+this package provides several plugins to aqbanking needed for features like:
+
+ * hbci support
+ * ofx support
+ * import/export of data in various formats (csv, dtaus, ofx, openhbci1, swift
+   and others)
+ * integrated debugging and setup wizard guis

@@ -1,0 +1,4 @@
+PackageId:31208
+Name:schleuder
+Version:2.1.1-2
+Deps:adduser,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,libgpgme-ruby1.8,libtmail-ruby1.8,ruby1.8

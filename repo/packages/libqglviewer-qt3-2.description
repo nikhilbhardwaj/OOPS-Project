@@ -1,0 +1,13 @@
+An opengl 3d viewer library based on qt3 - runtime library
+	
+libqglviewer (also known as libqglviewer) is a free c++ library based on qt
+that enables the quick creation of opengl 3d viewers. it features a powerful
+camera trackball and simple applications simply require an implementation of
+the draw() function. it is a tool of choice for opengl beginners and
+assignements. it provides screenshot saving, mouse manipulated frames, stereo
+display, interpolated keyframes, object selection, and much more. it is fully
+customizable and easy to extend to create complex applications, with a
+possible qt gui.
+
+this package contains the shared library needed to run programs using
+qglviewer. this package contains qglviewer linked with qt version 3.

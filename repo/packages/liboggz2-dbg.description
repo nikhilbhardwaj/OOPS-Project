@@ -1,0 +1,7 @@
+Convenience interface for ogg stream i/o debugging symbols
+	
+oggz provides a simple programming interface for reading and writing
+ogg files and streams.
+
+this package contains debugging symbols useful for tracing bugs in
+liboggz software.

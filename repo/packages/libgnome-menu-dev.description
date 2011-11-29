@@ -1,0 +1,11 @@
+An implementation of the freedesktop menu specification for gnome
+	
+the package contains an implementation of the draft
+"desktop menu specification" from freedesktop.org:
+
+http://www.freedesktop.org/standards/menu-spec
+
+also contained here are the gnome menu layout configuration files, .directory
+files and assorted menu related utility programs.
+
+this package contains the development headers.

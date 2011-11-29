@@ -1,0 +1,4 @@
+PackageId:25434
+Name:nfqueue-bindings-perl
+Version:0.3-2
+Deps:libc6,libc6-udeb,libc6.1,libc6.1-udeb,libnetfilter-queue1,libnfnetlink0,libperl5.10,perl,perlapi-5.10.1,perl-base

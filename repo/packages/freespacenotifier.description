@@ -1,0 +1,7 @@
+Free space notification module for kde
+	
+this module notifies the user when space is running out in
+/home or in one of the other directories, where you can configure
+freespacenotifier to monitor.
+
+more technically, this package provides a module for kded, the kde daemon

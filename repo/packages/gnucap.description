@@ -1,0 +1,9 @@
+Gnu circuit analysis package
+	
+gnucap is a general purpose circuit simulator.  it performs nonlinear
+dc and transient analyses, fourier analysis, and ac analysis
+linearized at an operating point.  it is fully interactive and
+command driven.  it can also be run in batch mode or as a server.
+the output is produced as it simulates.  spice compatible models
+for the mosfet (level 1,2,3) and diode are included in this
+release.

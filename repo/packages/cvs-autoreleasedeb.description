@@ -1,0 +1,17 @@
+Automatically release/upload debian packages from cvs
+	
+this package provides the capability of automatically publish a
+deb package directly from the cvs source. the cvs source must be
+already in the format managed by cvs-buildpackage, since
+cvs-buildpackage will be used to generate the deb.
+
+this package is useful to release the 'unstable' version of a
+software. the control of when to release the deb is made by
+watching the debian/changelog file. this script maintains a list
+of which packages to automate and the version they are. every
+time you increases the version in changelog, the package you are
+working will be generated.
+
+it will also call dupload to send the generated package to
+your deb server (which can be the main debian server or your
+software house's debian server).

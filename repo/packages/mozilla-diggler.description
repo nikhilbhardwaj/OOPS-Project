@@ -1,0 +1,12 @@
+A set of url manipulation utilities for iceape and iceweasel's location bar
+	
+diggler adds a button next to the location bar which can clear the
+location bar (much like the one in konqueror) but also drops down a
+menu with some useful actions such as being able to disable popup
+windows and navigate to parent directories in urls (handy for ftp
+operations and nested sites).
+
+note: diggler looks pretty good in modern and classic themes but due
+to its nature it might need tweaking for other themes. if you think
+this is the case, raise a bug and attach a screenshot illustrating
+the problem you are seeing.

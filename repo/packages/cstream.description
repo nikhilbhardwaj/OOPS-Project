@@ -1,0 +1,32 @@
+General-purpose stream-handling tool similar to dd
+	
+cstream is a general-purpose stream-handling tool like unix' dd,
+usually used in commandline-constructed pipes.
+
+features:
+
+ - sane commandline switch syntax.
+ - exact throughput limiting, on the incoming side. timing variance in
+   previous reads are counterbalanced in the following reads.
+ - precise throughput reporting. either at the end of the transmission
+   or everytime sigusr1 is received. quite useful to ask lengthy
+   operations how much data has been transferred yet, i.e. when
+   writing tapes. reports are done in bytes/sec and if appropriate in
+   kb/sec or mb/sec, where 1k = 1024.
+ - sigusr2 causes a clean shutdown before eof on input, timing
+   information is displayed.
+ - build-in support to write its pid to a file, for painless sending of
+   these signals.
+ - build-in support for fifos. example usage is a 'pseudo-device',
+   something that sinks or delivers data at an appropriate rate, but
+   looks like a file, i.e. if you test soundcard software. see the
+   manpage for examples.
+ - built-in data creation and sink, no more redirection of /dev/null
+   and /dev/zero. these special devices speed varies greatly among
+   operating systems, redirecting from it isn't appropriate
+   benchmarking and a waste of resources anyway.
+ - accepts 'k', 'm' and 'g' character after number for "kilo, mega, giga"
+   bytes for overall data size limit.
+ - "gcc -wall" clean source code, serious effort taken to avoid
+   undefined behaviour in ansi c or posix, except long long is
+   required. limiting and reporting works on data amounts > 4 gb.

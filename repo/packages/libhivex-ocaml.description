@@ -1,0 +1,6 @@
+Ocaml bindings for hivex -- runtime files
+	
+ocaml bindings for libhivex, a library for reading and writing
+windows registry "hive" binary files.
+
+this package contains only the shared runtime stub libraries.

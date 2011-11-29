@@ -1,0 +1,6 @@
+Dummy upgrade package
+	
+stunnel version 3 has been removed from debian. this is a dummy package
+to ease upgrading to stunnel4.
+
+you may safely remove this package after the upgrade.

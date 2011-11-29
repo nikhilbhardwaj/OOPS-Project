@@ -1,0 +1,4 @@
+Internet super server
+	
+inetd is the daemon that listens on various tcp and udp ports and spawns
+programs that can't or won't do it for themselves.

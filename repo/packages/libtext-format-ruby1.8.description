@@ -1,0 +1,6 @@
+Ruby library for text formatting
+	
+text::format provides the ability to nicely format fixed-width text with
+knowledge of the writeable space (number of columns), margins, and indentation
+settings. text::format can work with either tex::hyphen or text::hyphen to
+hyphenate words when formatting.

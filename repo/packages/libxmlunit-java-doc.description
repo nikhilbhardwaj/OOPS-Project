@@ -1,0 +1,8 @@
+Documentation for xmlunit
+	
+xmlunit extends junit and nunit to enable unit testing of xml.
+it compares a control xml document to a test document or the result of a
+transformation, validates documents, and compares the results of xpath
+expressions.
+
+this package provides the api and user documentation for xmlunit.

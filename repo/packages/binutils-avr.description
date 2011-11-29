@@ -1,0 +1,6 @@
+Binary utilities supporting atmel's avr targets
+	
+the programs in this package are used to manipulate binary and object
+files that may have been created for atmel's avr architecture.  this package
+is primarily for avr developers and cross-compilers and is not needed
+by normal users or developers.

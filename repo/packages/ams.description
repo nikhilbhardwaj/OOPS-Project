@@ -1,0 +1,10 @@
+Realtime modular synthesizer for alsa
+	
+alsamodularsynth is a realtime modular synthesizer and effect processor.
+it features:
+
+ * midi controlled modular software synthesis.
+ * realtime effect processing with capture from e.g. "line in" or "mic in".
+ * full control of all synthesis and effect parameters via midi.
+ * integrated ladspa browser with search capability.
+ * jack support.

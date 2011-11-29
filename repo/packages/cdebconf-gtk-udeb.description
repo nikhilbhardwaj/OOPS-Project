@@ -1,0 +1,8 @@
+Gtk+ frontend for debian configuration management system
+	
+debconf is a configuration management system for debian packages. it is
+used by some packages to prompt you for information before they are
+installed. this is a reimplementation of the original debconf version in c.
+
+cdebconf-gtk-udeb is a minimal gtk+ frontend cdebconf package used
+by the debian-installer.

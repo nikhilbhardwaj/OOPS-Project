@@ -1,0 +1,7 @@
+Rttool library for ruby1.8
+	
+rt is simple human-readble table format. rttool is a converter form rt into
+various formats. rttool is one of frontends of formatter for rt.
+
+this package provide rttool library for debian's default ruby version
+(currently 1.8.x)

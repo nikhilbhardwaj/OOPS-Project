@@ -1,0 +1,9 @@
+Snort-to-iptables rule translator
+	
+fwsnort translates snort rules into equivalent iptables rules and
+generates a shell script that implements the resulting iptables
+commands.
+
+this allows network traffic that matches snort signatures to be logged
+and/or dropped by iptables directly without putting any interface into
+promiscuous mode or queuing packets from kernel to user space.

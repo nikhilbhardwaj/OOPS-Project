@@ -1,0 +1,10 @@
+Network streams - a tcpdump output analyzer
+	
+nstreams is a utility designed to identify the ip streams that are
+occurring on a network from a non-user friendly tcpdump output of
+several megabytes. this is especially useful when you plan to install
+a firewall but if you do not know the nstreams that the network users
+are generating (http, real audio, and more...).
+
+nstreams can read the tcpdump output directly from stdin, or from a file.
+it can even generate the configuration file of your firewall.

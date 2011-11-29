@@ -1,0 +1,6 @@
+Xdiff clone
+	
+mgdiff is modeled after xdiff and provides a nice graphical interface
+for comparing the contents of two text files.  rmgdiff recurses down
+two directories collating difference information and invoking mgdiff
+whenever two text files differ.

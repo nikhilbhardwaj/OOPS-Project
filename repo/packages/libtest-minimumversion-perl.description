@@ -1,0 +1,10 @@
+Perl test module to check the version of perl required
+	
+test::minimumversion is a simple test to look at the features you are using in
+your code and determine the minimum version of the perl interpreter that is
+required. this is helpful, for example, when you are using features like 'say'
+which was introduced in perl 5.10.
+
+this test makes it easy to determine if your perl code requires a newer perl
+than expected, or if you accidentally made your dist require a newer version
+than strictly necessary.

@@ -1,0 +1,9 @@
+Tunnel tcp connections over icmp packets
+	
+ptunnel is an application that allows you to reliably tunnel tcp
+connections to a remote host using icmp echo request and reply
+packets, commonly known as ping requests and replies. it acts as
+a proxy and can handle sockets and secured identification.
+
+those features can be very handy when working in a closed networking
+environment with firewalls and proxies.

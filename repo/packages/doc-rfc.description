@@ -1,0 +1,10 @@
+Rfc documents metapackage
+	
+rfc (request for comments) documents are a series of technical and
+organizational notes about the internet. they are edited by the
+internet engineering task force (ietf).
+
+this is a metapackage that pulls in the new doc-rfc-xxx packages
+(those that most closely correspond to the old doc-rfc package).
+
+it can be removed if users want just a subset of the rfcs.

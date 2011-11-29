@@ -1,0 +1,8 @@
+A fake file system to be used in unit tests (ruby1.8)
+	
+fakefs allows you to unit-test file system calls without actually touching the
+file system. file, dir and fileutils calls are redirected to a fake file system
+without requiring to use any mocking library thus making it faster and easier
+to test file system calls.
+
+this is the package for ruby 1.8

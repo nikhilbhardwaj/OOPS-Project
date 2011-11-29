@@ -1,0 +1,6 @@
+Encoding-aware comma-separated values manipulator
+	
+provides the text::csv::encoding perl module, which is a
+version of text::csv that is encoding aware. both modules provide
+tools for handling files in the comma-separated values format
+(.csv).

@@ -1,0 +1,4 @@
+PackageId:23884
+Name:ltsp-client
+Version:5.2.4-2
+Deps:alsa-utils,cryptsetup,cups-bsd,inputattach,joystick,ldm,libasound2-plugins,ltsp-client-core,ltspfsd,mdetect,netcat-traditional,netcat,netcat-openbsd,ntpdate,numlockx,pulseaudio-esound-compat,python-serial,rdesktop,sane-utils,sshfs,xorg

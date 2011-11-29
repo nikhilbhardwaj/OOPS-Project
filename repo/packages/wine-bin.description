@@ -1,0 +1,7 @@
+Windows api implementation - binary loader
+	
+wine is a free ms-windows api implementation.
+this is still a work in progress and many applications may still not work.
+
+this package provides the binary loader program for running windows
+executables.

@@ -1,0 +1,6 @@
+Cursor object with built-in caching support
+	
+dbix::class::cursor::cached is a perl module providing a cursor class with
+built-in caching support. it allows for traversal of an arbitrary result set
+using "next", retrieving all results with "all" and resetting the cursor with
+"reset." moreover, it caches your results to increase speed.

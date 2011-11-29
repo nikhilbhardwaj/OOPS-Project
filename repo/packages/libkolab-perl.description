@@ -1,0 +1,12 @@
+Perl modules for kolab
+	
+kolab is a secure, scalable, and reliable groupware server.  it consists
+of a number of well-known and proven components for the standard tasks
+such as e-mail, directory service, and web service.  kolab adds
+intelligent interaction between the components, a web administration
+interface, management of free/busy lists, etc.  various clients can
+access kolab, among them kontact (kde), outlook (windows), and horde
+(web).
+
+this package contains perl modules that support the internal kolab
+server functionality.  it is not intended for other purposes.

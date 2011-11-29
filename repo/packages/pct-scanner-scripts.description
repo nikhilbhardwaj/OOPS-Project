@@ -1,0 +1,18 @@
+Scan and create merged djvu and pdf documents for archiving
+	
+this package contains a script and configuration system to easily
+scan documents and create digital archives. it can create djvu
+pdf and jpeg outputs, in merged and individual files. it also has
+a configuration file system where different configurations can be
+defined, making it easy to switch between configurations.
+
+features:
+
+ - auto archiving in merged and individual djvu, pdf, and jpeg files
+ - auto and manual resume when scanning somehow fails
+ - cascading configuration system, for easy customizing
+ - easy command-line-style bash program, with useful options
+ - archiving made possible with both adf and flatbed scanners
+ - built for productivity and daily use
+ - uses bash, scanadf and other mainstream processing tools
+ - multilanguage commandline output

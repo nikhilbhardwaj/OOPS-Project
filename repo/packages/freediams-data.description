@@ -1,0 +1,20 @@
+Data for pharmaceutical drugs prescriptor freediams
+	
+freediams prescriber is the result of freemedforms prescriber plugins
+built into a standalone application.  it is developed by medical doctors
+and is intended for use by these same professionals. it can be used
+alone to prescribe and / or test drug interactions within a
+prescription.  it can be linked to any application thanks to its command
+line parameters.
+
+freediams can use multiple drugs database. are currently available:
+drugs database for canada, the usa and for france. only the french
+drugs database allows the calculation of drug interactions through data
+issued from the french governemental afssaps.  work is in progress to
+implement drugs interactions in all drugs databases using the atc drug's
+molecules code.
+
+freediams can be used with gnumed emr, medintux emr and is fully
+integrated in the freemedforms open source emr.
+
+this package contains the architecture independent data.

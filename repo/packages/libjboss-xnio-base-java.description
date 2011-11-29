@@ -1,0 +1,9 @@
+Simplified low-level i/o layer
+	
+xnio is a simplified low-level i/o layer which can be used anywhere you are
+using nio today. it frees you from the hassle of dealing with selectors and
+the lack of nio support for multicast sockets and non-socket i/o such as
+serial ports, while still maintaining all the capabilities present in nio.
+also, xnio vastly simplifies implementation of channels, opening the door to
+supporting higher-level transport concepts (like ssl or virtual channels) with
+the same simple api.

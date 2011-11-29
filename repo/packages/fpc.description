@@ -1,0 +1,16 @@
+Free pascal compiler - meta package
+	
+the free pascal compiler is an object pascal compiler supporting both delphi
+and turbo pascal 7.0 dialects as well as mac pascal dialects.
+it provides a completely portable runtime library (rtl) available on many
+platforms and compatible with turbo pascal, but also a platfrom independent
+class based free component library (fcl) adding many delphi extensions and
+interfacing many popular open source libraries.
+
+some extensions are added to the language, like function overloading. shared
+libraries can be linked and created. delphi language extentions like classes,
+exceptions, ansi strings and open arrays are also supported.
+
+this package contains dependency on all fpc packages provided on your
+architecture. experienced users may want to install only packages they need,
+and can skip installing this metapackage.

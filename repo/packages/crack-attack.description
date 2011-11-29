@@ -1,0 +1,14 @@
+Multiplayer opengl puzzle game like "tetris attack"
+	
+crack attack is an opengl puzzle game similar to the super nintendo
+game "tetris attack".  slowly, your stack of colored blocks grows
+from the bottom, and you've got to make sure it never reaches the
+top. if it does, you lose. to eliminate blocks from the stack, line
+up at least three of one color, horizontally or vertically. once you
+do, those blocks disappear, and put off slightly your inevitable
+demise.
+
+crack attack is very slow without hardware acceleration.  for xorg
+users, this means you want dri.
+
+more information can be found at http://www.nongnu.org/crack-attack/

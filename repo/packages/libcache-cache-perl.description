@@ -1,0 +1,10 @@
+Managed caches of persistent information
+	
+the cache modules are designed to assist a developer in persisting
+data for a specified period of time.  often these modules are used in
+web applications to store data locally to save repeated and redundant
+expensive calls to remote machines or databases.  people have also
+been known to use cache::cache for its straightforward interface in
+sharing data between runs of an application or invocations of a
+cgi-style script or simply as an easy to use abstraction of the
+filesystem or shared memory.

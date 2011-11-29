@@ -1,0 +1,8 @@
+Midi message and file handling
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides data types and functions for handling realtime
+midi messages, reading and writing midi files. it does not provide
+means for sending nor receiving midi messages to specific interfaces.

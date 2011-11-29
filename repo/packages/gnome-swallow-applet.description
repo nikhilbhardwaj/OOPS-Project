@@ -1,0 +1,7 @@
+Meta-applet to embed any application in the gnome panel
+	
+the swallow applet can "eat" any x11 window into the gnome 2 panel.
+the application then displays inside the panel instead of being in a
+window.
+
+its primary goal is to allow use of dockapps with the gnome desktop.

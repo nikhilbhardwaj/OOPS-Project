@@ -1,0 +1,6 @@
+Spellchecking library for python
+	
+pyenchant consists of python bindings to the enchant spellchecking
+library and some wrapper classes. it includes all the functionality
+of enchant in a pythonic object-oriented interface, and also provides
+some higher-level functionality which is not available in the c api.

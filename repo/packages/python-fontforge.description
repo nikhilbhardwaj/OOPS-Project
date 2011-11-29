@@ -1,0 +1,9 @@
+Font editor - python bindings
+	
+besides being a font editor, fontforge is also a font format
+converter, and can convert among postscript (ascii & binary type 1,
+some type 3s, some type 0s), truetype, and opentype (type2),
+cid-keyed, svg, cff and multiple-master fonts.
+
+this package provides the python modules (the libraries fontforge and
+psmat) to access a fontforge program for font manipulations.

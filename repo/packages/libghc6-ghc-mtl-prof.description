@@ -1,0 +1,8 @@
+An mtl compatible version of the ghc-api monads; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+provides an mtl compatible version of the ghct monad-transformer defined in
+the ghc-api since version 6.10.1.

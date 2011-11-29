@@ -1,0 +1,13 @@
+Squirrelmail plugin: force users to use ssl encrypted connections
+	
+this plugin automatically enables a secure https/ssl-encrypted connection for
+the squirrelmail login page if it hasn't already been requested by the
+referring hyperlink or bookmark. optionally, the secure connection can be
+turned off again after successful login.
+
+this utility is intended to prevent passwords and email contents being
+transmitted over the internet in the clear after people browse to the login
+page without including https:// in its address.
+
+squirrelmail is a standards-based webmail package written in php. it runs on
+top of any imap server.

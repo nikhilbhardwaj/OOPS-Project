@@ -1,0 +1,6 @@
+Irda management and handling utilities
+	
+this package contains userspace utilities to manage and handle infrared
+devices. it includes irattach, findchip, irdadump, irdaping and irpsion5.
+obex tools are removed since 0.9.5. if you need to use irobex,
+use openobex-apps package.

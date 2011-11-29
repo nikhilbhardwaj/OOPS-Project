@@ -1,0 +1,8 @@
+Desktop independent vte-based terminal emulator
+	
+lxterminal is a vte-based terminal emulator from lxde project which
+supports multiple tabs. it is completely desktop-independent and does
+not have any unnecessary dependencies.
+
+in order to reduce memory usage and increase the performance,
+all instances of the terminal are sharing a single process.

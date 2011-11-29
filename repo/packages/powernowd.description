@@ -1,0 +1,14 @@
+Control cpu speed and voltage using 2.6 kernel interface
+	
+this simple client controls cpu speed and voltage using the sysfs interface
+to the cpufreq driver in v2.6 linux kernels.  it does not depend on apm or
+acpi, and it doesn't try to do anything other than control the cpu.
+
+the name is somewhat misleading, as any cpufreq capable processor will work,
+not just those from amd.  however, it works better on cpus that support more
+than two speed steps, like those with amd's powernow! or intel's pentium m
+series.
+
+this daemon is less complicated than cpufreqd or cpudyn, at the cost of
+absolutely depending on a 2.6 kernel with the userspace governor and sysfs
+support enabled.

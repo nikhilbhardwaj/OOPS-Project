@@ -1,0 +1,11 @@
+Perl module to load any configuration files
+	
+config::jfdi scans a directory for files matching a certain name. if such a
+file is found, and it matches an extension that config::any can read, then
+the configuration from that file will be loaded. it also looks for special
+files that end with a "_local" suffix, which take precedence over any other
+configuration files. the precedence takes place by merging the local config
+with the standard file using hash::merge::simple (libhash-merge-simple-perl).
+
+essentially, this is an implementation of catalyst::plugin::configloader that
+exists outside of catalyst.

@@ -1,0 +1,20 @@
+Shamir's secret sharing scheme implementation
+	
+implementation of shamir's secret sharing scheme. the program suite
+does both: the generation of shares for a known secret, and the
+reconstruction of a secret using user-provided shares.
+
+shamir's secret sharing scheme allows a secret to be split in to shares.
+these shares can then be distributed to different people. when the time comes
+to retrieve the secret then a preset number of the shares need to be combined.
+the number of shares created, and the number needed to retrieve the secret
+are set at splitting time. the number of shares required to re-create the
+secret can be chosen to be less that the number of shares created, so any
+large enough subset of the shares can retrieve the secret.
+
+this scheme allows a secret to be shared, either to reduce the chances that
+the secret is lost, or to increase the number of parties that must cooperate
+to reveal the secret.
+
+
+ homepage: http://point-at-infinity.org/ssss/

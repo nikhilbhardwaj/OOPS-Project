@@ -1,0 +1,11 @@
+Gnome integration for libopenraw - development files
+	
+libopenraw is an ongoing project to provide a free software implementation for
+camera raw files decoding. one of the main reason is that dcraw is not suited
+for easy integration into applications, and there is a need for an easy to use
+api to build free software digital image processing application.
+
+it also has the goal to address missing feature from dcraw like meta-data
+decoding and easy thumbnail extraction.
+
+this package contains the development header files.

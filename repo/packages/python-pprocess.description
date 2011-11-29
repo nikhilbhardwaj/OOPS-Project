@@ -1,0 +1,7 @@
+Elementary parallel programming for python
+	
+the pprocess module provides elementary support for parallel programming in
+python using a fork-based process creation model in conjunction with a
+channel-based communications model implemented using socketpair and poll. on
+systems with multiple cpus or multicore cpus, processes should take advantage
+of as many cpus or cores as the operating system permits.

@@ -1,0 +1,7 @@
+Aubio external for puredata
+	
+aubio gathers a set of functions for audio signal segmentation and labelling.
+the library contains a phase vocoder, onset and pitch detection functions, a
+beat tracking algorithm and other sound processing utilities.
+
+this package provides puredata objects to use the aubio features.

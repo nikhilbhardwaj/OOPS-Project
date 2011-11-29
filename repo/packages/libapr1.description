@@ -1,0 +1,5 @@
+The apache portable runtime library
+	
+apr is apache's portable runtime library, designed to be a support library
+that provides a predictable and consistent interface to underlying
+platform-specific implementations.

@@ -1,0 +1,7 @@
+Configure the network
+	
+to install additional installer components or the debian base system over
+the network, you need to configure the network in the installer. this
+component will first try to configure your network with dhcp and ask
+you for static network configuration if this fails. the configured
+network settings will be copied to your newly installed system.

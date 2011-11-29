@@ -1,0 +1,14 @@
+Collection of shell utilities in a single executable for mindi/mondo
+	
+this is a custom version of busybox for mindi/mondo only. if you are after
+busybox proper, please get one of the standard debian packages: busybox or
+busybox-static.
+
+busybox combines tiny versions of many common unix utilities into a single
+small executable. it provides minimalist replacements for the most common
+utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+mount, tar, etc.). the utilities in busybox generally have fewer options than
+their full-featured gnu cousins; however, the options that are included
+provide the expected functionality and behave very much like their gnu
+counterparts.
+.

@@ -1,0 +1,12 @@
+Xml parsing c library - development kit (64bit)
+	
+this package contains the header file and development libraries of
+expat, the c library for parsing xml.  expat is a stream oriented xml
+parser.  this means that you register handlers with the parser prior
+to starting the parse.  these handlers are called when the parser
+discovers the associated structures in the document being parsed.  a
+start tag is an example of the kind of structures for which you may
+register handlers.
+
+this package includes the development support files for building 64 bit
+applications.

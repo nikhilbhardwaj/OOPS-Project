@@ -1,0 +1,14 @@
+Simple cvs-like interface for editing mediawiki websites
+	
+this package includes the mvs client and the www::mediawiki::client perl
+library implementing the functionality in mvs. www::mediawiki::client provides
+a very simple cvs-like interface for viewing, staying in sync with, and
+editing pages in websites that run mediawiki software. in particular, the
+software is extremely useful for editing pages in wikipedia or other wikimedia
+websites.
+
+mvs is a command line client whose purpose is to simplify offline editing of
+wiki content.  it allows you to get any number of pages from a given mediawiki
+site, edit the pages with any editor, get and merge any concurrent updates of
+the pages, and then safely commit the users own changes back to the version of
+the page on the server.

@@ -1,0 +1,15 @@
+Olap server written in java
+	
+mondrian is an olap server written in java. it enables to interactively
+analyze very large datasets stored in sql databases without writing sql.
+
+it can be used for :
+
+ * high performance, interactive analysis of large or small volumes of
+   information
+ * "dimensional" exploration of data, for example analyzing sales by product
+   line, by region, by time period
+ * parsing of multi-dimensional expression (mdx) language into structured query
+   language (sql) to retrieve answers to dimensional queries
+ * high-speed queries through the use of aggregate tables in the rdbms
+ * advanced calculations using the calculation expressions of the mdx language

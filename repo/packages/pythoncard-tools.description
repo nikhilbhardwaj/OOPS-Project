@@ -1,0 +1,13 @@
+Wxpython-based gui construction framework (optional development tools)
+	
+pythoncard is a gui construction framework for building cross-platform desktop
+applications on windows, mac os x, and linux, using the python language.  it
+is based on the wxpython bindings for the wxwidgets toolkit (formerly known
+as wxwindows).
+
+this package takes the tools that are part of the pythoncard distribution
+(such as codeeditor and resourceeditor) and makes them available to be called
+from the command-line and from the standard debian menus.  it has been split
+out as a separate package since only developers will need access to the tools
+directly - packages which depend on pythoncard will just import the tool
+modules and use what they need.

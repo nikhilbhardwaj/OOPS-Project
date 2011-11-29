@@ -1,0 +1,15 @@
+Pam module to provide two-factor authentication based on hotp
+	
+use hotp (rfc4226) two-factor authentication with pam.
+
+in addition to a normal password, users are also assigned a 128 bit key and
+arbitrary-length pin number. every time you'd like to login using a otp, you
+calculate a secure hash based on your assigned pin and an increasing counter,
+the result of which is a six character one time password.
+
+while this module could be used in conjunction with many different
+client devices, it was written specifically with android devices in
+mind.  there is companion software which runs on android, so that your
+phone essentially becomes a secureid token.  all you need to do is
+open up the software, type in your pin, and you get back a 6-character
+number that you can use to login to your system.

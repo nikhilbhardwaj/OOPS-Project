@@ -1,0 +1,8 @@
+Embedded innodb library
+	
+embedded innodb is used independently of mysql. it is not a plugin, nor a
+storage engine for mysql. it is designed to be linked directly into
+application programs, and provides highly efficient, low-level database
+management services, not using sql
+
+this package contains the shared library.

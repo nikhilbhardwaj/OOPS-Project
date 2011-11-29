@@ -1,0 +1,10 @@
+Orsa framework library (development files)
+	
+orbit reconstruction, simulation and analysis (orsa) is a framework
+for celestial mechanics investigations. the main goals of the project
+are the implementation of state of the art orbit integration
+algorithms, with concerns on accuracy and performance, and the
+development of a number of analysis tools.
+
+this package contains header files, static libraries and symbolic
+links that developers using the orsa library will need.

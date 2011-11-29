@@ -1,0 +1,15 @@
+Tiny implementation of the secure anycast tunneling protocol
+	
+uanytun is a tiny implementation of satp (secure anycast tunneling
+protocol). unlike anytun which is a full featured implementation
+uanytun has no support for multiple connections or synchronisation.
+it is a small single threaded implementation intended to act as a
+client on small platforms. satp defines a protocol used for
+communication between any combination of unicast and anycast tunnel
+endpoints. it has less protocol overhead than ipsec in tunnel mode
+and allows tunneling of every ether type protocol (e.g. ethernet,
+ip, arp ...). satp directly includes cryptography and message
+authentication based on the methodes used by srtp (secure real-time
+transport protocol). it is intended to deliver a generic,
+scaleable and secure solution for tunneling and relaying of packets
+of any protocol.

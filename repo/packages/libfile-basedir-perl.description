@@ -1,0 +1,7 @@
+Perl module to use the freedesktop basedir specification
+	
+the file::basedir module can be used to find directories and files as
+specified by the xdg base directory specification. it takes care of
+defaults and uses file::spec to make the output platform specific.
+
+for this module the xdg basedir specification 0.6 was used.

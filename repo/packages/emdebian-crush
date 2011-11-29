@@ -1,0 +1,4 @@
+PackageId:3729
+Name:emdebian-crush
+Version:2.2.5.1
+Deps:dpkg-cross,dpkg-dev,emdebian-grip,fakeroot,libconfig-auto-perl,lintian,pdebuild-cross,perl,perl-modules,libio-compress-zlib-perl,libio-compress-perl,realpath,sudo,sudo-ldap

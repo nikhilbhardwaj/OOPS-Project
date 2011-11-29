@@ -1,0 +1,10 @@
+Complete wrapper for the google chart api
+	
+google chart api is an extremely simple tool that lets you easily create a
+chart from some data. you embed the data and formatting parameters in an http
+request, and google returns a png image of the chart.
+
+this package contains a python wrapper for those api.
+
+for a complete api documentation please refer to google page:
+http://code.google.com/apis/chart/ .

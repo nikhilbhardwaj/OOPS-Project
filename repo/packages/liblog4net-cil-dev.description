@@ -1,0 +1,13 @@
+Highly configurable logging api for the cli
+	
+log4net is a tool to help the programmer output log statements to a variety
+of output targets. log4net is a port of the excellent log4j framework to the
+common language infrastructure (cli). the framework is similar to the
+original log4j as possible while taking advantage of new features in the
+cli runtime. for more information on log4net see the features document.
+
+log4net is part of the apache logging services project. the logging
+services project is intended to provide cross-language logging
+services for purposes of application debugging and auditing.
+
+this package contains development headers for the log4net library

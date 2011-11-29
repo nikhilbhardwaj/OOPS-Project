@@ -1,0 +1,7 @@
+Ax25 library development files
+	
+this library is used for applications that use the ax25 protocol.
+included are routines to do ax25 address parsing, common ax25
+application config file parsing, etc.  this development library
+package includes some man pages and include files for compiling
+applications which use libax25.

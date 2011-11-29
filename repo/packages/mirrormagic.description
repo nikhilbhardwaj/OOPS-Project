@@ -1,0 +1,14 @@
+Shoot around obstacles to collect energy using your beam.
+	
+a game like "deflektor" (c 64) or "mindbender" (amiga).
+the goal is to work out how to get around obstacles to shoot
+energy containers with your beam, enabling the path to the
+next level to be opened. included are many levels known from
+the games "deflektor" and "mindbender".
+
+some features:
+
+       - stereo sound effects and music
+       - music module support for sdl version (unix/win32)
+       - fullscreen support for sdl version (unix/win32)
+       - complete source code included under gnu gpl

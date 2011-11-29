@@ -1,0 +1,14 @@
+A python binding of scilab
+	
+sciscipy provides a python api to map scilab features.
+three main methods are available:
+
+ * sciscipy.eval(sci_cmd)
+ * sciscipy.read(sci_var_name)
+ * sciscipy.write(sci_var_name, py_var_name)
+
+
+also, to increase the level of enjoyment, a python module
+called scilab is also provided. this package contains a
+class 'scilab' that can be used to issue any valid scilab
+function.

@@ -1,0 +1,14 @@
+Biological sequence file format conversion applet for gnustep
+	
+demo application to demonstrate the possibilities of the biococoa framework.
+
+this package contains a gnustep applet to convert between sequence file
+formats. the biococoa framework provides developers with the opportunity to
+add support for reading and writing beast, clustal, embl, fasta, gcg-msf, gde,
+hennig86, ncbi, nexus, nona, pdb, phylip, pir, plain/raw, swiss-prot and tnt
+files by writing only three lines of code. the framework is written in cocoa
+(objective-c).
+
+version 1.6 is the last upstream version that works with gnustep.  if
+newer versions are needed to work under linux try to convince upstream to
+support gnustep.

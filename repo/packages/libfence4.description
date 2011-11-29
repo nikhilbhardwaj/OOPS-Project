@@ -1,0 +1,8 @@
+Red hat cluster suite - fence client library
+	
+this package is part of the red hat cluster suite, a complete
+high-availability solution.
+
+fenced is the daemon in charge of controlling cluster node fencing.
+
+this is the client library for requesting node fencing.

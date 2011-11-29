@@ -1,0 +1,8 @@
+Test framework for tcp client libraries using poe
+	
+test::poe::server::tcp is a perl object environment (poe, see libpoe-perl)
+component that provides a tcp server framework for inclusion in your client
+module's test cases. once registered, a session will receive events related
+to client connections, disconnections, input and any flushed output. it will
+also get a unique client identifier which may be used in communication with
+the client component when sending data to the client or ending a connection.

@@ -1,0 +1,23 @@
+Java widget toolbox for other look-and-feel libraries
+	
+laf-widget project provide support for and base set of
+additional behaviour and widgets in look-and-feels libraries.
+
+the list of currently provided widgets:
+
+ * auto-completion (model-based / free-text) on editable combo boxes.
+ * hover preview of minimized internal frames on desktop icons.
+ * menu search panel on menu bars.
+ * hover preview of tab in tabbed panes.
+ * overview dialog on tabbed panes with optional periodic refresh.
+ * tab paging on tabbed panes.
+ * password strength checker on password fields.
+ * lock border on non-editable text components and model editable combobox.
+ * select all text in text component on focus gain.
+ * context menu on text components with edit actions (copy / paste / cut ...).
+ * enhanced drag-and-drop support for trees.
+ * scroll pane selector.
+ * selecting / deselecting in text components on escape key press.
+
+
+laf-widget is used by substance look-and-feel since 3.0

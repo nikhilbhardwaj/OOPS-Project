@@ -1,0 +1,8 @@
+The speex codec runtime library
+	
+speex is an audio codec especially designed for compressing voice at low
+bit-rates for applications such as voice over ip (voip). in some senses,
+it is meant to be complementary to the vorbis codec which places a greater
+emphasis on high-quality music reproduction.
+
+this package provides the speex runtime library.

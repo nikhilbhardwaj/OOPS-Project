@@ -1,0 +1,10 @@
+Perl module to pluralize english words
+	
+lingua::en::inflect is a perl module which can pluralize words in english. it
+handles the special cases, and support nouns, verbs, and adjectives. it can
+also pick between "a" and "an" based on pronunciation of a word and compare
+words in a "number-insensitive" manner.
+
+lingua::en::inflect follows the oxford english dictionary and the guidelines
+in fowler's modern english usage, preferring the former where they disagree.
+both british and american english are supported.

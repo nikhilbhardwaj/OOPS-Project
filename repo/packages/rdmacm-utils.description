@@ -1,0 +1,17 @@
+Examples for the librdmacm library
+	
+librdmacm is a library that allows applications to set up reliable
+connected and unreliable datagram transfers when using rdma adapters.
+it provides a transport-neutral interface in the sense that the same
+code can be used for both infiniband and iwarp adapters.  the
+interface is based on sockets, but adapted for queue pair (qp) based
+semantics: communication must use a specific rdma device, and data
+transfers are message-based.
+
+librdmacm only provides communication management (connection setup
+and tear-down) and works in conjunction with the verbs interface
+provided by libibverbs, which provides the interface used to actually
+transfer data.
+
+this package contains useful librdmacm1 example programs such as
+rping and udaddy.

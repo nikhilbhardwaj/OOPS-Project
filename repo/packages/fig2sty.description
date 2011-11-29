@@ -1,0 +1,8 @@
+Latex layout generator based on xfig
+	
+fig2sty allows you to generate fancy layouts with latex.  the basic idea
+is to draw layout definitions interactively with xfig and transform this
+definition to a latex style file. you can then use latex to typeset your
+text into arbitrarily shaped polygons (frames) within the layout.
+
+this package also provides a perl module (xfig.pm) to parse xfig files.

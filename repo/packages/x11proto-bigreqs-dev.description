@@ -1,0 +1,8 @@
+X11 big requests extension wire protocol
+	
+this package provides the wire protocol for the big-requests extension, used to
+send larger requests than usual in order to avoid fragmentation.
+
+more information about x.org can be found at:
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>

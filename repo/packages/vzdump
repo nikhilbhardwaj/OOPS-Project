@@ -1,0 +1,4 @@
+PackageId:34092
+Name:vzdump
+Version:1.2.6-1
+Deps:cstream,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,liblockfile-simple-perl,perl,rsync,vzctl

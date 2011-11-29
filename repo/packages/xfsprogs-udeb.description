@@ -1,0 +1,7 @@
+A stripped-down version of xfsprogs, for debian-installer
+	
+this package is an xfsprogs package built for reduced size, so that it
+can help to save space in debian-installer.
+
+don't attempt to install this package, it has no support for a couple of
+features you surely want.  anyway, it should fail to install.

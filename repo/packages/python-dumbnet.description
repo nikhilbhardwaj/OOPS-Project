@@ -1,0 +1,16 @@
+A dumb, portable networking library -- python bindings
+	
+libdumbnet provides a simplified, portable interface to several low-level
+networking routines, including
+
+  * network address manipulation
+  * kernel arp(4) cache and route(4) table lookup and manipulation
+  * network firewalling (ip filter, ipfw, ipchains, pdf, ...)
+  * network interface lookup and manipulation
+  * raw ip packet and ethernet frame transmission
+
+
+libdumbnet is known as libdnet in other distributions, but was renamed
+in debian in favour of the older decnet library 'libdnet'.
+
+this package contains the corresponding 'dumbnet' python module.

@@ -1,0 +1,15 @@
+Grsecurity kernel patch
+	
+this patch provides enhanced security to the linux kernel. it includes a
+robust acl system, extensive auditing capabilities and measures to stop
+the most common methods of exploiting a system. these include limited
+chroot(), fork() rate limiting, various network limiting and randomizing
+options, memory page protection on i386, sparc, sparc64, alpha, parisc,
+amd64, ia64, and ppc, restricting mprotect(), random pids, and much more.
+
+this patch conflicts with the lsm patch, they both change the same things
+so the patches can't both apply.
+
+furthermore, 2.4.2x versions of this patch will not apply to debian kernels
+2.4.20 and above. you will have to use vanilla kernel sources to apply this
+patch. reasons are documented in readme.2.4.2x contained within the package.

@@ -1,0 +1,14 @@
+Openide utility library
+	
+openide util is a collection of miscellaneous libraries from netbeans, a
+powerful ide for many languages. some of the capabilities are:
+
+ * register and then lookup instances of services;
+ * manage pools of thread workers, in order to do asynchronous
+   computations;
+ * provide enhanced support for manipulation of enumeration objects;
+ * other tools, mainly related with netbeans software.
+
+
+these libraries are independently packaged in order to be used by other
+independent software as well.

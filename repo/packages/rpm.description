@@ -1,0 +1,9 @@
+Package manager for rpm
+	
+the rpm package manager (rpm) is a command-line driven package
+management system capable of installing, uninstalling, verifying,
+querying, and updating computer software packages.
+
+on debian and derived systems it is recommended to use "alien" to
+convert rpm packages into .deb format instead of bypassing the debian
+package management system by installing them directly with rpm.

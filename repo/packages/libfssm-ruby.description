@@ -1,0 +1,8 @@
+Keeps track via inotify the state paths and fires events when state changes
+	
+the file system state monitor keeps track of the state of any number
+of paths and will fire events when said state changes
+(create/update/delete). fssm supports using inotify on gnu/linux
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8).

@@ -1,0 +1,8 @@
+Python bindings for liblouis
+	
+liblouis is a braille translator and back-translator.  it features support for
+computer and literary braille, supports contracted and uncontracted translation
+for many languages and has support for hyphenation.  liblouis also supports
+math braille (nemeth and marburg).
+
+this package contains python bindings.

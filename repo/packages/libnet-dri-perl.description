@@ -1,0 +1,8 @@
+Interface to domain name registries/registrars/resellers
+	
+net::dri is a perl library to access services offered by domain name
+providers, such as registries or registrars. dri stands for domain
+registration interface and it aims to be for domain name
+registries/registrars/resellers what dbi is for databases: an abstraction
+over multiple providers, with multiple policies, transports and protocols all
+used through a uniform api.

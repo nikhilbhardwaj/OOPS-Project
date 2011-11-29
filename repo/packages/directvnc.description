@@ -1,0 +1,7 @@
+Vnc client using the framebuffer as display
+	
+directvnc is a client implementing the remote framebuffer protocol (rfb)
+which is used by vnc servers. if a vnc server is running on a machine you
+can connect to it using this client and have the contents of its display
+shown on your screen. keyboard and mouse events are sent to the server, so
+you can basically control a vnc server remotely.

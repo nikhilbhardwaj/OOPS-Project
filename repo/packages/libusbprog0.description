@@ -1,0 +1,12 @@
+Library for programming the usbprog hardware
+	
+a programming tool needed to replace the firmware on the usbprog
+hardware. it can automatically retrieve a list of available firmwares from
+the internet, download one of them and upload it to the usbprog adapter.
+
+usbprog is a free programming adapter. you can easily install different
+firmware versions from an "online pool" over usb. the adapter can be used
+for programming and debugging avr and arm processors, as usb-to-rs232
+converter, as jtag interface or as simple i/o interface (5 lines).
+
+this package contains the libusbprog shared library.

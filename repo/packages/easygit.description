@@ -1,0 +1,15 @@
+Git for mere mortals
+	
+in short, easy git is a single-file wrapper script for git, designed
+to make git easy to learn and use.
+
+features:
+
+    * eg focuses on documentation and examples
+    * eg removes many principle-of-least-surprise violations that
+      catch git newbies unaware
+    * eg provides subcommands that are a natural extension of
+      capabilities users know from cvs/svn (eg also takes care to
+      make sure the modifications to its subcommands are easily
+      discoverable and error-avoiding for existing git users as
+      well!)

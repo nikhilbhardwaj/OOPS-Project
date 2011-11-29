@@ -1,0 +1,33 @@
+Non-free syriac opentype fonts from xfree86
+	
+meltho mollection of syriac opentype fonts originally part of the
+xfree86 distribution, but which are licensed under terms
+incompatible with the debian free software guidelines, and thus cannot
+be distributed as part of debian.
+
+the fonts are:
+
+ - beth mardutho east syriac adiabene
+ - beth mardutho east syriac ctesiphon
+ - beth mardutho estrangelo antioch
+ - beth mardutho estrangelo edessa
+ - beth mardutho estrangelo midyat
+ - beth mardutho estrangelo nisibin
+ - beth mardutho estrangelo nisibin outline
+ - beth mardutho estrangelo quenneshrin
+ - beth mardutho estrangelo talada
+ - beth mardutho estrangelo turabdin
+ - beth mardutho serto batnan
+ - beth mardutho serto jerusalem
+ - beth mardutho serto jerusalem outline
+ - beth mardutho serto kharput
+ - beth mardutho serto malankara
+ - beth mardutho serto mardin
+ - beth mardutho serto urhoy
+
+
+read /usr/share/doc/ttf-xfree86-nonfree-syriac/readme.debian for
+instructions on how to register these fonts with xfree86.
+
+other non-free fonts are in the separate packages ttf-xfree86-nonfree
+and t1-xfree86-nonfree.

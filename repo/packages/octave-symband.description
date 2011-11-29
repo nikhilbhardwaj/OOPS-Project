@@ -1,0 +1,9 @@
+Symmetric banded matrices for octave
+	
+this package deals with linear algebra for symmetric banded matrices
+in octave, a scientific computation software.  it contains functions
+for solving a system of linear equations, find a few of the smallest
+eigenvalues and eigenvectors, multiply symmetric banded matrix with
+full matrix, among others.
+
+this octave add-on package is part of the octave-forge project.

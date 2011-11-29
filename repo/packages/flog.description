@@ -1,0 +1,4 @@
+Dump stdin to file and reopen on sighup
+	
+flog (file logger) reads input from stdin and writes to a file. when a sighup
+is received, the file will be reopened, allowing for log rotation.

@@ -1,0 +1,9 @@
+Autoforward module for horde framework
+	
+forwards is the horde module for setting user e-mail forwards
+via the forward mechanism supported by several popular mailers.
+
+forwards provides fairly complete support for setting .forward
+style forwards on sendmail, courier, or qmail mail based systems
+via an ftp transport. it also has drivers for mdaemon, exim sql,
+exim ldap, custom sql, and soap based systems.

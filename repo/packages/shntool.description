@@ -1,0 +1,14 @@
+Multi-purpose tool for manipulating and analyzing wav files
+	
+shntool is a multi-purpose wave data processing and reporting utility.
+file formats are abstracted from its core, so it can process any file
+that contains wave data, compressed or not - provided there exists a
+format module to handle that particular file type.
+
+shntool has native support for .wav files. if you want it to work with
+other formats, you must have the appropriate helper program installed.
+some of these helper programs - notably for monkey's audio, wavpack, lpac,
+optimfrog - are not (yet) available in debian.
+
+with the helper programs mentioned above, shntool is able to convert files
+between all supported formats.

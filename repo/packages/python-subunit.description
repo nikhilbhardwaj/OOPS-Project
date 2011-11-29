@@ -1,0 +1,7 @@
+Unit testing protocol - python bindings to generate and consume subunit streams
+	
+subunit is a protocol for test activity serialisation deserialisation. this
+permits executing tests remotely, or saving the result of test runs for later
+introspection.
+
+the python-subunit package includes the python language bindings.

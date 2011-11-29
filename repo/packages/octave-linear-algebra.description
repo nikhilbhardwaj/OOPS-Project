@@ -1,0 +1,10 @@
+Additional linear-algebra functions for octave
+	
+this package provides additional functions to work on linear algebra
+code in octave, a numerical computation software. this package
+includies general singular value methods to factorize a matrix
+(bicg), function to calculate the condition numbers of eigenvalues of
+a matrix (condeig), a matrix equivelant of the octave function name
+(funm) and trigonometric/hyperbolic functions for square matrixes.
+
+this octave add-on package is part of the octave-forge project.

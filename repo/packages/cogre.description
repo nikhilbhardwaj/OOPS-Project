@@ -1,0 +1,9 @@
+Connected graph editor
+	
+cogre, pronounced like cougar, is an interface to managing connected
+graphs, such as uml class diagrams.  it can display simple graphs,
+and uml class diagrams. it can generate simple class diagrams from
+sources using semantic.
+
+cogre is now a part of cedet (collection of emacs development
+environment tools).

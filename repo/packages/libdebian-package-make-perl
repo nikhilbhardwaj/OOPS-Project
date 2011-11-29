@@ -1,0 +1,4 @@
+PackageId:11494
+Name:libdebian-package-make-perl
+Version:0.04
+Deps:dpkg-dev,fakeroot,libfile-copy-recursive-perl,libipc-run3-perl,libwww-perl,perl

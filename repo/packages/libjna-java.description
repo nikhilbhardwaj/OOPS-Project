@@ -1,0 +1,16 @@
+Dynamic access of native libraries from java without jni
+	
+jna provides java programs easy access to native shared libraries without
+writing anything but java code - no jni or native code is required. this
+functionality is comparable to windows' platform/invoke and python's ctypes.
+access is dynamic at runtime without code generation.
+
+jna's design aims to provide native access in a natural way with a minimum of
+effort. no boilerplate or generated code is required. while some attention is
+paid to performance, correctness and ease of use take priority.
+
+the jna library uses a small native library stub to dynamically invoke native
+code. the developer uses a java interface to describe functions and structures
+in the target native library. this makes it quite easy to take advantage of
+native platform features without incurring the high overhead of configuring and
+building jni code for multiple platforms.

@@ -1,0 +1,8 @@
+Prepares hibernation partition for phoenix notebios
+	
+this utility prepares and formats the hibernation partition for
+notebook computers that use phoenix notebios. once this partition
+has been prepared, it can be used with the bios's apm suspend-to-disk
+feature. laptops that can make use of a hibernation partition include
+several armnotes, the dell inspiron 5000, sony vaios, and many
+tuxtops laptops.

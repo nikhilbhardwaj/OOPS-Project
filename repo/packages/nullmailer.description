@@ -1,0 +1,8 @@
+Simple relay-only mail transport agent
+	
+nullmailer is a replacement mta for hosts, which relay to a fixed set of
+smart relays. it is designed to be simple to configure and especially
+useful on slave machines and in chroots.
+
+the sendmail interface of this package doesn't provide the -bs switch,
+hence it's not lsb compatible!

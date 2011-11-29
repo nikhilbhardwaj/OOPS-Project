@@ -1,0 +1,7 @@
+Emacs-lisp pyrex-mode for pyrex
+	
+pyrex lets you write code that mixes python and c data types any way you want,
+and compiles it into a c extension for python.
+
+this emacs mode is derived from the python language mode, python-mode,
+and provides syntax highlighting for pyrex scripts.

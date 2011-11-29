@@ -1,0 +1,5 @@
+Header file and link for the gambit-c shared library
+	
+the package includes gambit.h and the gambit.so link.  libgambit.a is
+not required on debian because libgambc is only linked using the gsc
+compiler.

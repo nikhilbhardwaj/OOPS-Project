@@ -1,0 +1,7 @@
+Multi-protocol instant messaging client - development files
+	
+this package contains the headers and other development files not included in
+the main pidgin package. install this if you wish to compile your own plugins.
+
+if you are creating a pidgin plugin package, please be sure to read
+/usr/share/doc/pidgin-dev/readme.debian.dev after installing pidgin-dev.

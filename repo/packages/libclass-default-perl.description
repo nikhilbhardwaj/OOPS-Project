@@ -1,0 +1,12 @@
+Perl module to make static calls apply to a default instantiation
+	
+class::default provides a mechanism to allow your class to take static method
+calls and apply it to a default instantiation of an object. it provides a
+flexibility to an api that allows it to be used more comfortably in
+different situations.
+
+this technique appears to be especially useful when writing modules that you
+want to be used in either a single use or a persistent environment. in a cgi
+like environment, you want the simplicity of a static interface. you can
+call class->method directly, without having to pass an instantiation
+around constantly.

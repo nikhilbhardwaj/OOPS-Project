@@ -1,0 +1,20 @@
+Fast 48k zx spectrum emulator for svgalib
+	
+vgaspect is the svgalib version of spectemu which emulates the 48k zx
+spectrum, which uses the z80 microprocessor.
+
+it emulates the z80 processor as well as the 48k spectrum's other
+hardware: keyboard, screen, sound, tape i/o. the emulation is very
+close to the real thing, but it is still quite fast (it was reported
+to be working well on a laptop with 486 at 25mhz!). on the other hand,
+the user interface is not the best.
+
+features include:
+
+   - sound support through linux kernel sound-card driver.
+   - snapshot saving and loading (.z80 and .sna format)
+   - tape emulation: loading from tape files (.tap and .tzx format)
+   - optional quick loading of tapes.
+   - saving to tape files.
+   - separate utility to save tape files to real tape
+   - configurable with config files and from command line

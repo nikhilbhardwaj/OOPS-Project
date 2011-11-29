@@ -1,0 +1,4 @@
+PackageId:25884
+Name:ocsinventory-agent
+Version:2:1.1.1-2.3
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libcompress-zlib-perl,libio-compress-perl,perl,libnet-ip-perl,libnet-ssleay-perl,libproc-daemon-perl,libwww-perl,libxml-simple-perl,po-debconf,ucf

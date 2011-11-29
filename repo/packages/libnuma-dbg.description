@@ -1,0 +1,5 @@
+Debug package for libnuma
+	
+library to control specific numa (non-uniform memory architecture)
+scheduling or memory placement policies.  this package contains
+headers and manual pages relating to the library.

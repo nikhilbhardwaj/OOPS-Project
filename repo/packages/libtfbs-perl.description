@@ -1,0 +1,13 @@
+Scanning dna sequence with a position weight matrix
+	
+the tfbs perl modules comprise a set of routines to interact with the
+transfac and jaspar databases that describe a special family of proteins,
+the transcription factors. these bind to genomic dna to initiate (or
+prevent) the readout of a gene.  once multiple binding sites are known
+for a transcription factor, these are gathered in a single file and are
+aligned in order to find position-specific characteristica that might
+be used to predict such binding events in novel dna sequences.
+
+if you use tfbs in your work, please cite "lenhard b., wasserman w.w. (2002)
+tfbs: computational framework for transcription factor binding site analysis.
+bioinformatics 18:1135-1136".

@@ -1,0 +1,6 @@
+Qt4 interface bindings
+	
+provides interface for pascal applications
+to the qt4 c++ libraries.
+this binding does not cover the whole qt4 framework, it
+just contains all classes needed to use qt as a widgetset.

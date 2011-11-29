@@ -1,0 +1,11 @@
+Central login server for webauth authentication
+	
+webauth is a cookie-based web authentication system built on top of
+kerberos.  it relies on a central authentication server that handles all
+user authentication for a domain and creates user authentication
+credentials for any web server that needs strong authentication.
+
+this package contains the cgi-based weblogin server that handles initial
+user authentication and building authentication tokens for webauth
+servers.  only one weblogin server is needed to support a site webauth
+installation.  it is normally run on the same system as the webkdc.

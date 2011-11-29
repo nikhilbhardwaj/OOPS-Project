@@ -1,0 +1,4 @@
+PackageId:3731
+Name:emdebian-grip-server
+Version:2.2.7+i18n
+Deps:debhelper,devscripts,dpkg-dev,edos-debcheck,edos-distcheck,emdebian-grip,emdebian-tdeb,libdebian-packages-compare-perl,liblocale-gettext-perl,libwww-perl,perl,reprepro

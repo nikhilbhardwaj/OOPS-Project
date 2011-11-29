@@ -1,0 +1,25 @@
+Maven build rule execution framework
+	
+enforcer is a maven build rule execution framework.
+maven enforcer plugin provides goals to control certain environmental
+constraints such as maven version, jdk version and os family along with many
+more standard rules:
+
+ * alwayspass - always passes... used to test plugin configuration.
+ * alwaysfail - always fail... used to test plugin configuration.
+ * banneddependencies - enforces that excluded dependencies aren't included.
+ * evaluatebeanshell - evaluates a beanshell script.
+ * requirereleasedeps - enforces that no snapshots are included as
+   dependencies.
+ * requirereleaseversion - enforces that the artifact is not a snapshot.
+ * requiremavenversion - enforces the maven version.
+ * requirejavaversion - enforces the jdk version.
+ * requireos - enforces the os / cpu archictecture.
+ * requirepluginversions - enforces that all plugins have a specified version.
+ * requireproperty - enforces the existence and values of properties.
+ * requirefilesdontexist - enforces that the list of files do not exist.
+ * requirefilesexist - enforces that the list of files do exist.
+ * requirefilessize - enforces that the list of files exist and are within a
+   certain size range.
+
+custom rules are easy to make with the maven-enforcer-rule-api.

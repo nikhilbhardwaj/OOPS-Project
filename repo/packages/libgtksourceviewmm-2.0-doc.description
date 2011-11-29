@@ -1,0 +1,10 @@
+C++ binding of gtksourceview
+	
+gtksourceviewmm is a c++ binding of gtksourceview, an extension to
+the text widget included in gtk+ 2.x adding syntax highlighting and
+other features typical for a source file editor.
+
+gtksourceviewmm is crafted to integrate well into applications using
+the gtkmm framework.
+
+these are the reference documentation for libgtksourceviewmm.

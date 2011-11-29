@@ -1,0 +1,9 @@
+Conversion utilities for qt3 development
+	
+this package contains some older qt tools (namely qt20fix qtrename140,
+qm2ts, mergetr, findtr and msg2qm). these tools are needed only by
+application developers who need to migrate any qt application written
+for qt 1.x or 2.x over to qt 3.x. the purpose of the tools are to
+help fixing the changes with include file renaming as well as migrating
+the message file format of qt 2 translation files or any gettext-based
+translation system to the qt 3 system.

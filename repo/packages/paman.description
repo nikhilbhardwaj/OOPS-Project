@@ -1,0 +1,10 @@
+Pulseaudio manager
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+pulseaudio manager (paman) is a simple gtk frontend for the pulseaudio
+sound server. with paman you may browse most of pulseaudio's internals.
+there is support for changing the volume of sinks and sink inputs. you're
+also able to play samples from the sample cache.

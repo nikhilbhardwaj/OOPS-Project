@@ -1,0 +1,16 @@
+An automated theorem prover for first-order logic with equality
+	
+spass is a saturation-based automated theorem prover for first-order logic with
+equality.  it is unique due to the combination of the superposition calculus
+with specific inference/reduction rules for sorts (types) and a splitting rule
+for case analysis motivated by the beta-rule of analytic tableaux and the case
+analysis employed in the davis-putnam procedure.  furthermore, spass provides a
+sophisticated clause normal form translation.
+
+this package consists of the spass/flotter binary, documentation, and a small
+example collection.  the tools collections contain the proof checker pcs, the
+syntax translators dfg2otter and dfg2tptp, and the ascii pretty printer
+dfg2ascii.
+
+for more information, additional and partly huge example collections, consider
+the project homepage at http://spass.mpi-sb.mpg.de/.

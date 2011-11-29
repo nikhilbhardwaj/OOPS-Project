@@ -1,0 +1,19 @@
+Tool to work with series of patches
+	
+quilt manages a series of patches by keeping track of the changes
+each of them makes. they are logically organized as a stack, and you can
+apply, un-apply, refresh them easily by traveling into the stack (push/pop).
+
+quilt is good for managing additional patches applied to a package received
+as a tarball or maintained in another version control system. the stacked
+organization is proven to be efficient for the management of very large patch
+sets (more than hundred patches). as matter of fact, it was designed by and
+for linux kernel hackers (andrew morton, from the -mm  branch, is the
+original author), and its main use by the current upstream maintainer is to
+manage the (hundreds of) patches against the kernel made for the suse
+distribution.
+
+this package provides seamless integration into debhelper or cdbs,
+allowing maintainers to easily add a quilt-based patch management system in
+their packages. the package also provides some basic support for those not
+using those tools. see readme.debian for more information.

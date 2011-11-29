@@ -1,0 +1,12 @@
+Debugging symbols for the gecko engine library
+	
+this library provides an  api for xul applications and gecko embedders.
+the gecko engine is the core of the mozilla.org applications such as
+firefox, thunderbird or seamonkey.
+
+gecko features include xpcom, networking, dom editing and transaction
+support, xbl, xul, svg, xslt, xml extras (xmlhttprequest and domparser),
+web services (soap), accessibility support, ipc services, gtkmozembed, etc.
+
+this package provides the debugging symbols for the xulrunner-1.9.1
+package.

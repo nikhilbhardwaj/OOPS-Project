@@ -1,0 +1,4 @@
+PackageId:25390
+Name:network-config
+Version:0.2-1
+Deps:gksu,iptables,libglib-perl,libgtk2-perl,perl,wireless-tools,wpasupplicant

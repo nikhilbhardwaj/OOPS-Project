@@ -1,0 +1,13 @@
+Yet another web programming framework for python - docs
+	
+the module package pyweblib consists of several submodules:
+
+
+  * pyweblib.forms        class library for handling <form> input
+  * pyweblib.session      server-side web session handling
+  * pyweblib.helper       misc. stuff useful in cgi-bins
+  * pyweblib.sslenv       retrieves ssl-related env vars
+  * pyweblib.httphelper   very basic http functions
+
+
+this package contains documentation and a few example scripts.

@@ -1,0 +1,10 @@
+Extra dictionary files for skk
+	
+this package provides various dictionary files, such as `skk-jisyo.zipcode',
+`skk-jisyo.fullname', `skk-jisyo.law', `skk-jisyo.m', `skk-jisyo.s', and
+so on, except the large size dictionary file `skk-jisyo.l' provided by
+the skkdic package, for skk japanese input systems.
+
+to merge or edit dictionaries, install the skktools package.  to use
+dictionaries more conveniently, several skk dictionary servers are
+available, such as dbskkd-cdb and skksearch.

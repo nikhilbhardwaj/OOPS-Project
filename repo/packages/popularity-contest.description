@@ -1,0 +1,10 @@
+Vote for your favourite packages automatically
+	
+the popularity-contest package sets up a cron job that will
+periodically anonymously submit to the debian developers
+statistics about the most used debian packages on this system.
+
+this information helps debian making decisions such as which packages
+should go on the first cd. it also lets debian improve future versions
+of the distribution so that the most popular packages are the ones which
+are installed automatically for new users.

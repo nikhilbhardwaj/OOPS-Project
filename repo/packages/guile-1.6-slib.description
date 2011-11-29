@@ -1,0 +1,6 @@
+Guile slib support
+	
+slib is a portable scheme library meant to provide compatibility and
+utility functions for all standard scheme implementations.  once this
+package is installed slib should be available within guile via
+(use-modules (ice-9 slib)).

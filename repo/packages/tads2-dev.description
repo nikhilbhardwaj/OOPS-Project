@@ -1,0 +1,10 @@
+Tads version 2 development tools
+	
+tads is the text adventure development system, a set of tools for writing
+and playing text-based adventure games.  you interface with these games by
+entering commands in english, and the game responds with a textual
+description of the result.
+
+this package contains a compiler which produces machine-independent tads
+version 2 game files, as well as the standard tads 2 library.  the input
+language is an object-oriented high-level language similar to c or c++.

@@ -1,0 +1,7 @@
+Gtk+ frontend for xneur keyboard layout switcher
+	
+gxneur runs in system tray and shows xneur's state. it also allows to configure
+xneur via gui dialog.
+
+xneur is an in-place converter of text typed in with a wrong keyboard layout.
+see xneur package for more info.

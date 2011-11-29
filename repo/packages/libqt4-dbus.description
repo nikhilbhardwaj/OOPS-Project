@@ -1,0 +1,11 @@
+Qt 4 d-bus module
+	
+qt is a cross-platform c++ application framework. qt's primary feature
+is its rich set of widgets that provide standard gui functionality.
+
+the qtdbus module is a unix-only library that you can use to make inter-process
+communication using the d-bus protocol.
+
+applications using the qtdbus module can provide services to other, remote
+applications by exporting objects, as well as use services exported by those
+applications by placing calls and accessing properties.

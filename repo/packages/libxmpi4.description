@@ -1,0 +1,8 @@
+A graphical user interface for mpi program development
+	
+mpi is a standard for writing parallel processing programs using
+a well defined message passing interface.
+
+this package provides the shared library required for any programs
+using the xmpi protocol to graphically analyze mpi programs, most
+notably the xmpi program supplied in a separate package.

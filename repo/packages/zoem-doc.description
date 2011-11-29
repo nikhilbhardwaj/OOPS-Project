@@ -1,0 +1,10 @@
+Documentation for zoem
+	
+zoem is a general-purpose macro/programming language for transforming
+text. portable unix documentation or pud is a set of two
+mini-languages built on top of zoem. the languages are for writing
+unix manual pages and faq documents with output formats supported in
+troff and html.
+
+this is the zoem user manual, a couple of zoem examples, as well as
+documentation for the zoem macro packages for generating faqs and manpages.

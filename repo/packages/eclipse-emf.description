@@ -1,0 +1,8 @@
+Eclipse modeling framework (emf)
+	
+the eclipse modeling framework (emf) allows developers to build tools and
+other applications based on a structured data model. from a model
+specification described in xmi, emf provides tools and runtime support to
+produce a set of java classes for the model, along with a set of adapter
+classes that enable viewing and command-based editing of the model, and a
+basic editor.

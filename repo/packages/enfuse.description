@@ -1,0 +1,16 @@
+Image exposure blending tool
+	
+enfuse blends differently exposed images of the same scene into a nice output
+image, without producing intermediate hdr images that are then tonemapped to a
+viewable image. this simplified process often works much better and quicker
+than the currently known tonemapping algorithms.
+
+the exposure blending is done using the mertens-kautz-van reeth exposure
+fusion algorithm. the basic idea is that pixels in the input images are
+weighted according to qualities such as proper exposure, good contrast, and
+high saturation. these weights determine how much a given pixel will
+contribute to the final image.
+
+enfuse does not align images for you. use a tool like hugin or panotools to do
+this. the tiffs produced by these programs are exactly what enfuse is designed
+to work with.

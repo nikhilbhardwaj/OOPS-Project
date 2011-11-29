@@ -1,0 +1,7 @@
+Odbc libraries for unix (development files)
+	
+this package contains the development files (headers and libraries) for
+unixodbc, an implementation of the open database connectivity interface
+for unix systems.  you should not need to install this package unless
+you intend to develop c language applications which use odbc, or to
+compile odbc-using applications from source.

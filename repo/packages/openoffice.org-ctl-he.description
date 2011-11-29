@@ -1,0 +1,7 @@
+Turns on ctl support, & sets hebrew as the default ctl locale
+	
+this package installs an openoffice.org extension which turns on complex text
+layout (ctl) support, and sets hebrew as the default ctl language.
+
+the user can overwrite these settings by changing them in the tools -> options
+-> language settings menu.

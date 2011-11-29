@@ -1,0 +1,9 @@
+Network management framework (vpnc plugin gnome gui)
+	
+networkmanager attempts to keep an active network connection available at
+all times.  it is intended primarily for laptops where it allows easy
+switching betwen local wireless networks, it's also useful on desktops
+with a selection of different interfaces to use.  it is not intended for
+usage on servers.
+
+this package provides the gnome bits of networkmanager's vpnc plugin.

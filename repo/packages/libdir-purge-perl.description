@@ -1,0 +1,5 @@
+Purge directories to a given number of files
+	
+dir::purge implements functions to reduce the number of files in a
+directory according to a strategy. it currently provides one strategy:
+removal of files by age.

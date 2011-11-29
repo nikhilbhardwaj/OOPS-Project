@@ -1,0 +1,29 @@
+Gnu r debug symbols for statistical comp. language and environment
+	
+r is a system for statistical computation and graphics.  it consists
+of a language plus a run-time environment with graphics, a debugger,
+access to certain system functions, and the ability to run programs
+stored in script files.
+
+the design of r has been heavily influenced by two existing languages:
+becker, chambers & wilks' s and sussman's scheme.  whereas the
+resulting language is very similar in appearance to s, the underlying
+implementation and semantics are derived from scheme.
+
+the core of r is an interpreted computer language which allows
+branching and looping as well as modular programming using functions.
+most of the user-visible functions in r are written in r.  it is
+possible for the user to interface to procedures written in the
+c, c++, or fortran languages for efficiency, and many of r's core
+functions do so.  the r distribution contains functionality for a
+large number of statistical procedures and underlying applied math
+computations.  there is also a large set of functions which provide
+a flexible graphical environment for creating various kinds of data
+presentations.
+
+additionally, over thousand extension "packages" are available from
+cran, the comprehensive r archive network, many also as debian packages,
+named 'r-cran-<name>'.
+
+this package contains debugging symbol tables for the binaries and dynamic
+libraries in the r-base-core package.

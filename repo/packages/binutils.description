@@ -1,0 +1,9 @@
+The gnu assembler, linker and binary utilities
+	
+the programs in this package are used to assemble, link and manipulate
+binary and object files.  they may be used in conjunction with a compiler
+and various libraries to build programs.
+
+on some architectures the (experimental) gnu gold linker is included.
+it currently fails to link some applications and libraries (i.e. won't
+link usable kernels).

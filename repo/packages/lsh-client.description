@@ -1,0 +1,11 @@
+Secure shell v2 (ssh2) protocol client
+	
+lsh is gnu gpl'd implementation of the secure shell
+protocol version 2 (ssh2). the ssh (secure shell) protocol
+is a secure replacement for rlogin, rsh and rcp.
+
+this package contains the lsh client used to log in to a remote lsh
+or ssh2 server.
+
+in some countries it may be illegal to use any encryption
+at all without a special permit.

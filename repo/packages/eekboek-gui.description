@@ -1,0 +1,12 @@
+Graphical user interface for eekboek
+	
+this package includes ebwxshell, the eekboek gui.  it offers
+an eekboek browser, useful for viewing the administrative data.  it's
+especially useful for generating, printing and pinpointing reports.
+furthermore, it offers a raw interface to the eekboek shell.  finally,
+it offers a wizard to help configuring new bookkeeping administrations.
+
+install it if you need a friendly interface to the eekboek reporting
+facilities, or if you would like help in configuring eekboek.  however,
+if you prefer working in pure text mode, or don't like to install the wx
+graphical packages, you should not install this package.

@@ -1,0 +1,17 @@
+Gnu r regression modeling strategies tools by frank harrell
+	
+regression modeling, testing, estimation, validation, graphics, prediction,
+and typesetting by storing enhanced model design attributes in the fit.
+design is a collection of about 180 functions that assist and streamline
+modeling, especially for biostatistical and epidemiologic applications.
+it also contains new functions for binary and ordinal logistic regression
+models and the buckley-james multiple regression model for right-censored
+responses, and implements penalized maximum likelihood estimation for
+logistic and ordinary linear models.  design works with almost any
+regression model, but it was especially written to work with logistic
+regression, cox regression, accelerated failure time models, ordinary
+linear models, and the buckley-james model.
+
+see frank harrell (2002), regression modeling strategies, springer
+series in statistics, as well as http://biostat.mc.vanderbilt.edu/rms
+and http://biostat.mc.vanderbilt.edu/s/design.

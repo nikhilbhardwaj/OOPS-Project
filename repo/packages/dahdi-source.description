@@ -1,0 +1,8 @@
+Dahdi telephony interface - source code for kernel driver
+	
+dahdi (formly zaptel) is an interface for telephony devices used by e.g.
+the asterisk pbx software. the dahdi-* packages provide the kernel
+dahdi kernel modules and their required setup environment, as well as
+basic headers for building dahdi modules and utilities.
+
+it is normally used to build kernel modules package: m-a a-i dahdi

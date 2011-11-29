@@ -1,0 +1,6 @@
+Restricts a user's shell environment to limited sets of commands
+	
+lshell is a shell coded in python that lets you restrict a user's environment
+to limited sets of commands, choose to enable/disable any command over ssh
+(e.g. scp, sftp, rsync, etc.), log user's commands, implement timing
+restrictions, and more.

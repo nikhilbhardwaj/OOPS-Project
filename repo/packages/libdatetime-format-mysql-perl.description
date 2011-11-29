@@ -1,0 +1,7 @@
+Parse and format mysql dates and times
+	
+this module understands the formats used by mysql for its date,
+datetime, time, and timestamp data types.  it can be used to parse
+these formats in order to create datetime objects, and it can take a
+datetime object and produce a string representing it in the mysql
+format.

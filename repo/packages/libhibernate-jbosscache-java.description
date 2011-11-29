@@ -1,0 +1,7 @@
+Java library for integration of hibernate with jbosscache
+	
+this java library provides support in hibernate for jbosscache 1.x apis.
+
+hibernate is an object-relational mapping (orm) java library and jbosscache is
+a replicated cache for frequently accessed java objects in a cluster, in order
+to improve the performance of applications.

@@ -1,0 +1,9 @@
+Interface between emacs lisp and python
+	
+pymacs is a powerful tool which, once started from emacs, allows
+both-way communication between emacs lisp and python. pymacs aims
+python as an extension language for emacs rather than the other way
+around, and this asymmetry is reflected in some design
+choices. within emacs lisp code, one may load and use python
+modules. python functions may themselves use emacs services, and
+handle emacs lisp objects kept in emacs lisp space.

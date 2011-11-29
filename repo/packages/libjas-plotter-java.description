@@ -1,0 +1,10 @@
+Jas(2) plotter graphic library
+	
+this library, part of the java analysis studio distribution, is able to
+draw various sorts of plots, such as monodimensional and bidimensinal
+histograms, scatter plots or function fits. many aspects of the plots,
+such as the color or the style of the lines, can also be interactively
+modified via a swing interface.
+
+this library is used in freehep, a collection of java libraries used
+in high energy physics.

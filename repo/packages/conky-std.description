@@ -1,0 +1,14 @@
+Highly configurable system monitor (default version)
+	
+conky is a system monitor that can display just about anything,
+either on your root desktop or in its own window.
+conky has many built-in objects, as well as the ability to execute
+external programs or scripts (either external or through built-in
+lua support).
+
+this package should be a good compromise for most users that do not
+need special features.
+it includes the following support:
+
+x11, xdamage, xdbe, xft, mpd, moc, math, hddtemp, portmon,
+wireless, alsa mixer, apcupsd, i/o stats, argb and lua.

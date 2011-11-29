@@ -1,0 +1,8 @@
+Use berkeley db 4 databases from perl
+	
+provides berkeleydb::hash, berkeleydb::btree etc. classes that allow
+access to berkeley db databases as if they were normal perl hash
+tables.
+
+supports all the features of berkeley db such as sharing cache and
+lock memory between processes, logging and transactions.

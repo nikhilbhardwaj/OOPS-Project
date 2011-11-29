@@ -1,0 +1,6 @@
+Haskell sdl binding for ghc - profiling libraries
+	
+this package provides the sdl library bindings for the haskell programming
+language, compiled for profiling. sdl is a library that allows programs
+portable low level access to a video framebuffer, audio output, mouse, and
+keyboard.

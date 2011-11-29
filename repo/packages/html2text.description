@@ -1,0 +1,13 @@
+Advanced html to text converter
+	
+html2text is a converter from html to plain text.
+
+html2text reads html documents supplied in the command line (or from standard
+input), converts each of them into a stream of plain text characters and
+writes output to the file or the terminal.
+
+debian version also can recognize encoding of documents, do on-fly
+input and output recoding.
+
+html2text was written because the author wasn't happy with the
+output of "lynx -dump" and so he wrote something better.

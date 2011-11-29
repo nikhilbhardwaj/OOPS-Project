@@ -1,0 +1,4 @@
+PackageId:17486
+Name:libmail-dkim-perl
+Version:0.38-1
+Deps:libcrypt-openssl-rsa-perl,libdigest-sha-perl,perl,liberror-perl,libmailtools-perl,libnet-dns-perl

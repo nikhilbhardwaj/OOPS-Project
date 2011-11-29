@@ -1,0 +1,19 @@
+Useful extensions for django projects
+	
+this is a collection of useful third-party tools for projects that use the
+django web development framework. it provides the management commands:
+
+
+ * runserver_plus - a "runserver" that uses the interactive werkzeug debugger
+ * runprofileserver - starts runserver with profiling tools enabled
+ * shell_plus - similar to the built-in "shell" but autoloads all models
+ * graph_models - creates a graphviz dot file of your model arrangement
+ * describe_form - generate template form definitions for a model
+ * export_emails - export the addresses of your users in many formats
+ * print_user_for_session - print the user information from a session key
+ * create_jobs/runjob/runjobs - manage scheduled maintenance jobs
+ * (plus many more)
+
+
+python-django-extensions also includes a number of custom fields and abstract
+models, including ones that manage created and updated times automatically.

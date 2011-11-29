@@ -1,0 +1,6 @@
+Perl extensions for writing plrpc servers and clients
+	
+perl rpc simplifies the writing of perl based client/server
+applications.  rpc::plserver is the package used on the server side,
+and you guess what rpc::plclient is for.  plrpc works by defining a set
+of functions that may be executed by the client.

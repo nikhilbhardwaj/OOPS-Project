@@ -1,0 +1,15 @@
+Development files for the sip library
+	
+libosip2 header files and static libraries to assist in development of
+programs wishing to use sip.
+
+the osip library is written in c, is thread safe and has no dependencies
+except the standard c library.
+
+osip could be used to implement an ip soft-phone as well as embedded sip
+software. osip is not limited to endpoint agents implementations and can
+also be used to implement sip proxies or registration services.
+
+osip currently provides an api for the sip message parser, sdp message
+parser, and library to handle "sip transactions" as defined by the sip
+standards (rfc3261).

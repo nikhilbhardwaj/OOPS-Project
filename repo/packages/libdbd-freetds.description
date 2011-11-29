@@ -1,0 +1,6 @@
+Freetds database server driver for libdbi
+	
+this driver provides connectivity to ms sql server or sybase database
+servers through the libdbi database independent abstraction layer using
+freetds. switching a program's driver does not require recompilation or
+rewriting source code.

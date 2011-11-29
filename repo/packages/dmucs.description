@@ -1,0 +1,12 @@
+Distributed compilation system for use with distcc
+	
+dmucs is a system that allows a group of users to share a compilation farm.
+each compilation request from each user will be sent to the fastest available
+machine, every time.  the system has these fine qualities:
+
+ * works with distcc, which need not be altered in any way.
+ * supports multiple operating systems in the compilation farm.
+ * uses all processors of a multi-processor compilation host.
+ * makes best use of compilation hosts with widely differing cpu speeds.
+ * takes into account the load on a host caused by non-compilation tasks.
+ * supports the dynamic addition and removal of hosts to the compilation farm.

@@ -1,0 +1,13 @@
+Collection of pdf document handling utilities
+	
+pdfjam is a small collection of shell scripts that work similarly to
+the well known psutils (psmerge, psnup). they provide a simple
+interface to some of the functionality of the pdfpages package for
+pdflatex. at present, the utilities available are pdfnup, pdfjoin, and
+pdf90. pdfjam depends on a working installation of (pdf)latex.
+
+
+ - pdfnup puts multiple document pages together on one physical page at
+   a reduced size
+ - pdfjoin concatenates multiple pdf documents
+ - pdf90 rotates the pages of pdf documents

@@ -1,0 +1,12 @@
+A utility to help sys admins thwart ssh crackers
+	
+denyhosts is a program that automatically blocks ssh
+brute-force attacks by adding entries to /etc/hosts.deny.
+it will also inform linux administrators about offending
+hosts, attacked users and suspicious logins.
+
+synchronization with a central server is possible too.
+
+differently from other software that do same work, denyhosts
+doesn't need support for packet filtering or any other kind
+of firewall in your kernel.

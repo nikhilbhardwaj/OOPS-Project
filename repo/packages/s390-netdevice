@@ -1,0 +1,4 @@
+PackageId:31069
+Name:s390-netdevice
+Version:0.0.26
+Deps:cdebconf-udeb,libc6-udeb,libdebconfclient0-udeb,libdebian-installer4-udeb,libsysfs2-udeb,s390-sysconfig-writer

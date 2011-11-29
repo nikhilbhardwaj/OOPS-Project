@@ -1,0 +1,13 @@
+Story file compiler for the inform interactive fiction language (v6)
+	
+inform is an object-oriented language for text adventure games which
+are commonly known as "interactive fiction". the story files are
+compiled into a special form of bytecode (z-code) which can then
+be run by z-code interpreters that exist for a multitude of
+operating systems.
+
+this package contains:
+
+ * the inform compiler
+ * the inform standard library
+ * several user-supplied extensions and modules

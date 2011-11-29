@@ -1,0 +1,5 @@
+Mysql database server driver for libdbi
+	
+this driver provides connectivity to mysql database servers through the
+libdbi database independent abstraction layer. switching a program's driver
+does not require recompilation or rewriting source code.

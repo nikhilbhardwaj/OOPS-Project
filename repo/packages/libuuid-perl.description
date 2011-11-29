@@ -1,0 +1,4 @@
+Perl extension for using uuid interfaces as defined in e2fsprogs
+	
+this is a perl interface to libuuid from e2fsprogs.  it allows generation,
+parsing, and unparsing of uuids.

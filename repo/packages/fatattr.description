@@ -1,0 +1,5 @@
+Utility to control attributes on a fat filesystem
+	
+fat filesystems contain several attributes which do not map cleanly onto unix
+attributes; this utility allow these to be controlled directly by unprivileged
+users on any mounted fat partition.

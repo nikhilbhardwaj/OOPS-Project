@@ -1,0 +1,13 @@
+User management controller add-on for turbogears
+	
+turbogears2 is a framework to develop web applications in python,
+according to the model-view-controller (mvc) architecture;
+tgext.admin is a controller add-on for turbogears2 that provides a
+user interface to manage users, groups, and their permissions.
+
+tgext.admin is compatible with the basic turbogears2 identity model.
+
+this package also contains:
+
+
+ * tgext.crud - controller extension to expose crud interfaces

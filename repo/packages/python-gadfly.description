@@ -1,0 +1,14 @@
+Sql database and parser generator for python
+	
+gadfly is a relational database management system which uses a large
+subset of very standard sql as its query language. the underlying
+engine consists of python modules. gadfly stores the active database
+in memory, with logging to a file system for recovery from system or
+software failures (but not for disk failures).
+
+kwparser, included as part of the gadfly package, is a parser
+generator for python. it transforms an abstract specification of a
+language grammar (for example, the corba interface definition
+language), together with "interpretation functions" that define the
+semantics of the language, into a compiler or translator or
+interpreter.

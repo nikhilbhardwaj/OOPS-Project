@@ -1,0 +1,13 @@
+Thinkpad hardware/firmware access modules source - dkms version
+	
+the tp_smapi kernel module exposes some features of the thinkpad
+hardware/firmware via a sysfs interface. currently, the main implemented
+functionality is control of battery charging and extended battery status.
+the underlying hardware interfaces are smapi and direct access to the
+embedded controller.
+
+this package also brings the source for an improved version of hdaps
+which should work on newer thinkpads too (the stock kernel version does
+not).
+
+this package contains the source to be built with dkms.

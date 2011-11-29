@@ -1,0 +1,9 @@
+Object-relational persistence framework for jifty
+	
+jifty::dbi deals with databases, so that you don't have to.
+
+this module provides an object-oriented mechanism for retrieving and updating
+data in a dbi-accessible database.
+
+this module is the direct descendent of dbix::searchbuilder. if you're familiar
+with searchbuilder, jifty::dbi should be quite familiar to you.

@@ -1,0 +1,10 @@
+Cd/dvd quality checker
+	
+qpxtool gives you access to all available quality checks (q-checks) on written
+and blank media, that are available for your drive. this will help you to find
+the right media and the optimized writing speed for your hardware, which will
+increase the chance for a long data lifetime.
+
+qpxtool depends on the used drive, not all drives are able to read the q-checks
+and not all of them are supported by qpxtool. currently, most newer drives of
+liteon, nec, pioneer and plextor are supported.

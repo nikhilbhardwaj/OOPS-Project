@@ -1,0 +1,6 @@
+Graphical wrapper around xnest/xephyr
+	
+xoo is a graphical wrapper around xnest/xephyr, the nested x server. you can
+make xnest look like a particular device's display and set up buttons on that
+device.  this is useful for embedded developers who want to simulate a target
+device on their desktop machine.

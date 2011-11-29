@@ -1,0 +1,5 @@
+Debugging symbols for kde base runtime module
+	
+this package contains the debugging symbols associated with kdebase-runtime.
+they will automatically be used by gdb for debugging kdebase-runtime related
+issues.

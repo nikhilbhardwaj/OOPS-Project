@@ -1,0 +1,14 @@
+The gnu problem report management system (central database)
+	
+gnats is a bug-tracking tool designed for use at a central "support
+site".  users who experience problems use electronic mail to
+communicate these problems to "maintainers" at that support site.
+
+gnats offers many of the same features offered by more generalized
+databases, including editing, querying, and basic reporting.  you can
+access the submitting, editing, and querying functions of gnats
+through provided utilities or from within gnu emacs.
+
+the "gnats" package has the full installation for the central database
+server.  for client systems, use the "gnats-user" package which has just
+the user tools.

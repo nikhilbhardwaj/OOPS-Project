@@ -1,0 +1,17 @@
+Python wrapper for tidylib
+	
+corrects markup in a way compliant with the latest standards, and
+optimal for the popular browsers.  it has a comprehensive knowledge
+of the attributes defined in the html 4.0 recommendation from w3c,
+and understands the us ascii, iso latin-1, utf-8 and the iso 2022
+family of 7-bit encodings.  in the output:
+
+
+ * html entity names for characters are used when appropriate.
+ * missing attribute quotes are added, and mismatched quotes found.
+ * tags lacking a terminating '>' are spotted.
+ * proprietary elements are recognized and reported as such.
+ * the page is reformatted, from a choice of indentation styles.
+
+
+this package contains utidylib, a python wrapper for tidylib.

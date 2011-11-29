@@ -1,0 +1,8 @@
+A ladspa plugin for audio pitch-shifting
+	
+rubber band is a library and utility program that permits you to
+change the tempo and pitch of an audio recording independently of one
+another.
+
+this package contains a ladspa plugin that can change the pitch of a
+sound in real-time.

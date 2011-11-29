@@ -1,0 +1,5 @@
+Basic utilities from 4.4bsd-lite
+	
+this package contains the bare minimum number of bsd utilities needed
+to boot a debian system: logger, renice, script, scriptreplay, and wall.
+the remaining standard bsd utilities are provided by bsdmainutils.

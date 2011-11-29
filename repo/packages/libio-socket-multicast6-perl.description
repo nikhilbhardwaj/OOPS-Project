@@ -1,0 +1,10 @@
+Module for sending and receiving ipv4 and ipv6 multicast messages
+	
+the io::socket::multicast6 module subclasses io::socket::inet6 to enable you
+to manipulate multicast groups. with this module you will be able to receive
+incoming multicast transmissions and generate your own outgoing multicast
+packets.
+
+io::socket::multicast6 uses the same api as io::socket::multicast, but with
+added support for ipv6 (ipv4 is still supported). unlike
+io::socket::multicast, this is a pure-perl module.

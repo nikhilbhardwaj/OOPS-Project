@@ -1,0 +1,6 @@
+Module to parse and format sqlite dates and times
+	
+datetime::format::sqlite understands the formats used by sqlite for its date,
+datetime and time functions. it can be used to parse these formats in order
+to create datetime objects, and it can take a datetime object and produce a
+timestring accepted by sqlite.

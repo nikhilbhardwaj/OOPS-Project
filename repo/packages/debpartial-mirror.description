@@ -1,0 +1,10 @@
+Tools to create partial debian mirrors
+	
+mirroring of partial debian repositories is easy with the
+debpartial-mirror tool.
+
+with it, you can mirror selected sections, priorities, packages,
+virtual packages, or even files and directories matching regular
+expressions.  packages may be drawn from any number of sources,
+with dependencies for each source resolved from whichever other
+sources you specify.

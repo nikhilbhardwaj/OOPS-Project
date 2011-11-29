@@ -1,0 +1,18 @@
+Library to generate swf (flash) files - utilities
+	
+ming is an swf (flash) file format output library.
+it is written in c, with wrappers for c++, perl, python,
+php and experimental support for ruby and java.
+
+this package contains some utilities like:
+
+ swftophp   - swf to php converter
+ makefdb    - font definition ripper
+ listfdb    - list font definition
+ listjpeg   - list jpegs
+ listswf    - swf disassembler
+ listaction - actions script disassembler
+ png2dbl    - png convert
+ gif2dbl    - gif converter
+ gif2mask   - gif mask extractor
+ raw2adpcm  - audio converter

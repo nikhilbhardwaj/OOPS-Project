@@ -1,0 +1,19 @@
+I18n support files for the pennmush virtual world server
+	
+this is the pennmush flavor of mud servers of the mush branch. it
+provides a number of flexible features to enable players to extend
+the virtual world. this is done by building new rooms and objects,
+and utilizing its internal programming language, mushcode.
+
+pennmush provides flexible compatibility with the mushcode features
+of many of the other common mush flavors, as well as its own
+approach to them.
+
+this package contains the current translations of common in game
+messages. the current state of the translations are:
+
+fairly complete: es_es, fr, hu_hu, nl_nl, no_no, sv
+
+substantial partial: da, de_de, ro_ro
+
+partial: bg_bg, eo, id_id, pl_pl, pt_br, pt_pt, ru_ru

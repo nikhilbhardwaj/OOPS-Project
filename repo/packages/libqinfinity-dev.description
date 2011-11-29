@@ -1,0 +1,9 @@
+Qt interface for libinfinity - development files
+	
+library to build collaborative text editors. changes to the text buffers are
+synced to all other clients over a central server.  even though a central
+server is involved, the local user sees his changes applied instantly and the
+merging is done on the individual clients.
+
+this package contains the qt interface's headers for libqinfinity and all files
+needed to link applications dependening on this library.

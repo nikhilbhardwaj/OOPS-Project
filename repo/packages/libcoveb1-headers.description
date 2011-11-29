@@ -1,0 +1,10 @@
+Cache oblivious van emde boas tree header files (coveb library)
+	
+libcoveb is a library for storing a priority queue of 32-bit integers
+efficiently.  it is faster than the stl, and provides o(log(log(n))) type
+performance for most operations.  this means that, in practical terms, it
+does not exhibit much noticeable slowdown behavior as it scales from just
+a few entries all the way up to 2 or 4 billion entries in the queue.  the
+data structure is a van emde boas stratified tree, and this has been
+theoretically shown to work well under any size cache.
+.

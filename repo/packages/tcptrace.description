@@ -1,0 +1,7 @@
+Tool for analyzing tcpdump output
+	
+tcptrace is a tool for analyzing and reporting on tcpdump (or other
+libpcap) dump files.  it can summarize the data or generate graph
+data for use with the gnuplot tool from the gnuplot package.
+graph data can be created for throughput, rtt, time sequences,
+segment size, and cwin.

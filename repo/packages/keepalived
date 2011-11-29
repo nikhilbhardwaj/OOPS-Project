@@ -1,0 +1,4 @@
+PackageId:8500
+Name:keepalived
+Version:1:1.1.20-1
+Deps:iproute,ipvsadm,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libpopt0,libssl0.9.8

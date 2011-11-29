@@ -1,0 +1,17 @@
+Perl module for converting utf-8 strings
+	
+the xml::um module provides methods to convert utf-8 strings to any xml
+encoding that xml::encoding supports.  it creates mapping routines
+from the .xml files that can be found in the maps/ directory in the
+xml::encoding distribution.  note that the xml::encoding distribution
+does install the .enc files in your perl directory, but not the.xml
+files they were created from.  that's why you have to specify $encdir
+as in the synopsis.
+
+this implementation uses the xml::encoding class to parse the .xml
+file and creates a hash that maps utf-8 characters (each consisting
+of up to 4 bytes) to their equivalent byte sequence in the specified
+encoding.  note that large mappings may consume a lot of memory!
+
+future implementations may parse the .enc files directly, or do the
+conversions entirely in xs (i.e. c code).

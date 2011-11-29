@@ -1,0 +1,15 @@
+Proxy for dns queries
+	
+dnsproxy forwards dns queries to two previously configured nameservers:
+one for authoritative queries and another for recursive queries.
+the received answers are sent back to the client unchanged.
+no local caching is done.
+
+primary motivation for this project was the need to replace bind servers with
+djbdns in an isp environment. these servers get recursive queries from
+customers and authoritative queries from outside at the same ip address.
+now it is possible to run dnscache and tinydns on the same machine with
+queries dispatched by dnsproxy.
+
+another possible scenario is a firewall where proxy queries should be
+forwarded to the real server in a dmz.

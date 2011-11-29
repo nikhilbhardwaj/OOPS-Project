@@ -1,0 +1,6 @@
+Haskell module to manipulate haskell source
+	
+this package provides a library for the haskell programming language.
+
+this library provides facilities for manipulating haskell source code:
+an abstract syntax, lexer, parser and pretty-printer.

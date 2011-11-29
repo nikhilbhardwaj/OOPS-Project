@@ -1,0 +1,16 @@
+An partial implementation of iec 61883
+	
+this library is an implementation of iec 61883, part 1 (cip, plug
+registers, and cmp), part 2 (dv-sd), part 4 (mpeg2-ts), and part 6
+(amdtp). outside of iidc, nearly all firewire multimedia devices use iec
+61883 protocols.
+
+the libiec61883 library provides a higher level api for streaming dv,
+mpeg-2 and audio over linux ieee 1394. this includes both reception and
+transmission. it uses the new "rawiso" api of libraw1394, which
+transparently provides mmap-ed dma for efficient data transfer. it also
+represents the third generation of i/o technology for linux 1394 for
+these media types thereby removing the complexities of additional kernel
+modules, /dev nodes, and procfs. it also consolidates features for plug
+control registers and connection management that previously existed in
+experimental form in an unreleased version of libavc1394.

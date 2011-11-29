@@ -1,0 +1,11 @@
+Documentation system based on ascii text
+	
+perl script that can be used to produce html, xhtml, latex or docbook/xml
+from a simple ascii text source document, with minimum syntax rules.
+
+the text markup is quite simple and allows us to create documents in
+an easy and fast way.
+
+the tool is not suitable for complex documents, but can be used to create
+an initial version which can be further developed working on the generated
+latex or docbook file.

@@ -1,0 +1,8 @@
+Yet another json library - development files
+	
+a small, fast library for parsing javascript object notation (json).  it
+supports incremental parsing from a stream and leaves data representation to
+higher level code.
+
+this package contains the header files and static libraries needed for
+compiling software that uses the yajl library.

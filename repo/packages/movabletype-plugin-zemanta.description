@@ -1,0 +1,7 @@
+Zemanta movable type plugin
+	
+this plugin uses the zemanta web service to suggest links and images
+to be added to blog posts. it does this by sending information about
+blog posts to the external web service. this plugin should therefore
+only be installed if you are willing for your content to be used in this
+way.

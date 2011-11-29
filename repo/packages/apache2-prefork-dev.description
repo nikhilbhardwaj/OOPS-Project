@@ -1,0 +1,7 @@
+Apache development headers - non-threaded mpm
+	
+this package provides the development headers and apxs2 binary for
+apache2-mpm-prefork; see the apache2 package description for more details.
+
+this should only be used when you absolutely *must* support a non-threaded
+environment (for php, for example).

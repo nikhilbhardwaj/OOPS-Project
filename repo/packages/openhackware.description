@@ -1,0 +1,7 @@
+Openfirmware emulator for powerpc
+	
+openhackware is an openfirmware emulator intended to be used on powerpc
+machines. it is not a real openfirmware as it knows nothing about forth.
+it emulates the openfirmware boot time interface as well as the rtas
+interface. it also emulates some known "interpret" strings, to make it
+able to launch known oses.

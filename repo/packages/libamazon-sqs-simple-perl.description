@@ -1,0 +1,7 @@
+Perl module for accessing the amazon simple queue
+	
+amazon::sqs::simple is a perl library providing an object-oriented api for
+the amazon simple queue service.
+
+this version of amazon::sqs::simple defaults to work against version
+2009-02-01 of the sqs api. earlier api versions may or may not work.

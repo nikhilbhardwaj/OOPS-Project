@@ -1,0 +1,4 @@
+PackageId:6387
+Name:grub-installer
+Version:1.60+squeeze3
+Deps:cdebconf-udeb,created-fstab,partconf,partman-base,di-utils,di-utils-mapdevfs,kernel-installer,bootstrap-base,live-installer,os-prober,os-prober-udeb,partman-utils

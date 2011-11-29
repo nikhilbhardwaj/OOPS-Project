@@ -1,0 +1,6 @@
+C-like compiler which produces hp48 rpn
+	
+`hp48cc' is a c-like compiler that translates the input code into the
+hp48 rpn language.  the language recognized by the compiler is only a small
+subset of the c language, with some non-standard extensions, but powerful
+enough to write complex programs simply.

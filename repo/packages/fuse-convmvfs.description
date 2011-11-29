@@ -1,0 +1,6 @@
+Mirrors a whole filesystem tree from one charset to another
+	
+convmvfs is a fuse (file system in userspace) utility that transparently
+mirrors a filesystem tree converting the filenames from one charset to another
+on the fly. only the names of files and directories are converted; the file
+content remains intact. the mirrored tree is mounted at a given mountpoint.

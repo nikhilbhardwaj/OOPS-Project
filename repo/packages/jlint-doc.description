@@ -1,0 +1,6 @@
+Manual for jlint - a java program checker
+	
+jlint will check your java code and find bugs, inconsistencies and
+synchronization problems by doing data flow analysis and building the lock
+graph. this package contains the manual for jlint in info, html and pdf
+formats.

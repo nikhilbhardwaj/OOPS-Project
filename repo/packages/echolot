@@ -1,0 +1,4 @@
+PackageId:3560
+Name:echolot
+Version:2.1.8-6
+Deps:adduser,gnupg,libdigest-md5-perl,perl,libgnupg-interface-perl,libhtml-template-perl,mixmaster,postfix,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,sendmail-bin,ssmtp,xmail

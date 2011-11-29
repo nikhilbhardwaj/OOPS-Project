@@ -1,0 +1,4 @@
+PackageId:7955
+Name:jirc
+Version:1.0-1
+Deps:libconfig-simple-perl,libfilter-template-perl,libnet-jabber-perl,libpoe-component-irc-perl,libpoe-component-jabber-perl,libpoe-filter-xml-perl,libxml-stream-perl,perl

@@ -1,0 +1,10 @@
+Qt 3 compatibility library for qt 4
+	
+qt is a cross-platform c++ application framework. qt's primary feature
+is its rich set of widgets that provide standard gui functionality.
+
+the qt3support module provides classes that ease porting from qt 3 to qt 4.
+
+it allows applications designed to use deprecated qt 3 classes and functions
+to work with qt 4, with help from the qt3to4 porting tool found in the
+libqt4-dev package.

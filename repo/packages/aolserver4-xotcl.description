@@ -1,0 +1,6 @@
+Extended object tcl (xotcl): object orientation for aolserver - module
+	
+this package provides the xotcl module for the aolserver 4.0.10/4.5
+webserver. this module provides and initialises the xotcl language
+extension in the various aolserver runtime environments (e.g., the
+embedded tcl interpreters in aolserver's worker threads).

@@ -1,0 +1,9 @@
+Compute archimedes' constant pi to arbitrary precision
+	
+this program computes archimedes' constant pi to arbitrary precision.
+it is extremely fast and the precision is only limited by your machine's
+main memory.
+
+this is a teaser for the cln library, to which the actual computation is
+delegated.  you may use these decimal digits as random digits or search
+them for hidden messages.  :-)

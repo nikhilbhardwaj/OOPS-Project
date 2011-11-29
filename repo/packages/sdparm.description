@@ -1,0 +1,8 @@
+Output and modify scsi device parameters
+	
+the sdparm utility outputs and in some cases modifies scsi
+device parameters. it can be used to output and modify
+parameters on any device that uses a scsi command set.
+apart from scsi disks, such devices include cd/dvd drives
+(irrespective of transport), scsi and atapi tape drives
+and scsi enclosures.

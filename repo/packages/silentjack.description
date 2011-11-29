@@ -1,0 +1,5 @@
+Silence detector for the jack audio system
+	
+silentjack listens, using the jack audio system, for silence. when silence is
+detected, it runs the command specified. once the command has been run, a grace
+period is observed before resuming the silence detection.

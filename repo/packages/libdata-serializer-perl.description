@@ -1,0 +1,5 @@
+Module that serializes data structures
+	
+data::serializer provides a unified interface to the various serializing
+modules currently available. adds the functionality of both compression
+and encryption.

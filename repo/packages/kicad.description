@@ -1,0 +1,25 @@
+Electronic schematic and pcb design software
+	
+kicad is a suite of programs for the creation of printed circuit boards.
+it includes a schematic editor, a pcb layout tool, support tools and a
+3d viewer to display a finished & fully populated pcb.
+
+kicad is made up of 5 main components:
+
+
+ * kicad - project manager
+ * eeschema - schematic editor
+ * pcbnew - pcb editor
+ * gerbview - gerber viewer
+ * cvpcb - footprint selector for components
+
+
+libraries:
+
+ * both eeschema and pcbnew have library managers and editors for their
+   components and footprints
+ * you can easily create, edit, delete and exchange library items
+ * documentation files can be associated with components, footprints and key
+   words, allowing a fast search by function
+ * very large libraries are available for schematic components and footprints
+ * most components have corresponding 3d models

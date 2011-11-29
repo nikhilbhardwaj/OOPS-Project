@@ -1,0 +1,12 @@
+Festival extensions and utilities
+	
+miscellaneous festival utilities, providing especially the following
+features: generalized concept of input events, including ability to
+play sounds within the synthesized text and to map logical input events
+to other events; replacing given words in the synthesized text by events;
+spelling; capital letter signalization; punctuation reading modes;
+miscellaneous festival scheme functions.
+
+primary focus of festival-freebsoft-utils is on festival cooperation with
+speech dispatcher, but they may be used together with other speech frontends
+or for other purposes as well.

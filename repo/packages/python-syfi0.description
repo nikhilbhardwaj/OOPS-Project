@@ -1,0 +1,14 @@
+Python interface for syfi
+	
+the finite element method (fem) package syfi is a c++ library built on top of
+the symbolic math library ginac. the name syfi stands for symbolic finite
+elements. the package provides polygonal domains, polynomial spaces, and
+degrees of freedom as symbolic expressions that are easily manipulated. this
+makes it easy to define finite elements and variational forms. these elements
+and forms are then used to generate efficient c++ code.
+
+syfi is similar to ffc in the sense that it has a compiler that generates ufc
+code based on variational forms and finite elements. it is also similar to
+fiat in the sense that it implements many different finite elements.
+
+this package contains the python interface for syfi.

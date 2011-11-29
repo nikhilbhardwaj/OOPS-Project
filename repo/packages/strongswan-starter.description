@@ -1,0 +1,10 @@
+Strongswan daemon starter and configuration file parser
+	
+strongswan is an ipsec-based vpn solution for the linux kernel. it uses the
+native ipsec stack and runs on any recent 2.6 kernel (no patching required).
+it supports both ikev1 and the newer ikev2 protocols.
+
+the starter and the associated "ipsec" script control both pluto and charon
+from the command line. it parses ipsec.conf and loads the configurations to
+the daemons. while the ikev2 daemon can use other configuration backends, the
+ikev1 daemon is limited to configurations from ipsec.conf.

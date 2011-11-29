@@ -1,0 +1,14 @@
+Cdbs modules for building configuration packages
+	
+this package contains a system of cdbs modules for creating debian
+configuration packages: packages that configure an existing debian
+system by using dpkg-divert on configuration files.  these modules
+attempt to make the process of creating configuration packages
+efficient by checking the md5sums of upstream configuration files
+that are to be modified and automatically generating the relevant
+postinst code to perform the diversions using the standard debhelper
+mechanism.
+
+the config-package-dev modules are optimized for site defaults (i.e.
+configuration for a university or a company), though they are useful
+for other applications as well.

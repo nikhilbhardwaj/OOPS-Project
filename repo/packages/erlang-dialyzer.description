@@ -1,0 +1,5 @@
+Erlang/otp discrepancy analyzer application
+	
+dialyzer is a static analysis tool that identifies software
+discrepancies such as type errors, unreachable code, unnecessary
+tests etc. in single erlang modules or entire (sets of) applications.

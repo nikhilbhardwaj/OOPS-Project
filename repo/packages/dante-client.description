@@ -1,0 +1,10 @@
+Socks wrapper for users behind a firewall
+	
+dante is a circuit-level firewall/proxy that can be used to provide
+convenient and secure network connectivity to a wide range of hosts
+while requiring only the server dante runs on to have external network
+connectivity.
+
+this package provides the "socksify" client program - a tool which
+forwards network requests from any program to a socks server (v4 or v5)
+which then performs them on your behalf.

@@ -1,0 +1,19 @@
+Threaded usenet news reader, based on rn (4.0 beta test)
+	
+trn is a threaded news reader with a long history, descended from larry
+wall's rn (part of the second generation of newsreaders).  it has a
+powerful full screen text mode user interface, where most actions are
+available at the press of a single key.  it is highly configurable.
+
+this version of trn reads news from a news server via nntp (the network
+news transfer protocol).  you must have a news server available - large
+sites usually provide a site-wide server.
+
+if you install a news server on your system (either containing just
+local newsgroups or with a partial or full usenet feed) you can
+configure trn to access it.
+
+this is a separate package from trn because trn 4.0 has enough
+substantial changes in its default behaviour (for instance, the group
+selector is new in 4.0) that some users prefer to stay with an older
+version of trn.

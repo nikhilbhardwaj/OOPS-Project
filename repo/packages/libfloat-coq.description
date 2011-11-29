@@ -1,0 +1,6 @@
+Coq library on floating-point arithmetic
+	
+this package provides pff (preuves formelles sur les flottants =
+formal proofs about floats), a library for reasoning about
+floating-point arithmetic in coq. it contains both definitions and
+proofs of basic facts, old & new properties and algorithms.

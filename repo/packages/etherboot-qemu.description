@@ -1,0 +1,7 @@
+Bootstrapping for various network adapters (qemu)
+	
+etherboot is a free software package for making boot roms for booting linux and
+other operating systems on x86 pcs over a network using internet protocols,
+i.e. bootp/dhcp and tftp.
+
+this package contains a subset of targets used by qemu/kvm.

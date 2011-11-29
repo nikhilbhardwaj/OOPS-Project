@@ -1,0 +1,14 @@
+Reconstruction of phylogenetic trees by maximum likelihood
+	
+tree-puzzle (the new name for puzzle) is an interactive console program that
+implements a fast tree search algorithm, quartet puzzling, that allows
+analysis of large data sets and automatically assigns estimations of support
+to each internal branch. tree-puzzle also computes pairwise maximum
+likelihood distances as well as branch lengths for user specified trees.
+branch lengths can also be calculated under the clock-assumption. in
+addition, tree-puzzle offers a novel method, likelihood mapping, to
+investigate the support of a hypothesized internal branch without
+computing an overall tree and to visualize the phylogenetic content of
+a sequence alignment.
+
+this is the documentation package for tree-puzzle

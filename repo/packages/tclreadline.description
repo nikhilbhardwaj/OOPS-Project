@@ -1,0 +1,6 @@
+Gnu readline extension for tcl/tk
+	
+tclreadline adds gnu readline support to standard tcl/tk.  it provides
+interactive command editing and history for tcl shells (this must be
+enabled on a user-by-user basis) and allows the use of gnu readline
+features in tcl programs.

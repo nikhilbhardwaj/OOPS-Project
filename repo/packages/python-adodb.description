@@ -1,0 +1,5 @@
+A database abstraction library for python
+	
+adodb is a database abstraction library (modelled on microsoft's database
+api's). adodb was originally developed for php, and ported to python. the
+python version implements a subset of the php version.

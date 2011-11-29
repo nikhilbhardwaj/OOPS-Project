@@ -1,0 +1,9 @@
+Perl extension for showing/modifying jpeg (meta)data
+	
+this package provides an interface for reading and interpreting the
+content of jpeg segments, in particular of those segments containing
+metadata (like tiff headers, thumbnails, exif info, iptc info, comments,
+etc.). some segments can even be modified and rewritten to disk.
+
+the author claims that this module is still experimental: use it at your
+own risk.

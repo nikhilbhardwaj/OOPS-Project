@@ -1,0 +1,8 @@
+Gstreamer rtsp server plugin (python bindings)
+	
+gstreamer is a media processing framework with support for a wide
+variety of data sources, sinks, and formats through the use of
+dynamically loaded plugins. the rtsp server plugin adds support
+for providing rtsp streams.
+
+this package contains the python bindings for the plugin.

@@ -1,0 +1,17 @@
+Hibernate validator
+	
+hibernate validator aims at defining and checking a domain model
+level constraints. it supports custom constraints definitions as well
+as full internationalization. annotations are used to define
+constraints on object level. the validation mechanism can be executed
+in different layers in your application without having to duplicate
+any of these rules (presentation layer, data access layer, database
+schema).
+
+hibernate validator integrates with hibernate by applying the
+constraints on the database schema (ddl generation) and by checking
+entity validity before hibernate inserts or updates instances. you
+can use hibernate validator with any java persistence provider, not
+only hibernate, although you will not be able to use automatic ddl
+alteration for constraint generation outside of hibernate
+entitymanager.

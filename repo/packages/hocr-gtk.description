@@ -1,0 +1,4 @@
+Gtk+ frontend for hebrew ocr
+	
+hocr-gtk is a gtk+ based graphical interface to the libhocr library.  it
+can open multiple image formats and uses aspell for internal spell checking.

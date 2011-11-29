@@ -1,0 +1,35 @@
+A graphical front-end to cvs and subversion
+	
+tkcvs is a tk based graphical interface to the cvs and subversion
+version control systems.  for cvs, it includes facilities for providing
+"user friendly" names to modules and directories within the repository,
+and provides a facility to interactively browse the repository looking for
+modules and directories.
+
+some of the features of tkcvs include:
+
+file and directory browser, with optional display of hidden
+files, and display of the current directory's location within
+the cvs tree.
+
+push-button based check-in / check-out of cvs modules.  ability
+to add and delete files from the repository also using push
+buttons.
+
+module tree browser, and reports showing the structure of the
+cvs modules tree.  individual modules or entire directory trees
+may be checked out using the browser.
+
+updating of files from the repository when they change.
+
+tagging and branching of files from the file browser, and tagging
+and branching of modules from the module browser.
+
+exporting a cvs module or directory from the repository for
+delivery off-site.
+
+creation of patch files between two releases of a module, or
+between a release and the current (head) version.
+
+viewing of diff and status listings for currently checked out
+modules.

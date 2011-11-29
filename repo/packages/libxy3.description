@@ -1,0 +1,6 @@
+Library for reading x-y data from several file formats
+	
+c++ library for reading files that contain x-y data from powder diffraction,
+spectroscopy and other experimental methods. the supported formats include:
+vamas, pdcif, bruker uxd and raw, philips udf and rd, rigaku dat,
+sietronics cpi, dbws/dmplot, koalariet xdd and others.

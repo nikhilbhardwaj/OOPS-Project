@@ -12,9 +12,5 @@ Thumbs.db
 *~
 *.swp
 
-# All the downloaded package info files
-# These can be obtained from the ruby script instead, The bandwidth would be too huge for me
-repo/packages/
-
 #The linux executables
 superpacker

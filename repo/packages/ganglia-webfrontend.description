@@ -1,0 +1,8 @@
+Cluster monitoring toolkit - web front-end
+	
+ganglia is a scalable, real-time cluster monitoring environment
+that collects cluster statistics in an open and well-defined xml
+format.
+
+this package contains the php-based web front-end, which displays
+information gathered by 'gmetad'.

@@ -1,0 +1,13 @@
+Performance monitoring tool for linux
+	
+nmon is a systems administrator, tuner, benchmark tool.
+it can display the cpu, memory, network, disks (mini graphs or numbers),
+file systems, nfs, top processes, resources (linux version & processors) and
+on power micro-partition information.
+
+data is displayed on the screen and updated once every two seconds, using a
+dumb screen. however, you can easily change this interval to a longer or
+shorter time period.
+
+the nmon tool can also capture the same data to a text file for later analysis
+and graphing for reports. the output is in a spreadsheet format (.csv).

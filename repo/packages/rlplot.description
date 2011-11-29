@@ -1,0 +1,10 @@
+Generate publication quality graphs
+	
+rlplot is a gui based program for displaying scientific data in
+standard formats. it has full support for all error-bar types and
+it has greater flexibility with displaying colour and texture in
+charts than gnuplot (filled bar chart boxes are possible without
+any additional programs). output is generated on the x display where
+further changes can be made to the graph using point and click methods.
+images can be exported as scalable vector graphics (svg) as well as
+eps, wmf and tiff formats.

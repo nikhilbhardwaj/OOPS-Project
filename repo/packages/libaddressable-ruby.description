@@ -1,0 +1,8 @@
+Addressable is a replacement for the uri implementation
+	
+uri is part of ruby's standard library. it more closely conforms to
+the relevant rfcs and adds support for iris and uri templates.
+additionally, it provides extensive support for uri templates.
+
+this is a dummy package provide documentation and depends on the package
+containing the actual library for the default ruby version.

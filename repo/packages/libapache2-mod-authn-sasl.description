@@ -1,0 +1,11 @@
+Sasl authentication backend provider for apache
+	
+this module provides the mod_auth_basic authentication front-end
+a way to authenticate users by checking credentials via the cyrus sasl library.
+
+username and password are checked against the sasl password checking backends,
+kerberos5, pam, rimap, shadow and ldap are some of the supported mechanisms.
+
+one of the interesting parts of using a sasl backend is that you do not need
+to elevate apache httpd's access rights to superuser privileges, even when
+validating through shadow database.

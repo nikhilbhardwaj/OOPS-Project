@@ -1,0 +1,11 @@
+Command line option parser - runtime
+	
+this is sverre h. huseby's library for parsing command line options.
+
+both traditional one-character options and gnu-style --long-options
+are supported. this library does a little more than standard getopt.
+
+this package contains what you need to run programs that use this library.
+
+
+ upstream webpage: http://shh.thathost.com/

@@ -1,0 +1,12 @@
+Simplified-traditional chinese conversion tool
+	
+the chinese national gb standard defines a basic set of (around 6,000)
+characters for use with simplified chinese writing that does not include many
+of the characters in the taiwanese industry standard for traditional chinese
+called big5 (around 13,000 characters in the basic set). unicode is however a
+superset of both with all duplication removed down to the level of detail
+described above.
+
+this tool is used for converting a utf-8 string which combining both
+simplified chinese characters and traditional chinese charcters directly into
+one type chinese chareacters.

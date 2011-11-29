@@ -1,0 +1,7 @@
+Perl module containing extensions to ppi
+	
+this is a collection of functions for dealing with ppi objects, many of which
+originated in perl::critic. they are organized into modules by the kind of
+ppi class they relate to, by replacing the "ppi" at the front of the module
+name with "ppix::utilities", e.g. functionality related to ppi::nodes is in
+ppix::utilities::node.

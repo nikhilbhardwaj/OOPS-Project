@@ -1,0 +1,5 @@
+Common uffi functions for clsql database backends
+	
+this package provides an interface to several uffi functions used by multiple
+clsql database backends.
+clsql is a common lisp interface to sql databases.

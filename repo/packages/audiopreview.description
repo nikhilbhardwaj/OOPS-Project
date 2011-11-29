@@ -1,0 +1,8 @@
+Command-line tool to play previews of audio and video files
+	
+audiopreview is a simple command line tool to play previews of audio and video
+files, as well as internet streams. it can also be used as a regular media
+player as well.
+
+audiopreview is based upon the gstreamer framework and is therefore highly
+extensible using gstreamer plugins.

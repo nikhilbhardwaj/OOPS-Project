@@ -1,0 +1,4 @@
+D-bus bindings for gobject
+	
+eggdbus is a d-bus binding for gobject. it uses an "idl language" (xml) to
+describe the d-bus interfaces and generates c code from that.

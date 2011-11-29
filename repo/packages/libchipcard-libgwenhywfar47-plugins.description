@@ -1,0 +1,8 @@
+Crypttoken plugin to libgwenhywfar
+	
+libchipcard provides an api for accessing smartcards. examples are
+memory cards, as well as hbci (home banking), german geldkarte
+(electronic small change), and kvk (health insurance) cards.
+
+this package contains plugins to gwenhywfar providing cryptographic
+services via smartcards.

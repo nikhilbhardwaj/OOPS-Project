@@ -1,0 +1,16 @@
+Development files for the debug library
+	
+this library contains routines needed by many of the authors
+other programs. it includes utilities to aid in debugging of
+programs.
+
+some of the features currently supported by this library are
+memory leak detection, hex dumping, and logging. the logging
+system is especially useful. it adds syntax highlighting for
+different log levels in debugging mode. there are different
+modes for printing to console and files, duplicate line
+detection and lots of other small things which makes life
+simpler for the programmer.
+
+this package contains files needed if you wish to use libdebug
+in your own programs.

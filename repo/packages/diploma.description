@@ -1,0 +1,9 @@
+Write scientific papers with debian
+	
+debian gnu/linux is widely used at universities to do research and
+to write papers with latex. the package diploma contains examples which
+illustrate the possible ways to do this effectively with debian gnu/linux.
+each example consists of a source tree where you can do "make" in the top
+level directory and then the source code is compiled, the measurement
+data are processed, and the results are converted into nice figures.
+then the text is processed and combined with the figures to a print file.

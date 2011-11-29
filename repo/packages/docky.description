@@ -1,0 +1,17 @@
+Elegant, powerful, clean dock
+	
+a full fledged dock application that makes opening common applications and
+managing windows easier and quicker. docky is fully integrated into the gnome
+desktop and features a no non-sense approach to configuration and usage.
+it just works.
+
+docky provides an application launcher, running application management, and
+various "docklets" including a cpu monitor, weather report and clock.  it is
+similar to other docks such as awn and cairo-dock.
+
+applications can integrate with docky to add extra items to their context
+menus or modify their icons to display more information.  this package
+includes integration helpers for a number of applications, including banshee,
+rhythmbox, deluge, tomboy and zeitgeist.
+
+docky is derived from the gnome do "docky" interface.

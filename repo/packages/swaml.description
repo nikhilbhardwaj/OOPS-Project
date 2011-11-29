@@ -1,0 +1,16 @@
+Semantic web archive of mailing lists
+	
+swaml reads a collection of email messages stored in a mailbox
+(from a mailing list compatible with rfc 4155) and generates a
+rdf description. it is written in python using sioc as the main
+ontology to represent in rdf a mailing list, including the next
+features:
+
+
+  * platform independent.
+  * text-based.
+  * compatible with rfc 4155.
+  * serialize rdf to disk.
+  * reusability of ontologies already extended, mainly sioc.
+  * enrichment using foaf.
+  * kml support.

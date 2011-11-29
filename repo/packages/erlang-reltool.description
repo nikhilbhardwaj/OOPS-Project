@@ -1,0 +1,7 @@
+Erlang/otp release management tool
+	
+reltool is a release management tool. it analyses a given erlang/otp
+installation and determines dependencies between applications. the
+graphical frontend depicts the dependencies and enables interactive
+customization of a target system. the backend provides a batch
+interface for generation of customized target systems.

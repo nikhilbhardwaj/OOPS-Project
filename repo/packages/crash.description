@@ -1,0 +1,32 @@
+Kernel debugging utility, allowing gdb like syntax
+	
+the core analysis suite is a self-contained tool that can be used to
+investigate either live systems, or multiple different core dump formats
+including kdump, lkcd, netdump and diskdump.
+
+o  the tool is loosely based on the svr4 crash command, but has been
+
+   completely integrated with gdb in order to be able to display
+   formatted kernel data structures, disassemble source code, etc.
+
+
+o  the current set of available commands consist of common kernel core
+
+   analysis tools such as a context-specific stack traces, source code
+   disassembly, kernel variable displays, memory display, dumps of
+   linked-lists, etc.  in addition, any gdb command may be entered,
+   which in turn will be passed onto the gdb module for execution.
+
+
+o  there are several commands that delve deeper into specific kernel
+
+   subsystems, which also serve as templates for kernel developers
+   to create new commands for analysis of a specific area of interest.
+   adding a new command is a simple affair, and a quick recompile
+   adds it to the command menu.
+
+
+o  the intent is to make the tool independent of linux version dependencies,
+
+   building in recognition of major kernel code changes so as to adapt to
+   new kernel versions, while maintaining backwards compatibility.

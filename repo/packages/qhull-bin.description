@@ -1,0 +1,14 @@
+Calculate convex hulls and related structures (utilities)
+	
+qhull computes convex hulls, delaunay triangulations, halfspace
+intersections about a point, voronoi diagrams, furthest-site
+delaunay triangulations, and furthest-site voronoi diagrams. it
+runs in 2-d, 3-d, 4-d, and higher dimensions.
+
+this package contains the qhull executable that gives a pipe interface to
+some of the functionality of the library.  also included is rbox is a
+useful tool in generating input for qhull; it generates hypercubes,
+diamonds, cones, circles, simplices, spirals, lattices, and random points.
+
+qhull produces graphical output for geomview.  this helps with
+understanding the output (http://www.geomview.org).

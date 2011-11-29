@@ -1,0 +1,14 @@
+A handy off-line thesaurus based on wordnet
+	
+artha is a handy english thesaurus having distinct features like
+look up on a global hot key press, passive notifications of a
+selected text's definitions, suggestions for misspelled words, etc.
+once launched, it sits on the system tray monitoring for a pre-set
+hot key combination. when some text is selected on any window and
+the hotkey is pressed, it pops-up with the word looked-up. should
+the user prefer passive notifications over the app. popping-up,
+this can be done by enabling the notifications option.
+
+artha is written from scratch in pure c using gtk+, with wordnet
+as it database corpus. it may be used as an advanced replacement
+for the proprietary wordweb in gnu/linux environments.

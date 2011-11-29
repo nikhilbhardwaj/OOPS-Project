@@ -1,0 +1,15 @@
+Ncurses-based audio player
+	
+this package contains a text-mode client for mpd, the music player daemon.
+its goal is to provide a keyboard oriented and consistent interface to mpd,
+without wasting resources.
+
+features:
+
+ - full unicode and wide character support
+ - music database browser, database search, media library
+ - audio output configuration
+ - lyrics
+ - lirc support
+ - customizable key bindings and colors
+ - tiny memory footprint, smaller than any other interactive mpd client

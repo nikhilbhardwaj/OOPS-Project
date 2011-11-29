@@ -1,0 +1,13 @@
+Skk dictionary server using cdb for faster access
+	
+dbskkd-cdb is a dictionary server for skk japanese input systems,
+using d. j. bernstein's cdb database for faster dictionary access.
+
+dbskkd-cdb is compatible with skkserv on the protocol behavior.
+it is called from an internet super-server.
+
+this package uses the skk dictionary cdb file `skk-jisyo.cdb' that
+is provided by the skkdic-cdb package.
+
+if you want to convert your own dictionary to cdb, use the
+`makeskkcdbdic' command.  this command requires the tinycdb package.

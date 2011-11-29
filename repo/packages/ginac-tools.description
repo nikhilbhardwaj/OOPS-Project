@@ -1,0 +1,8 @@
+Some tools for the ginac symbolic framework
+	
+ginac (which stands for "ginac is not a cas (computer algebra system)") is a
+library for doing symbolic (i.e. non-numeric) computation directly in the c++
+programming language.
+
+this package provides some additional tools, like the popular ginsh (ginac
+interactive shell) and viewgar (for inspecting ginac archive files).

@@ -1,0 +1,11 @@
+Sokoban game for gpe
+	
+a clone of the sokoban game for small screen
+devices using the gpe palmtop environment.
+"sokoban" is japanese for "warehouse keeper".
+the player tries to push crates to their proper
+locations in a warehouse.
+
+crates cannot be pulled or stepped over and the
+player needs to avoid pushing crates into dead ends
+or allowing crates to block movement in the warehouse.

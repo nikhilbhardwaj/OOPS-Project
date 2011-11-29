@@ -1,0 +1,12 @@
+Enables support for package tags
+	
+debtags provides a system to download a database of package tags and keep
+it up to date.  a package tag is a small label that gets attached to a
+debian package to represent one of its qualities.
+
+a package tag database in the system can enable advanced package search
+techniques, and advanced package browsing functions in programs that
+support it.
+
+this package has been made as a way to deploy and test package tags
+support until it gets integrated in the normal debian workflow.

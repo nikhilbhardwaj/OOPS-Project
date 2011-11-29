@@ -1,0 +1,5 @@
+Greylisting daemon for postfix, written in c, uses mysql
+	
+gld stands for greylist daemon. gld is a standalone policy delegation
+server for postfix that implements the greylist algorithm as defined
+at http://www.greylisting.org

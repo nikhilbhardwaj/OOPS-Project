@@ -1,0 +1,13 @@
+A front-end for various audio players
+	
+cplay provides a user-friendly interface to play various types of
+sound files.  it offers a simple file list with which you can
+navigate around looking for audio files and a playlist to which
+you can add the files you want to play.  cplay can play the songs
+in your playlist in repeat or random mode, and offers the option
+to store the playlist.
+
+currently, the following audio formats are supported: mp3 (through
+madplay, mpg321 or splay), ogg vorbis (through ogg123), mod and
+other module formats (through mikmod or xmp), wav (through sox) and
+speex (through speex).

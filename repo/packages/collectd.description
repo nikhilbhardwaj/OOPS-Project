@@ -1,0 +1,15 @@
+Statistics collection and monitoring daemon
+	
+collectd is a small daemon which collects system information periodically and
+provides mechanisms to monitor and store the values in a variety of ways.
+since the daemon doesn't need to startup every time it wants to update the
+values it's very fast and easy on the system. also, the statistics are very
+fine grained since the files are updated every 10 seconds by default.
+
+the collected information can be used to find current performance bottlenecks
+(performance analysis) and predict future system load (capacity planning).
+
+this package provides a full installation of the daemon, including the
+configuration. for the core system, see the "collectd-core" package, which
+allows sites to, e.g., provide customizations (like a custom default
+configuration) on top of it without having to modify the "collectd" package.

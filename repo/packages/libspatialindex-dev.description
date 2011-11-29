@@ -1,0 +1,8 @@
+A general framework for developing spatial indices
+	
+spatialindex is a c++ library that provides a framework for
+developing spatial indices. currently it defines generic interfaces,
+provides simple main memory and disk based storage managers and a
+robust implementation of an r*-tree, an mvr-tree and a tpr-tree.
+
+this package contains the spatialindex shared library.

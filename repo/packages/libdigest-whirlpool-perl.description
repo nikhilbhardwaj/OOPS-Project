@@ -1,0 +1,5 @@
+A 512-bit, collision-resistant, one-way hash function
+	
+provides an interface to the whirlpool hash algorithm. this module
+subclasses digest::base and can be used either directly or through
+the digest meta-module. using the latter is recommended.

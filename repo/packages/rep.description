@@ -1,0 +1,10 @@
+Lisp command interpreter
+	
+rep is a dialect of lisp, designed to be used both as an extension
+language for applications and as a general purpose programming language.
+
+it was originally written to be mostly-compatible with emacs lisp, but has
+subsequently diverged markedly. its aim is to combine the best features of
+scheme and common lisp and provide an environment that is comfortable for
+implementing both small and large scale systems. it tries to be a
+"pragmatic" programming language.

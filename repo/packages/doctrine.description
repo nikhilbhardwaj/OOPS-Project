@@ -1,0 +1,12 @@
+Tool for object-relational mapping in php
+	
+the doctrine library sits on top of pdo and is itself divided into two
+main layers, the dbal (which represents a complete database abstraction
+api) and the orm (the bridge between the relational model and the object
+model / domain model).
+
+one of its key features is the option to write database queries in a
+proprietary object oriented sql dialect called doctrine query language
+(dql), inspired by hibernates hql. this provides developers with a
+powerful alternative to sql that maintains flexibility without requiring
+unnecessary code duplication.

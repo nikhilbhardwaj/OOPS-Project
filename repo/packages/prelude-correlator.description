@@ -1,0 +1,16 @@
+Security information management system [ correlator ]
+	
+prelude is a universal "security information management" (sim) system.
+prelude collects, normalizes, sorts, aggregates, correlates and reports all
+security-related events independently of the source or event.
+
+this package provides the prelude correlator, which is a powerful
+correlation engine using python to write correlation rules.
+
+the features currently include:
+
+ * rapid identification of important security events, enabling the analyst to
+   assign task priorities
+ * alert correlation originally from heterogeneous sensors deployed on the
+   whole infrastructure
+ * real-time analysis of events received by the prelude manager

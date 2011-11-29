@@ -1,0 +1,6 @@
+Perl smtp client library supporting tls and auth
+	
+net::smtp::tls is a tls and auth capable smtp client library which offers an
+interface that users will find familiar from net::smtp. net::smtp::tls
+implements a subset of the methods provided by that module, but certainly not
+(yet) a complete mirror image of that api.

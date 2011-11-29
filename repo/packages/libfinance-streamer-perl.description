@@ -1,0 +1,7 @@
+Perl5 module with interface to datek streamer
+	
+finance::streamer provides an interface that can be used to access data
+provided by the datek streamer data feed.
+
+it works with the new streamer (version 3) as opposed to the older
+(version 2).

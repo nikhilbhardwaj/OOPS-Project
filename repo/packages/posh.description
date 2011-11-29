@@ -1,0 +1,7 @@
+Policy-compliant ordinary shell
+	
+posh is a stripped-down version of pdksh that aims for compliance
+with debian's policy, and few extra features.
+
+warning: since many of debian's /bin/sh scripts are not actually
+policy-compliant, using posh as your /bin/sh may reveal breakage.

@@ -1,0 +1,8 @@
+An assembly course aid
+	
+a virtual machine (a cpu) created for teaching purposes. all the programs
+are written in python and are very easy to extend to incorporate new
+assembly-like pseudo-instuctions. a gtk2-based interface is provided, to
+help debugging or just examining the execution of programs.
+another program permits a tutor to create exercises and write rules to
+automatically grade the students' solutions.

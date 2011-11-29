@@ -1,0 +1,14 @@
+Nvidia vdpau driver
+	
+these libraries provide the video decode and presentation api for unix.
+they provide accelerated video playback (incl. h.264) for the supported
+graphics cards.
+this package contains the nvidia vdpau driver.
+
+see /usr/share/doc/nvidia-vdpau-driver/readme.txt.gz
+for more information.
+
+please see the nvidia-kernel-dkms or
+nvidia-kernel-source packages
+for building the kernel module required by this package.
+this will provide nvidia-kernel-195.36.31.

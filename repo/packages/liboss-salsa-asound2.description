@@ -1,0 +1,6 @@
+Oss to alsa compatibility library - binary compatibility symlink
+	
+liboss-salsa is a library providing an alsa interface on top of oss.
+
+this package contains a symbolic link that makes applications already compiled
+with alsa use liboss-salsa.

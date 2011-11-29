@@ -1,0 +1,8 @@
+Advanced front-end for dpkg
+	
+this is debian's next generation front-end for the dpkg package manager.
+it provides the apt-get utility and apt dselect method that provides a
+simpler, safer way to install and upgrade packages.
+
+apt features complete installation ordering, multiple source capability
+and several other unique features, see the users guide in apt-doc.

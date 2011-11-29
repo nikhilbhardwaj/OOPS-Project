@@ -1,0 +1,10 @@
+Javastation prom 2.x compatible replacement
+	
+proll is a 2.x prom compatible replacement for javastations, that can
+be used on emulators such as qemu or to make possible to boot linux, as
+later 3.x series of the proms are unable to boot it.
+
+javastations came with two different proms installed in them. version 2.30
+shipped with the earliest mr. coffee models, that was updated by latter
+versions of the sun netra j software environment to 3.11. krups and
+espresso came with 3.x versions of the prom by default.

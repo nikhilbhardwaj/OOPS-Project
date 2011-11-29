@@ -1,0 +1,15 @@
+Perl module to convert or render graphs (as ascii, html, svg or via graphviz)
+	
+graph::easy lets you generate graphs consisting of various shaped nodes
+connected by edges (with optional labels).
+
+it can read and write graphs in a varity of formats, as well as render
+them via its own grid-based layouter. it has export filters for graphviz,
+vcg (visualizing compiler graphs), gdl (graph description language) and
+graphml. import filters are for graphviz, vcg and gdl.
+
+since the layouter works on a grid (manhattan layout), the output is
+most useful for flow charts, network diagrams, or hierarchy trees.
+
+graph::easy has an easy-to-understand, compact and human readable graph
+description language.

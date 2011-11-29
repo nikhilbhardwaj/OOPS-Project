@@ -1,0 +1,14 @@
+Library for solving eeg and meg forward and inverse problems
+	
+openmeeg provides state-of-the art tools for processing eeg and meg
+data.
+
+the forward problem is implemented using the symmetric boundary
+element method [kybic et al, 2005], providing excellent accuracy,
+particularly for superficial cortical sources.  the source
+localization procedures implemented in openmeeg are based on a
+distributed source model, with three different types of
+regularization: the minimum norm, and the l2 and l1
+norms of the surface gradient of the sources [adde et al, 2005].
+
+this package provides static libraries and header files.

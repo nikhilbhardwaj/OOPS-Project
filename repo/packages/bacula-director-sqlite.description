@@ -1,0 +1,9 @@
+Network backup, recovery and verification - sqlite 2 director transition
+	
+this package exists to upload pre-3.0 bacula sqlite v2 installations to
+sqlite v3 with bacula 3.0.  the sqlite v2 support has been deprecated
+in bacula 3.0, and this package will get you migrated to bacula 3.0.
+
+once you are successfully migrated, you can safely delete this package.
+
+this package does nothing for people that aren't upgrading.

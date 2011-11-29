@@ -1,0 +1,6 @@
+Openldap utilities
+	
+this package provides utilities from the openldap (lightweight
+directory access protocol) package. these utilities can access a
+local or remote ldap server and contain all the client programs
+required to access ldap servers.

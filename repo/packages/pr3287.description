@@ -1,0 +1,7 @@
+Ibm 3287 printer emulation for telnet sessions to ibm mainframes
+	
+pr3287 opens a telnet connection to an ibm mainframe host and emulates an
+ibm 3287 printer.
+
+pr3278 implements rfcs 2355 (tn3270e), 1576 (tn3270),
+and 1646 (lu name selection).

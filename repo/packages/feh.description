@@ -1,0 +1,10 @@
+Imlib2 based image viewer
+	
+feh is a fast, lightweight image viewer which uses imlib2. it is
+commandline-driven and supports multiple images through
+slideshows, thumbnail browsing or multiple windows, and montages
+or index prints (using truetype fonts to display file info).
+advanced features include fast dynamic zooming, progressive
+loading, loading via http (with reload support for watching
+webcams), recursive file opening (slideshow of a directory
+hierarchy), and mouse wheel/keyboard control.

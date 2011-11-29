@@ -1,0 +1,7 @@
+Gui commit tool
+	
+qct is a gui enabled commit tool for various vcs (currently mercurial,
+bazaar, perforce, subversion, cogito/git, monotone, cvs). it aims to be
+cross-platform (linux, windows-native, macos, cygwin). it allows the user
+to view diffs, select which files to commit (or ignore / revert), write
+commit messages and perform the commit itself.

@@ -1,0 +1,28 @@
+Execute commands in a chroot environment
+	
+dchroot allows users to execute commands or interactive shells in
+different chroots.  a typical installation might provide 'stable',
+'testing' and 'unstable' chroots.  users can move between chroots as
+necessary.
+
+this package provides a dchroot-dsa binary which is compatible with
+the command-line options and configuration file format used by the
+dchroot-dsa dchroot maintained by the debian system administrators
+used on machines administered for the debian project.
+
+note: the schroot package provides a better implementation of
+dchroot-dsa.  in particular:
+
+ * dchroot-dsa only allows the specification of a single command with
+   an absolute path, and no options may be used with the command;
+   schroot allows the use of relative and absolute paths with no
+   limit on the number of options.
+ * dchroot-dsa only allows one chroot to be used at once; schroot will
+   allow the use of as many chroots as desired.
+ * dchroot-dsa allows access to be restricted to named users; schroot
+   implements finer-grained access controls based on users and groups,
+   either of which may be granted the ability to gain root access to
+   the chroot if required.
+
+using schroot will avoid these issues, as well as provide significant
+additional functionality dchroot-dsa does not possess.

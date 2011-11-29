@@ -1,0 +1,8 @@
+Python bindings for fuse (filesystems in userland)
+	
+this is a python interface to fuse.
+
+fuse (filesystem in userspace) is a simple interface for userspace
+programs to export a virtual filesystem to the linux kernel. fuse
+also aims to provide a secure method for non privileged users to
+create and mount their own filesystem implementations.

@@ -1,0 +1,9 @@
+Ocaml interface to the speex library
+	
+this package provides an interface to the speex library for
+ocaml programmers.
+
+speex is an audio codec especially designed for compressing voice at low
+bit-rates for applications such as voice over ip (voip).
+
+this package contains only the shared runtime stub libraries.

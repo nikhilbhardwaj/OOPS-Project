@@ -1,0 +1,12 @@
+Module to use perl::critic in test scripts
+	
+test::perl::critic wraps the perl::critic engine in a convenient subroutine
+suitable for test programs written using the test::more framework. this makes
+it easy to integrate coding-standards enforcement into the build process. for
+ultimate convenience (at the expense of some flexibility), see the criticism
+pragma.
+
+if you'd like to try perl::critic without installing anything, there is a web
+service available at http://perlcritic.com. the web service does not support
+all the configuration features that are available in the native perl::critic
+api, but it should give you a good idea of what it does.

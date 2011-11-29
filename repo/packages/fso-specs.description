@@ -1,0 +1,9 @@
+Freesmartphone.org dbus xml specification & documentation
+	
+the desktop-bus prepares applications to communicate with another
+by the sending of predefined signals. the process is agnostic about
+programming languages, but the collaborating tools need to agree on a
+common set of signals and their interpretation.  this package provides
+the dbus specifications of the freesmartphone.org software stack that is
+targeted for smartphones.  process these with a dbus binding generator
+to create stubs for your program.

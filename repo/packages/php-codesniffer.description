@@ -1,0 +1,7 @@
+Tokenises php code and detects violations of a defined set of coding standards
+	
+php_codesniffer is a php5 script that tokenises and "sniffs" php code
+to detect violations of a defined set of coding standards.  it is an
+essential development tool that ensures that your code remains clean
+and consistent.  it can even help prevent some common semantic errors
+made by developers.

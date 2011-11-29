@@ -1,0 +1,7 @@
+Html output stream class, and some markup utilities
+	
+the html::stream module provides you with an object-oriented
+(and subclassable) way of outputting html.  basically, you open up
+an "html stream" on an existing filehandle, and then do all of your
+output to the html stream.  you can intermix html-stream-output and
+ordinary-print-output, if you like.

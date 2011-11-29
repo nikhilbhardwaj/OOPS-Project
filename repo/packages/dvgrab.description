@@ -1,0 +1,7 @@
+Grab digital video data via ieee1394 and usb links
+	
+dvgrab receives audio and video data from a digital camcorder via an
+ieee1394 (widely known as firewire) or usb link and stores them into
+one of several file formats. it features autosplit of long video
+sequences, and supports saving the data as raw frames, avi type 1,
+avi type 2, quicktime dv, a series of jpeg stills or mpeg2-ts.

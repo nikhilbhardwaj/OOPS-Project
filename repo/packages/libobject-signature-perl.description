@@ -1,0 +1,9 @@
+Signature - generate cryptographic signatures for objects
+	
+object::signature is an abstract base class that you can inherit from in
+order to allow your objects to generate unique cryptographic signatures.
+
+the method used to generate the signature is based on storable and
+digest::md5. the object is fed to "storable::nfreeze" to get a string,
+which is then passed to digest::md5::md5_hex to get a unique 32
+character hexadecimal signature.

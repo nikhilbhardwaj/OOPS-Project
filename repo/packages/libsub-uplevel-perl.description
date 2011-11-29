@@ -1,0 +1,6 @@
+Module to spoof the perl call stack
+	
+sub::uplevel is a perl module that provides a safe implementation similar to
+tcl's uplevel() function. it allows you to safely fool the caller() into
+thinking it's in a different part of the stack, without knowing that it is
+being wrapped.

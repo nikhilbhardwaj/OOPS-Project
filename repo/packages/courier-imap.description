@@ -1,0 +1,10 @@
+Courier mail server - imap server
+	
+the courier mail transfer agent (mta) is an integrated mail/groupware
+server based on open commodity protocols, such as esmtp, imap, pop3, ldap,
+ssl, and http. courier provides esmtp, imap, pop3, webmail, and mailing list
+services within a single, consistent, framework.
+
+this package provides an imap server that accesses email stored in maildirs format mailboxes.
+this server has an extremely small footprint and provides shared and
+virtual shared folders.

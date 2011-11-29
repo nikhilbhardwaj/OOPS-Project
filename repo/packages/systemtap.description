@@ -1,0 +1,11 @@
+Instrumentation system for linux 2.6
+	
+systemtap provides infrastructure to simplify the gathering of
+information about the running linux system.
+this assists diagnosis of a performance or functional problem.
+systemtap eliminates the need for the developer to go through the
+tedious and disruptive instrument, recompile, install, and reboot
+sequence that may be otherwise required to collect data.
+
+systemtap provides a simple command line interface and scripting
+language for writing instrumentation for a live running system.

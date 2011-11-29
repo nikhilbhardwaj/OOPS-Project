@@ -1,0 +1,35 @@
+Php pear database abstraction layer
+	
+db is a database abstraction layer providing:
+
+ * an oo-style query api
+ * portability features that make programs written for one dbms work
+   with other dbms's
+ * a dsn (data source name) format for specifying database servers
+ * prepare/execute (bind) emulation for databases that don't support it
+   natively
+ * a result object for each query response
+ * portable error codes
+ * sequence emulation
+ * sequential and non-sequential row fetching as well as bulk fetching
+ * formats fetched rows as associative arrays, ordered arrays or objects
+ * row limit support
+ * transactions support
+ * table information interface
+ * docbook and phpdocumentor api documentation
+
+
+db layers itself on top of php's existing database extensions.
+
+drivers for the following extensions pass the complete test suite and
+provide interchangeability when all of the database's portability
+options are enabled:
+
+ fbsql, ibase, informix, msql, mssql,
+ mysql, mysqli, oci8, odbc, pgsql,
+ sqlite and sybase.
+
+
+there is also a driver for the dbase extension, but it can't be used
+interchangeably because dbase doesn't  support many standard dbms
+features.

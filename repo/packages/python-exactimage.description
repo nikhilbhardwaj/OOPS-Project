@@ -1,0 +1,7 @@
+Fast image manipulation library (python bindings)
+	
+exactimage is a fast c++ image processing library. unlike many other library
+frameworks it allows operation in several color spaces and bit depths
+natively, resulting in low memory and computational requirements.
+
+this package contains the python bindings.

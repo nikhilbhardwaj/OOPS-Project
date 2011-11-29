@@ -1,0 +1,20 @@
+Convert media files to free formats
+	
+oggconvert is a small gnome utility which uses gstreamer to convert
+(almost) any media file to the patent-free ogg vorbis, theora and
+dirac formats.
+
+the main interesting points are:
+
+ * it is very easy to use: drag a file onto the source bar (or use
+   the file chooser) and hit convert button. of course, you can also change
+   the video format, quality settings and the output filename if you like.
+ * it uses gstreamer, so it can convert (almost) any file totem can play.
+ * it can deal with audio-only files, video-only files, and files with many
+   audio tracks (such as dvd rips with a commentary track).
+ * thanks to the magic of gstreamer, metadata (for example, title and artist
+   info on an mp3) is preserved.
+ * adheres to the gnome hig as much as possible.
+ * supports the schroedinger encoder for encoding to the dirac video format
+   (note that this encoder is currently experimental).
+ * supports encoding to the matroska container format.

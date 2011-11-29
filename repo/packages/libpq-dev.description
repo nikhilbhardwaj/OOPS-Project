@@ -1,0 +1,7 @@
+Header files for libpq5 (postgresql library)
+	
+header files and static library for compiling c programs to link
+with the libpq library in order to communicate with a postgresql
+database backend.
+
+postgresql is an object-relational sql database management system.

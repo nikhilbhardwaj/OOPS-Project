@@ -1,0 +1,5 @@
+Erlang/otp internet clients and servers
+	
+inets is a container for internet clients and servers. currently
+a ftp client, a http client and server, and a tftp client and
+server are provided in inets.

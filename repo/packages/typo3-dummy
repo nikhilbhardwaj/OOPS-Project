@@ -1,0 +1,4 @@
+PackageId:33513
+Name:typo3-dummy
+Version:4.3.0-4.1
+Deps:dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,graphicsmagick,lsb-base,php5,php5-cli,php5-gd,php5-mysql,php5-xcache,typo3-src-4.3

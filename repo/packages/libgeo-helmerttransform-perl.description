@@ -1,0 +1,16 @@
+Transformations between coordinates in different datums
+	
+it is usual to describe geographical points in terms of their polar coordinates
+(latitude, longitude and altitude) referenced to a "datum ellipsoid", which is
+used to approximate the earth's geoid. the latitude, longitude and altitude of
+a given physical point vary depending on which datum ellipsoid is in use.
+unfortunately, a number of ellipsoids are in everyday use, and so it is often
+necessary to transform geographical coordinates between different datum
+ellipsoids.
+
+two different datum ellipsoids may differ in the locations of their centers, or
+in their shape; and there may be an angle between their equatorial planes or
+the meridians relative to which longitude is measured. the helmert transform,
+which this module implements, is a linear transformation of coordinates between
+pairs of datum ellipsoids in the limit of small angles of deviation between
+them.

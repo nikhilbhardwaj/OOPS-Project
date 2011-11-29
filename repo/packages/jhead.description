@@ -1,0 +1,8 @@
+Manipulate the non-image part of exif compliant jpeg files
+	
+jhead is a command line driven utility for extracting digital camera settings
+from the exif format files used by many digital cameras. it handles the
+various confusing ways these can be expressed, and displays them as f-stop,
+shutter speed, etc. it is also able to reduce the size of digital camera jpegs
+without loss of information, by deleting integral thumbnails that digital
+cameras put into the exif header.

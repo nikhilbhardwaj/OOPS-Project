@@ -1,0 +1,7 @@
+Tiny and flexible webcam program
+	
+fswebcam is a tiny and flexible webcam command-line program for capturing
+images from a v4l1/v4l2 device. it accepts a number of formats, can skip
+the first (possibly bad) frames before performing the actual capture, and
+can perform simple manipulation on the captured image, such as resizing,
+averaging multiple frames or overlaying a caption or an image.

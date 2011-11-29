@@ -1,0 +1,15 @@
+Emdebian crossbuilding helpers
+	
+a collection of scripts and checks to ease cross-building debian
+packages for emdebian to make functional changes that benefit
+embedded systems and reducing the length of dependency chains.
+
+this package primarily serves to support emdebian crush, the
+cross-built distribution using busybox and lacking perl support.
+for emdebian grip or emdebian baked support, see the emdebian-grip
+package.
+
+this package also includes the extra checks for lintian previously
+part of emdebian-qa to test built packages against emdebian policy.
+
+http://wiki.debian.org/emdebianpolicy

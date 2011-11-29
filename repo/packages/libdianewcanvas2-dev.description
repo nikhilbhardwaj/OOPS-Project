@@ -1,0 +1,17 @@
+A gtk+2 vectorial canvas with extra features
+	
+dia-newcanvas is a gtk+2 vectorial widget that has got extra features
+as compared to gnome canvas:
+
+
+   * split data/view done through a renderer interface
+   * grid
+   * connections, attracted/attraction points
+   * easy customizatoin
+   * multiple renderers (gdk implemented, anti-aliased and gnome-print
+     planned)
+   * multiple views ability
+
+
+this package contains the header files and static library needed for
+development of programs using dia-newcanvas.

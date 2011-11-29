@@ -1,0 +1,12 @@
+Relational persistence for idiomatic java
+	
+hibernate is a powerful, high performance object/relational persistence
+and query service. hibernate lets you develop persistent classes
+following object-oriented idiom - including association, inheritance,
+polymorphism, composition, and collections. hibernate allows you to
+express queries in its own portable sql extension (hql), as well as in
+native sql, or with an object-oriented criteria and example api.
+
+unlike many other persistence solutions, hibernate does not hide the
+power of sql from you and guarantees that your investment in relational
+technology and knowledge is as valid as always.

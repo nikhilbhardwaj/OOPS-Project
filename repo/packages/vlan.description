@@ -1,0 +1,10 @@
+User mode programs to enable vlans on your ethernet devices
+	
+this package contains the user mode programs you need to add and remove
+vlan devices from your ethernet devices.
+
+a typical application for a vlan enabled box is a single wire firewall,
+router or load balancer.
+
+you need a vlan linux kernel for this.  linux kernel versions >= 2.4.14
+have vlan support.

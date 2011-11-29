@@ -1,0 +1,30 @@
+Library for working with graphs in python
+	
+this software provides a suitable data structure for representing graphs and a
+whole set of important algorithms.
+
+provided features and algorithms:
+
+
+ * support for directed, undirected, weighted and non-weighted graphs
+ * support for hypergraphs
+ * canonical operations
+ * xml import and export
+ * dot-language output (for usage with graphviz)
+ * random graph generation
+
+
+
+ * accessibility (transitive closure)
+ * breadth-first search
+ * critical path algorithm
+ * cut-vertex and cut-edge identification
+ * cycle detection
+ * depth-first search
+ * heuristic search (a* algorithm)
+ * identification of connected components
+ * minimum spanning tree (prim's algorithm)
+ * mutual-accessibility (strongly connected components)
+ * shortest path search (dijkstra's algorithm)
+ * topological sorting
+ * transitive edge identification

@@ -1,0 +1,7 @@
+Graphical sound mixer for alsa
+	
+this package contains a graphical front-end (using the gtk+ toolkit) for
+controlling sound volume.
+
+this program interfaces with the alsa native mixer device, and does not
+support oss devices.

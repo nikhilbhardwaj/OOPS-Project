@@ -1,0 +1,6 @@
+Python code metric reporting tool
+	
+pymetrics produces metrics for python programs. metrics include mccabe's
+cyclomatic complexity metric, loc, %comments, etc. users can also define their
+own metrics using data from pymetrics. pymetrics optionally outputs stdout,
+sql command files and csv

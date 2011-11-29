@@ -1,0 +1,13 @@
+Perl modules for converting state, province etc names to/from code
+	
+locale::subcountry allows you to convert the full name for a countries'
+administrative region to the code commonly used for postal
+addressing.  the reverse conversion can also be done. the codes are
+defined in "iso 3166-2:1998, codes for the representation of names of
+countries and their subdivisions".
+
+subcountry regions are defined as states in the us and australia,
+provinces in canada and counties in the uk.
+
+additionally, names and codes for all subcountry regions in a country
+can be returned as either a hash or an array.

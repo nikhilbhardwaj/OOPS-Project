@@ -1,0 +1,8 @@
+Development files of library for system statistics
+	
+libstatgrab is a library which provides an easy to use interface
+for accessing system statistics. available statistics include cpu,
+load, memory, swap, disk i/o, and network i/o.
+
+this package contains files needed if you wish to use the libstatgrab
+library in your own programs.

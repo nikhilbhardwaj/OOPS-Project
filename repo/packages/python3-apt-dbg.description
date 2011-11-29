@@ -1,0 +1,7 @@
+Python 3 interface to libapt-pkg (debug extension)
+	
+the apt_pkg python 3 interface will provide full access to the internal
+libapt-pkg structures allowing python 3 programs to easily perform a
+variety of functions.
+
+this package contains the extension built for the python debug interpreter.

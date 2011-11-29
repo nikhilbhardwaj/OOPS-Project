@@ -1,0 +1,14 @@
+Epp xml frame system built on xml::libxml
+	
+epp is the extensible provisioning protocol. epp (defined in rfc 4930) is an
+application layer client-server protocol for the provisioning and management
+of objects stored in a shared central repository. specified in xml, the
+protocol defines generic object management operations and an extensible
+framework that maps protocol operations to objects. as of writing, its only
+well-developed application is the provisioning of internet domain names,
+hosts, and related contact details.
+
+epp uses xml documents called "frames" send data to and from clients and
+servers. net::epp implements a subclass of the xml::libxml::document module
+that simplifies the process of creation of these frames. it is designed to be
+used alongside the net::epp::client module.

@@ -1,0 +1,29 @@
+Backup tool using minidv camcorders
+	
+dvbackup hides the data it receives on standard input in a perfectly
+legal dv (digital video) stream. this allows you to use your dv camcorder
+and your dv cardridges as a potent mass storage system. obviously, your
+system and your camcorder have to be connected via ieee1394 (aka firewire,
+ilink).
+
+current digital camcorders can save approximately 13 gb of data on those
+tiny dv cartridges at a speed of 3.6 mb/sec. that's faster than most
+dat streamers which only work at 1 mb/sec or less. dvbackup can not use all of
+the data, but 10 gb should be good enough for everyone.
+
+to bring the data on tape, you have to use an additional utility, called
+dvconnect, which is included in libdv-bin.
+
+this packages also contains rsbep, an implementation of a special version of
+the reed-solomon fec (forward error correction) algorithm. rsbep also
+spreads the bytes of the resulting blocks out to give some protection
+against burst errors (e.g from tape-recordings). it should be used in a
+pipe together with dvbackup (before dvbackup while encoding and after
+it while decoding). rsbep should be sufficient to make the lp mode of
+your camcorder usable. this mode, which puts about 50% more data
+on the cardridge would otherwise be too error-prone. rsbep is the
+fast implementation in i386 assembler, rsbepc uses pure c and is
+significantly slower (about ten times).
+
+website: <http://dvbackup.sourceforge.net/> and
+<http://www.s.netic.de/gfiala/rsbep.html>.

@@ -1,0 +1,7 @@
+Multi-tabbed gtk/vte terminal emulator
+	
+roxterm is a terminal emulator based on the vte library. it was originally
+intended to be a lightweight alternative to gnome-terminal, but its role has
+shifted to providing a richer range of features for power users. it can be used
+as a rox application, as the name implies, but also integrates well with other
+x desktop environments such as gnome.

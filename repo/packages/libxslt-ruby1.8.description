@@ -1,0 +1,7 @@
+Ruby interface to libxslt (for ruby 1.8)
+	
+libxslt-ruby is a simple ruby interface for processing xslt.
+it's based on libxml (xmlsoft.org) and libxslt (xmlsoft.org/xslt),
+including exslt support and passing parameters to stylesheets.
+
+this package is built for ruby 1.8.

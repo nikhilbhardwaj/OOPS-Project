@@ -1,0 +1,10 @@
+Threaded news reader (fast for slow links)
+	
+slrn is a threaded news reader with color support that is designed to
+read news fast over slow links.
+
+slrn can read usenet news via nntp or directly from a local news spool.
+
+slrn can be heavily customized from its rc file, and even includes a
+built in macro language. there is also support for killfiles and
+article scoring.

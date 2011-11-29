@@ -1,0 +1,12 @@
+Haskell bindings to the bzip2 library
+	
+
+this package provides a pure interface for compressing and decompressing
+streams of data represented as lazy bytestrings. it uses the bz2 c library
+so it has high performance.
+
+it provides a convenient high level api suitable for most tasks and for the
+few cases where more control is needed it provides access to the full bzip2
+feature set.
+
+this package contains the libraries compiled for ghc 6.

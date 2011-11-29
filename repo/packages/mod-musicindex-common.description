@@ -1,0 +1,10 @@
+Common files for mod-musicindex
+	
+mod_musicindex is aimed at being a c alternative to the perl module
+apache::mp3 (http://search.cpan.org/dist/apache-mp3/).
+it allows nice displaying of directories containing mp3 or ogg vorbis and
+flac files, including sorting them on various fields, streaming/downloading
+them, constructing playlists and searching.
+
+this package includes platform independent data for libapache2-mod-musicindex
+and is useless without it.

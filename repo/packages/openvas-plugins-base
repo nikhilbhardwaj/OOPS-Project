@@ -1,0 +1,4 @@
+PackageId:26589
+Name:openvas-plugins-base
+Version:1:20100705-1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcrypt11,libglib2.0-0,libgnutls26,libopenvas2,libpcap0.8,rsync

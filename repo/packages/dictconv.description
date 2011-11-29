@@ -1,0 +1,7 @@
+Convert a dictionary file type in another dictionary file type
+	
+dictconv is a small program to convert a dictionay file type in another
+dictionary file type. currently, it supports converting from babylon
+glossaries, freedict dictionaries, sdictionary dictionaries and stardict
+dictionaries to dict dictionaries, plain text dictionaries and stardict
+dictionaries. more file types will be added in new versions.

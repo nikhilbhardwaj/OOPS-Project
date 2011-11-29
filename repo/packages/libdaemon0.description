@@ -1,0 +1,17 @@
+Lightweight c library for daemons - runtime library
+	
+libdaemon is a leightweight c library which eases the writing of unix daemons.
+it consists of the following parts:
+
+
+ * wrapper around fork() for correct daemonization of a process
+ * wrapper around syslog() for simple log output to syslog or stderr
+ * an api for writing pid files
+ * an api for serializing signals into a pipe for use with select() or poll()
+ * an api for running subprocesses with stdout and stderr redirected to syslog
+
+
+routines like these are included in most of the daemon software available. it
+is not simple to get these done right and code duplication is not acceptable.
+
+this package includes the libdaemon run time shared library.

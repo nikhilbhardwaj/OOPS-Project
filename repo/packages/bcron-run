@@ -1,0 +1,4 @@
+PackageId:1031
+Name:bcron-run
+Version:0.09-11
+Deps:adduser,bcron,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,runit,ucspi-unix

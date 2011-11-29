@@ -1,0 +1,13 @@
+Modem internet connection tool for the gnome desktop
+	
+gnome ppp is an easy to use graphical dialup connection configuring
+and dialing tool with system tray icon support.
+
+it uses gnome/gtk+ for its graphical interface and integrates well
+in gnome desktop environment, but it can be used in other environments.
+
+it also uses wvdial dialer as its backend, providing simple configuration
+via config files. you can also use plain wvdial if you don't have x running.
+
+
+ homepage: http://www.gnome-ppp.org/

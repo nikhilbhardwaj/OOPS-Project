@@ -1,0 +1,10 @@
+Socks4 server for proxying ip-based services over a firewall
+	
+this is version 4.3 of socks, a package that allows unix hosts
+behind a firewall to gain full access to the internet without requiring
+direct ip reachability. it does require a socks server program being
+run on a hosts that can communicate directly to hosts behind the firewall
+as well as hosts on the internet at large.  it is based on the original
+socks written by david koblas <koblas@netcom.com>.
+
+this package includes the socks server.

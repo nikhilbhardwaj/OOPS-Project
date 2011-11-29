@@ -1,0 +1,12 @@
+Set of basic utilities for writing tests in perl
+	
+test::simple is an extremely simple module for writing tests suitable for cpan
+modules and other pursuits.
+
+this package also includes the following modules:
+
+ * test::builder - backend for building test libraries
+ * test::builder::module - base class for test modules
+ * test::builder::tester - test testsuites that are built with test::builder
+ * test::builder::tester::color - turn on colour in test::builder::tester
+ * test::more - yet another framework for writing test scripts

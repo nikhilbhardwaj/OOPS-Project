@@ -1,0 +1,8 @@
+Erlang/otp modules for handling abstract erlang syntax trees
+	
+syntax_tools contains modules for handling abstract erlang syntax
+trees in a way that is compatible with the "parse trees" of the
+stdlib module erl_parse, together with utilities for reading source
+files in unusual ways and pretty-printing syntax trees. also it
+includes a module merger and renamer called igor, as well as an
+automatic code-cleaner.

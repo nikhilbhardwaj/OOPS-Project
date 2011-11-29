@@ -1,0 +1,7 @@
+Gphoto2 digital camera port library
+	
+the gphoto2 library can be used by applications to access various
+digital camera models, via standard protocols such as usb mass storage
+and ptp, or vendor-specific protocols.
+
+this package contains the runtime code for port access.

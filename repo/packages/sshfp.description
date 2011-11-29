@@ -1,0 +1,6 @@
+Dns sshfp records generator
+	
+sshfp generates rfc4255 sshfp dns records based on the public keys stored in
+a known_hosts file, or public keys can be obtained by using ssh-keyscan.
+serve these entries from the dns server for your domain to provide
+authentication via the ssh verifyhostkeydns option.

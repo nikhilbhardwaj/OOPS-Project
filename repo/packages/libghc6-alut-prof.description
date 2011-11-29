@@ -1,0 +1,10 @@
+Haskell alut binding for ghc; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+
+this library provides a haskell binding for the openal utility toolkit,
+which makes managing of openal contexts, loading sounds in various formats
+and creating waveforms very easy. for more information about the
+c library on which this binding is based, please see:
+<http://www.openal.org/openal_webstf/specs/alut.html>.

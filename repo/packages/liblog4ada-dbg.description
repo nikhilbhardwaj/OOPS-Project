@@ -1,0 +1,8 @@
+An ada library for flexible logging (debug)
+	
+log4ada is a library that eases logging in applications written in
+ada. it is modelled after, and compatible with, log4j.  for more
+information about the logging scheme developed in this library see
+the log4j project : http://logging.apache.org/log4j/docs/
+
+this is the library containing debugging symbols for log4ada.

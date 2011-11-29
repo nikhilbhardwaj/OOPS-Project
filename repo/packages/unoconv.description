@@ -1,0 +1,9 @@
+Converter between openoffice.org document formats
+	
+this package provides a commandline utility which can convert from
+any document format that openoffice can import to any document format
+it can export. it uses openoffice's uno bindings for non-interactive
+conversion of documents.
+
+supported document formats include open document format, ms word, ms
+office open/ms ooxml, pdf, html, xhtml, rtf, docbook, and more.

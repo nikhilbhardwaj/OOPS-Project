@@ -1,0 +1,9 @@
+Univeral child process handling library
+	
+systemu is a ruby library to handle spawned processes in a platform
+independent fashion.  this library will capture stdout and stderr and
+track child process pid.
+
+this package is a dependency package, which depends on the package
+containing actual ruby systemu library for the default ruby version
+(currently 1.8).

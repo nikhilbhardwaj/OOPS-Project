@@ -1,0 +1,11 @@
+Cryptographically identify the sender of email - perl library
+	
+rfc 4871, domainkeys identified mail (dkim), defines a domain-level
+authentication framework for email using public-key cryptography and
+key server technology to permit verification of the source and
+contents of messages by either mail transport agents (mtas) or mail
+user agents (muas).
+
+this is a perl implementation created by jason long of messiah
+college. it performs signing as well as signature verification. it
+also supports the older domainkeys standard.

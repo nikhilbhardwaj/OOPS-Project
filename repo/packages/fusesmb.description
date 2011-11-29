@@ -1,0 +1,8 @@
+Filesystem client based on the smb file transfer protocol
+	
+fusesmb is a filesystem client based on the smb file transfer protocol. this
+gives the ability to transparently exchange files with microsoft windows
+servers and unix servers running samba.
+
+it is based on fuse (userspace filesystem framework for linux), thus you will
+have to prepare fuse kernel module to be able to use it.

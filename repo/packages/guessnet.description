@@ -1,0 +1,21 @@
+Guess which lan a network device is connected to
+	
+guessnet is a non-aggressive network detection tool to use when moving
+a machine among networks which don't necessarily provide dhcp.
+
+guessnet takes in input a list of candidate network profiles,
+each of which includes a test description; then it runs all
+the tests in parallel and prints the name of the profile whose
+test was the first one to succeed.
+
+available tests are:
+
+ * arp probes to check for known hosts in the network
+ * link beat check, to check if the interface is connected to anything
+ * pppoe check to see if there is a concentrator accessible via pppoe
+ * checks provided by custom arbitrary scripts.
+
+
+guessnet can be used in either native mode or "ifupdown mode".
+in the latter case guessnet integrates nicely with ifupdown
+as a "mapping script".

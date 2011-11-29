@@ -1,0 +1,29 @@
+The ansi c spf reference library (runtime library)
+	
+libspf is an ansi c implementation of the spf ("sender policy framework").
+libspf's focus is to be as small and as portable as possible and to provide
+a working example of how spf would ideally be implemented for authors of
+mta's and implementors of rfc's 2821 and 2822. libspf currently only
+implements explicitly what is set out in the spf internet draft as it was
+sent off to the i-d archive (see the blurb file in the package for more
+information).
+
+technical tidbits about the underlying implementation are that libspf
+employs an "on the fly" parse method where records are evaluated in a
+byte by byte manner allowing the parser to return results at the first
+sign of success or failure for much of the spf query language. this
+parsing method affords a speed advantage over all other implementations
+which perform an unnecessary validation of the entire query before
+moving on to data evaluation. great care has been taken to use unsigned
+integers whenever possible, and to employ only safe string handling
+functions (eg: snprintf over sprintf). further care has been spent
+allocating memory only to the very byte that is necessary and employing
+dynamic allocation where appropriate. several memory leak detection
+implementations most notably valgrind have been employed since the
+beginning to ensure that memory is not leaked, and every single byte of
+allocated memory is explicitly freed irregardless of the natural cleanup
+of a modern kernel. this attention to detail has led to an efficient
+and secure library with which it is hoped will lend confidence to those
+who intend to implement it.
+
+this package provides the runtime library for libspf.

@@ -1,0 +1,7 @@
+Parse and write sieve scripts
+	
+net::sieve::script provides a way to read, parse and write sieve file script,
+with access to rule, action and condition objects.
+
+support for rfc 5228 - sieve base, rfc 5231 - relational, rfc 5230 -
+vacation,  draft regex.

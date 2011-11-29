@@ -1,0 +1,8 @@
+Speech recognition library - default acoustic model
+	
+sphinx 2 is a real-time, speaker-independent speech recognition system.
+
+this package contains an acoustic model for sphinx-ii trained for
+close-talking microphones.  it is the default acoustic model used by
+the demos, and should provide adequate performance for most desktop
+applications.

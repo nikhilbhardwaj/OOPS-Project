@@ -1,0 +1,16 @@
+Nvidia binary xorg driver
+	
+these binary drivers provide optimized hardware acceleration of
+opengl applications via a direct-rendering x server.
+agp, pcie, sli, tv-out and flat panel displays are also supported.
+please see the nvidia-kernel-dkms or
+nvidia-kernel-source packages
+for building the kernel module required by this package.
+this will provide nvidia-kernel-195.36.31.
+
+this version only supports geforce 6xxx and higher of the geforce gpus
+plus complimentary quadros and nforce.  look at the legacy packages
+for older cards.
+
+see /usr/share/doc/nvidia-glx/readme.txt.gz
+for a complete list of supported gpus and pci ids.

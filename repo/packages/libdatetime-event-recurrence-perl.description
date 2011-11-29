@@ -1,0 +1,8 @@
+Perl module to create recurring datetime instances
+	
+datetime::event::recurrence provides a way to create sets of datetime objects
+the recur at specified intervals. often, you will want datetime::set objects
+for dates that should occur at intervals like "once a month" or "every day."
+
+more complex relationships can be created too, such as, "every monday,
+wednesday and thursday at 10:00 am and 2:00 pm."

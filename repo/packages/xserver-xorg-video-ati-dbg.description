@@ -1,0 +1,10 @@
+X.org x server -- amd/ati display driver wrapper (debugging symbols)
+	
+this package provides the 'ati' driver for the amd/ati mach64, rage128,
+radeon, firegl, firemv, firepro and firestream series. this driver is
+actually a wrapper that loads one of the 'mach64', 'r128' or 'radeon'
+sub-drivers depending on the hardware.
+these sub-drivers are brought through package dependencies.
+
+this package provides debugging symbols for this x.org x driver wrapper
+and brings debugging symbols for sub-drivers through package dependencies.

@@ -1,0 +1,12 @@
+Probabilistic consistency-based multiple sequence alignment
+	
+tool for generating multiple alignments of protein sequences. using a
+combination of probabilistic modeling and consistency-based alignment
+techniques, probcons has achieved the highest accuracies of all alignment
+methods to date. on the balibase benchmark alignment database, alignments
+produced by probcons show statistically significant improvement over current
+programs, containing an average of 7% more correctly aligned columns than
+those of t-coffee, 11% more correctly aligned columns than those of clustal w,
+and 14% more correctly aligned columns than those of dialign. probcons is
+published in  do, c.b., mahabhashyam, m.s.p., brudno, m., and batzoglou, s.
+2005.  genome research 15: 330-340.

@@ -1,0 +1,5 @@
+Perl library for parity functions.
+	
+perl library providing parity functions for working with even, odd, mark and
+space parity.  don't use this module unless you have to communicate with some
+old device or protocol.

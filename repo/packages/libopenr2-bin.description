@@ -1,0 +1,10 @@
+Mfc/r2 (telephony) call setup library - test programs
+	
+openr2 is a library that implements the mfc/r2 telephony signalling
+over e1 lines using the dahdi telephony interface.
+
+the mfc/r2 protocol is a telephony signalling protocol, widely used in latin
+america, china and africa, similar to the isdn protocols found in most of
+europe and north america
+
+this package contains r2test - test-driver for libopenr2.

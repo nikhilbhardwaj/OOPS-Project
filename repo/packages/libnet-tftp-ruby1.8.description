@@ -1,0 +1,8 @@
+This is a pure ruby implementation of tftp
+	
+it is used by many devices to upload or download their configuration,
+firmware or else. it is a very simple file transfer protocol built on top
+of udp. it transmits data by chunk of 512 bytes. it waits for an ack after
+each data packet but does not do any data integrity checks.
+there is no authentication mechanism nor any way too list the content of
+the remote directories. it just sends or retrieves files.

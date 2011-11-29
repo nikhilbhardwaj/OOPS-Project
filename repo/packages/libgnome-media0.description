@@ -1,0 +1,7 @@
+Runtime libraries for the gnome media utilities
+	
+this package contains media-related libraries used by the gnome
+suite:
+
+ * libgnome-media-profiles, which manages a store of media profiles
+   for software using gstreamer to encode audio data.

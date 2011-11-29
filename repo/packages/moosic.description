@@ -1,0 +1,11 @@
+Daemon/client combo to easily queue music files for playing
+	
+moosic is a music player that focuses on easy playlist management. it consists
+of a server process that maintains a queue of music files to play and a client
+program which sends commands to the server. the server continually runs through
+its playlist, popping items off the top of the list and playing each with an
+external program. the client is a simple command-line utility which allows you
+to perform powerful operations upon the server's queue, including the addition
+of whole directory trees, automatic shuffling, and item removal according to
+regular expressions. the server comes configured to play mp3, ogg, midi, mod,
+and wav files.

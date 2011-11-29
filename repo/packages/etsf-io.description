@@ -1,0 +1,29 @@
+Binary tools to check, merge and read etsf files
+	
+the european theoretical spectroscopy facility (etsf) is a european
+network dedicated to providing support and services for ongoing
+research in academic, government and industrial laboratories.
+
+the etsf is divided into 7 beamlines, each of which is concerned with
+a specific scientific topic:
+
+ - optics ;
+ - energy loss spectroscopy ;
+ - quantum transport ;
+ - time-resolved spectroscopy ;
+ - photo-emission spectroscopy ;
+ - vibrational spectroscopy ;
+ - x-rays spectroscopy.
+
+
+to allow the adoption of its recommendations about standardization, the
+etsf proposes different libraries and tools implementing or using these
+specifications, as well as widely usable pieces of software.
+
+etsf_io is a library of f90 routines to read/write the etsf file format.
+this package contains the user tools to:
+
+ - check file conformance to the specifications;
+ - extract data from files;
+ - merge multiple files from parallel runs, as specified in the
+   specifications.

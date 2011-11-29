@@ -1,0 +1,22 @@
+Multiplex output to multiple output handles
+	
+io::tee objects can be used to multiplex input and output in two
+different ways.  the first way is to multiplex output to zero or more
+output handles.  the io::tee constructor, given a list of output
+handles, returns a tied handle that can be written to.  when written
+to (using print or printf), the io::tee object multiplexes the
+output to the list of handles originally passed to the constructor.
+as a shortcut, you can also directly pass a string or an array
+reference to the constructor, in which case io::file::new is called
+for you with the specified argument or arguments.
+
+the second way is to multiplex input from one input handle to zero or
+more output handles as it is being read.  the io::tee constructor,
+given an input handle followed by a list of output handles, returns a
+tied handle that can be read from as well as written to.  when written
+to, the io::tee object multiplexes the output to all handles passed
+to the constructor, as described in the previous paragraph.  when read
+from, the io::tee object reads from the input handle given as the
+first argument to the io::tee constructor, then writes any data
+read to the output handles given as the remaining arguments to the
+constructor.

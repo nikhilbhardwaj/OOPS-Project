@@ -1,0 +1,9 @@
+Instrumentation system for linux 2.6 (runtime component)
+	
+this package contains staprun program that can be used to run
+compiled systemtap probes.
+
+systemtap provides infrastructure to simplify the gathering of
+information about the running linux system.
+
+to be able to write new systemtap probes, install systemtap package.

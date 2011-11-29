@@ -1,0 +1,16 @@
+Create custom debian-installer cds
+	
+simple-cdd is a limited though relatively easy tool to create a customized
+debian-installer cd.
+
+it includes simple mechanisms to create "profiles" that define common system
+configurations, which can be selected during system installation. simple-cdd
+also makes it easy to build cds with language and country settings
+pre-configured.
+
+this can be used to create a crude "custom debian distribution" using packages
+from debian, with pre-configuration of packages that use debconf.  custom
+configuration scripts can be specified to handle packages that don't support
+debconf pre-configuration.
+
+testing cd images with qemu is also made simple with a provided script.

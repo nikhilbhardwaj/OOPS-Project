@@ -1,0 +1,12 @@
+Java library implementing the dependency injection pattern
+	
+picocontainer is a highly embeddable full service inversion of control
+(ioc) container for components honour the dependency injection pattern.
+it can be used as a lightweight alternative to sun's j2ee patterns for
+web applications or general solutions.
+
+despite it being very compact in size (the core is ~128k and it has no
+mandatory dependencies outside the jdk), picocontainer supports
+different dependency injection types (constructor, setter, annotated
+field and method) and offers multiple lifecycle and monitoring
+strategies.

@@ -1,0 +1,15 @@
+Talk client for the emacs editor
+	
+gnu talk supports talk protocols 0 & 1. defines protocol 2.
+client supports multiple connections, file transfer,
+primitive encryption, shared apps, auto-answer, multiple
+front-ends including gtk+ and emacs.
+
+the daemon collects request versions 0, 1, & 2 together,
+and permits interaction between clients of different
+types.
+
+also supports mru tty announce, announce-redirect,
+blacklists, and tty-bomb filtering.
+
+this package contains the elisp files for emacs.

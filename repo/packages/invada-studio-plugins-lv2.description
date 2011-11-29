@@ -1,0 +1,53 @@
+Invada studio plugins - a set of lv2 audio plugins
+	
+distortion plugins
+
+  tube - (mono and stereo version)
+
+valve warmth/distortion simulation.
+
+delay plugins
+
+  delay munge - (mono and sum version)
+
+delay with munged (non-linear) feedback & delay calculator.
+
+dynamics plugins
+
+  compressor - (mono and stereo version)
+
+peak/rms soft-clipping compressor.
+
+filter plugins
+
+  low pass (mono and stereo version)
+  high pass (mono and stereo version)
+
+gentle high pass and low pass filters.
+
+phaser plugins
+
+  stereo phaser (mono, stereo and sum version)
+
+long slow stereo phaser.
+
+reverb plugins
+
+  er reverb - (mono and sum version)
+
+early reflection based reverb.
+
+utility plugins
+
+  input module (stereo only)
+
+alter gain, balance, width, phase on a stereo signal.
+
+  meters (stereo only)
+
+peak, vu, phase and spectrograph meters.
+
+  test tones (mono only)
+
+generate testtones at specific frequencies.
+.

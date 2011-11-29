@@ -1,0 +1,13 @@
+Python modules to work with debian-related data formats
+	
+this package provides python modules that abstract many formats of debian
+related files. currently handled are:
+
+ * debtags information (debian.debtags module)
+ * debian/changelog (debian.changelog module)
+ * packages files, pdiffs (debian.debian_support module)
+ * control files of single or multiple rfc822-style paragraphs, e.g.
+   debian/control, .changes, .dsc, packages, sources, release, etc.
+   (debian.deb822 module)
+ * raw .deb and .ar files, with (read-only) access to contained
+   files and meta-information

@@ -1,0 +1,7 @@
+Bazaar plugin to grep files and history
+	
+a plugin for bazaar that adds the ability to grep files and history in
+a repository.
+
+this command searches the specified files and revisions for a given
+pattern. the pattern is specified as a python regular expressions.

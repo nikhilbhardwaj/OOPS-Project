@@ -1,0 +1,9 @@
+Gnome frontend for fax programs
+	
+the gfax project aims to provide a free front end to the various facsimile
+programs available for linux and other operating systems that use the gnome
+project.
+this is a gnome-2.x port of gfax and is written in c# using mono and gtk#.
+
+gfax provides the familiar "pop up" window and phone book support when one
+"prints" to a "fax" printer.

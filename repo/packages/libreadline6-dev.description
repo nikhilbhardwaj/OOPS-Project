@@ -1,0 +1,11 @@
+Gnu readline and history libraries, development files
+	
+the gnu readline library aids in the consistency of user interface
+across discrete programs that need to provide a command line
+interface.
+
+the gnu history library provides a consistent user interface for
+recalling lines of previously typed input.
+
+this package contains development files and the readline documentation
+in info format.

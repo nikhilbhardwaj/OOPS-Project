@@ -1,0 +1,14 @@
+Interior-point optimizer - header files
+	
+ipopt is an open-source solver for large-scale nonlinear continuous
+optimization. it can be used from modeling environments, such as ampl,
+gams, or matlab, and it is also available as a callable library with
+interfaces to c++, c, and fortran. ipopt uses an interior point method,
+together with a filter linear search procedure. ipopt is part of the
+larger coin-or initiative (computational infrastructure for operations
+research).
+
+the debian package is compiled against mumps (as it is the only one of
+the available solvers that is free software and included in debian).
+
+this package contains the header files for developers.

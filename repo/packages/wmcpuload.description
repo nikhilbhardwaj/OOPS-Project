@@ -1,0 +1,8 @@
+Dockapp that displays the current cpu usage
+	
+wmcpuload is a dockapp for x window managers such as windowmaker,
+afterstep, blackbox and enlightenment. it displays the current cpu
+usage as percentage value and chart with an lcd-like look. its
+appearance can be configured from the commandline and it has a
+backlight mode which can be triggered manually or by an adjustable
+alarm percentage.

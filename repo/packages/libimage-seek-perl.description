@@ -1,0 +1,6 @@
+Perl module to find similar pictures in a library
+	
+imgseek (http://www.imgseek.net/) is an implementation of haar wavelet
+decomposition techniques to find similar pictures in a library.
+image::seek is a port of the imgseek library to perl's xs. it can deal with
+image objects produced by the imager and image::imlib2 libraries.

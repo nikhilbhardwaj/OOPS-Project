@@ -1,0 +1,43 @@
+Documentation for toolkit for conceptual modeling (tcm)
+	
+the toolkit for conceptual modeling is a collection of software tools
+to present conceptual models of software systems in the form of
+diagrams, tables, trees, and the like. a conceptual model of a system
+is a structure used to represent the requirements or architecture of
+the system. tcm is meant to be used for specifying and maintaining
+requirements for desired systems, in which a number of techniques and
+heuristics for problem analysis, function refinement, behavior
+specification, and architecture specification are used.  tcm takes
+the form of a suite of graphical editors that can be used in these
+design tasks. these editors can be categorized
+into:
+
+
+ * generic editors for generic diagrams, generic tables and generic
+   trees.
+ * structured analysis (sa) editors for entity-relationship diagrams,
+   data and event flow diagrams, state transition diagrams, function
+   refinement trees, transaction-use tables and function-entity type
+   tables.
+ * unified modeling language (uml) editors for static structure
+   diagrams, use-case diagrams, activity diagrams, state charts, message
+   sequence diagrams, collaboration diagrams, component diagrams and
+   deployment diagrams (only the first three uml and last two editors
+   are functional at this moment).
+ * miscellaneous editors such as for jsd (process structure and
+   network diagrams), recursive process graphs and transaction decomposition
+   tables.
+
+
+tcm supports constraint checking for single documents (e.g. name
+duplication and cycles in is-a relationships). tcm distinguishes
+built-in constraints (of which a violation cannot even be attempted)
+from immediate constraints (of which an attempted violation is
+immediately prevented) and soft constraints (against which the editor
+provides a warning when it checks the drawing). tcm is planned to
+support hierarchic graphs, so that it can handle for example
+hierarchic statecharts. features to be added later
+include constraint checking across documents and executable models.
+
+this package contains all the documentation that comes in the original
+tarball.

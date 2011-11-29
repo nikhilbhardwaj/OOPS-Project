@@ -1,0 +1,6 @@
+Http server that runs on emacsen
+	
+elserv is an http server which runs on emacs, as a background process.
+since emacs does not support server sockets, elserv runs dedicated server
+process (ruby script) as a backend process and communicate with it to provide
+a server feature on emacs.

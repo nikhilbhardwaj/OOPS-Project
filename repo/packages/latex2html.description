@@ -1,0 +1,30 @@
+Latex to html translator
+	
+latex2html is a conversion tool that converts documents written
+in latex to html format. in addition, it offers an easy migration
+path towards authoring complex hypermedia documents using familiar
+word-processing concepts.
+
+latex2html replicates the basic structure of a latex document as a
+set of interconnected html files which can be explored using
+automatically generated navigation panels. the cross-references,
+citations, footnotes, the table of contents and the lists of figures
+and tables, are also translated into hypertext links. formatting
+information which has equivalent ``tags'' in html (lists, quotes,
+paragraph breaks, type styles, etc.) is also converted
+appropriately. the remaining heavily formatted items such as
+mathematical equations, pictures or tables are converted to images
+which are placed automatically at the correct positions in the final
+html document.
+
+latex2html extends latex by supporting arbitrary hypertext links and
+symbolic cross-references between evolving remote documents. it also
+allows the specification of conditional text and the inclusion of raw
+html commands. these hypermedia extensions to latex are available as
+new commands and environments from within a latex document.
+
+pstoimg, the part of latex2html that produces bitmap images from the
+latex source, can support both gif and png format.
+
+
+ hompage: http://www.latex2html.org/

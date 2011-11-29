@@ -1,0 +1,10 @@
+Development files for cbflib
+	
+cbflib is a library of ansi-c functions providing a simple mechanism for
+accessing crystallographic binary files (cbf files) and image-supporting
+cif (imgcif) files. the cbflib api is loosely based on the cifparse api for
+mmcif files. cbflib does not perform any semantic integrity checks and
+simply provides functions to create, read, modify and write cbf
+binary data files and imgcif ascii data files.
+
+this package contains libraries and header files for program development.

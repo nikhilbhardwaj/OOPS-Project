@@ -1,0 +1,7 @@
+Db-all.e fortran development library for weather research
+	
+db-all.e is a fast on-disk database where meteorological observed and
+forecast data can be stored, searched, retrieved and updated.
+
+this is the db-all.e fortran api, designed to make it easy to use the db-all.e
+database as a smart working area for meteorological software.

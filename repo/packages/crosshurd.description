@@ -1,0 +1,9 @@
+Install a debian system
+	
+crosshurd uses apt and a bit of black magic to setup a functional
+debian system. it supports the following target systems:
+
+ - linux-gnu (gnu/linux)
+ - gnu (gnu/hurd)
+ - kfreebsd-gnu (gnu/kfreebsd)
+ - knetbsd-gnu (gnu/knetbsd)

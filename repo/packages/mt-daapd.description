@@ -1,0 +1,17 @@
+Itunes-compatible daap server
+	
+mt-daapd, now known as the firefly media server, is a daap (digital audio
+access protocol) server that works with most posix-compatible operating
+systems. it allows you to share your music collection over the local network
+using the daap protocol also used by apple's itunes.
+
+popular uses of the firefly media server include serving your digital music
+library to itunes clients and/or soundbridge devices from roku.
+
+built-in transcoding support enables serving popular free music formats like
+flac, ogg vorbis or musepack to those clients that do not otherwise support
+these formats. transcoding happens on the fly, with the target format usually
+being wav.
+
+the server also features a web interface that can be used to control
+components of the server, trigger database updates, and create playlists.

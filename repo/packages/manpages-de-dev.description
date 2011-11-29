@@ -1,0 +1,12 @@
+German development manpages
+	
+this package contains the linux manual pages translated into german.
+the following sections are provided:
+
+ * 2 = linux system calls.
+ * 3 = libc calls (note that a more comprehensive source of
+       information may be found in one of the libc-doc packages).
+
+
+the english package manpages-dev is likely to contain additional and more
+up-to-date versions than the german translation.

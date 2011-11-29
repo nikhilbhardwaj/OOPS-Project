@@ -1,0 +1,13 @@
+X11 session management library
+	
+this package provides the main interface to the x11 session management
+library, which allows for applications to both manage sessions, and make use
+of session managers to save and restore their state for later use.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libsm

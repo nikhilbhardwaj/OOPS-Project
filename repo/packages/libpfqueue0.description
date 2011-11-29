@@ -1,0 +1,6 @@
+Interactive console-based tool to control mta queues (library)
+	
+pfqueue is a queue manager for different mtas (currently postfix and exim),
+allowing to delete, hold, release, or requeue messages.
+
+this package contains the libraries.

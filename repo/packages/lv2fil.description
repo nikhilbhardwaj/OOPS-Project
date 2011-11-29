@@ -1,0 +1,8 @@
+Stereo and mono lv2 plugins, four-band parametric equalisers
+	
+each section has an active/bypass switch, frequency, bandwidth and
+gain controls. there is also a global bypass switch and gain control.
+all switches and controls are internally smoothed, so they can be
+used 'live' whithout any clicks or zipper noises. this should make
+this plugin a good candidate for use in systems that allow automation
+of plugin control ports, such as ardour, or for stage use.

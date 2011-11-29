@@ -1,0 +1,45 @@
+Web based, feature-rich bittorrent download manager
+	
+torrentflux is a php based bittorrent controller that runs on a web
+server. it can manage all of your bittorrent downloads from anywhere
+through a convenient and easy-to-use web interface.
+
+torrentflux uses a mysql database to manage the downloads. this
+database may be automatically created and maintained for you
+(if you want), but that requires the recommended mysql-client
+package. if you do not have a remote database server to access,
+you will also need the recommended mysql-server package.
+(if you're not sure, then you probably need both.)
+
+torrentflux enables you to run bittorrent downloads unattended on a
+monitor-less or remote server 24 hours a day, while still maintaining
+complete control from any web browser. now you can control your
+downloading on your firewall, or keep up with downloads while on
+vacation. it uses the bittornado client to download files, and also
+requires a web server with php.
+
+some of the many features:
+
+  * upload torrents via url or file upload
+  * start, stop, and delete torrents with ease
+  * advanced torrent start options (ports, speeds, etc.)
+  * multi-user interface
+  * rss feeds, download torrents files with a click
+  * run several torrents at once
+  * view download progress of all torrents at a glance
+  * view drive space at a glance
+  * view torrent file meta information
+  * built-in user management and security
+  * private messaging
+  * themes (selectable per user)
+  * upload history
+  * detailed user administration
+  * admin searchable logs
+  * torrent search (many popular sites)
+  * language support
+  * make your own torrents
+  * add torrents to a download queue
+  * nfo / text viewer
+
+
+for a description of bittorrent, see the bittornado package.

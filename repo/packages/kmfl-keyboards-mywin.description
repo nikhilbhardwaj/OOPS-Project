@@ -1,0 +1,6 @@
+Mywin myanmar (burmese) unicode keyboard
+	
+this implements a smart keyboard for myanmar/burmese using scim and kmfl.
+it performs sequence checking and reordering to ensure that
+the text is conformant to unicode technical note 11.
+this keyboard supports the changes in unicode 5.1.0.

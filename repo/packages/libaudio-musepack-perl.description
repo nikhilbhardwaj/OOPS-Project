@@ -1,0 +1,8 @@
+Object-oriented interface to musepack file information and ape tag fields
+	
+the audio::musepack and audio::apetags perl modules provide methods for
+extracting basic informations about a musepack file, as well as tag
+informations contained in the file's ape tags.
+
+the audio::ape module provides methods for extracting informations from header
+and ape tags of a monkey audio file.

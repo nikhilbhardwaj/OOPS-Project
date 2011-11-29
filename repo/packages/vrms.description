@@ -1,0 +1,18 @@
+Virtual richard m. stallman
+	
+the vrms program will analyze the set of currently-installed packages
+on a debian-based system, and report all of the packages from the
+non-free and contrib trees which are currently installed.
+
+in some cases, the opinions of richard m. stallman and the debian project
+have diverged since this program was originally written.  in such cases, this
+program follows the debian free software guidelines.
+
+note that vrms is not limited to debian systems only (which means that
+it also works with debian-derived distributions such as ubuntu). it is
+also not limited to linux-based systems.
+
+future versions of vrms may include an option to also display text
+from the public writings of rms and others that explain why use of each
+of the installed non-free packages might cause moral issues for some in
+the free software community.  this functionality is not yet included.

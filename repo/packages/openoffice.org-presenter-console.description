@@ -1,0 +1,18 @@
+Openoffice.org impress extension for a separate presenter's console
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains the presenter console extension:
+
+the presenter console for impress is a feature that aids a presenter during a
+slide show. it provides information on a second screen, that typically is not
+visible to the audience. this includes
+
+
+  * a view to the currently displayed slide (for when the presenter faces the
+    audience and can not see the primary screen)
+  * a preview of the next slide or next effect
+  * the notes of the current slide
+  * the current time and/or the elapsed time
+  * navigation buttons for going to the previous/next slide

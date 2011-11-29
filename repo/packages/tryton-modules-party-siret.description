@@ -1,0 +1,14 @@
+Tryton application platform (party siret/siren module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this module adds siret/siren number fields on party.
+
+these numbers are used in france, for geographical identification of
+enterprises:
+
+
+ * siren (système d’identification du répertoire des entreprises)
+ * siret (système d’identification du répertoire des etablissements)

@@ -1,0 +1,5 @@
+Dynamic host information system - client
+	
+dhid is the dhis client daemon. after setting up with a dhis provider,
+each machine may run a dhid daemon (in background) in order to
+update its dynamic ip address within the server.

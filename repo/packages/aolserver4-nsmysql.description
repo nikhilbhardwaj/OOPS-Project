@@ -1,0 +1,6 @@
+Aolserver 4 module: module for accessing mysql databases
+	
+this module adds mysql databases access capabilities to aolserver 4,
+and gives tcl scripts an api to manage an external mysql instance.
+
+this is the mysql internal driver for aolserver 4.

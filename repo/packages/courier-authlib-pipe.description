@@ -1,0 +1,6 @@
+External authentication support for the courier authentication library
+	
+this package contains external authentication support via pipes for the
+courier authentication library. the authpipe module is a generic plugin
+that enables authentication requests to be serviced by an external
+program, then communicates through messages on stdin and stdout.

@@ -1,0 +1,8 @@
+A utility for tracking non-official package versions
+	
+apt-forktracer tries to alleviate the problem that apt stops tracking official
+versions of a package after you pin it or install a newer version.
+
+it displays a list of packages which are in an inconsistent state or have a
+version other than the newest official installed. you can choose to ignore
+certain packages - if they match certain criteria - with a configuration file.

@@ -1,0 +1,14 @@
+An amqp messaging queue framework
+	
+amqp is the advanced message queuing protocol, an open standard protocol
+for message orientation, queuing, routing, reliability and security.
+
+the aim of carrot is to make messaging in python as easy as possible by
+providing a high-level interface for producing and consuming messages.
+at the same time it is a goal to re-use what is already available as much
+as possible.
+
+carrot has pluggable messaging back-ends, so it is possible to support
+several messaging systems. currently, there is support for amqp (py-amqplib)
+and stomp (python-stomp). there is also a in-memory backend for testing
+purposes that uses the python queue module.

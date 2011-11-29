@@ -1,0 +1,13 @@
+Mni medical image format tools
+	
+this package contains tools to manipulate minc files.
+
+the minc file format is a highly flexible medical image file format
+built on top of the netcdf generalized data format. the format is
+simple, self-describing, extensible, portable and n-dimensional, with
+programming interfaces for both low-level data access and high-level
+volume manipulation. on top of the libraries is a suite of generic
+image-file manipulation tools. the format, libraries and tools are
+designed for use in a medical-imaging research environment: they are
+simple and powerful and make no attempt to provide a pretty interface
+to users.

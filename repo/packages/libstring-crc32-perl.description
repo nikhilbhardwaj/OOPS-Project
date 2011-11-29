@@ -1,0 +1,8 @@
+Perl interface for cyclic redundancy check generation
+	
+the crc32 module calculates crc sums of 32 bit lengths.
+it generates the same crc values as zmodem, pkzip, piccheck and
+many others.
+
+despite its name, this module is able to compute the checksum of
+strings as well as of files.

@@ -1,0 +1,16 @@
+Perl interface to fill the system tray
+	
+libgtk2-traymanager-perl allows a perl developer to implement
+the server-side of the notification areo (or system tray) protocol.
+
+the system tray is an area on the dock or panel used to display unobtrusive
+notifications to the user. the tray contains small icons for each
+notification facility, and the icons can pop up "balloon messages."
+
+this module is part of gtk2-perl.
+
+to discuss gtk2-perl, ask questions and flame/praise the authors,
+join gtk-perl-list@gnome.org at lists.gnome.org.
+
+also have a look at the gtk2-perl website and sourceforge project page,
+http://gtk2-perl.sourceforge.net

@@ -1,0 +1,8 @@
+Xml parsing c library - runtime library (64bit)
+	
+this package contains the runtime, shared library of expat, the c
+library for parsing xml. expat is a stream-oriented parser in
+which an application registers handlers for things the parser
+might find in the xml document (like start tags).
+
+this package includes the 64 bit version of the shared library.

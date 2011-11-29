@@ -1,0 +1,4 @@
+PackageId:2790
+Name:debian-edu-install
+Version:1.519
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,debian-edu-config,libgnome2-perl,lsb-base

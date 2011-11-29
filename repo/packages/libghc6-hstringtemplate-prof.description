@@ -1,0 +1,12 @@
+Haskell port of the java library stringtemplate - ghc 6 profiling libraries
+	
+this is a haskell template engine. its api is mainly inspired to that of
+the java library stringtemplate, but it is implemented in a "haskellish"
+manner.
+
+it implements the basic 3.1 grammar, lacking group files (though not
+groups themselves), regions, and interfaces and extends it by allowing
+the application of alternating attributes to anonymous as well as
+regular templates, including therefore sets of alternating attributes.
+
+this package contains the profiling libraries compiled for ghc 6.

@@ -1,0 +1,10 @@
+Simple/symbolic calculation library (development files)
+	
+scalc is a c++ library for manipulation of mathematical
+expressions. it is possible to define functions, either using an
+expression or a c function. it is able to compute derivatives
+analytically, and is therefore suitable for implementing non-linear
+curve fitting with user-specified arbitrary functions.
+
+this package contains the development files and the html
+documentation.

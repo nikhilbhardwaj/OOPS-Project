@@ -1,0 +1,9 @@
+Graphical serial terminal, like minicom
+	
+cutecom is a graphical serial terminal, like minicom.
+it is aimed mainly at hardware developers or other people who need a
+terminal to talk to their devices. it features lineoriented interface
+instead of character-oriented, xmodem, ymodem, zmodem support
+(requires the lrzsz package) and hexadecimal input and output among
+other things.
+it is written using the qt library by trolltech (www.trolltech.com).

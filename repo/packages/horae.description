@@ -1,0 +1,13 @@
+Interactive graphical processing and analysis of exafs data
+	
+athena is an interactive graphical utility for processing exafs data. it
+handles most of the common data handling chores of interest, including
+deglitching, aligning, merging, background removal, and fourier transforms.
+
+artemis is an interactive graphical utility for fitting exafs data using
+theoretical standards from feff and sophisticated data modelling along with
+flexible data visualization and statistical analysis.
+
+hephaestus is a souped up periodic table for the x-ray absorption
+spectroscopist. it provides a number of utilities involving tables of
+absorption coefficients and other chemical data.

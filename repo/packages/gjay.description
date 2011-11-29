@@ -1,0 +1,14 @@
+An automatic and learning dj for audacious
+	
+gjay (gtk+ dj) generates playlists across a collection of music (mp3, ogg,
+wav) such that each song sounds good following the previous song. matches are
+based on both automatically analyzed song characteristics (bpm, frequency) as
+well as user-assigned categorizations (song 'color' and rating). it is ideal
+for djs planning a set list or home users who want a non-random way to wander
+large collections.
+
+all you have to do is tell gjay the base directory where you store your music
+files. it will then queue every file in the directory for analysis. analysis
+is done in a separate process. when you quit gjay, you can choose to let this
+analysis process continue in the background. you can also choose to run gjay
+as a daemon, without any user interface.

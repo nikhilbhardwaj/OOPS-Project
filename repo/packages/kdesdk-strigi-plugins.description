@@ -1,0 +1,13 @@
+Software development file format plugins for strigi desktop search
+	
+these plugins allow strigi desktop search to extract additional information
+about some file formats often used in software development.
+
+strigi plugins are included for:
+
+ * patch files (diff)
+ * qt linguist files (ts)
+ * gettext translation files (po)
+
+
+this package is part of the kde software development kit module.

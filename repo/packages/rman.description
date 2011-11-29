@@ -1,0 +1,6 @@
+Polyglotman - reverse compile man pages
+	
+polyglotman (formerly rosettaman) is a filter for unix manual pages.
+it takes as input man pages formatted for a variety of unix flavors
+(not [tn]roff source) and produces as output a variety of file
+formats.

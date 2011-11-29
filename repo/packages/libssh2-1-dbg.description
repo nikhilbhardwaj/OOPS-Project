@@ -1,0 +1,7 @@
+Ssh2 client-side library (debug package)
+	
+libssh2 is a client-side c library implementing the ssh2 protocol.
+it supports regular terminal, scp and sftp sessions; port forwarding;
+password, key-based and keyboard-interactive authentication.
+
+this package contains the debugging symbols.

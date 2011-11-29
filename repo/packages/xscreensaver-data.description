@@ -1,0 +1,15 @@
+Data files to be shared among screensaver frontends
+	
+xscreensaver is a modular screen saver and locker for x11,
+containing more than 200 screen savers.
+
+this package contains a small selection of graphical screen saver
+modules (listed below) from the xscreensaver collection. this package
+is used by both xscreensaver and gnome-screensaver.
+
+this is the selected set of non-gl screensavers shipped by default:
+abstractile, cwaves, deco, distort, fiberlamp, fuzzyflakes, galaxy, m6502,
+metaballs, penrose, ripples, shadebobs, slidescreen, sonar, swirl, xlyap.
+
+more display modes can be found in xscreensaver-data-extra, xscreensaver-gl
+and xscreensaver-gl-extra packages.

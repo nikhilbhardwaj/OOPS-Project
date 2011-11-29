@@ -1,0 +1,6 @@
+Usb device sharing system over ip network (development files)
+	
+usb/ip is a system for sharing usb devices over the network.
+
+this package provides headers for the libusbip0 library and
+the library itself for static linking.

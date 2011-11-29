@@ -1,0 +1,7 @@
+Bsd-like finger daemon with qmail support
+	
+yet another finger daemon.  mimics the output and behavior of the original
+bsd daemon.  does not need to be run as root, has support for pgp keys,
+qmail mailboxes and qmail dash-extended usernames.  generally paranoid
+about account probes, while still allows search by full name.  users can
+control if they can be fingered or not.  uses tcpwrappers.

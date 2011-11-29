@@ -1,0 +1,5 @@
+Perl module containing numeric tests for perl datatypes
+	
+scalar::util::numeric exports a number of wrappers around perl's builtin
+looks_like_number function, which returns the numeric type of its argument,
+or 0 if it isn't numeric.

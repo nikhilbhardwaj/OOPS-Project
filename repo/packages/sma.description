@@ -1,0 +1,11 @@
+Sendmail log analyser
+	
+sma is a program that analyses sendmail log entries.
+
+features:
+
+
+ - support for all recent sendmail versions
+ - flexible output formatting - html, ascii and a custom log
+ - regular expression filtering of messages
+ - multiple hosts in the same report

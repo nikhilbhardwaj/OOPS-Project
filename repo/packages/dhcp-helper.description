@@ -1,0 +1,11 @@
+A dhcp relay agent
+	
+dhcp-helper is a dhcp and bootp relay agent. it listens for dhcp
+and bootp broadcasts on directly connected subnets and relays
+them to dhcp or bootp servers elsewhere. dhcp-helper is much smaller
+than dhcp3-relay package and it does not require the packet filter
+kernel facility to be present. this makes it a good choice for use
+on small or embedded systems. unlike dhcp3-relay, dhcp-helper can be
+configured to forward dhcp requests as broadcasts, and therefore does
+not need to be given the ip address of the dhcp server, only the
+network in which it resides.

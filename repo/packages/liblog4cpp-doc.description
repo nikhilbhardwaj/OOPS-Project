@@ -1,0 +1,9 @@
+A c++ library for flexible logging (documentation)
+	
+log for c++ is a library of c++ classes for flexible logging to files,
+syslog and other destinations. it is modeled after the log for
+java library (http://jakarta.apache.org/log4j/), staying as close to
+their api as is reasonable.
+
+
+ homepage: http://log4cpp.sourceforge.net

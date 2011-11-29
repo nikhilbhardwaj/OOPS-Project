@@ -1,0 +1,7 @@
+Module for creating attractive charts and graphs
+	
+chart::clicker is a perl module that aims to create beautiful graphs in a
+powerful and extensible way. a variety of charts can be created, including
+line, bar and area charts (as well as their stacked equivalents), scatter,
+pie, bubble, candlestick and polar area. charts can be saved in a variety
+of formats, including png, svg, pdf and postscript.

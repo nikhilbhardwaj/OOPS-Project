@@ -1,0 +1,9 @@
+Bind gobject properties to gconf keys (development files)
+	
+libgconf-bridge is a utility library for binding gobject properties to gconf
+keys. it is intended to save the application programmer from having to
+implement property synchronisation manually.
+
+this package contains the development files.
+
+homepage: http://projects.o-hand.com/libgconf-bridge

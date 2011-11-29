@@ -1,0 +1,11 @@
+Class for a point and to transform coordinate systems
+	
+you ask for an object for the correct country, described using the iso
+2-letter country code. you will need to supply information to the constructor.
+you may then call methods on that object to do whatever operations you need.
+conceptually each object represents a point on the ground, although you some
+grid systems may take that point to be a corner of a defined area. e.g. a
+6-figure os national grid reference may be thought of as the point at the
+south-west of a 100m by 100m square.
+
+this package also includes the extra module geography::nationalgrid::tw.

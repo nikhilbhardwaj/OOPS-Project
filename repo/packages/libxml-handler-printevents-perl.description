@@ -1,0 +1,5 @@
+Perl module for printing perlsax events (for debugging)
+	
+the xml::handler::printevents module prints the perlsax events it receives
+to stdout.  it can be useful when debugging perlsax filters.  it supports
+all perlsax handler including ignorable_whitespace.

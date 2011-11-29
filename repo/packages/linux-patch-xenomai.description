@@ -1,0 +1,78 @@
+Linux kernel patches for xenomai
+	
+xenomai is a real-time development framework cooperating with the linux
+kernel in order to provide a pervasive, interface-agnostic, hard real-time
+support to user-space applications, seamlessly integrated into the gnu/linux
+environment. xenomai provides its own api and emulation layers ("skins") to
+make migration from other rtos easier. examples are: psos+, vxworks, vrtx,
+uitron, rtai, posix.
+
+this package contains patches for 2.6 series kernels - these are intended for
+use with kernel-package and a virgin linux source tree. note: these patches
+include the base adeos-ipipe patch along with all the additional material
+normally added by the prepare-kernel.sh script.
+
+this package contains the following patches:
+patch-name: xenomai realtime kernel patches
+patch-id: xenomai
+architecture: all
+
+patch-file: adeos-ipipe-2.6.30-arm-1.15-03.patch
+kernel-version: 2.6.30
+architecture: arm
+
+patch-file: adeos-ipipe-2.6.31-arm-1.16-02.patch
+kernel-version: 2.6.31
+architecture: arm
+
+patch-file: adeos-ipipe-2.6.33-arm-1.17-02.patch
+kernel-version: 2.6.33
+architecture: arm
+
+patch-file: adeos-ipipe-2.6.32.3-powerpc-denx-2.8-00.patch
+kernel-version: 2.6.32.3
+architecture: powerpc
+
+patch-file: adeos-ipipe-2.6.32-powerpc-denx-2.8-00.patch
+kernel-version: 2.6.32
+architecture: powerpc
+
+patch-file: adeos-ipipe-2.6.33.5-powerpc-2.10-03.patch
+kernel-version: 2.6.33.5
+architecture: powerpc
+
+patch-file: adeos-ipipe-2.6.34-powerpc-2.10-03.patch
+kernel-version: 2.6.34
+architecture: powerpc
+
+patch-file: adeos-ipipe-2.6.31.8-x86-2.4-09.patch
+kernel-version: 2.6.31.8
+architecture: i386
+
+patch-file: adeos-ipipe-2.6.31.8-x86-2.4-09.patch
+kernel-version: 2.6.31.8
+architecture: amd64
+
+patch-file: adeos-ipipe-2.6.32-x86-2.7-01.patch
+kernel-version: 2.6.32
+architecture: i386
+
+patch-file: adeos-ipipe-2.6.32-x86-2.7-01.patch
+kernel-version: 2.6.32
+architecture: amd64
+
+patch-file: adeos-ipipe-2.6.34-x86-2.7-02.patch
+kernel-version: 2.6.34
+architecture: i386
+
+patch-file: adeos-ipipe-2.6.34-x86-2.7-02.patch
+kernel-version: 2.6.34
+architecture: amd64
+
+patch-file: adeos-ipipe-2.6.32.15-x86-2.7-01.patch
+kernel-version: 2.6.32.15
+architecture: i386
+
+patch-file: adeos-ipipe-2.6.32.15-x86-2.7-01.patch
+kernel-version: 2.6.32.15
+architecture: amd64

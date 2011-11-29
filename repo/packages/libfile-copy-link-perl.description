@@ -1,0 +1,5 @@
+Perl extension for replacing a link by a copy of the linked file
+	
+the distribution file-copy-link includes the modules
+file::spec::link and file::copy::link and the script
+copylink. they include routines to read and copy links.

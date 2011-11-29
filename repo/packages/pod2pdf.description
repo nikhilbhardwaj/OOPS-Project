@@ -1,0 +1,18 @@
+Converts perl old documentation to pdf format
+	
+pod allows for the documentation of perl code, but with
+a few tricks, e.g. when disguised as comments, it is
+applicable to many other languages, too. it resembles
+html in the way that it allows for the structured representation
+of text, hence it looks rather good when converted for
+printers, html or man pages.
+
+this package represents more than a mere alternative
+to pod2man|groff -man to achieve a coversion from pod
+to postscript and from there via ps2pdf to pdf.
+its major advantage lies in the inclusion of images
+for the documentation. this renders pod suitable for
+many smallish projects as a lingua fraca for their
+documentation - associated with the source and separate
+documents - so texts (and graphics) can be shared more
+easily between documenters and programmers.

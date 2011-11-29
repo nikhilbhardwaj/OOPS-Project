@@ -1,0 +1,7 @@
+Universally unique identifiers for ocaml
+	
+this library is an ocaml module implementing 128 bits universally unique
+identifiers (uuid) version 3, 5 (name based with md5, sha-1 hashing) and 4
+(random based) according to rfc 4122.
+
+this package contains header and ocaml library.

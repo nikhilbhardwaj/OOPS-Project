@@ -1,0 +1,8 @@
+Interpreter of infocom-format story-files
+	
+xzip interprets story-files (which are usually text adventure games)
+in the format used by infocom.  this includes the games published by
+infocom, as well as any games produced by compilers to this format,
+such as inform.
+
+this is an interpreter for x. for text mode, try frotz or jzip.

@@ -1,0 +1,21 @@
+Format converters for kcachegrind profiler visualisation tool
+	
+this is a collection of scripts for converting the output from several
+different profiling tools into a format that kcachegrind can display.
+
+kcachegrind is a visualisation tool for the profiling data generated
+by calltree, a memory profiling tool for valgrind.  executables can be
+profiled using calltree without being recompiled, including multi-threaded
+applications, shared libraries, and plugin architectures.
+
+the included scripts are:
+
+
+ * dprof2calltree: converts the tmon.out output of perl's devel::dprof package
+ * pprof2calltree: converts the pprof output from apd
+ * memprof2calltree: converts the memory profiles of memprof
+ * op2calltree: converts the oprofile's output of "opreport -gdf" (v 0.8)
+ * hotshot2calltree: converts the pstat output of the hotshot python profiler
+
+
+this package is part of the kde software development kit module.

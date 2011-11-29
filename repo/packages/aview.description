@@ -1,0 +1,20 @@
+A high quality ascii art image viewer and video player
+	
+aview is a high quality ascii art image viewer and video player. it is
+especially useful with a text-based browser such as lynx, links or w3m.
+
+it supports the pnm, pgm, pbm and ppm image formats, as well as
+the fli and flc video formats. it also supports output via stdio,
+(n)curses and slang and even has support for gpm.
+
+features
+
+ * high quality ascii art rendering
+ * portable
+ * save into many formats (html, text, ansi, more/less etc...)
+ * contrast, bright, gamma control
+ * image zooming/unzooming
+ * three dithering modes
+ * hidden "bonus" features :)
+ * inversion
+ * support for bright, dim, inverse attributes/extended character set

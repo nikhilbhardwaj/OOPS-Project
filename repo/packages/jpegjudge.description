@@ -1,0 +1,14 @@
+Determine which of two given jpegs (same size) is the original
+	
+try to determine which same picture was saved at a higher quality,
+even if the picture was saved at low quality and later at a higher
+quality.
+
+by a statistical analysis over the quantization table stored in a
+jpeg one could probably deduce the quality which the picture was
+saved (i.e. this particular save), but it in no way says anything
+about the picture quality itself (i.e. whether it has ever been saved
+at lower quality before since its creation). for example, one might have
+saved a jpeg picture at low quality, and later saved at a higher
+quality, yet the information lost during the first save can't be
+restored.

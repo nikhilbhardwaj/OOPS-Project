@@ -1,0 +1,7 @@
+Library for ksysguard
+	
+this package contains the library needed for ksysguard, the kde process
+monitor and system statistics application, and for applications and plasma
+data engines which want to interface with ksysguardd.
+
+this package is part of the kde base workspace module.

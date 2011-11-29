@@ -1,0 +1,8 @@
+Kde ham radio logging program
+	
+this package provides a ham radio logging program for kde.
+this application supports logging for hf and vhf operations.
+it supports many features like qsl, dxcc, iota, waz and awards.
+klog imports from tlf and produces adif as default file format.
+this application also includes a dx-cluster client fully integrated
+into the main interface.

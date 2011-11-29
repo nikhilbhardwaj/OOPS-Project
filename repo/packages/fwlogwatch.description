@@ -1,0 +1,9 @@
+Firewall log analyzer
+	
+fwlogwatch produces ipchains, netfilter/iptables, ipfilter, cisco ios and
+cisco pix log summary reports in text and html form and has a lot of
+options to find and display relevant patterns in connection attempts. with
+the data found it can also generate customizable incident reports from a
+template and send them to abuse contacts at offending sites or cert
+coordination centers. finally, it can also run as daemon and report
+anomalies or start countermeasures.

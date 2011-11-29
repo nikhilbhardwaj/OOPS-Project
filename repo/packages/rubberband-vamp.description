@@ -1,0 +1,41 @@
+Vamp plugins using rubber band
+	
+rubber band is a library and utility program that permits you to
+change the tempo and pitch of an audio recording independently of one
+another.
+
+this package contains the following vamp plugins:
+
+
+ * increments (output increments): output time increment for each
+   input step
+
+
+
+ * aggregate_increments (accumulated output increments): accumulated
+   output time increments
+
+
+
+ * divergence (divergence from linear): difference between actual
+   output time and the output time for a theoretical linear stretch
+
+
+
+ * phaseresetdf (phase reset detection function): curve whose peaks
+   are used to identify transients for phase reset points
+
+
+
+ * smoothedphaseresetdf (smoothed phase reset detection function):
+   phase reset curve smoothed for peak picking
+
+
+
+ * phaseresetpoints (phase reset points): points estimated as
+   transients at which phase reset occurs
+
+
+
+ * timesyncpoints (time sync points): salient points which stretcher
+   aims to place with strictly correct timing

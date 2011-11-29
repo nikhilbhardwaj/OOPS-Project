@@ -1,0 +1,13 @@
+Support for nfs kernel server
+	
+the nfs kernel server is currently the recommended nfs server for use
+with linux, featuring features such as nfsv3 and nfsv4, kerberos
+support via gss, and much more. it is also significantly faster and
+usually more reliable than the user-space nfs servers (from the
+unfs3 and nfs-user-server packages). however, it is more difficult to
+debug than the user-space servers, and has a slightly different
+feature set.
+
+this package contains the user-space support needed to use the
+nfs kernel server. most administrators wishing to set up an nfs server
+would want to install this package.

@@ -1,0 +1,10 @@
+Handoff library for gpe calendar
+	
+libhandoff is used in the gpe palmtop environment to
+cause another program instance to come to the
+foreground. this is used when alarm triggers (like atd)
+wake the device and then need to load another program to
+show the reason for the device waking up. when
+gpe-calendar starts it looks at a well known location to
+find another instance of itself. if it does, it tells
+that instance to grab the focus.

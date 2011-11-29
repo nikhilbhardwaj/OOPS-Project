@@ -1,0 +1,5 @@
+Perl module for authentication using cas
+	
+authen::cas::client module provides a simple interface for authenticating
+users using ja-sig's central authentication service (cas) single sign on
+protocol. both cas protocol version 1.0 and 2.0 are supported.

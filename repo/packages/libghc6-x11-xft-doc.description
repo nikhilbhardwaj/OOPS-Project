@@ -1,0 +1,12 @@
+Haskell xft binding for ghc; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library is a binding to the xft library.
+
+xft provides a client-side font api for x applications, making the freetype
+font rasterizer available to x clients. fontconfig is used for font
+specification resolution. where available, the render extension handles glyph
+drawing; otherwise, the core x protocol is used.

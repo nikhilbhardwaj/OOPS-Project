@@ -1,0 +1,7 @@
+Library to easily define a filesystem in ruby using fuse
+	
+this library provides a simple api to define a fuse filesystem in ruby.
+it is *not* a full implementation of the fuse api.
+
+this is a dependency package which depends on debian's default version of ruby
+(currently 1.8).

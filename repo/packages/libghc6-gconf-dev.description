@@ -1,0 +1,10 @@
+Binding to the gnome configuration database system
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+gconf is a configuration database system for storing application
+preferences. it supports default or mandatory settings set by the
+administrator, and changes to the database are instantly applied to all
+running applications. it is written for the gnome desktop but doesn't require
+it.

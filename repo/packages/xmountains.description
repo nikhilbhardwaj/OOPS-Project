@@ -1,0 +1,8 @@
+Fractal landscape generator for x
+	
+generates random fractal mountains and displays them in a window (even in the
+x root window).
+
+while the program is running the fractal is continuously extended on the right
+and the image is scrolled from right to left to expose the newly generated
+area.

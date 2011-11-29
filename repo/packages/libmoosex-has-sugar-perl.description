@@ -1,0 +1,7 @@
+Moose extension for syntactic sugar in 'has' fields
+	
+moosex::has::sugar is a module that provides a simple way to avoid quoting
+option strings. normally, moose accepts parameters in perl's hash style,
+which requires a list of key/value pairs. this module is convenient for
+boolean options and to prevent errors with mistyping string values, since
+the expressions provided by this module are checked at compile-time.

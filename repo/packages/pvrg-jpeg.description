@@ -1,0 +1,8 @@
+Stanford pvrg jpeg tool
+	
+pvrg is the jpeg implementation from stanford portable video research group
+
+this package contains the pvrg-jpeg command line tool.
+contrary to cjpeg/djpeg, pvrg-jpeg can also compress in lossless jpeg
+which is defined in itu-t t.81, iso/iec is 10918-1. it also support in
+a single codec 8bits and 12bits lossy jpeg compression/decompression.

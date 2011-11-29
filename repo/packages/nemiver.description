@@ -1,0 +1,10 @@
+Standalone graphical debugger for gnome
+	
+nemiver is a project to write a standalone graphical debugger that
+integrates in the gnome desktop. it features a backend which uses
+the well known gnu debugger gdb to debug c/c++ programs.
+
+nemiver is built with a plugin system that can offer several different
+perspectives. currently the only perspective provided is a debugging
+perspective, but it could be expanded with perspectives added for
+valgrind, or for profiling tools such as oprofile.

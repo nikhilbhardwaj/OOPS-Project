@@ -1,0 +1,14 @@
+Documentation for the tagged dfa regex engine
+	
+
+a pure haskell alternative to ghc's text.regex module (with some
+enhancements). the text.regex module marshalls the data back and forth to
+c-arrays to call libc and this is far too slow (and strict).
+
+this module parses regular expression strings using a parsec parser and
+creates an internal data structure (text.regex.lazy.pattern). this is then
+transformed a dfa table for matching against the input string or
+fastpackedstring. the input string is consumed lazily, so it may be an
+arbitrarily long or infinite source.
+
+this package contains the library documentation.

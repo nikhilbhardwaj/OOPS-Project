@@ -1,0 +1,15 @@
+Portable coroutine library (pcl), development files
+	
+coroutines are a very simple cooperative multitasking environment where
+the switch from one task to another is done explicitly by a function
+call. coroutines are a lot faster than processes or threads switch,
+since there is no os kernel involvement for the operation. also
+coroutines require much less os resources than processes of threads.
+
+for a more complete definition of the term coroutine see the art of
+computer programming by donald e. knuth.
+
+this package contains the static library and header files used in
+development, plus developer's documentation.
+
+homepage: http://www.xmailserver.org/libpcl.html

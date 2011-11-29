@@ -1,0 +1,5 @@
+Setools tcl bindings
+	
+setools is a collection  tools for analysing security policyon selinux
+systems. this package includes tcl bindings for the following setools
+libraries: libapol, libpoldiff, libqpol, libseaudit, and libsefs.

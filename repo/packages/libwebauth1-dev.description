@@ -1,0 +1,10 @@
+Transitional package for webauth development files
+	
+webauth is a cookie-based web authentication system built on top of
+kerberos.  it relies on a central authentication server that handles all
+user authentication for a domain and creates user authentication
+credentials for any web server that needs strong authentication.
+
+this is a transitional package to assist upgrades to the current webauth
+development package.  it can be removed from your system after
+installation.

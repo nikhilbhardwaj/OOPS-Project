@@ -1,0 +1,8 @@
+Ime server of scim-bridge communicate with scim
+	
+scim-bridge is a wrapper library for scim, writen in c.
+
+scim (smart common input method) is an input method (im) platform.
+
+scim-bridge-client-qt4 is the qt4 client of scim-bridge, it provide
+another qt-immodule for scim.

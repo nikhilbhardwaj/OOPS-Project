@@ -1,0 +1,12 @@
+Tool to perform ocr on djvu documents
+	
+ocrodjvu is a wrapper around ocr systems (ocropus+tesseract and cuneiform)
+with the purpose to perform optical character recognition (ocr) in documents
+in djvu format (which is especially suited for archival of books with high
+quality).
+
+when a djvu document has been ocred, it includes a text version of the
+images of the scanned document and, with common programs, one can not
+only print on paper, but also read such books/documents, searching for
+specific terms and also use the information in the ocr layer as a way
+to higher the accessibility of such documents.

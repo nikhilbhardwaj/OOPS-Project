@@ -1,0 +1,4 @@
+Connector between speakup kernel modules and espeak
+	
+espeakup is a daemon that connects speakup kernel modules to the espeak
+software speech synthesizer through the /dev/softsynth device.

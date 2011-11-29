@@ -1,0 +1,15 @@
+Ufs filesystems utilities
+	
+utilities to manage the ufs filesystem, mostly used in bsd or derived
+operating systems. this include ffs, ufs and ufs2.
+
+the following utilities are provided:
+
+ * mkfs.ufs
+ * fsck.ufs
+ * fsdb.ufs
+ * dumpfs.ufs
+ * growfs.ufs
+ * tunefs.ufs
+ * badsect.ufs
+ * ffsinfo

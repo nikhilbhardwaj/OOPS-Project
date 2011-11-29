@@ -1,0 +1,9 @@
+Tads version 3 runtime support files
+	
+tads is the text adventure development system, a set of tools for writing
+and playing text-based adventure games.  you interface with these games by
+entering commands in english, and the game responds with a textual
+description of the result.
+
+this package contains runtime support files needed by both the tads 3
+interpreter and the tads 3 compiler.

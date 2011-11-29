@@ -1,0 +1,10 @@
+Perl module to add xpath support to html::treebuilder
+	
+html::treebuilder::xpath is a drop-in replacement for html::treebuilder (see
+libhtml-treebuilder-perl) that adds typical xpath methods, making it easy to
+query a document and extract information about nodes and values.
+
+it is also capable of generating two representations of the xml output: a
+compact version, intended for machine readable output and minimal space
+requirements (in terms of disk space and network bandwidth); and a human
+readable, indented version.

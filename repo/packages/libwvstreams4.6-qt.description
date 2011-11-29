@@ -1,0 +1,5 @@
+Wvstreams and qt event integration library
+	
+this package contains the library necessary to tie wvstreams and qt program
+event loops together to enable wvstreams to act as the i/o and configuration
+back end for qt and kde.

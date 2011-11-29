@@ -1,0 +1,19 @@
+Java components for building applications with docking capabilities
+	
+an application can be divided into sub-sets: the "dockables".
+
+ - each dockable can be precisely positionned by the user, by a drag and drop
+   gesture issued from its title bar.
+ - dockables can be grouped into tabbed panes.
+
+
+every dockable is given a title bar with a set of common functions (and
+keyboard shortcuts):
+
+ - maximize / restore : the dockable takes all the available space on the
+   desktop
+ - detach/attach : the dockable is extracted from its parent window
+ - iconify / restore : the dockable is changed into a side button : it appears
+   only when the mouse is moved over it
+ - contextual pop-up menus : customizable title bars and tabs
+ - close / closable tab

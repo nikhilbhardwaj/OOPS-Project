@@ -1,0 +1,12 @@
+Utils for the zinnia library
+	
+zinnia provides a simple, customizable, and portable dynamic ocr
+system for hand-written input, based on support vector machines.
+
+zinnia simply receives user pen strokes as coordinate data and outputs
+the best matching characters sorted by svm confidence. to maintain
+portability, it has no rendering functionality. in addition to
+recognition, zinnia provides a training module capable of creating
+highly efficient handwriting recognition models.
+
+this package provide utils for zinnia library.

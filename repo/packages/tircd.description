@@ -1,0 +1,9 @@
+Ircd proxy to the twitter api
+	
+tircd presents twitter as an irc channel. you can connect to tircd
+with any irc client, and twitter as if you were on irc.
+
+to update your status on twitter, send a message to the #twitter
+channel. when users you follow update their status, tircd will be sent
+to the channel as a message from them. other actions are similarly
+mapped to the equivalent irc commands and events.

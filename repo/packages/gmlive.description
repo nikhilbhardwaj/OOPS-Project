@@ -1,0 +1,6 @@
+Live video frontend for mplayer
+	
+gmlive is a mplayer frontend designed to play live video. it
+provides simple user interface for playing video, and is able
+to play several live video stream including ppstream and pplive
+when the non-free library from the service provider is available.

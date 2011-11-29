@@ -1,0 +1,21 @@
+Gnu clisp, a common lisp implementation
+	
+ansi common lisp is a high-level, general-purpose programming language.
+gnu clisp is a common lisp implementation by bruno haible of karlsruhe
+university and michael stoll of munich university, both in germany.
+it mostly supports the lisp described in the ansi common lisp standard.
+it runs on most unix workstations (gnu/linux, freebsd, netbsd, openbsd,
+solaris, tru64, hp-ux, beos, nextstep, irix, aix and others) and on
+other systems (windows nt/2000/xp, windows 95/98/me) and needs only
+4 mb of ram.
+
+it is free software and may be distributed under the terms of gnu gpl,
+while it is possible to distribute commercial proprietary applications
+compiled with gnu clisp.
+
+the user interface comes in english, german, french, spanish, dutch,
+russian and danish, and can be changed at run time.
+gnu clisp includes an interpreter, a compiler, a debugger, clos, mop,
+a foreign language interface, sockets, i18n, fast bignums and more.
+an x11 interface is available through clx, garnet, clue/clio.
+gnu clisp runs maxima, acl2 and many other common lisp packages.

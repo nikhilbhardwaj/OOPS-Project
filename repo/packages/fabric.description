@@ -1,0 +1,8 @@
+Simple pythonic remote deployment tool
+	
+fabric is designed to upload files and run shell commands on a number of
+servers in parallel or serially. these commands are grouped in tasks (which
+are regular python functions) and specified in a 'fabfile.'
+
+it is similar to capistrano, except it's implemented in python and doesn't
+expect you to be deploying rails applications.

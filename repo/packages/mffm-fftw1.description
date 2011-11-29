@@ -1,0 +1,6 @@
+A c++ wrapper for the fftw.org c library (version 3)
+	
+developer files for the mffm.fftw library
+mffm.fftw provides a simple c++ application base which handles
+fft data and application. operations such as power spectrum
+derivation and so on.

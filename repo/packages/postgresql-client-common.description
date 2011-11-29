@@ -1,0 +1,15 @@
+Manager for multiple postgresql client versions
+	
+the postgresql-client-common package provides a structure under which
+multiple versions of postgresql client programs may be installed at
+the same time. it provides a wrapper which selects the right version
+for the particular cluster you want to access (with a command line
+option, an environment variable, /etc/postgresql-common/user_clusters,
+or ~/.postgresqlrc).
+
+postgresql is a fully featured object-relational database management
+system. it supports a large part of the sql standard and is designed
+to be extensible by users in many aspects. its features include acid
+transactions, foreign keys, views, sequences, subqueries, triggers,
+outer joins, multiversion concurrency control, and user-defined types
+and functions.

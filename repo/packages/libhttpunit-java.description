@@ -1,0 +1,6 @@
+Automated web site testing toolkit
+	
+httpunit emulates the relevant portions of browser behavior, including form
+submission, javascript, basic http authentication, cookies and automatic page
+redirection, and allows java test code to examine returned pages either as
+text, an xml dom, or containers of forms, tables, and links.

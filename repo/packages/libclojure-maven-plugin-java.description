@@ -1,0 +1,9 @@
+Clojure plugin for maven
+	
+clojure is a dynamic programming language that targets the java virtual
+machine. it is designed to be a general-purpose language, combining the
+approachability and interactive development of a scripting language with
+an efficient and robust infrastructure for multithreaded programming.
+
+this package provides a maven mojo allowing for programs written using
+clojure to be built with maven.

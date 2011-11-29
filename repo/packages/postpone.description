@@ -1,0 +1,6 @@
+Schedules commands to be executed later
+	
+postpone schedules a command to be executed later when a lockfile disappears.
+intended usage is when a command is executed possibly multiple times, but
+running once is sufficient. this happens in maintainer scripts of debian
+packages, for example, tex packages need to rebuild several indices.

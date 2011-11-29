@@ -1,0 +1,26 @@
+Graphical blogging client
+	
+blogilo is a free/open source blogging client, focused on simplicity and
+usability. currently featured:
+
+
+ * a full featured wysiwyg editor + an html editor.
+ * previewing your post with your blog style! like when you are visiting it at
+   your blog.
+ * support for blogger1.0, metaweblog, movabletype (wordpress supports all of
+   these!) and google gdata (used on blogspot.com blogs) apis!
+ * support for creating/modifying/deleting posts.
+ * support for creating drafts and scheduled posts!
+ * support for uploading media files to your blog (just on supported apis e.g.
+   metaweblog and movabletype).
+ * support for fetching your recent blog entries.
+ * support for adding images to post from your system. it will upload them on
+   submitting post to blog (just on supported apis e.g. metaweblog and
+   movabletype).
+ * support for saving local entries before publishing.
+ * saving your writing copy to prevent data loss, at configurable intervals.
+ * internal auto spell checker. (kde spell checker used so most of languages
+   are supported).
+
+
+this package is part of the kde pim module.

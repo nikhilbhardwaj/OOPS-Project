@@ -1,0 +1,11 @@
+Non-linear keyboard trainer
+	
+nlkt is a lightweight keyboard trainer (touch-typing tutor).
+
+non-linearness means that the program use dynamic, not static exercises, which
+are based on the current user's progress and mistakes.
+
+exercises are built from user's mistakes and fortunes.
+
+features: multiple accounts for single user, support for several layouts,
+visual keyboard state, keyboard hints.

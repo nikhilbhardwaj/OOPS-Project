@@ -1,0 +1,15 @@
+Cross-platform bluetooth api for python
+	
+the package provides a python api which provides simple access to bluetooth
+operations. it is available for mac os x, gnu/linux and nokia's python for
+series 60 platform for mobile phones.
+
+lightblue provides simple access to:
+
+
+ * device and service discovery (with and without end-user guis)
+ * standard socket interface for rfcomm and l2cap sockets (currently
+   l2cap client sockets only, and not on pys60)
+ * sending and receiving files over obex
+ * advertising of rfcomm and obex services
+ * local device information

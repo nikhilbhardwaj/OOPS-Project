@@ -1,0 +1,10 @@
+Monitor calibration panel for kde
+	
+this package contains a settings panel for adjusting the brightness, contrast,
+and gamma-correction of a monitor.  test patterns are shown to help
+determine the settings that accurately display the full range of colors.
+
+each of the red, green, and blue components can be adjusted individually,
+or all three components can be adjusted together.
+
+this package is part of the kde graphics module.

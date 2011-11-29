@@ -1,0 +1,8 @@
+Pkcs#11 support using the musclecard framework
+	
+this package provides a pkcs#11 token driver (libmusclepkcs11.so) to be used
+in a browser like mozilla 1.1.1.
+
+the library uses the musclecard framework to drive the hardware token.  the
+hardware token may be a cryptoflex card (see package libcflexplugin) or a
+javacard smartcard with the musclecard applet (see libmcardplugin).

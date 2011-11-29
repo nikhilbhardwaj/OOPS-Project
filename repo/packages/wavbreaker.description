@@ -1,0 +1,8 @@
+A tool to split wave files into multiple chunks
+	
+this application's purpose in life is to take a wave file and
+break it up into multiple wave files.  it makes a clean break
+at the correct position to burn the files to an audio cd
+without any dead air between the tracks.
+
+upstream: http://wavbreaker.sourceforge.net/

@@ -1,0 +1,12 @@
+Irc bot written in ruby -- api documentation
+	
+rbot is very extensible thanks to a well designed plugin
+scheme. it has native infobot-style keywords, fact database,
+access levels and multi-language support.
+
+it comes with several classical plugins, like dns queries,
+babelfish translation, google searching, karma, weather,
+quotes, slashdot news, and many more.
+
+this package procides the api documentation, useful for
+programming plugins.

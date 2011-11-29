@@ -1,0 +1,17 @@
+Linux standard base 3.2 printing package
+	
+the linux standard base (http://www.linuxbase.org/) is a standard
+core system that third-party applications written for linux can
+depend upon.
+
+this package provides an implementation of version 3.2 of the linux
+standard base printing specification for debian on the intel x86,
+intel ia64 (itanium), ibm s390, and powerpc 32-bit architectures with
+the linux kernel. future revisions of the specification and this
+package may support the lsb on additional architectures and kernels.
+
+the intent of this package is to provide a best current practice way
+of installing and running lsb packages on debian gnu/linux. its
+presence does not imply that debian fully complies
+with the linux standard base, and should not be construed as a
+statement that debian is lsb-compliant.

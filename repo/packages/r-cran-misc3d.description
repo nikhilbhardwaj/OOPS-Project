@@ -1,0 +1,30 @@
+Gnu r collection of 3d plot functions and rgl-based isosurfaces
+	
+this cran package provides a collection of miscellaneous 3d plots, including
+rgl-based isosurfaces:
+
+
+ contour3d     uses rgl to render isosurfaces, or three-dimensional
+               contours, computed by the marching cubes algorithm.
+
+
+
+ image3d       crude 3d analog of image() using rgl to plot points on a
+               three dimensional grid representing values in a three
+               dimensional array. assumes high values are inside and
+               uses alpha blending to make outside points more
+               transparent.
+
+
+
+ lines3d       draws connected line segments in an rgl window.
+
+
+
+ parametric3d  plots a two-parameter surface in three dimensions in
+               rgl.  based on mathematica's param3d
+
+
+
+ slices3d      uses tkrplot to create an interactive slice view of three or
+               four dimensional volume data, such as mri data.

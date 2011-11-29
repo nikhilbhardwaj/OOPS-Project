@@ -1,0 +1,8 @@
+Documentation for libextlib-ruby
+	
+this library provides a number of lightweight ruby class extensions
+extracted from datamapper. examples include a mash class, which is a
+hash with indifferent access and an added blank? method to most
+standard variable classes.
+
+this package provides generated html documentation for libextlib-ruby.

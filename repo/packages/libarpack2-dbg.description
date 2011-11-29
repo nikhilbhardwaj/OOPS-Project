@@ -1,0 +1,13 @@
+Fortran77 subroutines to solve large scale eigenvalue problems (debug)
+	
+arpack software is capable of solving large scale symmetric,
+nonsymmetric, and generalized eigenproblems from significant
+application areas. the software is designed to compute a few (k)
+eigenvalues with user specified features such as those of largest
+real part or largest magnitude. storage requirements are on the order
+of n*k locations. no auxiliary storage is required. a set of schur
+basis vectors for the desired k-dimensional eigen-space is computed
+which is numerically orthogonal to working precision. numerically
+accurate eigenvectors are available on request.
+
+this package contains the debugging symbols for libarpack and libparpack.

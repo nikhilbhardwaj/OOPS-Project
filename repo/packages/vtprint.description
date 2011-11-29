@@ -1,0 +1,6 @@
+Prints to term emulator via ansi codes
+	
+this program allows users to print from a remote unix host to a
+printer attached to their local terminal or emulator, which makes it
+great for printing files at home, etc.  (it only does text files,
+though.)

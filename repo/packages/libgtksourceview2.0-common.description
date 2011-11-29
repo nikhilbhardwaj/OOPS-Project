@@ -1,0 +1,11 @@
+Common files for the gtk+ syntax highlighting widget
+	
+gtksourceview is a text widget that extends the standard gtk+ 2.x text widget
+gtktextview. it improves gtktextview by implementing syntax highlighting and
+other features typical of a source editor.
+
+this package contains the language specifications files for ada, c, c++, c#,
+css, ".desktop", ".diff" (patch), fortran 95, gtkrc, haskell, html, idl,
+".ini", java, javascript, latex, lua, msil, nemerle, pascal, perl, php, ".po"
+(gettext), python, r, ruby, sh, sql, tcl, texinfo, vb.net, verilog, vhdl and
+xml.

@@ -1,0 +1,8 @@
+A curses-based utility that polls hosts to determine connectivity
+	
+simple network top (sntop) is a curses-based console utility,
+in the spirit of top, that polls network hosts at a regular interval to
+determine their connectivity and displays the results in a pretty format.
+advanced features, such as automatic html generation of results,
+secure terminal mode, execution of external file on connectivity change,
+and user/system configure files, are supported.

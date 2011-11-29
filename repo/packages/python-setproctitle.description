@@ -1,0 +1,9 @@
+A setproctitle implementation for python
+	
+the library allows a process to change its title (as displayed by system tools
+such as ps and top).
+
+changing the title is mostly useful in multi-process systems, for example when
+a master process is forked: changing the children's title allows to identify
+the task each process is busy with. the technique is used by postgresql and
+the openssh server for example.

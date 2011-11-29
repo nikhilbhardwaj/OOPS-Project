@@ -1,0 +1,8 @@
+Posix.5 ada interface to operating system services
+	
+florist is an implementation of the ieee standards 1003.5: 1992, ieee
+std 1003.5b: 1996, and parts of ieee std 1003.5c: 1998, also known as
+the posix ada bindings.  using this library, you can call operating
+system services from within ada programs.
+
+this package contains the run-time shared library.

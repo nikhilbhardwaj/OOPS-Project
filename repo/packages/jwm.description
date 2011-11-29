@@ -1,0 +1,13 @@
+Very small lightweight pure x11 window manager with tray and menus
+	
+low resource window manager ideal for older pcs. it uses a minimum of external
+libraries, thus very little memory, includes virtual screens, menubar and
+root-menu popup.
+
+jwm is a window manager for the x11 window system. jwm is written in
+c and uses only xlib and (optionally) the shape extension and libxpm.
+it can support some mwm, gnome, and wm spec hints. the menu
+configuration files are managed in xml format.
+
+compared to other light wm, like fvwm95, the jwm consumes about twice
+less memory while providing the same functionality.

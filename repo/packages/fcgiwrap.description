@@ -1,0 +1,8 @@
+Simple server to run cgi applications over fastcgi
+	
+fcgiwrap is a simple server for running cgi applications over fastcgi.
+its goal is to provide clean cgi support to the nginx webserver, although
+can be used with others.
+
+fcgiwrap is lightweight and has no configuration, making it possible to
+use the same pool to run different sites.

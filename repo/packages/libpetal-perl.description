@@ -1,0 +1,8 @@
+Perl template attribute language - tal for perl
+	
+petal is an xml based templating engine that is able to process any kind of
+xml, xhtml and html.
+
+petal borrows a lot of good ideas from the zope page templates tal
+specification, it is very well suited for the creation of wysiwyg xhtml
+editable templates.

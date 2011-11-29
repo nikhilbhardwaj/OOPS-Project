@@ -1,0 +1,5 @@
+Construct/send mime messages from the command line
+	
+mime-construct constructs and (by default) mails mime messages.  it is
+entirely driven from the command line, it is designed to be used by
+other programs, or people who act like programs.

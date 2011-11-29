@@ -1,0 +1,11 @@
+Sundials development files
+	
+the family of solvers referred to as sundials (suit of nonlinear and
+differential/algebraic equation solvers) consists of solvers cvode
+(for ode systems), cvodes (ode with sensitivity analysis capabilities),
+ida (for differential-algebraic systems), and kinsol (for nonlinear
+algebraic systems).
+
+this package contains files necessary for development applications using
+sundials in c and, in case of fcvode and fkinsol, fortran.  it also
+contains various example programs distributed by the upstream authors.

@@ -1,0 +1,9 @@
+Parallel and distributed programming toolkit for python
+	
+parallel python module (pp) provides an easy and efficient way to
+create parallel-enabled applications for smp computers and clusters.
+pp module features cross-platform portability and dynamic load
+balancing. thus application written with pp will parallelize
+efficiently even on heterogeneous and multi-platform clusters
+(including clusters running other application with variable cpu
+loads).

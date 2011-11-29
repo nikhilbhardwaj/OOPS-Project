@@ -1,0 +1,18 @@
+Clanlib game sdk development files
+	
+clanlib is a multi-platform software development kit, with an emphasis on
+game development.
+
+on one side, it tries to provide a platform independent interface to
+write games with, by taking over the low-level work from the game and
+providing wrappers around toolkits such as directfb, directx, opengl,
+vorbis, x11, etc., so that if a game is written with clanlib, the game
+should compile on any platform supported by clanlib without changing
+its source code.
+
+on the other hand, clanlib also tries to be a service-minded sdk.
+in other words, the developers have put great effort into designing
+the api, to ensure clanlib's ease of use - while maintaining its power.
+
+this is the development part of the clanlib sdk, which is needed to build
+applications with it.

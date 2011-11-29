@@ -1,0 +1,4 @@
+PackageId:2328
+Name:courier-webadmin
+Version:0.65.0-3
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,courier-base,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb

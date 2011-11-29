@@ -1,0 +1,11 @@
+Aspect-oriented programming extension for c++
+	
+aspectc++ supports aspect-oriented programming with c++, by providing:
+
+
+ - an aspect language extension to c++.
+ - an aspect weaver that does source-to-source translation.
+
+
+aspectc++ provides for c++ similar features like its best known
+cousin, aspectj, provides for java.

@@ -1,0 +1,4 @@
+PackageId:27598
+Name:postgresql-common
+Version:113
+Deps:adduser,debconf,debconf-2.0,cdebconf,cdebconf-udeb,lsb-base,postgresql-client-common,procps,ssl-cert

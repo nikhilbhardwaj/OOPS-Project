@@ -1,0 +1,36 @@
+Advanced drum machine/step sequencer
+	
+hydrogen is an advanced drum machine.  it's main goal is to bring
+professional yet simple and intuitive pattern-based drum programming.
+
+general features:
+
+ * very user-friendly, modular, fast and intuitive graphical interface
+   based on qt 4.
+ * sample-based stereo audio engine, with import of sound samples in
+   .wav, .au and .aiff formats.
+ * support of samples in compressed flac file.
+
+
+sequencer and mixer features:
+
+ * pattern-based sequencer, with unlimited number of patterns and
+   ability to chain patterns into a song.
+ * up to 64 ticks per pattern with individual level per event and
+   variable pattern length.
+ * 32 instrument tracks with volume, mute, solo, pan capabilities.
+ * multi layer support for instruments (up to 16 samples for each
+   instrument).
+ * ability to import/export song files.
+ * unique human velocity, human time, pitch and swing functions.
+ * multiple patterns playing at once.
+
+
+other features:
+
+ * jack, alsa, portaudio and oss audio drivers.
+ * alsa midi and portmidi input with assignable midi-in channel (1..16,
+   all).
+ * import/export of drumkits.
+ * export song to wav file.
+ * export song to midi file.

@@ -1,0 +1,40 @@
+Tools for doing neat things in ntfs partitions from linux
+	
+the linux-ntfs project (http://www.linux-ntfs.org/) aims to bring full
+support for the ntfs filesystem to the linux operating system.
+
+this is a set of tools targeted for people interested in working
+with the ntfs support in the linux kernel and using it.  the
+following utilities are included:
+
+ntfsfix - fix common filesystem errors and force windows to check ntfs.
+
+mkntfs - format a partition with an ntfs filesystem, optionally bootable.
+
+ntfsinfo - show some information about an ntfs partition or one of the
+files or directories within it.
+
+ntfslabel - show, or set, an ntfs partition's volume label.
+
+ntfsresize - resize an ntfs partition without losing data.
+
+ntfsundelete - recover deleted files from an ntfs partition.
+
+ntfscluster - locate the owner of any given sector or cluster on an ntfs
+partition.
+
+ntfscat - concatenate files and print them on the standard output
+(without mounting the partition).
+
+ntfsls - list directory contents on an ntfs filesystem (without
+mounting).
+
+ntfscp - overwrite files on an ntfs partition.
+
+ntfsclone - efficiently clone an ntfs filesystem or a part of it.
+
+ntfsmount - mount an ntfs partition from user-space using libntfs and fuse.
+
+ntfsdecrypt - decrypt ntfs-encrypted files (not included).
+
+ntfscmp - compare two ntfs volumes and tell the differences.

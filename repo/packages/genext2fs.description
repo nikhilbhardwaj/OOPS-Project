@@ -1,0 +1,6 @@
+Ext2 filesystem generator for embedded systems
+	
+genext2fs is meant to generate an ext2 filesystem  as a normal
+(non-root) user. it doesn't require you to mount the image file
+to copy files on it. it doesn't even require you to be the
+superuser to make device nodes.

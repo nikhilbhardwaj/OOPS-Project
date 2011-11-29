@@ -1,0 +1,12 @@
+Debhelper script to help packaging kernel patches
+	
+the dh_installkpatches script produces the "apply" and "unpatch" scripts
+that kernel-package uses to automatically handle kernel patches.  it
+provides a number of useful features like:
+
+ * does its best to never break your kernel source tree
+ * allows you to select any provided version of a patch
+ * handle patch inter-dependencies
+
+
+patches are described in a debian-standard control-file-like format.

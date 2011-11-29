@@ -1,0 +1,7 @@
+Qt-based library that maps json data to qvariant objects, debug info
+	
+debug info for qt based library that maps json adta to qvariant objects.
+
+qjson is a qt-based library that maps json data to qvariant objects: json
+arrays will be mapped to qvariantlist instances, while json objects will be
+mapped to qvariantmap.

@@ -1,0 +1,6 @@
+Tools to define new charset conversion for konwert
+	
+this package contains sources for some filters, and the scripts used to
+build those filters from them.
+
+the `512bold' filter is a c++ program.

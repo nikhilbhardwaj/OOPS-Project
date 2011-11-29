@@ -1,0 +1,6 @@
+Headers for giblib
+	
+headers and static libraries for giblib, a library of handy stuff.
+
+giblib contains an imlib2 wrapper to avoid the context stuff,
+doubly-linked lists and font styles.

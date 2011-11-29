@@ -1,0 +1,16 @@
+Create a skeleton source package for a new program
+	
+autoproject interviews the user, then creates a source package for a
+new program which follows the gnu programming standards.  the new
+package uses autoconf to configure itself, and automake to create the
+makefile.  `make distcheck' succeeds.
+
+the idea is that you execute autoproject just once when you start a
+new project.  it will ask a few questions, then create a new directory
+and populate it with standard files, customized for the new project.
+
+optionally, the new package will use a command line parser generator.
+currently, autoproject supports two parser generators: clig by harald
+kirsch <kir@iitb.fhg.de> (see http://wsd.iitb.fhg.de/software/), and
+autogen by bruce korb <bkorb@gnu.org> (see
+http://autogen.sourceforge.net/).

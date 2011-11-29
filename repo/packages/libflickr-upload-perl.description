@@ -1,0 +1,10 @@
+Module for uploading images to flickr.com
+	
+flickr_upload is a completely functional batch uploading tool which
+uses perl module flickr::upload as its back-end. it is flickr.com
+image uploading made easy and quick from the command line; it also
+helps you tagging, choosing access control, defining content type,
+setting safety level, etc., while uploading your images.
+
+flickr_upload may also be useful for generating authentication tokens
+against other api keys/secrets (i.e. for embedding in scripts).

@@ -1,0 +1,6 @@
+Implements the perl 6 'slurp' built-in
+	
+perl6::slurp allows you to "slurp" in contents from a file or
+a file handle into a scalar or an array. this used to be done by
+modifying the $/ built-in, but perl6::slurp gives us the ease of
+use of the perl 6's slurp() function.

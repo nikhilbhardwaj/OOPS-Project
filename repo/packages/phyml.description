@@ -1,0 +1,21 @@
+Phylogenetic estimation using maximum likelihood
+	
+phyml is a software that estimates maximum likelihood phylogenies from
+alignments of nucleotide or amino acid sequences. it provides a wide
+range of options that were designed to facilitate standard phylogenetic
+analyses. the main strengths of phyml lies in the large number of
+substitution models coupled to various options to search the space of
+phylogenetic tree topologies, going from very fast and efficient methods
+to slower but generally more accurate approaches. it also implements
+two methods to evaluate branch supports in a sound statistical framework
+(the non-parametric bootstrap and the approximate likelihood ratio test).
+
+phyml was designed to process moderate to large data sets. in theory,
+alignments with up to 4,000 sequences 2,000,000 character-long can
+be analyzed. in  practice however, the amount of memory required to process
+a data set is proportional of the product of the number of sequences by their
+length. hence, a large number of sequences can only be processed provided
+that they are short. also, phyml can handle long sequences provided that
+they are not numerous. with most standard personal computers, the “comfort
+zone” for phyml generally lies around 3 to 500 sequences less than 2,000
+character long.

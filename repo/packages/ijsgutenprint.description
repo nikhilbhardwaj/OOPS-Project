@@ -1,0 +1,22 @@
+Inkjet server - ghostscript driver for gutenprint
+	
+this package contains the ijsgutenprint binary which provides
+ghostscript with a gutenprint driver, including all printers
+supported by gutenprint.  ijsgutenprint is an ijs server (driver),
+which communicates with ghostscript (an ijs client) using the ijs
+(inkjet server) communications protocol.  ijs is a method for
+separating ghostscript drivers from ghostscript, to allow
+ghostscript to be more extensible.
+
+if you wish to print using ghostscript and the gutenprint drivers,
+install this package.  this is typical for lprng setups.  if you
+are using cups, cups-driver-gutenprint is a better choice, but
+this package will still work with the appropriate foomatic setup
+if you wish to make use of foomatic.
+
+gutenprint is the print facility for the gimp, and in addition a
+suite of drivers that may be used with common unix spooling systems
+using ghostscript or cups.  these drivers provide printing quality
+for unix/linux on a par with proprietary vendor-supplied drivers in
+many cases, and can be used for many of the most demanding printing
+tasks.  gutenprint was formerly known as gimp-print.

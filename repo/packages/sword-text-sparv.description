@@ -1,0 +1,9 @@
+Spanish reina-valera bible (1909) for sword
+	
+the reina-valera bible (1909) is a spanish bible translation based on
+the textus receptus.
+
+this package requires a libsword version of at least 1.5.9 to access
+through a sword front end.  however, this is not declared as a dependency
+because you may have occasion to install just the text without any sort
+of front end or other interface.

@@ -1,0 +1,13 @@
+Asterisk pbx sound files - spanish/gsm
+	
+asterisk is an open source pbx and telephony toolkit.  it is, in a
+sense, middleware between internet and telephony channels on the bottom,
+and internet and telephony applications at the top.
+
+asterisk includes a set of standard sound files in various formats. this
+package contains the core part of that collection in spanish (us, by
+allison smith) in raw gsm-fr format (compressed. takes relatively little
+space. playable with sox).
+
+this package also provides the 'es' and 'es_mx' sound directories through
+alternatives and hence is required by packages of other formats.

@@ -1,0 +1,8 @@
+Haskell stream (infinite list) library for ghc; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+provides functions, analogous to those from data.list, to create and
+manipulate infinite lists.

@@ -1,0 +1,13 @@
+Create ztxt databases from ascii files to read them in a palm
+	
+a simple commandline program that takes a plain ascii text file and
+compresses it into a ztxt database. makeztxt will remove newline
+characters at the end of lines that contain text so that the paragraphs
+flow better on the palm screen. makeztxt supports the use of regular
+expressions to automatically generate a list of bookmarks for you.
+lastly. makeztxt can also break an existing ztxt file into its
+components (text, bookmarks, annotations) and store them into separate
+files.
+
+ztxt databases can be opened by the gpled weaselreader program in your
+palm (http://gutenpalm.sf.net/)

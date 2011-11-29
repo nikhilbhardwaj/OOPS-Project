@@ -1,0 +1,26 @@
+Perl extension for handling marc records
+	
+the marc::* series of modules create a simple object-oriented
+abstraction of marc record handling.  the files are:
+
+marc::doc::tutorial
+a tutorial explaining how to use marc::record.
+
+marc::record
+the core class for representing a single marc record.
+
+marc::field
+another core class for representing a single field in a record.
+
+marc::batch
+the basic object for access to a batch of one or more marc records.
+
+marc::file
+base class for the marc file.
+
+marc::file::usmarc
+marc::file::microlif
+subclasses of marc::file specific to the usmarc and microlif formats
+
+marc::lint
+extension to check marc records for validity.

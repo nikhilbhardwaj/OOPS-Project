@@ -1,0 +1,11 @@
+Simple emacs interface of quilt
+	
+this is an emacs minor mode for quilt. by using this,
+it becomes easy to edit files controlled by quilt.
+the main features are as follows:
+
+
+ - automatically detects files that are in a quilt hierarchy
+  and enables itself.
+ - only files in topmost patch can be writable.
+ - some handy shortcut keys of quilt commands.

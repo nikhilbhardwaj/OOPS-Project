@@ -1,0 +1,23 @@
+Text editor with syntax highlighting & utf support
+	
+tea provides you hundreds of functions. want some tea?
+
+tea features are:
+
+ * spell checker (using aspell and hunspell)
+ * tabbed layout engine
+ * support for multiple encodings
+ * syntax highlighting
+ * code snippets and templates support
+ * wikipedia, docbook, latex, and lout editing support
+ * reading of opendocument text, swx (old openoffice.org format),
+   kword, abiword, docx, scribus, rtf, fb2
+ * hotkeys customizations
+ * "open at cursor"-function for html-files and images
+ * miscalleneous html tools
+ * preview in external browsers
+ * string-handling functions such as sorting, reverse, format killing,
+   trimming, filtering, conversions etc.
+ * bookmarks
+ * drag'n'drop support (with text files and pictures)
+ * built-in image viewer (png, jpeg, gif, wbmp, bmp, svg)

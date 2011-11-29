@@ -1,0 +1,4 @@
+PackageId:25886
+Name:ocsinventory-server
+Version:1.02.2-1.1
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libapache-dbi-perl,libapache2-mod-perl2,libcompress-zlib-perl,libio-compress-perl,perl,libdbd-mysql-perl,libdbi-perl,libnet-ip-perl,libxml-simple-perl,ucf

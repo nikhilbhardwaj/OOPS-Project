@@ -1,0 +1,13 @@
+Additional statistical counters for atop
+	
+this patch takes care that statistical counters are added to the
+process-administration (task_struct) and that these counters are incremented
+per process.  the additional counters are shown via the file /proc/pid/stat as
+a second line of counters. when this patch is installed, atop automatically
+shows another layout for the generic screen (including disk- and
+network-transfers for active processes). however for terminated process these
+additional counters are not shown, because the conventional layout of the
+process-accounting record has not been adapted.
+
+
+ author: gerlof langeveld <gerlof@atcomputing.nl>

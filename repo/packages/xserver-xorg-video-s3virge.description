@@ -1,0 +1,13 @@
+X.org x server -- s3 virge display driver
+	
+this package provides the driver for the s3 virge and trio3d family
+of chipsets.  it does not support trio64 or s3 96x cards; support for
+these can be found in the xserver-xorg-video-s3 package.  support for
+s3 savage chipsets can be found in xserver-xorg-video-savage.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xf86-video-s3virge driver module.

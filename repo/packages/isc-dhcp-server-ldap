@@ -1,0 +1,4 @@
+PackageId:7727
+Name:isc-dhcp-server-ldap
+Version:4.1.1-P1-15+squeeze3
+Deps:debianutils,isc-dhcp-common,isc-dhcp-server,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libldap-2.4-2,libssl0.9.8

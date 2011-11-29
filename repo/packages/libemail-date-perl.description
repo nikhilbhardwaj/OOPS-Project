@@ -1,0 +1,12 @@
+Perl module for correct formatting of dates in emails
+	
+rfc 2822 defines the date: header. it declares the header a required
+part of an email message. the syntax for date headers is clearly laid
+out. still, even a perfectly planned world has storms. the truth is, many
+programs get it wrong. very wrong. or, they don't include a date: header
+at all. this often forces you to look elsewhere for the date, and hoping
+to find something.
+
+for this reason, the tedious process of looking for a valid date has been
+encapsulated in this software. further, the process of creating rfc
+compliant date strings is also found in this software.

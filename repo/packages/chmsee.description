@@ -1,0 +1,9 @@
+A chm file viewer written in gtk+
+	
+chmsee is a compiled html help (chm) file viewer written in gtk+.
+
+features:
+
+ * use gecko rendering engine
+ * bookmarks
+ * support to open multiple files at once

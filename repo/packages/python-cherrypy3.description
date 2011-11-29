@@ -1,0 +1,19 @@
+Python web development framework - version 3
+	
+cherrypy is a pythonic, object-oriented web development framework. it
+provides the foundation over which complex web-based applications can
+be written, with little or no knowledge of the underlying
+protocols. cherrypy allows developers to build web applications in
+much the same way they would build any other object-oriented python
+program. this usually results in smaller source code developed in
+less time.
+
+cherrypy is up-to-date with the latest developments on using python
+for web development: it features a bundled wsgi server, and is able
+to integrate with other dispatching mechanisms, such as
+routes. cherrypy can be run as a standalone application, since it
+provides its own http server; setting it up behind another http
+server, such as apache, or even with mod_python are also options.
+
+this version is backwards incompatible with the 2.2 version in some
+ways. see http://www.cherrypy.org/wiki/upgradeto30.

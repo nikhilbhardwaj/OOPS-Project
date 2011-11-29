@@ -1,0 +1,8 @@
+Library for verification of account numbers and bank codes (development files)
+	
+libktoblzcheck is a library for verification of bank account numbers and bank
+codes (blz) of german banks. it is based on the specifications of the
+"deutsche bundesbank". it also supports the verification of international bank
+account numbers (iban) and bank identifier codes (bic).
+
+this package contains the development files.

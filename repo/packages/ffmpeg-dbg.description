@@ -1,0 +1,6 @@
+Debug symbols for ffmpeg related packages
+	
+this package contains debug data of the ffmpeg related shared libraries.
+
+most people will not need this package. please install it to produce useful
+stacktraces to help debugging the ffmpeg library.

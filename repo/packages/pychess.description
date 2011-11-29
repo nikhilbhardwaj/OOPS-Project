@@ -1,0 +1,20 @@
+Chess graphical user interface for several chess engines
+	
+the goal of pychess, is to provide a fully featured, nice looking,
+easy to use chess client for the gnome-desktop.
+
+the client should be usable both to those totally new to chess, and
+those who want to use a computer to further enchance their play.
+
+features include:
+
+ tabbed interface
+ pgn+epd read/write support
+ hints and spymode
+ xboard/cecp engine support
+ builtin python based engine
+ openingbook using sqlite
+ clean interface and dialogs
+ builtin move validator
+ legal move highlighting
+ supports drag'n'drop.

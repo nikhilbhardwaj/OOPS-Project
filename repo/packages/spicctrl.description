@@ -1,0 +1,9 @@
+Sony vaio controller program to set lcd backlight brightness
+	
+spicctrl is a small program that can use the sony programmable i/o control
+device (spic), which is part of sony vaio's, to do a few simple things.
+currently, it can only be used to control the brightness on the lcd
+backlight, and print out some information about the battery.
+
+you need a kernel with the sonypi module (and a vaio laptop..) to use this
+program.

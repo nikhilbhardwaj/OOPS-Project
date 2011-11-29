@@ -1,0 +1,17 @@
+Input method configuration framework
+	
+im-config package provides the framework to configure and to switch
+the input method on x window system. this input method is the essential
+mechanism for japanese, chinese and korean (cjk) languages to enter
+their non-ascii native characters.
+
+many modern input methods such as ibus support not only one of these cjk
+languages but support almost all languages simultaneously by
+dynamically switching keyboard modes with gui helper program.
+
+by installing this package, the most desirable input method and its
+backend conversion engine are automatically configured with both the x
+window system input method (xim), gtk+ input method module and qt input
+method module.
+
+you can further customize your input method with 'im-config' command.

@@ -1,0 +1,9 @@
+C++ network server library, development files
+	
+this package contains the header files and static libraries needed
+for development with libcapsinetwork.
+
+libcapsinetwork is a network library for c++ server daemons aimed at
+easy development.  implementing a server is as easy as adding a few
+lines to your code and writing one function that handles input
+events.

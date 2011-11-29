@@ -1,0 +1,13 @@
+Samba nameservice integration server
+	
+samba is an implementation of the smb/cifs protocol for unix systems,
+providing support for cross-platform file and printer sharing with
+microsoft windows, os x, and other unix systems.  samba can also function
+as an nt4-style domain controller, and can integrate with both nt4 domains
+and active directory realms as a member server.
+
+this package provides winbindd, a daemon which integrates authentication
+and directory service (user/group lookup) mechanisms from a windows
+domain on a linux system.  user/group lookups are configured via
+/etc/nsswitch.conf, and authentication is integrated using the winbind
+module for pam.

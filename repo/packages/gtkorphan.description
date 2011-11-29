@@ -1,0 +1,7 @@
+A graphical tool to find and remove orphaned libraries
+	
+gtkorphan is a graphical tool which scans your debian system, looking for
+orphaned libraries. it implements a gui front-end to deborphan, but adds the
+package removal capability.
+a detailed documentation on the program can be found at:
+http://www.marzocca.net/linux/gtkorphan.html.

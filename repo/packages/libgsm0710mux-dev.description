@@ -1,0 +1,6 @@
+Development files for libgsm0710mux
+	
+this library supports implementing a gsm 07.10 multiplexing server.
+it requires libgsm0710 for the protocol engine and glib.
+
+development files.

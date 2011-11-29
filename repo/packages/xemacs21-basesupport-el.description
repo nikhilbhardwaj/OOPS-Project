@@ -1,0 +1,10 @@
+Editor and kitchen sink -- source elisp support files
+	
+this package contains the base extra elisp files in order to have a
+functioning xemacs21 package.
+
+the xemacs21-basesupport package contains the
+compiled versions of these files.
+
+the major reason to install this package is if you want to learn
+elisp or modify the libraries for your specific installation.

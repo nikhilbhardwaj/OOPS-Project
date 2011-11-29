@@ -1,0 +1,23 @@
+Jboss xml binding
+	
+this package is part of the jbosscommonproject and provides xml
+bindings to java. the advantages of which are:
+
+ * no special interfaces or any other enforments for java classes
+
+used for object models;
+
+ * almost arbitrary class hierarchy loosely coupled with the xml
+
+schema structure;
+
+ * the ability to populate the same object model with data from
+
+different xml files;
+
+ * the ability to avoid representation of xml elements that are not
+
+useful in the object model (while still supporting marshalling where
+possible);
+
+ * support of dtds and xml schemas.

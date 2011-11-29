@@ -1,0 +1,10 @@
+Terminal multiplexor with vt100/ansi terminal emulation
+	
+screen is a terminal multiplexor that runs several separate "screens" on a
+single physical character-based terminal.  each virtual terminal emulates a
+dec vt100 plus several ansi x3.64 and iso 2022 functions.  screen sessions
+can be detached and resumed later on a different terminal.
+
+screen also supports a whole slew of other features.  some of these are:
+configurable input and output translation, serial port support, configurable
+logging, multi-user support, and utf8 charset support.

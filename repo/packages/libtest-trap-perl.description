@@ -1,0 +1,9 @@
+Test module to trap exit codes, exceptions, output, etc.
+	
+test::trap is a perl test module useful primarily (but not exclusively) for
+test scripts: a block eval on steroids, configurable and extensible, but by
+default trapping (perl) stdout, stderr, warnings, exceptions, would-be exit
+codes, and return values from boxed blocks of test code.
+
+the values collected by the latest trap can then be queried or tested through
+as a special trap object.

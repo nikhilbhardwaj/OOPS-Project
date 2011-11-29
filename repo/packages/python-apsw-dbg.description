@@ -1,0 +1,9 @@
+Another python sqlite 3 wrapper (debug extension)
+	
+apsw (another python sqlite wrapper) is an sqlite 3 wrapper that
+provides the thinnest layer over sqlite 3 possible. everything you
+can do from the c api to sqlite 3, you can do from python. although
+apsw's api looks vaguely similar to python's db-api, it is not
+compliant with that api and instead works the way sqlite 3 does.
+
+this package contains the extension built for the python debug interpreter.

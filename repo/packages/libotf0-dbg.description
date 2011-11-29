@@ -1,0 +1,19 @@
+The libotf libraries and debugging symbols
+	
+the libotf library provides the following facilities:
+
+ - read open type layout tables from otf file.  currently these
+   tables are supported; head, name, cmap, gdef, gsub, and gpos.
+ - convert a unicode character sequence to a glyph code sequence by
+   using the above tables.
+
+
+the combination of libotf and the freetype library (ver.2) realizes
+ctl (complex text layout) by opentype fonts.
+
+this package contains unstripped shared libraries. it is provided
+primarily to provide a backtrace with names in a debugger, this makes
+it somewhat easier to interpret core dumps.  the libraries are installed
+in /usr/lib/debug and can be used by placing that directory in
+ld_library_path.
+most people will not need this package.

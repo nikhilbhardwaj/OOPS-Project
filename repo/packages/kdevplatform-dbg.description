@@ -1,0 +1,7 @@
+Debugging symbols for the kdevelop platform
+	
+this package contains the debugging symbols associated with kdevplatform.
+they will automatically be used by gdb for debugging kdevplatform-related
+issues.
+
+this package is part of the kdevelop platform.

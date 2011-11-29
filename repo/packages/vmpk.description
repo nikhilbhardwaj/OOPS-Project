@@ -1,0 +1,9 @@
+Virtual midi piano keyboard
+	
+virtual midi piano keyboard is a midi events generator and
+receiver. it doesn't produce any sound by itself, but can be used to
+drive a midi synthesizer (either hardware or software, internal or
+external). you can use the computer's keyboard to play midi notes,
+and also the mouse. you can use the virtual midi piano keyboard to
+display the played midi notes from another instrument or midi file
+player.

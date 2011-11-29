@@ -1,0 +1,11 @@
+Torque queueing system shared files
+	
+torque (tera-scale open-source resource and queue manager) is a resource
+manager providing control over batch jobs and distributed compute
+nodes. torque is based on openpbs version 2.3.12 and incorporates
+scalability, fault tolerance, and feature extension patches provided by
+usc, ncsa, osc, the u.s. dept of energy, sandia, pnnl, u of buffalo,
+teragrid, and many other leading edge hpc organizations.
+
+this package contains a series of files and directories that are shared
+between client, server and mom, that can only be installed once.

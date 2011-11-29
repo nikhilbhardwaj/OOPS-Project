@@ -1,0 +1,24 @@
+The gnat programming system - advanced ide for c and ada
+	
+gps is a complete integrated development environment that gives access
+to a wide range of tools and integrates them smoothly.
+
+gps gives access to built-in file editing; html based help system;
+complete compile/build/run cycle; intelligent source navigation;
+project management; general graph technology giving access to many
+different browsers such as source dependency, project dependency, call
+graphs, etc.; fully integrated visual debugger, based on the gvd
+technology, and enhanced for inclusion in gps; generic version control
+system, providing access to cvs, clearcase, and possibly others in the
+future; many other tools such as a visual comparison, automatic
+generation of files, source reformatting.
+
+gps is fully customizable, providing several levels of customizations:
+a first level, available through the preferences dialog; a second
+level, which allows you to customize your menu items, tool bar and key
+bindings; a third level, which allows you to automate processing
+through scripts; and a fourth level, which allows any kind of very
+specific or tight integration, due to the open nature of gps, and to
+its architecture.
+
+gps also integrates with existing editors such as emacs and vi.

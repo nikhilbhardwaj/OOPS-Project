@@ -1,0 +1,10 @@
+Perl module to override subroutines in a module for unit testing
+	
+test::mockmodule lets you temporarily redefine subroutines in other
+packages for the purposes of unit testing.
+
+a test::mockmodule object is set up to mock subroutines for a given
+module. the object remembers the original subroutine so it can be
+easily restored. this happens automatically when all mockmodule
+objects for the given module go out of scope, or when you unmock()
+the subroutine.

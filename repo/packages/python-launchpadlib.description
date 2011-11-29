@@ -1,0 +1,17 @@
+Launchpad web services client library
+	
+a free python library for scripting launchpad through its web services
+interface.
+
+it currently provides access to the following parts of launchpad:
+
+ * people and teams
+ * team memberships
+ * bugs and bugtasks
+
+
+the launchpad api is currently in beta, and may well change in ways
+incompatible with this library.
+
+you can find current api documentation at
+https://help.launchpad.net/api/launchpadlib

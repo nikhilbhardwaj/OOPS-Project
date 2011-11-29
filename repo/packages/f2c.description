@@ -1,0 +1,11 @@
+A fortran 77 to c/c++ translator
+	
+f2c translates fortran 77 (with some extensions) into c, so that it can
+then be compiled and run on a system with no fortran compiler.  the c
+files must then be linked against the appropriate libraries.
+
+this is an actively maintained fortran to c translator and with the
+fort77 frontend provides an ideal way to compile fortran routines
+as black boxes (for example for invocation from c).  source level
+debugging facilities are not available, and error messages are not as
+well developed as in g77.

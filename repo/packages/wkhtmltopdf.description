@@ -1,0 +1,7 @@
+Command line utility to convert html to pdf using webkit
+	
+wkhtmltopdf is a command line program which permits to create a
+pdf from an url, a local html file or stdin. it produces a pdf like
+rendred with the webkit engine.
+
+this program requires an x11 server to run.

@@ -1,0 +1,14 @@
+Basic linear algebra subroutines 3, static library
+	
+this package is a binary incompatible upgrade to the blas-dev
+package. several minor changes to the c interface have been
+incorporated.
+
+blas (basic linear algebra subroutines) is a set of efficient
+routines for most of the basic vector and matrix operations.
+they are widely used as the basis for other high quality linear
+algebra software, for example lapack and linpack.  this
+implementation is the fortran 77 reference implementation found
+at netlib.
+
+this package contains a static version of the library.

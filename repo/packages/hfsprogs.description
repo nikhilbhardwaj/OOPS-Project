@@ -1,0 +1,25 @@
+Mkfs and fsck for hfs and hfs+ file systems
+	
+the hfs+ file system used by apple computer for their mac os is
+supported by the linux kernel.  apple provides mkfs and fsck for
+hfs+ with the unix core of their operating system, darwin.
+
+this package is a port of apple's tools for hfs+ filesystems.
+
+for users, hfs+ seems to be a good compromise to carry files between
+macos x and linux machines, as hfs+ doesn't suffer the problems of
+fat32 like:
+
+
+ * huge space waste (in slack space as devices grow faster);
+ * ability to create files that are more than 4gb in size (especially
+   good for those working with multimedia and that need to carry large
+   iso files);
+ * ability to use case preserving (and even sensitivity!);
+ * ability to use uid's and gid's on the filesystem.
+
+
+users in general can enjoy such benefits since it is expected to have
+more hfs+ filesystems in use, as apple has announced macintoshes for
+ix86-64, besides the filesystem being already supported by powerpc
+systems since the beginning.

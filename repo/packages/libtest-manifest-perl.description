@@ -1,0 +1,5 @@
+Perl module for interacting with a test manifest file
+	
+test::manifest is a perl test framework that allows you to run any tests you
+want based on the t/test_manifest file, in any order you desire (rather than
+simply the ascii-betical order provided by default.)

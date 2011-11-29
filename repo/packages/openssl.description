@@ -1,0 +1,14 @@
+Secure socket layer (ssl) binary and related cryptographic tools
+	
+this package contains the openssl binary and related tools.
+
+it is part of the openssl implementation of ssl.
+
+you need it to perform certain cryptographic actions like:
+
+ -  creation of rsa, dh and dsa key parameters;
+ -  creation of x.509 certificates, csrs and crls;
+ -  calculation of message digests;
+ -  encryption and decryption with ciphers;
+ -  ssl/tls client and server tests;
+ -  handling of s/mime signed or encrypted mail.

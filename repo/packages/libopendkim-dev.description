@@ -1,0 +1,8 @@
+Headers and development libraries for the opendkim library
+	
+the opendkim project is a community effort to develop and maintain a c library
+for producing dkim-aware applications and an open source milter for providing
+domainkeys identified mail (dkim) service.
+
+this package provides the required header files and development libraries for
+developing against the opendkim library.

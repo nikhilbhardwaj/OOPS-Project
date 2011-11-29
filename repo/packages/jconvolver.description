@@ -1,0 +1,7 @@
+Convolution reverb engine for jack
+	
+jconvonlver is a convolution engine for jack using fft-based
+partitioned convolution with multiple partition sizes.
+it can execute up to a 64 by 64 convolution matrix
+(i.e. 4096 simultaneous convolutions) as long as
+your cpu(s) can handle the load.

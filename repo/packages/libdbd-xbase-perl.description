@@ -1,0 +1,9 @@
+Perl module to access xbase files (optionally through dbi)
+	
+this module allows creation, access and modification of .dbf (dbase,
+clipper, fox* style) database files. it is capable of handling memo
+files, but indexes only in a somewhat limited way. it has two
+interfaces: one using sql commands (through dbi) ad the other with a
+simple oo interface.
+
+you can use the included dbf_dump program to dump the content of a .dbf file.

@@ -1,0 +1,27 @@
+Library for using parallel (openmpi) version of meep
+	
+meep (or meep) is a free finite-difference time-domain (fdtd) simulation
+software package developed at mit to model electromagnetic systems.
+
+its features include:
+
+  * simulation in 1d, 2d, 3d, and cylindrical coordinates.
+  * distributed memory parallelism on any system supporting the mpi standard.
+  * dispersive (including loss/gain) and nonlinear (kerr & pockels) materials.
+    magnetic permeability and electric/magnetic conductivities.
+  * pml absorbing boundaries and/or perfect conductor and/or bloch-periodic
+    boundary conditions.
+  * exploitation of symmetries to reduce the computation size .
+    even/odd mirror symmetries and 90/180 degree rotations.
+  * complete scriptability - either via a scheme scripting front-end
+    (as in libctl and mpb), or callable as a c++ library.
+  * field output in the hdf5 standard scientific data format, supported by
+    many visualization tools.
+  * arbitrary material and source distributions.
+  * field analyses including flux spectra, frequency extraction, and energy
+    integrals; completely programmable.
+  * multi-parameter optimization, root-finding, integration, etcetera
+    (via libctl).
+
+
+this package contains the mpi version of the library.

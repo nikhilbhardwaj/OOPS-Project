@@ -1,0 +1,9 @@
+Small but powerful init system
+	
+minit is a replacement for init (but can also be used in parallel)
+that has process monitoring capabilities and is somewhat similar to
+daemontools from d. j. bernstein.
+
+this package is experimental and not easy to install and use.
+
+homepage: http://www.fefe.de/minit/

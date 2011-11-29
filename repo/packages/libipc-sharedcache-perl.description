@@ -1,0 +1,5 @@
+Module to manage a cache in sysv ipc shared memory
+	
+ipc::sharedcache attempts to make shared memory easy to use for one specific
+application - a shared memory cache, provides a shared memory cache accessed
+as a tied hash.

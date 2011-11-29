@@ -1,0 +1,4 @@
+Blowfish-capable pam module
+	
+this is a pam module, backward-compatible with pam_unix, that additionally
+supports bcrypt blowfish-based password hashing.

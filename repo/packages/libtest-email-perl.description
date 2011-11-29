@@ -1,0 +1,9 @@
+Email contents test module
+	
+test::email provides tests for email contents; it is a subclass of
+mime::entity with header_is, body_is, or _ok or _like and part_ok,
+mime_type_ok methods. tests for equality remove trailing newlines from
+strings before testing. some mail messages have newlines appended to them
+during the mailing process, which could cause unnecessary confusion.
+
+this package also provides test::pop3 to automate email delivery tests.

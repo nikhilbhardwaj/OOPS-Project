@@ -1,0 +1,12 @@
+Additional modules for awesome
+	
+this is a set of additional modules for the awesome window manager.
+
+it contains:
+
+ * wicked, a widget manager which can fill them with various system information
+   (cpu or memory usage, network bandwidth, etc);
+ * shifty, an extension implementing dynamic tagging;
+ * obvious, a set of several widgets (wifi link quality, battery usage, etc),
+   superseding wicked;
+ * vicious, a widget manager.

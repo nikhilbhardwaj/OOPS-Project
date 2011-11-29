@@ -1,0 +1,5 @@
+Xml parsing c library - example application
+	
+this package contains xmlwf, an example application of expat, the c
+library for parsing xml.  the arguments to xmlwf are one or more
+files which are each to be checked for xml well-formedness.

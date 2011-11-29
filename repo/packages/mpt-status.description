@@ -1,0 +1,5 @@
+Get raid status out of mpt (and other) hw raid controllers
+	
+the mpt-status software is a query tool to access the running
+configuration and status of lsi scsi hbas.  mpt-status allows you to
+monitor the health and status of your raid setup.

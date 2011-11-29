@@ -1,0 +1,17 @@
+Direct solution of large, sparse systems of linear equations
+	
+superlu is a general purpose library for the direct solution of
+large, sparse, nonsymmetric systems of linear equations on high
+performance machines. the library is written in c and is callable from
+either c or fortran. the library routines will perform an lu
+decomposition with partial pivoting and triangular system solves
+through forward and back substitution. the lu factorization routines
+can handle non-square matrices but the triangular solves are performed
+only for square matrices. the matrix columns may be preordered (before
+factorization) either through library or user supplied routines. this
+preordering for sparsity is completely separate from the
+factorization. working precision iterative refinement subroutines are
+provided for improved backward stability. routines are also provided
+to equilibrate the system, estimate the condition number, calculate
+the relative backward error, and estimate error bounds for the refined
+solutions.

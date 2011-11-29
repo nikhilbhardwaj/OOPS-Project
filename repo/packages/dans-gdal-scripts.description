@@ -1,0 +1,7 @@
+Gdal contributed tools by geographic information network of alaska
+	
+dan stahlke's gdal contributed tools are a collection of useful programs to
+perform common raster operations. the included tools are:
+gdal_contrast_stretch, gdal_dem2rgb, gdal_get_projected_bounds,
+gdal_landsat_pansharpi, gdal_list_corners, gdal_merge_simple, gdal_merge_vrt
+gdal_raw2geotiff, gdal_trace_outline, gdal_wkt_to_mask, gdal_make_ndv_mask.

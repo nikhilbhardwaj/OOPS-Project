@@ -1,0 +1,8 @@
+Otpw programs for generating otpw lists
+	
+otpw is a one-time password system which is robust against
+the password list being stolen and race for the last digit
+attacks.
+
+this package contains the programs used to setup otpw for
+a user and generate the password lists.

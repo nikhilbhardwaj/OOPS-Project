@@ -1,0 +1,11 @@
+Iscsi enterprise target kernel module source - dkms version
+	
+iscsi enterprise target is for building an iscsi storage system on
+linux. it is aimed at developing an iscsi target satisfying enterprise
+requirements.
+
+this package provides the source code for the iscsitarget kernel module.
+the iscsitarget package is also required in order to make use of this
+module. kernel source or headers are required to compile this module.
+
+this package contains the source to be built with dkms.

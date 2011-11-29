@@ -1,0 +1,8 @@
+Development files for writing applications based on libaugeas0
+	
+augeas is a configuration editing tool. it parses configuration files in their
+native formats and transforms them into a tree. configuration changes are made
+by manipulating this tree and saving it back into native config files.
+
+this package includes the development files to write programs using the augeas
+api.

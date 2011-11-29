@@ -1,0 +1,5 @@
+Use socks-friendly applications with tor
+	
+torsocks allows you to use most socks-friendly applications in a safe way with
+tor. it ensures that dns requests are handled safely and explicitly rejects
+udp traffic from the application you're using.

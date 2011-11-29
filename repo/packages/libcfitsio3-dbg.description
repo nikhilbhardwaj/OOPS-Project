@@ -1,0 +1,13 @@
+Library for i/o with fits format data files (debugging symbols)
+	
+fits (flexible image transport system) is a data format most used in
+astronomy. cfitsio is a library of ansi c routines for reading and
+writing fits format data files.  a set of fortran-callable wrapper
+routines are also included for the convenience of fortran
+programmers.
+
+this package contains unstripped shared libraries. it is provided
+primarily to provide a backtrace with names in a debugger, this makes
+it somewhat easier to interpret core dumps. the libraries are installed
+in /usr/lib/debug and can be used by placing that directory in
+ld_library_path.

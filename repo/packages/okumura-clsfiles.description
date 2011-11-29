@@ -1,0 +1,12 @@
+Modified jclasses.dtx of ascii platex and so on
+	
+this package provides jsarticle.cls, jsbook.cls and jspf.cls which are
+modified style files for ascii platex but jspf.cls are yet in experimental
+state.
+
+this also provides morisawa.sty with which one can use morisawa basic-5
+type faces in tex files.  morisawa basic-5 type faces should be
+installed in your ps printer.
+
+okumacro.sty is upstream author's private macro and okuverb.sty is
+the extension of verb command and verbatim environment.

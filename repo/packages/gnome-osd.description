@@ -1,0 +1,5 @@
+Osd message framework for gnome
+	
+this is an osd (on screen display) gnome component. it displays messages
+overlaid on your screen, using shaped windows and pango for rendering. the
+concept was inspired by xosd (http://www.ignavus.net/software.html).

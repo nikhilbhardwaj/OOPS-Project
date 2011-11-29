@@ -1,0 +1,7 @@
+Module for parsing and processing sql statements
+	
+sql::statement is a perl module that implements a small, abstract sql engine.
+this module is not useful itself, but as a base class for deriving concrete
+sql engines. the implementation is designed to work fine with the dbi driver
+dbd::csv, thus probably not so well suited for a larger environment, but i'd
+hope it is extendable without too much problems.

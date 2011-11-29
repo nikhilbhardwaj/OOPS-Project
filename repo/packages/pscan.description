@@ -1,0 +1,9 @@
+Format string security checker for c files
+	
+pscan is a program which scans c source files for
+common function abuses, which often lead to security problems.
+
+functions which use variadic arguments will be flagged if they
+appear to contain user-controlled input.
+
+it is a useful tool for those performing source code audits.

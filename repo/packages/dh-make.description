@@ -1,0 +1,8 @@
+Tool that converts source archives into debian package source
+	
+this package allows you to take a standard (or upstream) source package
+and convert it into a format that will allow you to build debian packages.
+
+after answering a few questions, dh_make will then provide a set of
+templates that, after some small editing, will allow you to create a
+debian package.

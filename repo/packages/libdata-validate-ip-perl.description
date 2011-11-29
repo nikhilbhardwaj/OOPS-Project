@@ -1,0 +1,7 @@
+Perl module for ip validation
+	
+data::validate::ip collects ip validation routines to make input validation
+and untainting easier and more readable. all functions return an untainted
+value if the test passes, and undef if it fails. this means that you should
+always check for a defined status explicitly. don't assume the return value
+will be true.

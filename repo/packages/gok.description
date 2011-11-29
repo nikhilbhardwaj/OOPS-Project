@@ -1,0 +1,12 @@
+Gnome onscreen keyboard
+	
+gok is the gnome onscreen keyboard, a dynamic onscreen keyboard for
+unix and unix-like operating systems. it features direct selection,
+dwell selection, automatic scanning and inverse scanning access methods
+and includes word completion.
+
+gok includes an alphanumeric keyboard and a keyboard for launching
+applications. the keyboards are specified in xml enabling existing
+keyboards to be modified and new keyboards to be created. the access
+methods are also specified in xml providing the ability to modify
+existing access methods and create new ones.

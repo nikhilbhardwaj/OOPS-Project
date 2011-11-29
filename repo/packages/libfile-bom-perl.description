@@ -1,0 +1,12 @@
+Perl module for handling byte order marks
+	
+file::bom provides functions for handling unicode byte order marks, which are
+sometimes found at the beginning of some files and streams. it allows programs
+to automatically determine the original byte ordering a file was written with;
+in other words, whether the program was written in little-endian or big-endian
+byte order.
+
+this module provides a simple way to open a file, determine its byte ordering
+and return the appropriate encoding style. byte order marks are usually found
+at the beginning of a file, but in the case of a stream where this is not the
+case, this module also provides a utility to scan any filehandle for it.

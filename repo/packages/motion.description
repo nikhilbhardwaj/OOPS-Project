@@ -1,0 +1,20 @@
+V4l capture program supporting motion detection
+	
+motion is a program that monitors the video signal from
+one or more cameras and is able to detect if a significant
+part of the picture has changed. or in other words, it can
+detect motion.
+
+motion is a command line based tool. it has no graphical
+user interface. everything is setup either via the
+command line or via configuration files.
+
+the output from motion can be:
+
+   - jpg files
+   - ppm format files
+   - mpeg video sequences
+
+
+also, motion has its own minimalistic web server. thus,
+you can access the webcam output from motion via a browser.

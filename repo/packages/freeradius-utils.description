@@ -1,0 +1,17 @@
+Freeradius client utilities
+	
+this package contains various client programs and utilities from
+the freeradius server project, including:
+
+ - radclient
+ - radeapclient
+ - radlast
+ - radsniff
+ - radsqlrelay
+ - radtest
+ - radwho
+ - radzap
+ - rlm_dbm_cat
+ - rlm_dbm_parser
+ - rlm_ippool_tool
+ - smbencrypt

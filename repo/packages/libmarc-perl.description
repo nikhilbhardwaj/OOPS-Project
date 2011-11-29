@@ -1,0 +1,11 @@
+Perl extension to manipulate machine readable cataloging records
+	
+marc.pm is a perl 5 module for reading in, manipulating, and outputting
+bibliographic records in the usmarc format.
+
+marc.pm can handle both single and batches of marc records. the limit on
+the number of records in a batch is determined by the memory capacity of
+the machine you are running. if memory is an issue for you marc.pm will
+allow you to read in records from a batch gradually. marc.pm also includes
+a variety of tools for searching, removing, and even creating records from
+scratch.

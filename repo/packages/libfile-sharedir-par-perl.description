@@ -1,0 +1,25 @@
+File::sharedir with par support
+	
+file::sharedir::par provides the same functionality as file::sharedir
+but tries hard to be compatible with par packaged applications.
+
+the problem is, that the concept of having a distribution or module
+specific share directory becomes a little hazy when you're loading
+everything from a single file. par uses an @inc hook to intercept any
+attempt to load a module. file::sharedir uses the directory structure
+that is typically found in the directories that are listed in @inc for
+storing the shared data. in a par enviroment, this is not necessarily
+possible.
+
+when you call one of the functions that this module provides, it will
+take care to search in any of the currently loaded .par files before
+scanning @inc. this is the same order of preference you get for loading
+modules when par is in effect. if the path or file you are asking for
+is found in one of the loaded .par files, that containing .par file is
+extracted and the path returned will point to the extracted copy on disk.
+
+depending on how you're using par, the files that are extracted this
+way are either cleaned up after program termination or cached for
+further executions. either way, you're safe if you use the shared data
+as read-only data. if you write to it, your changes may be lost after
+the program ends.

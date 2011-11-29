@@ -1,0 +1,5 @@
+Natural language date parser
+	
+chronic is a natural language date/time parser written in pure ruby.
+chronic can parse a huge variety of date and time formats. parsing is case
+insensitive and will handle common abbreviations and misspellings.

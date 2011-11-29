@@ -1,0 +1,6 @@
+Regression tests for uffi common lisp library
+	
+this is a test of regression tests for debian cl-uffi package.
+uffi is a universal foreign function interface for common lisp
+implementations. besides providing testing for uffi, the tests
+serve as an example of uffi usage.

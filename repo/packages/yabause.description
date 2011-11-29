@@ -1,0 +1,17 @@
+Beautiful and under-rated saturn emulator
+	
+yabause is a sega saturn emulator. it has the following features:
+
+ * booting games from cd-rom and iso files
+ * booting games with either an emulated or original bios
+ * screenshot support
+ * savegame backups
+ * cheat system
+ * fullscreen playing
+ * multiple debugging options
+ * joystick support
+ * region select
+
+
+this package is a metapackage, which installs either the qt or the gtk
+version of yabause.

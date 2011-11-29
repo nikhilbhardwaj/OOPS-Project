@@ -1,0 +1,9 @@
+Rss and atom feed parsing in php
+	
+simplepie is a very fast and easy-to-use class, written in php,
+that puts the 'simple' back into 'really simple syndication
+
+simplepie is an easy to use api that handles all of the dirty work
+when it comes to fetching, caching, parsing, normalizing data structures
+between rss and atom formats, handling character encoding translation,
+and sanitizing the resulting data

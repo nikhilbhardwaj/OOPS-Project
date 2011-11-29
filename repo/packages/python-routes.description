@@ -1,0 +1,22 @@
+Routing recognition and generation tools
+	
+routes is a python re-implementation of the rails routes system for mapping
+urls to controllers/actions and generating urls. routes makes it easy to
+create pretty and concise urls that are restful with little effort.
+
+speedy and dynamic url generation means you get a url with minimal cruft (no
+big dangling query args). shortcut features like named routes cut down on
+repetitive typing.
+
+current features:
+
+ * named routes
+ * sophisticated route lookup and url generation
+ * wildcard path's before and after static parts
+ * groupings syntax to allow flexible urls to accommodate almost any need
+ * sub-domain support built-in
+ * conditional matching based on domain, cookies, http method (restful), and
+   more
+ * easily extensible utilizing custom condition functions and route generation
+   functions
+ * extensive unit tests

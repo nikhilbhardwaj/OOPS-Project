@@ -1,0 +1,8 @@
+Debugging symbols for libisoburn and xorriso
+	
+libisoburn is a frontend for libraries libburn and libisofs which enables
+creation and expansion of iso-9660 filesystems on all cd/dvd media supported
+by libburn.
+
+this package contains debugging files used to investigate problems with
+binaries included in the libisoburn and xorriso packages.

@@ -1,0 +1,4 @@
+PackageId:33220
+Name:tryton-modules-stock
+Version:1.6.1-1
+Deps:python,python-pkg-resources,python-support,tryton-modules-company,tryton-modules-currency,tryton-modules-party,tryton-modules-product,tryton-server

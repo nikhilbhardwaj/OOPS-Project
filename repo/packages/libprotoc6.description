@@ -1,0 +1,15 @@
+Protocol buffers compiler library
+	
+protocol buffers are a flexible, efficient, automated mechanism for
+serializing structured data - similar to xml, but smaller, faster, and
+simpler. you define how you want your data to be structured once, then you can
+use special generated source code to easily write and read your structured
+data to and from a variety of data streams and using a variety of languages.
+you can even update your data structure without breaking deployed programs
+that are compiled against the "old" format.
+
+google uses protocol buffers for almost all of its internal rpc protocols and
+file formats.
+
+this package contains the runtime library needed for the protocol buffer
+compiler.

@@ -1,0 +1,8 @@
+Monadic parser combinators
+	
+parsec is designed from scratch as an industrial-strength parser
+library.  it is simple, safe, well documented (on the package
+homepage), has extensive libraries and good error messages,
+and is also fast.
+
+this is the version bundled with the interpreter.

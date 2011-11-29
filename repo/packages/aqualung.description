@@ -1,0 +1,17 @@
+Gapless gtk-based audio player
+	
+aqualung is a music player for the gnu/linux operating system. it plays
+audio files from your filesystem and has the feature of inserting no gaps
+between adjacent tracks. it also supports high quality sample rate
+conversion between the file and the output device, when necessary.
+
+almost all sample-based, uncompressed formats (e.g. wav, aiff, au etc.) are
+supported. files encoded with flac (the free lossless audio codec), ogg
+vorbis, ogg speex, mpeg audio (including the infamous mp3 format) and mod
+audio formats (mod, s3m, xm, it, etc.), musepack are also supported.
+
+the program can play the music through oss, alsa or using the jack audio
+connection kit.
+
+aqualung supports the ladspa 1.1 plugin standard. you can use any suitable
+plugin to enhance the music you are listening to.

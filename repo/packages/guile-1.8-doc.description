@@ -1,0 +1,12 @@
+Documentation for guile 1.8
+	
+this package contains all of the guile documentation that is covered
+under a license which is compatible with the debian free software
+guidelines (dfsg).  this includes a tutorial which is available via
+"info guile-tut".
+
+guile is a scheme implementation designed for real world programming,
+providing a rich unix interface, a module system, an interpreter, and
+many extension languages.  guile can be used as a standard #! style
+interpreter, via #!/usr/bin/guile, or as an extension language for
+other applications via libguile.

@@ -1,0 +1,9 @@
+Stringtemplate templating engine for java
+	
+stringtemplate is a java template engine for generating source code,
+web pages, emails, or any other formatted text output. stringtemplate
+is particularly good at multi-targeted code generators, multiple site
+skins, and internationalization/localization.
+
+its distinguishing characteristic is that it strictly enforces
+model-view separation unlike other engines.

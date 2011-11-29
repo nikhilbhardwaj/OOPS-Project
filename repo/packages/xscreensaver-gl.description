@@ -1,0 +1,21 @@
+Gl(mesa) screen hacks for xscreensaver
+	
+xscreensaver is a modular screen saver and locker for x11,
+containing more than 200 screen savers.
+
+this package contains a small selection of 3d (opengl) screen
+saver modules from the xscreensaver collection. this package is
+used by both xscreensaver and gnome-screensaver.
+
+this is the set of gl screensavers shipped by default:
+antinspect, antspotlight, atunnel, blinkbox, bubble3d, circuit, cubestorm,
+endgame, engine, flipflop, flipscreen3d, flurry, flyingtoasters, gears,
+gflux, glblur, glcells, gleidescope, glknots, glmatrix, glschool,
+glslideshow, glsnake, gltext, hypertorus, jigglypuff, lavalite, lockward,
+mirrorblog, moebius, boebiusgears, molecule, morph3d, pipes, polyhedra,
+polytopes, pulsar, queens, sierpinski3d, spheremonics, stonerview,
+superquadrics, topblock, voronoi.
+more gl screensavers can be found in the xscreensaver-gl-extra package.
+
+more display modes can be found in the xscreensaver-data,
+xscreensaver-data-extra and xscreensaver-gl-extra packages.

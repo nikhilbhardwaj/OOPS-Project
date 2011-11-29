@@ -1,0 +1,5 @@
+Perl event callback interface
+	
+object::event provides a consistent api for registering and emitting events.
+you can register callbacks for events, trigger events and even stop the
+current event from running further callbacks.

@@ -1,0 +1,8 @@
+Haskell editor - ghc interface
+	
+leksah is an haskell ide. it is written in haskell and provides a graphical
+interface based on gtk. leksah is a practical tool to support the haskell
+development process.
+
+the leksah-server package contains the background daemon interfacing with the
+ghc compiler and usually is not started on its own.

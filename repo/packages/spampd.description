@@ -1,0 +1,20 @@
+Spamassassin based smtp/lmtp proxy daemon
+	
+spampd is an smtp/lmtp server designed to be hooked into the
+mta processing chain (e.g. as a content filter). it is
+written in perl and uses the net::server framework. it is
+intended to provide spam filtering at the system level (i.e.
+ususally for all users). if you rely on per-user configuration
+or per-user bayes databases, spampd is not for you.
+
+the major advantage of spampd over plain spamassassin (both
+directly and through spamd) is that it doesn't need to load
+all needed perl modules on every invocation or spawn
+a c programme for every mail it receives. compared to using
+spamc/spamd, spampd can usually provide a 25% performance
+increase with local-only tests.
+
+the advantage of spampd over amavisd-new is that it uses the
+original spamassassin header tags, which are more verbose than
+the tags which amavisd-new provides. this allows easier
+filtering in the mail client and easier tuning of spamassassin.

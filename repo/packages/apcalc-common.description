@@ -1,0 +1,10 @@
+Arbitrary precision calculator (common files)
+	
+calc is an arbitrary precision arithmetic system that uses a c-like
+language. calc is useful as a calculator, an algorithm prototyper and as a
+mathematical research tool. more importantly, calc provides one with a
+machine independent means of computation. calc comes with a rich set of
+builtin mathematical and programmatic functions.
+
+this packages contains architecture independent files required by the main
+package `apcalc'.

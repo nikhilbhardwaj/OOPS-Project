@@ -1,0 +1,9 @@
+Modular ircd written in c++
+	
+inspircd is a modular c++ irc daemon for several operating systems created
+to provide a stable, modern, lightweight irc server from scratch and provide
+a vast number of features in a modularised form using an advanced module api.
+by keeping the functionality of the main core to a minimum, the server is very
+stable, fast and customizable.
+
+this package contains the daemon.

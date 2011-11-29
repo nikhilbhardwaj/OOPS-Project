@@ -1,0 +1,5 @@
+Cypress ez-usb fx2 (lp) programmer
+	
+cycfx2prog is a tool for programming the ez-usb fx2 controller (i.e.
+downloading 8051 firmware into the ram of the device) and doing basic
+endpoint communication for testing purposes.

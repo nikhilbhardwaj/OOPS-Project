@@ -1,0 +1,6 @@
+Md4 message digest for perl
+	
+the digest::md4 module allows you to use the rsa data security inc. md4
+message digest algorithm from within perl programs.  the algorithm takes
+as imput a message of arbitrary length and produces a 128-bit "fingerprint"
+or "message digest" of the input.  md4 is described in  rfc 1320.

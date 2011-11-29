@@ -1,0 +1,14 @@
+A perl client and daemon for distributed audio encoding
+	
+the distmp3 package contains a client, distmp3, and a daemon, distmp3host,
+which can be installed on many machines to provide fast distributed encoding
+of music (typically from a cd-ripper or batch script) using an encoder of
+your choice - usually mp3, ogg vorbis, or flac.
+
+abcde is one such cd ripper wrapper which has builtin support for distmp3 and
+can use it very efficiently, especially in the case where the machine with the
+best cd-rom drive is unable to encode the extracted audio at a satisfactory
+speed.
+
+the current tradeoff is that the client may not pass command-line arguments to
+the encoder being run on the machines running the distmp3hosts.

@@ -1,0 +1,14 @@
+Some tools to use with smart cards and pc/sc
+	
+this archive contains some tools useful for a pc/sc user. the tools
+provided are:
+
+pcsc_scan(1) scans available smart card readers and print detected
+events: card insertion with atr, card removal;
+
+atr_analysis(1) analyses a smart card atr (answer to reset)
+
+scriptor(1) perl script to send commands to a smart card using a
+batch file or stdin;
+
+gscriptor(1) the same idea as scriptor.pl(1) but with perl-gtk gui.

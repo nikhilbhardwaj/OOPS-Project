@@ -1,0 +1,9 @@
+Docbook xml jrefentry dtd
+	
+the jrefentry dtd is a customization of the docbook refentry model.
+the purpose of this customization is to mirror the order and nature
+of structured comment tags in javadoc documentation.
+
+author: norman walsh <ndw@nwalsh.com>
+
+homepage: http://docbook.sourceforge.net/projects/jrefentry/

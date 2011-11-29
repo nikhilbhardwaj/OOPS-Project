@@ -1,0 +1,11 @@
+An input server for x11 applications that want japanese text input
+	
+kinput2 is an input server for x11 applications that want japanese
+text input.
+
+a client that wants kana-kanji conversion service for japanese text
+sends a request to kinput2.  kinput2 receives the request, does
+kana-kanji conversion, and sends the converted text back to the
+client.
+
+this package supports wnn jserver (version 4 or 6).

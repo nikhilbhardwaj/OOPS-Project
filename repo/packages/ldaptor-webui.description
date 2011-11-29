@@ -1,0 +1,7 @@
+Web user interface for editing ldap directories
+	
+a web-based user interface to search and edit information in an ldap
+directory.
+
+the included utility ldaptor-webui starts an http server on a
+configurable port.

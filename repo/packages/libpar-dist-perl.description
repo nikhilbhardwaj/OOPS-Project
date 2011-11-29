@@ -1,0 +1,7 @@
+Perl module to create and manipulate par distributions
+	
+par::dist module creates and manipulates par distributions. they are
+architecture-specific par files, containing everything under blib/ of cpan
+distributions after their make or build stage, a meta.yml describing metadata
+of the original cpan distribution, and a manifest detailing all files within
+it. digitally signed par distributions will also contain a signature file.

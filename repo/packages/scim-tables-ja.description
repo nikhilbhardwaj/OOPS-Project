@@ -1,0 +1,14 @@
+Japanese input method data tables for scim platform
+	
+scim (smart common input method) is an input method (im) platform.
+
+this package contains scim table-based input method data for japanese.
+currently the provided tables are hiragana, katagana, and nippon.
+
+note the table-based japanese input method provided in this package is
+very primitive, probably only useful for people just start learning
+japanese, and most certainly doesn't fit native speakers' need.  users
+who need to input japanese all the time should look at other scim
+modules for japanese, such as scim-anthy package.
+
+for details about scim, please see the description of package scim.

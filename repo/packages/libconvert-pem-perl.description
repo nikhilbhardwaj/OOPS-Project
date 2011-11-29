@@ -1,0 +1,4 @@
+Perl module for reading/writing encrypted asn.1 pem files
+	
+convert::pem reads/writes encrypted asn.1 pem files. the files can
+optionally be encrypted using a symmetric cipher algorithm, such as 3des.

@@ -1,0 +1,15 @@
+A ruby build program
+	
+rake is a simple ruby build program with capabilities similar to make.
+
+rake has the following features:
+
+  * rakefiles (rakes version of makefiles) are completely defined in
+    standard ruby syntax. no xml files to edit. no quirky makefile
+    syntax to worry about (is that a tab or a space?)
+  * users can specify tasks with prerequisites.
+  * rake supports rule patterns to sythesize implicit tasks.
+  * rake is lightweight. it can be distributed with other
+    projects as a single file. projects that depend upon
+    rake do not require that rake be installed on target
+    systems.

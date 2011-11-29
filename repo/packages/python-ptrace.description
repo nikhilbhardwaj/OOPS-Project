@@ -1,0 +1,14 @@
+Python bindings for ptrace
+	
+this package provides python bindings for the ptrace library. it allows
+to control, debug, or modify processes using the ptrace syscall.
+
+features:
+
+ * high level python object api
+ * able to control multiple processes: catch fork events
+ * read/write bytes to arbitrary addresses
+ * execution step by step using ptrace_singlestep() or hardware int 3
+ * can use distorm disassembler
+ * dump registers, memory mappings, stack, etc.
+ * syscall tracer and parser (strace command)

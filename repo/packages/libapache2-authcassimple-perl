@@ -1,0 +1,4 @@
+PackageId:9450
+Name:libapache2-authcassimple-perl
+Version:0.10-1
+Deps:libapache-session-wrapper-perl,libapache2-mod-perl2,libapache2-request-perl,libauthen-cas-client-perl,libcrypt-ssleay-perl,liburi-perl,perl

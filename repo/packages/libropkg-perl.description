@@ -1,0 +1,11 @@
+General purpose classes for simba
+	
+ropkg consists from a rsync module, a db module and some base
+classes. the rsync module parses rsync configuration
+and client log files, being able to generate new rsync configuration
+files without losing your comments or separator lines.
+the db module implements a singleton database pool class which is able
+to connect to multiple databases at once and a database object
+(an object who can be loaded/saved from/to a database).
+
+homepage: http://simba.packages.ro/

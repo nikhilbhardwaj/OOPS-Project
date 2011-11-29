@@ -1,0 +1,16 @@
+X11 program for telnet sessions to ibm mainframes
+	
+x3270 opens a telnet connection to an ibm mainframe host in an x11
+window.  it can also connect to an ibm as/400 as a 5250 terminal
+using the as/400's 3270 emulation.  the window created by x3270 can
+use its own font for displaying characters, so it is a fairly
+accurate representation of an ibm 3278 or 3279.
+
+x3270 is similar to tn3270(1) and c3270(1) except that it is x-based,
+not curses-based.
+
+x3270 implements rfcs 2355 (tn3270e), 1576 (tn3270),
+and 1646 (lu name selection), and supports ind$file file transfer.
+
+you will need to install x3270-fonts locally, or on your font-server -
+they are required.

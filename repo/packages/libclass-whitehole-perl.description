@@ -1,0 +1,10 @@
+Base class to treat unhandled method calls as errors
+	
+it is possible to accidentally inherit an autoload method. often this
+will happen if a class somewhere in the chain uses autoloader or
+defines one of their own. this can lead to confusing error messages
+when method lookups fail.
+
+sometimes you want to avoid this accidental inheritance. in that
+case, inherit from class::whitehole. all unhandled methods will
+produce normal perl error messages.

@@ -1,0 +1,12 @@
+Event loop management library - documentation
+	
+liboop is a low-level event loop management library for posix-based
+operating systems. it supports the development of modular, multiplexed
+applications which may respond to events from several sources. it
+replaces the "select() loop" and allows the registration of event
+handlers for file and network i/o, timers and signals. since processes
+use these mechanisms for almost all external communication, liboop can
+be used as a basis for almost any application.
+
+this package contains a mirror of the http://liboop.org website and its
+associated html documentation for the liboop library.

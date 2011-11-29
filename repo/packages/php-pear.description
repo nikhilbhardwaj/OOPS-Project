@@ -1,0 +1,13 @@
+Pear - php extension and application repository
+	
+this package contains the base pear classes for php, as well as the pear
+installer.  many pear classes are already packaged for debian, and can be
+easily identified by names beginning with "php-", such as php-db and
+php-auth.  note: to build and install precompiled pecl extensions, you
+will need one of the php development packages installed.
+
+php5 is a widely-used general-purpose scripting language that is
+especially suited for web development and can be embedded into html.
+the goal of the language is to allow web developers to write
+dynamically generated pages quickly. this version of php5 was built
+with the suhosin patch.

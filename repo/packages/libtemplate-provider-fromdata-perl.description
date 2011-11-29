@@ -1,0 +1,5 @@
+Module to load templates from your __data__ section
+	
+template::provider::fromdata allows you to store your templates inline with
+your code in the __data__ section. it will search any number of classes
+specified.

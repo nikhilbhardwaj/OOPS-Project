@@ -1,0 +1,10 @@
+Development files for icedove
+	
+icedove is an unbranded thunderbird mail client suitable for free
+distribution. it supports different mail accounts (pop, imap, gmail), has an
+integrated learning spam filter, and offers easy organization of mails with
+tagging and virtual folders. also, more features can be added by installing
+extensions.
+
+this package contains the development headers, idl files and static libraries
+needed to develop applications using icedove.

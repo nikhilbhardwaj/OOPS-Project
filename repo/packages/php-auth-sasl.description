@@ -1,0 +1,10 @@
+Abstraction of various sasl mechanism responses
+	
+provides code to generate responses to common sasl mechanisms,
+including:
+
+ * digest-md5
+ * crammd5
+ * plain
+ * anonymous
+ * login (pseudo mechanism)

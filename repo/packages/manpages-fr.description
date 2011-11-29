@@ -1,0 +1,16 @@
+French version of the manual pages about using gnu/linux
+	
+this package contains the french translation of gnu/linux manual pages
+for these sections:
+
+ 4 = devices (e.g. hd, sd).
+ 5 = file formats and protocols, syntaxes of several system
+     files (e.g. wtmp, /etc/passwd, nfs).
+ 7 = conventions and standards, macro packages, etc.
+     (e.g. nroff, ascii).
+
+
+sections 1, 6 and 8 are provided by the respective applications. this
+package only includes the intro man page describing the section.
+
+the man pages describe syntaxes of several system files.

@@ -1,0 +1,7 @@
+Tools for myspell
+	
+myspell is a spellchecker as (and derived from) ispell.
+
+this package contains a the munch/unmunch tools of hunspell and
+ispellaff2myspell for converting ispell affix files for myspell/hunspell
+format.

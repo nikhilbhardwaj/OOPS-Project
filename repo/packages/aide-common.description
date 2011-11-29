@@ -1,0 +1,19 @@
+Advanced intrusion detection environment - common files
+	
+aide is an intrusion detection system that detects changes to files on
+the local system. it creates a database from the regular expression rules
+that it finds from the config file. once this database is initialized
+it can be used to verify the integrity of the files. it has several
+message digest algorithms (md5, sha1, rmd160, tiger, haval, etc.) that are
+used to check the integrity of the file. more algorithms can be added
+with relative ease. all of the usual file attributes can also be checked
+for inconsistencies.
+
+this package contains base and configuration files that are needed to
+run the actual binaries.
+
+you will almost certainly want to tweak the configuration file in
+/etc/aide/aide.conf or drop your own config snippets into
+/etc/aide/aide.conf.d.
+
+upstream url: http://sourceforge.net/projects/aide

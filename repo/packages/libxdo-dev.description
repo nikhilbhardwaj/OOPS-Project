@@ -1,0 +1,7 @@
+Library for simulating x11 keyboard/mouse input
+	
+libxdo lets you programatically (or manually) simulate keyboard
+input and mouse activity, move and resize windows, etc. it does this
+using x11's xtest extension and other xlib functions.
+
+this package contains developer tools (headers, libraries) for libxdo.

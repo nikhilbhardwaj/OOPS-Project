@@ -1,0 +1,4 @@
+Under gnome2, asks user for a passphrase for ssh-add
+	
+it does the same work that ssh-askpass and ssh-askpass-gnome do. it adds
+shadowing and looks more beautiful under gnome2.

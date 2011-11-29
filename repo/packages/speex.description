@@ -1,0 +1,8 @@
+The speex codec command line tools
+	
+speex is an audio codec especially designed for compressing voice at low
+bit-rates for applications such as voice over ip (voip). in some senses,
+it is meant to be complementary to the vorbis codec which places a greater
+emphasis on high-quality music reproduction.
+
+this package contains the encoder and decoder command-line applications.

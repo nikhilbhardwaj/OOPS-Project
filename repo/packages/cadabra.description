@@ -1,0 +1,9 @@
+Field-theory motivated computer algebra system
+	
+cadabra is a computer algebra system designed specifically for the
+solution of problems encountered in field theory. it has extensive
+functionality for tensor polynomial simplification including
+multi-term symmetries, fermions and anti-commuting variables,
+clifford algebras and fierz transformations, implicit coordinate
+dependence, multiple index types and many more. the input format is
+a subset of tex.

@@ -1,0 +1,4 @@
+PackageId:4819
+Name:fwknop-client
+Version:1.9.12-2
+Deps:libcrypt-cbc-perl,libcrypt-rijndael-perl,libdigest-sha-perl,perl,libgnupg-interface-perl,libnet-ping-external-perl,libnet-rawip-perl,libterm-readkey-perl

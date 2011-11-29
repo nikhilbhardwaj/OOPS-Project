@@ -1,0 +1,9 @@
+Tools to manage maven artifacts and deployment
+	
+the wagon project defines a simple api for transferring resources
+(artifacts) to and from repositories. the word repository is used in this
+context as it is commonly used in maven and means a storage of artifacts.
+
+it is also used to deploy the maven generated site to a server.
+
+this package contains the javadocs for libwagon-java.

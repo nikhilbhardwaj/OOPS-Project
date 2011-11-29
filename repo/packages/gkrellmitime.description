@@ -1,0 +1,15 @@
+Internet time plugin for gkrellm
+	
+gkrellm itime is the internet time plugin for gkrellm.
+
+internet time is a concept by swatch that divides the virtual and real
+day into 1000 "beats".  a beat is 1 minute and 26.4 seconds long. this is
+a global concept, therefore no timezones are needed.
+
+swatch created a new meridian in biel, switzerland, the home of the
+company.  this meridian is called biel mean time (bmt) and will be the
+universal reference for the internet time.
+
+the internet time is represented with an "@" before the number of beats.
+a day in the internet time begins at midnight bmt (@000) in central europe
+wintertime, and 12 o'clock noon in biel, switzerland, happens at @500 bmt.

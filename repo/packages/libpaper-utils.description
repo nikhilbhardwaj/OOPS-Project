@@ -1,0 +1,9 @@
+Library for handling paper characteristics (utilities)
+	
+the libpaper paper-handling library automates recognition of many
+different paper types and sizes for programs that need to deal with
+printed output.
+
+this package contains utilities for setting the system's default
+paper type and for accessing paper type information from shell
+scripts.

@@ -1,0 +1,7 @@
+A haskell library for pretty printing data structures
+	
+a library that can parse derived show instances into a generic data structure
+which can then be pretty printed. for complex data structures, the pretty
+printed version is significantly more readable that the standard show output.
+
+this package contains the libraries compiled for ghc 6.

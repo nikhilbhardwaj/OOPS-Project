@@ -1,0 +1,10 @@
+Linux usb utilities
+	
+this package contains the lsusb utility for inspecting the devices
+connected to the usb bus. it shows a graphical representation of the
+devices that are currently plugged in, showing the topology of the
+usb bus. it also displays information on each individual device on
+the bus.
+
+more information can be found at the linux usb web site
+http://www.linux-usb.org/ .

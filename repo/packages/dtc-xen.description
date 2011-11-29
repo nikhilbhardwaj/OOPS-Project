@@ -1,0 +1,6 @@
+Soap daemon and scripts to allow control panel management for xen vms
+	
+dtc-xen is a soap server running over https with authentication, so that a web
+gui tool can manage, create and destroy domus under xen. this package should
+be used in the dom0 of a xen server. it integrates itself within the dtc web
+hosting control panel.

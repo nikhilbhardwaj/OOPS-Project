@@ -1,0 +1,6 @@
+Daemon watching logfiles and mailing lines matching patterns
+	
+log2mail is a small daemon watching logfiles and sending mail
+to a specified address if a regular expression is matched.
+log2mail uses a configuration file. it has some options to reduce
+the amount of messages send to the user.

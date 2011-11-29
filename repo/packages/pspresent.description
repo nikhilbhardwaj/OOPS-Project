@@ -1,0 +1,7 @@
+Fullscreen postscript presentation tool
+	
+pspresent is a tool that displays postscript slides in fullscreen, for
+giving presentations.  navigation is simple: spacebar goes forward one
+slide, backspace takes you back one slide.  the escape key quits.  the
+display itself is double-buffered giving seamless transitions between
+slides.

@@ -1,0 +1,9 @@
+Development files for gnu libidn, an idn library
+	
+gnu libidn is a fully documented implementation of the stringprep,
+punycode and idna specifications.  libidn's purpose is to encode and
+decode internationalized domain names.  the nameprep, xmpp, saslprep,
+and iscsi profiles are supported.
+
+this package contains the header files, static library, pkg-config
+information, api man pages, and the libidn manual.

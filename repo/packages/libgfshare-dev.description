@@ -1,0 +1,9 @@
+Library for multi-way secret-sharing (headers)
+	
+this library implements shamir's method for secret sharing, which can be
+used to split a secret (like a gpg secret key) into multiple parts, so that
+at least some number of those parts are needed to recover the original file,
+but any smaller combination of parts is useless to an attacker.
+
+this package contains header files and static libraries, needed to compile
+programs that use libgfshare.

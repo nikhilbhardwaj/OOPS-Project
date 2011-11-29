@@ -1,0 +1,8 @@
+Make ghostscript fonts available to x11
+	
+this packages makes the 35 postscript fonts from the gsfonts package
+available to your x server under their "urw" names and via
+fonts.alias with the official "adobe" names, too.
+
+this package does not contain any fonts itself but allows to reuse
+the ghostscript fonts as x11 screen fonts.

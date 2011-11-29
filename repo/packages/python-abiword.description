@@ -1,0 +1,8 @@
+Python abiwidget and tablewidget wrappers
+	
+pyabiword is a set of wrappers around abiwidget that enable python
+programmers to use abiword in their pygtk applications.
+
+in addition to abiwidget, pyabiword also wraps a useful little widget
+tablecreator. this widget allows users to interactively insert a table
+of specified size by dragging a mouse.

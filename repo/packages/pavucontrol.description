@@ -1,0 +1,12 @@
+Pulseaudio volume control
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+pulseaudio volume control (pavucontrol) is a simple gtk+ based volume
+control tool (mixer) for the pulseaudio sound server. in contrast to
+classic mixer tools this one allows you to control both the volume of
+hardware devices and of each playback stream separately. it also allows
+you to redirect a playback stream to another output device without
+interrupting playback.

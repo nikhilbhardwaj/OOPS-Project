@@ -1,0 +1,16 @@
+Perl source filters
+	
+source filters alter the program text of a module before perl sees it, much
+as a c preprocessor alters the source text of a c program before the
+compiler sees it.
+
+this package contains a number of source filters, including:
+
+
+  exec and sh: pipe the source file through an external command
+  cpp: pipe the source file through the c preprocessor
+  decrypt: example of simple (though weak!) source obfuscation
+  tee: copy filtered source to a file (debugging aid)
+
+
+a substantial amount of documentation and examples is also included.

@@ -1,0 +1,7 @@
+Perl module which allows language content negotiation
+	
+this is the cpan perl module lingua::preferred.
+
+many web browsers let you specify which languages you understand.
+then they negotiate with the web server to get documents in the best
+language possible.  this is something similar in perl.

@@ -1,0 +1,10 @@
+View dbase iii files
+	
+dbview is a little tool that will display dbase iii and iv
+files. you can also use it to convert your old .dbf files
+for further use with unix.
+
+it wasn't the intention to write a freaking viewer and
+reinvent the wheel again. instead dbview is intend to be
+used in conjunction with your favourite unix text utilities
+like cut, recode and more.

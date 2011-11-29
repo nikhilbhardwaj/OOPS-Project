@@ -1,0 +1,5 @@
+Python library for navigating wadl files
+	
+the web application description language (wadl) is an xml vocabulary for
+describing the capabilities of http resources. wadllib can be used in
+conjunction with an http library to navigate and manipulate those resources.

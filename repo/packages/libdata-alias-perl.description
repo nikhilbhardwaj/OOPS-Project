@@ -1,0 +1,10 @@
+Comprehensive set of aliasing operations
+	
+aliasing is the phenomenon where two different expressions actually
+refer to the same thing. modifying one will modify the other, and if
+you take a reference to both, the two values are the same.
+
+data::alias is a module that allows you to apply "aliasing semantics"
+to a section of code, causing aliases to be made whereever perl would
+normally make copies instead. you can use this to improve efficiency
+and readability, when compared to using references.

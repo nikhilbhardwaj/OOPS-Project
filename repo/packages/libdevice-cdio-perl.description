@@ -1,0 +1,7 @@
+Cd input and control library
+	
+this is a interface to the gnu cd input and control library (libcdio)
+and it's iso 9660 library (libiso9660) which are written in c. the
+library encapsulates cd-rom reading and control and iso 9660
+handling. perl programs wishing to be oblivious of the os- and
+device-dependent properties of a cd-rom can use this library.

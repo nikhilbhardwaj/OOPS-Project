@@ -1,0 +1,5 @@
+D-bus service for obex client and server side functionality
+	
+obex-data-server is a d-bus service providing high-level obex client and
+server side functionality (currently supports opp and ftp profiles and
+bluetooth transport).

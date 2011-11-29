@@ -1,0 +1,12 @@
+Development libraries for stxxl
+	
+stxxl provides an stl replacement using an abstraction layer to
+storage devices to allow for the optimal layout of data structures. this
+allows for multi-terabyte datasets to be held and manipulated in standard
+c++ data structures, whilst abstracting the complexity of managing this
+behaviour efficiently. stxxl utilises multi-disk i/o to speed up
+i/o bound calculations. stxxl has been developed at the university
+of karlsruhe.
+
+development libraries for stxxl, required for building programs that
+utilise the stxxl library

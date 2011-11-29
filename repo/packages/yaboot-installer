@@ -1,0 +1,4 @@
+PackageId:35362
+Name:yaboot-installer
+Version:1.1.19
+Deps:archdetect,cdebconf-udeb,di-utils,di-utils-mapdevfs,kernel-installer,bootstrap-base,live-installer,os-prober,os-prober-udeb,partconf-find-partitions

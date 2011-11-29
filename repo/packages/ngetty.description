@@ -1,0 +1,7 @@
+Getty replacement - one single daemon for all consoles
+	
+ngetty is a daemon that starts login sessions on virtual console
+terminals, on demand.  it is a good replacement for all those getty
+processes started from init that, most of the time, are only taking up
+memory.  when compiled statically with dietlibc, the ngetty binary size
+is only about 2k and uses considerably less memory than a getty.

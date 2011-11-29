@@ -1,0 +1,14 @@
+Uim libraries and debugging symbols
+	
+uim is a input method module library supporting various languages, which
+become a frontend for anthy, skk, canna, t-code, tut-code, pinyin(chinese
+input method), hangul(korean input method), ipa(international phonetic
+alphabet) and etc.... most of the functions are implemented with scheme,
+so it's very simple and flexible.
+
+this package contains unstripped shared libraries. it is provided
+primarily to provide a backtrace with names in a debugger, this makes
+it somewhat easier to interpret core dumps. the libraries are installed
+in /usr/lib/debug and can be used by placing that directory in
+ld_library_path.
+most people will not need this package.

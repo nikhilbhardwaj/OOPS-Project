@@ -1,0 +1,10 @@
+C++ xml parsing library with encryption support (development)
+	
+the xmltooling library contains generic xml parsing and processing
+classes based on the xerces-c dom. it adds more powerful facilities
+for declaring element- and type-specific api and implementation
+classes to add value around the dom, as well as signing and encryption
+support.
+
+this package contains the headers and other necessary files to build
+applications or libraries that use or extend the xmltooling library.

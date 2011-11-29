@@ -1,0 +1,5 @@
+Perl interface to the goocanvas
+	
+gtk+ doesn't have a builtin canvas widget. goo::canvas fills that
+gap. it is easy to use and has powerful and extensible ways to create
+items in canvases.

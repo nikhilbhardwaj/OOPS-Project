@@ -1,0 +1,8 @@
+C source parser and c# code generator for gobject based apis
+	
+gtk# 2.10 is a cli (.net) language binding for the gtk+ 2.10 toolkit
+
+this package includes the parser and code generator used by the gtk#
+project to parse and bind gobject libraries. install if you want to
+bind gobject-based libraries, or need to compile a project that uses
+it to bind such a library.

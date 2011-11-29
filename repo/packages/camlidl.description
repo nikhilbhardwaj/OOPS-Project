@@ -1,0 +1,10 @@
+Stub code generator for objective caml
+	
+camlidl generates stub code for interfacing caml with c from an idl
+description of the c functions.  thus, camlidl automates the most
+tedious task in interfacing c libraries with caml programs.
+
+it can also be used to interface caml programs with other languages, as
+long as those languages have a well-defined c interface.
+
+this package contains the camlidl executable.

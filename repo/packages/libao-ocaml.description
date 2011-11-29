@@ -1,0 +1,8 @@
+Ocaml bindings for libao -- runtime files
+	
+ocaml bindings for the cross platform audio output library.
+
+libao is a cross-platform audio library that allows programs to output audio
+using a simple api on a wide variety of platforms.
+
+this package contains only the shared runtime stub libraries.

@@ -1,0 +1,15 @@
+Cpan's time::format module for easy date/time formatting
+	
+this module creates global pseudovariables which format dates and times,
+according to formatting codes you pass to them in strings.
+
+the %time formatting codes are designed to be easy to remember and use, and to
+take up just as many characters as the output time value whenever possible.
+for example, the four-digit year code is "yyyy", the three-letter month
+abbreviation is "mon".
+
+the nice thing about having a variable-like interface instead of function
+calls is that the values can be used inside of strings (as well as outside of
+strings in ordinary expressions). dates are frequently used within strings
+(log messages, output, data records, etc.), so having the ability to
+interpolate them directly is handy.

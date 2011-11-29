@@ -1,0 +1,6 @@
+Php front-end to manage virtual services on ldap - back-end files
+	
+phamm is a useful php front-end providing role-based administrative
+access to virtual services using an ldap back-end.
+
+this package provides phamm's own ldap schema file and custom acl.

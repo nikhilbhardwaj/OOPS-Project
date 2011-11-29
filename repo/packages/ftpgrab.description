@@ -1,0 +1,13 @@
+File mirroring utility
+	
+ftpgrab is a utility for maintaining ftp mirrors. in fact not unlike the
+"mirror" perl program. however ftpgrab is oriented towards the smaller
+site which doesn't have the resources to mirror entire version trees of
+software.
+
+the primary "plus point" of ftpgrab is that it can base download decisions
+by parsing version numbers out of filenames. for example, ftpgrab will
+recognize that the file "linux-2.2.2.tar.gz" is newer than
+"linux-2.2.1.tar.gz" based on the version string. it will then download
+the new version and delete the old one when it is done, thus saving you
+mirroring 10 kernel versions all at >10mb each.

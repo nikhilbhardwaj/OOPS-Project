@@ -1,0 +1,9 @@
+Proprietary libgl for the non-free amd/ati display driver (ia32 libs)
+	
+display driver for the ati recent radeon and firegl graphics cards.
+
+this package provides the proprietary 32 bit libgl shipped by ati for
+emulated userspace on amd64.
+
+this driver is not free. as an alternative, you may try the newest free
+driver xserver-xorg-video-radeon.

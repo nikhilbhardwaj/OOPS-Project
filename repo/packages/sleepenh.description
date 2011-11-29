@@ -1,0 +1,26 @@
+Sleep until a given date with subsecond resolution
+	
+sleepenh is an sleep program for using in shell scripts
+that need to perform a loop that repeats at a regular
+time interval, without cumulative errors.
+
+it supports microsecond resolution.
+
+you can also specify the time you need between two calls
+of sleepenh.
+
+here follows an usage example to clarify its purpose. this
+example sends 'a' to ttys0 every 1.2 seconds.
+
+  #!/bin/sh
+  # does not wait (or wait 0), just to get initial timestamp
+  timestamp=`sleepenh 0`
+  while true; do
+    # send the byte to ttys0
+    echo -n "a" > /dev/ttys0;
+    # wait until the required time
+    timestamp=`sleepenh $timestamp 1.200`;
+  done
+
+
+for more details, please read the manpage.

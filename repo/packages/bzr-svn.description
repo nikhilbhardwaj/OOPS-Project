@@ -1,0 +1,7 @@
+Bazaar plugin providing subversion integration
+	
+plugin for bazaar that adds the ability to read and commit to
+branches stored in subversion.
+
+also included is a bzr subcommand that allows converting
+complete subversion repositories to bazaar repositories.

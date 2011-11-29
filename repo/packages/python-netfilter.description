@@ -1,0 +1,7 @@
+Python modules for manipulating netfilter rules
+	
+these python modules act as a wrapper around iptables to manipulate
+the linux kernel's packet filtering tables.
+
+typical applications include building firewalls or network access
+controllers.

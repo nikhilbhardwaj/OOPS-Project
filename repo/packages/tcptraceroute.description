@@ -1,0 +1,15 @@
+Traceroute implementation using tcp packets
+	
+the more traditional traceroute(8) sends out either udp or icmp echo packets
+with a ttl of one, and increments the ttl until the destination has been
+reached. by printing the gateways that generate icmp time exceeded messages
+along the way, it is able to determine the path packets are taking to reach the
+destination.
+
+the problem is that with the widespread use of firewalls on the modern
+internet, many of the packets that traceroute(8) sends out end up being
+filtered, making it impossible to completely trace the path to the destination.
+however, in many cases, these firewalls will permit inbound tcp packets to
+specific ports that hosts sitting behind the firewall are listening for
+connections on. by sending out tcp syn packets instead of udp or icmp echo
+packets, tcptraceroute is able to bypass the most common firewall filters.

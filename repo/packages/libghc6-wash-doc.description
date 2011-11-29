@@ -1,0 +1,8 @@
+Web authoring system for haskell; documentation
+	
+wash is a family of embedded domain specific languages (edsl) for
+programming web applications. each language is embedded in the
+functional language haskell, which means that it is implemented as a
+combinator library.
+
+this package provides the documentation for the library.

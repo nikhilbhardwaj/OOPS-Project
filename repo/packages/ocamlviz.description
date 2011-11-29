@@ -1,0 +1,25 @@
+Real-time profiling tools for objective caml (clients)
+	
+ocamlviz gives the ability to instrument an existing code, in real
+time, with lightweight monitoring annotations. ocamlviz can also be
+used as a debugging tool.
+
+here are a few possibilities provided by ocamlviz:
+
+ * observe details about the garbage collector
+ * observe how many times the program goes through a point
+ * make a set of values (any) and count its cardinal number and its
+   size in the heap
+ * observe how much time passed between two points of the program
+ * observe the value of integers, floating-point numbers, booleans
+   and strings
+ * observe details about hash tables, like the number of empty
+   buckets, or the filling rate
+ * etc
+
+
+this package provides two sorts of client output:
+
+ * an ascii client, the monitoring is displayed in a file
+ * a graphical user interface, using lablgtk2, that allows, for
+   instance, displaying data in a graph

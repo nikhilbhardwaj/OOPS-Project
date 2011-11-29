@@ -1,0 +1,15 @@
+Qt-3-based pin or pass-phrase entry dialog for gnupg
+	
+this package contains a program that allows for secure entry of pins or
+pass phrases.  that means it tries to take care that the entered
+information is not swapped to disk or temporarily stored anywhere.
+this functionality is particularly useful for entering pass phrases
+when using encryption software such as gnupg or e-mail clients using
+the same.  it uses an open protocol and is therefore not tied to
+particular software.
+
+the program contained in this package implements a pin entry dialog
+using the qt tool kit version 3, so it is especially suitable for
+users of kde 3.  if the x window system is not active then an
+alternative text-mode dialog will be used.  there are sibling
+packages that implement pin entry dialogs using other tool kits.

@@ -1,0 +1,6 @@
+Xrds-simple plugin for wordpress
+	
+xrds-simple is a profile of xrds, a service discovery protocol which used in
+the openid authentication specification as well as oauth. this plugin provides
+a generic framework to allow other plugins to contribute their own service
+endpoints to be included in the xrds service document for the domain.

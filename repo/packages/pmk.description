@@ -1,0 +1,8 @@
+Utility to configure software sources
+	
+pmk is a utility which, like the popular gnu autoconf, serves the
+purpose of configuring the software sources on a variety of platforms.
+configuring consists of checking the environment for presence of libraries,
+header files, programs, functions etc. based on a simple config file, pmk
+generates output files (e.g. config.h, makefile etc.) using a set of
+templates provided by the programmer.

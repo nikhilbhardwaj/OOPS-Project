@@ -1,0 +1,6 @@
+X.org x server -- intel i8xx, i9xx display driver (debug symbols)
+	
+this driver provides support for the intel i8xx and i9xx family of chipsets,
+including i810, i815, i830, i845, i855, i865, i915, and i945 series chips.
+
+this package provides debugging symbols for this xorg x driver.

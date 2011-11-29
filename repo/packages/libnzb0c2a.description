@@ -1,0 +1,4 @@
+An nzb based usenet binary grabber (runtime library)
+	
+libnzb is a library that provides functions to parse nzb files, grab the
+content over nntp and decode the yenc/uuencode encoded file.

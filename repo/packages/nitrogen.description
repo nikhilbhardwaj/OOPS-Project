@@ -1,0 +1,14 @@
+Wallpaper browser and changing utility for x
+	
+nitrogen is a graphical wallpaper utility that can be used in two
+modes, browser and recall.
+some of the things to look for in nitrogen are:
+
+
+ * multihead and xinerama support (setting
+   different wallpapers for each monitor)
+ * recall mode to restore wallpapers via startup script
+ * uses freedesktop.org standard for thumbnails
+ * can set gnome background
+ * command line set modes for script usage
+ * inotify monitoring of browsed directories

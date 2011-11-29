@@ -1,0 +1,9 @@
+Command line tools for amazon aws s3
+	
+these s3 command line tools allow you to manipulate and populate an s3
+account.  refer to the documentation (pod and man) for each of the
+tools.
+
+this net::amazon::s3::tools module is mostly just a stub, to hoist
+the bundling and installation of the executable scripts that make up
+the actual tools.

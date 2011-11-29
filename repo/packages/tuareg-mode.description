@@ -1,0 +1,13 @@
+An emacs-mode for ocaml programs
+	
+it handles automatic indentation of objective caml and caml-light
+code.  key parts of the code are highlighted using font-lock. it
+provides support to run an interactive ocaml toplevel and debugger.
+it works both with fsf emacs and xemacs.
+
+this mode attempts to give better results than the one provided in
+the standard distribution of ocaml and which is available through the
+ocaml-mode package. indentation rules are slightly different but
+closer to classical functional languages indentation. tuareg-mode
+gives access to some functionalities from ocaml-mode when that
+package is installed.

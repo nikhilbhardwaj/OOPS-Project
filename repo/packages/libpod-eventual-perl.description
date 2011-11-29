@@ -1,0 +1,7 @@
+Module to read a pod as a series of trivial events
+	
+pod::eventual is a collection of perl modules designed to read line-based
+input and produce events describing each pod paragraph or directive it finds.
+once complete, events are immediately passed to the handle_event method. this
+method should be implemented by subclasses of pod::eventual; otherwise the
+default handle_event method will raise an exception.

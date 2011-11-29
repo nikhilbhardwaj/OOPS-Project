@@ -1,0 +1,7 @@
+Network dhcp or bootp server discover
+	
+dhcp_probe attempts to discover dhcp and bootp servers on a directly-attached
+ethernet network. a network administrator can use this tool to locate un-
+authorized dhcp and bootp servers.
+essentially, dhcp_probe mimics a bootp or dhcp client in a variety of
+possible states, attempting to provoke responses from servers.

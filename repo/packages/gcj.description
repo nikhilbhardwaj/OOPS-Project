@@ -1,0 +1,7 @@
+The gnu java compiler (transitional package)
+	
+gcj is a front end to the gcc compiler which can natively compile both
+java(tm) source and bytecode files. the compiler can also generate class
+files.
+
+this is a transitional package. it can be removed.

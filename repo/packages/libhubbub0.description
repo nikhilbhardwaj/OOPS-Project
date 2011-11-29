@@ -1,0 +1,7 @@
+Html5 parser
+	
+hubbub is a flexible html parser. it aims to comply with the html5
+specification.
+
+hubbub provides a sax-like event interface to allow the host app
+to produce a document model in whatever format it requires.

@@ -1,0 +1,4 @@
+Library to handle cddb and low-level cd io calls
+	
+audio::cd supplies the cddb functionality and low level calls to cd
+players.

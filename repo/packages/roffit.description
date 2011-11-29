@@ -1,0 +1,7 @@
+Convert nroff manual pages into html
+	
+roffit converts manual page from standard and writes to standard
+output. input must be an nroff formatted man page, and the output
+will be an html document. options -mandir and --hrefdir can generate
+nice cross-manpage links. urls are also automatically converted to
+<a href> links.

@@ -1,0 +1,7 @@
+Development files for mod music based on modplug
+	
+this package contains the header files and .so symlinks required to
+compile code against libmodplug, a library based on the mod rendering
+code from modplug, a popular windows mod player written by olivier
+lapicque, found at http://www.modplug.com.  it is required to compile
+modplug-xmms (in the xmms-modplug package).

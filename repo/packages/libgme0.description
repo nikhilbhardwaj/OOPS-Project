@@ -1,0 +1,18 @@
+Playback library for video game music files - shared library
+	
+game-music-emu is a collection of video game music file emulators that
+support the following formats and systems:
+
+ * ay        zx spectrum/amstrad cpc
+ * gbs       nintendo game boy
+ * gym       sega genesis/mega drive
+ * hes       nec turbografx-16/pc engine
+ * kss       msx home computer/other z80 systems (doesn't support fm sound)
+ * nsf/nsfe  nintendo nes/famicom (with vrc 6, namco 106, and fme-7 sound)
+ * sap       atari systems using pokey sound chip
+ * spc       super nintendo/super famicom
+ * vgm/vgz   sega master system/mark iii, sega genesis/mega drive,bbc micro
+
+
+this package contains the shared libraries necessary to run programs
+using libgme.

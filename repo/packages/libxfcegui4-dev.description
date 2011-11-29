@@ -1,0 +1,9 @@
+Development files for libxfcegui4-4
+	
+this package contains the headers and the static library
+for libxfcegui4-4. if you intend to code applications
+which use some of these functions (probably xfce4-based
+applications), then you have to install this package.
+
+the libxfcegui4 reference manual is also included and it can be
+consulted with devhelp or a web browser.

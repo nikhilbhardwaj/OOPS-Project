@@ -1,0 +1,6 @@
+Mdbtools libraries
+	
+libraries for reading jet / ms access database (mdb) files
+
+ * libmdb    - the core library for accessing mdb files programmatically.
+ * libmdbsql - builds on libmdb to provide a sql engine (ala jet)

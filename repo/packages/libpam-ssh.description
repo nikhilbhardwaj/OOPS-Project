@@ -1,0 +1,9 @@
+Authenticate using ssh keys
+	
+this pluggable authentication module (pam) provides single sign-on
+using secure shell (ssh) keys.  during authentication, the user types
+a ssh passphrase and is authenticated if the passphrase successfully
+decrypts the user's ssh private keys.  in the pam session phase, an
+ssh-agent process is started and decrypted keys are added, and thus
+the user can ssh to other hosts that accept key authentication
+without typing more passwords for the entire session.

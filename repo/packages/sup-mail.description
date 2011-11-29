@@ -1,0 +1,25 @@
+Thread-centric mailer with tagging and fast search
+	
+sup is a console-based email client for people with a lot of email. it
+supports tagging, very fast full-text search, automatic contact-list
+management, custom code insertion via a hook system, and more. if
+you're the type of person who treats email as an extension of your
+long-term memory, sup is for you.
+
+sup makes it easy to:
+
+   * handle massive amounts of email.
+   * mix email from different sources: mbox files, imap folders, and
+     maildirs, across multiple machines.
+   * instantaneously search over your entire email collection. search
+     over body text, or use a query language to combine search predicates
+     in any way.
+   * handle multiple accounts. replying to email sent to a particular
+     account will use the correct smtp server, signature, and from address.
+   * add custom code to handle certain types of messages or to handle
+     certain types of text within messages.
+   * organize email with user-defined labels, automatically track recent
+     contacts, and much more!
+
+
+the goal of sup is to become the email client of choice for nerds everywhere.

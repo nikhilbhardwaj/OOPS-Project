@@ -1,0 +1,23 @@
+Network vulnerabilities check software
+	
+yersinia is a framework for performing layer 2 attacks. it is designed
+to take advantage of some weakeness in different network protocols. it
+pretends to be a solid framework for analyzing and testing the deployed
+networks and systems.
+
+attacks for the following network protocols are implemented in this
+particular release:
+
+ - spanning tree protocol (stp).
+ - cisco discovery protocol (cdp).
+ - dynamic trunking protocol (dtp).
+ - dynamic host configuration protocol (dhcp).
+ - hot standby router protocol (hsrp).
+ - 802.1q.
+ - 802.1x.
+ - inter-switch link protocol (isl).
+ - vlan trunking protocol (vtp).
+
+
+
+ homepage: http://www.yersinia.net/

@@ -1,0 +1,7 @@
+Lightweight, efficient ftp server written for security
+	
+this package provides the "very secure ftp daemon", written from
+the ground up with security in mind.
+
+it supports both anonymous and non-anonymous ftp access, pam authentication,
+bandwidth limiting, and the linux sendfile() facility.

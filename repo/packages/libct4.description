@@ -1,0 +1,8 @@
+Libraries for connecting to ms sql and sybase sql servers
+	
+freetds is an implementation of the tabular datastream protocol, used for
+connecting to ms sql and sybase servers over tcp/ip.
+
+this package includes the shared libraries for the sybase ct-lib api.
+you will need this if you plan to connect to ms sql or sybase servers, or use
+the php sybase or perl dbd::sybase extensions.

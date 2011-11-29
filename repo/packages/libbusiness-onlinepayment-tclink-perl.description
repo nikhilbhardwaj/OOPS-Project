@@ -1,0 +1,10 @@
+Trustcommerce backend for business::onlinepayment
+	
+this is business::onlinepayment::tclink, a business::onlinepayment
+backend module for the trustcommerce payment gateway. it is only useful if
+you have an account with trustcommerce: http://www.trustcommerce.com/
+
+business::onlinepayment is a generic interface for processing payments through
+online credit card processors, online check acceptance houses, etc. (if you
+like buzzwords, call it an "multiplatform ecommerce-enabling middleware
+solution").

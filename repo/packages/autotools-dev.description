@@ -1,0 +1,14 @@
+Update infrastructure for config.{guess,sub} files
+	
+this package installs an up-to-date version of config.guess and
+config.sub, used by the automake and libtool packages.  it provides
+the canonical copy of those files for other packages as well.
+
+it also documents in /usr/share/doc/autotools-dev/readme.debian.gz
+best practices and guidelines for using autoconf, automake and
+friends on debian packages.  this is a must-read for any developers
+packaging software that uses the gnu autotools, or gnu gettext.
+
+additionally this package provides seamless integration into debhelper
+or cdbs, allowing maintainers to easily update config.{guess,sub} files
+in their packages.

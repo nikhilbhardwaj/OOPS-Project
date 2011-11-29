@@ -1,0 +1,10 @@
+Cluster management and administration swiss army knife
+	
+kanif is a tool for high performance computing clusters management and
+administration. it combines the main functionalities of well-known cluster
+management tools such as c3, pdsh and dsh, and mimics their syntax. it
+provides three tools to run the same command on several nodes ("parallel
+ssh", using the 'kash' command), to broadcast the copy of files or
+directories to several nodes ('kaput' command), and to gather several
+remote files or directories locally ('kaget' command). it relies on taktuk
+for efficiency and scalability.

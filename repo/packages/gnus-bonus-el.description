@@ -1,0 +1,22 @@
+Miscellaneous add-ons for gnus
+	
+this package contains a few emacs-lisp files, obtained from various
+sources, including the gnu.emacs.sources newsgroup and a few
+websites, that provide various functions to gnus, the emacs mail and
+news reader.
+
+this package contains:
+
+ gnus-eyecandy - enhance the group buffer by adding icons.
+ gnus-filterhist - add a buffer which display the message filtering
+ gnus-junk - semi-automatic replies to junk e-mails;
+ gnus-pers - an alternative to gnus-posting-styles.
+ message-x - customizable completion in message headers;
+ nnir - searchable mail backend;
+ nnnil - empty, read-only backend;
+ nntodo - manage to-do items;
+ spam-stat - spam-detector based on statistics.
+
+
+see /usr/share/doc/gnus-bonus-el/readme.debian for a short description
+of all files.

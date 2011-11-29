@@ -1,0 +1,4 @@
+PackageId:23645
+Name:localization-config
+Version:1.07
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libapt-pkg-perl,libconfig-inifiles-perl,locales,locales-all,perl-base

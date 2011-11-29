@@ -1,0 +1,18 @@
+Additional utilities for clive
+	
+contains the following utilities to be used together with clive.
+
+
+ * clivefeed -- parse rss feeds containing video page links and use clive to
+   extract them
+
+
+
+ * clivescan -- scan video pages for video links and use clive to extract
+   them. scans for video page and embedded video links.
+
+
+
+ * clivepass  -- create and change passwords for websites used by clive.
+   the passwords are encrypted and saved along with the username information.
+   access is restricted by using a global passphrase.

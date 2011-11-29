@@ -1,0 +1,8 @@
+Open source implementation of the snmp protocol in java
+	
+the java snmp package provides support for basic snmp client and agent
+operations as defined in snmp versions 1 and 2 (excluding the security model
+proposed as part of snmp version 2, which was never widely accept or
+deployed). the package provides a mechanism for "getting and setting" snmp
+object identifier (oid) values through a simple communication interface, and
+represents snmp structures and datatypes as corresponding java objects.

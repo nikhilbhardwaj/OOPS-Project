@@ -1,0 +1,14 @@
+A fast webserver with minimal memory footprint
+	
+lighttpd is a small webserver and fast webserver developed with
+security in mind and a lot of features.
+it has support for
+
+  * cgi, fastcgi and ssi
+  * virtual hosts
+  * url rewriting
+  * authentication (plain files, htpasswd, ldap)
+  * transparent content compression
+  * conditional configuration
+
+and configuration is straight-forward and easy.

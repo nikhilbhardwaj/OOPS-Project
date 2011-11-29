@@ -1,0 +1,5 @@
+Image grabber and uploader
+	
+this package provides an utility that captures images from a
+video4linux device such as bttv, annotates them and uploads them to a
+webserver in an endless loop using ftp or ssh.

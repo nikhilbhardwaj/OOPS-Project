@@ -1,0 +1,4 @@
+PackageId:26714
+Name:pam-dbus-notify
+Version:0.2-1
+Deps:libpam-dbus,python,python-dbus,python-gtk2,python-notify

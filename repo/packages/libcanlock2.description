@@ -1,0 +1,9 @@
+Library for creating and verifying usenet cancel locks
+	
+cancel locks are used by usenet article posters to authenticate their
+authorship of an article. it may then by used by servers to prevent
+cancel and supersede abuse. the use of this feature remains the
+newsmaster's decision.
+
+this library may be used for both the generation and the verification
+of cancel locks.

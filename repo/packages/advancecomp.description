@@ -1,0 +1,10 @@
+Collection of recompression utilities
+	
+advancecomp contains recompression utilities for your .zip archives, .png
+images, .mng video clips and .gz files.
+
+for recompression, 7-zip (http://www.7-zip.com) is used, which generally gives
+5-10% more compression than zlib.
+
+
+ homepage: http://advancemame.sourceforge.net/

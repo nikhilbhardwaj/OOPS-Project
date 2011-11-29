@@ -1,0 +1,5 @@
+Concise attribute rewriting
+	
+html::rewriteattributes is designed for simple yet powerful html attribute
+rewriting. it runs a given callback function, potentially many times,
+for each attribute encountered.

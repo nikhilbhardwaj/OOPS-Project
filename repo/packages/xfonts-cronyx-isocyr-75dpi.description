@@ -1,0 +1,17 @@
+75 dpi iso 8859-5 encoded cyrillic fonts for x (cronyx collection)
+	
+this package provides a set of bitmapped cyrillic fonts at 75 dots
+per inch.  these are iso 8859-5 fonts and support the belarusian,
+bulgarian, macedonian, russian and serbian scripts.  in most cases it
+is desirable to have the x font server (xfs) and/or an x server
+installed to make the fonts available to x clients.
+
+this package and xfonts-cronyx-isocyr-100dpi provide the same set of
+fonts, rendered at different resolutions; only one or the other is
+necessary, but both may be installed.  xfonts-cronyx-isocyr-75dpi may be
+more suitable for small monitors and/or small screen resolutions
+(under 1024x768).
+
+the upstream source of this package is the package xcyr of serge
+winitzki.  xcyr is a descendant of the package xrus-2.3 of andrey
+chernov.

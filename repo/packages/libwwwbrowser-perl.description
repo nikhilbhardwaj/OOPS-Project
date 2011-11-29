@@ -1,0 +1,5 @@
+Platform independent means to start a www browser
+	
+perl module which starts a web browser, in the background for x11, with a
+specified url.  options exist to use a user-specified browser, including
+text browsers, which are started in a terminal window.

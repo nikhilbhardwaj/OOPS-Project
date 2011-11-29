@@ -1,0 +1,20 @@
+A new feature-rich gtk+ theme switcher
+	
+lxappearance is a new feature-rich gtk+ theme switcher able to change
+gtk+ themes, icon themes, and fonts used by applications.
+
+gnome/kde/xfce user may use build-in theme, this works for gtk+
+based lightweight desktop environment.
+
+features:
+
+ * choose gtk+ theme
+ * choose icon theme
+ * install new icon theme
+ * choose their favorite font
+ * choose toolbar style
+ * see changes immediately in preview area
+
+
+lxappearance is developed from lxde(the lightweight x11 desktop
+environment) project. but it works on other gtk+ based system too.

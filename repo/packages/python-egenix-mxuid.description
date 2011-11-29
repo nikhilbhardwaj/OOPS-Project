@@ -1,0 +1,10 @@
+Unique identifiers for python
+	
+mxuid provides a fast mechanism for generating universal
+identification strings (uids) with intention of making these uids
+unique with high probability in order to serve as object or data set
+identifiers.
+
+a typical use lies in generating session ids. other areas where
+unique ids play an important role are rpc-implementations, orbs, user
+identification, message passing systems, object databases, etc.

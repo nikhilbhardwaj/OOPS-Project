@@ -1,0 +1,10 @@
+Binding to the webkit library
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+webkit is a web content engine, derived from khtml and kjs from kde, and used
+primarily in apple's safari browser. it is made to be embedded in other
+applications, such as mail readers, or web browsers. it is able to display
+content such as html, svg, xml, and others. it also supports dom,
+xmlhttprequest, xslt, css, javascript/ecmascript and more.

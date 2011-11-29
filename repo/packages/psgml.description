@@ -1,0 +1,28 @@
+An emacs major mode for editing sgml documents
+	
+psgml is a major mode for the editor emacs used for editing sgml
+documents.  it contains a simple sgml parser and can work with any
+dtd. (the most popular nowadays are the html dtds.  this package
+turns your emacs into the one of most powerful html editors and will
+be ultimately flexible as well, since you could upgrade your editor
+by just installing new dtds).  functions provided includes menus and
+commands for inserting tags with only the contextually valid tags,
+identification of structural errors, editing of attribute values in a
+separate window with information about types and defaults, and
+structure based editing.
+
+since psgml parses the dtd to allow you to edit sgml documents, you do
+need to have the dtds installed in order to use psgml.  since psgml
+installs itself as an html mode in emacs, it depends on sgml-data.  some
+other packages which also provide sgml dtds are suggested, like
+debiandoc-sgml and linuxdoc-sgml.
+
+sgml, a language for encoding the structure of a document, is an iso
+standard: iso 8879:1986 "information processing - text and office
+systems - standard generalized markup language (sgml)".
+
+psgml is a standard package for xemacs, and thus this package does not
+install itself for xemacsen.
+
+please visit the package's home page at
+<url:http://www.lysator.liu.se/projects/about_psgml.html>

@@ -1,0 +1,8 @@
+Econometrics functions for octave
+	
+this package provides functions to work with econometrics in octave,
+a numerical computation software. the functions include methods to do
+maximum likelihood (mle_estimate) and general method of moments
+(gmm_estimate) based estimations.
+
+this octave add-on package is part of the octave-forge project.

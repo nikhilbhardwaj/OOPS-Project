@@ -1,0 +1,11 @@
+Graphical graph editor based on hyperbolic geometry
+	
+ocamlgraph editor is an interactive graph editor for gnome; it is based
+on hyperbolic geometry (it "zooms" more on graph nodes which are in the
+center of the editing area and zooms less on periferic nodes).
+
+ocamlgraph editor works with the following file formats to load and
+save graphs: gml (graph modelling language), dot (the file format used
+by graphviz).
+
+ocamlgraph is still to be considered experimental.

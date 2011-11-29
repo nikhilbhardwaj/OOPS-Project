@@ -1,0 +1,14 @@
+Convert color specifications between color spaces
+	
+use this package to convert between all the common color spaces. as a
+pure perl module, it is not very fast, and so it you want to convert
+entire images, this is probably not what you want. the emphasis is on
+completeness and accurate conversion.
+
+supported color spaces are: rgb (including srgb, rec 601, rec 709,
+itu, and about a dozen other rgb spaces), cmy, cmyk, hsl, hsv, xyz,
+xyy, lab, lchab, luv, lchuv, ypbpr, ycbcr. future support is planned
+for yuv, yiq, ycc and possibly others.
+
+conversion between different rgb working spaces, and between
+different white-points, is fully supported.

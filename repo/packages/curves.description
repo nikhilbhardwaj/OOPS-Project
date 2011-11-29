@@ -1,0 +1,10 @@
+Colorful console interface for cvs version control
+	
+curves performs two functions.  it provides a menu and command
+completion interface to cvs so that inexperienced users can learn the
+features of cvs without documentation.  this includes the creation of
+some meta-features built upon standard cvs commands that commonly are
+used together.  the second function of curves is to provide visual
+presentation of a project directory so that the status of each file
+is comprehensible at a glance.  curves uses color, when available, to
+accent the file classification marks.

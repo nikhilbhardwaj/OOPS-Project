@@ -1,0 +1,8 @@
+A perl policy daemon for the postfix mta
+	
+its intended to eliminate forged envelope senders and helos (i.e. in bogus
+mails). it allows you to score dnsbls (rbl/rhsbl), helo, mail from and client
+ip addresses before any queuing is done. it allows you to reject messages
+which have a score higher than allowed, providing improved blocking of spam
+and virus mails. policyd-weight caches the most frequent client/sender
+combinations (spam as well as ham) to reduce the number of dns queries.

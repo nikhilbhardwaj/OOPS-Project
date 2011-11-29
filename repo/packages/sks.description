@@ -1,0 +1,9 @@
+Synchronizing openpgp key server
+	
+sks is an openpgp key server that correctly handles all openpgp features
+defined in rfc2440 and rfc2440bis, including photoid packages and multiple
+subkeys.
+
+this key server implementation uses an efficient and reliable reconciliation
+algorithm to keep the database in sync with other sks servers.  additionally
+it can both send and receive pks style sync emails.

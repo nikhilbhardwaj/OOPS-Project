@@ -1,0 +1,18 @@
+General-purpose console screen reader
+	
+yasr is a general-purpose console screen reader for gnu/linux and
+other unix-like operating systems.  the name "yasr" is an acronym that
+can stand for either "yet another screen reader" or "your all-purpose
+screen reader".
+
+currently, yasr attempts to support the speak-out, dec-talk, bns, apollo,
+and doubletalk synthesizers.  it is also able to communicate with
+emacspeak servers and can thus be used with synthesizers not directly
+supported, such as festival lite (via eflite) or freetts.
+
+yasr is written in c and works by opening a pseudo-terminal and running a
+shell, intercepting all input and output.  it looks at the escape
+sequences being sent and maintains a virtual "window" containing what
+it believes to be on the screen.  it thus does not use any features
+specific to linux and can be ported to other unix-like operating
+systems without too much trouble.

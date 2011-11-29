@@ -1,0 +1,19 @@
+Library for particle image velocimetry (piv)
+	
+this library contains functions for evaluating images from a fluid
+flow by means of particle image velocimetry (piv).
+
+piv is a way to film the wind or liquid flows. it uses a sequence of
+at least two images that are recorded with a well controlled
+separation time in-between. tracer particles that are resident in the
+fluid may be illuminated by a light source, mostly a laser, that has
+been re-shaped into a sheet of light. in this way, the average
+displacement and the deformation of the image texture is
+obtained. applying this analyses on small samples of the images on a
+(rectangular) grid results into an instantaneous velocity field of
+the fluid flow. piv may also be applied for other purposes, like
+deformations and vibrations of solid surfaces.
+
+this library includes the core functions for image recording,
+processing, interrogation, piv data validation, post-processing,
+input/output functions and memory allocation.

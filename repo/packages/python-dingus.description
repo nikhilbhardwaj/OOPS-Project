@@ -1,0 +1,7 @@
+A record-then-assert mocking library
+	
+a dingus is sort of like a mock object. the main difference is that you don't
+set up expectations ahead of time. you just run your code, using a dingus in
+place of another object or class, and it will record what happens to it. then,
+once your code has been exercised, you can make assertions about what it did
+to the dingus.

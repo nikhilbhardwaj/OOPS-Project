@@ -1,0 +1,17 @@
+A system independent dlopen wrapper for gnu libtool
+	
+this package contains the header files and static libraries for the
+libltdl package.
+
+a small library that aims at hiding the various difficulties of
+dlopening libraries from programmers.  it is a system independent
+dlopen wrapper for gnu libtool.
+
+it supports the following dlopen interfaces:
+
+  * dlopen (solaris, linux and various bsd flavors)
+  * shl_load (hp-ux)
+  * loadlibrary (win16 and win32)
+  * load_add_on (beos)
+  * gnu dld (emulates dynamic linking for static libraries)
+  * libtool's dlpreopen

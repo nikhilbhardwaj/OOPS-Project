@@ -1,0 +1,10 @@
+Text-mode bulgarian/english dictionary
+	
+cbe dictionary is a command-line bulgarian to english and english to
+bulgarian electronic dictionary.  it can work in interactive mode
+too.
+
+the dictionary databases are not included in this package.  you have
+to download bedic-data-4.0.tar.gz from
+http://kbedic.sourceforge.net.  install the files
+bg_en.dat and en_bg.dat in /usr/local/share/bedic.

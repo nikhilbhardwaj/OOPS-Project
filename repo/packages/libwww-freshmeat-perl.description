@@ -1,0 +1,6 @@
+Module to automate searches on freshmeat.net
+	
+www::freshmeat is a perl module that allows you to fetch information about
+projects from freshmeat, such as name, url, version and description. because
+it subclasses lwp, it supports all its options, including timeout, useragent,
+env_proxy, etc.

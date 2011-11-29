@@ -1,0 +1,12 @@
+Library for dealing with microsoft chm files (test programs)
+	
+it is a very simple library, but sufficient for dealing with all of the chm
+files. library currently does not has write support.
+
+chm files are used on the microsoft windows platform to store program
+documentation, almost always in the form of html, with some non-standard
+quirks. chm files are a form of archive known as infotech storage format
+(itsf) files and contain some special files to implement features of the
+chm viewer.
+
+this package includes test programs.

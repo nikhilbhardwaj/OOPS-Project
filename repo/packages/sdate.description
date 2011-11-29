@@ -1,0 +1,10 @@
+Never ending september date
+	
+sdate wraps the libc localtime() and gmtime() functions to output the eternal
+september 1993 date.
+
+sdate works like fakeroot (on which its code is based) by setting ld_preload
+to a wrapper library.
+
+
+ * http://www.catb.org/~esr/jargon/html/s/september-that-never-ended.html

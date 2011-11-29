@@ -1,0 +1,8 @@
+Unix playstation sound emulator - library
+	
+upse is an advanced playstation sound emulator which
+concentrates on sound correctness. it plays psf and
+minipsf format files.
+
+this package contains the shared library which contains
+the emulation core.

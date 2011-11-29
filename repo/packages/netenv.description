@@ -1,0 +1,11 @@
+Configure your system for different network environments
+	
+netenv lets  you choose your  network environment (and  other things)
+upon boot, which is useful  for notebook computers. the difference to
+similar  packages   is  that  it  doesn't  try   to  autodetect  your
+environment,  but expects  your input.  you can,  however,  specify a
+default or  pass it  a parameter  from the boot  prompt to  allow for
+unattended boot. you  can also use it to  switch between environments
+without rebooting.
+
+it will work with pcmcia or builtin network cards.

@@ -1,0 +1,9 @@
+Ghc 6 library for safe (pattern match free) functions
+	
+
+partial functions from the base library, such as head and !!, modified to
+return more descriptive error messages, programmer defined error messages,
+maybe wrapped results and default values. these functions can be used to
+reduce the number of unsafe pattern matches in your code.
+
+this package contains the libraries compiled for ghc 6.

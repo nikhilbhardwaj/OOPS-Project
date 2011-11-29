@@ -1,0 +1,6 @@
+Perl module for tidy indenting of xml documents
+	
+xml::tidy creates xml document objects (with inheritance from xml::xpath) to
+tidy mixed-content (ie. non-data) text node indenting. there are also some
+other handy member functions to compress && expand your xml document object
+(into either a compact xml representation or a binary one).

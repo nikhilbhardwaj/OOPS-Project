@@ -1,0 +1,12 @@
+Sample applications based on the cdio libraries
+	
+this package contains a collection of small libcdio-based tools:
+
+ * cd-drive      show cd-rom drive characteristics
+ * cd-info       show information about a cd or cd-image
+ * cd-paranoia   an audio cd ripper
+ * cd-read       read information from a cd or cd-image
+ * cdda-player   a simple curses-based audio cd player
+ * iso-info      show information about an iso 9660 image
+ * iso-read      read portions of an iso 9660 image
+ * mmc-tool      issue low-level commands to a cd drive

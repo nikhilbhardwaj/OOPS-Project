@@ -1,0 +1,10 @@
+Checks whether dependencies of packages can be satisfied
+	
+this software checks for every package of a distribution whether it
+is possible to satisfy its dependencies and conflicts within this
+distribution. it comes in several versions:
+
+ - edos-debcheck for debian packages
+ - edos-rpmcheck for rpm packages
+ - edos-pscheck for pkg_summary package descriptions
+ - edos-builddebcheck for build-depenendencies of debian packages.

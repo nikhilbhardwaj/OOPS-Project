@@ -1,0 +1,11 @@
+A multicast beacon
+	
+dbeacon is a multicast beacon. its main purpose is to monitor other beacon's
+reachability and collect statistics such as loss, delay and jitter between
+them.
+
+dbeacon supports both ipv4 and ipv6 multicast, collecting information using
+both any source multicast (asm) and source-specific multicast (ssm).
+
+this package also includes dbeacon matrix, a perl script to generate beacon
+reachability matrices in html.

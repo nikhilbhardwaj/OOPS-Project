@@ -1,0 +1,4 @@
+PackageId:34130
+Name:watchdog
+Version:5.9-1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,lsb-base,makedev,udev

@@ -1,0 +1,9 @@
+Shrew soft vpn client - connection manager
+	
+the shrew soft vpn client is a free ipsec vpn client for freebsd, netbsd,
+linux and windows operating systems. this product can be used to communicate
+with open source vpn servers (e.g. ipsec-tools) as well as some commercial
+vpn servers.
+
+this package provides the connection manager program, which allows one
+to create, manage and use vpn connections.

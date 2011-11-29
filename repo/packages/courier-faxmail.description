@@ -1,0 +1,10 @@
+Courier mail server - fax<->mail gateway
+	
+the courier mail transfer agent (mta) is an integrated mail/groupware
+server based on open commodity protocols, such as esmtp, imap, pop3, ldap,
+ssl, and http. courier provides esmtp, imap, pop3, webmail, and mailing list
+services within a single, consistent, framework.
+
+the courierfax module implements a faxmail gateway, which faxes a printed
+copy of an email message to the phone number specified in the email address
+(e.g. 5558888@fax).

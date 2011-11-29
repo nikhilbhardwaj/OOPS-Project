@@ -1,0 +1,6 @@
+Asn.1 library for python
+	
+this  is  an implementation  of  asn.1  types  and codecs  in  python
+programming language. it has been first written to support particular
+protocol (snmp) but then generalized  to be suitable for a wide range
+of protocols based on asn.1 specification.

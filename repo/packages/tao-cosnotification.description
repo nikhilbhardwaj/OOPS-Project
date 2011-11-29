@@ -1,0 +1,15 @@
+Tao notification service
+	
+a notification service enhances an event service. for more
+information on corba event service have a look at tao-cosevent
+package.
+
+the notification service adds:
+
+ * quality of service control on reliability and speed
+ * event filtering
+
+
+this package contains:
+
+ * tao_cosnotification

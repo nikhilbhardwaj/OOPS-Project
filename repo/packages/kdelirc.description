@@ -1,0 +1,11 @@
+Infrared remote control
+	
+kdelirc is a frontend for the linux infrared remote control system (lirc).
+
+kdelirc consists of two parts:
+
+ * a systemtray applet acting as a proxy between the lirc system and d-bus.
+ * a control module.
+
+
+this package is part of the kde utilities module.

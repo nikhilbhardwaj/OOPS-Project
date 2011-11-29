@@ -1,0 +1,9 @@
+Snmp (simple network management protocol) library
+	
+the simple network management protocol (snmp) provides a framework
+for the exchange of management information between agents (servers)
+and clients.
+
+the net-snmp library contains common functions for the construction,
+sending, receiving, decoding, and manipulation of the snmp requests
+and responses.

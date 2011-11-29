@@ -1,0 +1,5 @@
+Displays information on acpi devices
+	
+attempts to replicate the functionality of the 'old' apm command on
+acpi systems, including battery and thermal information. does not support
+acpi suspending, only displays information about acpi devices.

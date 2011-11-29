@@ -1,0 +1,4 @@
+PackageId:31067
+Name:s390-dasd
+Version:0.0.27
+Deps:cdebconf-udeb,dasd-modules,dasd-modules-2.6.32-5-s390x-di,libc6-udeb,libdebconfclient0-udeb,libdebian-installer4-udeb,libsysfs2-udeb,s390-sysconfig-writer,s390-tools-udeb

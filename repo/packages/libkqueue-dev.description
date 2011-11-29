@@ -1,0 +1,9 @@
+Development files for libkqueue
+	
+contains the header files, manpages, and static libraries for use in
+developing applications that use the libkqueue library.
+
+libkqueue is a portable userspace implementation of the kqueue(2)
+kernel event notification mechanism found in freebsd and other bsd-based
+operating systems. the library translates between the kevent structure
+and the native kernel facilities of the host machine.

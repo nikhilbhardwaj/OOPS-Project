@@ -1,0 +1,13 @@
+The embedded elf debugger library
+	
+the embedded elf debugger is the implementation of a new concept of
+debugger that run inside the process to be debugged instead of being
+an external entity accessing from the outside the target address space.
+instead of using system-specific api such as ptrace, the debugger is
+linked into a library that is getting injected in a process using the
+ld_preload environment variable. this makes e2dbg very efficient as it
+does not need context switching for inspecting the target process.
+the eresi debugger can also be scripted in the same conditions as a
+complete eresi interpreter is embedded into the debugger.
+
+this package contains the shared libraries used by elfsh.

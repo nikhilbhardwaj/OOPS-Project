@@ -1,0 +1,9 @@
+Gnu r package for financial engineering -- fgarch
+	
+this package provides functions for garch volatility modelling and is
+part of rmetrics, a collection of packages for financial engineering
+and computational finance written and compiled by diethelm wuertz and
+others.
+
+fgarch provides generalized autoregressive conditional heteroscasticity
+modelling functions.

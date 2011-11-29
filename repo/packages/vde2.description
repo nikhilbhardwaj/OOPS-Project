@@ -1,0 +1,31 @@
+Virtual distributed ethernet
+	
+vde is a virtual switch that can connect multiple virtual machines together,
+both local and remote.
+
+components of the vde architecture are vde switches (virtual counterpart of
+ethernet switches) and vde cables (virtual counterpart of a crossed-cable used
+to connect two switches).
+
+vde 2 includes:
+
+ - switch management both from console and from a "unix socket terminal"
+ - vlan 801.1q
+ - fstp (fast spanning tree)
+ - distributed cable manager using a blowfish encrypted channel
+ - wire packet filter to emulate delays and packet loss on virtual wires
+
+
+examples of vde uses:
+
+ - with vde it is possible to create a virtual network of qemu machines
+   running on several real computer
+ - vde can be used to create tunnels (even crossing masqueraded networks)
+ - vde can provide mobility support
+
+
+the vde also provides bi-directional pipe command (dpipe) and remote terminal
+for unix sockets (unixterm).
+
+the debian package provides a nice extension for /etc/network/interfaces file
+for easy set up.

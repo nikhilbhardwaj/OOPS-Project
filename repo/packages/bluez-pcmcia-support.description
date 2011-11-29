@@ -1,0 +1,7 @@
+Pcmcia support files for bluez 2.0 bluetooth tools
+	
+this package contains files to enable pcmcia card services to recognise
+and initialise pcmcia bluetooth devices.
+
+bluez is the official linux bluetooth protocol stack. it is an open source
+project distributed under gnu general public license (gpl).

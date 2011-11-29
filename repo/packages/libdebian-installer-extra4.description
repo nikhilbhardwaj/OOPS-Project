@@ -1,0 +1,6 @@
+Library of some extra debian-installer functions
+	
+this library is used by debian-installer to perform common functions
+such as logging messages and executing commands. if you aren't
+working on debian-installer or building your own install system based
+on debian-installer, then you probably don't need this library.

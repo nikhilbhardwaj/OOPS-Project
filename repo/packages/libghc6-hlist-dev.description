@@ -1,0 +1,10 @@
+Haskell library for strongly typed heterogeneous collections
+	
+a heterogeneous collection is a datatype that is capable of storing
+data of different types, while providing operations for look-up,
+update, iteration, and others. there are various kinds of
+heterogeneous collections, differing in representation, invariants,
+and access operations.
+
+hlist is a haskell library providing strongly typed heterogeneous
+collections including extensible records.

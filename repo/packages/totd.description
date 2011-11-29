@@ -1,0 +1,10 @@
+Small dns proxy that supports ipv6/ipv4 record translation
+	
+totd is a small dns proxy nameserver which supports ipv6 and enable ipv6
+only sites to access ipv4 sites by using some translation mechanism such
+as nat-pt, kame faith, etc...
+
+you can also use totd as local dns proxy server. it is convenient for some
+applications which call res_init(3) only once. these application cannot
+search new dns server when resolv.conf is changed by dhcp or ppp. totd
+enables you to query dns record to new dns servers without restarting them.

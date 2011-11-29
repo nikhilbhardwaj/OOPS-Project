@@ -1,0 +1,7 @@
+Brings all the generic sexp processing tools to ruby
+	
+sexp_processor branches from parsetree bringing all the generic sexp
+processing tools with it. sexp, sexpprocessor, environment, etc.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

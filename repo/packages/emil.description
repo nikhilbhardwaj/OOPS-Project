@@ -1,0 +1,6 @@
+Conversion filter for internet messages
+	
+emil v2 is a filter for converting internet messages. it supports
+three basic formats: mime, sun mailtool and plain old style rfc822.
+it can be used with sendmail, as a mailer, or as a prefilter or
+backend program with a mail client program, or as a plain filter.

@@ -1,0 +1,8 @@
+Examples for firebird - an rdbms based on interbase 6.0 code
+	
+the examples included in this package are provided as samples and are also
+used by firebird's testing suite (tcs). the examples are in the form
+of .h, .c, .e, .fdb and .gbk files.
+
+please refer to the firebird2.1-super and firebird2.1-classic packages for
+more information about firebird in general.

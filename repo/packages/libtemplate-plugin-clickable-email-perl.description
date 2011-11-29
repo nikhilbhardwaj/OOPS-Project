@@ -1,0 +1,5 @@
+Plugin to make clickable e-mail addresses with perl template toolkit
+	
+template::plugin::clickable::email is a plugin for template toolkit that
+converts any e-mail addresses found in the filtered text into proper
+html mailto: links.

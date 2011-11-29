@@ -1,0 +1,12 @@
+Haskell library for working with the debian package system
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library includes modules covering almost every aspect of the debian
+packaging system, including low level data types such as version numbers
+and dependency relations, on up to the types necessary for computing and
+installing build dependencies, building source and binary packages,
+and inserting them into a repository.
+
+this package contains the libraries compiled for ghc 6.

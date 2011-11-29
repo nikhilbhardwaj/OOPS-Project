@@ -1,0 +1,22 @@
+Several utility libraries from ilm used by openexr
+	
+ilmbase are a set of utility libraries released by ilm, and used in
+their openexr implementation. included in this package you can find:
+
+
+ * libhalf: a class (half) for manipulating "half" values (16-bit
+   floating point format) as if they were a built-in c++ data type.
+
+
+
+ * libilmthread: a thread abstraction library on top of pthreads.
+
+
+
+ * libimath: a math library with support for matrices, 2d- and
+   3d-transformations, solvers for linear/quadratic/cubic equations,
+   and more.
+
+
+
+ * libiex: an exception handling library.

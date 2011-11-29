@@ -1,0 +1,15 @@
+Synthesised pipe organ emulator
+	
+aeolus is a synthesised (i.e. not sampled) pipe organ emulator that
+should be good enough to make an organist enjoy playing it. it is a
+software synthesiser optimised for this job, with possibly hundreds
+of controls for each stop, that enable the user to "voice" his
+instrument.
+
+main features of the default instrument: three manuals and one pedal,
+five different temperaments, variable tuning, midi control of course,
+stereo, surround or ambisonics output, flexible audio controls
+including a large church reverb.
+
+aeolus is not very cpu-hungry, and should run without problems on a
+e.g. a 1ghz, 256mb machine.

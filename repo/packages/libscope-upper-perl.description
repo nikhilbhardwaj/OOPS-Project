@@ -1,0 +1,13 @@
+Module to manipulate upper scopes
+	
+scope::upper is a perl module that provides a way for perl programs to defer
+actions at run-time until the control flow returns to the upper scope. it
+currently enables developers to:
+
+
+ * hook an upper scope end with "reap"
+ * localize variables, array/hash values or deletions of elements in
+   higher contexts with respectively "localize", "localize_elem" and
+   "localize_delete"
+ * return values immediately to an upper level with "unwind", and know
+   which context was in use then with "want_at"

@@ -1,0 +1,7 @@
+Python-embedding module for apache 2
+	
+the mod_python module supports web applications written in python.
+because the parser is embedded in the server as an apache module, it
+will run much faster than traditional cgi.
+
+this package is built for the current python version.

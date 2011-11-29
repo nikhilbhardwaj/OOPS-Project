@@ -1,0 +1,19 @@
+Fast, parallel, modular, login brute-forcer for network services
+	
+medusa is intended to be a speedy, massively parallel, modular, login
+brute-forcer. the goal is to support as many services which allow remote
+authentication as possible. the author considers following items as some of
+the key features of this application:
+
+     * thread-based parallel testing. brute-force testing can be
+       performed against multiple hosts, users or passwords
+       concurrently.
+     * flexible user input. target information (host/user/password) can
+       be specified in a variety of ways. for example, each item can be
+       either a single entry or a file containing multiple entries.
+       additionally, a combination file format allows the user to
+       refine their target listing.
+     * modular design. each service module exists as an
+       independent .mod file. this means that no modifications are
+       necessary to the core application in order to extend the
+       supported list of services for brute-forcing.

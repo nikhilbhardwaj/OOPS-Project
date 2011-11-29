@@ -1,0 +1,6 @@
+Concise sparse matrix library (complex, int and long int support)
+	
+suitesparse is a collection of libraries for computations involving
+sparse matrices.  this package includes the following dynamic library:
+
+cxsparse    csparse extended: complex matrix, int and long int support

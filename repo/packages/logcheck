@@ -1,0 +1,4 @@
+PackageId:23653
+Name:logcheck
+Version:1.3.13
+Deps:adduser,cron,bcron-run,default-mta,exim4-daemon-light,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,lockfile-progs,logtail,mime-construct,rsyslog,system-log-daemon,busybox-syslogd,dsyslog,inetutils-syslogd,socklog-run,sysklogd,syslog-ng

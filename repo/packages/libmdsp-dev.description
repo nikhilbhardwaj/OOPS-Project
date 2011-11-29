@@ -1,0 +1,7 @@
+Metar decoder software package library development files
+	
+metar (meteorological aviation routine weather report) is the standard format
+for reporting meterological conditions. the mdsp library provides a programmer
+with functions to decode and print metar data.
+
+this is a static only library!

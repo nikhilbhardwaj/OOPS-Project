@@ -1,0 +1,5 @@
+Utility to check and download the most recent program version
+	
+this is a tool for checking for latest versions of programs at http
+and ftp locations given a list of urls and (perl-style) regular
+expressions to match, and to optionally download them automatically.

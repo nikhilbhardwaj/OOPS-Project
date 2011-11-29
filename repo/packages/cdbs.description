@@ -1,0 +1,7 @@
+Common build system for debian packages
+	
+this package contains the common debian build system, an abstract
+build system based on makefile inheritance which is completely
+extensible and overridable.  in other words, cdbs provides a sane set
+of default rules upon which packages can build; any or all rules may
+be overridden as needed.

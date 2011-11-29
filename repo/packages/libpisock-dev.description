@@ -1,0 +1,8 @@
+Development files for communicating with a palmos pda
+	
+libpisock-dev contains static libraries, header files and dynamic
+libraries for compiling applications that communicate with a palmos
+device.
+
+you will need this package if you want to compile a c or c++ using
+libpisock9 or libpisync1.

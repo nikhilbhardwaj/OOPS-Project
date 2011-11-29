@@ -1,0 +1,15 @@
+Module to create excel spreadsheets
+	
+spreadsheet::writeexcel is a perl module that can be used to create a cross-
+platform excel binary file. multiple worksheets can be added to a workbook
+and formatting can be applied to cells. additionally, this module supports
+writing text, numeric values, formulas and hyperlinks to cells.
+
+the excel file produced by this module is compatible with excel 5, 95, 97
+and 2000. generated files are also compatible with the linux/unix spreadsheet
+applications openoffice.org, gnumeric and xess. the generated files are not
+compatible with ms access.
+
+this module cannot be used to read an excel file. see spreadsheet::parseexcel
+(libspreadsheet-parseexcel-perl) or look at the main documentation for some
+suggestions. this module cannot be used to write to an existing excel file.

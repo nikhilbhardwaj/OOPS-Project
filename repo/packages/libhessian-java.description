@@ -1,0 +1,9 @@
+Java implementation of a binary protocol for web services
+	
+hessian provides compact binary and xml protocols for applications
+needing performance without protocol complexity.  it is well-suited to
+sending binary data without any need to extend the protocol with attachments.
+this library also includes burlap that is a matching xml protocol.
+
+with hessian, providing a web service is as simple as creating a servlet and
+using a service is as simple as a jdk proxy interface.

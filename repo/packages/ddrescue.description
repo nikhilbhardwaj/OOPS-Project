@@ -1,0 +1,19 @@
+Copy data from one file or block device to another
+	
+dd_rescue is a tool to help you to save data from crashed
+partition. like dd, dd_rescue does copy data from one file or
+block device to another. but dd_rescue does not abort on errors
+on the input file (unless you specify a maximum error number).
+it uses two block sizes, a large (soft) block size and a small
+(hard) block size. in case of errors, the size falls back to the
+small one and is promoted again after a while without errors.
+if the copying process is interrupted by the user it is possible
+to continue at any position later. it also does not truncate
+the output file (unless asked to). it allows you to start from
+the end of a file and move backwards as well. dd_rescue does
+not provide character conversions.
+
+please note that this is the dd_rescue version of kurt garloff
+providing the /bin/dd_rescue executable. if you are searching
+for the gnu ddrescue version please check out the gddrescue
+package instead.

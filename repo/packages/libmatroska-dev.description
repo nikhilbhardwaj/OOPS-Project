@@ -1,0 +1,10 @@
+Extensible open standard audio/video container format
+	
+matroska is aiming to become the standard of multimedia
+container formats one day. it is based on ebml (extensible binary
+meta language), a kind of binary version of xml. this way the
+significant advantages in terms of future format extensability
+are gained without breaking file support in old parsers.
+
+this package contains the header files and static libraries needed to
+compile applications that use libmatroska.

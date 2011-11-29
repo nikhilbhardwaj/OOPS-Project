@@ -1,0 +1,14 @@
+X11 xinerama extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for the xinerama extension, used to use and manage a multiple-screen
+display.
+the terms 'xinerama' and 'panoramix' are generally interchangeable;
+this package used to be named x11proto-panoramix-dev.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xineramaproto proto module.

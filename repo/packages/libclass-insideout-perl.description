@@ -1,0 +1,19 @@
+Safe, simple inside-out object construction kit
+	
+class::insideout is a simple, safe and streamlined toolkit for building
+inside-out objects. unlike most other inside-out object building modules
+already on cpan, this module aims for minimalism and robustness:
+
+
+  * does not require derived classes to subclass it
+  * uses no source filters, attributes or check blocks
+  * supports any underlying object type including black-box inheritance
+  * does not leak memory on object destruction
+  * overloading-safe
+  * thread-safe for perl 5.8.5 or better
+  * mod_perl compatible
+  * makes no assumption about inheritance or initializer needs
+
+
+it provides the minimal support necessary for creating safe inside-out
+objects and generating flexible accessors.

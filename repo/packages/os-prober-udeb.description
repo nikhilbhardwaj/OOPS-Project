@@ -1,0 +1,5 @@
+Utility to detect other oses on a set of drives
+	
+this package is to be used by boot loader installers to detect other oses
+available on a system, in a generic format, which it can then adapt to its
+own configuration format.

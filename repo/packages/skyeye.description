@@ -1,0 +1,18 @@
+Embedded hardware simulation
+	
+the goal of skyeye is to provide an integrated simulation environment
+in linux and windows. skyeye environment simulates typical embedded
+computer systems (now it supports a series arm architecture based
+microprocessors and blackfin dsp processor). you can run some embedded
+operation system such as arm linux, uclinux, uc/os-ii (ucos-ii) etc.
+in skyeye, and analyse or debug them at source level.
+now the following hardwares can be simulated by skyeye:
+
+
+ * cpu core: arm7tdmi, arm720t, strongarm, xscale, blackfin.
+ * application cpu: atmel at91x40/at91rm9200, cirrus logic
+   ep7312/ep9312/cs89712, intel sa1100/sa1110, intel pxa 25x/27x,
+   samsung 4510b/44b0/2410/2440 , sharp lh7xxxx, ns9750, philips lpc22xx,
+   bf533.
+ * memory: ram, rom, flash.
+ * peripheral: timer, uart, nic chip, lcd, touchscreen, etc.

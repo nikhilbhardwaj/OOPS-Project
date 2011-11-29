@@ -1,0 +1,48 @@
+Debian science project config package
+	
+this package provides the basic infrastructure of all science-* packages and is
+needed by them.
+
+these are the science related metapackages in the debian science project:
+
+
+ * science-astronomy       packages related to astronomy
+ * science-astronomy-dev   packages related to development of
+                           astronomical applications
+ * science-biology         packages related to biology
+ * science-chemistry       packages related to chemistry
+ * science-dataacquisition packages related to data acquisition
+ * science-electronics     packages related to electronics
+ * science-engineering     packages related to engineering
+ * science-engineering-dev packages related to development of
+                           engineering applications
+ * science-geography       packages related to geography
+ * science-linguistics     packages related to linguistics
+ * science-machine-learning  packages related to machine learning
+ * science-mathematics     packages related to mathematics
+ * science-mathematics-dev packages related to development of
+                           mathematical applications
+ * science-meteorology     packages related to meteorology and climate
+ * science-meteorology-dev packages related to the development of
+                           meteorology and climate applications
+ * science-neuroscience-cognitive   packages related to cognitive
+                           neuroscience
+ * science-physics         packages related to physics
+ * science-robotics        packages related to robotics
+
+
+this are metapackages for common utilities for all sciences:
+
+
+ * science-imageanalysis   packages related to image analysis
+ * science-numericalcomputation   packages related to numerical
+                           computation
+ * science-statistics      packages related to statistics
+ * science-typesetting     packages related to typesetting
+ * science-viewing         packages related to viewing
+
+
+note: all these packages are so called metapackages. this means they are not
+executable programs, but only links to other packages. this way you will
+conveniently get most of scientific free software which is available in
+debian.

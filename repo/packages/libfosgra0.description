@@ -1,0 +1,13 @@
+Library to decode smaky .image files
+	
+fosfat is a c library for providing read-only access to a smaky
+formatted disk. currently, only a tool and a fuse extension that
+use this library can be used for reading a directory and copying
+a file.
+
+the smaky is a line of mostly 8-bit personal computers and
+accompanying operating system developed at the epfl (École
+polytechnique federale de lausanne), in switzerland, from 1974.
+
+this package contains the libfosgra0, used to decode the smaky .image
+picture file.

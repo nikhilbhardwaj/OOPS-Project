@@ -1,0 +1,12 @@
+Fantasy turn-based strategy game (branch 1.8)
+	
+this package contains the main program for wesnoth. it can be used to play
+multiplayer games.  if you want to play campaigns you will have to install
+them individually, but if you prefer to have all the official campaigns
+installed please be advised to install the wesnoth-1.8 package which depends
+on all of them.
+
+battle for control of villages, using variety of units which have advantages
+and disadvantages in different types of terrains and against different types
+of attacks.  units gain experience and advance levels, and are carried over
+from one scenario to the next in a campaign.

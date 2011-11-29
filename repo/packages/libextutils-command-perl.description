@@ -1,0 +1,6 @@
+Utilities to replace common unix commands in makefiles etc
+	
+extutils::command provide the thin wrapper shell::command - cross-platform
+functions emulating common shell commands like mv, cp, touch
+
+filenames with * and ? will be glob expanded

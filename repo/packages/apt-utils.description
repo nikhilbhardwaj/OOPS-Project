@@ -1,0 +1,8 @@
+Apt utility programs
+	
+this package contains some apt utility programs such as apt-ftparchive,
+apt-sortpkgs and apt-extracttemplates.
+
+apt-extracttemplates is used by debconf to prompt for configuration
+questions before installation. apt-ftparchive is used to create package
+and other index files. apt-sortpkgs is a package/source file normalizer.

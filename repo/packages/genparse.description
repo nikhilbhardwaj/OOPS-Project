@@ -1,0 +1,7 @@
+Command line parser generator
+	
+from simple and concise specification file, you can define
+the command line parameters and switches that you would like
+to be able to pass to your program.
+genparse creates the c code of the parser for you, which you can then
+compile as a separate file and link with your program.

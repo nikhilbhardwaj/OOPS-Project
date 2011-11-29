@@ -1,0 +1,12 @@
+Postgresql config tuner
+	
+pgtune works by taking an existing postgresql.conf file as an input,
+making changes to it based on the amount of ram in your server and
+suggested workload, and output a new file.
+
+pgtune will add a set of configuration values at the end of the
+output file.
+
+pgtune will set values for variables like maintenance_work_mem,
+effective_cache_size, work_mem, wal_buffers, checkpoint_segments,
+shared_buffers or max_connections

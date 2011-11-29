@@ -1,0 +1,10 @@
+Heimdal kerberos - key distribution center (kdc)
+	
+heimdal is a free implementation of kerberos 5 that aims to be
+compatible with mit kerberos.
+
+this package includes the kdc (key distribution center) server,
+which is designed to run on a secure computer and keeps track
+of users' passwords. this is done using the kerberos protocol in
+such a way that the server computers do not need to know the
+passwords.

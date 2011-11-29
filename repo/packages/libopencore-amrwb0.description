@@ -1,0 +1,7 @@
+Adaptive multi-rate - wideband speech codec - shared library
+	
+this library contains an implementation of the 3gpp ts 26.173 specification for
+the adaptive multi-rate - wideband (amr-wb) speech decoder. the implementation
+is derived from the opencore framework, part of the google android project.
+
+this package contains the decoder shared library.

@@ -1,0 +1,4 @@
+Wrapper around su which will transfer your x credentials
+	
+sux is a wrapper around the standard su command which will transfer
+your x credentials to the target user.

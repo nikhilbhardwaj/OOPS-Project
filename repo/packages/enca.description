@@ -1,0 +1,11 @@
+Extremely naive charset analyser - binaries
+	
+enca is an extremely naive charset analyser. it detects the character set and
+the encoding of text files and can also convert them to other encodings using
+either a built-in converter or external libraries and tools like libiconv,
+librecode, or cstocs.
+
+currently it supports belarusian, bulgarian, croatian, czech,
+estonian, hungarian, latvian, lithuanian, polish, russian, slovak,
+slovene, ukrainian, chinese, and some multibyte encodings independently
+on language.

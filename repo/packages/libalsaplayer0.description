@@ -1,0 +1,8 @@
+Pcm player designed for alsa (interface library)
+	
+alsaplayer is a pcm player designed specifically for use with alsa, but
+works great with oss or esound.  it's heavily threaded which cuts down on
+skipping, offers optional and even simultaneous visual scopes, plays
+mp3, mp2, ogg, cdda, audiofs, and lots more.
+
+this package contains the interface library for external plugins.

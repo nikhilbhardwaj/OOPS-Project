@@ -1,0 +1,6 @@
+Postgresql data type for storing sets of (key,value) pairs
+	
+this module is an enhanced version of the hstore type from contrib/hstore,
+intended to allow the new features to be used in existing postgresql
+versions. (this code is being submitted for inclusion in future versions,
+but i have had requests to backport the functionality.)

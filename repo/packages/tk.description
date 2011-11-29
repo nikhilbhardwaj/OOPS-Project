@@ -1,0 +1,7 @@
+The tk toolkit for tcl and x11 (default version) - run-time files
+	
+tk is a cross-platform graphical toolkit which provides the motif
+look-and-feel and is implemented using the tcl scripting language.
+
+this package is a dependency package, which depends on debian's default
+tk version (currently 8.4).

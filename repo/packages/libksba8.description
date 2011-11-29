@@ -1,0 +1,10 @@
+X.509 and cms support library
+	
+ksba (pronounced kasbah) is a library to make x.509 certificates as
+well as the cms easily accessible by other applications.  both
+specifications are building blocks of s/mime and tls.
+
+ksba provides these subsystems: asn.1 parser, ber decoder, ber
+encoder, certificate handling and cms handling.
+
+this package contains the runtime library files.

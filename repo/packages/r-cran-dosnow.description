@@ -1,0 +1,4 @@
+Gnu r parallel excution backend for %dopar% using snow
+	
+this package provides a parallel backend for the %dopar% function using
+luke tierney's snow package (which itself can wrap mpi, pvm, nws or sockets).

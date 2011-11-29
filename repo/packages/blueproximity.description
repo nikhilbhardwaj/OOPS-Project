@@ -1,0 +1,12 @@
+Locks/unlocks your desktop tracking a bluetooth device
+	
+blueproximity helps you adding a little more security to your desktop.
+it does so by detecting one of your bluetooth devices, most likely your
+mobile phone, and keeping track of its distance. if you move away from
+your computer and the distance is above a certain level (no measurement
+in meters is possible) for a given time, it automatically locks your
+desktop (or starts any other shell command you want).
+
+once away, if you return nearer than a given level for a set time your
+computer unlocks magically without any interaction (or starts any other
+shell command you want).

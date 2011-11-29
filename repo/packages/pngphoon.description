@@ -1,0 +1,9 @@
+Creates a png file with the current phase of the moon
+	
+this program is intended as a successor to the xphoon program (x phase of
+moon). xphoon is a program that displays the actual phase of the moon on the
+x11 root window. nowadays many desktop systems like kde hide the x11 root
+window with a background image of their own, so the xphoon output is not
+visible. when called, pngphoon creates a png image with the current phase of
+the moon. it can be used with window managers that allow using a command to
+provide a background image.

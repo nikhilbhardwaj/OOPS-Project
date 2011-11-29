@@ -1,0 +1,8 @@
+Gtk+ front-end for espeak and mbrola
+	
+gespeaker is a gtk+ frontend for espeak and mbrola.
+it allows to play a text in many languages with settings
+for voice, pitch, volume, speed and word gap.
+
+since version 0.6 it can use mbrola package and voices to
+obtain a more realistic text reading experience.

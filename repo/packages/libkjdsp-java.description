@@ -1,0 +1,8 @@
+Dsp package for the light development spectrum analyzer
+	
+this package allows developers to add real time digital signal processing to
+their java sound applications. it includes an awt component to render a scope
+or spectrum analyser.
+
+the light development spectrum analyzer component (http://www.lightdev.com/)
+relies on the kj dsp package.

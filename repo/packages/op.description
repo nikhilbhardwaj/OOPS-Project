@@ -1,0 +1,21 @@
+Sudo like controlled privilege escalation
+	
+the op tool provides a flexible means for system administrators
+to grant access to certain root operations without having to
+give them full superuser privileges. different sets of users may
+access different operations, and the security-related aspects of
+each operation can be carefully controlled.
+
+the main attraction of op over sudo is the use of mnemonics
+rather than true commands. this allows an administrator to
+present users with more intuitive commands.
+
+other available features are:
+
+
+ - fine-grained per-command control
+ - a really short name
+ - host-based access control
+ - command expiration
+ - variable expansion
+ - multi-line arguments

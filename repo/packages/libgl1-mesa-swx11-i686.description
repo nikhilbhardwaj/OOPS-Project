@@ -1,0 +1,19 @@
+Mesa opengl runtime [i686 optimized]
+	
+mesa is a 3-d graphics library with an api which is very similar to
+that of opengl.  to the extent that mesa utilizes the opengl command
+syntax or state machine, it is being used with authorization from
+silicon graphics, inc.  however, the author makes no claim that mesa
+is in any way a compatible replacement for opengl or associated with
+silicon graphics, inc.
+
+this library provides a pure software rasteriser; it does not provide
+a direct rendering-capable library, or one which uses glx.  for that,
+please see libgl1-mesa-glx.
+
+on linux, this library is also known as libgl or libgl.so.1.
+
+this set of libraries is optimized for i686 machines and will only be used if
+you are running a 2.6 kernel on an i686 class cpu. this includes pentium pro,
+pentium ii/ii/iv, celeron cpu's and similar class cpu's (including clones
+such as amd athlon/opteron, via c3 nehemiah, but not via c3 ezla).

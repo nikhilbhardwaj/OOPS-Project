@@ -1,0 +1,10 @@
+Autovacation module for horde framework
+	
+vacation is the horde module for setting user e-mail "autoresponses"
+via the vacation program supported by sendmail or courier mail
+based systems.
+
+vacation provides fairly complete support for managing .forward style
+vacation notices on sendmail or courier mail based systems via an ftp
+transport. it also has some support for ldap, qmail, and exim sql
+based servers.

@@ -1,0 +1,6 @@
+Module for producing simple calendars
+	
+calendar::simple is a perl module that exports a single function, calendar(),
+which returns a data structure representing dates in a month. its output can
+be configured in various ways, for example, by changing the day that each
+week begins with.

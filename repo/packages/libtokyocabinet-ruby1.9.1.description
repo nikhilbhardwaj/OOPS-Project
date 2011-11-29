@@ -1,0 +1,9 @@
+Ruby binding of tokyo cabinet database (ruby 1.9.1)
+	
+tokyo cabinet is an efficient database library like gdbm and ndbm.
+it features hash database and b+ tree database and is developed as the
+successor of qdbm, for the purpose of the following three points: higher
+processing speed, smaller size of a database file, and simpler api.
+
+this is the ruby binding package for ruby1.9.1 programs that use the
+tokyo cabinet database library.

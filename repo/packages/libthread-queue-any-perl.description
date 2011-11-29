@@ -1,0 +1,5 @@
+Thread-safe queues for any data-structure
+	
+a queue, as implemented by thread::queue::any is a thread-safe data structure
+that inherits from thread::queue. but unlike the standard thread::queue, you
+can pass (a reference to) any data structure to the queue.

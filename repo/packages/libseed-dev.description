@@ -1,0 +1,10 @@
+Gobject javascript bindings for the webkit engine - development
+	
+seed is a library and interpreter, dynamically bridging (through
+gobjectintrospection) the webkit javascriptcore engine, with the gnome
+platform. seed serves as something which enables you to write
+standalone applications in javascript, or easily enable your
+application to be extensible in javascript.
+
+this package contains the static libraries and development headers,
+needed to build programs using the seed interpreter.

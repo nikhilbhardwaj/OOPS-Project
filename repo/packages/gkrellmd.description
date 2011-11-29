@@ -1,0 +1,5 @@
+Gnu krell monitors server
+	
+gkrellmd listens for connections from gkrellm clients. when a gkrellm client
+connects to a gkrellmd server all builtin monitors collect their data from the
+server.

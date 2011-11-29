@@ -1,0 +1,8 @@
+Library for plugins for the 'sensors-applet' package
+	
+gnome sensors applet is an applet for the gnome panel that displays
+readings from hardware sensors, including temperatures, fan speeds and
+voltage readings.
+
+this package contains the library that is used to create plugins for
+the applet.

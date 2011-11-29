@@ -1,0 +1,5 @@
+Perl module for processing mbox folders
+	
+mail::mbox::messageparser is perl module that provides a feature-poor but
+very fast mbox parser. it uses the best of three strategies for parsing a
+mailbox: cached folder information, gnu grep, or highly optimized perl.

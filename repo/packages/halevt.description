@@ -1,0 +1,10 @@
+Generic handler for hal events
+	
+halevt is a daemon that acts as a policy agent on top of the hardware
+abstraction layer. it
+listens to hal events and reacts with user-configurable
+actions. halevt is a reimplementation of the ivman project.
+
+among other things, halevt is useful as an automount daemon that will mount
+removable devices, but with a much smaller set of dependencies than tools such
+as gnome-volume-manager.

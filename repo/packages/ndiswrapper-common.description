@@ -1,0 +1,11 @@
+Common scripts required to use the utilities for ndiswrapper
+	
+some vendors do not release specifications of the hardware or provide a
+linux driver for their wireless network cards. this project implements
+windows kernel api and ndis (network driver interface specification) api
+within linux kernel. a windows driver for wireless network card is then
+linked to this implementation so that the driver runs natively, as though
+it is in windows, without binary emulation.
+
+this package contains wrapper scripts to call out to the proper
+versions of whatever -utils-x.x package is installed.

@@ -1,0 +1,9 @@
+Library and program to read and write meta information in multimedia files
+	
+exiftool is a perl module with an included command-line application
+for reading and writing meta information in image, audio and video
+files. it recognizes exif, gps, iptc, xmp, jfif, geotiff, icc profile,
+photoshop irb, flashpix, afcp and id3 meta information as well as the
+maker notes of many digital cameras including canon, casio, fujifilm,
+jvc/victor, kodak, leaf, minolta/konica-minolta, nikon, olympus/epson,
+panasonic/leica, pentax/asahi, ricoh, sanyo and sigma/foveon.

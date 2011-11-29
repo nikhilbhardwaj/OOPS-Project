@@ -1,0 +1,7 @@
+Utility and library for barcode generation (debug)
+	
+gnu-barcode can create printouts for the conventional product-tagging
+standards: upc-a, upc-e, ean-13, ean-8, isbn, and several others. output is
+generated as either postscript, encapsulated postscript, or pcl.
+
+this package contains the debugging symbols.

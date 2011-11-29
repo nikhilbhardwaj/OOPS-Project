@@ -1,0 +1,11 @@
+Vpn clients frontend for kde4
+	
+kvpnc is a kde4 frontend for various vpn clients.
+
+it supports :
+
+  * cisco-compatible vpn client (vpnc)
+  * ipsec (freeswan, openswan, strongswan, racoon)
+  * point-to-point tunneling protocol (pptp) client (pptp-linux)
+  * virtual private network daemon (openvpn)
+  * l2tp, vtun & openssh

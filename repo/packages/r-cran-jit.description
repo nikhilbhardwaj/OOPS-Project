@@ -1,0 +1,6 @@
+Gnu r package just-in-time compilation support
+	
+this package provides just-in-time compilation support. this requires
+the ra extensions to r (provided by r-base-core-ra) and has no effect
+under the standard build of gnu r. for more on ra and jit, see
+http://www.milbo.users.sonic.net/ra/index.html.

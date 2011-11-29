@@ -1,0 +1,7 @@
+Perl modules for manipulating usenet articles
+	
+provides perl modules for manipulating usenet articles and/or mail messages,
+including modifying headers, signing articles with either the pgpmoose or
+pgpverify algorithms, posting and mailing articles, and instantiating
+them from templates.  it was primarily written for use by gateways and/or
+moderation programs.

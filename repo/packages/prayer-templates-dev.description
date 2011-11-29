@@ -1,0 +1,15 @@
+Tools for compiling prayer templates
+	
+prayer is yet another webmail interface.
+
+it is unusual in that it is a complete, standalone, http server and proxy
+rather a apache/mod_php plugin. prayer maintains persistent connections to
+the imap server and is written entirely in c. consequently it is much
+faster than most open source webmail interfaces and puts very little load
+on either the machines running the web server or the backend imap servers
+(even if traditional unix format mailfolders are in use).
+
+prayer uses its own macro expansion language for the html it
+outputs. this package contains the programs and scripts needed to
+build template libraries, as well as a makefile to facilitate the
+process.

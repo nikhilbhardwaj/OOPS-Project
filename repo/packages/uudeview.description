@@ -1,0 +1,8 @@
+Smart multi-file multi-part decoder (command line)
+	
+this is a command-line decoder and encoder for files encoded with the
+following formats: uuencode, xxencode, base64, quoted printable, and
+binhex.
+
+this package used to contain an x11-based gui decoder called xdeview.
+that program is now in the xdeview package.

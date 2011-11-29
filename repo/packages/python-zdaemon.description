@@ -1,0 +1,7 @@
+Daemon process control library and tools for unix-based systems
+	
+`zdaemon` is a python package which provides apis for managing applications
+run as daemons. its principal use to date has been to manage the application
+server and storage server daemons for zope / zeo, although it is not limited
+to running python-based applications (for instance, it has been used to manage
+the 'spread' daemon).

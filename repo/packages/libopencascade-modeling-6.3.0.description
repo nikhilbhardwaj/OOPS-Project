@@ -1,0 +1,15 @@
+Opencascade cae platform shared library
+	
+opencascade is a suite for 3d surface and solid modeling, visualization, data
+exchange and rapid application development.  it is an excellent platform for
+development of numerical simulation software including cad/cam/cae, aec and
+gis, as well as pdm applications.
+
+this package supplies data structures to represent 2d and 3d geometric models,
+as well as topological and geometrical algorithms.
+
+this package contains the following shared libraries:
+
+  tkg2d tkg3d tkgeombase tkbrep tkgeomalgo tktopalgo tkprim tkbo tkhlr
+  tkmesh tkshhealing tkbool tkxmesh tkfillet tkfeat tkoffset tkstl
+  tkxsbase tkstepbase tkiges tkstepattr tkstep209 tkstep

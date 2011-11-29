@@ -1,0 +1,6 @@
+Managesieve server
+	
+pysieved is a python-based managesieve server. it uses a plug-in architecture
+to support different authentication (dovecot, pam, sasl, mysql), homedir
+lookup (dovecot, /etc/passwd, mysql, simple virtual hosting), and storage
+back-ends.

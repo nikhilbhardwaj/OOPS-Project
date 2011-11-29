@@ -1,0 +1,21 @@
+Apache web services engine - runtime
+	
+apache axis2/c is a web services engine implemented in the c
+programming language. it is based on the extensible and flexible
+axis2 architecture. apache axis2/c can be used to provide and
+consume webservices. it has been implemented with portability
+and ability to embed in mind, hence could be used as a web services
+enabler in other software.
+
+apache axis2/c supports soap 1.1 and soap 1.2, as well as rest style
+of webservices. a single service could be exposed both as a soap style as well
+as a rest style service simultaneously. it also has built in mtom support,
+that can be used to exchange binary data.
+
+apache axis2/c is efficient, modular and is designed with extensibility. the
+extensible design allows it to support the full ws-* stack with the
+concept of modules. apache axis2/c is the web services engine that supports
+the most number of ws-* specification implementations in c, with
+guaranteed interoperability. this enables using c in service oriented
+architecture (soa) implementations, and would be very useful when integrating
+legacy systems into soa.

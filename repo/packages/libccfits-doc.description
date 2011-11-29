@@ -1,0 +1,10 @@
+Documentation for ccfits
+	
+ccfits is an object oriented interface to the cfitsio library. it is
+designed to make the capabilities of cfitsio available to  programmers
+working in c++. it is written in ansi c++ and implemented using the
+c++ standard library with namespaces, exception handling, and member
+template functions.
+
+this package contains the ccfits reference manual in html and pdf
+format.

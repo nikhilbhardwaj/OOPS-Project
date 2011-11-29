@@ -1,0 +1,5 @@
+Anti-deep-linking module for lighttpd
+	
+the trigger-b4-dl module for lighttpd can prevent deep linking
+from other sites by requiring users to visit a trigger url to
+be able to download certain files.

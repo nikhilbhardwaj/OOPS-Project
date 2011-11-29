@@ -1,0 +1,5 @@
+Mail statistics rrdtool frontend for postfix
+	
+mailgraph is a very simple mail statistics rrdtool frontend for
+postfix that produces daily, weekly, monthly and yearly graphs of
+received/sent and bounced/rejected mail.

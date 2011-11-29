@@ -1,0 +1,7 @@
+Show stats of virtualized domains
+	
+virt-top is modelled after the "ordinary" top utility and many keys and
+command line options are the same.
+
+it uses libvirt so it capable of showing stats across a variety of
+different virtualization systems.

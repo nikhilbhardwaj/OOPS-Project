@@ -1,0 +1,9 @@
+Core perl modules
+	
+architecture independent perl modules.  these modules are part of perl and
+required if the `perl' package is installed.
+
+note that this package only exists to save archive space and should be
+considered an internal implementation detail of the `perl' package.
+other packages should not depend on `perl-modules' directly, they
+should use `perl' (which depends on `perl-modules') instead.

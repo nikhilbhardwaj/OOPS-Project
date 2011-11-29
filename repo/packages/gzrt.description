@@ -1,0 +1,9 @@
+Gzip recovery toolkit
+	
+gzrecover will attempt to skip over corrupted data in a gzip archive,
+thereby allowing the remaining data to be recovered.
+
+please install cpio to facilitate recovery from damaged gzipped tarballs.
+
+
+ homepage: http://www.urbanophile.com/arenn/hacking/gzrt/

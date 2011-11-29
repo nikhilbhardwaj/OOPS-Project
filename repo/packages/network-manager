@@ -1,0 +1,4 @@
+PackageId:25392
+Name:network-manager
+Version:0.8.1-6+squeeze1
+Deps:adduser,dbus,isc-dhcp-client,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdbus-1-3,libdbus-glib-1-2,libgcrypt11,libglib2.0-0,libgnutls26,libgudev-1.0-0,libnl1,libnm-glib2,libnm-util1,libpolkit-gobject-1-0,libunwind7,libuuid1,lsb-base,udev,wpasupplicant

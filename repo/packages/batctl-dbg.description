@@ -1,0 +1,8 @@
+B.a.t.m.a.n. advanced control and management tool (debug files)
+	
+batctl serves as configuration utility, monitoring and debugging application.
+it allows to modify the module parameters, reading the logfiles and tables,
+decapsulate embedded packets on the fly, traceroute to and ping mac addresses,
+generate sequence number graphs for the layer 2 mesh b.a.t.m.a.n.
+
+this package contains the debug files.

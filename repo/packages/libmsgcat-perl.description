@@ -1,0 +1,8 @@
+Locale::msgcat perl module
+	
+this is a small perl module for systems which support the xpg4
+message catalog functions : catopen(3), catgets(3) and catclose(3).
+
+the module can be used to internationalize a perl program. messages
+inside a catalog are identified by integers (unlike gettext which uses the
+english string as identifier).

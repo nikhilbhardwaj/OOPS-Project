@@ -1,0 +1,6 @@
+Memory bandwidth benchmark program
+	
+mbw determines the "copy" memory bandwidth available to userspace programs.
+its simplistic approach models that of real applications.
+it is not tuned to extremes and it is not aware of hardware architecture,
+just like your average software package.

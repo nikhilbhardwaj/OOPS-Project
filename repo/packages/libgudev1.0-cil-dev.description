@@ -1,0 +1,7 @@
+Gobject-based wrapper library for libudev -- cli development files
+	
+gudev-sharp is a set of cli bindings for libgudev, which is a gobject-based
+wrapper library for libudev.
+
+this package contains the development files needed to compile cli applications
+which use this library.

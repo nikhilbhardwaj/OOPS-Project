@@ -1,0 +1,8 @@
+Ocaml virtual machine written in javascript (runtime)
+	
+o'browser is an ocaml virtual machine written in javascript. it runs
+bytecode executables produced by the regular bytecode compiler and
+gives the possibility to run ocaml programs directly in a web
+browser. you can use it with any web server.
+
+this package contains the virtual machine itself.

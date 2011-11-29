@@ -1,0 +1,8 @@
+Shared libraries for version 3.1 of petsc
+	
+petsc is the "portable extensible toolkit for scientific computation", a suite
+of data structures and routines for the scalable (parallel) solution of
+scientific applications modeled by partial differential equations.  it employs
+the mpi standard for all message-passing communication.  several sample
+scientific applications, as well as various papers and talks, demonstrate the
+features of the petsc libraries.

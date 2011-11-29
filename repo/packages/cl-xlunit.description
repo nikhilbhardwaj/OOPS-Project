@@ -1,0 +1,7 @@
+Common lisp extreme lisp unit testing package
+	
+xlunit provides a unit testing package for common lisp.
+it is based on the xptest package by onshore development, but is
+rewritten to be closer in usage to the junit package. also, it is
+designed to be used with significantly less overhead on the
+part of the test author compared to xptest.

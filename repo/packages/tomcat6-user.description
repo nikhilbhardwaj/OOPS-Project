@@ -1,0 +1,9 @@
+Servlet and jsp engine -- tools to create user instances
+	
+apache tomcat implements the java servlet and the javaserver pages (jsp)
+specifications from sun microsystems, and provides a "pure java" http web
+server environment for java code to run.
+
+this package contains files needed to create a user tomcat instance.
+this user tomcat instance can be started and stopped using the scripts
+provided in the tomcat instance directory.

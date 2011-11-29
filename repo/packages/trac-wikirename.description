@@ -1,0 +1,5 @@
+Trac plugin which allows to rename wiki pages
+	
+this plugin allows you to rename wiki pages. it will move a page and its
+history, and will rewrite explicit links ([wiki:pagename label]) leading to it
+from other wiki pages. it will also move any attachments on the page.

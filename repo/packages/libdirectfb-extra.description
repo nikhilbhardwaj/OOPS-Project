@@ -1,0 +1,13 @@
+Direct frame buffer graphics - extra providers
+	
+directfb is a graphics library which was designed with embedded systems
+in mind. it offers maximum hardware accelerated performance at a minimum
+of resource usage and overhead.
+
+this package contains the following providers:
+
+
+  * image png
+  * image jpeg
+  * font freetype
+  * system x11

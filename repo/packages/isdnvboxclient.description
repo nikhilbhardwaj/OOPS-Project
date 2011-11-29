@@ -1,0 +1,8 @@
+Isdn utilities - answering machine client
+	
+let your debian system be your answering machine! messages can be accessed
+remotely, automatically emailed, etc.
+
+this package provides the vbox client, with which you can listen to the
+messages recorded by a vbox server (either running on the same machine or
+accessible over the network).

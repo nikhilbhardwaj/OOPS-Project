@@ -1,0 +1,13 @@
+Terminal multiplexer
+	
+tmux enables a number of terminals (or windows) to be accessed and
+controlled from a single terminal like screen. tmux runs as a
+server-client system.  a server is created automatically when
+necessary and holds a number of sessions, each of which may have
+a number of windows linked to it. any number of clients may connect
+to a session, or the server may be controlled by issuing commands
+with tmux. communication takes place through a socket, by default
+placed in /var/run. moreover tmux provides a consistent and
+well-documented command interface, with the same syntax whether used
+interactively, as a key binding, or from the shell. it offers a
+choice of vim or emacs key layouts.

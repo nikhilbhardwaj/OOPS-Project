@@ -1,0 +1,7 @@
+Extract attachments from ole2 data files (ie, ms office docs)
+	
+ripole is a small program/library designed to pull out attachments from ole2
+data files.
+
+it can handle most of microsoft office documents like "doc" (word),
+"xls" (excel) or "ppt" (powerpoint).

@@ -1,0 +1,8 @@
+Window-manager selection tool used at x startup
+	
+wmanager is a small x11 application for selecting a window manager
+at x startup. wmanager looks for a file named '.wmmanagerrc' in
+the user's home directory which contains a list of window managers;
+you can create such a file with wmanagerrc-update. you can also use
+wmanager-loop that runs window managers chosen by the user until
+told to exit.

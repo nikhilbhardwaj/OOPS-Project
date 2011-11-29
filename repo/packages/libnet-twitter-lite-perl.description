@@ -1,0 +1,13 @@
+Interface to the twitter api
+	
+net::twitter::lite is a lightweight perl implementation of the twitter api.
+it uses the same definitions as net::twitter (see libnet-twitter-perl), but
+without the extra bells and whistles. same great taste, less filling.
+
+this module is related to, but is not part of, net::twitter. its api methods
+and documentation are derived from net::twitter's internals. it exists for
+those who cannot, or prefer not to install moose and its dependencies.
+
+if you need additional functionality, finer-grained control over features,
+backwards compatibility with older versions and additional error handling
+options, you should using net::twitter instead.

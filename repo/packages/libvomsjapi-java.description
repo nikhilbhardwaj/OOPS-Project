@@ -1,0 +1,9 @@
+Virtual organization membership service java api
+	
+in grid computing, and whenever the access to resources may be controlled
+by parties external to the resource provider, users may be grouped to
+virtual organizations (vos). this package provides a vo membership service
+(voms), which informs on that association between users and their vos:
+groups, roles and capabilities.
+
+this package offers a java client api for voms.

@@ -1,0 +1,4 @@
+PackageId:2855
+Name:debirf
+Version:0.27-1
+Deps:apt,busybox-static,busybox,cpio,debootstrap,fakechroot,fakeroot,klibc-utils

@@ -1,0 +1,9 @@
+Structured file library - programs
+	
+the gnome structured file library aims to provide an efficient
+extensible i/o abstraction for dealing with different structured file
+formats.
+
+these are the programs that are shipped as part of libgsf. they include
+a thumbnail generator, a tar-like archiver application and a vba macro
+extractor.

@@ -1,0 +1,4 @@
+Postgresql module for freeradius server
+	
+the freeradius server can use postgresql to authenticate users and do
+accounting, and this module is necessary for that.

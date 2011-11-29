@@ -1,0 +1,7 @@
+Cave survey drawing software
+	
+tunnel enables you to draw cave surveys based on survex-compatible
+centreline data. drawings will be adjusted to fit if the underlying
+data moves due to loop closures. original drawings can be used as a
+basis to draw over. complex multi-layered surveys can be drawn, and
+good use is made of colour to distinguish facets such as levels.

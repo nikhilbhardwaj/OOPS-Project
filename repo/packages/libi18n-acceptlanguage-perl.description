@@ -1,0 +1,5 @@
+Matches language preference to available languages
+	
+i18n::acceptlanguage matches language preference to available
+languages per rules defined in rfc 2616, section 14.4: http/1.1 -
+header field definitions - accept-language.

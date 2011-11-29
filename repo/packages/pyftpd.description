@@ -1,0 +1,6 @@
+Ftp daemon with advanced features
+	
+multithreaded ftp daemon written in python, featuring advanced
+permission scheme, upload/download speed throttling,
+gui configuration, internal database of users and more.
+does not need to run as root.

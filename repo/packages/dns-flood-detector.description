@@ -1,0 +1,12 @@
+Detect abusive usage levels on high traffic nameservers
+	
+this package provides the dns-flood-detector daemon.
+
+it was developed to detect abusive usage levels on high traffic nameservers
+and to enable quick response in halting the use of one's nameserver to
+facilitate spam.
+it uses libpcap (in non-promiscuous mode) to monitor incoming dns queries to a
+nameserver. the tool may be run in one of two modes, either daemon mode or
+"bindsnap" mode. in daemon mode, the tool will alarm via syslog. in bindsnap
+mode, the user is able to get near-real-time stats on usage to aid in more
+detailed troubleshooting.

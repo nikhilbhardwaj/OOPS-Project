@@ -1,0 +1,11 @@
+K bulgarian/english dictionary
+	
+kbe dictionary is an electronic dictionary with graphical user
+interface.  it can translate words from english to bulgarian and from
+bulgarian to english.  you can use it to learn english too -- it can
+examine you.
+
+the dictionary databases are not included in this package.  you have
+to download bedic-data-4.0.tar.gz from
+http://kbedic.sourceforge.net.  install the files
+bg_en.dat and en_bg.dat in /usr/local/share/bedic.

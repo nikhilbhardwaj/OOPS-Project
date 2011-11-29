@@ -1,0 +1,7 @@
+C compiler generating intel code for 16bit/32bit cpus
+	
+faucc is a optimizing c compiler, that can generate intel code for
+16bit/32bit cpus. it is useful, if you are in need to compile real
+mode code, like a bios.
+
+faucc uses the gnu binutils for assembling/linking.

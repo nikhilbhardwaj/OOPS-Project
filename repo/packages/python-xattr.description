@@ -1,0 +1,6 @@
+Module for manipulating filesystem extended attributes
+	
+this module allows manipulation of the filesystem extended attributes present
+in some operating systems (gnu/linux included). it is compatible to
+python-pyxattr but also provides a dictionary like interfaces for manipulating
+these attributes.

@@ -1,0 +1,10 @@
+Texas hold'em game - server
+	
+pokerth is a free implementation of the texas hold'em poker game which is
+mostly played in casinos and has a growing popularity worldwide. texas hold'em
+is easy to learn but needs a good strategy to win and a lot of luck. this
+package helps you when practicing or just playing for fun.
+
+this package contains the server, which is needed for hosting an own multi-
+player, multigame server. you don't need this package if you want to play a
+multiplayer game with one table over lan or internet.

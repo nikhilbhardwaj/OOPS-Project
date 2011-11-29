@@ -1,0 +1,10 @@
+Low-level image manipulation library
+	
+the magickcore api is a low-level interface between the c programming language
+and the imagemagick image processing libraries and is recommended for
+wizard-level programmers only. unlike the magickwand c api which uses only a
+few opaque types and accessors, with magickcore you almost exlusively access
+the structure members directly.
+
+this package contains the c libraries needed to run executables that make
+use of magickcore.

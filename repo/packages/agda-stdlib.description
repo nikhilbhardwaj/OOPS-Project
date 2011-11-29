@@ -1,0 +1,30 @@
+A dependently typed programming language - standard library
+	
+agda is a dependently typed functional programming language: it has inductive
+families, which are like haskell's gadts, but they can be indexed by values and
+not just types. it also has parameterised modules, mixfix operators, unicode
+characters, and an interactive emacs interface (the type checker can assist in
+the development of your code).
+
+agda is also a proof assistant: it is an interactive system for writing and
+checking proofs. agda is based on intuitionistic type theory, a foundational
+system for constructive mathematics developed by the swedish logician per
+martin-löf. it has many similarities with other proof assistants based on
+dependent types, such as coq, epigram and nuprl.
+
+the agda standard library contains modules for many common data structures and
+proof patterns. modules provided include:
+
+ - algebra: specifying and reasoning about abstract algebraic structures
+ - category: using idioms from category theory to structure functional programs
+ - coinduction: support for programming coindutively
+ - data: data types and properties about data types
+ - foreign: relating to the foreign function interface
+ - induction: a general framework for induction
+ - io: input/output related functions
+ - level: universe levels
+ - relations: properties of and proofs about relations
+ - size: sizes used by the sized types mechanism
+
+
+this package contains the complete library.

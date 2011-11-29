@@ -1,0 +1,11 @@
+Perl module for testing whether code exits without terminating
+	
+test::exit provides some simple tools for testing that code does or does not
+call exit(), while stopping code that does exit at the point of the exit().
+currently it does so by means of exceptions, so it will not function properly
+if the code under test calls exit() inside of an eval block or string.
+
+the only criterion tested is that the supplied code does or does not call
+exit(). if the code throws an exception, the exception will be propagated and
+you will have to call it yourself. die()ing is not exiting for the purpose of
+these tests.

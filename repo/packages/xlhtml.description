@@ -1,0 +1,6 @@
+A program for converting microsoft excel files .xls
+	
+the xlhtml program will take an excel 95, or 97 file as input and
+convert it to highly optimized html. the output is via standard out
+so it can be re-directed to files or piped to filters or used as a
+gateway on the internet.

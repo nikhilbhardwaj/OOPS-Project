@@ -1,0 +1,14 @@
+Small man(1) front-end for x
+	
+gman is a simple front-end for the manual page system. the most basic job
+of gman is to build a database for all the man pages and display them
+(or part of them) on the screen. when user decides to read a man page,
+gman will launch an external viewer to display the manual page. more than
+one external viewer windows can be launched at the same time.
+
+the default manual page viewer is a terminal window with the original
+man(1). it can also launch gv, or a link to a cgi script which utilizes
+man2html, for viewing manual pages using a web browser.
+
+there is an index search function to look for the man pages that one needs.
+it's simple, but it's useful.

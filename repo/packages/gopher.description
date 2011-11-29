@@ -1,0 +1,6 @@
+Distributed hypertext client, gopher protocol
+	
+this package contains the client for the distributed global directory
+and hypertext system known as gopher.  this is a text-based (ncurses)
+client from the university of minnesota.  it also supports the gopher+
+protocol, as well as links to ftp, http, and other external viewers.

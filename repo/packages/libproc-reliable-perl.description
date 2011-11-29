@@ -1,0 +1,12 @@
+Perl module to run external processes reliably
+	
+proc::reliable is a class for simple, reliable and configurable subprocess
+execution in perl. in particular, it is especially useful for managing the
+execution of 'problem' programs which are likely to fail, hang, or otherwise
+behave in an unruly manner.
+
+this module includes all of the functionality of the backticks operator and
+system() functions, plus many common uses of fork() and exec(), open2() and
+open3(). it incorporates a number of options, including sending data to the
+subprocess on stdin, collecting stdout and stderr separately or together,
+killing hung processes, timeouts and automatic retries.

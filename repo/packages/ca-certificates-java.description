@@ -1,0 +1,4 @@
+Common ca certificates (jks keystore)
+	
+this package uses the hooks of the ca-certificates package to update the
+cacerts jks keystore used for many java runtimes.

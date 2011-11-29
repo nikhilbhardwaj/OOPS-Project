@@ -1,0 +1,10 @@
+Acpi and hotkey daemon for toshiba laptops
+	
+fnfx enables owners of toshiba laptops to change the lcd brightness,
+control, the internal fan and use the special keys on their keyboard
+(fn-x combinations, hot-keys). the internal functions will give the
+possibility to map the fn-keys to functions like volume up/down, mute,
+suspend to disk, suspend to ram and switch lcd/crt/tv-out. these
+functions heavily depend on the system and/or kernel configuration.
+you will need at least a kernel (v2.4.x, v2.5.x, v2.6.x) with acpi and
+toshiba support (config_acpi and config_acpi_toshiba).

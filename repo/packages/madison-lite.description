@@ -1,0 +1,11 @@
+Display versions of debian packages in an archive
+	
+this program inspects a local debian package archive and displays the
+versions of the given packages found in each suite (for example, stable,
+testing, or unstable) in a brief but easily human-readable form. it aims to
+be a drop-in replacement for the madison utility from the da-katie archive
+management suite that runs on the central debian archive systems, but one
+which can run without access to the archive's sql database.
+
+for simple queries, you can use http://packages.debian.org/ instead, which
+does not require you to have access to a system with a local mirror.

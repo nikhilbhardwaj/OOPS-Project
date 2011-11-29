@@ -1,0 +1,7 @@
+Text editor with block and binary operations
+	
+le has many block operations with stream and rectangular blocks,
+can edit both unix and dos style files (lf/crlf), is binary clean,
+has hexadecimal mode, can edit large files and mmap'able devices,
+has tunable syntax highlighting, tunable key map, and tunable
+color scheme (but can use default colors).

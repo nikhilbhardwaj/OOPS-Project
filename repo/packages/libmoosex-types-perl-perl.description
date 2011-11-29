@@ -1,0 +1,4 @@
+Moose types that check against perl syntax
+	
+moosex::types::perl provides moose types for checking things (mostly strings)
+against syntax that is, or is a reasonable subset of, perl syntax.

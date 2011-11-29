@@ -1,0 +1,13 @@
+Header files for the embedded wsola algorithm
+	
+wsola speeds up and slows down audio without altering the pitch.
+these header files are whats required to embedd wsola into your audio
+applications.
+
+these header files allow wsola to be incorperated into embedded (or
+normal) code base. this algorithm has a very small memory footprint
+(tens of kilobytes) and allows it to be implemented on embedded
+devices. it also has variable time scaling, allowing dynamic adjustment
+of audio playback speed.
+
+please see the package 'wsola' for more information.

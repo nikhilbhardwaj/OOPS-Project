@@ -1,0 +1,8 @@
+Verilog simulator
+	
+cver is a full 1995 ieee p1364 standard verilog simulator.  it also
+implements some of the 2001 p1364 standard features.  all three
+pli interfaces (tf_, acc_, and vpi_) are implemented as defined
+in the ieee 2001 p1364 lrm.
+
+homepage: http://www.pragmatic-c.com/gpl-cver

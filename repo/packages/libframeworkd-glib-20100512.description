@@ -1,0 +1,8 @@
+Glib bindings to frameworkd
+	
+this library wraps the dbus api provided by the freesmartphone.org frameworkd
+server in a plain, glib compatible c library, to ease interacting with the
+frameworkd.
+
+this package is part of the freesmartphone.org software stack and is targeted
+for smartphones.

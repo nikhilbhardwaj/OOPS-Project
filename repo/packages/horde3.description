@@ -1,0 +1,13 @@
+Horde web application framework
+	
+the horde framework is written in php, and provides the common
+tools a web application requires: classes for dealing with preferences,
+compression, browser detection, connection tracking, mime, and more.
+
+the horde framework, by itself, does not provide any significant end user
+functionality; it provides a base for other applications and tools for
+developers. you will probably want to install some of the available horde
+applications, such as imp (a webmail client), or kronolith (a calendar).
+
+there is a list of horde applications and projects at
+http://www.horde.org/projects.php.

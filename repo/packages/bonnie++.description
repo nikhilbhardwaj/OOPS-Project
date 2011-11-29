@@ -1,0 +1,15 @@
+Hard drive benchmark suite.
+	
+it is called bonnie++ because it was based on the bonnie program.  this
+program also tests performance with creating large numbers of files.
+now includes zcav raw-read test program.  a modern hard drive will have more
+sectors in the outer tracks because they are longer.  the hard drive will
+have a number (often more than 8) of zones where each zone has the same
+number of sectors (due to the need for an integral number of sectors per
+track).  this program allows you to determine the levels of performance
+provided by different zones and store them in a convenient format for gnuplot.
+
+this is the experimental version.  it's not ready to replace the 1.x series
+in time for lenny but will be for lenny+1.  the extra features (large file
+support, better bon_csv2html, and support for zcav tests on multiple devices)
+will make it worth using for some people.

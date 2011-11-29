@@ -1,0 +1,6 @@
+Perl module for processing xpath
+	
+the xml::xpath module implements the w3c's xpath specification.  it aims to
+be completely correct to the letter of the spec, and yet still allow
+extensions through the use of functions and variables, such as are
+provided by xslt and xpointer.

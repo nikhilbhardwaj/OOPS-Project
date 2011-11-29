@@ -1,0 +1,5 @@
+Script to create an html report of mp3 files in a directory
+	
+a customizable program to scan a list of (sub)directories, creating a report
+from an html template. also calculates various statistics and each song's
+playing time. supports id3 and id3v2 tags.

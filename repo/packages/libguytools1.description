@@ -1,0 +1,5 @@
+Libguytools is a small programming toolbox
+	
+includes modules for configuration file handling, error handling, logging and
+system information retrieval. a signal handler enables applications to do stack
+backtracing in case of segmentation faults.

@@ -1,0 +1,14 @@
+Gtk application to control your mobile phone
+	
+mobile phone manager using gammu as its backend.
+
+it works with any phone that gammu supports, including many models from
+nokia, siemens, and alcatel. it has complete support (read, edit,
+delete, copy) for contacts, todo, and calendar. it can read, save, and
+send sms. it includes an sms composer for multi-part sms messages, and
+it can display sms messages that include pictures. currently, only text
+and predefined bitmaps or sounds can be edited in the sms composer. it
+can export messages to an imap4 server (or other email storage).
+
+this program does not support browsing files in phone, use gmobilemedia
+instead.

@@ -1,0 +1,12 @@
+Mobile telephony stack (daemon)
+	
+ofono is a stack for mobile telephony devices on linux.  ofono supports
+speaking to telephony devices through specific drivers, or with generic
+at commands.
+
+ofono also includes a low-level plug-in api for integrating with other
+telephony stacks, cellular modems and storage back-ends. the plug-in api
+functionality is modeled on public standards, in particular
+3gpp ts 27.007 "at command set for user equipment (ue)."
+
+this package includes the core daemon.

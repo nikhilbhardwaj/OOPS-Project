@@ -1,0 +1,9 @@
+Gnome panel applet for monitoring the status of debian bugs
+	
+debian-bts-applet is a gnome panel applet for monitoring the status of bugs
+filed in the debian bug tracking system (bts).
+
+it provides a more desktop-centric way of "subscribing" to bugs compared to
+the xxxxx-subscribe@bugs.debian.org method as well as providing an
+"at-a-glance" view of all subscribed bugs. it also provides a libnotify
+desktop notification when subscribed bugs' statuses change.

@@ -1,0 +1,9 @@
+Mono relaxng library (for cli 1.0)
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.
+
+this package contains the mono relaxng library for cli 1.0.

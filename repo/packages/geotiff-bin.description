@@ -1,0 +1,11 @@
+The geotiff library -- tools
+	
+this c library supports tiff 6.0 based interchange format for georeferenced
+raster imagery. the geotiff standard has been developed for reading, and
+writing geographic meta-information tags on top of tiff raster.
+
+the geotiff library comes with two utility programs here included:
+
+
+ listgeo - dumps the metadata of a geotiff file.
+ geotifcp - applies metadata to a tiff file, making it a geotiff file.

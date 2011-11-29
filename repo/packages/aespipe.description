@@ -1,0 +1,16 @@
+Aes-encryption tool with loop-aes support
+	
+aespipe is an encryption tool that reads from standard input and
+writes to standard output. it uses the aes (rijndael) cipher.
+
+aespipe can be used for non-destructive in-place encryption
+of existing disk partitions for use with the loop-aes encrypted
+loopback kernel module.
+
+it can also be used as an encryption filter to create and restore
+encrypted tar/cpio backup archives and to read/write and convert
+loop-aes compatible encrypted images.
+
+note that aespipe does not store any length information with the
+encrypted images, so it cannot be used as general purpose filter
+for encryption, but only for certain formats like tar.

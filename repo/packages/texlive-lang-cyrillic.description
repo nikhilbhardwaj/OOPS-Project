@@ -1,0 +1,25 @@
+Tex live: cyrillic
+	
+support for typesetting cyrillic.
+
+this package includes the following ctan packages:
+
+ cmcyr -- computer modern fonts with cyrillic extensions.
+ cmcyralt -- latex support for the cmcyralt fonts.
+ cyrillic -- support for cyrillic fonts in latex.
+ cyrillic-bin -- cyrillic bibtex and makeindex.
+ cyrplain --
+ disser -- class and templates for typesetting dissertations in russian.
+ eskd -- modern russian typesetting.
+ eskdx -- modern russian typesetting.
+ gost -- bibtex styles to format according to gost.
+ lcyw -- this package makes available classic cyrillic cm fonts for latex.
+ lh -- cyrillic fonts that support latex standard encodings.
+ lhcyr -- a non-standard cyrillic input scheme.
+ ruhyphen -- russian hyphenation.
+ t2 -- support for using t2 encoding.
+ timescyr -- font metrics for the monotype times cyrillic fonts.
+ ukrhyph -- hyphenation patterns for ukrainian.
+ hyphen-bulgarian --
+ hyphen-russian --
+ hyphen-ukrainian --

@@ -1,0 +1,6 @@
+Module for creating and updating an html table of contents
+	
+html::toc is a perl module that provides a mechanism for creating an html
+table of contents (toc) and for keeping it up-to-date. because it models the
+information in memory, updating the table becomes very simple. the framework
+also includes helper modules to write the table as html and keep it updated.

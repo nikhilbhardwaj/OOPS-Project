@@ -1,0 +1,5 @@
+Interface for python to the x11 protocol
+	
+python-xlib is a 100% pure python implementation of the x11
+protocol. it currently implements client-side x11r6 fully, supports
+the resource database, iccm, and the shape extension.

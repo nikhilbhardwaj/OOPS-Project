@@ -1,0 +1,7 @@
+Lexically scoped subroutine wrappers
+	
+hook::lexwrap allows you to install a pre- or post-wrapper (or both)
+around an existing subroutine. unlike other modules that provide this
+capacity (e.g. hook::preandpost and hook::wrapsub), hook::lexwrap
+implements wrappers in such a way that the standard caller function
+works correctly within the wrapped subroutine.

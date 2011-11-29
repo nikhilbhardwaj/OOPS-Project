@@ -1,0 +1,8 @@
+Tcl extension implementing script level access to tcl threading capabilities
+	
+the thread extension creates threads that contain tcl interpreters,
+and it lets you send scripts to those threads for evaluation. it also
+enables you to share data between threads in a safe, protected
+fashion.  additionally, it provides script-level access to basic
+thread synchronization primitives, like mutexes and condition
+variables.

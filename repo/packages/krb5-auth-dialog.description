@@ -1,0 +1,8 @@
+Tray applet for reauthenticating kerberos tickets
+	
+krb5-auth-dialog is a simple tray applet that monitors kerberos tickets. it
+pops up reminders when the ticket is about to expire. tickets can be refreshed
+at any time by clicking on the tray icon. it can also operate in "classic
+mode" as a simple dialog without any trayicon.
+
+it features ticket autorenewal and supports pkinit.

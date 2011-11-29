@@ -1,0 +1,12 @@
+Debugging symbols for libgnomeada2
+	
+gtkada is a library that allows programmers to write gtk+ applications in the
+ada programming language.  this version of gtkada supports:
+
+ - gtk+ 2.12
+ - gnome 2.20
+ - glade 2.x, both for generating ada code from .glade files, and for
+   loading .glade files at run time through libglade.
+
+
+this package contains the debugging symbols for the shared library.

@@ -1,0 +1,4 @@
+Input handler for cgi::untaint to validate an email address
+	
+cgi::untaint::email is an input handler for cgi::untaint that validates an
+email address according to rfc2822, using email::valid.

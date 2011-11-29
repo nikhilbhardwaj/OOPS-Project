@@ -1,0 +1,10 @@
+Opengl window and compositing manager
+	
+compiz brings to life a variety of visual effects that make the linux desktop
+easier to use, more powerful and intuitive, and more accessible for users
+with special needs.
+
+this metapackage provides the components necessary for running compiz. it
+provides the compiz core, a set of standard plugins, a window decorator using
+the gtk toolkit and the files necessary to integrate compiz with the gnome
+desktop environment.

@@ -1,0 +1,5 @@
+Simple configuration file parser
+	
+configreader::simple reads and parses simple configuration files. it is
+designed to be smaller and simpler than the configreader module and is more
+suited to simple configuration files.

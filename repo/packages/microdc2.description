@@ -1,0 +1,17 @@
+A command-line based direct connect client
+	
+microdc2 is a command-line based direct connect client that uses
+the gnu readline library for user interaction. it was developed from
+ground up and does not depend on any other program. despite the
+command-line user interface, it was designed to be user friendly and
+simple to use. it can work on headless host (under `screen`, for
+instance) ant thus, doesn't require you to run an expensive x11
+session, as other clients do.
+
+microdc2 is currently in beta state - there may be many bugs not yet
+discovered. it also lacks some features that other clients support,
+such as file hashing, multiple hub connections, and hub list support.
+
+direct connect protocol is used for p2p file sharing. see it's
+description on
+http://en.wikipedia.org/wiki/direct_connect_(file_sharing).

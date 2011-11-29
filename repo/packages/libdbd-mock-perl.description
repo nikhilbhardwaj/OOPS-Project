@@ -1,0 +1,12 @@
+Mock database driver for testing
+	
+testing with databases can be tricky. if you are developing a system married
+to a single database then you can make some assumptions about your
+environment and ask the user to provide relevant connection information. but
+if you need to test a framework that uses dbi, particularly a framework that
+uses different types of persistence schemes, then it may be more useful to
+simply verify what the framework is trying to do -- ensure the right sql is
+generated and that the correct parameters are bound. dbd::mock makes it easy
+to just modify your configuration (presumably held outside your code) and
+just use it instead of dbd::foo (like dbd::pg or dbd::mysql) in your
+framework.

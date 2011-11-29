@@ -1,0 +1,22 @@
+Informational list of build-essential packages
+	
+if you do not plan to build debian packages, you don't need this
+package.  starting with dpkg (>= 1.14.18) this package is required
+for building debian packages.
+
+this package contains an informational list of packages which are
+considered essential for building debian packages.  this package also
+depends on the packages on that list, to make it easy to have the
+build-essential packages installed.
+
+if you have this package installed, you only need to install whatever
+a package specifies as its build-time dependencies to build the
+package.  conversely, if you are determining what your package needs
+to build-depend on, you can always leave out the packages this
+package depends on.
+
+this package is not the definition of what packages are
+build-essential; the real definition is in the debian policy manual.
+this package contains merely an informational list, which is all
+most people need.   however, if this package and the manual disagree,
+the manual is correct.

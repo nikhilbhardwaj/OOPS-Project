@@ -1,0 +1,6 @@
+The gnu standard c++ library v3 (shared library subset kit)
+	
+this is used to develop subsets of the libstdc++ shared libraries for
+use on custom installation floppies and in embedded systems.
+
+unless you are making one of those, you will not need this package.

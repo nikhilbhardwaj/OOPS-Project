@@ -1,0 +1,10 @@
+Document (postscript, pdf) rendering library - development files
+	
+this package contains evince-related libraries for rendering and displaying
+evince documents like postscript (ps), encapsulated postscript (eps), djvu,
+dvi and portable document format (pdf) files.
+* libevdocument, which performs the rendering of the documents
+* libevview, which provides gtk+ widgets for displaying documents
+
+this package provides the development headers, static libraries and
+documentation.

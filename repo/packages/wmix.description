@@ -1,0 +1,9 @@
+Dockapp mixer for oss
+	
+allows toggling record source, muting individual channels,
+adjusting volume and balance, all in a compact dockapp size,
+with tv-like on-screen-display for volume levels.
+
+supports mousewheel to adjust current channelvolume
+and can be controlled remotely with sigusr1 / sigusr2 to adjust the volume.
+keeps a simple configuration file for user-defined settings.

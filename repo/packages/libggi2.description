@@ -1,0 +1,21 @@
+General graphics interface runtime libraries
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the shared libraries for libggi, the lowest-level
+drawing library provided by ggi.
+
+since none of the targets included here are, alone, capable of real,
+physical graphics output, you'll probably need to install at least one
+of the libggi-target packages to make any kind of sensible use of libggi.
+
+included are libggi drivers for these targets:
+
+
+ "memory" draws into hidden in-memory framebuffers
+ "ipc" draws into attached shared memory framebuffers
+ "multi" draws output onto multiple displays simultaneously
+ "tile" combines several displays into a single logical display
+ "sub" draws output into a sub-window on another target
+ "file" draws into a specially formatted file
+ "tele" draws on a remote teleserver

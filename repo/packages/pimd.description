@@ -1,0 +1,5 @@
+Multicast routing daemon (pimv2)
+	
+pimd is implementation of protocol independent multicast routing daemon.
+it supports pimv2-sm on freebsd, netbsd, openbsd, linux. enabled pim support
+in kernel is needed.

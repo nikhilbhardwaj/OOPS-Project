@@ -1,0 +1,22 @@
+Java virtual machine for the cli
+	
+ikvm.net is a free implementation of java for the common language
+infrastructure (cli) like mono and the microsoft .net framework.
+
+there are two main ways of using ikvm.net:
+
+ - dynamically:
+   in this mode, java classes and jars are used directly to execute java
+   applications on the cli runtime.
+   java bytecode is translated on the fly into common intermediate language
+   (cil) by running on the ikvm.net runtime.
+   the full java class loader model is supported in this mode.
+ - statically:
+   in order to allow java code to be used by cli applications, it must be
+   compiled down to an assembly and used directly.
+   the java bytecode is translated to cil and is stored in this form. the
+   assemblies can be referenced and used directly by the cli applications
+   by only using the cli runtime.
+   while the static mode does not support the full java class loader
+   mechanism, it is possible for statically compiled code to create a class
+   loader and load classes dynamically.

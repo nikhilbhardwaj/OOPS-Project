@@ -1,0 +1,28 @@
+Claw is a generalist c++ library (development files)
+	
+claw is a c++ library absolutely wonderful bringing various nice
+classes and tools to c++ developers.
+
+this library tries to be standard compliant and as portable as possible.
+
+claw provides:
+
+ - advanced data structures: automaton, avl binary search tree,
+
+graph, tree, ordered set, trie, maps with multiple types as keys,
+
+ - geometric tools (2d): box/rectangle, point, line, vector,
+ - image manipulation, reading and writing bitmap, jpeg, targa, png, pcx, xpm
+
+files
+
+ - network tools: use sockets like any standard stream,
+ - text algorithms,
+ - min-max/alpha-beta algorithms,
+ - developer tools: generic singleton, smart pointers,
+
+meta-programming concepts, buffered streams,
+
+ - easy read of conf/ini files, easy access to environment variables,
+ - manipulation of dynamic libraries,
+ - and a lot more...

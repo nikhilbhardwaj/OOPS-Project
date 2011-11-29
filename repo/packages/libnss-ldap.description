@@ -1,0 +1,9 @@
+Nss module for using ldap as a naming service
+	
+this package provides a name service switch that allows your ldap server
+act as a name service. this means providing user account information,
+group id's, host information, aliases, netgroups, and basically anything
+else that you would normally get from /etc flat files or nis.
+
+if used with glibc 2.1's nscd (name service cache daemon) it will help
+reduce your network traffic and speed up lookups for entries.

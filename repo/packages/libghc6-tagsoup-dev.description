@@ -1,0 +1,10 @@
+Haskell library to robustly parse unstructured html
+	
+tagsoup extracts information out of unstructured html code, sometimes
+known as tag soup. tagsoup does not require well-formed or
+standards-compliant html, or html that renders correctly in any
+particular rendering engine.  tagsoup transforms html into a list of
+open tags with attributes, close tags, and text, but makes no attempt
+to group these together into any kind of structure.
+
+this package it not related to the java tagsoup library.

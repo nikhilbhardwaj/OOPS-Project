@@ -1,0 +1,8 @@
+Tool to unpack mime application/ms-tnef attachments
+	
+tnef is a program for unpacking mime attachments of type
+"application/ms-tnef". this is typcially a microsoft only attachment.
+
+the tnef program allows one to unpack the attachments which were
+encapsulated into the tnef attachment, thus alleviating the need to use
+microsoft outlook to view the attachment.

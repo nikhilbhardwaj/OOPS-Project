@@ -1,0 +1,10 @@
+Extract and browse the urls contained in an email (urlview replacement)
+	
+urlscan searches for urls in email messages, then displays a list of
+them in the current terminal.  it is primarily meant as a replacement
+for urlview, which it improves upon in the following ways:
+
+
+ * urlscan understands email encodings such as quoted-printable;
+   urlview does not.
+ * urlscan extracts and displays the context surrounding each url.

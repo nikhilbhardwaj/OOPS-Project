@@ -1,0 +1,8 @@
+Access software for a blind person - flite speech driver
+	
+brltty is a daemon which provides access to the linux console (text mode)
+for a blind person using a braille display.  it drives the braille
+display and provides complete screen review functionality.
+
+this package contains an optional speech driver for the festival lite
+speech synthesis engine.

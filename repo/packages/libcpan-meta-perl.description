@@ -1,0 +1,9 @@
+Perl module to access distribution metadata for a cpan distribution
+	
+software distributions released to the cpan include a meta.json or, for older
+distributions, meta.yml which describes the distribution, its contents, and
+the requirements for building and installing the distribution. the data
+structure stored in the meta.json file is described in cpan::meta::spec.
+
+cpan::meta provides a simple class to represent this distribution metadata
+(or distmeta), along with some helpful methods for interrogating that data.

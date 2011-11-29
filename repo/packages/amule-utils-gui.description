@@ -1,0 +1,14 @@
+Graphic utilities for amule
+	
+this package contains a set of graphic utilities related to amule, the
+ed2k network client:
+
+
+ * wxcas: displays the contents of your amule online signature
+ * alc: computes ed2k:// links for the given input files
+ * amulegui (experimental): graphic client to control amule or the
+   amule daemon
+
+
+a command-line version of these utilities can be found in the
+amule-utils package.

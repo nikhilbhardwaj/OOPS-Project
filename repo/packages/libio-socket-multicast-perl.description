@@ -1,0 +1,7 @@
+Send and receive multicast messages with perl
+	
+the io::socket::multicast module subclasses io::socket::inet to
+enable you to manipulate multicast groups. with this module (and an
+operating system that supports multicasting), you will be able to
+receive incoming multicast transmissions and generate your own
+outgoing multicast packets.

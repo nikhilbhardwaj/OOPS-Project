@@ -1,0 +1,7 @@
+Data lists for discover hardware detection system
+	
+the discover hardware detection library uses xml data files to describe
+software interfaces to various ata, pci, pmcmia, scsi, and usb devices.
+while the discover library can retrieve data from anywhere on the net, it is
+often convenient to have a set of discover xml data files on one's system;
+thus, this package.

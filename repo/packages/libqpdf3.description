@@ -1,0 +1,21 @@
+Runtime library for pdf transformation/inspection software
+	
+qpdf is a program that can be used to linearize (web-optimize),
+encrypt (password-protect), decrypt, and inspect pdf files from the
+command-line.  it does these and other structural, content-preserving
+transformations on pdf files, reading a pdf file as input and
+creating a new one as output.  it also provides many useful
+capabilities to developers of pdf-producing software or for people
+who just want to look at the innards of a pdf file to learn more
+about how they work.
+
+qpdf understands pdf files that use compressed object streams
+(supported by newer pdf applications) and can convert such files into
+those that can be read with older viewers.  it can also be used for
+checking pdf files for structural errors, inspecting stream contents,
+or extracting objects from pdf files.  qpdf is not pdf content
+creation or viewing software -- it does not have the capability to
+create pdf files from scratch or to display pdf files.
+
+this package contains the qpdf runtime libraries required to run
+programs that link with the qpdf library.

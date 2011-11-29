@@ -1,0 +1,12 @@
+Debian control data to xml converter
+	
+this package contains the dctrl2xml tool that converts debian control
+data into an xml representation. it can be used to convert data which
+is normally found in debian/control, .changes, .dsc, packages,
+sources, and similar files to xml.
+
+for most fields dctrl2xml just uses the field name as element name and
+the field data as element content. for other fields, such as package
+interrelationship fields (depends, build-depends, etc.) or the files
+field in .changes or sources files, dctrl2xml additionally parses their
+field data to represent it in a more fine-structured form.

@@ -1,0 +1,7 @@
+Pc/sc driver for the acr38u smart card reader
+	
+this library provides a pc/sc ifd handler implementation for the acs
+acr38u smart card readers. this driver is for the non-ccid version only.
+
+this package is needed to communicate with the acr38u smartcard
+readers through the pc/sc lite resource manager (pcscd).

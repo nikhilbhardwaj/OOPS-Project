@@ -1,0 +1,4 @@
+PackageId:1285
+Name:bootcd-mkinitramfs
+Version:3.23
+Deps:bootcd,busybox,busybox-static,initramfs-tools

@@ -1,0 +1,10 @@
+Kernel patch allowing to use partly-bad ram modules
+	
+this package contains a patch to the linux kernel, which allows to tell
+the kernel which parts of a ram module are bad.  this allows you to
+use old ram modules, when for example just 1 bit in your 256mb module
+makes it otherwise unusable.
+
+packages memtest86 and memtest86+ allow to test the ram for such
+problems, and are able to tell you what parameters to give to a
+badram-enabled kernel.

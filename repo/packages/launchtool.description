@@ -1,0 +1,16 @@
+Command launcher and supervisor
+	
+runs a user-supplied command supervising its execution in
+many ways:
+
+
+ * controlling the environment
+ * blocking signals
+ * logging the output
+ * changing user and group permissions
+ * limiting resource usage
+ * running it chrooted
+ * restarting it if it fails
+ * logging execution statistics
+ * running it continuously
+ * turning it into a daemon

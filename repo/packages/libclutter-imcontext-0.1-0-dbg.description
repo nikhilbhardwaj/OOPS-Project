@@ -1,0 +1,9 @@
+Open gl based interactive canvas library imcontext framework (debug files)
+	
+clutter is an open gl based interactive canvas library, designed for creating
+fast, mainly 2d single window applications such as media box uis,
+presentations, kiosk style applications and so on. imcontext is an abstract
+base class defining a generic input method interface. this library ports the
+gtk+ imcontext to clutter.
+
+this package contains the debug files.

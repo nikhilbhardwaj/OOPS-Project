@@ -1,0 +1,9 @@
+Infra-red remote control support - x utilities
+	
+lirc stands for 'linux infra-red remote control'.
+
+this package provides x utilities for lirc:
+
+ irxevent: allows controlling x applications with a remote control;
+ xmode2  : shows the ir waveform of the remote controller without an
+           oscilloscope. unneeded for tv cards or the irman.

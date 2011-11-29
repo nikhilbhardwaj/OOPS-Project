@@ -1,0 +1,39 @@
+Pair-wise alignment-plots for genomic sequences in postscript
+	
+a program to visualize the alignment of two genomic sequences together with
+their annotations. from gff-format input files it produces postscript figures
+for that alignment.
+the following menu lists many features of gff2aplot:
+
+ * comprehensive alignment plots for any gff-feature. attributes are defined
+   separately so you can modify only whatsoever attributes for a given file or
+   share same customization across different data-sets.
+ * all parameters are set by default within the program, but it can be also
+   fully configured via gff2ps-like flexible customization files. program can
+   handle several of such files, summarizing all the settings before producing
+   the corresponding figure. moreover, all customization parameters can be set
+   via command-line switches, which allows users to play with those parameters
+   before adding any to a customization file.
+ * source order is taken from input files, if you swap file order you can
+   visualize alignment and its annotation with the new input arrangement.
+ * all alignment scores can be visualized in a pip box below gff2aplot area,
+   using grey-color scale, user-defined color scale or score-dependent
+   gradients.
+ * scalable fonts, which can also be chosen among the basic postscript default
+   fonts. feature and group labels can be rotated to improve readability in
+   both annotation axes.
+ * the program is still defined as a unix filter so it can handle data from
+   files, redirections and pipes, writing output to standard-output and
+   warnings to standard error.
+ * gff2aplot is able to manage many physical page formats (from a0 to a10, and
+   more -see available page sizes in its manual-), including user-defined ones.
+   this allows, for instance, the generation of poster size genomic maps, or
+   the use of a continuous-paper supporting plotting device, either in portrait
+   or landscape.
+ * you can draw different alignments on same alignment plot and distinguish
+   them by using different colors for each.
+ * shape dictionary has been expanded, so that further feature shapes are now
+   available (see manual).
+ * annotation projections through alignment plots (so called ribbons) emulate
+   transparencies via complementary color fill patterns. this feature allows
+   to show color pseudo-blending when horizontal and vertical ribbons overlap.

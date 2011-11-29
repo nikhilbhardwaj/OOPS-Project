@@ -1,0 +1,8 @@
+Openslp server (slpd)
+	
+service location protocol is an ietf standard protocol that is used to
+discover/advertise services on the network. you can use slp for anything
+from locating a suitable printer on your floor to discovering what ldap
+directories are available in your organization. this package provides slpd,
+the openslp daemon, which provides an slpv2 (rfc 2608) compliant service
+agent and directory agent.

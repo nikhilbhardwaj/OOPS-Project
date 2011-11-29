@@ -1,0 +1,15 @@
+Internet key exchange daemon - dkms source
+	
+openswan is an ipsec based vpn solution for the linux kernel. it can use the
+native ipsec stack as well as the klips kernel module. both ikev1 and ikev2
+protocols are supported.
+
+for support of the old-style klips ipsecx network interfaces a custom
+kernel module is needed.
+
+this package contains source code for the openswan ipsec kernel module,
+which can be used with dkms so that local kernel images are automatically
+built and installed every time relevant kernel packages are upgraded.
+
+kernel versions >= 2.6.23 no longer need to be patched to provide nat
+traversal support for klips.

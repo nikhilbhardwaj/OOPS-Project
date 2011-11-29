@@ -1,0 +1,5 @@
+Class for hashes with key-casing requirements supporting defaults
+	
+hash::withdefaults implements hashes that support "defaults". that is, you may
+specify several more hashes in which the data will be looked up in case it is
+not found in the current hash.

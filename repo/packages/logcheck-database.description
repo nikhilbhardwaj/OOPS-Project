@@ -1,0 +1,5 @@
+Database of system log rules for the use of log checkers
+	
+this database is part of the logcheck package, but might be used by others.
+it brings a database of regular expressions for matching system log entries
+after various criteria.

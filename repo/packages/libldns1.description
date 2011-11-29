@@ -1,0 +1,8 @@
+Ldns library for dns programming
+	
+the goal of ldns is to simplify dns programming, it supports recent rfcs
+like the dnssec documents, and allows developers to easily create software
+conforming to current rfcs, and experimental software for current internet
+drafts.
+
+this package contains shared libraries.

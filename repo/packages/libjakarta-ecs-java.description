@@ -1,0 +1,5 @@
+Element construction set for various markup languages
+	
+generation api directly supports html 4.0 and xml, but can easily be
+extended to create tags for any markup language. documents are created
+through native java objects instead of gegnerating the markup directly.

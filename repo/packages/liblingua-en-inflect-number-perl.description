@@ -1,0 +1,15 @@
+Perl module to force number of words to singular or plural
+	
+the lingua::en::inflect::number module extends the functionality of
+lingua::en::inflect (the liblingua-en-inflect-perl package) with three new
+functions.
+
+number() takes a word, and determines its number. it returns whether
+the word is singular, plural, or ambiguous for words that can be
+either singular or plural.
+
+based on the number() function there are to_s() and to_pl() which
+take a word and convert it forcefully either to singular or to
+plural. in lingua::en::inflect funny things happen if you try to
+pluralise an already-plural word, but this module does the right
+thing.

@@ -1,0 +1,7 @@
+Debugging symbols for koffice
+	
+this package contains the debugging symbols associated with koffice.
+they will automatically be used by gdb for debugging koffice-related
+issues.
+
+this package is part of the kde office suite.

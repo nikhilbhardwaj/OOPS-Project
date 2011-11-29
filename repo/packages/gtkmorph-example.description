@@ -1,0 +1,9 @@
+Digital image warp and morph, examples
+	
+gtkmorph loads, saves, warps, and dissolves images, and loads, saves,
+creates, and manipulates control meshes which determine the warping.  it has
+support for making movies automatically (it needs extra packages).  the
+technique was invented and first used by industrial light and magic, and is
+commonly called "morphing."
+
+this package contains an example session, that can be used also with xmorph.

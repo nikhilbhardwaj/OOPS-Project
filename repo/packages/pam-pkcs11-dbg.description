@@ -1,0 +1,6 @@
+Fully featured pam module for using for using pkcs#11 smart cards (debug)
+	
+a pluggable authentication module for pkcs#11 based smart cards. useful for
+enabling smart card based user login to a system.
+
+this package contains the debugging symbols.

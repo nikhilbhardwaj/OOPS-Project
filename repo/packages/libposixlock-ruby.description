@@ -1,0 +1,7 @@
+Posix locking for ruby
+	
+this library adds posix type (lockf / fcntl based and nfs safe) locking
+methods to ruby's builtin 'file' class
+
+this is a dummy package depending on the library for the current default
+version of ruby.

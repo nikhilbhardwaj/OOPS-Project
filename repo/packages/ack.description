@@ -1,0 +1,8 @@
+Kanji code converter
+	
+ack is a highly versatile kanji code checker/converter.  ack can do
+reciprocal conversion among japanese euc, shift-jis and 7bit jis.
+jis kata-kana(sjis han-kaku kana) is also supported.  kanji code can
+be automatically detected even if the input stream contains kata-kana
+characters.  besides, ack can be used as a kanji code checker with
+very high detection rate.

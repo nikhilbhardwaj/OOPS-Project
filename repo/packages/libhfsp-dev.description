@@ -1,0 +1,9 @@
+Library to access hfs+ formatted volumes
+	
+hfs+ is a modernized version of apple computers hfs filesystem.
+nowadays, it is widely used with more recent versions of macos.
+hfsplus consists of a library and a set of tools that allow access
+to hfs+ volumes.
+
+this package contains everything you need to write programs that use
+this library, i.e. header files and an archive version of the library.

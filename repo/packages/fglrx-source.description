@@ -1,0 +1,5 @@
+Kernel module source for the non-free amd/ati r6xx - r7xx display driver
+	
+this package provides the kernel build environment and the fglrx modules,
+which are necessary to have accelerated 3d support within the amd/ati
+proprietary display driver.

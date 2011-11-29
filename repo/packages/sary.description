@@ -1,0 +1,7 @@
+A suffix array library (program)
+	
+sary is a suffix array library.  it provides fast full-text
+search facilities for huge, say, 10 mb, 100 mb text files
+using the data structure called suffix array.
+
+this package contains a simple search program to use the library.

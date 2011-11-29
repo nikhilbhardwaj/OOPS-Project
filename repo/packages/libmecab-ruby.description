@@ -1,0 +1,10 @@
+Mecab binding for ruby language (dependency package)
+	
+mecab is a morphological analysis system.  it reads japanese
+sentences from the standard input, segments them into morpheme
+sequences, and outputs them to the standard output with many
+additional pieces of information (pronunciation, semantic
+information, etc).
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8.x).

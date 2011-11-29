@@ -1,0 +1,20 @@
+Odbc driver for postgresql
+	
+this package provides a driver that allows odbc-enabled applications to
+access postgresql databases.  odbc is an abstraction layer that allows
+applications written for that layer to access databases in a manner
+that is relatively independent of the particular database management
+system.  postgresql is an open-source sql database management system,
+which can be accessed using this driver.
+
+you need to install this package if you want to use an application that
+provides database access through odbc and you want that application to
+access a postgresql database.  this package would need to be installed
+on the same machine as that client application; the postgresql database
+server can be on a different machine and does not need any additional
+software to accept odbc clients.
+
+if you want to write software that can access a database through the
+odbc abstraction layer, you need to install the unixodbc driver manager
+development package unixodbc-dev, and possibly additional packages for
+language bindings.  this driver package is only used at run time.

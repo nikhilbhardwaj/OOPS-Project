@@ -1,0 +1,8 @@
+Gnu r binding for gtk2
+	
+this package provides facilities in the s language (i.e. the language
+which gnu r provides) for programming graphical interfaces using gtk,
+the gnome gui toolkit.
+
+this package extends and updates the previous r-omegahat-rgtk package to
+the 2.8 release of the gtk libraries.

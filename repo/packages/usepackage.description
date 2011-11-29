@@ -1,0 +1,16 @@
+Utility to manage environment variables from within dotfiles
+	
+usepackage is a tool for managing the unix environment for a multi-tool,
+multi-platform site. it is designed to simplify login scripts and allow
+administrators to control users' environments centrally. this tool should be
+considered primarily designed for sites where users have to deal with a number
+of different tools, or versions of tools, that are installed in different
+locations and require environment variables to be set. this is particularly a
+problem for developers, or anyone who has to manage a large toolset across
+multiple platforms (e.g. different versions of the sun jdk which require
+various environment variables to be set correctly). one or more central
+configuration files control a number of different "packages" and their
+associated environment and dependencies for different platforms (this includes
+the standard path, manpath, and ld_library_path variables). a single user
+command, use, can be invoked to source the appropriate environment information
+into the users' current shell.

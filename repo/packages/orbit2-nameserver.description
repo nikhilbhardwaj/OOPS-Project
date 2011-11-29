@@ -1,0 +1,10 @@
+A corba name server
+	
+orbit2 is a high-performance corba (common object request broker
+architecture) orb (object request broker). it allows programs to send
+requests and receive replies from other programs, regardless of the
+locations of the two programs. corba is an architecture that enables
+communication between program objects, regardless of the programming
+language they're written in or the operating system they run on.
+
+this package includes the corba nameserver and a utility client program.

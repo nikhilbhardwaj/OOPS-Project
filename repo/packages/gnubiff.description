@@ -1,0 +1,8 @@
+A mail notification program for gnome (and others)
+	
+gnubiff checks for mail within a file, a qmail or mh style dir,
+or an imap4 or pop3 or apop server.  it can display headers (number,
+sender, subject, and date) when new mail has arrived.
+
+while gnubiff is implemented as a gnome panel applet, it also runs as an
+independent icon on the desktop in other environments.

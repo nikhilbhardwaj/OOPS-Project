@@ -1,0 +1,8 @@
+Pim synchronization command line tools
+	
+multisync is a program to synchronize calendars, addressbooks and other
+pim databetween programs on your computer and other computers, mobile
+devices, pdas or cell phones. it relies on the opensync framework to do
+the actual synchronisation.
+
+this package contains the msynctool command-line utility.

@@ -1,0 +1,15 @@
+An irc client for emacs
+	
+riece is a user interface for irc (internet relay chat).  you should
+spell it with the first letter capitalized and pronounce it as /ri:s/.
+
+the features of riece are as follows:
+
+
+  * several irc servers may be used at the same time.
+  * many features built upon the extension mechanism called add-on.
+    currently 30 such add-ons are available.
+  * installation is easy.  riece doesn't depend on other packages.
+  * setup is easy.  automatically save/restore the configuration.
+  * step-by-step instructions are included.
+  * mostly compliant with the latest irc client protocol (rfc 2812).

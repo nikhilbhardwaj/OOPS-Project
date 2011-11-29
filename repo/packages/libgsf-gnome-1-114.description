@@ -1,0 +1,8 @@
+Structured file library - runtime version for gnome
+	
+the gnome structured file library aims to provide an efficient
+extensible i/o abstraction for dealing with different structured file
+formats.
+
+this version of libgsf makes use of bonobo, gnome's corba-based component
+architecture and of gnome-vfs, the gnome virtual file-system.

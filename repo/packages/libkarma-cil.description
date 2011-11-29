@@ -1,0 +1,8 @@
+Rio karma access library [cli runtime library]
+	
+also known as karma-sharp, this is a cli library (.dll) that
+provides (read/write) access to the rio karma music player using
+either the usb (with omfs) or network (pearl) interface.
+
+this package contains the runtime glue library needed by c# programs
+using the facilities provided by libkarma.

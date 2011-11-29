@@ -1,0 +1,8 @@
+Remote modem utility for unix
+	
+the ttyd daemon is fully telnet compatible allowing
+programs to connect to any remote device such as
+networked modems and terminal servers as if they were
+local devices as long as the device utilizes the telnet
+protocol, eg. another host running termnetd or a
+console access server.

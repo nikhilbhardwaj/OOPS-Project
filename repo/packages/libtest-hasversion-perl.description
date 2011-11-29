@@ -1,0 +1,15 @@
+Perl library to check that perl modules have version numbers
+	
+do you wanna check that every one of your perl modules in a distribution has
+a version number? you wanna make sure you don't forget the brand new modules
+you just added? well, that's the module you have been looking for. use it!
+
+do you wanna check someone else's distribution to make sure the author have
+not commited the sin of leaving perl modules without a version that can be
+used to tell if you have this or that feature? test::hasversion is also for
+you, nasty little fellow.
+
+there's a script test_version which is installed with this distribution. you
+may invoke it from within the root directory of a distribution you just
+unpacked, and it will check every .pm file in the directory and under lib/
+(if any).

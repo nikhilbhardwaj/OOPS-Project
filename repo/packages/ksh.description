@@ -1,0 +1,11 @@
+The real, at&t version of the korn shell
+	
+ksh is a unix command interpreter (shell) that is intended for both
+interactive and shell script use. its command language is a superset of
+the sh(1) shell language.
+
+the 1993 version adds a number of new, mostly scripting related,
+features over the 1988 version that is typically distributed with
+commercial unix variants. for example, it has lexical scoping, compound
+variables, associative arrays, named references and floating point
+math.

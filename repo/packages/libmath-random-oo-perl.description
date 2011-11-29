@@ -1,0 +1,16 @@
+Consistent object-oriented interface for generating random numbers
+	
+cpan contains many modules for generating random numbers in various ways and
+from various probability distributions using pseudo-random number generation
+algorithms or other entropy sources. (the /"see also" section has some
+examples.) unfortunately, no standard interface exists across these modules.
+math::random::oo defines an abstract interface for random number generation.
+subclasses of this model will implement specific types of random number
+generators or will wrap existing random number generators.
+
+this consistency will come at the cost of some efficiency, but will enable
+generic routines to be written that can manipulate any provided random number
+generator that adheres to the interface. e.g., a stochastic simulation could
+take a number of user-supplied parameters, each of which is a
+math::random::oo subclass object and which represent a stochastic variable
+with a particular probability distribution.

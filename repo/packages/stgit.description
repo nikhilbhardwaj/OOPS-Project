@@ -1,0 +1,8 @@
+Manage stacks of patches in a git repository
+	
+stgit provides similar functionality to quilt
+(i.e. pushing/popping patches to/from a stack) on top of git.
+
+these operations are performed using git commands and the patches
+are stored as git commit objects, allowing easy merging of the stgit
+patches into other repositories using standard git functionality.

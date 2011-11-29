@@ -1,0 +1,22 @@
+Sophisticated command-line ftp/http client programs
+	
+lftp is a file retrieving tool that supports ftp, http, fish, sftp, https
+and ftps protocols under both ipv4 and ipv6. lftp has an amazing set of
+features, while preserving its interface as simple and easy as possible.
+
+the main two advantages over other ftp clients are reliability and ability
+to perform tasks in background. it will reconnect and reget the file being
+transferred if the connection broke. you can start a transfer in background
+and continue browsing on the ftp site. it does this all in one process. when
+you have started background jobs and feel you are done, you can just exit
+lftp and it automatically moves to nohup mode and completes the transfers.
+it has also such nice features as reput and mirror. it can also download a
+file as soon as possible by using several connections at the same time.
+
+lftp can also be scriptable, it can be used to mirror sites, it lets you
+copy files among remote servers (even between ftp and http). it has an
+extensive online help. it supports bookmarks, and connecting to several
+ftp/http sites at the same time.
+
+this package also includes lftpget - a simple non-interactive
+tool for downloading files.

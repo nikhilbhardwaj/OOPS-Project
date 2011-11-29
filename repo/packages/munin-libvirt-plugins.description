@@ -1,0 +1,9 @@
+Munin plugins using libvirt
+	
+this package contains munin plugins using libvirt:
+
+
+ * libvirt-cputime: cputime used by virtual machines
+ * libvirt-bklstat: block i/o of virtual machines
+ * libvirt-ifstat: network i/o of virtual machines
+ * libvirt-mem: memory used by virtual machines

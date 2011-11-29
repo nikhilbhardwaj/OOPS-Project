@@ -1,0 +1,12 @@
+Use of psfrag constructs with pdflatex
+	
+psfrag is a latex package which allows to replace text elements in
+included eps graphics by arbitrary latex output. because psfrag uses
+postscript for making the replacements, in principle you can't use
+psfrag with pdflatex which doesn't have any interfaces to postscript.
+
+this package contains the perl script fragmaster that produces a new
+eps from your original eps which already contains all those psfrag
+replacements. this new eps graphic actually can be converted to pdf
+including all replacements. the resulting "encapsulated" pdf then can
+be used with pdflatex.

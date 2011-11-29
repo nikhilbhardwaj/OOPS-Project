@@ -1,0 +1,20 @@
+Converter from structured plain text to other formats
+	
+stx2any is a converter from structured text (stx), which is plain text
+written in a standardised way, into other formats.  formats available
+currently include (x)html, man, raw text, docbook xml, postscript and
+latex.
+
+stx is a markup language in the tradition of plain text like markups,
+like wiki markup and rest.  for a comparison between different plain
+text markup languages, see stx2any's home page
+(http://sange.fi/~atehwa/cgi-bin/piki.cgi/stx2any).
+
+this package also has the following utilities:
+
+ * strip_stx -- a literate programming tool
+ * gather_stx_titles -- a script to automate cross-linking between
+   documents
+ * extract_usage_from_stx -- a script to produce "usage" messages from
+   man pages written in stx
+ * html2stx -- a utility to convert html into stx.

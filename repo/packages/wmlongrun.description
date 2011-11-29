@@ -1,0 +1,12 @@
+A program to monitor longrun status
+	
+wmlongrun is a program to monitor longrun. it displays the current
+longrun(tm) settings and status: the frequency, the longrun(tm) flags
+(performance or economy), and the performance level (expressed as a
+percentile). it is a dockapp (dockable application) that is supported by
+x window managers such as window maker, afterstep, blackbox, and
+enlightenment.
+
+it has two user interfaces: an lcd look-alike user interface and an
+led-interface. if you select the lcd-interfaces, the back-light may be
+turned on/off by clicking the mouse button over the application.

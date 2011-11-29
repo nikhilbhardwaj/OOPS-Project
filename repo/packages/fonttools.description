@@ -1,0 +1,7 @@
+Converts opentype and truetype fonts to and from xml
+	
+fonttools/ttx is a library to manipulate font files from python.
+it supports reading and writing of truetype/opentype fonts, reading
+and writing of afm files, reading (and partially writing) of ps type 1
+fonts.  it also contains a tool called "ttx" which converts
+truetype/opentype fonts to and from an xml-based format.

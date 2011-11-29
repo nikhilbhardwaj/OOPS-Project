@@ -1,0 +1,8 @@
+Ghc 6 profiling library providing an api for regular expressions
+	
+a library containing the interface api for the haskell regular
+expressions library packages regex-posix, regex-pcre, regex-parsec,
+regex-tdfs, regex-dfa.
+
+this package contains additional profiling libraries which can be
+used with ghc6-prof.

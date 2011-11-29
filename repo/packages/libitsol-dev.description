@@ -1,0 +1,25 @@
+Iterative solvers - devel
+	
+itsol is a library of iterative solvers for general sparse linear systems of
+equations. itsol can be viewed as an extension of the itsol module in sparskit.
+it is written in c and offers a selection of recently developed
+preconditioners. the preconditioner suite includes:
+
+
+  * iluk (ilu preconditioner with level of fill)
+  * ilut (ilu preconditioner with threshold)
+  * iluc (crout version of ilut)
+  * vbiluk (variable block preconditioner with level of fill - with automatic
+    block detection)
+  * vbilut (variable block preconditioner with threshold - with automatic
+    block detection)
+  * arms (algebraic recursive multilevel solvers -- includes actually several
+    methods - in particular the standard arms and the ddpq version which uses
+    nonsymmetric permutations)
+
+
+note that itsol is a scalar package. you may find parallel implentations of
+some of the preconditioners listed above in parms.
+
+this package provides the itsol header files required to compile c/c++ programs
+that use itsol.

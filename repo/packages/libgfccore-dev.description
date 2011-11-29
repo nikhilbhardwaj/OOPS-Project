@@ -1,0 +1,13 @@
+Gtk+ foundation classes core - development files
+	
+gtk+ foundation classes (gfc) is a set of integrated c++ foundation classes for
+developing gtk+ applications.
+
+gfc-core is a collection of c++ modules that form the core of the gfc library
+upon which other modules, such as gfc-ui, are built.
+
+gfc-core modules include a c++ wrapper for glib, a utf8 string class,
+automatic memory management, a typesafe c++ signal and slots system.
+
+this package provides the development files needed to compile programs that
+use gfc-core.

@@ -1,0 +1,4 @@
+PackageId:5689
+Name:glpi
+Version:0.72.4-2.1
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,php5,php5-cgi,libapache2-mod-php5,php5-mysql

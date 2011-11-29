@@ -1,0 +1,7 @@
+Simple gtk-based irc client
+	
+lostirc is a simple, yet very useful irc-client. it has features such as
+tab-autocompletion, multiple server support, automatic joining of
+servers/channels and dcc sending which should cover the needs of most
+people. the client is 100% keyboard-controllable, and uses the gtkmm
+gui library.

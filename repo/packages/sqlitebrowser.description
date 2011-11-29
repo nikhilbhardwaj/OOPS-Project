@@ -1,0 +1,25 @@
+Gui editor for sqlite databases
+	
+sqlite database browser is a freeware, public domain, open source visual tool
+used to create, design and edit database files compatible with sqlite. its
+interface is based on qt, and is meant to be used for users and developers that
+want to create databases, edit and search data using a familiar
+spreadsheet-like interface, without the need to learn complicated sql commands.
+controls and wizards are available for users to:
+
+ - create and compact database files
+ - create, define, modify and delete tables
+ - create, define and delete indexes
+ - browse, edit, add and delete records
+ - search records
+ - import and export records as text
+ - import and export tables from/to csv files
+ - import and export databases from/to sql dump files
+ - issue sql queries and inspect the results
+ - examine a log of all sql commands issued by the application
+
+
+sqlite database browser is not a visual shell for the sqlite command line
+tool. it does not require familiarity with sql commands. it is a tool to be
+used both by developers and by end users, and it must remain as simple to use
+as possible in order to achieve its goals.

@@ -1,0 +1,13 @@
+Milter for filtering mail through spamassassin
+	
+a milter used to filter mail through spamassassin (spamc)
+early in the delivery process. enables site wide filtering through
+spamassassin without speed penalties incured by setting up and
+tearing down procmail processes for each e-mail.
+
+will work with sendmail, postfix, or any other mta which can use milters.
+
+
+ - administrator (or user) specified rejection threshold
+ - user specific spamassassin settings
+ - header-only modification

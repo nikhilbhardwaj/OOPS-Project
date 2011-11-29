@@ -1,0 +1,5 @@
+Show acpi information in a tail-like style
+	
+acpitail shows acpi status information about battery, fan and
+temperature in a tail-like way. as soon as a value changes, the new
+value gets appended to the current output.

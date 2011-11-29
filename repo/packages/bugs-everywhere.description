@@ -1,0 +1,24 @@
+Distributed bug tracking system using vcs storage
+	
+bugs everywhere is a “distributed bug tracker”, designed to
+complement a distributed version control system (vcs). by using a
+distributed vcs as a back-end for bug state, it gains several
+convenient features:
+
+
+ * bugs and code that live on branches are tracked together.
+ * users can fully modify bug state while offline.
+ * when a user checks out a project’s source code, she gets the current
+   bug state for free.
+ * a web interface to the bug database becomes just another client that
+   merges with the main repository.
+
+
+bugs everywhere currently supports the following vcs back-ends:
+
+
+ * gnu arch (tla, baz)
+ * bazaar (bzr)
+ * git
+ * mercurial (hg)
+ * gnu rcs

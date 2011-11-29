@@ -1,0 +1,6 @@
+Console-based network traffic monitor
+	
+vnstat is a network traffic monitor for linux. it keeps a log of
+daily network traffic for the selected interface(s). vnstat is not
+a packet sniffer. the traffic information is analyzed from the /proc
+filesystem, so vnstat can be used without root permissions.

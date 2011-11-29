@@ -1,0 +1,7 @@
+Library for the drizzle and mysql protocols
+	
+libdrizzle is library implementing the drizzle and mysql protocols.
+it has been designed to be light on memory usage, thread safe,
+and provide full access to server side methods.
+
+this package the drizzle client library.

@@ -1,0 +1,30 @@
+An extensible, general perl server engine
+	
+net::server is an extensible, general perl server engine that combines the
+good properties from net::daemon, netserver::generic, and net::ftpserver;
+and borrows various concepts from the apache webserver.
+
+features include:
+
+
+ * single server mode
+ * inetd server mode
+ * preforking simple mode (preforksimple)
+ * preforking managed mode (prefork)
+ * forking mode
+ * multiplexing mode using a single process
+ * multi port accepts on single, preforking, and forking modes
+ * simultaneous accept/recv on tcp, udp, and unix sockets
+ * safe signal handling in fork/prefork avoids perl signal trouble
+ * user customizable hooks
+ * chroot ability after bind
+ * change of user and group after bind
+ * basic allow/deny access control
+ * customized logging (choose syslog, log_file, or stderr)
+ * hup able server (clean restarts via sig hup)
+ * dequeue ability in all fork and prefork modes.
+ * taint clean
+ * written in perl
+ * protection against buffer overflow
+ * clean process flow
+ * extensibility

@@ -1,0 +1,8 @@
+The vorbis general audio compression codec (encoder library)
+	
+ogg vorbis is a fully open, non-proprietary, patent-and-royalty-free,
+general-purpose compressed audio format for audio and music at fixed
+and variable bitrates from 16 to 128 kbps/channel.
+
+the vorbisenc library provides a convenient api for setting up an encoding
+environment using libvorbis.

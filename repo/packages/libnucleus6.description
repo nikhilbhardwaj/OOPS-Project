@@ -1,0 +1,11 @@
+Emboss library for molecular sequence analysis
+	
+this package contains a core library of the european molecular biology open
+software suite, emboss.
+
+the nucleus library provides higher-level functions specific to molecular
+sequence analysis, including sequence comparisons, translation, codon usage
+and annotation.
+
+this package contains the runtime library files needed to run software
+using libnucleus.

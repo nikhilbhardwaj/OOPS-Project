@@ -1,0 +1,12 @@
+Gtk+ chessboard program
+	
+eboard is a graphical chess program which can function as an interface to
+internet chess servers such as fics and to chess engines such as crafty.
+
+eboard has a themeable and freely resizeable board, a tabbed or multi-window
+display, and supports multiple simultaneous boards.
+
+this package contains a chess interface, which means that you can play against
+another human on the same computer, or play on an internet server.  if you
+would like to play against a computer, you should install a chess engine such
+as gnuchess in addition.

@@ -1,0 +1,7 @@
+Scriptable keyboard led control
+	
+ledcontrol is a package designed to show any kind of information on
+the unused leds on your keyboard. features include blinking leds,
+animations, priority levels etc.
+
+the gtk+ interface gled is in the package ledcontrol-gtk.

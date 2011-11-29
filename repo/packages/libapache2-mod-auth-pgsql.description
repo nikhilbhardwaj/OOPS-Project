@@ -1,0 +1,6 @@
+Module for apache2 which provides pgsql authentication
+	
+mod_auth_pgsql implements authentication routines using postgresql
+tables for apache's authentication protocol.
+
+this package provides the module for apache 2.0 server.

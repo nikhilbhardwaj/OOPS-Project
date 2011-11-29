@@ -1,0 +1,12 @@
+Library of optimized inner loops
+	
+liboil is a collection of functions that often benefit from having
+special implementations on various architectures or cpus.  each function
+in liboil has several implementations which may perform faster or
+slower on a given cpu.  some implementations use alternate algorithms,
+some use hand-crafted assembly, and some use special instructions that
+are only available on certain cpus, such as mmx, sse, or altivec.
+the fastest implementation is automatically chosen at runtime.
+
+this package contains the liboil shared libraries.  it is typically
+installed automatically when an application or library requires it.

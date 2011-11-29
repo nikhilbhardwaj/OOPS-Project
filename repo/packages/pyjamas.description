@@ -1,0 +1,31 @@
+Python web widget toolkit and python-to-javascript compiler
+	
+pyjamas is a stand-alone python to javascript compiler, an ajax
+framework / library and a desktop-like widget set.
+
+pyjamas is typically used for the development of "web 2.0" rias,
+where the application can be almost exclusively written in python,
+instead of javascript, yet compiled to run in the user's browser.
+pyjamas also supports running the application as pure python,
+unmodified, using pyjamas desktop (conceptually similar to adobe air)
+
+pyjamas does not do the "usual" static ajax javascript framework
+paradigm but instead provides the developer with the tools and the
+libraries to write their own web 2.0 ajax framework, as if they
+were programming and working with a standard desktop widget set.
+all the usual browser incompatibilities (e.g. history management
+and httprequest) are taken care of.
+
+the pyjamas user-interface widget set is startlingly similar to
+that of python-qt4 and python-gtk2, with the distinct advantage
+that applications run in all major web browsers, with absolutely
+no plugins required (only javascript need be enabled).  additional
+advantages over the use of standard desktop widget sets are that
+pyjamas provides direct access to the full set of html features -
+css, npapi plugins such as adobe flash, and svg 2d canvas.
+all these are directly available, rather than requiring additional
+components.
+
+this package is a metapackage that installs the javascript compiler;
+pyjamas desktop; the user-interface widget set library and other useful
+libraries.

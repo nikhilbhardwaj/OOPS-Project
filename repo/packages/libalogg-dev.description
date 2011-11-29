@@ -1,0 +1,8 @@
+Ogg/vorbis library for allegro - development files
+	
+alogg is a library which makes it easier to use ogg/vorbis streams with
+the allegro gaming library. it offers facilities to decode, stream, and
+encode ogg/vorbis streams with url and thread support, and integrates
+those facilities with allegro's datafile and sample loading routines.
+
+this package contains the development files.

@@ -1,0 +1,13 @@
+Vpython 3d scientific visualization library
+	
+visual is a python module for 3d scientific visualization.  it offers
+real-time 3d output and is easily usable by novice programmers.
+
+a program can create 3d objects (such as spheres, curves, etc.) and
+position them in 3d space.  visual, running in a separate thread,
+automatically updates a 3d scene many times per second to reflect the
+current position of the objects.  the programmer does not need to deal
+with display management but can focus on the computational aspects for
+the program.  the user can navigate in the 3d scene by using the mouse
+to zoom and rotate while the program is running.  visual supports full
+vector algebra.

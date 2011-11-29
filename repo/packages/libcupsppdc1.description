@@ -1,0 +1,9 @@
+Common unix printing system(tm) - ppd manipulation library
+	
+the common unix printing system (or cups(tm)) is a printing system and
+general replacement for lpd and the like.  it supports the internet
+printing protocol (ipp), and has its own filtering driver model for
+handling various document types.
+
+this package provides the base shared library for generating and
+manipulating ppd files.

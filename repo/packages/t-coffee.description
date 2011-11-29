@@ -1,0 +1,19 @@
+Multiple sequence alignment
+	
+t-coffee is a multiple sequence alignment package. given a set of
+sequences (proteins or dna), t-coffee generates a multiple sequence
+alignment. version 2.00 and higher can mix sequences and structures.
+
+t-coffee allows the combination of a collection of multiple/pairwise,
+global or local alignments into a single model. it also allows to
+estimate the level of consistency of each position within the new
+alignment with the rest of the alignments. see the pre-print for more
+information
+
+t-coffee has a special called m-coffee that makes it possible to combine the
+output of many multiple sequence alignment packages. in its published version,
+it uses muscle, probcons, poa, dialign-ts, mafft, clustal w, pcma and
+t-coffee.  a special version has been made for debian, dm-coffee, that uses
+only free software by replacing clustal w by kalign. using the 8 methods of
+m-coffee can sometimes be a bit heavy. you can use a subset of your favorite
+methods if you prefer.

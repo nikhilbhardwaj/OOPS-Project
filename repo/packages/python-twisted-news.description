@@ -1,0 +1,9 @@
+An nntp protocol implementation with client and server
+	
+twisted news provides a very basic nntp server, as well as an nntp
+client protocol implementation. two messages storage systems are
+supported: the db-api 2.0 backend stores and indexes messages in any
+compatible sql database; the twisted dirdbm backend uses serialized
+python objects stored directly on the filesystem for message
+storage. twisted news also has very rudamentary support for moderated
+groups.

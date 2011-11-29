@@ -1,0 +1,8 @@
+Library for handling wordperfect documents (shared library)
+	
+libwpd is a library for reading and writing wordperfect(tm) documents.
+importing from wordperfect 4/5/6/7/8/9/10/11 and wordperfect for macintosh
+1.x/2.x/3.5e files are supported.  libwpd has complete support for the
+entire set of wordperfect extended characters, too.
+
+this package contains the shared library.

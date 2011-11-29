@@ -1,0 +1,21 @@
+General polygon clipper library
+	
+a flexible and highly robust polygon set operations library for use with c
+applications, as referenced in the comp.graphics.algorithms faq and the
+uiuc computational geometry pages.
+
+features:
+
+   * difference, intersection, exclusive-or and union clip operations are
+     supported.
+   * polygons may be comprised of multiple disjoint contours.
+   * contour vertices may be given in any order - clockwise or
+     anticlockwise.
+   * contours may be convex, concave or self-intersecting.
+   * contours may be nested (i.e. polygons may have holes).
+   * output may take the form of either polygon contours or tristrips.
+   * hole and external contours are differentiated in the result.
+   * coincident edges and degenerate regions are handled correctly.
+
+
+homepage: http://www.cs.man.ac.uk/~amurta/software/index.html#gpc

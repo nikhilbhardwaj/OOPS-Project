@@ -1,0 +1,9 @@
+A library that help use hebrew dates
+	
+libhdate is a small c,c++ library for hebrew dates,
+holidays, and reading sequence (parasha). it is using
+the source code from amos shapir's "hdate" package fixed
+and patched by nadav har'el. the torah reading sequence
+is from tables by zvi har'el.
+
+this package contains perl bindings to libhdate

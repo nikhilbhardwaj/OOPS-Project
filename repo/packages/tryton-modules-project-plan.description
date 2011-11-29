@@ -1,0 +1,14 @@
+Tryton application platform (project plan module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this module adds planning capabilities on projects.
+it provides
+
+ - task dependencies
+ - tasks leveling
+ - early start and late end computation
+ - resource allocation
+ - requests

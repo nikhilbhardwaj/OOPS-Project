@@ -1,0 +1,6 @@
+Automatic dns updates for dhcp
+	
+autodns-dhcp uses bind's dynamic update features to update a zonefile
+with hostnames from the dhcp leases file, this is done just once for each
+hostname as the ip, mac address and name are settled on the dhcp
+configuration to have an static zone.

@@ -1,0 +1,9 @@
+Provides graphical interfaces to bazaar (bzr) version control
+	
+bzr-gtk provides gtk+ interfaces to the bazaar (bzr) source code management
+tool.
+
+this package provides olive, which aims to be a fully-featured graphical
+frontend for bzr, and adds the following commands to the bzr command line
+tool: gannotate, gbranch, gcheckout, gcommit, gconflicts, gdiff, gloom,
+gmissing, gpreferences, gpush, gstatus, visualise.

@@ -1,0 +1,9 @@
+Console password managment application
+	
+pwman3 aims to provide a simple but powerful command line interface for
+password managment. it allows to store your password in a sqlite database
+locked by a master password which can be encrypted with different algorithms
+(e.g blowfish, aes, des3).
+
+it is also possible to tag them to ease searches in a large amount of
+passwords

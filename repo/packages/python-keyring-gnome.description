@@ -1,0 +1,7 @@
+Store and access your passwords safely - gnome-keyring backend
+	
+the python keyring library provides an easy way to access the system
+keyring service (e.g gnome-keyring, kwallet) from python.
+it can be used in any application that needs safe password storage.
+
+this package only provides the gnome-keyring backend.

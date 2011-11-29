@@ -1,0 +1,8 @@
+Dump arbitrary perl data structures as xml and restore them
+	
+this module provides a single function called dump_xml() that takes a
+list of perl values as its argument and produces a string as its result.
+
+the string returned is an xml document that represents any perl data
+structures passed to the function.  reference loops are handled
+correctly.

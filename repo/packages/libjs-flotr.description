@@ -1,0 +1,24 @@
+Plotting library for the prototype framework
+	
+flotr is a plotting library which enables you to draw appealing graphs in most
+modern browsers with an easy to learn syntax.
+
+the currently supported chart types are :
+
+
+ * histograms (vertical, horizontal, stacked bars)
+ * lines (filled or not)
+ * points (scatter plots)
+ * pie chart
+ * candle sticks (and barcharts)
+ * radar chart
+ * markers (positioned text)
+
+
+it comes with great features like legend support, negative value support,
+mouse tracking, selection support, zoom support, event hooks, css styling
+support, text included into the canvas, rotated labels, color gradients,
+graph title and subtitle, spreadsheet, csv data download and much more.
+
+the flotr library is distributed with the canvas2image, canvastext, and
+base64 javascript libraries.

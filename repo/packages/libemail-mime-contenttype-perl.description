@@ -1,0 +1,6 @@
+Parse a mime content-type header
+	
+email::mime::contenttype provides a method for parsing email content
+type headers according to section 5.1 of rfc 2045. the method returns
+a hash having entries for the discrete type, the composite type, and a
+hash of attributes.

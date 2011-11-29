@@ -1,0 +1,8 @@
+Perl feed aggregation library
+	
+vitacilina is a simple feeds engine exporter that uses yaml to get
+list of feeds and  tt as templating system. some people would call
+it an aggregator.
+
+it was intended to be a reliable planet alternative, then some
+development ideas evolved into rfeed.

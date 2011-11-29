@@ -1,0 +1,4 @@
+PackageId:33057
+Name:torrus-apache2
+Version:1.0.8-2
+Deps:apache2-mpm-prefork,apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-worker,libapache2-mod-perl2,libapache2-request-perl,torrus-common

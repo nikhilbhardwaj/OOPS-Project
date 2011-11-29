@@ -1,0 +1,6 @@
+Apache module that provides userdir lookups via ldap
+	
+this module implements userdir (~/public_html/) directory lookups using
+data from an ldap directory.
+
+this package provides the module for the apache 2 server.

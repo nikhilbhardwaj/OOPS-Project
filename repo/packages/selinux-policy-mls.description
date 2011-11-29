@@ -1,0 +1,9 @@
+Mls (multi level security) variant of the selinux policy
+	
+this is the reference policy for se linux built with mls support.  it allows
+giving data labels such as "top secret" and preventing such data from leaking
+to processes or files with lower classification.
+
+it was developed for common criteria lspp certification for rhel.  it will
+probably never be well supported in debian and is only recommended for
+students who want to learn about the security features used by the military.

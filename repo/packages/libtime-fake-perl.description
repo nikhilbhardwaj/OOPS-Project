@@ -1,0 +1,8 @@
+Simulate different times without changing your system clock
+	
+use this module to achieve the effect of changing your system clock, but
+without actually changing your system clock. it overrides the perl builtin
+subs time, localtime, and gmtime, causing them to return a "faked" time
+of your choice. from the script's point of view, time still flows at the
+normal rate, but it is just offset as if it were executing in the past or
+present.

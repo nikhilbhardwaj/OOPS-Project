@@ -1,0 +1,15 @@
+Audio converter frontend for kde
+	
+soundkonverter is a frontend to various audio converters.
+
+the key features are:
+
+ - audio conversion
+ - replay gain calculation
+ - cd ripping
+
+
+soundkonverter supports reading and writing tags for many formats, so the tags
+are preserved when converting files.
+
+see readme.debian for more information on supported formats.

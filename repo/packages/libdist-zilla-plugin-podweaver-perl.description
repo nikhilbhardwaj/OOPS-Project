@@ -1,0 +1,5 @@
+Dist::zilla plugin to use pod::weaver to generate pod documentation
+	
+dist::zilla::plugin::podweaver is the bridge between dist::zilla and
+pod::weaver. it rips apart your kinda-pod and reconstructs it as boring old
+real pod.

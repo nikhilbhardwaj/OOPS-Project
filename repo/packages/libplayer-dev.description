@@ -1,0 +1,9 @@
+A multimedia a/v abstraction layer api -- development files
+	
+libplayer provides a generic a/v api that relies on various multimedia
+player for linux systems. it currently supports mplayer and xine. its
+main goal is to provide an unique api that player frontends can use to
+control any kind of multimedia player underneath.
+
+this package contains headers and libraries for developing software
+that makes use of libplayer.

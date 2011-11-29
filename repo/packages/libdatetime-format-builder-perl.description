@@ -1,0 +1,11 @@
+Create datetime parser classes and objects
+	
+datetime::format::builder creates datetime parsers. many string formats of
+dates and times are simple and just require a basic regular expression to
+extract the relevant information. builder provides a simple way to do this
+without writing reams of structural code.
+
+builder provides a number of methods, most of which you'll never need, or
+at least rarely need. they're provided more for exposing of the module's
+innards to any subclasses, or for when you need to do something slightly
+beyond what i expected.

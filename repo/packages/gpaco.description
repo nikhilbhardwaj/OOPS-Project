@@ -1,0 +1,14 @@
+Simple but yet powerful source code package management system(gui)
+	
+after the installation of a source package with "./configure && make &&
+make install", one is usually left with having no idea of what it was
+installed and where it all went, making it difficult to uninstall the
+package in the future.
+
+paco was written to solve this problem in a quite simple fashion.
+
+when installing a package from sources, paco wraps the "make install"
+command (or whatever is needed to install the files into the system),
+and generates a log containing the list of all installed files.
+
+this is a gui frontend of paco.

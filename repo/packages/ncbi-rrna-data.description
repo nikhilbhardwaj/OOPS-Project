@@ -1,0 +1,8 @@
+Large rrna blast databases distributed with the ncbi toolkit
+	
+this package contains some ribosomal rna blast databases distributed
+as part of the ncbi c toolkit that are too large and specialized to
+include in ncbi-data.  specifically, it contains the databases
+combined16srrna_2-12-2008, lsuref_93.fasta, and ssuref_93.fasta,
+along with an alias file to facilitate searching all three of them in
+conjunction with the 16score database included in ncbi-data.

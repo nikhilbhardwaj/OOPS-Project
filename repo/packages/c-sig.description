@@ -1,0 +1,9 @@
+A signature tool for gnu emacs
+	
+c-sig is a signature insertion tool for gnu emacs.
+features in c-sig include:
+
+  - registering signatures interactively
+  - learning facility
+  - expanding signatures dynamically
+  - modifying signatures through elisp functions

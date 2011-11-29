@@ -1,0 +1,11 @@
+X.org x server -- newport display driver
+	
+this package provides the driver for the newport family of chipsets integrated
+in sgi indy and indy2 machines.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xf86-video-newport driver module.

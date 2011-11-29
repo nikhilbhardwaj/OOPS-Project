@@ -1,0 +1,8 @@
+Solve differential equations and initial value problems in octave
+	
+this package provides a toolkit for differential equations and
+initial value problems for octave, a numerical computation software.
+it implements the runge-kutta, hairer-wanner and cash bdf solvers of
+systems of differential equations.
+
+this octave add-on package is part of the octave-forge project.

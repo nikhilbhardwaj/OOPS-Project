@@ -1,0 +1,9 @@
+Web-oriented universal programming language
+	
+programming language similar to javascript, but with full-featured
+static type system and generics.  the command-line compiler can
+generate flash swf files for client-side use, neko bytecode for
+server-side use on apache, or javascript/php using browser dhtml api
+to create ajax web applications.
+
+haxe was written by nicolas cannasse.

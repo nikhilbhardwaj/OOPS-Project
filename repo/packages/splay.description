@@ -1,0 +1,5 @@
+Sound player for mpeg-1,2 layer 1,2,3
+	
+based on maplay, this package decodes layer i, ii, and iii mpeg audio
+streams/files and plays them from the command line. it can also be used
+to play wav files.

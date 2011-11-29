@@ -1,0 +1,10 @@
+General graphics interface terminfo display target
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the driver for the "terminfo" target, enabling
+libggi (and therefore any program using libggi) to display its
+output in text mode.  this target does not support graphics; it only
+makes text modes available.  (however, you can display graphics on a
+text-mode target using the "monotext" target.)  output is displayed in
+a terminal-independent fashion using the "ncurses" library.

@@ -1,0 +1,4 @@
+PackageId:9053
+Name:ldap-account-manager-lamdaemon
+Version:3.1.0-2
+Deps:libquota-perl,libsys-syslog-perl,perl,sudo,sudo-ldap

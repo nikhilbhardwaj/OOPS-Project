@@ -1,0 +1,13 @@
+Perl module to generate sql from perl data structures
+	
+sql::abstract is a perl module that allows developers to genreate sql from
+perl data strutures, inspired by dbix::abstract. the intent of this module
+is to provide abstract sql generation methods, allowing one to generate sql
+while retaining complete control over the statement handles.
+
+there are many important differences between this module and dbix::abstract,
+especially when it comes to where clauses. chief among these changes is a
+new design to make it easier to generate sql from perl data structures and
+hopefully more intuitive. the underlying idea is that this module does what
+you mean, based on the data structures you provide it; the biggest advantage
+is that you don't have to modify your code every time your data changes.

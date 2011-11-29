@@ -1,0 +1,8 @@
+Consolekit pam module
+	
+consolekit is a system daemon for tracking what users are logged
+into the system and how they interact with the computer (e.g.
+which keyboard and mouse they use).
+
+this package provides a pam module which can be used for console logins.
+graphical login managers should talk to consolekit directly.

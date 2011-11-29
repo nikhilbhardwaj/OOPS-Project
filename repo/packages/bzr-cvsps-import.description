@@ -1,0 +1,10 @@
+Cvs to bazaar importer
+	
+this is a plugin for bazaar, which converts from cvs to bzr using cvsps as the
+program that analyzes the cvs history to extract "patchsets". the main
+difference from other tools (such as tailor) is that it converts all
+branches, rather than just converting the mainline branch.
+
+one key advantage of using cvsps is that it tries to guess what ancestor
+branch an new branch is based from. which allows branches of branches to be
+tracked.

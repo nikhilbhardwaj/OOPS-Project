@@ -1,0 +1,13 @@
+Stress test application for simulating high load situations
+	
+stressful application test (or stressapptest, its unix name) tries to maximize
+randomized traffic to memory from processor and i/o, with the intent of
+creating a realistic high load situation in order to test the existing hardware
+devices in a computer.
+
+stressapptest may be used for various purposes:
+
+ * stress test
+ * hardware qualification and debugging
+ * memory interface test
+ * disk testing

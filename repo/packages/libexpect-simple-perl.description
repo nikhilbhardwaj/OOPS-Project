@@ -1,0 +1,6 @@
+Wrapper around the expect module
+	
+expect::simple is a wrapper around the expect module which
+should suffice for simple applications.  it hides most of the
+expect machinery; the expect object is available for tweaking if
+need be.

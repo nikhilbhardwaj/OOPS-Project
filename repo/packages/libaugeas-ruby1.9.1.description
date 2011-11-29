@@ -1,0 +1,7 @@
+Augeas bindings for the ruby language
+	
+augeas is a configuration editing tool. it parses configuration files in their
+native formats and transforms them into a tree. configuration changes are made
+by populating this tree and saving it back into native config files.
+
+this package provides a ruby 1.9.1 interface to the augeas api.

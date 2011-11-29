@@ -1,0 +1,8 @@
+Development files (headers and static libraries) for libsx
+	
+libsx (the simple x library) is a library of code that sits on top of and
+to the side of the athena widget set.  its purpose is to make writing x
+applications *much* easier.
+
+this package contains header files, pkgconfig files and static libraries
+for libsx.

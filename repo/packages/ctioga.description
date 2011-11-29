@@ -1,0 +1,26 @@
+Command-line plotting utility
+	
+ctioga is a command-line utility to plot scientific data.
+it produces high quality pdf files with text processed with
+pdflatex. it is based on the tioga library, written by one of
+the creators of the postscript language.
+
+among other advantages, lets name a few:
+
+ - it is very easy to do simple things
+   (plotting a simple text file doesn't take more than a second or two)
+ - output can be configured to a very deep level
+ - it features a plugin backend system that takes care of
+   reading data files, it is very easy to enhance existing backends
+   or add new file formats (such as binary ones).
+ - the text on the graph is much better than in most other plotting
+   programs as it is handled by latex
+ - it features many fancy effects, such as filled curves, transparency,
+   the ability to make insets (zooms, for instance), nice histograms,
+   and many other interesting things !
+
+
+mdbtools is required for the mdb backend, but most of the users
+probably won't need this particular backend, so you can ignore it.
+
+imagemagick is necessary for png output

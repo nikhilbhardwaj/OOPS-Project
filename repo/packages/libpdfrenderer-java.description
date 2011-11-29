@@ -1,0 +1,8 @@
+Java pdf renderer and viewer
+	
+the pdf renderer is just what the name implies: an open source, all
+java library which renders pdf documents to the screen using java2d.
+typically this means drawing into a swing panel, but it could also draw
+to other graphics2d implementations. it could be used to draw on top of
+pdfs, share them over a network, convert pdfs to png images, or maybe
+even project pdfs into a 3d scene.

@@ -1,0 +1,6 @@
+Asyncronous name service query library development files
+	
+libasyncns is a c library for querying name services asynchronously. it is
+a wrapper around the libc functions getaddrinfo(3) and getnameinfo(3).
+
+this package contains development headers and libraries.

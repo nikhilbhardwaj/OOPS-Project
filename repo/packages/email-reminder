@@ -1,0 +1,4 @@
+PackageId:3718
+Name:email-reminder
+Version:0.7.6-2
+Deps:adduser,cron,bcron-run,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libdate-manip-perl,libemail-valid-perl,libgtk2-perl,libxml-dom-perl,perl

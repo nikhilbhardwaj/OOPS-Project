@@ -1,0 +1,14 @@
+Conversation simulator that can learn as you talk to it
+	
+conversation simulators are computer programs which give the appearance of
+conversing with a user in natural language. such programs are effective
+because they exploit the fact that human beings tend to read much more
+meaning into what is said than is actually there; we are fooled into reading
+structure into chaos, and we interpret non-sequitur as valid conversation.
+
+megahal differs from conversation simulators such as eliza in that it uses
+a markov model to learn how to hold a conversation. it is possible to
+teach megahal to talk about new topics, and in different languages.
+
+this package contains the megahal binary, and for your scripting
+pleasure modules for perl, python and tcl.

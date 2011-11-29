@@ -1,0 +1,14 @@
+Package management framework for ruby libraries/applications
+	
+this is a way to package ruby libraries/applications for distribution.
+rubygems provides the ability to manage concurrent versions of libraries and
+dependencies between those libraries. using rubygems, you can:
+
+  * download and install ruby libraries easily
+  * not worry about libraries a and b depending on different versions of
+    library c
+  * easily remove libraries you no longer use
+
+
+this package provides documents of rubygems, which is available for both
+ruby 1.8 and 1.91.

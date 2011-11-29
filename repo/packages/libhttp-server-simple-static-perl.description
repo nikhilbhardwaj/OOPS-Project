@@ -1,0 +1,4 @@
+Serve static files with http::server::simple
+	
+this mixin adds a method to serve static files from your http::server::simple
+subclass.

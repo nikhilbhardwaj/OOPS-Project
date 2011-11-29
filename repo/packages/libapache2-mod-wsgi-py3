@@ -1,0 +1,4 @@
+PackageId:9515
+Name:libapache2-mod-wsgi-py3
+Version:3.3-2
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,apache2.2-common,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libpython3.1,python3

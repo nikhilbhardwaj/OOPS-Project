@@ -1,0 +1,10 @@
+Allows network connections to serial ports
+	
+this daemon allows telnet and tcp sessions to be established with a
+unit's serial ports. combined with a terminal emulation like xterm or
+the linux console, this can be a very simple means of communicating
+with routers, other systems' serial consoles and other equipment with
+a serial port. this is remarkably similar to the reverse telnet
+feature of some cisco routers.
+
+upstream url: http://sourceforge.net/projects/ser2net

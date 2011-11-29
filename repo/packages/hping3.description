@@ -1,0 +1,11 @@
+Active network smashing tool
+	
+hping3 is a network tool able to send custom icmp/udp/tcp packets and
+to display target replies like ping does with icmp replies. it handles
+fragmentation and arbitrary packet body and size, and can be used to
+transfer files under supported protocols. using hping3, you can test
+firewall rules, perform (spoofed) port scanning, test network
+performance using different protocols, do path mtu discovery, perform
+traceroute-like actions under different protocols, fingerprint remote
+operating systems, audit tcp/ip stacks, etc.  hping3 is scriptable
+using the tcl language.

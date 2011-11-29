@@ -1,0 +1,10 @@
+Xen/lvm2 based testbed snapshot system
+	
+machinery for setting up a xen domain which can be resumed over and
+over again, discarding changes made each time.  this can be useful
+for automated testing and other advanced techniques; autopkgtest is
+able to make use of this machinery for its virtualisation needs.
+
+you will need a working xen setup to make use of this software.  your
+network administrator will need to provide support for the testbeds'
+networking requirements.  see the readme for documentation.

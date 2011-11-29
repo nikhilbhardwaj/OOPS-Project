@@ -1,0 +1,5 @@
+Generic publish/subscribe poe::component
+	
+poe::component::pubsub is a generic publish/subscribe poe::component
+that enables poe::sessions to publish events to which other
+poe::sessions may subscribe.

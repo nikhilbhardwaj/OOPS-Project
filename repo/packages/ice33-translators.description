@@ -1,0 +1,16 @@
+Slice translators to several languages
+	
+ice, the internet communications engine, is a middleware for the
+practical programmer developed by zeroc inc. a high-performance
+internet communications platform, ice includes a wealth of layered
+services and plug-ins.
+
+ice is built on concepts which will be familiar to corba programmers,
+and supports a wide variety of programming languages and runtime
+platforms. slice is the interface description language used in ice.
+
+this package contains all the slice translators (slice2cpp, slice2py,
+slice2cs, slice2java, slice2vb, slice2rb, slice2freeze,
+slice2freezej, slice2docbook, and slice2html).  you will find further
+information in the zeroc home page (http://www.zeroc.com/ice.html)
+and in the non-free package zeroc-ice-manual.

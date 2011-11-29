@@ -1,0 +1,8 @@
+Header and development libraries for libspf2
+	
+libspf2 implements the sender policy framework, a part of the spf/srs
+protocol pair. libspf2 is a library which allows email systems such
+as sendmail, postfix, exim, zmailer and ms exchange to check spf
+records and make sure that the email is authorized by the domain name
+that it is coming from. this prevents email forgery, commonly used by
+spammers, scammers and email viruses/worms.

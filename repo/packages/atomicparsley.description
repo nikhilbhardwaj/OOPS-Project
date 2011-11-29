@@ -1,0 +1,14 @@
+Read, parse and set metadata of mpeg-4 and 3gp files
+	
+atomicparsley is a lightweight command line program for reading,
+parsing and setting metadata into mpeg-4 files supporting these styles
+of metadata:
+
+
+ - itunes-style metadata into .mp4, .m4a, .m4p, .m4v, .m4b files
+ - 3gp-style assets (3gpp ts 26.444 version 6.4.0 release 6
+   specification conforming) in 3gpp, 3gpp2, mobilemp4 & derivatives
+ - iso copyright notices at movie & track level for mpeg-4 & derivative
+   files
+ - uuid private user extension text & file embedding for mpeg-4 &
+   derivative files

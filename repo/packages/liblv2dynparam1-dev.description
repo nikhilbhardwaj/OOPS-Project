@@ -1,0 +1,15 @@
+Lv2dynparam is a lv2 plugin interface extension
+	
+library that enables plugin parameters to appear and disappear
+(i.e. number of voices).
+it also allows nested grouping of parameters.
+groups can be used for things like adsr abstraction,
+i.e. group of 4 float parameters.
+
+the extension consists of a header describing the extension
+interface and libraries, one for plugins and one for hosts,
+to expose functionality in more usable,
+from programmer point of view, interface.
+
+this package contains the headers used to build applications
+that use liblv2dynparamhost1-1 and liblv2dynparamplugin1-0.

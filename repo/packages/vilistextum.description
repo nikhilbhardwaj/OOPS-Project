@@ -1,0 +1,7 @@
+A html to text converter
+	
+vilistextum is a small and fast html to text / ascii converter
+specifically programmed to get the best out of incorrect html. it is
+quite fault-tolerant and deals well with badly-formed or otherwise
+quirky html. it is able to optimize for ebook reading, collapse
+multiple blank lines, and create footnotes out of links.

@@ -1,0 +1,12 @@
+Redirect tcp connections
+	
+it can run under inetd or stand alone (in which case it handles
+multiple connections).  it is 8 bit clean, not limited to line
+mode, is small and light. supports transparency, ftp redirects, http
+proxying, and bandwidth limiting.
+
+redir is all you need to redirect traffic across firewalls authenticate
+based on an ip address etc. no need for the firewall toolkit. the
+functionality of inetd/tcpd and "redir" will allow you to do everything
+you need without screwy telnet/ftp etc gateways. (i assume you are running
+ip masquerading of course.)

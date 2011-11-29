@@ -1,0 +1,13 @@
+Perl interface to the video4linux framegrabber interface
+	
+this package contains perl modules which interface to
+the video4linux frame grabber.
+
+the following perl modules are included in this package:
+
+
+  * video::capture::v4l - video4linux framegrabber interface
+  * video::capture::vbi - functions to manipulate vbi fields & lines
+  * video::frequencies - many, many frequency constants and lists
+  * video::rtjpeg - real time, jpeg-like video compression
+  * video::xawtv - read, create and edit .xawtvrc files

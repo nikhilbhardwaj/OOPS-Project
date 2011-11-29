@@ -1,0 +1,14 @@
+The egalitarian ubiquitous amiga emulator
+	
+e-uae is a 100% software amiga (500) hardware emulator. it is a fork
+of the original named "uae", largely based on changes made for the
+windows fork of uae, winuae.
+
+note: for "proper" use of uae, you need some version of the kickstart
+rom, and some os running on top of this (most likely some version of
+the amiga os). both don't comply to the dfsg (to say the least)
+and must be obtained from other sources. there is information in the
+package docs how to obtain these if you are owner of an amiga box.
+
+however, there is a minimal free build-in kickstart replacement, and
+at least some demo disks are reported to run with it.

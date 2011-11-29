@@ -1,0 +1,5 @@
+Html parser/tokenizer based on the whatwg html5 specification
+	
+html5lib is a pure-python library for parsing html. it is designed to
+conform to the html 5 specification, which has formalized the error handling
+algorithms of popular web browsers.

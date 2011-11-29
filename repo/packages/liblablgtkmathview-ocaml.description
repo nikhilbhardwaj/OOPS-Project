@@ -1,0 +1,6 @@
+Ocaml bindings for libgtkmathview, a gtk widget to render mathml
+	
+this is the ocaml binding for the gtkmathview widget, that is
+currently available in the libgtkmathview0 package.
+
+this package contains only the shared runtime stub libraries.

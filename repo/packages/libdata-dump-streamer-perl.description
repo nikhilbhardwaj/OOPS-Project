@@ -1,0 +1,8 @@
+Module for serializing a data structure as perl code
+	
+data::dump::streamer is a perl module that serializes scalars, objects or
+reference variables and provides their contents in perl syntax. special data
+structures including closures, self-referential structures and objects are
+output correctly. this module is very similar in concept to the core module
+data::dumper, except this module is designed to output to a stream instead
+of constructing its output in memory (trading speed for memory).

@@ -1,0 +1,17 @@
+Powerful, efficient, and scalable mail transport agent
+	
+sendmail is an alternative mail transport agent (mta) for debian.
+it is suitable for handling sophisticated mail configurations,
+although this means that its configuration can also be complex.
+
+fortunately, simple thing can be done easily, and complex things
+are possible, even if not easily understood ;)  sendmail is the *only*
+mta with a turing complete language to control *all* aspects of delivery!
+
+sendmail provides security and spam/uce/ube protection via several means.
+
+sendmail includes *no* mail user agents (mua), you'll have to
+pick from the plethora of available muas (mutt, vm, etc.)
+
+this package supports regex, db, nis, nis+, ldap, dns maps,
+and has enabled tcpwrappers, ipv6, lockfile, smtp auth(sasl), starttls(ssl).

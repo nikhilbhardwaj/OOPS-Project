@@ -1,0 +1,7 @@
+Perl module to traverse data structures, altering them in place
+	
+data::transformer can use callback subroutines to transform data or
+collect information.
+
+it is possible to affect objects inside the data structures by specifying
+a callback keyed to the name of the class they belong to.

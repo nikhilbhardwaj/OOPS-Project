@@ -1,0 +1,16 @@
+A curses-based interface to the gnu debugger (gdb)
+	
+cgdb is a curses  fontend to the gnu debugger (gdb). the goal of cgdb is
+to be lightweight and responsive; not encumbered with unnecessary features.
+
+the interface is designed to deliver the familiar gdb text interface, with a
+split screen showing the source as it executes. the ui is modeled on the
+classic unix text editor, vi. those familiar with vi should feel right at home
+using cgdb.
+
+some features offered by cgdb are:
+
+  * syntax-highlighted source window
+  * visual breakpoint setting
+  * keyboard shortcuts for common functions
+  * searching source window (using regexp)

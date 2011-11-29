@@ -1,0 +1,9 @@
+Simple standard protocol for reading and writing data on the web
+	
+the google data apis provide a simple standard protocol for reading and
+writing data on the web. these apis use either of two standard
+xml-based syndication formats: atom or rss. they also have a
+feed-publishing system that consists of the atom publishing protocol
+plus some extensions (using atom's standard extension model) for
+handling queries. many google services support the google data api
+protocol.

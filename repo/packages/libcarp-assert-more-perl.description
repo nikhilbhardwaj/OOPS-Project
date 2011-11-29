@@ -1,0 +1,4 @@
+Convenience wrappers for libcarp-assert-perl
+	
+carp::assert::more is a set of wrappers around the carp::assert functions
+to make the habit of writing assertions even easier.

@@ -1,0 +1,11 @@
+Convert docbook files to other formats (html, rtf, ps, man, pdf)
+	
+the docbook-utils is a set of a few small programs intended to ease
+everyday use of technical documentation software and more generally use of
+sgml and xml.
+
+tasks they currently accomplish are:
+
+ * jw: convert docbook files to other formats (html, rtf, postscript, pdf).
+ * sgmldiff: detect the differences in markup between two sgml files.
+ * docbook2man: converts a docbook refentry to a man page.

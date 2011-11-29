@@ -1,0 +1,17 @@
+Multi-protocol instant messaging client (base files)
+	
+licq is an instant messaging client daemon that supports a number of
+interfaces via plug-ins, primarily kde or qt, but also console, and several
+utility plug-ins.  included in this package is support for aim and icq.
+support for msn is available as a separate plug-in.
+
+implemented features include messaging, chat, file transfer, whitepages,
+history, invisible list, server-side stored contacts, typing
+notification, phone book, user pictures, proxy support, user groups,
+network monitor window, themed docking skin and icon pack support,
+fifo support for remote control, international support with unicode and
+translations, per-user customized auto responses, ssl secure client to
+client connections and gpg encrypted messages.
+
+at least one plug-in is required for licq to function.  the plug-ins
+are distributed in separate packages named "licq-plugin-*".

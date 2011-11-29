@@ -1,0 +1,25 @@
+Userspace software for usb aes2501 fingerprint scanner
+	
+command line scanning sofware for aes2501 usb fingerprint reader. the ouput
+are grayscale pnm files with quite good quality.
+
+the aes 2501 fingerprint scanner vendor is authentec and this sensor can be
+found in:
+
+ * medion md85264 usb sensor
+ * hp nx6125 notebook
+ * hp compaq 6710b
+ * hp compaq 6510b
+ * hp compaq nx6320
+ * hp nx6325
+ * hp compaq nc8430
+ * hp compaq nc6320
+ * compaq hel80/81 notebook
+ * fujitsu-siemens p7120 notebook.
+ * lg p1 pro express dual notebook.
+ * lg s1 pro express dual notebook
+ * lenovo 3000 n100
+ * lenovo 3000 n200 notebook
+ * toshiba libretto u100
+ * toshiba portégé r200 notebook
+ * targa traveller 1577 x2

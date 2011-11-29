@@ -1,0 +1,12 @@
+Debian science nanoscale physics development packages
+	
+this metapackage will install debian science packages which might be
+helpful for the development of applications for nanoscale physics.
+
+please note that packages listed as "recommended" may not be installed
+by default, and that packages listed as "suggested" will not be
+installed unless the user asks for them to be installed.
+
+you might also be interested in the debtag field::physics and, depending
+on your focus, in the nanoscale-physics, physics and education-physics
+metapackages.

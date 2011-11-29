@@ -1,0 +1,10 @@
+Non-negative numbers for haskell; profiling librarie; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides a class for non-negative numbers, a wrapper which
+can turn any ordered numeric type into a member of that class, and a
+lazy number type for non-negative numbers (a generalization of peano
+numbers).

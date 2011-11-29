@@ -1,0 +1,10 @@
+Build system used for embedded linux distributions
+	
+bitbake is a simple tool for the execution of tasks. it is derived from
+portage, which is the package management system used by the gentoo linux
+distribution.
+it is most commonly used to build packages, as it can easily use its
+rudimentary inheritence to abstract common operations, such as fetching
+sources, unpacking them, patching them, compiling them, and so on.
+it is the basis of the openembedded project, which is being used for
+openzaurus, familiar and a number of other linux distributions.

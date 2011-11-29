@@ -1,0 +1,4 @@
+PackageId:8946
+Name:l7-filter-userspace
+Version:0.11-4
+Deps:libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libnetfilter-conntrack3,libnetfilter-queue1,libnfnetlink0,libstdc++6,libunwind7

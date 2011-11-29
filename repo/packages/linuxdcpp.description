@@ -1,0 +1,12 @@
+Port of the windows file-sharing program, dc++
+	
+direct connect is a peer-to-peer (p2p) file-sharing protocol.
+clients connect to a central hub where they can view a list of
+clients or users connected to them. users can search for files
+and download them from other clients, as well as chat with other
+users.
+
+the most popular windows client implementing this protocol
+currently is dc++. linuxdc++ is a linux port of dc++. though it is
+primarily aimed at linux, it has been shown to work on other
+unix-based operating systems as well.

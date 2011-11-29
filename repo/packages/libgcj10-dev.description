@@ -1,0 +1,5 @@
+Java development headers for use with gcj
+	
+these are the development headers that go along with the gcj front end
+to gcc. libgcj includes parts of the java class libraries, plus glue
+to connect the libraries to the compiler and the underlying os.

@@ -1,0 +1,10 @@
+Extracts information from java class files
+	
+jclassinfo reads java class files and extract useful information
+from them, such as:
+
+  * the classes/methods/constants/fields provided
+  * their dependencies
+  * the version of the virtual machine necessary to run them
+  * a full disassembly of the bytecode
+  * other attributes

@@ -1,0 +1,14 @@
+Gnu privacy guard - a free pgp replacement (curl)
+	
+gnupg is gnu's tool for secure communication and data storage.
+it can be used to encrypt data and to create digital signatures.
+it includes an advanced key management facility and is compliant
+with the proposed openpgp internet standard as described in rfc2440.
+
+this package contains the keyserver helper tools built with libcurl,
+which replace the ones in the gnupg package built with the "curl shim"
+variant of gnupg. this package provides support for hkps keyservers.
+
+gnupg does not use any patented algorithms. this means it cannot be
+compatible with pgp2, because that uses idea (which is patented in
+a number of countries).

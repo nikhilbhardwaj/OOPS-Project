@@ -1,0 +1,9 @@
+Compression utility for dictionary databases
+	
+this package provides a utility to compress dictionary databases with the
+lz77 algorithm in a manner which is completely compatible with gzip(1),
+but using an extension that allows for random access to chunks
+of about 57kb without the overhead of decompressing the entire file.
+
+this package also includes dictunzip, to decompress dictzipped files,
+and dictzcat, for viewing dictzipped files.

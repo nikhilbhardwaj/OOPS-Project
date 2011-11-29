@@ -1,0 +1,6 @@
+Pam module for mit kerberos
+	
+a kerberos v5 pam module build against the mit kerberos libraries.  it
+supports authenticating against a kerberos v5 kdc, obtaining tickets and
+populating an initial ticket cache, authorizing users via a ~/.k5login
+file, and changing kerberos v5 passwords.

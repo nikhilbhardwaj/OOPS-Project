@@ -1,0 +1,15 @@
+Documentation for type-level programming in haskell
+	
+a haskell library for performing computations on the type-level. type-level
+functions are implemented using functional dependencies of multi parameter
+type classes. to date, booleans and numerals (naturals and positives) are
+supported. with regard to numerals, there is support for common arithmetic
+operations (addition, substraction, multiplication, division, exponientation,
+logarithm, maximum, comparison, gcd) over natural numbers (using a decimal
+representation to make compile-time errors friendlier). although making use
+of type-level computations might seem devious and obfuscated at first sight,
+it is indeed useful in practice to implement lightweight dependent types
+such as number-parameterized types (e.g. an array type parameterized by the
+array's size or a modular group type zn parameterized by the modulus).
+
+this package contains the library documentation.

@@ -1,0 +1,9 @@
+Gnome text-to-speech library
+	
+the gnome speech library gives a simple yet general api for programs
+to convert text into speech, as well as speech input.
+
+multiple backends are supported by the gnome speech library.
+the festival and espeak backends are provided by default in this package;
+other backends that require prorietary software are available via separate
+packages (gnome-speech-dectalk, gnome-speech-ibmtts and gnome-speech-swift).

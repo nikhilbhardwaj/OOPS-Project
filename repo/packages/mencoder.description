@@ -1,0 +1,13 @@
+Mplayer's movie encoder
+	
+mplayer plays most mpeg, vob, avi, ogg/ogm, vivo,
+asf/wma/wmv, qt/mov/mp4, fli, rm, nuppelvideo, yuv4mpeg, film, roq, pva files,
+supported by many native, xanim, realplayer, and win32 dll codecs. it can
+also play videocd, svcd, dvd, 3ivx, realmedia, and divx movies.
+
+this package contains menconder, a simple movie encoder, designed to
+encode mplayer-playable movies
+(avi/asf/ogg/dvd/vcd/vob/mpg/mov/viv/fli/rm/nuv/net) to other
+mplayer-playable formats. it can encode with various codecs, like divx4
+(1 or 2 passes), libavcodec, pcm/mp3/vbrmp3 audio. also has stream
+copying and video resizing abilities.

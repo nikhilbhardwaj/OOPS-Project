@@ -1,0 +1,11 @@
+Nss module for using mysql as a naming service
+	
+libnss-mysql-bg provides a name service switch module that allows mysql
+to act as a name service.
+
+its configuration is very flexible by allowing to set an sql query per nss
+call (getpwnam, getpwuid, ...). you would use it instead of the other
+"libnss-mysql" package for building an nss over an existing database (used for
+another purpose like groupware, ...).
+
+it currently supports storage of passwd, group and shadow informations.

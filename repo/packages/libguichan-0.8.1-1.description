@@ -1,0 +1,15 @@
+Small, efficient c++ gui library
+	
+guichan is a small and efficient c++ gui library designed for games. it
+comes with a standard set of widgets and can use several different objects
+for displaying graphics and grabbing user input.
+
+guichan has a very abstract design which allows users of guichan to use
+different objects for displaying of graphics and grabbing of user input.
+guichan comes with (for now) 3 implemented graphics objects (sdlgraphics,
+openglgraphics and allegrographics) and 2 implemented input objects
+(sdlinput and allegroinput),
+
+guichan is designed in a very abstract way making it very easy to extend
+guichan for your own needs. it is even very easy to implement new graphics
+objects making guichan as portable as ansi c++ is.

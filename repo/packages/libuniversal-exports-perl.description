@@ -1,0 +1,9 @@
+Module for lightweight, universal variable exporting
+	
+universal::exports is an alternative to the perl exporter module, providing a
+universal, lightweight subset of its functionality. it uses exporter::lite
+(see libexporter-lite-perl for details).
+
+historically, this module provided universal::require, which has become an
+independent distribution. for reasons of backward compatibility, this package
+depends on libuniversal-require-perl.

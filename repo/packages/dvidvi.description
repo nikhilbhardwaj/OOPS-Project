@@ -1,0 +1,8 @@
+Manipulate .dvi files
+	
+allows you to select, change the order, and/or shift the pages in
+a .dvi file.
+
+this can for example be used to print an a5 booklet on a4 paper, in
+such a way that you can put a staple through the bundle. a shell
+script that does just that is provided.

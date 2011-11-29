@@ -1,0 +1,9 @@
+Use perl code in ocaml programs, documentation
+	
+perl4caml allows you to use perl code within objective caml (ocaml),
+thus neatly side-stepping the old problem with ocaml which was that it
+lacked a comprehensive set of libraries. well now you can use any part
+of cpan in your ocaml code.
+
+this package provides developers' documentation and examples about the
+use of perl4caml.

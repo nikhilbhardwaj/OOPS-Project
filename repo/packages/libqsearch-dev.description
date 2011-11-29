@@ -1,0 +1,9 @@
+Nondeterministic quartet tree search library for unrooted trees
+	
+qsearch is a library for universal hierarchical clustering using an arbitrary
+distance matrix as input.  it searches through the space of all possible
+unrooted trees of a given size and finds the closest match based on a
+weighted quartet cost function determined by the distance matrix.  when
+used in combination with other feature extraction libraries such as
+libcomplearn this system can be used for fast and accurate phylogenetic
+reconstruction, linguistic analysis, or stemmatology.

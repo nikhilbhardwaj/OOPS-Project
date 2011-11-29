@@ -1,0 +1,8 @@
+Padre plugin to send code to a nopaste website
+	
+this plugin allows one to send stuff from padre to a nopaste website with
+ctrl+shift+v, allowing for easy code / whatever sharing without having to
+open a browser.
+
+it is using app::nopaste underneath, so check this module's pod for more
+information.

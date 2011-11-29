@@ -1,0 +1,6 @@
+Module to highlight perl code using ppi
+	
+ppi::html is a perl module which uses the ppi (a perl parsing interface, see
+libppi-perl) module to create syntax-highlighted html documents from perl
+code. it supports extensibility through stylesheets and provides an easy
+facility to change colours of your output.

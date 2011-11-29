@@ -1,0 +1,10 @@
+Ext2/ext3/ext4 file system libraries
+	
+the ext2, ext3 and ext4 file systems are successors of the original ext
+("extended") file system. they are the main file system types used for
+hard disks on debian and other linux systems.
+
+this package provides the ext2fs and e2p libraries, for userspace software
+that directly accesses extended file systems. programs that use libext2fs
+include e2fsck, mke2fs, and tune2fs. programs that use libe2p include
+dumpe2fs, chattr, and lsattr.

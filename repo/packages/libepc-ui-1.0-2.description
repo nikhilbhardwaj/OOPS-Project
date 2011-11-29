@@ -1,0 +1,10 @@
+Easy publish and consume library - shared widget libraries
+	
+the easy publish and consume library provides an easy method to publish
+data per https announce that information via dns-sd, find that information
+and finally consume it.
+
+you can use this library as key/value store published to the network,
+using encryption, authentication and service discovery.
+
+this package contains the shared widget libraries.

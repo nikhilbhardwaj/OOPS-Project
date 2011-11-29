@@ -1,0 +1,7 @@
+Client library to control the fam daemon - development files
+	
+fam monitors files and directories, notifying interested applications
+of changes.
+
+this package provides header files and static libraries to allow the
+development of programs that interface fam for file monitoring.

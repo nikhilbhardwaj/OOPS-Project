@@ -1,0 +1,7 @@
+Grassroots dicom vtk/python bindings
+	
+grassroots dicom is a c++ library for dicom medical files. it is
+automatically wrapped to python/c#/java (using swig). it supports
+raw,jpeg (lossy/lossless),j2k,jpeg-ls, rle and deflated.
+
+vtk/python bindings to the gdcm dicom library.

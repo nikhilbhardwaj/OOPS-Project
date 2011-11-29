@@ -1,0 +1,4 @@
+Python bindings to libieee1284
+	
+this module offers bindings to libieee1284, a cross-platform library for
+parallel port access. the library runs on linux, bsd, windows, solaris.

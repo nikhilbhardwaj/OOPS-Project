@@ -1,0 +1,26 @@
+Gps file conversion plus transfer to/from gps units
+	
+gpsbabel converts waypoints, tracks, and routes from one format to
+another, whether that format is a common mapping format like delorme,
+streets and trips, or even a serial upload or download to a gps unit
+such as those from garmin and magellan.
+
+gpsbabel supports dozens of data formats and will be useful for tasks
+such as geocaching, mapping, and converting from one gps unit to another.
+among the interesting formats it supports are several gps devices via
+a serial link, various pda-based mapping programs, and various
+geocaching data formats.
+
+among others gpsbabel supports the following formats:
+
+cetus, copilot flight planner, csv, custom csv, delorme street atlas,
+delorme street atlas 2004 plus, delorms gps log, delorme routes,
+dna, easygps binary, fugawi, garmin serial, geocaching.com loc,
+geocachingdb, geoniche, gpilots, gpsdrive, gpsman, gpspilot,
+gpsutil, gpx, holux, igc, magellan serial, magellan sd,
+magellan navigator companion, mapopolis.com mapconverter, mapsend,
+mapsource, maptech, microsoft streets and trips, navicache,
+netstumbler, nima/gnis geographic names, nmea sentences, oziexplorer,
+palmdoc, pcx5, pocketstreets 2002 pushpin, psitrex, quovadis,
+tab-separated data, tiger, topomappro, topo by national geographic,
+xcsv, xmap, xmapwpt.

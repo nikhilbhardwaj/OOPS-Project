@@ -1,0 +1,9 @@
+Perl6 style junction operators in perl5
+	
+perl6::junction is a lightweight module which provides 'junction' operators,
+the most commonly used being any and all.
+
+inspired by the perl6 design docs,
+http://dev.perl.org/perl6/doc/design/exe/e06.html.
+
+provides a limited subset of the functionality of quantum::superpositions.

@@ -1,0 +1,6 @@
+Apache2 filter module for html links rewriting
+	
+mod_proxy_html is an output filter to rewrite html links in a proxy
+situation, to ensure that links work for users outside the proxy. it
+serves the same purpose as apache's proxypassreverse directive does for
+http headers, and is an essential component of a reverse proxy.

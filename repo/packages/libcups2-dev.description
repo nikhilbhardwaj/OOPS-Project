@@ -1,0 +1,11 @@
+Common unix printing system(tm) - development files cups library
+	
+the common unix printing system (or cups(tm)) is a printing system and
+general replacement for lpd and the like.  it supports the internet
+printing protocol (ipp), and has its own filtering driver model for
+handling various document types.
+
+this package provides the files necessary for developing cups-aware
+applications and cups drivers, as well as examples how to communicate
+with cups from different programming languages (perl, java, and
+php).

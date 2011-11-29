@@ -1,0 +1,7 @@
+Universal feed parser for python
+	
+python module for downloading and parsing syndicated feeds. it can
+handle rss 0.90, netscape rss 0.91, userland rss 0.91, rss 0.92, rss
+0.93, rss 0.94, rss 1.0, rss 2.0, atom, and cdf feeds.
+
+it provides the same api to all formats, and sanitizes uris and html.

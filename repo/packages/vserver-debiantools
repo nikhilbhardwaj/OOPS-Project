@@ -1,0 +1,4 @@
+PackageId:34075
+Name:vserver-debiantools
+Version:0.7.2
+Deps:binutils,debootstrap,iproute,rsync,util-vserver

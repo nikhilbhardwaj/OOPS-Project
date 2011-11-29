@@ -1,0 +1,7 @@
+Ruby implementation of the ssh2 client protocol
+	
+net::ssh is a pure-ruby implementation of the ssh2 client protocol. it allows
+you to write programs that invoke and interact with processes on remote
+servers, via ssh2.
+
+this package is built for ruby 1.8.

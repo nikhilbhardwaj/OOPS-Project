@@ -1,0 +1,6 @@
+Irc client library for python
+	
+this library is intended to encapsulate the irc protocol at a quite
+low level.  it provides an event-driven irc client framework.  it has
+a fairly thorough support for the basic irc protocol, ctcp and dcc
+connections.

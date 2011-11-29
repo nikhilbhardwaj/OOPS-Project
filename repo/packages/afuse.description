@@ -1,0 +1,4 @@
+Automounting file system implemented in user-space using fuse
+	
+afuse is a fuse based filesystem which implements filesystem automounting
+functionality similar to linux's autofs.

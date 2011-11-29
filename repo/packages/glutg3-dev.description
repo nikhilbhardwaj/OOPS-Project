@@ -1,0 +1,8 @@
+The opengl utility toolkit development files
+	
+glut (as in ``gluttony'') is a window system independent toolkit for
+writing opengl programs.  it implements a simple windowing api, which
+makes life considerably easier when learning about and exploring opengl
+programming.
+
+this package has been replaced by `freeglut-dev'.

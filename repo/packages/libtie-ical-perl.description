@@ -1,0 +1,13 @@
+Tie ical files to perl hashes
+	
+tie::ical represents an rfc2445 icalendar file as a perl hash. each key in
+the hash represents an icalendar component like vevent, vtodo or vjournal.
+each component in the file must have a unique uid property as specified in
+the rfc 2445. a file containing non-unique uids can be converted to have
+only unique uids (see samples/uniquify.pl).
+
+the module makes very little effort in understanding what each icalendar
+property means and concentrates on the format of the icalendar file only.
+
+
+ homepage: http://search.cpan.org/~bsdz/tie-ical-0.13/lib/tie/ical.pm

@@ -1,0 +1,9 @@
+Perl module for managing rss (rdf site summary) files
+	
+xml::rss is a perl module that provides a simple way to work with rdf site
+summary (rss) files. this distribution also contains many examples that allow
+you to generate html from an rss feed, convert between the various versions
+of the standard (0.9, 0.91 and 1.0), and other nifty things.
+
+this module is helpful if you want to aggregate and display news feeds on your
+web site or if you want to syndicate your own content.

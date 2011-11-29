@@ -1,0 +1,5 @@
+Module with commonly used type constraints for moose
+	
+moosex::types::common is a perl module that contains a set of commonly-used
+type constraints that do not ship with moose by default. in particular, it
+has string and numeric type constraints.

@@ -1,0 +1,7 @@
+Libraries for cpu and heap analysis, plus an efficient thread-caching malloc
+	
+the google-perftools package contains some utilities to improve and
+analyze the performance of c++ programs.  this includes an optimized
+thread-caching malloc() and cpu and heap profiling utilities.  the
+devel package contains static and debug libraries and header files
+for developing applications that use the google-perftools package.

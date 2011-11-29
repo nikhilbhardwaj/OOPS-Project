@@ -1,0 +1,7 @@
+Edit preview images and fix bounding boxes in eps files
+	
+encapsulated postscript (eps) files may contain a preview to be used
+by programs that can't interpret the postscript code. epstool can
+create and extract such previews.
+
+epstool can also calculate an optimal bounding box for an eps file.

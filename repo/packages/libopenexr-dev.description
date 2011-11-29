@@ -1,0 +1,23 @@
+Development files for the openexr image library
+	
+openexr is a high dynamic-range (hdr) image file format developed by
+industrial light & magic for use in computer imaging applications.
+
+openexr's features include:
+
+   * higher dynamic range and colour precision than existing 8- and
+     10-bit image file formats.
+   * support for the "half" 16-bit floating-point pixel format.
+   * multiple lossless image compression algorithms. some of the
+     included codecs can achieve 2:1 lossless compression ratios on
+     images with film grain.
+   * extensibility. new compression codecs and image types can easily
+     be added by extending the c++ classes included in the openexr
+     software distribution. new image attributes (strings, vectors,
+     integers, etc.) can be added to openexr image headers without
+     affecting backward compatibility with existing openexr
+     applications.
+
+
+this package contains the header files required if you wish to
+compile/develop applications that use openexr libraries.

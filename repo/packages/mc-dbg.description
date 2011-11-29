@@ -1,0 +1,10 @@
+Midnight commander - a powerful file manager - debug package
+	
+gnu midnight commander is a text-mode full-screen file manager. it
+uses a two panel interface and a subshell for command execution. it
+includes an internal editor with syntax highlighting and an internal
+viewer with support for binary files. also included is virtual
+filesystem (vfs), that allows files on remote systems (e.g. ftp, ssh
+servers) and files inside archives to be manipulated like real files.
+
+this package contains debugging information for mc.

@@ -1,0 +1,10 @@
+Compression program with a very high compression ratio
+	
+a compression program that can achieve very high compression
+ratios and speed when used with large files. it uses the combined
+compression algorithms of zpaq and lzma for maximum compression, lzo
+for maximum speed, and the long range redundancy reduction of rzip.
+it is designed to scale with increases with ram size, improving
+compression further. a choice of either size or speed optimizations
+allows for either better compression than even lzma can provide, or
+better speed than gzip, but with bzip2 sized compression levels.

@@ -1,0 +1,4 @@
+PackageId:31112
+Name:samba-common-bin
+Version:2:3.5.6~dfsg-3squeeze5
+Deps:libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcap2,libcomerr2,libgcc1,libgssapi-krb5-2,libk5crypto3,libkrb5-3,libldap-2.4-2,libpopt0,libreadline6,libtalloc2,libunwind7,libuuid1,libwbclient0,samba-common,zlib1g

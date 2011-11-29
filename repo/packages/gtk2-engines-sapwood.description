@@ -1,0 +1,9 @@
+Pixbuf-based theme engine for gtk+ 2.x
+	
+sapwood is a pixbuf-based 'theme' that allows you to configure the look of
+gtk-using programs. the programs need no modifications to use themes; the
+support is built into gtk+.
+
+the engine is similar to the pixbuf engine, but uses client-server design
+and pixmaps rather than pixbufs. it is faster and more memory efficient than
+the pixbuf engine, but doesn't do scaling or gradients.

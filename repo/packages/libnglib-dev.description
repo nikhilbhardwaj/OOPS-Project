@@ -1,0 +1,10 @@
+Automatic 3d tetrahedral mesh generator development files
+	
+netgen is an automatic 3d tetrahedral mesh generator. it accepts
+input from constructive solid geometry (csg) or boundary
+representation (brep) from stl file format. the connection to a
+geometry kernel allows the handling of iges and step files. netgen
+contains modules for mesh optimization and hierarchical mesh
+refinement.
+
+this package contains the static libraries and header files.

@@ -1,0 +1,11 @@
+A mock object framework for python
+	
+mox is a mock object framework for python that simplifies the writing of
+unittests.
+
+mox will make mock objects for you, so you don't have to create your
+own. it mocks the public/protected interfaces of python objects. you set
+up your mock objects expected behavior using a domain specific language
+(dsl), which makes it easy to use, understand, and refactor.
+
+it is based on easymock, a java mock object framework.

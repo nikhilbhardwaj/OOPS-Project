@@ -1,0 +1,14 @@
+The scala programming language
+	
+scala is a java-compatible programming language with many
+modern language features.  it is java-compatible in that
+scala and java classes can directly reference each other and
+subclass each other with no glue code needed.  it
+includes modern language features such as closures,
+pattern-matching, parametric types, and virtual type members.
+
+this package includes the various tools used to develop
+code written in scala.  it includes a compiler (scalac),
+an interpreter and script runner (scala), the offline
+compiler (fsc), and source-scanning documentation
+generator (scaladoc).

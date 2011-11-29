@@ -1,0 +1,5 @@
+Glib bindings to frameworkd (debug symbols)
+	
+this package provides debug information to a library that wraps the
+dbus api.  it is part of the freesmartphone.org software stack and
+targeted for smartphones.

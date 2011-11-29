@@ -1,0 +1,8 @@
+A /bin/ed-alike webbrowser written in c
+	
+edbrowse is a reimplementation of /bin/ed, with some basic
+differences (it uses perl regular expressions) with the ability to
+visit webpages and ftp sites. edbrowse performs basic transformations
+on the html source to produce a readable representation. edbrowse
+supports forms, frames, netscape-style cookies, https
+connections and javascript.

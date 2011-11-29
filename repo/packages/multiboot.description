@@ -1,0 +1,13 @@
+The multiboot specification
+	
+this specification, created in 1995, describes a method of loading various
+multiboot kernels using a single compliant boot loader (such as gnu grub)
+on i386-based computers.
+
+it is used by a variety of kernel images, such as the hurd, xen, or netbsd
+kernels.
+
+an example implementation of a multiboot kernel is provided.
+
+for an example implementation of a multiboot loader, check grub legacy
+(grub-legacy package), or grub 2 (grub-pc package, and others).

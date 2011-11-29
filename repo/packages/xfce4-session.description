@@ -1,0 +1,6 @@
+Xfce4 session manager
+	
+xfce4-session is an x11-compliant "session manager" designed for use with
+the xfce4 desktop environment. on log out, the session manager saves the
+state of all your running applications. when you log back in, the session
+manager restores the same applications with the same window positions.

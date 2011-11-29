@@ -1,0 +1,5 @@
+Antivirus scanning for nautilus
+	
+nautilus-clamscan is a nautilus extension that adds a "scan for viruses" item
+to the menu that appears when right-clicking on files. the progress and results
+of the anti-virus scan are shown in a progress dialog.

@@ -1,0 +1,4 @@
+PackageId:32461
+Name:sysv-rc
+Version:2.88dsf-13.1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,insserv,sysvinit-utils

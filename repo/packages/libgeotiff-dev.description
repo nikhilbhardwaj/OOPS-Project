@@ -1,0 +1,8 @@
+The geotiff library -- development files
+	
+this c library supports tiff 6.0 based interchange format for georeferenced
+raster imagery. the geotiff standard has been developed for reading, and
+writing geographic meta-information tags on top of tiff raster.
+
+this package contains stuff to be used to develop programs based
+on the geotiff library.

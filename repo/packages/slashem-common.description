@@ -1,0 +1,11 @@
+Files common to all slashem-packages
+	
+this package contains the files comme to all the window ports of
+slash'em. you need to install at least one package containing a
+window port to use this package:
+
+
+ slashem - the basic ascii interface
+ slashem-x11 - simple graphic interface using xaw
+ slashem-sdl - graphical interface usnig sdl
+ slashem-gtk - graphical interface usnig gtk

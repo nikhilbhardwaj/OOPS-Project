@@ -1,0 +1,12 @@
+A program for managing a www site via ftp, dav or http
+	
+sitecopy is for copying locally stored websites to remote ftp servers. with a
+single command, the program will synchronize a set of local files to a remote
+server by performing uploads and remote deletes as required. the aim is to
+remove the hassle of uploading and deleting individual files using an ftp
+client. sitecopy will also optionally try to spot files you move locally, and
+move them remotely.
+
+sitecopy is designed to not care about what is actually on the remote server -
+it simply keeps a record of what it thinks is in on the remote server, and
+works from that.

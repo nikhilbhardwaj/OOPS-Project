@@ -1,0 +1,7 @@
+Portable game notation (pgn) extractor
+	
+pgn-extract is a program to extract selected games from a collection of
+chess games in pgn format. there are several ways to specify the criteria
+on which to extract: textual move sequences, the position reached after a
+sequence of moves, information in the tag fields, and material balance in
+the ending.

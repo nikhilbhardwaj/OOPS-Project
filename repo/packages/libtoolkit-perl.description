@@ -1,0 +1,20 @@
+Keep your handy modules organized
+	
+the toolkit module provides a standard location to store modules that you use
+all the time, and then loads them for you automatically. for example, instead
+of always writing:
+
+
+ use strict;
+ use warnings;
+ use carp;
+ use smart::comments;
+
+
+in every program/module, you can just write:
+
+
+ use toolkit;
+
+
+and put all your favorite modules in a file.

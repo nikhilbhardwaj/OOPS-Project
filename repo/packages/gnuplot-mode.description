@@ -1,0 +1,13 @@
+Yet another gnuplot mode for emacs
+	
+gnuplot is a major mode for emacs flavours with the following features:
+
+ - functions for plotting lines, regions, entire scripts, or entire files
+ - graphical interface to setting command arguments
+ - syntax colorization
+ - completion of common words in gnuplot
+ - code indentation
+ - on-line help using info for gnuplot functions and features
+ - interaction with gnuplot using comint
+ - pull-down menus plus a toolbar in xemacs
+ - distributed with a quick reference sheet in postscript.

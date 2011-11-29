@@ -1,0 +1,18 @@
+Client and server for the cpushare distributed computing platform
+	
+cpushare is a research project created by andrea arcangeli with the goal of
+connecting together the computers of the internet in order to create a low
+cost p2p virtual supercomputer available to everybody to use in a matter of
+minutes, controlled by a market for the cpu resources that chooses the price
+of the cpu resources using the supply and demand law in real time.
+
+using the cpucoins (the cpucoins are a virtual credit, like in a video game),
+cpushare can be optionally used as an energy accumulator, without requiring
+cash transactions to be useful. after accumulating cpucoins, users can be
+allowed to share them with their friends, so that joint supercomputing
+projects can be developed too.
+
+the cpushare protocol is open and in turn it provides interoperability to all
+os and architectures that can support virtualization of a x86-64 cpu.
+
+currently cpushare only works on i386, amd64, powerpc and ppc64 platforms.

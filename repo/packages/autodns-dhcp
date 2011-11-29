@@ -1,0 +1,4 @@
+PackageId:789
+Name:autodns-dhcp
+Version:0.8
+Deps:bind9,dhcp3-server,isc-dhcp-server,dnsutils,perl,perl5

@@ -1,0 +1,7 @@
+Query object framework - debug symbols
+	
+qof is a framework to allow the execution of sql-type queries
+using collections of in-memory objects as 'tables'.
+
+this package provides the debugging symbols that may be
+useful when developing applications using qof.

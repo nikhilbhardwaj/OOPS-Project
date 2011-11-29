@@ -1,0 +1,17 @@
+Flush out-of-date disk buffers
+	
+fdflush is a band-aid for floppy (or other) drives with bad disk-change
+sensing. fdflush makes the system believe the disk-change switch has been
+triggered forcing the system to discard the buffered data.
+
+if you have one of these slightly-broken disk drives, you'll have to run
+fdflush every time you change a disk.
+
+fdflush is useful for computers which might be sleeping when you change
+floppies or other removable media.
+
+the command "floppycontrol -f" does the same thing, but the
+fdutils package is significantly larger; it only uses the
+floppy-specific flush ioctl.
+
+the command "blockdev --flushbufs" only uses the generic flush ioctl.

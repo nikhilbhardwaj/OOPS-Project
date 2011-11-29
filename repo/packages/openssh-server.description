@@ -1,0 +1,21 @@
+Secure shell (ssh) server, for secure access from remote machines
+	
+this is the portable version of openssh, a free implementation of
+the secure shell protocol as specified by the ietf secsh working
+group.
+
+ssh (secure shell) is a program for logging into a remote machine
+and for executing commands on a remote machine.
+it provides secure encrypted communications between two untrusted
+hosts over an insecure network. x11 connections and arbitrary tcp/ip
+ports can also be forwarded over the secure channel.
+it can be used to provide applications with a secure communication
+channel.
+
+this package provides the sshd server.
+
+in some countries it may be illegal to use any encryption at all
+without a special permit.
+
+sshd replaces the insecure rshd program, which is obsolete for most
+purposes.

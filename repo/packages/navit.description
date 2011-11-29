@@ -1,0 +1,16 @@
+Car navigation system with routing engine
+	
+navit is a car navigation system with routing engine.
+
+its modular design is capable of using vector maps of various formats for
+routing and rendering of the displayed map. it's even possible to use multiple
+maps at a time.
+
+the gtk+ or sdl user interfaces are designed to work well with touch screen
+displays. points of interest of various formats are displayed on the map.
+
+the current vehicle position is either read from gpsd or directly from nmea
+gps sensors.
+
+the routing engine not only calculates an optimal route to your destination,
+but also generates directions and even speaks to you using speech-dispatcher.

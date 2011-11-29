@@ -1,0 +1,10 @@
+Filesystem operations in c++ (default version)
+	
+this package forms part of the boost c++ libraries collection.
+
+the boost filesystem library provides portable facilities to query and
+manipulate paths, files, and directories.  the goal is to
+facilitate portable script-like operations from within c++ programs.
+
+this package is a dependency package, which depends on debian's default
+boost version (currently 1.42).

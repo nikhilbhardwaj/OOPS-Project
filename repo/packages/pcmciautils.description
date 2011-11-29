@@ -1,0 +1,12 @@
+Pcmcia utilities for linux 2.6
+	
+this package provides pcmcia initialisation tools for linux 2.6.13-rc1 or
+later, replacing the old pcmcia-cs tools used with earlier kernel versions.
+pcmcia cards are commonly used in laptops to provide expanded capabilities
+such as network connections, modems, increased memory, etc.
+
+to use pcmcia you need to have kernel modules available to support
+it. these are included in the stock debian 2.6 kernel packages. you
+will most likely also need udev, although it isn't always required.
+
+the wireless-tools package is required by many wireless network adapters.

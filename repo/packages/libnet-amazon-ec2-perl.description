@@ -1,0 +1,6 @@
+Perl interface to the amazon elastic compute cloud (ec2)
+	
+net::amazon::ec2 is a perl interface to amazon's elastic compute cloud. it
+uses the query api to communicate with amazon's web services framework. this
+module is coded against the query version of the '2009-07-15' version of the
+ec2 api, which was last updated 3 september 2009.

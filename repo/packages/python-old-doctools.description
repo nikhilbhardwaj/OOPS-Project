@@ -1,0 +1,8 @@
+Python latex based documentation tools (rescued from python2.5)
+	
+this package contains the latex based documentation tools as found in
+the python2.5.x releases, but not included anymore in newer python
+releases.
+
+packages should not depend or build-depend on this package anymore
+after the squeeze release.

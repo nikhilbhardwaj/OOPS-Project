@@ -1,0 +1,12 @@
+Chemical structures editor
+	
+bkchem is a free chemical drawing program, which is written in python.
+
+some of the features, you can expect:
+
+ * drawing (bond-by-bond drawing; templates for common rings; expanding of
+   common-groups; draws radicals, charges, arrows; color support ...)
+ * editing (unlimited undo and redo capabilities; aligning; scaling;
+   rotation (2d, 3d) ...)
+ * export/import (fully supported svg-, openoffice.org-draw-, eps-export;
+   basic support for cml1 and cml2 import and export)

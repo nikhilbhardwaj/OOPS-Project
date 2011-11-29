@@ -1,0 +1,8 @@
+Keymaps, fonts, charset maps, fallback tables for console-tools
+	
+this package provides the standard data files for the linux console tools.
+
+this includes keyboard definitions (keymaps), console fonts for various
+encodings, maps defining the standard charsets for use by text applications,
+and fallback tables allowing to approximate an unavailable character's glyph
+with the glyph of another character in the current font.

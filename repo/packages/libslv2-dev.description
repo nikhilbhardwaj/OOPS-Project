@@ -1,0 +1,10 @@
+Development files (headers) for slv2 library
+	
+slv2 is a library geared towards music and audio applications
+which makes the use of lv2 plugins as simple as possible.
+lv2 is a simple but extensible successor of ladspa plugins,
+intended to address the limitations of ladspa
+which many applications have outgrown.
+
+this package contains the headers used to build applications
+that use libslv2.

@@ -1,0 +1,6 @@
+E-mail filter program for sendmail
+	
+mimedefang is an e-mail filter program which processes all messages sent
+via sendmail. it splits multi-part mime messages into their components
+and can delete or modify those parts before reassembling the message and
+sending it on its way.

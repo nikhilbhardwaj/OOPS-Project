@@ -1,0 +1,5 @@
+Drop-in replacements for other sound libraries
+	
+to get programs which use the esound (esd), arts, openbsd sndio, pulseaudio
+or yiff api running, you can install this package and replace the appropriate
+libraries.

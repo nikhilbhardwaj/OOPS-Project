@@ -1,0 +1,9 @@
+Gap computer algebra system, essential gap libraries
+	
+gap is a system for computational discrete algebra with particular
+emphasis on computational group theory, but which has already proved
+useful also in other areas.   in the example text, gap is used to
+analyse rubik's cube using group theory.  a kernel implements a pascal-like
+language.
+
+this package contains the essential gap libraries (lib and grp).

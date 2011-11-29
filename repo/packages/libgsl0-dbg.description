@@ -1,0 +1,10 @@
+Gnu scientific library (gsl) -- debug symbols package
+	
+the gnu scientific library (gsl) is a collection of routines for
+numerical analysis.  the routines are written from scratch by the gsl
+team in c, and present a modern api for c programmers, while allowing
+wrappers to be written for very high level languages.
+
+this package contains debugging symbol tables for the static  gsl libraries
+libgsl and libgslcblas from the libgsl0-dev package, and the binaries
+gsl-randist and gsl-histogram from the gsl-bin package.

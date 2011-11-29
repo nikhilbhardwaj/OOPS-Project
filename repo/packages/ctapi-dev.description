@@ -1,0 +1,7 @@
+Card terminal (ct) api definition
+	
+this package contains the definition for the ct-api, a standard for
+interfacing iso/iec 7816 compatible smartcards.
+
+unless you are writing drivers for a smartcard terminal, it is unlikely
+that you will need this package.

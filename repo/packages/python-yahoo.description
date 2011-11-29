@@ -1,0 +1,6 @@
+Python module for the yahoo search web service
+	
+this module implements a set of classes and functions to work with the
+yahoo search web services. all results from these services are properly
+formatted xml, and this package facilitates for correct parsing of these
+result sets.

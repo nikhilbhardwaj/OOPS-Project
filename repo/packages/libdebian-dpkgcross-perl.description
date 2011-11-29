@@ -1,0 +1,5 @@
+Functions to aid cross-compiling debian packages
+	
+debian::dpkgcross is a module of perl functions to aid installing
+libraries and headers for cross compiling. supports enhanced
+functionality of 'dpkg-buildpackage -a' when cross compiling.

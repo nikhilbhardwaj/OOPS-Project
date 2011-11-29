@@ -1,0 +1,10 @@
+Talloc-based event loop library - development files
+	
+tevent is a simple library that can handle the main event loop for an
+application. it supports three kinds of events: timed events, file
+descriptors becoming readable or writable and signals.
+
+talloc is used for memory management, both internally and for private
+data provided by users of the library.
+
+this package provides the development files.

@@ -1,0 +1,8 @@
+Packet construction set for python
+	
+pcs is a set of python modules and objects that make building network
+protocol code easier for the protocol developer. it provides functionality
+to encode and decode network packets in various formats as well as a set
+of classes for the most commonly used network protocols. libpcap can be
+used to read packets from dump files or network devices and to inject
+constructed packets into the network.

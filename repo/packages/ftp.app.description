@@ -1,0 +1,9 @@
+File transfer protocol application for gnustep
+	
+this is a file transfer application (rfc 765) featuring a compact and easy
+interface. as most applications in gap it tries to work on both gnustep and
+macos x and retain the utmost possible similarity among the two version to
+ease working in both environments.
+
+ftp supports different port arbitration modes: "default", standard "port"
+(also known as active) and standard "pasv" (also known as passive).

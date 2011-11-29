@@ -1,0 +1,15 @@
+Graphical package manager
+	
+synaptic is a graphical package management tool based on gtk+ and apt.
+synaptic enables you to install, upgrade and remove software packages in
+a user friendly way.
+
+besides these basic functions the following features are provided:
+
+ * search and filter the list of available packages
+ * perform smart system upgrades
+ * fix broken package dependencies
+ * edit the list of used repositories (sources.list)
+ * download the latest changelog of a package
+ * configure packages through the debconf system
+ * browse all available documentation related to a package (dwww is required)

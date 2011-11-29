@@ -1,0 +1,11 @@
+The haskell logging framework, api documentation
+	
+hslogger is a logging framework for haskell, roughly similar to
+python's logging module.
+
+hslogger lets each log message have a priority and source be associated
+with it.  the programmer can then define global handlers that route
+or filter messages based on the priority and source.  hslogger also
+has a syslog handler built in.
+
+this package contains the api documentation.

@@ -1,0 +1,15 @@
+Collection of emacs development environment tools - common parts
+	
+cedet is a collection of tools written with the end goal of creating
+an advanced development environment in emacsen.
+
+the cedet-common subpackage contains small utilities recently drawn
+out of some of the other tools. some example tools include:
+
+
+ * working - a busy meter.
+ * sformat - souped up format.
+ * cedet-autogen - autoload generators extended for eieio and semantic.
+ * inversion - package level versioning system.
+ * ezimage - simple way to declare and display images in all versions of emacs
+ * pprint - pretty printer for emacs lisp values.

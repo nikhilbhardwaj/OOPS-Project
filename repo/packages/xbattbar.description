@@ -1,0 +1,13 @@
+Display battery status in x11
+	
+xbattbar displays the current (laptop) battery status in the x window
+environment. battery status is obtained through the apm interface.
+
+the battery indicator of this program is very simple: a simple bar
+at the top/bottom of your display. with its color, it indicates the
+ac-line status (plugged in or off-line), and battery charging/remaining
+level. also, if the mouse cursor enters the indicator window, a popup
+diagnosis window comes up in the center of your display showing the
+current ac line status and battery level.
+
+this package supports acpi and apm checks for battery status.

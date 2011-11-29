@@ -1,0 +1,5 @@
+Multi purpose socket tool
+	
+the socket program is a simple tool for socket based connections. it
+can be used to create simple daemons (in both standalone and inetd
+mode), to connect to other daemons or to redirect ports.

@@ -1,0 +1,15 @@
+Geronimo jsr-303 bean validation spec api
+	
+apache geronimo implementation of the jsr-303 bean validation spec api.
+
+jsr 303 defines a metadata model and api for javabean validation.
+the default metadata source is annotations, with the ability to override and
+extend the meta-data through the use of xml validation descriptors. the
+api is not tied to a specific application tier or programming model.
+
+it is specifically not tied to either the web tier or the persistence tier,
+and is available for both server-side application programming,
+as well as rich client swing application developer.
+
+this package contains only api of jsr-303 spec. hibernate validator is the
+reference implementation of this spec.

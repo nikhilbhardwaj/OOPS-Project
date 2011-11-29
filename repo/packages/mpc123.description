@@ -1,0 +1,10 @@
+Command-line musepack audio player
+	
+mpc123 is a command-line player for the musepack audio compression
+format.
+
+mpc is a lossy compression format like mp3 or ogg vorbis. it is
+based on the mpeg-1 layer-2 / mp2 algorithms, but has vastly
+improved.
+
+right now the player isn't able to play remote files.

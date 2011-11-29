@@ -1,0 +1,4 @@
+PackageId:24990
+Name:munin
+Version:1.4.5-3
+Deps:adduser,cron,bcron-run,libdigest-md5-perl,perl,libhtml-template-perl,liblog-log4perl-perl,librrds-perl,libstorable-perl,libtime-hires-perl,munin-common,perl-modules,libparse-recdescent-perl,rrdtool,ttf-dejavu

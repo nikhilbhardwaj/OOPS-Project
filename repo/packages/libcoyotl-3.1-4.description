@@ -1,0 +1,39 @@
+Portable c++ classes used by acovea
+	
+the classes provided here do not easily fit into a single category; in
+essence, these are tools that the author of the acovea package has found
+useful in a variety of applications.
+
+among the algorithms included:
+
+
+  - a polymorphic collection of the best pseudorandom number generators,
+    including the mersenne twister and marsaglia's favorites.
+
+
+
+  - utilities for working with real numbers, including additional functions
+    for trigonometry, least common multiple, greatest common denominator,
+    rounding, and other purposes.
+
+
+
+  - a simple cross-platform command-line parser.
+
+
+
+  - a framework for generating rectangular mazes.
+
+
+
+  - a template for fixed-point math based on different integer sizes and
+    decimal point locations.
+
+
+
+  - templatized sorting utilities (designed before standard c++'s use
+    of <algorithms>, but still useful).
+
+
+
+  - validation tools for "design by contract" programming.

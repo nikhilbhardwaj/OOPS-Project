@@ -1,0 +1,6 @@
+Openpgp key server
+	
+onak is an openpgp compatible keyserver which supports multiple subkeys,
+photo ids and path finding between keys. it can provide an hkp
+compatible interface for use with the --keyserver option of gnupg as
+well as including a command line tool for querying the key database.

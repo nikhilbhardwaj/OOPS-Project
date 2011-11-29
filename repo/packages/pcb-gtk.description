@@ -1,0 +1,10 @@
+Printed circuit board (pcb) design program - gtk+ interface
+	
+pcb is an interactive printed circuit board editor for the x11 window
+system. pcb includes a rats nest feature, design rule checking, and can
+provide industry standard rs-274-x (gerber), nc drill, and centroid data
+(x-y data) output for use in the board fabrication and assembly process.
+pcb offers high end features such as an autorouter and trace optimizer
+which can tremendously reduce layout time.
+
+this package contains the gtk+ user-interface for pcb.

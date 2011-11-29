@@ -1,0 +1,10 @@
+A small caching dns proxy and dhcp/tftp server
+	
+dnsmasq is a lightweight, easy to configure, dns forwarder and dhcp
+server. it is designed to provide dns and optionally, dhcp, to a
+small network. it can serve the names of local machines which are
+not in the global dns. the dhcp server integrates with the dns
+server and allows machines with dhcp-allocated addresses
+to appear in the dns with names configured either in each host or
+in a central configuration file. dnsmasq supports static and dynamic
+dhcp leases and bootp/tftp for network booting of diskless machines.

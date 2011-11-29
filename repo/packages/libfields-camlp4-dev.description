@@ -1,0 +1,13 @@
+Ocaml syntax extension that enables folding over record fields
+	
+fieldslib is an ocaml syntax extension that can be used to define
+first class values representing record fields. on top of those
+values additional routines can then be automatically defined to:
+
+
+ - get and set record fields
+ - iterate and fold over fields
+ - create new record values
+
+
+fieldslib is built on top of camlp4.

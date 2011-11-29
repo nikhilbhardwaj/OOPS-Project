@@ -1,0 +1,8 @@
+Logfile monitor that displays in an x window.
+	
+the displayed logs are colour-coded according to severity.  basically, you
+get to see what's going on _during_ say a break-in, instead of having to
+check the logfiles after the damage is done. of course, you need to have
+the syslog daemons configured right, so that the logfiles are
+created. xwatch reads options from its commandline as well as from a
+app-defaults resource file.

@@ -1,0 +1,5 @@
+Mp3/ogg vorbis broadcast streaming library
+	
+a library for communicating with and sending data to icecast and icecast 2
+streaming audio servers.  it handles the socket connection, the timing of
+the data transmission, and prevents bad data from getting to the server.

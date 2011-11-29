@@ -1,0 +1,12 @@
+Framework to build hardware with roaraudio portocol support (documentation)
+	
+this is a framework used to build hardware with support for the roaraudio
+protocol.
+
+this package contains documentation with most important
+magic numbers, data types and macros to work on roaraudio messages.
+
+this is not a complet library to access a server. if you search
+for a library wich handles all the stuff for you on
+unix and unix like operating systems like debian you better
+have a look at libroar and libmuroar.

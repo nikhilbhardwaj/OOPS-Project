@@ -1,0 +1,37 @@
+Gnu r package to prepare and display roc curves
+	
+roc graphs, sensitivity/specificity curves, lift charts,
+and precision/recall plots are popular examples of trade-off
+visualizations for specific pairs of performance measures. rocr is a
+flexible tool for creating cutoff-parametrized 2d performance curves
+by freely combining two from over 25 performance measures (new
+performance measures can be added using a standard interface).
+curves from different cross-validation or bootstrapping runs can be
+averaged by different methods, and standard deviations, standard
+errors or box plots can be used to visualize the variability across
+the runs. the parametrization can be visualized by printing cutoff
+values at the corresponding curve positions, or by coloring the
+curve according to cutoff. all components of a performance plot can
+be quickly adjusted using a flexible parameter dispatching
+mechanism. despite its flexibility, rocr is easy to use, with only
+three commands and reasonable default values for all optional
+parameters.
+
+rocr features: roc curves, precision/recall plots, lift charts, cost
+curves, custom curves by freely selecting one performance measure for the
+x axis and one for the y axis, handling of data from cross-validation
+or bootstrapping, curve averaging (vertically, horizontally, or by
+threshold), standard error bars, box plots, curves that are color-coded
+by cutoff, printing threshold values on the curve, tight integration
+with rs plotting facilities (making it easy to adjust plots or to combine
+multiple plots), fully customizable, easy to use (only 3 commands).
+
+performance measures that rocr knows: accuracy, error rate, true
+positive rate, false positive rate, true negative rate, false negative
+rate, sensitivity, specificity, recall, positive predictive value,
+negative predictive value, precision, fallout, miss, phi correlation
+coefficient, matthews correlation coefficient, mutual information, chi
+square statistic, odds ratio, lift value, precision/recall f measure,
+roc convex hull, area under the roc curve, precision/recall break-even
+point, calibration error, mean cross-entropy, root mean squared error,
+sar measure, expected cost, explicit cost.

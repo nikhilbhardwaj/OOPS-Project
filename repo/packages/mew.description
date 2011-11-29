@@ -1,0 +1,17 @@
+Mail reader supporting pgp/mime for emacs
+	
+mew (messaging in the emacs world) is a user interface for text messages,
+multimedia messages (mime), news articles and security functionality
+including pgp, s/mime, ssh and ssl.
+
+the features of mew are as follows:
+
+
+ - pop, smtp, nntp and imap are supported.
+ - you can easily display a very complicated structured message.
+ - you can start to read messages before they are all fully listed.
+ - for refiling, default folders are neatly suggested.
+ - you can complete field names, e-mail addresses, receiver's names,
+   domain names and folder names.
+ - you can easily search messages with keywords etc.
+ - thread, a mechanism to display the flow of messages, is supported.

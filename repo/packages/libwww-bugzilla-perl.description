@@ -1,0 +1,7 @@
+Perl module to manipulate a bugzilla database
+	
+www::bugzilla is a perl module that handles submission and updating of bug
+reports submitted to arbitrary bugzilla installations. it supports many of
+the most common operations, including updating bug properties (severity,
+status, attachments) and creating new reports. it uses www::mechanize to
+do its thing.

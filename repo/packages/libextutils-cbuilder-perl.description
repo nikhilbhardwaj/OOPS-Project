@@ -1,0 +1,10 @@
+Module to compile and link c code for perl modules
+	
+extutils::cbuilder is a utility to portably build c code by invoking the
+appropriate compilers and linkers. it provides a cross-platform way to build
+perl xs modules, which contain c code that needs to be built and dynamically
+linked to perl.
+
+though motivated by the module::build project, it may be useful for other
+purposes as well. however, this module is not intended as a general interface
+for all c building needs.

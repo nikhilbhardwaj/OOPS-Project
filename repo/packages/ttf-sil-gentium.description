@@ -1,0 +1,44 @@
+Extended unicode latin font ("a typeface for the nations")
+	
+gentium ("belonging to the nations" in latin) is a unicode typeface family
+designed to enable the many diverse ethnic groups around the world who use
+the latin script to produce readable, high-quality publications. the design
+is intended to be highly readable, reasonably compact, and visually
+attractive. gentium has won a "certificate of excellence in typeface design"
+in two major international typeface design competitions: bukva:raz! (2001)
+and tdc2003 (2003).
+
+gentium provides glyphs for a wide range of latin and greek characters. the
+additional 'extended' latin letters are designed to naturally harmonize with
+the traditional 26 ones. diacritics are treated with careful thought and
+attention to their use. gentium also supports both ancient and modern greek,
+including a number of alternate forms. it currently supports the following
+ranges of unicode 3.0 (completely unless noted):
+
+range          description
+u+0020-u+007f  basic latin
+u+00a0-u+00ff  latin-1 supplement
+u+0100-u+017f  latin extended-a
+u+0180-u+021f  latin extended-b
+u+0222-u+0233  latin extended-b (continued)
+u+0250-u+02ad  ipa extensions
+u+02b0-u+02ff  spacing modifier letters
+u+0300-u+036f  combining diacritical marks
+u+0370-u+03d5  greek (not including archaic or coptic)
+u+1e00-u+1eff  latin extended additional
+u+1f00-u+1fff  greek extended
+u+2000-u+203a  general punctuation (partial)
+u+2070-u+209f  superscripts and subscripts
+u+20a0-u+20cf  currency symbols (partial)
+u+2100-u+214f  letterlike symbols (only a couple)
+
+gentium regular also includes some cyrillic glyphs, but they are only early
+drafts. a future version will include a completely revised set, including
+italic, and will expand the support for latin, greek and cyrillic to unicode
+4.1.
+
+gentiumalt is an alternate font with flatter diacritics, specifically
+designed for languages using multiple accents.
+
+the extended sources (fontlab .vfb) for this font family are available
+in the source package and on the project website.

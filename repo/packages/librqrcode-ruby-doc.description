@@ -1,0 +1,9 @@
+Ruby library for encoding qrcode (2d barcodes)
+	
+this is a standalone, pure-ruby library for generating qrcodes (2d
+barcodes), with a very simple interface, and supporting all the
+standard qrcode options. it was adapted from the javascript library
+by kazuhiko arase.
+
+this is the documentation package, with upstream documentation, as well as
+generated rdoc.

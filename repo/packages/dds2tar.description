@@ -1,0 +1,7 @@
+Tools for using dds features of dat drives with gnu tar
+	
+this tool makes use of the fast seek command of dat devices.
+files from a selected file archive can be extracted within one minute.
+
+a script scsi_vendor is provided which may help in learning more about
+an unknown scsi device.  it is used by the mt-dds tool.

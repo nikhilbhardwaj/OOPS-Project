@@ -1,0 +1,9 @@
+An extended version of xaw3d with support for utf8
+	
+xaw3dxft is an extended version of xaw3d, developed as part of xpaint
+with support for utf8 input and utf8 encoding of text, and rendering
+text with the freetype library and truetype fonts.
+
+it should be mostly compatible with the original xaw3d library,
+except for font management: everything using the old x11 core
+font routines should be replaced by their freetype equivalents.

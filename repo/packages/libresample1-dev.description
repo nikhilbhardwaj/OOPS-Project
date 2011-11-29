@@ -1,0 +1,40 @@
+Real-time audio resampling library - development files
+	
+a real-time library for audio sampling rate conversion providing
+several useful features relative to resample-1.7 on which it is based:
+
+
+ - more portable (source includes autoconf script and visual c++
+   project file, packaging adds cmake script with shared library
+   support).
+
+
+
+ - memory-based (no need to read or write external files).
+
+
+
+ - floating-point computations (not fixed-point).
+
+
+
+ - faster and more accurate results (filter table increased by a factor
+   of 32).
+
+
+
+ - supports variable resampling ratio (data can be processed in small
+   chunks).
+
+
+
+ - easily applied to any number of simultaneous data channels
+
+
+
+ - lgpl-licensed (libsamplerate, a gpl-licensed alternative, is
+   considered by the libresample author to be technically superior).
+
+
+this package contains the development headers and static libraries for
+resample.

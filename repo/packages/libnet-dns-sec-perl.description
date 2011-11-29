@@ -1,0 +1,11 @@
+Dnssec extension to net::dns
+	
+this module implements dns resource record types that are relevant
+for dnssec operations. this package implements rfc4034
+"resource records for the dns security extensions" and rfc2931 "dns
+request and transaction signatures ( sig(0)s )"
+
+it also provides support for sig0. that later is useful for dynamic
+updates using key-pairs.
+
+rsa and dsa crypto routines are supported.

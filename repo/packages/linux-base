@@ -1,0 +1,4 @@
+PackageId:23216
+Name:linux-base
+Version:2.6.32-38
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libuuid-perl,util-linux,udev

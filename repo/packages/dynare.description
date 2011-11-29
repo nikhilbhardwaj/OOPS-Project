@@ -1,0 +1,17 @@
+Suite for non-linear models with forward looking variables
+	
+dynare is a pre-preprocessor and a collection of gnu octave and
+matlab routines which can solve, simulate and estimate non-linear
+models with forward looking variables.
+
+in particular, in the field of computational economics, it is used
+for solving and estimating dynamic stochastic general equilibrium
+(dsge) models.
+
+this package provides a full installation of dynare for gnu octave.
+
+it contains:
+
+ * the binary preprocessor
+ * dynamic loadable libraries for faster computation, compiled for octave
+ * the standalone program dynare++ for higher-order approximations

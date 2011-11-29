@@ -1,0 +1,13 @@
+Tied hash which keeps insertion order and allows duplicate keys
+	
+tie::dxhash implements a hash which preserves insertion order and allows
+duplicate keys.
+
+tie::dxhash works by storing the hash data in an array of hash references
+(containing the key/value pairs).  this preserves insertion order.  a
+separate set of iterators (one per distinct key) keeps track of the last
+retrieved value for a given key, thus allowing the successive retrieval of
+multiple values for the same key to work as expected.
+
+tie::dxhash was originally written to facilitate the use of more complex
+mod_rewrite rules in apache configuration files written with perl sections.

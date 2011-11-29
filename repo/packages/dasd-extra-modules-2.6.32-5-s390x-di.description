@@ -1,0 +1,5 @@
+Optional dasd diag support
+	
+this package contains the module for dasd diag support. the udeb is
+not loaded by default as the installer does not actually support this.
+it can however be useful to have available in rescue situations.

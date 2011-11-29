@@ -1,0 +1,7 @@
+Interprocess publish/subscribe channels
+	
+ipc::pubsub provides a simple api for publishing messages to channels
+and for subscribing to them.
+
+when a message is published on a channel, all subscribers currently in
+that channel will get it on their next get or get_all call.

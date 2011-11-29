@@ -1,0 +1,12 @@
+Perl module for argument type classification
+	
+params::classify provides various type-testing functions. these are intended
+for functions that, unlike most perl code, care what type of data they
+are operating on. for example, some functions wish to behave
+differently depending on the type of their arguments (like overloaded
+functions in c++).
+
+these functions only provide type classification; they do not enforce
+type restrictions. type enforcement may, of course, be built using
+these classification functions, but the reader's attention is drawn to
+libparams-validate-perl.

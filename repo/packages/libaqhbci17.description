@@ -1,0 +1,9 @@
+Library for hbci online banking
+	
+this library provides an api implementing the home banking computer
+interface, hbci, a protocol popular with german banks. it is best used
+in conjunction with aqbanking, see the libaqbanking packages.
+
+if you intend to use hbci with digital signatures stored and/or processed on
+chipcards you will also need to install the package
+libchipcard-libgwenhywfar47-plugins.

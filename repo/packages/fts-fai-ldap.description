@@ -1,0 +1,8 @@
+Ldap fai module for the tftp/fuse supplicant
+	
+fai module for fts which is using the ldap backend in conjunction
+with gosa and goto to generate client configurations.
+
+the fts daemon has been designed with modularity in mind. it
+allows dynamic configurations generated from other sources like
+i.e. ldap or opsi configuration.

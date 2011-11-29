@@ -1,0 +1,11 @@
+Documentation of the jaxb specification for java/xml binding
+	
+a java/xml binding compiler takes as input a schema description. the output
+is a set of java classes:
+
+ * a java bean class compatible with the schema description.
+ * an unmarshaller that converts a xml document into the equivalent java bean.
+ * a marshaller that converts the java bean back into the xml document.
+
+
+this package contains the documentation for the libjavxme-java package.

@@ -1,0 +1,25 @@
+Rip and encode cds with one command
+	
+jack has been developed with one main goal: making oggs (or mp3s)
+without having to worry. there is nearly no way that an incomplete rip
+goes unnoticed, e.g. jack compares wav and ogg file sizes when
+continuing from a previous run. jack also checks your hd space before
+doing anything (even keeps some mb free).
+
+jack is different from other such tools in a number of ways:
+
+ - it supports different rippers and encoders
+ - it is very configurable
+ - it doesn't need x
+ - it can "rip" virtual cd images like the ones created by cdrdao
+ - when using cdparanoia, cdparanoia's status information is displayed
+   and archived for all tracks, so you can see if something went wrong
+ - it uses sophisticated disk space management, i.e. it schedules its
+   ripping/encoding processes depending on available space.
+ - freedb query, file renaming and id3/ogg-tagging
+ - it can resume work after it has been interrupted. if all tracks have
+   been ripped, it doesn't even need the cd anymore, even if you want
+   to do a freedb query.
+ - it can do a freedb query based on oggs alone, like if you don't
+   remember from which cd those oggs came from.
+ - freedb submissions

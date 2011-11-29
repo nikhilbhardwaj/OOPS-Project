@@ -1,0 +1,11 @@
+Gringotts data encapsulation and encryption library
+	
+a small, easy-to-use, thread-safe c library originally developed
+for gringotts; its purpose is to encapsulate data (generic: ascii
+but also binary data) in an encrypted and compressed file. it
+uses strong encryption algorithms, to ensure the data is as safe as
+possible, and allows the user to have the complete control over all
+the algorithms used in the process.
+
+for encryptions, libgringotts makes use of the mcrypt and mhash
+c libraries by nikos mavroyanopoulos.

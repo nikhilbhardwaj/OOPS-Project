@@ -1,0 +1,7 @@
+Shows linux kernel function usage in a style like top
+	
+kerneltop shows linux kernel function information usage (modules
+not included) like top do for process, and is derived from
+readprofile.
+
+it needs profiling enabled on kernel and on boot time.

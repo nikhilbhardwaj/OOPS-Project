@@ -1,0 +1,7 @@
+Determine file type using magic structure
+	
+file::type uses magic numbers (typically at the start of a file) to
+determine the mime type of that file.
+
+file::type can use either a filename, or file contents, to determine the
+type of a file.

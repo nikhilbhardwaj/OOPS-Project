@@ -1,0 +1,6 @@
+Abstraction for enumerating block devices
+	
+udisks is an abstraction for enumerating block devices and performing
+operations on them. any application can access the
+org.freedesktop.udisks service on the system message bus.
+some operations (such as formatting disks etc.) are restricted using policykit.

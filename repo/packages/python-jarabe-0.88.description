@@ -1,0 +1,14 @@
+Sugar graphical shell - library
+	
+sugar is a graphical user interface aimed at children.
+
+originating as intregral part of the olpc "xo" a.k.a. the $100 laptop,
+sugar has since grown into a more widely usable low-ressource desktop
+environment for kids.
+
+this package contains jarabe, the sugar graphical "shell" interface
+providing the shell-level operations for sugar.  it interacts heavily
+with the sugar ui libraries.
+
+this is a "graphical" shell, the name does not refer to a command-line
+"shell" interface.

@@ -1,0 +1,4 @@
+Memoize functions using memcached
+	
+use a memcached instance to store data stored with memoize functions.
+provides the memoize::memcached perl module.

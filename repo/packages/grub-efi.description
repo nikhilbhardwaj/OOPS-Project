@@ -1,0 +1,4 @@
+Grand unified bootloader, version 2 (dummy package)
+	
+this is a dummy transitional package that depends on either grub-efi-ia32 or
+grub-efi-amd64, depending on the architecture.

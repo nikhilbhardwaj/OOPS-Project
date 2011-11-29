@@ -1,0 +1,10 @@
+Jabber client using qt
+	
+psi is a free instant messaging application designed for the jabber
+(xmpp) im network (including google talk). it has full unicode support,
+and supports most important xmpp features like file transfer, group chat,
+encryption etc.
+
+psi relies on the qca2 library for its encryption features. therefore,
+it's necessary to install libqca2-plugin-ossl for ssl (client-to-server)
+encryption and libqca2-plugin-gnupg for pgp (end-to-end) encryption.

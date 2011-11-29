@@ -1,0 +1,12 @@
+Simple class variable accessors
+	
+class::accessor::class provides a simple way to create accessor and
+mutator methods for class variables, just as class::accessor provides
+for objects. it can use either an enclosed lexical variable, or a
+package variable.
+
+this module was once implemented in terms of class::accessor, but
+changes to that module broke this relationship. class::accessor::class
+is still a subclass of class::accessor, strictly for historical
+reasons. as a side benefit, a class that isa class::accessor::class is
+also a class::accessor and can use its methods.

@@ -1,0 +1,22 @@
+Chiark system administration utilities
+	
+this package contains a number of small administration scripts used
+by chiark.greenend.org.uk and other systems belonging to the sinister
+greenend organisation.  currently featuring only:
+
+with-lock-ex: a simple tool for acquiring a lockfile before running
+another program or script.
+
+summer: a tool for reporting complete details about a filesystem tree
+in a parseable format, including checksums.
+
+xacpi-simple: a very simple x client for displaying acpi battery
+charge status.
+
+watershed: a utility for saving on superfluous executions of an
+idempotent command.  (this is the same utility as shipped separately
+in ubuntu's udev, but with slightly different defaults and a
+different install location.)
+
+summer and watershed require the installation of the recommended
+crypto libraries; xacpi-simple needs the suggested x libraries.

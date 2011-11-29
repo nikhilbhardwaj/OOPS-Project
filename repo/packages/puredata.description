@@ -1,0 +1,6 @@
+Realtime computer music and graphics system
+	
+pure data (also known as pd) is a real-time graphical programming environment
+for audio and graphics processing. pd's audio functions are built-in;
+graphical computations require separate packages such as gem (graphics
+environment for multimedia) or pd-pdp (pd packet).

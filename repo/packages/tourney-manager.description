@@ -1,0 +1,9 @@
+Perl interface to run chess engine tournaments
+	
+let your chess engines play tournaments against each other.
+this program manages setup and automatic running engine vs.
+engine matches, it has an interactive commandline and can
+start and stop the tournament, show current state and a
+crosstable. every game will be displayed in a xboard session
+and can be observed. all games are stored in portable chess
+game notation, pgn.

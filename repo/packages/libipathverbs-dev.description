@@ -1,0 +1,9 @@
+Development files for the libipathverbs driver
+	
+libipathverbs is a device-specific driver for qlogic infiniband host
+channel adapters (hcas) for the libibverbs library.  this allows
+userspace processes to access qlogic hca hardware directly with
+low latency and low overhead.
+
+this package contains static versions of libipathverbs that may be linked
+directly to an application, which may be useful for debugging.

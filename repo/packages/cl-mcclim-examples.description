@@ -1,0 +1,11 @@
+Common lisp graphic user interface toolkit
+	
+mcclim is a free implementation of the clim specification.  clim (common lisp
+interface manager) is a cross-platform, cross-implementation graphic user
+interface toolkit for common lisp programs.
+
+this package contains example files for mcclim.
+
+please note that a clx implementation compatible with your cl system,
+i.e. cl-clx-sbcl for sbcl and cmucl-source for cmucl, is required to compile
+and run cl-mcclim and cl-mcclim-examples.

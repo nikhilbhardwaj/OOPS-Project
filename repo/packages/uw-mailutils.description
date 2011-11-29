@@ -1,0 +1,16 @@
+C-client support programs
+	
+imap (internet message access protocol) is a method of accessing
+electronic messages kept on a (possibly shared) mail server.
+
+the uw (university of washington) imap toolkit provides the c-client
+mail-handling library supporting various network transport methods,
+file system storage formats, and authentication and authorization
+methods.
+
+this package contains helper tools for the libc-client library:
+
+ - mailutil: utility program which helps manage email mailboxes (both
+             local and imap/pop3/nntp);
+ - dmail:    mda (mail delivery agent) for use with procmail;
+ - tmail:    mda for use with the system mailer (such as sendmail or postfix).

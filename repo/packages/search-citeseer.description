@@ -1,0 +1,8 @@
+Bibtex search tool
+	
+search-citeseer is a perl script that connects to citeseer
+(http://citeseer.nj.nec.com/cs), and performs a keyword search
+query. the result is a set of bibtex entries that matches the query.
+
+if you use some emacsen application, this package will install the
+search-citeseer.el script on it.

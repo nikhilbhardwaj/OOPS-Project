@@ -1,0 +1,58 @@
+Waveform generation tools
+	
+a set of tools for imitating a laboratory signal generator,
+generating audio signals out of linux's /dev/dsp audio device.  there
+is support for mono and/or stereo and 8 or 16 bit samples.  the tools
+include:
+
+
+ * soundinfo: display some of the programming capabilities of the
+
+sound system support for the mixer device /dev/mixer and the dsp
+device.  also shows some of the ioctl calls in action.
+
+
+ * signalgen: a command line signal generator where details are specified
+
+from the command line for generating sine, cos, square, triangle,
+sawtooth, pulse, noise waves.  frequency, sample rate, relative
+amplitude etc. can be specified through command line options.  the
+signal is played continuously until the program is stopped.  there
+are options to save the basic raw digital samples raw to file or to a
+wave format file.
+
+
+ * swgen: a command line sweep generator.  both the sweeping and
+
+swept waveforms can be specified, along with the sweeping frequency
+and the swept frequency range.  otherwise similar to sgen above.
+
+
+ * siggen: an ncurses screen based signal generator for two separate
+
+channels.  on stereo audio cards the two channels are played on
+separate outputs.  on mono cards the teo channels are digitally mixed
+onto the one output.  type of waveform, frequency, amplitude, sample
+rate etc are specified/changed via a screen menu.  it plays
+continuously.  changes to parameters take effect nearly immediately.
+
+
+ * sweepgen: an ncurses screen based sweep generator (see swgen and
+
+siggen above).
+
+
+ * tones: a command line program to generate several successive tones
+
+of varying frequency, and optional differing waveforms, durations and
+intensities.  the sequence of tones can be either played once, or
+repetitively or the samples can be written to a file in raw or wav
+format.  this could make the basis of an auto-dialer for tone phones.
+
+
+ * smix: a simple command line program for getting and setting the
+
+mixer settings.
+
+
+ * fsynth: an ncurses based fourier synthesis realtime generator.

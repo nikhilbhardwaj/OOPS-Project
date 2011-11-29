@@ -1,0 +1,6 @@
+Html to wiki markup converter - moinmoin dialect
+	
+html::wikiconverter is an html to wiki converter. it can convert html
+source into a variety of wiki markups, called wiki "dialects".
+
+this package provides the markdown dialect.

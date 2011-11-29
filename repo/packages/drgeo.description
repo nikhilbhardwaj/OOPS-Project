@@ -1,0 +1,30 @@
+An interactive geometry software
+	
+this is the gtk interactive geometry software. it allows one
+to create geometric figure plus the interactive manipulation of such
+figure in respect with their geometric constraints. it is usable in
+teaching situation with students from primary or secondary level.
+
+dr. geo comes with a complete set of tools arranged
+in different categories:
+
+
+ * points
+ * lines
+ * geometric transformations
+ * numeric function
+ * macro-construction
+ * dgs object - dr. geo guile script
+ * dsf - dr geo scheme figure, it is interactive figure defined in
+   a file and evaluated with the embedded scheme interpretor, awesome!
+ * export facilities in the latex and eps formats
+
+
+several figures and macro-constructions examples are available
+in the /usr/share/drgeo/examples folder.
+
+more information about dr. geo can be found at
+its web site http://www.gnu.org/software/dr_geo/dr_geo.html
+
+installing the drgeo-doc package is also encouraged to get
+more of dr. geo.

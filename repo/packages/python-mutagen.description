@@ -1,0 +1,9 @@
+Audio metadata editing library
+	
+mutagen is a python module to handle audio metadata. it supports flac,
+m4a, mp3, ogg flac, ogg speex, ogg theora, ogg vorbis, true audio, and
+wavpack audio files. all versions of id3v2 are supported, and all
+standard id3v2.4 frames are parsed. it can read xing headers to
+accurately calculate the bitrate and length of mp3s. id3 and apev2
+tags can be edited regardless of audio format. it can also manipulate
+ogg streams on an individual packet/page level.

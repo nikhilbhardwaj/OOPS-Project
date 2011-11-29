@@ -1,0 +1,11 @@
+Freehep graphicsio test library
+	
+the graphicsio library offers a base interface for image exporters in many
+vector or bitmap image formats. it features direct support for gif, png, ppm
+and raw formats, as well as the ability to manage truetype fonts. support
+for other file types con be added with plugins.
+
+this package contains a series of tests used within graphicsio or its
+plugins.
+
+freehep is a collection of java libraries used in high energy physics.

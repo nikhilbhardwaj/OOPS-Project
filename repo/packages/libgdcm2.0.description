@@ -1,0 +1,8 @@
+Grassroots dicom runtime libraries
+	
+grassroots dicom is a c++ library for dicom medical files. it is
+automatically wrapped to python/c#/java (using swig). it supports
+raw,jpeg (lossy/lossless),j2k,jpeg-ls, rle and deflated. it also
+comes with dicom part 3,6 & 7 of the standard as xml files.
+
+this package contains the libraries needed to run gdcm applications.

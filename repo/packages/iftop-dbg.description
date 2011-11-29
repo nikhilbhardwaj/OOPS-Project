@@ -1,0 +1,8 @@
+Displays bandwidth usage information on an network interface (debug)
+	
+iftop does for network usage what top(1) does for cpu usage. it listens to
+network traffic on a named interface and displays a table of current bandwidth
+usage by pairs of hosts. handy for answering the question "why is my internet
+link so slow?".
+
+this package contains the debugging symbols.

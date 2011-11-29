@@ -1,0 +1,11 @@
+Extension for the dbus bindings
+	
+net::dbus provides a perl api for the dbus message system. the dbus perl
+interface is currently operating against the 0.32 development version of
+dbus, but should work with later versions too, providing the api changes have
+not been too drastic.
+
+users of this package are either typically, service providers in which case
+the net::dbus::service and net::dbus::object modules are of most relevance,
+or are client consumers, in which case net::dbus::remoteservice and
+net::dbus::remoteobject are of most relevance.

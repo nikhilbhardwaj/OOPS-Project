@@ -1,0 +1,5 @@
+Dbus messages plugin for xfce4-panel
+	
+xfce4 messenger plugin for xfce4 panel is a plugin that listens dbus
+messages and displays received messages in panel and/or popup
+window, and maintains a log of received messages.

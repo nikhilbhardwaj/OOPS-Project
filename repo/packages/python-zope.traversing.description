@@ -1,0 +1,6 @@
+Resolving paths in the object hierarchy
+	
+the zope.traversing package provides adapters for resolving object paths by
+traversing an object hierarchy.  this also includes support for traversal
+namespaces (e.g. ++view++, ++skin++, etc.) as well as computing urls via the
+@@absolute_url view.

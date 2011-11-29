@@ -1,0 +1,9 @@
+Grassroots dicom vtk tools and utilities
+	
+grassroots dicom is a c++ library for dicom medical files. it is
+automatically wrapped to python/c#/java (using swig). it supports
+raw,jpeg (lossy/lossless),j2k,jpeg-ls, rle and deflated.
+
+libvtkgdcm-tools provides a number of command line debugging and utility
+tool. install this package for the gdcmviewer and gdcm2vtk
+programs.

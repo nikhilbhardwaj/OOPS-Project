@@ -1,0 +1,12 @@
+Extension to docbook xml for using mathml markup
+	
+the docbook mathml module adds support for including mathml
+markup in docbook xml source documents.
+
+the mathml module is a customization of the full docbook
+xml v4.1.2 dtd. the module requires access to the mathml v2.0 dtd
+provided by the w3-dtd-mathml package.
+
+author: norman walsh <ndw@nwalsh.com>
+
+homepage: http://oasis-open.org/docbook/xml/mathml/

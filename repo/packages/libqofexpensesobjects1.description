@@ -1,0 +1,8 @@
+Financial qof objects for expenses handling
+	
+financial objects using the query object framework (qof)
+and derived from pilot-qof source code, supporting expenses
+management and simple currencies without business objects.
+
+this package contains the qofexpense and qofcurrency
+objects as a shared library.

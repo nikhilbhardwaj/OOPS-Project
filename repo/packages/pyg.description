@@ -1,0 +1,19 @@
+Python mail <-> news gateway
+	
+python gateway script from news to mail and vice versa.
+
+it is intended to be a full smtp/nntp rfc compliant gateway
+with whitelist manager.
+
+you will probably have to install a mail-transport-agent and/or
+news-transport-system package to manage smtp/nntp traffic.
+
+mta is needed for mail2news service, since mail have to be
+processed on a box where pyg is installed. you can use a remote
+smtpserver for news2mail.
+
+news system is useful but not needed, since you can send articles to a
+remote smtp server (ie: moderated ng) where is installed pyg, otherwise you
+will need it.
+
+it refers to rfc 822 (mail) and 850 (news).

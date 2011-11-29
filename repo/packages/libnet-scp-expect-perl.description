@@ -1,0 +1,5 @@
+Wrapper for scp to send passwords via expect
+	
+net::scp::expect allows you to transfer files via scp, but instead of having
+to use shared keys or to input a password interactively, it allows you to
+send them programmataically via expect.

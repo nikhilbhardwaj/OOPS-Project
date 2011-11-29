@@ -1,0 +1,10 @@
+Perl extension for fixing timing for subtitles
+	
+movie files can be viewed with subtitles, which are currently very popular as
+text files. this module provides means for simple loading, re-timing, and
+storing these subtitle files.
+
+the module supports srt, sub, smi subtitle formats.
+
+a command-line tool `subs' for manupulation of subtitles files is included in
+this package.

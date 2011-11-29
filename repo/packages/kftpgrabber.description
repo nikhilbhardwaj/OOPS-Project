@@ -1,0 +1,25 @@
+Ftp client for kde
+	
+kftpgrabber is a graphical ftp client for the k desktop environment. it
+implements many features required for usable ftp interaction.
+
+feature list:
+
+ - multiple simultaneous ftp sessions in separate tabs
+ - a tree-oriented transfer queue
+ - tls/ssl support for the control connection and the data channel
+ - x509 certificate support for authentication
+ - fxp site-to-site transfer support
+ - one-time password (otp) support using s/key, md5, rmd160 or sha1
+ - site bookmarks with many options configurable per-site
+ - distributed ftp daemon support (implementing the pret command)
+ - can use zeroconf for local site discovery
+ - bookmark import plugins from other ftp clients
+ - support for the sftp protocol
+ - a nice traffic graph
+ - ability to limit upload and download speed
+ - priority and skip lists
+ - integrated sfv checksum verifier
+ - direct viewing/editing of remote files
+ - advanced default "on file exists" action configuration
+ - filter displayed files/directories as you type

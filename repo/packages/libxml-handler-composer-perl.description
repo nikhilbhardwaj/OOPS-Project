@@ -1,0 +1,15 @@
+Perl module for generating xml output
+	
+this module is similar to xml::writer, xml::handler::xmlwriter,
+xml::handler::yawriter etc. in that it generates xml output.
+
+this implementation may not be fast and it may not be the best
+solution for your particular problem, but it has some features that
+may be missing in the other implementations, such as:
+
+ * supports every output encoding that xml::um supports - xml::um
+   supports every encoding for which there is a mapping file in the
+   xml::encoding distribution.
+ * pretty printing when used with xml::filter::reindent.
+ * fine control over which kind of quotes are used.
+ * supports perlsax interface.

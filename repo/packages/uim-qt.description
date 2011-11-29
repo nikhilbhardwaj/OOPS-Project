@@ -1,0 +1,11 @@
+Qt 4.x immodule for uim
+	
+uim is a input method module library supporting various languages, which
+become a frontend for anthy, skk, canna, t-code, tut-code, pinyin(chinese
+input method), hangul(korean input method), ipa(international phonetic
+alphabet) and etc.... most of the functions are implemented with scheme,
+so it's very simple and flexible.
+
+this package contains only utilities which build againt libqt4.
+a input method module on qt 4.x, which is newly implemented from immodule
+for qt does not contain in this package for now.

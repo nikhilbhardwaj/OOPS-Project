@@ -1,0 +1,12 @@
+Extension for computing string similarities and edit distances
+	
+the levenshtein module computes levenshtein distances, similarity ratios,
+generalized medians and set medians of unicode or non-unicode strings.
+because it's implemented in c, it's much faster than the corresponding
+python library functions and methods.
+
+the levenshtein distance is the minimum number of single-character
+insertions, deletions, and substitutions to transform one string into
+another.
+
+it is useful for spell checking, or fuzzy matching of gettext messages.

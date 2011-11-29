@@ -1,0 +1,9 @@
+A pam module which allows users to have more than one password
+	
+pam_dotfile is a pam module which allows users to have more than one
+password for a single account, each for a different service. this
+makes sense since many users have objections to use the same password
+for (as an example) the imap4 mailbox and the ssh access. the imap4
+password should be distinct from the ssh password since the user wants
+to save the former in the configuration of his mail agent, but not the
+latter. the same applies to pop3 mailboxes, ftp and comparable services.

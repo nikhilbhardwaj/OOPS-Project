@@ -1,0 +1,6 @@
+Statically-linked lustre version of the ext2 filesystem checker
+	
+this binary is necessary in order to check the lustre filesystem on ost and
+mgs nodes. this binary is linked statically in order to do not conflict with
+the regular e2fsck package, therefore it will consume much more space thant
+it's dynamic linked counterpart.

@@ -1,0 +1,7 @@
+Multicasts all channels of a dvb transponder on a network
+	
+mumudvb is a program that redistributes streams from dvb on a network
+using multicast. it is able to multicast a whole dvb transponder by
+assigning each channel a different multicast ip. it can operate
+conditional access modules (cam), and therefore works with encrypted
+streams. it has very low cpu and memory usage.

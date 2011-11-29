@@ -1,0 +1,7 @@
+Pdf viewer with vim-like behaviour
+	
+apvlv (alf's pdf viewer like vim) is a small and fast pdf viewer, that uses
+poppler for rendering. its interface aims to users who like vim behaviour.
+for example opening a pdf file can be done with ':o filename'. apvlv can also
+work with tabs, so you can open multiple files at the same time in one
+program.

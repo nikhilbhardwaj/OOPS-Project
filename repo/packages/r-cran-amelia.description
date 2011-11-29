@@ -1,0 +1,18 @@
+Gnu r package supporting multiple imputation of missing data
+	
+amelia ii "multiply imputes" missing data in a single cross-section
+(such as a survey), from a time series (like variables collected for
+each year in a country), or from a time-series-cross-sectional data
+set (such as collected by years for each of several
+countries). amelia ii implements our bootstrapping-based algorithm
+that gives essentially the same answers as the standard ip or emis
+approaches, is usually considerably faster than existing approaches
+and can handle many more variables.
+
+the program also generalizes existing approaches by allowing for
+trends in time series across observations within a cross-sectional
+unit, as well as priors that allow experts to incorporate beliefs
+they have about the values of missing cells in their data. amelia ii
+also includes useful diagnostics of the fit of multiple imputation
+models. the program works from the r command line or via a graphical
+user interface that does not require users to know r.

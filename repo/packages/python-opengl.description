@@ -1,0 +1,7 @@
+Python bindings to opengl
+	
+pyopengl is a cross-platform open source python binding to the standard
+opengl api providing 2d and 3d graphic drawing. pyopengl supports the
+gl, glu, gle, and glut libraries. the library can be used with the tkinter,
+wxpython, fxpy, and win32gui windowing libraries (or almost any python
+windowing library which can provide an opengl context).

@@ -1,0 +1,6 @@
+Quick and easy signing of each uid on a pgp keyring
+	
+the pgp individual uid signer (pius) is a tool for individually
+signing all of the uids on a set of keys and encrypt-emailing each
+one to it's respective email address. this drastically reduces the time
+and errors involved in signing keys after a keysigning party.

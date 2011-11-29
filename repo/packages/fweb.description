@@ -1,0 +1,15 @@
+A literate-programming tool for c/c++/fortran/ratfor
+	
+literate-programming allows the programmer to write a program's
+code and its code's documentation, with equal importance accorded
+to both. this helps producing a well-documented code.
+
+fweb has grown out of knuth and levy's cweb; it is far more
+configurable and customizable than the original, uses latex to
+typeset documented code, provides a very powerful macro processor...
+
+ratfor programmers may appreciate the builtin ratfor-to-fortran
+translator if they don't have the right compiler.
+
+other languages than those cited may be used, but without code
+pretty-printing.

@@ -1,0 +1,8 @@
+Instrumentation system for linux 2.6 (compile server)
+	
+this package contains compile server for systemtap. it can be used
+together with systemtap client to compile probes on a remote machine.
+probes will be compiled by the server on request of remote clients.
+
+systemtap provides infrastructure to simplify the gathering of
+information about the running linux system.

@@ -1,0 +1,10 @@
+Webmail component for horde framework
+	
+imp is the internet messaging program (formerly, among other things, the imap
+webmail program), a php-based webmail system and a component of the horde
+project.  imp, once installed, accesses mail over imap thus requiring little
+to no special preparations on the server on which mail is stored.
+
+imp offers most of the features users have come to expect from their
+conventional mail programs, including attachments, spell-check, address books,
+multiple folders, and multiple-language support.

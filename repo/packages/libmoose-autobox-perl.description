@@ -1,0 +1,6 @@
+Perl autobox wrapper that understands moose roles
+	
+moose::autobox implements scalar, array, hash and code handlers for use with
+autobox, which is a perl pragma facilitating method calls on native perl data
+types. this module understands the hierarchy of roles and provides support for
+data manipulation in a manner similar to what perl 6 might do.

@@ -1,0 +1,8 @@
+A bundle of additional libraries for ruby 1.8
+	
+this bundle contains a selection of useful libraries for the ruby
+language.  this includes libraries that are considered supplemental to the
+standard library, such as: breakpoint, daemons, cmdparse, inline,
+log4r, and rubygems.
+it also pulls in some of the libraries which were split of libruby because
+they have additional dependencies: openssl, ncurses, and readline.

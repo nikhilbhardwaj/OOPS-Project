@@ -1,0 +1,11 @@
+Build and manipulate firmware images for the dns-323
+	
+this package contains programs for manipulating the firmware images used by
+the d-link dns-323 and similar devices (firmwares sometimes referred to as
+"frodoii" firmwares, due to the magic string used to identify them).
+
+these firmware images are what are used to "bundle" the kernel, initrd, and
+other data when uploading new firmware images using the "stock" interface.
+if you are already running a custom firmware, it is likely that these tools
+will be of no use to you, and you will need to use whatever update mechanism
+is provided by your firmware.

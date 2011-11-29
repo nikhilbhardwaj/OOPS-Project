@@ -1,0 +1,4 @@
+PackageId:24032
+Name:mahara-apache2
+Version:1.2.6-2+squeeze2
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,libapache2-mod-php5,mahara

@@ -1,0 +1,9 @@
+Yubikey otp library development files
+	
+yubikeys are usb tokens that act like keyboards and generate one-time
+passwords.  the tokens are produced and sold by yubico
+
+this library is used for decrypting the one-time passwords into their
+various components.
+
+this package contains the necessary files for developing using libyubikey.

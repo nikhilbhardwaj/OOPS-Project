@@ -1,0 +1,14 @@
+Ssl enabled pop3, apop, imap mail gatherer/forwarder
+	
+fetchmail is a free, full-featured, robust, and well-documented remote mail
+retrieval and forwarding utility intended to be used over on-demand tcp/ip
+links (such as slip or ppp connections).  it retrieves mail from remote mail
+servers and forwards it to your local (client) machine's delivery system, so
+it can then be read by normal mail user agents such as mutt, elm, pine,
+(x)emacs/gnus, or mailx.  the fetchmailconf package includes an interactive
+gui configurator suitable for end-users.
+
+kerberos v and gssapi are supported.
+
+kerberos iv,  rpa, opie and other support for some other features are
+available if the package is recompiled.

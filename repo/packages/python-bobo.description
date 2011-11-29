@@ -1,0 +1,13 @@
+Web application framework for the impatient
+	
+bobo is a light-weight framework for creating wsgi web applications. it's goal
+is to be easy to use and remember.
+
+it addresses 2 problems: mapping urls to objects, calling objects to
+generate http responses.
+
+bobo doesn't have a templateing language, a database integration layer, or a
+number of other features that are better provided by wsgi middle-ware or
+application-specific libraries.
+
+bobo builds on other frameworks, most notably wsgi and webob.

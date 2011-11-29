@@ -1,0 +1,4 @@
+PackageId:35532
+Name:zfs-fuse
+Version:0.6.9-1
+Deps:fuse-utils,libaio1,libc6,libc6-udeb,libfuse2,libssl0.9.8,lsb-base,zlib1g

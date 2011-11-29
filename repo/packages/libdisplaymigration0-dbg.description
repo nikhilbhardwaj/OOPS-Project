@@ -1,0 +1,6 @@
+Display migration support for gtk [debugging]
+	
+this package contains debugging files for libdisplaymigration, a library
+which provides display migration support for gtk. x properties are used to
+advertise that windows are capable of migration, and to request windows to
+migrate to a specified display.

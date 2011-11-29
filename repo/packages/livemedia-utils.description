@@ -1,0 +1,13 @@
+Multimedia rtsp streaming tools
+	
+the live555.com streaming media code is a set of c++ libraries for multimedia
+streaming, using open standard protocols (rtp/rtcp, rtsp, sip). these
+libraries can be used to build applications to stream, receive and process
+mpeg, h.263+ or jpeg video, several audio codecs, and can easily be extended
+to support additional codecs. they can also be used to build basic rtsp (real
+time streaming protocol) or sip (session initiation protocol) clients and
+servers.
+
+this package contains the live555.com streaming server (live555mediaserver),
+the example programs (openrtsp, playsip, sapwatch, vobstreamer) and a variety
+of test tools.

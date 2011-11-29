@@ -1,0 +1,16 @@
+Kde office suite documentation in html format
+	
+koffice is an integrated office suite for kde, the k desktop
+environment.  it offers a word processor, spreadsheet, presentation
+program, graphics tools and more.
+
+by default the koffice applications only provide their documentation in
+kde docbook format, which can only be read by konqueror or khelpcenter.
+this package provides all of the koffice documentation converted to html
+format so it can be read with any web browser.
+
+the documentation will be installed into the usual directories
+/usr/share/doc/kde/html/<language>/<app>/, for instance
+/usr/share/doc/kde/html/en/kword/.
+
+this package is part of the kde office suite.

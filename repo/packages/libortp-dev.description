@@ -1,0 +1,12 @@
+Real-time transport protocol stack
+	
+this library implements the rfc1889 (rtp) with a easy to use api with high
+and low level access.
+
+its main features are:
+
+  - support for multiples profiles, av profile (rfc1890) being the default one;
+  - an optional packet scheduler for synchronizing rtp recv and send;
+  - implements blocking and non blocking io for rtp sessions;
+  - supports mutiplexing io;
+  - supports part of rfc2833 for telephone events over rtp.

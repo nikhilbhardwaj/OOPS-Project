@@ -1,0 +1,16 @@
+Python-based web framework
+	
+turbogears takes the best components available and combines them into one
+easy-to-install, documented whole. turbogears includes parts that join the
+pieces together and make them work together seamlessly, but doesn't obscure
+each included project. this allows you to take advantage of all existing
+documentation, articles, mailing lists and other resources that have built up
+in the communities for each project.
+
+turbogears glues together the following components:
+
+
+ * cherrypy/paste frameworks
+ * sqlobject/sqlalchemy object relational mappers
+ * kid/genshi templating systems
+ * mochikit javascript library

@@ -1,0 +1,8 @@
+Retrieve mail from yahoo!'s webmail service
+	
+fetchyahoo is a perl script that downloads mail from a yahoo! webmail
+account to a local mail spool, an mbox file, or to procmail. it is
+meant to replace fetchmail for people using yahoo! mail since yahoo!'s
+pop and email forwarding services are no longer free. it includes all
+parts and attachments within the email. it can also forward the email
+to a specified address.

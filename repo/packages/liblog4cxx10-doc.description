@@ -1,0 +1,5 @@
+Documentation for log4cxx
+	
+log4cxx is the c++ port of log4j, a logging framework for java.
+log4cxx attempts to mimic log4j usage as much as the language will
+allow and to be compatible with log4j configuration and output formats.

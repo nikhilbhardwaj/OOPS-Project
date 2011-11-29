@@ -1,0 +1,8 @@
+Module to match hash keys using regular expressions
+	
+the tie::hash::regex module allows hash keys to be matched using regular
+expressions.
+
+in comparison to tie::regexphash, rather than using regexps as keys that match
+against fetches, tie::hash::regex allows the use of standard keys that are
+matched by regexps in fetches.

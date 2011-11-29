@@ -1,0 +1,4 @@
+Easy mocking of lwp packages
+	
+make lwp packages to make testing easier. test::mock::lwp arises from
+duplicating the same code to mock lwp et al in several different modules.

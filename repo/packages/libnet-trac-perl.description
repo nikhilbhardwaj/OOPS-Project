@@ -1,0 +1,13 @@
+Perl client library for trac
+	
+net::trac is simple client library for a remote trac instance. because
+trac doesn't provide a web services api, this module currently "fakes"
+an rpc interface around trac's webforms and the feeds it exports.
+because of this, it's somewhat more brittle than a true rpc client would
+be.
+
+as of now, this module has been tested against trac 10.4 and trac 11.0.
+
+the author's needs for this module are somewhat modest and its current
+featureset reflects this. right now, only basic read/write functionality
+for trac's tickets is provided.

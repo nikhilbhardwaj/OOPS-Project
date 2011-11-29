@@ -1,0 +1,19 @@
+Belgian eid pkcs11 library, debugging symbols
+	
+this package contains the development files for libbeidlibopensc, a
+library that is loosely based on libopensc with additional support for
+the belgian eid card. it was built from the official sources as
+provided by zetes belgium on the belgian federal website.
+
+the opensc library, on which this library was based, now also contains
+support for the belgian eid cards. however, since there are still some
+things that opensc chooses not to do (like showing a popup window
+without the application's interference when the user needs to enter his
+pincode), applications that want to use the belgian eid card may have
+to use this library instead of opensc.
+
+install this package if you need the debugging symbols of
+libbeidlibopensc2
+
+please read the readme.debian file in the libbeidlibopensc2 package for
+information on setting up your system so that it can read from smartcards.

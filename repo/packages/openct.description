@@ -1,0 +1,5 @@
+Middleware framework for smart card terminals
+	
+openct is an open source implementation providing card terminal
+drivers. it provides a native openct, ct-api and pc/sc lite ifd
+interface with an openct ifdhandler resource manager.

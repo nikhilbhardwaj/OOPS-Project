@@ -1,0 +1,5 @@
+Touchscreen-driver for x.org/xfree86 server
+	
+this xfree/x.org driver provides support for touchscreens input devices.
+the driver is actually an evdev-driver which supports events for moving
+in absolute coordinates, relative coordinates and mouse-buttons.

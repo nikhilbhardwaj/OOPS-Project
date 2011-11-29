@@ -1,0 +1,13 @@
+An interactive program for xafs analysis
+	
+ifeffit is an interactive program for xafs analysis. it combines the
+high-quality analysis algorithms of autobk and feffit with graphical display
+of xafs data and general data manipulation.
+
+ifeffit comes as a command-line program, but the underlying functionality is
+available as a programming library. the ifeffit library can be used from c,
+fortran, tcl, perl, and python. this allows a variety of user interfaces
+(both graphical and non-graphical) to be written around ifeffit. currently,
+three graphical user interfaces: g.i.feffit, athena/artemis, and sixpack
+are built on the underlying ifeffit library. ifeffit and allthree guis are
+under active development, but are fairly well tested and ready for use.

@@ -1,0 +1,8 @@
+Program to set and query settings of video4linux devices
+	
+the dov4l program can set properties such as frequency, tuner,
+inputchannel, mode, brightness, hue, color, contrast, whiteness,
+palette, width, and height of a video4linux device.  it can also
+query current settings.
+
+application web-site http://www.vanheusden.com/dov4l/

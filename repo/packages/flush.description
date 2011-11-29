@@ -1,0 +1,21 @@
+Gtk-based bittorrent client
+	
+flush is a gtk-based bittorrent client. you can use it to download
+files from the bittorrent network.
+
+features:
+
+ * controlling running instance by command line interface.
+ * running many instances with different configs from the same user.
+ * automatic copying finished downloads to specified directory.
+ * setting custom download path for each file of the torrent.
+ * ability to choose torrent file's character set encoding.
+ * automatic torrents loading from specified directory.
+ * automatic pausing and removing old torrents.
+ * temporary pausing and resuming torrents.
+ * overall and current session statistics.
+ * creating your own torrent files.
+ * ip filter.
+
+
+flush uses rasterbar's version of libtorrent.

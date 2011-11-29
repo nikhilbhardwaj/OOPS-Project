@@ -1,0 +1,4 @@
+PackageId:11790
+Name:libecryptfs-dev
+Version:83-4
+Deps:libecryptfs0,libgcrypt11-dev,libgpg-error-dev,libgpgme11-dev,libkeyutils-dev,libopencryptoki-dev,libpam0g-dev,libpkcs11-helper1-dev,libtspi-dev

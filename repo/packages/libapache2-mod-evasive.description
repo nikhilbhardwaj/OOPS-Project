@@ -1,0 +1,9 @@
+Evasive module to minimize http dos or brute force attacks
+	
+mod_evasive is an evasive maneuvers module for apache to provide some
+protection in the event of an http dos or ddos attack or brute force attack.
+
+it is also designed to be a detection tool, and can be easily configured to
+talk to ipchains, firewalls, routers, and etcetera.
+
+this module only works on apache 2.x servers

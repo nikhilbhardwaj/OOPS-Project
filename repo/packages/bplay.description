@@ -1,0 +1,12 @@
+Buffered audio file player/recorder
+	
+the bplay package provides a simple command-line utility for playing
+and recording audio files in raw sample, voc and wav formats.
+
+to use this program you need a soundcard of some kind and the
+appropriate driver configured into your kernel.
+
+when run the program creates two processes which share a memory
+buffer.  it does reading/writing on the disk and the sound device
+simultaneously, in order to be less liable to `pause' because the
+disk is too slow or too busy.

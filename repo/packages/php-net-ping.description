@@ -1,0 +1,5 @@
+A pear class wrapper around the ping shell utility
+	
+net_ping is an os independet wrapper class for executing ping calls within
+your php programs. it works by calling the ping utility from within the
+shell, and returning you the result.

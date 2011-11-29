@@ -1,0 +1,11 @@
+Network performance benchmark
+	
+netperf is a benchmark that can be used to measure the performance of many
+different types of networking. it provides tests for both unidirecitonal
+throughput, and end-to-end latency. the environments currently measureable by
+netperf include:
+
+ * tcp and udp via bsd sockets
+ * dlpi
+ * unix domain sockets
+ * ipv6

@@ -1,0 +1,11 @@
+The gnu revision control system
+	
+the revision control system (rcs) manages multiple
+revisions of files. rcs automates the storing, retrieval,
+logging, identification, and merging of revisions. rcs is
+useful for text that is revised frequently, for example
+programs, documentation, graphics, papers, and form letters.
+
+note: this package contains certain general-purpose commands
+(such as merge or ident) which may used by other programs
+installed on your system.

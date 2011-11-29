@@ -1,0 +1,5 @@
+Database engine for fast, reliable fixed-sized databases
+	
+whisper is a fixed size database, similar in design to the round robin
+database tool (rrdtool). whisper is used by the graphite scalable real
+time graphing system to store time-series data for later display.

@@ -1,0 +1,8 @@
+Simple network configuration tool
+	
+network-config is a simple and easy to use program that helps configuring
+the network interfaces for linux-based operating systems.
+it allows to have multiple configurations for the same computer and to
+easy configure nat for internet sharing. it can also be used to scan for
+wireless networks. it is written in perl and uses gtk2+ but also works
+as a command line program.

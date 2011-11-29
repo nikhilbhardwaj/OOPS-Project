@@ -1,0 +1,8 @@
+Graphical configurable talking cow
+	
+a graphical configurable talking cow. it's a gtk+ version of the
+classic cowsay perl script. it displays a cute pop-up cow on your
+desktop with a speech bubble and some customizable text. there's
+also a dream mode where the cow can display images. it comes
+with a fortune(6) wrapper script, xcowfortune, which you can cron
+to deliver periodic fortune cookies via the cow.

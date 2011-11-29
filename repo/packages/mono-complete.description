@@ -1,0 +1,16 @@
+Complete mono runtime, development tools and all libraries
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.
+
+this is a metapackage and pulls in the mono runtime, development tools and
+all libraries.
+
+install this package if you want to run software for mono or microsoft .net
+which you are not installing from a debian package.
+
+for packagers: this package is not to be used as dependency for packages!
+you should build-depend on cli-common-dev and the needed libraries instead.

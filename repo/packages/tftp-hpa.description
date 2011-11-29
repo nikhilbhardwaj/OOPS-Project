@@ -1,0 +1,9 @@
+Hpa's tftp client
+	
+trivial file transfer protocol (tftp) is a file transfer protocol, mainly to
+serve boot images over the network to other machines (pxe).
+
+tftp-hpa is an enhanced version of the bsd tftp client and server. it
+possesses a number of bugfixes and enhancements over the original.
+
+this package contains the client.

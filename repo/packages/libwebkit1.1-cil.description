@@ -1,0 +1,8 @@
+Cli binding for the webkit library
+	
+webkit is a web content engine, derived from khtml and kjs from kde, and
+used primarily in apple's safari browser.  it is made to be embedded in
+other applications, such as mail readers, or web browsers.
+
+this package provides the webkit-sharp assembly that allows cli programs to
+use webkit library.

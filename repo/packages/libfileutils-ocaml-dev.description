@@ -1,0 +1,8 @@
+File manipulation for ocaml
+	
+this library provides some functions which operate on the file system
+for the objective caml (ocaml) programming language. the aim is to enhance
+the basic functionality provided by the ocaml standard filename module.
+
+it provides functions, written in pure ocaml, for manipulating files (mv, cp,
+mkdir et al) and abstract filename (make_relative, make_absolute et al).

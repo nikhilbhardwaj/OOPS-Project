@@ -1,0 +1,10 @@
+Ruby client library for talking to beanstalkd
+	
+beanstalkd is a simple, fast, message queueing server, in which messages are
+organised in "tubes". beanstalk clients can insert and consume messages into
+and from such tubes.
+
+this package has a ruby client library for talking to beanstalkd.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

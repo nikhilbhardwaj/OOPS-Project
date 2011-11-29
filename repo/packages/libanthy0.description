@@ -1,0 +1,9 @@
+Input method for japanese - runtime library
+	
+anthy is a japanese input method working on x11 and emacs. it converts
+hiragana text to mixed kana and kanji. it is implemented as a library
+and stores private information securely in ~/.anthy/.
+thus, anthy is simple and secure (information is protected from
+spoofing and snooping).
+
+this package provides shared libraries for anthy.

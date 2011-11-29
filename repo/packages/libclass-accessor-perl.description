@@ -1,0 +1,7 @@
+Perl module that automatically generates accessors
+	
+class::accessor automagically generates accessor/mutator methods for your
+class. most of the time, writing accessors is an exercise in cutting and
+pasting. if you make your module a subclass of class::accessor and declare
+your accessor fields with mk_accessors() then you will find yourself with a
+set of automatically generated accessors which can even be customized.

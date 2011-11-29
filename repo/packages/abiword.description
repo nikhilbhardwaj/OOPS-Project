@@ -1,0 +1,14 @@
+Efficient, featureful word processor with collaboration
+	
+abiword is a full-featured, efficient word processing application.
+it is suitable for a wide variety of word processing tasks, and
+is extensible with a variety of plugins.
+
+this package includes many of the available import/export plugins allowing
+abiword to interact with odt, wordperfect, and other formats.  it also
+includes tools plugins, offering live collaboration with abiword users
+on linux and windows (using tcp or jabber/xmpp), web translation and
+dictionary support, and more.
+
+additional plugins that require significant amounts of extra software to
+function are in the various abiword-plugin-* packages.

@@ -1,0 +1,13 @@
+Tao cli binding for freeglut - development files
+	
+the tao framework is a collection of bindings and libraries to
+facilitate cross-platform games-related development utilizing the mono
+and .net platforms.
+
+freeglut is a completely opensourced alternative to the opengl utility
+toolkit (glut) library. glut (and hence freeglut) allows the user to
+create and manage windows containing opengl contexts on a wide range of
+platforms and also read the mouse, keyboard and joystick functions.
+
+this package contains development files for tao.freeglut, and should be
+used for compilation.

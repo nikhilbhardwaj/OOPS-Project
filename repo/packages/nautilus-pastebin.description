@@ -1,0 +1,11 @@
+Nautilus extension to send files to a pastebin
+	
+nautilus-pastebin is a nautilus extension written in python, which
+allows users to upload text-only files to a pastebin service just
+by right-clicking on them.
+
+after sending the files, a notification will be shown and the paste
+url copied into the clipboard.
+
+users can also customize the extension's behaviour just by using
+nautilus-pastebin-configurator, an easy-to-use configuration tool.

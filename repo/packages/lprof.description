@@ -1,0 +1,9 @@
+Hardware color profiler
+	
+
+lprof is a color profiler that creates icc compliant profiles for devices
+such as cameras, scanners, and monitors. these profiles provide color
+consistency across devices. they can be used in color profile-aware software
+such as the gimp and scribus. for an example of creating a profile that can
+be used with scribus see
+http://www.atlantictechsolutions.com/scribusdocs/lcms/moncal.html.

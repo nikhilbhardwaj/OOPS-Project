@@ -1,0 +1,16 @@
+Fast library for dynamic code generation
+	
+libtcc is a library that uses tcc, a compiler several times faster than
+'gcc -o0' to perform dynamic code generation. it exposes in its api all
+operations tcc performs to generate a binary from sources: setting
+header and library paths, compiling program from a source file,
+manipulating its symbols and handling relocation of its code among
+other things. libtcc is also able to compile from a buffer.
+
+this package contains the static library and header file for tcc (tiny
+c compiler).
+
+note: libtcc is still somewhat experimental and is not recommended for
+production use.  the code it generates is much less optimized than what
+gcc produces, and compiler bugs can have serious security consequences
+for your program.

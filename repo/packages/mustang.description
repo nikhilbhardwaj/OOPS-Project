@@ -1,0 +1,12 @@
+Multiple structural alignment of proteins
+	
+mustang is an algorithm to align multiple protein structures.
+given a set of pdb files, the program uses the spatial
+information in the calpha atoms of the set to produce a sequence alignment.
+based on a progressive pairwise heuristic the algorithm then proceeds
+through a number of refinement passes. mustang reports the multiple
+sequence alignment and the corresponding superposition of structures.
+
+when using this program please cite a.s. konagurthu, j.c. whisstock,
+p.j. stuckey, a.m. lesk, "mustang: a multiple structural alignment
+algorithm." proteins: structure, function, and bioinformatics. 64(3):559-574.

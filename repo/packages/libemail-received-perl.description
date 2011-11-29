@@ -1,0 +1,10 @@
+Perl module to parse an email received: header
+	
+email::received is a perl email project rewrite of spamassassin's email
+header parser. this was done so that the great work they did in analysing
+pretty much every possible received header format could be used in
+applications other than spamassassin itself.
+
+the module provides one function, parse_received, which takes a single
+received line. it then produces either nothing, if the line is unparsable,
+or a hash reference if it parsed the message.

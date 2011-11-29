@@ -1,0 +1,6 @@
+Extension for the dbus glib bindings
+	
+net::dbus::glib provides an extension to the net::dbus module allowing
+integration with the glib mainloop. to integrate with the main loop, simply
+get a connection to the bus via the methods in net::dbus::glib rather than
+the usual net::dbus module.

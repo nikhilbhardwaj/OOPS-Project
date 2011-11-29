@@ -1,0 +1,4 @@
+List of default blacklisted openssh rsa and dsa keys
+	
+contains the list of known-bad default openssh keys, for ssh-vulnkeys to
+use when examining suspect keys: dsa-1024, rsa-2048

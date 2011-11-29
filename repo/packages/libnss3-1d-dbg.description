@@ -1,0 +1,8 @@
+Debugging symbols for the network security service libraries
+	
+this is a set of libraries designed to support cross-platform development
+of security-enabled client and server applications. it can support sslv2
+and  v4, tls, pkcs #5, #7, #11, #12, s/mime, x.509 v3 certificates and
+other security standards.
+
+this package provides the debugging symbols for the library.

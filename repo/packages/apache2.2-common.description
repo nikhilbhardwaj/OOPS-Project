@@ -1,0 +1,9 @@
+Apache http server common files
+	
+the apache software foundation's goal is to build a secure, efficient and
+extensible http server as standards-compliant open source software. the
+result has long been the number one web server on the internet.
+
+this package contains the configuration and support scripts.
+however, it does *not* include the server itself; for this you need to
+install one of the apache2-mpm-* packages, such as worker or prefork.

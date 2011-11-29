@@ -1,0 +1,7 @@
+Pure perl http proxy
+	
+http::proxy implements the methods needed to run a pure-perl http
+proxy using lwp. useful for lightweight, easy to configure proxies.
+
+the most interesting feature of this proxy object is its ability to
+filter the http requests and responses through user-defined filters.

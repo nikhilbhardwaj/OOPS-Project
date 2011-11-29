@@ -1,0 +1,6 @@
+Generate postscript calendars without x
+	
+"pcal" is a program to print postscript calendars for any month and year.
+by default, it looks for a file in the home directory named "calendar"
+for entries with leading dates matching dates on the calendar, and prints
+any following text under the appropriate day.

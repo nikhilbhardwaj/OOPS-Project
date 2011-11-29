@@ -1,0 +1,7 @@
+Multiprotocol file grabber with textual and graphic control
+	
+this is a file grabber, which can work in text and graphical mode. pavuk
+is extremely configurable, supports ftp, http, https and gopher protocols.
+pavuk also supports cookies, http authentication, "robots.txt".
+you can also use ftp and http proxy caches. graphical interface
+is written in xt or gtk.

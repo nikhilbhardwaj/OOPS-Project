@@ -1,0 +1,9 @@
+Text file (chordpro format) to music sheet converter
+	
+chordii provides guitar players and other musicians with a tool to
+produce good looking, self-descriptive music sheets from text files.
+
+chordii reads text files in chordpro format, containing the lyrics of
+songs, the chords to be played, their descriptions and some other
+optional data. it produces a postscript document suitable for viewing
+and printing.

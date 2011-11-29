@@ -1,0 +1,41 @@
+Low-level virtual machine (llvm), c language family frontend
+	
+the low-level virtual machine (llvm) is a collection of libraries and
+tools that make it easy to build compilers, optimizers, just-in-time
+code generators, and many other compiler-related programs. llvm
+uses a single, language-independent virtual instruction set both
+as an offline code representation (to communicate code between
+compiler phases and to run-time systems) and as the compiler internal
+representation (to analyze and transform programs). this persistent
+code representation allows a common set of sophisticated compiler
+techniques to be applied at compile-time, link-time, install-time,
+run-time, or "idle-time" (between program runs).
+
+clang project is a new c, c++, objective c and objective c++ front-end
+for the llvm compiler. some of its goals include the following:
+
+end-user features:
+
+
+   * fast compiles and low memory use
+   * expressive diagnostics (examples)
+   * gcc compatibility
+
+
+utility and applications:
+
+
+   * modular library based architecture
+   * support diverse clients (refactoring, static analysis, code
+     generation, etc)
+   * allow tight integration with ides
+   * use the llvm 'bsd' license
+
+
+internal design and implementation:
+
+
+   * a real-world, production quality compiler
+   * a simple and hackable code base
+   * a single unified parser for c, objective c, c++, and objective c++
+   * conformance with c/c++/objc and their variants

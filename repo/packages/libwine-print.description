@@ -1,0 +1,7 @@
+Windows api implementation - printing module
+	
+wine is a free ms-windows api implementation.
+this is still a work in progress and many applications may still not work.
+
+this package contains a cups-enabled spooler and a postscript driver,
+allowing windows applications to print.

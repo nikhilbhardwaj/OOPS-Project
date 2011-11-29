@@ -1,0 +1,17 @@
+Fast and very simple ruby web server (metapackage)
+	
+thin is a ruby web server that glues together 3 of the best ruby
+libraries in web history:
+
+  * the mongrel parser, the root of mongrel's speed and security
+  * event machine, a network i/o library with extremely high
+    scalability, performance and stability
+  * rack, a minimal interface between webservers and ruby frameworks
+
+
+which makes it, with all humility, the most secure, stable, fast and
+extensible ruby web server bundled in an easy to use package for your own
+pleasure.
+
+this is a metapackage which depends on the version of thin for the
+current version of ruby. it also provides the /usr/bin/thin symlinks.

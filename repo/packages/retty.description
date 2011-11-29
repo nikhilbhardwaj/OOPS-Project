@@ -1,0 +1,11 @@
+Attach processes running on other terminals
+	
+retty is a tiny tool that lets you attach processes running on other
+terminals. so you were running that mutt outside of screen at your home
+machine and now wanna check your mail? attach it with retty, do whatever you
+want, detach it again and everything is as it was before. you don't have to
+run them all in screen just in case.
+
+note that the tool is only very lightly tested, so take some care. always
+check first if attaching given application works before you will do it for
+real.

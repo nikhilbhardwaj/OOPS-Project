@@ -1,0 +1,21 @@
+Ms-word to tex or plain text converter
+	
+this program extracts text from ms-word files, trying to preserve
+as many special printable characters as possible. catdoc supports
+everything up to word-97. also supported are ms write documents and rtf
+files.
+
+it doesn't even try to preserve fancy word formatting, because
+word users usually don't care about document structure, and it is
+this very thing which is important to latex users.
+
+also provided is xls2csv, which extracts data from excel spreadsheets
+and outputs it in comma-separated-value format and catppt, which extracts
+data from powerpoint presentations.
+
+this package suggests tk because it also includes wordview, an
+optional tk-based gui for catdoc.  the mime config provided in this
+package will use wordview is x is running, or catdoc directly if it
+is not.
+
+homepage: http://freshmeat.net/projects/catdoc

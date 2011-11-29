@@ -1,0 +1,9 @@
+Tool for configuring and maintaining network machines
+	
+the main purpose of cfengine is to allow the system administrator
+to create a single central file which will define how every host
+on a network should be configured.
+
+it takes a while to set up cfengine for a network (especially an
+already existing network), but once that is done you will wonder
+how you ever lived without it!

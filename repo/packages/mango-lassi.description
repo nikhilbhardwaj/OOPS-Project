@@ -1,0 +1,22 @@
+Share mouse and pointer with other computers
+	
+mango-lassi lets you to share mouse and pointer with other computers using
+avahi. it has features like:
+
+ * fully peer-to-peer. all mango lassi instances are both client and server
+   at the same time. other hosts may enter or leave a running session at any
+   time.
+ * no need to open x11 up for the network
+ * you have a 50% chance that for your setup you don't need any configuration
+   at all. in the case of the other 50% you might need to swap the order of
+   your screens manually in a simple dialog, because mango lassi
+   didn't guess correctly which screen is left and which screen is right.
+ * libnotify integration so that it tells you whenever a
+   desktop joins or leaves your session.
+ * shows a nice osd on your screen when your screen's input is currently being
+   redirected to another screen.
+ * uses all those nifty gnome apis, like d-bus-over-tcp, avahi, libnotify,
+   gtk,..
+ * supports both the x11 clipboard and the selection, supporting all content
+   types, and not just simple text -- i.e. you can copy and paste image data
+   between gimp on your screens.

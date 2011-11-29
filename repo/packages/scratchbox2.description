@@ -1,0 +1,7 @@
+Transparent cross compiling environment
+	
+scratchbox2 uses a ld_preload library to create a transparent cross compiling
+environment. scratchbox2 automatically maps file system accesses to
+crosscompiler, target libraries and headers using a flexible lua path mapping
+engine. together with cpu transparency, provided by qemu or sbrsh, scratchbox2
+enables fast crosscompiling without modifying build scripts.

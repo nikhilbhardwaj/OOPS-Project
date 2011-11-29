@@ -1,0 +1,10 @@
+Tao telecom log services
+	
+tao implementations of corba telecom log service.
+
+four separate services are provided:
+
+ * tao_tls_basic
+ * tao_tls_event
+ * tao_tls_notify
+ * tao_tls_rtevent

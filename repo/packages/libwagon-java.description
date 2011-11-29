@@ -1,0 +1,44 @@
+Tools to manage maven artifacts and deployment
+	
+the wagon project defines a simple api for transferring resources
+(artifacts) to and from repositories. the word repository is used in this
+context as it is commonly used in maven and means a storage of artifacts.
+
+it is also used to deploy the maven generated site to a server.
+
+this package contains the following jars:
+
+
+ wagon-file
+   implementation of wagon provider for file system access.
+ wagon-ftp
+   implementation of wagon provider for ftp access.
+ wagon-http
+   implementation of wagon provider for http access.
+ wagon-http-lightweight
+   implementation of wagon provider for http access. it uses standard
+   jdk classes as lower lever layer.
+   it enables maven to use remote repositories stored in http servers.
+   it doesn't allow deployment.
+ wagon-http-shared
+   this package is a shared library for the wagon-http, and
+   wagon-http-lightweight wagon providers
+ wagon-scm
+   implementation of wagon provider for source control access.
+   gets and puts artifacts using a source control management system.
+ wagon-ssh
+   implementation of wagon provider for scp and sftp access.
+   it enables maven to deploy artifacts and sites to ssh servers. it
+   uses jsch (java secure channel) as lower level layer.
+ wagon-ssh-common
+   implementation of wagon provider for scp and sftp access. it
+   enables maven to deploy artifacts and sites to ssh servers.
+   getting files from ssh servers is not fully tested.
+ wagon-ssh-external
+   implementation of wagon provider for ssh servers access. it
+   enables maven to deploy artifacts and sites to ssh servers.
+   it uses an external ssh program that has to be already installed
+   in the system. getting files from ssh servers is not fully tested.
+ wagon-webdav-jackrabbit
+   implementation of wagon provider for webdav access.
+   it uses the apache jackrabbit library for webdav access.

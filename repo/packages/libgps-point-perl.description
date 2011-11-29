@@ -1,0 +1,6 @@
+Module providing an object interface for a gps point
+	
+gps::point provides an object interface for a gps fix (e.g. position,
+velocity and time).
+
+note: please use geo::point, if you want 2d or projection support.

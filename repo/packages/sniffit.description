@@ -1,0 +1,7 @@
+Packet sniffer and monitoring tool
+	
+sniffit is a packet sniffer for tcp/udp/icmp packets.
+sniffit is able to give you very detailed technical info
+on these packets (sec, ack, ttl, window, ...) but also
+packet contents in different formats (hex or plain text,
+etc. ).

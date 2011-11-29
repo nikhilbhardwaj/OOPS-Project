@@ -1,0 +1,15 @@
+Reliable job queue
+	
+theschwartz is a reliable job queue system. your application can put jobs into
+the system, and your worker processes can pull jobs from the queue atomically
+to perform. failed jobs can be left in the queue to retry later.
+
+abilities specify what jobs a worker process can perform. abilities are the
+names of theschwartz::worker subclasses, as in the synopsis: the myworker
+class name is used to specify that the worker script can perform the job. when
+using the theschwartz client's work functions, the class-ability duality
+is used to automatically dispatch to the proper class to do the actual work.
+
+theschwartz clients will also prefer to do jobs for unused abilities before
+reusing a particular ability, to avoid exhausting the supply of one kind of job
+while jobs of other types stack up.

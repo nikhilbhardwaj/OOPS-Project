@@ -1,0 +1,9 @@
+Rpm shared library, development kit
+	
+the rpm package manager (rpm) is a command-line driven package
+management system capable of installing, uninstalling, verifying,
+querying, and updating computer software packages.
+
+this package provides the development kit, containing static
+libraries and header files necessary to build programs that use
+librpm.

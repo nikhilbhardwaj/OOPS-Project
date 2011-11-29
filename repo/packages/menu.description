@@ -1,0 +1,11 @@
+Generates programs menu for all menu-aware applications
+	
+debian menu keeps transparently the menus in the different
+window-managers in sync with the list of installed programs.
+
+debian menu relies on a list of menu entries provided by programs
+and a list of menu-methods provided by window-managers and other
+menu-aware applications.
+
+menu provides system-level and user-level configuration and overrides
+for both menu entries and menu-methods.

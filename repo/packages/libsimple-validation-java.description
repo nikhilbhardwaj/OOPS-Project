@@ -1,0 +1,9 @@
+Library for quickly adding validation code to swing user-interfaces
+	
+this is a simple library for retrofitting user-interface input
+validation to swing applications. it handles validating user input
+when the user changes a component's value, showing error messages and
+decorating components to indicate which component is the source of
+the problem. it contains a large number of built-in validators to
+handle most common situations, such as validating numbers, email
+addresses, urls and so forth.

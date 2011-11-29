@@ -1,0 +1,19 @@
+Perl module to update class::dbi data using cgi::untaint
+	
+lots of times, class::dbi is used in web-based applications. (in
+fact, coupled with a templating system that allows you to pass
+objects, such as template::toolkit, class::dbi is very much your
+friend for these.)
+
+one of the most irritating things about writing web-based applications
+is the monotony of writing much of the same stuff over and over again.
+and, where there's monotony there's a tendency to skip over stuff that
+is really important, but is a pain to write - like taint checking and
+sensible input validation. (especially as you can still show a 'working'
+application without it!). cgi::untaint can take care of a lot of that
+for us.
+
+it so happens that cgi::untaint also plays well with class::dbi. all
+you need to do is to 'use class::dbi::fromcgi' in your class (or in
+your local class::dbi subclass that all your other classes inherit
+from. you do that, don't you?).

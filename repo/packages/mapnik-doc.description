@@ -1,0 +1,15 @@
+C++/python toolkit for developing gis applications (doc)
+	
+mapnik is an opensource c++/python toolkit for developing gis
+(geographic information systems) applications. at the core is a c++
+shared library providing algorithms/patterns for spatial data access and
+visualization.
+
+essentially a collection of geographic objects (map, layer, datasource,
+feature, geometry), the library doesn't rely on "windowing systems" and
+is intended to work in multi-threaded environments
+
+high-level python bindings (boost.python) facilitate rapid application
+development, targeting zope3, django, etc.
+
+this package contains developer documentation.

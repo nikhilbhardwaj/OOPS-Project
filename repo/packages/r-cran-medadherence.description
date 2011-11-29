@@ -1,0 +1,12 @@
+Gnu r medication adherence: commonly used definitions
+	
+adherence is defined as "the extent to which a person's behavior
+coincides with medical or health advice", which is very important, for
+both clinical researchers and physicians, to identify the treatment
+effect of a specific medication(s).
+
+a variety of measures have been developed to calculate the medication
+adherence. definitions and methods to address adherence differ greatly
+in public literature. choosing which definition should be determined by
+overall study goals.  this package provides the functions to calculate
+medication adherence based on commonly used definitions.

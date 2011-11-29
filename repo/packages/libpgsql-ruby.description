@@ -1,0 +1,7 @@
+Postgresql interface for ruby
+	
+ruby-pg module allows ruby programs to interface with the postgresql
+database engine. it supports the functions defined in libpq library.
+
+this package is a dependency package, which depends on the package
+containing actual ruby-pg module for the default ruby version (currently 1.8).

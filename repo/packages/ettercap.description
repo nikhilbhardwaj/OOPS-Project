@@ -1,0 +1,17 @@
+Multipurpose sniffer/interceptor/logger for switched lan
+	
+ettercap supports active and passive dissection of many protocols
+(even ciphered ones) and includes many feature for network and host
+analysis.
+
+data injection in an established connection and filtering (substitute
+or drop a packet) on the fly is also possible, keeping the connection
+synchronized.
+
+many sniffing modes were implemented to give you a powerful and complete
+sniffing suite. it's possible to sniff in four modes: ip based, mac based,
+arp based (full-duplex) and publicarp based (half-duplex).
+
+it has the ability to check whether you are in a switched lan or
+not, and to use os fingerprints (active or passive) to let you know the
+geometry of the lan.

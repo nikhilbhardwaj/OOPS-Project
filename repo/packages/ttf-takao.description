@@ -1,0 +1,11 @@
+Japanese truetype font set, takao fonts
+	
+takao fonts are japanese gothic and mincho scalable fonts. they are
+suitable for both display and printing. this package provides them in
+truetype format.
+
+takao fonts are based on ipa fonts and ipaex fonts. takao's purpose is to
+make it possible to maintain and release the fonts by the community with
+changing their names.
+
+this is metapackage, depends on ttf-takao-{mincho,gothic} packages.

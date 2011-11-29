@@ -1,0 +1,7 @@
+Qsl signing library development files
+	
+a qsl is a confirmation of contact between two amateur radio stations.
+this library provides functions for signing amateur radio qsl data to
+create tqsls. tqsls can be uploaded to the arrl logbook of the world
+project for credit towards amateur radio awards. this package contains
+the header files required to compile programs which use this library.

@@ -1,0 +1,8 @@
+An automatic language analysis library
+	
+malaga is a system for implementing natural language analysers:
+both grammars and morphologies can be created.
+
+this package contains the shared library supporting other
+programs that use the malaga engine.  malaga itself does
+not use this library.

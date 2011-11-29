@@ -1,0 +1,15 @@
+Flexible backup tool for small to medium sized installations
+	
+flexbackup is a flexible backup tool that works well for small to medium
+sized tasks for which solutions like amanda are overkill.
+
+it features:
+
+ * easy configuration
+ * uses afio, dump, gnu tar, cpio, star, pax, lha, or zip archivers
+ * full and numbered levels of incremental backup (similar to "dump")
+ * compression and buffering options for all backup types
+ * handles remote filesystems with ssh/rsh; no special services required
+ * writes to tapes, on-disk archive files, or on-disk directory trees
+ * keeps a table of contents so you know what archives are on each tape
+ * extensive logging options

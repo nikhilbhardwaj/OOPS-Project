@@ -1,0 +1,7 @@
+Gnu r package for delayed-data
+	
+g.data creates and maintains delayed-data packages (ddp's). data
+stored in a ddp are available on demand, but do not take up memory
+until requested.  you attach a ddp with g.data.attach(), then read from
+it and assign to it in a manner similar to s-plus, except that you must
+run g.data.save() to actually commit to disk.

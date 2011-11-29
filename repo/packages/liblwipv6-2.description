@@ -1,0 +1,20 @@
+User level (lightweight) tcp/ip stack with ipv6 support
+	
+lwipv6 is a user level tcp/ip stack with the following features:
+
+physical layer: arp support, tun/tap/vde drivers support.
+
+network layer: ip forwarding, fragmentation, nat, ipv6 stateless address
+autoconfiguration, router advertising support.
+
+transport layer: tcp: congestion control, rtt estimation, fast recovery, fast
+retransmit; udp.
+
+berkeley socket api: protocol families pf_inet, pf_inet6, pf_packet, partial
+pf_netlink support; socket types sock_stream, sock_dgram, sock_raw support.
+
+lwipv6 is used, for instance, by a umview module to support user level
+networking and configuration, usually together with vde.
+
+lwipv6, along with umview, is part of the view-os project:
+http://wiki.virtualsquare.org

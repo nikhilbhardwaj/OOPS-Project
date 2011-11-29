@@ -1,0 +1,11 @@
+Java telnet/ssh applet - documentation
+	
+jta is a java implementation of telnet and ssh.
+
+jta may be run as a standalone application (using class
+de.mud.jta.main), or as a java applet (class de.mud.jta.applet).
+
+it's modular structure allows to configure the software to act either
+as a sophisticated terminal emulation and/or, adding the network
+backend, as telnet implementation. additional modules provide features
+like scripting or an improved graphical user interface.

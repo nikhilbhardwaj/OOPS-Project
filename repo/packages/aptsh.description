@@ -1,0 +1,6 @@
+Apt interactive shell
+	
+aptsh helps in managing packages by providing nice pseudo-shell,
+with commands completion and simplified access to apt's commands.
+additional features, like command-queue and orphaned packages
+searcher are also included.

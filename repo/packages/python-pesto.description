@@ -1,0 +1,17 @@
+A library for python web applications
+	
+its aim is to make writing wsgi web applications easy and fun.
+pesto doesn't constrain you -- how you integrate with databases,
+what templating system you use or how you prefer to lay out your
+source files is up to you.
+
+pesto makes it easy to:
+
+
+   - map any uri to any part of your application.
+   - produce unicode aware, standards compliant wsgi applications.
+   - interrogate wsgi request information -- form variables and http
+     request headers.
+   - create and manipulate http headers, redirects, cookies etc.
+   - integrate with any other wsgi application or middleware, giving you
+     access to a vast and growing resource.

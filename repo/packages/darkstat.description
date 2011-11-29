@@ -1,0 +1,10 @@
+Network traffic analyzer
+	
+it is a packet sniffer which runs as a background process and serves its
+statistics to a web browser:
+
+ - input and output ip traffic by machines, ports and protocols,
+ - last minute, hourly, daily and monthly global input and output graphics.
+
+
+it is known to be smaller (in terms of memory footprint) and stabler than ntop.

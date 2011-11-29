@@ -1,0 +1,5 @@
+Module to generate rfc-2822-valid date strings
+	
+this module provides a simple means for generating an rfc 2822 compliant
+datetime string. it was refactored from email::date to avoid large
+dependency chains.

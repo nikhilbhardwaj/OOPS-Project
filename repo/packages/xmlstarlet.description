@@ -1,0 +1,36 @@
+Command line xml toolkit
+	
+xmlstarlet is a set of command line utilities (tools) which can be used to
+transform, query, validate, and edit xml documents and files using simple set
+of shell commands in similar way it is done for plain text files using
+unix grep, sed, awk, diff, patch, join, etc commands.
+
+this set of command line utilities can be used by those who deal with many xml
+documents on unix shell command prompt as well as for automated xml processing
+with shell scripts.
+
+the toolkit's feature set includes options to:
+
+ check or validate xml files (simple well-formedness check, dtd, xsd, relaxng)
+ calculate values of xpath expressions on xml files (such as running sums, etc)
+ search xml files for matches to given xpath expressions
+ apply xslt stylesheets to xml documents (including exslt support, and passing
+
+parameters to stylesheets)
+
+ query xml documents (ex. query for value of some elements of attributes,
+
+sorting, etc)
+
+ modify or edit xml documents (ex. delete some elements)
+ format or "beautify" xml documents (as changing indentation, etc)
+ fetch xml documents using http:// or ftp:// urls
+ browse tree structure of xml documents (in similar way to 'ls' command for
+
+directories)
+
+ include one xml document into another using xinclude
+ xml c14n canonicalization
+ escape/unescape special xml characters in input text
+ print directory as xml document
+ convert xml into pyx format (based on esis - iso 8879), and vice versa

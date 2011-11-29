@@ -1,0 +1,6 @@
+Module providing bidirectional hebrew support
+	
+locale::hebrew is a perl module based on code from the unicode consortium.
+this module works the real hebrew character set from scratch, because the
+unicode consortium's character set was invalid; as a result, there may be
+some errata.

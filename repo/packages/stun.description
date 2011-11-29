@@ -1,0 +1,10 @@
+Server daemon and test client for stun
+	
+the stun protocol (simple traversal of udp through nats) is described in the
+ietf rfc 3489, available at http://www.ietf.org/rfc/rfc3489.txt.  it's used to
+help clients behind nat to tunnel incoming calls through. this server is the
+counterpart to help the client identify the nat and have it open the proper
+ports for it.
+
+
+ homepage: http://www.vovida.org/applications/downloads/stun/

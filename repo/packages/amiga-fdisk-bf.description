@@ -1,0 +1,7 @@
+Partition editor for amiga (boot-floppies version)
+	
+amiga-fdisk is, similar to fdisk for pcs, a program to partition
+harddisks. though it seems to work quite well, it's still got some
+sort of beta status. it's suggested that you still use the amigados
+native tool "hdtoolbox" to partition your harddisks and use
+amiga-fdisk only for querying partition information.

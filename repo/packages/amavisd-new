@@ -1,0 +1,4 @@
+PackageId:261
+Name:amavisd-new
+Version:1:2.6.4-3
+Deps:adduser,debconf,debconf-2.0,cdebconf,cdebconf-udeb,file,libarchive-tar-perl,perl-modules,libarchive-zip-perl,libberkeleydb-perl,libcompress-raw-zlib-perl,perl,libconvert-tnef-perl,libconvert-uulib-perl,libdigest-md5-perl,libio-stringy-perl,libmail-dkim-perl,libmailtools-perl,libmime-base64-perl,libmime-tools-perl,libnet-server-perl,libtime-hires-perl,libunix-syslog-perl,pax

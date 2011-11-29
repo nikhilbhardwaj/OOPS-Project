@@ -1,0 +1,8 @@
+X.org x server -- ivtv display driver (debug symbols)
+	
+this package provides the driver for the overlay framebuffer provided
+by the itvc15 family of mpeg codecs. the itvc15 family includes the
+itvc15 (cx24315) and itvc16 (cx24316). these chips are commonly found
+on hauppauge's wintv pvr-250 and pvr-350 tv capture cards.
+
+this package provides debugging symbols for this xorg x driver.

@@ -1,0 +1,14 @@
+Framework for developing and using mock objects
+	
+mock objects is a test-first driven framework for building
+generic software and/or unit testing frameworks. it supports:
+
+ * a methodology for developing and using mock objects.
+ * a core mock object framework. this is a library of code that
+ supports the implementation of mock objects, based around a
+ set of expectation classes for values and collections. there are
+ also various other classes to make mock objects easier to write
+ or to use.
+ * a default set of mock implementations for the standard java
+ platform apis. we have made a start on packages such as servlets, sql,
+ and io.

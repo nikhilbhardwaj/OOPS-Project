@@ -1,0 +1,19 @@
+Program for computing with groebner fans
+	
+gfan is a software package for computing groebner fans and tropical
+varieties.  these are polyhedral fans associated to polynomial
+ideals.  the maximal cones of a groebner fan are in bijection with
+the marked reduced groebner bases of its defining ideal.  the
+software computes all marked reduced groebner bases of an ideal.
+their union is a universal groebner basis. the tropical variety of a
+polynomial ideal is a certain subcomplex of the groebner fan.  gfan
+contains algorithms for computing this complex for general ideals and
+specialized algorithms for tropical curves, tropical hypersurfaces
+and tropical varieties of prime ideals. in addition to the above core
+functions the package contains many tools which are useful in the
+study of groebner bases, initial ideals and tropical geometry.  among
+these are an interactive traversal program for groebner fans and
+programs for graphical renderings.
+
+for ordinary groebner basis computations gfan is not competitive in
+speed compared to programs such as cocoa, singular and macaulay2.

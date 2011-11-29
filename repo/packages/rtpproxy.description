@@ -1,0 +1,18 @@
+Relay for real-time transport protocol (rtp) media streams
+	
+a high-performance media relay for rtp streams that can work together
+with sip express router, openser or sippy b2bua. its main use is to
+support sip user agents behind nat, but it can also act as a generic media
+relay.
+
+the main purpose of rtpproxy is to make the communication between sip
+user agents behind nat(s) (network address translator) possible. several
+cases exists when direct end-to-end communication is not possible and
+rtp streams have to be relayed through another host. the rtpproxy can
+be used to setup such a relaying host.
+
+originally created for handling nat scenarious it can also act as a
+generic media relay as well as gateway rtp sessions between ipv4 and
+ipv6 networks. it can also perform number of additional functions,
+including call recording, playing pre-encoded announcements, real-time
+stream copying and rtp payload reframing.

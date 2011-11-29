@@ -1,0 +1,19 @@
+Command line tools for the pulseaudio sound server
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+these tools provide command line access to various features of the
+pulseaudio sound server. included tools are:
+
+
+  pabrowse - browse available pulseaudio servers on the local network.
+  paplay - playback a wav file via a pulseaudio sink.
+  pacat - cat raw audio data to a pulseaudio sink.
+  parec - cat raw audio data from a pulseaudio source.
+  pacmd - connect to pulseaudio's built-in command line control interface.
+  pactl - send a control command to a pulseaudio server.
+  padsp - /dev/dsp wrapper to transparently support oss applications.
+  pax11publish - store/retrieve pulseaudio default server/sink/source
+                 settings in the x11 root window.

@@ -1,0 +1,13 @@
+Certification authority written in python
+	
+pyca is a set of python scripts written michael ströder. they provide an
+almost fully fledged  certification authority.
+support for issueing email and authentication certificates works fine.
+
+most notably spooling of requests and certificates between the public and
+the private parts of the ca remains to be written.
+
+other than that the documentation and scripts provided are of good quality
+and may facilitate using and understanding the ca capabilities of openssl.
+
+the required webserver must provide cgi support.

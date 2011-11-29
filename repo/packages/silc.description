@@ -1,0 +1,10 @@
+Transitional package for the silc client
+	
+silc (secure internet live conferencing) is a network protocol designed
+to provide end-to-end security for conferencing services. silc has a
+command set and a user interface similar to irc, but the network
+protocol is completely different as it supports public key strong
+cryptography and a different network model.
+
+this package is meant to help users transition from the official silc client
+to the silc plugin for irssi.

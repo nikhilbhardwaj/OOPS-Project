@@ -1,0 +1,7 @@
+General purpose library for acpi
+	
+libacpi is a general purpose shared library for programs gathering
+acpi data on linux. it implements thermal zones, battery information,
+fan information and ac states.
+
+this package contains the shared library for libacpi.

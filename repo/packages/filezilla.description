@@ -1,0 +1,26 @@
+Full-featured graphical ftp/ftps/sftp client
+	
+filezilla is a full-featured ftp client with an easy-to-use gui.
+
+it is written in c++ and uses the wxwidgets library.
+
+filezilla includes the following features:
+
+  * supports ftp, ftp over ssl/tls (ftps) and ssh file transfer protocol (sftp)
+  * ipv6 support
+  * available in more than 40 languages
+  * supports resume and transfer of large files >4gb
+  * easy to use site manager and transfer queue
+  * bookmarks
+  * drag & drop support
+  * speed limits
+  * filename filters
+  * directory comparison
+  * network configuration wizard
+  * remote file editing
+  * keep-alive
+  * http/1.1, socks5 and ftp proxy support
+  * logging to file
+  * synchronized directory browsing
+  * remote file search
+  * tabbed interface to connect to multiple servers

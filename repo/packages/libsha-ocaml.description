@@ -1,0 +1,7 @@
+Sha cryptographic hash functions for ocaml
+	
+sha-1 produces a 160-bit digest from its input.
+sha-256 and sha-512 produce 256-bit and 512-bit digests
+from their inputs, respectively.
+
+this package contains the shared runtime stub libraries.

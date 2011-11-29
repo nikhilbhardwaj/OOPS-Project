@@ -1,0 +1,8 @@
+Password strength checking and policy enforcement library (c development files)
+	
+passwdqc is a password/passphrase strength checking and policy enforcement
+toolset, including a pam module (libpam-passwdqc), command-line programs
+(pwqcheck and pwqgen), and a library (libpasswdqc0).
+
+this package provides the development libraries and header files required to
+build tools using the libpasswdqc library.

@@ -1,0 +1,4 @@
+PackageId:30935
+Name:roundcube-pgsql
+Version:0.3.1-6
+Deps:php-mdb2-driver-pgsql,postgresql-client,postgresql-client-8.4

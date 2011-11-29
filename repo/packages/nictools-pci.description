@@ -1,0 +1,24 @@
+Diagnostic tools for many pci ethernet cards
+	
+these tools can help you to diagnose problems with your ethernet cards
+or - in some cases - give those cards the final hint, to work in your
+network.
+
+
+ alta-diag     : diagnostic and setup for the sundance "alta" nic
+ eepro100-diag : diagnostic and setup for the intel eepro100 ethernet cards
+ epic-diag     : diagnostics and eeprom setup for the smc epic-100
+ myson-diag    : diagnostic and setup for the myson mtd803 ethernet chip
+ natsemi-diag  : diagnostic and setup for the natsemi dp83815 ethernet chip
+ ne2k-pci-diag : diagnostics and eeprom setup for pci ne2000 clones
+ ns820-diag    : diagnostic and setup for the natsemi dp83820 ethernet chip
+ pcnet-diag    : diagnostic and setup for the amd pcnet/pci ethernet chip
+ rtl8139-diag  : diagnostics and eeprom setup for realtek rtl8129/8139 chips
+ starfire-diag : diagnostic and setup for the adaptec starfire duralan
+ tulip-diag    : diagnostic and setup for the digital dc21x4* ethernet chips
+ via-diag      : diagnostic and setup for the via rhine vt86c100 and vt3043
+                 ethernet chips
+ vortex-diag   : diagnostics and eeprom setup for the 3com vortex series
+ winbond-diag  : diagnostic and setup for the winbond w89c840 ethernet cards
+ yellowfin-diag: diagnostic and setup for the packet engines yellowfin chips
+ pci-config    : show and manipulate pci configuration space

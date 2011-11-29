@@ -1,0 +1,13 @@
+Provides optional openid integration for django
+	
+the django-auth-openid library can be used to add openid support
+to django applications.
+it integrates with django's built in authentication system, so most
+applications require minimal changes to support openid login. the
+library also includes the following features:
+
+ * basic user details are transferred from the openid server via the
+   simple registration extension.
+ * it can be configured to use a fixed openid server url, for use in sso.
+ * it supports the launchpad.net teams extension to get team membership
+   info.

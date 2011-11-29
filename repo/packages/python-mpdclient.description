@@ -1,0 +1,5 @@
+Python interface to mpd
+	
+mpdclient is a simple python interface to mpd, the music player daemon. it
+provides an interface analogous to the libmpdclient c library, allowing for
+expeditious scripting of any mpd instance and ease of mpd client development.

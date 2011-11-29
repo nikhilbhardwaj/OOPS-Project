@@ -1,0 +1,4 @@
+PackageId:5303
+Name:gforge-plugin-scmdarcs
+Version:5.0.2-5
+Deps:darcs,darcsweb,gforge-common,gforge-db-postgresql,gforge-db,gforge-shell-postgresql,gforge-shell,gforge-web-apache2,gforge-web,php5-cli

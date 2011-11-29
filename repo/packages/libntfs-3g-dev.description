@@ -1,0 +1,19 @@
+Ntfs-3g filesystem in userspace (fuse) library headers
+	
+the ntfs-3g driver is an open source, gpl licensed, third generation linux
+ntfs driver which was implemented by the linux-ntfs project. it provides
+full read-write access to ntfs, excluding access to encrypted files, writing
+compressed files, changing file ownership, access right.
+
+technically it's based on and a major improvement to the third generation
+linux ntfs driver, ntfsmount. the improvements includes functionality,
+quality and performance enhancements.
+
+ntfs-3g is based on fuse (userspace filesystem framework for linux), thus
+you will have to prepare fuse kernel module to be able to use it.
+
+fuse is available in any recent kernel. no need to prepare a kernel module
+if you are already running debian etch kernel or newer.
+
+this package contains the library headers for developing programs using
+libntfs-3g75.

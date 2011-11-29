@@ -1,0 +1,7 @@
+Bazaar plugin providing git integration
+	
+this is a plugin for bazaar that adds the ability to read and write git
+repositories.
+
+also included is a bazaar subcommand that allows importing git
+repositories.

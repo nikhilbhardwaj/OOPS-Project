@@ -1,0 +1,10 @@
+High-performance database - isparql module
+	
+openlink virtuoso is a high-performance object-relational sql database.
+it provides transactions, a smart sql compiler, hot backup, sql:1999
+support, a powerful stored-procedure language supporting server-side
+java or .net, and more. it supports all major data-access interfaces,
+including odbc, jdbc, ado.net, and ole/db.
+
+this package contains the virtuoso application distribution module
+for isparql support.

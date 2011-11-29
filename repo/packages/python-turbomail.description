@@ -1,0 +1,7 @@
+Multi-threaded mail queue manager for turbogears applications
+	
+turbogears extension which uses built-in python modules for smtp
+communication and mime e-mail creation, but greatly simplifies these
+tasks by performing the grunt-work for you.  additionally, turbomail
+is multi-threaded, allowing for single or batch enqueueing and
+background delivery of mail.

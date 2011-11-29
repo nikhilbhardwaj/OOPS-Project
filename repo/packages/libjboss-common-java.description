@@ -1,0 +1,13 @@
+The jboss common project
+	
+the common module in jboss application server has been promoted to a
+standalone project. the project itself has now been and broken up
+into several projects.
+
+ * common-core: utility classes of jboss.
+ * common-logging-spi: the jboss logging interface.
+ * common-logging-log4: the log4j implementation of jboss.
+ * common-logging-jdk: the logging jdk classes of jboss.
+
+
+this package ships all the components of jboss common.

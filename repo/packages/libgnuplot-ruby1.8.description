@@ -1,0 +1,5 @@
+Ruby module for gnuplot
+	
+gnuplot is a program that has a rich language for the generation of plots.
+ruby gnuplot implements a domain-specific language (dsl) to control
+gnuplot from ruby scripts.

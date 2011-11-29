@@ -1,0 +1,5 @@
+Migration scripts for ldap
+	
+the migrationtools are a set of perl scripts for migrating users, groups,
+aliases, hosts, netgroups, networks, protocols, rpcs, and services from
+existing nameservices (flat files, nis, and netinfo) to ldap.

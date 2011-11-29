@@ -1,0 +1,6 @@
+Set d-i values to install debian edu without questions
+	
+this package provides default answers for packages using debconf, and
+configures services to work out of the box after an installation.
+
+this is part of the debian edu project.

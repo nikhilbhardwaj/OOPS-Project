@@ -1,0 +1,7 @@
+A set of facilities to extend python3 with c++
+	
+pycxx is a set of c++ facilities to make it easier to write python
+extensions.  the chief way in which pycxx makes it easier to write
+python extensions is that it greatly increases the probability that
+your program will not make a reference-counting error and will not
+have to continually check error returns from the python c api.

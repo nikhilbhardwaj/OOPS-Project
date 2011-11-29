@@ -1,0 +1,12 @@
+Recoding utility and czech sorter
+	
+this is a utility which allows you to re-encode files between various
+encodings and sort czech data.  some main features:
+
+ - written in perl, providing appropriate perl modules.
+ - supported encodings: ascii, iso-8859-1, iso-8859-2, microsoft cp1250 and
+   cp1252, mac, macce, pc latin 2, koi8-cs and tex cork (t1).
+ - you can create your own encoding definition files and use them for recoding
+   to any other defined encoding.
+ - single to single or single to many chars recodings are supported.
+ - sophisticated sorting algorithm for czech.

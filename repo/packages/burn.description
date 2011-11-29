@@ -1,0 +1,11 @@
+Command-line tool for writing optical media
+	
+‘burn’ is a command-line tool to create audio discs from mp3, ogg
+vorbis, or wav files, to backup data files, to create discs from
+iso-9660 images, and to copy discs on-the-fly. it performs any of its
+functions in a single command, without requiring preparatory
+filesystem creation, etc.
+
+the program can compute if there is necessary free space for
+temporary files (images and audio files), warn if size is bigger than
+disc capacity, and manage multisession discs.

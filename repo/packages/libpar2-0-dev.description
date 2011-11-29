@@ -1,0 +1,7 @@
+Headers for the libpar2-0 library
+	
+libpar2 allows for the generation, modification, verification,
+and repairation of par v1.0 and par v2.0(par2) recovery sets.
+it contains the basic functions needed for working with these
+sets and is the basis for gui applications such as gpar2. this
+is the dev package containing the headers for libpar2-0.

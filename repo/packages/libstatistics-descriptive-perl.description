@@ -1,0 +1,8 @@
+Perl module for basic descriptive statistical functions
+	
+statistics::descriptive provides basic functions used in descriptive
+statistics. it has an object oriented design and supports two
+different types of data storage and calculation objects: sparse and
+full. with the sparse method, none of the data is stored and only a
+few statistical measures are available. using the full method, the
+entire data set is retained and additional functions are available.

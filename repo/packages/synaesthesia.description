@@ -1,0 +1,11 @@
+A program for representing sounds visually
+	
+this is a program for representing music graphically, as a curuscating
+field of fog, stars and/or glowing lines.  it is intended as a visual
+accompaniment to music.  the representation goes beyond conventional
+freqency analysis displays by combining a fourier analysis with stereo
+positioning information, making it possible to distinguish individual
+intruments, vocalists or effects by location, shape and color.
+
+sound inputs can be obtained from a cd, line input, the esd sound daemon
+or via piped-in pcm data.

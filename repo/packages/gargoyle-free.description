@@ -1,0 +1,40 @@
+Graphical player for interactive fiction games
+	
+gargoyle is an interactive fiction (text adventure) player that
+supports all the major interactive fiction formats.
+
+most interactive fiction is distributed as portable game files. these
+portable game files come in many formats. in the past, you used to
+have to download a separate player (interpreter) for each format of
+if you wanted to play. instead, gargoyle provides unified player.
+
+gargoyle is based on the standard interpreters for the formats it
+supports: .taf (adrift games, played with scare), .dat (advsys),
+*.agx/.d$$ (agility), .asl/.cas (quest games, played with geas),
+*.jacl/.j2 (jacl), .l9/.sna (level 9), .mag (magnetic), .gam/.t3
+(tads), .z1/.z2/.z3/.z4/.z5/.z6/.z7/.z8 (inform z-machine games,
+played with frotz or nitfol), .ulx/.blb/.blorb/.glb/.gblorb (inform
+or superglús games compiled to the glulxe vm in blorb archives,
+played with git or glulxe), .zlb, .zblorb (inform z-machine games in
+blorb archives, played with frotz).
+
+(note: do not confuse the git glux interpreter with the git dvcs or
+the gnu interactive tools)
+
+gargoyle also features graphics, sounds and unicode support.
+
+technically all the bundled interpreters support the glk api to
+manage i/o (keyboard, graphics, sounds, file) in if games. gargoyle
+provides a glk implementation called garglk that displays texts and
+images in a graphical gtk window, with care on typography.
+
+limitations:
+
+* this free version of gargoyle does not include the non-free alan
+and hugo interpreter (and use a different, free monospace font).
+
+* while gargoyle can display in-game pictures, it does not provide a
+way to display the cover art present in some blorb archives.
+
+* the tads interpreter doesn't support html tads; you can play
+the games, but will miss the hyperlinks.

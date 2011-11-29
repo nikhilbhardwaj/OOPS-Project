@@ -1,0 +1,9 @@
+Text-based email client's debugging symbols
+	
+alpine is an upgrade of the well-known pine email client.  its name derives
+from the use of the apache license and its ties to pine.
+
+it features a full suite of support for mail protocols like imap and smtp and
+security protocols like tls.  it uses curses for its interface.
+
+this build stores the debugging symbols to the alpine package.

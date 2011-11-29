@@ -1,0 +1,7 @@
+Measure the time difference between networked computers
+	
+clockdiff computes the difference between the time of the machine on
+which it is called and the time of other network-accessible machines.
+the time differences measured by clockdiff are obtained using a
+sequence of icmp tstamp messages which are returned to the sender by
+the ip module in the remote machine.

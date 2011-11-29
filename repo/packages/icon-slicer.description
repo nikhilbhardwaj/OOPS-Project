@@ -1,0 +1,34 @@
+Utility for generating icon themes and libxcursor cursor themes
+	
+the inputs to icon-slicer are conceptually:
+
+
+ - a set of multi-layer images, one for each size
+ - am xml theme description file
+
+
+each image contains all the cursors arranged in a grid; for cursors the
+layers are:
+
+
+ - a layer with a dot for the hotspot of each cursor
+ - the main image or first animation frame for multi-frame animated
+   cursors
+ - the second animation frame for multi-frame animated cursors
+ - ...
+
+
+for icons, the layers are:
+
+
+ - a layer with the images
+ - an optional layer with attachment points for emblems
+ - an optional layer with boxes for embedding text into icons
+
+
+in practice, since loading of multilayer images is not supported by
+standard image libraries, each layer is input as a separate image file.
+
+the theme description file contains, among other things, information
+about the source images to read, the location of each named cursor or
+icon within the grid, and a set of aliases from names to other names.

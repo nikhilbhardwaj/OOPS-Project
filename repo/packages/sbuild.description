@@ -1,0 +1,14 @@
+Tool for building debian binary packages from debian sources
+	
+the sbuild suite of programs (wanna-build, buildd and sbuild) are
+used to build binary packages from source packages.  the wanna-build
+database tracks packages which require building; buildd schedules
+work from information it gets from the wanna-build database; sbuild
+does the actual package building.
+
+sbuild can do its work in chroots so both stable and unstable
+environments can be used on the same machine.  useful for, say,
+building the latest unstable packages against stable library
+versions.  and by keeping only essential and build-essential
+in the chroots, you can find the correct build dependencies for
+a package.

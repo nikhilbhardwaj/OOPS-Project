@@ -1,0 +1,11 @@
+Ggz gaming zone: game frontend library
+	
+the ggzmod library allows games to communicate with a ggz core client
+and thereby establishing a connection to the ggz server and its
+associated game server.
+
+this package provides the run-time library used by most of the ggz game
+clients.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

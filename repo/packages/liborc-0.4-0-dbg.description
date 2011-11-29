@@ -1,0 +1,10 @@
+Library of optimized inner loops runtime compiler (debug package)
+	
+orc is a library and set of tools for compiling and executing
+very simple programs that operate on arrays of data.  the "language"
+is a generic assembly language that represents many of the features
+available in simd architectures, including saturated addition and
+subtraction, and many arithmetic operations.
+
+this package contains the debugging symbols for the orc library.
+users should install it if they want to debug software that uses orc.

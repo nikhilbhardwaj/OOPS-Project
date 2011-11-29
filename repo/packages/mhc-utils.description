@@ -1,0 +1,16 @@
+Command line/gui utilities for the mhc schedule management system
+	
+mhc (message harmonized calendaring system) is a personal schedule
+management system, that is designed to help those who receive most
+appointments via email.
+
+mhc has the following features:
+
+ - you can easily import schedule articles from emails.
+ - simple data structure; schedule articles are stored in the same form
+   of mh that allows you to manipulate stored data in many ways.
+ - powerful but simple expression of appointments.
+
+
+this package provides the command line/gui utilities, today, gemcal, etc.
+to use mhc on emacsen, install the mhc package.

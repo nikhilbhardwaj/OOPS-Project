@@ -1,0 +1,10 @@
+A simple secure efficient ftp server
+	
+this is twoftpd, an ftp server that strives to be secure, simple, and
+efficient.  none of the commands can cause execution of other programs,
+and the normal model of execution does a chroot to the logged in user's
+directory immediately after authentication.
+
+this package sets up the twoftpd service to listen on 0.0.0.0:21, and
+additionally provides a service directory to run an anonymous twoftpd
+service.

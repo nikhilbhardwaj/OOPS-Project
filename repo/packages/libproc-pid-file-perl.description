@@ -1,0 +1,5 @@
+Perl module for managing process id files
+	
+this perl module is useful for writers of daemons and other processes
+that need to tell whether other instances are running already.
+the module accomplishes this via unix-style pidfiles.

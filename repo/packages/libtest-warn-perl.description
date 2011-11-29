@@ -1,0 +1,4 @@
+Test for warning-based code in perl
+	
+test::warn provides an easy way to test for code throwing warnings in perl.
+it's similar in style to the test::more family of utilities.

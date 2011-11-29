@@ -1,0 +1,12 @@
+Gambas component to use smtp protocol
+	
+gambas is a programming language based on a basic interpreter with
+object extensions - like visual basic, though it is not a clone!
+it has many components for developing internationalized,
+desktop-independent, database- and network-enabled applications.
+even games can be developed very quickly using its rad environment.
+
+this component allows sending emails using smtp protocol.
+it contains one control, smtpclient, that is used for defining the smtp
+server, the smtp port, the recipients, the sender, the subject, the mail
+contents, some attachments, and for finally sending the mail.

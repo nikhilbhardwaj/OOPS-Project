@@ -1,0 +1,8 @@
+Lightweight c library for loading and writing png images
+	
+it was created as a substitute for libpng in situations when libpng is more
+than enough. it currently requires zlib for inflate and crc checking and it
+can read the most common types of png images. the library has a small and
+simple to use interface.
+
+this package provides the header files and static libraries.

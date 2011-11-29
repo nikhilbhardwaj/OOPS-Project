@@ -1,0 +1,6 @@
+An interactive python accessibility explorer for the gnome desktop
+	
+it uses at-spi to inspect and control widgets, allowing you to check if
+an application is providing correct information to assistive technologies
+and automated test frameworks. accerciser has a simple plugin framework which
+you can use to create custom views of accessibility information.

@@ -1,0 +1,23 @@
+Standard xml documentation system for software and systems
+	
+docbook 5 is a general purpose xml schema.  that is, it
+contains the "docbook" document structure.  this is used by authors
+or editors writing documents in the docbook xml format.  docbook was
+designed for books, articles, or reference documentation about
+technical matters or software (though it is by no means limited to
+these applications).  it has emerged as an open standard in the
+software industry, and is the documentation system of choice for
+many free software projects.
+
+docbook 5.0 is a complete rewrite of the well-known docbook 4 xml
+schema/dtd, introducing a quite large number of backwards-incompatible
+changes. but the basic idea behind docbook is still the same, and
+almost all element names are unchanged.
+
+this package contains the xml relaxng schema (with some additional
+schematron assertions), w3c xml schema (xsd) as well as the
+document type definition (dtd) for docbook, which all describe the
+formal structure for documents following this format.
+
+you will need other packages in order to edit, validate (libxml2-utils)
+or format (docbook-xsl-ns) docbook 5 documents.

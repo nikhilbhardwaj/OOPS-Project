@@ -1,0 +1,9 @@
+5250 telnet emulator for accessing an ibm iseries (as/400)
+	
+tn5250 connects to an ibm iseries (as/400) running i5/os and
+emulates a 5250-compatible "green screen" terminal, or a printer
+using scs or host print transform.  it runs on the linux console, in
+an xterm, or on any other character terminal.
+
+to run in a window, the xt5250 script works best with xterm, but can
+use any other program providing the x-terminal-emulator interface.

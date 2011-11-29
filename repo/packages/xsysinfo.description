@@ -1,0 +1,5 @@
+Display some linux kernel parameters in graphical form
+	
+this x client is like a mix of top, free and xload with the difference that
+the values are shown in form of a horizontal bar.  the displayed values are:
+cpu load, cpu idle, memory and swap sizes.

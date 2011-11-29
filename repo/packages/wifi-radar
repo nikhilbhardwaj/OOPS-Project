@@ -1,0 +1,4 @@
+PackageId:34274
+Name:wifi-radar
+Version:2.0.s05-1.2
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,dhcp3-client,isc-dhcp-client,dhcp-client,dhcpcd,pump,menu,python,python-gtk2,wireless-tools

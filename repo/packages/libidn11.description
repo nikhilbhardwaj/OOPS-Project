@@ -1,0 +1,8 @@
+Gnu libidn library, implementation of ietf idn specifications
+	
+gnu libidn is a fully documented implementation of the stringprep,
+punycode and idna specifications.  libidn's purpose is to encode and
+decode internationalized domain names.  the nameprep, xmpp, saslprep,
+and iscsi profiles are supported.
+
+this package contains the shared library.

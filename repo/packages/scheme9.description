@@ -1,0 +1,10 @@
+Scheme 9 from empty space r4rs scheme interpreter
+	
+scheme 9 from empty space is an interpreter for a broad subset of
+r4rs scheme, and runs in many popular environments, including
+linux, *bsd, the unmentionable horror, and plan 9.  the s9fes code
+strives to be simple and comprehensible.  it is particularly
+interesting to people who want to (a) try scheme without having to
+jump through too many hoops (s9fes is very portable); or (b) study
+the implementation of scheme (in a language other than scheme).  a
+free online textbook describing the system is also available.

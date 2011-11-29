@@ -1,0 +1,5 @@
+A pam module which asks the logged in user for confirmation
+	
+this simple pam module will, when being used to authenticate a (typically
+remote) user, use d-bus to ask any currently logged in (typically local)
+user if that is ok.

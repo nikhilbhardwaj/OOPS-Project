@@ -1,0 +1,5 @@
+Elf prelinking utility to speed up dynamic linking
+	
+the prelink package contains a utility which modifies elf shared libraries
+and executables, so that far fewer relocations need to be resolved at
+runtime and thus programs come up faster.

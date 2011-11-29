@@ -1,0 +1,10 @@
+A general purpose command-line testing tool
+	
+atheist allows you to specify the behaviour of your tests in a
+declarative way using many predefined structures (such as task,
+conditions, daemons, etc.) and provides detailed statistics.
+
+the programmer describes the test behaviour in a .test file and
+atheist runs every test found. it is possible to check and prepare
+the system by writting setup and teardown files that are executed
+after and before each test.

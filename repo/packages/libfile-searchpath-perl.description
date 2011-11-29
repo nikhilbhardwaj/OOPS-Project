@@ -1,0 +1,5 @@
+Perl module for searching for a file in a path-like variable
+	
+file::searchpath provides the ability to search a path-like environment
+variable such as $path, $ld_library_path (or any environment variable)
+for a file (that does not necessarily have to be an executable).

@@ -1,0 +1,7 @@
+Extension to encode column values automatically
+	
+dbix::class::encodedcolumn is a dbix::class component which can automatically
+encode a column's contents whenever the value of that column is set, similar
+to dbix::class::digestcolumns. any data you write is automatically converted
+on-the-fly and, in contrast to digestcolumns, any arbitrary message digest or
+encryption method can be supported through an appropriate encoding class.

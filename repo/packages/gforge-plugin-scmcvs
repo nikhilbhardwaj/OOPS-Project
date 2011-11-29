@@ -1,0 +1,4 @@
+PackageId:5302
+Name:gforge-plugin-scmcvs
+Version:5.0.2-5
+Deps:cvs,gforge-common,gforge-db-postgresql,gforge-db,gforge-shell-postgresql,gforge-shell,gforge-web-apache2,gforge-web,libipc-run-perl,libphp-snoopy,liburi-perl,openbsd-inetd,inet-superserver,inetutils-inetd,rlinetd,xinetd,php5-cli,python,rcs,update-inetd

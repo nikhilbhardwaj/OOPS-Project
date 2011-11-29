@@ -1,0 +1,6 @@
+Kernel headers used during the build of klibc
+	
+this package contains the set of kernel headers that were required to
+build klibc and the utilities that ship with it.  this may or may
+not be a complete enough set to build other programs that link against
+klibc.  if in doubt, use real kernel headers instead.

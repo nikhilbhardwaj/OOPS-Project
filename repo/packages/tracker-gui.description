@@ -1,0 +1,14 @@
+Metadata database, indexer and search tool - gnome frontends
+	
+included in this package:
+
+ * tracker-search-tool: standard search tool
+ * tracker-search-bar: search applet for the gnome panel
+ * tracker-status-icon: gnome status icon
+ * tracker-preferences: preferences editor
+ * nautilus-extension: nautilus extension for tag editing
+
+
+tracker is an advanced framework for first class objects with associated
+metadata and tags. it provides a one stop solution for all metadata, tags,
+shared object databases, search tools and indexing.

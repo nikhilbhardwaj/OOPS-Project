@@ -1,0 +1,11 @@
+Perl client for memcached, in c language
+	
+cache::memcahced::fast is a perl client for memcached, a memory cache
+daemon (http://www.danga.com/memcached/). module core is implemented in
+c and tries hard to minimize number of system calls and to avoid any
+key/value copying for speed. as a result, it has very low cpu
+consumption.
+
+api is largely compatible with cache::memcached, original pure perl
+client, most users of the original module may start using this module
+by installing it and adding "::fast" to the old name in their scripts.

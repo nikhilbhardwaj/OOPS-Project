@@ -1,0 +1,9 @@
+Make binary data human-readable
+	
+data::hexdumper provides a simple way to format arbitary binary data into a
+nice human-readable format, somewhat similar to the unix 'hexdump' utility.
+
+it gives the programmer a considerable degree of flexibility in how the data
+is formatted, with sensible defaults. it is envisaged that it will primarily
+be of use for those wrestling alligators in the swamp of binary file formats,
+which is why it was written in the first place.

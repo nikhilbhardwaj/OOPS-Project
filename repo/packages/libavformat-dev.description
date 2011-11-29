@@ -1,0 +1,7 @@
+Development files for libavformat
+	
+this is the demuxer library from the ffmpeg project. it supports most
+existing file formats (avi, mpeg, ogg, matroska, asf...).
+
+this package contains the header files and static libraries needed to
+compile applications or shared objects that use libavformat.

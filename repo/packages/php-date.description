@@ -1,0 +1,9 @@
+Php pear module for date and time manipulation
+	
+these are generic classes for representation and manipulation of
+dates, times and time zones without the need of timestamps, which is
+a huge limitation for php programs. they include time zone data, time
+zone conversions and many date/time conversions.
+
+
+ homepage: http://pear.php.net/package/date

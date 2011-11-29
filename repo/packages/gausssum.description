@@ -1,0 +1,9 @@
+Parse and display gaussian, gamess, and etc's output
+	
+gausssum parses the output files of adf, gamess, gamess-uk, gaussian, jaguar
+and pc gamess calculations to extract useful information.
+
+gausssum uses gnuplot to display the progress of geometry optimisations,
+density of states spectrum, uv-vis spectra, ir spectra, raman spectra,
+and electron density difference maps. it can also display all lines containing
+an arbitrary phrase and more.

@@ -1,0 +1,16 @@
+A major mode for editing objective caml in emacs
+	
+objective (ocaml) is an implementation of the ml language, based on
+the caml light dialect extended with a complete class-based object system
+and a powerful module system in the style of standard ml.
+
+this package provides support for editing both objective caml and
+caml light programs with emacs and xemacs.
+
+caml-mode supports:
+
+ - indentation
+ - compilation and error retrieving
+ - interaction with the toplevel
+ - font-lock
+ - imenu

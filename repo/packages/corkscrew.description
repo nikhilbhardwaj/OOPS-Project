@@ -1,0 +1,8 @@
+Tunnel tcp connections through http proxies
+	
+corkscrew is a simple tool to tunnel tcp connections through an http
+proxy supporting the connect method. it reads stdin and writes to
+stdout during the connection, just like netcat.
+
+it can be used for instance to connect to an ssh server running on
+a remote 443 port through a strict https proxy.

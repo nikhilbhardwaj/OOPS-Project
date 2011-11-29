@@ -1,0 +1,7 @@
+Command-line operators to analyze netcdf files
+	
+nco is a suite of programs known as operators. the operators are stand-alone,
+command-line programs executable in a posix shell. operators take one or more
+netcdf files as input, perform operations (e.g., averaging, hyperslabbing),
+and produce a netcdf output file. nco was originally designed to manipulate and
+analyze climate data, though it works on any netcdf format datasets.

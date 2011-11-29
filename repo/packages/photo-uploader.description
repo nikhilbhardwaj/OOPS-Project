@@ -1,0 +1,7 @@
+Command line photo uploader
+	
+photo uploader is a command line utility (and python module) for
+uploading photos to minilabs for printing or to any service for image
+hosting. it currently supports only a few minilab services in czechia
+and some hosting services like imageshack, but can be easily extended
+to support others.

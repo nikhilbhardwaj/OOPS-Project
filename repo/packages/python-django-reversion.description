@@ -1,0 +1,15 @@
+Provides comprehensive version control facilities for django
+	
+reversion is an extension to the django web framework that provides
+comprehensive version control facilities.
+
+features:
+
+ * roll back to any point in a model's history - an unlimited undo facility!
+ * recover deleted models - never lose data again!
+ * admin integration for maximum usability.
+ * group related changes into revisions that can be rolled back in a single
+   transaction.
+ * automatically save a new version whenever your model changes using django's
+   flexible signalling framework.
+ * automate your revision management with easy-to-use middleware.

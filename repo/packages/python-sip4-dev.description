@@ -1,0 +1,8 @@
+Python/c++ bindings generator development files (transitional package)
+	
+sip is a tool for generating bindings for c++ classes with some ideas
+borrowed from swig, but capable of tighter bindings because of its
+specificity towards c++ and python.
+
+this is a transitional package that depends on python-sip-dev.
+it can be safely removed.

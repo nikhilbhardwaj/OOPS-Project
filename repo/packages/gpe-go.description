@@ -1,0 +1,13 @@
+Two player board game for gpe
+	
+go is also known as weiqi in chinese, igo in japanese and
+baduk in korean. gpe-go brings go to the gpe palmtop environment.
+
+gpe-go is played by alternately placing black and white stones on the
+vacant intersections of a 19x19 rectilinear grid. a stone or a group of
+stones is captured and removed if it is tightly surrounded by stones of
+the opposing colour. the objective is to control a larger territory than
+the opponent by placing one's stones so they cannot be captured. the
+game ends and the score is counted when both players consecutively pass
+on a turn, indicating that neither side can increase its territory or
+reduce its opponent's; the game can also end by resignation.

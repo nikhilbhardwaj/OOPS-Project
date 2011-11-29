@@ -1,0 +1,5 @@
+Library for playing spc files
+	
+libopenspc provides a library that allows for the emulated
+playback of spc files, which are snes audio files. it uses
+the sneese emulator sound core for accurate playback.

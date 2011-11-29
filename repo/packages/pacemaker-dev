@@ -1,0 +1,4 @@
+PackageId:26691
+Name:pacemaker-dev
+Version:1.0.9.1+hg15626-1
+Deps:libcluster-glue-dev,libcorosync-dev,libglib2.0-dev,libheartbeat2-dev,libxml2-dev,pacemaker,python

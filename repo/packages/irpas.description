@@ -1,0 +1,36 @@
+Internetwork routing protocol attack suite
+	
+despite the "exciting" title this is merely a collection of programs
+used for advanced network operations, testing, and debugging.
+
+cdp and the route injectors can be useful in a production network.
+several other tools are useful for security and firewall testing.
+finally some tools such as netenum are useful for general admin
+scripting.
+
+like all powerful tools, someone whom is terminally stupid could
+cause great damage when using these tools, so be careful.
+
+cdp - cisco discovery protocol packet sender
+igrp - igrp route injector
+ass - autonomous system scanner
+irdp - irdp sender
+irdpresponder - irdp responder
+itrace - icmp based traceroute
+tctrace - tcp syn based traceroute
+protos - icmp based port scanner
+netmask - asks for netmask via icmp
+file2cable - dumps any binary file direct to ethernet
+dfkaa - troubleshoot devices formerly known as ascend (pipeline, etc)
+netenum - ping scanner designed for shell scripts
+hsrp - hsrp failover tester
+icmp_redirect - icmp redirection system
+timestamp - icmp timestamp requester
+dhcpx - dhcp server "exerciser"
+
+i placed this program  in "non-free" because per the license:
+1) a developer is required to get written permission to use code
+
+   from irpas in derivative works
+
+2) users are barred from using this software for illegal purposes

@@ -1,0 +1,10 @@
+Japanese opentype font set, ipafont
+	
+ipafont is a japanese opentype, a scalable font which was developed to
+supersede both the truetype and the type 1 ("postscript") font formats,
+font set that is provided by information-technology promotion agency,
+japan (ipa).
+
+ipafont is an outline font set suitable for both display and printing.
+
+this is metapackage that depends on gothic and mincho font packages.

@@ -1,0 +1,8 @@
+Mbox scan utility
+	
+mboxcheck is a command line utility for scanning mbox files for new,
+seen, read and deleted mail.
+
+it has a cache function to speed up the process, to be able to scan large
+amount of mails. this is useful for people that automatically sort email
+into a large amount of files.

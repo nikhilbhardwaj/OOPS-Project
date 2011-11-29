@@ -1,0 +1,5 @@
+Library implementing dns resolution and validation
+	
+libunbound performs and validates dns lookups; it can be used to convert
+hostnames to ip addresses and back and obtain other information from the
+dns. cryptographic validation of results is performed with dnssec.

@@ -1,0 +1,6 @@
+Python module for easy sql-database access
+	
+forgetsql is a python module for accessing sql databases by creating
+classes that maps sql tables to objects, normally one class pr. sql
+table. the idea is to forget everything about sql and just worrying
+about normal classes and objects.

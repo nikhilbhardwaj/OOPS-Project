@@ -1,0 +1,8 @@
+Pkcs#11 implementation for linux (debug)
+	
+opencryptoki is a pkcs#11 cryptographic token interface standard implementation
+for linux. it includes drivers and libraries to enable ibm cryptographic
+hardware such as trusted computing platform (tpm) cryptographic devices as well
+as a software token for testing.
+
+this package contains the debugging symbols.

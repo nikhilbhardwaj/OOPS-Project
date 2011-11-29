@@ -1,0 +1,13 @@
+Haskell automatic testing library for ghc; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+
+quickcheck is a library for testing haskell programs automatically.
+the programmer provides a specification of the program, in
+the form of properties which functions should satisfy, and
+quickcheck then tests that the properties hold in a large number
+of randomly generated cases.  specifications are expressed in
+haskell, using combinators defined in the quickcheck library.
+quickcheck provides combinators to define properties, observe
+the distribution of test data, and define test data generators.

@@ -1,0 +1,8 @@
+Xslt 1.0 command line processor
+	
+xslt is an xml language for defining transformations of xml files from
+xml to some other arbitrary format, such as xml, html, plain text, etc.
+using standard xslt version 1.0 stylesheets.
+
+this package contains a command line tool that facilitates xslt
+transformations.

@@ -1,0 +1,14 @@
+Graphical multi-protocol instant messaging client for x
+	
+pidgin is a graphical, modular instant messaging client capable of using
+multiple networks at once. currently supported are:
+aim/icq, yahoo!, msn, irc, jabber/xmpp/google talk, napster, zephyr, gadu-gadu,
+bonjour, groupwise, sametime, silc, simple, qq, myspaceim, and mxit.
+
+some extra packages are suggested to use increased functionality:
+
+ * gnome-panel | kdebase-workspace-bin | docker:
+   - to use the system tray icon functionality (minimizing to an icon, having
+     the icon blink when there are new messages, etc.)
+ * libsqlite3-0:
+   - to use contact availability prediction plugin

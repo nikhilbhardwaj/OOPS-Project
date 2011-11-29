@@ -1,0 +1,21 @@
+Xz-format compression utilities
+	
+xz is the successor to the lempel-ziv/markov-chain algorithm
+compression format, which provides memory-hungry but powerful
+compression (often better than bzip2) and fast, easy decompression.
+
+this package provides the command line tools for working with xz
+compression, including xz, unxz, xzcat, xzgrep, and so on. they can
+also handle the older lzma format, and if invoked via appropriate
+symlinks will emulate the behavior of the commands in the lzma
+package.
+
+the xz format is similar to the older lzma format but includes some
+improvements for general use:
+
+
+ * 'file' magic for detecting xz files;
+ * crc64 data integrity check;
+ * limited random-access reading support;
+ * improved support for multithreading (not used in xz-utils);
+ * support for flushing the encoder.

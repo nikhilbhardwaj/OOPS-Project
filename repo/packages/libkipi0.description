@@ -1,0 +1,8 @@
+Library for apps that want to use kipi-plugins (runtime version)
+	
+libkipi is a library
+
+
+    o that contains common routines and widget used by kipi-plugins
+    o to ease implementation of the kipi-plugins interface in an application
+      that wants to use kipi-plugins

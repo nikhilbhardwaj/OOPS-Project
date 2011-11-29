@@ -1,0 +1,7 @@
+Javax.vecmath vector math package
+	
+this package includes classes for 3-space vector/point, 4-space vector, 4x4,
+3x3 matrix, quaternion, axis-angle combination and etc. which are often
+utilized for computer graphics mathematics. most of the classes have single
+and double precision versions. generic matrices' lu and sv decomposition are
+also there.

@@ -1,0 +1,7 @@
+Software to analyse performance of yagi-uda antennas
+	
+you give the dimensions and positions of each element, and the
+program calculates gain, input impedance, front-to back ratio,
+beam-patterns etc. an optimisation program 'optimise' tries to
+optimise a design. the optimiser can also tell you the sensitivity
+of a good design, to small mechanical errors.

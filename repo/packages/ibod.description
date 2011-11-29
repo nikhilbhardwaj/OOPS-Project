@@ -1,0 +1,8 @@
+Isdn mppp bandwidth on demand daemon
+	
+ibod is a isdn mppp bandwidth on demand daemon designed to operate in
+conjunction with isdn4linux. the program monitors inbound and outbound
+traffic on the isdn interface. when the required bandwidth exceeds the
+capacity for the current number of isdn b-channels, more (slave)
+channels are connected according to the mppp protocol. when the traffic
+decreases, the slave channel(s) are disconnected.

@@ -1,0 +1,5 @@
+Cdebconf text plugin for reading from /dev/random
+	
+cdebconf plugin to facilitate reading random data from /dev/random.
+asks the user to enter random characters on the keyboard and shows a
+progressbar with percent-of-data read.

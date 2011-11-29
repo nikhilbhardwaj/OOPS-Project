@@ -1,0 +1,10 @@
+Interface to (some parts of) the linux dvb api
+	
+linux::dvb provides an interface to the linux dvb api. it is a
+straightforward translation of the c api. you should read the linux dvb api
+description to make any sense of this module. it can be found here:
+
+http://www.linuxtv.org/docs/dvbapi/dvbapi.html
+
+noteworthy limitations of this module include: no interface to the video,
+audio and net devices. if you need this functionality bug the author.

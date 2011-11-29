@@ -1,0 +1,36 @@
+A stealthy file integrity checker
+	
+the stealth program performs file integrity checks on (remote) clients. it
+differs from other file integrity checkers by not requiring baseline
+integrity data to be kept on either write-only media or in the client's file
+system. in fact, client's will contain hardly any indication at all that they
+are being monitored, thus improving the stealthiness of the integrity scans.
+
+stealth uses standard available software to perform file integrity checks
+(like find(1) and md5sum(1)). using individualized policy files, it is highly
+adaptable to the specific requirements of its clients.
+
+in production environments stealth should be run from an isolated computer
+(called the `stealth monitor').  in optimal configurations the stealth
+monitor should be a computer not accepting incoming connections. the account
+used to connect to its clients does not have to be `root': usually
+read-access to the client's file system is enough to perform a full integrity
+check. instead of using `root' a more restrictive administrative or
+ordinary account might offer all requirements for the desired integrity
+check.
+
+stealth itself must communicate with the computers it should monitor. it is
+essential that this communication is secure, and stealth configurations will
+therefore normally specify ssh as the command-shell to use to connect to its
+clients. stealth may be configured so as to use but one ssh connection per
+client, even if integrity scans are to be performed repeatedly. apart from
+this, the stealth monitor might be allowed to send e-mail to remote clients
+system's maintainers.
+
+stealth-runs itself may start randomly within specified intervals. the
+resulting unpredicability of stealth-runs further increases stealth's
+stealthiness.
+
+stealth's acronym is expanded to `ssh-based trust enforcement acquired
+through a locally trusted host': the client's trust is enforced, the locally
+trusted host is the stealth monitor.

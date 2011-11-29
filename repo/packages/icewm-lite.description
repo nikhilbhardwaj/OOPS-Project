@@ -1,0 +1,12 @@
+Wonderful win95-os/2-motif-like window manager
+	
+icewm is a window manager for x window system. it is fast and
+memory-efficient, and it provides many different looks including windows'95,
+os/2 warp 3,4, motif. it tries to take the best features of the above
+systems. additional features include  multiple workspaces, opaque move/resize,
+task bar, window list, mailbox status, digital clock.
+
+this package provides a minimal icewm binary with no support for
+taskbar and antialiased fonts.
+
+extra themes are available from the icewm-themes package.

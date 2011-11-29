@@ -1,0 +1,10 @@
+Common libraries used to handle alpha-numeric text paging
+	
+to send alphanumeric pages to a pager, if an email gateway is unavailable
+or undesirable, software is needed to control a modem which will dial a
+paging central, and deliver the pages using an ascii delivery system known
+as tap. sendpage implements all aspects of this type of software,
+including an snpp client, an snpp server, a queuing engine, a modem
+control engine, a tap communication system, and an email notification system.
+
+this package provides the perl modules used to process snpp and tap pages.

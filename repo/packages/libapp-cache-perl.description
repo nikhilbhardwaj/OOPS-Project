@@ -1,0 +1,6 @@
+Easy application-level caching library for perl
+	
+the app::cache module lets an application cache data locally. there
+are a few times an application would need to cache data: when it is
+retrieving information from the network or when it has to complete a
+large calculation.

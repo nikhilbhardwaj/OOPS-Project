@@ -1,0 +1,10 @@
+Create an image consisting of many small images
+	
+pixelize is a program that will use many scaled down images to
+try to duplicate, as closely as possible, another image.
+
+pixelize works by splitting up the image you want rendered (or
+duplicated) into a grid of small rectangular areas. each area
+is analyzed, and replaced with an image chosen from a large
+database of images. pixelize tries to pick images that best
+match each area.

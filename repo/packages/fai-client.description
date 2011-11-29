@@ -1,0 +1,10 @@
+Fully automatic installation client package
+	
+fai is a non-interactive system to install, customize and manage
+linux systems and software configurations on computers as well as
+virtual machines and chroot environments, from small networks to
+large infrastructures and clusters.
+
+this is the client package for fai. it contains the parts necessary
+to run the softupdate functionality on already installed systems, and
+is needed for the dirinstall functionality and others on a fai server.

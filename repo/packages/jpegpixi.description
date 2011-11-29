@@ -1,0 +1,13 @@
+Remove hot spots from jpeg images with minimal quality loss
+	
+jpegpixi is short for "jpeg pixel interpolator". it is a command-line utility
+which interpolates pixels in jfif images (commonly referred to as "jpeg
+images"). this is useful to correct images from a digital camera with ccd
+defects.
+
+jpegpixi tries to preserve the quality of the jfif image as much as possible.
+most graphics programs decode jfif images when they are loaded, and re-encode
+them when they are saved, which results in an overall loss of quality.
+jpegpixi, on the other hand, does not decode and re-encode the image, but
+manipulates the encoded image data. in doing so, it also preserves exif
+metadata.

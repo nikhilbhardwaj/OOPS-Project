@@ -1,0 +1,6 @@
+Nagios client for monitoring remote system information
+	
+contains the client to be installed on the nagios server which monitors the
+remote system running nagios-statd-server.
+
+montiors: disk, load, proc, swap, user and version.

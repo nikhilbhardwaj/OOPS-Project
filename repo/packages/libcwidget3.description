@@ -1,0 +1,8 @@
+High-level terminal interface library for c++ (runtime files)
+	
+libcwidget is a modern user interface library modeled on gtk+ and qt,
+but using curses as its display layer and with widgets that are
+tailored to a terminal environment.
+
+this package contains the files that are required to run programs
+compiled against libcwidget.

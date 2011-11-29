@@ -1,0 +1,11 @@
+Tools for managing ocfs2 cluster filesystems - graphical interface
+	
+ocfs2 is a general purpose cluster filesystem. unlike the initial release
+of ocfs, which supported only oracle database workloads, ocfs2 provides
+full support as a general purpose filesystem.  ocfs2 is a complete rewrite
+of the previous version, designed to work as a seamless addition to the
+linux kernel.
+
+a gui frontend for managing ocfs2 volumes on the system. one can mount
+and unmount volumes, format, view overview information and individual
+files, and view and modify the current cluster configuration.

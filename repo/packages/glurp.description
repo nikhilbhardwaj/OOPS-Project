@@ -1,0 +1,8 @@
+Gtk+ frontend to the music player daemon (mpd)
+	
+glurp is a gtk+ frontend to the mpd music daemon. it features:
+
+  * playlist support with id3 tags display.
+  * password-protected connection to mpd.
+  * easy switching of mpd's audio output device.
+  * easy operations with mpd's database/playlists/streams.

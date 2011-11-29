@@ -1,0 +1,19 @@
+Thumbnailers for thunar file manager
+	
+the thunar-thumbnailers project provides additional thumbnailers for use by
+the thunar file manager. thumbnailers are little utilities that run in the
+background to generate previews for certain file types.
+
+following file formats are supported:
+
+ - eps
+ - postscript
+ - dvi
+ - pdf
+ - fig (.fig)
+ - latex (requires tetex)
+ - raw digital camera images (requires raw-thumbnailer or dcraw)
+ - grace (requires grace)
+ - opendocument format (requires unzip)
+ - svgz (compressed svg)
+ - video files (requires ffmpegthumbnailer)

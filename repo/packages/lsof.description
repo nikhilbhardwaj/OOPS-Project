@@ -1,0 +1,6 @@
+List open files
+	
+lsof is a unix-specific diagnostic tool.  its name stands
+for list open files, and it does just that.  it lists
+information about any files that are open, by processes
+currently running on the system.

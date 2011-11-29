@@ -1,0 +1,5 @@
+Disassembler for 8051 code in intel hex format
+	
+dis51 is a simple 8051 disassembler. it takes an object file in
+intel hex (*.ihx or *.hex) format as input, and outputs an assembly
+language file.

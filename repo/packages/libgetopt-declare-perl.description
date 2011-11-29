@@ -1,0 +1,12 @@
+Perl module for parsing command line arguments
+	
+getopt::declare provides facilities to parse command line options. it builds
+and runs a parser. the parser object can be saved and later run on different
+input. key features are:
+
+
+ * automatic generation of error, usage and version information
+ * matching of parameter components may be constrained by regular expressions
+ * execution of embedded actions
+ * declarative specification of inter-parameter relationships
+ * selective or global case-insensitive matching of parameters

@@ -1,0 +1,9 @@
+Japanized metapost, a system for drawing pictures
+	
+this is jmetapost, a japanized metapost based on the original
+metapost 0.641. jmetapost can handle kanji characters (euc-jp).
+
+metapost interprets the metapost language and produces postscript
+pictures.  the metapost language is similar to knuth's metafont with
+additional features for including tex(1) or troff(1) commands and
+accessing features of postscript not found in metafont.

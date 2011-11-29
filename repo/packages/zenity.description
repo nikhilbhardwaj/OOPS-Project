@@ -1,0 +1,7 @@
+Display graphical dialog boxes from shell scripts
+	
+zenity allows you to display gtk+ dialogs from shell scripts; it is a
+rewrite of the `gdialog' command from gnome 1.
+
+zenity includes a gdialog wrapper script so that it can be used with
+legacy scripts.

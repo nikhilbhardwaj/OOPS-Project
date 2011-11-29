@@ -1,0 +1,8 @@
+Converter of report markup language (rml) file to pdf
+	
+tiny rml2pdf is a tool to easily create pdf document without programming. it
+can be used as a python library or as a standalone binary. it converts a rml,
+an xml dialect that lets you define the precise appearance of a printed
+document, to a pdf. you can use your existing tools to generate an input file
+that exactly describes the layout of a printed document, and rml2pdf converts
+it into pdf. rml is a much more powerful and flexible alternative to xsl:fo.

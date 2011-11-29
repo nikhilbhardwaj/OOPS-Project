@@ -1,0 +1,5 @@
+Setup and maintain your staging environments from your production backups
+	
+pg_staging implements commands for playing with your postgresql backups,
+allowing you to expose in devel or prelive environments more than one copy
+of a live database at the same time.

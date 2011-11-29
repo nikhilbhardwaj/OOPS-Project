@@ -1,0 +1,24 @@
+Packet sniffer and lan analyzer
+	
+can sniff in normal mode or in promiscuous mode the packets on a network
+interface and log it. it dumps the headers of packets and the payload in
+ascii or ascii-hex format. you can apply a filter. the sniffed data can
+be saved in a separated file.
+
+as analyzer tool, it has many features like:
+
+ * build lan hosts list
+ * follow a tcp-data stream
+ * find lan internet gateways
+ * discover promiscuous nodes
+ * reset an established connection
+ * perform a single half-open portscanner
+ * perform a multi half-open portscanner
+ * find link type (hub or switch)
+ * catch daemon banner of lan nodes
+ * control arp answers to discover possible arp-spoofings
+ * byte counting with an optional filter
+ * write reports logging
+
+
+it also provides a ncurses menu.

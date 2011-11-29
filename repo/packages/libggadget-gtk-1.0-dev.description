@@ -1,0 +1,10 @@
+Google gadgets gtk+ development files
+	
+google gadgets for linux provides a platform for running desktop gadgets under
+linux, catering to the unique needs of linux users. it is compatible with the
+gadgets written for google desktop for windows as well as the universal
+gadgets on igoogle. following linux norms, this project is open-sourced,
+under the apache license.
+
+this package contains the development files associated with libggadget-gtk,
+it is needed to write gtk+ programs that utilise libggadget.

@@ -1,0 +1,9 @@
+Geographic objects support for postgresql 8.4
+	
+postgis adds support for geographic objects to the postgresql object-relational
+database. in effect, postgis "spatially enables" the postgresql server,
+allowing it to be used as a backend spatial database for geographic information
+systems (gis), much like esri's sde or oracle's spatial extension. postgis
+follows the opengis "simple features specification for sql".
+
+this package supports postgresql 8.4.

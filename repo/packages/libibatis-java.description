@@ -1,0 +1,11 @@
+Ibatis data mapper framework
+	
+the  ibatis data mapper framework makes it easier to use a database with java
+and .net applications. ibatis couples objects with stored procedures or sql
+statements using a xml descriptor. simplicity is the biggest advantage of the
+ibatis data mapper over object relational mapping tools.
+
+to use the ibatis data mapper, you rely on your own objects, xml, and sql.
+there is little to learn that you don't already know. with the ibatis data
+mapper, you have the full power of both sql and stored procedures at your
+fingertips.

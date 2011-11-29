@@ -1,0 +1,9 @@
+Web-based gui to emboss
+	
+emboss explorer is a web-based graphical user interface
+to the emboss suite of bioinformatics tools. it is written
+in perl.
+
+if you use the apache http server, you will at most have to restart it before
+using emboss explorer. for other web servers, you will have to do the
+configuration by yourself.

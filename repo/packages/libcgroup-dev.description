@@ -1,0 +1,9 @@
+Development libraries to develop applications that utilize control groups
+	
+control groups provide a mechanism for aggregating/partitioning sets of tasks,
+and all their future children, into hierarchical groups with specialized
+behaviour.
+
+it provides api to create/delete and modify cgroup nodes. it will also in the
+future allow creation of persistent configuration for control groups and
+provide scripts to manage that configuration.

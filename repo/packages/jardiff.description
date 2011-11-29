@@ -1,0 +1,11 @@
+Tool to visualise api differences between two jar files
+	
+jardiff is a tool to help visualise api differences between two different
+versions of a project.
+
+jardiff takes two jar files and outputs all the public api changes as
+xml, html or plain text.
+
+it can be used from command line or via an apache ant task.
+
+it requires java >= 1.4 to run.

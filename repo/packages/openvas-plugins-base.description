@@ -1,0 +1,9 @@
+Remote network security auditor - basic plugins
+	
+the open vulnerability assessment system is a modular security auditing
+tool, used for testing remote systems for vulnerabilities that should be
+fixed.
+
+this package contains the basic plugins: find_service, openvas_tcp_scanner,
+ssl_ciphers and synscan. as well as the script needed for downloading updated
+plugins from openvas.

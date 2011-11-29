@@ -1,0 +1,7 @@
+Commandline task interface for cipux
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+this package contains a commandline task tool for cipux.

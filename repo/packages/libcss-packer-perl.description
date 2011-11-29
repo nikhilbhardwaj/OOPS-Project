@@ -1,0 +1,6 @@
+Fast pure perl css cleaner
+	
+css::packer is a pure perl library for css cleanup. it can do css
+reformatting, whitespace and newline removal, in order to get a
+"pretty-printed" version or a minimal size version of the original
+css code.

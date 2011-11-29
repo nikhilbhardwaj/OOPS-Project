@@ -1,0 +1,15 @@
+Rss reader for gnustep
+	
+grr (günther's rss reader) is a reader for rss news feeds.  it has
+the following features:
+
+
+ * parsing rss feeds (including atom).
+ * fetching feeds from the web.
+ * showing headlines.
+ * showing the article's descriptions.
+ * categories for feeds.
+ * articles can be rated.
+ * simple html rendering on gnustep.
+ * serializing obtained feed information to hard disk.
+ * managing (adding, removing) feeds.

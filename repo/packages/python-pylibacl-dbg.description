@@ -1,0 +1,7 @@
+Module for manipulating posix.1e acls (debug extension)
+	
+pylibacl is a python interface to the libacl library. it allows
+manipulation of the posix.1e-compliant filesystem acls present
+in some operating systems (gnu/linux included).
+
+this package contains the extension built for the python debug interpreter.

@@ -1,0 +1,10 @@
+Haskell exceptions which are explicit in the type signature; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides synchronous and asynchronous exceptions which are
+explicit in the type signature. the first ones are very similar to either
+and control.monad.error.errort. the second ones are used for
+system.io.readfile and system.io.hgetcontents.

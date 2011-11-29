@@ -1,0 +1,12 @@
+Servlet and jsp engine
+	
+apache tomcat implements the java servlet and the javaserver pages (jsp)
+specifications from sun microsystems, and provides a "pure java" http web
+server environment for java code to run.
+
+this package contains only the startup scripts for the system-wide daemon.
+no documentation or web applications are included here, please install
+the tomcat6-docs and tomcat6-examples packages if you want them.
+install the authbind package if you need to use tomcat on ports 1-1023.
+install tomcat6-user instead of this package if you don't want tomcat to
+start as a service.

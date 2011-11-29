@@ -1,0 +1,7 @@
+Base package for alsa and oss sound systems
+	
+this package allows the administrator to choose between
+the oss and alsa sound systems.
+
+alsa is the advanced linux sound architecture.
+oss is the free version of the open sound system.

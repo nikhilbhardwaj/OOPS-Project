@@ -1,0 +1,11 @@
+An interface to the musicbrainz xml web service (documentation)
+	
+python-musicbrainz2 provides simple, object oriented access to the
+musicbrainz web service. it is useful for applications like cd rippers,
+taggers, media players, and other tools that need music metadata.
+
+the musicbrainz project (see http://musicbrainz.org) collects music
+metadata and is maintained by its large and constantly growing user
+community.
+
+this package contains html documentation and examples.

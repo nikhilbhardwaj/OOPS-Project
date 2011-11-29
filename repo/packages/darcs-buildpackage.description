@@ -1,0 +1,19 @@
+Suite to help with debian packages in darcs archives
+	
+this package helps automate and ease the task of maintaining debian
+packages by helping you, the debian developer, take advantage of
+the unique features in darcs.  the programs included are:
+
+dbp-importdsc: import an upstream version and a debian version from
+a debian source package, automatically detecting package and version
+information from the .dsc.
+
+dbp-importorig: import an upstream tar.gz or directory.
+
+dbp-markdeb: mark a working copy for future reference.
+
+darcs-buildpackage: builds a debian package based on information in
+the repository, checking out debian and upstream versions as necessary.
+
+dbp-get: checks out a source tree for a package into the current
+directory, referring to darcs mirrors if necessary.

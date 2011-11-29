@@ -1,0 +1,5 @@
+Linux support headers for userspace development
+	
+this package provides userspaces headers from the linux kernel.  these
+headers are used by the installed headers for gnu glibc and other system
+libraries.

@@ -1,0 +1,14 @@
+Debian package upload tool
+	
+dput allows you to put one or more debian packages into the archive.  this
+package also includes a dcut utility which can be used to generate and / or
+upload a commands file for the debian ftp archive upload queue.
+
+dput includes some tests to verify that the package is policy-compliant.
+it offers the possibility to run lintian before the upload. it can also
+run dinstall in dry-run-mode, when having used an appropriate upload method.
+this is very useful to see if the upload will pass dinstall sanity checks
+in the next run.
+
+it is intended mainly for debian maintainers only, although it can
+also be useful for people maintaining local apt repositories.

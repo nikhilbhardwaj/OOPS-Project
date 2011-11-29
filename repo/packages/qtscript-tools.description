@@ -1,0 +1,13 @@
+Tools for qt script developers
+	
+this package contains qt script generator and a simple helper program which
+can be used to launch scripts from command line.
+
+qt script generator is a tool that generates qt bindings for qt script. with
+the generated bindings you get access to substantial portions of the qt api
+from within qt script. the binary has been renamed to 'qs_generator' in this
+package.
+
+qs_eval is a simple script interpreter / launcher that imports all the
+bindings. you can use it to run examples found in the libqtscript4-doc
+package.

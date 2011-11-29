@@ -1,0 +1,13 @@
+Linux howtos and faqs in html format
+	
+the doc-linux-html package provides the current linux howtos and faqs in
+html format. alternatively, ascii versions are provided in the
+doc-linux-text package.
+
+the version number reflects the month in which doc-linux-html was created.
+
+all files are available at http://www.tldp.org/ (with versions in ascii,
+dvi, html, postscript, and sgml).
+
+documents with licences that fail to meet the debian free software
+guidelines can be found in the doc-linux-nonfree-html package.

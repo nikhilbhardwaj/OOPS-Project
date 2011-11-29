@@ -1,0 +1,10 @@
+Sqlite backend for tntdb database access library
+	
+this library provides a thin, database independent layer over an sql
+database.  it lacks complex features like schema queries or wrapper
+classes like active result sets or data bound controls.  instead you
+get to access the database directly with sql queries.  the library is
+suited for application programming, not for writing generic database
+handling tools.
+
+this file has the necessary files for sqlite support.

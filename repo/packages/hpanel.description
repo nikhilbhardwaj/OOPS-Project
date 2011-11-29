@@ -1,0 +1,7 @@
+Minimalist panel for x
+	
+hpanel is hacked version of fspanel, a small panel that lists your
+windows and allows you to switch workspaces. it requires a window
+manager that is compliant with the netwm specification. it works
+nicely with pekwm and aewm++, and handles maximized windows better
+than fspanel.

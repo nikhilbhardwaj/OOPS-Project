@@ -1,0 +1,7 @@
+A tool to read/write the wakeup time from/to the bios
+	
+nvram-wakeup can read and write the wake up time in the bios
+(via /dev/nvram on recent 2.4.x kernels or direct i/o port access).
+on this wake up time the computer will be powered on automatically from
+the soft-off state. for the video disc recorder vdr, nvram-wakeup installs
+a hook script, that allows vdr to set a wake up time, when it powers down.

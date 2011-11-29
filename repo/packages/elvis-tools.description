@@ -1,0 +1,8 @@
+Text editing tools for programmers (elvfmt, elvtags, ref)
+	
+this package contains elvtags (for generating tags and refs
+files), ref (for quickly locating/displaying the header of a
+function) and elvfmt (for adjusting paragraphs of text).
+
+these tools actually belong to the elvis editor but can be used
+without it.

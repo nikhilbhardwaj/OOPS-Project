@@ -1,0 +1,12 @@
+A gambas image effects component
+	
+gambas is a programming language based on a basic interpreter with
+object extensions - like visual basic, though it is not a clone!
+it has many components for developing internationalized,
+desktop-independent, database- and network-enabled applications.
+even games can be developed very quickly using its rad environment.
+
+this is a new component for applying many various effects on images.
+the effects source code was ported from the kde libkdefx library, which
+includes itself some imagemagick algorithms, and from the kolourpaint
+program.

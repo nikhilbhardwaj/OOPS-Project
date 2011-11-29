@@ -1,0 +1,12 @@
+Fuse file system that provides posix functionality
+	
+with posixovl it is possible to mount fat, vfat, ntfs
+file system so that it behaves like posix. file permissions,
+symbolic links etc. are supported transparently. an extra file
+stores the information and the file system itself stays unmodified.
+it is a modern equivalent of the umsdos file system.
+
+typical use: mount an usb fat32 drive with posixovl and your
+files retain their permission settings.
+
+this package extends mount and provides option '-t posixovl'.

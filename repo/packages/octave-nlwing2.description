@@ -1,0 +1,9 @@
+Nonlinear lifting line for wings in octave
+	
+this package allows efficient computation of nonlinear aerodynamic
+properties of a wing in octave, a scientific computing software. it
+employs 2d section data to build a 3d potential vortex model of the
+flow. it uses a robust euler-newton method to track the change of
+flow vorticity quantities as the angle of attack progresses.
+
+this octave add-on package is part of the octave-forge project.

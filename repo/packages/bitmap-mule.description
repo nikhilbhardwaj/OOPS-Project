@@ -1,0 +1,17 @@
+Bitmap handler for gnu emacs
+	
+bitmap-mule is a package to use bitmap in mule (xemacs is not supported).
+
+bitmap-mule has following modules:
+
+
+ - bitmap.el:       kernel of bitmap-mule
+ - bitmap-bi.el:    functions for emacs 20.2 or earlier
+ - bitmap-ci.el:    functions for emacs 20.3 or later
+ - bm-utils.el:     utility functions.
+ - po.el:           tiny bdf font editor
+ - smiley-mule.el:  smiley faces encoder/decoder
+ - x-face-mule.el:  inline x-face decoder
+ - x-face-18.el:    x-face decoder for emacs 18
+ - gnus-bitmap.el:  gnus/gnus related functions
+ - vm-bitmap.el:    vm related functions

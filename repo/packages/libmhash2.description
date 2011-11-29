@@ -1,0 +1,11 @@
+Library for cryptographic hashing and message authentication
+	
+mhash is a library that provides a uniform interface to a large
+number of hash algorithms.  these algorithms can be used to compute
+checksums, message digests, and other signatures.  the hmac support
+implements the basics for message authentication, following rfc 2104.
+mhash also provides several key-generation algorithms, including
+those of openpgp (rfc 2440).  further information is available at
+http://mhash.sourceforge.net/.
+
+this package contains the shared library.

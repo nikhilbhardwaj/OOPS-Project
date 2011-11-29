@@ -1,0 +1,8 @@
+Ruby conversion of the perl's algorithm::diff (dummy package)
+	
+diff is an algorithm which computes the differences between two
+lists a and b. the resulting set of differences can be applied to
+a (also called "patching") to get b. this is also what the unix
+command line tools "diff" and "patch" are able to do.
+
+this is dummy package.

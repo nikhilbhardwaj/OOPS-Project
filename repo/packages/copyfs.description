@@ -1,0 +1,4 @@
+Versioning filesystem for fuse
+	
+copyfs keeps versioned copies of all changes done to files under its
+control and allows the user to revert back to any previous revision.

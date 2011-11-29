@@ -1,0 +1,16 @@
+Extended tcl (tclx) - shared library
+	
+extended tcl (tclx), is a set of extensions to tcl, the tool command
+language invented by dr. john ousterhout.  tcl is a powerful, yet simple
+embeddable programming language.  extended tcl is oriented towards system
+programming tasks and large application development.
+
+tclx provides additional interfaces to the operating system, and adds many
+new programming constructs, text manipulation tools, and debugging tools.
+
+tclx 8.4 differs from its predecessors in that it is based more on the
+idea of tclx as an extension to tcl, and not an alternate environment.
+there is no tkx and no stand-alone shells are built. the tkx*8.4 packages
+therefore don't exist anymore.
+
+this package includes the shared library and tcl library files.

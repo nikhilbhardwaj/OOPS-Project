@@ -1,0 +1,4 @@
+PackageId:33791
+Name:uucp
+Version:1.07-20
+Deps:cron,bcron-run,cu,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libpam-runtime,libpam0g,logrotate,mailx,bsd-mailx,heirloom-mailx,mailutils,netbase,openbsd-inetd,inet-superserver,inetutils-inetd,rlinetd,xinetd

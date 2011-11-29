@@ -1,0 +1,27 @@
+Data files to be shared among screensaver frontends
+	
+xscreensaver is a modular screen saver and locker for x11,
+containing more than 200 screen savers.
+
+this package contains the rest of the 2d screen saver modules
+from the xscreensaver collection. this package is used by both
+xscreensaver and gnome-screensaver.
+
+this is the set of non-gl screensavers not shipped by default:
+ant, anemone, anemotaxis, apollonian, apple2, attraction, barcode, blaster,
+blitspin, bouboule, boxfit, braid, bsod, bumps, ccurve, celtic,
+cloudlife, compass, coral, crystal, cynosure, decayscreen,
+deluxe, demon, discrete, drift, epicycle, eruption, euler2d, fadeplot,
+fireworkx, flame, flow, fluidballs, fontglide, goop,
+grav, greynetic, halftone, halo, helix, hopalong, hyperball,
+hypercube, ifs, imsmap, interaggregate, interference, intermomentary, jigsqw,
+juggle, julia, memscroller, mismunch, moire, moire2, mountain, munch,
+nerverot, noseguy, pacman, pedal, penetrate, petry, phosphor, piecewise,
+polyominoes, pong, pyro, qiz, rd-bomb, rocks, rorschach, rotzoomer,
+sierpinski, slip, speedmine, spotlight, squiral, starfish,
+strange, substrate, thornbird, triangle, truchet, twang, vermiculate,
+vidwhacker, wander, webcollage, whirlwindwarp,
+wormhole, xanalogtv, xflame, xjack, xmatrix, xrayswarm, xspirograph, zoom.
+
+more display modes can be found in the xscreensaver-data, xscreensaver-gl
+and xscreensaver-gl-extra packages.

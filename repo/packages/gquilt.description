@@ -1,0 +1,9 @@
+Graphical wrapper for quilt and/or mercurial queues
+	
+quilt and mercurial are programs that manages a series of patches,
+with a focus on handling patch dependencies and allowing easy
+management of large sets of patches.
+
+gquilt is a gtk+-based gui wrapper for the quilt and mercurial
+programs, providing a simple graphical interface for a range of
+commands.

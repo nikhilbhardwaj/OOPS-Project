@@ -1,0 +1,5 @@
+Convert german umlauts to and from ascii
+	
+this module enables conversion from and to the ascii format of german texts.
+it has two methods: to_ascii and to_latin1 which each do exactly what they
+say.

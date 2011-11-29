@@ -1,0 +1,34 @@
+Date and time handling routines for python
+	
+mxdatetime is a python extension package that provides three new
+objects, datetime, datetimedelta and relativedatetime, which let you
+store and handle date/time values in a much more natural way than by
+using ticks (seconds since 1970-01-01 00:00:00 utc), the representation
+used by python's time module).
+
+you can add, subtract and even multiply instances, pickle and copy
+them and convert the results to strings, com dates, ticks and some
+other more esoteric values. in addition, there are several convenient
+constructors and formatters at hand to greatly simplify dealing with
+dates and times in real-world applications.
+
+in addition to providing an easy-to-use python interface the package
+also exports a comfortable c api interface for other extensions to
+build upon. this is especially interesting for database applications
+which often have to deal with date/time values (the mxodbc package is
+one example of an extension using this interface).
+
+mxdatetime can convert between various different date/time storage
+formats, including com dates, tjd, mjd, jdn, tuples and, probably
+most important, strings.
+
+the date/time parser included in mxdatetime is one of the most
+flexible such parser available for python. it is constantly being
+improved to make parsing date/time strings as easy as possible. at
+the same time, it offers a fully customizable interface which allows
+selecting valid date/time formats from a range of predefined
+categories.
+
+there are also special parser and formatter modules for arpa and iso
+date/time formats, which are handy if you work a lot with internet
+standards.

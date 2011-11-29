@@ -1,0 +1,9 @@
+Emacs mode for python refactoring
+	
+rope is a python library that can be used with several editors and ides. it
+provides many refactoring operations as well as forms of code assistance like
+auto-completion and access to documentation. for a complete list of features,
+see the project homepage.
+
+this package provides the features of the python-rope library through a emacs
+minor mode (on top of the python mode) using the pymacs package.

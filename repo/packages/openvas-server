@@ -1,0 +1,4 @@
+PackageId:26591
+Name:openvas-server
+Version:2.0.3-3
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcrypt11,libglib2.0-0,libgnutls26,libgpg-error0,libgpgme11,libopenvas2,libopenvasnasl2,libpcap0.8,libwrap0,openssl

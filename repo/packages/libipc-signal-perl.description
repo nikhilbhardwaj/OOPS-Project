@@ -1,0 +1,5 @@
+Utility functions dealing with signals for perl
+	
+this perl module contains utility functions for dealing with signals.
+currently these are just translating between signal names and signal
+numbers and vice versa.

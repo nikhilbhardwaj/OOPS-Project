@@ -1,0 +1,4 @@
+Xbase <--> mysql
+	
+this program takes an xbase file and sends queries to an mysql server to
+insert it into an mysql table and vice versa.

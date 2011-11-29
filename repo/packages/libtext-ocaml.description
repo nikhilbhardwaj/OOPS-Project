@@ -1,0 +1,7 @@
+Runtime libraries of ocaml-text
+	
+ocaml-text is an ocaml library for dealing with "text", i.e. sequences
+of unicode characters, in a convenient way.
+
+this package contains runtime libraries (shared stub library,
+bytecode plugin and native code plugin if available).

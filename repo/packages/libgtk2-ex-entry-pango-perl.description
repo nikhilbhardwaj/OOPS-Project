@@ -1,0 +1,16 @@
+Gtk2::entry that accepts pango markup
+	
+gtk2::ex::entry::pango is a gtk2::entry that can accept pango markup for
+various purposes (for more information about pango text markup language see
+http://library.gnome.org/devel/pango/stable/pangomarkupformat.html).
+
+the widget allows pango markup to be used for input as an alternative to
+set_text or for setting a default value when the widget is empty. the default
+value when empty is ideal for standalone text entries that have no accompanying
+label (such as a text field for a search).
+
+this widget allows for the text data to be entered either through the normal
+methods provided by gtk2::entry or to use the method /set_markup. it's
+possible to switch between two methods for applying the text. the standard
+gtk2::entry methods will always apply a text without styles while
+set_markup() will use a style.

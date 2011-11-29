@@ -1,0 +1,22 @@
+Tool to create, manipulate and study graphs
+	
+some of the features of graphthing are:
+
+
+ * adding, deleting and moving of vertices and edges.
+ * loading and saving of graphs.
+ * graph complements, induced subgraphs and line graphs.
+ * quick creation of many common graphs (complete, cycle, null, star, etc.).
+ * determination of shortest path, connectivity and eulericity.
+ * bfs, dfs and minimum spanning tree.
+ * adjacency matrix (including exponents) and degree sequence.
+ * chromatic polynomial and chromatic number.
+ * network algorithms: maximum network flow.
+
+
+these `graphs' are mathematical objects that describe relationships between
+sets; they are not 2d plots, charts, or anything similar to that.
+
+at the moment, only simple graphs and digraphs are supported; that is,
+no multiple edges or loops.  other than this, graphthing can handle
+every type of graph.

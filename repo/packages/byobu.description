@@ -1,0 +1,9 @@
+A set of useful profiles and a profile-switcher for gnu screen
+	
+byobu includes a set of profiles for the gnu screen window manager.
+these profiles are quite useful on server machines which are not running
+a graphical desktop.  the 'screen' command provides a number of advanced
+features are not necessarily exposed in the default profile.  these profiles
+provide features such as status bars, clocks, notifiers (reboot required,
+updates available), etc.  the profile-switcher allows users to quickly switch
+their .screenrc to any of the available profiles.

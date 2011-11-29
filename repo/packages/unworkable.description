@@ -1,0 +1,6 @@
+Efficient, simple and secure bittorrent client
+	
+unworkable is a bsd-licensed bittorrent implementation.
+goals of this project include efficiency, simplicity and high code quality.
+unworkable is single threaded and asynchronous, written in portable ansi c
+using libevent and mmap() for performance.

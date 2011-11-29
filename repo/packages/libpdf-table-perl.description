@@ -1,0 +1,10 @@
+Utility class for building table layouts in a pdf::api2 object
+	
+pdf::table is a utility for use with the pdf::api2 module from
+cpan. it can be used to display text data in a table layout within
+the pdf. the text data must be in a 2d array (such as returned by a
+dbi statement handle fetchall_arrayref() call). the pdf::table will
+automatically add as many new pages as necessary to display all of
+the data. various layout properties, such as font, font size, and
+cell padding and background color can be specified for each column
+and/or for even/odd rows. see the methods section in the man page.

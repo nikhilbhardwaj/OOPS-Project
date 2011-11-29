@@ -1,0 +1,10 @@
+Minesweeper for gnustep
+	
+mines is the classic minesweeper game for gnustep. you must uncover all
+the empty cases without blowing on a mine.
+
+when you uncover a case, a number appears: it indicates how many
+mines surround this case. if there is no number the neighbour cases
+are automatically uncovered. in your process of uncovering secure
+cases, it is very useful to put a flag on the cases which contain a
+mine.

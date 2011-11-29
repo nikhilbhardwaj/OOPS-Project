@@ -1,0 +1,13 @@
+Wxbase library (runtime) - non-gui support classes of wxwidgets toolkit
+	
+wxbase is a collection of c++ classes providing basic data structures
+(strings, lists, arrays), powerful wxdatetime class for date manipulations,
+portable wrappers around many os-specific functions allowing to build the
+same program under all supported folders, wxthread class for writing
+multithreaded programs using either win32 or posix threads and much more.
+wxbase currently supports the following platforms: generic unix (linux,
+freebsd, solaris, hp-ux, ...), win32, and beos.
+
+this package is only useful for non-gui apps.  it offers a subset of the
+classes in libwx_gtk2.6 for use in console apps and daemons.  you do not need
+this package to build or use wxwidgets gui apps.

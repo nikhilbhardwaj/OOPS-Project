@@ -1,0 +1,53 @@
+Additional facilities for postgresql
+	
+the postgresql contrib package provides several additional features
+for the postgresql database. this version is built to work with the
+server package postgresql-8.4.  contrib often serves as a testbed for
+features before they are adopted into postgresql proper:
+
+
+ adminpack      - file and log manipulation routines, used by pgadmin
+ btree_gist     - b-tree indexing using gist (generalised search tree)
+ chkpass        - an auto-encrypted password datatype
+ cube           - multidimensional-cube datatype (gist indexing example)
+ dblink         - functions to return results from a remote database
+ earthdistance  - operator for computing the distance (in miles) between
+                  two points on the earth's surface
+ fuzzystrmatch  - levenshtein, metaphone, and soundex fuzzy string matching
+ hstore         - store (key, value) pairs
+ intagg         - integer aggregator/enumerator
+ _int           - index support for arrays of int4, using gist (benchmark
+                  needs the libdbd-pg-perl package)
+ isn            - type extensions for isbn, issn, ismn, ean13 product numbers
+ lo             - large object maintenance
+ ltree          - tree-like data structures
+ oid2name       - maps oids to table names
+ pageinspect    - inspection of database pages
+ pg_buffercache - real time queries on the shared buffer cache
+ pg_freespacemap- displays the contents of the free space map (fsm)
+ pg_trgm        - determine the similarity of text based on trigram matching
+ pg_standby     - create a warm stand-by server
+ pgbench        - tpc-b like benchmark
+ pgcrypto       - cryptographic functions
+ pgrowlocks     - a function to return row locking information
+ pgstattuple    - returns the percentage of dead tuples in a table; this
+                  indicates whether a vacuum is required.
+ seg            - confidence-interval datatype (gist indexing example)
+ spi            - postgresql server programming interface; 4 examples of
+                  its use:
+                  autoinc    - a function for implementing autoincrement/
+                               identity
+                  insert_username - function for inserting user names
+                  moddatetime - update modification timestamps
+                  refint     - functions for implementing referential
+                               integrity (foreign keys).  note that this is
+                               now superseded by built-in referential
+                               integrity.
+                  timetravel - re-implements in user code the time travel
+                               feature that was removed in 6.3.
+ tablefunc      - examples of functions returning tables
+ uuid-ossp      - uuid generation functions
+ vacuumlo       - remove orphaned large objects
+
+
+postgresql is an object-relational sql database management system.

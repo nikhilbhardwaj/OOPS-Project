@@ -1,0 +1,4 @@
+PackageId:33196
+Name:tryton-modules-calendar-todo
+Version:1.6.0-1
+Deps:python,python-dateutil,python-pkg-resources,python-support,python-tz,python-vobject,python-webdav,tryton-modules-calendar,tryton-server

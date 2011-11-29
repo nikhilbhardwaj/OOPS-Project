@@ -1,0 +1,9 @@
+Module for testing exception-based code
+	
+test::exception is a perl test module that provides a few convenience methods
+for testing exception-based code. it is built with test::builder and plays
+happily with test::more and friends.
+
+note that this module only checks for exceptions, so it ignores other methods
+of halting program executing - including exit(). if your code causes the perl
+interpreter to exit, test::exception won't be able to catch it.

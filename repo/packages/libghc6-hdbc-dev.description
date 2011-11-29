@@ -1,0 +1,12 @@
+Haskell database connectivity, ghc6 package
+	
+hdbc provides an abstraction layer between haskell programs and sql
+relational databases. this lets you write database code once, in
+haskell, and have it work with any number of backend sql databases
+(mysql, oracle, postgresql, odbc-compliant databases, etc.)
+
+hdbc is modeled loosely on perl's dbi interface, though it has also been
+influenced by python's db-api v2, jdbc in java, and hsql in haskell.
+
+to use hdbc, you'll need both this package, and a driver package such
+as libghc6-hdbc-postgresql-dev.

@@ -1,0 +1,6 @@
+Module for apache2 which authenticate using pam
+	
+mod_auth_pam implements authentication routines using pam (plugable
+authentication modules) for apache's authentication protocol.
+
+this package provides the module for apache 2.0 server.

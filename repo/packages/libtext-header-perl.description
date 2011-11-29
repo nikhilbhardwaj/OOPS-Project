@@ -1,0 +1,11 @@
+Rfc 822/2068 header and unheader functions
+	
+this module provides two new functions, header and unheader,
+which provide general-purpose rfc 822 header construction and parsing.
+they do not provide any intelligent defaults of http-specific methods.
+they are simply aimed at providing an easy means to address the
+mechanics of header parsing.
+
+the output style is designed to mimic cgi.pm and http::headers,
+so that users familiar with these interfaces will feel at home with
+these functions.

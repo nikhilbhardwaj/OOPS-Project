@@ -1,0 +1,8 @@
+Tools useful during development with libdbusmenu
+	
+libdbusmenu passes a menu structure across dbus so that a program can
+create a menu simply without worrying about how it is displayed on the
+other side of the bus.
+
+this package contains tools that are useful when developing and building
+applications with libdbusmenu.

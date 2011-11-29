@@ -1,0 +1,6 @@
+Domainkeys identified mail (dkim) library implementation
+	
+a library for implementing signing and verification of the domainkeys
+identified mail (dkim) standard. this library provides support for
+signing and verifying signatures according to rfc 4871, and supports
+both domainkeys signing policy and draft dkim ssp.

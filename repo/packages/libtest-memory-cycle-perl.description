@@ -1,0 +1,12 @@
+Perl module that verifies code hasn't left circular references
+	
+test::memory::cycle checks for memory leaks and circular memory
+references. it's a thin test::more-compatible wrapper around lincoln
+stein's devel::cycle module.
+
+perl's garbage collection has one big problem: circular references
+can't get cleaned up. a circular reference can be as simple as two
+reference that refer to each other. test::memory::cycle is built on
+top of devel::cycle to give you an easy way to check for these
+circular references. you can also use memory_cycle_exists() to make
+sure that you have a cycle where you expect to have one.

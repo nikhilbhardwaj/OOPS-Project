@@ -1,0 +1,7 @@
+A lightweight, non-caching, optionally anonymizing http proxy
+	
+an anonymizing http proxy which is very light on system resources,
+ideal for smaller networks and similar situations where other proxies
+(such as squid) may be overkill and/or a security risk. tinyproxy can
+also be configured to anonymize http requests (allowing for exceptions
+on a per-header basis).

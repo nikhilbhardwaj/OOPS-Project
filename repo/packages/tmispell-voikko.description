@@ -1,0 +1,13 @@
+Ispell wrapper which uses voikko for spell-checking
+	
+voikko is a finnish spell-checker and hyphenator based on malaga and
+suomi-malaga.
+
+tmispell is an ispell wrapper that provides an ispell-like interface for other
+programs that need spelling checker. many programs (e.g. mail clients, text
+editors, and word processors) use ispell for spell-checking. this package
+makes it possible for such programs to use voikko for finnish spell-checking.
+
+this package will set up tmispell so that the command "ispell" actually starts
+"tmispell". the real ispell will be launched only if tmispell does not support
+the selected language.

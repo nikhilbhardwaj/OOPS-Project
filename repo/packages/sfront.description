@@ -1,0 +1,14 @@
+Mpeg 4 structured audio decoder
+	
+sfront compiles mpeg 4 structured audio (mp4-sa) bitstreams into
+efficient c programs that generate audio when executed. it supports
+real-time, low-latency audio input/output, midi input from
+soundcards, and network musical performance.
+
+mp4-sa is a standard for normative algorithmic sound, that combines
+an audio signal processing language (saol) with score languages
+(sasl, and the legacy midi file format).
+
+this package includes the sfront application, the sfront manual and
+"the mpeg-4 structured audio book", a book on sound modeling and
+sequencing using mp4-sa.

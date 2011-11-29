@@ -1,0 +1,6 @@
+Inline module for drupal 6
+	
+inline module allows users to display uploaded files and images
+inline, i.e. place links to files into a content using a simple
+[inline:filename.jpg] tag.  the effect is a link to the file or the
+display of an image, depending on the file type.

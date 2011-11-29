@@ -1,0 +1,7 @@
+Speed up perl scripts by making them persistent
+	
+speedycgi is a way to run perl scripts persistently, which usually makes
+them run much more quickly because it avoids the overhead of starting
+up a new perl interpreter and compiling the perl code.  it is also known
+as persistentperl: while its most common use is with cgi scripts, it can
+be used to speed up most perl programs.

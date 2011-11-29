@@ -1,0 +1,14 @@
+Truetype version of the gnu unifont
+	
+this is a bitmap font converted into a scalable truetype outline
+font.  each pixel in the original bitmap font is represented as
+an outlined square.  the font provides a glyph for each visible
+code point (character) in the unicode basic multilingual plane
+(plane 0).  plane 0 contains most of the world's modern writing
+scripts.  this font looks best at 12pt.
+
+complex fonts (such as indic or semitic scripts, where letters
+change shape depending on their position in a word, or such as
+mongolian, which is written vertically) will not render perfectly.
+the philosophy behind this font, though, is that anything meaningful
+is better than an empty box for a unknown glyph.

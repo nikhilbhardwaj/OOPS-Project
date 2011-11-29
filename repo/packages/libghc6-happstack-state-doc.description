@@ -1,0 +1,17 @@
+Happstack web framework, distributed state layer - documentation
+	
+happstack is a haskell web framework, designed so that developers can
+prototype quickly, deploy painlessly, scale massively, operate reliably,
+and change easily. it supports gnu/linux, os x, freebsd, and windows
+environments.
+
+happstack provides you with all the components you need to build and
+deploy your application, which is completely self-contained.
+particularly, happstack provides the application with a distributed and
+persistent data storage layer, capable to interact with the application
+itself directly in terms of haskell data structures.
+
+happstack-state is a distributed event-based state layer provided by
+happstack to the web application.
+
+this package contains the library documentation.

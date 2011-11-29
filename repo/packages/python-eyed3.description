@@ -1,0 +1,5 @@
+Python module for id3-tags manipulation
+	
+a python module for the manipulation of id3 tags. it supports versions
+1.0, 1.1, 2.3, and 2.4 of the id3 standard. it can also retrieve
+information such as length and bit rate from an mp3 file.

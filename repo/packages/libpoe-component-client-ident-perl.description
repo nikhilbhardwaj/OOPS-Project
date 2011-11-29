@@ -1,0 +1,5 @@
+A poe component that provides non-blocking ident lookups
+	
+poe::component::client::ident is a poe component that provides
+non-blocking ident lookup services to other poe components and
+sessions.

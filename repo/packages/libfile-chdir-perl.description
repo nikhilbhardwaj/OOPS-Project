@@ -1,0 +1,11 @@
+A more sensible way to change directories
+	
+perl's chdir() has the unfortunate problem of being very, very, very
+global. if any part of your program calls chdir() or if any library you
+use calls chdir(), it changes the current working directory for the
+whole program.
+
+this sucks.
+
+file::chdir gives you an alternative, $cwd and @cwd. these two variables
+combine all the power of chdir(), file::spec and cwd.

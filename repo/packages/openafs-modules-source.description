@@ -1,0 +1,8 @@
+Afs distributed filesystem kernel module source
+	
+afs is a distributed filesystem allowing cross-platform sharing of
+files among multiple computers.  facilities are provided for access
+control, authentication, backup and administrative management.
+
+this package provides the source to the afs kernel module in a form
+suitable for use by module-assistant or kernel-package.

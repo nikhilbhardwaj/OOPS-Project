@@ -1,0 +1,10 @@
+Header files and static library for wnn6 client library
+	
+wnn6 is a network-extensible kana-to-kanji conversion system based on
+the original version of wnn developed by kyoto university research
+institute for mathematical sciences (kurims), omron corporation and
+astec inc.
+
+this package contains the header files and static library for
+wnn6 client library. install this package if you wish to develop your
+own wnn6 client programs.

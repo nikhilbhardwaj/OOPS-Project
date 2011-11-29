@@ -1,0 +1,16 @@
+Simple text-based todo manager
+	
+w2do is a simple to use yet efficient command-line todo manager
+written in perl.
+
+features:
+
+ * well-arranged, fully filterable, plain text or coloured tabular
+   output.
+ * support for group, due date and priority categories.
+ * capable of managing multiple todo lists.
+ * detailed statistics with visual progress representation.
+ * completely command driven and therefore suitable for usage in
+   scripts.
+ * export to html 4.01 strict via w2html utility.
+ * export to plain text via w2text utility.

@@ -1,0 +1,6 @@
+Graphical configuration and management tool for red hat cluster suite
+	
+this gui allows to create, modify and distribute the rhcs cluster.conf file,
+the key configuration for any rhcs setup.
+furthermore it provides cluster management abilities like displaying cluster
+nodes and their status as well as starting, stopping and restarting services.

@@ -1,0 +1,25 @@
+Client-server backup system (common files)
+	
+this is a client-server backup system offering several workstations a
+centralized backup to a special backup server. backing up only one
+computer is easily possible, too. any streaming device can be used
+for writing the data to it, usually this will be a tape
+device. writing backups is normally done sequentially: the next
+writing to tape goes to the end of the previous write no matter where
+you have restored from in the meantime.
+
+
+ features:
+ - authentication of the client is performed before it can take over control
+ - access restriction for the streamer device -> security
+ - client-side per-file compression -> reliability
+ - data stream is written to tape in pieces -> fast finding of files
+ - tape position logging for each file
+ - tape capacity is fully used
+ - full / incremental backups
+ - raw partitions can be backed up
+ - client and server buffering for maximal throughput is done
+
+
+note: tk is required if you want to use the graphical configuration
+tool instead of the text configuration tool.

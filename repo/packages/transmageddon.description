@@ -1,0 +1,39 @@
+Video transcoder for linux and unix systems built using gstreamer
+	
+transmageddon supports almost any format as its input and can generate a very
+large host of output files. the goal of the application was to help people to
+create the files they need to be able to play on their mobile devices and for
+people not hugely experienced with multimedia to generate a multimedia file
+without having to resort to command line tools with ungainly syntaxes.
+
+the currently supported codecs are:
+
+ * containers:
+  - ogg
+  - matroska
+  - avi
+  - mpeg ts
+  - flv
+  - quicktime
+  - mpeg4
+  - 3gpp
+  - mxt
+ * audio encoders:
+  - vorbis
+  - flac
+  - mp3
+  - aac
+  - ac3
+  - speex
+  - celt
+ * video encoders:
+  - theora
+  - dirac
+  - h264
+  - mpeg2
+  - mpeg4/divx5
+  - xvid
+  - dnxhd
+
+
+it also provide the support for the gstreamer's plugins auto-search.

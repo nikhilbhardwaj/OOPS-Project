@@ -1,0 +1,6 @@
+Emacs minor mode for structurally editing lisp code
+	
+paredit mode instruments several common keybindings to automatically
+balance all parentheses and respect the structure of s-expressions;
+it also provides numerous high-level operations to change the
+structure of lists.

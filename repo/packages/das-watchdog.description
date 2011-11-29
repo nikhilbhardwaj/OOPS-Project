@@ -1,0 +1,14 @@
+Solves system lock-ups by making all processes non-realtime
+	
+das_watchdog is a general watchdog for the linux operating system that
+should be run in the background at all times to ensure a realtime process
+won't hang the machine.
+
+das_watchdog is inspired by the rt_watchdog program from florian schmidt,
+but has some improvements over it:
+
+ * it works with 2.4 kernels as well as 2.6.
+ * instead of permanently setting all realtime processes to run
+   non-realtime, das_watchdog only sets them temporary.
+ * when the watchdog kicks in, an x window should pop up that tells you
+   whats happening (just close it after reading the message).

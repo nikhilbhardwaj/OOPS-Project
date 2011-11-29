@@ -1,0 +1,18 @@
+Wired and wireless network manager - gtk+ client
+	
+wicd is a general-purpose network configuration server which aims
+to provide a simple but flexible interface for connecting to networks.
+its features include:
+wide variety of settings.
+
+ * ability to connect to (and maintain profiles for) both wired and
+   wireless networks;
+ * support for many encryption schemes, including wep, wpa, wpa2 and
+   custom schemes;
+ * wireless-tools compatibility.
+
+
+this package provides the gtk+ client, which has no gnome dependencies,
+making it easy to use in xfce, fluxbox, openbox, enlightenment, ...
+it also supports a tray icon showing network activity and signal
+strength.

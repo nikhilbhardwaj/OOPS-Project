@@ -1,0 +1,9 @@
+Full-screen, console-based python debugger
+	
+pudb is a full-screen, console-based visual debugger for python.
+
+its goal is to provide all the niceties of modern gui-based debuggers
+in a more lightweight and keyboard-friendly package. pudb allows you
+to debug code right where you write and test it -- in a terminal. if
+you've worked with the excellent (but nowadays ancient) dos-based
+turbo pascal or c tools, pudb's ui might look familiar.

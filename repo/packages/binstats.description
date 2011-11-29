@@ -1,0 +1,12 @@
+Statistics tool for installed programs
+	
+a utility to aid the tidying up of binaries, interpreted scripts, and
+dynamic libraries.  it can find the number and identity of a.out and
+elf binaries, plus their debugging symbols status, setuid status, and
+dynamic library dependence.  it can count the number of java bytecode
+programs, tally up the main types of scripts, and look for unidentified
+executable text files.
+
+also it is able to find any duplicated executable names, unused
+libraries, binaries with missing libraries, statically linked binaries,
+and duplicated manual page names.

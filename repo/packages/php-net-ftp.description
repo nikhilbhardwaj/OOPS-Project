@@ -1,0 +1,7 @@
+Provides an oo interface to the php ftp functions
+	
+net_ftp allows you to communicate with ftp servers in a more comfortable way
+than the native ftp functions of php do. the class implements everything
+nativly supported by php and additionally features like recursive up- and
+downloading, dircreation and chmodding. it although implements an observer
+pattern to allow for example the view of a progress bar.

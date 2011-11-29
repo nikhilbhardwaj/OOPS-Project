@@ -1,0 +1,12 @@
+Mime files 'mime.types' & 'mailcap', and support programs
+	
+as these files can be used by all mime compliant programs, they
+have been moved into their own package that others can depend upon.
+
+other packages add themselves as viewers/editors/composers/etc by
+using the provided "update-mime" program.
+
+in addition, the commands "see", "edit", "compose", and "print"
+will display, alter, create, and print (respectively) any file using
+a program determined from the entries in the mime.types and mailcap
+files.

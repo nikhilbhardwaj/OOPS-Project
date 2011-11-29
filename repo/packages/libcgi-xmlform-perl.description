@@ -1,0 +1,5 @@
+Perl module for reading/generating formatted xml
+	
+this perl module can either create form field values from xml based
+on xql style queries (full xql is _not_ supported - this module is
+designed for speed), or it can create xml from form values.

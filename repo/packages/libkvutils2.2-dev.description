@@ -1,0 +1,13 @@
+Kvutils library required for ecasound - development
+	
+kvutils is a simple utility library, it is not meant for general use.
+there is no documentation available.
+
+kvutils is freely distributable according to the terms of the gnu
+general public license (see the file 'copying').
+
+for more info about projects in which kvutils library is used,
+see http://eca.cx
+
+includes definition-by-contract routines, and command-line parsing
+modules, some string processing routines, and support for locks.

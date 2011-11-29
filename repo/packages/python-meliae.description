@@ -1,0 +1,11 @@
+Memory analysis tool for python
+	
+meliae is a library meant to help people understand how their memory is being
+used in python.
+
+this project is similar to heapy (in the 'guppy' project), in its attempt to
+understand how memory has been allocated.
+
+currently, its main difference is that it splits the task of computing
+summary statistics of memory consumption from the actual scanning of memory
+consumption.

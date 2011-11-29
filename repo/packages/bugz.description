@@ -1,0 +1,10 @@
+Command-line interface to bugzilla
+	
+pybugz is a python and command line interface to bugzilla,
+allowing the user to quickly search, isolate and contribute
+to projects using the bugzilla bug tracker.  developers can
+easily extract attachments and close bugs all from the
+comfort of the command line.
+
+this package provides both a fully-working cli application
+as well as a python module to be reused by other projects.

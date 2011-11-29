@@ -1,0 +1,13 @@
+Php pear module for creating mime messages
+	
+provides classes to deal with creation and manipulation of mime messages. it
+allows people to create e-mail messages consisting of:
+
+
+ - mime.php: create mime email, with html, attachments, embedded images
+   etc.
+ - mimepart.php: advanced method of creating mime messages.
+ - xmail.dtd: an xml dtd to acompany the getxml() method of the decoding
+   class.
+ - xmail.xsl: an xslt stylesheet to transform the output of the getxml()
+   method back to an email

@@ -1,0 +1,18 @@
+Binary firmware for qlogic iba7220, qla1xxx, isp2xxx and sp2x2
+	
+this package contains the binary firmware for qlogic iba7220 (infiniband),
+qla1xxx (scsi), isp2xxx- and sp2x2-based (fibre channel/fcoe) host
+adapters supported by the ip_iband, qla1280 and qla2xxx drivers.
+
+contents:
+
+ * qlogic qla1040 firmware, version 7.65.06 (qlogic/1040.bin)
+ * qlogic qla1080, 1240, 1280 firmware, version 8.15.11 (qlogic/1280.bin)
+ * qlogic qla10160, 12160 firmware, version 10.04.42 (qlogic/12160.bin)
+ * qlogic iba7220 serdes firmware (qlogic/sd7220.fw)
+ * qlogic qla2100 firmware, version 1.19.38 (ql2100_fw.bin)
+ * qlogic qla2200 firmware, version 2.02.08 (ql2200_fw.bin)
+ * qlogic qla2300, isp2312, sp202 firmware, version 3.03.27 (ql2300_fw.bin)
+ * qlogic isp2322, sp212 firmware, version 3.03.27 (ql2322_fw.bin)
+ * qlogic isp2422, isp2432[m], sp222, sp232 firmware, version 4.04.05 (ql2400_fw.bin)
+ * qlogic isp2532 firmware, version 4.04.05 (ql2500_fw.bin)

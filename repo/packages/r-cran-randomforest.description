@@ -1,0 +1,8 @@
+Gnu r package implementing the random forest classificator
+	
+randomforest implements breiman’s random forest algorithm (based on breiman
+and cutler’s original fortran code) for classification and regression. it can
+also be used in unsupervised mode for assessing proximities among data points.
+
+the technique uses multiple decision trees and combines their individual
+votes.

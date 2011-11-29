@@ -1,0 +1,5 @@
+Common lisp microcontroller clock calculator
+	
+cluck provides several functions to help select crystal frequencies,
+clock prescalers, and compare values to configuring timers on
+microcontroller chips.

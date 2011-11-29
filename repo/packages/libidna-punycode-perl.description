@@ -1,0 +1,4 @@
+Encodes unicode string in punycode
+	
+idna::punycode is a module to encode / decode unicode strings into
+punycode, an efficient encoding of unicode for use with idna.

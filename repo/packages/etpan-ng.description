@@ -1,0 +1,14 @@
+Console mail user agent based on libetpan!
+	
+etpan is a textmode based mailreader similar to mutt.
+
+features:
+
+ * imap4rev1 / pop3 / nntp / mbox / mh / maildir
+ * virtual folder tree
+ * multiple folder views and message views
+ * smart multi-threading
+ * pgp signing and encryption (using gnupg as external command)
+ * s/mime signing and encryption (using openssl as external command)
+ * spam process (using bogofilter as external command)
+ * user interface for configuration edition

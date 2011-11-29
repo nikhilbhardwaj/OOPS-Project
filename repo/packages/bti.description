@@ -1,0 +1,12 @@
+Command line micro-blogging tool
+	
+bti sends a tweet message to twitter.com, identi.ca, or any other laconi.ca
+instance.
+
+bti provides an easy way to send tweet messages directly from the command line
+or a script. it reads the message on standard input and uses the account
+and password settings either from the command line options or from a config
+file to deliver the message.
+
+besides sending messages bti also allows to see one's friends', a group's or
+a specific user's timeline, the public timeline, and replies to messages.

@@ -1,0 +1,17 @@
+Firmware files used by the linux-wlan-ng driver
+	
+linux-wlan-ng is a set of drivers and utilities that is intended to
+provide the full range of ieee 802.11 mac management capabilities for use
+in user-mode utilities and scripts. the package currently supports the
+intersil 802.11b prism2, prism2.5, and prism3 reference designs for
+pcmcia, pci, and usb. additionally, the package includes support for the
+plx9052 based pci to pcmcia adapter with a few different pcmcia cards.
+
+this package doesn't contain the firmware files, but a script to download
+the upstream source tarball and build a deb that contains them. note that
+only some adapters really need a firmware file and that firmware files are
+not completely free (in the sense of freely redistributable), that's why
+this package exists.
+
+for newer kernels (2.6.31+) which have the in-tree prism2_usb driver,
+you can install the prism2-usb-firmware-installer package instead.

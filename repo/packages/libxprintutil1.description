@@ -1,0 +1,13 @@
+Xprint printer utility client library
+	
+libxprintutil provides utility xpu apis allowing client applications
+to access and manipulate information about printer capabilities
+from an xprint server.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxprintutil

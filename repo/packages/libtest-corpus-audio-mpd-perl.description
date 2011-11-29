@@ -1,0 +1,10 @@
+Module to fake mpd for testing purposes
+	
+test::corpus::audio::mpd is a perl test harness that tries to launch a new
+music player daemon (mpd) server using a fake mpd.conf file with correct
+paths for testing.
+
+if an mpd server is already running, this module will stop it temporarily if
+the mpd_test_override environment variable is true; otherwise, the test will
+bail. once the tests are complete, the temporarily launched mpd server will
+be shut down and the original one relaunched (if there was one).

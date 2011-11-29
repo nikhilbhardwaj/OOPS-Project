@@ -1,0 +1,7 @@
+Automounter utilities from 4.4bsd (includes amd)
+	
+am-utils is a set of tools for automounting filesystems: mounting a
+filesystem "on demand" when it is first referenced, and unmounting it
+later if it is no more needed.
+
+am-utils contains the amd automounter.

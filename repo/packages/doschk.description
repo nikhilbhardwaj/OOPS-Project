@@ -1,0 +1,4 @@
+Sysv and dos filename conflicts check
+	
+checks filenames for conflicts under 14-character sysv and
+8.3 dos limitations.

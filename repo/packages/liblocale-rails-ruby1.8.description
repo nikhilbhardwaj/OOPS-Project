@@ -1,0 +1,17 @@
+Pure ruby library with basic functions for rails localization
+	
+this library supports rails i18n, and has the following features:
+
+
+  * auto-detect the client locale
+    * detect candidate locales from supported locales by the application.
+  * localized routes
+  * localized action/fragment cache
+  * localized view template files
+  * i18n.t fallback to localized message candidates.
+
+
+applications can use this library with your preferred i18n backends
+which don't have above features.
+
+this package is built for ruby 1.8.

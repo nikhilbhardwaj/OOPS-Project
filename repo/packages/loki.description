@@ -1,0 +1,11 @@
+Mcmc linkage analysis on general pedigrees
+	
+performs markov chain monte carlo multipoint linkage analysis on large,
+complex pedigrees.  the current package supports analyses on quantitative
+traits only, although this restriction will be lifted in later versions.
+joint estimation of qtl number, position and effects uses reversible jump
+mcmc. it is also possible to perform affected only ibd sharing analyses.
+
+the homepage of this project used to be at http://loki.homeunix.net
+but the project is dead now and the homepage vanished.  the homepage
+field above points to the web archive.

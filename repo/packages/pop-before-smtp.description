@@ -1,0 +1,21 @@
+Watch log for pop/imap auth, notify mta to allow relay
+	
+spam prevention requires preventing open relaying through email
+servers. however, legitimate users want to be able to relay. if
+legitimate users always stayed in one spot, they'd be easy to describe
+to the daemon. however, what with roving laptops, logins from home,
+etc., legitimate users refuse to stay in one spot.
+
+pop-before-smtp watches the mail log, looking for successful
+pop/imap logins, and includes the originating ip address into a
+database which can be checked by a mail transport agent (mta), to
+allow relaying for people who have recently downloaded their email.
+
+contrary to other similar tools pop-before-smtp needs no hacking
+in the mail daemons. it should be run on the same machine as your
+mta (since they need to share access to a database file).  it also
+needs access to the pop/imap daemons' log file, so these daemons
+should either (1) also be running on the same machine, or (2) they
+should be using syslog's remote-logging feature to forward the
+pop/imap messages to the machine where pop-before-smtp and the
+mta are running.

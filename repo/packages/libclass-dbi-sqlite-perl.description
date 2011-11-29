@@ -1,0 +1,4 @@
+Extension to class::dbi for sqlite
+	
+class::dbi::sqlite is an extension to class::dbi for dbd::sqlite. it allows
+you to populate an auto-incremented row id after insert.

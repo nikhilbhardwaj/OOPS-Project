@@ -1,0 +1,12 @@
+Rplay network audio system - server
+	
+this package contains the rplay server.  the rplay server allows sounds
+to be played on the system.
+
+rplay allows sounds to be played to and from local and remote unix
+systems.  sounds can be played with or without sending audio data over
+the network using either udp or tcp/ip.  rplay audio servers can be
+configured to share sound files with each other.
+
+support for rplay is included in several applications.  these include
+xpilot, xlockmore, xboing, fvwm, and ctwm.

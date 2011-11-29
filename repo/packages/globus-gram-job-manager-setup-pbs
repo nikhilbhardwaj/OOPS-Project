@@ -1,0 +1,4 @@
+PackageId:5649
+Name:globus-gram-job-manager-setup-pbs
+Version:4.1-1
+Deps:globus-common-progs,globus-gass-cache-program,globus-gram-job-manager-scripts,perl

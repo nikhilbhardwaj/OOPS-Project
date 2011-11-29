@@ -1,0 +1,10 @@
+File transfer utility for devices that use the obex protocol
+	
+obex, the object exchange protocol, can best be described as binary http.
+obex is optimized for ad-hoc links and can be used to exchange
+all kind of objects like files, pictures, calendar entries (vcal)
+and business cards (vcard) over bluetooth, irda, usb and serial cable
+links.
+
+this is the command line front-end that fully uses the capabilities of
+libobexftp.

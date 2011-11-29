@@ -1,0 +1,6 @@
+Extension library to provide extra network protocol support
+	
+gnu classpath inetlib is an extension library to provide extra network
+protocol support for gnu classpath and classpathx project, but it can
+also used standalone to make adding http, imap, pop3 and smtp client
+support to applictions.

@@ -1,0 +1,19 @@
+Regular expression development and execution tool
+	
+redet allows the user to construct regular expressions and test them against
+input data by executing any of a variety of search programs, editors,
+and programming languages that make use of regular expressions. when a
+suitable regular expression has been constructed it may be saved to a file.
+
+redet stands for regular expression development and execution
+tool. for each program, a palette showing the available regular expression
+syntax is provided. selections from the palette may be copied to the
+regular expression window with a mouse click. users may add their own
+definitions to the palette via their initialization file.
+redet also keeps a list of the regular expressions executed, from which
+entries may be copied back into the regular expression under construction.
+the history list is saved to a file and restored on startup, so it
+persists across sessions.
+
+so long as the underlying program supports unicode, redet allows utf-8
+unicode in both test data and regular expressions.

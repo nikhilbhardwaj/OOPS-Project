@@ -1,0 +1,11 @@
+Access locations using bazaar transports
+	
+a client to access bzr transports, namely the bazaar version control
+repositories. this utility can be used to log into the remote host
+and manipulate bazaar repository content like it were a ftp or sftp
+client. commands include cp, mv, rmtree etc. use case: command 'bzr
+upgrade <url> <repository format options>' is run and after the
+process is over the backup.bzr needs to be removed. with this tool
+the task is easy.
+
+an interactive mode and pure command line mode are provided.

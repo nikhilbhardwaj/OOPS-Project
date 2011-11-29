@@ -1,0 +1,5 @@
+Manipulate ipv4/ipv6 netblocks in cidr notation
+	
+the net::cidr package contains functions that manipulate lists of
+ip netblocks expressed in cidr notation. the net::cidr functions
+handle both ipv4 and ipv6 addresses.

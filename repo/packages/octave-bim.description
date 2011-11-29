@@ -1,0 +1,8 @@
+Pde solver using a finite element/volume approach in octave
+	
+this package contains scripts for solving diffusion advection
+reaction (dar) partial differential equations based on the finite
+volume scharfetter-gummel (fvsg) method a.k.a box integration method
+(bim) in octave, a scientific computation software.
+
+this octave add-on package is part of the octave-forge project.

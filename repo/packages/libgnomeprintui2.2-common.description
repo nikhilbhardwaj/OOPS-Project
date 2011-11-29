@@ -1,0 +1,17 @@
+Gnome print architecture user interface - common files
+	
+the goals of this architecture include:
+
+
+ * absolutely uncompromised output quality
+ * speed, memory efficiency, and other related performance goals
+ * ability to work smoothly with postscript printers, fonts, and other
+   resources
+ * a screen display derived from the canvas
+ * an extension path for a wide variety of unicode scripts
+ * an extension path for a richer set of graphics operators than postscript
+   supports, especially transparency
+ * to make life as easy as possible for application developers
+
+
+this package contains internationalization files.

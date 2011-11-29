@@ -1,0 +1,7 @@
+Utilities for building freebsd sources
+	
+this package contains the freebsd counterparts of some standard build
+utilities (make, yacc, lex ..)
+
+they have some specific modifications needed to be able to build freebsd
+sources (such as kfreebsd-8).

@@ -1,0 +1,7 @@
+Java library for code generators
+	
+codemodel is a java library for code generators; it provides a way to
+generate java programs in a way much nicer than
+printstream.println(). this project is a spin-off from the jaxb
+reference implementation for its schema compiler to generate java
+source files.

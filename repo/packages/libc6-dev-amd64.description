@@ -1,0 +1,5 @@
+Embedded gnu c library: 64bit development libraries for amd64
+	
+contains the symlinks and object files needed to compile and link programs
+which use the standard c library. this is the 64bit version of the
+library, meant for amd64 systems.

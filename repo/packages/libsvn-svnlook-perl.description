@@ -1,0 +1,5 @@
+Module to aid using svnlook in subversion hooks
+	
+svn::svnlook runs the command line client, svnlook. this module provides an
+interface to retrieve information such as author, revision, date, and log
+message.

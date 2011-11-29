@@ -1,0 +1,12 @@
+Perl module to generate kwalitee ratings for a distribution
+	
+module::cpants::analyse is a utility module used by test::kwalitee and others
+to analyse cpan distributions and determine their kwalitee. kwalitee is a set
+of software metrics useful for determine how good your software is; it's not
+true software quality, which your computer can't measure in a general sense.
+(if you can, you've solved a hard problem in computer science.)
+
+kwalitee looks like quality, sounds like quality, but it's not quite quality.
+if you plan to release a distribution to the cpan -- or even within your own
+organization -- testing its kwalitee before creating a release can help you
+improve your quality as well.

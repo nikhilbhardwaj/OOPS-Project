@@ -1,0 +1,10 @@
+X.org x server -- nouveau display driver (debug symbols)
+	
+this driver for the x.org x server (see xserver-xorg for a further description)
+provides support for nvidia riva, tnt, geforce, and quadro cards.
+
+although the nouveau project aims to provide full 3d support it is not yet
+complete, and these packages do not include any 3d support.
+users requiring 3d support should use the non-free "nvidia" driver.
+
+this package provides debugging symbols for this xorg x driver.

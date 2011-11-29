@@ -1,0 +1,19 @@
+Standards-based cluster framework (developer files)
+	
+the openais project is a project to implement a production quality
+"revised bsd" licensed implementation of the sa forum's application
+interface specification. the project implements cutting edge research
+on virtual synchrony to provide 100% correct operation in the face of
+failures or partitionable networks with excellent performance
+characteristics.
+
+the application interface specification is a software api and policies
+which are used to develop applications that maintain service during
+faults.
+the api consists of availability management framework (amf) which
+provides application failover, cluster membership (clm),
+checkpointing (ckpt), event (evt), messaging (msg), and
+distributed locks (dlock).
+
+this package contains header files required to build clients for the
+openais infrastructure.

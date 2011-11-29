@@ -1,0 +1,6 @@
+Add x-fetch headers plugin for claws mail
+	
+this plugin for the claws mail mailer enables adding useful extra headers
+to the reveived mails with information like the receiving account or the
+server the mail was downloaded from. these extra headers can be used for
+filtering and/or processing messages more appropriately.

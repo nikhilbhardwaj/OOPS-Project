@@ -1,0 +1,20 @@
+Data integrity and host intrusion alert system
+	
+samhain is an integrity checker and host intrusion detection system that
+can be used on single hosts as well as large, unix-based networks.
+it supports central monitoring as well as powerful (and new) stealth
+features to run undetected on memory using steganography.
+
+main features
+
+    * complete integrity check
+         + uses cryptographic checksums of files to detect
+           modifications,
+         + can find rogue suid executables anywhere on disk, and
+    * centralized monitoring
+         + native support for logging to a central server via encrypted
+           and authenticated connections
+    * tamper resistance
+         + database and configuration files can be signed
+         + logfile entries and e-mail reports are signed
+         + support for stealth operation

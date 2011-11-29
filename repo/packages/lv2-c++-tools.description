@@ -1,0 +1,13 @@
+Tools for lv2 plugins
+	
+these are some tools and libraries that may come in handy
+when writing lv2 plugins in c++.
+
+this package contains binaries lv2peg and lv2soname
+
+lv2peg is a program that generates c header files from
+turtle files containing lv2 plugin data.
+
+lv2soname is a program that generate the rdf triples needed to tell hosts
+that the library with that soname must never be unloaded even after your plugin
+gui library has been unloaded.

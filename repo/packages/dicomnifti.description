@@ -1,0 +1,10 @@
+Converts dicom files into the nifti format
+	
+the dinifti program converts mri images stored in dicom format to nifti
+format. the nifti format is thought to be the new standard image format for
+medical imaging and can be used with for example with fsl, afni, spm, caret
+or freesurfer.
+
+dinifti converts single files, but also supports fully automatic batch
+conversions of complete dicomdirs. additionally, converted nifti files can
+be properly named, using image series information from the dicom files.

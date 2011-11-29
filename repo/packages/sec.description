@@ -1,0 +1,6 @@
+Simple event correlator
+	
+sec is a simple event correlation tool that takes
+input and executes actions based on rules. it is
+very flexible and can be used with anything that
+can write out to a file stream.

@@ -1,0 +1,9 @@
+Query object framework - common files
+	
+qof is a framework to allow the exection of sql-type
+queries using collections of in-memory objects as 'tables'.
+
+this package contains the translations of qof messages,
+xml schemas to validate files from the qsf xml backend
+module and other architecture-independent support files
+for qof.

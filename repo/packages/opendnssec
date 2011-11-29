@@ -1,0 +1,4 @@
+PackageId:26115
+Name:opendnssec
+Version:1.1.3-3
+Deps:libhsm-bin,opendnssec-enforcer-sqlite3,opendnssec-enforcer,opendnssec-signer

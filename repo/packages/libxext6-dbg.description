@@ -1,0 +1,37 @@
+X11 miscellaneous extensions library (debug package)
+	
+libxext provides an x window system client interface to several extensions to
+the x protocol.
+
+the supported protocol extensions are:
+
+ - double-buffer (dbe), the double buffer extension;
+ - dpms, the vesa display power management system extension;
+ - extended-visual-information (evi), an extension for gathering extra
+   information about the x server's visuals;
+ - lbx, the low bandwidth x extension;
+ - mit-shm, the mit x client/server shared memory extension;
+ - mit-sundry-nonstandard, a miscellaneous extension by mit;
+ - multi-buffering, the multi-buffering and stereo display extension;
+ - security, the x security extension;
+ - shape, the non-rectangular shaped window extension;
+ - sync, the x synchronization extension;
+ - tog-cup, the open group's colormap utilization extension;
+ - xc-appgroup, the x consortium's application group extension;
+ - xc-misc, the x consortium's resource id querying extension;
+ - xtest, the x test extension (this is one of two client-side
+   implementations; the other is in the libxtst library, provided by the
+   libxtst6 package);
+
+
+libxext also provides a small set of utility functions to aid authors of
+client apis for x protocol extensions.
+
+this package contains the debug versions of the library found in libxext6.
+non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxext

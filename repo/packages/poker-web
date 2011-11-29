@@ -1,0 +1,4 @@
+PackageId:27512
+Name:poker-web
+Version:1.7.7-3.2
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,gettext,php-pear,php5,php5-cgi,php5-gd,php5-mysql,ucf

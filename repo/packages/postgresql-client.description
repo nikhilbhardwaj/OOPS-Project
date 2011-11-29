@@ -1,0 +1,13 @@
+Front-end programs for postgresql (supported version)
+	
+this package contains client and administrative programs for
+postgresql: these are the interactive terminal client psql and
+programs for creating and removing users and databases.
+
+this package always depends on the currently supported database
+client package for postgresql. if you install postgresql on a
+standalone machine, you need the server package postgresql, too. on a
+network, you can install this package on many client machines, while
+the server package may be installed on only one machine.
+
+postgresql is an object-relational sql database management system.

@@ -1,0 +1,7 @@
+Library for the shishi kerberos v5 kdc database
+	
+shishi is an implementation of the kerberos v5 network authentication
+system.
+
+this package includes the shisa library used by the shishi daemon and
+applications related to user administration of shishi kdc.

@@ -1,0 +1,4 @@
+Parse x.509 certificates with perl
+	
+crypt::x509 is a perl module for parsing x.509 certificates. methods
+are provided for accessing most certificate elements.

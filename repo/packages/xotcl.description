@@ -1,0 +1,9 @@
+Extended object tcl (xotcl): object orientation for tcl - shared library
+	
+extended object tcl (for short: xotcl, pronounced exotickle) is an
+object-oriented scripting language based on tcl. it was originally
+designed for providing language support for design patterns and
+provides novel constructs such as filters or transitive mixin
+classes. the language is designed for empowering rather than
+constraining system developers. the basic object model is highly
+influenced by clos.

@@ -1,0 +1,5 @@
+Ssl-capable xml-rpc implementation - shared libraries
+	
+this cross-platform xml-rpc library supports persistent http/1.1
+connections over ssl. it comes with an xml-rpc interface description
+language compiler.

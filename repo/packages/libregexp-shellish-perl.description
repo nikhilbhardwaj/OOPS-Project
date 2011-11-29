@@ -1,0 +1,5 @@
+Shell-like regular expressions
+	
+provides shell-like regular expressions.  the wildcards provided
+are ?, * and **, where ** is like * but matches /.  see
+/compile_shellish for details.

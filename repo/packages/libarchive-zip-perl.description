@@ -1,0 +1,14 @@
+Perl module for manipulation of zip archives
+	
+the archive::zip module allows a perl program to create, manipulate,
+read, and write zip archive files.
+
+zip archives can be created, or you can read from existing zip files.
+once created, they can be written to files, streams, or strings.
+
+members can be added, removed, extracted, replaced, rearranged, and
+enumerated.  they can also be renamed or have their dates, comments,
+or other attributes queried or modified.  their data can be
+compressed or uncompressed as needed.  members can be created from
+members in existing zip files, or from existing directories, files,
+or strings.

@@ -1,0 +1,10 @@
+Active/passive network address scanner using arp requests
+	
+netdiscover is an active/passive address reconnaissance tool, mainly developed
+for those wireless networks without dhcp server, when you are wardriving. it
+can be also used on hub/switched networks.
+
+built on top of libnet and libpcap, it can passively detect online hosts, or
+search for them, by actively sending arp requests, it can also be used to
+inspect your network arp traffic, or find network addresses using auto scan
+mode, which will scan for common local networks.

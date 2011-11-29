@@ -1,0 +1,8 @@
+Voikko spell-checker libenchant plugin
+	
+voikko is a finnish spell-checker and hyphenator based on malaga and
+suomi-malaga.
+
+this package contains a libenchant provider plugin that allows using voikko in
+any application that uses enchant library for spell-checking, such as
+abiword.

@@ -1,0 +1,17 @@
+Inheritable, overridable class data
+	
+class::data::inheritable is for creating accessor/mutators to class
+data.  that is, if you want to store something about your class as a
+whole (instead of about a single object).  this data is then inherited
+by your subclasses and can be overriden.
+
+for example:
+
+pere::ubu->mk_classdata('suitcase');
+
+will generate the method suitcase() in the class pere::ubu.
+
+this new method can be used to get and set a piece of class data.
+
+pere::ubu->suitcase('red');
+$suitcase = pere::ubu->suitcase;

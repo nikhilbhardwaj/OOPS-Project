@@ -1,0 +1,5 @@
+Postgresql database server driver for libdbi
+	
+this driver provides connectivity to postgresql database servers through the
+libdbi database independent abstraction layer. switching a program's driver
+does not require recompilation or rewriting source code.

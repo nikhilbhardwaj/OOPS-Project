@@ -1,0 +1,17 @@
+Fast volume rendering library
+	
+volpack is a software library for fast, high-quality volume rendering with
+this features:
+
+ * renders data sampled on a regular, three-dimensional grid.
+ * supports user-specified transfer functions for both opacity and color.
+ * provides a shading model with directional light sources, multiple material
+   types with different reflective properties, depth cueing, and shadows.
+ * produces color (24 bits/pixel) or grayscale (8 bits/pixel) renderings,
+   with or without an alpha channel.
+ * supports arbitrary affine view transformations.
+ * supports a flexible data format that allows an arbitrary c structure to be
+   associated with each voxel.
+
+
+this is the development package.

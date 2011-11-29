@@ -1,0 +1,5 @@
+Daemon to maintain a connection to windows mobile devices via hal
+	
+synce-hal is a hal callout infrastructure and dccm implementation for
+windows mobile devices. it responds to keep alives and provides other
+members of the synce suite of tools with access to the device.

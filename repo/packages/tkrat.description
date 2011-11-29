@@ -1,0 +1,9 @@
+Mail user agent with pop, imap, mh support using tk
+	
+tkrat is a graphical mail user agent (mua) which handles mime. it is
+mainly written in c but the user interface is done in tcl/tk.
+
+the program currently understands unix mailboxes, pop, imap and mh
+folders. it can manage a database of messages associated to events
+triggered by elapsing time intervals. messages are sent via smtp or
+any user configured program (for example sendmail).

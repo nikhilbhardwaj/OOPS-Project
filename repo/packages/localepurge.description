@@ -1,0 +1,21 @@
+Reclaim disk space removing unneeded localizations
+	
+this is a script to recover disk space wasted for unneeded locales,
+gnome/kde localizations and localized man pages. depending on the
+installation, it is possible to save some 200, 300, or even more
+mega bytes of disk space dedicated for localization you will most
+probably never have any use for. it is run automagically upon
+completion of any apt installation actions.
+
+please note, that this tool is a hack which is *not* integrated with
+debian's package management system and therefore is not for the faint
+of heart. this program interferes with the debian package management
+and does provoke strange, but usually harmless, behaviour of programs
+related with apt/dpkg like dpkg-repack, reportbug, etc.
+responsibility for its usage and possible breakage of your system
+therefore lies in the sysadmin's (your) hands.
+
+please definitely do abstain from reporting any such bugs blaming
+localepurge if you break your system by using it. if you don't know
+what you are doing and can't handle any resulting breakage on your own
+then please simply don't use this package.

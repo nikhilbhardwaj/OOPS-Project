@@ -1,0 +1,6 @@
+Perl module for bit vectors and more
+	
+bit::vector is a module that allows you to handle bit vectors, integer sets,
+"big integer arithmetic" and boolean matrices, all of arbitrary sizes. it is
+efficient (in terms of algorithmic complexity) and therefore fast (in terms
+of execution speed). it also provides overloaded operators for ease of use.

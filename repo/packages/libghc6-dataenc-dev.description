@@ -1,0 +1,8 @@
+A haskell library of data encoders and decoders
+	
+
+data encoding library currently providing base16, base32, base32hex, base64,
+base64url, base85, python string escaping, quoted-printable, url encoding,
+uuencode, xxencode, and yencoding.
+
+this package contains the libraries compiled for ghc 6.

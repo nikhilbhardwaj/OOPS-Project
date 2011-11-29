@@ -1,0 +1,8 @@
+Networking and traffic control tools
+	
+the iproute suite, also known as iproute2, is a collection of
+utilities for networking and traffic control.
+
+these tools communicate with the linux kernel via the (rt)netlink
+interface, providing advanced features not available through the
+legacy net-tools commands 'ifconfig' and 'route'.

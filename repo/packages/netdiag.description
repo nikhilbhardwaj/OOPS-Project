@@ -1,0 +1,7 @@
+Net-diagnostics (trafshow,strobe,netwatch,statnet,tcpspray,tcpblast)
+	
+netdiag contains a collection of small tools to analyze network traffic and
+configuration of remote hosts. it is of invaluable help if your
+system is showing strange network behaviour and you want to find out what
+your network is doing. the included tools are tcpblast, netload, trafshow,
+netwatch, strobe, statnet, and tcpspray.

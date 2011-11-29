@@ -1,0 +1,38 @@
+Lightweight music player
+	
+guayadeque is a lightweight and easy-to-use music player that supports
+smart playlists and huge music collections.
+
+main features include:
+
+ - play mp3, ogg, flac, wma, mpc, mp4, ape, etc.
+ - read and write tags in all supported formats.
+ - allow to catalogue your music using labels. any track, artist or album
+   can have as many labels you want.
+ - smart play mode that add tracks that fit your music taste using the
+   tracks currently in play list.
+ - ability to download covers manually or automatically
+ - suggest music using last.fm service.
+ - allow fast access to any music file by genre, artist, album, etc
+ - play shoutcast radios.
+ - allow to subscribe to podcasts and download all new episodes
+   automatically or manually.
+ - dynamic or static play lists.
+ - tracks tag editor with automatically fetching of tags information for
+   easily completion.
+ - lyrics downloads from different lyrics providers.
+ - easily expandable contextual links support. with it you can find
+   information about a track, an artist or an album on your favourite site.
+ - easily expandable contextual commands support. for example you can right
+   click on any album and click in option to record the album in a burning
+   application.
+ - option to copy the selection you want to a directory or device using a
+   configurable pattern.
+ - last.fm audioscrobbling support.
+ - partial gnome session support to detect when gnome session is about to
+   close and save the play list so it can continue next time with the same
+   tracks.
+ - allow to resume play status and position when closed and reopened.
+ - you can rate the tracks from 0 to 5 stars.
+ - mpris d-bus interface support so it can easily controlled from music
+   applets for example and many more.

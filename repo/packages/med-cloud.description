@@ -1,0 +1,6 @@
+Debian med bioinformatics applications usable in cloud computing
+	
+this metapackage will install debian packages related to molecular biology,
+structural biology and bioinformatics for use in life sciences, that do not
+depend on graphical toolkits and therefore can fit on system images for use
+in cloud computing clusters, where space can be limited.

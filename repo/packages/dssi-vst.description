@@ -1,0 +1,7 @@
+Adapter for vst an vsti audio plugins
+	
+dssi-vst is an adapter that allows users of linux audio software to take vst
+and vsti audio effects and instrument plugins compiled for windows, and load
+them into native ladspa or dssi plugin hosts. plugins run at full speed for
+most audio processing, although their user interfaces are slower because of
+the windows emulation.

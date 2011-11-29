@@ -1,0 +1,7 @@
+Shr daemon for freesmartphone.org interaction
+	
+this package contributes to the shr mobile phone suite.  it offers shr's
+phonefsod, which is the communication platform between phoneuid and
+fso's services. the latter performs the communication with the hardware,
+while this phonefsod handles the fso's events and displays messages
+with phoneuid.

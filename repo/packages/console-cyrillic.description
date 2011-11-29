@@ -1,0 +1,18 @@
+Better cyrillic support for linux console
+	
+this package provides cyrillic support on the linux console with great
+number of customizations:
+
+1) various supported encodings: utf-8, cp1251, ibm866, iso-8859-5, koi8-r,
+koi8-u, mac-cyrillic, mik, pt154 and rk1048.
+
+2) belarusian, two bulgarian, two kazakh, macedonian, mongolian, two russian,
+serbian and two ukrainian keyboard mappings.
+
+3) many screen fonts.
+
+4) utilities: cyr, displayfont, dumppsf, makeacm, mkvgafont, raw2psf.
+
+5) two fonts for dosemu.
+
+6) uses debconf.

@@ -1,0 +1,23 @@
+Powerful tex format
+	
+context is a document-production system based, like latex, on the tex
+typesetting system.  whereas latex insulates the writer from
+typographical details, context takes a complementary approach by
+providing structured interfaces for handling typography, including
+extensive support for colors, backgrounds, hyperlinks, presentations,
+figure-text integration, and conditional compilation.  it gives the
+user extensive control over formatting while making it easy to create
+new layouts and styles without learning the tex macro language.
+context's unified design averts the package clashes that can happen
+with latex.
+
+context also integrates metafun, a superset of metapost and a powerful
+system for vector graphics.  metafun can be used as a stand-alone
+system to produce figures, but its strength lies in enhancing context
+documents with accurate graphic elements.
+
+context allows the users to specify formatting commands in english,
+dutch, german, french, or italian, and to use different typesetting
+engines (pdftex, xetex, aleph, and soon luatex) without changing the
+user interface.  context is developed rapidly, often in response to
+requests from the friendly user community.

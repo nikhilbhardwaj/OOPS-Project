@@ -1,0 +1,7 @@
+External diff engine for mediawiki
+	
+wikidiff2 is php 5 module providing external diff
+engine for mediawiki. it performs word-level
+(space-delimited) diffs on general text, and
+character-level diffs on text composed of characters
+from the japanese and thai alphabets and the unified han.

@@ -1,0 +1,12 @@
+Imlib2 development files
+	
+headers, static libraries and documentation for developing
+software that uses imlib2.
+
+imlib2 is an advanced replacement for libraries like libxpm.
+imlib2 provides many more features with much greater flexibility
+and speed than standard libraries, including font rasterization,
+rotation, rgba space rendering and blending, dynamic binary
+filters, scripting, and more.
+
+imlib2 is not a drop-in replacement for imlib 1.x.

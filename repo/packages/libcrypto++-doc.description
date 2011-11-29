@@ -1,0 +1,32 @@
+General purpose cryptographic library - documentation
+	
+crypto++ is library for creating c++ programs which use cryptographic
+algorithms.  the library uses a pipes & filters architecture with heavy
+use of templates and abstract base classes.  the cryptographic
+tools include:
+
+ * authenticated encryption schemes (gcm, ccm, eax),
+ * high speed stream ciphers (panama, sosemanuk, salsa20, xsalsa20),
+ * aes and candidates (rijndael, rc6, mars, twofish, serpent, cast-256),
+ * other symmetric block ciphers (idea, triple-des, camellia, seed,
+   rc5, blowfish, tea, xtea, skipjack, shacal-2),
+ * block cipher modes of operation (ecb, cbc, cts, cfb, ofb, ctr),
+ * message authentication codes (vmac, hmac, cmac, cbc-mac, dmac,
+   two-track-mac),
+ * hash functions (sha-1, sha-224, sha-256, sha-384, sha-512, tiger,
+   whirlpool, ripemd-128, ripemd-256, ripemd-160, ripemd-320),
+ * public-key cryptography (rsa, dsa, elgamal, nr, rw, luc, lucelg,
+   dlies, esign),
+ * padding schemes for public-key systems (pkcs#1, oaep, pss, pssr,
+   emsa2, emsa5),
+ * key agreement schemes (dh, mqv, lucdif, xtr-dh),
+ * elliptic curve cryptography (ecdsa, ecnr, ecies, ecdh, ecmqv),
+ * backwards compatibility algorithms (md2, md4, md5, panama hash, des,
+   arc4, seal 3.0, wake, wake-ofb, desx, rc2, safer, 3-way, gost,
+   shark, cast-128, square),
+ * pseudo-random number generators,
+
+and a whole lot more.  alternative libraries are libgcrypt and
+nettle.
+
+this package includes the html reference guide to the source code.

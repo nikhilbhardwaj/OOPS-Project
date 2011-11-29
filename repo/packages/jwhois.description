@@ -1,0 +1,13 @@
+Improved caching whois client
+	
+gnu jwhois is an internet whois client that queries hosts for
+information according to rfc 954 - nicname/whois. jwhois is configured
+via a configuration file that contains information about all known whois
+servers. upon execution, the host to query is selected based on the
+information in the configuration file.
+
+the configuration file is highly customizable and makes heavy use of
+regular expressions.
+
+
+ homepage: http://www.gnu.org/software/jwhois/jwhois.html

@@ -1,0 +1,8 @@
+File-finding iterator
+	
+file::next is an iterator-based module for finding files.  it's
+lightweight, has no dependencies, runs under taint mode, and puts your
+program more directly in control of file selection.
+
+it's taken heavily from mark jason dominus' excellent book "higher
+order perl".  http://hop.perl.plover.com/

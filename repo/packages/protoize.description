@@ -1,0 +1,6 @@
+Create/remove ansi prototypes from c code
+	
+"protoize" can be used to add prototypes to a program, thus converting
+the program to ansi c in one respect.  the companion program "unprotoize"
+does the reverse: it removes argument types from any prototypes
+that are found.

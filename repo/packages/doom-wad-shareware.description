@@ -1,0 +1,13 @@
+Shareware game files for the 3d game doom
+	
+this is the shareware doom-wad file for doom. a doom-wad file is
+required for doom-engines such as prboom or chocolate-doom.  you can
+use this package to sample the commercial game in conjunction with
+a package providing doom-engine.
+
+if you own one of the commercial doom games, you can use
+game-data-packager to register your commercial doom-wad file on your
+debian system.
+
+finally, you can use the freedoom boom-wad package in conjunction
+with a boom-engine (e.g. prboom).

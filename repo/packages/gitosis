@@ -1,0 +1,4 @@
+PackageId:5530
+Name:gitosis
+Version:0.2+20090917-11
+Deps:adduser,debconf,debconf-2.0,cdebconf,cdebconf-udeb,git-core,git,openssh-server,python,python-setuptools,python-support,sudo,sudo-ldap

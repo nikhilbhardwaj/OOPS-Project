@@ -1,0 +1,14 @@
+Perl extension for using the cfitsio library
+	
+perl interface to william pence's cfitsio subroutine library. for more
+information on cfitsio, see http://heasarc.gsfc.nasa.gov/fitsio.
+
+this module attempts to provide a wrapper for nearly every cfitsio routine,
+while retaining as much cfitsio behavior as possible. as such, one should
+be aware that it is still somewhat low-level, in the sense that handing an
+array which is not the correct size to a routine like fits_write_img()
+may cause sigsegvs.
+
+the goal is to eventually use these routines to build a more perl-like
+interface to many common tasks such as reading and writing of images and
+ascii and binary tables.

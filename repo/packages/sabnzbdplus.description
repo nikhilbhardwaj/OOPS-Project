@@ -1,0 +1,16 @@
+Web-based binary newsgrabber with nzb support
+	
+sabnzbd+ is a web-based binary newsgrabber written in python, with support for
+the popular nzb file format. it greatly simplifies the process of downloading
+from usenet, thanks to a friendly web-based, fully customizable user interface
+and advanced built-in post-processing options including the ability to
+automatically verify, repair, extract and clean up downloaded posts.
+
+multiple servers are supported, as well as secure (ssl) connections, ipv6,
+scheduling, pausing and resuming downloads, queue manipulation, rss feeds,
+newzbin and nzbmatrix integration, automatic sorting, a download history,
+email notifications, and custom post-processing scripts. an extensive api
+allows third party applications to interact with the program.
+
+the program is a fork of the original sabnzbd code, which is no longer actively
+developed.

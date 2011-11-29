@@ -1,0 +1,9 @@
+Media player based on gstreamer framework
+	
+parole is a media player for the xfce desktop environment, written using the
+gstreamer framework.
+
+parole features playback of local media files, including video with subtitles
+support, dvd/cd and live streams; it is also extensible via plugins.
+
+this package contains parole media player.

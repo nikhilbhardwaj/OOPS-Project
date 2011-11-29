@@ -1,0 +1,6 @@
+Lash audio session handler (lash) server
+	
+lash is a session management system for jack and alsa audio
+applications on gnu/linux.
+
+this package is needed if you want to save and restore lash audio sessions.

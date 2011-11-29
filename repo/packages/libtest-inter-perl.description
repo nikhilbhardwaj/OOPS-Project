@@ -1,0 +1,8 @@
+Framework for more readable interactive test scripts
+	
+test::inter is another framework for writing test scripts. it is loosely
+inspired by test::more, and has most of it's functionality, but it is
+not a drop-in replacement.
+
+this framework offers the ability to write the tests in a more readable
+format, and you can access specific tests in a reasonably interactive fashion.

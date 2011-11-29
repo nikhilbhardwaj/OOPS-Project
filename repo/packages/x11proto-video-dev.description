@@ -1,0 +1,12 @@
+X11 video extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for the xvideo and xvideomotioncompensation extensions, used to accelerate
+playback of videos through x.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org videoproto proto module.

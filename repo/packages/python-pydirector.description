@@ -1,0 +1,9 @@
+Pure python tcp load balancer
+	
+pydirector takes inbound tcp connections and connects them to one of a number
+of backend servers. it's
+
+ * async i/o based
+ * supports multiple scheduling algorithms like random, round robin,
+   leastconns, last recently used
+ * transparently detects failed servers

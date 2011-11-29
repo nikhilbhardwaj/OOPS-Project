@@ -1,0 +1,18 @@
+Sugar activity for creating and playing matching games
+	
+sugar is a graphical user interface aimed at children.
+
+originating as intregral part of the olpc "xo" a.k.a. the $100 laptop,
+sugar has since grown into a more widely usable low-ressource desktop
+environment for kids.
+
+this package contains the memorize activity.
+
+memorize is about finding matching pairs. a pair can
+consist of any multimedia object. at the moment these are images,
+sounds and text but this could be extended to animations or movie
+snippets as well.
+
+which pairs do match is up to the creator of the game. memorize is
+actually more than just a predefined game you can play, it allows you
+to create new games yourself as well.

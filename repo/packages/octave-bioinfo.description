@@ -1,0 +1,10 @@
+Bioinformatic functions for octave
+	
+this package provides functions to do work in bioinformatics in
+octave, a numerical computation software. it contains functions to
+convert amino acid characters into integers (aa2int), convert between
+amino acid representations (aminolookup), cleave peptides (cleave),
+convert integers into amino acid characters (int2aa) and reverse a
+nucleotide sequence (seqreverse).
+
+this octave add-on package is part of the octave-forge project.

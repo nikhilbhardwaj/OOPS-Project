@@ -1,0 +1,8 @@
+Library for iso 8583 transactions
+	
+this library provides a pure python interface for electronic
+transactions using iso 8583 ("standard for financial transaction
+card originated messages - interchange message specifications").
+the vast majority of transactions made at automated teller
+machines and the mastercard and visa networks use iso 8583
+at some point.

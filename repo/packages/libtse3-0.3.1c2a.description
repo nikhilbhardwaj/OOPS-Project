@@ -1,0 +1,10 @@
+Portable midi sequencer engine in c++ - development files
+	
+tse3 is a portable open source midi sequencer engine written in c++.
+it provides programmers with rich and powerful sequencing
+capabilities.  although it does not provide a user interface, it
+provides a lot of assistance to a ui, attempting to provide as much
+functionality as possible in as generic a manner as possible.
+
+this package provides the shared library libtse3, which is required
+in order to run programs linked against tse3.

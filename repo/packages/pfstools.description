@@ -1,0 +1,10 @@
+Command line hdr manipulation programs
+	
+pfstools is a set of command line (and two gui) programs for reading,
+writing, manipulating and viewing high-dynamic range (hdr) images and video
+frames. all programs in this package exchange data using a simple generic
+file format (pfs) for hdr data. it is an attempt to integrate existing file
+formats by providing a simple data format that can be used to exchange data
+between applications.
+
+the concept of pfstools is similar to netpbm for low-dynamic range images.

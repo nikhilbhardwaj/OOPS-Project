@@ -1,0 +1,22 @@
+The unit conversion library for the kde platform
+	
+the kunitconversion library can help kde 4 application in doing conversions of
+values in different measure units.
+
+currently, it can provide conversions for the following unit categories:
+
+ * currency
+ * density
+ * energy
+ * fuel efficiency
+ * length
+ * mass
+ * power
+ * pressure
+ * temperature
+ * time
+ * velocity
+ * volume
+
+
+this library is part of the kde development platform libraries module.

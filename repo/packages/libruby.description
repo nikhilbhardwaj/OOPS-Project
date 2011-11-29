@@ -1,0 +1,12 @@
+Libraries necessary to run ruby 1.8.x
+	
+ruby is the interpreted scripting language for quick and easy
+object-oriented programming.  it has many features to process text
+files and to do system management tasks (as in perl).  it is simple,
+straight-forward, and extensible.
+
+this package provides the ruby standard library (stdlib), which is necessary
+to run ruby scripts.
+
+this package is a dependency package, which depends on debian's default
+ruby version (currently 1.8.x).

@@ -1,0 +1,5 @@
+Test module to do use_ok() for all the manifested modules
+	
+test:useallmodules reads manifest to find modules to be tested and
+does use_ok() for each of them. now all you have to do is update
+manifest. you don't have to modify the test any more (hopefully).

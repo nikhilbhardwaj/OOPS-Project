@@ -1,0 +1,5 @@
+Sub::exporter extension for handling methods
+	
+sub::exporter::formethods is a perl module that allows methods to be easily
+imported into your namespace. it also wraps method calls to a transformation
+routine, which inserts a named frame into stack traces to aid in debugging.

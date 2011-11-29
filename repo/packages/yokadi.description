@@ -1,0 +1,9 @@
+Commandline todo system
+	
+yokadi is a command-line oriented, sqlite powered, todo list tool.  it helps
+you organize all the things you have to do and you must not forget. it aims to
+be simple, intuitive and very efficient.
+
+in yokadi you manage projects, which contains tasks. at the minimum, a task
+has a title, but it can also have a description, a due date, an urgency or
+keywords. keywords can be any word that help you to find and sort your tasks.

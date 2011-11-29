@@ -1,0 +1,9 @@
+X font server for truetype fonts
+	
+truetype fonts are generally regarded to be the best scalable fonts
+for displays. applications needing scalable fonts that are to be
+displayed on a screen benefit most.
+this server will allow x11 applications to use the exact same fonts
+as the truetype fonts used on windows operating systems.
+
+note: this package does not contain fonts. they must be obtained separately.

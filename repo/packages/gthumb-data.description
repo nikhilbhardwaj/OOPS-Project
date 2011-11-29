@@ -1,0 +1,11 @@
+An image viewer and browser - arch-independent files
+	
+gthumb is an advanced image viewer and browser. it has many useful
+features, such as filesystem browsing, slide show, image catalogs, web
+album creation, camera import, image cd burning, batch file operations and
+quick image editing features like transformation and color manipulation.
+
+it's designed for gnome 2 desktop environment and uses its platform. for
+camera import feature, the gphoto2 library is used.
+
+this package contains the architecture-independent files needed by gthumb.

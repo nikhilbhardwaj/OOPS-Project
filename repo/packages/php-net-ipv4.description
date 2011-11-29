@@ -1,0 +1,5 @@
+Ipv4 network calculations and validation
+	
+class used for calculating ipv4 (af_inet family) address information
+such as network as network address, broadcast address, and ip address
+validity.

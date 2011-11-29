@@ -1,0 +1,6 @@
+Utilities for modifying msrs from userspace
+	
+msrs are machine specific registers that are used to set values for
+hardware to use, or to pass values between the bios and kernel.  this
+package provides utilies to both read and write msrs.  reading and
+writing msrs might be useful when debugging kernel drivers, for example.

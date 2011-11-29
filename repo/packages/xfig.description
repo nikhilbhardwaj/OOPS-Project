@@ -1,0 +1,13 @@
+Facility for interactive generation of figures under x11
+	
+xfig is a menu-driven tool that allows the user to draw and manipulate objects
+interactively in an x window.  the resulting pictures can be saved, printed
+on postscript printers, or converted to a variety of other formats (e.g. to
+allow inclusion in latex documents or web pages) using the transfig program.
+
+this package contains the xfig program itself.
+
+you should think about installing the transfig package to export the graphics
+to several common formats.  you should also think about installing xfig-doc,
+which contains the documentation and xfig-libs, which contains several clip
+art libraries.

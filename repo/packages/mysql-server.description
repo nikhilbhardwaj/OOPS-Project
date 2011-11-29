@@ -1,0 +1,12 @@
+Mysql database server (metapackage depending on the latest version)
+	
+this is an empty package that depends on the current "best" version of
+mysql-server (currently mysql-server-5.1), as determined by the mysql
+maintainers. install this package if in doubt about which mysql
+version you need. that will install the version recommended by the
+package maintainers.
+
+mysql is a fast, stable and true multi-user, multi-threaded sql database
+server. sql (structured query language) is the most popular database query
+language in the world. the main goals of mysql are speed, robustness and
+ease of use.

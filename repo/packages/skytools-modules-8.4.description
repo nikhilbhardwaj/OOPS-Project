@@ -1,0 +1,12 @@
+Postgresql modules of skytools
+	
+skytools are database management tools to wal shipping, queuing and
+replication. this package has postgresql modules skytools:
+
+
+ - txid: provides 8-byte transaction id-s for external usage
+ - logtriga: trigger function for table event logging in "partial sql"
+   format, used in londsite for replication
+ - logutriga - trigger function for table event logging in
+   urlencoded format
+ - pgq: python framework for pgq consumers

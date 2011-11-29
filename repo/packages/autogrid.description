@@ -1,0 +1,10 @@
+Pre-calculate binding of ligands to their receptor
+	
+the autodocksuite addresses the molecular analysis of the docking of
+a smaller chemical compounds to their receptors of known three-dimensional
+structure.
+
+the autogrid program performs pre-calculations for the docking of a
+ligand to a set of grids that describe the effect that the protein has
+on point charges.  the effect of these forces on the ligand is then
+analysed by the autodock program.

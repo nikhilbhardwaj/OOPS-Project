@@ -1,0 +1,11 @@
+Module for extracting prerequisites from perl code
+	
+perl::prereqscanner is a perl module that extracts distribution prerequisites
+from files through various means. the extraction is not perfect but provides
+a best-guess approximation, currently detecting the following:
+
+
+  * plain lines beginning with use or require in perl modules and scripts
+  * regular inheritance declared with the base and parent pragmata
+  * moose inheritance declared with the extends keyword
+  * moose roles included with the with keyword

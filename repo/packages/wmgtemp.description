@@ -1,0 +1,8 @@
+Temperature sensor dockapp for window maker
+	
+wmgtemp is a dock app (a 64x64 window) which graphically displays the
+cpu and sys temperatures of motherboards supported by lm_sensors.
+
+to make wmgtemp work, one needs to set up lm_sensors and i2c.
+on debian systems, the lm-sensors-source and i2c-source packages
+are used to set these up.

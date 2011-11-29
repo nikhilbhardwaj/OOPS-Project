@@ -1,0 +1,17 @@
+X11 direct graphics access extension library (debug package)
+	
+libxxf86dga provides the xfree86-dga extension, which allows direct
+graphics access to a framebuffer-like region, and also allows relative
+mouse reporting, et al.  it is mainly used by games and emulators for
+games.
+
+this package contains the debug versions of the library found in libxxf86dga1.
+non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxxf86dga

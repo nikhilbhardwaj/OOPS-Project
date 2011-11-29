@@ -1,0 +1,12 @@
+Continuous integration plugin for trac
+	
+bitten is a trac extension for continuous integration. it uses
+a distributed build model, where one or more "slaves" run the
+actual tests, and a "master" gathers the results and displays
+them nicely on a web page.
+
+bitten is similar to buildbot, gump (apache), hudson (sun), or
+tinderbox (mozilla), but integrated well into trac.
+
+this package contains both the bitten master, which integrates into
+trac and the bitten slave, which performs the actual build.

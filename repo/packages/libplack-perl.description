@@ -1,0 +1,9 @@
+Interface between web servers and perl web applications
+	
+plack is a set of tools similar to ruby's rack or python's paste for wsgi. it
+implements the perl server gateway interface (psgi) standard interface, which
+allows developers to decouple their web application framework from the local
+web server environment.
+
+this package contains middleware components, a reference server and utilities
+for web application frameworks.

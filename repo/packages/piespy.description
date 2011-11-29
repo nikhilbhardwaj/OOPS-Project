@@ -1,0 +1,7 @@
+An irc bot to visualize social networks
+	
+piespy is an irc bot that monitors a set of irc channels. it uses a
+simple set of heuristics to infer relationships between pairs of users.
+these inferrences allow piespy to build a mathematical model of a
+social network for any channel. these social networks can be drawn and
+used to create animations of evolving social networks.

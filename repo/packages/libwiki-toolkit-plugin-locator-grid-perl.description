@@ -1,0 +1,11 @@
+A wiki::toolkit plugin to manage co-ordinate data
+	
+access to and calculations using co-ordinate metadata supplied to a
+wiki::toolkit wiki when writing a node.
+
+note: this is read-only access. if you want to write to a node's
+metadata, you need to do it using the write_node method of
+wiki::toolkit.
+
+we assume that the points are located on a flat, square grid with unit
+squares of side 1 metre.

@@ -1,0 +1,13 @@
+Bibtex editor for kde
+	
+an application to manage bibliography databases in the bibtex format. kbibtex
+can be used as a standalone program, but can also be embedded into other kde
+applications (e.g. as bibliography editor into kile).
+
+kbibtex can query online ressources (e.g. google scholar) via customizable
+search urls. it is also able to import complete datasets from ncbi pubmed.
+it also supports tagging references with keywords and manages references to
+local files.
+
+bibtex files can be exported into html, xml, pdf, ps and rtf format using a
+number of citation styles.

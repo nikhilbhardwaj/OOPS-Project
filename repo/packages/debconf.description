@@ -1,0 +1,4 @@
+Debian configuration management system
+	
+debconf is a configuration management system for debian packages. packages
+use debconf to ask questions when they are installed.

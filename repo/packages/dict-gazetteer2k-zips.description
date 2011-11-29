@@ -1,0 +1,19 @@
+Zip and zcta database for the 2000 us gazetteer
+	
+this is a database of united states zip code information.  it
+contains a single database built from two separate sources:
+the 1990 census zip code information and the 2000 census
+zcta (zip code tabulation area) information.  these
+two pieces of information together provide a nice picture
+of an area.
+the 1990 zip code information provides:
+
+ * the name of location for each zip code (normally a city)
+ * the other zip codes corresponding to the same location.
+
+the 2000 zcta information provides:
+
+ * total population and housing unit count in a given zip code
+ * total land and water area for the zip code
+ * the state in which the zip code is located
+ * the latitude and longitude of the zip code

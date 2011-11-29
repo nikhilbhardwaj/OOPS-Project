@@ -1,0 +1,7 @@
+Wrappers around console-tools for backward compatibility with `kbd'
+	
+this package provides the following wrapper scripts, for compatibility with
+old `kbd' package, for programs which depends on the former's command-line
+interfaces:
+
+ setfont, loadunimap, saveunimap, mapscrn, setlogcons.

@@ -1,0 +1,12 @@
+Xpath (xml path language) visualizer
+	
+xacobeo provides a simple graphical user interface (gui) for executing
+xpath queries and seeing their results.
+
+the gui tries to provide all the elements that are needed in order to write,
+test and execute xpath queries without too many troubles. it displays the
+document object model (dom) and the namespaces used. the program registers the
+namespaces automatically and each element is displayed with its associated
+namespaces. all is performed with the idea of being able of running an xpath
+query as soon as possible without having to fight with the document's
+namespaces and by seeing automatically under which namespace each element is.

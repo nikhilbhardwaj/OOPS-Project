@@ -1,0 +1,9 @@
+Chess engine, to calculate chess moves
+	
+this is a very strong chess engine, placed second in the 13th world
+computer chess championship 2005. it uses the uci (universal chess
+interface), for chess engines as communication protocol. this means
+to play against it, you will have to use an uci capable interface,
+like knights. this distribution comes with an opening book of moves
+that the engine can use for the first few moves of the game. this
+increases performance in the chess games opening.

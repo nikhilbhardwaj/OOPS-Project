@@ -1,0 +1,11 @@
+Cluster allocation tools for ganeti
+	
+these are additional tools used for enhanced allocation and capacity
+calculation on ganeti clusters.
+
+the tools provided are:
+
+  - hail, an iallocator script for ganeti
+  - hbal, used to redistribute instances on the cluster
+  - hspace, used for capacity calculation
+  - hscan, used to gather cluster files for offline use in hbal/hspace

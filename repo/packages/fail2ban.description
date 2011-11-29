@@ -1,0 +1,13 @@
+Bans ips that cause multiple authentication errors
+	
+monitors log files (e.g. /var/log/auth.log,
+/var/log/apache/access.log) and temporarily or persistently bans
+failure-prone addresses by updating existing firewall rules. the
+software was completely rewritten at version 0.7.0 and now allows
+easy specification of different actions to be taken such as to ban an
+ip using iptables or hostsdeny rules, or simply to send a
+notification email. currently, by default, supports ssh/apache/vsftpd
+but configuration can be easily extended for monitoring any other ascii
+file. all filters and actions are given in the config files, thus
+fail2ban can be adopted to be used with a variety of files and
+firewalls.

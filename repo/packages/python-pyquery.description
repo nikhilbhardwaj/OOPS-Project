@@ -1,0 +1,5 @@
+Jquery-like library for python
+	
+pyquery allows you to make jquery queries on xml documents. the api is as
+similar to jquery as possible. pyquery uses lxml for fast xml and html
+manipulation.

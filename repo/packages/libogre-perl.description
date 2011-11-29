@@ -1,0 +1,14 @@
+Perl binding for the ogre c++ graphics library
+	
+this is a perl binding for ogre, object-oriented graphics rendering engine,
+a c++ library found at http://www.ogre3d.org/ .
+
+the wrapping is currently incomplete, but there are several interesting
+examples working now (see examples/readme.txt).
+
+for documentation on specific classes, see the perldoc for the class. the
+documentation for each class is somewhat minimal. in the description section
+there will be a link to the corresponding c++ api documentation on the ogre
+website. the documentation of methods uses c++ types to describe its
+parameters and return values, so some translation to perl is generally
+required.

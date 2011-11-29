@@ -1,0 +1,12 @@
+Header files for the gnu octave language (3.2 branch)
+	
+octave is a (mostly matlab (r) compatible) high-level language, primarily
+intended for numerical computations. it provides a convenient command-line
+interface for solving linear and nonlinear problems numerically.
+
+this package provides the include files needed to compile and link
+user-supplied code with gnu octave. if you only write interpreted .m files,
+you do not need this package.
+
+the package is architecture-specific as it contains machine-dependent
+compiler switches in the mkoctfile script.

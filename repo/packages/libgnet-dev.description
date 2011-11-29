@@ -1,0 +1,17 @@
+Developer files for gnet network library
+	
+development files for gnet
+
+gnet is a simple network library.  it is written in c, object-oriented,
+and built upon glib.  it is intended to be small, fast, easy-to-use,
+and easy to port.  the interface is similar to the interface for
+java's network library.
+
+features:
+
+  * tcp 'client' sockets
+  * tcp 'server' sockets
+  * non-blocking tcp sockets
+  * udp
+  * ip multicast
+  * internet address abstraction

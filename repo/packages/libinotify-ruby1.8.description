@@ -1,0 +1,6 @@
+Ruby interface to linux's inotify system (ruby 1.8)
+	
+the ruby package ruby-inotify allows to use linux's inotify system to
+wait for and respond to file access/change/create/delete events.
+
+this package is built for ruby 1.8.

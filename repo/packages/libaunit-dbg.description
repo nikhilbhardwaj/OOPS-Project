@@ -1,0 +1,12 @@
+Aunit, a unit testing framework for ada
+	
+aunit is a set of ada packages based on the xunit family of unit test
+frameworks. it's intended as a developer's tool to facilitate
+confident writing and evolution of ada software. it is purposely
+lightweight, as one of its main goals is to make it easy to develop
+and run unit tests, rather than to generate artifacts for process
+management. the framework supports easy composition of sets of unit
+tests to provide flexibility in determining what tests to run for a
+given purpose.
+
+this package contains the debugging symbols for aunit.

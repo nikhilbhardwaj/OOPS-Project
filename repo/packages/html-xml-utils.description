@@ -1,0 +1,35 @@
+Html and xml manipulation utilities
+	
+html-xml-utils provides a number of simple utilities for manipulating and
+converting html and xml files in various ways. the suite consists of the
+following tools:
+
+
+ asc2xml      -  convert from utf-8 to &#nnn; entities
+ xml2asc      -  convert from &#nnn; entities to utf-8
+ hxaddid      -  add ids to selected elements
+ hxcite       -  replace bibliographic references by hyperlinks
+ hxcite-mkbib -  expand references and create bibliography
+ hxclean      -  apply heuristics to correct an html file
+ hxcopy       -  copy an html file while preserving relative links
+ hxcount      -  count elements and attributes in html or xml files
+ hxextract    -  extract selected elements
+ hxincl       -  expand included html or xml files
+ hxindex      -  create an alphabetically sorted index
+ hxmkbib      -  create bibliography from a template
+ hxmultitoc   -  create a table of contents for a set of html files
+ hxname2id    -  move some id= or name= from a elements to their parents
+ hxnormalize  -  pretty-print an html file
+ hxnum        -  number section headings in an html file
+ hxpipe       -  convert xml to a format easier to parse with perl or awk
+ hxprintlinks -  number links & add table of urls at end of an html file
+ hxprune      -  remove marked elements from an html file
+ hxselect     -  extract elements that match a (css) selector
+ hxref        -  generate cross-references
+ hxtoc        -  insert a table of contents in an html file
+ hxuncdata    -  replace cdata sections by character entities
+ hxunent      -  replace html predefined character entities to utf-8
+ hxunpipe     -  convert output of pipe back to xml format
+ hxunxmlns    -  replace "global names" by xml namespace prefixes
+ hxwls        -  list links in an html file
+ hxxmlns      -  replace xml namespace prefixes by "global names"

@@ -1,0 +1,9 @@
+High availability load balancer for tcp connections
+	
+fair is a system for implementing load balancers; it consists of two daemons:
+carrousel and transponder. carrousel, which performs load balancing services,
+typically runs on a load balancer; transponder runs on the servers.
+
+fair understands network topologies where one node is reachable via more than
+one ip address; this allows not only the servers, but the network to be
+redundant as well. this distinguishes fair from other load balancers.

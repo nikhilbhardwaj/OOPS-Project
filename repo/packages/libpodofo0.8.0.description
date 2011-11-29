@@ -1,0 +1,9 @@
+Library to work with the pdf file format
+	
+the podofo library is a free, portable c++ library which includes classes to
+parse pdf files and modify their contents into memory. the changes can be
+written back to disk easily. the parser can also be used to extract
+information from a pdf file (for example the parser could be used in a pdf
+viewer). besides parsing podofo includes also very simple classes to create
+your own pdf files. all classes are documented so it is easy to start writing
+your own application using podofo.

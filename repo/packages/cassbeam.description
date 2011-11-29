@@ -1,0 +1,19 @@
+A program for cassegrain antenna modelling
+	
+cassbeam is a cassegrain antenna ray tracer.  a cassegrain antenna
+is a double reflector system which works on the principle of cassegrain
+optical telescope.  a high gain cassegrain reflector antenna in ku-band
+has been successfully developed for command transmit application for the
+missile programme. it can also be used for monopulse radar, satellite
+communication.
+
+based on an input text file, it computes several properties of the
+antenna including gain, zenith system temperature, and the beam, in full
+polarization.  all calculations are done in the transmit sense
+and use reciprocity to relate to the equivalent receiving system.
+
+additionally, cassbeam allows deformations, or pathologies of the
+optics to be modelled.  currently this is limited to rotations and
+translations of the feed and secondary.  in the future, large scale
+deviations in the primary (such as a misplaced panel) will likely be
+supported.

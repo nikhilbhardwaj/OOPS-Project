@@ -1,0 +1,12 @@
+Architecture for desktop applets
+	
+gdesklets is an architecture for "desklets", which are tiny applets
+sitting on your desktop in a symbiotic relationship of eye candy and
+usefulness.
+
+you can populate your desktop with status meters, icon bars,
+weather sensors, news tickers... whatever you can imagine...
+virtually anything is possible and may even be available some day.
+
+this package includes a small number of applets.
+for more applets, install the gdesklets-data package.

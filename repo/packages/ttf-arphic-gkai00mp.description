@@ -1,0 +1,11 @@
+"ar pl kaitim gb" chinese truetype font by arphic technology
+	
+"ar pl kaitim gb" is a high-quality chinese truetype font
+(gkai00mp.ttf) generously provided by arphic technology to the free
+software community under the "arphic public license".
+
+if you use x window system, be sure to install the "x-ttcidfont-conf"
+package so you can use this font in x.
+
+you also need to install the "tfm-arphic-gkai00mp" package for
+typesetting with omega or with cjk for latex (cjk-latex).

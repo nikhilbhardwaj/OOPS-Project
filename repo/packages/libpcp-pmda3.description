@@ -1,0 +1,6 @@
+Performance co-pilot domain agent library
+	
+the libpcp-pmda package contains the runtime environment required by
+a performance metric domain agent (pmda).  a pmda exports performance
+data for one specific domain, for example the operating system kernel,
+dns, smtp, cisco router, a database, an application, etc.

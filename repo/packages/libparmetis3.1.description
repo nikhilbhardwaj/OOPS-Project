@@ -1,0 +1,8 @@
+Parallel graph partitioning and sparse matrix ordering shared libs
+	
+parmetis computes minimal-cut partitions of graphs and meshes in parallel, and
+orders variables for minimal fill when using direct solvers for sparse
+matrices.  it does all this in parallel, and also can efficiently re-partition
+a graph or mesh whose connectivity has changed.
+
+this package contains the parmetis shared libraries.

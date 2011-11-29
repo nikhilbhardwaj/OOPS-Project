@@ -1,0 +1,12 @@
+Abstract class::dbi's sql with sql::abstract
+	
+class::dbi::abstractsearch is a class::dbi plugin to glue the
+sql::abstract module into class::dbi.
+
+class::dbi provides a convenient abstraction layer to a database. it
+not only provides a simple database to object mapping layer, but can
+be used to implement several higher order database functions, at the
+application level, rather than at the database.
+
+sql::abstract provides methods for generating abstract sql from perl
+data structures.

@@ -1,0 +1,22 @@
+Flow analysis and fingerprinting component of the eresi framework
+	
+libmjollnir it is the main receipt of all the original api for code
+analysis in eresi. it can do a control flow graphs and call graphs with
+function pointers, perform an 'unstrip', fingerprint functions using
+hashing algorithms like md5 and prepare control flow and function call
+graphs which can be accessed by containers api.
+
+the main features of this library are :
+
+
+ * api and generic container data structures for binary analysis.
+ * construction of control flow graphs.
+ * construction of call graphs.
+ * fingerprinting of function blocks using hashing algorithms.
+ * 'recovery' (unstrip without original names) of the symbol table.
+ * function pointers recognition.
+ * entry point fingerprinting.
+
+
+this package contains the development files provided by libmjollnir
+(the static library - i.e the .a file - and the libmjollnir headers).

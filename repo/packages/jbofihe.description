@@ -1,0 +1,11 @@
+A parser for the lojban language
+	
+jbofihe is a command-line driven program with the following functions:
+
+
+ * checking grammatical correctness of lojban text
+ * displaying successfully analysed text with nesting of grammatical
+   constructs shown (either inline or as a tree)
+ * displaying approximate word-for-word english translations of the lojban
+   words, with some limited 'part-of-speech' adjustment of the english forms.
+ * showing which sumti fill each of the places of each selbri

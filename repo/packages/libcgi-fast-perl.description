@@ -1,0 +1,8 @@
+Cgi::fast perl module
+	
+cgi::fast is a subclass of the cgi object created by cgi.pm.  it is
+specialized to work well with the open market fastcgi standard, which
+greatly speeds up cgi scripts by turning them into persistently running
+server processes.  scripts that perform time-consuming initialization
+processes, such as loading large modules or opening persistent database
+connections, will see large performance improvements.

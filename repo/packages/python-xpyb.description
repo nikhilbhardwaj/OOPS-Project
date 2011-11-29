@@ -1,0 +1,7 @@
+Python bindings to xcb
+	
+this module provides python binding to libxcb, the x c bindings library.
+
+it provides an interface to the x window system protocol, designed to replace
+the xlib interface, featuring latency hiding, small size, direct protocol
+access and thread support.

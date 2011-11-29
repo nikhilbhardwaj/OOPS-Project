@@ -1,0 +1,18 @@
+Tools for manipulating cue/toc files
+	
+cuetools is a set of programs that are useful for manipulating cue sheet
+(cue) files and table of contents (toc) files. cue and toc files are a way
+to represent the layout of a data or audio cd in a machine-readable ascii
+format. the package includes these utilities:
+
+
+   - cueconvert: convert between cue and toc formats
+   - cuebreakpoints: print the breakpoints from a cue or toc file
+   - cueprint: print disc and track information for a cue or toc file
+   - cuetag: tag files based on cue/toc file information
+
+
+probably the most popular use is to split a large audio file into many
+small files according to a cue or toc, for example:
+
+cuebreakpoints disc.cue | shnsplit disc.wav

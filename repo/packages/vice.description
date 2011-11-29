@@ -1,0 +1,14 @@
+The versatile commodore emulator
+	
+vice emulates well the hardware of the commodore business machines of
+the pre-amiga era. supported are the various pets, the vic-20, the
+commodore 64, the commodore 128, the cbm-ii series, and the plus/4.
+
+some alternate keywords for the above: vic20, c64, c=64, c64 dtv, c128,
+c=128, cbm-500, cbm-600, cbm-700, plus4 .
+
+this package does not contain the various rom images needed to
+actually use the emulators; they are available separately from other
+locations (see the readme.roms file).  a corporation in the
+netherlands called tulip holds the copyrights to the rom images, and
+redistribution is not permitted, but vice itself is unencumbered.

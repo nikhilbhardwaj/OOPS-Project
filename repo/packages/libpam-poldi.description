@@ -1,0 +1,9 @@
+Pam module allowing authentication using a openpgp smartcard
+	
+this pam module will allow you to login, screenlock and validate to
+services using your gnupg smartcard.
+you might have expected to find this with a name of libpam-pgp, libpam-gpg,
+libpam-openpgp or libpam-gnupg.
+
+this code is considered experimental and needs more testing. it is, however,
+already used for the daily login.

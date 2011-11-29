@@ -1,0 +1,15 @@
+Abstract base class to build modules to capture output
+	
+the io::capture module defines an abstract base class that can be
+used to build modules that capture output being sent on a filehandle
+such as stdout or stderr.
+
+several modules that come with the distribution do just that.
+i.e., capture stdout and stderr.  also see james keenan's
+io::capture::stdout::extended on cpan.
+
+see io::capture::overview for a
+discussion of these modules and examples of how to build a module to
+sub-class from io::capture yourself.   if after reading the overview,
+you would like to build a class from io::capture, look here for
+details on the internals.

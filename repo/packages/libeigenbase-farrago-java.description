@@ -1,0 +1,10 @@
+Java framework for constructing rdbms services
+	
+farrago is an extensible platform for constructing
+enterprise-class rdbms services
+
+farrago is not an end-user product like mysql or postgresql.
+it provides a standards-based pluggable architecture, component library, and
+toolset for developers of other projects which specialize it.
+
+this package only ship eigenbase-properties part of farrago.

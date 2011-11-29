@@ -1,0 +1,9 @@
+Haskell openal binding for ghc; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+
+this library provides a haskell binding for the openal cross-platform
+3d audio api, appropriate for use with gaming applications and many other
+types of audio applications.  for more information about openal
+please see: <http://www.openal.org/>.

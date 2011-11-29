@@ -1,0 +1,4 @@
+PackageId:440
+Name:apt-dater-host
+Version:0.8.4-4+squeeze1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libapt-pkg-perl,lsb-release,openssh-server,perl

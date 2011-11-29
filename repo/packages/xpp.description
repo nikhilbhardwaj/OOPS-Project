@@ -1,0 +1,6 @@
+X printing panel
+	
+graphical substitute for the lp/lpr command.  with xpp, you can control
+every printing option known to the cups print system (the cups package).
+best results are available with usage of the appropriate ppd file for your
+printer.  each user can save their own customized printing preferences.

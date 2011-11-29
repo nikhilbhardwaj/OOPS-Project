@@ -1,0 +1,9 @@
+Computed tomography simulator
+	
+ctsim provides an interactive computed tomography simulator. computed
+tomography is the technique of estimating the interior of an object
+by measuring x-ray absorption through that object.
+
+ctsim has both command-line tools and a graphical user interface.
+ctsim has very educational trace modes for viewing the data
+collection simulation as well as the reconstruction.

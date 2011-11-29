@@ -1,0 +1,5 @@
+Protocol definitions for the linux layer 7 packet classifier
+	
+l7-protocols provides patterns (protocol definitions) for the linux layer 7
+packet classifier (l7-filter). to use them, you need the kernel and iptables
+patches or the l7-filter userspace version (l7-filter-userspace).

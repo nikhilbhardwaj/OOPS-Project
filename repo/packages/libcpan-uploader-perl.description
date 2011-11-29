@@ -1,0 +1,8 @@
+Module to upload packages to the cpan
+	
+cpan::uploader is a perl module which allows developers to upload their
+modules and packages to the comprehensive perl archive network (cpan) via
+the [perl programming] authors upload server (more commonly known as pause).
+
+it provides a direct programmatic interface via a singleton class, but also
+includes a command-line utility called `cpan-upload' to do the same.

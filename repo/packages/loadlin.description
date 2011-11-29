@@ -1,0 +1,12 @@
+A loader (running under dos) for linux kernel images
+	
+loadlin-1.6 is highly adaptable to different dos configurations, and now
+has very few loading restrictions. it makes use of extended memory and
+also can load big kernels (bzimages) and ramdisk images (initrd)
+directly high.
+
+loadlin also can load out of virtual-86 mode (which is normal when
+using ems drivers) if a vcpi server is present.
+
+the loadlin package also includes the freeramdisk program, which can
+return memory to the system when a ramdisk is no longer needed.

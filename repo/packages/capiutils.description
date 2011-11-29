@@ -1,0 +1,6 @@
+Isdn utilities - tools for capi-capable cards
+	
+some isdn cards (notably the avm active cards, and the avm passive cards
+when using the proprietary drivers) are accessed via the capi interface.
+the package contains utilities to initialize and get information about
+these cards.

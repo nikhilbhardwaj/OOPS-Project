@@ -1,0 +1,6 @@
+Perl interface to the flickr api
+	
+a simple interface for using the flickr api.
+
+flickr::api is a subclass of lwp::useragent, so all of the various proxy,
+request limits, caching, etc are available.

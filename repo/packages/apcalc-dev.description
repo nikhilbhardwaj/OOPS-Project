@@ -1,0 +1,10 @@
+Library for arbitrary precision arithmetic
+	
+this package contains the library libcalc.a and the necessary header files
+which provide routines to handle arbitrary precision arithmetic with
+integers, rational numbers, or complex numbers. there are also many numeric
+functions such as factorial and gcd, along with some transcendental
+functions such as sin and exp.
+
+this library is also used by the commandline calculator `calc', which is
+provided in the debian package `apcalc'.

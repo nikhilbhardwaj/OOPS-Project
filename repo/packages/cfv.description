@@ -1,0 +1,6 @@
+Versatile file checksum creator and verifier
+	
+cfv is a utility to test and create a wide range of checksum
+verification files. it currently supports testing and creating
+sfv, sfvmd5, csv, csv2, csv4, md5, bsdmd5, torrent and crc files.
+test-only support is available for par, par2.

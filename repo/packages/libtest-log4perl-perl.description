@@ -1,0 +1,5 @@
+Test module for checking log::log4perl code
+	
+test::log4perl can be used to test that you're logging the right
+thing with log::log4perl.  it checks that you get exactly what you
+expect logged by your code.

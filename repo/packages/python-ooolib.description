@@ -1,0 +1,7 @@
+Python module for creating opendocument documents (sp.sheet/text)
+	
+ooolib is a python module to be used to create simple opendocument
+spreadsheet and text documents.
+
+in contrast to libooolib-perl this supports odt but *not* the
+old format.

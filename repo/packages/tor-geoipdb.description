@@ -1,0 +1,9 @@
+Geoip database for tor
+	
+this package provides a geoip database for tor, i.e. it maps ipv4 addresses
+to countries.
+
+bridges (special tor relays that aren't listed in the main tor directory) use
+this information to report which countries they get access from.  this allows
+the tor network operators to learn if certain countries started blocking
+access to bridges.

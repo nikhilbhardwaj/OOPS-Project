@@ -1,0 +1,7 @@
+Trivial database - bundled binaries
+	
+this is a simple database api. it is modelled after the structure
+of gdbm. tdb features, unlike gdbm, multiple writers support with
+appropriate locking and transactions.
+
+this package contains bundled test and utility binaries

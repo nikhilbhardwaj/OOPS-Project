@@ -1,0 +1,8 @@
+Turn based strategy board game for up to 4 players
+	
+biloba is an abstract strategy board game for 1 to 4 players. at each turn
+the player moves pawns on an octagonal shaped board (but squared cells)
+trying to remove opponent's pawns from it.
+
+biloba includes an ai opponent for single player mode, and supports local or
+network play for 2 or more (up to 4) players.

@@ -1,0 +1,8 @@
+Full text search engine - binary and cgi script
+	
+namazu is a full text search engine which is usable via cgi. it features
+a simple and easy setup, and is written in c and perl. namazu uses the
+text utilities nkf, kakasi or chasen.
+
+this package includes binary only for search index.
+to create indexes, please install namazu2-index-tools package.

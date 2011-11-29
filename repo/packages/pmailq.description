@@ -1,0 +1,7 @@
+Postfix mail queue manager
+	
+pmailq parses output of mailq command from postfix (postqueue -p)
+and permits to perform some actions (like removing or displaying in
+a machine readable format) on a bunch of entries in queue, selected
+by applying patterns on criterias like email address, error message
+from smtp server, message size, mail status in queue.

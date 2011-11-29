@@ -1,0 +1,9 @@
+Grub bootable rescue images, version 2 (pc/bios version)
+	
+this package contains three grub rescue images that have been built for use
+with the traditional pc/bios architecture:
+
+
+ - grub-rescue-floppy.img: floppy image.
+ - grub-rescue-cdrom.iso: el torito cdrom image.
+ - grub-rescue-usb.img: usb image.

@@ -1,0 +1,11 @@
+Simple tcp re-engineering tool
+	
+tcpreen is a small tool for monitoring a tcp connection.
+it works like a bridge between the server and the client in a tcp
+connection, displays any data that is sent either way, and optionally
+logs everything to a file.
+
+it is mainly useful if you want to understand what informations a
+client and a server exchanges during a tcp session. it was originally
+meant to help reverse engineer proprietary tcp-based protocols or
+protocol extensions.

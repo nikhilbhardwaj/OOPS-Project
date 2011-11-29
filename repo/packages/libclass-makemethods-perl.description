@@ -1,0 +1,8 @@
+Perl module for generating common types of methods
+	
+the class::makemethods framework allows perl class developers to
+quickly define common types of methods. when a module uses
+class::makemethods or one of its subclasses, it can select from a
+variety of supported method types, and specify a name for each method
+desired. the methods are dynamically generated and installed in the
+calling package.

@@ -1,0 +1,23 @@
+The enhanced ftp client
+	
+tnftp is what many users affectionately call the enhanced ftp
+client in netbsd (http://www.netbsd.org).
+
+this package is a `port' of the netbsd ftp client to other systems.
+
+the enhancements over the standard ftp client in 4.4bsd include:
+
+   * command-line editing within ftp
+   * command-line fetching of urls, including support for:
+       - http proxies (c.f: $http_proxy, $ftp_proxy)
+       - authentication
+   * context sensitive command and filename completion
+   * dynamic progress bar
+   * ipv6 support (from the wide project)
+   * modification time preservation
+   * paging of local and remote files, and of directory listings
+     (c.f: `lpage', `page', `pdir')
+   * passive mode support, with fallback to active mode
+   * `set option' override of ftp environment variables
+   * tis firewall toolkit gate ftp proxy support (c.f: `gate')
+   * transfer-rate throttling (c.f: `-t', `rate')

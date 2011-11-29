@@ -1,0 +1,13 @@
+Perl module to print a progress bar
+	
+this is the cpan perl module term::progressbar.
+
+this module displays progress bar for things that take a while.
+it looks like:
+
+
+ 50% [=====     ]
+
+
+and is as long as the terminal.  linear estimation of the time left
+for the process to run is available.

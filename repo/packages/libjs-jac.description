@@ -1,0 +1,9 @@
+Javascript jabber client library
+	
+jsjac is a jabber client library written in javascript to ease implementation
+of web based jabber clients. for communication with a jabber server it needs
+to support either http polling or http binding.
+
+jsjac has an object oriented design which should be quite easy to use.
+communication is done by using the xml http request object also refered
+to as ajax technology. your browser must support this.

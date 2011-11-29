@@ -1,0 +1,9 @@
+Webkit/gtk python bindings
+	
+pywebkitgtk provides an api for developers to program webkit/gtk using python.
+
+the pywebkitgtk project share the same goals with webkit. the purpose of this
+binding is to bring an alternative web engine to python/gtk+ application
+developers who might need a web browser engine for their next application or
+developers wishing to have a better browser engine that they can access to
+using the python programming language.

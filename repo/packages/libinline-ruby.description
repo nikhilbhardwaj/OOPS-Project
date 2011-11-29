@@ -1,0 +1,9 @@
+Ruby library for embedding c/++ external module code
+	
+ruby inline is an analog to perl's inline::c. out of the box,
+it allows you to embed c/++ external module code in your ruby script
+directly. by writing simple builder classes, you can teach how to cope with
+new languages (fortran, perl, whatever).
+
+this is a dummy package depending on the library for the current default
+version of ruby.

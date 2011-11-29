@@ -1,0 +1,5 @@
+Top like query monitor for mysql
+	
+mytop is a console-based tool for monitoring queries and the performance
+of mysql. it supports version 3.22.x, 3.23.x, 4.x and 5.x servers.
+it's written in perl and support connections using tcp/ip and unix sockets.

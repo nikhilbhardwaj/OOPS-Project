@@ -1,0 +1,13 @@
+Pager utility for class::dbi
+	
+class::dbi::pager is a plugin for class::dbi, which glues data::page
+with class::dbi. this module reduces your work a lot, for example
+when you have to do something like:
+
+
+ * retrieve objects from a database
+ * display objects with 20 items per page
+
+
+in addition, your work will be reduced more, when you use
+template-toolkit as your templating engine.

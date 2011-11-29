@@ -1,0 +1,5 @@
+Transitional package for mit kerberos libraries
+	
+this package provides transitions to allow previously installed
+packages that do not depend on krb4 libraries to continue to
+function. this package may be removed if unneeded.

@@ -1,0 +1,7 @@
+A pear module for rendering text using figlet fonts
+	
+the text_figlet is an engine for using figlet fonts to rendering text. with
+text_figlet you can create ascii-art like text using figlet font description
+files (figlet fonts). the package supports horizontal smushing, german symbols
+(e.g. äöü), rtl and ltr writing directions as well as incomplete and gzipped
+fonts (as long as php's zlib extension is installed).

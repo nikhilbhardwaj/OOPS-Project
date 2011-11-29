@@ -1,0 +1,7 @@
+Debian package development tools
+	
+this package provides the development tools (including dpkg-source)
+required to unpack, build and upload debian source packages.
+
+most debian source packages will require additional tools to build;
+for example, most packages need make and the c compiler gcc.

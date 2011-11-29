@@ -1,0 +1,10 @@
+Simple, visually-appealing notification daemon for xfce
+	
+xfce4-notifyd is a simple, visually-appealing notification daemon for xfce
+that implements the freedesktop.org desktop notifications specification.
+
+features:
+
+ * themable using the gtk+ theming mechanism
+ * visually appealing: rounded corners, shaped windows
+ * supports transparency and fade effects

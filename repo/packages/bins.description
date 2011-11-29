@@ -1,0 +1,11 @@
+Generate static html photo albums using xml and exif tags
+	
+bins generates a complete static gallery (images and html) with
+thumbnails and image lists, using xml files to hold information about
+each image.  includes bins_edit tool for adding
+information to the xml files.  interprets exif and jfif tags (and
+canon extensions) in the jpeg directly.  gallery appearance
+customizable through html templates; gallery can be generated in
+different languages.
+
+based on swigs (structured web image gallery system).

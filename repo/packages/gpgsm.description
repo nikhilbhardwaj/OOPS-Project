@@ -1,0 +1,10 @@
+Gnu privacy guard - s/mime version
+	
+gnupg is gnu's tool for secure communication and data storage.
+it can be used to encrypt data and to create digital signatures.
+it includes an advanced key management facility and is compliant
+with the proposed openpgp internet standard as described in rfc2440.
+
+this package contains the gpgsm program. gpgsm is a tool to provide
+digital encryption and signing services on x.509 certificates and the
+cms protocol. gpgsm includes complete certificate management.

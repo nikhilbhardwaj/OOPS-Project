@@ -1,0 +1,4 @@
+PackageId:6901
+Name:hplip-gui
+Version:3.10.6-2
+Deps:dbus-x11,gksu,kdebase-bin,kdebase-runtime,kdesudo,hplip,python-qt4,python-qt4-dbus,python-reportlab

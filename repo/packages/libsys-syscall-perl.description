@@ -1,0 +1,4 @@
+Module to access system calls that perl doesn't normally provide access to
+	
+sys::syscall allows to use epoll, sendfile, from perl.  mostly linux-only
+support now, but other syscalls/oses are planned for future.

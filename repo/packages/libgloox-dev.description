@@ -1,0 +1,10 @@
+C++ jabber/xmpp library devel files
+	
+a c++ jabber/xmpp library that takes care of low level protocol stuff.
+additionally, it offers high level interfaces for interaction with an
+xmpp server.
+
+it is a fully compliant xmpp core and supports various jeps, mainly
+those needed to implement a xmpp im client.
+
+this package contains files needed for development with this library.

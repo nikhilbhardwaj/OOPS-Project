@@ -1,0 +1,10 @@
+Basic analysis and security engine
+	
+base is based on the code from the analysis console for intrusion databases
+(acid) project. this application provides a web front-end to query and analyze
+the alerts coming from a snort ids system.
+
+base is a web interface to perform analysis of intrusions that snort has
+detected on your network. it uses a user authentication and role-base system,
+so that you as the security admin can decide what and how much information
+each user can see.

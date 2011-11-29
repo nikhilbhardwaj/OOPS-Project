@@ -1,0 +1,12 @@
+Several utilities for eb(electric book)/epwing
+	
+epwutil is a set of small utilities that can deal with dictionary
+files in eb (electric book) / epwing format.  it contains:
+
+
+  catdump - dump eb / epwing catalog file
+  bookinfo - show info about the dictionary
+  squeeze - compress dictionary files
+
+
+would be nice to use with ndtpd, lookup-el, etc.

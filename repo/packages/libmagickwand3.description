@@ -1,0 +1,9 @@
+Image manipulation library
+	
+the magickwand api is the recommended interface between the c programming
+language and the imagemagick image processing libraries. unlike the
+magickcore c api, magickwand uses only a few opaque types. accessors are
+available to set or get important wand properties.
+
+this package contains the c libraries needed to run executables that make
+use of magickwand.

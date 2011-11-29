@@ -1,0 +1,13 @@
+Accounting daemon for linux 2.4+ netfilter
+	
+this program collects headers of ip packets that travel through the
+linux 2.4+ netfilter.
+
+it writes accounting information to a log which can include protocol
+type, source/destination address, port information, byte and packet
+count, incoming/outgoing network interfaces.
+
+records in the accounting logfile are freely configurable via a
+format string, for example it is possible to mimic the output format
+of cisco's "ip accounting output-packets" or to generate sql
+statements that can be fed directly into a dbms.

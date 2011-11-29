@@ -1,0 +1,13 @@
+Web server and programming framework in ocaml
+	
+ocsigen is a web server and a programming framework providing a new
+way to create dynamic web sites. its goal is to offer an alternative
+to apache/php, based on cutting-edge technologies coming from
+research in programming languages. it has most of the features you
+expect from a web server (static pages, cgi scripts, etc.) and also
+an innovative module, called eliom, for generating dynamic web
+pages. with eliom, you program in a concise and modular way, with a
+strong type system which helps you to produce valid xhtml. the server
+handles sessions, urls, and page parameters automatically.
+
+this package contains the web server itself and shared files.

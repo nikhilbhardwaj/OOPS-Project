@@ -1,0 +1,12 @@
+Perl module providing delayed creation of objects
+	
+the object::realize::later class helps with implementing transparent
+on demand realization of object data.  this is related to the tricks
+on autoloading of data, the lesser known cousin of autoloading of
+functionality.
+
+on demand realization is all about performance gain.  why should you
+spent costly time on realizing an object, when the data on the object is
+never (or not yet) used?  in interactive programs, postponed realization
+may boost start-up: the realization of objects is triggered by the
+use, so spread over time.

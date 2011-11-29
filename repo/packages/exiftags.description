@@ -1,0 +1,8 @@
+Utility to read exif tags from a digital camera jpeg file
+	
+the exiftags utility parses a specified jpeg file or, by default, its
+standard input, looking for a jpeg app1 section containing exif
+(exchangeable image file) data. the properties contained in these
+data are then printed to the standard output. digital cameras typically
+add exif data to the image files they produce, containing information
+about the camera and digitized image.

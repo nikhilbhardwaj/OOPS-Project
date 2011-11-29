@@ -1,0 +1,6 @@
+Convert raster images to eps, pdf, and other formats
+	
+sam2p is a command line utility that converts many raster
+(bitmap) image formats like gif, jpg/jpeg, and png into
+postscript or pdf files. ps or eps files created by sam2p are
+usually not much larger than the source file.

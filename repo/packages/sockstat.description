@@ -1,0 +1,9 @@
+View detailed information about open connections
+	
+sockstat is a tool to let you view information about open connections.
+it is similar to the tool of the same name that is included in freebsd,
+trying to faithfully reproduce as much functionality as is possible.
+
+this version of sockstat contains several additional features, like
+the ability to look up sockets in use by gid, uid and process name,
+as well as the other criteria supported by freebsd's sockstat.

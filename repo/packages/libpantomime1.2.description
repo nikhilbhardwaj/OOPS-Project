@@ -1,0 +1,6 @@
+Gnustep framework for mail handling (runtime library)
+	
+pantomime provides a gnustep framework that models a mail system. pantomime
+can be seen as a javamail 1.2 clone written in objective-c.
+
+this package contains the runtime library files.

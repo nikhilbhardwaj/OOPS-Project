@@ -1,0 +1,12 @@
+Gnome display manager
+	
+gdm provides the equivalent of a "login:" prompt for x displays- it
+pops up a login window and starts an x session.
+
+it provides all the functionality of xdm, including xdmcp support for
+managing remote displays.
+
+the greeting window is written using the gnome libraries and hence
+looks like a gnome application- even to the extent of supporting
+themes! by default, the greeter is run as an unprivileged user for
+security.

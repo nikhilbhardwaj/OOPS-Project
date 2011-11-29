@@ -1,0 +1,12 @@
+An implementation of traits in perl
+	
+traits are a simple composition mechanism for structuring
+object-oriented programs. a trait is essentially a parameterized set of
+methods, which serves as a building block for classes and is the primitive
+unit of code reuse. unlike mixins and multiple inheritance, traits do not
+use inheritance as the composition operator. instead, trait composition
+is based on a set of operators that are  complementary to single
+inheritance and result in better composition properties.
+
+traits are a core part of perl 6 (called roles there), and this module
+implements traits for perl 5.

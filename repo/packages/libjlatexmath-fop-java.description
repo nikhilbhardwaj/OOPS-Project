@@ -1,0 +1,17 @@
+Implementation of latex math mode wrote in java (fop plugin)
+	
+jlatexmath library provides a set of java classes for displaying (complex)
+mathematical formulas as part of a java application. some use cases are:
+
+ - displaying text with embedded formulas (in an editor pane, a javahelp
+   page, ...)
+ - make a combo box which provides the user with a choice between various
+   formulas.
+ - have a slider with ticks that display their values not as decimal numbers,
+   but as exact values, e.g., fractions, square roots or any combination of
+   these.
+ - display the formula together with the graph of a function.
+
+
+
+ this package contains the fop plugin.

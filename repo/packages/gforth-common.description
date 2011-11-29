@@ -1,0 +1,12 @@
+Gnu forth architecture-independent dictionaries
+	
+this is the gnu'ish implementation of a forth programming environment.
+
+forth, as a language, is best known for being stack-based, and completely
+extensible.  each forth environment provides one or more dictionaries of
+pre-defined words, and programming in forth consists of defining and
+executing new words that are combinations of previously defined words.  it
+has been said that learning forth changes forever the way you think about
+writing programs.
+
+this package provides the architecture-independent forth dictionaries.

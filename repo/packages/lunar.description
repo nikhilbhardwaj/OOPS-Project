@@ -1,0 +1,7 @@
+Chinese lunar calendar conversion utility
+	
+the program performs date conversion between the gregorian solar calendar
+(sc) and the chinese lunar calendar (lc).  given a date in either calendar,
+the program also outputs the corresponding "shengxiao" animal of the year)
+and "ganzhi" characters.  the date range currently covered is from about
+1900 a.d. to 2049 a.d.

@@ -1,0 +1,11 @@
+Seahorse plugins and utilities for encryption in gnome
+	
+seahorse is a front end for gnupg - the gnu privacy guard program -
+that integrates to the gnome desktop. it is a tool for secure
+communications and data storage.  data encryption and digital signature
+creation can easily be performed through a gui and key  management
+operations can easily be carried out through an intuitive interface.
+
+this package provides several plugins for different applications to use
+seahorse, as well as an agent for storing private passphrases and a
+gnupg and openssh key manager.

@@ -1,0 +1,7 @@
+Module to integrate html::formfu with dbix::class
+	
+html::formfu is a html form creation, rendering and validation framework.
+
+this package contains the html::formfu::model::dbic module, providing
+integration with dbix::class. it allows to set a form's default values from a
+dbix::class row object and to update the database from a submitted form.

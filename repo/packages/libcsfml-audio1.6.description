@@ -1,0 +1,9 @@
+Libraries for the c binding of sfml - audio part
+	
+sfml is an simple but fast library for providing access
+to multimedia libraries. it can be used to develop opengl
+applications with openal audio. it supports cross platform
+development
+
+the audio library is used to play sound and music in games. it is able to
+load ogg/vorbis files.

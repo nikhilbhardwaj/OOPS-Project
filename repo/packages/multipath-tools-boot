@@ -1,0 +1,4 @@
+PackageId:24970
+Name:multipath-tools-boot
+Version:0.4.8+git0.761c66f-9
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,initramfs-tools,multipath-tools

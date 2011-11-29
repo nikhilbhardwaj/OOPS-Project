@@ -1,0 +1,5 @@
+Qt gui library (threaded runtime version), version 3
+	
+this is the trolltech qt library, version 3. it's necessary for
+applications that link against the libqt-mt.so.3, e.g. all kde3
+applications.

@@ -1,0 +1,10 @@
+Delayed job execution and batch processing
+	
+at and batch read shell commands from standard input
+storing them as a job to be scheduled for execution in the
+future.
+
+use
+
+ at    to run the job at a specified time
+ batch to run the job when system load levels permit

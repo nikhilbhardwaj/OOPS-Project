@@ -1,0 +1,8 @@
+Java morphing film-make program for pixel picture-input
+	
+give two human-face pictures as inputs into the program. then mark
+important locations whithin both faces by pairs of corresponding points.
+the program will create a short enumerated picture series in which the left
+face moves (morphs) into the right one. you can then create a mpeg (see
+mencoder) from the picture series. an animated gif (see gimp) is also
+possible.

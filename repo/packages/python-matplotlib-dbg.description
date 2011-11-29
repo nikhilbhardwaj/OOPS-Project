@@ -1,0 +1,9 @@
+Python based plotting system (debug extension)
+	
+matplotlib is a pure python plotting library designed to bring
+publication quality plotting to python with a syntax familiar to
+matlab users. all of the plotting commands in the pylab interface can
+be accessed either via a functional interface familiar to matlab
+users or an object oriented interface familiar to python users.
+
+this package contains the debug extension for python-matplotlib.

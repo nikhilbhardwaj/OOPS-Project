@@ -1,0 +1,11 @@
+Frontend to many compression programs
+	
+comprez, aka 'z', is a simple, safe and convenient front-end for the
+compress(1), uncompress(1), gzip(1), bzip2(1), tar(1), zip(1) and
+unzip(1) utilities for compressing and uncompressing files and
+directories.
+
+the basic idea is that you can just run "comprez something" where
+something is any file, directory, compressed file or compressed
+archive, and program will do the right thing in a standard way.
+simple for novices and convenient for experts.

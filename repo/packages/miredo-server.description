@@ -1,0 +1,9 @@
+Teredo ipv6 tunneling server
+	
+the teredo ipv6 tunneling protocol encapsulates ipv6 packets into udp/ipv4
+datagrams, to allow hosts behind nat devices to access the ipv6 internet.
+
+miredo-server provides a teredo server. teredo servers help teredo clients
+determine their nat configuration, maintain their nat binding, and perform
+hole punching when transmitting ipv6 packets to other teredo clients and/or
+teredo relays.

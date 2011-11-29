@@ -1,0 +1,5 @@
+The script for generating graphs for mrtg statistics
+	
+mrtg-rrd is a replacement for the 14all.cgi script distributed in the
+mrtg contrib directory.  it is the script which can generate on-the-fly
+html output and graph images from the mrtg statistics.

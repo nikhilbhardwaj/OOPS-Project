@@ -1,0 +1,21 @@
+Tools to store pcr-derived data
+	
+mipe provides a standard format to exchange and/or storage of all
+information associated with pcr experiments using a flat text file. this will:
+
+ * allow for exchange of pcr data between researchers/laboratories
+ * enable traceability of the data
+ * prevent problems when submitting data to dbsts or dbsnp
+ * enable the writing of standard scripts to extract data (e.g. a
+   list of pcr primers, snp positions or haplotypes for different animals)
+
+
+although this tool can be used for data storage, it's primary focus
+should be data exchange. for larger repositories, relational databases
+are more appropriate for storage of these data. the mipe format could
+then be used as a standard format to import into and/or export from
+these databases.
+
+mipe was published in: aerts j & veenendaal t. mipe - a xml-format to
+facilitate the storage and exchange of pcr-related data. online journal of
+bioinformatics 6(2): 114-120 (2005).

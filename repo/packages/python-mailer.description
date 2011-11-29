@@ -1,0 +1,5 @@
+A module that simplifies sending email
+	
+simplifies sending emails in python, features a single class to send
+plain text, html email, and attachments.  mailer auto detects attachment
+types and has support for internationalized headers.

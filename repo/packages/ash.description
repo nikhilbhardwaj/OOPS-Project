@@ -1,0 +1,5 @@
+Compatibility package for dash
+	
+this package allows upgrading ash to its replacement,
+dash. it includes the /bin/ash symlink.
+it can be removed as soon as /bin/ash is no longer used.

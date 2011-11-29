@@ -1,0 +1,5 @@
+System-v-like runlevel change mechanism
+	
+this package provides support for the system-v like system
+for booting, changing runlevels, and shutting down,
+configured through symbolic links in /etc/rc?.d/.

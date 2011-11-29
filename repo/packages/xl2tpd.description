@@ -1,0 +1,9 @@
+A layer 2 tunneling protocol implementation
+	
+xl2tpd is an open source implementation of the l2tp tunneling
+protocol (rfc2661).  xl2tpd is forked from l2tpd and is maintained by
+xelerance corporation.
+
+the main purpose of this protocol is to tunnel ppp frames through ip
+networks.  it implements both lac and lns role in the l2tp networking
+architecture.

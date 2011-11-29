@@ -1,0 +1,11 @@
+Perform combinations and permutations on lists
+	
+combinatorics is the branch of mathematics studying the enumeration,
+combination, and permutation of sets of elements and the mathematical
+relations that characterize their properties. as a jumping off point,
+refer to:
+
+http://mathworld.wolfram.com/combinatorics.html
+
+this module provides a pure-perl implementation of nck, npk, and n!
+(combination, permutation, and factorial, respectively).

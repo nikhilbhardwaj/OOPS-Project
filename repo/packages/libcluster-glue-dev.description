@@ -1,0 +1,6 @@
+The reusable cluster components for linux ha (library dev files)
+	
+this package contains the headers for the libraries provided
+by the cluster glue component by the linux-ha project; it
+offers various re-usable cluster stack libraries. if you plan
+to run the linux-ha cluster stack, you will need this package.

@@ -1,0 +1,5 @@
+Perl bindings for the sane (scanner access now easy) project
+	
+the sane module allows you to access sane-compatible scanners in a perlish
+and object-oriented way, freeing you from the casting and memory management
+in c, yet remaining very close in spirit to original api.

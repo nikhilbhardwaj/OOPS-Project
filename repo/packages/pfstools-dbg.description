@@ -1,0 +1,8 @@
+Command line hdr manipulation programs (debugging symbols)
+	
+pfs is a high-dynamic range (hdr) image format. it is an attempt to integrate
+existing file formats by providing a simple data format that can be used to
+exchange data between applications.
+
+this package contains the debugging symbols for the pfstools binaries and the
+shared library.

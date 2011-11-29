@@ -1,0 +1,7 @@
+Postfix policy server for spf checking
+	
+postfix-policyd-spf-python is a full featured postfix smtpd policy engine for
+spf checking. it includes a variety of whitelisting mechanisms and policy
+options to enable it to support the widest variety of system requirements.
+it is implemented in pure python and uses the python-spf module.  the spf
+web site is http://www.openspf.org/.

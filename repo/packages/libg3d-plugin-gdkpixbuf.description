@@ -1,0 +1,7 @@
+Plugin for the libg3d library
+	
+libg3d is a framework for loading 3d model files from files or memory. it can
+also load associated data like textures.
+
+this package contains a plugin for the libg3d library so that libg3d can load
+every image that libgdk-pixbuf2 is able to work with.

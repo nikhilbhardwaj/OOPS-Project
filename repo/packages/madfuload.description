@@ -1,0 +1,16 @@
+Firmware loader for m-audio dfu audio devices
+	
+this package allows you to use m-audio's dfu audio devices
+with linux. these devices require a firmware download before
+an operating system driver (e.g. alsa's snd-usb-audio) can
+access them.
+
+supported devices:
+
+ - sonica
+ - ozone
+ - mobilepre usb (some newer models work without the loader)
+ - transit
+
+the loader is not required for some newer models of the above devices,
+like the ozone academic.

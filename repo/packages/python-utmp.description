@@ -1,0 +1,7 @@
+Python module for working with utmp
+	
+python-utmp provides 3 modules to access utmp and wtmp records.
+utmpaccess is lowlevel module wrapping glibc functions, utmpconst
+provides useful constants, and utmp is module build
+on top of utmpaccess module, providing object oriented
+interface.

@@ -1,0 +1,4 @@
+PackageId:446
+Name:apt-listchanges
+Version:2.85.7+squeeze1
+Deps:apt,debconf,debconf-2.0,cdebconf,cdebconf-udeb,debianutils,python,python-apt,python-support,ucf

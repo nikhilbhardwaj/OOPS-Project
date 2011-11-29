@@ -1,0 +1,6 @@
+Nss module for using ldap as a naming service
+	
+this package provides a name service switch module that allows your ldap
+server to provide user account, group, host name, alias, netgroup, and
+basically any other information that you would normally get from /etc flat
+files or nis.

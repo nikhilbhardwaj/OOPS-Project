@@ -1,0 +1,10 @@
+Python modules for machine learning and data mining
+	
+scikit-learn is a collection of python modules relevant to
+machine/statistical learning and data mining.  non-exhaustive list of
+included functionality:
+
+ - gaussian mixture models
+ - manifold learning
+ - knn
+ - svm (via libsvm)

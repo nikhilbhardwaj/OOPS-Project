@@ -1,0 +1,5 @@
+Convert text files into zx spectrum basic programs
+	
+zmakebas converts a spectrum basic program written as a text file into
+an actual speccy basic file (as a .tap file, or optionally a raw
+headerless file).

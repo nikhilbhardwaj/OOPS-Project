@@ -1,0 +1,6 @@
+Gnu r package of classes for dense and sparse matrices
+	
+this cran package provides s4 classes and methods for numerical
+linear algebra using dense or sparse matrices.  the sparse matrix
+implementation uses code from the ldl sparse matrix package and
+code from the metis package of partitioning algorithms.

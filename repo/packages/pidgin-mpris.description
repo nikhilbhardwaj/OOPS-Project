@@ -1,0 +1,7 @@
+Sets your available message to your currently playing track
+	
+the pidgin-mpris plugin sets the title of a currently playing track
+in a user selected mpris-complaint media player as your away or
+available message.
+
+the following players are supported: vlc (videolan), bmpx, audacious 1.4.

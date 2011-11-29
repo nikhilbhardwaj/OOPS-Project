@@ -1,0 +1,4 @@
+Udp sockets for tcl
+	
+tcludp provides a new channel type for udp and permits the use of
+packet oriented udp over stream oriented tcl channels.

@@ -1,0 +1,10 @@
+Source code to formatted text converter (architecture independent files)
+	
+a utility that converts sourcecode to html, xhtml, rtf, latex, tex,
+svg, xml or terminal escape sequences with syntax highlighting.  it
+supports several programming and markup languages.  language
+descriptions are configurable and support regular expressions.  the
+utility offers indentation and reformatting capabilities.  it is
+easily possible to create new language definitions and colour themes.
+
+these are the architecture independent files.

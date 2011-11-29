@@ -1,0 +1,6 @@
+Perl module to design pcr primers using primer3 and epcr
+	
+bio::primerdesigner provides a low-level interface to the primer3 and epcr
+binary executables and supplies methods to return the results. in addition to
+accessing local installations of primer3 or e-pcr, it also offers the ability to
+accessing the primer3 binary via a remote server.

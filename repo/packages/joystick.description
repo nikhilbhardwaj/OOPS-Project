@@ -1,0 +1,14 @@
+Set of testing and calibration tools for joysticks
+	
+some useful tools for using joysticks:
+
+ ffcfstress(1) - force-feedback stress test
+ ffmvforce(1)  - force-feedback orientation test
+ ffset(1)      - force-feedback configuration tool
+ fftest(1)     - general force-feedback test
+ jstest(1)     - joystick test
+ jscal(1)      - joystick calibration tool
+
+
+evtest and inputattach, which used to be part of this package, are now
+available separately.

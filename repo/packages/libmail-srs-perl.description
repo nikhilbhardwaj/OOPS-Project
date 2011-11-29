@@ -1,0 +1,11 @@
+Interface to sender rewriting scheme
+	
+the sender rewriting scheme preserves .forward functionality in an
+spf-compliant world.
+
+spf requires the smtp client ip to match the envelope sender
+(return-path). when a message is forwarded through an intermediate
+server, that intermediate server may need to rewrite the return-path
+to remain spf compliant. if the message bounces, that intermediate
+server needs to validate the bounce and forward the bounce to the
+original sender.

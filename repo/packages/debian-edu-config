@@ -1,0 +1,4 @@
+PackageId:2782
+Name:debian-edu-config
+Version:1.445
+Deps:base-files,cfengine2,debconf,debconf-2.0,cdebconf,cdebconf-udeb,debconf-utils,debian-edu-artwork,desktop-profiles,discover,education-tasks,fping,host,bind9-host,ldap-utils,libconfig-inifiles-perl,libfilesys-df-perl,libhtml-fromtext-perl,libio-socket-ssl-perl,libjavascript-perl,libnet-ldap-perl,libnet-netmask-perl,libterm-readkey-perl,libtext-unaccent-perl,lsb-base,mime-support,net-tools,freebsd-net-tools,ng-utils,openssl,patch,python-notify,ssl-cert,tftp,tftp-hpa

@@ -1,0 +1,4 @@
+PackageId:1932
+Name:cl-sql-postgresql
+Version:5.1.1-1
+Deps:cl-sql,cl-sql-uffi,common-lisp-controller,libpq-dev

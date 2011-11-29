@@ -1,0 +1,14 @@
+Imap protocol proxy
+	
+up-imapproxy proxies imap transactions between an imap client and an imap
+server. the general idea is that the client should never know that it is
+not talking to the real imap server, but imapproxy caches server connections.
+
+imapproxy was written to compensate for webmail clients that are unable  to
+maintain persistent connections to an imap server. most webmail clients
+need to log in to an imap server for nearly every single transaction; this
+behaviour can cause tragic performance problems on the imap server.
+imapproxy tries to deal with this problem by leaving server connections
+open for a short time after a webmail client logs out. when the webmail client
+connects again, imapproxy will determine if there is a cached connection
+available and reuse it if possible.

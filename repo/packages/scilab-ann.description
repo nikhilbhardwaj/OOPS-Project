@@ -1,0 +1,20 @@
+Scilab module for artificial neural networks
+	
+this module implements artificial neural networks capabilities
+into the scilab language.
+current features are:
+
+ * only layered feedforward networks are supported *directly* at the moment
+   (for others use the "hooks" provided)
+ * unlimited number of layers
+ * unlimited number of neurons per each layer separately
+ * user defined activation function (defaults to logistic)
+ * user defined error function (defaults to sse)
+ * algorithms implemented so far:
+   * standard (vanilla) with or without bias, on-line or batch
+   * momentum with or without bias, on-line or batch
+   * supersab with or without bias, on-line or batch
+   * conjugate gradients
+   * jacobian computation
+   * computation of result of multiplication between "vector" and hessian
+ * some helper functions provided

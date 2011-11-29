@@ -1,0 +1,16 @@
+Python upnp framework
+	
+coherence is a framework written in python enabling your application to
+participate in digital living networks, at the moment primarily the
+upnp universe.
+
+its goal is to relieve your application from all the membership / the
+upnp related tasks as much as possible.
+
+the core of coherence provides a (hopefully complete) implementation
+of:
+
+ * a ssdp server,
+ * a msearch client,
+ * server and client for http/soap requests, and
+ * server and client for event subscription and notification (gena).

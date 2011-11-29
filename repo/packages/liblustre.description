@@ -1,0 +1,18 @@
+Runtime library for lustre filesystem utilities
+	
+lustre is a scalable, secure, robust, highly-available cluster file system.
+it is maintained by cluster filesystems, inc. and available
+from http://www.lustre.org
+
+this package provides a shared library that is used by userspace
+applications to  work with lustre filesystems. it gives a user application
+linked with the library access to lustre
+file systems without the need to mount lustre (vfs) on the client.
+the key goals for the library are to provide a portable mechanism to
+access lustre from different posix compliant operating systems, to provide
+access from microkernel based systems and from the windows operating system.
+
+currently, liblustre is still under development and only works on linux
+(i386 & amd64, not tested on ia64).
+
+please see http://wiki.lustre.org/index.php/liblustre_how-to_guide for details.

@@ -1,0 +1,11 @@
+Checks dns zone information using nameserver lookups
+	
+this program analyzes any dns zone you specify, and reports any problems it
+finds by displaying errors and warnings.  then it descends recursively to
+examine all zones below the given one (this can be disabled with a command-
+line option).
+
+you don't have to feed any bind conffiles to dlint. dlint uses
+nameserver calls to gather information.
+
+designed for unix, dlint is written in bourne shell and perl.

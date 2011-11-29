@@ -1,0 +1,31 @@
+E-book converter and library management
+	
+calibre is meant to be a complete e-library solution. it includes library
+management, format conversion, news feeds to ebook conversion as well as
+e-book reader sync features.
+
+calibre is primarily a ebook cataloging program. it manages your ebook
+collection for you. it is designed around the concept of the logical book,
+i.e. a single entry in the database that may correspond to ebooks in several
+formats. it also upports conversion from a dozen different ebook formats to
+lrf and epub. a graphical interface to the conversion software can be
+accessed easily by just clicking the "convert e-books" button.
+
+supported input formats are: mobi, lit, prc, epub, odt, html, cbr, cbz, rtf,
+txt, pdf and lrs.
+
+calibre has a modular device driver design that makes adding support for
+different e-reader devices easy. at the moment, it has support for the
+sony prs 500/505/700 and the iphone (with the stanza reader software).
+syncing supports updating metadata on the device from metadata in the library
+and the creation of collections on the device based on the tags defined in
+the library view. if an book has more than one format available, calibre
+automatically chooses the best format when uploading to the device.
+
+calibre can automatically fetch news from a number of websites/rss feeds,
+format the news into a ebook and upload to a connected device. there is
+support for generating lrf/epub ebooks. the ebooks include the *full*
+versions of the articles, not just the summaries.
+
+calibre has also a built-in ebook viewer that can display all the major ebook
+formats.

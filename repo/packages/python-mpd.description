@@ -1,0 +1,5 @@
+Python mpd client library
+	
+fast mpd (music player daemon) client library written in pure python.
+it was written to be a replacement for python-mpdclient which is a bit
+outdated and does not perform good in many situations.

@@ -1,0 +1,16 @@
+Simple commands for minimalistic window managers
+	
+this package provides simple commands designed to be used with a minimalistic
+window manager like dwm but they can be useful in scripts regardless of the
+window manager used.
+
+
+ * dmenu: dynamic menu is a generic menu for x.
+ * lsw: lists the titles of all running x windows to stdout, similar to ls(1).
+ * slock: simple x display locker that locks the x session.
+ * sslep: simple x selection printer that prints the x selection to stdout.
+ * ssid: simple setsid replacement.
+ * swarp: simple x warping tool to warp the mouse pointer to a given position.
+ * tabbed: simple generic tabbed fronted to xembed aware applications.
+ * wmname: wmname prints/sets the window manager name property of the root
+   window similar to how hostname(1) behaves.

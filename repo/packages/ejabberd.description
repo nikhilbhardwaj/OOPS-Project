@@ -1,0 +1,18 @@
+Distributed, fault-tolerant jabber/xmpp server written in erlang
+	
+ejabberd is a distributed, fault-tolerant jabber/xmpp server written in erlang.
+its features contain:
+
+ - xmpp-compliant
+ - web based administration
+ - load balancing: can run in a cluster of machines
+ - fault-tolerance: database can be replicated and stored on multiple
+   nodes (nodes can be added or replaced 'on the fly')
+ - virtual hosting: several virtual domains can be served using single ejabberd
+   instance
+ - ssl/tls support
+ - multi-user chat (muc/conference)
+ - irc transport
+ - jabber users directory, based on users vcards
+ - service discovery
+ - shared roster

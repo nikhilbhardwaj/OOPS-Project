@@ -1,0 +1,5 @@
+Version of wall that uses gnu readline
+	
+nwall is a system-local chat program based on bsd wall. it logs chat, as well
+as providing opt-out lockfiles for users who want to be alerted to system
+walls, but don't want to be distracted by the nwall chatter.

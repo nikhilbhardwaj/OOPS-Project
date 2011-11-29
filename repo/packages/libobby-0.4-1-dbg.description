@@ -1,0 +1,8 @@
+Synced document buffers - debugging symbols
+	
+obby is a library providing synced document buffers which multiple users
+could edit simultaneously. it supports multiple documents in one session
+and an integrated chat. it is portable to both windows and unix-like platforms.
+
+these are the debugging symbols for obby, needed only if you try to debug
+an application using it.

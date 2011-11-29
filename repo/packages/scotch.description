@@ -1,0 +1,67 @@
+Programs and libraries for graph, mesh and hypergraph partitioning
+	
+its purpose is to apply graph theory, with a divide and conquer
+approach, to scientific computing problems such as graph and mesh
+partitioning, static mapping, and sparse matrix ordering, in
+application domains ranging from structural mechanics to operating
+systems or bio-chemistry.
+
+the scotch distribution is a set of programs and libraries which
+implement the static mapping and sparse matrix reordering algorithms
+developed within the scotch project.
+
+scotch has many interesting features:
+
+o its capabilities can be used through a set of stand-alone programs
+as well as through the libscotch library, which offers both c and
+fortran interfaces.
+
+o it provides algorithms to partition graph structures, as well as
+mesh structures defined as node-element bipartite graphs and which
+can also represent hypergraphs.
+
+o it can map any weighted source graph onto any weighted target
+graph. the source and target graphs may have any topology, and their
+vertices and edges may be weighted. moreover, both source and target
+graphs may be disconnected. this feature allows for the mapping of
+programs onto disconnected subparts of a parallel architecture made
+up of heterogeneous processors and communication links.
+
+o it computes amalgamated block orderings of sparse matrices, for
+efficient solving using blas routines.
+
+o its running time is linear in the number of edges of the source
+graph, and logarithmic in the number of vertices of the target graph
+for mapping computations.
+
+o it can handle indifferently graph and mesh data structures created
+within c or fortran programs, with array indices starting from 0 or
+1.
+
+o it offers extended support for adaptive graphs and meshes through
+the handling of disjoint edge arrays.
+
+o it is dynamically parametrizable thanks to strategy strings that
+are interpreted at run-time.
+
+o it uses system memory efficiently, to process large graphs and
+meshes without incurring out-of-memory faults;
+
+o it is highly modular and documented. since it has been released
+under the cecill-c free/libre software license, it can be used as a
+testbed for the easy and quick development and testing of new
+partitioning and ordering methods.
+
+o it can be easily interfaced to other programs. the programs
+comprising the scotch project have been designed to run in
+command-line mode without any interactive prompting, so that they can
+be called easily from other programs by means of system() or popen()
+calls, or piped together on a single command line. moreover, vertex
+labeling capabilities allow for easy renumbering of vertices.
+
+o it provides many tools to build, check, and display graphs, meshes
+and matrix patterns.
+
+o it is written in c and uses the posix interface, which makes it
+highly portable. pt-scotch uses the mpi interface, and optionally the
+posix threads.

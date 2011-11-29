@@ -1,0 +1,21 @@
+Latex class to produce presentations
+	
+the beamer class is a latex class that allows you to create a beamer
+presentation. it can also be used to create slides. it behaves
+similarly to other packages like prosper, but has the advantage that
+it works together directly with pdflatex, but also with dvips.
+
+once you have installed the beamer class, the basic steps to create a
+beamer presentation are the following:
+
+ - specify beamer as document class instead of article.
+ - structure your latex text using \section and \subsection commands.
+ - place the text of the individual slides inside \frame commands.
+ - run pdflatex on the text (or latex and dvips).
+
+
+the beamer class has several useful features: you don't need any
+external programs to use it other than pdflatex, but it works also
+with dvips. you can easily and intuitively create sophisticated
+overlays. finally, you can easily change the whole slide theme or only
+parts of it.

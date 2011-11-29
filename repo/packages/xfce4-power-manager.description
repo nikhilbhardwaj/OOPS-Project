@@ -1,0 +1,15 @@
+Power manager for xfce desktop
+	
+this power manager for the xfce desktop enables laptop users to set up
+a power profile for two different modes "on battery power" and "on ac
+power" while still allowing desktop users to at least change the dpms
+settings and cpu frequency using the settings dialogue..
+
+it features:
+
+  * battery monitoring
+  * cpu frequency settings
+  * monitor dpms settings
+  * suspend/hibernate
+  * lcd brightness control
+  * lid, sleep and power switches control

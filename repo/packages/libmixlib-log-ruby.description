@@ -1,0 +1,9 @@
+A simple ruby mixin for creating a logger object
+	
+provides a class based object to provide logging. messages can be sent at
+different levels such as warn or error. logging defaults to stdout but
+can also be sent to a file with simple built in rotation.
+
+this package is a dependency package, which depends on the package
+containing actual ruby mixlib-log libraries for the default ruby version
+(currently 1.8).

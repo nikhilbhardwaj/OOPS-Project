@@ -1,0 +1,13 @@
+Mysql module for php5
+	
+this package provides modules for mysql database connections directly from
+php scripts.  it includes the generic "mysql" module which can be used
+to connect to all versions of mysql, an improved "mysqli" module for
+mysql version 4.1 or later, and the pdo_mysql module for use with
+the php data object extension.
+
+php5 is a widely-used general-purpose scripting language that is
+especially suited for web development and can be embedded into html.
+the goal of the language is to allow web developers to write
+dynamically generated pages quickly. this version of php5 was built
+with the suhosin patch.

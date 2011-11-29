@@ -1,0 +1,11 @@
+Microsoft windows password cracker using rainbow tables (gui)
+	
+ophcrack is a windows password cracker based on a time-memory trade-off
+using rainbow tables. this is a new variant of hellman's original trade-off,
+with better performance. it recovers 99.9% of alphanumeric passwords in
+seconds.
+
+it works for windows nt/2000/xp/vista.
+
+this package contains ophcrack with qt4 based graphical ui.
+please note that it can be used in command line as well.

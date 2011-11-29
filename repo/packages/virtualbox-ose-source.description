@@ -1,0 +1,9 @@
+X86 virtualization solution - kernel module source
+	
+virtualbox is a free x86 virtualization solution allowing a wide range
+of x86 operating systems such as windows, dos, bsd or linux to run on a
+linux system.
+
+this package provides the source code for the virtualbox kernel module.
+the virtualbox-ose package is also required in order to make use of these
+modules. kernel sources or headers are required to compile this module.

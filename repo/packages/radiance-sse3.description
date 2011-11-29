@@ -1,0 +1,9 @@
+Lighting simulation and rendering system - sse3 optimizations
+	
+radiance is intended to aid lighting designers and architects by
+predicting the light levels and appearance of a space prior to
+construction.
+
+this package contains sse3-optimized versions of the renderers. to be able
+to use them your processor needs to support the sse3 instruction set.
+using optimized binaries speeds up rendering by 5-15%.

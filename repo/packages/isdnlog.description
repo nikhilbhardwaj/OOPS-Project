@@ -1,0 +1,7 @@
+Isdn utilities - connection logger
+	
+this package provides a set of utilities that can log isdn connections and
+calculate the cost of calls. if sufficient data is available, it can even
+recommend which alternate carrier would have been cheaper for a given call.
+for countries where calls are charged per discrete unit, it can disconnect
+the line just before the next unit starts.

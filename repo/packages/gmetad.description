@@ -1,0 +1,7 @@
+Cluster monitoring toolkit - ganglia meta-daemon
+	
+ganglia is a scalable, real-time cluster monitoring environment
+that collects cluster statistics in an open and well-defined xml format.
+
+this package contains the 'gmetad' daemon, which collects information from
+ganglia monitor clients and writes it to rrd databases.

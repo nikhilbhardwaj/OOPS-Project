@@ -1,0 +1,12 @@
+Gui for rendering and viewing maps based on mapnik mapfiles
+	
+the mapnik viewer is a gui tool for rendering and viewing maps based
+on mapnik xml mapfiles.
+
+it can:
+
+ - view tile images on-the-fly
+ - debug information on bad config files, points to the erroneous line
+ - shows scale and envelope for current view
+ - fast zooming and point-based attribute queries
+ - export to a variety of formats including tif

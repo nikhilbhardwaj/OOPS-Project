@@ -1,0 +1,8 @@
+Bandwidth limiting module for apache2
+	
+this module allows you to limit bandwidth usage on every virtual host
+or directory or to restrict the number of simultaneous connections.
+
+the bandwidth control, for example, can be configured according to
+the criteria: origin of the connection, file extension, file size or
+user agent of the client.

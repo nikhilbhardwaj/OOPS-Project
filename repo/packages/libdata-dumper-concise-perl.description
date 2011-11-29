@@ -1,0 +1,9 @@
+Module for more shorter data::dumper-like output
+	
+data::dumper::concise is a perl module designed to produce useful debugging
+output, eliding unnecessary information. it exists as a convenient way to
+reproduce a set of dumper options useful for most applications.
+
+a similar module, data::dump::streamer (libdata-dump-streamer-perl) provides
+even shorter output but is overkill for most applications. in comparison,
+this module is pure perl, which means it is less likely to segfault.

@@ -1,0 +1,6 @@
+Simple ntp refclock daemon for msf/wwvb/dcf77 time signals
+	
+radioclkd takes the demodulated time signals from simple msf/wwvb/dcf77
+time signal receivers on the control lines of a serial port, decodes
+the signals, and provides an interface to ntp via the shared memory
+refclock driver.

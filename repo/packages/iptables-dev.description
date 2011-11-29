@@ -1,0 +1,6 @@
+Iptables development files
+	
+iptables is used to setup, maintain, and inspect the tables of
+packet filter rules in the linux kernel. this package contains
+the available library (libipq, libiptc, libxtables), header,
+documentation and related files for iptables development.

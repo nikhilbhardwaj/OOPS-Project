@@ -1,0 +1,16 @@
+Lv2 vocoder plugin
+	
+perhaps you don't know what a vocoder is, but i'm sure you have heard
+one before. vocoders are often used to add a robotic effect to vocals
+in music. happy robots use linux and lv2!
+
+this vocoder plugin has 2 audio inputs and 1 output. the first input is
+the "formant" signal which is usually someone's voice. the second input
+is the "carrier" signal which is some sort of continuous synth sound.
+the "carrier" signal is modulated to the "formant".
+
+there are a number of controls ports. the first one is the "number of
+bands" which is how many frequency bands to use (current maximum is 16).
+the rest of the controls set the level of each individual band and
+should have a value between 0.0 and 1.0. the lower numbered bands are
+lower in frequency the higher numbered bands are higher in frequency.

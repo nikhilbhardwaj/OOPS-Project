@@ -1,0 +1,7 @@
+Computer algebra system (cas) in python
+	
+sympy is a python library for symbolic mathematics (manipulation). it aims to
+become a full-featured computer algebra system (cas) while keeping the code as
+simple as possible in order to be comprehensible and easily extensible. sympy
+is written entirely in python and does not require any external libraries,
+except optionally for plotting support.

@@ -1,0 +1,15 @@
+Xml-based desktop publishing application
+	
+passepartout is an open source desktop publishing application.
+the goal is to provide a simple and user-friendly, yet  powerful
+tool  for creating  printed material. passepartout combines
+a wysiwyg layout editor with a high-quality typesetting engine.
+
+you do not use passepartout for writing text, because it is only
+a layout editor. basically speaking, passepartout is in the business
+of taking the different parts that make up a page, such as text, photos,
+graphics, and "gluing" them on piece of paper. passepartout can import
+from several different bitmapped image formats as well as eps files.
+you write the text in your favorite text editor (e.g. emacs or vi) in
+an xml-based format. the xml file is then typeset using a typesetting
+engine called xml2ps.

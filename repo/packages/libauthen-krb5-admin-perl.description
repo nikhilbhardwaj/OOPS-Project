@@ -1,0 +1,6 @@
+Perl extension for mit kerberos 5 admin interface
+	
+the authen::krb5::admin perl module is an object-oriented interface
+to the kerberos 5 admin server.  currently only mit kdcs are
+supported, but the author envisions seamless integration with other
+kdcs.

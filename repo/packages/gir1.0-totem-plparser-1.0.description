@@ -1,0 +1,10 @@
+Gobject introspection data for the totem playlist parser library
+	
+this package contains introspection data for the totem playlist parser
+library.
+
+totem-pl-parser is a simple gobject-based library to parse a host of
+playlist formats, as well as save those.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

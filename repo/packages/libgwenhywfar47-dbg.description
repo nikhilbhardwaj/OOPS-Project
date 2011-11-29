@@ -1,0 +1,8 @@
+Os abstraction layer - debug symbols
+	
+gwenhywfar allows porting of your software to different operating
+systems like linux, *bsd, windows etc. it also provides some often
+needed modules such as configuration file handling, simple xml file
+parsing, ipc etc.
+
+this package contains debug symbols needed for debugging gwenhywfar.

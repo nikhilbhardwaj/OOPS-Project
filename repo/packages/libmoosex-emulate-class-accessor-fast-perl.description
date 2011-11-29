@@ -1,0 +1,9 @@
+Module to emulate class::accessor::fast using moose attributes
+	
+moosex::emulate::class::accessor::fast attempts to emulate the behavior of
+class::accessor::fast as accurately as possible using the moose attribute
+system.
+
+the public api of class::accessor::fast is wholly supported, but the private
+methods are not. if you are only using the public methods (as you should) then
+migrating to this is trivial.

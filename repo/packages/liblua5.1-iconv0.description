@@ -1,0 +1,5 @@
+Iconv bindings for the lua programming language
+	
+this package provides posix 'iconv' bindings for the lua programming language.
+it converts a sequence of characters from one codeset into a sequence of
+corresponding characters in another codeset.

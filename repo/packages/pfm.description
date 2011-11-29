@@ -1,0 +1,32 @@
+Postgresql graphical client using tcl/tk
+	
+postgres forms (pfm) is a client application with a graphical user
+interface for the postgresql data base server. it enables the user:
+to design forms for adding, modifying or deleting records of data
+base tables;
+
+
+  - to design links (one to many relationships) from one form
+    to another, for navigating in the data base;
+
+
+
+  - to design and to generate reports based on the data in a
+    table or view;
+
+
+
+  - to edit and to execute sql statements.
+
+
+postgres forms is implemented in tcl/tk, but there is no need for the
+user to program anything in tcl/tk. the user only has to use sql for
+creating tables and views and for designing forms, links and reports.
+
+postgres forms makes no attempt to hide the underlying sql. on the
+contrary, in most cases, it shows both the sql statements it sends to
+the postgresql server and the results it gets back.
+
+the postgresql server can be remote or local.
+
+homepage: http://pgfoundry.org/projects/pfm/

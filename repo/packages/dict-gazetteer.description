@@ -1,0 +1,11 @@
+U.s. gazetteer (1990)
+	
+this package contains place names, population and location
+information provided by the u.s. census bureau, formatted for use
+by the dictionary server in the dictd package.  zip code information
+has been merged with the place name data.
+
+this package is based on the 1990 census, and is superceded by
+dict-gazetteer2k, which is based on the 2000 census.  the information
+in these packages is formated differently, and some information in
+this package is not found in dict-gazetteer2k.

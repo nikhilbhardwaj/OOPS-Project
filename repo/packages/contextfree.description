@@ -1,0 +1,10 @@
+Image generator based on context-free grammars
+	
+context free is a program that produces images based on context-free grammars.
+these grammars are sets of non-deterministic rules that determine what an
+image should look like.  the resulting images often resemble a mix of
+spirograph drawings, fractals and abstract art.
+
+context free can generate images with millions of shapes, in png (up to 100
+megapixels) or svg format.  it can also produce animations.  many example
+images are included.

@@ -1,0 +1,8 @@
+Programs for manipulating jpeg files
+	
+this package contains programs for manipulating jpeg files:
+
+ cjpeg/djpeg: convert to/from the jpeg file format
+ rdjpgcom/wrjpgcom: read/write comments in jpeg files
+ jpegtran: lossless transformations of jpeg files
+ jpegexiforient/exifautotran: manipulate exif orientation tag

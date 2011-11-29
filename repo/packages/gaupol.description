@@ -1,0 +1,20 @@
+Subtitle editor for text-based subtitle files
+	
+text-based subtitles are commonly used with divx video. gaupol supports
+multiple subtitle file formats and provides means of text corrections and time
+manipulations. gaupol's user interface is designed with attention to batch
+processing of multiple documents and convenient translating.
+
+supported formats are:
+
+  * advanced sub station alpha (.ssa)
+  * microdvd (.sub)
+  * mpl2 (.txt)
+  * mpsub (.sub)
+  * subrip (.srt)
+  * sub station alpha (.ssa)
+  * subviewer2 (.sub)
+  * tmplayer (.txt)
+
+
+vobsubs (image-based subtitles used in dvds) are not supported.

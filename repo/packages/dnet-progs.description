@@ -1,0 +1,7 @@
+Decnet user programs and daemons
+	
+these tools are the application layer interface for decnet on linux systems.
+they provide file/terminal access facilities between openvms and linux and
+remote execution of commands.
+also included is a linux version of the vms "phone" utility and a vmsmail
+to smtp gateway.

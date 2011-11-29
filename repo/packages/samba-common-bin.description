@@ -1,0 +1,8 @@
+Common files used by both the samba server and client
+	
+samba is an implementation of the smb/cifs protocol for unix systems,
+providing support for cross-platform file and printer sharing with
+microsoft windows, os x, and other unix systems.
+
+this package contains files and programs needed by samba when used as
+either a client or a server.

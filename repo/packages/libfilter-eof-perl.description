@@ -1,0 +1,6 @@
+Run a callback after a file has been compiled
+	
+filter::eof utilises perl's source filters to provide you with a mechanism to
+run some code after a file using your module has been processed.
+
+it could also be used for appending perl code to that file's source.

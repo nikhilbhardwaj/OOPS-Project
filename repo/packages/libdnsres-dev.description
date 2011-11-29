@@ -1,0 +1,7 @@
+Development libraries, header files and docs for libdnsres0
+	
+contains the header files, documentation, examples and static libraries
+for use in developing applications that use the libdnsres library.
+
+libdnsres is a thread-safe and non-blocking library for resolving dns
+names and mirror the traditional gethostbyname and getaddrinfo interfaces.

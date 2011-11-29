@@ -1,0 +1,16 @@
+Parallel computation framework for java
+	
+java framework that supports a style of parallel programming
+in which problems are solved by (recursively) splitting them
+into subtasks that are solved in parallel, waiting for them
+to complete, and then composing results.
+
+fork/join parallelism is among the simplest and most
+effective design techniques for obtaining good parallel
+performance.  fork/join algorithms are parallel versions
+of familiar divide-and-conquer algorithms.
+
+jsr166y includes a parallel computation framework:
+forkjointasks and their related support classes provide a
+very efficient basis for obtaining platform-independent
+parallel speed-ups of computation-intensive operations.

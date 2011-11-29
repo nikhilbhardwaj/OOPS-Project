@@ -1,0 +1,10 @@
+Modular music composer - shared libraries
+	
+the buzztard project aims to provide a modular, free, open source music
+studio that is conceptually based on the proprietary windows software
+called buzz. the buzztard project itself has no direct link to buzz
+apart from its concepts that we build upon and is no 1:1 buzz copy.
+to allow migration for buzz users, buzztard provides song-file import
+and buzz-machine reuse.
+
+this package contains the shared library files.

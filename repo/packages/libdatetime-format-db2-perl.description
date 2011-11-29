@@ -1,0 +1,7 @@
+Parse and format db2 dates and times
+	
+this module understands the formats used by db2 for its date,
+time, and timestamp data types.  it can be used to parse
+these formats in order to create datetime objects, and it can take a
+datetime object and produce a string representing it in the db2
+format.

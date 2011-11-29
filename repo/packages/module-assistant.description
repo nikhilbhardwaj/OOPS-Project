@@ -1,0 +1,18 @@
+Tool to make module package creation easier
+	
+the module-assistant tool (also known as m-a) helps users and
+maintainers with managing external kernel modules packaged for
+debian. it can do:
+
+
+ - automated preparation of build environment for modules compilation
+   (eg. automatical detection and installation of required kernel
+   source/headers)
+ - automated module source downloads
+ - configuring and keeping track of external and localy built modules
+   packages
+ - semi-automated multiple builds for multiple kernel versions
+
+
+it also contains some framework to be used by the build-scripts in the
+accompanying modules-source packages in debian.

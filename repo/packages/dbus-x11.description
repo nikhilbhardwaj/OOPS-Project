@@ -1,0 +1,10 @@
+Simple interprocess messaging system (x11 deps)
+	
+d-bus is a message bus, used for sending messages between applications.
+conceptually, it fits somewhere in between raw sockets and corba in
+terms of complexity.
+
+this package contains the dbus-launch utility which is necessary for
+packages using a d-bus session bus.
+
+see the dbus description for more information about d-bus in general.

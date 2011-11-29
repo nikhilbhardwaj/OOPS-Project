@@ -1,0 +1,8 @@
+Ruby/dbi postgresql driver
+	
+ruby/dbi is a database independent interface for accessing databases,
+similar to perl's dbi.
+
+this package is a dependency package, which depends on the package
+containing actual ruby/dbi postgresql driver for the default ruby
+version (currently 1.8).

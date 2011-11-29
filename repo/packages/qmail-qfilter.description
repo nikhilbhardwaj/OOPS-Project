@@ -1,0 +1,8 @@
+Qmail-queue filter front end
+	
+this program allows the body of a message to be filtered through a
+series of filters before being passed to the real qmail-queue program,
+and injected into the qmail queue.
+
+you need to apply the qmailqueue patch to qmail before using this program,
+see the documentation for more information.

@@ -1,0 +1,6 @@
+Gnu r abind multi-dimensional array combination function
+	
+this package provides the abind function, a generalization of the cbind
+and rbind function in the r base package. the abind function takes a sequence
+of vectors, matrices, or arrays and produces a single array of the same or
+higher dimension.

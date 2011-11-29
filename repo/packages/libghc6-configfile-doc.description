@@ -1,0 +1,16 @@
+Parser and writer for sectioned config files in haskell; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language. see http://www.haskell.org/ for more information on
+haskell.
+
+the configfile module works with configuration files in a standard
+format that is easy for the user to edit, easy for the programmer
+to work with, yet remains powerful and flexible.  it is inspired by,
+and compatible with, python's configparser module.  it uses files
+that resemble windows .ini-style files, but with numerous
+improvements.
+
+configfile provides simple calls to both read and write config files.
+it's possible to make a config file parsable by this module,
+the unix shell, and make.

@@ -1,0 +1,8 @@
+Graphical boot animation and logger (fade-in theme)
+	
+plymouth provides an attractive graphical boot animation in place of the text
+messages that normally get shown. text messages are instead redirected to a log
+file for viewing after boot.
+
+this package contains the fade-in theme. it features a centered logo that
+fades in and out while stars twinkle around the logo during system boot up.

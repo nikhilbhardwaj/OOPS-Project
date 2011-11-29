@@ -1,0 +1,14 @@
+Qt development files (threaded)
+	
+qt is a c++ class library optimized for graphical user interface
+development. this package contains the libqt-mt.so symlink, necessary
+for building threaded qt applications as well as the libqui.so symlink
+and the necessary header files for libqui.so. (see readme.debian and
+the qt documentation for instructions on libqui.so)
+
+warning: if you plan to build some older qt3 applications, you will
+most probably have to install the libqt3-compat-headers package. it
+contains all the headers which are not part of the official qt3 api
+anymore but which are still used by some programs. so if you encounter
+problems with missing header files, please install this package first
+before you send a bugreport.

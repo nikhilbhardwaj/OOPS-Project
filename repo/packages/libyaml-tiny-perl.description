@@ -1,0 +1,11 @@
+Read/write yaml files with as little code as possible
+	
+the yaml specification is huge. like, really huge. it contains all the
+functionality of xml, except with flexibility and choice, which makes it
+easier to read, but with a full specification that is more complex than xml.
+
+the pure-perl implementation of yaml costs just over 4 megabytes of memory
+to load. just like with windows .ini files (3 meg to load) and css
+(3.5 meg to load) the situation is just asking for a yaml::tiny module, an
+incomplete but correct and usable subset of the functionality, in as little
+code as possible.

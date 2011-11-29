@@ -1,0 +1,150 @@
+Repository of optional extensions for the gimp
+	
+the package contains the following plugins:
+
+
+  * add film grain (2.4):
+    helps adding realistic film grain to bw images.
+  * btn4ws (0.8.0.1):
+    generates a series of buttons in three states (passive, active, pressed)
+    with various selectable effects on them, as well as xhtml, css and
+    javascript code for using the buttons.
+  * black and white film simulation (1.1):
+    converts the selected layer into black and white using
+    the channel mixer. tries to produce results resembling
+    tonal qualities of film.
+  * cmyk tiff 2 pdf for gimp (20090321):
+    this plugin completes the prepress workflow of using separate+ to generate
+    cmyk tiff images by allowing you to convert the saved cmyk tiff image into
+    a pdf file.
+  * contact sheet (2.02):
+    generates a contact sheet(s) for a directory of images.
+  * david's batch processor (1.1.9):
+    a simple batch processing plugin for the gimp - it allows
+    the user to automatically perform operations (such as resize)
+    on a collection of image files.
+  * diana-holga2 (c):
+    diana/holga toys cameras effect simulator.
+  * el samuko gimp scripts:
+    * antique photo border script:
+      this script simulates a yellowed and slightly jagged border
+      like these of old photographies.
+    * che guevara script:
+      this script generates a poster like the famous che guevara
+      one from jim fitzpatrick.
+    * cyanotype script:
+      this script simulates the cyanotype printing process.
+    * difference layer script
+      this script generates two difference layers from the two layers
+      on the top. it's similar to gimp's built-in grain extract/merge
+      function, but the tonal range is bigger.
+      now you can apply further editing and "switch on/off" the
+      adjustment by switching the visibility of the subtractive and
+      the additive layer.
+      also you can change the modification intensity by changing the
+      intensity of these two layers.
+    * escape line script:
+      this script creates escaping lines from any point. it's similar
+      in function to the built-in line-nova script, but much more
+      flexible. so you can chose the center, the thickness, the angle,
+      the length, the offset and the randomness.
+    * film grain script:
+      this is yet another script which simulates the typical film grain
+      of high iso pictures.
+    * first photo border script:
+      this script simulates the cut-off of the first picture of a film
+      roll of cheap cameras like lomo.
+    * lomo script with old style colors
+      this script simulates the lomo effect.
+    * movie 300 script:
+      this script simulates the color style of the movie "300".
+    * national geographic script:
+      this script simulates a high quality (portrait) photo like
+      these from the national geographic.
+    * obama "hope" script:
+      this script generates a poster like the famous obama "hope"
+      one from shepard fairey.
+    * rainy landscape script:
+      this script changes a dry landscape to a wet one.
+    * photochrom script:
+      this script simulates a photochrom image, a lithographic printing
+      process from the 1890's.
+    * sprocket hole script:
+      this script simulates complete exposed 35mm film strips with frame
+      numbers, lettering, overexposed sprocketholes and dx film edge barcodes.
+    * sunny landscape script:
+      this script changes a rainy landscape to a sunny one.
+    * technicolor 2 color script:
+      this script simulates the 2 color technicolor effect.
+    * technicolor 3 color script:
+      this script simulates the 3 color technicolor effect.
+    * vintage look script:
+      this script simulates a 70s vintage look.
+  * ez perspective:
+    specialized tool for easily correcting or changing perspective.
+  * fix-ca (3.0.2):
+    corrects chromatic aberration in photos
+  * focus-blur (3.2.5):
+    this plugin tries to simulate an out-of-focus blur
+  * gimp fx foundry (r111):
+    probably the largest script collection available for the gimp.
+  * gimp-mask:
+    do and undo several popular image masking (that is, censoring)
+    methods (cp, fl, q0, meko).
+  * warming and cooling filters (may 24, 2010):
+    warm or cool an image using one of several methods:
+    wratten, roy's warm, brauer's warm, pasty cadaveric look
+  * layer-effects (2.4):
+    this is a series of scripts that implement various layer effects:
+    drop shadow, inner shadow, outer glow, inner glow, bevel and emboss,
+    satin, color overlay, gradient overlay, pattern overlay, stroke
+  * liquid rescale (0.7.0):
+    content-aware rescaling. keeps the features of the image while
+    rescaling along a single direction.
+  * normalmap (1.2.2):
+    allows you to convert images into rgb normal maps for use in
+    per-pixel lighting applications.
+  * planet render (1-2):
+    creates a planet. color, size and sun orientation
+    can be set.
+  * refocus (0.9.1):
+    the gimp plugin to refocus images using fir wiener filtering.
+    during image processing operations such as scanning and scaling, images
+    tend to get blurry. the blurred impression of these images is due to the
+    fact that image pixels are averaged with their neighbors. blurred images
+    don't have sharp boundaries and look as though they have been taken with
+    an unfocused camera.
+  * save for web (0.29.0):
+    allows to experiment with various popular web format options. it shows
+    an automatically updated preview and file size statistics.
+  * separate+ (0.5.6):
+    separate+ is a plug-in that generates color separations from an rgb
+    image, proofs cmyk colors on the monitor and exports the cmyk tiff file.
+  * smart sharpen (redux) (2.4):
+    this script implements the redux version of smart sharpening. it utilizes
+    the unsharp mask or refocus plugin to sharpen the image.
+  * streak-camera simulation (0.6):
+    a streak camera images an object through a slit -
+    thus getting a "one dimensional image". this image is
+    propagated along the second dimension of the image plane
+    at a constant speed. the result is a picture of the time
+    dependency of the object.
+  * traditional orton:
+    this is an effect invented by michael orton in the 1990’s, which
+    consists of taking two copies of an image, one blurred, and one sharp,
+    and mixing them to produce an image with a dreamy quality. it is
+    especially well suited to landscape and flower photography.
+  * wavelet decompose (0.1.2):
+    the wavelet decompose plugin decomposes a layer of an image into layers
+    of wavelet scales. this means that you can edit the image on different
+    detail scales (frequencies). the trivial recomposition of the image can
+    be done by gimp's layer modes so you can see the results of your
+    modifications instantly. among the applications are retouching, noise
+    reduction, and enhancing global contrast.
+  * wavelet denoise (0.3.1):
+    the wavelet denoise plugin is a tool to selectively reduce noise in
+    individual channels of an image with optional rgb<->ycbcr conversion.
+    it has a user interface to adjust the amount of denoising applied. the
+    wavelet nature of the algorithm makes the processing quite fast.
+  * x11 mouse cursor (xmc) plug-in (2.0.6):
+    enables gimp to import and export x11 mouse cursor files.

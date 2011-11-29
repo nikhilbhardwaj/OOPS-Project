@@ -1,0 +1,7 @@
+Java api for jsr-330 dependency injection
+	
+atinject is the java api build by the jsr-330 expert group:
+<http://jcp.org/en/jsr/detail?id=330>.
+
+it's a set of api aiming to standardize an extensible dependency injection
+paradigm, as those provided by guice, spring or plexus projects.

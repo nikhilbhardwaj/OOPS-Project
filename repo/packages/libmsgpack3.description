@@ -1,0 +1,5 @@
+Binary-based efficient object serialization library
+	
+messagepack is a binary-based efficient object serialization library.
+it enables to exchange structured objects between many languages like json.
+but unlike json, it is very fast and small.

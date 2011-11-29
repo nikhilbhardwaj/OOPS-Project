@@ -1,0 +1,4 @@
+Html::copy - copy a html file without breaking links
+	
+this target of this module is to copy a html file without
+beaking links in the file and is a sub class of html::parser.

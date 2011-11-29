@@ -1,0 +1,6 @@
+Diffusion-weighted mri white matter tractography
+	
+set of tools to perform diffusion-weighted mri white matter tractography of the
+brain in the presence of crossing fibres, using constrained spherical
+deconvolution, and a probabilisitic streamlines algorithm. magnetic resonance
+images in dicom, analyze, or uncompressed nifti format are supported.

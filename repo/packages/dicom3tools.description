@@ -1,0 +1,6 @@
+Dicom medical image files manipulation and conversion tools
+	
+command line utilities for creating, modifying, dumping and validating
+files of dicom attributes. support conversion of some proprietary medical
+image formats to dicom. can handle older acr/nema format data, and some
+proprietary versions of that such as spi.

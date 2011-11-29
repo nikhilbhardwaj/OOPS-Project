@@ -1,0 +1,6 @@
+Utilities and init scripts for the hp mv2120
+	
+this package is intended to be used on the hp media vault mv2120.  it
+includes a utility that can generate a recovery image from a kernel
+and ramdisk, and init scripts to signal the state of the boot process
+with the leds.

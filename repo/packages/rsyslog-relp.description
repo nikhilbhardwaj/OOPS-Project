@@ -1,0 +1,5 @@
+Relp protocol support for rsyslog
+	
+these plugins allows rsyslog to send and receive syslog messages via the
+relp protocol. relp ensures the reliable transport over the network even on
+connection loss or if a peer becomes unavailable.

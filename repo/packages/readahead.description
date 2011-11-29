@@ -1,0 +1,7 @@
+Read files into the page cache (dummy transitional package)
+	
+this package helps users transition to the readahead-fedora package,
+which superseeds the readahead-list implementation.
+
+once readahead-fedora is installed, this package should be removed and
+purged.

@@ -1,0 +1,5 @@
+Erlang/otp process manager
+	
+the process manager pman is a graphical tool used to inspect the
+erlang processes executing either locally or on remote erlang nodes.
+it also allows to trace events in the individual processes.

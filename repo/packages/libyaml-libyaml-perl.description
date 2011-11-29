@@ -1,0 +1,6 @@
+Perl interface to libyaml, a yaml implementation
+	
+yaml::libyaml (or yaml::xs) is a perl interface to kirill siminov's libyaml
+library, a yaml ain't markup language (yaml) implementation written in c to
+support the yaml 1.1 specification. there provided dump and load routines
+are compatible with the perl yaml module (see libyaml-perl).

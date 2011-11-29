@@ -1,0 +1,8 @@
+Debugging symbols for cmake
+	
+cmake is used to control the software compilation process using simple
+platform and compiler independent configuration files. cmake generates native
+makefiles and workspaces that can be used in the compiler environment of your
+choice.
+
+this package provides cmake debugging symbols.

@@ -1,0 +1,11 @@
+Geolocation of senders for claws mail
+	
+this plugins allows geographical location of mail sender in a
+map displayed in message window.
+
+notice that inferring geographical location from mail headers is by
+nature inaccurate, and some servers, mainly mail list servers, are
+known to mangle message headers. mails comming from them will appear
+located at the mail list server position and not at sender's position.
+
+in case of doubt do not rely on the results shown by this plugin.

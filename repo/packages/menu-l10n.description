@@ -1,0 +1,10 @@
+Localized menu entries for debian menu.
+	
+debian menu keeps transparently the menus in the different
+window-managers in sync with the list of installed programs.
+
+debian menu relies on a list of menu entries provided by programs
+and a list of menu-methods provided by window-managers and other
+menu-aware applications.
+
+this package provides localized menu entries.

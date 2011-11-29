@@ -1,0 +1,16 @@
+Chat activity for the sugar graphical shell
+	
+sugar is a graphical user interface aimed at children.
+
+originating as intregral part of the olpc "xo" a.k.a. the $100 laptop,
+sugar has since grown into a more widely usable low-ressource desktop
+environment for kids.
+
+this package contains the chat activity, providing a simple interface
+for collaborative discussion, be it between two individuals or among a
+group as large as an entire classroom. while a lightweight and
+"impermanent" chat will be provided in a layer above all activities and
+the various mesh levels, this activity devoted to textual communication
+will keep detailed records of the conversation within the journal and
+provide a means of searching through the conversation to locate
+important comments.

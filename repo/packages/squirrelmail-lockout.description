@@ -1,0 +1,10 @@
+Squirrelmail plugin: disallow access to users/domains
+	
+this plugin allows you to create a list of users and/or domains that should be
+disallowed login access to squirrelmail. it also allows you to block
+brute-force password guessing attacks, although please note that this will
+only help fight such attacks in the squirrelmail interface, and should really
+be implemented in your mail system's authentication backend.
+
+squirrelmail is a standards-based webmail package written in php. it runs on
+top of any imap server.

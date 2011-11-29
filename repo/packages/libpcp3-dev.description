@@ -1,0 +1,10 @@
+Performance co-pilot library and headers
+	
+the libpcp-dev package contains the base performance co-pilot (pcp)
+library and header files needed to develop collector and monitor
+programs which make use of pcp services.
+
+the performance co-pilot provides a unifying abstraction for
+all of the interesting performance data in a system, and allows
+client applications to easily retrieve and process any subset of
+that data.

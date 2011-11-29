@@ -1,0 +1,10 @@
+An ada framework for distributed acquisition systems (debug)
+	
+narval is a framework that eases setting up of experimental data acquisition.
+it is written in ada, supports user plugins written in c or c++.  using narval,
+one can distribute many processes across a network to acquire, process, store
+data online.  processes are of four types: producer (injects data in narval
+framework), consumer (end of the data flow), intermediate (act as nxm switches)
+and stand alone actor (no data flow handling, can be used for monitoring).
+
+these are the debugging symbols for narval.

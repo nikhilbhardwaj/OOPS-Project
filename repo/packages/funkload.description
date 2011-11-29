@@ -1,0 +1,9 @@
+Web testing tool
+	
+this web testing tool is designed to allow testing the functionality
+and performance of web applications in the same spirit as perl's
+www::mechanize. the tool supports recording clicks through a website,
+saving them into a python class which you can later modify, and
+playing them back later. this allows you to script your web
+applications. 'funkload' also supports performance and load testing
+your applications.

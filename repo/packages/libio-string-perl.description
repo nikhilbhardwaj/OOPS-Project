@@ -1,0 +1,15 @@
+Emulate io::file interface for in-core strings
+	
+the io::string module provide the io::file interface for in-core
+strings.  an io::string object can be attached to a string, and
+will make it possible to use the normal file operations for reading or
+writing data, as well as seeking to various locations of the string.
+the main reason you might want to do this, is if you have some other
+library module that only provide an interface to file handles, and you
+want to keep all the stuff in memory.
+
+the io::string module provide an interface compatible with
+io::file as distributed with io-1.20, but the following methods
+are not available; new_from_fd, fdopen, format_write,
+format_page_number, format_lines_per_page, format_lines_left,
+format_name, format_top_name.

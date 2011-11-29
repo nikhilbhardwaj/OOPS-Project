@@ -1,0 +1,18 @@
+Movie player for unix-like systems
+	
+mplayer plays most mpeg, vob, avi, ogg/ogm, vivo,
+asf/wma/wmv, qt/mov/mp4, fli, rm, nuppelvideo, yuv4mpeg, film, roq, pva files,
+supported by many native, xanim, realplayer, and win32 dll codecs. it can
+also play videocd, svcd, dvd, 3ivx, realmedia, and divx movies.
+
+another big feature of mplayer is the wide range of supported output
+drivers. it works with x11, xv, dga, opengl, svgalib, fbdev,
+directfb, but also sdl (plus all its drivers) and some
+low level card-specific drivers (for matrox, 3dfx and radeon, mach64
+and permedia3). most of them support software or hardware scaling,
+therefore allowing fullscreen display.  mplayer is also able
+to use some hardware mpeg decoder boards, such as the dvb
+and dxr3/hollywood+.
+
+not all of the upstream code is distributed in the source tarball.
+see the readme.debian and copyright files for details.

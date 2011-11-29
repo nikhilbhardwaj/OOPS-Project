@@ -1,0 +1,4 @@
+PackageId:8829
+Name:krb5-config
+Version:2.2
+Deps:bind9-host,debconf,debconf-2.0,cdebconf,cdebconf-udeb

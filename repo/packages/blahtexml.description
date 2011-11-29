@@ -1,0 +1,8 @@
+Converts tex equations into mathml
+	
+blahtex converts an equation given in a syntax close to tex into
+mathml. blahtexml is a simple extension of blahtex. in addition to
+the functionality of blahtex, blahtexml has xml processing in mind
+and is able to process a whole xml document into another xml
+document. instead of converting only one formula at a time, blahtexml
+can convert all the formulas of the given xml file into mathml.

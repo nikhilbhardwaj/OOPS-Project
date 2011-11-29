@@ -1,0 +1,10 @@
+A python db-api 2.0 interface to postgresql v7.x
+	
+pgsql is a package of two (2) modules that provide a python
+db-api 2.0 compliant interface to postgresql databases. the
+first module, libpq, exports the postgresql c api to python.
+the second module, pgsql, provides the db-api 2.0 compliant
+interface and support for various postgresql data types, such
+as int8, numeric, money, bool, arrays, etc.
+
+this package contains modules for all supported python versions.

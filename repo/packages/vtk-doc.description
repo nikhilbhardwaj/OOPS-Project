@@ -1,0 +1,11 @@
+Vtk class reference documentation
+	
+the visualization toolkit (vtk) is an object oriented, high level
+library that allows one to easily write c++ programs, tcl, python and
+java scripts that do 3d visualization.
+
+this package contains exhaustive html documentation for the all the
+documented vtk c++ classes.  the documentation was generated using
+doxygen and some excellent perl scripts from sebastien barre et. al.
+please read the readme.docs in /usr/share/doc/vtk-doc/ for details.
+the documentation is available under /usr/share/doc/vtk/html.

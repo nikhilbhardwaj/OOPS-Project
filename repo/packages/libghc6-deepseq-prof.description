@@ -1,0 +1,6 @@
+"deep" version for haskell seq - ghc 6 profiling libraries
+	
+evaluates a full haskell data structure, where the lazy haskell interpreter
+normally would skip it.
+
+this package contains the profiling libraries compiled for ghc 6.

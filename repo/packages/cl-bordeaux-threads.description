@@ -1,0 +1,11 @@
+Portable shared-state concurrency for common lisp
+	
+bordeaux-threads is a proposed standard for a minimal mp/threading interface.
+
+it essentially provides a compatibility layer for multi-threading accross
+multiple cl implementations.
+
+some parts of it's implementation-specific code can also be implemented in a
+lisp that does not support multiple threads, so that thread-safe code can be
+compiled on both multithread and single-thread implementations without need of
+conditionals.

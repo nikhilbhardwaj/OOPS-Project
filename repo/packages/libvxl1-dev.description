@@ -1,0 +1,10 @@
+C++ libraries for computer vision research
+	
+vxl (the vision-something-libraries) is a collection of c++ libraries
+designed for computer vision research and implementation. it was created
+from targetjr and the iue with the aim of making a light, fast and
+consistent system. vxl is written in ansi/iso c++ and is designed to be
+portable over many platforms.
+
+this package contains the development files needed to build your own
+vxl applications.

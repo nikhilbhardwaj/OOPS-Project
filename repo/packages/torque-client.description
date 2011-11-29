@@ -1,0 +1,10 @@
+Command line interface to torque server
+	
+the torque server dispatches jobs across physically separated
+machines. it may also be beneficial for single machines to organise
+the sequential execution of multiple jobs.
+
+this package contains the command-line client programs. these should
+be installed on all hosts that should be able to submit jobs,
+query for their status or cancel their execution. the client
+contacts the server directly.

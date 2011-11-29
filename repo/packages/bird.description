@@ -1,0 +1,10 @@
+Internet routing daemon
+	
+bird is an internet routing daemons which manages tcp/ip based
+routing protocols with full support of all modern routing
+protocols. bird is easy to use configuration interface and powerful
+route filtering language.
+
+it supports ipv4 versions ospfv2, ripv2 (no v1), bgp and
+redistribution between the protocols with a powerful configuration
+syntax.

@@ -1,0 +1,9 @@
+Netbios name service requests
+	
+this is the net::nbname perl module, for resolving the netbios host names
+used by windows/samba.  it can be used
+
+ 1. to resolve netbios names to ip addresses
+ 2. to determine registered netbios names on a host
+
+a pure perl module, using the socket core module.

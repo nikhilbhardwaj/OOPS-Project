@@ -1,0 +1,10 @@
+Emacs wrappers for the commands in devscripts
+	
+this package contains:
+
+ devscripts - wrappers around the debuild, debc and debi commands;
+ pbuilder-log-view - wrappers around viewing pbuilder logs;
+ pbuilder - wrappers around pbuilder
+
+
+see /usr/share/doc/devscripts-el/readme.debian for a short description.

@@ -1,0 +1,11 @@
+Graphical user interface for zeitgeist
+	
+zeitgeist is a service which logs the user's activities and events (files
+opened, websites visited, conversations hold with other people, etc.) and
+makes the relevant information available to other applications.
+
+it serves as a comprehensive activity log and also makes it possible to
+determine relationships between items based on usage patterns.
+
+this package contains the gnome activity journal, a graphical user interface
+which shows a journal of your activities.

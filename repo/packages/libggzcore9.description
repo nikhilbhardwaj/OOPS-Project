@@ -1,0 +1,11 @@
+Ggz gaming zone: core client frontend library
+	
+the ggzcore library is an event/state-based library that allows programs
+to connect to a ggz server, handle game rooms, chat and player
+properties, and control participation in games.
+
+this package provides the run-time library used by most of the ggz core
+clients.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

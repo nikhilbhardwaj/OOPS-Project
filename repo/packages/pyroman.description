@@ -1,0 +1,23 @@
+Very fast firewall configuration tool
+	
+pyroman is a firewall tool written in python for complex networks,
+but it can of course also handle simple single-host-single-link setups.
+
+interesting features:
+
+ * fast, due to use of iptables-restore for mass setting of rules
+ * rollback to previous firewall configuration on errors
+ * safety options to prevent mistakes in configuration (success confirmation
+   prompt and/or scripted external verification)
+ * detailed error reporting
+ * lots of verification checks done before execution
+ * powerful yet clean configuration files (in python and/or xml)
+ * designed for multiple hosts, firewalls, networks
+
+
+pyroman is inspired by shorewall and firehol, but tries to improve upon them
+with respect to performance and ease of configuration.
+
+pyroman currently only configures ipv4 iptables/netfilter firewalls, it does
+not include configuration utilities for setting up vpn or traffic shaping,
+nor does this version include support for ipv6 yet.

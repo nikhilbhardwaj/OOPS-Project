@@ -1,0 +1,11 @@
+Automatic printer filter
+	
+magicfilter is a customizable, extensible automatic printer filter.
+
+it translates the files that you send to a printer to a "language" that
+your printer can "understand". to accomplish this goal, it determines
+the type of the file that is to be printed and uses its "knowledge" to
+convert the file to something that is printable.
+
+this is done by use of magicfilter's own magic database (a la file(1))
+to decide how to print out a given print job.

@@ -1,0 +1,10 @@
+Gnome2 panel applet implementation of xpenguins
+	
+this program is a gnome2 panel applet that animates a friendly family
+of penguins in your root window.  they drop in from the top of the
+screen, walk along the tops of your windows, up the side of your
+windows, levitate, skateboard, and do other similarly exciting
+things. xpenguins is now themeable so if you're bored of penguins, try
+something else. the basic themes are provided by the xpenguins package
+(this is the xpenguins-applet package), so you'll have to install that
+before xpenguins-applet will work.

@@ -1,0 +1,8 @@
+Mpeg audio player in fixed point
+	
+mad is an mpeg audio decoder. it currently only supports the mpeg 1
+standard, but fully implements all three audio layers (layer i, layer ii,
+and layer iii, the latter often colloquially known as mp3.).  there is also
+full support for id3 tags.
+
+all work is done in fixed point, so it even works on machines without an fpu.

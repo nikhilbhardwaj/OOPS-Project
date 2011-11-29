@@ -1,0 +1,21 @@
+Collection of extra modules for catalyst
+	
+this package includes some modules which could be handy when you make catalyst
+application and which are not in libcatalyst-modules-perl.
+
+currently the following modules are included:
+
+catalyst::model::adaptor
+use a plain class as a catalyst model
+
+catalyst::model::cdbi::crud
+create-read-update-delete model class using class::dbi
+
+catalyst::plugin::authentication::credential::openid
+authentication using openid credentials
+
+catalyst::plugin::captcha
+create and validate captcha for catalyst
+
+catalyst::plugin::setenv
+deploy an environment (%env) using the catalyst configuration

@@ -1,0 +1,18 @@
+Openssh configuration file editor
+	
+config::model::openssh is a configuration model for editing openssh
+configuration files, namely, /etc/ssh/sshd_config, /etc/ssh/ssh_config (for
+root) and ~/.ssh/config (for other users).
+
+you can get extra functionality by installing some optional dependencies:
+
+
+ * a graphical openssh file editor with libconfig-model-tkui-perl
+ * a curses openssh file editor with libconfig-model-cursesui-perl
+ * comments and structure of /etc/ssh/sshd_config will be preserved if
+   libconfig-model-backend-augeas-perl is installed. this feature is not
+   available for ssh_config data.
+
+
+using '-ui none', the openssh configuration editor can also be used as a
+command line to validate the semantic content of configuration files.

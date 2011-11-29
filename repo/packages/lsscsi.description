@@ -1,0 +1,6 @@
+List all scsi devices (or hosts) currently on system
+	
+uses information in sysfs (linux kernels 2.6.0 and later) to list all
+scsi devices (or hosts) currently attached to the system. options can
+be used to control the amount and form of information provided for each
+device.

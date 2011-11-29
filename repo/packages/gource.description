@@ -1,0 +1,8 @@
+Graphical source control visualisation
+	
+opengl-based 3d visualisation tool for source control repositories.
+
+the repository is displayed as a tree where the root of the repository is the
+centre, directories are branches and files are leaves. contributors to the
+source code appear and disappear as they contribute to specific files and
+directories.

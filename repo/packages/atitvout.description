@@ -1,0 +1,8 @@
+Ati tv out support program
+	
+this utility program may be used for executing several configuration
+commands for the tv out connector of ati rage mobility p/m
+and some radeon graphics boards under gnu/linux on i386.
+primarily it is intended to enable tv out support after bootup and
+for switching the used tv standard from ntsc to pal.
+it works either on console or x.

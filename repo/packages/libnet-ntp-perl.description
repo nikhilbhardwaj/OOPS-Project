@@ -1,0 +1,4 @@
+Perl module to query ntp servers
+	
+net::ntp is a small perl module to query an ntp (network time protocol)
+time server for the current time.

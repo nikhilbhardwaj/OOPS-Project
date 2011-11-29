@@ -1,0 +1,8 @@
+Command line parsing library for ocaml
+	
+this package provides the getopt module that is an alternative to the
+arg module in the standard distribution.  getopt supports the general
+command line syntax of gnu getopt and getopt_long, but is close to the
+spirit of the arg module: the programmer gives to the general parsing
+function a list of possible options, together with the behavior of
+these options.

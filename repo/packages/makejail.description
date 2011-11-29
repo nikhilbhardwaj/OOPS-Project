@@ -1,0 +1,6 @@
+Automatically create chroot jails for programs
+	
+makejail helps an administrator to create and update a chroot jail
+using short configuration files. if not enough information is
+provided in these it will attempt to guess which files are required
+by the daemon and will install all of them in the jail.

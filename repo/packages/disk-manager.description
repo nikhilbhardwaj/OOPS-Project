@@ -1,0 +1,7 @@
+Simple graphical filesystem configurator
+	
+disk-manager is a simple filesystem configurator that allows you to:
+
+ * automatically detect new partitions at startup.
+ * fully manage configuration of filesystem.
+ * enable/disable write support for ntfs (needs ntfs-3g installed).

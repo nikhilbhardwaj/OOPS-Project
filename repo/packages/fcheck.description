@@ -1,0 +1,10 @@
+Ids filesystem baseline integrity checker
+	
+the fcheck utility is an ids (intrusion detection system)
+which can be used to monitor changes to any given filesystem.
+
+essentially, fcheck has the ability to monitor directories, files
+or complete filesystems for any additions, deletions, and modifications.
+it is configurable to exclude active log files, and can be run as often
+as needed from the command line or cron making it extremely difficult to
+circumvent.

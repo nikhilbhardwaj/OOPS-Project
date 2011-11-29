@@ -1,0 +1,27 @@
+Pop3 mail retriever - with gnome keyring support
+	
+mpop is a fast and simple fetchmail replacement to retrieve mail from pop3
+servers. its main features are header based mail filtering, multiple
+authentication methods, tls encrypted connections or delivery.
+
+there are a few things mpop can do that fetchmail can't or that it
+does better:
+
+ - mpop never ever tries to parse mail information except for the
+   envelope-from address, which is the bare minimum that it has to do.
+ - mpop never ever alters mail messages except for adding a "received"
+   header, which is the bare minimum that it has to do.
+ - mpop uses several techniques (including pipelining) to reduce the
+   pop3 protocol overhead. it is therefore much faster than fetchmail.
+ - by default, mpop stores the mail uids (unique ids) in one file per
+   account. you can poll different mail accounts in parallel.
+ - the progress output is nicer ;-)
+ - you can pipe the headers of a mail through a filter that decides if
+   the mail should be downloaded, skipped, or deleted. this allows to
+   delete junk mail from a pop3 server without downloading the entire
+   message.
+ - mpop can deliver mails directly to mbox and maildir mail folders.
+
+
+this package is compiled with gsasl and tls/ssl support, and additionally
+with gnome keyring support.

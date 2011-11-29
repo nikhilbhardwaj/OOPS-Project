@@ -1,0 +1,5 @@
+Xml based web service api to the musicbrainz database
+	
+this library provides a simple, object oriented access to the xml based
+musicbrainz web service. this library should be used in favour of
+libmusicbrainz-client-perl which will soon be obsolete.

@@ -1,0 +1,9 @@
+Module to change nature of data within a data structure
+	
+data::structure::util is a perl module for manipulating data within data
+structures. it can process an entire tree of data structures and perform the
+requested operation on each element as appropriate. it is fast, since it is
+written in c.
+
+for example, it can be used to transform all strings within a data structure
+to utf-8.

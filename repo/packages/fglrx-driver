@@ -1,0 +1,4 @@
+PackageId:4279
+Name:fglrx-driver
+Version:1:10-9-3
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,laptop-detect,libc6,libc6-udeb,libgcc1,libgl1-mesa-glx,libgl1,libgl1-mesa-swx11,fglrx-glx,libx11-6,libxext6,libxinerama1,libxrandr2,libxrender1,xorg-video-abi-6.0,xserver-xorg-core,xserver-xorg

@@ -1,0 +1,4 @@
+PackageId:280
+Name:ampache
+Version:3.5.4-9
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libapache2-mod-php5,php5-cgi,php5,libjs-prototype,libnusoap-php,libphp-snoopy,php5-auth-pam,php5-cli,php5-mysql,php5-xmlrpc,ttf-freefont

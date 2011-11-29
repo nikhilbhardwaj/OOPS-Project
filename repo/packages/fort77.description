@@ -1,0 +1,5 @@
+Invoke f2c like a real compiler
+	
+the  fort77  script invokes the f2c command transparently, so it can be
+used like a real fortran compiler.  it can be used to compile fortran,
+c and assembler code, and to link it with the f2c libraries.

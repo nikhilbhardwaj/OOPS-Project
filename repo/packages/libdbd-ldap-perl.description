@@ -1,0 +1,11 @@
+Perl extension for ldap access via an sql/perl dbi interface
+	
+dbd::ldap is a dbi extension module adding an sql database interface to
+standard ldap databases to perl's database-independent database interface.
+you will need access to an existing ldap database or set up your own using
+an ldap server, ie. "openldap", see (http://www.openldap.org).
+
+the main advantage of dbd::ldap is the ability to query ldap databases via
+standard sql queries in leu of cryptic ldap "filters".  ldap is optimized for
+quick lookup of existing data, but dbd::ldap does support entry inserts,
+updates, and deletes with commit/rollback via the standard sql commands!

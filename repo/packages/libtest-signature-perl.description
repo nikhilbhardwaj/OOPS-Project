@@ -1,0 +1,10 @@
+Perl module that provides automatic signature testing
+	
+"module::signature" allows you to verify that a distribution has not
+been tampered with. "test::signature" lets that be tested as part of the
+distribution's test suite.
+
+important: this is not a substitute for the users verifying the
+distribution themselves. by the time this module is run, the users will
+have already run your makefile.pl or build.pl scripts which could have
+been compromised.

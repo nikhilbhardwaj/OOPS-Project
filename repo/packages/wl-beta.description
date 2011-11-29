@@ -1,0 +1,32 @@
+Mail/news reader supporting imap for emacsen (development version)
+	
+wanderlust is a mail/news management system on emacsen.  it supports
+imap4rev1 (rfc2060), nntp, pop and local message files.
+
+the main features of wanderlust:
+
+
+ - pure elisp implementation.
+ - supports imap4rev1, nntp, pop (pop3/apop), mh and maildir format.
+ - unified access method to messages based on mew-like folder specification.
+ - mew-like key-bind and mark handling.
+ - manages unread messages.
+ - interactive thread display.
+ - folder mode shows the list of subscribed folders.
+ - message cache, disconnected operation.
+ - mh-like fcc. (fcc: %backup and fcc: $backup is allowed).
+ - mime compliant (by semi).
+ - transmission of news and mail are unified by message transmitting draft.
+ - graphical list of folders.
+ - view a part of message without retrieving the whole message (imap4).
+ - server-side message look up (imap4). multi-byte characters are allowed.
+ - virtual folders.
+ - supports compressed folder using common archiving utilities.
+ - old articles in folders are automatically removed/archived (expiration).
+ - automatic re-file.
+ - template function makes it convenient to send fixed form messages.
+
+
+this package provides a development snapshot version of wanderlust.
+to use a stable version of wanderlust, install the wl package instead
+of this package.

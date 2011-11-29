@@ -1,0 +1,9 @@
+Perl extension for checking validity of marc records
+	
+marc::lint is a perl module for checking the validity of marc records. most
+of the users will want to do something like is shown in the synopsis. other
+users may choose instead to overload marc::lint's methods and provide their
+own special field-level checking. if you have certain requirements, such as
+making sure that all 952 tags have a certain call number in them, you can
+write a function that checks for that, and still get all the benefits of the
+marc::lint framework.

@@ -1,0 +1,11 @@
+Collaborative development tool - gnu arch plugin
+	
+fusionforge provides many tools to aid collaboration in a
+development project, such as bug-tracking, task management,
+mailing-lists, scm repository, forums, support request helper,
+web/ftp hosting, release management, etc. all these services are
+integrated into one web site and managed through a web interface.
+
+this plugin contains the gnu arch subsystem of fusionforge. it allows
+each fusionforge project to have its own arch repository, and gives
+some control over it to the project's administrator.

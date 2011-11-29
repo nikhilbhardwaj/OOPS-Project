@@ -1,0 +1,16 @@
+Object oriented perl5 interface to network devices and mibs through snmp
+	
+snmp::info gives an object oriented interface to information obtained
+through snmp.
+
+the idea behind this module is to give a common interface to data
+from network devices, leaving the device-specific hacks behind the
+scenes in subclasses.
+
+the interface avoids use of oids in favour of methods representing
+leaf names, either for single values or tables represented as perl
+hashes.
+
+information is grouped more logically than in the mib trees. adding
+support for new devices is easy, and takes little or no snmp
+knowledge.

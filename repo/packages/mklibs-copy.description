@@ -1,0 +1,4 @@
+Shared library reduction script
+	
+mklibs-copy produces a minimal set of shared libraries that contain
+only the libs which are required by a particular set of executables.

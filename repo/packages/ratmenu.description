@@ -1,0 +1,12 @@
+Creates x menus from the shell
+	
+this is ratmenu, a simple program that allows you to create x menus from the
+shell.  although designed for ratpoison, it will work with any icccm compliant
+window manager.
+
+it was forked from 9menu version 1.5, to provide specific support
+for the ratpoison window manager.  where 9menu only responds to the mouse, and
+ignores the keyboard, ratmenu has all mouse sensitivity taken out, and only
+responds to the keyboard.  since then it has evolved nifty features and
+behaviors of its own.  the source code was also cleaned up and old cruft
+weeded out.

@@ -1,0 +1,15 @@
+Xine-based media player plugin for mozilla browsers
+	
+this is a very simple mozilla browser plugin which uses the xine engine to
+display multimedia streams.
+
+features:
+
+ - embedded display on browser window
+ - streaming playback directly from xine engine
+ - playback control using keyboard
+ - relative paths supported
+ - on screen display of buffering and stream information
+ - playlists and references support
+ - loop and repeat mode
+ - multiple instances within the same page

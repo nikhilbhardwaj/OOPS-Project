@@ -1,0 +1,12 @@
+Apache http server - traditional non-threaded model
+	
+each apache multi-processing module provides a different "flavor" of
+web server binary, compiled with a different processing model.
+
+the prefork mpm provides a non-threaded, pre-forking implementation
+that handles requests in a manner similar to apache 1.3. it is not as
+fast as threaded models, but is considered to be more stable. it is
+appropriate for sites that need to maintain compatibility with
+non-thread-safe libraries, and is the best mpm for isolating each
+request, so that a problem with a single request will not affect any
+other.

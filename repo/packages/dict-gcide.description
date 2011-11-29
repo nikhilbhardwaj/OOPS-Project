@@ -1,0 +1,16 @@
+A comprehensive english dictionary
+	
+this package contains the gnu version of the collaborative
+international dictionary of english, formatted for use by the
+dictionary server in the dictd package.  the gcide contains the
+full text of the 1913 webster's unabridged dictionary, supplemented by
+many definitions from wordnet, the century dictionary, 1906, and many
+additional definitions contributed by volunteers.
+
+the definitions in the core of this dictionary are at least 85 years
+old, so they can not be expected to be politically correct by
+contemporary standards, and no attempt has been, or will be, made to
+make them so.
+
+this package will be of limited use without the server found in the
+dictd package, or another rfc 2229 compliant server.

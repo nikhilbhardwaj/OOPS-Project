@@ -1,0 +1,5 @@
+Lists of internal perl keywords
+	
+the b::keywords perl module provides lists of internal keywords of the
+perl programming language. it can be used as an adjunct to the b perl
+module by programs that parse and analyze perl code.

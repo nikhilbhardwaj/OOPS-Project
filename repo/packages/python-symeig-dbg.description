@@ -1,0 +1,10 @@
+Symmetrical eigenvalue routines for numpy (debug symbols)
+	
+a python wrapper for the lapack functions to solve the standard and
+generalized eigenvalue problems for symmetric (hermitian) positive definite
+matrices. those specialized algorithms give an important speed-up with respect
+to the generic lapack eigenvalue problem solver used by numpy (linalg.eig and
+linalg.eigh).
+
+this is dummy transitional package -- please use scipy's scipy.linalg.eigh
+for symeig functionality.

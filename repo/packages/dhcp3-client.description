@@ -1,0 +1,17 @@
+Isc dhcp server (transitional package)
+	
+this is the client from the internet software consortium's implementation of
+dhcp. for more information visit http://www.isc.org.
+
+dynamic host configuration protocol (dhcp) is a protocol like bootp
+(actually dhcpd includes much of the functionality of bootpd). it
+gives client machines "leases" for ip addresses and can
+automatically set their network configuration. if your machine
+depends on dhcp (especially likely if it's a workstation on a large
+network, or a laptop, or attached to a cable modem), keep this or
+another dhcp client installed.
+
+this is a dummy package to aid in transitioning from the v3 dhcp packages
+to the new-style dhcp packages.
+
+this dummy package may be safely removed after upgrading to squeeze

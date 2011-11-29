@@ -1,0 +1,11 @@
+Squirrelmail plugin: auto-save messages while composing
+	
+this plugin automatically saves messages as they are being composed in order
+to prevent accidental loss of message content due to having browsed away from
+the compose screen or more serious problems such as browser or computer
+crashes. when a message appears to have been lost and is available for
+recovery, the user will be prompted about whether or not the recovery should
+proceed.
+
+squirrelmail is a standards-based webmail package written in php. it runs on
+top of any imap server.

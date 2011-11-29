@@ -1,0 +1,8 @@
+Control utility for bochs emulated sb16 card
+	
+you can use this utility to perform some query operations on
+the bochs emulated sb16 card. it needs to be installed in your
+debian-based guest os.
+
+the sb16ctrl utility contained in this package can only be used
+from inside the bochs emulator. do not try it on real hardware.

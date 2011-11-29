@@ -1,0 +1,7 @@
+Display a debian logo on a framebuffer device at boottime
+	
+this package contains a patch to the linux kernel that changes the default
+penguin logo displayed on a framebuffer device when booting into a debian
+swirl.
+
+it works with linux 2.2.20, and all 2.4 and 2.6 kernels.

@@ -1,0 +1,6 @@
+Symmetric approximate minimum degree library for sparse matrices
+	
+suitesparse is a collection of libraries for computations involving
+sparse matrices.  this package includes the following dynamic library:
+
+camd        symmetric approximate minimum degree

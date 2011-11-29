@@ -1,0 +1,5 @@
+Optimizations for evaluation of variational forms
+	
+ferari (finite element rearrangement to automatically reduce instructions)
+generates optimized code for evaluation of the element tensor (element
+stiffness matrix) and functions as an optimizing backend for ffc.

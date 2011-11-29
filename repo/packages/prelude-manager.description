@@ -1,0 +1,18 @@
+Security information management system [ manager ]
+	
+prelude is a universal "security information management" (sim) system.
+its goals are performance and modularity. it is divided in two main
+parts :
+
+ - the prelude sensors, responsible for generating alerts, such as
+   snort sensor, featuring a signature engine, plugins for
+   protocol analysis, and intrusion detection plugins, and the prelude
+   log monitoring lackey.
+ - the prelude report server, collecting data from prelude sensors,
+   and generating user-readable reports.
+
+
+this package provides the prelude manager, which is a high availability
+server that accepts secured connections from distributed sensors or
+other managers and saves received events to a media specified by the
+user (database, log files, mail, etc).

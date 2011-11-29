@@ -1,0 +1,6 @@
+Google's extremely memory-efficient c++ hash_map implementation
+	
+the google sparsehash project contains several c++ template hash-map
+implementations in use at google, with different performance
+characteristics, including an implementation that optimizes for space
+and one that optimizes for speed.

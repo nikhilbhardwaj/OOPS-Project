@@ -1,0 +1,10 @@
+A collection of snmp command line management tools
+	
+the scli package was written in order to have small and efficient command
+line utility to monitor and configure network devices and host systems. the
+scli package is based on the snmp management protocol and it utilizes a
+mib compiler called smidump to generate c stub code. in fact, virtually no
+snmp knowledge is required in order to extend the scli programs with new
+features.
+
+scli replaces the stools package

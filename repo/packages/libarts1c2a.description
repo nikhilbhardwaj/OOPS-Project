@@ -1,0 +1,13 @@
+Arts sound system core components
+	
+arts is a short form for "analog realtime synthesizer". arts is highly
+modular, creating and processing sound using small modules performing
+specific tasks. these may create a waveform (oscillators), play samples,
+filter data, add signals, perform effects like delay/flanger/chorus, or
+output the data to the soundcard.
+
+this package contains the arts sound system, its libraries and binaries,
+including the arts daemon, artsd.
+
+this package is part of kde, and a component of the kde arts module.
+see the 'kde' and 'arts' packages for more information.

@@ -1,0 +1,13 @@
+Convert postscript to eps (encapsulated postscript) files
+	
+ps2eps is a tool to produce encapsulated postscript files (eps/epsf)
+from usual one-paged postscript documents. it calculates correct
+bounding boxes for those eps files and filters some special
+postscript command sequences that can produce erroneous results on
+printers.  eps files are needed for including (scalable) graphics
+into tex (or even word) documents.  other programs like ps2epsi do
+not calculate the bounding box always correctly (because the values are
+put on the postscript stack which may get corrupted by bad postscript
+code) or rounded it off so that clipping the eps cut off some parts of
+the image. therefore ps2eps uses a resolution of 144 dpi to get the
+correct bounding box.

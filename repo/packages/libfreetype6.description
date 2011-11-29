@@ -1,0 +1,38 @@
+Freetype 2 font engine, shared library files
+	
+the freetype project is a team of volunteers who develop free,
+portable and high-quality software solutions for digital typography.
+they specifically target embedded systems and focus on bringing small,
+efficient and ubiquitous products.
+
+the freetype 2 library is their new software font engine.  it has been
+designed to provide the following important features:
+
+ * a universal and simple api to manage font files
+ * support for several font formats through loadable modules
+ * high-quality anti-aliasing
+ * high portability & performance
+
+
+supported font formats include:
+
+ * truetype files (.ttf) and collections (.ttc)
+ * type 1 font files both in ascii (.pfa) or binary (.pfb) format
+ * type 1 multiple master fonts.  the freetype 2 api also provides
+   routines to manage design instances easily
+ * type 1 cid-keyed fonts
+ * opentype/cff (.otf) fonts
+ * cff/type 2 fonts
+ * adobe cef fonts (.cef), used to embed fonts in svg documents with
+   the adobe svg viewer plugin.
+ * windows fnt/fon bitmap fonts
+
+
+this package contains the files needed to run programs that use the
+freetype 2 library.
+
+
+ home page: http://www.freetype.org/
+ authors: david turner   <david.turner@freetype.org>
+          robert wilhelm <robert.wilhelm@freetype.org>
+          werner lemberg <werner.lemberg@freetype.org>

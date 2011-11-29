@@ -1,0 +1,18 @@
+Transparent instant messaging proxy server
+	
+timps is an (optionally transparent) proxy server targeted at instant
+messaging networks -- particularly aol's instant messenger. one of the more
+important features is that when multiple users are connected through the
+proxy, messages between those users are kept in the local network and not
+routed across the internet. multiple proxies can be connected together to form
+trusted networks for secure message routing. the proxy can also be used for
+connecting artificial users, such as interactive agents / bots without rate
+limiting. more generically, modules can be written that interact at any stage
+of message routing, creating a flexible system for developing applications
+with and on im.
+
+since timps speaks the im protocols natively (ie, it looks like an im server),
+dns rerouting or other tricks can be used to invisibly force users through the
+proxy. this is particularly useful for companies facing auditing compliance on
+employee communications (for example, sarbanes-oxley for financial companies,
+or normal policy for law firms).

@@ -1,0 +1,103 @@
+Statistics collection and monitoring daemon (core system)
+	
+collectd is a small daemon which collects system information periodically and
+provides mechanisms to monitor and store the values in a variety of ways.
+since the daemon doesn't need to startup every time it wants to update the
+values it's very fast and easy on the system. also, the statistics are very
+fine grained since the files are updated every 10 seconds by default.
+
+the collected information can be used to find current performance bottlenecks
+(performance analysis) and predict future system load (capacity planning).
+
+this package contains the main program file and the plugins listed below (some
+of those plugins require additional libraries - for more details see
+/usr/share/doc/collectd-core/readme.debian.plugins) but no configuration. for
+a full installation (including configuration), see the "collectd" package.
+this package allows sites to, e.g., provide customizations (like a custom
+default configuration) on top of it without having to modify the "collectd"
+package.
+
+
+  * apache and lighttpd statistics provided by mod_status: apache
+  * apc ups's charge, load, input/output/battery voltage, etc.: apcups
+  * ascent server statistics: ascent
+  * battery status: battery
+  * bind9 name-server and zone statistics: bind
+  * connection tracking table size: conntrack
+  * number of context switches done by the operating system: contextswitch
+  * cpu utilization: cpu
+  * cpu frequency: cpufreq
+  * output to comma separated values (csv) files: csv
+  * parse statistics from websites: curl
+  * parse json files: curl_json
+  * parse xml data: curl_xml
+  * query data from a relational database: dbi
+  * disk space usage: df
+  * disk and partition throughput: disk
+  * dns traffic information: dns
+  * e-mail statistics (count, traffic, spam scores and checks): email
+  * amount of available entropy: entropy
+  * execution of external programs: exec
+  * count the number of files in directories: filecount
+  * linux file-system based caching framework statistics: fscache
+  * query data from java processes using jmx: genericjmx (java based plugin)
+  * receive and interpret ganglia multicast traffic: gmond
+  * harddisk temperature: hddtemp
+  * network traffic: interface
+  * ipmi sensors information: ipmi
+  * iptables statistics: iptables
+  * ipvs connection statistics: ipvs
+  * irq counters: irq
+  * embedded java virtual machine: java
+  * cpu, disk, network statistics of guest systems: libvirt
+  * system load averages: load
+  * logging to files, stdout and stderr: logfile
+  * atheros wireless lan chipset statistics: madwifi
+  * motherboard monitor: mbmon
+  * query and parse data from a memcache daemon: memcachec
+  * statistics of the memcached distributed caching system: memcached
+  * memory usage: memory
+  * statistics from mon.itor.us: monitorus (perl based plugin)
+  * multimeter statistics: multimeter
+  * mysql statistics provided by mysql's "show status" command: mysql
+  * detailed linux network interface and routing statistics: netlink
+  * io via the network: network
+  * nfs utilization: nfs
+  * nginx (a http and e-mail server/proxy) statistics: nginx
+  * send desktop notifications to a notification daemon: notify_desktop
+  * send notification e-mails: notify_email
+  * ntp daemon's local clock drift, offset to peers, etc.: ntpd
+  * ups information: nut
+  * optimized link state routing daemon statistics: olsrd
+  * openvpn traffic and compression statistics: openvpn
+  * openvz statistics: openvz (perl based plugin)
+  * embedded perl interpreter: perl
+  * timing values from pinba: pinba
+  * network latency statistics: ping
+  * postgresql database statistics: postgresql
+  * powerdns name server statistics: powerdns
+  * number of processes: processes
+  * information about network protocols: protocols
+  * embedded python interpreter: python
+  * write data via the rrd accelerator daemon: rrdcached
+  * output to rrd files: rrdtool
+  * lm_sensors information (e.g. cpu temperature, fan speeds): sensors
+  * serial port traffic: serial
+  * values from snmp enabled network devices: snmp
+  * swap usage: swap
+  * logging to syslog: syslog
+  * parse table-like structured files: table
+  * incremental parsing of logfiles: tail
+  * number of tcp connections to specific ports: tcpconns
+  * teamspeak2 server statistics: teamspeak2
+  * power consumption measurements from "the energy detective" (ted): ted
+  * linux acpi thermal zone information: thermal
+  * tokyo tyrant server statistics: tokyotyrant
+  * external runtime interface: unixsock
+  * system uptime: uptime
+  * number of users logged into the system: users
+  * set the hostname to an unique identifier: uuid
+  * detailed virtual memory statistics: vmem
+  * system resources used by linux-vservers: vserver
+  * wireless network stats: wireless
+  * send collected values to a web-server: write_http

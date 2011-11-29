@@ -1,0 +1,7 @@
+Create a temporary database from a dbix::class::schema
+	
+this module creates a temporary sqlite database, deploys your dbic
+schema, and then connects to it.  this lets you easily test your dbic
+schema.  since you have a fresh database for every test, you don't
+have to worry about cleaning up after your tests, ordering of tests
+affecting failure, etc.

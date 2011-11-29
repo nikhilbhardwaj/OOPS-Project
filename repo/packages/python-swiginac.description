@@ -1,0 +1,5 @@
+Python interface to ginac
+	
+swiginac is a python interface to ginac, built with swig. the aim of swiginac
+is to make all the functionality of ginac accessible from python as an
+extension module.

@@ -1,0 +1,22 @@
+The elf shell library
+	
+the elf shell library is the binary manipulation library of the elf
+shell. it contains primitives for static on-disk modifications and
+consultation of binary programs linked within the executable &
+linking format (elf) 32bits or 64bits.
+
+the main features of the elf shell library are :
+
+
+ * full api for all elf structures.
+ * et_rel injection into et_exec/et_dyn elf files.
+ * altgot redirection technique, for external functions redirections on risc
+   architectures.
+ * altplt redirection technique, for external functions redirections.
+ * cflow redirection technique, for internal functions redirections.
+ * extplt partial relinking technique, for adding unknown extern symbols to
+   the program.
+ * extstatic static file relinking technique.
+ * partial sht reconstruction technique.
+ * pax protection attributes access in rw mode.
+ * core files manipulation.

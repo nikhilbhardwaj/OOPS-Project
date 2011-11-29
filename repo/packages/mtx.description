@@ -1,0 +1,6 @@
+Controls tape autochangers
+	
+mtx can be used to manipulate tape auto-changers, also known as "jukeboxes",
+such that backup software can make use of the multiple tape capabilities of
+the auto-changer.  in particular, this is necessary glue for using a backup
+system like amanda with a dds auto-changer like the hp surestore 12000e.

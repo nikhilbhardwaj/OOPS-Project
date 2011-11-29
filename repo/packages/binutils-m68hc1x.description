@@ -1,0 +1,6 @@
+Binary utilities that support motorola's 68hc11/12 targets
+	
+the programs in this package are used to assemble, link and manipulate binary
+and object files for the motorola's 68hc11/12 architecture. this package is
+primarily for 68hc11/12 developers and cross-compilers and is not needed by
+normal users or developers.

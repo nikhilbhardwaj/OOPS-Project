@@ -1,0 +1,6 @@
+Java audio file tagger
+	
+entagged is a audiofile tagger, using the freedb online database for
+the retrieval of the tags. it supports custom file renaming from tags
+(with any directory stucture) and vice versa. supports: mp3, ogg,
+flac, mpc, ape, wma.

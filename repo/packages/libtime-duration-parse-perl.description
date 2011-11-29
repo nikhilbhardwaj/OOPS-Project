@@ -1,0 +1,6 @@
+Parse string that represents time duration
+	
+time::duration::parse is a module to parse human readable duration
+strings like 2 minutes and 3 seconds to seconds.
+
+parse_duration '6 minutes and 3 seconds' == 363 ;

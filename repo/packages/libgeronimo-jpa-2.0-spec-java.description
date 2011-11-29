@@ -1,0 +1,23 @@
+Geronimo jsr-317 java persistence (jpa) 2.0 spec api
+	
+the java persistence api is the java api for the management of persistence
+and object/relational mapping for java ee and java se environments.
+
+the goal of this specification is to provide an object/relational mapping
+facility for the java application developer using a java domain model
+to manage a relational database.
+
+persistence in this context covers three areas:
+
+ - the api itself, defined in the javax.persistence package.
+ - the java persistence query language (jpql).
+ - object/relational metadata.
+
+
+the java persistence 2.0 specification addresses improvements in the areas of
+domain modeling, object/relational mapping, entitymanager and query
+interfaces, and the java persistence query language. it adds an api for
+criteria queries, a metamodel api, and support for validation.
+
+this package contains only api of jsr-317 spec. apache openjpa and
+eclipselink are implementations of this spec.

@@ -1,0 +1,19 @@
+Multiplayer blast-the-others game inspired by dynablaster
+	
+xblast is a multi-player arcade game inspired by the video/computer game
+bomberman (dynablaster).
+
+features:
+
+  - 2 to 6 players
+  - 1 or 2 players per x-server (or up to 6 with joysticks)
+  - about 1000 levels
+  - about 20 player models
+  - pov-ray rendered color graphics
+  - central server support with statistics
+
+
+if you want to host games you need to install the xblast-tnt-levels package,
+and you might want to install xblast-tnt-sounds for sound support. the
+xblast-tnt-musics package contains background musics for the game, if you
+like.

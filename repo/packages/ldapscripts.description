@@ -1,0 +1,20 @@
+Add and remove user and groups (stored in a ldap directory)
+	
+ldapscripts are shell scripts that allow management of posix accounts (users,
+groups, machines) in a ldap directory.   they are similar to smbldap-tools
+but are written in shellscript, not perl.
+
+they only require openldap client commands (ldapadd, ldapdelete, ldapsearch,
+ldapmodify, ldappasswd) and make administrator's work a lot easier avoiding
+the need to configure perl and each library dependency (e.g. net::ldap).
+
+these scripts are very simple to configure by not requiring any samba-related
+information (sid, profiles, homes, ...) : management of samba attributes is
+entirely done by standard commands (net, smbpasswd et pdbedit) used together
+with the scripts.   moreover, most of the configuration is guessed from the
+one of libpam-ldap, and everything should work out from the box for most
+users.
+
+the scripts may be used independently - within command lines - or
+automatically by samba (like smbldap-tools), to handle posix information
+within accounts before adding samba information.

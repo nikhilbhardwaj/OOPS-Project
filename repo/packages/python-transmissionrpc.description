@@ -1,0 +1,8 @@
+Transmission rpc client module for python
+	
+transmissionrpc is a python module implementing the json-rpc client protocol
+for the bittorrent client transmission. all transmission features
+implemented up to version 1.61.
+
+also, package includes python script helical.py, with cli and interactive
+interfaces, which demonstrates transmissionrpc module usage.

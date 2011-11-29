@@ -1,0 +1,7 @@
+Main library for csound
+	
+this package contains the library which provides most of the csound
+functionality. this library was built using 64-bit precision for the
+calculations (this doesn't mean you need a 64-bit processor).
+
+for more information on csound, see the csound package.

@@ -1,0 +1,10 @@
+The old version of the fast lexical analyzer generator.
+	
+flex is a tool for generating scanners: programs which recognize lexical
+patterns in text. this is the old 2.5.4a version, which is no longer
+being developed. you should normally choose flex, unless you have
+legacy lexer files that do not work with a modern flex.
+
+this product includes software developed by the university of california,
+berkeley and its contributors. the upstream source code can be found at
+http://lex.sourceforge.net/

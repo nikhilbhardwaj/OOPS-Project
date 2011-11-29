@@ -1,0 +1,6 @@
+Perl module to allow role application at compile-time
+	
+moosex::compiletime::traits is a perl module that allows role application at
+compile time via use statements. what this class does is provide an import
+method that will apply each of the roles (along with any arguments for
+parameterized roles).

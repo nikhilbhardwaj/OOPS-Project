@@ -1,0 +1,8 @@
+Installer of mathematica fonts
+	
+this package downloads mathematica fonts through an internet
+and installs them, because the license prohibits distribution of
+the fonts.  note the fonts might be removed from a web site so it
+might happen that you failed to download the fonts.
+
+this package will install only afm, ttf and type1 at present.

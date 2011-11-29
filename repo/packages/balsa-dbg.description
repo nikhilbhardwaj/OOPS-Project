@@ -1,0 +1,8 @@
+An e-mail client for gnome
+	
+balsa is a highly configurable and robust mail client for the gnome desktop.
+it supports both pop3 and imap servers as well as the mbox, maildir and mh
+local mailbox formats. balsa also supports smtp and/or the use of a local mta
+such as sendmail.
+
+this package contains the debugging symbols for balsa.

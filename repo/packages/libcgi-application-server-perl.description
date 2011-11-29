@@ -1,0 +1,6 @@
+Simple http server for developing with cgi::application
+	
+cgi::application::server is a subclass of http::server::simple specialized
+for developing and testing cgi::application-based modules. you can give it
+the name of one or more cgi::application subclasses or preinitialized objects
+as entry points and it will serve them along with any static files.

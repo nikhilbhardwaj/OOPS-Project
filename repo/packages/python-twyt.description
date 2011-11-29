@@ -1,0 +1,8 @@
+Interface to twitter api functions for python
+	
+twyt provides an interface to the remote twitter api functions and classes
+to allow easy manipulation of the returned sets of data, such as twitter
+status messages and user information.
+
+this package also provides an example command line twitter client (twyt)
+which utilises the provided modules.

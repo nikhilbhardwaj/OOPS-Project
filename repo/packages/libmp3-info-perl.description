@@ -1,0 +1,9 @@
+Perl mp3::info - manipulate / fetch info from mp3 audio files
+	
+this perl library gives a set of function for manipulating info tags in mp3
+files and retrieving technical information from them.
+
+this package was formerly known as mpeg::mp3info and still has a wrapper
+for applications that refer to it using the old name.
+
+the debian package also provides a simple tool for editing mp3 tags - mp3id.

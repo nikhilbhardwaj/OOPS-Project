@@ -1,0 +1,5 @@
+Module source for broadcom's bcm5700 ethernet driver
+	
+this package provides the source code for the bcm5700 module provided
+by broadcom. you will need make-kpkg from kernel-package to be able to
+compile modules usable with a debian kernel.

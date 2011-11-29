@@ -1,0 +1,9 @@
+A "sticky" honeypot and ids
+	
+labrea takes over unused ip addresses, and creates virtual servers
+that are attractive to worms, crackers, and other denizens of the
+internet.
+
+the program answers connection attempts in such a way that the
+machine at the other end gets "stuck", sometimes for a very long
+time.

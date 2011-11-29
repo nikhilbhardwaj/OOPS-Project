@@ -1,0 +1,6 @@
+Gnome desktop environment bug reporting tool
+	
+the goal of bug-buddy is to make reporting bugs very simple and easy for users,
+while making the reports themselves more useful and informative for developers.
+it can extract debugging information from a core file or crashed application
+(via gnome_segv).

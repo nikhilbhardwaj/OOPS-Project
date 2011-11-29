@@ -1,0 +1,9 @@
+Perl dbi driver for informix
+	
+this is a database backend driver which allows the perl dbi to connect
+to informix database servers.
+
+you've got to have an informix client library installed on your system in
+order to use this module.  you can download one from www.informix.com
+(select "trials and demos", then "informix client software development
+kit (csdk)") for free, but it's not free software.

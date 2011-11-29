@@ -1,0 +1,13 @@
+Dssi soft synth interface
+	
+disposable soft synth interface (dssi).  a brief list of features:
+
+  - 4 oscillators, 2 filters, 3 lfos, and 5 envelope generators per voice.
+  - 10 oscillator modes minblep, wavecycle, asynchronous granular, three
+    fm modes, waveshaper, noise, padsynth, and phase distortion.
+  - 6 filter modes.
+  - flexible modulation and mixdown options.
+
+dssi is a plugin api for software instruments (soft synths) with user
+interfaces, permitting them to be hosted in-process by audio applications.
+more information on dssi can be found at: http://dssi.sourceforge.net/

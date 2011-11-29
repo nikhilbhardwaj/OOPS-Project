@@ -1,0 +1,10 @@
+Base package for the debian packages of system configurations
+	
+the base package for dpsyco. it makes it possible to create users and
+groups. it also contains some basic configuration files.
+
+warning! users with uid and gid between 500 and 999 will be automatically
+administrated by this tool. this means that if you do not have a admin
+package that set up users these users will be removed.
+groups with gid between 300 and 499 will be handled in the same way.
+you have been warned!

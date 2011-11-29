@@ -1,0 +1,16 @@
+General input interface x input target
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains input modules that make input sources available for
+use with libgii, the input library developed by the ggi project.
+
+input modules are included for these devices:
+
+
+ x            - keyboard and mouse input from a newly created x window
+ xwin         - keyboard, mouse and expose input from an existing x window
+
+
+usually, it is not necessary to specify which of these input devices you
+want to use; libggi normally finds an appropriate input device.

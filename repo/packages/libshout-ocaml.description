@@ -1,0 +1,9 @@
+Ocaml bindings for the shout library
+	
+this ocaml library interfaces the shout c library which can be used for
+communicating with and sending data to icecast and icecast 2 streaming
+audio servers (they currently support ogg vorbis and mp3 audio streams).
+it handles the socket connection, the timing of the data transmission,
+and prevents bad data from getting to the server.
+
+this package contains only the shared runtime stub libraries.

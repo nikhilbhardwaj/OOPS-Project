@@ -1,0 +1,11 @@
+Package dependency graphs on steroids
+	
+very powerful and versatile tool for generating dependency graphs showing the
+relationships between .deb packages.
+
+the graph is generated in the form of a .dot file that can be used as input
+for the utility 'dot' from the graphviz  package. what information is included
+in a graph can be varied using command line options.
+
+supported are: regular (forward) dependencies, reverse dependencies, showing
+installed packages, virtual packages, alternatives, and much more.

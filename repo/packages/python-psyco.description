@@ -1,0 +1,14 @@
+Python specializing compiler
+	
+psyco lets you run your existing python software much faster, with no
+change in your source.
+
+think of psyco as a kind of just-in-time (jit) compiler, a little bit
+like java's, that emit machine code on the fly instead of
+interpreting your python program step by step. the result is that
+your unmodified python programs run faster.
+
+the plan for the next release is to include a fast low-level
+interpreter that can be used on non-intel processors. it will finally
+make psyco portable -- although of course not as fast as it could
+possibly be if it could emit real machine code.

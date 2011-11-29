@@ -1,0 +1,7 @@
+Lash audio session handler (lash) development files
+	
+lash is a session management system for jack and alsa audio
+applications on gnu/linux.
+
+this package is needed if you want to compile applications that
+use the lash system for audio session management.

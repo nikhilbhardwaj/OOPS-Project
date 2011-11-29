@@ -1,0 +1,9 @@
+Data modelling tool and rdbms-oo mapper
+	
+alzabo is a suite of modules with two core functions. its first use is as a
+data modelling tool. through either a schema creation gui, a perl program, or
+reverse engineering, you can create a set objects to represent a schema.
+
+its second function is as an rdbms to object mapping system. once you have
+created a schema, you can use the alzabo::runtime::table and
+alzabo::runtime::row classes to access its data.

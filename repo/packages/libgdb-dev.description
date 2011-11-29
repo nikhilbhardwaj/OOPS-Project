@@ -1,0 +1,11 @@
+The gnu debugger (libgdb.a)
+	
+gdb is a source-level debugger, capable of breaking programs at
+any specific line, displaying variable values, and determining
+where errors occurred. currently, it works for c, c++, fortran
+modula 2 and java programs. a must-have for any serious
+programmer.
+
+this package contains libgdb.a, the bulk of gdb as a linkable
+library.  it is provided for an ide which links to libgdb.a.  please
+do not use libgdb.a for new projects.

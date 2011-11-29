@@ -1,0 +1,5 @@
+Gnome application that manages software updates
+	
+this is the gnome software update manager. it checks for updates made
+available by debian and third parties running debian package
+repositories, and lets the user choose which to install.

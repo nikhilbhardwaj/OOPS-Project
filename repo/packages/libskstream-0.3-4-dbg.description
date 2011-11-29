@@ -1,0 +1,11 @@
+Isostream c++ socket library - debugging libs
+	
+skstream implements an isostream c++ socket library. tcp- and udp-sockets are
+available as c++ classes.
+
+this package contains the unstripped shared libraries. it is provided primarily
+to provide a backtrace with names in a debugger, this makes it somewhat easier
+to interpret core dumps. the library is installed in /usr/lib/debug and can be
+used by placing the directory in ld_library_path.
+
+most people will not need this package.

@@ -1,0 +1,8 @@
+Gobject based disk utility library - development files
+	
+the gnome-disk-utility library provides an user-space interface to the
+udisks objects and properties (such as drives, volumes, smart data),
+and operations (such as mounting, unmounting, creating and checking
+partitions).
+
+this package contains files that are needed to build applications.

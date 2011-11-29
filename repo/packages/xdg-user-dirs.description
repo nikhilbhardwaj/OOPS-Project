@@ -1,0 +1,12 @@
+Tool to manage well known user directories
+	
+xdg-user-dirs is a tool to help manage "well known" user directories
+like the desktop folder and the music folder. it also handles
+localization (i.e. translation) of the filenames.
+
+the way it works is that xdg-user-dirs-update is run very early in the
+login phase. this program reads a configuration file, and a set of
+default directories. it then creates localized versions of these
+directories in the users home directory and sets up a config file in
+$(xdg_config_home)/user-dirs.dirs (xdg_config_home defaults to
+~/.config) that applications can read to find these directories.

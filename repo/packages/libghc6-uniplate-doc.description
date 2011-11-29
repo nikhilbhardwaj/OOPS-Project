@@ -1,0 +1,11 @@
+Documentation for uniform type generic traversals
+	
+
+the haskell uniplate library abstracts over common traversals and queries in a
+simple manner allowing the user to scrap their boilerplate code.
+
+a more complete document on the uniplate class was published at the haskell
+workshop 2007 (http://www-users.cs.york.ac.uk/~ndm/uniplate/),  along with a
+video presentation, and the associated thesis chapter.
+
+this package contains the library documentation.

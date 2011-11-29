@@ -1,0 +1,6 @@
+Generate your projects
+	
+gyp is a tool to generates native visual studio, xcode and scons and/or make
+build files from a platform-independent input format. its syntax is a universal
+cross-platform build representation that still allows sufficient per-platform
+flexibility to accommodate irreconcilable differences

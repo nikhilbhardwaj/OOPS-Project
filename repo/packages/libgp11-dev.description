@@ -1,0 +1,7 @@
+Glib wrapper library for pkcs#11 - development
+	
+gp11 is a wrapper based on glib implementing the pkcs#11 (cryptoki)
+interface.
+
+this package contains the static libraries, header files and
+documentation needed to build applications using the gp11 library.

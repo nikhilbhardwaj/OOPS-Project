@@ -1,0 +1,21 @@
+Creating and reading constant databases
+	
+freecdb is a fast, reliable, simple package for creating and reading
+constant databases. its database structure provides several features:
+
+
+ * fast lookups: a successful lookup in a large database normally takes
+   just two disk accesses.  an unsuccessful lookup takes only one.
+ * low overhead: a database uses 2048 bytes, plus 24 bytes per record,
+   plus the space for keys and data.
+ * no random limits: cdb can handle any database up to 4 gigabytes.
+   there are no other restrictions; records don't even have to fit into
+   memory.  databases are stored in a machine-independent format.
+ * fast atomic database replacement: cdbmake can rewrite an entire
+   database two orders of magnitude faster than other hashing packages.
+ * fast database dumps: cdbdump prints the contents of a database in
+   cdbmake-compatible format.
+
+
+this package is derived from the cdb package, and uses the original
+cdb library.  see http://cr.yp.to/cdb.html

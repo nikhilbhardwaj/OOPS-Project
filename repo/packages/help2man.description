@@ -1,0 +1,8 @@
+Automatic manpage generator
+	
+program to create simple man pages from the --help and
+--version output of other programs.
+
+since most gnu documentation is now in info format, this provides a
+way to generate a placeholder man page pointing to that resource while
+still providing some useful information.

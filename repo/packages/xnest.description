@@ -1,0 +1,13 @@
+Nested x server
+	
+xnest is a nested x server that simply relays all its requests to another
+x server, where it runs as a client.  this means that it appears as another
+window in your current x session.  xnest relies upon its parent x server
+for font services.
+
+use of the xephyr x server instead of xnest is recommended.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xserver module.

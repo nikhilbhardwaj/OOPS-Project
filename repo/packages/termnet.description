@@ -1,0 +1,7 @@
+Simple telnet replacement for termnetd
+	
+this package is a simple telnet replacement. it does
+not  implement the complete telnet protocol, but
+does provide a few nifty  features  of  its  own,
+especially when used with the termnetd terminal server
+daemon.

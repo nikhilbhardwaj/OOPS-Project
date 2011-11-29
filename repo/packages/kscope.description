@@ -1,0 +1,32 @@
+Source browsing and editing environment
+	
+kscope is a graphical front-end to cscope. it provides a source browsing and
+editing environment for large c projects. kscope is focused on source editing
+and analysis.
+
+kscope is built around an efficient mechanism for code-navigation, which
+allows the user to run queries on the code.
+
+the types of queries kscope can run include:
+
+  * get all references to a symbol
+  * find the definition of a symbol
+  * find all functions called by or calling to a function
+  * find an egrep pattern
+  * find all files #including some file
+
+
+these queries are handled by an underlying cscope process. kscope simply
+serves as a front-end to this process, feeding it with queries, and parsing
+its output into result lists. the items in those lists can later be selected
+to open an editor at the matching line.
+
+main features:
+
+ * multiple editor windows (using your favourite editor)
+ * project management
+ * front-end to most cscope queries
+ * tag list for every open editor
+ * call-tree window
+ * session management, including saving and restoring queries
+ * works with externally-built cscope.out files

@@ -1,0 +1,7 @@
+Perl extension for reading and writting scf sequence files
+	
+the perl scf (standard chromatogram format) module allows you to read and
+update (in a restricted way) scf chromatographic sequence files. it is an
+interface to roger staden's io-lib. it has both tied hash and an
+object-oriented interfaces. it provides the ability to read fields from scf
+files and limited ability to modify them and write them back.

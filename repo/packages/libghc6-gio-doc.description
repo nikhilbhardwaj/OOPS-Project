@@ -1,0 +1,12 @@
+Binding to the gio; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+gio is striving to provide a modern, easy-to-use vfs api that sits at the
+right level in the library stack. the goal is to overcome the shortcomings of
+gnomevfs and provide an api that is so good that developers prefer it over raw
+posix calls. among other things that means using gobject. it also means not
+cloning the posix api, but providing higher-level, document-centric
+interfaces.

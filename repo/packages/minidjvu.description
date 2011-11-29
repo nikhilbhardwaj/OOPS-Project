@@ -1,0 +1,6 @@
+Monochrome djvu multipage encoder, single page encoder/decoder
+	
+minidjvu is a multipage djvu encoder and single page encoder/decoder.
+no colors or grayscale, just black and white.
+in addition to the djvu format, minidjvu reads and writes
+pbm, windows bmp, and tiff.

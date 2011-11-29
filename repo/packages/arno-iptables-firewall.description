@@ -1,0 +1,11 @@
+Single- and multi-homed firewall script with dsl/adsl support
+	
+unlike other lean iptables frontends in debian, arno-iptables-firewall
+will setup and load a secure, restrictive firewall by just asking a few
+question. this includes configuring internal networks for internet access
+via nat and potential network services (e.g. http or ssh).
+
+however, it is in no way restricted to this simple setup. some catch words
+of additional features, that can be enabled in the well documented
+configuration file are: dsl/adsl, port forwarding, dmz's,
+portscan detection, mac address filtering.

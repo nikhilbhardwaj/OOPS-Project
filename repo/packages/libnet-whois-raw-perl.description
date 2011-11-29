@@ -1,0 +1,5 @@
+Perl module providing an api to access whois database
+	
+net::whois::raw returns raw unparsed whois information.
+it follows references to other registrars by network solutions. it uses
+the <tld>.whois-servers.net notion.

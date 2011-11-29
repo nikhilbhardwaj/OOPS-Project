@@ -1,0 +1,6 @@
+System tray for kde3/gnome2 docklet applications
+	
+docker is a docking application (windowmaker dock app) which acts as a system
+tray for any desktop environment, allowing you to have a system tray without
+running the kde/gnome panel docker was designed to work with openbox 2, but it
+should work fine in any window manager.

@@ -1,0 +1,5 @@
+Pam module for authentication with removable usb block devices
+	
+pam_usb provides hardware authentication for linux using ordinary usb
+flash drives. it works with any application supporting pam, such as su,
+any login manager (gdm, kdm), etc.

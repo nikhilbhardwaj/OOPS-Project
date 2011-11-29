@@ -1,0 +1,7 @@
+Perl module to parse and format strp and strf time patterns
+	
+datetime::format::strptime implements most of strptime(3), the posix
+function that is the reverse of strftime(3), for datetime. while strftime
+takes a datetime and a pattern and returns a string, strptime takes
+a string and a pattern and returns the datetime object
+associated.

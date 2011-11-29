@@ -1,0 +1,11 @@
+X509 certification authority management tool for gnome
+	
+gnomint is a tool for easily creating and managing certification authorities.
+it provides fancy visualization of all the pieces of information that pertain
+to a ca, such as x509 certificates, csrs, and crls.
+
+gnomint is currently capable of managing a ca that emits certificates that are
+able to authenticate people or machines in vpns (ipsec or other protocols),
+secure http communications with ssl/tls, authenticate and cipher http
+communications through web-client certificates, and sign or crypt email
+messages.

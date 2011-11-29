@@ -1,0 +1,11 @@
+Fast light toolkit - shared libraries with debugging symbols
+	
+this package is useful to provide a backtrace with symbol names in a
+debugger; this facilitates interpretation of core dumps, and aids in finding
+logic errors in programs using the libraries (or in the
+libraries themselves).
+
+non-programmers will likely have little use for this.
+
+the fast light toolkit (fltk) is a cross-platform graphical user interface
+toolkit originally based on libforms.

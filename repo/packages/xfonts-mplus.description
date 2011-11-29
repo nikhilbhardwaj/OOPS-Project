@@ -1,0 +1,15 @@
+M+ bitmap 10/12 dot latin/japanese fonts for x11
+	
+m+ bitmap fonts were designed to be simple and highly readable.  it
+includes iso-8859-1,15 (6/10/12 dot) fonts and all japanese jisx0208.1990
+kanji fonts (10/12 dot) as following:
+
+
+ - mplus-gothic: m+ gothic fonts               (10/12dot, iso-8859-1/japanese)
+ - mplus-goth_p: it's similar to mplus-gothic, but its latin character part
+                 is proportional fonts         (10/12dot, iso-8859-1/japanese)
+ - mplus-fxd: yet another "fixed" fonts        (10/12dot, iso-8859-1/15)
+ - mplus-hlv: yet another "helvetica" fonts    (10/12dot, iso-8859-1/15)
+ - mplus-hlvw: 1 dot wide fonts than mplus-hlv (   12dot, iso-8859-1/15)
+ - mplus-sys: for window title/menu            (10dot,    iso-8859-1/15)
+ - mplus-qub: 6 dot very small font            (6dot,     iso-8859-1/15)

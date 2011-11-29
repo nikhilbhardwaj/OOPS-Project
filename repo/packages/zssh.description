@@ -1,0 +1,12 @@
+Interactive file transfers over ssh
+	
+zssh (zmodem ssh) is a program for interactively transferring files to a
+remote machine  while using  the secure  shell (ssh).  it is intended to
+be a convenient  alternative to scp, allowing to  transfer files without
+having to open another session and re-authenticate oneself.
+
+files are transferred through the zmodem  protocol,  using the rz and sz
+commands.
+
+
+ homepage: http://zssh.sourceforge.net/

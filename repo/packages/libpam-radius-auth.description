@@ -1,0 +1,6 @@
+The pam radius authentication module
+	
+this is the pam to radius authentication module. it allows any pam-capable
+machine to become a radius client for authentication and accounting
+requests. you will, however, need to supply your own radius server to
+perform the actual authentication

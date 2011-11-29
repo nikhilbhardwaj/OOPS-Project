@@ -1,0 +1,16 @@
+Carnegie mellon university's link grammar parser (lithuanian dictionary)
+	
+in selator, d. and temperly, d. "parsing english with a link grammar"
+(1991), the authors defined a new formal grammatical system called a
+"link grammar". a sequence of words is in the language of a link
+grammar if there is a way to draw "links" between words in such a way
+that the local requirements of each word are satisfied, the links do
+not cross, and the words form a connected graph. the authors encoded
+english grammar into such a system, and wrote this program to parse
+english using this grammar.
+
+link-grammar can be used for linguistic parsing for information
+retrieval or extraction from natural language documents. it can also be
+used as a grammar checker.
+
+this package contains the lithuanian dictionaries.

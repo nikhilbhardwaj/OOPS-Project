@@ -1,0 +1,10 @@
+Library to launch java applications as daemons
+	
+the daemon package from apache commons can be used to implement java
+applications which can be launched as daemons. for example the
+program will be notified about a shutdown so that it can perform
+cleanup tasks before its process of execution is destroyed by the
+operation system.
+
+this package contains the java library. you will also need the actual
+binary for your architecture which is provided by the jsvc package.

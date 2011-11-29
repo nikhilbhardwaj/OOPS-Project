@@ -1,0 +1,13 @@
+Tex live: luatex packages
+	
+packages for luatex, a unicode-aware extension of pdftex, using lua  as an
+
+  embedded scripting and extension language. http://luatex.org/
+
+
+this package includes the following ctan packages:
+
+ luainputenc -- replacing inputenc for use in luatex.
+ luamplib -- use luatex's built-in metapost interpreter.
+ luaotfload -- context otf loading system for plain and latex.
+ luatextra -- additional macros for plain tex and latex in luatex.

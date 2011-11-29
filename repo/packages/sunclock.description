@@ -1,0 +1,11 @@
+Fancy clock showing time and geographical data
+	
+sunclock is an x11 application that displays a map of the earth and
+indicates the illuminated portion of the globe by drawing sunlit
+areas dark on light, night areas as light on dark.  in addition to
+providing local time for the default timezone, it also displays gmt
+time, legal and solar time of major cities, their latitude and
+longitude, and the mutual distances of arbitrary locations on earth.
+sunclock can display meridians, parallels, tropics and arctic
+circles.  it has builtin functions that accelerate the speed of time
+and show the evolution of seasons.

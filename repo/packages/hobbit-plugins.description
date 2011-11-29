@@ -1,0 +1,28 @@
+Plugins for the xymon network monitor
+	
+this package provides plugins for the xymon network monitor. (formerly called
+hobbit.)
+
+included client plugins:
+
+ * apt - check for outstanding updates
+ * entropy - check kernel entropy pool size
+ * ipmi - read ipmi sensors and event log
+ * libs - check for running processes with upgraded libraries
+ * mdstat - check for failed or resyncing raid devices
+ * misc - meta plugin for running series of scripts
+ * ntpq - check the ntpd daemon synchronization status
+ * postgres - statistics graphs for postgresql databases
+
+
+included server plugins:
+
+ * aptdiff - monitor list of installed packages in host pools
+ * conn6 - check ipv6 connectivity
+ * ircbot - relay status changes to irc
+
+
+helper software:
+
+ * hobbit.pm: perl module for writing plugins
+ * xynagios: adaptor for running nagios plugins with xymon

@@ -1,0 +1,11 @@
+Yaml and yaml::syck support for cgi::session's serializers
+	
+cgi::session::serialize::yaml can be used by cgi::session to serialize
+session data. it uses yaml, or the faster c implementation, yaml::syck if it
+is available. yaml serializers exist not just for perl but also other dynamic
+languages, such as php, python, and ruby, so storing session data in this
+format makes it easy to share session data across different languages.
+
+yaml is made to be friendly for humans to parse as well as other computer
+languages. it creates a format that is easier to read than the default
+serializer.

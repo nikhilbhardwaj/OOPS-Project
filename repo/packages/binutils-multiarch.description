@@ -1,0 +1,9 @@
+Binary utilities that support multi-arch targets
+	
+the programs in this package are used to manipulate binary and object
+files that may have been created on other architectures.  this package
+is primarily for multi-architecture developers and cross-compilers and
+is not needed by normal users or developers.  note that a cross-assembling
+version of gas is not included in this package, just the binary utilities.
+normal users should not install this package.  it's meant only for those
+requiring support for reading info from binaries from other architectures.

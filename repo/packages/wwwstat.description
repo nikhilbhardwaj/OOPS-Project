@@ -1,0 +1,9 @@
+Httpd logfile analysis package
+	
+wwwstat processes a sequence of httpd common logfile format access_log
+files and prior summary outputs, and then outputs a summary of
+the access statistics in a nice html format.
+
+splitlog processes a sequence of httpd common logfile format access_log
+files (or clf with a one-field prefix) and splits the entries into
+separate files according to the requested url and/or vhost prefix.

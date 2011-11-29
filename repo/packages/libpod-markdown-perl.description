@@ -1,0 +1,12 @@
+Module to convert pod to the markdown file format
+	
+pod::markdown is a perl module that parses plain old documentation (pod) and
+converts it into the markdown text format. it subclasses pod::parser, so it
+supports all of its commands, too.
+
+markdown is a markup language to convert structured text into (x)html. its
+main design goal is to make the input text as readable as possible. for this,
+the syntax is highly inspired by the format of plain text email. markdown
+supports features like headers, *emphasis*, code blocks, blockquotes and
+links. for maximum flexibility, it also allows embedding html tags, both
+within paragraphs (eg. <span>), and at block level (<div>, <table>).

@@ -1,0 +1,22 @@
+Python wrapper for sesame's rest http api
+	
+sesame is an open source rdf schema-based storage and querying
+facility.
+
+now you can easily do the following from your python script:
+
+
+ * log in
+ * log out
+ * request a list of available repositories
+ * evaluate a serql-select, rql or rdql query
+ * evaluate a serql-construct query
+ * extract rdf from a repository
+ * uploading data to a repository
+ * add data from the web to a repository
+ * clear a repository
+ * remove statements
+
+
+
+ homepage: http://pysesame.projects.semwebcentral.org/

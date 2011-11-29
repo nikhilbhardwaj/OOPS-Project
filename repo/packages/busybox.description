@@ -1,0 +1,14 @@
+Tiny utilities for small and embedded systems
+	
+busybox combines tiny versions of many common unix utilities into a single
+small executable. it provides minimalist replacements for the most common
+utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+mount, tar, etc.). the utilities in busybox generally have fewer options than
+their full-featured gnu cousins; however, the options that are included
+provide the expected functionality and behave very much like their gnu
+counterparts.
+
+this package installs the busybox binary but does not install
+symlinks for any of the supported utilities. some of the utilities
+can be used in the system by installing the busybox-syslogd,
+busybox-udhcpc or busybox-udhcpd packages.

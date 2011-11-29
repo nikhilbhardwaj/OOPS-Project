@@ -1,0 +1,21 @@
+Debian documentation for newbies by newbies (and
+	
+not-so-newbies). this is a snapshot of the documentation currently
+being developed by the debian newbiedoc project. see
+http://newbiedoc.berlios.de for the most recent versions, or
+if you wish to contribute eg by writing or editing articles.
+
+current release includes:
+
+   * help installing debian gnu/linux
+   * help installing software in debian gnu/linux
+   * help managing a debian system
+   * help with network and internet
+   * help with multimedia in debian
+   * help with printing
+   * help with programming
+
+
+the documentation will be installed in /usr/share/doc/newbiedoc,
+and newbiedoc(1) is a script that starts a browser on the
+newbiedoc collection.

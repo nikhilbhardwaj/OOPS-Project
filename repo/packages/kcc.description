@@ -1,0 +1,7 @@
+Kanji code filter
+	
+kcc can converts various japanese encodings such as euc-jp,
+7bitjis, 8bitjis and shiftjis with half-width kana supports.
+kcc can detect these encoding automatically as much as possible.
+
+sponsored by fumitoshi ukai <ukai@debian.or.jp>

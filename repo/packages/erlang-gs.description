@@ -1,0 +1,6 @@
+Erlang/otp graphics system
+	
+the graphics system application, gs, is a library of routines for
+writing graphical user interfaces. programs written using gs work
+on all erlang platforms and do not depend upon the underlying
+windowing system. it uses tk widgets for visualization.

@@ -1,0 +1,11 @@
+Ui interface library which separates design from logic
+	
+qedje extends the qt toolkit with the flexibility of the edje
+declarative language.
+
+edje is a declarative language that simplifies the development of
+complex interfaces separating the ui design from the application
+logic, by providing animations, layouts and simple scripts in a very
+small memory footprint.
+
+this package contains the development header files.

@@ -1,0 +1,9 @@
+Extensible open router platform
+	
+xorp is the extensible open router platform. it implements a number of
+routing protocols for ipv4 and ipv6 and a unified means to configure them. it
+is stable and fully featured enough for production use, and flexible and
+extensible enough to enable network research.
+
+the following network protocols are currently
+supported: bgp, ospf, rip/ripng, igmp/mld and pim-sm.

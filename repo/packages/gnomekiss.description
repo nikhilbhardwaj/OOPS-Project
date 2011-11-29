@@ -1,0 +1,10 @@
+A kiss paper doll viewer for gnome
+	
+gnomekiss is an implementation of french-kiss for the gnome desktop
+environment, using gnome, gtk+ and the x window system. french kiss is an
+enhanced kiss/gs for scriptable dolls, where kiss is an abbreviation for
+kisekae set system.
+
+cherry kiss and enhanced palette are supported, with full alpha transparency
+and fkiss.  if you want to open any lzh paperdoll files you have to install
+the package lha from non-free as well.

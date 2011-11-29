@@ -1,0 +1,6 @@
+System logging daemon
+	
+this package implements the system log daemon, which is an enhanced
+version of the standard berkeley utility program. it is responsible
+for providing logging of messages received from programs and facilities
+on the local host as well as from remote hosts.

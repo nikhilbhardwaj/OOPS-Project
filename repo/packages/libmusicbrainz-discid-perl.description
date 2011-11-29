@@ -1,0 +1,6 @@
+Perl interface to the musicbrainz libdiscid library
+	
+musicbrainz::discid is a perl interface to the musicbrainz libdiscid library.
+it is useful for calculating a musicbrainz discid from an audio compact disc
+in the drive. the coding style differs slightly from the c library as this
+module supports perl's object-oriented programming features.

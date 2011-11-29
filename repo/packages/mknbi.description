@@ -1,0 +1,11 @@
+Create tagged images for etherboot or netboot
+	
+with mknbi you can create tagged images for etherboot. tagged images are data
+files, which contain the necessary files for booting up (kernel+root for
+linux, kernel+minifs for dos, ...) bundled together with a special format.
+
+these tagged images are downloaded and understood by etherboot and netboot
+during the boot process.
+
+this package should be used on the server and not on the client. it doesn't
+contain code which handles the network card, downloads the image, etc.

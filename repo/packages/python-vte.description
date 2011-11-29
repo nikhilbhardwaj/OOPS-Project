@@ -1,0 +1,8 @@
+Python bindings for the vte widget set
+	
+the vte library inserts terminal capability strings into a trie, and then
+uses it to determine if data received from a pseudo-terminal is a control
+sequence or just random data. the sample program "interpret" illustrates
+more or less what the widget sees after it filters incoming data.
+
+this package contains the python bindings for the vte library.

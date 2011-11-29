@@ -1,0 +1,9 @@
+Ocaml interpreter and standard libraries
+	
+objective (ocaml) is an implementation of the ml language, based on
+the caml light dialect extended with a complete class-based object system
+and a powerful module system in the style of standard ml.
+
+this package contains several modules used internally by the ocaml
+compilers.  they are not needed for normal ocaml development, but may
+be helpful in the development of certain applications.

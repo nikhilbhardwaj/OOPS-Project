@@ -1,0 +1,7 @@
+Battery monitor plugin for the xfce4 panel
+	
+a battery monitor panel plugin for xfce4, compatible with apm and acpi, using
+either /proc files or the new sysfs files for recent kernels.  you can use this
+applet to monitor your battery level and be notified when your battery reaches
+low and critcal levels. the applet can even be programmed to execute a command
+on low and critcal levels.

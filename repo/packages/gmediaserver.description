@@ -1,0 +1,6 @@
+Upnp mediaserver
+	
+gmediaserver is a server for upnp media players like the netgear mp101,
+linksys wmls11b etc. it exports one or more directories using the upnp
+protocol so the mediaserver can browse through them and play audio or
+video files.

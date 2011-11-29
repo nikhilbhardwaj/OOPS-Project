@@ -1,0 +1,7 @@
+Audio extraction tool for sampling cds (debug)
+	
+an audio extraction tool for sampling cds. unlike similar programs such as
+cdda2wav, cdparanoia goes to great lengths to try to extract the audio
+information without any artifacts such as jitter.
+
+this package contains the debugging symbols.

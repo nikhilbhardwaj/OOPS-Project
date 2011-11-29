@@ -1,0 +1,12 @@
+Simple net authentication
+	
+this package allow to use net authentication methods.
+
+it supports:
+
+ * simple ftp authentication,
+ * simple pop3 authentication,
+ * simple smtp authentication.
+
+
+it uses the libauthen-simple-perl framework.

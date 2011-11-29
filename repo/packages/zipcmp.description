@@ -1,0 +1,5 @@
+Compare contents of zip archives
+	
+zipcmp compares two zip archives and checks if they contain the same files,
+comparing their names, uncompressed sizes, and crcs. file order and compressed
+size differences are ignored.

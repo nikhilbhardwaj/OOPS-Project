@@ -1,0 +1,7 @@
+Tryton application platform (modules metapackage)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this package is a metapackage depending on all available tryton modules.

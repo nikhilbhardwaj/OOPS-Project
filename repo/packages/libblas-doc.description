@@ -1,0 +1,11 @@
+Basic linear algebra subroutines 3, documentation
+	
+blas (basic linear algebra subroutines) is a set of efficient
+routines for most of the basic vector and matrix operations.
+they are widely used as the basis for other high quality linear
+algebra software, for example lapack and linpack.  this
+implementation is the fortran 77 reference implementation found
+at netlib.
+
+this package contains manual pages for the routines, and other
+supporting documentation

@@ -1,0 +1,7 @@
+Lalr parser generator for java(tm)
+	
+cup is the "constructor of useful parsers", a system for generating
+parsers from simple lalr specifications.  it serves the same role as the
+widely used program yacc and in fact offers most of the features of yacc.
+however, cup is written in java, uses specifications including embedded
+java code, and produces parsers which are implemented in java.

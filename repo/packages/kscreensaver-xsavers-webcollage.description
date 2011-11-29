@@ -1,0 +1,14 @@
+Webcollage screensaver support for kscreensaver
+	
+this package allows kscreensaver to use the webcollage screensaver, which downloads
+random pictures from the internet to create a collage.
+
+important notice: the internet contains all kinds of pictures, some of which
+might be found inappropriate or offensive.
+it is recommended that this screensaver not be used a public environment,
+workplace, or where it may be seen by children.
+
+please read /usr/share/doc/kscreensaver-xsavers-webcollage/readme.debian
+after installing this package.
+
+this package is part of the kde artwork module.

@@ -1,0 +1,6 @@
+Client for the xymon network monitor
+	
+client data collection package for xymon (previously known as hobbit).
+this gathers statistics and data from a single system and reports it to
+the xymon monitor. you should run this on all systems if you have a
+xymon server installed.

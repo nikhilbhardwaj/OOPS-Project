@@ -1,0 +1,23 @@
+Utility to generate self-extractable archives
+	
+makeself is a small shell script that generates a self-extractable
+archive from a directory. the resulting file appears as a shell script
+(many of those have a .run suffix), and can be launched as is. the
+archive will then uncompress itself to a temporary directory and an
+optional arbitrary command will be executed (for example an installation
+script). this is pretty similar to archives generated with winzip
+self-extractor in the windows world. makeself archives also include
+checksums for integrity self-validation (crc and/or md5 checksums).
+
+the makeself script itself is used only to create the archives from a
+directory of files. the resultant archive is actually a compressed
+(using gzip, bzip2, or compress) tar archive, with a small shell script
+stub at the beginning. this small stub performs all the steps of
+extracting the files, running the embedded command, and removing the
+temporary files when it's all over. all what the user has to do to
+install the software contained in such an archive is to "run" the
+archive, i.e. sh nice-software.run. i recommend using the "run" (which
+was introduced by some makeself archives released by loki software) or
+"sh" suffix for such archives not to confuse the users, since they
+actually are shell scripts (with quite a lot of binary data attached
+to it though!).

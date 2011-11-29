@@ -1,0 +1,8 @@
+Ruby bindings for the gnu scientific library (gsl) (dummy package)
+	
+the gnu scientific library (gsl) is a collection of data types and
+routines for numerical computing. ruby/gsl is an interface to the gnu
+scientific library for the ruby programming language.
+
+this package is a dependency package, which depends on debian's default ruby
+version (currently 1.8.x).

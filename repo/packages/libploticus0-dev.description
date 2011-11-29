@@ -1,0 +1,9 @@
+Development files for the ploticus library
+	
+libploticus is not a function or mathematical plotting package like
+gnuplot, nor would it be a good choice for applications where
+mathematical formulas or scientific notations are to be rendered
+as an integral part of the data display.  libploticus is also not
+intended as a "marketing" graphics package.  its goal is to
+display data crisply without extra decoration and distracting
+"dingbats" that cloud the picture.

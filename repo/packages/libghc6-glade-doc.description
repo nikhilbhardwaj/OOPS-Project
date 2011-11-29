@@ -1,0 +1,9 @@
+Binding to the glade library; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library allows to load externally stored user interfaces into
+programs. this allows alteration of the interface without recompilation of the
+program.

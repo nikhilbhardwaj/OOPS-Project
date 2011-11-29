@@ -1,0 +1,12 @@
+Perl module to produce doctype-based xml output
+	
+xml::autowriter provides a framework for producing doctype-based xml output.
+it provides several convenient ways to work with these files. xml::doctype
+parses document type definitions (dtds) and allows them to be saved as perl
+module (.pm) files and loaded whenever necessary. in this way, you can package
+your dtds with xml tools so that xml::parser (libxml-parser-perl) need not be
+installed. xml::validwriter uses the xml::doctype to enable compile- and run-
+time checks of xml output validity. xml::autowriter provides similar features
+to xml::validwriter, but also provides automatic start and end tag generation.
+together, all of these modules facilitate a powerful and minimalistic method
+of working with xml files.

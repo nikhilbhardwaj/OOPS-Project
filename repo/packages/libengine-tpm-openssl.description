@@ -1,0 +1,8 @@
+Openssl engine for tpm modules
+	
+with this engine for openssl you can use openssl library and command line tools
+with your tpm hardware as backend for the crypto operations.
+
+tpm hardware can create, store and use rsa keys securely (without ever being
+exposed in memory), verify a platform's software state using cryptographic
+hashes and more.

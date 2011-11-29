@@ -1,0 +1,7 @@
+Validating xml parser library for c++ (compiled samples)
+	
+xerces-c++ is a validating xml parser written in a portable subset of
+c++.  this package contains compiled versions of the samples.  you
+probably don't want this package, but it can be useful if you are
+trying to reproduce a problem before reporting a bug that will be
+easy for the xerces developers to reproduce.

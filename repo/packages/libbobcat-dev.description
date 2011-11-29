@@ -1,0 +1,29 @@
+Headers and documentation for the bobcat library
+	
+headers and documentation of classes defined in the bobcat library.
+
+the bobcat library contains a variety of c++ classes and templates, some of
+them based on well-known design patterns. the library offers classes
+handling, e.g.,
+
+   child processes, forks, pipes and redirection
+   command-to-function associations
+   command-line arguments
+   configurable context wrapping (templates)
+   configuration files
+   decryption and encryption
+   extended string operations
+   hash-tables
+   integers of unlimited size
+   file-descriptor based streams (e.g. handle sockets using streams)
+   mail headers and mail filtering (milters)
+   message digests
+   pattern matching
+   reference counting
+   single (direct) key input
+   syslog- and other kinds of messages
+   universal type conversions (templates)
+
+
+the libbobcat-dev package contains the static library as well as header
+files and manual pages of the bobcat classes and templates.

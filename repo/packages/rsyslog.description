@@ -1,0 +1,19 @@
+Enhanced multi-threaded syslogd
+	
+rsyslog is an enhanced syslogd supporting, amongst others:
+
+ * reliable syslog over tcp and ssl/tls
+ * on-demand disk buffering
+ * email alerting
+ * writing to mysql or postgresql databases (via separate output plugins)
+ * permitted sender lists
+ * filtering on any part of the syslog message
+ * on-the-wire message compression
+ * fine grained output format control
+ * backup log destinations
+
+
+it is quite compatible to stock sysklogd and can be used as a drop-in
+replacement. its advanced features make it suitable for enterprise-class,
+encryption protected syslog relay chains while at the same time being very
+easy to setup for the novice user.

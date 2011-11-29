@@ -1,0 +1,14 @@
+Mp3/ogg vorbis broadcast streaming library (development)
+	
+a library for communicating with and sending data to icecast and icecast 2
+streaming audio servers.  it handles the socket connection, the timing of
+the data transmission, and prevents bad data from getting to the server.
+
+with just a few lines of code, a programmer can easily turn any application
+into a streaming source for an icecast-based server.  libshout also allows
+developers who want a specific feature set (database access, request taking)
+to concentrate on that feature set, instead of worrying about how server
+communication works.
+
+this package contains the development headers, static libraries, and source
+code to an example program.

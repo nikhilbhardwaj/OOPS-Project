@@ -1,0 +1,6 @@
+Object-oriented and function interface to standard unix files
+	
+the passwd::unix module provides an abstract interface to /etc/passwd,
+/etc/shadow and /etc/group format files. it is inspired by unix::passwdfile
+module (that one does not handle /etc/shadow file, what is necessary in
+modern systems like sun solaris 10 or linux).

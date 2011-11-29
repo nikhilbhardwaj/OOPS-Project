@@ -1,0 +1,8 @@
+Trivial file transfer protocol server
+	
+tftpd is a server which supports the internet trivial file transfer protocol
+(rfc 783).  the tftp server operates at the port indicated in the `tftp'
+service description; see services(5).  the server is normally started by
+inetd(8).
+tftpd is not suitable for use with the pxe bootloader; for that,
+use atftpd or tftpd-hpa.

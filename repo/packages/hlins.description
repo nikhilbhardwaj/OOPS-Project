@@ -1,0 +1,7 @@
+Insert urls into html documents
+	
+hlins is a tool to insert hypertext links into html documents,
+using a database with entries of the form "name = url". it is
+designed for inserting urls of real persons: it knows about
+abbreviations of first and middle names and tolerates dropping
+the second part of a composite last name.

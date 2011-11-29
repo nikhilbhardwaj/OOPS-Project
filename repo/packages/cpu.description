@@ -1,0 +1,5 @@
+A console based ldap user management tool
+	
+cpu is a suitable replacement for the useradd/usermod/userdel utilities for
+administrators using an ldap backend and wishing to have a suite of command
+line tools for doing the administration.

@@ -1,0 +1,11 @@
+Multiprecision arithmetic library developers tools
+	
+this development package provides the header files and the symbolic
+links to allow compilation and linking of programs that use the libraries
+provided in the libgmp3 package.
+
+both c and c++ bindings are present in this package.  package
+libstdc++-dev is required to use the c++ bindings.
+
+the mpfr library (multiple-precision floating-point) used to be
+included, but has since been moved to package libmpfr-dev.

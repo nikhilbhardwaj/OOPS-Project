@@ -1,0 +1,7 @@
+Checksumming copy on write filesystem utilities (debug)
+	
+btrfs is a new copy on write filesystem for linux aimed at implementing
+advanced features while focusing on fault tolerance, repair and easy
+administration.
+
+this package contains the debugging symbols.

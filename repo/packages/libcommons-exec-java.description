@@ -1,0 +1,19 @@
+A library to reliably execute external processes from within the jvm
+	
+executing external processes from java is a well-known problem
+area. it is inherently platform dependent and requires the developer
+to know and test for platform specific behaviors, for example
+using cmd.exe on windows or limited buffer sizes causing deadlocks.
+the jre support for this is very limited, albeit better with the
+new java se 1.5 processbuilder class.
+
+reliably executing external processes can also require knowledge of
+the environment variables before or after the command is executed. in
+j2se 1.1-1.4 there is no support for this, since the method,
+system.getenv(), for retrieving environment variables is deprecated.
+
+there are currently several different libraries that for their own
+purposes have implemented frameworks around runtime.exec() to handle
+the various issues outlined above. the commons-exec package aims
+at coordinating and learning from these initiatives to create and
+maintain a simple, reusable and well-tested package.

@@ -1,0 +1,7 @@
+Dump desktop management interface data
+	
+the desktop management interface provides a standardized description of
+a computer's hardware, including characteristics such as bios serial
+number and hardware connectors.  dmidecode provides a dump of the dmi
+data available from the bios.  it is used as a back-end tool by other
+hardware detection programs.

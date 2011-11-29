@@ -1,0 +1,5 @@
+Simplified pdf report generator
+	
+pdf::report is written around alfred reibenschuh's pdf::api2. it
+provides methods to create a pdf document with text, lines, color and
+graphics.

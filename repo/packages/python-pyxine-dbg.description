@@ -1,0 +1,9 @@
+Interface to the xine media player for python (debug extension)
+	
+pyxine provides python bindings for libxine, the backend of the xine
+media player. using pyxine, it is possible to write simple (or
+complex) user-interfaces to xine. this makes it much easier for one
+to write custom xine uis. pyxine can also be used as a generic audio
+and video playing library for python.
+
+this package contains the debug extension for python-pyxine.

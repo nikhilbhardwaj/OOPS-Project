@@ -1,0 +1,5 @@
+Perl module for extracting prefixes and suffixes from a text
+	
+text::affixes provides methods to extract prefixes and suffixes from a text
+(string). it is possible set some configuration options like 'exclude
+numbers' and 'lowercase'.

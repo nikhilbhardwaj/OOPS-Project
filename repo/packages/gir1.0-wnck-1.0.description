@@ -1,0 +1,7 @@
+Gobject introspection data for the wnck library
+	
+this package contains introspection data for window navigator
+construction kit, a library to interact with window managers.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

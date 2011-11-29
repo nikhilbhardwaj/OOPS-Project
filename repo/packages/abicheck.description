@@ -1,0 +1,6 @@
+Binary compatibility checking tool
+	
+abicheck is a tool for checking an application's compliance with a
+library's defined application binary interface (abi). it relies on
+abi definition information contained in the library. example
+definitions are given for gnome and glibc.

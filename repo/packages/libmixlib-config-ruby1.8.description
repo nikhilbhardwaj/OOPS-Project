@@ -1,0 +1,7 @@
+A simple class based config mechanism for ruby 1.8
+	
+mixlib-config provides a class based object to store and manipulate
+configuration values. a file can be read in to populate the object,
+and values can be set and read from the internal hash using methods.
+
+this package contains mixlib-config libraries for ruby 1.8.

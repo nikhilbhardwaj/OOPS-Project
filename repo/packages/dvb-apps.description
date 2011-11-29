@@ -1,0 +1,37 @@
+Digitial video broadcasting (dvb) applications
+	
+applications and utilities geared towards the initial setup, testing
+and operation of an dvb device supporting the dvb-s, dvb-c, dvb-t,
+and atsc standards.
+
+main user applications:
+
+ . util/scan       - scan for channels on your digital tv device
+ . util/gnutv      - tune, watch and stream your tv
+
+
+general utilities:
+
+ . util/dvbdate    - set your clock from digital tv
+ . util/dvbnet     - control digital data network interfaces
+ . util/dvbtraffic - monitor traffic on a digital device
+ . util/femon      - monitor the tuning on a digital tv device
+ . util/zap        - *just* tunes a digital device
+
+
+hardware specific utilities:
+
+ . util/av7110_loadkeys    - load remote keys into an av7110 based card
+ . util/dib3000-watch      - monitor dib3000 demodulators
+ . util/dst-utils          - utilities for dst based cards
+ . util/ttusb_dec_reset    - reset a technotrends ttusb dec device
+
+
+libraries:
+
+ . lib/libdvbapi   - interface library to digital tv devices
+ . lib/libdvbcfg   - library to parse/create digital tv channel
+ . lib/libdvbsec   - library for satellite equipment control operations
+ . lib/libucsi     - fast mpeg2 transport stream si table parsing library
+ . lib/libdvben50221- implementation of a cenelec en 50221 cam stack
+ . lib/libdvbmisc  - miscellaneous utilities used by the other libraries

@@ -1,0 +1,12 @@
+Perl-based spam filter using text analysis
+	
+spamassassin is a very powerful and fully configurable spam filter
+with numerous features including automatic white-listing, rbl
+testing, bayesian analysis, header and body text analysis. it is
+designed to be called from a user's .procmail or .forward file, but
+can also be integrated into a mail transport agent (mta).
+
+included in this package is a daemonized form of spamassassin (spamd)
+which communicates with its client (spamc) via tcp, to reduce the
+overhead of loading perl with each message. to take advantage of
+this, you must install the spamc package.

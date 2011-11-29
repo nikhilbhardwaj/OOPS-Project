@@ -1,0 +1,9 @@
+A qt based sane plugin for gimp 2.0
+	
+this qt based sane plugin runs through the gimp image manipulation program
+and provide the ability to scan directly from it.
+
+sane stands for "scanner access now easy" and is an application programming
+interface (api) that provides standardized access to any raster image scanner
+hardware (flatbed scanner, hand-held scanner, video- and still-cameras,
+frame-grabbers, etc.).

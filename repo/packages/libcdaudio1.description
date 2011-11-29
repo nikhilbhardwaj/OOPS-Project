@@ -1,0 +1,5 @@
+Library for controlling a cd-rom when playing audio cds
+	
+this library provides functions for controlling an audio cd: starting,
+stopping, ejecting, etc. it also provides an interface to the cddb and cd index
+servers.

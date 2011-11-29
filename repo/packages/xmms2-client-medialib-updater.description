@@ -1,0 +1,8 @@
+Xmms2 - medialib-updater client
+	
+the media library is where xmms2 stores metadata about files as it plays them.
+having a media library allows xmms2 to 'remember' the songs it has played, and
+thus allows users to easily re-create their favorite playlists.
+
+this package contains the medialib-updater client which monitors given
+directories and updates the media library with new and changed files.

@@ -1,0 +1,14 @@
+Development environment for gnome
+	
+monodevelop is a gnome ide primarily designed for c# and other cli (.net)
+languages.
+
+it supports the following languages: c, c++, c# (1.0, 2.0 and 3.0), vala, boo,
+java, nemerle, ilasm, asp.net and vb.net.
+
+features: debugger integration (mono debugger and gnu debugger),
+class browser, assembly browser, built-in help, monodoc integration,
+code completion (also known as intellisense), code folding, color schemes,
+code refactoring, on-the-fly error underlining, xml editing, embedded html
+viewer, gettext support, gtk# designer, msbuild project support and
+makefile generation.

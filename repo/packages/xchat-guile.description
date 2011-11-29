@@ -1,0 +1,11 @@
+Guile scripting plugin for xchat
+	
+plug-in adding guile scripting support to xchat.
+
+guile is the gnu scheme implementation, and the official gnu
+scripting language. scheme is a minimalistic, clean lisp dialect,
+that is a dynamically typed functional impure programming language
+with reflection.
+
+xchat is a featureful irc client with a gtk+2-based graphical user
+interface.

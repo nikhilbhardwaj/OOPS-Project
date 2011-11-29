@@ -1,0 +1,6 @@
+Assigns a set of cpus and memory nodes to a set of tasks
+	
+the cpuset system is a processor and memory placement mechanism that
+enables a system administrator to confine tasks to running on
+certain cpus, and to allocating memory on certain memory nodes.
+the libcpuset library provides a convenient 'c' api to cpusets.

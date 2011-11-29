@@ -1,0 +1,15 @@
+Gps mapping (geotiff and vector) and gpsr management
+	
+this package provides a versatile tool for gps maps in geotiff format as
+well as garmin's img vector map format. qlandkartegt is the successor of
+qlandkarte. among various improvements (e.g. 2d/3d map rendering and
+reduced resource demands) the major difference is its
+device-independent architecture, which is not limited to garmin devices
+anymore. therefore, the package also does not include device drivers.
+drivers for a number of garmin devices are available from the
+qlandkartegt-garmin package.
+
+additionally, qlandkartegt serves as a frontend to the gdal tools, to
+make georeferencing of scanned maps feasible for users. in contrast to
+similar tools (e.g. qgis) its straightforward interface is especially
+suited for non-scientific users.

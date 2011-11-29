@@ -1,0 +1,28 @@
+Undelete files on ext2 partitions
+	
+recover automates some steps as described in the ext2-undeletion
+howto. this means it seeks all the deleted inodes on your hard drive
+with debugfs. when all the inodes are indexed, recover asks you some
+questions about the deleted file. these questions are:
+
+  * hard disk device name
+  * year of deletion
+  * month of deletion
+  * weekday of deletion
+  * first/last possible day of month
+  * min/max possible file size
+  * min/max possible deletion hour
+  * min/max possible deletion minute
+  * user id of the deleted file
+  * a text string the file included (can be ignored)
+
+
+if recover found any fitting inodes, it asks to give a directory name
+and dumps the inodes into the directory. finally it asks you if you
+want to filter the inodes again (in case you typed some wrong
+answers).
+
+note that recover works only with ext2 filesystems - it does not support
+ext3.
+
+http://recover.sourceforge.net/linux/recover/

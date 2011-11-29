@@ -1,0 +1,9 @@
+An irc bot, written in erlang
+	
+manderlbot is an irc bot with xml configuration file, allowing you to launch
+it on several servers and channels at once, each channel will have its own
+set of behaviours.
+
+behaviours are generics, and you can easily make your own set. if you want
+some not-already-implemented generic behaviour, you'll have to code some
+erlang.

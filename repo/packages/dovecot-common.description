@@ -1,0 +1,9 @@
+Secure mail server that supports mbox and maildir mailboxes
+	
+dovecot is a mail server whose major goals are security and extreme
+reliability. it tries very hard to handle all error conditions and verify
+that all data is valid, making it nearly impossible to crash. it should
+also be pretty fast, extensible, and portable.
+
+this package contains the files used by both the dovecot imap and pop3 servers
+and the dovecot lda (deliver).

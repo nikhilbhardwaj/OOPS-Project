@@ -1,0 +1,10 @@
+Read sam/bam nucleotide sequence aligment database files
+	
+bio::samtools provides a perl interface to the libbam library for indexed and
+unindexed sam/bam sequence alignment databases. it provides support for
+retrieving information on individual alignments, read pairs, and alignment
+coverage information across large regions. it also provides callback
+functionality for calling snps and performing other base-by-base functions.
+most operations are compatible with the bioperl bio::seqfeaturei interface,
+allowing bam files to be used as a backend to the gbrowse genome browser
+application.

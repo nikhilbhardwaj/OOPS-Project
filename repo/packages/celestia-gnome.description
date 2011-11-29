@@ -1,0 +1,10 @@
+A real-time visual space simulation (gnome frontend)
+	
+celestia is a free 3d astronomy program. based on the hipparcos
+catalogue, it allows users to display objects ranging in scale from
+artificial satellites to entire galaxies in three dimensions using
+opengl. unlike most planetarium software, the user is free to travel
+about the universe.
+
+this package contains the gtk+ frontend for celestia, and integrates
+with gnome.

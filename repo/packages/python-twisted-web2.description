@@ -1,0 +1,8 @@
+An http/1.1 server framework
+	
+twisted.web2 is the next generation web server framework built with
+twisted. web2 is under active development and it's apis should not be
+considered stable at this point. it is not a version of twisted.web
+and with that in mind compatibility is not of the highest concern,
+though the compatibility layer does support many but not all
+twisted.web resources.

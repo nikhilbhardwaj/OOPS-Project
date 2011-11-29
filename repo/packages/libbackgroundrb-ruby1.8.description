@@ -1,0 +1,12 @@
+Job server and scheduler for moving long-running tasks into the background
+	
+backgroundrb is a ruby job server and scheduler. its main intent is to
+be used with ruby on rails applications for offloading long-running
+tasks.
+
+since a rails application blocks while serving a request it is best to
+move long-running tasks off into a background process that is
+divorced from http request/response cycle.
+
+this package is part of the ruby library extras, a supplement to ruby's
+standard library.

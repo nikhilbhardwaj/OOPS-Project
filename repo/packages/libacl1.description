@@ -1,0 +1,5 @@
+Access control list shared library
+	
+this package contains the libacl.so dynamic library containing
+the posix 1003.1e draft standard 17 functions for manipulating
+access control lists.

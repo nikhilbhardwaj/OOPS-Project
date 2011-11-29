@@ -1,0 +1,10 @@
+Development files for the gnu sasl library
+	
+gnu sasl is an implementation of the simple authentication and
+security layer framework and a few common sasl mechanisms. sasl is
+used by network servers (e.g., imap, smtp) to request authentication
+from clients, and in clients to authenticate against servers.
+
+this package contain all files necessary for developing programs that
+use gnu sasl.  you will need this package if you want to build a
+program that uses the gnu sasl library.

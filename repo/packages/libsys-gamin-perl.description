@@ -1,0 +1,5 @@
+Perl interface to gamin (file access monitor implementation)
+	
+the sys::gamin module provides a somewhat higher-level and friendlier interface
+to the gamin file access monitor api. this allows one to monitor both local and
+remote (nfs-mounted) files and directories for common filesystem events.

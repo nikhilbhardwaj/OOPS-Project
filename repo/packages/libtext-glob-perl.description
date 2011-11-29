@@ -1,0 +1,5 @@
+Perl module for matching globbing patterns against text
+	
+text::glob implements glob(3) style matching that can be used to match
+against text, rather than fetching names from a filesystem.  if you
+want to do full file globbing use the file::glob module instead.

@@ -1,0 +1,6 @@
+Linux for uniprocessor 64-bit ultrasparc (meta-package), linux-vserver support
+	
+this package depends on the latest linux kernel and modules for use on
+uniprocessor 64-bit ultrasparc.
+
+this kernel includes support for linux-vserver virtualization.

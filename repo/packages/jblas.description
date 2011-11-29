@@ -1,0 +1,9 @@
+A fast linear algebra library for java
+	
+jblas is a fast linear algebra library for java. jblas is essentially
+a light-weight wrapper around blas and lapack routines, the
+de-facto industry standard for matrix computations. it uses
+state-of-the-art implementations like atlas for all its computational
+routines, making it very fast.
+
+this package contains the binaries and examples.

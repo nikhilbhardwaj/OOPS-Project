@@ -1,0 +1,7 @@
+Python version of the olson timezone database
+	
+python-tz brings the olson tz database into python. this library allows
+accurate and cross platform timezone calculations using python 2.3 or higher.
+it also solves the issue of ambiguous times at the end of daylight savings,
+which you can read more about in the python library reference
+(datetime.tzinfo).

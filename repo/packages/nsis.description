@@ -1,0 +1,13 @@
+Nullsoft scriptable install system (modified for debian)
+	
+nsis is a tool for creating quick and user friendly installers for
+microsoft windows (win32) operating systems.
+
+nsis creates installers that are capable of installing, uninstalling,
+setting system settings, extracting files, etc. because it's based on
+script files, you can fully control every part of your installers. the
+script language supports variables, functions, string manipulation,
+just like a normal programming language - but designed for the creation
+of installers. even with all these features, nsis is still the smallest
+installer system available. with the default options, it has an overhead
+of only 34 kb.

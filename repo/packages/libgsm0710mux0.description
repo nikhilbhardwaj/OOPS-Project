@@ -1,0 +1,11 @@
+Library for implementing gsm 07.10 multiplexing servers
+	
+this library supports implementing a gsm 07.10 multiplexing server.
+it requires libgsm0710 for the protocol engine and glib.
+
+you may either write standalone programs (e.g. communicating over d-bus
+and using ptys) or embed the library in your gsm server to improve
+performance.
+
+this package is part of the freesmartphone.org software stack
+and is targeted for smartphones.

@@ -1,0 +1,26 @@
+The worldforge client entity library - api documentation
+	
+eris is designed to simplify client development (and avoid repeating the
+same work several times), by providing a common system to deal with the
+back end tasks. notably, eris encapsulates most of the work in getting
+atlas entities available on your client, logging into a server, and
+managing updates from the server. thus it can be considered as a session
+layer above atlas, providing persistent (for the session) objects as
+opposed to atlas ones (which are transient). it handles the client-side
+implementation of the meta-server protocol, and querying game servers;
+out-of-game (oog) operations (via the lobby and rooms), and most
+important in-game (ig) operations such as entity creation, movement and
+updates.
+
+eris provides a generic 'entity' class, which you are free to sub-class
+and provide to the system (by registering a factory with the world);
+thus you are free to create different classes to handle characters,
+walls, vehicles, etc as your client dictates. an alternative approach is
+to simply create peer classes, and connect them to eris via
+callbacks. eris makes extensive use of libsigc++, which must be
+correctly installed and functioning on your system. familiarity with
+signal/slot programming concepts is essential for using eris; the
+libsigc++ home-page has some examples. gtk+ or qt signal systems also
+provide a good introduction.
+
+this package contains the api documentation in html format.

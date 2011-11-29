@@ -1,0 +1,8 @@
+Open text summarizer (development)
+	
+ots reads a text and decides which sentences are important and which
+are not.  then it creates a short summary or will highlight the main
+idea in the text (the output can be html).  ots is m17n'd and
+works with utf-8 encoding.
+
+this package contains files used for development with ots.

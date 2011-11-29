@@ -1,0 +1,7 @@
+Cue sheet parser library - development files
+	
+libcue is intended to parse a so called cue sheet from a
+char string or a file pointer. for handling of the parsed
+data a convenient api is available.
+
+this package contains the development files

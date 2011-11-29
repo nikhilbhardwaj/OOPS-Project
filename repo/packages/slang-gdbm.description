@@ -1,0 +1,6 @@
+Access to gdbm databases from s-lang
+	
+the s-lang module contained in this package provides access to gdbm
+databases, with an assoc-like syntax for the user interface.  this
+module can be used in slsh (the s-lang shell), in the jed editor, and
+in the news reader slrn.

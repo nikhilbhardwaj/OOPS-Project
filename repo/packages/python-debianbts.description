@@ -1,0 +1,4 @@
+Python interface to debian's bug tracking system
+	
+this package provides the debianbts module, which allows to query debian's bts
+via it's soap-inteface and returns the answer in python's native data types.

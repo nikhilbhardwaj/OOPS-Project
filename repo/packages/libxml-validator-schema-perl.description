@@ -1,0 +1,5 @@
+Validate xml against a subset of w3c xml schema
+	
+xml::validator::schema allows you to validate xml documents against a w3c xml
+schema. this module does not implement the full w3c xml schema recommendation
+(http://www.w3.org/xml/schema), but a useful subset.

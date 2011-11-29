@@ -1,0 +1,15 @@
+Apt sources mirroring tool
+	
+a small and efficient tool that lets you mirror a part of or
+the whole debian gnu/linux distribution or any other apt sources.
+
+main features:
+
+ * it uses a config similar to apts <sources.list>
+ * it's fully pool comply
+ * it supports multithreaded downloading
+ * it supports multiple architectures at the same time
+ * it can automatically remove unneeded files
+ * it works well on overloaded channel to internet
+ * it never produces an inconsistent mirror including while mirroring
+ * it works on all posix compliant systems with perl and wget

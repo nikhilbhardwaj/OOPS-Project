@@ -1,0 +1,14 @@
+Intelligent schema migrations for django apps
+	
+an intelligent database migrations library for the django web framework.
+it is database-independent and dvcs-friendly, as well as a whole host of
+other features.
+
+
+ * intelligent; it knows if you've missed out a migration or two
+ * database independent, so there's no hassle if you need to move databases.
+ * easy; it can write migrations for you, and it takes about a minute to
+   convert your app over to use south.
+ * designed for a pluggable django world; you can declare dependencies
+   between apps so they all migrate together correctly, and you can
+   still use syncdb for your non-migrated apps without it interfering.

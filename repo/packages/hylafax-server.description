@@ -1,0 +1,9 @@
+Flexible client/server fax software - server daemons
+	
+this package support the sending and receiving of facsimiles, the polled
+retrieval of facsimiles and the send of alphanumeric pages.
+
+the host running the server must have either a class 1, class 2, or a
+class 2.0 fax modem attached to one of its serial ports. end-user
+applications to manage the transmission of documents via facsimile are
+provided separately by the hylafax-client package.

@@ -1,0 +1,11 @@
+Type 1 font rasterizer library - user binaries
+	
+t1lib is an enhanced rasterizer for type 1 fonts.
+
+t1lib is based on the x11r5 font rasterizer code, but operates independently
+of x11.  it includes many enhancements, including underlining, antialiasing,
+user-defined slant and extension factors, and rotation.
+
+this package contains the programs "xglyph" and "type1afm", included in the
+upstream t1lib distribution.  it also contains the "t1libconfig"
+script used to configure t1lib.

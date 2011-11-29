@@ -1,0 +1,12 @@
+Framework for installing perl modules
+	
+module::install is a package for writing installers for cpan (or cpan-like)
+distributions that are clean, simple, minimalist, act in a strictly correct
+manner with extutils::makemaker. it will run on any perl installation version
+5.004 or newer.
+
+it is designed to automatically include a copy of itself with modules that
+use it, thus ensuring that bleeding-edge features will be available for use
+in makefile.pl in a simple and portable way. it is simple to learn, and has
+the same features as extutils::makemaker and module::build. however, it has
+the advantage that it requires no installation for end-users.

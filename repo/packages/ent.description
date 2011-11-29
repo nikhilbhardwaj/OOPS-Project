@@ -1,0 +1,10 @@
+Pseudorandom number sequence test program
+	
+this program applies various tests to sequences of bytes stored in
+files and reports the results of those tests. the program is useful
+for those evaluating pseudorandom number generators for encryption and
+statistical sampling applications, compression algorithms, and other
+applications where the information density of a file is of interest.
+
+original homepage: http://www.fourmilab.ch/random/
+(now maintained primarily in debian.)

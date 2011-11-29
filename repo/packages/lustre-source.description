@@ -1,0 +1,8 @@
+Source for lustre filesystem client kernel modules
+	
+lustre is a scalable, secure, robust, highly-available cluster file system.
+it is maintained by cluster filesystems, inc. and available from
+http://www.lustre.org
+
+this package contains the module source. the client kernel modules
+can be built from it using module-assistant or make-kpkg.

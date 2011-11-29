@@ -1,0 +1,12 @@
+Library to read and control cd-rom (development files)
+	
+this package contains development files (headers and static library)
+for the libcdio library.
+
+this library is to encapsulate cd-rom reading and
+control. applications wishing to be oblivious of the os- and
+device-dependant properties of a cd-rom can use this library.
+
+some support for disk image types like bin/cue and nrg is available,
+so applications that use this library also have the ability to read
+disc images as though they were cd's.

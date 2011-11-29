@@ -1,0 +1,12 @@
+Declarative testing for your web app
+	
+often in web apps, tests are very dependent on the state set up by previous
+tests. if one test fails (e.g. "follow the link to the admin page") then it's
+likely there will be many more failures. test::www::declare aims to alleviate
+this problem, as well as provide a nicer interface to test::www::mechanize.
+
+the central idea is that of "flow". each flow is a sequence of commands ("fill
+in this form") and assertions ("content should contain 'testuser'"). if any of
+these commands or assertions fail then the flow is aborted. only that one
+failure is reported to the test harness and user. flows may also contain other
+flows. if an inner flow fails, then the outer flow fails as well.

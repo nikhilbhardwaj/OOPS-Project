@@ -1,0 +1,9 @@
+Haskell bindings to the terminfo library; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides an interface to the terminfo database (via bindings to
+the curses library). terminfo allows posix systems to interact with a variety
+of terminals using a standard set of capabilities.

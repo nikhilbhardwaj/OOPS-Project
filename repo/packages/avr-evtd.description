@@ -1,0 +1,12 @@
+Avr watchdog daemon for linkstation/kuroboxes
+	
+avr-evtd is a simple and small user space interface to the linkstation
+avr micro-controller. it doesn't have a lot of special features, but
+it's main task is to provide 'keep-alive' messages to the linkstation's
+on-board avr device.
+
+this device controls/monitors the fan, various leds, timed power up and
+two buttons. this daemon provides the necessary initialisation to the
+device and also stimulates the leds depending on various fault
+conditions. it also monitors a power button (located at the front) and
+a reset button (located at the rear).

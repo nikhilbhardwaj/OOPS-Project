@@ -1,0 +1,7 @@
+Weather data visualization,  grib file viewer
+	
+this application, written with the qt toolkit, enables:
+
+ * visualisation of meteo data from files in grib format 1
+ * automatic grib data download
+ * automatic download from iac (fleetcode) data

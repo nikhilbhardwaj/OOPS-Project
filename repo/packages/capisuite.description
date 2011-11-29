@@ -1,0 +1,9 @@
+Easy fax and voice box solution for isdn/capi capable devices
+	
+in the default setup capisuite provides a fax and voice box solution for
+multi users. only german sounds are available for the voice box.
+
+further capisuite tries to give the user the ability to code his own isdn
+applications without having to fiddle around with all the dirty
+programming details like callback functions, data buffers, protocol
+settings and so on.

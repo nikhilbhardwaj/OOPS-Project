@@ -1,0 +1,5 @@
+Perl library to work with international standard book numbers
+	
+business::isbn allows to easily extract useful information from isbn such as
+country code, publisher code, ... it allows to check the checksum and/or
+correct it.

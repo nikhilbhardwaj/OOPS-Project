@@ -1,0 +1,10 @@
+Easy-to-use self-cleaning scratch space
+	
+when writing test suites for modules that operate on files,
+it's often inconvenient to correctly create a platform-independent
+temporary storage space, manipulate files inside it, then clean it
+up when the test exits. the inconvenience usually results in tests
+that don't work everywhere, or worse, no tests at all.
+
+directory::scratch aims to eliminate that problem by making it easy to
+do things right.

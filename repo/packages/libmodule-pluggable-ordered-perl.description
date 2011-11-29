@@ -1,0 +1,6 @@
+Perl module to load plugins in a specified order
+	
+module::pluggable::ordered is a perl module which extends the functionality
+provided by module::pluggable, allowing hooks to determine an ordering for
+modules to be loaded, producing an effect like the system v init process,
+where files can specify where in the init sequence they'd like to be called.

@@ -1,0 +1,28 @@
+The eresi aspect library
+	
+libaspect is a general purpose low-level library dedicated to feature-based,
+aspect-oriented project modeling written in the c language. it is especially
+relevant when embedded into a runtime environment such as eresi, because it
+makes the project to become reflective by allowing its uniform internal
+structures to be modified directly from the eresi language provided you
+also link with librevm which is the interpreter for such language. libaspect
+also provides facilities for the project to auto-profile itself, which has
+a concrete use in fast-diagnostic debugging of the analysis framework.
+
+the main features of the eresi aspects library are :
+
+
+ * a generic and extensive api and data structures for using hash tables.
+ * a generic modeling api and data structure called a reflective vector
+   aspect for modular feature-based portability system in the project
+   development.
+ * a generic macro system and help api for the auto-profiling of program's
+   functions developed in the c or c++ languages.
+ * a complete type definition system for the specification of new data types
+   in the eresi meta-language and their use in domain specific intermediate
+   representation (ir), with a direct use in the realm of reflection, program
+   transformation and type-based decompilation.
+
+
+this package contains the development files provided by libaspect (the
+static library - i.e the .a file - and the libaspect headers).

@@ -1,0 +1,13 @@
+Cryptographic tool based on ecc
+	
+sks is a public-key, command-line application for encryption/authentication,
+based on elliptic curve cryptography (ecc). his minimalist design points to
+a simple, light, fast, easy-to-use and multiplatform software. all these
+features are satisfied with this high quality cryptography kit that has
+the following elements:
+
+
+ * public key module: elliptic curve over gf (2^191).
+ * symmetric-key module: aes 192-bits key, with ctr mode.
+ * hash (for signatures, hmac and passwords): tiger (192 bits).
+ * prng module.

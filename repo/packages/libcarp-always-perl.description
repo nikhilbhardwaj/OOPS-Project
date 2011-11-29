@@ -1,0 +1,4 @@
+Perl module to make warns and dies noisy with stack backtraces
+	
+carp::always is meant as a debugging aid. it can be used to make a script
+complain loudly with stack backtraces when warn()ing or die()ing.

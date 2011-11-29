@@ -1,0 +1,15 @@
+Fully automatic installation server package
+	
+fai is a non-interactive system to install, customize and manage
+linux systems and software configurations on computers as well as
+virtual machines and chroot environments, from small networks to
+large infrastructures and clusters.
+
+it's a tool for mass unattended linux installation. you can take one
+or more virgin systems, turn on the power, and after a few minutes,
+the systems are installed, and completely configured to your exact
+needs, without any interaction necessary.
+
+this package is needed for setting up a fai install server for network
+installations, for running the dirinstall in a chroot environment, and
+to build installation cd/dvd's and usb sticks.

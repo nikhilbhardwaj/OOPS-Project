@@ -1,0 +1,7 @@
+Xsettings protocol library for gpe
+	
+provides a mechanism to allow the configuration of settings such as double
+click timeout, drag-and-drop threshold, and default foreground and
+background colors for all applications running within a desktop.
+
+used by the gpe palmtop environment.

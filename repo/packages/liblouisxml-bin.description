@@ -1,0 +1,12 @@
+Braille xml translation utilities
+	
+liblouisxml translates files in the computer lingua franca xml format
+into properly transcribed braille. this includes translation into grade
+two, if desired, mathematical codes, etc. it also includes formatting
+according to a built-in style sheet which can be modified by the user.
+
+this package contains xml2brl which translates an xml or text file into an
+embosser-ready braille file, and msword2brl which translates an ms-word file
+into an embosser-ready braille file.
+
+in combination with ooo2dbk, it can also translate openoffice.org 1 documents.

@@ -1,0 +1,13 @@
+The xine video player, gtk+/gnome user interface
+	
+this is a gtk+ based gui for the libxine video player library.
+it provides gxine, a  media player that can play all the audio/video formats
+that libxine supports. currently, this includes mpeg1/2, some avi and
+quicktime files, some network streaming methods and disc based media (vcd,
+svcd, dvd).
+a more complete list can be found on http://xinehq.de/.
+
+most dvds on the market today are play-protected by the content scrambling
+system (css). libxine does not provide any code to descramble those dvds,
+because of legal uncertainties. if you still want to play those dvds, you'll
+need a css decryption library like libdvdcss that is supported by libxine.

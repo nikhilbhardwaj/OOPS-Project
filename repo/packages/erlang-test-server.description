@@ -1,0 +1,7 @@
+Erlang/otp server for automated application testing
+	
+test server is a portable test server for automated application testing.
+the server can run test suites on local or remote targets and log
+progress and results to html pages. the main purpose of test server
+is to act as engine inside customized test tools. a callback interface
+for such framework applications is provided.

@@ -1,0 +1,13 @@
+Haskell graphics library for ghc; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+
+this is a simple graphics library, designed to give the programmer access
+to most interesting parts of the win32 graphics device interface
+and x11 library without exposing the programmer to the pain and
+anguish usually associated with using these interfaces.
+
+the library also includes a module graphics.soe providing the
+interface used in "the haskell school of expression", by paul
+hudak, cf <http://www.haskell.org/soe/>.

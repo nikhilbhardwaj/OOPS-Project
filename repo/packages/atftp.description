@@ -1,0 +1,7 @@
+Advanced tftp client
+	
+interactive client for the trivial file transfer protocol (tftp). its
+usage is mainly for testing and debugging the atftp server. tftp client
+is usually implemented in bios and bootstraps programs like pxelinux when
+booting from lan. atftp also supports non-interactive invocation for
+easy use in scripts.

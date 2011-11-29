@@ -1,0 +1,9 @@
+Gconf module for pulseaudio sound server
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+this module enables pulseaudio to store additional configuration in gconf.
+
+the module is called module-gconf.

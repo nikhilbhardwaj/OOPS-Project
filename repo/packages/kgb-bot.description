@@ -1,0 +1,9 @@
+Irc collaboration bot
+	
+kgb is an irc bot, helping people work together by notifying an irc channel
+when a commit occures.
+
+it supports multiple repositories/irc channels and is fully configurable.
+
+this package contains the server-side daemon, kgb-bot, which is responsible
+for relaying commit notifications to irc.

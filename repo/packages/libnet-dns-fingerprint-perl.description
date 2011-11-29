@@ -1,0 +1,66 @@
+Library to determine dns server vendor, product and version
+	
+identifying individual nameserver implementations is based on "borderline"
+protocol behaviour. the dns protocol offers a multitude of message bits,
+response types, opcodes, classes, query types and label types in a fashion
+that makes some mutually exclusive while some are not used in a query
+messages at all.
+
+not every implementation offers the full set of features the dns protocol
+set currently has. some implementations offer features outside the protocol
+set, and there are implementations that do not conform to standards.
+
+amongst the servers it is able to identify are:
+
+
+ - vgrs atlas
+ - bind (v4, v8, v9)
+ - enom dns
+ - incognito dns commander
+ - maradns
+ - ms server nt4/2000/2003
+ - mydns
+ - net::dns::namesever
+ - nominnum ans/cns
+ - nonsequitur dns
+ - nsd
+ - oak dns
+ - pliant dns server
+ - posadis
+ - powerdns
+ - quickdns
+ - rbldnsd
+ - simple dns plus
+ - tinydns
+ - totd
+ - ultradns
+ - pdnsd
+ - yaku-ns
+ - delegate dns proxy
+ - sheerdns
+ - dproxy
+ - dnrd
+ - jdnss
+ - javadns jnamed
+ - nomde dns tunnel
+ - viking dns server
+ - small http server
+ - cisco network registrar
+ - netnumber enum server
+ - raidendnsd
+ - runtop implementation
+ - mikrotik implementation
+ - axis video network implementation
+ - fasthosts envisage dns server
+ - wingate dns
+ - ascenvision swiftdns
+ - nortel networks instant internet
+ - nortel networks alteon aceswitch
+ - aethra atos stargate adsl
+ - 3com office connect remote
+ - 4d webstar
+ - netopia implementation
+ - dns4me
+ - tzolkin dns service
+ - jdns javadns service
+ - dents

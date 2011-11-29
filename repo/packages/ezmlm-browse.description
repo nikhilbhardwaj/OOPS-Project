@@ -1,0 +1,8 @@
+Web browser for ezmlm-idx archives
+	
+this is ezmlm-browse, a web interface for browsing ezmlm-idx (version
+0.40 or later) archives.  the default presentation is similar to that
+of the ezmlm-cgi archive browser that is part of ezmlm-idx, but with
+the addition of threaded subjects and online posting / replying.
+however, the output is completely template drive, so you can make it
+fit into your current web scheme.

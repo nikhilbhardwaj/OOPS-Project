@@ -1,0 +1,6 @@
+Library to read and control digital audio cds
+	
+this library is made to read and control digital audio cds. it does
+not play such cds, it only reads them digitally. as it uses libcdio as
+a backend, it supports the same kind of cdrom drives (and images) as
+libcdio.

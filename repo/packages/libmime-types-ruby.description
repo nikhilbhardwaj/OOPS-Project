@@ -1,0 +1,5 @@
+Guess mime type of files
+	
+this library allows for the identification of a file's likely mime
+content type. the identification of mime content type is based on a
+file's filename extensions.

@@ -1,0 +1,5 @@
+Perl module to extract the structure of a quoted mail message
+	
+text::quoted examines the structure of some text which may contain
+multiple different levels of quoting, and turns the text into a nested
+data structure.

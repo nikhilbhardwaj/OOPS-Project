@@ -1,0 +1,6 @@
+Moose extension for easy aliasing of methods and attributes
+	
+moosex::aliases is an extension to moose that facilitates simple aliasing of
+methods and attributes. it provides an alias parameter for has() to generate
+aliased accessors as well as the standard ones. further, attributes can also
+be initialized in the constructor via their aliased names.

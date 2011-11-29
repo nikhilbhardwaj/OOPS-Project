@@ -1,0 +1,14 @@
+Parallel coordinates plotter
+	
+picviz is a parallel coordinates plotter which enables easy scripting
+from various input (tcpdump, syslog, iptables logs, apache logs,
+etc..) to visualize your data and discover interesting results
+quickly.
+
+its primary goal is to graph data in order to be able to quickly
+analyze problems and find correlations among variables. with security
+analysis in mind, the program has been designed to be very flexible,
+able to graph millions of events.
+
+the language is designed to be close to the graphviz graph description
+language.

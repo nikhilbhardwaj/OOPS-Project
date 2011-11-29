@@ -1,0 +1,9 @@
+Tool for bootstrapping a fedora system (like debian debootstrap)
+	
+febootstrap is a tool for creating a fedora boot filesystem. you can
+think of it as the fedora equivalent of debootstrap. like debootstrap,
+febootstrap doesn't need to be run as root.
+
+febootstrap comes with tools to create initrd.img (initramfs) images
+directly. there are also tools to minimize the size of the generated
+system by removing unnecessary files.

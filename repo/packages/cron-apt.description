@@ -1,0 +1,13 @@
+Automatic update of packages using apt-get
+	
+contains a tool that is run by a cron job at regular intervals. by default it
+just updates the package list and downloads new packages without installing.
+you can instruct it to run anything that you can do with apt-get
+(or aptitude).
+
+it can optionally send mail to the system administrator on errors, log
+to syslog or a separate log file.
+
+observe that this tool may be a security risk, so you should not set it
+to do more than necessary. automatic upgrade of all packages is not
+recommended unless you are in full control of the package repository.

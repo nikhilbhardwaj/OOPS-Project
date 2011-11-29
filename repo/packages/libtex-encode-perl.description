@@ -1,0 +1,8 @@
+Perl module to transform utf-8 strings into tex
+	
+tex::encode provides a simple way to encode arbitrary utf-8 strings into latex
+escapes using mapping tables provided by pod::latex and html::entities.
+
+this module only covers a subset of the unicode character set and has limited
+facilities for converting tex back to utf-8 (this is because tex is in essence
+a programming language, and this module does not yet implement tex).

@@ -1,0 +1,12 @@
+Perl module implementing a meta object protocol (mop)
+	
+class::mop is an implementation of a meta object protocol for the perl object
+system. it does not change the behavior or characteristics of the classic perl
+object system, but rather, establishes a protocol for its manipulation and
+introspection. it allows for the creation of a more complex object framework
+such as moose (see libmoose-perl), which was inspired by perl 6's modern
+object system.
+
+contrary to popular belief, explicit mop implementations do not always result
+in a performance penalty. in fact, by itself, library does nothing to affect
+your existing code base -- you only pay for the features you use.

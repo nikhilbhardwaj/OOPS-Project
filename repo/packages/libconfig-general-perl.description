@@ -1,0 +1,15 @@
+Generic configuration module
+	
+this module opens a configuration file and parses its contents for
+you. after parsing it returns a hash which contains all options and
+their associated values from your configuration file.
+
+the format of configuration files supported by config::general is
+inspired by the well known apache configuration format, in fact, this
+module is fully capable of parsing apache configurations, but the
+output is not usable by apache. you can also just use simple name/value
+pairs in your configuration files.
+
+in addition to the capabilities of an apache configuration file it
+supports some enhancements such as here-documents, c-style comments and
+multi-line options.

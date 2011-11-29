@@ -1,0 +1,5 @@
+Perl extension for recursively copying files and directories
+	
+file::copy::recursive module copies and moves directories recursively
+(or single files, well... singley) to an optional depth and attempts
+to preserve each file or directory's mode.

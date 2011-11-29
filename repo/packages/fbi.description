@@ -1,0 +1,7 @@
+Linux frame buffer image viewer
+	
+this is an image viewer for linux frame buffer devices.  it has
+built-in support for a number of common image file formats.  for
+unknown files, it tries to use convert from the imagemagick package
+as an external converter.
+it also includes fbgs, a postscript and pdf viewer.

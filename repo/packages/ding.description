@@ -1,0 +1,19 @@
+Graphical dictionary lookup program for unix (tk)
+	
+this is "ding"
+
+ * a dictionary lookup program for unix,
+ * dictionary nice grep,
+ * a tk based front-end to [ae]grep, ispell, dict, ...
+ * ding {n} :: thing
+
+
+this package needs agrep(1) or egrep(1) as a back end.  agrep is
+preferable, because it supports fault tolerant searching.
+
+you have to install some translation dictionary word list with a
+word/phrase in two languages in one line with some kind of separator
+between them.  the default configuration of ding uses the
+german-english dictionary which can be found in the trans-de-en
+package, but you can use every other translation word lists with one
+entry per line.

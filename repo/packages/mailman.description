@@ -1,0 +1,13 @@
+Powerful, web-based mailing list manager
+	
+the gnu mailing list manager, which manages email discussion lists
+much like majordomo and smartmail. unlike most similar products,
+mailman gives each mailing list a web page, and allows users to
+subscribe, unsubscribe, etc. over the web.  even the list manager can
+administer his or her list entirely from the web.
+
+mailman also integrates most things people want to do with mailing
+lists, including archiving, mail <-> news gateways, and so on.  it
+has all of the features you expect from such a product, plus
+integrated support for the web (including web based archiving),
+automated bounce handling and integrated spam prevention.

@@ -1,0 +1,10 @@
+Gnu ccaudio2 - a c++ class framework for processing audio files
+	
+the gnu ccaudio package offers a highly portable c++ class framework for
+developing applications which manipulate audio streams and various
+disk based audio file formats.  at the moment ccaudio is primarly a class
+framework for handling .au, .wav (riff), and various .raw audio encoding
+formats under posix and win32 systems, though it may expand to become a
+general purpose audio and soundcard support library.  support for
+controlling cd audio devices has recently been added as well as support
+for codecs and other generic audio processing services.

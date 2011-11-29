@@ -1,0 +1,7 @@
+Computer chess engine, calculates chess moves
+	
+advancement of the strong chess engine fruit, it is
+even stronger, and will be further developed. as communication
+protocol it uses the uci (universal chess interface), so you
+need an uci capable frontend to play against it. it has a chess
+strength of about 2800 elo.

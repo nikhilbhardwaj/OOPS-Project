@@ -1,0 +1,17 @@
+A code coverage tool for ruby
+	
+rcov is a code coverage tool for ruby. it is commonly used for viewing overall
+test unit coverage of target code. this version improves on the original rcov
+tool by mauricio fernandez by providing a number of rexml dependency fixes
+which were causing a significant number of rcov bugs.
+
+features include:
+
+  * fast execution: 20-300 times faster than previous tools
+  * multiple analysis modes: standard, bogo-profile, intentional testing,
+    dependency analysis, and more
+  * differential code coverage detection
+  * accurate coverage information via code linkage inference
+  * cross-referenced xhtml and several kinds of text reports
+  * support for easy automation with rake
+  * colorblind-friendliness

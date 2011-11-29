@@ -1,0 +1,14 @@
+Document layout analysis and optical character recognition system
+	
+ocrfeeder is a document layout analysis and optical character
+recognition system.
+
+given the images it will automatically outline its contents,
+distinguish between what's graphics and text and perform ocr over the
+latter. it generates multiple formats being its main one odt.
+
+it features a complete gtk graphical user interface that allows the
+users to correct any unrecognized characters, defined or correct
+bounding boxes, set paragraph styles, clean the input images, import
+pdfs, save and load the project, export everything to multiple
+formats, etc.

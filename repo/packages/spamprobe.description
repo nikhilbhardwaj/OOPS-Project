@@ -1,0 +1,9 @@
+Bayesian spam filter
+	
+this package provides a spam filter based on the article 'a plan for spam'
+by paul graham. it uses a database (either berkeleydb or a simpler hash
+file) to store one- and two-word phrases. only certain headers are analyzed
+and html tags are ignored to prevent false positives of legitimate html
+emails. image attachments are considered as words that can signal spam. it
+can be simply integrated with procmail or maildrop to filter spam on
+incoming mail.

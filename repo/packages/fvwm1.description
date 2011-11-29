@@ -1,0 +1,17 @@
+Old version of the f(?) virtual window manager
+	
+this package contains the old version of the fvwm windows manager.
+it is no longer supported upstream, having been replaced by fvwm 2,
+and so no non-debian-related bugs will be fixed unless someone
+else provides a patch.
+
+you probably only want to use this package instead of the fvwm
+package if you know what you are doing or have very specific
+requirements.
+
+fvwm is a fairly small window manager which provides
+a three-dimensional appearance and a virtual desktop,
+complete with colour icons.
+
+you will need to install the fvwm-common package if you want the
+xpmroot command and some icons, along with manual pages for the modules.

@@ -1,0 +1,5 @@
+Simple interface to gtk2's complex mvc list widget
+	
+gtk2::ex::simple::list is a simple interface to the powerful but complex
+gtk2::treeview and gtk2::liststore combination, implementing using tied
+arrays to make thing simple and easy.

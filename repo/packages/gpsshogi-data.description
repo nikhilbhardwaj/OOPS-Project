@@ -1,0 +1,14 @@
+Data files for gpsshogi
+	
+gpsshogi is a shogi playing program based on openshogilib and won the 19th
+world computer shogi championship. this package contains several binaries to
+play with computer shogi.
+
+ - gpsshogi: support the csa protocol
+ - gpsusi: support the usi protocol
+ - gpsshogi-viewer: gui application to investigate positions
+ - gpsshell: shell-like client to investigate positions
+
+
+this package contains data files defining parameters of evaluation functions,
+an opening book for gpsshogi

@@ -1,0 +1,12 @@
+Perl data structure browser
+	
+wx::perl::datawalker implements a wx::frame subclass that shows a relatively
+simple perl data structure browser. after opening such a frame and supplying
+it with a reference to an essentially arbitrary data structure, you can
+visually browse it by double-clicking references.
+
+so far, there is no tree view but only a display of the current level of the
+data structure. you can traverse back up the structure with a back button.
+
+optionally, wx::perl::datawalker displays the (approximate!) size of the data
+structure using devel::size.

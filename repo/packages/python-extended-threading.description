@@ -1,0 +1,14 @@
+Extension of the python threading api
+	
+this is an extension to the basic python threading library. it allows
+inheritance of locks and several other non-inheritable types. it also
+adds a few new lock types for those who found the original set
+lacking.
+
+its main characteristics are:
+
+
+ * subclassable locks
+ * read/write mode lock (write locks are exclusive, read locks are
+   not)
+ * "safe" object based locks to help debug lock code.

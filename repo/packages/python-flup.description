@@ -1,0 +1,11 @@
+Implements python web server gateway interface (wsgi)
+	
+implements the standard interface between python web applications and web
+servers, as described in pep 333, http://www.python.org/dev/peps/pep-0333
+speaks:
+
+ * ajp - apache jserv protocol 1.3
+ * fastcgi, see http://www.fastcgi.com/
+ * scgi - simple common gateway interface alternative
+
+.

@@ -1,0 +1,7 @@
+Debugging symbols for kdeartwork
+	
+this package contains the debugging files associated with kdeartwork.
+they will automatically be used by gdb for debugging kdeartwork-related
+issues.
+
+this package is part of the kde artwork module.

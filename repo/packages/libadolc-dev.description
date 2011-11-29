@@ -1,0 +1,9 @@
+Adolc development libs and headers
+	
+the adolc system automatically calculates exact derivatives of a
+c/c++ function.  it uses c++ overloading to record arithmetic
+operations, which it plays back later in various ways to calculate
+the requested values.
+
+this package contains the development library, header files,
+and user's manual.

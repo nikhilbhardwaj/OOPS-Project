@@ -1,0 +1,10 @@
+Win32 audio/video plugin for libavifile
+	
+this package provides a plugin for the avifile library to compress
+and decompress audio/video streams with the help of win32 (i386)
+dll libraries (codecs). default location for them is /usr/lib/win32.
+
+notice:
+
+  win32 codecs are not part of this package and have to be downloaded
+  separately! see documentation or www pages for more details.

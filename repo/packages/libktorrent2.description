@@ -1,0 +1,10 @@
+The ktorrent library for c++ / qt 4 / kde platform
+	
+the ktorrent library is a c++ / qt 4 / kde platform based implementation of
+the bittorrent protocol (mostly client side).
+
+the library supports connectivity to http and udp trackers, mainline dht and
+the new generation micro transport protocol (utp). in addition, it provides
+many powerful bittorrent network features including but not limited to torrent
+downloading and seeding, torrent creation and downloaded data verification,
+magnet links, advanced peer management, ip blocking lists.

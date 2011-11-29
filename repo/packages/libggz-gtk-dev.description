@@ -1,0 +1,12 @@
+Ggz gaming zone: core client embedding library for gtk+ - development files
+	
+ggz core clients enable players to access the ggz server to chat, meet
+other people in the game lobbies, play with them, watch their scores,
+and be spectator other people's games.
+
+this package provides the header files and static libraries for an
+embeddable core client that can be used by gtk+ games to integrate
+extended ggz functionality.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

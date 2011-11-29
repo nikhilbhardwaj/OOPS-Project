@@ -1,0 +1,8 @@
+Mime library - runtime
+	
+the mimelib library is a c++ class library for creating, parsing, and
+modifying messages in mime format.
+
+this version of the library is a slightly patched version from kdepim3.
+
+this is the runtime package for programs that use the libmimelib library.

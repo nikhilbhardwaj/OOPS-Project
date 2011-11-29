@@ -1,0 +1,13 @@
+Dynamic relay authorization control (development files)
+	
+a daemon that dynamically updates a relay authorization map for some
+mta (postfix, sendmail). it provides a way to allow legitimate users
+to relay mail through an smtp server, while still preventing others
+from using it as a spam relay. user's ip addresses are added to the
+map immediately after they have authenticated to the pop or imap
+server. by default, map entries expire after 30 minutes, but can be
+renewed by additional authentication. periodically checking mail on
+a pop server is sufficient to do this. the pop and smtp servers can
+be on different hosts.
+
+this package contains the header file.

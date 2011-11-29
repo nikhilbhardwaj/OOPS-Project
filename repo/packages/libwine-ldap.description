@@ -1,0 +1,7 @@
+Windows api implementation - ldap module
+	
+wine is a free ms-windows api implementation.
+this is still a work in progress and many applications may still not work.
+
+this package contains a module that allows windows applications to access
+ldap directory services.

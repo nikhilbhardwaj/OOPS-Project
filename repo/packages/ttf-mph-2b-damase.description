@@ -1,0 +1,11 @@
+Font with ranges from the latest version of unicode
+	
+mph 2b damase is a superunicode font, including ranges in plane 1 and
+ranges added in the latest release of the unicode standard (4.1). some
+of these ranges include tifinagh, kharosthi, hphags-pa, old persian
+cuneiform etc.
+
+the support for some scripts is not complete because the font lacks
+contextual substition (via opentype tables) and composite glyphs, which
+are required to support kharosthi and other scripts fully. please read
+the debian readme for a fuller discussion of the problems this may cause.

@@ -1,0 +1,7 @@
+Mail handling library - development files
+	
+libetpan! is a mail library. it may be used for low-level mail handling:
+network protocols (imap/nntp/pop3/smtp over tcp/ip and ssl/tcp/ip),
+local storage (mbox/mh/maildir), message / mime parsing.
+
+this package provides development files for the library.

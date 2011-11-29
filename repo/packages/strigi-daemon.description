@@ -1,0 +1,26 @@
+Fast indexing and searching tool for your personal data (daemon)
+	
+strigi is a program for fast indexing and searching your personal data. it can
+gather and index information from files in the filesystem even if they are
+hidden in emails or archives. it comes with a qt4 gui, an html gui and a kde
+gui.
+
+main features:
+
+ * very fast crawling
+ * very small memory footprint
+ * no hammering of the system
+ * pluggable backend, currently clucene and hyperestraier, sqlite3 and xapian
+   are in the works
+ * communication between daemon and search program over an abstract interface,
+   this is currently a simple socket but implementation of d-bus is a
+   possibility. there's a small perl program in the code as an example of how
+   to query. this is so easy that any kde app could implement this.
+ * simple interface for implementing plugins for extracting information. we'll
+   try to reuse the kat plugins, although native plugins will have a large
+   speed advantage
+ * calculation of sha1 for every file crawled (allows fast finding of
+   duplicates)
+
+
+this package contains the strigi daemon

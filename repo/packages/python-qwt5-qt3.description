@@ -1,0 +1,8 @@
+Python version of the qwt5 technical widget library
+	
+pyqwt is a set of python bindings for the qwt c++ class library which extends
+the qt framework with widgets for scientific and engineering applications.
+it provides a widget to plot 2-dimensional data and various widgets to
+display and control bounded or unbounded floating point values.
+
+this version is compiled against qt, version 3.

@@ -1,0 +1,7 @@
+Python-lzma debug symbols
+	
+pyliblzma provides a python interface for the liblzma library for
+reading and writing data that has been compressed or can be
+decompressed by lasse collin's xz / lzma utils.
+
+this package contains detached debugging symbols for python-lzma.

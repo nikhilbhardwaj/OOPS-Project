@@ -1,0 +1,10 @@
+C library for flexible logging (runtime)
+	
+log4c is a library of c for flexible logging to files, syslog and other
+destinations.
+
+it is modeled after the log for java library (http://logging.apache.org),
+staying as close to their api as is reasonable.
+
+this package contains the files necessary for running applications that
+use the log4c library.

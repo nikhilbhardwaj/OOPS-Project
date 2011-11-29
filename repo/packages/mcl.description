@@ -1,0 +1,9 @@
+The markov cluster algorithm
+	
+the mcl package is an implementation of the mcl algorithm, and offers
+utilities for manipulating sparse matrices (the essential data
+structure in the mcl algorithm) and conducting cluster experiments.
+
+mcl is currently being used in sciences like biology (protein family
+detection, genomics), computer science (node clustering in
+peer-to-peer networks), and linguistics (text analysis).

@@ -1,0 +1,4 @@
+PackageId:25405
+Name:network-preseed
+Version:1.48
+Deps:cdebconf-udeb,configured-network,netcfg,netcfg-static,ppp-udeb,preseed-common

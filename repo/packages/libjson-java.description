@@ -1,0 +1,14 @@
+Library for transforming java objects and xml to json and back again
+	
+json-lib is a java library for transforming beans, maps, collections,
+java arrays and xml to json and back again to beans and dynabeans.
+
+json (javascript object notation) is a lightweight data-interchange
+format. it is easy for humans to read and write. it is easy for
+machines to parse and generate. it is based on a subset of the
+javascript programming language, standard ecma-262 3rd edition -
+december 1999. json is a text format that is completely language
+independent but uses conventions that are familiar to programmers of
+the c-family of languages, including c, c++, c#, java, javascript,
+perl, python, and many others.  these properties make json an ideal
+data-interchange language.

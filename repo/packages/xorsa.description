@@ -1,0 +1,13 @@
+Tool for celestial mechanics investigations
+	
+orbit reconstruction, simulation and analysis (orsa) is a framework
+for celestial mechanics investigations. the main goals of the project
+are the implementation of state of the art orbit integration
+algorithms, with concerns on accuracy and performance, and the
+development of a number of analysis tools.
+
+this package contains xorsa, the main graphical application  provided
+by the orsa project. it is an interactive tool for scientific grade
+celestial mechanics computations. asteroids, comets, artificial
+satellites, solar, and extra-solar planetary systems can be
+accurately reproduced, simulated and analyzed.

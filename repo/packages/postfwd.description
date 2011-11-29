@@ -1,0 +1,8 @@
+Postfix policyd to combine complex restrictions in a ruleset
+	
+postfwd is written in perl to combine complex postfix restrictions in a
+ruleset similar to those of the most firewalls. the program uses the postfix
+policy delegation protocol to control access to the mail system before a
+message has been accepted. it allows you to choose an action (e.g. reject,
+dunno) for a combination of several smtp parameters (like sender and recipient
+address, size or the client's tls fingerprint).

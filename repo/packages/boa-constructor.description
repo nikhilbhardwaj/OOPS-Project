@@ -1,0 +1,21 @@
+Rad tool for python and wxwindows application
+	
+boa-constructor is an ide oriented towards creating cross-platform
+applications built on top of the python language and the wxwindows gui
+toolkit.
+
+it features:
+
+ - visual wxwindows frame design,
+ - object inspector and explorer,
+ - syntax highlighting editor with code completion, call tips and code
+   browsing for python code,
+ - syntax highlighting editor for c, c++, html, xml, config files (ini
+   style),
+ - documentation generation,
+ - an integrated python debugger,
+ - integrated help,
+ - a python shell,
+ - an explorer able to browse, open/edit, inspect and interact with
+   various data sources including files, cvs, zope, ftp, dav and ssh,
+ - an uml view generator.

@@ -1,0 +1,7 @@
+Python module for reading, writing, and manipulating fits files
+	
+fits (flexible image transport system) is a data format most used in
+astronomy. pyfits is a python module for reading, writing, and manipulating
+fits files. the module uses python's object-oriented features to provide quick,
+easy, and efficient access to fits files. the use of python's array syntax
+enables immediate access to any fits extension, header cards, or data items.

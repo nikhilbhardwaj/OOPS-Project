@@ -1,0 +1,16 @@
+Web-based network management system (nms) for ip networks
+	
+jffnms is a network management system designed to maintain an ip snmp, syslog
+and/or  tacacs+  network. it can be used to monitor any standards compliant
+snmp device, server, tcp port or custom poller, also it has some cisco
+oriented features.
+
+features summary
+
+ * written in php (works in php5)
+ * php/cron scripts for polling, analizing and consolidating data
+ * database backend mysql or postgresql
+ * configurable event types and severity levels
+ * modular and extensible
+ * advanced event filter
+ * interface & host/network autodiscovery

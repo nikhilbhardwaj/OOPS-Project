@@ -1,0 +1,5 @@
+Small command executer with autocompletion using gtk+
+	
+gexec is a small and simple command executer using gtk+. it features
+autocompletition and a command history. furthermore gexec can run
+the chosen command as root or in a terminal emulator.

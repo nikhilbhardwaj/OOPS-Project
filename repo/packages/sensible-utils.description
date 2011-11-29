@@ -1,0 +1,8 @@
+Utilities for sensible alternative selection
+	
+this package provides a number of small utilities which are used
+by programs to sensibly select and spawn an appropriate browser,
+editor, or pager.
+
+the specific utilities included are: sensible-browser sensible-editor
+sensible-pager

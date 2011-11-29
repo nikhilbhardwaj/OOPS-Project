@@ -1,0 +1,23 @@
+Filters bibtex files and translates them to html
+	
+collection of tools for filtering bibtex data bases and for producing
+html documents from bibtex data bases:
+
+
+ - aux2bib extracts a bibtex database consisting of only the entries
+   that are refereed by an aux file.
+
+
+
+ - bib2bib is a filter tool that reads one or several bibliography
+   files, filters the entries with respect to a given criterion, and
+   outputs the list of selected keys together with a new bibliography
+   file containing only the selected entries;
+
+
+
+ - bibtex2html is a translator that reads a bibliography file and
+   outputs two html documents that are respectively the cited
+   bibliography in a nice presentation, and the original bibtex file
+   augmented with several transparent html links to allow easy
+   navigation.

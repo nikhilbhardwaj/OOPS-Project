@@ -1,0 +1,11 @@
+Libraries from cameleon
+	
+it contains the libraries built with cameleon:
+
+ - config_file, create configuration files,
+ - configwin, build configuration or input windows in lablgtk,
+ - odiff, print and parse differences between files or strings, in the diff
+   utility format,
+ - odot, parse and print graphviz dot files,
+ - okey, add handlers to key press events in lablgtk,
+ - tdl, represent, store and read todo lists in xml files,

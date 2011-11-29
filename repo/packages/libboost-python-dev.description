@@ -1,0 +1,26 @@
+Boost.python library development files (default version)
+	
+this package forms part of the boost c++ libraries collection.
+
+the boost python library is used to quickly and easily export a c++
+library to python such that the python interface is very similar to
+the c++ interface. it is designed to be minimally intrusive on your
+c++ design. in most cases, you should not have to alter your c++
+classes in any way in order to use them with boost.python.  the
+system should simply "reflect" your c++ classes and functions into
+python. the major features of boost.python include support for:
+subclassing extension types in python, overriding virtual functions
+in python, member function overloading, automatic wrapping of
+numeric operators among others.
+
+this package also contains the pyste boost.python code generator that
+allows the user to specify classes and functions to be exported using
+a simple interface file, which following the boost.python's
+philosophy, is simple python code.
+
+this package allows development of a python interface for all current
+versions of python in debian.  code using this library will need also
+one of the python development packages.
+
+this package is a dependency package, which depends on debian's default
+boost version (currently 1.42).

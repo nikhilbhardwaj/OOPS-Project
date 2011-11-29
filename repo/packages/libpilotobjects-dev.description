@@ -1,0 +1,7 @@
+Objects for pilot-qof - headers
+	
+pilot-qof provides a query interface to data on a palm device,
+using pilot-link and qof - the query object framework.
+
+this package contains the header files for qof objects that
+define the addressbook, datebook, expenses and invoice objects.

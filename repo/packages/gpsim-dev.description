@@ -1,0 +1,8 @@
+Libraries needed only for building gpsim components
+	
+gpsim is a full-featured software simulator for microchip pic microcontrollers.
+
+this package install the libraries and headers necessary to build the
+supporting modules for gpsim.
+
+note: as a user of gpsim this package does not need to be installed.

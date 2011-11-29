@@ -1,0 +1,10 @@
+Test tool for kparts
+	
+kpartloader is a very simple application to test loading of a kpart.
+kpartloader is called with a simple argument to tell which kpart to load.
+
+kparts is a kde core technology to embed components of one application into
+other applications. this application is used for testing such components
+during development.
+
+this package is part of the kde software development kit module.

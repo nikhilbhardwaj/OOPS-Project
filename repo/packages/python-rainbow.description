@@ -1,0 +1,6 @@
+Core rainbow shared module
+	
+rainbow is a isolation shell which implements portions of the bitfrost
+security architecture, as used on the olpc xo-1 and elsewhere.
+
+this package contains the shared python module used by the rainbow frontend.

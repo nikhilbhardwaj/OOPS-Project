@@ -1,0 +1,4 @@
+PackageId:34266
+Name:wicd-daemon
+Version:1.7.0+ds1-5
+Deps:adduser,dbus,debconf,debconf-2.0,cdebconf,cdebconf-udeb,dhcpcd,dhcp3-client,isc-dhcp-client,pump,udhcpc,iputils-ping,inetutils-ping,lsb-base,net-tools,freebsd-net-tools,ethtool,iproute,psmisc,python,python-dbus,python-gobject,python-iniparse,python-wicd,wireless-tools,wpasupplicant

@@ -1,0 +1,12 @@
+Program for typesetting graphs
+	
+this is grap, an implementation of kernighan and bentley's grap language
+for typesetting graphs. the grap preprocessor works with pic and troff
+(or groff).
+
+grap is a language for describing graphical displays of data. it
+provides such services as automatic scaling and labeling of axes,
+and for statements, if statements, and macros to facilitate user
+programmability. grap is intended primarily for including graphs in
+documents prepared with groff or tex, and is only marginally useful for
+elementary tasks in data analysis.

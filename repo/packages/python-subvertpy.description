@@ -1,0 +1,8 @@
+Alternative python bindings for subversion
+	
+python bindings for the subversion version control system. the aim of
+these bindings is to be fast, complete and providing an api that feels native
+to python programmers.
+
+this also includes an experimental server-side implementation of the
+subversion protocol.

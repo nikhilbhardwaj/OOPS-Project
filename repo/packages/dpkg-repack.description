@@ -1,0 +1,11 @@
+Puts an unpacked .deb file back together
+	
+dpkg-repack creates a .deb file out of a package that has already
+been installed. if any changes have been made to the package while it was
+unpacked (ie, files in /etc were modified), the new package will inherit
+the changes.
+
+this utility can make it easy to copy packages from one computer to another,
+or to recreate packages that are installed on your system, but no longer
+available elsewhere, or to store the current state of a package before you
+upgrade it.

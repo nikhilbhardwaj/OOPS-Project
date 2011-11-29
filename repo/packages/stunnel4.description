@@ -1,0 +1,13 @@
+Universal ssl tunnel for network daemons
+	
+the stunnel program is designed to work  as  ssl  encryption
+wrapper between remote client and local (inetd-startable) or
+remote server. the concept is that having non-ssl aware daemons
+running  on  your  system you can easily setup them to
+communicate with clients over secure ssl channel.
+
+stunnel can be used to add  ssl  functionality  to  commonly
+used  inetd  daemons  like  pop-2,  pop-3  and  imap servers
+without any changes in the programs' code.
+
+this package contains a wrapper script for compatibility with stunnel 3.x

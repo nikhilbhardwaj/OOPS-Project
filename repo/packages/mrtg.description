@@ -1,0 +1,14 @@
+Multi router traffic grapher
+	
+the multi router traffic grapher is a tool primarily used to monitor the
+traffic load on network links (typically by using snmp). mrtg generates html
+pages containing png images which provide a live visual representation of this
+traffic. mrtg typically produces daily, weekly, monthly, and yearly graphs.
+
+in addition to monitoring via snmp, mrtg can also generate graphs based on
+the output of any application, allowing one to generate graphs of anything
+that needs monitoring (for example, cpu and memory usage, email volumes, web
+hits, etc). for faster data collection, mrtg can also interface to rrdtool.
+
+the mrtg-contrib package contains the contributed scripts and configuration
+files that used to form part of the mrtg package.

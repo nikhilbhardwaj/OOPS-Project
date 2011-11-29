@@ -1,0 +1,13 @@
+Tool for construction of phylogenetic trees of dna sequences
+	
+fastdnaml is a program derived from joseph felsenstein's version 3.3 dnaml
+(part of his phylip package).  users should consult the documentation for
+dnaml before using this program.
+
+fastdnaml is an attempt to solve the same problem as dnaml, but to do so
+faster and using less memory, so that larger trees and/or more bootstrap
+replicates become tractable.  much of fastdnaml is merely a recoding of the
+phylip 3.3 dnaml program from pascal to c.
+
+note that the homepage of this program is not available any more and so
+this program will probably not see any further updates.

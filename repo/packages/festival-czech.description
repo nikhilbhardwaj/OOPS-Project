@@ -1,0 +1,5 @@
+Czech support for festival speech synthesis system
+	
+general czech language support for festival, necessary to make festival speak
+czech.  this package does not contain czech festival voice data, you must
+additionally install the voice-czech-ph package or another czech voice.

@@ -1,0 +1,17 @@
+Indexes and searches email in maildir folders
+	
+nmzmail is a tool, primarily to be used with mutt, for indexing and searching
+maildir folders.  based on the result of a search query using the search
+engine namazu2, nmzmail generates a maildir folder containing symbolic links
+to the mail(s) matching the query.  a simple mutt macro makes it easy to use
+nmzmail from within mutt.  nmzmail is similar to mairix (another email
+index/search program), but perhaps easier to use since it uses the query
+syntax of namazu2.
+
+features:
+
+  - fast mail searching even with large quantities of mail
+  - incremental index building
+  - integrates very nicely into mutt
+  - rich, but simple, query language including regex
+  - query history

@@ -1,0 +1,12 @@
+Read metadata from digital pictures
+	
+exifprobe reads image files produced by digital cameras (including
+several so-called "raw" file formats) and reports the structure of
+the files and the auxiliary data and metadata contained within
+them. in addition to tiff, jpeg, and exif, the program understands
+several formats which may contain "raw" camera data, including mrw,
+ciff/crw, jp2/jpeg2000, raf, and x3f, as well as most most
+tiff-derived "raw" formats, including dng, orf, cr2, nef,
+k25/kdc/dcr, and pef.
+
+http://www.virtual-cafe.com/~dhh/tools.d/exifprobe.d/exifprobe.html

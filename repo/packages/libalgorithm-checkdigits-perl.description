@@ -1,0 +1,8 @@
+Perl extension to generate and test check digits
+	
+this module provides a number of methods to test and generate checksum
+digits such as carrier trackers, isbns, banknotes, credit cards and a
+lot of other identification numbers.
+
+it will check validity, complete partial numbers, provide base check
+numbers and extract check digits from several sequence of numbers.

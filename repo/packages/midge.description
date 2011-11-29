@@ -1,0 +1,6 @@
+A text to midi program
+	
+midge generates midi files from text input. most general midi
+features are supported, and there are some basic methods of
+randomly generating sequences. also included is a decompiler
+and an emacs mode.

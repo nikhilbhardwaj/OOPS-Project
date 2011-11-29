@@ -1,0 +1,6 @@
+Library to detect modules loaded by perl code without running it
+	
+module::used is a perl module that does static analysis of arbitrary perl
+code, looking for use and require statements to determine what modules are
+required by the code. it also knows about moose and moose::role, so it can
+determine appropriate dependencies in that case too.

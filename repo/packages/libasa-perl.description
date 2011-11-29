@@ -1,0 +1,6 @@
+Perl module for expanding a class or object's list of base classes
+	
+the asa pragma attempts a new approach to bringing java-style interfaces
+or perl 6-style roles to perl 5.  it allows a class or object to
+look like a derivative of another class without actually specifying
+it in the @isa array.

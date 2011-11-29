@@ -1,0 +1,10 @@
+Perl dbi driver for oracle
+	
+dbd::oracle is a perl module that works with the dbi module to provide access
+to oracle databases.
+
+the oracle instant client needs to be installed in order to be able to use
+this module.  it is available free of cost from oracle, but it is not free
+software.  to install the instant client, download the rpm package from
+<http://www.oracle.com/technology/software/tech/oci/instantclient/index.html>
+and install it using alien.

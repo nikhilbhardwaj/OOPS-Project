@@ -1,0 +1,6 @@
+Sound server for audio mixing
+	
+roaraudio is a server for audio mixing. its main purpose is to mix audio from
+different clients before sending it to its outputs (for example a soundcard).
+it is completely network transparent (unix sockets, tcp/ip, decnet) and
+supports many common codecs like ogg vorbis, speex or flac.

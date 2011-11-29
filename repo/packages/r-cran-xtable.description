@@ -1,0 +1,6 @@
+Gnu r coerce data to latex and html tables
+	
+this r package provides functions returning, displaying or writing to
+disk the latex or html code associated with the supplied object of
+class xtable.  the package also provides functions converting an r object
+to an xtable object, which can then be printed as a latex or html table.

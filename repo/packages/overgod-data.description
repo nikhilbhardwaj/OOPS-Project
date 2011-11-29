@@ -1,0 +1,11 @@
+Graphics and audio data for overgod
+	
+overgod is an arcade game with bi-directional scrolling where you need to
+destroy all enemies in an area in a given time. the game is a mix of the
+classic arcade games asteroids and thrust with a lot of additional features.
+
+overgod can also be played in two-player duel or cooperative modes, or in
+a special "time attack" version where enemies endlessly appear.
+
+this package contains the architecture-independent data for overgod. for more
+information, see the overgod package.

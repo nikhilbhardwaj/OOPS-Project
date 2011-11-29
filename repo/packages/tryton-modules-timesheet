@@ -1,0 +1,4 @@
+PackageId:33227
+Name:tryton-modules-timesheet
+Version:1.6.0-1
+Deps:python,python-pkg-resources,python-support,tryton-modules-company,tryton-modules-company-work-time,tryton-server

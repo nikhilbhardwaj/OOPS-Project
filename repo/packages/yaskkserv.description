@@ -1,0 +1,9 @@
+Small and fast skk dictionary server intended for embedded use
+	
+yaskkserv is a dictionary server for the skk japanese input method
+system. yaskkserv is written in c++ from scratch in consideration of
+embedded environment, but is compatible with skkserv on the protocol
+behavior.
+
+yaskkserv can use multiple dictionaries and also supports server
+completion.

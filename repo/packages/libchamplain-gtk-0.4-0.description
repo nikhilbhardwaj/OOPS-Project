@@ -1,0 +1,7 @@
+A gtk+ widget to display maps
+	
+libchamplain-gtk is a c library aimed to provide a gtk+ widget
+to display rasterized maps and markers.
+
+it supports numerous free map sources such as
+openstreetmap (default), openarialmap and maps for free.

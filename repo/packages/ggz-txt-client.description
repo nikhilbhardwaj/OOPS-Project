@@ -1,0 +1,14 @@
+Ggz gaming zone: client for the command line
+	
+ggz core clients enable players to access the ggz server to chat, meet
+other people in the game lobbies, play with them, watch their scores,
+and be spectator other people's games.
+
+this package provides a text-only client useful for communication with
+the ggz server and other players.  it is quite configurable, comes with
+an integrated help screen, and allows playing games.  in the text
+console, only text games can be played, while in any graphical
+environment, a core client will allow launching graphical games, too.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

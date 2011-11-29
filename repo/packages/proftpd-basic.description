@@ -1,0 +1,15 @@
+Versatile, virtual-hosting ftp daemon - binaries
+	
+proftpd is a powerful replacement for wu-ftpd. this file transfer protocol
+daemon supports hidden directories, virtual hosts, and per-directory
+".ftpaccess" files. it uses a single main configuration file, with a
+syntax similar to apache.
+
+because of the advanced design, anonymous-ftp directories can have
+an arbitrary internal structure (bin, lib, etc, and special files are
+not needed). advanced features such as multiple password files and
+upload/download ratios are also supported.
+
+this package contains the daemon and all main modules used for
+common configurations. if you need database-centric authentication
+install the suitable proftpd-mod suggested package.

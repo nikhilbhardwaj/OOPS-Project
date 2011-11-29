@@ -1,0 +1,16 @@
+Various tk perl widgets
+	
+a contribution to the ever growing collection of tk widgets, currently it
+includes:
+
+
+    tk::cloth       - an oo interface to tk::canvas
+    tk::tframe      - a frame with a title
+    tk::numentry    - an entry widget that accepts numbers and has up/down
+                      buttons for in/decrement.
+    tk::firebutton  - button that keeps invoking command when pressed
+
+
+tk::pane and tk::progressbar are no longer part of this
+distribution, because they are included in standard perl/tk since
+800.016.

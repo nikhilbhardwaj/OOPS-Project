@@ -1,0 +1,4 @@
+Pam module to enable cracklib support
+	
+this package includes libpam_cracklib, a pam module that tests
+passwords to make sure they are not too weak during password change.

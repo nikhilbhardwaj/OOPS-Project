@@ -1,0 +1,7 @@
+Minimal set of sox format libraries
+	
+sox is the swiss army knife of sound processing.
+
+this package contains most audio formats libraries supported by sox.
+among them: ogg vorbis, wav, aiff, voc, snd, au, gsm, wavpack, lpc10, flac,
+matlab/gnu octave, portable voice format, amr and sound forge audio format.

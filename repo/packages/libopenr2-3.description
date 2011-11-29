@@ -1,0 +1,13 @@
+Mfc/r2 (telephony) call setup library
+	
+openr2 is a library that implements the mfc/r2 telephony signalling
+over e1 lines using the dahdi telephony interface.
+
+the mfc/r2 protocol is a telephony signalling protocol, widely used in latin
+america, china and africa, similar to the isdn protocols found in most of
+europe and north america
+
+this package contains a shared library implementing the protocol.
+
+you may want to have a look at the asterisk pbx for a telephony application
+that uses this library.

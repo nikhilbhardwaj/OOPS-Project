@@ -1,0 +1,4 @@
+PackageId:24993
+Name:munin-libvirt-plugins
+Version:0.0.6-1
+Deps:munin-node,python,python-libvirt,python-libxml2

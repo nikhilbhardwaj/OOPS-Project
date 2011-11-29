@@ -1,0 +1,10 @@
+Mono profiler libraries
+	
+profiler libraries for mono, used for profiling applications running on mono.
+for details how to use them, please take a look at the mono manpage.
+
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.

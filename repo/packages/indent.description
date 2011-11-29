@@ -1,0 +1,8 @@
+C language source code formatting program
+	
+the `indent' program changes the appearance of a c program by
+inserting or deleting whitespace.
+
+`indent' also provides options for controlling the alignment of braces and
+declarations, program indenting, and other stylistic parameters, including
+formatting of both c and c++ comments.

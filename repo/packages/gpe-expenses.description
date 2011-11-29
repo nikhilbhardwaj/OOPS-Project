@@ -1,0 +1,7 @@
+Simple expense records for gpe
+	
+a simple expenses list manager for the gpe palmtop environment,
+an equivalent to expenses on the palm but running on familiar
+(ipaq). supports payment types, categories, expense types
+(mileage, meals, parking, etc.), notes, currency selection etc.
+data is stored in a sqlite backend using qof.

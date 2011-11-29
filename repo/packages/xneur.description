@@ -1,0 +1,10 @@
+In-place conversion of text typed in with a wrong keyboard layout
+	
+when users work in multilingual environment (e.g. russian+english), they
+sometimes type in text with wrong keyboard layout. in auto mode xneur can
+automatically detect language of word user typed, switch keyboard layout and
+convert word from one keyboard layout into another. in manual mode user has
+ability to convert last typed word or some selected text with hot-keys.
+the main idea of this utility is similar to punto switcher for ms windows.
+for now xneur support english, russian, ukrainian, belarusian, french,
+romanian, german, kazakh and many other languages.

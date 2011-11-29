@@ -1,0 +1,12 @@
+Fast light toolkit - example games: checkers, sudoku
+	
+this package contains the example games that accompany fltk.
+specifically, it contains the following two programs:
+
+ - flblocks:   clear groups of adjacent blocks before they fill the screen;
+ - flcheckers: classic board game, also known as draughts;
+ - flsudoku:   sudoku puzzle (place numbers in a grid).
+
+
+the fast light toolkit (fltk) is a cross-platform graphical user interface
+toolkit originally based on libforms.

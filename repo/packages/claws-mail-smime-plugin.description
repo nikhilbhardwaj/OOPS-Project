@@ -1,0 +1,10 @@
+S/mime signature/encryption handling for claws mail
+	
+this plugin handles s/mime signed and/or encrypted mails in claws mail.
+you can decrypt mails, verify signatures or sign and encrypt your own mails.
+
+s/mime is also known as pkcs#7 and uses the application/pkcs7-signature
+or application/x-pkcs7-signature mime subtype within messages.
+
+receiving an attachment called smime.p7m is also sign of this kind of
+signature usage.

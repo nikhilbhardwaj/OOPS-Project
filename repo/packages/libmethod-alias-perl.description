@@ -1,0 +1,9 @@
+Create method aliases
+	
+the traditional way to create a method alias (provide an alternate
+name for a method) is simply a glob alias.  while this works fine for
+functions, it does not work for methods overloaded by a subclass.
+
+instead, method::alias creates a number of methods in the caller's
+package to call the real method. it is designed to be used as a pragma,
+to which you provide a set of pairs of method names.

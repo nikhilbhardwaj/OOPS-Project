@@ -1,0 +1,9 @@
+Perl module to dump subroutine parameters concisely
+	
+devel::partialdump is similar in nature to data::dumper, however, it is
+optimized for the common case of bug reporting with complex data structures.
+outputting a string containing a complex data structure can yield rather
+useless results, since the structures are stringified.
+
+this module optionally overrides carp's routines to provide a concise dump of
+a variable's contents instead of a simple stringification with warn, etc.

@@ -1,0 +1,10 @@
+Openhpi daemon, supports gathering of manageability information
+	
+openhpi is an implementation of the service availability forum's hardware
+platform interface specification.  (see http://www.saforum.org)  as
+such, openhpi facilitates the development of computer manageability
+applications which are not tied to a single hardware vendor's products.
+
+this package contains the openhpi daemon.  this process gathers
+information from managed hardware and systems, making this available
+to openhpi-based applications.

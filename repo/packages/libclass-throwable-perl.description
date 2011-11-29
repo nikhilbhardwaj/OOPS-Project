@@ -1,0 +1,7 @@
+A minimal lightweight exception class
+	
+this module implements a minimal lightweight exception object. it is meant to
+be a compromise between more basic solutions like carp which can only print
+information and cannot handle exception objects, and more more complex
+solutions like exception::class which can be used to define complex inline
+exceptions and has a number of module dependencies.

@@ -1,0 +1,22 @@
+Integrated document editing environment for tex etc.
+	
+auctex is a comprehensive customizable integrated environment for writing
+input files for tex/latex/context/texinfo using gnu emacs.  currently
+xemacs ships with its own auctex version.
+
+it supports processing source files by running tex and related tools
+(such as output filters, post processors for generating indices and
+bibliographies, and viewers) from inside emacs.  auctex allows browsing
+through the errors reported by tex, while it moves the cursor directly to
+the reported error, and displays some documentation for that particular
+error.  this will even work when the document is spread over several
+files.
+
+auctex can automatically indent latex source, either line by line or for
+an entire document, and has a special outline feature which can greatly
+assist in getting an overview of a document.
+
+auctex is written entirely in emacs lisp, and may therefore be enhanced
+with new features for specific needs.  it comes with a large range of
+handy emacs macros.  it is a gnu project, and documentation for all its
+features is accessible via the emacs info browser.

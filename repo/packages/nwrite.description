@@ -1,0 +1,9 @@
+Enhanced replacement for the write command
+	
+nwrite is a replacement for the standard write program that lets you write
+directly to the terminal of another logged-in user without the overhead of talk
+taking over the full screen or the other user having to respond first.
+
+nwrite's advantages over traditional write include the ability to send the same
+message simultaneously to multiple users, and a receiver-configurable message
+format, including a tag at the start of each line that identifies the sender.

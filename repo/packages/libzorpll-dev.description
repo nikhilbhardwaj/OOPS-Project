@@ -1,0 +1,9 @@
+Low level library functions for zorp, development files
+	
+zorp is a new generation firewall. it is essentially a transparent proxy
+firewall, with strict protocol analyzing proxies, a modular architecture,
+and fine-grained control over the mediated traffic. configuration decisions
+are scriptable with the python based configuration language.
+
+this package contains the development files necessary to create programs
+based on libzorpll.

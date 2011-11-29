@@ -1,0 +1,31 @@
+Commodity and stock market charting and technical analysis
+	
+qtstalker is a user friendly technical analysis package for gnu/linux.  it
+is similar to commercial software such as metastock, supercharts and
+tradestation.
+
+qtstalker's features include:
+
+ - a point-and-click graphical user interface.
+ - chart types include line, bar, candlestick, point and figure, swing.
+ - chart objects: trendlines, buy/sell arrows, fibonacci retracement, text.
+ - indicator plugins include macd, mas, bollinger bands, rsi and many more.
+ - custom indicators can be composed without programming.
+ - quote plugins download data from online sources like yahoo, cme, nybot.
+ - data import plugins for plain-text csv files and mysql databases.
+ - intra-day, daily, weekly and monthly chart compression.
+ - can manage stocks, futures, indices, ratios and spreads.
+ - back testing function allowing indicator tests using actual chart data.
+ - scanner to filter symbols based on a user defined formula.
+ - a basic portfolio manager.
+
+
+this package contains the main program and plugins.  documentation is in
+the qtstalker-doc package.
+
+qtstalker is 100% free software, distributed under the terms of the
+gnu gpl.  an active development community is continually adding new
+features.  we appreciate your input towards creating a world-class
+gnu/linux ta package.  please visit qtstalker on sourceforge.
+
+homepage: http://qtstalker.sourceforge.net/

@@ -1,0 +1,8 @@
+Utilities to use resources from netware servers
+	
+this package contains utilities to mount volumes from netware servers.  also
+included are some utilities such as nprint, which enables you to
+print on netware print queues, and pserver, which provides netware
+print queues.
+
+netware directory services are supported.

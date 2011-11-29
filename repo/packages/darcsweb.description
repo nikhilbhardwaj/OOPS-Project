@@ -1,0 +1,9 @@
+Web interface for browsing darcs repositories
+	
+this is a simple web interface for darcs, inspired by gitweb. it's
+written in python and calls darcs to get most of the data.
+
+it supports browsing records and their diffs, extracting diffs
+against the current head, browsing the current tree, annotate,
+provides an rss feed and other stuff like that.
+.

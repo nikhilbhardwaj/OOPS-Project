@@ -1,0 +1,8 @@
+A wysiwyg pseudo postscript editor
+	
+flpsed is a wysiwyg pseudo postscript editor. "pseudo", because you can't
+remove or modify existing elements of a document. but flpsed lets you add
+arbitrary text lines to existing postscript 1 documents. added lines can
+later be reedited with flpsed. using pdftops, which is part of xpdf one can
+convert pdf documents to postscript and also add text to them. flpsed is
+useful for filling in forms, adding notes etc.

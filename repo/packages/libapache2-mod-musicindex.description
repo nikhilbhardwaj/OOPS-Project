@@ -1,0 +1,9 @@
+Browse, stream, download and search through mp3/ogg/flac files
+	
+mod_musicindex is aimed at being a c alternative to the perl module
+apache::mp3 (http://search.cpan.org/dist/apache-mp3/).
+it allows nice displaying of directories containing mp3 or ogg vorbis and
+flac files, including sorting them on various fields, streaming/downloading
+them, constructing playlists and searching.
+
+this package contains the module for apache 2.2.

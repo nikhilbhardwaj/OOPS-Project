@@ -1,0 +1,13 @@
+Replacement ident daemon
+	
+an ident (rfc1413) daemon for ipv4 and ipv6.
+
+oidentd allows users, given the proper permission, to specify the
+identd response that the server will output when a successful lookup
+is completed.  oidentd also allows for pseudo-random strings
+(either a prefix, such as "user," followed by a number between 0 and
+99999, or 10 pseudo-random characters of the  set 0-9a-za-z) to be
+returned  upon the completion of a successful lookup instead of a
+username or a uid.
+
+oidentd supports ipv4 masqueraded connections, including netfilter.

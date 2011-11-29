@@ -1,0 +1,7 @@
+Pro-active password checker library
+	
+shared library for cracklib2 which contains a c function which may be
+used in a passwd like program. the idea is simple: try to prevent
+users from choosing passwords that could be guessed by crack by
+filtering them out, at source. cracklib2 is not a replacement passwd
+program. cracklib2 is a library.

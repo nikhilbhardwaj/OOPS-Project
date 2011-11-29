@@ -1,0 +1,7 @@
+Cyrus sasl - administration programs for sasl users database
+	
+this is the cyrus sasl api implementation, version 2.1. see package
+libsasl2-2 and rfc 2222 for more information.
+
+this package contains administration programs for the sasl users
+database and common binary files for plugin modules.

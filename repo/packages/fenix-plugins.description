@@ -1,0 +1,9 @@
+Plugins for the fenix game development system
+	
+fenix is an interpreted script programming language, especially designed to
+developing and running 2d games. it has a full graphic library, sound engine
+and full featured 2d game engine, making game development extremely easy.
+
+this package includes binary addons to extend the functionality of fenix.
+
+plugins included in this package: image, ttf, net, fgfx, fire and agua.

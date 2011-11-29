@@ -1,0 +1,4 @@
+Ruby1.9.1 extension for file-system information
+	
+this is a ruby extension for file-system information,
+using the 'statvfs' and 'getmntent' system calls.

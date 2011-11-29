@@ -1,0 +1,11 @@
+Module to generate html and javascript for the prototype library
+	
+html::prototype contains some code generators for prototype, the famous
+javascript oo library and the script.aculous extensions.
+
+the prototype library (http://prototype.conio.net/) is designed to make
+ajax easy. catalyst::plugin::prototype makes it easy to connect to the
+prototype library.
+
+this is mostly a port of the ruby on rails helper tags for javascript
+for use in catalyst.

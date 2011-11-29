@@ -1,0 +1,10 @@
+Poe component to manage queues and worker pools
+	
+poe::component::jobqueue manages a finite pool of worker sessions as they
+handle an arbitrarily large number of tasks. it often is used as a form of
+flow control, preventing a large group of tasks from exhausting some sort of
+resource.
+
+this module implements two kinds of queue: active and passive. both types of
+queues use a worker coderef to spawn sessions that process jobs, but how they
+use the worker differs between them.

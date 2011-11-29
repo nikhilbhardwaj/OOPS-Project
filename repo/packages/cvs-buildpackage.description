@@ -1,0 +1,27 @@
+A set of debian package scripts for cvs source trees.
+	
+this package provides the capability to inject or import debian
+source packages into a cvs repository, build a debian package from
+the cvs repository, and helps in integrating upstream changes into
+the repository.
+
+the import or inject process takes a dsc (debian source control)
+file, and imports it into cvs. the module path can maintains
+distribution and section information; for example, one may inject
+hemm/hemm/devel/make into the repository.
+
+the build process works analogously to dpkg-buildpackage, and can be
+used from within the checked out source tree, or with additional
+information, can be used from anywhere. in the latter case, you can
+build any previous version of the package, as long as the
+corresponding orig.tar.gz file is still around. the build script
+checks out the relevant version from the cvs repository, and runs
+dpkg-buildpackage to create the debian package.
+
+combined, these utilities provide an infrastructure to facilitate the
+use of cvs by debian maintainers. this allows one to keep separate
+cvs branches of a package for stable, unstable, and possibly
+experimental distributions, along with the other benefits of a
+version control system.
+
+this can be used to generate a unified cvs source tree, for example.

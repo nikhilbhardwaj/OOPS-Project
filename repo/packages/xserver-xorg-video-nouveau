@@ -1,0 +1,4 @@
+PackageId:35206
+Name:xserver-xorg-video-nouveau
+Version:1:0.0.15+git20100329+7858345-5
+Deps:libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdrm-nouveau1,libgcc1,xorg-video-abi-6.0,xserver-xorg-core

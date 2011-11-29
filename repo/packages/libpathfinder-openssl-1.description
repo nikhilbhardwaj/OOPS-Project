@@ -1,0 +1,11 @@
+Pathfinder integration library for openssl
+	
+pathfinder is designed to provide a mechanism for any program to perform
+rfc3280-compliant path validation of x.509 certificates, even when some of
+the intermediate certificates are not present on the local machine. it will
+automatically download any such certificates (and their crls) from the
+internet as needed using the aia and crl distribution point extensions of the
+certificate it is processing.
+
+this package contains the shared library to allow openssl based programs to
+use pathfinder for their certificate validation.

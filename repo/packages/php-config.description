@@ -1,0 +1,10 @@
+Your configuration's swiss-army knife
+	
+the config package provides methods for configuration manipulation. creates
+configurations from scratch, parses and outputs different formats (xml, php,
+ini, apache...), edits existing configurations, converts configurations to
+other formats, allows manipulation of sections, comments, directives..., parses
+configurations into a tree structure, provides xpath like access to directives.
+
+
+ homepage: http://pear.php.net/package/config

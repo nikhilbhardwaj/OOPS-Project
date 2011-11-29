@@ -1,0 +1,7 @@
+Gobject introspection data for the webkit library
+	
+this package contains introspection data for webkit, a web content
+engine for gtk+.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

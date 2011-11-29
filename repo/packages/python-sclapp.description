@@ -1,0 +1,11 @@
+Framework for python command-line applications
+	
+sclapp is a python module that makes it easy to write well-behaved
+command-line applications and helps authors deal with the following
+issues:
+
+
+ * signal handling
+ * terminal character encodings
+ * standard output failures (broken pipes)
+ * common command-line options (like --help and --version)

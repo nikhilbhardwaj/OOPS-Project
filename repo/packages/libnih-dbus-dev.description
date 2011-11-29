@@ -1,0 +1,7 @@
+Nih d-bus bindings library (development files)
+	
+libnih-dbus is a d-bus bindings library that integrates with the main
+loop provided by libnih.
+
+this package contains the static library and c header files which are
+needed for developing software using libnih-dbus.

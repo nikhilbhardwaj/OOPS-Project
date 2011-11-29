@@ -1,0 +1,15 @@
+A cross-platform, open-source make system
+	
+cmake is used to control the software compilation process using
+simple platform and compiler independent configuration files. cmake
+generates native makefiles and workspaces that can be used in the
+compiler environment of your choice. cmake is quite sophisticated: it
+is possible to support complex environments requiring system
+configuration, pre-processor generation, code generation, and template
+instantiation.
+
+cmake was developed by kitware as part of the nlm insight
+segmentation and registration toolkit project. the asci views project
+also provided support in the context of their parallel computation
+environment. other sponsors include the insight, vtk, and vxl open
+source software communities.

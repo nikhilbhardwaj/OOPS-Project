@@ -1,0 +1,11 @@
+Transparent pop3-proxy with virus- and spam-scanning
+	
+p3scan uses iptables port re-direction to intercept outgoing pop3
+connections. it provides different types of email scanning and is ideal
+for helping to protect your "other os" lan from harm, especially when
+used in conjunction with a firewall and other internet proxy servers.
+
+it is designed to enable scanning of incoming email messages for
+virus's, worms, trojans, spam, and harmful attachments. because viewing
+html mail can enable a spammer to validate an email address (via web
+bugs), it can also provide html stripping.

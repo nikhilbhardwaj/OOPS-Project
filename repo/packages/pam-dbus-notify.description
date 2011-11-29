@@ -1,0 +1,4 @@
+Handler for the pam-dbus module, using notification-daemon
+	
+pam-dbus-notify is a per-session daemon that displays requests from
+libpam-dbus-notify, using notification daemon popups.

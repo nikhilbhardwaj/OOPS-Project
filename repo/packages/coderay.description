@@ -1,0 +1,12 @@
+Helper programs for coderay ruby lib for syntax highlighting
+	
+coderay is a ruby library that can scan an input file or text in a web
+page and encode it as syntax highlighted html output.
+
+coderay supports many input languages including: c, c++, css, delphi, diff,
+groovy, html, rhtml (erb+html), nitro-xhtml, java, javascript, json, php,
+python, ruby, sql and yaml.
+
+coderay can output to html, json, xml, yaml.
+
+the coderay binary scans a file and outputs in html.

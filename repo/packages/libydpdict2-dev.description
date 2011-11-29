@@ -1,0 +1,8 @@
+A library for reading collins dictionaries - development files
+	
+this library makes it easy for a program to read the dictionaries distributed
+by young digital planet (english-polish/polish-english and/or
+german-polish/polish-german).
+
+this package only contains the files necessary for compiling programs which
+use the libydpdict library.

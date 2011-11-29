@@ -1,0 +1,6 @@
+Documentation for libspring-ldap-java
+	
+documentation for spring ldap, that is a java library built on the same
+principles as the jdbctemplate in spring jdbc. it completely eliminates the
+need to worry about creating and closing ldapcontext and looping through
+namingenumeration.

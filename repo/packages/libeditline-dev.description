@@ -1,0 +1,9 @@
+Development files for libeditline
+	
+this is a line-editing library. it can be linked into almost any program
+to provide command-line editing and recall. it is call-compatible with a
+subset of the fsf readline library, but it is a fraction of the size (and
+offers fewer features).
+
+this package contains the developer files: static libraries, headers,
+manpages.

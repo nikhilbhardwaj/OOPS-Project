@@ -1,0 +1,14 @@
+Automated text file generator
+	
+autogen is a tool designed for generating program files that contain
+repetitive text with varied substitutions. this is especially valuable if
+there are several blocks of such text that must be kept synchronized.
+
+included with autogen is a tool that virtually eliminates the hassle of
+processing options, keeping usage text up to date and so on. this tool
+allows you to specify several program attributes, innumerable options and
+option attributes, then it produces all the code necessary to parse and
+handle the command line and initialization file options.
+
+this package contains the development tools. libopts25-dev contains the
+static libraries and header files. libopts25 contains the shared libraries.

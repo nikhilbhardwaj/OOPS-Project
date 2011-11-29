@@ -1,0 +1,5 @@
+Sid chip emulation class based on resid
+	
+sid builder packages provide a chip emulator, to be used by libsidplay2.
+this package is an emulation based on the resid library, including hardsid
+support.

@@ -1,0 +1,6 @@
+Moose extension for a type-constraint based dispatch table
+	
+moosex::types::varianttable is a moose extension that implements a simple
+dispatch table based on moose type constraints. subtypes will be checked
+before their parents, meaning that the order of the declaration does not
+matter.

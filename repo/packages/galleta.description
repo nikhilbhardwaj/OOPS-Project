@@ -1,0 +1,7 @@
+An internet explorer cookie forensic analysis tool
+	
+galleta is a forensic tool that examines the content of cookie files produced
+by microsofts internet explorer.
+
+it parses the file and outputs a field separated that can be loaded in a
+spreadsheet.

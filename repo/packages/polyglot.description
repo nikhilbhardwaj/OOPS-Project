@@ -1,0 +1,6 @@
+Chess engine protocol adaptor, connects uci engines to xboard
+	
+common chess frontends have a winboard/xboard input interface, modern
+chess engines speak the uci "universal chess interface" protocol. this
+protocol adaptor makes it possible to use standard chess frontends, like
+xboard or scid with uci speaking engines and play chess against them.

@@ -1,0 +1,7 @@
+A redirector for the squid proxy
+	
+jesred is a very fast and highly configurable redirector for the squid
+internet object cache. jesred needs little memory, can rewrite get and
+icp_query requests and offers extensive logging.
+
+homepage:   http://www.linofee.org/~elkner/webtools/jesred/

@@ -1,0 +1,4 @@
+Statically linked version of the lustre filesystem checker
+	
+this binary is necessary to check the complete lustre filesystem for errors.
+you only need that package on lustre clients.

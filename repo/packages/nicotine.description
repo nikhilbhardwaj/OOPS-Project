@@ -1,0 +1,8 @@
+Graphical client for the soulseek peer-to-peer system
+	
+nicotine is a client for soulseek, a light and efficient file sharing
+system, written in python and using the gtk2 toolkit, based on the
+pysoulseek project.
+
+it features uploading, downloading, searching and chatting, with
+strict bandwidth control, and tries to look like pysoulseek.

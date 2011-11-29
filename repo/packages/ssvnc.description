@@ -1,0 +1,17 @@
+Enhanced tightvnc viewer with ssl/ssh tunnel helper
+	
+vnc stands for virtual network computing. it is, in essence, a remote
+display system which allows you to view a computing `desktop'
+environment not only on the machine where it is running, but from
+anywhere on the internet and from a wide variety of machine
+architectures.
+
+ssvnc is two things:
+
+* an enhanced version of the tightvnc client with support for more
+encodings and color modes, support for x11vnc and ultravnc
+extensions, dynamic screen resizing, an improved popup menu, etc.
+
+* a gui that helps set up an ssl (using stunnel) or ssh tunnel to
+connect to the vnc server through, as well as forwarding of ports for
+audio (esound/arts), smb, cups etc.

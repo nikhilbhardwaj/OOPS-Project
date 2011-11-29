@@ -1,0 +1,9 @@
+Shared memory library - development files
+	
+ossp mm is a two layer abstraction library which simplifies the use of
+shared memory between forked (and therefore closely related) processes.
+it hides all platform-dependent aspects of the process from the user
+and provides a malloc(3)-style api.
+
+this package contains the development files required to compile
+programs that use mm.

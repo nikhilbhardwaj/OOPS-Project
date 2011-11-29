@@ -1,0 +1,9 @@
+Control gembird sis-pm programmable power outlet strips
+	
+the sispmctl tool can control gembird sis-pm silver shield programmable
+power outlet strips (also known under the name revolt intelli-plug) from
+the command line.
+
+it can be used to switch on or off any of the programmable power sockets
+of the sis-pm via usb. it can also show the current status of each power
+socket, and it can handle multiple sis-pm devices, too.

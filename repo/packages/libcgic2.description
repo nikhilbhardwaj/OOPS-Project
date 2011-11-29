@@ -1,0 +1,20 @@
+C library for developing cgi applications
+	
+cgic is an ansi-c library for the creation of cgi-based world wide web
+applications.  cgic provides the following:
+
+
+  * parses form data, correcting for defective and/or inconsistent
+    browsers
+  * transparently accepts both get and post form data
+  * handles line breaks in form fields in a consistent manner
+  * provides string, integer, floating-point, and single- and
+    multiple-choice functions to retrieve form data
+  * provides bounds checking for numeric fields
+  * loads cgi environment variables into c strings which are always
+    non-null
+  * provides a way to capture cgi situations for replay in a debugging
+    environment
+
+
+this package provides a shared library version of cgic.

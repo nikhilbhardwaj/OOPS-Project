@@ -1,0 +1,8 @@
+Sfv checker and generator
+	
+sfv, simple file verification, uses crc32 checksums to verify
+that files are intact. cksfv automates the task of generating
+and checking .sfv sheets.
+for integrity, md5 checksums are probably a better alternative,
+but sfv is a widely used method for verification on the
+usenet binary newsgroups and other places.

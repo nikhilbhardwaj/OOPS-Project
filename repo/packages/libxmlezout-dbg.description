@@ -1,0 +1,12 @@
+Easy-to-use library for emitting xml from ada programs, dbg symbols
+	
+xml ez out is a small set of packages intended to aid the creation of
+xml-formatted output from within ada programs. it basically wraps the tags and
+data provided to it with xml syntax and writes them to a user-supplied medium.
+
+this medium can be any sort of writable entity, such as a file, a
+memory buffer, or even a communications link, such as a socket. the
+only functionality required of the medium is that it supply a
+meaningful "put" (for writing a string) and "new_line" procedure.
+
+this is the library containing debugging symbols for xml ez out.

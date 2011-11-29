@@ -1,0 +1,16 @@
+Cisco 7200 router emulator command line interface
+	
+dynagen is a text-based front end for dynamips, that uses the
+hypervisor mode for communication with dynamips. dynagen simplifies
+building and working with virtual networks:
+
+ * uses a simple, easy to understand configuration file for specifying
+   virtual router hardware configurations
+ * simple syntax for interconnecting routers, bridges, frame-relay and
+   atm switches. no need to deal with netios
+ * can work in a client / server mode, with dynagen running on your
+   workstation communicating to dynamips running on a back-end server.
+   dynagen can also control multiple dynamips servers simultaneously for
+   distributing large virtual networks across several machines.
+ * provides a management cli for listing devices, starting, stopping,
+   reloading, suspending, and resuming virtual routers.

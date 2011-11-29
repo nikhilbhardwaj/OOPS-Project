@@ -1,0 +1,22 @@
+Typeclasses and instances for converting between types, ghc profiling package
+	
+convertible provides a typeclass with a single function
+that is designed to help convert between different types: numeric
+values, dates and times, and the like.  the conversions perform bounds
+checking and return a pure either value.  this means that you need
+not remember which specific function performs the conversion you
+desire.
+
+also included in the package are optional instances that provide
+conversion for various numeric and time types, as well as utilities
+for writing your own instances.
+
+finally, there is a function that will raise an exception on
+bounds-checking violation, or return a bare value otherwise,
+implemented in terms of the safer function described above.
+
+convertible is also used by hdbc 2.0 for handling marshalling of
+data to/from databases.
+
+convertible is backed by an extensive test suite and passes tests
+on ghc and hugs.

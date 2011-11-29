@@ -1,0 +1,6 @@
+A command-line tool to interface mpd
+	
+mpc, music player command, is a command line tool to interface mpd, music
+player daemon.  it is fast and lightweight like mpd, making it ideal for
+scripting commands and binding to hotkeys.  completion for the bash shell
+is provided.

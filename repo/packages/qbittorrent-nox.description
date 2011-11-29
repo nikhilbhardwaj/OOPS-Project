@@ -1,0 +1,20 @@
+Bittorrent client based on libtorrent-rasterbar (without x support)
+	
+bittorrent client written in c++ and based on libtorrent-rasterbar.
+qbittorrent-nox is a version of qbittorrent (qt4 application) that does not
+require x and can be controlled via a webui, thus is more suitable for headless
+servers. it is a feature rich but lightweight client that is very similar to
+rtorrent. its main features are:
+
+
+ * remote control through a web user interface
+ * vuze-compatible protocol encryption
+ * utorrent-compatible peer exchange (pex)
+ * dht (trackerless) support
+ * upnp / nat-pmp port forwarding
+ * ipv6 compliant
+ * advanced control over torrent content and trackers
+ * ip filtering (emule / peer guardian filters)
+ * torrents queueing and prioritizing
+ * good localization (~25 languages supported)
+ * unicode support

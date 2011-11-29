@@ -1,0 +1,16 @@
+A toolbox for manipulating and creating ogg video files
+	
+contains the following command line tools:
+
+
+  * oggcat - concatenates two ogg video files
+  * oggcut - extracts parts of an ogg file
+  * oggdump
+  * oggjoin - multiplexes ogg streams
+  * ogglength
+  * oggresize - resizes ogg files in multiple ways
+  * oggscroll
+  * oggsilence
+  * oggslideshow - creates slideshows from pictures
+  * oggsplit - demultiplexes ogv files
+  * oggthumb - creates thumbnails from an ogg video file

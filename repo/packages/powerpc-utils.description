@@ -1,0 +1,15 @@
+Various utilities for linux/powerpc
+	
+utilities for linux on powerpc hardware.
+
+
+ mousemode - tell an adb mouse to use a given device handler id.
+ nvsetenv - change/view open firmware environment variables.
+ nvsetvol - set open firmware stored volume setting.
+ clock - hardware clock program for power macs.
+ trackpad - modify powerbook trackpad behavior (tap/drag mode).
+ fblevel - control lcd/tft display backlight brightness.
+ fnset - set powerbook keyboard function keys mode.
+ lsprop - list of device tree in human readable format
+ autoboot - set autoboot (server mode) flag on cuda powermacs
+ bootsched - set automatic power up time on cuda powermacs

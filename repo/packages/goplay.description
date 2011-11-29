@@ -1,0 +1,11 @@
+Games (and more) package browser using debtags
+	
+goplay! is a graphical user interface (gui) that uses debtags for easily
+finding games in debian. the program uses fltk for handling the widgets,
+and libept as the backend for retrieving the data.
+
+goplay! is also a generic yet simple to use debtags-based package browser.
+prepackaged browsers golearn!, goadmin!, gonet!, gooffice!, gosafe!, and
+goweb! show applications (and for some of them also documentation) packages
+related to education, administration, network, office, safety and web.  you
+can also roll your own custom browsers using commandline options.

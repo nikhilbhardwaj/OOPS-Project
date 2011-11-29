@@ -1,0 +1,11 @@
+Traces the route taken by packets over an ipv4/ipv6 network
+	
+the traceroute utility displays the route used by ip packets on their way to a
+specified network (or internet) host. traceroute displays the ip number and
+host name (if possible) of the machines along the route taken by the packets.
+traceroute is used as a network debugging tool. if you're having network
+connectivity problems, traceroute will show you where the trouble is coming
+from along the route.
+
+install traceroute if you need a tool for diagnosing network connectivity
+problems.

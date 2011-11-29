@@ -1,0 +1,8 @@
+Debian patches to version 2.6.32 of the linux kernel
+	
+this package includes the patches used to produce the prepackaged
+linux-source-2.6.32 package, as well as architecture-specific patches.
+
+note that these patches do not apply against a pristine linux 2.6.32
+kernel but only against the kernel tarball linux-2.6_2.6.32.orig.tar.gz
+from the debian archive.

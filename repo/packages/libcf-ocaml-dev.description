@@ -1,0 +1,25 @@
+Ocaml library with miscellaneous utility functions
+	
+the pagoda core foundation ocaml library provides various modules. some of
+the highlighted features include:
+
+  - functional streams and stream processors (extended).
+  - functional bootstrapped skew-binomial heap.
+  - functional red-black binary tree (associative array).
+  - functional sets and maps based on red-black binary tree.
+  - functional real-time catenable deque.
+  - functional ll(x) parsing using state-exception monad.
+  - functional lazy deterministic finite automaton (dfa).
+  - functional lexical analyzer (using lazy dfa and monadic parser).
+  - functional substring list manipulation (message buffer chains).
+  - gregorian calendar date manipulation.
+  - standard time manipulation.
+  - system time in temps atomique internationale (tai).
+  - unicode transcoding.
+  - extended socket interface (supports ipv6 and udp w/multicast).
+  - universal resource identifier (uri) manipulation.
+  - i/o event multiplexing (with unix.select).
+
+
+this package contains all the development stuff you need to use ocaml-mad
+in your programs.

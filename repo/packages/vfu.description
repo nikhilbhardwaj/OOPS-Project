@@ -1,0 +1,15 @@
+A versatile text-based filemanager
+	
+vfu is a nice filemanager using the ncurses
+library. it has many nice features:
+
+
+ * fast one-key commands
+ * filename completion and wildcard expansion
+ * directory tree with sizes
+ * file-type colorization
+ * archives support (tar, tgz, bz2, and many more)
+ * ftp support through archive-like interface
+ * internal text/hex file viewer and hex editor
+ * automount feature
+ * extensive user-defined external support/utils!

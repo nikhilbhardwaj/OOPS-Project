@@ -1,0 +1,12 @@
+Set of latex macros for creating feynman diagrams
+	
+feynmf is a latex package for easy drawing of professional-quality feynman
+diagrams, illustrations that depict the fundamental interactions of subatomic
+particles.  the diagrams may be created using either the metafont
+or metapost programs.  feynmf lays out most diagrams satisfactorily from the
+structure of the graph without any need for manual intervention.
+nevertheless all the power of metafont or metapost is available for more
+obscure cases.
+
+note that you will need the texlive-metapost package in order to use the
+metapost-based version of feynmf.

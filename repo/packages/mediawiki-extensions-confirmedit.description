@@ -1,0 +1,14 @@
+Extensions for mediawiki -- confirmedit extension
+	
+this package provides the mediawiki extensions for
+various captcha used to confirm user's editions.
+
+currently, it contains:
+
+ * confirmedit          -- very simple text captcha
+ * fancycaptcha         -- more complex image captchas (needs confirmedit)
+ * mathcaptcha          -- captchas using simple sums and the math renderer
+
+
+this extension is set for the debian mediawiki
+package, but it may also be used separately.

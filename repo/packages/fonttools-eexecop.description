@@ -1,0 +1,7 @@
+Python extension to speed up fonttools
+	
+this is an optional c implementation of part of fonttools that speeds
+up the eexec and charstring encryption algorithms as used by postscript
+type 1 fonts. fonttools is much faster with it, it is quite small but
+most people will be using fonttools with truetype or opentype fonts
+so fonttools recommends it instead of depending on it.

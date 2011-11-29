@@ -1,0 +1,9 @@
+A fast xml/dom/xpath/xslt extension for tcl written in c
+	
+tdom takes advantage of expat, the xml parser from james clark,
+including namesspace and dtd support. it includes a modified version
+of tclexpat, the tcl interface to expat, and comes with a (partial)
+dom-i and dom-ii implementation in c for maximum performance and minimum
+memory need. a very complete, compliant and fast xpath implementation
+is provided.  a fast xslt implementation in c completes the feature
+set. documentation is provided in tmml, html and nroff formats.

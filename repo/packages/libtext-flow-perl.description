@@ -1,0 +1,6 @@
+Module providing generalized text wrapping
+	
+text::flow is a perl module designed to provide flexible and generalized text
+handling facilities, wrapping or reflowing text as required. it is different
+from other modules because it can be used for graphical text output as with
+pdf files through the use of custom callbacks.

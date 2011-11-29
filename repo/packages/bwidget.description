@@ -1,0 +1,10 @@
+A set of extension widgets for tcl/tk
+	
+the bwidget toolkit is a high-level widget set for tcl/tk. it contains
+widgets such as progress bars, 3d separators, various manager widgets
+for top levels, frames, paned or scrolled windows, button boxes,
+notebooks or dialogs as well as composite widgets such as combo boxes,
+spin boxes and tree widgets.
+
+the bwidget toolkit is completely written in tcl so no compiled
+extension library is required.

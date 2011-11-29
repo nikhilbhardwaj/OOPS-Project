@@ -1,0 +1,12 @@
+Development files for lib taningia
+	
+taningia is a simple and modern comunication library that provides
+tools to write softwares based on xmpp.
+
+in this library you will find a xmpp client abstraction, some pubsub
+helpers, an implementation of the atom syndication format, a
+(incomplete) abstraction to the rfc3987 (iri), a logging system
+among other things.
+
+this package provides headers, static linked library and other
+development stuff.

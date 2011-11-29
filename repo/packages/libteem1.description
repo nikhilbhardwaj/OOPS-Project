@@ -1,0 +1,23 @@
+Tools to process and visualize scientific data and images - runtime
+	
+teem is a coordinated group of libraries for representing, processing, and
+visualizing scientific raster data. teem includes command-line tools that
+permit the library functions to be quickly applied to files and streams,
+without having to write any code. the most important and useful libraries in
+teem are:
+
+
+ * nrrd (and the unu command-line tool on top of it) supports a range of
+   operations for  transforming n-dimensional raster data (resample, crop,
+   slice, project, histogram, etc.), as  well as the nrrd file format for
+   storing arrays and their meta-information.
+ * gage: fast convolution-based measurements at arbitrary point locations in
+   volume datasets (scalar, vector, tensor, etc.)
+ * mite: a multi-threaded ray-casting volume render with transfer functions
+   based on any quantity gage can measure
+ * ten: for estimating, processing, and visualizing diffusion tensor fields,
+   including fiber tractography methods.
+
+
+this package provides the runtime files required to run programs
+that use teem to do 3d visualisation.

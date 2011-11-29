@@ -1,0 +1,9 @@
+Sat solver with proof and core support
+	
+despite the np completeness of the satisfiabilty problem of boolean formulas
+(sat), sat solvers are often able to decide this problem in a reasonable time
+frame. as all other np complete problems are reducible to sat, the solvers
+have become a general purpose tool for this class of problems.
+
+picosat is a sat solver that turned out to be faster on industrial instances
+than minisat 2.0 and also can generate proofs and cores in memory.

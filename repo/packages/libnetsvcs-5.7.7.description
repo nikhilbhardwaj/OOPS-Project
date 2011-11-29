@@ -1,0 +1,7 @@
+Ace network service implementations
+	
+ace network services provide reusable components for common
+distributed system tasks such as logging, naming, locking, and time
+synchronization.
+
+this package contains runtime libraries for ace network services.

@@ -1,0 +1,11 @@
+Console-based bookmark tool for fast file system navigation
+	
+fast file system navigation by bookmarking directories and jumping to a
+bookmark directly. apparix integrates regular bookmarks with
+cdpath-style bookmarks. subdirectory specification and (bash) tab
+completion add further power.
+
+apparix maintains a mapping of user-defined marks (hopefully short and
+descriptive) to file system locations and is wrapped in other commands
+to either jump to those locations or to invoke edit/copy/move commands
+involving them.

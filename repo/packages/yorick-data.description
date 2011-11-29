@@ -1,0 +1,12 @@
+Interpreted library for the yorick language
+	
+yorick is an interpreted programming language for:
+
+ * scientific simulations or calculations
+ * postprocessing or steering large simulation codes
+ * interactive scientific graphics
+ * reading, writing, and translating large files of numbers
+
+
+the yorick-data package contains all the architecture-independent data, which
+is mostly the standard interpreted library.

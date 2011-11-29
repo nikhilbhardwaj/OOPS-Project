@@ -1,0 +1,7 @@
+Gtk+-based web browser that allows pluggable rendering engines
+	
+kazehakase is a web browser that can use either gecko or webkit as
+its rendering engine.
+
+kazehakase has a toolbar with rss/rdf menus, rss/rdf viewer, normal bookmarks,
+search window for google.  these are to be available as plugins.

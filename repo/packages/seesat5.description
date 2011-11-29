@@ -1,0 +1,12 @@
+A satellite location program
+	
+seesat5 uses the norad sgp4 algorithm to compute the location of a satellite.
+many different filtering methods are provided by seesat5 so that only those
+satellites that might actually be viewed are presented in the report. this
+report includes bearing and elevation with respect to the observer's location
+as well as other information of interest to the observer.
+
+although an observer would find no use for it, the program can be made to
+report the location even when it is below the horizon. for radio satellites
+like the oscar series knowing when it comes above the horizon is some of the
+interesting information this program can provide.

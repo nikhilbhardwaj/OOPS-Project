@@ -1,0 +1,6 @@
+Module for encrypted hashes and objects based on hashes
+	
+tie::encryptedhash is a perl module that enables hashes (and objects based on
+hashes) with automatically encrypting fields. when the password is not set,
+an encrypted hash behaves exactly like a standard perl hash, which is useful
+for serializing the resulting data.

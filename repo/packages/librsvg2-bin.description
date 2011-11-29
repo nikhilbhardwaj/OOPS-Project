@@ -1,0 +1,7 @@
+Command-line and graphical viewers for svg files
+	
+the rsvg library is an efficient renderer for scalable vector graphics
+(svg) pictures.
+
+this package includes a command-line utility to convert the svg files
+to the png format and a graphical svg viewer.

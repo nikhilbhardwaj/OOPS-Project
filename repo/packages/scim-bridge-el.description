@@ -1,0 +1,13 @@
+Scim-bridge client for gnu emacs
+	
+the smart common input method platform (scim) is an input
+method (im) platform containing support for more than thirty
+languages (cjk and many european languages) for posix-style
+operating systems including linux and bsd.
+scim-bridge.el is a scim-bridge client for emacs.
+this program allows users on-the-spot style input with scim.
+the input statuses are individually kept for each buffer,
+and prefix-keys such as c-x and c-c can be used even if
+scim is active. so you can input various languages fast and
+comfortably by using it.
+this program is *not* a part of scim-bridge.

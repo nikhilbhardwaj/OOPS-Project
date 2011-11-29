@@ -1,0 +1,10 @@
+Arc hopi service
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced resource
+connector (arc).
+
+the hopi service provides a simple implementation of an http(s)
+server. it supports get and put operations. it can be used as a simple
+file transfer service and it is usable via common web browsers and
+other http(s) clients (e.g. wget).

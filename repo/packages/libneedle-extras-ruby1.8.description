@@ -1,0 +1,12 @@
+Extra libraries for needle
+	
+needle-extras is an add-on library to needle, providing additional services
+and functionality beyond what the core needle system provides.
+
+this is a kind of testbed of new services and techniques. if a service in
+needle-extras is found to be particularly valuable, it may be promoted into
+the core needle framework.
+
+currently this includes a form of interface injection (thanks to christian
+neukirchen), a simplified means of depending on third-party services, and
+a general multicasting service.

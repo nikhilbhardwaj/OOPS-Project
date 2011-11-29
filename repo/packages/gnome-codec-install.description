@@ -1,0 +1,6 @@
+Gstreamer codec installer
+	
+this package contains a gtk+ based gstreamer codec installer, which is
+automatically called by applications if a gstreamer plugin with
+specific capabilities is required but not install currently.
+if a package containing a suitable plugin is found it can be installed.

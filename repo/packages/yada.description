@@ -1,0 +1,10 @@
+Yet another debianisation aid
+	
+yada is a debian packaging helper.  it parses a special file,
+debian/packages, in a source package, and generates an appropriate
+debian/rules to control building of the package.
+
+this package provides yada script.
+
+the /usr/bin/yada script can be also copied as source package's debian/yada
+file if this package won't be available on system for package building.

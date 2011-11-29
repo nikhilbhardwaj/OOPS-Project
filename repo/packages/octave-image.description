@@ -1,0 +1,14 @@
+Image manipulation for octave
+	
+this package provides functions for reading, writing, and processing
+images to octave, a numerical computation software. the package
+supports almost all image formats through the use of imagemagick. the
+package also provides functions for feature extraction, image
+statistics, spatial and geometric transformations, morphological
+operations, linear filtering, and much more.
+
+note that this package only works with imagemagick and not with
+graphicsmagick, even when the compatibility layer is installed.  this
+is why this package conflicts with graphicsmagick-imagemagick-compat.
+
+this octave add-on package is part of the octave-forge project.

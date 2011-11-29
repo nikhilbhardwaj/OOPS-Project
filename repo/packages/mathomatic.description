@@ -1,0 +1,16 @@
+Portable computer algebra system (cas)
+	
+mathomatic implements most of the rules of algebra for the
+mathematical operators +, -, *, /, % (modulus), and power (including
+roots).
+
+mathomatic can symbolically:
+
+
+ * combine and solve equations,
+ * completely simplify and compare expressions and equations,
+ * do calculus transformations,
+ * do standard, complex number, and polynomial arithmetic,
+ * generate optimized c, java, and python language code from
+   simplified equations,
+ * do quick calculations, colorize expressions, etc.

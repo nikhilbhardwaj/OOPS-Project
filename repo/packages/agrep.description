@@ -1,0 +1,11 @@
+Text search tool with support for approximate patterns
+	
+agrep is a version of standard grep with the following enhancements:
+
+
+ * the ability to search for approximate patterns
+ * it is record oriented rather than just line oriented
+ * multiple patterns with and or logic queries
+
+
+this package contains glimpse's (4.x) last free version of grep.

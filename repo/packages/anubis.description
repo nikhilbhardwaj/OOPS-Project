@@ -1,0 +1,9 @@
+An smtp message submission daemon
+	
+gnu anubis is an intermediate layer between a mail user agent (mua) and a mail
+transport agent (mta), receiving  messages from the mua, applying to them
+a set of predefined changes and finally inserting modified messages into an mta
+routing network. the set of changes applied to a message is configurable on
+a system-wide and per-user basis. the built-in configuration language used for
+defining sets of changes allows for considerable flexibility and is easily
+extensible.

@@ -1,0 +1,55 @@
+Digital audio workstation (graphical gtk2 interface)
+	
+ardour is a multichannel hard disk recorder (hdr) and digital audio
+workstation (daw).  it can be used to control, record, edit and run
+complex audio setups.
+
+ardour supports pro-audio interfaces
+through the alsa project, which provides high quality, well designed
+device drivers and api's for audio i/o under linux. any interface
+supported by alsa can be used with ardour. this includes the
+all-digital 26 channel rme hammerfall, the midiman delta 1010 and many
+others.
+
+ardour has support for 24 bit samples
+using floating point internally, non-linear editing with unlimited undo,
+a user-configurable mixer, mtc master/slave capabilities, midi hardware
+control surface compatibility.
+
+it supports midi
+machine control, and so can be controlled from any mmc controller and
+many modern digital mixers.
+
+ardour contains a
+powerful multitrack audio editor/arranger that is completely
+non-destructive and capable of all standard non-linear editing
+operations (insert, replace, delete, move, trim, select,
+cut/copy/paste). the editor has unlimited undo/redo capabilities and can
+save independent "versions" of a track or an entire piece
+
+ardour's editor supports the community-developed ladspa
+plugin standard.  arbitrary chains of plugins can be attached to any
+portion of a track.  every mixer strip can have any number of inputs
+and outputs, not just mono, stereo or 5.1.  an n-way panner is
+included, with support for various panning models.  pre- and post-fader
+sends exist, each with their own gain and pan controls.  every mixer
+strip acts as its own bus, and thus the bus count in ardour is
+unlimited.  you can submix any number of strips into another
+strip.
+
+ardour's channel capacity is limited only
+by the number on your audio interface and the ability of your disk
+subsystem to stream the data back and forth.
+
+jack
+(the jack audio connection kit) is used for all audio i/o, permitting
+data to be exchanged in perfect samplesync with other applications
+and/or hardware audio interfaces.
+
+ardour is
+sample rate and size neutral - any hardware formats from 8 to 32 bits,
+and rates from 8khz to 192khz.  internal processing in 32/64 bit ieee
+floating point format.
+
+further information can be
+found at <http://ardour.org/>.

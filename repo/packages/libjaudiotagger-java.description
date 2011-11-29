@@ -1,0 +1,5 @@
+Library for editing tags like id3 in audio files such as mp3s
+	
+jaudiotagger is the audio tagging library used for tagging data in
+audio files. it currently supports mp4 (mp4, m4p, m4a), mp3 (id3v1,
+id3v2) and ogg vorbis.

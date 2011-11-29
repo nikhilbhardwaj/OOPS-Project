@@ -1,0 +1,6 @@
+Perl module for accessing ph servers
+	
+net::ph is a perl class implementing a simple nameserver/ph client as
+described in ccso nameserver -- server-client protocol or rfc 2378.  the
+ph protocol is now mostly obsolete, replaced at most sites by ldap.  this
+module is only of interest if you know you need to access a ph server.

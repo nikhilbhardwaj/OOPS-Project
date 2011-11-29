@@ -1,0 +1,36 @@
+General input interface runtime libraries
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the shared libraries for libgii, the input library
+developed by the ggi project. also included is libgg, the library
+containing ggi's configuration and target option parsing code.
+
+install libgii-target packages for specific input modules!
+
+this package contains input modules for these devices:
+
+
+ null         - dummy input device which never generates any input
+ stdin        - characters from standard input
+ file         - input saved by the "save" input filter
+ tcp          - input from a socket
+ linux_kbd    - raw linux keyboard devices
+ linux_mouse  - linux mouse devices
+ linux_joy    - linux joystick devices
+ linux_evdev  - new style hids
+ mouse        - mice of all sorts: microsoft, mousesystems, logitech, sun,
+              - mouseman, mmseries, busmouse and ps2
+ spaceorb     - spaceorb 3d input device
+
+
+usually, it is not necessary to specify which of these input devices you
+want to use; libggi normally finds an appropriate input device.
+
+these input filter modules are also included:
+
+
+ mouse        - generic mouse event generator
+ save         - save away an event stream for later playback
+ keytrans     - generic key event translator
+ tcp          - send input to a tcp socket

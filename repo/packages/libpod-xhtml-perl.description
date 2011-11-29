@@ -1,0 +1,13 @@
+Module for translating pod to xhtml
+	
+there's pod::pxml and pod::xml, so why is pod::xhtml needed? you need
+an xslt to transform xml into xhtml and many people don't have the time
+or inclination to do this. but they want to make sure that the pages
+they put on their web site are well-formed, they want those pages to
+use stylesheets easily, and possibly they want to squirt the xhtml
+through some kind of filter for more processing.
+
+by generating well-formed xhtml straight away anyone can just
+use the output files as-is. for those who want to use xml tools or
+transformations they can use the xhtml as a source, because it's a
+well-formed xml document.

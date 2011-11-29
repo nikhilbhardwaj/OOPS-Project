@@ -1,0 +1,12 @@
+Online help system
+	
+read all documentation with a www browser. dhelp builds a
+index of all installed html documentation. you don't need
+a www server to read the documentation. dhelp offers a
+very fast search in the html documents.
+
+you can access the online help system with the dhelp
+program or with your browser. the url to point your
+browser at is http://localhost/doc/html/index.html
+if you have a www server installed or
+file://localhost/usr/share/doc/html/index.html if not.

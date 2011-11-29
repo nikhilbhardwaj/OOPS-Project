@@ -1,0 +1,7 @@
+Rest service access library (documentation)
+	
+this library was designed to make it easier to access web services that
+claim to be "restful".  it includes convenience wrappers for libsoup and
+libxml to ease remote use of the restful api.
+
+this package contains the documentation

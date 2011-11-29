@@ -1,0 +1,19 @@
+Factor integers using the elliptic curve method (library)
+	
+gmp-ecm is a free implementation of the elliptic curve method (ecm)
+for integer factorization.
+
+the original purpose of the ecmnet project was to make richard brent's
+prediction true, i.e. to find a factor of 50 digits or more by
+ecm. this goal was attained on september 14, 1998, when conrad curry
+found a 53-digit factor of 2^677-1 c150 using george woltman's mprime
+program. the new goal of ecmnet is now to find other large factors by
+ecm, mainly by contributing to the cunningham project, most likely the
+longest, ongoing computational project in history according to bob
+silverman. a new record was set by nik lygeros and michel mizony, who
+found in december 1999 a prime factor of 54 digits using gmp-ecm.
+
+see http://www.loria.fr/~zimmerma/records/ecmnet.html for more
+information about ecmnet.
+
+this package provides the shared library.

@@ -1,0 +1,11 @@
+X/gtk+ ftp client - free open ftp face
+	
+free open ftp face is a lightweight graphical (gtk+) ftp client written in
+python.
+
+foff has a built-in terminal, text viewer, image viewer, audio player,
+checksums and one-click gzip (de)compression. the idea behind the built-in
+tools, is that regardless of the operating system, you can instantly preview
+files or perform common operations, since there's no overhead from loading an
+external program. with the exception of the (optional) audio player, these
+built in features do not add any dependencies.

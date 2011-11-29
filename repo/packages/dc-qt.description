@@ -1,0 +1,14 @@
+Gui frontend for the dc protocol
+	
+dc-qt is a qt front-end for the dctc program. dctc handles all
+communication with dc hubs and clients, while dc-qt presents an
+interface that has many of the features of the original directconnect
+client, plus some really useful improvements.
+
+it is intended for peer-based file-sharing. in practise it works better than
+gnutella and other similar systems as it allows dc hubs (servers)
+administators to require clients to share specified amount of data. the
+amount is usually based on type of client's connection and it is used not
+to hurt or exclude anybody but to make file sharing "fair play".
+
+dc-qt is still alpha, so some care has to be taken - try it out!

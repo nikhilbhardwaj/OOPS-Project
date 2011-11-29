@@ -1,0 +1,7 @@
+Parallel url fetcher
+	
+puf is a download tool for unix-like systems. you may use it to download
+single files or to mirror entire servers. it is similar to gnu wget
+(and has a partly compatible command line), but has the ability to do
+many downloads in parallel. this is very interesting, if you have a
+high-bandwidth internet connection.

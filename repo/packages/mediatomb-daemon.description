@@ -1,0 +1,12 @@
+Upnp mediaserver (daemon package)
+	
+mediatomb is an upnp mediaserver with a nice web user interface, it allows you
+to stream your digital media through your home network and listen to/watch it
+on a variety of upnp compatible devices.
+
+mediatomb implements the upnp mediaserver v 1.0 specification that can be found
+on http://www.upnp.org/. the current implementation focuses on parts that are
+required by the specification, however mediatomb's functionality is extended to
+cover the optional parts of the spec as well.
+
+this package contains the files needed to run mediatomb as a daemon.

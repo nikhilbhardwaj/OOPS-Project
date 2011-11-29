@@ -1,0 +1,13 @@
+Intel connection manager daemon
+	
+the linux connection manager project provides a daemon for managing
+internet connections within embedded devices running the linux
+operating system. the connection manager is designed to be slim and to
+use as few resources as possible, so it can be easily integrated in
+other moblin-based embedded systems. it is fully modular system that
+can be extended through plug-ins, to support all kinds of wired or
+wireless technologies. also, configuration methods like dhcp and
+domain name resolving are implemented using plug-ins. the plug-in
+approach allows for easy adaption and modification for various use cases.
+
+this package contains the connman daemon and its plugins.

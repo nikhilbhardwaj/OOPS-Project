@@ -1,0 +1,13 @@
+Collects and processes netflow data
+	
+flow-tools is library and a collection of programs used to collect,
+send, process, and generate reports from netflow data. the tools can be
+used together on a single server or distributed to multiple servers for
+large deployments. the flow-tools library provides an api for
+development of custom applications for netflow export versions 1,5,6 and
+the 14 currently defined version 8 subversions. a perl and python
+interface have been contributed and are included in the package.
+
+a netflow is network traffic information exported (via udp) to an external
+machine. the external machine processes such information to produce network
+traffic accounting, network billing, network monitoring, etc.

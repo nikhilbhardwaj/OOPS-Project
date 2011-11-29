@@ -1,0 +1,4 @@
+PackageId:5283
+Name:gforge-db-postgresql
+Version:5.0.2-5
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,debianutils,gforge-common,libdbd-pg-perl,libdbi-perl,libhtml-parser-perl,libmail-sendmail-perl,libmime-base64-perl,perl,libsort-versions-perl,libtext-autoformat-perl,php5-cli,postgresql,postgresql-8.4,ucf

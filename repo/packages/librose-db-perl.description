@@ -1,0 +1,7 @@
+Perl dbi wrapper and abstraction layer
+	
+rose::db is a wrapper and abstraction layer for dbi-related functionality.
+instead of dealing with "databases" that exist on "hosts" or are located via
+some vendor-specific addressing scheme, rose::db deals with "logical" data
+sources. it supports technologies like the rose::db::object object-relational
+mapper system (see librose-db-object-perl for details).

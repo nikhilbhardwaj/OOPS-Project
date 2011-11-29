@@ -1,0 +1,8 @@
+Netflow capture daemon tools compiled with debugging symbols
+	
+collects and processes netflow data with command line tools. collected netflow
+data is stored in filesystem and is limited by available storage space only.
+tools are optimized for speed and filtering. nfcapd reads netflow v5, v7 and
+v9 flows transparently. you need one nfcapd process for each netflow stream.
+optional support for sflow and flow-tools to nfdump conversion utilities are
+available but needs re-compiliation.

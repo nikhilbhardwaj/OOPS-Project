@@ -1,0 +1,11 @@
+Jdbc 3.0 driver for microsoft sql server(tm) and sybase(tm)
+	
+jtds is an open source jdbc 3.0 type 4 driver for microsoft sql server (6.5,
+7.0, 2000 and 2005) and sybase (10, 11, 12, 15). jtds is the fastest jdbc
+driver for ms sql server and is a complete implementation of the jdbc spec.
+
+jtds is the most performant jdbc driver for both microsoft sql server and
+sybase. it is a complete implementation of jdbc 3.0, it passes the j2ee 1.3
+certification and hibernate test suites and is the preferred sql server/sybase
+driver for jboss, hibernate, atlassian jira and confluence, dbvisualizer and
+compiere.

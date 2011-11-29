@@ -1,0 +1,30 @@
+Programming language adapted to the manipulation of xml data
+	
+cduce is a modern programming language adapted to the manipulation of
+xml documents.
+
+some of cduce's peculiar features:
+
+ - xml objects can be manipulated as first-class citizen values:
+   elements, sequences, tags, characters and strings, attribute sets;
+   sequences of xml elements can be specified by regular expressions,
+   which also apply to characters strings;
+ - functions themselves are first-class values, they can be
+   manipulated, stored in data structure, returned by a function,...;
+ - a powerful pattern matching operation can perform complex
+   extractions from sequences of xml elements;
+ - a rich type algebra, with recursive types and arbitrary boolean
+   combinations (union, intersection, complement) allows precise
+   definitions of data structures and xml types; general purpose
+   types and types constructors are taken seriously (products,
+   extensible records, arbitrary precision integers with interval
+   constraints, unicode characters);
+ - polymorphism through a natural notion of subtyping, and overloaded
+   functions with dynamic dispatch; - an highly-effective type-driven
+   compilation schema.
+
+
+cduce is fast, functional, type-safe, and conforms to basic
+standards: unicode, xml, dtd, namespaces are fully supported, partial
+support of xml schema validation is in alpha testing (and
+undocumented) while queries are being implemented.

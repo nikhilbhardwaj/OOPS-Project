@@ -1,0 +1,6 @@
+Portable dhcpv6 relay
+	
+relays are used as proxies between servers and clients. their main
+advantage is the ability to support multiple remote links using only
+one server. installing dibbler relay allows serving multiple, not
+physically connected, links with one dhcpv6 server.

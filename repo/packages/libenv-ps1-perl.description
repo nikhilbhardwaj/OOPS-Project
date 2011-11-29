@@ -1,0 +1,9 @@
+Prompt string formatter
+	
+env::ps1 supplies variables that are "tied" to environment
+variables like 'ps1' and 'ps2', if read it takes the contents of the
+variable as a format string like the ones bash(1) uses to format the
+prompt.
+
+it is intended to be used in combination with the various readline
+packages.

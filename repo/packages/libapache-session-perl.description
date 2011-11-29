@@ -1,0 +1,5 @@
+Perl modules for keeping persistent user data across http requests
+	
+apache::session makes maintaining user data across http requests simple.
+it's usable from both mod_perl scripts and more traditional perl cgi
+scripts.

@@ -1,0 +1,4 @@
+PackageId:25376
+Name:netscript-2.4-upstart
+Version:5.2.2
+Deps:bash,bridge-utils,dhcp-client,dhcpcd,pump,dhcp3-client,isc-dhcp-client,iproute,iptables,netbase,upstart,upstart-job

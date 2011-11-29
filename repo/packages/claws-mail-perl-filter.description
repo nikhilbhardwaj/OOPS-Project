@@ -1,0 +1,8 @@
+Message filtering plugin using perl for claws mail
+	
+this plugin enables filtering of claws mail messages using perl
+regular expresions and, in fact, giving all the perl features and power
+to the filtering engine.
+
+a tool for converting the current filter set of the user into a equivalent
+perl script suitable for the plugin is also provided.

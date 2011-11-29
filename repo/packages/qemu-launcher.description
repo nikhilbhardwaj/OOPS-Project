@@ -1,0 +1,9 @@
+Gtk+ front-end to qemu computer emulator
+	
+qemu launcher provides a graphical front-end to all basic, and many
+advanced qemu computer emulator options. it allows you to create,
+save, and run multiple virtual machine configurations, create and
+convert disk images.
+
+qemu launcher utilizes the full system emulation mode of qemu that
+allows you to run unmodified operating system on virtual hardware.

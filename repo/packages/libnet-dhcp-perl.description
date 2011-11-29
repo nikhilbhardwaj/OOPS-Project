@@ -1,0 +1,7 @@
+Interface for handling dhcp packets
+	
+this module is a release of the dhcp protocol interface to perl 5. there are
+two parts to the interface: the packet component (net::dhcp::packet) and the
+constants component (net::dhcp::constants) which represents constants used
+in dhcp protocol, defined in rfc 1533, rfc 2132, rfc 2241, rfc 2485,
+rfc 2563, rfc 2937, rfc 3004, rfc 3011, rfc 3046.

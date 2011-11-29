@@ -1,0 +1,26 @@
+Python imaging library
+	
+the python imaging library (pil) adds an image object to your python
+interpreter. you can load images from a variety of file formats, and
+apply a rich set of image operations to them.
+
+image objects:
+
+ o bilevel, greyscale, palette, true colour (rgb), true colour with
+   transparency (rgba).
+ o colour separation (cmyk).
+ o copy, cut, paste operations.
+ o flip, transpose, resize, rotate, and arbitrary affine transforms.
+ o transparency operations.
+ o channel and point operations.
+ o colour transforms, including matrix operations.
+ o image enhancement, including convolution filters.
+
+
+file formats:
+
+ o full (open/load/save): bmp, eps (with ghostscript), gif, im, jpeg,
+   msp, pdf, png, ppm, tiff, xbm.
+ o read only (open/load): arg, cur, dcx, fli, fpx, gbr, gd, ico, imt, iptc,
+   mcidas, mpeg, photocd, pcx, pixar, psd, tga, sgi, sun, tga, wmf, xpm.
+ o save only: pdf, eps (without ghostscript).

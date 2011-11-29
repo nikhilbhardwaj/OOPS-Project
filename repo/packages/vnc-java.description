@@ -1,0 +1,11 @@
+Vnc java applet and command line program
+	
+vnc stands for virtual network computing. it is, in essence, a remote
+display system which allows you to view a computing `desktop' environment
+not only on the machine where it is running, but from anywhere on the
+internet and from a wide variety of machine architectures.
+
+this is the vnc java applet files that the vnc-server
+can distribute to the client.
+
+it also includes the tightvnc patches from http://www.tightvnc.com/

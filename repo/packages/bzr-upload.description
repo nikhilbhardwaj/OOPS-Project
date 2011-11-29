@@ -1,0 +1,12 @@
+Bazaar plugin for uploading to web servers
+	
+this is a plugin for bazaar that incrementally uploads changes in a bazaar
+branch to a dumb server.
+
+web sites are often hosted on servers where bazaar can not be installed.
+in other cases, the web site must not give access to its corresponding
+branch (for security reasons for example). finally, web hosting providers
+often provides only ftp access to upload sites.  this plugin uploads only
+the relevant changes since the last upload using the ftp or sftp protocols.
+
+it adds a "upload" subcommand to bzr.

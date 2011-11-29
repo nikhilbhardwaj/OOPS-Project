@@ -1,0 +1,4 @@
+Syntax highlighting for puppet manifests in vim
+	
+the vim-puppet package provides filetype detection and syntax highlighting for
+puppet manifests (files ending with ".pp").

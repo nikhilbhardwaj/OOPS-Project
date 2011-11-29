@@ -1,0 +1,9 @@
+Helper scripts for building maven components with ant
+	
+an environment that can be used to simplify the creation of debian packages
+to support the maven system. a "modello" ant task is also provided.
+
+maven-build.xml attempts to reproduce the maven build life-cycle.
+you can use it to build your jar or javadoc. if you have libmaven2-core-java
+installed, you can even use it to launch some maven plugins to generate
+some code.

@@ -1,0 +1,16 @@
+A gnome application for managing book collections
+	
+alexandria is a program for organising collections of books. it
+
+
+  * retrieves and displays book information (including cover pictures) from
+    several online libraries, such as amazon, proxis and barnes and noble
+  * allows books to be added and updated by hand
+  * enables searches either by ean/isbn, title, authors or keyword
+  * can import and export data into onix, tellico and isbn-list formats
+  * features a hig-compliant user interface
+  * handles book rating and notes
+  * supports cuecat (r) barcode readers
+
+
+website: http://alexandria.rubyforge.org/

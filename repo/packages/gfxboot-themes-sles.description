@@ -1,0 +1,6 @@
+Tool to test and create graphical boot logos (sles theme)
+	
+gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+boot loaders. currently, this includes grub, lilo, and syslinux (all payloads).
+
+this package contains the sles theme.

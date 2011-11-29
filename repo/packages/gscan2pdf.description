@@ -1,0 +1,17 @@
+A gui to produce pdfs or djvus from scanned documents
+	
+only two clicks are required to scan several pages and then save all or a
+selection as a pdf or djvu file, including metadata if required.
+
+gscan2pdf can control regular or sheet-fed (adf) scanners with sane via
+scanimage or scanadf, and can scan multiple pages at once. it presents a
+thumbnail view of scanned pages, and permits simple operations such as
+cropping, rotating and deleting pages.
+
+ocr can be used to recognise text in the scans, and the output
+embedded in the pdf or djvu.
+
+pdf conversion is done by pdf::api2.
+
+the resulting document may be saved as a pdf, djvu, multipage tiff file, or
+single page image file.

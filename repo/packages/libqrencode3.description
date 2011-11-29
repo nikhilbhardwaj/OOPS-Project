@@ -1,0 +1,9 @@
+Qr code encoding library
+	
+libqrencode is a library for encoding data in a qr code symbol, a kind of 2d
+symbology that can be scanned by handy terminals such as a mobile phone with
+ccd.  the capacity of qr code is up to 7000 digits or 4000 characters, and has
+high robustness.
+
+libqrencode supports qr code model 2, described in jis (japanese industrial
+standards) x0510:2004 or iso/iec 18004.

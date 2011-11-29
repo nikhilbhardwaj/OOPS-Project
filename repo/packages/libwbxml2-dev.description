@@ -1,0 +1,9 @@
+Wbxml library development file
+	
+the wbxml library (aka libwbxml) contains a library and its associated
+tools to parse, encode and handle wbxml documents.  the wbxml format
+is a binary representation of xml, defined by the wap forum, and used
+to reduce bandwidth in mobile communications.
+
+install this package if you wish to develop your own programs using
+wbxml.

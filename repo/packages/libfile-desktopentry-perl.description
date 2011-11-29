@@ -1,0 +1,7 @@
+Perl module to handle freedesktop .desktop files
+	
+this module is used to work with .desktop files. the format of these files
+is specified by the freedesktop "desktp entry" specification.
+see
+http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
+for this module version 0.9.4 of the specification was used.

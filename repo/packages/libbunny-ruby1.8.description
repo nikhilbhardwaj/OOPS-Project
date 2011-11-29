@@ -1,0 +1,7 @@
+Synchronous amqp client for ruby 1.8
+	
+bunny is an amqp (advanced message queuing protocol) client, written in ruby,
+that is intended to allow you to interact with amqp-compliant message
+brokers/servers such as rabbitmq in a synchronous fashion.
+
+this package contains bunny libraries for ruby 1.8.

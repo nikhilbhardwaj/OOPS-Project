@@ -1,0 +1,14 @@
+Mount and unmount iomega zip and/or jaz drives
+	
+it combines grant guenther's original command line utility, ziptool, with
+jaz drive support, a nice x interface and additional utilities to allow
+users to easily mount and unmount disks formatted in either ext2 or fat.
+
+it supports the iomega zip drive with usb, parallel, scsi or atapi
+interfaces, but atapi zip drives are supported only when using kernel scsi
+emulation.  i don't know about the zip-plus version (someone please tell
+me).  the scsi jaz drive is supported in both the 1g and 2g capacities. it
+does not support the much older ide (non-atapi) interface drives, nor
+syquest drives.
+
+the package also includes jazipconfig, a configuration tool.

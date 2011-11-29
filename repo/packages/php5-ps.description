@@ -1,0 +1,7 @@
+Ps module for php 5
+	
+ps is an extension similar to the pdf extension but for creating
+postscript files. its api is modelled after the pdf extension.
+it has some advanced features like taking kerning into account
+and support for hyphenation. postscript files can converted to
+pdf files with ghostscript retaining hyperlinks and bookmarks.

@@ -1,0 +1,16 @@
+Grammar-based user-friendly config parser
+	
+config::grammar is a module to parse configuration files. the configuration
+may consist of multiple-level sections with assignments and tabular data. the
+parsed data will be returned as a hash containing the whole configuration.
+config::grammar uses a grammar that is supplied upon creation of a
+config::grammar object to parse the configuration file and return helpful
+error messages in case of syntax errors. using the makepod method you can
+generate documentation of the configuration file format.
+
+the maketmpl method can generate a template configuration file. if your
+grammar contains regexp matches, the template will not be all that helpful as
+config::grammar is not smart enough to give you sensible template data based
+in regular expressions. the related function maketmplmin generates a minimal
+configuration template without examples, regexps or comments and thus allows
+an experienced user to fill in the configuration data more efficiently.

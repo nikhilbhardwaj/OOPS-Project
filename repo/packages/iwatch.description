@@ -1,0 +1,7 @@
+Realtime filesystem monitoring program using inotify
+	
+iwatch is a realtime filesystem monitoring program. it's a
+simple perl script to monitor changes in specific
+directories/files and send email notification immediately. it
+reads the dir/file list from xml config file and needs inotify
+support in kernel (linux kernel >= 2.6.13).

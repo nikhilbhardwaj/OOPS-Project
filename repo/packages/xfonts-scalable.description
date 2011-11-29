@@ -1,0 +1,14 @@
+Scalable fonts for x
+	
+xfonts-scalable provides fonts that can be drawn at any size by the x server
+or font server without loss of quality.  in most cases it is desirable to
+have the x font server (xfs) and/or an x server installed to make the fonts
+available to x clients.
+
+this package is missing three fonts from the x.org source archives
+because the license terms on the fonts do not meet the debian free
+software guidelines; they are the type1 fonts adobe utopia, ibm courier,
+and bigelow & holmes (b&h) luxi.
+
+this package requires the xutils package to prepare the font directories
+for use by an x server or x font server.

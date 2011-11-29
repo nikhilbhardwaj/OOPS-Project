@@ -1,0 +1,7 @@
+A dual-screen hack - link an ms-windows and x display
+	
+this program merges the capabilities of x2x and vncviewer.  it will allow a
+machine with an x display and a machine with a vnc server running on its main
+screen to act as if they were two displays connected to one machine. when you
+move your mouse pointer off the screen in a direction of your choosing, the
+pointer will appear on the other screen instead.

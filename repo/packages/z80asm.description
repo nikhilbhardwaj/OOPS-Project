@@ -1,0 +1,16 @@
+Assembler for the zilog z80 microprocessor
+	
+the z80 microprocessor is used in old home computers, such as the
+zx spectrum and msx, and in several newer devices, such as the ti-83
+graphical calculator and (a stripped down version) in the (original) gameboy.
+
+this assembler is meant for developers who write code (in assembly) for
+such devices.
+
+features include:
+
+ * macros
+ * including other sources
+ * complex expressions (similar to bash)
+ * labels of unlimited length
+ * conditional compilation depending on expressions

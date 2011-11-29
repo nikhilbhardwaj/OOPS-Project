@@ -1,0 +1,10 @@
+Initramfs extension for bootcd
+	
+with the installation of this bootcd extension your
+initrd-image will be updated to be usable for bootcd.
+with bootcd you can copy your system to cd, run it from cd without need for
+disks and restore your system on disk from bootcd.
+this package should be installed on a system you want to copy to cd, if the
+kernel uses initrd (as all prebuild debian 2.4 and 2.6 kernels do).
+if you have also installed discover than it can be used to detect the needed
+modules to boot.

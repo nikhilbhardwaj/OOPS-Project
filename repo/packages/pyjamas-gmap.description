@@ -1,0 +1,19 @@
+Pyjamas google maps (v3) wrapper library
+	
+pyjamas is a stand-alone python to javascript compiler, an ajax
+framework / library and a desktop-like widget set.
+
+this package contains a javascript wrapper around the google gmaps (v3)
+javascript library.  rich media pyjamas applications can be developed that
+can take advantage of the interactive features of the google maps (v3) api.
+
+an online demo of the gmaps examples is here:
+http://pyjs.org/examples/gmaps/output/
+
+please note: pyjamas-gmaps is experimental but functional, and is not
+supported under pyjamas-desktop, due to the heavy and specific reliance
+on javascript.  in order for pyjamas-desktop to make use of the google
+gmaps api, the google gmaps api itself must be ported directly to pure
+python.  however, this package simply provides a javascript-specific
+wrapper around the javascript-specific google gmaps (v3) api, which pyjd
+cannot interact with at present.

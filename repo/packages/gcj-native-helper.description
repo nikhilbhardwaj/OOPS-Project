@@ -1,0 +1,13 @@
+Standard helper tools for creating gcj native packages
+	
+this package points to the build dependencies used to build
+gcj native packages.
+
+unlike default-jdk-builddep, this package only provides the
+helpers to compile jar/class files into native code and not
+a java development kit (jdk). you do not need this package
+unless you are compiling jar/class files to native code.
+
+note: during the transition from default-jdk-builddep to
+gcj-native-helper, this package will also depend on
+default-jdk to avoid breakage.

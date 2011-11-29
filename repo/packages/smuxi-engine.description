@@ -1,0 +1,17 @@
+Engine library for smuxi
+	
+smuxi is an irssi-inspired, flexible, user-friendly and cross-platform irc
+client for sophisticated users, targeting the gnome desktop.
+
+smuxi is based on the client-server model: the core application (engine) can
+be placed onto a server which is connected to the internet around-the-clock;
+one or more frontends then connect to the core. this way, the connection to
+irc can be kept up even when all frontends have been closed. the combination
+of screen and irssi served as example for this architecture.
+
+smuxi also supports the regular single application mode. this behaves like a
+typical irc client; it doesn't need separate core management and utilizes a
+local engine that is used by the local frontend client.
+
+this package contains the smuxi engine, needed by smuxi frontends or the
+standalone server.

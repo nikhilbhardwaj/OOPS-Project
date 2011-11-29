@@ -1,0 +1,15 @@
+Swing java docking framework - demos and examples
+	
+flexdock is a java docking framework for use in cross-platform
+swing applications. it offers features you'd expect in any desktop
+docking framework such as:
+
+ * tabbed and split layouts
+ * drag-n-drop capability (with native drag rubber band painting on
+   some platforms)
+ * floating windows
+ * collapsible containers to save real estate
+ * layout persistence
+
+
+this package contains the examples and demonstration files.

@@ -1,0 +1,9 @@
+Development files for compiling programs with socks support
+	
+dante is a circuit-level firewall/proxy that can be used to provide
+convenient and secure network connectivity to a wide range of hosts
+while requiring only the server dante runs on to have external network
+connectivity.
+
+this package provides header files and instructions for compiling programs
+with socks support.

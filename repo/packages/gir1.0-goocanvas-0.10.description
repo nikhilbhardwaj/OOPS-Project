@@ -1,0 +1,7 @@
+Gobject introspection data for the goocanvas library
+	
+this package contains introspection data for goocanvas, a canvas widget
+for gtk+ based on the cairo library.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

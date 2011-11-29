@@ -1,0 +1,12 @@
+Jboss java management extensions
+	
+jboss implementation of the jmx technology. jboss includes a clean
+room implementation of the jmx api's published by sun
+microsystems. while implementing all the required management
+functions it is also geared towards acting as a core library of the
+jboss microkernel.
+
+jmx is about providing a standard for managing and monitoring all
+varieties of software and hardware components from java. further, jmx
+aims to provide integration with the large number of existing
+management standards.

@@ -1,0 +1,9 @@
+Mysql database server binaries
+	
+mysql is a fast, stable and true multi-user, multi-threaded sql database
+server. sql (structured query language) is the most popular database query
+language in the world. the main goals of mysql are speed, robustness and
+ease of use.
+
+this package includes the server binaries but doesn't contain all the
+infrastructure needed to setup system databases.

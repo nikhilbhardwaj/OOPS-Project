@@ -1,0 +1,8 @@
+Proof assistant for higher-order logic (gtk interface)
+	
+coq is a proof assistant for higher-order logic, which allows the
+development of computer programs consistent with their formal
+specification. it is developed using objective caml and camlp5.
+
+this package provides coqide, a graphical user interface for
+developing proofs.

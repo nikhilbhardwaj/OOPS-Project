@@ -1,0 +1,9 @@
+Datafreedom extensions manual
+	
+the extensions manual describes how to use pilot-qof with the
+stylesheets available in the datafreedom-qsfxsl package,
+how to create your own xsl and how pilot-qof can be used with
+the datafreedom-perl package. also included is the palm
+default currency table and notes on using pilot-qof with
+non-xml backends like sqlite and how to convert data created
+with gpe-expenses.

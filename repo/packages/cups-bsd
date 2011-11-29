@@ -1,0 +1,4 @@
+PackageId:2523
+Name:cups-bsd
+Version:1.4.4-7
+Deps:cups-client,cups-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcups2,update-inetd

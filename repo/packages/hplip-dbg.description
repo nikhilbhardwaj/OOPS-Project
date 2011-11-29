@@ -1,0 +1,7 @@
+Hp linux printing and imaging - debugging information
+	
+this package contains debugging symbolic information for all the
+binaries and libraries in the hplip and hpijs packages.
+
+it is useful for generating backtraces using debuggers like
+gdb and to get better information from tools like ltrace.

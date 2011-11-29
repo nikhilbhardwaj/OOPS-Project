@@ -1,0 +1,5 @@
+Module to munge strings for loggers
+	
+string::flogger is a perl module that allows developers to dynamically
+manipulate strings that should eventually get logged. it easily performs
+logging optimizations such as serializing data structures for display.

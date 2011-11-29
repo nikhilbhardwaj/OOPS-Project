@@ -1,0 +1,6 @@
+Ruby 1.8 binding to libsvm, a machine-learning support vector machine
+	
+this is a ruby binding for the popular and efficient libsvm learning package.
+the libsvm library implements the smo heuristic speedup for svm training.
+ruby provides the ease of use and applied mathematics provides the speed in
+this exciting scientific software.

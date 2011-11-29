@@ -1,0 +1,13 @@
+Debian science packages for cognitive neuroscience
+	
+this metapackage will install debian packages which might be useful for
+scientists doing cognitive neuroscience research. this comprises the full
+research process from conducting psychophysical experiments, over data
+acquisition and analysis, to visualization and typesetting of scientific
+results.
+
+the selection of packages is targeting the application of analysis
+techniques. methods developers are referred to the science-statistics,
+science-imageanalysis, science-numericalcomputation, med-imaging, and
+med-imaging-dev metapackages for a variety of additional software that
+might be useful in the context of cognitive neuroscience.

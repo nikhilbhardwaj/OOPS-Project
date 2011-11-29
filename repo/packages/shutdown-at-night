@@ -1,0 +1,4 @@
+PackageId:31579
+Name:shutdown-at-night
+Version:0.8
+Deps:cron,bcron-run,fcron,fping,ng-utils,perl,wakeonlan

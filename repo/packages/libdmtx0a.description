@@ -1,0 +1,7 @@
+Data matrix barcodes (runtime library)
+	
+libdmtx is a library for reading and writing data matrix 2d barcodes,
+two-dimensional symbols that hold a dense pattern of data with built-in error
+correction.
+
+this package provides the libdmtx runtime library.

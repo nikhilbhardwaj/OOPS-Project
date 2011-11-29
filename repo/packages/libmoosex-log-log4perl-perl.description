@@ -1,0 +1,7 @@
+Logging role for moose based on log::log4perl
+	
+moosex::log::log4perl is a perl module that provides a moose role, built on
+log::log4perl, for use with your moose classes. the initialization of the
+log4perl instance must be performed prior to logging the first log message.
+otherwise the default initialization will happen, probably not doing the
+things you expect.

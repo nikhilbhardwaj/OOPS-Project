@@ -1,0 +1,12 @@
+Scalable linear algebra package - dev. files for pvm
+	
+scalapack is the parallel version of lapack and is used on beowulf type
+clusters.
+
+you can choose between an implementation based on mpi or pvm. this
+package uses pvm.
+
+there are packages for the shared libraries, for the static libraries and
+the development files (this one) and for test programs.
+
+also included: pblas, parallel basic linear algebra subprograms.

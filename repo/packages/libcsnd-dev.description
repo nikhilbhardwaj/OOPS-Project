@@ -1,0 +1,8 @@
+Development files for csound -- c++ api
+	
+this package contains the development files needed to build programs
+using the c++ bindings to the csound library. it also includes the
+development symlink for the lua module, but you have to manually
+install liblua5.1-luacsnd5.2 for that to work.
+
+for more information on csound, see the csound package.

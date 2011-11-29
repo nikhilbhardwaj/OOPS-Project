@@ -1,0 +1,7 @@
+Binary firmware for various drivers in the linux kernel
+	
+this package contains firmware which was previously included in the linux
+kernel and which is compliant with the debian free software guidelines.
+
+most firmware previously included in the linux kernel is non-free and has
+been moved to the firmware-linux-nonfree package.

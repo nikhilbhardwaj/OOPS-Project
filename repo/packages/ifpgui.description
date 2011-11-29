@@ -1,0 +1,10 @@
+Qt based manager for iriver ifp audio players
+	
+this project is an open-source graphical user interface (gui)
+for iriver's ifp flash audio players.  it uses libifp to access
+the player over the management interface.
+
+this program does not work with the h, t or other recent models.
+these models are known to work: ifp-1xx,3xx,5xx,7xx,8xx,9xx and n10.
+you can only use this software if your player has the "management"
+version of iriver's firmware installed.

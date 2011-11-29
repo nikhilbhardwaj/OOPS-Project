@@ -1,0 +1,15 @@
+Parse, manipulate and lookup ip network blocks
+	
+net::netmask parses and understands ipv4 cidr blocks. it's built with
+an object-oriented interface. nearly all functions are methods that
+operate on a net::netmask object.
+
+there are methods that provide the nearly all bits of information about
+a network block that you might want.
+
+there are also functions to put a network block into a table and then
+later lookup network blocks by ip address in that table. there are
+functions to turn an ip address range into a list of cidr blocks. there
+are functions to turn a list of cidr blocks into a list of ip addresses.
+
+there is a function for sorting by text ip address.

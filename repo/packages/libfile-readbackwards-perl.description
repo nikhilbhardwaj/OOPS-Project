@@ -1,0 +1,11 @@
+File::readbackwards.pm -- read a file backwards by lines
+	
+this module reads a file backwards line by line. it is simple to use,
+memory efficient and fast. it supports both an object and a tied handle
+interface.
+
+it is intended for processing log and other similar text files which
+typically have their newest entries appended to them. by default files
+are assumed to be plain text and have a line ending appropriate to the
+os. but you can set the input record separator string on a per file
+basis.

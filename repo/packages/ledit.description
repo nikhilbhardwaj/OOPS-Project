@@ -1,0 +1,5 @@
+Line editor for interactive programs
+	
+ledit is a line editor, allowing to use control commands like in emacs
+or in shells (bash, tcsh). to be used with interactive commands. it is
+written in ocaml and camlp4 and uses the library unix.cma.

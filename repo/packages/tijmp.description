@@ -1,0 +1,7 @@
+Profiler for java to trace object and method timings
+	
+tijmp is a memory profiler for java 6 or later. it is similar to the jmp memory
+profiler, but unlike it, works with java 6 (using jvmti).
+
+it is written to be fast and have small memory footprint. the user
+interface uses swing.

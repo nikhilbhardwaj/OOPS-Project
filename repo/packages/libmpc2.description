@@ -1,0 +1,12 @@
+Multiple precision complex floating-point library
+	
+mpc is a portable library written in c for arbitrary precision
+arithmetic on complex numbers providing correct rounding. for the time
+being, it contains all arithmetic operations over complex numbers, the
+exponential and the logarithm functions, the trigonometric and
+hyperbolic functions.
+
+ultimately, it should implement a multiprecision equivalent of the iso
+c99 standard.
+
+it builds upon the gnu mp and the mpfr libraries.

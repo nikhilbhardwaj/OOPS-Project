@@ -1,0 +1,8 @@
+Interpreter for adventure international games
+	
+scottfree reads and executes trs-80 format scott adams data files. it is
+possible to run other formats either by writing a loader for that format or
+a converter to trs-80 format.
+
+most adventure international games are distributed as shareware and are
+available from ftp://ftp.gmd.de/if-archive/scott-adams/

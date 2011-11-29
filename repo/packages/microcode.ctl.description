@@ -1,0 +1,14 @@
+Intel ia32/ia64 cpu microcode utility
+	
+the microcode_ctl utility is a companion to the ia32 microcode
+driver:
+
+
+ - it decodes and sends new microcode to the kernel driver for intel ia32
+   family (pentium pro, pii, celeron, piii, xeon, pentium 4, etc.) and
+   intel x86_64 family processors;
+ - it signals the kernel driver to release any buffers it may hold.
+
+
+the microcode update does not permanently alter the cpu and must be
+performed each time the system is booted.

@@ -1,0 +1,7 @@
+Perl module that implement a sax filter for sorting xml elements
+	
+perl sax filter for sorting 'records' in xml documents (including
+documents larger than available memory).
+
+includes also the `xmlsort' utility that can be used to sort an xml
+file from the command line without writing perl code.

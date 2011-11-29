@@ -1,0 +1,9 @@
+High-performance asynchronous http client library headers
+	
+serf library is a c-based http client library built upon the apache
+portable runtime (apr) library.  it multiplexes connections, running the
+read/write communication asynchronously.  memory copies and
+transformations are kept to a minimum to provide high performance
+operation.
+
+this package contains development headers for serf.

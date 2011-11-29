@@ -1,0 +1,5 @@
+Python pep 8 code style checker
+	
+features a plugin architecture allowing for adding new checks is easily.
+parseable output listing line numbers of the error location.  consists of
+just one python file, and requires only stdlib.

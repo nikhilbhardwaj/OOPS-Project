@@ -1,0 +1,9 @@
+Client for obex push
+	
+this program allows you to send objects using the obex push protocol.
+
+the obex push protocol is used to transfer files to a mobile device,
+generally via bluetooth or irda. the protocol does not allow any other
+action than sending and generally requires less strict authentication,
+which is why it is sometimes preferred to the obex ftp protocol (which
+allows full filesystem access and is provided by the obexftp package).

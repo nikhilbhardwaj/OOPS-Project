@@ -1,0 +1,19 @@
+Native perl smtp server implementation for perl
+	
+the net::smtp::server module implements an rfc 821 compliant smtp
+server, completely in perl.  it's extremely extensible, so adding in
+things like spam filtering, or more advanced routing and handling
+features can be easily handled.  an additional module,
+net::smtp::server::relay has also been implemented as an example of
+just one application of this extensibility.  see the pod for more
+details on that module.  this extension has been tested on both unix
+and win32 platforms.
+
+creating a new server is as trivial as:
+
+$server = new net::smtp::server($host, $port);
+
+this creates a new smtp::server.  both $host and $port are optional,
+and default to the current hostname and the standard smtp port (25).
+however, if you run on a multi-homed machine, you may want to
+explicitly specify which interface to bind to.

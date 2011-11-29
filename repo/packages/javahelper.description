@@ -1,0 +1,46 @@
+Helper scripts for packaging java programs
+	
+javahelper contains several scripts which help in packaging
+java programs.
+
+jh_depends searches jars to find which packages they depend on,
+similar to dh_shlibdeps. it will also add depends on jarwrapper
+for packages with executable jars.
+
+jh_classpath will register the classpath dependencies for each
+jar so that they can be automatically loaded when that jar is
+used by other programs.
+
+jh_manifest updates the manifest in jar files according to
+a provided spec so that the resultant jar files will work with
+jarwrapper-enabled packages.
+
+jh_exec looks for symlinks to jars which should be executable
+and makes them executable
+
+jh_build builds java files to jars for you.
+
+jh_installlibs installs library jars into the correct locations
+
+jh_makepkg generates a template for a debian java package for you
+
+jh_installeclipse installs features/plugins built by pde-build.
+
+jh_setupenvironment prepares an out of source built for eclipse builds.
+
+jh_generateorbitdir creates an populates an orbit dir for eclipse builds.
+
+jh_compilefeatures compiles eclipse features based on feature ids.
+
+/usr/share/javahelper/java-vars.mk provides a selection of useful
+variables such as various jvm paths and the jvm name for the architecture
+
+/usr/share/javahelper/java-arch.sh converts debian architecture
+names into java names to locate libjvm.so in non-make build systems
+
+javahelper provides cdbs and dh macros so that it can be used with those
+package build systems.
+
+note that some of the eclipse helpers depends on packages not pulled
+by default (like with devscripts). you can find these scripts in
+suggests.

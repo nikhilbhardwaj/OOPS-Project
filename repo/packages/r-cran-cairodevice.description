@@ -1,0 +1,6 @@
+Gnu r cairo/gtk2 device driver package
+	
+this cran package provides a cairo/gtk2 graphics device for gnu r that
+that, in addition to standalone functionality, can be used to create
+devices as embedded components in a gui using a gtk drawing area widget,
+e.g. using rgtk2.

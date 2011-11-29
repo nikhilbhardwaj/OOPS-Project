@@ -1,0 +1,8 @@
+User interfaces with embedded multimedia - shared library
+	
+pigment allows building of user interfaces with embedded multimedia
+components.  it is designed with portability in mind and its plugin
+system will select a particular underlying graphical api on each
+platform.
+
+this package contains the shared library.

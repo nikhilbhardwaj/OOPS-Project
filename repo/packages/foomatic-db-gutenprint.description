@@ -1,0 +1,19 @@
+Openprinting printer support - database for gutenprint printer drivers
+	
+foomatic is a printing system designed to make it easier to set up
+common printers for use with debian (and other operating systems).
+it provides the "glue" between a print spooler (like cups or lpr) and
+your actual printer, by telling your computer how to process files
+sent to the printer.
+
+this package includes support for printers using the gutenprint
+printer driver suite.
+
+home page: http://www.openprinting.org/
+
+gutenprint is the print facility for the gimp, and in addition a
+suite of drivers that may be used with common unix spooling systems
+using ghostscript or cups.  these drivers provide printing quality
+for unix/linux on a par with proprietary vendor-supplied drivers in
+many cases, and can be used for many of the most demanding printing
+tasks.  gutenprint was formerly known as gimp-print.

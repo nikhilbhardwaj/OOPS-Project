@@ -1,0 +1,4 @@
+PackageId:23214
+Name:lintian
+Version:2.4.3+squeeze1
+Deps:binutils,diffstat,dpkg-dev,file,gettext,intltool-debian,libapt-pkg-perl,libclass-accessor-perl,libdigest-md5-perl,perl,libdigest-sha-perl,libipc-run-perl,libparse-debianchangelog-perl,libtimedate-perl,liburi-perl,locales,locales-all,man-db

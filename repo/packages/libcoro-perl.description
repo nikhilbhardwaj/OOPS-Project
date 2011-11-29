@@ -1,0 +1,17 @@
+Perl framework implementing coroutines
+	
+coro is a collection of modules which manages continuations in general, most
+often in the form of cooperative threads (also called coros, or simply "coro"
+in the documentation). they do not actually execute at the same time, even on
+machines with multiple processors.
+
+the specific flavor of thread offered by this module also guarantees you that
+it will not switch between threads unless necessary. it switches at easily-
+identified points in your program, so locking and parallel access are rarely
+an issue, making threaded programming much safer and easier than using other
+threading models.
+
+coro provides a full shared address space, which makes communication between
+threads very easy. a parallel matrix multiplication benchmark runs over 300
+times faster on a single core than perl's ithreads on a quad core using all
+four cores.

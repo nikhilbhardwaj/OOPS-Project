@@ -1,0 +1,15 @@
+Tool to design flanking oligo nucleotides for dna amplification
+	
+primer3 picks primers for polymerase chain reactions (pcrs), considering as
+criteria oligonucleotide melting temperature, size, gc content and
+primer-dimer possibilities, pcr product size, positional constraints within
+the source sequence, and miscellaneous other constraints. all of these
+criteria are user-specifiable as constraints, and some are specifiable as
+terms in an objective function that characterizes an optimal primer pair.
+
+it has been published in rozen s and skaletsky h, "primer3 on the www for
+general users and for biologist programmers.", methods mol biol.
+2000;132:365-86.
+
+the whitehead institute for biomedical research provides a web-based
+front end to primer3.

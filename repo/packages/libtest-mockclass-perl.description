@@ -1,0 +1,6 @@
+Module to provide mock classes and mock objects for testing
+	
+test::mockclass provides a simple interface for creating mock classes
+and mock objects with mock methods for testing purposes. it also
+provides a simple mechanism for tracking the interactions to the
+mocked objects.

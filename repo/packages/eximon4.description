@@ -1,0 +1,6 @@
+Monitor application for the exim mta (v4) (x11 interface)
+	
+eximon is a helper program for the exim mta (v4). it allows
+administrators to view the mail queue and logs, and perform a variety
+of actions on queued messages, such as freezing, bouncing and thawing
+messages.

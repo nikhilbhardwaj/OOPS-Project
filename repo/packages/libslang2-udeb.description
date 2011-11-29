@@ -1,0 +1,6 @@
+S-lang library for debian installer
+	
+this is a udeb, or a microdeb, of the s-lang library with wide charater
+support. as such it is the installer counterpart of libslang2.
+you only need this package to support applications needing s-lang during
+the debian installation process time and probably don't need to select it.

@@ -1,0 +1,19 @@
+Command-line encryption using the "one-time pad" method
+	
+onetime is an encoder/decoder that uses the one-time pad algorithm.
+
+onetime is a simple encryption program that takes care of some of
+the pad-management bureaucracy for you. it avoids re-using pad
+data (except when decrypting the same encrypted message twice, of
+course) by maintaining records of pad usage.
+
+if you keep your ~/.onetime configuration area under version control
+with subversion or cvs, onetime will automatically update it to get the
+latest pad usage records before using a pad, and will commit new
+records after using a pad.  thus, by sharing a single configuration
+area via version control, you and your interlocutors can transparently
+avoid the sin of pad range reuse.
+
+see http://en.wikipedia.org/wiki/one-time_pad for more information
+about one-time pads in general; run 'onetime --help' for a detailed
+usage message about onetime itself.

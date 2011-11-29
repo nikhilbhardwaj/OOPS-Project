@@ -1,0 +1,8 @@
+Base class for working with perl distributions
+	
+module::extract is a convenience base class for modules that work with
+perl distributions.
+
+its purpose is to take care of the mechanisms of locating and extracting
+a perl distribution so that your module can do something specific to the
+distribution.

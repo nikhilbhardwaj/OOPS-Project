@@ -1,0 +1,6 @@
+Rename network interfaces based on various static criteria
+	
+ifrename allow the user to decide what name a network interface will have.
+ifrename can use a variety of selectors to specify how interface names match
+the network interfaces on the system, the most common selector is the
+interface mac address.

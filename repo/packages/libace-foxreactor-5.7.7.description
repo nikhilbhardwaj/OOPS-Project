@@ -1,0 +1,10 @@
+Ace-gui reactor integration for fox
+	
+recognizing the need to write reactor-based gui applications, the ace
+community has created several reactor extensions for use with x
+window system. each of these extends the ace_select_reactor to work
+with a specific toolkit. by using these reactors, your gui
+application can remain single threaded yet still respond to both gui
+events, such as button presses, any your own application events.
+
+the ace_foxreactor integrates with the fox toolkit.

@@ -1,0 +1,4 @@
+Perl module to build groups of accessors
+	
+class::accessor::grouped lets you build groups of accessors that will call
+different getters and setters.

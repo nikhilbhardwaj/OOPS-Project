@@ -1,0 +1,10 @@
+Bibtex search tool
+	
+search-ccsb is a perl script that connects to "the collection of
+computer science bibliographies"[1], and performs a keyword search
+query. the result is a set of bibtex entries that matches the query.
+
+1. http://liinwww.ira.uka.de/bibliography/index.html
+
+if you use some emacsen application, this package will install the
+search-ccsb.el script on it.

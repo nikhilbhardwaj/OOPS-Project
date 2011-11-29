@@ -1,0 +1,8 @@
+Python wrapper for the gpgme library (debug extension)
+	
+pygpgme is a python module that lets you sign, verify, encrypt
+and decrypt messages using the openpgp format.
+it is built on top of the gnu privacy guard and the
+gpgme library.
+
+this package contains the extension built for the python debug interpreter.

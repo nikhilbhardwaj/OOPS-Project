@@ -1,0 +1,10 @@
+Qt 4 opengl module
+	
+qt is a cross-platform c++ application framework. qt's primary feature
+is its rich set of widgets that provide standard gui functionality.
+
+the qtopengl module offers classes that make it easy to use opengl in qt
+applications.
+
+opengl is a standard api for rendering 3d graphics. opengl only deals with 3d
+rendering and provides little or no support for gui programming issues.

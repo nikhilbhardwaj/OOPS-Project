@@ -1,0 +1,7 @@
+The xine video player, debug symbols
+	
+xine-ui is a frontend for the libxine video player library.
+
+this package contains debug symbols for the xine frontends xine,
+aaxine, cacaxine, fbxine. please install them to create meaningful
+backtraces when reporting bugs.

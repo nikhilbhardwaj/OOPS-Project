@@ -1,0 +1,5 @@
+Common error description library
+	
+libcomerr is an attempt to present a common error-handling mechanism to
+manipulate the most common form of error code in a fashion that does not
+have the problems identified with mechanisms commonly in use.

@@ -1,0 +1,12 @@
+The qt3 assistant application
+	
+this package contains the qt3 assistant, an easy to use frontend for
+the complete qt3 documentation and serves as an online help viewer for
+any qt program that wants to give the users access to online help.
+within the qt tools it is used as the help viewer for the online help
+for the qt3 designer and linguist as well as qmake and the qt 3 api
+documentation.
+
+developers of qt application who want to faciliate the qt assistant for online
+help display should refer to the readme.debian file for libqt3-mt-dev and
+the package qt3-apps-dev.

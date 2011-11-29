@@ -1,0 +1,15 @@
+Perl module for configuration file and command line handling
+	
+appconfig is a bundle of perl5 modules for reading configuration
+files and parsing command line arguments.  note that writing
+configuration files is not supported at this time.
+
+appconfig supports a relaxed configuration file syntax with support
+for flags (booleans), single and multivalue (lists or hashes)
+items.  a defined default and validation routine or regex can be
+defined for each option.
+
+environment variable, file variable and tilde (~) are supported and
+may be applied to selected configuration options.  for long blocks of
+text you can also use perl heredoc syntax.  additionally there is
+also a mechanism to utilise all these same features via a cgi.

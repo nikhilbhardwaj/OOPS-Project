@@ -1,0 +1,16 @@
+A data model toolkit in use by the maven 2 project
+	
+once a datamodel is defined, the toolkit can be used to generate any of the
+following at compile time.
+
+
+   * java pojos of the datamodel.
+   * java pojos to xml writer. (provided via xpp3, stax, jdom or dom4j)
+   * xml to java pojos reader. (provided via xpp3, stax or dom4j)
+   * xdoc documentation of the datamodel.
+   * xml schema to validate the datamodel.
+
+
+modello is used to build the maven system.
+
+this package provides the api documentation for modello.

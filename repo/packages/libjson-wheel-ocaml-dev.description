@@ -1,0 +1,11 @@
+Ocaml api to json data format
+	
+json-wheel provides an api to generate and read json
+data from an ocaml program. it maps each types of data
+defined in the json specification to a typed variable
+in ocaml
+
+json-wheel can also be used in conjonction with
+json-static to provide a convenient syntax extension
+to ocaml dedicated to parsing an validating json
+data.

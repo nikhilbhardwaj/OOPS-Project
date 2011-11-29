@@ -1,0 +1,10 @@
+Visual binary diff, visually compare binary files
+	
+visual binary diff (vbindiff) displays files in hexadecimal and ascii (or
+ebcdic). it can also display two files at once, and highlight the
+differences between them. unlike diff, it works well with large files (up to
+4 gb).
+
+vbindiff was inspired by the compare files function of the prosel utilities
+by glen bredon, for the apple ii. the single-file mode was inspired by the
+list utility of 4dos and friends.

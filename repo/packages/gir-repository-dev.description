@@ -1,0 +1,38 @@
+Xml sources files for the gobject introspection repository
+	
+gobject introspection is a project for providing machine readable
+introspection data of the api of c libraries. this introspection
+data can be used in several different use cases, for example
+automatic code generation for bindings, api verification and documentation
+generation.
+
+gobject introspection contains tools to generate and handle the
+introspection data.
+
+this package contains the xml sources for introspection data of the
+following libraries:
+
+
+ * atk
+ * avahi
+ * babl
+ * cairo
+ * fontconfig
+ * freetype2
+ * gdk
+ * gdkpixbuf
+ * opengl
+ * gnomekeyring
+ * goocanvas
+ * gtk
+ * libxml2
+ * libnotify
+ * libsoup
+ * pango
+ * poppler
+ * xft
+ * xlib
+
+
+the actual introspection data is shipped in the relevant gir1.0-*
+packages.

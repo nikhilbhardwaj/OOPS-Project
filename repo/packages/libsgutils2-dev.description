@@ -1,0 +1,13 @@
+Utilities for devices using the scsi command set (developer files)
+	
+most oses have scsi pass-through interfaces that enable user space programs
+to send scsi commands to a device and fetch the response. with scsi to ata
+translation (sat) many ata disks now can process scsi commands. typically
+each utility in this package implements one scsi command. see the draft
+standards at www.t10.org for scsi command definitions plus sat. ata
+commands are defined in the draft standards at www.t13.org . for a mapping
+between supported scsi and ata commands and utility names in this package
+see the coverage file.
+
+developer files (i.e. headers and a static library) which are associated with
+the utilities in the sg3-utils package.

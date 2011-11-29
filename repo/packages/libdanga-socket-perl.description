@@ -1,0 +1,12 @@
+Event loop and event-driven async socket base class
+	
+danga::socket is an abstract base class for objects backed by a socket which
+provides the basic framework for event-driven asynchronous io, designed to be
+fast. danga::socket is both a base class for objects, and an event loop.
+
+callers subclass danga::socket. danga::socket's constructor registers
+itself with the danga::socket event loop, and invokes callbacks on the
+object for readability, writability, errors, and other conditions.
+
+because danga::socket uses the "fields" module, your subclasses must
+too.

@@ -1,0 +1,7 @@
+Utility for iso ill of yaz
+	
+yaz is a toolkit that allows you to develop software using the
+z39.50/iso23950 standard for information retrieval.
+
+the yaz-illclient program is a command-line based client which sends ill
+requests to a server and decodes the response.

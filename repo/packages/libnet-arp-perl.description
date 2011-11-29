@@ -1,0 +1,5 @@
+Module to create arp packets and lookup for arp information
+	
+net::arp module allows for creating arbitrary arp packages from within
+your perl code, as well as for looking up the arp information for
+machines in your local network.

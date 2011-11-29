@@ -1,0 +1,10 @@
+Converts dos <-> unix text files, alias tofromdos
+	
+dos text files traditionally have cr/lf (carriage return/line feed) pairs
+as their new line delimiters while unix text files traditionally have
+lfs (line feeds) to terminate each line.
+
+tofrodos comprises one program, "fromdos" alias "todos", which converts
+text files to and from these formats. use "fromdos" to convert dos
+text files to the unix format, and "todos" to convert unix text files
+to the dos format.

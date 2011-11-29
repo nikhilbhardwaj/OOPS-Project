@@ -1,0 +1,9 @@
+A console tool to turn cds into encoded music
+	
+yaret is a perl script that automates the ripping, normalization, and
+encoding of cds. it supports cddb very well via the perl audio::cd
+module, and also can work with your favorite ripper/normalizer/encoder
+(e.g., cdparanoia, cdda2wav, normalize, etc.) it supports useful
+features like multiple concurrent encoders and an easy to use
+configuration file that lets you customize yaret to your taste (such as
+file naming based on the cddb information).

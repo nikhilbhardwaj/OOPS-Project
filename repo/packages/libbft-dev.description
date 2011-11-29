@@ -1,0 +1,8 @@
+Code_saturne base functions and types library
+	
+bft stands for base functions and types.
+it is destined to be used by scientific codes (computational fluid
+dynamics) often using some form of parallelism, especially mpi.
+
+this package contains the development files needed to compile software to
+use the libbft api.

@@ -1,0 +1,13 @@
+High-level terminal interface library for c++ (development files)
+	
+libcwidget is a modern user interface library modeled on gtk+ and qt,
+but using curses as its display layer and with widgets that are
+tailored to a terminal environment.
+
+this package contains files that are needed to write or compile
+software that uses libcwidget.
+
+warning: this is a newly created library whose development is closely
+tied to the development of aptitude.  its api may be incomplete and
+is likely to change considerably version-over-version!  you may want
+to avoid cwidget for stable projects.

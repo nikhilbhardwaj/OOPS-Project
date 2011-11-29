@@ -1,0 +1,10 @@
+Simple opengl image library - debug files
+	
+soil is a tiny c library used primarily for uploading textures into opengl.
+it supports loading bmp, png, jpg, tga, dds, psd and hdr files as well as
+saving into tga, bmp and dds files.
+
+it is also able to perform common functions needed in loading opengl textures.
+
+this package contains debug symbols for libsoil. it may be useful to debug
+troubles in software related to libsoil.

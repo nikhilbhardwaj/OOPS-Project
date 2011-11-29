@@ -1,0 +1,20 @@
+Bookkeeping software for small and medium-size businesses
+	
+eekboek is a bookkeeping package for dutch users; it creates reports such as
+a balance sheet ("balans"), a general journal ("journaal"), a general
+ledger ("grootboek") and a vat report ("btw-aangifte").
+
+unlike other accounting software, eekboek has a command-line interface: the
+eekboek shell (with tab completion).  it uses a database as back end: either
+postgresql (using the eekboek-db-postgresql package) or sqlite.
+interoperability is a key feature of eekboek: editable text dumps of all your
+data are possible at any time.  eekboek can generate an "xml auditfile
+financieel" (xaf) as used by dutch tax office.  furthermore, it has a
+complete perl api to create your own custom applications.
+
+the eekboek documentation is available in dutch only.
+
+if you'd like to use eekboek with a postgresql back end (instead of the
+default sqlite), install the package eekboek-db-postgresql.
+if you'd like to use the eekboek gui, install the suggested package
+eekboek-gui.

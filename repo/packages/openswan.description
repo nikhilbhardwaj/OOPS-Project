@@ -1,0 +1,13 @@
+Internet key exchange daemon
+	
+openswan is an ipsec based vpn solution for the linux kernel. it can use the
+native ipsec stack as well as the klips kernel module. both ikev1 and ikev2
+protocols are supported.
+
+the openswan ike daemon is named pluto. it was inherited from the frees/wan
+project, but provides improved x.509 certificate support and other features.
+
+in order to use the klips ipsec code instead of the native version, you will
+need to either install openswan-modules-source and build the appropriate
+module for your kernel or use openswan-modules-dkms which automates this
+task.

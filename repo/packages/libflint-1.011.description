@@ -1,0 +1,11 @@
+C library for number theory, shared library
+	
+the fast library for integer number theory is a c library which supports
+polynomial arithmetic over the integers, fast integer arithmetic and factoring
+(including a highly optimized quadratic sieve).
+
+flint has funtionality similar to that of the number theory library (ntl).
+however, unlike ntl, which is designed primarily for asymptotic performance,
+flint is designed for good performance in small cases as well.
+
+this package contains the flint shared library.

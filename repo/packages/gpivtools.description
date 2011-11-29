@@ -1,0 +1,31 @@
+Command line programs for particle image velocimetry
+	
+a collection of programs for images that are generated
+during a particle image velocimetry (piv) experiment. this is a
+technique to obtain the velocity field of a fluid flow quantitatively
+and is performed by tracking tracer particles that have been seeded
+to a fluid. the technique is also applied for observing deformations
+at surfaces of (solid) bodies. the package contains:
+
+an image processing program for typical filtering and manipulation
+routines that may be convenient for piv.
+
+an image interrogation program resulting into estimators of particle
+image displacements.
+
+validation programs to test on outliers, peak-locking effect and
+velocity gradients.
+
+post-processing programs for data manipulation (flipping, rotation
+etc), spatial and time scaling, calculation of spatial averages and
+derivative quantities from the piv data, like vorticity and strain.
+
+miscellaneous programs and scripts to perform image format conversion,
+batch-processing, pipeline processing (image evaluation, validation and
+post-processing at once), calculation of time averages from a series
+of piv data sets, data-visualization and data-manipulation.
+
+all programs start with gpiv_.
+
+this package contains all files used by gpivtools and gpivtools-mpi,
+like the man pages.

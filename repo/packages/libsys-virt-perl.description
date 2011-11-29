@@ -1,0 +1,7 @@
+Perl module providing an extension for the libvirt library
+	
+the sys::virt module provides a perl xs binding to the libvirt virtual
+machine management apis. this allows machines running within arbitrary
+virtualization containers to be managed with a consistent api.
+
+for further details on libvirt consult its website http://libvirt.org/

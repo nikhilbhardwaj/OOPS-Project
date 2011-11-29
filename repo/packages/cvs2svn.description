@@ -1,0 +1,5 @@
+Convert a cvs repository to a subversion, bazaar or git repository
+	
+converts a cvs repository (including its branches and tags) to a
+subversion, bazaar or git repository. it is designed for one-time conversions,
+not for repeated synchronizations between cvs and subversion, bazaar or git.

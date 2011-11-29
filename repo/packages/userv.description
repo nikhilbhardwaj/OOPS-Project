@@ -1,0 +1,9 @@
+`user services' - program call across trust boundaries
+	
+userv allows one program to invoke another when only limited trust
+exists between them.  it is a tool which can be used to avoid having
+to give other system services root privilege, and which allows users
+to more securely have programs provide services to others.
+
+userv can be useful as `glue' for system administrators; there are
+not many full-blown userv-using applications yet.

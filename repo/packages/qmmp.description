@@ -1,0 +1,44 @@
+Feature-rich audio player with support of many formats
+	
+qmmp is feature-rich audio player with support of many formats.
+it is written in qt.
+
+audio formats supported:
+
+ - flac;
+ - ogg vorbis;
+ - mpeg1 layer 1/2/3;
+ - aac;
+ - cue sheet;
+ - wavepack.
+ - musepack;
+ - cd audio;
+ - ffmpeg-supported formats.
+
+
+audio output through:
+
+ - alsa;
+ - oss;
+ - pulseaudio;
+ - jack.
+
+
+features:
+
+ - winamp and xmms skins support;
+ - plugins support;
+ - last.fm scrobbler;
+ - spectre analyzer;
+ - rediscretization;
+ - video playback via mplayer;
+ - mpris support;
+ - lyrics (using lyricsplugin.com);
+ - device detection;
+ - global hotkeys;
+ - projectm visualization;
+ - mms support (experimental);
+ - multiple playlists;
+ - cover support;
+ - replaygain support;
+ - streaming ogg vorbis or mp3 via icecast/shoutcast.

@@ -1,0 +1,7 @@
+Experimental vhdl compiler and interpreter
+	
+compiles a subset of vhdl 2000 to an intermediate language. the result
+can be simulated with an interpreter.
+
+fauhdlc is still in a very early experimental state, where many vhdl
+constructs are not yet properly supported.

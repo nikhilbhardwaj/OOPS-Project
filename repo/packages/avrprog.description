@@ -1,0 +1,11 @@
+Programmer for atmel avr microcontrollers
+	
+this package can program atmel avr microcontrollers and uses pc
+parallel port to program the device in serial mode. the device
+can be programmed "in-system".
+
+it comes with a schematic of the hardware required. the hardware
+was designed to be efficient and inexpensive.
+schematic can be found in /usr/share/doc/avrprog/
+
+for more information, see http://avrprog.sourceforge.net

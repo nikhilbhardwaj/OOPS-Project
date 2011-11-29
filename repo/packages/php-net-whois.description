@@ -1,0 +1,7 @@
+Php pear module for querying whois services
+	
+the pear::net_whois class provides a tool to query internet domain name and
+network number directory services.
+
+this module looks up records in the databases maintained by several network
+information centers (nics).

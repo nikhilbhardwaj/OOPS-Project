@@ -1,0 +1,9 @@
+Pbuilder running on cowdancer
+	
+'cowbuilder' command is a wrapper for pbuilder which allows using
+pbuilder-like interface over cowdancer environment.
+
+pbuilder is a tool for building and testing debian package inside a clean
+chroot, and cowbuilder allows chroot to be recreated using
+hard-linked copies with copy-on-write, which makes creation and
+destruction of chroots fast.

@@ -1,0 +1,6 @@
+Perl module to collect system statistics
+	
+sys::statistics::linux is a perl module that provides a simple interface to
+get various information about a running linux system, including things like
+the current processor workload, memory usage, network and disk statistics,
+and more.

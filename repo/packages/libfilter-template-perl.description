@@ -1,0 +1,6 @@
+Source filter for inline code templates (macros)
+	
+filter::template is a source filter for perl that provides a mechanism for
+defining inline source code templates. templates can be much faster than
+subroutines, but can cause debugging to become significantly more difficult.
+read the documentation to understand the limitations and choose wisely.

@@ -1,0 +1,10 @@
+Kde display manager for x11
+	
+kdm manages a collection of x servers running on local or remote machines.
+it allows users to easily log into their preferred desktop environment, connect
+to a remote xdmcp server, or shut down the system.
+
+kdm supports custom themes and can display a list of users with icons.
+additional user icons can be found in the 'kdepasswd' package.
+
+this package is part of the kde base workspace module.

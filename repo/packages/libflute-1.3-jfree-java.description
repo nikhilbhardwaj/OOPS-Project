@@ -1,0 +1,7 @@
+Java css parser using sac (jfree version)
+	
+flute is a css2 parser written in java that implements sac.
+sac is a standard event-based api for css parsers, closely
+modelled on the sax api for xml parsers.
+
+this package contains the library.

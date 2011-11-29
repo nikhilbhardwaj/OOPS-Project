@@ -1,0 +1,8 @@
+Mongrel plugin to manage a cluster of mongrel servers
+	
+mongrel_cluster is a plugin that wrappers the mongrel http server and
+simplifies the deployment of webapps using a cluster of mongrel servers.
+mongrel_cluster will conveniently configure and control several mongrel
+servers, or groups of mongrel servers, which are then load balanced using
+a reverse proxy solution. typical load balancing reverse proxies include
+apache, lighttpd, pound, pen and balance.

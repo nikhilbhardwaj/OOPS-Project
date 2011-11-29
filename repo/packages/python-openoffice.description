@@ -1,0 +1,12 @@
+Python libraries for interacting with openoffice.org
+	
+this is a python module to interact with openoffice.org. it aims to support:
+
+
+ * users writing complex macros for openoffice in python
+ * developers interacting with openoffice from outside (eg. use openoffice to
+   print a file)
+
+
+the library is designed to support both writing macros (called by ooo) and
+interacting with ooo from an external python program (using the uno bridge).

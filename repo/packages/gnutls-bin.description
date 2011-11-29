@@ -1,0 +1,7 @@
+The gnu tls library - commandline utilities
+	
+gnutls is a portable library which implements the transport layer
+security (tls) 1.0 and secure sockets layer (ssl) 3.0 protocols.
+
+this package contains a commandline interface to the gnu tls library,
+which can be used to set up secure connections from e.g. shell scripts.

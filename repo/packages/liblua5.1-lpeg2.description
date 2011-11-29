@@ -1,0 +1,8 @@
+Lpeg library for the lua language version 5.1
+	
+lpeg is a new pattern-matching library for lua, based on parsing expression
+grammars (pegs). pegs look similar to regular expressions or context-free
+grammars in backus-naur form (bnf) notation. pegs make a good replacement for
+regular expressions, because they are strictly more powerful. for example, a
+regular expression inherently cannot find matched pairs of parentheses, because
+it is not recursive, but a peg can.

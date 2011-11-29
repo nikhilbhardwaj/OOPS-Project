@@ -1,0 +1,14 @@
+Dec os8 images for a pdp-8 emulator
+	
+this package contains images of the os8 operating system
+which are usable by a pdp-8 emulator.
+
+the debian simh package supplies a pdp8 emulator, but
+the file are in a standard format usable by any other
+pdp8 emulator such as jones's or haygood's emulator.
+
+the os8 script will run the simh emulator
+with these images.
+
+these images are not dfsg free because dec prohibits
+commercial use of these images.

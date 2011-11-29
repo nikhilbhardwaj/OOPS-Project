@@ -1,0 +1,11 @@
+Graphical soundcard mixer for alsa soundcard driver
+	
+alsamixergui is an fltk based mixer program for use with the alsa soundcard
+drivers. it supports multiple soundcards with multiple devices.
+
+alsamixergui is a frontend for alsamixer, written directly on top of the
+alsamixer source, leaving the original source intact, only adding a couple of
+ifdefs, and some calls to the gui part. it provides exactly the same
+functionality, but with a graphical user interface.
+
+homepage: http://www.iua.upf.es/~mdeboer/projects/alsamixergui/

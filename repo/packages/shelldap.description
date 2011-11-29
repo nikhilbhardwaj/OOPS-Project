@@ -1,0 +1,5 @@
+Shell-like interface for browsing ldap servers and editing their content
+	
+shelldap lets you browse and edit an ldap tree as if it were a filesystem.  it
+keeps command history, has sane autocompletes, credential caching, site-wide
+and individual configs, and it's fun to say. shelldap! shelldap! shelldap!

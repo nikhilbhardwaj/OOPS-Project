@@ -1,0 +1,15 @@
+Haskell-source with extensions library for ghc6
+	
+haskell-src-exts (hsx, haskell-source with extensions) is an extension of the
+standard haskell-src package, and handles most common syntactic extensions to
+haskell, including:
+
+ * multi-parameter type classes with functional dependencies
+ * indexed type families (including associated types)
+ * empty data declarations
+ * gadts
+ * implicit parameters (ghc and hugs style)
+ * template haskell
+
+
+this package contains the libraries compiled for ghc 6.

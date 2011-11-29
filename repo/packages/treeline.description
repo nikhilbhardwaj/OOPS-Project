@@ -1,0 +1,22 @@
+Versatile tree-like structured custom data manager
+	
+treeline is a versatile tool for working with all kind of information
+that fits into a tree-like structure.
+
+it can be used to edit bookmark files, create mini-databases (e.g., for
+addresses, tasks, records, cds, etc.), outline documents, or just
+collect ideas. it can also be used as a generic editor for xml files.
+
+the data schemas for any node in the data tree can be customized and
+new types of nodes can be defined. the way data is presented on the
+screen, exported to html, or printed can be defined with html-like
+templates. plug-ins can be written to load and save data from and to
+custom file formats or external data sources and extend the
+functionality of treeline.
+
+
+ this package also contains the translation files to german and french.
+
+
+treeline is written in python and uses the pyqt bindings to the qt
+toolkit.

@@ -1,0 +1,8 @@
+Perl parser and formatter for rfc 2253 style dn strings
+	
+x500::dn handles x.500 dns (distinguished names). currently, it parses dn
+strings formatted according to rfc 2253 syntax into an internal format and
+produces rfc 2253 formatted string from it.
+
+x500::rdn handles x.500 rdns (relative distinguished names). this is a
+supporting module for x500::dn.

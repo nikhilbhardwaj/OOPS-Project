@@ -1,0 +1,6 @@
+Anti-spam plugin for postfix
+	
+policyd is an anti-spam plugin for postfix (mysql based) that
+does  greylisting, sender-(envelope  or sasl)-based throttling
+(on messages and / or volume  per defined time unit), spamtrap
+monitoring / blacklisting and helo auto blacklisting.

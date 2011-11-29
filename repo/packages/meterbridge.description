@@ -1,0 +1,10 @@
+A collection of audio meters for the jack audio server
+	
+meterbridge implements various meters for the jack audio connection kit.
+examples of the available types are:
+
+  * ppm peak program level meter
+  * vu volume unit meter
+  * dpm digital peak meter
+  * jf jellyfish meter
+  * sco scope

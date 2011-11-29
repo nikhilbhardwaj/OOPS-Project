@@ -1,0 +1,18 @@
+Small command line interface to webdav servers
+	
+nd is a command line tool to issue queries to a webdav server.
+
+webdav stands for "web-based distributed authoring and versioning"
+(rfc 2518). it is a protocol built on top of http, allowing users
+to collaboratively edit and manage files on remote web servers.
+
+nd can be used to retrieve, submit, remove, and lock individual
+files, as well as retrieving information about them. it also
+supports proxying, as well as the authentication methods 'basic'
+and now 'digest' for protecting against unsolicited access.
+
+it is smaller than the alternative tool cadaver. however, nd has
+neither an interactive mode, nor has it support for ssl or tls
+encrypted transmissions, but it is well suited for use in scripts.
+
+nd is dependent on libxml2 and libmhash2.

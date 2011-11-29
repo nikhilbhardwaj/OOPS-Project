@@ -1,0 +1,10 @@
+Echo backend module for business::onlinepayment
+	
+this is business::onlinepayment::openecho, an business::onlinepayment
+backend module for echo.  it is only useful if you have a merchant account
+with echo: http://www.echo-inc.com/  (also see http://www.openecho.com/)
+
+business::onlinepayment is a generic interface for processing payments through
+online credit card processors, online check acceptance houses, etc.  (if you
+like buzzwords, call it an "multiplatform ecommerce-enabling middleware
+solution").

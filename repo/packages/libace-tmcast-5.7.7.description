@@ -1,0 +1,7 @@
+Ace transactional multicast library
+	
+the tmcast library is a transaction multicast protocol
+implementation.
+
+each message is delivered to multicast group members as a
+transaction: an atomic, consistent and isolated action.

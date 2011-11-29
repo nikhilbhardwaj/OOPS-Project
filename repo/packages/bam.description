@@ -1,0 +1,6 @@
+A fast and flexible build system
+	
+bam uses lua to describe the build process. it's takes its inspiration for
+the script files from scons. while scons focuses on being 100% correct when
+building, bam makes a few sacrifices to acquire fast full and incremental
+build times.

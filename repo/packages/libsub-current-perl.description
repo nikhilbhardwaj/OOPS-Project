@@ -1,0 +1,6 @@
+Perl module to determine the executing subroutine
+	
+sub::current provides a fairly magical function called routine() which returns
+a code reference pointing at the currently executing subroutine. it does not
+make sense to use this inside a special block (such as begin, end, unitcheck,
+check or init) or at the top level of a program, so routine will return undef.

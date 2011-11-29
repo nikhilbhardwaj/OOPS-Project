@@ -1,0 +1,18 @@
+Lightweight http interface library - plugins
+	
+pion-net is not intended to implement yet another web server, but to
+provide http(s) functionality to new or existing c++ applications. if
+you're looking for a full-featured server application, check out apache
+or lighttpd. if you're working on a boost c++ application and would just
+like to use http to provide a simple user interface or interact with
+run-time data, then pion-net is a clean and simple solution.
+
+pion network library uses the boost and asio libraries for multi-threading
+and asynchronous i/o. this allows servers implemented using pion-net to
+handle many thousands of connections simultaneously with a single physical
+server.
+
+pion-net also supports server-side ssl & tls encryption when built with
+the openssl library (which the debian package is).
+
+this package includes the pion-net plugins.

@@ -1,0 +1,5 @@
+Deliver bulletins directly to the users' maildir.
+	
+deliver bulletins directly to the maildir mail storage of users.  designed to
+be run from the /etc/aliases file with command-line parameters for which
+groups to send mail to.

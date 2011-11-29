@@ -1,0 +1,6 @@
+Library providing threading for email::simple objects
+	
+email::thread is a wrapper for mail::thread that allows it to work with
+email::simple objects.  the combination of the two libraries allows
+collections of email::simple objects to be organized into threads
+by references and in-reply-to headers.

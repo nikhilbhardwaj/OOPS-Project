@@ -1,0 +1,32 @@
+Data analysis and scientific plotting
+	
+qtiplot is a fully fledged plotting software similar to the originlab origin
+software (see http://www.originlab.com for more information about origin).
+
+it can make two and three dimensional plots of publication quality, both from
+datasets and functions. it can do non-linear fitting and multi-peak fitting.
+
+some features:
+
+ * 3d plots.
+ * publication quality 2d plots: error bars, multilayer plots, bar plots,
+   pie plots, vector plots, contour and image plots.
+ * statistical plots: box/whiskers diagramms, histograms.
+ * easy export of plots to vector formats (eps, ps, pdf) and to other various
+   image formats (bmp, jpg, png, tiff).
+ * powerful and versatile spreadsheets and calculations in column-logic.
+ * easy ascii-import/export of single or multiple files.
+ * linear and non-linear curve fitting with weighting and estimation of
+   statistical errors of the fit-parameters, using levenberg-marquardt,
+   least-squares algorithm or nelder-mead simplex minimization algorithm.
+ * multi-peak fitting with gaussian and lorentzian peak profiles.
+ * data analysis: statistics, sorting, fft, data smoothing (savitzky-golay,
+   fft smoothing, and moving window average), data filtering (low/high/band
+   pass and band block filters), convolution/deconvolution, correlation,
+   interpolation, numerical integration/differentiation.
+ * matrices optimized for 3d plotting.
+ * templates support: all the settings for plots (2d/3d), tables and matrixes
+   can be saved to ascii files and restored later on for a fast editing
+   process.
+ * project files based on folders, a powerful project explorer with extensive
+   built-in features: drag and drop, searching facilities.

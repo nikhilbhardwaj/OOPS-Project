@@ -1,0 +1,10 @@
+The ktexteditor interfaces for the kde platform
+	
+this package provides the ktexteditor interfaces (also called kte interfaces)
+that are a set of well-defined interfaces which an application or library can
+implement to provide advanced plain text editing services. applications which
+utilise this interface can thus allow the user to choose which implementation
+of the editor component to use. the only implementation right now is the kate
+editor component (kate part).
+
+this package is part of the kde development platform libraries module.

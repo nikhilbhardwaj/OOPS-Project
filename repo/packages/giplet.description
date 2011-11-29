@@ -1,0 +1,9 @@
+Gnome ip display applet
+	
+giplet is a simple gnome panel applet that displays your
+computer's ip address. giplet can either display the ip
+address of a specified ethernet interface or the ip address
+the outside world sees.
+
+giplet can also be set to recheck every so often in case
+your router resets or the ip address is renewed.

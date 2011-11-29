@@ -1,0 +1,19 @@
+Pyorbit: development files
+	
+it aims to take advantage of new features found in orbit2 to make
+language bindings more efficient.  this includes:
+
+  - use of orbit2 type libraries to generate stubs
+  - use of the orbit_small_invoke_stub() call for operation
+    invocation, which allows for short circuited invocation on local
+    objects.
+
+
+where it makes sense, this binding tries to stay compatible with the
+python language mapping, which can be found on the omg web site:
+
+    http://www.omg.org/cgi-bin/doc?formal/02-09-07
+
+
+this package contains development files necessary to develop extensions
+for the module using the c language.

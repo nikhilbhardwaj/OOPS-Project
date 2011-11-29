@@ -1,0 +1,8 @@
+Servlet and jsp engine -- common files
+	
+apache tomcat implements the java servlet and the javaserver pages (jsp)
+specifications from sun microsystems, and provides a "pure java" http web
+server environment for java code to run.
+
+this package contains common files needed by the tomcat6 and tomcat6-user
+packages (tomcat 6 scripts and libraries).

@@ -1,0 +1,7 @@
+Gnu r package for visualizing multivariate data
+	
+scatterplot3d is a gnu r package for the visualization of multivariate data
+in a three dimensional space. basically, scatterplot3d generates a scatter plot
+in the 3d space using a parallel projection. higher dimensions (fourth, fifth,
+etc.) of the data can be visualized to some extent using, e.g. different
+colors, symbol types or symbol sizes.

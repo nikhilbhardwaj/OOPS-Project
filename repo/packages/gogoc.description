@@ -1,0 +1,9 @@
+Client to connect to ipv6 tunnel brokers
+	
+tsp is a control protocol used to establish and maintain static tunnels.
+the gateway6 client (gogoc) is used on the host computer to connect to a
+tunnel broker using the tsp protocol and to get the information for its
+tunnel. when it receives the information for the tunnel, the gateway6
+client creates the static tunnel on its operating system.
+
+this package was previously called gw6c or tspc.

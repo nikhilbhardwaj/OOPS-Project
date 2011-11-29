@@ -1,0 +1,10 @@
+Feeds (rss/atom) reader plugin for claws mail
+	
+the rssyl plugin provides feeds reading capability for claws mail mailer.
+
+supported formats are rss (1.0, 2.0 and probably 0.9x versions) and
+atom feeds.
+
+it integrates also with dillo viewer plugin to allow online browsing
+of entries, and has per-feed customization features, transforming
+your claws mail into a powerful lightweight feeds reader.

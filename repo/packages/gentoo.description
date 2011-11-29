@@ -1,0 +1,15 @@
+A fully gui-configurable, two-pane x file manager
+	
+gentoo is a two-pane file manager for the x window system. gentoo lets the
+user do (almost) all of the configuration and customizing from within the
+program itself. if you still prefer to hand-edit configuration files,
+they're fairly easy to work with since they are written in an xml format.
+
+gentoo features a fairly complex and powerful file identification system,
+coupled to a object-oriented style system, which together give you a lot
+of control over how files of different types are displayed and acted upon.
+additionally, over a hundred pixmap images are available for use in file
+type descriptions.
+
+gentoo was written from scratch in ansi c, and it utilises the gtk+ toolkit
+for its interface.

@@ -1,0 +1,20 @@
+Desktop integration utilities from freedesktop.org
+	
+xdg-utils contains utilities for integrating applications with the
+desktop environment, regardless of which desktop environment is used.
+they are part of freedesktop.org's portland project.
+
+the following utilities are included:
+
+
+ * xdg-desktop-menu - install desktop menu items
+ * xdg-desktop-icon - install icons on the user's desktop
+ * xdg-icon-resource - install icon resources
+ * xdg-mime - gather mime information about a file
+ * xdg-open - open a url in the user's preferred application that
+              handles the respective url or file type
+ * xdg-email - open the user's preferred email client, potentially with
+               subject and other info filled in
+ * xdg-screensaver - enable, disable, or suspend the screensaver
+ * xdg-settings - get various settings (default web browser) from
+                  the desktop environment

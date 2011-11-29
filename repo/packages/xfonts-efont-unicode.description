@@ -1,0 +1,12 @@
+/efont/ unicode fonts for x which cover various scripts
+	
+/efont/ is an x bdf font package for 10, 12, 14, 16, and 24 pixels
+which are encoded in unicode.  though they are still under development,
+they contain various scripts including latin, ipa, greek, cyrillic,
+armenian, hebrew, devanagari, thai, lao, georgian, runic, hiragana,
+katakana, hangul syllables, and part of arabic, bopomofo, cjk ideogram,
+and various symbols.
+
+this package contains normal (non-italic, medium) fonts only.
+xfonts-efont-unicode-ib package is available for italic and bold
+fonts.

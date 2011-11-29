@@ -1,0 +1,4 @@
+Fetches email from microsoft exchange servers
+	
+fetchexc retrieves emails using webdav (outlook web access) and
+delivers it to an smtp server or local mbox store.

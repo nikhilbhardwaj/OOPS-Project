@@ -1,0 +1,9 @@
+Minimal dumb-terminal emulation program
+	
+picocom was designed to serve as a simple, manual, modem
+configuration, testing, and debugging tool. it has also served (quite
+well) as a low-tech "terminal-window" to allow operator intervention
+in ppp connection scripts (something like the ms-windows "open
+terminal window before / after dialing" feature). it could also prove
+useful in many other similar tasks. it is ideal for embedded systems
+since its memory footprint is minimal.

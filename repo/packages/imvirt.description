@@ -1,0 +1,16 @@
+Detects several virtualizations
+	
+this perl script tries to detect if it is run in a virtualization container.
+
+in this version it is able to detect the following virtualization
+technologies:
+
+ virtualbox
+ virtual pc/server
+ vmware
+ qemu
+ kvm
+ xen
+
+
+and much more.

@@ -1,0 +1,12 @@
+Monitor email service availability and functioning
+	
+monitor email service availability and functioning. tests the whole
+route from smtp submission to local delivery, not just whether an
+smtp server accepts tcp connections.
+
+multiple email servers can be tested by creating a remote alias that
+points back to a local address, and sending test emails to it.
+
+the results of this monitoring are available as graphs via munin
+plugins, and can be connected to nagios to send alerts when the test
+emails no longer get delivered, or if the delivery takes too long.

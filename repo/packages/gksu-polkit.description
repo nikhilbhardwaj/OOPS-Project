@@ -1,0 +1,6 @@
+Command line utility to run programs as root
+	
+this is the new generation of gksu, a simple utility to run programs
+as root, even in x-based environments. this version uses the new
+libgksu-polkit library, which uses policykit for authorization
+purposes and a d-bus service to actually perform the work.

@@ -1,0 +1,15 @@
+A fine-grained html-filter, xss-blocker and mailto-obfuscator
+	
+html::tagfilter is a subclass of html::parser with a single purpose: it
+will remove unwanted html tags and attributes from a piece of text. it can
+act in a more or less fine-grained way: you can specify permitted tags,
+permitted attributes of each tag, and permitted values for each attribute
+in as much detail as you like.
+
+tags which are not allowed are removed. tags which are allowed are trimmed
+down to only the attributes which are allowed for each tag. it is possible
+to allow all or no attributes from a tag, or to allow all or no values for
+an attribute, and so on.
+
+the filter will also guard against cross-site scripting attacks and
+obfuscate any mailto:email addresses, unless you tell it not to.

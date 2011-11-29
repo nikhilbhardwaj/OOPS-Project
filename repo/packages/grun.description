@@ -1,0 +1,20 @@
+Gtk based run dialog
+	
+grun is a gtk based run dialog that closely resembles
+the windows run dialog, just like xexec. it has a
+intelligent history mechanism and a dual level fork()
+mechanism for launching the application in its own
+process. grun also has support for launching console
+mode application in an xterm as well as associations
+for file types.
+
+grun is much more powerful than xexec, looks a lot
+better, and has the big advantage that you can start
+typing a command without having to mouse-click into
+the text field.
+
+grun is especially useful if you do not use the
+gnome desktop which has a built-in run command, and
+if you use a window-manager (e.g. icewm) where you can
+define a  keyboard shortcut (e.g. alt-f2) for staring
+grun.

@@ -1,0 +1,16 @@
+Mvc rapid application development framework for php
+	
+cakephp is a flexible model-view-controller rapid application development
+framework for php inspired by ruby on rails.
+
+cakephp makes developing applications swiftly and with the least amount of
+hassle:
+
+
+ * compatibility with php4 and php5
+ * integrated crud for database interaction and simplified queries including
+   scaffolding
+ * request dispatcher with good looking, custom urls
+ * fast and flexible templating (php syntax, with helpers)
+ * useful core features (access control lists, ajax integration, etc.)
+ * works from any website subdirectory

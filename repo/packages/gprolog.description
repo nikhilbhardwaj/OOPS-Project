@@ -1,0 +1,10 @@
+Gnu prolog compiler
+	
+gnu prolog is a free prolog compiler with constraint solving over finite
+domains (fd) developed at inria by daniel diaz.  gnu prolog is based on two
+systems developed by the same author (with lot of code rewriting and a lot of
+new extensions): wamcc and clp(fd).  much work has been devoted to make it
+iso compatible, full compliance being one of its goals.
+
+this package contains the compiler and runtime system for the iso
+standard version of gnu prolog.

@@ -1,0 +1,10 @@
+Tool for managing latex projects
+	
+latex-mk is a collection of makefile fragments and shell scripts for
+managing small to large sized latex projects. the typical latex-mk
+input file is simply a series of variable definitions in a makefile
+for the project. after creating a simple makefile the user can easily
+perform all required steps to do such tasks as: preview the document,
+print the document, or produce a pdf file. latex-mk will keep track
+of files that have changed and how to run the various programs that
+are needed to produce the output.

@@ -1,0 +1,7 @@
+Db-all.e c++ development library for weather research
+	
+db-all.e is a fast on-disk database where meteorological observed and
+forecast data can be stored, searched, retrieved and updated.
+
+this is the db-all.e c++ api, a thin wrapper around the c api that takes
+advantage of c++ features.  see libdballe-dev for a list of features.

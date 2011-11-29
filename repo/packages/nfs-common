@@ -1,0 +1,4 @@
+PackageId:25437
+Name:nfs-common
+Version:1:1.2.2-4
+Deps:adduser,initscripts,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcap2,libcomerr2,libevent-1.4-2,libgcc1,libgssapi-krb5-2,libgssglue1,libk5crypto3,libkrb5-3,libnfsidmap2,librpcsecgss3,libwrap0,lsb-base,netbase,portmap,rpcbind,ucf

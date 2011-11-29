@@ -1,0 +1,5 @@
+Read .ini-style configuration files
+	
+config::inifiles provides a way to have readable configuration files outside
+your perl script.  configurations can be imported (inherited, stacked,...),
+sections can be grouped, and settings can be accessed from a tied hash.

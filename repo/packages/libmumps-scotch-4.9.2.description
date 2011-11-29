@@ -1,0 +1,10 @@
+Direct linear systems solver - scotch-version shared libraries
+	
+mumps implements a direct solver for large sparse linear systems, with a
+particular focus on symmetric positive definite matrices.  it can
+operate on distributed matrices e.g. over a cluster.  it has fortran and
+c interfaces, and can interface with ordering tools such as scotch.
+
+this package is built the mumps libseq dummy sequential mpi library
+with scotch support. unless you know that you specifically need this,
+then you almost certainly want the libmumps-4.9.2 package.

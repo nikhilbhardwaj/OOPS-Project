@@ -1,0 +1,4 @@
+PackageId:3179
+Name:dkms
+Version:2.1.1.2-5
+Deps:coreutils,gcc,make,build-essential,dpkg-dev,module-init-tools,kldutils

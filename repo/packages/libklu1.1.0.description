@@ -1,0 +1,6 @@
+Circuit simulation sparse lu factorization library
+	
+suitesparse is a collection of libraries for computations involving
+sparse matrices.  this package includes the following dynamic library:
+
+klu         sparse lu factorization, primarily for circuit simulation

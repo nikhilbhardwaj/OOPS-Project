@@ -1,0 +1,11 @@
+Semantic parser of source files
+	
+sparse, the semantic parser, provides a compiler frontend capable of
+parsing most of ansi c as well as many gcc extensions, and a collection
+of sample compiler backends, including a static analyzer also called
+"sparse". sparse provides a set of annotations designed to convey
+semantic information about types, such as what address space pointers
+point to, or what locks a function acquires or releases.
+
+sparse can be invoked directly as "sparse" or via the "cgcc" wrapper
+around the c compiler.

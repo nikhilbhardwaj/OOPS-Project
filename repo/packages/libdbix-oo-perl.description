@@ -1,0 +1,5 @@
+Database to perl objects abstraction layer
+	
+dbix::oo has been inspired by the wonderful class::dbi.  it is a
+database-to-perl-objects abstraction layer, allowing you to interact
+with a database using common perl syntax.

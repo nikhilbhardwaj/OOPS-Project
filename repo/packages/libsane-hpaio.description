@@ -1,0 +1,9 @@
+Hp sane backend for multi-function peripherals
+	
+this package contains the sane backend libraries for use with hp
+multi-function peripherals.
+
+users of hplip are advised to install the hplip{-gui} packages for
+command line and gui tools associated with hplip.
+
+this package is useful for a minimal footprint headless scanning solution.

@@ -1,0 +1,9 @@
+A tool which helps you to recover your gpg passphrase
+	
+nasty is a program that helps you to recover the passphrase of your pgp or
+gpg-key in case you forget or lost it. the following features will make things
+easier:
+
+ - set minimum/maximun length of the passphrase
+ - incremental mode, random mode or reads a file for guessing
+ - charset filter

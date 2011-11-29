@@ -1,0 +1,11 @@
+Gettext for ruby1.9.1
+	
+ruby gettext package is native language support library and tools
+which modeled after gnu gettext package.
+
+features:
+
+  * simple apis(similar gnu gettext)
+  * rgettext creates po-files from ruby scripts.
+    the po-file is compatible to gnu gettext.
+  * rmsgfmt creates a mo-file from a po-file.

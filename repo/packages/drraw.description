@@ -1,0 +1,8 @@
+A simple web based presentation front-end for rrdtool
+	
+drraw is a simple web based presentation front-end for rrdtool that allows you
+to interactively build graphs of your own design. a graph definition can be
+turned into a template which may be applied to many round robin database files.
+drraw specializes in providing an easy mean of displaying data stored with
+rrdtool and does not care about how the data is collected, making it a great
+complement to other rrdtool front-ends.

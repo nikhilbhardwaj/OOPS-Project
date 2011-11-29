@@ -1,0 +1,6 @@
+Perl module for a generic node-filter class for dom traversal
+	
+the xml::nodefilter module is a generic node-filter class for dom traversal
+as specified in the dom level 2 traversal and range specification.  it
+extends that specification so this class is more easy to use for perl
+programmers.

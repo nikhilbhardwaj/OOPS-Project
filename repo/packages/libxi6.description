@@ -1,0 +1,14 @@
+X11 input extension library
+	
+libxi provides an x window system client interface to the xinput
+extension to the x protocol.
+
+the input extension allows setup and configuration of multiple input devices,
+and will soon allow hotplugging of input devices; to be added and removed on
+the fly.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxi

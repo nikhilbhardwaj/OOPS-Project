@@ -1,0 +1,5 @@
+Perl module to guess file type (à la mod_mime_magic)
+	
+file::mmagic::xs is a port of apache2 mod_mime_magic.c in perl, written in
+xs with the aim of being efficient and fast, especially for applications
+that need to be run for an extended amount of time.

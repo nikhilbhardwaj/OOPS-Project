@@ -1,0 +1,9 @@
+Micro string library: documentation
+	
+ustr (micro string library) is a string api for c. it has tiny overhead over
+just plain strdup(), is much safer, is easier to use, is faster for many
+operations, can be used with read-only or automatically allocated data. you
+don't even need to link to the library to use it (so there are no
+dependencies).
+
+this package provides html documentation and examples.

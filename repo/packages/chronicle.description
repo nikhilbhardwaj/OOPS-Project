@@ -1,0 +1,23 @@
+Html & rss blog compiler
+	
+this is a tool which will convert a directory of simple
+text files into a static html weblog, (or blog if you prefer).
+
+
+ the system is intentionally simple, but it supports:
+
+
+
+ * rss feed creation.
+
+
+
+ * template based output.
+
+
+
+ * the tagging of entries.
+
+
+
+ * user comments upon entries.

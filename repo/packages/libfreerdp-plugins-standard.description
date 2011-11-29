@@ -1,0 +1,8 @@
+Rdp client for windows terminal services (plugins)
+	
+freerdp is a client for windows terminal services implementing the remote
+desktop protocol (rdp).
+
+this package contains the plugins available to the channel manager extending
+the rdp core functionality, such as sounds, clipboard synchronisation,
+disk/printer redirection, etc.

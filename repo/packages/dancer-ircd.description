@@ -1,0 +1,9 @@
+An irc server designed for centrally maintained network
+	
+dancer-ircd is the former freenode ircd, loosely derived from the
+hybrid ircd used on efnet.
+
+it endeavours to handle the network transparently as a unit, and to
+provide features to support the freenode philosophy.
+
+this package contains the main binary files.

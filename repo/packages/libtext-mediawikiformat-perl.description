@@ -1,0 +1,9 @@
+Convert mediawiki markup into other text formats
+	
+wikipedia and its sister projects use the php mediawiki to format
+their pages. text::mediawikiformat attempts to duplicate the mediawiki
+formatting rules. those formatting rules can be simple and easy to use, while
+providing more advanced options for the power user. they are also easy to
+translate into other, more complicated markup languages with this module. it
+creates html by default, but could produce valid pod, docbook, xml, or any
+other format imaginable.

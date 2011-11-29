@@ -1,0 +1,9 @@
+Perl module providing a fast, lightweight yaml loader and dumper
+	
+yaml::syck provides a perl interface to the libsyck data
+serialization library.  it exports the dump and load functions for
+converting perl data structures to yaml strings, and the other way
+around.
+
+this module is considered deprecated. please consider using
+libyaml-libyaml-perl or switching to json instead.

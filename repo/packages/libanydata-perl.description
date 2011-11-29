@@ -1,0 +1,8 @@
+Simple tied hash interface for files and data structures
+	
+anydata provides simple and uniform access to data from
+many sources -- perl arrays, local files, remote files retrievable via
+http or ftp -- and in many formats including flat files (csv, fixed
+length, tab delimited, etc), standard format files (web logs,
+passwd files, etc.),  structured files (xml, html tables) and binary
+files with parseable headers (mp3s, jpgs, pngs, etc).

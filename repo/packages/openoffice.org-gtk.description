@@ -1,0 +1,8 @@
+Office productivity suite -- gtk+ integration
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains the gtk plugin for drawing ooo's widgets with
+gtk+ and a gtk/gnomeish file picker when running under gnome. it also
+contains a quickstarter for the "notification area".

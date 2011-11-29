@@ -1,0 +1,11 @@
+Secure display manager - terminal files
+	
+sdm is an x11 display manager similar to xdm, gdm and kdm, but unlike
+those it wraps the x11 traffic within an ssh tunnel to provide a secure
+login mechanism for remote x sessions.
+sdm provides access only through ssh, not locally. it is technically
+possible to access an sdm server from same host, but probably a waste of
+cpu power.
+
+this package contains helper files for a terminal to connect to an sdm
+server, and should be installed on any computer accessing an sdm server.

@@ -1,0 +1,22 @@
+Access point snmp utils for linux
+	
+a set of utilities for remotely administrating a variety of wireless
+access points via snmp:
+
+ * ap-auth - update authentication list
+ * ap-config - interactively configure or get statistics from
+    devices that support mib-ii, ieee 802.11 mib or nwn dot11ext mib
+    and most atmel-chipset based aps
+ * ap-gl - interactively configure or get statistics from
+    atmel prism-based aps
+ * ap-mrtg - get statistics from an ap in mrtg format
+ * ap-rrd - get statistics from an ap in rrdtool format
+ * ap-tftp - update ap firmware by tftp
+ * ap-trapd - receive, parse and log trap messages from an ap
+
+
+access points supported include global sun prowave gl2411ap, compex
+waveport wp11, linksys wap11, smc mc2655w, netgear me102, edimax wlan
+access point, d-link dwl 900ap and eumitcom wa3001a. others based on
+atmel chipsets or supporting mib-ii, ieee 802.11 mib and nwn dot11ext
+mib should also work.

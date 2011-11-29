@@ -1,0 +1,6 @@
+Wrapper class for the various json classes
+	
+the json::any module provides a coherent api to bring together the various
+json modules currently on cpan. this module will allow you to code to
+any json api and have it work regardless of which json module is
+actually installed.

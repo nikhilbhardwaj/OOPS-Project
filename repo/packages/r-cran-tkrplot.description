@@ -1,0 +1,4 @@
+Gnu r embedded tk plotting device package
+	
+this cran package provides a tk graphics device which enables embedding
+of gnu r plot() results inside a tk widget.

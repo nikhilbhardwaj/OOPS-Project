@@ -1,0 +1,14 @@
+Web based debian package browser
+	
+with the dpkg cgi-bin you can browse debian packages on a local or
+remote host using a normal web browser.
+
+you can list packages, show package information and installed files,
+browse documentation and navigate through the packages dependencies.
+you can also find all the packages owners of a file or directory or
+those providing a virtual package.
+
+if you are the system administrator you can also install or remove
+packages by clicking on the buttons found in the package info page,
+provided that this feature has been enabled and you have properly
+configured your web browser.

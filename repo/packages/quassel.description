@@ -1,0 +1,10 @@
+Distributed irc client - qt-based monolithic core+client
+	
+quassel is a modern, cross-platform, distributed irc client, meaning that
+one or more clients can attach to and detach from the central core. it's
+much like the popular combination of screen and a text-based irc client
+such as weechat or irssi, but graphical.
+
+this package provides the monolithic client. it contains both core and
+client and can be used like a traditional irc client, without requiring an
+external core.

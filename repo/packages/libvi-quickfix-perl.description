@@ -1,0 +1,12 @@
+Perl support for vim's quickfix mode
+	
+if a perl program or module uses vi::quickfix, perl logs errors and
+warnings to an error file. while editing that program or module with vim
+you can ask perl to compile it. if there are errors during compilation,
+the error file is picked when you type a special quickfix command and
+vim will jump to the location of the first error recorded. other
+quickfix commands allow you to jump to other error messages, switching
+files if necessary.
+
+this module is intended as a debugging tool for perl programmers using
+vim.

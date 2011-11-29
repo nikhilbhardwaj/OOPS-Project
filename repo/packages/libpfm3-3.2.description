@@ -1,0 +1,6 @@
+Performance monitor unit (pmu) -- run-time libraries
+	
+this package contains a shared library for applications using the
+ia-64 performance monitor unit (pmu). this version supports several
+modern procesors: both the itanium and itanium 2 processors, as well
+as pentium m/p6 cores, and amd x86_64 processors.

@@ -1,0 +1,9 @@
+Command line or console based cd player (debug)
+	
+cdcd works in two ways, accepting commands directly off the command line or in
+a query mode similar to other unix programs. to pass a command to cdcd, simply
+run cdcd with the command as the argument (e.g. cdcd play). this is great for
+using cron and cdcd together to make a cd alarm clock. or you can run cdcd with
+out arguments and you will be given the cdcd command prompt.
+
+this package contains the debugging symbols.

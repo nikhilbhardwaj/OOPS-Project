@@ -1,0 +1,7 @@
+Ntfs gnome virtual filesystem module
+	
+the linux-ntfs project (http://www.linux-ntfs.org/) aims to bring full
+support for the ntfs filesystem to the linux operating system.
+
+this package contains the ntfs gnome virtual filesystem (vfs) module which
+allows gnome vfs clients to seamlessly use the ntfs library.

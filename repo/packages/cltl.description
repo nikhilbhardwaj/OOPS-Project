@@ -1,0 +1,16 @@
+Common lisp the language, second edition, book (pre-ansi)
+	
+this package installs the html version of guy l. steele book common
+lisp the language, second edition. this book describes a snapshot of
+the common lisp language during the period that the ansi common
+lisp standard was created. thus, this book describe a non-standard
+version of common lisp which is similar to, but is *not*, ansi
+common lisp.
+
+for reference on ansi common lisp, use the debian package
+"hyperspec".  this book is included in debian because, while it does
+differ from the ansi standard, it has more details than the "hyperspec"
+about the design and usage of lisp.
+
+this package does not contain the actual html files, but rather
+downloads the html archive from the internet and then installs it.

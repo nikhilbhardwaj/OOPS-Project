@@ -1,0 +1,4 @@
+Module for merging ipv4 or ipv6 cidr address ranges
+	
+net::cidr::lite is a faster alternative to net::cidr when merging a large
+number of cidr address ranges. works for ipv4 and ipv6 addresses.

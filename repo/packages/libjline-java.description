@@ -1,0 +1,6 @@
+Java library for handling console input
+	
+jline is a 100% pure java library for reading and editing console input.
+it is similar in functionality to bsd editline and gnu readline.  people
+familiar with the readline/editline capabilities for modern shells will
+find most of the command editing features of jline to be familiar.

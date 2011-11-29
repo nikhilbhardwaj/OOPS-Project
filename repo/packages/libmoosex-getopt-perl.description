@@ -1,0 +1,13 @@
+Moose extension for processing command line options
+	
+moosex::getopt is a moose role which provides an alternate constructor for
+creating objects using parameters passed in from the command line. this module
+automatically discovers command line parameters by introspecting your class
+attributes, using the name of your attribute as the command line option. if
+there is a type constraint defined, it will configure getopt::long to handle
+the option accordingly.
+
+by default, attributes beginning with an underscore are considered private and
+are not given commandline argument support, unless the attribute's metaclass
+is set to moosex::getopt::meta::attribute. you can also use this behaviour to
+get non-default commandline option names and aliases.

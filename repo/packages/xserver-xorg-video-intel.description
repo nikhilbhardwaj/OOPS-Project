@@ -1,0 +1,13 @@
+X.org x server -- intel i8xx, i9xx display driver
+	
+this package provides the driver for the intel i8xx and i9xx family
+of chipsets, including i810, i815, i830, i845, i855, i865, i915, i945
+and i965 series chips.
+
+this package also provides xvmc (xvideo motion compensation) drivers
+for i810/i815 and i9xx and newer chipsets.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-intel driver module.

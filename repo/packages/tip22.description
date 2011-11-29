@@ -1,0 +1,7 @@
+Tftp boot image builder for mips based sgi ip22 and ip32 machines
+	
+tip22 is used to merge kernel and initrd into one bootable image. this
+image also contains a small loader stub that copies the kernel to its
+load address and appends the ramdisk. this is useful for booting via tftp or
+from a cdrom. it is currently targeted for the ip22 and ip32 subarchitectures
+but support for other arcs based subarchitectures can easily be added.

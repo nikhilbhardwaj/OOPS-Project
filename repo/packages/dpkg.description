@@ -1,0 +1,6 @@
+Debian package management system
+	
+this package provides the low-level infrastructure for handling the
+installation and removal of debian software packages.
+
+for debian package development tools, install dpkg-dev.

@@ -1,0 +1,5 @@
+Parallel implementation of gzip
+	
+pigz, which stands for parallel implementation of gzip, is a fully functional
+replacement for gzip that takes advantage of multiple processors and multiple
+cores when compressing data.

@@ -1,0 +1,8 @@
+An infiniband fabric simulator
+	
+ibsim provides a simulation of an infiniband fabric,
+which can be used by the opensm subnet manager and
+infiniband diagnostics and management tools.
+
+this package provides an ld_preloadable library which
+will make applications use the simulated fabric.

@@ -1,0 +1,7 @@
+Shared perl library
+	
+this package is required by programs which embed a perl interpreter to
+ensure that the correct version of `perl-base' is installed.  it
+additionally contains the shared perl library on architectures where the
+perl binary is linked to libperl.a (currently only i386, for performance
+reasons).  in other cases the actual library is in the `perl-base' package.

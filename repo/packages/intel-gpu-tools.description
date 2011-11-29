@@ -1,0 +1,5 @@
+Tools for debugging the intel graphics driver
+	
+intel-gpu-tools is a package of tools for debugging the intel graphics driver,
+including a gpu hang dumping program, performance monitor, and performance
+microbenchmarks for regression testing the drm.

@@ -1,0 +1,9 @@
+Squirrelmail plugin: display a confimation message after sending mails
+	
+this plugin displays a confirmation message above the message index after a
+message is successfully sent. it can also display a screen offering the option
+to add any of the message's recipients to the user's address book or move,
+delete or return to the original message in the case of replies and forwards.
+
+squirrelmail is a standards-based webmail package written in php. it runs on
+top of any imap server.

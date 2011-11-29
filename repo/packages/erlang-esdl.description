@@ -1,0 +1,11 @@
+Erlang bindings to the simple direct media library
+	
+sdl (simple directmedia layer) is a generic api that provides low
+level access to audio, keyboard, mouse, and display framebuffer
+across multiple platforms.
+
+open source erlang is a functional programming language designed at
+the ericcson computer science laboratory.
+
+esdl is an erlang binding to the sdl, and might be used to write
+multimedia application in erlang.

@@ -1,0 +1,4 @@
+Perl module for checking the validity of internet email addresses
+	
+email::valid determines whether an email address is well-formed, and
+optionally, whether a mail host exists for the domain.

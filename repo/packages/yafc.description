@@ -1,0 +1,8 @@
+Yet another ftp client
+	
+yafc is an ftp client intended to be a replacement for the standard
+ftp(1) program. features include directory cache, remote filename
+completion, aliases, colored ls, recursive get/put/ls/rm, nohup mode
+transfers, tagging (queueing), background downloading, and more.
+
+this version is compiled without kth kerberos 4/5 authentication.

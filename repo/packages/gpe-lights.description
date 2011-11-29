@@ -1,0 +1,9 @@
+Lights out game clone for gpe
+	
+a puzzle game for the gpe palmtop environment.
+the game is a 5x5 grid of lights, and when the
+game starts, a sequence of these lights (random,
+or one of a set of stored puzzle patterns) are
+switched on. pressing one of the lights will toggle
+it and the four adjacent lights between on and off.
+the aim of the game is to switch all the lights off.

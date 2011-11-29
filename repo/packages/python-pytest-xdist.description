@@ -1,0 +1,23 @@
+Xdist plugin for py.test
+	
+the pytest-xdist plugin extends py.test with some unique test execution modes:
+
+
+ * looponfail:
+     run your tests repeatedly in a subprocess. after each run py.test waits
+     until a file in your project changes and then re-runs the previously
+     failing tests. this is repeated until all tests pass after which again a
+     full run is performed.
+ * load-balancing:
+     if you have multiple cpus or hosts you can use those for a combined test
+     run. this allows to speed up development or to use special resources of
+     remote machines.
+ * multi-platform coverage:
+     you can specify different python interpreters or different platforms and
+     run tests in parallel on all of them.
+
+
+before running tests remotely, py.test efficiently synchronizes your program
+source code to the remote place. all test results are reported back and
+displayed to your local test session. you may specify different python
+versions and interpreters.

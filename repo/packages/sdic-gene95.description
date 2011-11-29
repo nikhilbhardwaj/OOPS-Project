@@ -1,0 +1,14 @@
+Installer for gene95 dictionaries for sdic
+	
+this package installs the gene95 english-japanese
+dictionary for use with sdic.
+
+although this package can install a japanese-english
+dictionary derived from the gene95 english-japanese dictionary,
+it is recommended to use the japanese-english dictionary
+installed through sdic-edict.
+
+before installing this package, you need a copy of gene95.lzh,
+gene95.tar.gz, or gene95.tar.bz2, available from:
+
+ http://namazu.org/~tsuchiya/sdic/index.html

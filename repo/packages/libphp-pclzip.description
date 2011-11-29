@@ -1,0 +1,10 @@
+Zip archive manager class for php
+	
+this library offers compression and extraction functions for zip
+formatted archives (winzip, pkzip). it gives you the ability to
+manipulate zip formatted arhives. you can create, list and extract
+the contents of any zip file.
+
+pclzip defines an object oriented interface to zip archives through
+a php class. this class manages the archive properties and offers
+access method and actions on it.

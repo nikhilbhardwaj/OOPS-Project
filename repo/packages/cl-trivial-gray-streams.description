@@ -1,0 +1,8 @@
+Thin compatibility layer for gray streams
+	
+this system provides an extremely thin compatibility layer
+for gray streams.  it is nearly *too* trivial for a
+complete package, except that the author has copy&pasted this
+code into enough projects now that the author decided to factor
+it out once again now, and then *never* have
+to touch it again.

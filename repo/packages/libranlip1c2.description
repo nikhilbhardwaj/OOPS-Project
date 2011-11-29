@@ -1,0 +1,33 @@
+Generates random variates with multivariate lipschitz density
+	
+ranlip generates random variates with an arbitrary multivariate
+lipschitz density.
+
+while generation of random numbers from a variety of distributions is
+implemented in many packages (like gsl library
+http://www.gnu.org/software/gsl/  and unuran library
+http://statistik.wu-wien.ac.at/unuran/), generation of random variate
+with an arbitrary distribution, especially in the multivariate case, is
+a very challenging task. ranlip is a method of generation of random
+variates with arbitrary lipschitz-continuous densities,  which works in
+the univariate and multivariate cases, if the dimension is not very
+large (say 3-10 variables).
+
+lipschitz condition implies that the rate of change of the function (in
+this case, probability density p(x)) is bounded:
+
+|p(x)-p(y)|<m||x-y||.
+
+from this condition, we can build an overestimate of the density, so
+called hat function h(x)>=p(x), using a number of values of p(x) at some
+points. the more values we use, the better is the hat function. the
+method of acceptance/rejection then works as follows: generatea  random
+variate x with density h(x); generate an independent uniform on (0,1)
+random number z; if p(x)<=z h(x), then return x, otherwise repeat all
+the above steps.
+
+ranlip constructs a piecewise constant hat function of the required
+density p(x) by subdividing the domain of p (an n-dimensional rectangle)
+into many smaller rectangles, and computes the upper bound on p(x)
+within each of these rectangles, and uses this upper bound as the value
+of the hat function.

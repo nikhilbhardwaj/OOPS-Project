@@ -1,0 +1,11 @@
+Postgresql performance monitoring tool akin to top
+	
+pg_top is a console-based tool for monitoring a postgresql database.
+
+with pg_top you can:
+
+  * view currently running sql statement of a process
+  * view query plan of a currently running select statement
+  * view locks held by a process
+  * view user table statistics
+  * view user index statistics

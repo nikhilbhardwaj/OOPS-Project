@@ -1,0 +1,17 @@
+Really - a tool for gaining privilege (simple, realistic sudo)
+	
+really is a program that allows certain users to become whatever user
+they like on request.  it is a bit like sudo in that respect.
+however, really is simpler than sudo, and doesn't give the system
+administrator any false security promises.  so really is less of a
+general security risk to the system.
+
+unlike sudo it does not pretend that the called account can be any
+more secure than the calling account. so there is never a need for a
+password.  if you wanted to restrict which commands and functions the
+called user can perform, use userv, not really or sudo.
+
+also unlike sudo, really only works if the calling user is supposed
+to be equivalent to root.  but, really can also be used by
+root-equivalent users to become any user, not just root; in this way
+it can be a replacement for certain uses of su.

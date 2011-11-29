@@ -1,0 +1,10 @@
+Web front-end for the netdisco network manager
+	
+netdisco is an open source web-based network management
+tool designed for moderate-large networks. using snmp it
+locates the switch port of an end-user system by ip or mac
+address. layer2 topology discovery via cdp. device inventory
+by os/model + more.
+
+this package contains the html::mason web front-end to
+netdisco which displays information from a populated database.

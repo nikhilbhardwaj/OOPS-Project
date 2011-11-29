@@ -1,0 +1,7 @@
+Syllabic segmentation for slovak language
+	
+sylseg-sk implements one of the statistical approaches for the
+syllabic segmentaion. each input word is segmented into the
+syllables. the several possible segmentations are generated
+and sorted by the likelihood. included are trained data
+for slovak language.

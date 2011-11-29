@@ -1,0 +1,4 @@
+Like fromform but with dbix::class and html::widget
+	
+something like class::dbi::fromform / class::dbi::fromcgi but using
+html::widget for form creation and validation and dbix::class as a orm.

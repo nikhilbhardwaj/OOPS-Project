@@ -1,0 +1,16 @@
+Z-shell empire client
+	
+zec is a client for empire (http://www.wolfpackempire.com/),
+a real time, multiplayer, internet-based game, featuring military,
+diplomatic, and economic goals.
+
+currently there are two incarnations of zec: zec, and zecsh.
+
+zec itself is a traditional script in the style of pei.  while it is not
+as full-featured as pei, it does have the advantage of zle support.
+
+zecsh is an experimental script, intended to be sourced from a running
+shell instance, in order to give the user the ability to intersperse
+normal shell constructs with empire commands.
+
+at this time, zecsh is considerably less stable than zec.

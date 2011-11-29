@@ -1,0 +1,9 @@
+Command line tools to compute graph automorphisms
+	
+nauty (no automorphisms, yes?) is a set of procedures for determining
+the automor- phism group of a vertex-coloured graph. it provides this
+information in the form of a set of generators, the size of the
+group, and the orbits of the group. it is also able to produce a
+canonically-labelled isomorph of the graph, to assist in isomorphism
+testing.  this package provides the main command line tool dreadnaut,
+and some utilities ('gtools').  a c api is also available.

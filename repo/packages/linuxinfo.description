@@ -1,0 +1,4 @@
+Displays extended system information
+	
+displays system info, such as kernel revision, glibc version,
+processor type and memory size, in general by parsing /proc/cpuinfo.

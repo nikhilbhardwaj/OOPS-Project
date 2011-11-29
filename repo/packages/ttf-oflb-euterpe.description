@@ -1,0 +1,11 @@
+Unicode musical font
+	
+this package provides a font which covers the whole musical symbols block of
+unicode. some extra glyphs can be found in the private use area, some of them
+may be accessed through opentype features, like ligatures and glyph
+substitutions.
+
+the font sources (fontforge .sfd) are available on the upstream website and in
+the source package.
+
+in greek mythology, euterpe is the muse of lyric poetry.

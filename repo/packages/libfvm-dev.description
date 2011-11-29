@@ -1,0 +1,8 @@
+Code_saturne finite volume mesh
+	
+fvm stands for finite volume mesh.
+it is intended to provide finite volume mesh i/o and some other services such
+as interpolation, possibly in parallel using mpi.
+
+this package contains the development files needed to compile software to
+use the libfvm api.

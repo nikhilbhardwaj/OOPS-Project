@@ -1,0 +1,8 @@
+Library for handling deprecated code in ruby 1.8
+	
+deprecated is a small library intended to aid developers working with
+deprecated code. the idea comes from the 'd' programming language, where
+developers can mark certain code as deprecated, and then allow/disallow the
+ability to execute deprecated code.
+
+this package contains the deprecated library for ruby 1.8.

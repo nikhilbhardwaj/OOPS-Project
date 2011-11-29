@@ -1,0 +1,9 @@
+Perl module that tests correlation of random numbers
+	
+statistics::test::sequence implements a sequence correlation test for random
+number generators. it shows pairwise correlation between subsequent random
+numbers.
+
+it performs this analysis using an algorithm published in: blobel, v., and
+lohrmann, e. statistische und numerische methoden der datenanalyse. stuttgart,
+leipzig: teubner, 1998

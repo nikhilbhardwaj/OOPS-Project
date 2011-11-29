@@ -1,0 +1,6 @@
+Link time only library for use with gcj
+	
+a fake library that is used at link time only.  it ensures that
+binaries built with the bc-abi link against a constant soname.
+this way, bc-abi binaries continue to work if the soname underlying
+libgcj.so changes.

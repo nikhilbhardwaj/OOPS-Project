@@ -1,0 +1,10 @@
+A xml serialization and configuration framework for java
+	
+simple is a high performance xml serialization and configuration framework for
+java. its goal is to provide an xml framework that enables rapid development
+of xml configuration and communication systems.
+this framework aids the development of xml systems with minimal effort and
+reduced errors. it offers full object serialization and deserialization,
+maintaining each reference encountered.
+in essence it is similar to c# xml serialization for the java platform, but
+offers additional features for interception and manipulation.

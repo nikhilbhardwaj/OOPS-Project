@@ -1,0 +1,6 @@
+Perl client module for managesieve
+	
+net::managesieve is a perl module that provides a client interface to the
+managesieve protocol. it manipulates scripts on a host running a managesieve
+service; this module does not perform, validate or do anything else like the
+sieve scripts themselves.

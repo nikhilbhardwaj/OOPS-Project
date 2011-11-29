@@ -1,0 +1,13 @@
+Formulation of linear optimization problems in c++
+	
+an open source algebraic modelling language implemented as a c++ class
+library.  using flopc++, linear optimization models can be specified in
+a declarative style, similar to algebraic modelling languages such as
+gams and ampl, within a c++ program. as a result the traditional strengths of
+algebraic modelling languages are preserved, while embedding linear
+optimization models in software applications is facilitated.
+
+coinor-flopc++ is part of the larger coin-or initiative
+(computational infrastructure for operations research).
+
+this package contains the binaries and libraries.

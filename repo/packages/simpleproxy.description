@@ -1,0 +1,5 @@
+Simple tcp proxy
+	
+simpleproxy acts as a simple tcp proxy. it opens a listening socket on
+the local machine and forwards any connection to a remote host. it can be
+run as a daemon or through inetd.

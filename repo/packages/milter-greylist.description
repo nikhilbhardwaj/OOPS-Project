@@ -1,0 +1,15 @@
+Greylist milter for sendmail
+	
+milter-greylist is a stand-alone milter written in c that implements the
+greylist filtering method, as proposed by evan harris.
+
+greylisting works by assuming that unlike legitimate mta, spam engines will
+not retry sending their junk mail on a temporary error. the filter will
+always temporarily reject mail on a first attempt, and to accept it after
+some time has elapsed.
+
+if spammers ever try to resend rejected messages, we can assume they will not
+stay idle between the two sends (if they do, the spam problem would just be
+solved). odds are good that the spammer will send a mail to an honey pot
+address and get blacklisted in several real-time distributed black list
+before the second attempt.

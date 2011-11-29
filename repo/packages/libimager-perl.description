@@ -1,0 +1,8 @@
+Perl extension for generating 24-bit images
+	
+imager is a module for creating and altering images. it can read and write
+various image formats, draw primitive shapes like lines and polygons, blend
+multiple images together in various ways, scale, crop, render text and more.
+
+imager also has convenience functions for things like color space conversion
+(convert rgb to hsv and back).

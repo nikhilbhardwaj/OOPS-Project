@@ -1,0 +1,7 @@
+Library for building line-oriented command interpreters in ruby 1.8
+	
+this is a library for building line-oriented command interpreters in ruby.
+simply inherit from cmd's cmd class, and methods whose names start with
+"do_" become interactive commands.  cmd is inspired by the python library
+of the same name, but offers a distinctive ruby feel and several
+additional features.

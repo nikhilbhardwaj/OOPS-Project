@@ -1,0 +1,5 @@
+Jifty plugin to add a wiki toolbar to textarea boxes
+	
+jifty::plugin::wikitoolbar is a jifty plugin that simply adds a toolbar to
+textarea fields as required. by default, the toolbar provides input using the
+commonly-used markdown formatting syntax.

@@ -1,0 +1,6 @@
+Module for apache2 which provides dnsbl usage
+	
+mod_defensible implements usage of dnsbl servers to block access to
+a web site or to specific locations.
+
+this package provides the module for apache 2 server.

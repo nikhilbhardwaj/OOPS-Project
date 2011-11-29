@@ -1,0 +1,18 @@
+Gnu clisp, a common lisp implementation (development files)
+	
+this is the link kit of clisp, it can be used to add external modules (written
+for example in c) to the implementation. the module can define new
+variables, symbols and functions for use in clisp. examples include
+database interfaces or widget libraries. normal users do not need
+this.
+
+see also http://clisp.cons.org/impnotes.html#modules
+
+ansi common lisp is a high-level, general-purpose programming language.
+gnu clisp is a common lisp implementation by bruno haible of karlsruhe
+university and michael stoll of munich university, both in germany.
+it mostly supports the lisp described in the ansi common lisp standard.
+it runs on most unix workstations (gnu/linux, freebsd, netbsd, openbsd,
+solaris, tru64, hp-ux, beos, nextstep, irix, aix and others) and on
+other systems (windows nt/2000/xp, windows 95/98/me) and needs only
+4 mb of ram.

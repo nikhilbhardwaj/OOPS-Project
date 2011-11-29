@@ -1,0 +1,10 @@
+Perl interface to flac file header metadata
+	
+audio::flac::header provides an object-oriented interface to flac file header
+and metadata, it returns a hash containing basic information about a flac
+file, a representation of the embedded cue sheet if one exists, as well as tag
+information contained in the flac file's vorbis tags.
+
+there is no complete list of tag keys for vorbis tags, as they can be
+defined by the user; the basic set of tags used for flac files include:
+album, artist, title, date, genre, tracknumber, comment.

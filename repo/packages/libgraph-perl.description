@@ -1,0 +1,9 @@
+Perl module for graph data structures and algorithms
+	
+this module contains the graph module for perl, a framework for
+creating abstract data structures called graphs and hypergraphs.
+(it is not for drawing any sort of graphics; for that, see the
+gd:: or graphics:: set of modules.) it also contains implementations
+of several well-known algorithms that operate on graphs, such as
+finding transitive closures, strongly connected components
+(sccs) and articulation points.

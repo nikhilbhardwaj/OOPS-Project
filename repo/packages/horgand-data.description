@@ -1,0 +1,9 @@
+Jack capable organ softsynth (data files)
+	
+horgand is a jack capable organ client with presets and some effects
+incorporated. it generates the sound in real time like a fm
+synthesizer. due this, you can change the frecuency of all the drawars
+and add some special effects. it features auto-accompaniment, looped
+drums, and a bass line in a wave table way.
+
+this package contains architecture-independent data files for horgand.

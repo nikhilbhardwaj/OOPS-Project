@@ -1,0 +1,10 @@
+Openslp development libraries
+	
+service location protocol is an ietf standard protocol that is used to
+discover/advertise services on the network. you can use slp for anything
+from locating a suitable printer on your floor to discovering what ldap
+directories are available in your organization. this package allows
+development of slp applications using the openslp libraries. it includes
+headers, libraries and links to allow static and dynamic linking. it also
+includes slptool, a utility to test service advertisement/lookup. the
+library implements rfc 2614 - an api for service location.

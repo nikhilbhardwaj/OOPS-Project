@@ -1,0 +1,9 @@
+Installs all sisu related packages
+	
+sisu is a lightweight markup based document structuring, publishing and search
+framework for document collections.
+
+this package installs sisu and related packages that enable sisu to produce
+pdf and to populate postgresql and sqlite databases.
+
+see sisu for a description of the package.

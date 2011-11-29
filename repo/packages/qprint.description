@@ -1,0 +1,5 @@
+Encoder and decoder for quoted-printable encoding
+	
+qprint is a command-line program that can encode or decode files from/to
+quoted-printable encoding (rfc1521). it can work with both text and binary
+data.

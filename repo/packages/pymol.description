@@ -1,0 +1,17 @@
+Molecular graphics system
+	
+pymol is a molecular graphics system targetted at medium to large
+biomolecules like proteins. it can generate high-quality publication-ready
+molecular graphics images and animations.
+
+features include:
+
+ * visualization of molecules, molecular trajectories and surfaces
+   of crystallography data or orbitals
+ * molecular builder and sculptor
+ * internal raytracer and movie generator
+ * fully extensible and scriptable via a python interface
+
+
+file formats pymol can read include pdb, xyz, cif, mdl molfile, chemdraw,
+ccp4 maps, xplor maps and gaussian cube maps.

@@ -1,0 +1,11 @@
+Base package for the dbmail email solution
+	
+dbmail is a collection of programs that allows email to be
+stored in and retrieved from a sql database.
+
+it supports mysql, postgresql and sqlite3 as database backends, ldap
+and sieve.
+
+supported client protocols are: pop3, imap4, lmtp.
+
+this packages support sqlite3 and ldap authentication.

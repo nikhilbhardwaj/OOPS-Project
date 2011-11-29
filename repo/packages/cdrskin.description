@@ -1,0 +1,9 @@
+Command line cd/dvd/bd writing tool
+	
+cdrskin strives to be a second source for the services traditionally
+provided by cdrecord.
+currently it does cd-r and cd-rw this way.  overwriteable media dvd-ram,
+dvd+rw, dvd-rw, and bd-re are handled differently than with cdrecord-prodvd
+in order to offer tao-like single track recording. sequential dvd-r[w],
+dvd+r, dvd+r dl are handled like cd-r[w] with tao and multi-session.
+additionally cdrskin offers cdrecord-prodvd-like mode dao with dvd-r[w].

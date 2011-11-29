@@ -1,0 +1,5 @@
+Printcap parser, helper for gnulpr's printfilters
+	
+this package installs the libprintsys libraries and
+/usr/lib/printfilters/pcap, a small utility
+that parses /etc/printcap

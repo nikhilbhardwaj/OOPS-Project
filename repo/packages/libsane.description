@@ -1,0 +1,18 @@
+Api library for scanners
+	
+sane stands for "scanner access now easy" and is an application
+programming interface (api) that provides standardized access to any
+raster image scanner hardware (flatbed scanner, hand-held scanner,
+video- and still-cameras, frame-grabbers, etc.). the sane standard is
+free and its discussion and development are open to everybody. the
+current source code is written to support several operating systems,
+including gnu/linux, os/2, win32 and various unices and is available
+under the gnu general public license (commercial applications and
+backends are welcome, too, however).
+
+this package includes the backends for many scanners. a libsane-extras
+package containing some not-yet-included backends is available separately.
+
+graphical frontends for sane are available in the packages sane and
+xsane. command line frontend scanimage, saned and sane-find-scanner are
+available in the sane-utils package.

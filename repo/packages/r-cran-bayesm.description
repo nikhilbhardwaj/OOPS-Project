@@ -1,0 +1,21 @@
+Gnu r package for bayesian inference
+	
+the bayesm package covers many important models used in marketing and
+micro-econometrics applications. the package includes:
+
+
+ * bayes regression (univariate or multivariate dep var)
+ * multinomial logit (mnl) and multinomial probit (mnp)
+ * multivariate probit,
+ * multivariate mixtures of normals
+ * hierarchical linear models with normal prior and covariates
+ * hierarchical multinomial logits with mixture of normals prior and
+   covariates
+ * bayesian analysis of choice-based conjoint data
+ * bayesian treatment of linear instrumental variables models
+ * analyis of multivariate ordinal survey data with scale usage heterogeneity
+   (as in rossi et al, jasa (01)).
+
+
+for further reference, consult the authors' book, _bayesian statistics and
+marketing_ by allenby, mcculloch and rossi.

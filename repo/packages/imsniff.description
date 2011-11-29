@@ -1,0 +1,18 @@
+Simple program to log instant messaging activity on the network
+	
+the imsniff program can be used to log im activity on the network. it uses
+libpcap to capture packets and analyzes them, logging conversation, contact
+lists, etc.
+
+users connecting after imsniff is started can get pretty good results,
+including complete contact lists and events (displaying a name change, for
+example). users already connected will be able to get the conversations, but
+will miss the other information.
+
+the only required parameter is the interface name to listen to. this can be
+any interface that libpcap supports. a sample imsniff.conf.sample file is
+included.
+
+imsniff is beta software, for now, only msn is supported. others could follow.
+
+author: carlos fernandez <carlos.fernandez.sanz@gmail.com>

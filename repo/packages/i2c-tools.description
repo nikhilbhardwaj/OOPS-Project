@@ -1,0 +1,5 @@
+Heterogeneous set of i2c tools for linux
+	
+this package contains a heterogeneous set of i2c tools for linux: a bus
+probing tool, a chip dumper, register-level access helpers, eeprom
+decoding scripts, and more.

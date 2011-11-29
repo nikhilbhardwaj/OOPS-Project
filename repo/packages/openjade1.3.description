@@ -1,0 +1,14 @@
+Implementation of the dsssl language
+	
+openjade is an implementation of the iso/iec 10179:1996 standard
+dsssl language.  it is based on james clark's jade software.
+
+this is the latest stable release of openjade.  for the
+latest-and-greatest/bleeding-edge, install the `openjade' package.
+
+the openjade processor, in conjunction with a dsssl style sheet, is
+capable of translating sgml documents into other formats.  output
+formats currently supported are rtf, html, mif, jadetex, or an xml
+representation of the flow object tree.  using its own non-standard
+system, it is also capable of transforming sgml or xml documents into
+documents conforming to another dtd.

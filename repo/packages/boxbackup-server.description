@@ -1,0 +1,7 @@
+Server for the boxbackup remote backup system
+	
+boxbackup is an automatic on-line backup system.
+the server waits for connections from remote clients,
+authenticates them via x.509 certificates and stores the
+encrypted data on hard drives with optional raid techniques.
+it also supports versions historization and per-user quotas.

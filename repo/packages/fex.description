@@ -1,0 +1,27 @@
+Web service for transfering very large files
+	
+f*ex (frams's fast file exchange) is a service that can be used to allow
+users anywhere on the internet to exchange very large files quickly and
+conveniently.
+
+the sender uploads the file to the f*ex-server and the recipient
+automatically gets a notification e-mail with a download-url.
+
+main features of f*ex:
+
+
+ * file transfer of virtually unlimited file size
+ * sender and recipient only need an e-mail program and a web browser
+   (of any kind; they do not have to install any software)
+ * resend and reget for resuming after link failures at last sent byte
+ * auto-notification of recipient
+ * auto-deletion after download
+ * auto-deletion after expiration date (default: 5 days)
+ * full-users can create sub-users, who can send only to this full-user
+ * maintenance-free: no administration necessary beyond creating new
+   f*ex accounts
+ * multiple recipients only require one stored copy
+ * f*ex uses http and needs no firewall tunnels
+ * support for streams, too (sex: stream exchange)
+ * shell clients provided for commandline users: fexsend and fexget.
+   (fex-utils package)

@@ -1,0 +1,5 @@
+Perl6-like oo c<caller()> interface for perl 5
+	
+by default, this module exports the caller function. this automatically
+returns a new caller object. an optional argument specifies how many stack
+frames back to skip, just like the core::caller function.

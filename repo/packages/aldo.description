@@ -1,0 +1,10 @@
+Morse code training program
+	
+aldo is a morse code learning tool which provides four type
+of training methods: blocks, koch, file, callsign.
+blocks: identify blocks of random characters played in morse code.
+koch: two morse characters will be played at full speed (20wpm)
+until you'll be able to identify at least 90 percent of them.
+after that, one more character will be added, and so on.
+file: identify played characters generated from a file.
+callsign: identify random callsigns played in morse code.

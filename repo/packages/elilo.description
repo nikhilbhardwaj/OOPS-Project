@@ -1,0 +1,4 @@
+Bootloader for systems using efi-based firmware
+	
+this is the linux bootloader for systems using the intel efi firmware
+specification.  this includes all ia64 systems, and some ia32 systems.

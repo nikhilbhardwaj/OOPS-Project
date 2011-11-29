@@ -1,0 +1,14 @@
+Xbase compatible c++ class library (development files)
+	
+xbase (formerly known as xdb, also formerly known as xbase) is a collection
+of specifiations, programs, utilities and a c++ class library for
+manipulating xbase type datafiles and indices.
+
+xbase is useful for accessing data in legacy dbase 3 and 4 database files as
+well as a general light-weight database engine.  it includes support for
+dbf (dbase version 3 and 4) data files, ndx and ntx indexes, and dbt
+(dbase version 3 and 4).  it supports file and record locking under *nix
+os's.
+
+this package contains development files for xbase and documentation
+distributed with xbase.

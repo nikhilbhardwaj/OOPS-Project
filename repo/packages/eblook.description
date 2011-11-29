@@ -1,0 +1,8 @@
+Electronic dictionary search command using eb library
+	
+eblook is a command for accessing electronic dictionaries using eb
+library.  by this command, you can easily use cd-rom books of epwing
+format (epwing is popular in japan).
+
+for emacsen, please install the lookup-el package.  it works as an
+interface to eblook on emacsen.

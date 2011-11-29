@@ -1,0 +1,5 @@
+Interface to the w3c css validator
+	
+webservice::validator::css::w3c is an interface to the w3c css validation
+online service http://jigsaw.w3.org/css-validator/, based on its soap 1.2
+support. it helps to find errors in cascading style sheets.

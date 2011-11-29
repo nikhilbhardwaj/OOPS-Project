@@ -1,0 +1,8 @@
+Red hat cluster suite - metapackage
+	
+rhcs is a cluster management infrastructure, for building
+high-availability multi-node clusters with service and ip failover on
+top of shared fibre channel/iscsi storage devices.
+
+the only scope for this package is to install the full red hat cluster suite
+in one operation. it is safe to remove it.

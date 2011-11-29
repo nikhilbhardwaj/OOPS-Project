@@ -1,0 +1,7 @@
+Embedded language for programming gpu using python
+	
+pygpu is a compiler that lets you write image processing programs in
+python that execute on the graphics processing unit (gpu) present in
+modern graphics cards. this enables image processing algorithms to
+take advantage of the performance of the gpu. in some applications,
+performance increases approach an order of magnitude, compared to cpus.

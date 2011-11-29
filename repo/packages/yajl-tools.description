@@ -1,0 +1,8 @@
+Yet another json library - tools
+	
+a small collection of tools that use the yajl library.
+
+current tools are:
+
+ json_reformat - beautifies or minimizes format of json data
+ json_verify - validates json data

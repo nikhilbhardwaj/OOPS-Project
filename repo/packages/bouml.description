@@ -1,0 +1,11 @@
+Uml2 tool box to specify and generate code
+	
+bouml is a unified modeling language editor for qt. you can use it to
+create nearly all of uml diagrams.  bouml can generate code from
+those diagrams in c++, java and idl, and can also reverse existing
+code.
+
+the program supports class diagrams, sequence diagrams, collaboration
+diagrams, object diagrams, use case diagrams, component diagrams,
+state diagrams, activity diagrams, component diagrams and deployment
+diagrams.

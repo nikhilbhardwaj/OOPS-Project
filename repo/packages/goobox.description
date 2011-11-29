@@ -1,0 +1,8 @@
+Cd player and ripper with gnome 2 integration
+	
+goobox is an cd player and ripper for the gnome 2 environment. it follows the
+"just works" principle so its interface is beautiful and easy-to-use.
+
+it uses gnome/gtk+ for its user interface, gstreamer framework for cd playing,
+and ripping operations, musicbrainz for cd indexing, and gnomevfs to search
+album cover images with google.

@@ -1,0 +1,9 @@
+Gnu implementation of the ipmi protocol - common files
+	
+freeipmi is a collection of intelligent platform management ipmi
+system software. it provides in-band and out-of-band software and a
+development library conforming to the intelligent platform management
+interface (ipmi v1.5 and v2.0) standards.
+
+this package provides configuration used by the rest of freeipmi
+framework and generic documentation to orient the user.

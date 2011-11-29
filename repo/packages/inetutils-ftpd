@@ -1,0 +1,4 @@
+PackageId:7511
+Name:inetutils-ftpd
+Version:2:1.6-3.1
+Deps:inetutils-syslogd,system-log-daemon,busybox-syslogd,dsyslog,rsyslog,socklog-run,sysklogd,syslog-ng,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libpam0g,libwrap0,netbase

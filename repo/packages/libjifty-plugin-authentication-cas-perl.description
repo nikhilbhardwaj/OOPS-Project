@@ -1,0 +1,6 @@
+Ja-sig cas authentication plugin for jifty
+	
+jifty::plugin::authentication::cas provides ja-sig cas sso authentication for
+your jifty application. this authentication is added to your user model. you
+can mix this authentication with other jifty authentication plugins like
+email/password or ldap.

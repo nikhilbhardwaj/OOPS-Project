@@ -1,0 +1,23 @@
+Wu-manber algorithm for string searching with errors
+	
+this ocaml library implements the wu-manber algorithm for string searching
+with errors, popularized by the "agrep" unix command and the "glimpse" file
+indexing tool. it was developed as part of a search engine for a largish mp3
+collection; the "with error" searching comes handy for those who can't spell
+liszt or shostakovitch.
+
+given a search pattern and a string, this algorithm determines whether the
+string contains a substring that matches the pattern up to a parameterizable
+number n of "errors". an "error" is either a substitution (replace a
+character of the string with another character), a deletion (remove a
+character) or an insertion (add a character to the string). in more
+scientific terms, the number of errors is the levenshtein edit distance
+between the pattern and the matched substring.
+
+the search patterns are roughly those of the unix shell, including
+one-character wildcard (?), character classes ([0-9]) and multi-character
+wildcard (*). in addition, conjunction (&) and alternative (|) are supported.
+general regular expressions are not supported, however.
+
+this package contains all the development stuff you need to use
+the agrep ocaml library in your programs.

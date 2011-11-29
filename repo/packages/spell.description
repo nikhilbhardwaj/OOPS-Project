@@ -1,0 +1,8 @@
+Gnu spell, a clone of unix `spell'
+	
+gnu spell is a spell checking program which prints each misspelled word on a
+line of its own. it is designed as a clone of the standard unix `spell'
+program, and implemented as a wrapper for ispell. spell accepts as its
+arguments a list of files to read from. within that list, the magical file name
+`-' causes spell to read from standard input. in addition, when called with no
+file name arguments, spell assumes that it should process standard input.

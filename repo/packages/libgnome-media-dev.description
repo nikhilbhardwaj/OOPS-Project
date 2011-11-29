@@ -1,0 +1,7 @@
+Development libraries for the gnome media utilities
+	
+this package contains static libraries and development headers for the
+gnome media libraries:
+
+ * libgnome-media-profiles, which manages a store of media profiles
+   for software using gstreamer to encode audio data.

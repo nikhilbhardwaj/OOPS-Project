@@ -1,0 +1,9 @@
+Administration utilities for the reiser4 filesystem
+	
+the following utilities to manage reiser4 filesystems are provided:
+
+
+  - debugfs.reiser4
+  - fsck.reiser4
+  - measurefs.reiser4
+  - mkfs.reiser4

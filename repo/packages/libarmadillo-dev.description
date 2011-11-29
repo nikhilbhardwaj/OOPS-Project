@@ -1,0 +1,9 @@
+Streamlined c++ linear algebra library - headers
+	
+armadillo is a streamlined c++ linear algebra library (matrix maths)
+aiming towards a good balance between speed and ease of use. integer,
+floating point and complex numbers are supported, as well as a subset
+of trigonometric and statistics functions. optional integration with
+lapack and atlas libraries is also provided.
+
+this package has the development libraries and headers for armadillo.

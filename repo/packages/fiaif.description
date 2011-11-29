@@ -1,0 +1,22 @@
+An easy to use, yet complex firewall
+	
+fiaif is an intelligent firewall.
+
+the goal of fiaif is to provide a highly customizable script for
+setting up an iptables based firewall.
+
+unlike many other scripts, fiaif can be truly customized allowing
+multiple interfaces (or rather zones). there is no limit on the number
+of zones. all configuration is done through configuration files.
+no need to understand the script behind it all.
+
+the script makes heavy use of state-full firewalling,
+and all related and established packets are accepted on all chains.
+if you which to block something out, don't accept it in the first place.
+
+the script is written in bash. though this is not the optimal
+program to use, it means that you do not need to install extra
+interpreters on your firewall.
+this allows you to have a minimalistic installation on your firewall.
+
+install this package if your machine is ever on the internet.

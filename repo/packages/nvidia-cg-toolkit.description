@@ -1,0 +1,23 @@
+Nvidia cg toolkit installer
+	
+this package only contains the installer for the nvidia cg toolkit. the
+installer will download the nvidia cg toolkit from the nvidia developer's
+website and install each file according to debian policy. this package
+installs the cg toolkit released in december 2007.
+
+the cg toolkit provides a compiler for the cg 2.0 language, runtime libraries
+for use with both leading graphics apis, runtime libraries for cgfx, example
+applications, and extensive documentation. supporting over 25 different opengl
+and directx profile targets, cg 2.0 will allow you to incorporate stunning
+interactive effects into your 3d applications.
+
+the components include:
+
+
+    * nvidia cg compiler release 2.0
+    * cg/cgfx runtime libraries for opengl and direct3d
+    * cg user's manual
+    * documentation for the cg
+    * language specification, runtime apis, cg standard library, cgfx states,
+      and the cg profiles.
+    * cg examples

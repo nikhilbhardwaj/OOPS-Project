@@ -1,0 +1,7 @@
+Common internet file system utilities
+	
+the smb/cifs protocol provides support for cross-platform file sharing with
+microsoft windows, os x, and other unix systems.
+
+this package provides utilities for managing mounts of cifs network
+file systems.

@@ -1,0 +1,13 @@
+Minimal internationalization library - debug symbols
+	
+mini18n is a small and non-intrusive translation library,
+designed for small memory and (non-)gnu systems.
+
+features:
+
+ * overrideable system-locale support
+ * full utf-8 support
+ * converters for systems not using utf-8
+
+
+this package contains the debug symbols needed for gdb.

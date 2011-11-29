@@ -1,0 +1,7 @@
+Simple directmedia layer (with all available options)
+	
+sdl is a library that allows programs portable low level access to a video
+framebuffer, audio output, mouse, and keyboard.
+
+this version of sdl is compiled with x11, aalib, svga and ggi graphics
+drivers and oss, esound, alsa, arts, nas and pulseaudio sound drivers.

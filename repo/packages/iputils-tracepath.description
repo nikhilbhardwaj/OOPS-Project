@@ -1,0 +1,7 @@
+Tools to trace the network path to a remote host
+	
+the tracepath utility is similar to the traceroute utility, but also
+attempts to discover the mtu of the path.
+
+this package also includes tracepath6 and traceroute6 utilities, which
+may be used on ipv6 networks.

@@ -1,0 +1,19 @@
+Caching proxy server for debian archive files
+	
+approx is an http-based proxy server for debian-style package archives.
+it fetches files from remote repositories on demand,
+and caches them for local use.
+
+approx saves time and network bandwidth if you need to install or
+upgrade .deb packages for a number of machines on a local network.
+each package is downloaded from a remote site only once,
+regardless of how many local clients install it.
+the approx cache typically requires a few gigabytes of disk space.
+
+approx also simplifies the administration of client machines:
+repository locations need only be changed in approx's configuration file,
+not in every client's /etc/apt/sources.list file.
+
+approx can be used as a replacement for apt-proxy,
+with no need to modify clients' /etc/apt/sources.list files,
+or as an alternative to apt-cacher.

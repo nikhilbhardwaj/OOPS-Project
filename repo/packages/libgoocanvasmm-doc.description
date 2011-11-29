@@ -1,0 +1,8 @@
+C++ bindings for goocanvas - documentation and examples
+	
+goocanvas is a canvas widget for gtk+ that uses the cairo 2d library for
+drawing. it has a model/view split, and uses interfaces for canvas items and
+views, so you can easily turn any application object into canvas items.
+goocanvasmm is the c++ wrapper for goocanvas
+
+this package contains the documentation and example files.

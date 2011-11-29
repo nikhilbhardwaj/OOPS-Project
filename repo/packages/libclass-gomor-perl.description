@@ -1,0 +1,5 @@
+Class and object builder
+	
+class::gomor is a perl class and object builder, providing features like
+automatic validation of attributes. it can automatically create accessors
+for scalar or array attributes, as well as supporting custom attributes.

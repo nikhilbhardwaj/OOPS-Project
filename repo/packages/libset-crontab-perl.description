@@ -1,0 +1,4 @@
+Expand crontab-style integer lists
+	
+set::crontab parses crontab-style lists of integers and defines
+some utility functions to make it easier to deal with them.

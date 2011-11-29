@@ -1,0 +1,13 @@
+A tool for the blackbox/fluxbox window managers that runs commands
+	
+bbrun is a small but very useful application. it makes it convenient to quickly
+execute commands from the blackbox window manager. bbrun is very similar to
+kde's alt+f2 run command dialog box. when launched, it occupies a small portion
+of the desktop and docks itself to the right side of the screen. the run dialog
+is opened by clicking a tiny bbrun icon.
+
+you don't necessarily need blackbox for this program to work. it looks just as
+good in fluxbox, but it won't look the same in other window managers.
+
+
+ homepage: http://www.darkops.net/bbrun/

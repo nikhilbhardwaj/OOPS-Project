@@ -1,0 +1,11 @@
+Application signing system for the ti-73/83+/84+ calculators
+	
+rabbitsign is a free implementation of ti's application signing
+system for the ti-73/83+/84+ calculators.
+
+it handles binary, sorted and unsorted hex, and graphlink files,
+automatically detects keys, checks the validity of important header
+fields, can validate and re-sign previously signed apps, accepts all
+valid keys, is highly portable, has no stupid limitations on file
+names, application lengths, or header fields and is faster by an order
+of magnitude than ti's software.

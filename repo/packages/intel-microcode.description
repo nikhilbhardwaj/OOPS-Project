@@ -1,0 +1,13 @@
+Processor microcode data file for intel cpus
+	
+the microcode data file for linux contains the latest microcode
+definitions for all intel processors. intel releases microcode
+updates to correct processor behavior as documented in the
+respective processor specification updates. while the regular
+approach to getting this microcode update is via a bios upgrade,
+intel realizes that this is an administrative hassle; the linux
+operating system has a mechanism to update the microcode after
+booting the os.
+
+this package contains only the microcode, so it needs the loader
+provided in the package microcode.ctl

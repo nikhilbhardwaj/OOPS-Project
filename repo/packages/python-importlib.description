@@ -1,0 +1,7 @@
+Backport of importlib.import_module() from python 2.7
+	
+this package contains the code from importlib as found in python 2.7. it is
+provided so that people who wish to use importlib.import_module() with a
+version of python prior to 2.7 or in 3.0 have the function readily
+available.
+the code in no way deviates from what can be found in the 2.7 trunk.

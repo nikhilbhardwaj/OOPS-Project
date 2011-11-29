@@ -1,0 +1,9 @@
+Recursively compute hashsums or piecewise hashings
+	
+md5deep is a set of tools to compute md5, sha-1, sha-256, tiger, whirlpool
+hashsums of arbitrary number of files recursively.
+
+it can also compare those hashsums with a list of known hashes. the tools can
+display those that match the list or those that does not match. it can display
+a time estimation when processing large files. it can do piecewise hashing
+(hashing input files in arbitrary sized blocks).

@@ -1,0 +1,5 @@
+Debian utf-8 migration wizard
+	
+this wizard upgrades legacy system locales to their utf-8
+equivalent. it also informs users whenever files in their
+home directory still utilize legacy encodings.

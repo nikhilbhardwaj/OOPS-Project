@@ -1,0 +1,10 @@
+Scalable linear algebra package - shared libs. for mpi
+	
+scalapack is the parallel version of lapack and is used on beowulf type
+clusters.
+
+you can choose between an implementation based on mpi or pvm. this
+package uses mpi. there are packages for the shared libraries (this one), for
+the static libraries and the development files and for test programs.
+
+also included: pblas, parallel basic linear algebra subprograms.

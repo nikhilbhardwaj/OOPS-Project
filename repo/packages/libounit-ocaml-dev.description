@@ -1,0 +1,9 @@
+Unit testing framework for objective caml
+	
+ounit is a unit testing framework for objective caml, imspired
+by the junit tool for java and the hunit tool for haskell.
+
+ounit is designed to provide a convenient way for you to write tests
+for your ocaml code.  tests can be aggregated into test suites, making
+it easy to both write tests close to the code being examined and
+execute a comprehensive aggregate set of tests -- or any subset of it.

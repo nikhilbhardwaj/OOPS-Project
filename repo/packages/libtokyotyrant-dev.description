@@ -1,0 +1,9 @@
+Tokyo tyrant development files
+	
+tokyo tyrant is a network interface to the dbm tokyo cabinet. you might bother
+in the case where multiple processes share the same database or where remote
+processes access the database. thus, tokyo tyrant is provided for concurrent
+and remote connections to tokyo cabinet.
+
+this is the development package for tokyo tyrant. it contains headers and
+libraries.

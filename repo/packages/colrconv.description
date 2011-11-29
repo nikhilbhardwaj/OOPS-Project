@@ -1,0 +1,6 @@
+Convers client with curses color support
+	
+colrconv is a modified version of va3dp's ttylink client. in addition
+to the basic split screen session it gives you color and sound support
+plus some line editing capabilities, a scroll buffer and a status line.
+also the default port is changed to 3600 (convers).

@@ -1,0 +1,8 @@
+Add/extend ssl support for common perl modules
+	
+some commonly used perl modules don't have ssl support at all, even if the
+protocol would support it. others have ssl support, but most of them don't do
+proper checking of the servers certificate.
+
+the net::sslglue::* modules try to add ssl support or proper certificate to
+these modules.

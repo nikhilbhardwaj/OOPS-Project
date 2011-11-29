@@ -1,0 +1,7 @@
+Script for quick mounting of removable devices
+	
+mountpy scans all devices connected to the system, and tries
+to mount them, creating mount directories as needed.
+warning: after configured, this program allows ordinary users
+to mount external filesystems. do not install it on
+multiuser machines with untrusted users!

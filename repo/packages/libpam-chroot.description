@@ -1,0 +1,13 @@
+Chroot pluggable authentication module for pam
+	
+this package includes a special (but not thoroughly tested) pam
+module to provide chrooted (restricted) environments for users.
+the module tries to provide a transparent wrapper around the
+average user, one that puts them in a fake file-system (eg, their
+'/' is really /some/where/else).
+
+in order to setup this environment in debian please read the
+readme.debian as well as the detailed example provided in
+/usr/share/doc/libpam-chroot/examples
+
+homepage: http://sourceforge.net/projects/pam-chroot/

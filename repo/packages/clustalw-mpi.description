@@ -1,0 +1,26 @@
+Mpi-distributed global sequence alignment with clustalw
+	
+clustalw is a popular tool for multiple sequence alignment. the
+alignment is achieved via three steps: pairwise alignment,
+guide-tree generation and progressive alignment. clustalw-mpi is an
+mpi implementation of clustalw. based on
+version 1.82 of the original clustalw, both the pairwise
+and progressive alignments are parallelized with mpi, a
+popular message passing programming standard. the
+pairwise alignments can be easily parallelized since the many
+alignments are time independent on each other. however
+the progressive alignments are essentially not parallelizable
+because of the time dependencies between each alignment.
+
+here the recursive parallelism paradigm is applied to the linear space
+profile-profile alignment algorithm. this approach is more time
+efficient on computers with distributed memory architecture.
+traditional approach that relies on precomputing the profile-profile
+score matrix has also been implemented. results shown the latter is indeed
+more appropriate for shared memory multiprocessor computer.
+
+clustalx is suggested for its support for local realignments, seaview
+is a versatile editor of alignments.
+
+the original clustalw/clustalx can be found at
+url: http://www.clustal.org/download/pre-2/

@@ -1,0 +1,25 @@
+Portable executable (pe) parsing module for python
+	
+pefile is a python module to read and work with portable executable (pe)
+files. most of the information in the pe header is accessible, as well as all
+the sections, section information and data.
+
+all the basic pe file structures are available with their default names as
+attributes of the returned instance.
+
+processed elements such as the import table are made available with lowercase
+names, to differentiate them from the upper case basic structure names.
+
+pefile has been tested against the limits of valid pe headers; that is,
+windows malware. lots of packed malware attempt to abuse the format beyond its
+standard use.
+
+some of the tasks that pefile makes possible are:
+
+ * modifying and writing back to the pe image
+ * header inspection
+ * section analysis
+ * retrieving data
+ * warnings for suspicious and malformed values
+ * packer detection with peid signatures
+ * peid signature generation

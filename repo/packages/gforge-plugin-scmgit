@@ -1,0 +1,4 @@
+PackageId:5304
+Name:gforge-plugin-scmgit
+Version:5.0.2-5
+Deps:gforge-common,gforge-db-postgresql,gforge-db,gforge-shell-postgresql,gforge-shell,gforge-web-apache2,gforge-web,git-core,git,gitweb,php5-cli

@@ -1,0 +1,17 @@
+Irc services for ircd-hybrid
+	
+hybserv is a daemon that connects to your ircd-hybrid server and
+automagically provides nickname, channel, memo, and oper services
+to your entire network if it is configured correctly to talk with
+your irc server.
+
+in short, these allow users to register nicknames and channels to
+prevent efnet-style takeovers thereof, allow opers to easily manage
+glines, klines, and other server settings, and allow users with
+registered nicknames to leave messages for others.
+
+hybserv is the services package of choice on irc networks such
+as aniverse.
+
+
+ homepage: http://www.hybserv.net/

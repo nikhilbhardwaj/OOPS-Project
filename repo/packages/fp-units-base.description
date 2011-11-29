@@ -1,0 +1,15 @@
+Free pascal - base units
+	
+the free pascal compiler is an object pascal compiler supporting both delphi
+and turbo pascal 7.0 dialects as well as mac pascal dialects.
+it provides a completely portable runtime library (rtl) available on many
+platforms and compatible with turbo pascal, but also a platfrom independent
+class based free component library (fcl) adding many delphi extensions and
+interfacing many popular open source libraries.
+
+this package contains free pascal units for common libraries.  some of these
+units are also required by the free component library:
+
+ - x11 (xlib, xutil)
+ - ncurses
+ - zlib

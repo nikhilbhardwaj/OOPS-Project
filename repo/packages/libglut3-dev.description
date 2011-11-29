@@ -1,0 +1,13 @@
+Development libraries and headers for glut
+	
+glut (as in ``gluttony'') is a window system independent toolkit for
+writing opengl programs.  it implements a simple windowing api, which
+makes life considerably easier when learning about and exploring opengl
+programming.
+
+glut is designed for constructing small to medium sized opengl programs,
+however it is not a full-featured toolkit, so large applications requiring
+sophisticated user interfaces are better off using native window system
+toolkits like gtk or motif.
+
+this package has been replaced by ``freeglut3-dev''.

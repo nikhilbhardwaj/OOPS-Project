@@ -1,0 +1,9 @@
+Library to interface with the wiimote -- development
+	
+cwiid is a working userspace driver along with various
+applications implementing event drivers, multiple wiimote
+connectivity, gesture recognition, and other wiimote-based
+functionality.
+
+this package provides the developpement files needed for building against
+cwiid.

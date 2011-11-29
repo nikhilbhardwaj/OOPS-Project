@@ -1,0 +1,12 @@
+A loop-player and recorder designed for live use
+	
+kluppe is written in c and uses jack, gtk and sndfile. features include:
+
+
+ - multiple files buffers, multiple 'loopers' tracks
+ - direct (gui) access to all loopers
+ - combined and per loop output ports for jack
+ - different playmodes including "granular"
+
+
+kluppe is the austrian word for clip and sounds even crazier if you loop it.

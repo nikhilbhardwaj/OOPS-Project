@@ -1,0 +1,10 @@
+Module for manipulating files and directories as objects
+	
+file::fu is a perl module that provides an method of manipulating directories
+and files as objects, making use of operator overloading to allow for precise
+composition fo paths and support for many built-in methods. it also provides
+a way to create temporary directories and files.
+
+the interface and style provided by this module are quite different than perl
+built-in functions or file::spec. the syntax is concise and errors are checked
+using exceptions, so you never need to check a return code.

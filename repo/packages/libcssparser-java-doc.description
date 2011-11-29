@@ -1,0 +1,9 @@
+Java css2 parser (documentation)
+	
+the css parser is a java library, that inputs cascading style sheets level 2
+source text and outputs a document object model level 2 style tree.
+alternatively, applications can use sac: the simple api for css.  its purpose
+is to allow developers working with java to incorporate cascading style sheet
+information, primarily in conjunction with xml application developments.
+
+this package provides the api documentation for libcssparser-java.

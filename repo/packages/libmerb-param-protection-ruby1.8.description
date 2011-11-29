@@ -1,0 +1,11 @@
+Merb plugin with controller methods to filter parameters
+	
+controller methods provided by this package:
+
+ * params_protected - removes only those parameters explicitly specified.
+ * params_accessible - removes everything except what is explictly specified.
+ * log_params_filtered - scrubbed at log time.
+
+see the rdoc documentation and the package readme for more information.
+
+this package contains the merb-param-protection libraries for ruby 1.8.

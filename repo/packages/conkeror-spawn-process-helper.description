@@ -1,0 +1,7 @@
+Spawn external processes in conkeror
+	
+this helper tool named conkeror-spawn-helper is necessary to let the
+conkeror web browser spawn external process, e.g. to edit form fields
+in an external program. it was previously named spawn-process-helper.
+
+maybe helpful for other xulrunner based applications, too.

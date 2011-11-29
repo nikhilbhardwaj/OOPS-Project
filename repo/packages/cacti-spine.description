@@ -1,0 +1,11 @@
+Multi-threading poller for cacti
+	
+spine (formerly cactid) is an experimental replacement for the default
+cmd.php poller in the cacti package.  it primarily strives to be as fast as
+possible, and is designed for sites with large numbers of hosts
+and devices polled.
+
+if the default poller provided by cacti works for you, then you should
+not use this package.  you should only use this package if the default
+poller is unable to complete a polling cycle in the required amount
+of time.

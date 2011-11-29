@@ -1,0 +1,10 @@
+Gather data about network devices and connected nodes
+	
+netdisco is an open source web-based network management
+tool designed for moderate-large networks. using snmp it
+locates the switch port of an end-user system by ip or mac
+address. layer2 topology discovery via cdp. device inventory
+by os/model + more.
+
+this package contains the back-end poller scripts which gather
+data and insert records into a database.

@@ -1,0 +1,8 @@
+Documentation for haskell llvm bindings
+	
+low level virtual machine (llvm) is a set of tools for use in the backend
+of a compiler for generating optimised native code across a wide variety
+of cpu architectures. the haskell bindings make it possible to use llvm
+from haskell.
+
+this package contains the library documentation.

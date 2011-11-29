@@ -1,0 +1,14 @@
+An editor for x
+	
+axe is a simple to use text editor for x that represents a significant
+improvement over xedit. also built around the athena text widget it
+features, amongst other things,
+
+  o multiple windows, buffers
+  o configurable menus, optional configurable button interface
+  o provision for defining keyboard macros
+  o file selection via a browser
+  o parenthesis matching, regular expression searching
+  o restricted or unlimited undo
+  o ability to change font
+  o both brief and comprehensive (hypertext) on-line help

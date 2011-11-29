@@ -1,0 +1,7 @@
+Small daemon intended to manage linux sysrq over network
+	
+permits to execute usual sysrq commands by network, like:
+sync, umount, reboot, poweroff, sak, term, etc.
+
+its philosophy is to be very responsive under heavy load and
+try to be somehow reliable. authentication is made by clear password.

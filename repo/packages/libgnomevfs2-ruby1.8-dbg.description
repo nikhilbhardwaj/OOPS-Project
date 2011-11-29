@@ -1,0 +1,10 @@
+Gnome vfs 2 bindings for the ruby language
+	
+gnome vfs is the gnome virtual file system. it provides a modular
+architecture and ships with several modules that implement support for file
+systems, http, ftp and others. it provides a uri-based api, a backend
+supporting asynchronous file operations, a mime type manipulation library and
+other features. this package contains libraries for using gnome-vfs with the
+ruby programming language.
+
+this package contains the debugging symbols.

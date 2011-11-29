@@ -1,0 +1,7 @@
+Module for parsing and formatting postgresql dates and times
+	
+datetime::format::pg understands the formats used by postgresql for its date,
+time, timestamp and interval data types. it can be used to parse these formats
+in order to create datetime or datetime::duration objects, and it can take a
+datetime or datetime::duration object and produce a string representing it in
+a format accepted by postgresql.

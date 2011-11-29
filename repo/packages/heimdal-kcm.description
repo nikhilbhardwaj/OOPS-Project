@@ -1,0 +1,10 @@
+Heimdal kerberos - kcm daemon
+	
+heimdal is a free implementation of kerberos 5 that aims to be
+compatible with mit kerberos.
+
+this package includes the kcm daemon which can hold the credentials
+for all users in the system. access control is done with unix-like
+permissions. the daemon checks the access on all operations based on
+the uid and gid of the user. the tickets are renewed as long as is
+permitted by the kdc's policy.

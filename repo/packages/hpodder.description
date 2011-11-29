@@ -1,0 +1,54 @@
+Tool to scan and download podcasts (podcatcher)
+	
+podcasting is a method of publishing radio-like programs on the
+internet.  through podcasting, almost anyone can produce their own
+audio program, and publish episodes of it as often or as rarely as
+they like.
+
+to listen to podcasts, you need a program to download the podcast's
+episodes from the internet.  such a program is called a podcatcher
+(or sometimes a podcast aggregator).  hpodder is this program.
+
+hpodder's features include:
+
+convenient, easy to learn, and fast command-line interface.  it's
+simple to do simple things, and advanced things are possible.
+
+automatic discovery of feed metadata
+
+full history database for accurate prevention of duplicate
+downloads and tracking of new episodes
+
+conversion tools to convert your existing feed list and history from
+other applications to hpodder.  supported applications and formats
+include: castpodder and ipodder.
+
+most operations can work fully automatically across your entire
+podcast database, or they can work manually.
+
+automatic updating of id3 (v1 and v2) tags based on metadata in the
+podcast feed.  this important feature is available through itunes but
+is often missed by other podcatchers.
+
+hpodder operations can be easily scripted or scheduled using regular
+operating system tools.
+
+fully customizable naming scheme for downloaded episodes, including a
+name collision detection and workaround algorithm.
+
+automatic support for appending .mp3 extensions to mp3 files that
+lack them.
+
+numerous database and history inquiry tools
+
+small, minimalist footprint
+
+power users and developers can interact directly with the embedded
+sqlite3 database used by hpodder.  the database has a simple schema
+that is developer-friendly.
+
+support for resuming interrupted downloads of podcasts
+
+hpodder is safe and is designed with data integrity in mind from the
+beginning.  it should be exceedingly difficult to lose a podcast
+episode, even in the event of a power failure.

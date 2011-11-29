@@ -1,0 +1,12 @@
+Mpeg layer 1/2/3 audio player with alsa support - dummy package
+	
+mpg123 is a fast and portable mpeg audio player for unix.  it supports
+mpeg 1.0/2.0 layers 1, 2 and 3 (those famous "mp3" files).
+
+for full cd quality playback (44 khz, 16 bit, stereo) a pentium,
+sparcstation10, dec alpha or similar cpu is required.  mono and/or reduced
+quality playback (22 khz or 11 khz) is even possible on 486 cpus.
+
+the main mpg123 nowadays already contains an output plugin for alsa by default.
+this is an empty dummy package to facilitate upgrades. it can be safely
+removed afterwards.

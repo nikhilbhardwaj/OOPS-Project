@@ -1,0 +1,16 @@
+A tool for generating gnu standards-compliant makefiles
+	
+automake is a tool for automatically generating `makefile.in's from
+files called `makefile.am'.
+
+the goal of automake is to remove the burden of makefile maintenance
+from the back of the individual gnu maintainer (and put it on the back
+of the automake maintainer).
+
+the `makefile.am' is basically a series of `make' macro definitions
+(with rules being thrown in occasionally).  the generated
+`makefile.in's are compliant with the gnu makefile standards.
+
+automake 1.9 fails to work in a number of situations that automake
+1.4, 1.6, 1.7 and 1.8 did, so has been renamed so that the previous
+version can continue to be made available.

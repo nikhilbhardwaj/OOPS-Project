@@ -1,0 +1,7 @@
+Library that presents unified interface to mail representations
+	
+"email::abstract" provides module writers with the ability to write
+representation-independent mail handling code. where previously one
+would either have to specify the mail class required, or to build a new
+object from scratch, "email::abstract" can be used to perform certain
+simple operations on an object regardless of its underlying representation.

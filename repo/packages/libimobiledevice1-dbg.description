@@ -1,0 +1,7 @@
+Library for communicating with iphone and ipod touch devices
+	
+libimobiledevice is a library that talks the native apple usb protocols that
+the iphone and ipod touch use. unlike other projects, libimobiledevice does
+not depend on using any existing libraries from apple.
+
+this package contains the debugging symbols.

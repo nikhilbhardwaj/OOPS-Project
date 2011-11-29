@@ -1,0 +1,26 @@
+Simple web indexing system for humans - enhanced
+	
+swish-enhanced is a fast, powerful, flexible, and easy to use system
+for indexing collections of html web pages, or any xml or text files like
+open office documents, open document files, emails, and so on.
+
+key features:
+
+ * quickly index a large number of text, html, and xml documents
+ * use filters to index any type of files such as pdf, openoffice, doc, xls,
+   ppt, mp3.
+ * includes a web spider for indexing remote documents over http
+ * can use an external program to supply documents including
+   records from a relational database.
+ * word stemming, soundex, metaphone, and double-metaphone indexing for
+   fuzzy searching
+ * powerful regular expressions to select documents for indexing or exclusion
+ * limit searches to parts of documents such as certain html tags or to
+   xml elements.
+ * index file is portable between platforms.
+ * a swish-e library is provided to allow embedding swish-e into your
+   applications for very fast searching.
+
+
+you'll find ready to use examples for indexing the debian documentation, pdf,
+openoffice and msoffice files, whole maildir, and more.

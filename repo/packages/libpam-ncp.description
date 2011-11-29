@@ -1,0 +1,5 @@
+Pam module allowing authentication from a netware server
+	
+this module lets you use a netware server as a source of
+authentication (but not session or other) information for
+pam-enabled apps.

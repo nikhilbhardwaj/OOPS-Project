@@ -1,0 +1,6 @@
+Sparc improved loader
+	
+like lilo or milo, but for sparc.
+this is the program you need to use if you plan to boot sparc/linux
+via a hard drive, floppy or cdrom.  it installs to the boot block of
+your system and will allow for booting of linux, solaris, and sunos.

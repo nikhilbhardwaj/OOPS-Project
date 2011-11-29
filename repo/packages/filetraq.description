@@ -1,0 +1,6 @@
+Small utility to keep track of changes in config files
+	
+filetraq is just a shell script that reads a list of files to watch, runs
+diff against each file and its backup, and reports any discrepancies, along
+with keeping a dated backup of the original.
+it's designed to be run as a cron job.

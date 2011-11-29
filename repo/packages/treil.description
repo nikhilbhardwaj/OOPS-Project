@@ -1,0 +1,7 @@
+Tree structure into tiles
+	
+treil is a utility which produces an image of tiles from tree structure.
+for example, linux directory tree can be shown as an image of tiles,
+by:
+
+    $ treil -o linux.png /usr/src/linux

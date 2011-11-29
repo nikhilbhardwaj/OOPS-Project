@@ -1,0 +1,10 @@
+Compares a packages file and a sources file
+	
+this is a program to compare a packages file and a sources file
+to see which programs need (re)compiling for any given architecture.
+
+quinn diff can be told about architecture specific packages (e.g. lilo) and
+can easily exclude them via a packages-arch-specific file.  the
+output is a list of source packages complete with accurate section
+and version information, suitable for use in build daemons or just in
+a script to auto-snarf the necessary source.

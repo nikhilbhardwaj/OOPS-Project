@@ -1,0 +1,6 @@
+Module to parse and format w3cdtf datetime strings
+	
+datetime::format::w3cdtf is a perl module that understands the w3cdtf date
+and time format, an iso 8601 profile. it has a full specification online at:
+<url:http://www.w3.org/tr/note-datetime>. this is the native date format for
+rss 1.0.

@@ -1,0 +1,24 @@
+Spl programming language
+	
+spl is an embeddable programming language with a wide range of features.  this
+package contains the core functionality for spl. if you need the adapters for a
+database consider installing one of spl-postgres, spl-mysql or spl-sqlite.
+
+features include but are not limited to:
+
+ * completely stateful.  it is at any point possible to interrupt a running
+   spl script, dump its entire state to disk and resume later on.
+ * feature-rich.  spl has native support for hashes and arrays, regular
+   expressions, object oriented programming, etc.
+ * dynamic.  spl is a full dynamic language - with all the advantages and
+   disadvantages.
+ * c-style syntax.  spl has a c-style syntax (as well as many other languages
+   such as java, javascript, php, s-lang, etc). so it is easier to get
+   started.
+ * advanced string lexing.  spl allows the programmer to simply embed
+   variables and complex expressions in string and template files.  e.g.
+   this is very important for rapid development of web applications.
+ * well-structured backend.  the spl runtime is not just one big blackbox.
+   instead there is a clear and visible seperation of compiler, assembler,
+   optimizer, virtual machine, etc.  this makes it possible to easily adapt
+   the library for your special needs when embedding it in your applications.

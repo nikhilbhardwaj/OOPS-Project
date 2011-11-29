@@ -1,0 +1,11 @@
+X86-64 machine check exceptions collector and decoder
+	
+starting with version 2.6.4, the linux kernel for x86-64 no longer decodes
+and logs recoverable machine check exception events to the kernel log on
+its own.
+
+instead, the mce data is kept in a buffer which can be read from userspace
+via the /dev/mcelog device node.
+
+you need this tool to collect and decode those events; it will log the decoded
+mce events to syslog.

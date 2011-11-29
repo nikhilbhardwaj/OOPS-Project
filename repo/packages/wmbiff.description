@@ -1,0 +1,19 @@
+A dockable app that displays information about mailboxes
+	
+wmbiff is an windowmaker docking utility, that displays the
+number of read and unread messages in (usually) five
+mailboxes. you can also define actions to execute on new
+mail arrival (for example, play a sound file),
+[auto]fetchmail from a remote server, execute your mail
+reader with a mouse click, or list subject lines from unread
+messages. wmbiff also supports notification of incoming licq
+messages, so you can put licq in the background.
+
+at this moment, wmbiff supports unix-style, maildir, pop3, apop, imap
+and imaps mailboxes, as well as licq and gnomeicu history files.
+
+it also includes scripts to perform miscellaneous tasks. at
+the moment, these include a checker for debian security updates.
+
+wmbiff is similar to the wmmaiload package, but features an
+led-style appearance, imaps support, and other minor differences.

@@ -1,0 +1,20 @@
+Comedi kernel module source
+	
+comedi (control and measurement device interface) is a collection
+of device drivers for data acquisition devices.  this includes
+most devices that have analog-to-digital (a/d) converters,
+digital-to-analog (d/a) converters, raw digital i/o, digital
+counters, and timers.  well-known manufacturers include national
+instruments, data translation, and measurement computing.  a list
+of supported devices can be found in /usr/share/doc/comedi-source/.
+these drivers are not included in the linux kernel source, so if
+you want to use these devices with debian, you should install this
+package and compile the modules.
+
+the packages libcomedi0 and libcomedi-dev contain documentation
+about comedi and comedilib.
+
+in order to compile these modules, you will need either the kernel
+sources or the debian kernel-headers and kernel-image packages.  for
+compile instructions, look at /usr/share/doc/comedi-source/readme.debian
+or the documentation for the module-assistant utility.

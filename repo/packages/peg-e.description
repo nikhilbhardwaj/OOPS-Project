@@ -1,0 +1,7 @@
+Peg elimination solitaire game
+	
+peg-e is a peg solitaire game in which you jump over pieces in order to
+remove them from the board, ultimately trying to eliminate all but one.
+the boards are randomly generated, with 100 levels of difficulty. the game
+auto-saves, and has undo-redo capability. pieces can move horizontally,
+vertically, and diagonally.

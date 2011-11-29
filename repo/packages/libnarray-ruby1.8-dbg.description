@@ -1,0 +1,13 @@
+Numerical n-dimensional array library for ruby
+	
+narray is an extension library for ruby that provides fast calculation and
+easy manipulation of large numerical arrays with the ruby language. it has
+numerical n-dimensional array class as well as vector and matrix subclasses,
+which can contain 1/2/4-byte integer, single/double-precision real/complex and
+ruby object.
+
+this package is built for ruby 1.8.
+
+this package is provided primarily to provide a backtrace with names
+in a debugger, this makes it somewhat easier to interpret core
+dumps.  most people will not need this package.

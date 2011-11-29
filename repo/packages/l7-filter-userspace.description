@@ -1,0 +1,7 @@
+Userspace layer 7 packet classifier
+	
+this is a version of l7-filter, an application layer packet classifier,
+that works in userspace instead of the kernel.  it is eventually intended to
+replace the kernel version since running in userspace is much safer and more
+flexible. however, it is in the early stages of development and not yet ready
+for prime time.

@@ -1,0 +1,7 @@
+Common lisp library for hyperobjects
+	
+this package contains a library for creating and display hyperobjects.
+hyperobjects contain references to subobjects as well as to linked
+objects.  this package includes functions to display hyperobjects in
+multiple formats: ascii text, html, xml with optional field labels and
+hyperlinks.

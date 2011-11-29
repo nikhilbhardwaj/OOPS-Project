@@ -1,0 +1,6 @@
+Maintain multipath block device access
+	
+this is a udeb, or a microdeb, for the debian-installer.
+
+these tools are in charge of maintaining the disk multipath device maps and
+react to path and map events.

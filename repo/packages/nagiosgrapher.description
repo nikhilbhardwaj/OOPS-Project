@@ -1,0 +1,9 @@
+Charting add-on for nagios
+	
+the "netways nagios grapher" is a graphing system which uses templates to
+assign services to various data sources (rrds). thus it is possible to
+create a quantity of graphs using only a small configuration, keeping it
+easy to manage. these templates are automatically applied to incoming
+data, thus creating a new service in nagios will automatically create the
+graph once valid data is seen for that service. correlations between
+different graphs is also possible.

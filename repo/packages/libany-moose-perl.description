@@ -1,0 +1,10 @@
+Module to use either moose or mouse, based on availability
+	
+any::moose is a perl module that intelligently loads either moose or mouse,
+which provide nearly identical interfaces to the same modern object system.
+this module takes advantage of the fact that anything that works with mouse
+should also work with moose.
+
+note that using this module may not always be appropriate because mouse is a
+lightweight implementation of the moose object system, which trades some of
+the less-used functionality for increased performance.

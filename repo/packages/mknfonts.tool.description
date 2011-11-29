@@ -1,0 +1,7 @@
+Create nfont packages for gnustep
+	
+this doesn't completely automate the process of creating nfont-packages,
+but it can do most of the bulk work for you.
+
+this works with .ttf, .pfa, .pfb, .afm, most formats that freetype can handle
+and provide postscript names for.

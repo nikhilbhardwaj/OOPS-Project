@@ -1,0 +1,12 @@
+Testing engine for the lua language version 5.1
+	
+the shake utility is a simple and transparent test engine for lua.
+
+shake gives concise reports when the tests succeed, while it prints detailed
+traces when tests fail.
+
+regular lua test files, if written using only standard assert and print calls,
+can be run with shake with no modifications.
+
+this package contains the shake command line utility, the lua modules
+that implement shake functionalities and the documentation for both.

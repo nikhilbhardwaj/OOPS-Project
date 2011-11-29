@@ -1,0 +1,7 @@
+Converter from docbook sgml into roff man macros
+	
+docbook-to-man is a batch converter that transforms unix-style manpages from
+the docbook sgml format into nroff/troff man macros.
+
+this is not the original version by fred dalrymple, but one with the
+modifications by david bolen.

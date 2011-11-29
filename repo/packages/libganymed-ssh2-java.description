@@ -1,0 +1,9 @@
+Pure java implementation of the ssh-2 protocol
+	
+ganymed ssh-2 for java is a library which implements the ssh-2
+protocol in pure java. it allows one to connect to ssh servers from
+within java programs. it supports ssh sessions (remote command
+execution and shell access), local and remote port forwarding, local
+stream forwarding, x11 forwarding, scp and sftp. there are no
+dependencies on any jce provider, as all crypto functionality is
+included.

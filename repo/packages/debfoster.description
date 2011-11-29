@@ -1,0 +1,14 @@
+Install only wanted debian packages
+	
+debfoster is a wrapper program for apt and dpkg.  when first run, it
+will ask you which of the installed packages you want to keep
+installed.
+
+after that, it maintains a list of packages that you want to have
+installed on your system.  it uses this list to detect packages that
+have been installed only because other packages depended on them.  if
+one of these dependencies changes, debfoster will take notice, and
+ask if you want to remove the old package.
+
+this helps you to maintain a clean debian install, without old
+(mainly library) packages lying around that aren't used any more.

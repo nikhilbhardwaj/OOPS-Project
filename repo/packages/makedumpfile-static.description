@@ -1,0 +1,9 @@
+Vmcore extraction tool - static binary
+	
+this program is used to extract a subset of the memory available either
+via /dev/mem or /proc/vmcore (for crashdumps). it is used to get memory
+images without extra uneeded information (zero pages, userspace programs,
+etc).
+
+this version is statically linked, so that it can be used in an
+initramfs or other environment where not all libraries are available.

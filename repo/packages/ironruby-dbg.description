@@ -1,0 +1,10 @@
+Ruby implementation targeting the .net and mono platforms - debugging symbols
+	
+this package contains the debugging symbols of the ironruby package.
+
+ironruby is an implementation of the ruby programming language
+running on .net. it supports an interactive console with fully
+dynamic compilation. it is well integrated with the rest of the .net
+framework and makes all .net libraries easily available to ruby
+programmers, while maintaining full compatibility with the ruby
+language.

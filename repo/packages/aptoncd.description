@@ -1,0 +1,9 @@
+Installation disc creator for packages downloaded via apt
+	
+apt removable repository creator and package backup tool for debian based
+systems.
+
+this tool will allow you to create a media (cd or dvd) to use to install
+software via apt in a non-connected machine, as well upgrade and install
+the same set of softwares in several machines with no need to re-download
+the packages again.

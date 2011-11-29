@@ -1,0 +1,5 @@
+Reportlab-based restructuredtext to pdf renderer
+	
+the usual way of creating pdf files from restructuredtext is by going through
+latex. this tool provides an alternative by producing pdf directly using the
+reportlab library.

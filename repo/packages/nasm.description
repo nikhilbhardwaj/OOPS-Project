@@ -1,0 +1,10 @@
+General-purpose x86 assembler
+	
+netwide assembler.  nasm will currently output flat-form binary files,
+a.out, coff and elf unix object files, and microsoft 16-bit dos and
+win32 object files.
+
+also included is ndisasm, a prototype x86 binary-file disassembler
+which uses the same instruction table as nasm.
+
+nasm is released under the gnu lesser general public license (lgpl).

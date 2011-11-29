@@ -1,0 +1,15 @@
+Fuzzing program to test applications
+	
+fusil is a fuzzing framework designed to expose bugs in software by
+changing random bits of its input.
+
+it helps to start process with a prepared environment (limit memory,
+environment variables, redirect stdout, etc.), start network client or
+server, and create mangled files. fusil has many probes to detect
+program crash: watch process exit code, watch process stdout and syslog
+for text patterns (eg. "segmentation fault"), watch session duration,
+watch cpu usage (process and system load), etc.
+
+fusil is based on a modular architecture. it computes a session score
+used to guess fuzzing parameters like number of injected errors to
+input files.

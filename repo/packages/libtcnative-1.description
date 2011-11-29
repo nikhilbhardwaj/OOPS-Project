@@ -1,0 +1,14 @@
+Tomcat native library using the apache portable runtime
+	
+tomcat can use the apache portable runtime to provide superior scalability,
+performance, and better integration with native server technologies.
+the apache portable runtime is a highly portable library that is at the
+heart of apache http server 2.x. apr has many uses, including access to
+advanced io functionality (such as sendfile, epoll and openssl), os level
+functionality (random number generation, system status, etc), and native
+process handling (shared memory, nt pipes and unix sockets).
+
+these features allows making tomcat a general purpose webserver, will
+enable much better integration with other native web technologies, and
+overall make java much more viable as a full fledged webserver platform
+rather than simply a backend focused technology.

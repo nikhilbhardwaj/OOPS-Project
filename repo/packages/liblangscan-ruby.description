@@ -1,0 +1,10 @@
+Ruby module of scanners for programming languages
+	
+langscan is a set of scanners.  it supports following languages:
+
+  c, c++, c#, css, d, eiffel, emacs lisp, java, javascript, lua,
+  ocaml, perl, php, python, ruby, scheme, bourne shell, and others.
+
+langscan is used by the source code search engine, gonzui.
+
+homepage: http://gonzui.sourceforge.net/

@@ -1,0 +1,11 @@
+Simple api that wraps xiph.org audio codecs (debugging information)
+	
+libfishsound is a wrapper around the existing codec libraries and
+provides a consistent, higher-level programming interface. it has been
+designed for use in a wide variety of applications; it has no direct
+dependencies on annodex or ogg encapsulation, though it is most commonly
+used in conjunction with liboggz to decode or encode ogg encapsulated
+vorbis or speex files.
+
+this package contains debugging symbols useful for tracing bugs in the
+libfishsound1 package.

@@ -1,0 +1,7 @@
+The gnu extension language and scheme interpreter
+	
+guile is a scheme implementation designed for real world programming,
+providing a rich unix interface, a module system, an interpreter, and
+many extension languages.  guile can be used as a standard #! style
+interpreter, via #!/usr/bin/guile, or as an extension language for
+other applications via libguile.

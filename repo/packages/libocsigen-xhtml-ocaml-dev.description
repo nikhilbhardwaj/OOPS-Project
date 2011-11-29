@@ -1,0 +1,7 @@
+Ocsigen xhtml generation library
+	
+this package provides the xhtml generation library of ocsigen, to
+generate statically typed xhtml pages. typing is achieved with
+polymorphic variants. this library can be used independently of
+ocsigen. this package contains development files needed to use this
+library alone.

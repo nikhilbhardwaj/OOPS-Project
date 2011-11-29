@@ -1,0 +1,15 @@
+Hardware abstraction layer - fdi files
+	
+hal provides an abstract view on hardware.
+
+this abstraction layer is simply an interface that makes it possible to
+add support for new devices and new ways of connecting devices to the
+computer, without modifying every application that uses the device.
+it maintains a list of devices that currently exist, and can provide
+information about those upon request.
+
+this package contains various device information files (also known
+as .fdi files) for the hal package.
+these fdi files contain additional information that help to describe the
+hardware more detailed, such as suspend/resume quirks for laptops, music
+player or photo camera types etc.

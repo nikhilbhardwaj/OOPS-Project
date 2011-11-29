@@ -1,0 +1,4 @@
+Perl module for pseudo tty io
+	
+io::pty provides i/o handles to the master- and slave-side of a
+pseudo tty.

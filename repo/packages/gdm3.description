@@ -1,0 +1,14 @@
+Next generation gnome display manager
+	
+gdm provides the equivalent of a "login:" prompt for x displays: it
+asks for a login and starts x sessions.
+
+it provides all the functionality of xdm, including xdmcp support for
+managing remote displays, and extends it with the ability to start x
+servers on demand.
+
+the greeter is written using the gnome libraries and hence looks like a
+gnome application - even to the extent of supporting themes!
+
+this package contains the next generation gdm, which was developed
+using the technologies on which gnome 3 is based.

@@ -1,0 +1,6 @@
+Perl module for subroutines that handle simple tty-based ui
+	
+term::query.pm is a perl 5 module, which performs generalized queries on
+various kinds of values.  validation and normalization of input, based
+on the type, is automated, as is error reporting and re-solicitation of
+input.

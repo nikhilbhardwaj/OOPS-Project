@@ -1,0 +1,16 @@
+Alsa library additional plugins
+	
+this package contains plugins for the alsa library that are
+not included in the main libasound2 package.
+
+the following plugins are included, among other:
+
+  - a52: s16 to a52 stream converter
+  - jack: play or capture via jack
+  - oss: run native alsa apps on oss drivers
+  - pulse: play or capture via pulse audio
+  - lavcrate, samplerate and speexrate: rate converters
+  - upmix and vdownmix: convert from/to 2 and 4/6 channel streams
+
+
+alsa is the advanced linux sound architecture.

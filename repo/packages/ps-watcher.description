@@ -1,0 +1,9 @@
+Monitoring a system via ps-like commands
+	
+this program runs the ps command periodically and triggers commands on matches.
+the match patterns are perl regular expressions which can refer to the process
+information via variables.
+
+for example it can be used to ensure that a daemon is running, or is not
+running too many times. it can also be used to determine when a process has
+consumed too many resources, perhaps due to a memory leak.

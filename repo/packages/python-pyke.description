@@ -1,0 +1,8 @@
+Prolog-inspired python logic programming toolkit
+	
+pyke introduces a form of logic programming (inspired by prolog) to python by
+providing a knowledge-based inference engine (or "expert system").
+
+unlike prolog, pyke integrates with python code allowing one to invoke pyke
+from python and intermingle python statements and expressions within your
+expert system rules.

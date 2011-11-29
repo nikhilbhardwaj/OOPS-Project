@@ -1,0 +1,9 @@
+An alternative project manager for geany
+	
+geanyprj is a plugin for geany that provides an alternative method for managing
+projects in geany, which moves away from geany's default project management
+style, which is session-based, instead implementing a system which
+automatically opens a project when oen of its files are opened.
+
+geany is a small and lightweight integrated development environment using the
+gtk+ toolkit.

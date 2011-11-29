@@ -1,0 +1,7 @@
+Heimdal kerberos - x11 server programs
+	
+heimdal is a free implementation of kerberos 5 that aims to be
+compatible with mit kerberos.
+
+this package includes kerberos server programs for forwarding the x
+connection securely from a remote computer.

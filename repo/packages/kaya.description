@@ -1,0 +1,12 @@
+A statically typed, imperative programming language
+	
+kaya is a compiled statically typed (ie, types are checked at compile
+time) imperative programming language; unlike other such languages,
+however, types are inferred rather than declared - there is no need for
+type declarations of local variables. kaya has "tagged union" data
+structures, a powerful feature more commonly found in functional
+languages such as ocaml and haskell.
+
+kaya also has built-in abstractions for web application development,
+making it easy to write a cgi program without paying too much attention
+to low level details such as state management and form handling.

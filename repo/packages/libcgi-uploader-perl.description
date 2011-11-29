@@ -1,0 +1,5 @@
+Module for managing cgi uploads using an sql database
+	
+cgi::uploader is designed to help with the task of managing files
+uploaded through a cgi application. the files are stored on the file
+system, and the file attributes stored in a sql database.

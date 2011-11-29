@@ -1,0 +1,4 @@
+PackageId:769
+Name:auth2db
+Version:0.2.5-2+dfsg-3
+Deps:adduser,auth2db-common,auth2db-filters,debconf,debconf-2.0,cdebconf,cdebconf-udeb,lsb-base,python,python-configobj,python-mysqldb,rsyslog,system-log-daemon,busybox-syslogd,dsyslog,inetutils-syslogd,socklog-run,sysklogd,syslog-ng

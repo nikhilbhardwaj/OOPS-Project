@@ -1,0 +1,6 @@
+Pam module to authenticate using the slurm resource manager
+	
+pluggable authentication module (pam) for restricting access to compute
+nodes where slurm performs resource management. access to the node is
+restricted to user root and users who have been allocated resources on
+that node.

@@ -1,0 +1,18 @@
+Read-eval-print loop for c
+	
+many programming languages come with a repl (read-eval-print loop), which
+allows you to type in code line by line and see what it does. this is quite
+useful for prototyping, experimentation, and debugging code.
+
+other programming languages, and especially c, use a "compile-run" model,
+and don't provide a repl. let's fix that.
+
+this approach is actually more of a read-eval loop, as c-repl doesn't know
+anything about the types and parse trees of the code it's running. but
+unlike other approaches to solving the "c interpreter" problem, c-repl
+works directly with unmodified libraries and system headers.
+
+this means you can experiment with a new library without writing a test
+program or any bindings. or just use it as a simple calculator, content in
+knowing it is much faster than your neighbors using irb, like driving a
+ferarri on city streets.

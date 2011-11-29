@@ -1,0 +1,11 @@
+X font server utilities
+	
+x11-xfs-utils provides a set of utility programs useful on a system that uses
+an x font server.
+
+the programs in this package include:
+
+ - fslsfonts, a tool that lists fonts served by an x font server;
+ - fstobdf, a tool which retrieves a font in bdf format from an x font server;
+ - showfont, a font dumper for use with an x font server;
+ - xfsinfo, an x font server information utility.

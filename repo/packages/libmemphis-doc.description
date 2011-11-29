@@ -1,0 +1,9 @@
+A map-rendering library for openstreetmap (documentation)
+	
+libmemphis provides a gobject based api to render openstreetmap data
+on a cairo surface. libmemphis implements the 'slippy map tilename'
+specification, like mapnik and osmarender.
+
+it supports zoom level 12 to 18, projected with the mercator projection.
+
+this package contains the documentation.

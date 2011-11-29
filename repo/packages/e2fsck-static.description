@@ -1,0 +1,10 @@
+Statically-linked version of the ext2/ext3/ext4 filesystem checker
+	
+this may be of some help to you if your filesystem gets corrupted enough
+to break the shared libraries used by the dynamically linked checker.
+
+this binary takes much more space than its dynamic counterpart located
+in e2fsprogs, though.
+
+you may want to install a statically-linked shell as well, to be able
+to run this program if something like your c library gets corrupted.

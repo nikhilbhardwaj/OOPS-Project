@@ -1,0 +1,17 @@
+Java based library providing a generic configuration interface
+	
+commons configuration provides a generic configuration interface which enables
+an application to read configuration data from a variety of sources:
+
+ - properties files
+ - xml documents
+ - windows ini files
+ - property list files (.plist)
+ - jndi
+ - jdbc datasource
+ - system properties
+ - applet parameters
+ - servlet parameters
+
+additional sources of configuration parameters can be created by using custom
+configuration objects.

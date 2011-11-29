@@ -1,0 +1,11 @@
+Anonymous remailer client and server
+	
+mixmaster is the reference implementation of the type ii remailer protocol
+which is also called mixmaster.
+
+an anonymous remailer is a computer service that privatizes your email. a
+remailer allows you to send electronic mail to a usenet news group or to a
+person without the recipient knowing your name or your email address.
+anonymous remailers provide protection against traffic analysis.
+
+this package provides both a client and an optional server installation.

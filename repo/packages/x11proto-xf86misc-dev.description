@@ -1,0 +1,12 @@
+X11 xfree86-miscellaneous extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for the xfree86-misc extension, which provides a means to access input
+device configuration settings specific to the xfree86/xorg ddx.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xf86miscproto proto module.

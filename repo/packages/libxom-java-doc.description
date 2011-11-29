@@ -1,0 +1,20 @@
+Documentation for the libxom-java package
+	
+xom(tm) is a new xml object model. it is an open source (lgpl),
+tree-based api for processing xml with java that strives for correctness,
+simplicity, and performance, in that order.
+
+xom is designed to be easy to learn and easy to use. it works very
+straight-forwardly, and has a very shallow learning curve. assuming
+you're already familiar with xml, you should be able to get up and
+running with xom very quickly.
+
+xom is the only xml api that makes no compromises on correctness.
+xom only accepts namespace well-formed xml documents, and only allows
+you to create namespace well-formed xml documents. (in fact, it's a
+little stricter than that: it actually guarantees that all documents
+are round-trippable and have well-defined xml infosets.) xom manages
+your xml so you don't have to. with xom, you can focus on the unique
+value of your application, and trust xom to get the xml right.
+
+this package includes the api documentation for libxom-java package.

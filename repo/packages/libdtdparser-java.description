@@ -1,0 +1,8 @@
+Java dtd parser library
+	
+dtd parsers for java seem to be pretty scarce. that's probably because dtd
+isn't valid xml. at some point, if/when xml schema becomes widely accepted,
+no one will need dtd parsers anymore. until then, you can use this library
+to parse a dtd.
+
+this library was packaged with argouml in mind.

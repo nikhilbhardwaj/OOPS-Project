@@ -1,0 +1,6 @@
+A library that enables unit testing of xml
+	
+xmlunit extends junit and nunit to enable unit testing of xml.
+it compares a control xml document to a test document or the result of a
+transformation, validates documents, and compares the results of xpath
+expressions.

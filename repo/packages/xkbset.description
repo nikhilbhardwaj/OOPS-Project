@@ -1,0 +1,38 @@
+Small utility to change the accessx settings of xkeyboard
+	
+accessx is a set of features within the xkeyboard extension of the
+x window system designed to make x more accessible to users with
+disabilities. xkeyboard is present in x11r6.1 and later. accessx features
+are typically unknown, given that in many implementations no interface
+is provided to utilize their functionality.
+
+accessibility features supported in accessx include:
+
+
+ 1. mousekeys
+    mousekeys is a system whereby the numeric keypad can be used to control
+    the mouse pointer.
+
+
+
+ 2. slowkeys
+    slowkeys is a feature to "slow down" keyboard input.
+
+
+
+ 3. stickykeys
+    stickykeys enables the user who is unable to press and hold multi-key
+    combinations to enter them in a sequential format instead.
+
+
+
+ 4. bouncekeys
+    bouncekeys is similar to stickykeys, except that instead of a delay
+    affecting all keys pressed, the delay is only enabled for the key the
+    user pressed last.
+
+
+
+ 5. repeatkeys
+    repeatkeys sets the same parameters as the global repeat settings, but
+    it is important to make note of it as an accessibility feature as well.

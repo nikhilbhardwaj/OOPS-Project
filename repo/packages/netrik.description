@@ -1,0 +1,17 @@
+Text mode www browser with vi like keybindings
+	
+netrik is an advanced text mode www browser. its purpose is to give access to
+as much of the web as possible in text mode, without forsaking any comfort.
+the user interface is looking roughly like a combination of gvim and pine.
+some of the core ideas (not all implemented yet):
+
+  context-(url-)sensitive setup
+  partially loaded pages
+  half-graphical mode
+  efficient navigation
+  key mapping and macros (similar to vi and mutt)
+  command prompt, menus and online help
+
+
+
+ author: olaf d. buddenhagen aka antrik <antrik@users.sourceforge.net>

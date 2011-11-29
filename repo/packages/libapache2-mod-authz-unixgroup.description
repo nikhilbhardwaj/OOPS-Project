@@ -1,0 +1,9 @@
+Access control based on on unix group membership for apache
+	
+mod_authz_unixgroup is a unix group access control module for apache 2.1 and
+later. if you are having users authenticate with real unix login id over the
+net, using something like my mod_authnz_external / pwauth combination, and
+you want to do access control based on unix group membership, then
+mod_authz_unixgroup is exactly what you need.
+
+this package includes the mod-authn-unixgroup module for apache version 2.2

@@ -1,0 +1,11 @@
+A light and customizable http(s) proxy server with ipv6 support
+	
+ffproxy is a filtering http/https proxy server.
+
+ - it is able to filter by host, url, and header.
+ - custom header entries can be filtered and added.
+ - it can even drop its privileges and be chrooted.
+ - logging to syslog() is supported.
+ - it can use another auxiliary proxy server.
+ - http accelerator feature (acting as front-end to a http server) is included.
+ - it allows transparent ipv6 over ipv4 browsing (and vice versa).

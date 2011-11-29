@@ -1,0 +1,5 @@
+File transfer time calculator written in gtk+
+	
+given the available bandwidth, bandwidthcalc determines how long it will take
+to transfer a file of a given size. you can specify the available bandwidth in
+kbit/s, kbyte/s, mbit/s or mbyte/s. the time output is in hh:mm:ss

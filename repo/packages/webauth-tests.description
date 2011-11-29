@@ -1,0 +1,9 @@
+Tests for the webauth authentication modules
+	
+webauth is a cookie-based web authentication system built on top of
+kerberos.  it relies on a central authentication server that handles all
+user authentication for a domain and creates user authentication
+credentials for any web server that needs strong authentication.
+
+this package contains test html files and apache 2 configuration
+fragments to test a new installation of the webauth modules.

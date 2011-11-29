@@ -1,0 +1,9 @@
+Library for reading dvds
+	
+libdvdread provides the functionality that is required to access many dvds. it
+parses ifo files, reads nav-blocks, and performs css authentication and
+descrambling.
+
+libdvdread probes for libdvdcss at runtime and if found, will use it to
+decrypt sections of the dvd as necessary. libdvdcss needs to be installed from
+third-party repositories (see readme.debian), it's not included in debian.

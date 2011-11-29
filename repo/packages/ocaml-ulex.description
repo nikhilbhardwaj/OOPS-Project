@@ -1,0 +1,11 @@
+Ocaml lexer generator with unicode support
+	
+ulex is a lexer generator for the objective caml (ocaml) programming
+language.
+
+it is implemented as a camlp4 syntax extension: lexer specifications
+are embedded in regular ocaml code.
+
+generated lexers work with a new kind of "lexbuf" that supports
+unicode; a single lexer can work with arbitrary encodings of the input
+stream.

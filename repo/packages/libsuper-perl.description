@@ -1,0 +1,6 @@
+Control superclass method dispatch
+	
+super allows to dispatch control to the superclass with a better syntax than
+the original mechanism. it provides an universal method super to determine a
+class' own superclass. super allows the use of mixin and roles as the class
+containing the method is no more needed at compile time.

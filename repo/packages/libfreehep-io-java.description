@@ -1,0 +1,9 @@
+Freehep i/o library
+	
+this library offers a collection of utility subclasses of standard
+io java classes (such as inputstrem, outputstream, reader and writer),
+which help in dealing with encodings, byte order, tagged streams or
+other common io-related issues. it is mainly used by other libraries
+within the freehep project.
+
+freehep is a collection of java libraries used in high energy physics.

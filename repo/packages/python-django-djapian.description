@@ -1,0 +1,20 @@
+Search api for django using xapian
+	
+djapian provides full-text search in your django project.
+
+most features are provided by the xapian library.  djapian
+effectively serves as a django-compatible adaptor for xapian.
+
+djapian features
+
+
+  * high-level dsl for indexer declaration
+  * standard result pagination support
+  * indexing of field, method results and related model attributes
+  * entry filtering (by trigger function)
+  * term tagging
+  * spelling corrections
+  * stemming
+  * result ordering by fields
+  * indexers auto discovery
+  * index shell

@@ -1,0 +1,28 @@
+Debugging symbols and debug stuff for nagios3
+	
+nagios is a monitoring and management system for hosts, services and
+networks.
+
+nagios' features include:
+
+
+ *  monitoring of network services (via tcp port, smtp, pop3, http, nntp,
+    ping, etc.)
+ *  plugin interface to allow for user-developed service checks
+ *  contact notifications when problems occur and get resolved (via email,
+    pager, or user-defined method)
+ *  ability to define event handlers to be run during service or host events
+    (for proactive problem resolution)
+ *  web output (current status, notifications, problem history, log file, etc.)
+
+
+nagios was written in c and is designed to be easy to understand and modify
+to fit your own needs.
+
+this package contains gdb debugging symbols for the nagios3 binaries and the
+mini_epn tool which can help in debugging nagios problems.
+
+nagios is a replacement of the netsaint project. it accepts and uses the
+previous netsaint modules transparently.
+
+upstream url: http://www.nagios.org/

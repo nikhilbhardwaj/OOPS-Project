@@ -1,0 +1,10 @@
+Simple data caching service with time history
+	
+cache::historical provides simple methods to store and search text values
+that are tied to a time and a key, like user or category. each caching
+operation sets a time stamp, thus making it possible to search according
+to events in time. like the name suggests, it was originally conceived
+for recording of historic events such as stock trading.
+
+this module uses sqlite3 as database backend, thus leaving ample space
+for costumized additional tools to the same cached historic data.

@@ -1,0 +1,12 @@
+Simple network packet logger and soft tap daemon
+	
+daemonlogger is a simple packet logger and soft tap daemon that is
+incredibly useful for network security analysts.
+
+it is capable of operating in two modes: sniffing packets and
+logging them directly to disk (files are automatically rolled over
+after 1gb of data), or in a "soft-tap" mode where it mirrors packets
+on another interface.
+
+daemonlogger can be run either in the foreground or in the background
+as a daemon.

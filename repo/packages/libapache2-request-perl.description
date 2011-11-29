@@ -1,0 +1,15 @@
+Generic apache request library - perl modules
+	
+the generic apache request library (apr) contains modules for manipulating
+client request data with the apache api from perl and c. functionality
+includes:
+
+
+ - parsing of application/x-www-form-urlencoded data
+ - parsing of multipart/form-data
+ - parsing of http cookies
+
+
+this package contains the perl bindings, which are simply a thin xs layer on
+top of libapreq, making them a lighter and faster alternative to cgi.pm and
+cgi::cookie.

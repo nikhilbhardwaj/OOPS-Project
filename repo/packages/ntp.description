@@ -1,0 +1,14 @@
+Network time protocol daemon and utility programs
+	
+ntp, the network time protocol, is used to keep computer clocks
+accurate by synchronizing them over the internet or a local network,
+or by following an accurate hardware receiver that interprets gps,
+dcf-77, nist or similar time signals.
+
+this package contains the ntp daemon and utility programs.  an ntp
+daemon needs to be running on each host that is to have its clock
+accuracy controlled by ntp.  the same ntp daemon is also used to
+provide ntp service to other hosts.
+
+for more information about the ntp protocol and ntp server
+configuration and operation, install the package "ntp-doc".

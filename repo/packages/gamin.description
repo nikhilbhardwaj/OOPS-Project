@@ -1,0 +1,16 @@
+File and directory monitoring system
+	
+gamin is a file and directory monitoring system which allows
+applications to detect when a file or a directory has been added,
+removed or modified by somebody else.
+
+it can be used by desktops like kde, gnome or xfce to have their
+virtual file systems keep track of changes to files and directories.
+for example, if a file manager displays a directory to the user, and
+the user removes one of the files via the command-line, gamin will
+notify the file manager of this change so that it can update the
+directory display.
+
+gamin has been designed as a drop-in replacement for fam with security
+and maintainability in mind and can use linux's advanced inotify
+service when available.

@@ -1,0 +1,8 @@
+Connection pooling for jdbc
+	
+xapool is a software component which allows to:
+
+
+ - store objects with a generic pool
+ - export a datasource (javax.sql.datasource)
+ - export a xadatasource (javax.sql.xadatasource)

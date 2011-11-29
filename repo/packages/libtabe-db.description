@@ -1,0 +1,11 @@
+Chinese lexicons database for libtabe in big5 encoding
+	
+these data files contain chinese lexicons, their reference counts,
+and their pronunciation in bopomofo.
+
+if you want to use the bimsphone module in xcin, you need these
+binary data files.
+
+for more information:
+
+    http://libtabe.sourceforge.net/

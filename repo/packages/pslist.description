@@ -1,0 +1,7 @@
+Utility that controls a process and its descendants
+	
+pslist is a simple utility to list the process ids (pids) of a process and
+all its children, and its children's children, and so on.  if invoked with
+a command name which ends in 'kill', it sends a signal to a selected group
+of processes.  if invoked with a command name which ends in 'renice',
+it sets the nice level of the selected group of processes.

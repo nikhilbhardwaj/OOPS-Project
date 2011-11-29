@@ -1,0 +1,12 @@
+Maintain debian packages in a package pool
+	
+apt-move is used to move a collection of debian package files into a
+proper archive hierarchy as is used in the official debian archive. it
+is intended as a tool to help manage the apt-get(8) file cache, but
+could be configured to work with any collection of debian packages.
+
+running apt-move periodically will assist in managing the resulting
+partial mirror by optionally removing obsolete packages, and creating
+valid local packages.gz files.  it can also build a partial or complete
+local mirror of a debian binary distribution (including an
+``installed-packages only'' mirror).

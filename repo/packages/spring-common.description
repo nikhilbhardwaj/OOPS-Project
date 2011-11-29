@@ -1,0 +1,8 @@
+A modern full-3d rts game engine (common files)
+	
+spring is a modern full-3d rts (real time strategy) game engine originally
+created to bring the gameplay experience of total annihilation into 3d.
+games are played using one of a number of mods.
+
+this package just includes the game engine's arch independent files, with no
+maps, mods or rich user interface.

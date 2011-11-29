@@ -1,0 +1,8 @@
+All language packages for iceweasel (meta)
+	
+iceweasel is a redesign of the mozilla browser component, similar to galeon,
+k-meleon and camino, but written using the xul user interface language and
+designed to be lightweight and cross-platform.
+
+this package is a metapackage depending on all available localization of
+iceweasel.

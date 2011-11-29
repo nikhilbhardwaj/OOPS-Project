@@ -1,0 +1,5 @@
+Utility to extract outdated messages from mbox files
+	
+mail-expire is a small and fast script that scans mbox files for messages
+that are older than given maximum age and moves them to another (compressed)
+mailbox file or just deletes them.

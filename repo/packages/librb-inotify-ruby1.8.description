@@ -1,0 +1,7 @@
+Simple linux kernel inotify wrapper for monitoring file and directory changes
+	
+this is a simple ruby wrapper over the inotify linux kernel subsystem
+for monitoring changes to files and directories. it uses the ffi ruby
+library to avoid having to compile a c extension
+
+this package is built for ruby 1.8.

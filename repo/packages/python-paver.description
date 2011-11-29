@@ -1,0 +1,8 @@
+Python-based software project scripting tool along the lines of make or rake
+	
+paver is a python-based software project scripting tool along the
+lines of make or rake. it is not designed to handle the dependency
+tracking requirements of, for example, a c program. it is designed to
+help out with all of your other repetitive tasks (run documentation
+generators, moving files about, downloading things), all with the
+convenience of python's syntax and massive library of code.

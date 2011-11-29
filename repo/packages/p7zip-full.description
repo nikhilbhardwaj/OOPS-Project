@@ -1,0 +1,19 @@
+7z and 7za file archivers with high compression ratio
+	
+p7zip is the unix port of 7-zip, a file archiver that archives with
+very high compression ratios.
+
+p7zip-full provides:
+
+ - /usr/bin/7za
+    a standalone version of the 7-zip tool that handles 7z archives
+    (implementation of the lzma compression algorithm) and some other
+    formats.
+ - /usr/bin/7z
+    not only does it handle 7z but also zip, zip64, cab, rar, arj,
+    gzip, bzip2, tar, cpio, rpm, iso and deb archives. 7z compression
+    is 30-50% better than zip compression.
+
+
+p7zip provides 7zr, a light version of 7za, and p7zip a gzip like
+wrapper around 7zr.

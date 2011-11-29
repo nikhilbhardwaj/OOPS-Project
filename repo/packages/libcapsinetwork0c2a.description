@@ -1,0 +1,6 @@
+C++ network server library
+	
+libcapsinetwork is a network library for c++ server daemons aimed at
+easy development.  implementing a server is as easy as adding a few
+lines to your code and writing one function that handles input
+events.

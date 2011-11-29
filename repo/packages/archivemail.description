@@ -1,0 +1,7 @@
+Archive and compress or delete your old email
+	
+archivemail moves old mail out of a mailbox (in maildir, mh, or
+mbox format, or via imap) and archives it in a compressed mbox-format
+mailbox file. it is well suited to be run from cron for automatic
+archiving of your old mail. archivemail can also just delete old mail
+so it is useful for cleaning up mailing list or spam mailboxes.

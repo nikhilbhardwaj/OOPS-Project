@@ -1,0 +1,7 @@
+Object-oriented interface to select() for perl
+	
+io::multiplex is designed to take the effort out of managing
+multiple file handles.  it is essentially a really fancy front end to
+the select() system call.  in addition to maintaining the select()
+loop, it buffers all input and output to/from the file handles.  it
+can also accept incoming connections on one or more listen sockets.

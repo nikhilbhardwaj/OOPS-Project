@@ -1,0 +1,15 @@
+Support for https protocol in lwp
+	
+this perl module provides support for the https protocol under lwp, so
+that an lwp::useragent can make https get & head & post requests. please
+see perldoc lwp for more information on post requests.
+
+the crypt::ssleay package contains net::ssl, which is automatically
+loaded by lwp::protocol::https on https requests, and provides the
+necessary ssl glue for that module to work via these deprecated modules:
+crypt::ssleay::ctx, crypt::ssleay::conn and crypt::ssleay::x509.
+
+work on crypt::ssleay has been continued only to provide https support
+for the lwp - libwww perl libraries. if you want access to the openssl
+api via perl, check out sampo's net::ssleay (available in debian as
+the libnet-ssleay-perl package).

@@ -1,0 +1,5 @@
+Tool for reading/erasing/flashing ftdi usb chip eeproms
+	
+ftdi-eeprom is a small tool for creating and uploading the configuration
+eeprom for the ftdi chip. this eeprom contains information such as vendor
+and product id, manufacturer and product strings, revision, etc.

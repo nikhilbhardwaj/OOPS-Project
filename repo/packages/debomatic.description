@@ -1,0 +1,13 @@
+Automatic build machine for debian source packages
+	
+deb-o-matic is an easy to use build machine for debian source packages
+based on pbuilder, written in python.
+
+it provides a simple tool to automate build of source packages with limited
+user interaction and a simple configuration. it has some useful features such
+as automatic update of pbuilder, automatic scan and selection of source
+packages to build and modules support.
+
+it is meant to help developers to build their packages without worrying too
+much of compilation, since it will run in background and no user feedback
+is required during the whole process.

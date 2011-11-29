@@ -1,0 +1,15 @@
+Gnu r elementary epidemiological functions
+	
+elementary epidemiological functions for a graduate epidemiology /
+biostatistics course.
+
+this package contains elementary tools for analysis of common epidemiological
+problems, ranging from sample size estimation, through 2x2 contingency table
+analysis and basic measures of agreement (kappa, sensitivity/specificity).
+appropriate print and summary statements are also written to facilitate
+interpretation wherever possible. this package is a work in progress, so
+any comments or suggestions would be appreciated. source code is commented
+throughout to facilitate modification. the target audience includes graduate
+students in various epi/biostatistics courses.
+
+epibasix was developed in canada.

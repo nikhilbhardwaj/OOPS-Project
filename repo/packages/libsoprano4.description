@@ -1,0 +1,10 @@
+Libraries for the soprano rdf framework
+	
+soprano is a pluggable rdf storage, parsing, and serialization framework based
+on qt 4.  soprano is targeted at desktop applications that need to store rdf
+data.  its api has been optimized for simplicity and ease of use, while its
+modular structure allows it to use various different rdf storage
+implementations as its backend.
+
+this package contains the soprano core libraries, d-bus service, parser
+plugins, and a storage plugin for the redland rdf application framework.

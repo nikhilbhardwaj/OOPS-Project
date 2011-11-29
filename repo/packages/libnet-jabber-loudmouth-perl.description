@@ -1,0 +1,5 @@
+Perl interface for the loudmouth jabber library
+	
+net::jabber::loudmouth is a perl interface for libloudmouth, lightweight c
+jabber library. it allows you to do the same stuff with net::jabber, but with a
+nicer interface and much faster, because most of the code is written in c.

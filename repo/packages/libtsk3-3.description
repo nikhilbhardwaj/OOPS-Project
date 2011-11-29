@@ -1,0 +1,17 @@
+Library for forensics analysis on volume and file system data
+	
+the sleuth kit (previously known as task) is a collection of unix-based command
+line file and volume system forensic analysis tools. the file system tools
+allow you to examine file systems of a suspect computer in a non-intrusive
+fashion. because the tools do not rely on the operating system to process the
+file systems, deleted and hidden content is shown.
+
+the volume system (media management) tools allow you to examine the layout of
+disks and other media. the sleuth kit supports dos partitions, bsd partitions
+(disk labels), mac partitions, sun slices (volume table of contents), and gpt
+disks. with these tools, you can identify where partitions are located and
+extract them so that they can be analyzed with file system analysis tools.
+
+this package contains the library which can be used to implement all of the
+functionality of the command line tools into an application that needs to
+analyze data from a disk image.

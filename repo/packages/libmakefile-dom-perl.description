@@ -1,0 +1,8 @@
+Perl dom implementation for makefiles
+	
+makefile::dom serves as an advanced lexer for (gnu) makefiles. it losslessly
+parses makefiles as "documents". the results are data structures similar to dom
+trees, holding every single bit of the information in the original input files,
+including white spaces, blank lines and makefile comments, so it's possible to
+reproduce the original makefiles from the dom trees. in addition, each node of
+the dom trees is modifiable and so is the whole tree.

@@ -1,0 +1,15 @@
+O'caml library that implements exact real arithmetic
+	
+this  module  implements  exact  real  arithmetic,  following  valerie
+menissier-morain ph.d. thesis (http://www-calfor.lip6.fr/~vmm/).
+
+a  real  x  is  represented  as  a function  giving,  for  any  n,  an
+approximation zn/4^n of x  such that |zn/4^n - x| < 1,  where zn is an
+arbitrary precision integer (of type gmp.z.t).
+
+coercions from type int, gmp.z.t, gmp.q.t, basic operations (addition,
+subtraction,  multiplication,   division,  power,  square   root)  and
+transcendental  functions (sin,  cos, tan,  log, exp,  arcsin, arccos,
+etc.) and a few constants (pi, e) are provided.
+
+a small reverse-polish calculator is provided to test the library.

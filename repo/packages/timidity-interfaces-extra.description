@@ -1,0 +1,9 @@
+Timidity++ extra user interfaces
+	
+timidity++ is a very high quality software-only midi sequencer and mod
+player.
+
+this package provides extra timidity++ user interfaces, which have
+limited functionality when compared to those in the main package.
+
+interfaces in this package: vt100, tcl/tk, s-lang, xskin, gtk2

@@ -1,0 +1,9 @@
+A pure python smtp server
+	
+lamson is a pure python smtp server designed to create robust and
+complex mail applications in the style of modern web frameworks such as
+django. unlike traditional smtp servers like postfix or sendmail,
+lamson has all the features of a web application stack (orm, templates,
+routing, handlers, state machines, python) without needing to configure
+alias files, run newaliases, or juggle tons of tiny fragile processes.
+lamson also plays well with other web frameworks and python libraries.

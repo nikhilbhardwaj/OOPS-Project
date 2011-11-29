@@ -1,0 +1,7 @@
+Gnome interface for the freepops updater engine
+	
+this package provides a click-and-update program to download the latest updates
+from the freepops website.
+
+the user interface is based on zenity, thus this package is recommended
+for gtk+ desktop environments like gnome.

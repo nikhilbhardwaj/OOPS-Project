@@ -1,0 +1,9 @@
+Appletalk user binaries
+	
+netatalk is an implementation of the appletalk protocol suite for
+bsd-derived systems.  the current release contains support for
+ethertalk phase i and ii, ddp, rtmp, nbp, zip, aep, atp, pap, asp, and
+afp.
+
+this package contains all daemon and utility programs as well as netatalk's
+static libraries.

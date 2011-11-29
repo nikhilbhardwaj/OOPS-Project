@@ -1,0 +1,15 @@
+Distributed multihead x server
+	
+xdmx is a proxy x server that uses one or more other x servers as its
+display device(s). it provides multi-head x functionality for displays that
+might be located on different machines. xdmx functions as a front-end x server
+that acts as a proxy to a set of back-end x servers. all of the visible
+rendering is passed to the back-end x servers. clients connect to the xdmx
+front-end, and everything appears as it would in a regular multi-head
+configuration. if xinerama is enabled (e.g., with +xinerama on the command
+line), the clients see a single large screen.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xserver module.

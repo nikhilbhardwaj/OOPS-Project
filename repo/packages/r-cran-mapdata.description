@@ -1,0 +1,13 @@
+Gnu r support for producing geographic maps (supplemental data)
+	
+this package provides facilities for easily producing high-resolution
+maps based on data sets in the gnu r statistical computing
+environment.  it includes high-resolution map data for the entire
+world, along with maps of china (including provincial boundaries) and
+a higher-resolution map of new zealand and a number of nearby pacific
+islands.
+
+the suggested r-cran-mapproj package adds facilities for
+calculating geographic projections, which are used by mapmakers to
+compensate for the inaccuracies inherent in projecting a spheroid's
+surface onto a two-dimensional plane.

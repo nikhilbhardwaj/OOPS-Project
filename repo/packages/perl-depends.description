@@ -1,0 +1,10 @@
+Roughly find out module depends from a perl file
+	
+find out roughly the modules the program uses. this is based on the
+idea, that perl evaluates the "use" commands at compile time and
+stores the loaded module information into the %inc variable. by
+examining the loaded modules and comparing them against the standard
+perl modules, the extenal module dpendencies can be roughly estimated.
+
+the depends information can be used to determine what external modules
+have to be installed before program can be used.

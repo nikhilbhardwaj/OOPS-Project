@@ -1,0 +1,13 @@
+Display laptop battery info, dockable in windowmaker
+	
+wmbattery displays the status of your laptop's battery in a small icon.
+this includes if it is plugged in, if the battery is charging, how many
+minutes of battery life remain, and battery status (high - green, low -
+yellow, or critical - red).
+
+there's nothing in the program that makes it require windowmaker, except
+maybe the look. it can be docked in windowmaker or afterstep's dock.
+
+wmbattery can use hal, apm, acpi, or even the spic that is in some sony
+laptops. it supports multi-battery machines, and can estimate how long
+it will take the battery to finish charging or discharging.

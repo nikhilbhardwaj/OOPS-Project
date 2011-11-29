@@ -1,0 +1,21 @@
+Texas instruments calculators emulator (without gdb)
+	
+tiemu emulates texas instruments calculators ti-89/92/92+/v200plt.
+
+it is based on xtiger, the original ti emulator for linux, which
+uses the 68k emulation core from uae (the ultimate amiga emulator).
+
+you need to either dump the rom of your calculator (you can do so
+with tilp), or get a flash upgrade from texas instrument (see the software
+section concerning your calculator, then download the archive and
+extract the file) to use this emulator. there are *no* ti roms provided
+in this package, as they are copyrighted by texas instruments, inc.
+
+however, a free (as in speech) rom is now provided with tiemu, namely
+pedrom. try it out!
+
+this version includes a vti-style assembly debugger.
+
+please note it exists another version (tiemu-gdb) not provided on debian
+itself which includes a gdb-style assembly debugger for use with tigcc
+and/or ktigcc.

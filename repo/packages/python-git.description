@@ -1,0 +1,5 @@
+Python library to interact with git repositories
+	
+python-git provides object model access to a git repository, so python can be
+used to manipulate it. repository objects can be opened or created, which can
+then be traversed to find parent commit(s), trees, blobs, etc.

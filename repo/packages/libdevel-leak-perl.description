@@ -1,0 +1,13 @@
+Utility for looking for perl objects that are not reclaimed
+	
+devel::leak has two functions: notesv and checksv.
+
+notesv walks the perl internal table of allocated svs (scalar values) - (which
+actually  contains arrays and hashes too), and records their addresses in a
+table. it returns a count of these "things", and stores a pointer to the
+table (which is obtained from the heap using malloc()) in its argument.
+
+checksv is passed argument which holds a pointer to a table created by
+notesv. it re-walks the perl-internals and calls sv_dump() for any "things"
+which did not exist when notesv was called. it returns a count of the number
+of "things" now allocated.

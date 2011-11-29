@@ -1,0 +1,25 @@
+The gnu parted disk partitioning library development files
+	
+gnu parted is a program that allows you to create, destroy,
+resize, move and copy hard disk partitions. this is useful
+for creating space for new operating systems, reorganising
+disk usage, and copying data to new hard disks. this package
+contains the parted binary and manual page.
+
+this package contains the static library and header files
+for libparted, which are really only of interest to parted
+developers.
+
+parted currently supports dos, mac, sun, bsd, gpt, mips and
+pc98 disklabels/partition tables, as well as a 'loop' (raw
+disk) type which allows use on raid/lvm. filesystems which
+are currently fully supported are ext2, ext3, fat (fat16
+and fat32), reiserfs (with libreiserfs) and linux-swap.
+parted can also detect and remove hfs (mac os), jfs, ntfs,
+ufs (sun and hp), xfs and asfs/affs/apfs (amiga) filesystems,
+but cannot create, resize or check these filesystems yet.
+
+the nature of this software means that any bugs could cause
+massive data loss. while there are no known bugs at the moment,
+they could exist, so please back up all important files before
+running it, and do so at your own risk.

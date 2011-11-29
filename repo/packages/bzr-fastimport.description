@@ -1,0 +1,11 @@
+Fast-import/fast-export plugin for bazaar
+	
+bazaar fast import is a plugin providing fast loading of revision control
+data into bazaar.
+
+it is designed to be used in combination with front-end programs that
+generate a command/data stream for it to process. front-ends are available
+for a wide range of foreign vcs tools including subversion, cvs, git,
+mercurial, darcs and perforce. new front-ends are easy to develop in whatever
+programming language you prefer, making bazaar fast import useful for teams
+needing a custom migration solution.

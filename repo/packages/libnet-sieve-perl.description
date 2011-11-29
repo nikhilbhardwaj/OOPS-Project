@@ -1,0 +1,10 @@
+Implementation of managesieve protocol to manage sieve scripts
+	
+net::sieve is a package for clients for the "managesieve" protocol, which is
+an internet draft protocol for manipulation of "sieve" scripts in a repository.
+more simply, net::sieve lets you control your mail-filtering rule files on a
+mail server.
+
+net::sieve supports the use of "tls" via the "starttls" command. net::sieve
+open the connexion to the sieve server, methods allow to list all scripts,
+activate or deactivate scripts, read, delete or put scripts.

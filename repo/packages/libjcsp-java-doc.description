@@ -1,0 +1,20 @@
+Documentation for libjcsp-java
+	
+documentation for jcsp (communication sequential processes for
+java) that is a library providing a concurrency model that is a
+combination of ideas from hoare's csp and milner's pi-calculus.
+
+communicating sequential processes (csp) is a mathematical
+theory for specifying and verifying complex patterns of
+behaviour arising from interactions between concurrent
+objects.
+
+jscp provides a base range of csp primitives plus a rich set of
+extensions. also included is a package providing csp process
+wrappers giving a channel interface to all java awt widgets
+and graphics operations.  it is extensively (javadoc)umented
+and includes much teaching.
+
+jcsp is an alternative concurrency model to the threads and
+mechanisms built into java. it is also compatible with
+it since it is implemented on top of it.

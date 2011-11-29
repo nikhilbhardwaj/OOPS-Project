@@ -1,0 +1,14 @@
+Checkers boardgame
+	
+kcheckers is a qt version of the classic boardgame "checkers", also known as
+"draughts".  it has the following features:
+
+ * built-in checkers engine.
+ * beginner, novice, average, good, expert and master levels of skill.
+ * several themes of the board.
+ * portable draughts notation database format support.
+ * saving, loading and restarting of game.
+ * auto change of the men's color.
+ * multiple undos/redos.
+ * optional numeration of the board.
+ * internationalization support (english, german, russian and french).

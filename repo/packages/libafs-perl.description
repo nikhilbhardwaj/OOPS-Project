@@ -1,0 +1,9 @@
+Perl interface to the afs distributed filesystem
+	
+afs is a distributed filesystem allowing cross-platform sharing of
+files among multiple computers.  facilities are provided for access
+control, authentication, backup and administrative management.
+
+this package provides perl bindings to the afs apis, including support
+for doing in perl nearly all of the operations possible with the afs
+client programs.

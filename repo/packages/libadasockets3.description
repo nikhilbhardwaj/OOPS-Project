@@ -1,0 +1,7 @@
+Bindings for socket services in ada
+	
+this package provides a binding for socket services to be used with gnat
+(the gnu ada compiler). one can use it to write clients and servers that
+will talk with programs written in ada or any other programming language.
+
+this package contains the library needed to execute ada program using sockets.

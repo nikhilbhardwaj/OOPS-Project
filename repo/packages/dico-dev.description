@@ -1,0 +1,10 @@
+Rfc 2229 compliant modular dictionary server (development files)
+	
+gnu dico is an implementation of the dict protocol as defined in rfc 2229.
+it is fully modular: the daemon itself (dicod) provides only the server
+functionality, and knows nothing about database formats. actual searches
+are performed by functions supplied in loadable modules. a single module
+can serve one or more databases.
+
+this package contains the header files, static libraries, and symbolic links
+needed for development.

@@ -1,0 +1,6 @@
+[biology] conversion between sequence formats
+	
+reads and writes nucleic/protein sequences in various
+formats. data files may have multiple sequences.
+readseq is particularly useful as it automatically detects many
+sequence formats, and converts between them.

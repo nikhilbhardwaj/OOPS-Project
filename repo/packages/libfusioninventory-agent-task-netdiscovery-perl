@@ -1,0 +1,4 @@
+PackageId:12412
+Name:libfusioninventory-agent-task-netdiscovery-perl
+Version:1.1-2
+Deps:fusioninventory-agent,libnet-ip-perl,libnet-nbname-perl,libnet-snmp-perl,libnmap-parser-perl,libxml-simple-perl,perl

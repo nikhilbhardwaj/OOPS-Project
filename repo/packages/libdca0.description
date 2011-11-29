@@ -1,0 +1,8 @@
+Decoding library for dts coherent acoustics streams
+	
+libdca provides a low-level interface to decode audio frames encoded using
+dts coherent acoustics. dts coherent acoustics streams are commonly found
+on dvds, dts audio cds and some radio broadcastings. libdca also provides
+downmixing and dynamic range compression for various output configurations.
+
+this package contains the shared library.

@@ -1,0 +1,10 @@
+Worksheet-based graphical python shell
+	
+reinteract is a tool for interactive experimentation with python
+oriented around "worksheets" containing python code combined with the
+results of that code, formatted as text or graphical plots. unlike a
+traditional shell, you can go back and edit previously entered
+statements, and the results will update.
+
+amongst other things, reinteract is suitable for experimentation with
+the python language and for data analysis using numpy and scipy.

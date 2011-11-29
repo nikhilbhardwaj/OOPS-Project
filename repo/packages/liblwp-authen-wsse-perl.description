@@ -1,0 +1,9 @@
+Library for enabling x-wsse authentication in lwp
+	
+lwp::authen::wsse allows lwp to authenticate against servers that are using
+the x-wsse authentication scheme, as required by the atom authentication api.
+
+the module is used indirectly through lwp, rather than including it directly in
+your code.  the lwp system will invoke the wsse authentication when it
+encounters the authentication scheme while attempting to retrieve a url from a
+server.

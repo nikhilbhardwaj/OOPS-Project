@@ -1,0 +1,11 @@
+Parameter calculator for ipv4 addresses
+	
+ipcalc takes an ip address and netmask and calculates the resulting
+broadcast, network, cisco wildcard mask, and host range. by giving a
+second netmask, you can design sub- and supernetworks. it is also
+intended to be a teaching tool and presents the results as
+easy-to-understand binary values.
+
+originally, ipcalc was intended for use from the shell prompt, but a
+cgi wrapper is provided to enable colorful html display through a
+webserver.

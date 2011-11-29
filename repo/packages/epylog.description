@@ -1,0 +1,5 @@
+New logs analyzer and parser
+	
+this is a syslog parser which runs periodically, looks at your logs,
+processes some of the entries in order to present them in a more
+comprehensible format, and then mails you the output.

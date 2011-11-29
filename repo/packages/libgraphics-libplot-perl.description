@@ -1,0 +1,4 @@
+Perl interface to libplot
+	
+graphics::libplot provides a perl interface to libplot from plotutils.
+only the c library routines are available with this package.

@@ -1,0 +1,27 @@
+Mpris interface to control several music players
+	
+panflute provides a generic mpris interface to control a variety of
+music players, including many that do not implemented mpris themselves.
+this allows developers to create programs that interact with many
+different players, without needing to worry about the details of each
+player's particular interface. panflute also provides extensions for
+features not included in the mpris specification.
+
+currently supported players are:
+
+ * amarok
+ * audacious
+ * banshee
+ * exaile
+ * guayadeque
+ * listen
+ * moc
+ * mpd
+ * muine
+ * quodlibet
+ * rhythmbox
+ * vlc
+ * xmms2 (requires python-xmmsclient)
+
+
+this package provides the panflute daemon.

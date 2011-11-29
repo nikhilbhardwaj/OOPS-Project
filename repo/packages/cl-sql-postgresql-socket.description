@@ -1,0 +1,6 @@
+Clsql database backend, postgresql via sockets
+	
+this package enables you to use the clsql data access package
+with postgresql databases via a socket interface to the postgresql
+server.
+clsql is a common lisp interface to sql databases.

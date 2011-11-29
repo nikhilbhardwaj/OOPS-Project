@@ -1,0 +1,6 @@
+An http protocol implementation together with clients and servers
+	
+twisted web is a web server, and also provides basic http client
+support. you may want to check out nevow, a templating toolkit
+designed for twisted.web, and twisted web2, the next generation
+twisted web server.

@@ -1,0 +1,11 @@
+A simple s-lang based system performance monitor
+	
+slmon is a tool for monitoring system's performance. it displays results
+using a nice and readable text-based ui, providing either figures or a
+graph. it currently monitors:
+
+  - cpu load (smp is supported)
+  - memory and swap load
+  - uptime, date and time
+  - number of logged in users
+  - network traffic

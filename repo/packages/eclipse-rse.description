@@ -1,0 +1,13 @@
+Eclipse remote system explorer (rse)
+	
+remote system explorer is a framework and toolkit in eclipse workbench
+that allows you to connect and work with a variety of remote systems.
+
+rse is a framework and toolkit in eclipse workbench, that allows you
+to connect and work with a variety of remote systems, including
+
+
+   * remote file systems through ssh, ftp or dstore agents,
+   * remote shell access (compiling with error navigation),
+   * remote process handling through dstore agents,
+   * and remote debugging through cdt / gdb.

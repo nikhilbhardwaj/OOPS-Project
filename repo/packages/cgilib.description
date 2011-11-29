@@ -1,0 +1,5 @@
+Simple cgi library
+	
+this library provides a simple programming api to the common gateway
+interface (cgi).  it features http redirect, provides read access to
+form variables, sets http cookies and reads them.

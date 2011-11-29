@@ -1,0 +1,25 @@
+Tools to manage xen virtual servers
+	
+this package contains tools to manage debian based xen virtual servers.
+
+using the scripts you can easily create fully configured xen guest
+domains (domu) which can be listed, updated, or copied easily.
+
+xen-tools currently can install:
+
+
+  * debian 3.1 sarge (i386 only)
+  * debian 4.0 etch
+  * debian 5.0 lenny
+  * debian 6.0 squeeze
+  * debian sid (unstable)
+  * ubuntu 6.06 dapper drake (lts)
+  * ubuntu 6.10 edgy eft
+  * ubuntu 7.04 feisty fawn
+  * ubuntu 7.10 gutsy gibbon
+  * ubuntu 8.04 hardy heron (lts)
+  * ubuntu 8.10 intrepid ibex
+  * ubuntu 9.04 jaunty jackaplope
+  * ubuntu 9.10 karmic koala
+  * ubuntu 10.04 lucid lynx (lts)
+  * ubuntu 10.10 maverick meerkat

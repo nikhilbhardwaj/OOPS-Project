@@ -1,0 +1,11 @@
+An sslv3/tls network protocol analyzer
+	
+this program will dump the traffic on a network and analyze it for
+sslv3/tls network traffic, typically used to secure tcp connections.
+when it identifies this traffic, it decodes the results.  when
+provided with the appropriate keying material, it will also decrypt
+the connections and display the application data traffic.
+
+ssldump is based on tcpdump, a network monitoring and data acquisition
+tool.  more information on ssldump is available at
+http://www.rtfm.com/ssldump/

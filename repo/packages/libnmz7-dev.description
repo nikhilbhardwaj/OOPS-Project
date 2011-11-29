@@ -1,0 +1,8 @@
+Full text search engine - header files and static libraries
+	
+namazu is a full text search engine which is usable via cgi. it features
+a simple and easy setup, and is written in c and perl. namazu uses the
+text utilities nkf, kakasi or chasen.
+
+the package contains libnmz header files and static libraries. it is for
+namazu search client developments.

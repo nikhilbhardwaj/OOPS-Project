@@ -1,0 +1,6 @@
+View web comic strips more conveniently
+	
+a perl script that gathers online comic strips for more convenient viewing.
+when in normal mode, it creates an html page that references the strips
+directly, and when in local mode, it also downloads the images to your local
+disk.

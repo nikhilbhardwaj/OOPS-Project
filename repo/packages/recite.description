@@ -1,0 +1,12 @@
+English text speech synthesizer
+	
+recite is a program to do speech synthesis.  the quality of sound
+produced is not terribly good, but it should be adequate for reporting
+the occasional error message verbally.
+
+given some english text, recite will convert it to a series of phonemes,
+then convert the phonemes to a sequence of vocal tract parameters, and
+then synthesise the sound a vocal tract would make to say the sentence.
+recite can perform a subset of these operations, so it can be used to
+convert text into phonemes, or to produce an utterance based on vocal
+tract parameters computed by another program.

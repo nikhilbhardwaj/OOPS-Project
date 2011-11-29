@@ -1,0 +1,7 @@
+Common lisp library that provides a socket level postgresql interface
+	
+pg is a socket-level interface to the postgresql object-relational
+database. the library implements the client part of the frontend/backend
+protocol, so does not require interfacing with the libpq library. sql
+types are converted to the equivalent common lisp types where possible.
+supports large objects (blobs).

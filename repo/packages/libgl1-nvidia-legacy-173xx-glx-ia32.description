@@ -1,0 +1,7 @@
+Nvidia binary opengl 32-bit libraries (173xx legacy version)
+	
+these binary 32-bit libraries provide optimized hardware acceleration of
+opengl applications via a direct-rendering x server.
+see the description of the nvidia-glx-legacy-173xx package
+or /usr/share/doc/libgl1-nvidia-legacy-173xx-glx/readme.txt.gz
+for a complete list of supported gpus and pci ids.

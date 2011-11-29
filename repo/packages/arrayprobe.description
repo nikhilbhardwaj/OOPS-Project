@@ -1,0 +1,8 @@
+Command line hp (compaq) smartarray status checker
+	
+by default it runs in a non verbose mode that can be used as a nagios
+check or periodic cron job. the output is a single line of information
+about the worst state found. (if one logical drive is recovering and a
+second drive is in interim recovery mode. it will only report the
+failing drive.) the exitcodes can be used to determine the severity.
+critical = 2; warning = 1; normal = 0

@@ -1,0 +1,4 @@
+Helper program for accessing odbc ini files
+	
+this package contains the odbcinst helper tool, which allows odbc driver
+packages to install their own driver settings.

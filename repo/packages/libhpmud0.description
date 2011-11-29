@@ -1,0 +1,12 @@
+Hp multi-point transport driver (hpmud) run-time libraries
+	
+shared library that provides direct i/o for each process. prior to
+hpmud, all i/o was serialized through hpiod, a monolithic i/o processor.
+the new hpmud direct i/o is faster. hpmud supports parallel, usb and
+jetdirect connectivity.
+
+with hpmud, hplip no longer has linux specific libusb extensions. this
+means any unix/linux derivative that supports libusb may work with
+hplip. a public hplip "c" api is exposed through hpmud. see hpmud.h
+for documentation. a python wrapper for hpmud, called hpmudext, is also
+available.

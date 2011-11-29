@@ -1,0 +1,5 @@
+Clsql database backend, postgresql via library
+	
+this package enables you to use the clsql data access package
+with postgresql databases using the postgresql client library.
+clsql is a common lisp interface to sql databases.

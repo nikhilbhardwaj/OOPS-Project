@@ -1,0 +1,8 @@
+Perl module providing basic rsa functionality
+	
+provides a glue to the rsa functions in the openssl library. in
+particular, it provides the following functionalities: create a key from
+a string, make a new key, save key to a string, save public portion of
+key to a string using format compatible with openssl's command-line rsa
+tool, encrypt, decrypt, sign, verify, return the size in bytes of a key,
+check the validity of a key.

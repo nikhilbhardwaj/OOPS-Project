@@ -1,0 +1,12 @@
+X.org x server -- vesa display driver
+	
+this driver for the x.org x server (see xserver-xorg for a further description)
+uses the standard vesa interface provided on all video cards, but runs
+unaccelerated.  this driver is not recommended for use unless you have a
+problem  with the normal driver for your card, because it will peform very
+badly.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-vesa driver module.

@@ -1,0 +1,10 @@
+100% pure-java implementation of ruby
+	
+jruby is a 100% pure-java implementation of the ruby programming language.
+
+jruby provides a complete set of core "builtin" classes and syntax
+for the ruby language, as well as most of the ruby standard
+libraries. the standard libraries are mostly ruby's own complement of
+".rb" files, but a few that depend on c language-based extensions have
+been reimplemented. some are still missing, but jruby hopes to
+implement as many as is feasible.

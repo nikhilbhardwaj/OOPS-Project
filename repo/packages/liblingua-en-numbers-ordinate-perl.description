@@ -1,0 +1,8 @@
+Perl module to convert from cardinal numbers to ordinal numbers
+	
+this is the cpan perl module lingua::en::numbers::ordinate.
+
+there are two kinds of numbers in english -- cardinals (1,
+2, 3...), and ordinals (1st, 2nd, 3rd...).  this module
+provides functions for generating the ordinal form of a number,
+given its cardinal value.

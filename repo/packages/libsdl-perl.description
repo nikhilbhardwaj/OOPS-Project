@@ -1,0 +1,5 @@
+Sdl bindings for the perl language
+	
+sdl is a library that allows programs portable low level access to
+a video framebuffer, audio output, mouse, and keyboard. this perl
+package contains perl bindings to access the sdl library.

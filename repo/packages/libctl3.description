@@ -1,0 +1,8 @@
+Library for flexible control files
+	
+libctl is a free guile-based library implementing flexible control files for
+scientific simulations. it was written to support the mit photonic-bands
+program, but will hopefully prove useful in other programs too.
+
+this package contains the runtime libraries required to run any software using
+libctl.

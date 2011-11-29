@@ -1,0 +1,5 @@
+(where's your grammar?) command line parser generator
+	
+wyg (where's your grammar?) is a tool that automates the use of lex,
+yacc, and getopt_long to create a front-end for your projects that can
+be configured from files or via the command line.

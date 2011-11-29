@@ -1,0 +1,6 @@
+Generates uml diagrams from perl or c++ code
+	
+autodia creates uml files for use with dia. it scans your perl or c++
+code, and generates class diagrams in dia's native file format (xml).
+
+support for other languages can be provided with plugins.

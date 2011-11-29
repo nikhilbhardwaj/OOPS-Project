@@ -1,0 +1,11 @@
+Utility to download email from a hotmail or msn account
+	
+gotmail fetches mail out of a hotmail or msn account, using the
+web interface as though through a browser. it works somewhat like
+fetchmail, and lets you do spiffy things like detecting and deleting
+spam (without even downloading the whole thing!) and forwarding mail,
+and storing it in a local mailbox.
+
+although the team behind gotmail tries to keep it working, every few
+months hotmail makes changes which break this until they have time to
+fix it. have a backup plan for email access in case that happens.

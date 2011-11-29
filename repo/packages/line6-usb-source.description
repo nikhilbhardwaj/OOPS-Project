@@ -1,0 +1,14 @@
+Line 6 pod driver source
+	
+an experimental driver for the guitar amp, cab, and effects modeller
+podxt pro by line6 (and similar devices), supporting the following features:
+
+
+ * reading/writing individual parameters
+ * reading/writing complete channel, effects setup, and amp setup data
+ * channel switching
+ * virtual midi interface
+ * tuner access
+ * playback/capture/mixer device for any alsa-compatible
+ * pcm audio application
+ * signal routing (record clean/processed guitar signal, re-amping)

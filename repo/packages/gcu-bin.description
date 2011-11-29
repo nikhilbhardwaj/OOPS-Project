@@ -1,0 +1,13 @@
+Gnome chemistry utils (helper applications)
+	
+the gnome chemistry utils provide c++ classes and gtk+-2 widgets
+related to chemistry. they will be used in future versions of both
+gcrystal and gchempaint.
+
+this package provides 3 applications:
+
+
+ * a molecular structures viewer (gchem3d)
+ * a chemical calculator (gchemcalc)
+ * a periodic table of the elements (gchemtable)
+ * a ... (gspectrum)

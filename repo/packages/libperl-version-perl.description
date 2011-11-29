@@ -1,0 +1,9 @@
+Module to parse and manipulate perl version strings
+	
+perl::version provides a simple interface for parsing, manipulating and
+formatting perl version strings.
+
+unlike version.pm (which concentrates on parsing and comparing version
+strings) perl::version is designed for cases where you'd like to parse a
+version, modify it and get back the modified version formatted like the
+original.

@@ -1,0 +1,7 @@
+Process control operations
+	
+prctl is a tool to query and modify process behavior.  supported process
+behavior is handling of unaligned memory access and handling of floating
+point software assist faults.  the required syscalls are currently only
+available on itanium processor family (ia64), hp pa-risc (hppa) and
+alpha (>=2.6.15) kernels in debian.

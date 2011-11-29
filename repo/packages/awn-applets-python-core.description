@@ -1,0 +1,32 @@
+A collection of applets for awn, written in python
+	
+awn-extras-applets is a collection of applets for avant-window-navigator. it
+provides some extensions to the bar and some new features (like
+applets in the gnome-panel).
+
+this package provides the core python applets:
+
+ * animal-farm : various animals tell your fortune.
+ * bandwidth-monitor: displays information from network.
+ * battery-applet: this applet displays your computers current power status.
+ * cairo-clock: displays an analog clock.
+ * comics: view your favourite comics on your desktop.
+ * cpufreq: monitors and controls the cpu frequency.
+ * dialect: manages keyboard layouts.
+ * feeds: a python feed launcher.
+ * file-browser-launcher: launches the user's file manager or opens bookmarks.
+ * hardware sensors: displays information from sensors.
+ * mail: the mail applet lets you check your mail from awn.
+ * media-control: this applet displays album art in a awn dialog while
+   allowing you to control your favorite media players.
+ * media-player: plays any media files you drop on it.
+ * mount-applet: displays mounts from /etc/fstab and allows one to
+   mount/unmount them.
+ * quit-applet: a simple gnome-quit launcher.
+ * stack: provides a convenient location to place commonly used files.
+ * thinkhdaps: displays the status of hdaps.
+ * todo: manage a simple to-do list.
+ * volume-control: a fancy volume changing applet that works much like the
+   gnome-panel version.
+ * weather: this applet downloads and displays the current weather conditions
+   and weather forecast from weather.com.

@@ -1,0 +1,17 @@
+Collection of tools for bzr
+	
+this package contains a collection of plugins for bzr - a distributed
+version control system. some of these tools may work their way into
+bzr itself at some point, and some are just convenient addons useful
+for day to day operations.
+
+bzrtools actually includes:
+
+ * rspush: push local changes to a remote server using rsync instead
+   sftp.
+ * graph-ancestry: use graphviz to produce graphs of branch ancestry.
+ * shell: start up a command interpreter that run bzr natively,
+   providing autocompletion.
+ * patch: apply a specified patch to your tree, that can be a file
+   or url.
+ * heads: show all revisions in a repository not having descendants.

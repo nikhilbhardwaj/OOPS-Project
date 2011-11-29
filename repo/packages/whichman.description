@@ -1,0 +1,17 @@
+Fault tolerant search utilities: whichman, ftff, ftwhich
+	
+whichman uses a fault tolerant approximate matching algorithm to search
+for man-pages that match approximately the specified name.
+the fault tolerant matching is very useful in cases where you remember only
+roughly the name of a command.
+
+
+   example: whichman netwhat
+   this finds netstat.8: /usr/share/man/man8/netstat.8
+
+
+ftff searches the directory tree. this is a case in-sensitive and fault
+tolerant way of 'find . -name xxxx -print'.
+
+ftwhich finds files which are in one of the directories in your path
+and uses a fault tolerant search algorithm.

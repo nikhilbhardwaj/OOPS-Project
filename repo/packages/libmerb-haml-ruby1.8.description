@@ -1,0 +1,10 @@
+Ruby 1.8 library for merb that provides access to libhaml-ruby
+	
+haml (html abstraction markup language) is a layer on top of xhtml or
+xml that's designed to express the structure of xhtml or xml documents
+in a non-repetitive, elegant, easy way, using indentation rather than
+closing tags and allowing ruby to be embedded with ease. it was originally
+envisioned as a plugin for ruby on rails, but it can function as a
+stand-alone templating engine.
+
+this package contains the merb-haml libraries for ruby 1.8.

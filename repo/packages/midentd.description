@@ -1,0 +1,7 @@
+An ident replacement with masquerading support.
+	
+with your average identd on a masquerading firewall, if an ident
+request comes in for a masqueraded connection, it will return
+'error : no-user' or something along those lines. this may be
+quite irritating at times, with, for example, irc servers that
+won't let you in if they don't get a valid ident reply.

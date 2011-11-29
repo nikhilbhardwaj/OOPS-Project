@@ -1,0 +1,13 @@
+Perl module for regular expressions for xml tokens
+	
+the xml::regexp module provides regular expressions for the following xml
+tokens: basechar, ideographic, letter, digit, extender,
+combiningchar, namechar, entityref, charref, reference, name,
+nmtoken, and attvalue.
+
+the definitions of these tokens were taken from the xml spec
+(extensible markup language 1.0) at http://www.w3.org/tr/rec-xml.
+
+also contains the regular expressions for the following tokens from
+the xml namespaces spec at http://www.w3.org/tr/rec-xml-names:
+ncnamechar, ncname, qname, prefix and localpart.

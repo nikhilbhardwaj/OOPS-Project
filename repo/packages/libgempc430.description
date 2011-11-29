@@ -1,0 +1,7 @@
+Pc/sc driver for the gempc 430, 432, 435 smart card readers
+	
+this library provides a pc/sc ifd handler implementation for the gemplus
+gempc430, gempc432 and gempc435 usb smart card readers.
+
+this package is needed to communicate with the gempc43x smartcard
+readers through the pc/sc lite resource manager (pcscd).

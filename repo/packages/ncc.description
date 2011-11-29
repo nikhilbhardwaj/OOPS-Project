@@ -1,0 +1,7 @@
+C source code analyzer
+	
+a small, extensible tool that provides program analysis data of c
+source code. this data can be used to analyze the function call flow
+of programs with tools such as graphviz and springgraph. included
+with this distribution is nccnav that can be used to study the call
+hierarchy of c source code on a text-mode console.

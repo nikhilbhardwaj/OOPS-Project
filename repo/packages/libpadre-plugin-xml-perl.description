@@ -1,0 +1,6 @@
+Padre plugin for xml
+	
+the xml plugin adds a button to padre to use xml::tidy to tidy an xml
+document. tidied xml documents are nicely aligned and easier to read.
+
+the plugin also adds syntax-checking for xml documents.

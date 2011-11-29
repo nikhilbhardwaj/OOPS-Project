@@ -1,0 +1,14 @@
+Map editor for openstreetmap.org
+	
+merkaartor is a map editor for openstreetmap.org, the free editable map of the
+whole world.
+
+features:
+
+ * download from and upload to the openstreetmap server
+ * open .osm and .gpx files
+ * create and move trackpoints, ways, and areas
+ * add tags, delete features
+ * reverse, split and join ways
+ * visualize some leisure/landuse areas and road types
+ * displaying gps information

@@ -1,0 +1,18 @@
+Qt based ax-25 mail client
+	
+this is ax25 mail client used to manage bulletins and a personal mail
+that you can access at your home bbs. it provides such features as:
+
+
+ * nice graphical user interface ;-) fonts, color are configurable
+ * useful options to manage your mail
+ * fbb compressed forward/download messages
+ * both pure ax25 and telnet type connections are aviable
+ * automark function allows you trace your favorite topics
+ * address book helps with addressing mails to your friends
+ * you can use external viewers/editors for text, html or any other type of
+   data for witch you can define extra program
+ * text search function helps you find any text in downloaded buletins
+ * you can store any message in text file and use it for your own purpose
+ * easy graphical configuration stored in text files
+ * 7plus detection simplfys decoding 7plus parts

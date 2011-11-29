@@ -1,0 +1,7 @@
+Gobject introspection data for the poppler library
+	
+this package contains introspection data for poppler, a pdf rendering
+library.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

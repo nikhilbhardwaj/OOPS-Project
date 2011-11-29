@@ -1,0 +1,6 @@
+Gnu compression utilities
+	
+this package provides the standard gnu file compression utilities, which
+are also the default compression tools for debian.  they typically operate
+on files with names ending in '.gz', but can also decompress files ending
+in '.z' created with 'compress'.

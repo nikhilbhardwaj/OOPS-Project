@@ -1,0 +1,7 @@
+Transition package for tdeb handling scripts
+	
+temporary home for various support scripts that implement
+tdeb support in debian until that support is fully
+migrated into the relevant debian packages.
+
+this package does not depend on the rest of emdebian-tools.

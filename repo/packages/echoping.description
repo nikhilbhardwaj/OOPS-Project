@@ -1,0 +1,18 @@
+A small test tool for tcp servers
+	
+echoping is a small program to test (approximatively) performances of a
+remote host by sending it requests such as http requests.
+
+in any case, be polite: don't bother the remote host with many repeated
+requests, especially with large size. ask for permission if you often
+test hosts which aren't yours.
+
+current features:
+
+   * plugins, so you can extend echoping with any protocol you like and/or use,
+   * supports ipv6 as well as ipv4,
+   * supports idn (unicode domain names),
+   * uses the protocols echo, discard, chargen or http,
+   * can use cryptographic connections with http,
+   * uses udp instead of tcp for the protocols which accept it (like echo),
+   * can repeat the test and display various measures about it,

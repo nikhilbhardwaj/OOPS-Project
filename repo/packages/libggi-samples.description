@@ -1,0 +1,15 @@
+General graphics interface sample programs
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains some sample programs demonstrating libggi's
+capabilities. examples are (more inside):
+
+
+ "ggiteleserver" is a remote display server for the tele target.
+ "ggi-cube3d" runs up to 6 ggi programs on a moveable cube's surfaces.
+ "ggi-monitest" creates useful test patterns.
+
+
+install libggi-target packages to get visible output from ggi programs.
+install ggi-doc to help you making the most out of ggi.

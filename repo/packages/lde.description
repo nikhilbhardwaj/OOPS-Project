@@ -1,0 +1,6 @@
+Linux disk editor
+	
+this allows you to view some linux fs's (a la norton disk edit), hex block
+and inode editing are now supported and you can use it to dump an erased file
+to another partition with a little bit of work.  supports ext2, minix,
+and msdos.

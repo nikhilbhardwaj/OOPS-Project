@@ -1,0 +1,17 @@
+Introspection data for some freedesktop components
+	
+gobject introspection is a project for providing machine readable
+introspection data of the api of c libraries. this introspection
+data can be used in several different use cases, for example
+automatic code generation for bindings, api verification and documentation
+generation.
+
+gobject introspection contains tools to generate and handle the
+introspection data.
+
+this package contains small pieces of introspection data for the cairo,
+fontconfig, freetype, gl, and some xorg libraries. they are
+distributed in this package temporarily, while the original sources
+do not include support for gobject introspection. they are far from
+complete and only include what is necessary for other introspection
+packages to work properly.

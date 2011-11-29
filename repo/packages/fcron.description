@@ -1,0 +1,11 @@
+Cron-like scheduler with extended capabilities
+	
+fcron is a scheduler. it implements most of vixie cron's functionalities.
+but contrary to vixie cron, fcron does not need your system to be up 7 days
+a week, 24 hours a day: it also works well with systems which are running
+neither all the time nor regularly.
+
+fcron also includes a useful system of options, such as: run jobs one by
+one, run jobs at fcron's startup if they should have been run during system
+down time, a better management of the mailing of outputs, set a nice value
+for a job...

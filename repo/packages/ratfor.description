@@ -1,0 +1,8 @@
+Rational fortran preprocessor for fortran 77
+	
+ratfor77 is a preprocessor that converts the rational fortran dialect
+into ordinary fortran 77. the output can then be compiled using g77
+or f2c + gcc.
+
+the ratfor dialect provides c-like control structures and some
+syntactic sugar that makes fortran programs easier to read and write.

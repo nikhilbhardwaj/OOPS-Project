@@ -1,0 +1,11 @@
+Ctdb debugging symbols and test suite
+	
+ctdb is a cluster implementation of the tdb database used by samba and other
+projects to store temporary data. if an application is already using tdb for
+temporary data it is very easy to convert that application to be cluster aware
+and use ctdb instead.
+
+more detailed description can be found in the ctdb package.
+
+this package provides debugging information and test suite for ctdb. install it
+to get a better backtrace in the event of a crash, or to test.

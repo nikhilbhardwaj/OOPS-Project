@@ -1,0 +1,16 @@
+Python library for scientific computing
+	
+scitools is a python package containing lots of useful tools for scientific
+computing in python. the package is built on top of other widely used
+packages such as numpy, scipy, scientificpython, gnuplot, etc.
+
+scitools also comes with a plotting interface called easyviz, which is a
+unified interface to various packages for scientific visualization and
+plotting. both curve plots and more advanced 2d/3d visualization of scalar
+and vector fields are supported. the easyviz interface was designed with
+three ideas in mind: 1) a simple, matlab-like syntax; 2) a unified interface
+to lots of visualization engines (backends): gnuplot, matplotlib, grace,
+veusz, pmw.blt.graph, pyx, matlab, vtk, visit, opendx; and 3) a minimalistic
+interface which offers only basic control of plots: curves, linestyles,
+legends, title, axis extent and names. more fine-tuning of plots can be done
+by adding backend-specific commands.

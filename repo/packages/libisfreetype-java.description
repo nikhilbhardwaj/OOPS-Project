@@ -1,0 +1,21 @@
+Java wrapper for freetype font handling library
+	
+the pdf rendering of the open source efforts of the company intarsys
+was in demand of a good font handling library. this new development was
+motivated by observations that current solutions
+
+ * only have poor support for vm
+ * there is no plain java library around
+ * extends the de factor standard c library freetype
+
+this library wraps around the functions that were important for
+using isnativec (another library of the same company) and were ready
+to run on all freetype supported platforms.
+
+while this wrapper-library binds and uses only a very small subset
+of the freetype features available, to the degree that it is needed
+for the jpodrenderer, it should be no problem to use and enhance
+this implementation in other contexts.
+
+this package provides a only a link to the very latest
+version of libisfreetype.

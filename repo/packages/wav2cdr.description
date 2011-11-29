@@ -1,0 +1,6 @@
+Converts wav files into cd-rom audio file format
+	
+this program converts wav sound files into a format suitable for cd-roms, and
+can perform some editing functions like cutting or volume change. it is rather
+rudimentary, the wav file must have the same sampling parameters as cd audio.
+runs both on big and little endian machines.

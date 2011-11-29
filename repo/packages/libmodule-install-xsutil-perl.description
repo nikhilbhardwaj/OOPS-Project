@@ -1,0 +1,8 @@
+Module::install extension for handling xs modules
+	
+module::install::xsutil is a perl module which extends module::install by
+providing a set of utilities to setup distributions which include or depend
+on xs module.
+
+for examples of this module in action in the wild, see xs::mro::compat and/or
+method::cumulative.

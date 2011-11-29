@@ -1,0 +1,4 @@
+Chmod() override with symbolic and ls-style modes
+	
+file::chmod provides an override for perl's chmod() function
+allowing usage of octal, symbolic or "ls-style" file modes.

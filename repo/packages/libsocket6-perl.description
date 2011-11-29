@@ -1,0 +1,5 @@
+Perl extensions for ipv6
+	
+this module supports getaddrinfo() and getnameinfo() to intend to enable
+protocol independent programming. if your environment supports ipv6,
+ipv6 related defines such as af_inet6 are included.

@@ -1,0 +1,8 @@
+Authenticator for mod_authnz_external and the apache http daemon
+	
+pwauth is an authenticator designed to be used with
+mod_auth_external or mod_authnz_external and the apache
+http daemon to support reasonably secure web
+authentication out of the system password database on most
+versions of unix. particulary - secure authentication
+against pam.

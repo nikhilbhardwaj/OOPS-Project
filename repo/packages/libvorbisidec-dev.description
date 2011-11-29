@@ -1,0 +1,8 @@
+Integer-only ogg vorbis decoder, aka "tremor" (development files)
+	
+libvorbisidec is an ogg vorbis audio decoder (also known as
+"tremor"), implemented with no floating point arithmetic.  this makes
+it particularly amenable to use on systems which lack floating point
+hardware.
+
+this package contains the development files.

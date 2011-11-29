@@ -1,0 +1,6 @@
+Security auditor tool
+	
+the linux security auditing tool (lsat) is a post install
+security auditor for linux/unix. it checks many system configurations
+and local network settings on the system for common security/config
+errors and for packages that are not needed.

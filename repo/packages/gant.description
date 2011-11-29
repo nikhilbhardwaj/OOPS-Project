@@ -1,0 +1,10 @@
+Groovy build framework based on scripting ant tasks
+	
+gant is a build tool for scripting ant tasks using groovy instead of
+xml to specify the build logic. a gant build specification is a
+groovy script and so can bring all the power of groovy to bear
+directly, something not possible with ant scripts. whilst it might be
+seen as a competitor to ant, gant uses ant tasks for many of the
+actions, so gant is really an alternative way of doing builds using
+ant, but using a programming language rather than xml to specify the
+build rules.

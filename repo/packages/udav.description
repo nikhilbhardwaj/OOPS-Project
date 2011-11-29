@@ -1,0 +1,25 @@
+Application for data visualization based on mathgl
+	
+udav provides a graphical environment for data array
+visualization based on the mathgl library. it allows easy
+viewing, manipulation and plotting of datasets, and supports
+a wide range of graphical effects with a simple scripting
+language, mgl. it can also execute mgl scripts. features
+include:
+
+
+ * simple and fast plotting of data and formulas;
+ * one-click interface - just open the datafile in udav;
+ * scripts and graphical output both shown at the same time;
+ * rotate, pan, and zoom controls (via buttons or mouse);
+ * toggleable lighting and transparency;
+ * gif animation;
+ * support for smoothed lighting, transparency, arbitrary
+   curvilinear coordinates, and tex symbols and formulas;
+ * tables for data editing, with support for 3-dimensional
+   arrays;
+ * basic toolset for data handling (smoothing, resizing,
+   cropping, filling by formula, summation, differentiation,
+   histogram creation, and so on);
+ * export to bitmap and vector formats (png, jpeg, eps, or
+   svg).

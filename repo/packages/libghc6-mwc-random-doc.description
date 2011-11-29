@@ -1,0 +1,17 @@
+Fast, high quality pseudo random number generation; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this package contains code for generating high quality random numbers that
+follow either a uniform or normal distribution. the generated numbers are
+suitable for use in statistical applications.
+
+the uniform prng uses marsaglia's mwc256 (also known as mwc8222)
+multiply-with-carry generator, which has a period of 2^8222 and fares well in
+tests of randomness. it is also extremely fast, between 2 and 3 times faster
+than the mersenne twister.
+
+compared to the mersenne-random package, this package has a more convenient
+api, is faster, and supports more statistical distributions.

@@ -1,0 +1,14 @@
+Xapian simple example programs
+	
+this package contains source code for some example programs which use the
+xapian library.  the three "simple" examples are also included in binary
+form; binaries for the other examples can be found in the xapian-tools
+package (since they're useful tools in their own right).
+
+the xapian search engine library is a highly adaptable toolkit which allows
+developers to easily add advanced indexing and search facilities to their own
+applications.  it implements the probabilistic model of information retrieval,
+and provides facilities for performing ranked free-text searches, relevance
+feedback, phrase searching, boolean searching, stemming, and simultaneous
+update and searching.  it is highly scalable, and is capable of working with
+collections containing hundreds of millions of documents.

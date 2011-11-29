@@ -1,0 +1,9 @@
+Bozotic http server
+	
+bozohttpd is a small and secure http server.  its main feature is the
+lack of features, reducing code size and improving verifiability.  it
+has no configuration file by design.
+
+it supports cgi/1.1, http/1.1, http/1.0, http/0.9, ~user translations,
+virtual hosting support, as well as multiple ip-based servers on a
+single machine, and is able to serve pages via the ipv6 protocol.

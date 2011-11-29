@@ -1,0 +1,9 @@
+Static web gallery generator
+	
+lazygal is another static web gallery generator written in python. it is
+command line based, uses reusable engine and is lazy - it regenerates
+only parts that have to be regenerated.
+
+there is support for many interesting features like subgalleries, exif
+information, theming and custom folder meta data. included themes are
+pure xhtml + css.

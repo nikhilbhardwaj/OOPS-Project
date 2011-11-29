@@ -1,0 +1,4 @@
+An nfs idmapping library
+	
+libnfsidmap provides functions to map between nfsv4 names (which are
+of the form user@domain) and local uid's and gid's.

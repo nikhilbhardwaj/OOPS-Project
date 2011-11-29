@@ -1,0 +1,8 @@
+Lat (local area transport) daemon
+	
+this is a server for dec lat. it allows users to log in to the linux
+system from a lat terminal server and also the creation of "reverse" lat
+ports on the system that connect to other lat services on the network.
+
+there is also an llogin utility that allows users to login to remote
+lat services and a moprc utility for managing terminal servers remotely.

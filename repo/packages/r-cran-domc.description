@@ -1,0 +1,4 @@
+Gnu r parallel excution backend for %dopar% using multicore
+	
+this package provides a parallel backend for the %dopar% function using
+simon urbanek's multicore package.

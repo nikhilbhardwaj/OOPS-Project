@@ -1,0 +1,17 @@
+Chip's challenge game engine emulation
+	
+tile world is an emulation of the game "chip's challenge".  "chip's
+challenge" was originally written for the atari lynx by chuck sommerville,
+and was later ported to ms windows by microsoft (among other ports).
+
+please note: tile world is an emulation of the game engine(s) only.  it does
+not come with the chips.dat file that contains the original level set.  this
+file is copyrighted and cannot be freely distributed.  the chips.dat file
+was originally part of the ms version of "chip's challenge".  if you have a
+copy of this version of the game, you can use that file to play the game in
+tile world.  if you do not have a copy of this file, however, you can still
+play tile world with the many freely available level sets created by fans of
+the original game, including cclp2.  because the version that microsoft
+released introduced a number of changes to the rules of the game, tile world
+is capable of emulating either the ms version or the original atari lynx
+version of the game.

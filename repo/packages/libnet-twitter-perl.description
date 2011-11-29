@@ -1,0 +1,8 @@
+Perl interface to the twitter social network
+	
+net::twitter is a perl module that provides an interface to the twitter.com
+social networking site. this module allows you to set your status message
+as well as review the messages from those you follow.
+
+this package also provides net::identica, an api for the twitter-inspired
+social networking site, <url:http://identi.ca>.

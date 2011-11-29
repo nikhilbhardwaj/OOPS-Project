@@ -1,0 +1,14 @@
+Perl implementation of the mersenne twister algorithm
+	
+math::random::mt provides an implementation of the mersenne twister
+pseudorandom number generator algorithm developed by makoto matsumoto
+and takuji nishimura.
+
+it is related to but a different algorithm than a previous work by
+the same authors - the tt800 algorithm, which keeps less state data
+(mt uses 624 numbers compared to tt800's 25). consequently, the
+period is much larger - 2^19937-1 compared to tt800's 2^800-1. for
+comparison, isaac's period is 2^8295 values on average.
+
+for more information, peruse m. matsumoto and t. nishimura's paper:
+<url:http://www.math.sci.hiroshima-u.ac.jp/~m-mat/mt/articles/mt.pdf>.

@@ -1,0 +1,10 @@
+Interface to libdumbnet's low-level network functions
+	
+net::libdnet is a perl module that provides a simple and portable interface
+to many useful low-level networking routines. its functionality includes
+network address manipulation, kernel arp cache and route table manipulation,
+firewalling, network interface manipulation, network traffic interception via
+tunnel interfaces, and raw ip packet/ethernet frame transmission.
+
+this module is intended to complement functionality provided by libpcap. for
+historical reasons, dug song's libdnet is called libdumbnet on debian.

@@ -1,0 +1,11 @@
+Retrieves statistics of the system's activity
+	
+a lightweight library that retrieves statistics of the system's
+activity in a portable and thread safe way. in each os that it
+supports it offers the same api for retrieving the activity of:
+
+
+ * hard disks
+ * cpus memory
+ * processes
+ * network interfaces.

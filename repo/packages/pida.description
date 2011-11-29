@@ -1,0 +1,22 @@
+Python integrated development application, a python ide
+	
+pida is the python integrated development application.
+it is an ide (integrated development environment) written
+in python (http://www.python.org/) and the gtk+
+(http://www.pygtk.org/) graphical toolkit.
+
+pida is an ide, but one that is slightly different from
+other ides. rather than attempting to write a set of
+development tools  of its own, pida uses tools that the
+developer has available. in this regards pida can be used as
+a framework for putting together your own bespoke ide.
+
+although still a young application, pida can already boast
+a huge number of features because of the power of some of
+the tools it integrates. for example features such as code completion
+and syntax highlighting are well implemented in pida's integrated editors
+far better than any editor built for a commercial ide. pida currently features:
+full code editing (syntax highlighting, code completion, automatic indenting,
+block commenting etc) project management, version control management,
+python debugger and profiler, gtk+ graphical user interface building and
+rapid application design, pastebin integration.

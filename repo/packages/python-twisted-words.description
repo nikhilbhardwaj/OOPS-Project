@@ -1,0 +1,9 @@
+Chat and instant messaging
+	
+twisted words includes:
+
+ - low-level protocol implementations of oscar (aim and icq), irc, msn,
+   toc (aim).
+ - jabber libraries.
+ - prototypes of chat server and client frameworks built on top
+   of the protocols.

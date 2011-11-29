@@ -1,0 +1,24 @@
+Astronomical almanac - calculate planet and star positions
+	
+the aa program computes the orbital positions of planetary bodies and
+performs rigorous coordinate reductions to apparent geocentric and
+topocentric place (local altitude and azimuth).  it also reduces star
+catalogue positions given in either the fk4 or fk5 system.  data for
+the 57 navigational stars is included.  most of the algorithms
+employed are from the astronomical almanac (aa) published by the
+u.s. government printing office.
+
+the aa program follows the rigorous algorithms for reduction of
+celestial coordinates exactly as laid out in current editions of
+the astronomical almanac.  the reduction to apparent geocentric
+place has been checked by a special version of the program (aa200)
+that takes planetary positions directly from the jet propulsion
+laboratory de200 numerical integration of the solar system. the
+results agree exactly with the astronomical almanac tables from
+1987 onward (earlier almanacs used slightly different reduction
+methods).
+
+certain computations, such as the correction for nutation,
+are not given explicitly in the aa but are referenced there. in
+these cases the program performs the full computations that are
+used to construct the almanac tables (references are provided).

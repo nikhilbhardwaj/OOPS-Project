@@ -1,0 +1,20 @@
+Environment for creating psychology stimuli in python
+	
+psychopy provides an environment for creating psychology stimuli
+using python scripting language.  it combines the graphical
+strengths of opengl with easy python syntax to give psychophysics
+a free and simple stimulus presentation and control package.
+
+the goal is to provide, for the busy scientist, tools to control
+timing and windowing and a simple set of pre-packaged stimuli and
+methods.  psychopy features
+
+ - high-level powerful scripting language (python)
+ - simple syntax
+ - use of hardware-accelerated graphics (opengl)
+ - integration with spectrascan pr650 for easy monitor calibration
+ - simple routines for staircase and constant stimuli experimental
+   methods as well as curve-fitting and bootstrapping
+ - simple (or complex) guis via wxpython
+ - easy interfaces to joysticks, mice, sound cards etc. via pygame
+ - video playback (mpg, divx, avi, quicktime, etc.) as stimuli

@@ -1,0 +1,5 @@
+Wrapper adding locking for the db_file module
+	
+when you need locking, simply use db_file::lock in place of db_file and
+add an extra argument onto the tie command specifying if the file should
+be locked for reading or writing.

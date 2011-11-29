@@ -1,0 +1,25 @@
+Perl interface to the gnome canvas library
+	
+libgnome2-canvas-perl allows a perl developer to use the gnome canvas
+widget with gtk2-perl.
+
+the gnome canvas widget is a powerful and extensible object-oriented
+display engine. a gnomecanvasitem is a gtkobject representing some
+element of the display, such as an image, a rectangle, an ellipse, or
+some text. you can refer to this architecture as structured graphics;
+the canvas lets you deal with graphics in terms of items, rather than
+an undifferentiated grid of pixels.
+
+find out more about gnome at http://www.gnome.org.
+
+the perl bindings follow the c api very closely, and the c reference
+documentation should be considered the canonical source:
+http://developer.gnome.org/doc/api/2.0/libgnomecanvas/index.html
+
+this module is part of gtk2-perl.
+
+to discuss gtk2-perl, ask questions and flame/praise the authors,
+join gtk-perl-list@gnome.org at lists.gnome.org.
+
+also have a look at the gtk2-perl website and sourceforge project page,
+http://gtk2-perl.sourceforge.net

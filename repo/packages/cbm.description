@@ -1,0 +1,5 @@
+Display the current network traffic in colors
+	
+the color bandwidth meter displays the current traffic on all network
+devices in a simple, curses-based gui. the traffic for all interfaces
+include values: receive, transfer and total bytes/s.

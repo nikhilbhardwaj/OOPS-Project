@@ -1,0 +1,8 @@
+Allow idle hard disks to spin down
+	
+noflushd is a daemon that spins down disks that have not been read from
+after a certain amount of time, and then prevents disk writes from
+spinning them back up. it's targeted for laptops but can be used on any
+computer with ide or sata disks. the effect is that the hard disk actually
+spins down, saving you battery power, and shutting off the loudest
+component of most computers.

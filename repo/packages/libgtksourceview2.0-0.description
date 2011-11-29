@@ -1,0 +1,8 @@
+Shared libraries for the gtk+ syntax highlighting widget
+	
+gtksourceview is a text widget that extends the standard gtk+ 2.x text widget
+gtktextview. it improves gtktextview by implementing syntax highlighting and
+other features typical of a source editor.
+
+this package contains the shared libraries required by applications to use
+this widget.

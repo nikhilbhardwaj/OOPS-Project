@@ -1,0 +1,9 @@
+Really small http/https proxy
+	
+micro_proxy is a very small unix-based http/https proxy. it runs from inetd,
+which means its performance is poor. but for low-traffic sites, it's quite
+adequate. it implements all the basic features of an http/https proxy,
+including ipv6 forwarding, in only 320 lines of code.
+
+
+ homepage: <http://www.acme.com/software/micro_proxy/>

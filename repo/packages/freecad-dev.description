@@ -1,0 +1,10 @@
+Freecad development files
+	
+freecad is an open source cax rad based on opencascade, qt and python.
+it features some key concepts like macro recording, workbenches, ability
+to run as a server and dynamically loadable application extensions and
+it is designed to be platform independent.
+for more details see http://sourceforge.net/projects/free-cad
+
+this package contains the libtool .la files, headers and symlinks necessary to
+develop modules for freecad.

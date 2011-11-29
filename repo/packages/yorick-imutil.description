@@ -1,0 +1,10 @@
+Fast image manipulation routines for the yorick language
+	
+compiled routines for basic but fast image manipulation in yorick (an
+interpreted computer language specialized for numerical and scientific
+problems). includes 2d bilinear and spline2 interpolation, clipping, 2d dist
+generator, binning, image rotation, cartesian to polar coordinate transform,
+gaussian and poisson random generator, fast sort and fast median. all of
+these functions, with the exceptions of spline2, exist in yorick or the
+yutils package, but these versions are 2 to 10x faster, being specialized for
+2d arrays (hence the name imutil). this plugin is 64bits safe.

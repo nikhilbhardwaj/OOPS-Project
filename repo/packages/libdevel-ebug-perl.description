@@ -1,0 +1,14 @@
+Simple, extensible perl debugger
+	
+devel::ebug is a simple and extensible perl debugger with a clean api.
+using this module, you may easily write a perl debugger to debug your
+programs. alternatively, it comes with an interactive debugger, ebug.
+
+perl's current debugger is currently 2,600 lines of magic and special cases.
+the code is nearly unreadable: fixing bugs and adding new features is fraught
+with difficulties. the debugger has no test suite which has caused breakage
+with changes that couldn't be properly tested. it will also not debug regexes.
+devel::ebug is aimed at fixing these problems and delivering a replacement
+debugger which provides a well-tested simple programmatic interface to
+debugging programs. this makes it easier to build debuggers on top of
+devel::ebug, be they console-, curses-, gui- or ajax-based.

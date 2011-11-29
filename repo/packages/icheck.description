@@ -1,0 +1,8 @@
+C interface abi/api checker
+	
+a tool for statically checking c interfaces for api and abi
+changes. all changes to type declarations that can cause abi changes
+should be detected, along with most api changes.
+
+icheck is intended for use with libraries, as a method of preventing
+abi drift.

@@ -1,0 +1,6 @@
+Framebuffer grabber
+	
+fbcat grabs a screenshot of a framebuffer and stores in a ppm file.
+
+this package also provides a compatibility wrapper around fbcat to ease
+migration from fbgrab.

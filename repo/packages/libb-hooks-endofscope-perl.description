@@ -1,0 +1,4 @@
+Module for executing code after a scope finished compilation
+	
+b::hooks::endofscope allows you to execute code when perl finished compiling
+the surrounding scope.

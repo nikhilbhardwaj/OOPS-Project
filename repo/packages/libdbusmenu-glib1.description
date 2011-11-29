@@ -1,0 +1,7 @@
+Library for passing menus over dbus
+	
+libdbusmenu passes a menu structure across dbus so that a program can
+create a menu simply without worrying about how it is displayed on the
+other side of the bus.
+
+this package contains shared libraries to be used by applications.

@@ -1,0 +1,9 @@
+File system in user space - module for ext2
+	
+this module for the fuse kernel service allows any fuse-enabled user to mount
+second extended file systems, e.g. disk images.
+
+the module has been initially written for umview, the user-mode
+implementation of view-os. if you want to allow completely user-mode disk
+images mounting (with no kernel/superuser support at all), take a look at
+umview-mod-umfuseext2 and its dependencies.

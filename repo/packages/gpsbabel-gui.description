@@ -1,0 +1,8 @@
+Gps file conversion plus transfer to/from gps units - gui
+	
+gpsbabel converts waypoints, tracks, and routes from one format to
+another, whether that format is a common mapping format like delorme,
+streets and trips, or even a serial upload or download to a gps unit
+such as those from garmin and magellan.
+
+this package contains gpsbabelfe, a qt based frontend for gpsbabel.

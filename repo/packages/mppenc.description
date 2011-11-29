@@ -1,0 +1,9 @@
+Musepack lossy audio codec encoder
+	
+musepack is a lossy audio codec specifically optimized for transparent
+compression of stereo audio at bitrates of 160-180 kbit/s.
+
+this package contains the encoder, for decoding see libmpcdec3.
+
+
+ homepage: http://www.musepack.net/

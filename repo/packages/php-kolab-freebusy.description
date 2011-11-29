@@ -1,0 +1,16 @@
+Provide kolab free/busy information
+	
+this package provides free/busy information for the
+users of a kolab server. a kolab client changing calendar data in an
+imap folder is required to call the triggering script provided within
+this package via http. this will refresh the cache maintained by this
+package with partial free/busy data. this partial data sets are
+finally combined to the complete free/busy information once a client
+requests this data for a particular user.
+
+kolab is a secure, scalable, and reliable groupware server. it consists of a
+number of well-known and proven components for the standard tasks such as
+e-mail, directory service, and web service. kolab adds intelligent interaction
+between the components, a web administration interface, management of
+free/busy lists, etc. various clients can access kolab, among them kontact
+(kde), outlook (windows), and horde (web).

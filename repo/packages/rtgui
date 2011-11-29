@@ -1,0 +1,4 @@
+PackageId:31006
+Name:rtgui
+Version:0.2.7-3
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,libapache2-mod-scgi,php5,php5-xmlrpc,rtorrent

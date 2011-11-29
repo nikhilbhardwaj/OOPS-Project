@@ -1,0 +1,5 @@
+An irc to jabber bridge bot
+	
+the jirc bot logs into an irc channel and a jabber conference room.  it will
+relay conversations between the two rooms, identifying each of the speakers
+in braces.  actions are forwarded as well.

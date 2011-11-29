@@ -1,0 +1,16 @@
+Reference documentation for guile 1.8 (non-dfsg items)
+	
+this package contains the guile documentation that is not compliant
+with the debian free software guidelines.  in particular, this
+includes the reference manual, which is covered under the gfdl and
+specifies invariant sections (front and back cover texts).  see
+http://www.debian.org/vote/2006/vote_001 for more information.
+
+this package also includes the goops documentation which is covered
+under a license which only allows verbatim copying.
+
+guile is a scheme implementation designed for real world programming,
+providing a rich unix interface, a module system, an interpreter, and
+many extension languages.  guile can be used as a standard #! style
+interpreter, via #!/usr/bin/guile, or as an extension language for
+other applications via libguile.

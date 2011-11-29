@@ -1,0 +1,13 @@
+Gsm mobile phone access library
+	
+library to access gsm mobile phones through gsm modems or irda devices.
+features include:
+
+
+ * modification of phone books stored in the mobile phone or on the
+  sim card
+ * reading and writing of sms messages stored in the mobile phone
+ * sending and reception of sms messages
+
+
+gsmlib uses standard etsi gsm 07.07, etsi gsm 07.05, and others.

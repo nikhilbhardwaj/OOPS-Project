@@ -1,0 +1,8 @@
+An alternative package manager that works with dpkg/rpm
+	
+the smart package manager project has the ambitious objective of
+creating smart and portable algorithms for solving adequately the
+problem of managing software upgrading and installation. this tool
+works in all major distributions (apt, apt-rpm, yum, urpmi, etc).
+
+this package contains the gtk2 frontend for smart.

@@ -1,0 +1,27 @@
+Documentation for speakup kernel modules
+	
+speakup allows you to interact with applications and the gnu/linux
+operating system with audible feedback from the console using a
+synthetic speech device.
+
+speakup allows you to navigate around the screen using the typical
+screen review functions such as say word, say line, announce cursor
+position, which console your currently on, and much, much more. it
+also allows one to load in configuration parameters for controlling
+various aspects of the synthesizer you are using, as well as speakup
+itself.
+
+currently, the following synthesizers are supported by speakup:
+
+ * doubletalk pc/lt
+ * litetalk
+ * accent pc/sa
+ * speakout
+ * artic transport
+ * audapter
+ * braille 'n speak / type 'n speak
+ * dectalk external and express
+ * the apollo2
+
+
+this package provides the documentation for the speakup kernel modules.

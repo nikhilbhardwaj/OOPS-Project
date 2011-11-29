@@ -1,0 +1,7 @@
+Linux 2.6 for 64-bit pcs (meta-package), xen dom0 support
+	
+this package depends on the latest linux kernel 2.6 and modules for use on
+pcs with amd64 or intel 64 processors.
+
+this kernel also runs on a xen hypervisor.  it supports both privileged
+(dom0) and unprivileged (domu) operation.

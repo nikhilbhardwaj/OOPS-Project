@@ -1,0 +1,10 @@
+Ruby library for event driven network programming (dependency package)
+	
+packet is a pure ruby library for writing network applications in ruby.
+it follows evented model of network programming and implements almost all the
+features provided by eventmachine.
+
+it also provides easy to use unix workers for concurrent programming.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

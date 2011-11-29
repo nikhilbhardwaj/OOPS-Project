@@ -1,0 +1,8 @@
+A multimedia audio jukebox application
+	
+with irmp3 you can control mpg321 (currently, other players are planned) to
+play songs, lists, and lists of play lists. irmp3 features 'environments'
+that you can set to play a certain type of music, alarms, can be controlled
+over the network, via remote control (requires lirc) and a number of other
+useful features, including lcd display and keypad input support via lcdproc.
+it is most useful for those building mp3 jukeboxes with remote controls.

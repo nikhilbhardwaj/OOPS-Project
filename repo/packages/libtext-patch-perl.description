@@ -1,0 +1,5 @@
+Module for patching text with a given patch
+	
+text::patch combines source text with given diff (difference) data. diff data
+is produced by text::diff module or by the standard diff utility (man diff,
+see -u option).

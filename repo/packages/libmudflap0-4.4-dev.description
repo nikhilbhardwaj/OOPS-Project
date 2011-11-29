@@ -1,0 +1,6 @@
+Gcc mudflap support libraries (development files)
+	
+the libmudflap libraries are used by gcc for instrumenting pointer and array
+dereferencing operations.
+
+this package contains the headers and the static libraries.

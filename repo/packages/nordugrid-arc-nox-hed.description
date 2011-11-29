@@ -1,0 +1,15 @@
+Arc hosting environment daemon
+	
+the nordugrid is a collaboration aiming at development, maintenance
+and support of the free grid middleware, known as the advanced resource
+connector (arc).
+
+the arc hosting environment daemon (hed). this daemon presents a site
+to other participants on the grid. an intrinsic component of any grid
+system is a mechanism allowing for the secure stateful communication with
+remote environments. hed prepares for such an environment and as such
+is the core of the arc middleware. hed was however written in a way,
+that represents typical grid computing tasks (the sharing of cpu time
+or storage) to become just one possible service between a user and a
+remote machine. many others are thinkable, and hed takes considerable
+effort away from the respective implementors.

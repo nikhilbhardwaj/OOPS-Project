@@ -1,0 +1,29 @@
+Command-line tools for building tcp client-server applications (ipv6)
+	
+ucspi-tcp-ipv6 is the ucspi-tcp package with ipv6 support added.
+
+tcpserver waits for incoming connections and, for each connection, runs a
+program of your choice. your program receives environment variables showing
+the local and remote host names, ip addresses, and port numbers.
+
+tcpserver offers a concurrency limit to protect you from running out of
+processes and memory. when you are handling 40 (by default) simultaneous
+connections, tcpserver smoothly defers acceptance of new connections.
+
+tcpserver also provides tcp access control features, similar to
+tcp-wrappers/tcpd's hosts.allow but much faster. its access control rules
+are compiled into a hashed format with cdb, so it can easily deal with
+thousands of different hosts.
+
+this package includes a recordio tool that monitors all the input and output
+of a server.
+
+tcpclient makes a tcp connection and runs a program of your choice. it sets
+up the same environment variables as tcpserver.
+
+this package includes several sample clients built on top of tcpclient:
+who@, date@, finger@, http@, tcpcat, and mconnect.
+
+tcpserver and tcpclient conform to ucspi, the unix client-server program
+interface, using the tcp protocol. ucspi tools are
+available for several different networks.

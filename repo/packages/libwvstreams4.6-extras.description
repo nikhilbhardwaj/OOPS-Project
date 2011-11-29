@@ -1,0 +1,12 @@
+C++ network libraries for rapid application development
+	
+wvstreams is a library suite that is comprised of several parts.  included
+in the extras package are:
+
+ * wvipstreams: which includes wvtcpstream and wvudpstream
+ * wvcrypto streams: a really easy way to add ssl support to applications
+
+
+these are the base classes used to build programs such as the ever popular
+wvdial, tunnelvision, fastforward, kwvdial, retchmail, and many more yet
+to come.  ;)

@@ -1,0 +1,17 @@
+A gui audio stream directory browser
+	
+streamtuner is a stream directory browser. it offers an
+intuitive and unified interface to various streaming
+directories through the use of a c/python plugin system.
+
+current plugins included in this package are:
+
+ * shoutcast
+ * live365
+ * xiph.org
+ * basic.ch
+ * and more!
+
+
+more information and plugins can be found at:
+<http://www.nongnu.org/streamtuner>

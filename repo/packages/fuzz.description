@@ -1,0 +1,8 @@
+Stress-test programs by giving them random input
+	
+the fuzz generator is designed to attack certain kinds of software and
+expose one particular kind of bug common in software. this is the
+situation where the programmer implicitly makes some assumptions about
+the data stream that the program will be parsing. if the data stream
+is substantially different then the program might not be able to deal
+with it.

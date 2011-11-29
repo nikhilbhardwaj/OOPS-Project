@@ -1,0 +1,8 @@
+Cache meta language module for lighttpd
+	
+with the cache meta language, it is possible to describe to the
+dependencies of a cached file to its source files/scripts. for the
+cache files, the scripting language lua is used.
+
+this module is obsoleted and will be removed in lighttpd 1.5.
+use mod_magnet instead.

@@ -1,0 +1,12 @@
+X11 randr extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for the randr extension, used to change display properties such as
+resolution, rotation, reflection, et al, on the fly.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org randrproto proto module.

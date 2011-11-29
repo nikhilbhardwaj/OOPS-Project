@@ -1,0 +1,8 @@
+Library for solving freecell games (development files)
+	
+freecell solver is a library for automatically solving boards of freecell and
+similar variants of card solitaire. this package contains the header files and
+static libraries necessary for developing programs using freecell solver.
+
+this package contains the files necessary to produce binaries which are
+linked against libfreecell-solver.

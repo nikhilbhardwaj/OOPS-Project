@@ -1,0 +1,13 @@
+Pretty-printing of multiple sequence alignments
+	
+boxshade is a program for creating good looking printouts from
+multiple-aligned protein or dna sequences. the program does not perform
+the alignment by itself and requires as input a file that was created
+by a multiple alignment program or manually edited with respective tools.
+
+boxshade reads multiple-aligned sequences from either pileup-msf,
+clustal-aln, maligned-data and esee-save files (limited to a maximum
+of 150 sequences with up to 10000 elements each).  various kinds of
+shading can be applied to identical/similar residues. output is written
+to screen or to a file in the following formats: ansi/vt100, ps/eps,
+rtf, hpgl, regis, lj250-printer, ascii, xfig, pict, html

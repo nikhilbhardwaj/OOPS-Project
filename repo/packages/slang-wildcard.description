@@ -1,0 +1,7 @@
+Adds a wildcard match function to s-lang
+	
+the s-lang module contained in this package provides a
+wildcard_match() function to s-lang. it's vectorized, so it should be
+faster than an array_map(&string_match, ... ).  this module can be
+used in slsh (the s-lang shell), in the jed editor, and in the news
+reader slrn.

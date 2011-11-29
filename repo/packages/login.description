@@ -1,0 +1,7 @@
+System login tools
+	
+these tools are required to be able to login and use your system. the
+login program invokes your user shell and enables command execution. the
+newgrp program is used to change your effective group id (useful for
+workgroup type situations). the su program allows changing your effective
+user id (useful being able to execute commands as another user).

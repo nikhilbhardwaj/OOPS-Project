@@ -1,0 +1,17 @@
+Lcd display driver daemon and clients
+	
+this is a client/server suite including drivers for all kinds of
+nifty lcd displays. the server supports several serial devices: matrix
+orbital, crystal fontz, bayrad, lb216, lcdm001 (kernelconcepts.de),
+wirz-sli and pic-an-lcd; and some devices connected to the lpt port:
+hd44780, stv5730, t6963, sed1520 and sed1330. as of 0.4.4 some usb
+displays are also supported by the drivers cfonz633, cwlnx, and usblcd.
+
+various clients are available that display things like cpu load, system
+load, memory usage, uptime, and a lot more. custom clients can be
+written using the simple client-server protocol and provided example
+code.
+
+tags: use::monitoring, administration::monitoring, hardware::lcd,
+role::sw:utility, interface::commandline, interface::daemon,
+made-of::lang:c

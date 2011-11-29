@@ -1,0 +1,8 @@
+Applet that monitors apt sources for upgrades (backend slave)
+	
+apt-watch is an applet that will inform you when upgrades are
+available for your computer.  it is similar to windows update or the
+red hat network applet.
+
+this package contains the backend client.  it must be used in
+conjunction with a graphical frontend.

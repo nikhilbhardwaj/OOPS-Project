@@ -1,0 +1,7 @@
+Utilities for mangling ogg streams
+	
+oggz provides a simple programming interface for reading and writing
+ogg files and streams.
+
+this package contains some utilities useful for debugging and tweaking
+ogg streams, using liboggz

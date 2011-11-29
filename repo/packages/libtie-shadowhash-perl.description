@@ -1,0 +1,7 @@
+Merge multiple data sources into a hash
+	
+shadowhash merges together multiple sets of data in the form of hashes into a
+data structure that looks to perl like a single simple hash. when that hash
+is accessed, the data structures managed by that shadow hash are searched in
+order they were added for that key. this allows the rest of a program simple
+and convenient access to a disparate set of data sources.

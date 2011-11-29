@@ -1,0 +1,10 @@
+External events daemon for the non-free amd/ati r6xx - r7xx display driver
+	
+display driver for the ati recent radeon and firegl graphics cards.
+
+the ati external events daemon atieventsd is a user-level application
+that monitors various system events such as acpi or hotplug, then
+notifies the driver via the x extensions interface that the event has
+occured.
+
+this package provides the atieventsd daemon.

@@ -1,0 +1,6 @@
+Telnet/ssh client for x
+	
+this is the unix port of the popular windows ssh client, putty. it supports
+flexible terminal setup, mid-session reconfiguration using ctrl-rightclick,
+multiple x11 authentication protocols, and various other interesting things
+not provided by ssh in an xterm.

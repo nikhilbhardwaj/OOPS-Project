@@ -1,0 +1,9 @@
+Thread-based email index, search and tagging (development)
+	
+notmuch is a system for indexing, searching, reading, and tagging
+large collections of email messages in maildir or mh format. it uses
+the xapian library to provide fast, full-text search with a very
+convenient search syntax.
+
+this package provides the necessary development libraries and header
+files to allow you to develop new software using libnotmuch.

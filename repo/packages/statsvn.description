@@ -1,0 +1,11 @@
+Svn repository statistics
+	
+statsvn retrieves information from a subversion repository and generates
+various tables and charts describing the project evolution, e.g.
+the lines of code over time, contribution of each developer, the
+evolution of modules, directories, files, the time and days when most
+checkins happen, etc. it also shows the commit logs and integrates
+out of the box with viewvc, bugzilla, chora and others.
+
+statsvn generates a static suite of html or xdoc documents containing
+tables and chart images.

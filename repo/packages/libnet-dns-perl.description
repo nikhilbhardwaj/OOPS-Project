@@ -1,0 +1,6 @@
+Perform dns queries from a perl script
+	
+net::dns is a dns resolver implemented in perl.  it allows the
+programmer to perform nearly any type of dns query from a perl
+script.
+with libio-socket-inet6-perl installed it supports ipv6.

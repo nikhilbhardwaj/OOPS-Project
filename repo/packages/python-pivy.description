@@ -1,0 +1,15 @@
+Coin binding for python
+	
+pivy is a coin binding for python. coin is a high-level 3d graphics library
+with a c++ api. coin uses scene-graph data structures to render real-time
+graphics suitable for mostly all kinds of scientific and engineering
+visualization applications.
+pivy allows:
+
+
+   * development of coin applications and extensions in python
+   * interactive modification of coin programs from within the
+     python interpreter at runtime
+   * incorporation of scripting nodes into the scene graph which
+     are capable of executing python code and callbacks
+   * use of coin within pyqt4 applications with the quarter module

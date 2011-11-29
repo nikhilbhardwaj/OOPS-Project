@@ -1,0 +1,7 @@
+Orlite extension to use remote sqlite databases
+	
+orlite::mirror provides a simple mechanism for opening a read-only sqlite
+database from anywhere on the web. in a method analogous to using orlite to
+work with a local read-only sqlite database, you can use orlite::mirror to
+open a sqlite database at an arbitrary uri. if the remote file has a "gz" or
+"bz2" extension, then orlite::mirror will decompress the file before opening.

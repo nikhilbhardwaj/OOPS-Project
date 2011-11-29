@@ -1,0 +1,23 @@
+Qt text-only interpreter for tads
+	
+this package provides an interpreter for tads game files, using a
+qt interface.  it can run either tads 2 games (which have an
+extension of .gam) or tads 3 games (which have an extension of .t3).
+see http://www.ifarchive.org/indexes/if-archivexgamesxtads.html for a
+large collection of available tads games.
+
+this interpreter only supports text output.  games using html-tads
+multimedia features will still work, but you won't see graphics or
+hear sounds.  other features include:
+
+  * full unicode support for tads 3 and html tads games.
+  * full text justification.
+  * support for multiple user configurations, which you can switch
+    between at runtime.
+
+
+tads, the text adventure development system, is a system for writing
+and playing interactive fiction games.  this means that the primary
+method for interacting with the game is to type in commands, to which
+the game produces a response in prose -- similar to infocom's games
+from the 1980's.

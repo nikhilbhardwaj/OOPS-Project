@@ -1,0 +1,9 @@
+Gtk+ library to embed openstreetmap maps - development files
+	
+libosmgpsmap is a library to embed maps in applications that when given gps
+co-ordinates, draws a gps track, and points of interest on a moving map
+display. downloads map data from a number of websites, including
+openstreetmap.org, openaerialmap.org and others.
+
+these are the development files for libosmgpsmap0, needed only if you're
+writing or compiling an application which will use it.

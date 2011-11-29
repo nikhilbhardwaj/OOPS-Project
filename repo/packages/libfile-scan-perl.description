@@ -1,0 +1,6 @@
+Perl module to scan files for viruses
+	
+the file::scan module allows users to scan files for known viruses.
+
+the purpose is to provide a basis for creating platform independent
+virus scanners in perl.

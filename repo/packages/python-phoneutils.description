@@ -1,0 +1,6 @@
+Python bindings for libphone-utils
+	
+this package contains the python bindings for libphone-utils,
+which is a library for phonenumber handling. it is currently
+used by the shr project for finding the appropriate contact
+for the number one is called from.

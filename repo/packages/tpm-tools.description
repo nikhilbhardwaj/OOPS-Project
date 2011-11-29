@@ -1,0 +1,11 @@
+Management tools for the tpm hardware (tools)
+	
+tpm-tools is a group of tools to manage and utilize the trusted computing
+group's tpm hardware. tpm hardware can create, store and use rsa keys securely
+(without ever being exposed in memory), verify a platform's software state
+using cryptographic hashes and more.
+
+this package contains tools to allow the platform administrator the ability
+to manage and diagnose the platform's tpm. additionally, the package contains
+commands to utilize some of the capabilities available in the tpm pkcs#11
+interface implemented in the opencryptoki project.

@@ -1,0 +1,13 @@
+Perl module for mapping charsets from and to utf16 unicode
+	
+this module converts strings from and to 2-byte unicode ucs2 format.
+all mappings happen via 2 byte utf16 encodings, not via 1 byte utf8
+encoding.  to convert between utf8 and utf16 use unicode::string.
+
+for historical reasons this module coexists with unicode::map8.
+please use unicode::map8 unless you need to care for >1 byte
+character sets, e.g. chinese gb2312.  anyway, if you stick to the
+basic functionality (see documentation) you can use both modules
+equivalently.
+
+the 'libwww-perl' package is needed to run the example mirrormappings.

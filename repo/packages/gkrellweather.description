@@ -1,0 +1,10 @@
+A weather monitor plugin for gkrellm
+	
+gkrellweather is a plugin for gkrellm that monitors the weather information
+given a metar station identification code. features include:
+
+ - temperature, dew point, pressure, relative humidity, sky condition,
+   wind direction and speed.
+ - temperatures in degrees fahrenheit or celsius
+ - pressure in kpa, hpa or mmhg
+ - wind speeds in kmph, mps or beaufort scale

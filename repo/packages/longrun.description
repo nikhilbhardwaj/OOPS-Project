@@ -1,0 +1,8 @@
+Transmeta crusoe longrun control utility
+	
+the longrun utility is used to query and control the longrun settings of
+transmeta crusoe processors. it can set the performance level, and set the
+cpu speed window.
+
+this utility only works on with the transmeta crusoe cpu, and
+requires the linux cpuid and msr device drivers.

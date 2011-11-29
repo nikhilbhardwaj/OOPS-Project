@@ -1,0 +1,26 @@
+A performance testing tool for the sip protocol
+	
+sip-tester is a test tool and traffic generator for the sip
+protocol. it can be used to test sip equipment like sip
+proxies, sip media servers, etc. and to emulate user agents
+calling a sip system.
+
+its features are:
+
+ * a few basic sipstone user agent scenarios included
+ * custom xml scenario files even for complex call flows
+ * comprehensive set of real-time statistics
+ * tcp and udp transport
+ * dynamically adjustable call rates
+ - send rtp traffic
+
+
+this software is distributed as sipp by its authors.
+
+sip is the session initiation protocol, a standard signalling
+protocol for initiating, modifying, and terminating internet
+conferencing, telephony (voip - voice over ip), video, and
+instant messaging.
+
+this package has been built for distributed pauses with the
+gnu scientific libraries.

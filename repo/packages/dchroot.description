@@ -1,0 +1,21 @@
+Execute commands in a chroot environment
+	
+dchroot allows users to execute commands or interactive shells in
+different chroots.  a typical installation might provide 'stable',
+'testing' and 'unstable' chroots.  users can move between chroots as
+necessary.
+
+note: the schroot package provides a better implementation of
+dchroot.  in particular:
+
+ * dchroot quoting issues are not present.  dchroot runs commands in
+   the chroot with -c option of the user's default shell; when
+   multiple command options are used, the options are concatenated
+   together, separated by spaces.  this concatenation breaks shell
+   quoting.
+ * schroot implements fine-grained access controls based on users
+   and groups, either of which may be granted the ability to gain
+   root access to the chroot if required.
+
+using schroot will avoid these issues, as well as provide additional
+functionality dchroot does not possess.

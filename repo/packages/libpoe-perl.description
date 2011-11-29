@@ -1,0 +1,7 @@
+Event-driven component architecture for perl
+	
+poe stands for "perl object environment" and provides libraries for event
+driven state machines, i/o abstraction and object management. it includes
+high level interfaces for sockets, alarms and file input/output. it can be
+used as a cooperative threading environment and/or a portable component
+architecture.

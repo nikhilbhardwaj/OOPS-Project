@@ -1,0 +1,9 @@
+Sieve mail filters plugin for squirrelmail
+	
+avelsieve is a plugin for the squirrelmail webmail system which allows
+users to create mail filtering scripts on sieve-compliant mail servers.
+
+it provides a user-friendly wizard-like interface for creating
+sieve 'rules', which are assembled into server-side filtering scripts.
+not all of sieve's functionality is supported, but no knowledge of
+the language is required.

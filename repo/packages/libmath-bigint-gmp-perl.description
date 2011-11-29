@@ -1,0 +1,5 @@
+Gmp library for math::bigint routines
+	
+the gnu mp is a library for arbitrary precision arithmetic. this
+package offers efficient replacements to the math::bigint routines
+using the gnu mp library.

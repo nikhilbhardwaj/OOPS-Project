@@ -1,0 +1,6 @@
+Perl interface to the pc/sc smart card library
+	
+this package contains a perl wrapper to the pc/sc smartcard library
+(pcsc-lite) together with some small examples.
+
+the provided modules are chipcard::pcsc and chipcard::pcsc::card

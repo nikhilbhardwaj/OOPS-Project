@@ -1,0 +1,18 @@
+Add reactivity to the corners and edges of your gnome desktop
+	
+brightside provides "edge flipping" to allow you to switch to the adjacent
+workspace simply by pressing your mouse against the edge of the screen.
+
+brightside also allows you to assign configurable actions to occur while
+you rest the mouse in a corner of the screen. currently available actions
+comprise:
+
+
+   * fade out volume
+   * prevent screensaver starting
+   * start screensaver and lock screen
+   * enter dpms standby mode
+   * enter dpms suspend mode
+   * enter dpms off mode
+   * dim laptop backlight
+   * custom action

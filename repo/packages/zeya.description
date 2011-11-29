@@ -1,0 +1,11 @@
+A web music server
+	
+zeya is a streaming music server that brings your music to any computer
+with a web browser. it reads your music library, lets you browse your
+files, and streams them on demand.
+
+the client runs entirely in the browser using the html5 draft standard
+technologies (no plugins or external players are needed).
+
+this package includes the zeya http server and a small command-line
+client for machines where no html5-capable browser is available.

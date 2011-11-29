@@ -1,0 +1,12 @@
+Sysfs query tool and boot-time setup
+	
+sysfs is a virtual file system in linux kernel 2.5+ that provides a
+tree of system devices. this package provides the program 'systool' to query
+it: it can list devices by bus, class, and topology.
+
+in addition this package ships a configuration file /etc/sysfs.conf which
+allows to conveniently set sysfs attributes at system bootup (in the init
+script /etc/init.d/sysfsutils).
+
+if you need sysfs queries in own programs, then you may want to use the
+libsysfs library directly (package libsysfs-dev).

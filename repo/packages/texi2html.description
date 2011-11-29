@@ -1,0 +1,10 @@
+Convert texinfo files to html
+	
+texi2html is a perl script that converts texinfo files to html.
+
+the program takes texinfo files (not info ones) and produces a set of
+html files.  the quality of the output is close to the printed output
+and is much better than an info->html gateway.
+
+compared to the output of `makeinfo --html', texi2html's output is
+more customizable and (subjectively) produces better output by default.

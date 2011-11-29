@@ -1,0 +1,7 @@
+Perl modules for go and other obo ontologies
+	
+this is a collection of perl code for dealing with gene ontologies (go) and
+open biomedical ontologies (obo) style ontologies. it is part of the ‘go-dev’
+distribution, but this debian package is made from the cpan archive. this
+package contains both scripts (which can be used with no knowledge of perl),
+and libraries which will be of use to perl programmers using go or obo.

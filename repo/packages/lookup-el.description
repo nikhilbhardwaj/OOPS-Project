@@ -1,0 +1,8 @@
+Emacsen interface to electronic dictionaries
+	
+lookup provides a simple and unified interface on emacsen to search
+various dictionaries, such as epwing cd-roms, ndtp servers, dict servers,
+and so on.
+
+to use epwing cd-roms, install the eblook package or the ndtpd package.
+to use dictd dictionaries, install the dictd package.

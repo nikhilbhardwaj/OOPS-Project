@@ -1,0 +1,11 @@
+Python interface for berkeley db (debug extension, python 3.x)
+	
+this module provides a nearly complete wrapping of the oracle/sleepycat c api
+for the database environment, database, cursor, sequence and transaction
+objects, and each of these is exposed as a python type in the bsddb3.db
+module.  the database objects can use various access methods: btree, hash,
+recno and queue.  complete support of berkeley db distributed transactions.
+complete support for berkeley db replication manager. complete support for
+berkeley db base replication. support for rpc.
+
+this package contains the extension built for the python debug interpreter.

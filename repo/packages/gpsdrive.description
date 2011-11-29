@@ -1,0 +1,9 @@
+Car navigation system
+	
+map-based navigation system that displays the current
+position provided by a gps receiver on a zoomable map.
+maps can be downloaded from different map providers or
+rendered on-the-fly using the openstreetmap dataset.
+
+route planning, optionally with spoken directions,
+is supported through waypoints.

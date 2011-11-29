@@ -1,0 +1,13 @@
+Rpm package manager for lsb package building
+	
+the rpm package manager (rpm) is a command-line driven package
+management system capable of installing, uninstalling, verifying,
+querying, and updating computer software packages.
+
+this is a version of rpm built to create rpm v3 packages as used in the
+linux standards base. you should need this package only if you are
+developing lsb packages; you do not need it to install or use lsb packages
+on debian.
+
+the binary is linked statically so it should be possible to use it
+in the restricted lsbdev environment.

@@ -1,0 +1,17 @@
+Extra fonts for the mathematical text editor texmacs
+	
+this package contains a reasonably complete set of type 1 fonts for
+basic use of the mathematical text editor texmacs. type 1 fonts may
+yield better printing results and are preferred by publishers.
+
+texmacs also uses type 1 fonts from the tetex distribution, but
+without a more complete set of type 1 fonts, texmacs falls back to
+the metafont system and needs to autogenerate fonts from a latex
+distribution on demand, which takes a lot of time during editing.
+
+this package brings the pregenerated type 1 fonts that are part of
+the distribution of texmacs for microsoft windows and can't be found
+in other debian packages.
+
+
+ homepage: http://www.texmacs.org/

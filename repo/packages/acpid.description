@@ -1,0 +1,11 @@
+Advanced configuration and power interface event daemon
+	
+modern computers support the advanced configuration and power interface (acpi)
+to allow intelligent power management on your system and to query battery and
+configuration status.
+
+acpid is a completely flexible, totally extensible daemon for delivering
+acpi events. it listens on netlink interface (or on the deprecated file
+/proc/acpi/event), and when an event occurs, executes programs to handle the
+event. the programs it executes are configured through a set of configuration
+files, which can be dropped into place by packages or by the admin.

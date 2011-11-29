@@ -1,0 +1,17 @@
+Small and fast daemon for java applications
+	
+jaminid is a very small (and fast) daemon meant to embed in java applications
+as an add-on http interface.
+
+there are many advantages to using jaminid in your programs:
+
+ * couples the server as closely as possible to the application.
+ * can easily provide an elegant interface, in a style of programming that is
+   not at all harder than traditional console i/o.
+ * may be used to attach a thin client interface to pre-existing applications
+   with ease.
+ * enables http deployment without developing an http daemon or knowledge of
+   the protocols.
+ * the server can bundle with the application removing the need of a third
+   party server. this makes the application easier to distribute.
+ * does not require knowledge of any other scripting language.

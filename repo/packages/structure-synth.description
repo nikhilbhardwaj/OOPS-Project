@@ -1,0 +1,12 @@
+Application for creating 3d structures
+	
+structure synth is a tool for generating 3d structures by specifying a
+design grammar. even simple systems may generate surprising and complex
+structures. structure synth offers a graphical environment with multiple
+tabs, syntax highlighting, and opengl preview. integration with third-party
+renderers (such as sunflow and pov-ray) is possible using a flexible
+template based export system.
+
+structure synth is being developed by mikael hvidtfeldt christensen. it was
+inspired by the cfdg syntax by chris coyne, and the context free art gui by
+mark lentczner and john horigan.

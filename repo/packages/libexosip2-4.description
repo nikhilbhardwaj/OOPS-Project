@@ -1,0 +1,7 @@
+Extended osip library
+	
+library that hides the complexity of using the sip protocol for multimedia
+session establishement. this protocol is mainly to be used by voip
+telephony applications (endpoints or conference server) but might be
+also useful for any application that wish to establish sessions like
+multiplayer games.

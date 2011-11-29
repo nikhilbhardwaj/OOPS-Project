@@ -1,0 +1,6 @@
+Perl module to accelerate class::c3
+	
+class::c3::xs is a perl module designed to enhance the performance of the
+class::c3 package (see libclass-c3-perl). it does so automatically and is not
+designed to be used directly; once installed, it should accelerate all programs
+that make use of class::c3 itself.

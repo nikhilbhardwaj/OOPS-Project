@@ -1,0 +1,8 @@
+Support on-the-fly transparency changing in xorg
+	
+transset-df is a program that allows the user to change window transparencies
+on the fly. supported methods include using window manager hotkeys, 'select
+by pointing' without actually shifting focus to the window, and selecting by
+name and window id. transset-df is a modified version of xorg's transset and
+requires compositing to function. it is meant to allow a window manager
+independent way to support transparency.

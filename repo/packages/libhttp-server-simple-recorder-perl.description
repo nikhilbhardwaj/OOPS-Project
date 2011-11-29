@@ -1,0 +1,4 @@
+Mixin to record http::server::simple's sockets
+	
+http::server::simple::recorder allows you to record all http communication
+between an http::server::simple-derived server and its clients.

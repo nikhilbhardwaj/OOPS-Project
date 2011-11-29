@@ -1,0 +1,13 @@
+X.org x server -- amd/ati radeon display driver
+	
+this package provides the 'radeon' driver for the amd/ati radeon, firegl,
+firemv, firepro and firestream series.
+
+note that this is not the same as the ati-provided, binary-only, 'fglrx'
+driver, which provides additional 3d functionality for some newer radeon
+cards, but is not supported.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-ati driver module.

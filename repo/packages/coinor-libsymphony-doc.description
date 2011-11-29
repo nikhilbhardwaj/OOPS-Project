@@ -1,0 +1,12 @@
+Coin-or solver for mixed-integer linear programs
+	
+symphony is an open-source generic mixed-integer linear programs (milp) solver,
+callable library, and extensible framework for implementing customized solvers
+symphony has a number of advanced capabilities, including the ability to
+solve multi-objective milps, the ability to warm start its solution procedure,
+and the ability to perform basic sensitivity analyses.
+
+symphony is part of the larger coin-or initiative (computational infrastructure
+for operations research).
+
+this package contains the documentation and examples.

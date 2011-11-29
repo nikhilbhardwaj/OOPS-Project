@@ -1,0 +1,14 @@
+Gnome text-to-speech library (fonix dectalk engine support)
+	
+the gnome speech library gives a simple yet general api for programs
+to convert text into speech, as well as speech input.
+
+this package provides the source code required to compile a driver
+for the commercial dectalk software speech synthesis engine and voices from
+fonix (http://www.fonix.com/).
+upon installation, it will automatically attempt to compile and install
+the dectalk-synthesis-driver binary required to use gnome speech with
+dectalk.
+
+this package is only useful if the dectalk engine is already installed on
+the system.

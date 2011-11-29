@@ -1,0 +1,10 @@
+Wxwidgets cross-platform c++ gui toolkit (gtk+ development)
+	
+wxwidgets (formerly known as wxwindows) is a class library for c++ providing
+gui components and other facilities on several popular platforms (and some
+unpopular ones as well).  for more information see http://wxwidgets.org
+
+this package provides a debug version of the wxgtk library.  it is compiled
+both with -g for normal debugger tracing and with the __wxdebug__ flag which
+provides many internal checks by wxwidgets itself that are not performed on
+apps compiled with the 'release version' libs in the -dev package.

@@ -1,0 +1,4 @@
+Use gdb with atmel's jtag ice for the avr
+	
+avarice translates between gdb's remote debug protocol and the avr
+jtag ice protocol.

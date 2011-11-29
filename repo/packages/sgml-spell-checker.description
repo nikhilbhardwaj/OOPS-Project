@@ -1,0 +1,16 @@
+Spell checker for sgml documents
+	
+this package includes a couple of tools that you can use to
+automatically spell-check your sgml documents. one of the
+advantages of this tool over some other sgml-aware spell
+checkers is that it scans your documents in the form in which
+the sgml parser actually sees it, which means it is not line-based,
+system entities are resolved, marked sections are treated appropriately, etc.
+
+also, this tool can be made aware of particular dtds, in the
+sense that it knows not to spell-check the content of elements
+that do not represent human-language text, such as <programlisting>
+in docbook. an exclusion list for the docbook dtd is included, others
+can be added trivially.
+
+home page: http://developer.postgresql.org/~petere/sgml-spell-checker/

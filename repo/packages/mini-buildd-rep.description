@@ -1,0 +1,8 @@
+Minimal debian build daemon - repository
+	
+mini-buildd is an easy-to-configure debian autobuilder and
+repository. its general notion is that of add-ons for a debian
+base distribution (like etch, lenny, or sid) with an emphasis
+on clean builds and package checking.
+
+this package provides the autobuilder network's repository.

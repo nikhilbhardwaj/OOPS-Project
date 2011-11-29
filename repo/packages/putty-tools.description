@@ -1,0 +1,23 @@
+Command-line tools for ssh, scp, and sftp
+	
+this package provides four command-line tools from the putty suite that
+allow various kinds of secure interaction with remote systems.
+
+plink (putty link) connects to a remote system via ssh, telnet, or rlogin,
+and either starts an interactive session or runs a batch process. it
+supports the usual ssh features like port forwarding, x11 forwarding,
+socks, and compression.
+
+pscp (putty secure copy) transfers files securely between systems using an
+ssh connection. it works with both ssh protocol 1 and protocol 2.
+
+psftp (putty sftp client) transfers files securely between systems using
+the ssh file transfer protocol, which is specific to ssh protocol 2. in
+interactive mode its interface is much like the traditional unix ftp
+client, although it can also operate in batch mode.
+
+puttygen generates ssh public and private key pairs in any of a number of
+formats, including those usable by putty, openssh, and ssh.com.
+
+all these utilities can make use of putty's saved sessions where
+appropriate.

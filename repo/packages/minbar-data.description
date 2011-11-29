@@ -1,0 +1,12 @@
+Gnome islamic prayer times application - data package
+	
+minbar is an islamic prayer times application on top of libitl,
+the arabeyes prayer calculation library.
+
+it runs in background as a tray icon, plays the 'athan' (call to
+prayer) and notifies at prayer times.
+
+minbar works with the main calculation methods (muslim league by
+default, shafii, hanafi, ...).
+
+this package provides the data for the minbar package.

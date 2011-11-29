@@ -1,0 +1,19 @@
+Provides syslogd and klogd using busybox
+	
+the system log daemon is responsible for providing logging of
+messages received from programs and facilities on the local host as
+well as from remote hosts.
+
+the kernel log daemon listens to kernel message sources and is
+responsible for prioritizing and processing operating system
+messages.
+
+the busybox implementation of the syslogd is particular useful on
+embedded, diskless (netboot) or flash disk based systems because it
+can use a fixed size ring buffer for logging instead of saving logs
+to the disk or sending it to remote logging servers. the ring buffer
+can be read using the (also busybox based) command logread.
+
+this package provides the glue to the busybox syslogd and klogd to be
+used in the system by providing the appropriate symbolic links and
+scripts.

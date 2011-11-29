@@ -1,0 +1,27 @@
+Documentation for gnuift
+	
+this package includes gift-guide, configuring-and-hacking-the-gift and
+the doxygen reference tree. the application is contained in the gnuift
+package.
+
+the gift (the gnu image-finding tool) is a content based image
+retrieval system (cbirs). it enables you to do query by example on
+images, giving you the opportunity to improve query results by
+relevance feedback. for processing your queries the program relies
+entirely on the content of the images, freeing you from the need to
+annotate all images before querying the collection.
+
+the gift comes with a tool which lets you index whole directory trees
+containing images in one go. you then can use the gift server and its
+client, to browse your own image collections.
+
+the gift is an open framework. the developers explicitly have taken
+into account the possibility of adding new ways of querying to the
+framework. the communication protocol for client-server communication,
+mrml, is xml based and fully documented (http://www.mrml.net). this
+aims at promoting code reuse among researchers and application
+developers.
+
+to avoid a name clash with the "gift" package (a fasttrack filesharing
+client), these packages have been named "gnuift" (also to stress that
+gnuift is a gnu project).

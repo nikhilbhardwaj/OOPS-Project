@@ -1,0 +1,7 @@
+Sawfish architecture independent data
+	
+this package contains the architecture independent lisp compiled files
+and other data, such as theme pixmaps. it is unlikely to be of any
+use without the sawfish window manager.
+
+the lisp source files are in the sawfish-lisp-source package.

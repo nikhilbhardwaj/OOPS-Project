@@ -1,0 +1,6 @@
+Daemon for rerouting mouse button events
+	
+btnx is a daemon that can be configured to send keyboard and mouse button
+combination events when a mouse button is pressed. it can also execute
+commands. it provides an easy and quick way to configure mouse buttons to
+your liking.

@@ -1,0 +1,12 @@
+Makefile, project and workspace creator
+	
+this package contains the makefile, project and workspace creator (mpc)
+as distributed with the ace toolkit.
+
+mpc generates platform and compiler specific files to automate the
+compilation process.
+
+the following programs are included:
+
+ * mpc-ace, generating project files for a single target
+ * mwc-ace, generating workspace files for a set of projects

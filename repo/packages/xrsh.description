@@ -1,0 +1,9 @@
+Remote execution of xwindow programs
+	
+xrsh is designed to allow you to start an x client on a remote machine
+with the window displayed on the current server's $display.  it has
+many options that give you the ability to propagate environment
+variables (including display) to the remote system and works with
+various types of x server access control including xauth and xhost.
+xrlogin opens a local xterm window and runs rlogin (or optionally telnet) to
+connect to a remote machine.

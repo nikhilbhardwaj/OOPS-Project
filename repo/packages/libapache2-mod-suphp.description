@@ -1,0 +1,5 @@
+Apache2 module to run php scripts with the owner permissions
+	
+with the use of the suphp setuid root binary (from suphp-common package),
+this apache2 module change the uid of the process executing the php
+interpreter to the owner of the php script

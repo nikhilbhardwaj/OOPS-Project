@@ -1,0 +1,11 @@
+Syslog event logger library debug symbols
+	
+the eventlog library aims to be a replacement of the simple syslog() api
+provided on unix systems. the major difference between eventlog and syslog
+is that eventlog tries to add structure to messages.
+
+eventlog provides an interface to build, format and output an event record.
+the exact format and output method can be customized by the administrator
+via a configuration file.
+
+this package contains the debug symbols.

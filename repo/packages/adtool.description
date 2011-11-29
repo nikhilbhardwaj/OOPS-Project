@@ -1,0 +1,8 @@
+Command line utility for active directory administration
+	
+active directory is the ldap directory on which all microsoft windows
+domains are built. adtool allows you to administer such domains from
+a debian shell.
+
+features include user and group creation, deletion, modification,
+password setting and directory query and search capabilities.

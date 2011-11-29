@@ -1,0 +1,8 @@
+Apache http server - high speed threaded model
+	
+each apache multi-processing module provides a different "flavor" of
+web server binary, compiled with a different processing model.
+
+the worker mpm provides the default threaded implementation. it is
+recommended especially for high-traffic sites because it is faster
+and has a smaller memory footprint than the traditional prefork mpm.

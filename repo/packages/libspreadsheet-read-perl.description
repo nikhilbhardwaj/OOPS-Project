@@ -1,0 +1,17 @@
+Reader for common spreadsheet formats
+	
+spreadsheet::read is a perl module that tries to transparently read arbitrary
+spreadsheet files and return its content in a universal manner independent of
+the parsing module that does the actual spreadsheet scanning.
+
+for openoffice, this module uses spreadsheet::readsxc.
+
+for microsoft excel, this module uses spreadsheet::xlsx (for newer files; see
+the libspreadsheet-xlsx-perl package) or spreadsheet::parseexcel (available
+in libspreadsheet-parseexcel-perl)
+
+for comma-separated value (csv) files, this module uses text::csv (either the
+pure perl version in libtext-csv-perl, or, if available, the xs-accelerated
+version packaged as libtext-csv-xs-perl).
+
+for squirrelcalc, there is a very simplistic built-in parser.

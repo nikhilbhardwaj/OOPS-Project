@@ -1,0 +1,6 @@
+Drop-down x terminal emulator wrapper
+	
+yeahconsole puts an x terminal emulator window on top of your screen that
+drops-down like a console found in many games (similar to quake). it's
+visibility can be toggled by a keyboard shortcut. currently supports xterm,
+urxvt and mrxvt.

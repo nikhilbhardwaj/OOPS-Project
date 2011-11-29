@@ -1,0 +1,7 @@
+The gnustep development environment -- core development
+	
+these are the packages needed to develop programs for the gnustep
+environment.
+
+this is a metapackage that depends on the gnustep core libraries
+(foundationkit and appkit, aka gnustep base and gui).

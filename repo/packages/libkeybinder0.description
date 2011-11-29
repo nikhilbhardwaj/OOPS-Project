@@ -1,0 +1,11 @@
+Registers global key bindings for applications
+	
+keybinder is a library for registering global keyboard shortcuts to be used by
+gtk-based applications under the x window system.
+
+when a combination of key is pressed, keybinder notifies it to the registering
+application, which can execute one or more operations based on the event
+previously registered.
+
+originally written as part of the tomboy project, keybinder has been
+distributed as stand-alone library let other applications to use key binding.

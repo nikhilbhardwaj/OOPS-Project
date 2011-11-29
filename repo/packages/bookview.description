@@ -1,0 +1,7 @@
+Tcl/tk based ndtp(network dictionary transfer protocol) client
+	
+bookview is an ndtp (network dictionary transfer protocol) client
+written in tcl/tk.  it provides good gui (graphical user interface) to read
+ndtp dictionaries.  you can look up a word in multiple dictionaries that
+an ndtp server archives.  ndtp is a server for accessing cd-rom books
+and dictionaries.

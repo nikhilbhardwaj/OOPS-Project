@@ -1,0 +1,12 @@
+Clustered file-system (server package)
+	
+glusterfs is a clustered file-system capable of scaling to several
+peta-bytes. it aggregates various storage bricks over infiniband rdma
+or tcp/ip interconnect into one large parallel network file
+system. glusterfs is one of the most sophisticated file system in
+terms of features and extensibility. it borrows a powerful concept
+called translators from gnu hurd kernel. much of the code in glusterfs
+is in userspace and easily manageable.
+
+this package installs init scripts and configuration files to turn
+glusterfs into a fully fledged file server.

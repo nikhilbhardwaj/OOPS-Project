@@ -1,0 +1,11 @@
+A daemon that displays passive pop-up notifications
+	
+this package is a clone of notification-daemon but without gnome dependencies.
+it permits doing passive popups notification on the an user desktop to notify
+him about events.
+
+as a notification daemon registers itself to d-bus, you can have only one
+installed at the moment, meaning notification-daemon _or_
+notification-daemon-xfce, but not both.
+
+see http://www.galago-project.org/specs/notification/index.php.

@@ -1,0 +1,24 @@
+Dynamic window manager
+	
+dwm is a minimalistic window manager. it manages windows in tiling and floating
+modes. either mode can be applied dynamically, depending on the application in
+use and the task performed.
+
+in tiling mode windows are managed in a master and stacking column. the master
+column contains the window which needs most attention at a time, whereas the
+stacking column contains all other windows in a stack. dialog windows are
+managed floating, however.
+
+in floating mode windows can be resized and moved freely. windows are grouped
+by tags. all windows with a specific tag can be viewed at a time. but each
+window may contain more than one tag, which makes it visible in several views.
+
+dwm consists of a small status bar which reads the text displayed from standard
+input, if written. it draws 1-pixel borders around windows to indicate the
+focus state. unfocused windows contain a small bar in front of the window
+displaying the tags and the window title.
+
+please notice that dwm is currently customized through editing its source code,
+so you probably want to build your own dwm packages. this package is compiled
+with the default configuration and should just give you an idea about what dwm
+brings to your desktop.

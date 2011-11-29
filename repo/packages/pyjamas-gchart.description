@@ -1,0 +1,15 @@
+Pyjamas python port of gwt gchart charting and graph widget library
+	
+pyjamas is a stand-alone python to javascript compiler, an ajax
+framework / library and a desktop-like widget set.
+
+this package contains a port of gchart: http://code.google.com/p/gchart to
+pyjamas.  written in pure python, it can be used to create graphs, bar charts
+and pie charts in either a user's web browser (compiled to javascript),
+or as a desktop application under pyjamas-desktop.
+
+an online demo is here:
+http://pyjs.org/examples/gcharttestapp/output/gcharttestapp.html
+
+please note: pyjamas-gchart is experimental but functional, and does not yet
+use svg canvas (which is much faster).

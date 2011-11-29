@@ -1,0 +1,11 @@
+Gnu r package for 'extended rasch modelling'
+	
+erm fits rasch models (rm), linear logistic test models (lltm),
+rating scale model (rsm), linear rating scale models (lrsm), partial
+credit models (pcm), and linear partial credit models (lpcm). missing
+values are allowed in the data matrix. additional features are the ml
+estimation of the person parameters, andersen's lr-test,
+item-specific wald test, itemfit and personfit statistics including
+infit and outfit measures, various icc and related plots, automated
+stepwise item elimination, simulation module for various binary data
+matrices. an erm platform is provided at r-forge (see url).

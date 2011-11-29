@@ -1,0 +1,14 @@
+A gnome molecular modelling environment
+	
+ghemical is a computational chemistry software package written in c++.
+it has a graphical user interface and it supports both quantum-
+mechanics (semi-empirical) models and molecular mechanics models.
+geometry optimization, molecular dynamics and a large set of
+visualization tools using opengl are currently available.
+
+ghemical relies on external code to provide the quantum-mechanical
+calculations. semi-empirical methods mndo, mindo/3, am1 and pm3 come
+from the mopac7 package (public domain), and are included in the
+package. the mpqc package is used to provide ab initio methods: the
+methods based on hartree-fock theory are currently supported with
+basis sets ranging from sto-3g to 6-31g**.

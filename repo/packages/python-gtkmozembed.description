@@ -1,0 +1,5 @@
+Python bindings for the gtkmozembed gecko library
+	
+this package contains bindings allowing to run python programs using
+the gtkmozembed widget, which is based on the gecko rendering engine
+from mozilla.

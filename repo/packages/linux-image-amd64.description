@@ -1,0 +1,7 @@
+Linux for 64-bit pcs (meta-package)
+	
+this package depends on the latest linux kernel and modules for use on pcs
+with amd64 or intel 64 processors.
+
+this kernel also runs on a xen hypervisor.  it supports only unprivileged
+(domu) operation.

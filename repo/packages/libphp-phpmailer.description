@@ -1,0 +1,24 @@
+Full featured email transfer class for php
+	
+many php developers utilize email in their code.  the only php function
+that supports this is the mail() function.  however, it does not expose
+any of the popular features that many email clients use nowadays like
+html-based emails and attachments. there are two proprietary
+development tools out there that have all the functionality built into
+easy to use classes: aspemail(tm) and aspmail.  both of these
+programs are com components only available on windows.
+
+phpmailer implements the same methods (object calls) that the windows-based
+components do.
+
+class features:
+
+ - send emails with multiple tos, ccs, bccs and reply-tos
+ - redundant smtp servers
+ - multipart/alternative emails for mail clients that do not read html email
+ - support for 8bit, base64, binary, and quoted-printable encoding
+ - uses the same methods as the very popular aspemail active server (com)
+   component
+ - smtp authentication
+ - native language support
+ - word wrap

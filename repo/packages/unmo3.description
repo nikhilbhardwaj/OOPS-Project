@@ -1,0 +1,6 @@
+Uncompress and extract samples from mo3 modules
+	
+the mo3 format means "module with mp3", because the main initial idea was to
+reduce the size of a module (in .mod, it, xm) by compressing the samples
+using mpeg audio layer 3. the samples can be compressed using ogg, mp3, and
+two kind of specific lossless algorithms.

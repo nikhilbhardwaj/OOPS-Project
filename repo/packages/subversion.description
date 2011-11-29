@@ -1,0 +1,12 @@
+Advanced version control system
+	
+subversion, also known as svn, is a version control system much like
+the concurrent versions system (cvs).  version control systems allow
+many individuals (who may be distributed geographically) to
+collaborate on a set of files (typically source code).  subversion has
+all the major features of cvs, plus certain new features that cvs
+users often wish they had.
+
+this package includes the subversion client (svn), tools to create a
+subversion repository (svnadmin) and to make a repository available
+over a network (svnserve).

@@ -1,0 +1,5 @@
+Generate summaries from apache error logs
+	
+this program allows people to parse apache error_log files from multiple
+sources and present a summary of the frequency of error messages in one of a
+variety of different formats (text, html, xml, pdf).

@@ -1,0 +1,9 @@
+Ip conflict detection tool
+	
+ipwatchd is a simple daemon that analyses all incoming arp packets in order
+to detect ip conflicts on linux. it can be configured to listen on one or
+more interfaces (alias interfaces are also supported) in active or passive
+mode. in active mode ipwatchd protects your host before ip takeover by
+answering gratuitous arp requests received from conflicting system.
+in passive mode it just records information about conflict through standard
+syslog interface.

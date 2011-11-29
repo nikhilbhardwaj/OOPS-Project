@@ -1,0 +1,4 @@
+Utility module for interactive i/o
+	
+io::interactive provides three utility subroutines that make it easier to
+develop interactive applications: is_interactive, interactive and busy.

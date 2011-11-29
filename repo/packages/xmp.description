@@ -1,0 +1,8 @@
+A module player supporting awe32, gus, and software-mixing
+	
+xmp is a multi-format module player for unix. in machines with gus or
+awe cards xmp takes advantage of the oss sequencer to play modules with
+virtually no system load. using software mixing, xmp plays at sampling
+rates up to 48 khz in mono or stereo, 8 or 16 bits, signed or unsigned,
+little or big endian samples with 32 bit linear interpolation. xmp
+currently supports more than 40 module formats.

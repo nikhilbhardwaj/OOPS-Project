@@ -1,0 +1,20 @@
+Graphical user interface plug-in for licq using qt4
+	
+this package provides a qt-based graphical user interface to the licq instant
+messaging client.  the gui provides access to all features available in licq
+and is the default plug-in for licq.
+
+the gui contains a wide range of configurable options as well as skin support
+allowing behaviour and appearance to be customized in many ways.  features
+include spell checking, auto-raise and auto-popup incoming messages, tray icon
+and a searchable history.
+
+by taking advantage of the desktop integration features of qt4, the gui can
+adapt to standard desktops with regards to look and feel.  docking support is
+also available for window maker, afterstep and enlightment among others.
+
+qt4-gui is based on the old qt-gui (licq-plugin-qt) but uses qt4 and includes
+new features such as spell checking and configurable keyboard shortcuts as
+well as entirely new dialogs for messaging, history and settings.  note that
+spell checking and tray icon are available even though this version is not
+linked with kde libraries.

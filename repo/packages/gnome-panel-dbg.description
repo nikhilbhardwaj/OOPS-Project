@@ -1,0 +1,6 @@
+Gnome panel and library for panel applets - debugging symbols
+	
+this package contains debugging symbols for gnome-panel and the
+libpanel-applet library. it is provided to help debugging problem in
+the panel itself or in the library. the debugging symbols are installed
+in /usr/lib/debug and will automatically be used by gdb.

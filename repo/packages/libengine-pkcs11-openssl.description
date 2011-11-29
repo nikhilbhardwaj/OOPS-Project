@@ -1,0 +1,12 @@
+Openssl engine for pkcs#11 modules
+	
+with this engine for openssl you can use openssl library
+and command line tools with any pkcs#11 implementation as
+backend for the crypto operations.
+
+engine_pkcs11 was developed for smart cards, and mostly
+for the opensc pkcs#11 module, but it should work fine with
+any pkcs#11 implementation.
+
+engine_pkcs11 is a spin off from opensc and replaced
+libopensc-openssl.

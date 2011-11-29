@@ -1,0 +1,10 @@
+Extended image format support for tcl/tk (runtime)
+	
+img is a package to enhance tk by providing support for various image
+formats such as xpm, gif (transparency supported, but not lzw), png,
+jpeg, tiff, and postscript.
+
+the libimg library can be loaded dynamically into tcl/tk scripts to
+provide the image handling functions.
+
+this package includes runtime libraries.

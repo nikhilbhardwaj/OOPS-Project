@@ -1,0 +1,10 @@
+Text-based audio cd player and cd-rom control commands
+	
+cdtool contains cdplay, cdeject, cdstop, cdpause, and several other
+programs for playing audio cds and controlling a cd-rom drive from
+the command line and in a quick and scriptable way.
+
+cdown reads track info and queries a cddb database for info on
+the current cd. cdctrl is a command line utility for controlling a
+cd-rom drive interactively and from scripts. cdir keeps track of the
+contents of different cds using a workman-compatible database.

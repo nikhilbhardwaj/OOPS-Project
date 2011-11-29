@@ -1,0 +1,16 @@
+Reliable event logging protocol (relp) library - development files
+	
+relp provides reliable event logging over the network.
+
+relp (and hence) librelp assures that no message is lost, not even when
+connections break and a peer becomes unavailable. the current version of
+relp has a minimal window of opportunity for message duplication after a
+session has been broken due to network problems. in this case, a few messages
+may be duplicated (a problem that also exists with plain tcp syslog). future
+versions of relp will address this shortcoming.
+
+please note that relp is a general-purpose, extensible logging protocol. even
+though it was designed to solve the urgent need of rsyslog-to-rsyslog
+communication, relp supports many more applications. extensible command verbs
+provide ample opportunity to extend the protocol without affecting existing
+applications.

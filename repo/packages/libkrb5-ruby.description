@@ -1,0 +1,8 @@
+Basic kerberos ruby binding
+	
+ruby kerberos provides basic kerberos bindings for ruby which allow
+authentication, password changes, adding principals, and deleting
+principals.
+
+this package is a dependency package, which depends on debian's
+default ruby version (currently 1.8).

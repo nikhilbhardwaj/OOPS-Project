@@ -1,0 +1,12 @@
+System-wide service supervision
+	
+runit is a collection of tools to provide system-wide service supervision
+and to manage services.  contrary to sysv init, it not only cares about
+starting and stopping services, but also supervises the service daemons
+while they are running.  amongst other things, it provides a reliable
+interface to send signals to service daemons without the need for pid-files,
+and a log facility with automatic log file rotation and disk space limits.
+
+runit service supervision can run under sysv init or replace the init
+system completely.  complete init replacement requires some manual
+configuration described in the supplied documentation.

@@ -1,0 +1,17 @@
+100 dpi koi8-r encoded cyrillic fonts for x (cronyx collection)
+	
+this package provides a set of bitmapped cyrillic fonts at 100 dots
+per inch.  these are koi8-r fonts
+and are suitable for russian.
+in most cases it is desirable to have the x font server (xfs) and/or
+an x server installed to make the fonts available to x clients.
+
+this package and xfonts-cronyx-koi8r-75dpi provide the same set of
+fonts, rendered at different resolutions; only one or the other is
+necessary, but both may be installed.  xfonts-cronyx-koi8r-100dpi may be
+more suitable for large monitors and/or large screen resolutions
+(over 1024x768).
+
+the upstream source of this package is the package xcyr of serge
+winitzki.  xcyr is a descendant of the package xrus-2.3 of andrey
+chernov.

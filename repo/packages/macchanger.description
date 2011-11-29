@@ -1,0 +1,11 @@
+Utility for manipulating the mac address of network interfaces
+	
+features:
+
+
+  * set specific mac address of a network interface
+  * set the mac randomly
+  * set a mac of another vendor
+  * set another mac of the same vendor
+  * set a mac of the same kind (eg: wireless card)
+  * display a vendor mac list (today, 6200 items) to choose from

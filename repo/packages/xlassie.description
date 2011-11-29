@@ -1,0 +1,8 @@
+Dockable mail notifier w/ message count & pop3/apop/imap support
+	
+enhanced pending mail notifier.
+displays the number of waiting messages.
+supports local mail spool and pop3/apop3/imap mail servers.
+can run a command when clicked upon.
+uses plain xlib, so memory footprint is tiny.
+can operate as plain app or windowmaker/kde dock applet.

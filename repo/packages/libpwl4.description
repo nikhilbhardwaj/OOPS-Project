@@ -1,0 +1,6 @@
+Parma watchdog library (watchdog timers - runtime library)
+	
+the parma watchdog library (pwl) provides support for multiple,
+concurrent watchdog timers on systems providing setitimer(2).  the
+pwl is currently distributed with the parma polyhedra library (ppl),
+but is totally independent from it.

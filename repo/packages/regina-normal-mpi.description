@@ -1,0 +1,16 @@
+Mpi utilities for regina, the 3-manifold topology software
+	
+regina is a suite of mathematical software for 3-manifold topologists.
+this package contains the components of regina that are designed to
+run large parallel computations on a cluster using mpi.
+
+these components have been built against the mpich implementation of
+mpi.  this means that they must be run under the mpich runtime environment
+(and not lam).  the mpich runtime environment can be found in the
+package mpich-bin.
+
+the standard components of regina, including the graphical user interface
+and users' handbook, can be found in the separate package regina-normal.
+
+highlights of regina include triangulation analysis and simplification,
+census creation and normal surface enumeration.

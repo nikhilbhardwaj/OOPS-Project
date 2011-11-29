@@ -1,0 +1,23 @@
+Simple policy for file i/o functions
+	
+this defines the policy for file i/o with modules such as
+file::slurp::withinpolicy. the purpose is to allow systems administrators to
+define locations and restrictions for applications' file i/o and give app
+developers a policy to follow. note that the module doesn't enforce the policy
+- application developers can choose to ignore it (and systems administrators
+can choose not to install their applications if they do!).
+
+you may control which policy gets applied by creating a file::policy::config
+module with an implementation constant. you may write your own policy as a
+module within the file::policy:: namespace.
+
+by default (if no file::policy::config is present), the file::policy::default
+policy gets applied which doesn't impose any restrictions and provides
+reasonable default locations for temporary and log files.
+
+the motivation behind this module was a standard, flexible approach to allow
+a site wide file policy to be defined. this will be most useful in large
+environments where a few sysadmins are responsible for code written by many
+other people. simply ensuring that submitted code calls check_safe() ensures
+file access is sane, reducing the amount of effort required to do a security
+audit.

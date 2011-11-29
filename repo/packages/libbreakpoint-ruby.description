@@ -1,0 +1,11 @@
+Ruby library for adding breakpoints to ruby programs
+	
+ruby-breakpoint lets you inspect and modify state at run time.  this
+allows you to diagnose bugs, patch applications and more all via irb by
+simply doing a method call at the place you want to investigate.
+
+this package is part of the ruby library extras, a supplement to ruby's
+standard library.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

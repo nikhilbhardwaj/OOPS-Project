@@ -1,0 +1,8 @@
+Perl module for supporting simple generic namespaces
+	
+xml::namespacesupport offers a simple way to process namespace-based xml names.
+it also helps maintain a prefix-to-namespace uri map, and provides a number of
+basic checks.
+
+the model for this module is sax2's namespacesupport class.  it adds a few
+perl-specific changes where thought to be appropriate.

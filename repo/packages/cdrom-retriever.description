@@ -1,0 +1,4 @@
+Fetch modules from a cdrom
+	
+this is a retriever module that just symlinks files around since
+the cdrom is supposed to be mounted on /cdrom.

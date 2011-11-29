@@ -1,0 +1,8 @@
+Infiniband management datagram (mad) library
+	
+libibmad provides low layer infiniband functions for use by the
+infiniband diagnostic and management programs. these include
+managment datagrams (mad), subnet administration (sa), subnet
+management packets (smp) and other basic functions.
+
+this package contains the shared library.

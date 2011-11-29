@@ -1,0 +1,5 @@
+Asynchronous client for the gearman distributed job system
+	
+gearman::client::async is a perl module that provides an asynchronous client
+interface to the gearman distributed job system. in particular, it supports
+danga::socket applications.

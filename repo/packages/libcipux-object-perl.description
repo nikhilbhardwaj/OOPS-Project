@@ -1,0 +1,8 @@
+Object layer of cipux
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+this package contains cipux::object, the cipux object layer - a generic
+abstract class, which can be used by other classes or scripts.

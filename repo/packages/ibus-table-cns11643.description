@@ -1,0 +1,8 @@
+Cns11643 input method based on table engine of ibus
+	
+ibus-table is the im engine framework for table-based input methods, such as
+wubi, erbi, cangjie and so on.
+
+this package provides one input method: cns11643.
+
+cns11643 is a chinese input method.

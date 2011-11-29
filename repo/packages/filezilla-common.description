@@ -1,0 +1,10 @@
+Architecture independent files for filezilla
+	
+filezilla is a full-featured ftp client with an easy-to-use gui.
+
+it is written in c++ and uses the wxwidgets library.
+
+see the filezilla package description for the full list of features.
+
+this package contains architecture independent files such as images and
+translations.

@@ -1,0 +1,5 @@
+Object-capability-based rpc system for twisted python
+	
+foolscap (also known as "newpb") contains a new rpc system for twisted python,
+combining capability-based security, secure references, flexible
+serialization, and technology to mitigate resource-consumption attacks.

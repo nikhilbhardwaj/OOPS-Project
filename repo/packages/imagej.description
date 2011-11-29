@@ -1,0 +1,20 @@
+Image processing program inspired by nih image for the macintosh
+	
+it can display, edit, analyze, process, save and print 8-bit, 16-bit and
+32-bit images. it can read many image formats including tiff, gif, jpeg,
+bmp, dicom, fits and "raw". it supports "stacks", a series of images that
+share a single window.
+
+it can calculate area and pixel value statistics of user-defined
+selections. it can measure distances and angles. it can create density
+histograms and line profile plots. it supports standard image processing
+functions such as contrast manipulation, sharpening, smoothing, edge
+detection and median filtering.
+
+spatial calibration is available to provide real world dimensional
+measurements in units such as millimeters. density or gray scale
+calibration is also available.
+
+imagej is developed by wayne rasband (wayne@codon.nih.gov), is at the
+research services branch, national institute of mental health, bethesda,
+maryland, usa.

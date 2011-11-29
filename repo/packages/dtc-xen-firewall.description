@@ -1,0 +1,15 @@
+A small firewall script for your dom0
+	
+if running in a production environment, you might want to have a basic
+firewall running on your dom0 to avoid having dos attack. this is not the
+state-of-the-art, but just another attempt to make things a bit more smooth.
+comments and contribution are more than welcome!
+
+the main principle of this firewall script is to rate limit connections to
+both your dom0 and your vpses. it's principle is not block any connection. for
+example, dtc-xen-firewall denies ssh for 300 seconds after 10 attempts on your
+dom0, rate limit ping to 5 per seconds on your dom0 and to 50/s globally for
+all your vps, and does the same kind of thing for syn flood attacks. take
+care, it also blocks any connection to the port 25, as in a normal dom0, you
+would install a mail server to send system messages to the administrators, but
+you don't want to accept any incoming message.

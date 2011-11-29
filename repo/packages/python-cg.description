@@ -1,0 +1,9 @@
+Nvidia cg driver binding for python
+	
+nvidia cg is a toolkit that provides a compiler for the cg language,
+runtime libraries for use with both leading graphics apis and runtime
+libraries, supporting over 24 different opengl and directx profile
+targets.
+
+the package contains a python wrapper for nvidia cg library to allow
+python programs to interact with nvidia graphic cards using cg.

@@ -1,0 +1,4 @@
+PackageId:8633
+Name:killer
+Version:0.90-7
+Deps:exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,perl

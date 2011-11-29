@@ -1,0 +1,6 @@
+Script that quickly measures network device throughput
+	
+ethstats works by parsing the /proc/net/dev file that the linux kernel
+maintains, and thus utilizes a negligible amount of cpu time. ethstats
+shows the throughput of each device in both megabits per second and
+packets per second.

@@ -1,0 +1,45 @@
+Imap/maildir synchronization and reader support
+	
+offlineimap is a tool to simplify your e-mail reading.  with
+offlineimap, you can:
+
+
+ * read the same mailbox from multiple computers, and have your
+   changes (deletions, etc.) be automatically reflected on
+   all computers
+
+
+
+ * use various mail clients to read a single mail box
+
+
+
+ * read mail while offline (on a laptop) and have all changes
+   synchronized when you get connected again
+
+
+
+ * read imap mail with mail readers that do not support imap
+
+
+
+ * use ssl (secure connections) to read imap mail even if your reader
+   doesn't support ssl
+
+
+
+ * synchronize your mail using a completely safe and fault-tolerant
+   algorithm.  (at least i think it is!)
+
+
+
+ * customize which mailboxes to synchronize with regular expressions
+   or lists.
+
+
+
+ * synchronize your mail two to four times faster than with other tools
+   or other mail readers' internal imap support.
+
+
+in short, offlineimap is a tool to let you read mail how you want to.

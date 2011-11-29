@@ -1,0 +1,15 @@
+Sdl module for clanlib game sdk
+	
+clanlib delivers a platform independent interface to write games with.
+if a game is written with clanlib, it should be possible to compile the
+game under any platform (supported by clanlib, that is) without changing
+the application source code.
+
+but clanlib is not just a wrapper library, providing a common interface
+to low-level libraries such as directfb, directx, opengl, x11, etc. while
+platform independence is clanlib's primary goal, it also tries to be a
+service-minded game sdk. in other words, great effort has been put into
+designing the api, to ensure clanlib's ease of use - while maintaining its
+power.
+
+this package contains the sdl module (clansdl).

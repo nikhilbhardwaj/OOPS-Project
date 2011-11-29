@@ -1,0 +1,13 @@
+"free form" document preparation system
+	
+aft is a document preparation system. it is mostly free form meaning that there
+is little intrusive markup. aft source documents look a lot like plain old
+ascii text.
+
+aft has a few rules for structuring your document and these rules have more to
+do with formatting your text rather than embedding commands.
+
+right now, aft produces pretty good (weblint-able) html, xhtml, latex, lout and
+rtf. it can, in fact, be coerced into producing all types of output (e.g.
+roll-your-own xml). all that needs to be done is to edit a rule file. you can
+even customize your own html rule files for specialized output.

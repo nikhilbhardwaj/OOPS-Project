@@ -1,0 +1,9 @@
+Poe component providing tcp client services for test cases
+	
+test::poe::client::tcp is a poe component that provides a tcp client framework
+for inclusion in client component test cases, instead of having to roll your
+own.
+
+once registered with the component, a session will receive events related to
+connections made, disconnects, flushed output and input from the specified
+server.

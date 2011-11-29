@@ -1,0 +1,15 @@
+Gnome desktop utilities - transitional package
+	
+this dummy package depends on all the tools bundled the gnome
+utilities:
+
+ - baobab, a disk usage analyser
+ - gnome-dictionary, a program which can look up the definition of words
+   over the internet (including a panel applet to do the same)
+ - gnome-search-tool, with which one can find files by name or content
+ - gnome-system-log, a log viewing application
+ - gnome-screenshot, a tool to take desktop screenshots and save them into
+   a file
+
+
+it can be safely removed from your system.

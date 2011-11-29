@@ -1,0 +1,24 @@
+Easy to use distributed version control system
+	
+bazaar is a distributed version control system designed to be easy to
+use and intuitive, able to adapt to many workflows, reliable, and
+easily extendable.
+
+publishing of branches can be done over plain http, that is, no special
+software is needed on the server to host bazaar branches. branches can
+be pushed to the server via sftp (which most ssh instalations come
+with), ftp, or over a custom and faster protocol if bzr is installed in
+the remote end.
+
+merging in bazaar is easy, as the implementation is able to avoid many
+spurious conflicts, deals well with repeated merges between branches,
+and is able to handle modifications to renamed files correctly.
+
+bazaar is written in python, and has a flexible plugin interface which
+can be used to extend its functionality. many plugins exist, providing
+useful commands (bzrtools), graphical interfaces (bzr-gtk), or native
+interaction with subversion branches (bzr-svn).
+
+install python-paramiko if you are going to push branches to remote
+hosts with sftp, and python-pycurl if you'd like for ssl certificates
+always to be verified.

@@ -1,0 +1,9 @@
+Userspace interface to kernel drm services -- runtime
+	
+this library implements the userspace interface to the kernel drm
+services.  drm stands for "direct rendering manager", which is the
+kernelspace portion of the "direct rendering infrastructure" (dri).
+the dri is currently used on linux to provide hardware-accelerated
+opengl drivers.
+
+this package provides the runtime environment for libdrm.

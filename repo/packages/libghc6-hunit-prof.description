@@ -1,0 +1,8 @@
+Haskell unit testing framework for ghc; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+hunit is a unit testing framework for haskell, inspired by the
+junit tool for java, see: <http://www.junit.org>.

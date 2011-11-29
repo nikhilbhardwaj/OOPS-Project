@@ -1,0 +1,8 @@
+Module to manipulate sets of named colours
+	
+color::palette is a framework of perl modules designed to construct and
+manipulate sets of named colours. this makes it easy to write applications
+that can define and validate the color names as required. colours can be
+specified using a graphics::color object, a css-style hex triple (#rrggbb),
+an arrayref of rgb values, or as the name of another colour that appears in
+the palette.

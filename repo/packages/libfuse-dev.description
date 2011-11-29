@@ -1,0 +1,7 @@
+Filesystem in userspace (development files)
+	
+simple interface for userspace programs to export a virtual
+filesystem to the linux kernel.
+
+this package contains the files necessary to write applications in c
+or c++ using fuse.

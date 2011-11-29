@@ -1,0 +1,11 @@
+Performance co-pilot application tracing library and headers
+	
+the libpcp-trace-dev package contains the performance co-pilot (pcp)
+library and header files needed to directly instrument an application
+for event and value tracking by the pmdatrace(1) pcp trace performance
+metric domain agent.
+
+the performance co-pilot provides a unifying abstraction for
+all of the interesting performance data in a system, and allows
+client applications to easily retrieve and process any subset of
+that data.

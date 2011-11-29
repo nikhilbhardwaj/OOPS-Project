@@ -1,0 +1,4 @@
+PackageId:31775
+Name:smb2www
+Version:980804-38
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd-cgi,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,lighttpd,mathopd,mini-httpd,monkey,ocsigen,thttpd,tntnet,yaws,debconf,debconf-2.0,cdebconf,cdebconf-udeb,perl,smbclient

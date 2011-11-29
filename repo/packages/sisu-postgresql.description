@@ -1,0 +1,13 @@
+Sisu dependencies for use with postgresql database
+	
+sisu is a lightweight markup based document structuring, publishing and search
+framework for document collections.
+
+this package enables sisu to populate a postgresql database. this is done at
+an object/paragraph level, making granular searches of documents possible.
+
+this relational database feature of sisu is not required but provides
+interesting possibilities, including that of granular searches of documents
+for matching units of text, primarily paragraphs that can be displayed or
+identified by object citation number, from which an index of documents
+matched and each matched paragraph within them can be displayed.

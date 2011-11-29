@@ -1,0 +1,8 @@
+Gconf database cleaner
+	
+gconf cleaner is a tool to clean your gconf database up that
+is possibly cluttered with unnecessary or invalid keys.
+
+this tools scans the user's gconf database and lists the keys that are not
+associated with a schema (i.e. they are likely no longer useful). then it
+allows the user to backup these keys and remove them from the database.

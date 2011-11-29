@@ -1,0 +1,10 @@
+The gnustep gui backend - debugging symbols
+	
+it is a backend component for the gnustep gui library.
+the implementation of the gnustep gui library is designed in two parts.
+the first part is the front-end component which is independent of platform
+and display system.  this front-end is combined with a back-end
+component which handles all of the display system dependent such as
+specific calls to the x window system.
+
+this package contains the debugging symbols for the gnustep gui backend.

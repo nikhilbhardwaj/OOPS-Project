@@ -1,0 +1,9 @@
+Socks (v4 and v5) proxy daemon (danted)
+	
+dante is a circuit-level firewall/proxy that can be used to provide
+convenient and secure network connectivity to a wide range of hosts
+while requiring only the server dante runs on to have external network
+connectivity.
+
+this package provides the socks proxy daemon (danted). the server part
+of dante allows socks clients to connect through it to the network.

@@ -1,0 +1,19 @@
+Ide for free pascal - ide build on top of gtk+ backend
+	
+lazarus is an ide to create (graphical and console) applications with free
+pascal. free pascal is a (l)gpl'ed pascal and object pascal compiler that runs
+on windows, linux, mac os x, freebsd and more.
+
+lazarus is the missing part of the puzzle that will allow you to develop
+programs for all of the above platforms in a delphi like environment.
+the ide is a rad tool that includes a form designer.
+
+unlike java's "write once, run anywhere" motto, lazarus and free pascal
+strive for "write once, compile anywhere". since the exact same compiler
+is available on all of the above platforms you don't need to do any recoding
+to produce identical products for different platforms.
+
+in short, lazarus is a free rad tool for free pascal using its lazarus
+component library (lcl).
+
+this package contains the lazarus ide build on top of gtk+ backend.

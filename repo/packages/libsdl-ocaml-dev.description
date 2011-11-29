@@ -1,0 +1,10 @@
+Ocaml bindings for sdl - development files
+	
+sdl (simple directmedia layer) is a generic api that provides low
+level access to audio, keyboard, mouse, and display framebuffer
+across multiple platforms.
+ocamlsdl is an ocaml interface to sdl that might be used to write
+multimedia applications in objective caml.
+
+this package contains development files for ocamlsdl application
+writers.

@@ -1,0 +1,5 @@
+Lua 5.1 grammar, with parsing and manipulation facilities
+	
+this package contains leg, a lua library exporting a complete lua 5.1 grammar
+and a small api for user manipulation. it can be used to implement a macro
+preprocessor or any other task that needs to parse a .lua file.

@@ -1,0 +1,12 @@
+Gnu clisp, a common lisp implementation (documentation)
+	
+this is the documentation for clisp.
+
+ansi common lisp is a high-level, general-purpose programming language.
+gnu clisp is a common lisp implementation by bruno haible of karlsruhe
+university and michael stoll of munich university, both in germany.
+it mostly supports the lisp described in the ansi common lisp standard.
+it runs on most unix workstations (gnu/linux, freebsd, netbsd, openbsd,
+solaris, tru64, hp-ux, beos, nextstep, irix, aix and others) and on
+other systems (windows nt/2000/xp, windows 95/98/me) and needs only
+4 mb of ram.

@@ -1,0 +1,8 @@
+Split big cookies into smaller ones
+	
+rfc 2109 reccomends that the minimal cookie size supported by the client is
+4096 bytes. this has become a pretty standard value, and if your server sends
+larger cookies than that it's considered a no-no.
+
+cgi::cookie::splitter provides a pretty simple interface to generate small
+cookies that are under a certain limit, without wasting too much effort.

@@ -1,0 +1,4 @@
+PackageId:2030
+Name:clock-setup
+Version:0.106
+Deps:cdebconf-udeb,configured-network,netcfg,netcfg-static,ppp-udeb,di-utils,localechooser,rdate-udeb,tzsetup-udeb

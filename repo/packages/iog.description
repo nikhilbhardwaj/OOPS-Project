@@ -1,0 +1,9 @@
+Network i/o grapher
+	
+iog is a network traffic grapher designed to record cumulative kb/mb/gb
+statistics per hour/day/month. it is intended to be simple, fast
+(supporting thousands of hosts), and well integrated with mrtg. data for
+each host is updated hourly and html graphs are created. it uses a
+data consolidation algorithm which allows for a small, non-growing
+database file for each host. no external graphing libraries or
+executables are required.

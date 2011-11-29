@@ -1,0 +1,5 @@
+Perl module providing routines for manipulating stashes
+	
+manipulating stashes (perl's symbol tables) is occasionally necessary, but
+incredibly messy, and easy to get wrong. package::stash hides all of that
+behind a simple api.

@@ -1,0 +1,7 @@
+A simple multipart/x-mixed-replace viewer
+	
+gmotionlive is a simple gtk viewer for streaming webcams that use
+multipart/x-mixed-replace streams.
+
+it was written for viewing streams from the motion program but should be
+usable for other sources such as network cameras.

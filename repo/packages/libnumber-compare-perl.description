@@ -1,0 +1,7 @@
+Module for performing numeric comparisons in perl
+	
+number::compare allows to compile a simple comparison to an anonymous
+subroutine, which can then be called with a value to be tested against.
+
+the advantage of using this module is that it understands both the si prefixes
+'k', 'm', and 'g', as well as the iec binary prefixes 'ki', 'mi' and 'gi'.

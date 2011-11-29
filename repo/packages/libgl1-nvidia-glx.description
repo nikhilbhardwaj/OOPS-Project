@@ -1,0 +1,7 @@
+Nvidia binary opengl libraries
+	
+these binary libraries provide optimized hardware acceleration of
+opengl applications via a direct-rendering x server.
+see the description of the nvidia-glx package
+or /usr/share/doc/libgl1-nvidia-glx/readme.txt.gz
+for a complete list of supported gpus and pci ids.

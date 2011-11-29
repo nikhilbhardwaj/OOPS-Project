@@ -1,0 +1,10 @@
+Client-side support library for web application remote blogging apis
+	
+kblog is a library for calling functions on blogger 1.0, metaweblog,
+movabletype and gdata compatible blogs. it calls the apis using kxmlrpcclient
+and syndication. it supports asynchronous sending and fetching of posts and,
+if supported on the server, multimedia files. almost every modern blogging web
+application that provides an xml data interface supports one of the apis
+mentioned above.
+
+this package is part of the kde development platform pim libraries module.

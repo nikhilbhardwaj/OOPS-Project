@@ -1,0 +1,14 @@
+Sparse linear algebra extension for python: documentation
+	
+this package provides documents and examples for python-sparse, a set of
+sparse matrix types for python, with modules which implement:
+
+ - iterative methods for solving linear systems of equations
+ - a set of standard preconditioners
+ - an interface to a direct solver for sparse linear systems of equations
+ - the jdsym eigensolver
+
+
+all of these modules are implemented as c extension modules based on standard
+sparse and dense matrix libraries (umfpack/amd, superlu, blas/lapack) for
+maximum performance.

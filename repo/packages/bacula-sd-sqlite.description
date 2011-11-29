@@ -1,0 +1,5 @@
+Network backup, recovery and verification - sqlite sd tools
+	
+this is a transition package.  sqlite v2 support has been deprecated
+as of bacula 3.0.0.  this package depends on the sqlite v3 version of the
+storage daemon.

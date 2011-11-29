@@ -1,0 +1,11 @@
+E-book manipulation tool and perl libraries
+	
+ebook-tools contains a library and a command-line tool for unpacking,
+creating, correcting, and repacking electronic books.
+
+current native unpacking support is limited to palmdoc, ereader, imp,
+and mobipocket without drm protection, though ms reader (lit.) and
+mobipocket drm is supported by automatic use of convertlit and
+mobidedrm if available.  the metadata correction tools are quite
+extensive, however.  for more details, see the pod information on
+ebook::tools and ebook::tools::unpack.

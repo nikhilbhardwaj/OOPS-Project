@@ -1,0 +1,4 @@
+PackageId:23582
+Name:live-config
+Version:2.0.15-1
+Deps:live-config-sysvinit,live-config-backend,live-config-runit,live-config-upstart

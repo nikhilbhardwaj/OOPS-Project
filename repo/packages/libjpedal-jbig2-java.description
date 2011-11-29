@@ -1,0 +1,11 @@
+Library for accession of large images
+	
+the jpedal jbig2 image decoder is a 100% pure java image decoder for
+the jbig2 file format. the decoder takes the jbig2 image processing
+technology developed for the jpedal pdf renderer and makes it available
+as a generic library for more general usage.
+
+it offers the ability to allow developers to add jbig2 image rendering
+capabilities to their own applications, through a simple and easy to
+use api. in its simplest form it allows developers to load in a jbig2
+encoded datastream and convert that into a bufferedimage.

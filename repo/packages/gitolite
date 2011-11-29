@@ -1,0 +1,4 @@
+PackageId:5529
+Name:gitolite
+Version:1.5.4-2+squeeze1
+Deps:adduser,debconf,debconf-2.0,cdebconf,cdebconf-udeb,git,git-core,openssh-server,ssh-server,dropbear,lsh-server,perl

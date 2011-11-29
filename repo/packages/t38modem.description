@@ -1,0 +1,5 @@
+T.38 fax over ip pseudo modem
+	
+from your fax application view point it's a fax modem pool.
+from ip network view point it's a h.323 endpoint with t.38 fax support.
+from your view point it's a gateway between a fax application and ip network.

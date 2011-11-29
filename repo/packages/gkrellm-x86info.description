@@ -1,0 +1,5 @@
+Gkrellm plugin displaying the current processor speed
+	
+this gkrellm plugin calculates the current cpu clock speed and displays it as
+a gkrellm monitor. this is useful on notebooks with broken acpi and varying
+cpu speeds.

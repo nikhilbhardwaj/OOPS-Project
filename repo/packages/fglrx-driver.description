@@ -1,0 +1,17 @@
+Non-free amd/ati r6xx - r7xx display driver
+	
+display driver for the ati recent radeon and firegl graphics cards.
+
+this package provides 2d display drivers and hardware accelerated opengl
+for x.org version 7.1. for 3d acceleration to work, you will need to
+compile the fglrx kernel module for your kernel: see the fglrx-source
+package. note that the driver will work without the kernel module, but 3d
+acceleration will be disabled.
+
+the driver can work with plain mesa libgl, but some applications may require
+the proprietary libgl. this library is shipped in the fglrx-glx package.
+
+this driver is not free. as an alternative, you may try the newest free
+driver xserver-xorg-video-radeon.
+
+this driver will replace parts of your x11 and mesa system.

@@ -1,0 +1,8 @@
+Gtk+ helper for playing widget event sounds with libcanberra
+	
+libcanberra-gtk provides a few functions that simplify libcanberra
+usage from gtk+.
+
+contextual informations are needed to play event sound. this library
+can help to compile directly event sounds property lists based on
+active gtkwidget objects or gdkevent events.

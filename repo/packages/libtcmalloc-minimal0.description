@@ -1,0 +1,5 @@
+An efficient thread-caching malloc
+	
+the google-perftools package contains some utilities to improve and
+analyze the performance of c++ programs. this is a part of that package,
+and includes an optimized thread-caching malloc.

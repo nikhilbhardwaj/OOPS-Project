@@ -1,0 +1,7 @@
+Png library - minimal runtime library
+	
+libpng is a library implementing an interface for reading and writing
+png (portable network graphics) format files.
+
+this package provides the minimal libpng12 runtime library needed for
+the debian-installer.

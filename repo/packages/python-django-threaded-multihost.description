@@ -1,0 +1,5 @@
+Allows to serve multiple sites from one django installation
+	
+this application provides multi-host utilities to django projects by using
+threadlocals, middleware and simple utilities. using the middleware provided,
+you can "easily" provide multi-site awareness to any project.

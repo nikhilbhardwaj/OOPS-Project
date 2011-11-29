@@ -1,0 +1,5 @@
+Gnu r package interfacing mpi libraries for distributed computing
+	
+this cran package provides an interface to the mpi (message-passing
+interface) api. it also provides an interactive r slave environment
+in which distributed statistical computing can be carried out.

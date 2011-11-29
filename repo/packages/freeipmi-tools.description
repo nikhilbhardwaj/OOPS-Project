@@ -1,0 +1,25 @@
+Gnu implementation of the ipmi protocol - tools
+	
+freeipmi is a collection of intelligent platform management ipmi
+system software. it provides in-band and out-of-band software and a
+development library conforming to the intelligent platform management
+interface (ipmi v1.5 and v2.0) standards.
+
+this package contains assorted ipmi-related tools:
+
+ * bmc-config - configure bmc values
+ * bmc-info - display bmc information
+ * ipmi-chassis - ipmi chassis management utility
+ * ipmi-fru - display fru information
+ * ipmi-locate - ipmi probing utility
+ * ipmi-oem - ipmi oem utility
+ * ipmi-raw - ipmi raw communication utility
+ * ipmi-sel - display sel entries
+ * ipmi-sensors - display ipmi sensor information
+ * ipmi-sensors-config - configure sensors
+ * ipmiconsole - ipmi console utility
+ * ipmimonitoring - ipmi monitoring utility
+ * ipmiping - send ipmi get authentication capabilitiy request
+ * ipmipower - ipmi power control utility
+ * pef-config - configure pef values
+ * rmcpping - send rmcp ping to network hosts

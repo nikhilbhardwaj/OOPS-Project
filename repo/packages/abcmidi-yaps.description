@@ -1,0 +1,10 @@
+Yet another abc to postscript converter
+	
+this program translates tunes written in the abc format to postscript,
+which can then be viewed on screen or printed. it is essentially a
+(non-exclusive) alternative to abc2ps, being based on the abc2ps
+postscript code together with the abc parser from the abcmidi package.
+
+people interested in this kind of software should also check out the
+abcm2ps package, which contains a similar program that has lots of
+additional features.

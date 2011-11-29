@@ -1,0 +1,6 @@
+Json library for ruby (ruby 1.8 version)
+	
+this library implements the json (javascript object notation) specification in
+ruby, allowing the developer to easily convert data between ruby and json. you
+can think of it as a low fat alternative to xml, if you want to store data to
+disk or transmit it over a network rather than use a verbose markup language.

@@ -1,0 +1,10 @@
+An efficient packed unicode text type for haskell - ghc 6 profiling libraries
+	
+this is a haskell time and space-efficient implementation of unicode
+text using packed word16 arrays.  suitable for performance critical use,
+both in terms of large data quantities and high speed.
+
+it supports many basic string operations and has some substring search
+tools.
+
+this package contains the profiling libraries compiled for ghc 6.

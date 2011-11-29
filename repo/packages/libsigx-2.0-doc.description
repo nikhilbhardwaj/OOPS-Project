@@ -1,0 +1,10 @@
+Interthread communication for c++ - reference documentation
+	
+this library is an interthread communication library for c++ on top of
+libsigc++ and glibmm. it provides dispatcher based interthread communication,
+typesafe functor adaptors to execute functions in the context of another
+thread, threadsafe wrappers for signals and connections, and deadlock detection
+for synchronous messages.
+
+this package contains the reference documentation for libsigx, needed only if
+you wish to write software which uses it.

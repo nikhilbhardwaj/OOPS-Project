@@ -1,0 +1,7 @@
+Common header files for linux 2.6.32-5-xen
+	
+this package provides the architecture-specific common kernel header files
+for linux kernel version 2.6.32-5-xen, generally used for building
+out-of-tree kernel modules.  to obtain a complete set of headers you also
+need to install the linux-headers-2.6.32-5-(flavour) package, matching the
+flavour of the kernel you intend the build for.

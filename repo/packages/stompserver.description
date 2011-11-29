@@ -1,0 +1,5 @@
+Stomp messaging server implemented in ruby
+	
+stompserver is a stomp messaging server with support for multiple fifo
+based queue backends including file, dbm, memory and activerecord.
+it supports basic authentication and queue monitoring.

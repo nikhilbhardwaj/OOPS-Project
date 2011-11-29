@@ -1,0 +1,9 @@
+Isc dhcp development files (transitional package)
+	
+this package contains development files for the internet software consortium's
+implementation of dhcp. for more information visit http://www.isc.org.
+
+this is a dummy package to aid in transitioning from the v3 dhcp packages
+to the new-style dhcp packages.
+
+this dummy package may be safely removed after upgrading to squeeze

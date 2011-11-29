@@ -1,0 +1,17 @@
+Interface for mathematical applications
+	
+cantor is an application to allow you to you use your favorite mathematical
+applications from within an elegant kde-integrated worksheet interface. it
+provides dialogs to assist with common tasks and allows you to share your
+worksheets with others.
+
+cantor supports various mathematical applications as backends (provided in
+external packages):
+
+ * kalgebra (cantor-backend-kalgebra)
+ * maxima computer algebra system (cantor-backend-maxima)
+ * r project for statistical computing (cantor-backend-r)
+ * sage mathematics software (cantor-backend-sage)
+
+
+this package is part of the kde education module.

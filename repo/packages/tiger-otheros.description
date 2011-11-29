@@ -1,0 +1,12 @@
+Scripts to run tiger in other operating systems
+	
+tiger, or the 'tiger' scripts, is a set of bourne shell
+scripts, c programs and data files which are used to perform
+a security audit of unix systems.  tiger has one primary goal:
+report ways 'root' can be compromised.
+
+this package provides all the scripts for operating systems other
+than linux provided for in the tiger distribution. it is provided
+in the hope it will be useful for admins that wish to run tiger
+in a distributed environment sharing this files through the network
+(e.g. nfs).

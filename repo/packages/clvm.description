@@ -1,0 +1,5 @@
+Cluster lvm daemon for lvm2
+	
+this package provides the clustering interface for lvm2, when used with
+red hat's "cman" cluster infrastructure. it allows logical volumes to
+be created on shared storage devices (eg fibre channel, or iscsi).

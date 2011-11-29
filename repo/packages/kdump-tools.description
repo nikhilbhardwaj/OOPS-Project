@@ -1,0 +1,8 @@
+Scripts and tools for automating kdump (linux crash dumps)
+	
+kdump-tools provides an init script and a configuration script for
+automating the use of kdump.  it uses the makedumpfile utility to
+reduce the size of the /proc/vmcore file based on user preferences.
+
+after installing, please see /usr/share/doc/kdump-tools/readme.debian
+for information on enabling and configuring kdump.

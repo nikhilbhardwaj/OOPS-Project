@@ -1,0 +1,4 @@
+PackageId:60
+Name:acidbase
+Version:1.4.5-2
+Deps:dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libphp-adodb,libwww-perl,mysql-client,mysql-client-5.1,virtual-mysql-client,postgresql-client,postgresql-client-8.4,php-mail,php-mail-mime,php5,php5-mysql,php5-pgsql

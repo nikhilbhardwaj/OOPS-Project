@@ -1,0 +1,6 @@
+Assembler for atmel avr microcontrollers
+	
+avra is an assembler for the atmel's family of avr 8-bit risc
+microcontrollers.  it is mostly compatible with atmel's own assembler,
+but adds new features such as better macro support and additional
+preprocessor directives.

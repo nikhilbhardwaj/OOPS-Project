@@ -1,0 +1,20 @@
+Otcl shells
+	
+otcl, short for mit object tcl, is an extension to tcl/tk for
+object-oriented programming. it shouldn't be confused with the
+ixi object tcl extension by dean sheenan. (sorry, but we both
+like the name and have been using it for a while.)
+
+some of otcl's features as compared to alternatives are:
+
+  designed to be dynamically extensible, like tcl, from the ground up
+  builds on tcl syntax and concepts rather than importing another language
+  compact yet powerful object programming system
+  fairly portable implementation (2000 lines of c, without core hacks)
+
+
+otcl was created by david wetherall as part of the vusystem project
+at mit. since 1997, otcl has been maintained as part of the mash and
+vint/ns efforts (with david's blessing).
+
+this package contains two bin files.

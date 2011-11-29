@@ -1,0 +1,5 @@
+Visualize tagged notes as a cloud
+	
+tagcloud will start a simple web server and display a webpage where you can
+choose which textfile to create a tagcloud from. you can then click on tags to
+retrieve the notes, as well as search the fulltext of all the notes.

@@ -1,0 +1,5 @@
+Postgresql module for python
+	
+pygresql is a python module that interfaces to a postgresql database. it
+embeds the postgresql query library to allow easy use of the powerful
+postgresql features from a python script.

@@ -1,0 +1,4 @@
+PackageId:1850
+Name:cipux-cat-web
+Version:3.4.0.2-3
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,lighttpd,httpd-cgi,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,mathopd,mini-httpd,monkey,ocsigen,thttpd,tntnet,yaws,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libcgi-formbuilder-perl,libcipux-cat-web-perl,libcipux-perl,libclass-std-perl,libdate-manip-perl,libfrontier-rpc-perl,libtemplate-perl,libversion-perl,perl-modules,perl

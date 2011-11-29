@@ -1,0 +1,7 @@
+Python extension wrapping the icu c++ api (debug extension)
+	
+icu is a c++ and c library that provides robust and full-featured
+unicode and locale support. this package provides an extension for
+python which wraps the icu c++ api.
+
+this package contains the extension built for the python debug interpreter.

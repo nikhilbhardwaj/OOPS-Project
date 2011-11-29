@@ -1,0 +1,9 @@
+The linux kernel device mapper userspace library
+	
+this is a udeb, or a microdeb, for the debian-installer.
+
+the linux kernel device mapper is the lvm (linux logical volume management)
+team's implementation of a minimalistic kernel-space driver that handles
+volume management, while keeping knowledge of the underlying device layout
+in user-space.  this makes it useful for not only lvm, but evms, software
+raid, and other drivers that create "virtual" block devices.

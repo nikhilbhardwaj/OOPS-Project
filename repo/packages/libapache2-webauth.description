@@ -1,0 +1,12 @@
+Apache 2 modules for webauth authentication
+	
+webauth is a cookie-based web authentication system built on top of
+kerberos.  it relies on a central authentication server that handles all
+user authentication for a domain and creates user authentication
+credentials for any web server that needs strong authentication.
+
+this package contains the apache 2 modules to do basic authentication for
+individual web servers and to look up ldap information using ldap v3 with
+gssapi binds about the authenticated user.  directory information can be
+used for authorization control and to populate environment variables.
+these modules should be installed on any web server using webauth.

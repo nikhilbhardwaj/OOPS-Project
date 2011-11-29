@@ -1,0 +1,16 @@
+Structured tags datastructures
+	
+this module is for manipulating data as hierarchical tag/value
+pairs (structured tags or simple tree aggreggates). these
+datastructures can be represented as nested arrays, which have the
+advantage of being native to perl. a simple example is shown below:
+
+
+ [ person=> [  [ family_name => $family_name ],
+ [ given_name  => $given_name  ],
+ [ phone_no    => $phone_no    ] ] ],
+
+
+data::stag uses a subset of xml for import and export. this
+means the module can also be used as a general xml parser/writer (with
+certain caveats).

@@ -1,0 +1,16 @@
+Standalone javascript/ecmascript (ecma-262) interpreter
+	
+spidermonkey is a standalone javascript/ecmascript interpreter. it can either
+take input from files or from a command line driven interface.
+it is not recommended for production use, as it contains dangerous
+(security-wise) debugging features.
+
+ecmascript (ecma-262) is a dynamic scripting language supporting prototype
+based object construction. the basic syntax is intentionally similar to
+both java and c++ to reduce the number of new concepts required to learn
+the language. language constructs, such as if statements, for and while
+loops, and switch and try ... catch blocks function the same as these
+languages (or nearly so).
+
+javascript is a superset of the ecma-262 edition 3 (ecmascript) standard
+first introduced by netscape and now led by the mozilla project.

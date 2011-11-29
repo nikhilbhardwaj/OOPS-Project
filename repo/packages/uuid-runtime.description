@@ -1,0 +1,18 @@
+Runtime components for the universally unique id library
+	
+the libuuid library generates and parses 128-bit universally unique
+ids (uuids).  a uuid is an identifier that is unique across both
+space and time, with respect to the space of all uuids.  a uuid can
+be used for multiple purposes, from tagging objects with an extremely
+short lifetime, to reliably identifying very persistent objects
+across a network.
+
+see rfc 4122 for more information.
+
+this package contains the uuidgen program and the uuidd daemon.
+
+the uuidd daemon is used to generate uuids, especially time-based
+uuid’s, in a secure and guaranteed-unique fashion, even in the face
+of large numbers of threads trying to grab uuid’s running on
+different cpu’s. it is used by libuuid as well as the uuidgen
+program.

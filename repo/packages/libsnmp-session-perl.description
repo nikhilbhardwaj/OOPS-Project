@@ -1,0 +1,7 @@
+Perl support for accessing snmp-aware devices
+	
+snmp_session contains support for accessing snmp-aware devices (routers,
+network interfaces of machines running an snmp daemon, squid, etc) from
+within perl applications.
+
+for more information, see http://www.switch.ch/misc/leinen/snmp/perl/.

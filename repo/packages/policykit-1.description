@@ -1,0 +1,8 @@
+Framework for managing administrative policies and privileges
+	
+policykit is an application-level toolkit for defining and handling the policy
+that allows unprivileged processes to speak to privileged processes.
+
+it is a framework for centralizing the decision making process with respect to
+granting access to privileged operations (like calling the hal mount() method)
+for unprivileged (desktop) applications.

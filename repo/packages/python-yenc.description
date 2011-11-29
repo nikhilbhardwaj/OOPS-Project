@@ -1,0 +1,8 @@
+Yenc encoding/decoding extension for python
+	
+the yenc module provide a simple api for doing raw encoding/decoding of
+yencoded binaries, mainly for retrieving or posting to the usenet.
+this implementation is really simple and intended mainly as an exercise
+to the author but is also significatively faster than any possible pure
+python implementation and it's being actually used by some python nntp
+clients out there.

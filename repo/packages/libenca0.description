@@ -1,0 +1,7 @@
+Extremely naive charset analyser - shared library files
+	
+enca is an extremely naive charset analyser. it detects the character set and
+the encoding of text files and can also convert them to other encodings.
+
+this package contains the shared library needed to run applications compiled
+against libenca.

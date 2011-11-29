@@ -1,0 +1,9 @@
+Undernet irc server daemon
+	
+this is ircu, the undernet internet relay chat daemon, which allows
+interactive character based communication between people connected to
+this server with irc clients. it is based on the latest stable version
+which can be downloaded from http://coder-com.undernet.org/.
+
+this version is compiled for network usage but it can also run standalone.
+you can modify its behaviour with reconfiguring/rebuilding.

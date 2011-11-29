@@ -1,0 +1,18 @@
+Forensic tool to find hidden processes and ports
+	
+unhide is a forensic tool to find processes and tcp/udp ports hidden by
+rootkits, linux kernel modules or by other techniques. it includes two
+utilities: unhide and unhide-tcp.
+
+unhide detects hidden processes using three techniques:
+
+ * comparing the output of /proc and /bin/ps
+ * comparing the information gathered from /bin/ps with the one gathered from
+   system calls (syscall scanning)
+ * full scan of the process id space (pids bruteforcing)
+
+
+unhide-tcp identifies tcp/udp ports that are listening but are not listed in
+/bin/netstat through brute forcing of all tcp/udp ports available.
+
+this package can be used by rkhunter in its daily scans.

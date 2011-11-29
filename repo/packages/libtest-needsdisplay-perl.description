@@ -1,0 +1,15 @@
+Ensure that tests needing a display have one
+	
+when testing gui applications, sometimes applications or modules absolutely
+insist on a display, even just to load a module without actually showing any
+objects.
+
+regardless, this makes gui applications pretty much impossible to build and
+test on headless or automated systems. and it fails to the point of not even
+running the makefile.pl script because a dependency needs a display so it can
+be loaded to find a version.
+
+in these situations, what is needed is a fake display.
+
+the test::needsdisplay module will search around and try to find a way to load
+some sort of display that can be used for the testing.

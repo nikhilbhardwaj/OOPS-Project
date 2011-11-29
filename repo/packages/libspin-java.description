@@ -1,0 +1,13 @@
+Transparent threading solution for non-freezing swing applications
+	
+swing is the standard component architecture for developing java desktop
+applications. its exhaustive collection of widgets is the foundation for
+easy development of rich graphical user interfaces (gui).
+
+alas every non trivial gui sooner or later encounters the problem of
+"freeze". this annoying behaviour is experienced by users every time the
+application performs extensive calculations or blocks for network or disk
+i/o.
+
+spin offers a - to our knowledge - revolutionary new approach. it offers
+transparent thread handling with minimal impact on your application code.

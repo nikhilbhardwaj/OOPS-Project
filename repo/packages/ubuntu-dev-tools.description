@@ -1,0 +1,54 @@
+Useful tools for ubuntu developers
+	
+this is a collection of useful tools that ubuntu developers use to make their
+packaging work a lot easier.
+
+such tools include:
+
+
+ - 404main - used to check what components a package's deps are in, for
+   doing a main inclusion report for example.
+ - check-symbols - will compare and give you a diff of the exported symbols of
+   all .so files in a binary package.
+ - dch-repeat - used to repeat a change log into an older release.
+ - dgetlp - download a source package from the launchpad library.
+ - get-branches - used to branch/checkout all the bzr branches in a launchpad
+   team.
+ - get-build-deps - install the build dependencies needed for a package
+   reading debian/control.
+ - grab-attachments - download all bug attachments from a launchpad bug
+   report.
+ - grab-merge - grabs a merge from merges.ubuntu.com easily.
+ - hugdaylist - compile hugday lists from bug list urls.
+ - import-bug-from-debian - copy a bug from the debian bts to launchpad
+ - lp-project-upload - upload a release tarball to a launchpad project
+ - lp-set-dup - sets the "duplicate of" bug of a bug and its dups.
+ - manage-credentials - manage launchpad token credentials.
+ - massfile - fill multiple bugs using a template.
+ - merge-changelog - manually merges two debian changelogs with the same base
+   version.
+ - mk-sbuild - script to create lvm snapshot chroots via schroot and
+   sbuild.
+ - pbuilder-dist, cowbuilder-dist - wrapper script for managing several build
+   chroots (for different ubuntu and debian releases) on the same system.
+ - pull-debian-debdiff - attempts to find and download a specific version of
+   a debian package and its immediate parent to generate a debdiff.
+ - pull-debian-source - downloads the lastest source package available in
+   debian of a package.
+ - pull-lp-source - downloads lastest source package from launchpad.
+ - pull-revu-source - downloads the latest source package from revu
+ - requestsync - files a sync request with debian changelog and ratione.
+ - reverse-build-depends - find the reverse build dependencies that a package
+   has.
+ - setup-packaging-environment - assistant to get an ubuntu installation
+   ready for packaging work.
+ - submittodebian - automatically send your changes to debian as a bug report.
+ - suspicious-source - outputs a list of files which are not common source
+   files.
+ - syncpackage - helper to prepare .changes file to upload synced packages
+ - ubuntu-build - give commands to the launchpad build daemons from the
+   command line.
+ - ubuntu-iso - output information of an ubuntu iso image.
+ - update-maintainer - script to update maintainer field in ubuntu packages.
+ - what-patch - determines what patch system, if any, a source package is
+   using.

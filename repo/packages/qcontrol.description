@@ -1,0 +1,15 @@
+Hardware control for qnap turbo station devices
+	
+allows to send commands to the microcontroller of supported devices,
+for example to change leds or sound a buzzer.
+
+depending on the device it can also monitor for example for button
+presses or temperature, with events triggering actions defined in the
+configuration file.
+
+supported devices at this time are the qnap ts-109, ts-110, ts-119,
+ts-209, ts-210, ts-219, ts-219p, ts-409, ts-409u, ts-410, ts-410u,
+ts-419p and ts-419u but the code is extensible so more devices may
+be added in future releases.
+
+warning: the program is in alpha state, use at your own risk.

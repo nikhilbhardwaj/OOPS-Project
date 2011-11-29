@@ -1,0 +1,16 @@
+Biochemical algorithms library
+	
+ball (biochemical algorithms library) is an application framework
+in c++ that has been specifically designed for rapid software
+development in molecular modeling and computational molecular biology.
+it provides an extensive set of data structures as well as classes
+for molecular mechanics, advanced solvation methods, comparison and
+analysis of protein structures, file import/export, and visualization.
+ball is currently being developed in the groups of oliver kohlbacher
+(university of tuebingen, germany), andreas hildebrandt (saarland
+university, saarbruecken, germany), and hans-peter lenhof (saarland
+university, saarbruecken, germany).
+
+this package contains the view - independent parts of ball (libball,
+data directories et al., except for libview) and can be installed on
+machines without x11.

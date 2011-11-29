@@ -1,0 +1,8 @@
+Shared library for torque client and server
+	
+the torque server dispatches jobs across physically separated
+machines. it may also be beneficial for single machines to organise
+the sequential execution of multiple jobs.
+
+clients, mom and server all share a certain set of shared libraries
+that are combined in this library.

@@ -1,0 +1,7 @@
+Automatic moc for qt 4 packages
+	
+this package contains the automoc4 binary which is used to run moc on the right
+binaries in a qt 4 or kde 4 application.
+
+moc is the meta object compiler which is a much used tool when using the qt
+toolkit.

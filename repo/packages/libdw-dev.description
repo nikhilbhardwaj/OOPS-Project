@@ -1,0 +1,9 @@
+Libdw1 development libraries and header files
+	
+libdw1 provides a library that provides access to dwarf debug information
+stored inside elf files.
+
+this package contains development libraries and header files for libdw1.
+
+it also contains a static version of libdw.  only link to the static version
+for special cases and when you don't need anything from the ebl backends.

@@ -1,0 +1,4 @@
+PackageId:4730
+Name:fso-frameworkd
+Version:0.8.5.1-1
+Deps:alsa-utils,dbus,fso-gsm0710muxd,gstreamer0.10-alsa,ppp,python,python-dbus,python-gst0.10,python-serial,python-support,python-yaml

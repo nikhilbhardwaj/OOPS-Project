@@ -1,0 +1,6 @@
+Module for manipulating pod elements
+	
+pod::elemental is a system for treating perl's plain old documentation (pod)
+format as trees of elements. this model is similar in nature to, though less
+sophisticated than, the html document object model (dom). this makes it easy
+to perform many different transformations on the document data.

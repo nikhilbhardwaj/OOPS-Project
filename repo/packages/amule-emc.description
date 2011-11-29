@@ -1,0 +1,7 @@
+Lists ed2k links inside emulecollection files
+	
+amule-emc is a tool to parse emulecollection files and print out the
+ed2k links contained in them.
+
+it differs from 'ed2k' program (from amule-utils) since amule-emc just
+displays the links, while ed2k actually imports the collection into amule.

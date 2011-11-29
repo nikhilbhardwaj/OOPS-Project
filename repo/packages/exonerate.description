@@ -1,0 +1,15 @@
+Generic tool for pairwise sequence comparison
+	
+exonerate allows you to align sequences using a many alignment models, using
+either exhaustive dynamic programming, or a variety of heuristics. much of
+the functionality of the wise dynamic programming suite was reimplemented in c
+for better efficiency. exonerate is an intrinsic component of the building of
+the ensembl genome databases, providing similarity scores between rna and dna
+sequences and thus determining splice variants and coding sequences in
+general.
+
+an in-silico pcr experiment simulation system (see the ipcress man page) is
+packaged with exonerate.
+
+this package also comes with a selection of utilities for performing
+simple manipulations quickly on fasta files beyond 2gb

@@ -1,0 +1,6 @@
+Image output support for vnstat
+	
+vnstati provides image output support for statistics collected using
+vnstat. the image file format is limited to png. all basic outputs
+of vnstat are supported excluding live traffic features.
+the image can be outputted either to a file or to standard output.

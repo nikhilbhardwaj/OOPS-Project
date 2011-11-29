@@ -1,0 +1,14 @@
+Helper routines to access native code from java
+	
+the package presents a solution completely written in java to access
+native code.  features:
+
+ * java side declaration, no c compiler
+ * clean design
+ * transparent, easy deployment
+ * platform independent
+ * fast
+
+the effort relies on a combination of upstream's custom design for
+the call interface, memory abstraction and data structures and the
+basic native binding provided by any third party (currently jna).

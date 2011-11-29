@@ -1,0 +1,7 @@
+Perl module to read emails from a topica mailing list
+	
+this module screen scrapes the topica website and fetches back rfc822
+text representations of all the mails posted to a given list. where
+possible it fills in the from, to and date fields. it should be noted
+that in some cases it's impossible to get both the sender name and
+their email address.

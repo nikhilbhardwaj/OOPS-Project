@@ -1,0 +1,6 @@
+A ruby 1.8 mixin for creating command line applications
+	
+it provides a class based object to parse command line options. it supports
+long and short options, descriptions, and a number of other common features.
+
+this package contains mixlib-cli libraries for ruby 1.8.

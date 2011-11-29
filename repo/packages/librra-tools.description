@@ -1,0 +1,9 @@
+Library for synchronisation with windows mobile devices (tools)
+	
+rra provides the necessary low level magic to synchronise intelligently
+with windows mobile devices, allowing you to tell what's been
+created/changed/deleted since the last time the device was contacted.
+it can convert the internal windows mobile formats to standards such
+as vcard, vevent or vtodo.
+
+this package contains the rra tools.

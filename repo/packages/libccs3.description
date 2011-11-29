@@ -1,0 +1,10 @@
+Red hat cluster suite - cluster configuration libraries
+	
+this package is part of the red hat cluster suite, a complete
+high-availability solution.
+
+the ccs library provides a simplified xpath implementation to access
+cman/corosync configuration data via the same api as the old and
+deprecated libccs provided by ccsd.
+
+this package contains the client libraries.

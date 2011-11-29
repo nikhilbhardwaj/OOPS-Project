@@ -1,0 +1,7 @@
+The zope publisher publishes python objects on the web
+	
+zope.publisher allows you to publish python objects on the web. it has support
+for plain http/webdav clients, web browsers as well as xml-rpc and ftp clients.
+input and output streams are represented by request and response objects which
+allow for easy client interaction from python. the behaviour of the publisher
+is geared towards wsgi compatibility.

@@ -1,0 +1,14 @@
+Quick, light and effective text replacement tool
+	
+replaceit is a quick, light and effective replacement to the
+combination of sed/awk/grep/head/tail and other such shell utilities, as
+well as being quicker in startup (at least) than an equivalent perl
+solution.
+
+replaceit has various rules which can be used to enhance its abilities
+when negotiating tricky sections of text, whilst searching for the right
+one to replace, these include [ on same line ] string inclusion
+dependence, exclusion dependence, pre-existence, post-existence.
+
+note: replaceit is a line-by-line file parser, so it cannot (at this
+point) process across multiple \n[\r] terminated lines.

@@ -1,0 +1,15 @@
+Basic linear algebra reference implementations, shared library
+	
+this package is a binary incompatible upgrade to the blas package.
+several minor changes to the c interface have been incorporated.
+one can maintain both versions on a system simultaneously to aid
+in the transition.
+
+blas (basic linear algebra subroutines) is a set of efficient
+routines for most of the basic vector and matrix operations.
+they are widely used as the basis for other high quality linear
+algebra software, for example lapack and linpack.  this
+implementation is the fortran 77 reference implementation found
+at netlib.
+
+this package contains a shared version of the library.

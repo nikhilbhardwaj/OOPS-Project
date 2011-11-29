@@ -1,0 +1,4 @@
+Xine input plugin for vdr-plugin-xineliboutput streams
+	
+this plugin adds a new mrl "xvdr://" to xine, which allows to play back
+streams provided by vdr-plugin-xineliboutput.

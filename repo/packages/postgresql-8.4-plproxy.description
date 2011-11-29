@@ -1,0 +1,8 @@
+Pl/proxy is a proxy language used for remote database
+	
+pl/proxy is a proxy language used for remote database procedure calls
+and data partitioning between databases based on hashing field values.
+
+it's will be to create with same signature as remote function to be
+called, so only destination info needs to be specify inside proxy
+function body.

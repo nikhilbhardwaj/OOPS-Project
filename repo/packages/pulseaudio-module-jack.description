@@ -1,0 +1,9 @@
+Jackd modules for pulseaudio sound server
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+these modules enables pulseaudio to connect to a jackd daemon.
+
+the modules are called module-jack-sink, module-jack-source.

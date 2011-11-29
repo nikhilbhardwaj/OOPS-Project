@@ -1,0 +1,15 @@
+C development library for chinese lexicons related functions
+	
+libtabe is a c library which provides useful chinese lexicons
+functions/routines that deals with fundamental elements such as
+pronunciation (bopomofo), character frequency, word identification,
+and word frequency. it also comes with a large free word database,
+which is packaged as 'libtabe-db'.
+
+this package provides a static library version of libtabe and header
+files that are necessary for development works using libtabe, and also
+some example codes.
+
+for more information:
+
+    http://libtabe.sourceforge.net/

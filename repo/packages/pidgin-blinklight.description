@@ -1,0 +1,11 @@
+Blinks your thinkpad's thinklight upon new messages
+	
+this plugin for pidgin will blink your laptops when you get
+new messages, so you notice them even if the conversation window ist not up
+front and you don't have or don't see the window list.
+
+to use this with an thinkpad's thinklight, you need to have the ibm-acpi
+kernel module loaded.
+
+to use this with an asus laptop, you need to have the asus_acpi kernel
+module loaded.

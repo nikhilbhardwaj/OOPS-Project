@@ -1,0 +1,7 @@
+Wrappers for java executables
+	
+wrapper script facilities for java executables.
+
+this package can be used by packagers of java programs to
+provide java runtime detection, jar lookup and a consistent
+user interface (debugging, environment variables).

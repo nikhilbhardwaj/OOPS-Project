@@ -1,0 +1,6 @@
+Generic crc functions for perl
+	
+the digest::crc module calculates crc sums of all sorts.
+it contains wrapper functions with the correct parameters for crc-ccitt,
+crc-16 and crc-32. the module acts similar to libstring-crc32-perl, but
+implements the digest interface.

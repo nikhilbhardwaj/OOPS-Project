@@ -1,0 +1,9 @@
+Xml schema converter
+	
+trang converts between different schema languages for xml. it supports the
+following languages:
+
+ - relax ng (xml syntax)
+ - relax ng compact syntax
+ - xml 1.0 dtds
+ - w3c xml schema

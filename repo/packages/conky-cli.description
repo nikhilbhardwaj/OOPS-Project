@@ -1,0 +1,12 @@
+Highly configurable system monitor (basic version)
+	
+conky is a system monitor that can display just about anything,
+either on your root desktop or in its own window.
+conky has many built-in objects, as well as the ability to execute
+external programs or scripts (either external or through built-in
+lua support).
+
+this is a basic package that can be useful in servers or piped with dzen2.
+it includes the following support:
+
+mpd, moc, math, apcupsd, ncurses and i/o stats.

@@ -1,0 +1,7 @@
+Generate vf file from japanese tex tfm file for dvips
+	
+for japanese font, the real size of ps font and information of tfm file is
+a bit different and this causes unexpected output so we need vf file to
+fix this situation.
+
+this package provide a tool to generate such vf files from tfm files.

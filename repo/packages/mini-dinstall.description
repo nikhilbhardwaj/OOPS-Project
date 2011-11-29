@@ -1,0 +1,14 @@
+Daemon for updating debian packages in a repository
+	
+this program implements a miniature version of the "dinstall" program
+which installs packages in the debian archive.  it doesn't require a
+postgresql database, and is very easy to set up, maintain, and use.
+mini-dinstall can be run via cron, or as a daemon.
+
+this package is expressly designed for personal apt repositories, and
+the like.  in this vein, it contains fewer sanity checks; for
+example, it will happily install a lower version of a package.  you
+can also generally just 'rm' files from the repository, and
+mini-dinstall won't care.  in fact, (when run as a daemon) it will
+automatically detect that the directory changed, and update the
+packages file.

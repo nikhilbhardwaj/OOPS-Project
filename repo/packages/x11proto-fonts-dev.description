@@ -1,0 +1,10 @@
+X11 font extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for font-related extensions, used to control the server-side font
+configuration, and also the font server headers.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>

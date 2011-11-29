@@ -1,0 +1,8 @@
+Provides functions to remove accents using utf16 as a pivot
+	
+text::unaccent is a module that provides functions to remove accents
+from a string.  for instance the string été will become ete.  the
+charset of the input string is specified as an argument. the input is
+converted to utf-16 using iconv(3), accents are stripped and the
+result is converted back to the original charset. the iconv -l
+command on gnu/linux will show all charset supported.

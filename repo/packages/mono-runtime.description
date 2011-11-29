@@ -1,0 +1,13 @@
+Mono runtime
+	
+mono is a platform for running and developing applications based on the
+ecma/iso standards. mono is an open source effort led by novell.
+mono provides a complete clr (common language runtime) including compiler and
+runtime, which can produce and execute cil (common intermediate language)
+bytecode (aka assemblies), and a class library.
+
+this package contains the virtual machine, jit (just-in-time) and
+aot (ahead-of-time) code generator "mono".
+"mono" executes applications for the cli (common language infrastructure).
+mono currently only supports the x86, powerpc, arm, sparc, s/390, amd64 and
+ia64 architectures. optionally this package configures binfmt support.

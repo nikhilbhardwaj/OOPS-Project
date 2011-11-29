@@ -1,0 +1,7 @@
+Podcast aggregator/downloader
+	
+podracer is a podcast aggregator that gets enclosures from your
+list of podcast subscriptions and stores them in the location you
+specify. it supports bittorrent as well as http and even ftp distribution
+of podcasts. it may be run as a cron job to automatically retrieve
+podcasts throughout the day.

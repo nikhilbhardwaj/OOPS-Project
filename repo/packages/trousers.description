@@ -1,0 +1,11 @@
+Open-source tcg software stack (daemon)
+	
+trousers is an implementation of the trusted computing group's software stack
+(tss) specification. you can use trousers to write applications that make use
+of your tpm hardware. tpm hardware can create, store and use rsa keys securely
+(without ever being exposed in memory), verify a platform's software state
+using cryptographic hashes and more.
+
+trousers aims to be compliant with the 1.1b and 1.2 tss specifications
+available from the trusted computing group website at
+<http://www.trustedcomputinggroup.org/>.

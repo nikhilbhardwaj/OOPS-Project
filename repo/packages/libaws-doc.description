@@ -1,0 +1,11 @@
+Ada web server documentation
+	
+aws is a complete framework to develop web based applications. the
+main part of the framework is the embedded web server. this small yet
+powerful web server can be embedded into your application so your
+application will be able to talk with a web browser. around this web
+server a lot of services have been developed.
+
+this package contains the documentation for the ada web server in
+info, ascii and html formats, as well as demos and source code of
+reusable web elements.

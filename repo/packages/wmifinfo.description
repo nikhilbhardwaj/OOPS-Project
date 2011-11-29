@@ -1,0 +1,5 @@
+Dockapp that shows information for all interfaces
+	
+wmifinfo is a simple applet showing basic network info for all available
+interfaces. it shows ip address, netmask, gateway and mac address in a
+similar way to ifconfig.

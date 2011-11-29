@@ -1,0 +1,9 @@
+Core libraries for the merb mvc framework
+	
+ruby-based mvc framework that is agnostic to orm, javascript library,
+and template languages. merb is plugin-based, so the core is small and
+well organized.
+
+this package is a dependency package, which depends on the package
+containing actual ruby merb-core libraries for the default ruby version
+(currently 1.8).

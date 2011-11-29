@@ -1,0 +1,4 @@
+PackageId:7401
+Name:ifgate
+Version:2.14tx8.10-20
+Deps:exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,ifmail,inn,news-transport-system,cyrus-nntpd-2.2,inn2,inn2-lfs,leafnode,sn,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgdbm3

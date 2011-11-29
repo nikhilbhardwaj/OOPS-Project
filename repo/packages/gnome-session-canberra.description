@@ -1,0 +1,5 @@
+Gnome session log in and log out sound events
+	
+produce sound events on gnome session log in and log out.
+
+this package is using canberra-gtk-play from libcanberra.

@@ -1,0 +1,9 @@
+Secure, trust-based peer-to-peer framework (qt client debug)
+	
+gnunet is a peer-to-peer framework which focuses on providing security. all
+link-to-link messages in the network are confidential and authenticated. the
+framework provides a transport abstraction layer and can currently encapsulate
+the peer-to-peer traffic in udp, tcp, or smtp messages.
+
+this package contains the debugging symbols for the graphical client, using the
+qt toolkit.

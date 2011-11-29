@@ -1,0 +1,9 @@
+Lightweight sqlite-specific orm
+	
+orlite is a perl module that implements an object-relational mapper designed
+specifically for sqlite. it follows many of the same principles as the ::tiny
+series of modules and has a design that aligns directly to the capabilities
+of sqlite.
+
+orlite discovers the schema of a sqlite database, and then deploys a set of
+packages for talking to that database.

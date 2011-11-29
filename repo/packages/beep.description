@@ -1,0 +1,8 @@
+Advanced pc-speaker beeper
+	
+beep does what you'd expect: it beeps. but unlike printf "\a" beep allows
+you to control pitch, duration, and repetitions. its job is to live inside
+shell/perl scripts and allow more granularity than one has otherwise. it is
+controlled completely through command line options. it's not supposed to be
+complex, and it isn't - but it makes system monitoring (or whatever else it
+gets hacked into) much more informative.

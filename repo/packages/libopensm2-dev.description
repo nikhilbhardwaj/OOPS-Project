@@ -1,0 +1,8 @@
+Header files for compiling against libopensm
+	
+opensm provides an implementation of an infiniband subnet manager (sm) and
+administrator (sa). one subnet manager is required to run on each infiniband
+subnet in order to initialize the infiniband hardware.
+
+this package contains the header files for compiling applications
+against libopensm.

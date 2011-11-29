@@ -1,0 +1,7 @@
+A general makefile for the objective caml programming language
+	
+ocamlmakefile is a general makefile which allows a programmer to
+create quickly customized makefiles for a project written in the
+objective caml programming language. typically, a customized makefile
+consists of the definition of a few variables, and an inclusion of
+the general makefile provided by this package.

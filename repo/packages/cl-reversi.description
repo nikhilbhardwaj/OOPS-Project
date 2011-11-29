@@ -1,0 +1,6 @@
+Reversi game for common lisp
+	
+this package is based on peter norvig's reversi program in the book
+paradigms of artificial intelligence. compared to the code in the book,
+this package employs significant optimizations and includes a clim-based
+graphical user interface.

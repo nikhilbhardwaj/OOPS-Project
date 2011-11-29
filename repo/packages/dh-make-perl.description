@@ -1,0 +1,11 @@
+Helper for creating debian packages from perl modules
+	
+dh-make-perl will create the files required to build a debian source
+package out of a perl package.  this works for most simple packages
+and is also useful for getting started with packaging perl modules.
+given a perl package name, it can also automatically download it from
+cpan.
+
+dh-make-perl can also help keeping the debian/ content current when upstream
+dependencies or debian practices change. it can also help improve existing
+perl module packages.

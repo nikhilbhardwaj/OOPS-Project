@@ -1,0 +1,6 @@
+Module for validating cgi parameters
+	
+cgi::validop is a perl module that validates cgi parameters and manages run
+modes. because cgi parameter validation is boring, it's easy to get wrong or
+ignore. it removes as much of the repetition as possible out of this task by
+replacing it with a simple interface.

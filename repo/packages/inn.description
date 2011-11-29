@@ -1,0 +1,21 @@
+News transport system `internetnews' by the isc and rich salz
+	
+this is inn version 1.x, provided for smaller sites which do not need
+the complexity of inn 2.x.
+large sites should use debian's inn2 package instead.
+
+the news transport is the part of the system that stores the articles
+and the lists of which groups are available and so on, and provides
+those articles on request to users.  it receives news (either posted
+locally or from a newsfeed site), files it, and passes it on to any
+downstream sites.  each article is kept for a period of time and then
+deleted (this is known as `expiry').
+
+by default debian's inn will install in a fairly simple `local-only'
+configuration.
+
+in order to make use of the services provided by inn you'll have to
+use a user-level newsreader program such as trn.  the newsreader is
+the program that fetches articles from the server and shows them to
+the user, remembering which the user has seen so that they don't get
+shown again.  it also provides the posting interface for the user.

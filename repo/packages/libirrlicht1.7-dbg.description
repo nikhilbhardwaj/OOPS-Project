@@ -1,0 +1,5 @@
+Debugging symbols for irrlicht
+	
+this package contains the debugging symbols associated with irrlicht.
+they will automatically be used by gdb for debugging irrlicht-related
+issues.

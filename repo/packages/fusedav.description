@@ -1,0 +1,11 @@
+Filesystem to mount webdav shares
+	
+fusedav is a userspace filesystem driver that allows you to mount webdav
+shares. this way you can transparently edit and manage files on a remote
+server.
+
+it uses fuse (filesystem in userspace), thus you need a fuse-enabled kernel.
+
+webdav (web-based distributed authoring and versioning) is a set of
+extensions to the http protocol which allows users to collaboratively edit
+and manage files on remote web servers.

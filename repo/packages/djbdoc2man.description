@@ -1,0 +1,5 @@
+Convert djb html documentation to man pages
+	
+this utility converts html documentation pages from d. j. bernstein
+(http://cr.yp.to/) to manual pages. just pipe in the html page and you'll
+get a manual page on stdout.

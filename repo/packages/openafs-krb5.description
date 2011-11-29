@@ -1,0 +1,10 @@
+Afs distributed filesystem kerberos 5 integration
+	
+afs is a distributed filesystem allowing cross-platform sharing of files
+among multiple computers.  facilities are provided for access control,
+authentication, backup and administrative management.
+
+this package provides aklog, a utility for authenticating to afs using
+kerberos 5.  it also provides asetkey, a utility to set afs server keys
+from a kerberos keytab, and ka-forwarder, a utility to forward kaserver
+requests to a kdc using fakeka.

@@ -1,0 +1,31 @@
+Data driven testing framework for perl
+	
+testing is usually the ugly part of perl module authoring. perl gives you a
+standard way to run tests with test::harness, and basic testing primitives
+with test::more. after that you are pretty much on your own to develop a
+testing framework and philosophy. test::more encourages you to make your own
+framework by subclassing test::builder, but that is not trivial.
+
+test::base gives you a way to write your own test framework base class that is
+trivial. in fact it is as simple as two lines:
+
+  package mytestframework;
+  use test::base -base;
+
+
+a module called mytestframework.pm containing those two lines, will give all
+the power of test::more and all the power of test::base to every test file
+that uses it. as you build up the capabilities of mytestframework, your tests
+will have all of that power as well.
+
+mytestframework becomes a place for you to put all of your reusable testing
+bits. as you write tests, you will see patterns and duplication, and you can
+"upstream" them into mytestframework. of course, you don't have to subclass
+test::base at all. you can use it directly in many applications, including
+everywhere you would use test::more.
+
+test::base concentrates on offering reusable data driven patterns, so that you
+can write tests with a minimum of code. at the heart of all testing you have
+inputs, processes and expected outputs. test::base provides some clean ways
+for you to express your input and expected output data, so you can spend your
+time focusing on that rather than your code scaffolding.

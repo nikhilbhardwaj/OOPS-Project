@@ -1,0 +1,15 @@
+Visual wikipedia browser
+	
+indywiki provides a visually-driven and intuitive way of browsing wikipedia.
+indywiki's window is split in two parts, one with images related to the
+current topic, and another with text and links from the current page.
+images are selected from the current page, the pages pointed to by the
+current one (forward links), and the pages that point to the current one
+(back-links). the text of the current page is presented one paragraph at a
+time, and the page's links are shown in a single list.
+
+in indywiki, one browses wikipedia by selecting either text links or images
+(the latter lead to the wiki page that contains the selected image).
+
+indywiki is not recommended for use with low-speed internet connections, as
+it downloads many images per page.

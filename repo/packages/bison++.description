@@ -1,0 +1,8 @@
+Generate a parser in c or c++ from bnf notation
+	
+based on bison version 1.19. compatible with bison but with c++ support.
+bison is a general-purpose parser generator that converts a grammar
+description for an lalr (bnf-like) context free grammar into a c/c++ program
+to parse that grammar. once you are proficient with bison++ you can generate
+a wide range of language parsers, from those used in simple desk calculators
+to complex programming languages.

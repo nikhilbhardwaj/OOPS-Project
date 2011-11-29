@@ -1,0 +1,11 @@
+A markdown-superset interpreter for ruby
+	
+maruku implements a superset of the markdown language, designed to
+easily create html documents while only focusing on the high-level
+structure and not the details. maruku also supports latex export,
+which means you can produce pdf output.
+
+maruku prides itself of being decently fast on long documents.
+
+this package is a dependency package that pulls in the correct package
+for the current default version of ruby.

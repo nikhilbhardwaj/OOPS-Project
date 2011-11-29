@@ -1,0 +1,7 @@
+Integrated api for inspecting perl distributions
+	
+module::inspector provides an unified and easy to use api for examining perl
+module distributions, either unrolled on disk or as a tarball.
+
+it provides a single api for accessing various module features, such as
+dependencies, regardless of the method used by the module to describe them.

@@ -1,0 +1,10 @@
+Vala binding-generator for xml introspection files
+	
+vala is a novel language that has many adopters among the
+developers of the freesmartphone.org software stack
+that is targeted for smartphones. here, the dbus orchestrates
+many collaborating tools, which all need to be build against
+compatible versions of the dbus specifications.
+
+this package automates the creation of gobject interfaces out
+of dbus xml specifications.

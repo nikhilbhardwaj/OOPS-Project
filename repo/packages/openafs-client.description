@@ -1,0 +1,9 @@
+Afs distributed filesystem client support
+	
+afs is a distributed filesystem allowing cross-platform sharing of
+files among multiple computers.  facilities are provided for access
+control, authentication, backup and administrative management.
+
+this package provides basic client support to mount and manipulate
+afs.  if your site uses kerberos v5 authentication for afs, you will also
+want to install openafs-krb5.

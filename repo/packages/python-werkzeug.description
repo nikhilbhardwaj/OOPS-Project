@@ -1,0 +1,9 @@
+Collection of utilities for wsgi applications
+	
+the web server gateway interface (wsgi) is a standard interface between web
+server software and web applications written in python.
+
+werkzeug is a lightweight library for interfacing with wsgi. it features
+request and response objects, an interactive debugging system and a powerful
+uri dispatcher. combine with your choice of third party libraries and
+middleware to easily create a custom application framework.

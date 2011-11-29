@@ -1,0 +1,13 @@
+A general-purpose genetic algorithm package
+	
+pgapack is a general-purpose, data-structure-neutral, parallel genetic
+algorithm package being developed at argonne national laboratory.
+
+this package contains a shared and a static library configured for
+serial 'single-cpu' processing. the static library also contains debugging
+information.  the sibbling package pgapack-mpi1 is configured for mpi
+parallel processing.
+
+this version is configured for single-cpu serial processing. the
+libpgapack-mpi1 package contains the library for distributed
+programming.

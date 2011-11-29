@@ -1,0 +1,7 @@
+A fully compliant haskell 98 lexer
+	
+a fully compliant haskell 98 lexer written in haskell. the lexer produces
+a list tuples containing a token type identifier, its position and the tokem
+string.
+
+this package contains the libraries compiled for ghc 6.

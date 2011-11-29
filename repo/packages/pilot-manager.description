@@ -1,0 +1,7 @@
+Palmpilot pim, ui, and conduit manager
+	
+pilotmanager is a tool that allows you to synchronize databases on your
+3com palmpilot with applications on your unix platform. it is a full
+hotsync daemon that is user extensible.  developers can write their own
+conduits to synchronize pilot databases with the desktop application of
+their choice.

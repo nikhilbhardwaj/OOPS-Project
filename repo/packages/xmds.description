@@ -1,0 +1,8 @@
+Extensible multi-dimensional simulator
+	
+xmds is a code generator that integrates equations, from ordinary
+differential equations (odes) up to stochastic partial differential
+equations (pdes). you write them down in human readable form in an
+xml file, and it goes away and writes and compiles a c++ program that
+integrates those equations as fast as it can possibly be done in your
+architecture.

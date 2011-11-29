@@ -1,0 +1,4 @@
+Gnu internationalization utilities for the base system
+	
+this package includes the gettext and ngettext programs which allow
+other packages to internationalize the messages given by shell scripts.

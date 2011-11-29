@@ -1,0 +1,6 @@
+Allows programming jtag capable devices such as cpus or fpgas
+	
+the openwince-jtag package contains the jtag tool which allows
+working with jtag aware hardware devices and boards using a jtag adaptor.
+it's possible to program new firmware into flash chips or download bitstreams
+to fpgas with this tool.

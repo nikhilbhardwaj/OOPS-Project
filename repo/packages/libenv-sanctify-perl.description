@@ -1,0 +1,9 @@
+Perl module providing lexically scoped environment (%env)
+	
+env::sanctify is a module that provides lexically scoped manipulation and
+sanctification of %env. with this module, one can add or alter environment
+variables, later restoring the environment back either manually or
+automatically once the object falls out of scope.
+
+this is useful for manipulating the environment that forked processes and
+sub-processes will inherit.

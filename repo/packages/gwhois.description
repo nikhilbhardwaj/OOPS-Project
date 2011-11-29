@@ -1,0 +1,8 @@
+Generic whois client / server
+	
+gwhois is a generic whois client / server. this means that it know
+for many (virtually all) tlds, ip-ranges and handles out there where
+to ask. it queries other whois-servers as well as web-lookup forms.
+
+gwhois can be used as a client, but you can invoke it as a server
+(e.g. via inetd) as well for usage with a normal whois client.

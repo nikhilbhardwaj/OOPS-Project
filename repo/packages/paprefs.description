@@ -1,0 +1,8 @@
+Pulseaudio preferences
+	
+pulseaudio, previously known as polypaudio, is a sound server for posix and
+win32 systems. it is a drop in replacement for the esd sound server with
+much better latency, mixing/re-sampling quality and overall architecture.
+
+pulseaudio preferences (paprefs) is a simple gtk+ based configuration dialog
+for the pulseaudio sound server.

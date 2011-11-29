@@ -1,0 +1,6 @@
+Enlightened terminal emulator
+	
+a terminal emulator in the spirit of xterm or rxvt, eterm uses an
+enlightenment style config file, as well as themes.  the imlib2 graphics
+engine is used to render images. this version supports background images,
+pixmapped scrollbars, pseudo-transparency, and posix threads.

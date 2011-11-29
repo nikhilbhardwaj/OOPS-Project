@@ -1,0 +1,12 @@
+Gramophone ii is an algorithmic music generator
+	
+gramophone is partly based on an idea of jon mccormack’s, who invented
+the idea of a virtual player (virtual musician). the player in question
+is associated with a midi track, and interprets instructions telling it
+what to do. generally, they say play notes (send midi messages).
+gramophone’s players together make up an orchestra, which plays a
+composition. any number of players can play a composition, but in practice
+the hardware used might impose an upper limit. in general every player
+plays an instrument and each has a different set of  grammar rules.
+an individual player is characterised by a set of parameters which are
+shared by the whole orchestra and/or a personal parameter set.

@@ -1,0 +1,7 @@
+Create tables that adapt to alignment requirements
+	
+you create a text::table object by describing the columns the table
+is going to have. then you load lines of data into the table, and
+finally print the resulting output lines. alignment of data and
+column titles is handled dynamically in dependence on the data
+present.

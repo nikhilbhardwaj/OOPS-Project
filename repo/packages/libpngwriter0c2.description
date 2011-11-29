@@ -1,0 +1,13 @@
+Easy to use graphics library (runtime)
+	
+pngwriter is a very easy to use open source graphics library that uses
+png as its output format. the interface has been designed to be as simple
+and intuitive as possible. it supports plotting and reading in the rgb
+(red, green, blue), hsv (hue, saturation, value/brightness) and cmyk
+(cyan, magenta, yellow, black) colour spaces, basic shapes, scaling, bilinear
+interpolation, full truetype antialiased and rotated text support, bezier
+curves, opening existing png images and more. documentation in english and
+spanish. runs under linux, unix, mac os x and windows.
+
+in this package you can find the shared library, necessary for execution
+environments using pngwriter.

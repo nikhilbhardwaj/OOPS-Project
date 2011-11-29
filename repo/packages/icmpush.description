@@ -1,0 +1,12 @@
+Icmp packet builder
+	
+icmpush is a tool that builds icmp packets fully customized
+from command line.
+
+it supports the following icmp error types: redirect, source
+quench, time exceeded, destination unreach and parameter
+problem.
+
+and the following icmp information types: address mask request,
+timestamp, information request, echo request, router solicitation
+and router advertisement.

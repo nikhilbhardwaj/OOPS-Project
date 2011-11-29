@@ -1,0 +1,8 @@
+System administration tool to manage gnome desktop settings
+	
+sabayon provides a sane way to edit gconf defaults and gconf mandatory keys:
+the same way you edit your desktop.
+
+sabayon launches profiles in an xnest window. any changes you make in the
+xnest window are saved back to the profile file, which can then be applied
+to user's accounts.

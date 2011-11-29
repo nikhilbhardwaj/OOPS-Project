@@ -1,0 +1,14 @@
+Everything browser, or dired on steroids
+	
+speedbar is an emacs lisp program which allows you to create a
+special skinny frame with a specialized directory listing in it.
+this listing will have both directories and filtered files in it.
+you can then load files into your emacs frame, or expand the files to
+display all the tags that are in them and jump to those tags.  you
+can also expand multiple directories into your speedbar frame.  it
+supports file/directory trees, info manuals, eieio class browsing,
+project browsing, context analysis/autocomplete, eirc groups, xshtml,
+and vhdl. it can be rigged to display just about anything.
+
+speedbar is now a part of cedet (collection of emacs development
+environment tools).

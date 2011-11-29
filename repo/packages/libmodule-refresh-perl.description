@@ -1,0 +1,8 @@
+Refresh %inc files when updated on disk
+	
+module::refresh is a generalization of the functionality provided by
+apache::statinc and apache::reload.  it's designed to make it
+easy to do simple iterative development when working in a persistent
+environment.
+
+it does not require mod_perl.

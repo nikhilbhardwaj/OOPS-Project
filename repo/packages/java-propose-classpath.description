@@ -1,0 +1,8 @@
+Helper script to suggest a classpath for jar files
+	
+java-propose-classpath analyzes a set of jar files and the installed
+jars on the system to suggest a correct classpath for use with
+jh_classpath/jh_manifest
+
+this package should not be in any build-depends since java-propose-classpath
+cannot be run automatically.

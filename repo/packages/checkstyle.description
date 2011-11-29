@@ -1,0 +1,11 @@
+Checks java source against a coding standard
+	
+checkstyle is a development tool to help programmers write java code that
+adheres to a coding standard. it automates the process of checking java
+code to spare humans of this boring (but important) task. this makes it
+ideal for projects that want to enforce a coding standard.
+
+checkstyle is highly configurable and can be made to support almost any
+coding standard. an example configuration file is supplied supporting the
+sun code conventions. as well, other sample configuration files are
+supplied for other well known conventions.

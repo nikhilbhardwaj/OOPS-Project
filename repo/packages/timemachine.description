@@ -1,0 +1,13 @@
+Jack audio recorder for spontaneous and conservatory use
+	
+timemachine writes the last 10 seconds of audio _before_ the button press
+and everything from now on up to the next button press into a wav-file.
+
+the idea is that you doodle away with whatever is kicking around in your
+studio and when you heard an interesting noise, you'd press record and
+capture it, without having to try and recreate it.
+
+it uses the jack audio connection kit, an api that lets audio application
+communicate with each other and share audio data in realtime.
+
+website: <http://plugin.org.uk/timemachine/>.

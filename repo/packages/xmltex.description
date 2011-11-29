@@ -1,0 +1,7 @@
+Tex package for processing xml files
+	
+xmltex is a non-validating, namespace-aware xml parser written
+in tex.  it allows tex to directly process xml files.
+
+this package also contains the extension passivetex, see
+http://www.tei-c.org.uk/software/passivetex/ for more details.

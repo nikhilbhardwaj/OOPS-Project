@@ -1,0 +1,14 @@
+Gnome integration layer for geogebra
+	
+geogebra is a dynamic geometry system. you can do constructions with points,
+vectors, segments, lines, conic sections as well as functions and change
+them dynamically afterwards. on the other hand, equations and coordinates
+can be entered directly.
+
+support for many geometric constructions is provided, as well as support
+for many elementary calculus-based tools (derivatives, osculating circle, ...).
+
+geogebra files can be exported in many different formats, or as interactive
+applets for web pages.
+
+this package contains the gnome thumbnailer for the geogebra file format.

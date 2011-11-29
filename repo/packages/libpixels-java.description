@@ -1,0 +1,18 @@
+Manipulation and filtering of images in java
+	
+a large number of java image filters which are all standard java
+bufferedimageops and can be plugged directly into existing programs.
+
+many of these filters are useful in applications such as games where images
+need to be generated on the fly, or where it's quicker to generate them rather
+than downloading them. for instance, it's quicker to download one image and
+rotate it several times than to download several separate images.
+
+another use for the filters is in animation. for example animating the water
+ripple filter can produce a nice rippling effect. some of the filters have a
+time parameter for this purpose.
+
+all of the filters are designed to work with type_int_argb images.
+
+more info and samples can be found in
+http://www.jhlabs.com/ip/filters/index.html

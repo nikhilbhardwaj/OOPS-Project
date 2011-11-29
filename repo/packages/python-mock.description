@@ -1,0 +1,8 @@
+Mocking and testing library
+	
+mock provides a core mock.mock class that is intended to reduce the
+need to create a host of trivial stubs throughout your test suite.
+after performing an action, you can make assertions about which methods
+/ attributes were used and arguments they were called with. you can
+also specify return values and set specific attributes in the normal
+way.

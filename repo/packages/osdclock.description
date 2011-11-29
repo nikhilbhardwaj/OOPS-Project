@@ -1,0 +1,6 @@
+Clock using the xosd library
+	
+a clock which uses the x on-screen display library to display itself.
+
+it supports a strftime(3)-style format parameter and can be configured to show
+up only at specific intervals.

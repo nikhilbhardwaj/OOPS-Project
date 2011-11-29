@@ -1,0 +1,10 @@
+Perl module to manipulate perl module names
+	
+module::util provides useful functions to manipulate module names. its main
+aim is to centralise some of the functions commonly used by modules that
+manipulate other modules in some way, like converting module names to relative
+paths.
+
+it also provides some general utility functions for working with modules, such
+as determining whether a string "looks like" a module name, or testing if a
+module is loaded (using %inc magic).

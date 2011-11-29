@@ -1,0 +1,13 @@
+Client to alleviate the requirements for an internet name
+	
+with this package the user can have an internet name for his host
+even though he might not have a name server or a static ip. it works
+by being a client of a supposedly open name server and updating the
+server's records when the need arise. a partial list of the servers
+that are supported is http://{www.dyndns.org,freedns.afraid.org,
+www.zoneedit.com,www.no-ip.com}. some of the services of these servers
+are free of charge.
+this is a command line tool that is written in portable ansi c with a
+little os abstraction layer. it can maintain multiple host names with
+the same ip address, and has a web based ip detection which runs well
+behind a nat router.

@@ -1,0 +1,17 @@
+Deps command-line tools
+	
+currently only contains the limited "graph-includes" tool.
+
+graph-includes creates a graph of dependencies between source-files
+and/or groups of source-files, with an emphasis on getting readable
+and usable graphs even for large projects.
+
+usability of the dependency graphs are currently improved by:
+
+ - customizable grouping of several source files into a single node
+ - transitive reduction of the graph
+
+
+it currently supports graphing the c/c++ #include relationship, using
+graphviz by default.  limited support is provided to draw 3d graphs
+using tulip.

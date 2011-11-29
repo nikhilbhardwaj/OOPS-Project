@@ -1,0 +1,6 @@
+Erlang major editing mode for emacs
+	
+this package includes the mode for editing erlang programs in gnu emacs.
+it is provided with the default erlang/otp distribution. it supports
+sophisticated indentation, syntax highlighting, electric commands,
+module name verification, comments, skeletons, tags etc.

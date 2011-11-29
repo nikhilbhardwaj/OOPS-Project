@@ -1,0 +1,8 @@
+A priority queue extension for python
+	
+this c extension implements a priority-queue object using a fibonacci
+heap as the underlying data structure.  it supports insertion,
+deletion, and reprioritization of entries.
+
+all operations are o(log n) or faster; insertion and finding the
+lowest-priority item are o(1).

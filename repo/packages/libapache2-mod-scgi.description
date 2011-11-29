@@ -1,0 +1,9 @@
+Apache module implementing the scgi protocol
+	
+the scgi protocol is a replacement for the common gateway
+interface (cgi) protocol. it is a proposed standard for
+applications to interface with http servers. it is similar to
+fastcgi but is designed to be easier to implement.
+
+this package is an apache module implementing the client side of
+the protocol.

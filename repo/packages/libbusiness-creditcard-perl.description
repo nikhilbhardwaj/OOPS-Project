@@ -1,0 +1,16 @@
+Validate/generate credit card checksums/names
+	
+these subroutines tell you whether a credit card number is
+self-consistent -- whether the last digit of the number is a valid
+checksum for the preceding digits.
+
+the validate() subroutine returns 1 if the card number provided passes
+the checksum test, and 0 otherwise.
+
+the cardtype() subroutine returns a string containing the type of
+card: "mastercard", "visa", and so on.  my list is not complete;
+i welcome additions.
+
+the generate_last_digit() subroutine computes and returns the last
+digit of the card given the preceding digits.  with a 16-digit card,
+you provide the first 15 digits; the subroutine returns the sixteenth.

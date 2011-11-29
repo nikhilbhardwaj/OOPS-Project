@@ -1,0 +1,5 @@
+Communicate with the i3 window manager
+	
+this perl module provides integration of the i3 ipc protocol into the
+anyevent framework. use it to have an easy way of communicating with
+i3 using event-based (or blocking, if you like) programming.

@@ -1,0 +1,7 @@
+Communication through internet sokects in octave
+	
+this package provides functions to work with sockets in octave,
+mimicking the unix socket api (socket, connect, disconnect,
+gethostbyname, send, recv, bind, listen, and accept)
+
+this octave add-on package is part of the octave-forge project.

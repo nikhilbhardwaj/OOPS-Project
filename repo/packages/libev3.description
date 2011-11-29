@@ -1,0 +1,12 @@
+High-performance event loop library modelled after libevent
+	
+libev provides a full-featured and high-performance event loop that is
+loosely modelled after libevent. it includes relative timers, absolute
+timers with customized rescheduling, synchronous signals, process status
+change events, event watchers dealing with the event loop itself, file
+watchers, and even limited support for fork events. it uses a priority
+queue to manage timers and uses arrays as fundamental data structure. it
+has no artificial limitations on the number of watchers waiting for the
+same event.
+
+libev supports select, poll, epoll, kqueue, and inotify.

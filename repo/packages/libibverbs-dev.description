@@ -1,0 +1,14 @@
+Development files for the libibverbs library
+	
+libibverbs is a library that allows userspace processes to use rdma
+"verbs" as described in the infiniband architecture specification and
+the rdma protocol verbs specification.  iwarp ethernet nics support
+rdma over hardware-offloaded tcp/ip, while infiniband is a
+high-throughput, low-latency networking technology.  infiniband host
+channel adapters (hcas) and iwarp nics commonly support direct
+hardware access from userspace (kernel bypass), and libibverbs
+supports this when available.
+
+this package is needed to compile programs against libibverbs1.
+it contains the header files and static libraries (optionally)
+needed for compiling.

@@ -1,0 +1,7 @@
+Command-line spf query tool
+	
+the spfqtool can be used to test spf ("sender policy framework") policies. it
+takes a sender and a recipient email, a source ip address and an smtp helo
+name. using the spf policy announced by the sender's email address domain,
+the tool shows whether an email with the two correspondents would be allowed
+to originate from the given ip address.

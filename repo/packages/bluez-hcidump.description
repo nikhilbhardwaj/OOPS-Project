@@ -1,0 +1,8 @@
+Analyses bluetooth hci packets
+	
+the hcidump utility allows the monitoring of bluetooth activity.
+it provides a disassembly of the bluetooth traffic and can display
+packets from higher level protocols such as rfcomm, sdp and bnep.
+
+hcidump is part of the bluez bluetooth linux project.  for more information
+see http://www.bluez.org .

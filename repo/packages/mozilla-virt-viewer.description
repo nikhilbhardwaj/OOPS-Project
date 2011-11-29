@@ -1,0 +1,11 @@
+A virt-viewer widget for gtk+ (mozilla plugin)
+	
+the console is accessed using the vnc protocol. the guest can be referred to
+based on its name, id, or uuid. if the guest is not already running, then the
+viewer can be told to wait until is starts before attempting to connect to the
+console the viewer can connect to remote hosts to lookup the console
+information and then also connect to the remote console using the same network
+transport.
+
+this package contains the experimental mozilla plugin. the plugin is not
+secure. plase check the readme.

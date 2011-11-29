@@ -1,0 +1,14 @@
+User-space access to linux kernel sctp - development files
+	
+this package contains all necessary files for developing sctp aware
+network applications using the linux kernel sctp implementation.
+it is part of the lksctp project for the linux kernel sctp
+reference implementation.
+
+it includes man pages, header files, static libraries, symlinks to
+dynamic libraries and tutorial source code.
+
+sctp (stream control transmission protocol) is a message oriented,
+reliable transport protocol, with congestion control, support for
+transparent multi-homing, and multiple ordered streams of messages.
+rfc2960 defines the core protocol.

@@ -1,0 +1,7 @@
+Tool to measure design quality of java class and source
+	
+jdepend traverses java class and source file directories and
+generates design quality metrics for each java package. jdepend allows
+you to automatically measure the quality of a design in terms of its
+extensibility, reusability, and maintainability to effectively manage
+and control package dependencies.

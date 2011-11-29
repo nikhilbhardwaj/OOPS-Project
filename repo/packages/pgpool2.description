@@ -1,0 +1,11 @@
+Connection pool server and replication proxy for postgresql
+	
+pgpool is a connection pool server for postgresql, running between
+postgresql's client and server.  any postgresql client can connect to
+pgpool as if it's a real postgresql server; pgpool caches the
+connection to the postgresql server to reduce the overhead involved in
+establishing the connection to it.  pgpool-ii can also be used to
+execute queries simultaneously on several servers, that is, "parallel
+query" processing.  finally, pgpool can be used for fail over purposes.
+if the first server goes down, pgpool will automatically switch to the
+secondary server.

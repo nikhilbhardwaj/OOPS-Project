@@ -1,0 +1,10 @@
+Opengl tubing and extrusion library development files
+	
+the gle tubing and extrusion library is an extension to opengl for drawing
+tubing and extrusions, including surfaces of revolution, sweeps, tubes,
+polycones, polycylinders, and helicoids.  generally the extruded surface
+is specified with a 2d polyline that is extruded along a 3d path.  a local
+coordinate system allows for additional flexibility in the primitives
+drawn.  extrusions may be texture mapped in a variety of ways.
+
+this package contains header files and static libraries.

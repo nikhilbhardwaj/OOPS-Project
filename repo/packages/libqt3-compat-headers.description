@@ -1,0 +1,9 @@
+Qt 1.x and 2.x compatibility includes
+	
+this package contains header files that are intended for build
+compatibility for applications that build with qt3 but still use
+deprecated includes. it is meant as an intermediate solution and
+these header files are not part of the official qt3 api.
+all sourcecode that is still using the headers of this package is
+subject to be changed to use the new header files which are in
+libqt3-headers.

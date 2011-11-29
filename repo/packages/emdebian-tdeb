@@ -1,0 +1,4 @@
+PackageId:3734
+Name:emdebian-tdeb
+Version:2.2.7+i18n
+Deps:debhelper,devscripts,dpkg-dev,gettext,libconfig-auto-perl,libparse-debcontrol-perl,perl

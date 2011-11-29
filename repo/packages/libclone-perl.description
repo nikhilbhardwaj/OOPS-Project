@@ -1,0 +1,10 @@
+Recursively copy perl datatypes
+	
+the clone module provides a clone() method which makes recursive copies of
+nested hash, array, scalar and reference types, including tied variables and
+objects.
+
+it is faster (although less flexible) than storable's dclone. its
+functionality is _not_ serializing in-memory objects (i.e. as
+data::dumper or yaml::dump do), but deep-copying them over to new
+in-memory structures.

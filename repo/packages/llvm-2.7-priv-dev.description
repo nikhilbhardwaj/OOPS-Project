@@ -1,0 +1,7 @@
+Low-level virtual machine (llvm), ccache files
+	
+this package contains the ccache files from latest upload. it allows the
+tools to build much faster, and prevents llvm from being uselessly built
+twice.
+
+do not install unless you intend to build llvm from sources!

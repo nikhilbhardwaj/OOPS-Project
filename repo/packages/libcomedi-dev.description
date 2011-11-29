@@ -1,0 +1,9 @@
+Development library for comedi
+	
+comedilib is a library for using comedi, a driver interface for data
+acquisition hardware.
+
+this package contains headers, static libraries, documentation, and
+examples for writing software that uses the comedilib library.  you
+only need to install it if you plan to develop or compile software
+that uses comedilib.

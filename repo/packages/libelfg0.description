@@ -1,0 +1,11 @@
+An elf object file access library
+	
+the elf library provides routines to access, and manipulate, elf object
+files. it is still not complete, but is required for a number of programs,
+such as eli (a state of the art compiler generation system), and elk (the
+extension language kit - an implementation of the scheme programming
+language.)
+
+this shared library may be needed by pre-packaged programs. to compile
+programs with this library, you will need to install the libelfg0-dev
+package as well.

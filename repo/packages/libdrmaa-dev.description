@@ -1,0 +1,9 @@
+Distributed resource management application api library
+	
+drmaa (distributed resource management application api) is a specification
+developed by a working group in the global grid forum (ggf).  the intention
+is to provide an api specification for the submission and control of jobs
+to one or more distributed resource management (drm) systems.
+
+this package contains the development files for the library which provides
+the grid engine implementation of the drmaa specification.

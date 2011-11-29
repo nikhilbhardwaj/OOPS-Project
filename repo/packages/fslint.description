@@ -1,0 +1,13 @@
+A utility to fix problems with filesystems' data, like duplicate files
+	
+fslint is a toolkit to clean filesystem lint. it includes a gtk+ gui
+as well as a command line interface and can be used to reclaim disk space.
+it has an interface for uninstalling packages, and it can find things like:
+
+
+   - duplicate files
+   - problematic filenames
+   - temporary files
+   - bad symlinks
+   - empty directories
+   - nonstripped binaries

@@ -1,0 +1,13 @@
+A command line midi player for alsa
+	
+alsa is an effort to create a modules sound system for linux,
+while maintaining full compatibility with oss/lite.
+
+this program works with latest alsa 1.0 drivers and former 0.9 versions.
+
+this is a straightforward command line program to play midi files
+through the alsa sequencer.
+
+as you can specify the client and port to connect to on the command
+line it is also useful for testing alsa or clients that need to receive
+sequencer events.

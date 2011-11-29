@@ -1,0 +1,5 @@
+Dynamic kernel module support framework
+	
+dkms is a framework designed to allow individual kernel modules to be upgraded
+without changing the whole kernel. it is also very easy to rebuild modules as
+you upgrade kernels.

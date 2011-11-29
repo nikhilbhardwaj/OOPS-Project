@@ -1,0 +1,6 @@
+C++ bindings for gtkglext (shared libraries)
+	
+gtkglextmm is a c++ wrapper for gtkglext. c++ programmers can use it to
+write gtk+-based opengl applications using gtkmm 2.
+
+this package contains the shared libraries.

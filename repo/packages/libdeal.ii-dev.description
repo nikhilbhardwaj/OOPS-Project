@@ -1,0 +1,11 @@
+Finite element library - development files
+	
+deal.ii is a c++ program library targeted at the computational
+solution of partial differential equations using adaptive finite elements.
+it uses state-of-the-art programming techniques to offer you a modern
+interface to the complex data structures and algorithms required.  the main
+aim of deal.ii is to enable rapid development of modern finite element codes,
+using among other aspects adaptive meshes and a wide array of tools classes
+often used in a finite element program.
+
+this package contains development files for using optimized shared libraries.

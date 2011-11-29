@@ -1,0 +1,11 @@
+Deterministic profiling of any python programs (python 3.x)
+	
+a profiler is a program that describes the run time performance of a
+program, providing a variety of statistics.  this profiler provides
+deterministic profiling of any python programs.  it also provides a
+series of report generation tools to allow users to rapidly examine
+the results of a profile operation.
+
+this package contains the modules 'profile' and 'pstats' from the
+standard library. they were move to a non-free package because of
+its license.

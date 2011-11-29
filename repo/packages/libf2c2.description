@@ -1,0 +1,6 @@
+Shared libraries for use with fortran applications
+	
+these are the shared libraries required for running
+applications containing a component written in fortran
+which was converted to c using the fortran to c translator
+f2c.

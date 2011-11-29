@@ -1,0 +1,9 @@
+Secure and efficient ftp server with mysql user authentication
+	
+pure-ftpd is a fast, production-quality, standards-conformant ftp
+server based upon troll-ftpd. features include chrooted home directories,
+virtual domains, built-in 'ls', anti-warez system, configurable ports for
+passive downloads, fxp protocol, bandwidth throttling, ratios,
+fortune files, apache-like log files, fast standalone mode, atomic uploads,
+text / html / xml real-time status report, virtual users, virtual quotas,
+privilege separation, ssl/tls and more.

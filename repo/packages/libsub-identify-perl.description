@@ -1,0 +1,16 @@
+Retrieve names of code references
+	
+sub::identify allows you to retrieve the real name of code references. for
+this, it uses perl's introspection mechanism, provided by the b module.
+
+it provides four functions : sub_name returns the name of the
+subroutine (or __anon__ if it's an anonymous code reference),
+stash_name returns its package, and sub_fullname returns the
+concatenation of the two.
+
+the fourth function, get_code_info, returns a list of two elements,
+the package and the subroutine name (in case of you want both and are worried
+by the speed.)
+
+in case of subroutine aliasing, those functions always return the
+original name.

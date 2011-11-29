@@ -1,0 +1,9 @@
+Xml parser providing xml::elements dom similar to html::element
+	
+xml::treebuilder uses xml::parser to make xml document trees constructed of
+xml::element objects (and xml::element is a subclass of html::element adapted
+for xml).
+
+xml::treebuilder is meant particularly for people who are used to
+the html::treebuilder / html::element interface to document trees, and who
+don't want to learn some other document interface like xml::twig or xml::dom.

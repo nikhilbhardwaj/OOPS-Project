@@ -1,0 +1,10 @@
+Shared libraries for webauth authentication
+	
+webauth is a cookie-based web authentication system built on top of
+kerberos.  it relies on a central authentication server that handles all
+user authentication for a domain and creates user authentication
+credentials for any web server that needs strong authentication.
+
+this package contains the shared library used by the webauth modules,
+perl bindings, and command-line utilities.  it does token encoding and
+decoding and other lower-level parts of the webauth protocol.

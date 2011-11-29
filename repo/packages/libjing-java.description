@@ -1,0 +1,11 @@
+Relax ng validator - library
+	
+this provides a validator for
+
+ - relax ng 1.0 specification,
+ - relax ng compact syntax, and
+ - parts of relax ng dtd compatibility, specifically checking of
+
+id/idref/idrefs.
+
+this package contains the java library

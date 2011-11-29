@@ -1,0 +1,10 @@
+Base class for dynamic factory classes
+	
+this is a simple module that factory classes can use to generate new
+types of objects on the fly, providing a consistent interface to common
+groups of objects.
+
+factory classes are used when you have different implementations for
+the same set of tasks but may not know in advance what implementations
+you will be using.  with a factory class this is easy.  class::factory
+even provides a simple constructor for you.

@@ -1,0 +1,15 @@
+X11 miscellaneous 'fixes' extension library (debug package)
+	
+libxfixes provides an x window system client interface to the 'xfixes'
+extension to the x protocol.
+
+it provides support for region types, and some cursor functions.
+
+this package contains the debug versions of the library found in libxfixes3.
+non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxfixes

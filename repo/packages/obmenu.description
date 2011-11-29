@@ -1,0 +1,10 @@
+A graphical menu editor for openbox
+	
+obmenu is a graphical menu editor for the openbox window manager.
+openbox uses xml to store its menu preferences, and editing these by hand
+can quickly become tedious. this utility provides a convenient method of
+editing the menu in a graphical interface, while not losing the powerful
+features of openbox such as its pipe menus.
+
+this also provides a python module named obxml that can be used to further
+script openbox's menu system.

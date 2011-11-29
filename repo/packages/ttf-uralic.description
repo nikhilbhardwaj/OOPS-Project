@@ -1,0 +1,21 @@
+Truetype fonts for cyrillic-based uralic languages
+	
+the uralic fonts contain additional letters used in most uralic languages
+with russian-based writing systems - khanty (all dialects), komi,
+mansi (without marking long vowels), mari, nenets, selkup and udmurt.
+the fonts also support altai, chukchi, even, evenki, koryak and nanai.
+
+font list:
+
+   * bookman uralic (regular, bold, italic)
+   * chancery uralic - decorative calligraphic font
+   * gothic uralic (regular, bold) - futura-like sans serif
+   * mono uralic (regular) - courier-like fixed width font
+   * palladio uralic (regular, bold, italic) - palatino-like typeface
+   * roman uralic (regular, bold, italic) - times-like typeface
+   * sans uralic (regular, bold, italic, bold italic) - helvetica-like
+     sans serif typeface
+   * sans condensed uralic (regular, bold) - narrow version of sans uralic
+   * schoolbook uralic (regular, bold, italic)
+ .
+ these fonts cover iso10646-1 and cp1251 charsets.

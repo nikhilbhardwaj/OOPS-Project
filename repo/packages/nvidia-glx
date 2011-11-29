@@ -1,0 +1,4 @@
+PackageId:25750
+Name:nvidia-glx
+Version:195.36.31-6
+Deps:dpkg,libc6,libc6-udeb,libgl1-nvidia-glx,libgl1-nvidia-legacy-173xx-glx,libgl1-nvidia-legacy-96xx-glx,libglx-nvidia-alternatives,nvidia-kernel-195.36.31,nvidia-kernel-2.6.32-5-486,nvidia-kernel-2.6.32-5-686,nvidia-kernel-2.6.32-5-686-bigmem,nvidia-kernel-2.6.32-5-amd64,nvidia-kernel-2.6.32-5-vserver-686,nvidia-kernel-2.6.32-5-vserver-686-bigmem,nvidia-kernel-2.6.32-5-vserver-amd64,nvidia-kernel-dkms,xorg-video-abi-6.0,xserver-xorg-core

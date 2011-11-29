@@ -1,0 +1,16 @@
+Emulate mouse buttons and mouse wheel
+	
+mouseemu is a daemon to emulate mouse buttons on trackpads
+with only one button. it lets you:
+
+ - emulate middle and right click
+ - emulate mouse wheel
+ - block trackpad while typing
+
+
+it was initially developed for apple powerbooks
+and ibooks, but it may be useful on other architectures
+as well.
+
+this program only works when booting a 2.6 kernel because
+it uses the new uinput interface to emulate the mouse.

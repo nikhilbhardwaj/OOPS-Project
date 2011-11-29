@@ -1,0 +1,10 @@
+Perl library for webauth authentication
+	
+webauth is a cookie-based web authentication system built on top of
+kerberos.  it relies on a central authentication server that handles all
+user authentication for a domain and creates user authentication
+credentials for any web server that needs strong authentication.
+
+this package contains the perl bindings to the webauth library, which
+does token encoding and decoding and other lower-level parts of the
+webauth protocol.

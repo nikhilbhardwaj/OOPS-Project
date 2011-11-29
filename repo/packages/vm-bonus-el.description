@@ -1,0 +1,12 @@
+Vm-bogofilter add-on for vm
+	
+this package contains vm-bogofilter, an emacs-lisp files that provide
+extra support to vm, a mail user agent for emacs.
+
+this package contains:
+
+ vm-bogofilter.el - interface between vm and the bogofilter spam filter.
+
+
+see /usr/share/doc/vm-bonus-el/readme.debian for short description
+of the file and its configuration.

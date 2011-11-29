@@ -1,0 +1,15 @@
+Perl implementation of the recaptcha api
+	
+recaptcha is a hybrid mechanical turk and captcha that allows visitors
+who complete the captcha to assist in the digitization of books.
+from http://recaptcha.net/learnmore.html:
+
+recaptcha improves the process of digitizing books by sending words that
+cannot be read by computers to the web in the form of captchas for
+humans to decipher. more specifically, each word that cannot be read
+correctly by ocr is placed on an image and used as a captcha. this is
+possible because most ocr programs alert you when a word cannot be read
+correctly.
+
+to use recaptcha you need to register your site here:
+https://admin.recaptcha.net/recaptcha/createsite/

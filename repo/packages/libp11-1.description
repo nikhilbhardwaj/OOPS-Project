@@ -1,0 +1,5 @@
+Pkcs#11 convenience library
+	
+libp11 is a library to simplify using smart cards via pkcs#11
+modules.  it was spun of the opensc project but can be used with any
+pkcs#11 module.

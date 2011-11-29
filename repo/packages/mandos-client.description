@@ -1,0 +1,15 @@
+Do unattended reboots with an encrypted root file system
+	
+this is the client part of the mandos system, which allows
+computers to have encrypted root file systems and at the
+same time be capable of remote and/or unattended reboots.
+
+the computers run a small client program in the initial ram
+disk environment which will communicate with a server over a
+network.  all network communication is encrypted using tls.
+the clients are identified by the server using an openpgp
+key; each client has one unique to it.  the server sends the
+clients an encrypted password.  the encrypted password is
+decrypted by the clients using the same openpgp key, and the
+password is then used to unlock the root file system,
+whereupon the computers can continue booting normally.

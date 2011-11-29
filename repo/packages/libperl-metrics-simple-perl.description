@@ -1,0 +1,9 @@
+Module to provide metrics of perl code
+	
+perl::metrics::simple is a perl module that provides several useful methods
+for static analysis of one or many perl files. it currently offers these
+metrics: packages, subroutines, lines of code, and an approximation of
+cyclomatic (mccabe) complexity for the subroutines and the "main" portion
+of the code.
+
+this module is designed to be simpler than the similar perl::metric module.

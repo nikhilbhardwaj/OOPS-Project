@@ -1,0 +1,13 @@
+Small e-mail program targetting hardware with modest resources
+	
+modest is a lightweight, fully-featured e-mail client optimized for
+hardware with limited resources, such as low-end pcs or mobile devices
+like the nokia n800/n810 internet tablets. it is built on top of
+tinymail, a framework for developing mobile applications with e-mail
+functionality, specially designed to be fast and resource saving.
+although the main target of modest are devices with low resources, it
+can be used as desktop e-mail client as well. this is possible because
+it was designed on top of both the maemo platform and the gnome mobile
+stack.
+
+this package contains the e-mail client for osso.

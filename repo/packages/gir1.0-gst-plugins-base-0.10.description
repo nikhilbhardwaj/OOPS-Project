@@ -1,0 +1,13 @@
+Description: gobject introspection data for the gstreamer plugins base library
+	
+this package contains introspection data for the gstreamer plugins base library.
+
+gstreamer is a streaming media framework, based on graphs of filters
+which operate on media data.  applications using this library can do
+anything from real-time sound processing to playing videos, and just
+about anything else media-related.  its plugin-based architecture means
+that new data types or processing capabilities can be added simply by
+installing new plug-ins.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

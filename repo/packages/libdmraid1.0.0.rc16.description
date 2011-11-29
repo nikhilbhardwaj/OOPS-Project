@@ -1,0 +1,10 @@
+Device-mapper software raid support tool - shared library
+	
+dmraid discovers, activates, deactivates and displays properties
+of software raid sets (eg, ataraid) and contained dos partitions.
+
+dmraid uses the linux device-mapper to create devices with respective
+mappings for the ataraid sets discovered.
+
+this package contains the dmraid shared library, which implements
+the back half of dmraid, including on-disk metadata formats.
