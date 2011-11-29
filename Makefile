@@ -13,3 +13,6 @@ system.o: system.cpp
 
 repository.o: repository.h repository.cpp
 	g++ -c repository.cpp
+
+packagemanager.o: packagemanager.cpp
+	g++ -g repository.o system.o packagemanager.cpp concretepackage.o metapackage.o -o packagemanager
