@@ -2,7 +2,6 @@
 #include "concretepackage.h"
 #include "metapackage.h"
 #include<iostream>
-#include<algorithm>
 
 using namespace std;
 
@@ -32,14 +31,14 @@ void PackageManager::install_package(string pname)
       cpkg = new ConcretePackage(pname);
       pkg = cpkg;
       system->operator+(pname);
-      if( cpkg->getDependencies().size() > 0)
-      {
-        for(set<string>::iterator sit = pkg->getDependencies().begin(); sit != pkg->getDependencies().end();++sit)
+      set<string> deps = pkg->getDependencies();
+      for(set<string>::iterator sit = deps.begin(); sit != deps.end();++sit)
        {
-          cout<<*sit<<endl;
+         //causes a wierd segmentation fault
+         //string tmp_pack = *sit;
+          //install_package(tmp_pack);
           system->operator+(*sit);
         }
-      }
 
     }
   }
@@ -62,12 +61,31 @@ void PackageManager::remove_package(string pname)
 
 }
 
+//this is left as a feature for the future
 void PackageManager::remove_orphans()
 {
 }
 
 void PackageManager::search_for_package(string pname)
 {
+  //we'll compare each of the strings with the repository
+  ifstream fin("repo/packages_list.txt");
+  string line;
+  bool found_package = false;
+  while(getline(fin,line))
+  {
+    size_t found = line.find(pname);
+    if( found != string::npos)
+    {
+      cout<<line.substr(line.find(' '))<<endl;
+      found_package |= true;
+    }
+  }
+  fin.close();
+  if( !found_package )
+  {
+    cout<<"No packages with that name found"<<endl;
+  }
 }
 
 int main()
@@ -75,7 +93,6 @@ int main()
   Repository repo(DEFAULT_REPO);
   System sys;
   PackageManager pm(repo,sys);
-  cout<<ConcretePackage("gcc-4.4").getDependencies().size();
-  pm.install_package("gcc");
+  pm.remove_package("ruby");
   return 0;
 }

@@ -2,6 +2,7 @@
 #define CONCRETEPACKAGE_H
 
 #include "package.h"
+#include<set>
 
 class ConcretePackage : public Package
 {

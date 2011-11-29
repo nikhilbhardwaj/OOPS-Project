@@ -7,16 +7,15 @@
 using namespace std;
 
 //function to split the dependencies into the set
-set<string> split(const string &s, char delim) {
-    set<string> elems;
-    stringstream ss(s);
-    string item;
+set<std::string> split(const std::string &s, char delim) {
+  std::set<std::string> elems;
+  std::stringstream ss(s);
+  std::string item;
     while(getline(ss, item, delim)) {
         elems.insert(item);
     }
     return elems;
 }
-
 
 //constructs a package from the dump
 ConcretePackage::ConcretePackage(string pname)
