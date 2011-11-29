@@ -3,15 +3,30 @@
 #include<map>
 #include<string>
 #include<exception>
+//header files specific to this project
 #include "commands.h"
+#include "package.h"
+#include "concretepackage.h"
+#include "metapackage.h"
+#include "repository.h"
+#include "system.h"
+#include "packagemanager.h"
 using namespace std;
 
 // Definition of the allowed commands
 map<string,int> commands;
+//definition of local functions
+void version_information();
 
 
 int main(int argc, char **argv)
 {
+  //initialization of the system and the repo for the packagemanager
+  System system;
+  Repository repository(DEFAULT_REPO);
+  PackageManager package_manager(repository,system);
+
+  //setup the basic commands for the package manager
   string command;
   commands["install"] = INSTALL;
   commands["remove"] = UNINSTALL;
@@ -25,22 +40,22 @@ int main(int argc, char **argv)
     switch(commands[command])
     {
       case INSTALL:
-        cout<<"Install";
+        package_manager.install_package(string(argv[2]));
         break;
       case UNINSTALL:
-        cout<<"Remove logic comes here";
+        package_manager.remove_package(string(argv[2]));
         break;
       case FIND:
-        cout<<"Searching logic comes here";
+        package_manager.search_for_package(string(argv[2]));
         break;
       case PURGE:
-        cout<<"Confirm and purge";
+        system.purge_system();
         break;
       case CURRENT_STATUS:
-        cout<<"Inform current status";
+        system.current_state();
         break;
       case VERSION:
-        cout<<"Display versioning info";
+        version_information();
         break;
       default:
         throw string("Invalid argument passed");
@@ -60,4 +75,15 @@ int main(int argc, char **argv)
   }
 
   return 0;
+}
+
+void version_information()
+{
+  ifstream version_file("version_info.text");
+  string line;
+  while(getline(version_file,line))
+  {
+    cout<<line<<endl;
+  }
+  version_file.close();
 }

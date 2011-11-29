@@ -32,6 +32,14 @@ void System::current_state()
 {
   cout<<"Current System State:"<<endl;
   cout<<"Total Packages Currently Installed : "<<installed_packages.size()<<endl;
+  //list the installed packages
+  ifstream fin("system.packages");
+  string line;
+  while(getline(fin,line))
+  {
+    cout<<line<<endl;
+  }
+  fin.close();
   if( !log.empty() )
   {
     cout<<"The recent transactions performed are listed below :"<<endl;
@@ -65,6 +73,11 @@ System::~System()
     fout<<*sit<<endl;
   }
   fout.close();
+  //to write the log to the console
+  for(size_t index= 0; index<log.size() ;++index)
+  {
+    cout<<log[index]<<endl;
+  }
 }
 
 

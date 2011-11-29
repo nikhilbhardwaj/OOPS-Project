@@ -87,12 +87,3 @@ void PackageManager::search_for_package(string pname)
     cout<<"No packages with that name found"<<endl;
   }
 }
-
-int main()
-{
-  Repository repo(DEFAULT_REPO);
-  System sys;
-  PackageManager pm(repo,sys);
-  pm.remove_package("ruby");
-  return 0;
-}
