@@ -1,0 +1,7 @@
+Development files for libxmlrpc-epi0, a xml-rpc request library
+	
+an implementation of the xml-rpc protocol, providing an api for developers to
+serialise rpc requests to and from xml. it does not include any transport layer
+and is therefor useful for applications which implement their own transport or
+wish to use xml-rpc over an existing transport layer. this package contains
+the development files for applications wishing to use libxmlrpc-epi.

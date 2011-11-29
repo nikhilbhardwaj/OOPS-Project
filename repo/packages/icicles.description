@@ -1,0 +1,41 @@
+Emacs library that enhances minibuffer/input completion
+	
+icicles lets you do the following:
+
+ * cycle through completion candidates that match your current
+   input.
+ * use a pattern to match completion candidates, including:
+     - regexp matching (including substring).
+     - fuzzy matching.
+     - prefix matching (as in vanilla emacs).
+     - command abbreviation matching.
+ * use multiple regexps to match candidates, chaining these filters
+   together like piped 'grep' commands.
+ * see all possible complete inputs (pertinent commands, variables,
+   and so on) that match your partial or regexp input: the list is
+   updated dynamically (incrementally) if you change your input.
+ * see all previous inputs that match your partial or regexp input,
+   and selectively reuse them.
+ * match input against completion candidates that do not match a
+   given regexp; that is, complement the set of matches and use the
+   result for subsequent matching.
+ * use multiple regexps to search (and replace) text across
+   multiple buffers, files, or regions.
+ * search areas of text that have a certain text property, such as
+   a face.
+ * browse imenu or tags entries that match your partial or regexp
+   input.
+ * create and use multiple-choice menus; that is, menus where you
+   can choose multiple entries any number of times.
+ * create and use multi-commands so you can perform an action on
+   any number of candidate inputs any number of times.
+ * perform set operations (intersection, union, etc) on the fly,
+   using sets of completion candidates or other strings.
+ * persistently save and later reuse sets of completion candidates
+   (e.g. project file names).
+ * complete input piecewise, against multiple completion
+   candidates, in parallel.
+ * complete key sequences, and navigate the key-binding hierarchy
+   (this includes the menu bar menu hierarchy) (see also lacarte)
+ * sort completion candidates on the fly, in multiple,
+   context-dependent ways.

@@ -1,0 +1,8 @@
+Inefficient cvs repository grabber using cvs command
+	
+cvssuck is a mirroring tool for cvs repositories.  unlike other tools
+such as cvsup or rsync, it uses cvs command to access the repository.
+so, it works well with remote repositories without a special server or
+shell account.  however it is inefficient and not perfect because cvs
+client/server protocol is not designed for mirroring.  if a server
+provides special way to grab a repository, you shouldn't use cvssuck.

@@ -1,0 +1,24 @@
+Html/xml template library for ruby 1.8
+	
+amrita is an html/xhtml template library for ruby. it makes html
+documents from a template and model data.
+
+
+ * the template for amrita is a pure html/xhtml document without
+  special tags like <?...?> or <% .. %>
+ * the template can be written by designers using almost any html
+  editor.
+ * there's no need to change ruby code to modify the view of the
+  _dynamic_ part of the template (or the static portion).
+ * the model data may be any standard ruby data-- a hash, array,
+  string... or an instance of any user-defined class.
+ * the output is controlled by _data_, not by logic-- so it's easy to
+  write, test, and debug code. (good for extremeprogramming)
+ * the html template can be compiled into ruby code before execution
+  with little effort.
+
+
+amrita uses a template and model data to create an html document by
+naturally matching the +id+ attribute of an html element to model data.
+
+this package is for ruby 1.8.

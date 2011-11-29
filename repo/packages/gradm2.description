@@ -1,0 +1,6 @@
+Administration program for the grsecurity2 rbac based acl system
+	
+used to manage the rbac based acl system of grsecurity2. please note that you
+will need a specially patched kernel for grsecurity to work (see the
+kernel-patch-grsecurity2 debian package). you can find more information
+about grsecurity at http://www.grsecurity.net/

@@ -1,0 +1,7 @@
+Flow-based network traffic analyser
+	
+softflowd is a flow-based network traffic anaylser capable of cisco
+netflow data export. softflowd semi-statefully tracks traffic
+flows recorded by listening on a network interface or by reading a
+packet capture file. these flows may be reported via netflow to a
+collecting host or summarised within softflowd itself.

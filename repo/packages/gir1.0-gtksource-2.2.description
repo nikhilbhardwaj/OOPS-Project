@@ -1,0 +1,7 @@
+Gobject introspection data for the gtksourceview library
+	
+this package contains introspection data for gtksourceview, a syntax
+hightlightning and source editing widget for gtk+.
+
+it can be used by packages using the girepository format to generate
+dynamic bindings.

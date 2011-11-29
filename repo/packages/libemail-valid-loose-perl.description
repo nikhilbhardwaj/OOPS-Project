@@ -1,0 +1,6 @@
+Email::valid which allows dot immediately before at mark
+	
+email::valid::loose is a subclass of email::valid, which allows dot (.)
+immediately before at-mark (@). it is invalid in rfc822, but is commonly
+used in some of mobile phone addresses in japan (like docomo.ne.jp or
+jp-t.ne.jp).

@@ -1,0 +1,12 @@
+Markdown and multimarkdown markup languages library
+	
+text::markdown is a perl module that provides an alternate implementation of
+the markdown implementation by john gruber (see the markdown package). it is
+a slower implementation, but better maintained.
+
+markdown is a markup language to convert structured text into (x)html. its
+main design goal is to make the input text as readable as possible. for this,
+the syntax is highly inspired by the format of plain text email. markdown
+supports features like headers, *emphasis*, code blocks, blockquotes and
+links. for maximum flexibility, it also allows embedding html tags, both
+within paragraphs (eg. <span>), and at block level (<div>, <table>).

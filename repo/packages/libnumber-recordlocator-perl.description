@@ -1,0 +1,14 @@
+Perl module that encodes integers into a short "locator string"
+	
+number::recordlocator encodes integers into a 32 character "alphabet"
+designed to be short and easy to read and pronounce. the encoding maps:
+
+
+    0 to o
+    1 to i
+    s to f
+    b to p
+
+
+with a 32 bit encoding, you can map 33.5 million unique ids into a 5
+character code.

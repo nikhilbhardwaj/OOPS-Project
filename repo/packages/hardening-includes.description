@@ -1,0 +1,5 @@
+Makefile for enabling compiler flags for security hardening
+	
+makefile to be included in debian rules files.  cflags and ldflags
+can be extended to include the respective hardening_* variables which
+contain architecture-validated security hardening compiler options.

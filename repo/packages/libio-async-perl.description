@@ -1,0 +1,9 @@
+Module providing asynchronous filehandle i/o
+	
+io::async is a collection of perl modules that allow programs to perform
+various operations on filehandles asynchronously.
+
+typically, a program would use a main io::async::loop which would contain the
+other objects that perform the actual i/o work required by the program. this
+versatile loop supports features like timers and signal handlers through its
+various included subclasses.

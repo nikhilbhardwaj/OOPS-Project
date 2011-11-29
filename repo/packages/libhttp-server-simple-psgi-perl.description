@@ -1,0 +1,5 @@
+Simple http server with psgi application support
+	
+http::server::simple::psgi is a simple standalone http server, based on the
+http::server::simple module (see libhttp-server-simple-perl). this module can
+be easily used as an embedded web server for development purposes.

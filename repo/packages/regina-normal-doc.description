@@ -1,0 +1,10 @@
+Api docs for regina, the 3-manifold topology software
+	
+regina is a suite of mathematical software for 3-manifold topologists.
+this package provides complete api documentation for the regina calculation
+engine.  this documentation can be used with python scripting in regina, as
+well as for compiling regina's c++ calculation engine into other projects.
+
+highlights of regina include triangulation analysis and simplification,
+census creation and normal surface enumeration.  it offers embedded
+python scripting giving full access to the calculation engine.

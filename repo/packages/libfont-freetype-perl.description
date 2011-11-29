@@ -1,0 +1,7 @@
+Read font files and render glyphs from perl using freetype2
+	
+this module allows perl programs to conveniently read information from
+font files.  all the font access is done through the freetype2 library,
+which supports many formats.  it can render images of characters with
+high-quality hinting and antialiasing, extract metrics information, and
+extract the outlines of characters in scalable formats like truetype.

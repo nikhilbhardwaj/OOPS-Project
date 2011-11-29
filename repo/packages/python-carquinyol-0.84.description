@@ -1,0 +1,13 @@
+Sugar graphical shell - datastore
+	
+sugar is a graphical user interface aimed at children.
+
+originating as intregral part of the olpc "xo" a.k.a. the $100 laptop,
+sugar has since grown into a more widely usable low-ressource desktop
+environment for kids.
+
+this package contains a simple log like datastore able to connect with
+multiple backends.  the datastore supports connecting and disconnecting
+from backends on the fly to help the support the limit space/memory
+characteristics of the olpc system and the fact that network services
+may become unavailable at times.

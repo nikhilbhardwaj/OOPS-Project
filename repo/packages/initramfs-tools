@@ -1,0 +1,4 @@
+PackageId:7539
+Name:initramfs-tools
+Version:0.98.8
+Deps:cpio,findutils,klibc-utils,module-init-tools,kldutils,udev

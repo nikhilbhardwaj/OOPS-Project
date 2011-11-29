@@ -1,0 +1,21 @@
+Data structure library for ocaml
+	
+the ocaml reins data structure library consists of the following
+persistent implementations:
+
+ * lists (singly, o(1) catenable, acyclic doubly linked,
+          random access)
+ * sets/maps (avl, red/black, patricia, splay)
+ * heaps (binomial, skew-binomial)
+
+
+all of the implementations conform to a unified signature for each
+data type.  also, each data types include zipper style cursor
+interfaces and persistent, bi-directional cursor based iterators.
+the library also includes a set of standard modules to hoist the base
+typs into the module level (int, bool, etc...) as well as a
+collection of functor combinators to minimize boilerplate (e.g., for
+constructing compare or to_string functions).  finally, a
+quickcheck-like random testing framework is included and each data
+type supports the necessary "gen" function to generate a random
+instance of the type.

@@ -1,0 +1,6 @@
+Cleans up html code for web browsers, not humans
+	
+the html::clean module encapsulates a number of html optimizations
+and cleanups.  the end result is html that loads faster, displays
+properly in more browsers.  think of it as a compiler that
+translates html input into optimized machine readable code.

@@ -1,0 +1,8 @@
+Xkb layout switch plugin for the xfce4 panel
+	
+the xkb plugin shows you the current keyboard layout and allows you to
+switch to different defined layouts.
+
+the plugin itself cannot be used for defining the keyboard
+layouts one wants to use, this is done the xkb way - either
+in your x config or by setxkbmap tool.

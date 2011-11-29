@@ -1,0 +1,12 @@
+Modular, small and efficient ftp server - tcl module
+	
+wzdftpd is designed to be run as root or non-root, it supports ipv6, ssl, and
+is multithreaded. server is fully configurable online using site commands, and
+implements the lastest rfc extensions to ftp protocol.
+
+features are: flexible user management, acls, virtual users/groups, security,
+speed, bandwith limitation, per command authorization, virtual directories,
+dynamic ip changes auto-detection, etc.
+
+this package provides the necessary files to run tcl plugins in wzdftpd,
+in the tcl module.

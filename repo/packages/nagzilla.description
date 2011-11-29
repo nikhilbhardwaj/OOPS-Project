@@ -1,0 +1,8 @@
+Jabber relay bot
+	
+nagzilla was designed to be a jabber relay "bot" in that it sits quietly in a
+room until it gets a message to relay to either a chatroom or a person. it is
+split into two programs:
+
+ * nagzillad - the daemon that sits in the room and sends the messages, and
+ * nagzillac - the client that gets the messages and hands them to the daemon

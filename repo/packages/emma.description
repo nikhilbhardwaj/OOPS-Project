@@ -1,0 +1,16 @@
+Extendable mysql managing assistant
+	
+emma is a graphical toolkit for mysql database developers and administrators,
+it is the successor of yamysqlfront.
+
+its main features are:
+
+  * dialogs to create/modify mysql databases, tables and associated indexes
+  * result sets grouped in tabs
+  * sql editor:
+    + tabs
+    + built-in syntax highlighting
+    + table and field name tab-completion
+    + automatic sql statement formatting
+  * export to csv files
+  * multiple simultaneously opened mysql connections

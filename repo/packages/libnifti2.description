@@ -1,0 +1,10 @@
+Io libraries for the nifti-1 data format
+	
+niftilib is a set of i/o libraries for reading and writing files in the
+nifti-1 data format. nifti-1 is a binary file format for storing medical
+image data, e.g. magnetic resonance image (mri) and functional mri (fmri)
+brain images.
+
+this package contains the shared library of the low-level io library niftiio,
+low-level io library znzlib and the nifticdf shared library that provides
+functions to compute cumulative distributions and their inverses.

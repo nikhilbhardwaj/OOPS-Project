@@ -1,0 +1,6 @@
+Program for managing a netfilter firewall
+	
+the uncomplicated firewall is a front-end for iptables, to make managing a
+netfilter firewall easier. it provides a command line interface with syntax
+similar to openbsd's packet filter. it is particularly well-suited as a
+host-based firewall.

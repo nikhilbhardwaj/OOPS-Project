@@ -1,0 +1,5 @@
+Zope-like transaction manager via wsgi middleware
+	
+repoze.tm2 is python wsgi middleware which uses the zodb (zope
+object database) package's transaction manager to wrap a call to
+its pipeline children inside a transaction.

@@ -1,0 +1,8 @@
+Sound file editor
+	
+snd is a powerful sound file editor that can be customized and extended using
+the scheme programming language.
+
+this package contains the basic infrastructure for the snd packages and
+the scheme files. you have to install a gui package as well to actually
+use snd.

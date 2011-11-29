@@ -1,0 +1,12 @@
+Command line parsing java library - documentation
+	
+jopt simple is a java library for parsing command line options, such as
+those you might pass to an invocation of javac.
+
+in the interest of striving for simplicity, as closely as possible jopt
+simple attempts to honor the command line option syntaxes of posix
+getopt() and gnu getopt_long() . it also aims to make option parser
+configuration and retrieval of options and their arguments simple and
+expressive, without being overly clever.
+
+this package contains the javadoc documentation.

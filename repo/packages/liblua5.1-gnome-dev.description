@@ -1,0 +1,7 @@
+Gnome development files for the lua language version 5.1
+	
+this package contains the development files of the gtk lua5.1 bindings,
+useful to create a statically linked binary (like a c application or a
+standalone lua interpreter).
+
+documentation and some examples are also shipped within this package.

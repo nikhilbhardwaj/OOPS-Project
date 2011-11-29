@@ -1,0 +1,9 @@
+Xslt 1.0 processing library - runtime library
+	
+xslt is an xml language for defining transformations of xml files from
+xml to some other arbitrary format, such as xml, html, plain text, etc.
+using standard xslt stylesheets. libxslt is a c library which
+implements xslt version 1.0.
+
+this package contains the libxslt library used by applications for xslt
+transformations.

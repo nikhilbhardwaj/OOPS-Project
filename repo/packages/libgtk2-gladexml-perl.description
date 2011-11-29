@@ -1,0 +1,26 @@
+Perl interface to use user interfaces created with glade-2
+	
+libgtk2-gladexml-perl allows a perl developer to use the gladexml part of
+the libglade library.
+
+glade is a free user interface builder for gtk+ and gnome. after designing
+a user interface with glade-2 the layout and configuration are saved in an
+xml file. libglade is a library which knows how to build and hook up the
+user interface described in the glade xml file at application run time.
+
+this module even allows developers to load a interface definition into a
+scalar to customize them just before loading the application itself.
+
+find out more about gnome at http://www.gnome.org.
+
+the perl bindings follow the c api very closely, and the c reference
+documentation should be considered the canonical source:
+http://developer.gnome.org/doc/api/2.0/libglade/index.html
+
+this module is part of gtk2-perl.
+
+to discuss gtk2-perl, ask questions and flame/praise the authors,
+join gtk-perl-list@gnome.org at lists.gnome.org.
+
+also have a look at the gtk2-perl website and sourceforge project page,
+http://gtk2-perl.sourceforge.net

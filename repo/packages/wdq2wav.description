@@ -1,0 +1,5 @@
+Converts a windaq channel to sound .wav file
+	
+this program extracts a channel from a windaq file and produces
+a .wav file that can be played. this is helpful when recording a
+chatter channel for a windaq session with multiple a/d channels.

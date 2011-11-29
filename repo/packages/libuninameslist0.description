@@ -1,0 +1,7 @@
+A library of unicode annotation data
+	
+the library contains a large array with one entry for each unicode code
+point (u+0000 - u+10ffff). each entry contains two strings, a name and
+an annotation. the library also contains a list of all the unicode blocks.
+
+this package contains the runtime library.

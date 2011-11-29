@@ -1,0 +1,15 @@
+3d racing game featuring tux, the linux penguin (debugging symbols)
+	
+extreme tux racer, or etracer as it is called for short, is a simple opengl
+racing game featuring tux, the linux mascot. the goal of the game is to slide
+down a snow- and ice-covered mountain as quickly as possible, avoiding the
+trees and rocks that will slow you down.
+
+collect herrings and other goodies while sliding down the hill, but avoid fish
+bones.
+
+this game is based on the gpl version of the famous game tuxracer.
+
+you must have working 3d acceleration or this game will run quite slowly.
+
+this package contains the debugging symbols for extremetuxracer.

@@ -1,0 +1,10 @@
+Perl module implementing advanced operations on path variables
+	
+env::path presents an object-oriented interface to path variables, defined
+as that subclass of environment variables which name an ordered list of
+filesystem elements separated by a platform-standard separator.
+
+env::path is for cases where you need to insert or remove interior path
+entries, strip redundancies, operate on a path variable without having to
+know whether the current platform uses ":" or ";", operate on a path variable
+which may have a different name on different platforms, etc.

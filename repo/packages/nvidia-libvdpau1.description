@@ -1,0 +1,8 @@
+Nvidia vdpau libraries (transitional package)
+	
+these libraries provide the video decode and presentation api for unix.
+they provide accelerated video playback (incl. h.264) for the supported
+graphics cards.
+
+this is a transitional dummy package depending on the free version of the
+vdpau wrapper and trace libraries.

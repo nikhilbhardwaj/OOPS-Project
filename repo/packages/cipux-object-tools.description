@@ -1,0 +1,8 @@
+Commandline object-related tools for cipux
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+this package contains commandline tools to interact with the object
+layer of cipux.

@@ -1,0 +1,13 @@
+Linux howtos and faqs in ascii format
+	
+the doc-linux-text package provides the current linux howtos and faqs in
+ascii format. alternatively, html versions are provided in the
+doc-linux-html package.
+
+the version number reflects the month in which doc-linux-text was created.
+
+all files are available at http://www.tldp.org/ (with versions in ascii,
+dvi, html, postscript, and sgml).
+
+documents with licences that fail to meet the debian free software
+guidelines can be found in the doc-linux-nonfree-text package.

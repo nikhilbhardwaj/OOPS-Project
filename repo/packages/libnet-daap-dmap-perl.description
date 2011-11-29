@@ -1,0 +1,10 @@
+Perl module for reading and writing daap structures
+	
+a dmap structure is a binary record used in apple's daap protocol.
+a dmap structure may contain other dmap structures. fields in a dmap
+structure are identified by a short name ("msdc"). the short name is
+what's in the binary record, but a content codes list gives a long
+name ("dmap.databasescount") and a data type for the record (32-bit
+integer).
+
+http://search.cpan.org/dist/net-daap-dmap

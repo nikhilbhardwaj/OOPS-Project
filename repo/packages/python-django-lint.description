@@ -1,0 +1,13 @@
+Static analysis tool for django projects and applications
+	
+django lint is a tool that statically analyses projects and applications
+that use the django web development framework.
+
+it checks and reports on common programming errors and bad code smells
+including:
+
+
+ * nullable "charfield" fields
+ * usage of brittle django features such as "auto_now_add"
+ * unspecified recommended options in settings.py, such as an empty 'admins'
+ * (plus many more)

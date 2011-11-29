@@ -1,0 +1,7 @@
+Tslib touchscreen driver for x.org/xfree86 server
+	
+this x.org/xfree86 driver provides support for touchscreens input devices.
+the driver is based on tslib which supports events for moving in absolute
+coordinates and relative coordinates.
+
+this package is built from the xf86-input-tslib driver module.

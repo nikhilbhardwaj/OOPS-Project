@@ -1,0 +1,15 @@
+C->haskell interface generator
+	
+c->haskell is an interface generator that simplifies the development
+of haskell bindings to c libraries.  the tool processes existing c
+header files that determine data layout and function signatures on
+the c side in conjunction with haskell modules that specify
+haskell-side type signatures and marshaling details.  hooks embedded
+in the haskell code signal access to c structures and functions --
+they are expanded by the interfacing tool in dependence on
+information from the corresponding c header file.
+
+haskell 98 is "the" standard lazy functional programming language.
+more info plus the language definition is at http://www.haskell.org/.
+
+this package contains the c2hs parser.

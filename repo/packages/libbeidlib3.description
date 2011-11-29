@@ -1,0 +1,8 @@
+Beid library, version 3 api
+	
+this package contains the libraries needed to use the belgian
+electronic id card. these libraries were built from the official
+government source code.
+
+in order to do anything useful with the card, you will need additional
+software, found in the packages 'beidgui' and 'beid-mozilla-plugin'.

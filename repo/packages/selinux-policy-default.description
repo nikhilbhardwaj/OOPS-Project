@@ -1,0 +1,8 @@
+Strict and targeted variants of the selinux policy
+	
+this is the reference policy for se linux.  in the default configuration it
+will provide the functionality previously known as the "targeted" policy.  if
+the module "unconfined" is removed then it provides the functionality
+previously known as the "strict" policy.
+
+this uses the mmcs system of categories.

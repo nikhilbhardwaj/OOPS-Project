@@ -1,0 +1,9 @@
+Ggi video output plugin for vlc
+	
+this is a ggi plugin for the vlc media player.  to activate it, use
+the `--vout ggi' flag or select the `ggi' video output plugin from the
+preferences menu.
+
+vlc is the videolan project's media player. it plays mpeg, mpeg2, mpeg4,
+divx, mov, wmv, quicktime, mp3, ogg/vorbis files, dvds, vcds, and multimedia
+streams from various network sources.

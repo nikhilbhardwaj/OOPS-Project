@@ -1,0 +1,9 @@
+Apache-perl module that enables to authorize a user with ldap attributes
+	
+after you have authenticated a user (perhaps with apache::authnetldap ;)
+you can use apache::authznetldap to determine whether they are authorized to
+access  the web resource under this modules control.
+
+you can control authorization via one of four methods. the first two are
+the pretty standard user and valid-user require, the second two are group or
+ldap-url which are unique to ldap.

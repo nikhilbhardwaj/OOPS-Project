@@ -1,0 +1,24 @@
+Framework for writing simple makefiles for complex tasks
+	
+the goals of the kbuild framework:
+
+ - similar behavior cross all supported platforms.
+ - flexibility, don't create unnecessary restrictions preventing ad-hoc
+   solutions.
+ - makefile can very simple to write and maintain.
+
+
+there are four concepts being tried out in the current kbuild incaration:
+
+ - one configuration file for a subtree automatically included.
+ - target configuration templates as the primary mechanism for makefile
+   simplification.
+ - tools and sdks for helping out the templates with flexibility.
+ - non-recursive makefile method by using sub-makefiles.
+
+
+kbuild does not provide any facilities for checking compiler/library/header
+configurations, that's not in its scope. if this is important for your
+project, check out the autoconf tool in the gnu build system. it is possible
+to use kbuild together with autoconf if you like, but you might just as well
+use the full gnu package.

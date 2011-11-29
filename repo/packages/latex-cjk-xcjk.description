@@ -1,0 +1,15 @@
+Xetex module of latex cjk
+	
+cjk is a macro package for latex.  this package gives you the possibility
+to include chinese (traditional and simplified), japanese, thai, vietnamese,
+korean, and many more scripts in your (la)tex documents through xelatex,
+which is based on the modern xetex engine.
+
+it allows you to directly use truetype fonts without any conversion or
+extra packages.
+
+latex-cjk-xcjk suggests a whole bunch of japanese, chinese, korean and thai
+fonts that are guaranteed to work with xcjk, but any other ttf should work
+just as well.
+
+have a look at latex-cjk-common for a more detailed description.

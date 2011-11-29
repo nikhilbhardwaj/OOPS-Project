@@ -1,0 +1,5 @@
+Perl interface to sync() and fsync()
+	
+it provides perl interfaces to the unix sync(2) and posix.1b fsync(2)
+system calls. the fsync() call is needed for putting messages into qmail
+maildirs, and sync() is included for completeness.

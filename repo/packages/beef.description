@@ -1,0 +1,16 @@
+Flexible brainfuck interpreter
+	
+beef is a brainfuck interpreter, a program which executes brainfuck
+code on the fly.
+
+its behavior is configurable using command-line options. this enables
+you to run most brainfuck programs, even ones written for other
+interpreters/compilers without modifications.
+
+beef is not affected by some historical brainfuck limitations. for
+example, the length of the memory tape's only limit is the amount of
+memory your computer has.
+
+beef's aim is not to be incredibly small or optimized (although it is
+quite fast), but to be a flexible and pleasant-to-work-with
+interpreter.

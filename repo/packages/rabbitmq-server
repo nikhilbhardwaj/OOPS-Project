@@ -1,0 +1,4 @@
+PackageId:30614
+Name:rabbitmq-server
+Version:1.8.1-1
+Deps:adduser,erlang-base,erlang-base-hipe,erlang-mnesia,erlang-nox,erlang-os-mon,erlang-ssl,logrotate

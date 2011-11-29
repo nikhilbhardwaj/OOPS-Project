@@ -1,0 +1,8 @@
+Perl objects as hash, array, scalar, code and glob at once
+	
+the object::multitype module returns an object that works like a hash,
+array, scalar, code and glob object at the same time.  it uses tie and
+override magic to expose to the perl level the intrinsic typeglob-ness
+of all references. if this does not make sense to you, you probably will
+not be using it directly, although you may wind up installing it as a
+dependency of something else.

@@ -1,0 +1,7 @@
+Perl interface to launch and control background processes
+	
+the proc::simple package provides objects mimicing real-life processes from a
+user's point of view.
+
+either external programs or perl subroutines can be launched and
+controlled as processes in the background.

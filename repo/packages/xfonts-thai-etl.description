@@ -1,0 +1,7 @@
+Thai etl fonts for x
+	
+this package provides 3 thai tis-620 monospace (with full-width combining
+characters) bitmap fonts for x developed by etl.
+
+emacs/mule needs these fonts to display thai. only normal weight is provided,
+though.

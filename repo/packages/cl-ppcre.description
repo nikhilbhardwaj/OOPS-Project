@@ -1,0 +1,9 @@
+Portable regular express library for common lisp
+	
+cl-ppcre is a portable regular expression library for common lisp
+which has the following features:
+
+
+ * it is compatible with perl.
+ * it is fast.
+ * it is portable.

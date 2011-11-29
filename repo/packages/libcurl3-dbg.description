@@ -1,0 +1,4 @@
+Libcurl compiled with debug symbols
+	
+this contains the debug symbols of both the openssl and gnutls versions of
+libcurl3. it might be useful in debug sessions of software which uses libcurl.

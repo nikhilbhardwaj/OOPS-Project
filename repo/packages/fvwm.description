@@ -1,0 +1,11 @@
+F(?) virtual window manager
+	
+fvwm is a powerful icccm2 compliant multiple virtual desktop window manager
+for the x window system. fvwm requires relatively little memory.
+
+this 2.5 version includes new features like full support of the ewmh
+(extended window manager hints) specification, internationalization,
+improved window decoration code (no flickering anymore),
+bi-directional asian text support, freetype font support
+(antialiasing), image rendering, perl based module library, support
+for png images, side titles and much more.

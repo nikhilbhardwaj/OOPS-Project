@@ -1,0 +1,21 @@
+Binary firmware for intel wireless 3945, 4965 and 5000-series cards
+	
+this package contains the binary firmware for intel wireless 1000, 3945,
+4965, 5100, 5300, 6000 and 6250 cards supported by the iwl3945 and iwlagn
+drivers.
+
+contents:
+
+ * intel wireless 1000 firmware, version 128.50.3.1 (iwlwifi-1000-3.ucode)
+ * intel wireless 3945 firmware, version 15.28.1.6 (iwlwifi-3945-1.ucode)
+ * intel wireless 3945 firmware, version 15.32.2.9 (iwlwifi-3945-2.ucode)
+ * intel wireless 4965 firmware, version 228.57.1.21 (iwlwifi-4965-1.ucode)
+ * intel wireless 4965 firmware, version 228.61.2.24 (iwlwifi-4965-2.ucode)
+ * intel wireless 5100, 5300 and 5350 firmware, version 5.4.a.11 (iwlwifi-5000-1.ucode)
+ * intel wireless 5100, 5300 and 5350 firmware, version 8.24.2.12 (iwlwifi-5000-2.ucode)
+ * intel wireless 5150 firmware, version 8.24.2.2 (iwlwifi-5150-2.ucode)
+ * intel wireless 6000 firmware, version 9.193.4.1 (iwlwifi-6000-4.ucode)
+ * intel wireless 6005 firmware, version 17.168.5.1 (iwlwifi-6000g2a-5.ucode)
+ * intel wireless 6030 firmware, version 17.168.5.1 (iwlwifi-6000g2b-5.ucode)
+ * intel wireless 6250 firmware, version 9.201.4.1 (iwlwifi-6050-4.ucode)
+ * intel wireless 6250 firmware, version 41.28.5.1 (iwlwifi-6050-5.ucode)

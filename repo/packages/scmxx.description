@@ -1,0 +1,13 @@
+Exchange data with siemens mobile phones
+	
+scmxx is a console program that allows you to exchange certain types of
+data with mobile phones made by siemens. some of the data types that can
+be exchanged are logos, ring tones, vcalendars, phonebook entries, and
+sms messages. it works with the s25, s35i, m35i and c35i, sl45, s45 and
+me45 and probably others.
+
+you need a serial connection (either cable or infrared) to your mobile
+phone in order to use scmxx.
+
+it basically uses the at command set published by siemens
+(with some other, additional resources).

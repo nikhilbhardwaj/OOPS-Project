@@ -1,0 +1,7 @@
+Hangul keyboard input library - runtime
+	
+this library implements hangul keyboard input with various types of
+korean keyboards.  it is intended to be a base library of korean
+input methods on multiple platforms.
+
+this package contains the shared library and the runtime data.

@@ -1,0 +1,7 @@
+Class::dbi extension for postgres
+	
+class::dbi::pg automates the setup of class::dbi columns and primary
+keys for postgresql.
+
+it selects the postgresql system catalog and finds out all columns,
+primary keys and serial type columns.

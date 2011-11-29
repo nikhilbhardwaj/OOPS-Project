@@ -1,0 +1,7 @@
+C language interpreter
+	
+clif, a c-like interpreter framework, is and open-ended system
+for fast development of programs with c syntax.  the program is
+compiled and if syntactically correct, code is immediately
+generated. the code is generated for  a virtual machine.
+the virtual machine is a part of the framework.

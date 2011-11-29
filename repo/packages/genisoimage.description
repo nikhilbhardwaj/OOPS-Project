@@ -1,0 +1,18 @@
+Creates iso-9660 cd-rom filesystem images
+	
+genisoimage is a pre-mastering program for creating iso-9660 cd-rom
+filesystem images, which can then be written to cd or dvd media using
+the wodim program. genisoimage includes support for making bootable
+"el torito" cds, as well as cds with support for the
+macintosh hfs filesystem.
+
+the package also includes extra tools useful for working with iso images:
+
+ * mkzftree - create iso-9660 image with compressed contents
+ * dirsplit - easily separate large directory contents into disks of
+   predefined size
+ * geteltorito - extract an el torito boot image from a cd image
+
+
+please install cdrkit-doc if you want most of the documentation and
+readme files.

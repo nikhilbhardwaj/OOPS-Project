@@ -1,0 +1,6 @@
+Debugging symbols for amarok
+	
+this package provides debugging symbols for all binary packages built from
+amarok source package. it's highly recommended to have this package installed
+before reporting any amarok crashes to either amarok developers or debian
+package maintainers.

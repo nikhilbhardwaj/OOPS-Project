@@ -1,0 +1,16 @@
+Cleans up files in directories based on their age
+	
+this package provides a program that can be used to clean out temporary-file
+directories.  it recursively searches the directory, refusing to chdir()
+across symlinks, and removes files that haven't been accessed in a
+user-specified amount of time.  you can specify a set of files to protect
+from deletion with a shell pattern.  it will not remove files owned by the
+process euid that have the `w' bit clear, unless you ask it to, much like
+`rm -f'.  `tmpreaper' will not remove symlinks, sockets, fifos, or special
+files unless given a command line option enabling it to.
+
+warning:  please do not run `tmpreaper' on `/'.  there are no protections
+against this written into the program, as that would prevent it from
+functioning the way you'd expect it to in a `chroot(8)' environment.
+
+the daily tmpreaper run can be configured through /etc/tmpreaper.conf .

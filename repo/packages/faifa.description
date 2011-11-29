@@ -1,0 +1,13 @@
+Manage homeplug 1.0/av devices via ethernet frames
+	
+faifa is a network tool to remotely manage homeplug 1.0 and homeplug av
+devices.
+
+homeplug 1.0 and homeplug av are specifications of power line communication
+(plc). plc is a system for carrying data - network packets - over power line.
+<http://www.homeplug.org/>
+
+this tool can configure, flash and collect statistics on thoses devices
+using private and public ethernet frames.
+
+this package contains faifa tool.

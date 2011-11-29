@@ -1,0 +1,8 @@
+Video extraction utility for youtube, google video and others
+	
+clive is a command line utility for extracting videos from youtube and other
+video sharing web sites. it was originally written to bypass the adobe flash
+requirement needed to view the hosted videos. it is non-interactive, meaning
+it can work in the background while the user is not logged on. this allows the
+user to start an extraction and disconnect from the system, letting clive
+finish the work.

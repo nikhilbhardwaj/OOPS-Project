@@ -1,0 +1,13 @@
+Java-based template engine for web application
+	
+velocity is a java-based template engine. it permits anyone to use
+the simple yet powerful template language to reference objects
+defined in java code.
+when velocity is used for web development, web designers can work in
+parallel with java programmers to develop web sites according to the
+model-view-controller (mvc) model, meaning that web page designers
+can focus solely on creating a site that looks good, and programmers
+can focus solely on writing top-notch code. velocity separates java
+code from the web pages, making the web site more maintainable over
+the long run and providing a viable alternative to java server pages
+(jsps) or php.

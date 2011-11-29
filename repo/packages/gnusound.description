@@ -1,0 +1,9 @@
+Multitrack sound editor for gnome
+	
+gnusound is a sound editor for gnome. it supports multiple tracks,
+multichannel output, and 8, 16, or 24/32 bit samples. it can read
+a number of audio formats, modify them, and saves them as wav files.
+gnusound supports a large number of high-quality audio effects,
+filters, and converters through the gladspa plugin architecture (band pass
+filter, frequency shifter, reverb, flanger, pitch scaler, pink noise,
+stereo to mono converter, and many others).

@@ -1,0 +1,9 @@
+Perl module for running processes
+	
+ipc::run allows you to run and interact with child processes using
+files, pipes, and pseudo-ttys.  both system()-style and scripted
+usages are supported and may be mixed.  likewise, functional and oo
+api styles are both supported and may be mixed.
+
+various redirection operators reminiscent of those seen on common
+unix and dos command lines are provided.

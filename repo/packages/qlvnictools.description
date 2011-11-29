@@ -1,0 +1,7 @@
+Tools for qlogic virtual nics
+	
+these tools allow the use and discovery of qlogic virtual
+nic (vnic) devices via the infiniband vnic protocol.
+the vnic driver enables a host on an infiniband fabric
+to access nodes on an external ethernet without requiring
+an ethernet nic to be installed in that host.

@@ -1,0 +1,8 @@
+Lightweight terminal emulator based on vte
+	
+evilvte is a terminal emulator based on virtual terminal emulator(vte) library.
+it supports almost everything vte provides.
+it also supports tabs, tabbar autohide, and switch encoding at runtime.
+configuration is via editing source code and recompilation.
+
+this build provides all runtime changeable options in the right-click menu.

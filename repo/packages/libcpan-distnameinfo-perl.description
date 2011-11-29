@@ -1,0 +1,6 @@
+Module to extract distribution name and version from a filename
+	
+cpan::distnameinfo is a perl module that extracts the name and version from a
+cpan distribution name. it uses heuristics similar to those used by the main
+<url:http://search.cpan.org/> site to extract the distribution information.
+it also reports if the version is to be treated as a developer release.

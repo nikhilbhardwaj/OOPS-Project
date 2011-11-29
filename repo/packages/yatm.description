@@ -1,0 +1,16 @@
+Command line audio file player with time stretching capabilities
+	
+yatm (yet another time machine) is a very simple command line audio player.
+its main purpose was to play audio files at a different tempo while retaining
+the original sounds pitch.  this is very useful for listening to audiobooks
+at a slightly higher speed than they were originally recorded with.  it can
+also be helpful when listening to musical passages at a slower speed to
+be able to destinguish the different notes more easily.
+
+changing the pitch while keeping the tempo is also supported.  musical
+cents and semitones can be used to specify pitch change.  this makes it
+easy to use for musicians.  the notes you have are in g but the recording
+you'd like to play along with is in f?  no problem, transpose the recording
+up two semitones.  you'd like to play along with this baroque recording
+that uses original pitch?  just tune the music up about 80 cents and you
+should be fine.

@@ -1,0 +1,9 @@
+Library for unicode support and internalisation
+	
+icu is a mature, widely used set of c/c++ and java libraries for
+unicode support, software internationalization and globalization
+(i18n/g11n). it grew out of the jdk 1.1 internationalization apis, which
+the icu team contributed, and the project continues to be developed
+for the most advanced unicode/i18n support. icu is widely portable and
+gives applications the same results on all platforms and between c/c++
+and java software.

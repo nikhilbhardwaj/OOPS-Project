@@ -1,0 +1,11 @@
+Perl extension for testing html output
+	
+this is a module to test the html output of your programs in simple
+test scripts. it can test a scalar (presumably containing html) for
+the presence (or absence, or a specific number) of tags having (or
+lacking) specific attributes. unspecified attributes are ignored,
+and the attribute values can be specified as either scalars (meaning
+a match succeeds if the strings are identical) or regular expressions
+(meaning that a match succeeds if the actual attribute value is matched
+by the given re) or undef (meaning that the attribute must not
+be present).

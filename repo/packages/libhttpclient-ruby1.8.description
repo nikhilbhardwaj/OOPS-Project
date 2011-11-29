@@ -1,0 +1,24 @@
+Http client library for ruby (ruby 1.8 version)
+	
+httpclient gives something like the functionality of
+libwww-perl (lwp) in ruby.
+
+features:
+
+   * methods like get/head/post/* via http/1.1.
+   * https(ssl), cookies, proxy, authentication(digest, ntlm, basic), etc.
+   * asynchronous http request, streaming http request.
+   * by contrast with net/http in standard distribution;
+         o cookies support
+         o mt-safe
+         o streaming post (post with file/io)
+         o digest auth
+         o negotiate/ntlm auth for www-authenticate (requires net/htlm module)
+         o ntlm auth for www-authenticate/proxy-authenticate (requires
+           win32/sspi module)
+         o extensible with filter interface
+         o you don't have to care http/1.1 persistent connection (httpclient
+           cares instead of you).
+
+
+this package is built for ruby 1.8.

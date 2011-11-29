@@ -1,0 +1,13 @@
+System for managing source dependencies in large projects
+	
+the grid packaging tools (gpt) package is a collection of packaging
+tools built around an xml based packaging data format. this format
+supports the definition of complex dependency and compatibility relationships
+between packages.
+
+the tools provide a means for developers to define the packaging data and
+include them as part of their source code distribution.  binary packages
+can be automatically generated from this data. the packages defined by
+gpt are compatible with other packages and can be easily converted.
+
+gpt is a key tool for the build process of the globus grid middleware.

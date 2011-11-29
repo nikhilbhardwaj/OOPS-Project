@@ -1,0 +1,6 @@
+Perl module to wrap subroutines in packages
+	
+sub::wrappackages is a perl module that can add pre- and post-execution code
+wrappers around some given subroutines. it is mostly a wrapper around damian
+conwway's hook::lexwrap module. instead of exporting a wrap function, magic
+happens when you load the module via the "use" keyword.

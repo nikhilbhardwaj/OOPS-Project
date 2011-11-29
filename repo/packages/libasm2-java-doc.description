@@ -1,0 +1,7 @@
+Documentation for asm, the java(tm) bytecode manipulation framework
+	
+it can be used to dynamically generate stub classes or other proxy classes,
+directly in binary form, or to dynamically modify classes at load time, i.e.,
+just before they are loaded into a java(tm) virtual machine.
+
+this package includes the api javadoc and examples.

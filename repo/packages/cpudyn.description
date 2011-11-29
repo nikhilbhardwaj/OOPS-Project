@@ -1,0 +1,9 @@
+Cpu dynamic frequency control for processors with scaling
+	
+cpudyn controls the speed in intel speedstep, pentium 4 mobile,
+amd powernow, powerpc, crusoe longrun machines with the cpufreq compiled
+in the kernel, or with machines that support acpi throttling. it saves
+battery, lowers temperature, and can put the computer disks in standby
+mode if a given period has passed without any i/o operation. it works
+well even with journaled file systems such as ext3, xfs, or reiserfs.
+even supports the new interface for kernels 2.6.x

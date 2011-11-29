@@ -1,0 +1,7 @@
+Graphical frontend for objdump
+	
+dissy is a disassembler for linux and unix which supports multiple
+architectures and allows easy navigation through the code. dissy is
+implemented in python and uses objdump for disassembling files. dissy
+can be used for debugging, reverse engineering and checking
+compiler-generated code.

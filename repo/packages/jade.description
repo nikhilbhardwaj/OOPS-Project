@@ -1,0 +1,12 @@
+James clark's dsssl engine
+	
+jade is an implementation of the dsssl style language.
+
+the jade engine is a useful tool (in conjunction with a dsssl style
+sheet) for translating sgml documents into other formats.  jade can
+currently generate sgml, rtf, and tex.  in conjunction with the "jadetex"
+tex style, it can generate quite nice output.
+
+
+ author:   james clark <jjc@jclark.com>
+ homepage: http://www.jclark.com/jade/

@@ -1,0 +1,9 @@
+Userspace filesystem client for mythtv
+	
+mythtvfs implements a human-readable filesystem on top of an existing
+mythtv tree.  it communicates with the mythtv backend to fill in the
+recording details, so that recordings can be browsed easily with applications
+that do not natively communicate with mythtv backends.
+
+mythtvfs is based on fuse (userspace filesystem framework for linux),
+thus you will have to prepare the fuse kernel module to be able to use it.

@@ -1,0 +1,6 @@
+Access lua from ruby (ruby 1.8)
+	
+rubyluabridge is a seamless bridge between ruby and lua.  it is a c
+extension that uses the actual lua c library.
+
+this package is built for ruby 1.8.

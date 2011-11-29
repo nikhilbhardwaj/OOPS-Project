@@ -1,0 +1,11 @@
+Jts topology suite
+	
+jts is a java library which provides:
+
+ * an implementation of the spatial data model defined
+   in the ogc simple features specification for sql (sfs)
+ * a complete, consistent, implementation of fundamental 2d spatial algorithms
+ * an explicit precision model, with algorithms that gracefully handle
+   situations that result in dimensional collapse
+ * robust implementations of key computational geometric operations
+ * i/o in well-known text format

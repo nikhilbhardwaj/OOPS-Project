@@ -1,0 +1,9 @@
+Manipulate javabean using xpath syntax
+	
+this library provides the java developer the ability to manipulate
+javabeans with the xpath syntax. it also supports java collections,
+objects with dynamic properties (like map, servletcontext, etc)
+and mechanism for adding support for additional models.
+
+one of the most important feature of the component is the
+unification of reference syntax between dom and java.

@@ -1,0 +1,15 @@
+Postgresql database-cluster manager
+	
+the postgresql-common package provides a structure under which
+multiple versions of postgresql may be installed and/or multiple
+clusters maintained at one time.
+
+this package will automatically create a (self-signed) certificate so
+that ssl connections are supported.
+
+postgresql is a fully featured object-relational database management
+system. it supports a large part of the sql standard and is designed
+to be extensible by users in many aspects. its features include acid
+transactions, foreign keys, views, sequences, subqueries, triggers,
+outer joins, multiversion concurrency control, and user-defined types
+and functions.

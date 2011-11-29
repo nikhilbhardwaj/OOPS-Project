@@ -1,0 +1,12 @@
+Object-oriented version of the arpack package (runtime)
+	
+arpack++ is an object-oriented version of the arpack package. it consists a
+collection of classes that offers c++ programmers an interface to arpack. it
+preserves the full capability, performance, accuracy and low memory
+requirements of the fortran package, but takes advantage of the c++
+object-oriented programming environment.
+
+arpack stands for arnoldi package and provides standard and
+generalized eigenvalue solvers for sparse matrices that arises
+typically from finite element codes. see the correponding debian
+package.

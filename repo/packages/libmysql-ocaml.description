@@ -1,0 +1,6 @@
+Ocaml bindings for mysql
+	
+this ocaml library interfaces the mysql c library. it can be used to access
+and modify mysql databases from ocaml programs.
+
+this package contains only the shared runtime stub libraries.

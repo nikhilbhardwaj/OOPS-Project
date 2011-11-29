@@ -1,0 +1,19 @@
+A graphical administrator tool for postgresql
+	
+kpogre is a gui tool for postgresql, using libpqxx library.
+
+features:
+
+ * browsing through postgresql system catalog
+ * wizards for create, modify and drop database objects
+ * wizards for database administration tasks (backup, restore, vacuum, analyze)
+ * wizards for changing access privileges
+ * sql query/result windows, for editing and executing sql
+   statements and viewing result
+ * datatable windows for edit database tables content
+ * executor windows for run database functions
+
+
+libpqxx is the official c++ client api for postgresql.
+
+postgresql is an opensource database system.

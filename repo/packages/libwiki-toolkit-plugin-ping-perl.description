@@ -1,0 +1,8 @@
+"ping" various services when nodes are written
+	
+a plug-in for wiki::toolkit sites, which will "ping" various external services
+when a node is written. a list of the services to ping, and where in their
+urls to add the url of the node, are supplied when the plugin is created.
+
+you need to tell it how to turn a node into a url (node_to_url), and what
+services to ping (services).

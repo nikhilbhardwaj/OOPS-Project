@@ -1,0 +1,22 @@
+Discover and fingerprint ike hosts (ipsec vpn servers)
+	
+ike-scan discovers ike hosts and can also fingerprint them using the
+retransmission backoff pattern.
+
+ike-scan does two things:
+
+a) discovery: determine which hosts are running ike.
+
+   this is done by displaying those hosts which respond to the ike requests
+   sent by ike-scan.
+   .
+
+b) fingerprinting: determine which ike implementation the hosts are using.
+
+   this is done by recording the times of the ike response packets from the
+   target hosts and comparing the observed retransmission backoff pattern
+   against known patterns.
+   .
+   the retransmission backoff fingerprinting concept is discussed in more
+   detail in the udp backoff fingerprinting paper which should be included
+   in the ike-scan kit as udp-backoff-fingerprinting-paper.txt.

@@ -1,0 +1,5 @@
+Mappedquerydb toolkit for federated databases
+	
+mqdb.pm is a base toolkit for working with relational databases in the
+context of a federation of object databases. it provides some base federation
+support and a variation on an object-relational-mapped template model.

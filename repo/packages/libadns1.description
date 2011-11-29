@@ -1,0 +1,6 @@
+Asynchronous-capable dns client library and utilities
+	
+adns is a resolver library for c (and c++) programs. in contrast with the
+existing interfaces, gethostbyname et al and libresolv, it can be used in
+an asynchronous, non-blocking manner. many queries can be handled
+simultaneously.

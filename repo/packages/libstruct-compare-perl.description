@@ -1,0 +1,7 @@
+Recursive diff for perl structures.
+	
+compares two values of any type and structure and returns true if they
+are the same. it does a deep comparison of the structures, so a hash
+of a hash of a whatever will be compared correctly.
+
+this is especially useful for writing unit tests for your modules!

@@ -1,0 +1,13 @@
+Perl module to start an application as a daemon
+	
+app::daemon helps running an application as a daemon. the idea to prepend
+scripts with functions provided by this module to 'daemonize' it.
+
+along with the common features offered by similar modules on cpan, it
+
+ * supports logging with log4perl: in background mode, it logs to a logfile. in
+   foreground mode, log messages go directly to the screen.
+ * detects if another instance is already running and ends itself
+   automatically in this case.
+ * shows with the 'status' command if an instance is already running and
+   which pid it has.

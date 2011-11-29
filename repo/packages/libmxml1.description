@@ -1,0 +1,28 @@
+Small xml parsing library (runtime)
+	
+mini-xml is a small xml parsing library that you can use to read xml and
+xml-like data files in your application without requiring large non-standard
+libraries.
+
+mini-xml provides the following functionality:
+
+ * reading of utf-8 and utf-16 and writing of utf-8 encoded xml files and
+   strings.
+ * data is stored in a linked-list tree structure, preserving the xml data
+   hierarchy.
+ * supports arbitrary element names, attributes, and attribute values with
+   no preset limits, just available memory.
+ * supports integer, real, opaque ("cdata"), and text data types in "leaf"
+   nodes.
+ * functions for creating, indexing, and managing trees of data.
+ * "find" and "walk" functions for easily locating and navigating trees of
+   data.
+
+
+mini-xml doesn't do validation or other types of processing on the data based
+upon schema files or other sources of definition information, nor does it
+support character entities other than those required by the xml specification.
+
+this package contains the files necessary for running applications that
+use the mini-xml library.
+.

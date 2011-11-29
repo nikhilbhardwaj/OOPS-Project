@@ -1,0 +1,4 @@
+PackageId:2219
+Name:conntrack
+Version:1:0.9.14-2
+Deps:libc6,libc6-udeb,libc6.1,libc6.1-udeb,libnetfilter-conntrack3,libnfnetlink0

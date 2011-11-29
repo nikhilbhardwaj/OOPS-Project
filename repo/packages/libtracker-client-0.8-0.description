@@ -1,0 +1,8 @@
+Metadata database, indexer and search tool - library
+	
+this package contains the library that is used by applications to access
+the tracker daemon.
+
+tracker is an advanced framework for first class objects with associated
+metadata and tags. it provides a one stop solution for all metadata, tags,
+shared object databases, search tools and indexing.

@@ -1,0 +1,8 @@
+Network interfaces monitor for kde's systray
+	
+knemo displays for every network interface an icon in the systray.
+tooltips and an info dialog provide further information about the
+interface.  passive popups inform about interface changes.
+a traffic plotter is also integrated.
+
+knemo polls the network interface status every second.

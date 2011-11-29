@@ -1,0 +1,5 @@
+C library for manipulating tar archives
+	
+libtar allows programs to create, extract and test tar archives.
+it supports both the strict posix tar format and many of the commonly-used
+gnu extensions.

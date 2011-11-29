@@ -1,0 +1,6 @@
+Debugging information for e2fsprogs
+	
+this package includes the debug information useful for debugging e2fsprogs
+and its libraries, contained in the e2fsprogs and e2fsck-static packages.
+the debug information is used for execution tracing and core
+dump analysis.

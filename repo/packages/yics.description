@@ -1,0 +1,14 @@
+Yahoo! chess client for use with fics interfaces
+	
+this program connects to any of the free yahoo! chess lobbies and pretends to
+be a fics server, allowing many of the free fics interfaces to be used on
+yahoo! chess.  yics can be thought of as a protocol translator or adapter: the
+binary yahoo! games protocol goes in one end and the fics server protocol
+comes out the other, and vice-versa.
+
+yics was tested the most with xboard, and works quite well with it.  if you
+prefer, you can use yics without any graphical interface just as you can
+telnet to fics.
+
+
+ homepage: http://www.yics.org

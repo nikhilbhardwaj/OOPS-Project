@@ -1,0 +1,9 @@
+Gem based plugin system
+	
+gemplugin is a system that lets your users install gems and lets you load
+them as additional features to use in your software.  it originated from the
+mongrel (http://mongrel.rubyforge.org) project but proved useful enough to
+break out into a separate project.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8.x).

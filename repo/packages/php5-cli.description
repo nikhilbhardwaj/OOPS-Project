@@ -1,0 +1,17 @@
+Command-line interpreter for the php5 scripting language
+	
+this package provides the /usr/bin/php5 command interpreter, useful for
+testing php scripts from a shell or performing general shell scripting tasks.
+the following extensions are built in: bcmath bz2 calendar core ctype date
+
+ dba dom ereg exif fileinfo filter ftp gettext hash iconv json libxml
+ mbstring mhash openssl pcntl pcre phar posix reflection session shmop
+ simplexml soap sockets spl standard sysvmsg sysvsem sysvshm tokenizer wddx
+ xml xmlreader xmlwriter zip zlib.
+
+
+php5 is a widely-used general-purpose scripting language that is
+especially suited for web development and can be embedded into html.
+the goal of the language is to allow web developers to write
+dynamically generated pages quickly. this version of php5 was built
+with the suhosin patch.

@@ -1,0 +1,8 @@
+Tune low-level block device parameters
+	
+blktool is used for querying and/or changing settings of a block
+device.  it is like hdparm but a more general tool, as it works on
+scsi, ide and sata devices.
+
+this program is for those who know what they're doing and should be
+used it at your own risk as it could cause damage to your hardware.

@@ -1,0 +1,8 @@
+Tryton application platform (sale price list module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this module adds the possibility to define price lists on parties and sale
+orders.

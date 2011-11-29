@@ -1,0 +1,8 @@
+Utility to control ati radeon backlight functions on laptops
+	
+radeontool is a small utility to control ati radeon based laptops' backlight
+and external output functions. it is also able to dump the contents of
+registers for debugging purposes.
+
+warning: radeontool code has not been completely audited and may contain bugs
+that could damage your hardware. use at your own risk.

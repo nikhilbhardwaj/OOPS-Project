@@ -1,0 +1,7 @@
+Scratchbox remote shell client
+	
+sbrsh requests a sbrshd host to mount a nfs partition, and executes a
+binary on it.  this used to provide cpu transparency for cross-compiling
+with scratchbox.
+
+http://scratchbox.org/

@@ -1,0 +1,12 @@
+Perl module for unified io operations
+	
+io::all combines all of the best perl io modules into a single spiffy object
+oriented interface to greatly simplify your everyday perl io idioms. it
+exports a single function called io, which returns a new io::all object. and
+that object can do it all!
+
+the io::all object is a proxy for io::file, io::dir, io::socket, io::string,
+tie::file, file::spec, file::path and file::readbackwards; as well as all the
+dbm and mldbm modules. you can use most of the methods found in these classes
+and in io::handle (which they inherit from). io::all adds dozens of other
+helpful idiomatic methods including file stat and manipulation functions.

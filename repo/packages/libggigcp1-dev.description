@@ -1,0 +1,11 @@
+Ggi color and palette manager extension development package
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+libggigcp is a generic color and palette management extension for ggi
+display targets. it does conversion between different color spaces
+such as rgba, yuv, hsv and cmyk as well as generic color-blending,
+which can also be used for translucency effects.
+
+this package includes the development files necessary to compile
+programs that use libggigcp.

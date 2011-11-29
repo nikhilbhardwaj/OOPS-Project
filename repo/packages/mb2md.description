@@ -1,0 +1,23 @@
+Converting mbox mailboxes to maildir format
+	
+a perl script that takes one or more mbox format mailbox files in a
+directory and convert them to maildir format mailboxes. as the mbox
+format has some drawbacks, d. j. bernstein created the maildir format
+when he wrote qmail. with the mbox format all mail of a specific
+folder is stored as one large text file. the maildir format stores
+each mail as a separate file. it is a faster and more efficient way
+to store mail. it works particularly well over nfs, which has a long
+history of locking-related woes.
+the mbox format is used by most of the pop3/imap servers, most mail
+servers (mtas) and mail readers (muas). the maildir format is used
+by qmail, courier-mta and can be also used as a alternative mail
+storage format by postfix and exim. a good pop3/imap server for
+maildirs is courier imap.
+
+mb2md.pl does not only convert mailbox files into a maildir but
+also the /var/spool/mail/$user mailspool file. it is smart enough
+to not transfer a dummy message such as the uw imapd puts at the
+start of mbox mailboxes - and you could add your own search terms
+into the script to make it ignore other forms of dummy first message.
+
+http://batleth.sapienti-sat.org/projects/mb2md/

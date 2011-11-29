@@ -1,0 +1,13 @@
+Set of command-line tools to work with matroska files
+	
+matroska is a new multimedia container format, based on ebml (extensible
+binary meta language), which is a kind of binary xml.
+these tools allow to manipulate matroska files.
+
+ - mkvmerge is a tool to create matroska files from other formats
+ - mkvinfo allows to get information about the tracks in a matroska file
+ - mkvextract can extract tracks from matroska files to other formats
+
+
+this package only provides command-line tools. for graphical tools, you
+should install the mkvtoolnix-gui package.

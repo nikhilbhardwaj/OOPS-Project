@@ -1,0 +1,5 @@
+Perl module to convert html to text with links as footnotes
+	
+html::formattext::withlinks takes html and turns it into plain text
+but prints all the links in the html as footnotes. by default, it attempts
+to mimic the format of the lynx text based web browser's --dump option.

@@ -1,0 +1,12 @@
+Documentation for vflib3
+	
+vflib3 is a font rasterizer library for multi-lingual information
+processing.  using vflib3, you can obtain bitmap data of characters(glyphs)
+from various fonts in a unified manner.
+
+vflib3 can handle almost all font formats available - it now supports
+pk, gf, vf, tfm, ofm level 0, ovf, pcf, bdf, hbf, syotai-club, jg, ekanji
+and more.  truetype and type 1 fonts are also supported via freetype2
+and t1lib respectively.  font search via kpathsea is supported, too.
+
+this package contains the vflib3 documentation in various formats.

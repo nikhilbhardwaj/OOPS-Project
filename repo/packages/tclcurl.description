@@ -1,0 +1,6 @@
+Tcl bindings to libcurl
+	
+this module enables the use of libcurl in tcl scripts. please refer to
+the libcurl documentation available in the libcurl4-gnutls-dev package.
+
+note: the ssl support is provided by gnutls.

@@ -1,0 +1,12 @@
+British english dictionary words for /usr/share/dict
+	
+this package provides the file /usr/share/dict/british-english-large
+containing a list of english words with british spellings.
+this list can be used by spelling checkers, and by programs such
+as look(1).
+
+this is a larger list than the one installed by wbritish; nothing
+prevents you installing both (and others) at the same time.
+
+there are also -small and -huge versions of this word list,
+and there are wamerican* and wcanadian* packages as well.

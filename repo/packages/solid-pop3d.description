@@ -1,0 +1,11 @@
+Pop3 server supporting maildir, pam, vhosting
+	
+the solid pop3 server is an implementation of a post office protocol version 3
+server that has flexibility as its main goal. the server is easily
+configurable and has support for features such as:
+
+ - apop authentication scheme
+ - virtual hosting
+ - maildir and mailbox handling
+ - bulletins
+ - expiration of messages

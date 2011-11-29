@@ -1,0 +1,13 @@
+Virus-scanning smtp proxy
+	
+clamsmtp is an smtp proxy daemon that checks for viruses using the clamav
+anti-virus software.  it can act as a traditional smtp proxy with publicly
+accessible ports or as a transparent proxy, where smtp traffic is redirected
+to the clamsmtp by your router.
+
+clamsmtp aims to be lightweight, reliable, and simple rather than have a
+myriad of options. it is written in c without major dependencies. clamsmtp
+does not do general spam filtering, it only scans for viruses.
+
+you do not need a local mail-transport-agent installed, since this server can
+forward to a remote one.

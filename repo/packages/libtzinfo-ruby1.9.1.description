@@ -1,0 +1,8 @@
+Ruby library for transformations between time zones (ruby 1.9.1)
+	
+tzinfo is a ruby library that uses the standard tz (olson) database to provide
+daylight savings aware transformations between times in different time zones.
+the tz database is compiled into ruby modules which are packaged in the
+release. no external zoneinfo files are required at runtime.
+
+this package is built for ruby 1.9.1.

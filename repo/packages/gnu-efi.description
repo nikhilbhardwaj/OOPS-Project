@@ -1,0 +1,5 @@
+Library for developing efi applications
+	
+gnu toolchain for building applications that can run in the environment
+presented by intel's efi (extensible firmware interface).  efi is a firmware
+specification for the "bios" on ia64(ipf), ia-32(x86) and x86_64 systems.

@@ -1,0 +1,7 @@
+Easy media streaming client over icecast servers
+	
+ezstream is an audio and video streaming client which feeds any icecast server
+with audio data and metadata from a standard input without reencoding.
+it thus requires very little cpu resources. some playlists can be looped and
+composed with mp3, ogg vorbis or ogg theora media files.
+shoutcast metadata are also supported.

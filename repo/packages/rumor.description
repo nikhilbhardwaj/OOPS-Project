@@ -1,0 +1,7 @@
+Realtime midi keyboard to lilypond converter
+	
+program  for transcripting simple music played on (midi) keyboard to lilypond
+text notation. it receives midi events, quantizes them according to its
+metronome on the fly and outputs handwritten-like corresponding lilypond
+notation. tempo, meter, key and other parameters can be set via command-line
+options.

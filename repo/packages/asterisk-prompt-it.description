@@ -1,0 +1,17 @@
+Italian voice prompts for the asterisk pbx
+	
+these are italian voice prompts for the asterisk pbx, courtesy of
+marco menardi.
+
+this package is useful if you intend to run asterisk and wish to
+support italian callers.
+
+traduzione dei file sonori di asterisk by marco menardi ? 2004-11-10
+
+qui riporto il nome file, il messaggio in italiano e, fra parentesi,
+l'originale in inglese dei
+?suoni? di asterisk cvs. il testo inglese si ricava dal file
+?/usr/src/asterisk/sounds.txt?
+per funzionare correttamente hanno bisogno anche di un adattamento del
+software asterisk, attualmente in corso di sviluppo e/o integrazione
+devono venir modificate le applicazioni:

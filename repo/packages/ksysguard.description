@@ -1,0 +1,8 @@
+Process monitor and system statistics
+	
+system guard allows you to monitor various statistics about your system.
+
+in addition to monitoring the local system, it can connect to remote systems
+running the system guard daemon, which is in the 'ksysguardd' package.
+
+this package is part of the kde base workspace module.

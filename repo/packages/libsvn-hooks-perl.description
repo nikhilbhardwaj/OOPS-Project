@@ -1,0 +1,6 @@
+Framework for implementing subversion hooks
+	
+svn::hooks is a perl-based framework for creating subversion hooks. it comes
+with several plugins that implement some of the most commonly used standalone
+subversion hooks available. as a framework, it can be extended to implement
+all types of hooks.

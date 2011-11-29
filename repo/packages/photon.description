@@ -1,0 +1,17 @@
+A static html gallery generator
+	
+a python based photo album generator with a clean design that is run from the
+command line. html output can be configured via templates.
+
+features:
+
+  * generates static html pages
+  * slideshow (use of javascript is optional)
+  * can use gimp to resize picture
+  * keyboard navigation between images
+  * works in any browser (mozilla, netscape navigator 4.x, konqueror, opera)
+  * each image can have a comment (with html tags)
+  * image information (if taken from a digital picture) can be displayed
+  * thumbnail image size can be selected by the user
+  * output images can be scaled down
+  * control over the number of thumbnails in a page

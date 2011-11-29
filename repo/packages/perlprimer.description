@@ -1,0 +1,11 @@
+Graphical design of primers for pcr
+	
+perlprimer is a free, open-source gui application written in perl that designs
+primers for standard polymerase chain reaction (pcr), bisulphite pcr,
+real-time pcr (qpcr) and sequencing. it aims to automate and simplify the
+process of primer design.
+
+if operated online, the tool nicely communicates with the ensembl
+project for further insights into the gene structure, i.e., allowing
+for taking the location of exons and introns into account for the design
+of the primers.  the sequences themselves can be retrieved, too.

@@ -1,0 +1,8 @@
+A general-purpose preprocessor with customizable syntax
+	
+gpp is a general-purpose preprocessor with customizable syntax, suitable for
+a wide range of preprocessing tasks. its independence from any one
+programming language makes it much more versatile than the c preprocessor
+(cpp), while its syntax is lighter and more flexible than that of gnu m4.
+there are built-in macros for use with c/c++, latex, html, xhtml, and prolog
+files.

@@ -1,0 +1,14 @@
+Flexible url datatype for python
+	
+mxurl provides a new easy to use, fast and light-weight builtin
+datatype url for storing and manipulating universal resource locators
+(urls), as well as a few helpers related to url building, encoding
+and decoding.
+
+the new type supports the common tasks of url joining and gives direct
+access to the various url components. it also provides methods for
+rebuilding urls, e.g. replacing the host or just the scheme in an
+existing url.
+
+all this is coded in c to give you the fastest possible performance
+for these everyday web application operations.

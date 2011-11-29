@@ -1,0 +1,9 @@
+Haskell library for expressing database queries; profiling libraries
+	
+haskelldb is library for expressing database queries and operations
+in a type safe and declarative way. this package contains the library
+for use with ghc 6.
+
+haskelldb compiles a relational algebra-like syntax into sql, submits
+the operations to the database for processing, and returns the
+results as ordinary haskell values.

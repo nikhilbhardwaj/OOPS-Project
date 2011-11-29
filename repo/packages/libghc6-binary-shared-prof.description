@@ -1,0 +1,8 @@
+Sharing-enhanced binary encoding; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+see http://www.haskell.org/ for more information on haskell.
+
+this library is similar to the haskell binary library, but add support to
+sharing identical element occuring in the data to be (de-)serialized.

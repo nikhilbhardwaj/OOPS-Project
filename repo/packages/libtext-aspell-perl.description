@@ -1,0 +1,10 @@
+Perl interface to the gnu aspell library
+	
+this module provides a perl interface to the gnu aspell library.  the
+gnu aspell library provides access to system spelling libraries,
+including a spell checker.
+
+this module is to meet the need of looking up many words, one at a
+time, in a single session.  it is a perl xs interface which should
+provide good performance in comparison to forking the aspell program
+for every word.

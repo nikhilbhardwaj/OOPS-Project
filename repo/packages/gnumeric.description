@@ -1,0 +1,36 @@
+Spreadsheet application for gnome - main program
+	
+gnumeric is a spreadsheet application that interoperates well
+with other spreadsheets. it comes with plugins that enable it to deal with
+commonly used spreadsheet file formats.
+
+the following formats can be imported and exported:
+
+ - microsoft excel 97/2000/xp (.xls);
+ - microsoft excel 95 (.xls);
+ - oasis xml, openoffice.org xml, staroffice (.sxc);
+ - comma/character separated values (.csv);
+ - data interchange format (.dif);
+ - applix version 4 (.as).
+
+
+additionally, the following formats can be imported:
+
+ - gnu oleo (.oleo);
+ - linear and integer program expression format (.mps);
+ - lotus 1-2-3 (.wks, .wk1);
+ - ms multiplan sylk (.sylk);
+ - wordperfect family "plan perfect" (.pln);
+ - quattro pro (tm);
+ - xspread or sc;
+ - xbase (.dbf).
+
+
+gnumeric can export to latex 2e (.tex), troff (.me) and html as well.
+
+gnumeric should be easy to use, in particular for users familiar with
+excel.
+
+gnumeric is a gnome application. gnome (gnu network object model environment)
+is a user-friendly set of applications and desktop tools to be used in
+conjunction with a window manager for the x window system.

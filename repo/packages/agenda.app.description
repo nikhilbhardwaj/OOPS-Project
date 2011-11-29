@@ -1,0 +1,16 @@
+Calendar manager for gnustep
+	
+simpleagenda is a an application to manage your calendars.  it
+handles both local and remote (webcal) calendars.  calendars can be
+shared with other programs like evolution, dates, iceape calendar and
+others.  the following features are available:
+
+
+ * multiple agendas.
+ * handle both events and tasks.
+ * support for local and remote (ftp, http) icalendar agendas.
+ * monthly calendar, day view, summary and tasks view.
+ * create, resize and move appointments easily.
+ * export individual elements as files and to the pasteboard.
+ * import .ics files.
+ * simple text search.

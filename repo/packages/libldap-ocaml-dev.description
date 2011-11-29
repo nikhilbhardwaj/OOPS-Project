@@ -1,0 +1,10 @@
+Ldap bindings for ocaml
+	
+it supports the core ldap-client functions, including search, add,
+modify, and delete.
+
+it has now an object oriented interface which supports the above
+features, and some additional ones. such as, nice data structures
+for local ldap entries which record local modifications and can sync
+them with the server, fewer arguments needed to perform simple
+tasks, and an api modeled after perl's net::ldap.

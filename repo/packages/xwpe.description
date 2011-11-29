@@ -1,0 +1,17 @@
+Programming environment and editor for console and x11
+	
+xwpe is an integrated programming and debugging environment similar to
+borland's turbo c and pascal family. it has many features including
+the ability to start many compilers, linkers and debuggers from a
+menu-based interface or using keystrokes.
+
+syntax highlighting is included for many programming languages, and
+any compiler and debugger can easily be used by the program. when
+compiling from within xwpe, errors in the source code can be jumped to
+and swiftly corrected. variables and the stack can be easily displayed.
+setting and unsetting breakpoints can be done directly within the
+source code.
+
+although it is designed to be a tool for programmers (when invoked as
+wpe or xwpe), it can also be used as an easy to learn text editor
+(when invoked as program 'we' or 'xwe').

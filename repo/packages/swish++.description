@@ -1,0 +1,23 @@
+Simple document indexing system for humans: c++ version
+	
+swish++ is a unix-based file indexing and searching engine
+(typically used to index and search files on web sites).  it
+was based on swish-e although swish++ is a complete rewrite.
+
+swish++ features:
+
+  * lightning-fast indexing
+  * indexes meta elements, alt, and other attributes
+  * selectively not index text within html or xhtml elements
+  * intelligently index mail and news files
+  * index unix manual page files
+  * apply filters to files on-the-fly prior to indexing
+  * index non-text files such as microsoft office documents
+  * modular indexing architecture
+  * index new files incrementally
+  * index remote web sites
+  * handles large collections of files
+  * lightning-fast searching
+  * optional word stemming (suffix stripping)
+  * ability to run as a search server
+  * easy-to-parse results format

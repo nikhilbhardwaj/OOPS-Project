@@ -1,0 +1,9 @@
+Documentation for the (syntax-)tree-handling tool kimwitu++
+	
+kimwitu++ is a system that supports the construction of programs that use
+trees or terms as their main data structure.  it allows you to define, store
+and operate on trees with typed nodes. each type of node has a specific number
+of sons, and expects these sons to have specific types.  the most popular
+example of such trees are syntax trees.
+
+this is the documentation for kimwitu++ in pdf and html format.

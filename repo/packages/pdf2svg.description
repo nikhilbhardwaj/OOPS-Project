@@ -1,0 +1,5 @@
+Converts pdf documents to svg files (one per page)
+	
+pdf2svg is a tiny command-line utility using cairo and poppler
+to convert pdf documents into svg files.  multi-page pdf can be split up to
+one svg per page by passing a file naming specification.

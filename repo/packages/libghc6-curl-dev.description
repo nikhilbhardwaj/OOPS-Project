@@ -1,0 +1,10 @@
+Ghc 6 libraries for the libcurl haskell bindings
+	
+
+libcurl is a client-side url transfer library, supporting ftp, ftps, http,
+https, scp, sftp, tftp, telnet, dict, ldap, ldaps and file. libcurl supports
+ssl certificates, http post, http put, ftp uploading, http form based upload,
+proxies, cookies, user+password authentication (basic, digest, ntlm, negotiate,
+kerberos4), file transfer resume, http proxy tunneling and more!
+
+this package contains the libraries compiled for ghc 6.

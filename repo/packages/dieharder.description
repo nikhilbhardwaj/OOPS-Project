@@ -1,0 +1,12 @@
+Random-number generator test front-end
+	
+dieharder is a fairly involved random number/uniform deviate generator
+tester.  it can either test any of its many prebuilt and linked
+generators (basically all of those in the gnu scientific library plus
+any others i've been able to find) or a potentially random dataset in a
+file.  with file input, it can test either n-bit bitstrings (with n user
+specifiable) or (double precision) floating point numbers in the range
+[0.0,1.0) (uniform deviates).  it is thus suitable for use in testing
+both software rng's and hardware rng's.
+
+this package provides the command-line frontend.

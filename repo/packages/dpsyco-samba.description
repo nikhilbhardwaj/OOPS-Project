@@ -1,0 +1,10 @@
+Automate administration of access to samba
+	
+this package contains a tool to automatically give some
+users or hosts access to a samba server. it is not that
+easy to administrate yet, but that should change soon.
+
+warning! samba users with uid between 500 and 999 will be automatically
+administrated by this tool. this means that if you do not have a admin
+package that set up users correctly, these users will be removed and
+the user will not be able to log in again. you have been warned!

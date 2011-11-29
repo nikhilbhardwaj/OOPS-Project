@@ -1,0 +1,7 @@
+Simple tool to use socialtext restful api
+	
+socialtext::resting is a module designed to allow remote access
+to the socialtext rest apis for use in perl programs.
+
+included in this distribution is 'strut', a command line utility which
+accesses the socialtext rest api using socialtext::resting methods.

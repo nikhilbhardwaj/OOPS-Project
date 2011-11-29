@@ -1,0 +1,5 @@
+Flatten/unflatten complex data hashes
+	
+hash::flatten converts back and forth between a nested hash structure and
+a flat hash of delimited key-value pairs. useful for protocols that only
+support key-value pairs (such as cgi and dbms).

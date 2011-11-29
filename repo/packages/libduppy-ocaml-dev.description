@@ -1,0 +1,8 @@
+Advanced scheduler for ocaml
+	
+duppy is an event scheduler written for ocaml. it allows the user
+to execute tasks according to some events on unix sockets, or
+a given delay.
+
+several threaded queues can proceed tasks in parallel. tasks are
+processed according to an abstract notion of priority.

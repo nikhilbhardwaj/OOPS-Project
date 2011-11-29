@@ -1,0 +1,14 @@
+Avahi's embeddable mdns/dns-sd library
+	
+avahi is a fully lgpl framework for multicast dns service discovery.
+it allows programs to publish and discover services and hosts
+running on a local network with no specific configuration. for
+example you can plug into a network and instantly find printers to
+print to, files to look at and people to talk to.
+
+this package contains the library for avahi's embeddable mdns/dns-sd stack.
+this can be used by embedded applications to integrate mdns/dns-sd
+functionality into their applications.
+
+you should not however use this library for non-embedded applications, you
+should use libavahi-client which interacts with the avahi daemon.

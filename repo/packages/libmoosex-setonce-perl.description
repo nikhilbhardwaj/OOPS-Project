@@ -1,0 +1,11 @@
+Module providing write-once, read-many attributes for moose
+	
+moosex::setonce provides the setonce attribute which lets your class have
+attributes that are not lazy and not set, but that cannot be altered once
+set.
+
+the logic is very simple: if you try to alter the value of an attribute with
+the setonce trait, either by accessor or writer, and the attribute has a
+value, it will throw an exception.
+
+if the attribute has a clearer, you may clear the attribute and set it again.

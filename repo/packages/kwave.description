@@ -1,0 +1,20 @@
+Sound editor for kde
+	
+"kwave" is a simple sound editor for kde. its features include:
+
+  * simple cut, copy and paste functions
+  * undo/redo
+  * simple filter design tools
+  * a small editor for additive synthesis
+  * labeling of signals
+  * some analysis functions such as sonagram or fourier transformation
+  * internally uses 24 bit integer sample data
+  * free selectable sample rates
+  * support for editing of multi-channel files
+  * playback of multi-channel audio files (audio output will be mixed
+    down to mono or stereo)
+  * extensible through an easy-to-use plugin interface
+
+
+
+ author:   thomas eschenbacher <thomas.eschenbacher@gmx.de>

@@ -1,0 +1,5 @@
+Module for generating html navigation menus
+	
+html::widgets::navmenu generates a navigation menu for a site. it can also
+generate a complete site map, a path of leading components, and also keeps
+track of navigation links ("next", "prev", "up", etc.)

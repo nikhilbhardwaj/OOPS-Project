@@ -1,0 +1,7 @@
+Tool to recompress and modify the structure of a dvd
+	
+vamps reduces the size of dvd compliant mpeg2 program streams by
+selectively copying audio and subpicture tracks and by resizing
+the embedded elementary video stream.
+the shrink factor may be either specified for the video elementary
+stream only or for the video es only or for the full ps.

@@ -1,0 +1,9 @@
+Read temperature sensors in a 1-wire net
+	
+digitemp is a program that reads data coming from a 1-wire network using
+a passive adapter (ds9097) or the newer active adapter (ds9097u),
+connected to a serial port. it also supports reading from usb adaptors
+like the ds2490. basically it reads temperature sensors, but others
+are supported, like a humidity sensor.
+
+digitemp also supports branched networks using ds2409 couplers.

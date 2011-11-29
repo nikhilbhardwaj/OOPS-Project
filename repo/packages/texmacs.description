@@ -1,0 +1,18 @@
+Wysiwyg mathematical text editor using tex fonts
+	
+gnu texmacs is a free scientific text editor, which was both inspired
+by tex and gnu emacs.
+
+the editor allows you to write structured documents via a wysiwyg
+(what-you-see-is-what-you-get) and a user friendly interface. new
+styles may be created by the user. the program implements
+high-quality typesetting algorithms and tex fonts, which help you to
+produce professionally looking documents.
+
+the high typesetting quality still goes through for automatically
+generated formulas, which makes texmacs suitable as an interface for
+computer algebra systems. texmacs also supports the guile/scheme
+extension language, so that you may customize the interface and write
+your own extensions to the editor.
+
+this package contains the architecture dependent files.

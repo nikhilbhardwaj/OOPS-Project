@@ -1,0 +1,9 @@
+A library for parsing, sorting and filtering your mail
+	
+this code is a standalone library based upon code which had been distributed
+with the cyrus mail server. currently libsieve implements two api's:
+one that is based upon, and compatible with, the sieve api as built into
+the cyrus mail server, as well as a new api which is very well suited to
+be incorporated into other programs and is reasonably extensible.
+
+this packages contains the shared libraries only.

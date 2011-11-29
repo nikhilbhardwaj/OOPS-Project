@@ -1,0 +1,7 @@
+Client for gnome-dvb-daemon
+	
+gnome dvb daemon is a gstreamer based daemon to setup your
+dvb devices, record and/or watch tv shows and browse epg.
+
+this package contains the python gtk+ client, which speaks
+to the daemon via dbus.

@@ -1,0 +1,14 @@
+Replication system for postgresql: postgresql server plug-in
+	
+slony-i is an asynchronous master-to-multiple-slaves replication system
+for postgresql with cascading and slave promotion.
+
+this package contains the support functions that are loaded into the
+postgresql database server.  it needs to be installed on the hosts where
+the database server nodes are running.  this package works with version
+8.4 of the postgresql server; you need the package that corresponds to
+the version of your database server.
+
+the actual replication daemon and the administration tools are in the
+package slony1-bin.  this package is useless without slony1-bin installed
+somewhere in the network.

@@ -1,0 +1,13 @@
+Read variables from ini-style configuration files
+	
+the confget utility examines a ini-style configuration file and retrieves
+the value of the specified variables from the specified section.
+its intended use is to let shell scripts use the same ini-style
+configuration files as other programs, to avoid duplication of data.
+
+the confget utility may retrieve the values of one or more variables,
+list all the variables in a specified section, list only those whose names
+or values match a specified pattern (shell glob or regular expression), or
+check if a variable is present in the file at all.  it has a "shell-quoting"
+output mode that quotes the variable values in a way suitable for passing
+them directly to a bourne-style shell.

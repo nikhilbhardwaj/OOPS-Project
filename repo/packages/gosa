@@ -1,0 +1,4 @@
+PackageId:6107
+Name:gosa
+Version:2.6.11-3
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,lighttpd,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,gettext,libapache2-mod-php5,php5-cgi,libcrypt-smbhash-perl,php5,php5-cli,php5-gd,php5-imagick,imagemagick,graphicsmagick-imagemagick-compat,php5-imap,php5-ldap,php5-mcrypt,php5-mysql,php5-recode,smarty,smarty-acl-render,smarty-gettext

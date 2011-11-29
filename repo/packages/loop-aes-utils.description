@@ -1,0 +1,13 @@
+Tools for mounting and manipulating filesystems
+	
+this package provides the mount(8), umount(8), swapon(8),
+swapoff(8), and losetup(8) commands with support for loop-aes
+loopback encryption.
+
+purpose of this package is to provide users of loop-aes with
+extended mount support that is not available with the crypto
+patch in the 'mount' package.
+
+on installation, this package diverts files from the mount
+package and installs versions with loop-aes support in their
+places. the diversions get removed on removal of the package.

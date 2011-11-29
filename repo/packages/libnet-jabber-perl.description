@@ -1,0 +1,6 @@
+Perl modules for accessing the jabber protocol
+	
+net::jabber is a collection of perl modules that provide a perl
+developer access to the jabber protocol.  using oop modules we
+provide a clean interface to writing anything from a full client to a
+simple protocol tester.

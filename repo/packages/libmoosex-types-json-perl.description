@@ -1,0 +1,6 @@
+Module providing json-constrained strings
+	
+moosex::types::json is a moose extension that provides type constraints that
+validate strings in the javascript object notation (json) format. it can use
+either the json or relaxed json specifications and depends on json::xs to do
+the heavy lifting (see libjson-xs-perl for details).

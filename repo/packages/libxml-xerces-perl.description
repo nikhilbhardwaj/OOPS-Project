@@ -1,0 +1,14 @@
+Perl api to xerces xml parser
+	
+xerces.pm is the perl api to the apache project's xerces xml
+parser. it is implemented using the xerces c++ api, and it provides
+access to most of the c++ api from perl.  unfortunately, it uses an
+old version of the xerces-c++ runtime libraries.
+
+because it is based on xerces-c++, xerces.pm provides a validating
+xml parser that makes it easy to give your application the ability to
+read and write xml data. a shared library is provided for parsing,
+generating, manipulating, and validating xml documents. xerces.pm is
+faithful to the xml 1.0 recommendation and associated standards (dom
+1.0, dom 2.0. sax 1.0, sax 2.0, namespaces, and schema), the parser
+provides high performance, modularity, and scalability.

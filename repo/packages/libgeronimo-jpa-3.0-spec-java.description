@@ -1,0 +1,10 @@
+Geronimo api implementation of the jpa 3.0 spec
+	
+the goal of the geronimo project is to produce a server runtime framework
+that pulls together the best open source alternatives to create runtimes
+that meet the needs of developers and system administrators. its most
+popular distribution is a fully certified java ee 5 application server
+runtime.
+
+this package provides the geronimo api implementation of the jpa 3.0 spec
+(javax.persistence classes).

@@ -1,0 +1,14 @@
+Ruby binding to the z39.50 object-orientation model (dependency package)
+	
+ruby/zoom provides a ruby binding to the z39.50 object-orientation
+model (zoom), an abstract object-oriented programming interface to a
+subset of the services specified by the z39.50 standard, also known
+as the international standard iso 23950.
+
+z39.50 is a client-server protocol for searching and retrieving
+information from remote computer databases. it is covered by ansi/niso
+standard z39.50, and iso standard 23950. the standard's maintenance
+agency is the library of congress.
+
+this is a dummy package depending on the library for the current default
+version of ruby.

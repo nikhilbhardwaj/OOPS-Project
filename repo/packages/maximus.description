@@ -1,0 +1,5 @@
+Automaximizing window management tool
+	
+maximus is a desktop daemon which will automatically maximise and optionally
+un-decorate windows. it has support for exclusion lists and will work with any
+ewmh-spec compliant window-manager.

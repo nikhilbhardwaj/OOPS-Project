@@ -1,0 +1,14 @@
+Perl module providing a streaming text orientated messaging protocol client
+	
+net::stomp allows you to write a stomp client. stomp is the streaming text
+orientated messaging protocol (or the protocol briefly known as ttmp and
+represented by the symbol :ttmp). it's a simple and easy to implement
+protocol for working with message orientated middleware from any language.
+net::stomp is useful for talking to apache activemq, an open source (apache
+2.0 licensed) java message service 1.1 (jms) message broker packed with many
+enterprise features.
+
+a stomp frame consists of a command, a series of headers and a body - see
+net::stomp::frame for more details.
+
+for details on the protocol see http://stomp.codehaus.org/protocol.

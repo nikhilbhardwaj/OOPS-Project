@@ -1,0 +1,6 @@
+Dockapp displaying nine configurable buttons
+	
+wmbutton displays nine buttons which can be configured through a config file.
+each button can be assigned up to three commands (one per mouse button).
+it is intended as a dockapp for x window managers such as window maker,
+afterstep, blackbox, and enlightenment.

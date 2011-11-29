@@ -1,0 +1,10 @@
+Perl modules for managing netapp's nas devices
+	
+netapp provides a suite of modules for managing netapp's nas devices,
+commonly referred to as "filers".
+
+both ssh and telnet are supported, but only ssh is really recommended. netapp
+doesn't support concurrent access via telnet, and the error checking using
+ssh is far more robust. not to mention, you can configure secure access via
+ssh without using passwords, but telnet access will always require a
+password.

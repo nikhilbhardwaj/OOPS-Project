@@ -1,0 +1,7 @@
+Perl modules for validating xml
+	
+this package contains several modules for validating xml:
+
+xml::checker - contains the xml::checker class that is used by the others
+xml::checker::parser - an xml::parser that validates at parse time
+xml::dom::valparser - an xml::dom::parser that validates at parse time

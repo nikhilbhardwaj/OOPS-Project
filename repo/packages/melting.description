@@ -1,0 +1,10 @@
+Compute the melting temperature of nucleic acid duplex
+	
+this program computes, for a nucleic acid duplex, the enthalpy, the
+entropy and the melting temperature of the helix-coil
+transitions. three types of hybridisation are possible: dna/dna,
+dna/rna, and rna/rna. the program first computes the hybridisation
+enthalpy and entropy from the elementary parameters of each crick's
+pair by the nearest-neighbor method. then the melting temperature is
+computed. the set of thermodynamic parameters can be easily changed,
+for instance following an experimental breakthrough.

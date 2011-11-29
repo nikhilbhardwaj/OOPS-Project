@@ -1,0 +1,5 @@
+Linux kernel aio access library - shared library
+	
+this library enables userspace to use linux kernel asynchronous i/o
+system calls, important for the performance of databases and other
+advanced applications.

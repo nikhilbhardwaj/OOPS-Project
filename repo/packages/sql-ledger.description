@@ -1,0 +1,25 @@
+A web based double-entry accounting program
+	
+accounting data is stored in an sql server, for the display any text or
+gui browser can be used. the entire system is linked through a chart
+of accounts. each item in inventory is linked to revenue, expense,
+inventory and tax accounts. when you sell and purchase goods and
+services the accounts are automatically updated.
+
+with the assembly feature you can build manufactured goods from parts,
+services and assemblies. when you sell assemblies all the accounts
+linked to the individual parts, services and assemblies are updated
+and stock levels adjusted accordingly. if any item belonging to an
+assembly is changed all assemblies are updated as well.
+
+invoices, packing list, income statement, balance sheet, sales and
+purchase order, statements, receipts and checks are generated from
+templates and may be changed to suit your needs. templates are provided
+in html and tex format. the tex templates are processed with latex
+to produce postscript and pdf documents and can be sent to a printer,
+displayed in a pdf viewer or sent out via email ...
+
+note: this package does not benefit from serious security support
+and you should use it only in a trusted environment. it's known
+to be affected by multiple sql injections and similar problems. see
+the readme.debian file for more information.

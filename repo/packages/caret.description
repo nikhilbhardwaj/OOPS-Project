@@ -1,0 +1,19 @@
+Computerized anatomical reconstruction and editing toolkit
+	
+this software allows for creating, viewing and manipulating surface
+reconstructions of the cerebral and cerebellar cortex, viewing volumes and for
+displaying experimental data on the surfaces and volumes. while caret is
+primarily a gui application with 'caret_command' there is also a versatile
+command line tool, that allows access to a substantial proportion of caret's
+functionality.
+
+caret can download and use stereotaxic atlases (human, monkey, mouse and rat)
+from an open online database.
+
+reference:
+
+
+ van essen, d.c., dickson, j., harwell, j., hanlon, d., anderson, c.h. and
+ drury, h.a. 2001. an integrated software system for surface-based analyses of
+ cerebral cortex. journal of american medical informatics association, 8(5),
+ 443-459.

@@ -1,0 +1,11 @@
+Bgoffice dictionary frontend (gtk2)
+	
+bgoffice is a project aimed on creating a full-featured desktop environment,
+translated and localized for bulgarian users.
+
+this package contains gbgoffice - a gtk2 program for working with all
+dictionaries, contained in bgoffice. it has clean interface, features gnome
+notification area integration and clipboard monitoring. all features are
+customizable.
+
+for qt/kde version of the program, see kbedic.

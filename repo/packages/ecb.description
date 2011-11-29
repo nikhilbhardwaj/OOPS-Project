@@ -1,0 +1,9 @@
+Code browser for emacs supporting several languages
+	
+ecb is source code browser for emacs. it is a global
+minor-mode which displays a couple of windows that can
+be used to browse directories, files and methods.
+it supports method parsing for java, c, c++, elisp etc.
+
+
+ homepage: http://ecb.sourceforge.net

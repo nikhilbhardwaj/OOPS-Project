@@ -1,0 +1,8 @@
+Coin-or linear programming solver
+	
+clp (coin-or linear programming) is an open-source linear programming solver
+written in c++. it is primarily meant to be used as a callable library, but a
+basic, stand-alone executable version is also available. it is designed to
+find solutions of constrained linear mathematical optimization problems.
+
+this package contains the header files for developers.

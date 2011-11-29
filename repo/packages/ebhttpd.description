@@ -1,0 +1,11 @@
+Specialized http server to access cd-rom books
+	
+the ebnetd distribution is a series of servers which provide ways to
+access so-called "cd-rom books" via tcp/ip, using eb library.  the cd-rom
+books is a popular form to provide dictionaries and multimedia references
+in japan.  various formats such as eb, ebg, ebxa, ebxa-c, s-ebxa and epwing
+are supported.
+
+ebhttpd is a specialized http server which provides a way to access
+cd-rom books on remote servers via http/1.0 and http/1.1.  note that
+you can not use ebhttpd for generic www purposes.

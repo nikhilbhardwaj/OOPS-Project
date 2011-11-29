@@ -1,0 +1,25 @@
+Convert between ascii, hexadecimal and binary representations
+	
+this package contains:
+
+ * ascii2binary reads input consisting of ascii or hexadecimal representation
+   numbers separated by whitespace and produces as output the binary
+   equivalents. the type and precision of the binary output is selected
+   using command line flags.
+ * binary2ascii reads input consisting of binary numbers and converts
+   them to their ascii or hexadecimal representation.
+   command line flags specify the type and size of the binary numbers
+   and provide control over the format of the output.
+   unsigned integers may be written out in binary, octal, decimal,
+   or hexadecimal.
+   signed integers may be written out only in binary or decimal. floating
+   point numbers may be written out only decimal, either in standard or
+   scientific notation. (if you want to examine the binary representation
+   of floating point numbers, just treat the input as a sequence of unsigned
+   characters.)
+
+
+the two programs are useful for generating test data, for inspecting binary
+files, and for interfacing programs that generate textual output to programs
+that require  binary input and conversely. they can also be useful when it is
+desired to reformat numbers.

@@ -1,0 +1,5 @@
+Ssh connection generation tool
+	
+belier allows automated openings of a shell or command executions
+on remote computers through ssh. the main feature is belier's ability
+to cross several computers before joining the final machine.

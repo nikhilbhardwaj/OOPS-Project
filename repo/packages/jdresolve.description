@@ -1,0 +1,9 @@
+Fast alternative to apache logresolve
+	
+the jdresolve application resolves ip addresses into hostnames. to
+reduce the time necessary to resolve large batches of addresses,
+jdresolve opens many concurrent connections to the dns servers, and
+keeps a large number of text lines in memory. these lines can have
+any content, as long as the ip addresses are the first field to the
+left. this is usually the case with most formats of http and ftp log
+files.

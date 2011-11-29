@@ -1,0 +1,6 @@
+Pam module to automatically mount encfs filesystems on login
+	
+this pam module integrates encfs and pam, so home directories are
+automatically mounted on login. encfs provides an encrypted filesystem in
+user-space, this pam module easily allow each user to have an encrypted home,
+and mount it automatically using its login password as encfs password.

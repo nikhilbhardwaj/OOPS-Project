@@ -1,0 +1,8 @@
+Erlang application which implements http webserver
+	
+yaws is a high performance http 1.1 webserver written in erlang. it is a
+multithreaded webserver where one erlang light weight process is used to
+handle each client. two separate modes of operation are supported.
+
+this package includes erlang yaws application suitable to work in embedded
+mode where it runs as a webserver in another erlang application.

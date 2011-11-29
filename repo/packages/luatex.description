@@ -1,0 +1,22 @@
+Next generation tex engine
+	
+luatex uses lua scripting both as an extension to the tex
+macro language and as an extension to the typesetting
+engine itself. a (growing) number of tex internals are
+made available to the embedded lua interpreter.
+
+luatex uses code and interfaces from aleph to improve the
+typesetting of non-latin alphabet languages, instead of
+the texxet code present in the current releases of pdftex.
+
+unicode and opentype font support are added progressively,
+and regular pdftex development will continue in this
+branch as well.
+
+the multi-lingual extensions are coded and merged by taco
+hoekwater. swift progress in that area is made possible
+by a joint grant from colorado state university and tug,
+under the 'oriental tex' project.
+
+this package only contains the barebone binary. if you are
+searching for support file, formats etc install texlive-luatex.

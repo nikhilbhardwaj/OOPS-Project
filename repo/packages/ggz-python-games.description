@@ -1,0 +1,24 @@
+Ggz gaming zone: game clients collection for sdl and python
+	
+ggz games are games that can be played online against other people while
+all having some features in common, like table chat, seats configuration,
+bot players, game spectators, savegames, statistics, and others.  some
+games also work in single-player mode.
+
+this package provides games that have been developed using the sdl
+toolkit for python (pygame).  it includes:
+
+ * ggzboard (engine for chess, checkers, hnefatafl, ludo, ...)
+ * xadrez-chinês (chinese chess game)
+ * escape/sdl
+ * go-wrapper (external, uses gnu go)
+
+and much more.
+
+a core client using pygame, named víbora, is also included here even
+though it is not a game.  similarly, the python wrappers for the c
+libraries of ggz and the python-based game servers reside here also for
+the time being.
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

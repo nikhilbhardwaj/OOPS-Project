@@ -1,0 +1,11 @@
+Aegis tk user interface
+	
+aegis provides a framework within which a team of developers may
+work on many changes to a program independently, and aegis
+coordinates integrating these changes back into the master source
+of the program, with as little disruption as possible.
+
+aegis simplifies the problems associated with multiple developers and
+development trees by using a transaction-based approach to version control,
+along with a web-browsable repository and an integrated testing
+mechanism.

@@ -1,0 +1,19 @@
+Lightweight webkit browser following the unix philosophy
+	
+uzbl follows the unix philosophy - "write programs that do one thing and do it
+well. write programs to work together. write programs to handle text streams,
+because that is a universal interface."
+
+
+ * very minimal graphical interface. you only see what you need
+ * what is not browsing, is not in uzbl. things like url changing,
+   loading/saving of bookmarks, saving history, downloads, ... are handled
+   through external scripts that you write
+ * controllable through various means such as fifo and socket files, stdin,
+   keyboard and more
+ * advanced, customizable keyboard interface with support for modes, modkeys,
+   multichars, variables (keywords) etc. (eg you can tweak the interface to be
+   vim-like, emacs-like or any-other-program-like)
+ * focus on plaintext storage for your data and configs in simple, parseable
+   formats
+ * uzbl keeps it simple, and puts _you_ in charge.

@@ -1,0 +1,7 @@
+Additional font-lock keywords for the developers on emacs
+	
+develock is a minor mode which provides the ability to make font-
+lock highlight leading and trailing whitespace, long lines and
+oddities in the file buffer for lisp modes, changelog mode, texinfo
+mode, c modes, java mode, jde-mode , cperl mode, perl mode, html
+modes and some mail modes.

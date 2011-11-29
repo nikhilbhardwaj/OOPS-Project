@@ -1,0 +1,9 @@
+Transitional dummy package for now-defunct email::mime::creator
+	
+email::mime is an extension of the email::simple module for easily handling
+mime-encoded messages. it takes a message as a string, splits it up into its
+constituent parts, and allows you access to various parts of the message.
+headers are decoded from mime encoding.
+
+this is a transitional dummy package which can be safely removed after the
+upgrade. the email::mime::creator module is now part of email::mime.

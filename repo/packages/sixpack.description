@@ -1,0 +1,6 @@
+Full-featured package for xas analysis
+	
+sam's interface for xas package, or sixpack for short, is the unification
+of the previously named samxas and samview programs into a single analysis
+package.  thus the package can guide the user through data averaging and
+calibration, background removal, and many aspects of fitting.

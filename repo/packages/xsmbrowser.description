@@ -1,0 +1,7 @@
+X11 tool for navigating smb networks
+	
+xsmbrowser is a tool for navigating smb networks (samba, smb, cifs).
+it retains the features of the program it was based upon (microsoft's
+network neighborhood), but adds convenient features for unix users.
+these include mounting, ability to change networks on-the-fly, and
+conveniences such as a stop button.

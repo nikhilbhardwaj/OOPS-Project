@@ -1,0 +1,4 @@
+PackageId:2982
+Name:dhis-tools-dns
+Version:5.0-6
+Deps:bind9,dhis-dns-engine,dhis-server,dhis-tools-genkeys,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb

@@ -1,0 +1,13 @@
+Chemical structures drawing program
+	
+chemtool is a gtk+ based 2d chemical structure editor for x11. it
+supports many bond styles, most forms of text needed for chemical
+typesetting and splines/arcs/curved arrows.
+
+drawings can be exported to mol and pdb format, svg or xfig format for
+further annotation, as a pictex drawing, as a bitmap or as postscript
+files (several of these through xfig's companion program transfig).
+
+the package also contains a helper program, cht, to calculate sum
+formula and (exact) molecular weight from a chemtool drawing file. cht
+can either be called directly by chemtool or on the console.

@@ -1,0 +1,23 @@
+Software implementation of the openal api (shared library)
+	
+openal, the open audio library, is a joint effort to create an open,
+vendor-neutral, cross-platform api for interactive, primarily spatialized
+audio. openal's primary audience are application developers and desktop
+users that rely on portable standards like opengl, for games and other
+multimedia applications.
+
+this library is meant as a compatible update/replacement to the openal sample
+implementation (the si). the si has been unmaintained for quite a while, and
+would require a lot of work to clean up. this is a fork the old windows version
+to attempt an accelerated alsa version of an openal implementation.
+
+openal soft supports mono, stereo, 4-channel, 5.1, 6.1, and 7.1 output, as
+opposed to the si's 4-channel max (though it did have some provisions for 6
+channel, this was not 5.1, and was seemingly a "late" addition). openal soft
+does not support the vorbis and mp3 extensions, however those were considered
+deprecated even in the si. it does, though, support some of the newer
+extensions like al_ext_float32 and al_ext_mcformats for multi-channel and
+floating-point formats, as well as alc_ext_efx for environmental audio effects,
+and others.
+
+this package installs the openal soft shared library.

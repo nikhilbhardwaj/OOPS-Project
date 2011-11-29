@@ -1,0 +1,7 @@
+Displays and prints phylogenetic trees
+	
+treeview x is an open source and multi-platform program to display
+phylogenetic trees. it can read and display nexus and newick format tree files
+(such as those output by paup*, clustalx, tree-puzzle, and other programs). it
+allows to order the branches of the trees, and to export the trees in svg
+format.

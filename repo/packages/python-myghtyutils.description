@@ -1,0 +1,12 @@
+Set of utility classes used by myghty templating
+	
+utility classes used by myghty templating:
+container - the containment system providing back-end neutral key/value
+storage, with support for in-memory, dbm files, flat files, and memcached.
+buffer - some functions for augmenting file objects .
+util - various utility functions and objects.
+synchronizer - provides many reader/single writer synchronization using
+either thread mutexes or lockfiles.
+session - provides a session interface built upon the container, similar
+interface to mod_python session. currently needs a mod_python-like request
+object, this should be changed to something more generic.

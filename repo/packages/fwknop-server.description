@@ -1,0 +1,13 @@
+Firewall knock operator server side
+	
+the firewall knock operator implements an authorization scheme called
+single packet authorization (spa), based on netfilter and libpcap.
+
+its main application is to protect services such as openssh with
+an additional layer of security in order to make the exploitation of
+vulnerabilities (both 0-day and unpatched code) much more difficult.
+
+the authorization server passively listens for authorization packets via
+libcap, thus preventing any connections from being processed on the
+traditional port. access to a protected service is only granted after a
+valid encrypted and non-replayed packet is detected.

@@ -1,0 +1,10 @@
+Python refactoring library
+	
+rope is a python refactoring library that can be used with several editors
+and ides. it provides many refactoring operations as well as forms of code
+assistance like auto-completion and access to documentation. to make use of
+refactoring in mercurial, git and svn repositories, the recommended packages
+must be installed. for a complete list of features, see the project homepage.
+
+in debian, this package is used by the python-ropemacs package, an emacs mode
+that adds python refactoring and ide features to the emacs editor.

@@ -1,0 +1,14 @@
+Minimalist roaraudio client library (development headers)
+	
+roaraudio is a sound-server for audio mixing. its main purpose is to mix audio
+from different clients before sending it to its outputs (for example a
+soundcard).
+
+it is completely network transparent (unix sockets and tcp/ip) and supports
+many common codecs like ogg vorbis, speex or flac.
+
+this is a minimalist client library for roaraudio.
+it exists because it allows non-gpl applications to use
+the roaraudio sound system.
+
+this package contains the development headers for the libmuroar library.

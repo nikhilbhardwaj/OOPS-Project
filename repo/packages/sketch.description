@@ -1,0 +1,11 @@
+3d diagrams for tex from scene description language
+	
+sketch is a simple system for producing line drawings of
+three-dimensional objects and scenes. sketch is intended to produce finely
+wrought, mathematically-based illustrations with no extraneous detail
+and be able to easily overlay tex math and text. the input language is
+reminiscent of pstricks, so will be easy to learn for current pstricks
+users.  it generates either pstricks or tikz/pgf code as output.
+
+note that this package is not the interactive vector drawing program
+now known as skencil.

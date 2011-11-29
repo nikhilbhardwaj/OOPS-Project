@@ -1,0 +1,10 @@
+Binding to the vte library; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+the vte library inserts terminal capability strings into a trie, and then uses
+it to determine if data received from a pseudo-terminal is a control sequence
+or just random data. the sample program interpret illustrates more or less
+what the widget sees after it filters incoming data.

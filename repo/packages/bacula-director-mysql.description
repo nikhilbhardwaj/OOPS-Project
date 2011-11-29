@@ -1,0 +1,11 @@
+Network backup, recovery and verification - mysql storage for director
+	
+bacula is a set of programs to manage backup, recovery and verification of
+data across a network of computers of different kinds.
+
+the bacula director service supervises all the backup, restore, verify and
+archive operations. it can run as a daemon or as a foreground service which
+administrators can use to schedule backups and recover files.
+
+this version stores bacula's catalog in a mysql server, and thus is suited
+for large installations.

@@ -1,0 +1,6 @@
+Common lisp portable uri library
+	
+this is portable universal resource identifier (rfc 2396)
+library for common lisp programs. it is based on franz,
+incorporated opensource package and ported to run on
+other cl implementations. a regression test package is included.

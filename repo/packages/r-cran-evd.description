@@ -1,0 +1,7 @@
+Gnu r functions for extreme value distributions
+	
+extends simulation, distribution, quantile and density functions to
+univariate and multivariate parametric extreme value distributions, and
+provides fitting functions which calculate maximum likelihood estimates
+for univariate and bivariate maxima models, and for univariate and
+bivariate threshold models.

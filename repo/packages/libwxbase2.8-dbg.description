@@ -1,0 +1,14 @@
+Wxbase library (debug) - non-gui support classes of wxwidgets toolkit
+	
+wxbase is a collection of c++ classes providing basic data structures
+(strings, lists, arrays), powerful wxdatetime class for date manipulations,
+portable wrappers around many os-specific functions allowing to build the
+same program under all supported folders, wxthread class for writing
+multithreaded programs using either win32 or posix threads and much more.
+wxbase currently supports the following platforms: generic unix (linux,
+freebsd, solaris, hp-ux, ...) win32, and beos.
+
+this package provides a debug version of the wxbase library.  it is compiled
+both with -g for normal debugger tracing and with the __wxdebug__ flag which
+provides many internal checks by wxwidgets itself that are not performed on
+apps compiled with the 'release version' libs in the -dev package.

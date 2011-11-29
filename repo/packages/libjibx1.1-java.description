@@ -1,0 +1,8 @@
+Framework for binding xml data to java objects
+	
+jibx lets you work with data from xml documents using your own class
+structures. the jibx framework handles all the details of converting
+your data to and from xml based on your instructions. jibx is designed
+to perform the translation between internal data structures and xml
+with very high efficiency, but still allows you a high degree of
+control over the translation process.

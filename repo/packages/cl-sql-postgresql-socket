@@ -1,0 +1,4 @@
+PackageId:1933
+Name:cl-sql-postgresql-socket
+Version:5.1.1-1
+Deps:cl-md5,cl-sql,cl-sql-uffi,common-lisp-controller,libc6-dev,libc0.1-dev,libc6.1-dev

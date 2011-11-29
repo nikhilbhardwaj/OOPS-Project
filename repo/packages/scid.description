@@ -1,0 +1,8 @@
+Chess database with play and training functionality
+	
+shane's chess information database is a chess database application with
+a graphical user interface. you can browse databases of chess games,
+edit them and search for games by various criteria. scid uses its
+own compact and fast database format, but can convert to and from pgn.
+its also possible to play live on the internet and practice tactical
+knowledge.

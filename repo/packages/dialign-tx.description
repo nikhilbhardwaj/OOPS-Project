@@ -1,0 +1,15 @@
+Segment-based multiple sequence alignment
+	
+dialign-tx is a command line tool to perform multiple alignment of protein or
+dna sequences. it is a complete reimplementation of the segment-base approach
+including several new improvements and heuristics that significantly enhance
+the quality of the output alignments compared to dialign 2.2 and dialign-t.
+for pairwise alignment, dialign-tx uses a fragment-chaining algorithm that
+favours chains of low-scoring local alignments over isolated high-scoring
+fragments. for multiple alignment, dialign-tx uses an improved greedy
+procedure that is less sensitive to spurious local sequence similarities.
+
+dialign-tx has been published in amarendran r. subramanian, michael kaufmann,
+burkhard morgenstern: improvement of the segment-based approach for multiple
+sequence alignment by combining greedy and progressive alignment strategies,
+algorithms for molecular biology 3:6, 2008

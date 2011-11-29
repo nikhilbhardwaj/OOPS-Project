@@ -1,0 +1,8 @@
+Perl binding of tokyo cabinet
+	
+tokyo cabinet is a library of routines for managing a database.  the database
+is a simple data file containing records, each is a pair of a key and a value.
+every key and value is serial bytes with variable length.  both binary data
+and character string can be used as a key and a value.  there is neither
+concept of data tables nor data types.  records are organized in hash table,
+b+ tree, or fixed-length array.

@@ -1,0 +1,5 @@
+Object oriented access to cascading style sheets (css)
+	
+this module can be used, along with a css::parse::* module, to parse
+css data and represent it as a tree of objects. using a css::adaptor::*
+module, the css data tree can then be transformed into other formats.

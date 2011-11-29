@@ -1,0 +1,12 @@
+Module for producing simple foreign function interfaces
+	
+inline is a perl module designed to allow developers to integrate source code
+written in other programming languages directly "inline" in perl scripts or
+modules. the code is automatically compiled as needed, and then loaded for
+immediate access from perl.
+
+inline saves you from the hassle of having to write and compile your own glue
+code using facilities like xs or swig. simply type the code where you want it
+and run your perl as normal. all the hairy details are handled for you. the
+compilation and installation of your code chunks all happen transparently;
+all you will notice is the delay of compilation on the first run.

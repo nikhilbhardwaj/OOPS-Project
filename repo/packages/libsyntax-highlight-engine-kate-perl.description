@@ -1,0 +1,7 @@
+Port to perl of the syntax highlight engine of the kate texteditor
+	
+syntax::highlight::engine::kate is a port to perl of the syntax highlight
+engine of the kate text editor.
+
+the language xml files of kate have been rewritten to perl modules using a
+script. these modules function as plugins to this module.

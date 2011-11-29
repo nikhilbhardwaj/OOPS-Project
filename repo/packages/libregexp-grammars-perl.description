@@ -1,0 +1,21 @@
+Perl module to add grammatical parsing features to perl 5.10 regexes
+	
+regexp::grammars adds a small number of new regex constructs that can be used
+within perl 5.10 patterns to implement complete recursive-descent parsing.
+
+perl 5.10 already supports recursive=descent matching, via the new
+(?<name>...) and (?&name) constructs. this technique makes it possible
+to use regexes to recognize complex, hierarchical--and even recursive--
+textual structures. the problem is that perl 5.10 doesn't provide any
+support for extracting that hierarchical data into nested data
+structures. in other words, using perl 5.10 you can match complex data,
+but not parse it into an internally useful form.
+
+an additional problem when using perl 5.10 regexes to match complex
+data formats is that you have to make sure you remember to insert whitespace-
+matching constructs (such as \s*) at every possible position where the
+data might contain ignorable whitespace. this reduces the readability
+of such patterns, and increases the chance of errors (typically caused
+by overlooking a location where whitespace might appear).
+
+the regexp::grammars module solves both those problems.

@@ -1,0 +1,9 @@
+Linux for 64-bit pcs (meta-package), linux-vserver support
+	
+this package depends on the latest linux kernel and modules for use on pcs
+with amd64 or intel 64 processors.
+
+this kernel includes support for linux-vserver virtualization.
+
+this kernel also runs on a xen hypervisor.  it supports only unprivileged
+(domu) operation.

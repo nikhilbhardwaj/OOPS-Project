@@ -1,0 +1,9 @@
+Segment-based multiple sequence alignment
+	
+dialign2 is a command line tool to perform multiple alignment of
+protein or dna sequences. it constructs alignments from gapfree pairs
+of similar segments of the sequences. this scoring scheme for
+alignments is the basic difference between dialign and other global or
+local alignment methods. note that dialign does not employ any kind of
+gap penalty. it has been published by morgenstern b. in
+bioinformatics. 1999 mar;15(3):211-8.

@@ -1,0 +1,9 @@
+Headers and static link library for libzrtpcpp
+	
+this library is an extension to the gnu rtp stack, libccrtp,
+that offers compatibility with phil zimmermann's zrtp/zfone voice
+encryption, and which can be directly embedded into telephony
+applications.  the current release is conformant to the zrtp specification.
+
+this package provides the header files, link libraries, and
+documentation for building applications that use libzrtpcpp.

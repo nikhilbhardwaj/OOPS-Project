@@ -1,0 +1,8 @@
+Command execution hook for cipux
+	
+cipux is a modular framework for information abstraction and
+administration, primarily aimed at administration of users, groups and
+organisational resources stored in a central ldap database.
+
+this package contains cipux::dog, used to execute external system
+commands.

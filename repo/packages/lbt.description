@@ -1,0 +1,6 @@
+Converts from ltl formulas to büchi automata
+	
+this software converts a linear temporal logic (ltl) formula to a
+generalised büchi automaton. the resulting automaton may be used, for
+instance, in model checking, where it represents a property to be
+verified from a model (e.g. a petri net).

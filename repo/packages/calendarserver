@@ -1,0 +1,4 @@
+PackageId:1561
+Name:calendarserver
+Version:2.4.dfsg-6
+Deps:adduser,lsb-base,memcached,python,python-central,python-dateutil,python-kerberos,python-openssl,python-plist,python-pysqlite2,python-twisted-calendarserver,python-vobject,python-xattr,ssl-cert

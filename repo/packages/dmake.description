@@ -1,0 +1,31 @@
+Make utility used to build openoffice.org
+	
+dmake is a make utility similar to gnu make or the workshop dmake.
+
+this utility has an irregular syntax but is available for linux, solaris, and
+win32 and other platforms. this version of dmake is a modified version of the
+original public domain dmake, and is used to build openoffice.org.
+
+dmake features:
+
+  * support for portable makefiles
+  * portable across many platforms
+  * significantly enhanced macro facilities
+  * sophisticated inference algorithm supporting
+    transitive closure over the inference graph
+  * support for traversing the file system both
+    during making of targets and during inference
+  * %-meta rules for specifying rules to be used
+    for inferring prerequisites
+  * conditional macros
+  * local rule macro variables
+  * proper support for libraries
+  * parallel making of targets on architectures
+    that support it
+  * attributed targets
+  * text diversions
+  * group recipes
+  * supports mks extended argument passing
+    convention
+  * directory caching
+  * highly configurable

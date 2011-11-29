@@ -1,0 +1,6 @@
+Orm database interface for ruby
+	
+implements the activerecord pattern (fowler, poeaa) for orm. it ties
+database tables and classes together for business objects, like
+customer or subscription, that can find, save, and destroy themselves
+without resorting to manual sql.

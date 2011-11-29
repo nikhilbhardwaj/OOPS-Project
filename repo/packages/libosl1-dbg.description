@@ -1,0 +1,17 @@
+Library for shogi playing programs
+	
+openshogilib (osl) provides following features of shogi playing programs,
+especially for shogi programming study. shogi is a japanese two-player board
+game like chess.
+1. board: reading/writing records, generating legal moves etc.
+2. evaluation function: piece values and a lot of features
+3. hash table: hashing boards etc.
+4. checkmate search: concurrent df-pn+ etc.
+5. search framework: full-depth search, realization probability etc.
+6. move category: mate, illegal moves etc.
+7. opening book
+8. gaming: search time control etc.
+
+this package is provided primarily to provide a backtrace with names in a
+debugger and makes it easier to interpret core dumps. most users will not
+need this package.

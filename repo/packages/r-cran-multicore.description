@@ -1,0 +1,5 @@
+Gnu r parallel processing on multi-core or multi-cpu machines
+	
+this package provides a way of running parallel computations in r on
+machines with multiple cores or cpus. jobs can share the entire
+initial workspace and it provides methods for results collection.

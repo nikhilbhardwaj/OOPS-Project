@@ -1,0 +1,10 @@
+Serving web applications, creating file layouts for python packages
+	
+paster is pluggable command-line frontend,
+including commands to setup package file layouts
+
+built-in features:
+
+ * creating file layouts for packages.
+   for instance a setuptools-ready file layout.
+ * serving up web applications, with configuration based on paste.deploy

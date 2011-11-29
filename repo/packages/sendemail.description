@@ -1,0 +1,9 @@
+Lightweight, command line smtp email client
+	
+sendemail is a lightweight, completly command line based, smtp email
+agent. it was designed to be used in bash scripts, perl programs, and
+web sites, but it is also quite useful in many other contexts.
+
+sendemail is written in perl and is unique in that it
+requires no special modules. it has a straight forward interface,
+making it very easy to use.

@@ -1,0 +1,11 @@
+Gui based alsa utilities for specific hardware
+	
+a collection of gui based alsa utilities for specific sound hardware:
+
+
+ echomixer - control tool for echoaudio soundcards
+ envy24control - control tool for envy24 (ice1712) based soundcards
+ hdspconf - gui program to control the hammerfall hdsp alsa settings.
+ hdspmixer - tool to control the advanced routing features of the
+             rme hammerfall dsp.
+ rmedigicontrol - control tool for rme digi32 and rme digi96 soundcards

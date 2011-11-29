@@ -1,0 +1,44 @@
+Viewer/editor/analyser (mostly) for executables
+	
+this program is a file viewer, editor and analyzer for text, binary,
+and (especially) executable files - in other words it is an advanced
+hexeditor and disassembler.
+
+for more info (e.g. keybindings) see the readme file!
+
+1. supported file formats
+
+     - common object file format (coff/xcoff32)
+     - executable and linkable format (elf)
+     - linear executables (le)
+     - standard do$ executables (mz)
+     - new executables (ne)
+     - portable executables (pe32/pe64)
+     - java class files (class)
+     - mach exe/link format (macho)
+     - x-box executable (xbe)
+     - flat (flt)
+     - powerpc executable format (pef)
+
+2. code & data analyser
+
+     - finds branch sources and destinations recursively
+     - finds procedure entries
+     - creates labels based on this information
+     - creates xref information
+     - allows to interactively analyse unexplored code
+     - allows to create/rename/delete labels
+     - allows to create/edit comments
+     - supports x86, ia64, alpha, ppc and java code
+
+3. target systems
+
+     - djgpp
+     - gnu/linux
+     - freebsd
+     - openbsd
+     - win32
+
+
+please note that the program is called "hte" not "ht" as the package name
+suggests.

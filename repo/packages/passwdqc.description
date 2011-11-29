@@ -1,0 +1,9 @@
+Password strength checking and policy enforcement toolset
+	
+passwdqc is a password/passphrase strength checking and policy enforcement
+toolset, including a pam module (libpam-passwdqc), command-line programs
+(pwqcheck and pwqgen), and a library (libpasswdqc0).
+
+this package provides pwqcheck and pwqgen, which are standalone
+password/passphrase strength checking and random passphrase generator
+programs, respectively, which are usable from scripts.

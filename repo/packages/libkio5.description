@@ -1,0 +1,8 @@
+The network-enabled file management library for the kde platform
+	
+this library implements almost all the file management functions you will ever
+need. in fact, the kde file manager, konqueror also uses this to provide its
+network-enabled file management. this library also implements the kde file
+selector widget.
+
+this package is part of the kde development platform libraries module.

@@ -1,0 +1,12 @@
+Tools for campaign developers for wesnoth (branch 1.8)
+	
+this package contains various tools for wesnoth that are especially useful for
+campaign developers, including but not limited to scripts supporting the
+generation and checking of wml (wesnoth markup language).  you can find them
+in the directory /usr/share/games/wesnoth/1.8/data/tools
+after installation of the package.
+
+battle for control of villages, using variety of units which have advantages
+and disadvantages in different types of terrains and against different types
+of attacks.  units gain experience and advance levels, and are carried over
+from one scenario to the next in a campaign.

@@ -1,0 +1,12 @@
+The offis dicom toolkit development libraries and headers
+	
+dcmtk includes a collection of libraries and applications for examining,
+constructing and converting dicom image files, handling offline media,
+sending and receiving images over a network connection, as well as
+demonstrative image storage and worklist servers.
+
+this package contains development libraries and headers for dcmtk. you
+only need to install this if you are developing programs that use the
+dcmtk libraries.
+
+note: this version was compiled with libssl support.

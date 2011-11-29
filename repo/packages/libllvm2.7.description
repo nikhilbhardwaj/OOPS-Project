@@ -1,0 +1,7 @@
+Low-level virtual machine (llvm), runtime library
+	
+the low-level virtual machine (llvm) is a collection of libraries and
+tools that make it easy to build compilers, optimizers, just-in-time
+code generators, and many other compiler-related programs.
+
+this package contains the llvm runtime library.

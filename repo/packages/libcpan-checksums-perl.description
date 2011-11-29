@@ -1,0 +1,5 @@
+Perl module to write a checksums file for a directory as on cpan
+	
+cpan::checksums writes checksums files like the ones found on cpan. this file
+contains pgp-signed checksum data which provides various ways to verify files,
+including a list of file sizes and checksums using various algorithms.

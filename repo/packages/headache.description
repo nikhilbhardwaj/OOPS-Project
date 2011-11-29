@@ -1,0 +1,15 @@
+Tool to manage license notes of source files
+	
+this tool help you add/remove the license note you can
+find at the beginning of most source files.
+
+features of headache:
+
+ - generate header as comment in your source code.
+ - recognize different format of comment depending
+   of the file extension ( currently makefile/ocaml
+   code/c code ).
+ - support configuration file to extend the recognize
+   file extension.
+ - allow to create a bounding box of comment around
+   your license.

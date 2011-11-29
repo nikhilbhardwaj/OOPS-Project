@@ -1,0 +1,10 @@
+Gpt and mbr partition tables synchronisation tool
+	
+gptsync is a utility to maintain an mbr partition table synchronised with
+a gpt partition table used as reference. the resulting mbr partition table
+can contain up to 4 partitions; extended partitions are not supported.
+
+an mbr partition table is required to use legacy bootloaders (lilo, grub) on
+efi-based (extensible firmware interface) machines like the intel-based macs.
+gptsync is usually used in combination with the refit boot menu on such
+machines.

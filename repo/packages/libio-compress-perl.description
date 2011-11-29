@@ -1,0 +1,29 @@
+Bundle of io::compress modules
+	
+this package contains all io::compress and io::uncompress modules:
+
+
+  - compress-zlib
+  - io-compress-zlib
+  - io-compress-bzip2
+  - io-compress-base
+
+
+compress::zlib is a perl external module which provides an interface to
+the info-zip zlib compression library. zlib is a general purpose
+compression library.
+
+some of the features provided by compress::zlib include:
+
+
+   * in-memory compression and decompression
+   * read and write gzip (.gz) files directly.
+
+
+io::compress::bunzip2 and io::uncompress::bunzip2 provide a perl interface
+that allows transparent reading and writing bzip2 compressed data to files or
+buffers.
+
+io::compress::bases is the base class for all io::compress and io::uncompress
+modules. it is not intended for direct use in application code. its sole
+purpose is to be sub-classed by io::compress modules.

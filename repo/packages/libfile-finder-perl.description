@@ -1,0 +1,13 @@
+Wrapper for file::find ala find(1)
+	
+file::find is great, but constructing the wanted routine can sometimes be a
+pain. file::finder provides a wanted-writer, using syntax that is directly
+mappable to the find command's syntax.
+
+a file::finder object contains a hash of file::find options, and a series of
+steps that mimic find's predicates. initially, a file::finder object has no
+steps. each step method clones the previous object's options and steps, and
+then adds the new step, returning the new object. in this manner, an object
+can be grown, step by step, by chaining method calls. furthermore, a partial
+sequence can be created and held, and used as the head of many different
+sequences.

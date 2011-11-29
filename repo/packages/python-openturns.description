@@ -1,0 +1,18 @@
+Python front-end of openturns (aka tui)
+	
+openturns is a powerful and generic tool to treat and quantify
+uncertainties in numerical simulations in design, optimization and
+control. it allows both sensitivity and reliability analysis studies:
+
+ * defining the outputs of interest and decision criterion;
+ * quantify and model the source of uncertainties;
+ * propagate uncertainties and/or analyse sensitivity and
+ * rank the sources of uncertainty
+
+
+openturns is a large project with more than 300 c++ classes which
+uses well known and supported software such as r for the statistical
+methods and blas/lapack for the linear algebra.
+
+this package provides a textual user interface that gives access to
+all the functionalities provided by the openturns library.

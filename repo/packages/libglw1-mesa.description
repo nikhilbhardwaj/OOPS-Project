@@ -1,0 +1,13 @@
+A free implementation of the opengl api -- runtime
+	
+mesa is a 3-d graphics library with an api which is very similar to
+that of opengl.  to the extent that mesa utilizes the opengl command
+syntax or state machine, it is being used with authorization from
+silicon graphics, inc.  however, the author makes no claim that mesa
+is in any way a compatible replacement for opengl or associated with
+silicon graphics, inc.
+
+this package provides a simple widgets library, libglw, which
+allows motif-based applications to embed an opengl drawing context.
+
+on linux, this library is also known as libglw or libglw.so.1.

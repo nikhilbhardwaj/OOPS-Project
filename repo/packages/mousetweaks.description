@@ -1,0 +1,11 @@
+Mouse accessibility enhancements for the gnome desktop
+	
+this package contains a daemon and some panel applets to improve mouse
+usability on the gnome desktop. these enhancements are:
+
+
+   * the possibility to click without a button
+   * the ability to bring the context menu with a one-button mouse
+     (like macos does)
+   * an area to capture the mouse pointer until it is released with a
+     pre-defined key combination.

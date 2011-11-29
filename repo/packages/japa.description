@@ -1,0 +1,9 @@
+Jack and alsa perceptual analyser
+	
+japa, is a 'perceptual' or 'psychoacoustic' audio spectrum analyser. possible
+uses include spectrum monitoring while mixing or mastering, evaluation of
+ambient noise, and (using pink noise) equalisation of pa systems.
+
+it supports up to four audio inputs of which two can graphically be compared.
+additionally a pink noise and white noise generator is running after starting
+japa.

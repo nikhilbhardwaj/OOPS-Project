@@ -1,0 +1,8 @@
+Kernel tuning through the /proc file system
+	
+this program writes kernel parameters, previously saved in a configuration
+file, to the /proc filesystem.  this enables kernel performance to be
+adjusted without recompiling the kernel.
+
+systune can be alternative to sysctl(8). it is also started after the most
+daemons and other init.d scripts, so it can be used as "second stage" sysctl.

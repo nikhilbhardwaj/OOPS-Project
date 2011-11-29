@@ -1,0 +1,23 @@
+A system for building dynamic websites with perl
+	
+embperl gives you the power to embed perl code in your html/xml
+documents and the ability to build your web site out of small
+reusable objects in an object-oriented style. you can also take
+advantage of all the usual perl modules, (including dbi for database
+access) use their functionality and easily include their output in
+your web pages.
+
+embperl has several features which are especially useful for creating
+websites, including dynamic tables, form field processing, url
+escaping/unescaping, session handling, caching, xslt transformation
+and more.
+
+embperl is the next generation of html::embperl (see
+libhtml-embperl-perl) and is mostly backwards compatible.  see
+readme.v2 for important changes.  see http://perl.apache.org/embperl/
+(english) or http://www.ecos.de/embperl/ (german) for more
+information about embperl.
+
+this package contains apache2, fastcgi, cgi and offline versions of
+embperl, although you may need to install some additional packages to
+use some of those modes.

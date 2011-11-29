@@ -1,0 +1,18 @@
+View-os - kernel patch for better umview performances
+	
+view-os is a novel approach to the process/kernel interface.  the semantics of
+each system call can be assigned process by process giving the user the right
+to decide which view of the system each process has to join.  each process can
+"see" a different file system structure, networking resources, processor,
+devices.  moreover some of the resources can be provided by the user
+him/herself, thus these resource can be private to the single process and are
+not known a priori by the system.  groups of processes can share the same view
+but this is just an optimization to share management methods.
+
+for more information, see http://wiki.virtualsquare.org
+
+this package contains a couple of kernel patches that should be used together
+with umview.  though not required, they consent dramatic improvements in
+performances.  these patches are quite general and can also be used by other
+virtualization software (as user mode linux, or everything that uses the
+ptrace() system call) to increase performances.

@@ -1,0 +1,17 @@
+Document analysis and ocr system --- data files
+	
+ocropus(tm) is a state-of-the-art document analysis and optical
+character recognition (ocr) system, featuring
+pluggable layout analysis, pluggable character recognition, statistical
+natural language modeling, and multi-lingual capabilities.
+
+the ocropus engine is based on two research projects: a high-performance
+handwriting recognizer developed in the mid-90's and deployed by the us census
+bureau, and novel high-performance layout analysis methods.
+
+ocropus development is sponsored by google and is initially intended for
+high-throughput, high-volume document conversion efforts. it
+will also be an excellent ocr system for many other applications.
+
+the ocropus-data package contains the architecture-independent data required
+by ocropus.

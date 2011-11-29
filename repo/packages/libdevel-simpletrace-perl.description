@@ -1,0 +1,10 @@
+Perl helper to see where your code warns and dies using stack traces
+	
+devel::simpletrace can be used to more easily spot the place where a program
+or a module generates errors. its use is extremely simple, reduced to just
+useing it.
+
+this is achieved by modifying the functions warn() and die() in order to
+replace the standard messages by complete stack traces that precisely
+indicates how and where the error or warning occurred. other than this, their
+use should stay unchanged, even when using die() inside eval().

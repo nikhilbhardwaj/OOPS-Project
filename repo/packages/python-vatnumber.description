@@ -1,0 +1,9 @@
+Python module to validate vat numbers
+	
+this is a python module to check the validity of value added tax (vat) numbers
+of states inside the european union. it uses the validation rules according to
+http://sima-pc.com/nif.php.
+additionally this module provides a function for online validation of given vat
+numbers by the vies vat number validation (soap service) of the taxation and
+customs union:
+http://ec.europa.eu/taxation_customs/vies/vieshome.do

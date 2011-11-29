@@ -1,0 +1,12 @@
+Toshiba laptop utilities
+	
+this is a collection of utilities to control a toshiba laptop. it includes
+programs to turn the fan on and off, to view the power mode, and to set
+the supervisor password.
+
+note that these utilities work with apm features in the toshiba bios.
+if your laptop's bios only supports acpi and not apm, then toshutils will
+probably not work for you. toshiba's newer models tend to support acpi
+only, and therefore toshutils will not work with them.
+
+this package has been compiled against the gtk+ 2 libraries.

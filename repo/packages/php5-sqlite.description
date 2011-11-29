@@ -1,0 +1,12 @@
+Sqlite module for php5
+	
+this package provides a module allowing you to use the sqlite self-contained
+database engine from within your php scripts, eliminating the need for a full
+sql server installation like mysql or postgresql.  it also includes the
+pdo_sqlite module, for use with the php data object extension.
+
+php5 is a widely-used general-purpose scripting language that is
+especially suited for web development and can be embedded into html.
+the goal of the language is to allow web developers to write
+dynamically generated pages quickly. this version of php5 was built
+with the suhosin patch.

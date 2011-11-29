@@ -1,0 +1,8 @@
+Shared libraries for oasis3 coupler
+	
+oasis3 is an executable for exchanging via mpi fields between
+components of climate models, such as atmosphere and ocean models.
+in addition, oasis can perform interpolation between different grids
+used by the components, via the scrip library.
+
+this package contains the shared libraries used in oasis3.

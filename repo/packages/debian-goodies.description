@@ -1,0 +1,23 @@
+Small toolbox-style utilities for debian systems
+	
+these programs are designed to integrate with standard shell tools,
+extending them to operate on the debian packaging system.
+
+
+ dgrep  - search all files in specified packages for a regex
+ dglob  - generate a list of package names which match a pattern
+
+
+these are also included, because they are useful and don't justify
+their own packages:
+
+
+ debget          - fetch a .deb for a package in apt's database
+ dpigs           - show which installed packages occupy the most space
+ debman          - easily view man pages from a binary .deb without extracting
+ debmany         - select manpages of installed or uninstalled packages
+ checkrestart    - help to find and restart processes which are using old
+                   versions of upgraded files (such as libraries)
+ popbugs         - display a customized release-critical bug list based on
+                   packages you use (using popularity-contest data)
+ which-pkg-broke - find which package might have broken another

@@ -1,0 +1,5 @@
+Captures audio-video data of a linux desktop session
+	
+the application produces an ogg-encapsulated theora-vorbis file.
+recordmydesktop tries to be as unobstrusive as possible by proccessing only
+regions of the screen that have changed

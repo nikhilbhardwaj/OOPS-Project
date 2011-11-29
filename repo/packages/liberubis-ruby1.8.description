@@ -1,0 +1,15 @@
+A very fast eruby implementation for ruby 1.8
+	
+erubis is a very fast eruby implementation
+
+ * multi-language support (ruby/php/c/java/scheme/perl/javascript)
+ * auto escaping support
+ * auto trimming spaces around '<% %>'
+ * embedded pattern changeable (default '<% %>')
+ * enable to handle processing instructions (pi) as embedded pattern
+ * print statement available
+ * easy to extend and customize in subclass
+ * ruby on rails support
+
+
+this package contains extlib libraries for ruby 1.8.

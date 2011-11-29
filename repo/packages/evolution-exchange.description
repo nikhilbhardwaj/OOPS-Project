@@ -1,0 +1,8 @@
+Exchange plugin for the evolution groupware suite
+	
+the evolution exchange connector adds support for microsoft exchange 2000 and
+2003 to the evolution groupware suite.
+
+it uses the functionality of outlook web access (owa) to integrate with
+exchange. therefore, it is a requirement that owa is enabled on the corporate
+exchange infrastructure.

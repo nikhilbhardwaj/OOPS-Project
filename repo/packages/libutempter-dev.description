@@ -1,0 +1,7 @@
+A privileged helper for utmp/wtmp updates (development)
+	
+the libutempter library provides interface for terminal emulators such as
+screen and xterm to record user sessions to utmp and wtmp files.
+
+this package contains development files required to build
+utempter-based software.

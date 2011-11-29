@@ -1,0 +1,8 @@
+Module that provides op check callbacks
+	
+b::hooks::op::check provides a c api into pl_check, part of perl's core.
+
+this module provides a c api for xs modules to hook into the callbacks
+of "pl_check". pl_check is an array indexed by opcode number
+(op_type) that contains function pointers invoked as the last
+stage of optree compilation, per op.

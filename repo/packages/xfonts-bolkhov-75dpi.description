@@ -1,0 +1,15 @@
+75 dpi unicode cyrillic fonts for x (cyr-rfx collection)
+	
+this package provides a set of bitmapped cyrillic fonts at 75 dots
+per inch.  these are unicode (iso10646-1) fonts.
+in most cases it is desirable to have the x font server (xfs) and/or
+an x server installed to make the fonts available to x clients.
+
+the fonts from this package are not designed for big monitors and/or
+large screen resolutions (over 1024x768).  you can find big fonts in
+the package xfonts-cronyx-100dpi.
+
+the fonts are modified (mainly with cyrillics added) versions of the
+most important x-window fonts from 75dpi/.
+
+upstream author: dmitry bolkhovityanov <bolkhov@inp.ins.su>

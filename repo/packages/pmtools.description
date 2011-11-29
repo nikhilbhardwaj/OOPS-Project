@@ -1,0 +1,14 @@
+Perl module tools
+	
+perl module tools is a suite of small tools that help manage and inspect
+perl modules, perl plain old documentation files, and perl programs.
+
+some of the things these tools can do include:
+
+ - show the full path to a module
+ - show the version and description of a module
+ - list all installed modules with descriptions
+ - show what files a given program or module loads at compile time
+ - show what symbols a module exports
+ - list the methods of a class
+ - display the source code of a function of a module

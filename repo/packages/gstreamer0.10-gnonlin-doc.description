@@ -1,0 +1,16 @@
+Gstreamer documentation for the non-linear editing module
+	
+gstreamer is a streaming media framework, based on graphs of filters
+which operate on media data.  applications using this library can do
+anything from real-time sound processing to playing videos, and just
+about anything else media-related.  its plugin-based architecture means
+that new data types or processing capabilities can be added simply by
+installing new plug-ins.
+
+gnonlin is a set of gstreamer elements to ease the creation of
+non-linear multimedia editors.  it works together with the gstreamer
+multimedia framework to give developers a powerful and flexible set of
+tools for quickly assembling applications which needs to handle
+non-linear multimedia editing.
+
+this package contains the documentation for gnonlin.

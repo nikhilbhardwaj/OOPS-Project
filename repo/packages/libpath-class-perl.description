@@ -1,0 +1,12 @@
+Module for cross-platform path specification manipulation
+	
+path::class is a module for manipulation of file and directory specifications
+(strings describing their locations; for example: '/home/ken/foo.txt') in a
+cross-platform manner. it supports pretty much every platform perl runs on,
+including unix, windows, mac, vms, epoc, cygwin, os/2 and netware.
+
+path::class uses file::spec internally, wrapping all the unsightly details so
+you can concentrate on your application code. path::class provides an object
+model of path specifications and their semantics. in other words, it creates
+objects representing files and directories, and provides methods that relate
+them to each other.

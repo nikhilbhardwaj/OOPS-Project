@@ -1,0 +1,8 @@
+Libaa/libcaca/framebuffer/directfb related plugins for libxine1
+	
+this package contains plugins for the xine video/media player engine,
+which are commonly used on the command line. in detail, this package
+contains the framebuffer (fb), directfb, libaa and libcaca output plugins.
+
+if you want to view your videos in an xterm, you want to install this
+package.

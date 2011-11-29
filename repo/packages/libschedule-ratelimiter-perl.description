@@ -1,0 +1,17 @@
+Perl library to prevent events from happening too quickly
+	
+schedule::ratelimiter provides a way to voluntarily restrict how many times a
+given action may take place within a specified time frame. such a tool may be
+useful if you have written something which periodically polls some public
+resource and want to ensure that you do not overburden that resource with too
+many requests.
+
+initially, one might think that solving this problem would be as simple as
+sleeping for the number of seconds divided by the number of iterations in
+between each event. however, that would only be correct if the event took no
+time at all.
+
+if you know exactly how much time each event is going to take then you could
+build an even more complicated one-liner such as this:
+
+sleep( (seconds / iterations) - single_event_time )

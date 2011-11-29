@@ -1,0 +1,8 @@
+Mesa off-screen rendering extension
+	
+osmesa is a mesa extension that allows programs to render to an
+off-screen buffer using the opengl api without having to create a
+rendering context on an x server.  it uses a pure software renderer.
+
+this package provides both 16-bit and 32-bit versions of the off-screen
+renderer which do not require external libraries to work.

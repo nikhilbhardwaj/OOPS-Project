@@ -1,0 +1,20 @@
+Command-line tools for strigi desktop search
+	
+this package is part of strigi desktop search, it contains utilities powered
+by strigi:
+
+ * deepfind, an enhanced version of find. it lists files embedded in other
+   files like .deb, .rpm, .tar.gz, email attachments, and other files.
+ * deepgrep, an enhanced version of grep. it searches in binary files like
+   openoffice files, mp3s, microsoft office files, pdfs and also in files
+   embedded in other files like .deb, .rpm, .tar.gz, email attachments, pdf
+   and other files.
+ * xmlindexer, a program that outputs the file parsing results as xml.
+   it walks through a directory and outputs an xml file containing all
+   the metadata and text it can extract from the files it encounters.
+   this means that the strigi's powers of data extraction are now available
+   to all applications that can parse xml simply by calling xmlindexer and
+   parsing the output.
+
+
+see the 'strigi-daemon' package for more information.

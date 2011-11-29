@@ -1,0 +1,16 @@
+Miscellaneous input method data tables for scim platform
+	
+scim (smart common input method) is an input method (im) platform.
+
+this package contains scim input method data tables for non-cjk languages.
+the currently supported languages are amharic, arabic, nepali, russian, thai,
+ukrainian, vietnamese, and several indic languages (bengali, gujarati, hindi,
+kannada, malayalam, punjabi, tamil and telugu).  it also provides support for
+x-sampa and latex style input.
+
+note many table-based input methods provided in this package are very
+primitive, and probably doesn't fit native speakers' need.  users
+should also look at scim-m17n package (which uses m17n library) and see
+if it provides better support to the language he/she needs.
+
+for details about scim, please see the description of package scim.

@@ -1,0 +1,4 @@
+PackageId:3724
+Name:emboss-explorer
+Version:2.2.0-7
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd-cgi,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,lighttpd,mathopd,mini-httpd,monkey,ocsigen,thttpd,tntnet,yaws,emboss,emboss-data,libemboss-acd-perl,libmailtools-perl,perl

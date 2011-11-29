@@ -1,0 +1,8 @@
+Client library and command line tool to access the deejayd server
+	
+this package provides easy to use classes to manipulate the deejayd server,
+abstracting xml message processing and network operations. it fully implements
+the set of features exploitable from the server.
+
+it also includes djc, which provides a subset of deejayd commands for your
+deejayd server to be reachable from the command line.

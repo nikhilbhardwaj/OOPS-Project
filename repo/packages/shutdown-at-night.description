@@ -1,0 +1,4 @@
+System to shut down clients at night, and wake them in the morning
+	
+schedule shutdown in the evening, and uses nvram-wakeup or wakeonlan to wake
+clients up in the morning.

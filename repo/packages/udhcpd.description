@@ -1,0 +1,8 @@
+Provides the busybox dhcp server implementation
+	
+busybox contains a very small yet fully function rfc compliant dhcp
+server formerly known as udhcpd.
+
+this package contains the glue to use the busybox udhcpd as dhcp
+server in the system by providing the appropriate symbolic links and
+scripts.

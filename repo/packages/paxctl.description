@@ -1,0 +1,6 @@
+User-space utility to control pax flags - new major upstream version
+	
+paxctl may be used to control pax flags on a per-binary basis. pax is a set
+of kernel security patches to enhance a system's security. it is part of
+grsecurity (kernel-patch-2.4-grsecurity), among others. please note paxctl
+only works with pax patches released after 2004.02.04.

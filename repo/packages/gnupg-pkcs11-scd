@@ -1,0 +1,4 @@
+PackageId:5998
+Name:gnupg-pkcs11-scd
+Version:0.06-7
+Deps:gnupg,gpgsm,libc0.1,libc0.1-udeb,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcrypt11,libgpg-error0,libpkcs11-helper1,libssl0.9.8

@@ -1,0 +1,5 @@
+Textmode box- and comment drawing filter
+	
+boxes is extremely configurable filter for adding and removing ascii art
+(comments, for example) around chunks of text.  most modern text editors
+support filtering text through external filters.  boxes is such a filter.

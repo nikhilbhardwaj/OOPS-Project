@@ -1,0 +1,18 @@
+Watch mailstores for changes and initiate mailbox syncs - client tools
+	
+mswatch is a command line unix program that keeps two mailboxes
+synchronized /more efficiently/ and with /shorter delays/ than
+periodically synchronizing the two the two mailboxes.
+
+mswatch watches mailboxes to know when to initiate mailbox syncs.
+using mswatch, your mail synchronization program can be called on
+demand instead of through polling, resulting in prompter mail delivery
+and lower bandwidth usage and server load.
+
+mswatch is designed to work in conjunction with mailbox synchronization
+programs, currently supports watching linux (2.4+) hosted maildirs
+(including maildir folders, maildir++), and is licensed under the gnu
+gpl.
+
+this package provides the tools mswatch, for use at the imap client
+host.

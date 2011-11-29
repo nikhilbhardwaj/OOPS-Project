@@ -1,0 +1,4 @@
+PackageId:34189
+Name:websvn
+Version:2.3.1-1
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libapache2-mod-php5,php5,php5-cgi,php-geshi,po-debconf,subversion,ucf

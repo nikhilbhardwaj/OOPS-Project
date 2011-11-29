@@ -1,0 +1,5 @@
+Perl extension modules for mail filtering via milter
+	
+mail::milter is a set of modules useful to mail filter writers who
+are using the sendmail::milter and/or sendmail::pmilter apis to
+interface directly to the smtp transaction.

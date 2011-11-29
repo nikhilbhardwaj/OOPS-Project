@@ -1,0 +1,34 @@
+Various packaging tools and scripts for kde applications
+	
+this package contains a variety of packaging tools and build scripts that may
+be very useful when packaging kde applications. even if you are a maintainer
+of a very small kde application, this package should be worthwhile checking
+out.
+
+main highlights:
+
+ - recommended build flags for building packages based on the kde platform;
+ - cdbs class for building packages based on the kde platform (kde.mk);
+ - debhelper build system (--buildsystem=kde) and dh addon (--with kde) for
+   building packages based on the kde platform;
+ - dh_sameversiondep for generating a dependency that is versioned the same
+   way as a dependency (coming from the same source) of another reference
+   package.
+ - dh_movelibkdeinit for moving libkdeinit4_*.so libraries to private
+   location;
+ - dh_sodeps (and sodeps dh addon) for generating so:depends substvar for -dev
+   packages based to which local packages lib*.so symlinks point to;
+ - pkgkde-symbolshelper tool for efficient management of c and c++ symbol
+   files;
+ - pkgkde-debs2symbols tool for generating symbol files and symbol file
+   patches from pre-built binaries in the deb packages;
+ - pkgkde-getbuildlogs tool for downloading build logs for the specified
+   package (from buildd.debian.org);
+ - pkgkde-override-sc-dev-latest tool for overriding breaks of the
+   kde-sc-dev-latest package;
+ - pkgkde-vcs tool for performing common tasks when packaging under vcs.
+
+
+note: since this package is cumulative, it does not depend on the packages it
+provides helpers for. i.e. you still need to explicitly build depend on
+debhelper or cdbs in your packages.

@@ -1,0 +1,9 @@
+Command line tools for processing xml documents
+	
+these tools are included:
+
+ * xml_spellcheck : spellcheck xml files skipping tags
+ * xml_merge : merge back files created by xml_split
+ * xml_pp : xml pretty printer
+ * xml_grep : grep xml files using xml::twig's subset of xpath
+ * xml_split : split big xml files

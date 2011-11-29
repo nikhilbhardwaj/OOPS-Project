@@ -1,0 +1,8 @@
+X-pgp-sig mail and news header utility for emacs
+	
+x-pgp-sig header utility for emacs.
+it can insert/verify pgp signatures in the x-pgp-sig: mail/news header.
+x-pgp-sig.el is for mh(mh-e, mew and so on), gnus, semi-gnus, wl(wanderlust)
+vm, cmail etc... (mua on emacs).
+
+english documentation is not available, only japanese.

@@ -1,0 +1,17 @@
+Generic font configuration library - support binaries
+	
+fontconfig is a font configuration and customization library, which
+does not depend on the x window system. it is designed to locate
+fonts within the system and select them according to requirements
+specified by applications.
+
+fontconfig is not a rasterization library, nor does it impose a
+particular rasterization library on the application. the x-specific
+library 'xft' uses fontconfig along with freetype to specify and
+rasterize fonts.
+
+this package contains a program to maintain the fontconfig cache
+(fc-cache), a sample program to list installed fonts (fc-list), a program
+to test the matching rules (fc-match) and a program to dump the binary
+cache files in string form (fc-cat). it also makes fonts managed by defoma
+available to fontconfig applications.

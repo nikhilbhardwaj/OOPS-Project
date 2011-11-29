@@ -1,0 +1,5 @@
+Grabs a image from a camera and puts it in jpg/png format
+	
+vgrabbj is a program that will grab an image from a v4l compatible
+device (usually a webcam of some sort) and save it in a jpg or png
+file.

@@ -1,0 +1,6 @@
+Plugins for the audit event dispatcher
+	
+the audispd-plugins package provides plugins for the real-time
+interface to the audit system, audispd. these plugins can do things
+like relay events to remote machines or analyze events for suspicious
+behavior.

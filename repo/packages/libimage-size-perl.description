@@ -1,0 +1,8 @@
+Module for determining image sizes in several common formats
+	
+image::size is a perl module capable of determining image sizes from several
+common formats. it handles xpm, xbm, gif, jpeg, png, mng, the ppm family of
+formats (ppm/pgm/pbm), tiff, flashmx (shockwave flash version 6), and more.
+
+it supports additional file types through image::magick (see perlmagick), and
+the included "imgsize" script provides access to image::size from the shell.

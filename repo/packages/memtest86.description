@@ -1,0 +1,20 @@
+Thorough real-mode memory tester
+	
+memtest86 scans your ram for errors.
+
+this tester runs independently of any os - it is run at computer
+boot-up, so that it can test *all* of your memory.  you may want to
+look at `memtester', which allows to test your memory within linux,
+but this one won't be able to test your whole ram.
+
+it can output a list of bad ram regions usable by the badram kernel
+patch, so that you can still use you old ram with one or two bad bits.
+
+this software has been forked some time ago as memtest86+, which is
+also available in debian.  it has sometimes support for more recent
+hardware than memtest86 has.
+
+both memtest86 and memtest86+ are being worked on in parallel.
+
+a convenience script is also provided to make a grub-based floppy or
+image.

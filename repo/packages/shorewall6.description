@@ -1,0 +1,11 @@
+Shoreline firewall (ipv6 version), netfilter configurator
+	
+shorewall6 allows firewall/gateway requirements to be described using
+entries in a set of configuration files. it reads those configuration
+files and, with the help of the iptables utility, configures
+netfilter to match these requirements.
+
+shorewall6 supports a wide range of router/firewall/gateway applications,
+traffic shaping and almost every type of vpn.
+
+this package contains ipv6 support.

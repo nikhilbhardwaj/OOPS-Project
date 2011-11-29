@@ -1,0 +1,21 @@
+Report versions of all modules in memory
+	
+the author says: "i often get email from someone reporting a bug in a
+module i've written. i email back, asking what version of the module
+it is, what version of perl on what os, and sometimes what version of
+some relevant third library (like xml::parser). they reply, saying
+"perl5". i say "i need the exact version, as reported by 'perl -v'".
+they tell me. and i say "i, uh, also asked about the version of my
+module and xml::parser [or whatever]". they say "oh yeah. it is 2.27".
+"is that my module or xml::parser?" "xml::parser." "ok, and what
+about my module's version?" "oh yeah. that's 3.11." by this time,
+days have passed, and what should have been a simple operation --
+reporting the version of perl and relevant modules, has been
+needlessly complicated".
+
+this module is for simplifying that task. if you add "use
+module::versions::report;" to a program (especially handy if your
+program is one that demonstrates a bug in some module), then when the
+program has finished running, you well get a report detailing all the
+modules in memory, and noting the version of each (for modules that
+defined a $version, at least).

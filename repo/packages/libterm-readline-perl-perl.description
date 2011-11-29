@@ -1,0 +1,7 @@
+Perl implementation of readline libraries
+	
+term::readline::perl is a quick implementation of the minimal interface to
+readline libraries. the implementation is made in perl (mostly) by jeffrey
+friedl. the only thing this library does is to make it conformant (and add
+some minimal changes, like using term::readkey if present, and correct work
+under xterm).

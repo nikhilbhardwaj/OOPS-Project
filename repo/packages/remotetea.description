@@ -1,0 +1,15 @@
+Sun onc/rpc support for java
+	
+this package implements sun's open network computing remote procedure
+call specification (see rfc 1831, rfc 1832, rfc 1833) in pure java.
+
+it supports:
+
+ * rpc calls over tcp/ip as well as udp/ip;
+ * both client and server functionality;
+ * portmapper querying;
+ * authentication types auth_none, auth_unix, and auth_short
+   (on both client and server sides).
+
+
+the utility jrpcgen is provided to compile .x files into java classes.

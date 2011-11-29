@@ -1,0 +1,20 @@
+Advanced intrusion detection environment - dynamic binary
+	
+aide is an intrusion detection system that detects changes to files on
+the local system. it creates a database from the regular expression rules
+that it finds from the config file. once this database is initialized
+it can be used to verify the integrity of the files. it has several
+message digest algorithms (md5, sha1, rmd160, tiger, haval, etc.) that are
+used to check the integrity of the file. more algorithms can be added
+with relative ease. all of the usual file attributes can also be checked
+for inconsistencies.
+
+this package contains a dynamically linked binary and should only be
+used in exeptional circumstances. to avoid exposure to trojaned
+libraries, it is advised to use one of the statically linked binaries.
+
+you will almost certainly want to tweak the configuration file in
+/etc/aide/aide.conf or drop your own config snippets into
+/etc/aide/aide.conf.d.
+
+upstream url: http://sourceforge.net/projects/aide

@@ -1,0 +1,7 @@
+Parser library for rss and atom feeds
+	
+syndication is a parser library for rss and atom feeds. it offers a unified,
+format-agnostic view on the parsed feed, so that the using application does
+not need to distinguish between feed formats.
+
+this package is part of the kde development platform pim libraries module.

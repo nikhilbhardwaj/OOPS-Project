@@ -1,0 +1,12 @@
+Simulation of 3d optical systems with the fdtd method
+	
+tessa is a three-dimensional simulation software for optical systems at
+the wavelength scale, based on the finite differences time-domain method
+(fdtd). it focuses on simulating large, resonating structures, but can
+also be used to study propagating beams. it can simulate arbitrary
+dielectric and absorbing materials, and can be used on single
+workstations as well as clusters.
+
+tessa is believed to be terribly efficient.
+
+url: http://alioth.debian.org/projects/tessa/

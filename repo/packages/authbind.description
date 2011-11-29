@@ -1,0 +1,4 @@
+Allows non-root programs to bind() to low ports
+	
+this package allows a package to be started as non-root but
+still bind to low ports, without any changes to the application.

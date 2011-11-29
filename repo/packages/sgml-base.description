@@ -1,0 +1,16 @@
+Sgml infrastructure and sgml catalog file support
+	
+this package creates the sgml infrastructure directories and provides
+sgml catalog file support in compliance with the current debian sgml
+policy draft:
+
+
+  * infrastructure directories:
+     - /etc/sgml
+     - /usr/share/sgml/{declaration,dtd,entities,misc,stylesheet}
+     - /usr/share/local/sgml/{declaration,dtd,entities,misc,stylesheet}
+
+
+
+  * update-catalog(8): tool for maintaining the root sgml catalog
+    file and the package sgml catalog files in the '/etc/sgml' directory

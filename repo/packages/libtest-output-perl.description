@@ -1,0 +1,8 @@
+Perl module to test stdout and stderr messages
+	
+test::output provides a simple interface for testing output sent to stdout
+or stderr. a number of different utilities are included to try and be as
+flexible as possible to the tester.
+
+test::output ties stdout and stderr using test::output::tie, also provided
+by this package.

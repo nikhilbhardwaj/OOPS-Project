@@ -1,0 +1,9 @@
+Track changes between documents
+	
+this module is a variation on the lovely text::diff module. rather than
+generating traditional line-oriented diffs, however, it generates
+word-oriented diffs. this can be useful for tracking changes in
+narrative documents or documents with very long lines. to diff source
+code, one is still best off using text::diff. but if you want to see how
+a short story changed from one version to the next, this module will do
+the job very nicely.

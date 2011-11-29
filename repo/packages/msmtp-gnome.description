@@ -1,0 +1,10 @@
+Light smtp client with support for server profiles - with gnome keyring support
+	
+msmtp is an smtp client that can be used to send mails from mutt and probably
+other muas (mail user agents). it forwards mails to an smtp server (for
+example at a free mail provider), which takes care of the final delivery.
+using profiles, it can be easily configured to use different smtp servers
+with different configurations, which makes it ideal for mobile clients.
+
+this package is compiled with gsasl and tls/ssl support, and additionally with
+gnome keyring support.

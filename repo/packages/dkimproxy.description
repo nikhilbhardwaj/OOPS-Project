@@ -1,0 +1,11 @@
+An smtp-proxy that signs and/or verifies emails, using the mail::dkim module
+	
+dkimproxy is an smtp-proxy that signs and/or verifies emails, using the
+mail::dkim module. it is designed for postfix, but should work with any mail
+server. it comprises two separate proxies, an "outbound" proxy for signing
+outgoing email, and an "inbound" proxy for verifying signatures of incoming
+email (administrators can decide if they want to run both, or only one of
+them). with postfix, the proxies can operate as either before-queue or
+after-queue content filters, and they also can be chained with content
+filter proxies like amavis, which is the current default configuration of
+the package.

@@ -1,0 +1,7 @@
+Call methods of arbitrary classes in perl template toolkit
+	
+this is a plugin for the perl template toolkit.
+
+template::plugin::class allows you to call class methods on arbitrary
+classes.  one particularly good use for this is in class::dbi style
+applications.

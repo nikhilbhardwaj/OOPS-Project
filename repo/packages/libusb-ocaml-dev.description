@@ -1,0 +1,7 @@
+Ocaml bindings to libusb-1.0
+	
+ocaml-usb is a binding to libusb-1.0, a userspace usb programming
+library. it uses lwt to ease use of asynchronous io features of
+libusb-1.0.
+
+this package contains development files for ocaml-usb.

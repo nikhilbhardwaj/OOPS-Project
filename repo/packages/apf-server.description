@@ -1,0 +1,23 @@
+Server for active port forwarding
+	
+active port forwarder is a tool for secure port forwarding. it uses ssl
+to increase security of communication between the server and the client.
+it is designed for people without an external ip who want to make some
+services available on the internet. the active port forwarder server
+(afserver) is placed on the machine with a public address, and the client
+(afclient) is placed on the machine behind a firewall or masquerade. this
+makes the second machine visible to the internet.
+
+this package provides the active port forwarder server.
+
+short list of features:
+
+ * using one permanent data/control channel with flow control/packet
+   buffering provides good performance and reasonably small latency.
+ * use zlib to compress the transferred data.
+ * able to use ssl for all comunication or only for the autentification.
+ * able to transfer multiple tunnels in the one afclient <-> afserver
+   connection making possible create more sophisticated tunneling scheme.
+ * doesn't require root priviledges.
+ * doesn't use threads or other processes.
+ * the afclient can use external modules for user's packets filtering.

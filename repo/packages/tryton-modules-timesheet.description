@@ -1,0 +1,9 @@
+Tryton application platform (timesheet module)
+	
+tryton is a high-level general purpose application platform written in python
+and using postgresql as database engine. it is the core base of a complete
+business solution.
+
+this module adds the possibility to define timesheets with work and timesheet
+lines. it contains reports for hours per work, hours per employee per week,
+hours per employee per month.

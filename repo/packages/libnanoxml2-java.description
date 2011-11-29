@@ -1,0 +1,7 @@
+Small xml parser for java
+	
+nanoxml is a (actually more than one) small xml parser for java. it
+provides the java packages net.n3.nanoxml.*, net.n3.nanoxml.sax.* and
+nanoxml.* in nanoxml2.jar, nanoxml2-sax.jar and nanoxml2-lite.jar.
+the package nanoxml.* is source compatible with nanoxml 1 but is more
+restrictive on what it will parse than nanoxml 1.

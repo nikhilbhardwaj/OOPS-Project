@@ -1,0 +1,6 @@
+Apc ups power management (gui)
+	
+gapcmon is a desktop monitor program for the apcupsd package. apcupsd
+interfaces with one or multiple ups power systems on local or networked
+systems. gapcmon connects to apcupsd via the nis api to collect and displays
+the current operational state of the ups.

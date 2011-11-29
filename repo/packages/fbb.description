@@ -1,0 +1,13 @@
+Packet radio mailbox and utilities
+	
+the fbb package contains software written by f6fbb for setting up a packet
+radio mailbox. it is intended for amateur radio operators. a short overview
+of some of the binaries:
+
+
+ * fbb: script to start the daemon.
+ * xfbbd: the daemon which listens for incoming connects.
+ * epurmess: delete messages based on age.
+ * epurwp: white pages maintenance.
+ * reqdir: fbb server which requests directory listings.
+ * xfbbc: b/w ncurses console for xfbbd.

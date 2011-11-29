@@ -1,0 +1,9 @@
+Scalable library for eigenvalue problem computations
+	
+slepc is a software library for the solution of large scale sparse eigenvalue
+problems on parallel computers. it is an extension of petsc and can be used
+for either standard or generalized eigenproblems, with real or complex
+arithmetic. it can also be used for computing a partial svd of a large,
+sparse, rectangular matrix.
+
+this package contains the static debugging libraries for slepc.

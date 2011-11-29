@@ -1,0 +1,6 @@
+Policykit authentication agent api
+	
+policykit is a toolkit for defining and handling the policy that
+allows unprivileged processes to speak to privileged processes.
+
+this package contains a library for accessing the authentication agent.

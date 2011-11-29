@@ -1,0 +1,10 @@
+Initialize formbuilder application from yaml file
+	
+this perl module reads a yaml file containing cgi::formbuilder configuration
+options and returns a hash that can be directly fed into the application
+initialization method cgi::formbuilder->new().
+
+it uses yaml::syck as yaml backend, allowing full data structure
+specification as well as code fragment specification. this is particularly
+useful if you need to define validation callbacks, as if often desired
+in cgi::formbuilder applications.

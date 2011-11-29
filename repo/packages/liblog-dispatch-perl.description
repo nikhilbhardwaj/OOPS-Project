@@ -1,0 +1,4 @@
+Dispatches messages to multiple log::dispatch::* objects
+	
+this module manages a set of log::dispatch::* objects, allowing you to
+add and remove output objects as desired.

@@ -1,0 +1,14 @@
+Collection manager for books, videos, music
+	
+tellico is a collection manager for kde. it includes default collections for
+books, bibliographies, comic books, videos, music, coins, stamps, trading
+cards, and wines, and also allows custom collections; with unlimited
+user-defined fields allowed. automatically formatted names, sorting by any
+property, filters, automatic isbn validation and full customization for
+printing or display through xslt files are some of the features present. it
+can import csv, ris, bibtex, and bibtexml files; and export csv, html, bibtex,
+bibtexml, and pilotdb. tellico can also import data from amazon, imdb, cddb,
+or any us-marc compliant z39.50 server.
+
+the files are stored in xml format, avoiding the need for database server.
+it also makes it easy for other softwares to use the tellico data.

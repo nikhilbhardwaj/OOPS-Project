@@ -1,0 +1,13 @@
+A "paranoid" subclass of lwp::useragent
+	
+the lwpx::paranoidagent is a class subclassing lwp::useragent, but
+paranoid against attackers. it's to be used when a remote resource is
+fetched on behalf of a possibly malicious user.
+
+this class can do whatever lwp::useragent can (callbacks, uploads
+from files, etc).
+
+proxy support has been removed, because in that case you should do
+your paranoia at your proxy.
+
+the uri scheme are limited to http and https.

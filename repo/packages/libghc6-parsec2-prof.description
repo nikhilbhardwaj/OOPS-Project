@@ -1,0 +1,8 @@
+Haskell monadic parser combinator library for ghc; profiling libraries
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+
+parsec is designed from scratch as an industrial-strength parser
+library.  it is simple, safe, well documented, has extensive libraries
+and good error messages, and is also fast.

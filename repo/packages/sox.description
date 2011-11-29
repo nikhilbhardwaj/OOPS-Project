@@ -1,0 +1,15 @@
+Swiss army knife of sound processing
+	
+sox is a command line utility that can convert various formats of computer
+audio files in to other formats. it can also apply various effects to these
+sound files during the conversion. as an added bonus, sox can play and record
+audio files on several unix-style platforms.
+
+sox is able to handle formats like ogg vorbis, mp3, wav, aiff, voc, snd, au,
+gsm and several more.
+any format support requires at least libsox-fmt-base. some formats have their
+own package e.g. mp3 read support is provided by libsox-fmt-mp3.
+
+sox supports most common sound architectures i.e. alsa, libao, oss and pulse
+(respectively provided by libsox-fmt-alsa, libsox-fmt-ao, libsox-fmt-oss and
+libsox-fmt-pulse). it also supports ladspa plugins.

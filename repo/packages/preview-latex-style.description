@@ -1,0 +1,13 @@
+Extraction of elements from latex documents as graphics
+	
+the purpose of preview is the extraction of selected elements from a
+latex source, like formulas or graphics, into separate pages of a dvi
+file.  a flexible and convenient interface allows it to specify what
+commands and constructs should be extracted.  this works with dvi files
+postprocessed by either dvips and ghostscript or dvipng, but it also
+works when using pdftex for generating pdf files.
+
+currently, preview.sty is used by preview-latex, the wysiwyg component of
+the auctex editing environment; for generation of previews in lyx; as
+part of the operation of the ps4pdf and pst-pdf latex packages; by the
+tbook xml system and some other tools.

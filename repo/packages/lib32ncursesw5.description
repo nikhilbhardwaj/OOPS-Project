@@ -1,0 +1,7 @@
+Shared libraries for terminal handling (wide character support) (32-bit)
+	
+this package contains the shared libraries necessary to run programs
+compiled with ncursesw, which includes support for wide characters.
+
+this package supports the 32-bit abi variant of your system's
+architecure.

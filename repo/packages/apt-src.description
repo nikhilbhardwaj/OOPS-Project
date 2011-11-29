@@ -1,0 +1,10 @@
+Manage debian source packages
+	
+apt-src is a command line interface for downloading, installing, upgrading,
+and tracking debian source packages. it makes source package management
+feel a lot like using apt to manage binary packages, and is being used as
+a testbed to work on adding source dependencies to debian.
+
+it can be run as a normal user, or as root. if you want a convenient way to
+track updates to packages while preserving your local modifications, this is
+a way to do that.

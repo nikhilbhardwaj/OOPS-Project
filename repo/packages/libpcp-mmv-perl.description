@@ -1,0 +1,9 @@
+Performance co-pilot memory mapped value perl module
+	
+the pcp::mmv module contains the perl language bindings for
+building scripts instrumented with the performance co-pilot
+(pcp) memory mapped value (mmv) mechanism.
+
+this mechanism allows arbitrary values to be exported from an
+instrumented script into the pcp infrastructure for monitoring
+and analysis with pmchart, pmie, pmlogger and other pcp tools.

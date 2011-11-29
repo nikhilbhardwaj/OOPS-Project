@@ -1,0 +1,5 @@
+C library for the jabber im platform
+	
+iksemel handles jabber connections, parses xml, and sends and
+receives jabber messages. it works pretty good for parsing other
+kinds of xml, too, if the need arises.

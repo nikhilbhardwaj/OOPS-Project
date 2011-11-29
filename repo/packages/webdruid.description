@@ -1,0 +1,8 @@
+A web server log file analysis tool
+	
+a fast, free, flexible web server log file analysis program.  produces
+xhtml output for viewing with a web browser.  features multiple language
+support, incremental processing capabilities, reverse dns lookup support,
+export via tab separated ascii files to popular databases and spreadsheets,
+and much more.  supports standard clf and combined (apache), as well as w3c
+(iis) logs format.

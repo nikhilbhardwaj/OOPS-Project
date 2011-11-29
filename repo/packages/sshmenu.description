@@ -1,0 +1,9 @@
+A standalone for connecting to hosts using ssh without gnome dependencies
+	
+sshmenu is a standalone application which puts all your most frequently used
+ssh connections on a menu.  click on a host name to open a new terminal
+window with an ssh connection to the selected host.  set up options for port
+forwarding, etc. using the preferences dialog.
+
+see the package sshmenu-gnome for a version that puts all your most frequently
+used ssh connections on a menu in your gnome panel.

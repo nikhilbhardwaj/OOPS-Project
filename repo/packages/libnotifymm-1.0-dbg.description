@@ -1,0 +1,8 @@
+C++ binding for libnotify (debug symbols)
+	
+libnotify is a library that sends desktop notifications to a
+notification daemon, as defined in the desktop notifications spec.
+libnotifymm is the c++ binding for libnotify.
+
+this package contains debug symbols for debugging programming using
+libnotifymm.

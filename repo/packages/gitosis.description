@@ -1,0 +1,6 @@
+Git repository hosting application
+	
+this package aims to make hosting git repositories easier and safer. it manages
+multiple repositories under one user account, using ssh keys to identify users.
+end users do not need shell accounts on the server; they will talk to one
+shared account that will not let them run arbitrary commands.

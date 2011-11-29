@@ -1,0 +1,11 @@
+Address updating utility for dynamic dns services
+	
+this package provides a client to update dynamic ip addresses with
+several dynamic dns service providers, such as dyndns.com.
+
+this makes it possible to use a fixed hostname (such as
+myhost.dyndns.org) to access a machine with a dynamic ip address.
+
+this client supports both dynamic and (near) static services, as  well as
+mx record and alternative name management. it caches the address, and
+only attempts the update when it has changed.

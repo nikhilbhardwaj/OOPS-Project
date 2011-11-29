@@ -1,0 +1,4 @@
+PackageId:2202
+Name:configure-debian
+Version:1.0.2-0.1
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,liblocale-gettext-perl,perl

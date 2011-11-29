@@ -1,0 +1,6 @@
+Tcp/ip ident protocol server with des support
+	
+identd is a server which implements the tcp/ip proposed standard ident user
+identification protocol as specified in the rfc 1413 document.
+
+this package has been built with des support.

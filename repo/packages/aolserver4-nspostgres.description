@@ -1,0 +1,13 @@
+Aolserver 4 module: postgres connector
+	
+this module implements a simple aolserver database services driver
+for aolserver version 4.
+
+a database driver is a module which interfaces between the aolserver
+database-independent nsdb module and the api of a particular dbms.  a
+database driver's job is to open connections, send sql statements,
+and translate the results into the form used by nsdb.  in this case,
+the driver is for the postgresql ordbms from the postgresql global
+development group.
+
+this is the official driver for the openacs project.

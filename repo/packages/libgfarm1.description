@@ -1,0 +1,12 @@
+Gfarm file system runtime library
+	
+the gfarm file system is designed to turn commodity pcs into nodes of
+a distributed storage network, implementing the grid datafarm
+architecture for global petascale data-intensive computing. it solves
+performance and reliability problems in nfs and afs by means of
+multiple file replicas, and not only prevents performance degradation
+due to access concentration, but also supports fault tolerance and
+disaster recovery.
+
+this package provides the shared library required for accessing
+files via gfarm.

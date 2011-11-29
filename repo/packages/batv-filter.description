@@ -1,0 +1,10 @@
+Mail filter (milter) for batv signing/verification
+	
+bounce address tag validation (batv) is the name of a method, defined in
+proposed internet draft, for determining whether the bounce address specified
+in an e-mail message is valid.
+
+it is designed to reject backscatter, that is, bounce messages to forged
+return addresses.
+
+the batv-filter implements both batv signing and verification.

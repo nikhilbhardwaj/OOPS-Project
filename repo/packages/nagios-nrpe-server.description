@@ -1,0 +1,9 @@
+Nagios remote plugin executor server
+	
+nagios is a host/service/network monitoring and management system.
+
+the purpose of this addon is to allow you to execute nagios plugins on a
+remote host in as transparent a manner as possible.
+
+this program runs as a background process on the remote host and processes
+command execution requests from the check_nrpe plugin on the nagios host.

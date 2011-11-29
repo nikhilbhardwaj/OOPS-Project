@@ -1,0 +1,31 @@
+Smart common input method platform
+	
+smart common input method (scim) is an input method (im) platform.  input
+methods are needed to enter complex characters in many non-latin languages.
+scim provides a common platform for various plugin modules and independent im
+programs, as well as a set of modules and programs on its own.  it is highly
+modularized and exposes abstract interfaces, so that plugin modules with
+different functions can easily communicate with each other.  the currently
+supported module types are configuration, im engine, front end, filter, and
+setup gui.
+
+scim achieves the communication between im engines and front ends through
+both shared library linking and server/client mode.  it supports xim
+protocol, as well as gtk+ im module and qt im module.
+
+this package is the main binary package of scim.  it includes: the main
+program scim (gtk+ based) and other support programs; simple configuration
+module, x11 front end module, rawcode im engine module,
+simplified/traditional chinese conversion filter module, and their
+corresponding setup gui modules; gtk+ panel and its setup gui module; and a
+gtk+ based setup tool.
+
+scim is a well accepted platform and features various input method engines
+for many languages.  in debian you can find the following separately packaged
+ims useful: scim-tables-{additional,ja,ko,zh}, scim-pinyin, scim-uim,
+scim-m17n, scim-chewing, scim-anthy, scim-canna, scim-prime, and scim-skk.
+gtk+ users would also find package scim-gtk2-immodule useful for gtk+ im
+module support.
+
+for development on scim platform, please see the description of scim-dev
+package.

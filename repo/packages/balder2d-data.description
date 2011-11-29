@@ -1,0 +1,20 @@
+Data files for balder2d
+	
+in balder2d, players control small probes which shoot tiny projectiles with
+which they try to destroy each other. it features a 2d overhead view of the
+playing field. probes may be human or computer controlled.
+
+a probe can perform the following actions:
+
+
+   * rotate
+   * fire projectiles
+   * "stick" to a wall
+   * push off of a wall
+
+
+players may rotate their probes while in flight, but the only way to change
+the direction or speed of flight is by firing projectiles (which gives a
+small kick in the opposite direction) or by running into walls or other probes.
+
+these are the common files for balder2d.

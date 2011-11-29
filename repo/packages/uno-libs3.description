@@ -1,0 +1,18 @@
+Openoffice.org uno runtime environment -- public shared libraries
+	
+the uno runtime environment (ure) is the well-known uno component model
+of openoffice.org, packaged up as an individual product.
+
+it offers you a flexible, low-overhead component model that is most ideal
+for (but not limited to) combining in one application components written in
+different computer languages, and developed by different parties. you can use
+it to create any kind of application, in whatever application domain you can
+imagine.
+
+this package contains the public libraries:
+
+ - libuno_sal: system abstraction layer (c interface)
+ - libuno_salhelpergcc3: additional c++ functionality for sal
+ - libuno_cppu: c++ uno bridge (c interface)
+ - libuno_cppuhelpergcc3: additionl c++ functionality for cppu
+ - libuno_purpenvhelpergcc3: "purpose environments" helper

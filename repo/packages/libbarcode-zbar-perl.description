@@ -1,0 +1,7 @@
+Bar code scanner and decoder (perl bindings)
+	
+zbar is a library for scanning and decoding bar codes from various sources
+such as video streams, image files or raw intensity sensors. it supports
+ean-13/upc-a, upc-e, ean-8, code 128, code 39, interleaved 2 of 5 and qr code.
+
+this packagein contains the perl bindings.

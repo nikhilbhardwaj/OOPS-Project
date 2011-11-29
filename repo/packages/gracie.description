@@ -1,0 +1,8 @@
+Openid server for local pam accounts
+	
+gracie is an openid server (a “provider” in openid terminology) that
+serves identities for the local system pam accounts. it uses openid
+protocol version 1.1, and authenticates using a username/password
+challenge.
+
+the openid protocol is documented at <url:http://openid.net/>.

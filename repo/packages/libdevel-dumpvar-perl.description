@@ -1,0 +1,11 @@
+Object oriented, pretty dumping of perl variables
+	
+devel::dumpvar is a pure object-orientated reimplementation of the
+same functionality. this makes it much more versatile version to use
+for dumping information to debug log files or other uses where you
+don't need to reassemble the data.
+
+devel::dumpvar is a rewritten version of dumpvar.pl, the module used by the
+perl's debugger to display variables in human-readable form, containing a lot
+of extra information without the burden of needing to allow the dump to be
+re-assembled into the original data.

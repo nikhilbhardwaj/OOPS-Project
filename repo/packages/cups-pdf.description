@@ -1,0 +1,7 @@
+Pdf printer for cups
+	
+cups-pdf provides a pdf writer backend to cups. this can be used as a
+virtual printer in a paperless network or to perform testing on cups.
+
+documents are written to a configurable directory (by default to ~/pdf)
+or can be further manipulated by a post-processing command.

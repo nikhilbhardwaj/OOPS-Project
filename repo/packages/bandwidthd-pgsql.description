@@ -1,0 +1,9 @@
+Tracks usage of tcp/ip and builds html files with graphs
+	
+bandwidthd tracks usage of tcp/ip network subnets and builds html files
+with graphs to display utilization. charts are built by individual ips.
+color codes http, tcp,udp, icmp, vpn, p2p, etc.
+
+this is the postgresql version of bandwidthd which supports multiple sensors
+and uses a dynamic (php-based) web interface. if you don't need these features
+then using the package bandwidthd is suggested.

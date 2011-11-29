@@ -1,0 +1,14 @@
+Polynomials over boolean rings, python module
+	
+the core of polybori is a c++ library, which provides high-level data
+types for boolean polynomials and monomials, exponent vectors, as
+well as for the underlying polynomial rings and subsets of the
+powerset of the boolean variables. as a unique approach, binary
+decision diagrams are used as internal storage type for polynomial
+structures. on top of this c++-library we provide a python
+interface. this allows parsing of complex polynomial systems, as well
+as sophisticated and extendable strategies for groebner base
+computation. polybori features a powerful reference implementation
+for groebner basis computation.
+
+this package contains the polybori python module and ipbori program.

@@ -1,0 +1,11 @@
+Emulator for the atari st, ste, tt, and falcon computers
+	
+hatari is an emulator for the atari st line of computers.
+
+the atari st was a 16/32 bit computer system which was first released by atari
+in 1985. using the motorola 68000 cpu, it was a very popular computer having
+quite a lot of cpu power at that time.
+
+unlike many other atari st emulators which try to give you a good environment
+for running gem applications, hatari tries to emulate the hardware of a st as
+close as possible so that it is able to run most of the old st games and demos.

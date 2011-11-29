@@ -1,0 +1,4 @@
+Perl module to access lvm status information
+	
+linux::lvm parses the output from vgdisplay, pvdisplay, and lvdisplay and
+makes it available as a perl hash.

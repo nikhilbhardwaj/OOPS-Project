@@ -1,0 +1,21 @@
+Debian jr. system tools
+	
+this package includes a few tools for helping children learn about and
+use their system.
+
+midnight commander is more than just a file manager.  it is shell with
+which children can explore and manage their own accounts.  it can be a
+great help for the very young, as it saves them some typing (as
+compared with using a command-line shell directly).  it is also packed
+with power and flexibility which can be tapped by older children and
+adults alike.
+
+the 'hello' sample program can be used as an instructional aid, as
+an example of how to invoke programs from the shell, specify switches,
+use the man page, and so on.
+
+finally, lavaps not only provides a very pleasing way to visualize
+running processes and the resources they use, but can also make
+discovering and killing errant processes an easy thing to do for
+children who lack the ability yet to easily manage "ps" and "kill"
+from the command line.

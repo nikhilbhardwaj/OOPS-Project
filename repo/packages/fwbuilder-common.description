@@ -1,0 +1,10 @@
+Firewall administration tool gui (common files)
+	
+firewall builder consists of an object-oriented gui and a set of policy
+compilers for various firewall platforms. in firewall builder, firewall
+policy is a set of rules, each rule consists of abstract objects which
+represent real network objects and services (hosts, routers, firewalls,
+networks, protocols). firewall builder helps the user maintain a database
+of objects and allows policy editing using simple drag-and-drop operations.
+
+this is the arch independent common parts of fwbuilder

@@ -1,0 +1,7 @@
+Data management api runtime environment
+	
+files required by system software using the data management api
+(dmapi).  this is used to implement the interface defined in the
+x/open document:  systems management: data storage management
+(xdsm) api dated february 1997.  this interface is implemented
+by the libdm library.

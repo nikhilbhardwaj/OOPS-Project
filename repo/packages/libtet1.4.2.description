@@ -1,0 +1,8 @@
+A quality tetrahedral mesh generator
+	
+tetgen generates the delaunay tetrahedralization, voronoi diagram, and convex
+hull for three-dimensional point sets, generates the constrained delaunay
+tetrahedralizations and quality tetrahedral meshes for three-dimensional
+domains with piecewise linear boundary.
+
+this package provides the runtime shared library.

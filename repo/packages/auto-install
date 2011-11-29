@@ -1,0 +1,4 @@
+PackageId:776
+Name:auto-install
+Version:1.9
+Deps:cdebconf-udeb,configured-network,netcfg,netcfg-static,ppp-udeb,preseed-common

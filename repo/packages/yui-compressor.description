@@ -1,0 +1,10 @@
+Javascript/css minifier
+	
+the yui compressor is a javascript compressor which, in addition to removing
+comments and white-spaces, obfuscates local variables using the smallest
+possible variable name. this obfuscation is safe, even when using constructs
+such as 'eval' or 'with' (although the compression is not optimal is those
+cases) compared to jsmin, the average savings is around 20%.
+
+the yui compressor is also able to safely compress css files. the decision
+on which compressor is being used is made on the file extension (js or css).

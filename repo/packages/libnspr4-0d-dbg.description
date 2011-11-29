@@ -1,0 +1,14 @@
+Debugging symbols for the netscape portable runtime library
+	
+this library provides platform independent non-gui operating system
+facilities including:
+
+ * threads,
+ * thread synchronisation,
+ * normal file i/o and network i/o,
+ * interval timing and calendar time,
+ * basic memory management (malloc and free),
+ * shared library linking.
+
+
+this package provides the debugging symbols for the library.

@@ -1,0 +1,13 @@
+Unit testing suite for php5
+	
+unit testing allows you to write small test methods which verify units of
+functionality in your program.  it is a powerful technique for improving the
+quality of your software, preventing regressions, and allowing confident
+refactoring of your code.
+
+phpunit is a unit testing suite for the php language, modelled on the xunit
+testing framework, designed by kent beck and erich gamma.  if you've used
+junit (for java), pyunit (for python), cxxunit (for c++), or any of the
+other equivalents for other languages, the api for this package should seem
+fairly familiar.  if you've never written unit tests before, the phpunit
+api is simple to learn and use.

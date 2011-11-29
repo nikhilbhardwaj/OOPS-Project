@@ -1,0 +1,8 @@
+Raptor rdf parser and serializer library - debugging symbols
+	
+raptor is a c library providing a set of parsers and serializers for
+resource description framework (rdf) triples by parsing syntaxes or
+serializing the triples into a syntax.
+
+this package contains the debugging symbols for debugging
+applications which use libraptor1.

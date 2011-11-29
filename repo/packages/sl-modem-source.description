@@ -1,0 +1,10 @@
+Smartlink software modem driver - module building source
+	
+this package contains source code for the low-level drivers for the
+software modems produced by smart link ltd. it supports pci and usb models.
+
+in addition to this package, you will need the package sl-modem-daemon
+which implements the application part of the driver.
+
+module packages can be built for the custom kernel package either by hand or
+using dkms.

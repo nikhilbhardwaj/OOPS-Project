@@ -1,0 +1,7 @@
+Modules providing common scalar and list utility subroutines
+	
+list::util is a collection of perl modules that provide subroutines useful
+for working with scalars and lists, which people have expressed would be nice
+to have as a perl builtin, but where usage would not be sufficient to warrant
+use of a keyword, and the size so small such that being individual extensions
+would be wasteful.

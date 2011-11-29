@@ -1,0 +1,11 @@
+X11 big fonts extension wire protocol
+	
+this package provides development headers describing the wire protocol
+for the xf86bigfont extension, used to make larger font requests possible.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+<url:http://xorg.freedesktop.org>
+<url:http://lists.freedesktop.org/mailman/listinfo/xorg>
+
+this package is built from the x.org xf86bigfontproto proto module.

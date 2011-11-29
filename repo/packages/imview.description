@@ -1,0 +1,23 @@
+Image viewing and analysis application
+	
+imview is an application which
+
+
+ * displays a large number of image formats.
+ * displays 2d or 3d (as slices) images with a very good zoom and pan
+   feature.
+ * works with multi-spectral, time series or multi-page documents (e.g.:
+   satellite images, tiff stacks, animated gifs and heterogeneous
+   multi-component files).
+ * displays all pixel types (1-bit to 64-bit data, integer or floating
+   point).
+ * arbitrary 1-d profile of 2-d images (or of 2-d slices of 3-d images) can
+   be displayed.
+ * has support for arbitrary colourmaps for all pixel types (i.e.: false
+   colour display).
+ * has standard image manipulation facilities (brightness/contrast, gamma,
+   zoom, crop, rotation, etc).
+ * can be controlled remotely via sockets and text commands (for easy
+   integration into various image analysis systems).
+ * images can be uploaded into imview via sockets or shared memory.
+ * and much more!

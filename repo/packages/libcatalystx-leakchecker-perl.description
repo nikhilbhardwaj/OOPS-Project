@@ -1,0 +1,9 @@
+Module for detecting memory leaks in catalyst applications
+	
+catalystx::leakchecker is a perl module that tries to help you find memory
+leaks in catalsy applications by automatically checking for common causes.
+if any leaks are found (even when they occur within code references), a
+debug message is logged with useful debugging information.
+
+this module is intended for use during development and debugging only, rather
+than in a production environment.

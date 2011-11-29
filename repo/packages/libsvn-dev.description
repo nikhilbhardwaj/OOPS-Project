@@ -1,0 +1,6 @@
+Development files for subversion libraries
+	
+this package contains the symlinks, headers, and object files needed
+to compile and link programs which use libsvn1, the subversion
+libraries.  this package is needed only in order to compile software
+that uses libsvn1.

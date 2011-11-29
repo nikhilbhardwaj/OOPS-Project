@@ -1,0 +1,12 @@
+A fast bayesian spam filter (berkeley db)
+	
+this package implements a fast bayesian spam filter along the lines suggested
+by paul graham in his article "a plan for spam".
+
+this version substantially improves on paul's proposal by doing smarter
+lexical analysis.  in particular, hostnames and ip addresses are retained
+as recognition features rather than broken up. various kinds of mta
+cruft such as dates and message-ids are discarded so as not to bloat
+the word lists.
+
+this package provides the bdb database backend.

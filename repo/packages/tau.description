@@ -1,0 +1,15 @@
+Tuning and analysis utilities - base profiling toolkit
+	
+tau is a profiling toolkit specially made for parallel computing
+(multi-thread, multi-process, mpi, pvm).  it consists of an
+instrumentation api, which can be used manually (or added
+automatically by other instrumentation tools) to get runtime
+profiling information.
+
+this package provides the api and library, and the command-line
+analysis tool.  a tcl/tk-based gui is available in package tau-racy.
+
+this version is built with pthread support only.  support for pvm and
+mpi, as well as use of pcl or papi for the use of hardware counters,
+and of pdt or dyninst for automatic code instrumentation, are not
+available in packaged form yet.

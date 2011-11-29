@@ -1,0 +1,5 @@
+Development library for a scheme interpreter named 'sigscheme'
+	
+sigscheme is a scheme interpreter, which targets embedded programs.
+sigscheme is used as extension engine for uim, universal input method
+system.  it conforms to r5rs, some of srfi-s.

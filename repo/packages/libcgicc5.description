@@ -1,0 +1,20 @@
+A c++ class library for writing cgi applications
+	
+an ansi c++ compliant class library that greatly simplifies the creation of
+cgi applications for the world wide web. libcgicc performs the following
+functions:
+
+
+ * parses both get and post form data transparently.
+ * provides string, integer, floating-point and single- and multiple-choice
+   retrieval methods for form data.
+ * provides methods for saving and restoring cgi environments to aid in
+   application debugging.
+ * provides full on-the-fly html generation capabilities, with support for
+   cookies.
+ * supports http file upload.
+ * compatible with fastcgi.
+
+
+this package contains runtime library files for running applications that use
+libcgicc.

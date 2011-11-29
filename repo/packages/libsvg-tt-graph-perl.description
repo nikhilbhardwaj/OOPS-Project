@@ -1,0 +1,5 @@
+Module for creating vector graphs
+	
+svg::tt::graph is a perl module that allows you to easily create scalable
+vector graphics (svg) for a variety of graph types, including pie, line, bar
+and time series. you can also create extend existing types to make your own.

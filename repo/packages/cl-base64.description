@@ -1,0 +1,6 @@
+Common lisp package to encode and decode base64 with uri support
+	
+this package provides highly optimized base64 encoding and decoding.
+besides conversion to and from strings, integer conversions are supported.
+encoding with uniform resource identifiers is supported by using
+a modified encoding table that uses only uri-compatible characters.

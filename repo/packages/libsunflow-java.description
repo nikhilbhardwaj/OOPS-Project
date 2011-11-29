@@ -1,0 +1,7 @@
+Rendering system for photo-realistic image synthesis
+	
+sunflow is an open source rendering system for photo-realistic image
+synthesis. it is written in java and built around a flexible ray
+tracing core and an extensible object-oriented design. it was created
+as a framework for experimenting with global illumination algorithms
+and new surface shading models.

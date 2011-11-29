@@ -1,0 +1,30 @@
+Hub clone for dc (direct connect p2p network)
+	
+open dc hub is a unix/linux version of the hub software for the direct
+connect network.  direct connect is a file sharing network made up by
+hubs, to which clients can connect.  it offers peer-based file-sharing.
+in practise it works better than gnutella and other similar systems as
+it allows dc hubs (servers) administrators to require clients to share
+specified amount of data.  the amount is usually based on type of
+client's connection and it is used not to hurt or exclude anybody but
+to make file sharing "fair play".
+
+this version supports most of the features of the official hub. some of the
+currently supported features are:
+
+ * searching for files,
+ * connecting to users, both in active and passive mode,
+ * messaging in open chat,
+ * private messaging,
+ * registering users,
+ * kicking users (for op:s),
+ * banning users (for admins),
+ * uploading hub address and description to public hub list,
+ * hublinking, which makes it possible to search on other hubs connected to
+   the network.
+
+
+the hub is run as a daemon, i.e, it runs in the background.  it's
+administrated through a tcp connection, for example with telnet, which
+makes it possible to administer remotely, given that the user has the
+administration password.

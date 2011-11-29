@@ -1,0 +1,10 @@
+Staden library for reading and writing dna sequencing results
+	
+this package contains the staden io_lib, that is renamed in debian and
+fedora ‘staden-read’ instead of ‘read’. this library supports various dna
+sequence read formats, in particular scf, abi, alf, ctf, ztr, sff and srf.
+
+the io_lib from the staden package is a library of file reading and writing
+code to provide a general purpose trace file (and experiment file) reading
+interface. it has been compiled and tested on a variety of unix systems,
+macos x and ms windows.

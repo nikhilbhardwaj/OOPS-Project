@@ -1,0 +1,17 @@
+Maintain and setup complicated firewall rules
+	
+ferm is a frontend for iptables. it reads the rules from a
+structured configuration file and calls iptables(8) to insert them
+into the running kernel.
+
+ferm's goal is to make firewall rules easy to write and easy to
+read. it tries to reduce the tedious task of writing down rules, thus
+enabling the firewall administrator to spend more time on developing
+good rules than the proper implementation of the rule.
+
+to achieve this, ferm uses a simple but powerful configuration
+language, which allows variables, functions, arrays, blocks. it also
+allows you to include other files, allowing you to create libraries
+of commonly used structures and functions.
+
+ferm, pronounced "firm", stands for "for easy rule making".

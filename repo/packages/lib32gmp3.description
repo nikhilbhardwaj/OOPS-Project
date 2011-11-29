@@ -1,0 +1,9 @@
+Multiprecision arithmetic library (32bit)
+	
+gnu mp is a programmer's library for arbitrary precision
+arithmetic (ie, a bignum package).  it can operate on signed
+integer, rational, and floating point numeric types.  this
+package includes a 32 bit version of the shared library.
+
+it has a rich set of functions, and the functions have a regular
+interface.

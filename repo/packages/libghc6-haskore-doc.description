@@ -1,0 +1,17 @@
+Haskore computer music system; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides a collection of haskell modules designed for
+expressing musical structures in the high-level, declarative style of
+functional programming. in haskore, musical objects consist of primitive
+notions such as notes and rests, operations to transform musical objects
+such as transpose and tempo-scaling, and operations to combine musical
+objects to form more complex ones, such as concurrent and sequential
+composition. from these simple roots, much richer musical ideas can
+easily be developed.
+
+it outputs music representations in midi, csound, supercollider or
+directly as an audio signal.

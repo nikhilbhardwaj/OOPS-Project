@@ -1,0 +1,7 @@
+Hardware and software inventory tool (client)
+	
+fusioninventory agent is an application designed to help a network
+or system administrator to keep track of the hardware and software
+configurations of computers that are installed on the network.
+this agent can send information about the computer to a ocs inventory
+or glpi server with the fusioninventory for glpi plugin.

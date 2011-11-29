@@ -1,0 +1,9 @@
+The glib library of c routines - refdbg library
+	
+glib is a library containing many useful c routines for things such
+as trees, hashes, lists, and strings.  it is a useful general-purpose
+c library used by projects such as gtk+, gimp, and gnome.
+
+this package contains the shared library built with
+--disable-visibility so that it can be used with refdbg, a gobject
+refcount debugger.

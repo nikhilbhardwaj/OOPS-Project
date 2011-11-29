@@ -1,0 +1,7 @@
+Python interface to the gnu r language and environment
+	
+this debian package provides rpy, a very simple yet robust python interface
+to the gnu r programming language. it can manage different types of r objects,
+and can execute arbitrary r functions, including graphic functions.
+
+url: http://rpy.sourceforge.net/

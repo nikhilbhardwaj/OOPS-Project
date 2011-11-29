@@ -1,0 +1,8 @@
+Send mail via io::all
+	
+email::send::io is a mailer for email::send that will send a message using io
+operations. by default it sends mail to stderr, very useful for debugging.
+the io functionality is built upon io::all.
+
+
+ homepage: http://search.cpan.org/dist/email-send-io/

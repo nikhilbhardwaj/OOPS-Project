@@ -1,0 +1,11 @@
+Secure rtp (srtp) and ust reference implementations - development files
+	
+srtp is a security profile for rtp that adds confidentiality, message
+authentication, and replay protection to that protocol. it is specified
+in rfc 3711.
+
+libsrtp provides an implementation of the secure real-time transport
+protocol (srtp), the universal security transform (ust), and a
+supporting cryptographic kernel.
+
+this package contains the development headers and static libraries.

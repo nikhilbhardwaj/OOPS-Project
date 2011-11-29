@@ -1,0 +1,6 @@
+Module to convert binary into ascii-armoured messages
+	
+convert::ascii::armour is a perl module designed to convert hashes of binary
+octets into ascii messages suitable for transfer over 6-bit clean transport
+channels. the encoded ascii resembles pgp's armoured messages, but are in no
+way compatible with pgp.

@@ -1,0 +1,16 @@
+Php pear module for searching and manipulating ldap-entries
+	
+net_ldap2 is the successor of net_ldap which is a clone of perls
+net::ldap object interface to directory servers. it does
+contain most of net::ldaps features but has some own too.
+with net_ldap2 you have:
+
+
+ * a simple object-oriented interface to connections, searches entries and
+  filters.
+ * support for tls and ldap v3.
+ * simple modification, deletion and creation of ldap entries.
+ * support for schema handling.
+
+
+net_ldap2 layers itself on top of php's existing ldap extensions.

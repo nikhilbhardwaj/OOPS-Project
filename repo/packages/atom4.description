@@ -1,0 +1,10 @@
+An original two-player color puzzle game
+	
+atom-4 is a two-player color manipulation game played with colored
+spherical pieces on a board divided into equilateral triangles. the
+player who first makes a row of 4 pieces of the right color wins.
+however, the players do not directly play pieces of the winning color;
+they must construct their winning pieces via color changes that happen
+to neighbouring pieces whenever a new piece is placed on the board.
+
+atom-4 supports both a curses-based text interface and an x11 interface.

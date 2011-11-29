@@ -1,0 +1,19 @@
+Collection of image processing tools
+	
+graphicsmagick provides a set of command-line applications to manipulate
+image files. it is a fork of the imagemagick project and therefore offers
+a similar set of features, but puts a larger emphasis on stability.
+
+the tools support a large variety of image formats from the widely used
+jpeg, tiff, bmp or xpm to special-purpose formats such as fits or image
+formats found on some photo cds. they can convert between formats,
+concatenate several images into one, annotate and distort them, create
+thumbnails or manipulate the colormap. while all features are available
+from the command-line, the package also includes an image viewer that
+allows interactive manipulation.
+
+note that unlike imagemagick, the graphicsmagick tools are accessed
+through a single executable called 'gm'. therefore, graphicsmagick and
+imagemagick can be used in parallel. install package
+graphicsmagick-imagemagick-compat to obtain a set of several executables
+that is compatible to imagemagick's interface.

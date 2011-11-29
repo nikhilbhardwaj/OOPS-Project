@@ -1,0 +1,6 @@
+Helper module to use perl xs with c++ code
+	
+extutils::xspp is a perl module that implements xs++, which is a thin layer
+on top of plain xs for supporting c++ code. it allows developers to easily
+write perl bindings to c++ code by compiling code using the xs++ preprocessor
+`xspp' instead of the normal xs preprocessor `xsubpp'.

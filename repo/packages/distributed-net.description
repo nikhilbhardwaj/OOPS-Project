@@ -1,0 +1,26 @@
+Donate unused cpu cycles - client for distributed.net
+	
+donate your extra cpu cycles to a worthy cause!
+
+distributed.net started in 1997 as a project whose purpose was to win a
+series of contests sponsored by rsa data security inc., to crack their rc5
+encryption by brute-force methods. these contests were meant to show
+governments of nations such as the united states, who limit exports or
+use of cryptography, that the standards allowed are too weak for general
+use.
+
+since this time, distributed.net has changed their focus from solely
+cracking rsa's rc5 and des projects to working on more diverse
+distributed computing problems.
+
+the ongoing projects are rc5-72 and optimal golomb rulers (25-mark), the
+latter of which has practical applications in science. there are also a
+number of other projects which are either periodic or upcoming. you may
+choose which project you wish to participate in.
+
+by installing this package, unused cpu cycles on your computer will be used
+to work on cracking the code. there should be no noticeable slowdown of
+your system, since the client runs niced, and only uses cpu time when
+your computer would otherwise be idle.
+
+for more information, see http://www.distributed.net/

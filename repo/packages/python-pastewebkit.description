@@ -1,0 +1,5 @@
+Port/reimplementation of webware webkit in wsgi and paste
+	
+this is a reimplementation of the webware webkit servlet api. this
+implementation uses wsgi internally very heavily, and builds upon the
+framework-neutral tools and services in paste

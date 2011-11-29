@@ -1,0 +1,9 @@
+Voms server plugin for mysql
+	
+in grid computing, and whenever the access to resources may be controlled
+by parties external to the resource provider, users may be grouped to
+virtual organizations (vos). this package provides a vo membership service
+(voms), which informs on that association between users and their vos:
+groups, roles and capabilities.
+
+this package offers the mysql implementation for the voms server.

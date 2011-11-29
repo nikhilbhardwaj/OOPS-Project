@@ -1,0 +1,8 @@
+A c++ interface to the gnome xml library (libxml2)
+	
+libxml++ is a c++ wrapper for the libxml2 xml parser library (otherwise
+known as the gnome xml library).  it has sax and dom-like apis, but does not
+attempt to conform exactly to the dom specification because they are not
+aimed at c++.  its api is much simpler than the underlying libxml c api.
+
+this package contains development files.

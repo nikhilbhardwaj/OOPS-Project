@@ -1,0 +1,10 @@
+Passive asset detection system
+	
+pads is a signature based detection engine used to passively
+detect network assets. it can determine which systems are
+alive in the network as well as the services they make use
+of. it is designed to complement ids technology by providing
+context to ids alerts. unlike other tools, like nmap, it will
+not generate any network traffic which makes it useful to
+run both on network capture files and promiscuous mode
+interfaces.

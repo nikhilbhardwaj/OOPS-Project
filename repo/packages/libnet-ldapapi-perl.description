@@ -1,0 +1,6 @@
+Perl bindings for openldap c api
+	
+net::ldapapi provides a perl interface to the openldap c libraries.
+both the original "c api" and new "perl oo" style interface methods
+are supported.  this module differs from net::ldap in that it
+uses c bindings to achieve significant performance improvements.

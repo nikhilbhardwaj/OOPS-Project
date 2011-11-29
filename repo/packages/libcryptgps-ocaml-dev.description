@@ -1,0 +1,7 @@
+Ocaml implementation of symmetric cryptographic algorithms: blowfish, des, 3des
+	
+this ocaml library implements some well-known symmetric cryptographic
+algorithms, namely: blowfish, des, 3des.
+
+this package contains all the development stuff needed to use cryptgps in
+ocaml programs.

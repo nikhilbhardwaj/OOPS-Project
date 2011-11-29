@@ -1,0 +1,6 @@
+Tcp over dns tunnel client and server
+	
+dns2tcp is a set of tools allowing to encapsulate a tcp session in dns
+packets. this type of encapsulation generates smaller packets compeared to
+ip-over-dns tools, thus allows a better throughput. the client does not need
+root priledges.

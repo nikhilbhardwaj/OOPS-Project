@@ -1,0 +1,16 @@
+Network monitoring solution - php front-end
+	
+zabbix is a server/client network monitoring system with many features.
+it can be used for:
+
+
+ - high level monitoring of it services;
+ - centralized monitoring of your servers and applications;
+ - monitoring of snmp-enabled devices;
+ - performance monitoring (process load, network activity, disk
+   activity, memory usage, os parameters etc.);
+ - data visualization.
+
+
+this package provides a web-browsable front-end to the zabbix server, which
+can display graphs of the data collected from clients.

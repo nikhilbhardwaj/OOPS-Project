@@ -1,0 +1,6 @@
+Hpc challenge benchmark
+	
+the high performance computing (hpc) challenge benchmark runs a suite
+of 7 tests that measure the performance of cpu, memory and network for
+hpc clusters.  amongst others, it includes the high-performance linpack
+(hpl) benchmark, used by the top500 ranking (http://www.top500.org/).

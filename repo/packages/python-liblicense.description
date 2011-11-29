@@ -1,0 +1,7 @@
+Python bindings for library to analyze media files' license info
+	
+liblicense implements the creative commons metadata standards for saving
+and retrieving information about media files, including the license they
+are under, where to get more information, and how to obtain further
+permissions.  this is the package for python bindings, allowing applications
+in the python language to use liblicense.

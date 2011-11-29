@@ -1,0 +1,9 @@
+Simple, yet powerful distributed caching mechanism for java
+	
+swarmcache is a simple but effective distributed cache. it uses ip
+multicast to efficiently communicate with any number of hosts on a lan.
+it is specifically designed for use by clustered, database-driven web
+applications. such applications typically have many more read
+operations than write operations, which allows swarmcache to deliver
+the greatest performance gains. swarmcache uses javagroups internally
+to manage the membership and communications of its distributed cache.

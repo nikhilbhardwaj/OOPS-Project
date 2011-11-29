@@ -1,0 +1,4 @@
+Small utility that prints user's idle time in x
+	
+xprintidle is a utility that queries the x server for the user's idle
+time and prints it to stdout (in milliseconds).

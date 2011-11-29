@@ -1,0 +1,18 @@
+Uri parsing library compliant with rfc 3986
+	
+uriparser is a library that parses uniform resource identifiers (uris),
+strictly adhering to rfc 3986 where syntax for uris is defined. uris
+are used to identify and locate resources, like http://www.debian.org or
+isbn:0-395-36341-1.
+
+uriparser has the following features:
+
+
+ * strictly compliant to rfc 3986, implementing:
+   + parsing
+   + reference resolution
+   + reference creation
+   + recomposition
+   + syntax-based normalization
+ * fast (linear input length time complexity)
+ * unicode support

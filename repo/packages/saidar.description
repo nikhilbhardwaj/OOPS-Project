@@ -1,0 +1,7 @@
+Curses-based program which displays live system statistics
+	
+saidar is a curses-based application to display system statistics.
+statistics include cpu, processes, load, memory, swap, network i/o and
+disks i/o along with their free space.
+
+saidar utilizes libstatgrab library.

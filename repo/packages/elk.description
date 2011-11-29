@@ -1,0 +1,10 @@
+The elk scheme interpreter
+	
+elk is an implementation of the scheme programming language, designed
+specifically as an embeddable, reusable extension language subsystem for
+applications written in c or c++.
+
+this package contains the elk scheme interpreter, as well as several plugins
+shipped with elk. they provide hooks for unix system calls, the x window
+system, as well as the x athena widgets and the motif toolkits. example
+scripts on how to use these plugins are provided in the elkdoc package.

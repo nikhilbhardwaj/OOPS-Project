@@ -1,0 +1,4 @@
+PackageId:18350
+Name:libnet-gpsd3-perl
+Version:0.11-1
+Deps:libdatetime-perl,libgps-point-perl,libio-socket-inet6-perl,libjson-xs-perl,perl

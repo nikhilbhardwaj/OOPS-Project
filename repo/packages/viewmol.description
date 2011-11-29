@@ -1,0 +1,13 @@
+A graphical front end for computational chemistry programs.
+	
+viewmol is a graphical front end for computational chemistry programs.
+it is able to graphically aid in the generation of molecular structures for
+computations and to visualize their results.
+
+at present viewmol includes input filters for discover, dmol3, gamess,
+gaussian 9x/03, gulp, mopac, pqs, turbomole, and vamp outputs as well as
+for pdb files. structures can be saved as accelrys' car-files, mdl files,
+and turbomole coordinate files. viewmol can generate input files for
+gaussian 9x/03. viewmol's file format has been added to openbabel so that
+openbabel can serve as an input as well as an output filter for
+coordinates.

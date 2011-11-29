@@ -1,0 +1,6 @@
+Perl interface for a generalized end {}
+	
+the end module exports a single subroutine, end, which allows you to set up
+some code that is run whenever the current block is exited, regardless whether
+that is due to a return, next, last, redo, exit, die, goto or just reaching
+the end of the block.

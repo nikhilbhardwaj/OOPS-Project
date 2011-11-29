@@ -1,0 +1,15 @@
+Oracle sql developer debian package builder
+	
+this utility makes it possible to build a debian package of oracle sql
+developer. the oracle sql developer program is governed by the copyright
+holder (oracle usa, inc.), so you may be limited as to what you can do with
+the resulting package (i.e. no redistribution, etc). this utility will simply
+help you create the debian package, it is your responsibility to use the
+resulting package acordingly with the otn license, a copy of which is included
+in the created package, that you must agree on when downloading the source.
+
+this utility will require you to download the architecture independent archive
+from <http://otn.oracle.com/software/products/sql/>, identified as "oracle sql
+developer for other platforms", "oracle sql developer for multiple platforms"
+or "oracle sql developer for linux and unix" (depending on which version you
+are building), to create the debian package from.

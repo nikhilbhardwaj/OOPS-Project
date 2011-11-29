@@ -1,0 +1,16 @@
+Data pack for business::isbn
+	
+this data is current as of november 2004. at that time, the publisher codes
+9990000-9999999 or 999000-999999 had not been fixed, although they had been
+proposed. i do not include them in the data.
+
+business::isbn uses this "data pack" to do its work. you can update
+business::isbn::data independently of the main module as the various isbn
+organizations assign new publisher codes. the isbn agency lists these data at
+http://www.isbn-international.org/identifiers.html. the distribution should
+include the kludegy script i used to extract the data and format the data
+structure.
+
+note, that as a historical artifact, some countries are actually language
+areas. for instance, country code 2 is "french", and includes several
+french-speaking countries.

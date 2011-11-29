@@ -1,0 +1,13 @@
+Structured file library - development files (basic version)
+	
+this package contains the development files used in building applications
+that use the gnome structured file library.
+
+the gnome structured file library aims to provide an efficient
+extensible i/o abstraction for dealing with different structured file
+formats. it is actively being developed and its api is still likely to
+undergo significant changes (in particular, extensions).
+
+this is the basic development package for the gnome structured file library.
+it is not gnome-specific and thus does not depend on gnome libraries.
+for gnome-specific extensions, use libgsf-gnome-1-dev.

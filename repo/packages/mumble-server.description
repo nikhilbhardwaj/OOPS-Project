@@ -1,0 +1,8 @@
+Low latency voip server
+	
+murmur is the voip server component for mumble. murmur is installed
+in a system-wide fashion, but can also be run by individual users.
+each murmur process supports multiple virtual servers, each with their
+own user base and channel list. administration of murmur is done through
+d-bus. example scripts which register new users and list connected users
+through a web page are can be found in the package 'mumble-server-web'.

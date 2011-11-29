@@ -1,0 +1,7 @@
+Perl http/www client/server library
+	
+libwww-perl (also known as lwp) is a collection of perl modules that provide
+a simple and consistent programming interface (api) to the world-wide web.
+the main focus of the library is to provide classes and functions that allow
+you to write www clients. it also contains general purpose modules, as well
+as a simple http/1.1-compatible server implementation.

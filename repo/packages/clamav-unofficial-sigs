@@ -1,0 +1,4 @@
+PackageId:1961
+Name:clamav-unofficial-sigs
+Version:3.6-1
+Deps:bind9-host,host,clamav,clamav-daemon,curl,dnsutils,gnupg,rsync

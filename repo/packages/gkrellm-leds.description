@@ -1,0 +1,6 @@
+Keyboard led monitor for gkrellm
+	
+gkrellm-leds (aka gkleds) is a gkrellm plugin which monitors the
+capslock, numlock and scrolllock keys and reports their current
+status via on screen leds.  this is useful for people who have
+keyboards without leds (typically cordless keyboards).

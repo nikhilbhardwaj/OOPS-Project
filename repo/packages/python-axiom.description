@@ -1,0 +1,20 @@
+Python object database
+	
+divmod axiom is an object database, or alternatively, an
+object-relational mapper, implemented on top of python.
+
+its primary goal is to provide an object-oriented layer with the key
+aspects of oop (object oriented programming), i.e. polymorphism and
+message dispatch, without hindering the power of an rdbms (relational
+database management system).
+
+axiom is a live database, not only an sql generation tool: it includes
+an implementation of a scheduler service, external file references,
+automatic upgraders, robust failure handling, and twisted integration.
+
+axiom is tightly integrated with twisted, and can store, start, and
+stop twisted services directly from the database using the included
+'axiomatic' command-line tool.
+
+note: axiom currently supports only sqlite and does not have any
+features for dealing with concurrency.

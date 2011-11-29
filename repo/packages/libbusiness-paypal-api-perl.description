@@ -1,0 +1,5 @@
+Module providing access to the paypal api
+	
+business::paypal::api is a perl module providing access to the paypal api.
+it supports both certificate authentication and the new 3-token "signature"
+authentication. it also support paypal's development sandbox for testing.

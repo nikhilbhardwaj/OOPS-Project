@@ -1,0 +1,16 @@
+Documentation of the edison haskell library
+	
+some concrete implementations of the abstract interface of the edison
+library for haskell for use with hugs.
+
+edison is a library of purely function data structures for haskell
+originally written by chris okasaki. conceptually, it consists of two
+things:
+
+  - a set of type classes defining data the following data structure
+    abstractions: 'sequences', 'collections' and 'associative
+    collections'
+  - multiple concrete implementations of each of the abstractions
+
+
+this package contains the documentation of the concrete implementations.

@@ -1,0 +1,23 @@
+The authenticating firewall [nfqueue daemon]
+	
+nufw is an authenticating firewall based on netfilter's nfqueue target.
+it allows to write filtering rules based on user identity, in addition
+to classical network criteria. unless other solutions, nufw uses a
+strict security model and can apply different access rules to users
+connected on the same host, for example.
+
+nufw can:
+
+ * act as a traditional firewall
+ * add user identity to the list of parameters used to write firewall rules
+ * authenticate any connection or protocol
+ * perform accounting, routing and quality of service based on users
+ * filter packets with criteria such as application and os
+ * log all traffic in sql with username and application information
+ * be the key of a secure and simple single sign on system.
+
+
+this package provides the daemon receiving packets through the nfqueue
+netfilter rule. information about those packets are forwarded to the
+nuauth daemon, which decides if packets should be accepted or denied,
+sends back the information to nufw that applies decisions.

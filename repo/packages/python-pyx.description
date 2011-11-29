@@ -1,0 +1,12 @@
+Python module for generating postscript graphics
+	
+pyx is a python module for generating encapsulated postscript figures using
+an abstraction of postscript and tex.
+
+the module provides access to postscript features such as paths,
+line-styles, fill patterns, transformations, and clipping. geometric
+operations on paths such as intersections, transformations, and splitting
+are also supported.
+
+pyx also allows flexible graph generation with many different graph and
+axis styles.

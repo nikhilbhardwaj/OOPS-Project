@@ -1,0 +1,8 @@
+Run apache in a secure chroot environment
+	
+mod_chroot allows you to run apache in a chroot jail with no additional files.
+you don't need to create a special directory hierarchy containing, for example,
+/dev or /lib. setting up the chroot happens by adjusting the `chrootdir'
+directive within your `httpd.conf'.
+
+this package includes the mod_chroot module for apache version 2.x

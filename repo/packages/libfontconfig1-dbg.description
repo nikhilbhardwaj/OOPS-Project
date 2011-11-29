@@ -1,0 +1,12 @@
+Generic font configuration library - debugging symbols
+	
+fontconfig is a font configuration and customization library, which
+does not depend on the x window system. it is designed to locate
+fonts within the system and select them according to requirements
+specified by applications.
+
+this package contains the debugging symbols associated with
+libfontconfig1. they will automatically be used by gdb for debugging
+fontconfig-related issues. it should be installed when experiencing crashes
+involving fontconfig so that a better backtrace is provided in
+the bug report.

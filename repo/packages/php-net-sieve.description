@@ -1,0 +1,9 @@
+Net_sieve module for pear
+	
+provides an object-oriented api to talk to servers implementing
+the managesieve protocol, taking care of all the communication
+process. it is able to query for the server's mail filtering
+configuration and/or modify it through sieve scripts or commands.
+
+the authentication protocols supported include digest-md5,
+cram-md5, login and plain

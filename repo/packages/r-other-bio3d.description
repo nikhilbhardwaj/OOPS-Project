@@ -1,0 +1,11 @@
+Gnu r package for biological structure analysis
+	
+the bio3d package contains utilities to process, organize and explore
+protein structure, sequence and dynamics data.  features include the
+ability to read and write structure, sequence and dynamic trajectory
+data, perform atom summaries, atom selection, re-orientation,
+superposition, rigid core identification, clustering, torsion analysis,
+distance matrix analysis, structure and sequence conservation analysis,
+and principal component analysis (pca).  in addition, various utility
+functions are provided to enable the statistical and graphical power of
+the r environment to work with biological sequence and structural data.

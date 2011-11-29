@@ -1,0 +1,5 @@
+An array which is kept sorted
+	
+presents an ordinary array, but it is kept sorted.  all pushes and unshifts
+cause the elements in question to be inserted in the appropriate location to
+maintain order.

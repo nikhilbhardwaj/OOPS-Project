@@ -1,0 +1,18 @@
+Extensible and flexible object <-> relational mapper
+	
+dbix::class is an sql to oo mapper with an object api inspired by class::dbi
+(and a compatibility layer as a springboard for porting) and a resultset api
+that allows abstract encapsulation of database operations. it aims to make
+representing queries in your code as perl-ish as possible while still
+providing access to as many of the capabilities of the database as possible,
+including retrieving related records from multiple tables in a single query,
+join, left join, count, distinct, group by and having support.
+
+dbix::class can handle multi-column primary and foreign keys, complex queries
+and database-level paging, and does its best to only query the database in
+order to return something you've directly asked for. if a resultset is used
+as an iterator it only fetches rows off the statement handle as requested
+in order to minimise memory usage. it has auto-increment support for sqlite,
+mysql, postgresql, oracle, sql server and db2 and is known to be used in
+production on at least the first four, and is fork- and thread-safe out of
+the box (although your dbd may not be).

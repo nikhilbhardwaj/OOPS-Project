@@ -1,0 +1,8 @@
+Postscript ppd file library
+	
+postscript was designed as a device independent language. to be able
+to access device specific features like selecting different paper
+trays and turning on different imaging models, each printer vendor
+supplies a postscript printer definition or ppd file. this library
+reads those ppd files and provides functions that allow a program to
+modify postscript print jobs to acces these special features.

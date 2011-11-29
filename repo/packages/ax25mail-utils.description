@@ -1,0 +1,13 @@
+Hamradio utilities for fbb
+	
+this package provides utilities to download a message list or messages
+from a fbb ax.25 bbs:
+
+
+ * axgetlist - read the message list from the bbs
+ * axgetmail - automatically download messages from the f6fbb bbs
+ * axgetmsg - download selected messages from f6fbb bbs
+ * home_bbs - find home bbs or force a home bbs for the callsign
+ * msgcleanup - delete the messages with their lifetime exceeded
+ * ulistd - collect fbb bbs messages list sent via unproto frames
+ * update_routes - update the database of bbs and callsigns

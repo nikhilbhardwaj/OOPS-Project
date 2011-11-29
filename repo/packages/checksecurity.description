@@ -1,0 +1,16 @@
+Basic system security checks
+	
+checksecurity does some very basic system security checks, such as
+looking for changes in which programs have setuid permissions, and that
+remote filesystems are not allowed to have runnable setuid programs.
+
+note that these are not to be considered in any way complete, and
+you should not rely on checksecurity to actually provide any useful
+information concerning the security or vulnerability of your system.
+
+the lockfile-progs package is only a "suggests" because of the poor
+way that dselect handles "recommends", but i do strongly suggest that
+you install it; it prevents /etc/cron.daily/standard from running multiple
+times if something gets jammed.
+
+checksecurity was previously part of the cron package.

@@ -1,0 +1,6 @@
+Tool to flash kernels and romdisks to agenda vr
+	
+the agenda vr is a handheld computer that runs linux.  vrflash
+communicates with the agenda's boot monitor (pmon) over a serial
+line to install new software on the device.  the kernel and the
+root image can be upgraded this way.

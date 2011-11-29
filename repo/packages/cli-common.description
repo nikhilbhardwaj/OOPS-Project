@@ -1,0 +1,12 @@
+Common files between all cli packages
+	
+this package must be installed if a cli (common language infrastructure)
+runtime environment is desired.
+
+it covers useful integration and information for cli implementations in
+debian gnu/linux, including:
+
+ * the cli policy describes how cli packages should behave and integrate.
+ * a faq for package maintainers of cli/.net applications.
+ * integration for clrs (common language runtime):
+   + installing libraries into existing gacs (global assembly cache)

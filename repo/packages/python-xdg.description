@@ -1,0 +1,11 @@
+Python library to access freedesktop.org standards
+	
+pyxdg contains implementations of freedesktop.org standards in python:
+
+
+ * base directory specification version 0.6
+ * menu specification version 1.0-draft1
+ * desktop entry specification version 1.0
+ * icon theme specification version 0.8
+ * recent file spec 0.2
+ * shared-mime-database specification 0.13

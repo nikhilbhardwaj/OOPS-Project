@@ -1,0 +1,16 @@
+Hierarchical view of the machine - static libs and headers
+	
+hardware locality (hwloc) provides a portable abstraction (across os, versions,
+architectures, ...) of the hierarchical topology of modern architectures. it
+primarily aims at helping high-performance computing applications with
+gathering information about the hardware so as to exploit it accordingly and
+efficiently.
+
+libhwloc provides a hierarchical view of the machine, numa memory nodes,
+sockets, shared caches, cores and simultaneous multithreading. it also gathers
+various attributes such as cache and memory information.
+
+libhwloc supports old kernels not having sysfs topology information,
+with knowledge of cpusets, offline cpus, and kerrighed support
+
+this package contains static libraries and development headers.

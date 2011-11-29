@@ -1,0 +1,6 @@
+Debian pure blends common files for developing metapackages
+	
+this package makes life easier when packaging metapackages.  perhaps
+this will also encourage other people to build metapackages if there are
+easy to use templates where only the packages, the metapackage is depending
+from, to insert into the right place.

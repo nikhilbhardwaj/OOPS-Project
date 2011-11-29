@@ -1,0 +1,9 @@
+Portable audio i/o - documentation
+	
+portaudio is a portable audio i/o library designed for cross-platform
+support of audio. it uses a callback mechanism to request audio
+processing.  audio can be generated in various formats, including 32
+bit floating point, and will be converted to the native format
+internally.
+
+this package contains the documentation.

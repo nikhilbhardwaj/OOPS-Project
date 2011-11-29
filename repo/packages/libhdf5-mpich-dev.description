@@ -1,0 +1,9 @@
+Hierarchical data format 5 (hdf5) - development files - mpich version
+	
+hdf5 is a file format and library for storing scientific data.
+hdf5 was designed and implemented to address the deficiencies of
+hdf4.x. it has a more powerful and flexible data model, supports
+files larger than 2 gb, and supports parallel i/o.
+
+this package contains development files for use with mpich. warning:
+the c++ interface is not provided for this version.

@@ -1,0 +1,8 @@
+Mp3 info viewer and id3 1.x tag editor -- gtk+ version
+	
+mp3info can display id3 tag information as well as various technical aspects
+of an mp3 file including playing time, bit-rate, sampling frequency and other
+attributes in a pre-defined or user-specifiable output format.
+
+this package installs gtk+ version of mp3info. if you prefer command line
+or curses interface you should use mp3info package.

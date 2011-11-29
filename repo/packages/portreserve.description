@@ -1,0 +1,7 @@
+Port reservation program
+	
+the portreserve program aims to help services with well-known ports
+that lie in the bindresvport() range (currently 600-1023).
+it prevents programs requesting a port to the libc from occupying
+a real service's port by occupying it itself, until the real service
+tells it to release the port (generally in its init script).

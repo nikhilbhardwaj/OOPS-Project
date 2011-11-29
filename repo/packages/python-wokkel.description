@@ -1,0 +1,7 @@
+Collection of enhancements for twisted
+	
+wokkel is collection of enhancements on top of the
+twisted networking framework, written in python. it
+mostly provides a testing ground for enhancements to
+the jabber/xmpp protocol implementation as found in
+twisted words, that are meant to eventually move there.

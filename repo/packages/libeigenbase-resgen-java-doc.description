@@ -1,0 +1,10 @@
+Java i18n code generator from xml files - documentation
+	
+eigenbase resource generator helps you build and maintain internationalized
+applications in java. from a simple xml file, it generates classes to access
+those resources in a type-safe manner.
+
+it is tightly integrated with ant, to make the development process painless;
+and it supports a variety of schemes to determine the current locale.
+
+this package contains javadoc api documentation of eigenbase-resgen.

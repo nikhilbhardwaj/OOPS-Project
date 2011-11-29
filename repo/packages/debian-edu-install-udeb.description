@@ -1,0 +1,8 @@
+Execute debian edu debian-installer profile
+	
+this dependency package forces the installer to choose the menu items
+needed for use in debian-installer.  this is done by making this
+package appear very early in the menu, and depending on the required
+packages in sequence.
+
+this is part of the debian edu project.

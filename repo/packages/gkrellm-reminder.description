@@ -1,0 +1,13 @@
+Useful reminder plugin for gkrellm
+	
+a useful reminder plugin for gkrellm that can remind you of important
+events. events can be scheduled inside gkrellm's configuration and
+will be displayed in gkrellm-reminder's panel.
+
+
+ * events can be scheduled to repeat over an interval of days.
+ * events can repeat after a certain number of days or based on the
+   day of the week
+ * reminders can be set to display early to ensure you'll be on time
+ * reminders can be repeated later, if necessary
+ * runs entirely within gkrellm

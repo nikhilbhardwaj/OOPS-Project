@@ -1,0 +1,4 @@
+PackageId:32452
+Name:systemtap-client
+Version:1.2-5
+Deps:avahi-utils,dnsutils,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libnspr4-0d,libnss3-1d,systemtap-runtime,unzip,zip

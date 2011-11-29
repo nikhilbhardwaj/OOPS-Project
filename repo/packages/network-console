@@ -1,0 +1,4 @@
+PackageId:25391
+Name:network-console
+Version:1.27
+Deps:cdebconf-udeb,configured-network,netcfg,netcfg-static,ppp-udeb,openssh-server-udeb

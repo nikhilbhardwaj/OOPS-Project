@@ -1,0 +1,11 @@
+Odbc binding for ruby1.8
+	
+odbc is a standard api for connecting to odbc data sources such as relational
+database management systems (rdbmss). for accessing odbc data sources from the
+ruby language, an odbc binding library and ruby interface are required. this
+package provides both for ruby 1.8.
+
+this package includes both utf-8 and non-utf-8 versions.
+
+this is a dummy package, which depends on the package containing the actual
+library for the default ruby version.

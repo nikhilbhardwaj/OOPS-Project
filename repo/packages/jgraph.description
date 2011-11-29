@@ -1,0 +1,14 @@
+Jim plank's program for producing postscript graphs
+	
+jgraph takes a description of a graph or graphs and produces a
+postscript file on the standard output.
+
+jgraph is ideal for plotting any mixture of scatter point graphs,
+line graphs, and/or bar graphs, and embedding the output into latex,
+or any other text processing system which can read postscript.
+
+the graph description language is simple enough to get nice looking
+graphs with a minimum of effort, yet powerful enough to give the user
+the flexibility to tailor the appearance of the graph to his or her
+individual preferences.  this includes plotting multiple graphs and
+laying them out separately on the page (or pages).

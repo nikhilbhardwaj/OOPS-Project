@@ -1,0 +1,13 @@
+Automated snapshots with git
+	
+flashbake is a tool which watches files and automatically
+checks them in to a git repository. there is an option to
+wait for a quiescent period before committing the files.
+various plugins which capture the current context, like
+the weather or the currently playing song can be used to
+customise the commit message to produce a more meaningful
+history.
+
+thus it simplifies life for the user by taking off the
+burden of manually committing changes and allowing one
+to focus on the work.

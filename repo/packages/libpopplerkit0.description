@@ -1,0 +1,14 @@
+Gnustep framework for rendering pdf content (library files)
+	
+popplerkit is a gnustep framework for accessing and rendering pdf content.  it
+is based on the poppler library.
+
+its features are:
+
+  - render pdf content.
+  - extract text from a pdf document.
+  - access a pdf document's outline.
+  - search in pdf documents.
+
+
+this package contains the runtime libraries.

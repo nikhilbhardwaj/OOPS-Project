@@ -1,0 +1,5 @@
+Python interface to the nifti i/o libraries
+	
+using pynifti one can easily read and write nifti and analyze images from
+within python. the niftiimage class provides python-style access to the full
+header information. image data is made available via numpy arrays.

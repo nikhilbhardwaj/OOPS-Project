@@ -1,0 +1,13 @@
+The hierarchical data format library -- development package
+	
+hdf is a multi-object file format for storing and transferring
+graphical and numerical data mainly used in scientific computing. hdf
+supports several different data models, including multidimensional
+arrays, raster images, and tables.
+each defines a specific aggregate data type and provides an api for
+reading, writing, and organizing the data and metadata. new data models
+can be added by the hdf developers or users.
+
+this package contains development stuff, including files and static
+library for the hdf package in the flavor compatible with the
+netcdf library.

@@ -1,0 +1,6 @@
+Library to allow use of infiniband sockets direct protocol (sdp)
+	
+libsdp is a ld_preload-able library which can be used to make an application
+use the infiniband sockets direct protocol (sdp) rather than tcp. the change
+in protocol is transparent and does not require the application to be
+recompiled.

@@ -1,0 +1,10 @@
+C++ wrappers for gtk+ (shared libraries)
+	
+gtkmm is a c++ interface for the popular gui library gtk+, api version 2.4.
+gtkmm provides a convenient interface for c++ programmers to create
+graphical user interfaces with gtk+'s flexible oo framework. highlights
+include type safe callbacks, widgets extensible using inheritance and
+over 180 classes that can be freely combined to quickly create complex
+user interfaces.
+
+this package contains shared libraries.

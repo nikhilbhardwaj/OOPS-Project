@@ -1,0 +1,5 @@
+Television viewer - plugins
+	
+this package provides plugins for xawtv and motv: driver interfaces for
+hardware access (video4linux api, etc.), plugins for reading/writing
+movie files and some image processing filters.

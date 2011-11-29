@@ -1,0 +1,17 @@
+Universal front-end for round-robin databases (for apache 2.x)
+	
+installs torrus-common and configures it for operation together with
+the apache 2.x web server. apache 2.x will be restarted during
+installation of torrus-apache2.
+
+torrus is designed to be a universal front-end framework for
+round-robin databases using tobias oetiker's rrdtool. it may be configured
+to collect and monitor arbitrary data series from various data
+sources which can in turn be displayed on a web page served by the
+apache web server.
+
+one of the traditional applications of this functionality is the collection
+and visualization of network information using the simple network management
+protocol (snmp) from snmp-enabled devices.
+
+torrus has been formerly known as rrfw, round-robin database framework.

@@ -1,0 +1,12 @@
+Utility to query cvs and subversion commit database
+	
+viewvc is a browser (web) interface for cvs and subversion version
+control repositories.  it generates templatized html to present
+navigable directory, revision, and change log listings.  it can display
+specific versions of files as well as diffs between those versions.
+
+this package includes query.cgi (and equivalent mod-python modules): a
+utility to query a separate cvs and subversion commit database.  you can
+search for multiple matches by typing comma-separated lists into the
+text fields.  regular expressions and wildcards are also supported.  it
+requires a stand-alone mysql database server.

@@ -1,0 +1,4 @@
+PackageId:17025
+Name:liblapack-pic
+Version:3.2.1-8
+Deps:libatlas-base-dev,libblas-dev,libblas-3gf.so,liblapack3gf

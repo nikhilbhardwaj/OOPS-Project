@@ -1,0 +1,4 @@
+Tls protocol support for rsyslog
+	
+this netstream plugin allows rsyslog to send and receive encrypted syslog
+messages via the upcoming syslog-transport-tls ietf standard protocol.

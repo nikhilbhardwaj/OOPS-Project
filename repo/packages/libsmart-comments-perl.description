@@ -1,0 +1,11 @@
+Perl module for comments that do more than just sit there
+	
+smart::comments is a perl module that implements "intelligent" comments that
+can aid in debugging and tracking program execution flow. they can report the
+value of a variable, track the progress of a loop, and verify that particular
+assertions are true.
+
+best of all, when you're finished debugging, you don't have to remove them.
+simply commenting out the "use smart::comments" line turns them back into
+regular comments. leaving smart comments in your code is smart because if you
+needed them once, you'll almost certainly need them again later.

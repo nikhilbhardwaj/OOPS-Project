@@ -1,0 +1,9 @@
+A simple but powerful template language for c++ - development files
+	
+this package contains a library implementing a simple but
+powerful template language for c++.  it emphasizes separating logic
+from presentation: it is impossible to embed application logic in this
+template language.  the devel package contains static and debug
+libraries and header files for developing applications that use the
+ctemplate package.
+this package contains the ctemplate development files.

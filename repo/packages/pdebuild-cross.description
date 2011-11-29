@@ -1,0 +1,17 @@
+Cross-building support for pbuilder
+	
+pdebuild-cross includes pbuilder hooks and a multistrap method to
+setup a cross-building chroot compatible with pbuilder.
+
+the package currently defaults to cross building for the dpkg-cross
+default architecture (or armel if not set). extensions are pending,
+based on the removal of apt-cross.
+
+pdebuild-cross includes xapt which is an attempt to fix some of the
+problems with apt-cross by handing dependency resolution back to apt.
+xapt wraps apt and calls dpkg-cross for the collected
+archives. downloaded files are passed directly to dpkg-cross.
+
+embuilddeps can be used to parse debian/xcontrol to install the
+build tools using apt-get and cross dependencies using xapt, for a
+particular unpacked source package.

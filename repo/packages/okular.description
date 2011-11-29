@@ -1,0 +1,19 @@
+Universal document viewer
+	
+okular is a universal document viewer with support for advanced document
+features, such as annotations, forms, and embedded files.
+
+this package provides the document viewer application, plus plugins for a wide
+variety of document formats such as:
+
+ * postscript (ps)
+ * portable document format (pdf)
+ * opendocument text (odt)
+ * tex device independent file format (dvi)
+ * xml paper specification (xps)
+ * g3 fax
+ * various electronic book formats: comicbook, fictionbook, mobipocket, and
+   plucker
+
+
+this package is part of the kde graphics module.

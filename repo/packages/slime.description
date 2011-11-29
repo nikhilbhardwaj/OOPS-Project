@@ -1,0 +1,15 @@
+Superior lisp interaction mode for emacs
+	
+slime is the superior lisp interaction mode for emacs.
+
+this is an ilisp-like development environment intended for maximum
+integration with cmucl (also works with sbcl, openmcl and work is
+ongoing on lispworks and current cvs version of clisp and clisp 2.32
+on linux).
+
+this package contains the emacs client, that will connect to the
+lisp-side server (see package cl-swank).
+
+to connect to common lisp implementations not running in debian
+you need the latest cvs version of slime, not the old slime
+'release' version 1.2.1 or older.

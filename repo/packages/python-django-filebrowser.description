@@ -1,0 +1,6 @@
+File management in the django admin interface
+	
+allows browsing of specific directories on the webserver and upload, deletion,
+editing and renaming of files. it is a tool for editors using the admin
+interface, to make it easier to work with images and documents. for most common
+cases, it should replace an ftp client.

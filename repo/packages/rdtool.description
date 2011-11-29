@@ -1,0 +1,11 @@
+Rd document formatter
+	
+rd is multipurpose documentation format created for documentating ruby and
+output of ruby world.
+
+you can embed rd into ruby script. and rd have neat syntax which help you
+to read document in ruby script. on the other hand, rd have a feature for
+class reference.
+
+rdtool is one of frontends of formatter for rd.  this package provides rd2
+command.

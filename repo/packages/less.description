@@ -1,0 +1,12 @@
+Pager program similar to more
+	
+this package provides "less", a file pager (that is, a memory-efficient
+utility for displaying text one screenful at a time). unlike the basic
+pager "more", it is capable of both backward and forward navigation
+through a file. as part of the gnu project, it is widely regarded as
+the standard pager on unix-derived systems.
+
+also provided are "lessecho", a simple utility for ensuring arguments
+with spaces are correctly quoted; "lesskey", a tool for modifying the
+standard (vi-like) keybindings; and "lesspipe", a filter for specific
+types of input, such as .doc or .txt.gz files.

@@ -1,0 +1,12 @@
+Align expressed rna sequences on a dna template
+	
+the sibsim4 project is based on sim4, which is a program designed to align
+an expressed dna sequence with a genomic sequence, allowing for introns.
+sibsim4 is a fairly extensive rewrite of the original code with the following
+goals:
+
+ * speed improvement;
+ * allow large, chromosome scale, dna sequences to be used;
+ * provide more detailed output about splice types;
+ * provide more detailed output about polya sites;
+ * misc code cleanups and fixes.

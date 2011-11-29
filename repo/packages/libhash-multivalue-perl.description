@@ -1,0 +1,6 @@
+Module for storing multiple values per key in a hash
+	
+hash::multivalue is a perl module that provides an object (and a plain hash
+reference) that may contain multiple values per key. the hash behaves like a
+single-value hash reference, but also provides an api to retrieve multiple
+values explicitly on demand.

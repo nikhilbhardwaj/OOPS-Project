@@ -1,0 +1,11 @@
+Collection of add-on modules for pygopherd
+	
+these add-on modules provide additional functionality for
+your pygopherd server.
+
+included modules are:
+
+dict.pyg: interface to a dictd database
+
+these are installed into /usr/share/pygfarm for you to link to
+as you like.

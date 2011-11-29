@@ -1,0 +1,11 @@
+Runtime library for james clark's sp suite
+	
+this is the sp suite's shared library runtime support.  this c++
+library contains entity management functions, parsing functions, and
+other functions useful for sgml/xml/dsssl development.
+
+this shared library is used by the sp and jade packages, among others.
+
+
+ author:   james clark <jjc@jclark.com>
+ homepage: http://www.jclark.com/sp/

@@ -1,0 +1,5 @@
+Service discovery applet based on avahi for the gnome panel
+	
+the service discovery applet lists all available services which are
+published through avahi/rendezvous/bonjour/zeroconf and allows to run
+actions on that service.

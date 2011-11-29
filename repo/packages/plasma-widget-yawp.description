@@ -1,0 +1,11 @@
+Yet another weather plasmoid fetches weather forecasts for you
+	
+yawp is a nice and simple plasmoid for kde 4.x to show the weather forecast,
+works with different weather sources, you can configure it to show several
+days in advance, to display the current satellite image and it is also
+possible to keep track of multiple cities.
+
+this package contains the plasmoid itself and the basic theme for yawp.
+
+yawp can be considered to be the native kde 4.x replacement for the
+superkaramba script "liquidweather++".

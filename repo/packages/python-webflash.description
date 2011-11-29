@@ -1,0 +1,17 @@
+Portable flash messages for python wsgi applications
+	
+webflash is a library to display "flash" messages in python web
+applications.
+
+these messages are usually used to provide feedback to the user (e.g:
+you changes have been saved, your credit card number has been stolen,
+etc). one important characteristic they must provide is the ability
+to survive a redirect (i.e., display the message in a page after
+being redirected from a form submission).
+
+
+ * webflash is implemented using cookies, no state must be kept
+ * the messages can be rendered by the browser using javascript
+ * alternatively messages can be rendered by the server
+ * the js code is small (~1kb) and has no dependency
+ * webflash is designed to be used in wsgi frameworks

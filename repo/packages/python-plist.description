@@ -1,0 +1,7 @@
+Library for handling apple binary and xml property lists
+	
+libplist is a library for reading and writing the apple binary and xml
+property lists format. it's part of the libiphone stack, providing access
+to ipod and iphone devices.
+
+this package contains the python bindings

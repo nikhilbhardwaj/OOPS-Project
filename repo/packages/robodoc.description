@@ -1,0 +1,19 @@
+Source code documentation tool
+	
+it is difficult to keep documentation in sync with source code. one of the
+reasons is that documentation and source code are stored in separate files
+that usually also require different editors to edit them. robodoc solves
+this problem. specially formatted documentation headers are extracted from
+source files, reformatted in html, xml docbook, troff, ascii, latex, pdf,
+or rtf, and stored in a different file. this way robodoc allows you to
+include your documentation in the source code. you can edit the source code
+as well as the documentation in a single file with your favourite editor.
+this makes it easier to keep your documentation in sync with your source
+code.
+
+robodoc can be used to document functions, methods, classes, variables,
+makefile entries, system tests, and anything else you can think of.
+
+robodoc works with c, c++, fortran, perl, shell scripts, assembler, dcl,
+db/c, tcl/tk, forth, lisp, cobol, occam, basic, html, and any other
+language that supports remarks/comments.

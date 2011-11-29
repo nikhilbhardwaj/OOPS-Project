@@ -1,0 +1,12 @@
+Dependency sorter for ocaml source files
+	
+the ocamldsort command scans a set of objective caml source files (.ml
+and .mli files), sorts them according to their dependencies and prints
+the sorted files in order to link their corresponding .cmo files.
+
+ocamldsort can be used to compile and link simple projects with one
+command.
+
+however for larger projects where separate compilation is desirable,
+ocamldsort can also be used from within a makefile as described in the
+documentation.

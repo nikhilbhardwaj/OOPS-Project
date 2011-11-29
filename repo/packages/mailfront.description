@@ -1,0 +1,12 @@
+Mail server network protocol front-ends
+	
+mailfront is a set of customizable network front-ends for mail servers.
+it contains complete smtp, qmqp, qmtp, and pop3 front-ends as well as an
+authentication module for imap.  the mail delivery front-ends also contain
+internal address filtering features.
+
+two smtp back-ends are provided.  one delivers mail to qmail-queue,
+mimicking most of the behavior of qmail-smtpd, with the addition of
+support for smtp auth.  the other rejects all smtp commands if $smtpreject
+is set, and execs its command line otherwise (in order to run the above
+program).

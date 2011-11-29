@@ -1,0 +1,11 @@
+A perl implementation of the sendmail milter protocol
+	
+pmilter is an attempt to reimplement sendmail's milter (mail filter)
+protocol in pure perl. there are many reasons for this, including
+independence from sendmail's libmilter, as well as freedom from posix
+threads (helps stability for perl filters), etc.
+
+most of pmilter's sendmail::milter interface is a clone of the
+frontend functions in pmilter::server. however, this compatibility
+package also includes some methods specific to the sendmail mta,
+which are deliberately not included in pmilter::server.

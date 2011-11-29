@@ -1,0 +1,8 @@
+Example models for the oasis climate model coupler
+	
+oasis3 is an executable for exchanging via mpi fields between
+components of climate models, such as atmosphere and ocean models.
+in addition, oasis can perform interpolation between different grids
+used by the components, via the scrip library.
+
+this package contains example models and sources for the oasis3 coupler.

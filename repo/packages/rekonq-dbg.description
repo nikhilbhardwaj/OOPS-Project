@@ -1,0 +1,5 @@
+Debugging symbols for rekonq
+	
+this package contains the debugging symbols associated with rekonq.
+they will automatically be used by gdb for debugging rekonq-related
+issues.

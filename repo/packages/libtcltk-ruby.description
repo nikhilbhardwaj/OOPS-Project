@@ -1,0 +1,7 @@
+Tcl/tk interface for ruby
+	
+this package provides an extension library "tcltk" for ruby. it provides a
+low-level interface to tcl/tk.
+
+this package is a dependency package, which depends on debian's default
+ruby version (currently 1.8.x).

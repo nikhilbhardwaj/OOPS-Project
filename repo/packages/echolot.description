@@ -1,0 +1,12 @@
+Pinger for anonymous remailers such as mixmaster
+	
+a pinger in the context of anonymous remailers is a program that
+regularly sends messages through remailers to determine their status.
+based on the responses, the pinger calculates reliability statistics
+which may be used by remailer clients to choose a chain of remailers to
+use.
+
+furthermore, echolot collects configuration parameters and keys of
+remailers and offers the collected information in a format readable by
+remailer clients.  this helps reduce the administration effort required
+to use or host remailers.

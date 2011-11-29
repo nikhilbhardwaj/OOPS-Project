@@ -1,0 +1,5 @@
+Perl module to manage sets of integers
+	
+the set::intspan module manages sets of integers.
+it is optimized for sets that have long runs of consecutive integers.
+these arise, for example, in .newsrc files, which maintain lists of articles.

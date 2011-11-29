@@ -1,0 +1,38 @@
+Scalable postscript and opentype fonts based on urw fonts
+	
+the tex gyre project, following the latin modern project, aims at providing
+a rich collection of diacritical characters in the attempt to cover as many
+latin-based scripts as possible.
+
+the tex-gyre bundle consists of seven font families:
+
+the tex gyre adventor family of fonts is based on the urw gothic l
+family (designed by herb lubalin and tom carnase).
+
+the tex gyre bonum family of fonts is based on the urw bookman l family
+(designed by alexander phemister).
+
+the tex gyre chorus font is based on urw chancery l medium italic
+(designed by hermann zapf (itc zapf chancery(r), 1979)).
+
+the tex gyre cursor family is based on the urw nimbus mono l family
+(designed by howard g. (bud) kettler in 1955 for the ibm corporation).
+
+the tex gyre heros family of fonts is based on the urw nimbus sans l
+(prepared by max miedinger, with eduard hoffmann).
+
+the tex gyre pagella family of fonts is based on the urw palladio l
+family (designed by hermann zapf).
+
+the tex gyre schola family of fonts is based on the urw century
+schoolbook l family (designed by morris fuller benton).
+
+the tex gyre termes is based on the urw nimbus roman no9 l family
+(designed by stanley morison together with starling burgess and
+victor lardent).
+
+the constituent 4 standard faces of each family have been greatly
+extended, and contain nearly 1200 glyphs each.  each family is
+available in adobe type 1 and open type formats, and latex support
+(for use with a variety of encodings) is provided.  vietnamese
+characters were added by han the thanh.

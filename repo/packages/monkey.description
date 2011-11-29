@@ -1,0 +1,16 @@
+Fast, efficient, small and easy to configure web server
+	
+monkey is a small, fast, and easily configurable http/1.1 compliant web
+server. it implements the following features:
+
+
+  * multi-threading
+  * support for mime
+  * resume
+  * virtual hosts
+  * cgi and php
+  * directory navigation
+  * basic security features (denying access to certain urls and ips)
+  * translated documentation
+
+.

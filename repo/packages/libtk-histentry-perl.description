@@ -1,0 +1,8 @@
+Implements an entry widget with history
+	
+tk::histentry implements an entry widget with history. you may use the up
+and down keys to select older entries (or use the associated listbox).
+
+the widget comes in two flavors: the "histentry" widget is an
+inherited browseentry widget where you see history in the associated
+listbox, too. the "simplehistentry" widget is a plain entry widget.

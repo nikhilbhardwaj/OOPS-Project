@@ -1,0 +1,6 @@
+Perl module for printing through cups
+	
+net::cups is a perl module that provides an object-oriented interface to the
+common unix printing system (cups). it supports retrieving information such
+as names of all configured printers, authenticating with username/password
+credentials, and various other utilities for manipulating the cups daemon.

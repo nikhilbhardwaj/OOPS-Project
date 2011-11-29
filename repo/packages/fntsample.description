@@ -1,0 +1,8 @@
+Program for making font samples
+	
+a program for making font samples that show unicode coverage of the font
+and are similar in appearance to unicode charts. samples can be saved as
+pdf or postscript files.
+
+this package also contains script called 'pdfoutline', that can be used to
+add outlines (aka bookmarks) to generated pdf files.

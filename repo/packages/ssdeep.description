@@ -1,0 +1,11 @@
+Recursive piecewise hashing tool
+	
+ssdeep is a tool for recursive computing and matching of context triggered
+piecewise hashing (aka fuzzy hashing).
+
+fuzzy hashing is a method for comparing similar but not identical files.
+this tool can be used to compare files like regular hashing does (like
+md5sum or sha1sum) but it will find similar files with little differences.
+
+for example, it can be used to identify modified versions of known files
+even if data has been inserted, modified, or deleted in the new files.

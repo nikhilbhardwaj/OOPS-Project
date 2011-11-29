@@ -1,0 +1,12 @@
+Module providing automatic methods for core functions
+	
+this module provides automatic methods which wrap perl's built-in
+functions for minipulating numbers, strings, arrays, hashes, and code
+references. it can be handy to use built-in functions as methods to avoid
+messy dereferencing syntaxes and parentheses pile ups.
+
+autobox::core is what you'd call a stub module. it is merely glue, presenting
+existing functions with a new interface. most of the methods read like sub
+hex ($) { hex($_[0]) }. besides built-ins that operate on hashes, arrays,
+scalars, and code references, some perl 6-ish things were thrown in, and some
+keywords like foreach have been turned into methods.

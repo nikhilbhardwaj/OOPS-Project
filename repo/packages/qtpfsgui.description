@@ -1,0 +1,22 @@
+Graphical user interface providing a workflow for hdr imaging
+	
+features:
+
+ * create an hdr file from a set of images (formats: jpeg, tiff 8bit and
+   16bit, raw) of the same scene taken at different exposure setting.
+ * save and load hdr images.
+ * rotate and resize hdr images.
+ * tonemap hdr images.
+ * copy exif data between sets of images.
+
+
+supported hdr formats:
+
+ * openexr (extension: exr).
+ * radiance rgbe (extension: hdr).
+ * tiff formats: 16bit, 32bit (float) and logluv (extension: tiff).
+ * raw image formats (extension: various).
+ * pfs native format (extension: pfs).
+
+
+supported ldr formats: jpeg, png, ppm, pbm, tiff (8 bit).

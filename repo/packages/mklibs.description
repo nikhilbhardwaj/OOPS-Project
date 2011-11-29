@@ -1,0 +1,6 @@
+Shared library reduction script
+	
+mklibs produces cut-down shared libraries that contain only the
+routines required by a particular set of executables.  this is
+useful when building closed systems where disk space is at a premium,
+such as the debian installer.

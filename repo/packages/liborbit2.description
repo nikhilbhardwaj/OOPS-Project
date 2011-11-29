@@ -1,0 +1,11 @@
+Libraries for orbit2 - a corba orb
+	
+orbit2 is a high-performance corba (common object request broker
+architecture) orb (object request broker). it allows programs to send
+requests and receive replies from other programs, regardless of the
+locations of the two programs. corba is an architecture that enables
+communication between program objects, regardless of the programming
+language they're written in or the operating system they run on.
+
+this package contains the run-time libraries used by orbit2-based
+applications.

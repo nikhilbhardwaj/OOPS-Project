@@ -1,0 +1,5 @@
+Gtk+ password dialog suitable for use with ssh-add
+	
+this is a tool meant as a drop-in replacement for gnome-ssh-askpass or
+x11-ssh-askpass which looks nicer than the former and has the advantages of
+gtk+ over the latter.

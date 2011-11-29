@@ -1,0 +1,5 @@
+Tk viewer for perl data structures
+	
+tk::objscanner from cpan provides a gui to scan the attributes
+of an object. it can also be used to scan the elements of a hash
+or an array.

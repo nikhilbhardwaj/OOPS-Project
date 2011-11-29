@@ -1,0 +1,11 @@
+File history, comparison and merge utilities
+	
+the fhist package contains 3 utilities
+
+  fhist - a file history tool
+  fcomp - a file comparison tool
+  fmerge - a file merging tool
+
+
+all three are bundled together, because they all
+use the same minimal-difference algorithm.

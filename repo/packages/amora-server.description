@@ -1,0 +1,7 @@
+Use a bluetooth device as x remote control (transitional package)
+	
+amora-server has been split up into two packages: amora-cli with a
+sole commandline interface and only few dependencies and amora-applet
+which uses a qt based system tray interface.
+
+this transitional package can be removed safely.

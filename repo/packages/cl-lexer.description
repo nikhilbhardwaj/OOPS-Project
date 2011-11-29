@@ -1,0 +1,4 @@
+Lexical-analyzer-generator package for common lisp
+	
+implements a lexical-analyzer-generator called deflexer, built on top
+of regex and clawk.

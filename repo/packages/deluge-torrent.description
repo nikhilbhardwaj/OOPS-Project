@@ -1,0 +1,5 @@
+Bittorrent client (gtk ui transitional package)
+	
+this is a transitional dummy package to ensure clean upgrades from old
+releases (the package deluge-torrent is replaced by deluge). if nothing
+depends on it, this package can be safely removed after upgrade.

@@ -1,0 +1,9 @@
+A simple, lightweight tool for sniping ebay auctions
+	
+esniper is a lightweight ebay sniping tool. it doesn't have a lot of
+features, and that is by design.
+
+auctions  are  specified  on the command line, using the auction number
+and your bid price.  multiple auctions can be bid on by specifying more
+auctions  and  bid prices.  esniper stops when the desired quantity has
+been won (default is 1).

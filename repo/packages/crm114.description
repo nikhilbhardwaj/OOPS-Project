@@ -1,0 +1,20 @@
+Versatile classifier for e-mail and other data
+	
+crm114, the controllable regex mutilator, is a system to examine incoming
+e-mail, system log streams, data files, or other data streams, and to sort,
+filter, or alter the incoming files or data streams however the user
+desires. criteria for categorization of data can be by satisfaction of
+regular expressions, by sparse binary polynomial matching with a bayesian
+chain rule evaluator, or by other means.
+
+crm114 is not just another drop-in spam-filtering system; its sparse
+binary polynomial hashing methods give it the power to develop highly
+accurate bayesian filters on very little training.
+
+crm114 is compatible with spamassassin or other spam-flagging software; it
+can also be pipelined in front of or behind procmail. crm114 is also useful
+as a syslog or firewall log filter, to flag up important events but ignore
+the ones that aren't meaningful.
+
+for mail filtering, installing metamail or mew-bin packages is
+recommended in order to have tools to decode mime attachments.

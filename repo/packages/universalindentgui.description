@@ -1,0 +1,32 @@
+Gui frontend for several code beautifiers
+	
+universalindentgui is a gui fontend for several code beautifiers, currently
+supporting:
+
+ * artistic styler
+ * bcpp
+ * cobol beautify
+ * csstidy
+ * fortran 90 ppr
+ * gnu indent
+ * greatcode
+ * hindent
+ * htb
+ * javascript decoder
+ * jsppp
+ * perl tidy
+ * php_beautifier
+ * php code beautifier
+ * php stylist
+ * pindent
+ * ruby beautify
+ * ruby formatter
+ * shell indent
+ * (html) tidy
+ * uncrustify
+ * xml indent
+
+
+universalindentgui allows you to tune a beautifier's configuration and see
+how the changes affects a source example live. it is especially useful to
+compare different c/c++ beautifiers when you have to choose one of them.

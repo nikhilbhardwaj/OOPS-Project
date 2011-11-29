@@ -1,0 +1,12 @@
+Debug symbols for the aptitude package manager
+	
+aptitude is a terminal-based package manager with a number of useful
+features, including: a mutt-like syntax for matching packages in a
+flexible manner, dselect-like persistence of user actions, the
+ability to retrieve and display the debian changelog of most
+packages, and a command-line mode similar to that of apt-get.
+
+this package contains the debugging symbols for aptitude.  you only
+need these if you want to generate debugging backtraces of aptitude;
+if you do, you probably also want the debug package for the cwidget
+library.

@@ -1,0 +1,10 @@
+Irregular sampling analysis functions for octave
+	
+this package provides functions to do irregular sampling analysis in
+octave, a numerical computation software. it contains functions to
+reconstruct the frequency representation of a band-limited signal
+from an irregular sampled timeseries (irsa_act), compute the
+discrete fourier transformation of irregular sampled time series
+(irsa_dft) and many more.
+
+this octave add-on package is part of the octave-forge project.

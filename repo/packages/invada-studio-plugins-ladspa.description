@@ -1,0 +1,32 @@
+Invada studio plugins - a set of ladspa audio plugins
+	
+utility plugins
+
+  input module (stereo only)
+
+alter gain, balance, width, phase on a stereo signal
+
+filter plugins
+
+  low pass (mono and stereo version)
+  high pass (mono and stereo version)
+
+gentle high pass and low pass filters
+
+simulation plugins
+
+  tube - (mono and stereo version)
+
+valve warmth/distortion simulation
+
+dynamics plugins
+
+  compressor - (mono and stereo version)
+
+peak/rms soft-clipping compressor
+
+reverb plugins
+
+  er reverb - (mono and stereo summing in)
+
+early reflection based reverb.

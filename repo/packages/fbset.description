@@ -1,0 +1,5 @@
+Framebuffer device maintenance program
+	
+program to modify settings for the framebuffer devices (/dev/fb[0-9]*
+or /dev/fb/[0-9]*) on linux, like depth, virtual resolution, timing
+parameters etc.

@@ -1,0 +1,26 @@
+Widget-like mini-applications for gnome
+	
+screenlets are small owner-drawn applications (written in python) that can be
+described as "the virtual representation of things lying/standing around on
+your desk". sticky notes, clocks, rulers, ... the possibilities are endless.
+
+the goal of the screenlets base-classes is to simplify the creation of fully
+themable mini-apps that each solve basic desktop-work-related needs and
+generally improve the usability and eye-candy of the modern composited
+linux-desktop.
+
+features:
+
+ * real applications, no html-"widgets"
+ * easy to use, easy to develop
+ * full compositing support
+ * works with any composited x desktop (compiz, xfce4, ...)
+ * works also on non-composited desktop
+ * included ability to apply themes (svg, png or mixed)
+ * fully scalable when using svgs
+ * embedded drag&drop-support
+ * automated storing of options (using ini or gconf)
+ * controllable through customizable d-bus service
+ * can be used together with compiz' widget-plugin to create a
+   dashboard-like feature as seen on os x
+ * uses cairo and gtk2 for drawing and windowing

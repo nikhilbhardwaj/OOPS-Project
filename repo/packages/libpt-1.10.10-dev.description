@@ -1,0 +1,6 @@
+Portable windows library development files
+	
+this package contains the headers and a static version of the library
+pwlib, which is a moderately large class library that has its genesis
+many years ago as a method to produce applications to run on both
+microsoft windows and unix x-window systems.

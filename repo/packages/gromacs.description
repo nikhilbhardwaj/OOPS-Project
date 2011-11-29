@@ -1,0 +1,15 @@
+Molecular dynamics simulator, with building and analysis tools
+	
+gromacs is a versatile package to perform molecular dynamics, i.e. simulate
+the newtonian equations of motion for systems with hundreds to millions of
+particles.
+
+it is primarily designed for biochemical molecules like proteins and lipids
+that have a lot of complicated bonded interactions, but since gromacs is
+extremely fast at calculating the nonbonded interactions (that usually
+dominate simulations) many groups are also using it for research on non-
+biological systems, e.g. polymers.
+
+gromacs offers entirely too many features for a brief description to do it
+justice.  a more complete listing is available at
+<http://www.gromacs.org/content/view/12/176/>.

@@ -1,0 +1,7 @@
+Binary clock for console with color support
+	
+binclock - displays system time in binary format.
+it supports showing the time with eight different colors, and it can
+run a loop that prints the time every second.
+the default colors and characters for printing can be changed with a
+config file.

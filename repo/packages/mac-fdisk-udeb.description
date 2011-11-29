@@ -1,0 +1,11 @@
+Apple disk partition manipulation tool
+	
+the fdisk utilities from the mklinux project, adopted for linux/m68k.
+mac-fdisk allows you to create and edit the partition table of a disk.
+it supports only the apple partition format used on macintosh and powermac,
+use pmac-fdisk for pc partition format disks as used on powerpc machines.
+mac-fdisk is an interactive tool with a menu similar to pc fdisk, supported
+options are somewhat different from pc fdisk due to the differences in
+partition format.
+
+this is a minimal mac-fdisk package used by the debian-installer.

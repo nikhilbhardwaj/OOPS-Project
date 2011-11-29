@@ -1,0 +1,10 @@
+Debugging symbols for the libcxgb3 driver
+	
+libcxgb3 is a device-specific driver for chelsio t3-based iwarp (rdma
+over ip/ethernet) adapters for the libibverbs library.  this allows
+userspace processes to access chelsio iwarp hardware directly with
+low latency and low overhead.
+
+this package contains the debugging symbols associated with
+libcxgb3-1. they will automatically be used by gdb for debugging
+libcxgb3-related issues.

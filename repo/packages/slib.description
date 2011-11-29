@@ -1,0 +1,7 @@
+Portable scheme library
+	
+slib is a portable scheme library meant to provide compatibility and
+utility functions for all standard scheme implementations.  slib
+includes initialization files for chez, elk 2.1, gambit, macscheme,
+mitscheme, scheme->c, scheme48, t3.1, and vscm.  scm also supports
+slib.

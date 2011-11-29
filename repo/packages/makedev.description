@@ -1,0 +1,9 @@
+Creates device files in /dev
+	
+the makedev executable is used to create device files, often in /dev.
+
+device files are special files through which applications can interact
+with hardware.
+
+this package is not necessary for most modern linux systems, where the udev
+subsystem provides a more dynamic mechanism for device file management.

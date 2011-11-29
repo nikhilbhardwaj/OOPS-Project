@@ -1,0 +1,10 @@
+Debugging symbols for cyrus sasl
+	
+this is the cyrus sasl api implementation, version 2. see package
+libsasl2-2 and rfc 2222 for more information.
+
+this package contains the debugging symbols for the cyrus sasl heimdal
+gssapi modules package (libsasl2-modules-gssapi-heimdal). the debugging
+symbols can be useful when investigating crashes in the sasl library or
+tools. you may be asked to install this package if you encounter such a
+crash.

@@ -1,0 +1,7 @@
+Utilities for using the wi-spy usb spectrum analyzer hardware
+	
+spectrum-tools is a set of utilities for using the wi-spy usb spectrum
+analyzer tools from metageek llc.  they include userspace drivers for
+the hardware (implemented via libusb), a graphing ui built on gtk/cairo,
+network servers for remote devices, and simple utilities for developing
+additional tools.

@@ -1,0 +1,14 @@
+The web preprocessor - a perl script to preprocess html files
+	
+wpp is a small perl script that allows preprocessing of html files.
+you can define variables, which are abbreviations for longer
+constructs, and include common html fragments.  it's useful for
+giving a uniform layout to different html pages.  it can be used in
+cgi-bin programs for automatic generation of pages. with less html
+code inside them you can make more flexible and readable scripts.
+
+wpp provides four separate facilities that you can use as you see
+fit: inclusion of text/html fragments, variable expansion,
+conditional generation, macro expansion.
+
+homepage: http://wpp.sourceforge.net/

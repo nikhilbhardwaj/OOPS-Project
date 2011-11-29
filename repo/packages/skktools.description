@@ -1,0 +1,12 @@
+Skk dictionary maintenance tools
+	
+this package provides tools to maintain dictionary files for skk
+japanese input systems.
+
+skk dictionary files are provided by the skkdic package and the
+skkdic-extra package.  you can make a local dictionary file from
+them.
+
+if you want to convert a dictionary file to cdb (djb's constant
+database), install the tinycdb package.  to use the optional scripts,
+install the required tools, such as gawk, ruby, gauche, etc.

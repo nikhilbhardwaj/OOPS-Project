@@ -1,0 +1,10 @@
+A git patch queue manager
+	
+topgit manages a patch queue using git topic branches, one patch per
+branch. it allows for patch dependencies and can thus manage
+non-linear patch series.
+
+topgit is a minimal layer on top of git, which does not limit use of
+git's functionality (such as the index). it rigorously keeps history
+until a patch is accepted upstream. it is also fully usable across
+distributed repositories.

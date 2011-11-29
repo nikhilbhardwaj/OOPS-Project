@@ -1,0 +1,11 @@
+Gtk+ utility for searching the debian package database
+	
+ara is a utility for searching the debian package database using
+boolean regexp queries.
+
+ara can perform sophisticated searches on that database. it is possible
+to use any field of the package database as a search criterion and any
+boolean combination thereof.
+
+ara can also call apt (or any user-configurable command) to install or
+remove packages matching a query.

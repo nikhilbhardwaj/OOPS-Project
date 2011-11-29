@@ -1,0 +1,7 @@
+Account management plugin for trac
+	
+offers several features for managing user accounts on trac:
+
+ - allow users to register new accounts
+ - login via an html form instead of using http authentication
+ - allow existing users to change their passwords or delete their accounts

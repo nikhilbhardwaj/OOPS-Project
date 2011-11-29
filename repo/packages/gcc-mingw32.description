@@ -1,0 +1,7 @@
+The gnu compiler collection (cross compiler for mingw32 / mingw64)
+	
+this is the gnu compiler collection, a fairly portable optimizing compiler
+which supports multiple languages.
+
+this package includes support for cross-compiling to mingw32 and mingw64
+targets.

@@ -1,0 +1,10 @@
+Tunnels a data stream in http requests
+	
+creates a bidirectional virtual data stream tunnelled in
+http requests. the requests can be sent via a http proxy
+if so desired.
+
+this can be useful for users behind restrictive firewalls. if www
+access is allowed through a http proxy, it's possible to use
+httptunnel and, say, telnet or ppp to connect to a computer
+outside the firewall.

@@ -1,0 +1,12 @@
+Ocaml interface to the gavl library
+	
+this package provides an interface to the gavl library for
+ocaml programmers.
+
+gavl handles all the details of audio and video formats like colorspaces,
+samplerates, multichannel configurations etc. it provides standardized
+definitions for those formats as well as container structures for carrying
+audio samples or video images inside an application.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use ocaml-gavl.

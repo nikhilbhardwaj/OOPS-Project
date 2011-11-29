@@ -1,0 +1,5 @@
+A pluggable ada 95 binding to various database systems (library)
+	
+apq is a pluggable ada 95 binding to various database systems like
+postgresql or mysql. this is the core package providing the plugin
+loading support.

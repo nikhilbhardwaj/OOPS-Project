@@ -1,0 +1,8 @@
+Python interface to gnupg (gpg)
+	
+gnupginterface is a python module to interface with gnupg.
+it concentrates on interacting with gnupg via filehandles,
+providing access to control gnupg via versatile and extensible means.
+
+this module is based on gnupg::interface, a perl module by the same
+author.

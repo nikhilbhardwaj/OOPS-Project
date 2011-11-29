@@ -1,0 +1,7 @@
+Multimedia key support as a pygtk object
+	
+this module lets you access multimedia keys found on most new keyboards
+from python; most important it grabs all input events so your program
+doesn't need to be in focus when the key is pressed (which is the
+usual behavior of the keys). you still need something like acme or
+xmodmap to map the keys before using them.

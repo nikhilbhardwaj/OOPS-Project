@@ -1,0 +1,12 @@
+Perl module to create new perl modules following best practices
+	
+module::starter::pbp implements a simple approach to creating modules and
+their support files, based on the module::starter approach. module::starter
+needs to be installed before this module can be used.
+
+when used as a module::starter plugin, this module allows you to specify a
+simple directory of templates which are filled in with module-specific
+information, and thereafter form the basis of your new module.
+
+the default templates that this module initially provides are based on the
+recommendations in the book "perl best practices" by damian conway.

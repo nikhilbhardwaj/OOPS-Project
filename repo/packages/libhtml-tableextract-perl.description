@@ -1,0 +1,8 @@
+Module for extracting the content contained in tables within an html document
+	
+html::tableextract is a module that simplifies the extraction of information
+contained in tables within html documents, either as text or encoded element
+trees.
+
+for extracting a tree structure of element objects, the additional package
+libhtml-element-extended-perl might be needed.

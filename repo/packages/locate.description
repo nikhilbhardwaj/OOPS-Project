@@ -1,0 +1,4 @@
+Maintain and query an index of a directory tree
+	
+updatedb generates an index of files and directories. gnu locate can be used
+to quickly query this index.

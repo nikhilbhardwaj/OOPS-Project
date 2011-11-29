@@ -1,0 +1,14 @@
+Web mail folder
+	
+this program converts emails to html and makes index files
+(by author, data, subject,thread). of course there are other programs
+making the same, but here are some features which not all have:
+
+       - correct threading without level limitation
+       - quoted-printable text encoding
+       - home page hyperlink (x-url)
+       - faces support
+       - breaking indexes in different pages to make them smaller
+         (don't break between threads)
+       - index time limitation (older mail disappears from the index)
+       - frame support

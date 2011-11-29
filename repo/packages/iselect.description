@@ -1,0 +1,10 @@
+An interactive line selection tool for ascii files
+	
+iselect is an interactive line selection tool for ascii files, operating
+via a full-screen curses-based terminal session. it can be used either as
+an user interface frontend controlled by a bourne-shell/perl/tcl backend
+as its control script or in batch mode as a pipeline filter (usually
+between grep and the final executing command).
+
+
+ homepage: http://www.ossp.org/pkg/tool/iselect/

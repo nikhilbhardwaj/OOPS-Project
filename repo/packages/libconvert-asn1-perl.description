@@ -1,0 +1,4 @@
+Perl module for encoding and decoding asn.1 data structures
+	
+convert::asn1 will parse asn.1 descriptions and will encode from and decode to
+perl data structures using a hierarchy of references.

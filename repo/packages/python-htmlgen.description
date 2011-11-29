@@ -1,0 +1,13 @@
+Python library for the generation of html
+	
+htmlgen is a class library for the generation of html documents with
+python scripts. it's used when you want to create html pages
+containing information which changes from time to time. for example
+you might want to have a page which provides an overall system summary
+of data collected nightly. or maybe you have a catalog of data and
+images that you would like formed into a spiffy set of web pages for
+the world to browse. python is a great scripting language for these
+tasks and with htmlgen it's very straightforward to construct objects
+which are rendered into consistently structured web pages. of course,
+cgi scripts written in python can take advantage of these classes as
+well.

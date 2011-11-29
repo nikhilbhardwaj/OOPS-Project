@@ -1,0 +1,11 @@
+Curses based user interface for cmake (ccmake)
+	
+cmake is used to control the software compilation process using simple
+platform and compiler independent configuration files. cmake generates native
+makefiles and workspaces that can be used in the compiler environment of your
+choice.
+
+this package provides the cmake curses interface. project configuration
+settings may be specified interactively through this gui. brief instructions
+are provided at the bottom of the terminal when the program is running. the
+main executable file for this gui is "ccmake".

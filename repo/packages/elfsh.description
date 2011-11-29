@@ -1,0 +1,32 @@
+The elf shell
+	
+the elf shell is an interactive, modular, and scriptable elf
+(executable & linking format) machine for static binary instrumentation
+of executable files, shared libraries and relocatable elf objects.
+its innovative features make it usable by reverse engineers and security
+analysts for embedded analysis using compiled c code extensions of binary
+programs. it features execution flow redirection that allows for dynamic
+analyzers generation and binary-level testing. elfsh is compatible with
+kernel hardening patches : it can perform operational modifications on
+non-executable stack and heap based systems, and this for multiple
+architectures.
+
+the main features of the elf shell are :
+
+
+ * injection of new compiled c code into a binary executable or dynamic
+   library file.
+ * function redirection for all kind of functions.
+ * relinking of dynamic or static binary files to add all sorts of
+   dependences without moving the original address space.
+ * full access in read/write mode to the elf data structures from the
+   scripting language, including but not limited to:
+  - the global offset table (.got) section
+  - the dynamic linking section (.dynamic)
+  - the constructors (.ctors) and destructors (.dtors) array
+  - the elf gnu version tables
+  - the elf interpreter (.interp) section
+  - elf dynamic and static symbol tables (.dynsym and .symtab)
+  - elf relocation tables (.rel(a).*)
+  - elf hash table (.hash)
+  - all other sections in raw read/write mode using hexadecimal strings

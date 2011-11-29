@@ -1,0 +1,5 @@
+Numa scheduling and memory placement tool
+	
+numactl runs processes with a specific numa (non-uniform memory
+architecture) scheduling or memory placement policy.  in addition it
+can set persistent policy for shared memory segments or files.

@@ -1,0 +1,10 @@
+Cross-platform media decoding library
+	
+avbin is a thin wrapper around ffmpeg, providing binary compatibility
+for applications and languages that need it.
+
+ffmpeg is a collection of audio and video codecs widely used in
+projects such as mplayer, xine, gstreamer and vlc. it is under
+continuous development; so much so that its developers rarely provide
+a release, and svn snapshots of the library must be statically linked
+to avoid version incompatibilities.

@@ -1,0 +1,11 @@
+Plexus io components
+	
+plexus io is a set of plexus components, which are designed for use in i/o
+operations. these i/o operations are doing nothing spectacular. for example,
+apache commons io is a much more powerful library in the same area. however,
+the implementation as a plexus component allows reuse in maven.
+
+the following component groups are currently available:
+
+ * file mappers
+ * file selectors

@@ -1,0 +1,13 @@
+Decoder of several sound file formats for sdl
+	
+this library is meant to make the programmer's sound playback tasks
+simpler. the programmer gives sdl_sound a filename, or feeds it data
+directly from one of many sources, and then reads the decoded waveform
+data back at her leisure.
+
+if resource constraints are a concern, sdl_sound can process sound
+data in programmer-specified blocks. alternately, sdl_sound can
+decode a whole sound file and hand back a single pointer to the whole
+waveform. sdl_sound can also handle sample rate, audio format, and
+channel conversion on-the-fly and behind-the-scenes, if the programmer
+desires.

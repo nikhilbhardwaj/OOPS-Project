@@ -1,0 +1,15 @@
+Mni medical image format library
+	
+this package contains the libraries libminc2 and libvolume_io2.
+
+the minc file format is a highly flexible medical image file format.
+minc version 1 is built on top of the netcdf generalized data format.
+minc version 2 is built on top of the hdf data format.  this library
+handles both formats.  in each case the format is
+simple, self-describing, extensible, portable and n-dimensional, with
+programming interfaces for both low-level data access and high-level
+volume manipulation. on top of the libraries is a suite of generic
+image-file manipulation tools. the format, libraries and tools are
+designed for use in a medical-imaging research environment : they are
+simple and powerful and make no attempt to provide a pretty interface
+to users.

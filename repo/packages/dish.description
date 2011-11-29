@@ -1,0 +1,7 @@
+The diligence/distributed shell for parallel sysadmin
+	
+dish executes commands simultaneously on several systems via 'ssh', 'rsh',
+'telnet', 'mysql', or other command-line programs. it also makes easy the
+distribution of files by 'scp' and 'rcp', or a remote password change.
+dish could be used as a flexible tool for managing large number of any
+type of hosts such as (clustered) servers, switches, databases, etc.

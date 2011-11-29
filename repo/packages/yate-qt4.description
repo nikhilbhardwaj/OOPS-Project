@@ -1,0 +1,8 @@
+Yate-based universal telephony client
+	
+yate is a telephony engine aimed at creating a telephony server that
+performs well enough to deal with pbx requirements and also flexible
+enough for complex gateway and ivr solutions.
+
+yateclient uses the same telephony code to produce a software desktop voip
+(sip, h.323, iax2) phone. yate-qt4 uses this to provide such a telephony

@@ -1,0 +1,12 @@
+Additional functionality to automate cisco management
+	
+net::telnet::cisco provides additional functionality to
+net::telnet for dealing with cisco routers. it provides a new
+object that allows for remote management of routers through perl
+issuing commands like you were connected directly to the router
+(or switch).
+
+for most management issues you might want to use the net::snmp
+module better (it's faster, better error handling and doesn't use
+up router virtual terminals) but for those things you can not do
+using that module use this one.

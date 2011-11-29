@@ -1,0 +1,11 @@
+Curses program for telnet sessions to ibm mainframes
+	
+c3270 opens a telnet connection to an ibm mainframe host in an xterm
+window or virtual console.  it can also connect to an ibm as/400 as
+a 5250 terminal using the as/400's 3270 emulation.
+
+c3270 is similar to tn3270(1), and x3270(1) except that it is curses-based,
+not x-based.
+
+c3270 implements rfcs 2355 (tn3270e), 1576 (tn3270),
+and 1646 (lu name selection), and supports ind$file file transfer.

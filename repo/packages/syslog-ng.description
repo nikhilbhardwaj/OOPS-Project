@@ -1,0 +1,8 @@
+Next generation logging daemon
+	
+syslog-ng tries to fill the gaps original syslogd's were lacking:
+
+  * powerful configurability
+  * filtering based on message content
+  * portability
+  * better network forwarding

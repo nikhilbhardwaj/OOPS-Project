@@ -1,0 +1,12 @@
+Documentation for dynare
+	
+dynare is a pre-preprocessor and a collection of gnu octave and
+matlab routines which can solve, simulate and estimate non-linear
+models with forward looking variables.
+
+in particular, in the field of computational economics, it is used
+for solving and estimating dynamic stochastic general equilibrium
+(dsge) models.
+
+this package contains full dynare documentation, including a user
+guide and the reference manual.

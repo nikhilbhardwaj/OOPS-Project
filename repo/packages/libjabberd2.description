@@ -1,0 +1,15 @@
+Runtime library for the jabber/xmpp instant messaging server
+	
+jabber is a free instant messaging system.
+
+in this package you will find the runtime library for jabberd14, a message
+transport server based on an xml message routing infrastructure.
+
+all this high-tech is simply used to provide you with your own im server.
+see http://www.jabberd.org/ for more details.
+
+jabber supports connecting to aim, icq, irc, msn and a lot of others, so
+you can use all available im systems from one client.
+
+this package does not provide a jabber/xmpp client.  some clients are
+compared at http://en.wikipedia.org/wiki/list_of_jabber_client_software

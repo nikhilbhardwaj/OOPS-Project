@@ -1,0 +1,7 @@
+Script language for automating http requests
+	
+elza is a set of perl scripts which can be
+used as an interpreter for automating requests on
+web pages. it can extract dynamic urls from a page,
+handle forms, cookies, http authentication,
+redirects / refreshes, etc.

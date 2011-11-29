@@ -1,0 +1,7 @@
+Thai support for latex
+	
+this package provides a thai language add-on for latex. it is based on
+the babel package which comes with the tex live distribution.
+
+this package needs a thai word separator such as swath, in order for
+latex to be able to break sentences.

@@ -1,0 +1,5 @@
+Perl interface to the gnu cryptographic library
+	
+crypt::gcrypt provides an object interface to the c libgcrypt library. it
+currently supports symmetric encryption/decryption, while asymmetric
+cryptography is being worked on.

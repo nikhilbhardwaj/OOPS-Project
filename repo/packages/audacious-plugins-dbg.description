@@ -1,0 +1,23 @@
+Audacious-plugins debug symbols
+	
+audacious is a fork of beep-media-player which supports winamp skins
+and many codecs.
+
+in the default install, the following codecs are supported:
+
+
+ * mp3
+ * ogg vorbis
+ * aac and aac+
+ * flac
+ * windows media (wma)
+ * tta
+ * many module formats and much more!
+
+
+additionally, audacious is extendable through plugins, and contains
+other useful features like lirc support.
+
+this package contains the debugging symbols for the plugins collection of
+audacious. please install it before reporting any crashes, as it makes bug
+triage an easier process.

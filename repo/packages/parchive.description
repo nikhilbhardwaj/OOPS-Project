@@ -1,0 +1,13 @@
+Use par files to reconstruct missing parts of multi-part archives
+	
+this utility applies the data-recovery capability concepts of raid-like
+systems to the posting and downloading of multi-part archives on usenet by
+providing the ability to create and use redundant recovery records.  it
+supports the 'reed-soloman code' implementation that allows for recovery of
+any 'x' volumes for 'x' parity volumes present.  it is popularly used on
+usenet postings, but is not limited to this use.
+
+the debian parchive package supports "legacy" version 1.0 par files.
+the debian par2 package supports version 2.0 par files.
+
+upstream source: http://parchive.sourceforge.net/

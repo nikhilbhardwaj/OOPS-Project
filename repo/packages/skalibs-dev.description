@@ -1,0 +1,7 @@
+Public domain general-purpose libraries
+	
+skalibs is a set of general-purpose, low-level c libraries, all in the
+public domain.  it can replace or hide the standard c library to some
+extent, and is designed to allow building of small, static binaries.
+
+see http://skarnet.org/software/skalibs/index.html for more information.

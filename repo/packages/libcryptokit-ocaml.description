@@ -1,0 +1,24 @@
+Cryptographic algorithm library for ocaml - runtime
+	
+the cryptokit library for objective caml provides a variety of
+cryptographic primitives that can be used to implement cryptographic
+protocols in security-sensitive applications.  the primitives provided
+include:
+
+
+  - symmetric-key ciphers: aes, des, triple-des, arcfour,
+    in ecb, cbc, cfb and ofb modes.
+  - public-key cryptography: rsa encryption, diffie-hellman key agreement.
+  - hash functions and macs: sha-1, md5, and macs based on aes and des.
+  - random number generation.
+  - encodings and compression: base 64, hexadecimal, zlib compression.
+
+
+additional ciphers and hashes can easily be used in conjunction with
+the library.  in particular, basic mechanisms such as chaining modes,
+output buffering, and padding are provided by generic classes that can
+easily be composed with user-provided ciphers.  more generally, the library
+promotes a "lego"-like style of constructing and composing
+transformations over character streams.
+
+this package provides just the shared library for cryptokit.

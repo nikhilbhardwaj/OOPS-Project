@@ -1,0 +1,14 @@
+Doom engine closely-compatible with vanilla doom
+	
+chocolate doom is a modern, cross-platform doom engine with
+the major design goal of emulating the behaviour of vanilla
+doom as close as is possible. for example, chocolate doom
+can read and write vanilla doom save games.
+
+unlike most modern doom engines, chocolate doom is not
+derived from the boom source-port and does not inherit its
+features (or bugs).
+
+chocolate doom requires a doom-wad to play. if you have a copy
+of the commercial games doom or doom 2, you can generate a
+doom-wad package using "game-data-packager".

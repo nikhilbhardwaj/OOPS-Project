@@ -1,0 +1,12 @@
+Re-usable xpath engine for dom-like trees
+	
+xml::xpathengine provides an xpath engine, that can be re-used by other
+module/classes that implement trees.
+
+in order to use the xpath engine, nodes in the user module need to mimic
+dom nodes. the degree of similarity between the user tree and a dom dictates
+how much of the xpath features can be used. a module implementing all of the
+dom should be able to use this module very easily (you might need to add
+the cmp method on nodes in order to get ordered result sets).
+
+this module is derived from matt sergeant's xml::xpath.

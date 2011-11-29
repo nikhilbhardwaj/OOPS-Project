@@ -1,0 +1,14 @@
+Elegant, easy and powerful template engines for html and css
+	
+haml (html abstraction markup language) is a layer on top of xhtml or
+xml that's designed to express the structure of xhtml or xml
+documents in a non-repetitive, elegant, easy way, using indentation
+rather than closing tags and allowing ruby to be embedded with ease.
+it was originally envisioned as a plugin for ruby on rails, but it
+can function as a stand-alone templating engine.
+
+this package includes as well sass, a css templating engine based on
+the same philosophy
+
+this is a dummy package depending on the library for the current default
+version of ruby.

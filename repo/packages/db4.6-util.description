@@ -1,0 +1,18 @@
+Berkeley v4.6 database utilities
+	
+this package provides different tools for manipulating databases
+in the berkeley v4.6 database format, and includes:
+
+ - db4.6_archive: write the pathnames of the log files no longer in use.
+ - db4.6_checkpoint: daemon process to monitor the database log and
+   checkpoint it periodically.
+ - db4.6_deadlock: traverse the database environment lock region and
+   abort lock requests when a deadlock is detected.
+ - db4.6_load: loads (and creates) a database from standard input.
+ - db4.6_dump: read a database file and write it in a format understood
+   by db4.{2..6}_load.
+ - db4.6_printlog: dump log files in human readable format.
+ - db4.6_stat: display statistics for berkeley db environments.
+ - db4.6_upgrade: upgrades the version of files and the databases they
+   contain.
+ - db4.6_verify: check the structure of files and their databases.

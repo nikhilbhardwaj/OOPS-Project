@@ -1,0 +1,6 @@
+A user-mode traffic shaper for tcp-ip networks
+	
+shaperd is a user-mode program that can shape traffic passing through
+a linux box. as it runs as a normal daemon, some kind of packet-forwarding
+mechanism is needed. this can be done with the bsd divert sockets patch
+for linux 2.2, or with netfilter's built-in libipq under linux 2.4.

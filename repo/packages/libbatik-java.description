@@ -1,0 +1,19 @@
+Xml.apache.org svg library
+	
+batik is a toolkit for applications or applets that want to use images
+in the scalable vector graphics (svg) format for various purposes, such
+as viewing, generation or manipulation.
+
+batik provides several modules to be used in applications:
+
+ * a svg generator module, usable to export graphics into the svg format.
+ * a svg processor and svg viewing component for integrating svg viewing.
+ * a module to convert svg to various formats, such as raster images
+   (jpeg, png or tiff) and ps, pdf.
+
+
+fop is necessary for pdf output of rasterizer.
+
+rhino is necessary for using the svg browser, squiggle.
+
+for detailed information, go to http://xml.apache.org/batik/

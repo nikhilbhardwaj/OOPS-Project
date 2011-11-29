@@ -1,0 +1,4 @@
+PackageId:2762
+Name:debbugs
+Version:2.4.1
+Deps:ed,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,libio-stringy-perl,libmailtools-perl,libmime-perl,libmime-tools-perl,perl5,perl

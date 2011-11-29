@@ -1,0 +1,12 @@
+Server-side javascript abstraction framework
+	
+spring javascript is a javascript abstraction framework that makes it easy to
+write unobtrusive javascript to progressively enhance a web page with behavior.
+the framework consists of a public javascript api along with an implementation
+that builds on the dojo toolkit. spring.js aims to simplify the use of dojo for
+common enterprise scenarios while retaining its full-power for advanced use
+cases.
+
+spring javascript can work with any server-side framework. the web flow 2
+distribution includes convenient integration between spring javascript and
+spring web mvc for processing ajax requests.

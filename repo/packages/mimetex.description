@@ -1,0 +1,7 @@
+Latex math expressions to anti-aliased gif images converter
+	
+mimetex parses latex math expressions emitting directly gif images
+without intermediate dvi-to-gif conversion.
+
+mimetex is a standalone program that doesn't use tex in any way, a kind
+of lightweight alternative to mathml

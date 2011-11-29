@@ -1,0 +1,27 @@
+Cgi files for nagios3
+	
+nagios is a monitoring and management system for hosts, services and
+networks. nagios3-common contains the common files for the nagios3 package.
+
+nagios' features include:
+
+
+ *  monitoring of network services (via tcp port, smtp, pop3, http, nntp,
+    ping, etc.)
+ *  plugin interface to allow for user-developed service checks
+ *  contact notifications when problems occur and get resolved (via email,
+    pager, or user-defined method)
+ *  ability to define event handlers to be run during service or host events
+    (for proactive problem resolution)
+ *  web output (current status, notifications, problem history, log file, etc.)
+
+
+nagios is designed to be easy to understand and modify to fit your own needs.
+
+this package is the new version 3.x series of nagios, which replaced
+the 2.x versions.
+
+nagios is a replacement of the netsaint project. it accepts and uses the
+previous netsaint modules transparently.
+
+upstream url: http://www.nagios.org/

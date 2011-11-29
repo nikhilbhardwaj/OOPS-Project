@@ -1,0 +1,8 @@
+Python module for id3-tags manipulation
+	
+python-id3 is a simple python module for retrieving and setting so-called id3
+tags on mp3 compressed audio files through an object-oriented interface. mp3
+players generally use this simple information for display track title, artist
+name, and album title while playing the sound file.
+
+id3.py supports id3 version 1.1, including the track number field.

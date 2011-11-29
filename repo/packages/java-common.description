@@ -1,0 +1,13 @@
+Base of all java packages
+	
+this package must be installed in the system if a java environment
+is desired. it covers useful information for java users in
+debian gnu/linux, including:
+
+ * the java policy document which describes the layout of java support in
+   debian and how java packages should behave.
+ * the debian-java-faq which provides information on the status of
+   java support in debian, available compilers, virtual machines, java
+   programs and libraries as well as on legal issues.
+ * information on how to create dummy packages to fulfill java2
+   requirements.

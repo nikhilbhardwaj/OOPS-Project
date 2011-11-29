@@ -1,0 +1,7 @@
+A commandline tool to allow sending arbitrary ip packets
+	
+sendip has a large number of command line options to specify the
+content of every header of a rip, tcp, udp, icmp or raw ipv4 and ipv6
+packet. it also allows any data to be added to the packet. checksums
+can be calculated automatically, but if you wish to send out wrong
+checksums, that is supported too.

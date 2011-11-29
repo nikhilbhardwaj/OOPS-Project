@@ -1,0 +1,10 @@
+Free japanese dictionaries for chasen (replacement of ipadic) in utf-8
+	
+naist japanese dictionary is a dictionary for chasen, japanese morphological
+analysis implementation.
+
+this is based on ipadic, however it is released under bsd style license now
+by naist (nara institute of science and technology, japan), so it is free
+and can replace ipadic.
+
+this package generates utf-8 data from original naist-jdic.

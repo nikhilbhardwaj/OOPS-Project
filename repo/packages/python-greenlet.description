@@ -1,0 +1,10 @@
+Lightweight in-process concurrent programming
+	
+the greenlet package is a spin-off of stackless, a version of cpython that
+supports micro-threads called "tasklets". tasklets run pseudo-concurrently
+(typically in a single or a few os-level threads) and are synchronized with
+data exchanges on "channels".
+
+greenlet is the standalone package derived from the py lib, and is used by
+several non-blocking io packages as a more flexible alternative to python's
+built in coroutines.

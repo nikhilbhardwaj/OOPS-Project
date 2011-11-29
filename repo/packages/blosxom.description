@@ -1,0 +1,24 @@
+Light, feature-packed weblog app with plugin extensibility
+	
+blosxom (pronounced "blossom") is a lightweight yet feature-packed
+weblog application designed from the ground up with simplicity,
+usability, and interoperability in mind.
+
+fundamental is its reliance upon the file system, folders and files as
+its content database. blosxom's weblog entries are plain text files
+like any other. write from the comfort of your favorite text editor
+and hit the save button. create, edit, rename, and delete entries on
+the command-line, via ftp, webdav, or anything else you might use to
+manipulate your files. there's no import or export; entries are
+nothing more complex than title on the first line, body being
+everything thereafter.
+
+despite its tiny footprint, blosxom doesn't skimp on features,
+sporting the majority of features one would find in any other weblog
+application.  additionally, blosxom 2 includes support for plugins, and
+thus much more extensive customization.
+
+blosxom is simple, straightforward, minimalist perl affording even the
+dabbler an opportunity for experimentation and customization. and
+last, but not least, blosxom is open source and free for the taking
+and altering.

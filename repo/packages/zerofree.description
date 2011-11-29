@@ -1,0 +1,24 @@
+Zero free blocks from ext2/3 file-systems
+	
+zerofree finds the unallocated, non-zeroed blocks in an ext2 or ext3
+file-system and fills them with zeroes. this is useful if the device
+on which this file-system resides is a disk image. in this case,
+depending on the type of disk image, a secondary utility may be able
+to reduce the size of the disk image after zerofree has been
+run. zerofree requires the file-system to be unmounted or mounted
+read-only.
+
+the usual way to achieve the same result (zeroing the unused
+blocks) is to run "dd" do create a file full of zeroes that takes up
+the entire free space on the drive, and then delete this file. this
+has many disadvantages, which zerofree alleviates:
+
+ * it is slow;
+ * it makes the disk image (temporarily) grow to its maximal extent;
+ * it (temporarily) uses all free space on the disk, so other
+   concurrent write actions may fail.
+
+
+zerofree has been written to be run from gnu/linux systems installed
+as guest oses inside a virtual machine. if this is not your case, you
+almost certainly don't need this package.

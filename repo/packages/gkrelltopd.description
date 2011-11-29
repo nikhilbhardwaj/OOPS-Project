@@ -1,0 +1,8 @@
+Top three intensive processes plugin for gkrellmd
+	
+plugin for gkrellmd. this is the server end
+plugin of gkrelltop. gkrelltop displays the top
+three cpu intensive processes in a small window
+inside gkrellm, similar to wmtop. useful to check
+out anytime what processes are consuming most cpu
+memory, or io resources on your machine.

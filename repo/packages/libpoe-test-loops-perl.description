@@ -1,0 +1,6 @@
+Test framework for poe event loops
+	
+poe::test::loops is a perl helper module that provides a framework for testing
+the functionality of poe event loops. it contains a single function that sets
+up all the loop tests for one or more poe::loop subclasses. it is most useful
+during development and building of poe event loops.

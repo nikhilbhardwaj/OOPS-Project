@@ -1,0 +1,9 @@
+Python based templating framework originally based on html::mason
+	
+myghty is a python based templating framework originally based on
+html::mason, the enterprise-level framework used by amazon.com, del.icio.us
+and salon.com, among many others. myghty fully implements mason's templating
+language, component-based architecture, and caching system, and goes beyond,
+adding new paradigms such the module components controller paradigm, full
+python whitespace syntax, threading support, wsgi support, session support,
+and much more.

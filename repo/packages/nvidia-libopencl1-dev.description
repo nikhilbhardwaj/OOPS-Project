@@ -1,0 +1,8 @@
+Nvidia opencl development files
+	
+opencl (open computing language) is a multivendor open standard for
+general-purpose parallel programming of heterogeneous systems that include
+cpus, gpus and other processors.
+
+this package contains the development files for the installable client driver
+loader (icd loader) library provided by nvidia.

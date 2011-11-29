@@ -1,0 +1,7 @@
+Tools for encoding/decoding mime messages
+	
+mpack and munpack are utilities for encoding and decoding
+(respectively) binary files in mime (multipurpose internet
+mail extensions) format mail messages. for compatibility
+with older forms of transferring binary files, the munpack
+program can also decode messages in split-uuencoded format.

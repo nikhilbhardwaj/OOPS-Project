@@ -1,0 +1,5 @@
+Debian pure blends dummy package for upgrades from cdd-common
+	
+after renaming custom debian distributions to debian pure blends we
+have to make sure that upgrades work smoothly.  this package provides
+symlinks to all the tools of blends-common with the old cdd names.

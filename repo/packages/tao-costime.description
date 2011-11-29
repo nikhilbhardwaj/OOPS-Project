@@ -1,0 +1,9 @@
+Tao time service
+	
+a time service offers globally synchronized time to clients.
+
+this package contains two programs:
+
+ * tao_costime_clerk, answering client requests
+ * tao_costime_server, queried by clerks to keep their time
+   synchronized

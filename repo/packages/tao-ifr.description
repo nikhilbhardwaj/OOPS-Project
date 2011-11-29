@@ -1,0 +1,11 @@
+Tao interface repository
+	
+corba-aware programs can contact an interface repository to get
+objects interfaces at run-time. then they can use the dynamic
+invocation interface (dii) mechanism to invoke requests on those
+objects.
+
+this package includes the following programs:
+
+ * ifr_service: interface repository server
+ * tao_ifr: feeds in the interface repository

@@ -1,0 +1,11 @@
+X.org x server -- glide display driver
+	
+this driver for the x.org x server (see xserver-xorg for a further description)
+provides support for voodoo 1 and voodoo 2 boards.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this package is built from the x.org xf86-video-glide driver module.
+
+you will need the /dev/3dfx kernel driver to use this video driver.

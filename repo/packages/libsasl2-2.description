@@ -1,0 +1,16 @@
+Cyrus sasl - authentication abstraction library
+	
+this is the cyrus sasl api implementation, version 2.1.
+
+sasl is the simple authentication and security layer, a method for
+adding authentication support to connection-based protocols. to use
+sasl, a protocol includes a command for identifying and
+authenticating a user to a server and for optionally negotiating
+protection of subsequent protocol interactions. if its use is
+negotiated, a security layer is inserted between the protocol and the
+connection. see rfc 2222 for more information.
+
+any of: anonymous, cram-md5, digest-md5, gssapi (mit or heimdal
+kerberos 5), ntlm, otp, plain, or login can be used. if you intend to
+use this package on a server that provides sasl authentication, then
+you must install some of the libsasl2-modules* packages.

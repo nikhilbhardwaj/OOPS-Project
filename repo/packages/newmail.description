@@ -1,0 +1,8 @@
+Notificator for incoming mail
+	
+the newmail program usually puts itself in the background and watches
+mailbox files in order to report when new mail has been arrived.  the
+originator and subject will then be reported on the terminal it was
+started.  the output can also be integrated in graphical programs.
+
+this package is inspired by the newmail program from the elm mail system.

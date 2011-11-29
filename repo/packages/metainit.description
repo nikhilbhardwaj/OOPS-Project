@@ -1,0 +1,7 @@
+Generates init scripts
+	
+metainit solves the problem of writing good init scripts.
+instead of manually creating these important files, they are
+derived from a declaritive description in the metainit files
+in /etc/metainit. these files can be shipped with packages
+or created by the local administrator.

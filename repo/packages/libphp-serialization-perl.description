@@ -1,0 +1,7 @@
+Perl module to manipulate serialized php data structures
+	
+php::serialization provides a simple means of serializing perl data structures
+(including object data) into php's serialized data format. it can also process
+this data as input, in order to read serialized php data structures into their
+perl equivalents. numeric arrays are mapped to arrays in perl and vice-versa.
+similarly, arrays which contain string keys are mapped to hashes in perl.

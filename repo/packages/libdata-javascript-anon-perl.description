@@ -1,0 +1,5 @@
+Dump big dumb perl structs to anonymous javascript structs
+	
+data::javascript::anon provides the ability to dump large simple data
+structures to javascript. that is, things that don't need to be a class,
+or have special methods or whatever.

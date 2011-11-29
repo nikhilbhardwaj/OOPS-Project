@@ -1,0 +1,10 @@
+Attach and detach slave interfaces to a bonding device
+	
+this is a tool to attach and detach slave network interfaces to a bonding
+device. a bonding device will act like a normal ethernet network device to
+the kernel, but will send out the packets via the slave devices using a simple
+round-robin scheduler. this allows for simple load-balancing, identical to
+"channel bonding" or "trunking" techniques used in switches.
+
+the kernel must have support for bonding devices for ifenslave to be useful.
+this package supports 2.6.x kernels and the most recent 2.4.x kernels.

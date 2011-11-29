@@ -1,0 +1,15 @@
+Computational group theory software with gui
+	
+the magnus computational group theory package is an innovative
+symbolic algebra package providing facilities for doing calculations
+in and about infinite groups.  almost all symbolic algebra systems
+are oriented toward finite computations that are guaranteed to
+produce answers, given enough time and resources.  by contrast,
+magnus is concerned with experiments and computations on infinite
+groups which in some cases are known to terminate, while in others are
+known to be generally recursively unsolvable.
+
+magnus features an intuitive graphical user interface, facilities for
+running different algorithms on the same problem in parallel, generation
+of approximations for working on otherwise infeasible problems, genetic
+algorithms and a plug-in package manager.

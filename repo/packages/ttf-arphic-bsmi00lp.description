@@ -1,0 +1,11 @@
+"ar pl mingti2l big5" chinese truetype font by arphic technology
+	
+"ar pl mingti2l big5" is a high-quality chinese truetype font
+(bsmi00lp.ttf) generously provided by arphic technology to the free
+software community under the "arphic public license".
+
+if you use x window system, be sure to install the "x-ttcidfont-conf"
+package so you can use this font in x.
+
+you also need to install the "tfm-arphic-bsmi00lp" package for
+typesetting with omega or with cjk for latex (cjk-latex).

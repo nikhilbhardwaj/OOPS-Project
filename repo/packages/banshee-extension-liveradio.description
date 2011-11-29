@@ -1,0 +1,18 @@
+Liveradio extension for banshee
+	
+the liveradio extension for banshee is a browser for online internet station
+directories integrated into the banshee media player. it currently supports
+live365.com, shoutcast.com and xiph.org, but its plugin-like code structure can
+easily be extended to support just about any directory.
+
+liveradio has the follwing features:
+
+ * browse and query three online internet radio directories:
+    – live365.com
+    – shoutcast.com
+    – xiph.org
+ * retrieve stream information and play the stream
+ * add your favorite streams to your list of internet radio stations in banshee
+
+
+banshee is a media management and playback application for the gnome desktop.

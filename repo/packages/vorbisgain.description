@@ -1,0 +1,10 @@
+Add replay gain volume tags to ogg vorbis files
+	
+vorbisgain calculates a percieved volume of an ogg vorbis file using
+the replay gain algorithm. it then stores a per-track and per-album
+volume adjustment in the file's tags, to let songs play back  with a
+uniform volume. the process is non-destructive and does not change the
+audio data at all.
+
+many audio players in debian support reading these tags, including xmms,
+quod libet, amarok, muine, and rhythmbox.

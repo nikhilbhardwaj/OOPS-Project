@@ -1,0 +1,8 @@
+Network access framework for ipv4/ipv6 - development files
+	
+net6 is a library which eases the development of network-based applications
+as it provides a tcp protocol abstraction for c++. it is portable to both
+the windows and unix-like platforms.
+
+these are the development files for net6, needed only if you wish to write
+or compile software which uses it.

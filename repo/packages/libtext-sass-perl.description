@@ -1,0 +1,9 @@
+Implementation of the sass css meta-language
+	
+sass is a meta-language on top of css that’s used to describe the style
+of a document cleanly and structurally, with more power than flat css
+allows.  sass both provides a simpler, more elegant syntax for css and
+implements various features that are useful for creating manageable
+stylesheets.
+
+this is a perl implementation of sass.

@@ -1,0 +1,6 @@
+Debugging symbols for gimp
+	
+this package includes the debugging symbols useful for debugging
+gimp and its libraries, contained in the gimp and libgimp2.0 packages.
+the debugging symbols are used for execution tracing and core dump
+analysis.

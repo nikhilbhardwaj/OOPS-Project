@@ -1,0 +1,12 @@
+Yet another pragger implementation
+	
+yapra is yet another pragger implementation.  pragger is a pluggable rss/atom
+feed aggregator written in ruby. it has following advantages
+against pragger.
+
+
+ * class-based plugin mechanism
+ * loadpath-based plugin searching/reading
+ * import logger into system core
+ * use "yapra" namespace for plugin class
+ * support config file like python habu

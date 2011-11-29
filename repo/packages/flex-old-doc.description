@@ -1,0 +1,8 @@
+Documentation for an old flex (a fast lexical analyzer generator)
+	
+this package contains the html documentation for the old 2.5.4a version
+of flex, which is no longer being developed upstream. you should
+normally chose flex-doc, unless you have legacy lexer files that do
+not work with a modern flex, and need to use the old flex. the
+upstream source code can be found at the ftp site:
+http://lex.sourceforge.net/

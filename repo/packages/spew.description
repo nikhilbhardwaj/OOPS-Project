@@ -1,0 +1,10 @@
+I/o performance measurement and load generation tool
+	
+spew is used to measure i/o performance of character devices, block
+devices, and regular files. it can also be used to generate high i/o loads
+to stress systems while verifying data integrity.
+
+spew is easy to use and is flexible. no configuration files or
+complicated client/server configurations are needed. spew also generates
+its own data patterns that are designed to make it easy to find and debug
+data integrity problems.

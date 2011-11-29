@@ -1,0 +1,7 @@
+General graphics interface lcd823 display target
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the driver for the "lcd823" target, enabling libggi
+(and therefore any program using libggi) to display its output using
+the lcd controller of motorola mpc823 processors.

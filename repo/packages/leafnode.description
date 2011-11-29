@@ -1,0 +1,9 @@
+Nntp server for small sites
+	
+leafnode is a news server suitable for small, limited-bandwidth sites
+with only a few users ('leaf' sites). it keeps track of which groups
+are being read, and downloads only articles in those groups. leafnode
+has been designed to require no maintenance and to be easy to set up.
+
+perl is required to use some optional features of the package for
+handling very low volume newsgroups.

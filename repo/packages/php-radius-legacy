@@ -1,0 +1,4 @@
+PackageId:27131
+Name:php-radius-legacy
+Version:1.2.5-2
+Deps:httpd-cgi,aolserver4-core,aolserver4-daemon,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,boa,bozohttpd,cherokee,lighttpd,mathopd,mini-httpd,monkey,ocsigen,thttpd,tntnet,yaws,php5,php5-cgi

@@ -1,0 +1,18 @@
+Batteries included: ocaml development platform - metapackage
+	
+batteries included is a community-driven effort to standardize on an
+uniform, documented, and comprehensive ocaml development platform.
+
+batteries included serves the following purposes:
+
+ * define a standard set of libraries which may be expected on every
+   compliant installation of ocaml
+ * organize these libraries into a hierarchy of modules, with one
+   source of documentation
+ * define a standard set of language extensions which may be expected
+   on every compliant installation of ocaml
+ * provide a consistent api for otherwise independent libraries.
+
+
+this metapackage is provided for convenience, to install all of
+batteries included at once.

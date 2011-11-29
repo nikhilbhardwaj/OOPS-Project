@@ -1,0 +1,8 @@
+Braille xml translation library - static libs and headers
+	
+liblouisxml translates files in the computer lingua franca xml format
+into properly transcribed braille. this includes translation into grade
+two, if desired, mathematical codes, etc. it also includes formatting
+according to a built-in style sheet which can be modified by the user.
+
+this package contains static libraries and development headers.

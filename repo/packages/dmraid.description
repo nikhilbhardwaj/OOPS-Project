@@ -1,0 +1,21 @@
+Device-mapper software raid support tool
+	
+dmraid discovers, activates, deactivates and displays properties
+of software raid sets (eg, ataraid) and contained dos partitions.
+
+dmraid uses the linux device-mapper to create devices with respective
+mappings for the ataraid sets discovered.
+
+the following formats are supported:
+
+ highpoint hpt37x/hpt45x
+ intel software raid
+ lsi logic megaraid
+ nvidia nforce raid (nvraid)
+ promise fasttrack
+ silicon image(tm) medley(tm)
+ via software raid
+
+
+please read the documentation in /usr/share/doc/dmraid before attempting
+any use of this software. improper use can cause data loss!

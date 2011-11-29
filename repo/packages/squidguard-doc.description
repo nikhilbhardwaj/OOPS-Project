@@ -1,0 +1,8 @@
+Filter and redirector plugin for squid - documentation
+	
+squidguard is a free, flexible and ultra fast filter, redirector
+and access controller plugin for squid.  it lets you define multiple
+access rules with different restrictions for different user groups on
+a squid cache.  squidguard uses squid's standard redirector interface.
+
+this package contains some older html and txt documentation.

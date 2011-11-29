@@ -1,0 +1,23 @@
+X11 teletext/videotext browser
+	
+alevt is an x11 program for browsing and searching teletext/videotext
+pages received by a compatible decoder (at the moment, bttv).
+
+features include:
+
+
+  * multiple windows
+  * page cache
+  * regular expression searching
+  * built-in manual
+
+
+additional command line utilities can
+
+
+  * receive the time from teletext/videotext
+  * capture pages and write them to disk
+
+
+teletext/videotext is used by tv channels to transmit textual
+information pages (it's transmitted via non-visible scan lines).

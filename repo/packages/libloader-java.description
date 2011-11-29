@@ -1,0 +1,6 @@
+Java general purpose resource loading framework
+	
+libloader is a general purpose resource loading framework. it has been
+designed to allow to load resources from any physical location and to
+allow the processing of that content data in a generic way, totally
+transparent to the user of that library.

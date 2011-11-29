@@ -1,0 +1,6 @@
+Libcanberra gtkmodule detached debugging symbols
+	
+a gtkmodule which will automatically hook into all kinds of events
+inside a gtk+ program and generate sound events from them.
+
+this package contains detached debugging symbols for it.

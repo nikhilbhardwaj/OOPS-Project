@@ -1,0 +1,8 @@
+Off-screen renderer for tulip graphs
+	
+tulip is capable of managing graphs with up to 500,000 nodes and edges
+on relatively modest hardware (eg. 600mhz pentium iii, 256mb ram).
+
+this package uses mesa off-screen rendering capabilities to render
+graphs to a png file and html map.  it is most useful with the
+plugins shipped in the tulip package.

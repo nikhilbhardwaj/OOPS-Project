@@ -1,0 +1,13 @@
+Virtual private network daemon
+	
+openvpn is an application to securely tunnel ip networks over a
+single udp or tcp port. it can be used to access remote sites, make
+secure point-to-point connections, enhance wireless security, etc.
+
+openvpn uses all of the encryption, authentication, and certification
+features provided by the openssl library (any cipher, key size, or
+hmac digest).
+
+openvpn may use static, pre-shared keys or tls-based dynamic key exchange. it
+also supports vpns with dynamic endpoints (dhcp or dial-up clients), tunnels
+over nat or connection-oriented stateful firewalls (such as linux's iptables).

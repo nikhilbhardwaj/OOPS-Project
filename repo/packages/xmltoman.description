@@ -1,0 +1,5 @@
+Simple xml to man converter
+	
+xmltoman and xmlmantohtml are two small scripts to convert xml to man
+pages in groff format or html. it features the usual man page items such a
+"description", "options", "see also" etc.

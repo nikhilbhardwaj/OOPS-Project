@@ -1,0 +1,20 @@
+Mix development kit
+	
+mdk stands for mix development kit, and provides tools for developing
+and executing, in a mix virtual machine, mixal programs.
+
+the mix is donald knuth's mythical computer, described in the first
+volume of the art of computer programming, which is programmed using
+mixal, the mix assembly language.
+
+mdk includes a mixal assembler (mixasm) and a mix virtual machine
+(mixvm) with a command line interface.  in addition, a gtk+ gui to
+mixvm, called gmixvm, and a guile interpreter with an embedded mix
+virtual machine called mixguile, are provided.
+
+using these interfaces, you can debug your mixal programs at source
+code level, and read/modify the contents of all the components of the
+mix computer (including block devices, which are simulated using the
+file system).
+
+homepage: http://www.gnu.org/software/mdk/mdk.html

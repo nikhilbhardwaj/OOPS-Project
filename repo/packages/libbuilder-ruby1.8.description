@@ -1,0 +1,13 @@
+Ruby library to facilitate programatic generation of xml markup
+	
+builder is a library that allows easy programmatic creation of xml markup. it
+gives you a ruby api to build structures and methods to dump it to xml.
+some of the features:
+
+ * easy generation by mapping method calls to elements, arguments to
+   attributes and blocks to contents.
+ * xml comment & processing instruction support.
+ * xml entity declaration support.
+ * some support for xml namespaces.
+ * default escaping of string attribute values.
+ * utf-8 support.

@@ -1,0 +1,19 @@
+Bittorrent proxy for downloading debian packages
+	
+debtorrent is a proxy for downloading debian packages files with apt.
+it will download any needed packages from other debtorrent peers in a
+bittorrent-like manner, and so reduce the strain on the debian mirrors.
+
+the debtorrent client runs as a daemon, automatically started on bootup,
+and listens for requests from apt for files. any non-package files are
+downloaded and served to apt similarly to other proxying software (e.g.
+apt-proxy, apt-cacher, and approx). the configuration is very simple,
+and only involves prepending a server and port to your current
+sources.list files (similar to apt-cacher).
+
+when downloading package files, the debtorrent client will try to use
+any other debtorrent clients it can find to download from. this will
+use the uploading bandwidth of other peers, while reducing the demand
+on the debian mirror network. however, if a package cannot be found
+on any peers, debtorrent will fall back to downloading from a mirror
+to ensure all packages are downloaded.

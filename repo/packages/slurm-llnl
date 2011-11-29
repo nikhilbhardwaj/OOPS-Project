@@ -1,0 +1,4 @@
+PackageId:31754
+Name:slurm-llnl
+Version:2.1.11-1squeeze3
+Deps:adduser,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libncurses5,libpam0g,libreadline6,lsb-base,munge,openssl,openssl-blacklist,slurm-llnl-basic-plugins,ucf

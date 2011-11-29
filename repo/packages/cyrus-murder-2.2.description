@@ -1,0 +1,8 @@
+Cyrus mail system (proxies and aggregator)
+	
+this package contains the cyrus imapd suite murder aggregator system,
+i.e. imap, pop3  and lmtp proxies, and the mupdate mailbox master daemon.
+it allows for cluster setups where there are many backend cyrus spools and
+frontend proxy servers.
+
+for more information, please see the cyrus-common-2.2 package.

@@ -1,0 +1,11 @@
+Context-sensitive help for gpe
+	
+gpe-what is a notification tray applet to control
+context sensitive help in the gpe palmtop environment
+that replaces the mouse-over tooltips that are not usable
+with the stylus commonly used with embedded devices.
+
+when the tray icon is clicked, the system enters "help mode"; normal ui
+is suspended, and the next stylus tap selects the widget for which
+help is wanted. the help text, if available, is displayed in a small
+pop-up bubble.

@@ -1,0 +1,30 @@
+Lilypond sheet music editor for kde4
+	
+frescobaldi is a lilypond sheet music editor for kde4, with the following
+features:
+
+ * enter lilypond scores, then build and preview them with a mouseclick
+ * point-and-click support: click on notes or on error messages to jump to the
+   corresponding position in the lilypond file
+ * a score setup wizard that helps you to quickly setup a lilypond score,
+   generating lilypond input in a very human-like way
+ * blank staff paper generator
+ * syntax coloring that also signals some often made mistakes
+ * snippet manager to enter lilypond snippets using keystrokes or mnemonics
+ * context sensitive autocompletion, helping you to enter lilypond commands
+ * hyphenate lyrics using wordprocessor hyphenation dictionaries
+ * powerful functions to manipulate pitches: translate music from one pitch
+   language to another, transpose music (both relative and absolute) and
+   perform conversion between relative and absolute music expressions (all
+   these functions also work on selected fragments of music)
+ * tools to change the rhythm of already entered music (extract, paste rhythm,
+   apply a rhythm repetitively to entered pitches, double, halve or scale, etc)
+ * a powerful rumor plugin, using the rumor program to quickly enter music by
+   playing it on a midi keyboard or even your computer keyboard
+ * lilypond documentation browser with context sensitive lookup
+ * user guide with help buttons (f1) everywhere
+ * translated into dutch, english, french, german, italian, czech, russian,
+   spanish, turkish and polish
+
+
+frescobaldi is the kde4 successor of lilykde, a kate plugin for kde3.

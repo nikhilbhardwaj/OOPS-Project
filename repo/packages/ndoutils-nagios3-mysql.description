@@ -1,0 +1,7 @@
+This provides the ndoutils for nagios with mysql support
+	
+the ndoutils (nagios data output utils) addon allows you to move status
+and event information from nagios to a database for later retrieval and
+processing.
+
+this package uses nagios 3 and mysql databases.

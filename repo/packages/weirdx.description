@@ -1,0 +1,7 @@
+X server in java
+	
+a complete x server implementation in java which can run standalone or as an
+applet. it supports remote x and (using libjsch-java) x forwarded over ssh.
+
+also includes a library for embedding weirdx in other java programs or
+applets.

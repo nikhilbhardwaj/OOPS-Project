@@ -1,0 +1,11 @@
+Network device discovery for fusioninventory agent
+	
+this module scans your networks to quickly identifiy its hosts with snmp,
+nmap and netbios request:
+
+ - networking devices discovery within an ip range
+ - identify unknown mac addresses
+
+
+the plugin depends on fusioninventory for glpi on server side.
+ocs inventory can't use this plugin.

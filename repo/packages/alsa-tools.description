@@ -1,0 +1,9 @@
+Console based alsa utilities for specific hardware
+	
+a collection of console-based utilities for specific sound hardware:
+
+
+ ac3dec - a free ac-3 stream decoder
+ as10k1 - an assembler for the emu10k1 (emu10k2) dsp chip
+ sbiload - opl2/3 fm instrument loader for the alsa sequencer
+ us428control - controller utility for tascam us-x2y

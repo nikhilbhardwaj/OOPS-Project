@@ -1,0 +1,7 @@
+Truetype and cid fonts configuration for x
+	
+this package configures truetype fonts and cid fonts (as well as cmaps)
+for x. it generates .scale and .alias files from truetype and cid
+fonts registered to defoma, and calls mkfontdir (and mkcfm).
+
+the package supports both x-tt and freetype x backends.

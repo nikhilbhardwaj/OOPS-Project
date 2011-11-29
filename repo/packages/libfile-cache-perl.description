@@ -1,0 +1,7 @@
+File::cache, a filesystem-based object store
+	
+file::cache implements an object store which shares data across process
+boundaries via the filesystem. it was written to complement ipc::cache, but
+is suitable for larger numbers of more complex objects than that module.
+
+this module will eventually be superseded by the newer cache::cache.

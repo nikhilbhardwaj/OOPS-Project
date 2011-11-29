@@ -1,0 +1,8 @@
+Ruby interface to html tidy library
+	
+html tidy corrects markup in a way compliant with the latest standards,
+and optimal for the popular browsers.
+
+this package is a dependency package, which depends on the package
+containing actual tidy module for the default ruby version (currently
+1.8).

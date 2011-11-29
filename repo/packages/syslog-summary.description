@@ -1,0 +1,9 @@
+Summarize the contents of a syslog log file
+	
+this program summarizes the contents of a log file written by syslog,
+by displaying each unique (except for the time) line once, and also
+the number of times such a line occurs in the input. the lines are
+displayed in the order they occur in the input.
+
+it is also possible to define some "ignore rules" using regular
+expressions.

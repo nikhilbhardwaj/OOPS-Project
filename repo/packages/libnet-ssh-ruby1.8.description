@@ -1,0 +1,4 @@
+Pure ruby module that emulates an ssh client
+	
+net::ssh is to ssh as net::telnet is to telnet and net::http is to http.
+perform non-interactive ssh processing, purely from ruby!

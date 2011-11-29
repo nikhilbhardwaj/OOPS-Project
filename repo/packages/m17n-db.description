@@ -1,0 +1,19 @@
+A multilingual text processing library - database
+	
+the m17n library is a multilingual text processing library for the c
+language.  this library has following features:
+
+ - the m17n library is an open source software.
+ - the m17n library for any linux/unix applications.
+ - the m17n library realizes multilingualization of many aspects of
+   applications.
+ - the m17n library represents multilingual text as an object named
+   m-text.  m-text is a string with attributes called text properties,
+   and designed to substitute for string in c.  text properties carry any
+   information required to input, display and edit the text.
+ - the m17n library supports functions to handle m-texts.
+
+
+m17n is an abbreviation of multilingualization.
+
+this package contains the database files used by m17n-lib.

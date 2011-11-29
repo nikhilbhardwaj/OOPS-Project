@@ -1,0 +1,8 @@
+An e-mail privacy package.
+	
+premail adds support for encrypted e-mail to your mailer, using plain pgp,
+pgp/mime, moss, or s/mime.  in addition, premail provides a seamless,
+transparent interface to the anonymous remailers, including full support
+for mixmaster remailers and the nymservers.  nymservers provide
+cryptographically protected, fully anonymous accounts for both sending and
+receiving e-mail.

@@ -1,0 +1,8 @@
+Irc (internet relay chat) client for emacs
+	
+liece is based on irchat, simple irc client running under emacsen,
+nevertheless nothing to do with irchat-2.4jp which has various features added
+by japanese contributers (e.g. mule support, channel buffers).
+we are going to full-replace to redesign thoroughly, and to stand up to
+extension against arbitrary protocol backend. the most recent version of this
+program has been almost completely rewritten from irchat.

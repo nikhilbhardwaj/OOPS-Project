@@ -1,0 +1,7 @@
+Small, unconfigurable window manager
+	
+wm2 is a window manager for x.  it provides an unusual style of window
+decoration and as little functionality as chris cannam feels comfortable
+with in a window manager.  wm2 is not configurable, except by editing
+the source and recompiling the code, and is really intended for people
+who don't particularly want their window manager to be too friendly.

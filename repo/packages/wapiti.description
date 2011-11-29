@@ -1,0 +1,16 @@
+Web application vulnerability scanner
+	
+wapiti allows you to audit the security of your web applications.
+it performs "black-box" scans, i.e. it does not study the source code of the
+application but will scans the web pages of the deployed web applications,
+looking for scripts and forms where it can inject data.
+once it gets this list, wapiti acts like a fuzzer, injecting payloads to see
+if a script is vulnerable.
+wapiti can detect the following vulnerabilities:
+
+   - file handling errors (local and remote include/require, fopen, ...)
+   - database injection (php/jsp/asp sql injections and xpath injections)
+   - xss (cross site scripting) injection
+   - ldap injection
+   - command execution detection (eval(), system(), passtru()...)
+   - crlf injection (http response splitting, session fixation...)

@@ -1,0 +1,14 @@
+Library for writing single instance applications - development files
+	
+unique is a library for writing single instance application.
+if you launch a single instance application twice, the second
+instance will either just quit or will send a message to the
+running instance.
+
+unique makes it easy to write this kind of applications, by
+providing a base class, taking care of all the ipc machinery
+needed to send messages to a running instance, and also handling
+the startup notification side.
+
+this package contains the headers and development libraries needed to
+build applications using the unique library

@@ -1,0 +1,9 @@
+Perl module for processing options in gnu-style (= long and short)
+	
+this module is intended to be the "getopt-to-end-all-getop's".  it
+combines flexibility and simplicity.  it supports both short options
+(introduced by `-') and long options (introduced by `--').  short
+options which do not take an argument can be grouped together.  short
+options which do take an argument must be the last option in their
+group, because everything following the option will be considered to
+be its argument.

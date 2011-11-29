@@ -1,0 +1,14 @@
+Standards-based cluster framework (debugging symbols)
+	
+the corosync project is a project to implement a production quality
+"revised bsd" licensed implementation of all core functionalities
+required by openais. the project implements cutting edge research
+on virtual synchrony to provide 100% correct operation in the face of
+failures or partitionable networks with excellent performance
+characteristics.
+
+the application interface specification is a software api and policies
+which are used to develop applications that maintain service during
+faults.
+
+this package contains the debug information.

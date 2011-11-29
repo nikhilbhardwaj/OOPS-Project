@@ -1,0 +1,7 @@
+Bbs client for x window system written in qt
+	
+qterm is a bbs client for x window system. it supports telnet, ssh1 and ssh2
+protocols. it also supports zmodem, url detect, mouse action.
+
+it also supports detecting location from ip address, but you need do some
+extra work, see readme.debian.

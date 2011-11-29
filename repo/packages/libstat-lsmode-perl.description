@@ -1,0 +1,6 @@
+Perl module to format file modes like ls -l
+	
+stat::lsmode provides perl functions to format file modes in the same way
+that ls -l does (into strings like drwxr-xr-x, for example).  it handles
+all the expected variations, including setuid, setgid, and sticky bits
+and special file types.

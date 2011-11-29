@@ -1,0 +1,7 @@
+Shoot-em-up a la galaxian
+	
+criticalmass, aka critter, is a shoot-'em-up in the style of galaxian with
+very colorful and smooth graphics (provided that you have 3d acceleration)
+
+note: criticalmass uses opengl, and will probably not run well if you do
+not have a 3d accelerator which is supported by x.

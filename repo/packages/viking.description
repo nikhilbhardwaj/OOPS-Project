@@ -1,0 +1,26 @@
+Gps data editor, analyzer and viewer
+	
+viking aims to be easy to use, yet powerful in accomplishing a wide
+variety of gps related tasks. it uses a hierarchical layering system
+to organize gps data, maps, and other layer types with spatial data,
+such as coordinate lines.
+
+some of the things you can use viking for are:
+
+
+ * uploading and downloading waypoints, tracks to/from gps.
+ * realtime gps tracking and track recording.
+ * preparing tracks and waypoints for trips using maps from services
+   such as openstreetmap and terrasever. you only need to upload the data
+   to your gps before you leave. the maps together with your tracks
+   and waypoints can also be printed and used during the trip.
+ * after trips, tracks and waypoints from gps can be downloaded,
+   stored, managed and reused in later trips.
+ * analyzing ohv and hiking trips, understanding where you went and
+   how far you were from something.
+ * making waypoints and tracks to follow to easily get someplace
+   you've never been before or don't have gps data for but terraserver
+   maps exist for it.
+ * making maps with coordinate lines.
+ * analyzing speed at different places, adding waypoints where you forgot
+   to mark one but did slow down or stop.

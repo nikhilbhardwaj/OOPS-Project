@@ -1,0 +1,7 @@
+Display colors and names in x
+	
+xcolorsel is an x utility that displays the contents of the x color list
+file (/etc/x11/rgb.txt) together with tiles showing how the color looks on
+your screen.  you can cut the color names/definitions in various formats
+(suitable for resource files or c source) so they can be pasted directly
+into source codes or resources.

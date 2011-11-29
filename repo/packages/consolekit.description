@@ -1,0 +1,9 @@
+Framework for defining and tracking users, sessions and seats
+	
+consolekit is a system daemon for tracking what users are logged
+into the system and how they interact with the computer (e.g.
+which keyboard and mouse they use).
+
+it provides asynchronous notification via the system message bus.
+
+this package provides the system daemon and tools to interact with it.

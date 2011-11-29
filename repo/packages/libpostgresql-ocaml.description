@@ -1,0 +1,9 @@
+Ocaml bindings to postgresql's libpq (runtime)
+	
+this ocaml-library provides an interface to postgresql, an
+efficient and reliable, open source, relational database.
+almost all functionality available through the c-api (libpq) is
+replicated in a type-safe way. this library uses objects for
+representing database connections and results of queries.
+
+this package contains the shared runtime stub libraries and plugins.

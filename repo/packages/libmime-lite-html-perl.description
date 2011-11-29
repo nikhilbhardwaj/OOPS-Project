@@ -1,0 +1,13 @@
+Transform html page into mime email
+	
+perl mail client interface for sending message that supports html format
+and builds it for you. this is useful to transform html pages into mime
+email like that:
+
+
+ * get the page with lwp if needed
+ * parse page to find included images and objects (gif, jpg, flash)
+ * attach them to mail with proper header
+ * include external css and javascript files
+ * replace relative urls with absolute ones
+ * build the mime email with any parts found

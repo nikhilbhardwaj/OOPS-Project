@@ -1,0 +1,10 @@
+Bickley is the client api which access the metadata (dev)
+	
+libbickley is the client api which allows clients to access the metadata
+in an higher level way. the core api allows storing and querying of uris
+and associating key/value  pairs. the core bickley api in the libbickley
+library provides shared access to common meta-data storage. different
+processes can access and manipulate the same set of uris and meta data about
+them in parallel.
+
+this package contains the development headers.

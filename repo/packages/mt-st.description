@@ -1,0 +1,9 @@
+Linux scsi tape driver aware magnetic tape control (aka mt)
+	
+mt-st contains a version of "mt" that is aware of linux's scsi tape
+driver. mt-st is able to set some esoteric control flags like tape partitions.
+
+mt-st diverts (replaces) the gnu version of mt, in the cpio package.
+
+it also comes with stinit, a program to be run at boot time to set up
+tape defaults.

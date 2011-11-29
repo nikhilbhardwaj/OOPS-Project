@@ -1,0 +1,9 @@
+Development files for libsword
+	
+the sword project is an open source, cross-platform (linux, windows, solaris,
+macosx etc.) api/library for bible software with a constantly growing list
+of front-ends (gui, textmode, web-based, etc.) and a library of over 200
+text modules.
+
+this package contains the static libraries and headers for developing
+applications that use the sword library.

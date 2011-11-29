@@ -1,0 +1,4 @@
+Conservative garbage collector for c and c++
+	
+boehm's gc is a garbage collecting storage allocator that is
+intended to be used as a plug-in replacement for c's malloc.

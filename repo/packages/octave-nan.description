@@ -1,0 +1,11 @@
+Handles data with and without missing values in octave
+	
+this package allows the handling of data with and without missing
+values by using nan in octave. features of this package includes:
+implement of the statistical tools, supports dim argument, supports
+unbiased estimation significance test, confidence intervals and
+spearman`s rank correlation included in corrcoef.
+
+be warned that this package changes the way nans are handled in octave!
+
+this octave add-on package is part of the octave-forge project.

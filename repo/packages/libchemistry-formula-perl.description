@@ -1,0 +1,7 @@
+Enumerate elements in a chemical formula
+	
+this module provides a function which parses a string containing a
+chemical formula and returns the number of each element in the string.
+it can handle nested parentheses and square brackets and correctly
+computes stoichiometry given numbers outside the (possibly nested)
+parentheses.

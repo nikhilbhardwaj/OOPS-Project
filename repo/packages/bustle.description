@@ -1,0 +1,9 @@
+D-bus activity visualiser
+	
+bustle is a tool to chart and provide timing information of d-bus
+calls for profiling and debugging purposes. it is intended to replace
+reading the cryptic output of dbus-monitor.
+
+calls are displayed using message sequence charts, a succinct way of
+representing entities and interactions over time. it can also output
+data in graphviz format.

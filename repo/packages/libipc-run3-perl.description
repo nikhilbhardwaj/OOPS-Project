@@ -1,0 +1,6 @@
+Run a subprocess with input/ouput redirection
+	
+ipc::run3 allows you to run a subprocess and redirect stdin, stdout,
+and/or stderr to files and perl data structures.  it aims to satisfy 99%
+of the need for using system()/qx``/open3() with a simple, extremely
+perlish api and none of the bloat and rarely used features of ipc::run.

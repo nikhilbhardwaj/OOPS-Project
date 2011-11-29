@@ -1,0 +1,12 @@
+Collection of stax parsers and writers for json
+	
+jettison is a collection of stax parsers (streaming api for xml) and
+writers which read and write json (javascript object notation). this
+allows nearly transparent enablement of json based web services in
+services frameworks like apache cxf.
+
+there are currently two included conventions for mapping json to xml.
+the first is badgerfish which implements the full xml infoset in json
+using various techniques. the second is called the "mapped"
+convention. it allows you to manually map xml namespaces to json
+element prefixes.

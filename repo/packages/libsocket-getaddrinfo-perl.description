@@ -1,0 +1,10 @@
+Module implementing getaddrinfo and getnameinfo
+	
+socket::getaddrinfo provides a perl implementation of the getaddrinfo and
+getnameinfo functions as described in rfc 2553. these functions are useful for
+converting between a pair of host name/service name and socket addresses, or
+vice versa.
+
+this module uses underlying c code to do most of the work if possible, but can
+also fall back on some mostly-compatible emulation code written in perl. this
+means that this module is a fairly portable implementation of these functions.

@@ -1,0 +1,12 @@
+Corba omg standard files for python-omniorb
+	
+omniorb4 is a freely available common object request broker
+architecture (corba) 2.6 compliant object request broker (orb)
+implementation. it is based on the iiop communications
+protocol and should be interoperable with any other
+corba 2.6 compliant orb.
+
+this package includes the python files that are necessary to
+fulfil the omg standard 02-09-07.  it conflicts with
+python-pyorbit-omg since only one package can provide the default
+corba bindings.

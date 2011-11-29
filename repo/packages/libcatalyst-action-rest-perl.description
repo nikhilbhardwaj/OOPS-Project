@@ -1,0 +1,7 @@
+Module for automatic rest method dispatching
+	
+catalyst::action::rest is a catalyst action that handles doing automatic
+method dispatching for rest requests. it takes a normal catalyst action, and
+changes the dispatch to append an underscore and method name. it will
+dispatch either to the action with the generating name or to a regular
+method.

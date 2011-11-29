@@ -1,0 +1,10 @@
+Rdf/xml and rdf/n3 semantic web data processor
+	
+cwm (pronounced coom) is a general-purpose data processor for the
+semantic web, somewhat like sed, awk, etc. for text files or xslt for
+xml. it is a forward chaining reasoner which can be used for querying,
+checking, transforming and filtering information. its core language is
+rdf, extended to include rules, and it uses rdf/xml or rdf/n3
+(notation3) serializations as required.
+
+also included is the rdf tools cant and delta.

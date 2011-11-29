@@ -1,0 +1,8 @@
+Proprietary libgl for the non-free amd/ati r6xx - r7xx display driver
+	
+display driver for the ati recent radeon and firegl graphics cards.
+
+this package provides the proprietary libgl shipped by ati.
+
+this driver is not free. as an alternative, you may try the newest free
+driver xserver-xorg-video-radeon.

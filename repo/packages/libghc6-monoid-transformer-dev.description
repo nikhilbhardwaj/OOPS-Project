@@ -1,0 +1,8 @@
+Transformers for reader and state monoids
+	
+this package provides a library for the haskell programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+this library provides monoid transformers for the reader monoid and
+the state monoid. there's no monoid transformer for the writer monoid
+since the writer monad transforms a monoid into a monad.

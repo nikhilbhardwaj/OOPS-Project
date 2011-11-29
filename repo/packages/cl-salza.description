@@ -1,0 +1,5 @@
+Common lisp package to write compressed data
+	
+salza is an implementation of the deflate compressed data format,
+described in rfc 1951, and the zlib compressed data format, described
+in rfc 1950. currently, only output to a compressed file is supported.

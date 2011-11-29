@@ -1,0 +1,8 @@
+Low level cryptographic library (debugging symbols)
+	
+nettle is a cryptographic library that is designed to fit easily in more or
+less any context: in crypto toolkits for object-oriented languages (c++,
+python, pike, ...), in applications like lsh or gnupg, or even in kernel
+space.
+
+this package contains the debugging symbols for all binary packages.

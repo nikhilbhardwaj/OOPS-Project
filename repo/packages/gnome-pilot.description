@@ -1,0 +1,13 @@
+A gnome applet for management of your palm pda
+	
+gnome-pilot is a gnome applet with a daemon that monitors for
+connections from a palmos-based device. it features a conduit
+system, although it contains only basic conduits.
+
+gnome-pilot-conduits is recommended for a full set of conduits.
+
+pilot-link is used to make the connection to the device, and as
+such, this package should work with serial devices, usb devices
+given proper kernel support, and with xcopilot. see the package
+documentation or pilot-link's documentation for more information
+on configuring various types of interfaces.

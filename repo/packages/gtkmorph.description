@@ -1,0 +1,9 @@
+Digital image warp and morph (gtk)
+	
+gtkmorph loads, saves, warps, and dissolves images, and loads, saves,
+creates, and manipulates control meshes which determine the warping.   the
+technique was invented and first used by industrial light and magic, and is
+commonly called "morphing."
+
+gtkmorph is a gui for libmorph, using gtk+.  it has many features, as the
+support for making movies automatically (it needs extra packages).

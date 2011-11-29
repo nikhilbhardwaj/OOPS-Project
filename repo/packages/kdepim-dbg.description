@@ -1,0 +1,5 @@
+Debugging symbols for kdepim
+	
+this package contains the debugging symbols associated with kdepim.
+they will automatically be used by gdb for debugging kdepim-related
+issues.

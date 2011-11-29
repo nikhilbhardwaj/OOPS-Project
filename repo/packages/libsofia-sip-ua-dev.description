@@ -1,0 +1,10 @@
+Sofia-sip library development files
+	
+sofia-sip is an open-source sip user-agent library, compliant
+with the ietf rfc3261 specification. it can be used as
+a building block for sip client software for uses such as voip,
+im, and many other real-time and person-to-person communication
+services.
+
+this package provides the headers and libraries needed to build
+applications against the sofia-sip library.

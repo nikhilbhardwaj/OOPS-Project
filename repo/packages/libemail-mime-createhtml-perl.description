@@ -1,0 +1,12 @@
+Multipart html email builder
+	
+email::mime::createhtml allows you to build html emails, optionally with a
+text-only alternative and embedded media objects.
+
+for example, an html email with an alternative version in plain text and with
+all the required images contained in the mail.
+
+note that this module does not send any mail, it merely does the work of
+building the appropriate mime message.  the message can be sent with
+email::send or any other mailer that can be fed a string representation of an
+email message.

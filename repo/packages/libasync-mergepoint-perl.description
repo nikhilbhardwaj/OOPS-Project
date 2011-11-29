@@ -1,0 +1,13 @@
+Perl module to resynchronize multiple control flows
+	
+async::mergepoint is a module designed to provide a way to resynchronize
+multiple parallel control flows. often in program logic, multiple different
+steps need to be taken that are independent of each other, but their total
+result is needed before the next step can be taken. in synchronous code, the
+usual approach is to do them sequentially.
+
+an asynchronous or event-based program could do this, but if each step
+involves some io idle time, better overall performance can often be gained by
+running the steps in parallel. a async::mergepoint object can then be used to
+wait for all of the steps to complete, before passing the combined result of
+each step on to the next stage.

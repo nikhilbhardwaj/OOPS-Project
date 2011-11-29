@@ -1,0 +1,6 @@
+Tool for monitoring computer clusters using broadcasts
+	
+the sinfo cluster monitoring system uses network broadcasts to distribute
+information about the status of local nodes, including their cpu/memory
+usage, network load, and top five processes. it consists of a daemon
+running on each node and an ncurses frontend to monitor them.

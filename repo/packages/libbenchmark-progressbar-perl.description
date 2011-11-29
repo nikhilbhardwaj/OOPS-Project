@@ -1,0 +1,12 @@
+Perl module that displays progress bar during benchmarking
+	
+benchmark::progressbar is a combination of benchmark and term::progressbar
+that produces a simple progress bar illustrating execution of benchmark
+runs. as such, it is particularly useful for heavy benchmarking tests
+that take a long time to complete.
+
+you can use it as a drop-in replacement for benchmark, but the only functions
+that would display a progress bar are: cmpthese, timethese and timeit.
+
+this module is not compatible for use with benchmark in the same script. the
+author doesn't know of any case where this would make sense.

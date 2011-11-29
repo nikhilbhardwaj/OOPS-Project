@@ -1,0 +1,11 @@
+View, edit and compile latex documents from within vim
+	
+vim-latexsuite attempts to provide a comprehensive set of tools to view,
+edit and compile latex documents in vim. together, they provide tools starting
+from macros to speed up editing latex documents to functions for forward
+searching .dvi documents.
+
+this package also provides help to latex in vim.
+
+by default, vim-latexsuite is not enabled. please read
+/usr/share/doc/vim-latexsuite/readme.debian after installing the package.

@@ -1,0 +1,5 @@
+16-bit x86 c library and include files
+	
+this is the c library used to compile with bcc. it includes all the
+headers and static libraries needed to build 16-bit applications,
+for linux/8086, linux/i386 and dos .com executables.

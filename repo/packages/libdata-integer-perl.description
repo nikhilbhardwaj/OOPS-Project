@@ -1,0 +1,9 @@
+Perl modules handling details of the native integer data type
+	
+data::integer is about the native integer numerical data type.  a native
+integer is one of the types of datum that can appear in the numeric part
+of a perl scalar.  this module supplies constants describing the native
+integer type.
+
+there are actually two native integer representations: signed and
+unsigned.  both are handled by this module.

@@ -1,0 +1,6 @@
+Backend providing graphics support using cairo
+	
+graphics::primitive::driver::cairo is a backend implementation using cairo
+that draws graphics::primitive objects (see libgraphics-primitive-perl). in
+most cases, this module will not be used directly, but rather as part of your
+application using graphics::primitive.

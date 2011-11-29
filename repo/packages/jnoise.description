@@ -1,0 +1,7 @@
+White and pink noise generator
+	
+jnoise is a small command line jack app
+generating both white and pink noise.
+both noise sources produce have a gaussion
+amplitude distribution, and output a signal
+at -20db rms ref. a full scale sine wave.

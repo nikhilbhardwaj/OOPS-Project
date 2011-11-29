@@ -1,0 +1,17 @@
+Bare-bones html parser
+	
+html::simpleparse is a bare-bones html parser, similar to html::parser,
+but with a couple important distinctions:
+
+first, html::parser knows which tags can contain other tags, which start
+tags have corresponding end tags, which tags can exist only in the <head>
+portion of the document, and so forth.  html::simpleparse does not know any
+of these things.  it just finds tags and text in the html you give it, it
+does not care about the specific content of these tags (though it does
+distinguish between different _types_ of tags, such as comments, starting
+tags like <b>, ending tags like </b>, and so on).
+
+second, html::simpleparse does not create a hierarchical tree of html
+content, but rather a simple linear list.  it does not pay any attention to
+balancing start tags with corresponding end tags, or which pairs of tags are
+inside other pairs of tags.

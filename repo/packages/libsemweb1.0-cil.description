@@ -1,0 +1,8 @@
+Semantic web/rdf library
+	
+semweb is a semantic web/rdf library written in c# for mono and microsoft .net
+framework. the library can be used for reading and writing rdf (xml, n3),
+keeping rdf in persistent storage (memory, mysql, etc.), querying persistent
+storage via simple graph matching and sparql, and making sparql queries to
+remote endpoints. limited rdfs and general-purpose inferencing is also
+possible.

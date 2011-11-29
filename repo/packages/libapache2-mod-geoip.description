@@ -1,0 +1,8 @@
+Geoip support for apache2
+	
+this is an apache2 module for finding the country that a web request
+originated from. it uses the geoip library and database to perform
+the lookup. the module allows manipulation of client requests from within
+apache based on the country of origin.
+
+this module only works on apache 2 servers.

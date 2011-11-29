@@ -1,0 +1,8 @@
+Creates and maintains an isatap client tunnel (rfc 5214)
+	
+isatapd creates and maintains an isatap client tunnel (rfc 5214) in linux.
+
+it uses the in-kernel isatap support first introduced in linux-2.6.25.
+it does not operate the tunnel or handle any ipv6 traffic, it only sets
+up the tunnel parameters, the potential router list, sends periodic
+router solicitations and tries to detect link changes.

@@ -1,0 +1,13 @@
+Lexically warn about using the indirect object syntax
+	
+when enabled (or disabled as some may prefer to say, since you actually turn
+it on by calling no indirect), this pragma warns about indirect object syntax
+constructs that may have slipped into your code. this syntax is now
+considered harmful, since its parsing has many quirks and its use is error
+prone (when swoosh isn't defined, swoosh $x actually compiles to $x->swoosh).
+
+it currently does not warn for core functions (print, say, exec or system).
+this may change in the future, or may be added as optional features that
+would be enabled by passing options to unimport.
+
+indirect is not a source filter.

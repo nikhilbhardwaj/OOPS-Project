@@ -1,0 +1,28 @@
+System for processing phonetic symbols in latex
+	
+tipa is a system for processing ipa (international phonetic
+alphabet) symbols in latex written by fukui rei.  tipa stands for
+either tex ipa or tokyo ipa and derived from the tsipa package, made
+in 1992 by kobayashi hajime, fukui rei and shirakawa shun.
+
+among many features of tipa, the following are the new features as
+compared with tsipa or any other existing systems for processing ipa
+symbols:
+
+
+  * a new 256 character encoding for phonetic symbols (`t3'), which
+    includes all the symbols and diacritics found in the recent
+    versions of ipa and some non-ipa symbols.
+  * complete support of latex2e.
+  * roman, slanted, bold, bold extended and sans serif font styles.
+  * easy input method in the ipa environment.
+  * extended macros for accents and diacritics.
+  * a flexible system of macros for `tone letters'.
+  * an optional package (vowel.sty) for drawing vowel diagrams.
+  * a slightly modified set of fonts that go well when used with
+    times roman and helvetica fonts.
+
+
+type 1 fonts for tipa are also included in this package (to make them
+available in x11 applications other than latex, please install the
+xfonts-tipa package).

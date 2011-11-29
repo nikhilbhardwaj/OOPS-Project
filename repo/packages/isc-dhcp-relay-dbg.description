@@ -1,0 +1,12 @@
+Dhcp relay daemon (debugging symbols)
+	
+this is the relay from the internet software consortium's implementation of
+dhcp. for more information visit
+http://www.isc.org.
+
+this package contains the debugging symbols for isc-dhcp-relay
+
+installing this package will make the machine a dhcp relay, which
+requires a reachable dhcp or bootp server in order to function.
+
+extra documentation can be found in the package isc-dhcp-common.

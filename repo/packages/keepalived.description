@@ -1,0 +1,14 @@
+Failover and monitoring daemon for lvs clusters
+	
+keepalived is used for monitoring real servers within a linux
+virtual server (lvs) cluster.  keepalived can be configured to
+remove real servers from the cluster pool if it stops responding,
+as well as send a notification email to make the admin aware of
+the service failure.
+
+in addition, keepalived implements an independent virtual router
+redundancy protocol (vrrpv2; see rfc2338 for additional info)
+framework for director failover.
+
+you need a kernel >= 2.4.28 or >= 2.6.11 for keepalived.
+see readme.debian for more information.

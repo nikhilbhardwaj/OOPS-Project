@@ -1,0 +1,11 @@
+Module for working with open document format files
+	
+openoffice::oodoc is a perl module for reading from/writing to files that
+comply with the oasis open document format for office applications (odf),
+also known as the iso/iec 26300:2006 standard. it provides a high-level,
+document-oriented language, and isolates the programmer from the details
+of the file format.
+
+this module can process different document classes (texts, spreadsheets,
+presentations, and drawings). it can retrieve or update styles and images,
+document metadata, as well as text content.

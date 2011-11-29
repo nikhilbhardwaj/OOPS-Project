@@ -1,0 +1,11 @@
+Ocaml xml manipulation module
+	
+xmlm allows the ocaml programmer to manipulate xml data.
+its complexity is half-way between the easy xml-light module and
+a full parsing of xml data.
+
+it is also very simple to updgrade existing code using xml-light
+in order to use xmlm.
+
+this package contains all the development stuff you need to develop
+ocaml programs which use xmlm.

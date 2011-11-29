@@ -1,0 +1,10 @@
+Make trac wiki pages printable, exporting to pdf or printable html
+	
+wikiprint features:
+
+ * fully customizable header/footers for pdf
+ * syntax highlighting in exported format, using pygments
+ * customizable front page for pdf book format
+ * automatic creation of table of contents if [[pageoutline]] macro is used
+
+the style of the resulting pdf or html can be fully customized using css files.

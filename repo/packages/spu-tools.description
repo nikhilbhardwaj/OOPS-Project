@@ -1,0 +1,10 @@
+User space tools for the cell broadband engine
+	
+the spu-tools package contains user space tools for cell/b.e.
+currently, it contain two tools:
+
+
+ - spu-top: a top-like tool to watch the spu's on a cell be
+   system. it shows information about spus and running spu contexts.
+ - spu-ps: a ps-like tool, which dumps a report on the currently
+   running spu contexts.

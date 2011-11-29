@@ -1,0 +1,5 @@
+Displays serial port modem status lines
+	
+statserial displays a table of the signals on a standard 9-pin or
+25-pin serial port, and indicates the status of the handshaking lines.
+it can be useful for debugging problems with serial ports or modems.

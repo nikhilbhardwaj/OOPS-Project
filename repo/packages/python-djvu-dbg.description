@@ -1,0 +1,7 @@
+Python support for the djvu image format (debug extension)
+	
+python-djvulibre is a set of python bindings for the djvulibre library,
+an open source implementation of djvu.
+
+this package contains the detached debugging symbols and the extensions built
+for the python debug interpreter.

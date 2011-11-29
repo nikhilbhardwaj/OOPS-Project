@@ -1,0 +1,15 @@
+Concurrent programming library for ocaml
+	
+this library enhances the threads library of the standard ocaml distribution
+in two dimensions:
+
+- it implements the same api of the standard threads library on different
+execution engines (process, networker), so that a single copy of
+source code can be compiled and deployed to different environments
+without modification.
+- it is also a super set of the standard threads library, with extra
+components (stm etc.), functions (spawn etc.) and features (object-level
+compatibility etc.).
+
+this package provides static libraries, interfaces, and documentation
+for cothreads.

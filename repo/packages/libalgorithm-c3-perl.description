@@ -1,0 +1,10 @@
+Perl module for merging hierarchies using the c3 algorithm
+	
+the algorithm::c3 module implements the c3 algorithm.
+
+c3 is the name of an algorithm which aims to provide a sane method resolution
+order under multiple inheritence. it was first introduced in the langauge
+dylan, and then later adopted as the preferred mro (method resolution order)
+for the new-style classes in python 2.3. most recently it has been adopted as
+the 'canonical' mro for perl 6 classes, and the default mro for parrot
+objects as well.

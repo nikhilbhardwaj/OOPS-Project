@@ -1,0 +1,13 @@
+Perl module to compare perl data structures recursively
+	
+the data::compare module compares two perl data structures recursively,
+it natively handles several built-in data types - scalars, references
+to scalars, references to arrays, references to hashes, references
+to subroutines, compiled regular expressions, and globs. for objects, it tries
+to do the right thing and compares the underlying data type.
+
+however, this is not always what you want. this is especially true if you
+have complex objects which overload stringification and/or numification.
+so you can extend this module with your own plugins for special data
+structures, by using data::compare::plugins (this is not an extra package, it
+is included here).

@@ -1,0 +1,6 @@
+Library embedding http server functionality
+	
+libmicrohttpd is a small c library for embedding http server functionality into
+applications.
+
+it will be used in future gnunet versions as part of the http transport.

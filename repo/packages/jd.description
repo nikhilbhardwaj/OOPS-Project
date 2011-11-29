@@ -1,0 +1,25 @@
+Simple browser for "2ch-style" web forum sites
+	
+jd offers a comfortable browsing experience on 2ch-style bulletin board
+systems. its features include:
+
+
+ - automated login,
+ - message viewing/posting,
+ - image viewing,
+ - mouse gestures,
+ - ignore lists,
+ - "play-by-play" mode.
+
+
+it can also significantly reduce the load on servers by bypassing cgi programs
+and directly retrieving thread data files to your local hard drives.
+
+"2ch-style" web forum sites have their origins in 2channel, which is a very
+popular internet forum in japan. such sites are often available only in the
+japanese language. for example:
+
+
+ - 2channel http://www.2ch.net
+ - shitaraba http://rentalbbs.livedoor.com/jbbs/
+ - machi-bbs http://www.machi.to/

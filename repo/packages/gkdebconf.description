@@ -1,0 +1,6 @@
+Helper to reconfigure packages with debconf
+	
+this is a program that helps one using the "dpkg-reconfigure" tool.
+it is basically a graphical frontend. it makes life easier showing
+a simple menu of packages which can be reconfigured with debconf and
+the debconf frontends that can be used for the reconfiguration.

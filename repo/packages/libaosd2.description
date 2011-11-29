@@ -1,0 +1,8 @@
+Atheme.org's on screen display library - main
+	
+libaosd is an advanced on screen display library. it supports
+many modern features like anti-aliased text and composited
+rendering via xcomposite, as well as support for rendering
+cairo and pango layouts.
+
+this package contains the main library.

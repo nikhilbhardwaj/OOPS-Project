@@ -1,0 +1,9 @@
+Gnu r package for discrete data models
+	
+this package consists of r functions developed at the political
+science computational laboratory at stanford university; it currently
+includes models for count data (hurdle regression and zero-inflated
+negative binomial and poisson models), ordinal probit and logit (also
+available in mass via polr), and an item-response theory model.  also
+included are vuong tests for non-nested hypothesis testing and
+convenience functions for handling roll-call vote matrices.

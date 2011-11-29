@@ -1,0 +1,5 @@
+Filesystem monitor plugin for the xfce4 panel
+	
+the fsguard plugin checks free space on a chosen mount point
+frequently and displays an alarm if free space is less than
+given alarm limit.

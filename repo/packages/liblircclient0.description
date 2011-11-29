@@ -1,0 +1,6 @@
+Infra-red remote control support - client library
+	
+lirc stands for 'linux infra-red remote control'.
+
+this package provides a library with functions to support remote
+controls via lirc in programs such as xawtv.

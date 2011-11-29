@@ -1,0 +1,9 @@
+Common files for firebird 2.1 servers
+	
+this package contains files common to super and classic firebird servers.
+
+these include the security database, manual pages, support scripts as well as
+configuration files in /etc/firebird/2.1.
+
+please refer to the firebird2.1-super or firebird2.1-classic packages for more
+information about firebird in general.

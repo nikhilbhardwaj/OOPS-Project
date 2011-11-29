@@ -1,0 +1,10 @@
+Pure-python git library
+	
+dulwich is a python implementation of the file formats and protocols
+used by the git version control system. it can currently read from and write
+to existing git repositories and implements the protocol for pushing and
+receiving packs from remote servers.
+
+all functionality is available in pure python, but for improved performance
+replacements of some modules written in c are also available. this package
+includes the high performance versions.

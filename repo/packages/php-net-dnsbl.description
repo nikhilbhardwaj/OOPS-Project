@@ -1,0 +1,5 @@
+Checks if a given host or url is listed on a dnsbl or surbl
+	
+the pear:net_dnsbl_* classes check if a given host or url is listed
+on a dns-based/realtime blackhole list (dnsbl, rbl) or spam uri
+realtime blocklist (surbl).

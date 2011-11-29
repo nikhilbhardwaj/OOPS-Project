@@ -1,0 +1,9 @@
+A lightweight rpc library based on xml and http for c and c++
+	
+xml-rpc is a quick-and-easy way to make procedure calls over the internet.
+it converts the procedure call into an xml document, sends it to a remote
+server using http, and gets back the response as xml.
+
+this library provides a modular implementation of xml-rpc for c and c++.
+
+xmlrpc-c homepage: http://xmlrpc-c.sourceforge.net/

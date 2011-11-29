@@ -1,0 +1,6 @@
+Container for dublin core metadata elements
+	
+dublincore::record methods such as element(), elements(), title(), etc return
+dublincore::element objects as their result. these can be queried further to
+extract an elements content, qualifier, language, and schema. for a definition
+of these attributes please see rfc 2731 and http://www.dublincore.org.

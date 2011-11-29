@@ -1,0 +1,7 @@
+Perl module for a sax2 xml writer
+	
+xml::sax::writer helps to serialize sax2 representations of xml documents to
+strings, files, and other flat representations. it handles charset encodings,
+xml escaping conventions, and so forth. it is still considered alpha,
+although it has been put to limited use in settings such as xml::libxml and
+the axkit xml application server.

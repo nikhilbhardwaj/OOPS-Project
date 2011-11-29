@@ -1,0 +1,6 @@
+Pyserial - module encapsulating access for the serial port
+	
+this module capsulates the access for the serial port. it provides
+backends for standard python running on windows, linux, bsd (possibly
+any posix compilant system). the module named "serial" automaticaly
+selects the appropriate backend.

@@ -1,0 +1,19 @@
+Exchange nethack bones files with other players
+	
+nethack sometimes saves the level on which you die (including your
+stuff, what killed you, and your ghost) in a "bones file".  these files
+get loaded into later nethack games.  if you're the only nethack player
+on your system you'll only get bones files you created yourself.
+
+with hearse, you can automatically exchange bones files with other
+nethack players.  when run it uploads any new bones files it finds
+on your system, then downloads any bones files the server feels like
+giving it.  see http://www.argon.org/~roderick/hearse/ for more
+information.
+
+an important thing to note is that by default using hearse will cause
+you to end up with more bones than you otherwise would have.  this
+changes the game's balance and is considered by many players to be a
+mild form of cheating.  you can address this by turning on the
+--delete-uploaded option, but the down side is you'll never encounter
+your own bones files.

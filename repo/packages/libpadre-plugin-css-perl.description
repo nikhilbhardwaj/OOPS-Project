@@ -1,0 +1,10 @@
+Padre plugin for css validation and minifying
+	
+this plugin adds cascading stylesheets minification and validation
+functionality to padre.
+
+minification is done using css::minifier::xs and validation is done using
+webservice::validator::css::w3c.
+
+padre is a perl ide that is simple to use for new perl programmers but also
+supports large multi-lingual and multi-technology projects.

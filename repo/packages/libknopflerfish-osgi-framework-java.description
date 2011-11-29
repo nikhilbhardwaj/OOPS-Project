@@ -1,0 +1,12 @@
+Java framework implementing the osgi r4 version
+	
+osgi, open service gateway initiative, specifies an industry standard java
+application platform, allowing multiple applications, to securely run in a
+single jvm. these programs can share resources as data, functionality and
+threads.
+
+applications areas for osgi ranges from use as a service platform on embedded
+devices, to plugin mechanisms for larger programs. the initial goal of osgi
+was the embedded market, but other uses are certainly possible.
+
+this package specifically provides the framework jar file.

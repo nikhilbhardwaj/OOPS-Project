@@ -1,0 +1,18 @@
+X window system utility programs for development
+	
+xutils-dev provides a set of utility programs shipped with the x window system
+that do not require the x libraries; many of these programs are useful
+even on a system that does not have any x clients or x servers installed.
+
+the programs in this package include:
+
+ - ccmakedep, a version of makedepend which "does it right"
+ - imake, a c preprocessor interface to the make utility;
+ - lndir, a tool that creates a shadow directory of symbolic links to
+   another directory tree;
+ - makedepend, a tool to create dependencies in makefiles;
+ - makeg, a tool for making debuggable executables.
+
+
+this package also contains xorg-macros.m4, a set of macros used in configure
+scripts of x.org packages.

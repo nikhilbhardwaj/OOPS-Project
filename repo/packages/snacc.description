@@ -1,0 +1,19 @@
+Asn.1 to c or c++ or idl compiler
+	
+snacc is short for "sample neufeld asn.1 to c compiler" and asn.1
+stands for abstract syntax notation one (itu-t x.208/iso 8824).
+snacc supports a subset of asn.1 1988.  if you need features of
+asn.1 1992 or later, snacc is not for you.
+
+given an asn.1 source file(s) snacc can produce:
+
+1. c routines for ber encoding, decoding, printing and freeing.
+2. c++ routines for ber encoding, decoding, and printing.
+3. a type table that can be used with c driver routines
+
+   for ber encoding, decoding, printing and freeing.
+
+
+if you want to build snacc based applications, you want to install
+the libsnacc-dev package, too.  your application will then depend on
+the snacc libraries, you find in the libsnacc0c2 package.

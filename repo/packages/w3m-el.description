@@ -1,0 +1,8 @@
+Simple emacs interface of w3m
+	
+emacs-w3m is an interface program of w3m, a pager with www capability.
+it can be used as a lightweight www browser on emacsen.
+
+to use the optional features shimbun (interface with web newspapers),
+w3m-namazu (search files with namazu), w3m-perldoc (view perl documents),
+etc., install the required packages flim, namazu2, perl-doc, etc.

@@ -1,0 +1,8 @@
+An nfo file parser/writer library
+	
+libnfo is a small library to parse and write nfo files. nfo files are used
+to store metadata information on many multimedia files.
+
+the nfo format is used, among others, by enna and xbmc media center. see
+http://xbmc.org/wiki/?title=import_-_export_library
+for a format definition.

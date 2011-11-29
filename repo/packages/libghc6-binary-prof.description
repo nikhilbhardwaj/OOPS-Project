@@ -1,0 +1,10 @@
+Haskell library for binary serialisation; profiling library
+	
+this package provides a library for the haskell programming language,
+compiled for profiling.
+
+binary serialisation of haskell values to and from lazy bytestrings.
+the binary library provides methods for encoding haskell values as
+streams of bytes directly in memory. the resulting bytestring can
+then be written to disk, sent over the network, or futher processed
+(for example, compressed with gzip).

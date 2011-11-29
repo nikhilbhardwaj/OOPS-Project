@@ -1,0 +1,6 @@
+Interfaces for python
+	
+this package provides an implementation of object interfaces for python.
+interfaces are a mechanism for labeling objects as conforming to a given api
+or contract. so, this package can be considered as implementation of the
+design by contract methodology support in python.

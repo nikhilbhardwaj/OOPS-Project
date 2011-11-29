@@ -1,0 +1,10 @@
+Perl module to manage an imap account
+	
+net::imap::simple provides a simple way to access and manipulate information
+on internet message access protocol (imap) capable servers. the api is mostly
+equivalent to net::pop3, with some additional extensions based on the other
+features supported in the imap standard. this module supports connections via
+ssl using io::socket::ssl (see libio-socket-ssl-perl), over ipv6 using
+io::socket::inet6 (see libio-socket-inet6-perl) and handling messages in
+various ways (delete or undelete, mark as read or unread, expunge, edit
+flags, and more).

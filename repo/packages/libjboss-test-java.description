@@ -1,0 +1,7 @@
+Jboss test suite
+	
+the jboss testsuite module is a collection of junit tests which
+require a running jboss instance for in-container testing. unit tests
+not requiring the container reside in the module they are testing.
+
+this package ships the jboss-test libraries.

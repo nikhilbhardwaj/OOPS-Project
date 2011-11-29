@@ -1,0 +1,7 @@
+Gsm 07.10 multiplexer
+	
+pyneo mobile stack: muxer as gsm 07.10 describes.
+a muxer for gsm modems to allow more than one channel to be used with
+the modem. each channel can be used to issue phonecalls, watch signal
+strength, receiving sms or even doing ppp (gprs) at the same time.
+access to the multiplexer is managed via d-bus.

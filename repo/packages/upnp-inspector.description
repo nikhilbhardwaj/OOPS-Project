@@ -1,0 +1,8 @@
+Python upnp framework analyser
+	
+the inspector is a universal plug and play (upnp) device and service analyser.
+it is also a debugging tool, based on the coherence digital living network/
+universal plug and play framework (dlna/upnp). the inspector is a gui to
+discover and explore upnp devices on your network. detected devices are
+displayed in a tree-view, where actions can be called and state-variables may
+be queried.

@@ -1,0 +1,9 @@
+Texas instruments calculator communication library
+	
+the libticalcs is a library providing support for communication with texas
+instruments calculators. it implements the ti protocol for each type of
+calculator, independently of the link cable used to establish the link.
+
+all graphing calculators from texas instruments are supported.
+
+this package provides the shared library.

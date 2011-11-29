@@ -1,0 +1,6 @@
+Perl5 module for extracting data from macintosh binhex files
+	
+binhex is a format used by macintosh for transporting mac files safely
+through electronic mail, as short-lined, 7-bit, semi-compressed data
+streams. this module provides a means of converting those data streams
+back into into binary data.

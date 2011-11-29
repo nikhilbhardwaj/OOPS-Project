@@ -1,0 +1,17 @@
+Ggz gaming zone: utilities
+	
+ggz utilities are nice ggz applications that don't fit into another
+package.  they include:
+
+ - cmd-client: utility to broadcast messages across all rooms at a ggz
+   server.
+ - metaserv: the first prototype of a ggz meta server.  it is completely
+   xml-based but understands uri queries as well.
+ - telggz: a telnet wrapper for ggz.  using telggz you can chat from
+   everywhere in the world, provided you have a telnet terminal.
+ - ggz commgen: generator for network protocol implementations based on
+   xml protocol descriptions.
+
+
+this package is part of the ggz gaming zone, a multiuser networked
+gaming environment.

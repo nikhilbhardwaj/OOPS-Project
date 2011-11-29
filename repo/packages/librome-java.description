@@ -1,0 +1,7 @@
+Java library to handle atom and rss feeds
+	
+rome is an set of open source java tools for parsing, generating
+and publishing rss and atom feeds.
+
+you can parse to an rss object model, an atom object model or an
+abstract syndfeed model that can model either family of formats.

@@ -1,0 +1,5 @@
+A probe to collect traffic-data and send it to a viewer
+	
+tttprobe is the probe program in the ttt program suite. tttprobe
+collects local traffic-data and sends it over a network to an
+instance of tttview.

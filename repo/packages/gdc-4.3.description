@@ -1,0 +1,6 @@
+The d compiler
+	
+this is the d compiler, which compiles d on platforms supported by the gcc
+compiler. it uses the gcc backend to generate optimised code.
+
+for more information check https://bitbucket.org/goshawk/gdc

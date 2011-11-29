@@ -1,0 +1,12 @@
+Door to the 'donkey' network
+	
+mldonkey is a door to the 'donkey' network, a decentralized network used to
+exchange big files on the internet. it is written in a wonderful language,
+called objective-caml, and present most features of the basic windows donkey
+client, plus some more:
+
+ - works on unix-compatible platforms.
+ - remote control by telnet, web browser or gtk+ interface.
+ - access to edonkey (edonkey2000, overnet, emule)
+ - access to gnutella1/2
+ - access to bittorrent

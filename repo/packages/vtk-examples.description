@@ -1,0 +1,10 @@
+C++, tcl and python example programs/scripts for vtk
+	
+the visualization toolkit (vtk) is an object oriented, high level
+library that allows one to easily write c++ programs, tcl, python and
+java scripts that do 3d visualization.
+
+this package contains examples from the vtk source. to compile
+the c++ examples you will need to install the vtk-dev package as well.
+the python and tcl examples can be run with the corresponding packages
+(python-vtk, vtk-tcl).

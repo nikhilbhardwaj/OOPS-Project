@@ -1,0 +1,6 @@
+Gnu getopt - java port
+	
+the gnu java getopt classes support short and long argument parsing
+in a manner 100% compatible with the version of gnu getopt in glibc
+2.0.6 with a mostly compatible programmer's interface as well. note that
+this is a port, not a new implementation.

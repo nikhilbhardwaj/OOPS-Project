@@ -1,0 +1,8 @@
+Client library for the my.gpodder.org web service
+	
+the mygpoclient library allows developers to utilize a
+pythonic interface to the my.gpodder.org web services.
+
+in addition to the user-specific api endpoints, a public
+(non-authenticated) api is provided for searching podcasts
+and retrieving the podcast toplist from the server.

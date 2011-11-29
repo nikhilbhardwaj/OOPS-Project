@@ -1,0 +1,6 @@
+Class::dbi plugin to get count(*) results with abstract sql
+	
+the class::dbi::plugin::abstractcount module combines the functionality from
+class::dbi::plugin::countsearch (counting objects without having to use an
+array or an iterator), and class::dbi::abstractsearch, which allows complex
+where-clauses a la sql::abstract.

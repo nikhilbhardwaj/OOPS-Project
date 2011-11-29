@@ -1,0 +1,10 @@
+Rdf library, postgresql backend
+	
+redland is a library that provides a high-level interface for rdf
+(resource description framework) implemented in an object-based api.
+it is modular and supports different rdf/xml parsers, storage
+mechanisms and other elements. redland is designed for applications
+developers to provide rdf support in their applications as well as
+for rdf developers to experiment with the technology.
+
+this package contains the postgresql storage backend.

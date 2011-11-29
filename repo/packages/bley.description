@@ -1,0 +1,5 @@
+Intelligent greylisting daemon for postfix
+	
+bley uses various test (incl. rbl and spf) to decide whether a sender
+should be greylisted or not, thus mostly eliminating the usual
+greylisting delay while still filtering most of the spam.

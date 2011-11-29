@@ -1,0 +1,6 @@
+Transparent ip (layer 3) proxy arp bridging tool
+	
+this is useful for creation of transparent firewalls and bridging
+networks with different mac protocols. also, unlike standard
+bridging, proxy arp bridging allows to bridge ethernet networks
+behind wireless nodes without using wds or layer 2 bridging.

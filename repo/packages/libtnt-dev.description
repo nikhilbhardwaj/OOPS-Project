@@ -1,0 +1,23 @@
+Interface for scientific computing in c++
+	
+the template numerical toolkit (tnt) is a collection of interfaces and
+reference implementations of numerical objects useful for scientific
+computing in c++. the toolkit defines interfaces for basic data
+structures, such as multidimensional arrays and sparse matrices,
+commonly used in numerical applications. the goal of this package is to
+provide reusable software components that address many of the portability
+and maintenance problems with c++ codes.
+
+tnt provides a distinction between interfaces and implementations of tnt
+components. for example, there is a tnt interface for two-dimensional
+arrays which describes how individual elements are accessed and how
+certain information, such as the array dimensions, can be used in
+algorithms; however, there can be several implementations of such an
+interface: one that uses expression templates, or one that uses blas
+kernels, or another that is instrumented to provide debugging information.
+by specifying only the interface, applications codes may utilize such
+algorithms, while giving library developers the greatest flexibility in
+employing optimization or portability strategies.
+
+
+ homepage: http://math.nist.gov/tnt/

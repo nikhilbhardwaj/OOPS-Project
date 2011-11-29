@@ -1,0 +1,9 @@
+Audio mixer for gnustep
+	
+volumecontrol is a gnustep program for adjusting the audio mixer
+on systems that use the oss api. it allows the sound level,
+left/right speakers, muting for master, pcm, bass, and treble
+levels to be controlled.
+
+
+ homepage: http://www.linuks.mine.nu/volumecontrol/

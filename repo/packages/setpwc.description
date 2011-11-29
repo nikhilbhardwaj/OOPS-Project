@@ -1,0 +1,10 @@
+Program to set and query settings of (mainly) philips webcams
+	
+the setpwc program can set and list various settings of philips
+webcams, and also some webcams from other manufacturers, but based on
+the pwc chipset. the program can set properties such as compression
+preference, framerate, gain control, shutter speed, white red and
+blue balance, etc. it can also query current settings.
+
+in addition, setpwc can store the settings in nonvolatile ram, as well as
+restore factory defaults.

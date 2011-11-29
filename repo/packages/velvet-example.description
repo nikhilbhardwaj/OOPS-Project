@@ -1,0 +1,13 @@
+Example data for the velvet sequence assembler
+	
+velvet is a de novo genomic assembler specially designed for short read
+sequencing technologies, such as solexa or 454, developed by daniel zerbino and
+ewan birney at the european bioinformatics institute (embl-ebi), near
+cambridge, in the united kingdom.
+
+velvet currently takes in short read sequences, removes errors then produces
+high quality unique contigs. it then uses paired read information, if
+available, to retrieve the repeated areas between contigs.
+
+this package contains the example data distributed in the sources of velvet,
+a de novo genomic assembler.

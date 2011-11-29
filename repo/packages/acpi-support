@@ -1,0 +1,4 @@
+PackageId:88
+Name:acpi-support
+Version:0.137-5
+Deps:acpi-fakekey,acpi-support-base,acpid,lsb-base,pm-utils,x11-xserver-utils

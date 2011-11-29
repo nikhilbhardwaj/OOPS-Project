@@ -1,0 +1,10 @@
+A cascading style sheets (css) editing mode for emacs
+	
+this is a simple emacs mode for editing css style sheets. it adds
+font-locking and some basic auto-indentation support to emacs. it
+works with emacs 19.34, but should also work with both older and
+newer versions as well as xemacs.
+
+while css has a c-like syntax, this mode does a better job than
+cc-mode of handling the features of the css language.  it supports
+both css level 1 and level 2.

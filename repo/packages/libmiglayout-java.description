@@ -1,0 +1,8 @@
+The java layout manager
+	
+miglayout is a superbly versatile swt/swing layout manager that makes
+layout problems trivial. it is using string or api type-checked
+constraints to format the layout. miglayout can produce flowing, grid
+based, absolute (with links), grouped and docking layouts. miglayout
+is created to be to manually coded layouts what matisse/grouplayout
+is to ide supported visual layouts.

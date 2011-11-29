@@ -1,0 +1,11 @@
+Tools for udf filesystems and dvd/cd-r(w) drives
+	
+this package contains a number of user-space tools related to
+creating filesystems in the udf (universal disk format), which is
+primarily used for dvds, but sometimes also cd-roms:
+
+
+ mkudffs - format a device, creating an empty udf filesystem
+ cdrwtool - low-level drive management (e.g. set writing speed, format)
+ pktsetup - set up a packet writing device (/dev/pktcdvd0) for a drive
+ wrudf - maintains a udf filesystem (undocumented)

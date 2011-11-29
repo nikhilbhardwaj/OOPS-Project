@@ -1,0 +1,10 @@
+Ldap-like embedded database - shared library
+	
+ldb is a ldap-like embedded database built on top of tdb.
+
+it provides a fast database with an ldap-like api designed
+to be used within an application. in some ways it can be seen as a
+intermediate solution between key-value pair databases and a real ldap
+database.
+
+this package contains the shared library file.

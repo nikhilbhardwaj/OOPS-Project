@@ -1,0 +1,9 @@
+The qt3 configuration application
+	
+the qt configuration program allows endusers to configure the look
+and behavior of any qt3 application. it is mostly only necessary
+on systems which don't run kde because the kde control center already
+covers this configuration automatically for the users qt3 applications
+according to his desktop settings in kde. however, if you need to run
+cjk-fonts or other non-latin scripts, you will most likely want to
+install this package.

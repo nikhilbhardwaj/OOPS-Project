@@ -1,0 +1,15 @@
+Ladspa plugins designed for alsa modular synth
+	
+mcp plugins implement a set of ladspa plugins that vastly improve
+the sound of alsamodularsynth.
+
+currently they consist of these plugins:
+
+ * moog vcf (1-3): moog lowpass filters that quite successfully
+   emulate the properties of the analogue circuit. version 3 of
+   these filters is recommended.
+ * phaser1: a phaser with up to 30 all-pass filters in series.
+ * phaser1+lfo: the same as above, but with built-in lfo. lfo
+   waveform can be continuosly changed from saw down to triangle
+   and saw up.
+ * chorus (1,2): two chorus plugins.

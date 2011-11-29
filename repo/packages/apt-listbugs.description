@@ -1,0 +1,13 @@
+Tool which lists critical bugs before each apt installation
+	
+apt-listbugs is a tool which retrieves bug reports from the debian bug
+tracking system and lists them. especially, it is intended to be invoked
+before each upgrade/installation by apt in order to check whether the
+upgrade/installation is safe.
+
+many developers and users prefer the unstable version of debian for its new
+features and packages.  apt, the usual upgrade tool, can break your system by
+installing a buggy package.
+
+apt-listbugs lists critical bug reports from the debian bug tracking system.
+run it before apt to see if an upgrade or installation is known to be unsafe.

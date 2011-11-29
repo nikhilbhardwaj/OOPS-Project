@@ -1,0 +1,12 @@
+Gtk+ 2 user interface builder (with gnome 2 support)
+	
+glade is a rad tool to enable quick and easy development of user
+interfaces for the gtk+ 2 toolkit.
+
+the user interfaces designed in glade are stored in the well-known
+xml format, enabling easy integration with external tools. you will
+probably want to use it with tools such as libglade, which can load
+the xml files and create the interfaces at runtime.
+
+this package include the module that allows glade to provide gnome
+widgets in its pallete.

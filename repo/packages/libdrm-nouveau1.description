@@ -1,0 +1,6 @@
+Userspace interface to nouveau-specific kernel drm services -- runtime
+	
+this library implements the userspace interface to the nouveau-specific kernel
+drm services. drm stands for "direct rendering manager", which is the
+kernelspace portion of the "direct rendering infrastructure" (dri). the dri is
+currently used on linux to provide hardware-accelerated opengl drivers.

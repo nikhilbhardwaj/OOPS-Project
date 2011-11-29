@@ -1,0 +1,19 @@
+Utility to connect serial-attached peripherals to the input subsystem
+	
+inputattach connects legacy serial-attached input peripherals to the input
+subsystem: keyboards, mice, joysticks, touch-screens...
+
+amongst other things this allows legacy mice to be accessed via the
+/dev/input/mice multiplexer.
+
+supported devices include:
+
+ * serial-attached keyboards including the apple newton keyboard, dec lk201
+   / lk401 keyboards, the stowaway keyboard, sun type 4 and 5 keyboards,
+   standard ps/2 keyboards with a serial adapter
+ * serial mice using genius, logitech, microsoft or mouse systems protocols
+ * serial-attached touchscreens including those manufactured by 3m, elo,
+   fujitsu, penmount, touchright, touchwindow
+ * serial-attached joysticks including i-force, spaceball, spaceorb, gravis
+   stinger, wingman warrior
+ * the handykey twiddler used as a joystick or a chording keyboard

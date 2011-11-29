@@ -1,0 +1,18 @@
+Testing framework for java
+	
+testng is a testing framework inspired by junit and nunit but
+introducing some new functionalities that make it more powerful and
+easier to use, such as:
+
+
+    * jdk 5 annotations
+    * flexible test configuration
+    * support for data-driven testing
+    * support for parameters
+    * distribution of tests on slave machines
+    * powerful execution model (no more testsuite)
+    * embeds beanshell for further flexibility
+
+
+testng is designed to cover all categories of tests, including unit,
+functional, end-to-end and integration tests.

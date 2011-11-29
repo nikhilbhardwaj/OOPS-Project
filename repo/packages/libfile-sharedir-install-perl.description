@@ -1,0 +1,5 @@
+Module for installing read-only data files
+	
+file::sharedir::install is a perl module that allows you to install read-only
+data files from a distribution and easily locate them with file::sharedir. it
+is similar in nature to module::install::share.

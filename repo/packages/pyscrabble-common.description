@@ -1,0 +1,21 @@
+A multiplayer scrabble implementation - common files
+	
+pyscrabble is an online, multiplayer implementation of the popular word game
+written in python and featuring:
+
+
+ * chat and private messaging (online as well as offline)
+ * player rankings and server statistics
+ * use of enable (enhanced north american benchmark lexicon) for
+   english word lookup
+ * timed games
+
+
+this package contains files common to the client and the server.
+you will need to install pyscrabble to play.
+
+notice: scrabble is a registered trademark belonging to hasbro inc in
+the us, and to j.w. spear & sons ltd., a subsidiary of mattel inc.,
+throughout the rest of the world. neither the author, debian, nor
+this game are affiliated with the scrabble crossword game, hasbro,
+spear & sons or mattel in any fashion.

@@ -1,0 +1,6 @@
+Mozilla plugin for authentication using opensc
+	
+a plugin for mozilla that allows s/mime and ssl authentication using
+opensc.
+
+card initialization can be performed by utilities in the opensc package.

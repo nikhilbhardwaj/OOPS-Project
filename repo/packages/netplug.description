@@ -1,0 +1,8 @@
+Network link monitor daemon
+	
+this daemon monitors the link status of network cards and configures
+the network on plug- and un-plug-events.
+
+it's similar to ifplugd, but uses netlink instead of regularly polling
+the link status. this improves power-consumption with laptops, but does
+not work with all network card.

@@ -1,0 +1,12 @@
+Kde networkmanagement infrastructure runtime files
+	
+this package contains runtime libraries and binaries needed by both
+network-manager-kde (knetworkmanager) and plasma-widget-networkmanagement
+packages. currently, it provides interface to networkmanager and the kde4
+control module (kcm) for managing/storing network settings (to be used by
+either of the two support applications later).
+
+it is possible to use this package without its frontends (either
+network-manager-kde or plasma-widget-networkmanagement). it enables
+notifications under kde but actual network management functions will be very
+limited.

@@ -1,0 +1,9 @@
+Java date chooser bean for graphically picking a date
+	
+jcalendar is composed of several other java beans, a jdaychooser, a
+jmonthchooser and a jyearchooser. all these beans have a locale property,
+provide several icons (color 16x16, color 32x32, mono 16x16 and mono 32x32)
+and their own locale property editor. so they can easily be used in gui
+builders. also part of the package is a jdatechooser, a bean composed of an
+idateeditor (for direct date editing) and a button for opening a jcalendar for
+selecting the date.

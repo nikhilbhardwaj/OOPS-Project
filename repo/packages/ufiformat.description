@@ -1,0 +1,6 @@
+Disk formatter for usb floppy drives
+	
+ufiformat is a command-line utility for formatting floppy disks in
+ufi-compatible usb floppy drives. it allows disks to be formatted
+in any format supported by the drive, and can also be used to determine
+what format a disk is currently using.

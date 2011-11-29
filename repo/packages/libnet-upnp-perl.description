@@ -1,0 +1,19 @@
+Perl extensions for upnp
+	
+net::upnp provides support for applications that contact other
+devices via upnp protocols.
+
+the following modules are supported:
+
+ - net::upnp::av::container
+ - net::upnp::av::content
+ - net::upnp::av::item
+ - net::upnp::av::mediaserver
+ - net::upnp::actionresponse
+ - net::upnp::controlpoint
+ - net::upnp::device
+ - net::upnp::gw::gateway
+ - net::upnp::http
+ - net::upnp::httpresponse
+ - net::upnp::queryresponse
+ - net::upnp::service

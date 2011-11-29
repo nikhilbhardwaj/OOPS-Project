@@ -1,0 +1,16 @@
+Browse man pages in your web browser
+	
+point your web browser at http://localhost/cgi-bin/man/man2html to read and
+search your manpages in the browser.
+
+features:
+
+ * fast c cgi program for man/bsd-mandoc to html conversion.
+ * works from the unformatted nroff/troff source.
+ * source may be compressed.
+ * does tbl tables (but not eqn equations).
+ * generates hypertext links to foobar(1), abc@host, and xyzzy.h files
+ * cgi script for whatis-based alpha-indexes by section.
+ * cgi script for name-only alpha-indexes by section.
+ * cgi script for full text search (requires swish++)
+ * front-end script to talk to a pre-launched netscape.

@@ -1,0 +1,5 @@
+X11-based interface to the linux sound driver mixer
+	
+this interface to the sound driver mixer allows easy adjustment of the
+sound card's input and output levels, and selection of sound source
+for recording.

@@ -1,0 +1,21 @@
+Perl module with the most commonly needed test functions and features
+	
+test::most provides the most commonly used testing functions and gives
+a bit more fine-grained control over your test suite.
+
+all functions from the following modules will automatically be
+exported:
+
+
+ * test::more
+ * test::exception
+ * test::differences
+ * test::deep
+ * test::warn
+
+
+this is useful when one is used to most of the above modules but
+wouldn't want to bother to load them all explicitly.
+
+test::most also provides a couple of routines to control tests
+behaviour in case of errors.

@@ -1,0 +1,9 @@
+Provides an oo interface to the php irc functions
+	
+net_smartirc is a php class for communication with irc networks,
+which conforms to the rfc 2812 (irc protocol).
+it's an api that handles all irc protocol messages.
+this class is designed for creating irc bots, chats and show irc related
+info on webpages.
+
+homepage: http://pear.php.net/package/net_smartirc

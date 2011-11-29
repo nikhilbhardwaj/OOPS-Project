@@ -1,0 +1,15 @@
+Converts word processor files to html
+	
+docvert is a web application which takes word processor files
+(typically .doc) and converts them to opendocument and clean html.
+
+the resulting opendocument is then optionally converted to html or
+any xml.  this is done with xml pipelines, an approach that supports
+xslt, breaking up content over headings or sections, and saving those
+results to multiple files (e.g., chapter1.html, chapter2.html, etc.).
+the result is returned in a .zip file.
+
+a command-line program which uses the web application is also included.
+
+this package only supports opendocument. to convert other formats,
+install docvert-openoffice.org.

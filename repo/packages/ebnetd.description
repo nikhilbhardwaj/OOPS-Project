@@ -1,0 +1,10 @@
+The server of ebnet protocol
+	
+the ebnetd distribution is a series of servers which provide ways to
+access so-called "cd-rom books" via tcp/ip, using eb library.  the cd-rom
+books is a popular form to provide dictionaries and multimedia references
+in japan.  various formats such as eb, ebg, ebxa, ebxa-c, s-ebxa and epwing
+are supported.
+
+ebnetd speaks ebnet protocol.  with ebnetd, applications using eb library
+can access cd-rom books on a remote server on which ebnetd runs.

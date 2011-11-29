@@ -1,0 +1,35 @@
+Plugins for josm
+	
+josm (java openstreetmap) plugin collection.
+
+this package contains the following plugins:
+
+ * colorscheme        - allows to create different color schemes.
+ * livegps            - supports live gps input together with gpsd.
+ * measurement        - adds a dialog and a layer to measure length
+                        and angle of segments and create measurement paths.
+ * openvisible        - allows opening gpx and osm files that intersect
+                        the currently visible screen area.
+ * slippymap          - displays a slippy map grid in josm.
+ * surveyor           - allows adding markers/nodes on current gps positions.
+ * wmsplugin          - displays background images from any wms source.
+ * cadastre-fr        - a special handler for the french land registry wms
+                        server.
+ * directupload       - directly uploads gps traces from current active
+                        layer in josm to openstreetmap.org.
+ * editgpx            - anonymizes timestamps and deletes parts of huge gpx
+                        tracks very fast.
+ * lakewalker         - helps vectorizing wms images.
+ * routing            - provides routing capabilities.
+
+
+josm is an editor for openstreetmap (osm) written in java.
+the current version supports stand alone gpx tracks, gpx track data
+from osm database and existing nodes, line segments and metadata tags
+from the osm database.
+
+openstreetmap is a project aimed squarely at creating and providing
+free geographic data such as street maps to anyone who wants them.
+the project was started because most maps you think of as free actually
+have legal or technical restrictions on their use, holding back people
+from using them in creative, productive or unexpected ways.

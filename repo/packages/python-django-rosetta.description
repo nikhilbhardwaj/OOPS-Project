@@ -1,0 +1,22 @@
+Eases the translation process of your django projects
+	
+a django application that eases the translation process of your django
+projects.
+
+because it doesn't export any models, rosetta doesn't create any tables
+in your project's database. rosetta can be installed and uninstalled by
+simply adding and removing a single entry in your project's installed_apps
+and a single line in your main urls.py file.
+
+features:
+
+ * database independent
+ * reads and writes your project's gettext catalogs (po and mo files)
+ * installed and uninstalled in under a minute
+ * uses django's admin interface css
+ * translation suggestions via google ajax language api
+
+
+acknowledgments:
+
+ * rosetta uses the excellent polib library to parse and handle po files.

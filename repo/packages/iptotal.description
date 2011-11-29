@@ -1,0 +1,11 @@
+Monitor for ip traffic, not requiring snmp
+	
+iptotal is yet another ip traffic monitor. it listens to a network interface in
+non-promiscuous mode, and measures ip bandwidth usage. after the specified
+number of seconds, the average throughput is printed at total, input and output
+usage.
+
+the utility can be used to measure bandwidth usage without the need for an snmp
+daemon.  in combination with a simple script and rrdtool it can be used to
+present the measured data in graphical format e.g. through a web interface.
+the package contains www + cgi sample files.

@@ -1,0 +1,8 @@
+A binding for the opengl utility toolkit
+	
+a haskell binding for the opengl utility toolkit, a window
+system independent toolkit for writing opengl programs. for more
+information about the c library on which this binding is based,
+please see: <http://www.opengl.org/resources/libraries/glut/>.
+
+this is the version bundled with the interpreter.

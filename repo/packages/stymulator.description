@@ -1,0 +1,19 @@
+Curses based player and converter for the ym chiptune format
+	
+stymulator is an open source (gpl license) player which plays music files
+in the ym chiptune format. in particular the ym files are yamaha ym2149
+soundchip music datas (registers) dumped from the atari 16-bit computers.
+
+the ym chiptune 'standard' has been introduced in the middle of 90's by
+arnaud carré aka leonard/oxg. his sensational st-sound player has been
+released for windows only. ten years after the first st-sound creation he
+released st-sound library under gpl license.
+
+stymulator has a very simple terminal gui. it has been written in pure
+ansi c code with ncurses library. sounds are generated through alsa.
+
+this package contains both ymplayer (curse based player) and ym2wav,
+a console ym to wave converter.
+
+
+ homepage: http://atariarea.krap.pl/stymulator/

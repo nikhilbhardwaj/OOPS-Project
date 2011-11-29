@@ -1,0 +1,4 @@
+PackageId:23182
+Name:lilo-installer
+Version:1.34
+Deps:cdebconf-udeb,di-utils,di-utils-mapdevfs,fdisk-udeb,kernel-installer,bootstrap-base,live-installer,os-prober,os-prober-udeb

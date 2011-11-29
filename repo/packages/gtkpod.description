@@ -1,0 +1,7 @@
+Manage songs and playlists on an apple ipod
+	
+gtkpod is a platform independent gui for apple's ipod using gtk2. it
+allows you to upload songs and playlists to your ipod. it supports id3
+tag editing, multiple charsets for id3 tags, detects duplicate songs,
+allows offline modification of the database with later synchronisation,
+and more.

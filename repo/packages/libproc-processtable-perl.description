@@ -1,0 +1,5 @@
+Perl library for accessing process table information
+	
+this perl module attempts to unify the interfaces to unix process table
+information, without having to run a ps subprocess from within a perl or
+shell script and parse the output.

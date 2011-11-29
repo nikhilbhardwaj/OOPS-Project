@@ -1,0 +1,7 @@
+Automated sourceforge release management
+	
+automates management of project releases on sourceforge, including uploading
+files, adding new releases, and editing existing releases.
+
+copher can work with projects on sourceforge, rubyforge and luaforge, and can
+take directions from the command line or from answer files.

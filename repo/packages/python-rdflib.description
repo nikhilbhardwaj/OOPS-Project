@@ -1,0 +1,11 @@
+Rdf library containing an rdf triple store and rdf/xml parser/serializer
+	
+rdflib is a python library for working with rdf, a simple yet
+powerful language for representing information. the library
+contains an rdf/xml parser/serializer that conforms to the
+rdf/xml syntax specification and both in-memory and persistent
+graph backend.
+
+this package also provides a serialization format converter
+called rdfpipe in order to deal with the different formats
+rdflib works with.

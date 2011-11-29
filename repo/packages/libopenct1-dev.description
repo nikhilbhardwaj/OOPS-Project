@@ -1,0 +1,7 @@
+Headers and development libraries for libopenct1
+	
+openct is an open source implementation providing card terminal
+drivers. it provides a native openct, ct-api and pc/sc lite ifd
+interface with an openct ifdhandler resource manager.
+
+this package provides the headers and development libraries.

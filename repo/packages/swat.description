@@ -1,0 +1,14 @@
+Samba web administration tool
+	
+samba is an implementation of the smb/cifs protocol for unix systems,
+providing support for cross-platform file and printer sharing with
+microsoft windows, os x, and other unix systems.
+
+this package allows you to administer a samba server via a web browser.
+
+swat is no longer actively maintained, and its default configuration is
+not secure for use over an untrusted network.  swat will also rewrite
+smb.conf, rearranging the entries and deleting all comments as well as
+include= and copy= options, so is not suitable for use in conjunction
+with hand-edited smb.conf files or the default package-managed
+configuration.

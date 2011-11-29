@@ -1,0 +1,5 @@
+Module for fast plugins with instantiation
+	
+module::pluggable::fast is similar to module::pluggable but instantiates
+plugins as soon as they are found, which is useful for code generators like
+class::dbi::loader.

@@ -1,0 +1,18 @@
+Development files for libhx
+	
+c library for:
+
+ - a+r/b trees to use for lists or maps (associative arrays)
+ - deques (double-ended queues) (stacks (lifo) / queues (fifos))
+ - platform independent opendir-style directory access
+ - platform independent dlopen-style shared library access
+ - auto-storage strings with direct access
+ - command line option (argv) parser
+ - shell-style config file parser
+ - platform independent random number generator with transparent
+   /dev/urandom support
+ - various string, memory and zvec ops
+
+
+this package contains the development libraries, header files needed by
+programs that want to compile with libhx.

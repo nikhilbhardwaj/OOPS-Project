@@ -1,0 +1,4 @@
+PackageId:32305
+Name:suricata
+Version:1.0.1-1squeeze1
+Deps:libc6,libc6-udeb,libc6.1,libc6.1-udeb,libcap-ng0,libgcc1,libgcrypt11,libgnutls26,libhtp1,libnet1,libnetfilter-queue1,libnfnetlink0,libpcap0.8,libpcre3,libprelude2,libyaml-0-2,snort-rules-default

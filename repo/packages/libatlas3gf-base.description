@@ -1,0 +1,18 @@
+Automatically tuned linear algebra software, generic shared
+	
+atlas is an approach for the automatic generation and optimization of
+numerical software. currently atlas supplies optimized versions for the
+complete set of linear algebra kernels known as the basic linear algebra
+subroutines (blas), and a subset of the linear algebra routines in the
+lapack library.
+
+the libraries in this package are built without any processor extension
+instructions, and should run on all processors of this general
+architecture, albeit less than optimally.
+
+before version 3.8.3-25, optimized binary packages were provided.
+however, due to the fact that most atlas optimisation are done at build time,
+it has been decided to remove them and give priority to locally built packages.
+
+for more information on how to rebuild locally atlas, see the section:
+"building optimized atlas packages on your arch" in readme.debian

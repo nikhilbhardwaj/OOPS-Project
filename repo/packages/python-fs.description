@@ -1,0 +1,5 @@
+Python filesystem abstraction
+	
+pyfilesystem is a python module that provides a common interface to many types
+of filesystem, and provides some powerful features such as exposing
+filesystems over an internet connection, or to the native filesystem.

@@ -1,0 +1,11 @@
+Wikiwikiweb clone (wiki engine) written in ruby
+	
+aswiki is a wikiwikiweb clone (wiki engine), which in turn is a web based
+collaboration tool. aswiki has the following features:
+
+
+ * makes customizing of its html output easy through the use of the amrita
+   template library.
+ * rcs based version log.
+ * plugin system.
+ * file attachements.

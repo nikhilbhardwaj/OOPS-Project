@@ -1,0 +1,7 @@
+Ruby bindings for the structured terminal forms language/library
+	
+stfl is a library which implements a curses-based widget set for text
+terminals.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8.x).

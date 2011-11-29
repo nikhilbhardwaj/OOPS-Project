@@ -1,0 +1,5 @@
+Tcl extension implementing geoip lookup functions
+	
+a tcl extension for geographic or organisational lookup of ip addresses
+and hostnames, by implementing bindings to the geoip c api.
+you can use this extension to query maxmind geoip databases.

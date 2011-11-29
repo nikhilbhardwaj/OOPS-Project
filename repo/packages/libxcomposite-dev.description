@@ -1,0 +1,16 @@
+X11 composite extension library (development headers)
+	
+libxcomposite provides an x window system client interface to the composite
+extension to the x protocol.
+
+the composite extension allows clients called compositing managers to control
+the final drawing of the screen.  rendering is done into an off-screen buffer.
+
+this package contains the development headers for the library found in
+libxcomposite1.  non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libxcomposite

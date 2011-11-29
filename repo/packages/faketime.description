@@ -1,0 +1,9 @@
+Report faked system time to programs
+	
+the fake time preload library (ftpl, a.k.a. libfaketime) intercepts
+various system calls which programs use to retrieve the current date
+and time. it can then report faked dates and times (as specified by
+you, the user) to these programs. this means you can modify the
+system time a program sees without having to change the time
+system-wide. ftpl allows you to specify both absolute dates (e.g.,
+2004-01-01) and relative dates (e.g., 10 days ago).

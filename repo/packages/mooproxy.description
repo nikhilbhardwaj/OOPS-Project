@@ -1,0 +1,12 @@
+A buffering proxy for moo-connections
+	
+mooproxy is a buffering proxy for moos (a class of text-based rpgs,
+descending from muds). the moo client connects to mooproxy, and mooproxy
+connects to the moo server.
+
+mooproxy keeps you connected to the moo server if the client disconnects
+(voluntarily, because of network problems, because the client crashes,
+because of a power outage, etc).
+
+mooproxy also provides centralised logging, buffers text when the client
+isn't connected, and provides context when the client does connect.

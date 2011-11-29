@@ -1,0 +1,14 @@
+Perform snmp operations on multiple hosts simultaneously
+	
+the snmp::multi package provides a mechanism to perform snmp operations
+on several hosts simultaneously.  snmp::multi builds on g. marzot's snmp
+perl interface to the uc-davis snmp libraries, using asynchronous snmp
+operations to send queries/sets to multiple hosts simultaneously.
+
+results from all hosts are compiled into a single object, which offers
+methods to access the data in aggregate, or broken down by host or the
+individual request.
+
+snmp::multi supports snmp get, set, getnext, getbulk and bulkwalk requests.
+it also performs pdu packing in order to improve network efficiency, when
+packing is possible.

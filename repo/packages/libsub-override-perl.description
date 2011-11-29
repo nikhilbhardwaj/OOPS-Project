@@ -1,0 +1,6 @@
+Perl module used to temporarily override subroutines
+	
+perl programmers sometimes have a need to override subroutines,
+particularly for testing purposes.  sub::override provides a simple
+way to override subroutines instead of using heavier-weight methods
+such as mock objects.

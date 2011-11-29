@@ -1,0 +1,27 @@
+Collection of dispensing visitor objects for tree::simple
+	
+the tree::simple::visitorfactory module contains a number of visitor objects
+which can perform various tasks on tree::simple objects.
+
+the following visitors are included:
+
+ * pathtoroot: find the path back to the tree's root node
+ * findbypath: find the node specified by a path
+ * findbyuid: find the node with the same uid
+ * findbynodevalue: find the node with the same node value
+ * breadthfirsttraversal: implements a breadth-first traversal
+ * postordertraversal: implements a post-order traversal
+ * preordertraversal: implements a pre-order traversal
+ * loaddirectorytree: load a directory tree into a tree::simple hierarchy
+ * createdirectorytree: create a set of directories and files from a
+   tree::simple hierarchy
+ * fromnestedarray: create a tree::simple hierarchy from nested arrays
+ * tonestedarray: create a nested array construct from a tree::simple hierarchy
+ * tree::simple::visitor::variabledepthclone: clone parts of tree hierarchies
+ * fromnestedhash: create a tree::simple hierarchy from nested hashes
+ * tonestedhash: create a nested hash construct from a tree::simple hierarchy
+ * loadclasshierarchy: create a tree::simple hierarchy which models the classes
+   inheritance heirarchy
+ * getalldescendents: return all the descendents recursively on down the
+   hierarchy
+ * sort: implements a multi-level sort of a tree::simple heirarchy

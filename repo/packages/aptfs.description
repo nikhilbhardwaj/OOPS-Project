@@ -1,0 +1,5 @@
+Fuse filesystem for apt source repositories
+	
+aptfs is a fuse-based filesystem that provides a view to unpacked debian
+source packages (obtained via apt) as regular folders. binary packages are
+modelled as symbolic links pointing to their respective source package.

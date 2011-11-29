@@ -1,0 +1,7 @@
+Tool to administer linux md arrays (software raid)
+	
+the mdadm utility can be used to create, manage, and monitor md
+(multi-disk) arrays for software raid or multipath i/o.
+
+this package automatically configures mdadm to assemble arrays during the
+system startup process. if not needed, this functionality can be disabled.

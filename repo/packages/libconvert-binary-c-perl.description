@@ -1,0 +1,14 @@
+Binary data conversion using c types
+	
+convert::binary::c is a preprocessor and parser for c type definitions. it is
+highly configurable and supports arbitrarily complex data structures. its
+object-oriented interface has pack and unpack methods that act as replacements
+for perl's pack and unpack and allow to use c types instead of a string
+representation of the data structure for conversion of binary data from and to
+perl's complex data structures.
+
+actually, what convert::binary::c does is not very different from what a c
+compiler does, just that it doesn't compile the source code into an object
+file or executable, but only parses the code and allows perl to use the
+enumerations, structs, unions and typedefs that have been defined within your
+c source for binary data conversion, similar to perl's pack and unpack.

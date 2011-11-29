@@ -1,0 +1,6 @@
+Xmpp perl library
+	
+net::xmpp is a convenient tool to use for any perl script that would like to
+utilize the xmpp instant messaging protocol.  while not a client in and of
+itself, it provides all of the necessary back-end functions to make a cgi
+client or command-line perl client feasible and easy to use.

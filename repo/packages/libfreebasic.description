@@ -1,0 +1,7 @@
+Freebasic support library files
+	
+this is the support library providing internal subroutines that freebasic
+uses. it includes the run-time and the graphics library for use with the
+freebasic compiler. graphics in freebasic is highly optimized, providing
+a fast, practical framework without the developer having to worry about
+specific implementation issues.

@@ -1,0 +1,15 @@
+Quantum mechanic entanglement of variables in perl
+	
+one of the more popular interpretations of quantum mechanics holds that
+instead of particles always being in a single, well defined, state
+they instead exist as an almost ghostly overlay of many different
+states (or values) at the same time.  of course, it is our experience
+that when we look at something, we only ever find it in one single state.
+this is explained by the many states of the particle collapsing to a
+single state and highlights the importance of observation.
+
+essentially, this allows you to put variables into a superposition
+of states, have them interact with each other (so that all states
+interact) and then observe them (testing to see if they satisfy
+some comparison operator, printing them) which will collapse
+the entire system so that it is consistent with your knowledge.

@@ -1,0 +1,12 @@
+Development files for the yorick interpreted language
+	
+yorick is an interpreted programming language for:
+
+ * scientific simulations or calculations
+ * postprocessing or steering large simulation codes
+ * interactive scientific graphics
+ * reading, writing, and translating large files of numbers
+
+
+the yorick-dev package contains the files needed to compile (or package)
+plug-ins or custom `yorick' executables.

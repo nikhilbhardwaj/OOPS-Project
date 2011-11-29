@@ -1,0 +1,8 @@
+Legacy bios implementation
+	
+seabios is a legacy bios implementation, aimed at supporting not only
+emulated hosts such as qemu, but also real hardware.
+
+note, however, that seabios does not handle early initialization of core
+chipsets, so don't even think of flashing it to your board (look at
+coreboot for that).

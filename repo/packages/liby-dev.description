@@ -1,0 +1,6 @@
+Y sound server library header files
+	
+yiff is a network based and multi client connection system that
+supports x window systems style event and client handling. internal
+3d sound support and client to server io wrapper code is also available.
+yiff is oss, alsa, ysound and y2n compliant.

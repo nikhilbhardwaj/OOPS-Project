@@ -1,0 +1,25 @@
+Graphical debugger interface
+	
+kdbg is a graphical user interface to gdb, the gnu debugger.  it provides
+an intuitive interface for setting breakpoints, inspecting variables,
+stepping through code and much more.  kdbg requires kde but you can of
+course debug any program.
+
+kdbg can also debug xslt (xml stylesheet translation) scripts by
+interfacing with xsldbg.  for this the package kxsldbg must be installed.
+
+features include the following:
+
+ * inspection of variable values in a tree structure.
+ * direct member: for certain compound data types the most important
+   member values are displayed next to the variable name, so that it is
+   not necessary to expand the subtree of that variable in order to see
+   the member value.  kdbg can also display qt's qstring values, which
+   are unicode strings.
+ * debugger at your finger tips: the basic debugger functions (step,
+   next, run, finish, until, set/clear/enable/disable breakpoint) are
+   bound to function keys f5 through f10.  quick and easy.
+ * view source code, search text, set program arguments and environment
+   variables, display arbitrary expressions.
+ * debugging of core dumps, attaching to running processes is possible.
+ * conditional breakpoints.

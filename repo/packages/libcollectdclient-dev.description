@@ -1,0 +1,9 @@
+Client library for collectd's control interface (development files)
+	
+libcollectdclient provides an api to access the control interface provided by
+the unixsock plugin of collectd, a statistics collection and monitoring
+daemon. it can be used to access values collected by collectd or dispatch new
+values and notifications to the daemon. this allows for integration with
+other applications such as monitoring solutions.
+
+this package contains the header files and the static library.

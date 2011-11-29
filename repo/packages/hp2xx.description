@@ -1,0 +1,9 @@
+A hpgl converter into some vector- and raster formats
+	
+hp2xx reads hpgl ascii source files, interprets them, and converts them
+into either another vector-oriented format or one of several rasterfile
+formats. currently, its hpgl parser recognizes a subset of the hp 7550a
+command set. some high-level functions are missing. also, only some of the
+fixed space vector fonts and none of the variable space arc fonts are
+supported. beside these limitations, hp2xx has proven to work with many
+hp-gl sources without any trouble.

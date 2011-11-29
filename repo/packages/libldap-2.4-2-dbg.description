@@ -1,0 +1,7 @@
+Debugging information for openldap libraries
+	
+this package provides detached debugging information for the openldap
+(lightweight directory access protocol) libraries. it is useful
+primarily to permit better backtraces and crash dump analysis after
+problems with the libraries. gdb will find this debug information
+automatically.

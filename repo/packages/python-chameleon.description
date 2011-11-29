@@ -1,0 +1,8 @@
+Xml-based template compiler
+	
+chameleon compiles templates to python byte-code. it includes a complete
+implementation of the zope page templates (zpt) language.
+
+the engine itself performs 10-15 times better than the reference
+implementation and real-world benchmarks show an overall performance
+improvement in complex applications of 30-50%.

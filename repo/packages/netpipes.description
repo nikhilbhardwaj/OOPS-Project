@@ -1,0 +1,6 @@
+Manipulate bsd tcp/ip stream sockets
+	
+the netpipes package makes tcp/ip streams usable in shell
+scripts. it can also simplify client/server code by allowing
+the programmer to skip all the tedious programming bits related
+to sockets and concentrate on writing a filter, or other service.

@@ -1,0 +1,10 @@
+Evolution data synchronization program using syncml (gtk+ gui)
+	
+syncevolution synchronizes evolution's contact, calendar and task
+items via syncml. the items are exchanged in the vcard 2.1 or 3.0
+format and icalender 2.0 format via the synthesis c++ client api
+library, which should make syncevolution compatible with the majority
+of syncml servers. full, one-way and incremental synchronization of
+items are supported.
+
+this package provides a gtk+ graphical user interface.

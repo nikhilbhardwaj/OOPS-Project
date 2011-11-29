@@ -1,0 +1,10 @@
+Development files for postgresql 8.4 server-side programming
+	
+header files for compiling ssi code to link into postgresql's backend; for
+example, for c functions to be called from sql.
+
+this package also contains the makefiles necessary for building add-on
+modules of postgresql, which would otherwise have to be built in the
+postgresql source-code tree.
+
+postgresql is an object-relational sql database management system.

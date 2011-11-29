@@ -1,0 +1,17 @@
+Vertical blanking interval (vbi) utilities
+	
+televison broadcasts use the vbi to transmit text such as closed captioning
+(ntsc), teletext (pal/secam), and now intercast and the atvec internet
+television encodings.  the zvbi library is used to capture and decode raw
+vbi data.
+
+this package contains three utilities:
+
+ o zvbid, a proxy for vbi devices. it forwards vbi data streams to one or
+   more connected clients and manages channel change requests.
+ o zvbi-chains, a wrapper which executes the vbi application given on the
+   command line while overloading several c library calls so that the
+   application can be forced to access vbi devices via the vbi proxy
+   instead of device files directly.
+ o zvbi-ntsc-cc, a command-line utility for decoding and capturing closed
+   captioning (cc) for ntsc and webtv.

@@ -1,0 +1,6 @@
+Agnostic and easy to use ajax library for django
+	
+easy to use ajax library for django, all the presentation logic
+resides outside the views and doesn't require any js framework.
+dajaxice uses the unobtrusive standard-compliant (w3c) xmlhttprequest
+1.0 object.

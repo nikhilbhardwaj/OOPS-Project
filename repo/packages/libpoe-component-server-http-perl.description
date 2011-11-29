@@ -1,0 +1,11 @@
+Foundation of a poe http daemon
+	
+poe::component::server::http is a framework for building custom http servers
+based on poe. it is loosely modeled on the ideas of apache and the
+mod_perl/apache module.
+
+it is built a lot on work done by gisle aas on http::* modules and the
+uri module which are subclassed.
+
+it lets you register different handlers, stacked by directory that will be run
+during the cause of the request.

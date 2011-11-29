@@ -1,0 +1,30 @@
+Libraries for sparse matrices computations (debugging symbols)
+	
+suitesparse is a collection of libraries for computations involving
+sparse matrices.  this package includes the following libraries:
+
+amd         approximate minimum degree ordering
+
+camd        symmetric approximate minimum degree
+
+btf         permutation to block triangular form (beta)
+
+colamd      column approximate minimum degree ordering
+
+ccolamd     constrained column approximate minimum degree ordering
+
+cholmod     sparse cholesky factorization
+
+csparse     a concise sparse matrix package
+
+cxsparse    csparse extended: complex matrix, int and long int support
+
+klu         sparse lu factorization, primarily for circuit simulation
+
+ldl         a simple ldl' factorization
+
+umfpack     sparse lu factorization
+
+ufconfig    configuration file for all the above packages.
+
+this package contains the debug libraries (stored in /usr/lib/debug).

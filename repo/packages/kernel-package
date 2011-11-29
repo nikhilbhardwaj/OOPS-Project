@@ -1,0 +1,4 @@
+PackageId:8527
+Name:kernel-package
+Version:12.036+nmu1
+Deps:binutils,build-essential,debianutils,file,gettext,make,module-init-tools,kldutils,po-debconf,util-linux

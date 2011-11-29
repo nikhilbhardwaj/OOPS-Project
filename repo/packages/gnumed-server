@@ -1,0 +1,4 @@
+PackageId:5975
+Name:gnumed-server
+Version:13.8-1
+Deps:bsd-mailx,mailx,heirloom-mailx,mailutils,bzip2,cron,bcron-run,anacron,debconf,gnupg,gnupg2,openssl,postgresql,postgresql-8.4,postgresql-client,postgresql-client-8.4,python,python-egenix-mxdatetime,python-psycopg2,rsync,sudo,sudo-ldap

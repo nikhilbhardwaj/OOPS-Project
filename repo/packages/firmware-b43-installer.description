@@ -1,0 +1,11 @@
+Installer package for firmware for the b43 driver
+	
+this package installs the firmware needed for usage of the b43 kernel
+driver.
+
+supported chipsets:
+
+ - bcm4306/3
+ - bcm4311
+ - bcm4312
+ - bcm4318

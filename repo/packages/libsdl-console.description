@@ -1,0 +1,11 @@
+Console that can be added to any sdl application
+	
+this library provides a console similar to the consoles in quake and other
+games but with lots of added features.
+
+a console is meant to be a very simple way of interacting with a program
+and executing commands. commands are linked to the console with callback
+functions so that when a command is typed in, a specific function is
+executed automatically.
+
+this package contains the libsdl-console runtime library.

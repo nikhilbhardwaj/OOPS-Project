@@ -1,0 +1,16 @@
+Yadis service discovery library for ruby
+	
+this library provides full yadis service discovery functionality and
+is written in pure ruby.
+yadis is an open initiative to build an interoperable lightweight
+discovery protocol for decentralized, user-centric digital identity and
+related purposes.  its features include:
+
+
+ * easy to use interface for fetching yadis service information
+ * xrds parser
+ * https and server certificate verification support
+
+
+this is a meta package depending on the package for the default ruby version,
+ruby 1.8.

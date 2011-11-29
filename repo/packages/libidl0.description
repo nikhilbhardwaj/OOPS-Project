@@ -1,0 +1,7 @@
+Library for parsing corba idl files
+	
+libidl is a small library for creating parse trees of corba v2.2 compliant
+interface definition language (idl) files, which is a specification for
+defining interfaces which can be used between different corba
+implementations.  libidl is used in the orbit2 idl compiler, as well
+as various language bindings (perl, python, etc.) for orbit2.

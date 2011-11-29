@@ -1,0 +1,17 @@
+A gtk+ library to display large amounts of numerical data
+	
+one or more data sets of thousands of data points (x and y coordinate) may be
+displayed and updated in split seconds. the widget is therfore used in many
+scientific and private projects that need to show quickly changing data live.
+gtkdatabox offers the ability to zoom into and out of the data and to navigate
+through your data by scrolling.
+
+in addition to rulers and a simple coordinate cross, gtkdatabox now also allows
+you to add one (or even more) configurable grids like on an oscilloscope.
+
+data may be presented as dots, lines connecting the data, or vertical bars.
+the widget allows you to easily transform pixel coordinates into data
+coordinates, thus allowing you to easily create powerful applications for
+data analysis.
+
+libraries for run-time gui loading with libglade

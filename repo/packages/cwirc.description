@@ -1,0 +1,10 @@
+X-chat morse plugin
+	
+cwirc is a plugin for the x-chat irc client to transmit raw morse code over
+the internet using irc servers as reflectors. the transmitted morse code can
+be received in near real-time by other x-chat clients with the cwirc plugin.
+cwirc tries to emulate a standard amateur radio rig : it sends and receives
+morse over virtual channels, and it can listen to multiple senders transmitting
+on the same channel. morse code is keyed locally using a straight or iambic
+key connected to a serial port, or using the mouse buttons, and the sound is
+played through the soundcard.

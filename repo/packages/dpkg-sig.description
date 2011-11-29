@@ -1,0 +1,9 @@
+Create and verify signatures on .deb-files
+	
+dpkg-sig is a low-level tool for creation and verification of
+signature on debian binary packages (.deb-files).
+
+the created signed packages are strict compatible with dpkg and the
+apt-utils.
+
+website is http://dpkg-sig.turmzimmer.net/

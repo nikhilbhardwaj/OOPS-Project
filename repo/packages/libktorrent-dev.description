@@ -1,0 +1,7 @@
+Development files for the ktorrent library
+	
+the ktorrent library is a c++ / qt 4 / kde platform based implementation of
+the bittorrent protocol (mostly client side).
+
+this package contains header files, cmake modules and other files needed for
+developing and compiling/linking which use the ktorrent library.

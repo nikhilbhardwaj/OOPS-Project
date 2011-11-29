@@ -1,0 +1,20 @@
+Computer assisted translation (cat) tool
+	
+omegat's main features are
+
+ - ability to run on any operating system supporting java
+ - use of any valid tmx file as translation reference
+ - flexible sentence segmenting (using an srx-like method)
+ - searches in the project and the reference translation memories
+ - searches in any directory including omegat-readable files
+ - fuzzy matching
+ - smart handling of projects including complex directory hierarchies
+ - support for glossaries (terminology checks)
+ - easy to understand documentation and tutorial
+ - localization in a number of languages.
+
+
+omegat supports opendocument files, microsoft office files (using
+openoffice.org as a conversion filter, or by conversion to html),
+openoffice.org or staroffice files, as well as (x)html, java
+localization files, po files, openxml , docbook or plain text files.

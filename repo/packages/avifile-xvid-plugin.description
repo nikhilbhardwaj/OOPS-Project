@@ -1,0 +1,9 @@
+Xvid video encoding plugin for libavifile
+	
+plugin for encoding divx4 video.
+notice:
+
+  this plugin requires separate installation of libxvidcore 1.0 library
+  which is not a part of this package nor official debian itself.
+  see documentation for more details.
+  in general you do not need this plugin.

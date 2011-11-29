@@ -1,0 +1,5 @@
+Cobol compiler
+	
+opencobol implements substantial part of the cobol 85 and cobol 2002
+standards, as well as many extensions of the existent compilers.  opencobol
+translates cobol into c and compiles the translated code using gcc.

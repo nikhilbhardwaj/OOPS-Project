@@ -1,0 +1,9 @@
+Java vector format viewer library
+	
+pixie is a wmf-file reading library originally written as converter for the
+pixie-imageviewer. pixie was long time dead and is now resurrected as
+wmf-reader and imageproducer for java 1.2.2 or higher.
+
+pixie lacks the support for most bitmap-formats but everything else is
+working fine. write-support will be implemented somewhere in the future,
+classes for the writesupport are mostly dummies at the moment.

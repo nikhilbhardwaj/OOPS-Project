@@ -1,0 +1,4 @@
+Module for computing the time of sunrise and sunset
+	
+datetime::astro::sunrise returns datetime objects for sunrise and sunset for
+a given day.

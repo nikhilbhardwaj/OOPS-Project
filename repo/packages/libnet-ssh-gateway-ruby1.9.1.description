@@ -1,0 +1,9 @@
+Ruby library for tunneling connections to servers with ssh
+	
+net::ssh::gateway is a library for programmatically tunneling connections to
+servers via a single "gateway" host.
+it is useful for establishing net::ssh connections to servers behind firewalls,
+but can also be used to forward ports and establish connections of other types,
+like http, to servers with restricted access.
+
+this package is built for ruby 1.9.1.

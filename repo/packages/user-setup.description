@@ -1,0 +1,5 @@
+Set up initial user and password
+	
+this package creates an initial user, using the same code as is
+responsible for creating the initial user in the installer. it is only
+likely to be of any use if your system has no non-system users at all.

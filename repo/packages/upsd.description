@@ -1,0 +1,15 @@
+Ups monitor program via serial interface
+	
+upsd is a daemon to monitor an uninterruptible power
+supply (ups) connected to a linux computer's serial
+port.  it will signal init(8) when the ups is operating
+on battery power so that the computer can be shut
+down cleanly.  upsd has additional features, including
+network monitoring, low battery warning, and the
+capability of turning off the ups during the shutdown
+process (if the ups supports this). in addition it has the
+capability on slave systems of monitoring the remote
+master for the return of power in the event that only the
+master power has failed. a debugging and management
+tool is included. support added for socks firewalls,
+may 2000.

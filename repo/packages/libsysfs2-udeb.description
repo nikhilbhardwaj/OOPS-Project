@@ -1,0 +1,8 @@
+Interface library to sysfs
+	
+sysfs is a virtual file system in linux kernel 2.5+ that provides a
+tree of system devices. libsysfs provides a stable programming
+interface to sysfs and eases querying system devices and their
+attributes.
+
+this is a minimal package for use in debian-installer.

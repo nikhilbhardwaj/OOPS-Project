@@ -1,0 +1,12 @@
+Ruby bindings for delicious, social bookmarks manager
+	
+this package contains the ruby bindings for delicious (http://del.icio.us/).
+you can add urls with comments and tags, fetch what you or others posted
+filtered by tags or date, rename tags and delete urls ever you posted.
+
+delicious is a social bookmarks manager. it allows you to easily add sites
+you like to your personal collection of links, to categorize those sites with
+keywords, and to share your collection not only between your own browsers and
+machines, but also with others.
+
+upstream homepage: http://pablotron.org/software/rubilicious/

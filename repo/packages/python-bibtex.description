@@ -1,0 +1,11 @@
+Python interfaces to bibtex and the gnu recode library
+	
+this module contains two extensions needed for pybliographer:
+
+
+ * a bibtex parser
+ * a simple binding to gnu recode
+
+
+however, it may be useful to programmers working on other projects as
+well.

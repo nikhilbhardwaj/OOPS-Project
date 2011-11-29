@@ -1,0 +1,8 @@
+System tools to manage computer configuration -- scripts
+	
+the system tools backends are a set of cross-platform scripts
+for linux and other unix systems. the backends provide a standard
+xml interface for modifying the configuration regardless of the
+distribution that's being used.
+
+these backends are used in gnome system tools.

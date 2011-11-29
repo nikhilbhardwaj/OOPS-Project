@@ -1,0 +1,8 @@
+Development libraries and tools for coq
+	
+coq is a proof assistant for higher-order logic, which allows the
+development of computer programs consistent with their formal
+specification. it is developed using objective caml and camlp5.
+
+this package provides coqmktop, and libraries needed to develop
+ocaml-side extensions to coq.

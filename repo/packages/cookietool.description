@@ -1,0 +1,6 @@
+Suite of programs to help maintain a fortune database
+	
+the ''cookietool'' itself eliminates duplicate entries, sorts cookies
+alphabetically or by size if you wish. the ''cdbsplit'' tool extracts parts
+of the database to a separate file, by keyword, by size, by number, or
+as groups of 'similar' cookies.

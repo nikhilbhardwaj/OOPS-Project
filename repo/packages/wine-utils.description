@@ -1,0 +1,8 @@
+Windows api implementation - utilities
+	
+wine is a free ms-windows api implementation.
+this is still a work in progress and many applications may still not work.
+
+this package provides many of the wine utilities, both
+for compiling source using winelib and for running wine. this
+package is not strictly necessary.

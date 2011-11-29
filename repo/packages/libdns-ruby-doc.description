@@ -1,0 +1,8 @@
+Documentation for libdns-ruby (dnsruby)
+	
+this package provides rdoc documentation and unit tests for
+dnsruby.
+
+dnsruby is a pure ruby dns client library. it provides a complete dns
+client implementation, including full dnssec support. dnsruby is
+currently used in projects such as opendnssec and isc's dlv service.

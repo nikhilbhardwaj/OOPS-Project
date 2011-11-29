@@ -1,0 +1,8 @@
+Imap backup, copy and migration tool
+	
+imapcopy is a small command line tool to copy messages for multiple
+users from one imap server to another.  you can use it with any imap
+implementation, for example you can migrate from cyrus to ms exchange
+or from ms exchange to courier imap.
+
+the package imapsync serves a similar purpose.

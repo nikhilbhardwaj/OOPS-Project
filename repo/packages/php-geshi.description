@@ -1,0 +1,15 @@
+Generic syntax highlighter
+	
+geshi aims  to be a simple but powerful highlighting class,
+with the following goals:
+
+
+   * support for a wide range of popular languages
+   * easy to add a new language for highlighting
+   * highly customisable output formats
+
+
+geshi aims to  do this all as quickly  as possible. many customisable
+features of geshi facilitate speed increases, and you can easily find
+a balance  between the amount of  highlighting done and  the speed in
+which it is done.

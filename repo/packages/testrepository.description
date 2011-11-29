@@ -1,0 +1,10 @@
+Test result manager
+	
+testrepository provides a database of test results and supports easy workflows
+to be built on top of that database. for instance, running just failing tests
+or getting the last test run back to examine again (without running the tests
+again). testrepository is compatible with any test suite that can output
+subunit. this includes any tap test suite and any pyunit compatible test
+suite.
+
+the testrepository package contains the cli front end.

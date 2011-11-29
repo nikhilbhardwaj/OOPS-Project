@@ -1,0 +1,19 @@
+A converter from source program files to tex format files
+	
+src2tex [resp. src2latex] is a sort of text converter from basic, c,
+c++, objective-c, cobol, fortran, html, java, lisp, make, pascal,
+perl, scheme, shell, tcl/tk and asir, macsyma, maple, mathematica,
+matlab, maxima, mupad, octave, reduce to tex [resp. latex]. however,
+it is not a simple pretty-printer; actually, it is designed to
+fulfill the following desires:
+
+
+ (1) we want to write mathematical formulae in comment area of source
+     program.
+ (2) we would like to patch ps or eps figures upon source program.
+ (3) we need a simple and easy-to-use tool which enables to combine
+     documentation and manual with source program.
+ (4) we often have to translate our program from text format to tex
+     format when we want to quote our own program in research report,
+     lecture note, etc. that is quite time consuming, so it should be
+     automated.

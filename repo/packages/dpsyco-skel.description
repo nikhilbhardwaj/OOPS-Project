@@ -1,0 +1,12 @@
+Automatically install a add-on skeleton
+	
+makes it possible to create a package that updates the system
+with the skel installed to /usr/share/dpsyco/skel.
+
+this makes it possible to overwrite files (on top of) the ordinary
+debian file system. when the file is removed from this skeleton
+the original file will also be restored. if there were no original
+file it will be removed.
+
+you can also use replaces in the control field of a package to make
+similar functionality of this package.

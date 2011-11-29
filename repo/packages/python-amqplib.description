@@ -1,0 +1,7 @@
+Simple non-threaded python amqp client library
+	
+python client for the advanced message queuing protocol (amqp) 0-8, featuring
+basic messaging functionality and ssl support.
+
+python-amqplib provides synchronous api unlike other (event-driven)
+implementations.

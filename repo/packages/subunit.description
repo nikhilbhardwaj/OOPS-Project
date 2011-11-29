@@ -1,0 +1,9 @@
+Command line tools for processing subunit streams
+	
+subunit is a protocol for test activity serialisation deserialisation. this
+permits executing tests remotely, or saving the result of test runs for later
+introspection.
+
+the subunit package includes the subunit command line tools:
+subunit-diff, subunit-filter subunit-stats tap2subunit subunit2pyunit
+subunit-ls subunit-tags, subunit2gtk

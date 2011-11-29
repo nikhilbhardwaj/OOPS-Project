@@ -1,0 +1,10 @@
+Sugar graphical shell - emulator
+	
+sugar is a graphical user interface aimed at children.
+
+originating as intregral part of the olpc "xo" a.k.a. the $100 laptop,
+sugar has since grown into a more widely usable low-ressource desktop
+environment for kids.
+
+this package contains a wrapper script to run sugar in a xephyr window,
+making it possible to run it from inside another desktop environment.

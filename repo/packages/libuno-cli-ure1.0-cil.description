@@ -1,0 +1,7 @@
+Openoffice.org bindings for mono cli -- helper classes
+	
+openoffice.org is a full-featured office productivity suite that provides
+a near drop-in replacement for microsoft(r) office.
+
+this package contains cli_ure.dll, a cli library which contains helper
+classes for implementing uno interfaces.

@@ -1,0 +1,11 @@
+Last.fm reporting client for mpd - debugger symbols
+	
+music player daemon client which collects information about played tracks and
+submits them to the last.fm social music network (formerly known as
+audioscrobbler). if submission servers are not reachable, submissions are
+enqueued and stored on disk cache.
+
+the client can be also configured to use other scrobbling services like
+libre.fm.
+
+this package contains debugger symbols.

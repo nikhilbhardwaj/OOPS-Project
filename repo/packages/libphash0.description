@@ -1,0 +1,15 @@
+Perceptual hashing library
+	
+unlike cryptographic hash functions which rely on an avalanche effect of
+changes in input leading to drastic changes in the output, perceptual
+hashes are "close" to one another if the inputs are visually or
+auditorily similar.
+
+perceptual hashes have applications in searching, identifying potential
+copyright infringement, locating duplicates etc. - since a fingerprint
+of a file is usually less than 1% of the original media file's size,
+the fingerprint can be stored in a database and used for semantic
+searching, such as finding all images that look like another.
+
+phash implements several perceptual hashing algorithms and provides a
+c++ api to use those functions in your own programs.

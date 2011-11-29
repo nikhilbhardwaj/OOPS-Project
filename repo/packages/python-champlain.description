@@ -1,0 +1,9 @@
+C library providing clutteractor to display maps (python bindings)
+	
+libchamplain is a c library providing a clutteractor to
+display maps.
+
+it supports numerous free map sources such as
+openstreetmap (default), openarialmap and maps for free.
+
+this package contains the python bindings for libchamplain.

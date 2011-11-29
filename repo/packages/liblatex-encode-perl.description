@@ -1,0 +1,18 @@
+Perl module to encode characters for latex formatting
+	
+latex::encode provides a function to encode text that is to be formatted with
+latex. it encodes characters that are special to latex or that are
+represented in latex by latex commands.
+
+the special characters are: \ (command character), { (open group), } (end
+group), & (table column separator), # (parameter specifier), % (comment
+character), _ (subscript), ^ (superscript), ~ (non-breakable space), $
+(mathematics mode).
+
+note that some of the latex commands for characters are defined in the latex
+textcomp package. if your text includes such characters, you will need to
+include the following lines in the preamble to your latex document.
+
+
+        \usepackage[t1]{fontenc}
+        \usepackage{textcomp}

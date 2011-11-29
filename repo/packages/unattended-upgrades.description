@@ -1,0 +1,9 @@
+Automatic installation of security upgrades
+	
+this package can download and install security upgrades automatically
+and unattended, taking care to only install packages from the
+configured apt source, and checking for dpkg prompts about
+configuration file changes.
+
+this script is the backend for the apt::periodic::unattended-upgrade
+option.

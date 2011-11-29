@@ -1,0 +1,8 @@
+Module to load moose objects from yaml
+	
+moosex::yaml provides dwim loading of moose based objects from yaml
+documents.
+
+any hashes blessed into a moose class will be replaced with a properly
+constructed instance (respecting init args, buildall, and the meta instance
+type).

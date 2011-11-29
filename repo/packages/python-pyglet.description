@@ -1,0 +1,10 @@
+Cross-platform windowing and multimedia library
+	
+this library provides an object-oriented programming interface for developing
+games and other visually-rich applications with python.
+pyglet has virtually no external dependencies. for most applications and game
+requirements, pyglet needs nothing else besides python, simplifying
+distribution and installation. it also handles multiple windows and
+fully aware of multi-monitor setups.
+
+pyglet might be seen as an alternative to pygame.

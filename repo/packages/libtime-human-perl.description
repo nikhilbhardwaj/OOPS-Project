@@ -1,0 +1,5 @@
+Convert localtime() format to "speaking clock" time
+	
+this module provides a "vague" rendering of the time into natural
+language; it's useful for text-to-speech applications and other
+speech-based interfaces.

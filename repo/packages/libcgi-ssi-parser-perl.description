@@ -1,0 +1,13 @@
+Used in cgi scripts for parsing ssi directives
+	
+in files or string variables, and fully implements
+the functionality of apache's mod_include module.
+
+it is an alternative to famous apache::ssi modules, but it
+doesn't require mod_perl. this is an advantage to those who are
+using public hosting services. there is a disadvantage, however
+- the module consumes much memory, and i don't recommend using
+it on heavy-loaded sites (currently it's being used on a site
+with 10000 hits, and i consider this as a limit). i hope to get
+rid of this disadvantage by the time the release comes out
+(currently it's beta).

@@ -1,0 +1,11 @@
+Primal-dual interior-point code for linear programming
+	
+pcx is a freely available primal-dual interior-point code for linear
+programming. it implements mehrotra's predictor-corrector algorithm,
+the algorithm that forms the basis of most existing interior-point
+codes for general linear programming. the major computational
+operation--solution of a linear system with a large, sparse positive
+definite coefficient matrix--is performed with the sparse cholesky
+package of ng and peyton (oak ridge national laboratory), with minor
+modifications to handle small pivot elements.  pcx does not solve
+integer programming problems.

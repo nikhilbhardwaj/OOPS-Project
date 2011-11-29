@@ -1,0 +1,7 @@
+Scilab toolbox to overload scilab's macros
+	
+thanks to this toolbox, a user can overload user-defined functions
+as if they were built-in functions.
+
+this provides the capabilities to overload low-level scilab's internal
+features.

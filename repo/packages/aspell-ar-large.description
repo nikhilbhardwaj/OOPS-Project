@@ -1,0 +1,11 @@
+Large arabic dictionary for aspell
+	
+this is a large arabic dictionary for aspell by google. the original word list
+used for this package was generated using the buckwalter arabic morphological
+analyzer version 1.0.
+
+this package is huge so you might experience some performance degradation
+with aspell.
+
+
+ homepage: http://ftp.gnu.org/gnu/aspell/dict/ar/

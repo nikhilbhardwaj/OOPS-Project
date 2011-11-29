@@ -1,0 +1,6 @@
+Horde3 module for users to change their password
+	
+the passwd module is a horde3 module that allows the user to change
+their own password. it supports various password changing backends
+including poppassd server, smbpasswd program, expect script, exim
+sql, and ldap server (for courier+ldap installations).

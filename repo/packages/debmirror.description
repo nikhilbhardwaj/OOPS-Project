@@ -1,0 +1,6 @@
+Debian partial mirror script, with ftp and package pool support
+	
+this program downloads and maintains a partial local debian mirror.
+it can mirror any combination of architectures, distributions and
+sections. files are transferred by ftp, http, hftp or rsync, and package
+pools are fully supported. it also does locking and updates trace files.

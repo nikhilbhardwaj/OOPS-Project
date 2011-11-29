@@ -1,0 +1,8 @@
+Automatic classification or clustering
+	
+multimix fits a mixture of multivariate distributions to a set of
+observations by maximum likelihood using the em algorithm.  the
+emphasis is less on parameter estimation than on the use of the
+estimated component distributions to cluster the data.  the program
+is designed to cluster multivariate data with categorical and
+continuous variables.

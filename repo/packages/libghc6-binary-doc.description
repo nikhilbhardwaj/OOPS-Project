@@ -1,0 +1,9 @@
+Haskell library for binary serialisation; documentation
+	
+this package provides documentation for data.binary haskell module.
+
+binary serialisation of haskell values to and from lazy bytestrings.
+the binary library provides methods for encoding haskell values as
+streams of bytes directly in memory. the resulting bytestring can
+then be written to disk, sent over the network, or futher processed
+(for example, compressed with gzip).

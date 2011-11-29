@@ -1,0 +1,25 @@
+Extension to traffic control/network bandwidth management
+	
+the wrr scheduler is an extension to the traffic control/network
+bandwidth management part of the linux 2.2, 2.4 and 2.6 kernels.
+the scheduler was developed to support distributing bandwidth
+on a shared internet connection fairly between local machines.
+
+
+ * as a default all local machines will get equally much
+   of the bandwidth if they have sufficient demand. this
+   is obtained by doing so-called weighted round robin (wrr)
+   scheduling.
+ * it is possible to give machines transferring much data
+   over a long or short period of time less bandwidth.
+ * it can work on a bridge, a router or on a firewall.
+ * supports accounting locally generated masqueraded packets
+   to the correct local machine.
+ * on the wrr home page an extension is available which
+   includes patches for squid and the nec socks5 proxy servers
+   so that proxied packets can also be accounted to the
+   correct local machine.
+ * includes a configuration file based set of scripts that
+   will setup everything without changing your basic network
+   setup. the scripts will allow you to shape both incoming
+   and outgoing traffic.

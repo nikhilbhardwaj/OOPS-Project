@@ -1,0 +1,7 @@
+Documentation for lilo (linux loader)
+	
+this package contains the postscript documentation of lilo.
+
+you can use lilo to manage your master boot record (with a simple text screen,
+text menu or colorful splash graphics) or call lilo from other boot-loaders to
+jump-start the linux kernel.

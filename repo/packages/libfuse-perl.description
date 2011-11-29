@@ -1,0 +1,6 @@
+Write filesystems in perl using fuse
+	
+this lets you implement filesystems in perl, through the fuse
+(filesystem in userspace) kernel/lib interface.
+
+fuse expects you to implement callbacks for the various functions.

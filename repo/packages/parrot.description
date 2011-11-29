@@ -1,0 +1,5 @@
+A virtual machine for dynamic languages
+	
+parrot is a bytecode-based virtual machine designed for dynamic languages.
+parrot hosts a variety of language implementations, including tcl, javascript,
+ruby, lua, scheme, php, python, perl 6, and a .net bytecode translator.

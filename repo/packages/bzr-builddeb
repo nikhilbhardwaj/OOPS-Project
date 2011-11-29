@@ -1,0 +1,4 @@
+PackageId:1439
+Name:bzr-builddeb
+Version:2.4.2
+Deps:bzr,devscripts,dpkg-dev,fakeroot,patchutils,pristine-tar,python,python-apt,python-central,python-debian

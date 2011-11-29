@@ -1,0 +1,6 @@
+Module to serialize and deserialize perl data structures
+	
+freezethaw is a perl module designed to convert data to and from a serialized
+string format, appropriate for saving to and reading from permanent storage.
+it is capable of dealing with objects, circular lists and repeated appearance
+of the same reference.

@@ -1,0 +1,6 @@
+Utilities to generate statistics for mrtg
+	
+a collection of simple utilities to generate output useful for mrtg. many
+of the existing mrtg setups use shell or perl scripts to gather output. on
+busy systems, these scripts can generate a lot of extra load. these (small)
+c programs can return the given statistics more efficiently.

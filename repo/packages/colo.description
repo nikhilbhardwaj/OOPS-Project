@@ -1,0 +1,19 @@
+Boot loader for mips based cobalt machines
+	
+colo is a replacement boot loader for mips based cobalt machines such as
+the qube, raq, qube2 and raq2.  colo has less restrictions than the boot
+loader which comes in the firmware of cobalt machines.  it can boot from
+any primary partition containing an ext2/3 file system, supports booting
+via the network using tftp and nfs, features a boot menu, allows passing
+boot parameters to the kernel, and offers support for initial ramdisks
+(initrd).  the maximum size of kernels that can be booted is only
+constrained by available memory.
+
+colo is typically used in chain mode.  that is, the cobalt firmware is
+used to load colo from the first primary partition (ext2 revision 0), and
+it is then used to load the actual linux kernel.  however, tools are
+also supplied in this package to overwrite the firmware with colo.  this
+package also contains several other useful tools for cobalt microservers,
+such as a program to output information on a cobalt's lcd and an admin
+menu which allows to reboot and halt the machine through the lcd and
+buttons located on the panel of a cobalt machine.

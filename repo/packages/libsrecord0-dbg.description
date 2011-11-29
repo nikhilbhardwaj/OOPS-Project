@@ -1,0 +1,7 @@
+Library for manipulating eprom load files (debugging symbols)
+	
+the srecord library is a collection of powerful c++ classes for manipulating
+eprom load files. it reads and writes numerous eprom file formats, and can
+perform many different manipulations.
+
+this package contains the debugging symbols for the srecord tools and library.

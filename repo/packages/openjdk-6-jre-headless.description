@@ -1,0 +1,6 @@
+Openjdk java runtime, using hotspot jit (headless)
+	
+minimal java runtime - needed for executing non gui java programs.
+using hotspot jit.
+the packages are built using the icedtea build support and patches
+from the icedtea project.

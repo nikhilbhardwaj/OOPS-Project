@@ -1,0 +1,8 @@
+A keylogger for gnu/linux systems
+	
+logkeys is no more advanced than other available linux keyloggers, but is a
+bit more up to date, it doesn't unreliably repeat keys and it should never
+crash your x.  all in all, it just seems to work.  it relies on event
+interface of the linux input subsystem.  once set, it logs all common
+character and function keys, while also being fully aware of shift and
+altgr key modifiers.

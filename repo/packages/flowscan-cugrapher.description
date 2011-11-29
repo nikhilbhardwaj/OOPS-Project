@@ -1,0 +1,6 @@
+A cgi interface for flowscan-cuflow
+	
+cugrapher creates graphs for the data collected cuflow.  the graphs
+are displayed in a web browser.  the graphs can be customised by
+entering queries on the web form, or by creating a default set of
+graphs in the /etc configuration file.

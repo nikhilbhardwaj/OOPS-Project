@@ -1,0 +1,12 @@
+Global multiple nucleotide or peptide sequence alignment
+	
+this program performs an alignment of multiple nucleotide or amino acid
+sequences. it recognizes the format of input sequences and whether the
+sequences are nucleic acid (dna/rna) or amino acid (proteins). the output
+format may be selected from in various formats for multiple alignments such as
+phylip or fasta. clustal w is very well accepted.
+
+the output of clustal w can be edited manually but preferably with an
+alignment editor like seaview or within its companion clustal x. when building
+a model from your alignment, this can be applied for improved database
+searches. the debian package hmmer creates such in form of an hmm.

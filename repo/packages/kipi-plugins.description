@@ -1,0 +1,49 @@
+Image manipulation/handling plugins for kipi aware programs
+	
+kipi plugins (kde image plugin interface) is an effort to develop a
+common plugin structure for digikam, kphotoalbum (formerly known as
+kimdaba), showimg and gwenview.
+its aim is to share image plugins among graphic applications.
+
+current plugins ported to qt4/kde4:
+
+
+ acquireimages      : acquire images using flat scanner
+ calendar           : create calendars
+ dngconverter       : convert raw image to digital negative
+ facebook           : import/export images to a remote facebook web service
+ flickrexport       : export images to a remote flickr/23hq web service
+ galleryexport      : export images to a remote gallery2 server
+ gpssync            : geolocalize pictures
+ htmlexport         : export images collections into a static xhtml
+ imageviewer        : preview images using opengl
+ jpeglossless       : rotate/flip images without losing quality
+ metadataedit       : edit exif, iptc and xmp metadata
+ picasawebexport    : export images to a remote picasa web service
+ printimage         : print images in various format
+ rawconverter       : convert raw image to jpeg/png/tiff
+ removeredeyes      : remove red eyes on image automatically
+ sendimages         : send images by e-mail
+ simpleviewerexport : export images to flash using simpleviewer
+ slideshow          : slide images with 2d and 3d effects using opengl
+ smug               : import/export images to a remote smugmug web service
+ timeadjust         : adjust date and time
+ ipodexport         : export pictures to an ipod device
+ batchprocess       : batch process images (convert, resize, rename, etc.)
+ kioexport          : export images to remote computer using network protocol
+ shwup              : export images to shwup web service
+ expoblending       : create pseudo hdr image with a stack of bracketed images
+ piwigoexport       : export images to a remote piwigo (phpwebgallery) server
+
+
+porting under progress to qt4/kde4:
+
+
+ wallpaper          : set image as background on your desktop
+
+
+not yet ported to qt4/kde4:
+
+
+ cdarchiving        : archive your image collections to a cd or dvd
+ mpegencoder        : create an mpeg slideshow with a set of images

@@ -1,0 +1,14 @@
+Container module for classes in the mage package: mage
+	
+mage-tab (microarray gene expression tabular) format is a standard from the
+microarray gene expression data society (mged). this package contains perl
+modules in the bio::mage hierarchy to manipulate miame-compliant (minimum
+information about a microarray experiment) records of microarray ("dna chips")
+experiments.
+
+the bio::mage module contains the following bio::mage classes:
+
+ * namevaluetype
+ * extendable
+ * identifiable
+ * describable

@@ -1,0 +1,4 @@
+PackageId:31441
+Name:selinux-basics
+Version:0.3.7
+Deps:checkpolicy,policycoreutils,python,selinux-utils

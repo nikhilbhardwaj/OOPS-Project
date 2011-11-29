@@ -1,0 +1,7 @@
+Sample programs that use libsamplerate
+	
+this package contains simple example programs for resampling sound files with
+the libsamplerate library.
+
+currently, the only binary included is sndfile-resample which uses libsndfile
+to read and write audio files and libsamplerate to do the rate conversion.

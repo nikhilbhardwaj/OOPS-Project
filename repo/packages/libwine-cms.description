@@ -1,0 +1,7 @@
+Windows api implementation - color management module
+	
+wine is a free ms-windows api implementation.
+this is still a work in progress and many applications may still not work.
+
+this package contains a color management system implementation that
+lets windows applications calibrate the colors used for display and print.

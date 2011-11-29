@@ -1,0 +1,7 @@
+Mozilla-based javascript bindings for the gnome platform
+	
+makes it possible for applications to use all of gnome's platform
+libraries using the javascript language. it's mainly based on the
+mozilla javascript engine and the gobject introspection framework.
+
+this is the shared library applications link to.

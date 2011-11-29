@@ -1,0 +1,8 @@
+Remotely determine dns server version
+	
+a nameserver basically responds to a query. interoperability is an
+obvious requirement here. the standard protocol behaviour of different
+dns implementations is expected to be the same.
+
+the reality is quite different though. fpdns uses a series of borderline
+dns queries to determine the vendor, product and version of a nameserver.

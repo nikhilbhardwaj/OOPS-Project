@@ -1,0 +1,11 @@
+An irc proxy for multiple users (mysql extension)
+	
+shroudbnc (short: sbnc) is an modular irc proxy for multiple
+users. its main features are ssl support for both irc and client
+connections, client certificates with passwordless authentication,
+ipv6 support, asynchronous dns resolving, built-in flood protection
+and module support.
+shroudbnc comes with many useful tcl scripts, but you are able to
+write your own, too.
+
+this package contains the mysql extension.

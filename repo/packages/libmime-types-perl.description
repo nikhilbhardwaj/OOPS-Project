@@ -1,0 +1,5 @@
+Perl extension for determining mime types and transfer encoding
+	
+mime::types provides a start for a more detailed data-structure to keep
+knowledge about various data types are defined by mime. some basic treatments
+with mime types are implemented.

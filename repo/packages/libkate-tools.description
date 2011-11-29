@@ -1,0 +1,8 @@
+Utilities for mangling kate ogg files
+	
+kate is meant to be used for karaoke alongside audio/video streams (typically
+vorbis and theora), movie subtitles, song lyrics, and anything that needs text
+data at arbitrary time intervals.
+
+this package contains some utilities useful for debugging and tweaking
+kate files, using libkate

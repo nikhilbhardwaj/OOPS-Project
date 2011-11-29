@@ -1,0 +1,13 @@
+Configuration toolset for gpe
+	
+gpe-conf is a set of configuration tools for the gpe
+palmtop environment to perform the basic configuration
+tasks on a mobile device. it is designed to expose all
+necessary settings in an easy to use and unintrusive
+way. it is also able to set up some tasks that are the
+subject of more advanced use of a device such as serial
+port usage and multi user setups.
+
+the gpe-conf package contains another small tool -
+gpe-info to provide information about the device and
+current status as well.

@@ -1,0 +1,13 @@
+The telnet server with ssl encryption support
+	
+the in.telnetd program is a server which supports the darpa telnet interactive
+communication protocol.
+
+ssl telnetd replaces normal telnetd using ssl authentication and
+encryption. it interoperates with normal telnetd in both directions.
+it checks if the other side is also talking ssl, if not it falls back
+to normal telnet protocol.
+
+advantages over normal telnetd: your passwords and the data you send
+will not go in cleartext over the line. nobody can get it with
+tcpdump or similar tools.

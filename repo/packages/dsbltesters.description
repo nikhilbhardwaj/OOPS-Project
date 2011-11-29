@@ -1,0 +1,10 @@
+Open proxy/relay testing utilities
+	
+this package contains testing software configured to work with
+the dsbl (http://dsbl.org/) or dsbl-compliant services.  it
+enables you to send tests to servers based on spam that you
+receive.  if those tests succeed, the results will reach the
+dsbl host in question, and the relay will be listed.
+
+note: the original dsbl service has gone, it's not possible to
+submit nor place a query there.

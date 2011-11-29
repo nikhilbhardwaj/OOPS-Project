@@ -1,0 +1,7 @@
+Bywater basic interpreter
+	
+the bywater basic interpreter (bwbasic) implements a large superset
+of the ansi standard for minimal basic (x3.60-1978) and a significant
+subset of the ansi standard for full basic (x3.113-1987) in c.  it
+also offers shell programming facilities as an extension of basic.
+bwbasic seeks to be as portable as possible.

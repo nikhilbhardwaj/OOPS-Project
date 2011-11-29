@@ -1,0 +1,20 @@
+Linear polymer mass spectrometry software
+	
+massxpert is a program to simulate and analyse mass spectrometric
+data obtained on linear (bio-)polymers. it is the successor of gnu
+polyxmass.
+
+four modules allow:
+
+ - making brand new polymer chemistry definitions;
+ - using the definitions to perform easy calculations in a desktop
+   calculator-like manner;
+ - performing sophisticated polymer sequence editing and simulations;
+ - perform m/z list comparisons;
+
+
+chemical simulations encompass cleavage (either chemical or
+enzymatic), gas-phase fragmentations, chemical modification of any
+monomer in the polymer sequence, cross-linking of monomers in the
+sequence, arbitrary mass searches, calculation of the isotopic
+pattern...

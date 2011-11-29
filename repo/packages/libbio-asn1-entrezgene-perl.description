@@ -1,0 +1,16 @@
+Parser for ncbi entrez gene and ncbi sequence records
+	
+bio::asn1::entrezgene and bio::asn1::sequence are regular expression-based
+parsers for ncbi entrez gene genome databases
+(<http://www.ncbi.nih.gov/entrez/query.fcgi?db=gene>).
+
+they parse asn.1-formatted entrez gene records and ncbi sequences,
+returning data structures that contain all data items from the gene records
+or the sequence records.
+
+the parser will report error & line number if input data does not conform to
+the ncbi entrez gene genome or ncbi sequence annotation file format.
+
+bio::asn1::sequence is basically a modified version of the high-performance
+bio::asn1::entrezgene parser. however this standalone module exists since it
+is more efficient to keep sequence-specific code out of entrezgene.pm.

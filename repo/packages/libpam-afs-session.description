@@ -1,0 +1,10 @@
+Pam module to set up a pag and obtain afs tokens
+	
+afs is a distributed network file system.  it uses in-kernel credentials
+(afs tokens) obtained from kerberos tickets for authentication and access
+control, and controls access to those credentials via pags (process
+authentication groups).  this module provides a pam session
+implementation that puts new logins in separate pags and optionally runs
+an external program (usually aklog) to obtain tokens from kerberos
+tickets.  it is designed to work with a kerberos pam module that obtains
+the initial kerberos tickets.

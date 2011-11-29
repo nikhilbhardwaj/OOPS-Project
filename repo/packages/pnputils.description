@@ -1,0 +1,8 @@
+Plug and play bios utilities
+	
+this package contains two tools for interacting with plug and play
+bioses:
+
+
+ * lspnp - list pnp bios device nodes and resources
+ * setpnp - modify pnp bios device resources

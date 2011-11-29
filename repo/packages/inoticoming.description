@@ -1,0 +1,8 @@
+Trigger actions when files hit an incoming directory
+	
+inoticoming is a daemon to watch a directory with linux's inotify
+framework and trigger actions once files with specific names are placed
+in there.
+
+for example it can be used to wait for .changes files uploaded
+into a directory and call reprepro to put them into your repository.

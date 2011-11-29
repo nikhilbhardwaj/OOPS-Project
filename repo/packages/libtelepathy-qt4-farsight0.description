@@ -1,0 +1,10 @@
+Telepathy/farsight integration - qt 4 library
+	
+telepathy-qt4-farsight provides telepathy-qt4 integration with
+telepathy-farsight, which implements media streaming using gstreamer and
+farsight.
+
+telepathy is a d-bus framework for unifying real time communication,
+including instant messaging, voice calls and video calls. it abstracts
+differences between protocols to provide a unified interface for
+applications.

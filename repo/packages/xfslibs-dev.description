@@ -1,0 +1,14 @@
+Xfs filesystem-specific static libraries and headers
+	
+xfslibs-dev contains the libraries and header files needed to
+develop xfs filesystem-specific programs.
+
+xfs is a high performance journaling filesystem which originated
+on the sgi irix platform.  it is completely multi-threaded, can
+support large files and large filesystems, extended attributes,
+variable block sizes, is extent based, and makes extensive use of
+btrees (directories, extents, free space) to aid both performance
+and scalability.
+
+refer to the documentation at http://oss.sgi.com/projects/xfs/
+for complete details.

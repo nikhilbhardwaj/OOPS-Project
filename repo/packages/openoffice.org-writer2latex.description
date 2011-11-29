@@ -1,0 +1,19 @@
+Writer/calc to latex converter extension for openoffice.org
+	
+writer2latex is a utility written in java. it converts openoffice.org
+documents – in particular documents containing formulas – into other
+formats. it is actually a collection of four converters, i.e.:
+
+ 1) writer2latex converts documents into latex 2e format for high quality
+    typesetting.
+ 2) writer2bibtex extracts bibliographic data from a document and stores it in
+    bibtex format (works together with writer2latex).
+ 3) writer2xhtml converts documents into xhtml 1.0 or xhtml 1.1+mathml 2.0 with
+    css2.
+ 4) calc2xhtml is a companion to writer2xhtml that converts ooo calc documents
+    to xhtml 1.0 with css2 to display your spreadsheets on the web.
+ .
+ this package contains the openoffice.org extension providing
+ writer2latex for openoffice.org. note that ooo contains writer2latex 0.4
+ since 2.0.4 and this disables the internal writer2latex and uses the new
+ one.

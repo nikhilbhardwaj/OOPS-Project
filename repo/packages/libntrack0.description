@@ -1,0 +1,13 @@
+Lightweight connectivity tracking library
+	
+ntrack aims to be a lightweight and easy to use library for application
+developers that want to get events on network online status changes such as
+online, offline or route changes.
+
+the primary goal is to serve desktop applications in a network manager and
+desktop environment independent fashion. also its supposed to be lightweight,
+resource un-intensive and extensible.
+
+ntrack currently comes with bindings for glib, gobject, qt4 and python-gobject.
+
+homepage: https://launchpad.net/ntrack

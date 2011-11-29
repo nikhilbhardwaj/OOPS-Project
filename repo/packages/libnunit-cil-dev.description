@@ -1,0 +1,9 @@
+Unit test framework for cli
+	
+nunit is a unit testing framework for all .net languages. it serves the
+same purpose as junit does in the java world. it supports test
+categories, testing for exceptions and writing test results in plain
+text or xml.
+
+this package contains development files for the nunit library, and should
+be used for compilation

@@ -1,0 +1,9 @@
+Networkspaces client for distributed python applications
+	
+this debian package provides the networkspaces client which makes it easy to
+use computing clusters from within python.
+
+see http://www.ddj.com/web-development/200001971 for a recent overview
+article on networkspaces.
+
+the python-nwsserver package provides the corresponding server.

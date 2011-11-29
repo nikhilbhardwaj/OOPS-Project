@@ -1,0 +1,17 @@
+Scanning probe microscopy visualization and analysis tool
+	
+gwyddion is a modular program for scanning probe microscopy (spm) data
+visualization and analysis. it is primarily intended for analysis of height
+field data obtained by microscopy techniques like
+atomic force microscopy (afm),
+magnetic force microscopy (mfm),
+scanning tunneling microscopy (stm),
+near-field scanning optical microscopy (snom or nsom)
+and others. however, it can be used for arbitrary height field and
+image analysis.
+
+this package contains the main application and its modules. it also contains
+a gnome (and xfce) thumbnailer which creates previews for all file types known
+to gwyddion.
+
+gwyddion's python scripting interface pygwy is also included.

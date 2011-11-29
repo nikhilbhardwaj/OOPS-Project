@@ -1,0 +1,7 @@
+Module for manipulating uri query strings
+	
+uri::query is a perl module that provides methods for simple uri query string
+manipulation. it can easily create and manipulate uri query strings from get
+and post requests in web applications. this module is primarily useful for
+creating links where you wish to preserve some subset of the parameters to
+the current request, and potentially add or replace others.

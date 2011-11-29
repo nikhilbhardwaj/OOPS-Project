@@ -1,0 +1,4 @@
+PackageId:9448
+Name:libapache-sessionx-perl
+Version:2.01-2
+Deps:debconf,debconf-2.0,cdebconf,cdebconf-udeb,libapache-session-perl,libdigest-md5-perl,perl,libstorable-perl

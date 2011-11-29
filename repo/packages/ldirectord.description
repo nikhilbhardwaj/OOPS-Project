@@ -1,0 +1,5 @@
+Monitors virtual services provided by lvs
+	
+ldirectord is a stand-alone daemon to monitor services of real
+for virtual services provided by the linux virtual server (lvs).
+and works with linux-ha's heartbeat package.

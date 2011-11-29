@@ -1,0 +1,16 @@
+Star compliant data file parser for perl
+	
+this distribution contains a set of perl modules for parsing star compliant
+data files and dictionaries, for example cif or mmcif data files and
+dictionaries. while these tools are not limited to cif or mmcif files, they
+do not allow the presence of nested loops.
+
+the following modules are included in this distribution:
+
+
+   star::parser
+   star::datablock
+   star::dictionary
+   star::writer
+   star::checker
+   star::filter

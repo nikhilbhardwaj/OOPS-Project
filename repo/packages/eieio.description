@@ -1,0 +1,9 @@
+Enhanced implementation of emacs interpreted objects
+	
+eieio is an emacs lisp program which implements a controlled
+object-oriented programming methodology following the clos
+standard. eieio also has object browsing functions, and custom widget
+types. it has a fairly complete manual describing how to use it.
+
+eieio is now a part of cedet (collection of emacs development
+environment tools).

@@ -1,0 +1,5 @@
+Development files for pyqt4
+	
+this package contains the source sip files from which the python
+bindings for qt4 are created. they are needed for building pyqt4
+as well as creating bindings for own qt4 widgets written in c++.

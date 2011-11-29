@@ -1,0 +1,9 @@
+Down translation of xml files
+	
+this module provides a way to manipulate in various ways a xml
+document. including: changing the contents, transforming to
+another document, generating statistics, generating info about
+the xml document to generate another document (i.e. creating a
+table of contents for a html file).
+
+upstream url: http://natura.di.uminho.pt/~jj/perl/xml/dt.html

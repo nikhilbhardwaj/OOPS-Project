@@ -1,0 +1,5 @@
+Python bindings for linux infra-red remote control (lirc) support
+	
+a module for python that interacts with linux infra-red remote control
+(lirc) to give python programs the ability to receive commands from
+remote controls.

@@ -1,0 +1,7 @@
+A program to find win32 applications
+	
+missidentify is a program to find win32 applications. by default, it displays
+the filename of any executable that does not have an executable extension
+(exe, dll, com, sys, cpl, hxs, hxi, olb, rll or tlb).
+
+it can also display all the executables regradless the extension.

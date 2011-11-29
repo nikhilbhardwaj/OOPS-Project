@@ -1,0 +1,10 @@
+Monitor hosts/services/whatever and alert about problems
+	
+"mon" is a tool for monitoring the availability of services.  services
+may be network-related, environmental conditions, or anything that can
+be tested with software.  if a service is unavailable mon can tell you
+with syslog, email, your pager or a script of your choice.  you can
+control who gets each alert based on the time of day or day of week,
+and you can control how often an existing problem is re-alerted.
+
+more information can be found at http://mon.wiki.kernel.org

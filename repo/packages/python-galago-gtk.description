@@ -1,0 +1,10 @@
+Gtk+ widgets for the galago presence library (python interface)
+	
+galago is a d-bus-based desktop presence framework used to provide account,
+person, and presence information for users on im services and other
+communication networks for use in other desktop applications, such as e-mail
+clients or address books.
+
+this package provides a python interface to the galago gtk+ widgets.
+
+see the libgalago description for more information about galago in general.

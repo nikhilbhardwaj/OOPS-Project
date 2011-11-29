@@ -1,0 +1,11 @@
+Utility used to alter mime-encoded mailpacks
+	
+altermime is a small program which is used to alter your mime-encoded
+mailpacks as typically received by inflex, xamime and amavis.
+altermime can:
+
+   * insert disclaimers
+   * insert arbitrary x-headers
+   * modify existing headers
+   * remove attachments based on filename or content-type
+   * replace attachments based on filename

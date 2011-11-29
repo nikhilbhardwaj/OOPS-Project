@@ -1,0 +1,11 @@
+Cmaps for adobe-japan1
+	
+cmap is a sort of a mapping table used for converting a certain
+charset/encoding-specific charcode to cid code.
+
+this package contains cmap files for adobe-japan1 character collection,
+which stands for adobe-defined one, and including standard japanese
+charsets.
+
+it is used by gs-cjk (ghostscript with cjk-truetype extension) to
+handle japanese truetype fonts.

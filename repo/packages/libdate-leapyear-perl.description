@@ -1,0 +1,5 @@
+Perl module to determine whether or not a year is a leapyear
+	
+date::leapyear is a simple, non-oo module to determine whether or not a year
+is a leap year. it exports one function, isleap, which returns 1 or 0, which
+determines whether a year is leap or not

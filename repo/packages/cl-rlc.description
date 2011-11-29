@@ -1,0 +1,5 @@
+Common lisp rlc circuit simulator
+	
+cl-rlc provides a simulator for rlc (resistance, inductance, capacitance)
+circuits. it is written in common lisp and uses the xgraph package for
+plotting.

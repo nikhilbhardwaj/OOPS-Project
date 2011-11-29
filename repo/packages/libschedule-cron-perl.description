@@ -1,0 +1,12 @@
+Simple but complete cron like scheduler
+	
+this perl module can be used for periodically executing perl
+subroutines. the dates and parameters for the subroutines to be
+called are specified with a format known as crontab entry (see
+manpage crontab(5) or documentation of schedule::cron).
+
+the philosophy behind schedule::cron is to call subroutines
+periodically from within one single perl program instead of letting
+cron trigger several (possibly different) perl scripts. everything
+under one roof. furthermore schedule::cron provides mechanism to
+create crontab entries dynamically, which isn't that easy with cron.

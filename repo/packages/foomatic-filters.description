@@ -1,0 +1,13 @@
+Openprinting printer support - filters
+	
+foomatic is a printer database designed to make it easier to set up
+common printers for use with unix-like operating systems.
+it provides the "glue" between a print spooler (like cups or lpr) and
+the printer, by processing files sent to the printer.
+
+this package consists of filters used by the printer spoolers
+to convert the incoming postscript data into the printer's native
+format using a printer-specific, but spooler-independent ppd file.
+
+for use with cups, you will need both the cups and cups-client
+packages installed on your system.

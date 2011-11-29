@@ -1,0 +1,6 @@
+The tls openssl extension to tcl
+	
+this package enables communication over ssl-encrypted channels in tcl.
+
+both client and server-side sockets are possible. additionally, full
+filevent semantics should be intact.

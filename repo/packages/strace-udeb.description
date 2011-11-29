@@ -1,0 +1,13 @@
+A system call tracer
+	
+strace is a system call tracer, i.e. a debugging tool which prints out
+a trace of all the system calls made by a another process/program.
+the program to be traced need not be recompiled for this, so you can
+use it on binaries for which you don't have source.
+
+system calls and signals are events that happen at the user/kernel
+interface. a close examination of this boundary is very useful for bug
+isolation, sanity checking and attempting to capture race conditions.
+
+this is a stripped down package intended for debugging use in the debian
+installer.

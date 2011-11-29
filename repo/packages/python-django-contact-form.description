@@ -1,0 +1,10 @@
+Extensible contact-form application for django
+	
+this is a reusable application which simplifies including a contact form within
+django, the python web framework.  out of the box it provides a basic contact
+form which, once appropriate templates have been written, will email site
+administrators when the form is submitted.
+
+the form and view used are designed to be extensible to allow for easy
+adaptation to more complex needs.  it also features built-in integration with
+the akismet web service, to simplify spam filtering.

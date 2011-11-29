@@ -1,0 +1,18 @@
+Approx proxy server configuration editor
+	
+config::model::approx and config-edit-approx provide a configuration
+model and a configuration editor for /etc/approx/approx.conf.
+
+when the following dependencies are installed, you will get extra
+functionalities:
+
+
+   * a graphical approx configuration editor and a graphical
+     configuration wizard with libconfig-model-tkui-perl
+   * a curses approx configuration editor with
+     libconfig-model-cursesui-perl
+
+
+when run with '-ui none', approx configuration editor can also be
+used as a command line to validate approx configuration or to upgrade
+an older configuration without user interaction.

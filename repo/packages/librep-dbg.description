@@ -1,0 +1,7 @@
+Debug symbols for librep
+	
+rep is a dialect of lisp, designed to be used both as an extension
+language for applications and as a general purpose programming language.
+
+this package contains the debug symbols for the interpreter and the embeded
+library. they are only required for debugging.

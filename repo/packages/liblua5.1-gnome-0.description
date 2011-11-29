@@ -1,0 +1,9 @@
+Gnome bindings for the lua language version 5.1
+	
+this package contains the lua bindings for the gnome libraries, including
+gtk, gdk, glib, pango, atk, libxml2, cairo, clutter,
+gtksourceview, gio, gnet, gtkglext, gtkspell and gconf.
+
+the api is almost identical to the c api, but in an object oriented fashion.
+the library takes care of memory management, which makes it much easier to
+use.

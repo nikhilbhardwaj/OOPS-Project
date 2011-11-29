@@ -1,0 +1,11 @@
+Jboss remoting
+	
+the purpose of jboss remoting is to provide a single api for most
+network based invocations and related service that uses pluggable
+transports and data marshallers. the jboss remoting api provides the
+ability for making synchronous and asynchronous remote calls, push
+and pull callbacks, and automatic discovery of remoting servers. the
+intention is to allow for the addition of different transports to fit
+different needs, yet still maintain the same api for making the
+remote invocations and only requiring configuration changes, not code
+changes, to fit these different needs.

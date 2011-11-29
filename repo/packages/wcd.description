@@ -1,0 +1,7 @@
+Saves time typing when you want to change directories
+	
+wcd (wherever change directory) is a program to quickly change directories.
+it saves time typing at the keyboard. one needs to type only a part of a
+directory name and wcd will jump to it. by default, wcd searches for a
+directory with a name that begins with what has been typed, but the use of
+wildcards is also fully supported.

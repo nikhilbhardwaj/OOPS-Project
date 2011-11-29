@@ -1,0 +1,7 @@
+Scalable, non-blocking web server and tools
+	
+tornado is an open source version of the scalable, non-blocking
+web server and tools that power friendfeed. the friendfeed application
+is written using a web framework that looks a bit like web.py or
+google's webapp, but with additional tools and optimizations to take
+advantage of the underlying non-blocking infrastructure.

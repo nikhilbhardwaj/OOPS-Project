@@ -1,0 +1,13 @@
+Keyboard-only window manager
+	
+ratpoison is a simple window manager with no fancy graphics,
+no window decorations, and no rodent dependence.
+it is largely modelled after gnu screen.
+
+the screen can be split into non-overlapping frames. all
+windows are kept maximized inside their frames to take
+full advantage of your precious screen real estate.
+
+all interaction with the window manager is done through
+keystrokes. ratpoison has a prefix map to minimize
+key clobbering.

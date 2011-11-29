@@ -1,0 +1,11 @@
+A public domain version of the korn shell
+	
+pd-ksh is a mostly complete at&t ksh look-alike (see notes file for a list
+of things not supported).  work is currently underway to make it fully
+compatible with both posix and at&t ksh (when the two don't conflict).
+
+since pdksh is free and compiles and runs on most common unix systems,
+it is very useful in creating a consistent user interface across multiple
+machines.  for example, in the cs department of mun, pdksh is installed
+on a variety of machines including suns, hps, decstations, pcs running
+linux, etc., and is the login shell of ~4500 users.

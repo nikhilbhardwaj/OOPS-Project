@@ -1,0 +1,19 @@
+Synchronize a local maildir with a remote imap4 mailbox
+	
+command line applications which synchronize a local maildir-style
+mailbox with a remote imap4 mailbox, suitable for use in disconnected
+mode. multiple copies of the remote imap4 mailbox can be maintained,
+and all flags and messages are synchronized.
+
+the main application was much improved in version 1.0. those
+improvements lead to interface changes and the application being
+renamed to mbsync. the application isync is now only a wrapper to
+keep compatibility with earlier versions.
+
+features:
+
+ * fast mode for fetching new mail only
+ * supports imaps: (port 993) tls/ssl connections
+ * supports starttls (rfc2595) for confidentiality
+ * supports namespace (rfc2342)
+ * supports cram-md5 (rfc2095) for authentication

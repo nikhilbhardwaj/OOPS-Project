@@ -1,0 +1,5 @@
+Perl extension providing localization support for datetime
+	
+datetime::locale extends datetime by providing localization support. it also
+provides some functions for getting information on available locales and is
+easily customizable through the addition of new locales.

@@ -1,0 +1,9 @@
+Skolelinux backup system
+	
+a backup system designed to back up multiple clients to a server.
+slbackup uses rdiff-backup as the underlying backup software.
+
+clients can be the host installing this package, or other hosts
+reachable via a ssh connection (using ssh keys). the host storing the
+backup data can be the host installing this package or another host
+reachable via a ssh connection (also using ssh keys).

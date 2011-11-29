@@ -1,0 +1,4 @@
+PackageId:223
+Name:alsa-base
+Version:1.0.23+dfsg-2
+Deps:linux-sound-base,lsof,module-init-tools,kldutils,udev

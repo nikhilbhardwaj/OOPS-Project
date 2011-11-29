@@ -1,0 +1,6 @@
+Cross assembler for 6800/6801/6803/6502/65c02/z80
+	
+assemble a microprocessor program and produce output file in intel hex
+or motorola s code from source for 6800/6801/6803/6502/65c02/z80
+processors. a program listing and a symbol table are also produced
+on the standard output.

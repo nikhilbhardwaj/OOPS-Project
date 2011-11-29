@@ -1,0 +1,6 @@
+Multiple major mode for emacs
+	
+mmm mode is a minor mode for emacs that allows multiple major modes
+(hence the name) to coexist in one buffer.  it is particularly
+well-suited to editing embedded code, such as mason server-side perl,
+or html output in cgi scripts.

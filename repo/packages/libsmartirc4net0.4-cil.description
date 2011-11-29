@@ -1,0 +1,7 @@
+Irc library for cli
+	
+smartirc4net is a multi-threaded and thread-safe irc library written in c#.
+it allows you to communicate with irc servers. the api features full channel
+syncing and is split in 3 layers: ircconnection, irccommands and ircclient.
+
+this package contains the libsmartirc4net library itself

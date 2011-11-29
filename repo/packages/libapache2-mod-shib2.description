@@ -1,0 +1,12 @@
+Federated web single sign-on system (apache module)
+	
+the shibboleth system is a standards based software package for web
+single sign-on across or within organizational boundaries.  it supports
+authorization and attribute exchange using the oasis saml 2.0 protocol.
+shibboleth allows sites to make informed authorization decisions for
+individual access of protected online resources while allowing users to
+establish their identities with their local authentication systems.
+
+this package contains the shibboleth apache module for service providers
+(web servers providing resources protected by shibboleth) and the
+supporting shibd daemon.

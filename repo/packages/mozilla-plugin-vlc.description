@@ -1,0 +1,11 @@
+Multimedia plugin for web browsers based on vlc
+	
+this plugin adds support for mpeg, mpeg2, dvd, divx, ogg/vorbis and many
+more formats to your gecko-based web browser (firefox, galeon, etc.). the
+decoding process is done by vlc and the output window is embedded in a
+webpage or directly in the browser window. there is also support for
+fullscreen display and javascript control.
+
+vlc is the videolan project's media player. it plays mpeg, mpeg2, mpeg4,
+divx, mov, wmv, quicktime, mp3, ogg/vorbis files, dvds, vcds, and multimedia
+streams from various network sources.

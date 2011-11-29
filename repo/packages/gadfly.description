@@ -1,0 +1,10 @@
+Server and interactive shell for gadfly sql database
+	
+gadfly is a relational database management system which uses a large
+subset of very standard sql as its query language. the underlying
+engine consists of python modules. gadfly stores the active database
+in memory, with logging to a file system for recovery from system or
+software failures (but not for disk failures).
+
+this package contains an interactive shell and a server for use with
+the gadfly sql database.

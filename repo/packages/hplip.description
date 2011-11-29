@@ -1,0 +1,32 @@
+Hp linux printing and imaging system (hplip)
+	
+the hp linux printing and imaging system provides full support for
+printing on most hp sfp (single function peripheral) inkjets and many
+laserjets, and for scanning, sending faxes and for photo-card access on
+most hp mfp (multi-function peripheral) printers.
+
+hplip is composed of:
+
+ * system services to handle communications with the printers
+ * hp cups backend driver (hp:) with bi-directional communication with
+   hp printers (provides printer status feedback to cups and enhanced
+   hpijs functionality such as 4-side full-bleed printing support)
+ * hp cups backend driver for sending faxes (hpfax:)
+ * hpcups cups raster driver to turn rasterized input from the cups
+   filter chain into the printer's native format (pcl, lidil, ...).
+   (hpcups is shipped in a separate package)
+ * hpijs ghostscript ijs driver to rasterize output from postscript(tm)
+   files or from any other input format supported by ghostscript, and
+   also for postscript(tm) to fax conversion support
+   (hpijs is shipped in a separate package)
+ * command line utilities to perform printer maintenance, such as
+   ink-level monitoring or pen cleaning and calibration
+ * gui and command line utility to download data from the photo card
+   interfaces in mfp devices
+ * gui and command line utilities to interface with the fax functions
+ * a gui toolbox to access all these functions in a friendly way
+ * hpaio sane backend (hpaio) for flatbed and automatic document feeder
+   (adf) scanning using mfp devices
+
+
+usb, jetdirect (network) and parallel-port devices are supported.

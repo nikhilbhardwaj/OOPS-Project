@@ -1,0 +1,14 @@
+Reporter of changes in list of available packages from repositories
+	
+daptup runs "apt-get update' inside and then outputs four
+lists:
+
+ - packages came to archive with this update;
+ - new upgradeable packages;
+ - changes in "watched" packages (not installed, such packages have to be
+  specified in configuration file);
+ - outdated packages that have a new install candidate (optionally).
+
+
+daptup also has apt hook to run automatically within 'apt-get update' or
+'cupt update'.

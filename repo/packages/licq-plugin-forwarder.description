@@ -1,0 +1,5 @@
+Forwarder plug-in for licq
+	
+this is a forwarder plug-in for the licq instant messaging client.  any events
+(messages, urls, etc.) received while the plug-in is enabled will be forwarded
+either via smtp to a given email account or via icq to a given uin.

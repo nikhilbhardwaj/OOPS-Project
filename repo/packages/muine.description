@@ -1,0 +1,9 @@
+Simple playlist based music player
+	
+muine is an innovative music player. it has a simple interface designed to
+allow the user to easily construct playlists from albums and/or single songs.
+its goal is to be simply a music player, not to become a robust music
+management application.  it includes a plugin interface.
+
+the package includes the cil assemblies to access the d-bus interface
+to muine and to compile plugins for muine.

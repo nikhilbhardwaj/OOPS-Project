@@ -1,0 +1,30 @@
+X applications
+	
+this package provides a miscellaneous assortment of x applications
+that ship with the x window system, including:
+
+ - atobm, bitmap, and bmtoa, tools for manipulating bitmap images;
+ - ico, a demo program animating polyhedrons;
+ - oclock and xclock, graphical clocks;
+ - xbiff, a tool which tells you when you have new email;
+ - xcalc, a scientific calculator desktop accessory;
+ - xclipboard, a tool to manage cut-and-pasted text selections;
+ - xconsole, which monitors system console messages;
+ - xcursorgen, a tool for creating x cursor files from pngs;
+ - xditview, a viewer for ditroff output;
+ - xedit, a simple text editor for x;
+ - xeyes, a demo program in which a pair of eyes track the pointer;
+ - xgc, a graphics demo;
+ - xload, a monitor for the system load average;
+ - xlogo, a demo program that displays the x logo;
+ - xmag, which magnifies parts of the x screen;
+ - xman, a manual page browser;
+ - xmore, a text pager;
+ - xwd, a utility for taking window dumps ("screenshots") of the x session;
+ - xwud, a viewer for window dumps created by xwd;
+ - xmark, x11perf, and x11perfcomp, tools for benchmarking graphical
+   operations under the x window system;
+
+
+the xbiff, xcalc, xconsole and xman programs use bitmap images provided
+by the xbitmaps package.

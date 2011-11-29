@@ -1,0 +1,13 @@
+Digital image warp and morph (x11)
+	
+xmorph loads, saves, warps, and dissolves images, and loads, saves, creates,
+and manipulates control meshes which determine the warping.  the technique
+was invented and first used by industrial light and magic, and is commonly
+called "morphing".
+
+xmorph uses the targa image format exclusively.  other software is needed to
+convert to other image formats or to movies.  (due to a bug, xmorph's images
+are unreadable by john bradley's xv.)
+
+xmorph is a gui for libmorph, using the x toolkit; the package also contains
+a text-only program called morph.

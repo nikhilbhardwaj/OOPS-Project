@@ -1,0 +1,6 @@
+Firmware loader for qualcomm gobi usb chipsets.
+	
+gobi-loader is a firmware loader for qualcomm gobi usb chipsets. these devices
+appear in an uninitialised state when power is applied and require firmware to
+be loaded before they can be used as modems. gobi-loader adds a udev rule that
+will trigger loading of the firmware and make the modem usable.

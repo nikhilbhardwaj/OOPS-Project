@@ -1,0 +1,5 @@
+Awt peer runtime libraries for use with gcj
+	
+these are runtime libraries holding the awt peer implementations
+for libgcj (currently the gtk+ based peer library is required, the
+qt bases library is not built).

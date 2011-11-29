@@ -1,0 +1,9 @@
+Easy-to-use interface to the xapian search engine
+	
+xapian provides a low level interface, dealing with terms and
+documents, but not really worrying about where terms come from, or how
+to build searches to match the way in which data has been indexed.  in
+contrast, xappy allows you to design a field structure, specifying what
+kind of information is held in particular fields, and then uses this
+field structure to index data appropriately, and to build and perform
+searches.

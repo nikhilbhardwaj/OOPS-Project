@@ -1,0 +1,8 @@
+Openid plugin for wordpress
+	
+openid is an open standard that allows users to authenticate to websites
+without having to create a new password. this plugin allows users to login to
+their local wordpress account using an openid, as well as enabling commenters
+to leave authenticated comments with openid. the plugin also includes an
+openid provider, enabling users to login to openid-enabled sites using their
+own personal wordpress account.

@@ -1,0 +1,9 @@
+Import upstream archives into darcs
+	
+darcs works fine for importing new archives.  however, for situations
+where the upstream renames or moves files and directories on a regular
+basis, version information can be lost.
+
+darcs-load-dirs works with darcs to import these things and preserve
+changes.  it works on a principle similar to subversion's
+svn_load_dirs or tla_load_dirs package for arch.

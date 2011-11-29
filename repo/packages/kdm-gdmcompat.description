@@ -1,0 +1,6 @@
+Provide basic gdm functionality to systems running kdm
+	
+this package provides a gdmflexiserver replacement utility and a daemon
+emulating gdm's control socket. the idea is to allow screen savers (especially
+xscreensaver and gnome-screensaver) and desktops which depend on gdm, to
+seamlessly integrate with kdm. the tools communicate with kdm via kdmctl.

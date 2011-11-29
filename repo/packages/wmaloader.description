@@ -1,0 +1,10 @@
+Firmware downloader for linksys wma11b media adapter
+	
+wmaloader is a simple program that can download filesystem images to
+the linksys wma11b. it performs the same function as the windows
+xp/2000 digital media adapter application loader (supplied with the
+original software) but can run on other operating systems. this
+allows the linksys wireless media adapter to be booted from a linux
+system. it does *not* supply media files to the device (yet!) but
+even so it might prove useful to those who wish to experiment hacking
+the device.

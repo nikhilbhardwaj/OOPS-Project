@@ -1,0 +1,9 @@
+Powerdns recursor
+	
+powerdns is a versatile nameserver which supports a large number
+of different backends ranging from simple zonefiles to relational
+databases and load balancing/failover algorithms.
+powerdns tries to emphasize speed and security.
+
+this is the recursive nameserver that goes out to the internet and
+resolve queries about other domains.

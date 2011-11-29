@@ -1,0 +1,18 @@
+Modular docbook dsssl stylesheets, for print and html
+	
+this package provides dsssl stylesheets which let you convert docbook
+sgml or xml files to various formats.
+
+this package contains two docbook dsssl stylesheets, one for "print"
+output and one for html.  the print stylesheet can be used in
+conjunction with the rtf and the tex back-ends that (open)jade
+provides to produce output suitable for printing.  the html
+stylesheet can be used to convert docbook documents into html.
+
+the stylesheets are modular in design so that you can extend and
+customize them.
+
+note that you can also perform docbook xml styling using the
+"docbook-xsl" package, which provides the xsl stylesheets.  the xsl
+stylesheets are more actively maintained and contain more new
+features than these dsssl stylesheets.

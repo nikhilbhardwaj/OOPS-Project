@@ -1,0 +1,4 @@
+PackageId:35197
+Name:xserver-xorg-video-intel
+Version:2:2.13.0-6
+Deps:libc6,libc6-udeb,libdrm-intel1,libdrm2,libpciaccess0,libx11-6,libx11-xcb1,libxcb-aux0,libxcb-dri2-0,libxcb1,libxext6,libxfixes3,libxv1,libxvmc1,xorg-video-abi-6.0,xserver-xorg-core

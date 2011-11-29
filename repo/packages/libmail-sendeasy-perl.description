@@ -1,0 +1,6 @@
+Send plain/html e-mails through smtp servers
+	
+this modules will send in a easy way e-mails, and doesn't have
+dependencies on libnet packages.
+
+it supports smtp authentication and attachments.

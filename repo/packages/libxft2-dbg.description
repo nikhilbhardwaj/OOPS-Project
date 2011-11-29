@@ -1,0 +1,15 @@
+Freetype-based font drawing library for x (unstripped)
+	
+xft provides a client-side font api for x applications, making the freetype
+font rasterizer available to x clients.  fontconfig is used for font
+specification resolution.  where available, the render extension handles
+glyph drawing; otherwise, the core x protocol is used.
+
+this package provides an unstripped shared object with debugging symbols,
+useful to provide a backtrace with symbol names in a debugger; this
+facilitates interpretation of core dumps, and aids in finding logic errors in
+programs using this library (or the library itself).  the library is
+installed in /usr/lib/debug and can be used by placing that directory in the
+ld_library_path environment variable when the code to be debugged is
+executed.  non-programmers will likely have little use for this package, and
+should use libxft2 instead.

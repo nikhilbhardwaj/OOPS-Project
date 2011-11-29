@@ -1,0 +1,8 @@
+Python bindings for libdesktop-agnostic
+	
+this library provides an extensible configuration api, a unified virtual file
+system api, and a desktop item editor (all with pluggable backends) for
+glib-based projects. it is not tied to any one desktop environment, although
+there are desktop-specific modules.
+
+this package contains the python bindings for the core library.

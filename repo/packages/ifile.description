@@ -1,0 +1,9 @@
+A text/e-mail/spam filter capable of learning
+	
+a text filter that uses machine learning to classify texts into
+groups. ifile works great as a spam filter. the text is classified by
+a simple statistical method called naive bayes, which basically
+considers each text an unordered collection of words and classifies
+by matching the distribution with the most closely matching group
+distribution. alternatives to ifile are annoyance-filter, bogofilter,
+spamoracle, and spamprobe.

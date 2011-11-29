@@ -1,0 +1,13 @@
+Bandlimited wavetable-based oscillator plugins for ladspa hosts
+	
+blop comprises a set of ladspa plugins that generate bandlimited
+sawtooth, square, variable pulse and slope-variable triangle waves,
+for use in ladspa aware audio applications, principally as components
+of a modular synthesis network.
+
+they are wavetable based, and are designed to produce output with
+harmonic content as high as possible over a wide pitch range.
+
+additionally, there are a few extra plugins to assist in building
+synthesis networks, like a analogue-type sequencer, sync-square and
+adsr envelope.

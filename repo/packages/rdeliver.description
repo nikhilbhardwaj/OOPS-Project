@@ -1,0 +1,9 @@
+A fully functioning mail filter with rubyfilter
+	
+rdeliver is a basic mail local delivery agent (deliveryagent of
+rubyfilter) that can be used in place of procmail, maildrop, etc. in a
+user's .forward or .qmail file.
+
+the user supplies a delivery script that is written in ruby, which
+avoids the limitations of the crippled mini-languages so often used in
+other deliveryagent programs.

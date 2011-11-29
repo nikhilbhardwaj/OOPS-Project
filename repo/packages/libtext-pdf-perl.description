@@ -1,0 +1,5 @@
+Relatively low-level interface for manipulating pdfs
+	
+this module provides a strong base for working with pdf files. it may be
+a bit hard to use for novices, but it is powerful enough for many other
+important perl modules for pdf generation to depend on it.

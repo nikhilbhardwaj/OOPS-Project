@@ -1,0 +1,10 @@
+Vdr-plugin to generate and solve sudokus
+	
+this plugin generates number place puzzles, so called sudokus, and let you
+solve it.
+
+a sudoku puzzle consists of 9 x 9 cells subdivided into 9 regions with 3 x 3
+cells. the rules are simple. there have to be the numbers from 1 to 9 in every
+row, column and region. in the beginning some numbers are given. these cells
+are painted with cyan background color. the aim of the puzzle is to find the
+missing numbers. there is only one solution of a sudoku puzzle.

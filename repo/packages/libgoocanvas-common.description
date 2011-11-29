@@ -1,0 +1,7 @@
+Translations for goocanvas
+	
+goocanvas is a canvas widget for gtk+ that uses the cairo 2d library for
+drawing. it has a model/view split, and uses interfaces for canvas items and
+views, so you can easily turn any application object into canvas items.
+
+this package contains the translations

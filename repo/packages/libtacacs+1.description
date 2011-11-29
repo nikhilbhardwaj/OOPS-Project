@@ -1,0 +1,5 @@
+Tacacs+ authentication daemon
+	
+tacacs+ is a protocol (not tacacs or xtacacs) for authentication,
+authorization and accounting (aaa) services for routers and network devices.
+this package include the library used by the daemon.

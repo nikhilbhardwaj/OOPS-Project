@@ -1,0 +1,9 @@
+Python interface to proj.4 library
+	
+proj.4 performs cartographic transformations between geographic (lat/lon)
+and map projection (x/y) coordinates. it can also transform directly
+from one map projection coordinate system to another.
+
+this is a python binding to proj.4, it can receive coordinates as numpy
+arrays, python arrays, lists or scalars. this module is optimized for
+numpy arrays.

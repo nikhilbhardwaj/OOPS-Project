@@ -1,0 +1,7 @@
+Drop-in replacement for next, using class::c3 to do the hard work
+	
+class::c3::adopt::next is intended as a drop-in replacement for next,
+supporting the same interface, but using class::c3 to do the hard work. you
+can then write new code without next, and migrate individual source files to
+use class::c3 or method modifiers as appropriate, at whatever pace you're
+comfortable with.

@@ -1,0 +1,16 @@
+Smart modem getty replacement
+	
+mgetty is a versatile program to handle all aspects of a modem under unix.
+
+the program 'mgetty' allows you to use a modem for handling external
+logins, receiving faxes and using the modem as a answering machine without
+interfering with outgoing calls.
+
+this package includes basic modem data capabilities. install mgetty-fax to
+get the additional functionality for fax. install mgetty-voice to get the
+functionality to operate voice modems.
+
+mgetty is also configurable to select programs other than login for special
+connections (eg: uucico, fido or other programs) depending on the login
+userid. it also supports caller-id if the modem and phone line supply it,
+and can deny connections based on originating telephone number.

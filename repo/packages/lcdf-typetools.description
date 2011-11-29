@@ -1,0 +1,58 @@
+Programs to manipulate opentype and multiple-master fonts
+	
+this package contains four tools for working with opentype fonts:
+
+
+ cfftot1    allows you to translate compact font format (cff) or
+            postscript-flavored opentype fonts into postscript
+            type 1 font format
+
+
+
+ otfinfo    reports information about opentype fonts, such as the
+            features they support and the contents of their ``size''
+            optical size option
+
+
+
+ otftotfm   allows you to create tex font metrics and encodings for
+            using postscript-flavored opentype fonts
+
+
+
+ t1dotlessj creates a type 1 font with a single character --
+            the dotless j corresponding to the specified design
+
+
+
+ t1lint     checks a type 1 font for correctness (preliminary)
+
+
+
+ t1testpage creates a postscript test page for a specified
+            font file (preliminary)
+
+
+
+ t1rawafm   generates a "raw" (kernless and ligatureless) afm file
+            given a font file (pfb/pfa)
+
+
+lcdf-typetools also includes the multiple-master font tools formerly
+distributed as mminstance.  these tools allow you to use
+multiple-master fonts with programs that require single-master fonts
+(afm2tfm, ps2pk, fontinst, etc.).  both programs work fine with fonts
+that contain intermediate masters (e.g., adobe jenson mm and adobe
+kepler mm).
+
+mmafm        creates an afm (adobe font metric) file corresponding to
+
+             a single instance of a multiple-master font.  it reads
+             (and therefore requires) the amfm and afm files
+             distributed with the font.
+
+
+mmpfb        creates a normal, single-master font program that looks
+
+             like an instance of a multiple-master font.  it reads
+             the multiple-master font program in pfa or pfb format.

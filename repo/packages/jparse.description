@@ -1,0 +1,5 @@
+Json parser utility
+	
+jparse is a small utility based on jaula library that checks json formatted
+files, detects errors and sends a "compacted to a single line" form of the
+file contents on standard output.

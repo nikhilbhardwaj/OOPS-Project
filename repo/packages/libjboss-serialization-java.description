@@ -1,0 +1,10 @@
+Jboss serialization
+	
+jbossserialization is a new approach to java-serialization. the main
+feature in jbossserialization besides performance, is smart cloning.
+
+smart cloning is the capability of the reuse of final fields among
+different class loaders doing exactly what serialization does,
+without the need of convert every field into a bytearray. this
+approach is at least 10 times faster than using serialization over a
+byte array.

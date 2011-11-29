@@ -1,0 +1,9 @@
+Python library for manipulating kickstart files
+	
+pykickstart is a python library consisting of a data representation of
+kickstart files, a parser to read file into that representation, and a writer
+to generate kickstart files.
+
+the kickstart file is a simple text file, containing a list of items,
+each identified by a keyword. the kickstart configuration format is used
+for image configuration and to automate operating system installations.

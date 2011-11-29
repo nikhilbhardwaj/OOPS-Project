@@ -1,0 +1,6 @@
+Rfc 2822 address parsing and creation
+	
+email::address implements a complete rfc 2822 parser that locates email
+addresses in strings and returns a list of email::address objects
+found. alternatley you may construct objects manually. the goal
+of this software is to be correct, and very very fast.

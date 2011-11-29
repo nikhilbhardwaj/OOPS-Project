@@ -1,0 +1,20 @@
+Telepathy extension for banshee
+	
+this extension provides integration between the empathy instant messenger and
+banshee. it provides the following features:
+
+
+ * download your friends' banshee library metadata and check out what they
+   listen to, their ratings, bpm values, etc.
+ * view your friends' playlists and export them to disk
+ * share what you're listening to with all your instant messaging friends by
+   advertising the track, artist, and album of the currently playing track in
+   empathy's status message. this can be disabled.
+ * download your friends' music; one track at a time or a selection. you can
+   cancel ones in progress, queued, individually or all at once. the sender has
+   the option to cancel all in progress or queued transfers only. both sender
+   and receiver get a progress bar. file sharing can be disabled.
+ * stream your friends' music. this feature can be disabled.
+
+
+banshee is a media management and playback application for the gnome desktop.

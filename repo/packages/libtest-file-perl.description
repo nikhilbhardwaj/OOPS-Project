@@ -1,0 +1,7 @@
+Perl module to test file attributes
+	
+test::file provides a collection of test utilities for file attributes.
+
+some file attributes depend on the owner of the process testing the file in
+the same way the file test operators do. for instance, root (or super-user or
+administrator) may always be able to read files no matter the permissions.

@@ -1,0 +1,84 @@
+Easily generate and process stateful cgi forms
+	
+do you hate generating, processing, and validating cgi forms?
+do you love perl?
+
+formbuilder is the answer. it's an extremely fast, robust perl module
+with a ridiculous set of features.
+
+here's the main stuff that i [the author] think is cool:
+
+
+ * dwimmery
+
+this module tries to "do what i mean". tell it the fields you care
+about, and it takes care of all the stupid html and javascript
+generation and processing for you. it also gives you back the correct
+values that you want. it will even label your fields automatically with
+human-readable names.
+
+
+ * input field abstraction
+
+you simply define your fields and their options, and formbuilder will
+take care of figuring out what the best html representation is. it will
+then generate the appropriate input fields (text, select, radio, etc),
+even changing any javascript actions appropriately.
+
+
+ * easy handling of defaults
+
+just specify a hash of values to use as the defaults for your fields.
+this will be searched case-insensitively and displayed in the form.
+what's more, if the user enters something via the cgi that overrides a
+default, when you use the field() method to get the data you'll get the
+correct value.
+
+
+ * correct stickiness
+
+stickiness is a pita. formbuilder correctly handles even multiple
+values selected in a multiple select list, completely integrated with
+proper handling of defaults.
+
+
+ * robust field validation
+
+form validation sucks, and this is where formbuilder is a big help. it
+has tons of builtin patterns, and will even generate gobs of javascript
+validation code for you. you can specify your own regexps as well, and
+formbuilder will even check multivalued select lists correctly. see the
+full list of built-in patterns.
+
+
+ * multiple submit mode support
+
+formbuilder allows you to reliably tell whether the person clicked on
+the "update" or "delete" button of your form, normally a big pain.
+
+
+ * template driver support
+
+formbuilder can natively "drive" several major templating engines:
+
+ * html::template
+ * cgi::fasttemplate
+ * text::template
+ * template toolkit
+
+if you want to build a complete form application with a template in
+less that 20 lines of perl, formbuilder is for you.
+
+
+ * internationalized, customizable messaging
+
+sick of us-centric modules? you can customize every single message that
+formbuilder outputs for your locale. see the full messages list.
+
+
+ * simple interface
+
+heck, i specialized in user interface design for my degree!
+
+
+ * extensive documentation

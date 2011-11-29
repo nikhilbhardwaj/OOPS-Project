@@ -1,0 +1,9 @@
+Numeric 1st and 2nd order differentiation
+	
+this perl package exports functions for performing numerical first
+and second order differentiation on data. the functions take
+references to two arrays containing the x and y ordinates of the data
+and return an array of the 1st or 2nd derivative at the given x
+ordinates. the 2nd derivative may optionally be given values to use
+for the first derivative at the start and end points of the data -
+otherwise 'natural' values are used.

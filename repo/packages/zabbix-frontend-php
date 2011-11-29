@@ -1,0 +1,4 @@
+PackageId:35483
+Name:zabbix-frontend-php
+Version:1:1.8.2-1squeeze2
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,httpd,aolserver4-core,aolserver4-daemon,boa,bozohttpd,cherokee,dhttpd,ebhttpd,lighttpd,mathopd,micro-httpd,mini-httpd,monkey,nginx,ocsigen,thttpd,tntnet,webfs,yaws,dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,libjs-prototype,libjs-scriptaculous,php5,php5-gd,php5-mysql,php5-pgsql,ttf-dejavu-core,ucf

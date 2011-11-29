@@ -1,0 +1,40 @@
+Tex live: essential programs and files
+	
+these files are regarded as basic for any tex system, covering plain tex
+
+  macros, computer modern fonts, and configuration for common drivers; no
+  latex.
+
+
+this package includes the following ctan packages:
+
+ amsfonts -- tex fonts from the american mathematical society.
+ apalike -- apa-like citations
+ bibtex -- process bibliographies for latex, etc.
+ cm -- computer modern fonts.
+ dvipdfm -- a dvi driver to produce pdf directly.
+ dvipdfmx -- an extended version of dvipdfm.
+ dvipdfmx-def --
+ dvips -- a dvi to postscript driver.
+ enctex -- a tex extension that translates input on its way into tex.
+ etex -- an extended version of tex, from the nts project.
+ etex-pkg -- e-tex support package.
+ gsftopk -- convert "ghostscript fonts" to pk files.
+ hyph-utf8 -- hyphenation patterns expressed in utf-8.
+ hyphen-base --
+ ifluatex -- provides the \ifluatex switch.
+ ifxetex -- am i running under xetex?
+ kpathsea -- path searching library for tex-related files.
+ makeindex -- process index output to produce typesettable code.
+ metafont -- a system for specifying fonts.
+ mflogo -- latex support for metafont logo fonts.
+ mfware -- supporting tools for use with metafont.
+ misc --
+ pdftex -- a tex extension for direct creation of pdf.
+ plain -- the plain tex format.
+ tcdialog --
+ tetex -- scripts and files originally written for or included in tetex
+ tex -- a sophisticated typesetting engine.
+ texconfig --
+ xdvi -- a dvi previewer for the x window system.
+ texdoc -- documentation access for tex distributions.

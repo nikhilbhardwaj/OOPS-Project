@@ -1,0 +1,24 @@
+Display readings from hardware sensors in your gnome panel
+	
+gnome sensors applet is an applet for the gnome panel that displays
+readings from hardware sensors, including temperatures, fan speeds and
+voltage readings.
+
+it can gather data from the following sources:
+
+ * acpi thermal zones, via the linux kernel acpi modules
+ * linux kernel i2c modules
+ * lm-sensors (libsensors)
+ * linux kernel i8k module (for dell inspiron laptops)
+ * linux kernel ibm-acpi module
+ * linux kernel powerpc modules therm_adt746x and therm_windtunnel
+ * linux kernel imac g5 windfarm module
+ * hddtemp daemon for reading temperatures from s.m.a.r.t. equipped hard disks
+ * linux kernel omnibook module
+ * nvidia graphics cards (with separate sensors-applet-nvidia package)
+ * linux kernel sonypi module (for sony vaio laptops)
+
+
+alarms can be set for each sensor to notify the user once a certain high or
+low value has been reached, and can be configured to execute a given command
+at given repeated intervals.

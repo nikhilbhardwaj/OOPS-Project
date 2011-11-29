@@ -1,0 +1,15 @@
+Extracts meta-data from files of arbitrary type (library)
+	
+gnu libextractor provides developers of file-sharing networks, file managers,
+and www-indexing bots with a universal library to obtain meta-data about files.
+
+currently, libextractor supports the following formats: html, pdf, ps, ole2
+(doc, xls, ppt), openoffice (sxw), staroffice (sdw), dvi, man, mp3 (id3v1 and
+id3v2), ogg, wav, exiv2, jpeg, gif, png, tiff, deb, rpm, tar(.gz), zip, elf,
+real, riff (avi), mpeg, qt and asf.
+
+also, various additional mime types are detected. it can also be used to
+compute hash functions (sha-1, md5, ripemd160).
+
+this package contains the library and all plugins, except exiv2, mpeg, ogg,
+ole2 and thumbail - they are splittet out to libextractor-plugins.

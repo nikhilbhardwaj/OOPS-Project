@@ -1,0 +1,8 @@
+Perl c/xs module to process comma-separated value files
+	
+text::csv_xs provides facilities for the composition and decomposition of
+comma-separated values. this module can combine fields into a csv string and,
+correspondingly, parse a csv string back into fields.
+
+text::csv (see libtext-csv-perl) is a wrapper module which will automatically
+select the most appropriate implementation for your configuration.

@@ -1,0 +1,14 @@
+Simple, fast, hpricot-like html/xml parser for ruby (ruby 1.9.1)
+	
+nokogiri is an html, xml, sax, and reader parser.
+
+features:
+
+
+   * xpath support for document searching
+   * css3 selector support for document searching
+   * xml/html builder
+   * drop in replacement for hpricot (though not bug for bug)
+
+
+this package is built for ruby 1.9.1.

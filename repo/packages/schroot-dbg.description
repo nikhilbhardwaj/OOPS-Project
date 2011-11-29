@@ -1,0 +1,15 @@
+Schroot, dchroot and dchroot-dsa debuggging symbols
+	
+sbuild provides facilities to manage and access chroots, as part of
+schroot.
+
+schroot allows users to execute commands or interactive shells in
+different chroots.  any number of named chroots may be created, and
+access permissions given to each, including root access for normal
+users, on a per-user or per-group basis.  additionally, schroot can
+switch to a different user in the chroot, using pam for
+authentication and authorisation.  all operations are logged for
+security.
+
+this package contains debugging symbols for the schroot, dchroot
+and dchroot-dsa packages.

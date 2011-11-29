@@ -1,0 +1,8 @@
+The ghostscript postscript/pdf interpreter library
+	
+ghostscript is used for postscript/pdf preview and printing.  usually as
+a back-end to a program such as ghostview, it can display postscript and pdf
+documents in an x11 environment.
+
+this package provides the ghostscript library which makes the
+facilities of ghostscript available to applications.

@@ -1,0 +1,11 @@
+Library to access cddb data - runtime files
+	
+libcddb is a c library to access data about audio cd on a cddb server
+
+it allows to search the database for cd matches, get detailed information
+about a cd and submit new cd entries to the database.
+it supports both the custom cddb protocol and the tunneling of the query
+over http. http proxying is supported. it also features a cache system.
+
+this package contains the runtime library required to run libcddb-enabled
+programs.

@@ -1,0 +1,9 @@
+System administration program similar to pikt
+	
+pica is the perl installation and configuration agent.
+it allows a system administrator to copy files from a
+centralized source to their servers, customizing every copy
+with macros and conditionals in a pikt-like fashion (e.g.
+depending on the target server).  it features remote
+command execution and remote object diff, and has an alarm
+framework available (pifia; see the picalib package).

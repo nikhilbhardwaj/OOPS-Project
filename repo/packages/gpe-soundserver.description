@@ -1,0 +1,10 @@
+Start and stop the gpe sound service
+	
+provides as-and-when sound services by wrapping the
+esd daemon. gpe-soundbite starts the gpe-soundserver
+prior to playback or recording and stops it again
+at the end of playback or recording.
+
+used by the gpe palmtop environment to reduce the
+resource footprint on devices where sound is only
+used intermittently.

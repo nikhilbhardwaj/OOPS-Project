@@ -1,0 +1,18 @@
+Read and write serial i2c eeprom devices
+	
+eep24c is a program that can read and write i2c serial eeprom
+devices.
+
+currently supported devices are:
+24c01, 24c02, 24c04, 24c08, 24c16, 24c32, 24c64, 24c128,
+24c256, 24c512 and 24xx515
+
+this program uses intelhex file format.
+it comes also with two file converters: ihex2txt and txt2ihex
+that can help the user to edit data inside intelhex files.
+
+it needs a hardware to connect the eeprom to the parallel port
+of the pc. see /usr/share/doc/eep24c/ for hardware schematics.
+the hardware was designed to be simple and inexpensive.
+
+the source code can also be compiled to work in dos.

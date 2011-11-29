@@ -1,0 +1,17 @@
+Postgresql log analyzer
+	
+pgfouine is a log analyzer for the postgresql database system,
+used to generate detailed reports from a postgresql log file.
+
+it is able to:
+
+ * analyze queries, to help determine which queries should be optimized to
+   speed up postgresql based applications.
+ * get an overview of the database activity.
+ * analyse vacuum maintenance operations.
+ * generate session files for the tsung load testing software.
+
+pgfouine is easily extensible to add custom reports.
+
+please refer to /usr/share/doc/pgfouine/readme.debian for information on how
+to configure postgresql for use with pgfouine.

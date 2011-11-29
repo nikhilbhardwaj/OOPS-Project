@@ -1,0 +1,8 @@
+Man pages for gss
+	
+the gnu generic security service library (gsslib) is a free
+implementation of the gss-api security framework.  gsslib uses shishi
+to implement the kerberos v5 mechanism, but is flexible enough to
+support other mechanisms too.
+
+this package contain the api reference as man pages.

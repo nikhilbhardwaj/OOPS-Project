@@ -1,0 +1,5 @@
+Whitepaper for crash kernel debugging utility
+	
+whitepaper for the crash core analysis suite which is a self-contained tool
+that can be used to investigate either live systems, lkcd (linux kernel crash
+dumps) and red hat netdump and diskdump core dumps.

@@ -1,0 +1,6 @@
+Provides a country field for django models
+	
+a django application which provides all iso 3166-1 countries as choices for
+use with forms, and a country field for models.
+it also includes a small template filter for getting country flags by
+iso 3166-1 alpha-2 country code.

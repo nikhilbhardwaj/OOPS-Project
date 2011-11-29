@@ -1,0 +1,12 @@
+Xml pull parser library for java v2
+	
+xml pull parser (in short xpp) is a streaming pull xml parser for java.
+this version xpp2 is the predecessor of xpp3 (see package libxpp3-java).
+
+xpp2 consists of two parts: generic api and its implementations. this
+debian version only provides the default implementation optimized for
+size and speed and is not exposing dtd, entities, comments, or processing
+instructions to the user.
+
+if you need a xml pull parser implementing the xmlpull api you want to
+have a look at the libxpp3-java package.

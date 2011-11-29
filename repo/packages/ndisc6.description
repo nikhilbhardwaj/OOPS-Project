@@ -1,0 +1,11 @@
+Ipv6 diagnostic tools
+	
+ndisc6 gathers a few diagnostic tools for ipv6 networks including:
+
+ - ndisc6, which performs icmpv6 neighbor discovery in userland,
+ - rdisc6, which performs icmpv6 router discovery in userland,
+ - rltraceroute6, a udp/icmp ipv6 implementation of traceroute,
+ - tcptraceroute6, a tcp/ipv6-based traceroute implementation,
+ - tcpspray6, a tcp/ip discard/echo bandwidth meter,
+ - addrinfo, easy script interface for hostname and address resolution,
+ - dnssort, dns sorting script.

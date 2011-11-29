@@ -1,0 +1,17 @@
+Perl module to fetch webpages with gzip-compression
+	
+the www::mechanize::gzip module tries to fetch a url by requesting
+gzip-compression from the webserver.
+
+if the response contains a header with 'content-encoding: gzip', it
+decompresses the response in order to get the original (uncompressed)
+content.
+
+this module will help to reduce bandwith fetching webpages, if supported
+by the webeserver. if the webserver does not support gzip-compression,
+no compression will be used.
+
+this modules is a direct subclass of www::mechanize and will therefore
+support any methods provided by www::mechanize.
+
+the decompression is handled by compress::zlib::memgunzip.

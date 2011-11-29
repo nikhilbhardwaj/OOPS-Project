@@ -1,0 +1,11 @@
+Character-cell koi8-u encoded cyrillic fonts for x (cronyx collection)
+	
+this package provides a standard set of character-cell low-resolution
+cyrillic fonts.  these are koi8-u fonts
+and are suitable for ukrainian.
+in most cases it is desirable to have the x font server (xfs) and/or
+an x server installed to make the fonts available to x clients.
+
+the upstream source of this package is the package xcyr of serge
+winitzki.  xcyr is a descendant of the package xrus-2.3 of andrey
+chernov.

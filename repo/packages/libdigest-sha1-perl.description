@@ -1,0 +1,6 @@
+Nist sha-1 message digest algorithm
+	
+the digest::sha1 module allows you to use the nist sha-1 message
+digest algorithm from within perl programs.  the algorithm takes as
+input a message of arbitrary length and produces as output a 160-bit
+"fingerprint" or "message digest" of the input.

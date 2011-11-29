@@ -1,0 +1,21 @@
+The s-lang programming library, development version
+	
+s-lang is a c programmer's library that includes routines for the rapid
+development of sophisticated, user friendly, multi-platform applications.
+
+the s-lang library includes the following:
+
+ * low level tty input routines for reading single characters at a time.
+ * keymap routines for defining keys and manipulating multiple keymaps.
+ * a high-level key processing interface (slkp) for
+   handling function and arrow keys.
+ * high level screen management routines for manipulating both
+   monochrome and color terminals. these routines are very
+   efficient. (slsmg)
+ * low level terminal-independent routines for manipulating the display
+   of a terminal. (sltt)
+ * routines for reading single line input with line editing and recall
+   capabilities. (slrline)
+ * searching functions: both ordinary searches and regular expression
+   searches. (slsearch)
+ * an embedded stack-based language interpreter with a c-like syntax.

@@ -1,0 +1,4 @@
+PackageId:34188
+Name:websimba
+Version:0.8.4-4.1
+Deps:apache2,apache2-mpm-event,apache2-mpm-itk,apache2-mpm-prefork,apache2-mpm-worker,debconf,debconf-2.0,cdebconf,cdebconf-udeb,simba,wwwconfig-common

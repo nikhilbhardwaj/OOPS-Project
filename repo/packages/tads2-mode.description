@@ -1,0 +1,7 @@
+Emacs mode for editing tads code
+	
+this package provides an (x)emacs mode which makes it easier to edit
+source code for tads games.  tads implements a programming language
+especially designed for writing text adventures; interpreters for the
+resulting byte-code are available for most operating systems
+(including debian gnu/linux, in the tadsr package).

@@ -1,0 +1,13 @@
+Metapackage for the boinc client and the manager
+	
+the berkeley open infrastructure for network computing (boinc) is a
+software platform for distributed computing: several initiatives of
+various scientific disciplines all compete for the idle time of
+desktop computers. the developers' web site at the university of
+berkeley serves as a common portal to the otherwise independently run
+projects.
+
+this package depends both on the boinc core client program that is
+required to participate in any project that uses boinc, and the
+boinc manager, a graphical monitor and control utility for the
+boinc core client.

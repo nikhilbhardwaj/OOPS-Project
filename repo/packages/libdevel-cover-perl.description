@@ -1,0 +1,19 @@
+Perl tool for determining code coverage metrics
+	
+devel::cover is a perl module that helps collect and display code coverage
+information. code coverage information is collected using a pluggable runops
+function which counts how many times each op is executed. this data is then
+mapped back to reality using the b compiler modules. there is also a another
+statement profiler which needs a better backend to be really useful.
+
+statement, branch, condition, subroutine, pod and time coverage information is
+reported. statement coverage data should be reasonable, although there may be
+some statements which are not reported. branch and condition coverage data
+should be mostly accurate too, although not always what one might initially
+expect. subroutine coverage should be as accurate as statement coverage. pod
+coverage comes from pod::coverage. if pod::coverage::countparents is available
+it will be used instead. coverage data for path coverage are not yet
+collected.
+
+the cover program can be used to generate coverage reports. another included
+program, gcov2perl, can convert gcov files to devel::cover databases.

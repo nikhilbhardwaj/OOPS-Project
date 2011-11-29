@@ -1,0 +1,7 @@
+Ace perfect hash function generator
+	
+ace_gperf is the ace version of gperf.
+
+both ace_gperf and gperf were written by the same author, and have
+basically the same options and functionality. ace_gperf simply takes
+advantage of the some of the features provided by the ace library.

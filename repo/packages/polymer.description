@@ -1,0 +1,8 @@
+Port of the kde style "plastik" depending on qt only
+	
+polymer (formerly known as plastique) is a port of the kde style
+"plastik", which does not depend on any kde libraries. this means, that
+you only need qt 3.x to make your qt applications look as if you had kde
+installed.
+
+currently only the multi-threaded version of the qt library is supported.

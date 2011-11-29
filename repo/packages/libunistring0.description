@@ -1,0 +1,10 @@
+Unicode string library for c
+	
+the 'libunistring' library implements unicode strings (in the utf-8,
+utf-16, and utf-32 encodings), together with functions for unicode
+characters (character names, classifications, properties) and
+functions for string processing (formatted output, width, word
+breaks, line breaks, normalization, case folding, regular
+expressions).
+
+this package contains the shared library.

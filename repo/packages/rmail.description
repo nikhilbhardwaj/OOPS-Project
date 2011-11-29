@@ -1,0 +1,7 @@
+Mta->uucp remote mail handler
+	
+rmail handles mail received via uucp and passes it to the local
+sendmail (or workalike).
+
+this version comes from the sendmail source package and the only
+change is the call to sendmail (from -obq to -obi).

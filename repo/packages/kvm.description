@@ -1,0 +1,5 @@
+Dummy transitional package from kvm to qemu-kvm
+	
+this transitional package helps users transition from the kvm package to the
+qemu-kvm package.  once this package and its dependencies are installed you
+can safely remove it.

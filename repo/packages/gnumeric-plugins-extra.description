@@ -1,0 +1,17 @@
+Spreadsheet application for gnome - additional plugins
+	
+gnumeric is a spreadsheet application that interoperates well
+with other spreadsheets. it comes with plugins that enable it to deal with
+commonly used spreadsheet file formats.
+
+some plugins shipped with gnumeric require additional packages to those
+required by the main gnumeric program. these plugins are therefore
+packaged separately.
+
+this includes:
+
+ - perl plugin;
+ - python plugin;
+ - python plugin loader;
+ - additional python functions;
+ - gnome glossary.

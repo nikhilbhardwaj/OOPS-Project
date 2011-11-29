@@ -1,0 +1,4 @@
+PackageId:7332
+Name:icinga-idoutils
+Version:1.0.2-2
+Deps:dbconfig-common,debconf,debconf-2.0,cdebconf,cdebconf-udeb,icinga-common,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libdbd-mysql,libdbd-pgsql,libdbi0,lsb-base,ucf

@@ -1,0 +1,9 @@
+Access library for the ebml format
+	
+the libebml library allows to read and write files using ebml (the
+extensible binary meta language), a binary pendant to xml. using libebml
+makes it easier to extend a file format without breaking support in
+older parsers.
+
+this package contains the header files and static libraries needed to
+compile applications that use libebml.

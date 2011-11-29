@@ -1,0 +1,4 @@
+Perl module to rotate logfiles
+	
+logfile::rotate provides methods to rename and save several versions of
+your logfiles, optionally compressing them after renaming them.

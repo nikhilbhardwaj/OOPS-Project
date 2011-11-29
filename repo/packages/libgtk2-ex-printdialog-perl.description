@@ -1,0 +1,15 @@
+Pure-perl alternative to the gnome2::print libraries
+	
+gtk2::ex::printdialog implements a dialog widget that can be used to
+print postscript data. it is intended to be a lightweight and pure-perl
+alternative to the gnome2::print libraries.
+
+libgtk2-ex-printdialog-perl uses a simple system of operating-system specific
+backends that are used to do the job of printing. currently, only a generic
+linux/unix backend (implemented using net::cups) is available, more will be
+added in the future.
+
+the dialog itself is intended to comply with the gnome human interface
+guidelines (hig). it allows the user to print to any printer installed on the
+system, or to an external command such as lpr, or to print a postscript or pdf
+file.

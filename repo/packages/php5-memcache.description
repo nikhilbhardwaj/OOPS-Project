@@ -1,0 +1,7 @@
+Memcache extension module for php5
+	
+memcached is a caching daemon designed especially for dynamic web applications
+to decrease database load by storing objects in memory.
+
+this extension allows you to work with memcached through handy oo and
+procedural interfaces in your php5 applications.

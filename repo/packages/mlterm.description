@@ -1,0 +1,22 @@
+Multilingual terminal
+	
+this is a terminal emulator for x window system, which supports
+various encodings including iso-8859-[1-11,13-16], tcvn5712, viscii,
+tis-620 (same as iso-8859-11), koi8-{r,u,t}, cp{1251,1255}, georgean-ps,
+euc-jp, euc-jisx0213, iso-2022-jp{,1,2,3}, shift_jis, shift_jisx0213,
+iso-2022-kr, euc-kr, uhc, johab, euc-cn (aka gb2312), gbk, iso-2022-cn,
+big5, euc-tw, hz, utf-8, and gb18030.
+
+doublewidth characters for east asian, combining characters for
+thai, vietnamese, and other diacritics, bidi (bi-directionality)
+for arabic and hebrew as well as arabic shaping are all supported.
+though mlterm supports indic complex languages such as hindi, this
+debian package is not compiled with indic support.
+
+since mlterm checks the current locale and selects appropriate encoding,
+you don't need to configure mlterm to display your language and
+encoding.
+
+mlterm also supports unique features such as scrollbar api,
+multiple windows, multiple xim, anti-alias using freetype and xft,
+and so on.

@@ -1,0 +1,5 @@
+Portable windows library video plugin for video4linux
+	
+this package contains the pwlib plugin for usage with video4linux
+devices.  install this package, if you want to use a video device
+that is not attached to firewire.

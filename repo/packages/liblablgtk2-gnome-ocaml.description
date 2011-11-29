@@ -1,0 +1,7 @@
+Runtime libraries for ocaml bindings to gnome
+	
+lablgtk2 contains bindings for gtk+ 2.x and objective caml.
+
+this package include only the dynamic libraries needed for running dynamic
+bytecode executables using gnome functionalities (panel-applet, gnomeui,
+gnome-canvas, rsvg).

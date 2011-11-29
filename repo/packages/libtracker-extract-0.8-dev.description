@@ -1,0 +1,11 @@
+Tracker extractor library - development files
+	
+this package contains the static libraries and header files needed to link
+applications with libtracker-extract.
+
+libtracker-extract provides a library to develop metadata extractors for 3rd
+party file types.
+
+tracker is an advanced framework for first class objects with associated
+metadata and tags. it provides a one stop solution for all metadata, tags,
+shared object databases, search tools and indexing.

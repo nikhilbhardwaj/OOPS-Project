@@ -1,0 +1,11 @@
+Perl module to intelligently find libraries
+	
+find::lib is a module aimed at finding and loading libraries in paths relative
+to the currently running script. it is particularly useful for test scripts,
+when there are test helper modules included in the distribution that are needed
+for testing but should not be installed on the system.
+
+it simplifies the finding and loading these special libraries, which can be a
+tedious and error-prone process, especially when new modules are updated. this
+module is generally used to locate and load a bundled "bootstrapping" module
+which then loads the required dependencies.

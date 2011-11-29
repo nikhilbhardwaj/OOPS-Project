@@ -1,0 +1,8 @@
+Module to automate interaction with websites
+	
+www::mechanize, or mech for short, helps you automate interaction with
+a website. it supports performing a sequence of page fetches including
+following links and submitting forms. each fetched page is parsed and
+its links and forms are extracted. a link or a form can be selected, form
+fields can be filled and the next page can be fetched. mech also stores
+a history of the urls you've visited, which can be queried and revisited.

@@ -1,0 +1,27 @@
+Jane street's standard library for ocaml (runtime)
+	
+core is an alternative to the ocaml standard library developed by
+jane street capital.
+
+core does a number of things:
+
+
+ * provides tail recursive versions of non tail recursive functions in
+   the standard library;
+ * changes the signature of many of the standard modules to enforce
+   consistent naming conventions;
+ * includes generic serialization for most types;
+ * adds some new modules as well as new functionality to existing
+   modules.
+
+
+beware that core extends some functionality of the legacy standard
+library, and outright changes or replaces other; backward compatibility
+
+the code of core is routinely reviewed within jane street capital
+according to their quality assurance requirements. the extra library
+called core_extended adds new functionalities on top of core, but is
+only reviewed on an ad-hoc basis.
+
+this package contains the runtime stuff you need to run programs using
+core (but not core_extended).

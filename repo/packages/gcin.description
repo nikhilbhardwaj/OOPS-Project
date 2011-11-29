@@ -1,0 +1,10 @@
+An gtk+ based input method platform for chinese users
+	
+gcin is an input method platform, which supports gtk+/qt immodule and xim.
+gcin is focused mainly on traditional chinese. however, it is also very useful
+for simplified chinese, japanese, and many other languages.
+
+input method table format of gcin is almost as same as those of xcin and scim.
+
+this package contains an gtk+ immodule. if you want to use qt immodule, please
+install gcin-qt3-immodule package.

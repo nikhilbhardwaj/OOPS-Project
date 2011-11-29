@@ -1,0 +1,28 @@
+An archive manager for gnome
+	
+file-roller is an archive manager for the gnome environment. it allows you to:
+
+
+ * create and modify archives.
+ * view the content of an archive.
+ * view a file contained in an archive.
+ * extract files from the archive.
+
+
+file-roller supports the following formats:
+
+ * tar (.tar) archives, including those compressed with
+   gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+   compress (.tar.z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+   lzma (.tar.lzma) and xz (.tar.xz)
+ * zip archives (.zip)
+ * jar archives (.jar, .ear, .war)
+ * 7z archives (.7z)
+ * iso9660 cd images (.iso)
+ * lha archives (.lzh)
+ * single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+   compress (.z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+
+
+file-roller doesn't perform archive operations by itself, but relies on
+standard tools for this.

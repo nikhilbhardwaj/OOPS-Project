@@ -1,0 +1,8 @@
+Raw picture decoding c++ library (runtime)
+	
+c++ interface around dcraw binary program used to decode raw
+picture files.
+
+this library is used by kipi-plugins, digikam, and krita.
+
+libkdcraw5 contains the library of libkdcraw.

@@ -1,0 +1,7 @@
+Python bindings for liblash2
+	
+lash is a session management system for jack and alsa audio
+applications on gnu/linux.
+
+this package contains the python bindings allowing you to use liblash2
+from python scripts.

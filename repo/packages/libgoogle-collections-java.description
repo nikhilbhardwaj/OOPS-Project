@@ -1,0 +1,32 @@
+Suite of collections and related goodies for java 5.0
+	
+this library is a natural extension of the java collections framework. the
+major new types are:
+
+ * bimap. a map that guarantees unique values, and supports an inverse view.
+ * multiset. a collection that may contain duplicate values like a list, yet
+   has order-independent equality like a set. often used to represent a
+   histogram.
+ * multimap. similar to map, but may contain duplicate keys. has subtypes
+   setmultimap and listmultimap providing more specific behavior.
+
+
+there are also more than a dozen collection implementations, mostly of the
+interfaces above, but not all. referencemap, for example, is a concurrentmap
+implementation which easily handles any combination of strong, soft or weak
+keys with strong, soft or weak values. static utility classes include:
+
+ * comparators. natural order, compound, null-friendly, ad-hoc, ...
+ * iterators and iterables. element-based equality, cycle, concat, partition,
+   filter with predicate, transform with function ...
+ * lists, sets and maps. a plethora of convenient factory methods and much
+   more.
+ * primitivearrays: "boxing"/"unboxing" of primitive arrays
+
+
+and there's more:
+
+ * immutable collections
+ * forwarding collections
+ * constrained collections
+ * implementation helpers like abstractiterator

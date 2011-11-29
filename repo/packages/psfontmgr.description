@@ -1,0 +1,11 @@
+Postscript font manager -- part of defoma, debian font manager
+	
+psfontmgr manages postscript fonts through the defoma framework. it
+registers the name of available postscript fonts to defoma in
+postscript category, so applications which output a postscript file
+have all the available postscript fonts in their font-choosing menus.
+
+it also provides a tool named defoma-psfont-installer, which registers
+postscript fonts installed in a postscript printer. this tool benefits
+those who want to print a postscript file with the printer fonts and
+have the printer fonts appear in a font-choosing menu.

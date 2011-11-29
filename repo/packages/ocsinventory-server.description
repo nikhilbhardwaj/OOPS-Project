@@ -1,0 +1,14 @@
+Hardware and software inventory tool (communication server)
+	
+open computer and software inventory next generation is an application
+designed to help a network or system administrator keep track of the
+computers configuration and software that are installed on the network.
+
+information about hardware and operating system are collected.
+ocs inventory is also able to detect all active devices on your network,
+such as switch, router, network printer and unattended devices.
+it also allows deploying softwares, commands or files on client computers.
+
+this package contains the 'communication server' part.
+note that this is the xml-rpc/soap server, not the web interface (which is
+provided in the ocsinventory-reports package).

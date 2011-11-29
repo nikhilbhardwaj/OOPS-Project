@@ -1,0 +1,8 @@
+Development files for sdl 1.2 image loading libray
+	
+this is a simple library to load images of various formats as sdl surfaces.
+this library currently supports bmp, ppm, pcx, gif, jpeg, png, tiff, and xpm
+formats.
+
+this package contains the include files and static libraries required to
+support development using the sdl 1.2 image loading library.

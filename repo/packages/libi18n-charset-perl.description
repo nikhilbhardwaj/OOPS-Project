@@ -1,0 +1,10 @@
+Perl module for mapping character set names to iana names
+	
+i18n::charset maps character set names to the names officially
+registered with iana.  for example, 'shift_jis' is the official name
+of 'x-sjis'.
+
+it also maps character set names to unicode::map, unicode::map8, and
+unicode::maputf8 conversion scheme names (if those modules are
+installed).  for example, the unicode::map8 scheme name for
+'windows-1251' is 'cp1251'.

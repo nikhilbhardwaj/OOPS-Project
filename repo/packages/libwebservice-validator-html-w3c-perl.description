@@ -1,0 +1,6 @@
+Perl interface to access the w3c's online html validator
+	
+webservice::validator::html::w3c provides access to the w3c's online markup
+validator. as well as reporting on whether a page is valid it also provides
+access to a detailed list of the errors and where in the validated document
+they occur.

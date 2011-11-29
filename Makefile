@@ -1,4 +1,4 @@
-all: package.o system.o superpacker
+all: package.o repository.o system.o superpacker
 
 
 superpacker: superpacker.cpp
@@ -10,3 +10,6 @@ package.o: concretepackage.cpp metapackage.cpp
 
 system.o: system.cpp
 	g++ -c system.cpp
+
+repository.o: repository.h repository.cpp
+	g++ -c repository.cpp

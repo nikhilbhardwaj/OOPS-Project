@@ -1,0 +1,8 @@
+De-archiver for .zip files
+	
+infozip's unzip program. with the exception of multi-volume archives
+(ie, .zip files that are split across several disks using pkzip's /& option),
+this can handle any file produced either by pkzip, or the corresponding
+infozip zip program.
+
+this version supports encryption.

@@ -1,0 +1,7 @@
+Interpreter library and development files for fauhdli
+	
+this package contains the development files and the interpreter library
+for fauhdlc's intermediate code interpreter fauhdli.
+
+it is useful, if you want to make use of the foreign interface of vhdl
+and define an own implementation for it.

@@ -1,0 +1,24 @@
+Aol web server version 4 - documentation
+	
+aolserver is the web engine that powers america online. it
+is capable of serving a very high number of users, and can host
+hundreds of virtual servers simultaneously within the same process.
+
+it is similar in many respects to zope, except based largely on tcl.
+it is multi-threaded, and has a c api that can be used to extend
+its functionality.
+
+this package contains three reference manuals for aolserver version 3+:
+
+ - the aolserver administrator's guide covers the setup options
+   and security issues relating to running the server;
+ - the aolserver tcl developer's guide covers the tcl api which
+   can be used to add features to your web pages (similar in
+   some respects to php or microsoft's asp);
+ - the aolserver c developer's guide covers the c api which can
+   be used to create new modules to extend aolserver.
+
+
+this is the latest available version of the documentation, but it is
+quite outdated and incomplete. more up-to-date api documentation is
+available at http://panoptic.com/wiki/aolserver/tcl_api.

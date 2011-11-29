@@ -1,0 +1,11 @@
+File search tool that support several different engines
+	
+a file search tool using different backends which is configurable via
+the command line.
+
+this program acts as a frontend for different file search engines.
+the interface is intentionally lightweight and simple. but it takes
+configuration options from the command line.
+
+currently find, (s)locate, tracker, strigi, pinot, and beagle are
+supported as backends.

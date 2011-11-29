@@ -1,0 +1,9 @@
+Qt-based library that maps json data to qvariant objects
+	
+json (javascript object notation) is a lightweight data-interchange format.
+it can represents integer, real number, string, an ordered sequence of value,
+and a collection of name/value pairs.
+
+qjson is a qt-based library that maps json data to qvariant objects: json
+arrays will be mapped to qvariantlist instances, while json objects will be
+mapped to qvariantmap.

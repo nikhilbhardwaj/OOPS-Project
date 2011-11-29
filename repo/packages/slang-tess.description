@@ -1,0 +1,12 @@
+Regression testing system for the s-lang scripting language
+	
+tess is the (te)st (s)ystem for (s)-lang, which aims at reducing the
+workload and ad-hoc nature of regression testing s-lang software, by
+collecting common testing elements into a single, easy-to-use
+framework.
+
+tess provides the s-lang developer nominal mechanisms for tailoring
+the s-lang environment and invoking functions with arbitrary inputs,
+while transparently inspecting and cleaning the stack, gathering
+pass/fail statistics, and providing error recovery from selected
+exceptions.

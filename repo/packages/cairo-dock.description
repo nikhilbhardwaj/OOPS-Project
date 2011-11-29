@@ -1,0 +1,13 @@
+Light eye-candy fully themable animated dock for linux desktop
+	
+cairo-dock has a family-likeness with os x dock, but with more options.
+it uses cairo to render nice graphics, and glitz to use hardware acceleration.
+it's fully configurable and can be a taskbar too.
+you can easily plug applets into it.
+
+this is metapackage that provides the components necessary for running
+cairo-dock. this installs a cairo-dock-core application and cairo-dock-plugins
+package easily.
+
+and cairo-dock installs cairo-dock-core and plugins and makes sense as
+cairo-dock.

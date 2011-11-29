@@ -1,0 +1,6 @@
+Gtk+ bindings: glade support
+	
+contains bindings for the glade library from use within python. glade
+makes it very easy to create a user interface. in the target
+application you just need to load the interface description from
+the .glade file instead of constructing the gui at runtime.

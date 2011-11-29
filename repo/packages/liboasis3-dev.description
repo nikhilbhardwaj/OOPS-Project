@@ -1,0 +1,8 @@
+Coupler for exchanging fields between components of earth system models
+	
+oasis3 is an executable for exchanging via mpi fields between
+components of climate models, such as atmosphere and ocean models.
+in addition, oasis can perform interpolation between different grids
+used by the components, via the scrip library.
+
+this package contains development files for building against oasis3.

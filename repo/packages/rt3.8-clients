@@ -1,0 +1,4 @@
+PackageId:30995
+Name:rt3.8-clients
+Version:3.8.8-7+squeeze1
+Deps:exim4,mail-transport-agent,citadel-mta,courier-mta,dma,esmtp-run,exim4-daemon-heavy,exim4-daemon-light,masqmail,msmtp-mta,nullmailer,postfix,sendmail-bin,ssmtp,xmail,libhtml-format-perl,libhtml-tree-perl,libterm-readkey-perl,libterm-readline-perl-perl,libterm-readline-gnu-perl,libwww-perl,perl

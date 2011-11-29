@@ -1,0 +1,10 @@
+Command-line utility for mono.addins management
+	
+mono.addins is a framework for creating extensible cli applications, and for
+creating libraries which extend those applications.
+mono.addins has been designed to be easy to use and useful for a wide range
+of applications: from simple applications with small extensibility needs, to
+complex applications which need support for large add-in structures.
+
+this package contains a command-line utility to easily manipulate mono.addins
+registries provided by other software (including user-written applications).

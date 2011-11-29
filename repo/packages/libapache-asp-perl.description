@@ -1,0 +1,18 @@
+Perl apache::asp - active server pages for apache with mod_perl
+	
+this perl module provides an active server pages port to the apache web
+server with perl as the host scripting language. active server pages is
+a web application platform that originated with the microsoft nt/iis
+server. under apache for unix and win32 platforms it allows a developer
+to create dynamic web applications with session management and embedded
+perl code.
+
+this module works under the apache web server with the mod_perl
+module enabled. see http://www.apache.org and http://perl.apache.org
+for further information.  it can also work under a standard cgi call
+interface using the asp-perl command.  see readme.debian in this
+package for more details.
+
+this is a portable solution, similar to activestate's perlscript for
+nt/iis asp. work has been done and will continue to make ports to and
+from this implementation as smooth as possible.

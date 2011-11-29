@@ -1,0 +1,5 @@
+Perl module to guess file type
+	
+file-mmagic is a perl module to guess file type from its contents like file(1)
+command.
+it has built-in magic entry exported from mod_mime_magic apache module.

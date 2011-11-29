@@ -1,0 +1,6 @@
+Simple libmpeg2 video decoder application
+	
+simple libmpeg2 application which can decode and play es, ps, and ts video
+streams.  includes extract_mpeg2 demuxer and various output drivers.
+
+http://libmpeg2.sourceforge.net/

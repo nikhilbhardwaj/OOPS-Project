@@ -1,0 +1,5 @@
+Simplifies replacing mesa libgl with gpu vendor libraries
+	
+diverts the free libgl.so implementation (mesa) and introduces
+alternatives to simplify plugging in accelerated implementations from gpu
+vendors.  handles both libgl.so.1 and libgl.so.

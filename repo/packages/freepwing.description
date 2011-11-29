@@ -1,0 +1,8 @@
+Eb to jis x 4081 converter
+	
+this program translates data in various "electric book" (popular in
+japan) formats into a single jis x 4081 format.  jis x 4081 is a
+subset of the epwing v1, which is the standardized format for electric
+publishing.  thus after conversion, you can read such data with your
+favorite epwing viewer without worrying which formats your data
+originally were.

@@ -1,0 +1,7 @@
+Filesystem operations (portable paths, iteration over directories, etc) in c++
+	
+this package forms part of the boost c++ libraries collection.
+
+the boost filesystem library provides portable facilities to query and
+manipulate paths, files, and directories.  the goal is to
+facilitate portable script-like operations from within c++ programs.

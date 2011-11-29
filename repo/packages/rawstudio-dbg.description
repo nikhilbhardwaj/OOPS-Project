@@ -1,0 +1,18 @@
+Raw image converter - debuggin symbols
+	
+to get the best quality out of your digital camera, it is often
+recommended that you record your pictures in raw format. this format
+is mostly specific to a camera and cannot be read by most image
+editing applications.
+
+rawstudio will convert your raw files into jpeg, png or tif images.
+it has a graphical user interface, so you can simply open a raw file
+and experiment with the controls to see how they effect the image.
+
+the normal workflow would be that you first convert your raw files
+and then use an image editing application to further work on your
+images. rawstudio itself is a highly specialized application for
+processing raw images, not a fully featured image editing
+application.
+
+this package contains the detached debug symbols.

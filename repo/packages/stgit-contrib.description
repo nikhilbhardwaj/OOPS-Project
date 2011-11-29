@@ -1,0 +1,26 @@
+Set of contributed script to help working with stgit
+	
+among others, this package provides the following helper scripts:
+
+ * stg-gitk: show all patches in gitk, not only applied ones, and hide
+
+logs
+
+ * stg-whatchanged: examine how the to-be-committed changes modify the
+
+current patch
+
+ * stg-fold-files-from: pick specific hunks from another patch up
+
+the stack
+
+ * stg-dispatch: dispatch specific hunks into another patch down
+
+the stack
+
+ * stg-swallow: completely merge another patch into the current one
+ * stg-k: provide robust --keep functionality to all stgit commands
+
+
+most of the functionality of these scripts may one day be
+incorporated into stgit.

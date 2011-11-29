@@ -1,0 +1,9 @@
+Ruby interface for the libpcap packet capture library
+	
+libpcap (packet capture) provides a portable framework for low-level
+network monitoring. this package provides bindings for the ruby programming
+language.
+
+this is a dummy package to install the libpcap library bindings for
+the default version of ruby. it also contains documentation for the
+package.

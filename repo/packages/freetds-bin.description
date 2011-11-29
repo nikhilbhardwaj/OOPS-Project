@@ -1,0 +1,6 @@
+Freetds command-line utilities
+	
+freetds is an implementation of the tabular datastream protocol, used for
+connecting to ms sql and sybase servers over tcp/ip.
+
+this package includes the command-line utilities shipped with freetds.

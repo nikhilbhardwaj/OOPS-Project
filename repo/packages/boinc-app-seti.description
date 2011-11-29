@@ -1,0 +1,18 @@
+Seti@home application for the boinc client
+	
+seti@home is a distributed computing project using internet-connected
+computers for the search for extraterrestrial intelligence (seti). it
+searches for possible evidence of extraterrestrial intelligence in
+radio transmissions collected by the arecibo radio telescope.
+
+this package contains the seti@home enhanced application for the boinc
+distributed computing platform. the boinc client downloads the radio
+data which the seti@home application analyzes looking for signals of
+extraterrestrial origin. results are then send back to the seti@home
+server by the boinc client.
+
+note that this package has been primarily created for users of
+architectures for which seti@home does not provide its application.
+if your architecture is x86 or amd64 the boinc client automatically
+downloads the latest seti@home application if you participate in this
+project. there is no need to install this package then.

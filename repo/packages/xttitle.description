@@ -1,0 +1,5 @@
+Changes x terminal emulator window titles
+	
+this is a small program that generates escape sequences to change the title
+of terminal emulator windows under x. it should work with any program that
+emulates an xterm-like terminal.

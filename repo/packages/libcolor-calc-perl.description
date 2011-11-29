@@ -1,0 +1,6 @@
+Module for simple calculations with rgb colors
+	
+color::calc is a perl module that implements simple calculations with rgb
+colors. this can be used to create a full color scheme from a few colors
+and provides a variety of output styles including hexadecimal, 3-tuple as
+well as versions suitable for html and pdf.

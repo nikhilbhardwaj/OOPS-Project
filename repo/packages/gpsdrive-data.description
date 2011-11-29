@@ -1,0 +1,8 @@
+Car navigation system
+	
+map-based navigation system that displays the current
+position provided by a gps receiver on a zoomable map.
+maps can be downloaded from different map providers or
+rendered on-the-fly using the openstreetmap dataset.
+
+this package contains the data files.

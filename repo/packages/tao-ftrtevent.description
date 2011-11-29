@@ -1,0 +1,11 @@
+Tao fault-tolerant real-time event service
+	
+tao fault-tolerant, real-time corba event service. for more
+information on corba event service have a look at tao-cosevent
+package.
+
+this package contains:
+
+ * ftrt_eventservice, the fault-tolerant event channel
+ * ftrtec_factory_service, spawning ftrt_eventservice processes
+ * ftrtec_gateway_service, relaying events to ft corba unaware clients

@@ -1,0 +1,5 @@
+Pure ruby implementation of the scp protocol
+	
+net::scp is a pure-ruby implementation of the scp protocol.
+this operates over ssh (and requires the net::ssh library), and allows
+files and directory trees to copied to and from a remote server.

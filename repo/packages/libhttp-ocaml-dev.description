@@ -1,0 +1,14 @@
+Ocaml library for writing http servers
+	
+ocaml http is a library for the objective caml programming language,
+used to build simple http servers, largely inspired to perl's
+http::daemon module.
+
+in order to implement an http servers the programmer has to provide a
+daemon specification which contains, among other parameters, a callback
+function invoked by ocaml http on well formed http requests received.
+http responses could be sent over an out_channel connected with client
+socket, accessible from the callback.
+
+the library contains also facility functions that helps in creating
+well formed http responses and a tiny http client.

@@ -1,0 +1,12 @@
+An extended replacement of gnu stow
+	
+xstow (like gnu stow) is a program for managing the installation of
+software packages, keeping them separate (/usr/local/stow/emacs
+vs. /usr/local/stow/perl, for example) while making them appear
+to be installed in the same place (/usr/local).
+
+the extended features include: creation of symlinks with absolute
+path names, traversal link support (create a link from
+/usr/share/man to /usr/man), multiple stow directories support,
+shell pattern matching, regular expressions support, and global
+settings via configuration files.

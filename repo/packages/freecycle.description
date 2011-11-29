@@ -1,0 +1,16 @@
+Plastic surgery for your audio loops
+	
+this is is a beat slicer, providing amplitude domain and frequency domain
+beat matching / zero crossing algorithms. it exports sliced audio chunks and
+generates a midi file which can be used to play the sliced loop. freecycle
+also exports akai s5000/s6000/z4/z8 .akp file to be used with your favorite
+sampler.
+
+freecycle provides ladspa interface with full control parameters
+automation and some quite basic but powerful routing schemas.
+
+with traditional amplitude (scope) view, freecycle also offers the fully
+integrated spectrogram view, useful for ladspa filters visualization.
+
+freecycle features basic oss output and preliminary jack layer
+connectivity.

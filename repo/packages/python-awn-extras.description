@@ -1,0 +1,5 @@
+Python bindings for avant-window-navigator's applets
+	
+this package provides python bindings to create and use python applets with
+functions of libawn-extras. it also includes awnlib, a collection of
+functions to simplify the creation of applets with python.

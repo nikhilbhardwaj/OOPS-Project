@@ -1,0 +1,8 @@
+Anti-spam-daemon using nolisting/iptables
+	
+mxallowd is a daemon for linux/netfilter(iptables) which uses nolisting
+(http://nolisting.org). that means, you define two mx-servers in your
+nameserver and mxallowd will block the access to any of these mailservers if
+the client did not try the other one. this blocks non-rfc-compliant mailers,
+which are often in use by spammers and so-called direct-to-second-mx which is
+also a technique mainly used by spammers.

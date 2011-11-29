@@ -1,0 +1,5 @@
+Low-level implementations and bindings for pymvpa
+	
+this is an add-on package for the pymvpa framework. it provides a low-level
+implementation of an smlr classifier and custom python bindings for the libsvm
+library.

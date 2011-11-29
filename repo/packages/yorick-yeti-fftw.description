@@ -1,0 +1,8 @@
+Fft plugin for the yorick language
+	
+yeti is a collection of extension plugins for yorick (a fast interpreted
+interactive data processing language).
+
+the yorick-yeti-fftw package implements complex, real-complex and complex-real
+fast fourier transform using fftw2 (the fastest fourier transform in the west -
+version 2)

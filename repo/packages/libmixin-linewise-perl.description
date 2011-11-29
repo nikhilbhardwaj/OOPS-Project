@@ -1,0 +1,9 @@
+Module to handle general file input/output operations
+	
+mixin::linewise is a perl module that provides a generalized framework for
+handling input/output operations. it can open files for i/o, convert strings
+to handle type objects, and more.
+
+with reader and writer classes, you can just write a method to manipulate
+normal handles, and let the modules do the rest, like providing string and
+filename handling methods.

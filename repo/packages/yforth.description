@@ -1,0 +1,21 @@
+A small freeware forth environment in ansi c
+	
+yforth? is an interestingly small implementation of forth for linux.  it
+suffers several deficiencies.  for general forth programming or learning
+under linux, yforth? is not the best choice.
+
+from the author's readme:
+
+yforth? is a forth environment written entirely in ansi c, making it
+extremely portable. the first thing i want to tell you about yforth? is
+that it seems a joke compared to other systems such as gforth or pfe.
+
+nevertheless, you could find yforth? nice, in which case you're invited to
+explore yforth?
+
+it's yours, you can make anything you want with it. if you want an explanation
+of the words provided by yforth? please refer to the draft of ans forth or
+something equivalent.  the net will help you.
+
+do not expect the prompt "ok" to come up when you run yforth?, the standard
+says that "ok" shall be printed after every successful command execution...

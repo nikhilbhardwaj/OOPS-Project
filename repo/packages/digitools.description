@@ -1,0 +1,26 @@
+A set of tools to control asus digimatrix embedded hardware
+	
+this package is a combination of the previous programs asusfan and setpanel.
+included in this package are the following tools:
+
+  digifan:   allows fan speed control
+             (formerly asusfan)
+
+
+
+  digipanel: allows control of the led display, and volume knob controls
+             the soundcard master mixer channel
+             (formerly part of setpanel)
+
+
+
+  digiradio: allows control of the in-built radio
+             (formerly part of setpanel)
+
+
+
+  digiwake:  allows for wake-on-cir (wake on remote) with existing
+             versions of lirc that support the digimatrix. this program
+             just needs to be run after lircd, and the digimatrix will
+             power on when pressing the music/(on/off) button on the
+             remote control.

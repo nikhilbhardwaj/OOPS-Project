@@ -1,0 +1,10 @@
+Converts cue files to cdrdao's toc format
+	
+cue files are text files describing the layout of a cd-rom and typically carry
+the extension ".cue".  cdrdao and cdrecord, the two cd recording programs for
+linux systems, cannot read these files.  this program converts cue files into
+the toc format that cdrdao can understand.
+
+it also features automatic data format conversion (e.g., mp3 to wav) before
+burning; the exact action taken is determined by the file extensions and the
+user's configuration.

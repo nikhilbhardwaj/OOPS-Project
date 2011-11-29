@@ -1,0 +1,26 @@
+Download and upload manager for 1-click hosters
+	
+designed for automatic management of sites like:
+
+ - http://rapidshare.com/
+ - http://megaupload.com/
+ - http://gigasize.com/
+ - http://mediafire.com/
+ - http://4shared.com/
+ - http://sendspace.com/
+ - http://zshare.net/
+ - http://filefactory.com/
+ - http://easy-share.com/
+ - http://badongo.com/
+ - http://depositfiles.com/
+ - http://hotfile.com/
+ - (...)
+
+main features:
+
+ - graphical user interface in gtk+.
+ - easy to expand with plugins.
+ - lightweight and fast.
+ - management of waits between downloads.
+ - captcha recognition where needed.
+ - management of interchangeable links.

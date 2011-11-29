@@ -1,0 +1,13 @@
+Proxy chains -- shared library (runtime)
+	
+proxy chains force any tcp connection made by any given tcp client
+to follow through proxy (or proxy chain). it is a kind of proxifier.
+it acts like sockscap / premeo / eborder driver ( intercepts tcp calls )
+
+see 'proxychains' package for more detailed description.
+
+this package contains runtime for the shared library used by proxychains.
+
+the package 'dnsutils' is needed to perform dns requests through proxy. in the
+case you turned 'proxy_dns' option off in configuration file you don't need
+dnsutils to be installed.

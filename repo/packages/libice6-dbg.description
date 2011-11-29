@@ -1,0 +1,13 @@
+X11 inter-client exchange library (debug package)
+	
+this package provides the main interface to the x11 inter-client exchange
+library, which allows for communication of data between x clients.
+
+this package contains the debug versions of the library found in libice6.
+non-developers likely have little use for this package.
+
+more information about x.org can be found at:
+<url:http://www.x.org>
+
+this module can be found at
+git://anongit.freedesktop.org/git/xorg/lib/libice

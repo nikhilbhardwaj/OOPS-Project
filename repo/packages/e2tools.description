@@ -1,0 +1,10 @@
+Utilities for manipulating files in an ext2/ext3 filesystem
+	
+e2tools is a simple set of utilities to read, write, and manipulate
+files in an ext2/ext3 filesystem.
+
+the purpose of these utilities is manipulating ext2/ext3 filesystems
+from userspace without the need for mounting them, so that they can be
+used directly by normal users.
+
+included utilities are e2cp, e2mv, e2rm, e2mkdir, e2ln, e2ls and e2tail.

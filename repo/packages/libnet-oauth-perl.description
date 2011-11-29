@@ -1,0 +1,8 @@
+Implementation of the oauth protocol
+	
+net::oauth implements oauth, which is "an open protocol to allow secure api
+authentication in a simple and standard method from desktop and web
+applications."
+
+in practical terms, oauth is a mechanism for a consumer to request protected
+resources from a service provider on behalf of a user.

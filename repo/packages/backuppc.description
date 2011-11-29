@@ -1,0 +1,25 @@
+High-performance, enterprise-grade system for backing up pcs
+	
+backuppc is disk based and not tape based. this particularity allows
+features not found in any other backup solution:
+
+ * clever pooling scheme minimizes disk storage and disk i/o.
+   identical files across multiple backups of the same or different pc are
+   stored only once resulting in substantial savings in disk storage and disk
+   writes. also known as "data deduplication".
+ * optional compression provides additional reductions in storage.
+   cpu impact of compression is low since only new files (those not already
+   in the pool) need to be compressed.
+ * a powerful http/cgi user interface allows administrators to view log files,
+   configuration, current status and allows users to initiate and cancel
+   backups and browse and restore files from backups very quickly.
+ * no client-side software is needed. on winxx the smb protocol is used.
+   on linux or unix clients, rsync or tar (over ssh/rsh/nfs) can be used
+ * flexible restore options. single files can be downloaded from any backup
+   directly from the cgi interface. zip or tar archives for selected files
+   or directories can also be downloaded from the cgi interface.
+ * backuppc supports mobile environments where laptops are only intermittently
+   connected to the network and have dynamic ip addresses (dhcp).
+ * flexible configuration parameters allow multiple backups to be performed
+   in parallel.
+ * and more to discover in the manual...

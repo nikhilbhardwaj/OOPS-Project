@@ -1,0 +1,20 @@
+Helper programs to maintain debian packages with subversion
+	
+svn-buildpackage (formerly svn-devscripts) contains tools that help to
+automate the task of maintaining debian packages inside of a subversion
+repository. they are intended to be used by debian maintainers to simplify
+the error-prone actions with the svn, devscripts, and dpkg-dev utilities.
+
+
+ - svn-inject: creates the initial directory structure of a
+        debian-svn repository and imports existing packages
+ - svn-upgrade: imports upstream changes into the upstream branch and
+        updates the debian trunk directory, merging and tagging as needed
+ - svn-buildpackage: wrapper around dpkg-buildpackage (or other builders),
+        exporting/merging/tagging source as needed
+ - svn-do: exports a source, runs a command inside the exported source and,
+        if the command succeeds, copies back the debian/ tree
+ - uclean: removes redundant files from upstream source packages
+
+
+the package also includes a detailed howto document.

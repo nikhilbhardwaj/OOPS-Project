@@ -1,0 +1,8 @@
+Unicode library for ocaml
+	
+camomile is a comprehensive unicode library for objective caml language.
+the library is currently designed to conform unicode standard 3.2.
+
+normalisers (nfd, nfkd, nfc, nfkc) and collator (string comparison) pass
+the conformance tests defined unicode technical reports. collator is also
+tested to canadian, thai and japanese standards with their locales.

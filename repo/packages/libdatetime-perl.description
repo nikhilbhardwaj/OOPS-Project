@@ -1,0 +1,12 @@
+Module for manipulating dates, times and timestamps
+	
+datetime is a perl module which aims to provide a complete, correct, and easy
+to use date/time object implementation. it provides an easy way to manipulate
+dates and times, including date calculations (even addition and subtraction)
+and provides convenient methods for extracting or modifying portions of any
+date or time.
+
+this module supports the olson time zone database, meaning that historical
+time zone information, and more importantly, daylight saving time rules, can
+be handled transparently, simply by setting the correct time zone. this is
+done by using the datetime::timezone module.

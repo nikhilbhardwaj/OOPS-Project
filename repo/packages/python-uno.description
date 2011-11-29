@@ -1,0 +1,7 @@
+Python-uno bridge
+	
+the python-uno bridge allows use of the standard openoffice.org api
+with the python scripting language. it additionally allows
+others to develop uno components in python, thus python uno components
+may be run within the openoffice.org process and can be called from c++
+or the built in starbasic scripting language.

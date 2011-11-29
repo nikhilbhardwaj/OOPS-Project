@@ -1,0 +1,17 @@
+Log monitoring and reporting tool
+	
+tenshi is a log monitoring program, designed to watch one or more log files
+for lines matching user defined regular expressions and report on the matches.
+the regular expressions are assigned to queues which have an alert interval
+and a list of mail recipients.
+
+queues can be set to send a notification as soon as there is a log line
+assigned to it, or to send periodic reports.
+
+additionally, uninteresting fields in the log lines (such as pid numbers) can
+be masked with the standard regular expression grouping operators ( ).
+this allows cleaner and more readable reports. all reports are separated by
+hostname and all messages are condensed when possible.
+
+the program reads a configuration file and then forks a daemon for monitoring
+the specified log files.

@@ -1,0 +1,11 @@
+Type-safe signal framework for c++ - runtime
+	
+this library implements a full callback system for use in widget
+libraries, abstract interfaces, and general programming. originally
+part of the gtk-- widget set, libsigc++ is now a separate library to
+provide for more general use. it is the most complete library of its
+kind with the ability to connect an abstract callback to a class
+method, function, or function object. it contains adaptor classes for
+connection of dissimilar callbacks and has an ease of use unmatched
+by other c++ callback libraries. libsigc++ is licensed under the
+lgpl.

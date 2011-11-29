@@ -1,0 +1,14 @@
+Query palm databases as objects and xml
+	
+pilot-qof provides a query interface to data on a palm device,
+using pilot-link and qof - the query object framework.
+
+pilot-qof supports reading addressbook, datebook, expenses and
+todo data from a palm device to xml files using the generic xml
+format used by qof, called qsf. pilot-qof runs sql-type queries
+on the live data or a qsf xml file and results can be imported
+into other qof applications or converted to or from other text
+based formats, including non-xml formats like vcard, via the
+datafreedom-qsfxsl and datafreedom-perl packages.
+
+includes support for reading expenses from gpe-expenses.

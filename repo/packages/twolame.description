@@ -1,0 +1,12 @@
+Mpeg audio layer 2 encoder (command line frontend)
+	
+twolame is an optimized mpeg audio layer 2 encoder. it is based on toolame by
+mike cheng, which in turn is based upon the iso dist10 code and portions of
+lame.
+
+because of patent issues surrounding the mpeg audio layer 3 (mp3) encoders,
+the ability of most mpeg audio players to play layer 2 files, and the
+similarity in command-line syntax and api, twolame makes a very good
+drop-in replacement for lame or other layer 3 encoders.
+
+this package contains the command line frontend encoder.

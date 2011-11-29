@@ -1,0 +1,13 @@
+Server virtualization solution - control tools
+	
+openvz is an operating system-level server virtualization solution, built
+on linux. openvz creates isolated, secure virtual private servers on a single
+physical server enabling better server utilization and ensuring that
+applications do not conflict. each vps performs and executes exactly like a
+stand-alone server; vpss can be rebooted independently and have root access,
+users, ip addresses, memory, processes, files, applications, system libraries
+and configuration files.
+
+this package contain the control tool to manipulate the virtual servers.
+
+observe! you need a linux kernel patched with openvz support.

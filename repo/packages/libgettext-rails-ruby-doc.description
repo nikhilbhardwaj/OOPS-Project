@@ -1,0 +1,17 @@
+Gettext support for rails 2.3
+	
+this package provides the localization for ruby on rails-2.3 or later
+using ruby-gettext package. its main features include:
+
+
+ * autodetect client locale using locale/locale_rails.
+ * easy maintenance of translations using the powerful gettext family tools.
+ * model translation using gettext_activerecord.
+ * localization for some helpers.
+ * works with other rails i18n backends.
+   * note that gettext_rails is not the official rails i18n backend.
+ * thread safe.
+
+
+this is the documentation package, with upstream documentation, as well as
+generated rdoc.

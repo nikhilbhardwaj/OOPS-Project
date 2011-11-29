@@ -1,0 +1,7 @@
+Convert x11 font from pcf to bdf format
+	
+pcf2bdf is a font de-compiler.  it converts an x11 font from portable
+compiled format (pcf) to bitmap distribution format (bdf).
+
+fontboundingbox in a bdf file is not used by bdftopcf, so pcf2bdf
+generates irresponsible values.

@@ -1,0 +1,20 @@
+A graphical user interface for mpi program development
+	
+mpi is a standard for writing parallel processing programs using
+a well defined message passing interface.
+
+xmpi can acquire and display extensive detail on an application's mpi
+communication, including the following:
+
+ o process synchronization status: running, system or blocked
+ o message queue contents
+ o source, destination, root ranks
+ o mpi function name
+ o communicator
+ o data type
+ o message count
+ o tag
+
+the above information is acquired from on-demand snapshots of
+application status using debugging hooks in the mpi implementation or
+from a trace log of communication activity.

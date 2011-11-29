@@ -1,0 +1,5 @@
+Create context-senstive return values
+	
+this module provides a collection of named blocks that allow a return
+statement to return different values depending on the context in which it's
+called.

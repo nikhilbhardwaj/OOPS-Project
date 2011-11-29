@@ -1,0 +1,7 @@
+Simple perl dhtml renderer for data::treedumper
+	
+data::treedumper dumps perl variable data in a tree-like fashion and
+allows the use of various output formatting processors.
+
+data::treedumper::renderer::dhtml is such a processor which outputs
+the data as dhtml code.

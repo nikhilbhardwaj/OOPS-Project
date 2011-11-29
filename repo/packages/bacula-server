@@ -1,0 +1,4 @@
+PackageId:939
+Name:bacula-server
+Version:5.0.2-2.2
+Deps:bacula-director-sqlite3,bacula-director,bacula-director-mysql,bacula-director-pgsql,bacula-sd,bacula-sd-sqlite3,bacula-sd-tools,bacula-sd-mysql,bacula-sd-pgsql

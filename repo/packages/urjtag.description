@@ -1,0 +1,9 @@
+Jtag programmer for various flash parts and boards
+	
+a command line tool for communicating over jtag (ieee 1149.1) with various
+flash chips, cpus, boards and jtag adapters.
+
+it has an open and modular architecture with the ability to write
+miscellaneous extensions (like board testers, or flash memory programmers).
+
+this is a (more actively maintained) fork of the 'openwince-jtag' software.

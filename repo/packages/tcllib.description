@@ -1,0 +1,97 @@
+The standard tcl library
+	
+tcllib, the standard tcl library, is a collection of common utility
+functions and modules all written in high-level tcl.
+
+modules included:
+
+  * aes: advanced encryption standard
+  * amazon-s3: amazon s3 web service interface
+  * asn: an asn.1 encoder and decoder
+  * base32: a base32 encoder and decoder
+  * base64: a base64 encoder and decoder
+  * bee: bittorrent serialization encoder and decoder
+  * bench: benchmark tool
+  * bibtex: parser for bibliographies in bibtex format
+  * blowfish: blowfish encryption
+  * cache: asynchronous in-memory cache
+  * cmdline: a command line argument processor similar to opt
+  * comm: remote communications facility
+  * control: procedures for control flow structures
+  * counter: provides a counter facility and can compute statistics
+    and histograms over the collected data.
+  * crc: checksum-calculation routines (crc32, cksum, sum)
+  * csv: functions to handle csv (comma-separated values) data
+  * des: des and 3des encryption
+  * dns: dns- and resolver library-related functions
+  * docstrip: tools for literate programming, often used with (la)tex
+  * doctools: manpage-generation tools
+  * exif: extracts/parses exif fields from digital images
+  * fileutil: tcl implementations of some standard unix utilities
+  * ftp: tcl interface to the ftp protocol
+  * ftpd: implementation of functions needed for an ftp server
+  * fumagic: file utilities
+  * grammar_fa: finite automaton operations and usage
+  * grammar_me: grammar operations and usage
+  * grammar_peg: grammar operations and usage
+  * html: generate and control html tags
+  * htmlparse: parse html strings
+  * http: http protocol helper modules
+  * ident: client interface to the ident protocol
+  * inifile: parsing of windows ini files
+  * interp: interpreter utilities
+  * irc: low-level irc protocol interface
+  * javascript: tcl shortcuts to create common javascript functions
+  * jpeg: functions to query and modify jpeg images
+  * json: json parser
+  * ldap: ldap client and extended object interface
+  * log: functions to log messages with various facilities and levels
+  * map: mapping utilities
+  * mapproj: map projection routines
+  * math: common math functions like min, max, and others
+  * md4: md4 hashing functions
+  * md5: md5 hashing functions
+  * md5crypt: md5 based password hashing
+  * mime: a mime encoder and decoder
+  * multiplexer: message multiplexing
+  * ncgi: a new cgi processing module
+  * nmea: nmea protocol implementation
+  * nns: name service facility
+  * nntp: tcl functions for the nntp protocol
+  * ntp: functions for an ntp client
+  * otp: rfc 2289 a one-time password system
+  * page: parser generator
+  * pluginmgr: plugin management
+  * png: functions to query and modify png images
+  * pop3: a pop3 protocol implementation
+  * pop3d: a pop3 server implementation
+  * profiler: a function level tcl source code profiler
+  * rc4: implementation of the rc4 stream cipher
+  * rcs: rcs low level utilities
+  * report: provides objects which can be used to generate and format
+    reports
+  * ripemd: ripemd message-digest algorithm
+  * sasl: simple authentication and security layer implementation
+  * sha1: sha1 hashing functions
+  * simulation: tcl simulation tools
+  * smtpd: implementation of functions needed for an smtp server
+  * snit: snit's not incr tcl, oo system
+  * soundex: comparison of words based on their phonetic likeness
+  * stooop: simple tcl-only object oriented programming scheme -
+    provides c++/java-like oop interfaces
+  * stringprep: preparation of internationalized strings
+  * struct: tcl implementations of common data structures (tree, graph,
+    etc)
+  * tar: functions to manipulate tar files
+  * term: terminal control
+  * textutil: string manipulation library
+  * tie: framework for creating persistent tcl arrays
+  * tiff: tiff image manipulation
+  * transfer: data transfer facilities
+  * treeql: tree query language
+  * uev: user events
+  * units: convert and manipulate quantities with units
+  * uri: functions to generate and manipulate commonly-used uris
+  * uuid: generator of universally unique identifiers (uuid)
+  * wip: word interpreter
+  * yaml: yaml format encoder/decoder

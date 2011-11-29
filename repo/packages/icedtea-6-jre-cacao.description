@@ -1,0 +1,8 @@
+Alternative jvm for openjdk, using cacao
+	
+the package provides an alternative runtime using the cacao vm and the
+cacao just in time compiler (jit).  this is a somewhat faster alternative
+than the zero port on architectures like alpha, armel, m68k, mips, mipsel,
+powerpc and s390.
+
+the vm is started with the option `-cacao'. see the readme.debian for details.

@@ -1,0 +1,5 @@
+Utility method for factory classes
+	
+when this module is loaded, it creates a method in its caller named
+subclasses(). this method returns a list of the available subclasses for the
+package.

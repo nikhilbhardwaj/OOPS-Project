@@ -1,0 +1,7 @@
+An rgb colour mixer
+	
+xcolmix enables you to mix your own colours in order to determine three
+values (the r/g/b code, or red-green-blue mix) of a colour. you can use
+those colours to, e.g., define the foreground or background of x
+applications which support it. furthermore, xcolmix lets you retrieve rgb
+values from the x system's database of `predefined' colours.

@@ -1,0 +1,6 @@
+A library for playing ogg multimedia
+	
+a library designed to allow drop-in playback of xiph.org media in an
+application. liboggplay handles demuxing and decoding, generates timestamps for
+raw data, maintains synchronisation across multiple streams, and provides a
+lock-free buffer implementation for easy multithreading.

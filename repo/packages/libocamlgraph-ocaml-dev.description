@@ -1,0 +1,33 @@
+Graph library for ocaml
+	
+ocamlgraph is a graph library for ocaml. its contribution is
+three-fold:
+
+
+ * it provides an easy-to-use graph data structure together with
+   several operations and algorithms over graphs.  it is a
+   reasonably efficient imperative data structure for directed
+   graphs with vertices and edges labeled with integers.
+
+
+
+ * then ocamlgraph provides several other graph implementations
+   for those not satisfied with the one above. some are
+   persistent (imutable) and other imperative (mutable). some
+   are directed and other are not. some have labels for
+   vertices, or labels for edges, or both. some have abstract
+   types for vertices. etc.
+   these implementations are written as functors: you give the
+   types of vertices labels, edge labels, etc. and you get the
+   data structure as a result.
+
+
+
+ * finally, ocamlgraph provides several classic operations and
+   algorithms over graphs.
+   they are also written as functors i.e. independently of the
+   data structure for graphs. one consequence is that you can
+   define your own data structure for graphs and yet re-use all
+   the algorithms from this library -- you only need to provide
+   a few operations such as iterating over all vertices, over
+   the successors of a vertex, etc.

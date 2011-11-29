@@ -1,0 +1,11 @@
+Automatic as-installed testing for debian packages
+	
+autopkgtest runs tests on binary packages.  the tests are run on the
+package as installed on a testbed system (which may be found via a
+virtualisation or containment system).  the tests are expected to be
+supplied in the corresponding debian source package.
+
+see adt-run(1) and /usr/share/doc/autopkgtest.
+most modes of use require apt-ftparchive from the apt-utils package.
+use of adt-virt-xenlvm requires the autopkgtest-xenlvm package too;
+use of the pre-cooked adt-testreport-onepackage script requires curl.

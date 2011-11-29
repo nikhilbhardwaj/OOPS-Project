@@ -1,0 +1,11 @@
+Modules used by the wims server
+	
+wims' modules implement every user interface beyond its main page,
+the non exhaustive list of the features is: administrative tasks, help,
+and a few interactive exercises, mathematic tools, libraries ...
+
+this package does not contain the thousands of exercices which are
+partly provided by the optional package wims-extra.
+
+other educational contents can be downloaded outside of the debian
+system by automated updates. see http://www.wimsedu.info

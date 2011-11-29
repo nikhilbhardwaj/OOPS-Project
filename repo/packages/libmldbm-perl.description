@@ -1,0 +1,9 @@
+Module for storing multidimensional hash structures in perl tied hashes
+	
+the mldbm perl module can be used to store multidimensional hash structures
+in tied hashes (including dbm files).
+
+it depends on the data::dumper module and by default uses the
+sdbm tied hash. but you can use it with db_file (and others
+dbm modules). you can also use other serializing packages
+like storable and freezethaw.

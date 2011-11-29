@@ -1,0 +1,9 @@
+Managed signals and slots library for c++
+	
+this package forms part of the boost c++ libraries collection.
+
+signals represent callbacks with multiple targets, and are also
+called publishers or events in similar systems. signals are connected
+to some set of slots, which are callback receivers (also called event
+targets or subscribers), which are called when the signal is
+"emitted."

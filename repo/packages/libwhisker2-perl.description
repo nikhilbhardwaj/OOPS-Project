@@ -1,0 +1,16 @@
+Perl module geared for http testing
+	
+this package provides libwhisker 2 (lw2), a flexible, portable and
+self-contained perl module implementing fast and small replacements
+to the usual http testing functions, as available in lwp, uri,
+html::parser, mime::base64, etc.
+
+it supports:
+
+   - http 0.9, 1.0, and 1.1;
+   - persistent connections (with keep-alives);
+   - proxying;
+   - anti-ids features;
+   - ssl (through libnet-ssleay-perl);
+   - chunked encoding;
+   - basic and ntlm authentication.

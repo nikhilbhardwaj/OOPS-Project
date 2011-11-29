@@ -1,0 +1,15 @@
+Jstor/harvard object validation environment
+	
+the concept of representation format, or type, permeates all technical
+areas of digital repositories. policy and processing decisions
+regarding object ingest, storage, access, and preservation are
+frequently conditioned on a per-format basis. in order to achieve
+necessary operational efficiencies, repositories need to be able to
+automate these procedures to the fullest extent possible.
+jstor and the harvard university library are collaborating on a
+project to develop an extensible framework for format validation:
+jhove (pronounced "jove"), the jstor/harvard object validation
+environment. the initial release of jhove includes modules for
+arbitrary byte streams, ascii and utf-8 encoded text, gif, jpeg2000,
+and jpeg, and tiff images, aiff and wave audio, pdf, html, and xml;
+and text and xml output handlers.

@@ -1,0 +1,21 @@
+Plugin for pidgin which displays the current music track in your status
+	
+musictracker is a plugin for pidgin (previously known as gaim) which displays
+the music track currently playing in the status message of various accounts
+such as aim, yahoo, msn, gtalk (jabber), etc., i.e. any protocol pidgin
+supports custom statuses on.
+
+features
+
+ * currently supported players: amarok, audacious, banshee, exaile,
+   last.fm feed, listen, moc, mpd, quod libet, rhythmbox,
+   songbird + dbusbird, squeezecenter, vagalume, xmms, xmms2
+ * supports mpris dbus interface for amarok2, bmpx dragonplayer and vlc
+ * allows you to customize the status string with various fields extracted
+   from your media player such as artist, album, track, duration,
+   progress bar, etc.
+ * different status messages for various media player states such as
+   playing, paused and stopped.
+ * supports per-account status format customization.
+ * optional profanity filter for words in the status.
+ * auto-detects which player is in use.

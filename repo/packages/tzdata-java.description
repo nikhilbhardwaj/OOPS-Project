@@ -1,0 +1,9 @@
+Time zone and daylight-saving time data for use by java runtimes
+	
+this package contains data required for the implementation of
+standard local time for many representative locations around the
+globe. it is updated periodically to reflect changes made by
+political bodies to time zone boundaries, utc offsets, and
+daylight-saving rules.
+
+this package contains the data for use by java runtimes.

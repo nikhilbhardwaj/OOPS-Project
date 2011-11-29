@@ -1,0 +1,11 @@
+Emulates a cisco style telnet command-line interface
+	
+libcli provides a consistant cisco style command-line environment for
+remote clients, with a few common features between every implemtation.
+
+the library is not accessed by itself, rather the software which uses
+it listens on a defined port for a telnet connection. this connection
+is handed off to libcli for processing.
+
+libcli includes support for command history, command line editing and
+filtering of command output.

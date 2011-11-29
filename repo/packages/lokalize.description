@@ -1,0 +1,10 @@
+Computer-aided translation system
+	
+lokalize is a computer-aided translation system that focuses on productivity
+and quality assurance. it has components usual for cat tools: translation
+memory, glossary, and also a unique translation merging (synchronization)
+capability. it is primarily targeted at software translation and also
+integrates external conversion tools for office document translation.
+lokalize is a replacement of kbabel.
+
+this package is part of the kde software development kit module.

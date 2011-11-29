@@ -1,0 +1,5 @@
+Hard drive temperature monitoring utility
+	
+the hddtemp program monitors and reports the temperature of pata, sata
+or scsi hard drives by reading self-monitoring analysis and reporting
+technology (s.m.a.r.t.) information on drives that support this feature.

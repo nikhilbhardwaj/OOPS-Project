@@ -1,0 +1,8 @@
+Lightweight http server for static content
+	
+this package provides a simple web server for mostly static content,
+with limited cgi support (get requests only).
+
+example uses include giving http access to the contents of an ftp
+site, or exporting some files by quickly starting a web server
+without any need to edit configuration files first.

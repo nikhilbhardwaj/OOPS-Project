@@ -1,0 +1,5 @@
+Common scripts and macros to develop with gnome
+	
+gnome-common is an extension to autoconf, automake and libtool for the gnome
+environment and gnome using applications. included are gnome-autogen.sh and
+several macros to help in gnome source trees.

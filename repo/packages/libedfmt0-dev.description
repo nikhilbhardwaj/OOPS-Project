@@ -1,0 +1,23 @@
+The eresi debug format library
+	
+libedfmt is the component dedicated for debug formats parsing. this
+library simplifies the handling of debug formats that has a different
+organization, requires a different parser, and even contain different
+information, and provides a uniform representation which contains common
+and important information. this library opens the door to automatic debug
+format reconstruction in a unified representation. we currently support
+conversions from stabs and dwarf2 formats to the eresi debug format but
+also store results of our automatic analysis in there for future consultation.
+
+the main features of the eresi debug format library are :
+
+
+ * create an uniform format representation for each supported debug format.
+ * export types in the eresi engine indicated by debug information.
+ * annotate global variables of the analyzed program using their type
+   information in the eresi engine.
+ * gives function prototypes to etrace.
+
+
+this package contains the development files provided by libedfmt (the
+static library - i.e the .a file - and the libedfmt headers).

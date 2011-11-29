@@ -1,0 +1,9 @@
+Zlib, jpeg and png support for the yorick language
+	
+this is a compiled add-on for yorick (an interpreted computer language
+specialized for numerical and scientific problems).  yorick-z adds
+support for zlib (the data compression system used by gzip), png (a
+lossless image compression format), and jpeg (a lossy image compression
+format).
+
+http://yorick.sourceforge.net

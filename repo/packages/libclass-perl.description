@@ -1,0 +1,5 @@
+Module providing class and $class as aliases for __package__
+	
+this module provides class and $class as synonyms for __package__.
+
+$class has the additional benefit of working in strings.

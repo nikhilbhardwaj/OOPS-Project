@@ -1,0 +1,18 @@
+A lisp dialect for the jvm
+	
+clojure is a dynamic programming language that targets the java virtual
+machine. it is designed to be a general-purpose language, combining the
+approachability and interactive development of a scripting language with
+an efficient and robust infrastructure for multithreaded programming.
+clojure is a compiled language - it compiles directly to jvm bytecode,
+yet remains completely dynamic. every feature supported by clojure is
+supported at runtime. clojure provides easy access to the java
+frameworks, with optional type hints and type inference, to ensure that
+calls to java can avoid reflection.
+
+clojure is a dialect of lisp, and shares with lisp the code-as-data
+philosophy and a powerful macro system. clojure is predominantly a
+functional programming language, and features a rich set of immutable,
+persistent data structures. when mutable state is needed, clojure offers
+a software transactional memory system and reactive agent system that
+ensure clean, correct, multithreaded designs.

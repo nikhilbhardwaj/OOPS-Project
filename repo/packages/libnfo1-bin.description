@@ -1,0 +1,7 @@
+An utility to read nfo files which uses libnfo
+	
+libnfo is a small library to parse and write nfo files. nfo files are used
+to store metadata information on many multimedia files.
+
+this package contains libnfo-reader, an utility to read nfo files which
+uses libnfo.

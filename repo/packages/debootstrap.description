@@ -1,0 +1,6 @@
+Bootstrap a basic debian system
+	
+debootstrap is used to create a debian base system from scratch,
+without requiring the availability of dpkg or apt. it does this by
+downloading .deb files from a mirror site, and carefully unpacking them
+into a directory which can eventually be chrooted into.

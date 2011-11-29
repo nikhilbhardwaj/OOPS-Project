@@ -1,0 +1,19 @@
+Openpgp web of trust analyzer and pathfinder
+	
+wotsap is a tool that analyzes a openpgp web of trust description and reports
+to the user stastistics about the single keys and the whole network, or
+searches for paths from one key to another.
+
+openpgp is the most widely used email encryption standard, used by encryption
+software such as the gnu privacy guard (gpg).  to encrypt to someone or verify
+someone's signature, you need that persons openpgp key. say you want to verify
+a digital signature made by bob. to get bob's key is easy with some help from
+keyservers, being sure you got the right key is the tricky part. this is
+accomplished either by meeting bob in person and exchanging signatures, or by
+trusting someone else, who you have met in person, who claims to have met bob.
+or by trusting someone who has met someone who has met bob. this gives rise to
+a completely decentralized network of trusts between people.
+
+wotsap lets you explore the web of trust. it works on a compressed copy of the
+web of trust in the .wot file format, generated daily and distributed on the
+site of wotsap main writer.

@@ -1,0 +1,10 @@
+Library for reading/writing audio files
+	
+libsndfile is a library of c routines for reading and writing files containing
+sampled audio data.
+
+various versions of wav (integer, floating point, gsm, and compressed formats);
+microsoft pcm, a-law and u-law formats; aiff, aifc and rifx; various au/snd
+formats (sun/next, dec au, g721 and g723 adpcm); raw header-less pcm files;
+amiga iff/8svx/16sv pcm files; ensoniq paris  (.paf); apple's core audio format
+(caf) and others.

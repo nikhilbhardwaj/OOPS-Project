@@ -1,0 +1,13 @@
+Trivial wsgi web framework for python (examples)
+	
+almost do-nothing web framewrok that features:
+
+ * wsgi-enabled ie. can be used with mod_wsgi, mod_python, fast cgi, cgi, with
+   paste or even without even a server
+ * light weight
+ * can be tuned to be suitable for desktop apps or public web servers
+ * no extra dependencies
+ * very simple
+
+
+this package contains an example application using okasha web framework.

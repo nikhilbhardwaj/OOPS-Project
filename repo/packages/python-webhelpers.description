@@ -1,0 +1,6 @@
+Library of helper functions to make writing web application templates easier
+	
+one of the sub-sections of web helpers contains a full port of the template
+helpers that are provided by ruby on rails with slight adaptations on
+occasion to accommodate for python. some of these helpers only require routes
+to function.

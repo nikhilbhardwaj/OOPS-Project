@@ -1,0 +1,9 @@
+Pure-python full-text indexing, search, and spell checking library
+	
+whoosh is a fast, pure-python indexing and search library. programmers
+can use it to easily add search functionality to their applications and
+websites. as whoosh is pure python, you don't have to compile or
+install a binary support library and/or make python work with a jvm, yet
+indexing and searching is still very fast. whoosh is designed to be
+modular, so every part can be extended or replaced to meet your needs
+exactly.

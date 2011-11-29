@@ -1,0 +1,8 @@
+Development files for libacpi
+	
+libacpi is a general purpose shared library for programs gathering
+acpi data on linux. it implements thermal zones, battery information,
+fan information and ac states.
+
+this package contains the header files and static libraries needed to
+compile applications or shared objects that use libacpi.

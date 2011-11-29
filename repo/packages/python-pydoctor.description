@@ -1,0 +1,7 @@
+Python api document generator
+	
+pydoctor is a tool for generating api documentation for python modules based
+on their docstrings via static analysis.
+
+it was written primarily to replace epydoc for the purposes of the twisted
+project as epydoc has difficulties with zope.interface.

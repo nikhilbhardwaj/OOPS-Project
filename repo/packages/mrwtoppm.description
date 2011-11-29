@@ -1,0 +1,13 @@
+Tool to convert minolta dimage 5/7/7i raw images to ppm
+	
+this program processes raw images of the minolta dimage 5 and 7 series
+digital slr camera's. these images will be postprocessed and converted
+to 8 or 16 bit ppm files. noteworthy postprocessing steps are:
+
+
+ - colourspace conversion from the camera's own large colourspace to srgb
+ - dark field subtraction
+ - interpolation of the ccd's bayer pattern using bilinear, vector median or
+   various other interpolation algorithms
+ - tone curve adjustment
+ - separate sharpening and blurring of luminance and chrominance channels

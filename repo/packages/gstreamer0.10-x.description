@@ -1,0 +1,12 @@
+Gstreamer plugins for x11 and pango
+	
+gstreamer is a streaming media framework, based on graphs of filters
+which operate on media data.  applications using this library can do
+anything from real-time sound processing to playing videos, and just
+about anything else media-related.  its plugin-based architecture means
+that new data types or processing capabilities can be added simply by
+installing new plug-ins.
+
+this package contains the gstreamer plugins for x11 video output, both
+for standard xlib support and for the xv extension, as well as the
+plugin for pango-based text rendering and overlay.

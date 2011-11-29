@@ -1,0 +1,14 @@
+Command line minimalistic personal finance manager
+	
+'clipf' is a minimalistic personal finance manager with command
+line interface, written on python.
+
+hierarchical list of income/expense items. item defined
+by segmented item code like food.drink.beer. tab-completion
+make it easy to enter even long item codes. reporting by
+item groups on any level of hierarchy.
+
+track turnover and remains by several independed accounts.
+
+export reports to text files also features aliases for
+frequently used commands.

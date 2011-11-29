@@ -1,0 +1,10 @@
+Graphical designer for qt3 applications
+	
+the qt designer is a gui design program that interactively lets you
+construct user interfaces for the qt library. additionally it lets you
+create whole project and works together with the database drivers
+provided by qt to create applications with easy database access through
+qt. the resulting user interface files can then be converted to
+c++ classes using the uic commandline utility which is usually done
+automatically for the developer with a project management with qmake
+or automake.

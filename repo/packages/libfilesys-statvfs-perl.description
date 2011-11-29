@@ -1,0 +1,7 @@
+Perl extension for statvfs()
+	
+filesys::statvfs provides an interface between
+perl and the statvfs() system call.
+
+filesys::df was split by upstrem into another source package
+and can be found in the package libfilesys-df-perl.

@@ -1,0 +1,9 @@
+Spf tools (spfquery, spfd) based on the mail::spf perl module
+	
+a collection of sender policy framework (spf) tools that are based on the
+fully rfc-conforming mail::spf perl module.  the following tools are included
+in this package:
+
+
+  * spfquery:  a command-line tool for performing spf checks.
+  * spfd:      a daemon for services that perform spf checks frequently.

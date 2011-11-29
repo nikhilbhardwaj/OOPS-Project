@@ -1,0 +1,10 @@
+Nonclassical randomness test using data compressors
+	
+israndom tests a sequence of symbols for randomness.  israndom tries to
+determine if a given sequence of trials could reasonably be assumed  to
+be  from  a  random  uniform distribution over a fixed-size alphabet of
+2-256 symbols.  it uses mathematical results from kolmogorov complexity
+theory and shannon entropy (in classical information theory) in order to
+determine if a given sequence is effectively random or not.  it does this
+by bounding the kolmogorov complexity function from above using compressors.
+.

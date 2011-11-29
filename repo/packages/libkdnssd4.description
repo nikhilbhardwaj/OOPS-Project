@@ -1,0 +1,8 @@
+The dns-sd protocol library for the kde platform
+	
+this library is for handling the dns-based service discovery protocol
+(dns-sd), the layer of zeroconf that allows network services, such as
+printers, to be discovered without any user intervention or centralized
+infrastructure.
+
+this package is part of the kde development platform libraries module.

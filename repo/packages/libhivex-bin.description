@@ -1,0 +1,6 @@
+Utilities for reading and writing windows registry hives
+	
+libhivex is a self-contained library for reading and writing windows
+registry "hive" binary files.
+
+this package contains a few command line programs that utilize libhivex.

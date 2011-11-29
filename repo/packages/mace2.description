@@ -1,0 +1,13 @@
+Program that searches for finite models of first-order statements
+	
+mace is a program that searches for finite models of first-order and
+equational statements developed at argonne national laboratory.
+
+this package includes anldp, which calls the propositional decision
+procedure at the core of mace directly.
+
+mace serves as a complementary companion to otter, which
+searches for refutations of the same class of statement. in
+particular, if you have a first-order conjecture, otter will search
+for a proof, and mace will search for a counterexample from the same
+input file.

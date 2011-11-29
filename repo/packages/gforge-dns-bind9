@@ -1,0 +1,4 @@
+PackageId:5285
+Name:gforge-dns-bind9
+Version:5.0.2-5
+Deps:bind9,debconf,debconf-2.0,cdebconf,cdebconf-udeb,debianutils,gforge-common,gforge-db-postgresql,gforge-db,libdbd-pg-perl,libdbi-perl,perl,ucf

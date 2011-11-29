@@ -1,0 +1,16 @@
+Libgnuift development files
+	
+the gift (the gnu image-finding tool) is a content based image
+retrieval system (cbirs). it enables you to do query by example on
+images, giving you the opportunity to improve query results by
+relevance feedback. for processing your queries the program relies
+entirely on the content of the images, freeing you from the need
+to annotate all images before querying the collection.
+
+the gift is an open framework. the communication protocol for
+client-server communication, mrml, is xml based and fully documented
+(http://www.mrml.net).
+
+to avoid a name clash with the "gift" package (a fasttrack filesharing
+client), these packages have been named "gnuift" (also to stress that
+gnuift is a gnu project).

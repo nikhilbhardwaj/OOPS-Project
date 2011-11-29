@@ -1,0 +1,5 @@
+A spell-checking addon for gtk's textview widget
+	
+gtkspell provides msword/macosx-style highlighting of misspelled words in a
+gtktextview widget.  right-clicking a misspelled word pops up a menu of
+suggested replacements.

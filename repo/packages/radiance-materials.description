@@ -1,0 +1,10 @@
+Lighting simulation and rendering system - materials
+	
+radiance is intended to aid lighting designers and architects by
+predicting the light levels and appearance of a space prior to
+construction.
+
+this package contains common auxiliary files used by radiance, including
+procedural patterns, textures and coordinate mappings, font descriptions,
+compiled scene descriptions for use in instances, material definitions,
+images for patterns and other examples.

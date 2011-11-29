@@ -1,0 +1,12 @@
+A reimplementation of libdjb
+	
+this library is a reimplementation of libdjb, which means that it provides
+daniel bernstein's interfaces (with some extensions).
+
+it contains wrappers around memory allocation, buffered i/o, routines for
+formatting and scanning, a full dns resolver, several socket routines,
+wrappers for socket functions, mkfifo, opendir, wait, and an abstraction
+around errno.  it also includes wrappers for unix signal functions and a
+layer of mmap and sendfile.
+
+the library is available for use with the diet libc.

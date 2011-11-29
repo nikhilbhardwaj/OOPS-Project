@@ -1,0 +1,6 @@
+The gnome session manager - minimal runtime
+	
+this package contains the binaries for the gnome session manager, but
+no startup scripts. it is meant for those willing to start
+gnome-session by hand with the components of their choice, and for
+applications such as gdm that use gnome-session internally.

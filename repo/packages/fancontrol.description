@@ -1,0 +1,8 @@
+Utilities to read temperature/voltage/fan sensors
+	
+lm-sensors is a hardware health monitoring package for linux. it allows you
+to access information from temperature, voltage, and fan speed sensors. it
+works with most newer systems.
+
+this package contains a daemon that calculates fan speeds from temperatures
+and sets the corresponding pwm outputs to the computed values.

@@ -1,0 +1,5 @@
+Debugging symbols for kdeaccessibility
+	
+this package contains the debugging symbols associated with kdeaccessibility.
+they will automatically be used by gdb for debugging kdeaccessibility-related
+issues.

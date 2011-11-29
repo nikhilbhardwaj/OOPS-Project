@@ -1,0 +1,4 @@
+PackageId:18340
+Name:libnet-dns-sec-perl
+Version:0.16-1
+Deps:libcrypt-openssl-bignum-perl,libcrypt-openssl-dsa-perl,libcrypt-openssl-rsa-perl,libdigest-bubblebabble-perl,libdigest-sha-perl,perl,libdigest-sha1-perl,libmime-base32-perl,libnet-dns-perl,libtime-local-perl,perl-modules

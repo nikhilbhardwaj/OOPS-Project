@@ -1,0 +1,6 @@
+Netbsd make
+	
+pmake is a program designed to simplify the maintenance of other
+programs. its input is a list of specifications as to the files upon
+which programs and other files depend.  mkdep, a program to construct
+makefile dependency lists, is also included.

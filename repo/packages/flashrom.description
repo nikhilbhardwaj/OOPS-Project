@@ -1,0 +1,17 @@
+Identify, read, write, erase, and verify bios/rom/flash chips
+	
+flashrom is a tool for identifying, reading, writing, verifying and erasing
+flash chips. it's often used to flash bios/efi/coreboot/firmware images
+in-system using a supported mainboard, but it also supports flashing of
+network cards (nics), sata controller cards, and other external devices which
+can program flash chips.
+
+it supports a wide range of dip32, plcc32, dip8, so8/soic8, tsop32, tsop40,
+and tsop48 chips, which use various protocols such as lpc, fwh, parallel
+flash, or spi.
+
+the tool can be used to flash bios/firmware images for example -- be it
+proprietary bios images or coreboot (previously known as linuxbios) images.
+
+it can also be used to read the current existing bios/firmware from a
+flash chip.

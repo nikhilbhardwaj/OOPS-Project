@@ -1,0 +1,8 @@
+Middleware to access a smart card using pc/sc (daemon side)
+	
+the purpose of pc/sc lite is to provide a windows(r) scard interface
+in a very small form factor for communicating to smart cards and
+smart cards readers.
+
+the pc/sc daemon is used to dynamically allocate/deallocate reader
+drivers at runtime and manage connections to the readers.

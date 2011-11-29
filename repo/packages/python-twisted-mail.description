@@ -1,0 +1,7 @@
+An smtp, imap and pop protocol implementation
+	
+twisted mail contains high-level, efficient protocol implementations
+for both clients and servers of smtp, pop3, and imap4. additionally,
+it contains an "out of the box" combination smtp/pop3 virtual-hosting
+mail server. also included is a read/write maildir implementation and
+a basic mail exchange calculator (depends on twisted names).

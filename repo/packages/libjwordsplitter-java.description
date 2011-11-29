@@ -1,0 +1,6 @@
+Java library for splitting words into atoms
+	
+jwordsplitter is an open source, platform independent library for splitting
+words into their smallest parts (atoms). this is especially beneficial for
+german words but it can work with all languages, as long as the dictionary and
+a class extending abstractwordsplitter is provided.

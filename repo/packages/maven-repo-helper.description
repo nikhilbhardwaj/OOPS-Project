@@ -1,0 +1,27 @@
+Helper tools for including maven metatada in debian packages
+	
+maven is a software project management and comprehension tool. based on the
+concept of a project object model (pom), maven can manage a project's build,
+reporting and documentation from a central piece of information.
+
+maven's primary goal is to allow a developer to comprehend the complete
+state of a development effort in the shortest period of time. in order to
+attain this goal there are several areas of concern that maven attempts
+to deal with:
+
+
+   * making the build process easy
+   * providing a uniform build system
+   * providing quality project information
+   * providing guidelines for best practices development
+   * allowing transparent migration to new features
+
+
+this package enables debian packages which are not using maven in their
+build process to provide and install maven poms and libraries in the
+repository located in /usr/share/maven-repo.
+
+packages built with maven (using maven-debian-helper) will benefit as
+many of their dependencies are already packaged in debian but they are
+missing the necessary metadata (maven pom) which is required by maven
+when it is using dependencies.

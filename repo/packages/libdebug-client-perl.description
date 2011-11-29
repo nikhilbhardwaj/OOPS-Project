@@ -1,0 +1,6 @@
+Module to debug perl programs remotely
+	
+debug::client is a perl module designed to facilitate remote debugging of
+your perl software. its interface consists of connecting to a remote perl
+session, permitting manipulation of breakpoints and providing stack traces
+or variable values where needed.

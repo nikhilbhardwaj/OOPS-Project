@@ -1,0 +1,12 @@
+Generate kernel image for u-boot
+	
+this package contains the mkimage utility, which encapsulates a compressed
+"uimage" linux kerel image with header information, crc32 checksum, etc,
+for use with the u-boot bootloader.
+
+mkimage can also be used to create ramdisk images for use
+with u-boot, either separated from the linux kernel image, or
+combined into one file. mkimage encapsulates the images with a 64
+byte header containing information about target architecture,
+operating system, image type, compression method, entry points, time
+stamp, crc32 checksums, etc.

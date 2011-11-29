@@ -1,0 +1,16 @@
+Perl module to create and use recursive-descent parsers
+	
+parse::recdescent incrementally generates top-down recursive-descent text
+parsers from simple yacc-like grammar specifications. it provides:
+
+
+  * regular expressions or literal strings as terminals (tokens)
+  * multiple (non-contiguous) productions for any rule
+  * repeated, optional and alternate sub-rules within productions
+  * late-bound (run-time dispatched) sub-rules
+  * full access to perl within actions specified as part of the grammar
+  * simple automated error reporting during parser generation and parsing
+  * the ability to commit to, uncommit to, or reject particular productions
+    during a parse
+  * incremental extension of the parsing grammar (even during a parse)
+  * the ability to retrieve the generated parsing code

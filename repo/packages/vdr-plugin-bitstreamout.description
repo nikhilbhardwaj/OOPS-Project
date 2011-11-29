@@ -1,0 +1,5 @@
+Plugin for vdr to play ac3 sound over a sound card
+	
+this plugin for vdr allows to pass ac3 audio streams received
+from a dvb card or other vdr devices to the spdif port of any
+alsa-compatible sound card.

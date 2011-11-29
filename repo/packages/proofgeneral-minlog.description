@@ -1,0 +1,9 @@
+Generic interface for proof assistants - minlog support
+	
+proof general is a major mode to turn emacs into an interactive proof
+assistant to write formal mathematical proofs using a variety of
+theorem provers. it works with either xemacs or gnu emacs.
+
+this package provides the proof general support for the minlog
+theorem prover which is available as another package. the
+package is however not required to just edit minlog files.

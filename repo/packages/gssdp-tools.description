@@ -1,0 +1,6 @@
+Gobject-based library for ssdp (tools)
+	
+a gobject-based api for doing ssdp (simple service discovery protocol)
+transparently.
+
+this package contains some tools, such as gssdp-device-sniffer.

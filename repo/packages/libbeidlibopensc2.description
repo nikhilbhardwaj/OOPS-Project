@@ -1,0 +1,16 @@
+Belgian eid pkcs11 library
+	
+this package contains libbeidlibopensc, a library that is loosely based
+on libopensc with additional support for the belgian eid card. it was
+built from the official sources as provided by zetes belgium on the
+belgian federal website.
+
+the opensc library, on which this library was based, now also contains
+support for the belgian eid cards. however, since there are still some
+things that opensc chooses not to do (like showing a popup window
+without the application's interference when the user needs to enter his
+pincode), applications that want to use the belgian eid card may have
+to use this library instead of opensc.
+
+please read the readme.debian file for information on setting up your
+system so that it can read from smartcards.

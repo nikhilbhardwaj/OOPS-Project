@@ -1,0 +1,6 @@
+Module for testing web applications
+	
+test::www::mechanize is a perl module framework for testing web applications.
+it extends the functionality of www::mechanize (see libwww-mechanize-perl) by
+subclassing it, providing additional features for testing web applications.
+in particular, it provides much nicer diagnostics upon failure.

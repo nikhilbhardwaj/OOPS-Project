@@ -1,0 +1,10 @@
+Converts outlook pst files to mbox and others [debugging]
+	
+readpst is an application that can take a microsoft outlook pst
+(personal folders) file and convert it into mbox, kmail, its own
+recursive format, or separate each email into its own file.
+
+it can currently handle emails, folders and most contacts.
+
+this package contains additional debugging information needed when
+trying to capture information about problems within readpst.

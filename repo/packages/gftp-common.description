@@ -1,0 +1,23 @@
+Shared files for other gftp packages
+	
+gftp is a multithreaded ftp client. this package contains the locale data
+used by both gftp-gtk and gftp-text, along with a common manual page.
+
+gftp features:
+
+  * simultaneous downloads,
+  * resuming of interrupted file transfers,
+  * file transfer queues,
+  * downloading of entire directories,
+  * ftp and http proxy support,
+  * remote directory caching,
+  * passive and non-passive file transfers,
+  * drag-n-drop support,
+  * bookmarks menu,
+  * support for ssh and ssh2 file transfers,
+  * support fxp transferts,
+  * stop button, and many more features.
+
+
+
+ author:   brian masney <masneyb@gftp.org>

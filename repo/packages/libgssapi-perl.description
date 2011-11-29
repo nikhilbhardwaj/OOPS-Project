@@ -1,0 +1,12 @@
+Perl extension providing access to the gssapiv2 library
+	
+this module gives access to the routines of the gssapi library,
+as described in rfc2743 and rfc2744 and implemented by the
+kerberos-1.2 distribution from mit.
+
+the api presented by this module is a mildly object oriented
+reinterpretation of the c api, where opaque c structures are
+perl objects, but the style of function call has been left
+mostly untouched.  as a result, most routines modify one or
+more of the parameters passed to them, reflecting the c
+call-by-reference (or call-by-value-return) semantics.

@@ -1,0 +1,7 @@
+Library to work with udf filesystems (development files)
+	
+this package contains development files (headers and static library)
+for the libudf library.
+
+this library is made to read and write udf filesystems; those
+filesystems are mainly used on dvds.

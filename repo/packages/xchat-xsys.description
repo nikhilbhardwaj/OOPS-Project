@@ -1,0 +1,17 @@
+X-chat plugin that can display your current system statistics
+	
+x-sys is a plugin for x-chat that allows you to display your current system
+statistics in a channel, private conversation or just in an echo to yourself
+for testing purposes.
+
+the plugin can display the following information:
+
+  * number of cpu's and their specifications.
+  * operating system information.
+  * video card type.
+  * sound card type.
+  * memory and swap usage.
+  * disk usage.
+  * ethernet card type.
+  * network traffic, both current and total.
+  * currently supporting audacious.

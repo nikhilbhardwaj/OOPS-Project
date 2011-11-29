@@ -1,0 +1,11 @@
+The authenticating firewall [client]
+	
+nufw is an authenticating firewall based on netfilter's nfqueue target.
+it allows to write filtering rules based on user identity, in addition
+to classical network criteria. unless other solutions, nufw uses a
+strict security model and can apply different access rules to users
+connected on the same host, for example.
+
+nutcpc is a console-mode client for the nufw authenticating firewall.
+it is in charge of authenticating the user, and replying to nuauth requests
+to send information on network connections.

@@ -1,0 +1,8 @@
+A library for simple use of lv2 plugins
+	
+slv2 is a library geared towards music and audio applications
+which makes the use of lv2 plugins as simple as possible.
+lv2 is a standard for plugins and matching host applications,
+mainly targeted at audio processing and generation.
+
+this package contains the shared library for libslv2.

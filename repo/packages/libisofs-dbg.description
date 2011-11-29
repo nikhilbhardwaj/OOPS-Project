@@ -1,0 +1,7 @@
+Debugging symbols for libisofs
+	
+libisofs creates iso images which can then be burnt with cdrskin or other
+software.
+
+this package contains debugging files used to investigate problems with
+binaries included in the libisofs packages.

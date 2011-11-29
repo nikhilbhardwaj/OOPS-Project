@@ -1,0 +1,13 @@
+Simple and powerful dvb-streaming application
+	
+dvblast is a simple and powerful streaming application based on the linux-dvb
+api.
+it opens a dvb device, tunes it, places pid filters, configures a cam module,
+and demultiplexes the packets to several rtp outputs.
+
+dvblast is designed to be the core of a custom ird or cid, based on a pc with
+linux-supported dvb cards.
+
+dvblast does not do any kind of processing on the elementary streams, such as
+transcoding, pid remapping or remultiplexing. it does not stream from plain
+files, only dvb devices. if you were looking for these features, switch to vlc.

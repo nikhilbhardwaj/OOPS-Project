@@ -1,0 +1,12 @@
+Fast, enjoyable html parser
+	
+hpricot is a fast, flexible html parser written in c.  it's designed to be
+very accomodating (like tanaka akira's htree) and to have a very helpful
+library (like some javascript libs -- jquery, prototype -- give you.)
+
+also, hpricot can be handy for reading broken xml files, since many of the
+same principles are used.  if a quote is missing, hpricot tries to figure it
+out.  if tags overlap, hpricot works on sorting them out.
+
+this is a dependency package which depends on debian's default ruby version
+(currently 1.8).

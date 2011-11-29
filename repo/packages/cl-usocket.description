@@ -1,0 +1,6 @@
+Common lisp socket library
+	
+cl-usocket provides a library for common lisp programs to use tcp
+sockets. it is the successor to trivial-sockets.
+
+to run the test suite you need the recommended cl-rt package.

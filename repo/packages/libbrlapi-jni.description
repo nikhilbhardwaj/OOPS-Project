@@ -1,0 +1,4 @@
+Java bindings for brlapi (native library)
+	
+this package provides the architecture-dependant files required to
+access a braille terminal via brlapi from java.

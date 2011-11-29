@@ -1,0 +1,19 @@
+Hierarchical menu system class for php
+	
+php layers menu is a hierarchical menu system to prepare "on the fly" dhtml
+menus relying on the php scripting engine for the processing of data items.
+
+it supports a wide range of browsers: mozilla, konqueror, netscape, safari,
+opera, internet explorer; rather old browser versions are supported, too;
+accessibility is provided for text-only browsers.
+
+it achieves a compact layout and a compact output code also for menus with a
+large number of entries.
+
+it provides horizontal and vertical layers-based menus whose behavior is
+analogous to menus of commonly used gui-based applications. it also provides
+javascript-based tree menus, whose look is analogous to the most widely used
+file managers and bookmark handling tools.
+
+
+ homepage: http://phplayersmenu.sourceforge.net/

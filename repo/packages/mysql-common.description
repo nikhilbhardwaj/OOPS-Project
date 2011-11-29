@@ -1,0 +1,9 @@
+Mysql database common files, e.g. /etc/mysql/my.cnf
+	
+mysql is a fast, stable and true multi-user, multi-threaded sql database
+server. sql (structured query language) is the most popular database query
+language in the world. the main goals of mysql are speed, robustness and
+ease of use.
+
+this package includes files needed by all versions of the client library,
+e.g. /etc/mysql/my.cnf.

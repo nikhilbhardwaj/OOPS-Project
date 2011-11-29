@@ -1,0 +1,40 @@
+Cross platform java application launcher
+	
+commons-launcher eliminates the need for a batch or shell script to
+launch a java class. some situations where elimination of a batch or
+shell script may be desirable are:
+
+
+   * you want to avoid having to determining where certain application
+
+paths are e.g. your application's home directory, etc. determining this
+dynamically in a windows batch scripts is very tricky on some versions
+of windows or when softlinks are used on unix platforms.
+
+
+   * you want to avoid having to handle native file and path separators
+
+or native path quoting issues.
+
+
+   * you need to enforce certain system properties
+
+e.g. java.endorsed.dirs when running with jdk 1.4.
+
+
+   * you want to allow users to pass in custom jvm arguments or system
+
+properties without having to parse and reorder arguments in your
+script. this can be tricky and/or messy in batch and shell scripts.
+
+
+   * you want to bootstrap system properties from a configuration file
+
+instead hard-coding them in your batch and shell scripts.
+
+
+   * you want to provide localized error messages which is very tricky
+
+to do in batch and shell scripts.
+
+this is a part of the apache commons project.

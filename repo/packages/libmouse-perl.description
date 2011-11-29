@@ -1,0 +1,7 @@
+Lightweight object framework for perl
+	
+mouse is a lightweight perl object framework based largely on the techniques
+created for moose, the leading perl framework for painless oo class creation.
+it is designed to be similar in functionality to moose, though faster, by only
+providing a subset of moose's functionality, alleviating some of the compile-
+time penalty incurred by moose. it also has considerably less dependencies.

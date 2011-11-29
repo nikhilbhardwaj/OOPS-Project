@@ -1,0 +1,27 @@
+Tex live: greek
+	
+support for typesetting greek.
+
+this package includes the following ctan packages:
+
+ betababel -- insert ancient greek text coded in beta code.
+ bgreek -- using beccari's fonts in betacode for classical greek.
+ cbfonts -- complete set of greek fonts.
+ gfsbaskerville -- a greek font, from one such by baskerville.
+ gfsporson -- a greek font, originally from porson.
+ greek-inputenc -- greek encoding support for inputenc.
+ greekdates -- provides ancient greek day and month names, dates, etc.
+ greektex -- fonts for typesetting greek/english documents.
+ grverb -- typesetting greek verbatim.
+ ibycus-babel -- use the ibycus 4 greek font with babel
+ ibygrk -- fonts and macros to typeset ancient greek.
+ kerkis -- kerkis (greek) font family.
+ levy -- fonts for typesetting classical greek.
+ lgreek -- macros for using silvio levy's greek fonts.
+ mkgrkindex -- makeindex working with greek.
+ teubner -- philological typesetting of classical greek.
+ xgreek -- xelatex package for typesetting greek language documents (beta
+  release).
+ yannisgr -- greek fonts by yannis haralambous.
+ hyphen-greek -- hyphenation for greek text.
+ hyphen-ancientgreek --

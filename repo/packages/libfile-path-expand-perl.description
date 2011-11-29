@@ -1,0 +1,5 @@
+Expand user directories in filenames
+	
+file::path::expand expands user directories in filenames.  for the
+simple case it's no more complex than s{^~/}{$home/}, but for other
+cases it consults getpwent and does the right thing.

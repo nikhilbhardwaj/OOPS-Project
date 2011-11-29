@@ -1,0 +1,11 @@
+Tool for verifying the quality of written cds/dvds
+	
+cdck (cd/dvd check tool) is a simple console program to verify cd/dvd
+quality. the known fact is that even if all files on the disc are readable,
+some sectors having bad timing can easily turn into unreadable ones in the
+future.
+
+to get an idea about a disc cdck reads it sector by sector, keeping all
+reading timings and then tells you its verdict. optionally it can write the
+timing table into text file usable by gnuplot(1) program, so you can draw
+some graphs out of it.

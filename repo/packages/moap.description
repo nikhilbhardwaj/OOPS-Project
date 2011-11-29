@@ -1,0 +1,32 @@
+Swiss army knife for project maintainers and developers
+	
+moap aims to help in keeping you in the flow of maintaining, developing and
+releasing your project, automating whatever tasks can be automated.
+
+features:
+parse doap files and:
+
+ * submit releases to freshmeat
+ * send out release announcement mails
+ * create ical and rss release feeds from doap file(s)
+ * template them using genshi or cheetah
+ * look up project home page rank on google and yahoo for given queries
+
+
+version control tools:
+
+ * currently supports bazaar, cvs, darcs, git, svn
+ * maintain ignore lists
+ * prepare changelog entry based on local diff, using ctags
+ * check in based on changelog entry
+ * show diff based on last changelog entry
+
+
+bug tracker tools:
+
+ * show individual bugs and queries from trac and bugzilla
+
+
+
+ * get list of contributors from changelog
+ * bash completion

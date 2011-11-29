@@ -1,0 +1,8 @@
+Compile native-code modules for python from python-like syntax
+	
+pyrex lets you write code that mixes python and c data types any way you want,
+and compiles it into a c extension for python.
+
+you can get very large speedups for tasks that don't need all the dynamic
+features of python, with very small differences in syntax and much less
+hassle than writing your modules from scratch in c.

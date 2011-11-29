@@ -1,0 +1,5 @@
+Reporter for system information from /proc and /sys
+	
+procinfo-ng is a small program that gathers some system information from
+diverse files under /proc and /sys and prints it to the screen.
+procinfo-ng is a complete rewrite of the old system monitoring app procinfo.

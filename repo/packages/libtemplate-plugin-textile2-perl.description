@@ -1,0 +1,6 @@
+Textile plugin for the template toolkit
+	
+template::plugin::textile2 wraps text::textile into a plugin for template
+toolkit. it provides a filter named "textile2". it aims to be a more
+featureful plugin than template::plugin::textile, by allowing you to pass
+parameters to text::textile.

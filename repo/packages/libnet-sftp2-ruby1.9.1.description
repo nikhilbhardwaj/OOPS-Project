@@ -1,0 +1,6 @@
+Ruby implementation of the sftp protocol
+	
+net::sftp is a pure-ruby implementation of the sftp protocol (specifically,
+versions 1 through 6 of the sftp protocol). note that this is the "secure file
+transfer protocol", typically run over an ssh connection, and has nothing to
+do with the ftp protocol.

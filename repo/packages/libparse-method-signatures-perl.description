@@ -1,0 +1,12 @@
+Perl module to parse perl6-like method signatures
+	
+parse::method::signatures takes a method signature and extracts information
+about it. for users of perl5 who are unfamiliar with this feature, it is
+essentially what prototypes are to other languages like c, where methods and
+functions have parameterized lists that can also optionally enforce data type
+constraints. it is useful to process perl6 code, but also the subset of perl6
+supported backported to perl5 via moose.
+
+this is primarily intended as a utility module to be used by developers that
+work with either moose or perl6 code, such as moosex::method::signatures
+(see libmoosex-method-signatures-perl).

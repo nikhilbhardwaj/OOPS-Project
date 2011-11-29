@@ -1,0 +1,5 @@
+Image viewer using gdk-pixbuf and opengl
+	
+gliv  is an image viewer that uses gdk-pixbuf to load images, and opengl to
+render them.  moving and zooming is very fast and smooth if you have an
+opengl board.

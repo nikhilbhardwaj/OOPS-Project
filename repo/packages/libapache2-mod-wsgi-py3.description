@@ -1,0 +1,9 @@
+Python 3 wsgi adapter module for apache
+	
+the mod_wsgi adapter is an apache module that provides a wsgi (web server
+gateway interface, a standard interface between web server software and
+web applications written in python) compliant interface for hosting python
+based web applications within apache. the adapter provides significantly
+better performance than using existing wsgi adapters for mod_python or cgi.
+
+this package provides module for python 3.x.

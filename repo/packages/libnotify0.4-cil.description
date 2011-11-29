@@ -1,0 +1,8 @@
+Cli library for desktop notifications
+	
+a library that sends desktop notifications to a notification daemon, as
+defined in the desktop notifications spec. these notifications can be
+used to inform the user about an event or display some form of
+information without getting in the user's way.
+
+this package contains the notify-sharp library itself

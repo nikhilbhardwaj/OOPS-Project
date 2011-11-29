@@ -1,0 +1,6 @@
+A unit test framework for bourne based shell scripts
+	
+shunit2 was originally developed to provide a consistent testing
+solution for log4sh, a shell based logging framework similar to
+log4j. it is designed to work in a similar manner to junit, pyunit,
+etc.

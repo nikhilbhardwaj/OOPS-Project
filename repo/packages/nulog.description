@@ -1,0 +1,18 @@
+Graphical firewall log analysis interface
+	
+nulog is a web interface to netfilter logs, when stored in a database
+using ulog.
+
+the features currently include:
+
+ * index page with a summary of firewall activity
+ * packet dropped per host, udp/tcp port, of per user (nufw only)
+ * fully browsable tables
+ * search engine
+ * graphing capabilities (display clickable array, histogram or pie)
+ * soap request system for integration with other systems
+ * ipv6 support.
+ * customizable pages (index page, etc)
+ * ajax features.
+ * special pages for user, ip and ports.
+ * csv export.

@@ -1,0 +1,20 @@
+Command-line ldap utilities
+	
+a set of ldap utilities for use from the command line, including:
+
+
+ * ldaptor-search -- search ldap directories.
+ * ldaptor-namingcontexts -- fetch the naming contexts the server supports.
+ * ldaptor-find-server -- find the server that serves the wanted dn by
+   looking at dns srv records.
+ * ldaptor-passwd -- change passwords.
+ * ldaptor-rename -- change object rdn and dns.
+ * ldaptor-ldap2passwd -- generate passwd(5) format data from ldap
+   accounts.
+ * ldaptor-getfreenumber -- do an efficient scan for e.g. next free
+   uidnumber.
+ * ldaptor-ldap2dhcpconf -- create dhcp.conf based on ldap host info.
+ * ldaptor-ldap2dnszones -- create a dns zone files based on ldap host info.
+ * ldaptor-ldap2maradns -- create a maradns zone file based on ldap host info.
+ * ldaptor-ldap2pdns -- pdns pipe backend.
+ * ldaptor-fetchschema -- fetch schema from a server.

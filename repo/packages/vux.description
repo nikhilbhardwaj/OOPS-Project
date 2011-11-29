@@ -1,0 +1,11 @@
+A rating-based, random ogg and mp3 player
+	
+vux is a command-line ogg and mp3 utility that plays songs according to
+a rating system designed to keep track of user listening habits.  by
+default, vux will give each song a percent chance of playing, based on
+where it lies on a bell curve of all ratings.  songs are picked at
+random, then played if they pass the percent chance.  ratings increase
+when you play complete songs and decrease when you skip them.  the
+ratings scorelist is plain text for manual editing.  by default, a
+separate agelist is maintained to prevent repeats based on time since
+last played.

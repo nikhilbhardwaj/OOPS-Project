@@ -1,0 +1,15 @@
+A simple jotter (outline processor) for x11/gtk-gnome
+	
+gjots2 is a fairly simple jotter (outline processor) application for your
+desktop.
+
+you can use gjots2 to organize your jottings into a tree structure, adding
+thoughts and miscellany as you go. you can get it to spit out html, xml,
+postscript, pdf, man, etc if you want (see the online manual for an example
+of the html conversion).
+
+some people use it for notes, personal bits and pieces, recipes, docbook xml
+documents and even pins and passwords (encrypted with ccrypt(1), openssl(1)
+or gpg(1)).
+
+it's a bit like the kde program kjots but it uses the gtk-2 library.

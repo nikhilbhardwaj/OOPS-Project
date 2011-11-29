@@ -1,0 +1,9 @@
+Statistics collection and monitoring daemon (debugging symbols)
+	
+collectd is a small daemon which collects system information periodically and
+provides mechanisms to monitor and store the values in a variety of ways.
+since the daemon doesn't need to startup every time it wants to update the
+values it's very fast and easy on the system. also, the statistics are very
+fine grained since the files are updated every 10 seconds by default.
+
+this package contains the debugging symbols.

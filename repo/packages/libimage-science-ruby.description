@@ -1,0 +1,12 @@
+Clean ruby library to provide simple transformations on images
+	
+imagescience is a clean ruby library allowing for simple
+transformations on images, mainly geared towards generating thumbnails
+- the provided functions aim at scaling and cropping images.
+
+emphasis is made on keeping the code as lean as possible (at less than
+200 loc), and on correctness to avoid memory leaks and similar
+problems that often accompany similar libraries.
+
+this is a dummy package depending on the library for the current
+default version of ruby.

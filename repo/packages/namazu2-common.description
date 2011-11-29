@@ -1,0 +1,7 @@
+Full text search engine - documentation
+	
+namazu is a full text search engine which is usable via cgi. it features
+a simple and easy setup, and is written in c and perl. namazu uses the
+text utilities nkf, kakasi or chasen.
+
+this package including only document files, also message catalogue.

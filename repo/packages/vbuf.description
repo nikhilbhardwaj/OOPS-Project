@@ -1,0 +1,19 @@
+Virtual ring buffer library - shell interface
+	
+the virtual ring buffer (vrb) is an implementation of a character
+fifo ring buffer. a ring buffer is a special memory area, because
+writing beyond the end of it actually results in a write at the
+beginning. such a construct comes very handy in applications where
+one end of a communications channel is required to produce or consume
+data at a constant rate, but the other end cannot gurantee this. this
+is a common situation in multimedia applications or voice-over-ip
+solutions, for example.
+
+vrb provides direct access to the buffer so the calling program can
+construct output data in place, or parse input data in place, without
+the extra step of copying data to or from a calling program provided
+buffer area, thus provides a highly efficient ring buffer
+implementation.
+
+this package contains the program vbuf, which implements nothing but
+a simple ring buffer, so it can be used directly from the shell.

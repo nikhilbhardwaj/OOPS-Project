@@ -1,0 +1,21 @@
+An e-mail client for gnome
+	
+balsa is a highly configurable and robust mail client for the gnome desktop.
+it supports both pop3 and imap servers as well as the mbox, maildir and mh
+local mailbox formats. balsa also supports smtp and/or the use of a local mta
+such as sendmail.
+
+some of balsa's other features include:
+
+  * allowing nested mailboxes
+  * printing
+  * spell checking
+  * multi-threaded mail retrieval
+  * mime support (view images inline, save parts)
+  * gpe palmtop, ldap, ldif and vcard address book support
+  * multiple character sets for composing and reading messages
+  * file attachments on outgoing messages
+  * gpg/openpgp mail signing and encryption
+
+
+support for kerberos and ssl has been enabled in this package.

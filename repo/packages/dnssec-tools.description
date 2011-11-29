@@ -1,0 +1,8 @@
+Dnssec tools, applications and wrappers
+	
+the goal of the dnssec-tools project is to create a set of tools,
+patches, applications, wrappers, extensions, and plugins that will
+help ease the deployment of dnssec-related technologies.
+
+this package contains tools to maintain dnssec enabled zone files,
+i.e. generate dnssec keys, sign zone files and publish them to dns.

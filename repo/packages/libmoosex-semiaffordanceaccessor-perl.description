@@ -1,0 +1,10 @@
+Perl module to generate accessors automatically
+	
+moosex::semiaffordanceaccessor is a module that changes the default naming
+policy for the loading class so that methods are separated into accessors
+(which have the same name as the attribute) and mutators (via set_ methods).
+
+it is compatible with existing naming schemes, since attributes that explictly
+provide a "reader" or "writer" name are left unchanged. the terminology
+"semi-affordance" is inspired by david wheeler's class::meta module (see
+libclass-meta-perl).

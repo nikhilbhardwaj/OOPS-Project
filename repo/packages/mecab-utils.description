@@ -1,0 +1,6 @@
+Support programs of mecab
+	
+this package provides the dictionary compiler to convert a dictionary
+written in text format to a binary data for mecab, that is a japanese
+morphological analysis system.  this package is necessary to install
+dictionary packages for mecab like mecab-jumandic.

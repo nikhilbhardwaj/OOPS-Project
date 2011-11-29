@@ -1,0 +1,9 @@
+Debugging symbols for use with libgsm0710mux
+	
+this library supports implementing a gsm 07.10 multiplexing server.
+it requires libgsm0710 for the protocol engine and glib.
+
+this package contains unstripped shared libraries. it is provided primarily
+to provide a backtrace with names in a debugger, this makes it somewhat easier
+to interpret core dumps. the libraries are installed in /usr/lib/debug and
+are automatically used by gdb.

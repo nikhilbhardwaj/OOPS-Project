@@ -1,0 +1,12 @@
+General input interface development package
+	
+"general graphics interface" - a fast, portable graphics environment.
+
+this package contains the development environment for libgii, the ggi
+project's general input interface, and libgg, the library containing ggi's
+configuration and target option parsing code.
+
+two useful demo programs are also included:
+
+ mhub          - translate libggi events to mouse events
+ xsendbut      - translate mhub to x button events

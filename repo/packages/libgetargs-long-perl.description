@@ -1,0 +1,21 @@
+Perl module to parse long function arguments
+	
+the getargs::long module allows usage of named parameters in function
+calls, along with optional argument type-checking.  it provides an easy
+way to get at the parameters within the routine, and yields concise
+descriptions for the common cases of all-mandatory and all-optional
+parameter lists.
+
+the validation of arguments can be done by a structure-driven routine
+getargs() which is fine for infrequently called routines (but should be
+slower), or via a dedicated routine created and compiled on the fly the
+first time it is needed, by using the cgetargs() family (expected to be
+faster).
+
+the log::agent module is used to report errors, which leaves to the
+application the choice of the final logging method: to a file, to
+stderr, or to syslog.
+
+note that this module is still in the alpha stage of development, and
+the interface to it may change: indeed, it changed between 0.1.2 and
+0.1.3.

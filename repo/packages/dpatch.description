@@ -1,0 +1,13 @@
+Patch maintenance system for debian source packages
+	
+dpatch is an easy to use patch system for debian packages, somewhat
+similar to the dbs package, but much simpler to use.
+
+it lets you store patches and other simple customization templates in
+debian/patches and otherwise does not require much reorganization of
+your source tree. to get the patches applied at build time you simply
+need to include a makefile snippet and then depend on the
+patch/unpatch target in the build or clean stage of debian/rules - or
+you can use the dpatch patching script directly.
+
+it can easily apply patches only on specific architectures if needed.

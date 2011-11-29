@@ -1,0 +1,5 @@
+Runs setuid perl scripts
+	
+suidperl is a setuid root helper program which is invoked by perl when
+executing scripts with setuid/gid bits set on systems (like linux) which
+don't have support setuid script execution natively in the kernel.

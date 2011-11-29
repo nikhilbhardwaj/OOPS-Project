@@ -1,0 +1,4 @@
+PackageId:21201
+Name:libsvn-hooks-perl
+Version:0.28-1
+Deps:libemail-send-perl,libemail-simple-perl,libemail-simple-creator-perl,libjira-client-perl,libsoap-lite-perl,libsvn-look-perl,libsvn-notify-perl,perl,subversion

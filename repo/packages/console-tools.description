@@ -1,0 +1,14 @@
+Linux console and font utilities
+	
+this package allows you to set-up and manipulate the linux console (ie.
+screen and keyboard), and manipulate console-font files.
+
+`console-tools' was developed from version 0.94 of the standard `kbd'
+package, and integrates many fixes and enhancements, including new
+kbd features up to 0.99.
+
+you will probably want to install a set of data files, such as the one
+in the `console-data' package.
+
+for command-line compatibility with kbd, you may want to install the
+kbd-compat package.

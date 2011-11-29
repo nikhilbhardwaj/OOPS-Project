@@ -1,0 +1,12 @@
+Classroom management tool
+	
+assists teachers in the management of a classroom with computers in
+the students desktops.
+it also gives to the student tools to share files and work in groups
+and send messages to the teacher or the other collegues.
+
+this package has to be installed in the teacher pc and the students
+workstations. when using ltsp this package must not be installed
+inside the clients chroot.
+
+check the documentation for detailed instructions to set it up.

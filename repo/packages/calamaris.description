@@ -1,0 +1,8 @@
+Log analyzer for squid or oops proxy log files
+	
+calamaris is a perl script which generates nice statistics out of
+squid or oops log files. it is invoked daily before the proxy rotates
+its log files, and mails the statistics or puts them on the web.
+
+various options are supported for generated reports; some extra
+features require the suggested perl modules.

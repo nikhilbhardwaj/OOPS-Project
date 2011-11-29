@@ -1,0 +1,5 @@
+Helper tools for the pam-usb module
+	
+this package contains several tools related to the libpam-usb module
+including pamusb-agent, pamusb-conf and pamusb-check, which help users
+to manage the xml-based configuration file and to test their settings.

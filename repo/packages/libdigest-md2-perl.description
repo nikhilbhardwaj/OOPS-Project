@@ -1,0 +1,9 @@
+Md2 message digest for perl
+	
+the digest::md2 module allows you to use the rsa data security inc.
+md2 message digest algorithm from within perl programs.  the
+algorithm takes as input a message of arbitrary length and produces
+as output a 128-bit "fingerprint" or "message digest" of the input.
+
+the digest::md2 programming interface is identical to the interface
+of digest::md5.  md2 is described in rfc 1115.

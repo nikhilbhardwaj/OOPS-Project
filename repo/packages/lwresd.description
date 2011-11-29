@@ -1,0 +1,6 @@
+Lightweight resolver daemon
+	
+lwresd is the daemon providing name lookup services to clients that use
+the bind 9 lightweight resolver library.  it is essentially a stripped-
+down, caching-only name server that answers queries using the bind 9
+lightweight resolver protocol rather than the dns protocol.

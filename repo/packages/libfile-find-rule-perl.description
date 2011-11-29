@@ -1,0 +1,7 @@
+Module to search for files based on rules
+	
+file::find::rule is a perl module which essentially provides an easy-to-use
+interface to the popular module, file::find. it provides a way to build rules
+that specify desired file and directory names using a text-globbing syntax
+(provided by text::glob). this makes it useful for simple tasks, like finding
+all ".pm" files in a given directory.

@@ -1,0 +1,6 @@
+An interface between haskell and unix-like operating systems
+	
+a collection of useful and mildly useful functions that you might expect to
+find in system.* with a heavy bias towards unix-type operating systems.
+
+this package contains the libraries compiled for ghc 6.

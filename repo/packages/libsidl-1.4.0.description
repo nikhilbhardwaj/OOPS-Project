@@ -1,0 +1,15 @@
+Scientific interface definition language (sidl) c(++)/fortran runtime
+	
+babel is a compiler for the scientific interface definition language (sidl),
+currently under development as a support tool for parallel simulation codes.
+
+sidl is in the same "phylum" as corba or com, but with an eye toward future
+extension to data redistribution on massively parallel architectures.  in
+addition, because of the large amount of existing and very important
+scientific code written in fortran, sidl is designed with support for that
+language in mind.
+
+babel is written in java, and currently has backends for: fortran 77, c, c++,
+java and python.
+
+this package contains the runtime libraries for the c and fortran backends.

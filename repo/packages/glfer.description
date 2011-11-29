@@ -1,0 +1,7 @@
+Program for reception and transmission of qrss/dfcw signals
+	
+glfer is composed of two main parts:
+a spectrogram window, where you can see the spectrum of the received
+signal vs. time and transmission functions, to emit cw characters at
+a slow but precisely controlled speed, using the qrss (slow cw) or
+dfcw (dual frequency cw) modes.

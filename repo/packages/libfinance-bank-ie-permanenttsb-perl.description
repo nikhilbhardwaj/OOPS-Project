@@ -1,0 +1,11 @@
+Perl interface to the permanenttsb open24 homebanking
+	
+finance::bank::ie::permanenttsb provides a set of functions which can be
+used in perl programs to interact with the open24 homebanking (www.open24.ie)
+
+the module will allow the user to check the account balance and to display
+an account statement for a particular time range.
+
+this package also includes a cli tool (ptsb), which will provide the same
+functionalities of the module and will also use gnuplot to draw graphs
+about the status of a bank account.

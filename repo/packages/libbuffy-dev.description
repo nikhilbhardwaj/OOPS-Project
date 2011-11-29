@@ -1,0 +1,14 @@
+Base functions for building mailbox summary applications
+	
+buffy wants to be the ultimate mail folder summary system.
+
+this library provides efficient mailfolder checking routines, packaged in a
+library with a simple api and with wrappers for many languages, so that
+everyone can create mail folder summary systems in the language they prefer
+without having to care about the actual mailbox checking.
+
+libbuffy currently supports detection and summarizing of folders in maildir
+and mailbox format.
+
+this package provides the development headers and library for libbuffy.  no
+shared library is packaged until the api is stabilized.

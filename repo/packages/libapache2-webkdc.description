@@ -1,0 +1,11 @@
+Apache 2 modules for a webauth authentication kdc
+	
+webauth is a cookie-based web authentication system built on top of
+kerberos.  it relies on a central authentication server that handles all
+user authentication for a domain and creates user authentication
+credentials for any web server that needs strong authentication.
+
+this package contains the apache 2 module for the central authentication
+server for a particular site.  only one such server is needed; all web
+servers that use webauth will talk to this server to obtain and verify
+authentication credentials.

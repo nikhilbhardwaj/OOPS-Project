@@ -1,0 +1,16 @@
+Darcs add-on that sends mail about newly pushed changes
+	
+it is often desirable to send mail about new changes to software to
+a mailing list as soon as they are committed to a version control
+repository.  darcs-monitor adds this functionality to darcs, an
+advanced revision control system.
+
+darcs-monitor is most commonly used as a darcs apply post-hook, so that
+email is sent as soon as changes are pushed to the repository under
+monitoring.
+
+mails sent by darcs-monitor are configurable, and they can contain
+the diff of the changes, as well as change metadata.
+
+you will need a mail transport agent (mta) such as exim in all but
+the most unusual situations.

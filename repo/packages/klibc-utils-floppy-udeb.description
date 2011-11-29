@@ -1,0 +1,7 @@
+Small utilities built with klibc for the boot floppy
+	
+this package contains a small collection of programs that are linked
+against klibc. these duplicate some of the functionality of a
+regular linux toolset, but are typically much smaller than their
+full-function counterparts.  they are intended for inclusion in
+boot floppies.

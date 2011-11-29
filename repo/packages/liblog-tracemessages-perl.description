@@ -1,0 +1,9 @@
+Perl module to allow for trace messages in perl code
+	
+this is the cpan perl module log::tracemessages.
+
+this module is a better way of putting 'hello there' trace messages in
+your code.  it lets you turn tracing on and off without commenting out
+trace statements, and provides other useful things like html-ified
+trace messages for cgi scripts and an easy way to trace out data
+structures using data::dumper.

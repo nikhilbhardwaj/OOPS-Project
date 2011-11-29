@@ -1,0 +1,30 @@
+The reverse engineering vector machine
+	
+librevm is a compact library that includes the eresi interpreter. revm
+is a central piece of software in the eresi framework as it exports a
+complete api for interpreting programs written in the eresi language
+independently of the binary format, architecture, or operating system
+environment.
+
+the main features of the revm library are :
+
+
+ * a complete interpreter of the eresi language (foreach, match, gotos,
+   arithmetics ..)
+ * generation of graphviz input files from control flow graphs (cfg) and
+   call graphs of analyzed binary programs, using the analysis api of the
+   eresi component libmjollnir.
+ * full resolved disassembling of sections, functions, or basic blocks,
+   using features from the eresi disassembly engine libasm.
+ * a configuration system allowing user variables, for personalizing the
+   revm behavior for your own convenience.
+ * a generic api of eresi commands to manage prompt, workspaces, and
+   terminal colors.
+ * a generic module system for dynamically loaded eresi extensions.
+ * handling of i/o for receiving commands from readline or from the
+   network (optional).
+ * capability of logging work sessions on disk for future consultation.
+
+
+this package contains the development files provided by librevm (the
+static library - i.e the .a file - and the librevm headers).

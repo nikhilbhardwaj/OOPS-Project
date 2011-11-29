@@ -1,0 +1,18 @@
+Emulator for trs-80 model i/iii/4/4p computers
+	
+xtrs is an x-based emulator for the tandy/radio shack line of zilog
+z-80-based microcomputers popular in the late 1970s and early 1980s.  it
+features cassette, floppy, and hard drive emulation, timer interrupt
+emulation, file import and export from the host operating system, support for
+most of the undocumented z-80 instructions, and a built-in debugger.  real
+floppy drives can be used, and, if an oss-compatible sound driver is
+available, application-based sound can be played and real cassettes read and
+written directly through the sound card or via wave files.  several hi-res
+graphics cards are emulated and, in model 4/4p mode, mice are supported.
+there is also real-time clock, sound card, serial port, joystick, and cpu
+clock speedup emulation.
+
+xtrs requires rom images from the original machines.  the roms are
+copyrighted by radio shack and are not freely licensed.  (exception: in model
+4p mode, a freely licensed boot rom included with this package can be used to
+boot a model 4 operating system from a diskette image.)

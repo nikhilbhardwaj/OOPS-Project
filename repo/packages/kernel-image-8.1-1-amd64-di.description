@@ -1,0 +1,5 @@
+Freebsd kernel binary image for the debian installer
+	
+this package contains the freebsd kernel image for the debian installer
+boot images. it does _not_ provide a usable kernel for your full
+debian system.

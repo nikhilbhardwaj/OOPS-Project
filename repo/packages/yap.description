@@ -1,0 +1,10 @@
+The yap prolog system
+	
+yap is a high-performance prolog compiler developed at liacc/universidade
+do porto and at coppe sistemas/ufrj. its prolog engine is based in the wam
+(warren abstract machine), with several optimizations for better
+performance. yap follows the edinburgh tradition, and is largely
+compatible with the iso-prolog standard and with quintus and sicstus prolog.
+
+yap features a constraint solver over real numbers, and support for
+constraint handling rules (chr).

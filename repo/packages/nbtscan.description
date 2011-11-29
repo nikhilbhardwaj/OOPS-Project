@@ -1,0 +1,8 @@
+A program for scanning networks for netbios name information
+	
+nbtscan is a program for scanning ip networks for netbios name
+information. it sends netbios status query to each address in
+supplied range and lists received information in human
+readable form. for each responded host it lists ip address,
+netbios computer name, logged-in user name and mac address
+(such as ethernet).

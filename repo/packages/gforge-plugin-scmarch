@@ -1,0 +1,4 @@
+PackageId:5300
+Name:gforge-plugin-scmarch
+Version:5.0.2-5
+Deps:gforge-common,gforge-db-postgresql,gforge-db,gforge-shell-postgresql,gforge-shell,gforge-web-apache2,gforge-web,php5-cli,tla

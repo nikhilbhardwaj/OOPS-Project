@@ -1,0 +1,27 @@
+Isdn utilities - dependency package
+	
+this package depends on the most frequently used components for an
+isdn system using an internal adapter; they are not required for an
+external adapter.
+
+the isdnutils suite is split up into component packages, to make it
+easier to fine-tune what is installed; hardly anyone needs everything.
+however, it's not possible to select what is needed automatically. this
+dependency package just ensures the most important components are
+installed, and can be safely removed again once that is done.
+
+the component packages involved are:
+
+ * isdnutils-base:   the basic set of isdn utilities;
+ * ipppd:            for networking over isdn with syncppp;
+ * isdnlog:          for logging isdn calls (and much more);
+ * isdnutils-xtools: graphical utilities (xisdnload and xmonisdn);
+ * isdnvboxclient:   isdn answering machine client;
+ * isdnvboxserver:   isdn answering machine server.
+
+
+it also suggests the following optional extras:
+
+ * capiutils:        capi utilities;
+ * isdnutils-doc:    additional documentation;
+ * pppdcapiplugin:   a capi plugin for the normal ppp daemon.

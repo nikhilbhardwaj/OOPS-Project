@@ -1,0 +1,10 @@
+Library for converting dates between various calendar systems
+	
+the 'libkal' library provides support for converting dates between various
+calendar systems (currently only julianic, gregorianic, arabic and jewish
+ones) and some more related stuff.
+
+the basic idea of this library is, that any date in any calendar system can be
+converted to a single number, which express the number of days since some
+fixed date in the past. libkal uses the so-called 'julianic date'(jd), that is
+used in astronomy (not exactly).

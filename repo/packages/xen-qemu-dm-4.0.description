@@ -1,0 +1,5 @@
+Xen qemu device model virtual machine hardware emulator
+	
+this package is the xen version of the qemu emulator especially patched for
+its hypervisor. with xen-qemu-dm, you can run a fully virtualized virtual
+machine if your hardware supports it (intel vt support, or amd-v technology).

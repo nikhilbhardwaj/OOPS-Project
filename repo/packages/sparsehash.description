@@ -1,0 +1,9 @@
+Memory-efficient c++ hash_map implementation (transition package)
+	
+the google sparsehash project contains several c++ template hash-map
+implementations in use at google, with different performance
+characteristics, including an implementation that optimizes for space
+and one that optimizes for speed.
+
+this is a transitional package that simply depends on the new
+libsparsehash-dev.  it can be safeley removed.

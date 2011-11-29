@@ -1,0 +1,9 @@
+Media transfer protocol (mtp) library
+	
+libmtp is a library for communicating with mtp aware devices in posix
+compliant operating systems.  it implements mtp basic, the subset
+proposed for standardization.
+
+the media transfer protocol (commonly referred to as mtp) is a devised
+set of custom extensions to support the transfer of music files on
+usb digital audio players and movie files on usb portable media players.

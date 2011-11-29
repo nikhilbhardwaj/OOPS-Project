@@ -1,0 +1,18 @@
+User daemon that tracks urls looked at and logs them
+	
+browser-history came from the will to overcome a netscape bug: there is no
+global history, and if you close a window, its whole history is lost. for
+people browsing lots of sites, having the possibility of backtracking to
+where one has been before means that you don't have to put everything in
+your bookmarks file. if you are not sure if a site may be worth
+remembering, don't add it in your bookmarks. if you need it later, just
+browse your history files.
+
+it works with: netscape navigator, arena, and amaya. support for
+`browser-history' can easily be added to other browsers, provided you can
+program and have the browser sources.
+
+a manual page and simple documentation will be installed in
+/usr/share/doc/browser-history/browser-history.html, along with a simple
+cgi interface to grep the history log and display the result.  the optional
+cgi program requires `cgiwrap' or apache configured with `suexec'.

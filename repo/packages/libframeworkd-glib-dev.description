@@ -1,0 +1,9 @@
+Glib bindings to frameworkd (development headers)
+	
+this package provides files required for the development with a library
+that wraps the dbus api provided by the freesmartphone.org frameworkd
+server. it allows for a plain, glib compatible development with the
+language c library, and eases the interaction with the frameworkd.
+
+the package is part of the freesmartphone.org software stack and is
+targeted for smartphones.

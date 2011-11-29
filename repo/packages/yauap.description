@@ -1,0 +1,9 @@
+A simple command line audio player based on gstreamer
+	
+yauap is a simple commandline audio player based on the gstreamer multimedia
+framework. it also exposes a dbus interface which allows other applications
+to use yauap as a playback backend for audio files and streams.
+
+you should install gstreamer0.10-plugins-ugly to get support for popular mpeg
+audio formats like mp3. you should install either gstreamer0.10-plugins-bad
+or gstreamer0.10-gnomevfs to get support for playback of network streams.

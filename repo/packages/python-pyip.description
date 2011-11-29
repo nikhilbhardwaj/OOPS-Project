@@ -1,0 +1,8 @@
+Python modules for raw ip packet assembling/disassembling
+	
+pyip is a python package offering modules to assemble/disassemble
+raw ip packets, including ip, udp, and icmp. the package comes with
+an implementation of ping and traceroute, using the raw ip modules.
+
+
+ homepage: http://cheeseshop.python.org/pypi/pyip/

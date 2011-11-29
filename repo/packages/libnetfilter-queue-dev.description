@@ -1,0 +1,7 @@
+Development files for libnetfilter-queue1
+	
+libnetfilter_queue is a userspace library providing an api to packets
+that have been queued by the kernel packet filter. it is part of a
+system that deprecates the old ip_queue / libipq mechanism.
+
+this package provides development files and static libraries.

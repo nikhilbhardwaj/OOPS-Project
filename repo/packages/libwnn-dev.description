@@ -1,0 +1,11 @@
+Header files and static libraries for wnn (freewnn jserver)
+	
+freewnn jserver (wnn) is a network-extensible kana-to-kanji
+conversion system.  it was jointly developed and released by the
+software research group of kyoto university research institute for
+mathematical science, omron corporation and astec, inc. and now
+maintained by the freewnn project.
+
+this package contains the header files and static library for
+wnn. install this package if you wish to develop your own wnn client
+programs.

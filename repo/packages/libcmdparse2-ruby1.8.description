@@ -1,0 +1,5 @@
+Advanced command line parsing module supporting sub-commands
+	
+flexible library simplifying creation of shell commands using sub-commands,
+ie a la apt-get.
+uses optparse, part of ruby standard library.

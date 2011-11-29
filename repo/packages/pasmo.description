@@ -1,0 +1,8 @@
+An easy to use z80 cross-assembler
+	
+a z80 assembler capable of generating object code in formats suitable
+for many z80 machines and emulators.  pasmo generates fixed position
+code, can not be used to create relocatable object files for use with
+linkers. pasmo is compatible with the syntax used in several old
+assemblers, by supporting several styles of numeric and string literals
+and by providing several names of the most used directives.

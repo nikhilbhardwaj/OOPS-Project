@@ -1,0 +1,8 @@
+Decrypt bios passwords from cmos
+	
+cmospwd is a cross-platform tool to decrypt password stored in cmos used
+to access a computer's bios setup.
+
+this application should work out of the box on most modern systems, but
+some more esoteric bioses may not be supported or may require additional
+steps.

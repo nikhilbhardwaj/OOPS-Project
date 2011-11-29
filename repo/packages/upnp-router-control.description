@@ -1,0 +1,8 @@
+Simple program that manages upnp compliant routers
+	
+upnp router control allows to see some parameters of the router like the
+network speed, the external ip and the name. it can manage port forwarding
+through a simple interface.
+
+upnp router control retrieves this information through upnp-igd protocol, so
+you must enable it in your router in order to utilize it.

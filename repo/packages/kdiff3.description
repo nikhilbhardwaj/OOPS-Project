@@ -1,0 +1,13 @@
+Compares and merges 2 or 3 files or directories
+	
+kdiff3 compares two or three input files and shows the differences
+line by line and character by character. it provides an automatic
+merge facility and an integrated editor for comfortable solving of
+merge conflicts. kdiff3 allows recursive directory comparison and
+merging as well.
+
+this is the standard version of kdiff3, highly integrated into kde.
+it has got kio support (allowing for remote access of files and
+direct access to files in compressed archives) and integration into
+konqueror's context menu. there's also a stripped-down version called
+kdiff3-qt not depending on the kde libraries.

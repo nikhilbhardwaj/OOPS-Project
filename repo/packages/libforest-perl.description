@@ -1,0 +1,6 @@
+Collection of n-ary tree related modules
+	
+forest is a collection of perl modules implementing a generalized n-ary tree
+data structure. it also includes several modules useful for manipulating this
+data, including loading data from file, indexing it in memory, and writing it
+back out to files (in various formats).

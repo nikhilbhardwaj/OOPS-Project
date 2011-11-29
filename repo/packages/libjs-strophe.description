@@ -1,0 +1,10 @@
+Library for writing xmpp clients
+	
+strophe provides the following features:
+
+
+  * xmpp compliant
+  * tls support via schannel, gnutls or openssl
+  * sasl authentication using anonymous, digest-md5 or plain methods
+    as well as legacy jabber authentication
+  * customizable logging and memory management

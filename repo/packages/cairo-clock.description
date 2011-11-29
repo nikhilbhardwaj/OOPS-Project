@@ -1,0 +1,6 @@
+An analog clock drawn with vector-graphics
+	
+it is an analog clock displaying the system-time. it leverages the new visual
+features offered by xorg 7.0 in combination with a compositing-manager (e.g.
+like xcompmgr or compiz), gtk+ 2.10.0, cairo 1.2.0, libglade 2.6.0 and librsvg
+2.14.0 to produce a time display with pretty-pixels.

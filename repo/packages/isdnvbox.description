@@ -1,0 +1,7 @@
+Isdn utilities - answering machine dependency package
+	
+let your debian system be your answering machine! messages can be accessed
+remotely, automatically emailed, etc.
+
+this package depends for convenience on both the vbox server (with which
+the messages are recorded) and the client (with which you listen to them).

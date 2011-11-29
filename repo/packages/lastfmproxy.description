@@ -1,0 +1,7 @@
+Proxy server for the last.fm radio streams
+	
+lastfmproxy allows you to use your regular old audio player
+to listen to the last.fm streams. it does this by acting as
+a player itself, connecting to the server on your behalf,
+but instead of playing the stream, it simply relays it to
+whichever other application connecting to it.

@@ -1,0 +1,17 @@
+Perl implementation of the "adapter" design pattern
+	
+the class::adapter class is intended as an abstract base class for creating
+any sort of class or object that follows the adapter pattern.
+
+the term adapter refers to a "design pattern" of the same name, from the
+famous "gang of four" book "design patterns". although their original
+implementation was designed for java and similar single-inheritance
+strictly-typed langauge, the situation for which it applies is still valid.
+
+an adapter in this perl sense of the term is when a class is created to
+achieve by composition (objects containing other object) something that can't
+be achieved by inheritance (sub-classing).
+
+this is similar to the decorator pattern, but is intended to be applied on a
+class-by-class basis, as opposed to being able to be applied one object at a
+time, as is the case with the decorator pattern.

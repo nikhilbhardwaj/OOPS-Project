@@ -1,0 +1,13 @@
+Utility to calculate long and short path to a location
+	
+gcb computes long and short path given the latitude and longitude
+(degrees and minutes). you must input the lat/long of the two stations.
+the output will then be relative from station1 to station2.
+
+gcb is used by hamradio operators as a tool for pointing the antenna
+in the right direction, either by using the short (daylight) propagation
+path or using the long path, which is almost always via the dark side
+of the earth.
+
+gcb believes the earth to be a perfect circle, which means there will be
+small calculation errors.

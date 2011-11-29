@@ -1,0 +1,7 @@
+Library for accessing gdata webservices - common data files
+	
+libgdata is a glib-based library for accessing online service apis using
+the gdata protocol — most notably, google's services. it provides apis
+to access the common google services, and has full asynchronous support.
+
+this package contains the common data files for libgdata.

@@ -1,0 +1,28 @@
+Sqlite database backend for request-tracker3.8
+	
+request tracker (rt) is a ticketing system which
+enables a group of people to intelligently and efficiently manage
+tasks, issues, and requests submitted by a community of users. it
+features web, email, and command-line interfaces (see the package
+rt3.8-clients).
+
+this package provides the 3.8 series of rt. it can be installed alongside
+the 3.6 series without any problems.
+
+rt is a high-level, portable, platform independent system that eases
+collaboration within organizations and makes it easy for them to take care
+of their customers.
+
+rt manages key tasks such as the identification, prioritization,
+assignment, resolution, and notification required by
+enterprise-critical applications, including project management, help
+desk, noc ticketing, crm, and software development.
+
+this package provides dependencies and dbconfig-common support for
+using request tracker version 3.8 with a local sqlite (version 3) database.
+
+this package will be pulled in by default by request-tracker3.8, but sqlite
+is not recommended for production use.  please see
+/usr/share/doc/request-tracker3.8/notes.debian for more details and
+consider installing rt3.8-db-postgresql or rt3.8-db-mysql instead of this
+package.

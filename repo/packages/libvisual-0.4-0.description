@@ -1,0 +1,14 @@
+Audio visualization framework
+	
+libvisual is a generic visualization framework that allows
+applications to easily access and manage visualization plugins.
+audio visualization is the process of making pretty moving images
+that are correlated in some way to the audio currently being played
+by a media player.  most audio visualization is tied to a specific
+application or media player, making it difficult to share code.
+libvisual allows applications to use existing visualization plugins
+written for the libvisual framework.
+
+this package contains the runtime libraries for libvisual.  libvisual
+is not very useful without visualization plugins, so it is highly
+recommended to install the libvisual-0.4-plugins package.

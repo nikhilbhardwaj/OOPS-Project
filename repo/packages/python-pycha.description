@@ -1,0 +1,6 @@
+Chart-drawing library using cairo
+	
+this package provides a python library for drawing most common charts
+(pie, line, scatter or bar) using cairo as backend.  it aims to be simple to
+use, flexible, lightweight, attractive and customizable but still
+providing sane default settings.

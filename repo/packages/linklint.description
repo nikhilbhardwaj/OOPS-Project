@@ -1,0 +1,15 @@
+A fast link checker and web site maintenance tool
+	
+linklint is a full featured perl program for checking html links:
+
+    * both local and remote site checking
+    * cross referenced and fully hyperlinked output reports
+    * the ability to check password protected areas
+    * support for all standard server-side image maps
+    * reports of orphan files, and files with mismatching case
+    * a report of which urls have changed since last checked
+    * support of proxy servers for remote url checking
+    * come with full documentation.
+
+
+please visit http://www.linklint.org/ for more information.

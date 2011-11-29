@@ -1,0 +1,23 @@
+A lightweight x11 session manager
+	
+lxsession is a lightweight x11 session manager with fewer dependencies,
+designed for use with the lxde(lightweight x11 desktop environment).
+it derived from xsm and have following differences:
+
+ * removed the session dialog from xsm.
+ * stripped down without session restore function.
+ * automaticlly restart specific program if crashes happened.
+ * use better configuration.
+ * provide a nice logout-dialog with the ability to
+   shutdown/reboot/suspend/hibernate via hal or gdm
+ * support halt/reboot ltsp thin clients,
+
+and more....
+
+it's desktop-independent and can be used with any window manager.
+
+as "session manager" lxsession used to automatically start a set of
+applications and set up a working desktop environment
+
+lxsession has also a built-in lightweight xsettings daemon, which can
+configure gtk+ themes, keyboard, and mouse for you on session startup.

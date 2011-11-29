@@ -1,0 +1,5 @@
+Compressing http proxy server
+	
+ziproxy is a forwarding, non-caching and compressing http proxy server.
+basically it squeezes images by converting them to lower quality
+jpegs and compresses (gzip) html and other text-like data.

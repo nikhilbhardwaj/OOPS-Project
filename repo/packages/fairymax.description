@@ -1,0 +1,7 @@
+Xboard compatible chess and chess-variant engine
+	
+fairymax is a program that plays chess and chess variants. it uses the
+xboard/winboard chess-engine protocol to communicate. apart from 'regular'
+chess (also known as the mad-queen variant), it can play capablanca chess,
+gothic chess, knightmate, cylinder chess, berolina chess, superchess and
+courier chess.

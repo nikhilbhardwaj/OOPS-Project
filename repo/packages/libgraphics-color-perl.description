@@ -1,0 +1,6 @@
+Module for manipulating colours in different colour spaces
+	
+graphics::color is a perl module that provides a device- and library-agnostic
+system for creating and manipulating colour definitions in various colour
+spaces. it currently supports colours specified as cmyk, hsl, rgb, yiq and
+yuv.

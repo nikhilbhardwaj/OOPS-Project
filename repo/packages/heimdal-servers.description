@@ -1,0 +1,7 @@
+Heimdal kerberos - server programs
+	
+heimdal is a free implementation of kerberos 5 that aims to be
+compatible with mit kerberos.
+
+this package includes servers such as telnetd and ftpd that have been
+compiled with heimdal support.

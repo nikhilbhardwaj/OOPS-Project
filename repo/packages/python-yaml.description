@@ -1,0 +1,6 @@
+Yaml parser and emitter for python
+	
+python-yaml is a complete yaml 1.1 parser and emitter for python.  it can parse
+all examples from the specification. the parsing algorithm is simple enough to
+be a reference for yaml parser implementors. a simple extension api is also
+provided.  the package is built using libyaml for improved speed.

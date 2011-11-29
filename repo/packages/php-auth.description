@@ -1,0 +1,23 @@
+Php pear modules for creating an authentication system
+	
+the pear::auth package provides methods for creating an authentication
+system using php.
+
+currently it supports the following storage containers to read/write
+the login data:
+
+
+   * all databases supported by the pear database layer
+   * all databases supported by the mdb database layer
+   * all databases supported by the mdb2 database layer
+   * plaintext files
+   * ldap servers
+   * pop3 servers
+   * imap servers
+   * vpopmail accounts (using either pecl vpopmail or pear net_vpopmaild)
+   * radius
+   * samba password files
+   * soap (using either pear soap package or php5 soap extension)
+   * pear website
+   * kerberos v servers
+   * sap servers

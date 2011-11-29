@@ -1,0 +1,19 @@
+Tighten web applications security for apache
+	
+mod_security is an apache module whose purpose is to tighten the web
+application security. effectively, it is an intrusion detection and prevention
+system for the web server.
+
+at the moment its main features are:
+
+  * audit log; store full request details in a separate file, including post
+    payloads.
+  * request filtering; incoming requests can be analysed and offensive requests
+    can be rejected (or simply logged, if that is what you want). this feature
+    can be used to prevent many types of attacks (e.g. xss attacks, sql
+    injection, ...) and even allow you to run insecure applications on your
+    servers (if you have no other choice, of course).
+
+
+in addition to this package the mod-security-common package, which includes
+documentation and configuration examples, will be installed.

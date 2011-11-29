@@ -1,0 +1,8 @@
+Apache web page content wrapper
+	
+mod_layout allows you to create a single look and feel throughout a
+website without using server side includes to "automagically" wrap
+pages in standard headers and footers.
+
+it can be used to to add standard disclaimers to all of the pages on a server,
+add banner ads, etc.

@@ -1,0 +1,11 @@
+Plugins for v_sim (a 3d visualization package)
+	
+this package contains the plugins to be used with v_sim, a 3d
+visualization package for solid state physics. the available plugins are:
+
+ - an input file plugin for the new etsf file format (see http://www.etsf.eu).
+ - an input file plugin using openbabel to import many formats, mainly from
+   the chemistry software (see http://www.openbabel.org).
+ - an input file plugin to read the xcrysden file format.
+ - an input file plugin to read the cube file format introduced by
+   gaussian and used by others like siesta.

@@ -1,0 +1,10 @@
+Measure and display the rate of data across a network connection
+	
+monitor network traffic or speed/progress of a file transfer. the
+program can be used for cases like:
+
+
+ - how long it will take for 38 mib transfer to finish
+ - how quickly is another transfer going
+ - how fast is the upstream on this adsl line
+ - how fast is data written to a filesystem.

@@ -1,0 +1,14 @@
+Network security service tools
+	
+this is a set of tools on top of the network security service libraries.
+this package includes:
+
+ * certutil: manages certificate and key databases (cert7.db and key3.db)
+ * modutil: manages the database of pkcs11 modules (secmod.db)
+ * pk12util: imports/exports keys and certificates between the cert/key
+   databases and files in pkcs12 format.
+ * shlibsign: creates .chk files for use in fips mode.
+ * signtool: creates digitally-signed jar archives containing files and/or
+   code.
+ * ssltap: proxy requests for an ssl server and display the contents of
+   the messages exchanged between the client and server.

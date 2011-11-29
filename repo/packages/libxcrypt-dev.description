@@ -1,0 +1,8 @@
+Development files for crypt library
+	
+libxcrypt is a replacement for libcrypt, which comes with the gnu c
+library. it supports, beside des crypt and md5, passwords with blowfish
+encryption.
+
+this package contains the header files and static libraries, which are
+necessary to develop your own software using libxcrypt.

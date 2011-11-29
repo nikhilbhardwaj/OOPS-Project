@@ -1,0 +1,6 @@
+Base networking utilities (experimental package)
+	
+base utilities for network administration (ifconfig, etc).
+
+warning: the current ifconfig implementation provided is not fully
+compatible with the net-tool's ifconfig version.

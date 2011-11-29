@@ -1,0 +1,10 @@
+Cooperative glib bindings for ocaml (runtime)
+	
+lwt is a library of cooperative threads implemented in monadic style.
+with respect to preemptive threads, cooperative threads are not using
+a scheduler to distribute processor time between threads. instead of
+this, each thread must tell the others that he wants to let them
+work.
+
+this package contains runtime libraries for programs using lwt with
+cooperative glib in your programs.

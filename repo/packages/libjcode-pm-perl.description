@@ -1,0 +1,8 @@
+Perl extension interface to convert japanese text
+	
+jcode.pm is a perl module that handles various japanese charsets.
+it has all features available on jcode.pl plus
+
+ - object-oriented approach on japanese text handling
+ - mime header handling
+ - unicode feature (ucs2 and utf8)

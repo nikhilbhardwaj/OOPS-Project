@@ -1,0 +1,15 @@
+Opencascade cae platform shared library
+	
+opencascade is a suite for 3d surface and solid modeling, visualization, data
+exchange and rapid application development.  it is an excellent platform for
+development of numerical simulation software including cad/cam/cae, aec and
+gis, as well as pdm applications.
+
+this package contains foundation classes which provide a variety of
+general-purpose services such as automated management of heap memory,
+exception handling, classes for manipulating aggregates of data, basic
+math tools.
+
+this package contains the following shared libraries:
+
+  tkernel tkmath tkadvtools tkjcas

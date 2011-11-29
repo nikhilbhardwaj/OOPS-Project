@@ -1,0 +1,10 @@
+Desktop application for managing virtual machines
+	
+it presents a summary view of running domains and their live performance &
+resource utilization statistics. a detailed view presents graphs showing
+performance & utilization over time. ultimately it will allow creation of new
+domains, and configuration & adjustment of a domain's resource allocation &
+virtual hardware.  finally an embedded vnc client viewer presents a full
+graphical console to the guest domain.
+
+note: the gui is still considered experimental.

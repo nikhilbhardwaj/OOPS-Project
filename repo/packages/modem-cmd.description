@@ -1,0 +1,8 @@
+Send arbitrary at commands to your modem
+	
+modem-cmd can be used to send arbitrary at commands to a modem device over
+a serial line.
+
+this means it can be used as a phone dialer:
+
+$ modem-cmd /dev/ttyusb0 atdt123456

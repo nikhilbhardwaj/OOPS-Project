@@ -1,0 +1,15 @@
+Source for the lzma kernel module
+	
+lzma is a compression algorithm, based on the famous lempel ziv
+compression method.
+
+the main characteristics of the algorithm are very good compression,
+fast decompression, use of lot of ram for compression and low usage of
+ram for decompression.
+
+lzma provides high compression ratio and very fast decompression, so it
+is very suitable for embedded applications. for example, it can be used
+for rom (firmware) compression.
+
+this package provides the source code for the lzma kernel modules.
+kernel source and headers are required to compile these modules.

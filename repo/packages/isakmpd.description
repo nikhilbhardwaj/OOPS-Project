@@ -1,0 +1,4 @@
+The internet key exchange protocol openbsd implementation
+	
+ike is a protocol which allow to exchange security information between
+to peers. this implementation requires the native linux ipsec support.

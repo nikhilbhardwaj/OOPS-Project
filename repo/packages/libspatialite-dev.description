@@ -1,0 +1,9 @@
+Geospatial extension for sqlite - development files
+	
+the spatialite extension enables sqlite to support spatial (geometry) data
+in a way conformant to opengis specifications, with both wkt and wkb formats.
+
+spatialite also includes virtualshape and virtualtext to enable accessing
+shapefiles and csv/text files as virtual tables.
+
+this package contains development (static libraries and header files).

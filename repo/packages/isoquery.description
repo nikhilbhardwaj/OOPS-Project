@@ -1,0 +1,10 @@
+Search and display various iso codes (country, language, ...)
+	
+this program can be used to generate a tabular output of the iso standard
+codes provided by the package iso-codes.
+
+it parses the xml files and shows all included iso codes or just
+matching entries, if specified on the command line.
+
+moreover, it's possible to get all available translations for
+the iso standard.

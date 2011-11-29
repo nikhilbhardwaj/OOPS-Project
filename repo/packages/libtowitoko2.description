@@ -1,0 +1,7 @@
+Towitoko smartcard reader pcsc and ct-api driver
+	
+this library provides ct-api and pcsc ifd handler implementation
+for the towitoko smartcard readers.
+
+this package is needed to communicate with the towitoko
+smartcard reader through the pcsc lite resource manager.

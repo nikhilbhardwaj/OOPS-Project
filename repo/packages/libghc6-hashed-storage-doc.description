@@ -1,0 +1,13 @@
+Hashed file storage support code; documentation
+	
+this package provides the documentation for a library for the haskell
+programming language.
+see http://www.haskell.org/ for more information on haskell.
+
+support code for reading and manipulating hashed file storage (where each file
+and directory is associated with a cryptographic hash, for
+corruption-resistant storage and fast comparisons).
+
+the supported storage formats include darcs hashed pristine, a plain
+filesystem tree and an indexed plain tree (where the index maintains hashes of
+the plain files and directories).

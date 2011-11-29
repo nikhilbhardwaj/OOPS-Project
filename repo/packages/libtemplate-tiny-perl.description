@@ -1,0 +1,10 @@
+Lightweight implementation of template toolkit
+	
+template::tiny is a reimplementation of a partial subset of the template
+toolkit, in as few lines of code as possible.
+
+it is intended for use in light-usage, low-memory, or low-cpu templating
+situations, where you may need to upgrade to the full feature set in the
+future, or if you want the familiarity of tt-style templates.
+
+note: this module is experimental and subject to change without notice.

@@ -1,0 +1,8 @@
+Gpg support for thunderbird and debian icedove
+	
+openpgp extension for thunderbird. enigmail allows users to access the
+features provided by the popular gnupg software from within thunderbird.
+
+enigmail is capable of signing, authenticating, encrypting and decrypting
+email. additionally, it supports both the inline pgp format, as well as the
+pgp/mime format as described in rfc 3156.

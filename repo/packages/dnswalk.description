@@ -1,0 +1,5 @@
+Checks dns zone information using nameserver lookups
+	
+dnswalk is a dns debugger.  it performs zone transfers of specified
+domains, and checks the database in numerous ways for internal
+consistency, as well as accuracy.

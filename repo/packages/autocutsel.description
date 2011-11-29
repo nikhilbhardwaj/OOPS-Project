@@ -1,0 +1,12 @@
+Keep the x clipboard and the cutbuffer in sync
+	
+this tracks changes in the server's cutbuffer and clipboard
+selection. when the clipboard is changed, it updates the
+cutbuffer. when the cutbuffer is changed, it owns the clipboard
+selection. the cutbuffer and clipboard selection are always
+synchronized. in the case of a vnc client since it synchronizes the
+windows' clipboard and the server's cutbuffer, all three "clipboards"
+are always kept synchronized. when you copy some text in windows, the
+cutbuffer and the clipboard selection are updated. when you copy text
+on the server using either the cutbuffer or the clipboard selection,
+the windows's clipboard is always updated.

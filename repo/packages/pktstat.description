@@ -1,0 +1,11 @@
+Top-like utility for network connections usage
+	
+pktstat displays a real-time list of active connections seen on a
+network interface, and how much bandwidth is being used by what.
+
+it partially decodes http and ftp protocols to show what filename is
+being transferred, as well as x11 application names. entries hang
+around on the screen for a few seconds so you can see what just
+happened.
+
+it also accepts bpf expressions.

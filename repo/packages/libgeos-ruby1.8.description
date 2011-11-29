@@ -1,0 +1,7 @@
+Geos bindings for ruby
+	
+geos provides a spatial object model and fundamental geometric
+functions. it implements the geometry model defined in the
+opengis consortium simple features specification for sql.
+
+this package contains the ruby bindings for geos.

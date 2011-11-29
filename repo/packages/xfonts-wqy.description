@@ -1,0 +1,16 @@
+Wenquanyi bitmap song cjk font for x
+	
+the wen quan yi bitmap font is a manually fine-tuned multi-strike
+bitmap font for on-screen display of chinese (traditional and simplified).
+it has arguably the most complete coverage for chinese characters among
+all known open-source bitmap fonts, including cjk unified ideograph
+(u4e00 - u9fa5) and cjk unified ideograph extension a (u3400 - u4db5)
+glyphs at four different sizes (9pt-12x12 pixel, 10pt-13x13 pixel,
+11pt-15x15 pixel, 12pt-16x16 pixel) and two weights (medium and bold).
+
+use of this font in web pages and elsewhere eliminates the annoying
+"blurring" problems caused by the high stroke density of many chinese
+characters and insufficient "hinting" of anti-aliased chinese fonts.
+
+this font also provides bitmap glyphs for basic latin,
+japanese hiragana (u3040 - u309f) and katakana (u30a0 - u30ff).

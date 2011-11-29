@@ -1,0 +1,15 @@
+A library for lll-reduction of euclidean lattices, development
+	
+fplll is a library for computing reduced (nearly orthogonal) bases
+for euclidean lattices using the floating-point lll algorithm.
+
+fplll contains multiple different implementations of the
+floating-point lll reduction algorithm, offering multiple different
+speed/guarantees ratios.
+
+it contains a 'wrapper' that chooses the estimated best sequence of
+variants in order to provide a guaranteed output as fast as possible.
+in the case of the wrapper, the succession of variants is oblivious
+to the user.
+
+this package contains development files for libfplll.

@@ -1,0 +1,10 @@
+Dockapp monitoring network interfaces with snmp support
+	
+shows a graph of incoming/outgoing traffic, activity indicators for rx/tx and
+current/maximum rate for rx/tx in bytes or packets.
+
+the snmp input driver can use any if-mib compliant data source such as
+most routers and managed switches.
+
+tailored for use with windowmaker, it will as well work with any other window
+manager though.

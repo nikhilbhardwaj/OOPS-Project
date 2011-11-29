@@ -1,0 +1,10 @@
+Video for linux 2 universal control panel
+	
+v4l2ucp is an universal control panel for v4l and v4l2 devices. it reads
+the description of the controls that the device supports from the device
+device, and presents the user with a graphical means for adjusting those
+controls; it allows for controlling multiple devices.
+
+controls can be updated with the device status either manually, or
+periodically. there is an easy way to reset one or all the controls to their
+default state.

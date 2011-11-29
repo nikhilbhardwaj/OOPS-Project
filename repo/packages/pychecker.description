@@ -1,0 +1,7 @@
+Tool to find common bugs in python source code
+	
+pychecker is a tool for finding common bugs in python source code.
+it finds problems that are typically caught by a compiler for less
+dynamic languages, like c and c++. because of the dynamic nature of python,
+some warnings may be incorrect; however, spurious warnings should be
+fairly infrequent.

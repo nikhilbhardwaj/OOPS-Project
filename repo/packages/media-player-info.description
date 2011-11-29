@@ -1,0 +1,9 @@
+Media player identification files
+	
+media-player-info is a repository of data files describing media player
+(mostly usb mass storage ones) capabilities. these files contain information
+about the directory layout to use to add music to these devices, about the
+supported file formats, and so on.
+
+the music player capabilities are now described in *.mpi files (which are
+ini-like files), together with udev rules to identify these devices.

@@ -1,0 +1,13 @@
+Perl module which communicates with the desktop notifications framework
+	
+this module provides a perl interface to the desktop notifications framework.
+
+the framework allows applications to display pop-up notifications on an x
+desktop.  this is implemented with two components: a daemon that displays the
+notifications, and a client library used by applications to send notifications
+to the daemon.  these components communicate through the dbus message bus
+protocol.
+
+this module serves the same purpose as libnotify, in an object-oriented perl
+interface.  it is not, however, an interface to libnotify itself, but a
+separate implementation of the specification using net::dbus.

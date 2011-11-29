@@ -1,0 +1,9 @@
+Omniorb event service
+	
+omnievents enables corba applications to communicate through
+asynchronous broadcast channels rather than direct method calls. it
+is a small, efficient implementation of the object management group's
+event service specification designed to work with omniorb.
+
+this packages contains the corba event service daemon as a standalone
+executable, and the associated tools.

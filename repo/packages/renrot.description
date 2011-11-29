@@ -1,0 +1,6 @@
+Rename and rotate files according to exif tags
+	
+renrot renames files according the datetimeoriginal and filemodifydate
+exif tags, if they exist. otherwise, the name will be set according to
+the current timestamp. additionally, it rotates jpeg images and their
+thumbnails, using the orientation exif tag.

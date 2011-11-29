@@ -1,0 +1,28 @@
+Fast light window manager (debugging symbols)
+	
+flwm is an attempt to combine the best ideas from several
+window managers. the primary influence and code base is from
+wm2 by chris cannam. primary features copied from wm2 are:
+
+
+ - does not look like windoze.
+ - nifty sideways title bars.
+ - no icons. you deiconify by picking off a pop-up menu.
+   this means no space is wasted by icons.
+ - really small and fast code.
+
+
+it is enhanced by the author's own further nutty ideas:
+
+
+ - does not use shape extension, more standard resize handles.
+ - occupies as little screen space as possible. the border and titles
+   are as thin as you could possibly make them. and maximized
+   windows waste only 15 pixels horizontally and zero (count'em)
+   pixels vertically!
+ - independent maximize buttons for width & height, close button.
+ - understands motif, kde, and gnome window manager hints.
+ - multiple desktops, controlled from the same menu as the icons.
+
+
+this package contains the debugging symbols for flwm.

@@ -1,0 +1,7 @@
+Library to load .glade files at runtime
+	
+this library allows to load externally stored user interfaces into
+programs. this allows alteration of the interface without recompilation
+of the program.
+
+the interfaces can also be edited with glade.

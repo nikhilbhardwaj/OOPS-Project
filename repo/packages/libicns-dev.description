@@ -1,0 +1,10 @@
+Libicns development files
+	
+libicns is a library for manipulation of
+the mac os icns resource format, also known as the iconfamily
+resource type. it can read and write files for the mac os x icns
+format, as well as read from mac os resource files and macbinary
+encoded mac os resource forks.
+
+this package contains development files (static libraries and headers)
+needed to build software using libicns.

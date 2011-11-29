@@ -1,0 +1,7 @@
+Adds inter-ticket dependencies to trac
+	
+this trac plugin adds "blocks" and "blocked by" fields to each
+ticket, enabling you to express dependencies between tickets. it
+also provides a graphvizplugin-based dependency-graph feature
+for those tickets having dependencies specified, allowing you to
+visually understand the dependency tree.

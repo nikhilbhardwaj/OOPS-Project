@@ -1,0 +1,5 @@
+Oracle support functions for postgresql
+	
+this project implements some functions for compatibility with oracle.
+the functionality was verified on oracle 10g, and the module is
+useful for production work.

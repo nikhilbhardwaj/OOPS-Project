@@ -1,0 +1,9 @@
+Tcp/udp socket library for lua 5.0
+	
+luasocket provides a tcp/udp socket library for lua 5.0
+
+also provided are http and smtp implementations, a simple
+ftp implementation and some url parsing functions.
+
+luasocket supports blocking and non-blocking sockets
+and also provides a select() interface to the language.

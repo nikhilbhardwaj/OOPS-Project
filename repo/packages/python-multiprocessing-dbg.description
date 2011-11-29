@@ -1,0 +1,16 @@
+Process-based "threading" interface (debug extension)
+	
+multiprocessing is a package that supports spawning processes using
+an api similar to the threading module. the multiprocessing package
+offers both local and remote concurrency, effectively side-stepping
+the global interpreter lock by using subprocesses instead of
+threads. due to this, the multiprocessing module allows the
+programmer to fully leverage multiple processors on a given machine.
+it runs on both unix and windows.
+
+this is a back port to python 2.4/2.5 of the multiprocessing package
+introduced via pep-371 and python 2.6. this is essentially a
+meta-fork of the original pyprocessing project found at:
+http://pyprocessing.berlios.de/ .
+
+this package contains the debug symbols for python-multiprocessing.

@@ -1,0 +1,4 @@
+Vdr plugin for epg synchronization between vdr systems
+	
+with this plugin you can import the epg of a remote vdr. it can either
+use svdrp or streamdev's vtp to download the epg.

@@ -1,0 +1,10 @@
+An automated system for building latex documents
+	
+this is a building system for latex documents. it is based on a routine that
+runs just as many compilations as necessary. the module system provides a
+great flexibility that virtually allows support for any package with no user
+intervention, as well as pre- and post-processing of the document. the
+standard modules currently provide support for bibtex, dvips, dvipdfm,
+pdftex, makeindex. a good number of standard packages are supported,
+including graphics/graphicx with automatic conversion between various
+graphics formats and metapost compilation.

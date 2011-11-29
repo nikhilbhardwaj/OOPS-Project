@@ -1,0 +1,19 @@
+Debugging symbols for use with libeina
+	
+eina is a multi-platform library that provides optimized data types and a few
+tools. it supports the following data types:
+
+ - array
+ - hash table
+ - double-linked list
+ - red-black tree
+ - shared string
+ - access content types
+   + accessor: can access items of a container randomly
+   + iterator: can access items of a container sequentially
+
+
+this package contains unstripped shared libraries. it is provided primarily
+to provide a backtrace with names in a debugger, this makes it somewhat easier
+to interpret core dumps. the libraries are installed in /usr/lib/debug and
+are automatically used by gdb.

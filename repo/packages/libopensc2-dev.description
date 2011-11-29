@@ -1,0 +1,13 @@
+Opensc development files
+	
+opensc provides a set of libraries and utilities to access smart
+cards.  it mainly focuses on cards that support cryptographic
+operations. it facilitates their use in security applications such as
+mail encryption, authentication, and digital signature. opensc
+implements the pkcs#11 api. applications supporting this api, such as
+iceweasel and icedove, can use it. opensc implements the pkcs#15
+standard and aims to be compatible with all software that does so as
+well.
+
+this package contains files necessary for developing applications
+with the libopensc libraries from opensc.org.

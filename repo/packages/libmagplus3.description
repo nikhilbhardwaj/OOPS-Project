@@ -1,0 +1,18 @@
+Ecmwf meteorological plotting software library
+	
+magics++ is the latest generation of the ecmwf's meteorological plotting
+software magics. although completely redesigned in c++, it is intended to be
+as backwards-compatible as possible with the fortran interface.
+besides its programming interfaces (fortran and c), magics++ offers magml,
+a plot description language based on xml aimed at automatic web production.
+
+the library supports the plotting of contours, wind fields, observations,
+satellite images, symbols, text, axis and graphs (including boxplots).
+
+data fields to be plotted may be presented in various formats,
+for instance grib 1 and 2 code data, gaussian grid, regularly spaced grid
+and fitted data. input data can also be in bufr and netcdf format
+or retrieved from an odb database.
+
+the produced meteorological plots can be saved in various formats,
+such as postscript, eps, pdf, gif, png, svg and kml.

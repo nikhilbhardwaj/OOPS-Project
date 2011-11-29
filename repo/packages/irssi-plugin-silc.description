@@ -1,0 +1,9 @@
+Silc plugin for irssi
+	
+silc (secure internet live conferencing) is a network protocol designed
+to provide end-to-end security for conferencing services. silc has a
+command set and a user interface similar to irc, but the network
+protocol is completely different as it supports public key strong
+cryptography and a different network model.
+
+this package provides a plugin to connect to silc networks using irssi.

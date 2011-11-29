@@ -1,0 +1,6 @@
+Nss module that names the current gateway’s ip address
+	
+this name service switch (nss) module resolves the name “gateway.localhost” to
+the ip of the current default gateways of the system. this allows easy access
+to router configuration and to check if connectivity problems are local or
+not.

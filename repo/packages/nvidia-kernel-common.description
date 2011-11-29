@@ -1,0 +1,7 @@
+Nvidia binary kernel module support files
+	
+this package contains support files used for any version of the nvidia
+kernel module.  it sets up udev and consolekit rules, ensures the nvidia
+control device is created, associates the nvidia card with the correct
+kernel module, and performs any other tasks required for the module to
+work properly.

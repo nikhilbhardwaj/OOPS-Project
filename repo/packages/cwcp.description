@@ -1,0 +1,6 @@
+Ncurses frontend to unixcw
+	
+cwcp is  a curses-based interactive morse code tutor program.
+it allows menu selection from a number of sending modes, and also permits
+character sounding options, such as the tone pitch, and sending speed,
+to be varied from the keyboard using a full-screen user interface.

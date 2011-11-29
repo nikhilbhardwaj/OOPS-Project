@@ -1,0 +1,15 @@
+Ice for ruby modules
+	
+ice, the internet communications engine, is middleware for the
+practical programmer developed by zeroc inc. a high-performance
+internet communications platform, ice includes a wealth of layered
+services and plug-ins.
+
+ice is built on concepts which will be familiar to corba programmers,
+and supports a wide variety of programming languages and runtime
+platforms.
+
+this package contains the ruby module required to run/develop
+applications with ice for ruby.  you will find further information in
+the zeroc home page (http://www.zeroc.com/ice.html) and in the
+non-free package zeroc-ice-manual.

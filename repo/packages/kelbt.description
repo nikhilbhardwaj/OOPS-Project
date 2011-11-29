@@ -1,0 +1,27 @@
+Backtracking lr parser generator
+	
+kelbt generates backtracking lalr(1) parsers. standard lalr(1) parser
+generators emit an error upon encountering a conflict in the parse tables.
+kelbt forges onward, generating parsers which handle conflicts by backtracking
+at runtime. kelbt is able to generate a parser for any context-free grammar and
+therefore implements a generalized parsing method.
+
+kelbt is different from other backtracking lr systems in two ways. first, it
+elevates backtracking to the level of semantic actions by introducing a class
+of actions called undo actions. undo actions are invoked as the backtracker
+undoes parsing and allow the user to revert any side effects of forward
+semantic actions. this makes it possible to backtrack over language constructs
+which must modify global state in preparation for handling context
+dependencies.
+
+second, kelbt enables a user-controlled parsing strategy which approximates
+that of generalized recursive-descent parsing with ordered choice. this makes
+it easy for the user to resolve language ambiguities by ordering the grammar
+productions of a non-terminal according to precedence. it is approximate in the
+sense that for most grammars the equivalent of an ordered choice parsing
+strategy is achieved. in cases where productions are parsed out of the order
+given, there is a simple grammar transformation which remedies the problem.
+
+as a proof of concept, kelbt has been used to write a partial c++ parser
+(included) which is composed of strictly a scanner, a name lookup stage and a
+grammar with standard semantic actions and semantic undo actions.

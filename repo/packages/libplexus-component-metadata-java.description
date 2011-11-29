@@ -1,0 +1,23 @@
+Component metadata maven plugin for plexus
+	
+the plexus project provides a full software stack for creating and executing
+software projects. based on the plexus container, the applications can
+utilise component-oriented programming to build modular, reusable components
+that can easily be assembled and reused.
+
+while plexus is similar to other inversion-of-control (ioc) or dependency
+injection frameworks such as the spring framework, it is a full-fledged
+container that supports many more features such as:
+
+
+    * component lifecycles
+    * component instantiation strategies
+    * nested component-metadata
+    * component configuration
+    * auto-wiring
+    * component dependencies, and
+    * various dependency injection techniques including constructor injection,
+      setter injection, and private field injection.
+
+
+this package provides the maven plugin generating the component metadata.

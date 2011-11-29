@@ -1,0 +1,4 @@
+PackageId:5643
+Name:globus-gram-job-manager-setup-condor
+Version:4.4-1
+Deps:globus-common-progs,globus-gass-cache-program,globus-gram-job-manager-scripts,perl

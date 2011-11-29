@@ -1,0 +1,6 @@
+Terminal-based remote package update manager
+	
+apt-dater provides an easy to use ncurses frontend for managing package
+updates on a large number of remote hosts using ssh and apt-dater-host.
+it supports debian-based managed hosts as well as opensuse and centos based
+systems.

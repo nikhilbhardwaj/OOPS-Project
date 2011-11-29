@@ -1,0 +1,13 @@
+Subversion activity notification
+	
+svn::notify provides a class and an interface to notify
+by email subversion repository changes.
+
+it is able to inform about the files changed in a commit
+and send the appropriate diff files.
+
+an additional class (svn::notify::html) is provided to
+manage html formatted emails.
+
+please, consider installing a mta if you are planning to
+use sendmail instead of --smtp-* options.

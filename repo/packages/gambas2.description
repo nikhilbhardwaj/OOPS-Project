@@ -1,0 +1,10 @@
+Complete visual development environment for gambas
+	
+gambas is a programming language based on a basic interpreter with
+object extensions - like visual basic, though it is not a clone!
+it has many components for developing internationalized,
+desktop-independent, database- and network-enabled applications.
+even games can be developed very quickly using its rad environment.
+
+this package doesn't include anything: it is a metapackage to install the
+ide and all the available gambas components..

@@ -1,0 +1,8 @@
+Library for program launch feedback (development headers)
+	
+startup-notification is a library which allows programs to give the user
+visual feedback that they are being launched; this is typically implemented
+using a busy cursor. this library is currently used by gnome programs, but
+is part of the freedesktop.org suite of cross-desktop libraries.
+
+this package contains the development headers.

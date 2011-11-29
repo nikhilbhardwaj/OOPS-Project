@@ -1,0 +1,6 @@
+Graphical interface for bazaar using the qt toolkit
+	
+qbzr is a cross-platform gui frontend for bazaar, based on the qt toolkit.
+
+it provides some extra commands to bzr: qannotate, qbrowse, qcat,
+qcommit, qconfig, qdiff, qlog, qpull and qpush.

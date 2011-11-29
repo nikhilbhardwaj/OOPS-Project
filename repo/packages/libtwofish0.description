@@ -1,0 +1,8 @@
+Niels ferguson's twofish cryptographic library -- runtime package
+	
+this package contains the runtime shared library of the twofish
+cryptographic algorithm. this shared library might be called experimental,
+since the original author niels ferguson has cancelled maintenance, the source
+being in the public domain.
+
+runtime library. see also libtwofish-dev.

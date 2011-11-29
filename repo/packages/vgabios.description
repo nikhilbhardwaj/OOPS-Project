@@ -1,0 +1,7 @@
+Vga bios software for the bochs and qemu emulated vga card
+	
+the goal of this project is to provide a video bios for bochs and qemu.
+this vga bios is very specific to the bochs/qemu emulated vga card.
+
+warning: it is not meant to drive a physical vga card. you will probably
+fry it if you try. you have been warned.

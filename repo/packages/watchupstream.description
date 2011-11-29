@@ -1,0 +1,5 @@
+Look for newer upstream releases
+	
+the program watchupstream is a command line tool that uses uscan and
+debian/watch files to see whether there are newer upstream releases for the
+selected debian packages.

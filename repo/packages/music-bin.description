@@ -1,0 +1,9 @@
+Multi-simulation coordinator for mpi -- utilities
+	
+music allows spike events and continuous time series to be
+communicated between parallel applications within the same mpi job in
+a cluster computer.  typical usage cases are connecting models
+developed for different simulators and connecting a parallel
+simulator to a post-processing tool.
+
+this package contains the music launch utility.

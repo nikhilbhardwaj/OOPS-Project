@@ -1,0 +1,7 @@
+Generates the metadata necessary for a rpm package repository
+	
+this tool will generates all xml metadata required by a rpm (redhat package
+manager) package repository.
+
+this repository format is supported by apt, red-carpet(zen), smart, up2date,
+yast and yum.

@@ -1,0 +1,7 @@
+3d client of the worldforge project
+	
+ember is a client framework for worldforge. it's not meant to be a
+standalone game, instead its purpose is to provide a solid and extensible
+base from which to build game-specific clients. one of the goals of ember
+is to allow for easy customization of the codebase. currently it supports
+the game world of mason.

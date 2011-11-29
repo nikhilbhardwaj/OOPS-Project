@@ -1,0 +1,8 @@
+Erlang/otp manual pages
+	
+documentation for the erlang programming language in `man' format. this
+documentation can be read using the command `erl -man mod', where `mod'
+is the name of the module you want documentation on.
+
+this package contains all erlang/otp manual pages from sections other
+than 1. they document erlang/otp modules, config files and applications.

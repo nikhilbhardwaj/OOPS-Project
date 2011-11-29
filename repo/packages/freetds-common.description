@@ -1,0 +1,8 @@
+Configuration files for freetds sql client libraries
+	
+freetds is an implementation of the tabular datastream protocol, used for
+connecting to ms sql and sybase servers over tcp/ip.
+
+this package manages the configuration files that are common to all of
+the tds client library implementations (ct-lib, db-lib, and odbc),
+stored in /etc/freetds/.

@@ -1,0 +1,12 @@
+Tool for extracting/scrubbing versioning data from pdf documents
+	
+pdfresurrect is a tool for analyzing and manipulating revisions to
+pdf documents (sometimes known as adobe acrobat files). the pdf format
+allows for previous changes to be retained in a revised version of the
+document, thereby keeping a running history of revisions to the document.
+
+this tool extracts all previous revisions while also producing a summary
+of changes between revisions. it can also "scrub" or write data over the
+original instances of pdf objects that have been modified or deleted, in
+an effort to disguise information from previous versions that might not
+be intended for anyone else to read.

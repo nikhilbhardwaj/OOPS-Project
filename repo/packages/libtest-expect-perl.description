@@ -1,0 +1,9 @@
+Automated driving and testing of terminal-based programs
+	
+test::expect is a module for automated driving and testing of
+terminal-based programs.  it is handy for testing interactive programs
+which have a prompt, and is based on the same concepts as the tcl
+expect tool.  as in expect::simple, the expect object is made
+available for tweaking.
+
+test::expect is intended for use in a test script.

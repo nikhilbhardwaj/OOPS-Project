@@ -1,0 +1,8 @@
+Module to associate user-defined magic to variables from perl
+	
+variable::magic is perl way of enhancing objects. this mechanism lets the user
+add extra data to any variable and hook syntaxical operations (such as access,
+assignment or destruction) that can be applied to it.
+
+with this module, you can add your own magic to any variable without having
+to write a single line of xs.

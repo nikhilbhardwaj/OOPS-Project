@@ -1,0 +1,11 @@
+Command line acpi client (debug)
+	
+acpitool is a linux acpi client. it's a small command line application,
+intended to be a replacement for the apm tool. the primary target audience are
+laptop users, since these people are most interested in things like battery
+status, thermal status and the ability to suspend (sleep mode). the program
+simply accesses the /proc/acpi or /sysfs entries to get or set acpi values.
+it also supports various extensions for toshiba, asus, and ibm thinkpad
+laptops.
+
+this package contains the debugging symbols.

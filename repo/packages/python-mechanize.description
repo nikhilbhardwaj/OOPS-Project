@@ -1,0 +1,17 @@
+Stateful programmatic web browsing
+	
+a library for browsing the web in python. mechanize acts like a browser
+allowing you to do web scraping, functional testing of web sites and
+things no one has thought of yet.
+
+among other things, mechanize:
+
+ * follows links
+ * fills in html forms
+ * automatically observes robots.txt
+ * has a browser history
+
+
+it was modelled after the perl module www::mechanize.
+
+homepage: http://wwwsearch.sourceforge.net/mechanize/

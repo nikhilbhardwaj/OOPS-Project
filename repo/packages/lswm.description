@@ -1,0 +1,8 @@
+Wiimote discover utility
+	
+cwiid is a working userspace driver along with various
+applications implementing event drivers, multiple wiimote
+connectivity, gesture recognition, and other wiimote-based
+functionality.
+
+this packages provides an utility to discover new wiimotes.

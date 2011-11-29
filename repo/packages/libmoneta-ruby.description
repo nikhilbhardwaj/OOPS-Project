@@ -1,0 +1,9 @@
+Ruby interface to multiple key/value stores
+	
+moneta is a ruby library to interface with a variety of key/value stores.
+out of the box it supports: xattr, basic file, memcache, in-memory,
+datamapper, s3, berkeley db, redis, sdbm, tokyo, couchdb.
+
+this package is a dependency package, which depends on the package
+containing actual ruby moneta library for the default ruby version
+(currently 1.8).

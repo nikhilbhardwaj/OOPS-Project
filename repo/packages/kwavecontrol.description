@@ -1,0 +1,12 @@
+Wireless device monitoring application for kde
+	
+features:
+
+  - monitoring ip address, link quality, signal level, noise level,
+    protocol, frequency, channel, transmit power, encryption,
+    mac address of the access point, sent and received by count and
+    nickname.
+  - monitoring or adjusting (as root) the bit rate, operation mode,
+    sensitivity and essid.
+  - configurable polling time.
+  - docking in the panel

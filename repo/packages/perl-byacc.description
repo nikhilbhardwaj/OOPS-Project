@@ -1,0 +1,7 @@
+The berkeley lalr parser generator, perl version
+	
+yacc reads the grammar specification in a file
+and generates an lr(1) parser for it. the parsers consist
+of a set of lalr(1) parsing tables and a driver routine
+written in the c programming language.
+this version is able to produce perl programs.

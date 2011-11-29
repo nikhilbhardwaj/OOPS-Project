@@ -1,0 +1,5 @@
+S-lang bindings to the sqlite3 database library
+	
+the s-lang module contained in this package provides bindings to the
+sqlite3 database engine.  this module can be used in slsh (the s-lang
+shell), in the jed editor, and in the news reader slrn.

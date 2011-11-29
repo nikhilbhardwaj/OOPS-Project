@@ -1,0 +1,9 @@
+The dictionary conversion tools of stardict
+	
+stardict is a cross-platform and international dictionary written in
+gtk+ 2.x with gnome 2 support. it has powerful features such as
+"glob-style pattern matching", "scan selection word", "fuzzy query",
+etc.
+
+this package contains the dictionary conversion tools which can convert
+dictionaries of dict, wquick, mova and pydict to stardict format

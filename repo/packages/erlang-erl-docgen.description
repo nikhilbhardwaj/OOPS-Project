@@ -1,0 +1,5 @@
+Erlang/otp documentation stylesheets
+	
+the erl_docgen package includes xslt stylesheets and document type
+definitions used for erlang/otp documentation. they allow to
+transform documentation to manpage, html, and pdf formats.

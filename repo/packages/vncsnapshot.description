@@ -1,0 +1,8 @@
+A utility that takes jpeg snapshots from vnc servers
+	
+vnc snapshot is a command-line program for vnc. it will save a jpeg
+image of the vnc server's screen.
+
+to use this you must be able to connect directly to the vnc server via
+a tcp connection.  it does not yet work for connections tunnelled over
+ssh.

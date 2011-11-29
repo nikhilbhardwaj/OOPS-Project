@@ -1,0 +1,8 @@
+Python wbem client and provider interface
+	
+pywbem is a python library that implements a web based enterprise
+management (wbem) client.  it performs wbem operations using the
+cim-xml and cim operations over http protocols as defined by the
+distributed management task force (dmtf).  wbem is used to remotely
+describe and manage distributed computing environments.  it is a peer
+and perhaps successor to the snmp protocol.

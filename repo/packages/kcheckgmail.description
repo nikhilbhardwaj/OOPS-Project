@@ -1,0 +1,12 @@
+A gmail notifier-like notifier for kde
+	
+kcheckgmail is a kde systray application which checks gmail accounts for
+new mail.
+
+some features include:
+
+ * new email notifications displaying message subject.
+ * customisable check interval, web browser and more.
+ * support for gmail's simple (pure html) and full interfaces.
+ * customisable search.
+ * kwallet support.

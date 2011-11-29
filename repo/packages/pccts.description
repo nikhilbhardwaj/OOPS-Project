@@ -1,0 +1,13 @@
+The purdue compiler construction tool set (pccts).
+	
+pccts consists of another tool for language recognition (antlr), a
+dfa-based lexical analyzer generator (dlg) and assorted other utilities
+designed for the construction of compilers and other language translators.
+antlr is a parser generator which generates recursive descent parsers which
+are easier to debug than the table driven bottom-up parsers created by yacc.
+it also provides support for the automatic generation of abstract syntax
+trees (ast's).
+many projects have stopped using pccts and moved on to antlr, which is
+also packaged for debian.  new projects should probably look there first.
+however pccts will be maintained in debian as long as there is interest in
+doing so.

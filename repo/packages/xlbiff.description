@@ -1,0 +1,11 @@
+X literate biff. displays from and subject lines of your new mail
+	
+xlbiff lurks in the background, monitoring your mailbox file (normally
+/var/spool/mail/<yourusername>).  when something shows up there, it
+invokes the mh scan(1) command and displays the output in a window.
+if more mail comes in, it scans again and resizes accordingly.
+
+clicking the left mouse button anywhere in the window causes it to
+vanish.  it will also vanish if you inc(1) and the mailbox becomes
+empty.  xlbiff is modeled after xconsole -- its job is to sit invisibly
+and pop up only when something demands your attention.

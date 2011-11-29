@@ -1,0 +1,13 @@
+Gettext localization for ruby programs using activerecord
+	
+this package provides the localization for activerecord-2.2 or later
+using ruby-gettext-package. this support consists in:
+
+* validation messages translation
+* model translation
+
+  * extract messages from models with the rake task.
+
+
+this is a dummy package depending on the library for the current default
+version of ruby.

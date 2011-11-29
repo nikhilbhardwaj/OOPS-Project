@@ -1,0 +1,10 @@
+Zope.interface extension for defining data schemas
+	
+schemas extend the notion of interfaces to detailed descriptions of
+attributes (but not methods).  every schema is an interface and
+specifies the public fields of an object.  a *field* roughly
+corresponds to an attribute of a python object.  but a field provides
+space for at least a title and a description.  it can also constrain
+its value and provide a validation method.  besides you can optionally
+specify characteristics such as its value being read-only or not
+required.

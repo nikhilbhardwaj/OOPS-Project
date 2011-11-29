@@ -1,0 +1,4 @@
+PackageId:2538
+Name:customdeb
+Version:0.1
+Deps:debhelper,devscripts,libfile-copy-recursive-perl,libfile-temp-perl,perl-modules,libparse-debcontrol-perl,libparse-debianchangelog-perl,perl

@@ -1,0 +1,7 @@
+Graphical key manager for apt
+	
+the graphical frontend to the apt-key utility (gak) provides an easy
+to use interface to maintain digital keys for apt.  they are required
+to authenticate debian archives and prevent malicious packages to
+creep in.
+.

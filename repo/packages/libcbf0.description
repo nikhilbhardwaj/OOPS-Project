@@ -1,0 +1,7 @@
+Shared library supporting cbflib
+	
+cbflib is a library of ansi-c functions providing a simple mechanism
+for accessing crystallographic binary files (cbf files) and
+image-supporting cif (imgcif) files.
+
+this package contains the shared library.

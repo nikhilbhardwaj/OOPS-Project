@@ -1,0 +1,8 @@
+Jdom xpath engine
+	
+a xpath engine for jdom, created by the werken & sons company.
+
+it's not overly useful by itself, but rather needs an (currently in
+development) implementation of xpointer, xslt, or other xpath-based
+specification.  werken.xpath is merely an engine which can parse xpaths,
+and walk jdom <http://www.jdom.org/> trees.

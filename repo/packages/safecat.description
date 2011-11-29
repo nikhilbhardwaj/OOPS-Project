@@ -1,0 +1,6 @@
+Safely copy stdin to a file
+	
+safecat is a program which implements daniel bernstein's maildir
+algorithm to copy stdin safely to a file in a specified directory.
+it can be used to write mail messages to a qmail-style maildir, or to
+write data to a "spool" directory reliably.

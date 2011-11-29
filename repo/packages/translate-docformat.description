@@ -1,0 +1,8 @@
+Any-to-any document translation system
+	
+this is a command-line front end to various document format translation
+programs to facilitate the translation of documents from one format
+to another.
+
+currently it supports major formats like docbook, linuxdoc, debiandoc,
+and tex, translating to html, ps and text.

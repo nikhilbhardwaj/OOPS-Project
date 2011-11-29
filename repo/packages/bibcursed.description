@@ -1,0 +1,15 @@
+An interactive program to edit bibtex bibliographies
+	
+bibcursed is a simple program to make life a little easier when using
+bibtex bibliographies. it currently provides these main functions:
+
+
+ - adding references to your bibliography. this is done with
+   prompts so templates for the different entries (article,
+   proceedings, etc) do not have to be remembered. error checking is
+   used so that the required fields have to be supplied, and incorrect
+   fields cannot be entered.  new entries are inserted into the
+   'correct' place in the bibtex file
+ - clean and easy removal of entries
+ - viewing of entries and changing of fields
+ - easy searching of entries, including search by field

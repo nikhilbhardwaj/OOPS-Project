@@ -1,0 +1,5 @@
+Oracle to postgresql database schema converter
+	
+this package contains a perl module and a companion script to convert an
+oracle database schema to postgresql and to migrate the data from an
+oracle database to a postgresql database.

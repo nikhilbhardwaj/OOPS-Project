@@ -1,0 +1,4 @@
+PackageId:32458
+Name:systemtap-server
+Version:1.2-5
+Deps:avahi-utils,libc6,libc6-udeb,libc6.1,libc6.1-udeb,libgcc1,libnspr4-0d,libnss3-1d,libnss3-tools,libstdc++6,libunwind7,net-tools,freebsd-net-tools,systemtap,systemtap-client,unzip,zip

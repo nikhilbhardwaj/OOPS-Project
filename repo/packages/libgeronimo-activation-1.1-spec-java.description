@@ -1,0 +1,16 @@
+Java activation framework implementation from apache geronimo
+	
+apache geronimo is an open source application server developed by the apache
+software foundation and distributed under the apache license. geronimo is
+currently compatible with the java enterprise edition (java ee) 5.0
+specification.
+
+the javabeans activation framework (jaf) extension to java allows developers
+to determine the type of an arbitrary piece of data, to encapsulate access to
+it, to discover the operations available on it, and to instantiate the
+appropriate bean to perform said operation(s). for example, if a browser
+obtained a png image, jaf would help the browser to identify that stream of
+data as a png image, and the browser can instantiate an object to display that
+image.
+
+another dfsg free jaf implementation is available from the glassfish project.

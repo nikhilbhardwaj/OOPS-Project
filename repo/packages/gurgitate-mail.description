@@ -1,0 +1,7 @@
+E-mail processor and filter with configuration files in ruby
+	
+gurgitate-mail is a mail filter that is small and easy to use. the
+configuration files in ruby programming language make gurgitate-mail flexible
+and powerful. it can sort your incoming mail, pipe them through another
+program or do whatever processing you program in one of its configuration
+file. it can store mails in folders of mbox or maildir formats.

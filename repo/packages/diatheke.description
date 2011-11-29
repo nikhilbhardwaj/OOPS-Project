@@ -1,0 +1,11 @@
+Command line bible browsing and search tool
+	
+the sword project is an open source, cross-platform (linux, windows, solaris,
+macosx etc.) api/library for bible software with a constantly growing list
+of front-ends (gui, textmode, web-based, etc.) and a library of over 200
+text modules.
+
+this package contains a command line utility for sword, allowing
+bible browsing and searching. this tool is used mostly only for
+library testing. nicer front-ends are xiphos (gtk), bibletime (qt)
+and others.

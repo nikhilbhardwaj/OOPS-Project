@@ -1,0 +1,9 @@
+Jack audio plugin for the allegro library
+	
+this plugin adds support for the jack low-latency sound server to the
+allegro library. programs using allegro will automatically use this
+plugin if jack is running.
+
+allegro is a cross-platform library intended for use in computer
+games and other types of multimedia programming. it is used by many
+dos games and can be used to port them easily to linux.

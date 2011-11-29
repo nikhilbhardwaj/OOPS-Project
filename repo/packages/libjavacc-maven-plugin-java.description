@@ -1,0 +1,19 @@
+Maven plugin which uses javacc to process javacc grammar files
+	
+this plugin uses the javacc parser generator to process javacc grammar
+files and generate the appropriate java source files. for general
+information about javacc, see the  javacc web site.
+
+javacc grammar files use the extension .jj. this plugin can be used to
+locate and process all grammar files within a specified directory. java
+source files will be written to a common generated-sources output
+directory, typically located in the build output directory. by default,
+the plugin will run during the generate-sources phase, but it can be
+configured to run in other phases as well.
+
+the plugin can also be used to call the jjtree and jtb tools.
+
+finally, this plugin contains a goal for running jjdoc. jjdoc is a
+simple tool that generates bnf documentation for the javacc grammar
+files. this can be used to generate a report for your project site using
+the maven reporting tools.

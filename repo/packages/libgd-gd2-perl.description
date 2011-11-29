@@ -1,0 +1,27 @@
+Perl module wrapper for libgd - gd2 variant
+	
+this is a autoloadable interface module for libgd, a popular library
+for creating and manipulating png files.  with this library you can
+create png images on the fly or modify existing files.  features
+include:
+
+
+ * lines, polygons, rectangles and arcs, both filled and unfilled
+ * flood fills
+ * the use of arbitrary images as brushes and as tiled fill patterns
+ * line styling (dashed lines and the like)
+ * horizontal and vertical text rendering
+ * support for transparency and interlacing
+ * support for truetype font rendering, via libfreetype.
+ * support for spline curves, via gd::polyline
+ * support for symbolic font names, such as "helvetica:italic"
+ * support for symbolic color names, such as "green", via gd::simple
+ * produces output in png, gif, jpeg and xbm format
+ * produces output in svg format via gd::svg.
+
+
+included with the example code is the perl script qd.pl with quickdraw
+routines for generating pict2 files (used on apple macintosh).
+
+this package is linked against libgd2, with xpm (x pixmap)
+support.

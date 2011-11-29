@@ -1,0 +1,35 @@
+Machine emulator for multiple architectures
+	
+gxemul aims at emulating complete machines with enough hardware
+emulated to run real unmodified operating systems. the emulation of
+these machine types is good enough to run a least one guest operating
+system:
+
+arm-based machines:
+
+ * cats (netbsd/cats, openbsd/cats)
+ * iq80321 (netbsd/evbarm)
+ * netwinder (netbsd/netwinder)
+
+mips-based machines:
+
+ * decstation 5000/200 (netbsd/pmax, openbsd/pmax, ultrix,
+   linux/decstation, sprite)
+ * acer pica-61 (netbsd/arc)
+ * nec mobilepro 770, 780, 800, 880 (netbsd/hpcmips)
+ * malta (netbsd/evbmips
+ * algorithmics p5064 (netbsd/algor)
+ * sgi o2 (aka ip32) (netbsd/sgi) (enough for root-on-nfs)
+
+powerpc-based machines:
+
+ * ibm 6050/6070 (prep, powerpc reference platform) (netbsd/prep)
+
+superh-based machines:
+
+ * sega dreamcast (netbsd/dreamcast) (enough for ramdisk userland)
+
+
+other machine types and architectures are emulated less completely.
+see the documentation in the gxemul-doc package for the exact details
+and guides to installing guest operating systems.

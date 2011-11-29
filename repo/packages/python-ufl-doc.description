@@ -1,0 +1,10 @@
+Documentation and demos for ufl
+	
+ufl (unified form language) is a unified language for definition of
+variational forms intended for finite element discretization. more precisely,
+it defines a fixed interface for choosing finite element spaces and defining
+expressions for weak forms in a notation close to mathematical notation.
+the form compilers ffc and syfi use ufl as their end-user interface,
+producing ufc implementations as their output.
+
+this package contains documentation and demos for ufl.

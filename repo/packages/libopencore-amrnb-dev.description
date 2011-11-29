@@ -1,0 +1,7 @@
+Adaptive multi rate speech codec - development files
+	
+this library contains an implementation of the 3gpp ts 26.073 specification for
+the adaptive multi rate (amr) speech codec. the implementation is derived from
+the opencore framework, part of the google android project.
+
+this package contains the files necessary for development.

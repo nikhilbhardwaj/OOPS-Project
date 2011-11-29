@@ -1,0 +1,13 @@
+A simple application launcher
+	
+this panel applet provides an application launcher developed by the fuss
+project, which uses apt-xapian-index to find applications given a few
+keywords.
+
+since the index also contains debian package information, keyword search is
+not limited to the application name and short description provided by desktop
+files.
+
+you can also drag a file into fuss launcher to see the applications that can
+open it. fuss launcher also remembers frequently used applications and allows
+to build a quick-launch list of user favourites.

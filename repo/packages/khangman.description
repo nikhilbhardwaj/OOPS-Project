@@ -1,0 +1,10 @@
+Hangman word puzzle for kde
+	
+khangman is the well-known hangman game, aimed towards children aged 6 and
+above.
+
+it picks a random word which the player must reveal by guessing if it contains
+certain letters.  as the player guesses letters, the word is gradually
+revealed, but 10 wrong guesses will end the game.
+
+this package is part of the kde education module.

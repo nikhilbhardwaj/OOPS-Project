@@ -1,0 +1,10 @@
+Automatic inflation/deflation of epoch-based datetime objects for dbix::class
+	
+dbix::class::datetime::epoch automatically inflates/deflates datetime objects
+from/to epoch values for the specified columns. this module is essentially an
+extension to dbix::class::inflatecolumn::datetime so all of the settings,
+including "locale" and "timezone", are also valid.
+
+dbix::class::timestamp can also be used in conjunction with this module to
+support epoch-based columns that are automatically set on creation of a row
+and updated subsequent modifications.

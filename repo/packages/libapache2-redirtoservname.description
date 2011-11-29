@@ -1,0 +1,7 @@
+Apache 2 module to redirect users to the canonical hostname
+	
+this module can automatically issue a http redirect if someone accesses your
+server with anything other than the canonical hostname. it is most useful if
+you want people to be able to enter your hostname without "www." or have
+multiple domains in different tlds that should all be redirected to the same
+site.

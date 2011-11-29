@@ -1,0 +1,4 @@
+Infiniband aware netstat like program
+	
+the package provides a netstat like program which is aware
+of the infiniband sockets direct protocol (sdp).

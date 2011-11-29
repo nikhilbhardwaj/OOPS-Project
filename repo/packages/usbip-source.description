@@ -1,0 +1,6 @@
+Usb device sharing system over ip network (kernel module source)
+	
+usb/ip is a system for sharing usb devices over the network.
+
+this package provides kernel module sources used by module-assistant
+to build usbip modules.

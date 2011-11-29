@@ -1,0 +1,7 @@
+Daemon for nss and pam lookups using ldap
+	
+this package provides a daemon for retrieving user account, and other
+system information from ldap.
+
+it is used by the libnss-ldapd and libpam-ldapd packages but by itself is
+not very useful.

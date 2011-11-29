@@ -1,0 +1,9 @@
+Bitronix jta transaction manager
+	
+the bitronix transaction manager (btm) is a simple but complete implementation
+of the jta 1.0.1b api. it is a fully working xa transaction manager that
+provides all services required by the jta api while trying to keep the code as
+simple as possible for easier understanding of the xa semantics. this is btm's
+strongest point compared to its competitors: it is trivial to configure and
+when something goes wrong it is much easier to figure out what to do thanks to
+the great care placed in useful error reporting and logging.

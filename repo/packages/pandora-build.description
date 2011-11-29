@@ -1,0 +1,4 @@
+Build macros for libdrizzle, libmemcached, drizzle and gearmand
+	
+pandora-build supplies common checks for compiler flags, warnings and other
+portability issues encountered using autoconf on those projects.

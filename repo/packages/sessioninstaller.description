@@ -1,0 +1,16 @@
+Apt based installer using packgekit's session dbus api
+	
+sessioninstaller allows applications to easily install additional software
+(e.g. extensions or gsreamer codecs), uninstall files and perform simple
+software status queries by implementing the distribution neutral
+d-bus session interface of packagekit.
+
+the whole process including confirmation, error reporting and progress
+and notification is handled by sessioninstaller.
+
+the reference implementation of the d-bus interface can be found in
+gnome-packagekit. it was also adpoted by kpackagekit.
+
+in contrast to gnome-packagekit and kpackagekit it doesn't use the packagekit
+daemon for querying and installation, but instead makes use of apt and
+aptdaemon (alternatively synaptic can be used).

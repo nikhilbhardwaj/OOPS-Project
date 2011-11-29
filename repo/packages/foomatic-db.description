@@ -1,0 +1,11 @@
+Openprinting printer support - database
+	
+foomatic is a printing system designed to make it easier to set up
+common printers for use with debian (and other operating systems).
+it provides the "glue" between a print spooler (like cups or lpr) and
+your actual printer, by telling your computer how to process files
+sent to the printer.
+
+this package contains the printer database distributed by
+openprinting for most common drivers.  you will probably need
+the foomatic-db-engine package for this package to be useful.

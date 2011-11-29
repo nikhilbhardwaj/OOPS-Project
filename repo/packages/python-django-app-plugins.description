@@ -1,0 +1,6 @@
+Plugin system for django
+	
+allow 3rd party apps to dynamically insert template inclusions into your
+apps at pre-defined plugin points. similar to how eclipse manages plugins
+via contributors.you could think of this as the reverse of the {% block %}
+or {% include %} tags.

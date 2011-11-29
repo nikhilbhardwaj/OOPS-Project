@@ -1,0 +1,8 @@
+Figure out the long (fully-qualified) hostname
+	
+this module determines the host full name on multiple operating
+systems (macos, windows, unix-like systems; more later.)
+
+the sys::hostname class is the best and standard way to get the basic
+hostname, but that may not be fully qualified.  this module tries to
+determine the host's fully qualified name.

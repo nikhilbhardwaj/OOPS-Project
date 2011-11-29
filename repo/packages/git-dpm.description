@@ -1,0 +1,5 @@
+Git debian package manager
+	
+manage debian source packages in an git archive, storing
+possible changes to the upstream source as git commits that
+are stored in "3.0 (quilt)" format patch series.

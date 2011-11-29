@@ -1,0 +1,8 @@
+Portability libraries: run-time package
+	
+provides a joystick interface, a simple gui built on top of opengl,
+some standard geometry functions, a sound library and a simple scene
+graph api built on top of opengl.
+
+this package provides the shared libraries. it should be installed
+automatically by packages which need it.

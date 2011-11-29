@@ -1,0 +1,7 @@
+Small scale reflection extension for coq (plugin)
+	
+this package is part of ssreflect, the small scale reflection
+extension for coq. it provides a new tactic language, which promotes
+more structured, concise and robust proof scripts, and is in fact
+independent from the "reflection" proof style. it is implemented as a
+linkable extension to the coq system.

@@ -1,0 +1,15 @@
+Build daemon aiming at rebuilding debian packages
+	
+this software allows you to manage a set of jobs. each job is a package
+rebuilding task. rebuilding is done by pbuilder (or cowbuilder if you want),
+or anything else, since everything is customizable via configuration file.
+it can also send build logs by email, event each log can be sent to a different
+email address.
+
+rebuildd is multi-threaded, so you can run multiple build jobs in parallel.
+it is also administrable via a telnet interface. a web interface is also
+embedded so you can see your jobs queue and watch log file in real-time in your
+browser.
+
+rebuildd is designed to be run on multiple hosts even with different
+architecture set, and to parallelize the rebuild tasks.

@@ -1,0 +1,22 @@
+An object/document-oriented database (client apps)
+	
+mongodb is a high-performance, open source, schema-free
+document-oriented  data store that's easy to deploy, manage
+and use. it's network accessible, written in c++ and offers
+the following features :
+
+
+   * collection oriented storage - easy storage of object-
+     style data
+   * full index support, including on inner objects
+   * query profiling
+   * replication and fail-over support
+   * efficient storage of binary data including large
+     objects (e.g. videos)
+   * auto-sharding for cloud-level scalability (q209)
+
+
+high performance, scalability, and reasonable depth of
+functionality are the goals for the project.
+
+this package contains the various client applications.

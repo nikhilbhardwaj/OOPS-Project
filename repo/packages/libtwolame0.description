@@ -1,0 +1,14 @@
+Mpeg audio layer 2 encoding library
+	
+twolame is an optimized mpeg audio layer 2 encoder. it is based on toolame by
+mike cheng, which in turn is based upon the iso dist10 code and portions of
+lame.
+
+twolame does not support mpeg audio layer 3 (mp3) encoding due to patent
+issues surrounding mp3.
+
+however, as most mpeg audio players are able to play layer 2 (mp2) files,
+twolame makes a very good drop-in replacement for lame and other layer 3
+encoders.
+
+this package contains the shared library.

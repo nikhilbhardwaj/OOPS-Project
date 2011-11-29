@@ -1,0 +1,12 @@
+Lightweight multi-tabbed x terminal emulator - minimalistic version
+	
+mrxvt is a multi-tabbed color vt102 terminal emulator for x window system. it
+features multi-tab support, fast pseudo-transparent background, user supplied
+xpm/jpeg/png images for background, tinting, off-focus fading, text shadow,
+next/rxvt/xterm/sgi/plain style scrollbars, xim and multi-languages
+(chinese/korea/japanese), and logging.
+
+mrxvt does not require kde or gnome desktop environment.
+
+this package contains a minimalistic version of mrxvt compiled without
+any additional features.

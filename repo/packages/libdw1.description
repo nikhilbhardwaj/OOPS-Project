@@ -1,0 +1,6 @@
+Library that provides access to the dwarf debug information
+	
+libdw1 provides a library that provides access to dwarf debug information
+stored inside elf files.
+
+this library is part of elfutils.

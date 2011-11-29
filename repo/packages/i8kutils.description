@@ -1,0 +1,15 @@
+Utilities for dell inspiron and latitude laptops
+	
+this is a collection of utilities to control dell inspiron and latitude
+laptops. it includes programs to turn the fan on and off, to read fan
+status, cpu temperature, bios version and to handle the volume buttons
+and fn-keys.
+
+the package includes also a small tk applet, designed to be swallowed in
+the gnome panel, which monitors the cpu temperature and controls
+automatically the fans accordingly to user defined thresholds.
+
+the programs require the kernel module i8k.o which can be compiled from
+the package sources or found in linux kernel 2.4.14 and later versions.
+the kernel module has been tested only on inspiron 8000 laptops but it
+should work on any inspiron and latitude laptops.

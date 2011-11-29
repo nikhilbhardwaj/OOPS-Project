@@ -1,0 +1,11 @@
+A small run-time speech synthesis engine - static libraries
+	
+flite is a small fast run-time speech synthesis engine.  it is the
+latest addition to the suite of free software synthesis tools
+including university of edinburgh's festival speech synthesis system
+and carnegie mellon university's festvox project, tools, scripts and
+documentation for building synthetic voices.  however, flite itself
+does not require either of these systems to run.
+
+this extra package provides the flite static libraries
+and header files.

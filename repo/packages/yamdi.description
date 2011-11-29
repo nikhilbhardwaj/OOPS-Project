@@ -1,0 +1,5 @@
+A utility for adding metadata to flash video files
+	
+yamdi is a fast console application for adding various metadata to flv files.
+the program buffers its input file, rather than loading into memory in its
+entirety.

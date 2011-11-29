@@ -1,0 +1,10 @@
+Convert text file line endings between crlf and lf
+	
+this package includes two utilities to handle conversion of the text
+file line ending: dos2unix and mac2unix. the text files stored under
+windows and dos typically have two ascii characters at the end: the
+cr followed by lf code. the unix and linux store text files ending
+only to lf and older macs stored the files ending to cr. while modern
+editors can read any one of them, there may be need to convert files
+to one format or another.
+this is the classic utility developed 1989.

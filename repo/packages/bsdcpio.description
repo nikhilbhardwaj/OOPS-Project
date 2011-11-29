@@ -1,0 +1,32 @@
+Cpio(1) from freebsd, using libarchive
+	
+this package provides an interface similar to cpio(1), but using
+libarchive as the backend for the archiving and extraction of data.
+it can read cpio, tar, pax, zip, jar, ar, and iso9660 images and provides
+similar features to the bsdtar package.  features include:
+
+
+ * automatic format detection. libarchive automatically detects the
+   compression (none/gzip/bzip2) and format (old tar, ustar, gnutar,
+   pax, cpio, iso9660, zip) when reading archives. it does this for
+   any data source.
+
+
+
+ * pax interchange format support. this is a posix/susv3 extension to
+   the old "ustar" tar format that adds arbitrary extended attributes
+   to each entry. does everything that gnu tar format does, only
+   better.
+
+
+
+ * handles file flags, acls, arbitrary pathnames, etc. pax interchange
+   format supports key/value attributes using an easily-extensible
+   technique. arbitrary pathnames, group names, user names, file sizes
+   are part of the posix standard; libarchive extends this with
+   support for file flags, acls, and arbitrary device numbers.
+
+
+
+ * gnu tar support. libarchive reads most gnu tar archives. if there
+   is demand, this can be improved further.

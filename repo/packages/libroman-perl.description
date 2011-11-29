@@ -1,0 +1,7 @@
+Perl module for converting between roman and arabic numerals
+	
+the roman module provides some functions which help conversion of numeric
+notation between roman and arabic.
+
+domain of valid roman numerals is limited to less than 4000, since proper
+roman digits for the rest are not available in ascii.

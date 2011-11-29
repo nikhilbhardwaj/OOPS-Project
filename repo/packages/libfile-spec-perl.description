@@ -1,0 +1,9 @@
+Collection of tools for working with paths across platforms
+	
+file::spec is a perl module that provides a variety of modules and routines
+useful for working with paths and file specifications in a cross-platform
+manner. it also includes cwd.
+
+please note that the modules from this package are already included in any
+standard perl installation since version 5.4.5; this package is provided
+for those that need newer versions of this distribution.

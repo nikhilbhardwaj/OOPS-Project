@@ -1,0 +1,17 @@
+Perl module for reformatting whitespace for pretty printing xml
+	
+this module can be used as a perlsax filter to reformat an xml
+document before sending it to a perlsax handler that prints it (like
+xml::handler::composer).
+
+like xml::filter::detectws, it detects ignorable whitespace and
+blocks of whitespace characters in certain places.  it uses this
+information and information supplied by the user to determine where
+whitespace may be modified, deleted or inserted.  based on the indent
+settings, it then modifies, inserts and deletes characters and
+ignorable_whitespace events accordingly.
+
+this is just a first stab at the implementation.  it may be buggy and
+may change completely!
+
+the suggested package is only needed for the example 'pretty.pl'

@@ -1,0 +1,20 @@
+Mail server independent mailing list manager
+	
+a mailing list manager with roughly the same functionality as ezmlm.
+
+
+ mlmmj features:
+ * archive
+ * custom headers / footer
+ * fully automated bounce handling (similar to ezmlm)
+ * complete requeueing functionality
+ * moderation functionality
+ * subject prefix
+ * subscribers only posting
+ * regular expression access control
+ * functionality to retrieve old posts
+ * web-interface
+ * digests
+ * no mail delivery subscription
+ * verp support
+ * delivery status notification (rfc1891) support

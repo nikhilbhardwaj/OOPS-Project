@@ -1,0 +1,10 @@
+Cairo-dock - clock plug-in
+	
+a collection of official plug-ins and applets for cairo-dock.
+
+this plug-in displays time and date in your dock.
+two view are available : numeric and analogic, based on cairo-clock.
+this is compatible with the cairo-clock's themes, and you can detach itself to
+be a perfect clone of cairo-clock.
+and this supports alarms, and a basic calendar, and allows you to setup time
+and date.

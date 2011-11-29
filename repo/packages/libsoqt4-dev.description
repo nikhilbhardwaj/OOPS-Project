@@ -1,0 +1,15 @@
+Qt4 gui component toolkit for inventor - development
+	
+soqt is a qt gui component toolkit library for coin, based on the
+api of the inventorxt gui component toolkit.  soqt is also compatible
+with openinventor of sgi and tgs.
+
+soqt provides a class-hierarchy of viewer classes that ranges from a
+simple render canvas (the soqtrenderarea), providing only the basic
+synchronization and device input conversion routines between qt and
+coin, up to 3 different full-featured viewer classes
+(soqtexaminerviewer, soqtplaneviewer and soqtflyviewer) with input
+device handling logic and user interfaces to let the application
+programmer do rapid application development.
+
+this library is linked against qt version 4.

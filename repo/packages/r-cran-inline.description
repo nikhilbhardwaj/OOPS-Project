@@ -1,0 +1,5 @@
+Gnu r package to inline c, c++, fortran functions from r
+	
+this package provides functionality to dynamically define r functions and s4
+methods with in-lined c, c++ or fortran code supporting .c and .call calling
+conventions.

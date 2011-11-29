@@ -1,0 +1,6 @@
+Permutation to block triangular form library for sparse matrices
+	
+suitesparse is a collection of libraries for computations involving
+sparse matrices.  this package includes the following dynamic library:
+
+btf         permutation to block triangular form (beta)
